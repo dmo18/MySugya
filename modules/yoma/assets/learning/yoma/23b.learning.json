@@ -225,7 +225,10 @@
         "coreTension": "Priestly service is normally defined by its finery, every garment is meant to honor the One being served. Ash removal seems to break that pattern by mandating lesser garments, which could be read as treating this mitzvah as less sacred than the rest of the daily service.",
         "coreMove": "The Gemara explains the downgrade is about protecting the fine garments, not demoting the task: a proverb captures it, one does not wear the clothes used for cooking when pouring wine for one's master. The worn garments are still valid, fully kosher priestly vestments, not street clothes, so the priest remains dressed for sacred service throughout. The detailed rules that follow, a minimum fistful taken from the actual ash pile, a fixed placement east of the ramp, and a specific destination for each of the three ash types, show that ash removal carries its own full set of halachic requirements rather than being treated as incidental cleanup.",
         "resolution": "Ash removal uses worn but still-valid priestly garments to spare the fine vestments from soiling, takes a minimum fistful from the altar's ash pile, and routes the ash to one of three distinct destinations depending on its source: outer altar ash beside the ramp, inner altar ash to its own designated area, and menorah ash entirely outside the Temple.",
-        "takeaway": {"type": "legal_principle", "text": "A service performed in lesser garments is not a lesser service. The choice of garment protects the finer vestments for their proper use; it does not signal that the task itself matters less."},
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "A service performed in lesser garments is not a lesser service. The choice of garment protects the finer vestments for their proper use; it does not signal that the task itself matters less."
+        },
         "ahaMoment": "The worn-garment rule is not about ash removal being unworthy of fine dress, it is about fine dress being unworthy of ash. Saving the good garments for the service where they will be seen, while still requiring valid priestly vestments for this one, holds both ideas at once: every act is fully sacred, and not every act calls for the same dress.",
         "learningBlocker": "Learners may expect the sugya to fully explain why ash removal, unlike most Temple services, can be performed with the left hand. The text states this as a ruling and gives it a brief reason (its different halakhic character) without elaborating further on what specifically makes it different; the deeper rationale is not developed in this passage.",
         "memoryAnchor": "Ash removal: worn (but valid) garments. Fistful minimum, from the actual pile. East of ramp. Left hand acceptable. Outer altar ash = ramp side; inner altar ash = designated area; menorah ash = outside the Temple."
@@ -448,455 +451,455 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Rashi: opens 'she does not bring an axed heifer' - as it is written (Deuteronomy 21): 'if a corpse is found in the land'",
+      "en": "Opens 'it does not bring the eglah arufah': as it is written (Deuteronomy 21): 'if a slain body is found on the ground'",
       "linkedGemaraLineIds": [
         "yoma-023b-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Rashi: concludes - etc., 'to possess it' - and Jerusalem is not a possession, since he holds it was not divided among the tribes.",
+      "en": "closing: etc., 'to possess it' - and Jerusalem was not possessed, since he holds that it was not divided among the tribes.",
       "linkedGemaraLineIds": [
         "yoma-023b-l01"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "Rashi: opens and closes 'the Talmud' - a proof. Then opens 'thus we read in Torat Kohanim: and he shall remove and wear' - one might think",
+      "en": "Opens 'the Gemara': proof.' Then opens 'thus we read in Torat Kohanim: and he shall take off and put on - one might think",
       "linkedGemaraLineIds": [
         "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Rashi: continues - in the manner of Yom Kippur; the verse teaches 'his garments' means garments; and the version in the Talmud extends",
+      "en": "continuing: for the Yom Kippur mitzvah, [so] the verse teaches: his garments, garments' - and the version found in the Talmud elaborates",
       "linkedGemaraLineIds": [
         "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "Rashi: continues - in its wording, restating: one might think, in the manner of Yom Kippur,",
+      "en": "continuing: in its wording: I might understand it in the manner of Yom Kippur,",
       "linkedGemaraLineIds": [
         "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 6,
-      "en": "Rashi: continues - that he removes the sacred garments and wears ordinary garments.",
+      "en": "continuing: where he takes off the sacred garments and puts on ordinary garments;",
       "linkedGemaraLineIds": [
         "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 7,
-      "en": "Rashi: continues - the verse teaches, etc., and this is its explanation: 'and he shall remove",
+      "en": "continuing: the verse teaches, etc. - and this is its meaning: 'and he shall take off",
       "linkedGemaraLineIds": [
-        "yoma-023b-l15"
+        "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 8,
-      "en": "Rashi: continues - and wear' - stated regarding the removal of the ash on the tapuach,",
+      "en": "continuing: and put on,' stated regarding the removal of the ash from the ash-heap,",
       "linkedGemaraLineIds": [
-        "yoma-023b-l15"
+        "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 9,
-      "en": "Rashi: continues - outside the camp, the verse written after the [first] removal of",
+      "en": "continuing: outside the camp, the verse written after the terumat",
       "linkedGemaraLineIds": [
-        "yoma-023b-l15"
+        "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 10,
-      "en": "Rashi: continues - the ash: 'and he shall remove his garments and wear garments",
+      "en": "continuing: hadeshen: 'and he shall take off his garments and put on garments'",
       "linkedGemaraLineIds": [
-        "yoma-023b-l15"
+        "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 11,
-      "en": "Rashi: continues - etc.' - one might think it obligates him to change",
+      "en": "continuing: etc. - one might think it imposes an obligation on him to change",
       "linkedGemaraLineIds": [
-        "yoma-023b-l15"
+        "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 12,
-      "en": "Rashi: continues - his garments between the [first] removal and the [second] carrying-out; if he comes",
+      "en": "continuing: his garments between the terumah and the removal, if he comes",
       "linkedGemaraLineIds": [
-        "yoma-023b-l15"
+        "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 13,
-      "en": "Rashi: continues - to carry out the ash that is on the tapuach, right after",
+      "en": "continuing: to remove the ash upon the ash-heap right after",
       "linkedGemaraLineIds": [
-        "yoma-023b-l15"
+        "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 14,
-      "en": "Rashi: continues - the removal, immediately, just as it is obligatory upon",
+      "en": "continuing: the removal, in the manner that it is obligatory upon",
       "linkedGemaraLineIds": [
-        "yoma-023b-l15"
+        "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 15,
-      "en": "Rashi: continues - the High Priest in the five services that are on the day",
+      "en": "continuing: the High Priest in the five services of Yom",
       "linkedGemaraLineIds": [
-        "yoma-023b-l15"
+        "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 16,
-      "en": "Rashi: continues - of Yom Kippur, that he changes his garments in all the services",
+      "en": "continuing: Kippur, where he changes his garments in all the services,",
       "linkedGemaraLineIds": [
-        "yoma-023b-l15"
+        "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 17,
-      "en": "Rashi: continues - from one to the next: the first in golden garments, the second",
+      "en": "continuing: between one and the next - the first in golden garments, the second",
       "linkedGemaraLineIds": [
-        "yoma-023b-l15"
+        "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 18,
-      "en": "Rashi: continues - in white garments, the third in golden again, the fourth",
+      "en": "continuing: in white garments, the third again in golden, the fourth",
       "linkedGemaraLineIds": [
-        "yoma-023b-l15"
+        "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 19,
-      "en": "Rashi: continues - in white garments; so too he should change here too; and as for the fact there is no need",
+      "en": "continuing: in white garments - so too this one should change; but this one, who has",
       "linkedGemaraLineIds": [
-        "yoma-023b-l15"
+        "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 20,
-      "en": "Rashi: continues - for him to change from white garments to golden garments,",
+      "en": "continuing: no need to change from white garments to golden garments,",
       "linkedGemaraLineIds": [
-        "yoma-023b-l15"
+        "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 21,
-      "en": "Rashi: continues - since he is now an ordinary person and does not serve in",
+      "en": "continuing: since he is an ordinary priest and does not serve in golden",
       "linkedGemaraLineIds": [
-        "yoma-023b-l15"
+        "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 22,
-      "en": "Rashi: continues - golden garments, he should change into the sacred garments in which he performed the removal,",
+      "en": "continuing: garments, should change into the sacred garments in which he removed",
       "linkedGemaraLineIds": [
-        "yoma-023b-l15"
+        "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 23,
-      "en": "Rashi: continues - as it is stated: 'and the priest shall don his linen vestment... and he shall remove",
+      "en": "continuing: it, as it is said: 'and the priest shall put on his linen tunic,' and take off",
       "linkedGemaraLineIds": [
-        "yoma-023b-l15"
+        "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 24,
-      "en": "Rashi: continues - them and don his own ordinary garments, and carry out",
+      "en": "continuing: them and put on his own ordinary clothes and take out",
       "linkedGemaraLineIds": [
-        "yoma-023b-l15"
+        "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 25,
-      "en": "Rashi: concludes - the ash. Then opens 'the verse teaches: his garments - garments'",
+      "en": "closing: the ash.' Then opens 'the verse teaches: his garments, garments'",
       "linkedGemaraLineIds": [
-        "yoma-023b-l18"
+        "yoma-023b-l12"
       ]
     },
     {
       "vilnaLine": 26,
-      "en": "Rashi: continues - and why does it teach 'others'? Lesser",
+      "en": "continuing: and what does it teach by saying 'others' - lesser",
       "linkedGemaraLineIds": [
         "yoma-023b-l18"
       ]
     },
     {
       "vilnaLine": 27,
-      "en": "Rashi: continues - than them, such as worn ones, or of flax that is not",
+      "en": "continuing: than them: such as worn garments, or of linen that is not",
       "linkedGemaraLineIds": [
         "yoma-023b-l18"
       ]
     },
     {
       "vilnaLine": 28,
-      "en": "Rashi: continues - lustrous, and not expensive, since the ash",
+      "en": "continuing: dyed and not costly, since the ash",
       "linkedGemaraLineIds": [
         "yoma-023b-l18"
       ]
     },
     {
       "vilnaLine": 29,
-      "en": "Rashi: continues - would soil them when he carries it outside the camp; it would be a disgrace",
+      "en": "continuing: soils them when he carries it outside the camp - it would be a disgrace",
       "linkedGemaraLineIds": [
         "yoma-023b-l18"
       ]
     },
     {
       "vilnaLine": 30,
-      "en": "Rashi: continues - for a king to serve in them at the altar",
+      "en": "continuing: to the King for him to serve in them at the altar",
       "linkedGemaraLineIds": [
         "yoma-023b-l18"
       ]
     },
     {
       "vilnaLine": 31,
-      "en": "Rashi: concludes - in a service involving eating. Then opens 'others, and he shall carry out' -",
+      "en": "closing: in the service of consumption.' Then opens 'others, and he shall take out' -",
       "linkedGemaraLineIds": [
         "yoma-023b-l18"
       ]
     },
     {
       "vilnaLine": 32,
-      "en": "Rashi: continues - taught about priests with blemishes. This",
+      "en": "continuing: taught concerning priests with blemishes. This",
       "linkedGemaraLineIds": [
         "yoma-023b-l18"
       ]
     },
     {
       "vilnaLine": 33,
-      "en": "Rashi: continues - 'others' refers to the priest, meaning: priests",
+      "en": "continuing: word 'others' refers to the priest, meaning: priests",
       "linkedGemaraLineIds": [
         "yoma-023b-l18"
       ]
     },
     {
       "vilnaLine": 34,
-      "en": "Rashi: continues - who are 'others,' distanced from the other services,",
+      "en": "continuing: who are 'others,' kept apart from the other services,",
       "linkedGemaraLineIds": [
         "yoma-023b-l18"
       ]
     },
     {
       "vilnaLine": 35,
-      "en": "Rashi: concludes - are valid for this service. Then opens 'he should not mix wine in them'",
+      "en": "closing: are fit for this service.' Then opens 'let him not pour wine in them' -",
       "linkedGemaraLineIds": [
         "yoma-023b-l21"
       ]
     },
     {
       "vilnaLine": 36,
-      "en": "Rashi: continues DH - for his master' - since they became smoky and soiled",
+      "en": "continuing: for his master': since they had been smoked and soiled",
       "linkedGemaraLineIds": [
         "yoma-023b-l21"
       ]
     },
     {
       "vilnaLine": 37,
-      "en": "Rashi: continues - from cooking a pot; so too here, regarding the removal of",
+      "en": "continuing: in cooking the pot, so too here regarding the removal of",
       "linkedGemaraLineIds": [
         "yoma-023b-l21"
       ]
     },
     {
       "vilnaLine": 38,
-      "en": "Rashi: continues - the ash, it is not the king's honor to serve in them",
+      "en": "continuing: the ash, it is not befitting the King's honor to serve in them for",
       "linkedGemaraLineIds": [
         "yoma-023b-l21"
       ]
     },
     {
       "vilnaLine": 39,
-      "en": "Rashi: concludes - for another service. Then opens and closes 'like the dispute regarding carrying out' -",
+      "en": "closing: any other service.' Then opens 'like the dispute about the removal' -",
       "linkedGemaraLineIds": [
         "yoma-023b-l24"
       ]
     },
     {
       "vilnaLine": 40,
-      "en": "Rashi: continues - just as Rabbi Eliezer validates those with",
+      "en": "continuing: just as Rabbi Eliezer validates blemished priests",
       "linkedGemaraLineIds": [
         "yoma-023b-l24"
       ]
     },
     {
       "vilnaLine": 41,
-      "en": "Rashi: concludes - blemishes for the carrying-out, so he validates them for the lifting-up too.",
+      "en": "closing: for the removal, so he validates them for the lifting.",
       "linkedGemaraLineIds": [
         "yoma-023b-l24"
       ]
     },
     {
       "vilnaLine": 42,
-      "en": "Rashi: opens 'that is valid with two vessels' - and here, 'his linen vestment'",
+      "en": "Opens 'that it is valid with two garments': for here, 'his measure of linen'",
       "linkedGemaraLineIds": [
         "yoma-023b-l27"
       ]
     },
     {
       "vilnaLine": 43,
-      "en": "Rashi: concludes - and 'linen trousers' is what is written. Then opens 'the Torah revealed'",
+      "en": "closing: and 'linen breeches' is what is written.' Then opens 'the Merciful One revealed'",
       "linkedGemaraLineIds": [
-        "yoma-023b-l29"
+        "yoma-023b-l27"
       ]
     },
     {
       "vilnaLine": 44,
-      "en": "Rashi: continues DH - in the tunic and the trousers' - and it teaches you that it is not",
+      "en": "continuing: 'in the tunic and the breeches': and this teaches you that it is not",
       "linkedGemaraLineIds": [
         "yoma-023b-l29"
       ]
     },
     {
       "vilnaLine": 45,
-      "en": "Rashi: continues - valid in his own ordinary garments, and on your own you",
+      "en": "continuing: valid with his own ordinary clothes, and you learn on your own",
       "linkedGemaraLineIds": [
         "yoma-023b-l29"
       ]
     },
     {
       "vilnaLine": 46,
-      "en": "Rashi: continues - learn that it is a service and requires even the turban",
+      "en": "continuing: that it is a service and requires also the turban",
       "linkedGemaraLineIds": [
         "yoma-023b-l29"
       ]
     },
     {
       "vilnaLine": 47,
-      "en": "Rashi: concludes - and the sash. Then opens 'why are these different' - since it mentions, seeing that",
+      "en": "closing: and sash.' Then opens 'why are these different': that it singles them out, since",
       "linkedGemaraLineIds": [
         "yoma-023b-l31"
       ]
     },
     {
       "vilnaLine": 48,
-      "en": "Rashi: continues - all of them are needed, he should be silent about them, yet I",
+      "en": "continuing: all of them are needed - I should keep silent about them, and I",
       "linkedGemaraLineIds": [
         "yoma-023b-l31"
       ]
     },
     {
       "vilnaLine": 49,
-      "en": "Rashi: continues - know it, since it is written of them 'priest,' 'service'",
+      "en": "continuing: would know from what is written regarding them that it is a priestly service",
       "linkedGemaraLineIds": [
         "yoma-023b-l31"
       ]
     },
     {
       "vilnaLine": 50,
-      "en": "Rashi: concludes - is meant. Then opens 'his measure, according to his stature' - here it teaches you",
+      "en": "closing: nonetheless.' Then opens 'his measure - like his own measure': here it teaches you",
       "linkedGemaraLineIds": [
         "yoma-023b-l31"
       ]
     },
     {
       "vilnaLine": 51,
-      "en": "Rashi: continues - that the priests' tunic should be to the measure of his height,",
+      "en": "continuing: that the priests' tunics should be to the measure of his own height,",
       "linkedGemaraLineIds": [
         "yoma-023b-l31"
       ]
     },
     {
       "vilnaLine": 52,
-      "en": "Rashi: continues - neither dragging nor hiked up, and thus we say",
+      "en": "continuing: neither trailing nor gathered up, and so we say",
       "linkedGemaraLineIds": [
         "yoma-023b-l31"
       ]
     },
     {
       "vilnaLine": 53,
-      "en": "Rashi: concludes - in tractate Zevachim (18a). Then opens and closes 'he shall wear, upon his flesh' -",
+      "en": "continuing: in Zevachim (18a).' Then opens 'he shall wear upon his flesh' -",
       "linkedGemaraLineIds": [
-        "yoma-023b-l34"
+        "yoma-023b-l31"
       ]
     },
     {
       "vilnaLine": 54,
-      "en": "Rashi: continues - implying he dons it while naked, that there is nothing",
+      "en": "continuing: implying that he wears it while still naked, that nothing is",
       "linkedGemaraLineIds": [
-        "yoma-023b-l34"
+        "yoma-023b-l31"
       ]
     },
     {
       "vilnaLine": 55,
-      "en": "Rashi: continues - upon him except his own skin; for if you do not say so,",
+      "en": "continuing: on him but his own flesh, for if you do not say so,",
       "linkedGemaraLineIds": [
-        "yoma-023b-l34"
+        "yoma-023b-l31"
       ]
     },
     {
       "vilnaLine": 56,
-      "en": "Rashi: concludes - why is 'upon his flesh' written? Then opens and closes 'and according to Reish Lakish' -",
+      "en": "closing: why would it write 'upon his flesh' at all?' Then opens 'and according to Reish Lakish' -",
       "linkedGemaraLineIds": [
-        "yoma-023b-l34"
+        "yoma-023b-l31"
       ]
     },
     {
       "vilnaLine": 57,
-      "en": "Rashi: continues - who says: they were written precisely, meaning to say",
+      "en": "continuing: who says they are written precisely, and to say",
       "linkedGemaraLineIds": [
         "yoma-023b-l34"
       ]
     },
     {
       "vilnaLine": 58,
-      "en": "Rashi: continues - that it does not require four; he derives",
+      "en": "continuing: that it does not require four - he derives",
       "linkedGemaraLineIds": [
         "yoma-023b-l34"
       ]
     },
     {
       "vilnaLine": 59,
-      "en": "Rashi: continues - these two expositions from the language of the verse, which changed its wording: since it did not write 'tunic,' to teach 'his measure, according to his stature'; and that nothing should precede the trousers, from the extra 'upon his flesh' he derives",
+      "en": "continuing: these two teachings from the wording of the verse, which changed its language, not writing 'tunic,' to indicate 'his measure - like his own measure,' and that nothing should precede the breeches, from the extra 'upon his flesh'",
       "linkedGemaraLineIds": [
         "yoma-023b-l34"
       ]
     },
     {
       "vilnaLine": 60,
-      "en": "Rashi: concludes - it. Then opens 'upon his flesh, why does it teach it' - regarding the lifting of the ash it is written 'and the priest shall don,' etc., and it should have written 'and linen trousers upon his flesh'; and it also refers back to the 'he shall wear' of",
+      "en": "closing: he derives it.' Then opens 'upon his flesh, what does it teach': regarding the lifting of the ash it is written 'and the priest shall put on,' etc., and it should have written 'and linen breeches upon his flesh,' and it also repeats 'shall wear' from the beginning",
       "linkedGemaraLineIds": [
         "yoma-023b-l36"
       ]
     },
     {
       "vilnaLine": 61,
-      "en": "Rashi: concludes - the verse's opening; why does it teach 'again, he shall wear' regarding the trousers? To include another wearing similar to it, thereby adding the two garments missing here from the ordinary priesthood. Then opens 'Rabbi Dosa'",
+      "en": "closing: of the verse - what does it teach? Again 'shall wear' with the breeches, to include another wearing similar to it, and it adds the two garments missing here from ordinary priesthood.' Then opens 'Rabbi'",
       "linkedGemaraLineIds": [
-        "yoma-023b-l39"
+        "yoma-023b-l36"
       ]
     },
     {
       "vilnaLine": 62,
-      "en": "Rashi: continues DH - says' - to include the four white garments that the High Priest used on Yom Kippur, which are valid for an ordinary priest all year, derived by a verbal analogy of 'he shall wear'... 'he shall wear' from there, lest you say",
+      "en": "continuing: 'Dosa says': to include the four white garments which the High Priest used on Yom Kippur, which are valid for an ordinary priest all year, deriving 'shall wear, shall wear' from there, so that you not say",
       "linkedGemaraLineIds": [
         "yoma-023b-l39"
       ]
     },
     {
       "vilnaLine": 63,
-      "en": "Rashi: concludes - since 'and he shall leave them there' is written of them, that they require interment - for Rabbi Dosa holds that 'and he shall leave them there' means so that he not use them for another Yom Kippur, as we say in the first chapter (12b).",
+      "en": "closing: 'and he shall leave them there' is written regarding them, to say that they require storage away, for Rabbi Dosa holds 'and he shall leave them there' means so that he not use them for a later Yom Kippur, as we say in the first chapter (12b).",
       "linkedGemaraLineIds": [
         "yoma-023b-l39"
       ]
     },
     {
       "vilnaLine": 64,
-      "en": "Rashi: opens and closes 'the sash of the High Priest' - on Yom Kippur, which is of linen, is never the same as the sash of the ordinary priest, since he serves only in one of mixed wool and linen.",
+      "en": "Opens 'the belt of the High Priest': on Yom Kippur, which is of fine linen, is not the same as the belt of the ordinary priest ever, since he serves only in one of mixed wool and linen.",
       "linkedGemaraLineIds": [
         "yoma-023b-l41"
       ]
     },
     {
       "vilnaLine": 65,
-      "en": "Rashi: the daf's final truncated word - 'to include,' continuing Rabbi's second answer about why the verse repeats 'he shall wear,' whose text continues on 24a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "en": "Opens 'to include' -",
       "linkedGemaraLineIds": [
         "yoma-023b-l41"
       ]
