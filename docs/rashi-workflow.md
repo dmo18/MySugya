@@ -91,6 +91,20 @@ packet embeds each daf's profile, and worker:verify enforces a clean
 post-edit profile for both rashi-realignment and rashi-reconstruction
 PRs. Tests: `npm run test:drift:yoma` (part of `npm test`).
 
+A daf can be FABRICATION-SUSPECT (recommended remedy: reconstruction)
+and separately carry pre-existing repetition-baseline debt (which
+`rashi_preflight` blocks unless `--task repair`) at the same time.
+Since repair is exactly what the drift block forbids on such a daf,
+these two checks would otherwise contradict each other. See
+"Repetition-drain" in docs/worker-pipeline-sop.md: `worker:manifest`
+auto-snapshots the daf's current repetition-baseline entries into the
+manifest, and `worker:preflight` lets a reconstruction proceed past the
+repetition-baseline block only when that snapshot matches live state
+exactly AND the drift profile still recommends reconstruction. This is
+narrower than a drift override -- it never touches
+FABLE_DRIFT_OVERRIDE/authorizeDriftOverride, and it never applies to
+count mismatches, which have no drain path anywhere in the pipeline.
+
 ### Source-relative citation-evidence review-gate policy
 
 Citation anchors are corroborating evidence, not a mandatory content

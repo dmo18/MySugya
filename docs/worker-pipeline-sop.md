@@ -42,7 +42,8 @@ Every pass, regardless of task type, is exactly this:
      run `npm run worker:review -- --manifest .worker-manifest.json`,
      and merge WITHOUT further authorization only when it prints
      AUTO-MERGE-ELIGIBLE and CI is green on the exact final head; any
-     failed condition escalates to Fable and blocks the merge
+     failed condition escalates to Sonnet (the registry's escalationModel)
+     and blocks the merge
    - no policy: merge when green
 13 verify Deploy Cloudways Branch and Deploy GitHub Pages for the merge
    commit
@@ -111,6 +112,62 @@ rashi-structural-repair, etc.) can never carry this authorization -
 other type, and even a hand-edited manifest claiming it is ignored by
 both preflight and verify.
 
+### Repetition-drain: starting reconstruction on a FABRICATION-SUSPECT daf with baselined repetition
+
+Preflight separately blocks a rashi-reconstruction/rashi-realignment
+task on any daf that already carries within-daf skeleton-repetition
+baseline hits (`rashi_repetition_baseline.json`), same rationale as the
+content-allowlist block above. Unlike content-allowlist hits, this
+block cannot be resolved by narrowing to `--task repair`: a daf whose
+drift profile is FABRICATION-SUSPECT or SHIFTED is *also* drift-blocked
+from `repair`/`links` work (stub-only edits on a misaligned or
+fabricated daf cement the misalignment), and the drift block's own
+recommended remedy for such a daf is reconstruction. Before VERSION
+15.206 these two checks contradicted each other for a daf that was
+both baselined and FABRICATION-SUSPECT (41b): reconstruct was blocked
+pending repair, repair was blocked pending reconstruction, and the only
+override path (`FABLE_DRIFT_OVERRIDE`) was Fable-issued and unrelated
+to this contradiction in the first place.
+
+`worker:manifest` now auto-snapshots the target daf's current
+repetition-baseline entries into the manifest's `repetitionDrain` field
+(`{"snapshot": [...]}`, no `--authorize` flag needed) whenever a
+single-target rashi-reconstruction/rashi-realignment manifest is
+generated, exactly like the pre-existing `scaffoldDebt` snapshot.
+`worker:preflight` lets this snapshot bypass the repetition-baseline
+block only when `validate_repetition_drain` in
+`scripts/worker_pipeline.py` confirms ALL of:
+
+- the manifest is single-target and matches the daf
+- the snapshot equals - not merely covers - the daf's current
+  repetition-baseline entries exactly (stale or hand-edited snapshots
+  are rejected, same as allowlist-drain)
+- the daf's live drift profile (`audit_rashi_semantic.py --profile`)
+  still recommends `rashi-reconstruction` -- this authorization only
+  ever unlocks a remedy the drift classifier has already approved; it
+  is not a generic override, and it never touches
+  `FABLE_DRIFT_OVERRIDE` or `authorizeDriftOverride`, which remain
+  exactly as they were
+
+After the edit, `worker:verify` enforces the drain via
+`repetition_drain_status`: the target daf must produce zero repetition
+violations (`validate_rashi_repetition.py`) and carry zero remaining
+baseline entries; the baseline diff may contain only removals, scoped
+to the target, with no entry's `maxCount`/`skeleton` changed and no
+change to another daf's entries. `worker:review`'s auto-merge gate
+checks the same thing target-scoped
+(`repetition-clean-on-target`/`repetition-baseline-shrink-only`
+conditions).
+
+Count mismatches (`rashi_content_allowlist.json`'s `count_mismatches`)
+are a wholly separate, always-hard-blocked check with no drain path of
+any kind, regardless of task type or manifest content - the
+repetition-drain snapshot can never be used to bypass a structural
+count mismatch, and `rashi_preflight.py` reports the two conditions as
+distinct errors (`COUNT MISMATCH` vs `REPETITION-BASELINE`) so the
+count-mismatch one is never eligible for this filtering in the first
+place.
+
 ## Model roles (non-negotiable)
 
 - Fable: owns the pipeline, schema, validators, registry, allowlist
@@ -128,8 +185,8 @@ both preflight and verify.
   not allowed on them). On those two types Sonnet also performs the
   fresh post-edit self-review, runs the worker:review auto-merge gate,
   merges when eligible and CI is green, verifies deployment, and
-  proceeds to the next queued target; it escalates to Fable on any
-  escalation condition instead of merging.
+  proceeds to the next queued target; on any escalation condition it
+  stops, does not merge, and hands off with a report instead.
 - Only Fable/Sonnet may issue manifests carrying --authorize flags or
   run with RASHI_ALLOWLIST_RESTRUCTURE=1.
 - Haiku (or another small model): executes mechanical bounded tasks
@@ -150,16 +207,17 @@ both preflight and verify.
 ## Conditional semantic review and autopilot queue (VERSION 15.93)
 
 rashi-realignment and rashi-reconstruction carry `reviewPolicy:
-"conditional"` with `escalationModel: "fable"` in the registry. The
-unconditional per-PR Fable review is removed; in its place stand a
-mandatory fresh self-review and a machine-checked auto-merge gate. No
-hard validation gate was weakened: scope, freshness, content, link,
-repetition, drift, and schema checks all still block CI exactly as
-before.
+"conditional"` with `escalationModel: "sonnet"` in the registry (Fable
+is retired; Sonnet substitutes entirely for its former escalation
+role). The unconditional per-PR Fable review is removed; in its place
+stand a mandatory fresh self-review and a machine-checked auto-merge
+gate. No hard validation gate was weakened: scope, freshness, content,
+link, repetition, drift, and schema checks all still block CI exactly
+as before.
 
 A semantic PR may auto-merge (no Fable, no operator sign-off) only when
 ALL of these hold. `npm run worker:review -- --manifest
-.worker-manifest.json` machine-checks the first thirteen and prints
+.worker-manifest.json` machine-checks all seventeen and prints
 AUTO-MERGE-ELIGIBLE or ESCALATE with the exact failed conditions:
 
 1. single-target-manifest: the manifest carries exactly one daf
@@ -172,10 +230,22 @@ AUTO-MERGE-ELIGIBLE or ESCALATE with the exact failed conditions:
 5. allowlist-removals-limited-to-target-daf: removals only for the
    target daf (the content gate re-derives violations, so a removal
    that leaves the gate green was validator-stale by construction)
-6. packet-contains-every-linked-local-id: the live packet segment
-   table (Gemara AND Mishnah kinds) contains every linked id
-7. all-links-legal-and-nonempty: every entry links to legal local ids
-8. drift-profile-ALIGNED: for rashi-reconstruction/rashi-realignment,
+6. scaffold-clean-on-target: zero current scaffold-fabrication hits and
+   zero remaining scaffold-debt baseline entries on the target daf
+7. scaffold-baseline-shrink-only: the scaffold-debt baseline diff
+   contains only removals, scoped to the target daf, with no entry
+   rehashed and no unrelated daf touched
+8. repetition-clean-on-target: zero current repetition violations
+   (`validate_rashi_repetition.py`) and zero remaining repetition-
+   baseline entries on the target daf (see the repetition-drain section
+   above)
+9. repetition-baseline-shrink-only: the repetition-baseline diff
+   contains only removals, scoped to the target daf, with no entry's
+   maxCount/skeleton modified and no unrelated daf touched
+10. packet-contains-every-linked-local-id: the live packet segment
+    table (Gemara AND Mishnah kinds) contains every linked id
+11. all-links-legal-and-nonempty: every entry links to legal local ids
+12. drift-profile-ALIGNED: for rashi-reconstruction/rashi-realignment,
    evaluated by a source-relative citation-evidence policy with three
    tiers, chosen by how many genuine detectable citations exist in the
    daf's own raw Hebrew (a fixed property of the source, independent of
@@ -219,11 +289,11 @@ AUTO-MERGE-ELIGIBLE or ESCALATE with the exact failed conditions:
    confirm every queued target's anchor cardinality (ZERO/ONE/MULTI)
    and packet completeness can reach a supported final state; it never
    edits content and exits nonzero if any target cannot.
-9. semantic-audit-zero-shift-candidates on the target daf
-10. no-stub-or-duplicate-helpers in the target daf
-11. generated-files-fresh (byte-identical regeneration)
-12. version-metadata-synced (VERSION == package.json == lock)
-13. fresh-self-review-committed-and-clean: .worker-self-review.json is
+13. semantic-audit-zero-shift-candidates on the target daf
+14. no-stub-or-duplicate-helpers in the target daf
+15. generated-files-fresh (byte-identical regeneration)
+16. version-metadata-synced (VERSION == package.json == lock)
+17. fresh-self-review-committed-and-clean: .worker-self-review.json is
     part of THIS PR's diff, names the target daf, ticks every required
     recheck, and reports no blockers
 
@@ -251,7 +321,7 @@ Format (committed with the PR as .worker-self-review.json):
  "blockersFound": [], "notes": "one line"}
 ```
 
-When invoking the one-anchor-safe tier (item 8 above), the self-review
+When invoking the one-anchor-safe tier (item 12 above), the self-review
 additionally carries a `oneAnchorAttestation` object:
 
 ```json

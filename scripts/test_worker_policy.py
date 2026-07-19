@@ -906,6 +906,187 @@ def test_scaffold_debt_drain():
               r2.returncode == 0 and clean_man.get("scaffoldDebt") is None)
 
 
+def test_repetition_drain():
+    """Target-scoped repetition-baseline debt drain (see "Repetition-drain"
+    in docs/worker-pipeline-sop.md): resolves the 41b contradiction where
+    the repetition-baseline check demanded --task repair while the drift
+    block forbade repair on a FABRICATION-SUSPECT daf and recommended
+    reconstruction instead. Mirrors test_allowlist_drain/
+    test_scaffold_debt_drain in structure. Count mismatches are a wholly
+    separate, always-hard-blocked check with no drain path; nothing here
+    ever touches FABLE_DRIFT_OVERRIDE or authorizeDriftOverride."""
+    print("repetition-drain authorization (validate_repetition_drain, real drift profiles):")
+
+    fake_entries = [
+        {"daf": "41b", "skeleton": "Rashi: continues - [X].", "maxCount": 13},
+        {"daf": "42b", "skeleton": "Rashi: continues - [X].", "maxCount": 12},
+    ]
+    orig = wp.repetition_baseline_entries
+    wp.repetition_baseline_entries = lambda daf=None: [
+        e for e in fake_entries if daf is None or e["daf"] == daf]
+    try:
+        snap_41b = [e for e in fake_entries if e["daf"] == "41b"]
+
+        # 1. matching snapshot on the real FABRICATION-SUSPECT daf 41b
+        # (recommendedTaskType rashi-reconstruction) authorizes the drain.
+        m1 = {"type": "rashi-reconstruction", "targets": ["41b"],
+              "repetitionDrain": {"snapshot": snap_41b}}
+        ok1, note1 = wp.validate_repetition_drain(m1, "41b")
+        check("1. matching snapshot on FABRICATION-SUSPECT 41b authorizes the drain",
+              ok1, note1)
+
+        # 2. no repetitionDrain field at all blocks.
+        m2 = {"type": "rashi-reconstruction", "targets": ["41b"]}
+        ok2, note2 = wp.validate_repetition_drain(m2, "41b")
+        check("2. manifest with no repetitionDrain snapshot blocks (missing snapshot)",
+              not ok2, note2)
+
+        # 3. stale snapshot (missing a currently-existing entry) blocks.
+        m3 = {"type": "rashi-reconstruction", "targets": ["41b"],
+              "repetitionDrain": {"snapshot": []}}
+        ok3, note3 = wp.validate_repetition_drain(m3, "41b")
+        check("3. stale/empty snapshot missing a currently-existing entry blocks",
+              not ok3, note3)
+
+        # 3b. snapshot claiming an entry that doesn't currently exist also blocks.
+        m3b = {"type": "rashi-reconstruction", "targets": ["41b"],
+               "repetitionDrain": {"snapshot": snap_41b + [
+                   {"daf": "41b", "skeleton": "Rashi: opens - [Y].", "maxCount": 3}]}}
+        ok3b, note3b = wp.validate_repetition_drain(m3b, "41b")
+        check("3b. snapshot claiming a nonexistent entry blocks (stale-in-the-other-direction)",
+              not ok3b, note3b)
+
+        # 4. a snapshot naming a foreign daf's debt never authorizes this daf.
+        m4 = {"type": "rashi-reconstruction", "targets": ["41b"],
+              "repetitionDrain": {"snapshot": [
+                  {"daf": "42b", "skeleton": "Rashi: continues - [X].", "maxCount": 12}]}}
+        ok4, note4 = wp.validate_repetition_drain(m4, "41b")
+        check("4. snapshot naming a foreign daf's entries does not authorize this daf (foreign-daf snapshot)",
+              not ok4, note4)
+
+        # 5. multi-target manifests block, even with an otherwise-valid snapshot.
+        m5 = {"type": "rashi-reconstruction", "targets": ["41b", "42b"],
+              "repetitionDrain": {"snapshot": snap_41b}}
+        ok5, note5 = wp.validate_repetition_drain(m5, "41b")
+        check("5. multi-target manifest blocks the drain authorization (multi-target snapshot)",
+              not ok5, note5)
+
+        # 6. ordinary task types can never use this authorization.
+        for other_type in ("rashi-repair", "placeholder-backfill", "rashi-structural-repair"):
+            m6 = {"type": other_type, "targets": ["41b"],
+                  "repetitionDrain": {"snapshot": snap_41b}}
+            ok6, note6 = wp.validate_repetition_drain(m6, "41b")
+            check(f"6. {other_type} cannot use repetition-drain authorization", not ok6, note6)
+
+        # 7. a daf whose drift profile does NOT recommend reconstruction
+        # (61a is ALIGNED / haiku-safe / recommendedTaskType None) is
+        # rejected even with an otherwise-perfectly-matching snapshot: this
+        # authorization only unlocks an already-drift-approved remedy, it
+        # is never a generic override.
+        fake_entries.append({"daf": "61a", "skeleton": "Rashi: continues - [Z].", "maxCount": 5})
+        m7 = {"type": "rashi-reconstruction", "targets": ["61a"],
+              "repetitionDrain": {"snapshot": [
+                  {"daf": "61a", "skeleton": "Rashi: continues - [Z].", "maxCount": 5}]}}
+        ok7, note7 = wp.validate_repetition_drain(m7, "61a")
+        check("7. a daf whose drift profile does not recommend reconstruction is rejected "
+              "even with a matching snapshot", not ok7, note7)
+        fake_entries.pop()
+    finally:
+        wp.repetition_baseline_entries = orig
+
+    print("repetition-drain post-edit enforcement (snapshot is debt to eliminate, not an exemption):")
+    m = {"type": "rashi-reconstruction", "targets": ["41b"],
+         "repetitionDrain": {"snapshot": [
+             {"daf": "41b", "skeleton": "Rashi: continues - [X].", "maxCount": 13}]}}
+    old = [{"daf": "41b", "skeleton": "Rashi: continues - [X].", "maxCount": 13},
+           {"daf": "42b", "skeleton": "Rashi: continues - [X].", "maxCount": 12}]
+
+    new_ok = [e for e in old if e["daf"] != "41b"]
+    ok_a, msgs_a = wp.repetition_drain_status(m, "41b", old, new_ok, [])
+    check("a. fully drained target with unrelated entry intact passes",
+          ok_a and any("drained" in x for x in msgs_a), "; ".join(msgs_a))
+
+    ok_b, msgs_b = wp.repetition_drain_status(m, "41b", old, new_ok, ["ERROR 41b: x"])
+    check("b. remaining target repetition violation fails (target entry remaining "
+          "after reconstruction)", not ok_b, "; ".join(msgs_b))
+
+    ok_c, msgs_c = wp.repetition_drain_status(m, "41b", old, old, [])
+    check("c. unretired target baseline entries fail (target entry remaining)", not ok_c)
+
+    new_d = new_ok + [{"daf": "41b", "skeleton": "Rashi: opens - [Y].", "maxCount": 2}]
+    ok_d, msgs_d = wp.repetition_drain_status(m, "41b", old, new_d, [])
+    check("d. baseline growth is forbidden", not ok_d)
+
+    ok_e, msgs_e = wp.repetition_drain_status(m, "41b", old, [], [])
+    check("e. removing an unrelated daf's entry fails (unrelated baseline removal)", not ok_e)
+
+    new_f = [dict(e, maxCount=99) if e["daf"] == "42b" else e for e in new_ok]
+    ok_f, msgs_f = wp.repetition_drain_status(m, "41b", old, new_f, [])
+    check("f. modifying an unrelated entry's maxCount fails", not ok_f)
+
+    ok_g, msgs_g = wp.repetition_drain_status(
+        {"type": "rashi-repair", "targets": ["61a"]}, "61a", old, old, [])
+    check("g. non-reconstruction/realignment types are a no-op", ok_g and not msgs_g)
+
+    print("repair remains blocked by FABRICATION-SUSPECT; count mismatch remains blocked; "
+          "end-to-end preflight on the real corpus:")
+    with tempfile.TemporaryDirectory() as td:
+        mpath = Path(td) / "m.json"
+
+        # End-to-end: 41b is a real FABRICATION-SUSPECT daf with real
+        # repetition-baseline debt. worker:manifest auto-snapshots it;
+        # worker:preflight must let reconstruct proceed and must still
+        # block repair.
+        r = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
+                            "--type", "rashi-reconstruction", "--module", "yoma",
+                            "--range", "41b", "--out", str(mpath)],
+                           capture_output=True, text=True, cwd=REPO)
+        check("manifest generation for 41b succeeds", r.returncode == 0, r.stderr[-200:])
+        man = json.loads(mpath.read_text())
+        snap = (man.get("repetitionDrain") or {}).get("snapshot", [])
+        check("manifest embeds 41b's repetition-baseline snapshot",
+              bool(snap) and all(e["daf"] == "41b" for e in snap), str(snap))
+
+        pf = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "preflight",
+                             "--manifest", str(mpath), "--dry-run"],
+                            capture_output=True, text=True, cwd=REPO)
+        check("preflight passes for 41b reconstruction via repetition-drain (end to end)",
+              pf.returncode == 0 and "repetition-drain authorized" in pf.stdout, pf.stdout[-500:])
+
+        r2 = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
+                             "--type", "rashi-repair", "--module", "yoma",
+                             "--range", "41b", "--out", str(mpath)],
+                            capture_output=True, text=True, cwd=REPO)
+        check("manifest generation for 41b repair succeeds", r2.returncode == 0, r2.stderr[-200:])
+        pf2 = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "preflight",
+                              "--manifest", str(mpath), "--dry-run"],
+                             capture_output=True, text=True, cwd=REPO)
+        check("repair on 41b remains blocked by the FABRICATION-SUSPECT drift gate "
+              "(never bypassed by repetition-drain)",
+              pf2.returncode != 0 and "FABRICATION-SUSPECT" in pf2.stdout, pf2.stdout[-500:])
+
+        # Count mismatch has no drain path at all, unlike content-allowlist
+        # and repetition-baseline hits: no real count-mismatch daf currently
+        # exists in the corpus to test end to end, so this is asserted at
+        # the source level instead. cmd_preflight's error-filtering loop
+        # special-cases exactly two substrings ("CONTENT ALLOWLIST" and
+        # "REPETITION-BASELINE"); it must never special-case "COUNT
+        # MISMATCH" too, since any such branch would create a bypass for a
+        # structural defect that rashi_preflight.py itself never offers one
+        # for. Any error line the loop does not recognize (including every
+        # COUNT MISMATCH line) falls straight into kept_errors and always
+        # blocks, by construction of the loop's default behavior.
+        src = (REPO / "scripts" / "worker_pipeline.py").read_text()
+        cp_start = src.index("def cmd_preflight")
+        cp_end = src.index("\ndef ", cp_start + 10)
+        cp_body = src[cp_start:cp_end]
+        check("count mismatch remains blocked: cmd_preflight's error-filtering loop "
+              "never special-cases 'has unresolved COUNT MISMATCH' the way it does "
+              "CONTENT ALLOWLIST/REPETITION-BASELINE (so it always falls through to "
+              "kept_errors); a plain comment mentioning the words is fine",
+              "has unresolved COUNT MISMATCH" not in cp_body)
+
+
 def main():
     test_registry()
     test_pure_policy()
@@ -918,6 +1099,7 @@ def main():
     test_independent_zero_citation_scan()
     test_allowlist_drain()
     test_scaffold_debt_drain()
+    test_repetition_drain()
     test_structural_deferral_in_scope_validator()
     test_no_direct_main_push_anywhere()
     if FAILURES:
