@@ -24,9 +24,20 @@ FAILS (exit 1) when:
     specific error, treating the debt as repair work the reconstruction
     itself must eliminate, not an exemption. This script has no notion of
     manifests or drain authorization; the bypass lives one layer up.
-  - a target daf has unresolved count-mismatch/repetition-baseline hits and
-    --task is not 'repair' (same rationale; no drain override applies to
-    these, regardless of task type)
+  - a target daf has unresolved count-mismatch hits and --task is not
+    'repair' (same rationale as content-allowlist hits; count mismatches
+    are a structural defect and have no drain override of any kind,
+    regardless of task type -- fix the structure or use --task repair)
+  - a target daf has unresolved repetition-baseline hits and --task is not
+    'repair' (same rationale; unlike count mismatches, a
+    rashi-reconstruction/rashi-realignment manifest MAY carry a
+    repetitionDrain snapshot that matches the daf's exact current
+    repetition-baseline entries, authorizing worker_pipeline.py's preflight
+    wrapper to proceed past this specific error -- the repetition is
+    target-scoped repair debt the reconstruction itself must eliminate, not
+    an exemption. This script has no notion of manifests or drain
+    authorization; the bypass lives one layer up, exactly like the
+    content-allowlist drain above.)
   - a target daf's drift profile (audit_rashi_semantic --profile) says
     SHIFTED or FABRICATION-SUSPECT and --task is a line-level mode
     ('repair' or 'links'): stub-only work there duplicates content and
@@ -217,10 +228,23 @@ def main():
                           f"allowlist-drain manifest (rashi-reconstruction/rashi-realignment "
                           f"only, via worker_pipeline.py manifest --drain-allowlist) that "
                           f"snapshots this exact pre-existing debt, before starting.")
-        if (daf in count_mm or daf in rep_daf) and blockable:
-            errors.append(f"{daf}: has unresolved count-mismatch/repetition-baseline hits; "
+        if daf in count_mm and blockable:
+            errors.append(f"{daf}: has unresolved COUNT MISMATCH hits; "
                           f"task {opts.task!r} is not a repair task. Use --task repair "
-                          f"(or fix the plan) before starting.")
+                          f"(or fix the plan) before starting. Count mismatches are a "
+                          f"structural defect and can never be bypassed by a "
+                          f"reconstruction-drain authorization, regardless of task type.")
+        if daf in rep_daf and blockable:
+            errors.append(f"{daf}: has unresolved REPETITION-BASELINE hits; "
+                          f"task {opts.task!r} is not a repair task. Use --task repair, or a "
+                          f"rashi-reconstruction/rashi-realignment manifest whose "
+                          f"repetitionDrain snapshot matches this daf's exact current "
+                          f"repetition-baseline entries (auto-snapshotted by "
+                          f"worker_pipeline.py manifest; validated by worker_pipeline.py "
+                          f"preflight and enforced by worker_pipeline.py verify -- this "
+                          f"script has no notion of manifests, so the bypass lives one "
+                          f"layer up, same as the content-allowlist drain above), before "
+                          f"starting.")
         drift_err = drift_block_error(profile, opts.task)
         if drift_err:
             errors.append(drift_err)

@@ -209,7 +209,8 @@ Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 6
   - a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)
   - any gate failure not fixable by correcting your own content
   - required packet id missing, or packet segment text truncated or incomplete
-  - structure or count mismatch not already baselined
+  - structure or count mismatch not already baselined (count mismatches have no drain path of any kind and always block)
+  - repetitionDrain snapshot does not match the target's live repetition-baseline state, or the drift profile no longer recommends reconstruction (repetition-drain is only valid when reconstruction is already the drift-approved remedy)
   - allowlist growth would be needed
   - validator or workflow modification would be needed
   - semantic uncertainty remains after rereading the raw Hebrew and full segment text
@@ -223,7 +224,7 @@ Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 6
 
 ## rashi-reconstruction
 
-Full line-by-line Rashi helper reconstruction for a daf with no unresolved allowlist hits (e.g. resuming 47a onward when authorized).
+Full line-by-line Rashi helper reconstruction for a daf with no unresolved content-allowlist hits, unless a matching allowlistDrain snapshot authorizes proceeding on pre-existing target-scoped debt. Pre-existing repetition-baseline debt for the target daf is similarly auto-snapshotted (repetitionDrain) and may be drained by the reconstruction itself when the daf's drift profile already recommends reconstruction; count mismatches have no such path and always block.
 
 - model: sonnet; review: conditional auto-merge gate (worker self-review + worker:review; escalation to sonnet)
 - haiku allowed: no
@@ -237,7 +238,8 @@ Full line-by-line Rashi helper reconstruction for a daf with no unresolved allow
   - a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)
   - any gate failure not fixable by correcting your own content
   - required packet id missing, or packet segment text truncated or incomplete
-  - structure or count mismatch not already baselined
+  - structure or count mismatch not already baselined (count mismatches have no drain path of any kind and always block)
+  - repetitionDrain snapshot does not match the target's live repetition-baseline state, or the drift profile no longer recommends reconstruction (repetition-drain is only valid when reconstruction is already the drift-approved remedy)
   - allowlist growth would be needed
   - validator or workflow modification would be needed
   - semantic uncertainty remains after rereading the raw Hebrew and full segment text

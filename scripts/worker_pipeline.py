@@ -101,6 +101,7 @@ def load_manifest(path):
 
 ALLOWLIST_DRAIN_TYPES = ("rashi-reconstruction", "rashi-realignment")
 SCAFFOLD_BASELINE = YSCRIPTS / "baselines" / "rashi_scaffold_debt.json"
+REPETITION_BASELINE = YSCRIPTS / "allowlists" / "rashi_repetition_baseline.json"
 
 
 def content_allowlist_entries(daf=None):
@@ -114,6 +115,20 @@ def scaffold_debt_entries(daf=None, path=None):
     modules/yoma/scripts/audit_rashi_scaffold.py), optionally filtered to one
     daf. Missing file means zero debt."""
     p = path or SCAFFOLD_BASELINE
+    if not p.exists():
+        return []
+    entries = json.loads(p.read_text()).get("entries", [])
+    return [e for e in entries if daf is None or e["daf"] == daf]
+
+
+def repetition_baseline_entries(daf=None, path=None):
+    """Entries of the locked within-daf skeleton-repetition baseline (see
+    modules/yoma/scripts/validate_rashi_repetition.py), optionally filtered
+    to one daf. Missing file means zero debt. Distinct from
+    scaffold_debt_entries/content_allowlist_entries: entries here are keyed
+    by (daf, skeleton) -> maxCount, not by vilnaLine, since repetition is a
+    whole-daf pattern rather than a single-line defect."""
+    p = path or REPETITION_BASELINE
     if not p.exists():
         return []
     entries = json.loads(p.read_text()).get("entries", [])
@@ -165,6 +180,54 @@ def scaffold_drain_status(m, daf, old_baseline, new_baseline, target_hits):
     return ok, msgs
 
 
+def repetition_drain_status(m, daf, old_baseline, new_baseline, target_violations):
+    """Pure post-edit enforcement for target-scoped repetition-baseline
+    draining on rashi-reconstruction/rashi-realignment manifests, mirroring
+    scaffold_drain_status exactly. After the reconstruction, the target daf
+    must carry ZERO current repetition violations (per
+    validate_rashi_repetition.py) and ZERO remaining baseline entries; the
+    baseline diff may contain only removals, and only for the target;
+    growth or maxCount/skeleton changes anywhere are forbidden. This never
+    touches count-mismatch debt -- that is a wholly separate, always-hard-
+    blocked check in rashi_preflight.py with no drain path at all. Returns
+    (ok, msgs)."""
+    if m.get("type") not in ALLOWLIST_DRAIN_TYPES:
+        return True, []
+    ok, msgs = True, []
+    old_map = {(e["daf"], e["skeleton"]): e.get("maxCount") for e in old_baseline}
+    new_map = {(e["daf"], e["skeleton"]): e.get("maxCount") for e in new_baseline}
+    if target_violations:
+        ok = False
+        msgs.append(f"{len(target_violations)} repetition violation(s) remain on {daf}; "
+                    "rewrite the repeated skeleton lines as direct translation")
+    added = sorted(set(new_map) - set(old_map))
+    if added:
+        ok = False
+        msgs.append(f"repetition baseline GREW: {added} (growth requires "
+                    "explicit operator authorization, never a worker PR)")
+    changed = sorted(k for k in set(new_map) & set(old_map)
+                      if new_map[k] != old_map[k])
+    if changed:
+        ok = False
+        msgs.append(f"repetition-baseline entry modified: {changed} "
+                    "(a baseline entry covers only its original maxCount)")
+    foreign_removed = sorted(k for k in set(old_map) - set(new_map) if k[0] != daf)
+    if foreign_removed:
+        ok = False
+        msgs.append(f"repetition-baseline entries removed outside target daf: {foreign_removed}")
+    remaining_target = sorted(k for k in new_map if k[0] == daf)
+    if remaining_target:
+        ok = False
+        msgs.append(f"repetition baseline still lists {daf}: {remaining_target}; "
+                    "retire drained entries by removing them from "
+                    "rashi_repetition_baseline.json")
+    if ok:
+        drained = sum(1 for k in set(old_map) - set(new_map) if k[0] == daf)
+        msgs.append(f"repetition debt drained for {daf} ({drained} entr(ies) "
+                    "retired); no growth; unrelated entries unchanged")
+    return ok, msgs
+
+
 def validate_allowlist_drain(m, daf):
     """Check whether m's allowlistDrain snapshot legitimately authorizes
     starting rashi-reconstruction/rashi-realignment on daf despite
@@ -197,6 +260,62 @@ def validate_allowlist_drain(m, daf):
     return True, (f"allowlist-drain authorized: {len(snap_set)} pre-existing "
                   f"entr{'y' if len(snap_set) == 1 else 'ies'} for {daf} accepted as repair debt, "
                   "not new tolerance")
+
+
+def validate_repetition_drain(m, daf):
+    """Check whether m's repetitionDrain snapshot legitimately authorizes
+    starting rashi-reconstruction/rashi-realignment on daf despite
+    pre-existing repetition-baseline debt for that exact daf. Mirrors
+    validate_allowlist_drain, with one deliberate tightening beyond it: the
+    daf's drift profile must still recommend rashi-reconstruction. This
+    authorization is scoped to a specific, already-drift-approved remedy
+    (a FABRICATION-SUSPECT or SHIFTED daf whose recommended fix is already
+    full reconstruction), not a generic override -- no new drift-override
+    mechanism is introduced, and FABLE_DRIFT_OVERRIDE/authorizeDriftOverride
+    are untouched by this function entirely. This is target-scoped repair
+    debt a full reconstruction is expected to eliminate by construction
+    (the whole daf is rewritten), not new tolerance: the snapshot must
+    equal (not merely cover) daf's CURRENT repetition-baseline entries.
+    Ordinary task types (those outside ALLOWLIST_DRAIN_TYPES) can never use
+    this authorization, and a manifest naming more than one target is
+    rejected outright. This authorization never applies to count-mismatch
+    debt, which has no drain path anywhere in the pipeline and stays a hard
+    block in rashi_preflight.py regardless of task type or manifest
+    content."""
+    if m["type"] not in ALLOWLIST_DRAIN_TYPES:
+        return False, (f"repetition-drain authorization only applies to "
+                        f"{'/'.join(ALLOWLIST_DRAIN_TYPES)}, not {m['type']!r}")
+    if len(m.get("targets", [])) != 1 or m["targets"][0] != daf:
+        return False, "repetition-drain authorization requires a single-target manifest matching the daf"
+    drain = m.get("repetitionDrain")
+    if not drain:
+        return False, ("no repetitionDrain snapshot on manifest; regenerate the manifest "
+                        "(worker_pipeline.py manifest auto-snapshots current repetition-"
+                        "baseline debt for single-target reconstruction/realignment manifests)")
+    snapshot = drain.get("snapshot", [])
+    foreign = [e for e in snapshot if e.get("daf") != daf]
+    if foreign:
+        return False, f"repetitionDrain snapshot contains entries outside target daf {daf!r}: {foreign}"
+    snap_set = {(e["daf"], e["skeleton"], e["maxCount"]) for e in snapshot}
+    current_set = {(e["daf"], e["skeleton"], e["maxCount"]) for e in repetition_baseline_entries(daf)}
+    if current_set != snap_set:
+        return False, (f"repetitionDrain snapshot does not match {daf}'s current repetition-baseline "
+                        f"entries (snapshot {sorted(snap_set)} vs current {sorted(current_set)}); "
+                        "regenerate the manifest so the snapshot matches exactly")
+    sys.path.insert(0, str(YSCRIPTS))
+    import audit_rashi_semantic as ars
+    profile = ars.profile_daf(daf)
+    recommended = profile.get("recommendedTaskType") if profile else None
+    if recommended != "rashi-reconstruction":
+        return False, (f"{daf}'s drift profile does not recommend rashi-reconstruction "
+                        f"(recommendedTaskType={recommended!r}); repetition-drain is only "
+                        "authorized when reconstruction is already the drift-approved "
+                        "remedy, never as a generic override")
+    return True, (f"repetition-drain authorized: {len(snap_set)} pre-existing skeleton "
+                  f"entr{'y' if len(snap_set) == 1 else 'ies'} for {daf} accepted as repair "
+                  "debt the reconstruction must eliminate, not new tolerance "
+                  f"(drift profile {profile['classification']} recommends "
+                  f"{profile['recommendedTaskType']})")
 
 
 def allowlist_drain_status(m, old_entries, new_entries, stale_pairs):
@@ -413,6 +532,18 @@ def cmd_manifest(opts):
         snap = scaffold_debt_entries(targets[0])
         if snap:
             scaffold_debt = {"snapshot": snap}
+    # Repetition-baseline debt is snapshotted automatically for single-target
+    # reconstruction/realignment manifests, exactly like scaffold debt: the
+    # baseline itself is the tolerance, so no --authorize flag is needed.
+    # validate_repetition_drain (used by preflight) still checks the
+    # snapshot against live state and the drift profile before it lets this
+    # bypass a rashi_preflight.py block; the snapshot alone authorizes
+    # nothing on its own. Count-mismatch debt has no equivalent anywhere.
+    repetition_drain = None
+    if opts.type in ALLOWLIST_DRAIN_TYPES and len(targets) == 1:
+        rsnap = repetition_baseline_entries(targets[0])
+        if rsnap:
+            repetition_drain = {"snapshot": rsnap}
     manifest = {
         "type": opts.type,
         "module": opts.module,
@@ -435,6 +566,7 @@ def cmd_manifest(opts):
         "escalationTriggers": spec["escalationTriggers"],
         "allowlistDrain": allowlist_drain,
         "scaffoldDebt": scaffold_debt,
+        "repetitionDrain": repetition_drain,
     }
     out = json.dumps(manifest, indent=1)
     if opts.out:
@@ -507,6 +639,15 @@ def cmd_preflight(opts):
                         notes.append(drain_note)
                         continue
                     msg = f"{msg} [allowlist-drain not authorized: {drain_note}]"
+                elif "has unresolved REPETITION-BASELINE hits" in msg:
+                    drain_ok, drain_note = validate_repetition_drain(m, daf)
+                    if drain_ok:
+                        notes.append(drain_note)
+                        continue
+                    msg = f"{msg} [repetition-drain not authorized: {drain_note}]"
+                # COUNT MISMATCH hits are deliberately never filtered here:
+                # there is no drain path for structural count mismatches,
+                # regardless of task type or manifest content.
                 kept_errors.append(msg)
             ok = not kept_errors
             print(f"rashi preflight {daf} ({task}): {'OK' if ok else 'FAIL'}")
@@ -890,6 +1031,26 @@ def cmd_verify(opts):
                     print(f"  {'PASS' if sc_ok else 'FAIL'}  {msg}")
             results.append(("scaffold-drain", sc_ok))
 
+            # Repetition-baseline drain enforcement: reconstruction/realignment
+            # must leave its single target with zero repetition violations and
+            # zero remaining baseline entries; the baseline may only shrink,
+            # target-scoped. Count-mismatch debt is untouched by this and has
+            # no drain path anywhere; it stays a hard block in
+            # rashi_preflight.py regardless of task type or manifest content.
+            rb_rel = REPETITION_BASELINE.relative_to(REPO).as_posix()
+            rbr = sh(["git", "show", f"{mb}:{rb_rel}"])
+            old_rb = json.loads(rbr.stdout).get("entries", []) if rbr.returncode == 0 else []
+            new_rb = repetition_baseline_entries()
+            rep_r = sh([sys.executable, "scripts/validate_rashi_repetition.py"], cwd=YROOT)
+            target_violations = [l for l in rep_r.stdout.splitlines()
+                                  if l.strip().startswith("ERROR") and f"{daf}:" in l]
+            rp_ok, rp_msgs = repetition_drain_status(m, daf, old_rb, new_rb, target_violations)
+            if rp_msgs:
+                print("\nrepetition-baseline drain enforcement:")
+                for msg in rp_msgs:
+                    print(f"  {'PASS' if rp_ok else 'FAIL'}  {msg}")
+            results.append(("repetition-drain", rp_ok))
+
     # Literal-layer coverage delta
     if m["type"] == "literal-layer":
         cov = sh([sys.executable, "scripts/validate_literal.py"], cwd=YROOT)
@@ -945,6 +1106,8 @@ REVIEW_CONDITIONS = (
     "allowlist-removals-limited-to-target-daf",
     "scaffold-clean-on-target",
     "scaffold-baseline-shrink-only",
+    "repetition-clean-on-target",
+    "repetition-baseline-shrink-only",
     "packet-contains-every-linked-local-id",
     "all-links-legal-and-nonempty",
     "drift-profile-ALIGNED",
@@ -1264,6 +1427,38 @@ def gather_review_conditions(m, spec, base):
         notes.append(f"scaffold-debt baseline entry rehashed: {k}")
     for k in sb_foreign:
         notes.append(f"scaffold-debt entry removed outside target daf: {k}")
+
+    # Repetition-baseline gate: mirrors the scaffold-fabrication gate above
+    # exactly. After any conditional-review Rashi task, the target daf must
+    # produce zero repetition violations AND zero remaining repetition-
+    # baseline entries; the baseline may only shrink, target-scoped, with no
+    # entry's maxCount/skeleton modified. This never touches count-mismatch
+    # debt, which has no drain path anywhere in the pipeline.
+    rep_out = sh([sys.executable, "scripts/validate_rashi_repetition.py"], cwd=YROOT)
+    target_rep_violations = [l for l in rep_out.stdout.splitlines()
+                              if l.strip().startswith("ERROR") and f"{target}:" in l]
+    rb_rel = REPETITION_BASELINE.relative_to(REPO).as_posix()
+    rbr = sh(["git", "show", f"{mb}:{rb_rel}"])
+    old_rb = json.loads(rbr.stdout).get("entries", []) if rbr.returncode == 0 else []
+    new_rb = repetition_baseline_entries()
+    old_rmap = {(e["daf"], e["skeleton"]): e.get("maxCount") for e in old_rb}
+    new_rmap = {(e["daf"], e["skeleton"]): e.get("maxCount") for e in new_rb}
+    rb_added = sorted(set(new_rmap) - set(old_rmap))
+    rb_changed = sorted(k for k in set(new_rmap) & set(old_rmap) if new_rmap[k] != old_rmap[k])
+    rb_foreign = sorted(k for k in set(old_rmap) - set(new_rmap) if k[0] != target)
+    rb_remaining_target = sorted(k for k in new_rmap if k[0] == target)
+    conditions["repetition-clean-on-target"] = not target_rep_violations and not rb_remaining_target
+    if target_rep_violations:
+        notes.append(f"repetition gate on {target}: {len(target_rep_violations)} violation(s) remain")
+    if rb_remaining_target:
+        notes.append(f"repetition-baseline still lists {target}: {rb_remaining_target}")
+    conditions["repetition-baseline-shrink-only"] = not rb_added and not rb_changed and not rb_foreign
+    for k in rb_added:
+        notes.append(f"repetition-baseline entry ADDED: {k}")
+    for k in rb_changed:
+        notes.append(f"repetition-baseline entry modified: {k}")
+    for k in rb_foreign:
+        notes.append(f"repetition-baseline entry removed outside target daf: {k}")
 
     # Packet completeness and link legality against the live segment table.
     sys.path.insert(0, str(YSCRIPTS))
