@@ -197,7 +197,7 @@ quizSeeds and misconceptions text edits. Must test real distinctions per CLAUDE.
 
 Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 68a, 68b, 70a, 71b, 41a): redistribute the existing genuine translations onto their correct vilna lines and translate only the genuinely uncovered remainder. Never a stub repair. Fable/Sonnet only.
 
-- model: sonnet; review: conditional auto-merge gate (worker self-review + worker:review; escalation to fable)
+- model: sonnet; review: conditional auto-merge gate (worker self-review + worker:review; escalation to sonnet)
 - haiku allowed: no
 - max batch: 1
 - allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
@@ -225,7 +225,7 @@ Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 6
 
 Full line-by-line Rashi helper reconstruction for a daf with no unresolved allowlist hits (e.g. resuming 47a onward when authorized).
 
-- model: sonnet; review: conditional auto-merge gate (worker self-review + worker:review; escalation to fable)
+- model: sonnet; review: conditional auto-merge gate (worker self-review + worker:review; escalation to sonnet)
 - haiku allowed: no
 - max batch: 1
 - allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
@@ -272,7 +272,7 @@ Repair documented Rashi helper defects (stubs, filler, placeholder lines) on daf
 
 Structural repair of a daf's rashiTranslations layer: baselined entry-count mismatches, phantom entries with no raw-line anchor, or missing entries (documented backlog: 8a, 9a). Restores exact 1:1 correspondence with the authoritative talmuddev raw lines: after the pass, entry count and vilnaLine sequence must match the source exactly, every helper must render its own raw line, and every link must be semantic. The ONLY task type permitted to change rashiTranslations structure, and only with the explicit allowStructure authorization on the manifest. Fable only; ordinary Haiku or Sonnet manifests can never authorize structural or count changes.
 
-- model: fable; review: conditional auto-merge gate (worker self-review + worker:review; escalation to fable)
+- model: fable; review: conditional auto-merge gate (worker self-review + worker:review; escalation to sonnet)
 - haiku allowed: no
 - max batch: 1
 - REQUIRED authorization: allowStructure (Fable-issued; preflight fails without it)

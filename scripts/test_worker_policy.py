@@ -7,11 +7,12 @@ Pins the VERSION 15.93 process change: rashi-realignment and
 rashi-reconstruction no longer require an unconditional Fable review per
 PR. Instead a Sonnet worker performs a fresh post-edit self-review and a
 machine-checked auto-merge gate (worker:review) decides eligibility;
-every failed condition escalates to Fable and blocks merge.
+every failed condition escalates to Sonnet and blocks merge. Fable is
+retired; Sonnet substitutes entirely for its former escalation role.
 
 Layers:
 1. Registry: the two semantic types carry reviewPolicy conditional with
-   escalationModel fable; the mechanical types keep their unconditional
+   escalationModel sonnet; the mechanical types keep their unconditional
    Fable review; the self-review and queue files are in scope.
 2. Pure policy: all conditions true -> eligible (no Fable needed); EVERY
    single condition false -> blocked (negative test per condition).
@@ -55,7 +56,7 @@ def test_registry():
     for t in CONDITIONAL_TYPES:
         s = types[t]
         check(f"{t} reviewPolicy is conditional", wp.review_policy_of(s) == "conditional")
-        check(f"{t} escalationModel is fable", s.get("escalationModel") == "fable")
+        check(f"{t} escalationModel is sonnet", s.get("escalationModel") == "sonnet")
         check(f"{t} has no unconditional fableReviewRequired",
               not s.get("fableReviewRequired"))
         check(f"{t} worker model stays sonnet", s.get("model") == "sonnet")
@@ -101,14 +102,14 @@ def test_live_gate_fails_closed():
         m = json.loads(mpath.read_text())
         check("manifest carries reviewPolicy conditional",
               m.get("reviewPolicy") == "conditional")
-        check("manifest carries escalationModel fable",
-              m.get("escalationModel") == "fable")
+        check("manifest carries escalationModel sonnet",
+              m.get("escalationModel") == "sonnet")
         rr = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "review",
                              "--manifest", str(mpath)],
                             capture_output=True, text=True, cwd=REPO)
         check("gate blocks when unsafe conditions appear (exit nonzero)",
               rr.returncode != 0)
-        check("gate names the escalation model", "ESCALATE to fable" in rr.stdout)
+        check("gate names the escalation model", "ESCALATE to sonnet" in rr.stdout)
         check("gate reports the missing fresh self-review",
               "fresh-self-review-committed-and-clean" in rr.stdout)
         check("gate never prints eligibility on failure",
@@ -146,7 +147,7 @@ def test_prompt():
               "next queued target" in out)
         check("prompt does NOT carry the unconditional Fable no-merge line",
               "may NOT merge" not in out)
-        check("prompt escalates to fable", "hand off to fable" in out)
+        check("prompt escalates to sonnet", "hand off to sonnet" in out)
 
 
 def write_evidence(path, ttype="rashi-realignment", module="yoma", targets=None):
@@ -249,7 +250,7 @@ def test_structural_repair_type():
     types = wp.load_registry()
     s = types["rashi-structural-repair"]
     check("model is fable", s["model"] == "fable")
-    check("escalation model is fable", s.get("escalationModel") == "fable")
+    check("escalation model is sonnet", s.get("escalationModel") == "sonnet")
     check("review policy is conditional (self-review + auto-merge gate)",
           wp.review_policy_of(s) == "conditional")
     check("one daf per PR (maxBatch 1)", s.get("maxBatch") == 1)

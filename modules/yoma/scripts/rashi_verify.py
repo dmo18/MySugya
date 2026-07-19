@@ -14,7 +14,7 @@ Fast mode runs, in order:
   validate_rashi_repetition, check_rashi_pr_scope (vs base), plus the
   advisory semantic audit scoped to the target daf (printed, never fatal),
   and the remaining offline gates (schema, daftext, rashi structural,
-  literal, order) via their scripts.
+  literal, order, docs freshness) via their scripts.
 
 Full mode additionally runs from the repo root:
   npm run build, npm run check:deploy-html, npm test, npm run test:browser.
@@ -47,6 +47,7 @@ FAST_GATES = [
     ("rashi-structural", [sys.executable, "scripts/validate_rashi.py"]),
     ("literal", [sys.executable, "scripts/validate_literal.py"]),
     ("order", [sys.executable, "scripts/order_audit.py"]),
+    ("docs-fresh", [sys.executable, "scripts/generate_rashi_docs.py", "--check"]),
 ]
 FULL_STEPS = [
     ("build", ["npm", "run", "build"]),

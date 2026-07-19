@@ -59,6 +59,42 @@ check("5b. scaffold with one bracket stays prefix-only",
       rules("Rashi: continues - until the incense service [is performed]")
       == ["scaffold-prefix"])
 
+print("detector: plain-meta scaffold (same family, no literal 'Rashi')")
+check("p1. bare 'Opens' quoted-title prefix fails",
+      "plain-meta-scaffold" in rules("Opens 'the Gemara's question': what is the source?"))
+check("p2. bare 'continuing:' prefix fails",
+      "plain-meta-scaffold" in rules("continuing: the same discussion of the paschal offering."))
+check("p3. bare 'closing:' prefix fails",
+      "plain-meta-scaffold" in rules("closing: at the break of dawn in the east."))
+check("p4. bare 'begins:' prefix fails",
+      "plain-meta-scaffold" in rules("begins: the second chapter of the tractate."))
+check("p5. bare 'resumes:' prefix fails",
+      "plain-meta-scaffold" in rules("resumes: the earlier analysis of the verse."))
+check("p6. combined closing-then-opens fails",
+      "plain-meta-scaffold" in rules(
+          "closing: at the break of dawn in the east.' Then opens 'Gemara: the rival of this one' -"))
+check("p7. case-insensitive 'OPENS' prefix fails",
+      "plain-meta-scaffold" in rules("OPENS 'the next installment': the ruling on the omer."))
+check("p8. mid-sentence 'then opens' fails even without a start-anchored prefix",
+      "plain-meta-scaffold" in rules(
+          "the Gemara raises a question, then opens 'the next matter': what indeed changed"))
+check("p9. 'Continuing:' with no space before the quote fails",
+      "plain-meta-scaffold" in rules("Continuing:'the previous point' - he explains the connection to the verse"))
+
+print("detector: plain-meta natural English never matches")
+check("p10. 'Open' (no trailing s) passes",
+      rules("Open the gate before removing the coals.") == [])
+check("p11. 'Opened' (past tense) passes",
+      rules("Opened the door and released the goat, as the verse states.") == [])
+check("p12. mid-sentence genuine 'opens' passes",
+      rules("He opens the ark and removes the tablets, per Rashi's gloss.") == [])
+check("p13. genuine sentence beginning 'The...continues' passes",
+      rules("The chapter continues with a new dispute; Rashi continues to explain further.") == [])
+check("p14. 'Begins' without a following colon passes",
+      rules("Begins the fourth perek with a fresh mishnah, per the Vilna edition.") == [])
+check("p15. 'opens' present but not preceded by 'then' passes",
+      rules("The Gemara later opens a new line of questioning about the omer.") == [])
+
 print("detector: line-number and passthrough placeholders")
 check("line-number 'Rashi on line 14:' fails",
       "line-number-scaffold" in rules("Rashi on line 14: אומר שיתנם בטבעות בדוחק:"))

@@ -1,0 +1,14 @@
+{
+ "_comment": "Curated, hand-maintained classification of remediation task type per daf, used by generate_rashi_docs.py to render the scaffold-status table. Entries here override the default classification computed from the current baseline's rule mix. Add a daf here only when its correct task type cannot be inferred purely from which rules currently hit it (e.g. the 2b/3a/3b/7b low-severity cluster, which is a separately-tracked pre-existing workstream, not part of the active reconstruction queue).",
+ "entries": {
+  "2b": "rashi-repair (after fresh semantic verification)",
+  "3a": "rashi-repair (after fresh semantic verification)",
+  "3b": "rashi-reconstruction",
+  "7b": "rashi-repair (after fresh semantic verification)",
+  "45b": "rashi-repair (after fresh semantic verification)",
+  "46a": "rashi-repair (after fresh semantic verification)"
+ },
+ "defaultForPlainMetaOnly": "rashi-narration-repair",
+ "defaultForReconstructionDebt": "rashi-reconstruction",
+ "defaultForResolved": "none (repaired and verified)"
+}
