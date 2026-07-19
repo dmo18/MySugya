@@ -176,6 +176,15 @@ def anchors_of(he, next_he=""):
         text = he + " " + next_he[:40]
     seen = set()
     for m in CITATION_RE.finditer(text):
+        # A citation whose entire match (opening paren included) lies past
+        # len(he) is not on this line at all - it's a separate, self-
+        # contained citation that happened to fall within the next_he
+        # lookahead appended above to close he's own unbalanced paren.
+        # Attributing it here would double-count it (it is correctly
+        # found again when the caller processes that next line on its
+        # own), so skip it rather than yield a spurious anchor.
+        if m.start() >= len(he):
+            continue
         inner = m.group(1)
         for heb in NAME_MAP:
             if heb in inner and heb not in seen:
