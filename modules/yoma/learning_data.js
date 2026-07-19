@@ -93349,7 +93349,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 1,
         he: "יעמד חי. על כרחך ללמדנו שאם מת אתה צריך להביא אחר דאי לא",
-        en: "Rashi: opens 'he shall stand alive' - necessarily to teach us that if it dies you must bring another, since if not,",
+        en: "Opens 'he shall stand alive': by necessity, to teach us that if it dies you must bring another, for if not,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93363,7 +93363,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 2,
         he: "למאי אתא אם תאמר שלא ישלחנו עד לאחר מתן דמים ליכתוב",
-        en: "Rashi: continues - what is this teaching for? If you say it is so that he not send it until after the giving of the blood, let the verse write",
+        en: "continuing: what would it come for? If you say it is only so that he not send it away before the sprinkling of the blood, let it write",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93377,7 +93377,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 3,
         he: "יעמד לפני ה' לכפר עליו חי למה לי אלא שאם מת צריך להביא",
-        en: "Rashi: continues - 'he shall stand before the Lord to atone over it' - why do I need 'alive'? Rather, it teaches that if it dies he must bring",
+        en: "continuing: 'he shall stand before the Lord to atone for him' - why do I need 'alive'? Rather, it teaches that if it dies you must bring",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93391,7 +93391,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 4,
         he: "אחר: ועד מתי הזקיקו להיות חי עד שעת מתן דמים של חבירו.",
-        en: "Rashi: concludes - another. Then opens 'and until when was it required to be alive: until the time of the giving of the blood of its fellow.'",
+        en: "closing: another.' Then opens 'and until when did they require it to remain alive - until the moment of the sprinkling of the blood of its fellow'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93405,12 +93405,12 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 5,
         he: "דכתיב לכפר עד שיכפר בדמו של",
-        en: "Rashi: opens 'as it is written 'to atone' - until he atones with the blood of",
+        en: "continuing: as it is written 'to atone,' meaning until he atones with the blood of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-040b-l04"
+          "yoma-040b-l01"
         ]
       },
       {
@@ -93419,12 +93419,12 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 6,
         he: "חבירו אבל משעת מתן דמים ואילך",
-        en: "Rashi: continues - its fellow, but from the time of the giving of the blood onward,",
+        en: "continuing: its fellow, but from the moment of the sprinkling of the blood onward,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-040b-l04"
+          "yoma-040b-l01"
         ]
       },
       {
@@ -93433,12 +93433,12 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 7,
         he: "אע\"פ שעדיין לא התודה לפי סדר",
-        en: "Rashi: continues - even though he has not yet confessed, according to the order of the verses,",
+        en: "continuing: even though he has not yet confessed, following the order of the verses -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-040b-l04"
+          "yoma-040b-l01"
         ]
       },
       {
@@ -93447,12 +93447,12 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 8,
         he: "המקראות וכלה מכפר וגו' (ויקרא טז)",
-        en: "Rashi: continues - 'and when he has finished atoning' etc. (Leviticus 16),",
+        en: "continuing: 'and when he has finished atoning,' etc. (Leviticus 16),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-040b-l04"
+          "yoma-040b-l01"
         ]
       },
       {
@@ -93461,12 +93461,12 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 9,
         he: "וסמך אהרן וגו' אם מת אין צריך",
-        en: "Rashi: continues - 'and Aaron shall lay,' etc. - if it dies he need not bring",
+        en: "continuing: 'and Aaron shall lean,' etc. - if it dies, no need for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-040b-l04"
+          "yoma-040b-l01"
         ]
       },
       {
@@ -93475,12 +93475,12 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 10,
         he: "אחר אלמא וידוי לא מיעכב: רבי",
-        en: "Rashi: opens 'another; this shows that confession does not preclude. Then opens Rabbi'",
+        en: "closing: another, implying that the confession is not indispensable.' Then opens 'Rabbi'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-040b-l07"
+          "yoma-040b-l01"
         ]
       },
       {
@@ -93489,12 +93489,12 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 11,
         he: "שמעון אומר כו'. כדפריש טעמא",
-        en: "Rashi: continues - 'Shimon says,' etc. - as he explains the reason",
+        en: "continuing: Shimon says,' etc.: as I will explain the reason further on,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-040b-l07"
+          "yoma-040b-l01"
         ]
       },
       {
@@ -93503,12 +93503,12 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 12,
         he: "לקמן ואני שמעתי ואזדו לטעמייהו",
-        en: "Rashi: continues - further on. And I have heard: and they go by their own reasoning",
+        en: "continuing: and I have heard it, and they follow their own reasoning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-040b-l07"
+          "yoma-040b-l01"
         ]
       },
       {
@@ -93517,12 +93517,12 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 13,
         he: "בהגרלה מיעכבא ולא מיעכבא ואי",
-        en: "Rashi: concludes - regarding whether the lottery precludes or does not preclude, and it is not possible to establish it otherwise.",
+        en: "closing: regarding whether the lottery is indispensable or not, and it is not possible to sustain it.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-040b-l07"
+          "yoma-040b-l01"
         ]
       },
       {
@@ -93531,7 +93531,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 14,
         he: "אפשר להעמידה: וכן הוא אומר",
-        en: "Rashi: concludes - it is not possible to establish it otherwise. Then opens 'and so he says:'",
+        en: "Opens 'and so it says: and when he has finished atoning for the Sanctuary'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93545,7 +93545,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 15,
         he: "וכלה מכפר את הקודש. הוא מתן",
-        en: "Rashi: continues - 'when he has finished atoning the Sanctuary' - that is the giving of",
+        en: "continuing: this refers to the sprinkling of the blood, 'and he shall offer the live goat' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93559,7 +93559,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 16,
         he: "דמים והקריב את השעיר החי עד כאן",
-        en: "Rashi: continues - blood, 'and he shall bring the live goat' - until this point",
+        en: "closing: up to that point it must remain alive.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93573,12 +93573,12 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 17,
         he: "צריך להיות חי: לכפר עליו. בכפרה",
-        en: "Rashi: concludes - it must be alive. Then opens 'to atone over it' - in the atonement",
+        en: "Opens 'to atone for him': the atonement",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-040b-l04"
+          "yoma-040b-l07"
         ]
       },
       {
@@ -93587,12 +93587,12 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 18,
         he: "המוטלת עליו הכתוב מדבר והוא",
-        en: "Rashi: continues - that falls upon it, the verse speaks of, and it is",
+        en: "closing: imposed upon it, the verse speaks of, and this is the confession.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-040b-l04"
+          "yoma-040b-l07"
         ]
       },
       {
@@ -93601,7 +93601,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 19,
         he: "הוידוי: עלה בשמאל. גורל שם:",
-        en: "Rashi: opens 'it came up on the left' - the lot 'for the Name.'",
+        en: "Opens 'it came up in the left hand': the lot for the divine Name.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93615,7 +93615,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 20,
         he: "אל תתנו מקום לצדוקים. תלמידים",
-        en: "Rashi: opens 'do not give room to the Sadducees' - students",
+        en: "Opens 'do not give an opening to the Sadducees': students",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93629,7 +93629,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 21,
         he: "החולקים על התורה לרדות ולמשול",
-        en: "Rashi: continues - who dispute the Torah, to dominate and rule",
+        en: "continuing: who dispute the Torah, to dominate and rule",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93643,7 +93643,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 22,
         he: "בהן לקפח אתכם בדברים שיאמרו",
-        en: "Rashi: continues - over them, to shortchange you with words they will say",
+        en: "continuing: over you, to belittle you with words they would say,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93657,7 +93657,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 23,
         he: "לפי רצונם הם עושים הכל: הא לאו",
-        en: "Rashi: concludes - according to their own will, that they do everything.",
+        en: "closing: that everything is done according to their own will.' Then opens 'is it not'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93671,7 +93671,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 24,
         he: "הכי מהדרינן. של עזאזל לשם: כיון",
-        en: "Rashi: opens 'if not so, we would return it' - of the goat marked for Azazel, to the Name. Then opens 'once",
+        en: "closing: that we return it': to Azazel's designation.' Then opens 'since'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93685,7 +93685,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 25,
         he: "שעלה. מתוך קלפי ויודע איזו לשם",
-        en: "Rashi: opens 'it came up' - from within the urn and it is known which is for the Name",
+        en: "continuing: it came up': from within the urn, and it is known which is for the Name",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93699,7 +93699,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 26,
         he: "ואיזו לעזאזל א] שוב אינו צריך להיות",
-        en: "Rashi: continues - and which is for Azazel, it no longer needs to be",
+        en: "continuing: and which is for Azazel, one no longer needs it to be",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93713,7 +93713,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 27,
         he: "מונח עליו ואפילו למצוה אבל עלייה",
-        en: "Rashi: continues - placed upon it, even for the sake of a mitzva; but the rising",
+        en: "continuing: placed upon it, even for the sake of the mitzvah; but the rising",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93727,7 +93727,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 28,
         he: "והנחה מצוה (היא) מיהא איכא:",
-        en: "Rashi: concludes - and the placement are each nevertheless a mitzva.",
+        en: "closing: and the placing are, at any rate, each a mitzvah.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93741,7 +93741,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 29,
         he: "ואין השם. אם קרא לו שם בלא גורל:",
-        en: "Rashi: opens 'and the Name does not' - if he called it a name without a lottery.",
+        en: "Opens 'and not the naming': if he called it by a name without a lottery.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93755,7 +93755,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 30,
         he: "במקום שלא קידש הגורל. בשאר",
-        en: "Rashi: opens 'in a place where the lottery did not sanctify' - regarding other",
+        en: "Opens 'in a case where the lottery did not sanctify': in the other",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93769,7 +93769,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 31,
         he: "קרבנות הצריכין פירוש כגון קיני",
-        en: "Rashi: continues - offerings that require specification, such as the bird-offerings of",
+        en: "continuing: offerings requiring specification, such as the nest-offerings of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93783,7 +93783,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 32,
         he: "זבין וזבות ויולדות שאחד מהן חטאת",
-        en: "Rashi: continues - zavim and zavot and women after childbirth, where one of them is a sin-offering",
+        en: "continuing: zavim, zavot, and women after childbirth, where one is a sin-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93797,7 +93797,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 33,
         he: "ואחד מהן עולה שלא קידש הגורל אם",
-        en: "Rashi: continues - and one of them is a burnt-offering, where the lottery did not sanctify. If",
+        en: "continuing: and one is a burnt-offering, where the lottery did not sanctify - if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93811,7 +93811,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 34,
         he: "כתב על שני גורלות על אחד חטאת ועל",
-        en: "Rashi: continues - he wrote on two lots, on one 'sin-offering' and on",
+        en: "continuing: he wrote on two lots, on one 'sin-offering' and on",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93825,7 +93825,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 35,
         he: "א' עולה ונתנן עליהם לא מצינו שהגורל",
-        en: "Rashi: concludes - the other 'burnt-offering,' and placed them upon them, we do not find that the lottery",
+        en: "continuing: the other 'burnt-offering,' and placed them upon them, we do not find that the lottery",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93839,7 +93839,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 36,
         he: "קובעם ולא יכול לשנותן: קידש",
-        en: "Rashi: opens 'sanctifies them and he cannot change them. Then opens the name'",
+        en: "closing: establishes them, and he cannot change them.' Then opens 'the naming'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93853,7 +93853,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 37,
         he: "השם. מאחר שקרא לזו חטאת",
-        en: "Rashi: continues - 'sanctified' - since he called this one sin-offering",
+        en: "continuing: sanctified': once he has called this one a sin-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93867,7 +93867,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 38,
         he: "ולזו עולה אין הכהן רשאי לשנותן",
-        en: "Rashi: continues - and that one burnt-offering, the priest may not change them,",
+        en: "continuing: and that one a burnt-offering, the priest may not change them,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93881,7 +93881,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 39,
         he: "כדאמרינן לקמן (דף מא.) מולקחה",
-        en: "Rashi: continues - as we say further on (41a): 'and he shall take",
+        en: "continuing: as we say further on (41a): from 'and he shall take'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93895,7 +93895,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 40,
         he: "שתי תורים או שני בני יונה אחד",
-        en: "Rashi: continues - two turtledoves or two young pigeons,' one",
+        en: "continuing: two turtledoves or two young pigeons, one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93909,7 +93909,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 41,
         he: "לעולה ואחד לחטאת בשעת לקיחה הן נקבעין זו לעולה",
-        en: "Rashi: continues - for a burnt-offering and one for a sin-offering; at the time of taking they are designated one for the burnt-offering",
+        en: "continuing: for a burnt-offering and one for a sin-offering, at the time of taking they are established, this one for the burnt-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93923,7 +93923,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 42,
         he: "וזו לחטאת כאן שמצינו שהגורל קובען אינו דין שהשם קובען:",
-        en: "Rashi: continues - and the other for the sin-offering; here, where we find that the lottery designates them, is it not logical that the name should designate them?",
+        en: "closing: and that one for the sin-offering; here, since we find that the lottery establishes them, is it not logical that the naming should establish them?'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -93937,7 +93937,7 @@ const DAF_CONTENT = {
         daf: "40b",
         vilnaLine: 43,
         he: "סתם",
-        en: "Rashi: the daf's final truncated word - 'plainly,' the start of the dibbur hamatchil resolving the objection that the lottery's own designating power should extend by kal vachomer to the name, whose text continues on 41a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+        en: "Opens 'unspecified' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
