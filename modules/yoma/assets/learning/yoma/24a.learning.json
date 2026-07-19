@@ -45,7 +45,10 @@
         "coreTension": "Smaller and worn sounds like a step outside priestly dress entirely, yet the Gemara grounds the requirement in the very same verse that governs the regular service garments, suggesting the worn garments are not an exception to priestly dress but a reduced-scale application of it.",
         "coreMove": "'And he shall put on his linen garments' is read to govern both the regular service and the ash removal: the same word, the same type of garment, requiring a kohen in valid linen vestments for both. The only difference the Gemara identifies is quantity, one-quarter the fabric, and condition, worn through use, not category. The tradition attributes the wear itself to the kohen gadol's own prior years' garments naturally filling this role as they aged, rather than to a separately manufactured 'worn garment' set.",
         "resolution": "The ash-removal garments are the same four types of valid priestly vestments required for regular service, made from one-quarter the fabric and worn through prior use. They remain real bigdei kehuna throughout the ash-removal service.",
-        "takeaway": {"type": "legal_principle", "text": "A garment's priestly validity depends on its type and verse-derived source, not on its size or condition. Smaller and worn does not mean disqualified."},
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "A garment's priestly validity depends on its type and verse-derived source, not on its size or condition. Smaller and worn does not mean disqualified."
+        },
         "ahaMoment": "The most unglamorous Temple task did not get a holiness downgrade in personnel or dress category, only a quantity downgrade. The priest removing ash is fully a priest in valid priestly dress the entire time.",
         "learningBlocker": "Learners may treat the four ash-removal garments as a separately manufactured fixed category. The Gemara's own account is that they were the kohen gadol's prior years' garments, worn down through use, not items specially produced to look worn; 'worn' describes their history, not their original design.",
         "memoryAnchor": "Ash removal garments: same 4 types, same verse, one-quarter fabric, worn through use, not separately made. Still valid bigdei kehuna - smaller, not lesser in kind."
@@ -183,7 +186,10 @@
         "coreTension": "A golden pan for ash looks like a mismatch between the value of the vessel and the value of its contents, unless the vessel's purpose has nothing to do with what the ash is worth.",
         "coreMove": "The Gemara fixes the procedure with precision: a full fistful, taken specifically from the top of the pile rather than the sides, placed into the machta shel zahav so that the pan does not overflow. The exactness of the requirement, not the ash's value, is what the golden pan marks: a designated, dignified vessel for a designated, exact quantity, turning ash removal into a defined ritual act rather than ordinary housekeeping.",
         "resolution": "Terumat hadeshen requires a full fistful taken from the top of the ash pile, deposited into the machta shel zahav, the golden pan reserved for this purpose, without overflowing it.",
-        "takeaway": {"type": "conceptual", "text": "A sacred vessel's value signals the dignity of the act being performed, not the value of what it holds."},
+        "takeaway": {
+          "type": "conceptual",
+          "text": "A sacred vessel's value signals the dignity of the act being performed, not the value of what it holds."
+        },
         "ahaMoment": "Gold for ash stops looking like a contradiction once the pan is read as honoring the act of ash removal as a defined Temple ritual, not the ash itself.",
         "learningBlocker": "Learners may assume the fistful is an approximate handful. The requirement is exact: specifically from the top of the pile, filling but not overflowing the pan, the same precision the Gemara applies to far more visibly central Temple measurements.",
         "memoryAnchor": "Fistful from the top of the pile, into the machta shel zahav (golden pan). Precise quantity, dignified vessel, defined ritual act."
@@ -306,7 +312,10 @@
         "coreTension": "Slaughter looks like exactly the kind of act that should require a priest, since it initiates the entire offering process, yet the Gemara permits any Israelite to perform it, while other support tasks like carrying wood or ash are genuinely disputed. The line between priests-only and open-to-all does not track how central a task feels to the offering.",
         "coreMove": "The Gemara locates the boundary at the offering's actual sanctification, not at proximity to the altar or to the offering process generally. The priest's defined role begins with receiving the blood, the act that converts the slaughtered animal into a sacred offering; slaughter itself, though necessary, does not yet perform that sanctification, so it falls outside the priests-only category. Wood-carrying and ash-carrying are then debated using the same test: is the act inherent to the offering's sanctification (priests only), or merely logistical support around it (open to non-priests)?",
         "resolution": "Non-priests may slaughter the daily offering; receiving its blood is the priest's defined, non-delegable role. Carrying wood to the altar fire and carrying ash from the ramp to the ash pit remain disputed, judged by the same inherent-to-the-offering criterion.",
-        "takeaway": {"type": "legal_principle", "text": "The boundary between priests-only and open-to-all Temple tasks runs through whether the act itself sanctifies the offering, not through how essential or how close to the altar the task feels."},
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "The boundary between priests-only and open-to-all Temple tasks runs through whether the act itself sanctifies the offering, not through how essential or how close to the altar the task feels."
+        },
         "ahaMoment": "Slaughter is clearly central to the offering, yet any Israelite can do it, because the priest's mandatory role begins specifically with receiving the blood. Carrying ash away feels purely logistical, yet it is genuinely disputed. The Gemara is not ranking tasks by how important they feel; it is asking one narrow question of each: does this act sanctify the offering?",
         "learningBlocker": "Learners may assume every task performed inside the Temple complex requires priestly status. The sugya's principle is narrower: only acts inherent to the offering's sanctification (blood reception, sprinkling, burning) are reserved for priests; logistical tasks, even ones that feel sacred by association, can be open to dispute or open to non-priests entirely.",
         "memoryAnchor": "Priests-only: receiving blood, sprinkling, burning, ketoret. Open to non-priests: slaughter (settled). Disputed: wood carrying, ash carrying from ramp to pit."
@@ -459,329 +468,329 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Rashi: opens 'to include the worn ones' - that they are valid for any service, provided they are not torn; and thus",
+      "en": "Opens 'to include the worn garments': that they are valid for any service, provided they are not torn, and this is",
       "linkedGemaraLineIds": [
         "yoma-024a-l01a"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Rashi: continues - he says in tractate Zevachim (18a): and Rabbi Dosa follows his own reasoning; it is not relevant here",
+      "en": "continuing: what it says in Zevachim (18a); and Rabbi Dosa follows his own reasoning, but it is not relevant here",
       "linkedGemaraLineIds": [
         "yoma-024a-l01a"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "Rashi: concludes - to say that this whole matter was mentioned incidentally. Then opens 'is it not that' - Rabbi Yehuda",
+      "en": "closing: to say so, for this whole matter was raised only in passing.' Then opens 'is it not': Rabbi Yehuda",
       "linkedGemaraLineIds": [
-        "yoma-024a-l04"
+        "yoma-024a-l01a"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Rashi: continues - and Rabbi Dosa disagree about this: that Rabbi Yehuda, who expounds 'he shall wear' to include the turban and sash, holds",
+      "en": "continuing: and Rabbi Dosa disagree about this: that Rabbi Yehuda, who expounds 'shall wear' to include the turban and sash, holds",
       "linkedGemaraLineIds": [
         "yoma-024a-l04"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "Rashi: continues - it is a service and requires the turban and sash; and Rabbi",
+      "en": "continuing: it is a service and requires the turban and sash; and Rabbi",
       "linkedGemaraLineIds": [
         "yoma-024a-l04"
       ]
     },
     {
       "vilnaLine": 6,
-      "en": "Rashi: continues - Dosa holds it is not a service and does not require",
+      "en": "continuing: Dosa holds it is not a service and does not require",
       "linkedGemaraLineIds": [
         "yoma-024a-l04"
       ]
     },
     {
       "vilnaLine": 7,
-      "en": "Rashi: concludes - the turban and sash. Then opens and closes 'a verse is needed to include it' -",
+      "en": "closing: the turban and sash.' Then opens 'does the verse need to include it' -",
       "linkedGemaraLineIds": [
         "yoma-024a-l06"
       ]
     },
     {
       "vilnaLine": 8,
-      "en": "Rashi: continues DH comment - lest you say these are exclusive, meaning it is not",
+      "en": "continuing: so that you should not say these specific ones alone, meaning it is not",
       "linkedGemaraLineIds": [
         "yoma-024a-l06"
       ]
     },
     {
       "vilnaLine": 9,
-      "en": "Rashi: concludes - a service. Then opens 'and the other master holds no verse is needed to include'",
+      "en": "closing: a service.' Then opens 'and the other holds the verse does not need to include it' -",
       "linkedGemaraLineIds": [
         "yoma-024a-l06"
       ]
     },
     {
       "vilnaLine": 10,
-      "en": "Rashi: continues DH - it from the verses' - since it revealed regarding it, a tunic of",
+      "en": "continuing: from Scripture, for since it revealed regarding it the sacred linen tunic",
       "linkedGemaraLineIds": [
         "yoma-024a-l06"
       ]
     },
     {
       "vilnaLine": 11,
-      "en": "Rashi: continues - linen, sacred, and linen trousers, sacred, it taught us",
+      "en": "continuing: and sacred linen breeches, it thereby taught us",
       "linkedGemaraLineIds": [
         "yoma-024a-l06"
       ]
     },
     {
       "vilnaLine": 12,
-      "en": "Rashi: continues - that it is a service and requires all of them; and when",
+      "en": "continuing: that it is a service and requires all of them; and when",
       "linkedGemaraLineIds": [
         "yoma-024a-l06"
       ]
     },
     {
       "vilnaLine": 13,
-      "en": "Rashi: concludes - the verse came to include, it came for the garments of Yom Kippur.",
+      "en": "closing: the verse came, it came to include the Yom Kippur garments.",
       "linkedGemaraLineIds": [
         "yoma-024a-l06"
       ]
     },
     {
       "vilnaLine": 14,
-      "en": "Rashi: opens 'we derive it from the tithe-offering' - since",
+      "en": "Opens 'we derive it from the terumat ma'aser': for it",
       "linkedGemaraLineIds": [
         "yoma-024a-l08"
       ]
     },
     {
       "vilnaLine": 15,
-      "en": "Rashi: continues - 'and he shall raise' is written, similar to the language 'and you shall raise from it'",
+      "en": "continuing: is written 'and he shall remove,' the language of 'and you shall remove from it'",
       "linkedGemaraLineIds": [
         "yoma-024a-l08"
       ]
     },
     {
       "vilnaLine": 16,
-      "en": "Rashi: continues - (Numbers 18), and it is an estimate of one",
+      "en": "continuing: (Numbers 18), which is an estimated amount of one",
       "linkedGemaraLineIds": [
         "yoma-024a-l08"
       ]
     },
     {
       "vilnaLine": 17,
-      "en": "Rashi: concludes - part in ten in the ash of the arrangement. Then opens 'or from the tribute'",
+      "en": "closing: part in ten of the ash of the arrangement.' Then opens 'or from",
       "linkedGemaraLineIds": [
         "yoma-024a-l08"
       ]
     },
     {
       "vilnaLine": 18,
-      "en": "Rashi: continues DH - of Midian' - as it is written (ibid. 31): 'and you shall raise a tribute",
+      "en": "continuing: the terumah of Midian': as it is written (ibid. 31): 'and you shall levy a tribute",
       "linkedGemaraLineIds": [
         "yoma-024a-l08"
       ]
     },
     {
       "vilnaLine": 19,
-      "en": "Rashi: concludes - to the Lord,' etc., one soul out of five hundred. Then opens 'come and hear'",
+      "en": "closing: for the Lord,' etc., 'one soul from every five hundred.'' Then opens 'come and",
       "linkedGemaraLineIds": [
         "yoma-024a-l08"
       ]
     },
     {
       "vilnaLine": 20,
-      "en": "Rashi: continues DH - that from the raising of the handful we derive it: it should not",
+      "en": "continuing: hear': we derive it from the removal of the handful, that it must not be less",
       "linkedGemaraLineIds": [
         "yoma-024a-l08"
       ]
     },
     {
       "vilnaLine": 21,
-      "en": "Rashi: continues - be less than the estimate of a full handful, and if he wishes",
+      "en": "continuing: than the estimate of a full handful, but if he wishes",
       "linkedGemaraLineIds": [
         "yoma-024a-l08"
       ]
     },
     {
       "vilnaLine": 22,
-      "en": "Rashi: continues - to add, he may add, since one cannot say",
+      "en": "continuing: to add more, he may add, since one cannot say",
       "linkedGemaraLineIds": [
         "yoma-024a-l08"
       ]
     },
     {
       "vilnaLine": 23,
-      "en": "Rashi: continues - it means exactly this amount, since it is impossible to stretch",
+      "en": "continuing: he speaks precisely, for it is not possible to spread",
       "linkedGemaraLineIds": [
         "yoma-024a-l08"
       ]
     },
     {
       "vilnaLine": 24,
-      "en": "Rashi: concludes - his hands into the embers of burning coals to scoop a handful.",
+      "en": "closing: his hands exactly to scoop amid the hot burning coals.",
       "linkedGemaraLineIds": [
         "yoma-024a-l08"
       ]
     },
     {
       "vilnaLine": 25,
-      "en": "Rashi: opens 'four services, etc.' - even though for all of them",
+      "en": "Opens 'four services, etc.': although they are all",
       "linkedGemaraLineIds": [
         "yoma-024a-l13"
       ]
     },
     {
       "vilnaLine": 26,
-      "en": "Rashi: continues - a non-priest is warned, there is no capital liability except",
+      "en": "continuing: forbidden to a non-priest, the penalty of death applies only",
       "linkedGemaraLineIds": [
         "yoma-024a-l13"
       ]
     },
     {
       "vilnaLine": 27,
-      "en": "Rashi: concludes - for these four, as is explained further on. Then opens 'and you'",
+      "en": "closing: to these four, as he goes on to explain.' Then opens 'you'",
       "linkedGemaraLineIds": [
-        "yoma-024a-l16"
+        "yoma-024a-l13"
       ]
     },
     {
       "vilnaLine": 28,
-      "en": "Rashi: continues DH - and your sons with you, etc.' - the end of the verse: 'and the stranger",
+      "en": "continuing: 'and your sons with you, etc.': the end of the verse is 'and the outsider",
       "linkedGemaraLineIds": [
         "yoma-024a-l16"
       ]
     },
     {
       "vilnaLine": 29,
-      "en": "Rashi: concludes - who approaches shall be put to death.' Then opens 'a service of gift' - that you",
+      "en": "closing: who draws near shall be put to death.' Then opens 'a service of giving': that you",
       "linkedGemaraLineIds": [
         "yoma-024a-l16"
       ]
     },
     {
       "vilnaLine": 30,
-      "en": "Rashi: continues - place upon the altar, and not a removal-service,",
+      "en": "continuing: place upon the altar, and not a service of removal",
       "linkedGemaraLineIds": [
         "yoma-024a-l16"
       ]
     },
     {
       "vilnaLine": 31,
-      "en": "Rashi: continues - that you remove and take away from the altar, such as",
+      "en": "continuing: which you remove and take away from the altar, such as",
       "linkedGemaraLineIds": [
         "yoma-024a-l16"
       ]
     },
     {
       "vilnaLine": 32,
-      "en": "Rashi: concludes - the removal of the ash. Then opens 'a complete service' - a service",
+      "en": "closing: terumat hadeshen.' Then opens 'a complete service': a service",
       "linkedGemaraLineIds": [
         "yoma-024a-l16"
       ]
     },
     {
       "vilnaLine": 33,
-      "en": "Rashi: continues - that finishes and completes the matter, and not",
+      "en": "continuing: that finishes and completes the matter, and not",
       "linkedGemaraLineIds": [
         "yoma-024a-l16"
       ]
     },
     {
       "vilnaLine": 34,
-      "en": "Rashi: continues - one after which there is another service, such as slaughtering",
+      "en": "continuing: one after which another service still follows, such as slaughter",
       "linkedGemaraLineIds": [
         "yoma-024a-l16"
       ]
     },
     {
       "vilnaLine": 35,
-      "en": "Rashi: continues - and receiving and carrying the blood, after which comes the sprinkling; but",
+      "en": "continuing: and receiving the blood and carrying it, after which sprinkling still follows; but",
       "linkedGemaraLineIds": [
         "yoma-024a-l16"
       ]
     },
     {
       "vilnaLine": 36,
-      "en": "Rashi: continues - the sprinkling is the final service of the blood; and likewise",
+      "en": "continuing: sprinkling is the final service of the blood, and likewise",
       "linkedGemaraLineIds": [
         "yoma-024a-l16"
       ]
     },
     {
       "vilnaLine": 37,
-      "en": "Rashi: continues - the burning, with the handful of a meal offering, and with the limbs",
+      "en": "continuing: burning of the handful of the meal-offering, and of the limbs",
       "linkedGemaraLineIds": [
         "yoma-024a-l16"
       ]
     },
     {
       "vilnaLine": 38,
-      "en": "Rashi: concludes - and fats; and likewise the wine libation all year; and likewise",
+      "en": "continuing: and fats, and likewise the wine libation the whole year, and likewise",
       "linkedGemaraLineIds": [
         "yoma-024a-l16"
       ]
     },
     {
       "vilnaLine": 39,
-      "en": "Rashi: continues DH - the water on the festival. Then opens 'for any matter of the altar' - to include",
+      "en": "closing: the water libation on the festival.' Then opens 'for any matter of the altar': to include",
       "linkedGemaraLineIds": [
         "yoma-024a-l22"
       ]
     },
     {
       "vilnaLine": 40,
-      "en": "Rashi: continues - a removal-service, if it is a complete service,",
+      "en": "continuing: the service of removal, if it is a complete service,",
       "linkedGemaraLineIds": [
         "yoma-024a-l22"
       ]
     },
     {
       "vilnaLine": 41,
-      "en": "Rashi: concludes - such as the removal of the ash. Then opens 'the seven sprinklings inside' - one who sprinkles on the curtain, from the bull of",
+      "en": "closing: such as terumat hadeshen.' Then opens 'the seven sprinklings that are within': that he sprinkles on the curtain from the bull",
       "linkedGemaraLineIds": [
         "yoma-024a-l22"
       ]
     },
     {
       "vilnaLine": 42,
-      "en": "Rashi: continues - a communal unwitting sin, and the bull of the anointed priest, and that of Yom Kippur; and that of the leper, who sprinkles a log of oil in the Sanctuary,",
+      "en": "continuing: for an unwitting communal sin, the bull of the anointed priest, and that of Yom Kippur, and that of the leper, from whose log of oil he sprinkles in the Sanctuary",
       "linkedGemaraLineIds": [
         "yoma-024a-l22"
       ]
     },
     {
       "vilnaLine": 43,
-      "en": "Rashi: continues - as it is written (Leviticus 14): 'and he shall sprinkle from the oil with his finger,' etc.; for you might think",
+      "en": "continuing: as it is written (Leviticus 14): 'and he shall sprinkle from the oil with his finger,' etc. - for you might think",
       "linkedGemaraLineIds": [
         "yoma-024a-l22"
       ]
     },
     {
       "vilnaLine": 44,
-      "en": "Rashi: concludes - to say it is not a matter of the altar, therefore he includes it with 'any.' Then opens 'and Levi derives them' - all of them",
+      "en": "closing: it is not a matter of the altar, therefore he includes all.' Then opens 'and Levi derives them': all of them",
       "linkedGemaraLineIds": [
-        "yoma-024a-l25"
+        "yoma-024a-l22"
       ]
     },
     {
       "vilnaLine": 45,
-      "en": "Rashi: continues - from 'matter' to 'any matter,' since 'matter of the altar' itself is superfluous, and from it is derived",
+      "en": "continuing: from it, from 'matter,' 'any matter' - since 'matter of the altar' itself is superfluous, and it is derived",
       "linkedGemaraLineIds": [
         "yoma-024a-l25"
       ]
     },
     {
       "vilnaLine": 46,
-      "en": "Rashi: concludes - the removal of the ash, and from the extra 'any' he derives the inner sprinkling.",
+      "en": "closing: from it - terumat hadeshen, and from the extra word 'any' he derives from it the inner sprinkling.",
       "linkedGemaraLineIds": [
         "yoma-024a-l25"
       ]
     },
     {
       "vilnaLine": 47,
-      "en": "Rashi: the daf's final truncated word - 'and to inside,' continuing Rav's derivation of the inner sprinklings from the extra word 'matter,' whose text continues on 24b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "en": "Opens 'to within' -",
       "linkedGemaraLineIds": [
         "yoma-024a-l26"
       ]
