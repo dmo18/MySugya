@@ -90,7 +90,10 @@
         "coreTension": "Both rules sound like 'only certain kohanim may serve here,' which invites collapsing them into one principle, yet one rule is about a place (the veil, on Yom Kippur) and the other is about a person's physical qualification (unblemished status, anywhere avodah happens). Treating them as the same rule would mispredict who may do what, and where.",
         "coreMove": "The Gemara maps two independent axes. Location: within the veil on Yom Kippur, the KG alone; in the heichal, any common priest, all year; in the courtyard, any kosher kohen; beyond the courtyard, logistical participation broadens further. Physical qualification: a mum (blemish) disqualifies a kohen from formal avodah at any of those locations, but does not strip his general priestly status (teruma, duchaning remain his), and whether the disqualification reaches logistical support tasks (not formal avodah) is itself disputed, mirroring the non-priest support-task dispute just established for daf 24a.",
         "resolution": "Within the veil on Yom Kippur: the Kohen Gadol only. In the heichal: any common priest. A blemished kohen is excluded from formal avodah everywhere, but retains his general priestly status, and authorities dispute whether logistical support tasks are open to him.",
-        "takeaway": {"type": "legal_principle", "text": "Location and physical qualification are independent eligibility criteria. A kohen can be barred by one and not the other, so the two restrictions must be checked separately, not assumed to track each other."},
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "Location and physical qualification are independent eligibility criteria. A kohen can be barred by one and not the other, so the two restrictions must be checked separately, not assumed to track each other."
+        },
         "ahaMoment": "The veil is not just an architectural feature, it is a theological boundary that determines personnel requirements by location alone. The mum rule is a completely separate axis, about the person rather than the place. The same kohen who is barred from the Holy of Holies on every day but Yom Kippur, and barred from it even then unless he is the KG, is a different question entirely from whether a blemish bars him from the altar at all.",
         "learningBlocker": "Learners may assume a blemished kohen loses his priestly identity entirely. He does not; mum disqualifies specifically from performing avodah, not from teruma or duchaning. The sugya also sets up, without yet resolving, the KG's four separate entries into the Holy of Holies on Yom Kippur itself, each governed by its own conditions, which the Gemara develops fully in the chapters describing the Yom Kippur service.",
         "memoryAnchor": "Inside veil (Yom Kippur): KG only. Heichal: common priests. Courtyard: any kosher kohen. Blemished kohanim: barred from avodah everywhere, status otherwise intact, support tasks disputed. Two separate axes: place and person."
@@ -347,7 +350,10 @@
         "coreTension": "Efficiency would favor fewer priests doing more each; the mishna does the opposite, multiplying the number of distinct positions to 13 for a single offering. That choice only makes sense if the lottery is optimizing for something other than workflow efficiency.",
         "coreMove": "The Gemara confirms that combining positions, one priest doing two or more, was theoretically possible: the tasks do not halakhically require separate hands. The 13-way split is therefore a deliberate design choice, not a functional necessity, aimed at maximizing how many priests could share in performing the daily tamid each morning.",
         "resolution": "One priest could, in principle, perform multiple of the 13 positions, but the lottery system deliberately assigned all 13 separately every morning to distribute participation in the daily offering as broadly as possible.",
-        "takeaway": {"type": "conceptual", "text": "A ritual's procedural structure can be designed to distribute participation rather than to minimize the number of participants."},
+        "takeaway": {
+          "type": "conceptual",
+          "text": "A ritual's procedural structure can be designed to distribute participation rather than to minimize the number of participants."
+        },
         "ahaMoment": "The 13-person list reveals how many priests were needed for a single daily morning offering, not because the task demanded it, but because the system wanted it. Modern readers might imagine one or two priests; in fact, 13 different priests each had a distinct role, by design.",
         "learningBlocker": "Learners may assume the 13 positions are mandated by the physical complexity of the offering itself. The Gemara's own analysis shows otherwise: combination was theoretically available, and the granularity is a deliberate fairness mechanism, not a functional requirement of the offering.",
         "memoryAnchor": "Second lottery: 13 positions, by design not necessity. Slaughter, blood, inner altar ash, menorah ash, then carriers of limbs and offerings, plus flour and wine. Splitting maximized participation."
@@ -495,455 +501,455 @@
   "rashiTranslations": [
     {
       "vilnaLine": 1,
-      "en": "Rashi: opens 'and to inside the curtain' - it separates the general rule from the specific rule: 'inside the curtain' is",
+      "en": "Opens 'and to within the curtain': he separates between the general rule and the specific case: 'within the curtain' is",
       "linkedGemaraLineIds": [
         "yoma-024b-l01"
       ]
     },
     {
       "vilnaLine": 2,
-      "en": "Rashi: continues - of a gift-service, such as the sprinklings between the poles on Yom Kippur, and placing",
+      "en": "continuing: where a service of giving occurs, such as the sprinklings between the poles on Yom Kippur, and the placing of",
       "linkedGemaraLineIds": [
         "yoma-024b-l01"
       ]
     },
     {
       "vilnaLine": 3,
-      "en": "Rashi: concludes - incense on the fire. Then opens 'and not a removal-service' - such as taking out the ladle and the fire-pan",
+      "en": "closing: incense on the fire.' Then opens 'and not a service of removal': such as taking out the ladle and fire-pan",
       "linkedGemaraLineIds": [
         "yoma-024b-l01"
       ]
     },
     {
       "vilnaLine": 4,
-      "en": "Rashi: continues - that the High Priest brings in there for the Yom Kippur incense, and places it between the poles, and afterward returns",
+      "en": "continuing: which the High Priest brings in there for the Yom Kippur incense, and places between the poles, and afterward returns",
       "linkedGemaraLineIds": [
         "yoma-024b-l01"
       ]
     },
     {
       "vilnaLine": 5,
-      "en": "Rashi: concludes - and takes them out. Then opens 'if so, and he shall serve, also inside",
+      "en": "closing: and takes them out.' Then opens 'if so, \"and he shall serve\" also, within",
       "linkedGemaraLineIds": [
         "yoma-024b-l03"
       ]
     },
     {
       "vilnaLine": 6,
-      "en": "Rashi: continues DH - the curtain' - of a complete service, such as",
+      "en": "continuing: the curtain, is a complete service.' Such as",
       "linkedGemaraLineIds": [
         "yoma-024b-l03"
       ]
     },
     {
       "vilnaLine": 7,
-      "en": "Rashi: concludes - placing incense on the fire. Then opens 'and not one after which there is'",
+      "en": "closing: placing incense on the fire.' Then opens 'and not one after",
       "linkedGemaraLineIds": [
         "yoma-024b-l03"
       ]
     },
     {
       "vilnaLine": 8,
-      "en": "Rashi: continues DH - another service' - carrying the ladle and fire-pan",
+      "en": "continuing: which another service still follows': carrying the ladle and fire-pan,",
       "linkedGemaraLineIds": [
         "yoma-024b-l03"
       ]
     },
     {
       "vilnaLine": 9,
-      "en": "Rashi: concludes - after which comes scooping and burning. Then opens 'and he shall serve'",
+      "en": "closing: after which scooping and burning still follow.' Then opens 'and he shall serve,'",
       "linkedGemaraLineIds": [
-        "yoma-024b-l06"
+        "yoma-024b-l03"
       ]
     },
     {
       "vilnaLine": 10,
-      "en": "Rashi: continues DH - the verse repeats it again' - regarding a complete service,",
+      "en": "continuing: 'the verse repeats it again': regarding a complete service,",
       "linkedGemaraLineIds": [
         "yoma-024b-l06"
       ]
     },
     {
       "vilnaLine": 11,
-      "en": "Rashi: continues - since the added 'and' applies to the first matter, but",
+      "en": "continuing: since the vav adds to the first matter, but",
       "linkedGemaraLineIds": [
         "yoma-024b-l06"
       ]
     },
     {
       "vilnaLine": 12,
-      "en": "Rashi: continues - a gift-service does not repeat, except to 'inside",
+      "en": "continuing: a service of giving does not need repeating, but only to 'within",
       "linkedGemaraLineIds": [
         "yoma-024b-l06"
       ]
     },
     {
       "vilnaLine": 13,
-      "en": "Rashi: concludes - the curtain' mentioned earlier, since it has no added 'and' written in it.",
+      "en": "closing: the curtain,' which precedes it, since it is not written with a vav.",
       "linkedGemaraLineIds": [
         "yoma-024b-l06"
       ]
     },
     {
       "vilnaLine": 14,
-      "en": "Rashi: opens 'a removal-service in the Sanctuary' - and it is a service",
+      "en": "Opens 'a service of removal in the Sanctuary': and it is a service",
       "linkedGemaraLineIds": [
         "yoma-024b-l07"
       ]
     },
     {
       "vilnaLine": 15,
-      "en": "Rashi: continues - complete, such as clearing the ash of the inner altar",
+      "en": "continuing: complete, such as the removal of ash of the inner altar",
       "linkedGemaraLineIds": [
         "yoma-024b-l07"
       ]
     },
     {
       "vilnaLine": 16,
-      "en": "Rashi: concludes - and the candelabrum - according to Levi, what is the law? Then opens 'inside the curtain'",
+      "en": "closing: and of the candelabrum - what of it, for Levi?' Then opens 'within the curtain'",
       "linkedGemaraLineIds": [
-        "yoma-024b-l09a"
+        "yoma-024b-l07"
       ]
     },
     {
       "vilnaLine": 17,
-      "en": "Rashi: continues DH - it should have written.' Then opens 'yet it is written: and to inside",
+      "en": "continuing: 'it should have written': but it wrote 'and to within",
       "linkedGemaraLineIds": [
         "yoma-024b-l09a"
       ]
     },
     {
       "vilnaLine": 18,
-      "en": "Rashi: continues DH - the curtain.' - to make the Sanctuary like the Holy of",
+      "en": "continuing: the curtain' - to make the Sanctuary like the House of the Holy",
       "linkedGemaraLineIds": [
         "yoma-024b-l09a"
       ]
     },
     {
       "vilnaLine": 19,
-      "en": "Rashi: concludes - Holies, and exempt on a removal-service.",
+      "en": "closing: of Holies, and exempt it from the service of removal.",
       "linkedGemaraLineIds": [
         "yoma-024b-l09a"
       ]
     },
     {
       "vilnaLine": 20,
-      "en": "Rashi: opens 'if so' - that for a gift-service he is liable",
+      "en": "Opens 'but if so': that a service of giving obligates",
       "linkedGemaraLineIds": [
         "yoma-024b-l09b"
       ]
     },
     {
       "vilnaLine": 21,
-      "en": "Rashi: concludes - in the Sanctuary, a non-priest, since he includes it via 'and to inside.' Then opens 'a non-priest'",
+      "en": "continuing: in the Sanctuary a non-priest, since it is included by 'and within it.'' Then opens 'a non-priest'",
       "linkedGemaraLineIds": [
         "yoma-024b-l09b"
       ]
     },
     {
       "vilnaLine": 22,
-      "en": "Rashi: continues DH - who arranged' - the showbread, should he be liable to death, but why",
+      "en": "continuing: 'who arranges': the bread - should he be liable to death? And why",
       "linkedGemaraLineIds": [
         "yoma-024b-l09b"
       ]
     },
     {
       "vilnaLine": 23,
-      "en": "Rashi: concludes - did we say above: four services, and no more.",
+      "en": "closing: did we say above only four services, and no more?",
       "linkedGemaraLineIds": [
         "yoma-024b-l09b"
       ]
     },
     {
       "vilnaLine": 24,
-      "en": "Rashi: opens 'there is arranging the dishes' - after it, as it is written",
+      "en": "Opens 'there is also the arranging of the spoon-fuls': afterward it, as it is written",
       "linkedGemaraLineIds": [
         "yoma-024b-l09b"
       ]
     },
     {
       "vilnaLine": 25,
-      "en": "Rashi: continues - (Leviticus 24): 'and place frankincense on the row',",
+      "en": "continuing: (Leviticus 24): 'and you shall put on the row pure",
       "linkedGemaraLineIds": [
         "yoma-024b-l09b"
       ]
     },
     {
       "vilnaLine": 26,
-      "en": "Rashi: concludes - a pure one, and it is not a complete service. Then opens 'there is'",
+      "en": "closing: frankincense' - and it is not a complete service.' Then opens 'there is also'",
       "linkedGemaraLineIds": [
         "yoma-024b-l09b"
       ]
     },
     {
       "vilnaLine": 27,
-      "en": "Rashi: continues DH - removal and burning' - its service is not yet complete",
+      "en": "continuing: 'the removal and burning': its service is not yet finished",
       "linkedGemaraLineIds": [
         "yoma-024b-l09b"
       ]
     },
     {
       "vilnaLine": 28,
-      "en": "Rashi: continues - until the next Shabbat, when he removes it",
+      "en": "continuing: until the following Shabbat, when he removes it",
       "linkedGemaraLineIds": [
         "yoma-024b-l09b"
       ]
     },
     {
       "vilnaLine": 29,
-      "en": "Rashi: concludes - and burns the dishes. Then opens and closes 'who arranged the candelabrum' -",
+      "en": "closing: and burns the spoon-fuls.' Then opens 'who arranges the candelabrum' -",
       "linkedGemaraLineIds": [
         "yoma-024b-l12"
       ]
     },
     {
       "vilnaLine": 30,
-      "en": "Rashi: continues - in the morning they would remove the lamps of",
+      "en": "continuing: in the morning they would remove the lamps of",
       "linkedGemaraLineIds": [
         "yoma-024b-l12"
       ]
     },
     {
       "vilnaLine": 31,
-      "en": "Rashi: continues - gold from the candelabrum, to clean their ash well,",
+      "en": "continuing: gold from the candelabrum, to clean their ash well,",
       "linkedGemaraLineIds": [
         "yoma-024b-l12"
       ]
     },
     {
       "vilnaLine": 32,
-      "en": "Rashi: continues - and then replace them in it; and behold, it is a",
+      "en": "continuing: and return and set them back into it, and this is a service",
       "linkedGemaraLineIds": [
         "yoma-024b-l12"
       ]
     },
     {
       "vilnaLine": 33,
-      "en": "Rashi: concludes - a complete service. Then opens 'the kindling of the tinder' - kindling of",
+      "en": "closing: complete.' Then opens 'kindling a small flame': the kindling of thin sticks,",
       "linkedGemaraLineIds": [
         "yoma-024b-l15"
       ]
     },
     {
       "vilnaLine": 34,
-      "en": "Rashi: continues - thin splinters, if it was necessary to kindle upon the altar",
+      "en": "continuing: if needed, to kindle upon the altar",
       "linkedGemaraLineIds": [
         "yoma-024b-l15"
       ]
     },
     {
       "vilnaLine": 35,
-      "en": "Rashi: continues - on one of the arrangements, such as when it drew near",
+      "en": "continuing: in one of the arrangements, such as when it draws",
       "linkedGemaraLineIds": [
         "yoma-024b-l15"
       ]
     },
     {
       "vilnaLine": 36,
-      "en": "Rashi: concludes - the arrangement to being finished, since the whole bonfire had burned.",
+      "en": "closing: near to its end, since the whole pile has burned out.",
       "linkedGemaraLineIds": [
         "yoma-024b-l15"
       ]
     },
     {
       "vilnaLine": 37,
-      "en": "Rashi: opens 'and with sacred vessels' - that he must wear priestly garments",
+      "en": "Opens 'and with sacred vessels': that he must wear priestly garments,",
       "linkedGemaraLineIds": [
         "yoma-024b-l15"
       ]
     },
     {
       "vilnaLine": 38,
-      "en": "Rashi: continues - four, if he is an ordinary priest; and if a",
+      "en": "continuing: four, if he is an ordinary priest, and if",
       "linkedGemaraLineIds": [
         "yoma-024b-l15"
       ]
     },
     {
       "vilnaLine": 39,
-      "en": "Rashi: continues - High Priest, eight, since it is stated here",
+      "en": "continuing: he is the High Priest, eight, for it is said here",
       "linkedGemaraLineIds": [
         "yoma-024b-l15"
       ]
     },
     {
       "vilnaLine": 40,
-      "en": "Rashi: continues - 'the priests,' and everywhere it says 'the sons of Aaron'",
+      "en": "continuing: 'the priests,' and wherever it says 'the sons of Aaron'",
       "linkedGemaraLineIds": [
         "yoma-024b-l15"
       ]
     },
     {
       "vilnaLine": 41,
-      "en": "Rashi: continues - 'the priests,' 'in their priesthood' implies, in the garments of",
+      "en": "continuing: 'the priests, in their priesthood,' it implies in their priestly",
       "linkedGemaraLineIds": [
         "yoma-024b-l15"
       ]
     },
     {
       "vilnaLine": 42,
-      "en": "Rashi: concludes - their priesthood. Then opens and closes 'who arranged the wood-pile' - wood.",
+      "en": "closing: garments.' Then opens 'who arranges the arrangement': wood.",
       "linkedGemaraLineIds": [
         "yoma-024b-l20"
       ]
     },
     {
       "vilnaLine": 43,
-      "en": "Rashi: opens and closes 'there is, after it, arranging the two logs' -",
+      "en": "Opens 'there is also, after it, the arranging of two logs' -",
       "linkedGemaraLineIds": [
         "yoma-024b-l20"
       ]
     },
     {
       "vilnaLine": 44,
-      "en": "Rashi: continues - which we derive further on (26b) from the verses.",
+      "en": "closing: which we derive from the verses further on (26b).",
       "linkedGemaraLineIds": [
         "yoma-024b-l20"
       ]
     },
     {
       "vilnaLine": 45,
-      "en": "Rashi: opens 'there is arranging the limbs' - that the daily-offering follows it",
+      "en": "Opens 'there is also the arranging of the limbs': for the daily-offering follows it,",
       "linkedGemaraLineIds": [
         "yoma-024b-l20"
       ]
     },
     {
       "vilnaLine": 46,
-      "en": "Rashi: concludes - and all this is from the service of arranging.",
+      "en": "closing: and all this is part of the service of arranging.",
       "linkedGemaraLineIds": [
         "yoma-024b-l20"
       ]
     },
     {
       "vilnaLine": 47,
-      "en": "Rashi: opens 'about this they disagree' - Rav and Rabbi Yochanan; Rabbi",
+      "en": "Opens 'about this they disagree': Rav and Rabbi Yochanan; Rabbi",
       "linkedGemaraLineIds": [
         "yoma-024b-l23"
       ]
     },
     {
       "vilnaLine": 48,
-      "en": "Rashi: continues - Yochanan holds that arranging the two logs is a service",
+      "en": "continuing: Yochanan holds that arranging the two logs is a service",
       "linkedGemaraLineIds": [
         "yoma-024b-l23"
       ]
     },
     {
       "vilnaLine": 49,
-      "en": "Rashi: continues - complete, since arranging the wood-pile",
+      "en": "continuing: complete, since the arranging of the wood-pile",
       "linkedGemaraLineIds": [
         "yoma-024b-l23"
       ]
     },
     {
       "vilnaLine": 50,
-      "en": "Rashi: continues - is complete and finished with it, whereas arranging",
+      "en": "continuing: is complete and finished with it, and the arranging",
       "linkedGemaraLineIds": [
         "yoma-024b-l23"
       ]
     },
     {
       "vilnaLine": 51,
-      "en": "Rashi: continues - the limbs is the beginning of a different arrangement",
+      "en": "continuing: of the limbs is the start of another arranging entirely",
       "linkedGemaraLineIds": [
         "yoma-024b-l23"
       ]
     },
     {
       "vilnaLine": 52,
-      "en": "Rashi: continues - whereas Rav holds it is not a complete service, since the name",
+      "en": "continuing: and Rav holds it is not a complete service, since the name",
       "linkedGemaraLineIds": [
         "yoma-024b-l23"
       ]
     },
     {
       "vilnaLine": 53,
-      "en": "Rashi: concludes - of 'arranging' is one. Then opens and closes 'sprinkling of blood' -",
+      "en": "closing: 'arranging' is all one.' Then opens 'the tossing of the blood' -",
       "linkedGemaraLineIds": [
-        "yoma-024b-l26"
+        "yoma-024b-l23"
       ]
     },
     {
       "vilnaLine": 54,
-      "en": "Rashi: continues - of the altar, outside. Then opens 'inside' - a sprinkling",
+      "en": "continuing: of the altar, outside.' Then opens 'either within': the sprinkling",
       "linkedGemaraLineIds": [
         "yoma-024b-l26"
       ]
     },
     {
       "vilnaLine": 55,
-      "en": "Rashi: concludes - on the curtain. Then opens and closes 'between the innermost' -",
+      "en": "closing: upon the curtain.' Then opens 'either within the innermost part' -",
       "linkedGemaraLineIds": [
         "yoma-024b-l26"
       ]
     },
     {
       "vilnaLine": 56,
-      "en": "Rashi: continues - that is between the poles, on Yom Kippur.",
+      "en": "closing: that upon the space between the poles on Yom Kippur.",
       "linkedGemaraLineIds": [
         "yoma-024b-l26"
       ]
     },
     {
       "vilnaLine": 57,
-      "en": "Rashi: opens 'in the bird sin-offering' - it is written 'sprinkling': 'and he shall sprinkle'",
+      "en": "Opens 'in the bird-sin-offering': it is written 'sprinkling' - 'and he shall sprinkle'",
       "linkedGemaraLineIds": [
         "yoma-024b-l26"
       ]
     },
     {
       "vilnaLine": 58,
-      "en": "Rashi: concludes - from the blood of the sin-offering, on the wall of the altar (Leviticus 5). Then opens 'in the bird burnt-offering' - it is written 'squeezing': 'and he shall pinch off its head and burn it on the altar, and its blood shall be drained out on the wall of the altar'",
+      "en": "closing: from the blood of the sin-offering on the wall of the altar' (Leviticus 5).' Then opens 'in the bird-burnt-offering': it is written 'draining' - 'and he shall wring off its head and burn it on the altar, and its blood shall be drained on the wall of the altar'",
       "linkedGemaraLineIds": [
         "yoma-024b-l26"
       ]
     },
     {
       "vilnaLine": 59,
-      "en": "Rashi: concludes - (Leviticus 1). Then opens and closes 'and one who burns' - since the burnt offering is entirely consumed. Then opens 'and one who pours three log-measures' - which is the smallest of the libations, a quarter-hin for a lamb; whereas the removal of the ash",
+      "en": "closing: (Leviticus 1).' Then opens 'and he who burns': since the burnt-offering is wholly consumed.' Then opens 'and he who pours out three logs': which is the least of the libations, a quarter-hin for the lamb - whereas terumat hadeshen",
       "linkedGemaraLineIds": [
         "yoma-024b-l26"
       ]
     },
     {
       "vilnaLine": 60,
-      "en": "Rashi: concludes - is not taught here, and this follows Rav's view. Then opens and closes 'whether an invalid item' - among those disqualifications that occurred within the sacred precinct, since if they ascended the altar they are not brought down, therefore the burning is significant. Then opens and closes 'as we said' -",
+      "en": "closing: is not taught, and this follows Rav's view.' Then opens 'whether a disqualified item': among those disqualifications whose invalidity took effect within the sanctified area, so that if they went up they do not come down, and for this reason the burning is significant.' Then opens 'as we said' -",
       "linkedGemaraLineIds": [
-        "yoma-024b-l35"
+        "yoma-024b-l31"
       ]
     },
     {
       "vilnaLine": 61,
-      "en": "Rashi: continues - that they would come to dispute. Then opens 'why do they hold a lottery, and hold a lottery again' - why do they gather for a lottery four times a day, as we learned in the mishna: let them hold a lottery for",
+      "en": "continuing: that they would come to disagreement.' Then opens 'why do they hold a lottery, and hold a lottery again': why do they gather to hold the lottery",
       "linkedGemaraLineIds": [
         "yoma-024b-l35"
       ]
     },
     {
       "vilnaLine": 62,
-      "en": "Rashi: concludes - all of them at the first gathering, who will merit this and who that. Then opens 'to stir' - to make heard the sound of a great multitude of people several times, which is an honor for the King, as it is stated: 'in the house of",
+      "en": "closing: four times a day, as we learned in the mishnah - let them hold the lottery for all of them at the first gathering, who shall merit this and who that?' Then opens 'to make felt': to make heard the voice of a great multitude, as many times as possible, which is an honor for the King, as it is said, 'in the house of",
       "linkedGemaraLineIds": [
         "yoma-024b-l37"
       ]
     },
     {
       "vilnaLine": 63,
-      "en": "Rashi: concludes - God,' etc. Then opens and closes 'in what do they hold the lottery' - what would those who gathered for the lottery wear, ordinary garments or sacred garments? Then opens 'in ordinary garments' - and the one who wins the service removes and dons",
+      "en": "closing: God,' etc.' Then opens 'in what do they hold the lottery': what did those gathering for the lottery wear, ordinary clothes or sacred clothes?' Then opens 'in ordinary clothes': and the winner of the service takes off and dons",
       "linkedGemaraLineIds": [
         "yoma-024b-l39"
       ]
     },
     {
       "vilnaLine": 64,
-      "en": "Rashi: concludes - sacred garments. Then opens and closes 'for they would seize and serve' - even though they did not win the lottery. Then opens and closes 'they are precious to them, and they serve' - in ordinary garments, those who won the lottery. Then opens 'to the attendants' - servants. Then, regarding those",
+      "en": "closing: sacred clothes.' Then opens 'who seize and serve': even though they did not win the lottery.' Then opens 'who call out and serve': serving in ordinary clothes, those who won the lottery.' Then opens 'to the attendants': servants.' Then opens 'among those'",
       "linkedGemaraLineIds": [
-        "yoma-024b-l43"
+        "yoma-024b-l41"
       ]
     },
     {
       "vilnaLine": 65,
-      "en": "Rashi: the daf's final truncated word - 'that not,' continuing the dibbur hamatchil about which attendants received the priests' garments, whose text continues on 25a. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+      "en": "continuing: who did not' -",
       "linkedGemaraLineIds": [
         "yoma-024b-l43"
       ]
