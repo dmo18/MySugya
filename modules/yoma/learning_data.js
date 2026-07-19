@@ -62737,7 +62737,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 1,
         he: "גמ' האי מבעיא ליה לגופיה. דניבעי כהן מיעוטא מנא לן להפשט",
-        en: "Rashi: opens 'gemara: this is needed for itself' - that we would need a priesthood exclusion, from where do we derive it for flaying",
+        en: "continuing: 'Gemara: does this verse not simply refer to itself': for we need a priest-exclusion - from where do we derive it for flaying",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -62751,7 +62751,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 2,
         he: "וניתוח: דהוה מסבר ליה לבריה. הא דחזקיה והכי מסבר ליה",
-        en: "Rashi: continues - and cutting up. Then opens 'that he would explain to his son' -",
+        en: "closing: and dismemberment?' Then opens 'that he was explaining to his son': this teaching of Chizkiya, and thus he was explaining",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -62765,7 +62765,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 3,
         he: "ניהליה דתניא בתורת כהנים ושחט שחיטה בזר כשירה: וכי מאין",
-        en: "Rashi: continues - the Rav Chizkiya matter, and this is how he would explain it to him, as it is taught in Torat Kohanim: slaughtering is valid by a non-priest. Then opens 'and from where did you come' -",
+        en: "continuing: it to him, for it is taught in Torat Kohanim: 'and he shall slaughter' - slaughtering is valid by a non-priest.' Then opens 'and from where",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -62779,7 +62779,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 4,
         he: "באת. לישנא דמתני' הוא וכי מאין באת לומר פסולה שנזקקת",
-        en: "Rashi: continues - this is the mishna's own language, and from where did you come to say it is invalid, that it needed",
+        en: "continuing: do you derive this': this is the language of the beraita - 'and from where do you derive it,' meaning it would need",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -62793,7 +62793,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 5,
         he: "להביא מקרא להכשירה: מכלל",
-        en: "Rashi: concludes - to bring a verse to validate it. Then opens 'by inference from what is stated' -",
+        en: "closing: to bring a verse to validate it.' Then opens 'from the inference",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -62807,7 +62807,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 6,
         he: "שנאמר כו'. ומתוך אותו כלל הייתי",
-        en: "Rashi: concludes - etc., and from that same inclusive category I would have come to invalidate it.",
+        en: "continuing: that is stated, etc.': from that very inference I would have",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -62821,7 +62821,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 7,
         he: "בא לפסול: תלמוד לומר ושחט",
-        en: "Rashi: opens and closes 'the verse teaches: and he shall slaughter' -",
+        en: "closing: come to disqualify it.' Then opens 'the verse teaches, and he shall slaughter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -62835,7 +62835,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 8,
         he: "והקריבו הכהנים. ומדכתיב כהן",
-        en: "Rashi: continues - and the priests shall present. Since it writes priest",
+        en: "continuing: and the priests shall bring': since it is written 'priest'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -62849,7 +62849,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 9,
         he: "בקבלה ובשחיטה לא כתיב מכלל",
-        en: "Rashi: continues - for the receiving but not for the slaughtering, implying that",
+        en: "continuing: regarding the receiving, and it is not written regarding the slaughtering, by inference",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -62863,7 +62863,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 10,
         he: "דושחט אבעלים קאי וסמך ידו",
-        en: "Rashi: continues - 'and he shall slaughter' refers to the owner, and 'and he shall lay his hand",
+        en: "continuing: 'and he shall slaughter' refers to the owner, and 'he shall lean his hand",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -62877,7 +62877,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 11,
         he: "ושחט לימד על השחיטה שכשירה",
-        en: "Rashi: continues - and he shall slaughter' teaches about the slaughtering, that it is valid",
+        en: "continuing: and he shall slaughter' teaches that the slaughtering is valid",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -62891,7 +62891,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 12,
         he: "בזר עכ\"ל משנה ומינה הוה מסבר",
-        en: "Rashi: concludes - by a non-priest, end of the mishna's quoted language; and from it he would explain",
+        en: "continuing: by a non-priest' - end of the mishnah's wording; and from it Abaye was explaining",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -62905,12 +62905,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 13,
         he: "אביי לבריה הא דחזקיה הכי: מכדי.",
-        en: "Rashi: continues - to Abaye's son the Chizkiya matter this way. Then opens and closes 'by inference' -",
+        en: "closing: to his son Chizkiya's teaching, thus.' Then opens 'now,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l09"
+          "yoma-027a-l06"
         ]
       },
       {
@@ -62919,7 +62919,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 14,
         he: "למדנו כאן דמקבלה ואילך מצות",
-        en: "Rashi: continues - we have learned here that from the receiving onward is a priestly",
+        en: "continuing: we have learned here that from the receiving onward is a requirement",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -62933,7 +62933,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 15,
         he: "כהונה והך נתינת אש בתר קבלה",
-        en: "Rashi: continues - requirement, and this placing of fire, written after the receiving,",
+        en: "continuing: of priesthood, and this placing of the fire comes after the receiving,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -62947,7 +62947,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 16,
         he: "כתיבה למה לי למכתב בה כהונה:",
-        en: "Rashi: concludes - why do I need to write priesthood in it. Then opens 'to exclude flaying and cutting up' -",
+        en: "closing: why do I need priesthood written regarding it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -62961,7 +62961,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 17,
         he: "למעוטי הפשט וניתוח. דלא כתיב",
-        en: "Rashi: concludes - since priesthood is not written in it, and let it be derived from here,",
+        en: "Opens 'to exclude flaying and dismemberment': for priesthood is not written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -62975,7 +62975,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 18,
         he: "בה כהן ותילף מהכא דדוקא כתיב",
-        en: "Rashi: continues - that specifically here the verse is written and if not for it.",
+        en: "continuing: regarding it, and you would learn from here that specifically where the verse writes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -62989,12 +62989,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 19,
         he: "קרא ואי לא ונתנו הוה אמינא האי",
-        en: "Rashi: opens 'and they shall place: I would have said this' - one where priesthood is not written for flaying and cutting up, is because",
+        en: "continuing: 'and they shall place,' and had it not, I would have said that this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l11"
+          "yoma-027a-l09"
         ]
       },
       {
@@ -63003,12 +63003,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 20,
         he: "דלא כתיב כהן בהפשט וניתוח משום",
-        en: "Rashi: continues - it is not needed, since it already revealed to us that priesthood is required",
+        en: "continuing: absence of 'priest' in flaying and dismemberment is because",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l11"
+          "yoma-027a-l09"
         ]
       },
       {
@@ -63017,12 +63017,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 21,
         he: "דלא אצטריך הוא דגלי ליה דבעי",
-        en: "Rashi: continues - from the receiving onward, so it is not necessary, since it revealed that priesthood",
+        en: "continuing: it was not needed, since it already revealed that it requires",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l11"
+          "yoma-027a-l09"
         ]
       },
       {
@@ -63031,12 +63031,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 22,
         he: "כהונה מקבלה ואילך: דלא מעכבא",
-        en: "Rashi: continues - is required from the receiving onward. Then opens 'since it does not preclude' -",
+        en: "closing: priesthood from the receiving onward.' Then opens 'since it does not hold back",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l11"
+          "yoma-027a-l09"
         ]
       },
       {
@@ -63045,7 +63045,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 23,
         he: "כפרה. דאין כפרה אלא בדם:",
-        en: "Rashi: concludes - atonement, since atonement is only through the blood.",
+        en: "closing: atonement': for atonement is only through the blood.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63059,7 +63059,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 24,
         he: "אלא מהכא וערכו בני אהרן",
-        en: "Rashi: opens 'rather, from here: and the sons of Aaron",
+        en: "Opens 'rather, from here, and the sons of Aaron shall arrange",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63073,7 +63073,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 25,
         he: "הכהנים. הרי למדנו מקבלה א] שאין",
-        en: "Rashi: continues - the priests shall arrange. Behold we have learned that from the receiving onward there is no",
+        en: "continuing: the priests': behold, we have learned from the receiving that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63087,7 +63087,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 26,
         he: "צריך כהונה אלא למעוטי הפשט",
-        en: "Rashi: concludes - need for priesthood except to exclude flaying and cutting up.",
+        en: "continuing: priesthood is not required except to exclude flaying",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63101,7 +63101,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 27,
         he: "וניתוח: אימא למעוטי סידור שני",
-        en: "Rashi: opens 'but say it is to exclude the arrangement of the two",
+        en: "closing: and dismemberment.' Then opens 'say rather, to exclude the arranging of two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63115,7 +63115,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 28,
         he: "גזירי עצים. דבין הערבים דלא כתיב",
-        en: "Rashi: continues - logs of wood, since for the afternoon-offering it is not written",
+        en: "continuing: logs of wood': for in the afternoon it is not written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63129,7 +63129,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 29,
         he: "בהו הכהנים אבל בצפרא בהדיא",
-        en: "Rashi: concludes - priesthood in them, but for the morning it is written explicitly.",
+        en: "continuing: 'the priests' regarding them, but in the morning it is explicitly",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63143,12 +63143,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 30,
         he: "כתיב ובער עליה הכהן: לא סלקא",
-        en: "Rashi: opens 'and the priest shall burn wood on it: this should not enter your mind' -",
+        en: "closing: written, 'and the priest shall kindle it upon it.'' Then opens 'it does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l20"
+          "yoma-027a-l17"
         ]
       },
       {
@@ -63157,7 +63157,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 31,
         he: "דעתך. דלא ניבעי סידור גזירין",
-        en: "Rashi: continues - that the arranging of the logs would not require",
+        en: "continuing: occur to you': that the arranging of the logs would not require",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63171,7 +63171,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 32,
         he: "כהונה מדאיצטריך למעוטי הולכת",
-        en: "Rashi: continues - priesthood, since it needed to exclude the carrying of",
+        en: "continuing: priesthood, since it needed to exclude the carrying of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63185,7 +63185,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 33,
         he: "עצים מכלל דסידורן בעי כהן:",
-        en: "Rashi: concludes - wood, implying that its arranging requires a priest.",
+        en: "closing: the wood, hence by inference their arranging requires a priest.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63199,7 +63199,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 34,
         he: "הולכת עצים לא בעי כהונה. דהאי",
-        en: "Rashi: opens 'carrying wood does not require priesthood, for this'",
+        en: "Opens 'the carrying of wood does not require priesthood': for this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63213,7 +63213,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 35,
         he: "כהן דכתיב בהולכת אברים על",
-        en: "Rashi: continues - priest written regarding carrying the limbs, must by necessity be to exclude some other carrying that",
+        en: "continuing: 'priest' written regarding the carrying of the limbs, by",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63227,7 +63227,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 36,
         he: "כרחך למעוטי הולכה אחרת בעי",
-        en: "Rashi: continues - requires priesthood, for if it were needed for itself",
+        en: "continuing: necessity must be there to exclude another carrying,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63241,7 +63241,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 37,
         he: "דאי לגופיה לא איצטריך דהא",
-        en: "Rashi: continues - it would not have been necessary, since this already",
+        en: "continuing: for if it were needed for its own sake it would be unnecessary, since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63255,7 +63255,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 38,
         he: "אשמעינן מקבלה ואילך מצות כהונה:",
-        en: "Rashi: concludes - teaches us that from the receiving onward is a priestly requirement.",
+        en: "closing: it already taught us that from the receiving onward is a priestly requirement.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63269,7 +63269,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 39,
         he: "וערכו למה לי. דכתיב בהן כהונה:",
-        en: "Rashi: opens 'why do I need and they shall arrange' - since priesthood is written in them",
+        en: "Opens 'why do I need and they shall arrange': since priesthood is written regarding them.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63283,12 +63283,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 40,
         he: "למעוטי הפשט וניתוח. וכהונה",
-        en: "Rashi: continues - to exclude flaying and cutting up; and priesthood",
+        en: "Opens 'to exclude flaying and dismemberment': and the priesthood requirement",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l24"
+          "yoma-027a-l25"
         ]
       },
       {
@@ -63297,12 +63297,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 41,
         he: "דונתנו לגופיה כדאמרינן דלא תימא",
-        en: "Rashi: continues - in and they shall place is for its own sake, as we say: do not say",
+        en: "continuing: of 'and they shall place' is for its own sake, as we have said, so that you should not say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l24"
+          "yoma-027a-l25"
         ]
       },
       {
@@ -63311,12 +63311,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 42,
         he: "כיון דלא מיעכבא כפרה לא תיבעי",
-        en: "Rashi: continues - since it does not preclude atonement, priesthood would not be required,",
+        en: "continuing: since it does not hold back atonement, it would not require",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l24"
+          "yoma-027a-l25"
         ]
       },
       {
@@ -63325,12 +63325,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 43,
         he: "כהונה ומדגלי בה דבעיא כהונה",
-        en: "Rashi: continues - but since it revealed that priesthood is required,",
+        en: "continuing: priesthood; and since it was revealed there that it requires priesthood,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l24"
+          "yoma-027a-l25"
         ]
       },
       {
@@ -63339,12 +63339,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 44,
         he: "לא איצטריך למיהדר למיכתב",
-        en: "Rashi: continues - it was not necessary to write it again",
+        en: "continuing: there was no need to repeat and write",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l24"
+          "yoma-027a-l25"
         ]
       },
       {
@@ -63353,12 +63353,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 45,
         he: "כהונה בהערכת נתחין ואע\"ג דלא",
-        en: "Rashi: continues - as priesthood in the arranging of the pieces, and even though it does not",
+        en: "continuing: priesthood regarding the arranging of the pieces, even though it does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l24"
+          "yoma-027a-l25"
         ]
       },
       {
@@ -63367,12 +63367,12 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 46,
         he: "מיעכבא ועל כרחך למעוטי כתבי':",
-        en: "Rashi: concludes - preclude atonement, by necessity it comes to exclude, as our text reads.",
+        en: "closing: hold back atonement, and by necessity it is written to exclude.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-027a-l24"
+          "yoma-027a-l25"
         ]
       },
       {
@@ -63381,7 +63381,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 47,
         he: "שטעון ששה. הבשר בחמשה",
-        en: "Rashi: opens and closes 'that it requires six' - the meat by five",
+        en: "Opens 'that it requires six': the flesh with five",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63395,7 +63395,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 48,
         he: "והקרבים באחד: וניחא ליה. הדר משני ליה הכי על",
-        en: "Rashi: concludes - and the innards by one. Then opens 'and he resolves it: he then answers it this way, on'",
+        en: "closing: and the innards with one.' Then opens 'and this satisfies him': he then answers him thus - 'on",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63409,7 +63409,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 49,
         he: "העצים אשר על האש קרא יתירא הוא דהכתיב ונתנו אש וערכו עצים וערכו",
-        en: "Rashi: continues - the wood that is on the fire, is an extra verse, for it is already written 'and they shall place fire' and 'they shall arrange wood' and 'they shall arrange",
+        en: "continuing: the wood that is upon the fire' is a superfluous verse, since it is already written 'and they shall place fire, and they shall arrange wood,' and 'and they shall arrange",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63423,7 +63423,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 50,
         he: "נתחים למה לי תו על העצים אשר על האש וגו' למידרש ביה",
-        en: "Rashi: continues - the pieces,' why do I need furthermore 'on the wood that is on the fire,' etc.; it comes to derive from it",
+        en: "continuing: the pieces' - why then do I need 'on the wood that is upon the fire,' etc., if not to expound from it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63437,7 +63437,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 51,
         he: "דהני ו' כהנים הוצרכו לדבר שנאמר בו אש ועצים ומזבח ואיזהו",
-        en: "Rashi: continues - that these six priests were required for a matter about which fire, wood, and altar are stated, and what",
+        en: "continuing: that these six priests were needed for a matter concerning which fire, wood, and altar are all stated, and which",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63451,7 +63451,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 52,
         he: "דבר שהזקקתי לכם למערכה לסדר עצים ואש למזבח בשבילו:",
-        en: "Rashi: concludes - is that matter that I required for you, to arrange wood and fire on the altar for its sake.",
+        en: "closing: matter did I require of you for the arrangement, to set wood and fire on the altar for its sake.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -63465,7 +63465,7 @@ const DAF_CONTENT = {
         daf: "27a",
         vilnaLine: 53,
         he: "הוי",
-        en: "Rashi: the daf's final truncated word - 'it is,' continuing the dibbur hamatchil that opens Rashi's own resolution of the six-priests derivation, whose text continues on 27b. Per the established boundary convention, this entry is anchored to the daf's own final locally captured Gemara line even though the DH's own point is itself still open at the point of truncation.",
+        en: "Opens 'you must say' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
