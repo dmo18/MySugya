@@ -162955,11 +162955,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 1,
         he: "אלמלא בגדי כהונה. שעל ידיהן מקריבין הקרבנות המכפרין על",
-        en: "were it not for the priestly vestments, none of Israel's enemies would have survived - the vestments brought atonement",
+        en: "'Were it not for the priestly garments' - for through them the offerings that atone for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l01"
+        ]
       },
       {
         id: "rashi-yoma-072b-002",
@@ -162967,11 +162969,14 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 2,
         he: "ישראל: שגורדין אותן כברייתן מכליהן. כשהיו חותכין אותן בגרדין",
-        en: "Rabbi Shmuel bar Nachmani: the vestments were woven as complete tubes, not cut and then sewn",
+        en: "Israel are offered. 'That are cut from their weaving-frames in their natural form' - when they would cut them from their weaving frames,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l01",
+          "yoma-072b-l02"
+        ]
       },
       {
         id: "rashi-yoma-072b-003",
@@ -162979,11 +162984,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 3,
         he: "שלהן מתוך כלי אריגתן היו עושים כברייתן חלולין כדרך לבישתן",
-        en: "an objection: vestments are not made by needle but by loom weaving - this confirms they came off the loom whole",
+        en: "from the weaving vessel itself, they made them hollow in their natural form, in the manner they would be worn,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l02"
+        ]
       },
       {
         id: "rashi-yoma-072b-004",
@@ -162991,11 +162998,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 4,
         he: "ולא כשאר יריעה שצריך שוב לחתכה למדת הלבוש ולתפור במחט:",
-        en: "Rachava citing Rav Yehuda: Bezalel made three arks - a middle wood ark enclosed in two gold ones",
+        en: "and not like an ordinary sheet of cloth that must then be cut to the garment's measure and sewn with a needle.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l02"
+        ]
       },
       {
         id: "rashi-yoma-072b-005",
@@ -163003,11 +163012,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 5,
         he: "ומשרדין מהם כלום. ומשיירין מהן",
-        en: "contradiction: one baraita says the outer ark was eleven cubits tall, another says eleven and a bit",
+        en: "'And they leave a remnant from them' - they leave over",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l02"
+        ]
       },
       {
         id: "rashi-yoma-072b-006",
@@ -163015,11 +163026,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 6,
         he: "מקצת שאינו ארוג עמהן וזהו לשון",
-        en: "Rabbi Yochanan: three crowns - of the altar, the ark, and the table - correspond to priesthood, Torah, kingship",
+        en: "a small portion not woven together with them, and this is the meaning of the term",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l02"
+        ]
       },
       {
         id: "rashi-yoma-072b-007",
@@ -163027,11 +163040,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 7,
         he: "שרד: מאי היא. אותו שיור: אלו",
-        en: "Rabbi Yochanan: the word is written zar (stranger) but read zeir (crown) - merit it and it becomes your crown; fail and it becomes your enemy",
+        en: "'serad' (remnant). 'What is it' - that remnant. 'These are",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l02"
+        ]
       },
       {
         id: "rashi-yoma-072b-008",
@@ -163039,11 +163054,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 8,
         he: "מעשה מחט. מקצתו היה נארג",
-        en: "contradiction: one verse says make yourself an ark, another says make an ark - for God or for yourself?",
+        en: "needlework' - a portion of it was woven",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l02"
+        ]
       },
       {
         id: "rashi-yoma-072b-009",
@@ -163051,11 +163068,14 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 9,
         he: "בפני עצמו ומחברו במחט: שלש",
-        en: "the verse says cover it from within and without - Rabbi Rava: a Torah scholar must be the same inside and outside",
+        en: "separately, and he would attach it with a needle. 'Three",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l02",
+          "yoma-072b-l11"
+        ]
       },
       {
         id: "rashi-yoma-072b-010",
@@ -163063,11 +163083,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 10,
         he: "ארונות. שנאמר מבית ומחוץ תצפנו",
-        en: "Abaye: one whose inside does not match outside is called abominable",
+        en: "arks' - since it says, 'you shall overlay it from within and from without,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l11"
+        ]
       },
       {
         id: "rashi-yoma-072b-011",
@@ -163075,11 +163097,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 11,
         he: "ושל עץ באמצע והושיבו בתוך של",
-        en: "Rabbi Shmuel bar Nachmani citing Rabbi Yonatan: what does 'a lovely hind' mean? Torah scholars are beloved at every boundary",
+        en: "and the wooden one was in the middle: he set it inside the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l11"
+        ]
       },
       {
         id: "rashi-yoma-072b-012",
@@ -163087,11 +163111,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 12,
         he: "זהב וחזר ונתן של זהב שני בתוך של",
-        en: "Rabbi Yannai: woe to one who has no courtyard but builds a gate for it - learning without inner integration",
+        en: "gold one, then placed a second gold one inside the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l11"
+        ]
       },
       {
         id: "rashi-yoma-072b-013",
@@ -163099,11 +163125,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 13,
         he: "עץ וחיפה שפתו העליונה בזהב",
-        en: "Rava pleads with his students: do not inherit Gehenna twice - do not embarrass scholars in public",
+        en: "wooden one, and overlaid its upper rim with gold,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l11"
+        ]
       },
       {
         id: "rashi-yoma-072b-014",
@@ -163111,11 +163139,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 14,
         he: "נמצא מצופה מבית ומחוץ: תשעה.",
-        en: "Rabbi Yehoshua ben Levi: the Torah was given as fire, water, and wilderness - just as they are free, Torah is free",
+        en: "so it turned out overlaid from within and from without. 'Nine'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l11"
+        ]
       },
       {
         id: "rashi-yoma-072b-015",
@@ -163123,11 +163153,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 15,
         he: "גבהו תשעה טפחים מבחוץ שנאמר",
-        en: "Rabbi Shmuel bar Nachmani: contradiction about lips and heart - sometimes written as speech, sometimes as thought",
+        en: "- its height was nine handbreadths on the outside, since it says,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l11"
+        ]
       },
       {
         id: "rashi-yoma-072b-016",
@@ -163135,11 +163167,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 16,
         he: "אמה וחצי קומתו (שמות כה) ורגלים",
-        en: "fear of God is pure, it stands forever - Rabbi Chanina: he who learns Torah from fear, his Torah endures",
+        en: "'a cubit and a half was its height' (Exodus 25), and legs",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l11"
+        ]
       },
       {
         id: "rashi-yoma-072b-017",
@@ -163147,11 +163181,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 17,
         he: "לא היו לו אלא עץ חלול היה: פנימי",
-        en: "the testimony of God is faithful - Rabbi Chiyya bar Abba: it is faithful to repay each person",
+        en: "it had none; it was simply hollow wood. 'The inner one,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l11"
+        ]
       },
       {
         id: "rashi-yoma-072b-018",
@@ -163159,11 +163195,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 18,
         he: "של זהב ח'. טפחים גבהו מבחוץ",
-        en: "embroiderer vs weaver - Rabbi Elazar: embroiderers made patterns visible on both sides, weavers only one side",
+        en: "of gold, eight' - handbreadths was its height on the outside,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l11"
+        ]
       },
       {
         id: "rashi-yoma-072b-019",
@@ -163171,11 +163209,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 19,
         he: "עם עובי שוליו ועובי שולי העץ של",
-        en: "Rabbi Nechemia: embroiderer = needle, so the pattern faces outward only; weaver = loom, faces both sides",
+        en: "including the thickness of its rim; and the thickness of the wooden",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l11"
+        ]
       },
       {
         id: "rashi-yoma-072b-020",
@@ -163183,11 +163223,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 20,
         he: "אמצעי טפח נמצא פנימי ממלא חללו",
-        en: "in these eight vestments one may inquire via Urim VeTummim - when Rav Dimi came from Eretz Yisrael he said this applies only when serving",
+        en: "middle ark's rim was a handbreadth, so the inner one filled the hollow",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l11"
+        ]
       },
       {
         id: "rashi-yoma-072b-021",
@@ -163195,11 +163237,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 21,
         he: "של אמצעי: וחיצון. של זהב: י'",
-        en: "Rav Adda bar Ahava: a baraita asks - could even a son of the High Priest consult the Urim? Only an anointed kohen",
+        en: "of the middle one. 'And the outer one' - of gold. 'Ten",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l11"
+        ]
       },
       {
         id: "rashi-yoma-072b-022",
@@ -163207,11 +163251,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 22,
         he: "ומשהו. תשעה כנגד גובה האמצעי",
-        en: "[Rashi commentary on line 22]: ומשהו. תשעה כנגד גובה האמצעי",
+        en: "and a bit' - nine corresponding to the middle ark's height,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l11"
+        ]
       },
       {
         id: "rashi-yoma-072b-023",
@@ -163219,11 +163265,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 23,
         he: "ומשהו עובי שולי זהב של חיצון וטפח",
-        en: "[Rashi commentary on line 23]: ומשהו עובי שולי זהב של חיצון וטפח",
+        en: "and the bit is the thickness of the outer gold rim, and the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l11"
+        ]
       },
       {
         id: "rashi-yoma-072b-024",
@@ -163231,11 +163279,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 24,
         he: "עשירי עולה למול עובי הכפורת",
-        en: "[Rashi commentary on line 24]: עשירי עולה למול עובי הכפורת",
+        en: "tenth handbreadth rises to meet the thickness of the ark-cover,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l11"
+        ]
       },
       {
         id: "rashi-yoma-072b-025",
@@ -163243,11 +163293,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 25,
         he: "שהוא טפח ומכסה חיבור הכפורת",
-        en: "[Rashi commentary on line 25]: שהוא טפח ומכסה חיבור הכפורת",
+        en: "which is a handbreadth, and covers the join of the ark-cover",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l11"
+        ]
       },
       {
         id: "rashi-yoma-072b-026",
@@ -163255,11 +163307,14 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 26,
         he: "והארון: והתניא אחד עשר ומשהו.",
-        en: "[Rashi commentary on line 26]: והארון: והתניא אחד עשר ומשהו.",
+        en: "and the ark. 'But isn't it taught: eleven and a bit'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l11",
+          "yoma-072b-l14"
+        ]
       },
       {
         id: "rashi-yoma-072b-027",
@@ -163267,11 +163322,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 27,
         he: "ומשני הא כמאן דאמר יש בעובי שולי",
-        en: "[Rashi commentary on line 27]: ומשני הא כמאן דאמר יש בעובי שולי",
+        en: "- and it is resolved: this follows the opinion that the thickness of the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l14"
+        ]
       },
       {
         id: "rashi-yoma-072b-028",
@@ -163279,11 +163336,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 28,
         he: "הזהב טפח כאשר יש בעובי שולי",
-        en: "[Rashi commentary on line 28]: הזהב טפח כאשר יש בעובי שולי",
+        en: "gold rim is a handbreadth, just as the thickness of the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l14"
+        ]
       },
       {
         id: "rashi-yoma-072b-029",
@@ -163291,11 +163350,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 29,
         he: "העץ: הא כמאן דאמר אין בעוביו",
-        en: "[Rashi commentary on line 29]: העץ: הא כמאן דאמר אין בעוביו",
+        en: "wood rim is; while the other follows the opinion that its thickness is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l14"
+        ]
       },
       {
         id: "rashi-yoma-072b-030",
@@ -163303,11 +163364,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 30,
         he: "טפח. אלא משהו ולא ידענא היכא",
-        en: "[Rashi commentary on line 30]: טפח. אלא משהו ולא ידענא היכא",
+        en: "a full handbreadth, but only a bit, and I do not know where exactly",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l14"
+        ]
       },
       {
         id: "rashi-yoma-072b-031",
@@ -163315,11 +163378,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 31,
         he: "איפליגו בה: ומאי משהו. דקתני",
-        en: "[Rashi commentary on line 31]: איפליגו בה: ומאי משהו. דקתני",
+        en: "they disagree. 'And what is the bit' - that is taught",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l14"
+        ]
       },
       {
         id: "rashi-yoma-072b-032",
@@ -163327,11 +163392,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 32,
         he: "בברייתא בתרייתא: זיר. העולה",
-        en: "[Rashi commentary on line 32]: בברייתא בתרייתא: זיר. העולה",
+        en: "in the latter baraita? 'A crown' - the crown rose up,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l14"
+        ]
       },
       {
         id: "rashi-yoma-072b-033",
@@ -163339,11 +163406,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 33,
         he: "היה עודף למעלה על עובי הכפורת",
-        en: "[Rashi commentary on line 33]: היה עודף למעלה על עובי הכפורת",
+        en: "extending above the thickness of the ark-cover",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l14"
+        ]
       },
       {
         id: "rashi-yoma-072b-034",
@@ -163351,11 +163420,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 34,
         he: "משהו בגובה החיצון להיות זר",
-        en: "[Rashi commentary on line 34]: משהו בגובה החיצון להיות זר",
+        en: "by a bit, in the outer ark's height, to be a crown",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l14"
+        ]
       },
       {
         id: "rashi-yoma-072b-035",
@@ -163363,11 +163434,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 35,
         he: "לכפורת סביב ומשהו דקאמר רב",
-        en: "[Rashi commentary on line 35]: לכפורת סביב ומשהו דקאמר רב",
+        en: "surrounding the ark-cover; and the 'bit' that Rav",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l14"
+        ]
       },
       {
         id: "rashi-yoma-072b-036",
@@ -163375,11 +163448,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 36,
         he: "יהודה בעובי שולי החיצון קאמר",
-        en: "[Rashi commentary on line 36]: יהודה בעובי שולי החיצון קאמר",
+        en: "Yehuda mentioned refers to the thickness of the outer rim,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l14"
+        ]
       },
       {
         id: "rashi-yoma-072b-037",
@@ -163387,11 +163462,14 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 37,
         he: "ובזר לא איירי כלל: שלשה זירין.",
-        en: "[Rashi commentary on line 37]: ובזר לא איירי כלל: שלשה זירין.",
+        en: "and he was not discussing the crown at all. 'Three crowns'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l14",
+          "yoma-072b-l16"
+        ]
       },
       {
         id: "rashi-yoma-072b-038",
@@ -163399,11 +163477,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 38,
         he: "נעשו בכלי הקודש של מזבח סימן",
-        en: "[Rashi commentary on line 38]: נעשו בכלי הקודש של מזבח סימן",
+        en: "- were made on the sacred vessels: that of the altar, a symbol",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l16"
+        ]
       },
       {
         id: "rashi-yoma-072b-039",
@@ -163411,11 +163491,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 39,
         he: "לכתר כהונה ושל ארון סימן לכתר",
-        en: "[Rashi commentary on line 39]: לכתר כהונה ושל ארון סימן לכתר",
+        en: "for the crown of priesthood; that of the ark, a symbol for the crown of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l16"
+        ]
       },
       {
         id: "rashi-yoma-072b-040",
@@ -163423,11 +163505,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 40,
         he: "תורה ושל שולחן סימן לכתר מלכות",
-        en: "[Rashi commentary on line 40]: תורה ושל שולחן סימן לכתר מלכות",
+        en: "Torah; and that of the table, a symbol for the crown of kingship,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l16"
+        ]
       },
       {
         id: "rashi-yoma-072b-041",
@@ -163435,11 +163519,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 41,
         he: "שהשולחן הוא סימן לעושר מלכים:",
-        en: "[Rashi commentary on line 41]: שהשולחן הוא סימן לעושר מלכים:",
+        en: "since the table is a symbol for the wealth of kings.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l16"
+        ]
       },
       {
         id: "rashi-yoma-072b-042",
@@ -163447,11 +163533,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 42,
         he: "הכי גרסינן של מזבח זכה אהרן",
-        en: "[Rashi commentary on line 42]: הכי גרסינן של מזבח זכה אהרן",
+        en: "'This is how we read it: that of the altar, Aaron merited",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l16"
+        ]
       },
       {
         id: "rashi-yoma-072b-043",
@@ -163459,11 +163547,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 43,
         he: "ונטלו של שלחן זכה דוד ונטלו.",
-        en: "[Rashi commentary on line 43]: ונטלו של שלחן זכה דוד ונטלו.",
+        en: "and took it; that of the table, David merited and took it'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l16"
+        ]
       },
       {
         id: "rashi-yoma-072b-044",
@@ -163471,11 +163561,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 44,
         he: "שהכהונה נתנה לאהרן ברית מלח",
-        en: "[Rashi commentary on line 44]: שהכהונה נתנה לאהרן ברית מלח",
+        en: "- for priesthood was given to Aaron as a covenant of salt",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l16"
+        ]
       },
       {
         id: "rashi-yoma-072b-045",
@@ -163483,11 +163575,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 45,
         he: "(במדבר יח) וכן המלכות לדוד ולזרעו",
-        en: "[Rashi commentary on line 45]: (במדבר יח) וכן המלכות לדוד ולזרעו",
+        en: "(Numbers 18), and so too kingship to David and his descendants",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l16"
+        ]
       },
       {
         id: "rashi-yoma-072b-046",
@@ -163495,11 +163589,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 46,
         he: "(תהלים יח) : בי מלכים ימלוכו.",
-        en: "[Rashi commentary on line 46]: (תהלים יח) : בי מלכים ימלוכו.",
+        en: "(Psalms 18). 'Through Me kings shall reign'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l16"
+        ]
       },
       {
         id: "rashi-yoma-072b-047",
@@ -163507,11 +163603,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 47,
         he: "וגדול הממליך מן המלך והתורה",
-        en: "[Rashi commentary on line 47]: וגדול הממליך מן המלך והתורה",
+        en: "- and the one who crowns is greater than the king, and the Torah",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l16"
+        ]
       },
       {
         id: "rashi-yoma-072b-048",
@@ -163519,11 +163617,14 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 48,
         he: "אמרה מקרא זה: זכה. ללמוד לשמה",
-        en: "[Rashi commentary on line 48]: אמרה מקרא זה: זכה. ללמוד לשמה",
+        en: "is the one that made this statement. 'He who merits it' - by learning it for its own sake",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l16",
+          "yoma-072b-l21"
+        ]
       },
       {
         id: "rashi-yoma-072b-049",
@@ -163531,11 +163632,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 49,
         he: "ולקיימה: זרה. משתכחת ממנו:",
-        en: "[Rashi commentary on line 49]: ולקיימה: זרה. משתכחת ממנו:",
+        en: "and fulfilling it. 'It becomes strange to him' - it is forgotten by him.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l21"
+        ]
       },
       {
         id: "rashi-yoma-072b-050",
@@ -163543,11 +163646,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 50,
         he: "מצווין לעשות מלאכתו. שהארון",
-        en: "[Rashi commentary on line 50]: מצווין לעשות מלאכתו. שהארון",
+        en: "'They are commanded to do his work' - for regarding the ark,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l23"
+        ]
       },
       {
         id: "rashi-yoma-072b-051",
@@ -163555,11 +163660,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 51,
         he: "בתחילה הטיל הכתוב המלאכה",
-        en: "[Rashi commentary on line 51]: בתחילה הטיל הכתוב המלאכה",
+        en: "Scripture first placed the task",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l23"
+        ]
       },
       {
         id: "rashi-yoma-072b-052",
@@ -163567,11 +163674,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 52,
         he: "על משה ואח\"כ הטילו על הציבור ואע\"ג דקראי לאו בהאי סידרא",
-        en: "[Rashi commentary on line 52]: על משה ואח\"כ הטילו על הציבור ואע\"ג דקראי לאו בהאי סידרא",
+        en: "upon Moses, and afterward placed it upon the community; and even though the verses are not written in this order,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l23"
+        ]
       },
       {
         id: "rashi-yoma-072b-053",
@@ -163579,11 +163688,14 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 53,
         he: "כתיבי אסמכתא בעלמא הוא דקאמר: איש שותה. תורה כמים",
-        en: "[Rashi commentary on line 53]: כתיבי אסמכתא בעלמא הוא דקאמר: איש שותה. תורה כמים",
+        en: "he is speaking merely as a mnemonic support. 'A man drinks' - Torah, like water,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l23",
+          "yoma-072b-l28"
+        ]
       },
       {
         id: "rashi-yoma-072b-054",
@@ -163591,11 +163703,14 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 54,
         he: "ויש בו עולה: דרתא. חצר: ותרעא לדרתיה עביד. שהתורה אינה",
-        en: "[Rashi commentary on line 54]: ויש בו עולה: דרתא. חצר: ותרעא לדרתיה עביד. שהתורה אינה",
+        en: "and there is wrongdoing in this. 'Darta' - courtyard. 'Yet made a gate for his courtyard' - for Torah is only",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l28",
+          "yoma-072b-l34"
+        ]
       },
       {
         id: "rashi-yoma-072b-055",
@@ -163603,11 +163718,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 55,
         he: "אלא שער ליכנס בה ליראת שמים לכך צריך שתקדים לו יראת",
-        en: "[Rashi commentary on line 55]: אלא שער ליכנס בה ליראת שמים לכך צריך שתקדים לו יראת",
+        en: "a gateway through which one enters to fear of Heaven; therefore fear of Heaven must precede",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l34"
+        ]
       },
       {
         id: "rashi-yoma-072b-056",
@@ -163615,11 +163732,14 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 56,
         he: "שמים: תרתי גיהנם. להיות יגעים",
-        en: "[Rashi commentary on line 56]: שמים: תרתי גיהנם. להיות יגעים",
+        en: "it. 'A double Gehenna' - to be weary",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l34",
+          "yoma-072b-l36"
+        ]
       },
       {
         id: "rashi-yoma-072b-057",
@@ -163627,11 +163747,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 57,
         he: "ועמלים בתורה בעולם הזה ולא",
-        en: "[Rashi commentary on line 57]: ועמלים בתורה בעולם הזה ולא",
+        en: "and toiling over Torah in this world, and yet not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l36"
+        ]
       },
       {
         id: "rashi-yoma-072b-058",
@@ -163639,11 +163761,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 58,
         he: "תקיימוה ותירשו גיהנם במותכם",
-        en: "[Rashi commentary on line 58]: תקיימוה ותירשו גיהנם במותכם",
+        en: "fulfill it, so that you inherit Gehenna at your death,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l36"
+        ]
       },
       {
         id: "rashi-yoma-072b-059",
@@ -163651,11 +163775,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 59,
         he: "ובחייכם לא נהניתם בעולמכם:",
-        en: "[Rashi commentary on line 59]: ובחייכם לא נהניתם בעולמכם:",
+        en: "while in your lifetime you had no enjoyment in your world either.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l36"
+        ]
       },
       {
         id: "rashi-yoma-072b-060",
@@ -163663,11 +163789,14 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 60,
         he: "צורפתו. ביסורין ובגיהנם: נושא",
-        en: "[Rashi commentary on line 60]: צורפתו. ביסורין ובגיהנם: נושא",
+        en: "'It refines him' - through suffering and through Gehenna. 'He marries",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l41",
+          "yoma-072b-l44"
+        ]
       },
       {
         id: "rashi-yoma-072b-061",
@@ -163675,11 +163804,14 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 61,
         he: "אשה. ניצול מהרהור עבירה: להעיד",
-        en: "[Rashi commentary on line 61]: אשה. ניצול מהרהור עבירה: להעיד",
+        en: "a woman' - he is saved from sinful thoughts. 'To testify",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l44",
+          "yoma-072b-l45"
+        ]
       },
       {
         id: "rashi-yoma-072b-062",
@@ -163687,11 +163819,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 62,
         he: "בלומדיה. מי קיים ומי לא קיים:",
-        en: "[Rashi commentary on line 62]: בלומדיה. מי קיים ומי לא קיים:",
+        en: "concerning those who study it' - who fulfilled it and who did not.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l45"
+        ]
       },
       {
         id: "rashi-yoma-072b-063",
@@ -163699,11 +163833,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 63,
         he: "שרוקמין במקום שחושבים. בתחילה",
-        en: "[Rashi commentary on line 63]: שרוקמין במקום שחושבים. בתחילה",
+        en: "'They embroider where they weave the design' - first",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l46a"
+        ]
       },
       {
         id: "rashi-yoma-072b-064",
@@ -163711,11 +163847,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 64,
         he: "מתקן הצורה על הבגד על ידי צבע",
-        en: "[Rashi commentary on line 64]: מתקן הצורה על הבגד על ידי צבע",
+        en: "he fixes the design onto the garment by means of dye,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l46a"
+        ]
       },
       {
         id: "rashi-yoma-072b-065",
@@ -163723,11 +163861,14 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 65,
         he: "ואחר כך רוקמה במחט: חושב",
-        en: "[Rashi commentary on line 65]: ואחר כך רוקמה במחט: חושב",
+        en: "and afterward embroiders it with a needle. 'Choshev'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l46a",
+          "yoma-072b-l46b"
+        ]
       },
       {
         id: "rashi-yoma-072b-066",
@@ -163735,11 +163876,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 66,
         he: "מעשה אורג. שיש לה ליריעה שתי",
-        en: "[Rashi commentary on line 66]: מעשה אורג. שיש לה ליריעה שתי",
+        en: "is loom-work' - for the sheet has two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l46b"
+        ]
       },
       {
         id: "rashi-yoma-072b-067",
@@ -163747,11 +163890,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 67,
         he: "קירות ושתי צורות על שתי קירותיה",
-        en: "[Rashi commentary on line 67]: קירות ושתי צורות על שתי קירותיה",
+        en: "faces, with two designs on its two faces",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l46b"
+        ]
       },
       {
         id: "rashi-yoma-072b-068",
@@ -163759,11 +163904,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 68,
         he: "אין דומות זו לזו פעמים שמצד זה",
-        en: "[Rashi commentary on line 68]: אין דומות זו לזו פעמים שמצד זה",
+        en: "that are not alike; sometimes on one side",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l46b"
+        ]
       },
       {
         id: "rashi-yoma-072b-069",
@@ -163771,11 +163918,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 69,
         he: "ארי ומצד זה נשר כמו לחגורות של",
-        en: "[Rashi commentary on line 69]: ארי ומצד זה נשר כמו לחגורות של",
+        en: "a lion and on the other side an eagle, like the belts made of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l46b"
+        ]
       },
       {
         id: "rashi-yoma-072b-070",
@@ -163783,11 +163932,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 70,
         he: "משי והיינו ב' פרצופים אבל רוקם",
-        en: "[Rashi commentary on line 70]: משי והיינו ב' פרצופים אבל רוקם",
+        en: "silk, and this is called 'two faces'; but embroidery",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l46b"
+        ]
       },
       {
         id: "rashi-yoma-072b-071",
@@ -163795,11 +163946,14 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 71,
         he: "כצורתו מכאן כך צורתו מכאן: משוח",
-        en: "[Rashi commentary on line 71]: כצורתו מכאן כך צורתו מכאן: משוח",
+        en: "has the same design on this side as on that side. 'The one anointed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l46b",
+          "yoma-072b-l47"
+        ]
       },
       {
         id: "rashi-yoma-072b-072",
@@ -163807,11 +163961,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 72,
         he: "מלחמה. כהן שמשחוהו למלחמה",
-        en: "[Rashi commentary on line 72]: מלחמה. כהן שמשחוהו למלחמה",
+        en: "for war' - a priest who was anointed for war,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l47"
+        ]
       },
       {
         id: "rashi-yoma-072b-073",
@@ -163819,11 +163975,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 73,
         he: "לדבר דברי מערכי המלחמה שנאמר",
-        en: "[Rashi commentary on line 73]: לדבר דברי מערכי המלחמה שנאמר",
+        en: "to speak the words concerning the battle lines, as it is stated,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l47"
+        ]
       },
       {
         id: "rashi-yoma-072b-074",
@@ -163831,11 +163989,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 74,
         he: "ונגש הכהן ודבר אל העם (דברים כ) :",
-        en: "[Rashi commentary on line 74]: ונגש הכהן ודבר אל העם (דברים כ) :",
+        en: "'and the priest shall approach and speak to the people' (Deuteronomy 20).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l47"
+        ]
       },
       {
         id: "rashi-yoma-072b-075",
@@ -163843,11 +164003,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 75,
         he: "משמש בהן. אם בא לעבוד בבית",
-        en: "[Rashi commentary on line 75]: משמש בהן. אם בא לעבוד בבית",
+        en: "'Serves in them' - if he comes to serve in the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l47"
+        ]
       },
       {
         id: "rashi-yoma-072b-076",
@@ -163855,11 +164017,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 76,
         he: "המקדש לובש ח' בגדים: יהיו לבניו",
-        en: "[Rashi commentary on line 76]: המקדש לובש ח' בגדים: יהיו לבניו",
+        en: "Temple, he wears the eight garments. 'Shall be for his sons",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l47"
+        ]
       },
       {
         id: "rashi-yoma-072b-077",
@@ -163867,11 +164031,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 77,
         he: "אחריו. האי אחריו קרא יתירא הוא",
-        en: "[Rashi commentary on line 77]: אחריו. האי אחריו קרא יתירא הוא",
+        en: "after him' - this word 'after him' is superfluous in the verse,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l47"
+        ]
       },
       {
         id: "rashi-yoma-072b-078",
@@ -163879,11 +164045,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 78,
         he: "למדרש בה כל גדולות נוהגות בזרעו",
-        en: "[Rashi commentary on line 78]: למדרש בה כל גדולות נוהגות בזרעו",
+        en: "meant to be expounded that all forms of greatness apply to his descendants",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l47"
+        ]
       },
       {
         id: "rashi-yoma-072b-079",
@@ -163891,11 +164059,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 79,
         he: "אחריו ומשוח מלחמה גדולה היא:",
-        en: "[Rashi commentary on line 79]: אחריו ומשוח מלחמה גדולה היא:",
+        en: "after him, and being anointed for war is a form of greatness.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l47"
+        ]
       },
       {
         id: "rashi-yoma-072b-080",
@@ -163903,11 +164073,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 80,
         he: "יכול יהא בנו של משוח מלחמה משמש",
-        en: "[Rashi commentary on line 80]: יכול יהא בנו של משוח מלחמה משמש",
+        en: "'One might think that a son of the priest anointed for war serves",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       },
       {
         id: "rashi-yoma-072b-081",
@@ -163915,11 +164087,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 81,
         he: "תחתיו וכו'. יכול תהא גדולת משוח",
-        en: "[Rashi commentary on line 81]: תחתיו וכו'. יכול תהא גדולת משוח",
+        en: "in his place,' etc. - one might think that the greatness of the anointed-for-war status",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       },
       {
         id: "rashi-yoma-072b-082",
@@ -163927,11 +164101,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 82,
         he: "מלחמה ירושה להיות בנו קודם לכל",
-        en: "[Rashi commentary on line 82]: מלחמה ירושה להיות בנו קודם לכל",
+        en: "is inherited, so that his son takes precedence over everyone",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       },
       {
         id: "rashi-yoma-072b-083",
@@ -163939,11 +164115,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 83,
         he: "אדם כדרך שבנו של כהן גדול משמש",
-        en: "[Rashi commentary on line 83]: אדם כדרך שבנו של כהן גדול משמש",
+        en: "else, just as a High Priest's son serves",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       },
       {
         id: "rashi-yoma-072b-084",
@@ -163951,11 +164129,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 84,
         he: "תחתיו רישא דברייתא הכי תניא לה",
-        en: "[Rashi commentary on line 84]: תחתיו רישא דברייתא הכי תניא לה",
+        en: "in his place. The opening of the baraita is taught this way",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       },
       {
         id: "rashi-yoma-072b-085",
@@ -163963,11 +164143,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 85,
         he: "בת\"כ גבי עשירית האיפה והכהן",
-        en: "[Rashi commentary on line 85]: בת\"כ גבי עשירית האיפה והכהן",
+        en: "in Torat Kohanim, regarding the tenth of an eifah and 'the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       },
       {
         id: "rashi-yoma-072b-086",
@@ -163975,11 +164157,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 86,
         he: "המשיח אין לי אלא משיח מרובה",
-        en: "[Rashi commentary on line 86]: המשיח אין לי אלא משיח מרובה",
+        en: "anointed priest': I would know only that this applies to the priest anointed with many",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       },
       {
         id: "rashi-yoma-072b-087",
@@ -163987,11 +164171,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 87,
         he: "בגדים מניין תלמוד לומר והכהן יכול",
-        en: "[Rashi commentary on line 87]: בגדים מניין תלמוד לומר והכהן יכול",
+        en: "garments; from where do we derive it applies to others too? The verse teaches, 'and the priest' - one might think",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       },
       {
         id: "rashi-yoma-072b-088",
@@ -163999,11 +164185,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 88,
         he: "שאני מרבה אף משוח מלחמה תלמוד",
-        en: "[Rashi commentary on line 88]: שאני מרבה אף משוח מלחמה תלמוד",
+        en: "I should include even the priest anointed for war; the verse teaches,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       },
       {
         id: "rashi-yoma-072b-089",
@@ -164011,11 +164199,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 89,
         he: "לומר תחתיו מבניו מי שבנו עומד",
-        en: "[Rashi commentary on line 89]: לומר תחתיו מבניו מי שבנו עומד",
+        en: "'in his place, from his sons' - meaning specifically one whose son stands",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       },
       {
         id: "rashi-yoma-072b-090",
@@ -164023,11 +164213,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 90,
         he: "תחתיו יצא משוח מלחמה שאין בנו",
-        en: "[Rashi commentary on line 90]: תחתיו יצא משוח מלחמה שאין בנו",
+        en: "in his place; this excludes the priest anointed for war, whose son does not stand",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       },
       {
         id: "rashi-yoma-072b-091",
@@ -164035,11 +164227,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 91,
         he: "עומד תחתיו ומניין למשוח מלחמה",
-        en: "[Rashi commentary on line 91]: עומד תחתיו ומניין למשוח מלחמה",
+        en: "in his place. And from where do we know that the priest anointed for war",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       },
       {
         id: "rashi-yoma-072b-092",
@@ -164047,11 +164241,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 92,
         he: "שאין בנו עומד תחתיו תלמוד לומר",
-        en: "[Rashi commentary on line 92]: שאין בנו עומד תחתיו תלמוד לומר",
+        en: "'s son does not stand in his place? The verse teaches,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       },
       {
         id: "rashi-yoma-072b-093",
@@ -164059,11 +164255,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 93,
         he: "שבעת ימים ילבשם הכהן וגו' יצא",
-        en: "[Rashi commentary on line 93]: שבעת ימים ילבשם הכהן וגו' יצא",
+        en: "'seven days shall the priest... wear them,' etc. - this excludes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       },
       {
         id: "rashi-yoma-072b-094",
@@ -164071,11 +164269,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 94,
         he: "זה שאין ראוי לבוא אל אהל מועד",
-        en: "[Rashi commentary on line 94]: זה שאין ראוי לבוא אל אהל מועד",
+        en: "one who is not fit to enter the Tent of Meeting",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       },
       {
         id: "rashi-yoma-072b-095",
@@ -164083,11 +164283,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 95,
         he: "לכפר בקודש וגבי כהן גדול",
-        en: "[Rashi commentary on line 95]: לכפר בקודש וגבי כהן גדול",
+        en: "to atone in the sanctuary. And regarding the High Priest,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       },
       {
         id: "rashi-yoma-072b-096",
@@ -164095,11 +164297,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 96,
         he: "תניא בדוכתא אחריתי בתורת כהנים",
-        en: "[Rashi commentary on line 96]: תניא בדוכתא אחריתי בתורת כהנים",
+        en: "it is taught elsewhere in Torat Kohanim:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       },
       {
         id: "rashi-yoma-072b-097",
@@ -164107,11 +164311,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 97,
         he: "לכהן תחת אביו מלמד שהבן קודם",
-        en: "[Rashi commentary on line 97]: לכהן תחת אביו מלמד שהבן קודם",
+        en: "'to be priest in his father's place' - this teaches that the son takes precedence",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       },
       {
         id: "rashi-yoma-072b-098",
@@ -164119,11 +164325,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 98,
         he: "לכל אדם יכול אף על פי שאין",
-        en: "[Rashi commentary on line 98]: לכל אדם יכול אף על פי שאין",
+        en: "over everyone else; one might think even if he does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       },
       {
         id: "rashi-yoma-072b-099",
@@ -164131,11 +164339,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 99,
         he: "ממלא את מקומו ת\"ל ואשר ימלא:",
-        en: "[Rashi commentary on line 99]: ממלא את מקומו ת\"ל ואשר ימלא:",
+        en: "fill his father's position; the verse teaches, 'and whoever shall fill it.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       },
       {
         id: "rashi-yoma-072b-100",
@@ -164143,11 +164353,13 @@ const DAF_CONTENT = {
         daf: "72b",
         vilnaLine: 100,
         he: "ת\"ל",
-        en: "[Rashi commentary on line 100]: ת\"ל",
+        en: "'The verse teaches' - the daf ends mid-word here; the comment continues on 73a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072b-l49"
+        ]
       }
     ],
     review: "reviewed"
