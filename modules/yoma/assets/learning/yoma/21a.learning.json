@@ -1,799 +1,804 @@
 {
-  "daf": "21a",
-  "canonicalRef": "Yoma 21a",
-  "summary": "The baraita supporting R. Sheila (rooster call) is cited, then the Gemara pivots to a cosmic digression: what is Ridya, the angel of rain? The main topic resumes: the five miracles of the Beit HaMikdash during the pilgrimage festivals - the people stood packed tightly yet prostrated with room to spare; no snake or scorpion ever harmed in Jerusalem; no one said 'there is no room'; fire and rain canceled each other; the smoke from the altar went straight up regardless of wind.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "21a",
+ "canonicalRef": "Yoma 21a",
+ "summary": "The baraita supporting R. Sheila (rooster call) is cited, then the Gemara pivots to a cosmic digression: what is Ridya, the angel of rain? The main topic resumes: the five miracles of the Beit HaMikdash during the pilgrimage festivals - the people stood packed tightly yet prostrated with room to spare; no snake or scorpion ever harmed in Jerusalem; no one said 'there is no room'; fire and rain canceled each other; the smoke from the altar went straight up regardless of wind.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-021a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 5
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-021a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 5
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.21a.1"
-        },
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.21a.2"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.21a.1",
-        "Yoma.21a.2"
-      ],
-      "display": {
-        "title": "From a rooster proof-text to Ridya: the heifer-formed angel that mediates the upper and lower waters",
-        "whats": "The baraita supporting R. Sheila (rooster=the bird) is cited from Ezra: 'before any rooster crowed.' Then the Gemara tangentially asks about Ridya, the angel of rain described in Ezekiel as an entity between the upper and lower waters, splitting them apart. The name Ridya may mean 'she runs' (Aramaic) because rain runs down.",
-        "hint": "The Ridya digression is triggered by the word 'rain' in a connected context - a classic talmudic tangent that adds cosmological depth. The image of an angel standing between upper and lower waters with an open face recalls the creation narrative."
-      },
-      "learning": {
-        "learnerQuestion": "Now that a baraita has settled that 'gever' in Ezra means the rooster, why does the Gemara suddenly pivot to describing an angel of rain instead of moving on?",
-        "coreTension": "The keriat hagever discussion seems closed once the Ezra proof-text is cited, yet the Gemara does not move to the next topic of the mishna; it lingers on a tangential question about rain that has no direct bearing on the Temple service timing just settled.",
-        "coreMove": "The Gemara follows a verbal association rather than a topical one: having confirmed gever can mean rooster, a creature tied to dawn and natural cycles, it slides into a related cosmological question about Ridya, the angel responsible for rain. Ridya is described as a heifer-formed being with an open, hollow face standing between the upper and lower cosmic waters, commanding the upper waters down and the lower waters up. The name itself is read as a clue to its function: from the Aramaic root for 'running,' since that is what rain does.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Talmudic digressions are often triggered by a verbal or thematic association in the preceding text rather than by direct relevance to the legal topic, and the digression can still carry its own coherent cosmological content worth understanding on its own terms."
-        },
-        "ahaMoment": "The angel of rain is theriomorphic, a creature with a heifer's body and an open face mediating between cosmic waters. This is not mere poetry but a concrete talmudic cosmological picture.",
-        "learningBlocker": "Learners look for a halachic link between the rooster proof-text and the Ridya digression, missing that the connection is associative (rooster signals dawn and natural cycles, which leads to rain) rather than legal, a pattern worth recognizing across many talmudic tangents.",
-        "memoryAnchor": "Ridya = rain angel between upper and lower waters, shaped like a heifer with a split, hollow face. Name from 'running,' since rain runs."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-021a-l01",
-          "type": "proof",
-          "label": "Baraita supports R. Sheila: rooster = bird",
-          "text": "Ezra 3:13 mentions 'before any rooster crowed' - using gever to mean the bird. This supports R. Sheila's reading of keriat hagever as the natural rooster's call.",
-          "sourceRefs": [
-            "Yoma.21a.1"
-          ]
-        },
-        {
-          "id": "yoma-021a-l03",
-          "type": "explanation",
-          "label": "What is Ridya? The rain angel",
-          "text": "Ridya is an angelic being described as a young heifer with a split (open) face, standing between the upper and lower waters. It commands the upper waters to descend and the lower to rise. Its name derives from the Aramaic 'radi' (she runs), since rain runs down.",
-          "sourceRefs": [
-            "Yoma.21a.2"
-          ]
-        }
-      ],
-      "topicTags": [
-        "Ridya",
-        "rain angel",
-        "cosmology",
-        "R. Sheila",
-        "keriat hagever",
-        "baraita"
-      ],
-      "concepts": {
-        "halachic": [],
-        "theological": [
-          "angel of rain mediating cosmic waters",
-          "Talmudic cosmology",
-          "angelic roles in natural phenomena"
-        ],
-        "narrative": [
-          "the name Ridya as linguistic curiosity"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "yoma-020b-s02"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Ridya is a purely metaphorical or poetic image with no real cosmological content.",
-          "correction": "In talmudic thinking, Ridya is presented as an actual angelic being that mediates between the upper and lower waters to produce rain, a concrete part of the cosmological model, not a literary flourish."
-        },
-        {
-          "misconception": "Ridya's 'split face' describes an injured or divided face.",
-          "correction": "The split face is understood as an open, hollow feature, more like a tube or channel through which water passes, not a wound or division."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-020b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "person",
-          "description": "Ridya: an angelic being in heifer-form with an open face, standing between layers of cosmic waters"
-        },
-        {
-          "type": "relationship",
-          "description": "Upper waters - Ridya - lower waters: the three-tier cosmic water system with Ridya as mediating angel"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What is Ridya and what role does it play in Talmudic cosmology?",
-          "answer": "Ridya is the angel of rain, depicted as a heifer-formed being with an open, hollow face, standing between the upper and lower cosmic waters. It commands the upper waters to descend (rain) and the lower waters to rise."
-        },
-        {
-          "question": "What triggers the Gemara's shift from the keriat hagever debate to the Ridya digression, given that the two topics are not legally connected?",
-          "answer": "The shift follows a verbal and thematic association rather than a halachic one: the Ezra proof-text confirms gever can mean rooster, a creature tied to dawn and natural cycles, which leads the Gemara into a related cosmological question about rain and the angel responsible for it."
-        }
-      ],
-      "finalRuling": "Baraita supports R. Sheila. Ridya is the rain angel between cosmic waters.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "רִידְיָא",
-          "translit": "Ridya",
-          "en": "The angel of rain; depicted as a heifer between the upper and lower cosmic waters, commanding rain to fall."
-        }
-      ],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.21a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-021a-s02",
-      "lineRange": {
-        "startVilnaLine": 6,
-        "endVilnaLine": 49
-      },
-      "lines": [
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.21a.3"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.21a.4"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.21a.5"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.21a.6"
-        },
-        {
-          "vilnaLine": 29,
-          "sefariaRef": "Yoma.21a.7"
-        },
-        {
-          "vilnaLine": 32,
-          "sefariaRef": "Yoma.21a.8"
-        },
-        {
-          "vilnaLine": 34,
-          "sefariaRef": "Yoma.21a.9"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.21a.3",
-        "Yoma.21a.4",
-        "Yoma.21a.5",
-        "Yoma.21a.6",
-        "Yoma.21a.7",
-        "Yoma.21a.8",
-        "Yoma.21a.9"
-      ],
-      "display": {
-        "title": "Five standing miracles of the Beit HaMikdash: space, safety, lodging, fire, and smoke",
-        "whats": "Five miracles of the Temple on the pilgrimage festivals: (1) pilgrims stood pressed together yet had room to prostrate; (2) no snake or scorpion ever harmed anyone in Jerusalem; (3) no one said 'there is no room for me'; (4) rain did not extinguish the wood fire on the altar; (5) the altar smoke rose straight up regardless of wind direction. Each miracle is elaborated with its biblical source and Gemara analysis.",
-        "hint": "These five miracles map onto the five senses and the five physical challenges of mass pilgrimage. The prostration miracle is particularly striking: the city seemed impossibly small but expanded supernaturally. The smoke going straight up was also held to signal divine acceptance of the offerings."
-      },
-      "learning": {
-        "learnerQuestion": "If hundreds of thousands of pilgrims packed into Jerusalem for the festivals, what kept the experience from being dangerous, cramped, or chaotic, and why does the Gemara treat the answer as a fixed list of five miracles rather than just praise?",
-        "coreTension": "A mass pilgrimage to a single physical site should produce overcrowding, danger from wildlife, lack of housing, and practical obstacles to the fire-based service, especially in rain and wind. The Gemara instead reports a baraita naming five specific, recurring conditions under which none of this happened, treating them as a defined catalog rather than vague piety.",
-        "coreMove": "The baraita lists five distinct, ongoing miracles, each addressing a specific practical strain of pilgrimage: the courtyard held everyone packed tightly yet opened to give each person four amot of space when the crowd prostrated; no one in Jerusalem was ever harmed by a snake or scorpion; no pilgrim was ever turned away for lack of overnight lodging; rain never extinguished the altar's outdoor fire; and the altar's smoke rose in a straight column no matter which way the wind blew. Listing them as a fixed set of five treats each as evidence of the same underlying claim, that the Temple's sanctity actively overrode the physical limits that would otherwise govern a crowded outdoor site.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "A catalog of distinct miracles, each tied to a specific practical strain, can function as a structured argument that sanctity overrides physical limitation, rather than as a loose collection of impressive anecdotes."
-        },
-        "ahaMoment": "The standing-packed but prostrating-spaciously miracle is mathematically impossible, yet the Gemara states it as fact. The miracle teaches that the sacred space expands to accommodate kedusha.",
-        "learningBlocker": "Learners read the five miracles as a disconnected list of impressive trivia, missing that each one answers a specific, predictable practical problem of mass pilgrimage, space, danger, lodging, weather, and wind, so the list functions as a structured claim about the Temple's nature, not a grab-bag of wonders.",
-        "memoryAnchor": "Five miracles: (1) prostration space appears; (2) no snake harms; (3) no one turned away; (4) rain does not extinguish altar; (5) smoke goes straight up."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-021a-l06",
-          "type": "ruling",
-          "label": "Five miracles of the Beit HaMikdash",
-          "text": "The baraita lists five miracles. They represent ongoing supernatural features of the Temple grounds, not one-time events.",
-          "sourceRefs": [
-            "Yoma.21a.3"
-          ]
-        },
-        {
-          "id": "yoma-021a-l14",
-          "type": "elaboration",
-          "label": "Prostration miracle: space appeared for bowing",
-          "text": "On Yom Kippur, the people stood packed but when they prostrated for the KG's mention of God's name, there was enough space (4 amot per person) - a supernatural expansion.",
-          "sourceRefs": [
-            "Yoma.21a.4"
-          ]
-        },
-        {
-          "id": "yoma-021a-l22",
-          "type": "elaboration",
-          "label": "No snake or scorpion harmed in Jerusalem",
-          "text": "No person was ever harmed by a snake or scorpion while in Jerusalem. This was an ongoing miracle of divine protection.",
-          "sourceRefs": [
-            "Yoma.21a.5"
-          ]
-        },
-        {
-          "id": "yoma-021a-l27",
-          "type": "elaboration",
-          "label": "No one lacked lodging in Jerusalem",
-          "text": "Despite hundreds of thousands of pilgrims, no one ever said 'I have no room to lodge overnight in Jerusalem.' A miracle of hospitality and space.",
-          "sourceRefs": [
-            "Yoma.21a.6"
-          ]
-        },
-        {
-          "id": "yoma-021a-l29",
-          "type": "elaboration",
-          "label": "Rain did not extinguish the altar fire",
-          "text": "The fire on the altar burned outdoors, year-round. Despite rain, it was never extinguished - a miracle protecting the perpetual fire.",
-          "sourceRefs": [
-            "Yoma.21a.7"
-          ]
-        },
-        {
-          "id": "yoma-021a-l32",
-          "type": "elaboration",
-          "label": "Smoke rose straight up regardless of wind",
-          "text": "The smoke from the altar always rose perfectly straight, regardless of which direction the wind blew. This symbolized divine acceptance of the offerings.",
-          "sourceRefs": [
-            "Yoma.21a.8"
-          ]
-        },
-        {
-          "id": "yoma-021a-l34",
-          "type": "elaboration",
-          "label": "Additional elaboration on the smoke miracle",
-          "text": "The Gemara discusses whether the smoke was horizontal or vertical and the significance of its direction for Temple acceptance.",
-          "sourceRefs": [
-            "Yoma.21a.9"
-          ]
-        }
-      ],
-      "topicTags": [
-        "Temple miracles",
-        "pilgrimage festivals",
-        "prostration",
-        "Jerusalem safety",
-        "altar fire",
-        "altar smoke",
-        "divine presence"
-      ],
-      "concepts": {
-        "halachic": [
-          "perpetual altar fire",
-          "prostration on Yom Kippur"
-        ],
-        "theological": [
-          "divine presence in the Temple",
-          "miracles as ongoing features",
-          "sacred space expansion"
-        ],
-        "narrative": [
-          "the packed courtyard as evidence of miraculous space"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [
-        {
-          "misconception": "These five miracles were one-time events recorded for a specific festival.",
-          "correction": "The baraita describes them as ongoing, recurring features that characterized the Temple throughout its existence, not isolated incidents."
-        },
-        {
-          "misconception": "The prostration miracle just means the crowd was generally comfortable.",
-          "correction": "It specifically refers to the four amot of space required for prostration with arms spread; the same area that was too packed to move in suddenly became sufficient the moment everyone bowed, a precise spatial claim, not a general comfort claim."
-        },
-        {
-          "misconception": "The altar fire miracle refers to fire surviving occasional bad weather.",
-          "correction": "It refers to the permanent, perpetual fire on the altar, which stood entirely outdoors and was never extinguished by rain despite having no roof or shelter, a claim about a continuous condition, not a one-off close call."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-021b-s02",
-        "yoma-021b-s03"
-      ],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "description": "Hundreds of thousands of pilgrims packed in the Temple courtyard, then prostrating with supernatural space between each person"
-        },
-        {
-          "type": "action",
-          "description": "The altar fire burning through rain with the smoke rising perfectly straight upward"
-        },
-        {
-          "type": "sequence",
-          "description": "Five miracle categories listed in order: space, safety, lodging, fire, smoke"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What practical strain of mass pilgrimage does each of the five Temple miracles specifically address?",
-          "answer": "Each answers a distinct predictable problem: overcrowding (space to prostrate appears), danger from wildlife (no snake or scorpion harm), housing shortage (no one lacks lodging), weather (rain never extinguishes the altar fire), and wind (the altar smoke still rises straight up)."
-        },
-        {
-          "question": "What made the prostration miracle paradoxical?",
-          "answer": "The pilgrims stood so tightly packed that movement was impossible, yet when they prostrated for the mention of God's name, each person miraculously had the required four amot of space to bow with arms spread."
-        }
-      ],
-      "finalRuling": "Five ongoing miracles of the Temple were maintained throughout its existence.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "נֵס",
-          "translit": "nes",
-          "en": "Miracle; the Talmud lists five ongoing nessim that characterized the Beit HaMikdash."
-        },
-        {
-          "he": "עֲזָרָה",
-          "translit": "azara",
-          "en": "The Temple courtyard; the space where pilgrims stood and where the altar and service took place."
-        }
-      ],
-      "review": "reviewed"
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.21a.2"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.21a.1",
+    "Yoma.21a.2"
+   ],
+   "display": {
+    "title": "From a rooster proof-text to Ridya: the heifer-formed angel that mediates the upper and lower waters",
+    "whats": "The baraita supporting R. Sheila (rooster=the bird) is cited from Ezra: 'before any rooster crowed.' Then the Gemara tangentially asks about Ridya, the angel of rain described in Ezekiel as an entity between the upper and lower waters, splitting them apart. The name Ridya may mean 'she runs' (Aramaic) because rain runs down.",
+    "hint": "The Ridya digression is triggered by the word 'rain' in a connected context - a classic talmudic tangent that adds cosmological depth. The image of an angel standing between upper and lower waters with an open face recalls the creation narrative."
+   },
+   "learning": {
+    "learnerQuestion": "Now that a baraita has settled that 'gever' in Ezra means the rooster, why does the Gemara suddenly pivot to describing an angel of rain instead of moving on?",
+    "coreTension": "The keriat hagever discussion seems closed once the Ezra proof-text is cited, yet the Gemara does not move to the next topic of the mishna; it lingers on a tangential question about rain that has no direct bearing on the Temple service timing just settled.",
+    "coreMove": "The Gemara follows a verbal association rather than a topical one: having confirmed gever can mean rooster, a creature tied to dawn and natural cycles, it slides into a related cosmological question about Ridya, the angel responsible for rain. Ridya is described as a heifer-formed being with an open, hollow face standing between the upper and lower cosmic waters, commanding the upper waters down and the lower waters up. The name itself is read as a clue to its function: from the Aramaic root for 'running,' since that is what rain does.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Talmudic digressions are often triggered by a verbal or thematic association in the preceding text rather than by direct relevance to the legal topic, and the digression can still carry its own coherent cosmological content worth understanding on its own terms."
+    },
+    "ahaMoment": "The angel of rain is theriomorphic, a creature with a heifer's body and an open face mediating between cosmic waters. This is not mere poetry but a concrete talmudic cosmological picture.",
+    "learningBlocker": "Learners look for a halachic link between the rooster proof-text and the Ridya digression, missing that the connection is associative (rooster signals dawn and natural cycles, which leads to rain) rather than legal, a pattern worth recognizing across many talmudic tangents.",
+    "memoryAnchor": "Ridya = rain angel between upper and lower waters, shaped like a heifer with a split, hollow face. Name from 'running,' since rain runs."
+   },
+   "argumentFlow": [
     {
-      "he": "רִידְיָא",
-      "translit": "Ridya",
-      "en": "The rain angel; a heifer-form being standing between upper and lower cosmic waters."
+     "id": "yoma-021a-l01",
+     "type": "proof",
+     "label": "Baraita supports R. Sheila: rooster = bird",
+     "text": "Ezra 3:13 mentions 'before any rooster crowed' - using gever to mean the bird. This supports R. Sheila's reading of keriat hagever as the natural rooster's call.",
+     "sourceRefs": [
+      "Yoma.21a.1"
+     ]
     },
     {
-      "he": "נֵס",
-      "translit": "nes",
-      "en": "Miracle; the five ongoing miracles of the Temple during pilgrimage festivals."
-    },
-    {
-      "he": "עֲזָרָה",
-      "translit": "azara",
-      "en": "Temple courtyard where pilgrims gathered and the five miracles were manifest."
+     "id": "yoma-021a-l03",
+     "type": "explanation",
+     "label": "What is Ridya? The rain angel",
+     "text": "Ridya is an angelic being described as a young heifer with a split (open) face, standing between the upper and lower waters. It commands the upper waters to descend and the lower to rise. Its name derives from the Aramaic 'radi' (she runs), since rain runs down.",
+     "sourceRefs": [
+      "Yoma.21a.2"
+     ]
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "topicTags": [
+    "Ridya",
+    "rain angel",
+    "cosmology",
+    "R. Sheila",
+    "keriat hagever",
+    "baraita"
+   ],
+   "concepts": {
+    "halachic": [],
+    "theological": [
+     "angel of rain mediating cosmic waters",
+     "Talmudic cosmology",
+     "angelic roles in natural phenomena"
+    ],
+    "narrative": [
+     "the name Ridya as linguistic curiosity"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "yoma-020b-s02"
+   ],
+   "misconceptions": [
     {
-      "vilnaLine": 1,
-      "en": "Opens 'and some say, also the rain-angel': an angel appointed over the watering of the earth, from the rain of the heavens",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l01"
-      ]
+     "misconception": "Ridya is a purely metaphorical or poetic image with no real cosmological content.",
+     "correction": "In talmudic thinking, Ridya is presented as an actual angelic being that mediates between the upper and lower waters to produce rain, a concrete part of the cosmological model, not a literary flourish."
     },
     {
-      "vilnaLine": 2,
-      "en": "continuing: above and from the deep below, and it calls to them, as it is said, 'deep calls unto deep,'",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "continuing: as is said in tractate [Ta'anit (24a and 25b)], and it is said there that it resembles a calf,",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "continuing: and therefore it is called 'ridya,' the language of an ox that plows; the Targum renders 'you shall not plow' as 'lo tirdi'",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "closing: (Deuteronomy 22).' Then opens 'according to Rabbi Sheila' -",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "closing: who says that 'the rooster's crowing' means the rooster crowed.",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "Opens 'one who goes out alone on the road, his blood is on his own head' -",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "closing: because of the demons.' Then opens 'his blood is on his own head': the guilt",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "continuing: of his death falls upon his own head, for he has killed",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "closing: himself.' Then opens 'with an average rooster': one that does not crow too early",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "closing: nor too late.' Then opens 'crowded': a term meaning",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: pressed, from the great multitude of people, they would be pressed",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "continuing: one against another, with no room to lean to either side,",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "continuing: to this side or that, and standing as upright as a beam, even their feet",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "closing: were lifted off the ground.' Then opens 'they would bow with ample space' -",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: and when they would bow and fall prostrate, a miracle was done for them",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: and the place would widen until there were four cubits between them,",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: so that no man would hear his fellow's confession",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "closing: so that he not be shamed.' Then opens 'they would be drawn eleven cubits'",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "continuing: 'behind the place of atonement': they would be drawn out of their own pressing",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: and spread out over the length of the whole",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: eleven cubits of the area where Israel's feet",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: trod, to the north and to the south, and they would go out from where",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: their feet had trodden and enter by way of the",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: chambers between the sides of the Sanctuary and the walls of",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: the Courtyard, to the north and to the south, and from there they would enter",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: to the west, into the eleven cubits of open space",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: behind the place of atonement, up to the western wall",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: of the Courtyard, as we learned in tractate Middot (chapter 5,",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "continuing: mishnah 1), and as we said above in this chapter",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "closing: (16b).' Then opens 'what does it mean': since",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: they bow with ample space and the area is widened",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: by the miracle, would you also require them to be drawn",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "closing: and spread out behind the place of atonement?' Then opens 'this is what'",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: 'it means, etc.': this phrase, 'and they are drawn out behind,' etc.,",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "continuing: refers back to the first clause, before the bowing, and this is",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "continuing: what is meant: even though they were drawn behind the place of atonement",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: and needed to stand crowded from their own pressing,",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "continuing: nevertheless, when they all",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: bowed, they came to the east of the altar, out of",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "closing: the Courtyard, and bowed before the Sanctuary with ample space.",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Opens 'no woman miscarried': her fetus, from craving",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "closing: to eat the roasted meat when its aroma rises.",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Then opens 'in the slaughterhouse': of the Courtyard.' Then opens 'and no'",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "continuing: 'blemish was found in the omer': for if a blemish were to occur in it,",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "continuing: there was no other to bring in its place, since it",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "continuing: was harvested on the night after the festival, and they would not harvest more",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "continuing: than the measure needed for a tenth-ephah, sifted through thirteen sieves; and likewise the two loaves were baked from before the festival, and their baking did not override the festival, and if it became blemished they could not bake another",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "closing: on the festival; and likewise the showbread, baked from before Shabbat - if it became blemished there was no replacement, and the table stood empty until the following Shabbat.' Then opens 'the place is too narrow for me': my sustenance is straitened, my dwelling",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "closing: is cramped.' Then opens 'in Kalnevo': the name of a place.' Then opens 'shards of earthenware vessels': in which sacred offerings of the highest sanctity are cooked, and their absorbed taste becomes forbidden as notar, requiring the vessels to be broken, as it is written (Leviticus 6):",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "continuing: 'and the earthen vessel in which it was cooked shall be broken' - and its breaking took place in a sanctified place, as is said there in Zevachim, in the chapter 'Dam Chatat' (93b); and were they not absorbed, heaps",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "closing: of shards would pile up in the Courtyard.' Then opens 'the crop and feathers': of the bird burnt-offering.' Then opens 'and the removal of the ash of the inner altar and the removal of the ash of the candelabrum': every morning he places them with the terumat hadeshen, on the east side of",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "continuing: the ramp, as we learned regarding terumat hadeshen (Tamid chapter 1, mishnah 4): once he reached the floor he turned his face to the north and walked along the east side of the ramp about ten cubits, the place where they would put",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "closing: the crop, feathers, and the ash of the inner altar and the candelabrum there; and the verse about the crop and feathers likewise states: 'and he shall cast it beside the altar, eastward, to the place of the ashes' (Leviticus 1).",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "Opens 'were there three blemished items': the blemish of the omer, the two loaves, and the showbread - you counted them as three miracles.' Then opens 'were there two absorbed items': for the shards of earthenware vessels were one, and the crop and feathers",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "closing: and all that is placed there were one.' Then opens 'its removal was like its arrangement': when they would remove it, it was still hot.' Then opens 'hot on the day it was taken': for it",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "closing: was hot on the day it was taken from there, and this verse is written regarding the showbread in the Book of Samuel.' Then opens 'the place of the Ark is not counted in the measurement': it does not diminish anything from the measure of the space of the House, for it was taught: the Ark that Moses made",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "continuing: had ten cubits of open space on every side when placed in the middle of the chamber of the Ark-cover, and the entire space was only twenty by twenty, as it is said (I Kings 6): 'and before the sanctuary'",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "closing: 'twenty cubits in length and twenty cubits in width' - it follows that the place of the Ark diminished nothing.' Then opens 'the cherubs stood by a miracle': the bodies of the cherubs that Solomon made stood",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 60,
-      "en": "continuing: on the ground, one to the north and one to the south (ibid.), and their wings, twenty cubits, spread from wall to wall, as it is written, 'the wing of the cherub was five cubits' - it follows that the wings",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 61,
-      "en": "closing: held up the entire space; it follows that the thickness of the body itself is not counted in the measurement.' Then opens 'outward-facing': visible outside, in the Courtyard, miracles known to all.' Then opens 'from which it follows that it becomes impure': that it is susceptible to impurity.",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 62,
-      "en": "Opens 'made to be set' -",
-      "linkedGemaraLineIds": [
-        "yoma-021a-l34"
-      ]
+     "misconception": "Ridya's 'split face' describes an injured or divided face.",
+     "correction": "The split face is understood as an open, hollow feature, more like a tube or channel through which water passes, not a wound or division."
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-020b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "person",
+     "description": "Ridya: an angelic being in heifer-form with an open face, standing between layers of cosmic waters"
+    },
+    {
+     "type": "relationship",
+     "description": "Upper waters - Ridya - lower waters: the three-tier cosmic water system with Ridya as mediating angel"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What is Ridya and what role does it play in Talmudic cosmology?",
+     "answer": "Ridya is the angel of rain, depicted as a heifer-formed being with an open, hollow face, standing between the upper and lower cosmic waters. It commands the upper waters to descend (rain) and the lower waters to rise."
+    },
+    {
+     "question": "What triggers the Gemara's shift from the keriat hagever debate to the Ridya digression, given that the two topics are not legally connected?",
+     "answer": "The shift follows a verbal and thematic association rather than a halachic one: the Ezra proof-text confirms gever can mean rooster, a creature tied to dawn and natural cycles, which leads the Gemara into a related cosmological question about rain and the angel responsible for it."
+    }
+   ],
+   "finalRuling": "Baraita supports R. Sheila. Ridya is the rain angel between cosmic waters.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "רִידְיָא",
+     "translit": "Ridya",
+     "en": "The angel of rain; depicted as a heifer between the upper and lower cosmic waters, commanding rain to fall."
+    }
+   ],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-021a-s02",
+   "lineRange": {
+    "startVilnaLine": 6,
+    "endVilnaLine": 49
+   },
+   "lines": [
+    {
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.21a.3"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.21a.4"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.21a.5"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.21a.6"
+    },
+    {
+     "vilnaLine": 29,
+     "sefariaRef": "Yoma.21a.7"
+    },
+    {
+     "vilnaLine": 32,
+     "sefariaRef": "Yoma.21a.8"
+    },
+    {
+     "vilnaLine": 34,
+     "sefariaRef": "Yoma.21a.9"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.21a.3",
+    "Yoma.21a.4",
+    "Yoma.21a.5",
+    "Yoma.21a.6",
+    "Yoma.21a.7",
+    "Yoma.21a.8",
+    "Yoma.21a.9"
+   ],
+   "display": {
+    "title": "Five standing miracles of the Beit HaMikdash: space, safety, lodging, fire, and smoke",
+    "whats": "Five miracles of the Temple on the pilgrimage festivals: (1) pilgrims stood pressed together yet had room to prostrate; (2) no snake or scorpion ever harmed anyone in Jerusalem; (3) no one said 'there is no room for me'; (4) rain did not extinguish the wood fire on the altar; (5) the altar smoke rose straight up regardless of wind direction. Each miracle is elaborated with its biblical source and Gemara analysis.",
+    "hint": "These five miracles map onto the five senses and the five physical challenges of mass pilgrimage. The prostration miracle is particularly striking: the city seemed impossibly small but expanded supernaturally. The smoke going straight up was also held to signal divine acceptance of the offerings."
+   },
+   "learning": {
+    "learnerQuestion": "If hundreds of thousands of pilgrims packed into Jerusalem for the festivals, what kept the experience from being dangerous, cramped, or chaotic, and why does the Gemara treat the answer as a fixed list of five miracles rather than just praise?",
+    "coreTension": "A mass pilgrimage to a single physical site should produce overcrowding, danger from wildlife, lack of housing, and practical obstacles to the fire-based service, especially in rain and wind. The Gemara instead reports a baraita naming five specific, recurring conditions under which none of this happened, treating them as a defined catalog rather than vague piety.",
+    "coreMove": "The baraita lists five distinct, ongoing miracles, each addressing a specific practical strain of pilgrimage: the courtyard held everyone packed tightly yet opened to give each person four amot of space when the crowd prostrated; no one in Jerusalem was ever harmed by a snake or scorpion; no pilgrim was ever turned away for lack of overnight lodging; rain never extinguished the altar's outdoor fire; and the altar's smoke rose in a straight column no matter which way the wind blew. Listing them as a fixed set of five treats each as evidence of the same underlying claim, that the Temple's sanctity actively overrode the physical limits that would otherwise govern a crowded outdoor site.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "A catalog of distinct miracles, each tied to a specific practical strain, can function as a structured argument that sanctity overrides physical limitation, rather than as a loose collection of impressive anecdotes."
+    },
+    "ahaMoment": "The standing-packed but prostrating-spaciously miracle is mathematically impossible, yet the Gemara states it as fact. The miracle teaches that the sacred space expands to accommodate kedusha.",
+    "learningBlocker": "Learners read the five miracles as a disconnected list of impressive trivia, missing that each one answers a specific, predictable practical problem of mass pilgrimage, space, danger, lodging, weather, and wind, so the list functions as a structured claim about the Temple's nature, not a grab-bag of wonders.",
+    "memoryAnchor": "Five miracles: (1) prostration space appears; (2) no snake harms; (3) no one turned away; (4) rain does not extinguish altar; (5) smoke goes straight up."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-021a-l06",
+     "type": "ruling",
+     "label": "Five miracles of the Beit HaMikdash",
+     "text": "The baraita lists five miracles. They represent ongoing supernatural features of the Temple grounds, not one-time events.",
+     "sourceRefs": [
+      "Yoma.21a.3"
+     ]
+    },
+    {
+     "id": "yoma-021a-l14",
+     "type": "elaboration",
+     "label": "Prostration miracle: space appeared for bowing",
+     "text": "On Yom Kippur, the people stood packed but when they prostrated for the KG's mention of God's name, there was enough space (4 amot per person) - a supernatural expansion.",
+     "sourceRefs": [
+      "Yoma.21a.4"
+     ]
+    },
+    {
+     "id": "yoma-021a-l22",
+     "type": "elaboration",
+     "label": "No snake or scorpion harmed in Jerusalem",
+     "text": "No person was ever harmed by a snake or scorpion while in Jerusalem. This was an ongoing miracle of divine protection.",
+     "sourceRefs": [
+      "Yoma.21a.5"
+     ]
+    },
+    {
+     "id": "yoma-021a-l27",
+     "type": "elaboration",
+     "label": "No one lacked lodging in Jerusalem",
+     "text": "Despite hundreds of thousands of pilgrims, no one ever said 'I have no room to lodge overnight in Jerusalem.' A miracle of hospitality and space.",
+     "sourceRefs": [
+      "Yoma.21a.6"
+     ]
+    },
+    {
+     "id": "yoma-021a-l29",
+     "type": "elaboration",
+     "label": "Rain did not extinguish the altar fire",
+     "text": "The fire on the altar burned outdoors, year-round. Despite rain, it was never extinguished - a miracle protecting the perpetual fire.",
+     "sourceRefs": [
+      "Yoma.21a.7"
+     ]
+    },
+    {
+     "id": "yoma-021a-l32",
+     "type": "elaboration",
+     "label": "Smoke rose straight up regardless of wind",
+     "text": "The smoke from the altar always rose perfectly straight, regardless of which direction the wind blew. This symbolized divine acceptance of the offerings.",
+     "sourceRefs": [
+      "Yoma.21a.8"
+     ]
+    },
+    {
+     "id": "yoma-021a-l34",
+     "type": "elaboration",
+     "label": "Additional elaboration on the smoke miracle",
+     "text": "The Gemara discusses whether the smoke was horizontal or vertical and the significance of its direction for Temple acceptance.",
+     "sourceRefs": [
+      "Yoma.21a.9"
+     ]
+    }
+   ],
+   "topicTags": [
+    "Temple miracles",
+    "pilgrimage festivals",
+    "prostration",
+    "Jerusalem safety",
+    "altar fire",
+    "altar smoke",
+    "divine presence"
+   ],
+   "concepts": {
+    "halachic": [
+     "perpetual altar fire",
+     "prostration on Yom Kippur"
+    ],
+    "theological": [
+     "divine presence in the Temple",
+     "miracles as ongoing features",
+     "sacred space expansion"
+    ],
+    "narrative": [
+     "the packed courtyard as evidence of miraculous space"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [
+    {
+     "misconception": "These five miracles were one-time events recorded for a specific festival.",
+     "correction": "The baraita describes them as ongoing, recurring features that characterized the Temple throughout its existence, not isolated incidents."
+    },
+    {
+     "misconception": "The prostration miracle just means the crowd was generally comfortable.",
+     "correction": "It specifically refers to the four amot of space required for prostration with arms spread; the same area that was too packed to move in suddenly became sufficient the moment everyone bowed, a precise spatial claim, not a general comfort claim."
+    },
+    {
+     "misconception": "The altar fire miracle refers to fire surviving occasional bad weather.",
+     "correction": "It refers to the permanent, perpetual fire on the altar, which stood entirely outdoors and was never extinguished by rain despite having no roof or shelter, a claim about a continuous condition, not a one-off close call."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-021b-s02",
+    "yoma-021b-s03"
+   ],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "description": "Hundreds of thousands of pilgrims packed in the Temple courtyard, then prostrating with supernatural space between each person"
+    },
+    {
+     "type": "action",
+     "description": "The altar fire burning through rain with the smoke rising perfectly straight upward"
+    },
+    {
+     "type": "sequence",
+     "description": "Five miracle categories listed in order: space, safety, lodging, fire, smoke"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What practical strain of mass pilgrimage does each of the five Temple miracles specifically address?",
+     "answer": "Each answers a distinct predictable problem: overcrowding (space to prostrate appears), danger from wildlife (no snake or scorpion harm), housing shortage (no one lacks lodging), weather (rain never extinguishes the altar fire), and wind (the altar smoke still rises straight up)."
+    },
+    {
+     "question": "What made the prostration miracle paradoxical?",
+     "answer": "The pilgrims stood so tightly packed that movement was impossible, yet when they prostrated for the mention of God's name, each person miraculously had the required four amot of space to bow with arms spread."
+    }
+   ],
+   "finalRuling": "Five ongoing miracles of the Temple were maintained throughout its existence.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "נֵס",
+     "translit": "nes",
+     "en": "Miracle; the Talmud lists five ongoing nessim that characterized the Beit HaMikdash."
+    },
+    {
+     "he": "עֲזָרָה",
+     "translit": "azara",
+     "en": "The Temple courtyard; the space where pilgrims stood and where the altar and service took place."
+    }
+   ],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [
+  {
+   "he": "רִידְיָא",
+   "translit": "Ridya",
+   "en": "The rain angel; a heifer-form being standing between upper and lower cosmic waters."
+  },
+  {
+   "he": "נֵס",
+   "translit": "nes",
+   "en": "Miracle; the five ongoing miracles of the Temple during pilgrimage festivals."
+  },
+  {
+   "he": "עֲזָרָה",
+   "translit": "azara",
+   "en": "Temple courtyard where pilgrims gathered and the five miracles were manifest."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "And some say: also Ridya - an angel appointed over watering the earth, from the rain of the heavens",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "above and from the deep below, and it calls to them, as it is said, 'deep calls unto deep,'",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "as is stated in tractate Ta'anit (24a and 25b), and it is said there that it resembles a calf,",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "and therefore it is called Ridya, the language of an ox that plows; the Targum renders 'you shall not plow' as 'lo tirdi'",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "(Deuteronomy 22). In accordance with Rabbi Sheila -",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l01",
+    "yoma-021a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "who says that keriat hagever means the rooster crowed.",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "One who goes out alone on the road, his blood is on his own head -",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "because of the demons. His blood is on his own head - the guilt",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "of his death falls upon his own head, for he has killed",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "himself. With an average rooster - one whose crowing is",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "neither too early nor too late. Crowded - a term",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l03",
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "meaning pressed together, from the great multitude of people they were pressed",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "one against another, with no room to lean to either side,",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "to this side or that, and they stood upright as a beam, even their feet",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "were lifted off the ground. They would bow with ample space -",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "and when they bowed and fell prostrate, a miracle was done for them,",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "and the place would widen until there were four cubits between them,",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "so that no man would hear his fellow's confession,",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "so that he not be shamed. They would be drawn eleven cubits",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "behind the place of atonement - they would be drawn out of their own",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "pressing and spread out over the length of the whole",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "eleven cubits of the area where Israel's feet",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "would tread, to the north and to the south, and they would go out from where",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "their feet had trodden and enter by way of the",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "side chambers between the sides of the Sanctuary and the walls of",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "the Courtyard, to the north and to the south, and from there they would enter",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "to the west, into the eleven cubits of open space",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "behind the place of atonement, up to the western wall",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "of the Courtyard, as we learned in tractate Middot (chapter 5,",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "mishnah 1), and as is said above in this chapter",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "(16b). What does it mean - since",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "they bow with ample space and the area is widened",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "by the miracle, would you also require them to be drawn out",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "and spread out behind the place of atonement? This is what",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "it means, etc. - this phrase, 'and they are drawn out behind,' etc.,",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "refers back to the first clause, before the bowing, and this is",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "what is meant: even though they were drawn behind the place of atonement",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "and needed to stand crowded from their own pressing,",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "nevertheless, when they all",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "bowed, they would come to the east of the altar, out of",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "the Courtyard, and bow before the Sanctuary with ample space.",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "No woman miscarried - her fetus, from craving",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "to eat the roasted meat when its aroma rose.",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "In the slaughterhouse - of the Courtyard. And",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "no blemish was found in the omer - for if a blemish were to occur in it,",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "there was no other to bring in its place, since it",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "was harvested on the night after the festival, and they would not harvest more",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "than the measure needed for a tenth-ephah, sifted through thirteen sieves; and likewise the two loaves were baked from before the festival, and their baking did not override the festival, and if it became blemished they could not bake another",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "on the festival; and likewise the showbread, baked from before Shabbat - if it became blemished there was no replacement, and the table stood empty until the following Shabbat. The place is too narrow for me - my sustenance is straitened, my dwelling",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "is cramped. In Kalnevo - the name of a place. Shards of earthenware vessels - in which offerings of the highest sanctity are cooked, and their absorbed taste becomes forbidden as notar, requiring the vessels to be broken, as it is written (Leviticus 6):",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l14",
+    "yoma-021a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "'and the earthen vessel in which it was cooked shall be broken' - and its breaking took place in a sanctified place, as is said there in Zevachim, in the chapter Dam Chatat (93b); and were they not absorbed, heaps",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "of shards would pile up in the Courtyard. The crop and feathers - of the bird burnt-offering. And the removal of the ash of the inner altar and the removal of the ash of the candelabrum - every morning he places them with the terumat hadeshen, on the east side of",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "the ramp, as we learned regarding terumat hadeshen (Tamid chapter 1, mishnah 4): once he reached the floor he turned his face to the north and walked along the east side of the ramp about ten cubits, the place where they would put",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "the crop, feathers, and the ash of the inner altar and the candelabrum there; and the verse about the crop and feathers likewise states, 'and he shall cast it beside the altar, eastward, to the place of the ashes' (Leviticus 1).",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "Were there three blemished items - the blemish of the omer, the two loaves, and the showbread, you counted them as three miracles. Were there two absorbed items - for the shards of earthenware vessels were one, and the crop and feathers",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "and all that is placed there were one. Its removal was like its arrangement - when they would remove it, it was still hot. Hot on the day it was taken - for it",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "was hot on the day it was taken from there, and this verse is written regarding the showbread in the Book of Samuel. The place of the Ark is not counted in the measurement - it does not diminish anything from the measure of the space of the House, for it was taught: the Ark that Moses made",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l29",
+    "yoma-021a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "had ten cubits of open space on every side when placed in the middle of the chamber of the Ark-cover, and the entire space was only twenty by twenty, as it is said (I Kings 6), 'and before the Sanctuary'",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "'twenty cubits in length and twenty cubits in width' - it follows that the place of the Ark diminished nothing. The cherubs stood by a miracle - the bodies of the cherubs that Solomon made stood",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "on the ground, one to the north and one to the south (ibid.), and their wings, twenty cubits, spread from wall to wall, as it is written, 'the wing of the cherub was five cubits' - it follows that the wings",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "held up the entire space; it follows that the thickness of the body itself is not counted in the measurement. Outward-facing - visible outside, in the Courtyard, miracles known to all. From which it follows that it becomes impure - that it is susceptible to impurity.",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l32",
+    "yoma-021a-l34"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "Made to be set down - the daf ends mid-word here; the comment (explaining the table's susceptibility to impurity from its being movable like a sack) continues on 21b.",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l34"
+   ]
+  }
+ ]
 }
