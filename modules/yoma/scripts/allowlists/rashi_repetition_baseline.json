@@ -1,11 +1,6 @@
 {
- "_comment": "Ratchet baseline of documented pre-existing within-daf en skeleton repetition tolerated by validate_rashi_repetition.py. Currently the bracket-heavy 41b/42b entries pending their own repair pass (see docs/rashi-audit-backlog.md). Counts may only shrink; never add entries for new work.",
+ "_comment": "Ratchet baseline of documented pre-existing within-daf en skeleton repetition tolerated by validate_rashi_repetition.py. Currently the bracket-heavy 42b entry pending its own repair pass (see docs/rashi-audit-backlog.md). 41b's entry retired: drained by rashi-reconstruction. Counts may only shrink; never add entries for new work.",
  "entries": [
-  {
-   "daf": "41b",
-   "skeleton": "Rashi: continues - [X].",
-   "maxCount": 13
-  },
   {
    "daf": "42b",
    "skeleton": "Rashi: continues - [X].",
