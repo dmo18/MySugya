@@ -1,1163 +1,1174 @@
 {
-  "daf": "19b",
-  "canonicalRef": "Yoma 19b",
-  "summary": "The Gemara resolves the agency debate (the oath formula means 'act by our understanding,' not real agency), explains why both sides wept at the oath, and gives the reason for the oath (preventing the Sadducee incense practice). A vivid Sadducee incident follows: a KG who lit incense outside and entered the Holy of Holies was struck dead; his father confirmed he was a Sadducee. Rav's practice of gesturing during Shema is then examined: hand signals are not speech and are permitted even during the first paragraph, where only the mouth is restricted ('bam' = with the mouth). The page ends with the Mishna about keeping the KG awake: the tzarda finger-snap identified, the kidda bow described, Psalm 127 sung to remind him of the stakes, and the all-night vigil ending at dawn when the tamid slaughter begins.",
-  "review": {
+ "daf": "19b",
+ "canonicalRef": "Yoma 19b",
+ "summary": "The Gemara resolves the agency debate (the oath formula means 'act by our understanding,' not real agency), explains why both sides wept at the oath, and gives the reason for the oath (preventing the Sadducee incense practice). A vivid Sadducee incident follows: a KG who lit incense outside and entered the Holy of Holies was struck dead; his father confirmed he was a Sadducee. Rav's practice of gesturing during Shema is then examined: hand signals are not speech and are permitted even during the first paragraph, where only the mouth is restricted ('bam' = with the mouth). The page ends with the Mishna about keeping the KG awake: the tzarda finger-snap identified, the kidda bow described, Psalm 127 sung to remind him of the stakes, and the all-night vigil ending at dawn when the tamid slaughter begins.",
+ "review": {
+  "content": "ai_generated",
+  "sourceRefs": "ai_generated"
+ },
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-19b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 16
+   },
+   "lines": [
+    {
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.19b.1"
+    },
+    {
+     "vilnaLine": 4,
+     "sefariaRef": "Yoma.19b.2"
+    },
+    {
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.19b.3"
+    },
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.19b.4"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.19b.5"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.19b.1",
+    "Yoma.19b.2",
+    "Yoma.19b.3",
+    "Yoma.19b.4",
+    "Yoma.19b.5"
+   ],
+   "display": {
+    "title": "Instruction, not agency: reading 'attah shluchenu' as a charge to follow Pharisaic practice",
+    "whats": "The Gemara resolves the agency debate: the oath formula 'you are our agent' does not mean kohanim are literally Israel's agents - it means 'act according to our understanding (of the law), not secretly according to your own.' Both the KG and the elders wept after the oath ceremony. The page explains why each wept. The reason for the oath is then given: the Sadducee incense practice. A vivid story follows: a Sadducee KG who lit the incense outside (in violation of Pharisaic halacha) and entered the Holy of Holies was struck dead.",
+    "hint": "The tears at the oath ceremony reveal the emotional complexity: the KG wept because being sworn implies he is suspected of Sadducee tendencies. The elders wept because they had to treat a potentially innocent man as a suspect - an inherently painful act done for the sake of the law."
+   },
+   "learning": {
+    "learnerQuestion": "If the oath at Beit Avtinas literally says 'attah shluchenu,' 'you are our agent,' doesn't that settle the agency debate from 19a in Israel's favor, and why would both the KG and the elders cry over a routine oath?",
+    "coreTension": "The oath's wording sounds like a legal declaration that the kohen is Israel's agent, which would contradict Rav Huna's earlier position that kohanim act as God's agents. The Gemara needs the oath to carry weight without resolving the agency question by mere word choice.",
+    "coreMove": "The Gemara reads 'attah shluchenu' not as a legal status claim but as an instruction about whose interpretation to follow: act per the Pharisaic understanding of the law, not a private Sadducee reading. This frees the oath from deciding the agency debate and instead ties it to a specific, practical danger: a Sadducee KG secretly lighting the incense outside the Holy of Holies before entering, contrary to Pharisaic practice. A documented case follows in which a Sadducee KG who did exactly that was found dead on the way out.",
+    "resolution": "The oath means 'act according to our (Pharisaic) understanding of the law,' not a declaration of legal agency, and it exists specifically to block the Sadducee incense practice, whose danger the dead-KG story illustrates.",
+    "takeaway": {
+     "type": "logical_principle",
+     "text": "A formula that sounds like a legal status claim can instead function as an instruction about whose interpretation to follow. Reading language for its practical force, not just its surface grammar, can dissolve an apparent contradiction with an earlier ruling."
+    },
+    "ahaMoment": "The oath is not a legal declaration but a communication: 'we adjure you by your own understanding of the law' - meaning 'don't secretly use your own (Sadducee) interpretation.' The tears show how much weight this carries for both parties.",
+    "learningBlocker": "Learners take 'attah shluchenu' at face value as settling the agency question from 19a, missing that the Gemara reinterprets the phrase as an instruction about interpretive loyalty rather than a statement about the kohen's legal status.",
+    "memoryAnchor": "'Attah shluchenu' = act per our understanding, not literally 'you are our agent.' Both wept: KG (suspected), elders (had to suspect). Sadducee incense KG: struck dead on exit."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "resolution",
+     "label": "'Attah shluchenu' = 'act per our understanding'",
+     "speaker": "Gemara",
+     "text": "The oath formula 'you are our agent (sheliach)' does not declare the kohen to be Israel's legal agent. It means: 'act according to our (Pharisaic) understanding of the law,' not according to whatever interpretation you hold privately. This does not contradict Rav Huna's position that kohanim are God's agents.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19b-l01",
+       "vilnaLine": 1,
+       "note": "Resolution of the agency question from 19a"
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "explanation",
+     "label": "Why the KG wept",
+     "speaker": "Gemara",
+     "text": "The KG wept after the oath ceremony because being sworn implies the elders suspect him of Sadducee tendencies. To be suspected of acting against the halacha when he intends to follow it is deeply humiliating.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19b-l04",
+       "vilnaLine": 4,
+       "note": "KG's tears: suspicion"
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "explanation",
+     "label": "Why the elders wept",
+     "speaker": "Gemara",
+     "text": "The elders wept because they had to suspect him of being a Sadducee, potentially casting doubt on a potentially righteous man. The principle: 'one who suspects the innocent suffers in his body.' Having to perform this suspicion-laden ceremony was itself painful.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19b-l07",
+       "vilnaLine": 7,
+       "note": "Elders' tears: pain of suspicion"
+      }
+     ]
+    },
+    {
+     "id": "step-04",
+     "type": "rationale",
+     "label": "Why the oath was necessary: the Sadducee incense practice",
+     "speaker": "Gemara",
+     "text": "The Sadducees held that the incense must be lit outside the Holy of Holies before entering - so the KG would enter the innermost chamber already wreathed in incense smoke. The Pharisees rule that the incense must be lit inside (after entry). The oath was instituted to ensure the KG follows Pharisaic practice.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19b-l09",
+       "vilnaLine": 9,
+       "note": "Sadducee incense practice and reason for oath"
+      }
+     ]
+    },
+    {
+     "id": "step-05",
+     "type": "narrative",
+     "label": "The Sadducee KG who followed his practice and died",
+     "speaker": "Gemara",
+     "text": "A Sadducee KG prepared the incense outside and entered the Holy of Holies. He emerged after a short time - and was immediately found dead, with a wound between his shoulders in the shape of a finger. His father told those who mourned: 'Though he was a Sadducee, he kept his practice and it killed him; he had to die.'",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19b-l16",
+       "vilnaLine": 16,
+       "note": "Sadducee KG struck dead narrative"
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "oath ceremony",
+    "Sadducees",
+    "Pharisees",
+    "incense service",
+    "agency",
+    "KG's tears",
+    "elders' tears",
+    "divine punishment"
+   ],
+   "concepts": [
+    {
+     "term": "Tzedokim (Sadducees)",
+     "def": "A Second Temple sect that rejected the oral Torah and interpreted Scripture literally. On the incense service: they read 'and he shall put the incense on the fire before God' as requiring the incense to be lit before entering the Holy of Holies."
+    },
+    {
+     "term": "Perushim (Pharisees)",
+     "def": "The rabbinic tradition that held the oral Torah as authoritative. The Pharisaic ruling: the incense is placed on the fire inside the Holy of Holies, after the KG has already entered. This is the normative halacha."
+    }
+   ],
+   "conceptRefs": [
+    "Yoma.19b.1",
+    "Yoma.19b.4",
+    "Yoma.19b.5"
+   ],
+   "requiresUnderstanding": [
+    "The Yom Kippur incense service sequence",
+    "The Sadducee/Pharisee dispute on the incense order",
+    "The agency question from 19a"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "'Attah shluchenu' (you are our agent) proves the Pharisees believed kohanim are Israel's legal agents.",
+     "correction": "The Gemara reads the phrase as a communication about whose interpretation to follow, not as a legal agency declaration, so it does not refute Rav Huna's position that kohanim act as God's agents."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-19a-s03",
+    "yoma-19b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "desc": "Two diagrams of the incense service: (A) Pharisaic: KG enters empty-handed, places incense on coals inside (darkness, then smoke rises); (B) Sadducee: KG lights incense outside, enters already smoking"
+    },
+    {
+     "type": "sequence",
+     "desc": "Oath ceremony sequence: elders adjure KG - both parties weep - why each cried - the Sadducee incident illustration"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why did both the High Priest and the elders weep after the oath ceremony at Beit Avtinas?",
+     "answer": "The KG wept because being sworn implied the elders suspected him of Sadducee tendencies, which was humiliating. The elders wept because they had to suspect potentially innocent men, and 'one who suspects the innocent suffers bodily.'"
+    },
+    {
+     "question": "What was the Sadducee practice for the Yom Kippur incense service, and what happened to a KG who followed it?",
+     "answer": "The Sadducees held the incense must be lit outside the Holy of Holies (before entry) so the KG enters already wreathed in smoke. A Sadducee KG who followed this practice was struck dead immediately upon leaving; his father confirmed he had been a Sadducee."
+    }
+   ],
+   "finalRuling": "The oath formula means 'act per our understanding' - not a legal agency declaration. Sadducee incense practice is invalid and dangerous. The Pharisaic ruling (incense inside) is the normative halacha.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "צְדוּקִים",
+     "translit": "Tzedokim",
+     "en": "Sadducees - a Second Temple sect that rejected the oral Torah. Their incense practice: light outside before entering the Holy of Holies."
+    },
+    {
+     "he": "פְּרוּשִׁים",
+     "translit": "Perushim",
+     "en": "Pharisees - the rabbinic tradition. Their incense ruling: the fire is placed on the coals inside the Holy of Holies, after entry."
+    }
+   ],
+   "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
+   }
   },
-  "sugyot": [
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-19b-s02",
+   "lineRange": {
+    "startVilnaLine": 22,
+    "endVilnaLine": 36
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-19b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 16
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.19b.1"
-        },
-        {
-          "vilnaLine": 4,
-          "sefariaRef": "Yoma.19b.2"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.19b.3"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.19b.4"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.19b.5"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.19b.1",
-        "Yoma.19b.2",
-        "Yoma.19b.3",
-        "Yoma.19b.4",
-        "Yoma.19b.5"
-      ],
-      "display": {
-        "title": "Instruction, not agency: reading 'attah shluchenu' as a charge to follow Pharisaic practice",
-        "whats": "The Gemara resolves the agency debate: the oath formula 'you are our agent' does not mean kohanim are literally Israel's agents - it means 'act according to our understanding (of the law), not secretly according to your own.' Both the KG and the elders wept after the oath ceremony. The page explains why each wept. The reason for the oath is then given: the Sadducee incense practice. A vivid story follows: a Sadducee KG who lit the incense outside (in violation of Pharisaic halacha) and entered the Holy of Holies was struck dead.",
-        "hint": "The tears at the oath ceremony reveal the emotional complexity: the KG wept because being sworn implies he is suspected of Sadducee tendencies. The elders wept because they had to treat a potentially innocent man as a suspect - an inherently painful act done for the sake of the law."
-      },
-      "learning": {
-        "learnerQuestion": "If the oath at Beit Avtinas literally says 'attah shluchenu,' 'you are our agent,' doesn't that settle the agency debate from 19a in Israel's favor, and why would both the KG and the elders cry over a routine oath?",
-        "coreTension": "The oath's wording sounds like a legal declaration that the kohen is Israel's agent, which would contradict Rav Huna's earlier position that kohanim act as God's agents. The Gemara needs the oath to carry weight without resolving the agency question by mere word choice.",
-        "coreMove": "The Gemara reads 'attah shluchenu' not as a legal status claim but as an instruction about whose interpretation to follow: act per the Pharisaic understanding of the law, not a private Sadducee reading. This frees the oath from deciding the agency debate and instead ties it to a specific, practical danger: a Sadducee KG secretly lighting the incense outside the Holy of Holies before entering, contrary to Pharisaic practice. A documented case follows in which a Sadducee KG who did exactly that was found dead on the way out.",
-        "resolution": "The oath means 'act according to our (Pharisaic) understanding of the law,' not a declaration of legal agency, and it exists specifically to block the Sadducee incense practice, whose danger the dead-KG story illustrates.",
-        "takeaway": {
-          "type": "logical_principle",
-          "text": "A formula that sounds like a legal status claim can instead function as an instruction about whose interpretation to follow. Reading language for its practical force, not just its surface grammar, can dissolve an apparent contradiction with an earlier ruling."
-        },
-        "ahaMoment": "The oath is not a legal declaration but a communication: 'we adjure you by your own understanding of the law' - meaning 'don't secretly use your own (Sadducee) interpretation.' The tears show how much weight this carries for both parties.",
-        "learningBlocker": "Learners take 'attah shluchenu' at face value as settling the agency question from 19a, missing that the Gemara reinterprets the phrase as an instruction about interpretive loyalty rather than a statement about the kohen's legal status.",
-        "memoryAnchor": "'Attah shluchenu' = act per our understanding, not literally 'you are our agent.' Both wept: KG (suspected), elders (had to suspect). Sadducee incense KG: struck dead on exit."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "resolution",
-          "label": "'Attah shluchenu' = 'act per our understanding'",
-          "speaker": "Gemara",
-          "text": "The oath formula 'you are our agent (sheliach)' does not declare the kohen to be Israel's legal agent. It means: 'act according to our (Pharisaic) understanding of the law,' not according to whatever interpretation you hold privately. This does not contradict Rav Huna's position that kohanim are God's agents.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19b-l01",
-              "vilnaLine": 1,
-              "note": "Resolution of the agency question from 19a"
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "explanation",
-          "label": "Why the KG wept",
-          "speaker": "Gemara",
-          "text": "The KG wept after the oath ceremony because being sworn implies the elders suspect him of Sadducee tendencies. To be suspected of acting against the halacha when he intends to follow it is deeply humiliating.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19b-l04",
-              "vilnaLine": 4,
-              "note": "KG's tears: suspicion"
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "explanation",
-          "label": "Why the elders wept",
-          "speaker": "Gemara",
-          "text": "The elders wept because they had to suspect him of being a Sadducee, potentially casting doubt on a potentially righteous man. The principle: 'one who suspects the innocent suffers in his body.' Having to perform this suspicion-laden ceremony was itself painful.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19b-l07",
-              "vilnaLine": 7,
-              "note": "Elders' tears: pain of suspicion"
-            }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "rationale",
-          "label": "Why the oath was necessary: the Sadducee incense practice",
-          "speaker": "Gemara",
-          "text": "The Sadducees held that the incense must be lit outside the Holy of Holies before entering - so the KG would enter the innermost chamber already wreathed in incense smoke. The Pharisees rule that the incense must be lit inside (after entry). The oath was instituted to ensure the KG follows Pharisaic practice.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19b-l09",
-              "vilnaLine": 9,
-              "note": "Sadducee incense practice and reason for oath"
-            }
-          ]
-        },
-        {
-          "id": "step-05",
-          "type": "narrative",
-          "label": "The Sadducee KG who followed his practice and died",
-          "speaker": "Gemara",
-          "text": "A Sadducee KG prepared the incense outside and entered the Holy of Holies. He emerged after a short time - and was immediately found dead, with a wound between his shoulders in the shape of a finger. His father told those who mourned: 'Though he was a Sadducee, he kept his practice and it killed him; he had to die.'",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19b-l16",
-              "vilnaLine": 16,
-              "note": "Sadducee KG struck dead narrative"
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "oath ceremony",
-        "Sadducees",
-        "Pharisees",
-        "incense service",
-        "agency",
-        "KG's tears",
-        "elders' tears",
-        "divine punishment"
-      ],
-      "concepts": [
-        {
-          "term": "Tzedokim (Sadducees)",
-          "def": "A Second Temple sect that rejected the oral Torah and interpreted Scripture literally. On the incense service: they read 'and he shall put the incense on the fire before God' as requiring the incense to be lit before entering the Holy of Holies."
-        },
-        {
-          "term": "Perushim (Pharisees)",
-          "def": "The rabbinic tradition that held the oral Torah as authoritative. The Pharisaic ruling: the incense is placed on the fire inside the Holy of Holies, after the KG has already entered. This is the normative halacha."
-        }
-      ],
-      "conceptRefs": [
-        "Yoma.19b.1",
-        "Yoma.19b.4",
-        "Yoma.19b.5"
-      ],
-      "requiresUnderstanding": [
-        "The Yom Kippur incense service sequence",
-        "The Sadducee/Pharisee dispute on the incense order",
-        "The agency question from 19a"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "'Attah shluchenu' (you are our agent) proves the Pharisees believed kohanim are Israel's legal agents.",
-          "correction": "The Gemara reads the phrase as a communication about whose interpretation to follow, not as a legal agency declaration, so it does not refute Rav Huna's position that kohanim act as God's agents."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-19a-s03",
-        "yoma-19b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "desc": "Two diagrams of the incense service: (A) Pharisaic: KG enters empty-handed, places incense on coals inside (darkness, then smoke rises); (B) Sadducee: KG lights incense outside, enters already smoking"
-        },
-        {
-          "type": "sequence",
-          "desc": "Oath ceremony sequence: elders adjure KG - both parties weep - why each cried - the Sadducee incident illustration"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why did both the High Priest and the elders weep after the oath ceremony at Beit Avtinas?",
-          "answer": "The KG wept because being sworn implied the elders suspected him of Sadducee tendencies, which was humiliating. The elders wept because they had to suspect potentially innocent men, and 'one who suspects the innocent suffers bodily.'"
-        },
-        {
-          "question": "What was the Sadducee practice for the Yom Kippur incense service, and what happened to a KG who followed it?",
-          "answer": "The Sadducees held the incense must be lit outside the Holy of Holies (before entry) so the KG enters already wreathed in smoke. A Sadducee KG who followed this practice was struck dead immediately upon leaving; his father confirmed he had been a Sadducee."
-        }
-      ],
-      "finalRuling": "The oath formula means 'act per our understanding' - not a legal agency declaration. Sadducee incense practice is invalid and dangerous. The Pharisaic ruling (incense inside) is the normative halacha.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "צְדוּקִים",
-          "translit": "Tzedokim",
-          "en": "Sadducees - a Second Temple sect that rejected the oral Torah. Their incense practice: light outside before entering the Holy of Holies."
-        },
-        {
-          "he": "פְּרוּשִׁים",
-          "translit": "Perushim",
-          "en": "Pharisees - the rabbinic tradition. Their incense ruling: the fire is placed on the coals inside the Holy of Holies, after entry."
-        }
-      ],
-      "review": {
-        "content": "ai_generated",
-        "sourceRefs": "ai_generated"
-      }
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.19b.6"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-19b-s02",
-      "lineRange": {
-        "startVilnaLine": 22,
-        "endVilnaLine": 36
-      },
-      "lines": [
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.19b.6"
-        },
-        {
-          "vilnaLine": 26,
-          "sefariaRef": "Yoma.19b.7"
-        },
-        {
-          "vilnaLine": 33,
-          "sefariaRef": "Yoma.19b.8"
-        },
-        {
-          "vilnaLine": 34,
-          "sefariaRef": "Yoma.19b.9"
-        },
-        {
-          "vilnaLine": 36,
-          "sefariaRef": "Yoma.19b.10"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.19b.6",
-        "Yoma.19b.7",
-        "Yoma.19b.8",
-        "Yoma.19b.9",
-        "Yoma.19b.10"
-      ],
-      "display": {
-        "title": "Bam means mouth, not hands: why Rav's Shema-time gesture was never an interruption",
-        "whats": "A new topic: Rav interrupts his Shema recitation to give a hand-sign indicating he will address someone shortly. The Gemara discusses whether this gesture is permitted during Kriat Shema and what it signifies. The rules about interrupting the first paragraph of Shema vs the second paragraph are clarified, and what kinds of signals are permitted during each.",
-        "hint": "Shema has two distinct sections with different rules: the first paragraph (Shema Yisrael through ve-ahavta) requires concentration (kavanah) and certain interruptions are forbidden; the second paragraph has fewer restrictions. Hand signals occupy a middle ground."
-      },
-      "learning": {
-        "learnerQuestion": "Rav visibly signaled with his hand in the middle of reciting Shema. Doesn't any visible action during the strictest part of Shema count as breaking his concentration and interrupting the recitation?",
-        "coreTension": "The first paragraph of Shema demands kavanah and forbids interruption, yet Rav openly used a hand gesture mid-recitation. The Gemara needs a textual basis for why this particular act does not count as the forbidden kind of interruption.",
-        "coreMove": "The Gemara grounds the interruption prohibition in the word 'bam' from 've-dibartem bam,' reading it as 'with them, in your mouth': the recitation must be spoken audibly. Because the prohibition is anchored to the mouth, a hand gesture, which involves no speech, falls outside its scope even during the first paragraph's stricter requirements.",
-        "resolution": "Hand signals are permitted during Shema, including the first paragraph, because the interruption rule targets speech alone. Verbal interruptions remain forbidden in the first paragraph and restricted (with some flexibility for urgent greetings) in the second.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "A prohibition's scope is set by the specific word it is derived from. 'Bam' ties the Shema interruption rule to the mouth, so anything outside that channel, like a silent gesture, is not covered even if it looks disruptive."
-        },
-        "ahaMoment": "The distinction between speech and gesture is the operative divide: speech interrupts Shema, gesture does not. Rav's hand-sign stays within the permissible zone.",
-        "learningBlocker": "Learners default to a broad, intuitive sense that 'staying focused' means no movement at all, missing that the Gemara derives the prohibition from a specific word, 'bam,' that limits it to oral speech rather than to concentration in general.",
-        "memoryAnchor": "Rav signals with hand during Shema. First paragraph: no speech, but gestures OK. Second paragraph: more flexibility. Key word: 'bam' (in them) = mouth, not hands."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "description",
-          "label": "Rav gives a hand signal during Shema",
-          "speaker": "Gemara",
-          "text": "Rav, while reciting Shema, would signal with his hand to indicate 'I will attend to you in a moment.' The Gemara examines whether this practice is permitted.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19b-l22",
-              "vilnaLine": 22,
-              "note": "Rav's hand signal during Shema"
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "ruling",
-          "label": "First paragraph: mouth must be heard (bam)",
-          "speaker": "Gemara",
-          "text": "In the first paragraph of Shema, the verse says 've-dibartem bam' - 'you shall speak them.' The word 'bam' (in them) means: with your mouth, audibly. One must hear their own recitation.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19b-l26",
-              "vilnaLine": 26,
-              "note": "First paragraph: must be audible"
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "ruling",
-          "label": "Second paragraph: no prayer interruptions",
-          "speaker": "Gemara",
-          "text": "During the second paragraph of Shema, verbal interruptions for prayer are not permitted. However, for urgent speech (like a greeting or responding to someone who greets you), there is more flexibility.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19b-l33",
-              "vilnaLine": 33,
-              "note": "Second paragraph rules"
-            }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "ruling",
-          "label": "Gestures permitted in both paragraphs",
-          "speaker": "Gemara",
-          "text": "Since 'bam' (in them) is about the mouth, not the hands, gestures and hand signals are not considered interruptions to Shema recitation. Rav's practice of signaling is therefore permitted.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19b-l34",
-              "vilnaLine": 34,
-              "note": "Gestures not considered interruptions"
-            }
-          ]
-        },
-        {
-          "id": "step-05",
-          "type": "elaboration",
-          "label": "Other interruptions: during the gaps between paragraphs",
-          "speaker": "Gemara",
-          "text": "Between the first and second paragraphs, and between the second paragraph and 'Emet ve-Yatziv,' certain greetings and responses are permitted. The exact rules differ by the dignity of the person greeting.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19b-l36",
-              "vilnaLine": 36,
-              "note": "Interruptions between paragraphs"
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Kriat Shema",
-        "Rav",
-        "hand signals",
-        "first paragraph",
-        "second paragraph",
-        "bam",
-        "interruption rules"
-      ],
-      "concepts": [
-        {
-          "term": "bam",
-          "def": "'In them' - from 've-dibartem bam' (Deuteronomy 6:7). The Talmud reads 'bam' as 'with them [in your mouth],' requiring Shema to be recited audibly enough to hear oneself."
-        },
-        {
-          "term": "kavanah",
-          "def": "Intention/concentration. Required during the first paragraph of Shema (at minimum the first verse 'Shema Yisrael')."
-        }
-      ],
-      "conceptRefs": [
-        "Yoma.19b.7",
-        "Yoma.19b.8"
-      ],
-      "requiresUnderstanding": [
-        "The structure of Kriat Shema (first and second paragraphs)",
-        "The rules about audible vs silent prayer"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Any physical action during Shema counts as an interruption, since the first paragraph demands full concentration.",
-          "correction": "The Gemara derives the interruption prohibition from 'bam,' which ties it to speech specifically. Gestures involve no speech, so they fall outside the prohibition even in the strict first paragraph."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "desc": "Two columns: permitted during first paragraph (gestures, thoughts) vs forbidden (any speech except life-threatening need); same for second paragraph with slightly more flexibility"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why is Rav's hand signal during Shema not considered an interruption?",
-          "answer": "The prohibition on interrupting Shema applies to speech; the verse 've-dibartem bam' refers to the mouth. Gestures do not involve the mouth and are not speech, so they do not constitute a forbidden interruption."
-        },
-        {
-          "question": "What does 'bam' teach about how Shema must be recited, and what does that imply about a silent recitation?",
-          "answer": "'Bam' (in them) means with your mouth, so the recitation must be spoken aloud and audible to oneself. A purely silent Shema does not satisfy this reading of the verse."
-        }
-      ],
-      "finalRuling": "Hand signals during Shema: permitted (not speech). First paragraph: must be recited audibly. Second paragraph: same rules with slightly more flexibility for greetings.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "בָּם",
-          "translit": "bam",
-          "en": "'In them' - from ve-dibartem bam. Interpreted as requiring Shema to be recited orally and audibly."
-        },
-        {
-          "he": "כַּוָּנָה",
-          "translit": "kavanah",
-          "en": "Intention/concentration during prayer. Required for Shema's first verse at minimum."
-        }
-      ],
-      "review": {
-        "content": "ai_generated",
-        "sourceRefs": "ai_generated"
-      }
+     "vilnaLine": 26,
+     "sefariaRef": "Yoma.19b.7"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-19b-s03",
-      "lineRange": {
-        "startVilnaLine": 40,
-        "endVilnaLine": 49
-      },
-      "lines": [
-        {
-          "vilnaLine": 40,
-          "sefariaRef": "Yoma.19b.11"
-        },
-        {
-          "vilnaLine": 42,
-          "sefariaRef": "Yoma.19b.12"
-        },
-        {
-          "vilnaLine": 44,
-          "sefariaRef": "Yoma.19b.13"
-        },
-        {
-          "vilnaLine": 45,
-          "sefariaRef": "Yoma.19b.14"
-        },
-        {
-          "vilnaLine": 47,
-          "sefariaRef": "Yoma.19b.15"
-        },
-        {
-          "vilnaLine": 49,
-          "sefariaRef": "Yoma.19b.16"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.19b.11",
-        "Yoma.19b.12",
-        "Yoma.19b.13",
-        "Yoma.19b.14",
-        "Yoma.19b.15",
-        "Yoma.19b.16"
-      ],
-      "display": {
-        "title": "Defining the vigil, term by term: tzarda, kidda, and the Psalm that explains the night",
-        "whats": "The Mishna describing how the young priests kept the KG awake all night is quoted and explained. 'Tzarda' (the snapping finger) is identified. The young priests would snap fingers, walk the KG around the Temple floor, make him dance briefly, recite psalms, and generally keep him entertained and alert. The page ends with a description of what they would do with the KG in the early morning hours when the time for the tamid slaughter approached.",
-        "hint": "This mishna is remarkably humanizing: the highest religious figure in Israel being kept awake by young priests who snap fingers, dance, and even play - all to fulfill the crucial halakhic requirement that he not sleep. The absurdity and necessity coexist."
-      },
-      "learning": {
-        "learnerQuestion": "The Mishna lists vivid but cryptic vigil techniques, tzarda, kidda, walking, singing. What did each of these actually involve, and why specifically these methods?",
-        "coreTension": "The Mishna's terse vocabulary names techniques without describing them, leaving a reader unable to picture what the young priests actually did or why a psalm about builders fits into an all-night vigil.",
-        "coreMove": "The Gemara works through the Mishna's terms one by one: tzarda is identified as a literal finger-snap (index finger against the thumb base, released sharply) used to startle a dozing KG; the cold floor walk and the difficult kidda bow are described as physical alertness techniques; Psalm 127 is read as a charge that the night's labor is wasted without sincere intention; and the vigil ends with the formal dawn announcement that opens the tamid slaughter.",
-        "resolution": "Each vigil method now has a concrete definition: tzarda (finger-snap to startle), the cold stone floor walk, kidda (a difficult toe-bow), and Psalm 127 (a reminder that insincere service accomplishes nothing), all running until the Hebron-light announcement signals the tamid slaughter can begin.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "A Mishna's compressed, almost playful vocabulary can describe a serious halakhic requirement. Unpacking each term precisely, rather than reading past it as color, is what turns the passage from anecdote into a working description of practice."
-        },
-        "ahaMoment": "The 'tzarda' (finger-snap) moment is the Talmud at its most human: the holiest person in Israel being jolted awake by young priests snapping fingers because everyone understands the stakes of him falling asleep.",
-        "learningBlocker": "Learners read 'tzarda,' 'kidda,' and the Psalm as charming background detail and move on, missing that the Gemara is doing careful definitional work, pinning down exactly what each unfamiliar Mishnaic term physically meant.",
-        "memoryAnchor": "Tzarda = index finger against thumb, snap. KG entertained all night: dancing, floor-walking, kidda bow. Dawn arrives: tamid time begins."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "identification",
-          "label": "'Tzarda' = index finger snap",
-          "speaker": "Gemara",
-          "text": "'Tzarda' is the finger adjacent to the thumb (the index finger). The priest presses it hard against the base of the thumb and releases - creating a sharp snapping sound when the fingers hit the palm.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19b-l40",
-              "vilnaLine": 40,
-              "note": "Identification of the tzarda finger-snap"
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "description",
-          "label": "Young priests entertain the KG all night",
-          "speaker": "Gemara",
-          "text": "The young priests would show the KG novel things (Torah insights, entertainment), have him do a 'kidda' bow (touching ground with toes, bowing to kiss the floor, then standing straight), sing songs, and generally keep him engaged through the night.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19b-l42",
-              "vilnaLine": 42,
-              "note": "Entertainment methods during the vigil"
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "description",
-          "label": "Walking on the cold Temple floor",
-          "speaker": "Gemara",
-          "text": "The priests would have the KG stand and walk on the cold stone floor of the Temple ('al gavia') barefoot (as required during the Yom Kippur service). The cold contact helped keep him alert.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19b-l44",
-              "vilnaLine": 44,
-              "note": "Walking on cold floor to stay awake"
-            }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "quotation",
-          "label": "Psalm sung to the KG: 'If God does not build the house...'",
-          "speaker": "Gemara",
-          "text": "The priests sang Psalm 127 ('If God does not build the house, in vain do its builders toil') to the KG as a reminder: the Yom Kippur service is only efficacious if done for the sake of Heaven. If not sincere, the effort is wasted.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19b-l45",
-              "vilnaLine": 45,
-              "note": "Psalm 127 sung to KG"
-            }
-          ]
-        },
-        {
-          "id": "step-05",
-          "type": "description",
-          "label": "Why they were said to be 'sinning'",
-          "speaker": "Gemara",
-          "text": "The Mishna says 'they did not sleep - but they were sinning.' This refers to the mixed-gender (men and women together) Simchat Beit HaShoeva celebrations that occurred in the Temple court during Sukkot - the merriment there led to improper behavior.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19b-l47",
-              "vilnaLine": 47,
-              "note": "Explanation of 'sinning' during the vigil"
-            }
-          ]
-        },
-        {
-          "id": "step-06",
-          "type": "description",
-          "label": "Dawn arrives: Tamid slaughter time",
-          "speaker": "Gemara",
-          "text": "As dawn approaches, the acting overseer asks: 'Has the morning light reached Hebron?' When confirmed, the Yom Kippur day formally begins with the slaughter of the daily tamid offering.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19b-l49",
-              "vilnaLine": 49,
-              "note": "Dawn announcement and tamid slaughter"
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "vigil methods",
-        "tzarda",
-        "young priests",
-        "kidda",
-        "Psalm 127",
-        "tamid",
-        "dawn announcement",
-        "KG all-night preparation"
-      ],
-      "concepts": [
-        {
-          "term": "tzarda",
-          "def": "The finger-snap technique: pressing the index finger hard against the thumb base and releasing sharply, creating a loud snap. Used by young priests to startle the KG awake if he dozed."
-        },
-        {
-          "term": "kidda",
-          "def": "A prostration technique: the person presses their big toes to the ground and bows forward until their face nearly touches the floor, then rises. Said to be a uniquely difficult bow that the Beit Gamliels could perform."
-        }
-      ],
-      "conceptRefs": [
-        "Yoma.19b.11",
-        "Yoma.19b.13",
-        "Yoma.19b.15"
-      ],
-      "requiresUnderstanding": [
-        "The all-night KG vigil from 18b",
-        "The tamid service and its dawn-announcement system"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "'They were sinning' refers to the young priests' methods of keeping the KG awake.",
-          "correction": "It refers to the Sukkot Simchat Beit HaShoeva celebrations, where men and women mingled in the Temple courtyard, leading to improper behavior. It has nothing to do with the vigil techniques themselves."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-18b-s02",
-        "yoma-19b-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "desc": "All-night vigil: midnight - priests snap tzarda fingers if KG dozes; 2am - KG walks floor barefoot; 3am - priests show Torah insights and sing Psalm 127; dawn - 'has the light reached Hebron?' announcement"
-        },
-        {
-          "type": "person",
-          "desc": "The 'kidda' bow: person pressing big toes to ground and bowing forward to near-floor level, then rising"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What is the 'tzarda' and how was it used during the KG's all-night vigil?",
-          "answer": "The 'tzarda' is a finger-snap: pressing the index finger hard against the thumb base and releasing with a sharp snap. The young priests used this sound to startle the KG awake if he showed signs of dozing."
-        },
-        {
-          "question": "What psalm did the priests sing to the KG during the all-night vigil, and what point did it make?",
-          "answer": "Psalm 127, 'If God does not build the house, in vain do its builders toil.' It reminded the KG that the Yom Kippur service is only effective if performed with sincere intention for Heaven's sake."
-        }
-      ],
-      "finalRuling": "The vigil continues until dawn when the tamid slaughter begins. All methods (finger-snap, floor-walking, Torah study, Psalm singing) are legitimate and permitted.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "צָרְדָּא",
-          "translit": "tzarda",
-          "en": "The index finger snap - pressing finger against thumb base and releasing. Used to keep the KG awake."
-        },
-        {
-          "he": "קִידָּה",
-          "translit": "kidda",
-          "en": "A prostration: pressing big toes to the ground and bowing forward to near-floor, then rising. A uniquely difficult bow."
-        }
-      ],
-      "review": {
-        "content": "ai_generated",
-        "sourceRefs": "ai_generated"
-      }
+     "vilnaLine": 33,
+     "sefariaRef": "Yoma.19b.8"
+    },
+    {
+     "vilnaLine": 34,
+     "sefariaRef": "Yoma.19b.9"
+    },
+    {
+     "vilnaLine": 36,
+     "sefariaRef": "Yoma.19b.10"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.19b.6",
+    "Yoma.19b.7",
+    "Yoma.19b.8",
+    "Yoma.19b.9",
+    "Yoma.19b.10"
+   ],
+   "display": {
+    "title": "Bam means mouth, not hands: why Rav's Shema-time gesture was never an interruption",
+    "whats": "A new topic: Rav interrupts his Shema recitation to give a hand-sign indicating he will address someone shortly. The Gemara discusses whether this gesture is permitted during Kriat Shema and what it signifies. The rules about interrupting the first paragraph of Shema vs the second paragraph are clarified, and what kinds of signals are permitted during each.",
+    "hint": "Shema has two distinct sections with different rules: the first paragraph (Shema Yisrael through ve-ahavta) requires concentration (kavanah) and certain interruptions are forbidden; the second paragraph has fewer restrictions. Hand signals occupy a middle ground."
+   },
+   "learning": {
+    "learnerQuestion": "Rav visibly signaled with his hand in the middle of reciting Shema. Doesn't any visible action during the strictest part of Shema count as breaking his concentration and interrupting the recitation?",
+    "coreTension": "The first paragraph of Shema demands kavanah and forbids interruption, yet Rav openly used a hand gesture mid-recitation. The Gemara needs a textual basis for why this particular act does not count as the forbidden kind of interruption.",
+    "coreMove": "The Gemara grounds the interruption prohibition in the word 'bam' from 've-dibartem bam,' reading it as 'with them, in your mouth': the recitation must be spoken audibly. Because the prohibition is anchored to the mouth, a hand gesture, which involves no speech, falls outside its scope even during the first paragraph's stricter requirements.",
+    "resolution": "Hand signals are permitted during Shema, including the first paragraph, because the interruption rule targets speech alone. Verbal interruptions remain forbidden in the first paragraph and restricted (with some flexibility for urgent greetings) in the second.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "A prohibition's scope is set by the specific word it is derived from. 'Bam' ties the Shema interruption rule to the mouth, so anything outside that channel, like a silent gesture, is not covered even if it looks disruptive."
+    },
+    "ahaMoment": "The distinction between speech and gesture is the operative divide: speech interrupts Shema, gesture does not. Rav's hand-sign stays within the permissible zone.",
+    "learningBlocker": "Learners default to a broad, intuitive sense that 'staying focused' means no movement at all, missing that the Gemara derives the prohibition from a specific word, 'bam,' that limits it to oral speech rather than to concentration in general.",
+    "memoryAnchor": "Rav signals with hand during Shema. First paragraph: no speech, but gestures OK. Second paragraph: more flexibility. Key word: 'bam' (in them) = mouth, not hands."
+   },
+   "argumentFlow": [
     {
-      "he": "צְדוּקִים",
-      "translit": "Tzedokim",
-      "en": "Sadducees - a Second Temple sect that rejected the oral Torah. Their incense practice: light outside before entering the Holy of Holies."
+     "id": "step-01",
+     "type": "description",
+     "label": "Rav gives a hand signal during Shema",
+     "speaker": "Gemara",
+     "text": "Rav, while reciting Shema, would signal with his hand to indicate 'I will attend to you in a moment.' The Gemara examines whether this practice is permitted.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19b-l22",
+       "vilnaLine": 22,
+       "note": "Rav's hand signal during Shema"
+      }
+     ]
     },
     {
-      "he": "פְּרוּשִׁים",
-      "translit": "Perushim",
-      "en": "Pharisees - the rabbinic tradition. Their incense ruling: the fire is placed on the coals inside the Holy of Holies, after entry."
+     "id": "step-02",
+     "type": "ruling",
+     "label": "First paragraph: mouth must be heard (bam)",
+     "speaker": "Gemara",
+     "text": "In the first paragraph of Shema, the verse says 've-dibartem bam' - 'you shall speak them.' The word 'bam' (in them) means: with your mouth, audibly. One must hear their own recitation.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19b-l26",
+       "vilnaLine": 26,
+       "note": "First paragraph: must be audible"
+      }
+     ]
     },
     {
-      "he": "בָּם",
-      "translit": "bam",
-      "en": "'In them' - from ve-dibartem bam. Interpreted as requiring Shema to be recited orally and audibly."
+     "id": "step-03",
+     "type": "ruling",
+     "label": "Second paragraph: no prayer interruptions",
+     "speaker": "Gemara",
+     "text": "During the second paragraph of Shema, verbal interruptions for prayer are not permitted. However, for urgent speech (like a greeting or responding to someone who greets you), there is more flexibility.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19b-l33",
+       "vilnaLine": 33,
+       "note": "Second paragraph rules"
+      }
+     ]
     },
     {
-      "he": "כַּוָּנָה",
-      "translit": "kavanah",
-      "en": "Intention/concentration during prayer. Required for Shema's first verse at minimum."
+     "id": "step-04",
+     "type": "ruling",
+     "label": "Gestures permitted in both paragraphs",
+     "speaker": "Gemara",
+     "text": "Since 'bam' (in them) is about the mouth, not the hands, gestures and hand signals are not considered interruptions to Shema recitation. Rav's practice of signaling is therefore permitted.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19b-l34",
+       "vilnaLine": 34,
+       "note": "Gestures not considered interruptions"
+      }
+     ]
     },
     {
-      "he": "צָרְדָּא",
-      "translit": "tzarda",
-      "en": "The index finger snap - pressing finger against thumb base and releasing. Used to keep the KG awake."
-    },
-    {
-      "he": "קִידָּה",
-      "translit": "kidda",
-      "en": "A prostration: pressing big toes to the ground and bowing forward to near-floor, then rising. A uniquely difficult bow."
+     "id": "step-05",
+     "type": "elaboration",
+     "label": "Other interruptions: during the gaps between paragraphs",
+     "speaker": "Gemara",
+     "text": "Between the first and second paragraphs, and between the second paragraph and 'Emet ve-Yatziv,' certain greetings and responses are permitted. The exact rules differ by the dignity of the person greeting.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19b-l36",
+       "vilnaLine": 36,
+       "note": "Interruptions between paragraphs"
+      }
+     ]
     }
-  ],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "en": "Opens 'thus they say to him': this that they say to him, 'you are our agent,' is not said regarding the service",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "continuing: itself, but rather regarding the acceptance of the oath - meaning, not according to the intention in your heart; if",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "continuing: you should come to deceive in accepting the oath, we administer it to you according to our understanding and the understanding of",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "closing: the court.' Then opens 'they suspected him of being a Sadducee': of preparing the incense and placing it on the coal-pan of",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l04"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "continuing: fire in the Sanctuary, and bringing it in afterward to the",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l04"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "continuing: Holy of Holies, since that is what the Sadducees say",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l04"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "closing: as explained further on. Then opens 'one who suspects the innocent is stricken in his body' -",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l04"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: as it is written (Exodus 4): 'behold, they will not believe me,' etc.,",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l04"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "closing: and it is written: 'and behold, his hand was leprous like snow.' Then opens 'and all",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l04"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "continuing: this for': why this oath? Then opens 'so that he not",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: prepare it': the incense, a double handful, which is placed",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: on Yom Kippur on the coal-pan, as it is written (Leviticus 16):",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "continuing: 'and his hands full,' etc., 'and he shall put the incense",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "closing: on the fire,' etc. Then opens 'outside': in the Sanctuary, they would",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: place it on the fire, and afterward",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: bring it in, since they interpreted 'he shall not come, except",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: in a cloud' - 'for I appear in the cloud' (ibid.), and it is written",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: at the beginning of the verse: 'and he shall not come at just any time into",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: the sanctuary,' implying that only in the cloud of the incense's smoke",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "closing: should he come, and only then do I appear upon the Ark-cover. Then opens 'from his nose' -",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: since it is the first of his limbs to enter the house, since",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: it protrudes ahead of him, as is also said in tractate",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: Shevuot (17b): one who enters a house afflicted with tzara'at",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: backward, and even if his whole body entered except",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: his nose, he remains pure - from which it follows that one who comes",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "closing: backward has his nose enter last. Then opens 'he taught",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: it to Chiyya bar Rav: Rabbi Zecharya ben",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l22"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "closing: Kefutal' - with a peh. and Rav gestured to him with a bet,",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l22"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "closing: making a sign to him that it is Kevutal, with a bet.",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l22"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "Opens 'he shall hint, he shall wink, he shall point': these are all one and the same expression",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: except that this one applies to the eyes and that one",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: applies to the fingers, as it is said (Proverbs 6):",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: 'he winks with his eyes, shuffles with his feet, points",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "closing: with his fingers.' Then opens 'in the first paragraph of the Shema': it requires",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l33"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: concentration, as it is said concerning it (Deuteronomy 6): 'and these",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l33"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "closing: words shall be upon your heart.' Then opens 'in them': you must",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l33"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "continuing: make audible what you utter",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l34"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "closing: from your mouth.' Then opens 'but not in prayer': since prayer is said in a whisper,",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l34"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "continuing: as it is said (I Samuel 1): 'and her voice could not be heard' - so",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l34"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "closing: I found in the She'iltot of Rav Achai Gaon.",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l34"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "Then opens 'in them' again: words of Torah. Then opens 'and not in matters",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l34"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "closing: of another kind': the chatter of children and levity.",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l34"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Opens 'no man shall be able to speak': he has no permission.",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l36"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Then opens 'Mishnah: with the tzeradah finger': explained",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "closing: in the Gemara.' Then opens 'and walk about': stroll to dispel the sleep",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "continuing: from your eyes - 'arise and walk about once, dance for us",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "continuing: once on the floor,' to dispel",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "closing: your sleep, and the Gemara explains what this is.",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "Then opens 'and they occupy him': with their strolling",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "continuing: and their walking about, so that he not sleep until",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "continuing: the time arrives for the slaughter of the morning daily-offering, which is",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "closing: at the break of dawn in the east.' Then opens 'Gemara: the rival of this one' -",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "continuing: the rival of this finger, let it become a rival",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "continuing: to that one; and what is this? This thumb, against the finger",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "continuing: next to the thumb - he would join it to the thumb",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "continuing: firmly, then release it suddenly and strike it against his palm,",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "closing: and the sound was heard.' Then opens 'throughout the whole study hall' -",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "closing: the house of study.' Then opens 'something novel': in the manner of",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l44"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "closing: novelty he showed us.' Then opens 'he demonstrated the kidah bow' -",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l44"
-      ]
-    },
-    {
-      "vilnaLine": 60,
-      "en": "continuing: he plants his thumbs on the ground and bends over and kisses",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l44"
-      ]
-    },
-    {
-      "vilnaLine": 61,
-      "en": "continuing: the floor and stands up - thus it is explained in tractate",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l44"
-      ]
-    },
-    {
-      "vilnaLine": 62,
-      "en": "closing: Sukkah (53a).' Then opens 'but rather with the mouth': they would",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l45"
-      ]
-    },
-    {
-      "vilnaLine": 63,
-      "en": "closing: sing before him.' Then opens 'if the Lord does not build",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l45"
-      ]
-    },
-    {
-      "vilnaLine": 64,
-      "en": "continuing: the house,' etc.: meaning, be careful in your service",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l45"
-      ]
-    },
-    {
-      "vilnaLine": 65,
-      "en": "continuing: that it be for the sake of Heaven, that it be acceptable,",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l45"
-      ]
-    },
-    {
-      "vilnaLine": 66,
-      "en": "closing: for if it is not acceptable, your effort amounts to nothing.' Then opens 'in vain do its builders labor on it': for nothing do they toil on a building that will not endure.' Then opens 'from the notables of Jerusalem': from the prominent people of Jerusalem, who would do",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l45"
-      ]
-    },
-    {
-      "vilnaLine": 67,
-      "en": "closing: so, in that they would not sleep.' Then opens 'except that they would sin': men and women would mingle together in play and come to transgression.' Then opens 'the interpretation': as for this teaching about the outlying towns, where did they sin? In Neharde'a.",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l47"
-      ]
-    },
-    {
-      "vilnaLine": 68,
-      "en": "Opens 'sin crouches at the door' -",
-      "linkedGemaraLineIds": [
-        "yoma-019b-l49"
-      ]
+   ],
+   "topicTags": [
+    "Kriat Shema",
+    "Rav",
+    "hand signals",
+    "first paragraph",
+    "second paragraph",
+    "bam",
+    "interruption rules"
+   ],
+   "concepts": [
+    {
+     "term": "bam",
+     "def": "'In them' - from 've-dibartem bam' (Deuteronomy 6:7). The Talmud reads 'bam' as 'with them [in your mouth],' requiring Shema to be recited audibly enough to hear oneself."
+    },
+    {
+     "term": "kavanah",
+     "def": "Intention/concentration. Required during the first paragraph of Shema (at minimum the first verse 'Shema Yisrael')."
     }
-  ]
+   ],
+   "conceptRefs": [
+    "Yoma.19b.7",
+    "Yoma.19b.8"
+   ],
+   "requiresUnderstanding": [
+    "The structure of Kriat Shema (first and second paragraphs)",
+    "The rules about audible vs silent prayer"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Any physical action during Shema counts as an interruption, since the first paragraph demands full concentration.",
+     "correction": "The Gemara derives the interruption prohibition from 'bam,' which ties it to speech specifically. Gestures involve no speech, so they fall outside the prohibition even in the strict first paragraph."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "desc": "Two columns: permitted during first paragraph (gestures, thoughts) vs forbidden (any speech except life-threatening need); same for second paragraph with slightly more flexibility"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why is Rav's hand signal during Shema not considered an interruption?",
+     "answer": "The prohibition on interrupting Shema applies to speech; the verse 've-dibartem bam' refers to the mouth. Gestures do not involve the mouth and are not speech, so they do not constitute a forbidden interruption."
+    },
+    {
+     "question": "What does 'bam' teach about how Shema must be recited, and what does that imply about a silent recitation?",
+     "answer": "'Bam' (in them) means with your mouth, so the recitation must be spoken aloud and audible to oneself. A purely silent Shema does not satisfy this reading of the verse."
+    }
+   ],
+   "finalRuling": "Hand signals during Shema: permitted (not speech). First paragraph: must be recited audibly. Second paragraph: same rules with slightly more flexibility for greetings.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "בָּם",
+     "translit": "bam",
+     "en": "'In them' - from ve-dibartem bam. Interpreted as requiring Shema to be recited orally and audibly."
+    },
+    {
+     "he": "כַּוָּנָה",
+     "translit": "kavanah",
+     "en": "Intention/concentration during prayer. Required for Shema's first verse at minimum."
+    }
+   ],
+   "review": {
+    "content": "ai_generated",
+    "sourceRefs": "ai_generated"
+   }
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-19b-s03",
+   "lineRange": {
+    "startVilnaLine": 40,
+    "endVilnaLine": 49
+   },
+   "lines": [
+    {
+     "vilnaLine": 40,
+     "sefariaRef": "Yoma.19b.11"
+    },
+    {
+     "vilnaLine": 42,
+     "sefariaRef": "Yoma.19b.12"
+    },
+    {
+     "vilnaLine": 44,
+     "sefariaRef": "Yoma.19b.13"
+    },
+    {
+     "vilnaLine": 45,
+     "sefariaRef": "Yoma.19b.14"
+    },
+    {
+     "vilnaLine": 47,
+     "sefariaRef": "Yoma.19b.15"
+    },
+    {
+     "vilnaLine": 49,
+     "sefariaRef": "Yoma.19b.16"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.19b.11",
+    "Yoma.19b.12",
+    "Yoma.19b.13",
+    "Yoma.19b.14",
+    "Yoma.19b.15",
+    "Yoma.19b.16"
+   ],
+   "display": {
+    "title": "Defining the vigil, term by term: tzarda, kidda, and the Psalm that explains the night",
+    "whats": "The Mishna describing how the young priests kept the KG awake all night is quoted and explained. 'Tzarda' (the snapping finger) is identified. The young priests would snap fingers, walk the KG around the Temple floor, make him dance briefly, recite psalms, and generally keep him entertained and alert. The page ends with a description of what they would do with the KG in the early morning hours when the time for the tamid slaughter approached.",
+    "hint": "This mishna is remarkably humanizing: the highest religious figure in Israel being kept awake by young priests who snap fingers, dance, and even play - all to fulfill the crucial halakhic requirement that he not sleep. The absurdity and necessity coexist."
+   },
+   "learning": {
+    "learnerQuestion": "The Mishna lists vivid but cryptic vigil techniques, tzarda, kidda, walking, singing. What did each of these actually involve, and why specifically these methods?",
+    "coreTension": "The Mishna's terse vocabulary names techniques without describing them, leaving a reader unable to picture what the young priests actually did or why a psalm about builders fits into an all-night vigil.",
+    "coreMove": "The Gemara works through the Mishna's terms one by one: tzarda is identified as a literal finger-snap (index finger against the thumb base, released sharply) used to startle a dozing KG; the cold floor walk and the difficult kidda bow are described as physical alertness techniques; Psalm 127 is read as a charge that the night's labor is wasted without sincere intention; and the vigil ends with the formal dawn announcement that opens the tamid slaughter.",
+    "resolution": "Each vigil method now has a concrete definition: tzarda (finger-snap to startle), the cold stone floor walk, kidda (a difficult toe-bow), and Psalm 127 (a reminder that insincere service accomplishes nothing), all running until the Hebron-light announcement signals the tamid slaughter can begin.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "A Mishna's compressed, almost playful vocabulary can describe a serious halakhic requirement. Unpacking each term precisely, rather than reading past it as color, is what turns the passage from anecdote into a working description of practice."
+    },
+    "ahaMoment": "The 'tzarda' (finger-snap) moment is the Talmud at its most human: the holiest person in Israel being jolted awake by young priests snapping fingers because everyone understands the stakes of him falling asleep.",
+    "learningBlocker": "Learners read 'tzarda,' 'kidda,' and the Psalm as charming background detail and move on, missing that the Gemara is doing careful definitional work, pinning down exactly what each unfamiliar Mishnaic term physically meant.",
+    "memoryAnchor": "Tzarda = index finger against thumb, snap. KG entertained all night: dancing, floor-walking, kidda bow. Dawn arrives: tamid time begins."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "identification",
+     "label": "'Tzarda' = index finger snap",
+     "speaker": "Gemara",
+     "text": "'Tzarda' is the finger adjacent to the thumb (the index finger). The priest presses it hard against the base of the thumb and releases - creating a sharp snapping sound when the fingers hit the palm.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19b-l40",
+       "vilnaLine": 40,
+       "note": "Identification of the tzarda finger-snap"
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "description",
+     "label": "Young priests entertain the KG all night",
+     "speaker": "Gemara",
+     "text": "The young priests would show the KG novel things (Torah insights, entertainment), have him do a 'kidda' bow (touching ground with toes, bowing to kiss the floor, then standing straight), sing songs, and generally keep him engaged through the night.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19b-l42",
+       "vilnaLine": 42,
+       "note": "Entertainment methods during the vigil"
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "description",
+     "label": "Walking on the cold Temple floor",
+     "speaker": "Gemara",
+     "text": "The priests would have the KG stand and walk on the cold stone floor of the Temple ('al gavia') barefoot (as required during the Yom Kippur service). The cold contact helped keep him alert.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19b-l44",
+       "vilnaLine": 44,
+       "note": "Walking on cold floor to stay awake"
+      }
+     ]
+    },
+    {
+     "id": "step-04",
+     "type": "quotation",
+     "label": "Psalm sung to the KG: 'If God does not build the house...'",
+     "speaker": "Gemara",
+     "text": "The priests sang Psalm 127 ('If God does not build the house, in vain do its builders toil') to the KG as a reminder: the Yom Kippur service is only efficacious if done for the sake of Heaven. If not sincere, the effort is wasted.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19b-l45",
+       "vilnaLine": 45,
+       "note": "Psalm 127 sung to KG"
+      }
+     ]
+    },
+    {
+     "id": "step-05",
+     "type": "description",
+     "label": "Why they were said to be 'sinning'",
+     "speaker": "Gemara",
+     "text": "The Mishna says 'they did not sleep - but they were sinning.' This refers to the mixed-gender (men and women together) Simchat Beit HaShoeva celebrations that occurred in the Temple court during Sukkot - the merriment there led to improper behavior.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19b-l47",
+       "vilnaLine": 47,
+       "note": "Explanation of 'sinning' during the vigil"
+      }
+     ]
+    },
+    {
+     "id": "step-06",
+     "type": "description",
+     "label": "Dawn arrives: Tamid slaughter time",
+     "speaker": "Gemara",
+     "text": "As dawn approaches, the acting overseer asks: 'Has the morning light reached Hebron?' When confirmed, the Yom Kippur day formally begins with the slaughter of the daily tamid offering.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19b-l49",
+       "vilnaLine": 49,
+       "note": "Dawn announcement and tamid slaughter"
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "vigil methods",
+    "tzarda",
+    "young priests",
+    "kidda",
+    "Psalm 127",
+    "tamid",
+    "dawn announcement",
+    "KG all-night preparation"
+   ],
+   "concepts": [
+    {
+     "term": "tzarda",
+     "def": "The finger-snap technique: pressing the index finger hard against the thumb base and releasing sharply, creating a loud snap. Used by young priests to startle the KG awake if he dozed."
+    },
+    {
+     "term": "kidda",
+     "def": "A prostration technique: the person presses their big toes to the ground and bows forward until their face nearly touches the floor, then rises. Said to be a uniquely difficult bow that the Beit Gamliels could perform."
+    }
+   ],
+   "conceptRefs": [
+    "Yoma.19b.11",
+    "Yoma.19b.13",
+    "Yoma.19b.15"
+   ],
+   "requiresUnderstanding": [
+    "The all-night KG vigil from 18b",
+    "The tamid service and its dawn-announcement system"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "'They were sinning' refers to the young priests' methods of keeping the KG awake.",
+     "correction": "It refers to the Sukkot Simchat Beit HaShoeva celebrations, where men and women mingled in the Temple courtyard, leading to improper behavior. It has nothing to do with the vigil techniques themselves."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-18b-s02",
+    "yoma-19b-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "desc": "All-night vigil: midnight - priests snap tzarda fingers if KG dozes; 2am - KG walks floor barefoot; 3am - priests show Torah insights and sing Psalm 127; dawn - 'has the light reached Hebron?' announcement"
+    },
+    {
+     "type": "person",
+     "desc": "The 'kidda' bow: person pressing big toes to ground and bowing forward to near-floor level, then rising"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What is the 'tzarda' and how was it used during the KG's all-night vigil?",
+     "answer": "The 'tzarda' is a finger-snap: pressing the index finger hard against the thumb base and releasing with a sharp snap. The young priests used this sound to startle the KG awake if he showed signs of dozing."
+    },
+    {
+     "question": "What psalm did the priests sing to the KG during the all-night vigil, and what point did it make?",
+     "answer": "Psalm 127, 'If God does not build the house, in vain do its builders toil.' It reminded the KG that the Yom Kippur service is only effective if performed with sincere intention for Heaven's sake."
+    }
+   ],
+   "finalRuling": "The vigil continues until dawn when the tamid slaughter begins. All methods (finger-snap, floor-walking, Torah study, Psalm singing) are legitimate and permitted.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "צָרְדָּא",
+     "translit": "tzarda",
+     "en": "The index finger snap - pressing finger against thumb base and releasing. Used to keep the KG awake."
+    },
+    {
+     "he": "קִידָּה",
+     "translit": "kidda",
+     "en": "A prostration: pressing big toes to the ground and bowing forward to near-floor, then rising. A uniquely difficult bow."
+    }
+   ],
+   "review": {
+    "content": "ai_generated",
+    "sourceRefs": "ai_generated"
+   }
+  }
+ ],
+ "glossary": [
+  {
+   "he": "צְדוּקִים",
+   "translit": "Tzedokim",
+   "en": "Sadducees - a Second Temple sect that rejected the oral Torah. Their incense practice: light outside before entering the Holy of Holies."
+  },
+  {
+   "he": "פְּרוּשִׁים",
+   "translit": "Perushim",
+   "en": "Pharisees - the rabbinic tradition. Their incense ruling: the fire is placed on the coals inside the Holy of Holies, after entry."
+  },
+  {
+   "he": "בָּם",
+   "translit": "bam",
+   "en": "'In them' - from ve-dibartem bam. Interpreted as requiring Shema to be recited orally and audibly."
+  },
+  {
+   "he": "כַּוָּנָה",
+   "translit": "kavanah",
+   "en": "Intention/concentration during prayer. Required for Shema's first verse at minimum."
+  },
+  {
+   "he": "צָרְדָּא",
+   "translit": "tzarda",
+   "en": "The index finger snap - pressing finger against thumb base and releasing. Used to keep the KG awake."
+  },
+  {
+   "he": "קִידָּה",
+   "translit": "kidda",
+   "en": "A prostration: pressing big toes to the ground and bowing forward to near-floor, then rising. A uniquely difficult bow."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'This is what they say to him' - this that they say to him, 'you are our agent,' is not said regarding the service",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "itself, but rather regarding the acceptance of the oath - meaning, not according to the intention in your heart; if",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "you should come to deceive in accepting the oath, we administer it to you according to our understanding and the understanding of",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "the court. 'They suspected him of being a Sadducee' - of preparing the incense and placing it on the coal-pan of",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l01",
+    "yoma-019b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "fire in the Sanctuary, and bringing it in afterward to the",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "Holy of Holies, since that is what the Sadducees say,",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "as explained further on. 'One who suspects the innocent is stricken in his body' -",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "as it is written (Exodus 4), 'behold, they will not believe me,' etc.,",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "and it is written, 'and behold, his hand was leprous like snow.' 'And all",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l04",
+    "yoma-019b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "this for' - why this oath? 'So that he not",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "prepare it' - the incense, a double handful, which is placed",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "on Yom Kippur on the coal-pan, as it is written (Leviticus 16),",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "'and his hands full,' etc., 'and he shall put the incense",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "on the fire,' etc. 'Outside' - in the Sanctuary, they",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "would place it, the Sadducees, on the fire, and afterward",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "bring it in, since they interpreted, 'he shall not come, except",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "in a cloud, for I appear in the cloud' (ibid.), and it is written",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "at the beginning of the verse, 'and he shall not come at just any time into",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "the sanctuary,' implying that only in the cloud of the incense's smoke",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "should he come, and only then do I appear upon the Ark-cover. 'From his nose' -",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l07",
+    "yoma-019b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "since it is the first of his limbs to enter the house, since",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "it protrudes ahead of him, as is also said in tractate",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "Shevuot (17b): one who enters a house afflicted with tzara'at",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "backward, and even if his whole body entered except",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "his nose, he remains pure - from which it follows that one who comes",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "backward has his nose enter last. 'He taught",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l16",
+    "yoma-019b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "it to Chiyya bar Rav: Rabbi Zecharya ben",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "Kefutal' - with a peh. And Rav gestured to him with a bet,",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "making a sign to him that it is Kevutal, with a bet",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "'He shall hint, he shall wink, he shall point' - these are all one and the same expression",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "except that this one applies to the eyes and that one",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "applies to the fingers, as it is said (Proverbs 6),",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "'he winks with his eyes, shuffles with his feet, points",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "with his fingers.' 'In the first paragraph' - it requires",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l26",
+    "yoma-019b-l33"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "concentration, as it is said concerning it (Deuteronomy 6), 'and these",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l33"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "words shall be upon your heart.' 'In them' - you must",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l33",
+    "yoma-019b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "make audible what you utter",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "from your mouth. 'But not in prayer' - since prayer is said in a whisper,",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "as it is said (I Samuel 1), 'and her voice could not be heard' - so",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "I found in the She'iltot of Rav Achai Gaon",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "'In them' - words of Torah. 'And not in matters",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "of another kind' - the chatter of children and levity",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "'No man shall be able to speak' - he has no permission",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l36"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "Mishna: 'The tzeradah finger' - explained",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "in the Gemara. 'And walk about' - stroll to dispel the sleep",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "from your eyes: 'arise and walk about once, dance for us",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "once on the floor,' to dispel",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "your sleep, and the Gemara explains what this is",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "'And they occupy him' - with their strolling",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "and their walking about, so that he not sleep until",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "the time arrives for the slaughter of the morning daily-offering, which is",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "at the break of dawn in the east. Gemara: 'The rival of this one' -",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l40",
+    "yoma-019b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "the rival of this finger, let it become a rival",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "to that one; and what is this? This thumb, against the finger",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "next to the thumb - he would join it to the thumb",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "firmly, then release it suddenly and strike it against his palm,",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "and the sound was heard. 'Throughout the whole study hall' -",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "the house of study. 'Something novel' - in the manner of",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l42",
+    "yoma-019b-l44"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "novelty he showed us. 'He demonstrated the kidah bow' -",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l44"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "he plants his thumbs on the ground and bends over and kisses",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l44"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "the floor and stands up - thus it is explained in tractate",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l44"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "Sukkah (53a). 'But rather with the mouth' - they would",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l44",
+    "yoma-019b-l45"
+   ]
+  },
+  {
+   "vilnaLine": 63,
+   "en": "sing before him. 'If the Lord does not build",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l45"
+   ]
+  },
+  {
+   "vilnaLine": 64,
+   "en": "the house,' etc. - meaning, be careful in your service",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l45"
+   ]
+  },
+  {
+   "vilnaLine": 65,
+   "en": "that it be for the sake of Heaven, that it be acceptable,",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l45"
+   ]
+  },
+  {
+   "vilnaLine": 66,
+   "en": "for if it is not acceptable, your effort amounts to nothing. 'In vain do its builders labor on it' - for nothing do they toil on a building that will not endure. 'From the notables of Jerusalem' - from the prominent people of Jerusalem, who would do",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l45",
+    "yoma-019b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 67,
+   "en": "so, in that they would not sleep. 'Except that they would sin' - men and women would mingle together in play and come to transgression. 'The interpretation' - as for this teaching about the outlying towns, where did they sin? In Neharde'a",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l47",
+    "yoma-019b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 68,
+   "en": "'At the door' - the daf ends mid-word here; the comment (explaining that the evil inclination makes a person sin against their will) continues on 20a.",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l49"
+   ]
+  }
+ ]
 }
