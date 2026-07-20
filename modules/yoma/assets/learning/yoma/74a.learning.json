@@ -1,884 +1,999 @@
 {
-  "canonicalRef": "Yoma 74a",
-  "summary": "Continuation of the chatzi shi'ur dispute and its implications for oaths. The Gemara explores Rabbi Akiva's view that oaths can prohibit any amount, what excludes a gambler from testimony, and the full chatzi shi'ur dispute with proofs from a baraita about the koy.",
-  "sugyot": [
+ "canonicalRef": "Yoma 74a",
+ "summary": "Continuation of the chatzi shi'ur dispute and its implications for oaths. The Gemara explores Rabbi Akiva's view that oaths can prohibit any amount, what excludes a gambler from testimony, and the full chatzi shi'ur dispute with proofs from a baraita about the koy.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-074a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 10
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-074a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 10
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.74a.1"
-        },
-        {
-          "vilnaLine": 2,
-          "sefariaRef": "Yoma.74a.2"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.74a.3"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.74a.4"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.74a.1",
-        "Yoma.74a.2",
-        "Yoma.74a.3",
-        "Yoma.74a.4"
-      ],
-      "display": {
-        "whats": "Oath on Yom Kippur eating: Rabbi Akiva's view and the gambler exclusion",
-        "hint": "Can an oath create a new eating prohibition even when Torah permits a half-measure?",
-        "title": "R. Akiva and the Half-Measure Oath Problem"
-      },
-      "learning": {
-        "ahaMoment": "Rabbi Akiva's position allows oaths to apply even to half-measures, solving the oath-conflict problem Reish Lakish faced.",
-        "memoryAnchor": "A gambler's exclusion from testimony appears here as a legal footnote - the verse requires someone who can make declarations.",
-        "learnerQuestion": "How does R. Akiva's position on oaths resolve the question of whether an oath can validly apply to a half-measure of Yom Kippur food?",
-        "coreTension": "A half-measure of Yom Kippur food is not punishable by karet. Can an oath even apply to eating such an amount? And what does the gambler's exclusion from testimony have to do with this discussion?",
-        "coreMove": "R. Akiva holds that oaths can restrict even Torah-permitted amounts. This means an oath not to eat any Yom Kippur food is valid even for sub-karet amounts like the half-measure. The gambler's exclusion from testimony appears as a legal data point in the surrounding analysis about oaths and their scope.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "R. Akiva's broad view of oaths extends them to Torah-permitted amounts, making the half-measure oath valid. Without this position, an oath not to eat any Yom Kippur food would have no operative effect for the sub-karet amount."
-        },
-        "learningBlocker": "Students may assume oaths can only apply to halachically significant amounts (those carrying penalties). R. Akiva extends oaths to amounts below the karet threshold, giving oaths broader reach than the underlying prohibition."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-074a-l01",
-          "type": "ruling",
-          "label": "Rabbi Akiva: oaths apply to any amount",
-          "speaker": "Rabbi Akiva",
-          "text": "Even what Torah permits can be self-forbidden by oath",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-074a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "id": "yoma-074a-l02",
-          "type": "ruling",
-          "label": "Oath may not override Torah permit",
-          "speaker": "Gemara",
-          "text": "If Torah says permitted, can oath re-prohibit?",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-074a-l02",
-              "vilnaLine": 2
-            }
-          ]
-        },
-        {
-          "id": "yoma-074a-l03",
-          "type": "ruling",
-          "label": "Gambler excluded from testimony",
-          "speaker": "Rav Acha bar Yaakov",
-          "text": "The oath-formula verse excludes those unfit to testify",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-074a-l03",
-              "vilnaLine": 6
-            }
-          ]
-        },
-        {
-          "id": "yoma-074a-l04",
-          "type": "ruling",
-          "label": "Gambler: not fit for declarations",
-          "speaker": "Gemara",
-          "text": "'If he does not tell' - gambler is excluded",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-074a-l04",
-              "vilnaLine": 10
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "chatzi-shi'ur",
-        "oaths",
-        "gambler-testimony"
-      ],
-      "concepts": {
-        "halachic": [
-          "Rabbi Akiva: oaths can restrict amounts Torah permits",
-          "gamblers unfit as witnesses for oaths"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "description": "Argument flow",
-          "role": "anchor",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "How does Rabbi Akiva's view resolve the oath problem with chatzi shi'ur?",
-          "answer": "Rabbi Akiva holds oaths can restrict even Torah-permitted amounts, so an oath not to eat any Yom Kippur food is valid even for half-measures",
-          "sourceRefs": []
-        }
-      ],
-      "finalRuling": "Rabbi Akiva resolves the oath problem: oaths can apply to any amount.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.74a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-074a-s02",
-      "lineRange": {
-        "startVilnaLine": 11,
-        "endVilnaLine": 19
-      },
-      "lines": [
-        {
-          "vilnaLine": 11,
-          "sefariaRef": "Yoma.74a.5"
-        },
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.74a.6"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.74a.5",
-        "Yoma.74a.6"
-      ],
-      "display": {
-        "whats": "Full chatzi shi'ur dispute with proof from baraita and koy",
-        "hint": "What evidence does each side bring for whether chatzi shi'ur is forbidden by Torah or rabbinically?",
-        "title": "Chatzi Shi'ur: Biblical or Rabbinic? The Core Dispute"
-      },
-      "learning": {
-        "ahaMoment": "Two separate questions are easy to blur into one: whether the mishna's 'forbidden' covers the half-measure at all, and whether that coverage is Torah-level or only rabbinic. The mishna's own wording settles only the first.",
-        "memoryAnchor": "Two questions, not one: does 'forbidden' reach the half-measure (yes), and is that reach biblical or rabbinic (still disputed).",
-        "learnerQuestion": "Is eating a half-measure (chatzi shi'ur) of Yom Kippur food prohibited by Torah law or only rabbinically, and what is the basis for each position?",
-        "coreTension": "Karet applies only to a full measure. What is the status of a half-measure - is there a Torah-level prohibition, or only rabbinic protection? And does the Mishnah's word 'forbidden' resolve this?",
-        "coreMove": "R. Yochanan holds chatzi shi'ur is a Torah prohibition because the Torah forbids 'any' eating. Reish Lakish holds it is only rabbinic since there is no karet for it. The Mishnah's word 'forbidden' adds content beyond the karet verse - covering the half-measure - but does not resolve the level (biblical vs. rabbinic) of the prohibition.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The chatzi shi'ur dispute is foundational: R. Yochanan makes the half-measure biblically prohibited; Reish Lakish makes it rabbinic. The Mishnah's 'forbidden' establishes scope (half-measures are included) but leaves the level to be argued by the amoraim."
-        },
-        "learningBlocker": "Students may conflate the scope question (does 'forbidden' cover half-measures?) with the level question (is the prohibition biblical or rabbinic?). These are two separate questions, and the Mishnah only answers the first."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-074a-l06",
-          "type": "ruling",
-          "label": "Karet always implies forbidden",
-          "speaker": "Gemara",
-          "text": "But here mishna needs to teach the half-measure case",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-074a-l06",
-              "vilnaLine": 19
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "chatzi-shi'ur",
-        "karet",
-        "forbidden",
-        "koy"
-      ],
-      "concepts": {
-        "halachic": [
-          "chatzi shi'ur: Torah (Rabbi Yochanan) vs rabbinic (Reish Lakish)",
-          "mishna's 'forbidden' adds information beyond 'karet'"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "description": "Argument flow",
-          "role": "anchor",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What does the mishna's use of 'forbidden' add over the word 'karet' in the context of Yom Kippur eating?",
-          "answer": "It teaches that even a chatzi shi'ur (half-measure) is forbidden, even though it is not punishable by karet",
-          "sourceRefs": []
-        }
-      ],
-      "finalRuling": "Chatzi shi'ur: Rabbi Yochanan holds Torah prohibition; Reish Lakish holds rabbinic. The mishna's 'forbidden' teaches the half-measure case.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 2,
+     "sefariaRef": "Yoma.74a.2"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-074a-s03",
-      "lineRange": {
-        "startVilnaLine": 22,
-        "endVilnaLine": 31
-      },
-      "lines": [
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.74a.7"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.74a.8"
-        },
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.74a.9"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.74a.7",
-        "Yoma.74a.8",
-        "Yoma.74a.9"
-      ],
-      "display": {
-        "whats": "Full chatzi shi'ur dispute with proof from baraita and koy",
-        "hint": "What evidence does each side bring for whether chatzi shi'ur is forbidden by Torah or rabbinically?",
-        "title": "Beyond Karet: What 'Forbidden' Adds to the Yom Kippur Eating Prohibition"
-      },
-      "learning": {
-        "ahaMoment": "Rabbi Yochanan does not just assert his position, he brings a baraita that limits liability language to the full measure, which only makes sense if the half-measure is still forbidden without karet. The koy citation then pulls the evidence back toward a rabbinic reading.",
-        "memoryAnchor": "A baraita about liability and a citation about the koy: two pieces of evidence pulling in opposite directions on whether chatzi shi'ur is Torah-level or rabbinic.",
-        "learnerQuestion": "What additional content does the Mishnah's word 'forbidden' contribute to the Yom Kippur eating prohibition, beyond the already-stated karet penalty?",
-        "coreTension": "The Torah imposes karet for eating on Yom Kippur. The Mishnah also uses the word 'forbidden.' If karet is already known, what independent content does 'forbidden' add?",
-        "coreMove": "The Mishnah's 'forbidden' extends the prohibition to amounts below the karet threshold - teaching that even a chatzi shi'ur (half-measure) is forbidden even though it carries no karet. The word creates a distinct prohibition layer: full-measure eating triggers karet; sub-karet amounts are separately 'forbidden.'",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The Mishnah's 'forbidden' adds an independent prohibition layer below karet. This creates a two-tier structure: karet for full-measure willful eating, a separate prohibition status for the half-measure."
-        },
-        "learningBlocker": "Students may read 'forbidden' as simply restating the karet prohibition in milder terms. The Gemara shows it carries independent legal content - covering amounts that the karet verse alone would not reach."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-074a-l07",
-          "type": "ruling",
-          "label": "Chatzi shi'ur dispute stated",
-          "speaker": "Gemara",
-          "text": "Rabbi Yochanan: Torah; Reish Lakish: rabbinic",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-074a-l07",
-              "vilnaLine": 22
-            }
-          ]
-        },
-        {
-          "id": "yoma-074a-l08",
-          "type": "ruling",
-          "label": "Rabbi Yochanan's baraita proof",
-          "speaker": "Rabbi Yochanan",
-          "text": "A baraita limits liability to the full measure - implies half is not Torah-exempt but is still prohibited",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-074a-l08",
-              "vilnaLine": 27
-            }
-          ]
-        },
-        {
-          "id": "yoma-074a-l09",
-          "type": "ruling",
-          "label": "Koy suggests rabbinic phrasing",
-          "speaker": "Gemara",
-          "text": "The baraita's koy case suggests the category is rabbinic",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-074a-l09",
-              "vilnaLine": 31
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "chatzi-shi'ur",
-        "karet",
-        "forbidden",
-        "koy"
-      ],
-      "concepts": {
-        "halachic": [
-          "chatzi shi'ur: Torah (Rabbi Yochanan) vs rabbinic (Reish Lakish)",
-          "mishna's 'forbidden' adds information beyond 'karet'"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "description": "Argument flow",
-          "role": "anchor",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What does the mishna's use of 'forbidden' add over the word 'karet' in the context of Yom Kippur eating?",
-          "answer": "It teaches that even a chatzi shi'ur (half-measure) is forbidden, even though it is not punishable by karet",
-          "sourceRefs": []
-        }
-      ],
-      "finalRuling": "Chatzi shi'ur: Rabbi Yochanan holds Torah prohibition; Reish Lakish holds rabbinic. The mishna's 'forbidden' teaches the half-measure case.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.74a.3"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.74a.4"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.74a.1",
+    "Yoma.74a.2",
+    "Yoma.74a.3",
+    "Yoma.74a.4"
+   ],
+   "display": {
+    "whats": "Oath on Yom Kippur eating: Rabbi Akiva's view and the gambler exclusion",
+    "hint": "Can an oath create a new eating prohibition even when Torah permits a half-measure?",
+    "title": "R. Akiva and the Half-Measure Oath Problem"
+   },
+   "learning": {
+    "ahaMoment": "Rabbi Akiva's position allows oaths to apply even to half-measures, solving the oath-conflict problem Reish Lakish faced.",
+    "memoryAnchor": "A gambler's exclusion from testimony appears here as a legal footnote - the verse requires someone who can make declarations.",
+    "learnerQuestion": "How does R. Akiva's position on oaths resolve the question of whether an oath can validly apply to a half-measure of Yom Kippur food?",
+    "coreTension": "A half-measure of Yom Kippur food is not punishable by karet. Can an oath even apply to eating such an amount? And what does the gambler's exclusion from testimony have to do with this discussion?",
+    "coreMove": "R. Akiva holds that oaths can restrict even Torah-permitted amounts. This means an oath not to eat any Yom Kippur food is valid even for sub-karet amounts like the half-measure. The gambler's exclusion from testimony appears as a legal data point in the surrounding analysis about oaths and their scope.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "R. Akiva's broad view of oaths extends them to Torah-permitted amounts, making the half-measure oath valid. Without this position, an oath not to eat any Yom Kippur food would have no operative effect for the sub-karet amount."
+    },
+    "learningBlocker": "Students may assume oaths can only apply to halachically significant amounts (those carrying penalties). R. Akiva extends oaths to amounts below the karet threshold, giving oaths broader reach than the underlying prohibition."
+   },
+   "argumentFlow": [
     {
-      "he": "כּוֹי",
-      "translit": "Koy",
-      "en": "An animal of uncertain classification (neither clearly domesticated nor wild), whose halakhic status is doubtful in several areas."
+     "id": "yoma-074a-l01",
+     "type": "ruling",
+     "label": "Rabbi Akiva: oaths apply to any amount",
+     "speaker": "Rabbi Akiva",
+     "text": "Even what Torah permits can be self-forbidden by oath",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-074a-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "he": "מְשַׂחֵק בְּקוּבְיָא",
-      "translit": "Mesachek be-kuvya",
-      "en": "A gambler; classified as unfit to testify in court under rabbinic law."
+     "id": "yoma-074a-l02",
+     "type": "ruling",
+     "label": "Oath may not override Torah permit",
+     "speaker": "Gemara",
+     "text": "If Torah says permitted, can oath re-prohibit?",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-074a-l02",
+       "vilnaLine": 2
+      }
+     ]
     },
     {
-      "he": "חַיָּב כָּרֵת",
-      "translit": "Chayav karet",
-      "en": "Liable for the karet penalty - the Talmud distinguishes between 'forbidden' (less than the measure) and 'liable for karet' (the full measure)."
+     "id": "yoma-074a-l03",
+     "type": "ruling",
+     "label": "Gambler excluded from testimony",
+     "speaker": "Rav Acha bar Yaakov",
+     "text": "The oath-formula verse excludes those unfit to testify",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-074a-l03",
+       "vilnaLine": 6
+      }
+     ]
+    },
+    {
+     "id": "yoma-074a-l04",
+     "type": "ruling",
+     "label": "Gambler: not fit for declarations",
+     "speaker": "Gemara",
+     "text": "'If he does not tell' - gambler is excluded",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-074a-l04",
+       "vilnaLine": 10
+      }
+     ]
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "topicTags": [
+    "chatzi-shi'ur",
+    "oaths",
+    "gambler-testimony"
+   ],
+   "concepts": {
+    "halachic": [
+     "Rabbi Akiva: oaths can restrict amounts Torah permits",
+     "gamblers unfit as witnesses for oaths"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [],
+   "relatedSugyot": [],
+   "visualizableElements": [
     {
-      "vilnaLine": 1,
-      "he": "ואליבא דר' עקיבא דאמר. במס' שבועות (דף יט:) אדם הנשבע שלא",
-      "en": "and according to Rabbi Akiva who says a person can forbid himself anything in any amount through an oath",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 2,
-      "he": "אוכל סתם אוסר עצמו בכל שהוא דהכי תנן שבועה שלא אוכל ואכל",
-      "en": "if you say: since half-measure has Torah permission, the oath-prohibition cannot take effect on it",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 3,
-      "he": "כל שהוא ר' עקיבא מחייב וחכמים פוטרים הלכך הא דקתני חייב אי",
-      "en": "Rav Acha bar Yaakov: 'any judge' excludes a gambler - a gambler is unfit to testify",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 4,
-      "he": "כרבנן סבירא ליה מוקמינן ליה במפרש ואי כרבי עקיבא סבירא",
-      "en": "it is different there because the verse says 'if he does not tell' - a gambler is unfit to make declarations",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "he": "ליה מוקמינן ליה אפי' בסתם ורבי",
-      "en": "anywhere the mishnah says 'punishable by karet' it also implies 'forbidden' - but here the opposite was needed",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "he": "שמעון פוטר ר' שמעון לטעמיה",
-      "en": "or say: when the mishna says 'forbidden' it refers to the additional items (the baraita list beyond karet)",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "he": "דאמר בכל שהוא נמי מושבע מסיני",
-      "en": "the chatzi shi'ur dispute itself: Rabbi Yochanan says forbidden by Torah; Reish Lakish says rabbinic",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "he": "הוא דתניא במסכת מכות (דף יז.)",
-      "en": "Rabbi Yochanan challenges Reish Lakish: a baraita says 'I only have one who ate the full amount' - implying the half is not included",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "he": "ר' שמעון אומר כל שהוא למכות ולא",
-      "en": "so too, it is reasonable to say this is rabbinic - a koy (uncertain species) is cited regarding blood",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "he": "אמרו כזית אלא לענין קרבן ואי",
-      "en": "[Rashi commentary on line 10]: אמרו כזית אלא לענין קרבן ואי",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "he": "סבירא ליה לריש לקיש דחצי שיעור",
-      "en": "[Rashi commentary on line 11]: סבירא ליה לריש לקיש דחצי שיעור",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "he": "אסור מדרבנן היכי מוקי לה להא",
-      "en": "[Rashi commentary on line 12]: אסור מדרבנן היכי מוקי לה להא",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "he": "דתני חייב באוכל חצי שיעור והרי אף",
-      "en": "[Rashi commentary on line 13]: דתני חייב באוכל חצי שיעור והרי אף",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "he": "עליו מושבע משום לאו דלא תסור",
-      "en": "[Rashi commentary on line 14]: עליו מושבע משום לאו דלא תסור",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "he": "(דברים יז) : וכי תימא כיון דאית ליה",
-      "en": "[Rashi commentary on line 15]: (דברים יז) : וכי תימא כיון דאית ליה",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "he": "היתר מן התורה. אין זה מושבע",
-      "en": "[Rashi commentary on line 16]: היתר מן התורה. אין זה מושבע",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "he": "מסיני וכי משתבע עליה חיילא שבועה",
-      "en": "[Rashi commentary on line 17]: מסיני וכי משתבע עליה חיילא שבועה",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "he": "ומיחייב עלה: שבועת העדות. שחייב",
-      "en": "[Rashi commentary on line 18]: ומיחייב עלה: שבועת העדות. שחייב",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "he": "הכתוב עליה קרבן שבועה שנאמר",
-      "en": "[Rashi commentary on line 19]: הכתוב עליה קרבן שבועה שנאמר",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "he": "(ויקרא ה) ושמעה קול אלה: והוינן",
-      "en": "[Rashi commentary on line 20]: (ויקרא ה) ושמעה קול אלה: והוינן",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "he": "בה למעוטי מאי. דלא תנן במתני'",
-      "en": "[Rashi commentary on line 21]: בה למעוטי מאי. דלא תנן במתני'",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "he": "בהדיא הא תנא ליה רישא נוהגת",
-      "en": "[Rashi commentary on line 22]: בהדיא הא תנא ליה רישא נוהגת",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "he": "באנשים ולא בנשים ברחוקים ולא",
-      "en": "[Rashi commentary on line 23]: באנשים ולא בנשים ברחוקים ולא",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "he": "בקרובים בכשרין ולא בפסולין:",
-      "en": "[Rashi commentary on line 24]: בקרובים בכשרין ולא בפסולין:",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "he": "למעוטי מלך. דתנן ביה (סנהדרין",
-      "en": "[Rashi commentary on line 25]: למעוטי מלך. דתנן ביה (סנהדרין",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "he": "דף יח.) לא מעיד ולא מעידין",
-      "en": "[Rashi commentary on line 26]: דף יח.) לא מעיד ולא מעידין",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "he": "אותו: למעוטי משחק בקוביא.",
-      "en": "[Rashi commentary on line 27]: אותו: למעוטי משחק בקוביא.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "he": "בעירבון דהוי גזלן מדרבנן ופסול",
-      "en": "[Rashi commentary on line 28]: בעירבון דהוי גזלן מדרבנן ופסול",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "he": "לעדות: מדאורייתא מיחזא חזי.",
-      "en": "[Rashi commentary on line 29]: לעדות: מדאורייתא מיחזא חזי.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "he": "דלא הוי גזלן דאורייתא אלא שגזל",
-      "en": "[Rashi commentary on line 30]: דלא הוי גזלן דאורייתא אלא שגזל",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "he": "מידו כמו ויגזל את החנית מיד המצרי",
-      "en": "[Rashi commentary on line 31]: מידו כמו ויגזל את החנית מיד המצרי",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "he": "(ש\"ב כג) כך מפרש בב\"ק (דף עט:):",
-      "en": "[Rashi commentary on line 32]: (ש\"ב כג) כך מפרש בב\"ק (דף עט:):",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "he": "אם לא יגיד. משמע מי שהגדה שלו",
-      "en": "[Rashi commentary on line 33]: אם לא יגיד. משמע מי שהגדה שלו",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "he": "מועלת לבעל הדין והאי לא מהניא",
-      "en": "[Rashi commentary on line 34]: מועלת לבעל הדין והאי לא מהניא",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "he": "הגדה דידיה הואיל ולא מקבלינן לה",
-      "en": "[Rashi commentary on line 35]: הגדה דידיה הואיל ולא מקבלינן לה",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "he": "מדרבנן: וכל היכא דענוש כרת לא",
-      "en": "[Rashi commentary on line 36]: מדרבנן: וכל היכא דענוש כרת לא",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "he": "תני אסור. דקשיא לך לעיל אסור",
-      "en": "[Rashi commentary on line 37]: תני אסור. דקשיא לך לעיל אסור",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "he": "ענוש כרת הוא: איבעית אימא כי",
-      "en": "[Rashi commentary on line 38]: ענוש כרת הוא: איבעית אימא כי",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "he": "קתני. מתניתין אשארא משום",
-      "en": "[Rashi commentary on line 39]: קתני. מתניתין אשארא משום",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "he": "רחיצה וסיכה דליכא כרת תנא אסור:",
-      "en": "[Rashi commentary on line 40]: רחיצה וסיכה דליכא כרת תנא אסור:",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "he": "שאר סיפרי. דלאו תורת כהנים ספר",
-      "en": "[Rashi commentary on line 41]: שאר סיפרי. דלאו תורת כהנים ספר",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "he": "וידבר ואלה הדברים: שבתון. וגבי",
-      "en": "[Rashi commentary on line 42]: וידבר ואלה הדברים: שבתון. וגבי",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "he": "עינוי כתיב וכי היכי דשבתון האמור",
-      "en": "[Rashi commentary on line 43]: עינוי כתיב וכי היכי דשבתון האמור",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "he": "בשבת אסמכו ביה רבנן שאר",
-      "en": "[Rashi commentary on line 44]: בשבת אסמכו ביה רבנן שאר",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "he": "מלאכות שלא היו במשכן ואינה",
-      "en": "[Rashi commentary on line 45]: מלאכות שלא היו במשכן ואינה",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "he": "מלאכה גמורה ה\"נ שבתון דגבי עינוי דכתיב שבתון הוא לכם ועניתם",
-      "en": "[Rashi commentary on line 46]: מלאכה גמורה ה\"נ שבתון דגבי עינוי דכתיב שבתון הוא לכם ועניתם",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "he": "להוסיף על עינוי אכילה ושתיה קאתי: אין לי אלא שישנו בעונש ישנו",
-      "en": "[Rashi commentary on line 47]: להוסיף על עינוי אכילה ושתיה קאתי: אין לי אלא שישנו בעונש ישנ",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "he": "באזהרה. גבי חלב קאי דעונשו ואזהרתו סמוכים זה לזה כל חלב",
-      "en": "[Rashi commentary on line 48]: באזהרה. גבי חלב קאי דעונשו ואזהרתו סמוכים זה לזה כל חלב",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "he": "שור וכשב ועז לא תאכלו הרי אזהרה וסמיך ליה כי כל אוכל חלב",
-      "en": "[Rashi commentary on line 49]: שור וכשב ועז לא תאכלו הרי אזהרה וסמיך ליה כי כל אוכל חלב",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "he": "מן הבהמה הרי עונש אין לי שיהא מוזהר אלא על כשיעור",
-      "en": "[Rashi commentary on line 50]: מן הבהמה הרי עונש אין לי שיהא מוזהר אלא על כשיעור",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "he": "שהוא ענוש עליו כרת דגבי עונש לא כתיב כל אחלב אלא",
-      "en": "[Rashi commentary on line 51]: שהוא ענוש עליו כרת דגבי עונש לא כתיב כל אחלב אלא",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 52,
-      "he": "אאוכל דכתיב כי כל אוכל חלב: כוי. שהוא ספק ואין בו כרת",
-      "en": "[Rashi commentary on line 52]: אאוכל דכתיב כי כל אוכל חלב: כוי. שהוא ספק ואין בו כרת",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 53,
-      "he": "וחצי שיעור שאינו בעונש מניין שהוא באזהרה: תלמוד לומר",
-      "en": "[Rashi commentary on line 53]: וחצי שיעור שאינו בעונש מניין שהוא באזהרה: תלמוד לומר",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 54,
-      "he": "כל חלב. לא תאכלו הכא כתיב כל אחלב כלומר אפילו כל שהוא:",
-      "en": "[Rashi commentary on line 54]: כל חלב. לא תאכלו הכא כתיב כל אחלב כלומר אפילו כל שהוא:",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 55,
-      "he": "אתא",
-      "en": "[Rashi commentary on line 55]: אתא",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
+     "type": "sequence",
+     "description": "Argument flow",
+     "role": "anchor",
+     "priority": 1
     }
-  ],
-  "review": "reviewed"
+   ],
+   "quizSeeds": [
+    {
+     "question": "How does Rabbi Akiva's view resolve the oath problem with chatzi shi'ur?",
+     "answer": "Rabbi Akiva holds oaths can restrict even Torah-permitted amounts, so an oath not to eat any Yom Kippur food is valid even for half-measures",
+     "sourceRefs": []
+    }
+   ],
+   "finalRuling": "Rabbi Akiva resolves the oath problem: oaths can apply to any amount.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-074a-s02",
+   "lineRange": {
+    "startVilnaLine": 11,
+    "endVilnaLine": 19
+   },
+   "lines": [
+    {
+     "vilnaLine": 11,
+     "sefariaRef": "Yoma.74a.5"
+    },
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.74a.6"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.74a.5",
+    "Yoma.74a.6"
+   ],
+   "display": {
+    "whats": "Full chatzi shi'ur dispute with proof from baraita and koy",
+    "hint": "What evidence does each side bring for whether chatzi shi'ur is forbidden by Torah or rabbinically?",
+    "title": "Chatzi Shi'ur: Biblical or Rabbinic? The Core Dispute"
+   },
+   "learning": {
+    "ahaMoment": "Two separate questions are easy to blur into one: whether the mishna's 'forbidden' covers the half-measure at all, and whether that coverage is Torah-level or only rabbinic. The mishna's own wording settles only the first.",
+    "memoryAnchor": "Two questions, not one: does 'forbidden' reach the half-measure (yes), and is that reach biblical or rabbinic (still disputed).",
+    "learnerQuestion": "Is eating a half-measure (chatzi shi'ur) of Yom Kippur food prohibited by Torah law or only rabbinically, and what is the basis for each position?",
+    "coreTension": "Karet applies only to a full measure. What is the status of a half-measure - is there a Torah-level prohibition, or only rabbinic protection? And does the Mishnah's word 'forbidden' resolve this?",
+    "coreMove": "R. Yochanan holds chatzi shi'ur is a Torah prohibition because the Torah forbids 'any' eating. Reish Lakish holds it is only rabbinic since there is no karet for it. The Mishnah's word 'forbidden' adds content beyond the karet verse - covering the half-measure - but does not resolve the level (biblical vs. rabbinic) of the prohibition.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The chatzi shi'ur dispute is foundational: R. Yochanan makes the half-measure biblically prohibited; Reish Lakish makes it rabbinic. The Mishnah's 'forbidden' establishes scope (half-measures are included) but leaves the level to be argued by the amoraim."
+    },
+    "learningBlocker": "Students may conflate the scope question (does 'forbidden' cover half-measures?) with the level question (is the prohibition biblical or rabbinic?). These are two separate questions, and the Mishnah only answers the first."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-074a-l06",
+     "type": "ruling",
+     "label": "Karet always implies forbidden",
+     "speaker": "Gemara",
+     "text": "But here mishna needs to teach the half-measure case",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-074a-l06",
+       "vilnaLine": 19
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "chatzi-shi'ur",
+    "karet",
+    "forbidden",
+    "koy"
+   ],
+   "concepts": {
+    "halachic": [
+     "chatzi shi'ur: Torah (Rabbi Yochanan) vs rabbinic (Reish Lakish)",
+     "mishna's 'forbidden' adds information beyond 'karet'"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "description": "Argument flow",
+     "role": "anchor",
+     "priority": 1
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What does the mishna's use of 'forbidden' add over the word 'karet' in the context of Yom Kippur eating?",
+     "answer": "It teaches that even a chatzi shi'ur (half-measure) is forbidden, even though it is not punishable by karet",
+     "sourceRefs": []
+    }
+   ],
+   "finalRuling": "Chatzi shi'ur: Rabbi Yochanan holds Torah prohibition; Reish Lakish holds rabbinic. The mishna's 'forbidden' teaches the half-measure case.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-074a-s03",
+   "lineRange": {
+    "startVilnaLine": 22,
+    "endVilnaLine": 31
+   },
+   "lines": [
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.74a.7"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.74a.8"
+    },
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.74a.9"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.74a.7",
+    "Yoma.74a.8",
+    "Yoma.74a.9"
+   ],
+   "display": {
+    "whats": "Full chatzi shi'ur dispute with proof from baraita and koy",
+    "hint": "What evidence does each side bring for whether chatzi shi'ur is forbidden by Torah or rabbinically?",
+    "title": "Beyond Karet: What 'Forbidden' Adds to the Yom Kippur Eating Prohibition"
+   },
+   "learning": {
+    "ahaMoment": "Rabbi Yochanan does not just assert his position, he brings a baraita that limits liability language to the full measure, which only makes sense if the half-measure is still forbidden without karet. The koy citation then pulls the evidence back toward a rabbinic reading.",
+    "memoryAnchor": "A baraita about liability and a citation about the koy: two pieces of evidence pulling in opposite directions on whether chatzi shi'ur is Torah-level or rabbinic.",
+    "learnerQuestion": "What additional content does the Mishnah's word 'forbidden' contribute to the Yom Kippur eating prohibition, beyond the already-stated karet penalty?",
+    "coreTension": "The Torah imposes karet for eating on Yom Kippur. The Mishnah also uses the word 'forbidden.' If karet is already known, what independent content does 'forbidden' add?",
+    "coreMove": "The Mishnah's 'forbidden' extends the prohibition to amounts below the karet threshold - teaching that even a chatzi shi'ur (half-measure) is forbidden even though it carries no karet. The word creates a distinct prohibition layer: full-measure eating triggers karet; sub-karet amounts are separately 'forbidden.'",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The Mishnah's 'forbidden' adds an independent prohibition layer below karet. This creates a two-tier structure: karet for full-measure willful eating, a separate prohibition status for the half-measure."
+    },
+    "learningBlocker": "Students may read 'forbidden' as simply restating the karet prohibition in milder terms. The Gemara shows it carries independent legal content - covering amounts that the karet verse alone would not reach."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-074a-l07",
+     "type": "ruling",
+     "label": "Chatzi shi'ur dispute stated",
+     "speaker": "Gemara",
+     "text": "Rabbi Yochanan: Torah; Reish Lakish: rabbinic",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-074a-l07",
+       "vilnaLine": 22
+      }
+     ]
+    },
+    {
+     "id": "yoma-074a-l08",
+     "type": "ruling",
+     "label": "Rabbi Yochanan's baraita proof",
+     "speaker": "Rabbi Yochanan",
+     "text": "A baraita limits liability to the full measure - implies half is not Torah-exempt but is still prohibited",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-074a-l08",
+       "vilnaLine": 27
+      }
+     ]
+    },
+    {
+     "id": "yoma-074a-l09",
+     "type": "ruling",
+     "label": "Koy suggests rabbinic phrasing",
+     "speaker": "Gemara",
+     "text": "The baraita's koy case suggests the category is rabbinic",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-074a-l09",
+       "vilnaLine": 31
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "chatzi-shi'ur",
+    "karet",
+    "forbidden",
+    "koy"
+   ],
+   "concepts": {
+    "halachic": [
+     "chatzi shi'ur: Torah (Rabbi Yochanan) vs rabbinic (Reish Lakish)",
+     "mishna's 'forbidden' adds information beyond 'karet'"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "description": "Argument flow",
+     "role": "anchor",
+     "priority": 1
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What does the mishna's use of 'forbidden' add over the word 'karet' in the context of Yom Kippur eating?",
+     "answer": "It teaches that even a chatzi shi'ur (half-measure) is forbidden, even though it is not punishable by karet",
+     "sourceRefs": []
+    }
+   ],
+   "finalRuling": "Chatzi shi'ur: Rabbi Yochanan holds Torah prohibition; Reish Lakish holds rabbinic. The mishna's 'forbidden' teaches the half-measure case.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [
+  {
+   "he": "כּוֹי",
+   "translit": "Koy",
+   "en": "An animal of uncertain classification (neither clearly domesticated nor wild), whose halakhic status is doubtful in several areas."
+  },
+  {
+   "he": "מְשַׂחֵק בְּקוּבְיָא",
+   "translit": "Mesachek be-kuvya",
+   "en": "A gambler; classified as unfit to testify in court under rabbinic law."
+  },
+  {
+   "he": "חַיָּב כָּרֵת",
+   "translit": "Chayav karet",
+   "en": "Liable for the karet penalty - the Talmud distinguishes between 'forbidden' (less than the measure) and 'liable for karet' (the full measure)."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "he": "ואליבא דר' עקיבא דאמר. במס' שבועות (דף יט:) אדם הנשבע שלא",
+   "en": "'And according to Rabbi Akiva who says' - in tractate Shevuot (19b): a person who swears, 'I will not",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "he": "אוכל סתם אוסר עצמו בכל שהוא דהכי תנן שבועה שלא אוכל ואכל",
+   "en": "eat' without specifying binds himself to any amount at all, for so we learned: one who swears, 'I will not eat,' and then eats",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "he": "כל שהוא ר' עקיבא מחייב וחכמים פוטרים הלכך הא דקתני חייב אי",
+   "en": "any amount at all, Rabbi Akiva obligates him and the Sages exempt him. Therefore, that which the mishna teaches 'liable,' if",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "he": "כרבנן סבירא ליה מוקמינן ליה במפרש ואי כרבי עקיבא סבירא",
+   "en": "it follows the Sages' view, we establish it as referring to one who specified; and if it follows Rabbi Akiva's view, we",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "he": "ליה מוקמינן ליה אפי' בסתם ורבי",
+   "en": "establish it even as an unspecified oath. And Rabbi",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "he": "שמעון פוטר ר' שמעון לטעמיה",
+   "en": "Shimon exempts him - Rabbi Shimon is consistent with his own reasoning,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "he": "דאמר בכל שהוא נמי מושבע מסיני",
+   "en": "for he says that even for any amount at all one is already bound from Sinai,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "he": "הוא דתניא במסכת מכות (דף יז.)",
+   "en": "as it is taught in tractate Makkot (17a):",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "he": "ר' שמעון אומר כל שהוא למכות ולא",
+   "en": "Rabbi Shimon says, any amount at all is punishable by lashes, and they did not",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "he": "אמרו כזית אלא לענין קרבן ואי",
+   "en": "say an olive's-worth except regarding an offering. And if",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "he": "סבירא ליה לריש לקיש דחצי שיעור",
+   "en": "Reish Lakish holds that a half-measure",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "he": "אסור מדרבנן היכי מוקי לה להא",
+   "en": "is forbidden only rabbinically, how does he establish this",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "he": "דתני חייב באוכל חצי שיעור והרי אף",
+   "en": "baraita that teaches one is liable for eating a half-measure, when he is also",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "he": "עליו מושבע משום לאו דלא תסור",
+   "en": "already bound by the prohibition of, 'you shall not deviate'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "he": "(דברים יז) : וכי תימא כיון דאית ליה",
+   "en": "(Deuteronomy 17)? 'And if you say, since it has",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l01",
+    "yoma-074a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "he": "היתר מן התורה. אין זה מושבע",
+   "en": "Torah permission' - this is not bound by oath",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "he": "מסיני וכי משתבע עליה חיילא שבועה",
+   "en": "from Sinai, so when he swears about it, does the oath take effect",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "he": "ומיחייב עלה: שבועת העדות. שחייב",
+   "en": "and does he become liable for it? 'The oath of testimony' - for",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "he": "הכתוב עליה קרבן שבועה שנאמר",
+   "en": "Scripture obligates an oath-offering for it, as it is stated",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "he": "(ויקרא ה) ושמעה קול אלה: והוינן",
+   "en": "(Leviticus 5), 'and he hears the voice of adjuration.' 'And we discussed",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "he": "בה למעוטי מאי. דלא תנן במתני'",
+   "en": "it: to exclude what' - since the mishna does not",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "he": "בהדיא הא תנא ליה רישא נוהגת",
+   "en": "explicitly teach this, but rather the first clause already taught that it applies",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "he": "באנשים ולא בנשים ברחוקים ולא",
+   "en": "to men and not women, to those unrelated and not",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "he": "בקרובים בכשרין ולא בפסולין:",
+   "en": "to relatives, to those fit and not to those unfit.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "he": "למעוטי מלך. דתנן ביה (סנהדרין",
+   "en": "'To exclude a king' - for we learned regarding him (Sanhedrin",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "he": "דף יח.) לא מעיד ולא מעידין",
+   "en": "18a) that he neither testifies nor is testified",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "he": "אותו: למעוטי משחק בקוביא.",
+   "en": "against. 'To exclude one who gambles with dice'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l02",
+    "yoma-074a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "he": "בעירבון דהוי גזלן מדרבנן ופסול",
+   "en": "- with a stake, since he is a robber rabbinically and unfit",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "he": "לעדות: מדאורייתא מיחזא חזי.",
+   "en": "for testimony. 'But by Torah law he is fit'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "he": "דלא הוי גזלן דאורייתא אלא שגזל",
+   "en": "- for he is not a robber by Torah law, but rather he seized",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "he": "מידו כמו ויגזל את החנית מיד המצרי",
+   "en": "it from his hand, like 'and he seized the spear from the Egyptian's hand'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "he": "(ש\"ב כג) כך מפרש בב\"ק (דף עט:):",
+   "en": "(II Samuel 23), as is explained in Bava Kamma (79b).",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "he": "אם לא יגיד. משמע מי שהגדה שלו",
+   "en": "'If he does not testify' - implying one whose testimony",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "he": "מועלת לבעל הדין והאי לא מהניא",
+   "en": "is effective for the litigant, whereas this one's testimony",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "he": "הגדה דידיה הואיל ולא מקבלינן לה",
+   "en": "does not avail, since we do not accept it",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "he": "מדרבנן: וכל היכא דענוש כרת לא",
+   "en": "rabbinically. 'And anywhere that punishable by karet is not",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l10",
+    "yoma-074a-l11"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "he": "תני אסור. דקשיא לך לעיל אסור",
+   "en": "taught as forbidden' - since it was difficult for you above, that forbidden",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l11"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "he": "ענוש כרת הוא: איבעית אימא כי",
+   "en": "is punishable by karet. 'If you wish, say: when",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l11",
+    "yoma-074a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "he": "קתני. מתניתין אשארא משום",
+   "en": "the mishna teaches' - it means the mishna refers to the rest, on account of",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "he": "רחיצה וסיכה דליכא כרת תנא אסור:",
+   "en": "bathing and anointing, which have no karet, it teaches 'forbidden.'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "he": "שאר סיפרי. דלאו תורת כהנים ספר",
+   "en": "'The other books' - meaning those that are not Torat Kohanim: the book",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "he": "וידבר ואלה הדברים: שבתון. וגבי",
+   "en": "of Vayikra and Devarim. 'Complete rest' - and regarding",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "he": "עינוי כתיב וכי היכי דשבתון האמור",
+   "en": "affliction it is written, and just as 'complete rest' stated",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "he": "בשבת אסמכו ביה רבנן שאר",
+   "en": "regarding Shabbat, the Sages supported through it the other",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "he": "מלאכות שלא היו במשכן ואינה",
+   "en": "labors that were not in the Tabernacle and are not",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "he": "מלאכה גמורה ה\"נ שבתון דגבי עינוי דכתיב שבתון הוא לכם ועניתם",
+   "en": "full labor, so too 'complete rest' regarding affliction, as it is written, 'it is a complete rest for you, and you shall afflict'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "he": "להוסיף על עינוי אכילה ושתיה קאתי: אין לי אלא שישנו בעונש ישנו",
+   "en": "comes to add beyond the affliction of eating and drinking. 'I would know only that whatever carries a punishment carries",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l19",
+    "yoma-074a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "he": "באזהרה. גבי חלב קאי דעונשו ואזהרתו סמוכים זה לזה כל חלב",
+   "en": "a warning' - this refers to forbidden fat, whose punishment and warning are adjacent to each other: 'all the fat",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "he": "שור וכשב ועז לא תאכלו הרי אזהרה וסמיך ליה כי כל אוכל חלב",
+   "en": "of an ox, sheep, or goat you shall not eat' - this is the warning, and adjacent to it, 'for whoever eats fat",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "he": "מן הבהמה הרי עונש אין לי שיהא מוזהר אלא על כשיעור",
+   "en": "of an animal' - this is the punishment; I would know he is warned only regarding the full measure",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "he": "שהוא ענוש עליו כרת דגבי עונש לא כתיב כל אחלב אלא",
+   "en": "for which he is punished with karet, since regarding the punishment it is not written 'all fat,' but rather",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "he": "אאוכל דכתיב כי כל אוכל חלב: כוי. שהוא ספק ואין בו כרת",
+   "en": "it is attached to 'whoever eats,' as it is written, 'for whoever eats fat.' 'A koy' - which is of uncertain status and carries no karet,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "he": "וחצי שיעור שאינו בעונש מניין שהוא באזהרה: תלמוד לומר",
+   "en": "and a half-measure, which carries no punishment, from where do we know it carries a warning? 'The verse teaches,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "he": "כל חלב. לא תאכלו הכא כתיב כל אחלב כלומר אפילו כל שהוא:",
+   "en": "all fat, you shall not eat' - here it is written 'all fat,' meaning even any amount at all.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "he": "אתא",
+   "en": "'The verse comes' - the daf ends mid-word here; the comment (explaining that the verse comes to include the case of the uncertain koy species) continues on 74b.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-074a-l31"
+   ]
+  }
+ ],
+ "review": "reviewed"
 }
