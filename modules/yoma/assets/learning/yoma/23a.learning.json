@@ -1,867 +1,874 @@
 {
-  "daf": "23a",
-  "canonicalRef": "Yoma 23a",
-  "summary": "The talmid chacham-avenges-like-a-snake principle is explored further. Then the Gemara returns to the lottery: the mishna describes the lottery procedure in detail - gathering in the Chamber of Hewn Stone, a supervisor loosens his garment (to prevent cheating), the count begins. The third section covers the most dramatic incident in the chapter: a priest was stabbed by a competitor while racing to the altar, and his father's strange reaction caused a secondary shock to the assembled crowd.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "23a",
+ "canonicalRef": "Yoma 23a",
+ "summary": "The talmid chacham-avenges-like-a-snake principle is explored further. Then the Gemara returns to the lottery: the mishna describes the lottery procedure in detail - gathering in the Chamber of Hewn Stone, a supervisor loosens his garment (to prevent cheating), the count begins. The third section covers the most dramatic incident in the chapter: a priest was stabbed by a competitor while racing to the altar, and his father's strange reaction caused a secondary shock to the assembled crowd.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-023a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 16
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-023a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 16
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.23a.1"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.23a.2"
-        },
-        {
-          "vilnaLine": 11,
-          "sefariaRef": "Yoma.23a.3"
-        },
-        {
-          "vilnaLine": 15,
-          "sefariaRef": "Yoma.23a.4"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.23a.1",
-        "Yoma.23a.2",
-        "Yoma.23a.3",
-        "Yoma.23a.4"
-      ],
-      "display": {
-        "title": "Snake, not saint: why a scholar may forgive his own insult but not Torah's",
-        "whats": "The principle that a Torah scholar should not forgive insults is elaborated: R. Yochanan and R. Elazar both say: one who does not take vengeance is hated before Heaven. Evidence: God forgave Israel's sins against Himself but required their enemies to receive punishment. The Gemara compares this to God's love: God does not forever overlook honor affronts to his servants. The related principle about scholars forgoing their honor is discussed.",
-        "hint": "The snake-vengeance principle is counterintuitive in a religious context - usually forgiveness is praised. The Talmud distinguishes: one may forgive personal affronts (it is even praiseworthy), but a Torah scholar who forgives a public insult to the Torah itself is wrong, because that is not personal honor but institutional."
-      },
-      "learning": {
-        "learnerQuestion": "Forgiveness is praised everywhere else in this tradition. Why does the Gemara say a Torah scholar who does not avenge an insult is hated before Heaven?",
-        "coreTension": "R. Yochanan's ruling sounds like it condemns forgiveness itself, which would contradict the broader value placed on mechila (forgoing one's rights). The sugya has to explain what kind of insult actually triggers the obligation to respond, since it cannot be ordinary personal slights.",
-        "coreMove": "The Gemara proves from God's own conduct that forgiveness and required response are not contradictory: God forgave Israel's sins against Him directly, yet still required Israel's enemies to be punished for dishonoring Israel. That shows the ruling is not about personal grudges but about who actually holds the honor at stake. A scholar may forgo his own personal honor freely, but when an insult is aimed at the Torah through him, that honor belongs to the Torah, not to him, so he has no authority to waive it.",
-        "resolution": "A talmid chacham may forgo his own personal honor, and doing so is praiseworthy. An insult to Torah delivered through a scholar is not his to forgive, since the honor at stake is the Torah's, not his own.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The right to forgive an insult belongs to whoever's honor was actually attacked. A scholar can waive his own, but cannot waive an insult to Torah on Torah's behalf."
-        },
-        "ahaMoment": "The distinction between personal honor and institutional honor: a scholar can forgive his own insults. But if someone demeans the Torah through him, that insult is to God, not to the scholar, and the scholar has no authority to waive it.",
-        "learningBlocker": "Learners tend to read 'one who does not avenge is hated before Heaven' as a blanket rejection of forgiveness, missing that the Gemara's proof (God forgiving Israel's sins yet still punishing Israel's enemies) is specifically about defending someone else's honor, not about how to handle ordinary personal offense.",
-        "memoryAnchor": "Scholar forgoing personal honor = permitted. Scholar forgoing Torah's honor = not permitted. Snake: patient but eventual response."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-023a-l01",
-          "type": "ruling",
-          "label": "R. Yochanan: not taking vengeance is hated before Heaven",
-          "text": "A Torah scholar who does not avenge insults is hated before Heaven, as the verse proves: God required punishment for those who wronged Israel even after forgiving Israel's own sins.",
-          "sourceRefs": [
-            "Yoma.23a.1"
-          ]
-        },
-        {
-          "id": "yoma-023a-l07",
-          "type": "distinction",
-          "label": "Personal honor vs. Torah honor",
-          "text": "A talmid chacham may forgo his personal honor - that is permitted and even praiseworthy. But if someone demeans the Torah through insulting a scholar, the scholar cannot waive that insult - it is not his to waive.",
-          "sourceRefs": [
-            "Yoma.23a.2"
-          ]
-        },
-        {
-          "id": "yoma-023a-l11",
-          "type": "proof",
-          "label": "Biblical proof of divine vengeance for Israel's honor",
-          "text": "God forgave Israel's sins but still required punishment for Midian and others who dishonored Israel. Proof that honor-based debts are not simply forgiven.",
-          "sourceRefs": [
-            "Yoma.23a.3"
-          ]
-        },
-        {
-          "id": "yoma-023a-l15",
-          "type": "conclusion",
-          "label": "Closing the snake-vengeance discussion",
-          "text": "The Gemara concludes the discussion of how a Torah scholar should handle public insults and transitions to the lottery procedure.",
-          "sourceRefs": [
-            "Yoma.23a.4"
-          ]
-        }
-      ],
-      "topicTags": [
-        "Torah scholar",
-        "vengeance",
-        "honor",
-        "talmid chacham",
-        "forgiveness",
-        "snake"
-      ],
-      "concepts": {
-        "halachic": [
-          "forgoing honor (mechila)",
-          "Torah scholar's honor"
-        ],
-        "theological": [
-          "divine vengeance as principle",
-          "institutional vs. personal honor"
-        ],
-        "narrative": [
-          "God's vengeance for Israel's honor despite forgiving Israel's sins"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "yoma-022b-s03"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The 'vengeance' R. Yochanan describes means physical retribution against whoever gave the insult.",
-          "correction": "It means maintaining dignity and not letting a public demeaning of Torah pass unchallenged, not physical retaliation."
-        },
-        {
-          "misconception": "Since a scholar can waive his own honor, he can also waive an insult to the Torah delivered through him.",
-          "correction": "Personal honor and Torah's honor are treated as two different holders of the right to forgive. The scholar may waive only the first; the second belongs to Torah and is not his to give away."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-022b-s03"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "description": "Two cases: scholar forgoes personal insult (permitted) vs. scholar forgoes Torah insult (not permitted) - shown as a decision tree"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Can a Torah scholar waive insults to himself? What about insults to the Torah delivered through him?",
-          "answer": "A scholar may waive personal insults; this is even praiseworthy. But insults to the Torah are not his to waive, since that honor belongs to the Torah and must be addressed."
-        },
-        {
-          "question": "What proof does the Gemara bring that requiring a response to an insult does not contradict the value of forgiveness?",
-          "answer": "God forgave Israel's own sins against Him directly, yet still required Israel's enemies to be punished for dishonoring Israel, showing that forgiving your own offense and defending someone else's honor are not the same act."
-        }
-      ],
-      "finalRuling": "Personal honor may be waived; Torah honor may not. A talmid chacham must respond (like a snake: quietly but eventually) to public demeaning of Torah.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "מְחִילָה",
-          "translit": "mechila",
-          "en": "Forgoing one's rights or honor; a talmid chacham may exercise mechila for personal affronts but not for Torah's honor."
-        }
-      ],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.23a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-023a-s02",
-      "lineRange": {
-        "startVilnaLine": 17,
-        "endVilnaLine": 35
-      },
-      "lines": [
-        {
-          "vilnaLine": 17,
-          "sefariaRef": "Yoma.23a.5"
-        },
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.23a.6"
-        },
-        {
-          "vilnaLine": 24,
-          "sefariaRef": "Yoma.23a.7"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.23a.8"
-        },
-        {
-          "vilnaLine": 29,
-          "sefariaRef": "Yoma.23a.9"
-        },
-        {
-          "vilnaLine": 30,
-          "sefariaRef": "Yoma.23a.10"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.23a.5",
-        "Yoma.23a.6",
-        "Yoma.23a.7",
-        "Yoma.23a.8",
-        "Yoma.23a.9",
-        "Yoma.23a.10"
-      ],
-      "display": {
-        "title": "Counting fingers, not people: the lottery's built-in safeguards",
-        "whats": "The mishna's lottery procedure: all priests gather in the Chamber of Hewn Stone. The officer in charge of the lottery loosens his garment so no one can tell if he is hiding something (anti-cheating measure). The first priest designated in the count extends his robe and they count from him. The supervisor names a number; they count fingers around the circle; whoever's count reaches the named number wins that position. Then the service is assigned.",
-        "hint": "The anti-cheating detail (loosening the garment) is fascinating - it reveals that the Temple service assignment system was vulnerable to manipulation, and the Sages needed to build in safeguards. The system was only as fair as its randomness, so physical verification was built in."
-      },
-      "learning": {
-        "learnerQuestion": "The Sages just replaced a deadly competitive system with a lottery. Why does the mishna spend so much detail on the supervisor's garment and on counting fingers instead of just saying 'they drew lots'?",
-        "coreTension": "A lottery is only as trustworthy as its mechanics. After the violence that ended the race system, a new procedure that could itself be secretly rigged would defeat the entire point of the reform, so the mishna has to specify exactly what makes this counting method tamper-proof.",
-        "coreMove": "The mishna builds in two separate safeguards: the supervisor loosens his garment so the priests can see he is hiding nothing that could let him steer the count, and the count itself is taken by extended fingers rather than by counting people directly, since directly counting the Jewish people was itself prohibited. Counting fingers achieved the needed randomness without counting individuals.",
-        "resolution": "The lottery's legitimacy rested on visible, verifiable mechanics: a garment check against supervisor manipulation, and a finger count that avoided the prohibition on counting people directly.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "A procedure meant to be impartial has to be verifiably impartial, not just nominally random. The mishna specifies the physical safeguards that let the priests themselves confirm the count could not be rigged."
-        },
-        "ahaMoment": "The garment-loosening detail is a physical anti-cheating measure: if the supervisor has no visible pockets or hidden items, he cannot cheat by pre-marking certain priests. The fairness of the lottery depended on physical transparency, not just stated intent.",
-        "learningBlocker": "Learners tend to read the garment-loosening and finger-counting as quaint procedural color, missing that both details exist specifically because the previous system (racing) failed through manipulation and violence; the mishna is engineering trust into the replacement, not just describing tradition.",
-        "memoryAnchor": "Lottery: Chamber of Hewn Stone. Supervisor loosens garment so nothing is hidden. Count extended fingers, not people, since counting people directly was prohibited."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-023a-l17",
-          "type": "ruling",
-          "label": "Lottery gathering: Chamber of Hewn Stone",
-          "text": "All priests eligible for the lottery gathered in the Chamber of Hewn Stone (lishkat hagazit) before dawn.",
-          "sourceRefs": [
-            "Yoma.23a.5"
-          ]
-        },
-        {
-          "id": "yoma-023a-l19",
-          "type": "ruling",
-          "label": "Anti-cheating: supervisor loosens his garment",
-          "text": "The supervisor in charge of the lottery loosened his garment before conducting the count, so that the priests could see he had nothing hidden that could influence the outcome.",
-          "sourceRefs": [
-            "Yoma.23a.6"
-          ]
-        },
-        {
-          "id": "yoma-023a-l24",
-          "type": "ruling",
-          "label": "Designation of starting priest by robe extension",
-          "text": "The starting point for counting was determined by a priest extending his robe. Counting began from that priest and proceeded around the circle.",
-          "sourceRefs": [
-            "Yoma.23a.7"
-          ]
-        },
-        {
-          "id": "yoma-023a-l28",
-          "type": "ruling",
-          "label": "Count proceeds by extended fingers",
-          "text": "The supervisor named a large number (e.g., 100); each priest extended one or two fingers as they wished; counting proceeded finger by finger around the circle until the named number was reached. That priest won.",
-          "sourceRefs": [
-            "Yoma.23a.8"
-          ]
-        },
-        {
-          "id": "yoma-023a-l29",
-          "type": "elaboration",
-          "label": "Why fingers rather than people?",
-          "text": "Counting individual people (individuals) was problematic (census taboo); counting fingers was the workaround. This avoided the prohibition on counting the Jewish people directly.",
-          "sourceRefs": [
-            "Yoma.23a.9"
-          ]
-        },
-        {
-          "id": "yoma-023a-l30",
-          "type": "conclusion",
-          "label": "Summary of the lottery procedure",
-          "text": "The lottery was a controlled, transparent, anti-cheat procedure that replaced the dangerous racing system.",
-          "sourceRefs": [
-            "Yoma.23a.10"
-          ]
-        }
-      ],
-      "topicTags": [
-        "lottery procedure",
-        "Chamber of Hewn Stone",
-        "anti-cheating",
-        "finger count",
-        "Temple service assignment",
-        "census taboo"
-      ],
-      "concepts": {
-        "halachic": [
-          "lottery mechanics",
-          "anti-cheating in Temple service",
-          "census prohibition workaround"
-        ],
-        "theological": [
-          "fairness in divine service assignment",
-          "randomness as divine selection"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "yoma-022a-s02"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The finger count was mathematically random in the way a modern lottery draw is.",
-          "correction": "It depended on each priest's voluntary choice of how many fingers to extend, not on a mechanical random process. In practice the outcome was unpredictable enough to be trusted, but the randomness came from collective unpredictability, not a neutral mechanism."
-        },
-        {
-          "misconception": "Counting fingers instead of priests was simply a stylistic preference in how the mishna describes the count.",
-          "correction": "It was a deliberate workaround for the prohibition on counting the Jewish people directly. Fingers could be counted because they are not the people themselves."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-022b-s02",
-        "yoma-022a-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "description": "Priests gathered in the Chamber of Hewn Stone in a circle; supervisor loosening his garment; priests extending fingers for the count"
-        },
-        {
-          "type": "place",
-          "description": "The Chamber of Hewn Stone with its semi-circular seating for the Sanhedrin also serving as the lottery room"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why did the supervisor loosen his garment before conducting the Temple lottery?",
-          "answer": "To prevent cheating, so the priests could verify he had nothing hidden that could allow him to manipulate the outcome of the count."
-        },
-        {
-          "question": "Why were fingers counted rather than priests themselves in the Temple lottery?",
-          "answer": "Directly counting Jewish people was prohibited. Counting fingers was the workaround: it achieved the needed randomness without counting individuals directly."
-        }
-      ],
-      "finalRuling": "The lottery was conducted in the Chamber of Hewn Stone by counting extended fingers, with anti-cheating safeguards built in.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "לִשְׁכַּת הַגָּזִית",
-          "translit": "lishkat hagazit",
-          "en": "Chamber of Hewn Stone; the Sanhedrin's seat and the location of the morning Temple lottery."
-        }
-      ],
-      "review": "reviewed"
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.23a.2"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-023a-s03",
-      "lineRange": {
-        "startVilnaLine": 36,
-        "endVilnaLine": 49
-      },
-      "lines": [
-        {
-          "vilnaLine": 36,
-          "sefariaRef": "Yoma.23a.11"
-        },
-        {
-          "vilnaLine": 39,
-          "sefariaRef": "Yoma.23a.12"
-        },
-        {
-          "vilnaLine": 42,
-          "sefariaRef": "Yoma.23a.13"
-        },
-        {
-          "vilnaLine": 45,
-          "sefariaRef": "Yoma.23a.14"
-        },
-        {
-          "vilnaLine": 47,
-          "sefariaRef": "Yoma.23a.15"
-        },
-        {
-          "vilnaLine": 49,
-          "sefariaRef": "Yoma.23a.16"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.23a.11",
-        "Yoma.23a.12",
-        "Yoma.23a.13",
-        "Yoma.23a.14",
-        "Yoma.23a.15",
-        "Yoma.23a.16"
-      ],
-      "display": {
-        "title": "Through a legal technicality: how the crowd learned the stabbed priest survived",
-        "whats": "There was once an incident: two priests raced up the altar ramp; one was within four amot of the top when the other pushed him, breaking his leg. While the court was examining the question of who should perform the service, the fallen priest's father came forward and said: 'My son is still alive, so the knife is not impure.' This taught everyone that the fallen priest was still alive. The Sages then concluded: it was not disgrace of the wounded priest but of his father's words that taught people he was still alive.",
-        "hint": "The father's statement ('my son is still alive') was intended as a halakhic comment about the knife - but functionally it was an expression of relief. The Gemara notes the crowd did not realize the priest was alive until the father made his halakhic comment. The Sages drew a lesson: even in crisis, halachic sensitivity remained the operative frame."
-      },
-      "learning": {
-        "learnerQuestion": "This same incident was already mentioned back on 22a. What does this fuller telling add that the earlier summary left out?",
-        "coreTension": "Beyond the violence itself, the court faced an immediate procedural problem: with the assigned priest lying wounded and his fate uncertain, did his claim on the service lapse so another priest could be assigned? Answering that required knowing whether he was alive, and the court had no direct way to learn this in the chaos.",
-        "coreMove": "The father did not step forward to report his son's condition. He stepped forward to make a halakhic statement: the knife embedded in his son could not yet be ritually impure, since impurity from a corpse only attaches once death has occurred. That legal claim only made sense if his son was still alive, so the crowd extracted the medical fact from the halakhic reasoning, not the other way around.",
-        "resolution": "The crowd learned the priest was alive only indirectly, through his father's legal statement about the knife. The Sages drew the further conclusion that a competitive system capable of producing this kind of crisis had to be replaced, and instituted the lottery permanently.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "A halakhic statement can carry factual information as a side effect of its legal logic. Here the only way the crowd learned the priest was alive was by working backward from a claim that made sense only if he were."
-        },
-        "ahaMoment": "The father's announcement is one of the strangest moments in the Talmud: his son is lying stabbed on the altar ramp, and his public statement is about knife impurity. Yet this apparent detachment is exactly what informed the crowd that the priest had survived. The Gemara is not critical of him; it records the incident as evidence of how completely halachic categories framed even a moment of crisis.",
-        "learningBlocker": "Learners who already saw this incident summarized on 22a may treat this telling as redundant. The added detail here is the court's specific procedural dilemma (whether the service had lapsed) and the precise mechanism by which the truth reached the crowd, namely deduction from a legal claim, not a direct report.",
-        "memoryAnchor": "Priest stabbed on ramp. Court unsure if his service lapsed. Father says 'knife isn't impure', which only makes sense if his son is alive. Crowd deduces the priest survived."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-023a-l36",
-          "type": "narrative",
-          "label": "The stabbing incident",
-          "text": "Two priests raced up the ramp. One was within four amot of the top when the other pushed him and stabbed him with a knife. The priest fell with the knife embedded.",
-          "sourceRefs": [
-            "Yoma.23a.11"
-          ]
-        },
-        {
-          "id": "yoma-023a-l39",
-          "type": "narrative",
-          "label": "The court's dilemma: who performs the service now?",
-          "text": "As the wounded priest lay there, the court was uncertain whether to reassign the service to another priest immediately. The determination of whether the wound was fatal was unclear.",
-          "sourceRefs": [
-            "Yoma.23a.12"
-          ]
-        },
-        {
-          "id": "yoma-023a-l42",
-          "type": "narrative",
-          "label": "The father's announcement",
-          "text": "The wounded priest's father came forward and said: 'My son is still alive, and therefore the knife has not contracted corpse impurity.' This was a public halakhic statement about the knife's status.",
-          "sourceRefs": [
-            "Yoma.23a.13"
-          ]
-        },
-        {
-          "id": "yoma-023a-l45",
-          "type": "analysis",
-          "label": "What the father's statement taught the crowd",
-          "text": "The crowd, hearing the father's halakhic announcement, realized that the priest was indeed still alive. The information that he was alive came not from a doctor's announcement but from a legal statement about knife impurity.",
-          "sourceRefs": [
-            "Yoma.23a.14"
-          ]
-        },
-        {
-          "id": "yoma-023a-l47",
-          "type": "analysis",
-          "label": "The Sages' conclusion from this incident",
-          "text": "The Sages concluded: the knife's impurity status was the public concern, not the wounded priest's life. They instituted the lottery to prevent future competition and violence.",
-          "sourceRefs": [
-            "Yoma.23a.15"
-          ]
-        },
-        {
-          "id": "yoma-023a-l49",
-          "type": "conclusion",
-          "label": "The lottery as institutional response to violence",
-          "text": "The stabbing incident proved that a competitive system for Temple service was incompatible with holiness. The lottery replaced all racing permanently.",
-          "sourceRefs": [
-            "Yoma.23a.16"
-          ]
-        }
-      ],
-      "topicTags": [
-        "stabbing incident",
-        "lottery origins",
-        "knife impurity",
-        "priestly competition",
-        "Temple violence",
-        "father's reaction"
-      ],
-      "concepts": {
-        "halachic": [
-          "knife impurity from corpse",
-          "Temple service assignment when priest is injured"
-        ],
-        "theological": [
-          "halachic categories as primary frame",
-          "violence and holiness incompatible"
-        ],
-        "narrative": [
-          "the stabbing on the ramp and the father's strange announcement"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "yoma-022a-s01",
-        "yoma-022a-s02"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "This is a separate, different stabbing incident from the one mentioned on 22a.",
-          "correction": "It is the same incident. 22a summarizes it briefly; this sugya tells it in full detail, including the court's procedural dilemma over whether the wounded priest's service had lapsed."
-        },
-        {
-          "misconception": "The lottery was instituted specifically to prevent stabbing on the ramp.",
-          "correction": "It was instituted because the entire competitive racing system created conditions where violence was inevitable, not as a narrow fix for this one weapon or this one act."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-022a-s02",
-        "yoma-022b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "description": "A priest stabbed and lying on the altar ramp with a knife embedded; the court assembled around him trying to determine the halachic status"
-        },
-        {
-          "type": "person",
-          "description": "The wounded priest's father approaching the court and making a halakhic announcement about knife impurity rather than calling for medical help"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "How did the crowd actually learn that the stabbed priest was still alive?",
-          "answer": "Not from a direct report. His father announced that the knife had not contracted corpse impurity, a claim that only made sense if his son was alive, so the crowd deduced the priest's survival from that legal reasoning."
-        },
-        {
-          "question": "What procedural question was the court trying to resolve while the priest lay wounded?",
-          "answer": "Whether the wounded priest's claim on the service had lapsed so another priest could be assigned in his place, which depended on whether he was still alive."
-        }
-      ],
-      "finalRuling": "The stabbing incident led directly to the institution of the lottery system for all Temple service assignments.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "טוּמְאַת מֵת",
-          "translit": "tumeat met",
-          "en": "Corpse impurity; what the father feared the knife would contract if his son died while impaled."
-        }
-      ],
-      "review": "reviewed"
+     "vilnaLine": 11,
+     "sefariaRef": "Yoma.23a.3"
+    },
+    {
+     "vilnaLine": 15,
+     "sefariaRef": "Yoma.23a.4"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.23a.1",
+    "Yoma.23a.2",
+    "Yoma.23a.3",
+    "Yoma.23a.4"
+   ],
+   "display": {
+    "title": "Snake, not saint: why a scholar may forgive his own insult but not Torah's",
+    "whats": "The principle that a Torah scholar should not forgive insults is elaborated: R. Yochanan and R. Elazar both say: one who does not take vengeance is hated before Heaven. Evidence: God forgave Israel's sins against Himself but required their enemies to receive punishment. The Gemara compares this to God's love: God does not forever overlook honor affronts to his servants. The related principle about scholars forgoing their honor is discussed.",
+    "hint": "The snake-vengeance principle is counterintuitive in a religious context - usually forgiveness is praised. The Talmud distinguishes: one may forgive personal affronts (it is even praiseworthy), but a Torah scholar who forgives a public insult to the Torah itself is wrong, because that is not personal honor but institutional."
+   },
+   "learning": {
+    "learnerQuestion": "Forgiveness is praised everywhere else in this tradition. Why does the Gemara say a Torah scholar who does not avenge an insult is hated before Heaven?",
+    "coreTension": "R. Yochanan's ruling sounds like it condemns forgiveness itself, which would contradict the broader value placed on mechila (forgoing one's rights). The sugya has to explain what kind of insult actually triggers the obligation to respond, since it cannot be ordinary personal slights.",
+    "coreMove": "The Gemara proves from God's own conduct that forgiveness and required response are not contradictory: God forgave Israel's sins against Him directly, yet still required Israel's enemies to be punished for dishonoring Israel. That shows the ruling is not about personal grudges but about who actually holds the honor at stake. A scholar may forgo his own personal honor freely, but when an insult is aimed at the Torah through him, that honor belongs to the Torah, not to him, so he has no authority to waive it.",
+    "resolution": "A talmid chacham may forgo his own personal honor, and doing so is praiseworthy. An insult to Torah delivered through a scholar is not his to forgive, since the honor at stake is the Torah's, not his own.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The right to forgive an insult belongs to whoever's honor was actually attacked. A scholar can waive his own, but cannot waive an insult to Torah on Torah's behalf."
+    },
+    "ahaMoment": "The distinction between personal honor and institutional honor: a scholar can forgive his own insults. But if someone demeans the Torah through him, that insult is to God, not to the scholar, and the scholar has no authority to waive it.",
+    "learningBlocker": "Learners tend to read 'one who does not avenge is hated before Heaven' as a blanket rejection of forgiveness, missing that the Gemara's proof (God forgiving Israel's sins yet still punishing Israel's enemies) is specifically about defending someone else's honor, not about how to handle ordinary personal offense.",
+    "memoryAnchor": "Scholar forgoing personal honor = permitted. Scholar forgoing Torah's honor = not permitted. Snake: patient but eventual response."
+   },
+   "argumentFlow": [
     {
-      "he": "מְחִילָה",
-      "translit": "mechila",
-      "en": "Forgoing one's rights; a scholar may waive personal honor but not Torah's honor."
+     "id": "yoma-023a-l01",
+     "type": "ruling",
+     "label": "R. Yochanan: not taking vengeance is hated before Heaven",
+     "text": "A Torah scholar who does not avenge insults is hated before Heaven, as the verse proves: God required punishment for those who wronged Israel even after forgiving Israel's own sins.",
+     "sourceRefs": [
+      "Yoma.23a.1"
+     ]
     },
     {
-      "he": "לִשְׁכַּת הַגָּזִית",
-      "translit": "lishkat hagazit",
-      "en": "Chamber of Hewn Stone; where the morning lottery was conducted."
+     "id": "yoma-023a-l07",
+     "type": "distinction",
+     "label": "Personal honor vs. Torah honor",
+     "text": "A talmid chacham may forgo his personal honor - that is permitted and even praiseworthy. But if someone demeans the Torah through insulting a scholar, the scholar cannot waive that insult - it is not his to waive.",
+     "sourceRefs": [
+      "Yoma.23a.2"
+     ]
     },
     {
-      "he": "טוּמְאַת מֵת",
-      "translit": "tumeat met",
-      "en": "Corpse impurity; what the priest's father feared the knife would contract."
+     "id": "yoma-023a-l11",
+     "type": "proof",
+     "label": "Biblical proof of divine vengeance for Israel's honor",
+     "text": "God forgave Israel's sins but still required punishment for Midian and others who dishonored Israel. Proof that honor-based debts are not simply forgiven.",
+     "sourceRefs": [
+      "Yoma.23a.3"
+     ]
+    },
+    {
+     "id": "yoma-023a-l15",
+     "type": "conclusion",
+     "label": "Closing the snake-vengeance discussion",
+     "text": "The Gemara concludes the discussion of how a Torah scholar should handle public insults and transitions to the lottery procedure.",
+     "sourceRefs": [
+      "Yoma.23a.4"
+     ]
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "topicTags": [
+    "Torah scholar",
+    "vengeance",
+    "honor",
+    "talmid chacham",
+    "forgiveness",
+    "snake"
+   ],
+   "concepts": {
+    "halachic": [
+     "forgoing honor (mechila)",
+     "Torah scholar's honor"
+    ],
+    "theological": [
+     "divine vengeance as principle",
+     "institutional vs. personal honor"
+    ],
+    "narrative": [
+     "God's vengeance for Israel's honor despite forgiving Israel's sins"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "yoma-022b-s03"
+   ],
+   "misconceptions": [
     {
-      "vilnaLine": 1,
-      "en": "Opens 'who does not take revenge': his own revenge.' Then opens 'or bear a grudge': hatred like a snake in his heart.' Then opens 'I am not like you, who did not' -",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l01"
-      ]
+     "misconception": "The 'vengeance' R. Yochanan describes means physical retribution against whoever gave the insult.",
+     "correction": "It means maintaining dignity and not letting a public demeaning of Torah pass unchallenged, not physical retaliation."
     },
     {
-      "vilnaLine": 2,
-      "en": "continuing: 'lend it to me - this is bearing a grudge': for the matter remains stored in his heart and he has not put it out of his mind.",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "Opens 'that he still holds it in his heart': and if another comes to take his revenge by carrying out the judgment,",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l15"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "closing: he should keep silent.' Then opens 'that they appease him': to seek forgiveness.' Then opens 'ill': he cannot suppress",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l15"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "continuing: his fingers, and when he puts out one, its fellow",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "closing: comes out with it.' Then opens 'and solitary individuals': among the sick,",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "continuing: who do not sit among other people",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "closing: but lie or sit alone.",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "Opens 'only one': only a single man is counted.",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Opens 'they do not put out': along with the finger, neither the ring finger",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "closing: nor the thumb, for they may not put out two.' Then opens 'and if",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: he put out the ring finger, they count for him': for he is not a cheat,",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "continuing: since it is recognizable that it is not from two men,",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "closing: which cannot be spread apart from one another.' Then opens 'the thumb' -",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: if he put out the thumb, they do not count for him at all,",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "closing: but rather they remove him from among them.' Then opens 'the officer'",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: 'over the strap': the officer over the straps of",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "closing: lashes.' Then opens 'the third finger': if",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: he put out the third finger, they count for him - it might occur to you",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "closing: to think this means they count for him as two.' Then opens 'the strap",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: of the Arab traders': the straps of the Ishmaelites, made",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "closing: into a whip for horses.' Then opens 'whose head is split': for that",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: reason it is called pakia, for it is not wide at its head",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: like other lashing-straps, but is split at",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: its head into thin straps, so that the horse would feel",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: it more; and pakia is a term for splitting",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: and cracking, as in 'from the worn-out breeches of the priests",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "closing: they would pull out threads' - a term for tearing.' Then opens 'as we learned' -",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "closing: in tractate Shekalim (chapter 5, mishnah 1).",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "Opens 'Beivai': the man's name.' Then opens 'they would pull out threads' -",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: to make wicks for the Rejoicing of the Water-Drawing",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "closing: during the festival.' Then opens 'nagda': lashing-straps.' Then opens 'on'",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: 'the steps of the portico': on the Temple Mount, Herod built many",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l39"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "continuing: porticoes there, as is written",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l39"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: in the Book of Yosef ben Gurion; 'on the steps",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l39"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "continuing: of the portico on the Temple Mount, porticoes' is what we read",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l39"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "closing: in the Tosefta.' Then opens 'upon whom shall we bring it': from whose property",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l39"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: shall it be taken - from those who dwell in the city, or from",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l39"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "closing: the priests who guard the Courtyard?' Then opens 'they cried out': shouted.",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l39"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "Opens 'behold, he is your atonement': his death shall atone",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l42"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "closing: for you.' Then opens 'the four cubits, what purpose' -",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l47"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "continuing: 'did they serve': regarding the running in the case of",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l47"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "closing: bloodshed.' Then opens 'ten things': in Bava Kama",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l49"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "closing: it is enumerated in the chapter 'Merubah' (82b).",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l49"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Opens 'it does not' -",
-      "linkedGemaraLineIds": [
-        "yoma-023a-l49"
-      ]
+     "misconception": "Since a scholar can waive his own honor, he can also waive an insult to the Torah delivered through him.",
+     "correction": "Personal honor and Torah's honor are treated as two different holders of the right to forgive. The scholar may waive only the first; the second belongs to Torah and is not his to give away."
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-022b-s03"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "description": "Two cases: scholar forgoes personal insult (permitted) vs. scholar forgoes Torah insult (not permitted) - shown as a decision tree"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Can a Torah scholar waive insults to himself? What about insults to the Torah delivered through him?",
+     "answer": "A scholar may waive personal insults; this is even praiseworthy. But insults to the Torah are not his to waive, since that honor belongs to the Torah and must be addressed."
+    },
+    {
+     "question": "What proof does the Gemara bring that requiring a response to an insult does not contradict the value of forgiveness?",
+     "answer": "God forgave Israel's own sins against Him directly, yet still required Israel's enemies to be punished for dishonoring Israel, showing that forgiving your own offense and defending someone else's honor are not the same act."
+    }
+   ],
+   "finalRuling": "Personal honor may be waived; Torah honor may not. A talmid chacham must respond (like a snake: quietly but eventually) to public demeaning of Torah.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "מְחִילָה",
+     "translit": "mechila",
+     "en": "Forgoing one's rights or honor; a talmid chacham may exercise mechila for personal affronts but not for Torah's honor."
+    }
+   ],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-023a-s02",
+   "lineRange": {
+    "startVilnaLine": 17,
+    "endVilnaLine": 35
+   },
+   "lines": [
+    {
+     "vilnaLine": 17,
+     "sefariaRef": "Yoma.23a.5"
+    },
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.23a.6"
+    },
+    {
+     "vilnaLine": 24,
+     "sefariaRef": "Yoma.23a.7"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.23a.8"
+    },
+    {
+     "vilnaLine": 29,
+     "sefariaRef": "Yoma.23a.9"
+    },
+    {
+     "vilnaLine": 30,
+     "sefariaRef": "Yoma.23a.10"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.23a.5",
+    "Yoma.23a.6",
+    "Yoma.23a.7",
+    "Yoma.23a.8",
+    "Yoma.23a.9",
+    "Yoma.23a.10"
+   ],
+   "display": {
+    "title": "Counting fingers, not people: the lottery's built-in safeguards",
+    "whats": "The mishna's lottery procedure: all priests gather in the Chamber of Hewn Stone. The officer in charge of the lottery loosens his garment so no one can tell if he is hiding something (anti-cheating measure). The first priest designated in the count extends his robe and they count from him. The supervisor names a number; they count fingers around the circle; whoever's count reaches the named number wins that position. Then the service is assigned.",
+    "hint": "The anti-cheating detail (loosening the garment) is fascinating - it reveals that the Temple service assignment system was vulnerable to manipulation, and the Sages needed to build in safeguards. The system was only as fair as its randomness, so physical verification was built in."
+   },
+   "learning": {
+    "learnerQuestion": "The Sages just replaced a deadly competitive system with a lottery. Why does the mishna spend so much detail on the supervisor's garment and on counting fingers instead of just saying 'they drew lots'?",
+    "coreTension": "A lottery is only as trustworthy as its mechanics. After the violence that ended the race system, a new procedure that could itself be secretly rigged would defeat the entire point of the reform, so the mishna has to specify exactly what makes this counting method tamper-proof.",
+    "coreMove": "The mishna builds in two separate safeguards: the supervisor loosens his garment so the priests can see he is hiding nothing that could let him steer the count, and the count itself is taken by extended fingers rather than by counting people directly, since directly counting the Jewish people was itself prohibited. Counting fingers achieved the needed randomness without counting individuals.",
+    "resolution": "The lottery's legitimacy rested on visible, verifiable mechanics: a garment check against supervisor manipulation, and a finger count that avoided the prohibition on counting people directly.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "A procedure meant to be impartial has to be verifiably impartial, not just nominally random. The mishna specifies the physical safeguards that let the priests themselves confirm the count could not be rigged."
+    },
+    "ahaMoment": "The garment-loosening detail is a physical anti-cheating measure: if the supervisor has no visible pockets or hidden items, he cannot cheat by pre-marking certain priests. The fairness of the lottery depended on physical transparency, not just stated intent.",
+    "learningBlocker": "Learners tend to read the garment-loosening and finger-counting as quaint procedural color, missing that both details exist specifically because the previous system (racing) failed through manipulation and violence; the mishna is engineering trust into the replacement, not just describing tradition.",
+    "memoryAnchor": "Lottery: Chamber of Hewn Stone. Supervisor loosens garment so nothing is hidden. Count extended fingers, not people, since counting people directly was prohibited."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-023a-l17",
+     "type": "ruling",
+     "label": "Lottery gathering: Chamber of Hewn Stone",
+     "text": "All priests eligible for the lottery gathered in the Chamber of Hewn Stone (lishkat hagazit) before dawn.",
+     "sourceRefs": [
+      "Yoma.23a.5"
+     ]
+    },
+    {
+     "id": "yoma-023a-l19",
+     "type": "ruling",
+     "label": "Anti-cheating: supervisor loosens his garment",
+     "text": "The supervisor in charge of the lottery loosened his garment before conducting the count, so that the priests could see he had nothing hidden that could influence the outcome.",
+     "sourceRefs": [
+      "Yoma.23a.6"
+     ]
+    },
+    {
+     "id": "yoma-023a-l24",
+     "type": "ruling",
+     "label": "Designation of starting priest by robe extension",
+     "text": "The starting point for counting was determined by a priest extending his robe. Counting began from that priest and proceeded around the circle.",
+     "sourceRefs": [
+      "Yoma.23a.7"
+     ]
+    },
+    {
+     "id": "yoma-023a-l28",
+     "type": "ruling",
+     "label": "Count proceeds by extended fingers",
+     "text": "The supervisor named a large number (e.g., 100); each priest extended one or two fingers as they wished; counting proceeded finger by finger around the circle until the named number was reached. That priest won.",
+     "sourceRefs": [
+      "Yoma.23a.8"
+     ]
+    },
+    {
+     "id": "yoma-023a-l29",
+     "type": "elaboration",
+     "label": "Why fingers rather than people?",
+     "text": "Counting individual people (individuals) was problematic (census taboo); counting fingers was the workaround. This avoided the prohibition on counting the Jewish people directly.",
+     "sourceRefs": [
+      "Yoma.23a.9"
+     ]
+    },
+    {
+     "id": "yoma-023a-l30",
+     "type": "conclusion",
+     "label": "Summary of the lottery procedure",
+     "text": "The lottery was a controlled, transparent, anti-cheat procedure that replaced the dangerous racing system.",
+     "sourceRefs": [
+      "Yoma.23a.10"
+     ]
+    }
+   ],
+   "topicTags": [
+    "lottery procedure",
+    "Chamber of Hewn Stone",
+    "anti-cheating",
+    "finger count",
+    "Temple service assignment",
+    "census taboo"
+   ],
+   "concepts": {
+    "halachic": [
+     "lottery mechanics",
+     "anti-cheating in Temple service",
+     "census prohibition workaround"
+    ],
+    "theological": [
+     "fairness in divine service assignment",
+     "randomness as divine selection"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "yoma-022a-s02"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The finger count was mathematically random in the way a modern lottery draw is.",
+     "correction": "It depended on each priest's voluntary choice of how many fingers to extend, not on a mechanical random process. In practice the outcome was unpredictable enough to be trusted, but the randomness came from collective unpredictability, not a neutral mechanism."
+    },
+    {
+     "misconception": "Counting fingers instead of priests was simply a stylistic preference in how the mishna describes the count.",
+     "correction": "It was a deliberate workaround for the prohibition on counting the Jewish people directly. Fingers could be counted because they are not the people themselves."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-022b-s02",
+    "yoma-022a-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "description": "Priests gathered in the Chamber of Hewn Stone in a circle; supervisor loosening his garment; priests extending fingers for the count"
+    },
+    {
+     "type": "place",
+     "description": "The Chamber of Hewn Stone with its semi-circular seating for the Sanhedrin also serving as the lottery room"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why did the supervisor loosen his garment before conducting the Temple lottery?",
+     "answer": "To prevent cheating, so the priests could verify he had nothing hidden that could allow him to manipulate the outcome of the count."
+    },
+    {
+     "question": "Why were fingers counted rather than priests themselves in the Temple lottery?",
+     "answer": "Directly counting Jewish people was prohibited. Counting fingers was the workaround: it achieved the needed randomness without counting individuals directly."
+    }
+   ],
+   "finalRuling": "The lottery was conducted in the Chamber of Hewn Stone by counting extended fingers, with anti-cheating safeguards built in.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "לִשְׁכַּת הַגָּזִית",
+     "translit": "lishkat hagazit",
+     "en": "Chamber of Hewn Stone; the Sanhedrin's seat and the location of the morning Temple lottery."
+    }
+   ],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-023a-s03",
+   "lineRange": {
+    "startVilnaLine": 36,
+    "endVilnaLine": 49
+   },
+   "lines": [
+    {
+     "vilnaLine": 36,
+     "sefariaRef": "Yoma.23a.11"
+    },
+    {
+     "vilnaLine": 39,
+     "sefariaRef": "Yoma.23a.12"
+    },
+    {
+     "vilnaLine": 42,
+     "sefariaRef": "Yoma.23a.13"
+    },
+    {
+     "vilnaLine": 45,
+     "sefariaRef": "Yoma.23a.14"
+    },
+    {
+     "vilnaLine": 47,
+     "sefariaRef": "Yoma.23a.15"
+    },
+    {
+     "vilnaLine": 49,
+     "sefariaRef": "Yoma.23a.16"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.23a.11",
+    "Yoma.23a.12",
+    "Yoma.23a.13",
+    "Yoma.23a.14",
+    "Yoma.23a.15",
+    "Yoma.23a.16"
+   ],
+   "display": {
+    "title": "Through a legal technicality: how the crowd learned the stabbed priest survived",
+    "whats": "There was once an incident: two priests raced up the altar ramp; one was within four amot of the top when the other pushed him, breaking his leg. While the court was examining the question of who should perform the service, the fallen priest's father came forward and said: 'My son is still alive, so the knife is not impure.' This taught everyone that the fallen priest was still alive. The Sages then concluded: it was not disgrace of the wounded priest but of his father's words that taught people he was still alive.",
+    "hint": "The father's statement ('my son is still alive') was intended as a halakhic comment about the knife - but functionally it was an expression of relief. The Gemara notes the crowd did not realize the priest was alive until the father made his halakhic comment. The Sages drew a lesson: even in crisis, halachic sensitivity remained the operative frame."
+   },
+   "learning": {
+    "learnerQuestion": "This same incident was already mentioned back on 22a. What does this fuller telling add that the earlier summary left out?",
+    "coreTension": "Beyond the violence itself, the court faced an immediate procedural problem: with the assigned priest lying wounded and his fate uncertain, did his claim on the service lapse so another priest could be assigned? Answering that required knowing whether he was alive, and the court had no direct way to learn this in the chaos.",
+    "coreMove": "The father did not step forward to report his son's condition. He stepped forward to make a halakhic statement: the knife embedded in his son could not yet be ritually impure, since impurity from a corpse only attaches once death has occurred. That legal claim only made sense if his son was still alive, so the crowd extracted the medical fact from the halakhic reasoning, not the other way around.",
+    "resolution": "The crowd learned the priest was alive only indirectly, through his father's legal statement about the knife. The Sages drew the further conclusion that a competitive system capable of producing this kind of crisis had to be replaced, and instituted the lottery permanently.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "A halakhic statement can carry factual information as a side effect of its legal logic. Here the only way the crowd learned the priest was alive was by working backward from a claim that made sense only if he were."
+    },
+    "ahaMoment": "The father's announcement is one of the strangest moments in the Talmud: his son is lying stabbed on the altar ramp, and his public statement is about knife impurity. Yet this apparent detachment is exactly what informed the crowd that the priest had survived. The Gemara is not critical of him; it records the incident as evidence of how completely halachic categories framed even a moment of crisis.",
+    "learningBlocker": "Learners who already saw this incident summarized on 22a may treat this telling as redundant. The added detail here is the court's specific procedural dilemma (whether the service had lapsed) and the precise mechanism by which the truth reached the crowd, namely deduction from a legal claim, not a direct report.",
+    "memoryAnchor": "Priest stabbed on ramp. Court unsure if his service lapsed. Father says 'knife isn't impure', which only makes sense if his son is alive. Crowd deduces the priest survived."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-023a-l36",
+     "type": "narrative",
+     "label": "The stabbing incident",
+     "text": "Two priests raced up the ramp. One was within four amot of the top when the other pushed him and stabbed him with a knife. The priest fell with the knife embedded.",
+     "sourceRefs": [
+      "Yoma.23a.11"
+     ]
+    },
+    {
+     "id": "yoma-023a-l39",
+     "type": "narrative",
+     "label": "The court's dilemma: who performs the service now?",
+     "text": "As the wounded priest lay there, the court was uncertain whether to reassign the service to another priest immediately. The determination of whether the wound was fatal was unclear.",
+     "sourceRefs": [
+      "Yoma.23a.12"
+     ]
+    },
+    {
+     "id": "yoma-023a-l42",
+     "type": "narrative",
+     "label": "The father's announcement",
+     "text": "The wounded priest's father came forward and said: 'My son is still alive, and therefore the knife has not contracted corpse impurity.' This was a public halakhic statement about the knife's status.",
+     "sourceRefs": [
+      "Yoma.23a.13"
+     ]
+    },
+    {
+     "id": "yoma-023a-l45",
+     "type": "analysis",
+     "label": "What the father's statement taught the crowd",
+     "text": "The crowd, hearing the father's halakhic announcement, realized that the priest was indeed still alive. The information that he was alive came not from a doctor's announcement but from a legal statement about knife impurity.",
+     "sourceRefs": [
+      "Yoma.23a.14"
+     ]
+    },
+    {
+     "id": "yoma-023a-l47",
+     "type": "analysis",
+     "label": "The Sages' conclusion from this incident",
+     "text": "The Sages concluded: the knife's impurity status was the public concern, not the wounded priest's life. They instituted the lottery to prevent future competition and violence.",
+     "sourceRefs": [
+      "Yoma.23a.15"
+     ]
+    },
+    {
+     "id": "yoma-023a-l49",
+     "type": "conclusion",
+     "label": "The lottery as institutional response to violence",
+     "text": "The stabbing incident proved that a competitive system for Temple service was incompatible with holiness. The lottery replaced all racing permanently.",
+     "sourceRefs": [
+      "Yoma.23a.16"
+     ]
+    }
+   ],
+   "topicTags": [
+    "stabbing incident",
+    "lottery origins",
+    "knife impurity",
+    "priestly competition",
+    "Temple violence",
+    "father's reaction"
+   ],
+   "concepts": {
+    "halachic": [
+     "knife impurity from corpse",
+     "Temple service assignment when priest is injured"
+    ],
+    "theological": [
+     "halachic categories as primary frame",
+     "violence and holiness incompatible"
+    ],
+    "narrative": [
+     "the stabbing on the ramp and the father's strange announcement"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "yoma-022a-s01",
+    "yoma-022a-s02"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "This is a separate, different stabbing incident from the one mentioned on 22a.",
+     "correction": "It is the same incident. 22a summarizes it briefly; this sugya tells it in full detail, including the court's procedural dilemma over whether the wounded priest's service had lapsed."
+    },
+    {
+     "misconception": "The lottery was instituted specifically to prevent stabbing on the ramp.",
+     "correction": "It was instituted because the entire competitive racing system created conditions where violence was inevitable, not as a narrow fix for this one weapon or this one act."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-022a-s02",
+    "yoma-022b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "description": "A priest stabbed and lying on the altar ramp with a knife embedded; the court assembled around him trying to determine the halachic status"
+    },
+    {
+     "type": "person",
+     "description": "The wounded priest's father approaching the court and making a halakhic announcement about knife impurity rather than calling for medical help"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "How did the crowd actually learn that the stabbed priest was still alive?",
+     "answer": "Not from a direct report. His father announced that the knife had not contracted corpse impurity, a claim that only made sense if his son was alive, so the crowd deduced the priest's survival from that legal reasoning."
+    },
+    {
+     "question": "What procedural question was the court trying to resolve while the priest lay wounded?",
+     "answer": "Whether the wounded priest's claim on the service had lapsed so another priest could be assigned in his place, which depended on whether he was still alive."
+    }
+   ],
+   "finalRuling": "The stabbing incident led directly to the institution of the lottery system for all Temple service assignments.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "טוּמְאַת מֵת",
+     "translit": "tumeat met",
+     "en": "Corpse impurity; what the father feared the knife would contract if his son died while impaled."
+    }
+   ],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [
+  {
+   "he": "מְחִילָה",
+   "translit": "mechila",
+   "en": "Forgoing one's rights; a scholar may waive personal honor but not Torah's honor."
+  },
+  {
+   "he": "לִשְׁכַּת הַגָּזִית",
+   "translit": "lishkat hagazit",
+   "en": "Chamber of Hewn Stone; where the morning lottery was conducted."
+  },
+  {
+   "he": "טוּמְאַת מֵת",
+   "translit": "tumeat met",
+   "en": "Corpse impurity; what the priest's father feared the knife would contract."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "That he does not take revenge - his own revenge. And bears a grudge - hatred like a snake in his heart. I am not like you, who did not",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "lend it to me - this is bearing a grudge - for the matter remains stored in his heart and he has not put it out of his mind.",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "That he still holds it in his heart - and if another comes to take his revenge by carrying out the judgment,",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l15"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "he should keep silent. That they appease him - to seek forgiveness. Sick - he cannot suppress",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l15",
+    "yoma-023a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "his fingers, and when he puts out one, its fellow",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "comes out with it. And solitary individuals - among the sick,",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "who do not sit among other people",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "but lie or sit alone.",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "Only one - only a single man is counted.",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "They do not put out - along with the finger, neither the ring finger",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "nor the thumb, for they may not put out two. And if",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "he put out the ring finger, they count for him - for he is not a cheat,",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "since it is recognizable that it is not from two men,",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "which cannot be spread apart from one another. The thumb -",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "if he put out the thumb, they do not count for him at all,",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "but rather they remove him from among them. The officer",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "over the strap - the officer over the straps of",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "lashes. The ring finger - if",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l24",
+    "yoma-023a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "he put out the ring finger, they count for him - it might occur to you",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "to think this means they count for him as two. The strap",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l28",
+    "yoma-023a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "of the Arab traders - the straps of the Ishmaelites, made",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "into a whip for horses. Whose head is split - for that",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "reason it is called pakia, for it is not wide at its head",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "like other lashing-straps, but is split at",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "its head into thin straps, so that the horse would feel",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "it more; and pakia is a term for splitting",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "and cracking, as in 'from the worn-out breeches of the priests",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "they would pull out threads' - a term for tearing. As we learned -",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l29",
+    "yoma-023a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "in tractate Shekalim (chapter 5, mishnah 1).",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "Beivai - the man's name. They would pull out threads -",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "to make wicks for the Rejoicing of the Water-Drawing",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "during the festival. Nagda - lashing-straps. On",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l30",
+    "yoma-023a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "the steps of the portico - on the Temple Mount, Herod built many",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "porticoes there, as is written",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "in the Book of Yosef ben Gurion; 'on the steps",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "of the portico on the Temple Mount, porticoes' is what we read",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "in the Tosefta. Upon whom shall we bring it - from whose property",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "shall it be taken - from those who dwell in the city, or from",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "the priests who guard the Courtyard? They cried out - shouted.",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "Behold, he is your atonement - his death shall atone",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l42"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "for you. The four cubits, what purpose",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l42",
+    "yoma-023a-l47"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "did they serve - regarding the running in the case of",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l47"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "bloodshed. Ten things - in Bava Kama",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l47",
+    "yoma-023a-l49"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "it is enumerated in the chapter Merubah (82b).",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l49"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "It does not - the daf ends mid-word here; the comment (that Jerusalem does not require bringing an eglah arufah) continues on 23b.",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l49"
+   ]
+  }
+ ]
 }
