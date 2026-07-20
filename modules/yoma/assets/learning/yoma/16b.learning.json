@@ -1,668 +1,670 @@
 {
-  "daf": "16b",
-  "canonicalRef": "Yoma 16b",
-  "summary": "The page completes the debate over whether tractate Middot follows Rabbi Yehuda (altar centered in the courtyard) or Rabbi Eliezer ben Yaakov. R. Yehuda's position: the altar's 32 cubits are arranged 10 opposite the Sanctuary entrance, 11 to the north, 11 to the south - perfectly centered. The Gemara works through the cubit calculations and shows the altar cannot be centered if Middot's total dimensions are correct. Rav Adda bar Yitzchak offers a different resolution: the Chamber of the Lambs was not in a corner but along the middle of the west wall, appearing at different corners depending on the viewer's approach direction. The Gemara concludes the southwest corner placement (Middot/R. Eliezer ben Yaakov) is most defensible.",
-  "review": {
+ "daf": "16b",
+ "canonicalRef": "Yoma 16b",
+ "summary": "The page completes the debate over whether tractate Middot follows Rabbi Yehuda (altar centered in the courtyard) or Rabbi Eliezer ben Yaakov. R. Yehuda's position: the altar's 32 cubits are arranged 10 opposite the Sanctuary entrance, 11 to the north, 11 to the south - perfectly centered. The Gemara works through the cubit calculations and shows the altar cannot be centered if Middot's total dimensions are correct. Rav Adda bar Yitzchak offers a different resolution: the Chamber of the Lambs was not in a corner but along the middle of the west wall, appearing at different corners depending on the viewer's approach direction. The Gemara concludes the southwest corner placement (Middot/R. Eliezer ben Yaakov) is most defensible.",
+ "review": {
+  "content": "ai_generated",
+  "sourceRefs": "ai_generated"
+ },
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-16b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 21
+   },
+   "lines": [
+    {
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.16b.1"
+    },
+    {
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.16b.2"
+    },
+    {
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.16b.3"
+    },
+    {
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.16b.4"
+    },
+    {
+     "vilnaLine": 21,
+     "sefariaRef": "Yoma.16b.5"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.16b.1",
+    "Yoma.16b.2",
+    "Yoma.16b.3",
+    "Yoma.16b.4",
+    "Yoma.16b.5"
+   ],
+   "display": {
+    "title": "The cubit count rules out R. Yehuda: the altar was not centered",
+    "whats": "The extended debate over whether Tractate Middot follows R. Yehuda or R. Eliezer ben Yaakov is resolved: Middot is NOT R. Yehuda's tractate. R. Yehuda holds the altar was centered in the courtyard, but the Temple measurements prove the altar was not centered - most of it was to the south. The Gemara then works through the precise cubit counts: the altar's 32 cubits plus the ramp, the courtyard's total dimensions, and how the various structures fit.",
+    "hint": "The key is whether the altar was centered in the court (R. Yehuda) or positioned mostly to the south (Middot's implicit description). The measurements leave no room for centering, ruling out R. Yehuda as Middot's author."
+   },
+   "learning": {
+    "learnerQuestion": "Could Tractate Middot actually follow R. Yehuda, who holds the altar stood at the exact center of the courtyard?",
+    "coreTension": "R. Yehuda's centered-altar position is a real, named tannaitic view. Before settling on R. Eliezer ben Yaakov as Middot's author, the Gemara has to rule out this alternative, not just assert it away.",
+    "coreMove": "The Gemara runs the actual cubit count: Heikhal 100 cubits from the north wall, an 11-cubit gap, the 32-cubit altar, the 16-cubit ramp, and 22 cubits to the south wall. Laid end to end, the numbers leave the altar's center well south of the courtyard's midpoint, so a perfectly centered altar is not geometrically possible.",
+    "resolution": "Middot's own measurements rule out R. Yehuda's centered-altar view, confirming that Middot follows R. Eliezer ben Yaakov, whose offset-to-the-south placement matches the cubit count.",
+    "takeaway": {
+     "type": "logical_principle",
+     "text": "A halakhic position can be eliminated by showing that an opponent's stated numbers are geometrically incompatible with it, not just by preferring one tradition over another."
+    },
+    "ahaMoment": "Geometry resolves a talmudic dispute: there is not enough space north of center to accommodate R. Yehuda's centered-altar view. The numbers simply don't work.",
+    "learningBlocker": "Learners tend to skim the cubit-by-cubit count as filler detail, missing that the arithmetic itself is the refutation: it is not asserted that R. Yehuda is wrong, it is calculated.",
+    "memoryAnchor": "R. Yehuda: altar centered. Reality: altar plus ramp puts most of the altar south of center. No room left for centering. Middot is NOT R. Yehuda's."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "premise",
+     "label": "R. Yehuda: altar centered in the courtyard",
+     "speaker": "R. Yehuda",
+     "text": "R. Yehuda holds that the altar stood at the exact center of the Azara (courtyard), with equal space on all four sides.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-16b-l01",
+       "vilnaLine": 1,
+       "note": "R. Yehuda's centered-altar position"
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "refutation",
+     "label": "Measurements prove altar is mostly to the south",
+     "speaker": "Gemara",
+     "text": "The courtyard is 187 cubits north-south. The altar is 32 cubits and the ramp is 16 cubits south of it. The Sanctuary (Heikhal) occupies 100 cubits from the north. All this leaves most of the altar south of center.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-16b-l03",
+       "vilnaLine": 3,
+       "note": "Measurement refutation"
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "elaboration",
+     "label": "The cubit-by-cubit breakdown",
+     "speaker": "Gemara",
+     "text": "From north: 11 cubits (between Heikhal and altar), 32 cubits (altar), 16 cubits (ramp), 22 cubits (remaining south space). Total south section = 70 cubits. Total north section = 116 cubits (Heikhal + 11 + 5 for walls). The altar center falls at roughly cubit 48 from the south - not at the court's center.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-16b-l12",
+       "vilnaLine": 12,
+       "note": "Detailed cubit breakdown"
+      }
+     ]
+    },
+    {
+     "id": "step-04",
+     "type": "conclusion",
+     "label": "Conclusion: Middot cannot be R. Yehuda's tractate",
+     "speaker": "Gemara",
+     "text": "Since Middot's measurements show the altar cannot be centered, and R. Yehuda requires centering, R. Yehuda did not author Middot. This confirms Rav Huna's attribution to R. Eliezer ben Yaakov.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-16b-l18",
+       "vilnaLine": 18,
+       "note": "Conclusion: Middot = R. EbY, not R. Yehuda"
+      }
+     ]
+    },
+    {
+     "id": "step-05",
+     "type": "detail",
+     "label": "R. Eliezer ben Yaakov's placement is geometrically consistent",
+     "speaker": "Gemara",
+     "text": "R. Eliezer ben Yaakov's description of the altar as offset to the south (not centered) fits with Middot's actual cubit counts. This solidifies the attribution.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-16b-l21",
+       "vilnaLine": 21,
+       "note": "R. EbY's offset placement confirmed"
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "altar placement",
+    "Temple measurements",
+    "R. Yehuda",
+    "R. Eliezer ben Yaakov",
+    "Tractate Middot",
+    "courtyard geometry"
+   ],
+   "concepts": [
+    {
+     "term": "Azara",
+     "def": "The main Temple courtyard (Israelites' courtyard) measuring 187 cubits north-south and 135 cubits east-west. The altar, Heikhal, and Ulam all stand within it."
+    },
+    {
+     "term": "kevesh",
+     "def": "The ramp leading up to the altar from the south. It measured 16 cubits long and 16 cubits wide (some say 30 long). No steps were allowed; the ramp ensured dignified ascent."
+    }
+   ],
+   "conceptRefs": [
+    "Yoma.16b.1",
+    "Yoma.16b.2",
+    "Yoma.16b.4"
+   ],
+   "requiresUnderstanding": [
+    "R. Yehuda's centered-altar position",
+    "Basic Temple courtyard dimensions from Tractate Middot",
+    "The attribution debate from 16a"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "R. Yehuda's centered-altar view is a minor position the Gemara dismisses out of hand.",
+     "correction": "The Gemara takes it seriously and refutes it with a precise cubit-by-cubit measurement count, not a bare assertion."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-16a-s01",
+    "yoma-17a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "place",
+     "desc": "Courtyard floor plan with cubit measurements: Heikhal (N), 11 cubit gap, 32 cubit altar, 16 cubit ramp, 22 cubits to south wall. Shows altar is NOT centered."
+    },
+    {
+     "type": "contrast",
+     "desc": "R. Yehuda's centered altar vs actual Middot layout with altar offset south - both drawn to scale showing why centering is impossible"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why can't Tractate Middot reflect R. Yehuda's position about the altar?",
+     "answer": "R. Yehuda says the altar was centered in the courtyard. But Middot's cubit counts (Heikhal 100 cubits from north, an 11-cubit gap, the 32-cubit altar, and the 16-cubit ramp) leave the altar entirely in the south portion - it cannot be centered."
+    },
+    {
+     "question": "What is the kevesh, and what halakhic requirement explains its shape?",
+     "answer": "The 16-cubit ramp leading up to the altar. It has no steps, because the Torah forbids ascending the altar by steps, so a sloped ramp was used instead to preserve dignified ascent."
+    }
+   ],
+   "finalRuling": "Established: Tractate Middot is NOT R. Yehuda's. Rav Huna's attribution to R. Eliezer ben Yaakov stands. The altar was offset south, not centered.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "כֶּבֶשׁ",
+     "translit": "kevesh",
+     "en": "The ramp leading to the altar top - no steps, because the Torah forbids ascending steps to the altar. 16 cubits long."
+    },
+    {
+     "he": "עֲזָרָה",
+     "translit": "Azara",
+     "en": "The Israelites' courtyard - the main inner courtyard of the Temple. 187 cubits north-south by 135 east-west."
+    }
+   ],
+   "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
+   }
+  }
+ ],
+ "glossary": [
+  {
+   "he": "כֶּבֶשׁ",
+   "translit": "kevesh",
+   "en": "The ramp leading to the altar top - no steps, because the Torah forbids ascending steps to the altar. 16 cubits long."
   },
-  "sugyot": [
-    {
-      "sugyaNumber": 1,
-      "id": "yoma-16b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 21
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.16b.1"
-        },
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.16b.2"
-        },
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.16b.3"
-        },
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.16b.4"
-        },
-        {
-          "vilnaLine": 21,
-          "sefariaRef": "Yoma.16b.5"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.16b.1",
-        "Yoma.16b.2",
-        "Yoma.16b.3",
-        "Yoma.16b.4",
-        "Yoma.16b.5"
-      ],
-      "display": {
-        "title": "The cubit count rules out R. Yehuda: the altar was not centered",
-        "whats": "The extended debate over whether Tractate Middot follows R. Yehuda or R. Eliezer ben Yaakov is resolved: Middot is NOT R. Yehuda's tractate. R. Yehuda holds the altar was centered in the courtyard, but the Temple measurements prove the altar was not centered - most of it was to the south. The Gemara then works through the precise cubit counts: the altar's 32 cubits plus the ramp, the courtyard's total dimensions, and how the various structures fit.",
-        "hint": "The key is whether the altar was centered in the court (R. Yehuda) or positioned mostly to the south (Middot's implicit description). The measurements leave no room for centering, ruling out R. Yehuda as Middot's author."
-      },
-      "learning": {
-        "learnerQuestion": "Could Tractate Middot actually follow R. Yehuda, who holds the altar stood at the exact center of the courtyard?",
-        "coreTension": "R. Yehuda's centered-altar position is a real, named tannaitic view. Before settling on R. Eliezer ben Yaakov as Middot's author, the Gemara has to rule out this alternative, not just assert it away.",
-        "coreMove": "The Gemara runs the actual cubit count: Heikhal 100 cubits from the north wall, an 11-cubit gap, the 32-cubit altar, the 16-cubit ramp, and 22 cubits to the south wall. Laid end to end, the numbers leave the altar's center well south of the courtyard's midpoint, so a perfectly centered altar is not geometrically possible.",
-        "resolution": "Middot's own measurements rule out R. Yehuda's centered-altar view, confirming that Middot follows R. Eliezer ben Yaakov, whose offset-to-the-south placement matches the cubit count.",
-        "takeaway": {
-          "type": "logical_principle",
-          "text": "A halakhic position can be eliminated by showing that an opponent's stated numbers are geometrically incompatible with it, not just by preferring one tradition over another."
-        },
-        "ahaMoment": "Geometry resolves a talmudic dispute: there is not enough space north of center to accommodate R. Yehuda's centered-altar view. The numbers simply don't work.",
-        "learningBlocker": "Learners tend to skim the cubit-by-cubit count as filler detail, missing that the arithmetic itself is the refutation: it is not asserted that R. Yehuda is wrong, it is calculated.",
-        "memoryAnchor": "R. Yehuda: altar centered. Reality: altar plus ramp puts most of the altar south of center. No room left for centering. Middot is NOT R. Yehuda's."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "premise",
-          "label": "R. Yehuda: altar centered in the courtyard",
-          "speaker": "R. Yehuda",
-          "text": "R. Yehuda holds that the altar stood at the exact center of the Azara (courtyard), with equal space on all four sides.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-16b-l01",
-              "vilnaLine": 1,
-              "note": "R. Yehuda's centered-altar position"
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "refutation",
-          "label": "Measurements prove altar is mostly to the south",
-          "speaker": "Gemara",
-          "text": "The courtyard is 187 cubits north-south. The altar is 32 cubits and the ramp is 16 cubits south of it. The Sanctuary (Heikhal) occupies 100 cubits from the north. All this leaves most of the altar south of center.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-16b-l03",
-              "vilnaLine": 3,
-              "note": "Measurement refutation"
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "elaboration",
-          "label": "The cubit-by-cubit breakdown",
-          "speaker": "Gemara",
-          "text": "From north: 11 cubits (between Heikhal and altar), 32 cubits (altar), 16 cubits (ramp), 22 cubits (remaining south space). Total south section = 70 cubits. Total north section = 116 cubits (Heikhal + 11 + 5 for walls). The altar center falls at roughly cubit 48 from the south - not at the court's center.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-16b-l12",
-              "vilnaLine": 12,
-              "note": "Detailed cubit breakdown"
-            }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "conclusion",
-          "label": "Conclusion: Middot cannot be R. Yehuda's tractate",
-          "speaker": "Gemara",
-          "text": "Since Middot's measurements show the altar cannot be centered, and R. Yehuda requires centering, R. Yehuda did not author Middot. This confirms Rav Huna's attribution to R. Eliezer ben Yaakov.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-16b-l18",
-              "vilnaLine": 18,
-              "note": "Conclusion: Middot = R. EbY, not R. Yehuda"
-            }
-          ]
-        },
-        {
-          "id": "step-05",
-          "type": "detail",
-          "label": "R. Eliezer ben Yaakov's placement is geometrically consistent",
-          "speaker": "Gemara",
-          "text": "R. Eliezer ben Yaakov's description of the altar as offset to the south (not centered) fits with Middot's actual cubit counts. This solidifies the attribution.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-16b-l21",
-              "vilnaLine": 21,
-              "note": "R. EbY's offset placement confirmed"
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "altar placement",
-        "Temple measurements",
-        "R. Yehuda",
-        "R. Eliezer ben Yaakov",
-        "Tractate Middot",
-        "courtyard geometry"
-      ],
-      "concepts": [
-        {
-          "term": "Azara",
-          "def": "The main Temple courtyard (Israelites' courtyard) measuring 187 cubits north-south and 135 cubits east-west. The altar, Heikhal, and Ulam all stand within it."
-        },
-        {
-          "term": "kevesh",
-          "def": "The ramp leading up to the altar from the south. It measured 16 cubits long and 16 cubits wide (some say 30 long). No steps were allowed; the ramp ensured dignified ascent."
-        }
-      ],
-      "conceptRefs": [
-        "Yoma.16b.1",
-        "Yoma.16b.2",
-        "Yoma.16b.4"
-      ],
-      "requiresUnderstanding": [
-        "R. Yehuda's centered-altar position",
-        "Basic Temple courtyard dimensions from Tractate Middot",
-        "The attribution debate from 16a"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "R. Yehuda's centered-altar view is a minor position the Gemara dismisses out of hand.",
-          "correction": "The Gemara takes it seriously and refutes it with a precise cubit-by-cubit measurement count, not a bare assertion."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-16a-s01",
-        "yoma-17a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "place",
-          "desc": "Courtyard floor plan with cubit measurements: Heikhal (N), 11 cubit gap, 32 cubit altar, 16 cubit ramp, 22 cubits to south wall. Shows altar is NOT centered."
-        },
-        {
-          "type": "contrast",
-          "desc": "R. Yehuda's centered altar vs actual Middot layout with altar offset south - both drawn to scale showing why centering is impossible"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why can't Tractate Middot reflect R. Yehuda's position about the altar?",
-          "answer": "R. Yehuda says the altar was centered in the courtyard. But Middot's cubit counts (Heikhal 100 cubits from north, an 11-cubit gap, the 32-cubit altar, and the 16-cubit ramp) leave the altar entirely in the south portion - it cannot be centered."
-        },
-        {
-          "question": "What is the kevesh, and what halakhic requirement explains its shape?",
-          "answer": "The 16-cubit ramp leading up to the altar. It has no steps, because the Torah forbids ascending the altar by steps, so a sloped ramp was used instead to preserve dignified ascent."
-        }
-      ],
-      "finalRuling": "Established: Tractate Middot is NOT R. Yehuda's. Rav Huna's attribution to R. Eliezer ben Yaakov stands. The altar was offset south, not centered.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "כֶּבֶשׁ",
-          "translit": "kevesh",
-          "en": "The ramp leading to the altar top - no steps, because the Torah forbids ascending steps to the altar. 16 cubits long."
-        },
-        {
-          "he": "עֲזָרָה",
-          "translit": "Azara",
-          "en": "The Israelites' courtyard - the main inner courtyard of the Temple. 187 cubits north-south by 135 east-west."
-        }
-      ],
-      "review": {
-        "content": "ai_generated",
-        "sourceRefs": "ai_generated"
-      }
-    }
-  ],
-  "glossary": [
-    {
-      "he": "כֶּבֶשׁ",
-      "translit": "kevesh",
-      "en": "The ramp leading to the altar top - no steps, because the Torah forbids ascending steps to the altar. 16 cubits long."
-    },
-    {
-      "he": "עֲזָרָה",
-      "translit": "Azara",
-      "en": "The Israelites' courtyard - the main inner courtyard of the Temple. 187 cubits north-south by 135 east-west."
-    }
-  ],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "en": "Opens 'ten cubits opposite the entrance of the Sanctuary': ten being the middle portion of its width. Then opens 'eleven",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "continuing: to the north': corresponding to the five cubits remaining of the Sanctuary's open space from the doorpost northward,",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "continuing: since the Sanctuary's open space is twenty cubits wide, and corresponding to the six cubits of the thickness of the north wall of the",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "closing: Sanctuary; and so too to the south - it turns out that the altar's width is precisely matched against the Sanctuary and its walls.",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "Opens 'and if it should enter your mind that Middot follows Rabbi Yehuda",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "continuing: 's view, etc.': this is a refutation that",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "continuing: the Gemara raises against Rav Adda, who established it as following Rabbi Yehuda:",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: for if the unattributed teachings of Middot are Rabbi Yehuda's,",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "continuing: where would you find the altar coming in the middle of the Courtyard, according to",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "closing: the unattributed teaching of Middot? Then opens 'all",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: the circuit of the Courtyard': the great one, in length a hundred and eighty-seven,",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: and within that circuit the Temple building was constructed on the",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "continuing: western side, with the courtyard and the altar to its east: the Sanctuary was",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "continuing: a hundred cubits in length, together with the wall of the Entrance Hall and its open space,",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: and the wall of the Sanctuary and its open space, and the cubit of the partition (traksin),",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: and the open space of the Holy of Holies, and the thickness of the",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: western wall, and the open space of the side-chamber behind it, and the thickness of the",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: outer wall - this is explained thus in tractate",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: Middot, and it is brought further on, in the chapter 'they brought it out'",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "closing: (52b).' Then opens 'eleven cubits': there was a space",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: empty behind the place of the Ark-cover, between the wall",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "closing: of the side-chamber and the wall of the Courtyard.' Then opens 'the ramp and the altar",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: etc.': and it did not yet specify the empty space",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: between the ramp and the southern wall of the Courtyard,",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: and it teaches that in the latter clause; and now it counts onward",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "closing: from south to north.' Then opens 'from the altar",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: to the rings': fixed in the ground",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: in the slaughterhouse area, which is north of the altar,",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: into which they place the necks of the animals when slaughtering",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "closing: offerings of the most sacred order, whose slaughter is in the north.' Then opens 'tables': on which they rinse the innards of",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "closing: sacred offerings.' Then opens 'nanasin': low pillars fixed in the ground, with iron",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "closing: hooks fixed in them, on which they hang the animal to flay it.' Then opens 'and the remainder' -",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: of the hundred and thirty-five cubits not otherwise counted here; and the place of the tables, which did not",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "continuing: need to be specified since its width is specified in the book of Ezekiel (40) - that surplus",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "closing: divide it, half to the south between the ramp and the wall, and half to the place of the nanasin.' Then opens 'the majority",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "continuing: of the altar stands to the south': according to this count. For half the width of the Courtyard is sixty",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "continuing: -seven and a half; and when you subtract from them, from the north wall to the nanasin, eight, and from the nanasin",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: to the tables four - that makes twelve; and the space of four tables set side by side is no less",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "continuing: than four, since there were eight tables, as we learned in Shekalim (9b): four were set at the head",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: of four rows - so it comes to four side by side in width, that is sixteen; and from there to the rings, four -",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "continuing: that makes twenty; and the space of the rings, twenty-four, that makes forty-four; and from the rings to the altar, eight -",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "continuing: that makes fifty-two; and the space of the nanasin, ten and a half cubits, which is half of the remainder left over",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "continuing: from what was not counted in the mishna, since it counted a hundred and ten cubits from the ramp",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "continuing: to the north; there remained, of the hundred and thirty-five of the Courtyard's width, twenty-five, and they gave",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "continuing: four to the tables, and twenty-one remained; divide that for the place of the nanasin, half and half -",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "continuing: the second half between the ramp and the wall - so from the altar to the north it is sixty-two and a half; when you add",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "continuing: the five northern cubits of the altar to them, that makes half the Courtyard's width, which is sixty-seven and a half; it turns out that twenty-seven cubits from the southern side of the altar end within the southern half",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "continuing: of the Courtyard, and it turns out that the north side of the altar ends at the north edge of the entrance's open space, next to the doorpost. Subtract from the altar's position two cubits for the intrusion of the base and the ledge -",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "continuing: it turns out that the north side of the entrance's open space is exposed above the ledge's intrusion by two cubits, and the priest atop the Mount of Anointing can, through those two cubits, see the entrance of the Sanctuary",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "continuing: through the lower entrance. And if you should say the six-cubit height by which the altar rises to the ledge's intrusion blocks the lower entrance - that is not so, for the floor of the Courtyard",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "continuing: rose from the floor of the Temple Mount by only thirteen and a half, and six for the height of the ledge - that makes nineteen and a half; there still remains half a cubit in the height of the",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "continuing: lower entrance. Rather, must it not be Rabbi Eliezer's view, and it was obscured to him by the extra step - so it would seem; yet my heart is uncertain about this, for one might say: since the mishna did not specify the place of the tables,",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "continuing: perhaps it is included, together with the place of the nanasin, within that portion which you divide - the twenty-five extra cubits in the Courtyard's width beyond the hundred and ten specified; it turns out",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "continuing: from the ramp to the south wall is twelve and a half, and the ramp and the altar sixty-two, that makes seventy-four and a half; subtract from them two cubits for the intrusion of the base and the ledge; toward the north there remain seventy-two",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "continuing: and a half, and the entrance's open space would not be exposed a full thread's width, since the middle of the entrance is at the middle of the Courtyard's width, which comes to sixty-seven and a half; add to them",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "continuing: five cubits, so as to make seventy-two and a half - you have here included the five cubits of half the northern entrance. And I heard it this way: that the place of the tables is included with",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "continuing: the place of the nanasin. But as for what we learned here, 'and the remainder, between the ramp and the wall, and the place of the nanasin' - my honored teacher, Rabbeinu Yitzchak bar Yehuda, may his memory be blessed, explained to me: twelve",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "continuing: of the twenty-five go between the ramp and the wall, and thirteen to the place of the nanasin and the tables; and he gave a reason for his words, since between the ramp and the wall there is",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "continuing: an empty space, whereas here there is a functional need for the tables and the nanasin; and it turns out that half a cubit of the entrance's open space is exposed - yet my heart is still uncertain, since the tanna should have specified this, and since",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 60,
-      "en": "continuing: he did not specify it, you must divide it in half; and if you come to increase here and decrease there, you can expose the entrance as much as you wish, or cover it as much",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 61,
-      "en": "closing: as you wish - therefore I prefer it as I explained (rather than saying that the altar ends exactly at the edge of half the southern width of the Sanctuary, opposite the entrance's open space).",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 62,
-      "en": "Opens 'rather' -",
-      "linkedGemaraLineIds": [
-        "yoma-016b-l21"
-      ]
-    }
-  ]
+  {
+   "he": "עֲזָרָה",
+   "translit": "Azara",
+   "en": "The Israelites' courtyard - the main inner courtyard of the Temple. 187 cubits north-south by 135 east-west."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'Ten cubits opposite the entrance of the Sanctuary' - ten being the middle portion of its width. 'Eleven",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "to the north' - corresponding to the five cubits remaining of the Sanctuary's open space from the doorpost northward,",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "since the Sanctuary's open space is twenty cubits wide, and corresponding to the six cubits of the thickness of the north wall of the",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "Sanctuary; and so too to the south - it turns out that the altar's width is precisely matched against the Sanctuary and its walls",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "'And if it should enter your mind that Middot follows Rabbi Yehuda's",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "view, etc.' - this is a refutation that",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "the Gemara raises against Rav Adda, who established it as following Rabbi Yehuda:",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "for if the unattributed teachings of Middot are Rabbi Yehuda's,",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "where would you find the altar coming in the middle of the Courtyard, according to",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "the unattributed teaching of Middot? 'All",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "the circuit of the Courtyard' - the great one, in length a hundred and eighty-seven,",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "and within that circuit the Temple building was constructed on the",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "western side, with the courtyard and the altar to its east; the Sanctuary was",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "a hundred cubits in length, together with the wall of the Entrance Hall and its open space,",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "and the wall of the Sanctuary and its open space, and the cubit of the partition (traksin),",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "and the open space of the Holy of Holies, and the thickness of the",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "western wall, and the open space of the side-chamber behind it, and the thickness of the",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "outer wall - this is explained thus in tractate",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "Middot, and it is brought further on, in the chapter 'they brought it out'",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "(52b). 'Eleven cubits' - there was a space",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "empty behind the place of the Ark-cover, between the wall",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "of the side-chamber and the wall of the Courtyard. 'The ramp and the altar",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l03",
+    "yoma-016b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "etc.' - and it did not yet specify the empty space",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "between the ramp and the southern wall of the Courtyard,",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "and it teaches that in the latter clause; and now it counts onward",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "from south to north. 'From the altar",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "to the rings' - fixed in the ground",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "in the slaughterhouse area, which is north of the altar,",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "into which they place the necks of the animals when slaughtering",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "offerings of the most sacred order, whose slaughter is in the north. 'Tables' - on which they rinse the innards of",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "sacred offerings. 'Nanasin' - low pillars fixed in the ground, with iron",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "hooks fixed in them, on which they hang the animal to flay it. 'And the remainder' -",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "of the hundred and thirty-five cubits not otherwise counted here; and the place of the tables, which did not",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "need to be specified since its width is specified in the book of Ezekiel (40) - that surplus",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "divide it: half to the south between the ramp and the wall, and half to the place of the nanasin. 'The majority",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l12",
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "of the altar stands to the south' - according to this count. For half the width of the Courtyard is sixty",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "-seven and a half; and when you subtract from them, from the north wall to the nanasin, eight, and from the nanasin",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "to the tables four - that makes twelve; and the space of four tables set side by side is no less",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "than four, since there were eight tables, as we learned in Shekalim (9b): four were set at the head",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "of four rows - so it comes to four side by side in width, that is sixteen; and from there to the rings, four -",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "that makes twenty; and the space of the rings, twenty-four, that makes forty-four; and from the rings to the altar, eight -",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "that makes fifty-two; and the space of the nanasin, ten and a half cubits, which is half of the remainder left over",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "from what was not counted in the mishna, since it counted a hundred and ten cubits from the ramp",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "to the north; there remained, of the hundred and thirty-five of the Courtyard's width, twenty-five, and they gave",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "four to the tables, and twenty-one remained; divide that for the place of the nanasin, half and half -",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "the second half between the ramp and the wall - so from the altar to the north it is sixty-two and a half; when you add",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "the five northern cubits of the altar to them, that makes half the Courtyard's width, which is sixty-seven and a half; it turns out that twenty-seven cubits from the southern side of the altar end within the southern half",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "of the Courtyard, and it turns out that the north side of the altar ends at the north edge of the entrance's open space, next to the doorpost. Subtract from the altar's position two cubits for the intrusion of the base and the ledge -",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "it turns out that the north side of the entrance's open space is exposed above the ledge's intrusion by two cubits, and the priest atop the Mount of Anointing can, through those two cubits, see the entrance of the Sanctuary",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "through the lower entrance. And if you should say the six-cubit height by which the altar rises to the ledge's intrusion blocks the lower entrance - that is not so, for the floor of the Courtyard",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "rose from the floor of the Temple Mount by only thirteen and a half, and six for the height of the ledge - that makes nineteen and a half; there still remains half a cubit in the height of the",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "lower entrance. Rather, must it not be Rabbi Eliezer's view, and it was obscured to him by the extra step - so it would seem; yet my heart is uncertain about this, for one might say: since the mishna did not specify the place of the tables,",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "perhaps it is included, together with the place of the nanasin, within that portion which you divide, the twenty-five extra cubits in the Courtyard's width beyond the hundred and ten specified; it turns out",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "from the ramp to the south wall is twelve and a half, and the ramp and the altar sixty-two, that makes seventy-four and a half; subtract from them two cubits for the intrusion of the base and the ledge; toward the north there remain seventy-two",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "and a half, and the entrance's open space would not be exposed a full thread's width, since the middle of the entrance is at the middle of the Courtyard's width, which comes to sixty-seven and a half; add to them",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "five cubits, so as to make seventy-two and a half - you have here included the five cubits of half the northern entrance. And I heard it this way: that the place of the tables is included with",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "the place of the nanasin. But as for what we learned here, 'and the remainder, between the ramp and the wall, and the place of the nanasin' - my honored teacher, Rabbeinu Yitzchak bar Yehuda, may his memory be blessed, explained to me: twelve",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "of the twenty-five go between the ramp and the wall, and thirteen to the place of the nanasin and the tables; and he gave a reason for his words, since between the ramp and the wall there is",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "empty space, whereas here there is a functional need for the tables and the nanasin; and it turns out that half a cubit of the entrance's open space is exposed - yet my heart is still uncertain, since the tanna should have specified this, and since",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "he did not specify it, you must divide it in half; and if you come to increase here and decrease there, you can expose the entrance as much as you wish, or cover it as much",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "as you wish - therefore I prefer it as I explained (rather than saying that the altar ends exactly at the edge of half the southern width of the Sanctuary, opposite the entrance's open space)",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "'Rather' - the daf ends mid-word here; the comment (concluding that it must be Rabbi Eliezer ben Yaakov's view, obscured by the extra step, not by the altar) continues on 17a.",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l21"
+   ]
+  }
+ ]
 }
