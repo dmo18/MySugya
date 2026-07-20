@@ -166278,11 +166278,14 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 1,
         he: "שלא כסדר. היה לו לשאול הירד שאול היסגירוני לפיכך השיבוהו על הראוי לשאול ראשון: ואם הוצרך לשניהן. כגון שהיה הדבר",
-        en: "the questions were asked out of order and answered in order - David should have asked about Saul first",
+        en: "'Not in order' - he should have asked, 'will Saul come down,' therefore they answered him first regarding the question fit to be asked first. 'And if the matter required both' - such as when the matter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l01",
+          "yoma-073b-l04"
+        ]
       },
       {
         id: "rashi-yoma-073b-002",
@@ -166290,11 +166293,14 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 2,
         he: "נחוץ ואין שהות להמתין כגון הארדוף האשיגנו דצקלג: גזירת נביא חוזרת. כגון של יונה בן אמיתי: שנאמר במשפט. כדין שאינו חוזר:",
-        en: "if the matter requires two answers simultaneously, the response comes in two parts",
+        en: "was urgent and there was no time to wait, such as 'shall I pursue, will I overtake them' regarding Ziklag. 'A prophet's decree can be reversed' - such as that of Jonah son of Amittai. 'As it is stated, by the judgment' - meaning a law that is not reversed.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l04",
+          "yoma-073b-l07"
+        ]
       },
       {
         id: "rashi-yoma-073b-003",
@@ -166302,11 +166308,14 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 3,
         he: "שמאירין את דבריהם. מפרשי' את דבריהן: משלימין את דבריהן. כדאמרן אין גזירתן חוזרת: לא השלימו. שאמרו עליהן בשני",
-        en: "even though a prophet's decree can be reversed, the Urim VeTummim's answer cannot be revoked",
+        en: "'That they illuminate their words' - they explain their words. 'That they complete their words' - as we have said, their decree is not reversed. 'They did not complete it' - meaning it was said of them that on the first two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l08",
+          "yoma-073b-l10a"
+        ]
       },
       {
         id: "rashi-yoma-073b-004",
@@ -166314,11 +166323,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 4,
         he: "ימים הראשונים עלו אליו ונפלו: הם שלא ביחנו. אורים ותומים לא פירשו להם בשני ימים הראשונים עלו והצליחו אלא עלו אליו אם",
-        en: "why is it called Urim VeTummim? Urim (from or, light) - it illuminates; Tummim (from tam, complete) - it fulfills its words",
+        en: "days they went up against him and fell. 'They did not distinguish' - the Urim VeTummim did not clarify for them on the first two days 'go up and succeed'; rather, it only said 'go up against him,' whether",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l10b"
+        ]
       },
       {
         id: "rashi-yoma-073b-005",
@@ -166326,11 +166337,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 5,
         he: "לנצח אם להנצח: באחרונה. פירשו",
-        en: "at Gibeah of Benjamin, why did they fail the first two times?",
+        en: "to win or to be defeated. 'On the last occasion' - it clarified",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l10b"
+        ]
       },
       {
         id: "rashi-yoma-073b-006",
@@ -166338,11 +166351,14 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 6,
         he: "להם כי מחר אתננו בידך: בולטות.",
-        en: "they did not check the Urim properly the first two times; only the third time did they consult and receive full guidance",
+        en: "for them, 'for tomorrow I will deliver him into your hand.' 'They protrude'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l10b",
+          "yoma-073b-l13"
+        ]
       },
       {
         id: "rashi-yoma-073b-007",
@@ -166350,11 +166366,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 7,
         he: "האותיות בולטות כגון עי\"ן משמעון",
-        en: "how does the Urim VeTummim work? Rabbi Yochanan: the letters protrude. Reish Lakish: they join to spell the answer",
+        en: "- the letters protrude, such as the ayin from 'Shimon,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l13"
+        ]
       },
       {
         id: "rashi-yoma-073b-008",
@@ -166362,11 +166380,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 8,
         he: "למ\"ד מלוי ה\"י מיהודה לומר עלה",
-        en: "but the letter tzadi is not in the tribal names - Rav Shmuel bar Yitzchak: Abraham + Shevet fills the missing letters",
+        en: "the lamed from 'Levi,' the heh from 'Yehuda,' to spell 'go up,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l13"
+        ]
       },
       {
         id: "rashi-yoma-073b-009",
@@ -166374,11 +166394,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 9,
         he: "וכל אחת אינה זזה ממקומה אלא",
-        en: "an objection: any priest who does not speak via the Holy Spirit should not be consulted - only one filled with the Divine Presence",
+        en: "and each letter does not move from its place, but rather",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l13"
+        ]
       },
       {
         id: "rashi-yoma-073b-010",
@@ -166386,11 +166408,14 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 10,
         he: "בולטת במקומה והוא מצרפן: והא",
-        en: "the Shechinah would assist the HP in forming the answer",
+        en: "protrudes in its place, and he joins them together. 'But",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l13",
+          "yoma-073b-l14"
+        ]
       },
       {
         id: "rashi-yoma-073b-011",
@@ -166398,11 +166423,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 11,
         he: "לא כתב צד\"י. בכל השבטים ואם",
-        en: "only a king may consult the Urim VeTummim - from where? Rabbi Abbahu: from the verse about Pinchas and Yehoshua",
+        en: "isn't it so that the letter tzadi is not written' - among any of the tribal names, and if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l14"
+        ]
       },
       {
         id: "rashi-yoma-073b-012",
@@ -166410,11 +166437,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 12,
         he: "צריך לה כגון והצל תציל מהיכן באה:",
-        en: "the Hadran (closing formula for Chapter 7)",
+        en: "it is needed, such as for 'and you shall surely rescue,' from where does it come?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l14"
+        ]
       },
       {
         id: "rashi-yoma-073b-013",
@@ -166422,11 +166451,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 13,
         he: "שהרי שאל צדוק. כשהיה דוד בורח",
-        en: "Mishnah Chapter 8: Yom Kippur is forbidden for eating, drinking, bathing, anointing, wearing sandals, and marital relations",
+        en: "'For Tzadok asked' - when David was fleeing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l16"
+        ]
       },
       {
         id: "rashi-yoma-073b-014",
@@ -166434,11 +166465,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 14,
         he: "מפני אבשלום: שנאמר ויעל אביתר",
-        en: "the measure for eating on Yom Kippur is a large date-bulk; for drinking, a cheek-full",
+        en: "from Avshalom. 'As it is stated, and Evyatar went up",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l16"
+        ]
       },
       {
         id: "rashi-yoma-073b-015",
@@ -166446,11 +166479,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 15,
         he: "עד תום כל העם לעבור. ותניא",
-        en: "Gemara: the mishna says 'forbidden' but eating on Yom Kippur is punishable by karet - why use the weaker term?",
+        en: "until all the people had finished passing' - and it is taught",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l16"
+        ]
       },
       {
         id: "rashi-yoma-073b-016",
@@ -166458,11 +166493,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 16,
         he: "בסדר עולם ושאל באורים ותומים",
-        en: "this works for the one who holds chatzi shi'ur (half-measure) is forbidden by Torah - the mishna teaches even less than the shiur is forbidden",
+        en: "in Seder Olam that he asked through the Urim VeTummim",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l16"
+        ]
       },
       {
         id: "rashi-yoma-073b-017",
@@ -166470,11 +166507,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 17,
         he: "ולא עלתה לו ונסתלק מן הכהונה",
-        en: "it was stated: chatzi shi'ur - Rabbi Yochanan says forbidden by Torah; Reish Lakish says forbidden only rabbinically",
+        en: "and it did not succeed for him, and he was removed from the priesthood,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l16"
+        ]
       },
       {
         id: "rashi-yoma-073b-018",
@@ -166482,11 +166521,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 18,
         he: "שנאמר ויעל אביתר מדקתני דבעי",
-        en: "if Reish Lakish holds it is only rabbinic, then why would an oath not to eat on Yom Kippur be bindng?",
+        en: "as it is stated, 'and Evyatar went up'; from the fact that it teaches that it requires",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l16"
+        ]
       },
       {
         id: "rashi-yoma-073b-019",
@@ -166494,11 +166535,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 19,
         he: "כהן המדבר ברוח הקודש אלמא",
-        en: "and we discussed: why would he be liable? He is already under oath from Sinai - Rabbi Yochanan explains",
+        en: "a priest who speaks with the Holy Spirit, this shows",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l16"
+        ]
       },
       {
         id: "rashi-yoma-073b-020",
@@ -166506,11 +166549,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 20,
         he: "לא בולטות ולא מצטרפות היו דאם",
-        en: "Reish Lakish says: the oath case only works if he specified exactly half a measure - otherwise there is no new prohibition",
+        en: "that the letters do not simply protrude nor merely join on their own, for if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l16"
+        ]
       },
       {
         id: "rashi-yoma-073b-021",
@@ -166518,11 +166563,14 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 21,
         he: "כן למה לי רוח הקודש: סיועי הוה",
-        en: "[Rashi commentary on line 21]: כן למה לי רוח הקודש: סיועי הוה",
+        en: "so, why would I need the Holy Spirit? 'It was an assistance",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l16",
+          "yoma-073b-l19a"
+        ]
       },
       {
         id: "rashi-yoma-073b-022",
@@ -166530,11 +166578,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 22,
         he: "מסייע. כהן בהדי אורים ותומים",
-        en: "[Rashi commentary on line 22]: מסייע. כהן בהדי אורים ותומים",
+        en: "that assisted' - the priest, together with the Urim VeTummim;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l19a"
+        ]
       },
       {
         id: "rashi-yoma-073b-023",
@@ -166542,11 +166592,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 23,
         he: "הלכך אם כהן כשר היה וראוי",
-        en: "[Rashi commentary on line 23]: הלכך אם כהן כשר היה וראוי",
+        en: "therefore, if the priest was fit and worthy",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l19a"
+        ]
       },
       {
         id: "rashi-yoma-073b-024",
@@ -166554,11 +166606,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 24,
         he: "לשרות שכינה עליו האותיות בולטות",
-        en: "[Rashi commentary on line 24]: לשרות שכינה עליו האותיות בולטות",
+        en: "for the Divine Presence to rest upon him, the letters would protrude",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l19a"
+        ]
       },
       {
         id: "rashi-yoma-073b-025",
@@ -166566,11 +166620,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 25,
         he: "או מצטרפות על ידו כשנשאלין בו",
-        en: "[Rashi commentary on line 25]: או מצטרפות על ידו כשנשאלין בו",
+        en: "or join through him when he was consulted,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l19a"
+        ]
       },
       {
         id: "rashi-yoma-073b-026",
@@ -166578,11 +166634,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 26,
         he: "ואם לאו לא בולטות ולא מצטרפות:",
-        en: "[Rashi commentary on line 26]: ואם לאו לא בולטות ולא מצטרפות:",
+        en: "but if not, they would neither protrude nor join.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l19a"
+        ]
       },
       {
         id: "rashi-yoma-073b-027",
@@ -166590,11 +166648,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 27,
         he: "הוא זה מלך. דהא ביהושע משתעי",
-        en: "[Rashi commentary on line 27]: הוא זה מלך. דהא ביהושע משתעי",
+        en: "'He' - this is the king, for the verse is speaking",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l19b"
+        ]
       },
       {
         id: "rashi-yoma-073b-028",
@@ -166602,11 +166662,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 28,
         he: "קרא: וכל בני ישראל אתו. מי שכל",
-        en: "[Rashi commentary on line 28]: קרא: וכל בני ישראל אתו. מי שכל",
+        en: "of Yehoshua. 'And all Israel with him' - one whom all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l19b"
+        ]
       },
       {
         id: "rashi-yoma-073b-029",
@@ -166614,11 +166676,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 29,
         he: "בני ישראל אתו לצאת למלחמה אחריו:",
-        en: "[Rashi commentary on line 29]: בני ישראל אתו לצאת למלחמה אחריו:",
+        en: "of Israel go out to war after him.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l19b"
+        ]
       },
       {
         id: "rashi-yoma-073b-030",
@@ -166626,11 +166690,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 30,
         he: "הדרן עלך בא לו",
-        en: "[Rashi commentary on line 30]: הדרן עלך בא לו",
+        en: "'We shall return to you' - the beginning of the next chapter, 'The High Priest Comes.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l23"
+        ]
       },
       {
         id: "rashi-yoma-073b-031",
@@ -166638,11 +166704,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 31,
         he: "יום הכפורים אסור באכילה",
-        en: "[Rashi commentary on line 31]: יום הכפורים אסור באכילה",
+        en: "'The Mishnah states: Yom Kippur is forbidden for eating",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l24"
+        ]
       },
       {
         id: "rashi-yoma-073b-032",
@@ -166650,11 +166718,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 32,
         he: "ובשתיה וכו'. מפרש בגמרא",
-        en: "[Rashi commentary on line 32]: ובשתיה וכו'. מפרש בגמרא",
+        en: "and drinking,' etc. - this is explained in the Gemara,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l24"
+        ]
       },
       {
         id: "rashi-yoma-073b-033",
@@ -166662,11 +166732,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 33,
         he: "דכל הני איקרו עינוי וגבי יוה\"כ",
-        en: "[Rashi commentary on line 33]: דכל הני איקרו עינוי וגבי יוה\"כ",
+        en: "that all of these are called 'affliction,' and regarding Yom Kippur",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l24"
+        ]
       },
       {
         id: "rashi-yoma-073b-034",
@@ -166674,11 +166746,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 34,
         he: "ה' עינויי' כתיבי והני ה' הוו דשתיה",
-        en: "[Rashi commentary on line 34]: ה' עינויי' כתיבי והני ה' הוו דשתיה",
+        en: "five afflictions are written, and these are the five, since drinking",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l24"
+        ]
       },
       {
         id: "rashi-yoma-073b-035",
@@ -166686,11 +166760,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 35,
         he: "בכלל אכילה: מלך. דרכו ושבחו",
-        en: "[Rashi commentary on line 35]: בכלל אכילה: מלך. דרכו ושבחו",
+        en: "is included within eating. 'A king' - his manner and his honor require",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l24"
+        ]
       },
       {
         id: "rashi-yoma-073b-036",
@@ -166698,11 +166774,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 36,
         he: "להיות נאה שנאמר (ישעיה לג) מלך",
-        en: "[Rashi commentary on line 36]: להיות נאה שנאמר (ישעיה לג) מלך",
+        en: "him to be attractive, as it is stated (Isaiah 33), 'your eyes shall see the king",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l24"
+        ]
       },
       {
         id: "rashi-yoma-073b-037",
@@ -166710,11 +166788,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 37,
         he: "ביפיו תחזינה עיניך: והכלה. צריכה",
-        en: "[Rashi commentary on line 37]: ביפיו תחזינה עיניך: והכלה. צריכה",
+        en: "in his beauty.' 'And the bride' - she needs",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l24"
+        ]
       },
       {
         id: "rashi-yoma-073b-038",
@@ -166722,11 +166802,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 38,
         he: "נוי עד שתחבב על בעלה וכל שלשים",
-        en: "[Rashi commentary on line 38]: נוי עד שתחבב על בעלה וכל שלשים",
+        en: "adornment so that she is cherished by her husband, and for all thirty",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l24"
+        ]
       },
       {
         id: "rashi-yoma-073b-039",
@@ -166734,11 +166816,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 39,
         he: "יום לחופתה היא קרויה כלה: והחיה.",
-        en: "[Rashi commentary on line 39]: יום לחופתה היא קרויה כלה: והחיה.",
+        en: "days from her wedding she is called a bride. 'And the woman who has given birth'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l24"
+        ]
       },
       {
         id: "rashi-yoma-073b-040",
@@ -166746,11 +166830,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 40,
         he: "יולדת: תנעול את הסנדל. שהצנה",
-        en: "[Rashi commentary on line 40]: יולדת: תנעול את הסנדל. שהצנה",
+        en: "- one who has given birth. 'Shall wear a sandal' - since the cold",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l24"
+        ]
       },
       {
         id: "rashi-yoma-073b-041",
@@ -166758,11 +166844,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 41,
         he: "קשה לה: דברי רבי אליעזר.",
-        en: "[Rashi commentary on line 41]: קשה לה: דברי רבי אליעזר.",
+        en: "is hard for her. 'The words of Rabbi Eliezer'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l24"
+        ]
       },
       {
         id: "rashi-yoma-073b-042",
@@ -166770,11 +166858,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 42,
         he: "אכולהו קאי מלך וכלה וחיה:",
-        en: "[Rashi commentary on line 42]: אכולהו קאי מלך וכלה וחיה:",
+        en: "- this refers to all of them: the king, the bride, and the woman who has given birth.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l24"
+        ]
       },
       {
         id: "rashi-yoma-073b-043",
@@ -166782,11 +166872,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 43,
         he: "גמ' לחצי שיעור. כגון פחות",
-        en: "[Rashi commentary on line 43]: גמ' לחצי שיעור. כגון פחות",
+        en: "'Gemara: to a half-measure' - meaning less",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l28"
+        ]
       },
       {
         id: "rashi-yoma-073b-044",
@@ -166794,11 +166886,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 44,
         he: "מכותבת הגסה שהיא שיעור ליוה\"כ",
-        en: "[Rashi commentary on line 44]: מכותבת הגסה שהיא שיעור ליוה\"כ",
+        en: "than a large date's-worth, which is the measure for Yom Kippur,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l28"
+        ]
       },
       {
         id: "rashi-yoma-073b-045",
@@ -166806,11 +166900,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 45,
         he: "כדתנן מתני' וכי לא שלים שיעורא",
-        en: "[Rashi commentary on line 45]: כדתנן מתני' וכי לא שלים שיעורא",
+        en: "as we learned in the Mishnah; and if the full measure is not reached,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l28"
+        ]
       },
       {
         id: "rashi-yoma-073b-046",
@@ -166818,11 +166914,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 46,
         he: "כרת ליכא איסורא איכא: חצי שיעור.",
-        en: "[Rashi commentary on line 46]: כרת ליכא איסורא איכא: חצי שיעור.",
+        en: "there is no karet, but there is still a prohibition. 'Half a measure'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l28"
+        ]
       },
       {
         id: "rashi-yoma-073b-047",
@@ -166830,11 +166928,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 47,
         he: "כלומר פחות מכשיעור אסור מן",
-        en: "[Rashi commentary on line 47]: כלומר פחות מכשיעור אסור מן",
+        en: "- meaning, less than the full measure is forbidden by",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l28"
+        ]
       },
       {
         id: "rashi-yoma-073b-048",
@@ -166842,11 +166942,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 48,
         he: "התורה לקמן בשמעתא דריש ליה",
-        en: "[Rashi commentary on line 48]: התורה לקמן בשמעתא דריש ליה",
+        en: "the Torah, as will be expounded further on, from the phrase",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l28"
+        ]
       },
       {
         id: "rashi-yoma-073b-049",
@@ -166854,11 +166956,14 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 49,
         he: "מכל חלב: שאסור מדרבנן. ומתני'",
-        en: "[Rashi commentary on line 49]: מכל חלב: שאסור מדרבנן. ומתני'",
+        en: "'from all fat.' 'That it is forbidden rabbinically' - and the Mishnah",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l28",
+          "yoma-073b-l31"
+        ]
       },
       {
         id: "rashi-yoma-073b-050",
@@ -166866,11 +166971,14 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 50,
         he: "נמי מדרבנן קאמר: אי הכי. דלריש",
-        en: "[Rashi commentary on line 50]: נמי מדרבנן קאמר: אי הכי. דלריש",
+        en: "too is speaking rabbinically. 'If so' - for according to Reish",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l31",
+          "yoma-073b-l34"
+        ]
       },
       {
         id: "rashi-yoma-073b-051",
@@ -166878,11 +166986,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 51,
         he: "לקיש אסור מיהא מדרבנן לא ניחייב עליה קרבן שבועה הנשבע שלא יאכל חצי שיעור מדבר אסור ואכל לא ניחייב עליה קרבן",
-        en: "[Rashi commentary on line 51]: לקיש אסור מיהא מדרבנן לא ניחייב עליה קרבן שבועה הנשבע שלא יא",
+        en: "Lakish, it is at least forbidden rabbinically, so one who swore not to eat a forbidden half-measure and ate it should not be liable for a",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l34"
+        ]
       },
       {
         id: "rashi-yoma-073b-052",
@@ -166890,11 +167000,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 52,
         he: "שבועת ביטוי דהא קיימא לן במסכת שבועות (דף כז.) נשבע לקיים את המצוה ולא קיים פטור או נשבע לבטל ולא בטל פטור: ורבי",
-        en: "[Rashi commentary on line 52]: שבועת ביטוי דהא קיימא לן במסכת שבועות (דף כז.) נשבע לקיים את",
+        en: "false-utterance oath-offering, since we hold in tractate Shevuot (27a) that one who swears to fulfill a commandment and does not fulfill it is exempt, or swears to negate it and does not negate it is exempt. 'And Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l34"
+        ]
       },
       {
         id: "rashi-yoma-073b-053",
@@ -166902,11 +167014,14 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 53,
         he: "שמעון פוטר. מקרבן שבועה: מושבע ועומד הוא. והוה ליה נשבע לקיים את המצוה: בכולל. שבועה שלא אוכל לא בשר שחוטה ולא בשר",
-        en: "[Rashi commentary on line 53]: שמעון פוטר. מקרבן שבועה: מושבע ועומד הוא. והוה ליה נשבע לקיי",
+        en: "Shimon exempts him' - from the oath-offering. 'He is already bound by oath' - and it turns out he swore to fulfill",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l34",
+          "yoma-073b-l36"
+        ]
       },
       {
         id: "rashi-yoma-073b-054",
@@ -166914,11 +167029,14 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 54,
         he: "נבילה דמגו דחיילא אהתירא חיילא נמי אאיסורא ורבי שמעון פוטר דלית ליה איסור כולל ולא אמרינן מגו: וריש לקיש אמר אי אתה מוצא.",
-        en: "[Rashi commentary on line 54]: נבילה דמגו דחיילא אהתירא חיילא נמי אאיסורא ורבי שמעון פוטר ד",
+        en: "a commandment already binding from Sinai. 'By inclusion' - an oath, 'I will not eat,' covering neither slaughtered meat nor the meat of a carcass, since it takes effect on the permitted item it also takes effect on the forbidden one; and Rabbi Shimon exempts him, since he does not accept the principle of an inclusive prohibition. 'And Reish Lakish said, you cannot find it'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l36",
+          "yoma-073b-l37"
+        ]
       },
       {
         id: "rashi-yoma-073b-055",
@@ -166926,11 +167044,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 55,
         he: "שיהא חייב קרבן שבועה על הנבילה אם אכל כזית שהוא מושבע עליו מהר סיני אלא באוכל חצי שיעור שאינו מושבע עליו מסיני ובשבועתו",
-        en: "[Rashi commentary on line 55]: שיהא חייב קרבן שבועה על הנבילה אם אכל כזית שהוא מושבע עליו מ",
+        en: "that he should be liable for an oath-offering for the carcass if he ate an olive's-worth, which he is already bound by oath from Sinai; rather, only when eating a half-measure, which he is not bound by oath from Sinai, and through his oath",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l37"
+        ]
       },
       {
         id: "rashi-yoma-073b-056",
@@ -166938,11 +167058,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 56,
         he: "נאסר עליו: במפרש. שלא אוכל אפילו חצי שיעור: ואליבא דרבנן. דאמרי בשבועות (דף יט:) דהנשבע שלא אוכל סתם אוסר עצמו בכשיעור:",
-        en: "[Rashi commentary on line 56]: נאסר עליו: במפרש. שלא אוכל אפילו חצי שיעור: ואליבא דרבנן. דא",
+        en: "it becomes forbidden to him. 'When he specified' - 'I will not eat even a half-measure.' 'And according to the Rabbis' - who say, in Shevuot (19b), that one who swears 'I will not eat' without specifying binds himself only at the full measure:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l37"
+        ]
       },
       {
         id: "rashi-yoma-073b-057",
@@ -166950,11 +167072,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 57,
         he: "או בסתם. מצית לאוקומה ומיהו כשאכל לא אכל אלא חצי שיעור שאינו מושבע עליו מסיני ועל ידי שבועה שלא אוכל סתם נאסר בו:",
-        en: "[Rashi commentary on line 57]: או בסתם. מצית לאוקומה ומיהו כשאכל לא אכל אלא חצי שיעור שאינו",
+        en: "'Or without specifying' - you may establish it this way too; however, when he ate, he ate only a half-measure, which he is not bound by oath from Sinai, and through the unspecified oath 'I will not eat' it became forbidden to him.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l37"
+        ]
       },
       {
         id: "rashi-yoma-073b-058",
@@ -166962,11 +167086,13 @@ const DAF_CONTENT = {
         daf: "73b",
         vilnaLine: 58,
         he: "ואליבא",
-        en: "[Rashi commentary on line 58]: ואליבא",
+        en: "'And according to' - the daf ends mid-word here; the comment (continuing to Rabbi Akiva's view in tractate Shevuot) continues on 74a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073b-l37"
+        ]
       }
     ],
     review: "reviewed"
