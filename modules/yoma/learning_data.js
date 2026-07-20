@@ -168839,11 +168839,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 1,
         he: "אתא קרא לרבויי ספיקא. בתמיה אטו קמי שמיא ספיקא הוא אי",
-        en: "the koy is its own species - if you say otherwise, the verse about blood would include it in 'bird and animal' categories",
+        en: "'Does the verse come to include a case of uncertainty' - as a rhetorical question: is there a 'case of uncertainty' before Heaven, whether",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l01"
+        ]
       },
       {
         id: "rashi-yoma-074b-002",
@@ -168851,11 +168853,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 2,
         he: "בהמה הוי אי חיה הוי: הא דאמר רב אידי בר אבין. בכריתות",
-        en: "the Sages taught: 'afflict yourselves' - does this mean sit in sun until weak or in shade until cold?",
+        en: "it is a domestic animal or a wild animal? 'That which Rav Idi bar Avin said' - in tractate Keritot,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l01"
+        ]
       },
       {
         id: "rashi-yoma-074b-003",
@@ -168863,11 +168867,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 3,
         he: "בפרק דם שחיטה (דף כא.) אף כל לאתויי כוי דקתני התם כל דם לא",
-        en: "the Gemara asks: when one sits in sun and it heats him, maybe we tell him to fast anyway",
+        en: "in the chapter 'Dam Shechita' (21a): 'also, all comes to include the koy' - for it is taught there: 'all blood you shall not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l01"
+        ]
       },
       {
         id: "rashi-yoma-074b-004",
@@ -168875,11 +168881,14 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 4,
         he: "תאכלו לעוף ולבהמה מה עוף ובהמה מיוחדים וכו': מה. מצות",
-        en: "another baraita: 'afflict yourselves' could mean sit in sun or shade",
+        en: "eat, whether bird or animal; just as bird and animal are each distinctly defined,' etc. 'Just as' - the commandment",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l01",
+          "yoma-074b-l05"
+        ]
       },
       {
         id: "rashi-yoma-074b-005",
@@ -168887,11 +168896,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 5,
         he: "מלאכת שבת שב ואל תעשה הוא",
-        en: "I include piggul and notar which are karet - and also tevel which is not karet but is death",
+        en: "of the labor of Shabbat is a passive prohibition,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l05"
+        ]
       },
       {
         id: "rashi-yoma-074b-006",
@@ -168899,11 +168910,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 6,
         he: "אף מצות עינוי שב ואל תעשה דבר",
-        en: "I include tevel which has death penalty, and exclude neveilah which has only a lav",
+        en: "so too the commandment of affliction is a passive prohibition, something",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l05"
+        ]
       },
       {
         id: "rashi-yoma-074b-007",
@@ -168911,11 +168924,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 7,
         he: "המבטל ממך את העינוי הוא ואין זו",
-        en: "I include neveilah which has a lav, and exclude chullin which has no explicit prohibition",
+        en: "that removes the affliction from you, and this is nothing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l05"
+        ]
       },
       {
         id: "rashi-yoma-074b-008",
@@ -168923,11 +168938,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 8,
         he: "אלא כגון הני דמתניתין לא יאכל",
-        en: "I include chullin (no prohibition to eat), and exclude terumah which has a death penalty but affects only kohanim",
+        en: "other than what the mishna lists: he shall not eat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l05"
+        ]
       },
       {
         id: "rashi-yoma-074b-009",
@@ -168935,11 +168952,14 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 9,
         he: "ולא ישתה ולא ירחץ: מה מלאכה",
-        en: "the verse 'I will destroy that person' extends the prohibition of eating-on-YK to include any affliction-denying behavior",
+        en: "and shall not drink and shall not bathe. 'Just as labor",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l05",
+          "yoma-074b-l09"
+        ]
       },
       {
         id: "rashi-yoma-074b-010",
@@ -168947,11 +168967,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 10,
         he: "לא חלקת בה. בכל צדדיה אסורה",
-        en: "what does 'if you wish to say' mean? Perhaps the verse is about adultery, not Yom Kippur affliction",
+        en: "you did not distinguish among its aspects' - it is forbidden in all its aspects,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l09"
+        ]
       },
       {
         id: "rashi-yoma-074b-011",
@@ -168959,11 +168981,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 11,
         he: "אף עינוי נמי שאיסורו בכל צדדיו",
-        en: "the school of Rabbi Yishmael: verbal analogy from metzora (inuy appears there and on Yom Kippur)",
+        en: "so too affliction, meaning its prohibition applies to all its aspects,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l09"
+        ]
       },
       {
         id: "rashi-yoma-074b-012",
@@ -168971,11 +168995,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 12,
         he: "קאמר יצאו חמה וצנה שאם ישב",
-        en: "why not derive from 'afflicting daughters'? One derives public affliction from public affliction",
+        en: "excludes heat and cold, for if he sits",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l09"
+        ]
       },
       {
         id: "rashi-yoma-074b-013",
@@ -168983,11 +169009,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 13,
         he: "הרי הוא בעינוי ואם לא ישב אינו",
-        en: "why not derive from Egyptian slavery affliction? The verse 'fed you manna' teaches that denying food = affliction",
+        en: "he is indeed afflicting himself, but if he does not sit, he is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l09"
+        ]
       },
       {
         id: "rashi-yoma-074b-014",
@@ -168995,11 +169023,14 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 14,
         he: "מצוה לישב: מה מלאכה דבר",
-        en: "What does 'He afflicted you and caused you to hunger and fed you manna' mean? Rabbi Ami and Rabbi Asi dispute",
+        en: "obligated to sit. 'Just as labor is something",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l09",
+          "yoma-074b-l14"
+        ]
       },
       {
         id: "rashi-yoma-074b-015",
@@ -169007,11 +169038,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 15,
         he: "שחייבין עליו במקום אחר. כרת כי",
-        en: "Rav Yosef: from here an allusion that blind people eat without being satisfied - they cannot see the food",
+        en: "for which one is liable elsewhere' - meaning karet, as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l14"
+        ]
       },
       {
         id: "rashi-yoma-074b-016",
@@ -169019,11 +169052,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 16,
         he: "הכא כגון בשבת אף עינוי בדבר",
-        en: "and the verse says 'your eyes shall set upon it' - Rabbi Ami and Rabbi Asi dispute whether it refers to wine or adultery",
+        en: "here, such as on Shabbat, so too affliction refers to",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l14"
+        ]
       },
       {
         id: "rashi-yoma-074b-017",
@@ -169031,11 +169066,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 17,
         he: "אכילה קאמר שמצינו שחייב עליו",
-        en: "[Rashi commentary on line 17]: אכילה קאמר שמצינו שחייב עליו",
+        en: "the matter of eating, for we find one is liable for it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l14"
+        ]
       },
       {
         id: "rashi-yoma-074b-018",
@@ -169043,11 +169080,14 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 18,
         he: "במקום אחר כגון פיגול ונותר: ואם",
-        en: "[Rashi commentary on line 18]: במקום אחר כגון פיגול ונותר: ואם",
+        en: "elsewhere, such as piggul and notar. 'And if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l14",
+          "yoma-074b-l34"
+        ]
       },
       {
         id: "rashi-yoma-074b-019",
@@ -169055,11 +169095,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 19,
         he: "נפשך לומר. ואם יש בידך להשיב על",
-        en: "[Rashi commentary on line 19]: נפשך לומר. ואם יש בידך להשיב על",
+        en: "you wish to say' - and if you have a response to raise against",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l34"
+        ]
       },
       {
         id: "rashi-yoma-074b-020",
@@ -169067,11 +169109,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 20,
         he: "זה הרי ראיה אחרת דקרא של תענו",
-        en: "[Rashi commentary on line 20]: זה הרי ראיה אחרת דקרא של תענו",
+        en: "this, here is another proof: that the verse 'you shall afflict",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l34"
+        ]
       },
       {
         id: "rashi-yoma-074b-021",
@@ -169079,11 +169123,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 21,
         he: "את נפשותיכם עינוי שהוא אבידת",
-        en: "[Rashi commentary on line 21]: את נפשותיכם עינוי שהוא אבידת",
+        en: "your souls' refers to an affliction that is a loss",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l34"
+        ]
       },
       {
         id: "rashi-yoma-074b-022",
@@ -169091,11 +169137,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 22,
         he: "הנפש בתוך חלל הגוף מיירי: וכי",
-        en: "[Rashi commentary on line 22]: הנפש בתוך חלל הגוף מיירי: וכי",
+        en: "of the soul within the hollow of the body. 'And if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l34"
+        ]
       },
       {
         id: "rashi-yoma-074b-023",
@@ -169103,11 +169151,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 23,
         he: "תימא בעריות קמשתעי קרא. כלומר",
-        en: "[Rashi commentary on line 23]: תימא בעריות קמשתעי קרא. כלומר",
+        en: "you say the verse is speaking of forbidden relations' - meaning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l34"
+        ]
       },
       {
         id: "rashi-yoma-074b-024",
@@ -169115,11 +169165,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 24,
         he: "עינוי. דתשמיש קא משתעי קרא",
-        en: "[Rashi commentary on line 24]: עינוי. דתשמיש קא משתעי קרא",
+        en: "affliction - that the verse is speaking of marital relations,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l34"
+        ]
       },
       {
         id: "rashi-yoma-074b-025",
@@ -169127,11 +169179,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 25,
         he: "דתשמיש נמי אקרי עינוי כדלקמן",
-        en: "[Rashi commentary on line 25]: דתשמיש נמי אקרי עינוי כדלקמן",
+        en: "since marital relations too is called affliction, as further on",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l34"
+        ]
       },
       {
         id: "rashi-yoma-074b-026",
@@ -169139,11 +169193,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 26,
         he: "(דף עז.) וחייבין עליו כרת במקום",
-        en: "[Rashi commentary on line 26]: (דף עז.) וחייבין עליו כרת במקום",
+        en: "(77a), and one is liable for it with karet",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l34"
+        ]
       },
       {
         id: "rashi-yoma-074b-027",
@@ -169151,11 +169207,14 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 27,
         he: "אחר כגון עריות: ונאמר להלן",
-        en: "[Rashi commentary on line 27]: אחר כגון עריות: ונאמר להלן",
+        en: "elsewhere, such as for forbidden relations. 'And it is stated further",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l34",
+          "yoma-074b-l36"
+        ]
       },
       {
         id: "rashi-yoma-074b-028",
@@ -169163,11 +169222,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 28,
         he: "עינוי. ויענך וירעיבך (דברים ח) :",
-        en: "[Rashi commentary on line 28]: עינוי. ויענך וירעיבך (דברים ח) :",
+        en: "affliction' - 'and He afflicted you and caused you to hunger' (Deuteronomy 8).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l36"
+        ]
       },
       {
         id: "rashi-yoma-074b-029",
@@ -169175,11 +169236,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 29,
         he: "ונילף מואם תענה את בנותי. דמוקי",
-        en: "[Rashi commentary on line 29]: ונילף מואם תענה את בנותי. דמוקי",
+        en: "'And let us derive it from, if you shall afflict my daughters' - which is established",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l37"
+        ]
       },
       {
         id: "rashi-yoma-074b-030",
@@ -169187,11 +169250,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 30,
         he: "ליה לקמן (שם.) אתשמיש: עינוי",
-        en: "[Rashi commentary on line 30]: ליה לקמן (שם.) אתשמיש: עינוי",
+        en: "further on (there) as referring to marital relations. 'Affliction",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l37"
+        ]
       },
       {
         id: "rashi-yoma-074b-031",
@@ -169199,11 +169264,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 31,
         he: "דרבים. יוה\"כ לכל ישראל ואכילת",
-        en: "[Rashi commentary on line 31]: דרבים. יוה\"כ לכל ישראל ואכילת",
+        en: "of the many' - Yom Kippur applies to all Israel, and the eating",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l37"
+        ]
       },
       {
         id: "rashi-yoma-074b-032",
@@ -169211,11 +169278,14 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 32,
         he: "המן לכל ישראל: עינוי בידי שמים.",
-        en: "[Rashi commentary on line 32]: המן לכל ישראל: עינוי בידי שמים.",
+        en: "of manna applied to all Israel. 'Affliction by the hand of Heaven'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l37",
+          "yoma-074b-l38"
+        ]
       },
       {
         id: "rashi-yoma-074b-033",
@@ -169223,11 +169293,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 33,
         he: "יום הכפורים מצות מלך היא וכן",
-        en: "[Rashi commentary on line 33]: יום הכפורים מצות מלך היא וכן",
+        en: "- Yom Kippur is a command of the King, and so too",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l38"
+        ]
       },
       {
         id: "rashi-yoma-074b-034",
@@ -169235,11 +169307,14 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 34,
         he: "עינוי המן: ה\"ג המאכילך מן במדבר",
-        en: "[Rashi commentary on line 34]: עינוי המן: ה\"ג המאכילך מן במדבר",
+        en: "is the affliction of the manna. 'This is our reading: He who fed you manna in the wilderness",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l38",
+          "yoma-074b-l41"
+        ]
       },
       {
         id: "rashi-yoma-074b-035",
@@ -169247,11 +169322,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 35,
         he: "וגו' רבי אמי ורבי אסי וכו'. ולית",
-        en: "[Rashi commentary on line 35]: וגו' רבי אמי ורבי אסי וכו'. ולית",
+        en: "etc., Rabbi Ami and Rabbi Asi,' etc. - and there is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l41"
+        ]
       },
       {
         id: "rashi-yoma-074b-036",
@@ -169259,11 +169336,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 36,
         he: "הכא רומיא דקראי אלא קרא",
-        en: "[Rashi commentary on line 36]: הכא רומיא דקראי אלא קרא",
+        en: "here a contradiction between verses, but rather the verse",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l41"
+        ]
       },
       {
         id: "rashi-yoma-074b-037",
@@ -169271,11 +169350,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 37,
         he: "מפרש המאכילך למען ענותך אוכל",
-        en: "[Rashi commentary on line 37]: מפרש המאכילך למען ענותך אוכל",
+        en: "explains: 'He who fed you, in order to afflict you' - one who eats",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l41"
+        ]
       },
       {
         id: "rashi-yoma-074b-038",
@@ -169283,11 +169364,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 38,
         he: "ומעונה: אין לו פת בסלו. אוכל",
-        en: "[Rashi commentary on line 38]: ומעונה: אין לו פת בסלו. אוכל",
+        en: "is also afflicted. 'One who has no bread in his basket' - he eats",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l41"
+        ]
       },
       {
         id: "rashi-yoma-074b-039",
@@ -169295,11 +169378,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 39,
         he: "היום ודואג על למחר: אינו רואה",
-        en: "[Rashi commentary on line 39]: היום ודואג על למחר: אינו רואה",
+        en: "today and worries about tomorrow. 'One who does not see",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l41"
+        ]
       },
       {
         id: "rashi-yoma-074b-040",
@@ -169307,11 +169392,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 40,
         he: "ואוכל. אכילת המן טועם טעם כל",
-        en: "[Rashi commentary on line 40]: ואוכל. אכילת המן טועם טעם כל",
+        en: "and eats' - eating manna, he tastes the taste of every",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l41"
+        ]
       },
       {
         id: "rashi-yoma-074b-041",
@@ -169319,11 +169406,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 41,
         he: "המינים ואינו רואה אלא מן:",
-        en: "[Rashi commentary on line 41]: המינים ואינו רואה אלא מן:",
+        en: "kind, yet sees only manna.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l41"
+        ]
       },
       {
         id: "rashi-yoma-074b-042",
@@ -169331,11 +169420,13 @@ const DAF_CONTENT = {
         daf: "74b",
         vilnaLine: 42,
         he: "עינו",
-        en: "[Rashi commentary on line 42]: עינו",
+        en: "'His eye' - the daf ends mid-word here; the comment (explaining 'when he sets his eye on the cup' as a description of one who loves drunkenness) continues on 75a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-074b-l47"
+        ]
       }
     ],
     review: "reviewed"
