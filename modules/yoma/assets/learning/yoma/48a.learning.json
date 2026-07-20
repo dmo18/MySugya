@@ -1,913 +1,913 @@
 {
-  "daf": "48a",
-  "canonicalRef": "Yoma 48a",
-  "summary": "Rav Pappa raises a series of dilemmas about the kometz: what if the handful was stuck to the side of the pan? What if the Sages' requirement of exact measure was violated? What if the blood touching the floor invalidated the kometz? What if the High Priest scooped from a pile that was not the full amount?",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "48a",
+ "canonicalRef": "Yoma 48a",
+ "summary": "Rav Pappa raises a series of dilemmas about the kometz: what if the handful was stuck to the side of the pan? What if the Sages' requirement of exact measure was violated? What if the blood touching the floor invalidated the kometz? What if the High Priest scooped from a pile that was not the full amount?",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-048a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 4
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-048a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 4
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.48a.1"
-        },
-        {
-          "vilnaLine": 4,
-          "sefariaRef": "Yoma.48a.2"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.48a.1",
-        "Yoma.48a.2"
-      ],
-      "display": {
-        "whats": "What if the handful was stuck to the side of the pan?",
-        "hint": "Rav Pappa asks: what if the kometz stuck to the side of the pan instead of remaining in the hand? Mar bar Rav Ashi extends the dilemma: what if it stuck to the High Priest's garment?",
-        "title": "Stuck to the Surface: Is the Kometz Still Valid?"
-      },
-      "learning": {
-        "ahaMoment": "Kometz stuck to pan side or garment: has it left 'his hands'? The answer determines validity.",
-        "memoryAnchor": "If the kometz sticks to the pan or the priest's garment, is it still considered 'in his hands'?",
-        "learnerQuestion": "If the handful of flour sticks to the side of the pan or the High Priest's garment rather than remaining in his palm, does the kometz still count?",
-        "coreTension": "The kometz requires the flour to be 'in his hand,' but if it adheres to a surface other than his palm - the pan wall or his garment - the hand condition may no longer be met, and the Gemara must determine whether contact through an adjacent surface is sufficient.",
-        "coreMove": "The Gemara raises the dilemma of flour sticking to the pan side or the garment and leaves it unresolved, treating it as a boundary case where the hand-contact requirement and adherence to adjacent surfaces pull in opposite directions.",
-        "takeaway": {
-          "type": "open_question",
-          "text": "Whether a kometz that adheres to the pan's side or the High Priest's garment rather than resting directly in his palm still satisfies the 'in his hand' requirement is a dilemma the Gemara raises and leaves unresolved."
-        },
-        "learningBlocker": "Learners may assume any flour adjacent to the priest's hand automatically counts as 'in his hand,' missing that the Gemara specifically isolates pan-side and garment contact as unresolved boundary cases."
-      },
-      "argumentFlow": [
-        {
-          "type": "question",
-          "speaker": "Rav Pappa",
-          "text": "What if the kometz stuck to the side of the pan?",
-          "id": "yoma-048a-l01",
-          "label": "Question: What if the kometz stuck to the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-048a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "question",
-          "speaker": "Mar bar Rav Ashi",
-          "text": "What if it stuck to his garment?",
-          "id": "yoma-048a-l04",
-          "label": "Question: What if it stuck to his garment?",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-048a-l04",
-              "vilnaLine": 4
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "kometz",
-        "stuck to pan",
-        "garment",
-        "dilemma"
-      ],
-      "concepts": {
-        "halachic": [
-          "kometz validity when stuck to pan or garment"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "kometz laws",
-        "meal-offering laws"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "As long as the flour is held close to the priest's hand - stuck to the pan side or to his garment - it counts as being 'in his hand' for the kometz.",
-          "correction": "The Gemara treats pan-side and garment contact as unresolved boundary cases. The 'in his hand' requirement is not satisfied by mere proximity or adherence to an adjacent surface, but whether those cases definitively disqualify the kometz is left open.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "description": "HP's three-finger kometz: handful stuck to pan side or garment - still valid?",
-          "role": "aha",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Whether a kometz that stuck to the side of the pan (leaving the hand) is still valid, or whether leaving the hand's surface invalidates it.",
-          "question": "What does Rav Pappa ask about the kometz and the side of the pan?"
-        }
-      ],
-      "finalRuling": "Whether the kometz sticking to the pan or garment invalidates it remains an unresolved dilemma.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.48a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-048a-s02",
-      "lineRange": {
-        "startVilnaLine": 7,
-        "endVilnaLine": 7
-      },
-      "lines": [
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.48a.3"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.48a.3"
-      ],
-      "display": {
-        "whats": "Should the Sages' kometz requirement be given the same stringency as the biblical requirement?",
-        "hint": "Rav Pappa asks: should the rabbinic requirements for the kometz be given the same strictness as the biblical ones? This is a meta-question about the hierarchy of kometz rules.",
-        "title": "Rabbinic Standards, Biblical Act: Same Invalidation?"
-      },
-      "learning": {
-        "ahaMoment": "Biblical kometz rules vs. rabbinic kometz rules - same stringency or different?",
-        "memoryAnchor": "Do the Sages' added kometz requirements have the same weight as the biblical requirements?",
-        "learnerQuestion": "If the kometz fails only a rabbinic requirement rather than a biblical one, is the Yom Kippur service nonetheless invalid?",
-        "coreTension": "A biblical deficiency in the kometz clearly invalidates the service, but a rabbinic deficiency raises the question of whether the same invalidation follows, since rabbinic and biblical obligations ordinarily differ in their disqualifying force.",
-        "coreMove": "The Gemara examines whether a kometz that satisfies the biblical requirements but falls short of a rabbinic standard still renders the service invalid, and treats the rabbinic requirement as carrying its own capacity to disqualify the offering even where the biblical act is technically complete.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "A kometz that satisfies biblical requirements but violates a rabbinic standard may still invalidate the service - the Gemara treats rabbinic kometz requirements as having real disqualifying force, not merely advisory status."
-        },
-        "learningBlocker": "Learners may assume that because the biblical kometz act is technically complete, a rabbinic deficiency cannot invalidate the service, missing that the Gemara considers rabbinic requirements capable of disqualifying the offering."
-      },
-      "argumentFlow": [
-        {
-          "type": "question",
-          "speaker": "Rav Pappa",
-          "text": "Should the handfuls to which the Sages added requirements be treated with the same stringency as the biblical ones?",
-          "id": "yoma-048a-l07",
-          "label": "Question: Should the handfuls to which the Sages",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-048a-l07",
-              "vilnaLine": 7
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "kometz",
-        "rabbinic requirements",
-        "biblical requirements",
-        "stringency"
-      ],
-      "concepts": {
-        "halachic": [
-          "rabbinic vs biblical kometz requirements"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "kometz laws",
-        "hierarchy of halakha"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "A kometz that fully satisfies the biblical requirements can never be invalidated by a rabbinic deficiency - the biblical act being complete is enough.",
-          "correction": "The Gemara treats rabbinic kometz requirements as having real disqualifying force: a kometz that fails a rabbinic standard may invalidate the service even if the biblical act is technically complete.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "description": "Biblical kometz stringency vs. rabbinic kometz stringency - same or different standards?",
-          "role": "anchor",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Whether the rabbinic additions to the kometz requirement (exact measure, not overflowing) are treated with the same stringency as the biblical requirements.",
-          "question": "What is the dilemma about the Sages' requirements for kometz?"
-        }
-      ],
-      "finalRuling": "Whether rabbinic kometz requirements have the same binding force as biblical ones remains a dilemma.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 3,
-      "id": "yoma-048a-s03",
-      "lineRange": {
-        "startVilnaLine": 10,
-        "endVilnaLine": 19
-      },
-      "lines": [
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.48a.4"
-        },
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.48a.5"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.48a.6"
-        },
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.48a.7"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.48a.4",
-        "Yoma.48a.5",
-        "Yoma.48a.6",
-        "Yoma.48a.7"
-      ],
-      "display": {
-        "whats": "If the blood that touched the floor during the Zevahim service was considered non-valid - does this affect the kometz?",
-        "hint": "A ruling from tractate Zevahim (32a): if blood touched the floor, it is invalid for sprinkling. Rav Pappa asks: does this principle affect the kometz? If the kometz touches the floor, is it invalid by analogy?",
-        "title": "Blood on the Floor vs. Flour on the Floor: Different Rules"
-      },
-      "learning": {
-        "ahaMoment": "Blood touching the floor = invalid for sprinkling. Does flour touching the floor = invalid kometz by analogy?",
-        "memoryAnchor": "Blood on the floor is invalid for sprinkling; does floor-touch invalidate the kometz by the same rule?",
-        "learnerQuestion": "Does the Zevahim ruling that blood touching the floor is disqualified apply equally to kometz flour?",
-        "coreTension": "The Zevahim tractate establishes that offering blood contacting the floor is disqualified, and the question is whether this rule carries over to the kometz, which is also a Temple service element that must not touch impermissible surfaces.",
-        "coreMove": "The Gemara rules explicitly that the Zevahim floor-contact disqualification is specific to blood and does not extend to kometz flour, grounding the difference in the category-specific nature of the blood rule rather than a general Temple-surface prohibition.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The Zevahim ruling that blood touching the floor is disqualified applies only to blood - it does not extend to kometz flour, which operates under its own set of disqualifying conditions."
-        },
-        "learningBlocker": "Learners may assume a general principle that any Temple service element contacting the floor is disqualified, missing that the Gemara treats the Zevahim floor-contact rule as blood-specific with no kometz extension."
-      },
-      "argumentFlow": [
-        {
-          "type": "citation",
-          "speaker": "Gemara",
-          "text": "In Zevahim 32a: blood that touched the floor is invalid for sprinkling.",
-          "id": "yoma-048a-l10",
-          "label": "Citation: In Zevahim 32a: blood that touched the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-048a-l10",
-              "vilnaLine": 10
-            }
-          ]
-        },
-        {
-          "type": "question",
-          "speaker": "Rav Pappa",
-          "text": "Does the same principle apply to the kometz - if flour touched the floor, is it invalid?",
-          "id": "yoma-048a-l12",
-          "label": "Question: Does the same principle apply to the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-048a-l12",
-              "vilnaLine": 12
-            }
-          ]
-        },
-        {
-          "type": "analysis",
-          "speaker": "Gemara",
-          "text": "Blood and kometz are different Temple categories - the floor-touch rule may not transfer.",
-          "id": "yoma-048a-l14",
-          "label": "Analysis: Blood and kometz are different Temple categories",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-048a-l14",
-              "vilnaLine": 14
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "The floor-touch invalidation does not apply to the kometz - different category.",
-          "id": "yoma-048a-l19",
-          "label": "Ruling: The floor-touch invalidation does not apply to",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-048a-l19",
-              "vilnaLine": 19
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "kometz",
-        "blood",
-        "floor contact",
-        "Zevahim",
-        "categories"
-      ],
-      "concepts": {
-        "halachic": [
-          "floor contact invalidation - applies to blood not to kometz"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "kometz laws",
-        "blood sprinkling laws",
-        "Zevahim tractate connections"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The Zevahim ruling about blood touching the floor is a general Temple principle that applies equally to kometz flour.",
-          "correction": "The Gemara rules the Zevahim floor-contact disqualification is category-specific to blood and does not extend to kometz flour - the two are governed by different rules.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "blood floor-contact invalid vs kometz floor-contact different rule"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "No - blood on the floor is invalid for sprinkling (a specific blood-law), but this ruling does not extend to kometz flour since they are different Temple categories.",
-          "question": "Does the Zevahim ruling about blood on the floor apply to the kometz?"
-        }
-      ],
-      "finalRuling": "The Zevahim floor-contact ruling applies to blood only, not to kometz flour.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 4,
-      "id": "yoma-048a-s04",
-      "lineRange": {
-        "startVilnaLine": 20,
-        "endVilnaLine": 20
-      },
-      "lines": [
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.48a.8"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.48a.8"
-      ],
-      "display": {
-        "whats": "What if the High Priest scooped from a pile that was more than the required amount?",
-        "hint": "Rav Pappa asks: if the incense pile was more than needed and the High Priest scooped from it, is the kometz valid? The question is whether the excess invalidates the act.",
-        "title": "The Extra Flour: May the Kometz Come From Leftovers?"
-      },
-      "learning": {
-        "ahaMoment": "Taking the correct amount from an oversized pile - valid or not?",
-        "memoryAnchor": "If the incense pile has excess and the priest takes the exact kometz amount, is the service valid?",
-        "learnerQuestion": "If the kohen takes his handful from the excess flour pile rather than from the measured main offering, is that a valid kometz?",
-        "coreTension": "The kometz is supposed to be taken from the specific measured portion designated for the offering, but excess flour also surrounds it, raising the question of whether a handful scooped from the undifferentiated overflow is sufficiently 'from' the offering to count.",
-        "coreMove": "The Gemara raises the dilemma of whether scooping from the excess pile satisfies the kometz requirement and leaves it unresolved, treating it as a boundary case at the edge of what counts as taking 'his handfuls' from the designated offering.",
-        "takeaway": {
-          "type": "open_question",
-          "text": "Whether a handful scooped from the excess flour pile rather than from the main measured offering satisfies the kometz requirement is a dilemma the Gemara raises and leaves unresolved."
-        },
-        "learningBlocker": "Learners may assume any flour from the general offering area counts for the kometz, missing that the Gemara specifically isolates excess-pile scooping as an unresolved boundary case."
-      },
-      "argumentFlow": [
-        {
-          "type": "question",
-          "speaker": "Rav Pappa",
-          "text": "What if he scooped from a pile of more than the required amount?",
-          "id": "yoma-048a-l20",
-          "label": "Question: What if he scooped from a pile",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-048a-l20",
-              "vilnaLine": 20
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "kometz",
-        "excess",
-        "pile",
-        "dilemma"
-      ],
-      "concepts": {
-        "halachic": [
-          "kometz from excess pile"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "kometz laws"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Since the excess flour is part of the same offering, taking the kometz from the excess pile rather than the main measured portion is clearly valid.",
-          "correction": "The Gemara does not settle this - scooping from the excess pile is an unresolved boundary case, since the kometz may need to come from the specific measured main portion rather than overflow flour.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "description": "HP scooping from an oversized pile: does the excess invalidate the handful?",
-          "role": "anchor",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "If the incense pile is larger than one kometz and the priest scoops exactly the right amount, the question is whether the excess in the pile invalidates the service.",
-          "question": "What is the Rav Pappa dilemma about scooping kometz from an excess pile?"
-        }
-      ],
-      "finalRuling": "Taking the exact kometz amount from an oversized pile remains a dilemma.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 5,
-      "id": "yoma-048a-s05",
-      "lineRange": {
-        "startVilnaLine": 23,
-        "endVilnaLine": 30
-      },
-      "lines": [
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.48a.9"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.48a.10"
-        },
-        {
-          "vilnaLine": 30,
-          "sefariaRef": "Yoma.48a.11"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.48a.9",
-        "Yoma.48a.10",
-        "Yoma.48a.11"
-      ],
-      "display": {
-        "whats": "What if the High Priest completed the kometz act with a different kometz in mind?",
-        "hint": "Rav Pappa's final dilemma: what if the High Priest performed the kometz while mentally thinking about a different offering? The intent (kavvanah) must match the act. If he scooped while thinking about a different offering, is this kometz valid?",
-        "title": "Wrong Intent, Invalid Kometz: Disqualification by Kavvanah"
-      },
-      "learning": {
-        "ahaMoment": "Intent mismatch during kometz: thinking about one offering while scooping another. The mental state must match the physical act for valid Temple service.",
-        "memoryAnchor": "Kometz done with wrong intent - thinking about a different offering invalidates the service.",
-        "learnerQuestion": "If the kohen performs the kometz with intent directed toward a different offering rather than the one being served, is the kometz valid?",
-        "coreTension": "Kavvanah (intent) governs Temple service validity, so intent directed toward a different offering during the kometz should in principle invalidate it, but the mechanism by which wrong intent disqualifies this specific act needs to be established.",
-        "coreMove": "The Gemara rules that a kometz performed with intent toward a different offering is invalid, applying the principle that wrong-offering kavvanah disqualifies a Temple service act to the specific case of the kometz.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "A kometz performed with intent toward a different offering is invalid - wrong-offering kavvanah disqualifies this Temple service act just as it does others."
-        },
-        "learningBlocker": "Learners may assume the kometz is a mechanical act immune to intent-based disqualification, or that wrong intent only makes it 'problematic' without rendering it definitively invalid, missing the Gemara's clear ruling."
-      },
-      "argumentFlow": [
-        {
-          "type": "question",
-          "speaker": "Rav Pappa",
-          "text": "What if the High Priest performed the kometz while thinking about a different offering?",
-          "id": "yoma-048a-l23",
-          "label": "Question: What if the High Priest performed the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-048a-l23",
-              "vilnaLine": 23
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "Intent must match the act - wrong intent can invalidate Temple service.",
-          "id": "yoma-048a-l27",
-          "label": "Ruling: Intent must match the act - wrong",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-048a-l27",
-              "vilnaLine": 27
-            }
-          ]
-        },
-        {
-          "type": "resolution",
-          "speaker": "Gemara",
-          "text": "The kometz with wrong intent is invalid; kavvanah must be for this specific service.",
-          "id": "yoma-048a-l30",
-          "label": "Resolution: The kometz with wrong intent is invalid;",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-048a-l30",
-              "vilnaLine": 30
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "kometz",
-        "kavvanah",
-        "intent",
-        "invalidating thoughts",
-        "Temple service"
-      ],
-      "concepts": {
-        "halachic": [
-          "wrong intent invalidates kometz"
-        ],
-        "theological": [
-          "intent in Temple service"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "kavvanah in Temple service",
-        "kometz laws",
-        "pigul (improper intent) laws"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Wrong intent during the kometz makes the act problematic or requires a follow-up correction, but does not render the offering definitively invalid.",
-          "correction": "The Gemara rules without qualification that a kometz performed with intent toward a different offering is invalid - the service is disqualified, not merely flagged as needing correction.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "correct intent vs wrong-offering intent during kometz"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "The wrong intent (kavvanah) during the kometz invalidates the service - Temple acts require intent that matches the specific service being performed.",
-          "question": "What happens if the High Priest scoops the kometz while mentally focused on a different offering?"
-        }
-      ],
-      "finalRuling": "Kometz performed with intent toward a different offering is invalid.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 4,
+     "sefariaRef": "Yoma.48a.2"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.48a.1",
+    "Yoma.48a.2"
+   ],
+   "display": {
+    "whats": "What if the handful was stuck to the side of the pan?",
+    "hint": "Rav Pappa asks: what if the kometz stuck to the side of the pan instead of remaining in the hand? Mar bar Rav Ashi extends the dilemma: what if it stuck to the High Priest's garment?",
+    "title": "Stuck to the Surface: Is the Kometz Still Valid?"
+   },
+   "learning": {
+    "ahaMoment": "Kometz stuck to pan side or garment: has it left 'his hands'? The answer determines validity.",
+    "memoryAnchor": "If the kometz sticks to the pan or the priest's garment, is it still considered 'in his hands'?",
+    "learnerQuestion": "If the handful of flour sticks to the side of the pan or the High Priest's garment rather than remaining in his palm, does the kometz still count?",
+    "coreTension": "The kometz requires the flour to be 'in his hand,' but if it adheres to a surface other than his palm - the pan wall or his garment - the hand condition may no longer be met, and the Gemara must determine whether contact through an adjacent surface is sufficient.",
+    "coreMove": "The Gemara raises the dilemma of flour sticking to the pan side or the garment and leaves it unresolved, treating it as a boundary case where the hand-contact requirement and adherence to adjacent surfaces pull in opposite directions.",
+    "takeaway": {
+     "type": "open_question",
+     "text": "Whether a kometz that adheres to the pan's side or the High Priest's garment rather than resting directly in his palm still satisfies the 'in his hand' requirement is a dilemma the Gemara raises and leaves unresolved."
+    },
+    "learningBlocker": "Learners may assume any flour adjacent to the priest's hand automatically counts as 'in his hand,' missing that the Gemara specifically isolates pan-side and garment contact as unresolved boundary cases."
+   },
+   "argumentFlow": [
     {
-      "he": "כַּוָּנָה",
-      "translit": "kavvanah",
-      "en": "Intent/mindfulness - Temple service requires specific intent toward the particular service being performed; wrong intent can invalidate."
+     "type": "question",
+     "speaker": "Rav Pappa",
+     "text": "What if the kometz stuck to the side of the pan?",
+     "id": "yoma-048a-l01",
+     "label": "Question: What if the kometz stuck to the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-048a-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "he": "פִּגּוּל",
-      "translit": "pigul",
-      "en": "An improper intent during Temple service (e.g., thinking about eating the offering outside its permitted time) that renders the offering invalid."
+     "type": "question",
+     "speaker": "Mar bar Rav Ashi",
+     "text": "What if it stuck to his garment?",
+     "id": "yoma-048a-l04",
+     "label": "Question: What if it stuck to his garment?",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-048a-l04",
+       "vilnaLine": 4
+      }
+     ]
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "topicTags": [
+    "kometz",
+    "stuck to pan",
+    "garment",
+    "dilemma"
+   ],
+   "concepts": {
+    "halachic": [
+     "kometz validity when stuck to pan or garment"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "kometz laws",
+    "meal-offering laws"
+   ],
+   "misconceptions": [
     {
-      "vilnaLine": 1,
-      "en": "Rashi: opens - 'he stuck the kometz to the walls of the vessel' - we hold in tractate Menachot (26a)",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "Rashi: continues - that the kometz requires placement in a vessel, and he scoops from within this vessel and sanctifies it into another vessel,",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "Rashi: continues - and if he did not place it on the bottom but on the walls and it stuck, what is the law? 'Tefufot' - a term for something",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l01",
-        "yoma-048a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "Rashi: continues - floating slightly raised, like 'for you drowned others, they drowned you' (Avot 2:6). 'Spilled",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l07",
-        "yoma-048a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "Rashi: continues - the blood on the floor' - and it was not received in a vessel:",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "Rashi: continues - 'from the vessel,' etc. - it is its own independent Mishnah",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "Rashi: continues - in another chapter (32a), and the two are not taught alongside each other,",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "Rashi: continues - though both are in tractate Zevachim. 'From where do we derive these",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l10",
-        "yoma-048a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "Rashi: continues - matters?' - for we require that it descend from the animal's neck",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Rashi: continues - into a vessel. 'From the blood of the life' - the spurting blood",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "Rashi: continues - by which the life departs. 'Subtract' - a letter",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l12",
-        "yoma-048a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "Rashi: continues - from this word and add to this word,",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Rashi: continues - 'and expound.' 'If he had wrong intent in the scooping of the incense,'",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l19",
-        "yoma-048a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Rashi: continues - with intent to burn it tomorrow. 'Do we derive",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "Rashi: continues - full from full from the meal offering? Just as there wrong intent is effective",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "Rashi: continues - in its scooping, as we derive in tractate Menachot",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Rashi: continues - (83a) from 'this is the law of the burnt offering and the meal offering,'",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Rashi: continues - etc., they are compared to peace offerings; just as peace offerings",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "Rashi: continues - can become pigul and be subject to pigul, so too a meal offering, etc.:",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Rashi: continues - 'and here too wrong intent is effective' - in its scooping,",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "Rashi: continues - or not; and here one cannot object that this is the same question already answered,",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Rashi: continues - as was objected above, for those two were both dilemmas",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Rashi: continues - for the same reason, to derive 'bring in his handfuls'",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Rashi: continues - just as there, 'in his fist'; but this matter",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Rashi: continues - is a different one; and also, if he does not expound the verbal analogy",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Rashi: continues - regarding 'with his fist,' perhaps he still expounds it",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Rashi: continues - regarding wrong intent.' 'He invalidates all of them.'",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l23",
-        "yoma-048a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Rashi: continues - for this is one of the eleven stringencies that were stated",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Rashi: continues - regarding the stringency of sacred items (Chagigah 20b): that the vessel",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "Rashi: continues - joins together everything within it, treating it as though",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Rashi: continues - it touched all of it. 'You might have thought that since tevul",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l27",
-        "yoma-048a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "Rashi: continues - yom invalidates, evidently the vessel sanctified it with the sanctity of",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "Rashi: continues - the body itself, so it also invalidates through leaving overnight; and since it invalidates through",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "Rashi: continues - overnight leaving, it also invalidates through the intent of overnight leaving, when he intended",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "Rashi: continues - to burn it tomorrow.' And it is difficult for me that he leaves aside",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "Rashi: continues - the Mishnah in tractate Me'ilah (10a), which teaches",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Rashi: continues - explicitly: the kometz, the incense, and the meal offering of",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "Rashi: continues - priests, one may commit sacrilege regarding them once they were sanctified; they were sanctified",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "Rashi: continues - in a vessel, they became fit to be invalidated by tevul yom",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "Rashi: continues - and by one lacking atonement offerings, and by overnight leaving; and here it is difficult",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "Rashi: continues - to bring it into the 'you might have thought' clause specifically from tevul yom:",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Rashi: concludes - 'if he had wrong intent' - the daf ends mid-word here; the comment (whether wrong intent while raking the coals invalidates the incense) continues on 48b.",
-      "linkedGemaraLineIds": [
-        "yoma-048a-l30"
-      ]
+     "misconception": "As long as the flour is held close to the priest's hand - stuck to the pan side or to his garment - it counts as being 'in his hand' for the kometz.",
+     "correction": "The Gemara treats pan-side and garment contact as unresolved boundary cases. The 'in his hand' requirement is not satisfied by mere proximity or adherence to an adjacent surface, but whether those cases definitively disqualify the kometz is left open.",
+     "correctedByStepId": null
     }
-  ]
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "description": "HP's three-finger kometz: handful stuck to pan side or garment - still valid?",
+     "role": "aha",
+     "priority": 1
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Whether a kometz that stuck to the side of the pan (leaving the hand) is still valid, or whether leaving the hand's surface invalidates it.",
+     "question": "What does Rav Pappa ask about the kometz and the side of the pan?"
+    }
+   ],
+   "finalRuling": "Whether the kometz sticking to the pan or garment invalidates it remains an unresolved dilemma.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-048a-s02",
+   "lineRange": {
+    "startVilnaLine": 7,
+    "endVilnaLine": 7
+   },
+   "lines": [
+    {
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.48a.3"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.48a.3"
+   ],
+   "display": {
+    "whats": "Should the Sages' kometz requirement be given the same stringency as the biblical requirement?",
+    "hint": "Rav Pappa asks: should the rabbinic requirements for the kometz be given the same strictness as the biblical ones? This is a meta-question about the hierarchy of kometz rules.",
+    "title": "Rabbinic Standards, Biblical Act: Same Invalidation?"
+   },
+   "learning": {
+    "ahaMoment": "Biblical kometz rules vs. rabbinic kometz rules - same stringency or different?",
+    "memoryAnchor": "Do the Sages' added kometz requirements have the same weight as the biblical requirements?",
+    "learnerQuestion": "If the kometz fails only a rabbinic requirement rather than a biblical one, is the Yom Kippur service nonetheless invalid?",
+    "coreTension": "A biblical deficiency in the kometz clearly invalidates the service, but a rabbinic deficiency raises the question of whether the same invalidation follows, since rabbinic and biblical obligations ordinarily differ in their disqualifying force.",
+    "coreMove": "The Gemara examines whether a kometz that satisfies the biblical requirements but falls short of a rabbinic standard still renders the service invalid, and treats the rabbinic requirement as carrying its own capacity to disqualify the offering even where the biblical act is technically complete.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "A kometz that satisfies biblical requirements but violates a rabbinic standard may still invalidate the service - the Gemara treats rabbinic kometz requirements as having real disqualifying force, not merely advisory status."
+    },
+    "learningBlocker": "Learners may assume that because the biblical kometz act is technically complete, a rabbinic deficiency cannot invalidate the service, missing that the Gemara considers rabbinic requirements capable of disqualifying the offering."
+   },
+   "argumentFlow": [
+    {
+     "type": "question",
+     "speaker": "Rav Pappa",
+     "text": "Should the handfuls to which the Sages added requirements be treated with the same stringency as the biblical ones?",
+     "id": "yoma-048a-l07",
+     "label": "Question: Should the handfuls to which the Sages",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-048a-l07",
+       "vilnaLine": 7
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "kometz",
+    "rabbinic requirements",
+    "biblical requirements",
+    "stringency"
+   ],
+   "concepts": {
+    "halachic": [
+     "rabbinic vs biblical kometz requirements"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "kometz laws",
+    "hierarchy of halakha"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "A kometz that fully satisfies the biblical requirements can never be invalidated by a rabbinic deficiency - the biblical act being complete is enough.",
+     "correction": "The Gemara treats rabbinic kometz requirements as having real disqualifying force: a kometz that fails a rabbinic standard may invalidate the service even if the biblical act is technically complete.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "description": "Biblical kometz stringency vs. rabbinic kometz stringency - same or different standards?",
+     "role": "anchor",
+     "priority": 1
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Whether the rabbinic additions to the kometz requirement (exact measure, not overflowing) are treated with the same stringency as the biblical requirements.",
+     "question": "What is the dilemma about the Sages' requirements for kometz?"
+    }
+   ],
+   "finalRuling": "Whether rabbinic kometz requirements have the same binding force as biblical ones remains a dilemma.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-048a-s03",
+   "lineRange": {
+    "startVilnaLine": 10,
+    "endVilnaLine": 19
+   },
+   "lines": [
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.48a.4"
+    },
+    {
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.48a.5"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.48a.6"
+    },
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.48a.7"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.48a.4",
+    "Yoma.48a.5",
+    "Yoma.48a.6",
+    "Yoma.48a.7"
+   ],
+   "display": {
+    "whats": "If the blood that touched the floor during the Zevahim service was considered non-valid - does this affect the kometz?",
+    "hint": "A ruling from tractate Zevahim (32a): if blood touched the floor, it is invalid for sprinkling. Rav Pappa asks: does this principle affect the kometz? If the kometz touches the floor, is it invalid by analogy?",
+    "title": "Blood on the Floor vs. Flour on the Floor: Different Rules"
+   },
+   "learning": {
+    "ahaMoment": "Blood touching the floor = invalid for sprinkling. Does flour touching the floor = invalid kometz by analogy?",
+    "memoryAnchor": "Blood on the floor is invalid for sprinkling; does floor-touch invalidate the kometz by the same rule?",
+    "learnerQuestion": "Does the Zevahim ruling that blood touching the floor is disqualified apply equally to kometz flour?",
+    "coreTension": "The Zevahim tractate establishes that offering blood contacting the floor is disqualified, and the question is whether this rule carries over to the kometz, which is also a Temple service element that must not touch impermissible surfaces.",
+    "coreMove": "The Gemara rules explicitly that the Zevahim floor-contact disqualification is specific to blood and does not extend to kometz flour, grounding the difference in the category-specific nature of the blood rule rather than a general Temple-surface prohibition.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The Zevahim ruling that blood touching the floor is disqualified applies only to blood - it does not extend to kometz flour, which operates under its own set of disqualifying conditions."
+    },
+    "learningBlocker": "Learners may assume a general principle that any Temple service element contacting the floor is disqualified, missing that the Gemara treats the Zevahim floor-contact rule as blood-specific with no kometz extension."
+   },
+   "argumentFlow": [
+    {
+     "type": "citation",
+     "speaker": "Gemara",
+     "text": "In Zevahim 32a: blood that touched the floor is invalid for sprinkling.",
+     "id": "yoma-048a-l10",
+     "label": "Citation: In Zevahim 32a: blood that touched the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-048a-l10",
+       "vilnaLine": 10
+      }
+     ]
+    },
+    {
+     "type": "question",
+     "speaker": "Rav Pappa",
+     "text": "Does the same principle apply to the kometz - if flour touched the floor, is it invalid?",
+     "id": "yoma-048a-l12",
+     "label": "Question: Does the same principle apply to the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-048a-l12",
+       "vilnaLine": 12
+      }
+     ]
+    },
+    {
+     "type": "analysis",
+     "speaker": "Gemara",
+     "text": "Blood and kometz are different Temple categories - the floor-touch rule may not transfer.",
+     "id": "yoma-048a-l14",
+     "label": "Analysis: Blood and kometz are different Temple categories",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-048a-l14",
+       "vilnaLine": 14
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "The floor-touch invalidation does not apply to the kometz - different category.",
+     "id": "yoma-048a-l19",
+     "label": "Ruling: The floor-touch invalidation does not apply to",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-048a-l19",
+       "vilnaLine": 19
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "kometz",
+    "blood",
+    "floor contact",
+    "Zevahim",
+    "categories"
+   ],
+   "concepts": {
+    "halachic": [
+     "floor contact invalidation - applies to blood not to kometz"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "kometz laws",
+    "blood sprinkling laws",
+    "Zevahim tractate connections"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The Zevahim ruling about blood touching the floor is a general Temple principle that applies equally to kometz flour.",
+     "correction": "The Gemara rules the Zevahim floor-contact disqualification is category-specific to blood and does not extend to kometz flour - the two are governed by different rules.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "blood floor-contact invalid vs kometz floor-contact different rule"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "No - blood on the floor is invalid for sprinkling (a specific blood-law), but this ruling does not extend to kometz flour since they are different Temple categories.",
+     "question": "Does the Zevahim ruling about blood on the floor apply to the kometz?"
+    }
+   ],
+   "finalRuling": "The Zevahim floor-contact ruling applies to blood only, not to kometz flour.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 4,
+   "id": "yoma-048a-s04",
+   "lineRange": {
+    "startVilnaLine": 20,
+    "endVilnaLine": 20
+   },
+   "lines": [
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.48a.8"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.48a.8"
+   ],
+   "display": {
+    "whats": "What if the High Priest scooped from a pile that was more than the required amount?",
+    "hint": "Rav Pappa asks: if the incense pile was more than needed and the High Priest scooped from it, is the kometz valid? The question is whether the excess invalidates the act.",
+    "title": "The Extra Flour: May the Kometz Come From Leftovers?"
+   },
+   "learning": {
+    "ahaMoment": "Taking the correct amount from an oversized pile - valid or not?",
+    "memoryAnchor": "If the incense pile has excess and the priest takes the exact kometz amount, is the service valid?",
+    "learnerQuestion": "If the kohen takes his handful from the excess flour pile rather than from the measured main offering, is that a valid kometz?",
+    "coreTension": "The kometz is supposed to be taken from the specific measured portion designated for the offering, but excess flour also surrounds it, raising the question of whether a handful scooped from the undifferentiated overflow is sufficiently 'from' the offering to count.",
+    "coreMove": "The Gemara raises the dilemma of whether scooping from the excess pile satisfies the kometz requirement and leaves it unresolved, treating it as a boundary case at the edge of what counts as taking 'his handfuls' from the designated offering.",
+    "takeaway": {
+     "type": "open_question",
+     "text": "Whether a handful scooped from the excess flour pile rather than from the main measured offering satisfies the kometz requirement is a dilemma the Gemara raises and leaves unresolved."
+    },
+    "learningBlocker": "Learners may assume any flour from the general offering area counts for the kometz, missing that the Gemara specifically isolates excess-pile scooping as an unresolved boundary case."
+   },
+   "argumentFlow": [
+    {
+     "type": "question",
+     "speaker": "Rav Pappa",
+     "text": "What if he scooped from a pile of more than the required amount?",
+     "id": "yoma-048a-l20",
+     "label": "Question: What if he scooped from a pile",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-048a-l20",
+       "vilnaLine": 20
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "kometz",
+    "excess",
+    "pile",
+    "dilemma"
+   ],
+   "concepts": {
+    "halachic": [
+     "kometz from excess pile"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "kometz laws"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Since the excess flour is part of the same offering, taking the kometz from the excess pile rather than the main measured portion is clearly valid.",
+     "correction": "The Gemara does not settle this - scooping from the excess pile is an unresolved boundary case, since the kometz may need to come from the specific measured main portion rather than overflow flour.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "description": "HP scooping from an oversized pile: does the excess invalidate the handful?",
+     "role": "anchor",
+     "priority": 1
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "If the incense pile is larger than one kometz and the priest scoops exactly the right amount, the question is whether the excess in the pile invalidates the service.",
+     "question": "What is the Rav Pappa dilemma about scooping kometz from an excess pile?"
+    }
+   ],
+   "finalRuling": "Taking the exact kometz amount from an oversized pile remains a dilemma.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 5,
+   "id": "yoma-048a-s05",
+   "lineRange": {
+    "startVilnaLine": 23,
+    "endVilnaLine": 30
+   },
+   "lines": [
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.48a.9"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.48a.10"
+    },
+    {
+     "vilnaLine": 30,
+     "sefariaRef": "Yoma.48a.11"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.48a.9",
+    "Yoma.48a.10",
+    "Yoma.48a.11"
+   ],
+   "display": {
+    "whats": "What if the High Priest completed the kometz act with a different kometz in mind?",
+    "hint": "Rav Pappa's final dilemma: what if the High Priest performed the kometz while mentally thinking about a different offering? The intent (kavvanah) must match the act. If he scooped while thinking about a different offering, is this kometz valid?",
+    "title": "Wrong Intent, Invalid Kometz: Disqualification by Kavvanah"
+   },
+   "learning": {
+    "ahaMoment": "Intent mismatch during kometz: thinking about one offering while scooping another. The mental state must match the physical act for valid Temple service.",
+    "memoryAnchor": "Kometz done with wrong intent - thinking about a different offering invalidates the service.",
+    "learnerQuestion": "If the kohen performs the kometz with intent directed toward a different offering rather than the one being served, is the kometz valid?",
+    "coreTension": "Kavvanah (intent) governs Temple service validity, so intent directed toward a different offering during the kometz should in principle invalidate it, but the mechanism by which wrong intent disqualifies this specific act needs to be established.",
+    "coreMove": "The Gemara rules that a kometz performed with intent toward a different offering is invalid, applying the principle that wrong-offering kavvanah disqualifies a Temple service act to the specific case of the kometz.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "A kometz performed with intent toward a different offering is invalid - wrong-offering kavvanah disqualifies this Temple service act just as it does others."
+    },
+    "learningBlocker": "Learners may assume the kometz is a mechanical act immune to intent-based disqualification, or that wrong intent only makes it 'problematic' without rendering it definitively invalid, missing the Gemara's clear ruling."
+   },
+   "argumentFlow": [
+    {
+     "type": "question",
+     "speaker": "Rav Pappa",
+     "text": "What if the High Priest performed the kometz while thinking about a different offering?",
+     "id": "yoma-048a-l23",
+     "label": "Question: What if the High Priest performed the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-048a-l23",
+       "vilnaLine": 23
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "Intent must match the act - wrong intent can invalidate Temple service.",
+     "id": "yoma-048a-l27",
+     "label": "Ruling: Intent must match the act - wrong",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-048a-l27",
+       "vilnaLine": 27
+      }
+     ]
+    },
+    {
+     "type": "resolution",
+     "speaker": "Gemara",
+     "text": "The kometz with wrong intent is invalid; kavvanah must be for this specific service.",
+     "id": "yoma-048a-l30",
+     "label": "Resolution: The kometz with wrong intent is invalid;",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-048a-l30",
+       "vilnaLine": 30
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "kometz",
+    "kavvanah",
+    "intent",
+    "invalidating thoughts",
+    "Temple service"
+   ],
+   "concepts": {
+    "halachic": [
+     "wrong intent invalidates kometz"
+    ],
+    "theological": [
+     "intent in Temple service"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "kavvanah in Temple service",
+    "kometz laws",
+    "pigul (improper intent) laws"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Wrong intent during the kometz makes the act problematic or requires a follow-up correction, but does not render the offering definitively invalid.",
+     "correction": "The Gemara rules without qualification that a kometz performed with intent toward a different offering is invalid - the service is disqualified, not merely flagged as needing correction.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "correct intent vs wrong-offering intent during kometz"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "The wrong intent (kavvanah) during the kometz invalidates the service - Temple acts require intent that matches the specific service being performed.",
+     "question": "What happens if the High Priest scoops the kometz while mentally focused on a different offering?"
+    }
+   ],
+   "finalRuling": "Kometz performed with intent toward a different offering is invalid.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [
+  {
+   "he": "כַּוָּנָה",
+   "translit": "kavvanah",
+   "en": "Intent/mindfulness - Temple service requires specific intent toward the particular service being performed; wrong intent can invalidate."
+  },
+  {
+   "he": "פִּגּוּל",
+   "translit": "pigul",
+   "en": "An improper intent during Temple service (e.g., thinking about eating the offering outside its permitted time) that renders the offering invalid."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'He stuck the kometz to the walls of the vessel' - we hold in tractate Menachot (26a)",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "that the kometz requires placement in a vessel, and he scoops from within this vessel and sanctifies it into another vessel;",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "and if he did not place it on the bottom but on the walls, and it stuck, what is the law? 'Tefufot' - a term for something",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l01",
+    "yoma-048a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "floating slightly raised, like 'for as you drowned others, they drowned you' (Avot 2:6). 'Spilled",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l07",
+    "yoma-048a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "the blood on the floor' - and it was not received in a vessel.",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "'From the vessel,' etc. - this is its own independent Mishnah,",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "in another chapter (32a), and the two are not taught alongside each other,",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "though both are in tractate Zevachim. 'From where do we derive these",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l10",
+    "yoma-048a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "matters' - since we require that it descend from the animal's neck",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "into a vessel. 'From the blood of the life' - the spurting blood",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "by which the life departs. 'Subtract' - a letter",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l12",
+    "yoma-048a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "from this word and add to that word,",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "'and expound.' 'If he had wrong intent in the scooping of the incense' -",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l19",
+    "yoma-048a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "with intent to burn it tomorrow. 'Do we derive",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "full from full, from the meal offering' - just as there wrong intent is effective",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "in its scooping, since we derive in tractate Menachot",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "(83a) from 'this is the law of the burnt offering and the meal offering,'",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "etc. - they are compared to peace offerings; just as peace offerings",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "can become piggul or be rendered piggul by wrong intent, so too a meal offering, etc.,",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "'is wrong intent effective here too' - in its scooping,",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "or not? And here one cannot object that this is the same question already asked",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "above, since those two questions shared",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "one common reasoning: to derive 'and he shall bring in his handfuls'",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "just like there, 'in his fist'; but this matter",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "is a different one, since even one who does not expound the verbal analogy",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "regarding 'with his fist' may still expound it",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "regarding wrong intent. 'He invalidates all of them' -",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l23",
+    "yoma-048a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "for this is one of the eleven stringencies stated",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "regarding the stringency of sacred items (Chagigah 20b), that the vessel",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "joins together everything within it, as though",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "it touched all of it. 'You might have thought that since tevul",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l27",
+    "yoma-048a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "yom invalidates it, evidently the vessel had sanctified it with the sanctity of",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "the body itself, so it is also invalidated by overnight leaving; and since it is invalidated by",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "overnight leaving, it is also invalidated by the intent of overnight leaving, when he intended",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "to burn it tomorrow.' And it is difficult for me that he leaves aside",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "the Mishnah in tractate Me'ilah (10a), which teaches",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "explicitly: the kometz, the incense, and the meal offering of",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "priests, one may commit sacrilege regarding them once they were sanctified; once sanctified",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "in a vessel, they become subject to invalidation by tevul yom",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "and by one lacking atonement offerings and by overnight leaving; yet here it strains",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "to bring the 'you might have thought' clause specifically from tevul yom.",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "'Had wrong intent'",
+   "linkedGemaraLineIds": [
+    "yoma-048a-l30"
+   ]
+  }
+ ]
 }
