@@ -1,427 +1,427 @@
 {
-  "canonicalRef": "Yoma 49b",
-  "summary": "The Mishna details the most physically demanding Temple act: the HP's incense transfer technique inside the Holy of Holies - fingertips on the ladle, thumbs drawing it in, tipping into bare palms. The Gemara then discusses Passover registration (nimnaim): withdrawal is permitted before slaughter; after slaughter, 'according to the sheep' no longer applies. This parallels the replacement HP question: slaughter changes the legal relationship to the initiated act.",
-  "sugyot": [
+ "canonicalRef": "Yoma 49b",
+ "summary": "The Mishna details the most physically demanding Temple act: the HP's incense transfer technique inside the Holy of Holies - fingertips on the ladle, thumbs drawing it in, tipping into bare palms. The Gemara then discusses Passover registration (nimnaim): withdrawal is permitted before slaughter; after slaughter, 'according to the sheep' no longer applies. This parallels the replacement HP question: slaughter changes the legal relationship to the initiated act.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-049b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 6
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-049b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 6
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.49b.1"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.49b.2"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.49b.1",
-        "Yoma.49b.2"
-      ],
-      "display": {
-        "whats": "How does the HP transfer incense from the ladle into his bare palms inside the Holy of Holies?",
-        "hint": "The Mishna details the most physically demanding Temple act: gripping the ladle with fingertips, tilting it between the arms, and using the thumbs to pour incense into cupped palms.",
-        "title": "Fingertips and Thumbs: The Physical Challenge of the Incense Transfer"
-      },
-      "learning": {
-        "ahaMoment": "The kometz was called the hardest Temple service because the HP had to hold the ladle with fingertips and pour with thumbs into bare palms - extraordinary dexterity required.",
-        "memoryAnchor": "HP tilts ladle between forearms, draws handle with thumbs toward body, tips incense into bare cupped palms - the most awkward act in the Temple.",
-        "learnerQuestion": "How did the High Priest transfer the incense from the ladle into his bare palms without using his thumbs as scoops?",
-        "coreTension": "The incense must end up cupped in the High Priest's palms, but his thumbs are occupied gripping the spoon and cannot be used for scooping, making the transfer a balance-and-tip maneuver rather than a simple pour.",
-        "coreMove": "The Gemara describes the High Priest balancing the ladle on his fingertips while using his thumbs to tip it, demonstrating that the transfer requires an extraordinary technique - not an ordinary pour - and is part of why the kometz is called the most difficult service.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "The High Priest transferred incense from ladle to palms by balancing the ladle on his fingertips and tipping it with his thumbs - a technically demanding maneuver that contributes to the kometz being called the most difficult Temple service."
-        },
-        "learningBlocker": "Learners may picture an ordinary pour from the ladle into the hands, missing that the thumb-grip constraint forces a balance-and-tip technique that is the source of the service's extreme difficulty."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Mishna",
-          "text": "HP grips ladle top with fingertips, places it between forearms, draws handle with thumbs, tips incense into palms.",
-          "id": "yoma-049b-l01",
-          "label": "Ruling: HP grips ladle top with fingertips, places",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-049b-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "explanation",
-          "speaker": "Gemara",
-          "text": "This explains why the kometz was called the most difficult service - extraordinary manual dexterity with no vessel allowed.",
-          "id": "yoma-049b-l02",
-          "label": "Explanation: This explains why the kometz was called",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-049b-l02",
-              "vilnaLine": 2
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "kometz technique",
-        "incense service",
-        "Holy of Holies",
-        "ladle transfer"
-      ],
-      "concepts": {
-        "halachic": [
-          "incense placed by bare hands not vessel",
-          "most difficult Temple act"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "kometz laws",
-        "incense service requirements"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The HP could pour the incense into his hands normally, using the ladle like a cup.",
-          "correction": "The physical difficulty was enormous: the HP had to balance the ladle on his fingertips while using his thumbs to tip it - he could not use a normal grip. This is why the Mishna calls the kometz the hardest Temple service.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        "HP hands",
-        "ladle",
-        "incense pouring sequence"
-      ],
-      "quizSeeds": [
-        {
-          "answer": "The HP had to grip the ladle with his fingertips, draw the handle with his thumbs, and tip incense into his bare cupped palms - no vessel allowed, requiring extraordinary manual dexterity.",
-          "question": "Why was the kometz called the most difficult Temple service?"
-        }
-      ],
-      "finalRuling": "The HP must use bare hands to transfer incense; no vessel is permitted for this step.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.49b.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-049b-s02",
-      "lineRange": {
-        "startVilnaLine": 11,
-        "endVilnaLine": 22
-      },
-      "lines": [
-        {
-          "vilnaLine": 11,
-          "sefariaRef": "Yoma.49b.3"
-        },
-        {
-          "vilnaLine": 13,
-          "sefariaRef": "Yoma.49b.4"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.49b.5"
-        },
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.49b.6"
-        },
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.49b.7"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.49b.8"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.49b.9"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.49b.3",
-        "Yoma.49b.4",
-        "Yoma.49b.5",
-        "Yoma.49b.6",
-        "Yoma.49b.7",
-        "Yoma.49b.8",
-        "Yoma.49b.9"
-      ],
-      "display": {
-        "whats": "The Passover registration system and whether withdrawal is valid after slaughter",
-        "hint": "The Gemara discusses who may register on the Passover offering and when withdrawal is permitted. This connects to the replacement HP question: can an act be completed by a different agent than the one who initiated it?",
-        "title": "'According to the Sheep': Registration Must Happen While It Is Alive"
-      },
-      "learning": {
-        "ahaMoment": "Passover registration and replacement HP share the structural question: once an act is initiated under one person's authority, can another person complete or join it?",
-        "memoryAnchor": "Can you register on a slaughtered sheep? The Gemara's no answer illuminates the replacement HP question.",
-        "learnerQuestion": "Can a person join the registered group of a Passover offering after the sheep has already been slaughtered?",
-        "coreTension": "The verse says the lamb is counted 'according to its eating,' which could be read as permitting registration at any point before the meal including after slaughter, but the Gemara restricts the timing to while the animal is still alive.",
-        "coreMove": "The Gemara reads 'according to the sheep' as requiring registration while the animal is still alive - 'according to the sheep' means in reference to the living animal, and once it is slaughtered, the window for joining its group has closed.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Registration on a Passover offering must take place while the animal is alive - 'according to the sheep' means in reference to the living animal, and post-slaughter registration is invalid."
-        },
-        "learningBlocker": "Learners may assume registration can happen at any point before the meal including after slaughter, missing that the Gemara derives a pre-slaughter deadline from the phrase 'according to the sheep.'"
-      },
-      "argumentFlow": [
-        {
-          "type": "question",
-          "speaker": "Gemara",
-          "text": "Can someone register on the Passover offering after it has been slaughtered?",
-          "id": "yoma-049b-l03",
-          "label": "Question: Can someone register on the Passover offering",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-049b-l03",
-              "vilnaLine": 3
-            }
-          ]
-        },
-        {
-          "type": "principle",
-          "speaker": "Gemara",
-          "text": "'According to the sheep' means while alive - after slaughter the registration relationship ends.",
-          "id": "yoma-049b-l04",
-          "label": "Principle: 'According to the sheep' means while alive",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-049b-l04",
-              "vilnaLine": 4
-            }
-          ]
-        },
-        {
-          "type": "application",
-          "speaker": "Gemara",
-          "text": "Similarly: the replacement HP cannot simply 'join' the first HP's initiated service.",
-          "id": "yoma-049b-l05",
-          "label": "Application: Similarly: the replacement HP cannot simply 'join'",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-049b-l05",
-              "vilnaLine": 5
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Passover registration",
-        "nimnaim",
-        "slaughter and completion",
-        "replacement logic"
-      ],
-      "concepts": {
-        "halachic": [
-          "withdrawal before slaughter permitted",
-          "slaughtered animal cannot be registered on"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Passover offering laws",
-        "registration and withdrawal",
-        "replacement rules"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "A person may join the registered group of a Passover offering at any point before the meal, including after the sheep has already been slaughtered.",
-          "correction": "The Gemara rules that registration must happen while the animal is alive - 'according to the sheep' means in reference to the living animal, so post-slaughter registration is invalid.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "description": "Passover registration: withdrawal valid before slaughter, invalid after - the slaughter is the point of no return",
-          "role": "contrast",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Slaughter ends the possibility of new registration on an offering. Similarly, the replacement HP cannot simply join the first HP's initiated service - the question of a new bull turns on this parallel.",
-          "question": "What does the Passover registration discussion reveal about the replacement HP?"
-        }
-      ],
-      "finalRuling": "After slaughter, new registration on a Passover offering is not possible; this parallels the replacement HP question.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.49b.2"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.49b.1",
+    "Yoma.49b.2"
+   ],
+   "display": {
+    "whats": "How does the HP transfer incense from the ladle into his bare palms inside the Holy of Holies?",
+    "hint": "The Mishna details the most physically demanding Temple act: gripping the ladle with fingertips, tilting it between the arms, and using the thumbs to pour incense into cupped palms.",
+    "title": "Fingertips and Thumbs: The Physical Challenge of the Incense Transfer"
+   },
+   "learning": {
+    "ahaMoment": "The kometz was called the hardest Temple service because the HP had to hold the ladle with fingertips and pour with thumbs into bare palms - extraordinary dexterity required.",
+    "memoryAnchor": "HP tilts ladle between forearms, draws handle with thumbs toward body, tips incense into bare cupped palms - the most awkward act in the Temple.",
+    "learnerQuestion": "How did the High Priest transfer the incense from the ladle into his bare palms without using his thumbs as scoops?",
+    "coreTension": "The incense must end up cupped in the High Priest's palms, but his thumbs are occupied gripping the spoon and cannot be used for scooping, making the transfer a balance-and-tip maneuver rather than a simple pour.",
+    "coreMove": "The Gemara describes the High Priest balancing the ladle on his fingertips while using his thumbs to tip it, demonstrating that the transfer requires an extraordinary technique - not an ordinary pour - and is part of why the kometz is called the most difficult service.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "The High Priest transferred incense from ladle to palms by balancing the ladle on his fingertips and tipping it with his thumbs - a technically demanding maneuver that contributes to the kometz being called the most difficult Temple service."
+    },
+    "learningBlocker": "Learners may picture an ordinary pour from the ladle into the hands, missing that the thumb-grip constraint forces a balance-and-tip technique that is the source of the service's extreme difficulty."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "Rashi: opens - 'how does he do it?' The second scooping, which is inside, from the bowl into his handfuls: he holds",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l01"
-      ]
+     "type": "ruling",
+     "speaker": "Mishna",
+     "text": "HP grips ladle top with fingertips, places it between forearms, draws handle with thumbs, tips incense into palms.",
+     "id": "yoma-049b-l01",
+     "label": "Ruling: HP grips ladle top with fingertips, places",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-049b-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "Rashi: continues - the top of the bowl with his fingertips, after he placed the coal pan on the ground; and its handle",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "Rashi: continues - faces between his arms, and he raises it with his two thumbs, and draws its handle with his thumbs",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "Rashi: continues - toward his body little by little, until the head of its handle reaches between his elbows, and the head of the bowl",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "Rashi: continues - reaches the height of his palm, and he then turns it back",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "Rashi: continues - sideways into his handfuls, and piles it upon",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "Rashi: continues - the coals.' 'They register' - regarding the Passover offering, whoever",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l01",
-        "yoma-049b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "Rashi: continues - wants to register, and withdraws his hands from it; whoever",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "Rashi: continues - wants to withdraw may do so until it is slaughtered.' 'And if it is so,'",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Rashi: continues - that even after slaughter we would still read it as 'on'",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "Rashi: continues - 'the sheep, until it is tossed' it should have said.' 'And if'",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "Rashi: continues - the household diminishes' - if those registered wish to diminish their numbers",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Rashi: continues - and withdraw their hands.' 'From being a sheep' -",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l16",
-        "yoma-049b-l18a"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Rashi: continues - while its being as a sheep is still intact they may withdraw, but not",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l18a"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "Rashi: continues - from when it is slaughtered.' 'One may not redeem' - a firstborn donkey: 'not",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l18a",
-        "yoma-049b-l18b"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "Rashi: continues - with a calf, nor with a wild animal' - since 'sheep' is written: 'nor",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l18b"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Rashi: continues - with a slaughtered sheep.' 'Nor with kilayim' - since a goat",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l18b"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Rashi: continues - and a ewe, even though from both its sides it is a sheep:",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l18b"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "Rashi: continues - 'nor with a koi' - since 'a male goat and a deer' - it teaches, in any case, not",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l18b"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Rashi: continues - with a slaughtered one; evidently a slaughtered animal is not called 'sheep':",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l18b"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "Rashi: concludes - 'and he shall take out' - the daf ends mid-word here; the comment (returning to whether a slaughtered bull is still called 'bull') continues on 50a.",
-      "linkedGemaraLineIds": [
-        "yoma-049b-l18b"
-      ]
+     "type": "explanation",
+     "speaker": "Gemara",
+     "text": "This explains why the kometz was called the most difficult service - extraordinary manual dexterity with no vessel allowed.",
+     "id": "yoma-049b-l02",
+     "label": "Explanation: This explains why the kometz was called",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-049b-l02",
+       "vilnaLine": 2
+      }
+     ]
     }
-  ],
-  "review": "reviewed"
+   ],
+   "topicTags": [
+    "kometz technique",
+    "incense service",
+    "Holy of Holies",
+    "ladle transfer"
+   ],
+   "concepts": {
+    "halachic": [
+     "incense placed by bare hands not vessel",
+     "most difficult Temple act"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "kometz laws",
+    "incense service requirements"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The HP could pour the incense into his hands normally, using the ladle like a cup.",
+     "correction": "The physical difficulty was enormous: the HP had to balance the ladle on his fingertips while using his thumbs to tip it - he could not use a normal grip. This is why the Mishna calls the kometz the hardest Temple service.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    "HP hands",
+    "ladle",
+    "incense pouring sequence"
+   ],
+   "quizSeeds": [
+    {
+     "answer": "The HP had to grip the ladle with his fingertips, draw the handle with his thumbs, and tip incense into his bare cupped palms - no vessel allowed, requiring extraordinary manual dexterity.",
+     "question": "Why was the kometz called the most difficult Temple service?"
+    }
+   ],
+   "finalRuling": "The HP must use bare hands to transfer incense; no vessel is permitted for this step.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-049b-s02",
+   "lineRange": {
+    "startVilnaLine": 11,
+    "endVilnaLine": 22
+   },
+   "lines": [
+    {
+     "vilnaLine": 11,
+     "sefariaRef": "Yoma.49b.3"
+    },
+    {
+     "vilnaLine": 13,
+     "sefariaRef": "Yoma.49b.4"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.49b.5"
+    },
+    {
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.49b.6"
+    },
+    {
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.49b.7"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.49b.8"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.49b.9"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.49b.3",
+    "Yoma.49b.4",
+    "Yoma.49b.5",
+    "Yoma.49b.6",
+    "Yoma.49b.7",
+    "Yoma.49b.8",
+    "Yoma.49b.9"
+   ],
+   "display": {
+    "whats": "The Passover registration system and whether withdrawal is valid after slaughter",
+    "hint": "The Gemara discusses who may register on the Passover offering and when withdrawal is permitted. This connects to the replacement HP question: can an act be completed by a different agent than the one who initiated it?",
+    "title": "'According to the Sheep': Registration Must Happen While It Is Alive"
+   },
+   "learning": {
+    "ahaMoment": "Passover registration and replacement HP share the structural question: once an act is initiated under one person's authority, can another person complete or join it?",
+    "memoryAnchor": "Can you register on a slaughtered sheep? The Gemara's no answer illuminates the replacement HP question.",
+    "learnerQuestion": "Can a person join the registered group of a Passover offering after the sheep has already been slaughtered?",
+    "coreTension": "The verse says the lamb is counted 'according to its eating,' which could be read as permitting registration at any point before the meal including after slaughter, but the Gemara restricts the timing to while the animal is still alive.",
+    "coreMove": "The Gemara reads 'according to the sheep' as requiring registration while the animal is still alive - 'according to the sheep' means in reference to the living animal, and once it is slaughtered, the window for joining its group has closed.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Registration on a Passover offering must take place while the animal is alive - 'according to the sheep' means in reference to the living animal, and post-slaughter registration is invalid."
+    },
+    "learningBlocker": "Learners may assume registration can happen at any point before the meal including after slaughter, missing that the Gemara derives a pre-slaughter deadline from the phrase 'according to the sheep.'"
+   },
+   "argumentFlow": [
+    {
+     "type": "question",
+     "speaker": "Gemara",
+     "text": "Can someone register on the Passover offering after it has been slaughtered?",
+     "id": "yoma-049b-l03",
+     "label": "Question: Can someone register on the Passover offering",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-049b-l03",
+       "vilnaLine": 3
+      }
+     ]
+    },
+    {
+     "type": "principle",
+     "speaker": "Gemara",
+     "text": "'According to the sheep' means while alive - after slaughter the registration relationship ends.",
+     "id": "yoma-049b-l04",
+     "label": "Principle: 'According to the sheep' means while alive",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-049b-l04",
+       "vilnaLine": 4
+      }
+     ]
+    },
+    {
+     "type": "application",
+     "speaker": "Gemara",
+     "text": "Similarly: the replacement HP cannot simply 'join' the first HP's initiated service.",
+     "id": "yoma-049b-l05",
+     "label": "Application: Similarly: the replacement HP cannot simply 'join'",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-049b-l05",
+       "vilnaLine": 5
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "Passover registration",
+    "nimnaim",
+    "slaughter and completion",
+    "replacement logic"
+   ],
+   "concepts": {
+    "halachic": [
+     "withdrawal before slaughter permitted",
+     "slaughtered animal cannot be registered on"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Passover offering laws",
+    "registration and withdrawal",
+    "replacement rules"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "A person may join the registered group of a Passover offering at any point before the meal, including after the sheep has already been slaughtered.",
+     "correction": "The Gemara rules that registration must happen while the animal is alive - 'according to the sheep' means in reference to the living animal, so post-slaughter registration is invalid.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "description": "Passover registration: withdrawal valid before slaughter, invalid after - the slaughter is the point of no return",
+     "role": "contrast",
+     "priority": 1
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Slaughter ends the possibility of new registration on an offering. Similarly, the replacement HP cannot simply join the first HP's initiated service - the question of a new bull turns on this parallel.",
+     "question": "What does the Passover registration discussion reveal about the replacement HP?"
+    }
+   ],
+   "finalRuling": "After slaughter, new registration on a Passover offering is not possible; this parallels the replacement HP question.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'How does he do it?' - this is the second scooping, the one done inside, transferring from the ladle into his handfuls: he holds",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "the top of the ladle with his fingertips, after having set the coal pan down on the ground, with the ladle's handle",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "facing between his arms; he raises it with his two thumbs and draws its handle with his thumbs",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "toward his body, little by little, until the head of the handle reaches between his elbows, and the head of the ladle",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "reaches the height of the back of his hand; he then turns it back",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "sideways into his handfuls, and piles it onto",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "the coals. 'They register' - for the Paschal offering, whoever",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l01",
+    "yoma-049b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "wishes may register for it, and whoever",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "wishes may withdraw may do so until it is slaughtered. 'And if it is so'",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "that even after slaughter it may still be called 'upon",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "the sheep,' then it should have said, 'until its blood is tossed.' 'And if",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l16",
+    "yoma-049b-l18a"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "the household becomes too small' - if the registrants wish to reduce their number",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l18a"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "and withdraw their hands from it. 'From being a sheep'",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l18a"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "- while it still has the status of a sheep they may do so, but not",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l18a"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "once it has been slaughtered. 'One may not redeem' - a firstborn donkey: 'not",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l18a",
+    "yoma-049b-l18b"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "with a calf, nor with a wild animal' - since the verse states 'a sheep.' 'Nor'",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l18b"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "- with a slaughtered sheep. 'Nor with a mixed-breed animal' - the offspring of a goat",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l18b"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "and a ewe, even though from both its parents it has the status of a sheep.",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l18b"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "'Nor with a koi' - since it teaches, in any case, of a goat-and-deer hybrid, and yet not",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l18b"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "with a slaughtered one; evidently a slaughtered animal is not called 'a sheep.'",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l18b"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "'And he shall take out' - the daf ends mid-word here; the comment (returning to whether a slaughtered bull is still called 'bull') continues on 50a.",
+   "linkedGemaraLineIds": [
+    "yoma-049b-l22"
+   ]
+  }
+ ],
+ "review": "reviewed"
 }
