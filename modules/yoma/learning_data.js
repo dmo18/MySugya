@@ -99117,12 +99117,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 1,
         he: "דאפיק חמור בהדה. דלתנא קמא שרי דליכא שמא יאמרו לרבי",
-        en: "Rashi: opens - a donkey was taken along with the goat - according to the first Tanna [this was permitted], since there is no [scriptural] basis [for prohibiting it].",
+        en: "Who brought out a donkey along with it - for according to the first Tanna it is permitted, since there is no concern that people will say to Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l01"
+          "yoma-043a-l01a"
         ]
       },
       {
@@ -99131,12 +99131,13 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 2,
         he: "אסור דהא אותה כתיב: ולקח אלעזר הכהן. בקבלת דמה:",
-        en: "Rashi: continues - to Shmuel - [the proof is that] it is written 'and [Elazar] the priest shall take' - [this refers to] the taking of [its] blood.",
+        en: "that it is forbidden, since it is the word 'it' that is written. 'And Elazar the priest shall take' - regarding the receiving of its blood.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l01"
+          "yoma-043a-l01a",
+          "yoma-043a-l04"
         ]
       },
       {
@@ -99145,12 +99146,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 3,
         he: "לשמואל. דדייק לפניו לומר שהזר כשר לשחיטה איצטריך למיכתב",
-        en: "Rashi: continues - [implying] the non-Jew is fit for slaughter - [therefore] it was necessary to write [separately regarding the] taking [of blood, to teach that Elazar alone must perform it].",
+        en: "To Shmuel - who deduces from 'before him' that a non-priest is valid for the slaughtering, it was necessary to write",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l01"
+          "yoma-043a-l04"
         ]
       },
       {
@@ -99159,7 +99160,7 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 4,
         he: "בקבלת דמה אלעזר לאהדורה לאלעזר דאי כתב ולקח מדמה",
-        en: "Rashi: continues - the taking of blood [must be] by Elazar - to return [the word back] to Elazar [from the previous context] - [for] if [the verse] had written '[and he shall take]' [referring to] the blood, it would seem [that] the slaughter [is also done by someone else].",
+        en: "'Elazar' regarding the receiving of the blood, to return it to Elazar; for if it had written 'and he shall take of its blood'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -99173,7 +99174,7 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 5,
         he: "(והזה באצבעו) הוה משמע דאשוחט",
-        en: "Rashi: continues - and the sprinkling [is written:] 'and he shall sprinkle with his finger' - [this too] would [seem to be done by someone other than Elazar].",
+        en: "(and sprinkle with his finger) it would imply that it refers back to the one who slaughters,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -99187,7 +99188,7 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 6,
         he: "קאי: לרב. נמי דאמר שחיטה",
-        en: "Rashi: continues - to Rav - [who] also said [that] the slaughter is [by] Elazar - [therefore] it was not necessary to write [the taking of blood, as the entire ceremony requires Elazar].",
+        en: "the same person as the slaughterer. To Rav, who also says the slaughtering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -99201,7 +99202,7 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 7,
         he: "באלעזר היא לא הוה ליה למיכתב",
-        en: "Rashi: continues - regarding Elazar, [the scripture] was not [required] to write [about taking blood separately, since] the slaughter is [already taught to be by Elazar].",
+        en: "is performed by Elazar, there was no need to write",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -99215,7 +99216,7 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 8,
         he: "בקבלה אלעזר וכי כתיב הוי מיעוט",
-        en: "Rashi: continues - regarding the taking of blood, [the scripture] did write - and if [the word] 'he' is written, [this teaches] a diminution [from the usual rule].",
+        en: "'Elazar' regarding the receiving; and since it is written, it is a restriction",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -99229,7 +99230,7 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 9,
         he: "אחר מיעוט לאלעזר ולא אחר ואין",
-        en: "Rashi: continues - after [another] diminution [we have] for Elazar - and [there is] no diminution after diminution [permitted in Torah law].",
+        en: "following a restriction - 'to Elazar' and not another - and there is no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -99243,12 +99244,13 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 10,
         he: "מיעוט אחר מיעוט כו': ולקח הכהן",
-        en: "Rashi: continues - '[therefore:] and the priest shall take cedar' - [this is the next phrase in Numbers 19].",
+        en: "restriction following a restriction, etc. 'And the priest shall take",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l04"
+          "yoma-043a-l04",
+          "yoma-043a-l07"
         ]
       },
       {
@@ -99257,12 +99259,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 11,
         he: "עץ ארז לשמואל. דאמר קבלה והזאה",
-        en: "Rashi: continues - [regarding] cedar wood - to Shmuel - [he] said [that] the taking of blood and the sprinkling are [both performed] by Elazar, [as is] written [in the verse].",
+        en: "cedar wood' - to Shmuel, who says the receiving and sprinkling",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l11"
+          "yoma-043a-l07"
         ]
       },
       {
@@ -99271,12 +99273,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 12,
         he: "באלעזר הואי כתיב בה כהן לאכשורי",
-        en: "Rashi: continues - regarding the priest in [general] - it is written [that] the burning and the casting [are also performed by the priest].",
+        en: "were performed by Elazar, here 'priest' is written to make valid",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l11"
+          "yoma-043a-l07"
         ]
       },
       {
@@ -99285,12 +99287,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 13,
         he: "השלכת עץ ארז בכהן הדיוט הוי",
-        en: "Rashi: continues - the casting of cedar wood [is performed] by a common priest - [this is] permitted, [whereas the taking of blood requires Elazar].",
+        en: "the casting of the cedar wood by an ordinary priest; this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l13"
+          "yoma-043a-l07"
         ]
       },
       {
@@ -99299,12 +99301,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 14,
         he: "האי משמע מוציא מיד משמע וכן",
-        en: "Rashi: continues - this [teaching] implies [that] a non-Jew is excluded [from] this [task] - [the text teaches] that [a non-Jew] cannot [perform] the casting.",
+        en: "is an implication that excludes directly from another implication, and likewise",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l13"
+          "yoma-043a-l07"
         ]
       },
       {
@@ -99313,12 +99315,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 15,
         he: "כל הני דאמרינן ולרב דמכשר קבלה",
-        en: "Rashi: continues - and all of these [tasks] that we have stated - [regarding] the slaughter [and] sprinkling - [are] to Rav - [who rules that they require Elazar].",
+        en: "all these that we say follow this pattern. And to Rav, who validates the receiving",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l13"
+          "yoma-043a-l07"
         ]
       },
       {
@@ -99327,12 +99329,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 16,
         he: "בכהן הדיוט הוי האי משמע ממילא",
-        en: "Rashi: continues - [whether performed] by a common priest - [the text teaches] that it is excluded [from the general rule].",
+        en: "by an ordinary priest, this implication stands on its own",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l13"
+          "yoma-043a-l07"
         ]
       },
       {
@@ -99341,12 +99343,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 17,
         he: "ואינו מוציא מכלל מקרא שלפניו",
-        en: "Rashi: continues - and [this exclusion is] not [derived] from [the general scope of] the verse before it - [therefore] it was necessary to write [it separately].",
+        en: "and does not exclude from the verse before it,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l13"
+          "yoma-043a-l07"
         ]
       },
       {
@@ -99355,12 +99357,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 18,
         he: "ואיצטריך למיכתב ביה כהן דאי כתב",
-        en: "Rashi: continues - that [the priest must perform this act] - [for] if [the verse] had written '[and] he [shall take] cedar wood,' and [it did] not [write] 'priest,' [we would understand].",
+        en: "and it was necessary to write 'priest' in it; for if it had written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l13"
+          "yoma-043a-l07"
         ]
       },
       {
@@ -99369,12 +99371,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 19,
         he: "ולקח עץ ארז ולא כתיב כהן הוה",
-        en: "Rashi: continues - '[that any] one who wishes [may] take [it],' and [there would be] no [basis to] establish him [as needing to be] a priest.",
+        en: "'and he shall take cedar wood' without writing 'priest,' we would",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l13"
+          "yoma-043a-l07"
         ]
       },
       {
@@ -99383,12 +99385,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 20,
         he: "אמינא ולקח כל מי שירצה ולא הוה",
-        en: "Rashi: continues - [rather, the verse] establishes [him as] a priest, [since it] says [that the priest performs this] - [this is the resolution of the textual difficulty].",
+        en: "have said that anyone who wishes may take it, and we would not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l13"
+          "yoma-043a-l07"
         ]
       },
       {
@@ -99397,12 +99399,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 21,
         he: "מוקמינן ליה אכהן דקבלה סלקא",
-        en: "Rashi: continues - regarding [the question of whether] a non-Jew [performs the] burning or [whether] Elazar [performs it] - [the Gemara raises the issue].",
+        en: "establish it upon the priest of the receiving; one might",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l13"
+          "yoma-043a-l07"
         ]
       },
       {
@@ -99411,12 +99413,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 22,
         he: "דעתך אמינא הואיל ולאו גופה כו':",
-        en: "Rashi: continues - perhaps [we should] say [that since this is not the body [of the ritual], we can infer that] a non-Jew [could perform the] burning.",
+        en: "have thought, since it is not itself the body of the heifer ritual, that a priest is not needed, etc.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l13"
+          "yoma-043a-l07"
         ]
       },
       {
@@ -99425,12 +99427,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 23,
         he: "הכהן בכיהונו. האי כהן קרא יתירא",
-        en: "Rashi: continues - [but the Tanna] teaches [regarding] 'the priest in his office' - this [phrase] 'priest' [appears to be] extra, [it] was not [necessary to write it, except].",
+        en: "'The priest in his priesthood' - this 'priest' is a superfluous word,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l13"
+          "yoma-043a-l11"
         ]
       },
       {
@@ -99439,12 +99441,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 24,
         he: "הוא דלא הוה ליה למיכתב אלא",
-        en: "Rashi: continues - [to teach something regarding the previous context] - and thus [the word] 'priest' is not [superfluous, but rather].",
+        en: "for it need not have been written except",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l24"
+          "yoma-043a-l11"
         ]
       },
       {
@@ -99453,12 +99455,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 25,
         he: "וכבס בגדיו וגו' ואנא ידענא",
-        en: "Rashi: continues - [establishes that the taking of blood and the sprinkling] are [performed by] the priest - and I know [that this is the case from the following].",
+        en: "'and he shall wash his garments,' etc., and I would know",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l24"
+          "yoma-043a-l11"
         ]
       },
       {
@@ -99467,12 +99469,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 26,
         he: "דאהא דאיירי ביה קאי אלא למסמך",
-        en: "Rashi: continues - that this [reference] is [made to establish the rule for] the one [who performs] the burning - [the text] stands [as an independent teaching].",
+        en: "that it refers to the one who was just being discussed; rather, it comes to juxtapose",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l24"
+          "yoma-043a-l11"
         ]
       },
       {
@@ -99481,12 +99483,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 27,
         he: "כהן אבגדיו כלומר שבבגדי כהונה",
-        en: "Rashi: continues - [regarding] the priest and his garments, [the text] teaches [that he must wash his garments] - [implying that] in the [priest's] garments [of priesthood, the rule] is [applied].",
+        en: "'priest' with 'his garments,' meaning that it is performed in the garments of priesthood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l24"
+          "yoma-043a-l11"
         ]
       },
       {
@@ -99495,12 +99497,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 28,
         he: "נעשית ולא בבגדי חול: וטמא הכהן",
-        en: "Rashi: continues - [and] not in [the priest's] garments [of ordinary] profane [use] - [this is a crucial limitation of when the rule applies].",
+        en: "and not in ordinary garments. 'And the priest shall be impure",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l28"
+          "yoma-043a-l11"
         ]
       },
       {
@@ -99509,12 +99511,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 29,
         he: "עד הערב. ללמד על פרה הנעשית",
-        en: "Rashi: continues - and [the priest] becomes impure until [the] evening - [this teaches the extent of the impurity].",
+        en: "until evening' - to teach about the heifer that is performed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l28"
+          "yoma-043a-l11"
         ]
       },
       {
@@ -99523,12 +99525,13 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 30,
         he: "לדורות שצריכה בגדי כהונה: הניחא",
-        en: "Rashi: continues - [on] the red heifer [that is] made [for] generations - [implying that for all future] generations, [this halakha applies].",
+        en: "for future generations, that it too requires the garments of priesthood. 'This works out well",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l28"
+          "yoma-043a-l11",
+          "yoma-043a-l13"
         ]
       },
       {
@@ -99537,12 +99540,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 31,
         he: "למאן דאמר. לעיל לדורות בכהן",
-        en: "Rashi: continues - [whether performed] by a common priest, and [not] based on the completion of the statute [from] the day [of its original performance].",
+        en: "according to the one who says' - above, that for future generations it is performed by an ordinary",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l28"
+          "yoma-043a-l13"
         ]
       },
       {
@@ -99551,12 +99554,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 32,
         he: "הדיוט ולא גמר חוקה מיום",
-        en: "Rashi: continues - [for the Gemara is asking:] did [the procedure] become [fixed] on the day [Yom Kippur]? [This was] necessary to write [the word] 'priest' here.",
+        en: "priest and does not derive the statute from the Day",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l28"
+          "yoma-043a-l13"
         ]
       },
       {
@@ -99565,12 +99568,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 33,
         he: "הכפורים איצטריך למיכתב כהן הכא",
-        en: "Rashi: continues - to teach [that] it [the statute] is [performed] by [priests of all] generations, [not just the] High Priest.",
+        en: "of Atonement; it was necessary to write 'priest' here",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l28"
+          "yoma-043a-l13"
         ]
       },
       {
@@ -99579,12 +99582,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 34,
         he: "ללמד על של דורות שתעשה בבגדי",
-        en: "Rashi: continues - [all of whom must wear] the [garments] of priesthood [when performing this] service.",
+        en: "to teach about the one performed for future generations, that it be done in the garments",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l28"
+          "yoma-043a-l13"
         ]
       },
       {
@@ -99593,12 +99596,13 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 35,
         he: "כהונה: איש להכשיר הזר. משום",
-        en: "Rashi: continues - '[the verse says:] a man for him to make fit the [stranger]' - from the [preceding verse, it appears that] a priest [is performing this task].",
+        en: "of priesthood.' 'A man - to validate the non-priest' - because",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l35"
+          "yoma-043a-l13",
+          "yoma-043a-l17"
         ]
       },
       {
@@ -99607,12 +99611,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 36,
         he: "דלעיל מיניה איירי בכהן כתיב הכא",
-        en: "Rashi: continues - [the text] here [says] 'a man' [instead of 'the priest'] - [implying] that a non-priest [could perform this task].",
+        en: "just before it the discussion concerns a priest, here it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l35"
+          "yoma-043a-l17"
         ]
       },
       {
@@ -99621,12 +99625,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 37,
         he: "איש להכשיר את הזר דאי כתב ואסף",
-        en: "Rashi: continues - [therefore] if [the verse] had written '[and he shall] gather [the ashes] of the heifer,' [we would say].",
+        en: "'a man,' to validate the non-priest; for if it had written 'and he shall gather",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l35"
+          "yoma-043a-l17"
         ]
       },
       {
@@ -99635,12 +99639,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 38,
         he: "את אפר הפרה הוה אמינא א] כהן",
-        en: "Rashi: continues - a priest [must gather them, since the previous verses mentioned] 'the priest' [throughout].",
+        en: "the ash of the heifer,' we would have said 'priest,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l35"
+          "yoma-043a-l17"
         ]
       },
       {
@@ -99649,12 +99653,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 39,
         he: "דלעיל מיניה איירי בכהן כתב הכא",
-        en: "Rashi: continues - [now the text] here [writes] 'a man' - [this] 'man' [teaching teaches that] the priest [mentioned] in the previous [context is the basis].",
+        en: "since just before it the discussion concerns a priest; it writes here",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l35"
+          "yoma-043a-l17"
         ]
       },
       {
@@ -99663,12 +99667,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 40,
         he: "איש: להכשיר את האשה. דאי",
-        en: "Rashi: continues - 'a man' [to make fit] the woman - [the Gemara continues:] [from what source] do [we derive that] a pure [person].",
+        en: "'a man.' 'To validate the woman' - for if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l35"
+          "yoma-043a-l17"
         ]
       },
       {
@@ -99677,12 +99681,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 41,
         he: "למעוטי טמא פשיטא דחטאת קרייה",
-        en: "Rashi: continues - is [required for making fit the woman]? [The fact] that it is written [in the verse - this teaches].",
+        en: "it were only to exclude an impure person, that is obvious, since the Torah calls it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l35"
+          "yoma-043a-l17"
         ]
       },
       {
@@ -99691,12 +99695,13 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 42,
         he: "רחמנא: לקדש. לתת מים על",
-        en: "Rashi: continues - [the Gemara brings proof from another verse] the Lord said [concerning the offering].",
+        en: "a sin-offering. 'To sanctify' - to place water upon",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l35"
+          "yoma-043a-l17",
+          "yoma-043a-l21"
         ]
       },
       {
@@ -99705,12 +99710,13 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 43,
         he: "האפר בכלי חרס: ולקחו לטמא.",
-        en: "Rashi: continues - [regarding] the giving of water [to be placed] on the ashes in [a vessel of] earthen [ware].",
+        en: "the ash in an earthenware vessel. 'And they shall take, for the impure person' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l35"
+          "yoma-043a-l21",
+          "yoma-043a-l24"
         ]
       },
       {
@@ -99719,12 +99725,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 44,
         he: "בתר ואסף איש טהור כתיב זו היא",
-        en: "Rashi: continues - [after the verse states] 'and [he shall] gather' - [which emphasizes] after the gathering [comes the next phase].",
+        en: "after 'and a pure man shall gather' it is written; this is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l35"
+          "yoma-043a-l24"
         ]
       },
       {
@@ -99733,12 +99739,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 45,
         he: "עבודה שאחר אסיפה וכתיב ולקחו",
-        en: "Rashi: continues - and it is written '[and they took it]' - [referring to] those [mentioned] in the gathering - [specifically] a non-Jew.",
+        en: "the service that comes after the gathering, and it writes 'and they shall take,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l35"
+          "yoma-043a-l24"
         ]
       },
       {
@@ -99747,12 +99753,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 46,
         he: "אותם הנאמרים באסיפה זר",
-        en: "Rashi: continues - and a woman - [but] not a deaf-mute, an imbecile, or a minor.",
+        en: "referring to those mentioned in the gathering - a non-priest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l35"
+          "yoma-043a-l24"
         ]
       },
       {
@@ -99761,12 +99767,13 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 47,
         he: "ואשה ולא חרש שוטה וקטן: א\"כ.",
-        en: "Rashi: continues - [therefore, if] this [rule applies] - [then] because it stands [in the verse from the previous context, we could] say '[and] he shall take [it].'",
+        en: "and a woman, but not a deaf-mute, an imbecile, or a minor. 'If so' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l35"
+          "yoma-043a-l24",
+          "yoma-043a-l28"
         ]
       },
       {
@@ -99775,12 +99782,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 48,
         he: "הואיל אדלעיל קאי נימא ולקח דהא",
-        en: "Rashi: continues - [implying that] what [is mentioned] regarding the gathering - [in the] singular [form], [the text] has written it.",
+        en: "since it refers back to what precedes, let it say 'and he shall take,' since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l35"
+          "yoma-043a-l28"
         ]
       },
       {
@@ -99789,12 +99796,13 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 49,
         he: "גבי אסיפה בלשון יחיד כתביה: אשה",
-        en: "Rashi: concludes - [regarding] a woman - from where [do we derive this]? - [and] so [too] an androgyne [applies] - because of [its] uncertain [status as a] woman.",
+        en: "regarding the gathering it was written in the singular. 'A woman -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l35"
+          "yoma-043a-l28",
+          "yoma-043a-l30"
         ]
       },
       {
@@ -99803,12 +99811,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 50,
         he: "מנא ליה. וכן אנדרוגינוס משום",
-        en: "Rashi: continues - and the Rabbis - [said] to him: 'For ever you [are] standing in the previous [context] - and from the fact that it is not written '[and] he shall take' [with the] singular [form].",
+        en: "from where does he derive it?' And likewise an androgyne, because of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l35"
+          "yoma-043a-l30"
         ]
       },
       {
@@ -99817,12 +99825,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 51,
         he: "ספק אשה: ורבנן. אמרי לך לעולם",
-        en: "Rashi: continues - [from] this [negative phrasing] - [if the verse] had written '[and] he shall take [it] and [he himself] shall give [it] on the water,' [we would say].",
+        en: "the uncertainty of being a woman. 'And the Rabbis' say to you: actually",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l35"
+          "yoma-043a-l30"
         ]
       },
       {
@@ -99831,12 +99839,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 52,
         he: "אדלעיל קאי והא דלא כתיב ולקח",
-        en: "Rashi: continues - 'until [only] one [person] takes [some of] the ashes, and he himself gives it on the water' - it is written '[and] he shall take' [using the singular].",
+        en: "it refers back to what precedes, and the reason it was not written 'and he shall take'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l35"
+          "yoma-043a-l30"
         ]
       },
       {
@@ -99845,12 +99853,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 53,
         he: "לשון יחיד דאי כתיב ולקח ונתן הוי אמינא עד דשקיל חד האפר",
-        en: "Rashi: continues - [implying that even] if two [people] take [it] - [the rite is still valid].",
+        en: "in the singular is that if it had written 'and he shall take and give,' we would have said that only when one person takes the ash",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l35"
+          "yoma-043a-l30"
         ]
       },
       {
@@ -99859,11 +99867,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 54,
         he: "והוא עצמו יתנהו על המים כתיב ולקחו דאפילו שקלי תרי: ולקח",
-        en: "Rashi: continues - [the verse] and [he shall take] hyssop - [the Gemara continues the discussion of which items are required].",
+        en: "and he himself gives it upon the water; it therefore writes 'and they shall take,' to teach that even if two take it, it is valid. 'And he shall take",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-043a-l30",
           "yoma-043a-l35"
         ]
       },
@@ -99873,7 +99882,7 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 55,
         he: "אזוב. דכתיב בהזאת מימיה והיא עבודה שאחר הקידוש: לרבנן.",
-        en: "Rashi: continues - [it is written] 'in the sprinkling with the water [of the heifer]' - and this [sprinkling] is [a] work [that occurs] after the sanctification.",
+        en: "hyssop' - for this is written regarding the sprinkling of its water, and it is the service that comes after the sanctification. To the Rabbis -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -99887,7 +99896,7 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 56,
         he: "דאמרי הקידוש נעשה באותן של אסיפה ובאסיפה כתיב איש",
-        en: "Rashi: continues - to the Rabbis - [who] said [that] the sanctification is made [using the ashes] of that [batch] - and in the gathering it is written 'a man.'",
+        en: "who say the sanctification is performed with the water of that same gathering, and regarding the gathering 'a man'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -99901,7 +99910,7 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 57,
         he: "טהור דהיינו זר ואשה על כרחך איש טהור דהכא לאו לאכשורי",
-        en: "Rashi: continues - [meaning] a pure [person] - [this is what] the [verse] means - a non-Jew and a woman [can perform] the gathering - on your life [you must understand it this way].",
+        en: "pure is written, meaning a non-priest and a woman are valid, you must say that 'a man, pure' here does not come to validate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -99915,7 +99924,7 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 58,
         he: "זר ואשה ולמיפסל קטן ולהוי משמע ממילא דאם כן לשתוק קרא",
-        en: "Rashi: continues - [because] a pure [person here does not mean] to make fit a non-Jew and a woman - [but rather, as it] were [to teach].",
+        en: "a non-priest and a woman, nor to disqualify a minor, and to be an implication standing on its own; for if so, the verse should have been silent",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -99929,7 +99938,7 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 59,
         he: "מיניה ונכתוב ולקח אזוב וטבל במים והזה ואנא ידענא דבההוא",
-        en: "Rashi: continues - [the] verse [must] be silent [about this matter], and [instead] it should write '[and] he shall take hyssop and [dip] in water and sprinkle' - and I know [that].",
+        en: "about it and simply written 'and he shall take hyssop and dip it in water and sprinkle,' and I would know that it refers to that same",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -99943,7 +99952,7 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 60,
         he: "דלעיל מינה קאי וכי כתבינא למדרש איש ולא אשה על כרחך",
-        en: "Rashi: continues - [the] fact [is that] in that [gathering, the rule] stands [and comes] from [the previous context] - [so] even if [we wrote] 'a man' [in the sprinkling verse], [we would say].",
+        en: "matter mentioned before it; and since it does write it, to teach 'a man and not a woman,' you must say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -99957,7 +99966,7 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 61,
         he: "משמע זה מוציא מיד משמע: טהור להכשיר קטן. דפסליה",
-        en: "Rashi: continues - '[this means] not [that] a woman [is excluded]' - on your life [this would be] the implication [from the] directly [stated meaning].",
+        en: "that this implication excludes directly from another implication. 'Pure - to validate a minor' - since he disqualified him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -99971,7 +99980,7 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 62,
         he: "בקידוש: ולרבי יהודה. דאמר אשה פסולה בקידוש וקטן",
-        en: "Rashi: continues - [regarding] a pure [person] to make fit a minor - [the Gemara rules:] from [the fact that] he is disqualified [in] the sanctification.",
+        en: "regarding the sanctification. And according to Rabbi Yehuda, who says a woman is invalid for the sanctification and a minor",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -99985,7 +99994,7 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 63,
         he: "כשר אתא האי למימרא איפכא איש ולא קטן טהור להכשיר",
-        en: "Rashi: continues - [regarding the view] to Rabbi Yehuda - [who] said [that] a woman [is disqualified] in the sanctification, and a minor [is] fit - [therefore the teaching] comes [in reverse order].",
+        en: "is valid, this comes to teach the opposite: 'a man' but not a minor, 'pure' to validate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -99999,7 +100008,7 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 64,
         he: "אשה דע\"כ ליכא למימר דמשמע ממילא דאם כן לישתוק מיניה:",
-        en: "Rashi: continues - [teaching that] a man [is required] - not a minor - [and] a pure [person] to make fit [a] woman - [this] of necessity [means that] there is no [way] to say [that] 'a man' [and] 'pure' [means] 'from the implication' [alone].",
+        en: "a woman; for one cannot say it is an implication standing on its own, since if so the verse should have been silent about it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -100013,12 +100022,12 @@ const DAF_CONTENT = {
         daf: "43a",
         vilnaLine: 65,
         he: "כיון",
-        en: "Rashi: concludes - [this] is the end [of the detailed discussion on the parah adumah specifications and requirements on 43a].",
+        en: "since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043a-l35"
+          "yoma-043a-l38"
         ]
       }
     ],
