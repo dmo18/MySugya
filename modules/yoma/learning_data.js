@@ -95695,7 +95695,7 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 1,
         he: "מאי איכא למימר. והא הכא לאו בשעת לקיחה ולאו שעת עשייה",
-        en: "Rashi: opens - what question arises? And [the problem is that] here [in the Mishna's language] it is neither the time of taking nor the time of performance.",
+        en: "What is there to say? But here, it is neither at the time of taking nor the time of performing it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -95709,12 +95709,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 2,
         he: "הוא וקבע ליה: לא תימא ואחר כך אמר אלא ואח\"כ לקח ואמר.",
-        en: "Rashi: continues - and [the Gemara] fixes it: do not say 'and afterward [the High Priest] said' but rather 'and afterward [he] took [the goat] and said.'",
+        en: "that he establishes it. Do not say 'and afterward he said,' but rather 'and afterward he took it and said.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l02"
+          "yoma-041b-l01"
         ]
       },
       {
@@ -95723,12 +95723,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 3,
         he: "זו לחטאת וזו לעולה דעבדי תנאי דמחסרי תיבה אחת על ידי",
-        en: "Rashi: continues - [this is] for the chatat and this [is] for the olah - [they were] performing Tannaim's teaching [with] a deficiency of one word through forgetfulness.",
+        en: "This one for the sin-offering and this one for the burnt-offering, for the Sages phrased a stipulation that omits one word, through",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l03"
+          "yoma-041b-l01"
         ]
       },
       {
@@ -95737,12 +95737,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 4,
         he: "שכחה ומיחלף להו בין ואחר כך לקח לואחר כך אמר: ופרכינן",
-        en: "Rashi: continues - and it was confused for them between 'and afterward [he] took' and '[and afterward he] said' - and we raise difficulty.",
+        en: "forgetfulness, and they thereby confuse between 'and afterward he took' and 'and afterward he said.' And we raise a difficulty:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l04"
+          "yoma-041b-l01"
         ]
       },
       {
@@ -95751,12 +95751,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 5,
         he: "לקח. אם כן מוסיף ומביא חובתו",
-        en: "Rashi: continues - [he] took [the goat] - if so he added and brought his obligation [of the chatat].",
+        en: "'he took' - if so, he adds and brings his obligation of an animal",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l04"
+          "yoma-041b-l02"
         ]
       },
       {
@@ -95765,12 +95765,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 6,
         he: "בהמה מדמי חטאתו מאי ניהו הרי",
-        en: "Rashi: continues - from an animal [purchased] from the money [designated for] his chatat - what is it? Behold",
+        en: "from the money of his sin-offering - what is that? For he",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l04"
+          "yoma-041b-l02"
         ]
       },
       {
@@ -95779,12 +95779,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 7,
         he: "אינו מעות שכבר לקח העוף:",
-        en: "Rashi: continues - it is not money, since [he] already took the bird [for his offering].",
+        en: "has no money, since he has already bought the bird.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l04"
+          "yoma-041b-l02"
         ]
       },
       {
@@ -95793,12 +95793,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 8,
         he: "דפריק ליה. ומוציאו לחולין ומוסיף",
-        en: "Rashi: continues - he redeems it - and takes it out to the profane [use] and adds [money from] his house.",
+        en: "'that he redeems it' - he takes it out to non-sacred status and adds",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l08"
+          "yoma-041b-l03"
         ]
       },
       {
@@ -95807,12 +95807,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 9,
         he: "מביתו וקונה מן המעות בהמה:",
-        en: "Rashi: continues - and purchases from the money an animal [for the offering].",
+        en: "from his own funds, and buys an animal with the money.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l08"
+          "yoma-041b-l03"
         ]
       },
       {
@@ -95821,12 +95821,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 10,
         he: "והא אין פדיון לעוף. דהכי תנן",
-        en: "Rashi: continues - and [yet there is] a difficulty: there is no redemption for birds - because so we learn [it].",
+        en: "'But there is no redemption for a bird' - for so we learned",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l08"
+          "yoma-041b-l03"
         ]
       },
       {
@@ -95835,12 +95835,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 11,
         he: "במסכת מנחות (דף ק:) אבל העופות",
-        en: "Rashi: continues - in Tractate Menachot (folio 100:) [that] regarding birds, frankincense, and the priestly vessel there is no redemption.",
+        en: "in tractate Menachot (100b): but birds,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l11"
+          "yoma-041b-l03"
         ]
       },
       {
@@ -95849,12 +95849,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 12,
         he: "והלבונה והכלי שרת אין להם פדיון",
-        en: "Rashi: continues - for it was not said except regarding an animal [alone].",
+        en: "frankincense, and service vessels have no redemption,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l11"
+          "yoma-041b-l03"
         ]
       },
       {
@@ -95863,12 +95863,13 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 13,
         he: "שלא נאמר אלא בבהמה: כגון",
-        en: "Rashi: continues - such as [he] took one young pigeon - a single [pigeon], he took from the [community] treasury money.",
+        en: "for redemption was stated only regarding an animal. 'Such as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l13"
+          "yoma-041b-l03",
+          "yoma-041b-l04"
         ]
       },
       {
@@ -95877,12 +95878,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 14,
         he: "[שלקח] פרידה אחת. גוזל אחד",
-        en: "Rashi: continues - and thus said [the] Tanna [of the Mishna].",
+        en: "if he took one pigeon' - he took one young dove",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l13"
+          "yoma-041b-l04"
         ]
       },
       {
@@ -95891,12 +95892,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 15,
         he: "לקח מן הצבורין דמעות והכי קאמר",
-        en: "Rashi: continues - if [it was designated for] an olah, [he] sold - this money that stood for a chatat [are now] becoming chatat and he added on them and brought his obligation.",
+        en: "from the funds set aside, and this is what the Gemara means:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l13"
+          "yoma-041b-l04"
         ]
       },
       {
@@ -95905,12 +95906,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 16,
         he: "תנא אי עולה זבן הני מעות דקיימי",
-        en: "Rashi: continues - and this olah that he sold went to a voluntary [offering].",
+        en: "if he bought a burnt-offering with it, this money that stands",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l13"
+          "yoma-041b-l04"
         ]
       },
       {
@@ -95919,12 +95920,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 17,
         he: "חטאת נינהו ומוסיף עליהן ומביא",
-        en: "Rashi: continues - if [it was designated for] a chatat [he] sold - the community money were established for an olah through this taking, and [he] does not add on them and bring his obligation from them.",
+        en: "designated for a sin-offering, he adds to it and brings",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l17"
+          "yoma-041b-l04"
         ]
       },
       {
@@ -95933,12 +95934,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 18,
         he: "חובתו והאי עולה דזבן אזלא לנדבה:",
-        en: "Rashi: opens [new Mishna section] - but [rather] he brings from the money [designated for an] olah [as a] voluntary offering, and the chatat that he took dies.",
+        en: "his obligation, and this burnt-offering that he bought goes to a freewill-offering.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l18"
+          "yoma-041b-l04"
         ]
       },
       {
@@ -95947,12 +95948,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 19,
         he: "אי חטאת זבן. הוקבעו מעות צבור",
-        en: "Rashi: continues - and from his house he will bring money and will take [an animal].",
+        en: "'If he bought a sin-offering' - the remaining money of the fund",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l18"
+          "yoma-041b-l04"
         ]
       },
       {
@@ -95961,12 +95962,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 20,
         he: "השני לעולה על ידי לקיחה זו ואין",
-        en: "Rashi: continues - but [it is] different regarding the metzora - it is written [in Scripture]: 'This is the law of the metzora.'",
+        en: "becomes fixed for a burnt-offering through this taking, and he does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l20"
+          "yoma-041b-l04"
         ]
       },
       {
@@ -95975,12 +95976,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 21,
         he: "מוסיף עליהן ומביא מהן חובתו אלא",
-        en: "Rashi: continues - and not another [law applies].",
+        en: "add to it and bring his obligation from it; rather,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l20"
+          "yoma-041b-l04"
         ]
       },
       {
@@ -95989,12 +95990,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 22,
         he: "מביא מן המעות עולת נדבה והחטאת",
-        en: "Rashi: continues - [and regarding] the first part [of the Mishna] also - the head of it [i.e., the ruling]: there is one Torah for all the metzora'im - they all go out [satisfying their obligation] with the offering of a rich [man].",
+        en: "he brings a freewill burnt-offering from the money, and the sin-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l20"
+          "yoma-041b-l04"
         ]
       },
       {
@@ -96003,12 +96004,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 23,
         he: "שלקח תמות ומביתו יביא מעות ויקח",
-        en: "Rashi: continues - and the teaching is [also found] [with reference to a source].",
+        en: "that he bought must die, and from his own house he must bring money and take",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l20"
+          "yoma-041b-l04"
         ]
       },
       {
@@ -96017,12 +96018,13 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 24,
         he: "בהמה: שאני מצורע. דכתיב",
-        en: "Rashi: continues - and [from] it we derive: [one who becomes] impure desecrates the Holy [foods].",
+        en: "an animal. 'A leper is different' - for it is written,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l20"
+          "yoma-041b-l04",
+          "yoma-041b-l11"
         ]
       },
       {
@@ -96031,12 +96033,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 25,
         he: "(ויקרא יד) זאת תהיה תורת המצורע",
-        en: "Rashi: continues - and if [he is] poor, [the defilement is limited] - it is a limitation [in the scope of who becomes] impure.",
+        en: "(Leviticus 14) 'This shall be the law of the leper,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l20"
+          "yoma-041b-l11"
         ]
       },
       {
@@ -96045,12 +96047,13 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 26,
         he: "ולא אחרת: רישא נמי. עני שהביא",
-        en: "Rashi: continues - [the one who is] impure [who brings the] offering of a poor man does not fulfill [his obligation].",
+        en: "and not another. 'The first clause too' - a poor person who brought",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l20"
+          "yoma-041b-l11",
+          "yoma-041b-l13"
         ]
       },
       {
@@ -96059,12 +96062,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 27,
         he: "קרבן עשיר: התם הא רבי רחמנא.",
-        en: "Rashi: continues - but other [those] obligated for [ascending and descending] offering do not [fulfill through] ascending and descending [poverty offerings].",
+        en: "the offering of a rich person. 'There, behold, the Torah included' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l20"
+          "yoma-041b-l13"
         ]
       },
       {
@@ -96073,12 +96076,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 28,
         he: "תורה אחת לכל המצורעין כולן",
-        en: "Rashi: continues - [The Mishna states:] [He tied the scarlet thread] opposite [its] place of sending-out - opposite the gate through which they took it out.",
+        en: "one law for all lepers; all of them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l20"
+          "yoma-041b-l13"
         ]
       },
       {
@@ -96087,12 +96090,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 29,
         he: "יוצאין בקרבן עשיר: והתניא.",
-        en: "Rashi: continues - and for slaughter [is stated also] - [this] will be explained in the Gemara.",
+        en: "fulfill their obligation with a rich person's offering. 'And so it was taught' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l20"
+          "yoma-041b-l13"
         ]
       },
       {
@@ -96101,12 +96104,13 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 30,
         he: "בניחותא: ונילף מינה. לטמא",
-        en: "Rashi: opens [Gemara discussion] - [the Gemara asks:] Is it a binding that it stands? Or [is it] an erecting that it stands?",
+        en: "stated affirmatively. 'And let us learn from it' - regarding one who defiles",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l30"
+          "yoma-041b-l13",
+          "yoma-041b-l17"
         ]
       },
       {
@@ -96115,12 +96119,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 31,
         he: "מקדש: ואם דל הוא. מיעוט הוא",
-        en: "Rashi: continues - [i.e., does the rule requiring separation apply to] the binding [of the thread] to the head of the Azazel goat, or to the erecting of the goat opposite its place?",
+        en: "the Temple. '\"But if he is poor\"' - this is an exclusion,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l30"
+          "yoma-041b-l17"
         ]
       },
       {
@@ -96129,12 +96133,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 32,
         he: "מצורע הוא דעשיר שהביא קרבן",
-        en: "Rashi: continues - Come [and hear from the teaching]: For so R. Yosef taught: He tied a scarlet thread to the head of the Azazel goat.",
+        en: "teaching that specifically for a leper does a rich person who brought the offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l32"
+          "yoma-041b-l17"
         ]
       },
       {
@@ -96143,12 +96147,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 33,
         he: "עני לא יצא אבל שאר חייבי קרבן",
-        en: "Rashi: continues - and [he] erect[ed] it opposite [its] place of sending-out, and the goat for slaughter [is erected] opposite [its] place of slaughter.",
+        en: "of a poor person not fulfill his obligation, but the rest of those liable for a sliding-scale",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l32"
+          "yoma-041b-l17"
         ]
       },
       {
@@ -96157,12 +96161,13 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 34,
         he: "עולה ויורד לא: מתני' כנגד בית",
-        en: "Rashi: continues - so that they not be mixed one with another and not be mixed with others.",
+        en: "offering - not. 'The mishnah: opposite the place",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l32"
+          "yoma-041b-l17",
+          "yoma-041b-l18"
         ]
       },
       {
@@ -96171,12 +96176,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 35,
         he: "שילוחו. כנגד שער שהוציאוהו",
-        en: "Rashi: continues - [But] if you concede that [it is] an erecting that it stands - [although] indeed they are not mixed one with another, [since] this one burns [the offering] with it and this one does not burn with it,",
+        en: "of its sending away' - opposite the gate through which they took it out",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l32"
+          "yoma-041b-l18"
         ]
       },
       {
@@ -96185,12 +96190,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 36,
         he: "בו: ולנשחט. מפרש בגמרא:",
-        en: "Rashi: continues - [nevertheless] with others [goats] it would be mixed.",
+        en: "for its sending away. 'And for the one that is slaughtered' - this is explained in the Gemara.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l36"
+          "yoma-041b-l18"
         ]
       },
       {
@@ -96199,12 +96204,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 37,
         he: "גמ' אקשירה קאי. דקושר לו",
-        en: "Rashi: continues - [Therefore] rather [it is] not an erecting that it stands, [but rather] a binding that it stands.",
+        en: "'Does it refer to the tying' - that he ties the thread",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l36"
+          "yoma-041b-l30"
         ]
       },
       {
@@ -96213,12 +96218,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 38,
         he: "לשון כנגד צוארו: או אהעמדה",
-        en: "Rashi: continues - Hear [from this]: R. Yitzchak [said]: Two scarlet threads I heard.",
+        en: "to it, opposite its neck. 'Or does it refer to the standing'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l36"
+          "yoma-041b-l30"
         ]
       },
       {
@@ -96227,12 +96232,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 39,
         he: "קאי. והכי קאמר ואת שעיר",
-        en: "Rashi: continues - One of the [red] heifer, and one of the Azazel goat - one needs [a] measure [of a certain weight].",
+        en: "- and this is what the Mishnah means: the sin-offering goat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l36"
+          "yoma-041b-l30"
         ]
       },
       {
@@ -96241,12 +96246,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 40,
         he: "החטאת העומד לשחיטה מעמיד",
-        en: "Rashi: continues - and one does not need [a] measure - and we do not know which [is] which.",
+        en: "that stands to be slaughtered, he stands it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l36"
+          "yoma-041b-l30"
         ]
       },
       {
@@ -96255,12 +96260,13 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 41,
         he: "כנגד מקום בית שחיטתו: שפיר.",
-        en: "Rashi: continues - [R. Yosef] said: Let us see - [the thread] of the Azazel goat [since it] requires a division [of half on the rock, half on the goat] requires [a] measure [of weight also].",
+        en: "opposite the place of its slaughtering. 'Well put' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l41"
+          "yoma-041b-l30",
+          "yoma-041b-l36"
         ]
       },
       {
@@ -96269,12 +96275,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 42,
         he: "דתו לא מערבי אהדדי שזה קשור",
-        en: "Rashi: continues - and [the thread] of the heifer [since it] does not require a division does not require [a] measure.",
+        en: "for then they are not mixed up with one another, since this one has the thread tied",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l42"
+          "yoma-041b-l36"
         ]
       },
       {
@@ -96283,12 +96289,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 43,
         he: "בראשו וזה בצוארו ולא באחרים",
-        en: "Rashi: continues - [R. Ami bar Chama] raises a difficulty: [but] the heifer [thread] also requires weight [as a measure].",
+        en: "on its head and this one on its neck, and not on others,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l42"
+          "yoma-041b-l36"
         ]
       },
       {
@@ -96297,12 +96303,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 44,
         he: "שאלו קשור עליהן לשון ושל אחרים",
-        en: "Rashi: continues - [Rava] said to him: Weight is a Tanna-teaching, and the heifer [thread] does not require a division.",
+        en: "since on these the thread is tied, and on the others",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l44"
+          "yoma-041b-l36"
         ]
       },
       {
@@ -96311,12 +96317,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 45,
         he: "אינו קשור: אלא אי אמרת.",
-        en: "Rashi: continues - [Abayi] raises difficulty for him: How does he do [it]? He wraps them - in the hairs of the thread.",
+        en: "it is not tied. 'But if you say' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l45"
+          "yoma-041b-l36"
         ]
       },
       {
@@ -96325,12 +96331,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 46,
         he: "ולנשחט אהעמדה הוא דקאי ומשום",
-        en: "Rashi: continues - Should I say [it is tied] in the tail of the thread? [Rather the Rashi clarifies:] the cedar [wood] and hyssop and scarlet wool.",
+        en: "'and for the one slaughtered' refers to the standing, and because",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l46"
+          "yoma-041b-l36"
         ]
       },
       {
@@ -96339,12 +96345,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 47,
         he: "א] דקשירת שעיר המשתלח לחודיה",
-        en: "Rashi: continues - [R. Chanin] said in the name of Rav: The cedar [wood] and hyssop and scarlet wool - when they set it ablaze it is fit.",
+        en: "the Mishnah speaks of the tying of the sent-away goat alone,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l46"
+          "yoma-041b-l36"
         ]
       },
       {
@@ -96353,12 +96359,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 48,
         he: "קאמר שלא יתערבו זה בזה ולא",
-        en: "Rashi: continues - from the teachings [we learn] there is additional [content].",
+        en: "it teaches that they should not be mixed up with one another and not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l48b"
+          "yoma-041b-l36"
         ]
       },
       {
@@ -96367,12 +96373,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 49,
         he: "באחרים בשלמא במשתלח לא",
-        en: "Rashi: continues - [They] raised a difficulty: [The teaching states:] 'and they set it ablaze - the thread came [to light] and brought [forth] another thread and sanctified [it].'",
+        en: "with others - granted, with the sent-away goat it is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l48b"
+          "yoma-041b-l36"
         ]
       },
       {
@@ -96381,12 +96387,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 50,
         he: "מיערב שעיר הפנימי דהאי",
-        en: "Rashi: continues - [Abayi] said: This is no difficulty - here [it refers to the case of] smooth-burning [ash without standing flame].",
+        en: "mixed up with the inner goat, since this one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l48b"
+          "yoma-041b-l36"
         ]
       },
       {
@@ -96395,12 +96401,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 51,
         he: "קשיר ביה והאי לא קשיר ביה אלא",
-        en: "Rashi: continues - there [it refers to the case of] burning-together [with standing flame].",
+        en: "has the thread tied on it and that one does not have it tied on it; but",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l51"
+          "yoma-041b-l36"
         ]
       },
       {
@@ -96409,12 +96415,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 52,
         he: "באחריני אמאי לא מיערב שעיר",
-        en: "Rashi: continues - [Rava] says: Weight is a Tanna-teaching - [the teaching is] as follows: Why do they wrap [it]?",
+        en: "with other goats, why would the inner goat not be mixed up",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l51"
+          "yoma-041b-l36"
         ]
       },
       {
@@ -96423,12 +96429,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 53,
         he: "הפנימי הא שעיר פנימי ואחרים",
-        en: "Rashi: continues - So that all of them be in one bundle - [by the words of] R. Rabbi.",
+        en: "with them? For neither the inner goat nor others",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l36"
         ]
       },
       {
@@ -96437,12 +96443,13 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 54,
         he: "אין לשון קשור עליהם: שתי לשונות",
-        en: "Rashi: continues - [R. Elazar son of] R. Shimon says: So that there be in them weight and [so that] they fall into the fire of the heifer-burning.",
+        en: "have the thread tied on them. 'Two threads",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l36",
+          "yoma-041b-l41"
         ]
       },
       {
@@ -96451,12 +96458,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 55,
         he: "שמעתי. על שתי לשונות של זהורית",
-        en: "Rashi: continues - When R. Dimi came, [he said]: R. Yochanan said: Three scarlet threads I heard.",
+        en: "I have heard' - regarding two scarlet threads",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l41"
         ]
       },
       {
@@ -96465,12 +96472,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 56,
         he: "שמעתי חילוק ביניהם אחת של פרה",
-        en: "Rashi: continues - One of the heifer, and one of the Azazel goat, and one of the leper.",
+        en: "I have heard a distinction between them: one of the red heifer,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l41"
         ]
       },
       {
@@ -96479,12 +96486,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 57,
         he: "אדומה שכתוב בה (במדבר יט) ולקח",
-        en: "Rashi: continues - One [weighing] ten denarii, and one [weighing] two sela'im, and one [weighing] one shekel.",
+        en: "about which it is written (Numbers 19), 'and the priest shall take'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l41"
         ]
       },
       {
@@ -96493,12 +96500,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 58,
         he: "הכהן עץ ארז ואזוב ושני תולעת:",
-        en: "Rashi: continues - And I do not have [the knowledge] to explain [which is which].",
+        en: "'cedar wood, hyssop, and scarlet wool.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l41"
         ]
       },
       {
@@ -96507,12 +96514,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 59,
         he: "אחת צריכה שיעור. ושיעורה מפרש",
-        en: "Rashi: continues - When Rabin came, he explained it in the name of R. Yonatan [thus]:",
+        en: "'One requires a measure' - and its measure is explained",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l41"
         ]
       },
       {
@@ -96521,12 +96528,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 60,
         he: "לקמן: ואחת אין צריכה שיעור.",
-        en: "Rashi: continues - [The thread] of [the red heifer, the thread of the Azazel goat, and the thread of the leper - each specification established according to the teaching].",
+        en: "below. 'And one does not require a measure' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l41"
         ]
       },
       {
@@ -96535,12 +96542,13 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 61,
         he: "שכשירה בכל שהוא: דבעי חלוקה.",
-        en: "Rashi: continues - [Continuing the detailed discussion of the thread specifications from the sources].",
+        en: "for it is fit at any amount. 'That requires division' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l41",
+          "yoma-041b-l42"
         ]
       },
       {
@@ -96549,12 +96557,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 62,
         he: "כדתנן לקמן (דף סז.) מה היה עושה",
-        en: "Rashi: continues - [The Rashi maintains the careful explanation of the tradition regarding these three threads].",
+        en: "as we learned below (67a): what would",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l42"
         ]
       },
       {
@@ -96563,12 +96571,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 63,
         he: "המשלח את השעיר חולק לשון זהורית",
-        en: "Rashi: continues - [Each thread carries its own measure and significance in the Temple service].",
+        en: "the one who sends away the goat do? He would divide the scarlet thread,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l42"
         ]
       },
       {
@@ -96577,12 +96585,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 64,
         he: "חציו קשר בסלע וחציו קשר בין",
-        en: "Rashi: continues - [The analysis of the sources and their reconciliation continues].",
+        en: "tying half on the rock and tying half between",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l42"
         ]
       },
       {
@@ -96591,12 +96599,13 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 65,
         he: "קרניו: בעי כובד. שתהא כבידה",
-        en: "Rashi: continues - [Detailed examination of the weights and measures tradition].",
+        en: "its horns. 'Requires weight' - so that it be heavy",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l42",
+          "yoma-041b-l44"
         ]
       },
       {
@@ -96605,12 +96614,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 66,
         he: "ותפול לתוך עומק האור כדכתיב",
-        en: "Rashi: continues - [The Rashi preserves the exact teaching from the earlier masters].",
+        en: "and fall into the depth of the fire, as it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l44"
         ]
       },
       {
@@ -96619,12 +96628,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 67,
         he: "(שם) אל תוך שרפת הפרה: תנאי",
-        en: "Rashi: continues - [Continuation of the learned explanation of the three threads and their distinctions].",
+        en: "there, 'into the midst of the burning of the heifer.' 'It is a matter of dispute",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l44"
         ]
       },
       {
@@ -96633,12 +96642,13 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 68,
         he: "היא. לקמן בשמעתין: כיצד הוא עושה. במסכת פרה (פ\"ג משנה יא) תנן לה: כורכן. לעץ ארז ואזוב: [בשירי הלשון. מדקתני",
-        en: "Rashi: continues - [Detailed analysis of the source-teaching and its implications].",
+        en: "among tanna'im' - below, in this discussion. 'How does he do it?' - we learned this in tractate Parah (3:11). 'He binds them' - to the cedar wood and hyssop. 'With the remainder of the thread' - since it teaches",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l44",
+          "yoma-041b-l45"
         ]
       },
       {
@@ -96647,12 +96657,13 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 69,
         he: "שירי מכלל דאיכא תו]: בזנב הלשון. סרוקה במסרק ונעשית קצרה לראש האחד כמין זנב: שקלטתן שלהבת. ולא נפלו לתוך",
-        en: "Rashi: continues - [The Rashi continues with the precise transmission of the tradition].",
+        en: "'remainder,' it implies there is more.' 'At the tail of the thread' - combed with a comb and made narrow at one end, like a tail. 'That the flame caught them' - and they did not fall into",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l45",
+          "yoma-041b-l46"
         ]
       },
       {
@@ -96661,12 +96672,13 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 70,
         he: "שריפת הפרה אלא נתהבהבו באויר: ומקדש. כלומר ונותן שם. כל מעשה פרה קרי לה קידוש: בקולחת. אש שיש עליה עמוד",
-        en: "Rashi: continues - [Extended discussion of the specific measures and their applications].",
+        en: "the burning of the heifer, but were singed in the air. 'And he sanctifies it' - meaning, and places it there; every act of the heifer's preparation is called sanctification. 'With a rising flame' - a fire that has over it a column",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l46",
+          "yoma-041b-l48a"
         ]
       },
       {
@@ -96675,12 +96687,12 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 71,
         he: "שלהבת זקוף למעלה כקלח של עשב גבוה צריך להביא אחר והא דאמר רבי חנין כשירה בנכפפת אש ששלהבת נמוכה וכפופה",
-        en: "Rashi: continues - [Detailed explanation of the three threads and their roles in the Temple service].",
+        en: "of flame standing erect above, like the tall stalk of a plant, in which case one must bring another; and that which R. Chanin said it is fit with a bent flame refers to a fire whose flame is low and bent",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l48a"
         ]
       },
       {
@@ -96689,12 +96701,13 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 72,
         he: "וסמוכה לגחלתה וקרינן ביה אל תוך: שיהיו כולן באגודה אחת. דבעינן שיהו נלקחין בבת אחת דכתיב ולקח עץ ארז ואזוב ושני",
-        en: "Rashi: continues - [The Rashi preserves the complete tradition regarding thread specifications].",
+        en: "and close to its ember, and of it we may read 'into the midst.' 'That they all be in one bundle' - for we require that they be taken together, as it is written, 'and he shall take cedar wood, hyssop, and scarlet",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l48a",
+          "yoma-041b-l48b"
         ]
       },
       {
@@ -96703,12 +96716,13 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 73,
         he: "תולעת: ואחת של מצורע. דכתיב ביה נמי ושני תולעת ואזוב: ואין לי לפרש. ואיני יודע לפרש איזו גדולה ואיזו קטנה ואיזו בינונית:",
-        en: "Rashi: continues - [Final details of the thread-teaching from the transmitted sources].",
+        en: "wool.' 'And one of the leper' - for regarding him too it is written 'scarlet wool and hyssop.' 'And I cannot explain' - and I do not know how to explain which is the largest, which is the smallest, and which is the middling one.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-041b-l53"
+          "yoma-041b-l48b",
+          "yoma-041b-l51"
         ]
       },
       {
@@ -96717,7 +96731,7 @@ const DAF_CONTENT = {
         daf: "41b",
         vilnaLine: 74,
         he: "של",
-        en: "Rashi: concludes - [End of this section of detailed Rashi explanation on the scarlet thread specifications and their complex traditions].",
+        en: "Of the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
