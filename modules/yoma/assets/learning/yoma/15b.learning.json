@@ -1,1075 +1,1080 @@
 {
-  "daf": "15b",
-  "canonicalRef": "Yoma 15b",
-  "summary": "Rabba bar Sheila resolves the tohoro question: it means the top of the altar itself, citing the verse 'like the very sky for purity.' Three follow-up questions about Rabbi Shimon ish HaMitzpah's blood-sprinkling choreography are each resolved: why olah before chatat (the tamid IS an olah, so it goes first), what about the southeast corner with no yesod (olah applications are skipped there), and the direction of approach (always right, for service movement). A brief logical puzzle about which direction the verse equation runs is resolved. The page concludes with the Chamber of the Lambs contradiction between Yoma and Middot, setting up 16a's extended debate about tractate authorship.",
-  "review": {
+ "daf": "15b",
+ "canonicalRef": "Yoma 15b",
+ "summary": "Rabba bar Sheila resolves the tohoro question: it means the top of the altar itself, citing the verse 'like the very sky for purity.' Three follow-up questions about Rabbi Shimon ish HaMitzpah's blood-sprinkling choreography are each resolved: why olah before chatat (the tamid IS an olah, so it goes first), what about the southeast corner with no yesod (olah applications are skipped there), and the direction of approach (always right, for service movement). A brief logical puzzle about which direction the verse equation runs is resolved. The page concludes with the Chamber of the Lambs contradiction between Yoma and Middot, setting up 16a's extended debate about tractate authorship.",
+ "review": {
+  "content": "ai_generated",
+  "sourceRefs": "ai_generated"
+ },
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-15b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 1
+   },
+   "lines": [
+    {
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.15b.1"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.15b.1"
+   ],
+   "display": {
+    "title": "Tohoro resolved: 'purity' means the altar's bare top surface",
+    "oneLine": "Rabba bar Sheila identifies the altar's 'tohoro' as its exposed top surface, proved from a verse comparing it to the clear sky.",
+    "whats": "Rabba bar Sheila resolves the final question from 15a about 'tohoro': what does 'the purity of the altar' mean? He answers that it means the top surface of the altar itself, proving it from the verse 'like the very sky for purity' - comparing the altar's upper surface to the sky.",
+    "hint": "The word 'tohoro' means purity, but here it refers to the altar's upper surface. The verse in Exodus comparing it to sky-like purity is the proof."
+   },
+   "learning": {
+    "learnerQuestion": "The sprinklings from 15a were said to go on the altar's 'tohoro,' its purity. What part of the altar does that actually name?",
+    "coreTension": "'Tohoro' (purity) is an abstract word, but the sugya needs it to identify a concrete physical location on the altar where blood is sprinkled.",
+    "coreMove": "Rabba bar Sheila grounds the abstract word in architecture by citing a verse that compares the altar's upper surface to the clear sky, fixing 'tohoro' as the altar's exposed, cleared top.",
+    "learningBlocker": "It is tempting to hear 'purity' and think of a specially sanctified zone rather than a plain physical surface. The verse proof shows the term is doing ordinary descriptive work: the top is 'pure' simply because it is the cleared, exposed face of the altar.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "An ambiguous term in a halakhic ruling can be fixed to a precise physical referent by citing a verse that uses the same term in an unambiguous descriptive sense elsewhere."
+    },
+    "ahaMoment": "The word 'purity' (tohoro) is being used architecturally - the 'pure part' of the altar is its top, the part exposed and cleared of incense ash.",
+    "memoryAnchor": "Tohoro = the altar top. 'Like the very sky' = exposed, upward-facing surface."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "resolution",
+     "label": "Rabba bar Sheila: tohoro = altar top",
+     "speaker": "Rabba bar Sheila",
+     "text": "Tohoro refers to the top surface of the altar itself - the surface that is cleared and exposed. Proof: 'like the very sky for purity' compares the altar's upper face to the clear sky.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-15b-l01",
+       "vilnaLine": 1,
+       "note": "Resolution of the tohoro question"
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "altar",
+    "tohoro",
+    "blood service",
+    "Rabba bar Sheila",
+    "inner altar"
+   ],
+   "concepts": [
+    {
+     "term": "tohoro shel mizbeach",
+     "def": "The 'purity' or top surface of the altar - the exposed upper face onto which the seven sprinklings of the inner service are directed."
+    }
+   ],
+   "conceptRefs": [
+    "Yoma.15b.1"
+   ],
+   "requiresUnderstanding": [
+    "The seven sprinklings on the inner altar from 15a",
+    "R. Shimon ish HaMitzpah's blood service questions"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "'Tohoro' names a special, separately sanctified section of the altar.",
+     "correction": "It simply means the altar's top surface, the part exposed and cleared, not a distinct sanctified zone.",
+     "correctedByStepId": "step-01"
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-15a-s03"
+   ],
+   "visualizableElements": [
+    {
+     "type": "place",
+     "desc": "Diagram of inner altar (golden altar) with the top surface highlighted as 'tohoro' - the target of seven sprinklings"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What does 'tohoro shel mizbeach' mean and how does Rabba bar Sheila prove it?",
+     "answer": "It means the top surface of the altar. Proof: the verse compares it to 'the very sky for purity' - the sky is the exposed upper surface analogously.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-15b-l01",
+       "vilnaLine": 1,
+       "note": "Resolution of the tohoro question"
+      }
+     ]
+    }
+   ],
+   "finalRuling": "Established: tohoro = the altar's top surface (per Rabba bar Sheila).",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "טָהֳרוֹ",
+     "translit": "tohoro",
+     "en": "Its purity - here meaning the top surface of the altar, compared to sky-like purity in Exodus 24:10."
+    }
+   ],
+   "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
+   }
   },
-  "sugyot": [
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-15b-s02",
+   "lineRange": {
+    "startVilnaLine": 2,
+    "endVilnaLine": 9
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-15b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 1
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.15b.1"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.15b.1"
-      ],
-      "display": {
-        "title": "Tohoro resolved: 'purity' means the altar's bare top surface",
-        "oneLine": "Rabba bar Sheila identifies the altar's 'tohoro' as its exposed top surface, proved from a verse comparing it to the clear sky.",
-        "whats": "Rabba bar Sheila resolves the final question from 15a about 'tohoro': what does 'the purity of the altar' mean? He answers that it means the top surface of the altar itself, proving it from the verse 'like the very sky for purity' - comparing the altar's upper surface to the sky.",
-        "hint": "The word 'tohoro' means purity, but here it refers to the altar's upper surface. The verse in Exodus comparing it to sky-like purity is the proof."
-      },
-      "learning": {
-        "learnerQuestion": "The sprinklings from 15a were said to go on the altar's 'tohoro,' its purity. What part of the altar does that actually name?",
-        "coreTension": "'Tohoro' (purity) is an abstract word, but the sugya needs it to identify a concrete physical location on the altar where blood is sprinkled.",
-        "coreMove": "Rabba bar Sheila grounds the abstract word in architecture by citing a verse that compares the altar's upper surface to the clear sky, fixing 'tohoro' as the altar's exposed, cleared top.",
-        "learningBlocker": "It is tempting to hear 'purity' and think of a specially sanctified zone rather than a plain physical surface. The verse proof shows the term is doing ordinary descriptive work: the top is 'pure' simply because it is the cleared, exposed face of the altar.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "An ambiguous term in a halakhic ruling can be fixed to a precise physical referent by citing a verse that uses the same term in an unambiguous descriptive sense elsewhere."
-        },
-        "ahaMoment": "The word 'purity' (tohoro) is being used architecturally - the 'pure part' of the altar is its top, the part exposed and cleared of incense ash.",
-        "memoryAnchor": "Tohoro = the altar top. 'Like the very sky' = exposed, upward-facing surface."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "resolution",
-          "label": "Rabba bar Sheila: tohoro = altar top",
-          "speaker": "Rabba bar Sheila",
-          "text": "Tohoro refers to the top surface of the altar itself - the surface that is cleared and exposed. Proof: 'like the very sky for purity' compares the altar's upper face to the clear sky.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-15b-l01",
-              "vilnaLine": 1,
-              "note": "Resolution of the tohoro question"
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "altar",
-        "tohoro",
-        "blood service",
-        "Rabba bar Sheila",
-        "inner altar"
-      ],
-      "concepts": [
-        {
-          "term": "tohoro shel mizbeach",
-          "def": "The 'purity' or top surface of the altar - the exposed upper face onto which the seven sprinklings of the inner service are directed."
-        }
-      ],
-      "conceptRefs": [
-        "Yoma.15b.1"
-      ],
-      "requiresUnderstanding": [
-        "The seven sprinklings on the inner altar from 15a",
-        "R. Shimon ish HaMitzpah's blood service questions"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "'Tohoro' names a special, separately sanctified section of the altar.",
-          "correction": "It simply means the altar's top surface, the part exposed and cleared, not a distinct sanctified zone.",
-          "correctedByStepId": "step-01"
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-15a-s03"
-      ],
-      "visualizableElements": [
-        {
-          "type": "place",
-          "desc": "Diagram of inner altar (golden altar) with the top surface highlighted as 'tohoro' - the target of seven sprinklings"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What does 'tohoro shel mizbeach' mean and how does Rabba bar Sheila prove it?",
-          "answer": "It means the top surface of the altar. Proof: the verse compares it to 'the very sky for purity' - the sky is the exposed upper surface analogously.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-15b-l01",
-              "vilnaLine": 1,
-              "note": "Resolution of the tohoro question"
-            }
-          ]
-        }
-      ],
-      "finalRuling": "Established: tohoro = the altar's top surface (per Rabba bar Sheila).",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "טָהֳרוֹ",
-          "translit": "tohoro",
-          "en": "Its purity - here meaning the top surface of the altar, compared to sky-like purity in Exodus 24:10."
-        }
-      ],
-      "review": {
-        "content": "ai_generated",
-        "sourceRefs": "ai_generated"
-      }
+     "vilnaLine": 2,
+     "sefariaRef": "Yoma.15b.2"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-15b-s02",
-      "lineRange": {
-        "startVilnaLine": 2,
-        "endVilnaLine": 9
-      },
-      "lines": [
-        {
-          "vilnaLine": 2,
-          "sefariaRef": "Yoma.15b.2"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.15b.3"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.15b.4"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.15b.2",
-        "Yoma.15b.3",
-        "Yoma.15b.4"
-      ],
-      "display": {
-        "title": "Three loose ends in R. Shimon's blood choreography, each tied off",
-        "oneLine": "Why olah comes before chatat, why a yesod-less corner still gets blood, and why the priest always turns right are each resolved with a precise technical answer.",
-        "whats": "Three follow-up questions about R. Shimon ish HaMitzpah's blood-sprinkling choreography are each resolved. First: why does R. Shimon put the olah requirement before the chatat requirement when approaching the altar corners? Second: if the northeast corner has no foundation (yesod), why apply blood there first? Third: which way does the priest turn at the corners - always to the right?",
-        "hint": "Each of the three questions has a clean answer: (1) olah is the more frequent sacrifice so it comes first; (2) the northeast corner has no yesod for the olah but does for the chatat above the red line; (3) 'all turns are to the right' applies only during service movements, not to theoretical spatial counting."
-      },
-      "learning": {
-        "learnerQuestion": "R. Shimon's dual olah-and-chatat blood rite raises three practical snags: why olah goes first, how a corner with no yesod can still receive blood, and which way the priest moves. How are these resolved?",
-        "coreTension": "Each question exposes a place where the abstract dual-requirement ruling has to meet a concrete physical constraint of the altar (sequence, foundation structure, walking direction), and it is not obvious in advance that the ruling survives contact with those constraints.",
-        "coreMove": "Each question gets resolved by pointing to a specific, narrower fact that absorbs the difficulty: the tamid's primary identity as an olah explains the sequence, the height distinction (above versus below the red line) explains why a yesod-less corner can still take the chatat application, and the rule about rightward turns is shown to govern actual movement, not abstract corner order.",
-        "learningBlocker": "It is easy to expect one unifying explanation for all three difficulties. Instead each is resolved independently, by a different specific principle, showing that a complex ritual choreography can rest on several narrow technical facts rather than one grand rule.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "A ritual procedure built from two overlapping sacrificial categories can be fully specified, sequence, exceptions, and direction of movement, once each point of friction is matched to its own governing principle rather than forced under a single explanation."
-        },
-        "ahaMoment": "Each question has a precise technical answer - the sugya is showing how halakhic principles interact when a single act must satisfy two different sacrificial categories.",
-        "memoryAnchor": "Three questions, three answers: (1) olah first because tamid is an olah, (2) no yesod only matters below the red line (olah level), (3) 'always right' is for movement not theory."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "question",
-          "label": "Why olah before chatat in the corner sequence?",
-          "speaker": "Gemara",
-          "text": "R. Shimon applies blood in the olah manner before the chatat manner at each corner. Why does olah take priority?",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-15b-l02",
-              "vilnaLine": 2,
-              "note": "First question about corner order"
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "resolution",
-          "label": "Tamid IS an olah - so olah comes first",
-          "speaker": "Gemara",
-          "text": "The tamid itself is an olah. The olah identity precedes the chatat identity in this sacrifice, so olah-applications come first.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-15b-l05",
-              "vilnaLine": 5,
-              "note": "Resolution: tamid is inherently an olah"
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "question",
-          "label": "The northeast corner has no yesod - how can olah blood go there?",
-          "speaker": "Gemara",
-          "text": "Olah blood must be given where there is a yesod (foundation) below it. But Tractate Middot states the northeast corner has no yesod. How does R. Shimon apply blood there?",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-15b-l05",
-              "vilnaLine": 5,
-              "note": "Second question: northeast corner lacks yesod"
-            }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "resolution",
-          "label": "The priest starts at northeast despite no yesod, applies chatat (above red line) only",
-          "speaker": "Gemara",
-          "text": "The priest starts at the northeast corner (the first one reached when ascending the ramp from the south and turning right). Since there is no yesod, the olah application is skipped there - only the above-red-line chatat application is made. The priest then continues to the other corners.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-15b-l09",
-              "vilnaLine": 9,
-              "note": "Resolution of the yesod problem"
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "altar corners",
-        "yesod",
-        "olah",
-        "chatat",
-        "R. Shimon ish HaMitzpah",
-        "blood service",
-        "northeast corner"
-      ],
-      "concepts": [
-        {
-          "term": "yesod",
-          "def": "The altar's foundation base - a protruding ledge below the main altar surface. Olah blood must be applied where there is a yesod below the application point. The northeast corner lacks this ledge."
-        }
-      ],
-      "conceptRefs": [
-        "Yoma.15b.2",
-        "Yoma.15b.3",
-        "Yoma.15b.4"
-      ],
-      "requiresUnderstanding": [
-        "Olah blood applications require a yesod below",
-        "Chatat blood is placed above the red line (chut ha-sikra)",
-        "The Middot tractate description of the altar and its corners"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "R. Shimon applies olah-style blood at all four altar corners equally.",
-          "correction": "The northeast corner, lacking a yesod, receives only the chatat application; the olah application is skipped there.",
-          "correctedByStepId": "step-04"
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-15a-s03",
-        "yoma-15b-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "place",
-          "desc": "Altar diagram showing four corners with yesod indicated at three corners but absent from the northeast; the priest's path highlighted going right from the south ramp"
-        },
-        {
-          "type": "sequence",
-          "desc": "Three-panel sequence: (1) olah first at corners with yesod; (2) northeast corner - chatat only; (3) 'always right' rule for movement direction"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why does R. Shimon ish HaMitzpah apply olah-style blood before chatat-style blood at each altar corner?",
-          "answer": "Because the tamid is inherently an olah - its primary identity is as a burnt offering, so the olah application has priority.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-15b-l05",
-              "vilnaLine": 5,
-              "note": "Resolution: tamid is inherently an olah"
-            }
-          ]
-        },
-        {
-          "question": "How is the northeast corner problem resolved in R. Shimon's blood rite?",
-          "answer": "Since the northeast corner has no yesod (foundation), the olah application (which requires a yesod below) is omitted there. Only the chatat application above the red line is made at that corner.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-15b-l09",
-              "vilnaLine": 9,
-              "note": "Resolution of the yesod problem"
-            }
-          ]
-        }
-      ],
-      "finalRuling": "Resolved: all three questions about R. Shimon's corner sequence have clear halakhic answers.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "יְסוֹד",
-          "translit": "yesod",
-          "en": "Foundation ledge of the altar. Olah blood requires a yesod below the application point. The northeast corner lacks it, affecting R. Shimon's blood rite."
-        }
-      ],
-      "review": {
-        "content": "ai_generated",
-        "sourceRefs": "ai_generated"
-      }
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.15b.3"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-15b-s03",
-      "lineRange": {
-        "startVilnaLine": 14,
-        "endVilnaLine": 14
-      },
-      "lines": [
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.15b.5"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.15b.5"
-      ],
-      "display": {
-        "title": "Which way does the equation run? Reading 'chatat upon olah'",
-        "oneLine": "R. Shimon reads 'as a chatat upon the olah' as the olah identity triggering chatat-mode blood service, not as blood being physically poured onto the olah.",
-        "whats": "A brief logical question: does the verse 'as a chatat upon the olah' mean the tamid gets chatat rules applied to it because it IS an olah - or does it mean the chatat blood is applied TO the olah? The direction of the equation matters for understanding R. Shimon's ruling.",
-        "hint": "The verse could be read as 'treat it like a chatat because it is an olah' (the chatat mode derives from the olah identity) or 'apply chatat-blood onto the olah animal' (the chatat blood is poured on top of the olah). R. Shimon reads it as the former."
-      },
-      "learning": {
-        "learnerQuestion": "The verse links 'chatat' and 'olah' in one phrase about the tamid. Does that mean apply chatat rules because it is an olah, or pour chatat blood onto the olah animal?",
-        "coreTension": "A single verse phrase can be read in two directions, with the olah identity governing the chatat rule or the chatat blood physically governing the olah animal, and each direction implies a different practical service.",
-        "coreMove": "R. Shimon fixes the direction: the tamid's status as an olah is what triggers the additional chatat-mode blood service, not a physical pouring of chatat blood onto an olah animal.",
-        "learningBlocker": "It is easy to read 'chatat upon olah' as a literal physical instruction, blood placed on top of an animal. R. Shimon's reading treats it instead as a conceptual trigger: one sacrificial identity activating a second mode of blood application.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "When a verse phrase joins two categories, the direction in which one term governs the other is itself a substantive interpretive choice, and R. Shimon resolves it here by reading the olah identity as triggering the chatat-mode requirement, not as a physical instruction."
-        },
-        "ahaMoment": "The direction of the equation in a verse determines a completely different halakhic outcome - this is a key principle of derash in Talmudic reasoning.",
-        "memoryAnchor": "Which direction does the equation run? 'Chatat on olah' = chatat rules triggered by olah identity (R. Shimon) - not blood poured onto the animal."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "question",
-          "label": "Which direction does 'chatat upon olah' run?",
-          "speaker": "Gemara",
-          "text": "The verse says 'as a chatat upon the olah of the tamid.' Does this mean: apply chatat-rules to the tamid because it is an olah? Or: pour chatat blood physically onto the olah?",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-15b-l14",
-              "vilnaLine": 14,
-              "note": "Directional question about the verse equation"
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "biblical interpretation",
-        "olah",
-        "chatat",
-        "verse reading",
-        "R. Shimon ish HaMitzpah"
-      ],
-      "concepts": [
-        {
-          "term": "shnei katuv ha-ba k'echad",
-          "def": "When a verse seems to contain two directives simultaneously. Here: chatat rules and olah identity in the same phrase. The interpretation depends on which element governs the other."
-        }
-      ],
-      "conceptRefs": [
-        "Yoma.15b.5"
-      ],
-      "requiresUnderstanding": [
-        "R. Shimon's dual-requirement ruling from 15a-15b",
-        "The mechanics of chatat and olah blood applications"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "'Chatat upon olah' means chatat blood is physically poured onto the olah animal.",
-          "correction": "The Gemara clarifies the phrase refers to the application mode being triggered, not a physical pouring of one blood onto another.",
-          "correctedByStepId": "step-01"
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-15a-s03",
-        "yoma-15b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "desc": "Two reading directions of the verse: arrow from 'chatat' to 'olah' (chatat rules govern because of olah identity) vs arrow from 'olah' to 'chatat' (blood poured onto olah animal)"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What is the ambiguity in the verse 'as a chatat upon the olah of the tamid'?",
-          "answer": "The verse could mean: (A) apply chatat-style rules to this sacrifice because it is also an olah, or (B) physically pour chatat blood onto the olah animal. R. Shimon reads (A).",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-15b-l14",
-              "vilnaLine": 14,
-              "note": "Directional question about the verse equation"
-            }
-          ]
-        }
-      ],
-      "finalRuling": "R. Shimon reads the verse as: the tamid's olah-identity triggers chatat-mode blood applications.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": {
-        "content": "ai_generated",
-        "sourceRefs": "ai_generated"
-      }
-    },
-    {
-      "sugyaNumber": 4,
-      "id": "yoma-15b-s04",
-      "lineRange": {
-        "startVilnaLine": 19,
-        "endVilnaLine": 30
-      },
-      "lines": [
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.15b.6"
-        },
-        {
-          "vilnaLine": 26,
-          "sefariaRef": "Yoma.15b.7"
-        },
-        {
-          "vilnaLine": 30,
-          "sefariaRef": "Yoma.15b.8"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.15b.6",
-        "Yoma.15b.7",
-        "Yoma.15b.8"
-      ],
-      "display": {
-        "title": "Same Temple, two floor plans: the Chamber of the Lambs contradiction opens 16a",
-        "oneLine": "Tractate Tamid and Tractate Middot place the Chamber of the Lambs in different corners of the Beit HaMoked, setting up the next daf's authorship debate.",
-        "whats": "The Gemara discusses a mishna in Tamid about the Chamber of the Lambs (Lishkat HaTelayim) - the room where the daily tamid lambs were kept. The Yoma description and the Tamid/Middot descriptions place this chamber in different corners of the Beit HaMoked complex. The contradiction sets up the next daf's extended debate about which tractate is authoritative.",
-        "hint": "Tractate Yoma says the Chamber of the Lambs was in one corner; Tractate Middot says it was in a different corner. The Gemara needs to explain this apparent contradiction."
-      },
-      "learning": {
-        "learnerQuestion": "Tamid and Middot both describe the four-chamber Beit HaMoked, but they put the Chamber of the Lambs in different corners. How can two descriptions of the same physical room disagree?",
-        "coreTension": "Tractate Yoma's mishna locates the Chamber of the Lambs in one corner of the Beit HaMoked, while Tractate Middot's description places it in a different corner, a direct topographical contradiction about a single physical structure.",
-        "coreMove": "Rather than resolving the contradiction here, the Gemara reaches for the same tool used on 14b: identify who authored the conflicting tractate, since Rav Huna's proposal that R. Eliezer ben Yaakov authored Middot opens the path to explaining the discrepancy through differing authorial perspectives.",
-        "learningBlocker": "It is easy to expect this sugya to resolve the contradiction outright. Instead it deliberately leaves the question open, setting up 16a's extended authorship debate as the actual resolution mechanism, the same method already used for the Tamid/Yoma incense-and-lamps contradiction.",
-        "takeaway": {
-          "type": "open_question",
-          "text": "The Chamber of the Lambs is placed in different corners by Tamid and Middot, and this sugya raises the contradiction and proposes an authorship-based approach to it without resolving which location is correct, deferring the resolution to the next daf."
-        },
-        "ahaMoment": "The physical layout of the Temple creates contradictions between tractates - resolving them requires identifying who authored each tractate and what their perspective was.",
-        "memoryAnchor": "Chamber of the Lambs: two locations, two tractates, one Temple. The contradiction launches the 16a debate."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "premise",
-          "label": "Tamid/Yoma: Chamber of Lambs in one location",
-          "speaker": "Mishna",
-          "text": "Tractate Yoma's Mishnah places the Chamber of the Lambs in one specific corner of the Beit HaMoked.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-15b-l19",
-              "vilnaLine": 19,
-              "note": "Yoma's location for the Chamber"
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "contradiction",
-          "label": "Middot places it in a different corner",
-          "speaker": "Gemara",
-          "text": "Tractate Middot's description of the four Beit HaMoked chambers places the Chamber of the Lambs in a different corner, creating a direct contradiction.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-15b-l26",
-              "vilnaLine": 26,
-              "note": "Middot's contradictory placement"
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "question",
-          "label": "Who authored Middot?",
-          "speaker": "Gemara",
-          "text": "Rav Huna proposes: Tractate Middot was authored by R. Eliezer ben Yaakov. If we know his position, we can understand the discrepancy.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-15b-l30",
-              "vilnaLine": 30,
-              "note": "Rav Huna's authorship claim sets up 16a"
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Beit HaMoked",
-        "Chamber of the Lambs",
-        "Tractate Middot",
-        "Temple layout",
-        "contradiction",
-        "tractate authorship"
-      ],
-      "concepts": [
-        {
-          "term": "Lishkat HaTelayim",
-          "def": "Chamber of the Lambs - the room in the Beit HaMoked complex where the daily tamid lambs were kept, inspected, and prepared. Its exact location is disputed between Yoma and Middot."
-        }
-      ],
-      "conceptRefs": [
-        "Yoma.15b.6",
-        "Yoma.15b.7",
-        "Yoma.15b.8"
-      ],
-      "requiresUnderstanding": [
-        "The four-chamber structure of the Beit HaMoked",
-        "The relationship between Tractates Yoma, Tamid, and Middot"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Tractates always agree on Temple topography since they describe the same physical structure.",
-          "correction": "Different tractates may reflect different authorities with different spatial perspectives, producing genuine contradictions like the Chamber of the Lambs location.",
-          "correctedByStepId": "step-02"
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-16a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "place",
-          "desc": "Beit HaMoked floor plan with four chambers labeled; the Chamber of the Lambs shown in two different corners per the two contradictory tractate descriptions"
-        },
-        {
-          "type": "contrast",
-          "desc": "Side-by-side: Yoma's location for the Chamber vs Middot's location"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What is the contradiction between Tractates Yoma and Middot regarding the Chamber of the Lambs?",
-          "answer": "Both tractates describe the four-chamber Beit HaMoked, but they place the Chamber of the Lambs in different corners. This contradiction drives the 16a debate about who authored Tractate Middot.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-15b-l26",
-              "vilnaLine": 26,
-              "note": "Middot's contradictory placement"
-            }
-          ]
-        }
-      ],
-      "finalRuling": "Contradiction noted; resolution deferred to 16a.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "לִשְׁכַּת הַטְּלָאִים",
-          "translit": "Lishkat HaTelayim",
-          "en": "Chamber of the Lambs - where tamid lambs were kept before being offered. Its location is disputed between Yoma and Middot."
-        }
-      ],
-      "review": {
-        "content": "ai_generated",
-        "sourceRefs": "ai_generated"
-      }
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.15b.4"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.15b.2",
+    "Yoma.15b.3",
+    "Yoma.15b.4"
+   ],
+   "display": {
+    "title": "Three loose ends in R. Shimon's blood choreography, each tied off",
+    "oneLine": "Why olah comes before chatat, why a yesod-less corner still gets blood, and why the priest always turns right are each resolved with a precise technical answer.",
+    "whats": "Three follow-up questions about R. Shimon ish HaMitzpah's blood-sprinkling choreography are each resolved. First: why does R. Shimon put the olah requirement before the chatat requirement when approaching the altar corners? Second: if the northeast corner has no foundation (yesod), why apply blood there first? Third: which way does the priest turn at the corners - always to the right?",
+    "hint": "Each of the three questions has a clean answer: (1) olah is the more frequent sacrifice so it comes first; (2) the northeast corner has no yesod for the olah but does for the chatat above the red line; (3) 'all turns are to the right' applies only during service movements, not to theoretical spatial counting."
+   },
+   "learning": {
+    "learnerQuestion": "R. Shimon's dual olah-and-chatat blood rite raises three practical snags: why olah goes first, how a corner with no yesod can still receive blood, and which way the priest moves. How are these resolved?",
+    "coreTension": "Each question exposes a place where the abstract dual-requirement ruling has to meet a concrete physical constraint of the altar (sequence, foundation structure, walking direction), and it is not obvious in advance that the ruling survives contact with those constraints.",
+    "coreMove": "Each question gets resolved by pointing to a specific, narrower fact that absorbs the difficulty: the tamid's primary identity as an olah explains the sequence, the height distinction (above versus below the red line) explains why a yesod-less corner can still take the chatat application, and the rule about rightward turns is shown to govern actual movement, not abstract corner order.",
+    "learningBlocker": "It is easy to expect one unifying explanation for all three difficulties. Instead each is resolved independently, by a different specific principle, showing that a complex ritual choreography can rest on several narrow technical facts rather than one grand rule.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "A ritual procedure built from two overlapping sacrificial categories can be fully specified, sequence, exceptions, and direction of movement, once each point of friction is matched to its own governing principle rather than forced under a single explanation."
+    },
+    "ahaMoment": "Each question has a precise technical answer - the sugya is showing how halakhic principles interact when a single act must satisfy two different sacrificial categories.",
+    "memoryAnchor": "Three questions, three answers: (1) olah first because tamid is an olah, (2) no yesod only matters below the red line (olah level), (3) 'always right' is for movement not theory."
+   },
+   "argumentFlow": [
     {
-      "he": "טָהֳרוֹ",
-      "translit": "tohoro",
-      "en": "Its purity - here meaning the top surface of the altar, compared to sky-like purity in Exodus 24:10."
+     "id": "step-01",
+     "type": "question",
+     "label": "Why olah before chatat in the corner sequence?",
+     "speaker": "Gemara",
+     "text": "R. Shimon applies blood in the olah manner before the chatat manner at each corner. Why does olah take priority?",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-15b-l02",
+       "vilnaLine": 2,
+       "note": "First question about corner order"
+      }
+     ]
     },
     {
-      "he": "יְסוֹד",
-      "translit": "yesod",
-      "en": "Foundation ledge of the altar. Olah blood requires a yesod below the application point. The northeast corner lacks it, affecting R. Shimon's blood rite."
+     "id": "step-02",
+     "type": "resolution",
+     "label": "Tamid IS an olah - so olah comes first",
+     "speaker": "Gemara",
+     "text": "The tamid itself is an olah. The olah identity precedes the chatat identity in this sacrifice, so olah-applications come first.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-15b-l05",
+       "vilnaLine": 5,
+       "note": "Resolution: tamid is inherently an olah"
+      }
+     ]
     },
     {
-      "he": "לִשְׁכַּת הַטְּלָאִים",
-      "translit": "Lishkat HaTelayim",
-      "en": "Chamber of the Lambs - where tamid lambs were kept before being offered. Its location is disputed between Yoma and Middot."
+     "id": "step-03",
+     "type": "question",
+     "label": "The northeast corner has no yesod - how can olah blood go there?",
+     "speaker": "Gemara",
+     "text": "Olah blood must be given where there is a yesod (foundation) below it. But Tractate Middot states the northeast corner has no yesod. How does R. Shimon apply blood there?",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-15b-l05",
+       "vilnaLine": 5,
+       "note": "Second question: northeast corner lacks yesod"
+      }
+     ]
+    },
+    {
+     "id": "step-04",
+     "type": "resolution",
+     "label": "The priest starts at northeast despite no yesod, applies chatat (above red line) only",
+     "speaker": "Gemara",
+     "text": "The priest starts at the northeast corner (the first one reached when ascending the ramp from the south and turning right). Since there is no yesod, the olah application is skipped there - only the above-red-line chatat application is made. The priest then continues to the other corners.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-15b-l09",
+       "vilnaLine": 9,
+       "note": "Resolution of the yesod problem"
+      }
+     ]
     }
-  ],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "en": "Opens 'against its own body of the altar': on its roof. And what does the term 'tohoro' mean? Because it purifies and clears away",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "continuing: the incense that was burned on it in the morning, sweeping it aside, and he sprinkles on the spot",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "closing: of the clearing, as it is written 'and like the essence of the heavens for purity' (latohar) - like 'letaher.' Then opens 'a burnt-offering requires",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "continuing: a base': meaning its blood must be placed where there is a base beneath it, for so",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "continuing: we say in Zevachim (51a): 'do not place blood on the base",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "continuing: of the altar of the burnt-offering except at the place of a burnt-offering's slaughter; its base shall be",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "closing: beneath it.' Then opens 'the southeastern corner",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: had no base': as we say",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "continuing: in tractate Middot (chapter 3, mishna 1): the base",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "continuing: ran along the whole north, and",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: along the whole west, taking up on the east one cubit",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: where the north ended toward the east, and on the south",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "continuing: one cubit, where the west ended toward the south -",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "continuing: from which it follows there was no base at the southeastern corner.",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: And we say in Zevachim (53b): because",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: the cubit of the base of the whole east",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: and of the whole south fell within Binyamin's portion,",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: as we translate: 'in his inheritance was built",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: the altar' (Genesis 49) - therefore there was no",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "closing: base for it.' Then opens 'since the master said, etc.':",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: this comes from Rabbi Rami bar Yechezkel's mishna,",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "closing: later (58b). Then opens 'they may only be by way of",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: the right, toward the east': here 'toward the east' does not apply,",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: but in Zevachim it applies, teaching there since it deals",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: there with the placement of the altar's ramp to the south",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: and derives it from 'and its steps facing east' -",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: read: give its steps to the south, so that the beginning of",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: its turns is toward the east when one turns to the right,",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: since all turns are by way of the right - for Rami",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "continuing: bar Yechezkel taught: 'standing upon twelve",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: oxen,' etc., and on account of that same version he uses",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: 'toward the east' everywhere, though properly one could only say",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "closing: 'by way of the right' and nothing more. Then opens 'in the first",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "continuing: [corner] he encountered': when he goes up the ramp and turns",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: to the right, he first encounters the southeastern corner",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "continuing: first, and there it is impossible to place [blood] since",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "continuing: it has no base; so he circles around and comes to the northeastern",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: corner and places it there. And although the placing of blood is not",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "continuing: done via the ramp, since he stands on the floor",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: with the vessel in hand and casts it from a distance, as it is written",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "continuing: 'and he shall cast it' - since he places it below the red line -",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "continuing: nevertheless, since for a sin-offering, whose blood is placed on the upper part of the corner, he must go up",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "continuing: the ramp by way of the south and turn to the east - so too for all blood placements, even though they are given",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "continuing: below, he begins circling from the south, which is the face of the altar, like the entrance",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "closing: to the Sanctuary, turning right from there. Then opens 'perhaps regarding a sin-offering' - of the New Moon,",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "closing: of which the Merciful One said: perform on it the act of a burnt-offering. Then opens 'that cannot enter your mind, for it is written': 'as a sin-offering",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l14"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "closing: in addition to a burnt-offering.' Then opens 'we learned there': in tractate Tamid - though it is not truly fitting to place it in the Gemara",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "continuing: of the order of the day, except that it deals above with a similar kind of switch: which tanna",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "continuing: taught the order of the day? It is Rabbi Shimon Ish HaMitzpah - we do not derive this from his having explicitly said so,",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "continuing: but rather because we heard that he disputes the order of the daily-offering; they establish the unattributed teaching",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "continuing: that disputes the daily-offering as following his view - and since no such school of thought is otherwise found in the Gemara, they fix",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "closing: this one too alongside it, since it can likewise be established on that same view. Then opens 'the appointed one': that is the deputy High Priest.",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "Then opens 'and they brought, etc.': the daily offering. Then opens 'from the chamber of the lambs': for the lambs were kept there,",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "continuing: examined, as we learned (Arachin 13a): 'they use no fewer than six examined lambs",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "closing: in the chamber of the lambs.' Then opens 'but was it not': like saying 'but it was in such-and-such a place.' Then opens 'at the corner",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "continuing: northwestern': of the chamber of the hearth, which was a large hall, where they would light",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "continuing: great bonfires there, to warm the priests who walked barefoot on the pavement",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "continuing: of the courtyard, which was of marble; and at its corners were chambers opening like small rooms",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "closing: opening onto the hall, as is taught further; and there were four chambers there at the four corners - one the chamber of the lambs, and so on. Then opens 'the chamber of the seals': where they would place",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 60,
-      "en": "continuing: the seals of one who purchases flour-offerings and libations from the Temple treasury for money, as we learned in tractate Shekalim (7b): 'there were four seals in the Temple, and on them was written",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 61,
-      "en": "continuing: calf, goat, male, sinner' - these being tokens for a sheep, a ram, a bull, and the three animals of a leper; whoever requests libations comes to the one appointed over the seals",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 62,
-      "en": "continuing: and gives him money for the libations he needs, and receives from him a seal for those libations; then he comes to the one appointed over the libations and shows him the seal,",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 63,
-      "en": "closing: and receives the libations from him, and so on, as is explained there. Then opens 'the chamber of the hearth': a small chamber called the chamber of the hearth, opening into the great chamber of the hearth. Then opens 'where they make",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 64,
-      "en": "closing: the showbread': the house of Garmu made the preparation of the showbread there. Then opens 'to the chamber of the hearth': opening onto it. Then opens 'two in sanctified ground and two outside it': of the chamber of the hearth,",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 65,
-      "en": "closing: part of it built within the sanctified courtyard, and part of it outside. Then opens 'and the tops of the partitions': pieces of wood that mark, at the point that divides sanctified from non-sanctified.",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 66,
-      "en": "Opens 'which had been profaned' -",
-      "linkedGemaraLineIds": [
-        "yoma-015b-l30"
-      ]
+   ],
+   "topicTags": [
+    "altar corners",
+    "yesod",
+    "olah",
+    "chatat",
+    "R. Shimon ish HaMitzpah",
+    "blood service",
+    "northeast corner"
+   ],
+   "concepts": [
+    {
+     "term": "yesod",
+     "def": "The altar's foundation base - a protruding ledge below the main altar surface. Olah blood must be applied where there is a yesod below the application point. The northeast corner lacks this ledge."
     }
-  ]
+   ],
+   "conceptRefs": [
+    "Yoma.15b.2",
+    "Yoma.15b.3",
+    "Yoma.15b.4"
+   ],
+   "requiresUnderstanding": [
+    "Olah blood applications require a yesod below",
+    "Chatat blood is placed above the red line (chut ha-sikra)",
+    "The Middot tractate description of the altar and its corners"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "R. Shimon applies olah-style blood at all four altar corners equally.",
+     "correction": "The northeast corner, lacking a yesod, receives only the chatat application; the olah application is skipped there.",
+     "correctedByStepId": "step-04"
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-15a-s03",
+    "yoma-15b-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "place",
+     "desc": "Altar diagram showing four corners with yesod indicated at three corners but absent from the northeast; the priest's path highlighted going right from the south ramp"
+    },
+    {
+     "type": "sequence",
+     "desc": "Three-panel sequence: (1) olah first at corners with yesod; (2) northeast corner - chatat only; (3) 'always right' rule for movement direction"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why does R. Shimon ish HaMitzpah apply olah-style blood before chatat-style blood at each altar corner?",
+     "answer": "Because the tamid is inherently an olah - its primary identity is as a burnt offering, so the olah application has priority.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-15b-l05",
+       "vilnaLine": 5,
+       "note": "Resolution: tamid is inherently an olah"
+      }
+     ]
+    },
+    {
+     "question": "How is the northeast corner problem resolved in R. Shimon's blood rite?",
+     "answer": "Since the northeast corner has no yesod (foundation), the olah application (which requires a yesod below) is omitted there. Only the chatat application above the red line is made at that corner.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-15b-l09",
+       "vilnaLine": 9,
+       "note": "Resolution of the yesod problem"
+      }
+     ]
+    }
+   ],
+   "finalRuling": "Resolved: all three questions about R. Shimon's corner sequence have clear halakhic answers.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "יְסוֹד",
+     "translit": "yesod",
+     "en": "Foundation ledge of the altar. Olah blood requires a yesod below the application point. The northeast corner lacks it, affecting R. Shimon's blood rite."
+    }
+   ],
+   "review": {
+    "content": "ai_generated",
+    "sourceRefs": "ai_generated"
+   }
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-15b-s03",
+   "lineRange": {
+    "startVilnaLine": 14,
+    "endVilnaLine": 14
+   },
+   "lines": [
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.15b.5"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.15b.5"
+   ],
+   "display": {
+    "title": "Which way does the equation run? Reading 'chatat upon olah'",
+    "oneLine": "R. Shimon reads 'as a chatat upon the olah' as the olah identity triggering chatat-mode blood service, not as blood being physically poured onto the olah.",
+    "whats": "A brief logical question: does the verse 'as a chatat upon the olah' mean the tamid gets chatat rules applied to it because it IS an olah - or does it mean the chatat blood is applied TO the olah? The direction of the equation matters for understanding R. Shimon's ruling.",
+    "hint": "The verse could be read as 'treat it like a chatat because it is an olah' (the chatat mode derives from the olah identity) or 'apply chatat-blood onto the olah animal' (the chatat blood is poured on top of the olah). R. Shimon reads it as the former."
+   },
+   "learning": {
+    "learnerQuestion": "The verse links 'chatat' and 'olah' in one phrase about the tamid. Does that mean apply chatat rules because it is an olah, or pour chatat blood onto the olah animal?",
+    "coreTension": "A single verse phrase can be read in two directions, with the olah identity governing the chatat rule or the chatat blood physically governing the olah animal, and each direction implies a different practical service.",
+    "coreMove": "R. Shimon fixes the direction: the tamid's status as an olah is what triggers the additional chatat-mode blood service, not a physical pouring of chatat blood onto an olah animal.",
+    "learningBlocker": "It is easy to read 'chatat upon olah' as a literal physical instruction, blood placed on top of an animal. R. Shimon's reading treats it instead as a conceptual trigger: one sacrificial identity activating a second mode of blood application.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "When a verse phrase joins two categories, the direction in which one term governs the other is itself a substantive interpretive choice, and R. Shimon resolves it here by reading the olah identity as triggering the chatat-mode requirement, not as a physical instruction."
+    },
+    "ahaMoment": "The direction of the equation in a verse determines a completely different halakhic outcome - this is a key principle of derash in Talmudic reasoning.",
+    "memoryAnchor": "Which direction does the equation run? 'Chatat on olah' = chatat rules triggered by olah identity (R. Shimon) - not blood poured onto the animal."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "question",
+     "label": "Which direction does 'chatat upon olah' run?",
+     "speaker": "Gemara",
+     "text": "The verse says 'as a chatat upon the olah of the tamid.' Does this mean: apply chatat-rules to the tamid because it is an olah? Or: pour chatat blood physically onto the olah?",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-15b-l14",
+       "vilnaLine": 14,
+       "note": "Directional question about the verse equation"
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "biblical interpretation",
+    "olah",
+    "chatat",
+    "verse reading",
+    "R. Shimon ish HaMitzpah"
+   ],
+   "concepts": [
+    {
+     "term": "shnei katuv ha-ba k'echad",
+     "def": "When a verse seems to contain two directives simultaneously. Here: chatat rules and olah identity in the same phrase. The interpretation depends on which element governs the other."
+    }
+   ],
+   "conceptRefs": [
+    "Yoma.15b.5"
+   ],
+   "requiresUnderstanding": [
+    "R. Shimon's dual-requirement ruling from 15a-15b",
+    "The mechanics of chatat and olah blood applications"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "'Chatat upon olah' means chatat blood is physically poured onto the olah animal.",
+     "correction": "The Gemara clarifies the phrase refers to the application mode being triggered, not a physical pouring of one blood onto another.",
+     "correctedByStepId": "step-01"
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-15a-s03",
+    "yoma-15b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "desc": "Two reading directions of the verse: arrow from 'chatat' to 'olah' (chatat rules govern because of olah identity) vs arrow from 'olah' to 'chatat' (blood poured onto olah animal)"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What is the ambiguity in the verse 'as a chatat upon the olah of the tamid'?",
+     "answer": "The verse could mean: (A) apply chatat-style rules to this sacrifice because it is also an olah, or (B) physically pour chatat blood onto the olah animal. R. Shimon reads (A).",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-15b-l14",
+       "vilnaLine": 14,
+       "note": "Directional question about the verse equation"
+      }
+     ]
+    }
+   ],
+   "finalRuling": "R. Shimon reads the verse as: the tamid's olah-identity triggers chatat-mode blood applications.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": {
+    "content": "ai_generated",
+    "sourceRefs": "ai_generated"
+   }
+  },
+  {
+   "sugyaNumber": 4,
+   "id": "yoma-15b-s04",
+   "lineRange": {
+    "startVilnaLine": 19,
+    "endVilnaLine": 30
+   },
+   "lines": [
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.15b.6"
+    },
+    {
+     "vilnaLine": 26,
+     "sefariaRef": "Yoma.15b.7"
+    },
+    {
+     "vilnaLine": 30,
+     "sefariaRef": "Yoma.15b.8"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.15b.6",
+    "Yoma.15b.7",
+    "Yoma.15b.8"
+   ],
+   "display": {
+    "title": "Same Temple, two floor plans: the Chamber of the Lambs contradiction opens 16a",
+    "oneLine": "Tractate Tamid and Tractate Middot place the Chamber of the Lambs in different corners of the Beit HaMoked, setting up the next daf's authorship debate.",
+    "whats": "The Gemara discusses a mishna in Tamid about the Chamber of the Lambs (Lishkat HaTelayim) - the room where the daily tamid lambs were kept. The Yoma description and the Tamid/Middot descriptions place this chamber in different corners of the Beit HaMoked complex. The contradiction sets up the next daf's extended debate about which tractate is authoritative.",
+    "hint": "Tractate Yoma says the Chamber of the Lambs was in one corner; Tractate Middot says it was in a different corner. The Gemara needs to explain this apparent contradiction."
+   },
+   "learning": {
+    "learnerQuestion": "Tamid and Middot both describe the four-chamber Beit HaMoked, but they put the Chamber of the Lambs in different corners. How can two descriptions of the same physical room disagree?",
+    "coreTension": "Tractate Yoma's mishna locates the Chamber of the Lambs in one corner of the Beit HaMoked, while Tractate Middot's description places it in a different corner, a direct topographical contradiction about a single physical structure.",
+    "coreMove": "Rather than resolving the contradiction here, the Gemara reaches for the same tool used on 14b: identify who authored the conflicting tractate, since Rav Huna's proposal that R. Eliezer ben Yaakov authored Middot opens the path to explaining the discrepancy through differing authorial perspectives.",
+    "learningBlocker": "It is easy to expect this sugya to resolve the contradiction outright. Instead it deliberately leaves the question open, setting up 16a's extended authorship debate as the actual resolution mechanism, the same method already used for the Tamid/Yoma incense-and-lamps contradiction.",
+    "takeaway": {
+     "type": "open_question",
+     "text": "The Chamber of the Lambs is placed in different corners by Tamid and Middot, and this sugya raises the contradiction and proposes an authorship-based approach to it without resolving which location is correct, deferring the resolution to the next daf."
+    },
+    "ahaMoment": "The physical layout of the Temple creates contradictions between tractates - resolving them requires identifying who authored each tractate and what their perspective was.",
+    "memoryAnchor": "Chamber of the Lambs: two locations, two tractates, one Temple. The contradiction launches the 16a debate."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "premise",
+     "label": "Tamid/Yoma: Chamber of Lambs in one location",
+     "speaker": "Mishna",
+     "text": "Tractate Yoma's Mishnah places the Chamber of the Lambs in one specific corner of the Beit HaMoked.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-15b-l19",
+       "vilnaLine": 19,
+       "note": "Yoma's location for the Chamber"
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "contradiction",
+     "label": "Middot places it in a different corner",
+     "speaker": "Gemara",
+     "text": "Tractate Middot's description of the four Beit HaMoked chambers places the Chamber of the Lambs in a different corner, creating a direct contradiction.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-15b-l26",
+       "vilnaLine": 26,
+       "note": "Middot's contradictory placement"
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "question",
+     "label": "Who authored Middot?",
+     "speaker": "Gemara",
+     "text": "Rav Huna proposes: Tractate Middot was authored by R. Eliezer ben Yaakov. If we know his position, we can understand the discrepancy.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-15b-l30",
+       "vilnaLine": 30,
+       "note": "Rav Huna's authorship claim sets up 16a"
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "Beit HaMoked",
+    "Chamber of the Lambs",
+    "Tractate Middot",
+    "Temple layout",
+    "contradiction",
+    "tractate authorship"
+   ],
+   "concepts": [
+    {
+     "term": "Lishkat HaTelayim",
+     "def": "Chamber of the Lambs - the room in the Beit HaMoked complex where the daily tamid lambs were kept, inspected, and prepared. Its exact location is disputed between Yoma and Middot."
+    }
+   ],
+   "conceptRefs": [
+    "Yoma.15b.6",
+    "Yoma.15b.7",
+    "Yoma.15b.8"
+   ],
+   "requiresUnderstanding": [
+    "The four-chamber structure of the Beit HaMoked",
+    "The relationship between Tractates Yoma, Tamid, and Middot"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Tractates always agree on Temple topography since they describe the same physical structure.",
+     "correction": "Different tractates may reflect different authorities with different spatial perspectives, producing genuine contradictions like the Chamber of the Lambs location.",
+     "correctedByStepId": "step-02"
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-16a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "place",
+     "desc": "Beit HaMoked floor plan with four chambers labeled; the Chamber of the Lambs shown in two different corners per the two contradictory tractate descriptions"
+    },
+    {
+     "type": "contrast",
+     "desc": "Side-by-side: Yoma's location for the Chamber vs Middot's location"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What is the contradiction between Tractates Yoma and Middot regarding the Chamber of the Lambs?",
+     "answer": "Both tractates describe the four-chamber Beit HaMoked, but they place the Chamber of the Lambs in different corners. This contradiction drives the 16a debate about who authored Tractate Middot.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-15b-l26",
+       "vilnaLine": 26,
+       "note": "Middot's contradictory placement"
+      }
+     ]
+    }
+   ],
+   "finalRuling": "Contradiction noted; resolution deferred to 16a.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "לִשְׁכַּת הַטְּלָאִים",
+     "translit": "Lishkat HaTelayim",
+     "en": "Chamber of the Lambs - where tamid lambs were kept before being offered. Its location is disputed between Yoma and Middot."
+    }
+   ],
+   "review": {
+    "content": "ai_generated",
+    "sourceRefs": "ai_generated"
+   }
+  }
+ ],
+ "glossary": [
+  {
+   "he": "טָהֳרוֹ",
+   "translit": "tohoro",
+   "en": "Its purity - here meaning the top surface of the altar, compared to sky-like purity in Exodus 24:10."
+  },
+  {
+   "he": "יְסוֹד",
+   "translit": "yesod",
+   "en": "Foundation ledge of the altar. Olah blood requires a yesod below the application point. The northeast corner lacks it, affecting R. Shimon's blood rite."
+  },
+  {
+   "he": "לִשְׁכַּת הַטְּלָאִים",
+   "translit": "Lishkat HaTelayim",
+   "en": "Chamber of the Lambs - where tamid lambs were kept before being offered. Its location is disputed between Yoma and Middot."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'Against its own body of the altar' - on its roof; and what is the meaning of the term 'tohoro' (its purity)? Because it purifies and clears away",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "the ash of the incense that was burned on it in the morning, sweeping it aside, and he sprinkles on the spot",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "that has been uncovered, as it is written, 'and like the essence of the heavens for purity (latohar)' - like 'letaher.' 'A burnt-offering requires",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l01",
+    "yoma-015b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "a base' - meaning its blood must be placed where there is a base beneath it, for so",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "we say in Zevachim (51a): 'do not place blood upon the base",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "of the altar; for the slaughtered blood of a burnt-offering there must be",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "a base beneath it.' 'The southeastern",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "corner had no base' - as we say",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "in tractate Middot (3:1): the base",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "ran along the whole north, and",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "along the whole west, extending on the east one cubit",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "at the point the north side ended toward the east, and on the south",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "one cubit at the point the west side ended toward the south -",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "from which it follows that there was no base at the southeastern corner",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "and we say in Zevachim (53b): because",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "the cubit-wide base of the whole east",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "and of the whole south fell within Binyamin's portion,",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "as we translate: 'in his inheritance was built",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "the altar' (Genesis 49) - therefore there was no",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "base for it. 'Since the master said, etc.' -",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l05",
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "this is from Rami bar Yechezkel's mishna,",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "later (58b). 'They may only be by way of",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "the right, toward the east' - here 'toward the east' does not apply,",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "but in Zevachim it applies, to teach it, since it deals",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "there with placing the altar's ramp to the south",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "and derives it from 'and its steps facing east' -",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "read: place its steps to the south, so that the beginning of",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "its turns faces east when one turns to the right,",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "since all turns are by way of the right - for Rami",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "bar Yechezkel taught: 'standing upon twelve",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "oxen,' etc.; and because of that version, he uses",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "'toward the east' everywhere, though properly one could only say",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "'by way of the right' and nothing more. 'In the first corner",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "he encountered' - when he goes up the ramp and turns",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "to the right, he first encounters the southeastern corner",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "first, and there it is impossible to place blood, because",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "it has no base; so he circles around and comes to the northeastern",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "corner and places it there. And although the placing of blood is not",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "done via the ramp, since he stands on the floor",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "with the vessel in hand and casts it from a distance, as it is written,",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "'and he shall cast it' - since he places it below the scarlet thread -",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "nevertheless, since for a sin-offering, whose blood is placed on the upper part of the corner, he must go up",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "the ramp by way of the south and turn to the east, so too for all blood placements, even though he places them",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "below, he begins circling from the south, which is the face of the altar, like the entrance",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "of the Sanctuary, and turns right from there. 'Perhaps regarding a sin-offering' - of the New Moon,",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l09",
+    "yoma-015b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "of which the Merciful One said, perform on it the act of a burnt-offering. 'That cannot enter your mind, for it is written' - 'as a sin-offering",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "in addition to a burnt-offering.' 'We learned there' - in tractate Tamid, though it is not truly fitting to place it in the Gemara",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l14",
+    "yoma-015b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "of the order of the day, except that it deals above with a similar kind of switch: which tanna",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "taught the order of the day? It is Rabbi Shimon Ish HaMitzpah; we do not derive this from his having explicitly said so,",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "but rather because we heard that he disputes the order of the daily-offering; they establish the unattributed teaching",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "that disputes the daily-offering as following his view, and since no such school of thought is otherwise found in the Gemara, they fix",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "this one too alongside it, since it can likewise be established on that same view. 'The appointed one' - that is the deputy High Priest",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "'And they brought, etc.' - the daily offering. 'From the chamber of the lambs' - for the lambs were kept there,",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "examined, as we learned (Arachin 13a): 'they use no fewer than six examined lambs",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "in the chamber of the lambs.' 'But was it not' - like saying 'but it was in such-and-such a place.' 'At the corner",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "northwestern' - of the chamber of the hearth, which was a large hall, where they would light",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "great bonfires, to warm the priests who walked barefoot on the pavement",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "of the courtyard, which was of marble; and at its corners were chambers, opening like small rooms",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "opening onto the hall, as is taught further; and there were four chambers there, at the four corners - one being the chamber of the lambs, and so on. 'The chamber of the seals' - where they would place",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "the seals of one who purchases flour-offerings and libations from the Temple treasury for money, as we learned in tractate Shekalim (7b): 'there were four seals in the Temple, and on them was written",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "calf, goat, male, sinner' - these being tokens for a sheep, a ram, a bull, and the three animals of a leper; whoever requests libations comes to the one appointed over the seals",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "and gives him money according to the libations he needs, and receives from him a seal for those libations; then he comes to the one appointed over the libations and shows him the seal,",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 63,
+   "en": "and receives the libations from him, and so on, as is explained there. 'The chamber of the hearth' - a small chamber called the chamber of the hearth, opening into the great chamber of the hearth. 'Where they make in it'",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 64,
+   "en": "the showbread' - the house of Garmu made the preparation of the showbread there. 'To the chamber of the hearth' - opening onto it. 'Two in sanctified ground and two outside it' - of the chamber of the hearth,",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l19",
+    "yoma-015b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 65,
+   "en": "part of it was built within the sanctified courtyard, and part of it outside. 'And the tops of the partitions' - pieces of wood marking, as a sign, the point that divides sanctified from non-sanctified",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 66,
+   "en": "'Which had been profaned' - the daf ends mid-word here; the comment (explaining that the kings of the idolatrous nations burned incense there for idol worship) continues on 16a.",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l30"
+   ]
+  }
+ ]
 }
