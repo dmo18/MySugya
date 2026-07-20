@@ -103071,12 +103071,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 1,
         he: "בקדושה. מתן דמים: שם פרישה אחת.  כולה חדא מעלה",
-        en: "Rashi: continuing from 44a's 'in holiness' - concerning the giving of blood, there is one level of separation; it is all one degree of sanctity.",
+        en: "'In holiness' - the giving of blood. 'It is one name of separation' - it is all one degree",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l01"
+          "yoma-044b-l01b"
         ]
       },
       {
@@ -103085,12 +103085,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 2,
         he: "היא דמהיכל פרשי [משום] לפני ולפנים בין בשביל הקטרה ובין",
-        en: "Rashi: people must separate from the Sanctuary on account of the Holy of Holies, whether for the incense or for the blood-giving.",
+        en: "of sanctity, for from the Sanctuary they separate, whether for the burning or",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l01"
+          "yoma-044b-l01b"
         ]
       },
       {
@@ -103099,12 +103099,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 3,
         he: "בשביל מתן דמים ומבין האולם ולמזבח לא [פרשי] בשביל לפני לפנים",
-        en: "Rashi: continues - but from between the Hall and the Altar they need not separate on account of the Holy of Holies at all.",
+        en: "for the giving of blood, whereas from between the Entrance Hall and the Altar they do not separate for the innermost sanctuary",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l01"
+          "yoma-044b-l01b"
         ]
       },
       {
@@ -103113,12 +103113,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 4,
         he: "כלל וכיון דאשמועינן דמשום הקטרה דלפני ולפנים לא פרשי לא",
-        en: "Rashi: since we are taught that on account of the Holy of Holies incense they need not separate from that area, it was not necessary to teach this separately.",
+        en: "at all; and since it teaches us that on account of the burning of the innermost sanctuary they do not separate, it was not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l01"
+          "yoma-044b-l01b"
         ]
       },
       {
@@ -103127,12 +103127,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 5,
         he: "איצטריך לאשמועינן משום מתן",
-        en: "Rashi: continues on the giving of blood specifically.",
+        en: "necessary to teach us this on account of the giving of the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l05"
+          "yoma-044b-l01b"
         ]
       },
       {
@@ -103141,12 +103141,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 6,
         he: "דמים: מעלות דאורייתא. מעלות",
-        en: "Rashi: 'the levels are from the Torah' - referring to the levels of sanctity.",
+        en: "blood. 'The levels are from the Torah' - the levels",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l05"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103155,12 +103155,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 7,
         he: "שמנו חכמים במשנה במסכת כלים",
-        en: "Rashi: these are the levels that the Sages enumerated in the Mishna, in tractate Kelim.",
+        en: "that the Sages enumerated in the Mishnah, in tractate Kelim",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l05"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103169,12 +103169,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 8,
         he: "בפ\"ק (משנה ח) דקאמר התם הר",
-        en: "Rashi: in the first chapter, Mishna eight, which states there regarding the Temple Mount.",
+        en: "in the first chapter (Mishnah 8), where it states there: the Temple",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l05"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103183,12 +103183,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 9,
         he: "הבית מקודש מירושלים והחיל מהר",
-        en: "Rashi: the Mount is more sanctified than Jerusalem, and the Chel rampart more sanctified than the Mount.",
+        en: "Mount is more sanctified than Jerusalem, and the Chel more than the Mount,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l05"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103197,12 +103197,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 10,
         he: "הבית ועזרת נשים מן החיל ועזרת",
-        en: "Rashi: the Women's Courtyard is more sanctified than the Chel, and the Israelites' Courtyard than the Women's.",
+        en: "the Temple Mount, and the Women's Courtyard more than the Chel, and the Israelite",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l10"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103211,12 +103211,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 11,
         he: "ישראל משל נשים ושל כהנים משל",
-        en: "Rashi: and the Priests' Courtyard is more sanctified than the Israelites', and the area between the Hall and Altar than the Priests' Courtyard.",
+        en: "Courtyard more than the Women's, and that of the priests more than",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l10"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103225,12 +103225,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 12,
         he: "ישראל ובין האולם ולמזבח מן העזרה",
-        en: "Rashi: continues listing the ascending levels of Temple sanctity from the Mishna in Kelim.",
+        en: "the Israelites', and the area between the Entrance Hall and the Altar more than the Courtyard,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l10"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103239,12 +103239,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 13,
         he: "וההיכל מבין האולם ולמזבח דאורייתא",
-        en: "Rashi: and the Sanctuary is more sanctified than the area between the Hall and the Altar.",
+        en: "and the Sanctuary more than the area between the Entrance Hall and the Altar - these are from the Torah,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l10"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103253,12 +103253,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 14,
         he: "נינהו הלכה למשה מסיני והכי גמירי",
-        en: "Rashi: these levels themselves are from the Torah, a law given to Moses at Sinai, received in this form.",
+        en: "a law given to Moses at Sinai, and so it is received. Therefore regarding separation too",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l10"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103267,12 +103267,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 15,
         he: "להו הלכך לענין פרישה נמי",
-        en: "Rashi: therefore regarding the requirement of separation as well, the same source applies.",
+        en: "the same applies; for regarding what the verse itself required,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l10"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103281,12 +103281,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 16,
         he: "דקרא לא איצטריך פרישה אלא מהיכל",
-        en: "Rashi: the verse itself only required separation from the Sanctuary.",
+        en: "the verse only required separation from the Sanctuary,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l10"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103295,12 +103295,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 17,
         he: "כדכתיב וכל אדם לא יהיה באהל",
-        en: "Rashi: as it is written, 'and no man shall be in the Tent of Meeting' (Leviticus 16:17).",
+        en: "as it is written, 'and no man shall be in the Tent of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l10"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103309,12 +103309,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 18,
         he: "מועד ואתו רבנן וגזור בין האולם",
-        en: "Rashi: and the Sages came and decreed additionally concerning the area between the Hall and the Altar.",
+        en: "Meeting'; and the Sages came and decreed concerning between the Entrance Hall",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l10"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103323,12 +103323,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 19,
         he: "ולמזבח דילמא מיקרי ועייל להיכל",
-        en: "Rashi: lest one be tempted and enter the Sanctuary itself from that adjacent space.",
+        en: "and the Altar, lest one be tempted and enter the Sanctuary itself,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l10"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103337,12 +103337,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 20,
         he: "ולא נמשכה שאר עזרה לאותה גזירה",
-        en: "Rashi: but the rest of the Courtyard was not drawn into that decree.",
+        en: "and the rest of the Courtyard was not drawn into that decree,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l20"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103351,12 +103351,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 21,
         he: "שהרי בין אולם ולמזבח קדושה אחת",
-        en: "Rashi: for the area between the Hall and Altar is one level of sanctity in itself, distinct from the rest of the Courtyard.",
+        en: "since the area between the Entrance Hall and the Altar is one level of sanctity",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l20"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103365,12 +103365,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 22,
         he: "היא ושאר כל העזרה קדושה אחת",
-        en: "Rashi: and the rest of the Courtyard is its own single level of sanctity.",
+        en: "in itself, and the rest of the Courtyard is its own single level of sanctity,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l22"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103379,12 +103379,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 23,
         he: "ובין האולם למזבח גופה גזירה",
-        en: "Rashi: the extension of the decree to between the Hall and Altar is itself only a rabbinic decree.",
+        en: "and the decree concerning between the Entrance Hall and the Altar is itself a decree,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l23"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103393,12 +103393,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 24,
         he: "והויא לה שאר עזרה גזירה לגזירה",
-        en: "Rashi: so extending it further to the rest of the Courtyard would be a decree upon a decree, which the Sages did not impose.",
+        en: "and extending it to the rest of the Courtyard as well would make it a decree upon a decree.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l23"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103407,12 +103407,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 25,
         he: "ואי סלקא דעתך מעלות דקתני התם",
-        en: "Rashi: and if you should think the levels taught in Kelim are merely rabbinic, while from the Torah the whole area is one level of sanctity.",
+        en: "'And if you should think that the levels taught there",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l25"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103421,12 +103421,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 26,
         he: "דרבנן נינהו אבל מדאורייתא בין",
-        en: "Rashi: continues developing this hypothetical - that Torah law treats the space between Hall and Altar and the whole Courtyard as equally sanctified.",
+        en: "are merely rabbinic, but from the Torah between",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l25"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103435,12 +103435,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 27,
         he: "האולם ולמזבח וכל העזרה חדא",
-        en: "Rashi: continues - under that view, there would be no basis to distinguish these areas at all.",
+        en: "the Entrance Hall and the Altar and the whole Courtyard are one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l25"
+          "yoma-044b-l08"
         ]
       },
       {
@@ -103449,12 +103449,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 28,
         he: "קדושה היא מ\"ש כו': מכולה עזרה",
-        en: "Rashi: then the question would be what difference justifies the separation rule stopping where it does.",
+        en: "level of sanctity, so what distinction is there,' etc. 'Should they not separate from the whole Courtyard",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l28"
+          "yoma-044b-l08",
+          "yoma-044b-l10"
         ]
       },
       {
@@ -103463,12 +103464,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 29,
         he: "נמי [נפרשו]. משום הא גזירה גופה",
-        en: "Rashi: 'should they not separate from the whole Courtyard as well' - because this decree is itself limited.",
+        en: "as well' - because of this decree itself,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l28"
+          "yoma-044b-l10"
         ]
       },
       {
@@ -103477,12 +103478,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 30,
         he: "דהא כולה חדא גזירה: ש\"מ. מדגזר",
-        en: "Rashi: for the decree concerning between Hall and Altar is all one single decree, not extended further.",
+        en: "since it is all one single decree. 'Learn from this' - since he decreed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l28"
+          "yoma-044b-l10",
+          "yoma-044b-l15"
         ]
       },
       {
@@ -103491,12 +103493,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 31,
         he: "בין האולם ולמזבח פרישה: קדושת",
-        en: "Rashi: 'learn from this' - since the Sages decreed separation only for between the Hall and Altar, this proves the Torah levels are real distinctions.",
+        en: "separation only for between the Entrance Hall and the Altar. 'The sanctity of the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l28"
+          "yoma-044b-l15"
         ]
       },
       {
@@ -103505,12 +103507,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 32,
         he: "היכל ואולם חדא היא. ואולם נמי",
-        en: "Rashi: this proves that the sanctity of the Sanctuary and the Hall are treated as one continuous level for this purpose.",
+        en: "Sanctuary and the Entrance Hall is one' - and the Entrance Hall too",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l28"
+          "yoma-044b-l15"
         ]
       },
       {
@@ -103519,12 +103521,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 33,
         he: "אהל מועד מקרי ועביד הרחקה לפרוש",
-        en: "Rashi: for the Hall too is called 'Tent of Meeting,' so the Sages made a safeguard requiring separation from between the Hall and Altar.",
+        en: "is called the Tent of Meeting, and he makes a safeguard to require separation",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l33"
+          "yoma-044b-l15"
         ]
       },
       {
@@ -103533,12 +103535,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 34,
         he: "מבין האולם ולמזבח פרישה",
-        en: "Rashi: continues explaining the safeguard - this separation requirement was not extended to the whole Courtyard.",
+        en: "from between the Entrance Hall and the Altar as a separation",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l33"
+          "yoma-044b-l15"
         ]
       },
       {
@@ -103547,12 +103549,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 35,
         he: "לכל העזרה דילמא עייל לאולם וקא",
-        en: "Rashi: lest one enter the Hall itself and thereby transgress 'no man shall be in the Tent of Meeting.'",
+        en: "for the whole Courtyard, lest one enter the Entrance Hall and thereby",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l33"
+          "yoma-044b-l15"
         ]
       },
       {
@@ -103561,12 +103563,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 36,
         he: "עבר אלא יהיה באהל מועד: אולם",
-        en: "Rashi: 'the Hall' - continues identifying the referent of this term in the Baraita's ruling.",
+        en: "transgress 'no man shall be in the Tent of Meeting.' 'The Entrance Hall",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l33"
+          "yoma-044b-l15",
+          "yoma-044b-l18"
         ]
       },
       {
@@ -103575,12 +103578,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 37,
         he: "ובין האולם ולמזבח חדא היא. וכי",
-        en: "Rashi: and the space between the Hall and Altar are treated as one level for the purpose of this decree.",
+        en: "and the area between the Entrance Hall and the Altar are one' - for when",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l37"
+          "yoma-044b-l18"
         ]
       },
       {
@@ -103589,12 +103592,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 38,
         he: "גזור אולם אטו היכל אימשיך האויר",
-        en: "Rashi: for when the Sages decreed concerning the Hall on account of the Sanctuary, the air-space between the Hall and Altar was drawn into that same decree.",
+        en: "they decreed concerning the Entrance Hall on account of the Sanctuary, the air-space",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l37"
+          "yoma-044b-l18"
         ]
       },
       {
@@ -103603,12 +103606,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 39,
         he: "דבין האולם בההיא גזירה: חסה",
-        en: "Rashi: 'the Sages were considerate of their money' - referring to Israel's communal funds, since replacing worn vessels is costly.",
+        en: "between the Entrance Hall was drawn into that same decree. 'They were considerate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l39"
+          "yoma-044b-l18",
+          "yoma-044b-l20"
         ]
       },
       {
@@ -103617,12 +103621,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 40,
         he: "על ממונן. ואנן נמי חסינן וחתיית",
-        en: "Rashi: and we too show such consideration - the scooping of coals wears down the vessel and diminishes it over time.",
+        en: "of their money' - and we too are considerate, since the scooping of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l39"
+          "yoma-044b-l20"
         ]
       },
       {
@@ -103631,12 +103635,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 41,
         he: "גחלים שוחקת את הכלי ומחסרתו:",
-        en: "Rashi: continues explaining the wear caused by repeated scooping of hot coals.",
+        en: "coals wears down the vessel and diminishes it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l39"
+          "yoma-044b-l20"
         ]
       },
       {
@@ -103645,12 +103649,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 42,
         he: "משום חולשא. שטורח הוא לערות",
-        en: "Rashi: 'because of weakness' - meaning it is a strain to pour coals from one vessel into another.",
+        en: "'Because of weakness' - for it is a strain to pour",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l39"
+          "yoma-044b-l22"
         ]
       },
       {
@@ -103659,12 +103663,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 43,
         he: "מכלי אל כלי: קב גחלים. כשמערה",
-        en: "Rashi: 'a kav of coals' - when he pours from the four-kav pan into the three-kav pan.",
+        en: "from one vessel into another. 'A kav of coals' - when he pours",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l39"
+          "yoma-044b-l22",
+          "yoma-044b-l23"
         ]
       },
       {
@@ -103673,12 +103678,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 44,
         he: "של ארבעת קבין לתוך של שלשה",
-        en: "Rashi: one kav of coals spills out and scatters in the process.",
+        en: "from the four-kav pan into the three-kav one,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l39"
+          "yoma-044b-l23"
         ]
       },
       {
@@ -103687,12 +103692,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 45,
         he: "מתפזר לו קב גחלים הוא מכבדו",
-        en: "Rashi: he sweeps the spilled coal into the Amah water channel of the Courtyard.",
+        en: "a kav of coals spills out for him; he sweeps it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l39"
+          "yoma-044b-l23"
         ]
       },
       {
@@ -103701,12 +103706,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 46,
         he: "לתוך אמה סילון של עזרה היוצאת",
-        en: "Rashi: that channel flows out from the Courtyard toward the Kidron valley.",
+        en: "into the Amah channel of the Courtyard that goes out",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l39"
+          "yoma-044b-l23"
         ]
       },
       {
@@ -103715,12 +103720,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 47,
         he: "לנחל קדרון: ולא רבי יוסי. דאי ר'",
-        en: "Rashi: 'and not according to Rabbi Yosei' - for according to Rabbi Yosei's measures, three kavim would scatter instead of one.",
+        en: "to the Kidron valley. 'And not Rabbi Yosei' - for according to Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l39"
+          "yoma-044b-l23",
+          "yoma-044b-l25"
         ]
       },
       {
@@ -103729,12 +103735,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 48,
         he: "יוסי שלשה מתפזרין: בשל קביין היה",
-        en: "Rashi: 'he would bring it in already in the two-kav pan' - describing an alternative view of the transfer procedure.",
+        en: "Yosei, three would spill out. 'He would bring it in with the two-kav pan' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l39"
+          "yoma-044b-l25",
+          "yoma-044b-l28"
         ]
       },
       {
@@ -103743,12 +103750,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 49,
         he: "מכניס. וחותה בשל ד' קבין כרבנן",
-        en: "Rashi: but he scoops the coals initially with the four-kav pan, following the Rabbis' view.",
+        en: "and he scoops with the four-kav pan, following the Rabbis",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l39"
+          "yoma-044b-l28"
         ]
       },
       {
@@ -103757,12 +103764,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 50,
         he: "שאמרו בשל ד' קבין היה חותה:",
-        en: "Rashi: this matches what the Rabbis said - that he would scoop with the four-kav pan before transferring.",
+        en: "who said he scoops with the four-kav pan.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l39"
+          "yoma-044b-l28"
         ]
       },
       {
@@ -103771,12 +103778,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 51,
         he: "סאה מדברית. ששת קבין מדבריות",
-        en: "Rashi: 'a desert seah' - equal to six desert-sized kavim.",
+        en: "'A desert seah' - six desert-sized kavim;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l39"
+          "yoma-044b-l31"
         ]
       },
       {
@@ -103785,12 +103792,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 52,
         he: "וכשבאו לירושלים הוסיפו שתות על",
-        en: "Rashi: and when they came to Jerusalem, they added one-sixth to the standard measures.",
+        en: "and when they came to Jerusalem they added a sixth to",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l39"
+          "yoma-044b-l31"
         ]
       },
       {
@@ -103799,12 +103806,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 53,
         he: "המדות ונעשות ששת קבין מדבריות",
-        en: "Rashi: so that six desert kavim became equivalent to five Jerusalem kavim, the larger unit.",
+        en: "the measures, so that six desert kavim became",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l39"
+          "yoma-044b-l31"
         ]
       },
       {
@@ -103813,12 +103820,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 54,
         he: "חמש ירושלמיות וכשחותה בשל סאה",
-        en: "Rashi: continues explaining this unit conversion between desert and Jerusalem measures.",
+        en: "five Jerusalem kavim; and when he scoops with the desert-seah pan",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l39"
+          "yoma-044b-l31"
         ]
       },
       {
@@ -103827,12 +103834,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 55,
         he: "מדברית ומערה לתוך שלשת קבין",
-        en: "Rashi: when he scoops with a desert-seah-sized pan and pours into a three-Jerusalem-kav pan.",
+        en: "and pours it into the three Jerusalem-kav",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l39"
+          "yoma-044b-l31"
         ]
       },
       {
@@ -103841,12 +103848,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 56,
         he: "ירושלמיות נתפזרו לו קביין ירושלמיות: היה גלדה עבה.",
-        en: "Rashi: two Jerusalem kavim worth of coals spill out for him in that transfer.",
+        en: "pan, two Jerusalem kavim spill out for him. 'Its shell was thick' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l39"
+          "yoma-044b-l31",
+          "yoma-044b-l33"
         ]
       },
       {
@@ -103855,12 +103863,13 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 57,
         he: "דופנה עבה לכך היתה כבדה: רך. דק: ניאשתיק. טבעת",
-        en: "Rashi: 'its shell was thick' - its wall was thick, and therefore it was heavy. 'Soft' means thin-walled.",
+        en: "its wall was thick, and so it was heavy. 'Soft' means thin. 'A ring attachment' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l39"
+          "yoma-044b-l33",
+          "yoma-044b-l37"
         ]
       },
       {
@@ -103869,12 +103878,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 58,
         he: "בראשה שמקשקש ומשמיע קול משום ונשמע קולו בבואו וגו'",
-        en: "Rashi: 'ni'ashtik' refers to a ring attachment at its top that rattles and makes a sound when carried.",
+        en: "at its top, which rattles and makes a sound, on account of 'so that his sound will be heard when he comes in,' etc.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044b-l39"
+          "yoma-044b-l37"
         ]
       },
       {
@@ -103883,11 +103892,12 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 59,
         he: "(שמות כח) : וזהב הארץ ההוא טוב. מכלל דאיכא זהב סתמא:",
-        en: "Rashi: this alludes to the verse 'so that his sound will be heard when he comes in' (Exodus 28).",
+        en: "(Exodus 28). 'And the gold of that land was good' - implying there is also plain, ordinary gold.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-044b-l37",
           "yoma-044b-l39"
         ]
       },
@@ -103897,7 +103907,7 @@ const DAF_CONTENT = {
         daf: "44b",
         vilnaLine: 60,
         he: "שדומה",
-        en: "Rashi: 'and the gold of that land was good' implies there is also plain, ordinary gold; 'that resembles' continues onto the next daf.",
+        en: "'That resembles'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",

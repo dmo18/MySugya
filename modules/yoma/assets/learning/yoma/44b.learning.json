@@ -1,1150 +1,1160 @@
 {
-  "daf": "44b",
-  "canonicalRef": "Yoma 44b",
-  "summary": "The Gemara completes the incense exclusion zone discussion (only during burning, with a graduated zone for blood sprinkling), then analyzes the material differences between the daily incense service and the Yom Kippur service: silver pan vs. gold pan, 4 kavim of coals vs. 3, heavy pan vs. lighter pan, and ordinary gold vs. the fine gold from Sheba.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "44b",
+ "canonicalRef": "Yoma 44b",
+ "summary": "The Gemara completes the incense exclusion zone discussion (only during burning, with a graduated zone for blood sprinkling), then analyzes the material differences between the daily incense service and the Yom Kippur service: silver pan vs. gold pan, 4 kavim of coals vs. 3, heavy pan vs. lighter pan, and ordinary gold vs. the fine gold from Sheba.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-044b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 18
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-044b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 18
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.44b.1"
-        },
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.44b.2"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.44b.3"
-        },
-        {
-          "vilnaLine": 8,
-          "sefariaRef": "Yoma.44b.4"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.44b.5"
-        },
-        {
-          "vilnaLine": 13,
-          "sefariaRef": "Yoma.44b.6"
-        },
-        {
-          "vilnaLine": 15,
-          "sefariaRef": "Yoma.44b.7"
-        },
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.44b.8"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.44b.7",
-        "Yoma.44b.2",
-        "Yoma.44b.5",
-        "Yoma.44b.4",
-        "Yoma.44b.6",
-        "Yoma.44b.3",
-        "Yoma.44b.8",
-        "Yoma.44b.1"
-      ],
-      "display": {
-        "whats": "Is the 'no man in the Tent of Meeting' prohibition limited to incense burning, or does it extend to blood sprinkling?",
-        "hint": "The Gemara clarifies: absolute solitude is required only during incense burning. During blood sprinkling on the inner altar, the exclusion is more limited - people must leave the Sanctuary (Hekhal) but a graduated system applies depending on which rite is performed.",
-        "title": "Incense-Only or All Tumah? The Scope of 'No Man'"
-      },
-      "learning": {
-        "ahaMoment": "Temple holiness is not binary (holy/not holy) but graduated: Azarah, Hekhal, between the curtains, Kodesh Kodashim - each with different exclusion rules for different rites.",
-        "memoryAnchor": "The graduated exclusion mirrors the graduated holiness of Temple space - the closer to the ark, the stricter the solitude requirement.",
-        "learnerQuestion": "Does the 'no man' exclusion from the Tent of Meeting apply only while the incense is burning, or does it extend through the blood-sprinkling that follows?",
-        "coreTension": "If 'no man' is read narrowly it covers only the moment of incense burning, but the blood sprinkling that immediately follows also occurs in the Holy of Holies, raising the question of whether the exclusion zone should extend to cover that rite too.",
-        "coreMove": "The Gemara distinguishes the incense-specific exclusion from a broader, graduated exclusion tied to the bein haparakhot zone, showing the two prohibitions operate on different scopes rather than being one continuous rule.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The 'no man' exclusion for incense burning is distinct from the graduated bein haparakhot exclusion that governs the blood-sprinkling rite - they are separate prohibitions with separate scopes, not one continuous rule."
-        },
-        "learningBlocker": "Learners may treat 'no man' and the bein haparakhot exclusion as the same rule extended over a longer period, missing that the Gemara distinguishes them as separate prohibitions with different scopes."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "The 'no man' restriction is only during incense burning; blood sprinkling has a lesser exclusion.",
-          "id": "yoma-044b-l01",
-          "label": "Ruling: The 'no man' restriction is only during",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-044b-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "derivation",
-          "speaker": "Rav Acha bar Ahava",
-          "text": "There is a prohibition in the space between the curtains even during blood sprinkling.",
-          "id": "yoma-044b-l05",
-          "label": "Derivation: There is a prohibition in the space",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-044b-l05",
-              "vilnaLine": 5
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "Graduated exclusion: Kodesh Kodashim for incense; Hekhal area for inner blood sprinkling.",
-          "id": "yoma-044b-l10",
-          "label": "Ruling: Graduated exclusion: Kodesh Kodashim for incense; He...",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-044b-l10",
-              "vilnaLine": 10
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "incense exclusion zone",
-        "blood sprinkling exclusion",
-        "between the curtains",
-        "graduated holiness"
-      ],
-      "concepts": {
-        "halachic": [
-          "exclusion during incense burning",
-          "exclusion during blood sprinkling",
-          "bein haparakhot (between curtains) zone"
-        ],
-        "theological": [
-          "graduated Temple holiness"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Yom Kippur avodah sequence",
-        "Temple architecture and holiness zones"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The 'no man' exclusion and the bein haparakhot exclusion are the same prohibition, just covering a longer stretch of the Yom Kippur service.",
-          "correction": "The Gemara treats them as distinct prohibitions: 'no man' applies specifically and narrowly during the incense burning, while the bein haparakhot exclusion is a separate, graduated rule governing the blood-sprinkling rite.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-044a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "place",
-          "label": "graduated exclusion zones: Azarah to Kodesh Kodashim"
-        },
-        {
-          "type": "contrast",
-          "label": "incense exclusion (absolute) vs blood exclusion (graduated)"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Only during the incense burning inside the Holy of Holies on Yom Kippur.",
-          "question": "During what Temple act was the 'no man in the Tent of Meeting' prohibition in force?"
-        }
-      ],
-      "finalRuling": "The 'no man' exclusion applies only during incense burning; blood sprinkling has a graduated exclusion based on proximity to the Holy of Holies.",
-      "difficulty": "intermediate",
-      "review": "reviewed",
-      "alternateAngles": [],
-      "glossary": []
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.44b.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-044b-s02",
-      "lineRange": {
-        "startVilnaLine": 20,
-        "endVilnaLine": 20
-      },
-      "lines": [
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.44b.9"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.44b.9"
-      ],
-      "display": {
-        "whats": "Why was the daily incense pan made of silver?",
-        "hint": "Silver is used for the ordinary daily service to distinguish it from the elevated Yom Kippur service performed with gold utensils inside the Holy of Holies.",
-        "title": "Silver by Day, Gold by Night: The Two Coal Pans"
-      },
-      "learning": {
-        "ahaMoment": "Silver for the routine; gold for the singular - the material of the utensil signals the rank of the occasion.",
-        "memoryAnchor": "Silver pan = daily routine. Gold pan = Yom Kippur singular holiness. The material is a sign.",
-        "learnerQuestion": "Why does the Yom Kippur incense service use a gold coal pan when the daily service uses a silver one?",
-        "coreTension": "The daily incense offering uses a silver coal pan, but Yom Kippur substitutes a gold one, raising the question of what about the Yom Kippur rite specifically calls for the more precious material.",
-        "coreMove": "The Gemara identifies the material switch itself as a deliberate halachic distinction marking Yom Kippur's incense service as elevated above the daily rite, not an incidental variation.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The daily incense offering uses a silver coal pan, while the Yom Kippur incense offering uses a gold coal pan - the upgraded material marks the day's elevated status."
-        },
-        "learningBlocker": "Learners may assume the same coal pan was reused for both the daily and Yom Kippur incense services, missing that the vessels are deliberately different - silver for the daily rite, gold for Yom Kippur."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "Daily incense pan: silver, because silver is used for the ordinary service.",
-          "id": "yoma-044b-l20",
-          "label": "Ruling: Daily incense pan: silver, because silver is",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-044b-l20",
-              "vilnaLine": 20
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "daily incense",
-        "silver pan",
-        "Temple utensils"
-      ],
-      "concepts": {
-        "halachic": [
-          "silver pan for daily incense"
-        ],
-        "theological": [
-          "material hierarchy in Temple service"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Temple vessel materials",
-        "daily vs Yom Kippur service distinctions"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The same coal pan, whatever its material, was used for both the daily incense offering and the special Yom Kippur incense offering.",
-          "correction": "The vessels differ by design: the daily incense offering uses a silver coal pan, while Yom Kippur uses a gold one, marking the day's elevated status.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-044b-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "silver pan (daily) vs gold pan (Yom Kippur)"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Silver, to distinguish it from the Yom Kippur golden pan.",
-          "question": "What material was the daily incense pan made of?"
-        }
-      ],
-      "finalRuling": "The daily incense pan is silver; the Yom Kippur pan is gold - corresponding to the relative holiness of each occasion.",
-      "difficulty": "introductory",
-      "review": "reviewed",
-      "alternateAngles": [],
-      "glossary": []
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.44b.2"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-044b-s03",
-      "lineRange": {
-        "startVilnaLine": 22,
-        "endVilnaLine": 22
-      },
-      "lines": [
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.44b.10"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.44b.10"
-      ],
-      "display": {
-        "whats": "Why was the Yom Kippur incense pan made of gold?",
-        "hint": "Gold is used inside the Holy of Holies on Yom Kippur because everything inside is gold - the ark, the kapporet, the cherubim - and the Yom Kippur service is the most elevated of all.",
-        "title": "Matching the Metal to the Moment"
-      },
-      "learning": {
-        "ahaMoment": "The gold of the Yom Kippur pan harmonizes with the gold of the Kodesh Kodashim - the utensil belongs to the space it enters.",
-        "memoryAnchor": "Gold for the holiest space on the holiest day, silver for the daily service.",
-        "learnerQuestion": "Why specifically gold, rather than some other valuable material, for the Yom Kippur coal pan?",
-        "coreTension": "Having established that Yom Kippur uses a gold coal pan rather than the daily silver one, the Gemara must explain why gold specifically suits the day's service rather than treating the upgrade as arbitrary.",
-        "coreMove": "The Gemara reasons that gold harmonizes with the other gold vessels and the heightened sanctity of the Yom Kippur Holy of Holies service, making the material choice a matter of fitting the vessel to the day's elevated character.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Gold is chosen for the Yom Kippur coal pan because it matches the heightened sanctity of the day and harmonizes with the service's other gold vessels - material choice reflects and reinforces the day's elevated status."
-        },
-        "learningBlocker": "Learners may think the gold pan is simply a richer, more expensive substitute with no deeper rationale, missing that the Gemara grounds the choice in material harmony with the day's heightened sanctity."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "Yom Kippur incense pan: gold, because inside the Holy of Holies everything is gold.",
-          "id": "yoma-044b-l22",
-          "label": "Ruling: Yom Kippur incense pan: gold, because inside",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-044b-l22",
-              "vilnaLine": 22
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Yom Kippur incense pan",
-        "gold",
-        "Holy of Holies materials"
-      ],
-      "concepts": {
-        "halachic": [
-          "gold pan for Yom Kippur incense"
-        ],
-        "theological": [
-          "material harmony with sacred space"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Holy of Holies architecture",
-        "Temple vessel materials"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Using gold instead of silver for the Yom Kippur coal pan is simply an arbitrary upgrade in expense, with no deeper halachic rationale.",
-          "correction": "The Gemara reasons that gold fits the Yom Kippur service because it harmonizes with the day's other gold vessels and the heightened sanctity of the rite - the material choice reflects the day's elevated character, not mere expense.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "place",
-          "label": "Holy of Holies - all gold interior"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Because inside the Holy of Holies everything is gold - the ark, the cover, the cherubim - and the pan must harmonize with its space.",
-          "question": "Why was the Yom Kippur incense pan gold?"
-        }
-      ],
-      "finalRuling": "The Yom Kippur incense pan is gold to match the gold interior of the Holy of Holies.",
-      "difficulty": "introductory",
-      "review": "reviewed",
-      "alternateAngles": [],
-      "glossary": []
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.44b.3"
     },
     {
-      "sugyaNumber": 4,
-      "id": "yoma-044b-s04",
-      "lineRange": {
-        "startVilnaLine": 23,
-        "endVilnaLine": 31
-      },
-      "lines": [
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.44b.11"
-        },
-        {
-          "vilnaLine": 25,
-          "sefariaRef": "Yoma.44b.12"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.44b.13"
-        },
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.44b.14"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.44b.14",
-        "Yoma.44b.13",
-        "Yoma.44b.11",
-        "Yoma.44b.12"
-      ],
-      "display": {
-        "whats": "How many kavim of coals were used in the daily firepan vs. the Yom Kippur firepan?",
-        "hint": "The daily firepan holds 4 kavim; the Yom Kippur firepan holds only 3. The reduction is because the High Priest carries the Yom Kippur pan alone and the smaller space of the Kodesh Kodashim requires less coal for the incense cloud to fill it.",
-        "title": "Four Kavim or Three? Sizing the Coals for One Pair of Hands"
-      },
-      "learning": {
-        "ahaMoment": "Fewer coals on Yom Kippur is not a sign of lesser importance - it is calibrated to the smaller space and the one-person carry requirement.",
-        "memoryAnchor": "3 kavim on Yom Kippur vs 4 kavim daily - the holier act uses less, because it is more intimate.",
-        "learnerQuestion": "Why does the daily coal pan hold four kavim of coals while the Yom Kippur coal pan holds only three?",
-        "coreTension": "The daily coal pan is carried by a team and holds four kavim of coals, but the Yom Kippur coal pan is carried by the High Priest alone into a smaller space, raising the question of how the coal quantity should be calibrated to that solo, confined task.",
-        "coreMove": "The Gemara explains the smaller three-kavim quantity by the High Priest's solo carry and the more confined space of the Holy of Holies, showing the measure is calibrated to who carries it and where it goes rather than fixed for all incense rites.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The daily coal pan holds four kavim of coals carried by a team, while the Yom Kippur coal pan holds only three kavim because the High Priest carries it alone into the smaller space of the Holy of Holies."
-        },
-        "learningBlocker": "Learners may assume the coal quantity is fixed regardless of who carries the pan or where it goes, missing that the Gemara calibrates the smaller Yom Kippur measure specifically to a solo carrier and a more confined space."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "Daily firepan: 4 kavim. Yom Kippur firepan: 3 kavim.",
-          "id": "yoma-044b-l23",
-          "label": "Ruling: Daily firepan: 4 kavim. Yom Kippur firepan:",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-044b-l23",
-              "vilnaLine": 23
-            }
-          ]
-        },
-        {
-          "type": "reasoning",
-          "speaker": "Gemara",
-          "text": "High Priest carries alone on Yom Kippur - reduced quantity makes it manageable.",
-          "id": "yoma-044b-l25",
-          "label": "Reasoning: High Priest carries alone on Yom Kippur",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-044b-l25",
-              "vilnaLine": 25
-            }
-          ]
-        },
-        {
-          "type": "reasoning",
-          "speaker": "Gemara",
-          "text": "Kodesh Kodashim is smaller - 3 kavim is sufficient for the cloud to fill it.",
-          "id": "yoma-044b-l28",
-          "label": "Reasoning: Kodesh Kodashim is smaller - 3 kavim",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-044b-l28",
-              "vilnaLine": 28
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "coals quantity",
-        "firepan",
-        "Yom Kippur vs daily",
-        "Temple logistics"
-      ],
-      "concepts": {
-        "halachic": [
-          "3 kavim Yom Kippur coals",
-          "4 kavim daily coals"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Temple logistics",
-        "High Priest carrying capacity",
-        "Kodesh Kodashim dimensions"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The amount of coals in the incense pan is a fixed quantity that does not change between the daily service and the Yom Kippur service.",
-          "correction": "The quantity is calibrated to the circumstances: four kavim for the daily pan carried by a team, but only three kavim for the Yom Kippur pan, since the High Priest carries it alone into the more confined Holy of Holies.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "4 kavim daily vs 3 kavim Yom Kippur"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "3 kavim, reduced from the daily 4 kavim because the High Priest carried it alone and the Kodesh Kodashim is a smaller space.",
-          "question": "How many kavim of coals did the Yom Kippur firepan hold?"
-        }
-      ],
-      "finalRuling": "The Yom Kippur firepan uses 3 kavim of coals (vs. 4 daily) because the High Priest carries it alone and the smaller space of the Kodesh Kodashim requires less.",
-      "difficulty": "introductory",
-      "review": "reviewed",
-      "alternateAngles": [],
-      "glossary": []
+     "vilnaLine": 8,
+     "sefariaRef": "Yoma.44b.4"
     },
     {
-      "sugyaNumber": 5,
-      "id": "yoma-044b-s05",
-      "lineRange": {
-        "startVilnaLine": 33,
-        "endVilnaLine": 37
-      },
-      "lines": [
-        {
-          "vilnaLine": 33,
-          "sefariaRef": "Yoma.44b.15"
-        },
-        {
-          "vilnaLine": 37,
-          "sefariaRef": "Yoma.44b.16"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.44b.16",
-        "Yoma.44b.15"
-      ],
-      "display": {
-        "whats": "Why was the daily firepan heavy while the Yom Kippur firepan was lighter?",
-        "hint": "The daily firepan was large and heavy because it was carried by a team during the public daily service. The Yom Kippur firepan was smaller and lighter because the High Priest carried it alone into the Holy of Holies.",
-        "title": "Heavy for a Team, Light for One: Designing the Yom Kippur Pan"
-      },
-      "learning": {
-        "ahaMoment": "Despite gold being denser than silver, the Yom Kippur pan weighed less overall because it was smaller in size.",
-        "memoryAnchor": "Daily firepan: team carry, large, heavy. Yom Kippur firepan: solo carry, smaller, lighter.",
-        "learnerQuestion": "Why is the daily coal pan heavier than the Yom Kippur coal pan?",
-        "coreTension": "If the Yom Kippur pan holds less coal than the daily pan, the question remains whether its physical weight follows the same logic, since a heavier pan might still be needed for structural or service reasons even with less content.",
-        "coreMove": "The Gemara confirms the weight difference tracks the carrying arrangement directly: the heavier daily pan is built for a team to carry, while the lighter Yom Kippur pan is built so the High Priest can carry it alone.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The daily coal pan is heavier because a team carries it, while the Yom Kippur coal pan is lighter because the High Priest must carry it alone - the vessel's weight is designed around who carries it."
-        },
-        "learningBlocker": "Learners may think a lighter vessel is simply a cheaper or lesser version of the heavier one, missing that the weight difference is a deliberate design choice tied to solo versus team carrying."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "Daily firepan was large and heavy - designed for team carry during public service.",
-          "id": "yoma-044b-l33",
-          "label": "Ruling: Daily firepan was large and heavy -",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-044b-l33",
-              "vilnaLine": 33
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "Yom Kippur firepan was lighter - designed for solo carry by the High Priest alone.",
-          "id": "yoma-044b-l37",
-          "label": "Ruling: Yom Kippur firepan was lighter - designed",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-044b-l37",
-              "vilnaLine": 37
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "firepan weight",
-        "daily vs Yom Kippur",
-        "Temple utensil design"
-      ],
-      "concepts": {
-        "halachic": [
-          "firepan weight specifications"
-        ],
-        "theological": [],
-        "narrative": [
-          "utensil design reflects personnel requirements"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Temple utensil materials",
-        "High Priest's solo service"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The Yom Kippur coal pan is lighter than the daily one simply because it is a smaller or lesser-quality vessel.",
-          "correction": "The weight difference is a deliberate design choice: the daily pan is built heavier for a team to carry, while the Yom Kippur pan is built lighter so the High Priest can carry it alone.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "heavy daily pan vs lighter Yom Kippur pan"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Because the High Priest carried it alone into the Holy of Holies, so it had to be manageable for one person; the daily pan was carried by a team.",
-          "question": "Why was the Yom Kippur firepan lighter than the daily firepan?"
-        }
-      ],
-      "finalRuling": "The Yom Kippur firepan was deliberately lighter than the daily pan to enable solo carrying by the High Priest.",
-      "difficulty": "introductory",
-      "review": "reviewed",
-      "alternateAngles": [],
-      "glossary": []
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.44b.5"
     },
     {
-      "sugyaNumber": 6,
-      "id": "yoma-044b-s06",
-      "lineRange": {
-        "startVilnaLine": 39,
-        "endVilnaLine": 39
-      },
-      "lines": [
-        {
-          "vilnaLine": 39,
-          "sefariaRef": "Yoma.44b.17"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.44b.17"
-      ],
-      "display": {
-        "whats": "Why was the gold of the daily incense pan described as yellow-green?",
-        "hint": "Rav Chisda explains: the daily pan was made from gold brought from Sheba (Yemen/Ethiopia), which was known in antiquity for its distinctive greenish-yellow tint.",
-        "title": "Greenish Gold for the Daily Pan, Fine Gold for Yom Kippur"
-      },
-      "learning": {
-        "ahaMoment": "Gold from Sheba: distinctive greenish-yellow. Zahav tov (Yom Kippur): the purest, most lustrous gold. Even gold quality varies - and the Rabbis knew the difference.",
-        "memoryAnchor": "Sheba gold = greenish-yellow daily pan. Best gold (zahav tov) = the Yom Kippur golden pan.",
-        "learnerQuestion": "What kind of gold is used for each coal pan, and why does the Yom Kippur pan use a different grade than the daily one?",
-        "coreTension": "Having established that the two coal pans differ in size and weight, the Gemara must also account for the daily pan's silver default and the specific gold grades named for Yom Kippur, since 'gold' alone does not specify which of the Torah's several gold types is meant.",
-        "coreMove": "The Gemara identifies sheba gold, a greenish-yellow grade, for instances tied to the daily pattern, and zahav tov, a superior grade, specifically for the Yom Kippur pan, showing that even within 'gold' vessels the Temple distinguishes grades by the day's sanctity.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Sheba gold (a greenish-yellow grade) is associated with the daily-pattern vessels, while zahav tov (a superior gold grade) is specified for the Yom Kippur coal pan - even among gold vessels, the Temple distinguishes grades by the day's heightened sanctity."
-        },
-        "learningBlocker": "Learners may assume 'gold' is a single uniform material across all Temple vessels, missing that the Gemara names distinct grades (sheba gold vs. zahav tov) and assigns the finer grade specifically to the Yom Kippur vessel."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Rav Chisda",
-          "text": "The daily pan's gold was yellow-green (yarok) because it came from Sheba.",
-          "id": "yoma-044b-l39",
-          "label": "Ruling: The daily pan's gold was yellow-green (yarok)",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-044b-l39",
-              "vilnaLine": 39
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "gold quality",
-        "Sheba gold",
-        "zahav tov",
-        "Temple materials"
-      ],
-      "concepts": {
-        "halachic": [
-          "gold varieties for Temple use"
-        ],
-        "theological": [],
-        "narrative": [
-          "Sheba gold has distinctive greenish tint",
-          "Rav Chisda's ethnographic detail"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Temple material knowledge",
-        "gold varieties in antiquity"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "All gold Temple vessels are made from the same grade of gold, since the Torah and Gemara simply call it 'gold' without further distinction.",
-          "correction": "The Gemara names distinct grades of gold - sheba gold (greenish-yellow) and zahav tov (a superior grade) - and assigns the finer zahav tov specifically to the Yom Kippur coal pan, reflecting the day's heightened sanctity.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "object",
-          "label": "greenish Sheba gold of daily incense pan"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "It was yellow-green (yarok) because it was made from gold that came from Sheba, which had a distinctive greenish tint.",
-          "question": "What was distinctive about the gold of the daily incense pan?"
-        }
-      ],
-      "finalRuling": "The daily incense pan's gold was yellow-green, coming from Sheba; Rav Chisda preserves this ethnographic-archaeological detail.",
-      "difficulty": "intermediate",
-      "review": "reviewed",
-      "alternateAngles": [],
-      "glossary": []
+     "vilnaLine": 13,
+     "sefariaRef": "Yoma.44b.6"
+    },
+    {
+     "vilnaLine": 15,
+     "sefariaRef": "Yoma.44b.7"
+    },
+    {
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.44b.8"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.44b.7",
+    "Yoma.44b.2",
+    "Yoma.44b.5",
+    "Yoma.44b.4",
+    "Yoma.44b.6",
+    "Yoma.44b.3",
+    "Yoma.44b.8",
+    "Yoma.44b.1"
+   ],
+   "display": {
+    "whats": "Is the 'no man in the Tent of Meeting' prohibition limited to incense burning, or does it extend to blood sprinkling?",
+    "hint": "The Gemara clarifies: absolute solitude is required only during incense burning. During blood sprinkling on the inner altar, the exclusion is more limited - people must leave the Sanctuary (Hekhal) but a graduated system applies depending on which rite is performed.",
+    "title": "Incense-Only or All Tumah? The Scope of 'No Man'"
+   },
+   "learning": {
+    "ahaMoment": "Temple holiness is not binary (holy/not holy) but graduated: Azarah, Hekhal, between the curtains, Kodesh Kodashim - each with different exclusion rules for different rites.",
+    "memoryAnchor": "The graduated exclusion mirrors the graduated holiness of Temple space - the closer to the ark, the stricter the solitude requirement.",
+    "learnerQuestion": "Does the 'no man' exclusion from the Tent of Meeting apply only while the incense is burning, or does it extend through the blood-sprinkling that follows?",
+    "coreTension": "If 'no man' is read narrowly it covers only the moment of incense burning, but the blood sprinkling that immediately follows also occurs in the Holy of Holies, raising the question of whether the exclusion zone should extend to cover that rite too.",
+    "coreMove": "The Gemara distinguishes the incense-specific exclusion from a broader, graduated exclusion tied to the bein haparakhot zone, showing the two prohibitions operate on different scopes rather than being one continuous rule.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The 'no man' exclusion for incense burning is distinct from the graduated bein haparakhot exclusion that governs the blood-sprinkling rite - they are separate prohibitions with separate scopes, not one continuous rule."
+    },
+    "learningBlocker": "Learners may treat 'no man' and the bein haparakhot exclusion as the same rule extended over a longer period, missing that the Gemara distinguishes them as separate prohibitions with different scopes."
+   },
+   "argumentFlow": [
     {
-      "he": "מַחְתָּה שֶׁל כֶּסֶף",
-      "translit": "machtah shel kesef",
-      "en": "Silver firepan used for the daily incense offering on the golden altar in the Sanctuary."
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "The 'no man' restriction is only during incense burning; blood sprinkling has a lesser exclusion.",
+     "id": "yoma-044b-l01",
+     "label": "Ruling: The 'no man' restriction is only during",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-044b-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "he": "זָהָב טוֹב",
-      "translit": "zahav tov",
-      "en": "The finest quality gold, as described in Genesis for the gold of Havilah; used for the Yom Kippur incense pan."
+     "type": "derivation",
+     "speaker": "Rav Acha bar Ahava",
+     "text": "There is a prohibition in the space between the curtains even during blood sprinkling.",
+     "id": "yoma-044b-l05",
+     "label": "Derivation: There is a prohibition in the space",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-044b-l05",
+       "vilnaLine": 5
+      }
+     ]
     },
     {
-      "he": "שְׁבָא",
-      "translit": "Sheba",
-      "en": "Ancient kingdom (modern Yemen/Ethiopia) whose gold had a distinctive greenish-yellow color, used for the daily incense pan."
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "Graduated exclusion: Kodesh Kodashim for incense; Hekhal area for inner blood sprinkling.",
+     "id": "yoma-044b-l10",
+     "label": "Ruling: Graduated exclusion: Kodesh Kodashim for incense; He...",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-044b-l10",
+       "vilnaLine": 10
+      }
+     ]
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "topicTags": [
+    "incense exclusion zone",
+    "blood sprinkling exclusion",
+    "between the curtains",
+    "graduated holiness"
+   ],
+   "concepts": {
+    "halachic": [
+     "exclusion during incense burning",
+     "exclusion during blood sprinkling",
+     "bein haparakhot (between curtains) zone"
+    ],
+    "theological": [
+     "graduated Temple holiness"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Yom Kippur avodah sequence",
+    "Temple architecture and holiness zones"
+   ],
+   "misconceptions": [
     {
-      "vilnaLine": 1,
-      "en": "Rashi: continuing from 44a's 'in holiness' - concerning the giving of blood, there is one level of separation; it is all one degree of sanctity.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "Rashi: people must separate from the Sanctuary on account of the Holy of Holies, whether for the incense or for the blood-giving.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "Rashi: continues - but from between the Hall and the Altar they need not separate on account of the Holy of Holies at all.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "Rashi: since we are taught that on account of the Holy of Holies incense they need not separate from that area, it was not necessary to teach this separately.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "Rashi: continues on the giving of blood specifically.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "Rashi: 'the levels are from the Torah' - referring to the levels of sanctity.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "Rashi: these are the levels that the Sages enumerated in the Mishna, in tractate Kelim.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "Rashi: in the first chapter, Mishna eight, which states there regarding the Temple Mount.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "Rashi: the Mount is more sanctified than Jerusalem, and the Chel rampart more sanctified than the Mount.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Rashi: the Women's Courtyard is more sanctified than the Chel, and the Israelites' Courtyard than the Women's.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "Rashi: and the Priests' Courtyard is more sanctified than the Israelites', and the area between the Hall and Altar than the Priests' Courtyard.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "Rashi: continues listing the ascending levels of Temple sanctity from the Mishna in Kelim.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Rashi: and the Sanctuary is more sanctified than the area between the Hall and the Altar.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Rashi: these levels themselves are from the Torah, a law given to Moses at Sinai, received in this form.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "Rashi: therefore regarding the requirement of separation as well, the same source applies.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "Rashi: the verse itself only required separation from the Sanctuary.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Rashi: as it is written, 'and no man shall be in the Tent of Meeting' (Leviticus 16:17).",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Rashi: and the Sages came and decreed additionally concerning the area between the Hall and the Altar.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "Rashi: lest one be tempted and enter the Sanctuary itself from that adjacent space.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Rashi: but the rest of the Courtyard was not drawn into that decree.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l20"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "Rashi: for the area between the Hall and Altar is one level of sanctity in itself, distinct from the rest of the Courtyard.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l20"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Rashi: and the rest of the Courtyard is its own single level of sanctity.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l22"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Rashi: the extension of the decree to between the Hall and Altar is itself only a rabbinic decree.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Rashi: so extending it further to the rest of the Courtyard would be a decree upon a decree, which the Sages did not impose.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Rashi: and if you should think the levels taught in Kelim are merely rabbinic, while from the Torah the whole area is one level of sanctity.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l25"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Rashi: continues developing this hypothetical - that Torah law treats the space between Hall and Altar and the whole Courtyard as equally sanctified.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l25"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Rashi: continues - under that view, there would be no basis to distinguish these areas at all.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l25"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Rashi: then the question would be what difference justifies the separation rule stopping where it does.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Rashi: 'should they not separate from the whole Courtyard as well' - because this decree is itself limited.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "Rashi: for the decree concerning between Hall and Altar is all one single decree, not extended further.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Rashi: 'learn from this' - since the Sages decreed separation only for between the Hall and Altar, this proves the Torah levels are real distinctions.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "Rashi: this proves that the sanctity of the Sanctuary and the Hall are treated as one continuous level for this purpose.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "Rashi: for the Hall too is called 'Tent of Meeting,' so the Sages made a safeguard requiring separation from between the Hall and Altar.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l33"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "Rashi: continues explaining the safeguard - this separation requirement was not extended to the whole Courtyard.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l33"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "Rashi: lest one enter the Hall itself and thereby transgress 'no man shall be in the Tent of Meeting.'",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l33"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "Rashi: 'the Hall' - continues identifying the referent of this term in the Baraita's ruling.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l33"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Rashi: and the space between the Hall and Altar are treated as one level for the purpose of this decree.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l37"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "Rashi: for when the Sages decreed concerning the Hall on account of the Sanctuary, the air-space between the Hall and Altar was drawn into that same decree.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l37"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "Rashi: 'the Sages were considerate of their money' - referring to Israel's communal funds, since replacing worn vessels is costly.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "Rashi: and we too show such consideration - the scooping of coals wears down the vessel and diminishes it over time.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "Rashi: continues explaining the wear caused by repeated scooping of hot coals.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Rashi: 'because of weakness' - meaning it is a strain to pour coals from one vessel into another.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Rashi: 'a kav of coals' - when he pours from the four-kav pan into the three-kav pan.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Rashi: one kav of coals spills out and scatters in the process.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Rashi: he sweeps the spilled coal into the Amah water channel of the Courtyard.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "Rashi: that channel flows out from the Courtyard toward the Kidron valley.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "Rashi: 'and not according to Rabbi Yosei' - for according to Rabbi Yosei's measures, three kavim would scatter instead of one.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "Rashi: 'he would bring it in already in the two-kav pan' - describing an alternative view of the transfer procedure.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "Rashi: but he scoops the coals initially with the four-kav pan, following the Rabbis' view.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "Rashi: this matches what the Rabbis said - that he would scoop with the four-kav pan before transferring.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "Rashi: 'a desert seah' - equal to six desert-sized kavim.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "Rashi: and when they came to Jerusalem, they added one-sixth to the standard measures.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "Rashi: so that six desert kavim became equivalent to five Jerusalem kavim, the larger unit.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "Rashi: continues explaining this unit conversion between desert and Jerusalem measures.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "Rashi: when he scoops with a desert-seah-sized pan and pours into a three-Jerusalem-kav pan.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "Rashi: two Jerusalem kavim worth of coals spill out for him in that transfer.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "Rashi: 'its shell was thick' - its wall was thick, and therefore it was heavy. 'Soft' means thin-walled.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "Rashi: 'ni'ashtik' refers to a ring attachment at its top that rattles and makes a sound when carried.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "Rashi: this alludes to the verse 'so that his sound will be heard when he comes in' (Exodus 28).",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 60,
-      "en": "Rashi: 'and the gold of that land was good' implies there is also plain, ordinary gold; 'that resembles' continues onto the next daf.",
-      "linkedGemaraLineIds": [
-        "yoma-044b-l39"
-      ]
+     "misconception": "The 'no man' exclusion and the bein haparakhot exclusion are the same prohibition, just covering a longer stretch of the Yom Kippur service.",
+     "correction": "The Gemara treats them as distinct prohibitions: 'no man' applies specifically and narrowly during the incense burning, while the bein haparakhot exclusion is a separate, graduated rule governing the blood-sprinkling rite.",
+     "correctedByStepId": null
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-044a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "place",
+     "label": "graduated exclusion zones: Azarah to Kodesh Kodashim"
+    },
+    {
+     "type": "contrast",
+     "label": "incense exclusion (absolute) vs blood exclusion (graduated)"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Only during the incense burning inside the Holy of Holies on Yom Kippur.",
+     "question": "During what Temple act was the 'no man in the Tent of Meeting' prohibition in force?"
+    }
+   ],
+   "finalRuling": "The 'no man' exclusion applies only during incense burning; blood sprinkling has a graduated exclusion based on proximity to the Holy of Holies.",
+   "difficulty": "intermediate",
+   "review": "reviewed",
+   "alternateAngles": [],
+   "glossary": []
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-044b-s02",
+   "lineRange": {
+    "startVilnaLine": 20,
+    "endVilnaLine": 20
+   },
+   "lines": [
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.44b.9"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.44b.9"
+   ],
+   "display": {
+    "whats": "Why was the daily incense pan made of silver?",
+    "hint": "Silver is used for the ordinary daily service to distinguish it from the elevated Yom Kippur service performed with gold utensils inside the Holy of Holies.",
+    "title": "Silver by Day, Gold by Night: The Two Coal Pans"
+   },
+   "learning": {
+    "ahaMoment": "Silver for the routine; gold for the singular - the material of the utensil signals the rank of the occasion.",
+    "memoryAnchor": "Silver pan = daily routine. Gold pan = Yom Kippur singular holiness. The material is a sign.",
+    "learnerQuestion": "Why does the Yom Kippur incense service use a gold coal pan when the daily service uses a silver one?",
+    "coreTension": "The daily incense offering uses a silver coal pan, but Yom Kippur substitutes a gold one, raising the question of what about the Yom Kippur rite specifically calls for the more precious material.",
+    "coreMove": "The Gemara identifies the material switch itself as a deliberate halachic distinction marking Yom Kippur's incense service as elevated above the daily rite, not an incidental variation.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The daily incense offering uses a silver coal pan, while the Yom Kippur incense offering uses a gold coal pan - the upgraded material marks the day's elevated status."
+    },
+    "learningBlocker": "Learners may assume the same coal pan was reused for both the daily and Yom Kippur incense services, missing that the vessels are deliberately different - silver for the daily rite, gold for Yom Kippur."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "Daily incense pan: silver, because silver is used for the ordinary service.",
+     "id": "yoma-044b-l20",
+     "label": "Ruling: Daily incense pan: silver, because silver is",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-044b-l20",
+       "vilnaLine": 20
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "daily incense",
+    "silver pan",
+    "Temple utensils"
+   ],
+   "concepts": {
+    "halachic": [
+     "silver pan for daily incense"
+    ],
+    "theological": [
+     "material hierarchy in Temple service"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Temple vessel materials",
+    "daily vs Yom Kippur service distinctions"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The same coal pan, whatever its material, was used for both the daily incense offering and the special Yom Kippur incense offering.",
+     "correction": "The vessels differ by design: the daily incense offering uses a silver coal pan, while Yom Kippur uses a gold one, marking the day's elevated status.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-044b-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "silver pan (daily) vs gold pan (Yom Kippur)"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Silver, to distinguish it from the Yom Kippur golden pan.",
+     "question": "What material was the daily incense pan made of?"
+    }
+   ],
+   "finalRuling": "The daily incense pan is silver; the Yom Kippur pan is gold - corresponding to the relative holiness of each occasion.",
+   "difficulty": "introductory",
+   "review": "reviewed",
+   "alternateAngles": [],
+   "glossary": []
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-044b-s03",
+   "lineRange": {
+    "startVilnaLine": 22,
+    "endVilnaLine": 22
+   },
+   "lines": [
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.44b.10"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.44b.10"
+   ],
+   "display": {
+    "whats": "Why was the Yom Kippur incense pan made of gold?",
+    "hint": "Gold is used inside the Holy of Holies on Yom Kippur because everything inside is gold - the ark, the kapporet, the cherubim - and the Yom Kippur service is the most elevated of all.",
+    "title": "Matching the Metal to the Moment"
+   },
+   "learning": {
+    "ahaMoment": "The gold of the Yom Kippur pan harmonizes with the gold of the Kodesh Kodashim - the utensil belongs to the space it enters.",
+    "memoryAnchor": "Gold for the holiest space on the holiest day, silver for the daily service.",
+    "learnerQuestion": "Why specifically gold, rather than some other valuable material, for the Yom Kippur coal pan?",
+    "coreTension": "Having established that Yom Kippur uses a gold coal pan rather than the daily silver one, the Gemara must explain why gold specifically suits the day's service rather than treating the upgrade as arbitrary.",
+    "coreMove": "The Gemara reasons that gold harmonizes with the other gold vessels and the heightened sanctity of the Yom Kippur Holy of Holies service, making the material choice a matter of fitting the vessel to the day's elevated character.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Gold is chosen for the Yom Kippur coal pan because it matches the heightened sanctity of the day and harmonizes with the service's other gold vessels - material choice reflects and reinforces the day's elevated status."
+    },
+    "learningBlocker": "Learners may think the gold pan is simply a richer, more expensive substitute with no deeper rationale, missing that the Gemara grounds the choice in material harmony with the day's heightened sanctity."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "Yom Kippur incense pan: gold, because inside the Holy of Holies everything is gold.",
+     "id": "yoma-044b-l22",
+     "label": "Ruling: Yom Kippur incense pan: gold, because inside",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-044b-l22",
+       "vilnaLine": 22
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "Yom Kippur incense pan",
+    "gold",
+    "Holy of Holies materials"
+   ],
+   "concepts": {
+    "halachic": [
+     "gold pan for Yom Kippur incense"
+    ],
+    "theological": [
+     "material harmony with sacred space"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Holy of Holies architecture",
+    "Temple vessel materials"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Using gold instead of silver for the Yom Kippur coal pan is simply an arbitrary upgrade in expense, with no deeper halachic rationale.",
+     "correction": "The Gemara reasons that gold fits the Yom Kippur service because it harmonizes with the day's other gold vessels and the heightened sanctity of the rite - the material choice reflects the day's elevated character, not mere expense.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "place",
+     "label": "Holy of Holies - all gold interior"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Because inside the Holy of Holies everything is gold - the ark, the cover, the cherubim - and the pan must harmonize with its space.",
+     "question": "Why was the Yom Kippur incense pan gold?"
+    }
+   ],
+   "finalRuling": "The Yom Kippur incense pan is gold to match the gold interior of the Holy of Holies.",
+   "difficulty": "introductory",
+   "review": "reviewed",
+   "alternateAngles": [],
+   "glossary": []
+  },
+  {
+   "sugyaNumber": 4,
+   "id": "yoma-044b-s04",
+   "lineRange": {
+    "startVilnaLine": 23,
+    "endVilnaLine": 31
+   },
+   "lines": [
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.44b.11"
+    },
+    {
+     "vilnaLine": 25,
+     "sefariaRef": "Yoma.44b.12"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.44b.13"
+    },
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.44b.14"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.44b.14",
+    "Yoma.44b.13",
+    "Yoma.44b.11",
+    "Yoma.44b.12"
+   ],
+   "display": {
+    "whats": "How many kavim of coals were used in the daily firepan vs. the Yom Kippur firepan?",
+    "hint": "The daily firepan holds 4 kavim; the Yom Kippur firepan holds only 3. The reduction is because the High Priest carries the Yom Kippur pan alone and the smaller space of the Kodesh Kodashim requires less coal for the incense cloud to fill it.",
+    "title": "Four Kavim or Three? Sizing the Coals for One Pair of Hands"
+   },
+   "learning": {
+    "ahaMoment": "Fewer coals on Yom Kippur is not a sign of lesser importance - it is calibrated to the smaller space and the one-person carry requirement.",
+    "memoryAnchor": "3 kavim on Yom Kippur vs 4 kavim daily - the holier act uses less, because it is more intimate.",
+    "learnerQuestion": "Why does the daily coal pan hold four kavim of coals while the Yom Kippur coal pan holds only three?",
+    "coreTension": "The daily coal pan is carried by a team and holds four kavim of coals, but the Yom Kippur coal pan is carried by the High Priest alone into a smaller space, raising the question of how the coal quantity should be calibrated to that solo, confined task.",
+    "coreMove": "The Gemara explains the smaller three-kavim quantity by the High Priest's solo carry and the more confined space of the Holy of Holies, showing the measure is calibrated to who carries it and where it goes rather than fixed for all incense rites.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The daily coal pan holds four kavim of coals carried by a team, while the Yom Kippur coal pan holds only three kavim because the High Priest carries it alone into the smaller space of the Holy of Holies."
+    },
+    "learningBlocker": "Learners may assume the coal quantity is fixed regardless of who carries the pan or where it goes, missing that the Gemara calibrates the smaller Yom Kippur measure specifically to a solo carrier and a more confined space."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "Daily firepan: 4 kavim. Yom Kippur firepan: 3 kavim.",
+     "id": "yoma-044b-l23",
+     "label": "Ruling: Daily firepan: 4 kavim. Yom Kippur firepan:",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-044b-l23",
+       "vilnaLine": 23
+      }
+     ]
+    },
+    {
+     "type": "reasoning",
+     "speaker": "Gemara",
+     "text": "High Priest carries alone on Yom Kippur - reduced quantity makes it manageable.",
+     "id": "yoma-044b-l25",
+     "label": "Reasoning: High Priest carries alone on Yom Kippur",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-044b-l25",
+       "vilnaLine": 25
+      }
+     ]
+    },
+    {
+     "type": "reasoning",
+     "speaker": "Gemara",
+     "text": "Kodesh Kodashim is smaller - 3 kavim is sufficient for the cloud to fill it.",
+     "id": "yoma-044b-l28",
+     "label": "Reasoning: Kodesh Kodashim is smaller - 3 kavim",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-044b-l28",
+       "vilnaLine": 28
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "coals quantity",
+    "firepan",
+    "Yom Kippur vs daily",
+    "Temple logistics"
+   ],
+   "concepts": {
+    "halachic": [
+     "3 kavim Yom Kippur coals",
+     "4 kavim daily coals"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Temple logistics",
+    "High Priest carrying capacity",
+    "Kodesh Kodashim dimensions"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The amount of coals in the incense pan is a fixed quantity that does not change between the daily service and the Yom Kippur service.",
+     "correction": "The quantity is calibrated to the circumstances: four kavim for the daily pan carried by a team, but only three kavim for the Yom Kippur pan, since the High Priest carries it alone into the more confined Holy of Holies.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "4 kavim daily vs 3 kavim Yom Kippur"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "3 kavim, reduced from the daily 4 kavim because the High Priest carried it alone and the Kodesh Kodashim is a smaller space.",
+     "question": "How many kavim of coals did the Yom Kippur firepan hold?"
+    }
+   ],
+   "finalRuling": "The Yom Kippur firepan uses 3 kavim of coals (vs. 4 daily) because the High Priest carries it alone and the smaller space of the Kodesh Kodashim requires less.",
+   "difficulty": "introductory",
+   "review": "reviewed",
+   "alternateAngles": [],
+   "glossary": []
+  },
+  {
+   "sugyaNumber": 5,
+   "id": "yoma-044b-s05",
+   "lineRange": {
+    "startVilnaLine": 33,
+    "endVilnaLine": 37
+   },
+   "lines": [
+    {
+     "vilnaLine": 33,
+     "sefariaRef": "Yoma.44b.15"
+    },
+    {
+     "vilnaLine": 37,
+     "sefariaRef": "Yoma.44b.16"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.44b.16",
+    "Yoma.44b.15"
+   ],
+   "display": {
+    "whats": "Why was the daily firepan heavy while the Yom Kippur firepan was lighter?",
+    "hint": "The daily firepan was large and heavy because it was carried by a team during the public daily service. The Yom Kippur firepan was smaller and lighter because the High Priest carried it alone into the Holy of Holies.",
+    "title": "Heavy for a Team, Light for One: Designing the Yom Kippur Pan"
+   },
+   "learning": {
+    "ahaMoment": "Despite gold being denser than silver, the Yom Kippur pan weighed less overall because it was smaller in size.",
+    "memoryAnchor": "Daily firepan: team carry, large, heavy. Yom Kippur firepan: solo carry, smaller, lighter.",
+    "learnerQuestion": "Why is the daily coal pan heavier than the Yom Kippur coal pan?",
+    "coreTension": "If the Yom Kippur pan holds less coal than the daily pan, the question remains whether its physical weight follows the same logic, since a heavier pan might still be needed for structural or service reasons even with less content.",
+    "coreMove": "The Gemara confirms the weight difference tracks the carrying arrangement directly: the heavier daily pan is built for a team to carry, while the lighter Yom Kippur pan is built so the High Priest can carry it alone.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The daily coal pan is heavier because a team carries it, while the Yom Kippur coal pan is lighter because the High Priest must carry it alone - the vessel's weight is designed around who carries it."
+    },
+    "learningBlocker": "Learners may think a lighter vessel is simply a cheaper or lesser version of the heavier one, missing that the weight difference is a deliberate design choice tied to solo versus team carrying."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "Daily firepan was large and heavy - designed for team carry during public service.",
+     "id": "yoma-044b-l33",
+     "label": "Ruling: Daily firepan was large and heavy -",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-044b-l33",
+       "vilnaLine": 33
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "Yom Kippur firepan was lighter - designed for solo carry by the High Priest alone.",
+     "id": "yoma-044b-l37",
+     "label": "Ruling: Yom Kippur firepan was lighter - designed",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-044b-l37",
+       "vilnaLine": 37
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "firepan weight",
+    "daily vs Yom Kippur",
+    "Temple utensil design"
+   ],
+   "concepts": {
+    "halachic": [
+     "firepan weight specifications"
+    ],
+    "theological": [],
+    "narrative": [
+     "utensil design reflects personnel requirements"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Temple utensil materials",
+    "High Priest's solo service"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The Yom Kippur coal pan is lighter than the daily one simply because it is a smaller or lesser-quality vessel.",
+     "correction": "The weight difference is a deliberate design choice: the daily pan is built heavier for a team to carry, while the Yom Kippur pan is built lighter so the High Priest can carry it alone.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "heavy daily pan vs lighter Yom Kippur pan"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Because the High Priest carried it alone into the Holy of Holies, so it had to be manageable for one person; the daily pan was carried by a team.",
+     "question": "Why was the Yom Kippur firepan lighter than the daily firepan?"
+    }
+   ],
+   "finalRuling": "The Yom Kippur firepan was deliberately lighter than the daily pan to enable solo carrying by the High Priest.",
+   "difficulty": "introductory",
+   "review": "reviewed",
+   "alternateAngles": [],
+   "glossary": []
+  },
+  {
+   "sugyaNumber": 6,
+   "id": "yoma-044b-s06",
+   "lineRange": {
+    "startVilnaLine": 39,
+    "endVilnaLine": 39
+   },
+   "lines": [
+    {
+     "vilnaLine": 39,
+     "sefariaRef": "Yoma.44b.17"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.44b.17"
+   ],
+   "display": {
+    "whats": "Why was the gold of the daily incense pan described as yellow-green?",
+    "hint": "Rav Chisda explains: the daily pan was made from gold brought from Sheba (Yemen/Ethiopia), which was known in antiquity for its distinctive greenish-yellow tint.",
+    "title": "Greenish Gold for the Daily Pan, Fine Gold for Yom Kippur"
+   },
+   "learning": {
+    "ahaMoment": "Gold from Sheba: distinctive greenish-yellow. Zahav tov (Yom Kippur): the purest, most lustrous gold. Even gold quality varies - and the Rabbis knew the difference.",
+    "memoryAnchor": "Sheba gold = greenish-yellow daily pan. Best gold (zahav tov) = the Yom Kippur golden pan.",
+    "learnerQuestion": "What kind of gold is used for each coal pan, and why does the Yom Kippur pan use a different grade than the daily one?",
+    "coreTension": "Having established that the two coal pans differ in size and weight, the Gemara must also account for the daily pan's silver default and the specific gold grades named for Yom Kippur, since 'gold' alone does not specify which of the Torah's several gold types is meant.",
+    "coreMove": "The Gemara identifies sheba gold, a greenish-yellow grade, for instances tied to the daily pattern, and zahav tov, a superior grade, specifically for the Yom Kippur pan, showing that even within 'gold' vessels the Temple distinguishes grades by the day's sanctity.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Sheba gold (a greenish-yellow grade) is associated with the daily-pattern vessels, while zahav tov (a superior gold grade) is specified for the Yom Kippur coal pan - even among gold vessels, the Temple distinguishes grades by the day's heightened sanctity."
+    },
+    "learningBlocker": "Learners may assume 'gold' is a single uniform material across all Temple vessels, missing that the Gemara names distinct grades (sheba gold vs. zahav tov) and assigns the finer grade specifically to the Yom Kippur vessel."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Rav Chisda",
+     "text": "The daily pan's gold was yellow-green (yarok) because it came from Sheba.",
+     "id": "yoma-044b-l39",
+     "label": "Ruling: The daily pan's gold was yellow-green (yarok)",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-044b-l39",
+       "vilnaLine": 39
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "gold quality",
+    "Sheba gold",
+    "zahav tov",
+    "Temple materials"
+   ],
+   "concepts": {
+    "halachic": [
+     "gold varieties for Temple use"
+    ],
+    "theological": [],
+    "narrative": [
+     "Sheba gold has distinctive greenish tint",
+     "Rav Chisda's ethnographic detail"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Temple material knowledge",
+    "gold varieties in antiquity"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "All gold Temple vessels are made from the same grade of gold, since the Torah and Gemara simply call it 'gold' without further distinction.",
+     "correction": "The Gemara names distinct grades of gold - sheba gold (greenish-yellow) and zahav tov (a superior grade) - and assigns the finer zahav tov specifically to the Yom Kippur coal pan, reflecting the day's heightened sanctity.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "object",
+     "label": "greenish Sheba gold of daily incense pan"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "It was yellow-green (yarok) because it was made from gold that came from Sheba, which had a distinctive greenish tint.",
+     "question": "What was distinctive about the gold of the daily incense pan?"
+    }
+   ],
+   "finalRuling": "The daily incense pan's gold was yellow-green, coming from Sheba; Rav Chisda preserves this ethnographic-archaeological detail.",
+   "difficulty": "intermediate",
+   "review": "reviewed",
+   "alternateAngles": [],
+   "glossary": []
+  }
+ ],
+ "glossary": [
+  {
+   "he": "מַחְתָּה שֶׁל כֶּסֶף",
+   "translit": "machtah shel kesef",
+   "en": "Silver firepan used for the daily incense offering on the golden altar in the Sanctuary."
+  },
+  {
+   "he": "זָהָב טוֹב",
+   "translit": "zahav tov",
+   "en": "The finest quality gold, as described in Genesis for the gold of Havilah; used for the Yom Kippur incense pan."
+  },
+  {
+   "he": "שְׁבָא",
+   "translit": "Sheba",
+   "en": "Ancient kingdom (modern Yemen/Ethiopia) whose gold had a distinctive greenish-yellow color, used for the daily incense pan."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'In holiness' - the giving of blood. 'It is one name of separation' - it is all one degree",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "of sanctity, for from the Sanctuary they separate, whether for the burning or",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "for the giving of blood, whereas from between the Entrance Hall and the Altar they do not separate for the innermost sanctuary",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "at all; and since it teaches us that on account of the burning of the innermost sanctuary they do not separate, it was not",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "necessary to teach us this on account of the giving of the",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "blood. 'The levels are from the Torah' - the levels",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "that the Sages enumerated in the Mishnah, in tractate Kelim",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "in the first chapter (Mishnah 8), where it states there: the Temple",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "Mount is more sanctified than Jerusalem, and the Chel more than the Mount,",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "the Temple Mount, and the Women's Courtyard more than the Chel, and the Israelite",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "Courtyard more than the Women's, and that of the priests more than",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "the Israelites', and the area between the Entrance Hall and the Altar more than the Courtyard,",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "and the Sanctuary more than the area between the Entrance Hall and the Altar - these are from the Torah,",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "a law given to Moses at Sinai, and so it is received. Therefore regarding separation too",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "the same applies; for regarding what the verse itself required,",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "the verse only required separation from the Sanctuary,",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "as it is written, 'and no man shall be in the Tent of",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "Meeting'; and the Sages came and decreed concerning between the Entrance Hall",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "and the Altar, lest one be tempted and enter the Sanctuary itself,",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "and the rest of the Courtyard was not drawn into that decree,",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "since the area between the Entrance Hall and the Altar is one level of sanctity",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "in itself, and the rest of the Courtyard is its own single level of sanctity,",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "and the decree concerning between the Entrance Hall and the Altar is itself a decree,",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "and extending it to the rest of the Courtyard as well would make it a decree upon a decree.",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "'And if you should think that the levels taught there",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "are merely rabbinic, but from the Torah between",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "the Entrance Hall and the Altar and the whole Courtyard are one",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "level of sanctity, so what distinction is there,' etc. 'Should they not separate from the whole Courtyard",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l08",
+    "yoma-044b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "as well' - because of this decree itself,",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "since it is all one single decree. 'Learn from this' - since he decreed",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l10",
+    "yoma-044b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "separation only for between the Entrance Hall and the Altar. 'The sanctity of the",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "Sanctuary and the Entrance Hall is one' - and the Entrance Hall too",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "is called the Tent of Meeting, and he makes a safeguard to require separation",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "from between the Entrance Hall and the Altar as a separation",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "for the whole Courtyard, lest one enter the Entrance Hall and thereby",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "transgress 'no man shall be in the Tent of Meeting.' 'The Entrance Hall",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l15",
+    "yoma-044b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "and the area between the Entrance Hall and the Altar are one' - for when",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "they decreed concerning the Entrance Hall on account of the Sanctuary, the air-space",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "between the Entrance Hall was drawn into that same decree. 'They were considerate",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l18",
+    "yoma-044b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "of their money' - and we too are considerate, since the scooping of",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "coals wears down the vessel and diminishes it.",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "'Because of weakness' - for it is a strain to pour",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "from one vessel into another. 'A kav of coals' - when he pours",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l22",
+    "yoma-044b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "from the four-kav pan into the three-kav one,",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "a kav of coals spills out for him; he sweeps it",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "into the Amah channel of the Courtyard that goes out",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "to the Kidron valley. 'And not Rabbi Yosei' - for according to Rabbi",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l23",
+    "yoma-044b-l25"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "Yosei, three would spill out. 'He would bring it in with the two-kav pan' -",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l25",
+    "yoma-044b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "and he scoops with the four-kav pan, following the Rabbis",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "who said he scoops with the four-kav pan.",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "'A desert seah' - six desert-sized kavim;",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "and when they came to Jerusalem they added a sixth to",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "the measures, so that six desert kavim became",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "five Jerusalem kavim; and when he scoops with the desert-seah pan",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "and pours it into the three Jerusalem-kav",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "pan, two Jerusalem kavim spill out for him. 'Its shell was thick' -",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l31",
+    "yoma-044b-l33"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "its wall was thick, and so it was heavy. 'Soft' means thin. 'A ring attachment' -",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l33",
+    "yoma-044b-l37"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "at its top, which rattles and makes a sound, on account of 'so that his sound will be heard when he comes in,' etc.",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l37"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "(Exodus 28). 'And the gold of that land was good' - implying there is also plain, ordinary gold.",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l37",
+    "yoma-044b-l39"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "'That resembles'",
+   "linkedGemaraLineIds": [
+    "yoma-044b-l39"
+   ]
+  }
+ ]
 }
