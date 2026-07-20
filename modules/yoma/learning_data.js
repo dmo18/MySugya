@@ -161869,11 +161869,14 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 1,
         he: "כליל. גדיל ואין גדיל פחות משנים: ואין דנין כלי מתכשיט כלי.",
-        en: "kil'il techelet is all blue wool - like the parokhet which had six strands per thread, so the robe had six",
+        en: "'Entirely' [of turquoise wool] - a twisted cord, and a twisted cord is no fewer than two strands. 'And we do not derive the law of one vessel from an ornament of a vessel'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l01",
+          "yoma-072a-l02"
+        ]
       },
       {
         id: "rashi-yoma-072a-002",
@@ -161881,11 +161884,14 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 2,
         he: "רמונים קשוטו של מעיל הן: ארבעה דשיתא שיתא. ארבעת מינין",
-        en: "why not derive from the hem and pomegranates which had eight strands? Body is derived from body, not external",
+        en: "- the pomegranates are an ornament of the robe. 'Four of six-each' - the four kinds",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l02",
+          "yoma-072a-l07"
+        ]
       },
       {
         id: "rashi-yoma-072a-003",
@@ -161893,11 +161899,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 3,
         he: "של שש שש דהא נאמר בו שש ואמר מר דברים שנאמר בהן שש",
-        en: "on the contrary - derive the robe's strands from the robe itself (parokhet), not from ornaments",
+        en: "of six-each, since 'six' is stated regarding it, and the Master said: items regarding which 'six' is stated,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l07"
+        ]
       },
       {
         id: "rashi-yoma-072a-004",
@@ -161905,11 +161913,14 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 4,
         he: "חוטן כפול ששה: לא דינא ולא דיינא. אין ספק וערעור בדבר: וקצץ",
-        en: "the parokhet had 24 strands (four materials, six each) - no dispute about this",
+        en: "their thread is doubled six times. 'Neither law nor judge' - there is no doubt or dispute about the matter. 'And he shall cut",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l07",
+          "yoma-072a-l14"
+        ]
       },
       {
         id: "rashi-yoma-072a-005",
@@ -161917,11 +161928,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 5,
         he: "פתילים. פתילים משמע תרין וכשקוצץ",
-        en: "the breastplate and ephod had 28 strands each (four materials plus gold, seven each) - from where?",
+        en: "cords' - 'cords' implies two, and when he cuts",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l14"
+        ]
       },
       {
         id: "rashi-yoma-072a-006",
@@ -161929,11 +161942,14 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 6,
         he: "כל אחד לשנים הוה להו ד': רב אשי",
-        en: "maybe gold should also be six? Rav Acha bar Yaakov: the verse says to cut the gold into threads",
+        en: "each one into two, that makes four. 'Rav Ashi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l14",
+          "yoma-072a-l16"
+        ]
       },
       {
         id: "rashi-yoma-072a-007",
@@ -161941,11 +161957,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 7,
         he: "אמר. היינו טעמא דזהב ו' לא אפשר",
-        en: "Rav Ashi: the verse says 'to make it within the blue' - the gold must be woven inside each color",
+        en: "said' - this is the reason gold cannot be six:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l16"
+        ]
       },
       {
         id: "rashi-yoma-072a-008",
@@ -161953,11 +161971,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 8,
         he: "דכתב ביה לעשות אותו בתוך התכלת",
-        en: "Rachava citing Rav Yehuda: one who tears priestly vestments receives lashes",
+        en: "for it is written regarding it, 'to make it within the blue wool",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l16"
+        ]
       },
       {
         id: "rashi-yoma-072a-009",
@@ -161965,11 +161985,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 9,
         he: "ובתוך הארגמן משמע שיערב ממנו",
-        en: "Rabbi Elazar: one who detaches the breastplate from the ephod, or removes the ark staves, violates a prohibition",
+        en: "and within the purple wool,' implying that some of it must be mixed in",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l16"
+        ]
       },
       {
         id: "rashi-yoma-072a-010",
@@ -161977,11 +161999,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 10,
         he: "עם כל מין ומין: ניעביד ארבעה.",
-        en: "Rabbi Yosei son of Rabbi Chanina: a contradiction - staves shall be in the rings vs they shall be brought",
+        en: "with each and every kind. 'Let us make four'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l16"
+        ]
       },
       {
         id: "rashi-yoma-072a-011",
@@ -161989,11 +162013,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 11,
         he: "המינין דתרי תרי חוטין של זהב הוו",
-        en: "a baraita resolves this: the staves are always in the rings but the rings allow them to swing",
+        en: "of the kinds, two-and-two each, so the gold threads would be",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l16"
+        ]
       },
       {
         id: "rashi-yoma-072a-012",
@@ -162001,11 +162027,14 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 12,
         he: "להו תמניא של זהב: חדקינהו.",
-        en: "Rabbi Chama son of Rabbi Chanina: standing acacia wood - Torah scholars who stand like trees, not decaying",
+        en: "eight of gold. 'Fasten them'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l16",
+          "yoma-072a-l24"
+        ]
       },
       {
         id: "rashi-yoma-072a-013",
@@ -162013,11 +162042,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 13,
         he: "קשרם יפה ועל הטבעות והבדים",
-        en: "Rabbi Chama bar Chanina: 'bigdei haserad' - service garments that cause those who see them to endure",
+        en: "- tie them well; and regarding the rings and staves",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l24"
+        ]
       },
       {
         id: "rashi-yoma-072a-014",
@@ -162025,11 +162056,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 14,
         he: "אומר שיתנם בטבעות בדוחק:",
-        en: "Rashi on line 14: אומר שיתנם בטבעות בדוחק:",
+        en: "it means he should place them into the rings tightly.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l24"
+        ]
       },
       {
         id: "rashi-yoma-072a-015",
@@ -162037,11 +162070,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 15,
         he: "כתב לא יסורו. אלמא אין זזין מהן",
-        en: "Rashi on line 15: כתב לא יסורו. אלמא אין זזין מהן",
+        en: "'It is written, they shall not be removed' - implying they do not move from it,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l27"
+        ]
       },
       {
         id: "rashi-yoma-072a-016",
@@ -162049,11 +162084,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 16,
         he: "וכתיב (שמות כה) והבאת אלמא הולכים",
-        en: "Rashi on line 16: וכתיב (שמות כה) והבאת אלמא הולכים",
+        en: "yet it is written (Exodus 25), 'and you shall bring,' implying they go",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l27"
+        ]
       },
       {
         id: "rashi-yoma-072a-017",
@@ -162061,11 +162098,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 17,
         he: "ובאים בתוכן: מתפרקין ואינן",
-        en: "Rashi on line 17: ובאים בתוכן: מתפרקין ואינן",
+        en: "in and out within them. 'They come apart but do not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l27"
+        ]
       },
       {
         id: "rashi-yoma-072a-018",
@@ -162073,11 +162112,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 18,
         he: "נשמטים. בראשיהם היו עבים והכניס",
-        en: "Rashi on line 18: נשמטים. בראשיהם היו עבים והכניס",
+        en: "slip out' - at their heads they were thick, and he would insert",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l27"
+        ]
       },
       {
         id: "rashi-yoma-072a-019",
@@ -162085,11 +162126,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 19,
         he: "ראשן אחד בדוחק בטבעת ובאמצען",
-        en: "Rashi on line 19: ראשן אחד בדוחק בטבעת ובאמצען",
+        en: "one end tightly into the ring, while in their middle",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l27"
+        ]
       },
       {
         id: "rashi-yoma-072a-020",
@@ -162097,11 +162140,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 20,
         he: "היו דקין הלכך לא היו נדחקין",
-        en: "Rashi on line 20: היו דקין הלכך לא היו נדחקין",
+        en: "they were thin; therefore they were not forced tightly",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l27"
+        ]
       },
       {
         id: "rashi-yoma-072a-021",
@@ -162109,11 +162154,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 21,
         he: "בטבעות אלא מתפרקין והולכין לכאן",
-        en: "Rashi on line 21: בטבעות אלא מתפרקין והולכין לכאן",
+        en: "into the rings, but rather would come apart and move this way",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l27"
+        ]
       },
       {
         id: "rashi-yoma-072a-022",
@@ -162121,11 +162168,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 22,
         he: "ולכאן אבל אינן נשמטין לצאת מהן",
-        en: "Rashi on line 22: ולכאן אבל אינן נשמטין לצאת מהן",
+        en: "and that way, but they would not slip out from them entirely,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l27"
+        ]
       },
       {
         id: "rashi-yoma-072a-023",
@@ -162133,11 +162182,14 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 23,
         he: "לפי שהן עבים בראשיהן: דרך",
-        en: "Rashi on line 23: לפי שהן עבים בראשיהן: דרך",
+        en: "since they were thick at their heads. 'In the order",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l27",
+          "yoma-072a-l32"
+        ]
       },
       {
         id: "rashi-yoma-072a-024",
@@ -162145,11 +162197,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 24,
         he: "גדילתן. העליון למעלה והתחתון",
-        en: "Rashi on line 24: גדילתן. העליון למעלה והתחתון",
+        en: "of their growth' - the upper part above and the lower part",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l32"
+        ]
       },
       {
         id: "rashi-yoma-072a-025",
@@ -162157,11 +162211,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 25,
         he: "למטה: שמעמידין את ציפויין. ציפוי",
-        en: "Rashi on line 25: למטה: שמעמידין את ציפויין. ציפוי",
+        en: "below. 'That they hold their overlay in place' - the gold",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l32"
+        ]
       },
       {
         id: "rashi-yoma-072a-026",
@@ -162169,11 +162225,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 26,
         he: "הזהב מעמידין ע\"י מסמרות לשון אחר",
-        en: "Rashi on line 26: הזהב מעמידין ע\"י מסמרות לשון אחר",
+        en: "overlay is held in place by nails; another explanation:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l32"
+        ]
       },
       {
         id: "rashi-yoma-072a-027",
@@ -162181,11 +162239,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 27,
         he: "שלא התליעו ולא נפל ציפויין: שמא",
-        en: "Rashi on line 27: שלא התליעו ולא נפל ציפויין: שמא",
+        en: "they did not become worm-eaten and their overlay did not fall off. 'Lest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l32"
+        ]
       },
       {
         id: "rashi-yoma-072a-028",
@@ -162193,11 +162253,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 28,
         he: "תאמר. משנגנזו אבד סיברן שלא ישובו",
-        en: "Rashi on line 28: תאמר. משנגנזו אבד סיברן שלא ישובו",
+        en: "you say' - once they were stored away, their hope of returning was lost,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l32"
+        ]
       },
       {
         id: "rashi-yoma-072a-029",
@@ -162205,11 +162267,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 29,
         he: "עוד: ובטל סכויין. מה שאנו סוכין",
-        en: "Rashi on line 29: עוד: ובטל סכויין. מה שאנו סוכין",
+        en: "no longer. 'And our expectation for them has ceased' - what we",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l32"
+        ]
       },
       {
         id: "rashi-yoma-072a-030",
@@ -162217,11 +162281,14 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 30,
         he: "וצופין להן: שרד. לשון שריד:",
-        en: "Rashi on line 30: וצופין להן: שרד. לשון שריד:",
+        en: "hope and look forward to for them. 'Serad' - a term of remnant.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l32",
+          "yoma-072a-l35"
+        ]
       },
       {
         id: "rashi-yoma-072a-031",
@@ -162229,11 +162296,13 @@ const DAF_CONTENT = {
         daf: "72a",
         vilnaLine: 31,
         he: "אלמלא",
-        en: "Rashi on line 31: אלמלא",
+        en: "'Were it not' - the daf ends mid-word here; the comment (explaining why the priestly garments are needed for the offerings that atone for Israel) continues on 72b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-072a-l35"
+        ]
       }
     ],
     review: "reviewed"
