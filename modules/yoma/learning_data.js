@@ -172445,11 +172445,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 1,
         he: "זה יהושע. שעלה עם משה עד תחומי ההר שנאמר (שמות כד)",
-        en: "Joshua for whom manna fell for all Israel - he waited on the mountain for Moses during the forty days",
+        en: "'This is Joshua' - who ascended with Moses up to the mountain's boundary, as it is stated (Exodus 24),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l01"
+        ]
       },
       {
         id: "rashi-yoma-076a-002",
@@ -172457,11 +172459,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 2,
         he: "ויקם משה ויהושע משרתו ויעל משה אל הר סיני והמתין לו",
-        en: "Rabbi Shimon ben Yochai's students asked: why did manna not fall once a year? He answered with a parable about an anxious father",
+        en: "'And Moses arose, and Joshua his attendant, and Moses went up to Mount Sinai'; and Joshua waited for him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l01"
+        ]
       },
       {
         id: "rashi-yoma-076a-003",
@@ -172469,11 +172473,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 3,
         he: "יהושע שם כל מ' יום שנאמר וישמע יהושע את קול העם ברעה",
-        en: "so too Israel: those with many children would worry each day about tomorrow's manna - so it fell daily to keep them focused on God",
+        en: "there for all forty days, as it is stated, 'and Joshua heard the voice of the people as they shouted,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l01"
+        ]
       },
       {
         id: "rashi-yoma-076a-004",
@@ -172481,11 +172487,14 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 4,
         he: "למדנו שלא היה עמהם ושם היה יורד לו מן כנגד כל ישראל: עד",
-        en: "alternatively: so they would eat it fresh. Alternatively: so they would not have heavy loads to carry. Alternatively: to train them to pray daily",
+        en: "from which we learn he was not with them, and there manna fell for him equal to all of Israel. 'How",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l01",
+          "yoma-076a-l18"
+        ]
       },
       {
         id: "rashi-yoma-076a-005",
@@ -172493,11 +172502,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 5,
         he: "מתי אתה מגבב דברים ומביא עלינו.",
-        en: "Rabbi Tarfon, Rabbi Yishmael, and elders sitting: Rabbi Elazar HaModa'i was expounding - Rabbi Tarfon questioned him",
+        en: "long will you heap up words and bring upon us'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l18"
+        ]
       },
       {
         id: "rashi-yoma-076a-006",
@@ -172505,11 +172516,14 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 6,
         he: "מאין לך: חמש עשרה אמה מלמעלה.",
-        en: "Rabbi Elazar HaModa'i: I derive from a verse - fifteen amot above the highest mountain peak, how does this compare to manna?",
+        en: "- from where do you derive it? 'Fifteen cubits above'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l18",
+          "yoma-076a-l24"
+        ]
       },
       {
         id: "rashi-yoma-076a-007",
@@ -172517,11 +172531,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 7,
         he: "אם תאמר מלמעלה לארץ ולא פירש",
-        en: "which attribute is greater: goodness or punishment? Goodness is greater than punishment by 500 to 1",
+        en: "- if you say 'above' means above the earth, but it did not specify",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l24"
+        ]
       },
       {
         id: "rashi-yoma-076a-008",
@@ -172529,11 +172545,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 8,
         he: "בהר או בבקעה וכי חמש עשרה בהר.",
-        en: "how many windows in a door? Four by four = sixteen; plus the door frame surrounds = many more",
+        en: "whether on a mountain or in a valley, was it fifteen cubits on the mountain",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l24"
+        ]
       },
       {
         id: "rashi-yoma-076a-009",
@@ -172541,11 +172559,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 9,
         he: "וכו': תיבה היכי סגיא. היאך עלתה",
-        en: "Isi ben Yehuda: the manna fell in a single hour; the Flood took forty days - the manna was far more miraculous",
+        en: "etc.? 'How did the ark travel' - how did it rise",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l24"
+        ]
       },
       {
         id: "rashi-yoma-076a-010",
@@ -172553,11 +172573,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 10,
         he: "לראשי ההרים אלא על כרחך מלמעל'",
-        en: "the Gemara asks: how can we compare? The Flood took forty days; the manna fell in one hour",
+        en: "to the mountaintops? Rather, you must say 'above'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l24"
+        ]
       },
       {
         id: "rashi-yoma-076a-011",
@@ -172565,11 +172587,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 11,
         he: "דקרא מן השמים הוא והכי קאמר",
-        en: "forbidden on Yom Kippur: eating. To what do the five afflictions correspond? Rav Chisda: five verses of inuy",
+        en: "in the verse means above from the heavens, and this is what it means:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l24"
+        ]
       },
       {
         id: "rashi-yoma-076a-012",
@@ -172577,11 +172601,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 12,
         he: "על ידי גשמים גברו ט\"ו אמה ומן",
-        en: "are these only five? We taught six! Drinking is included in the category of eating",
+        en: "through rain, the waters rose fifteen cubits, and from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l24"
+        ]
       },
       {
         id: "rashi-yoma-076a-013",
@@ -172589,11 +172615,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 13,
         he: "התהום יצאו תחלה למלאות הבקעות",
-        en: "from where do we know that drinking is included in eating? Perhaps he was given food via a potion",
+        en: "the deep they first emerged to fill the valleys",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l24"
+        ]
       },
       {
         id: "rashi-yoma-076a-014",
@@ -172601,11 +172629,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 14,
         he: "והשפלות עד שהשוו לראשי ההרים:",
-        en: "Rav Acha bar Yaakov from here: the verse 'you shall spend the money on whatever your soul desires' - for food or drink",
+        en: "and lowlands until they reached the level of the mountaintops.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l24"
+        ]
       },
       {
         id: "rashi-yoma-076a-015",
@@ -172613,11 +172643,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 15,
         he: "מרובה. רבה על חברתה מדה טובה",
-        en: "from where? Perhaps even there he consumed via potion - 'sheikhar' in that verse teaches liquid separately",
+        en: "'Greater' - greater than its counterpart; a good measure",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l31"
+        ]
       },
       {
         id: "rashi-yoma-076a-016",
@@ -172625,11 +172657,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 16,
         he: "מרובה על הרעה חמש מאות בה",
-        en: "[Rashi commentary on line 16]: מרובה על הרעה חמש מאות בה",
+        en: "is five hundred times greater than a punishing one,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l31"
+        ]
       },
       {
         id: "rashi-yoma-076a-017",
@@ -172637,11 +172671,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 17,
         he: "שבמדה טובה נאמר (שם לד) נוצר",
-        en: "[Rashi commentary on line 17]: שבמדה טובה נאמר (שם לד) נוצר",
+        en: "since regarding a good measure it is stated (there, 34), 'He preserves",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l31"
+        ]
       },
       {
         id: "rashi-yoma-076a-018",
@@ -172649,11 +172685,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 18,
         he: "חסד לאלפים ובמדת פורענות הוא",
-        en: "[Rashi commentary on line 18]: חסד לאלפים ובמדת פורענות הוא",
+        en: "kindness for thousands,' while regarding a punishing measure it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l31"
+        ]
       },
       {
         id: "rashi-yoma-076a-019",
@@ -172661,11 +172699,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 19,
         he: "אומר על שלשים ועל רבעים אף",
-        en: "[Rashi commentary on line 19]: אומר על שלשים ועל רבעים אף",
+        en: "says 'upon the third and fourth generations'; so too",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l31"
+        ]
       },
       {
         id: "rashi-yoma-076a-020",
@@ -172673,11 +172713,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 20,
         he: "כאן מדת הטוב של ירידת המן",
-        en: "[Rashi commentary on line 20]: כאן מדת הטוב של ירידת המן",
+        en: "here, the measure of goodness of the manna's descent",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l31"
+        ]
       },
       {
         id: "rashi-yoma-076a-021",
@@ -172685,11 +172727,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 21,
         he: "רבתה על ירידת המבול: במדת",
-        en: "[Rashi commentary on line 21]: רבתה על ירידת המבול: במדת",
+        en: "was greater than the Flood's descent. 'Regarding the measure",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l31"
+        ]
       },
       {
         id: "rashi-yoma-076a-022",
@@ -172697,11 +172741,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 22,
         he: "פורענות הוא אומר וארובות השמים.",
-        en: "[Rashi commentary on line 22]: פורענות הוא אומר וארובות השמים.",
+        en: "of punishment it says, and the windows of heaven'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l31"
+        ]
       },
       {
         id: "rashi-yoma-076a-023",
@@ -172709,11 +172755,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 23,
         he: "לא ירד מבול אלא דרך שתי ארובות:",
-        en: "[Rashi commentary on line 23]: לא ירד מבול אלא דרך שתי ארובות:",
+        en: "- the Flood descended only through two windows.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l31"
+        ]
       },
       {
         id: "rashi-yoma-076a-024",
@@ -172721,11 +172769,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 24,
         he: "ובמדה טובה הוא אומר דלתי שמים",
-        en: "[Rashi commentary on line 24]: ובמדה טובה הוא אומר דלתי שמים",
+        en: "'And regarding the good measure it says, the doors of heaven",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l31"
+        ]
       },
       {
         id: "rashi-yoma-076a-025",
@@ -172733,11 +172783,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 25,
         he: "פתח. ותנא כמה ארובות יש באורך",
-        en: "[Rashi commentary on line 25]: פתח. ותנא כמה ארובות יש באורך",
+        en: "he opened' - and it was taught: how many windows are there in the length",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l31"
+        ]
       },
       {
         id: "rashi-yoma-076a-026",
@@ -172745,11 +172797,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 26,
         he: "דלת ארבע הרי לב' דלתות ח'",
-        en: "[Rashi commentary on line 26]: דלת ארבע הרי לב' דלתות ח'",
+        en: "of a door - four; so for two doors, eight",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l31"
+        ]
       },
       {
         id: "rashi-yoma-076a-027",
@@ -172757,11 +172811,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 27,
         he: "ארובות ואחרי ששתי ארובות הורידו",
-        en: "[Rashi commentary on line 27]: ארובות ואחרי ששתי ארובות הורידו",
+        en: "windows; and since two windows brought down",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l31"
+        ]
       },
       {
         id: "rashi-yoma-076a-028",
@@ -172769,11 +172825,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 28,
         he: "גשמים גובה ט\"ו אמה ח' ארובות",
-        en: "[Rashi commentary on line 28]: גשמים גובה ט\"ו אמה ח' ארובות",
+        en: "rain to a height of fifteen cubits, eight windows",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l31"
+        ]
       },
       {
         id: "rashi-yoma-076a-029",
@@ -172781,11 +172839,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 29,
         he: "הורידו מן ששים אמות שהרי אמרת",
-        en: "[Rashi commentary on line 29]: הורידו מן ששים אמות שהרי אמרת",
+        en: "brought down manna to sixty cubits, since you said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l31"
+        ]
       },
       {
         id: "rashi-yoma-076a-030",
@@ -172793,11 +172853,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 30,
         he: "מדה טובה מרובה על של פורענות",
-        en: "[Rashi commentary on line 30]: מדה טובה מרובה על של פורענות",
+        en: "the good measure is greater than the punishing one,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l31"
+        ]
       },
       {
         id: "rashi-yoma-076a-031",
@@ -172805,11 +172867,14 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 31,
         he: "וכ\"ש שאינה ממועטת הימנה: הא",
-        en: "[Rashi commentary on line 31]: וכ\"ש שאינה ממועטת הימנה: הא",
+        en: "and all the more so it is not less than it. 'This",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l31",
+          "yoma-076a-l40"
+        ]
       },
       {
         id: "rashi-yoma-076a-032",
@@ -172817,11 +172882,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 32,
         he: "לא דמיא. אדר' אלעזר המודעי",
-        en: "[Rashi commentary on line 32]: לא דמיא. אדר' אלעזר המודעי",
+        en: "cannot be compared' - refers back to Rabbi Elazar HaModa'i's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l40"
+        ]
       },
       {
         id: "rashi-yoma-076a-033",
@@ -172829,11 +172896,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 33,
         he: "קאי: פתיחה פתיחה גמר. מה",
-        en: "[Rashi commentary on line 33]: קאי: פתיחה פתיחה גמר. מה",
+        en: "statement. 'He derived opening from opening' - just as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l40"
+        ]
       },
       {
         id: "rashi-yoma-076a-034",
@@ -172841,11 +172910,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 34,
         he: "פתיחה האמורה בארובות המבול",
-        en: "[Rashi commentary on line 34]: פתיחה האמורה בארובות המבול",
+        en: "the 'opening' stated regarding the Flood's windows",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l40"
+        ]
       },
       {
         id: "rashi-yoma-076a-035",
@@ -172853,11 +172924,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 35,
         he: "ט\"ו לב' ארובות אף פתיחה האמורה",
-        en: "[Rashi commentary on line 35]: ט\"ו לב' ארובות אף פתיחה האמורה",
+        en: "gave fifteen cubits for two windows, so too the 'opening' stated",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l40"
+        ]
       },
       {
         id: "rashi-yoma-076a-036",
@@ -172865,11 +172938,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 36,
         he: "בדלתות המן ט\"ו אמה לכל ב'",
-        en: "[Rashi commentary on line 36]: בדלתות המן ט\"ו אמה לכל ב'",
+        en: "regarding the manna's doors gave fifteen cubits for every two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l40"
+        ]
       },
       {
         id: "rashi-yoma-076a-037",
@@ -172877,11 +172952,14 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 37,
         he: "ארובות: ובעשור. דחומש הפקודים",
-        en: "[Rashi commentary on line 37]: ארובות: ובעשור. דחומש הפקודים",
+        en: "windows. 'And on the tenth' - from the Book of Numbers,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l40",
+          "yoma-076a-l41"
+        ]
       },
       {
         id: "rashi-yoma-076a-038",
@@ -172889,11 +172967,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 38,
         he: "ואך בעשור דשור או כשב שבת",
-        en: "[Rashi commentary on line 38]: ואך בעשור דשור או כשב שבת",
+        en: "and 'but on the tenth' from the ox-or-sheep passage, 'a sabbath",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l41"
+        ]
       },
       {
         id: "rashi-yoma-076a-039",
@@ -172901,11 +172981,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 39,
         he: "שבתון וגו' בכולהו כתיב תענו",
-        en: "[Rashi commentary on line 39]: שבתון וגו' בכולהו כתיב תענו",
+        en: "of complete rest,' etc. - in all of them it is written 'you shall afflict'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l41"
+        ]
       },
       {
         id: "rashi-yoma-076a-040",
@@ -172913,11 +172995,14 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 40,
         he: "ועניתם: אניגרון. מין מאכל שנותנין",
-        en: "[Rashi commentary on line 40]: ועניתם: אניגרון. מין מאכל שנותנין",
+        en: "or 'and you shall afflict.' 'Anigron' - a kind of dish into which",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l41",
+          "yoma-076a-l45"
+        ]
       },
       {
         id: "rashi-yoma-076a-041",
@@ -172925,11 +173010,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 41,
         he: "בו יין ובכמה מקומות שנינו בתוספ'",
-        en: "[Rashi commentary on line 41]: בו יין ובכמה מקומות שנינו בתוספ'",
+        en: "wine is placed, and in several places we learned in the Tosefta",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l45"
+        ]
       },
       {
         id: "rashi-yoma-076a-042",
@@ -172937,11 +173024,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 42,
         he: "אניגרון ואכסיגרון שנותנין בו יין",
-        en: "[Rashi commentary on line 42]: אניגרון ואכסיגרון שנותנין בו יין",
+        en: "'anigron' and 'aksigron,' into which wine",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l45"
+        ]
       },
       {
         id: "rashi-yoma-076a-043",
@@ -172949,11 +173038,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 43,
         he: "ושמן: מיא דסילקא. מים ששלקו",
-        en: "[Rashi commentary on line 43]: ושמן: מיא דסילקא. מים ששלקו",
+        en: "and oil are placed. 'Beet water' - water in which",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l45"
+        ]
       },
       {
         id: "rashi-yoma-076a-044",
@@ -172961,11 +173052,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 44,
         he: "בהן תרדין: דכולהו שלקי. של שאר",
-        en: "[Rashi commentary on line 44]: בהן תרדין: דכולהו שלקי. של שאר",
+        en: "chard was boiled. 'Of all boiled vegetables' - of other",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l45"
+        ]
       },
       {
         id: "rashi-yoma-076a-045",
@@ -172973,11 +173066,14 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 45,
         he: "מיני ירקי: מידי דמשכר. ואין שכרות",
-        en: "[Rashi commentary on line 45]: מיני ירקי: מידי דמשכר. ואין שכרות",
+        en: "types of vegetables. 'Something intoxicating' - and drunkenness is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l45",
+          "yoma-076a-l47"
+        ]
       },
       {
         id: "rashi-yoma-076a-046",
@@ -172985,11 +173081,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 46,
         he: "דרך אכילה: קעילית. שם מקום:",
-        en: "[Rashi commentary on line 46]: דרך אכילה: קעילית. שם מקום:",
+        en: "the normal way of eating. 'Ke'ilit' - the name of a place.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l47"
+        ]
       },
       {
         id: "rashi-yoma-076a-047",
@@ -172997,11 +173095,13 @@ const DAF_CONTENT = {
         daf: "76a",
         vilnaLine: 47,
         he: "חייב",
-        en: "[Rashi commentary on line 47]: חייב",
+        en: "'Liable' - the daf ends mid-word here; the comment (explaining the liability via the priestly wine prohibition) continues on 76b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076a-l47"
+        ]
       }
     ],
     review: "reviewed"

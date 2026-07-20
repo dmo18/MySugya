@@ -1,925 +1,1025 @@
 {
-  "canonicalRef": "Yoma 76a",
-  "summary": "The manna aggadah concludes: Joshua received manna for all Israel; daily provision kept Israel dependent on God. The Gemara transitions to Yom Kippur afflictions, establishing that the five afflictions correspond to five verses of inuy, and that drinking is subsumed under eating.",
-  "sugyot": [
+ "canonicalRef": "Yoma 76a",
+ "summary": "The manna aggadah concludes: Joshua received manna for all Israel; daily provision kept Israel dependent on God. The Gemara transitions to Yom Kippur afflictions, establishing that the five afflictions correspond to five verses of inuy, and that drinking is subsumed under eating.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-076a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 16
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-076a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 16
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.76a.1"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.76a.2"
-        },
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.76a.3"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.76a.4"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.76a.1",
-        "Yoma.76a.2",
-        "Yoma.76a.3",
-        "Yoma.76a.4"
-      ],
-      "display": {
-        "whats": "Joshua's manna and why manna fell daily (not annually)",
-        "hint": "Why did manna fall daily instead of once a year?",
-        "title": "Daily Manna Builds Daily Relationship"
-      },
-      "learning": {
-        "ahaMoment": "Scarcity is a relationship tool: God used daily manna to build daily intimacy with Israel.",
-        "memoryAnchor": "Son visits daily for bread, once a year for a gift - manna kept Israel returning.",
-        "learnerQuestion": "Why did God give manna daily instead of a year's supply at once?",
-        "coreTension": "Between practical convenience (a year's supply means no daily labor) and the spiritual goal of continuous dependence and daily prayer.",
-        "coreMove": "Rabbi Shimon's parable makes the logic explicit: a father who gives his son everything at once is visited once a year; a father who gives daily is visited daily. Daily manna was a relationship technology - it required Israel to return to God every morning.",
-        "takeaway": {
-          "type": "logical_principle",
-          "text": "Daily dependence creates daily relationship. The manna was calibrated not for convenience but to make prayer a genuine necessity rather than a habit."
-        },
-        "learningBlocker": "Students may focus on the inconvenience and miss that the limitation was deliberate and purposeful."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-076a-l01",
-          "type": "ruling",
-          "label": "Joshua's manna for all Israel",
-          "speaker": "Gemara",
-          "text": "He waited at the mountain; the manna fell proportionally",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "id": "yoma-076a-l02",
-          "type": "ruling",
-          "label": "Daily manna: parable of anxious father",
-          "speaker": "Rabbi Shimon ben Yochai",
-          "text": "Daily provision creates daily prayer",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076a-l02",
-              "vilnaLine": 5
-            }
-          ]
-        },
-        {
-          "id": "yoma-076a-l03",
-          "type": "ruling",
-          "label": "Multiple reasons for daily manna",
-          "speaker": "Gemara",
-          "text": "Fresh food; no burden to carry; daily prayer",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076a-l03",
-              "vilnaLine": 12
-            }
-          ]
-        },
-        {
-          "id": "yoma-076a-l04",
-          "type": "ruling",
-          "label": "Scholars debating manna amount",
-          "speaker": "Gemara",
-          "text": "Rabbi Tarfon, Rabbi Yishmael, elders in discussion",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076a-l04",
-              "vilnaLine": 16
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "manna",
-        "daily-provision",
-        "prayer",
-        "Joshua"
-      ],
-      "concepts": {
-        "halachic": [],
-        "theological": [
-          "daily manna creates daily dependence on God, generating daily gratitude and prayer"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "description": "Argument flow",
-          "role": "anchor",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why did manna fall daily rather than once a year?",
-          "answer": "So that Israel would pray to God daily for their needs; annual provision would produce only annual prayer",
-          "sourceRefs": []
-        }
-      ],
-      "finalRuling": "Non-halachic aggadah: daily manna was designed to create daily prayer and constant divine dependence.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.76a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-076a-s02",
-      "lineRange": {
-        "startVilnaLine": 18,
-        "endVilnaLine": 40
-      },
-      "lines": [
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.76a.5"
-        },
-        {
-          "vilnaLine": 24,
-          "sefariaRef": "Yoma.76a.6"
-        },
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.76a.7"
-        },
-        {
-          "vilnaLine": 36,
-          "sefariaRef": "Yoma.76a.8"
-        },
-        {
-          "vilnaLine": 37,
-          "sefariaRef": "Yoma.76a.9"
-        },
-        {
-          "vilnaLine": 40,
-          "sefariaRef": "Yoma.76a.10"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.76a.5",
-        "Yoma.76a.6",
-        "Yoma.76a.7",
-        "Yoma.76a.8",
-        "Yoma.76a.9",
-        "Yoma.76a.10"
-      ],
-      "display": {
-        "whats": "Manna amount calculation and Isi ben Yehuda's comparison with the Flood",
-        "hint": "How much manna fell and how does it compare to the Flood waters?",
-        "title": "Tarfon Challenges Elazar on Manna Volume"
-      },
-      "learning": {
-        "ahaMoment": "Every analogy carries the burden of proving it is apt; Tarfon's challenge is a lesson in analogy-vetting.",
-        "memoryAnchor": "Tarfon challenges the Flood comparison: show the parallel is sound before the number stands.",
-        "learnerQuestion": "How did the rabbis calculate the total volume of manna, and why does the method matter?",
-        "coreTension": "Between Rabbi Elazar's derivation of manna volume by analogy from the Flood and Rabbi Tarfon's challenge that the analogy is internally inconsistent.",
-        "coreMove": "The debate is about the standard for a valid derivation by analogy. Tarfon argues that the Flood comparison succeeds only if the two situations share the same operative feature; an inconsistency in the parallel defeats the derivation.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "A quantitative derivation by analogy requires that the parallel case share the same operative feature; a demonstrated inconsistency in the analogy defeats the derivation."
-        },
-        "learningBlocker": "Students may focus on the quantity (how much manna fell) and miss the methodological argument about how analogies work."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-076a-l05",
-          "type": "ruling",
-          "label": "Rabbi Elazar derives manna calculation",
-          "speaker": "Rabbi Elazar HaModa'i",
-          "text": "Derives the manna's volume from the Flood and window calculation",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076a-l05",
-              "vilnaLine": 18
-            }
-          ]
-        },
-        {
-          "id": "yoma-076a-l06",
-          "type": "ruling",
-          "label": "Fifteen amot above peaks",
-          "speaker": "Rabbi Elazar HaModa'i",
-          "text": "The Flood verse provides the measurement framework",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076a-l06",
-              "vilnaLine": 24
-            }
-          ]
-        },
-        {
-          "id": "yoma-076a-l07",
-          "type": "ruling",
-          "label": "Goodness greater than punishment",
-          "speaker": "Rabbi Elazar",
-          "text": "Goodness exceeds punishment 500 to 1",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076a-l07",
-              "vilnaLine": 31
-            }
-          ]
-        },
-        {
-          "id": "yoma-076a-l08",
-          "type": "ruling",
-          "label": "Windows in a door calculation",
-          "speaker": "Gemara",
-          "text": "Four by four windows plus frame = many openings",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076a-l08",
-              "vilnaLine": 36
-            }
-          ]
-        },
-        {
-          "id": "yoma-076a-l09",
-          "type": "ruling",
-          "label": "Manna fell in one hour",
-          "speaker": "Isi ben Yehuda",
-          "text": "More miraculous than the Flood which took forty days",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076a-l09",
-              "vilnaLine": 37
-            }
-          ]
-        },
-        {
-          "id": "yoma-076a-l10",
-          "type": "objection",
-          "label": "Can we compare? Different timeframes",
-          "speaker": "Gemara",
-          "text": "Flood: forty days; manna: one hour - different scales",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076a-l10",
-              "vilnaLine": 40
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "manna",
-        "Flood",
-        "miracles",
-        "calculation"
-      ],
-      "concepts": {
-        "halachic": [],
-        "theological": [
-          "manna as a miracle surpassing the Flood - provision in an hour vs destruction in forty days"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "description": "Argument flow",
-          "role": "anchor",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why does Isi ben Yehuda consider the manna a greater miracle than the Flood?",
-          "answer": "The Flood took forty days to occur; the manna's equivalent provision fell in a single hour - far more concentrated and miraculous",
-          "sourceRefs": []
-        }
-      ],
-      "finalRuling": "Non-halachic aggadah: manna's hourly miracle surpasses the Flood's forty-day event.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.76a.2"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-076a-s03",
-      "lineRange": {
-        "startVilnaLine": 41,
-        "endVilnaLine": 47
-      },
-      "lines": [
-        {
-          "vilnaLine": 41,
-          "sefariaRef": "Yoma.76a.11"
-        },
-        {
-          "vilnaLine": 43,
-          "sefariaRef": "Yoma.76a.12"
-        },
-        {
-          "vilnaLine": 45,
-          "sefariaRef": "Yoma.76a.13"
-        },
-        {
-          "vilnaLine": 46,
-          "sefariaRef": "Yoma.76a.14"
-        },
-        {
-          "vilnaLine": 47,
-          "sefariaRef": "Yoma.76a.15"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.76a.11",
-        "Yoma.76a.12",
-        "Yoma.76a.13",
-        "Yoma.76a.14",
-        "Yoma.76a.15"
-      ],
-      "display": {
-        "whats": "Isi ben Yehuda: manna in one hour; five YK afflictions and drinking subsumed under eating",
-        "hint": "Why does the mishna list only five afflictions when six are forbidden? Is drinking included in eating?",
-        "title": "Manna Greater Than the Flood"
-      },
-      "learning": {
-        "ahaMoment": "Halakhic derivation can follow physiological logic: eating and drinking share the same oral mechanism, so one prohibition covers both.",
-        "memoryAnchor": "Eating includes drinking - one verse, one body, two Yom Kippur prohibitions.",
-        "learnerQuestion": "How can a single verse about eating on Yom Kippur prohibit both eating and drinking?",
-        "coreTension": "Between the need for each prohibition to have its own explicit source and the possibility of deriving two prohibitions from a single verse.",
-        "coreMove": "The Gemara reasons that eating normally includes drinking (physiologically intertwined acts); a prohibition on eating therefore extends to drinking when both fall under the same bodily category of oral intake.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "When two acts are physiologically intertwined, a prohibition stated for one can extend to the other by analogy of function - one verse, one body mechanism, two prohibitions."
-        },
-        "learningBlocker": "Students may expect a separate explicit verse for drinking and be surprised that the eating verse can cover it."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-076a-l12",
-          "type": "ruling",
-          "label": "Five verses of inuy = five afflictions",
-          "speaker": "Rav Chisda",
-          "text": "Each of the five YK afflictions has its own Torah verse",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076a-l12",
-              "vilnaLine": 43
-            }
-          ]
-        },
-        {
-          "id": "yoma-076a-l13",
-          "type": "ruling",
-          "label": "Drinking subsumed under eating",
-          "speaker": "Gemara",
-          "text": "The mishna lists six but five is the category count",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076a-l13",
-              "vilnaLine": 45
-            }
-          ]
-        },
-        {
-          "id": "yoma-076a-l14",
-          "type": "ruling",
-          "label": "Proof from 'spend money on your desires'",
-          "speaker": "Rav Acha bar Yaakov",
-          "text": "Food and drink listed together under one category",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076a-l14",
-              "vilnaLine": 46
-            }
-          ]
-        },
-        {
-          "id": "yoma-076a-l15",
-          "type": "objection",
-          "label": "Sheikhar verse implies drinking is separate",
-          "speaker": "Gemara",
-          "text": "'Sheikhar' in the verse separates drink from food",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076a-l15",
-              "vilnaLine": 47
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Yom-Kippur",
-        "afflictions",
-        "eating",
-        "drinking"
-      ],
-      "concepts": {
-        "halachic": [
-          "five YK afflictions correspond to five inuy verses",
-          "drinking subsumed under eating as a category"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "description": "Argument flow",
-          "role": "anchor",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "If the mishna lists six forbidden activities on Yom Kippur, why are there only five afflictions?",
-          "answer": "Drinking is subsumed under eating - both are forms of taking physical pleasure through consumption, counted as one category",
-          "sourceRefs": []
-        }
-      ],
-      "finalRuling": "Drinking is subsumed under eating; five afflictions correspond to five Torah verses of inuy.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.76a.3"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.76a.4"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.76a.1",
+    "Yoma.76a.2",
+    "Yoma.76a.3",
+    "Yoma.76a.4"
+   ],
+   "display": {
+    "whats": "Joshua's manna and why manna fell daily (not annually)",
+    "hint": "Why did manna fall daily instead of once a year?",
+    "title": "Daily Manna Builds Daily Relationship"
+   },
+   "learning": {
+    "ahaMoment": "Scarcity is a relationship tool: God used daily manna to build daily intimacy with Israel.",
+    "memoryAnchor": "Son visits daily for bread, once a year for a gift - manna kept Israel returning.",
+    "learnerQuestion": "Why did God give manna daily instead of a year's supply at once?",
+    "coreTension": "Between practical convenience (a year's supply means no daily labor) and the spiritual goal of continuous dependence and daily prayer.",
+    "coreMove": "Rabbi Shimon's parable makes the logic explicit: a father who gives his son everything at once is visited once a year; a father who gives daily is visited daily. Daily manna was a relationship technology - it required Israel to return to God every morning.",
+    "takeaway": {
+     "type": "logical_principle",
+     "text": "Daily dependence creates daily relationship. The manna was calibrated not for convenience but to make prayer a genuine necessity rather than a habit."
+    },
+    "learningBlocker": "Students may focus on the inconvenience and miss that the limitation was deliberate and purposeful."
+   },
+   "argumentFlow": [
     {
-      "he": "עִנּוּי",
-      "translit": "Inuy",
-      "en": "Affliction or self-denial; the Torah uses this term in multiple contexts (Yom Kippur, metzora, Egypt) which the Gemara interprets through verbal analogy."
+     "id": "yoma-076a-l01",
+     "type": "ruling",
+     "label": "Joshua's manna for all Israel",
+     "speaker": "Gemara",
+     "text": "He waited at the mountain; the manna fell proportionally",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076a-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "he": "שֵׁכָר",
-      "translit": "Sheikhar",
-      "en": "Strong drink or intoxicating beverage; used in a verse to distinguish drinking from eating."
+     "id": "yoma-076a-l02",
+     "type": "ruling",
+     "label": "Daily manna: parable of anxious father",
+     "speaker": "Rabbi Shimon ben Yochai",
+     "text": "Daily provision creates daily prayer",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076a-l02",
+       "vilnaLine": 5
+      }
+     ]
     },
     {
-      "he": "פָּרָשָׁה",
-      "translit": "Parasha",
-      "en": "Section or passage of the Torah; the Gemara cites five separate passages using the word inuy."
+     "id": "yoma-076a-l03",
+     "type": "ruling",
+     "label": "Multiple reasons for daily manna",
+     "speaker": "Gemara",
+     "text": "Fresh food; no burden to carry; daily prayer",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076a-l03",
+       "vilnaLine": 12
+      }
+     ]
+    },
+    {
+     "id": "yoma-076a-l04",
+     "type": "ruling",
+     "label": "Scholars debating manna amount",
+     "speaker": "Gemara",
+     "text": "Rabbi Tarfon, Rabbi Yishmael, elders in discussion",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076a-l04",
+       "vilnaLine": 16
+      }
+     ]
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "topicTags": [
+    "manna",
+    "daily-provision",
+    "prayer",
+    "Joshua"
+   ],
+   "concepts": {
+    "halachic": [],
+    "theological": [
+     "daily manna creates daily dependence on God, generating daily gratitude and prayer"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [],
+   "relatedSugyot": [],
+   "visualizableElements": [
     {
-      "vilnaLine": 1,
-      "he": "זה יהושע. שעלה עם משה עד תחומי ההר שנאמר (שמות כד)",
-      "en": "Joshua for whom manna fell for all Israel - he waited on the mountain for Moses during the forty days",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 2,
-      "he": "ויקם משה ויהושע משרתו ויעל משה אל הר סיני והמתין לו",
-      "en": "Rabbi Shimon ben Yochai's students asked: why did manna not fall once a year? He answered with a parable about an anxious father",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 3,
-      "he": "יהושע שם כל מ' יום שנאמר וישמע יהושע את קול העם ברעה",
-      "en": "so too Israel: those with many children would worry each day about tomorrow's manna - so it fell daily to keep them focused on God",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 4,
-      "he": "למדנו שלא היה עמהם ושם היה יורד לו מן כנגד כל ישראל: עד",
-      "en": "alternatively: so they would eat it fresh. Alternatively: so they would not have heavy loads to carry. Alternatively: to train them to pray daily",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "he": "מתי אתה מגבב דברים ומביא עלינו.",
-      "en": "Rabbi Tarfon, Rabbi Yishmael, and elders sitting: Rabbi Elazar HaModa'i was expounding - Rabbi Tarfon questioned him",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "he": "מאין לך: חמש עשרה אמה מלמעלה.",
-      "en": "Rabbi Elazar HaModa'i: I derive from a verse - fifteen amot above the highest mountain peak, how does this compare to manna?",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "he": "אם תאמר מלמעלה לארץ ולא פירש",
-      "en": "which attribute is greater: goodness or punishment? Goodness is greater than punishment by 500 to 1",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "he": "בהר או בבקעה וכי חמש עשרה בהר.",
-      "en": "how many windows in a door? Four by four = sixteen; plus the door frame surrounds = many more",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "he": "וכו': תיבה היכי סגיא. היאך עלתה",
-      "en": "Isi ben Yehuda: the manna fell in a single hour; the Flood took forty days - the manna was far more miraculous",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "he": "לראשי ההרים אלא על כרחך מלמעל'",
-      "en": "the Gemara asks: how can we compare? The Flood took forty days; the manna fell in one hour",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "he": "דקרא מן השמים הוא והכי קאמר",
-      "en": "forbidden on Yom Kippur: eating. To what do the five afflictions correspond? Rav Chisda: five verses of inuy",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "he": "על ידי גשמים גברו ט\"ו אמה ומן",
-      "en": "are these only five? We taught six! Drinking is included in the category of eating",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "he": "התהום יצאו תחלה למלאות הבקעות",
-      "en": "from where do we know that drinking is included in eating? Perhaps he was given food via a potion",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "he": "והשפלות עד שהשוו לראשי ההרים:",
-      "en": "Rav Acha bar Yaakov from here: the verse 'you shall spend the money on whatever your soul desires' - for food or drink",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "he": "מרובה. רבה על חברתה מדה טובה",
-      "en": "from where? Perhaps even there he consumed via potion - 'sheikhar' in that verse teaches liquid separately",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "he": "מרובה על הרעה חמש מאות בה",
-      "en": "[Rashi commentary on line 16]: מרובה על הרעה חמש מאות בה",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "he": "שבמדה טובה נאמר (שם לד) נוצר",
-      "en": "[Rashi commentary on line 17]: שבמדה טובה נאמר (שם לד) נוצר",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "he": "חסד לאלפים ובמדת פורענות הוא",
-      "en": "[Rashi commentary on line 18]: חסד לאלפים ובמדת פורענות הוא",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "he": "אומר על שלשים ועל רבעים אף",
-      "en": "[Rashi commentary on line 19]: אומר על שלשים ועל רבעים אף",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "he": "כאן מדת הטוב של ירידת המן",
-      "en": "[Rashi commentary on line 20]: כאן מדת הטוב של ירידת המן",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "he": "רבתה על ירידת המבול: במדת",
-      "en": "[Rashi commentary on line 21]: רבתה על ירידת המבול: במדת",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "he": "פורענות הוא אומר וארובות השמים.",
-      "en": "[Rashi commentary on line 22]: פורענות הוא אומר וארובות השמים.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "he": "לא ירד מבול אלא דרך שתי ארובות:",
-      "en": "[Rashi commentary on line 23]: לא ירד מבול אלא דרך שתי ארובות:",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "he": "ובמדה טובה הוא אומר דלתי שמים",
-      "en": "[Rashi commentary on line 24]: ובמדה טובה הוא אומר דלתי שמים",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "he": "פתח. ותנא כמה ארובות יש באורך",
-      "en": "[Rashi commentary on line 25]: פתח. ותנא כמה ארובות יש באורך",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "he": "דלת ארבע הרי לב' דלתות ח'",
-      "en": "[Rashi commentary on line 26]: דלת ארבע הרי לב' דלתות ח'",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "he": "ארובות ואחרי ששתי ארובות הורידו",
-      "en": "[Rashi commentary on line 27]: ארובות ואחרי ששתי ארובות הורידו",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "he": "גשמים גובה ט\"ו אמה ח' ארובות",
-      "en": "[Rashi commentary on line 28]: גשמים גובה ט\"ו אמה ח' ארובות",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "he": "הורידו מן ששים אמות שהרי אמרת",
-      "en": "[Rashi commentary on line 29]: הורידו מן ששים אמות שהרי אמרת",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "he": "מדה טובה מרובה על של פורענות",
-      "en": "[Rashi commentary on line 30]: מדה טובה מרובה על של פורענות",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "he": "וכ\"ש שאינה ממועטת הימנה: הא",
-      "en": "[Rashi commentary on line 31]: וכ\"ש שאינה ממועטת הימנה: הא",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "he": "לא דמיא. אדר' אלעזר המודעי",
-      "en": "[Rashi commentary on line 32]: לא דמיא. אדר' אלעזר המודעי",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "he": "קאי: פתיחה פתיחה גמר. מה",
-      "en": "[Rashi commentary on line 33]: קאי: פתיחה פתיחה גמר. מה",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "he": "פתיחה האמורה בארובות המבול",
-      "en": "[Rashi commentary on line 34]: פתיחה האמורה בארובות המבול",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "he": "ט\"ו לב' ארובות אף פתיחה האמורה",
-      "en": "[Rashi commentary on line 35]: ט\"ו לב' ארובות אף פתיחה האמורה",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "he": "בדלתות המן ט\"ו אמה לכל ב'",
-      "en": "[Rashi commentary on line 36]: בדלתות המן ט\"ו אמה לכל ב'",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "he": "ארובות: ובעשור. דחומש הפקודים",
-      "en": "[Rashi commentary on line 37]: ארובות: ובעשור. דחומש הפקודים",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "he": "ואך בעשור דשור או כשב שבת",
-      "en": "[Rashi commentary on line 38]: ואך בעשור דשור או כשב שבת",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "he": "שבתון וגו' בכולהו כתיב תענו",
-      "en": "[Rashi commentary on line 39]: שבתון וגו' בכולהו כתיב תענו",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "he": "ועניתם: אניגרון. מין מאכל שנותנין",
-      "en": "[Rashi commentary on line 40]: ועניתם: אניגרון. מין מאכל שנותנין",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "he": "בו יין ובכמה מקומות שנינו בתוספ'",
-      "en": "[Rashi commentary on line 41]: בו יין ובכמה מקומות שנינו בתוספ'",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "he": "אניגרון ואכסיגרון שנותנין בו יין",
-      "en": "[Rashi commentary on line 42]: אניגרון ואכסיגרון שנותנין בו יין",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "he": "ושמן: מיא דסילקא. מים ששלקו",
-      "en": "[Rashi commentary on line 43]: ושמן: מיא דסילקא. מים ששלקו",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "he": "בהן תרדין: דכולהו שלקי. של שאר",
-      "en": "[Rashi commentary on line 44]: בהן תרדין: דכולהו שלקי. של שאר",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "he": "מיני ירקי: מידי דמשכר. ואין שכרות",
-      "en": "[Rashi commentary on line 45]: מיני ירקי: מידי דמשכר. ואין שכרות",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "he": "דרך אכילה: קעילית. שם מקום:",
-      "en": "[Rashi commentary on line 46]: דרך אכילה: קעילית. שם מקום:",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "he": "חייב",
-      "en": "[Rashi commentary on line 47]: חייב",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
+     "type": "sequence",
+     "description": "Argument flow",
+     "role": "anchor",
+     "priority": 1
     }
-  ],
-  "review": "reviewed"
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why did manna fall daily rather than once a year?",
+     "answer": "So that Israel would pray to God daily for their needs; annual provision would produce only annual prayer",
+     "sourceRefs": []
+    }
+   ],
+   "finalRuling": "Non-halachic aggadah: daily manna was designed to create daily prayer and constant divine dependence.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-076a-s02",
+   "lineRange": {
+    "startVilnaLine": 18,
+    "endVilnaLine": 40
+   },
+   "lines": [
+    {
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.76a.5"
+    },
+    {
+     "vilnaLine": 24,
+     "sefariaRef": "Yoma.76a.6"
+    },
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.76a.7"
+    },
+    {
+     "vilnaLine": 36,
+     "sefariaRef": "Yoma.76a.8"
+    },
+    {
+     "vilnaLine": 37,
+     "sefariaRef": "Yoma.76a.9"
+    },
+    {
+     "vilnaLine": 40,
+     "sefariaRef": "Yoma.76a.10"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.76a.5",
+    "Yoma.76a.6",
+    "Yoma.76a.7",
+    "Yoma.76a.8",
+    "Yoma.76a.9",
+    "Yoma.76a.10"
+   ],
+   "display": {
+    "whats": "Manna amount calculation and Isi ben Yehuda's comparison with the Flood",
+    "hint": "How much manna fell and how does it compare to the Flood waters?",
+    "title": "Tarfon Challenges Elazar on Manna Volume"
+   },
+   "learning": {
+    "ahaMoment": "Every analogy carries the burden of proving it is apt; Tarfon's challenge is a lesson in analogy-vetting.",
+    "memoryAnchor": "Tarfon challenges the Flood comparison: show the parallel is sound before the number stands.",
+    "learnerQuestion": "How did the rabbis calculate the total volume of manna, and why does the method matter?",
+    "coreTension": "Between Rabbi Elazar's derivation of manna volume by analogy from the Flood and Rabbi Tarfon's challenge that the analogy is internally inconsistent.",
+    "coreMove": "The debate is about the standard for a valid derivation by analogy. Tarfon argues that the Flood comparison succeeds only if the two situations share the same operative feature; an inconsistency in the parallel defeats the derivation.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "A quantitative derivation by analogy requires that the parallel case share the same operative feature; a demonstrated inconsistency in the analogy defeats the derivation."
+    },
+    "learningBlocker": "Students may focus on the quantity (how much manna fell) and miss the methodological argument about how analogies work."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-076a-l05",
+     "type": "ruling",
+     "label": "Rabbi Elazar derives manna calculation",
+     "speaker": "Rabbi Elazar HaModa'i",
+     "text": "Derives the manna's volume from the Flood and window calculation",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076a-l05",
+       "vilnaLine": 18
+      }
+     ]
+    },
+    {
+     "id": "yoma-076a-l06",
+     "type": "ruling",
+     "label": "Fifteen amot above peaks",
+     "speaker": "Rabbi Elazar HaModa'i",
+     "text": "The Flood verse provides the measurement framework",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076a-l06",
+       "vilnaLine": 24
+      }
+     ]
+    },
+    {
+     "id": "yoma-076a-l07",
+     "type": "ruling",
+     "label": "Goodness greater than punishment",
+     "speaker": "Rabbi Elazar",
+     "text": "Goodness exceeds punishment 500 to 1",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076a-l07",
+       "vilnaLine": 31
+      }
+     ]
+    },
+    {
+     "id": "yoma-076a-l08",
+     "type": "ruling",
+     "label": "Windows in a door calculation",
+     "speaker": "Gemara",
+     "text": "Four by four windows plus frame = many openings",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076a-l08",
+       "vilnaLine": 36
+      }
+     ]
+    },
+    {
+     "id": "yoma-076a-l09",
+     "type": "ruling",
+     "label": "Manna fell in one hour",
+     "speaker": "Isi ben Yehuda",
+     "text": "More miraculous than the Flood which took forty days",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076a-l09",
+       "vilnaLine": 37
+      }
+     ]
+    },
+    {
+     "id": "yoma-076a-l10",
+     "type": "objection",
+     "label": "Can we compare? Different timeframes",
+     "speaker": "Gemara",
+     "text": "Flood: forty days; manna: one hour - different scales",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076a-l10",
+       "vilnaLine": 40
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "manna",
+    "Flood",
+    "miracles",
+    "calculation"
+   ],
+   "concepts": {
+    "halachic": [],
+    "theological": [
+     "manna as a miracle surpassing the Flood - provision in an hour vs destruction in forty days"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "description": "Argument flow",
+     "role": "anchor",
+     "priority": 1
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why does Isi ben Yehuda consider the manna a greater miracle than the Flood?",
+     "answer": "The Flood took forty days to occur; the manna's equivalent provision fell in a single hour - far more concentrated and miraculous",
+     "sourceRefs": []
+    }
+   ],
+   "finalRuling": "Non-halachic aggadah: manna's hourly miracle surpasses the Flood's forty-day event.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-076a-s03",
+   "lineRange": {
+    "startVilnaLine": 41,
+    "endVilnaLine": 47
+   },
+   "lines": [
+    {
+     "vilnaLine": 41,
+     "sefariaRef": "Yoma.76a.11"
+    },
+    {
+     "vilnaLine": 43,
+     "sefariaRef": "Yoma.76a.12"
+    },
+    {
+     "vilnaLine": 45,
+     "sefariaRef": "Yoma.76a.13"
+    },
+    {
+     "vilnaLine": 46,
+     "sefariaRef": "Yoma.76a.14"
+    },
+    {
+     "vilnaLine": 47,
+     "sefariaRef": "Yoma.76a.15"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.76a.11",
+    "Yoma.76a.12",
+    "Yoma.76a.13",
+    "Yoma.76a.14",
+    "Yoma.76a.15"
+   ],
+   "display": {
+    "whats": "Isi ben Yehuda: manna in one hour; five YK afflictions and drinking subsumed under eating",
+    "hint": "Why does the mishna list only five afflictions when six are forbidden? Is drinking included in eating?",
+    "title": "Manna Greater Than the Flood"
+   },
+   "learning": {
+    "ahaMoment": "Halakhic derivation can follow physiological logic: eating and drinking share the same oral mechanism, so one prohibition covers both.",
+    "memoryAnchor": "Eating includes drinking - one verse, one body, two Yom Kippur prohibitions.",
+    "learnerQuestion": "How can a single verse about eating on Yom Kippur prohibit both eating and drinking?",
+    "coreTension": "Between the need for each prohibition to have its own explicit source and the possibility of deriving two prohibitions from a single verse.",
+    "coreMove": "The Gemara reasons that eating normally includes drinking (physiologically intertwined acts); a prohibition on eating therefore extends to drinking when both fall under the same bodily category of oral intake.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "When two acts are physiologically intertwined, a prohibition stated for one can extend to the other by analogy of function - one verse, one body mechanism, two prohibitions."
+    },
+    "learningBlocker": "Students may expect a separate explicit verse for drinking and be surprised that the eating verse can cover it."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-076a-l12",
+     "type": "ruling",
+     "label": "Five verses of inuy = five afflictions",
+     "speaker": "Rav Chisda",
+     "text": "Each of the five YK afflictions has its own Torah verse",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076a-l12",
+       "vilnaLine": 43
+      }
+     ]
+    },
+    {
+     "id": "yoma-076a-l13",
+     "type": "ruling",
+     "label": "Drinking subsumed under eating",
+     "speaker": "Gemara",
+     "text": "The mishna lists six but five is the category count",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076a-l13",
+       "vilnaLine": 45
+      }
+     ]
+    },
+    {
+     "id": "yoma-076a-l14",
+     "type": "ruling",
+     "label": "Proof from 'spend money on your desires'",
+     "speaker": "Rav Acha bar Yaakov",
+     "text": "Food and drink listed together under one category",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076a-l14",
+       "vilnaLine": 46
+      }
+     ]
+    },
+    {
+     "id": "yoma-076a-l15",
+     "type": "objection",
+     "label": "Sheikhar verse implies drinking is separate",
+     "speaker": "Gemara",
+     "text": "'Sheikhar' in the verse separates drink from food",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076a-l15",
+       "vilnaLine": 47
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "Yom-Kippur",
+    "afflictions",
+    "eating",
+    "drinking"
+   ],
+   "concepts": {
+    "halachic": [
+     "five YK afflictions correspond to five inuy verses",
+     "drinking subsumed under eating as a category"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "description": "Argument flow",
+     "role": "anchor",
+     "priority": 1
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "If the mishna lists six forbidden activities on Yom Kippur, why are there only five afflictions?",
+     "answer": "Drinking is subsumed under eating - both are forms of taking physical pleasure through consumption, counted as one category",
+     "sourceRefs": []
+    }
+   ],
+   "finalRuling": "Drinking is subsumed under eating; five afflictions correspond to five Torah verses of inuy.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [
+  {
+   "he": "עִנּוּי",
+   "translit": "Inuy",
+   "en": "Affliction or self-denial; the Torah uses this term in multiple contexts (Yom Kippur, metzora, Egypt) which the Gemara interprets through verbal analogy."
+  },
+  {
+   "he": "שֵׁכָר",
+   "translit": "Sheikhar",
+   "en": "Strong drink or intoxicating beverage; used in a verse to distinguish drinking from eating."
+  },
+  {
+   "he": "פָּרָשָׁה",
+   "translit": "Parasha",
+   "en": "Section or passage of the Torah; the Gemara cites five separate passages using the word inuy."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "he": "זה יהושע. שעלה עם משה עד תחומי ההר שנאמר (שמות כד)",
+   "en": "'This is Joshua' - who ascended with Moses up to the mountain's boundary, as it is stated (Exodus 24),",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "he": "ויקם משה ויהושע משרתו ויעל משה אל הר סיני והמתין לו",
+   "en": "'And Moses arose, and Joshua his attendant, and Moses went up to Mount Sinai'; and Joshua waited for him",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "he": "יהושע שם כל מ' יום שנאמר וישמע יהושע את קול העם ברעה",
+   "en": "there for all forty days, as it is stated, 'and Joshua heard the voice of the people as they shouted,'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "he": "למדנו שלא היה עמהם ושם היה יורד לו מן כנגד כל ישראל: עד",
+   "en": "from which we learn he was not with them, and there manna fell for him equal to all of Israel. 'How",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l01",
+    "yoma-076a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "he": "מתי אתה מגבב דברים ומביא עלינו.",
+   "en": "long will you heap up words and bring upon us'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "he": "מאין לך: חמש עשרה אמה מלמעלה.",
+   "en": "- from where do you derive it? 'Fifteen cubits above'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l18",
+    "yoma-076a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "he": "אם תאמר מלמעלה לארץ ולא פירש",
+   "en": "- if you say 'above' means above the earth, but it did not specify",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "he": "בהר או בבקעה וכי חמש עשרה בהר.",
+   "en": "whether on a mountain or in a valley, was it fifteen cubits on the mountain",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "he": "וכו': תיבה היכי סגיא. היאך עלתה",
+   "en": "etc.? 'How did the ark travel' - how did it rise",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "he": "לראשי ההרים אלא על כרחך מלמעל'",
+   "en": "to the mountaintops? Rather, you must say 'above'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "he": "דקרא מן השמים הוא והכי קאמר",
+   "en": "in the verse means above from the heavens, and this is what it means:",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "he": "על ידי גשמים גברו ט\"ו אמה ומן",
+   "en": "through rain, the waters rose fifteen cubits, and from",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "he": "התהום יצאו תחלה למלאות הבקעות",
+   "en": "the deep they first emerged to fill the valleys",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "he": "והשפלות עד שהשוו לראשי ההרים:",
+   "en": "and lowlands until they reached the level of the mountaintops.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "he": "מרובה. רבה על חברתה מדה טובה",
+   "en": "'Greater' - greater than its counterpart; a good measure",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "he": "מרובה על הרעה חמש מאות בה",
+   "en": "is five hundred times greater than a punishing one,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "he": "שבמדה טובה נאמר (שם לד) נוצר",
+   "en": "since regarding a good measure it is stated (there, 34), 'He preserves",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "he": "חסד לאלפים ובמדת פורענות הוא",
+   "en": "kindness for thousands,' while regarding a punishing measure it",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "he": "אומר על שלשים ועל רבעים אף",
+   "en": "says 'upon the third and fourth generations'; so too",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "he": "כאן מדת הטוב של ירידת המן",
+   "en": "here, the measure of goodness of the manna's descent",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "he": "רבתה על ירידת המבול: במדת",
+   "en": "was greater than the Flood's descent. 'Regarding the measure",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "he": "פורענות הוא אומר וארובות השמים.",
+   "en": "of punishment it says, and the windows of heaven'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "he": "לא ירד מבול אלא דרך שתי ארובות:",
+   "en": "- the Flood descended only through two windows.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "he": "ובמדה טובה הוא אומר דלתי שמים",
+   "en": "'And regarding the good measure it says, the doors of heaven",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "he": "פתח. ותנא כמה ארובות יש באורך",
+   "en": "he opened' - and it was taught: how many windows are there in the length",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "he": "דלת ארבע הרי לב' דלתות ח'",
+   "en": "of a door - four; so for two doors, eight",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "he": "ארובות ואחרי ששתי ארובות הורידו",
+   "en": "windows; and since two windows brought down",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "he": "גשמים גובה ט\"ו אמה ח' ארובות",
+   "en": "rain to a height of fifteen cubits, eight windows",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "he": "הורידו מן ששים אמות שהרי אמרת",
+   "en": "brought down manna to sixty cubits, since you said",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "he": "מדה טובה מרובה על של פורענות",
+   "en": "the good measure is greater than the punishing one,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "he": "וכ\"ש שאינה ממועטת הימנה: הא",
+   "en": "and all the more so it is not less than it. 'This",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l31",
+    "yoma-076a-l40"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "he": "לא דמיא. אדר' אלעזר המודעי",
+   "en": "cannot be compared' - refers back to Rabbi Elazar HaModa'i's",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l40"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "he": "קאי: פתיחה פתיחה גמר. מה",
+   "en": "statement. 'He derived opening from opening' - just as",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l40"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "he": "פתיחה האמורה בארובות המבול",
+   "en": "the 'opening' stated regarding the Flood's windows",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l40"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "he": "ט\"ו לב' ארובות אף פתיחה האמורה",
+   "en": "gave fifteen cubits for two windows, so too the 'opening' stated",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l40"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "he": "בדלתות המן ט\"ו אמה לכל ב'",
+   "en": "regarding the manna's doors gave fifteen cubits for every two",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l40"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "he": "ארובות: ובעשור. דחומש הפקודים",
+   "en": "windows. 'And on the tenth' - from the Book of Numbers,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l40",
+    "yoma-076a-l41"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "he": "ואך בעשור דשור או כשב שבת",
+   "en": "and 'but on the tenth' from the ox-or-sheep passage, 'a sabbath",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l41"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "he": "שבתון וגו' בכולהו כתיב תענו",
+   "en": "of complete rest,' etc. - in all of them it is written 'you shall afflict'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l41"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "he": "ועניתם: אניגרון. מין מאכל שנותנין",
+   "en": "or 'and you shall afflict.' 'Anigron' - a kind of dish into which",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l41",
+    "yoma-076a-l45"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "he": "בו יין ובכמה מקומות שנינו בתוספ'",
+   "en": "wine is placed, and in several places we learned in the Tosefta",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l45"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "he": "אניגרון ואכסיגרון שנותנין בו יין",
+   "en": "'anigron' and 'aksigron,' into which wine",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l45"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "he": "ושמן: מיא דסילקא. מים ששלקו",
+   "en": "and oil are placed. 'Beet water' - water in which",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l45"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "he": "בהן תרדין: דכולהו שלקי. של שאר",
+   "en": "chard was boiled. 'Of all boiled vegetables' - of other",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l45"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "he": "מיני ירקי: מידי דמשכר. ואין שכרות",
+   "en": "types of vegetables. 'Something intoxicating' - and drunkenness is not",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l45",
+    "yoma-076a-l47"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "he": "דרך אכילה: קעילית. שם מקום:",
+   "en": "the normal way of eating. 'Ke'ilit' - the name of a place.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l47"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "he": "חייב",
+   "en": "'Liable' - the daf ends mid-word here; the comment (explaining the liability via the priestly wine prohibition) continues on 76b.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076a-l47"
+   ]
+  }
+ ],
+ "review": "reviewed"
 }
