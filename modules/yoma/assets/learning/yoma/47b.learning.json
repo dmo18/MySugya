@@ -1,960 +1,961 @@
 {
-  "daf": "47b",
-  "canonicalRef": "Yoma 47b",
-  "summary": "The Gemara raises several dilemmas about the kometz: what if a meal-offering prepared in a pan is offered? What if the kometz is taken from bein habeinayim (the space between the fingers)? What if it is extended, pressed, or spread? And what if the High Priest scooped the handfuls at midnight?",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "47b",
+ "canonicalRef": "Yoma 47b",
+ "summary": "The Gemara raises several dilemmas about the kometz: what if a meal-offering prepared in a pan is offered? What if the kometz is taken from bein habeinayim (the space between the fingers)? What if it is extended, pressed, or spread? And what if the High Priest scooped the handfuls at midnight?",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-047b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 1
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-047b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 1
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.47b.1"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.47b.1"
-      ],
-      "display": {
-        "whats": "What is the law regarding a meal-offering prepared in a pan?",
-        "hint": "The Gemara opens by noting a ruling about a meal-offering prepared in a pan (machavat): how is the kometz taken from it when the offering is in liquid/semi-liquid form? The rules differ from dry flour.",
-        "title": "Kometz From a Pan-Offering: Same Measure, Different Texture"
-      },
-      "learning": {
-        "ahaMoment": "Pan meal-offering: the texture changes the kometz procedure - the three-finger rule still applies but the physical mechanics differ.",
-        "memoryAnchor": "Pan meal-offering requires kometz but the consistency makes it different from dry flour.",
-        "learnerQuestion": "Does the three-finger kometz measure still apply when the meal-offering is prepared in a pan rather than as dry flour?",
-        "coreTension": "A pan-prepared meal-offering (machavat) has a different, more semi-liquid consistency than loose dry flour, raising the question of whether the same kometz mechanics and measure can even apply to it.",
-        "coreMove": "The Gemara rules that the same three-finger kometz amount is taken from a pan-offering, with the physical technique adapting to the different consistency rather than the measure itself changing.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The kometz from a pan-prepared meal-offering (machavat) is still the three-finger measure - the consistency changes the physical technique, not the required amount."
-        },
-        "learningBlocker": "Learners may assume a different-consistency offering requires a different kometz quantity, missing that the Gemara holds the measure constant and adapts only the technique."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "A meal-offering prepared in a pan - the kometz is taken in the same manner but with adapted technique for the consistency.",
-          "id": "yoma-047b-l01",
-          "label": "Ruling: A meal-offering prepared in a pan -",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047b-l01",
-              "vilnaLine": 1
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "meal-offering",
-        "machavat",
-        "pan",
-        "kometz"
-      ],
-      "concepts": {
-        "halachic": [
-          "kometz from pan meal-offering"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "kometz laws",
-        "meal-offering varieties"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Because a pan-prepared meal-offering has a different consistency than dry flour, it requires a different kometz quantity than the standard three-finger measure.",
-          "correction": "The kometz quantity stays the same three-finger measure regardless of consistency - only the physical technique adapts to the semi-liquid texture of a pan-prepared offering.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "object",
-          "description": "Pan meal-offering vs standard meal-offering - two vessel types, different kometz mechanics",
-          "role": "contrast",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "The same three-finger amount is taken, but the technique adapts to the semi-liquid consistency of the pan-prepared offering.",
-          "question": "How is kometz taken from a meal-offering prepared in a pan?"
-        }
-      ],
-      "finalRuling": "Kometz from a pan meal-offering uses the same measure but adapted technique.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 2,
-      "id": "yoma-047b-s02",
-      "lineRange": {
-        "startVilnaLine": 5,
-        "endVilnaLine": 23
-      },
-      "lines": [
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.47b.2"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.47b.3"
-        },
-        {
-          "vilnaLine": 11,
-          "sefariaRef": "Yoma.47b.4"
-        },
-        {
-          "vilnaLine": 17,
-          "sefariaRef": "Yoma.47b.5"
-        },
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.47b.6"
-        },
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.47b.7"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.47b.2",
-        "Yoma.47b.3",
-        "Yoma.47b.4",
-        "Yoma.47b.5",
-        "Yoma.47b.6",
-        "Yoma.47b.7"
-      ],
-      "display": {
-        "whats": "What is the law if the kometz was taken 'bein habeinayim' (from the space between the fingers)?",
-        "hint": "R. Yehoshua ben Uza'a raised the dilemma: what if incense was taken from the space between the fingers rather than by cupping the fingers together? This is a bein habeinayim dilemma - the flour/incense sits in the gaps between fingers rather than on the pads.",
-        "title": "Between the Fingers: Does It Count?"
-      },
-      "learning": {
-        "ahaMoment": "Bein habeinayim: the flour is in the spaces between fingers, not on the pads. Valid kometz? The Gemara builds a case by analogy to other 'in-between' scenarios.",
-        "memoryAnchor": "If the offering settled between the fingers instead of on the pads - valid or not? The answer depends on what 'handfuls' means physically.",
-        "learnerQuestion": "If incense or flour settles in the gaps between the fingers rather than on the finger-pads, is that still a valid kometz?",
-        "coreTension": "A natural cupped grip leaves some material on the finger-pads and some in the gaps between fingers, and R. Yehoshua ben Uza'a's dilemma asks whether material resting only in those inter-finger gaps - not the pads - still counts as being 'in his hand.'",
-        "coreMove": "The Gemara narrows the dilemma specifically to material resting only between the fingers (since pad-contact is agreed to be valid) and weighs analogies for and against counting the inter-finger space as part of 'his handfuls,' leaving the question unresolved.",
-        "takeaway": {
-          "type": "open_question",
-          "text": "Whether incense or flour resting only in the spaces between the fingers (bein habeinayim), rather than on the finger-pads, constitutes a valid kometz is a dilemma the Gemara raises and leaves unresolved."
-        },
-        "learningBlocker": "Learners may assume any flour touching any part of the hand counts as a valid kometz, missing that the Gemara specifically isolates the inter-finger gaps as a distinct, unresolved boundary case from the agreed-valid finger-pads."
-      },
-      "argumentFlow": [
-        {
-          "type": "question",
-          "speaker": "R. Yehoshua ben Uza'a",
-          "text": "What if the incense was taken from bein habeinayim (space between fingers)?",
-          "id": "yoma-047b-l05",
-          "label": "Question: What if the incense was taken from",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047b-l05",
-              "vilnaLine": 5
-            }
-          ]
-        },
-        {
-          "type": "analysis",
-          "speaker": "Gemara",
-          "text": "The flour between the fingers - is it considered 'in his hand' or 'outside his hand'?",
-          "id": "yoma-047b-l09",
-          "label": "Analysis: The flour between the fingers - is",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047b-l09",
-              "vilnaLine": 9
-            }
-          ]
-        },
-        {
-          "type": "resolution",
-          "speaker": "Gemara",
-          "text": "Let the dilemma be about the flour between the fingers specifically - is that location 'his handfuls' or not?",
-          "id": "yoma-047b-l11",
-          "label": "Resolution: Let the dilemma be about the flour",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047b-l11",
-              "vilnaLine": 11
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "bein habeinayim",
-        "kometz",
-        "between fingers",
-        "dilemma"
-      ],
-      "concepts": {
-        "halachic": [
-          "kometz validity if between fingers"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "kometz laws",
-        "meal-offering precision laws"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Any incense or flour touching any part of the High Priest's cupped hand automatically counts as a valid kometz, with no distinction between locations.",
-          "correction": "The Gemara distinguishes the finger-pads (agreed valid) from the spaces between the fingers (bein habeinayim) - whether material resting only in those gaps counts as a valid kometz is raised as a specific, unresolved dilemma.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "label": "bein habeinayim - flour in inter-finger spaces vs on fingerpads"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Whether incense or flour that fell into the spaces between the fingers (rather than cupped on the finger-pads) constitutes a valid kometz.",
-          "question": "What is the 'bein habeinayim' dilemma in kometz law?"
-        }
-      ],
-      "finalRuling": "Whether flour taken from between the fingers (bein habeinayim) constitutes a valid kometz remains an unresolved dilemma.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 3,
-      "id": "yoma-047b-s03",
-      "lineRange": {
-        "startVilnaLine": 26,
-        "endVilnaLine": 35
-      },
-      "lines": [
-        {
-          "vilnaLine": 26,
-          "sefariaRef": "Yoma.47b.8"
-        },
-        {
-          "vilnaLine": 30,
-          "sefariaRef": "Yoma.47b.9"
-        },
-        {
-          "vilnaLine": 32,
-          "sefariaRef": "Yoma.47b.10"
-        },
-        {
-          "vilnaLine": 34,
-          "sefariaRef": "Yoma.47b.11"
-        },
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.47b.12"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.47b.8",
-        "Yoma.47b.9",
-        "Yoma.47b.10",
-        "Yoma.47b.11",
-        "Yoma.47b.12"
-      ],
-      "display": {
-        "whats": "What if the kometz was extended, pressed flat, or spread out?",
-        "hint": "The Gemara raises further kometz dilemmas: what if the incense was extended (pashat) - spread beyond the finger boundaries? What if it was pressed (machatz) flat? What if it was spread wide (pizer)? Each represents a different way the kometz geometry might be altered.",
-        "title": "Stretched, Pressed, or Scattered: Three Ways to Break the Kometz"
-      },
-      "learning": {
-        "ahaMoment": "Pashat, machatz, pizer: three ways the kometz shape might be altered. Each is a separate dilemma about whether the exact kometz requirement is still met.",
-        "memoryAnchor": "The mnemonic 'bein habeinayim, pashat, machatz, pizer, v'chishev' lists all the kometz geometry dilemmas.",
-        "learnerQuestion": "If the kometz is extended beyond the natural finger boundaries, pressed flat, or spread out, does it still count as a valid 'handful'?",
-        "coreTension": "The kometz's validity depends on a specific natural cupped shape, but the Gemara raises three distinct ways that shape might be altered - extended (pashat), pressed flat (machatz), or spread wide (pizer) - each testing whether 'his handfuls' still applies once the geometry changes.",
-        "coreMove": "The Gemara raises all three geometry dilemmas in turn, analyzing whether each altered shape still satisfies 'his handfuls,' and leaves all three unresolved as boundary cases defining the outer limits of the kometz requirement.",
-        "takeaway": {
-          "type": "open_question",
-          "text": "Whether an extended (pashat), pressed-flat (machatz), or spread-out (pizer) kometz still satisfies 'his handfuls' are three distinct dilemmas the Gemara raises and leaves unresolved."
-        },
-        "learningBlocker": "Learners may assume these are minor variations of the same single question, missing that the Gemara treats pashat, machatz, and pizer as three distinct geometry dilemmas, each tested separately."
-      },
-      "argumentFlow": [
-        {
-          "type": "question",
-          "speaker": "Gemara",
-          "text": "Pashat (extended), machatz (pressed), pizer (spread) - three kometz geometry dilemmas.",
-          "id": "yoma-047b-l26",
-          "label": "Question: Pashat (extended), machatz (pressed), pizer (spread) -",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047b-l26",
-              "vilnaLine": 26
-            }
-          ]
-        },
-        {
-          "type": "analysis",
-          "speaker": "Gemara",
-          "text": "Each alters the physical shape of what is in the hand - does 'his handfuls' require the natural cupped shape?",
-          "id": "yoma-047b-l30",
-          "label": "Analysis: Each alters the physical shape of what",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047b-l30",
-              "vilnaLine": 30
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "These dilemmas remain unresolved - they are boundary cases for the kometz requirement.",
-          "id": "yoma-047b-l35",
-          "label": "Ruling: These dilemmas remain unresolved - they are",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047b-l35",
-              "vilnaLine": 35
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "kometz",
-        "pashat",
-        "machatz",
-        "pizer",
-        "geometry dilemmas"
-      ],
-      "concepts": {
-        "halachic": [
-          "kometz validity when shape altered"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "kometz precision laws",
-        "meal-offering laws"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Pashat, machatz, and pizer are essentially the same question about altering the kometz, raised once and not as three separate dilemmas.",
-          "correction": "The Gemara treats pashat (extended), machatz (pressed flat), and pizer (spread wide) as three distinct geometry dilemmas, each analyzed and left unresolved in its own right.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "label": "three kometz geometry alterations: extended, pressed, spread"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "'Extended' - when the kometz is spread or extended beyond the natural boundaries of the three fingers; a dilemma whether this invalidates the kometz.",
-          "question": "What is 'pashat' in the context of kometz law?"
-        }
-      ],
-      "finalRuling": "Kometz geometry dilemmas (pashat, machatz, pizer) remain unresolved.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 4,
-      "id": "yoma-047b-s04",
-      "lineRange": {
-        "startVilnaLine": 37,
-        "endVilnaLine": 37
-      },
-      "lines": [
-        {
-          "vilnaLine": 37,
-          "sefariaRef": "Yoma.47b.13"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.47b.13"
-      ],
-      "display": {
-        "whats": "What if the High Priest scooped the handfuls at midnight?",
-        "hint": "Another kometz dilemma: the Yom Kippur incense service should be done during the day. If the High Priest scooped the handfuls at midnight (bein hashemashot or before dawn), is the kometz valid?",
-        "title": "A Midnight Kometz: Can Daylight Validate It Retroactively?"
-      },
-      "learning": {
-        "ahaMoment": "Midnight kometz: taken before the permitted time. The question is whether daylight validates a pre-dawn kometz.",
-        "memoryAnchor": "If the kometz is taken at midnight, does it become valid when day comes?",
-        "learnerQuestion": "If the High Priest scoops the incense handfuls at midnight, before the Yom Kippur service may begin, is the kometz valid once day arrives?",
-        "coreTension": "The Yom Kippur incense service must occur by day, but the Gemara raises the dilemma of a kometz taken too early - at midnight - asking whether the act is invalid from the moment it happens or whether the arrival of daylight can retroactively validate it.",
-        "coreMove": "The Gemara raises the timing dilemma and treats it on the model of other Temple acts performed before their permitted time, which cannot be retroactively validated once the proper time arrives - so a kometz taken before the permitted time is invalid from the outset.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Taking the kometz at midnight, before the Yom Kippur incense service may begin, is invalid - like other Temple acts performed before their permitted time, the later arrival of the proper time does not retroactively validate it."
-        },
-        "learningBlocker": "Learners may assume an act performed too early simply waits to 'become' valid once the proper time arrives, missing that the Gemara treats premature Temple acts as invalid from the outset, not retroactively curable."
-      },
-      "argumentFlow": [
-        {
-          "type": "question",
-          "speaker": "Gemara",
-          "text": "What if he scooped the handfuls at midnight? Is the kometz valid?",
-          "id": "yoma-047b-l37",
-          "label": "Question: What if he scooped the handfuls at",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047b-l37",
-              "vilnaLine": 37
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "kometz",
-        "midnight",
-        "timing",
-        "Yom Kippur"
-      ],
-      "concepts": {
-        "halachic": [
-          "kometz timing - must be by day"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Yom Kippur service timing laws",
-        "kometz laws"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "If the High Priest takes the kometz too early, at midnight, the act becomes valid retroactively once daylight - the permitted time - arrives.",
-          "correction": "The Gemara treats a kometz taken before its permitted time as invalid from the outset, following the pattern of other Temple acts performed too early - the later arrival of the proper time does not retroactively validate it.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "timeline",
-          "description": "Midnight kometz vs permitted dawn: sequence of when scooping must occur",
-          "role": "anchor",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "The Yom Kippur incense service must be performed by day. If the High Priest took the kometz at midnight, it may be invalid; the question is whether daylight retrospectively validates it.",
-          "question": "What is the dilemma about taking the kometz at midnight?"
-        }
-      ],
-      "finalRuling": "Taking the kometz at midnight is invalid; all Yom Kippur incense service must be during the day.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.47b.1"
     }
-  ],
-  "glossary": [
-    {
-      "he": "בֵּין הַבֵּינַיִם",
-      "translit": "bein habeinayim",
-      "en": "Between - literally 'between the betweens'; the space between the fingers. A dilemma whether incense in this space counts as a valid kometz."
+   ],
+   "sefariaRefs": [
+    "Yoma.47b.1"
+   ],
+   "display": {
+    "whats": "What is the law regarding a meal-offering prepared in a pan?",
+    "hint": "The Gemara opens by noting a ruling about a meal-offering prepared in a pan (machavat): how is the kometz taken from it when the offering is in liquid/semi-liquid form? The rules differ from dry flour.",
+    "title": "Kometz From a Pan-Offering: Same Measure, Different Texture"
+   },
+   "learning": {
+    "ahaMoment": "Pan meal-offering: the texture changes the kometz procedure - the three-finger rule still applies but the physical mechanics differ.",
+    "memoryAnchor": "Pan meal-offering requires kometz but the consistency makes it different from dry flour.",
+    "learnerQuestion": "Does the three-finger kometz measure still apply when the meal-offering is prepared in a pan rather than as dry flour?",
+    "coreTension": "A pan-prepared meal-offering (machavat) has a different, more semi-liquid consistency than loose dry flour, raising the question of whether the same kometz mechanics and measure can even apply to it.",
+    "coreMove": "The Gemara rules that the same three-finger kometz amount is taken from a pan-offering, with the physical technique adapting to the different consistency rather than the measure itself changing.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The kometz from a pan-prepared meal-offering (machavat) is still the three-finger measure - the consistency changes the physical technique, not the required amount."
     },
+    "learningBlocker": "Learners may assume a different-consistency offering requires a different kometz quantity, missing that the Gemara holds the measure constant and adapts only the technique."
+   },
+   "argumentFlow": [
     {
-      "he": "פָּשַׁט",
-      "translit": "pashat",
-      "en": "Extended/spread - one of the kometz geometry dilemmas where the handful is extended beyond the natural finger boundaries."
-    },
-    {
-      "he": "מַחְתָּה",
-      "translit": "machavat",
-      "en": "A flat pan for preparing meal-offerings; kometz from pan-prepared offerings has different physical mechanics."
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "A meal-offering prepared in a pan - the kometz is taken in the same manner but with adapted technique for the consistency.",
+     "id": "yoma-047b-l01",
+     "label": "Ruling: A meal-offering prepared in a pan -",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047b-l01",
+       "vilnaLine": 1
+      }
+     ]
     }
-  ],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "en": "Rashi: opens - 'and on a griddle and on a pan' - which are types of frying that are baked first and then",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "Rashi: continues - crumbled again, and their kometz scooping is more prone to coming out heaped than the kometz of a fine flour meal offering",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "Rashi: continues - since its overflow falls off by itself, one needs to wipe with his thumb the overflow from above",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "Rashi: continues - and with his small finger the overflow from below. 'But is there not melika' - as it was taught regarding it too",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "Rashi: continues - 'and this is a difficult service' (in the chapter HaKol Shochatin):",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "Rashi: continues - 'but is there not chafinah' - that inside the Sanctuary, as it was taught",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "Rashi: continues - regarding it too, further on in this chapter (49b): 'and this",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "Rashi: continues - is a difficult service' - this is our reading: 'say",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "Rashi: continues - this is one of the difficult services",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Rashi: continues - in the Temple.' 'Bein habeinayim' - that which enters",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "Rashi: continues - between the fingers - is it part of the kometz, or",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "Rashi: continues - is it leftover. 'As the Master said' - in tractate Menachot",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l11"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Rashi: continues - in the first chapter (9a): 'that diminished' - that some scattered from them:",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l11"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Rashi: continues - 'one may not burn,' etc. As it was taught (Menachot",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l11"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "Rashi: continues - 9a): 'from the meal offering' - to exclude one that is deficient, whether it",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l11"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "Rashi: continues - or its kometz is deficient. 'Anything from which'",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l17"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Rashi: continues - 'to the fires' - since you have given to the fire all",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l17"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Rashi: continues - its required portion, the leftovers are included in 'you shall not burn'",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l17"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "Rashi: continues - as it is written (Leviticus 2): 'you shall not burn from it",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l17"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Rashi: continues - a fire offering to the Lord.' You shall not burn something that was given",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l17"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "Rashi: continues - from it to the fire.' 'That he burns it in the category of wood.'",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Rashi: continues - for he stipulates and says: if it is leftover",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Rashi: continues - it is like any other wood.' 'Like Rabbi Eliezer.'",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Rashi: continues - who disagrees in tractate Zevachim (77b) regarding the limbs of",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Rashi: continues - a sin offering that are leftover, since the corresponding sacrificial portions",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Rashi: continues - were burned, and the limbs of the sin offering became mixed",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Rashi: continues - with the limbs of a burnt offering, which are wholly burned; Rabbi Eliezer",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Rashi: continues - says he should place it all above, and I consider",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Rashi: continues - the flesh of the sin offering above as though it were",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "Rashi: continues - wood, and he derives the reason from this verse: 'and to",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Rashi: continues - the altar they shall not offer up,' etc., right after this",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "Rashi: continues - verse, 'you shall not burn from it' is written:",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "Rashi: continues - 'because they scoop with fat fingers' - priests who are fat, whose flesh of",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "Rashi: continues - their fingers protrudes and presses this",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "Rashi: continues - into that, so there is no in-between there. 'For Rabbi Eliezer",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "Rashi: continues - too, ab initio, because they scoop with fat fingers.' Meaning: not that",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Rashi: continues - Rabbi Eliezer permitted offering leftover",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "Rashi: continues - in the category of wood except because of the mixture of the limbs of",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "Rashi: continues - the burnt offering, so that they would not need to go out to the place of burning,",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "Rashi: continues - as the Rabbis say. 'If he derives full from full'",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "Rashi: continues - just as a kometz, its overflow is not burned, so too",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Rashi: continues - a chafinah's overflow is invalid.' 'It is the same answer.'",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Rashi: continues - for we asked above what if one makes a vessel for chafinah,",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Rashi: continues - for these two are the same reasoning,",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Rashi: continues - since both the overflow rule and the vessel rule for the kometz are derived from 'his fistful,'",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "Rashi: continues - as we said above: 'with his fist,' that he should not make",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "Rashi: continues - a vessel for the fistful; and regarding overflow too we learned",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "Rashi: continues - above: 'one might think heaped,' the verse teaches 'with his fist.' And if",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "Rashi: continues - it was resolved for us that we apply to chafinah the exposition",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "Rashi: continues - of 'with his fist' by verbal analogy, as if it were written",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "Rashi: continues - 'with his handfuls,' both questions would be resolved from it. 'Rav",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "Rashi: continues - Pappa's question is this: absent the verbal analogy of full to full, there would be room to ask",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l30"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "Rashi: continues - this; or alternatively, if we do not apply 'with his handfuls' regarding chafinah, but that question above",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l30"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "Rashi: continues - of making a vessel for chafinah would not need to be asked, except from the verbal analogy of 'and he shall take'",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l30"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "Rashi: continues - we would not derive that one should not make a vessel for the fistful, for taking by means of something else",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l30"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "Rashi: continues - is still called taking, in tractate Sukkah (37a): 'but that is lacking' - since it enters",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l30"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "Rashi: continues - into the in-between by itself, and he did not intend it. 'As people typically scoop.'",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l32"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "Rashi: continues - the side of his fingers downward. 'With his fingertips' - the back of his hand downward",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l32"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "Rashi: continues - and he inserted his fingers into the flour and scooped a complete fistful until he filled the entire",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l32"
-      ]
-    },
-    {
-      "vilnaLine": 60,
-      "en": "Rashi: continues - length of his palm. 'From below upward' - that he turned the back of his hand downward and lifted",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l34"
-      ]
-    },
-    {
-      "vilnaLine": 61,
-      "en": "Rashi: continues - the fistful with his fingertips into his palm. 'From the side' - meaning, not",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l34"
-      ]
-    },
-    {
-      "vilnaLine": 62,
-      "en": "Rashi: continues - in the normal manner of scoopers, with the back of his hand down, and he did not insert his fingers into the flour,",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l34"
-      ]
-    },
-    {
-      "vilnaLine": 63,
-      "en": "Rashi: continues - but rather dragged his hand over its own back with pressure, and the flour entered his palm by way of",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l34"
-      ]
-    },
-    {
-      "vilnaLine": 64,
-      "en": "Rashi: continues - his fingers. 'As people typically scoop with both hands' - the edge of the palm downward:",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l35"
-      ]
-    },
-    {
-      "vilnaLine": 65,
-      "en": "Rashi: concludes - 'he stuck it' - the daf ends mid-word here; the comment (whether the kometz stuck to the walls of the vessel is valid) continues on 48a.",
-      "linkedGemaraLineIds": [
-        "yoma-047b-l37"
-      ]
+   ],
+   "topicTags": [
+    "meal-offering",
+    "machavat",
+    "pan",
+    "kometz"
+   ],
+   "concepts": {
+    "halachic": [
+     "kometz from pan meal-offering"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "kometz laws",
+    "meal-offering varieties"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Because a pan-prepared meal-offering has a different consistency than dry flour, it requires a different kometz quantity than the standard three-finger measure.",
+     "correction": "The kometz quantity stays the same three-finger measure regardless of consistency - only the physical technique adapts to the semi-liquid texture of a pan-prepared offering.",
+     "correctedByStepId": null
     }
-  ]
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "object",
+     "description": "Pan meal-offering vs standard meal-offering - two vessel types, different kometz mechanics",
+     "role": "contrast",
+     "priority": 1
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "The same three-finger amount is taken, but the technique adapts to the semi-liquid consistency of the pan-prepared offering.",
+     "question": "How is kometz taken from a meal-offering prepared in a pan?"
+    }
+   ],
+   "finalRuling": "Kometz from a pan meal-offering uses the same measure but adapted technique.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-047b-s02",
+   "lineRange": {
+    "startVilnaLine": 5,
+    "endVilnaLine": 23
+   },
+   "lines": [
+    {
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.47b.2"
+    },
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.47b.3"
+    },
+    {
+     "vilnaLine": 11,
+     "sefariaRef": "Yoma.47b.4"
+    },
+    {
+     "vilnaLine": 17,
+     "sefariaRef": "Yoma.47b.5"
+    },
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.47b.6"
+    },
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.47b.7"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.47b.2",
+    "Yoma.47b.3",
+    "Yoma.47b.4",
+    "Yoma.47b.5",
+    "Yoma.47b.6",
+    "Yoma.47b.7"
+   ],
+   "display": {
+    "whats": "What is the law if the kometz was taken 'bein habeinayim' (from the space between the fingers)?",
+    "hint": "R. Yehoshua ben Uza'a raised the dilemma: what if incense was taken from the space between the fingers rather than by cupping the fingers together? This is a bein habeinayim dilemma - the flour/incense sits in the gaps between fingers rather than on the pads.",
+    "title": "Between the Fingers: Does It Count?"
+   },
+   "learning": {
+    "ahaMoment": "Bein habeinayim: the flour is in the spaces between fingers, not on the pads. Valid kometz? The Gemara builds a case by analogy to other 'in-between' scenarios.",
+    "memoryAnchor": "If the offering settled between the fingers instead of on the pads - valid or not? The answer depends on what 'handfuls' means physically.",
+    "learnerQuestion": "If incense or flour settles in the gaps between the fingers rather than on the finger-pads, is that still a valid kometz?",
+    "coreTension": "A natural cupped grip leaves some material on the finger-pads and some in the gaps between fingers, and R. Yehoshua ben Uza'a's dilemma asks whether material resting only in those inter-finger gaps - not the pads - still counts as being 'in his hand.'",
+    "coreMove": "The Gemara narrows the dilemma specifically to material resting only between the fingers (since pad-contact is agreed to be valid) and weighs analogies for and against counting the inter-finger space as part of 'his handfuls,' leaving the question unresolved.",
+    "takeaway": {
+     "type": "open_question",
+     "text": "Whether incense or flour resting only in the spaces between the fingers (bein habeinayim), rather than on the finger-pads, constitutes a valid kometz is a dilemma the Gemara raises and leaves unresolved."
+    },
+    "learningBlocker": "Learners may assume any flour touching any part of the hand counts as a valid kometz, missing that the Gemara specifically isolates the inter-finger gaps as a distinct, unresolved boundary case from the agreed-valid finger-pads."
+   },
+   "argumentFlow": [
+    {
+     "type": "question",
+     "speaker": "R. Yehoshua ben Uza'a",
+     "text": "What if the incense was taken from bein habeinayim (space between fingers)?",
+     "id": "yoma-047b-l05",
+     "label": "Question: What if the incense was taken from",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047b-l05",
+       "vilnaLine": 5
+      }
+     ]
+    },
+    {
+     "type": "analysis",
+     "speaker": "Gemara",
+     "text": "The flour between the fingers - is it considered 'in his hand' or 'outside his hand'?",
+     "id": "yoma-047b-l09",
+     "label": "Analysis: The flour between the fingers - is",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047b-l09",
+       "vilnaLine": 9
+      }
+     ]
+    },
+    {
+     "type": "resolution",
+     "speaker": "Gemara",
+     "text": "Let the dilemma be about the flour between the fingers specifically - is that location 'his handfuls' or not?",
+     "id": "yoma-047b-l11",
+     "label": "Resolution: Let the dilemma be about the flour",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047b-l11",
+       "vilnaLine": 11
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "bein habeinayim",
+    "kometz",
+    "between fingers",
+    "dilemma"
+   ],
+   "concepts": {
+    "halachic": [
+     "kometz validity if between fingers"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "kometz laws",
+    "meal-offering precision laws"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Any incense or flour touching any part of the High Priest's cupped hand automatically counts as a valid kometz, with no distinction between locations.",
+     "correction": "The Gemara distinguishes the finger-pads (agreed valid) from the spaces between the fingers (bein habeinayim) - whether material resting only in those gaps counts as a valid kometz is raised as a specific, unresolved dilemma.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "label": "bein habeinayim - flour in inter-finger spaces vs on fingerpads"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Whether incense or flour that fell into the spaces between the fingers (rather than cupped on the finger-pads) constitutes a valid kometz.",
+     "question": "What is the 'bein habeinayim' dilemma in kometz law?"
+    }
+   ],
+   "finalRuling": "Whether flour taken from between the fingers (bein habeinayim) constitutes a valid kometz remains an unresolved dilemma.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-047b-s03",
+   "lineRange": {
+    "startVilnaLine": 26,
+    "endVilnaLine": 35
+   },
+   "lines": [
+    {
+     "vilnaLine": 26,
+     "sefariaRef": "Yoma.47b.8"
+    },
+    {
+     "vilnaLine": 30,
+     "sefariaRef": "Yoma.47b.9"
+    },
+    {
+     "vilnaLine": 32,
+     "sefariaRef": "Yoma.47b.10"
+    },
+    {
+     "vilnaLine": 34,
+     "sefariaRef": "Yoma.47b.11"
+    },
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.47b.12"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.47b.8",
+    "Yoma.47b.9",
+    "Yoma.47b.10",
+    "Yoma.47b.11",
+    "Yoma.47b.12"
+   ],
+   "display": {
+    "whats": "What if the kometz was extended, pressed flat, or spread out?",
+    "hint": "The Gemara raises further kometz dilemmas: what if the incense was extended (pashat) - spread beyond the finger boundaries? What if it was pressed (machatz) flat? What if it was spread wide (pizer)? Each represents a different way the kometz geometry might be altered.",
+    "title": "Stretched, Pressed, or Scattered: Three Ways to Break the Kometz"
+   },
+   "learning": {
+    "ahaMoment": "Pashat, machatz, pizer: three ways the kometz shape might be altered. Each is a separate dilemma about whether the exact kometz requirement is still met.",
+    "memoryAnchor": "The mnemonic 'bein habeinayim, pashat, machatz, pizer, v'chishev' lists all the kometz geometry dilemmas.",
+    "learnerQuestion": "If the kometz is extended beyond the natural finger boundaries, pressed flat, or spread out, does it still count as a valid 'handful'?",
+    "coreTension": "The kometz's validity depends on a specific natural cupped shape, but the Gemara raises three distinct ways that shape might be altered - extended (pashat), pressed flat (machatz), or spread wide (pizer) - each testing whether 'his handfuls' still applies once the geometry changes.",
+    "coreMove": "The Gemara raises all three geometry dilemmas in turn, analyzing whether each altered shape still satisfies 'his handfuls,' and leaves all three unresolved as boundary cases defining the outer limits of the kometz requirement.",
+    "takeaway": {
+     "type": "open_question",
+     "text": "Whether an extended (pashat), pressed-flat (machatz), or spread-out (pizer) kometz still satisfies 'his handfuls' are three distinct dilemmas the Gemara raises and leaves unresolved."
+    },
+    "learningBlocker": "Learners may assume these are minor variations of the same single question, missing that the Gemara treats pashat, machatz, and pizer as three distinct geometry dilemmas, each tested separately."
+   },
+   "argumentFlow": [
+    {
+     "type": "question",
+     "speaker": "Gemara",
+     "text": "Pashat (extended), machatz (pressed), pizer (spread) - three kometz geometry dilemmas.",
+     "id": "yoma-047b-l26",
+     "label": "Question: Pashat (extended), machatz (pressed), pizer (spread) -",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047b-l26",
+       "vilnaLine": 26
+      }
+     ]
+    },
+    {
+     "type": "analysis",
+     "speaker": "Gemara",
+     "text": "Each alters the physical shape of what is in the hand - does 'his handfuls' require the natural cupped shape?",
+     "id": "yoma-047b-l30",
+     "label": "Analysis: Each alters the physical shape of what",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047b-l30",
+       "vilnaLine": 30
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "These dilemmas remain unresolved - they are boundary cases for the kometz requirement.",
+     "id": "yoma-047b-l35",
+     "label": "Ruling: These dilemmas remain unresolved - they are",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047b-l35",
+       "vilnaLine": 35
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "kometz",
+    "pashat",
+    "machatz",
+    "pizer",
+    "geometry dilemmas"
+   ],
+   "concepts": {
+    "halachic": [
+     "kometz validity when shape altered"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "kometz precision laws",
+    "meal-offering laws"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Pashat, machatz, and pizer are essentially the same question about altering the kometz, raised once and not as three separate dilemmas.",
+     "correction": "The Gemara treats pashat (extended), machatz (pressed flat), and pizer (spread wide) as three distinct geometry dilemmas, each analyzed and left unresolved in its own right.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "label": "three kometz geometry alterations: extended, pressed, spread"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "'Extended' - when the kometz is spread or extended beyond the natural boundaries of the three fingers; a dilemma whether this invalidates the kometz.",
+     "question": "What is 'pashat' in the context of kometz law?"
+    }
+   ],
+   "finalRuling": "Kometz geometry dilemmas (pashat, machatz, pizer) remain unresolved.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 4,
+   "id": "yoma-047b-s04",
+   "lineRange": {
+    "startVilnaLine": 37,
+    "endVilnaLine": 37
+   },
+   "lines": [
+    {
+     "vilnaLine": 37,
+     "sefariaRef": "Yoma.47b.13"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.47b.13"
+   ],
+   "display": {
+    "whats": "What if the High Priest scooped the handfuls at midnight?",
+    "hint": "Another kometz dilemma: the Yom Kippur incense service should be done during the day. If the High Priest scooped the handfuls at midnight (bein hashemashot or before dawn), is the kometz valid?",
+    "title": "A Midnight Kometz: Can Daylight Validate It Retroactively?"
+   },
+   "learning": {
+    "ahaMoment": "Midnight kometz: taken before the permitted time. The question is whether daylight validates a pre-dawn kometz.",
+    "memoryAnchor": "If the kometz is taken at midnight, does it become valid when day comes?",
+    "learnerQuestion": "If the High Priest scoops the incense handfuls at midnight, before the Yom Kippur service may begin, is the kometz valid once day arrives?",
+    "coreTension": "The Yom Kippur incense service must occur by day, but the Gemara raises the dilemma of a kometz taken too early - at midnight - asking whether the act is invalid from the moment it happens or whether the arrival of daylight can retroactively validate it.",
+    "coreMove": "The Gemara raises the timing dilemma and treats it on the model of other Temple acts performed before their permitted time, which cannot be retroactively validated once the proper time arrives - so a kometz taken before the permitted time is invalid from the outset.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Taking the kometz at midnight, before the Yom Kippur incense service may begin, is invalid - like other Temple acts performed before their permitted time, the later arrival of the proper time does not retroactively validate it."
+    },
+    "learningBlocker": "Learners may assume an act performed too early simply waits to 'become' valid once the proper time arrives, missing that the Gemara treats premature Temple acts as invalid from the outset, not retroactively curable."
+   },
+   "argumentFlow": [
+    {
+     "type": "question",
+     "speaker": "Gemara",
+     "text": "What if he scooped the handfuls at midnight? Is the kometz valid?",
+     "id": "yoma-047b-l37",
+     "label": "Question: What if he scooped the handfuls at",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047b-l37",
+       "vilnaLine": 37
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "kometz",
+    "midnight",
+    "timing",
+    "Yom Kippur"
+   ],
+   "concepts": {
+    "halachic": [
+     "kometz timing - must be by day"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Yom Kippur service timing laws",
+    "kometz laws"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "If the High Priest takes the kometz too early, at midnight, the act becomes valid retroactively once daylight - the permitted time - arrives.",
+     "correction": "The Gemara treats a kometz taken before its permitted time as invalid from the outset, following the pattern of other Temple acts performed too early - the later arrival of the proper time does not retroactively validate it.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "timeline",
+     "description": "Midnight kometz vs permitted dawn: sequence of when scooping must occur",
+     "role": "anchor",
+     "priority": 1
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "The Yom Kippur incense service must be performed by day. If the High Priest took the kometz at midnight, it may be invalid; the question is whether daylight retrospectively validates it.",
+     "question": "What is the dilemma about taking the kometz at midnight?"
+    }
+   ],
+   "finalRuling": "Taking the kometz at midnight is invalid; all Yom Kippur incense service must be during the day.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [
+  {
+   "he": "בֵּין הַבֵּינַיִם",
+   "translit": "bein habeinayim",
+   "en": "Between - literally 'between the betweens'; the space between the fingers. A dilemma whether incense in this space counts as a valid kometz."
+  },
+  {
+   "he": "פָּשַׁט",
+   "translit": "pashat",
+   "en": "Extended/spread - one of the kometz geometry dilemmas where the handful is extended beyond the natural finger boundaries."
+  },
+  {
+   "he": "מַחְתָּה",
+   "translit": "machavat",
+   "en": "A flat pan for preparing meal-offerings; kometz from pan-prepared offerings has different physical mechanics."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'And on a griddle and on a pan' - these are types of frying, baked first and then",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "crumbled again, and their kometz is more prone to coming out overfull than the kometz of a fine-flour meal offering,",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "whose overflow falls off by itself; here one must wipe with his thumb the overflow from above",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "and with his small finger the overflow from below. 'But is there not melikah' - as it was taught regarding it too,",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "'and this is a difficult service' (in HaKol Shochatin).",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "'But is there not chafinah' - within the sanctuary, as it was taught",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "regarding it too, further on in this chapter (49b), 'and this",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "is a difficult service.' This is our reading: 'say",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "this is one of the difficult services",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "of the Temple.' 'Bein habeinayim' - that which enters",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "between the fingers - is it part of the kometz, or",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "is it leftover. 'As the Master said' -",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "in tractate Menachot, first chapter (9a). 'That diminished' - that some scattered from them.",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "'One may not burn,' etc. - as it was taught (Menachot 9a):",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "'from the meal offering' excludes one that is deficient, whether it",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "or its kometz is deficient. 'Anything from which is given",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "to the fires' - since you have given to the fire all",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "its required portion, the leftovers fall under 'you shall not burn,'",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "as it is written (Leviticus 2), 'you shall not burn from it",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "a fire offering to the Lord'; you shall not burn something that was given",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "from it to the fire. 'That he burns it in the category of wood' -",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "for he stipulates and says: if it is leftover,",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "it is like any other wood. 'Like Rabbi Eliezer' -",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "who disagrees in tractate Zevachim (77b) regarding the limbs of",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "a sin offering that are leftover, since after the sacrificial portions were burned,",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "the limbs of the sin offering became mixed",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "with the limbs of a burnt offering, which are wholly burned; Rabbi Eliezer",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "says he should place it all above, and I consider",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "the flesh of the sin offering above as though it were",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "wood, and he derives the reason from this verse: 'and to",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "the altar they shall not offer up,' etc.; right after this",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "verse, 'you shall not burn from it' is written.",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "'Because they scoop with fat fingers' - priests who are heavy, whose finger",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "flesh protrudes and presses this",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "into that, so there is no space between there. 'For Rabbi Eliezer",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "too, ab initio, because they scoop with fat fingers' - meaning: not that",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "Rabbi Eliezer permitted offering leftover",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "in the category of wood except because of the mixture of the limbs of",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "the burnt offering, so that they need not go out to the place of burning,",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "as the Rabbis say. 'If he derives full from full' -",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "just as a kometz's overflow is not burned, so too",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "a chafinah's overflow is invalid. 'It is the same' -",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "for what we asked above, whether one makes a vessel for chafinah,",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "these two questions share the same reasoning,",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "since both the overflow rule and the vessel rule for the kometz are derived from 'his fistful,'",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "as we said above: 'with his fist,' that he should not make",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "a vessel for the fistful; and regarding overflow too we learned",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "above: 'one might think overflowing,' the verse teaches 'with his fist.' And if",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "it was resolved for us that we apply to chafinah the exposition",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "of 'with his fist' by verbal analogy, as if it were written",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "'with his handfuls,' both questions would be resolved from it. 'Rav",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "Pappa's question is this: absent the verbal analogy of full to full, there would be room to ask",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l30"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "this question; or alternatively, if we do not apply 'with his handfuls' to chafinah, but that question above",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l30"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "of making a vessel for chafinah would only need to be asked from the verbal analogy of 'and he shall take' -",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l30"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "we would not derive that one should not make a vessel for the fistful, since taking by means of something else",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l30"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "is still called taking, in tractate Sukkah (37a). 'But that is lacking' - since it enters",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l30"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "the in-between by itself, and he did not intend it. 'As people typically scoop' -",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l32"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "the side of his fingers downward. 'With his fingertips' - the back of his hand downward,",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l32"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "and he inserted his fingers into the flour and scooped a whole fistful until he filled the entire",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l32"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "length of his palm. 'From below upward' - that he turned the back of his hand downward and lifted",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "the fistful with his fingertips into his palm. 'From the side' - meaning, not",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l34",
+    "yoma-047b-l35"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "in the normal manner of scoopers, with the back of his hand down, not inserting his fingers into the flour,",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l35"
+   ]
+  },
+  {
+   "vilnaLine": 63,
+   "en": "but rather dragging his hand over its own back with pressure, so the flour enters his palm by way of",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l35"
+   ]
+  },
+  {
+   "vilnaLine": 64,
+   "en": "his fingers. 'As people typically scoop with both hands' - the edge of the palm downward.",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l35"
+   ]
+  },
+  {
+   "vilnaLine": 65,
+   "en": "'It stuck'",
+   "linkedGemaraLineIds": [
+    "yoma-047b-l37"
+   ]
+  }
+ ]
 }
