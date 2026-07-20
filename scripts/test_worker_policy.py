@@ -586,7 +586,17 @@ def test_campaign_capability_scan():
 
     # 20. The scan blocks (nonzero exit) before content work when any
     # target is unsupported, and passes when every target is supported.
+    # 20c compares the repo's full git status before and after running the
+    # scan commands, rather than asserting a specific real corpus daf's
+    # file stays pristine: that daf is drawn from the live campaign queue
+    # and is expected to become the worker's own in-progress content target
+    # sooner or later (as happened once already with 41b/test_repetition_drain),
+    # at which point a hardcoded-clean assertion on its file would fail for
+    # reasons unrelated to what this test actually checks (capability-scan's
+    # own read-only behavior).
     with tempfile.TemporaryDirectory() as td:
+        pre_status = subprocess.run(["git", "status", "--short"],
+                                     capture_output=True, text=True, cwd=REPO).stdout
         rr_bad = subprocess.run([sys.executable, "scripts/worker_pipeline.py",
                                   "capability-scan", "--targets", "48b,999z"],
                                  capture_output=True, text=True, cwd=REPO)
@@ -597,10 +607,10 @@ def test_campaign_capability_scan():
                                   capture_output=True, text=True, cwd=REPO)
         check("20b. scan exits 0 when every target is supported",
               rr_good.returncode == 0 and "OK: all 3 target" in rr_good.stdout)
+        post_status = subprocess.run(["git", "status", "--short"],
+                                      capture_output=True, text=True, cwd=REPO).stdout
         check("20c. scan never edits content (working tree untouched)",
-              subprocess.run(["git", "status", "--short",
-                               "modules/yoma/assets/learning/yoma/48b.learning.json"],
-                              capture_output=True, text=True, cwd=REPO).stdout.strip() == "")
+              pre_status == post_status)
 
     # 21. The remaining 49b-52b queue passes capability preflight once the
     # anchor-poor content work has landed for 49b (its content is already
