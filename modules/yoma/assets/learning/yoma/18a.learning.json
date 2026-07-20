@@ -1,1098 +1,1108 @@
 {
-  "daf": "18a",
-  "canonicalRef": "Yoma 18a",
-  "summary": "Three topics. First: the shewbread loaf-count debate concludes with Abaye's Rabbanan reading and Rava's Rabbi reading both presented; an unresolved contradiction remains. Second: the seven-day KG preparation begins - elders of Beit Din hand the KG to priestly elders who read the service to him daily and parade animals before him for identification (excluding goats). Third: Second Temple-era KG appointment corruption (Maratha bat Baytus bribes Agrippa for Yehoshua ben Gamla's appointment). Pre-Yom Kippur dietary restrictions for the KG are established: foods causing seminal emission (fine flour, eggs) are restricted; the KG is fed appropriately to prevent both hunger and emission.",
-  "review": {
+ "daf": "18a",
+ "canonicalRef": "Yoma 18a",
+ "summary": "Three topics. First: the shewbread loaf-count debate concludes with Abaye's Rabbanan reading and Rava's Rabbi reading both presented; an unresolved contradiction remains. Second: the seven-day KG preparation begins - elders of Beit Din hand the KG to priestly elders who read the service to him daily and parade animals before him for identification (excluding goats). Third: Second Temple-era KG appointment corruption (Maratha bat Baytus bribes Agrippa for Yehoshua ben Gamla's appointment). Pre-Yom Kippur dietary restrictions for the KG are established: foods causing seminal emission (fine flour, eggs) are restricted; the KG is fed appropriately to prevent both hunger and emission.",
+ "review": {
+  "content": "ai_generated",
+  "sourceRefs": "ai_generated"
+ },
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-18a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 11
+   },
+   "lines": [
+    {
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.18a.1"
+    },
+    {
+     "vilnaLine": 4,
+     "sefariaRef": "Yoma.18a.2"
+    },
+    {
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.18a.3"
+    },
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.18a.4"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.18a.5"
+    },
+    {
+     "vilnaLine": 11,
+     "sefariaRef": "Yoma.18a.6"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.18a.1",
+    "Yoma.18a.2",
+    "Yoma.18a.3",
+    "Yoma.18a.4",
+    "Yoma.18a.5",
+    "Yoma.18a.6"
+   ],
+   "display": {
+    "title": "An unresolved teiku, then the mishna turns to the seven-day preparation",
+    "whats": "The Shewbread loaf-count debate concludes. Abaye reads the mishna as consistently Rabbanan (the KG gets proportionally less than half), while Rava reads the whole mishna as Rabbi's view (KG always takes half). A remaining contradiction about whether the KG always gets five loaves is left unresolved. The page then shifts to the new mishna: the elders of the Beit Din hand the KG over to elders of the priesthood for the week of preparation before Yom Kippur.",
+    "hint": "The Shewbread count is resolved by showing the mishna's 'four or five' is explained by mishmar configurations. The transition to the seven-day preparation is a major topic shift - we are now setting up Yom Kippur itself."
+   },
+   "learning": {
+    "learnerQuestion": "After Abaye and Rava each defend a full reading of the Shewbread mishna, which one wins?",
+    "coreTension": "Abaye and Rava each give an internally consistent reading of the same mishna - Abaye all-Rabbanan, Rava all-Rabbi - yet a residual contradiction about whether the KG always gets five loaves resists both readings.",
+    "coreMove": "Rather than forcing a verdict, the Gemara leaves the contradiction open (teiku) and moves straight into the seven-day pre-Yom Kippur preparation: the Sanhedrin elders hand the KG to the priestly elders, who drill him daily in the service and parade the sacrificial animals before him so he can recognize them by sight.",
+    "takeaway": {
+     "type": "open_question",
+     "text": "Not every Talmudic dispute resolves: when two equally coherent readings of the same mishna still leave a contradiction neither explains, the Gemara can mark it open and move forward rather than forcing a verdict."
+    },
+    "ahaMoment": "The handoff from Sanhedrin elders to priestly elders marks a formal change in responsibility: the Sanhedrin's job, confirming the KG knows the law, ends, and the priests' job, drilling him until he can perform it, begins - and this happens before the Shewbread debate is even resolved.",
+    "learningBlocker": "Learners assume Abaye and Rava's dispute must end with a declared winner before the daf can move on, so the abrupt pivot to seven-day preparation feels like an unfinished thread; in fact the Gemara is comfortable leaving it as teiku and proceeding to the next topic.",
+    "memoryAnchor": "Shewbread: Abaye reads Rabbanan, Rava reads Rabbi, contradiction left open. Then: elders hand off the KG to priests for seven days of Yom Kippur preparation."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "claim",
+     "label": "Abaye: mishna follows Rabbanan throughout",
+     "speaker": "Abaye",
+     "text": "The entire mishna about the KG's loaf portion follows the Rabbanan. The varying 4-or-5 count reflects different mishmar configurations, not different positions within the mishna.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-18a-l01",
+       "vilnaLine": 1,
+       "note": "Abaye's Rabbanan reading"
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "claim",
+     "label": "Rava: mishna follows Rabbi throughout",
+     "speaker": "Rava",
+     "text": "Rava counters: the entire mishna is Rabbi's view. The KG always takes half, and the varying count (4 or 5) is explained differently - by whether a delayed or early mishmar is present.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-18a-l04",
+       "vilnaLine": 4,
+       "note": "Rava's Rabbi reading"
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "unresolved",
+     "label": "Remaining contradiction left open",
+     "speaker": "Gemara",
+     "text": "A contradiction in the mishna about whether the KG always gets five loaves cannot be fully resolved by either Abaye or Rava. The Gemara leaves it as a difficulty (teiku).",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-18a-l07",
+       "vilnaLine": 7,
+       "note": "Unresolved mishna contradiction"
+      }
+     ]
+    },
+    {
+     "id": "step-04",
+     "type": "new_topic",
+     "label": "New mishna: elders hand KG to priestly elders",
+     "speaker": "Mishna",
+     "text": "The elders of Beit Din hand the KG to the elders of the priesthood on the 3rd of Tishrei (seven days before Yom Kippur). The priestly elders will instruct him in the Yom Kippur service and have him practice.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-18a-l09",
+       "vilnaLine": 9,
+       "note": "Mishna: seven-day preparation begins"
+      }
+     ]
+    },
+    {
+     "id": "step-05",
+     "type": "elaboration",
+     "label": "Animals paraded before the KG for visual recognition",
+     "speaker": "Mishna",
+     "text": "All the animals to be sacrificed on Yom Kippur are paraded before the KG so he can recognize them by sight. He is specifically shown the goats of the musaf offering to know them when he draws the lots.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-18a-l10",
+       "vilnaLine": 10,
+       "note": "Animal parade for KG recognition"
+      }
+     ]
+    },
+    {
+     "id": "step-06",
+     "type": "elaboration",
+     "label": "Why not goats from the lottery?",
+     "speaker": "Gemara",
+     "text": "A question is raised: if he sees the goats in the parade, won't he recognize them and deliberately choose the 'la-Shem' goat from the lot? The Gemara explains why this foreknowledge is not considered manipulation.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-18a-l11",
+       "vilnaLine": 11,
+       "note": "Why showing the goats is not problematic"
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "Shewbread",
+    "KG preparation",
+    "seven days",
+    "Sanhedrin",
+    "priestly elders",
+    "Yom Kippur service",
+    "animal recognition"
+   ],
+   "concepts": [
+    {
+     "term": "shiva yamim",
+     "def": "Seven days - the period of KG preparation before Yom Kippur (from 3 Tishrei to 9 Tishrei). During these days the KG is isolated, trained, and kept in a state of ritual preparedness."
+    }
+   ],
+   "conceptRefs": [
+    "Yoma.18a.4",
+    "Yoma.18a.5"
+   ],
+   "requiresUnderstanding": [
+    "The Shewbread distribution system from 17b",
+    "The Yom Kippur goat lottery system",
+    "The KG's seven-day preparation"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Showing the KG the Yom Kippur goats during the animal parade compromises the randomness of the goat lottery.",
+     "correction": "The Gemara explains that recognizing the goats by sight beforehand does not constitute manipulating which lot he draws."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-17b-s02",
+    "yoma-18a-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "timeline",
+     "desc": "Tishrei calendar: 3 Tishrei (elders hand off KG) through 9 Tishrei (evening before Yom Kippur) - seven days of preparation"
+    },
+    {
+     "type": "sequence",
+     "desc": "Animal parade sequence: all Yom Kippur sacrifices shown to KG; special focus on the two Yom Kippur goats"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "How do Abaye and Rava each explain the Shewbread mishna's varying four-or-five loaf count for the KG, and what remains unresolved?",
+     "answer": "Abaye reads the entire mishna as Rabbanan, with the count varying by mishmar configuration; Rava reads it entirely as Rabbi, with the count varying for a different reason. A residual contradiction about whether the KG always gets five loaves is left open as teiku."
+    },
+    {
+     "question": "What two things happen during the KG's seven days of preparation according to the new mishna on 18a?",
+     "answer": "He is handed from the Sanhedrin elders to the elders of the priesthood, who instruct him daily in the Yom Kippur service, and all the Yom Kippur sacrificial animals are paraded before him so he can recognize them by sight."
+    }
+   ],
+   "finalRuling": "Shewbread count: unresolved contradiction remains. Seven-day KG preparation: the elders hand off the KG to priestly elders for instruction and practice.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "שִׁבְעַת יָמִים",
+     "translit": "shivat yamim",
+     "en": "Seven days - the KG's isolation and preparation period before Yom Kippur, beginning 3 Tishrei."
+    }
+   ],
+   "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
+   }
   },
-  "sugyot": [
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-18a-s02",
+   "lineRange": {
+    "startVilnaLine": 12,
+    "endVilnaLine": 28
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-18a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 11
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.18a.1"
-        },
-        {
-          "vilnaLine": 4,
-          "sefariaRef": "Yoma.18a.2"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.18a.3"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.18a.4"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.18a.5"
-        },
-        {
-          "vilnaLine": 11,
-          "sefariaRef": "Yoma.18a.6"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.18a.1",
-        "Yoma.18a.2",
-        "Yoma.18a.3",
-        "Yoma.18a.4",
-        "Yoma.18a.5",
-        "Yoma.18a.6"
-      ],
-      "display": {
-        "title": "An unresolved teiku, then the mishna turns to the seven-day preparation",
-        "whats": "The Shewbread loaf-count debate concludes. Abaye reads the mishna as consistently Rabbanan (the KG gets proportionally less than half), while Rava reads the whole mishna as Rabbi's view (KG always takes half). A remaining contradiction about whether the KG always gets five loaves is left unresolved. The page then shifts to the new mishna: the elders of the Beit Din hand the KG over to elders of the priesthood for the week of preparation before Yom Kippur.",
-        "hint": "The Shewbread count is resolved by showing the mishna's 'four or five' is explained by mishmar configurations. The transition to the seven-day preparation is a major topic shift - we are now setting up Yom Kippur itself."
-      },
-      "learning": {
-        "learnerQuestion": "After Abaye and Rava each defend a full reading of the Shewbread mishna, which one wins?",
-        "coreTension": "Abaye and Rava each give an internally consistent reading of the same mishna - Abaye all-Rabbanan, Rava all-Rabbi - yet a residual contradiction about whether the KG always gets five loaves resists both readings.",
-        "coreMove": "Rather than forcing a verdict, the Gemara leaves the contradiction open (teiku) and moves straight into the seven-day pre-Yom Kippur preparation: the Sanhedrin elders hand the KG to the priestly elders, who drill him daily in the service and parade the sacrificial animals before him so he can recognize them by sight.",
-        "takeaway": {
-          "type": "open_question",
-          "text": "Not every Talmudic dispute resolves: when two equally coherent readings of the same mishna still leave a contradiction neither explains, the Gemara can mark it open and move forward rather than forcing a verdict."
-        },
-        "ahaMoment": "The handoff from Sanhedrin elders to priestly elders marks a formal change in responsibility: the Sanhedrin's job, confirming the KG knows the law, ends, and the priests' job, drilling him until he can perform it, begins - and this happens before the Shewbread debate is even resolved.",
-        "learningBlocker": "Learners assume Abaye and Rava's dispute must end with a declared winner before the daf can move on, so the abrupt pivot to seven-day preparation feels like an unfinished thread; in fact the Gemara is comfortable leaving it as teiku and proceeding to the next topic.",
-        "memoryAnchor": "Shewbread: Abaye reads Rabbanan, Rava reads Rabbi, contradiction left open. Then: elders hand off the KG to priests for seven days of Yom Kippur preparation."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "claim",
-          "label": "Abaye: mishna follows Rabbanan throughout",
-          "speaker": "Abaye",
-          "text": "The entire mishna about the KG's loaf portion follows the Rabbanan. The varying 4-or-5 count reflects different mishmar configurations, not different positions within the mishna.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-18a-l01",
-              "vilnaLine": 1,
-              "note": "Abaye's Rabbanan reading"
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "claim",
-          "label": "Rava: mishna follows Rabbi throughout",
-          "speaker": "Rava",
-          "text": "Rava counters: the entire mishna is Rabbi's view. The KG always takes half, and the varying count (4 or 5) is explained differently - by whether a delayed or early mishmar is present.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-18a-l04",
-              "vilnaLine": 4,
-              "note": "Rava's Rabbi reading"
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "unresolved",
-          "label": "Remaining contradiction left open",
-          "speaker": "Gemara",
-          "text": "A contradiction in the mishna about whether the KG always gets five loaves cannot be fully resolved by either Abaye or Rava. The Gemara leaves it as a difficulty (teiku).",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-18a-l07",
-              "vilnaLine": 7,
-              "note": "Unresolved mishna contradiction"
-            }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "new_topic",
-          "label": "New mishna: elders hand KG to priestly elders",
-          "speaker": "Mishna",
-          "text": "The elders of Beit Din hand the KG to the elders of the priesthood on the 3rd of Tishrei (seven days before Yom Kippur). The priestly elders will instruct him in the Yom Kippur service and have him practice.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-18a-l09",
-              "vilnaLine": 9,
-              "note": "Mishna: seven-day preparation begins"
-            }
-          ]
-        },
-        {
-          "id": "step-05",
-          "type": "elaboration",
-          "label": "Animals paraded before the KG for visual recognition",
-          "speaker": "Mishna",
-          "text": "All the animals to be sacrificed on Yom Kippur are paraded before the KG so he can recognize them by sight. He is specifically shown the goats of the musaf offering to know them when he draws the lots.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-18a-l10",
-              "vilnaLine": 10,
-              "note": "Animal parade for KG recognition"
-            }
-          ]
-        },
-        {
-          "id": "step-06",
-          "type": "elaboration",
-          "label": "Why not goats from the lottery?",
-          "speaker": "Gemara",
-          "text": "A question is raised: if he sees the goats in the parade, won't he recognize them and deliberately choose the 'la-Shem' goat from the lot? The Gemara explains why this foreknowledge is not considered manipulation.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-18a-l11",
-              "vilnaLine": 11,
-              "note": "Why showing the goats is not problematic"
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Shewbread",
-        "KG preparation",
-        "seven days",
-        "Sanhedrin",
-        "priestly elders",
-        "Yom Kippur service",
-        "animal recognition"
-      ],
-      "concepts": [
-        {
-          "term": "shiva yamim",
-          "def": "Seven days - the period of KG preparation before Yom Kippur (from 3 Tishrei to 9 Tishrei). During these days the KG is isolated, trained, and kept in a state of ritual preparedness."
-        }
-      ],
-      "conceptRefs": [
-        "Yoma.18a.4",
-        "Yoma.18a.5"
-      ],
-      "requiresUnderstanding": [
-        "The Shewbread distribution system from 17b",
-        "The Yom Kippur goat lottery system",
-        "The KG's seven-day preparation"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Showing the KG the Yom Kippur goats during the animal parade compromises the randomness of the goat lottery.",
-          "correction": "The Gemara explains that recognizing the goats by sight beforehand does not constitute manipulating which lot he draws."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-17b-s02",
-        "yoma-18a-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "timeline",
-          "desc": "Tishrei calendar: 3 Tishrei (elders hand off KG) through 9 Tishrei (evening before Yom Kippur) - seven days of preparation"
-        },
-        {
-          "type": "sequence",
-          "desc": "Animal parade sequence: all Yom Kippur sacrifices shown to KG; special focus on the two Yom Kippur goats"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "How do Abaye and Rava each explain the Shewbread mishna's varying four-or-five loaf count for the KG, and what remains unresolved?",
-          "answer": "Abaye reads the entire mishna as Rabbanan, with the count varying by mishmar configuration; Rava reads it entirely as Rabbi, with the count varying for a different reason. A residual contradiction about whether the KG always gets five loaves is left open as teiku."
-        },
-        {
-          "question": "What two things happen during the KG's seven days of preparation according to the new mishna on 18a?",
-          "answer": "He is handed from the Sanhedrin elders to the elders of the priesthood, who instruct him daily in the Yom Kippur service, and all the Yom Kippur sacrificial animals are paraded before him so he can recognize them by sight."
-        }
-      ],
-      "finalRuling": "Shewbread count: unresolved contradiction remains. Seven-day KG preparation: the elders hand off the KG to priestly elders for instruction and practice.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "שִׁבְעַת יָמִים",
-          "translit": "shivat yamim",
-          "en": "Seven days - the KG's isolation and preparation period before Yom Kippur, beginning 3 Tishrei."
-        }
-      ],
-      "review": {
-        "content": "ai_generated",
-        "sourceRefs": "ai_generated"
-      }
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.18a.7"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-18a-s02",
-      "lineRange": {
-        "startVilnaLine": 12,
-        "endVilnaLine": 28
-      },
-      "lines": [
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.18a.7"
-        },
-        {
-          "vilnaLine": 17,
-          "sefariaRef": "Yoma.18a.8"
-        },
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.18a.9"
-        },
-        {
-          "vilnaLine": 21,
-          "sefariaRef": "Yoma.18a.10"
-        },
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.18a.11"
-        },
-        {
-          "vilnaLine": 25,
-          "sefariaRef": "Yoma.18a.12"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.18a.13"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.18a.7",
-        "Yoma.18a.8",
-        "Yoma.18a.9",
-        "Yoma.18a.10",
-        "Yoma.18a.11",
-        "Yoma.18a.12",
-        "Yoma.18a.13"
-      ],
-      "display": {
-        "title": "Ideal protocol meets corrupted practice: preparing the KG amid Second Temple bribery",
-        "whats": "The elders prepare the KG: reading the service order aloud, having him practice, and ensuring he is qualified. The Gemara discusses what happens when the KG was appointed improperly (as happened in the Second Temple period - Maratha bat Baytus bribed Agrippa for her betrothed's appointment). The elders also exclude goats from the animal parade since the KG's Yom Kippur offering does not include goats from the musaf. Special foods before Yom Kippur are restricted to avoid seminal emission (which would disqualify the KG from serving).",
-        "hint": "The Second Temple-era corruption stories illustrate what can go wrong when the KG position is bought or manipulated. The Gemara uses these as contrast to the ideal preparation described in the Mishna."
-      },
-      "learning": {
-        "learnerQuestion": "If the Second Temple appointed High Priests through bribery instead of Torah qualifications, did that invalidate their service?",
-        "coreTension": "The mishna's careful seven-day preparation protocol assumes a properly qualified KG, but the Gemara's own digression admits that Second Temple appointments were sometimes bought outright - a gap between the legal ideal and the historical reality the Gemara itself records.",
-        "coreMove": "The Gemara juxtaposes the structured preparation protocol, daily service instruction, animal recognition, dietary safeguards, against the Maratha bat Baytus and Yehoshua ben Gamla bribery narrative, letting the contrast make the point: procedural rigor in the seven days cannot fix a process corrupted at its starting point, the appointment itself.",
-        "resolution": "Even though Second Temple appointments could be bought, an improperly appointed KG's service is generally still treated as valid. The corruption narrative critiques who occupied the role, not the validity of the rite he performed.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "A source can hold two things at once: a rigorous procedural ideal for how a role should be filled and prepared, and an unflinching record of how that ideal was violated in practice, without treating the violation as erasing the validity of what was performed."
-        },
-        "ahaMoment": "The Gemara doesn't sanitize its own history: it records the corrupted Second Temple appointments openly, using the contrast with the mishna's careful protocol to highlight how far practice had drifted from the ideal, without claiming the resulting service was invalid.",
-        "learningBlocker": "Learners often assume that a Gemara describing an obviously improper process, a purchased High Priesthood, must be building toward invalidating that office's service; instead the deterioration in appointment standards and the validity of the service performed are treated as separate questions.",
-        "memoryAnchor": "Elders read the service, KG practices. Second Temple: bought appointments (Maratha bat Baytus buys it for Yehoshua ben Gamla). Pre-Yom Kippur: avoid emission-causing foods."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "ruling",
-          "label": "Elders read the KG the service order daily",
-          "speaker": "Mishna/Gemara",
-          "text": "Throughout the seven days, the elders of the priesthood read the Yom Kippur service order to the KG daily, have him practice the key parts, and ensure he is fluent in the service.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-18a-l12",
-              "vilnaLine": 12,
-              "note": "Daily service-reading preparation"
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "elaboration",
-          "label": "Qualifications for KG: must be from the Temple",
-          "speaker": "Gemara",
-          "text": "In the First Temple, KGs were appointed only according to Torah standards from legitimate priestly families. The Second Temple period saw this deteriorate - wealthy men bought the position.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-18a-l17",
-              "vilnaLine": 17,
-              "note": "First vs Second Temple KG selection"
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "narrative",
-          "label": "Maratha bat Baytus: bribery for KG appointment",
-          "speaker": "Gemara",
-          "text": "Maratha bat Baytus, a wealthy widow, paid Agrippa (the king) a measure (tarkeva) of dinars to have her betrothed Yehoshua ben Gamla appointed as KG. A royal official later demanded she not change money in front of him (knowing her wealth).",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-18a-l18",
-              "vilnaLine": 18,
-              "note": "Maratha bat Baytus narrative"
-            }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "ruling",
-          "label": "Goats excluded from the animal parade",
-          "speaker": "Gemara",
-          "text": "The animal parade shown to the KG does not include goats. This is because the KG's personal Yom Kippur offerings (bull and ram) do not include goats; only the communal musaf goats would be shown.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-18a-l21",
-              "vilnaLine": 21,
-              "note": "Goats excluded from KG's parade"
-            }
-          ]
-        },
-        {
-          "id": "step-05",
-          "type": "ruling",
-          "label": "Pre-Yom Kippur: restrict emission-causing foods",
-          "speaker": "Gemara",
-          "text": "The elders restrict the KG's pre-Yom Kippur diet to avoid foods that cause seminal emission. Seminal emission creates ritual impurity (tum'at keri) which would disqualify the KG from performing the Yom Kippur service.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-18a-l23",
-              "vilnaLine": 23,
-              "note": "Dietary restrictions to prevent emission"
-            }
-          ]
-        },
-        {
-          "id": "step-06",
-          "type": "elaboration",
-          "label": "Specific foods to avoid: fine flour and eggs",
-          "speaker": "Gemara",
-          "text": "The evening before Yom Kippur, the KG is fed fine flour and eggs in the morning to fill his digestive system, ensuring he does not need to relieve himself on Yom Kippur. But he must not eat these to excess (they cause emission).",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-18a-l25",
-              "vilnaLine": 25,
-              "note": "Pre-Yom Kippur specific foods"
-            }
-          ]
-        },
-        {
-          "id": "step-07",
-          "type": "mnemonic",
-          "label": "Mnemonic: Av'i and Avav'i - emission-causing foods",
-          "speaker": "Gemara",
-          "text": "A mnemonic (Av'i and Avav'i) helps recall which foods cause seminal emission: wine, garlic, and other foods listed elsewhere. The elders feed the KG appropriately before Yom Kippur.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-18a-l28",
-              "vilnaLine": 28,
-              "note": "Mnemonic for emission-causing foods"
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "KG preparation",
-        "Second Temple corruption",
-        "Maratha bat Baytus",
-        "emission-causing foods",
-        "priestly qualifications",
-        "seminal emission",
-        "Yom Kippur disqualification"
-      ],
-      "concepts": [
-        {
-          "term": "tum'at keri",
-          "def": "Ritual impurity from seminal emission. A kohen with this impurity must immerse and wait until evening before performing Temple service. If it happens to the KG during the Yom Kippur preparation period, it creates a crisis."
-        },
-        {
-          "term": "Yehoshua ben Gamla",
-          "def": "A Second Temple KG whose appointment Maratha bat Baytus purchased from the king Agrippa. Despite the improper appointment, he is remembered for establishing Torah schools in every city and town of Israel."
-        }
-      ],
-      "conceptRefs": [
-        "Yoma.18a.9",
-        "Yoma.18a.10"
-      ],
-      "requiresUnderstanding": [
-        "Tum'at keri and its consequences for kohanim",
-        "The seven-day KG preparation period",
-        "The Yom Kippur goat lottery system"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Because Second Temple KG appointments could be bought, the Yom Kippur service performed by an improperly appointed KG was invalid.",
-          "correction": "The Gemara generally treats the service as valid even when the appointment process was corrupt; the bribery narrative critiques who held the office, not the validity of the rite he performed."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-18a-s01",
-        "yoma-18a-s03"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "desc": "First Temple (proper selection by Torah standards) vs Second Temple (wealth-based appointments)"
-        },
-        {
-          "type": "sequence",
-          "desc": "Elders' preparation routine: morning - read service to KG; afternoon - KG practices; evening - dietary restriction begins"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What did Maratha bat Baytus do to secure the High Priesthood for Yehoshua ben Gamla, and what does this narrative illustrate?",
-          "answer": "She paid King Agrippa a tarkeva (a large measure) of dinars to have him appointed. The narrative illustrates how far Second Temple appointment standards had drifted from the Torah-based selection of the First Temple."
-        },
-        {
-          "question": "Why are goats excluded from the animal parade shown to the KG during his seven days of preparation?",
-          "answer": "Because the KG's own personal Yom Kippur offerings are a bull and a ram, not goats; only the communal musaf goats are relevant, and those are shown separately for the lottery."
-        }
-      ],
-      "finalRuling": "The elders' preparation protocol is established: read the service, have the KG practice, restrict diet. Second Temple history shows what happens when this standard is violated.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "טֻמְאַת קֶרִי",
-          "translit": "tum'at keri",
-          "en": "Ritual impurity from seminal emission. Requires immersion and waiting until evening before resuming Temple service."
-        },
-        {
-          "he": "תַּרְקֵיבָא",
-          "translit": "tarkeva",
-          "en": "A half-se'ah measure (approximately 3 liters). Maratha bat Baytus paid a tarkeva of dinars (gold coins) for the KG appointment."
-        }
-      ],
-      "review": {
-        "content": "ai_generated",
-        "sourceRefs": "ai_generated"
-      }
+     "vilnaLine": 17,
+     "sefariaRef": "Yoma.18a.8"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-18a-s03",
-      "lineRange": {
-        "startVilnaLine": 29,
-        "endVilnaLine": 39
-      },
-      "lines": [
-        {
-          "vilnaLine": 29,
-          "sefariaRef": "Yoma.18a.14"
-        },
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.18a.15"
-        },
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.18a.16"
-        },
-        {
-          "vilnaLine": 39,
-          "sefariaRef": "Yoma.18a.17"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.18a.14",
-        "Yoma.18a.15",
-        "Yoma.18a.16",
-        "Yoma.18a.17"
-      ],
-      "display": {
-        "title": "Five trigger foods: when an emission is oness and when it is not",
-        "whats": "The specific foods that cause seminal emission are listed and discussed. Five foods are identified: fine flour, eggs, wine, garlic, and others. The Gemara then raises a related question: what is the legal status of a kohen who has a seminal emission during the preparation period - is it attributed to illness (oness) or to his own eating? The distinction matters because an unavoidable emission (oness) might not disqualify him.",
-        "hint": "The list of emission-causing foods is practical halacha for the KG's week of preparation. The oness question is more theoretical: if the emission was caused by normal food consumption (not excess), is it still the kohen's 'fault'?"
-      },
-      "learning": {
-        "learnerQuestion": "If a kohen eats ordinary food during his preparation week and then experiences a seminal emission, is that emission his fault, or is it an unavoidable accident (oness)?",
-        "coreTension": "A seminal emission during the KG's seven days of preparation threatens his fitness for the service, so the Gemara needs a workable test for when an emission counts as foreseeable conduct versus a genuine accident.",
-        "coreMove": "The Gemara separates general eating from eating known emission-triggers. Large-quantity eating of ordinary food that happens to be followed by emission is treated as oness, because nothing about the meal specifically targeted emission. But eating one of five identified foods, in their emission-triggering quantities, is treated as foreseeable and therefore not oness, because the kohen knowingly courted the outcome.",
-        "resolution": "Emission following ordinary eating is oness. Emission following deliberate consumption of one of the five listed foods, in emission-causing quantities, is not oness and the kohen bears responsibility for it.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Whether an outcome counts as oness (unavoidable) or as the actor's responsibility can hinge on whether the actor knowingly engaged in conduct with a foreseeable result, not merely on whether the result itself was unwanted."
-        },
-        "ahaMoment": "Oness is not about whether you wanted the outcome. It is about whether you knowingly did something likely to cause it. Eating a lot of food is not the same as eating a known trigger food.",
-        "learningBlocker": "Learners tend to treat 'oness' as a single binary switch covering all seminal emission, missing that the Gemara's test turns on what specifically was eaten, not on the mere fact that an emission occurred.",
-        "memoryAnchor": "Five trigger foods (flour, eggs, garlic, purslane, arugula): eat one in quantity and emit, you knew the risk, not oness. Overeat anything else and emit, that's oness."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "list",
-          "label": "Five foods causing seminal emission",
-          "speaker": "Gemara",
-          "text": "The emission-causing foods are: (1) fine flour (soltot), (2) eggs, (3) garlic, (4) purslane (halalglogot), (5) arugula (gargir). Each stimulates seminal production according to the Talmud's physiological understanding.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-18a-l29",
-              "vilnaLine": 29,
-              "note": "List of five emission-causing foods"
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "detail",
-          "label": "Arugula digression: also brightens eyes",
-          "speaker": "Gemara",
-          "text": "Arugula (gargir) not only causes emission but also brightens the eyes. Rav Huna: eat arugula for its eye-brightening benefits, or rub the gargir juice on the eyes.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-18a-l31",
-              "vilnaLine": 31,
-              "note": "Arugula's dual properties"
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "question",
-          "label": "Oness for a kohen who eats and emits",
-          "speaker": "Gemara",
-          "text": "If a kohen eats ordinary food (even a lot of various foods) and then experiences seminal emission, is he considered to have emission by oness (unavoidable)? Or does eating freely expose him to foreseeable emission, making him responsible?",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-18a-l35",
-              "vilnaLine": 35,
-              "note": "Oness question for emission"
-            }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "resolution",
-          "label": "Eating normally: treated as oness; eating emission-foods: not oness",
-          "speaker": "Gemara",
-          "text": "If the kohen ate any food in large quantity (not specific emission-foods) and emitted, it is treated as oness. But if he specifically ate one of the five emission-causing foods in their emission-causing quantities, he is considered responsible for the emission.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-18a-l39",
-              "vilnaLine": 39,
-              "note": "Resolution: emission-foods = not oness"
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "emission-causing foods",
-        "tum'at keri",
-        "oness",
-        "KG restrictions",
-        "Second Temple period",
-        "priestly purity"
-      ],
-      "concepts": [
-        {
-          "term": "oness",
-          "def": "An unavoidable or involuntary act. In the context of ritual impurity: if emission was beyond the kohen's control, it may be treated differently than a voluntary or foreseeable emission."
-        },
-        {
-          "term": "gargir",
-          "def": "Arugula - one of the five foods listed as causing seminal emission. Also said to have eye-brightening properties."
-        }
-      ],
-      "conceptRefs": [
-        "Yoma.18a.14",
-        "Yoma.18a.15"
-      ],
-      "requiresUnderstanding": [
-        "Tum'at keri and its consequences",
-        "The oness principle in halacha",
-        "The KG's dietary restrictions during preparation"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "All seminal emissions during the preparation week are treated the same way under the oness rule.",
-          "correction": "The Gemara distinguishes by cause: emission from ordinary eating in quantity is oness, while emission from deliberately eating one of the five known emission-causing foods, in trigger quantities, is foreseeable and not oness."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-18a-s02",
-        "yoma-18b-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "desc": "List of five emission-causing foods with their properties: (1) fine flour, (2) eggs, (3) garlic, (4) purslane, (5) arugula. Arugula additionally brightens eyes."
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Name three of the five foods the Gemara identifies as causing seminal emission.",
-          "answer": "Any three of: fine flour (soltot), eggs, garlic, purslane (halalglogot), arugula (gargir)."
-        },
-        {
-          "question": "A kohen overeats a large ordinary meal during his preparation week and then experiences a seminal emission. Is this oness? Why or why not?",
-          "answer": "Yes, it is oness. He did not specifically eat one of the five known emission-causing foods in trigger quantities, so the emission was not a foreseeable result of his particular eating, even though he ate heavily."
-        }
-      ],
-      "finalRuling": "Five emission-causing foods established. Emission from these foods = not oness; emission from general overeating = oness.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "אֹנֶס",
-          "translit": "oness",
-          "en": "Unavoidable/involuntary act. An oness emission does not carry the same liability as a foreseeable, avoidable one."
-        },
-        {
-          "he": "גַּרְגִּיר",
-          "translit": "gargir",
-          "en": "Arugula - one of the five emission-causing foods; also said to brighten the eyes."
-        }
-      ],
-      "review": {
-        "content": "ai_generated",
-        "sourceRefs": "ai_generated"
-      }
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.18a.9"
+    },
+    {
+     "vilnaLine": 21,
+     "sefariaRef": "Yoma.18a.10"
+    },
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.18a.11"
+    },
+    {
+     "vilnaLine": 25,
+     "sefariaRef": "Yoma.18a.12"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.18a.13"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.18a.7",
+    "Yoma.18a.8",
+    "Yoma.18a.9",
+    "Yoma.18a.10",
+    "Yoma.18a.11",
+    "Yoma.18a.12",
+    "Yoma.18a.13"
+   ],
+   "display": {
+    "title": "Ideal protocol meets corrupted practice: preparing the KG amid Second Temple bribery",
+    "whats": "The elders prepare the KG: reading the service order aloud, having him practice, and ensuring he is qualified. The Gemara discusses what happens when the KG was appointed improperly (as happened in the Second Temple period - Maratha bat Baytus bribed Agrippa for her betrothed's appointment). The elders also exclude goats from the animal parade since the KG's Yom Kippur offering does not include goats from the musaf. Special foods before Yom Kippur are restricted to avoid seminal emission (which would disqualify the KG from serving).",
+    "hint": "The Second Temple-era corruption stories illustrate what can go wrong when the KG position is bought or manipulated. The Gemara uses these as contrast to the ideal preparation described in the Mishna."
+   },
+   "learning": {
+    "learnerQuestion": "If the Second Temple appointed High Priests through bribery instead of Torah qualifications, did that invalidate their service?",
+    "coreTension": "The mishna's careful seven-day preparation protocol assumes a properly qualified KG, but the Gemara's own digression admits that Second Temple appointments were sometimes bought outright - a gap between the legal ideal and the historical reality the Gemara itself records.",
+    "coreMove": "The Gemara juxtaposes the structured preparation protocol, daily service instruction, animal recognition, dietary safeguards, against the Maratha bat Baytus and Yehoshua ben Gamla bribery narrative, letting the contrast make the point: procedural rigor in the seven days cannot fix a process corrupted at its starting point, the appointment itself.",
+    "resolution": "Even though Second Temple appointments could be bought, an improperly appointed KG's service is generally still treated as valid. The corruption narrative critiques who occupied the role, not the validity of the rite he performed.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "A source can hold two things at once: a rigorous procedural ideal for how a role should be filled and prepared, and an unflinching record of how that ideal was violated in practice, without treating the violation as erasing the validity of what was performed."
+    },
+    "ahaMoment": "The Gemara doesn't sanitize its own history: it records the corrupted Second Temple appointments openly, using the contrast with the mishna's careful protocol to highlight how far practice had drifted from the ideal, without claiming the resulting service was invalid.",
+    "learningBlocker": "Learners often assume that a Gemara describing an obviously improper process, a purchased High Priesthood, must be building toward invalidating that office's service; instead the deterioration in appointment standards and the validity of the service performed are treated as separate questions.",
+    "memoryAnchor": "Elders read the service, KG practices. Second Temple: bought appointments (Maratha bat Baytus buys it for Yehoshua ben Gamla). Pre-Yom Kippur: avoid emission-causing foods."
+   },
+   "argumentFlow": [
     {
-      "he": "שִׁבְעַת יָמִים",
-      "translit": "shivat yamim",
-      "en": "Seven days - the KG's isolation and preparation period before Yom Kippur, beginning 3 Tishrei."
+     "id": "step-01",
+     "type": "ruling",
+     "label": "Elders read the KG the service order daily",
+     "speaker": "Mishna/Gemara",
+     "text": "Throughout the seven days, the elders of the priesthood read the Yom Kippur service order to the KG daily, have him practice the key parts, and ensure he is fluent in the service.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-18a-l12",
+       "vilnaLine": 12,
+       "note": "Daily service-reading preparation"
+      }
+     ]
     },
     {
-      "he": "טֻמְאַת קֶרִי",
-      "translit": "tum'at keri",
-      "en": "Ritual impurity from seminal emission. Requires immersion and waiting until evening before resuming Temple service."
+     "id": "step-02",
+     "type": "elaboration",
+     "label": "Qualifications for KG: must be from the Temple",
+     "speaker": "Gemara",
+     "text": "In the First Temple, KGs were appointed only according to Torah standards from legitimate priestly families. The Second Temple period saw this deteriorate - wealthy men bought the position.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-18a-l17",
+       "vilnaLine": 17,
+       "note": "First vs Second Temple KG selection"
+      }
+     ]
     },
     {
-      "he": "תַּרְקֵיבָא",
-      "translit": "tarkeva",
-      "en": "A half-se'ah measure (approximately 3 liters). Maratha bat Baytus paid a tarkeva of dinars (gold coins) for the KG appointment."
+     "id": "step-03",
+     "type": "narrative",
+     "label": "Maratha bat Baytus: bribery for KG appointment",
+     "speaker": "Gemara",
+     "text": "Maratha bat Baytus, a wealthy widow, paid Agrippa (the king) a measure (tarkeva) of dinars to have her betrothed Yehoshua ben Gamla appointed as KG. A royal official later demanded she not change money in front of him (knowing her wealth).",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-18a-l18",
+       "vilnaLine": 18,
+       "note": "Maratha bat Baytus narrative"
+      }
+     ]
     },
     {
-      "he": "אֹנֶס",
-      "translit": "oness",
-      "en": "Unavoidable/involuntary act. An oness emission does not carry the same liability as a foreseeable, avoidable one."
+     "id": "step-04",
+     "type": "ruling",
+     "label": "Goats excluded from the animal parade",
+     "speaker": "Gemara",
+     "text": "The animal parade shown to the KG does not include goats. This is because the KG's personal Yom Kippur offerings (bull and ram) do not include goats; only the communal musaf goats would be shown.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-18a-l21",
+       "vilnaLine": 21,
+       "note": "Goats excluded from KG's parade"
+      }
+     ]
     },
     {
-      "he": "גַּרְגִּיר",
-      "translit": "gargir",
-      "en": "Arugula - one of the five emission-causing foods; also said to brighten the eyes."
+     "id": "step-05",
+     "type": "ruling",
+     "label": "Pre-Yom Kippur: restrict emission-causing foods",
+     "speaker": "Gemara",
+     "text": "The elders restrict the KG's pre-Yom Kippur diet to avoid foods that cause seminal emission. Seminal emission creates ritual impurity (tum'at keri) which would disqualify the KG from performing the Yom Kippur service.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-18a-l23",
+       "vilnaLine": 23,
+       "note": "Dietary restrictions to prevent emission"
+      }
+     ]
+    },
+    {
+     "id": "step-06",
+     "type": "elaboration",
+     "label": "Specific foods to avoid: fine flour and eggs",
+     "speaker": "Gemara",
+     "text": "The evening before Yom Kippur, the KG is fed fine flour and eggs in the morning to fill his digestive system, ensuring he does not need to relieve himself on Yom Kippur. But he must not eat these to excess (they cause emission).",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-18a-l25",
+       "vilnaLine": 25,
+       "note": "Pre-Yom Kippur specific foods"
+      }
+     ]
+    },
+    {
+     "id": "step-07",
+     "type": "mnemonic",
+     "label": "Mnemonic: Av'i and Avav'i - emission-causing foods",
+     "speaker": "Gemara",
+     "text": "A mnemonic (Av'i and Avav'i) helps recall which foods cause seminal emission: wine, garlic, and other foods listed elsewhere. The elders feed the KG appropriately before Yom Kippur.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-18a-l28",
+       "vilnaLine": 28,
+       "note": "Mnemonic for emission-causing foods"
+      }
+     ]
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "topicTags": [
+    "KG preparation",
+    "Second Temple corruption",
+    "Maratha bat Baytus",
+    "emission-causing foods",
+    "priestly qualifications",
+    "seminal emission",
+    "Yom Kippur disqualification"
+   ],
+   "concepts": [
     {
-      "vilnaLine": 1,
-      "en": "Opens 'and what is four or five': when four and when five. Then opens 'according to the Rabbis': who dispute Rabbi Yehuda in the chapter HeChalil (Sukkah 56a), and say the outgoing watch takes six",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l01"
-      ]
+     "term": "tum'at keri",
+     "def": "Ritual impurity from seminal emission. A kohen with this impurity must immerse and wait until evening before performing Temple service. If it happens to the KG during the Yom Kippur preparation period, it creates a crisis."
     },
     {
-      "vilnaLine": 2,
-      "en": "continuing: loaves, and the incoming watch takes six loaves, but does not take payment for closing the doors - the incoming watch alone does; it turns out all of them come and divide, and the High Priest divides with both of them, and from twelve",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "closing: he must divide; and since he cannot take a whole half, he takes one less than half - five.' Then opens 'according to Rabbi Yehuda, who says the incoming watch takes two': without dispute, as payment for the fact that he is",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "continuing: the one who closes, at the end of Shabbat, the doors of the Courtyard, the rampart, and the Sanctuary, and the chambers that were opened in the morning - the watch on whom this closing duty fell must divide from ten, since the two loaves for closing do not come in dispute, for",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l04"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "closing: they are his wages.' Then opens 'one less than half':",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l04"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "closing: of ten, and he takes four.' Then opens 'it is entirely Rabbi's",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l04"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "closing: view': for he says one takes a half. Then opens 'and he holds",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: it follows Rabbi Yehuda': since the two",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "closing: loaves are never divided.' Then opens 'but what does four mean' -",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "continuing: surely he must take five!' It is not difficult:",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: this is where there is a watch that lingers, etc.'",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: sometimes the festival falls on a Monday, and there is",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "continuing: a watch that comes early, arriving on the eve of Shabbat,",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "continuing: and lingers until the festival, since all the watches",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: come for the festival; or sometimes the day after the",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: festival is the eve of Shabbat, and the watches go",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: to their homes on the eve of Shabbat, and there is a watch",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: that lingers there until the end of Shabbat; and we learned",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: in tractate Sukkah (55b): a Shabbat that falls within",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "continuing: the festival - all the watches were equal in the division of",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: the showbread; and likewise a festival day adjoining Shabbat, whether",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: before it, when they cannot return on Shabbat",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: to their place, or after it, when they must",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: come early on the eve of Shabbat - all the watches were",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: equal in the division of the showbread, since",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: they must remain there, and it is like a Shabbat",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: within the festival. But if one day fell to intervene",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: in between, whether before it - such as when the festival ended",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: on a Thursday - or after it, that the festival began",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "continuing: on a Monday - they did not have",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: to come early before Shabbat - they are not equal;",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: rather, the watch that lingers over Shabbat, whether it is",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: a single watch or several watches,",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "continuing: takes two loaves, and the rest is divided",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: among the outgoing and incoming watches whose time is fixed",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "closing: for that Shabbat.' Then opens 'if so': that the middle clause",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l11"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "closing: is Rabbi's, what does always-five mean? It is difficult. Then opens 'Mishnah'",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l11"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: 'my lord': my master.' Then opens 'they read before him",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "continuing: in the order of the day': the portion of Acharei Mot, and likewise",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "closing: all seven days.' Then opens 'so that he will recognize' -",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "continuing: he considers the animals passing before him, so as to take",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "closing: to heart the laws of the day's order.' Gemara:",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Opens 'in the First Temple': they installed as High Priest only",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "closing: those fit according to the Torah's law.",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Then opens 'Marta bat Baytos': she was a wealthy widow",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "continuing: whom Yehoshua ben Gamla married, and she gave",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "continuing: money to King Yannai, and he appointed him to be",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "closing: High Priest.' Then opens 'tarkeva': half a se'ah, two",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "closing: kav.' Then opens 'dinarei': gold coins.' Then opens 'dayla': an officer",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "closing: of the king.' Then opens 'do not cross paths with him in the market' -",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "continuing: since he knew you from before, he is expert",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "continuing: in your wealth and your dealings, so as to find a pretext",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "closing: to collect money from you.' Then opens 'they feed him': on the morning of the eve of Yom Kippur, fine flour and eggs, so as to soften the food in his intestines and loosen his bowels, so that he will not need",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "closing: to relieve himself the next day.' Then opens 'to the point of heating': of seminal emission, since fine flour and eggs increase seed.' Then opens 'avi and avvi': these are mnemonics, which it goes on to explain.' Then opens 'a zav, we attribute his discharge",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "continuing: to food': if he ate a great deal of food of any kind, we attribute it, saying that due to excess food he had the discharge, and he is not a zav for the seven-day impurity or for the offering, as it is written (Leviticus 15):",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l35"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "continuing: 'his flesh' - and not due to something beyond his control; but one with a seminal emission is impure even when it happens involuntarily, since a seminal emission and a zav's discharge do not come from the same source, and their appearance is not alike: the zav's discharge resembles the water of dough made of",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l35"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "closing: barley, and is not cohesive, but like the white of a rotten egg; whereas semen is cohesive, like the white of an egg that is not rotten. Then opens 'they do not feed him': during his days of examination.",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l35"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "Opens 'the cress' -",
-      "linkedGemaraLineIds": [
-        "yoma-018a-l39"
-      ]
+     "term": "Yehoshua ben Gamla",
+     "def": "A Second Temple KG whose appointment Maratha bat Baytus purchased from the king Agrippa. Despite the improper appointment, he is remembered for establishing Torah schools in every city and town of Israel."
     }
-  ]
+   ],
+   "conceptRefs": [
+    "Yoma.18a.9",
+    "Yoma.18a.10"
+   ],
+   "requiresUnderstanding": [
+    "Tum'at keri and its consequences for kohanim",
+    "The seven-day KG preparation period",
+    "The Yom Kippur goat lottery system"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Because Second Temple KG appointments could be bought, the Yom Kippur service performed by an improperly appointed KG was invalid.",
+     "correction": "The Gemara generally treats the service as valid even when the appointment process was corrupt; the bribery narrative critiques who held the office, not the validity of the rite he performed."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-18a-s01",
+    "yoma-18a-s03"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "desc": "First Temple (proper selection by Torah standards) vs Second Temple (wealth-based appointments)"
+    },
+    {
+     "type": "sequence",
+     "desc": "Elders' preparation routine: morning - read service to KG; afternoon - KG practices; evening - dietary restriction begins"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What did Maratha bat Baytus do to secure the High Priesthood for Yehoshua ben Gamla, and what does this narrative illustrate?",
+     "answer": "She paid King Agrippa a tarkeva (a large measure) of dinars to have him appointed. The narrative illustrates how far Second Temple appointment standards had drifted from the Torah-based selection of the First Temple."
+    },
+    {
+     "question": "Why are goats excluded from the animal parade shown to the KG during his seven days of preparation?",
+     "answer": "Because the KG's own personal Yom Kippur offerings are a bull and a ram, not goats; only the communal musaf goats are relevant, and those are shown separately for the lottery."
+    }
+   ],
+   "finalRuling": "The elders' preparation protocol is established: read the service, have the KG practice, restrict diet. Second Temple history shows what happens when this standard is violated.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "טֻמְאַת קֶרִי",
+     "translit": "tum'at keri",
+     "en": "Ritual impurity from seminal emission. Requires immersion and waiting until evening before resuming Temple service."
+    },
+    {
+     "he": "תַּרְקֵיבָא",
+     "translit": "tarkeva",
+     "en": "A half-se'ah measure (approximately 3 liters). Maratha bat Baytus paid a tarkeva of dinars (gold coins) for the KG appointment."
+    }
+   ],
+   "review": {
+    "content": "ai_generated",
+    "sourceRefs": "ai_generated"
+   }
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-18a-s03",
+   "lineRange": {
+    "startVilnaLine": 29,
+    "endVilnaLine": 39
+   },
+   "lines": [
+    {
+     "vilnaLine": 29,
+     "sefariaRef": "Yoma.18a.14"
+    },
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.18a.15"
+    },
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.18a.16"
+    },
+    {
+     "vilnaLine": 39,
+     "sefariaRef": "Yoma.18a.17"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.18a.14",
+    "Yoma.18a.15",
+    "Yoma.18a.16",
+    "Yoma.18a.17"
+   ],
+   "display": {
+    "title": "Five trigger foods: when an emission is oness and when it is not",
+    "whats": "The specific foods that cause seminal emission are listed and discussed. Five foods are identified: fine flour, eggs, wine, garlic, and others. The Gemara then raises a related question: what is the legal status of a kohen who has a seminal emission during the preparation period - is it attributed to illness (oness) or to his own eating? The distinction matters because an unavoidable emission (oness) might not disqualify him.",
+    "hint": "The list of emission-causing foods is practical halacha for the KG's week of preparation. The oness question is more theoretical: if the emission was caused by normal food consumption (not excess), is it still the kohen's 'fault'?"
+   },
+   "learning": {
+    "learnerQuestion": "If a kohen eats ordinary food during his preparation week and then experiences a seminal emission, is that emission his fault, or is it an unavoidable accident (oness)?",
+    "coreTension": "A seminal emission during the KG's seven days of preparation threatens his fitness for the service, so the Gemara needs a workable test for when an emission counts as foreseeable conduct versus a genuine accident.",
+    "coreMove": "The Gemara separates general eating from eating known emission-triggers. Large-quantity eating of ordinary food that happens to be followed by emission is treated as oness, because nothing about the meal specifically targeted emission. But eating one of five identified foods, in their emission-triggering quantities, is treated as foreseeable and therefore not oness, because the kohen knowingly courted the outcome.",
+    "resolution": "Emission following ordinary eating is oness. Emission following deliberate consumption of one of the five listed foods, in emission-causing quantities, is not oness and the kohen bears responsibility for it.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Whether an outcome counts as oness (unavoidable) or as the actor's responsibility can hinge on whether the actor knowingly engaged in conduct with a foreseeable result, not merely on whether the result itself was unwanted."
+    },
+    "ahaMoment": "Oness is not about whether you wanted the outcome. It is about whether you knowingly did something likely to cause it. Eating a lot of food is not the same as eating a known trigger food.",
+    "learningBlocker": "Learners tend to treat 'oness' as a single binary switch covering all seminal emission, missing that the Gemara's test turns on what specifically was eaten, not on the mere fact that an emission occurred.",
+    "memoryAnchor": "Five trigger foods (flour, eggs, garlic, purslane, arugula): eat one in quantity and emit, you knew the risk, not oness. Overeat anything else and emit, that's oness."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "list",
+     "label": "Five foods causing seminal emission",
+     "speaker": "Gemara",
+     "text": "The emission-causing foods are: (1) fine flour (soltot), (2) eggs, (3) garlic, (4) purslane (halalglogot), (5) arugula (gargir). Each stimulates seminal production according to the Talmud's physiological understanding.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-18a-l29",
+       "vilnaLine": 29,
+       "note": "List of five emission-causing foods"
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "detail",
+     "label": "Arugula digression: also brightens eyes",
+     "speaker": "Gemara",
+     "text": "Arugula (gargir) not only causes emission but also brightens the eyes. Rav Huna: eat arugula for its eye-brightening benefits, or rub the gargir juice on the eyes.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-18a-l31",
+       "vilnaLine": 31,
+       "note": "Arugula's dual properties"
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "question",
+     "label": "Oness for a kohen who eats and emits",
+     "speaker": "Gemara",
+     "text": "If a kohen eats ordinary food (even a lot of various foods) and then experiences seminal emission, is he considered to have emission by oness (unavoidable)? Or does eating freely expose him to foreseeable emission, making him responsible?",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-18a-l35",
+       "vilnaLine": 35,
+       "note": "Oness question for emission"
+      }
+     ]
+    },
+    {
+     "id": "step-04",
+     "type": "resolution",
+     "label": "Eating normally: treated as oness; eating emission-foods: not oness",
+     "speaker": "Gemara",
+     "text": "If the kohen ate any food in large quantity (not specific emission-foods) and emitted, it is treated as oness. But if he specifically ate one of the five emission-causing foods in their emission-causing quantities, he is considered responsible for the emission.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-18a-l39",
+       "vilnaLine": 39,
+       "note": "Resolution: emission-foods = not oness"
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "emission-causing foods",
+    "tum'at keri",
+    "oness",
+    "KG restrictions",
+    "Second Temple period",
+    "priestly purity"
+   ],
+   "concepts": [
+    {
+     "term": "oness",
+     "def": "An unavoidable or involuntary act. In the context of ritual impurity: if emission was beyond the kohen's control, it may be treated differently than a voluntary or foreseeable emission."
+    },
+    {
+     "term": "gargir",
+     "def": "Arugula - one of the five foods listed as causing seminal emission. Also said to have eye-brightening properties."
+    }
+   ],
+   "conceptRefs": [
+    "Yoma.18a.14",
+    "Yoma.18a.15"
+   ],
+   "requiresUnderstanding": [
+    "Tum'at keri and its consequences",
+    "The oness principle in halacha",
+    "The KG's dietary restrictions during preparation"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "All seminal emissions during the preparation week are treated the same way under the oness rule.",
+     "correction": "The Gemara distinguishes by cause: emission from ordinary eating in quantity is oness, while emission from deliberately eating one of the five known emission-causing foods, in trigger quantities, is foreseeable and not oness."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-18a-s02",
+    "yoma-18b-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "desc": "List of five emission-causing foods with their properties: (1) fine flour, (2) eggs, (3) garlic, (4) purslane, (5) arugula. Arugula additionally brightens eyes."
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Name three of the five foods the Gemara identifies as causing seminal emission.",
+     "answer": "Any three of: fine flour (soltot), eggs, garlic, purslane (halalglogot), arugula (gargir)."
+    },
+    {
+     "question": "A kohen overeats a large ordinary meal during his preparation week and then experiences a seminal emission. Is this oness? Why or why not?",
+     "answer": "Yes, it is oness. He did not specifically eat one of the five known emission-causing foods in trigger quantities, so the emission was not a foreseeable result of his particular eating, even though he ate heavily."
+    }
+   ],
+   "finalRuling": "Five emission-causing foods established. Emission from these foods = not oness; emission from general overeating = oness.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "אֹנֶס",
+     "translit": "oness",
+     "en": "Unavoidable/involuntary act. An oness emission does not carry the same liability as a foreseeable, avoidable one."
+    },
+    {
+     "he": "גַּרְגִּיר",
+     "translit": "gargir",
+     "en": "Arugula - one of the five emission-causing foods; also said to brighten the eyes."
+    }
+   ],
+   "review": {
+    "content": "ai_generated",
+    "sourceRefs": "ai_generated"
+   }
+  }
+ ],
+ "glossary": [
+  {
+   "he": "שִׁבְעַת יָמִים",
+   "translit": "shivat yamim",
+   "en": "Seven days - the KG's isolation and preparation period before Yom Kippur, beginning 3 Tishrei."
+  },
+  {
+   "he": "טֻמְאַת קֶרִי",
+   "translit": "tum'at keri",
+   "en": "Ritual impurity from seminal emission. Requires immersion and waiting until evening before resuming Temple service."
+  },
+  {
+   "he": "תַּרְקֵיבָא",
+   "translit": "tarkeva",
+   "en": "A half-se'ah measure (approximately 3 liters). Maratha bat Baytus paid a tarkeva of dinars (gold coins) for the KG appointment."
+  },
+  {
+   "he": "אֹנֶס",
+   "translit": "oness",
+   "en": "Unavoidable/involuntary act. An oness emission does not carry the same liability as a foreseeable, avoidable one."
+  },
+  {
+   "he": "גַּרְגִּיר",
+   "translit": "gargir",
+   "en": "Arugula - one of the five emission-causing foods; also said to brighten the eyes."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'And what is four or five' - when four and when five. 'According to the Rabbis' - who dispute Rabbi Yehuda in the chapter HeChalil (Sukkah 56a) and say the outgoing watch takes six",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "loaves, and the incoming watch takes six loaves, but the incoming watch alone does not take payment for closing the doors; it turns out all of them come and divide, and the High Priest divides with both of them, and from twelve",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "he must divide; and since he cannot take a whole half, he takes one less than half - five. 'According to Rabbi Yehuda, who says the incoming watch takes two' - without dispute, as payment for the fact that he is",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l01",
+    "yoma-018a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "the one who closes, at the end of Shabbat, the doors of the Courtyard, the rampart, and the Sanctuary, and the chambers that were opened in the morning; the watch on whom this closing duty falls must divide from ten, since the two loaves do not come into dispute, for",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "they are its wages. 'One less than half' -",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "of ten, and he takes four. 'It is entirely Rabbi's",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l04",
+    "yoma-018a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "view' - for he says one takes a half. 'And he holds",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "it follows Rabbi Yehuda' - since the two",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "loaves are never divided. 'But what does four mean -",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "surely he must take five!' It is not difficult:",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l07",
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "this is where there is a watch that lingers, etc.' -",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "sometimes the festival falls on a Monday, and there is",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "a watch that comes early, arriving on the eve of Shabbat,",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "and lingers until the festival, since all the watches",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "come for the festival; or sometimes the day after the",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "festival is the eve of Shabbat, and the watches go",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "to their homes on the eve of Shabbat, and there is a watch",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "that lingers there until the end of Shabbat; and we learned",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "in tractate Sukkah (55b): a Shabbat that falls within",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "the festival - all the watches were equal in the division of",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "the showbread; and likewise a festival day adjoining Shabbat, whether",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "before it, when they cannot return on Shabbat",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "to their place, or after it, when they must",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "come early on the eve of Shabbat - all the watches were",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "equal in the division of the showbread, since",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "they must remain there, and it is like a Shabbat",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "within the festival. But if one day fell to intervene",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "in between, whether before it - such as when the festival ended",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "on a Thursday - or after it, that the festival began",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "on a Monday - they did not have",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "to come early before Shabbat - they are not equal;",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "rather, the watch that lingers over Shabbat, whether it is",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "a single watch or several watches,",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "takes two loaves, and the rest is divided",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "among the outgoing and incoming watches whose time is fixed",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "for that Shabbat. 'If so' - that the middle clause",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l09",
+    "yoma-018a-l11"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "is Rabbi's, what does always-five mean?' Mishna:",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l11",
+    "yoma-018a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "'My lord' - my master. 'They read before him",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "in the order of the day' - the portion of Acharei Mot, and likewise",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "all seven days. 'So that he will recognize' -",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "he considers the animals passing before him, so as to take",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "to heart the laws of the day's order. Gemara:",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l12",
+    "yoma-018a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "'In the First Temple' - they installed as High Priest only",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "those fit according to the Torah's law.",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "'Marta bat Baytos' - she was a wealthy widow",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "whom Yehoshua ben Gamla married, and she gave",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "money to King Yannai, and he appointed him to be",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "High Priest. 'Tarkeva' - half a se'ah, two",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "kav. 'Dinarei' - gold coins. 'Dayla' - an officer",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l21",
+    "yoma-018a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "of the king. 'Do not cross paths with him in the market' -",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "since he knew you from before, he is expert",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "in your wealth and your dealings, so as to find a pretext",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "to collect money from you. 'They feed him' - on the morning of the eve of Yom Kippur, fine flour and eggs, so as to soften the food in his intestines and loosen his bowels, so that he will not need",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l28",
+    "yoma-018a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "to relieve himself the next day. 'To the point of heating' - of seminal emission, since the fine flour and eggs increase seed. 'Avi and avvi' - these are mnemonics, which it goes on to explain. 'A zav, we attribute'",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l29",
+    "yoma-018a-l31",
+    "yoma-018a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "his discharge to food' - if he ate a great deal of food of any kind, we attribute it, saying that due to excess food he had the discharge, and he is not a zav for the seven-day impurity or for the offering, as it is written (Leviticus 15),",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "'his flesh' - and not due to something beyond his control; but one with a seminal emission is impure even involuntarily, since a seminal emission and a zav's discharge do not come from the same source, and their appearance is not alike: the zav's discharge resembles the water of dough made of",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "barley, and is not cohesive, but like the white of a rotten egg; whereas semen is cohesive, like the white of an egg that is not rotten. 'They do not feed him' - during his days of examination",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "'The cress' - the daf ends mid-word here; the comment (a list of plant-name translations) continues on 18b.",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l39"
+   ]
+  }
+ ]
 }
