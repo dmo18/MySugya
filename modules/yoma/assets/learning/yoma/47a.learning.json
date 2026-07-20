@@ -1,1236 +1,1242 @@
 {
-  "daf": "47a",
-  "canonicalRef": "Yoma 47a",
-  "summary": "Mishna chapter 5 continuation: the spoon and coal pan are brought out to the High Priest; he scoops handfuls of incense using a spoon because direct hand-scooping is impossible; the coal pan is held in the right hand; an aggadah about R. Yishmael ben Kimhit whose sons served as High Priests; then kometz laws - how to take a handful properly from a meal-offering.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "47a",
+ "canonicalRef": "Yoma 47a",
+ "summary": "Mishna chapter 5 continuation: the spoon and coal pan are brought out to the High Priest; he scoops handfuls of incense using a spoon because direct hand-scooping is impossible; the coal pan is held in the right hand; an aggadah about R. Yishmael ben Kimhit whose sons served as High Priests; then kometz laws - how to take a handful properly from a meal-offering.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-047a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 5
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-047a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 5
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.47a.1"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.47a.2"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.47a.1",
-        "Yoma.47a.2"
-      ],
-      "display": {
-        "whats": "What was brought out to the High Priest and why does the Mishna call the vessel a 'spoon'?",
-        "hint": "The Mishna says a spoon and coal pan were brought out. The Gemara is surprised - a spoon is normally for liquids, not incense powder. The answer: a special incense spoon was used because it is physically impossible to scoop dry incense powder with bare hands without spilling.",
-        "title": "A Spoon for Powder: Why Not Just Use Hands?"
-      },
-      "learning": {
-        "ahaMoment": "You cannot scoop dry incense with your hands - you would spill it. The spoon pours it into the cupped hands. It's a practical necessity that looks unusual.",
-        "memoryAnchor": "A spoon for incense powder - unusual but necessary because dry powder cannot be hand-scooped without spilling.",
-        "learnerQuestion": "Why does the Mishna call the vessel brought to the High Priest a 'spoon' when a spoon is normally used for liquids, not incense powder?",
-        "coreTension": "A spoon (kaf) ordinarily transfers liquids, but the Mishna uses it to bring out dry incense powder, and the Gemara is surprised by the vessel choice until it identifies the practical necessity behind it.",
-        "coreMove": "The Gemara explains that dry incense powder cannot be scooped directly by bare hands without spilling, so the spoon serves to pour the powder into the High Priest's cupped hands - resolving the apparent mismatch as a practical necessity, not a naming error.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "The 'spoon' brought to the High Priest is used because dry incense powder cannot be hand-scooped without spilling - the spoon pours the powder into his cupped hands, a practical necessity despite the unusual vessel choice."
-        },
-        "learningBlocker": "Learners may assume the Mishna's word 'spoon' is simply loose terminology for any small vessel, missing that the Gemara treats the word choice as significant and resolves it through a specific practical explanation."
-      },
-      "argumentFlow": [
-        {
-          "type": "case",
-          "speaker": "Mishna",
-          "text": "They brought out the spoon and coal pan to the High Priest in the space between the vestibule and the altar.",
-          "id": "yoma-047a-l01",
-          "label": "Mishna: They brought out the spoon and coal",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "question",
-          "speaker": "Gemara",
-          "text": "Why a spoon? The Gemara is surprised by this vessel choice.",
-          "id": "yoma-047a-l05",
-          "label": "Question: Why a spoon? The Gemara is surprised",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047a-l05",
-              "vilnaLine": 5
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "spoon",
-        "coal pan",
-        "incense",
-        "vestibule",
-        "High Priest"
-      ],
-      "concepts": {
-        "halachic": [
-          "spoon used for incense transfer"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "incense service laws",
-        "Holy of Holies entry sequence"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The Mishna's use of the word 'spoon' for the incense vessel is just loose or generic terminology, with no real significance to the Gemara.",
-          "correction": "The Gemara is struck by the word choice precisely because a spoon is normally for liquids, and resolves it with a specific practical explanation: dry incense powder cannot be hand-scooped without spilling, so the spoon pours it into the High Priest's cupped hands.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-047b-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "object",
-          "label": "spoon and coal pan brought to High Priest between vestibule and altar"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Because it is impossible to scoop dry incense powder with bare hands without spilling; the spoon transfers the incense into the cupped hands.",
-          "question": "Why was a spoon used for the Yom Kippur incense?"
-        }
-      ],
-      "finalRuling": "A spoon is used to transfer incense powder to the High Priest's cupped hands because dry powder cannot be hand-scooped without spilling.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.47a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-047a-s02",
-      "lineRange": {
-        "startVilnaLine": 10,
-        "endVilnaLine": 20
-      },
-      "lines": [
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.47a.3"
-        },
-        {
-          "vilnaLine": 13,
-          "sefariaRef": "Yoma.47a.4"
-        },
-        {
-          "vilnaLine": 15,
-          "sefariaRef": "Yoma.47a.5"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.47a.6"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.47a.3",
-        "Yoma.47a.4",
-        "Yoma.47a.5",
-        "Yoma.47a.6"
-      ],
-      "display": {
-        "whats": "How does the High Priest scoop his handfuls and why is this called the most difficult act?",
-        "hint": "The High Priest scoops both handfuls of incense from the spoon into his palms, holding the spoon with his thumbs and little fingers while his three middle fingers hold the incense. This is called 'the most difficult service in the Temple' because it requires extraordinary manual dexterity.",
-        "title": "The Hardest Grip in the Temple"
-      },
-      "learning": {
-        "ahaMoment": "The most difficult Temple service act: cupping incense in the middle three fingers while pinching the spoon with thumbs and little fingers. Practiced for months before Yom Kippur.",
-        "memoryAnchor": "The kometz act is so difficult that young kohanim trained intensively; even experienced ones sometimes failed.",
-        "learnerQuestion": "What makes the act of scooping the incense handfuls (kometz) the most difficult service in the Temple?",
-        "coreTension": "The Mishna calls the kometz the most difficult Temple service, but a simple scooping motion does not obviously explain why - the Gemara must specify the precise mechanics that make it so demanding.",
-        "coreMove": "The Gemara details the exact grip: the High Priest holds the spoon with his thumbs and little fingers while his three middle fingers cup the incense without spilling, showing that the difficulty lies in the extraordinary manual dexterity this dual grip requires.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "The kometz is called the most difficult Temple service because the High Priest must grip the spoon with his thumbs and little fingers while his middle three fingers simultaneously cup the incense without spilling - a feat of manual dexterity, not spiritual intensity."
-        },
-        "learningBlocker": "Learners may assume 'most difficult service' refers to spiritual or emotional intensity, missing that the Gemara specifically grounds the difficulty in the physical dexterity required by the dual-grip mechanics."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Mishna",
-          "text": "He scoops his handfuls and places them into the spoon - this is the most difficult service.",
-          "id": "yoma-047a-l10",
-          "label": "Ruling: He scoops his handfuls and places them",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047a-l10",
-              "vilnaLine": 10
-            }
-          ]
-        },
-        {
-          "type": "explanation",
-          "speaker": "Gemara",
-          "text": "The mechanics: middle three fingers hold incense; thumbs and little fingers grip the spoon.",
-          "id": "yoma-047a-l13",
-          "label": "Explanation: The mechanics: middle three fingers hold incense;",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047a-l13",
-              "vilnaLine": 13
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "This kometz act is called the most difficult service in the entire Temple.",
-          "id": "yoma-047a-l15",
-          "label": "Ruling: This kometz act is called the most",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047a-l15",
-              "vilnaLine": 15
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "kometz",
-        "handfuls",
-        "incense",
-        "most difficult service",
-        "dexterity"
-      ],
-      "concepts": {
-        "halachic": [
-          "kometz mechanics",
-          "spoon grip method"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "incense service laws",
-        "High Priest training",
-        "kometz laws generally"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The kometz is called the 'most difficult service' because of the spiritual intensity and emotional weight of the moment, not its physical mechanics.",
-          "correction": "The Gemara grounds the difficulty specifically in physical dexterity: gripping the spoon with thumbs and little fingers while the middle three fingers cup the incense without spilling is a genuinely demanding manual feat.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "label": "kometz - scooping handfuls with middle fingers while gripping spoon with thumbs"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Because the High Priest must hold the incense spoon with his thumbs and little fingers while his middle three fingers cup the incense powder without spilling - an act requiring extraordinary dexterity.",
-          "question": "Why is the kometz (handful scooping) act called the most difficult service in the Temple?"
-        }
-      ],
-      "finalRuling": "The kometz is the most difficult Temple service act, requiring the High Priest to grip the spoon with thumbs and little fingers while cupping incense in the middle three fingers.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 3,
-      "id": "yoma-047a-s03",
-      "lineRange": {
-        "startVilnaLine": 22,
-        "endVilnaLine": 24
-      },
-      "lines": [
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.47a.7"
-        },
-        {
-          "vilnaLine": 24,
-          "sefariaRef": "Yoma.47a.8"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.47a.7",
-        "Yoma.47a.8"
-      ],
-      "display": {
-        "whats": "Which hand held the coal pan and which held the incense spoon?",
-        "hint": "The coal pan was held in the right hand and the incense ladle in the left. The High Priest then transferred the coal pan to his left side (using his left arm) and placed the incense on the coals with his right hand inside the Holy of Holies.",
-        "title": "Right Hand for Coals, Left for Incense - Then Switch"
-      },
-      "learning": {
-        "ahaMoment": "Right hand: coal pan. Left hand: incense spoon. Inside the Kodesh Kodashim: switch so right hand places incense on coals.",
-        "memoryAnchor": "Coal pan in right hand, incense ladle in left - then the right hand places the incense.",
-        "learnerQuestion": "Which hand held the coal pan and which held the incense spoon, and why does the assignment matter?",
-        "coreTension": "The High Priest carries two vessels into the Holy of Holies, and the Mishna's specific right/left hand assignment raises the question of whether this detail is incidental or essential to the sequence that follows once he is inside.",
-        "coreMove": "The Mishna specifies the coal pan in the right hand and the incense spoon in the left, and the Gemara shows this assignment enables the subsequent sequence: inside the Holy of Holies he sets down the pan and uses his right hand to place the incense on the coals.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The coal pan is held in the right hand and the incense spoon in the left while entering; inside the Holy of Holies, the High Priest sets the pan down and places the incense on the coals with his right hand."
-        },
-        "learningBlocker": "Learners may treat the right/left hand assignment as an incidental detail, missing that it sets up the specific sequence of actions that follows once the High Priest is inside the Holy of Holies."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Mishna",
-          "text": "The High Priest took the coal pan in his right hand and the incense ladle in his left.",
-          "id": "yoma-047a-l22",
-          "label": "Ruling: The High Priest took the coal pan",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047a-l22",
-              "vilnaLine": 22
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "Inside the Holy of Holies he places the pan on the floor and places incense on the coals with his right hand.",
-          "id": "yoma-047a-l24",
-          "label": "Ruling: Inside the Holy of Holies he places",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047a-l24",
-              "vilnaLine": 24
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "coal pan",
-        "incense ladle",
-        "right hand",
-        "left hand",
-        "Holy of Holies"
-      ],
-      "concepts": {
-        "halachic": [
-          "coal pan in right hand",
-          "incense ladle in left hand"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Yom Kippur avodah sequence",
-        "Holy of Holies entry mechanics"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Which hand holds the coal pan versus the incense spoon is an incidental detail with no bearing on what happens next inside the Holy of Holies.",
-          "correction": "The hand assignment sets up the sequence that follows: with the coal pan in the right hand and the incense spoon in the left, the High Priest can set down the pan and use his right hand to place the incense on the coals once inside.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "label": "right hand: coal pan; left hand: incense ladle"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "The right hand held the coal pan; the left hand held the incense ladle (spoon).",
-          "question": "Which hand held the coal pan?"
-        }
-      ],
-      "finalRuling": "Coal pan in right hand; incense ladle in left hand; inside the Holy of Holies the incense is placed on the coals with the right hand.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 4,
-      "id": "yoma-047a-s04",
-      "lineRange": {
-        "startVilnaLine": 27,
-        "endVilnaLine": 40
-      },
-      "lines": [
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.47a.9"
-        },
-        {
-          "vilnaLine": 32,
-          "sefariaRef": "Yoma.47a.10"
-        },
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.47a.11"
-        },
-        {
-          "vilnaLine": 37,
-          "sefariaRef": "Yoma.47a.12"
-        },
-        {
-          "vilnaLine": 40,
-          "sefariaRef": "Yoma.47a.13"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.47a.9",
-        "Yoma.47a.10",
-        "Yoma.47a.11",
-        "Yoma.47a.12",
-        "Yoma.47a.13"
-      ],
-      "display": {
-        "whats": "What happened to R. Yishmael ben Kimhit, and what merit allowed her sons to serve as High Priests?",
-        "hint": "R. Yishmael ben Kimhit had seven sons who all served as High Priests. The Sages asked what merit she had. She answered: the walls of my house never saw the braids of my hair. Her extreme modesty within the home was the merit. One son became impure from a Gentile's spittle on Yom Kippur; she replaced him with a brother.",
-        "title": "Kimhit's Modesty: Seven Sons, One Merit"
-      },
-      "learning": {
-        "ahaMoment": "Seven sons as High Priests because their mother's modesty was so complete that even the walls of her home never saw her hair uncovered. Modesty of this level is considered a supreme merit.",
-        "memoryAnchor": "Kimhit's modesty: even the walls never saw her hair. Seven High Priest sons. One Yom Kippur emergency replacement when a son became impure.",
-        "learnerQuestion": "What merit did Kimhit have that all seven of her sons served as High Priest, and what happened when one of them became impure on Yom Kippur itself?",
-        "coreTension": "Having seven sons serve as High Priest is an extraordinary, seemingly unrepeatable outcome, and the Sages press Kimhit to explain what she did to merit it, while the Yom Kippur service itself demands an immediate answer when a son becomes impure mid-service.",
-        "coreMove": "Kimhit answers that the walls of her house never saw the braids of her hair - a level of modesty extending even into private space - and the Gemara notes other women practiced similar modesty without the same result, marking her case as exceptional; meanwhile a brother substitutes when one son is disqualified by a Gentile's spittle.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Kimhit attributed her seven sons' service as High Priest to modesty so complete that even the walls of her own house never saw her hair uncovered; when one son became impure on Yom Kippur from a Gentile's spittle, a brother substituted for him."
-        },
-        "learningBlocker": "Learners may assume Kimhit's modesty was simply standard practice that any woman would have followed, missing that the Sages specifically note other women practiced similarly without the same result - marking her case as exceptional."
-      },
-      "argumentFlow": [
-        {
-          "type": "narrative",
-          "speaker": "Gemara",
-          "text": "R. Yishmael ben Kimhit had seven sons who served as High Priest.",
-          "id": "yoma-047a-l27",
-          "label": "Narrative: R. Yishmael ben Kimhit had seven sons",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047a-l27",
-              "vilnaLine": 27
-            }
-          ]
-        },
-        {
-          "type": "narrative",
-          "speaker": "Kimhit",
-          "text": "My merit: the walls of my house never saw the braids of my hair.",
-          "id": "yoma-047a-l32",
-          "label": "Narrative: My merit: the walls of my house",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047a-l32",
-              "vilnaLine": 32
-            }
-          ]
-        },
-        {
-          "type": "narrative",
-          "speaker": "Gemara",
-          "text": "One son became impure on Yom Kippur (Gentile's spittle) and a brother substituted for him.",
-          "id": "yoma-047a-l35",
-          "label": "Narrative: One son became impure on Yom Kippur",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047a-l35",
-              "vilnaLine": 35
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Sages",
-          "text": "Many women practiced similar modesty without this result - modesty is required of everyone but Kimhit's was exceptional.",
-          "id": "yoma-047a-l37",
-          "label": "Ruling: Many women practiced similar modesty without this",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047a-l37",
-              "vilnaLine": 37
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Kimhit",
-        "seven High Priests",
-        "tzniut",
-        "modesty",
-        "Yom Kippur replacement"
-      ],
-      "concepts": {
-        "halachic": [
-          "High Priest replacement when impure on Yom Kippur"
-        ],
-        "theological": [
-          "modesty as spiritual merit"
-        ],
-        "narrative": [
-          "Kimhit's seven sons",
-          "Gentile spittle impurity on Yom Kippur"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "High Priest replacement laws",
-        "tzniut values"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Kimhit's modesty was simply ordinary, expected practice that any observant woman of the time would have followed.",
-          "correction": "The Sages note that many women practiced similar modesty without the same result - Kimhit's case is marked as exceptional, going beyond the ordinary expectation.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-040b-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "person",
-          "label": "Kimhit - mother of seven High Priests"
-        },
-        {
-          "type": "narrative",
-          "label": "Yom Kippur emergency: Gentile spittle made son impure, brother substituted"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "The walls of her house never saw the braids of her hair - her modesty inside her home was so extreme that even her own walls never witnessed her hair uncovered.",
-          "question": "What merit did Kimhit claim for having seven sons serve as High Priest?"
-        }
-      ],
-      "finalRuling": "Kimhit's extraordinary modesty - walls never seeing her hair - merited seven sons as High Priests; when one became impure on Yom Kippur from Gentile spittle, a brother substituted.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 5,
-      "id": "yoma-047a-s05",
-      "lineRange": {
-        "startVilnaLine": 43,
-        "endVilnaLine": 47
-      },
-      "lines": [
-        {
-          "vilnaLine": 43,
-          "sefariaRef": "Yoma.47a.14"
-        },
-        {
-          "vilnaLine": 44,
-          "sefariaRef": "Yoma.47a.15"
-        },
-        {
-          "vilnaLine": 45,
-          "sefariaRef": "Yoma.47a.16"
-        },
-        {
-          "vilnaLine": 47,
-          "sefariaRef": "Yoma.47a.17"
-        },
-        {
-          "vilnaLine": 47,
-          "sefariaRef": "Yoma.47a.18"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.47a.14",
-        "Yoma.47a.15",
-        "Yoma.47a.16",
-        "Yoma.47a.17",
-        "Yoma.47a.18"
-      ],
-      "display": {
-        "whats": "What does 'his handfuls' (kometz) require - exactly three middle fingers' worth?",
-        "hint": "The baraita discusses 'his handfuls' (v'kamatz) - does this mean exactly three fingers, or can it be more? The Gemara analyzes whether the kometz must be exactly filled (not overflowing, not scant) and what the verse requires.",
-        "title": "Not a Fist, Not Fingertips: The Exact Kometz"
-      },
-      "learning": {
-        "ahaMoment": "Kometz: not too much (clenched fist), not too little (finger-tips only), but exactly the middle-finger-pad amount.",
-        "memoryAnchor": "The kometz must be precisely the middle three fingers' worth - exact calibration is part of the service.",
-        "learnerQuestion": "What does the Torah's phrase 'his handfuls' (v'kamatz) require - is any amount of fingers acceptable, or is there an exact measure?",
-        "coreTension": "The verse could be read either as requiring a full closed fist or as permitting any small amount touched by the fingertips, and the baraita must narrow this open-ended phrase to a precise, workable measure.",
-        "coreMove": "The Gemara derives from 'kometz' that the amount must not overflow a closed fist, and from 'his handfuls' that it must not be a mere fingertip touch, converging on the exact middle-three-fingers amount as the only valid measure.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "The kometz must be exactly the amount held by the three middle fingers - 'kometz' excludes an overflowing full fist, and 'his handfuls' excludes a mere fingertip touch."
-        },
-        "learningBlocker": "Learners may think any amount roughly fitting in the hand satisfies 'his handfuls,' missing that the Gemara derives a precise measure - not too much, not too little - from the verse's specific wording."
-      },
-      "argumentFlow": [
-        {
-          "type": "citation",
-          "speaker": "Baraita",
-          "text": "'His handfuls' - not a full fist and not fingertip-only, but the exact middle-finger amount.",
-          "id": "yoma-047a-l43",
-          "label": "Citation: 'His handfuls' - not a full fist",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047a-l43",
-              "vilnaLine": 43
-            }
-          ]
-        },
-        {
-          "type": "derivation",
-          "speaker": "Gemara",
-          "text": "'Kometz' excludes overflow; 'his handfuls' excludes less than the proper amount.",
-          "id": "yoma-047a-l45",
-          "label": "Derivation: 'Kometz' excludes overflow; 'his handfuls' excludes ...",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047a-l45",
-              "vilnaLine": 45
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "kometz",
-        "handfuls",
-        "measure",
-        "meal-offering",
-        "incense"
-      ],
-      "concepts": {
-        "halachic": [
-          "exact kometz measure required",
-          "not full fist not fingertips"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "kometz laws in meal-offerings",
-        "incense service precision"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Any amount of incense or flour that roughly fits in the High Priest's hand satisfies the Torah's requirement of 'his handfuls.'",
-          "correction": "The Gemara derives an exact measure from the verse's wording: 'kometz' excludes an overflowing fist and 'his handfuls' excludes a mere fingertip touch, leaving only the precise middle-three-fingers amount as valid.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "label": "exact kometz: three middle fingers, not fist, not fingertips"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Exactly the amount held by the three middle fingers - not a clenched fist (too much) and not just fingertips (too little).",
-          "question": "What does 'kometz' (handful) require in Temple law?"
-        }
-      ],
-      "finalRuling": "The kometz must be exactly the three-middle-finger amount: not overflowing and not scant.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 6,
-      "id": "yoma-047a-s06",
-      "lineRange": {
-        "startVilnaLine": 48,
-        "endVilnaLine": 48
-      },
-      "lines": [
-        {
-          "vilnaLine": 48,
-          "sefariaRef": "Yoma.47a.19"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.47a.19"
-      ],
-      "display": {
-        "whats": "What additional detail does the baraita teach about 'his handfuls' in the incense service?",
-        "hint": "The final baraita on this page teaches that 'his handfuls' means the High Priest must take the incense with his own hands and not use a vessel as the primary measure. The human hand is the measure - the spoon is only for transfer.",
-        "title": "His Own Hands: The Body as the Measuring Tool"
-      },
-      "learning": {
-        "ahaMoment": "The hand is the measuring instrument for the kometz - Temple law uses the human body as the standard.",
-        "memoryAnchor": "His handfuls = specifically his hands, not a vessel measuring a fixed volume.",
-        "learnerQuestion": "Does 'his handfuls' mean the High Priest must use his own hands specifically, rather than a standardized measuring vessel?",
-        "coreTension": "Temple measures are usually fixed and standardized, so it is not obvious whether the kometz should likewise be measured by a uniform vessel or by the variable hands of whichever kohen performs the rite.",
-        "coreMove": "The baraita reads 'his handfuls' as requiring the kohen's own hands as the measuring instrument, rejecting a standardized vessel and establishing the human hand itself as the Torah's chosen measure for this rite.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "'His handfuls' means the kometz must be taken with the kohen's own hands, not a standardized vessel - the human hand itself is the measuring instrument the Torah specifies."
-        },
-        "learningBlocker": "Learners may assume Temple measures are always standardized vessels for consistency, missing that the Gemara specifically reads 'his handfuls' as requiring the variable human hand as the measure."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Baraita",
-          "text": "'His handfuls' means he must take it with his own hands - the hand is the measure, not a vessel.",
-          "id": "yoma-047a-l48",
-          "label": "Ruling: 'His handfuls' means he must take it",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-047a-l48",
-              "vilnaLine": 48
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "kometz",
-        "handfuls",
-        "human hand measure",
-        "Temple service"
-      ],
-      "concepts": {
-        "halachic": [
-          "hand as the measure for kometz"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "kometz laws",
-        "Temple measurement standards"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Like other Temple measures, the kometz must be taken using a standardized vessel to ensure a consistent quantity regardless of who performs the rite.",
-          "correction": "The Gemara reads 'his handfuls' as requiring the kohen's own hands, not a vessel - the human hand itself is the Torah's chosen measuring instrument for this rite, even though hand sizes vary.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "object",
-          "label": "human hand as measuring instrument for kometz"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "The human hand of the kohen himself - not a standardized vessel. The hand is the measuring instrument.",
-          "question": "What is the standard measure for a kometz?"
-        }
-      ],
-      "finalRuling": "The kometz must be taken with his own hands - the human hand is the measure, not a fixed-volume vessel.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.47a.2"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.47a.1",
+    "Yoma.47a.2"
+   ],
+   "display": {
+    "whats": "What was brought out to the High Priest and why does the Mishna call the vessel a 'spoon'?",
+    "hint": "The Mishna says a spoon and coal pan were brought out. The Gemara is surprised - a spoon is normally for liquids, not incense powder. The answer: a special incense spoon was used because it is physically impossible to scoop dry incense powder with bare hands without spilling.",
+    "title": "A Spoon for Powder: Why Not Just Use Hands?"
+   },
+   "learning": {
+    "ahaMoment": "You cannot scoop dry incense with your hands - you would spill it. The spoon pours it into the cupped hands. It's a practical necessity that looks unusual.",
+    "memoryAnchor": "A spoon for incense powder - unusual but necessary because dry powder cannot be hand-scooped without spilling.",
+    "learnerQuestion": "Why does the Mishna call the vessel brought to the High Priest a 'spoon' when a spoon is normally used for liquids, not incense powder?",
+    "coreTension": "A spoon (kaf) ordinarily transfers liquids, but the Mishna uses it to bring out dry incense powder, and the Gemara is surprised by the vessel choice until it identifies the practical necessity behind it.",
+    "coreMove": "The Gemara explains that dry incense powder cannot be scooped directly by bare hands without spilling, so the spoon serves to pour the powder into the High Priest's cupped hands - resolving the apparent mismatch as a practical necessity, not a naming error.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "The 'spoon' brought to the High Priest is used because dry incense powder cannot be hand-scooped without spilling - the spoon pours the powder into his cupped hands, a practical necessity despite the unusual vessel choice."
+    },
+    "learningBlocker": "Learners may assume the Mishna's word 'spoon' is simply loose terminology for any small vessel, missing that the Gemara treats the word choice as significant and resolves it through a specific practical explanation."
+   },
+   "argumentFlow": [
     {
-      "he": "כַּף",
-      "translit": "kaf",
-      "en": "Spoon/ladle used to transfer incense powder to the High Priest's hands; also the golden ladle carried into the Holy of Holies."
+     "type": "case",
+     "speaker": "Mishna",
+     "text": "They brought out the spoon and coal pan to the High Priest in the space between the vestibule and the altar.",
+     "id": "yoma-047a-l01",
+     "label": "Mishna: They brought out the spoon and coal",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047a-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "he": "קֹמֶץ",
-      "translit": "kometz",
-      "en": "Handful - the amount of incense or meal-offering flour taken with the three middle fingers; the most difficult act in Temple service."
-    },
-    {
-      "he": "קִימְחִית",
-      "translit": "Kimhit",
-      "en": "Mother of seven sons who served as High Priests, whose extraordinary modesty earned her this merit."
+     "type": "question",
+     "speaker": "Gemara",
+     "text": "Why a spoon? The Gemara is surprised by this vessel choice.",
+     "id": "yoma-047a-l05",
+     "label": "Question: Why a spoon? The Gemara is surprised",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047a-l05",
+       "vilnaLine": 5
+      }
+     ]
     }
-  ],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "en": "Rashi: opens - 'they brought out to him' - from the vessel chamber. 'And such was its measure' - explained in the Gemara:",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "Rashi: continues - Gemara: 'a coal pan' of incense, to scoop from within it. 'Let him bring in' the coal pan,",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "Rashi: continues - and then bring in the incense in his handfuls: 'one bringing' said the Merciful One, regarding the coals",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "Rashi: continues - and the incense, not two bringings, as it is written (Leviticus 16): 'and the priest shall take a fill'",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "Rashi: continues - of the coal pan of coals of fire from the altar, and a fill",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "Rashi: continues - of his handfuls, etc., and he shall bring it within the veil:",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "Rashi: continues - as we find regarding the nesi'im: one spoon full",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "Rashi: continues - of incense: 'great in quantity' - and being heavy to take, it requires",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "Rashi: continues - the right hand: 'even when they are both equal' - a priest",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Rashi: continues - whose handfuls are large and scoops three kabin",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "Rashi: continues - even so, since for the majority of priests",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "Rashi: continues - the coals are more than his handfuls, he takes a spoon",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Rashi: continues - in the left hand. 'Kimchit' - his mother's name: 'went up'",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Rashi: continues - 'to the roof' - surpassed them all: some say",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "Rashi: continues - this 'zered' he said with reference to arsan, and it is good",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "Rashi: continues - for the sick, and typically pregnant women are unwell",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Rashi: continues - and eat zerid and arsan, which are types of",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Rashi: continues - wheat foods, as we say in tractate",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "Rashi: continues - Berachot (37a): chilka wheat",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Rashi: continues - that is broken in a mortar into two pieces is called targis,",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "Rashi: continues - into three pieces zerid, into four pieces arsan,",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Rashi: continues - into five pieces [a further name]; and this is what it means: all the women",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Rashi: continues - who are pregnant, they instituted for them zerid and arsan",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Rashi: continues - to sustain them and the fetuses, and that of",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Rashi: continues - my mother surpassed them all: some say",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Rashi: continues - regarding semen, he said, that the formation of",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Rashi: continues - the offspring is not from the entire drop, but from the refined part",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Rashi: continues - within it; 'zered' is a term related to bundles of willow branches, in the vernacular 'todil'",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Rashi: continues - meaning: the refined drop that my mother absorbed;",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "Rashi: continues - that refinement grew and went up to the roof. 'And You have girded me' -",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Rashi: continues - a term related to 'winnowing the threshing floor of barley' (Ruth",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "Rashi: continues - 3): selecting the drop. 'And You have made me alert' -",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "Rashi: continues - You selected me from the refinement within it. 'One time' -",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l35"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "Rashi: continues - it was Yom Kippur. 'Tzinnora' - spittle: 'they did not see'",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l35",
-        "yoma-047a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "Rashi: continues - 'the beams of my house,' etc. I saw in the",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l40"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "Rashi: continues - Jerusalem Talmud: 'all glorious is the king's daughter within,'",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l40"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Rashi: continues - 'her clothing is of wrought gold' - a modest woman",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l40"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "Rashi: continues - is worthy to have emerge from her a High Priest clothed",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l40"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "Rashi: continues - in wrought gold. This is our reading: 'our Rabbis taught'",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l43"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "Rashi: continues - 'with his fist' - that he should not make a vessel for the fistful. 'And he shall lift'",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l43"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "Rashi: continues - from it with his fist, and not that he should make a vessel for measuring",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l43"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Rashi: continues - his fistful and measure with it a fistful from the meal offering:",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l43"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Rashi: continues - but here it is not written 'with his handfuls.' And if",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l44"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Rashi: continues - he made a vessel holding his handful's capacity, still a full handful",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l44"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Rashi: continues - 'and he shall bring' - we still read it as valid: or we derive 'full' [by verbal analogy], as it is written",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l44"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "Rashi: continues - in another verse: 'and he shall take a fistful from there, a full fistful'",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l44"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "Rashi: continues - (Leviticus 2): just as there, 'with his fist he shall take a fistful' and not",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l44"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "Rashi: continues - with a vessel, so too here with his handfuls. 'Does this not mean' - and thus",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l44",
-        "yoma-047a-l45"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "Rashi: continues - 'was its measure,' which was taught - this is what it means: if he came",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l45"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "Rashi: continues - to make a measure for the handful, he may do so; the large one",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l45"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "Rashi: continues - according to his size, and the small one according to his size: no, this is",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l45"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "Rashi: continues - what it means: and thus he would go back and scoop it inward.",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l45"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "Rashi: continues - he would pour it into his handfuls from the spoon",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l45"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "Rashi: continues - and place it on the coals in the coal pan. 'You may derive'",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l45",
-        "yoma-047a-l47a"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "Rashi: continues - from this, etc.; and further on (49a) we need it:",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l47a"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "Rashi: continues - 'or perhaps that if he wanted,' etc. - meaning, not",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l47b"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "Rashi: continues - this nor that can be resolved from it, for we push it off",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l47b"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "Rashi: continues - to here and to there. Alternatively: thus",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l47b"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "Rashi: continues - it means: 'thus was its measure' - full handfuls,",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l47b"
-      ]
-    },
-    {
-      "vilnaLine": 60,
-      "en": "Rashi: continues - precisely measured. 'Mevorotz' - protruding on every",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l47b",
-        "yoma-047a-l48"
-      ]
-    },
-    {
-      "vilnaLine": 61,
-      "en": "Rashi: continues - side and sticking out. 'If with his fist' - for we infer, one might think",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l48"
-      ]
-    },
-    {
-      "vilnaLine": 62,
-      "en": "Rashi: continues - with his fingertips he might scoop a little, and however",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l48"
-      ]
-    },
-    {
-      "vilnaLine": 63,
-      "en": "Rashi: continues - much is missing, the better; the verse teaches 'a full':",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l48"
-      ]
-    },
-    {
-      "vilnaLine": 64,
-      "en": "Rashi: opens - 'and on a griddle and on a pan' - extending the same kometz-precision rule just closed (not heaped, not lacking) to griddle and pan offerings; the daf ends mid-word and the comment continues on 47b.",
-      "linkedGemaraLineIds": [
-        "yoma-047a-l48"
-      ]
+   ],
+   "topicTags": [
+    "spoon",
+    "coal pan",
+    "incense",
+    "vestibule",
+    "High Priest"
+   ],
+   "concepts": {
+    "halachic": [
+     "spoon used for incense transfer"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "incense service laws",
+    "Holy of Holies entry sequence"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The Mishna's use of the word 'spoon' for the incense vessel is just loose or generic terminology, with no real significance to the Gemara.",
+     "correction": "The Gemara is struck by the word choice precisely because a spoon is normally for liquids, and resolves it with a specific practical explanation: dry incense powder cannot be hand-scooped without spilling, so the spoon pours it into the High Priest's cupped hands.",
+     "correctedByStepId": null
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-047b-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "object",
+     "label": "spoon and coal pan brought to High Priest between vestibule and altar"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Because it is impossible to scoop dry incense powder with bare hands without spilling; the spoon transfers the incense into the cupped hands.",
+     "question": "Why was a spoon used for the Yom Kippur incense?"
+    }
+   ],
+   "finalRuling": "A spoon is used to transfer incense powder to the High Priest's cupped hands because dry powder cannot be hand-scooped without spilling.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-047a-s02",
+   "lineRange": {
+    "startVilnaLine": 10,
+    "endVilnaLine": 20
+   },
+   "lines": [
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.47a.3"
+    },
+    {
+     "vilnaLine": 13,
+     "sefariaRef": "Yoma.47a.4"
+    },
+    {
+     "vilnaLine": 15,
+     "sefariaRef": "Yoma.47a.5"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.47a.6"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.47a.3",
+    "Yoma.47a.4",
+    "Yoma.47a.5",
+    "Yoma.47a.6"
+   ],
+   "display": {
+    "whats": "How does the High Priest scoop his handfuls and why is this called the most difficult act?",
+    "hint": "The High Priest scoops both handfuls of incense from the spoon into his palms, holding the spoon with his thumbs and little fingers while his three middle fingers hold the incense. This is called 'the most difficult service in the Temple' because it requires extraordinary manual dexterity.",
+    "title": "The Hardest Grip in the Temple"
+   },
+   "learning": {
+    "ahaMoment": "The most difficult Temple service act: cupping incense in the middle three fingers while pinching the spoon with thumbs and little fingers. Practiced for months before Yom Kippur.",
+    "memoryAnchor": "The kometz act is so difficult that young kohanim trained intensively; even experienced ones sometimes failed.",
+    "learnerQuestion": "What makes the act of scooping the incense handfuls (kometz) the most difficult service in the Temple?",
+    "coreTension": "The Mishna calls the kometz the most difficult Temple service, but a simple scooping motion does not obviously explain why - the Gemara must specify the precise mechanics that make it so demanding.",
+    "coreMove": "The Gemara details the exact grip: the High Priest holds the spoon with his thumbs and little fingers while his three middle fingers cup the incense without spilling, showing that the difficulty lies in the extraordinary manual dexterity this dual grip requires.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "The kometz is called the most difficult Temple service because the High Priest must grip the spoon with his thumbs and little fingers while his middle three fingers simultaneously cup the incense without spilling - a feat of manual dexterity, not spiritual intensity."
+    },
+    "learningBlocker": "Learners may assume 'most difficult service' refers to spiritual or emotional intensity, missing that the Gemara specifically grounds the difficulty in the physical dexterity required by the dual-grip mechanics."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Mishna",
+     "text": "He scoops his handfuls and places them into the spoon - this is the most difficult service.",
+     "id": "yoma-047a-l10",
+     "label": "Ruling: He scoops his handfuls and places them",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047a-l10",
+       "vilnaLine": 10
+      }
+     ]
+    },
+    {
+     "type": "explanation",
+     "speaker": "Gemara",
+     "text": "The mechanics: middle three fingers hold incense; thumbs and little fingers grip the spoon.",
+     "id": "yoma-047a-l13",
+     "label": "Explanation: The mechanics: middle three fingers hold incense;",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047a-l13",
+       "vilnaLine": 13
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "This kometz act is called the most difficult service in the entire Temple.",
+     "id": "yoma-047a-l15",
+     "label": "Ruling: This kometz act is called the most",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047a-l15",
+       "vilnaLine": 15
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "kometz",
+    "handfuls",
+    "incense",
+    "most difficult service",
+    "dexterity"
+   ],
+   "concepts": {
+    "halachic": [
+     "kometz mechanics",
+     "spoon grip method"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "incense service laws",
+    "High Priest training",
+    "kometz laws generally"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The kometz is called the 'most difficult service' because of the spiritual intensity and emotional weight of the moment, not its physical mechanics.",
+     "correction": "The Gemara grounds the difficulty specifically in physical dexterity: gripping the spoon with thumbs and little fingers while the middle three fingers cup the incense without spilling is a genuinely demanding manual feat.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "label": "kometz - scooping handfuls with middle fingers while gripping spoon with thumbs"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Because the High Priest must hold the incense spoon with his thumbs and little fingers while his middle three fingers cup the incense powder without spilling - an act requiring extraordinary dexterity.",
+     "question": "Why is the kometz (handful scooping) act called the most difficult service in the Temple?"
+    }
+   ],
+   "finalRuling": "The kometz is the most difficult Temple service act, requiring the High Priest to grip the spoon with thumbs and little fingers while cupping incense in the middle three fingers.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-047a-s03",
+   "lineRange": {
+    "startVilnaLine": 22,
+    "endVilnaLine": 24
+   },
+   "lines": [
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.47a.7"
+    },
+    {
+     "vilnaLine": 24,
+     "sefariaRef": "Yoma.47a.8"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.47a.7",
+    "Yoma.47a.8"
+   ],
+   "display": {
+    "whats": "Which hand held the coal pan and which held the incense spoon?",
+    "hint": "The coal pan was held in the right hand and the incense ladle in the left. The High Priest then transferred the coal pan to his left side (using his left arm) and placed the incense on the coals with his right hand inside the Holy of Holies.",
+    "title": "Right Hand for Coals, Left for Incense - Then Switch"
+   },
+   "learning": {
+    "ahaMoment": "Right hand: coal pan. Left hand: incense spoon. Inside the Kodesh Kodashim: switch so right hand places incense on coals.",
+    "memoryAnchor": "Coal pan in right hand, incense ladle in left - then the right hand places the incense.",
+    "learnerQuestion": "Which hand held the coal pan and which held the incense spoon, and why does the assignment matter?",
+    "coreTension": "The High Priest carries two vessels into the Holy of Holies, and the Mishna's specific right/left hand assignment raises the question of whether this detail is incidental or essential to the sequence that follows once he is inside.",
+    "coreMove": "The Mishna specifies the coal pan in the right hand and the incense spoon in the left, and the Gemara shows this assignment enables the subsequent sequence: inside the Holy of Holies he sets down the pan and uses his right hand to place the incense on the coals.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The coal pan is held in the right hand and the incense spoon in the left while entering; inside the Holy of Holies, the High Priest sets the pan down and places the incense on the coals with his right hand."
+    },
+    "learningBlocker": "Learners may treat the right/left hand assignment as an incidental detail, missing that it sets up the specific sequence of actions that follows once the High Priest is inside the Holy of Holies."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Mishna",
+     "text": "The High Priest took the coal pan in his right hand and the incense ladle in his left.",
+     "id": "yoma-047a-l22",
+     "label": "Ruling: The High Priest took the coal pan",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047a-l22",
+       "vilnaLine": 22
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "Inside the Holy of Holies he places the pan on the floor and places incense on the coals with his right hand.",
+     "id": "yoma-047a-l24",
+     "label": "Ruling: Inside the Holy of Holies he places",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047a-l24",
+       "vilnaLine": 24
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "coal pan",
+    "incense ladle",
+    "right hand",
+    "left hand",
+    "Holy of Holies"
+   ],
+   "concepts": {
+    "halachic": [
+     "coal pan in right hand",
+     "incense ladle in left hand"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Yom Kippur avodah sequence",
+    "Holy of Holies entry mechanics"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Which hand holds the coal pan versus the incense spoon is an incidental detail with no bearing on what happens next inside the Holy of Holies.",
+     "correction": "The hand assignment sets up the sequence that follows: with the coal pan in the right hand and the incense spoon in the left, the High Priest can set down the pan and use his right hand to place the incense on the coals once inside.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "label": "right hand: coal pan; left hand: incense ladle"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "The right hand held the coal pan; the left hand held the incense ladle (spoon).",
+     "question": "Which hand held the coal pan?"
+    }
+   ],
+   "finalRuling": "Coal pan in right hand; incense ladle in left hand; inside the Holy of Holies the incense is placed on the coals with the right hand.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 4,
+   "id": "yoma-047a-s04",
+   "lineRange": {
+    "startVilnaLine": 27,
+    "endVilnaLine": 40
+   },
+   "lines": [
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.47a.9"
+    },
+    {
+     "vilnaLine": 32,
+     "sefariaRef": "Yoma.47a.10"
+    },
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.47a.11"
+    },
+    {
+     "vilnaLine": 37,
+     "sefariaRef": "Yoma.47a.12"
+    },
+    {
+     "vilnaLine": 40,
+     "sefariaRef": "Yoma.47a.13"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.47a.9",
+    "Yoma.47a.10",
+    "Yoma.47a.11",
+    "Yoma.47a.12",
+    "Yoma.47a.13"
+   ],
+   "display": {
+    "whats": "What happened to R. Yishmael ben Kimhit, and what merit allowed her sons to serve as High Priests?",
+    "hint": "R. Yishmael ben Kimhit had seven sons who all served as High Priests. The Sages asked what merit she had. She answered: the walls of my house never saw the braids of my hair. Her extreme modesty within the home was the merit. One son became impure from a Gentile's spittle on Yom Kippur; she replaced him with a brother.",
+    "title": "Kimhit's Modesty: Seven Sons, One Merit"
+   },
+   "learning": {
+    "ahaMoment": "Seven sons as High Priests because their mother's modesty was so complete that even the walls of her home never saw her hair uncovered. Modesty of this level is considered a supreme merit.",
+    "memoryAnchor": "Kimhit's modesty: even the walls never saw her hair. Seven High Priest sons. One Yom Kippur emergency replacement when a son became impure.",
+    "learnerQuestion": "What merit did Kimhit have that all seven of her sons served as High Priest, and what happened when one of them became impure on Yom Kippur itself?",
+    "coreTension": "Having seven sons serve as High Priest is an extraordinary, seemingly unrepeatable outcome, and the Sages press Kimhit to explain what she did to merit it, while the Yom Kippur service itself demands an immediate answer when a son becomes impure mid-service.",
+    "coreMove": "Kimhit answers that the walls of her house never saw the braids of her hair - a level of modesty extending even into private space - and the Gemara notes other women practiced similar modesty without the same result, marking her case as exceptional; meanwhile a brother substitutes when one son is disqualified by a Gentile's spittle.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Kimhit attributed her seven sons' service as High Priest to modesty so complete that even the walls of her own house never saw her hair uncovered; when one son became impure on Yom Kippur from a Gentile's spittle, a brother substituted for him."
+    },
+    "learningBlocker": "Learners may assume Kimhit's modesty was simply standard practice that any woman would have followed, missing that the Sages specifically note other women practiced similarly without the same result - marking her case as exceptional."
+   },
+   "argumentFlow": [
+    {
+     "type": "narrative",
+     "speaker": "Gemara",
+     "text": "R. Yishmael ben Kimhit had seven sons who served as High Priest.",
+     "id": "yoma-047a-l27",
+     "label": "Narrative: R. Yishmael ben Kimhit had seven sons",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047a-l27",
+       "vilnaLine": 27
+      }
+     ]
+    },
+    {
+     "type": "narrative",
+     "speaker": "Kimhit",
+     "text": "My merit: the walls of my house never saw the braids of my hair.",
+     "id": "yoma-047a-l32",
+     "label": "Narrative: My merit: the walls of my house",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047a-l32",
+       "vilnaLine": 32
+      }
+     ]
+    },
+    {
+     "type": "narrative",
+     "speaker": "Gemara",
+     "text": "One son became impure on Yom Kippur (Gentile's spittle) and a brother substituted for him.",
+     "id": "yoma-047a-l35",
+     "label": "Narrative: One son became impure on Yom Kippur",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047a-l35",
+       "vilnaLine": 35
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Sages",
+     "text": "Many women practiced similar modesty without this result - modesty is required of everyone but Kimhit's was exceptional.",
+     "id": "yoma-047a-l37",
+     "label": "Ruling: Many women practiced similar modesty without this",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047a-l37",
+       "vilnaLine": 37
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "Kimhit",
+    "seven High Priests",
+    "tzniut",
+    "modesty",
+    "Yom Kippur replacement"
+   ],
+   "concepts": {
+    "halachic": [
+     "High Priest replacement when impure on Yom Kippur"
+    ],
+    "theological": [
+     "modesty as spiritual merit"
+    ],
+    "narrative": [
+     "Kimhit's seven sons",
+     "Gentile spittle impurity on Yom Kippur"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "High Priest replacement laws",
+    "tzniut values"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Kimhit's modesty was simply ordinary, expected practice that any observant woman of the time would have followed.",
+     "correction": "The Sages note that many women practiced similar modesty without the same result - Kimhit's case is marked as exceptional, going beyond the ordinary expectation.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-040b-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "person",
+     "label": "Kimhit - mother of seven High Priests"
+    },
+    {
+     "type": "narrative",
+     "label": "Yom Kippur emergency: Gentile spittle made son impure, brother substituted"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "The walls of her house never saw the braids of her hair - her modesty inside her home was so extreme that even her own walls never witnessed her hair uncovered.",
+     "question": "What merit did Kimhit claim for having seven sons serve as High Priest?"
+    }
+   ],
+   "finalRuling": "Kimhit's extraordinary modesty - walls never seeing her hair - merited seven sons as High Priests; when one became impure on Yom Kippur from Gentile spittle, a brother substituted.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 5,
+   "id": "yoma-047a-s05",
+   "lineRange": {
+    "startVilnaLine": 43,
+    "endVilnaLine": 47
+   },
+   "lines": [
+    {
+     "vilnaLine": 43,
+     "sefariaRef": "Yoma.47a.14"
+    },
+    {
+     "vilnaLine": 44,
+     "sefariaRef": "Yoma.47a.15"
+    },
+    {
+     "vilnaLine": 45,
+     "sefariaRef": "Yoma.47a.16"
+    },
+    {
+     "vilnaLine": 47,
+     "sefariaRef": "Yoma.47a.17"
+    },
+    {
+     "vilnaLine": 47,
+     "sefariaRef": "Yoma.47a.18"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.47a.14",
+    "Yoma.47a.15",
+    "Yoma.47a.16",
+    "Yoma.47a.17",
+    "Yoma.47a.18"
+   ],
+   "display": {
+    "whats": "What does 'his handfuls' (kometz) require - exactly three middle fingers' worth?",
+    "hint": "The baraita discusses 'his handfuls' (v'kamatz) - does this mean exactly three fingers, or can it be more? The Gemara analyzes whether the kometz must be exactly filled (not overflowing, not scant) and what the verse requires.",
+    "title": "Not a Fist, Not Fingertips: The Exact Kometz"
+   },
+   "learning": {
+    "ahaMoment": "Kometz: not too much (clenched fist), not too little (finger-tips only), but exactly the middle-finger-pad amount.",
+    "memoryAnchor": "The kometz must be precisely the middle three fingers' worth - exact calibration is part of the service.",
+    "learnerQuestion": "What does the Torah's phrase 'his handfuls' (v'kamatz) require - is any amount of fingers acceptable, or is there an exact measure?",
+    "coreTension": "The verse could be read either as requiring a full closed fist or as permitting any small amount touched by the fingertips, and the baraita must narrow this open-ended phrase to a precise, workable measure.",
+    "coreMove": "The Gemara derives from 'kometz' that the amount must not overflow a closed fist, and from 'his handfuls' that it must not be a mere fingertip touch, converging on the exact middle-three-fingers amount as the only valid measure.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "The kometz must be exactly the amount held by the three middle fingers - 'kometz' excludes an overflowing full fist, and 'his handfuls' excludes a mere fingertip touch."
+    },
+    "learningBlocker": "Learners may think any amount roughly fitting in the hand satisfies 'his handfuls,' missing that the Gemara derives a precise measure - not too much, not too little - from the verse's specific wording."
+   },
+   "argumentFlow": [
+    {
+     "type": "citation",
+     "speaker": "Baraita",
+     "text": "'His handfuls' - not a full fist and not fingertip-only, but the exact middle-finger amount.",
+     "id": "yoma-047a-l43",
+     "label": "Citation: 'His handfuls' - not a full fist",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047a-l43",
+       "vilnaLine": 43
+      }
+     ]
+    },
+    {
+     "type": "derivation",
+     "speaker": "Gemara",
+     "text": "'Kometz' excludes overflow; 'his handfuls' excludes less than the proper amount.",
+     "id": "yoma-047a-l45",
+     "label": "Derivation: 'Kometz' excludes overflow; 'his handfuls' excludes ...",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047a-l45",
+       "vilnaLine": 45
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "kometz",
+    "handfuls",
+    "measure",
+    "meal-offering",
+    "incense"
+   ],
+   "concepts": {
+    "halachic": [
+     "exact kometz measure required",
+     "not full fist not fingertips"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "kometz laws in meal-offerings",
+    "incense service precision"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Any amount of incense or flour that roughly fits in the High Priest's hand satisfies the Torah's requirement of 'his handfuls.'",
+     "correction": "The Gemara derives an exact measure from the verse's wording: 'kometz' excludes an overflowing fist and 'his handfuls' excludes a mere fingertip touch, leaving only the precise middle-three-fingers amount as valid.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "label": "exact kometz: three middle fingers, not fist, not fingertips"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Exactly the amount held by the three middle fingers - not a clenched fist (too much) and not just fingertips (too little).",
+     "question": "What does 'kometz' (handful) require in Temple law?"
+    }
+   ],
+   "finalRuling": "The kometz must be exactly the three-middle-finger amount: not overflowing and not scant.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 6,
+   "id": "yoma-047a-s06",
+   "lineRange": {
+    "startVilnaLine": 48,
+    "endVilnaLine": 48
+   },
+   "lines": [
+    {
+     "vilnaLine": 48,
+     "sefariaRef": "Yoma.47a.19"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.47a.19"
+   ],
+   "display": {
+    "whats": "What additional detail does the baraita teach about 'his handfuls' in the incense service?",
+    "hint": "The final baraita on this page teaches that 'his handfuls' means the High Priest must take the incense with his own hands and not use a vessel as the primary measure. The human hand is the measure - the spoon is only for transfer.",
+    "title": "His Own Hands: The Body as the Measuring Tool"
+   },
+   "learning": {
+    "ahaMoment": "The hand is the measuring instrument for the kometz - Temple law uses the human body as the standard.",
+    "memoryAnchor": "His handfuls = specifically his hands, not a vessel measuring a fixed volume.",
+    "learnerQuestion": "Does 'his handfuls' mean the High Priest must use his own hands specifically, rather than a standardized measuring vessel?",
+    "coreTension": "Temple measures are usually fixed and standardized, so it is not obvious whether the kometz should likewise be measured by a uniform vessel or by the variable hands of whichever kohen performs the rite.",
+    "coreMove": "The baraita reads 'his handfuls' as requiring the kohen's own hands as the measuring instrument, rejecting a standardized vessel and establishing the human hand itself as the Torah's chosen measure for this rite.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "'His handfuls' means the kometz must be taken with the kohen's own hands, not a standardized vessel - the human hand itself is the measuring instrument the Torah specifies."
+    },
+    "learningBlocker": "Learners may assume Temple measures are always standardized vessels for consistency, missing that the Gemara specifically reads 'his handfuls' as requiring the variable human hand as the measure."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Baraita",
+     "text": "'His handfuls' means he must take it with his own hands - the hand is the measure, not a vessel.",
+     "id": "yoma-047a-l48",
+     "label": "Ruling: 'His handfuls' means he must take it",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-047a-l48",
+       "vilnaLine": 48
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "kometz",
+    "handfuls",
+    "human hand measure",
+    "Temple service"
+   ],
+   "concepts": {
+    "halachic": [
+     "hand as the measure for kometz"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "kometz laws",
+    "Temple measurement standards"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Like other Temple measures, the kometz must be taken using a standardized vessel to ensure a consistent quantity regardless of who performs the rite.",
+     "correction": "The Gemara reads 'his handfuls' as requiring the kohen's own hands, not a vessel - the human hand itself is the Torah's chosen measuring instrument for this rite, even though hand sizes vary.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "object",
+     "label": "human hand as measuring instrument for kometz"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "The human hand of the kohen himself - not a standardized vessel. The hand is the measuring instrument.",
+     "question": "What is the standard measure for a kometz?"
+    }
+   ],
+   "finalRuling": "The kometz must be taken with his own hands - the human hand is the measure, not a fixed-volume vessel.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [
+  {
+   "he": "כַּף",
+   "translit": "kaf",
+   "en": "Spoon/ladle used to transfer incense powder to the High Priest's hands; also the golden ladle carried into the Holy of Holies."
+  },
+  {
+   "he": "קֹמֶץ",
+   "translit": "kometz",
+   "en": "Handful - the amount of incense or meal-offering flour taken with the three middle fingers; the most difficult act in Temple service."
+  },
+  {
+   "he": "קִימְחִית",
+   "translit": "Kimhit",
+   "en": "Mother of seven sons who served as High Priests, whose extraordinary modesty earned her this merit."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'They brought out to him' - from the vessel chamber. 'And such was its measure' - explained in the Gemara.",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "Gemara: 'a coal pan' of incense - to scoop from within it. 'Let him bring in' the coal pan,",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l05",
+    "yoma-047a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "and then bring in the incense in his handfuls. 'One bringing' said the Merciful One - regarding the coals",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "and the incense, not two bringings, as it is written (Leviticus 16), 'and the priest shall take a fill'",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "of the coal pan of coals of fire from the altar, and a fill",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "of his handfuls,' etc., 'and he shall bring it within the veil.'",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "'As we find regarding the princes' - one spoon full of",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "incense. 'Great in quantity' - and being heavy to take, it requires",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l20",
+    "yoma-047a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "the right hand. 'Even when they are both equal' - a priest",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "whose handfuls are large and who scoops three kabin,",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "even so, since for most priests",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "the coals are more numerous than his handfuls, he takes a spoon",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "in his left hand. 'Kimchit' - his mother's name. 'Went up",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l24",
+    "yoma-047a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "to the roof' - surpassed them all. 'Some say' -",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "this 'zered' he said with reference to arsan, and it is good",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "for the sick, and ordinarily pregnant women are weakened",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "and eat zerid and arsan, which are types of",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "wheat food, as we say in tractate",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "(Berachot 37a): wheat porridge",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "that is broken in a mortar - into two pieces it is called targis,",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "into three pieces zerid, into four pieces arsan,",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "into five pieces [another name]; and this is what it means: all the women",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "who are pregnant, they instituted for them zerid and arsan",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "to sustain them and the fetuses; and that of",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "my mother surpassed them all. 'Some say",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l27",
+    "yoma-047a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "it refers to semen' - meaning that the formation of",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "the child is not from the entire drop, but from the refined part",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "within it; 'zered' is a term related to bundles of willow branches, in the vernacular 'todil,'",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "meaning: the refined drop that my mother absorbed;",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "that refinement grew and went up to the roof. 'And You have girded me' -",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "a term related to 'winnowing the threshing floor of barley' (Ruth",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "3), selecting the drop. 'And You have made me alert' -",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "You selected me from the refinement within it. 'One time' -",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l32",
+    "yoma-047a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "it was Yom Kippur. 'Tzinnora' - spittle. 'They did not see",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l35",
+    "yoma-047a-l40"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "the beams of my house,' etc. - I saw in the",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l40"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "Jerusalem Talmud: 'all glorious is the king's daughter within,",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l40"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "her clothing is of wrought gold' - a modest woman",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l40"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "is worthy to have a High Priest come forth from her, clothed",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l40"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "in wrought gold. This is our reading: 'our Rabbis taught:",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l40",
+    "yoma-047a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "with his fist, that he should not make a vessel for the fistful' - 'and he shall lift up",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "from it with his fist,' not that he should make a vessel to measure",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "his fistful and measure with it a fistful from the meal offering.",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "'But here it is not written with his handfuls' - and if",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l44"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "he made a vessel holding the capacity of his handful, we still read",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l44"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "'a full handful and he shall bring it' as valid. 'We derive from full' - as",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l44"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "it is written in another verse, 'and he shall take a fistful from there, a full fistful'",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l44"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "(Leviticus 2) - just as there, 'with his fist he shall take a fistful' and not",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l44"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "with a vessel, so too here with his handfuls. 'Does this not mean' - so",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l44",
+    "yoma-047a-l45"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "'was its measure,' which it teaches - it means this: if he came",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l45"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "to make a measure for the handful, he may do so; the large one",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l45"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "according to his size, and the small one according to his size. 'No, this",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l45"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "means: and thus he would go back and scoop it inward' -",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l45"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "he would pour it into his handfuls from the spoon",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l45"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "and place it on the coals in the coal pan. 'You may hear",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l45",
+    "yoma-047a-l47a"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "from this,' etc. - and further on (49a) we need it for that.",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l47a"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "'Or perhaps that if he wanted,' etc. - meaning not",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l47b"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "this nor that can be resolved from it, since we push it off",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l47b"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "to here and to there. 'Alternatively' -",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l47b"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "it means: 'thus was its measure' - his handfuls",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l47b"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "precisely measured, not overfull. 'Overflowing' - protruding on every",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l47b",
+    "yoma-047a-l48"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "side and sticking out. 'If with his fist' - for we infer, one might think",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l48"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "he might scoop a little with his fingertips, and however",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l48"
+   ]
+  },
+  {
+   "vilnaLine": 63,
+   "en": "little is missing would be better; the verse teaches 'a full.'",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l48"
+   ]
+  },
+  {
+   "vilnaLine": 64,
+   "en": "'And on a griddle'",
+   "linkedGemaraLineIds": [
+    "yoma-047a-l48"
+   ]
+  }
+ ]
 }
