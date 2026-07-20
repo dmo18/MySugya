@@ -170163,11 +170163,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 1,
         he: "עינו בכוסו. אוהב שכרות: כל העולם דומה עליו כמישור. ממון",
-        en: "an eye set on the cup: loves drunkenness. All forbidden women look permitted to him - like flat terrain",
+        en: "'His eye is on his cup' - one who loves drunkenness. 'The whole world appears level to him' - other people's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l01"
+        ]
       },
       {
         id: "rashi-yoma-075a-002",
@@ -170175,11 +170177,14 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 2,
         he: "אחרים דומה לו היתר: ישיחנה לאחרים. שמא ישיאוהו עצה:",
-        en: "'If there is care in a man's heart, let him suppress it' - one says: tell it to others; one says: push it down",
+        en: "money looks permitted to him. 'Let him tell it to others' - lest they offer him counsel.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l01",
+          "yoma-075a-l03"
+        ]
       },
       {
         id: "rashi-yoma-075a-003",
@@ -170187,11 +170192,14 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 3,
         he: "דאגה. פחד שדואג על הפסד שום דבר פן יבואהו: יורד עמו",
-        en: "'And dust shall be the serpent's food' - one says: even if he eats fine food it tastes like dust; one says: it is a blessing, always finding food",
+        en: "'Worry' - fear that he worries over the loss of something, lest it befall him. 'Goes down with him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l03",
+          "yoma-075a-l09"
+        ]
       },
       {
         id: "rashi-yoma-075a-004",
@@ -170199,11 +170207,14 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 4,
         he: "לחייו. בכל דבר שהוא יכול להקניטו ולהפסידו הוא יורד: עריות.",
-        en: "it was taught: come and see - God's ways differ from human ways. A person who gets his enemy punished at least ensures he won't go hungry",
+        en: "to his life' - in any matter through which he can provoke and cause him loss, he goes down. 'Forbidden relations'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l09",
+          "yoma-075a-l17"
+        ]
       },
       {
         id: "rashi-yoma-075a-005",
@@ -170211,11 +170222,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 5,
         he: "דנאסרו להם במדבר ודגה לשון",
-        en: "He cursed Canaan to be a servant yet Canaan eats what his master eats and drinks what his master drinks",
+        en: "- that were forbidden to them in the wilderness; and 'dagah' [fish] is a term",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l17"
+        ]
       },
       {
         id: "rashi-yoma-075a-006",
@@ -170223,11 +170236,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 6,
         he: "תשמיש כמו וידגו לרוב (בראשית מח) :",
-        en: "'We remember the fish that we ate in Egypt for free' - Rav and Shmuel dispute: actual fish or sexual immorality?",
+        en: "for marital relations, like 'and let them multiply abundantly' (Genesis 48).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l17"
+        ]
       },
       {
         id: "rashi-yoma-075a-007",
@@ -170235,11 +170250,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 7,
         he: "ומחתה פיה. מקנחת פיה של מטה",
-        en: "according to the one who says sexual immorality - the word 'we ate' is a polite euphemism",
+        en: "'And she wipes her mouth' - she cleans her lower mouth",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l19"
+        ]
       },
       {
         id: "rashi-yoma-075a-008",
@@ -170247,11 +170264,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 8,
         he: "כמו כאשר ימחה הצלחת (מלכים ב",
-        en: "granted according to the one who says fish - they were not promiscuous in Egypt; but according to sexual immorality how?",
+        en: "like 'as one wipes a dish' (II Kings",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l19"
+        ]
       },
       {
         id: "rashi-yoma-075a-009",
@@ -170259,11 +170278,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 9,
         he: "כא) כמי שמקנח את הקערה: דאמר",
-        en: "granted according to the one who says sexual immorality - that is why Moses heard them weeping 'by their families'",
+        en: "21), like one who wipes out a bowl. 'As the Master",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l19"
+        ]
       },
       {
         id: "rashi-yoma-075a-010",
@@ -170271,11 +170292,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 10,
         he: "מר. במסכת סוטה בפרק קמא (דף",
-        en: "'the cucumbers and the melons' - Rabbi Ami and Rabbi Asi dispute whether these stood in for forbidden foods or actual vegetables",
+        en: "said' - in tractate Sotah, in the first chapter (page",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l19"
+        ]
       },
       {
         id: "rashi-yoma-075a-011",
@@ -170283,11 +170306,14 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 11,
         he: "יא:): לא פרצי בהו. לא היו פרוצים",
-        en: "'like coriander seed, white' - Rabbi Asi: round like a pearl; alternatively: gad = tale, drawing the heart; lavan = whitens sins",
+        en: "11b). 'They were not promiscuous with them' - they were not promiscuous",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l19",
+          "yoma-075a-l22"
+        ]
       },
       {
         id: "rashi-yoma-075a-012",
@@ -170295,11 +170321,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 12,
         he: "בעריות במצרים: הנך דאסירין.",
-        en: "'Others say: gad is like a tale [hagadah] that draws the heart of a person'",
+        en: "in forbidden relations in Egypt. 'Those that are forbidden'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l22"
+        ]
       },
       {
         id: "rashi-yoma-075a-013",
@@ -170307,11 +170335,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 13,
         he: "אותן שהיו נאסרות לבני נח כגון",
-        en: "lavan = white, because it whitened Israel's sins",
+        en: "- those that were forbidden to the descendants of Noah, such as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l22"
+        ]
       },
       {
         id: "rashi-yoma-075a-014",
@@ -170319,11 +170349,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 14,
         he: "הנך דאמרינן בסנהדרין (דף נז:)",
-        en: "it was taught: Rabbi Yosei says - just as the prophet told them what they would eat tomorrow, so too the manna told them via taste",
+        en: "the ones we discuss in Sanhedrin (57b),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l22"
+        ]
       },
       {
         id: "rashi-yoma-075a-015",
@@ -170331,11 +170363,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 15,
         he: "ערוה שב\"ד של ישראל ממיתין עליה",
-        en: "if a man and woman came before Moses for judgment, the manna revealed the truth by where it fell",
+        en: "a forbidden relation for which an Israelite court executes,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l22"
+        ]
       },
       {
         id: "rashi-yoma-075a-016",
@@ -170343,11 +170377,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 16,
         he: "בן נח מוזהר עליה והן בכו על",
-        en: "'And when the dew fell upon the camp at night, the manna fell upon it' - how was the manna preserved between the two layers of dew?",
+        en: "a descendant of Noah is warned against; and they wept over",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l22"
+        ]
       },
       {
         id: "rashi-yoma-075a-017",
@@ -170355,11 +170391,14 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 17,
         he: "הנוספות: הללו לא טעמו. שהן",
-        en: "'bread' and 'cakes' and 'ground' - how? Some ate it raw, some baked it, some cooked it",
+        en: "the additional ones. 'These they did not taste' - for they",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l22",
+          "yoma-075a-l25"
+        ]
       },
       {
         id: "rashi-yoma-075a-018",
@@ -170367,11 +170406,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 18,
         he: "קשין לעוברות ומיניקות כדאמרינן",
-        en: "'or beat it in a mortar' - Rabbi Yehuda citing Rav: this teaches that manna could be ground; others say no",
+        en: "are harsh for pregnant and nursing women, as we say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l25"
+        ]
       },
       {
         id: "rashi-yoma-075a-019",
@@ -170379,11 +170420,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 19,
         he: "בספרי משל אומר לאשה לא תאכלי",
-        en: "'they brought yet more freewill-offerings morning by morning' - what is 'morning by morning'? One morning for this day's portion",
+        en: "in the Sifrei: a parable, one says to a woman, do not eat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l25"
+        ]
       },
       {
         id: "rashi-yoma-075a-020",
@@ -170391,11 +170434,14 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 20,
         he: "בצל מפני התינוק: והוא כזרע גד",
-        en: "'its taste was as the taste of a cake baked in oil' - Rabbi Abbahu: like the taste of nursing itself",
+        en: "onion, on account of the child. 'And it was like coriander seed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l25",
+          "yoma-075a-l27"
+        ]
       },
       {
         id: "rashi-yoma-075a-021",
@@ -170403,11 +170449,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 21,
         he: "לבן אמר רבי אסי. זרע הגד אינו",
-        en: "'in the evening meat to eat and in the morning bread to the full' - this teaches that meat was eaten at night, bread in morning",
+        en: "white, Rabbi Asi said' - coriander seed is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l27"
+        ]
       },
       {
         id: "rashi-yoma-075a-022",
@@ -170415,11 +170463,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 22,
         he: "לבן אבל עגול הוא והכי קאמר",
-        en: "[Rashi commentary on line 22]: לבן אבל עגול הוא והכי קאמר",
+        en: "white, but it is round, and this is what the verse",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l27"
+        ]
       },
       {
         id: "rashi-yoma-075a-023",
@@ -170427,11 +170477,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 23,
         he: "קרא והוא עגול כזרע גד ולבן",
-        en: "[Rashi commentary on line 23]: קרא והוא עגול כזרע גד ולבן",
+        en: "means: it was round like coriander seed, and white",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l27"
+        ]
       },
       {
         id: "rashi-yoma-075a-024",
@@ -170439,11 +170491,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 24,
         he: "כמרגלית: כגידא. גרעין של",
-        en: "[Rashi commentary on line 24]: כמרגלית: כגידא. גרעין של",
+        en: "like a pearl. 'Like a gida' - the seed of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l27"
+        ]
       },
       {
         id: "rashi-yoma-075a-025",
@@ -170451,11 +170505,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 25,
         he: "אליינדרי: שדומה לזרע פשתן.",
-        en: "[Rashi commentary on line 25]: אליינדרי: שדומה לזרע פשתן.",
+        en: "coriander. 'That resembles flax seed'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l27"
+        ]
       },
       {
         id: "rashi-yoma-075a-026",
@@ -170463,11 +170519,14 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 26,
         he: "שגם הוא עגול: שמלבין עונותיהן. מתוך שהיו דואגים שמא לא",
-        en: "[Rashi commentary on line 26]: שגם הוא עגול: שמלבין עונותיהן. מתוך שהיו דואגים שמא לא",
+        en: "since it too is round. 'That whitens their sins' - since they would worry lest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l27",
+          "yoma-075a-l29"
+        ]
       },
       {
         id: "rashi-yoma-075a-027",
@@ -170475,11 +170534,14 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 27,
         he: "ירד מן למחר היו משעבדים לבם למקום: אם בן תשעה וכו'. לפי",
-        en: "[Rashi commentary on line 27]: ירד מן למחר היו משעבדים לבם למקום: אם בן תשעה וכו'. לפי",
+        en: "manna would not fall the next day, they would subject their hearts to God. 'Whether it was a nine-month child,' etc. - since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l29",
+          "yoma-075a-l28"
+        ]
       },
       {
         id: "rashi-yoma-075a-028",
@@ -170487,11 +170549,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 28,
         he: "שנאמר (שמות טז) וימודו בעומר בין שליקט הרבה בין שליקט מעט",
-        en: "[Rashi commentary on line 28]: שנאמר (שמות טז) וימודו בעומר בין שליקט הרבה בין שליקט מעט",
+        en: "it is stated (Exodus 16), 'and they measured it by the omer,' whether one gathered much or gathered little,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l28"
+        ]
       },
       {
         id: "rashi-yoma-075a-029",
@@ -170499,11 +170563,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 29,
         he: "מוצא עומר לגולגולת ואם נמצא יתר בבית הראשון בידוע שבן",
-        en: "[Rashi commentary on line 29]: מוצא עומר לגולגולת ואם נמצא יתר בבית הראשון בידוע שבן",
+        en: "he found an omer per person; and if extra was found in the first husband's house, it is known that he is a",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l28"
+        ]
       },
       {
         id: "rashi-yoma-075a-030",
@@ -170511,11 +170577,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 30,
         he: "תשעה לראשון הוא ואם בבית",
-        en: "[Rashi commentary on line 30]: תשעה לראשון הוא ואם בבית",
+        en: "nine-month child of the first, and if in the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l28"
+        ]
       },
       {
         id: "rashi-yoma-075a-031",
@@ -170523,11 +170591,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 31,
         he: "האחרון בידוע שבן האחרון הוא:",
-        en: "[Rashi commentary on line 31]: האחרון בידוע שבן האחרון הוא:",
+        en: "latter's house, it is known that he is the latter's child.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l28"
+        ]
       },
       {
         id: "rashi-yoma-075a-032",
@@ -170535,11 +170605,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 32,
         he: "הוא סרח עלי. ותובעתו כתובתה:",
-        en: "[Rashi commentary on line 32]: הוא סרח עלי. ותובעתו כתובתה:",
+        en: "'He mistreated me' - and she claims her marriage settlement from him.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l33"
+        ]
       },
       {
         id: "rashi-yoma-075a-033",
@@ -170547,11 +170619,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 33,
         he: "ירד המן עליו. אלמא בתוך המחנה",
-        en: "[Rashi commentary on line 33]: ירד המן עליו. אלמא בתוך המחנה",
+        en: "'The manna fell upon it' - implying it falls within the camp",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l35"
+        ]
       },
       {
         id: "rashi-yoma-075a-034",
@@ -170559,11 +170633,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 34,
         he: "יורד וכתב ויצא העם ולקטו יציאה",
-        en: "[Rashi commentary on line 34]: יורד וכתב ויצא העם ולקטו יציאה",
+        en: "itself; yet it is written, 'and the people went out and gathered,' implying a going out",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l35"
+        ]
       },
       {
         id: "rashi-yoma-075a-035",
@@ -170571,11 +170647,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 35,
         he: "מחוץ למחנה משמע וכתיב שטו משמע",
-        en: "[Rashi commentary on line 35]: מחוץ למחנה משמע וכתיב שטו משמע",
+        en: "beyond the camp; and it is written, 'they roamed about,' implying",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l35"
+        ]
       },
       {
         id: "rashi-yoma-075a-036",
@@ -170583,11 +170661,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 36,
         he: "למקום רחוק כמו משוט בארץ (איוב",
-        en: "[Rashi commentary on line 36]: למקום רחוק כמו משוט בארץ (איוב",
+        en: "a distant place, like 'roaming about the land' (Job",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l35"
+        ]
       },
       {
         id: "rashi-yoma-075a-037",
@@ -170595,11 +170675,14 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 37,
         he: "א) : לחם. משמע אפוי: עוגות.",
-        en: "[Rashi commentary on line 37]: א) : לחם. משמע אפוי: עוגות.",
+        en: "1). 'Bread' - implies baked. 'Cakes'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l35",
+          "yoma-075a-l37"
+        ]
       },
       {
         id: "rashi-yoma-075a-038",
@@ -170607,11 +170690,14 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 38,
         he: "משמע קודם אפייה: תכשיטי נשים.",
-        en: "[Rashi commentary on line 38]: משמע קודם אפייה: תכשיטי נשים.",
+        en: "- implies before baking. 'Women's ornaments'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l37",
+          "yoma-075a-l38"
+        ]
       },
       {
         id: "rashi-yoma-075a-039",
@@ -170619,11 +170705,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 39,
         he: "בשמים שהן דוכות במדוכה",
-        en: "[Rashi commentary on line 39]: בשמים שהן דוכות במדוכה",
+        en: "- spices that they would pound in a mortar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l38"
+        ]
       },
       {
         id: "rashi-yoma-075a-040",
@@ -170631,11 +170719,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 40,
         he: "ומתקשטות בהן להיות ריחן ערב",
-        en: "[Rashi commentary on line 40]: ומתקשטות בהן להיות ריחן ערב",
+        en: "and adorn themselves with, so their fragrance would be pleasant",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l38"
+        ]
       },
       {
         id: "rashi-yoma-075a-041",
@@ -170643,11 +170733,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 41,
         he: "לבעליהן: ציקי קדירה. תבלין",
-        en: "[Rashi commentary on line 41]: לבעליהן: ציקי קדירה. תבלין",
+        en: "to their husbands. 'Rich stews' - seasoning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l38"
+        ]
       },
       {
         id: "rashi-yoma-075a-042",
@@ -170655,11 +170747,14 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 42,
         he: "לתבשיל ערב ומבושם: שירדו להן",
-        en: "[Rashi commentary on line 42]: לתבשיל ערב ומבושם: שירדו להן",
+        en: "for a pleasant, spiced dish. 'That precious stones fell for them'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l38",
+          "yoma-075a-l40"
+        ]
       },
       {
         id: "rashi-yoma-075a-043",
@@ -170667,11 +170762,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 43,
         he: "אבנים טובות. הביאו נדבה ממה",
-        en: "[Rashi commentary on line 43]: אבנים טובות. הביאו נדבה ממה",
+        en: "- they brought as a donation from what",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l40"
+        ]
       },
       {
         id: "rashi-yoma-075a-044",
@@ -170679,11 +170776,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 44,
         he: "שמוצאין בבקר בבקר כשיוצאין",
-        en: "[Rashi commentary on line 44]: שמוצאין בבקר בבקר כשיוצאין",
+        en: "they found morning by morning when they went out",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l40"
+        ]
       },
       {
         id: "rashi-yoma-075a-045",
@@ -170691,11 +170790,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 45,
         he: "ללקוט את המן שנאמר וילקטו אותו",
-        en: "[Rashi commentary on line 45]: ללקוט את המן שנאמר וילקטו אותו",
+        en: "to gather the manna, as it is stated, 'and they gathered it'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l40"
+        ]
       },
       {
         id: "rashi-yoma-075a-046",
@@ -170703,11 +170804,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 46,
         he: "בבקר בבקר: נשיאים ממש. עננים",
-        en: "[Rashi commentary on line 46]: בבקר בבקר: נשיאים ממש. עננים",
+        en: "morning by morning. 'Actual clouds' - they were clouds",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l40"
+        ]
       },
       {
         id: "rashi-yoma-075a-047",
@@ -170715,11 +170818,14 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 47,
         he: "היו: שד זה תינוק מוצא בו כל",
-        en: "[Rashi commentary on line 47]: היו: שד זה תינוק מוצא בו כל",
+        en: "themselves. 'Like a breast, this an infant finds in it every",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l40",
+          "yoma-075a-l42"
+        ]
       },
       {
         id: "rashi-yoma-075a-048",
@@ -170727,11 +170833,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 48,
         he: "מיני טעמים. שהאם אוכלת:",
-        en: "[Rashi commentary on line 48]: מיני טעמים. שהאם אוכלת:",
+        en: "kind of taste' - since the mother eats.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l42"
+        ]
       },
       {
         id: "rashi-yoma-075a-049",
@@ -170739,11 +170847,13 @@ const DAF_CONTENT = {
         daf: "75a",
         vilnaLine: 49,
         he: "לחם",
-        en: "[Rashi commentary on line 49]: לחם",
+        en: "'Bread' - the daf ends mid-word here; the comment (continuing the parallel discussion of bread requested properly, in contrast to the meat requested improperly) continues on 75b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-075a-l44"
+        ]
       }
     ],
     review: "reviewed"
