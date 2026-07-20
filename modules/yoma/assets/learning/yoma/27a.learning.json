@@ -1,656 +1,662 @@
 {
-  "daf": "27a",
-  "canonicalRef": "Yoma 27a",
-  "summary": "An extensive single-sugya analysis of which Temple services may be performed by non-priests. The Gemara systematically derives from different verses that: slaughtering the tamid is valid if done by a non-priest; placing wood on the altar fire requires a priest; flaying and cutting can be done by non-priests; but blood-collection and sprinkling require priests. Rav Hamnuna raises a difficulty about the young bull verse, which is resolved.",
-  "review": {
-    "status": "enriched",
-    "version": "10.63"
+ "daf": "27a",
+ "canonicalRef": "Yoma 27a",
+ "summary": "An extensive single-sugya analysis of which Temple services may be performed by non-priests. The Gemara systematically derives from different verses that: slaughtering the tamid is valid if done by a non-priest; placing wood on the altar fire requires a priest; flaying and cutting can be done by non-priests; but blood-collection and sprinkling require priests. Rav Hamnuna raises a difficulty about the young bull verse, which is resolved.",
+ "review": {
+  "status": "enriched",
+  "version": "10.63"
+ },
+ "glossary": [
+  {
+   "he": "שְׁחִיטָה",
+   "translit": "shechita",
+   "en": "Slaughter; the ritual cutting of the animal's throat to permit its blood to be sprinkled on the altar."
   },
-  "glossary": [
+  {
+   "he": "זָר",
+   "translit": "zar",
+   "en": "Non-priest; a Jew who is not a kohen, who may not perform most Temple services."
+  },
+  {
+   "he": "סִדּוּר עֵצִים",
+   "translit": "sidur etzim",
+   "en": "Arrangement of the wood; placing logs on the altar fire, which requires a priest."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "Gemara: this verse would seem redundant, teaching only what is obvious - for we need to know from where we derive the priest-exclusion for flaying",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "and dismemberment. That he was explaining it to his son - this is Chizkiya's teaching, and thus he was explaining it",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "to him, for it is taught in Torat Kohanim: 'and he shall slaughter' - slaughtering is valid by a non-priest. And from where",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "do you derive this - this is the wording of the baraita, 'and from where do you derive this,' meaning it would need",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "to bring a verse to validate it. From the inference",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "that is stated, etc. - from that very inference I would have",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "come to disqualify it. The verse teaches, 'and he shall slaughter",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l01",
+    "yoma-027a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "and the priests shall bring' - since it is written 'priest'",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "regarding the receiving, and it is not written regarding the slaughtering, by inference",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "'and he shall slaughter' refers to the owner, and 'he shall lean his hand",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "and slaughter' teaches that the slaughtering is valid",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "by a non-priest - end of the mishnah's wording; and from it Abaye was explaining",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "to his son Chizkiya's teaching, thus. Now",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l06",
+    "yoma-027a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "we have learned here that from the receiving onward is a requirement",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "of priesthood, and this placing of the fire comes after the receiving;",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "why then do I need priesthood written regarding it.",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "To exclude flaying and dismemberment - for priesthood is not written",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "regarding them, and you would derive from here that specifically where the verse writes",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "'and they shall place,' and had it not, I would have said that this",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "absence of 'priest' in flaying and dismemberment is because",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "it was not needed, since it already revealed that priesthood is required",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "from the receiving onward. Since it does not hold back",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l09",
+    "yoma-027a-l11"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "atonement - for atonement is accomplished only through the blood.",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l11"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "Rather, from here: 'and the sons of Aaron",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "the priests shall arrange' - behold, we have learned from the receiving that",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "priesthood is needed only to exclude flaying",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "and dismemberment. Say rather, it comes to exclude the arranging of two",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l14",
+    "yoma-027a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "logs of wood - for in the afternoon it is not written",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "'the priests' regarding them, but in the morning it is explicitly",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "written, 'and the priest shall kindle it upon it.' It would not occur to you",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l17",
+    "yoma-027a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "to say that - that the arranging of the logs would not require",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "priesthood, since the verse needed to exclude the carrying of",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "the wood; by inference, their arranging does require a priest.",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "The carrying of wood does not require priesthood - for this",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "'priest' written regarding the carrying of the limbs must, by",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "necessity, come to exclude another carrying,",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "for if it were needed for its own sake it would be unnecessary, since",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "we already learned that from the receiving onward is a priestly requirement.",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "Why do I need 'and they shall arrange' - since priesthood is written regarding them.",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "To exclude flaying and dismemberment - and the priesthood requirement",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "of 'and they shall place' is for its own sake, as we have said, so that you should not say",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "since it does not hold back atonement, it would not require",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "priesthood; and since it was already revealed there that priesthood is required,",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "there was no need to repeat and write",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "priesthood regarding the arranging of the pieces, even though it does not",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "hold back atonement - and by necessity it must be written to exclude them.",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "That it requires six - the flesh with five",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "and the innards with one. And this satisfies him - he then answers him thus: 'on",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l31",
+    "yoma-027a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "the wood that is upon the fire' is a superfluous verse, since it is already written 'and they shall place fire, and they shall arrange",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "the pieces' - why then do I need 'on the wood that is upon the fire,' etc., if not to expound from it",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "that these six priests were required for a matter concerning which fire, wood, and altar are all stated, and which",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "matter did I require of you - for the arrangement, to set wood and fire on the altar for its sake.",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "You must conclude - the daf ends mid-phrase here; the comment (identifying the matter as the daily lamb-offering) continues on 27b.",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l33"
+   ]
+  }
+ ],
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-027a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 33
+   },
+   "lines": [
     {
-      "he": "שְׁחִיטָה",
-      "translit": "shechita",
-      "en": "Slaughter; the ritual cutting of the animal's throat to permit its blood to be sprinkled on the altar."
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.27a.1"
     },
     {
-      "he": "זָר",
-      "translit": "zar",
-      "en": "Non-priest; a Jew who is not a kohen, who may not perform most Temple services."
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.27a.2"
     },
     {
-      "he": "סִדּוּר עֵצִים",
-      "translit": "sidur etzim",
-      "en": "Arrangement of the wood; placing logs on the altar fire, which requires a priest."
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.27a.3"
+    },
+    {
+     "vilnaLine": 11,
+     "sefariaRef": "Yoma.27a.4"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.27a.5"
+    },
+    {
+     "vilnaLine": 17,
+     "sefariaRef": "Yoma.27a.6"
+    },
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.27a.7"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.27a.8"
+    },
+    {
+     "vilnaLine": 24,
+     "sefariaRef": "Yoma.27a.9"
+    },
+    {
+     "vilnaLine": 25,
+     "sefariaRef": "Yoma.27a.10"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.27a.11"
+    },
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.27a.12"
+    },
+    {
+     "vilnaLine": 33,
+     "sefariaRef": "Yoma.27a.13"
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.27a.1",
+    "Yoma.27a.2",
+    "Yoma.27a.3",
+    "Yoma.27a.4",
+    "Yoma.27a.5",
+    "Yoma.27a.6",
+    "Yoma.27a.7",
+    "Yoma.27a.8",
+    "Yoma.27a.9",
+    "Yoma.27a.10",
+    "Yoma.27a.11",
+    "Yoma.27a.12",
+    "Yoma.27a.13"
+   ],
+   "display": {
+    "title": "Where the priesthood begins: mapping every tamid step against the blood threshold",
+    "whats": "The Gemara systematically derives which Temple services require a kohen and which a non-priest may perform. Slaughter is valid by non-priests; wood arrangement and limb placement on the fire require priests; flaying and cutting are open to non-priests.",
+    "hint": "The dividing line is the blood: everything from blood-collection onward requires a priest; the physical preparation (slaughter, flaying, cutting) can be done by non-priests."
+   },
+   "learning": {
+    "learnerQuestion": "Given that slaughter, flaying, and cutting are valid when done by a non-priest, exactly where does the line fall - which steps still demand a kohen, and how does the Gemara prove it verse by verse?",
+    "coreTension": "Hizkiya's equality principle for flaying and cutting might seem to suggest non-priests could perform any preparatory Temple task, but the Gemara's own verses single out wood-arrangement and limb-placement as requiring 'the sons of Aaron' specifically - so the equality clearly has limits that need to be mapped precisely.",
+    "coreMove": "The Gemara works through the verses one at a time: 'the sons of Aaron shall lay out the pieces' teaches that limb-placement on the fire requires priests; 'the priest shall burn wood' teaches the same for wood-arrangement; Abaye probes how far 'from blood-collection onward' extends as the priestly boundary. Rav Hamnuna then raises a textual difficulty - the limb-placement verse the Gemara has been using is actually written about a young bull offering, not the tamid lamb - which puts pressure on whether the derivation transfers cleanly to the tamid at all.",
+    "resolution": "The dividing line is blood-collection: every step before it (slaughter, flaying, cutting) is valid when performed by a non-priest, while every step from blood-collection onward (collection, sprinkling, wood-arrangement, limb-placement) requires a priest, each established by its own verse rather than a single blanket rule.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "A halakhic boundary that sounds like one simple rule (priests only past the blood) is actually built from several independent textual derivations, each covering one specific task - the rule's elegance is a conclusion, not the Gemara's starting assumption."
+    },
+    "ahaMoment": "The boundary is the blood: once the animal's blood is touched, priestly status is required for everything that follows. Before the blood is collected, a non-priest can participate.",
+    "learningBlocker": "The sugya does not address what happens to the offering itself if a non-priest does perform the blood-collection - whether the offering is retroactively invalidated or only the non-priest has transgressed is not discussed here.",
+    "memoryAnchor": "Think of the blood as a gate: once a priest opens it (collects the blood), only priests may pass through for all subsequent service. Before the gate, anyone can help."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "continuing: 'Gemara: does this verse not simply refer to itself': for we need a priest-exclusion - from where do we derive it for flaying",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l01"
-      ]
+     "id": "yoma-027a-l01",
+     "type": "question",
+     "label": "Non-priests for flaying?",
+     "text": "Since individual and communal offerings are equal for flaying and cutting, can non-priests perform these steps?",
+     "sourceRefs": [
+      "Yoma.27a.1"
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "closing: and dismemberment?' Then opens 'that he was explaining to his son': this teaching of Chizkiya, and thus he was explaining",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l01"
-      ]
+     "id": "yoma-027a-l03",
+     "type": "proof",
+     "label": "Wood placement requires priests",
+     "text": "From 'the sons of Aaron shall lay out the pieces' - wood arrangement on the fire requires priests.",
+     "sourceRefs": [
+      "Yoma.27a.2"
+     ]
     },
     {
-      "vilnaLine": 3,
-      "en": "continuing: it to him, for it is taught in Torat Kohanim: 'and he shall slaughter' - slaughtering is valid by a non-priest.' Then opens 'and from where",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l01"
-      ]
+     "id": "yoma-027a-l05",
+     "type": "question",
+     "label": "Abaye: what does 'from blood onward' mean?",
+     "text": "Abaye: the Gemara says from blood-collection onward is priestly - what exactly is included?",
+     "sourceRefs": [
+      "Yoma.27a.3"
+     ]
     },
     {
-      "vilnaLine": 4,
-      "en": "continuing: do you derive this': this is the language of the beraita - 'and from where do you derive it,' meaning it would need",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l01"
-      ]
+     "id": "yoma-027a-l09",
+     "type": "objection",
+     "label": "Hizkiya's derivation rejected",
+     "text": "Hizkiya's original verse for the flaying equality is rejected as needed for its own purpose. Another source must be found.",
+     "sourceRefs": [
+      "Yoma.27a.5"
+     ]
     },
     {
-      "vilnaLine": 5,
-      "en": "closing: to bring a verse to validate it.' Then opens 'from the inference",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l01"
-      ]
+     "id": "yoma-027a-l11",
+     "type": "proof",
+     "label": "'Sons of Aaron' for arrangement",
+     "text": "The phrase 'sons of Aaron' in the wood-arrangement verse specifically teaches that non-priests may not place wood on the altar fire.",
+     "sourceRefs": [
+      "Yoma.27a.6"
+     ]
     },
     {
-      "vilnaLine": 6,
-      "en": "continuing: that is stated, etc.': from that very inference I would have",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l01"
-      ]
+     "id": "yoma-027a-l22",
+     "type": "proof",
+     "label": "'Sons of Aaron' for limbs too",
+     "text": "The same 'sons of Aaron, the priests, shall lay out the pieces' verse teaches that limb-placement on the fire also requires priests.",
+     "sourceRefs": [
+      "Yoma.27a.10"
+     ]
     },
     {
-      "vilnaLine": 7,
-      "en": "closing: come to disqualify it.' Then opens 'the verse teaches, and he shall slaughter",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l06"
-      ]
+     "id": "yoma-027a-l25",
+     "type": "ruling",
+     "label": "Wood: priests only",
+     "text": "'The priest shall burn wood' - wood arrangement requires a priest, not a non-priest.",
+     "sourceRefs": [
+      "Yoma.27a.11"
+     ]
     },
     {
-      "vilnaLine": 8,
-      "en": "continuing: and the priests shall bring': since it is written 'priest'",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l06"
-      ]
+     "id": "yoma-027a-l27",
+     "type": "ruling",
+     "label": "Limb-placement: priests only",
+     "text": "'The sons of Aaron, the priests, shall lay out the pieces' - only priests may place limbs on the altar fire.",
+     "sourceRefs": [
+      "Yoma.27a.12"
+     ]
     },
     {
-      "vilnaLine": 9,
-      "en": "continuing: regarding the receiving, and it is not written regarding the slaughtering, by inference",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "continuing: 'and he shall slaughter' refers to the owner, and 'he shall lean his hand",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: and he shall slaughter' teaches that the slaughtering is valid",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: by a non-priest' - end of the mishnah's wording; and from it Abaye was explaining",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "closing: to his son Chizkiya's teaching, thus.' Then opens 'now,",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "continuing: we have learned here that from the receiving onward is a requirement",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: of priesthood, and this placing of the fire comes after the receiving,",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "closing: why do I need priesthood written regarding it.",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Opens 'to exclude flaying and dismemberment': for priesthood is not written",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: regarding it, and you would learn from here that specifically where the verse writes",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: 'and they shall place,' and had it not, I would have said that this",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "continuing: absence of 'priest' in flaying and dismemberment is because",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: it was not needed, since it already revealed that it requires",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "closing: priesthood from the receiving onward.' Then opens 'since it does not hold back",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "closing: atonement': for atonement is only through the blood.",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l11"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Opens 'rather, from here, and the sons of Aaron shall arrange",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: the priests': behold, we have learned from the receiving that",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: priesthood is not required except to exclude flaying",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "closing: and dismemberment.' Then opens 'say rather, to exclude the arranging of two",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l17"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: logs of wood': for in the afternoon it is not written",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l17"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: 'the priests' regarding them, but in the morning it is explicitly",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l17"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "closing: written, 'and the priest shall kindle it upon it.'' Then opens 'it does not",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l17"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: occur to you': that the arranging of the logs would not require",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: priesthood, since it needed to exclude the carrying of",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "closing: the wood, hence by inference their arranging requires a priest.",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "Opens 'the carrying of wood does not require priesthood': for this",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: 'priest' written regarding the carrying of the limbs, by",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "continuing: necessity must be there to exclude another carrying,",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "continuing: for if it were needed for its own sake it would be unnecessary, since",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "closing: it already taught us that from the receiving onward is a priestly requirement.",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "Opens 'why do I need and they shall arrange': since priesthood is written regarding them.",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "Opens 'to exclude flaying and dismemberment': and the priesthood requirement",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "continuing: of 'and they shall place' is for its own sake, as we have said, so that you should not say",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "continuing: since it does not hold back atonement, it would not require",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "continuing: priesthood; and since it was revealed there that it requires priesthood,",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "continuing: there was no need to repeat and write",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "continuing: priesthood regarding the arranging of the pieces, even though it does not",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "closing: hold back atonement, and by necessity it is written to exclude.",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "Opens 'that it requires six': the flesh with five",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l31"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "closing: and the innards with one.' Then opens 'and this satisfies him': he then answers him thus - 'on",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l33"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "continuing: the wood that is upon the fire' is a superfluous verse, since it is already written 'and they shall place fire, and they shall arrange wood,' and 'and they shall arrange",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l33"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "continuing: the pieces' - why then do I need 'on the wood that is upon the fire,' etc., if not to expound from it",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l33"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "continuing: that these six priests were needed for a matter concerning which fire, wood, and altar are all stated, and which",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l33"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "closing: matter did I require of you for the arrangement, to set wood and fire on the altar for its sake.",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l33"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "Opens 'you must say' -",
-      "linkedGemaraLineIds": [
-        "yoma-027a-l33"
-      ]
+     "id": "yoma-027a-l33",
+     "type": "question",
+     "label": "Rav Hamnuna: young bull verse problem",
+     "text": "Rav Hamnuna raises a difficulty: the limb-placement verse cited applies to a young bull, not the tamid lamb. How can it serve as a source for the tamid rule?",
+     "sourceRefs": [
+      "Yoma.27a.13"
+     ]
     }
-  ],
-  "sugyot": [
+   ],
+   "topicTags": [
+    "non-priest Temple service",
+    "slaughter by non-priest",
+    "wood arrangement",
+    "limb placement",
+    "blood as dividing line",
+    "Abaye",
+    "Hizkiya",
+    "Rav Hamnuna"
+   ],
+   "concepts": {
+    "halachic": [
+     "non-priest validity for slaughter",
+     "blood-collection as cutoff for priestly requirement",
+     "wood and limb arrangement = priests only",
+     "flaying and cutting = non-priests valid"
+    ],
+    "theological": [
+     "blood as sacred threshold in Temple service"
+    ],
+    "narrative": [
+     "systematic derivation from multiple verses",
+     "Rav Hamnuna's difficulty"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "kohen (priest) status",
+    "Temple service categories",
+    "shechita (slaughter)",
+    "blood service"
+   ],
+   "misconceptions": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-027a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 33
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.27a.1"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.27a.2"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.27a.3"
-        },
-        {
-          "vilnaLine": 11,
-          "sefariaRef": "Yoma.27a.4"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.27a.5"
-        },
-        {
-          "vilnaLine": 17,
-          "sefariaRef": "Yoma.27a.6"
-        },
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.27a.7"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.27a.8"
-        },
-        {
-          "vilnaLine": 24,
-          "sefariaRef": "Yoma.27a.9"
-        },
-        {
-          "vilnaLine": 25,
-          "sefariaRef": "Yoma.27a.10"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.27a.11"
-        },
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.27a.12"
-        },
-        {
-          "vilnaLine": 33,
-          "sefariaRef": "Yoma.27a.13"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.27a.1",
-        "Yoma.27a.2",
-        "Yoma.27a.3",
-        "Yoma.27a.4",
-        "Yoma.27a.5",
-        "Yoma.27a.6",
-        "Yoma.27a.7",
-        "Yoma.27a.8",
-        "Yoma.27a.9",
-        "Yoma.27a.10",
-        "Yoma.27a.11",
-        "Yoma.27a.12",
-        "Yoma.27a.13"
-      ],
-      "display": {
-        "title": "Where the priesthood begins: mapping every tamid step against the blood threshold",
-        "whats": "The Gemara systematically derives which Temple services require a kohen and which a non-priest may perform. Slaughter is valid by non-priests; wood arrangement and limb placement on the fire require priests; flaying and cutting are open to non-priests.",
-        "hint": "The dividing line is the blood: everything from blood-collection onward requires a priest; the physical preparation (slaughter, flaying, cutting) can be done by non-priests."
-      },
-      "learning": {
-        "learnerQuestion": "Given that slaughter, flaying, and cutting are valid when done by a non-priest, exactly where does the line fall - which steps still demand a kohen, and how does the Gemara prove it verse by verse?",
-        "coreTension": "Hizkiya's equality principle for flaying and cutting might seem to suggest non-priests could perform any preparatory Temple task, but the Gemara's own verses single out wood-arrangement and limb-placement as requiring 'the sons of Aaron' specifically - so the equality clearly has limits that need to be mapped precisely.",
-        "coreMove": "The Gemara works through the verses one at a time: 'the sons of Aaron shall lay out the pieces' teaches that limb-placement on the fire requires priests; 'the priest shall burn wood' teaches the same for wood-arrangement; Abaye probes how far 'from blood-collection onward' extends as the priestly boundary. Rav Hamnuna then raises a textual difficulty - the limb-placement verse the Gemara has been using is actually written about a young bull offering, not the tamid lamb - which puts pressure on whether the derivation transfers cleanly to the tamid at all.",
-        "resolution": "The dividing line is blood-collection: every step before it (slaughter, flaying, cutting) is valid when performed by a non-priest, while every step from blood-collection onward (collection, sprinkling, wood-arrangement, limb-placement) requires a priest, each established by its own verse rather than a single blanket rule.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "A halakhic boundary that sounds like one simple rule (priests only past the blood) is actually built from several independent textual derivations, each covering one specific task - the rule's elegance is a conclusion, not the Gemara's starting assumption."
-        },
-        "ahaMoment": "The boundary is the blood: once the animal's blood is touched, priestly status is required for everything that follows. Before the blood is collected, a non-priest can participate.",
-        "learningBlocker": "The sugya does not address what happens to the offering itself if a non-priest does perform the blood-collection - whether the offering is retroactively invalidated or only the non-priest has transgressed is not discussed here.",
-        "memoryAnchor": "Think of the blood as a gate: once a priest opens it (collects the blood), only priests may pass through for all subsequent service. Before the gate, anyone can help."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-027a-l01",
-          "type": "question",
-          "label": "Non-priests for flaying?",
-          "text": "Since individual and communal offerings are equal for flaying and cutting, can non-priests perform these steps?",
-          "sourceRefs": [
-            "Yoma.27a.1"
-          ]
-        },
-        {
-          "id": "yoma-027a-l03",
-          "type": "proof",
-          "label": "Wood placement requires priests",
-          "text": "From 'the sons of Aaron shall lay out the pieces' - wood arrangement on the fire requires priests.",
-          "sourceRefs": [
-            "Yoma.27a.2"
-          ]
-        },
-        {
-          "id": "yoma-027a-l05",
-          "type": "question",
-          "label": "Abaye: what does 'from blood onward' mean?",
-          "text": "Abaye: the Gemara says from blood-collection onward is priestly - what exactly is included?",
-          "sourceRefs": [
-            "Yoma.27a.3"
-          ]
-        },
-        {
-          "id": "yoma-027a-l09",
-          "type": "objection",
-          "label": "Hizkiya's derivation rejected",
-          "text": "Hizkiya's original verse for the flaying equality is rejected as needed for its own purpose. Another source must be found.",
-          "sourceRefs": [
-            "Yoma.27a.5"
-          ]
-        },
-        {
-          "id": "yoma-027a-l11",
-          "type": "proof",
-          "label": "'Sons of Aaron' for arrangement",
-          "text": "The phrase 'sons of Aaron' in the wood-arrangement verse specifically teaches that non-priests may not place wood on the altar fire.",
-          "sourceRefs": [
-            "Yoma.27a.6"
-          ]
-        },
-        {
-          "id": "yoma-027a-l22",
-          "type": "proof",
-          "label": "'Sons of Aaron' for limbs too",
-          "text": "The same 'sons of Aaron, the priests, shall lay out the pieces' verse teaches that limb-placement on the fire also requires priests.",
-          "sourceRefs": [
-            "Yoma.27a.10"
-          ]
-        },
-        {
-          "id": "yoma-027a-l25",
-          "type": "ruling",
-          "label": "Wood: priests only",
-          "text": "'The priest shall burn wood' - wood arrangement requires a priest, not a non-priest.",
-          "sourceRefs": [
-            "Yoma.27a.11"
-          ]
-        },
-        {
-          "id": "yoma-027a-l27",
-          "type": "ruling",
-          "label": "Limb-placement: priests only",
-          "text": "'The sons of Aaron, the priests, shall lay out the pieces' - only priests may place limbs on the altar fire.",
-          "sourceRefs": [
-            "Yoma.27a.12"
-          ]
-        },
-        {
-          "id": "yoma-027a-l33",
-          "type": "question",
-          "label": "Rav Hamnuna: young bull verse problem",
-          "text": "Rav Hamnuna raises a difficulty: the limb-placement verse cited applies to a young bull, not the tamid lamb. How can it serve as a source for the tamid rule?",
-          "sourceRefs": [
-            "Yoma.27a.13"
-          ]
-        }
-      ],
-      "topicTags": [
-        "non-priest Temple service",
-        "slaughter by non-priest",
-        "wood arrangement",
-        "limb placement",
-        "blood as dividing line",
-        "Abaye",
-        "Hizkiya",
-        "Rav Hamnuna"
-      ],
-      "concepts": {
-        "halachic": [
-          "non-priest validity for slaughter",
-          "blood-collection as cutoff for priestly requirement",
-          "wood and limb arrangement = priests only",
-          "flaying and cutting = non-priests valid"
-        ],
-        "theological": [
-          "blood as sacred threshold in Temple service"
-        ],
-        "narrative": [
-          "systematic derivation from multiple verses",
-          "Rav Hamnuna's difficulty"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "kohen (priest) status",
-        "Temple service categories",
-        "shechita (slaughter)",
-        "blood service"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Slaughter of the tamid requires a kohen.",
-          "correction": "The Gemara establishes that non-priests may slaughter the tamid and the offering remains valid."
-        },
-        {
-          "misconception": "All Temple tasks require a priest.",
-          "correction": "The Talmud carefully distinguishes: slaughter, flaying, and cutting can be done by non-priests; blood service and limb-arrangement on the fire cannot."
-        },
-        {
-          "misconception": "Flaying and cutting require priests.",
-          "correction": "These steps fall before the blood threshold and are valid when performed by non-priests."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-026b-s03",
-        "yoma-024a-s03",
-        "yoma-027b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "Priest-required vs non-priest-valid services",
-          "description": "Table showing: slaughter/flaying/cutting (non-priest OK) vs blood-collection/sprinkling/wood arrangement/limb placement (priest required)"
-        },
-        {
-          "type": "timeline",
-          "label": "Tamid service steps with priestly threshold",
-          "description": "Sequential tamid steps with the blood-collection boundary marked"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Can a non-priest slaughter the tamid offering? Is the offering valid?",
-          "answer": "Yes - slaughter of the tamid by a non-priest is valid. The offering is not disqualified."
-        },
-        {
-          "question": "What is the 'blood threshold' in Temple service?",
-          "answer": "From blood-collection onward, all services require a priest. Steps before the blood is collected (slaughter, flaying, cutting) can be performed by non-priests."
-        }
-      ],
-      "finalRuling": "Non-priests may slaughter, flay, and cut Temple offerings; these steps are valid. Blood-collection, sprinkling, wood arrangement on the fire, and limb placement all require priests.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "Slaughter of the tamid requires a kohen.",
+     "correction": "The Gemara establishes that non-priests may slaughter the tamid and the offering remains valid."
+    },
+    {
+     "misconception": "All Temple tasks require a priest.",
+     "correction": "The Talmud carefully distinguishes: slaughter, flaying, and cutting can be done by non-priests; blood service and limb-arrangement on the fire cannot."
+    },
+    {
+     "misconception": "Flaying and cutting require priests.",
+     "correction": "These steps fall before the blood threshold and are valid when performed by non-priests."
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-026b-s03",
+    "yoma-024a-s03",
+    "yoma-027b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "Priest-required vs non-priest-valid services",
+     "description": "Table showing: slaughter/flaying/cutting (non-priest OK) vs blood-collection/sprinkling/wood arrangement/limb placement (priest required)"
+    },
+    {
+     "type": "timeline",
+     "label": "Tamid service steps with priestly threshold",
+     "description": "Sequential tamid steps with the blood-collection boundary marked"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Can a non-priest slaughter the tamid offering? Is the offering valid?",
+     "answer": "Yes - slaughter of the tamid by a non-priest is valid. The offering is not disqualified."
+    },
+    {
+     "question": "What is the 'blood threshold' in Temple service?",
+     "answer": "From blood-collection onward, all services require a priest. Steps before the blood is collected (slaughter, flaying, cutting) can be performed by non-priests."
+    }
+   ],
+   "finalRuling": "Non-priests may slaughter, flay, and cut Temple offerings; these steps are valid. Blood-collection, sprinkling, wood arrangement on the fire, and limb placement all require priests.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "review": "reviewed"
+  }
+ ]
 }
