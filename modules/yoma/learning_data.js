@@ -97021,7 +97021,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 1,
         he: "של פרה משקל עשר זוז. דבעיא כובד: של שעיר. דבעיא חלוקה",
-        en: "Rashi: opens - [of the heifer, the weight is] ten denarii - [because it] requires weight; [of the] goat, [the weight is] two selas and that suffices.",
+        en: "Of the heifer, the weight is ten zuz, since it requires heaviness. Of the goat, since it requires dividing,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97035,7 +97035,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 2,
         he: "משקל שני סלעים ודייה בכך: של מצורע. דלא הא ולא הא סגי",
-        en: "Rashi: continues - [of the] leper - [the weight] is insufficient [from either of the above, so] just a shekel suffices.",
+        en: "the weight is two selas, and that suffices for it. Of the leper, since neither this consideration nor that one applies, it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97049,11 +97049,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 3,
         he: "ליה בשקל: הכי גרסינן פליגי בה ר\"ש בן חלפתא ורבנן בפרה:",
-        en: "Rashi: continues - this is our text: [the Amoraim] dispute regarding it - R. Shimon ben Halfta and the Rabbis dispute [regarding the specifications of the red] heifer.",
+        en: "suffices with a shekel. This is our reading: Rabbi Shimon ben Halafta and the Sages dispute regarding the heifer.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-042a-l01",
           "yoma-042a-l03"
         ]
       },
@@ -97063,7 +97064,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 4,
         he: "וסימן. שלא תטעה לומר שאחד היה אומר משקל שני סלעים",
-        en: "Rashi: continues - and [there is] a sign [to remember the distinctions] - lest you err to say that one [Tanna] was saying [a weight of] two selas.",
+        en: "'And a sign' - so that you not err and say that one Sage held the weight to be two selas,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97077,7 +97078,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 5,
         he: "משנה זו תהא לך סימן ששנינו (מנחות",
-        en: "Rashi: continues - this Mishna [serves] as a sign for you: [as taught in] Tractate Menachot (folio 110:).",
+        en: "let this Mishnah serve you as a sign, for we learned in tractate Menachot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97091,12 +97092,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 6,
         he: "דף קי.) אחד המרבה ואחד הממעיט",
-        en: "Rashi: continues - 'one who adds [more than the measure] and one who diminishes [less than the measure]'.",
+        en: "(110a): both the one who gives more and the one who gives less",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l06"
+          "yoma-042a-l03"
         ]
       },
       {
@@ -97105,12 +97106,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 7,
         he: "ובלבד שיכוין לבו לשמים בסימן זה",
-        en: "Rashi: continues - but provided [that] he intends his heart [toward] Heaven - [in this sign].",
+        en: "fulfill their obligation, provided he directs his heart to Heaven; by this sign",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l06"
+          "yoma-042a-l03"
         ]
       },
       {
@@ -97119,12 +97120,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 8,
         he: "תזכור לומר שהאחד נתן בה שיעור",
-        en: "Rashi: continues - you will remember [how] to say that the one [Tanna] gave in it [the thread] a measure of the one who adds [more] than all of them.",
+        en: "you will remember to say that one Sage gave it the measure of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l06"
+          "yoma-042a-l03"
         ]
       },
       {
@@ -97133,12 +97134,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 9,
         he: "המרבה מכולן והאחד נתן בה שיעור",
-        en: "Rashi: continues - and the one [Tanna] gave in it a measure of the one who diminishes [less] than all of them.",
+        en: "the one who gives more than all of them, and the other Sage gave it the measure of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l06"
+          "yoma-042a-l03"
         ]
       },
       {
@@ -97147,12 +97148,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 10,
         he: "וקא ממעט מכולן אבל שיעור בינוני",
-        en: "Rashi: continues - but a medium measure was not mentioned here [in the teaching].",
+        en: "the one who gives less than all of them, but a middling measure",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l10"
+          "yoma-042a-l03"
         ]
       },
       {
@@ -97161,12 +97162,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 11,
         he: "לא הוזכר כאן: לא בפרה פליגי.",
-        en: "Rashi: continues - [the Amoraim] do not dispute regarding the heifer.",
+        en: "was not mentioned here. 'They do not dispute regarding the heifer' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l10"
+          "yoma-042a-l03",
+          "yoma-042a-l06"
         ]
       },
       {
@@ -97175,12 +97177,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 12,
         he: "בלשון של פרה: וההוא יומא. דאיפליגי",
-        en: "Rashi: continues - [they dispute only] in the language [terminology] of the heifer - and that day.",
+        en: "only regarding the terminology used for the heifer. 'And that day' - when they disputed about it,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l10"
+          "yoma-042a-l06"
         ]
       },
       {
@@ -97189,12 +97191,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 13,
         he: "בה נח רביא בר קיסי. שם חכם:",
-        en: "Rashi: continues - [which day was] that? [When R. Nachum ben Kisi] spoke [and said]:",
+        en: "Ravya bar Kisi passed away; that is a Sage's name.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l13"
+          "yoma-042a-l06"
         ]
       },
       {
@@ -97203,12 +97205,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 14,
         he: "מכפר. מיתת צדיקים מכפרת",
-        en: "Rashi: continues - he atones - [meaning] the death of the righteous atones.",
+        en: "'Atones' - the death of the righteous atones,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l13"
+          "yoma-042a-l06"
         ]
       },
       {
@@ -97217,12 +97219,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 15,
         he: "כדאמר בעלמא (מועד קטן דף כח.)",
-        en: "Rashi: continues - as [is] stated in general [in] Tractate Moed Katan (folio 28:).",
+        en: "as is stated elsewhere (Moed Katan 28a):",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l13"
+          "yoma-042a-l06"
         ]
       },
       {
@@ -97231,12 +97233,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 16,
         he: "למה נסמכה מיתת אהרן לבגדי",
-        en: "Rashi: continues - why was the death of Aaron adjoined to the [High] Priest's garments?",
+        en: "why was Aaron's death juxtaposed to the priestly",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l13"
+          "yoma-042a-l06"
         ]
       },
       {
@@ -97245,12 +97247,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 17,
         he: "כהונה לומר לך מה בגדי כהונה",
-        en: "Rashi: continues - [this is] to say to you: just as the [High] Priest's garments atone,",
+        en: "garments? To tell you: just as the priestly garments",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l13"
+          "yoma-042a-l06"
         ]
       },
       {
@@ -97259,12 +97261,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 18,
         he: "מכפרין אף מיתת צדיקים מכפרת:",
-        en: "Rashi: continues - so [too] the death of the righteous atones.",
+        en: "atone, so too the death of the righteous atones.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l13"
+          "yoma-042a-l06"
         ]
       },
       {
@@ -97273,12 +97275,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 19,
         he: "של פרו. פר כהן גדול של יוה\"כ:",
-        en: "Rashi: opens - of his heifer [referring to] the heifer of the High Priest on Yom Kippur.",
+        en: "'Of his bull' - the High Priest's bull of Yom Kippur.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l19"
+          "yoma-042a-l10"
         ]
       },
       {
@@ -97287,12 +97289,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 20,
         he: "אלעזר וחוקה. אלעזר כתיב בה ונתתם",
-        en: "Rashi: continues - [and the Mishna mentions] Elazar and its statute - [that] Elazar [is mentioned] in [Scripture].",
+        en: "'Elazar and a statute' - Elazar is written regarding it, 'and you shall give",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l19"
+          "yoma-042a-l16"
         ]
       },
       {
@@ -97301,12 +97303,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 21,
         he: "אותה אל אלעזר הכהן וגו' (במדבר יט)",
-        en: "Rashi: continues - and it is written [Numbers 19] 'and you shall give her to Elazar the Priest' etc.",
+        en: "it to Elazar the priest' etc. (Numbers 19),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l19"
+          "yoma-042a-l16"
         ]
       },
       {
@@ -97315,12 +97317,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 22,
         he: "וכתיב (שם) זאת חקת התורה וכל היכא",
-        en: "Rashi: continues - and it is written [ibid.] 'this is the statute of the Torah' and everywhere that [the term] 'statute' is written,",
+        en: "and it is written there, 'this is the statute of the Torah,' and wherever",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l19"
+          "yoma-042a-l16"
         ]
       },
       {
@@ -97329,11 +97331,12 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 23,
         he: "דכתי' חוקה עיכובא הוא: אהרן וחוקה.",
-        en: "Rashi: continues - it is a [binding] condition [that must be fulfilled].",
+        en: "the word 'statute' is written, it is indispensable. 'Aaron and a statute' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-042a-l16",
           "yoma-042a-l19"
         ]
       },
@@ -97343,7 +97346,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 24,
         he: "דכתיב (ויקרא טז) והקריב אהרן את",
-        en: "Rashi: continues - [regarding] Aaron and [its] statute - [that the term] 'statute' is written [in Leviticus 16]: 'and Aaron shall bring [his chatat bull]'",
+        en: "as it is written (Leviticus 16), 'and Aaron shall bring",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97357,7 +97360,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 25,
         he: "פר החטאת אשר לו וכפר וגו' ושחט",
-        en: "Rashi: continues - the bull of the sin offering that is his, and he shall atone, etc., and he shall slaughter",
+        en: "the bull of the sin-offering that is his, and shall atone,' etc., 'and he shall slaughter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97371,7 +97374,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 26,
         he: "את פר החטאת אשר לו וגו' וכתיב",
-        en: "Rashi: continues - the bull of the sin offering that is his, etc. And it is written",
+        en: "the bull of the sin-offering that is his,' etc. And it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97385,7 +97388,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 27,
         he: "באחרי מות בענינא (שם) והיתה זאת",
-        en: "Rashi: continues - in Acharei Mot on the same matter (ibid.): 'and this shall be",
+        en: "in Acharei Mot on the same matter (ibid.), 'and this shall be",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97399,7 +97402,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 28,
         he: "לכם לחקת עולם לכפר על בני ישראל:",
-        en: "Rashi: continues - for you an eternal statute, to atone for the children of Israel.'",
+        en: "an eternal statute for you, to atone for the Children of Israel.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97413,7 +97416,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 29,
         he: "שחיטה לאו עבודה היא. ולא קיימא",
-        en: "Rashi: continues - slaughter is not a service: and the statute does not",
+        en: "'Slaughter is not a service' - and the statute does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97427,7 +97430,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 30,
         he: "חוקה אשחיטה: שאני פרה דקדשי",
-        en: "Rashi: continues - apply to slaughter. Different is the heifer, for it is of the sanctity of",
+        en: "apply to slaughter. 'The heifer is different, for it is of the sanctity of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97441,7 +97444,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 31,
         he: "בדק הבית היא. כלומר אין בה קדושת",
-        en: "Rashi: continues - Temple upkeep (bedek habayit); that is, it does not have the sanctity of",
+        en: "Temple upkeep' - that is, it does not have the sanctity of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97455,7 +97458,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 32,
         he: "המזבח אלא קדושת דמים בעלמא",
-        en: "Rashi: continues - the altar, but rather monetary sanctity alone.",
+        en: "the altar, but rather mere monetary sanctity,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97469,7 +97472,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 33,
         he: "שהרי שחיטתה בהר המשחה הלכך",
-        en: "Rashi: continues - for behold its slaughter is on the Mount of Anointing; therefore",
+        en: "since it is slaughtered on the Mount of Anointing; therefore",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97483,7 +97486,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 34,
         he: "אין צד עבודות נחלקות בה וכל",
-        en: "Rashi: continues - there is no aspect of divided services in it, and all",
+        en: "no aspect of divided services applies to it, and all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97497,7 +97500,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 35,
         he: "העבודות שוות בה: ולא כן דכן",
-        en: "Rashi: continues - the services are equal in it. And is this not a fortiori",
+        en: "its services are equal. 'And is this not a fortiori",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97512,7 +97515,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 36,
         he: "הוא. בתמיה אשחיטת פרו דקדושת",
-        en: "Rashi: continues - as a rhetorical question. Regarding the slaughter of his [Aaron's] bull, which is of the sanctity of",
+        en: "conclusion?' - as a rhetorical question: regarding the slaughter of his bull, which is of the sanctity of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97526,7 +97529,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 37,
         he: "הגוף היא לא כתיבא חוקה ואשחיטת",
-        en: "Rashi: continues - the body, no statute is written for it; but regarding the slaughter of",
+        en: "the body, no statute is written, yet regarding the slaughter of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97540,7 +97543,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 38,
         he: "פרה כתיבה חוקה ומיפסלא בזר:",
-        en: "Rashi: continues - the heifer a statute is written, and it is disqualified by a non-priest.",
+        en: "the heifer a statute is written and it is disqualified by a non-priest.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97554,7 +97557,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 39,
         he: "אמראות נגעים. דכתיב (ויקרא יג)",
-        en: "Rashi: continues - regarding the appearances of plagues, as it is written (Leviticus 13):",
+        en: "'Regarding the appearances of plagues' - as it is written (Leviticus 13),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97568,7 +97571,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 40,
         he: "(כנגע נראה) והובא אל אהרן",
-        en: "Rashi: continues - '(like a plague it appears),' and he shall be brought to Aaron",
+        en: "'if it appears like a plague, he shall be brought to Aaron",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97582,7 +97585,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 41,
         he: "הכהן: ושחט אותה לפניו. מדכתיב",
-        en: "Rashi: continues - the priest.' 'And he shall slaughter it before him' - from the fact that it is written",
+        en: "the priest.' 'And he shall slaughter it before him' - from the fact that it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97597,7 +97600,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 42,
         he: "לפניו מכלל דהשחיטה לאו אאלעזר",
-        en: "Rashi: continues - 'before him,' implying that the slaughtering does not pertain to Elazar",
+        en: "'before him,' it follows that the slaughtering does not pertain to Elazar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97611,7 +97614,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 43,
         he: "קאי אלא ושחט אותה אחר לפני",
-        en: "Rashi: continues - directly, but rather 'and another shall slaughter it before",
+        en: "directly, but rather another person slaughters it before",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97625,12 +97628,13 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 44,
         he: "אלעזר: ורב. לעולם אלעזר שחטה",
-        en: "Rashi: continues - Elazar.' And Rav says: actually, Elazar himself slaughtered it,",
+        en: "Elazar. 'And Rav holds' - Elazar actually slaughtered it himself,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042a-l25"
+          "yoma-042a-l25",
+          "yoma-042a-l29"
         ]
       },
       {
@@ -97639,7 +97643,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 45,
         he: "ומאי לפניו שלא יסיח דעתו משמירתה:",
-        en: "Rashi: continues - and what does 'before him' mean? That he should not divert his attention from guarding it.",
+        en: "and 'before him' means that he should not divert his attention from guarding it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97653,7 +97657,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 46,
         he: "דהשתא הוא דמתכשרא פרה. שהרי",
-        en: "Rashi: continues - that only now does the heifer become fit. For behold",
+        en: "'For only now does the heifer become fit' - since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97667,7 +97671,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 47,
         he: "כל עצמה אינה עשויה אלא לאפרה:",
-        en: "Rashi: continues - her whole being is made only for her ash.",
+        en: "its entire being is made only for its ash.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97681,7 +97685,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 48,
         he: "למעוטי מאי. דלא פסיל בה היסח",
-        en: "Rashi: continues - 'to exclude what?' That a diversion of",
+        en: "'To exclude what?' - that a diversion of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97695,7 +97699,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 49,
         he: "הדעת במעשה פרה: אסיפת אפרה. ואסף איש טהור וגו'",
-        en: "Rashi: continues - attention does not disqualify in the performance of the heifer ritual. 'The gathering of her ash' - 'and a pure man shall gather,' etc.",
+        en: "attention does not disqualify the performance of the heifer ritual. 'The gathering of its ash' - 'and a pure man shall gather,' etc.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97709,7 +97713,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 50,
         he: "(במדבר יט) : ומילוי מים. לתת לתוך אפר להזות: לקידוש.",
-        en: "Rashi: continues - (Numbers 19). 'And the filling of water' - to put into the ash for sprinkling. 'For sanctification' -",
+        en: "(Numbers 19). 'And the filling of water' - to place into the ash for sprinkling. 'For sanctification' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97723,7 +97727,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 51,
         he: "היא נתינת מים על האפר ומערבן יחד:",
-        en: "Rashi: continues - it is the placing of water on the ash and mixing them together.",
+        en: "this is the placing of water on the ash and mixing them together.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -97737,7 +97741,7 @@ const DAF_CONTENT = {
         daf: "42a",
         vilnaLine: 52,
         he: "למשמרת",
-        en: "Rashi: concludes - 'for keeping' - the daf ends mid-comment with this word from Numbers 19:9; the comment continues on 42b.",
+        en: "for keeping",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
