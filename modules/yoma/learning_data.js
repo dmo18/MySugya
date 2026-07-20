@@ -100432,21 +100432,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 1,
         he: "כיון דאמר כו'. דאת על כרחך לא מצית למימר בהאי ב] דמשמע",
-        en: "Rashi: opens - since [the Gemara] said [that the statute applies] - [for] you cannot say [that the law applies] in this [case, because the whole passage teaches].",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-043b-l01"
-        ]
-      },
-      {
-        id: "rashi-yoma-043b-002",
-        sourceType: "rashi",
-        daf: "43b",
-        vilnaLine: 2,
-        he: "ממילא הוא ועל כרחך פליגי: והזה הטהור. האי טהור יתירא הוא",
-        en: "Rashi: continues - by implication [it] is [understood] - and by necessity they disagree - and [the] pure [one shall] sprinkle - this [word] 'pure' is extra, [it] was not [necessary to write it, except to teach].",
+        en: "'Since he said, etc.' - for you must perforce not be able to say regarding this that it is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -100455,17 +100441,33 @@ const DAF_CONTENT = {
         ]
       },
       {
+        id: "rashi-yoma-043b-002",
+        sourceType: "rashi",
+        daf: "43b",
+        vilnaLine: 2,
+        he: "ממילא הוא ועל כרחך פליגי: והזה הטהור. האי טהור יתירא הוא",
+        en: "an implication standing on its own, and you must perforce say that they disagree. 'And the pure one shall sprinkle' - this word 'pure' is superfluous,",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-043b-l01b",
+          "yoma-043b-l03"
+        ]
+      },
+      {
         id: "rashi-yoma-043b-003",
         sourceType: "rashi",
         daf: "43b",
         vilnaLine: 3,
         he: "דהא בטהור קאי: מכלל שהוא טמא. שיוצא מכלל טומאה: כי הוו.",
-        en: "Rashi: continues - from the implication [of the whole] [passage] it must be [that he is] impure - [for the verse says] 'and [the] pure one shall sprinkle on the impure' - [by] implication he [becomes] impure.",
+        en: "since it already refers to a pure person. 'By implication he is impure' - that he departs from the category of impurity. 'When they'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l03"
+          "yoma-043b-l03",
+          "yoma-043b-l05"
         ]
       },
       {
@@ -100474,12 +100476,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 4,
         he: "כי מדקדקי: לא מסקי מיניה. כלומר לא היו מעלין מתוכה דבר חידוש",
-        en: "Rashi: continues - [the Gemara says:] when they examined [the] tradition closely - [they] did not accept [this derivation] from [the verse].",
+        en: "would examine it closely. 'They did not derive from it' - meaning they would not extract from it any novel teaching",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l03"
+          "yoma-043b-l05"
         ]
       },
       {
@@ -100488,12 +100490,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 5,
         he: "להיות יכולין לאחוז בשיטתה להשוות",
-        en: "Rashi: continues - [meaning] they could not establish it [firmly by means of logical] argument [drawn] from [the] tradition - so as to [be able] to grasp [the full extent of the law by] its [textual basis].",
+        en: "that would let them hold consistently to its method, so as to make uniform",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l03"
+          "yoma-043b-l05"
         ]
       },
       {
@@ -100502,12 +100504,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 6,
         he: "שיהא מקראותיה כולם מוציאים זה",
-        en: "Rashi: continues - [so] that all their [textual] derivations [would be] bringing [forth] this [meaning].",
+        en: "all its verses, that they would all exclude one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l03"
+          "yoma-043b-l05"
         ]
       },
       {
@@ -100516,12 +100518,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 7,
         he: "מיד זה או כולם מתקיימים זה אחר",
-        en: "Rashi: continues - [either] immediately this [with] that - or all of them [are] established this after [that].",
+        en: "from another directly, or all would stand independently, one after",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l03"
+          "yoma-043b-l05"
         ]
       },
       {
@@ -100530,12 +100532,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 8,
         he: "זה: כמה דמסיק תעלא מבי כרבא.",
-        en: "Rashi: continues - [by the reasoning of] how [much the] more [is this true], as [it is] established [in the teaching] of [the] Rabbi [from the Academy] - [the Gemara brings a] parallel [case].",
+        en: "another. 'Like what a fox brings up from a plowed field' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l08"
+          "yoma-043b-l05"
         ]
       },
       {
@@ -100544,12 +100546,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 9,
         he: "כמה שמעלה השועל ברגליו כשדורס",
-        en: "Rashi: continues - [the analogy is:] just as the fox [goes] on [its] legs when [it] treads [the] field.",
+        en: "like what the fox brings up on its feet when it treads",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l08"
+          "yoma-043b-l05"
         ]
       },
       {
@@ -100558,12 +100560,13 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 10,
         he: "על שדה ניר: מדת הדין נותנת.",
-        en: "Rashi: continues - [the] measure of [the] law gives - [meaning it is fitting and proper to establish the law].",
+        en: "upon a plowed field. 'The measure of justice dictates' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l08"
+          "yoma-043b-l05",
+          "yoma-043b-l19"
         ]
       },
       {
@@ -100572,12 +100575,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 11,
         he: "כלומר כך יפה לומר שאחר שהתודה",
-        en: "Rashi: continues - [the meaning is:] thus [it is fitting] to say [that] after he confessed [his sin] upon himself, he will [become] innocent, [and therefore will be] fit to atone [for] others.",
+        en: "meaning it is fitting to say that once he has confessed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l08"
+          "yoma-043b-l19"
         ]
       },
       {
@@ -100586,12 +100589,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 12,
         he: "על עצמו ויהא זכאי ראוי לכפר על",
-        en: "Rashi: continues - [the Mishna states:] for anyone who was treading [in] it - [he must wait until the] incense service [is performed].",
+        en: "for himself and becomes innocent, he is fit to atone for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l08"
+          "yoma-043b-l19"
         ]
       },
       {
@@ -100600,12 +100603,13 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 13,
         he: "אחרים: מתני' למי שהיה ממרס",
-        en: "Rashi: continues - [the teaching is about one who was] treading [in the courtyard] - [the Gemara explains:] it was trampled in it [by] the feet [of the treaders].",
+        en: "others. 'The Mishnah: to the one who was stirring'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l08"
+          "yoma-043b-l19",
+          "yoma-043b-l21"
         ]
       },
       {
@@ -100614,12 +100618,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 14,
         he: "בו. מיגס בו: שלא יקרוש. כשישהה",
-        en: "Rashi: continues - [so] that [they should] not [become] crumbly - [this must happen] when they wait [until the time].",
+        en: "it - stirring it. 'So that it does not congeal' - when it is delayed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l08"
+          "yoma-043b-l21"
         ]
       },
       {
@@ -100628,12 +100632,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 15,
         he: "עד שתעשה עבודת הקטורת כמו",
-        en: "Rashi: continues - until the incense service [is performed] - as [is] arranged in the [Torah] portion.",
+        en: "until the incense service is performed, as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l08"
+          "yoma-043b-l21"
         ]
       },
       {
@@ -100642,12 +100646,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 16,
         he: "שסדורות בפרשה: על הרובד",
-        en: "Rashi: continues - [the Mishna discusses] on the fourth row [of the] Temple floor - [the] entire floor was made [of] rows [and] rows of [stone] tablets - stones of marble.",
+        en: "arranged in the passage. 'On the row'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l16"
+          "yoma-043b-l21"
         ]
       },
       {
@@ -100656,12 +100660,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 17,
         he: "הרביעי. כל הרצפה עשויה שורות",
-        en: "Rashi: continues - and each row [was] called a row [or] row of tablets - and [the Gemara] was wondering [whether the rule applies].",
+        en: "'the fourth' - the entire floor was made of rows",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l16"
+          "yoma-043b-l21"
         ]
       },
       {
@@ -100670,12 +100674,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 18,
         he: "שורות טבלאות אבני שיש וכל שורה",
-        en: "Rashi: continues - [to] the fourth row [of stones] - [each] row [and] row was made of [different] types of marble stones - [and every line].",
+        en: "upon rows of marble stone tablets, and each row",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l16"
+          "yoma-043b-l21"
         ]
       },
       {
@@ -100684,12 +100688,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 19,
         he: "ושורה קרויה רובד וקא סלקא דעתיה",
-        en: "Rashi: continues - [was] and each row is called a row [course] - and [the Gemara mentions:] it was wondering.",
+        en: "was called a row; and he had assumed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l16"
+          "yoma-043b-l21"
         ]
       },
       {
@@ -100698,11 +100702,13 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 20,
         he: "דעל שורה רביעית שמפתח ההיכל",
-        en: "Rashi: continues - [about] whether [it is on] the fourth row [where] from the entrance of the Temple [building], and inside [the Temple, Rashi notes that the discussion concerns the placement].",
+        en: "that it meant the fourth row from the entrance of the Sanctuary",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-043b-l21"
+        ]
       },
       {
         id: "rashi-yoma-043b-021",
@@ -100710,7 +100716,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 21,
         he: "ולפנים קאמר: מחתה. גחלים",
-        en: "Rashi: continues - [regarding the] incense [service] - [the Mishna continues:] [the High Priest took] a censer - [a vessel containing hot] coals.",
+        en: "and inward. 'A censer' - coals,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -100724,7 +100730,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 22,
         he: "והניחם עד שיחפון קטורת ויתן לתוך",
-        en: "Rashi: continues - [he] left them [the coals] until the incense [will be] burned [from the coals] - and [he] gave [them] into the [incense] pan - and afterward he [will] bring [both] the pan and the censer inside.",
+        en: "which he would set down until he scooped up incense in his hands and placed it into",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -100738,7 +100744,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 23,
         he: "הכף ואח\"כ יכניס כף ומחתה לפנים:",
-        en: "Rashi: continues - [the Gemara asks about] each day - [when] the [High Priest] takes coals from the second arrangement of incense [to] bring [them to] the inner altar for the incense [of] morning and evening.",
+        en: "the ladle, and afterward would bring the ladle and the censer inside.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -100752,12 +100758,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 24,
         he: "בכל יום. כשחותה גחלים ממערכה",
-        en: "Rashi: continues - [continuing with the rules about] coals - [the description of how they are taken] from [the] second arrangement [of the] incense to put [them] on the inner altar for incense [of] morning and evening.",
+        en: "'Every day' - when he scoops coals from the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l21"
+          "yoma-043b-l27"
         ]
       },
       {
@@ -100766,12 +100772,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 25,
         he: "שניה של קטורת להכניס על המזבח",
-        en: "Rashi: continues - [the High Priest] takes [the coals] - [one] who takes coals from [the] second arrangement of the incense to bring [them to the altar for the daily] incense [services].",
+        en: "second arrangement of incense wood to bring onto the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l21"
+          "yoma-043b-l27"
         ]
       },
       {
@@ -100780,12 +100786,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 26,
         he: "הפנימי לקטורת שחרית וערבית:",
-        en: "Rashi: continues - [continuing the description of the coals used] on this day [Yom Kippur] - [the coals are] broad [in size] - [because on Yom Kippur the procedure differs] from [the regular daily procedure].",
+        en: "inner altar for the morning and evening incense.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l21"
+          "yoma-043b-l27"
         ]
       },
       {
@@ -100794,7 +100800,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 27,
         he: "חותה בשל כסף. מפרש טעמא בגמ':",
-        en: "Rashi: continues - [the Mishna states:] the censer [of] silver - [the Gemara] explains the reason [for the specific material used].",
+        en: "'He scoops with the silver one' - the reason is explained in the Gemara.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -100808,7 +100814,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 28,
         he: "והיום חותה וכו'. טעמא דיוה\"כ",
-        en: "Rashi: continues - and this day [Yom Kippur the censer] is broad - [the Gemara notes:] the reason for Yom Kippur [being different is].",
+        en: "'And today he scoops,' etc. - the reason for Yom Kippur",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -100822,12 +100828,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 29,
         he: "בכולהו משום חולשא דכהן גדול:",
-        en: "Rashi: continues - because of [the High Priest's] weakness [of body, as] the High Priest [on Yom Kippur must maintain] strength [for all the] services.",
+        en: "in all of these is because of the weakness of the High Priest.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l29"
+          "yoma-043b-l27"
         ]
       },
       {
@@ -100836,12 +100842,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 30,
         he: "והיום ארוכה. כדי שיתן ידו למטה",
-        en: "Rashi: continues - and this day [Yom Kippur the censer] is long [extended] - [this] is [so] that [the High Priest] may place his hand [well] below [his] arm [for leverage].",
+        en: "'And today it is long' - so that he may place his hand below",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l29"
+          "yoma-043b-l34"
         ]
       },
       {
@@ -100850,12 +100856,13 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 31,
         he: "מזרועו ותהא זרועו מסייעתו: פרס.",
-        en: "Rashi: continues - and his arm [will be] [a] support [to him] - [the Mishna continues with other measurements, such as:] a handful - [of incense].",
+        en: "his arm, so that his arm supports it. 'A half-portion' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l29"
+          "yoma-043b-l34",
+          "yoma-043b-l37"
         ]
       },
       {
@@ -100864,12 +100871,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 32,
         he: "חצי מנה: מוסיף מלא חפניו.",
-        en: "Rashi: continues - [equivalent to] half a mana - [the High Priest also] added [to it] a full [handful for an] additional offering.",
+        en: "half a maneh. 'He adds a full double handful' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l29"
+          "yoma-043b-l37"
         ]
       },
       {
@@ -100878,12 +100885,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 33,
         he: "שמכניס לפני ולפנים לבד מפרס",
-        en: "Rashi: continues - [explaining that the portions are:] he [the High Priest] brings [into] the Holy [of] Holies alone [only] a handful of the incense [but there is an additional portion].",
+        en: "for what he brings into the innermost sanctuary is beyond the half-portion",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l29"
+          "yoma-043b-l37"
         ]
       },
       {
@@ -100892,12 +100899,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 34,
         he: "שחרית ושל ערבית הניתן על מזבח",
-        en: "Rashi: continues - [of] the morning and of the evening [incense, which are placed] on the inner altar - [in these portions the High Priest adds the extra handful].",
+        en: "of morning and of evening that is placed on the inner altar.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l29"
+          "yoma-043b-l37"
         ]
       },
       {
@@ -100906,12 +100913,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 35,
         he: "הפנימי: והיום דקה מן הדקה. זו",
-        en: "Rashi: continues - and this day [Yom Kippur the incense is] fine - [made from] the finest [particles] - [the Mishna states that the incense is more finely ground].",
+        en: "'And today it is fine, of the finest' - this,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l29"
+          "yoma-043b-l37"
         ]
       },
       {
@@ -100920,12 +100927,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 36,
         he: "שהיה מכניס לפני ולפנים היה מחזיר",
-        en: "Rashi: continues - [explaining:] just as [when] he [would] bring [incense into the Holy of] Holies, he would return [it the next day] - [the next morning, before] evening [Yom Kippur, to the mortar [and he would grind [it very].",
+        en: "which he would bring into the innermost sanctuary, he would return",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l29"
+          "yoma-043b-l37"
         ]
       },
       {
@@ -100934,12 +100941,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 37,
         he: "ערב יוה\"כ למכתשת ושוחקה הדק:",
-        en: "Rashi: continues - fine - [the Mishna explains the measure of fineness required on that day].",
+        en: "on the eve of Yom Kippur to the mortar and grind it fine.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l29"
+          "yoma-043b-l37"
         ]
       },
       {
@@ -100948,12 +100955,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 38,
         he: "בכל יום כהנים. העולים למזבח",
-        en: "Rashi: continues - [continuing the Mishna's discussion:] each day the priests [who are] going up to the altar [are described] - [the Mishna specifies how the priests ascend].",
+        en: "'Every day the priests' - those ascending to the altar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l29"
+          "yoma-043b-l40"
         ]
       },
       {
@@ -100962,12 +100969,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 39,
         he: "עולים בשפת מזרחו של כבש שהמזרח",
-        en: "Rashi: continues - [they are] going up by the edge of the eastern [side] of the ramp - [because] the east [side of the ramp] is [designated] for [one who is going] to the right [of the one ascending].",
+        en: "ascend by the eastern edge of the ramp, since the east is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l29"
+          "yoma-043b-l40"
         ]
       },
       {
@@ -100976,7 +100983,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 40,
         he: "הוא לימין העולה שהרי פניו לצפון",
-        en: "Rashi: continues - since his face [is] to [the] north [when he is on the ramp, because the] ramp [is in the] south [of the altar, and the one].",
+        en: "to the right of the one ascending, since his face is to the north",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -100990,7 +100997,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 41,
         he: "כשעולה בכבש שהוא בדרום וכיון",
-        en: "Rashi: continues - [when he is] going up [on] the ramp - [since] he [is going up] in the south [direction, and because].",
+        en: "when he ascends the ramp, which is in the south; and since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -101004,7 +101011,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 42,
         he: "דכל תחילת פינותיו לימין אין נאה",
-        en: "Rashi: continues - all the beginning of [all] its corners [are] to the right [according to the direction he faces, it] is not [fitting] [that].",
+        en: "the beginning of all his turns is to the right, it is not fitting",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -101018,7 +101025,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 43,
         he: "שיהא מקיף שלא לצורך ורוחב הכבש",
-        en: "Rashi: continues - he [should be] circling [the altar] not for [the sake of the] service - and the width of the ramp [is] sixteen cubits - [the High Priest] goes up [via the] east [side] and [he] circles the altar for his [priestly] service.",
+        en: "that he circle needlessly; and the width of the ramp",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -101032,7 +101039,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 44,
         he: "שש עשרה אמה עולה במזרח ומקיף",
-        en: "Rashi: continues - and [he] descends to the [side of the] left [which is the] edge of the west [side] - [the Mishna continues with] and this day [Yom Kippur, when the High Priest is serving].",
+        en: "is sixteen cubits; he ascends on the east and circles",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -101046,7 +101053,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 45,
         he: "את המזבח לעבודתו וירד לצד שמאל",
-        en: "Rashi: continues - [the] High Priest [is treating himself with special care] - [he shows] the glory and the affection of [the people of] Israel, [since] he [is] their messenger - and [he] makes himself [appear] like a son of the house - and if he came.",
+        en: "the altar for his service and descends on the left side,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -101060,7 +101067,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 46,
         he: "בשפת מערב: והיום. כהן גדול",
-        en: "Rashi: continues - to go up to the altar for the [priestly] service - [such as] for the giving of blood of the daily [offerings] and [the] additions - [and the male goat of the people circles the entire ramp] for [the sake of] service and not for [the sake of the] service.",
+        en: "by the western edge. 'And today' - the High Priest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -101074,7 +101081,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 47,
         he: "מראה כבודו וחיבתן של ישראל שהוא",
-        en: "Rashi: continues - [the High Priest demonstrates] his honor and the affection of [the nation of] Israel [since he is their representative] - [he] does [this to show that] he [himself] [is] a son of [the Temple] house - and if [it] came.",
+        en: "displays his honor and the people of Israel's affection for him, since he is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -101088,7 +101095,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 48,
         he: "שלוחן ועושה עצמו כבן בית ואם בא",
-        en: "Rashi: continues - [that the High Priest came] to go up to the altar [to perform] service - [such as] for the giving of blood [of the offering] of the daily [sacrifices] and [the additional offerings].",
+        en: "their agent and makes himself like a member of the household; and if he came",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -101102,7 +101109,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 49,
         he: "לעלות למזבח להקיף כגון למתן דמים",
-        en: "Rashi: continues - [and in contrast, the] male goat of the [common] people [circles the entire ramp] for [the sake of the] service - and not [only] for [the sake of the] service [alone].",
+        en: "to ascend the altar to circle it, such as for giving the blood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -101116,12 +101123,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 50,
         he: "תמידין ומוספין ואילו ואיל העם מקיף",
-        en: "Rashi: continues - [the Mishna states:] four arrangements [of wood]... [the Gemara] explains [this in detail].",
+        en: "of the daily and additional offerings, then the people's bull and ram circle",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l50"
+          "yoma-043b-l40"
         ]
       },
       {
@@ -101130,12 +101137,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 51,
         he: "את כל הכבש לצורך ושלא לצורך:",
-        en: "Rashi: concludes - [this begins the discussion that will continue into the next section].",
+        en: "the entire ramp, whether needed or not needed.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l50"
+          "yoma-043b-l40"
         ]
       },
       {
@@ -101144,12 +101151,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 52,
         he: "ארבע מערכות כו'. מפרש בגמרא:",
-        en: "Rashi: continues - Gemara: and [is it] not written 'and [every] man' [in the verse]? - and [the Gemara] establishes [that].",
+        en: "'Four arrangements,' etc. - explained in the Gemara.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l50"
+          "yoma-043b-l47"
         ]
       },
       {
@@ -101158,7 +101165,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 53,
         he: "גמ' והא כתיב וכל אדם וגו'. ומוקמינן",
-        en: "Rashi: continues - it [the verse] is [speaking] below [in another context], at the time of the incense [service] - and [so when the Mishna] says 'it is trampled in him on the fourth row of [the Temple building]'.",
+        en: "'Gemara: But is it not written, and no man,' etc. - and we establish",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -101172,7 +101179,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 54,
         he: "לה לקמן בשמעתין בשעת הקטורת",
-        en: "Rashi: continues - [this is about the time] when [one] leaves the Temple [building] to the [outer] courtyard - [one must] count the rows [of stone] - and this [arrangement is called the] fourth [row] of the Temple [building].",
+        en: "it, further on in this discussion, as referring to the time of the incense service,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -101186,7 +101193,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 55,
         he: "ואת אמרת ממרס בו על הרובד",
-        en: "Rashi: continues - [the] Mishna [of] the Temple [building discusses] 'when [one] leaves [the] Temple [building] to the [outer] courtyard [and] counts the rows - and this [is] the fourth [row] for the Temple [building].'",
+        en: "and yet you say he stirs it on the fourth",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -101200,7 +101207,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 56,
         he: "רביעי שבהיכל: תני של היכל.",
-        en: "Rashi: continues - [the Tanna] taught [that this is called] 'of the Temple' - [meaning the] fourth row [specifically] of the Temple [building, not of the] courtyard.",
+        en: "row of the Sanctuary. 'Teach: of the Sanctuary' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -101214,7 +101221,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 57,
         he: "כשיוצא מן ההיכל לעזרה מונה את",
-        en: "Rashi: continues - [continuing the discussion:] when he leaves the Temple [building] to the [outer] courtyard - [he] counts the rows - [to determine if it is the fourth row].",
+        en: "when he leaves the Sanctuary to the courtyard he counts the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -101228,7 +101235,7 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 58,
         he: "הרובדין והוי האי רביעי להיכל:",
-        en: "Rashi: continues - and this [is the] fourth [row] for the Temple [building].",
+        en: "rows, and this is the fourth from the Sanctuary.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -101242,12 +101249,12 @@ const DAF_CONTENT = {
         daf: "43b",
         vilnaLine: 59,
         he: "יכול",
-        en: "Rashi: concludes - [end of this section of detailed discussion on the Temple structure and Yom Kippur procedures].",
+        en: "One might think",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-043b-l50"
+          "yoma-043b-l51"
         ]
       }
     ],

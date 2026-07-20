@@ -1,840 +1,847 @@
 {
-  "daf": "43b",
-  "canonicalRef": "Yoma 43b",
-  "summary": "The Gemara resolves whether R. Yehuda disputes the tevul yom ruling, derives that a tevul yom is valid for parah sprinkling, then transitions to Mishna chapter 5: the High Priest slaughters his bull, receives its blood in a bowl given to a kohen to stir, and prepares to enter the Holy of Holies with the golden firepan and incense ladle.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "43b",
+ "canonicalRef": "Yoma 43b",
+ "summary": "The Gemara resolves whether R. Yehuda disputes the tevul yom ruling, derives that a tevul yom is valid for parah sprinkling, then transitions to Mishna chapter 5: the High Priest slaughters his bull, receives its blood in a bowl given to a kohen to stir, and prepares to enter the Holy of Holies with the golden firepan and incense ladle.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-043b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 19
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-043b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 19
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.43b.1"
-        },
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.43b.2"
-        },
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.43b.3"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.43b.4"
-        },
-        {
-          "vilnaLine": 8,
-          "sefariaRef": "Yoma.43b.5"
-        },
-        {
-          "vilnaLine": 11,
-          "sefariaRef": "Yoma.43b.6"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.43b.7"
-        },
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.43b.8"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.43b.2",
-        "Yoma.43b.3",
-        "Yoma.43b.4",
-        "Yoma.43b.5",
-        "Yoma.43b.6",
-        "Yoma.43b.1",
-        "Yoma.43b.7",
-        "Yoma.43b.8"
-      ],
-      "display": {
-        "whats": "Does R. Yehuda agree with the Mishna's ruling about the tevul yom's validity for the parah rite?",
-        "hint": "Abaye explains that Ulla's principle (some verse-implications preclude earlier ones, some add on) means R. Yehuda actually does disagree - his silence in the Mishna does not mean consent.",
-        "title": "Does R. Yehuda Disagree? Reading Silence in the Mishna"
-      },
-      "learning": {
-        "ahaMoment": "Silence in a Mishna is sometimes read as agreement - but here, given the logical structure of the verse conditions, Abaye argues R. Yehuda's silence is not agreement but omission.",
-        "memoryAnchor": "Ulla's principle: in legal verses, sometimes the conditions in a later clause cancel the earlier clause's conditions; sometimes they stack. The difference determines whether R. Yehuda disagrees.",
-        "learnerQuestion": "Does R. Yehuda actually disagree with the Mishna's ruling that a tevul yom is valid for the parah rite, even though he says nothing about it there?",
-        "coreTension": "R. Yehuda's silence in the Mishna could be read as agreement with the ruling that a tevul yom may sprinkle the parah waters, but Abaye argues that silence does not always signal consent.",
-        "coreMove": "Abaye applies Ulla's principle, that some implied verse-conditions preclude earlier ones while others stack onto them, to show the logical structure requires that R. Yehuda in fact disagrees, even though the Mishna records no explicit dissent from him.",
-        "takeaway": {
-          "type": "logical_principle",
-          "text": "A scholar's silence in a Mishna does not automatically mean agreement; here, Ulla's principle about how implied verse-conditions interact shows that R. Yehuda's omission reflects a real, unstated disagreement rather than consent."
-        },
-        "learningBlocker": "Learners often read a sage's silence in a Mishna as implicit agreement, missing that Abaye shows R. Yehuda's silence here actually conceals a real disagreement."
-      },
-      "argumentFlow": [
-        {
-          "type": "question",
-          "speaker": "Gemara",
-          "text": "Does R. Yehuda disagree with the Mishna's ruling about the tevul yom?",
-          "id": "yoma-043b-l01",
-          "label": "Question: Does R. Yehuda disagree with the Mishna's",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-043b-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "answer",
-          "speaker": "Abaye",
-          "text": "Since Ulla's principle - some 'implied' conditions preclude, some add on - R. Yehuda does disagree.",
-          "id": "yoma-043b-l01b",
-          "label": "Answer: Since Ulla's principle - some 'implied' conditions",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-043b-l01b",
-              "vilnaLine": 2
-            }
-          ]
-        },
-        {
-          "type": "derivation",
-          "speaker": "Gemara",
-          "text": "'The pure one shall sprinkle' - 'pure' implies he was previously impure, teaching tevul yom is valid for parah.",
-          "id": "yoma-043b-l03",
-          "label": "Derivation: 'The pure one shall sprinkle' - 'pure'",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-043b-l03",
-              "vilnaLine": 3
-            }
-          ]
-        },
-        {
-          "type": "narrative",
-          "speaker": "R. Asi",
-          "text": "R. Yochanan and Reish Lakish found no consistent pattern in the parah verse conditions.",
-          "id": "yoma-043b-l08",
-          "label": "Narrative: R. Yochanan and Reish Lakish found no",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-043b-l08",
-              "vilnaLine": 8
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "Second confession adds 'children of Aaron your sacred people' - the priestly tribe is included.",
-          "id": "yoma-043b-l16",
-          "label": "Ruling: Second confession adds 'children of Aaron your",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-043b-l16",
-              "vilnaLine": 16
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "tevul yom",
-        "parah adumah",
-        "verse conditions",
-        "R. Yehuda's opinion"
-      ],
-      "concepts": {
-        "halachic": [
-          "tevul yom validity for parah sprinkling",
-          "implied verse conditions"
-        ],
-        "theological": [],
-        "narrative": [
-          "R. Yochanan and Reish Lakish found no consistent pattern"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "tevul yom laws",
-        "parah adumah rite personnel"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Since R. Yehuda does not explicitly object in the Mishna, his silence indicates that he agrees with the ruling that a tevul yom is valid for parah.",
-          "correction": "Abaye's application of Ulla's principle shows R. Yehuda's silence does not mean agreement - the logical structure of the verse conditions indicates he holds a different position, even though the Mishna does not record it explicitly.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-043a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "mashma otzei miyad mashma vs mashma mimila"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "That 'pure' implies the person was previously impure - teaching that a tevul yom (who immersed but awaits nightfall) is valid for sprinkling parah waters.",
-          "question": "What does 'the pure one shall sprinkle' teach about the parah rite?"
-        }
-      ],
-      "finalRuling": "A tevul yom is valid for the parah water sprinkling; R. Yehuda does disagree with this ruling.",
-      "difficulty": "advanced",
-      "review": "reviewed",
-      "alternateAngles": [],
-      "glossary": []
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.43b.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-043b-s02",
-      "lineRange": {
-        "startVilnaLine": 21,
-        "endVilnaLine": 51
-      },
-      "lines": [
-        {
-          "vilnaLine": 21,
-          "sefariaRef": "Yoma.43b.9"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.43b.10"
-        },
-        {
-          "vilnaLine": 29,
-          "sefariaRef": "Yoma.43b.11"
-        },
-        {
-          "vilnaLine": 34,
-          "sefariaRef": "Yoma.43b.12"
-        },
-        {
-          "vilnaLine": 37,
-          "sefariaRef": "Yoma.43b.13"
-        },
-        {
-          "vilnaLine": 40,
-          "sefariaRef": "Yoma.43b.14"
-        },
-        {
-          "vilnaLine": 44,
-          "sefariaRef": "Yoma.43b.15"
-        },
-        {
-          "vilnaLine": 47,
-          "sefariaRef": "Yoma.43b.16"
-        },
-        {
-          "vilnaLine": 50,
-          "sefariaRef": "Yoma.43b.17"
-        },
-        {
-          "vilnaLine": 51,
-          "sefariaRef": "Yoma.43b.18"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.43b.11",
-        "Yoma.43b.10",
-        "Yoma.43b.14",
-        "Yoma.43b.18",
-        "Yoma.43b.17",
-        "Yoma.43b.9",
-        "Yoma.43b.12",
-        "Yoma.43b.15",
-        "Yoma.43b.13",
-        "Yoma.43b.16"
-      ],
-      "display": {
-        "whats": "How does the High Priest handle the bull's blood, and what are the laws of the incense offering inside the Holy of Holies?",
-        "hint": "The Mishna describes the bull slaughter and blood-in-bowl sequence, then pivots to the incense offering - the most private act of Yom Kippur. The central dispute: must the incense be placed on the coals inside, or may it be prepared outside?",
-        "title": "Bull's Blood, Golden Firepan, and the Pharisee-Sadducee Incense Dispute"
-      },
-      "learning": {
-        "ahaMoment": "The Sadducees wanted to prepare the incense cloud outside and walk in protected; the Sages said no - the act of placing incense on coals must happen inside, making the High Priest momentarily in danger before the cloud forms.",
-        "memoryAnchor": "The blood bowl is held by a kohen outside while the High Priest enters alone with fire and incense - the sequence requires him to be completely unaccompanied for the most sacred moment of the year.",
-        "learnerQuestion": "How does the High Priest handle the bull's blood, and where must the Yom Kippur incense actually be placed on burning coals: inside or outside the Holy of Holies?",
-        "coreTension": "The Sadducees held the incense should be prepared and lit outside so the High Priest enters already shielded by smoke, while the Sages insist the incense must be placed on the coals only after he is already inside the Holy of Holies, alone.",
-        "coreMove": "The Sages rule that the act of placing incense on coals must happen inside the Kodesh Kodashim itself, rejecting the Sadducee practice of pre-lighting outside, because the incense placement is a halakhic requirement of the rite rather than a means of physically shielding the High Priest.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The bull's blood must be stirred continuously by a designated kohen so it does not congeal, and the incense must be placed on the coals inside the Holy of Holies, not prepared and carried in already burning, as the Sadducees held."
-        },
-        "learningBlocker": "Learners may assume, with the Sadducee position, that the incense cloud functions as protective cover for the High Priest, missing that the Sages treat its inside-placement as a halakhic requirement of the rite, not a safety measure."
-      },
-      "argumentFlow": [
-        {
-          "type": "case",
-          "speaker": "Mishna",
-          "text": "High Priest slaughters the bull and receives its blood in a bowl.",
-          "id": "yoma-043b-l21",
-          "label": "Mishna: High Priest slaughters the bull and receives",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-043b-l21",
-              "vilnaLine": 21
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Mishna",
-          "text": "Another kohen stirs the blood continuously so it does not congeal.",
-          "id": "yoma-043b-l27",
-          "label": "Ruling: Another kohen stirs the blood continuously so",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-043b-l27",
-              "vilnaLine": 27
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Mishna",
-          "text": "High Priest takes the golden firepan and incense ladle and enters the Holy of Holies.",
-          "id": "yoma-043b-l29",
-          "label": "Ruling: High Priest takes the golden firepan and",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-043b-l29",
-              "vilnaLine": 29
-            }
-          ]
-        },
-        {
-          "type": "dispute",
-          "speaker": "Sages/Sadducees",
-          "text": "Sages: incense placed on coals inside. Sadducees: incense prepared outside before entering.",
-          "id": "yoma-043b-l40",
-          "label": "Dispute: Sages: incense placed on coals inside. Sadducees:",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-043b-l40",
-              "vilnaLine": 40
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Sages",
-          "text": "Final ruling: incense must be placed on coals inside the Holy of Holies.",
-          "id": "yoma-043b-l50",
-          "label": "Ruling: Final ruling: incense must be placed on",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-043b-l50",
-              "vilnaLine": 50
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "bull blood",
-        "incense offering",
-        "Holy of Holies",
-        "golden firepan",
-        "Pharisees vs Sadducees"
-      ],
-      "concepts": {
-        "halachic": [
-          "bull blood stirring",
-          "incense placement inside vs outside",
-          "golden firepan on Yom Kippur"
-        ],
-        "theological": [
-          "solitude in Holy of Holies",
-          "incense cloud covering the ark"
-        ],
-        "narrative": [
-          "Sadducee vs Pharisee dispute about incense timing"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Yom Kippur avodah sequence",
-        "Holy of Holies entry laws",
-        "incense composition"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The incense cloud's purpose is to shield the High Priest from the danger of seeing the ark directly, so it should be prepared before he enters.",
-          "correction": "The Sages hold the incense cloud is not a protective shield - placing the incense on the coals is a halakhic requirement of the rite itself, which is why it must happen only after the High Priest is already inside, not prepared beforehand as the Sadducees held.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-044a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "label": "slaughter -> stir blood -> coals + incense -> enter Holy of Holies"
-        },
-        {
-          "type": "contrast",
-          "label": "Pharisee vs Sadducee incense timing"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "To prevent it from congealing before it could be sprinkled; if the blood congealed, the sprinkling would fail.",
-          "question": "Why did a kohen stir the bull's blood?"
-        },
-        {
-          "answer": "They held the incense should be prepared and lit outside the Holy of Holies before the High Priest entered, so he walked in already protected by the smoke cloud.",
-          "question": "What was the Sadducee position on the incense offering?"
-        }
-      ],
-      "finalRuling": "The incense must be placed on coals inside the Holy of Holies, not prepared outside; the bull's blood must be stirred continuously by a designated kohen.",
-      "difficulty": "intermediate",
-      "review": "reviewed",
-      "alternateAngles": [],
-      "glossary": []
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.43b.2"
+    },
+    {
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.43b.3"
+    },
+    {
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.43b.4"
+    },
+    {
+     "vilnaLine": 8,
+     "sefariaRef": "Yoma.43b.5"
+    },
+    {
+     "vilnaLine": 11,
+     "sefariaRef": "Yoma.43b.6"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.43b.7"
+    },
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.43b.8"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.43b.2",
+    "Yoma.43b.3",
+    "Yoma.43b.4",
+    "Yoma.43b.5",
+    "Yoma.43b.6",
+    "Yoma.43b.1",
+    "Yoma.43b.7",
+    "Yoma.43b.8"
+   ],
+   "display": {
+    "whats": "Does R. Yehuda agree with the Mishna's ruling about the tevul yom's validity for the parah rite?",
+    "hint": "Abaye explains that Ulla's principle (some verse-implications preclude earlier ones, some add on) means R. Yehuda actually does disagree - his silence in the Mishna does not mean consent.",
+    "title": "Does R. Yehuda Disagree? Reading Silence in the Mishna"
+   },
+   "learning": {
+    "ahaMoment": "Silence in a Mishna is sometimes read as agreement - but here, given the logical structure of the verse conditions, Abaye argues R. Yehuda's silence is not agreement but omission.",
+    "memoryAnchor": "Ulla's principle: in legal verses, sometimes the conditions in a later clause cancel the earlier clause's conditions; sometimes they stack. The difference determines whether R. Yehuda disagrees.",
+    "learnerQuestion": "Does R. Yehuda actually disagree with the Mishna's ruling that a tevul yom is valid for the parah rite, even though he says nothing about it there?",
+    "coreTension": "R. Yehuda's silence in the Mishna could be read as agreement with the ruling that a tevul yom may sprinkle the parah waters, but Abaye argues that silence does not always signal consent.",
+    "coreMove": "Abaye applies Ulla's principle, that some implied verse-conditions preclude earlier ones while others stack onto them, to show the logical structure requires that R. Yehuda in fact disagrees, even though the Mishna records no explicit dissent from him.",
+    "takeaway": {
+     "type": "logical_principle",
+     "text": "A scholar's silence in a Mishna does not automatically mean agreement; here, Ulla's principle about how implied verse-conditions interact shows that R. Yehuda's omission reflects a real, unstated disagreement rather than consent."
+    },
+    "learningBlocker": "Learners often read a sage's silence in a Mishna as implicit agreement, missing that Abaye shows R. Yehuda's silence here actually conceals a real disagreement."
+   },
+   "argumentFlow": [
     {
-      "he": "מַחְתָּה",
-      "translit": "machtah",
-      "en": "The golden firepan used to carry burning coals from the outer altar into the Holy of Holies on Yom Kippur."
+     "type": "question",
+     "speaker": "Gemara",
+     "text": "Does R. Yehuda disagree with the Mishna's ruling about the tevul yom?",
+     "id": "yoma-043b-l01",
+     "label": "Question: Does R. Yehuda disagree with the Mishna's",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-043b-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "he": "כַּף",
-      "translit": "kaf",
-      "en": "A golden ladle used to carry the incense into the Holy of Holies."
+     "type": "answer",
+     "speaker": "Abaye",
+     "text": "Since Ulla's principle - some 'implied' conditions preclude, some add on - R. Yehuda does disagree.",
+     "id": "yoma-043b-l01b",
+     "label": "Answer: Since Ulla's principle - some 'implied' conditions",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-043b-l01b",
+       "vilnaLine": 2
+      }
+     ]
     },
     {
-      "he": "בּוֹכֵּר",
-      "translit": "bokher",
-      "en": "The kohen designated to stir the bull's blood in the bowl to prevent congealing."
+     "type": "derivation",
+     "speaker": "Gemara",
+     "text": "'The pure one shall sprinkle' - 'pure' implies he was previously impure, teaching tevul yom is valid for parah.",
+     "id": "yoma-043b-l03",
+     "label": "Derivation: 'The pure one shall sprinkle' - 'pure'",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-043b-l03",
+       "vilnaLine": 3
+      }
+     ]
+    },
+    {
+     "type": "narrative",
+     "speaker": "R. Asi",
+     "text": "R. Yochanan and Reish Lakish found no consistent pattern in the parah verse conditions.",
+     "id": "yoma-043b-l08",
+     "label": "Narrative: R. Yochanan and Reish Lakish found no",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-043b-l08",
+       "vilnaLine": 8
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "Second confession adds 'children of Aaron your sacred people' - the priestly tribe is included.",
+     "id": "yoma-043b-l16",
+     "label": "Ruling: Second confession adds 'children of Aaron your",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-043b-l16",
+       "vilnaLine": 16
+      }
+     ]
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "topicTags": [
+    "tevul yom",
+    "parah adumah",
+    "verse conditions",
+    "R. Yehuda's opinion"
+   ],
+   "concepts": {
+    "halachic": [
+     "tevul yom validity for parah sprinkling",
+     "implied verse conditions"
+    ],
+    "theological": [],
+    "narrative": [
+     "R. Yochanan and Reish Lakish found no consistent pattern"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "tevul yom laws",
+    "parah adumah rite personnel"
+   ],
+   "misconceptions": [
     {
-      "vilnaLine": 1,
-      "en": "Rashi: opens - since [the Gemara] said [that the statute applies] - [for] you cannot say [that the law applies] in this [case, because the whole passage teaches].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "Rashi: continues - by implication [it] is [understood] - and by necessity they disagree - and [the] pure [one shall] sprinkle - this [word] 'pure' is extra, [it] was not [necessary to write it, except to teach].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l01b"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "Rashi: continues - from the implication [of the whole] [passage] it must be [that he is] impure - [for the verse says] 'and [the] pure one shall sprinkle on the impure' - [by] implication he [becomes] impure.",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "Rashi: continues - [the Gemara says:] when they examined [the] tradition closely - [they] did not accept [this derivation] from [the verse].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "Rashi: continues - [meaning] they could not establish it [firmly by means of logical] argument [drawn] from [the] tradition - so as to [be able] to grasp [the full extent of the law by] its [textual basis].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "Rashi: continues - [so] that all their [textual] derivations [would be] bringing [forth] this [meaning].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "Rashi: continues - [either] immediately this [with] that - or all of them [are] established this after [that].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "Rashi: continues - [by the reasoning of] how [much the] more [is this true], as [it is] established [in the teaching] of [the] Rabbi [from the Academy] - [the Gemara brings a] parallel [case].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "Rashi: continues - [the analogy is:] just as the fox [goes] on [its] legs when [it] treads [the] field.",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Rashi: continues - [the] measure of [the] law gives - [meaning it is fitting and proper to establish the law].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "Rashi: continues - [the meaning is:] thus [it is fitting] to say [that] after he confessed [his sin] upon himself, he will [become] innocent, [and therefore will be] fit to atone [for] others.",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "Rashi: continues - [the Mishna states:] for anyone who was treading [in] it - [he must wait until the] incense service [is performed].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Rashi: continues - [the teaching is about one who was] treading [in the courtyard] - [the Gemara explains:] it was trampled in it [by] the feet [of the treaders].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Rashi: continues - [so] that [they should] not [become] crumbly - [this must happen] when they wait [until the time].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "Rashi: continues - until the incense service [is performed] - as [is] arranged in the [Torah] portion.",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "Rashi: continues - [the Mishna discusses] on the fourth row [of the] Temple floor - [the] entire floor was made [of] rows [and] rows of [stone] tablets - stones of marble.",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Rashi: continues - and each row [was] called a row [or] row of tablets - and [the Gemara] was wondering [whether the rule applies].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Rashi: continues - [to] the fourth row [of stones] - [each] row [and] row was made of [different] types of marble stones - [and every line].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "Rashi: continues - [was] and each row is called a row [course] - and [the Gemara mentions:] it was wondering.",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Rashi: continues - [about] whether [it is on] the fourth row [where] from the entrance of the Temple [building], and inside [the Temple, Rashi notes that the discussion concerns the placement].",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "Rashi: continues - [regarding the] incense [service] - [the Mishna continues:] [the High Priest took] a censer - [a vessel containing hot] coals.",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l21"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Rashi: continues - [he] left them [the coals] until the incense [will be] burned [from the coals] - and [he] gave [them] into the [incense] pan - and afterward he [will] bring [both] the pan and the censer inside.",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l21"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Rashi: continues - [the Gemara asks about] each day - [when] the [High Priest] takes coals from the second arrangement of incense [to] bring [them to] the inner altar for the incense [of] morning and evening.",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l21"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Rashi: continues - [continuing with the rules about] coals - [the description of how they are taken] from [the] second arrangement [of the] incense to put [them] on the inner altar for incense [of] morning and evening.",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l21"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Rashi: continues - [the High Priest] takes [the coals] - [one] who takes coals from [the] second arrangement of the incense to bring [them to the altar for the daily] incense [services].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l21"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Rashi: continues - [continuing the description of the coals used] on this day [Yom Kippur] - [the coals are] broad [in size] - [because on Yom Kippur the procedure differs] from [the regular daily procedure].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l21"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Rashi: continues - [the Mishna states:] the censer [of] silver - [the Gemara] explains the reason [for the specific material used].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Rashi: continues - and this day [Yom Kippur the censer] is broad - [the Gemara notes:] the reason for Yom Kippur [being different is].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Rashi: continues - because of [the High Priest's] weakness [of body, as] the High Priest [on Yom Kippur must maintain] strength [for all the] services.",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l29"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "Rashi: continues - and this day [Yom Kippur the censer] is long [extended] - [this] is [so] that [the High Priest] may place his hand [well] below [his] arm [for leverage].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l29"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Rashi: continues - and his arm [will be] [a] support [to him] - [the Mishna continues with other measurements, such as:] a handful - [of incense].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l29"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "Rashi: continues - [equivalent to] half a mana - [the High Priest also] added [to it] a full [handful for an] additional offering.",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l29"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "Rashi: continues - [explaining that the portions are:] he [the High Priest] brings [into] the Holy [of] Holies alone [only] a handful of the incense [but there is an additional portion].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l29"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "Rashi: continues - [of] the morning and of the evening [incense, which are placed] on the inner altar - [in these portions the High Priest adds the extra handful].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l29"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "Rashi: continues - and this day [Yom Kippur the incense is] fine - [made from] the finest [particles] - [the Mishna states that the incense is more finely ground].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l29"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "Rashi: continues - [explaining:] just as [when] he [would] bring [incense into the Holy of] Holies, he would return [it the next day] - [the next morning, before] evening [Yom Kippur, to the mortar [and he would grind [it very].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l29"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Rashi: continues - fine - [the Mishna explains the measure of fineness required on that day].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l29"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "Rashi: continues - [continuing the Mishna's discussion:] each day the priests [who are] going up to the altar [are described] - [the Mishna specifies how the priests ascend].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l29"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "Rashi: continues - [they are] going up by the edge of the eastern [side] of the ramp - [because] the east [side of the ramp] is [designated] for [one who is going] to the right [of the one ascending].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l29"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "Rashi: continues - since his face [is] to [the] north [when he is on the ramp, because the] ramp [is in the] south [of the altar, and the one].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "Rashi: continues - [when he is] going up [on] the ramp - [since] he [is going up] in the south [direction, and because].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Rashi: continues - all the beginning of [all] its corners [are] to the right [according to the direction he faces, it] is not [fitting] [that].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Rashi: continues - he [should be] circling [the altar] not for [the sake of the] service - and the width of the ramp [is] sixteen cubits - [the High Priest] goes up [via the] east [side] and [he] circles the altar for his [priestly] service.",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Rashi: continues - and [he] descends to the [side of the] left [which is the] edge of the west [side] - [the Mishna continues with] and this day [Yom Kippur, when the High Priest is serving].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Rashi: continues - [the] High Priest [is treating himself with special care] - [he shows] the glory and the affection of [the people of] Israel, [since] he [is] their messenger - and [he] makes himself [appear] like a son of the house - and if he came.",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "Rashi: continues - to go up to the altar for the [priestly] service - [such as] for the giving of blood of the daily [offerings] and [the] additions - [and the male goat of the people circles the entire ramp] for [the sake of] service and not for [the sake of the] service.",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "Rashi: continues - [the High Priest demonstrates] his honor and the affection of [the nation of] Israel [since he is their representative] - [he] does [this to show that] he [himself] [is] a son of [the Temple] house - and if [it] came.",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "Rashi: continues - [that the High Priest came] to go up to the altar [to perform] service - [such as] for the giving of blood [of the offering] of the daily [sacrifices] and [the additional offerings].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "Rashi: continues - [and in contrast, the] male goat of the [common] people [circles the entire ramp] for [the sake of the] service - and not [only] for [the sake of the] service [alone].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "Rashi: continues - [the Mishna states:] four arrangements [of wood]... [the Gemara] explains [this in detail].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l50"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "Rashi: concludes - [this begins the discussion that will continue into the next section].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l50"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "Rashi: continues - Gemara: and [is it] not written 'and [every] man' [in the verse]? - and [the Gemara] establishes [that].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l50"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "Rashi: continues - it [the verse] is [speaking] below [in another context], at the time of the incense [service] - and [so when the Mishna] says 'it is trampled in him on the fourth row of [the Temple building]'.",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l50"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "Rashi: continues - [this is about the time] when [one] leaves the Temple [building] to the [outer] courtyard - [one must] count the rows [of stone] - and this [arrangement is called the] fourth [row] of the Temple [building].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l50"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "Rashi: continues - [the] Mishna [of] the Temple [building discusses] 'when [one] leaves [the] Temple [building] to the [outer] courtyard [and] counts the rows - and this [is] the fourth [row] for the Temple [building].'",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l50"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "Rashi: continues - [the Tanna] taught [that this is called] 'of the Temple' - [meaning the] fourth row [specifically] of the Temple [building, not of the] courtyard.",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l50"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "Rashi: continues - [continuing the discussion:] when he leaves the Temple [building] to the [outer] courtyard - [he] counts the rows - [to determine if it is the fourth row].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l50"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "Rashi: continues - and this [is the] fourth [row] for the Temple [building].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l50"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "Rashi: concludes - [end of this section of detailed discussion on the Temple structure and Yom Kippur procedures].",
-      "linkedGemaraLineIds": [
-        "yoma-043b-l50"
-      ]
+     "misconception": "Since R. Yehuda does not explicitly object in the Mishna, his silence indicates that he agrees with the ruling that a tevul yom is valid for parah.",
+     "correction": "Abaye's application of Ulla's principle shows R. Yehuda's silence does not mean agreement - the logical structure of the verse conditions indicates he holds a different position, even though the Mishna does not record it explicitly.",
+     "correctedByStepId": null
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-043a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "mashma otzei miyad mashma vs mashma mimila"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "That 'pure' implies the person was previously impure - teaching that a tevul yom (who immersed but awaits nightfall) is valid for sprinkling parah waters.",
+     "question": "What does 'the pure one shall sprinkle' teach about the parah rite?"
+    }
+   ],
+   "finalRuling": "A tevul yom is valid for the parah water sprinkling; R. Yehuda does disagree with this ruling.",
+   "difficulty": "advanced",
+   "review": "reviewed",
+   "alternateAngles": [],
+   "glossary": []
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-043b-s02",
+   "lineRange": {
+    "startVilnaLine": 21,
+    "endVilnaLine": 51
+   },
+   "lines": [
+    {
+     "vilnaLine": 21,
+     "sefariaRef": "Yoma.43b.9"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.43b.10"
+    },
+    {
+     "vilnaLine": 29,
+     "sefariaRef": "Yoma.43b.11"
+    },
+    {
+     "vilnaLine": 34,
+     "sefariaRef": "Yoma.43b.12"
+    },
+    {
+     "vilnaLine": 37,
+     "sefariaRef": "Yoma.43b.13"
+    },
+    {
+     "vilnaLine": 40,
+     "sefariaRef": "Yoma.43b.14"
+    },
+    {
+     "vilnaLine": 44,
+     "sefariaRef": "Yoma.43b.15"
+    },
+    {
+     "vilnaLine": 47,
+     "sefariaRef": "Yoma.43b.16"
+    },
+    {
+     "vilnaLine": 50,
+     "sefariaRef": "Yoma.43b.17"
+    },
+    {
+     "vilnaLine": 51,
+     "sefariaRef": "Yoma.43b.18"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.43b.11",
+    "Yoma.43b.10",
+    "Yoma.43b.14",
+    "Yoma.43b.18",
+    "Yoma.43b.17",
+    "Yoma.43b.9",
+    "Yoma.43b.12",
+    "Yoma.43b.15",
+    "Yoma.43b.13",
+    "Yoma.43b.16"
+   ],
+   "display": {
+    "whats": "How does the High Priest handle the bull's blood, and what are the laws of the incense offering inside the Holy of Holies?",
+    "hint": "The Mishna describes the bull slaughter and blood-in-bowl sequence, then pivots to the incense offering - the most private act of Yom Kippur. The central dispute: must the incense be placed on the coals inside, or may it be prepared outside?",
+    "title": "Bull's Blood, Golden Firepan, and the Pharisee-Sadducee Incense Dispute"
+   },
+   "learning": {
+    "ahaMoment": "The Sadducees wanted to prepare the incense cloud outside and walk in protected; the Sages said no - the act of placing incense on coals must happen inside, making the High Priest momentarily in danger before the cloud forms.",
+    "memoryAnchor": "The blood bowl is held by a kohen outside while the High Priest enters alone with fire and incense - the sequence requires him to be completely unaccompanied for the most sacred moment of the year.",
+    "learnerQuestion": "How does the High Priest handle the bull's blood, and where must the Yom Kippur incense actually be placed on burning coals: inside or outside the Holy of Holies?",
+    "coreTension": "The Sadducees held the incense should be prepared and lit outside so the High Priest enters already shielded by smoke, while the Sages insist the incense must be placed on the coals only after he is already inside the Holy of Holies, alone.",
+    "coreMove": "The Sages rule that the act of placing incense on coals must happen inside the Kodesh Kodashim itself, rejecting the Sadducee practice of pre-lighting outside, because the incense placement is a halakhic requirement of the rite rather than a means of physically shielding the High Priest.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The bull's blood must be stirred continuously by a designated kohen so it does not congeal, and the incense must be placed on the coals inside the Holy of Holies, not prepared and carried in already burning, as the Sadducees held."
+    },
+    "learningBlocker": "Learners may assume, with the Sadducee position, that the incense cloud functions as protective cover for the High Priest, missing that the Sages treat its inside-placement as a halakhic requirement of the rite, not a safety measure."
+   },
+   "argumentFlow": [
+    {
+     "type": "case",
+     "speaker": "Mishna",
+     "text": "High Priest slaughters the bull and receives its blood in a bowl.",
+     "id": "yoma-043b-l21",
+     "label": "Mishna: High Priest slaughters the bull and receives",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-043b-l21",
+       "vilnaLine": 21
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Mishna",
+     "text": "Another kohen stirs the blood continuously so it does not congeal.",
+     "id": "yoma-043b-l27",
+     "label": "Ruling: Another kohen stirs the blood continuously so",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-043b-l27",
+       "vilnaLine": 27
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Mishna",
+     "text": "High Priest takes the golden firepan and incense ladle and enters the Holy of Holies.",
+     "id": "yoma-043b-l29",
+     "label": "Ruling: High Priest takes the golden firepan and",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-043b-l29",
+       "vilnaLine": 29
+      }
+     ]
+    },
+    {
+     "type": "dispute",
+     "speaker": "Sages/Sadducees",
+     "text": "Sages: incense placed on coals inside. Sadducees: incense prepared outside before entering.",
+     "id": "yoma-043b-l40",
+     "label": "Dispute: Sages: incense placed on coals inside. Sadducees:",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-043b-l40",
+       "vilnaLine": 40
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Sages",
+     "text": "Final ruling: incense must be placed on coals inside the Holy of Holies.",
+     "id": "yoma-043b-l50",
+     "label": "Ruling: Final ruling: incense must be placed on",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-043b-l50",
+       "vilnaLine": 50
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "bull blood",
+    "incense offering",
+    "Holy of Holies",
+    "golden firepan",
+    "Pharisees vs Sadducees"
+   ],
+   "concepts": {
+    "halachic": [
+     "bull blood stirring",
+     "incense placement inside vs outside",
+     "golden firepan on Yom Kippur"
+    ],
+    "theological": [
+     "solitude in Holy of Holies",
+     "incense cloud covering the ark"
+    ],
+    "narrative": [
+     "Sadducee vs Pharisee dispute about incense timing"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Yom Kippur avodah sequence",
+    "Holy of Holies entry laws",
+    "incense composition"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The incense cloud's purpose is to shield the High Priest from the danger of seeing the ark directly, so it should be prepared before he enters.",
+     "correction": "The Sages hold the incense cloud is not a protective shield - placing the incense on the coals is a halakhic requirement of the rite itself, which is why it must happen only after the High Priest is already inside, not prepared beforehand as the Sadducees held.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-044a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "label": "slaughter -> stir blood -> coals + incense -> enter Holy of Holies"
+    },
+    {
+     "type": "contrast",
+     "label": "Pharisee vs Sadducee incense timing"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "To prevent it from congealing before it could be sprinkled; if the blood congealed, the sprinkling would fail.",
+     "question": "Why did a kohen stir the bull's blood?"
+    },
+    {
+     "answer": "They held the incense should be prepared and lit outside the Holy of Holies before the High Priest entered, so he walked in already protected by the smoke cloud.",
+     "question": "What was the Sadducee position on the incense offering?"
+    }
+   ],
+   "finalRuling": "The incense must be placed on coals inside the Holy of Holies, not prepared outside; the bull's blood must be stirred continuously by a designated kohen.",
+   "difficulty": "intermediate",
+   "review": "reviewed",
+   "alternateAngles": [],
+   "glossary": []
+  }
+ ],
+ "glossary": [
+  {
+   "he": "מַחְתָּה",
+   "translit": "machtah",
+   "en": "The golden firepan used to carry burning coals from the outer altar into the Holy of Holies on Yom Kippur."
+  },
+  {
+   "he": "כַּף",
+   "translit": "kaf",
+   "en": "A golden ladle used to carry the incense into the Holy of Holies."
+  },
+  {
+   "he": "בּוֹכֵּר",
+   "translit": "bokher",
+   "en": "The kohen designated to stir the bull's blood in the bowl to prevent congealing."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'Since he said, etc.' - for you must perforce not be able to say regarding this that it is",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "an implication standing on its own, and you must perforce say that they disagree. 'And the pure one shall sprinkle' - this word 'pure' is superfluous,",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l01b",
+    "yoma-043b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "since it already refers to a pure person. 'By implication he is impure' - that he departs from the category of impurity. 'When they'",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l03",
+    "yoma-043b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "would examine it closely. 'They did not derive from it' - meaning they would not extract from it any novel teaching",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "that would let them hold consistently to its method, so as to make uniform",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "all its verses, that they would all exclude one",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "from another directly, or all would stand independently, one after",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "another. 'Like what a fox brings up from a plowed field' -",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "like what the fox brings up on its feet when it treads",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "upon a plowed field. 'The measure of justice dictates' -",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l05",
+    "yoma-043b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "meaning it is fitting to say that once he has confessed",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "for himself and becomes innocent, he is fit to atone for",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "others. 'The Mishnah: to the one who was stirring'",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l19",
+    "yoma-043b-l21"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "it - stirring it. 'So that it does not congeal' - when it is delayed",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l21"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "until the incense service is performed, as",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l21"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "arranged in the passage. 'On the row'",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l21"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "'the fourth' - the entire floor was made of rows",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l21"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "upon rows of marble stone tablets, and each row",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l21"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "was called a row; and he had assumed",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l21"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "that it meant the fourth row from the entrance of the Sanctuary",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l21"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "and inward. 'A censer' - coals,",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l21"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "which he would set down until he scooped up incense in his hands and placed it into",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l21"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "the ladle, and afterward would bring the ladle and the censer inside.",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l21"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "'Every day' - when he scoops coals from the",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "second arrangement of incense wood to bring onto the",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "inner altar for the morning and evening incense.",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "'He scoops with the silver one' - the reason is explained in the Gemara.",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "'And today he scoops,' etc. - the reason for Yom Kippur",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "in all of these is because of the weakness of the High Priest.",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "'And today it is long' - so that he may place his hand below",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "his arm, so that his arm supports it. 'A half-portion' -",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l34",
+    "yoma-043b-l37"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "half a maneh. 'He adds a full double handful' -",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l37"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "for what he brings into the innermost sanctuary is beyond the half-portion",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l37"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "of morning and of evening that is placed on the inner altar.",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l37"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "'And today it is fine, of the finest' - this,",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l37"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "which he would bring into the innermost sanctuary, he would return",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l37"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "on the eve of Yom Kippur to the mortar and grind it fine.",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l37"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "'Every day the priests' - those ascending to the altar",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "ascend by the eastern edge of the ramp, since the east is",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "to the right of the one ascending, since his face is to the north",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "when he ascends the ramp, which is in the south; and since",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "the beginning of all his turns is to the right, it is not fitting",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "that he circle needlessly; and the width of the ramp",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "is sixteen cubits; he ascends on the east and circles",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "the altar for his service and descends on the left side,",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "by the western edge. 'And today' - the High Priest",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "displays his honor and the people of Israel's affection for him, since he is",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "their agent and makes himself like a member of the household; and if he came",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "to ascend the altar to circle it, such as for giving the blood",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "of the daily and additional offerings, then the people's bull and ram circle",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "the entire ramp, whether needed or not needed.",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "'Four arrangements,' etc. - explained in the Gemara.",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "'Gemara: But is it not written, and no man,' etc. - and we establish",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l50"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "it, further on in this discussion, as referring to the time of the incense service,",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l50"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "and yet you say he stirs it on the fourth",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l50"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "row of the Sanctuary. 'Teach: of the Sanctuary' -",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l50"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "when he leaves the Sanctuary to the courtyard he counts the",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l50"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "rows, and this is the fourth from the Sanctuary.",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l50"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "One might think",
+   "linkedGemaraLineIds": [
+    "yoma-043b-l51"
+   ]
+  }
+ ]
 }
