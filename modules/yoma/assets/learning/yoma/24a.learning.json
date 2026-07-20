@@ -1,799 +1,804 @@
 {
-  "daf": "24a",
-  "canonicalRef": "Yoma 24a",
-  "summary": "Three major topics: (1) The worn garments for ash removal are described in detail - they are one-quarter the size of the regular four garments but are otherwise valid priestly vestments. The verse source and rabbinic tradition for this requirement. (2) How much ash must be removed from the altar: enough to fill the golden pan used for the ash, but not so much that the pile overflows. (3) Whether non-priests may perform certain Temple support services (carrying wood, removing ash from the ramp to the ash pit) - a dispute between R. Elazar and R. Shimon bar R. Yosi about non-priests performing ancillary Temple tasks.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "24a",
+ "canonicalRef": "Yoma 24a",
+ "summary": "Three major topics: (1) The worn garments for ash removal are described in detail - they are one-quarter the size of the regular four garments but are otherwise valid priestly vestments. The verse source and rabbinic tradition for this requirement. (2) How much ash must be removed from the altar: enough to fill the golden pan used for the ash, but not so much that the pile overflows. (3) Whether non-priests may perform certain Temple support services (carrying wood, removing ash from the ramp to the ash pit) - a dispute between R. Elazar and R. Shimon bar R. Yosi about non-priests performing ancillary Temple tasks.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-024a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 7
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-024a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 7
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.24a.1"
-        },
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.24a.2"
-        },
-        {
-          "vilnaLine": 4,
-          "sefariaRef": "Yoma.24a.3"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.24a.4"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.24a.1",
-        "Yoma.24a.2",
-        "Yoma.24a.3",
-        "Yoma.24a.4"
-      ],
-      "display": {
-        "whats": "The four garments for ash removal are elaborated: they are the same four standard priestly garments but one-quarter the fabric (smaller, worn). The verse source: 'and he shall put on his linen garments' - this teaches that the ash removal garments are the same type but worn versions. The rabbinic tradition clarifies they must still be valid, proper priestly vestments - just not the finest.",
-        "title": "One-quarter the fabric, the same priestly status: the worn garments of ash removal",
-        "hint": "The one-quarter size detail is important: the worn garments are literally smaller versions of the standard four. This is not just old fabric - it is a scaled-down set of valid vestments. The distinction matters because one might think any old clothes would suffice; in fact, proper (if smaller) priestly garments are required."
-      },
-      "learning": {
-        "learnerQuestion": "If the ash-removal garments are smaller and visibly worn, what stops them from being just ordinary clothes the priest changes into for a dirty job?",
-        "coreTension": "Smaller and worn sounds like a step outside priestly dress entirely, yet the Gemara grounds the requirement in the very same verse that governs the regular service garments, suggesting the worn garments are not an exception to priestly dress but a reduced-scale application of it.",
-        "coreMove": "'And he shall put on his linen garments' is read to govern both the regular service and the ash removal: the same word, the same type of garment, requiring a kohen in valid linen vestments for both. The only difference the Gemara identifies is quantity, one-quarter the fabric, and condition, worn through use, not category. The tradition attributes the wear itself to the kohen gadol's own prior years' garments naturally filling this role as they aged, rather than to a separately manufactured 'worn garment' set.",
-        "resolution": "The ash-removal garments are the same four types of valid priestly vestments required for regular service, made from one-quarter the fabric and worn through prior use. They remain real bigdei kehuna throughout the ash-removal service.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "A garment's priestly validity depends on its type and verse-derived source, not on its size or condition. Smaller and worn does not mean disqualified."
-        },
-        "ahaMoment": "The most unglamorous Temple task did not get a holiness downgrade in personnel or dress category, only a quantity downgrade. The priest removing ash is fully a priest in valid priestly dress the entire time.",
-        "learningBlocker": "Learners may treat the four ash-removal garments as a separately manufactured fixed category. The Gemara's own account is that they were the kohen gadol's prior years' garments, worn down through use, not items specially produced to look worn; 'worn' describes their history, not their original design.",
-        "memoryAnchor": "Ash removal garments: same 4 types, same verse, one-quarter fabric, worn through use, not separately made. Still valid bigdei kehuna - smaller, not lesser in kind."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-024a-l01",
-          "type": "ruling",
-          "label": "Worn garments are one-quarter the fabric of standard garments",
-          "text": "The four garments used for ash removal are the same four types as the standard priestly garments but one-quarter the fabric, making them smaller and worn in appearance.",
-          "sourceRefs": [
-            "Yoma.24a.1"
-          ]
-        },
-        {
-          "id": "yoma-024a-l01b",
-          "type": "proof",
-          "label": "Verse source for the worn garment requirement",
-          "text": "'And he shall put on his linen garments' (Leviticus 6:3) - the same type of garments as regular priestly service, establishing that both the ash removal and regular services require proper linen vestments.",
-          "sourceRefs": [
-            "Yoma.24a.2"
-          ]
-        },
-        {
-          "id": "yoma-024a-l04",
-          "type": "elaboration",
-          "label": "The garments must be valid priestly vestments",
-          "text": "Even though worn, the ash removal garments must be kosher priestly garments - not ordinary clothes. They are the smallest acceptable set.",
-          "sourceRefs": [
-            "Yoma.24a.3"
-          ]
-        },
-        {
-          "id": "yoma-024a-l06",
-          "type": "elaboration",
-          "label": "The KG's worn garments and their reuse",
-          "text": "The tradition suggests the KG used his previous year's garments for ash removal, which had become worn through use - thus naturally becoming the 'lesser' set.",
-          "sourceRefs": [
-            "Yoma.24a.4"
-          ]
-        }
-      ],
-      "topicTags": [
-        "priestly garments",
-        "ash removal",
-        "worn garments",
-        "linen vestments",
-        "kohen gadol",
-        "bigdei kehuna"
-      ],
-      "concepts": {
-        "halachic": [
-          "priestly garment requirements",
-          "worn garments for ash removal",
-          "same type different quality"
-        ],
-        "theological": [
-          "priestly dignity maintained even in mundane service",
-          "proportionality in sacred dress"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "yoma-023b-s02"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The worn garments are regular clothes or second-hand ordinary fabric rather than priestly vestments.",
-          "correction": "They are actual bigdei kehuna (priestly vestments) made of the same materials and type as the regular four, just one-quarter the fabric and worn from use."
-        },
-        {
-          "misconception": "The garments were dirty or degraded, marking ash removal as a lesser, less dignified service.",
-          "correction": "The Gemara does not describe them as dirty or degraded, only smaller and worn. A priest wearing them was still in fully valid priestly service attire."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-023b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "description": "Standard priestly four garments (full size, fine) vs. ash removal four garments (quarter size, worn) - same type, different dimensions"
-        },
-        {
-          "type": "object",
-          "description": "A priest in smaller worn linen garments removing ash from the altar, with the fine garments hung nearby for the main morning service"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What were the ash removal garments, and how did they differ from the standard priestly garments?",
-          "answer": "They were the same four types of priestly garments (linen vestments) but one-quarter the fabric - smaller and worn. They were still valid priestly vestments, just not the finest quality."
-        },
-        {
-          "question": "What verse establishes that the ash removal garments must be proper linen vestments?",
-          "answer": "'And he shall put on his linen garments' (Leviticus 6:3) - the word 'linen garments' applies both to the regular service and to the ash removal, requiring proper vestments for both."
-        }
-      ],
-      "finalRuling": "Ash removal garments are one-quarter the size of standard priestly garments but must still be valid linen priestly vestments. Worn but proper.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "בִּגְדֵי כְּהֻנָּה",
-          "translit": "bigdei kehuna",
-          "en": "Priestly garments; the four or eight vestments worn for Temple service. Even ash removal requires valid bigdei kehuna, just smaller."
-        }
-      ],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.24a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-024a-s02",
-      "lineRange": {
-        "startVilnaLine": 8,
-        "endVilnaLine": 12
-      },
-      "lines": [
-        {
-          "vilnaLine": 8,
-          "sefariaRef": "Yoma.24a.5"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.24a.5"
-      ],
-      "display": {
-        "whats": "How much ash must be removed in the morning terumat hadeshen? A full fistful - specifically, the ash is taken into the golden pan (machta) designed for this purpose. The quantity is halakhically fixed: the fistful must be from the top of the altar heap, not from the sides, and the pan must not overflow.",
-        "title": "Gold for ash: the exact fistful and the vessel that dignifies it",
-        "hint": "The golden pan for ash removal adds a dignity element: even the ash is collected in a golden vessel. The requirement that the fistful come from the top (where the most recent ash is) rather than from the sides has a practical reason - the top ash is lighter and cleaner."
-      },
-      "learning": {
-        "learnerQuestion": "Why does ash, the least valuable substance on the altar, get collected in a golden vessel?",
-        "coreTension": "A golden pan for ash looks like a mismatch between the value of the vessel and the value of its contents, unless the vessel's purpose has nothing to do with what the ash is worth.",
-        "coreMove": "The Gemara fixes the procedure with precision: a full fistful, taken specifically from the top of the pile rather than the sides, placed into the machta shel zahav so that the pan does not overflow. The exactness of the requirement, not the ash's value, is what the golden pan marks: a designated, dignified vessel for a designated, exact quantity, turning ash removal into a defined ritual act rather than ordinary housekeeping.",
-        "resolution": "Terumat hadeshen requires a full fistful taken from the top of the ash pile, deposited into the machta shel zahav, the golden pan reserved for this purpose, without overflowing it.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "A sacred vessel's value signals the dignity of the act being performed, not the value of what it holds."
-        },
-        "ahaMoment": "Gold for ash stops looking like a contradiction once the pan is read as honoring the act of ash removal as a defined Temple ritual, not the ash itself.",
-        "learningBlocker": "Learners may assume the fistful is an approximate handful. The requirement is exact: specifically from the top of the pile, filling but not overflowing the pan, the same precision the Gemara applies to far more visibly central Temple measurements.",
-        "memoryAnchor": "Fistful from the top of the pile, into the machta shel zahav (golden pan). Precise quantity, dignified vessel, defined ritual act."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-024a-l08",
-          "type": "ruling",
-          "label": "A fistful of ash placed in the golden pan",
-          "text": "The priest takes a full fistful of ash from the top of the altar heap and places it in the machta shel zahav (golden pan). The pan is the dedicated vessel for this purpose.",
-          "sourceRefs": [
-            "Yoma.24a.5"
-          ]
-        }
-      ],
-      "topicTags": [
-        "ash removal",
-        "golden pan",
-        "machta",
-        "fistful",
-        "ash quantity",
-        "Temple vessels"
-      ],
-      "concepts": {
-        "halachic": [
-          "machta shel zahav",
-          "ash removal quantity",
-          "from top of heap"
-        ],
-        "theological": [
-          "dignity through sacred vessels",
-          "gold for ash as theological statement"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "yoma-023b-s02"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The golden pan was an improvised vessel, not a dedicated Temple object.",
-          "correction": "The machta shel zahav was a dedicated Temple vessel specifically manufactured for the ash removal service, not an improvised container."
-        },
-        {
-          "misconception": "Any handful of ash from the pile satisfies the fistful requirement.",
-          "correction": "The fistful must be taken specifically from the top of the accumulated ash, not scooped from the sides. This is a specific halachic requirement, not a loose approximation."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-023b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "object",
-          "description": "A golden pan (machta shel zahav) being filled with a fistful of ash from the top of the altar heap"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "In what vessel is the ash placed during the terumat hadeshen, and from where on the altar must the ash come?",
-          "answer": "The ash is placed in the machta shel zahav (golden pan). The ash must come from the top of the accumulated heap, not from the sides."
-        }
-      ],
-      "finalRuling": "A fistful of ash from the top of the altar heap is placed in the golden pan. Fixed quantity, specific location.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "מַחְתָּה שֶׁל זָהָב",
-          "translit": "machta shel zahav",
-          "en": "Golden pan; the dedicated Temple vessel for collecting ash during the morning ash removal service."
-        }
-      ],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.24a.2"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-024a-s03",
-      "lineRange": {
-        "startVilnaLine": 13,
-        "endVilnaLine": 49
-      },
-      "lines": [
-        {
-          "vilnaLine": 13,
-          "sefariaRef": "Yoma.24a.6"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.24a.7"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.24a.8"
-        },
-        {
-          "vilnaLine": 25,
-          "sefariaRef": "Yoma.24a.9"
-        },
-        {
-          "vilnaLine": 26,
-          "sefariaRef": "Yoma.24a.10"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.24a.6",
-        "Yoma.24a.7",
-        "Yoma.24a.8",
-        "Yoma.24a.9",
-        "Yoma.24a.10"
-      ],
-      "display": {
-        "whats": "Can non-priests (Israelites or Levites) perform certain ancillary Temple tasks? The Gemara examines a list of Temple support activities: slaughter (non-priests can do it), receiving the blood (priests only), carrying wood, carrying ashes from the ramp to the ash pit. A dispute between Tannaim: R. Elazar says all Israel is valid for these support tasks; R. Shimon argues that once the formal service is complete, non-priests may help with subsequent carrying.",
-        "title": "Where the priesthood's monopoly ends: which Temple tasks anyone can do",
-        "hint": "The boundary between 'service' (avodah) requiring priests and 'support tasks' permissible for non-priests is a fundamental Temple law question. The rule: any act that is inherent to the offering (blood sprinkling, burning) requires priests. Carrying wood to the fire or ash away from the ramp may be classified as logistical support, not formal avodah."
-      },
-      "learning": {
-        "learnerQuestion": "If the priesthood exists to perform Temple service, why can any Israelite slaughter the daily offering?",
-        "coreTension": "Slaughter looks like exactly the kind of act that should require a priest, since it initiates the entire offering process, yet the Gemara permits any Israelite to perform it, while other support tasks like carrying wood or ash are genuinely disputed. The line between priests-only and open-to-all does not track how central a task feels to the offering.",
-        "coreMove": "The Gemara locates the boundary at the offering's actual sanctification, not at proximity to the altar or to the offering process generally. The priest's defined role begins with receiving the blood, the act that converts the slaughtered animal into a sacred offering; slaughter itself, though necessary, does not yet perform that sanctification, so it falls outside the priests-only category. Wood-carrying and ash-carrying are then debated using the same test: is the act inherent to the offering's sanctification (priests only), or merely logistical support around it (open to non-priests)?",
-        "resolution": "Non-priests may slaughter the daily offering; receiving its blood is the priest's defined, non-delegable role. Carrying wood to the altar fire and carrying ash from the ramp to the ash pit remain disputed, judged by the same inherent-to-the-offering criterion.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The boundary between priests-only and open-to-all Temple tasks runs through whether the act itself sanctifies the offering, not through how essential or how close to the altar the task feels."
-        },
-        "ahaMoment": "Slaughter is clearly central to the offering, yet any Israelite can do it, because the priest's mandatory role begins specifically with receiving the blood. Carrying ash away feels purely logistical, yet it is genuinely disputed. The Gemara is not ranking tasks by how important they feel; it is asking one narrow question of each: does this act sanctify the offering?",
-        "learningBlocker": "Learners may assume every task performed inside the Temple complex requires priestly status. The sugya's principle is narrower: only acts inherent to the offering's sanctification (blood reception, sprinkling, burning) are reserved for priests; logistical tasks, even ones that feel sacred by association, can be open to dispute or open to non-priests entirely.",
-        "memoryAnchor": "Priests-only: receiving blood, sprinkling, burning, ketoret. Open to non-priests: slaughter (settled). Disputed: wood carrying, ash carrying from ramp to pit."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-024a-l13",
-          "type": "ruling",
-          "label": "Slaughter: valid by any Israelite",
-          "text": "The slaughter of the daily offering may be performed by any Israelite, not only priests. The priest's mandatory role begins with the blood reception.",
-          "sourceRefs": [
-            "Yoma.24a.6"
-          ]
-        },
-        {
-          "id": "yoma-024a-l16",
-          "type": "dispute",
-          "label": "Carrying wood to the altar: priests or non-priests?",
-          "text": "A dispute: some hold carrying wood to the altar fire is formal service requiring priests. Others hold it is logistical support and non-priests may carry.",
-          "sourceRefs": [
-            "Yoma.24a.7"
-          ]
-        },
-        {
-          "id": "yoma-024a-l22",
-          "type": "dispute",
-          "label": "Carrying ash from ramp to ash pit: R. Elazar vs. others",
-          "text": "R. Elazar: once the priest has placed the ash beside the ramp (fulfilling the mitzvah), subsequent carrying to the ash pit outside the Temple may be done by non-priests. Others disagree.",
-          "sourceRefs": [
-            "Yoma.24a.8"
-          ]
-        },
-        {
-          "id": "yoma-024a-l25",
-          "type": "principle",
-          "label": "The governing principle: avodah vs. logistical support",
-          "text": "Formal Temple service (avodah) requiring priests: blood reception, sprinkling, burning the offering, ketoret. Logistical support potentially open to non-priests: slaughter, wood carrying, final ash removal.",
-          "sourceRefs": [
-            "Yoma.24a.9"
-          ]
-        },
-        {
-          "id": "yoma-024a-l26",
-          "type": "conclusion",
-          "label": "Summary of non-priest eligibility",
-          "text": "The line between avodah (priests-only) and support tasks (potentially open) runs through the inherent-to-the-offering criterion: tasks inherent to the offering's sanctification require priests; purely logistical tasks may be broader.",
-          "sourceRefs": [
-            "Yoma.24a.10"
-          ]
-        }
-      ],
-      "topicTags": [
-        "non-priests",
-        "Temple service",
-        "avodah",
-        "slaughter",
-        "wood carrying",
-        "ash carrying",
-        "R. Elazar",
-        "priestly requirements"
-      ],
-      "concepts": {
-        "halachic": [
-          "which tasks require priests",
-          "slaughter by non-priest valid",
-          "avodah vs. logistical support",
-          "eligibility for Temple tasks"
-        ],
-        "theological": [
-          "priestly role in Temple",
-          "distinction between sacred act and support task"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [
-        {
-          "misconception": "If non-priests can slaughter, the slaughter must not be an important or fully valid part of the offering.",
-          "correction": "Slaughter is a proper, necessary part of the offering; it is simply not reserved for priests. Importance and priestly-only status are not the same thing."
-        },
-        {
-          "misconception": "The dispute about wood-carrying is a minor practical detail with no real stakes.",
-          "correction": "The dispute reflects a fundamental question about whether any part of the altar-fire process is inherently priestly, the same inherent-to-the-offering test applied throughout the sugya."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-023b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "description": "Service tasks (priests only: blood, sprinkling, burning) vs. support tasks (non-priests eligible: slaughter, wood, ash carrying). Shown as two columns."
-        },
-        {
-          "type": "action",
-          "description": "An Israelite (non-priest) slaughtering an offering while a priest stands ready to receive the blood in a sacred vessel"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Which Temple task may be performed by a non-priest (Israelite), and which task specifically requires a priest?",
-          "answer": "Non-priests may slaughter the daily offering. Receiving the blood from the slaughter is specifically reserved for priests - that is the mandatory priestly role in the offering."
-        },
-        {
-          "question": "What is R. Elazar's ruling about carrying ash from the altar ramp to the ash pit?",
-          "answer": "Once the formal ash removal mitzvah is completed (placing ash beside the ramp), the subsequent carrying to the ash pit outside may be done by non-priests, since it is logistical support rather than formal avodah."
-        }
-      ],
-      "finalRuling": "Slaughter is valid by non-priests; blood reception requires priests. Carrying ash from ramp to pit: R. Elazar permits non-priests once the formal mitzvah is complete.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "זָר",
-          "translit": "zar",
-          "en": "Non-priest; an Israelite who is not a kohen. Certain Temple tasks are open to non-priests; others are restricted to kohanim."
-        },
-        {
-          "he": "עֲבוֹדָה",
-          "translit": "avodah",
-          "en": "Temple service; the formal sacred acts of the offering. Avodah requires priests; logistical support may be broader."
-        }
-      ],
-      "review": "reviewed"
+     "vilnaLine": 4,
+     "sefariaRef": "Yoma.24a.3"
+    },
+    {
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.24a.4"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.24a.1",
+    "Yoma.24a.2",
+    "Yoma.24a.3",
+    "Yoma.24a.4"
+   ],
+   "display": {
+    "whats": "The four garments for ash removal are elaborated: they are the same four standard priestly garments but one-quarter the fabric (smaller, worn). The verse source: 'and he shall put on his linen garments' - this teaches that the ash removal garments are the same type but worn versions. The rabbinic tradition clarifies they must still be valid, proper priestly vestments - just not the finest.",
+    "title": "One-quarter the fabric, the same priestly status: the worn garments of ash removal",
+    "hint": "The one-quarter size detail is important: the worn garments are literally smaller versions of the standard four. This is not just old fabric - it is a scaled-down set of valid vestments. The distinction matters because one might think any old clothes would suffice; in fact, proper (if smaller) priestly garments are required."
+   },
+   "learning": {
+    "learnerQuestion": "If the ash-removal garments are smaller and visibly worn, what stops them from being just ordinary clothes the priest changes into for a dirty job?",
+    "coreTension": "Smaller and worn sounds like a step outside priestly dress entirely, yet the Gemara grounds the requirement in the very same verse that governs the regular service garments, suggesting the worn garments are not an exception to priestly dress but a reduced-scale application of it.",
+    "coreMove": "'And he shall put on his linen garments' is read to govern both the regular service and the ash removal: the same word, the same type of garment, requiring a kohen in valid linen vestments for both. The only difference the Gemara identifies is quantity, one-quarter the fabric, and condition, worn through use, not category. The tradition attributes the wear itself to the kohen gadol's own prior years' garments naturally filling this role as they aged, rather than to a separately manufactured 'worn garment' set.",
+    "resolution": "The ash-removal garments are the same four types of valid priestly vestments required for regular service, made from one-quarter the fabric and worn through prior use. They remain real bigdei kehuna throughout the ash-removal service.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "A garment's priestly validity depends on its type and verse-derived source, not on its size or condition. Smaller and worn does not mean disqualified."
+    },
+    "ahaMoment": "The most unglamorous Temple task did not get a holiness downgrade in personnel or dress category, only a quantity downgrade. The priest removing ash is fully a priest in valid priestly dress the entire time.",
+    "learningBlocker": "Learners may treat the four ash-removal garments as a separately manufactured fixed category. The Gemara's own account is that they were the kohen gadol's prior years' garments, worn down through use, not items specially produced to look worn; 'worn' describes their history, not their original design.",
+    "memoryAnchor": "Ash removal garments: same 4 types, same verse, one-quarter fabric, worn through use, not separately made. Still valid bigdei kehuna - smaller, not lesser in kind."
+   },
+   "argumentFlow": [
     {
-      "he": "בִּגְדֵי כְּהֻנָּה",
-      "translit": "bigdei kehuna",
-      "en": "Priestly garments; even ash removal requires valid bigdei kehuna, just smaller."
+     "id": "yoma-024a-l01",
+     "type": "ruling",
+     "label": "Worn garments are one-quarter the fabric of standard garments",
+     "text": "The four garments used for ash removal are the same four types as the standard priestly garments but one-quarter the fabric, making them smaller and worn in appearance.",
+     "sourceRefs": [
+      "Yoma.24a.1"
+     ]
     },
     {
-      "he": "מַחְתָּה שֶׁל זָהָב",
-      "translit": "machta shel zahav",
-      "en": "Golden pan; dedicated vessel for collecting the morning ash."
+     "id": "yoma-024a-l01b",
+     "type": "proof",
+     "label": "Verse source for the worn garment requirement",
+     "text": "'And he shall put on his linen garments' (Leviticus 6:3) - the same type of garments as regular priestly service, establishing that both the ash removal and regular services require proper linen vestments.",
+     "sourceRefs": [
+      "Yoma.24a.2"
+     ]
     },
     {
-      "he": "זָר",
-      "translit": "zar",
-      "en": "Non-priest; may perform some Temple support tasks but not formal avodah."
+     "id": "yoma-024a-l04",
+     "type": "elaboration",
+     "label": "The garments must be valid priestly vestments",
+     "text": "Even though worn, the ash removal garments must be kosher priestly garments - not ordinary clothes. They are the smallest acceptable set.",
+     "sourceRefs": [
+      "Yoma.24a.3"
+     ]
     },
     {
-      "he": "עֲבוֹדָה",
-      "translit": "avodah",
-      "en": "Formal Temple service requiring priests; distinct from logistical support."
+     "id": "yoma-024a-l06",
+     "type": "elaboration",
+     "label": "The KG's worn garments and their reuse",
+     "text": "The tradition suggests the KG used his previous year's garments for ash removal, which had become worn through use - thus naturally becoming the 'lesser' set.",
+     "sourceRefs": [
+      "Yoma.24a.4"
+     ]
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "topicTags": [
+    "priestly garments",
+    "ash removal",
+    "worn garments",
+    "linen vestments",
+    "kohen gadol",
+    "bigdei kehuna"
+   ],
+   "concepts": {
+    "halachic": [
+     "priestly garment requirements",
+     "worn garments for ash removal",
+     "same type different quality"
+    ],
+    "theological": [
+     "priestly dignity maintained even in mundane service",
+     "proportionality in sacred dress"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "yoma-023b-s02"
+   ],
+   "misconceptions": [
     {
-      "vilnaLine": 1,
-      "en": "Opens 'to include the worn garments': that they are valid for any service, provided they are not torn, and this is",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l01a"
-      ]
+     "misconception": "The worn garments are regular clothes or second-hand ordinary fabric rather than priestly vestments.",
+     "correction": "They are actual bigdei kehuna (priestly vestments) made of the same materials and type as the regular four, just one-quarter the fabric and worn from use."
     },
     {
-      "vilnaLine": 2,
-      "en": "continuing: what it says in Zevachim (18a); and Rabbi Dosa follows his own reasoning, but it is not relevant here",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l01a"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "closing: to say so, for this whole matter was raised only in passing.' Then opens 'is it not': Rabbi Yehuda",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l01a"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "continuing: and Rabbi Dosa disagree about this: that Rabbi Yehuda, who expounds 'shall wear' to include the turban and sash, holds",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l04"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "continuing: it is a service and requires the turban and sash; and Rabbi",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l04"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "continuing: Dosa holds it is not a service and does not require",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l04"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "closing: the turban and sash.' Then opens 'does the verse need to include it' -",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: so that you should not say these specific ones alone, meaning it is not",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "closing: a service.' Then opens 'and the other holds the verse does not need to include it' -",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "continuing: from Scripture, for since it revealed regarding it the sacred linen tunic",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: and sacred linen breeches, it thereby taught us",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: that it is a service and requires all of them; and when",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "closing: the verse came, it came to include the Yom Kippur garments.",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Opens 'we derive it from the terumat ma'aser': for it",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: is written 'and he shall remove,' the language of 'and you shall remove from it'",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: (Numbers 18), which is an estimated amount of one",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "closing: part in ten of the ash of the arrangement.' Then opens 'or from",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: the terumah of Midian': as it is written (ibid. 31): 'and you shall levy a tribute",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "closing: for the Lord,' etc., 'one soul from every five hundred.'' Then opens 'come and",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "continuing: hear': we derive it from the removal of the handful, that it must not be less",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: than the estimate of a full handful, but if he wishes",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: to add more, he may add, since one cannot say",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: he speaks precisely, for it is not possible to spread",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "closing: his hands exactly to scoop amid the hot burning coals.",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Opens 'four services, etc.': although they are all",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: forbidden to a non-priest, the penalty of death applies only",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "closing: to these four, as he goes on to explain.' Then opens 'you'",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: 'and your sons with you, etc.': the end of the verse is 'and the outsider",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "closing: who draws near shall be put to death.' Then opens 'a service of giving': that you",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "continuing: place upon the altar, and not a service of removal",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: which you remove and take away from the altar, such as",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "closing: terumat hadeshen.' Then opens 'a complete service': a service",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: that finishes and completes the matter, and not",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "continuing: one after which another service still follows, such as slaughter",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: and receiving the blood and carrying it, after which sprinkling still follows; but",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "continuing: sprinkling is the final service of the blood, and likewise",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "continuing: burning of the handful of the meal-offering, and of the limbs",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: and fats, and likewise the wine libation the whole year, and likewise",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "closing: the water libation on the festival.' Then opens 'for any matter of the altar': to include",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: the service of removal, if it is a complete service,",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "closing: such as terumat hadeshen.' Then opens 'the seven sprinklings that are within': that he sprinkles on the curtain from the bull",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "continuing: for an unwitting communal sin, the bull of the anointed priest, and that of Yom Kippur, and that of the leper, from whose log of oil he sprinkles in the Sanctuary",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "continuing: as it is written (Leviticus 14): 'and he shall sprinkle from the oil with his finger,' etc. - for you might think",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "closing: it is not a matter of the altar, therefore he includes all.' Then opens 'and Levi derives them': all of them",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "continuing: from it, from 'matter,' 'any matter' - since 'matter of the altar' itself is superfluous, and it is derived",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "closing: from it - terumat hadeshen, and from the extra word 'any' he derives from it the inner sprinkling.",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "Opens 'to within' -",
-      "linkedGemaraLineIds": [
-        "yoma-024a-l26"
-      ]
+     "misconception": "The garments were dirty or degraded, marking ash removal as a lesser, less dignified service.",
+     "correction": "The Gemara does not describe them as dirty or degraded, only smaller and worn. A priest wearing them was still in fully valid priestly service attire."
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-023b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "description": "Standard priestly four garments (full size, fine) vs. ash removal four garments (quarter size, worn) - same type, different dimensions"
+    },
+    {
+     "type": "object",
+     "description": "A priest in smaller worn linen garments removing ash from the altar, with the fine garments hung nearby for the main morning service"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What were the ash removal garments, and how did they differ from the standard priestly garments?",
+     "answer": "They were the same four types of priestly garments (linen vestments) but one-quarter the fabric - smaller and worn. They were still valid priestly vestments, just not the finest quality."
+    },
+    {
+     "question": "What verse establishes that the ash removal garments must be proper linen vestments?",
+     "answer": "'And he shall put on his linen garments' (Leviticus 6:3) - the word 'linen garments' applies both to the regular service and to the ash removal, requiring proper vestments for both."
+    }
+   ],
+   "finalRuling": "Ash removal garments are one-quarter the size of standard priestly garments but must still be valid linen priestly vestments. Worn but proper.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "בִּגְדֵי כְּהֻנָּה",
+     "translit": "bigdei kehuna",
+     "en": "Priestly garments; the four or eight vestments worn for Temple service. Even ash removal requires valid bigdei kehuna, just smaller."
+    }
+   ],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-024a-s02",
+   "lineRange": {
+    "startVilnaLine": 8,
+    "endVilnaLine": 12
+   },
+   "lines": [
+    {
+     "vilnaLine": 8,
+     "sefariaRef": "Yoma.24a.5"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.24a.5"
+   ],
+   "display": {
+    "whats": "How much ash must be removed in the morning terumat hadeshen? A full fistful - specifically, the ash is taken into the golden pan (machta) designed for this purpose. The quantity is halakhically fixed: the fistful must be from the top of the altar heap, not from the sides, and the pan must not overflow.",
+    "title": "Gold for ash: the exact fistful and the vessel that dignifies it",
+    "hint": "The golden pan for ash removal adds a dignity element: even the ash is collected in a golden vessel. The requirement that the fistful come from the top (where the most recent ash is) rather than from the sides has a practical reason - the top ash is lighter and cleaner."
+   },
+   "learning": {
+    "learnerQuestion": "Why does ash, the least valuable substance on the altar, get collected in a golden vessel?",
+    "coreTension": "A golden pan for ash looks like a mismatch between the value of the vessel and the value of its contents, unless the vessel's purpose has nothing to do with what the ash is worth.",
+    "coreMove": "The Gemara fixes the procedure with precision: a full fistful, taken specifically from the top of the pile rather than the sides, placed into the machta shel zahav so that the pan does not overflow. The exactness of the requirement, not the ash's value, is what the golden pan marks: a designated, dignified vessel for a designated, exact quantity, turning ash removal into a defined ritual act rather than ordinary housekeeping.",
+    "resolution": "Terumat hadeshen requires a full fistful taken from the top of the ash pile, deposited into the machta shel zahav, the golden pan reserved for this purpose, without overflowing it.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "A sacred vessel's value signals the dignity of the act being performed, not the value of what it holds."
+    },
+    "ahaMoment": "Gold for ash stops looking like a contradiction once the pan is read as honoring the act of ash removal as a defined Temple ritual, not the ash itself.",
+    "learningBlocker": "Learners may assume the fistful is an approximate handful. The requirement is exact: specifically from the top of the pile, filling but not overflowing the pan, the same precision the Gemara applies to far more visibly central Temple measurements.",
+    "memoryAnchor": "Fistful from the top of the pile, into the machta shel zahav (golden pan). Precise quantity, dignified vessel, defined ritual act."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-024a-l08",
+     "type": "ruling",
+     "label": "A fistful of ash placed in the golden pan",
+     "text": "The priest takes a full fistful of ash from the top of the altar heap and places it in the machta shel zahav (golden pan). The pan is the dedicated vessel for this purpose.",
+     "sourceRefs": [
+      "Yoma.24a.5"
+     ]
+    }
+   ],
+   "topicTags": [
+    "ash removal",
+    "golden pan",
+    "machta",
+    "fistful",
+    "ash quantity",
+    "Temple vessels"
+   ],
+   "concepts": {
+    "halachic": [
+     "machta shel zahav",
+     "ash removal quantity",
+     "from top of heap"
+    ],
+    "theological": [
+     "dignity through sacred vessels",
+     "gold for ash as theological statement"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "yoma-023b-s02"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The golden pan was an improvised vessel, not a dedicated Temple object.",
+     "correction": "The machta shel zahav was a dedicated Temple vessel specifically manufactured for the ash removal service, not an improvised container."
+    },
+    {
+     "misconception": "Any handful of ash from the pile satisfies the fistful requirement.",
+     "correction": "The fistful must be taken specifically from the top of the accumulated ash, not scooped from the sides. This is a specific halachic requirement, not a loose approximation."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-023b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "object",
+     "description": "A golden pan (machta shel zahav) being filled with a fistful of ash from the top of the altar heap"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "In what vessel is the ash placed during the terumat hadeshen, and from where on the altar must the ash come?",
+     "answer": "The ash is placed in the machta shel zahav (golden pan). The ash must come from the top of the accumulated heap, not from the sides."
+    }
+   ],
+   "finalRuling": "A fistful of ash from the top of the altar heap is placed in the golden pan. Fixed quantity, specific location.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "מַחְתָּה שֶׁל זָהָב",
+     "translit": "machta shel zahav",
+     "en": "Golden pan; the dedicated Temple vessel for collecting ash during the morning ash removal service."
+    }
+   ],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-024a-s03",
+   "lineRange": {
+    "startVilnaLine": 13,
+    "endVilnaLine": 49
+   },
+   "lines": [
+    {
+     "vilnaLine": 13,
+     "sefariaRef": "Yoma.24a.6"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.24a.7"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.24a.8"
+    },
+    {
+     "vilnaLine": 25,
+     "sefariaRef": "Yoma.24a.9"
+    },
+    {
+     "vilnaLine": 26,
+     "sefariaRef": "Yoma.24a.10"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.24a.6",
+    "Yoma.24a.7",
+    "Yoma.24a.8",
+    "Yoma.24a.9",
+    "Yoma.24a.10"
+   ],
+   "display": {
+    "whats": "Can non-priests (Israelites or Levites) perform certain ancillary Temple tasks? The Gemara examines a list of Temple support activities: slaughter (non-priests can do it), receiving the blood (priests only), carrying wood, carrying ashes from the ramp to the ash pit. A dispute between Tannaim: R. Elazar says all Israel is valid for these support tasks; R. Shimon argues that once the formal service is complete, non-priests may help with subsequent carrying.",
+    "title": "Where the priesthood's monopoly ends: which Temple tasks anyone can do",
+    "hint": "The boundary between 'service' (avodah) requiring priests and 'support tasks' permissible for non-priests is a fundamental Temple law question. The rule: any act that is inherent to the offering (blood sprinkling, burning) requires priests. Carrying wood to the fire or ash away from the ramp may be classified as logistical support, not formal avodah."
+   },
+   "learning": {
+    "learnerQuestion": "If the priesthood exists to perform Temple service, why can any Israelite slaughter the daily offering?",
+    "coreTension": "Slaughter looks like exactly the kind of act that should require a priest, since it initiates the entire offering process, yet the Gemara permits any Israelite to perform it, while other support tasks like carrying wood or ash are genuinely disputed. The line between priests-only and open-to-all does not track how central a task feels to the offering.",
+    "coreMove": "The Gemara locates the boundary at the offering's actual sanctification, not at proximity to the altar or to the offering process generally. The priest's defined role begins with receiving the blood, the act that converts the slaughtered animal into a sacred offering; slaughter itself, though necessary, does not yet perform that sanctification, so it falls outside the priests-only category. Wood-carrying and ash-carrying are then debated using the same test: is the act inherent to the offering's sanctification (priests only), or merely logistical support around it (open to non-priests)?",
+    "resolution": "Non-priests may slaughter the daily offering; receiving its blood is the priest's defined, non-delegable role. Carrying wood to the altar fire and carrying ash from the ramp to the ash pit remain disputed, judged by the same inherent-to-the-offering criterion.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The boundary between priests-only and open-to-all Temple tasks runs through whether the act itself sanctifies the offering, not through how essential or how close to the altar the task feels."
+    },
+    "ahaMoment": "Slaughter is clearly central to the offering, yet any Israelite can do it, because the priest's mandatory role begins specifically with receiving the blood. Carrying ash away feels purely logistical, yet it is genuinely disputed. The Gemara is not ranking tasks by how important they feel; it is asking one narrow question of each: does this act sanctify the offering?",
+    "learningBlocker": "Learners may assume every task performed inside the Temple complex requires priestly status. The sugya's principle is narrower: only acts inherent to the offering's sanctification (blood reception, sprinkling, burning) are reserved for priests; logistical tasks, even ones that feel sacred by association, can be open to dispute or open to non-priests entirely.",
+    "memoryAnchor": "Priests-only: receiving blood, sprinkling, burning, ketoret. Open to non-priests: slaughter (settled). Disputed: wood carrying, ash carrying from ramp to pit."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-024a-l13",
+     "type": "ruling",
+     "label": "Slaughter: valid by any Israelite",
+     "text": "The slaughter of the daily offering may be performed by any Israelite, not only priests. The priest's mandatory role begins with the blood reception.",
+     "sourceRefs": [
+      "Yoma.24a.6"
+     ]
+    },
+    {
+     "id": "yoma-024a-l16",
+     "type": "dispute",
+     "label": "Carrying wood to the altar: priests or non-priests?",
+     "text": "A dispute: some hold carrying wood to the altar fire is formal service requiring priests. Others hold it is logistical support and non-priests may carry.",
+     "sourceRefs": [
+      "Yoma.24a.7"
+     ]
+    },
+    {
+     "id": "yoma-024a-l22",
+     "type": "dispute",
+     "label": "Carrying ash from ramp to ash pit: R. Elazar vs. others",
+     "text": "R. Elazar: once the priest has placed the ash beside the ramp (fulfilling the mitzvah), subsequent carrying to the ash pit outside the Temple may be done by non-priests. Others disagree.",
+     "sourceRefs": [
+      "Yoma.24a.8"
+     ]
+    },
+    {
+     "id": "yoma-024a-l25",
+     "type": "principle",
+     "label": "The governing principle: avodah vs. logistical support",
+     "text": "Formal Temple service (avodah) requiring priests: blood reception, sprinkling, burning the offering, ketoret. Logistical support potentially open to non-priests: slaughter, wood carrying, final ash removal.",
+     "sourceRefs": [
+      "Yoma.24a.9"
+     ]
+    },
+    {
+     "id": "yoma-024a-l26",
+     "type": "conclusion",
+     "label": "Summary of non-priest eligibility",
+     "text": "The line between avodah (priests-only) and support tasks (potentially open) runs through the inherent-to-the-offering criterion: tasks inherent to the offering's sanctification require priests; purely logistical tasks may be broader.",
+     "sourceRefs": [
+      "Yoma.24a.10"
+     ]
+    }
+   ],
+   "topicTags": [
+    "non-priests",
+    "Temple service",
+    "avodah",
+    "slaughter",
+    "wood carrying",
+    "ash carrying",
+    "R. Elazar",
+    "priestly requirements"
+   ],
+   "concepts": {
+    "halachic": [
+     "which tasks require priests",
+     "slaughter by non-priest valid",
+     "avodah vs. logistical support",
+     "eligibility for Temple tasks"
+    ],
+    "theological": [
+     "priestly role in Temple",
+     "distinction between sacred act and support task"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [
+    {
+     "misconception": "If non-priests can slaughter, the slaughter must not be an important or fully valid part of the offering.",
+     "correction": "Slaughter is a proper, necessary part of the offering; it is simply not reserved for priests. Importance and priestly-only status are not the same thing."
+    },
+    {
+     "misconception": "The dispute about wood-carrying is a minor practical detail with no real stakes.",
+     "correction": "The dispute reflects a fundamental question about whether any part of the altar-fire process is inherently priestly, the same inherent-to-the-offering test applied throughout the sugya."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-023b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "description": "Service tasks (priests only: blood, sprinkling, burning) vs. support tasks (non-priests eligible: slaughter, wood, ash carrying). Shown as two columns."
+    },
+    {
+     "type": "action",
+     "description": "An Israelite (non-priest) slaughtering an offering while a priest stands ready to receive the blood in a sacred vessel"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Which Temple task may be performed by a non-priest (Israelite), and which task specifically requires a priest?",
+     "answer": "Non-priests may slaughter the daily offering. Receiving the blood from the slaughter is specifically reserved for priests - that is the mandatory priestly role in the offering."
+    },
+    {
+     "question": "What is R. Elazar's ruling about carrying ash from the altar ramp to the ash pit?",
+     "answer": "Once the formal ash removal mitzvah is completed (placing ash beside the ramp), the subsequent carrying to the ash pit outside may be done by non-priests, since it is logistical support rather than formal avodah."
+    }
+   ],
+   "finalRuling": "Slaughter is valid by non-priests; blood reception requires priests. Carrying ash from ramp to pit: R. Elazar permits non-priests once the formal mitzvah is complete.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "זָר",
+     "translit": "zar",
+     "en": "Non-priest; an Israelite who is not a kohen. Certain Temple tasks are open to non-priests; others are restricted to kohanim."
+    },
+    {
+     "he": "עֲבוֹדָה",
+     "translit": "avodah",
+     "en": "Temple service; the formal sacred acts of the offering. Avodah requires priests; logistical support may be broader."
+    }
+   ],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [
+  {
+   "he": "בִּגְדֵי כְּהֻנָּה",
+   "translit": "bigdei kehuna",
+   "en": "Priestly garments; even ash removal requires valid bigdei kehuna, just smaller."
+  },
+  {
+   "he": "מַחְתָּה שֶׁל זָהָב",
+   "translit": "machta shel zahav",
+   "en": "Golden pan; dedicated vessel for collecting the morning ash."
+  },
+  {
+   "he": "זָר",
+   "translit": "zar",
+   "en": "Non-priest; may perform some Temple support tasks but not formal avodah."
+  },
+  {
+   "he": "עֲבוֹדָה",
+   "translit": "avodah",
+   "en": "Formal Temple service requiring priests; distinct from logistical support."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "To include worn garments - that they are valid for any service, provided they are not torn, and this is",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "what it says in Zevachim (18a); and Rabbi Dosa follows his own reasoning, but it is not relevant here",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "to say so, for this whole matter was raised only in passing. Is it not - Rabbi Yehuda",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l01a",
+    "yoma-024a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "and Rabbi Dosa disagree about this, that Rabbi Yehuda, who expounds 'shall wear' to include the turban and sash, holds",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "it is a service and requires the turban and sash; and Rabbi",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "Dosa holds it is not a service and does not require",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "the turban and sash. Does the verse need to include it -",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l04",
+    "yoma-024a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "so that you should not say these specific ones alone, meaning it is not",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "a service. And the other holds it does not need to include it",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "from Scripture, for since it revealed regarding it the sacred linen tunic",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "and sacred linen breeches, it thereby taught us",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "that it is a service and requires all of them; and when",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "the verse came, it came to include the Yom Kippur garments.",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "We derive it from the terumat ma'aser - for it",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "is written 'and he shall remove,' the language of 'and you shall remove from it'",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "(Numbers 18), which is an estimated amount of one",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "part in ten of the ash of the arrangement. Or from",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "the terumah of Midian - as it is written (ibid. 31), 'and you shall levy a tribute",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "for the Lord,' etc., 'one soul from every five hundred.' Come and",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "hear - we derive it from the removal of the handful, that it must not be less",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "than the estimate of a full handful, but if he wishes",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "to add more, he may add, since one cannot say",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "he speaks precisely, for it is not possible to spread",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "his hands exactly to scoop amid the hot burning coals.",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "Four services, etc. - although they are all",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "forbidden to a non-priest, the penalty of death applies only",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "to these four, as he goes on to explain. 'You",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l13",
+    "yoma-024a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "and your sons with you, etc.' - the end of the verse is 'and the outsider",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "who draws near shall be put to death.' A service of giving - that you",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "place upon the altar, and not a service of removal",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "which you remove and take away from the altar, such as",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "terumat hadeshen. A complete service - a service",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "that finishes and completes the matter, and not",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "one after which another service still follows, such as slaughter",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "and receiving the blood and carrying it, after which sprinkling still follows; but",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "sprinkling is the final service of the blood, and likewise",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "burning of the handful of the meal-offering, and of the limbs",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "and fats, and likewise the wine libation the whole year, and likewise",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "the water libation on the festival. For any matter of the altar - to include",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l16",
+    "yoma-024a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "the service of removal, if it is a complete service,",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "such as terumat hadeshen. The seven sprinklings that are within - that he sprinkles on the curtain from the bull",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "for an unwitting communal sin, the bull of the anointed priest, and that of Yom Kippur, and that of the leper, from whose log of oil he sprinkles in the Sanctuary",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "as it is written (Leviticus 14), 'and he shall sprinkle from the oil with his finger,' etc. - for you might think",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "it is not a matter of the altar, therefore he includes all. And Levi derives them - all of them",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l22",
+    "yoma-024a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "from it, from 'matter,' 'any matter' - since 'matter of the altar' itself is superfluous, and it is derived",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "from it - terumat hadeshen, and from the extra word 'any' he derives from it the inner sprinkling.",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "And within - the daf ends mid-word here; the comment (that 'within the curtain' interrupts the generalization and the specification) continues on 24b.",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l26"
+   ]
+  }
+ ]
 }
