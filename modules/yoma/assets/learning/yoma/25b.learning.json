@@ -1,969 +1,978 @@
 {
-  "daf": "25b",
-  "canonicalRef": "Yoma 25b",
-  "summary": "The Gemara debates whether one priest can do both the slaughter and the blood-sprinkling of the tamid, and whether the slaughterer or the sprinkler collects the blood. Multiple proofs from baraitot and mishnayot resolve that the sprinkler is the collector. The page then analyzes Ben Azzai and Rabbi Akiva's dispute about the order for carrying the tamid's limbs to the altar, with Rava explaining that all tannaim agree the head goes up first.",
-  "review": {
-    "status": "enriched",
-    "version": "10.63"
+ "daf": "25b",
+ "canonicalRef": "Yoma 25b",
+ "summary": "The Gemara debates whether one priest can do both the slaughter and the blood-sprinkling of the tamid, and whether the slaughterer or the sprinkler collects the blood. Multiple proofs from baraitot and mishnayot resolve that the sprinkler is the collector. The page then analyzes Ben Azzai and Rabbi Akiva's dispute about the order for carrying the tamid's limbs to the altar, with Rava explaining that all tannaim agree the head goes up first.",
+ "review": {
+  "status": "enriched",
+  "version": "10.63"
+ },
+ "glossary": [
+  {
+   "he": "שׁוֹחֵט",
+   "translit": "shochet",
+   "en": "The priest who slaughters the tamid offering."
   },
-  "glossary": [
+  {
+   "he": "זוֹרֵק",
+   "translit": "zorek",
+   "en": "The priest who sprinkles the blood on the altar."
+  },
+  {
+   "he": "מְקַבֵּל",
+   "translit": "mekabel",
+   "en": "The priest who receives (collects) the blood in a vessel after slaughter."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "There was no lottery for the fire-pan - for when they cast the lottery for the incense, as we learned in a new mishnah,",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "they would come and cast the lottery for the incense, and the incense requires two priests, one who carries the incense",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "into the Sanctuary and burns it, and another who scoops coals from the outer altar and brings them into the Sanctuary",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "and places them on the inner altar, to burn the incense upon them, as we derive further on",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "(45a) from the verses, that the coals of the inner altar",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "are taken from the outer altar every day.",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "And Rabbi Yehuda says: they would not cast the lottery for who",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "merits the fire-pan, but only for who merits the incense,",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "and whoever merited it says to the one on his right, 'merit",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "with me in the fire-pan' - so evidently not for every service",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "and service do they cast the lottery. Since it is not common -",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l01",
+    "yoma-025b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "the incense is offered only twice a day, since",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "the incense-offering does not come as a freewill offering. And it enriches -",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "and makes wealthy those occupied with it, as we say",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "further on in this chapter (26a). Who receives -",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l06",
+    "yoma-025b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "the blood of the daily-offering: since our mishnah did not enumerate it among",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "the priest's services, learn from it that one of these does it.",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "Out of eagerness for it - for the tossing, which is the service of",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "the altar, he would not receive the entire blood himself,",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "and we say further on (48a) that he must receive",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "all the blood, as it is said (Leviticus 4), 'and all",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "the blood he shall pour out.' Sometimes a non-priest slaughters -",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l11",
+    "yoma-025b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "for slaughtering is valid by a non-priest, but the receiving of the blood is invalid",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "by him, as it is said (Leviticus 1), 'and he shall slaughter the",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "young bull, and the priests shall offer the blood' -",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "from the receiving onward is a priestly requirement - this teaches about",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "the slaughtering, that it is valid by a non-priest. Ben Katin -",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l14",
+    "yoma-025b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "was a High Priest. Twelve spouts - through which he would pour",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "water. There would be thirteen - for thirteen",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l15",
+    "yoma-025b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "services were enumerated in our mishnah among the services",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "of the daily-offering's lottery, except that slaughtering does not",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "require the sanctifying of hands and feet, even",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "when performed by a priest, since it is a service that is",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "valid by a non-priest; and if you say the slaughterer receives the blood,",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "it turns out he would need to sanctify his hands and feet",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "for the sake of the receiving. We too have learned this -",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l18",
+    "yoma-025b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "in tractate Tamid we read: 'and he came to toss the blood.'",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "In the manner of its walking - the parts on the head side come",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "first, whatever led first. The head and the leg - the",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "right one, by all opinions, comes first, and he derives it from a verse",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "further on. In the manner of its flaying - from the side of the legs",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "toward the head. In the manner of its dismemberment - in the order",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l23",
+    "yoma-025b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "in which it is dismembered after its flaying, limb after",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "limb, and the order of its dismemberment is spelled out in tractate",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "Tamid (31a), just as it is arranged here:",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "'how is the manner of its dismemberment,' etc.; and when he dismembers it",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "he gives each limb to whoever merited it, and all of them",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "stand there until they have all received their share there,",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "and go and carry them to the ramp, one after",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "another, and about the order of their carrying these tanna'im disagree, one",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "says thus and one says thus. This is the reading -",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "'how is the manner of its dismemberment: the head and the leg, and the two",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "forelegs, and the breast and the gerah, and the two flanks,",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "the tail-piece and the leg.' In the manner of its superior order - the manner of the best",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "of it, its choicest cuts, the choicest coming first.",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "This is the reading: 'how is the manner of its superior order: the head and the leg,",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "the breast and the gerah, the two flanks, the tail-piece and the leg, and the two forelegs.' But is it not written, every choice cut",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l28",
+    "yoma-025b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "is the thigh and the shoulder' - so evidently the thigh is better than the shoulder? In a lean animal - the thigh is better in a fatty one. Our",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l34",
+    "yoma-025b-l35"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "tanna - the tanna of the mishnah did not follow either of them. One goes by the size of the limb - our tanna",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l35"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "goes by the superiority of the limb's size, and Rabbi Yosei goes by the superiority of the fat.",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l35"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "And the other, fat - a different verse is written: 'the pieces, the head, and the fat.'",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "For what - the daf ends mid-word here; the comment (asking why the fat is mentioned again since it is already included among the pieces) continues on 26a.",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l40"
+   ]
+  }
+ ],
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-025b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 8
+   },
+   "lines": [
     {
-      "he": "שׁוֹחֵט",
-      "translit": "shochet",
-      "en": "The priest who slaughters the tamid offering."
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.25b.1"
     },
     {
-      "he": "זוֹרֵק",
-      "translit": "zorek",
-      "en": "The priest who sprinkles the blood on the altar."
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.25b.2"
     },
     {
-      "he": "מְקַבֵּל",
-      "translit": "mekabel",
-      "en": "The priest who receives (collects) the blood in a vessel after slaughter."
+     "vilnaLine": 4,
+     "sefariaRef": "Yoma.25b.3"
+    },
+    {
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.25b.4"
+    },
+    {
+     "vilnaLine": 8,
+     "sefariaRef": "Yoma.25b.5"
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.25b.1",
+    "Yoma.25b.2",
+    "Yoma.25b.3",
+    "Yoma.25b.4",
+    "Yoma.25b.5"
+   ],
+   "display": {
+    "whats": "Can one priest perform both the slaughter and the blood-sprinkling of the tamid? Multiple baraitot are cited but the question remains open.",
+    "title": "Grouped lottery, not merged roles: why the coal-pan precedent cannot settle slaughter and sprinkling",
+    "hint": "R. Chiyya's baraita ultimately settles that no separate lottery is held for each individual task."
+   },
+   "learning": {
+    "learnerQuestion": "Why does a baraita about combining the coal-pan and incense roles fail to settle whether slaughter and blood-sprinkling can also go to the same priest?",
+    "coreTension": "Any precedent for combining two Temple tasks under one lottery winner looks like it should generalize to other task pairs, yet the Gemara refuses to extend the coal-and-incense precedent to slaughter and sprinkling.",
+    "coreMove": "The Gemara distinguishes physically inseparable acts, the coal-pan and incense must happen as one continuous motion by one person, from sequential but distinct acts like slaughter and blood-sprinkling. R. Chiyya's explicit ruling that no per-task lottery is held then settles the structural question: tasks are grouped together in a single lottery round, but grouping the lottery is not the same as proving one priest performs every task in the group.",
+    "resolution": "No separate lottery is held for each individual task; related tasks are grouped together in one lottery round. Whether slaughter and blood-collection specifically fall to the same priest is a separate question, taken up immediately afterward.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "A shared lottery round does not by itself prove that the same priest performs every task within it. Physically inseparable tasks must be combined; which priest performs each sequential task is determined by separate criteria."
+    },
+    "ahaMoment": "The coal-pan and incense are inseparable not just in practice but as a single combined service; that distinction between intrinsically linked services and separable ones, not the lottery's grouping, is what drives the legal analysis.",
+    "learningBlocker": "Learners may read 'no per-task lottery' as meaning one priest does everything assigned in that lottery round. The grouping is a procedural fact about how the lottery is conducted; which specific priest performs which task within the group is answered separately, and the Gemara goes on to establish that the blood collector is the sprinkler, not the slaughterer.",
+    "memoryAnchor": "Coal-pan and incense are like one glove, you cannot hold the coal without the incense going in, so they must be one role. Slaughter and blood-sprinkling are two separate steps; grouped lottery, not automatically merged roles."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "Opens 'there was no lottery for the fire-pan': for when they cast the lottery for the incense, as we learned in a new mishnah,",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l01"
-      ]
+     "id": "yoma-025b-l01",
+     "type": "question",
+     "label": "Slaughter + sprinkling: one lottery?",
+     "text": "Did the second lottery assign slaughter and blood-sprinkling to the same priest, or separately?",
+     "sourceRefs": [
+      "Yoma.25b.1"
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "continuing: they would come and cast the lottery for the incense, and the incense requires two priests, one who carries the incense",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l01"
-      ]
+     "id": "yoma-025b-l03",
+     "type": "proof",
+     "label": "R. Yehuda baraita: coal + incense combined",
+     "text": "R. Yehuda: the lottery assigned both coal-pan carrying and incense-burning to the same priest, suggesting tasks can be combined.",
+     "sourceRefs": [
+      "Yoma.25b.1"
+     ]
     },
     {
-      "vilnaLine": 3,
-      "en": "continuing: into the Sanctuary and burns it, and another who scoops coals from the outer altar and brings them into the Sanctuary",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l01"
-      ]
+     "id": "yoma-025b-l04",
+     "type": "objection",
+     "label": "Coal and incense are inseparable",
+     "text": "Rejected: coal-pan and incense must be done together by one person - they are not two tasks but one combined act. The analogy fails.",
+     "sourceRefs": [
+      "Yoma.25b.2"
+     ]
     },
     {
-      "vilnaLine": 4,
-      "en": "continuing: and places them on the inner altar, to burn the incense upon them, as we derive further on",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l01"
-      ]
+     "id": "yoma-025b-l06",
+     "type": "claim",
+     "label": "Alternative: incense must be new",
+     "text": "Others read the baraita as: specifically because incense must always be a new priest, the lottery needed to specify this unique restriction.",
+     "sourceRefs": [
+      "Yoma.25b.3"
+     ]
     },
     {
-      "vilnaLine": 5,
-      "en": "continuing: (45a) from the verses, that the coals of the inner altar",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "continuing: are taken from the outer altar every day.",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "continuing: And Rabbi Yehuda says: they would not cast the lottery for who",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: merits the fire-pan, but only for who merits the incense,",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "continuing: and whoever merited it says to the one on his right, 'merit",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "continuing: with me in the fire-pan' - so evidently not for every service",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "closing: and service do they cast the lottery.' Then opens 'since it is not common' -",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l06"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: the incense is offered only twice a day, since",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l06"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "closing: the incense-offering does not come as a freewill offering.' Then opens 'and it enriches' -",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l06"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "continuing: and makes wealthy those occupied with it, as we say",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l06"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "closing: further on in this chapter (26a).' Then opens 'who receives' -",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l06"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: the blood of the daily-offering: since our mishnah did not enumerate it among",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l11"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "closing: the priest's services, learn from it that one of these does it.",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l11"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Opens 'out of eagerness for it': for the tossing, which is the service of",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l11"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: the altar, he would not receive the entire blood himself,",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l11"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "continuing: and we say further on (48a) that he must receive",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l11"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: all the blood, as it is said (Leviticus 4): 'and all",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l11"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "closing: the blood he shall pour out.'' Then opens 'sometimes a non-priest slaughters' -",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l14"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: for slaughtering is valid by a non-priest, but the receiving of the blood is invalid",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l14"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: by him, as it is said (Leviticus 1): 'and he shall slaughter the",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l14"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: young bull, and the priests shall offer the blood'",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l14"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: from the receiving onward is a priestly requirement - this teaches about",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l14"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "closing: the slaughtering, that it is valid by a non-priest.' Then opens 'Ben Katin' -",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l14"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: was a High Priest.' Then opens 'twelve spouts': through which he would pour",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "closing: water.' Then opens 'there would be thirteen' -",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "continuing: for thirteen services were enumerated in our mishnah among the services",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: of the daily-offering's lottery, except that slaughtering does not",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: require the sanctifying of hands and feet, even",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: when performed by a priest, since it is a service that is",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "continuing: valid by a non-priest; and if you say the slaughterer receives the blood,",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: it turns out he would need to sanctify his hands and feet",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "closing: for the sake of the receiving.' Then opens 'we too have learned this' -",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l20"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "closing: in tractate Tamid we read: 'and he came to toss the blood.'",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l20"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "Opens 'in the manner of its walking': the parts on the head side come",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "closing: first, whatever led first.' Then opens 'the head and the leg': the",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: right one, by all opinions, comes first, and he derives it from a verse",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "closing: further on.' Then opens 'in the manner of its flaying': from the side of the legs",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "closing: toward the head.' Then opens 'in the manner of its dismemberment': in the order",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "continuing: in which it is dismembered after its flaying, limb after",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "continuing: limb, and the order of its dismemberment is spelled out in tractate",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "continuing: Tamid (31a), just as it is arranged here:",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "continuing: 'how is the manner of its dismemberment,' etc.; and when he dismembers it",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "continuing: he gives each limb to whoever merited it, and all of them",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "continuing: stand there until they have all received their share there,",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "continuing: and go and carry them to the ramp, one after",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "continuing: another, and about the order of their carrying these tanna'im disagree, one",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "closing: says thus and one says thus.' Then opens 'thus we read' -",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "continuing: 'how is the manner of its dismemberment: the head and the leg, and the two",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "continuing: forelegs, and the breast and the gerah, and the two flanks,",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "closing: the tail-piece and the leg.'' Then opens 'in the manner of its superior order': the manner of the best",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "closing: of it, its choicest cuts, the choicest coming first.",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "Opens 'this is the reading: how is the manner of its superior order: the head and the leg,",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "closing: the breast and the gerah, the two flanks, the tail-piece and the leg, and the two forelegs.'' Then opens 'but is it not written, every choice cut",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "closing: is the thigh and the shoulder' - so evidently the thigh is better than the shoulder?' Then opens 'in a lean animal': the thigh is better in a fatty one.' Then opens 'our",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l34"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "continuing: tanna': the tanna of the mishnah did not follow either of them.' Then opens 'one goes by the size of the limb': our tanna",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l35"
-      ]
-    },
-    {
-      "vilnaLine": 60,
-      "en": "closing: goes by the superiority of the limb's size, and Rabbi Yosei goes by the superiority of the fat.",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l35"
-      ]
-    },
-    {
-      "vilnaLine": 61,
-      "en": "Opens 'and the other, fat': a different verse is written: 'the pieces, the head, and the fat.'",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 62,
-      "en": "Opens 'for what' -",
-      "linkedGemaraLineIds": [
-        "yoma-025b-l40"
-      ]
+     "id": "yoma-025b-l08",
+     "type": "ruling",
+     "label": "R. Chiyya: no per-task lottery",
+     "text": "R. Chiyya explicitly: no separate lottery is held for each individual service. The second lottery assigned groups of related tasks.",
+     "sourceRefs": [
+      "Yoma.25b.5"
+     ]
     }
-  ],
-  "sugyot": [
+   ],
+   "topicTags": [
+    "lottery assignment",
+    "coal-pan",
+    "ketoret",
+    "tamid slaughter",
+    "blood sprinkling",
+    "Temple procedure"
+   ],
+   "concepts": {
+    "halachic": [
+     "combined vs separate lottery tasks",
+     "ktores (incense) always to a new priest",
+     "coal-pan and incense as inseparable unit"
+    ],
+    "theological": [
+     "precision in Temple service assignment"
+    ],
+    "narrative": [
+     "R. Yehuda vs alternative reading of same baraita"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "second lottery",
+    "tamid service",
+    "ketoret (incense) offering"
+   ],
+   "misconceptions": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-025b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 8
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.25b.1"
-        },
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.25b.2"
-        },
-        {
-          "vilnaLine": 4,
-          "sefariaRef": "Yoma.25b.3"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.25b.4"
-        },
-        {
-          "vilnaLine": 8,
-          "sefariaRef": "Yoma.25b.5"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.25b.1",
-        "Yoma.25b.2",
-        "Yoma.25b.3",
-        "Yoma.25b.4",
-        "Yoma.25b.5"
-      ],
-      "display": {
-        "whats": "Can one priest perform both the slaughter and the blood-sprinkling of the tamid? Multiple baraitot are cited but the question remains open.",
-        "title": "Grouped lottery, not merged roles: why the coal-pan precedent cannot settle slaughter and sprinkling",
-        "hint": "R. Chiyya's baraita ultimately settles that no separate lottery is held for each individual task."
-      },
-      "learning": {
-        "learnerQuestion": "Why does a baraita about combining the coal-pan and incense roles fail to settle whether slaughter and blood-sprinkling can also go to the same priest?",
-        "coreTension": "Any precedent for combining two Temple tasks under one lottery winner looks like it should generalize to other task pairs, yet the Gemara refuses to extend the coal-and-incense precedent to slaughter and sprinkling.",
-        "coreMove": "The Gemara distinguishes physically inseparable acts, the coal-pan and incense must happen as one continuous motion by one person, from sequential but distinct acts like slaughter and blood-sprinkling. R. Chiyya's explicit ruling that no per-task lottery is held then settles the structural question: tasks are grouped together in a single lottery round, but grouping the lottery is not the same as proving one priest performs every task in the group.",
-        "resolution": "No separate lottery is held for each individual task; related tasks are grouped together in one lottery round. Whether slaughter and blood-collection specifically fall to the same priest is a separate question, taken up immediately afterward.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "A shared lottery round does not by itself prove that the same priest performs every task within it. Physically inseparable tasks must be combined; which priest performs each sequential task is determined by separate criteria."
-        },
-        "ahaMoment": "The coal-pan and incense are inseparable not just in practice but as a single combined service; that distinction between intrinsically linked services and separable ones, not the lottery's grouping, is what drives the legal analysis.",
-        "learningBlocker": "Learners may read 'no per-task lottery' as meaning one priest does everything assigned in that lottery round. The grouping is a procedural fact about how the lottery is conducted; which specific priest performs which task within the group is answered separately, and the Gemara goes on to establish that the blood collector is the sprinkler, not the slaughterer.",
-        "memoryAnchor": "Coal-pan and incense are like one glove, you cannot hold the coal without the incense going in, so they must be one role. Slaughter and blood-sprinkling are two separate steps; grouped lottery, not automatically merged roles."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-025b-l01",
-          "type": "question",
-          "label": "Slaughter + sprinkling: one lottery?",
-          "text": "Did the second lottery assign slaughter and blood-sprinkling to the same priest, or separately?",
-          "sourceRefs": [
-            "Yoma.25b.1"
-          ]
-        },
-        {
-          "id": "yoma-025b-l03",
-          "type": "proof",
-          "label": "R. Yehuda baraita: coal + incense combined",
-          "text": "R. Yehuda: the lottery assigned both coal-pan carrying and incense-burning to the same priest, suggesting tasks can be combined.",
-          "sourceRefs": [
-            "Yoma.25b.1"
-          ]
-        },
-        {
-          "id": "yoma-025b-l04",
-          "type": "objection",
-          "label": "Coal and incense are inseparable",
-          "text": "Rejected: coal-pan and incense must be done together by one person - they are not two tasks but one combined act. The analogy fails.",
-          "sourceRefs": [
-            "Yoma.25b.2"
-          ]
-        },
-        {
-          "id": "yoma-025b-l06",
-          "type": "claim",
-          "label": "Alternative: incense must be new",
-          "text": "Others read the baraita as: specifically because incense must always be a new priest, the lottery needed to specify this unique restriction.",
-          "sourceRefs": [
-            "Yoma.25b.3"
-          ]
-        },
-        {
-          "id": "yoma-025b-l08",
-          "type": "ruling",
-          "label": "R. Chiyya: no per-task lottery",
-          "text": "R. Chiyya explicitly: no separate lottery is held for each individual service. The second lottery assigned groups of related tasks.",
-          "sourceRefs": [
-            "Yoma.25b.5"
-          ]
-        }
-      ],
-      "topicTags": [
-        "lottery assignment",
-        "coal-pan",
-        "ketoret",
-        "tamid slaughter",
-        "blood sprinkling",
-        "Temple procedure"
-      ],
-      "concepts": {
-        "halachic": [
-          "combined vs separate lottery tasks",
-          "ktores (incense) always to a new priest",
-          "coal-pan and incense as inseparable unit"
-        ],
-        "theological": [
-          "precision in Temple service assignment"
-        ],
-        "narrative": [
-          "R. Yehuda vs alternative reading of same baraita"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "second lottery",
-        "tamid service",
-        "ketoret (incense) offering"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The coal-pan and incense require two separate lottery slots.",
-          "correction": "They are a single inseparable act, physically requiring one continuous motion, and are assigned to one priest."
-        },
-        {
-          "misconception": "The incense lottery worked the same as all other task lotteries.",
-          "correction": "Incense always went to a new priest (a first-timer rule), making its lottery treatment unique among the grouped tasks."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-026a-s02",
-        "yoma-022b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "Coal + incense (inseparable) vs slaughter + sprinkling (separable)",
-          "description": "Visual showing why some task pairs are inherently linked while others are distinct"
-        },
-        {
-          "type": "sequence",
-          "label": "Lottery assignment method",
-          "description": "How groups of related tasks were assigned in one lottery round"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why can't the coal-pan/incense analogy prove that slaughter and blood-sprinkling can go to one priest?",
-          "answer": "Coal-pan and incense are physically inseparable - one person must do both simultaneously. Slaughter and blood-sprinkling are distinct sequential acts."
-        },
-        {
-          "question": "What does R. Chiyya's baraita establish about how the lottery worked?",
-          "answer": "No separate lottery is held for each individual service task - tasks were grouped and assigned together."
-        }
-      ],
-      "finalRuling": "R. Chiyya's baraita establishes that no per-task lottery was held; the question of who collected the blood is addressed in the next sugya.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "The coal-pan and incense require two separate lottery slots.",
+     "correction": "They are a single inseparable act, physically requiring one continuous motion, and are assigned to one priest."
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-025b-s02",
-      "lineRange": {
-        "startVilnaLine": 11,
-        "endVilnaLine": 20
-      },
-      "lines": [
-        {
-          "vilnaLine": 11,
-          "sefariaRef": "Yoma.25b.6"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.25b.7"
-        },
-        {
-          "vilnaLine": 15,
-          "sefariaRef": "Yoma.25b.8"
-        },
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.25b.9"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.25b.10"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.25b.6",
-        "Yoma.25b.7",
-        "Yoma.25b.8",
-        "Yoma.25b.9",
-        "Yoma.25b.10"
-      ],
-      "display": {
-        "whats": "Who collects the tamid's blood - the sprinkler or the slaughterer? The Gemara proves it must be the same priest who sprinkles.",
-        "title": "Filling the mishna's silence: why the blood collector must also be the sprinkler",
-        "hint": "Continuity of blood service from collection through sprinkling matters: one priest should handle the blood throughout."
-      },
-      "learning": {
-        "learnerQuestion": "If the mishna only names who sprinkles the blood, why does the Gemara insist the very same priest must have collected it too?",
-        "coreTension": "The mishna's silence about who collects the blood could just as easily mean the slaughterer, already standing at the animal, collects it; instead the Gemara reads that silence as assuming a stricter single-handler rule.",
-        "coreMove": "Multiple independent proofs, the priest count implied by the Tamid mishna, a direct baraita, and Rav Acha son of Rava's additional source, all converge on the same answer: continuity of custody. Blood that changes hands between collection and sprinkling carries the same invalidation risk the Gemara guards against in other blood services, so the mishna's silence is read as presupposing the sprinkler collects, not as leaving the question open.",
-        "resolution": "The priest who sprinkles the tamid's blood on the altar is the same priest who collected it after slaughter; continuity of custody from collection through sprinkling is the operative rule.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Where a source text is silent about a transitional step, the Gemara reads that silence through governing principles already established elsewhere, here continuity of blood-service custody, rather than treating the silence as permission to deviate."
-        },
-        "ahaMoment": "Blood that stays in one priest's hands from collection through sprinkling has unbroken chain of custody; the service's integrity, not the mishna's wording alone, is what drives the single-handler reading.",
-        "learningBlocker": "Learners may wonder what happens if the slaughterer collects the blood by mistake, whether it could simply be handed to the designated sprinkler. The sugya does not address this contingency; its proofs establish the standard procedure, that the sprinkler collects, not the consequences of a deviation from it.",
-        "memoryAnchor": "The blood collector equals the blood sprinkler: one priest, unbroken custody, from neck to altar corner."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-025b-l11",
-          "type": "question",
-          "label": "Who collects the blood?",
-          "text": "The mishna assigns blood-sprinkling to a specific lottery winner but does not specify who collects the blood after slaughter.",
-          "sourceRefs": [
-            "Yoma.25b.6"
-          ]
-        },
-        {
-          "id": "yoma-025b-l13",
-          "type": "claim",
-          "label": "Sprinkler also collects",
-          "text": "The sprinkler collects the blood, since continuity from collection to sprinkling prevents the blood from becoming invalid.",
-          "sourceRefs": [
-            "Yoma.25b.7"
-          ]
-        },
-        {
-          "id": "yoma-025b-l15",
-          "type": "proof",
-          "label": "Proof from Tamid mishna count",
-          "text": "If the slaughterer collected the blood, the Tamid mishna's priest count would be wrong - proving the sprinkler is the collector.",
-          "sourceRefs": [
-            "Yoma.25b.8",
-            "Yoma.25b.9"
-          ]
-        },
-        {
-          "id": "yoma-025b-l20",
-          "type": "proof",
-          "label": "Rav Acha's additional support",
-          "text": "Rav Acha son of Rava adds a further proof from the Tamid mishna's explicit sequence.",
-          "sourceRefs": [
-            "Yoma.25b.10"
-          ]
-        }
-      ],
-      "topicTags": [
-        "blood collection",
-        "blood sprinkling",
-        "tamid service",
-        "service continuity",
-        "priest assignment"
-      ],
-      "concepts": {
-        "halachic": [
-          "blood collection continuity",
-          "zorek = mekabel",
-          "service invalidation risk"
-        ],
-        "theological": [
-          "integrity of the blood service from collection to altar"
-        ],
-        "narrative": [
-          "multiple tannaitic proofs converging on same ruling"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "tamid blood service",
-        "four blood services",
-        "zerikah (sprinkling)"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The slaughterer naturally collects the blood since he is already standing at the animal.",
-          "correction": "The Gemara establishes it is the designated sprinkler, not the slaughterer, who must collect the blood."
-        },
-        {
-          "misconception": "Blood collection and sprinkling are separate roles that can go to different priests.",
-          "correction": "They must be performed by the same priest, to maintain unbroken continuity of the blood service."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-025a-s02",
-        "yoma-032b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "label": "Blood service chain",
-          "description": "One priest: collects blood from neck, carries to altar, sprinkles on corners"
-        },
-        {
-          "type": "relationship",
-          "label": "Slaughterer vs blood handler",
-          "description": "Two distinct roles: slaughterer ends his service at the neck; the sprinkler begins at the same moment"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Who collects the blood in the tamid service - the slaughterer or the sprinkler?",
-          "answer": "The sprinkler, who collects the blood and then sprinkles it himself to maintain continuity of the blood service."
-        },
-        {
-          "question": "What is the practical concern behind having one priest do both blood collection and sprinkling?",
-          "answer": "To prevent the blood from becoming invalid through delay or improper transfer between priests."
-        }
-      ],
-      "finalRuling": "The priest who sprinkles the blood on the altar is the same priest who collected it after slaughter.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 3,
-      "id": "yoma-025b-s03",
-      "lineRange": {
-        "startVilnaLine": 23,
-        "endVilnaLine": 40
-      },
-      "lines": [
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.25b.11"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.25b.12"
-        },
-        {
-          "vilnaLine": 34,
-          "sefariaRef": "Yoma.25b.13"
-        },
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.25b.14"
-        },
-        {
-          "vilnaLine": 38,
-          "sefariaRef": "Yoma.25b.15"
-        },
-        {
-          "vilnaLine": 40,
-          "sefariaRef": "Yoma.25b.16"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.25b.11",
-        "Yoma.25b.12",
-        "Yoma.25b.13",
-        "Yoma.25b.14",
-        "Yoma.25b.15",
-        "Yoma.25b.16"
-      ],
-      "display": {
-        "whats": "Ben Azzai disputes the mishna's order of carrying tamid limbs; Rabbi Akiva explains they go in cutting order; Rava proves all tannaim agree the head goes first. The right leg always accompanies the head.",
-        "title": "A three-way dispute that turns out to be one agreement: Rava on why the head always leads",
-        "hint": "The sequence of limbs to the altar reflects both anatomical logic and the principle that the most significant limb (the head) leads."
-      },
-      "learning": {
-        "learnerQuestion": "If Ben Azzai, the mishna, and R. Yosei HaGelili each give a different account of the tamid's limb order, are they really disagreeing with each other?",
-        "coreTension": "Three named traditions describing the same procedure look like a genuine three-way dispute over Temple practice, the kind that would normally require picking a winner.",
-        "coreMove": "Rava reframes the dispute by isolating what all three actually share: the head, accompanied by the right leg as the side of honor, is carried to the altar first in every version. What looked like competing full orderings collapses into one shared starting principle, with real disagreement confined to the lower-stakes question of what follows the head.",
-        "resolution": "All tannaim agree the head, together with the right leg, is carried to the altar first. The dispute among them is limited to the sequence of the remaining limbs.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "A dispute that looks total at first can collapse into agreement on the operative principle once a later authority isolates what the disputants actually share."
-        },
-        "ahaMoment": "Rava's reconciliation shows that what looks like a fundamental dispute is actually agreement on the core principle, the head always leads, with disagreement only on the details of what follows.",
-        "learningBlocker": "Learners may assume the limb order carries the same stakes as the slaughter/sprinkling question, where the Gemara works hard to pin down exactly who must perform which role. This sugya does not state whether deviating from the limb order invalidates the offering or is merely a procedural preference; that question is left open here.",
-        "memoryAnchor": "All tannaim: head first, right leg alongside, like a general leading a march. Real dispute only over what follows."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-025b-l23",
-          "type": "claim",
-          "label": "Ben Azzai's alternate limb order",
-          "text": "Ben Azzai, before Rabbi Akiva, transmits a different sequence for carrying the tamid's limbs from Rabbi Yehoshua.",
-          "sourceRefs": [
-            "Yoma.25b.11"
-          ]
-        },
-        {
-          "id": "yoma-025b-l25",
-          "type": "resolution",
-          "label": "Rabbi Akiva: cutting order",
-          "text": "Rabbi Akiva: the limbs go up in the order they were cut during the skinning, beginning with the head.",
-          "sourceRefs": [
-            "Yoma.25b.12"
-          ]
-        },
-        {
-          "id": "yoma-025b-l28",
-          "type": "proof",
-          "label": "R. Yosei HaGelili: head is the best piece",
-          "text": "R. Yosei HaGelili: 'every good piece' (Leviticus) means the head must go first as the most significant limb.",
-          "sourceRefs": [
-            "Yoma.25b.13"
-          ]
-        },
-        {
-          "id": "yoma-025b-l30",
-          "type": "resolution",
-          "label": "Rava: all agree head goes first",
-          "text": "Rava reconciles: all tannaim agree the head goes first; they differ only on what limbs follow.",
-          "sourceRefs": [
-            "Yoma.25b.14"
-          ]
-        },
-        {
-          "id": "yoma-025b-l34",
-          "type": "premise",
-          "label": "Why right leg with the head?",
-          "text": "The right side is always more significant - the right leg accompanies the head as a mark of honor.",
-          "sourceRefs": [
-            "Yoma.25b.15"
-          ]
-        }
-      ],
-      "topicTags": [
-        "tamid limb order",
-        "Ben Azzai",
-        "R. Akiva",
-        "R. Yosei HaGelili",
-        "Rava",
-        "head of sacrifice",
-        "right side honor"
-      ],
-      "concepts": {
-        "halachic": [
-          "limb-carrying sequence",
-          "head goes first (rosh principle)",
-          "right side precedence"
-        ],
-        "theological": [
-          "'every good piece' - honoring the divine service with the best first"
-        ],
-        "narrative": [
-          "Rava's reconciliation of tannaitic dispute",
-          "Ben Azzai's transmission from R. Yehoshua"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "tamid service",
-        "limb distribution",
-        "Temple altar ramp"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The tannaim fundamentally disagree about which limb goes to the altar first.",
-          "correction": "Rava shows they all agree the head goes first; the dispute is confined to the order of the limbs that follow."
-        },
-        {
-          "misconception": "The right leg accompanies the head arbitrarily.",
-          "correction": "It accompanies the head because the right side always takes precedence as the side of honor in Temple service."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-025a-s02",
-        "yoma-026b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "label": "Tamid limb carrying order",
-          "description": "Sequence from head+right leg through the remaining limbs to the altar"
-        },
-        {
-          "type": "contrast",
-          "label": "Mishna vs Ben Azzai vs R. Akiva",
-          "description": "Three traditions for the order of limbs, with Rava showing they converge on the head-first principle"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "How does Rava reconcile the dispute between the mishna and Ben Azzai about the tamid limb order?",
-          "answer": "All tannaim agree the head goes to the altar first; they disagree only on the order of the limbs that follow."
-        },
-        {
-          "question": "Why does the right leg accompany the head when the limbs are carried to the altar?",
-          "answer": "The right side takes precedence in Temple service - the right leg accompanies the most honorable limb (the head)."
-        }
-      ],
-      "finalRuling": "The head goes first to the altar accompanied by the right front leg; the subsequent order is a tannaitic dispute.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "The incense lottery worked the same as all other task lotteries.",
+     "correction": "Incense always went to a new priest (a first-timer rule), making its lottery treatment unique among the grouped tasks."
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-026a-s02",
+    "yoma-022b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "Coal + incense (inseparable) vs slaughter + sprinkling (separable)",
+     "description": "Visual showing why some task pairs are inherently linked while others are distinct"
+    },
+    {
+     "type": "sequence",
+     "label": "Lottery assignment method",
+     "description": "How groups of related tasks were assigned in one lottery round"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why can't the coal-pan/incense analogy prove that slaughter and blood-sprinkling can go to one priest?",
+     "answer": "Coal-pan and incense are physically inseparable - one person must do both simultaneously. Slaughter and blood-sprinkling are distinct sequential acts."
+    },
+    {
+     "question": "What does R. Chiyya's baraita establish about how the lottery worked?",
+     "answer": "No separate lottery is held for each individual service task - tasks were grouped and assigned together."
+    }
+   ],
+   "finalRuling": "R. Chiyya's baraita establishes that no per-task lottery was held; the question of who collected the blood is addressed in the next sugya.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-025b-s02",
+   "lineRange": {
+    "startVilnaLine": 11,
+    "endVilnaLine": 20
+   },
+   "lines": [
+    {
+     "vilnaLine": 11,
+     "sefariaRef": "Yoma.25b.6"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.25b.7"
+    },
+    {
+     "vilnaLine": 15,
+     "sefariaRef": "Yoma.25b.8"
+    },
+    {
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.25b.9"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.25b.10"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.25b.6",
+    "Yoma.25b.7",
+    "Yoma.25b.8",
+    "Yoma.25b.9",
+    "Yoma.25b.10"
+   ],
+   "display": {
+    "whats": "Who collects the tamid's blood - the sprinkler or the slaughterer? The Gemara proves it must be the same priest who sprinkles.",
+    "title": "Filling the mishna's silence: why the blood collector must also be the sprinkler",
+    "hint": "Continuity of blood service from collection through sprinkling matters: one priest should handle the blood throughout."
+   },
+   "learning": {
+    "learnerQuestion": "If the mishna only names who sprinkles the blood, why does the Gemara insist the very same priest must have collected it too?",
+    "coreTension": "The mishna's silence about who collects the blood could just as easily mean the slaughterer, already standing at the animal, collects it; instead the Gemara reads that silence as assuming a stricter single-handler rule.",
+    "coreMove": "Multiple independent proofs, the priest count implied by the Tamid mishna, a direct baraita, and Rav Acha son of Rava's additional source, all converge on the same answer: continuity of custody. Blood that changes hands between collection and sprinkling carries the same invalidation risk the Gemara guards against in other blood services, so the mishna's silence is read as presupposing the sprinkler collects, not as leaving the question open.",
+    "resolution": "The priest who sprinkles the tamid's blood on the altar is the same priest who collected it after slaughter; continuity of custody from collection through sprinkling is the operative rule.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Where a source text is silent about a transitional step, the Gemara reads that silence through governing principles already established elsewhere, here continuity of blood-service custody, rather than treating the silence as permission to deviate."
+    },
+    "ahaMoment": "Blood that stays in one priest's hands from collection through sprinkling has unbroken chain of custody; the service's integrity, not the mishna's wording alone, is what drives the single-handler reading.",
+    "learningBlocker": "Learners may wonder what happens if the slaughterer collects the blood by mistake, whether it could simply be handed to the designated sprinkler. The sugya does not address this contingency; its proofs establish the standard procedure, that the sprinkler collects, not the consequences of a deviation from it.",
+    "memoryAnchor": "The blood collector equals the blood sprinkler: one priest, unbroken custody, from neck to altar corner."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-025b-l11",
+     "type": "question",
+     "label": "Who collects the blood?",
+     "text": "The mishna assigns blood-sprinkling to a specific lottery winner but does not specify who collects the blood after slaughter.",
+     "sourceRefs": [
+      "Yoma.25b.6"
+     ]
+    },
+    {
+     "id": "yoma-025b-l13",
+     "type": "claim",
+     "label": "Sprinkler also collects",
+     "text": "The sprinkler collects the blood, since continuity from collection to sprinkling prevents the blood from becoming invalid.",
+     "sourceRefs": [
+      "Yoma.25b.7"
+     ]
+    },
+    {
+     "id": "yoma-025b-l15",
+     "type": "proof",
+     "label": "Proof from Tamid mishna count",
+     "text": "If the slaughterer collected the blood, the Tamid mishna's priest count would be wrong - proving the sprinkler is the collector.",
+     "sourceRefs": [
+      "Yoma.25b.8",
+      "Yoma.25b.9"
+     ]
+    },
+    {
+     "id": "yoma-025b-l20",
+     "type": "proof",
+     "label": "Rav Acha's additional support",
+     "text": "Rav Acha son of Rava adds a further proof from the Tamid mishna's explicit sequence.",
+     "sourceRefs": [
+      "Yoma.25b.10"
+     ]
+    }
+   ],
+   "topicTags": [
+    "blood collection",
+    "blood sprinkling",
+    "tamid service",
+    "service continuity",
+    "priest assignment"
+   ],
+   "concepts": {
+    "halachic": [
+     "blood collection continuity",
+     "zorek = mekabel",
+     "service invalidation risk"
+    ],
+    "theological": [
+     "integrity of the blood service from collection to altar"
+    ],
+    "narrative": [
+     "multiple tannaitic proofs converging on same ruling"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "tamid blood service",
+    "four blood services",
+    "zerikah (sprinkling)"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The slaughterer naturally collects the blood since he is already standing at the animal.",
+     "correction": "The Gemara establishes it is the designated sprinkler, not the slaughterer, who must collect the blood."
+    },
+    {
+     "misconception": "Blood collection and sprinkling are separate roles that can go to different priests.",
+     "correction": "They must be performed by the same priest, to maintain unbroken continuity of the blood service."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-025a-s02",
+    "yoma-032b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "label": "Blood service chain",
+     "description": "One priest: collects blood from neck, carries to altar, sprinkles on corners"
+    },
+    {
+     "type": "relationship",
+     "label": "Slaughterer vs blood handler",
+     "description": "Two distinct roles: slaughterer ends his service at the neck; the sprinkler begins at the same moment"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Who collects the blood in the tamid service - the slaughterer or the sprinkler?",
+     "answer": "The sprinkler, who collects the blood and then sprinkles it himself to maintain continuity of the blood service."
+    },
+    {
+     "question": "What is the practical concern behind having one priest do both blood collection and sprinkling?",
+     "answer": "To prevent the blood from becoming invalid through delay or improper transfer between priests."
+    }
+   ],
+   "finalRuling": "The priest who sprinkles the blood on the altar is the same priest who collected it after slaughter.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-025b-s03",
+   "lineRange": {
+    "startVilnaLine": 23,
+    "endVilnaLine": 40
+   },
+   "lines": [
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.25b.11"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.25b.12"
+    },
+    {
+     "vilnaLine": 34,
+     "sefariaRef": "Yoma.25b.13"
+    },
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.25b.14"
+    },
+    {
+     "vilnaLine": 38,
+     "sefariaRef": "Yoma.25b.15"
+    },
+    {
+     "vilnaLine": 40,
+     "sefariaRef": "Yoma.25b.16"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.25b.11",
+    "Yoma.25b.12",
+    "Yoma.25b.13",
+    "Yoma.25b.14",
+    "Yoma.25b.15",
+    "Yoma.25b.16"
+   ],
+   "display": {
+    "whats": "Ben Azzai disputes the mishna's order of carrying tamid limbs; Rabbi Akiva explains they go in cutting order; Rava proves all tannaim agree the head goes first. The right leg always accompanies the head.",
+    "title": "A three-way dispute that turns out to be one agreement: Rava on why the head always leads",
+    "hint": "The sequence of limbs to the altar reflects both anatomical logic and the principle that the most significant limb (the head) leads."
+   },
+   "learning": {
+    "learnerQuestion": "If Ben Azzai, the mishna, and R. Yosei HaGelili each give a different account of the tamid's limb order, are they really disagreeing with each other?",
+    "coreTension": "Three named traditions describing the same procedure look like a genuine three-way dispute over Temple practice, the kind that would normally require picking a winner.",
+    "coreMove": "Rava reframes the dispute by isolating what all three actually share: the head, accompanied by the right leg as the side of honor, is carried to the altar first in every version. What looked like competing full orderings collapses into one shared starting principle, with real disagreement confined to the lower-stakes question of what follows the head.",
+    "resolution": "All tannaim agree the head, together with the right leg, is carried to the altar first. The dispute among them is limited to the sequence of the remaining limbs.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "A dispute that looks total at first can collapse into agreement on the operative principle once a later authority isolates what the disputants actually share."
+    },
+    "ahaMoment": "Rava's reconciliation shows that what looks like a fundamental dispute is actually agreement on the core principle, the head always leads, with disagreement only on the details of what follows.",
+    "learningBlocker": "Learners may assume the limb order carries the same stakes as the slaughter/sprinkling question, where the Gemara works hard to pin down exactly who must perform which role. This sugya does not state whether deviating from the limb order invalidates the offering or is merely a procedural preference; that question is left open here.",
+    "memoryAnchor": "All tannaim: head first, right leg alongside, like a general leading a march. Real dispute only over what follows."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-025b-l23",
+     "type": "claim",
+     "label": "Ben Azzai's alternate limb order",
+     "text": "Ben Azzai, before Rabbi Akiva, transmits a different sequence for carrying the tamid's limbs from Rabbi Yehoshua.",
+     "sourceRefs": [
+      "Yoma.25b.11"
+     ]
+    },
+    {
+     "id": "yoma-025b-l25",
+     "type": "resolution",
+     "label": "Rabbi Akiva: cutting order",
+     "text": "Rabbi Akiva: the limbs go up in the order they were cut during the skinning, beginning with the head.",
+     "sourceRefs": [
+      "Yoma.25b.12"
+     ]
+    },
+    {
+     "id": "yoma-025b-l28",
+     "type": "proof",
+     "label": "R. Yosei HaGelili: head is the best piece",
+     "text": "R. Yosei HaGelili: 'every good piece' (Leviticus) means the head must go first as the most significant limb.",
+     "sourceRefs": [
+      "Yoma.25b.13"
+     ]
+    },
+    {
+     "id": "yoma-025b-l30",
+     "type": "resolution",
+     "label": "Rava: all agree head goes first",
+     "text": "Rava reconciles: all tannaim agree the head goes first; they differ only on what limbs follow.",
+     "sourceRefs": [
+      "Yoma.25b.14"
+     ]
+    },
+    {
+     "id": "yoma-025b-l34",
+     "type": "premise",
+     "label": "Why right leg with the head?",
+     "text": "The right side is always more significant - the right leg accompanies the head as a mark of honor.",
+     "sourceRefs": [
+      "Yoma.25b.15"
+     ]
+    }
+   ],
+   "topicTags": [
+    "tamid limb order",
+    "Ben Azzai",
+    "R. Akiva",
+    "R. Yosei HaGelili",
+    "Rava",
+    "head of sacrifice",
+    "right side honor"
+   ],
+   "concepts": {
+    "halachic": [
+     "limb-carrying sequence",
+     "head goes first (rosh principle)",
+     "right side precedence"
+    ],
+    "theological": [
+     "'every good piece' - honoring the divine service with the best first"
+    ],
+    "narrative": [
+     "Rava's reconciliation of tannaitic dispute",
+     "Ben Azzai's transmission from R. Yehoshua"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "tamid service",
+    "limb distribution",
+    "Temple altar ramp"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The tannaim fundamentally disagree about which limb goes to the altar first.",
+     "correction": "Rava shows they all agree the head goes first; the dispute is confined to the order of the limbs that follow."
+    },
+    {
+     "misconception": "The right leg accompanies the head arbitrarily.",
+     "correction": "It accompanies the head because the right side always takes precedence as the side of honor in Temple service."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-025a-s02",
+    "yoma-026b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "label": "Tamid limb carrying order",
+     "description": "Sequence from head+right leg through the remaining limbs to the altar"
+    },
+    {
+     "type": "contrast",
+     "label": "Mishna vs Ben Azzai vs R. Akiva",
+     "description": "Three traditions for the order of limbs, with Rava showing they converge on the head-first principle"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "How does Rava reconcile the dispute between the mishna and Ben Azzai about the tamid limb order?",
+     "answer": "All tannaim agree the head goes to the altar first; they disagree only on the order of the limbs that follow."
+    },
+    {
+     "question": "Why does the right leg accompany the head when the limbs are carried to the altar?",
+     "answer": "The right side takes precedence in Temple service - the right leg accompanies the most honorable limb (the head)."
+    }
+   ],
+   "finalRuling": "The head goes first to the altar accompanied by the right front leg; the subsequent order is a tannaitic dispute.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "review": "reviewed"
+  }
+ ]
 }
