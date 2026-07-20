@@ -1,1581 +1,1793 @@
 {
-  "canonicalRef": "Yoma 72b",
-  "summary": "The Gemara discusses the atoning power of priestly vestments, Bezalel's three arks, the three crowns of the Temple (with extensive aggadah on Torah leadership and inner integrity), and closes with the laws of Urim VeTummim consultation.",
-  "sugyot": [
+ "canonicalRef": "Yoma 72b",
+ "summary": "The Gemara discusses the atoning power of priestly vestments, Bezalel's three arks, the three crowns of the Temple (with extensive aggadah on Torah leadership and inner integrity), and closes with the laws of Urim VeTummim consultation.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-072b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 6
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-072b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 6
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.72b.1"
-        },
-        {
-          "vilnaLine": 2,
-          "sefariaRef": "Yoma.72b.2"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.72b.3"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.72b.1",
-        "Yoma.72b.2",
-        "Yoma.72b.3"
-      ],
-      "display": {
-        "whats": "Priestly vestments atone like sacrifices; loom-woven whole",
-        "hint": "How did the vestments atone, and how were they physically made?",
-        "title": "Vestments Woven Without Seams: Perfection Built Into the Process"
-      },
-      "learning": {
-        "ahaMoment": "Vestments were not sewn - they came off the loom as complete garments, like a sock knitted in the round.",
-        "memoryAnchor": "Imagine knitting a sweater on circular needles - no seams, finished when removed from the loom.",
-        "learnerQuestion": "How were the priestly vestments physically constructed, and why does their seamless construction matter?",
-        "coreTension": "The vestments had to be flawless for Temple service. Any physical defect could potentially invalidate them. Was their construction designed to prevent flaws, or did flawlessness need to be verified after the fact?",
-        "coreMove": "According to R. Shmuel bar Nachmani, the priestly vestments were woven as complete seamless tubes on a loom - never cut and sewn. This seamless construction made them flawless by design: no seams means no weak points, no unraveling, no improper joins. Without valid vestments, the kohanim lack their atoning function.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Priestly vestments were woven seamlessly as complete garments - flawlessness was built into the construction method, not inspected afterward. Seamless weaving ensured integrity from the loom outward."
-        },
-        "learningBlocker": "Students may assume seamless = luxury or extra quality. The seamless technique was the method that ensured structural validity: cut-and-sewn garments would have potential failure points; seamless weaving eliminates them by design."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-072b-l01",
-          "type": "ruling",
-          "label": "Vestments atone like sacrifices",
-          "speaker": "Aggadic tradition",
-          "text": "Without them Israel's enemies would have been wiped out",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-072b-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "id": "yoma-072b-l02",
-          "type": "ruling",
-          "label": "Woven seamlessly",
-          "speaker": "Rabbi Shmuel bar Nachmani",
-          "text": "The school of Rabbi Shimon: woven as tubes off the loom",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-072b-l02",
-              "vilnaLine": 2
-            }
-          ]
-        },
-        {
-          "id": "yoma-072b-l03",
-          "type": "resolution",
-          "label": "Confirms loom-weaving",
-          "speaker": "Baraita",
-          "text": "Vestments made by loom not by needle - consistent",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-072b-l03",
-              "vilnaLine": 6
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "priestly-vestments",
-        "atonement",
-        "weaving"
-      ],
-      "concepts": {
-        "halachic": [
-          "priestly vestments have atoning power",
-          "vestments made by loom, not needle"
-        ],
-        "theological": [
-          "vestments as protection for Israel"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "description": "Argument flow",
-          "role": "anchor",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "How were the priestly vestments made according to Rabbi Shmuel bar Nachmani?",
-          "answer": "Woven as complete seamless tubes on a loom, not cut and sewn",
-          "sourceRefs": []
-        }
-      ],
-      "finalRuling": "Vestments atone for sins; they were woven as seamless garments.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.72b.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-072b-s02",
-      "lineRange": {
-        "startVilnaLine": 11,
-        "endVilnaLine": 16
-      },
-      "lines": [
-        {
-          "vilnaLine": 11,
-          "sefariaRef": "Yoma.72b.4"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.72b.5"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.72b.6"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.72b.4",
-        "Yoma.72b.5",
-        "Yoma.72b.6"
-      ],
-      "display": {
-        "whats": "Three crowns of the Temple, Torah as inner/outer integrity, scholars' warnings",
-        "hint": "What do the three crowns of the Temple teach about who rules Israel?",
-        "title": "Three Crowns: Only the Torah Crown Is Open to All"
-      },
-      "learning": {
-        "ahaMoment": "The crown of Torah is the only one that has no dynasty - any person can earn it. The word zar (stranger) becomes zeir (crown) depending on how you use Torah.",
-        "memoryAnchor": "Zar vs zeir - one letter difference between 'stranger' and 'crown' mirrors the difference between misusing Torah and elevating it.",
-        "learnerQuestion": "What are the three Temple crowns, and why is the Torah crown uniquely available to anyone, unlike the other two?",
-        "coreTension": "Three crowns are associated with the Mishkan's furnishings: the altar (priesthood), the ark (Torah), and the table (kingship). What does the structure of each crown teach about who can access that form of honor?",
-        "coreMove": "Rabbi Yochanan derives three categories of honor: priesthood (hereditary), kingship (dynastic), and Torah (open). The Torah's crown is the only one with no dynastic succession - anyone can acquire it through learning. The ark's 'zeir' (crown) is one letter away from 'zar' (stranger), encoding the teaching that even a stranger can earn the Torah crown.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Priesthood passes by birth; kingship passes by dynasty; the Torah crown has no succession - it is available to anyone. The one-letter shift from 'zeir' to 'zar' encodes this radical openness."
-        },
-        "learningBlocker": "Students may treat the 'crown of Torah' as metaphorical. The Gemara treats it as a real category of honor - structurally distinct from the other crowns precisely because it requires no lineage qualification."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-072b-l04",
-          "type": "ruling",
-          "label": "Three arks (Bezalel)",
-          "speaker": "Rachava/Rav Yehuda",
-          "text": "Wood ark enclosed in two gold ones; the ark's rim is the crown",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-072b-l04",
-              "vilnaLine": 11
-            }
-          ]
-        },
-        {
-          "id": "yoma-072b-l06",
-          "type": "ruling",
-          "label": "Three Temple crowns",
-          "speaker": "Rabbi Yochanan",
-          "text": "Altar, ark, table - priesthood, Torah, kingship",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-072b-l06",
-              "vilnaLine": 16
-            }
-          ]
-        },
-        {
-          "id": "yoma-072b-l07",
-          "type": "ruling",
-          "label": "Zar vs zeir",
-          "speaker": "Rabbi Yochanan",
-          "text": "Merit Torah and it crowns you; fail and it is alien to you",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-072b-l07",
-              "vilnaLine": 21
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "three-crowns",
-        "Torah-study",
-        "inner-integrity",
-        "ark"
-      ],
-      "concepts": {
-        "halachic": [
-          "three Temple crowns: priesthood, Torah, kingship",
-          "crown of Torah available to all",
-          "Torah scholar must be same inside and outside"
-        ],
-        "theological": [
-          "anyone can earn the crown of Torah through effort",
-          "learning must be internalized"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "description": "Argument flow",
-          "role": "anchor",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What is the 'gate without a courtyard'?",
-          "answer": "Learning Torah externally without internalizing it - building the outer form without the inner substance",
-          "sourceRefs": []
-        }
-      ],
-      "finalRuling": "Crown of Torah is open to all who earn it through genuine internalization.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 2,
+     "sefariaRef": "Yoma.72b.2"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-072b-s03",
-      "lineRange": {
-        "startVilnaLine": 21,
-        "endVilnaLine": 46
-      },
-      "lines": [
-        {
-          "vilnaLine": 21,
-          "sefariaRef": "Yoma.72b.7"
-        },
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.72b.8"
-        },
-        {
-          "vilnaLine": 26,
-          "sefariaRef": "Yoma.72b.9"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.72b.10"
-        },
-        {
-          "vilnaLine": 30,
-          "sefariaRef": "Yoma.72b.11"
-        },
-        {
-          "vilnaLine": 34,
-          "sefariaRef": "Yoma.72b.12"
-        },
-        {
-          "vilnaLine": 36,
-          "sefariaRef": "Yoma.72b.13"
-        },
-        {
-          "vilnaLine": 37,
-          "sefariaRef": "Yoma.72b.14"
-        },
-        {
-          "vilnaLine": 41,
-          "sefariaRef": "Yoma.72b.15"
-        },
-        {
-          "vilnaLine": 44,
-          "sefariaRef": "Yoma.72b.16"
-        },
-        {
-          "vilnaLine": 45,
-          "sefariaRef": "Yoma.72b.17"
-        },
-        {
-          "vilnaLine": 46,
-          "sefariaRef": "Yoma.72b.18"
-        },
-        {
-          "vilnaLine": 46,
-          "sefariaRef": "Yoma.72b.19"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.72b.7",
-        "Yoma.72b.8",
-        "Yoma.72b.9",
-        "Yoma.72b.10",
-        "Yoma.72b.11",
-        "Yoma.72b.12",
-        "Yoma.72b.13",
-        "Yoma.72b.14",
-        "Yoma.72b.15",
-        "Yoma.72b.16",
-        "Yoma.72b.17",
-        "Yoma.72b.18",
-        "Yoma.72b.19"
-      ],
-      "display": {
-        "whats": "Aggadic cluster on Torah scholars' inner-outer integrity: the ark covered within and without, Rabbi Yannai's gate-without-a-courtyard parable, and the embroiderer/weaver contrast",
-        "hint": "Why does the Gemara compare someone who learns Torah's outer form without inner substance to a gate built with no courtyard behind it?",
-        "title": "The Gate Without a Courtyard: When Torah Stays on the Outside"
-      },
-      "learning": {
-        "ahaMoment": "Rabbi Yannai's parable names the failure precisely: a gate signals that something valuable lies behind it. A gate with no courtyard is not incomplete work, it is construction that accomplishes nothing, exactly like Torah mastered only on the outside.",
-        "memoryAnchor": "A gate with no courtyard behind it, built but guarding nothing. That is Torah learned only in its outer form.",
-        "learnerQuestion": "What does the Gemara mean by 'a gate without a courtyard,' and what does this teach about how Torah must be studied?",
-        "coreTension": "Building a gate requires effort and skill. Why is externally-acquired Torah knowledge described as a gate without a courtyard - implying useless construction - rather than simply incomplete learning?",
-        "coreMove": "A gate without a courtyard is functionally useless - it guards nothing. Similarly, acquiring the outer form of Torah (texts, arguments, structures) without internalizing its values and meaning is effort that achieves nothing. The Torah crown requires substance; mere external mastery is form without content.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "External Torah learning without internalization is a gate without a courtyard: constructed effort that serves no purpose. The Torah crown requires substance, not form alone."
-        },
-        "learningBlocker": "Students may interpret 'gate without a courtyard' as merely shallow learning. The image is stronger: the gate is not just incomplete but purposeless - it guards nothing. External Torah mastery without internalization misses the entire point."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-072b-l08",
-          "type": "contradiction",
-          "label": "Make yourself vs make an ark",
-          "speaker": "Rabbi Yochanan",
-          "text": "Resolved: God says make it for Me, but if you merit, it becomes yours",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-072b-l08",
-              "vilnaLine": 23
-            }
-          ]
-        },
-        {
-          "id": "yoma-072b-l09",
-          "type": "ruling",
-          "label": "Inside must match outside",
-          "speaker": "Rava",
-          "text": "A Torah scholar must be identical in conduct inside and outside",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-072b-l09",
-              "vilnaLine": 26
-            }
-          ]
-        },
-        {
-          "id": "yoma-072b-l10",
-          "type": "ruling",
-          "label": "Mismatch = abominable",
-          "speaker": "Abaye",
-          "text": "If your inside differs from your outside you are called nitvav (abominable)",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-072b-l10",
-              "vilnaLine": 28
-            }
-          ]
-        },
-        {
-          "id": "yoma-072b-l11",
-          "type": "aggadah",
-          "label": "Torah beloved at every boundary",
-          "speaker": "Rabbi Shmuel b. Nachmani",
-          "text": "Torah scholars are loved everywhere they go",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-072b-l11",
-              "vilnaLine": 30
-            }
-          ]
-        },
-        {
-          "id": "yoma-072b-l12",
-          "type": "aggadah",
-          "label": "Gate without courtyard",
-          "speaker": "Rabbi Yannai",
-          "text": "Woe to one who builds a gatehouse but has no courtyard behind it",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-072b-l12",
-              "vilnaLine": 34
-            }
-          ]
-        },
-        {
-          "id": "yoma-072b-l13",
-          "type": "ruling",
-          "label": "Do not shame scholars",
-          "speaker": "Rava",
-          "text": "Do not inherit Gehenna twice - shame them once in this world",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-072b-l13",
-              "vilnaLine": 36
-            }
-          ]
-        },
-        {
-          "id": "yoma-072b-l14",
-          "type": "ruling",
-          "label": "Torah must be free",
-          "speaker": "Rabbi Yehoshua ben Levi",
-          "text": "Given through fire, water, wilderness - all are free",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-072b-l14",
-              "vilnaLine": 37
-            }
-          ]
-        },
-        {
-          "id": "yoma-072b-l15",
-          "type": "ruling",
-          "label": "Torah from fear endures",
-          "speaker": "Rabbi Chanina",
-          "text": "Fear of God is pure and endures; Torah learned from fear stands",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-072b-l15",
-              "vilnaLine": 41
-            }
-          ]
-        },
-        {
-          "id": "yoma-072b-l16",
-          "type": "ruling",
-          "label": "Torah testimony faithful",
-          "speaker": "Rabbi Chiyya bar Abba",
-          "text": "God faithfully repays each person",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-072b-l16",
-              "vilnaLine": 44
-            }
-          ]
-        },
-        {
-          "id": "yoma-072b-l17",
-          "type": "ruling",
-          "label": "Embroiderer vs weaver",
-          "speaker": "Rabbi Elazar",
-          "text": "Weaver shows pattern on both sides; embroiderer only on front",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-072b-l17",
-              "vilnaLine": 45
-            }
-          ]
-        },
-        {
-          "id": "yoma-072b-l18",
-          "type": "ruling",
-          "label": "Needle vs loom",
-          "speaker": "Rabbi Nechemia",
-          "text": "Embroiderer = needle (one side visible); weaver = loom (both sides)",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-072b-l18",
-              "vilnaLine": 46
-            }
-          ]
-        },
-        {
-          "id": "yoma-072b-l20",
-          "type": "ruling",
-          "label": "Urim VeTummim while serving",
-          "speaker": "Rav Dimi",
-          "text": "Only when actively performing service in the eight vestments",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-072b-l20",
-              "vilnaLine": 47
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "three-crowns",
-        "Torah-study",
-        "inner-integrity",
-        "ark"
-      ],
-      "concepts": {
-        "halachic": [
-          "three Temple crowns: priesthood, Torah, kingship",
-          "crown of Torah available to all",
-          "Torah scholar must be same inside and outside"
-        ],
-        "theological": [
-          "anyone can earn the crown of Torah through effort",
-          "learning must be internalized"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "description": "Argument flow",
-          "role": "anchor",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What is the 'gate without a courtyard'?",
-          "answer": "Learning Torah externally without internalizing it - building the outer form without the inner substance",
-          "sourceRefs": []
-        }
-      ],
-      "finalRuling": "Crown of Torah is open to all who earn it through genuine internalization.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 4,
-      "id": "yoma-072b-s04",
-      "lineRange": {
-        "startVilnaLine": 47,
-        "endVilnaLine": 49
-      },
-      "lines": [
-        {
-          "vilnaLine": 47,
-          "sefariaRef": "Yoma.72b.20"
-        },
-        {
-          "vilnaLine": 49,
-          "sefariaRef": "Yoma.72b.21"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.72b.20",
-        "Yoma.72b.21"
-      ],
-      "display": {
-        "whats": "Weaving techniques and Urim VeTummim: when may it be consulted?",
-        "hint": "What is the difference between embroiderer and weaver, and when can one consult the Urim VeTummim?",
-        "title": "Consulting the Urim VeTummim: Active Service as the Prerequisite"
-      },
-      "learning": {
-        "ahaMoment": "The Urim VeTummim could only be consulted when the High Priest was actually dressed and serving - not merely wearing the vestments for other purposes.",
-        "memoryAnchor": "Urim VeTummim: the ultimate decision tool, but it requires the HP in full service mode - not ceremonial dress.",
-        "learnerQuestion": "Under what conditions may the Urim VeTummim be consulted, and what does the requirement for active service signify?",
-        "coreTension": "The Urim VeTummim answers national questions. Can it be consulted whenever the HP is available, or are specific service conditions required? And what is the distinction between the two weaving techniques for vestments?",
-        "coreMove": "The Urim VeTummim can only be consulted when the HP is dressed in all eight vestments and actively performing Temple service. The Gemara also distinguishes rokem (needle-work embroidery from one side) from choshev (weaving that creates pattern on both faces) - the vestments required the more complex choshev technique.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The Urim VeTummim requires active Temple service as its precondition. It is not available for private consultation but only within the full service setting - linking divine inquiry to its proper institutional context."
-        },
-        "learningBlocker": "Students may assume the HP could consult the Urim VeTummim privately at any time. The requirement for active service in eight vestments restricts the oracle to its proper institutional setting."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-072b-l21",
-          "type": "ruling",
-          "label": "Only anointed kohen may consult",
-          "speaker": "Rav Adda bar Ahava",
-          "text": "Not just any son of the HP - must be the anointed one",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-072b-l21",
-              "vilnaLine": 49
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Urim-VeTummim",
-        "priestly-vestments",
-        "weaving"
-      ],
-      "concepts": {
-        "halachic": [
-          "Urim VeTummim requires HP in active service",
-          "loom weaving vs needle embroidery - pattern visibility differs"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "description": "Argument flow",
-          "role": "anchor",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "When may the Urim VeTummim be consulted?",
-          "answer": "Only when the High Priest is dressed in the eight vestments and actively performing the Temple service",
-          "sourceRefs": []
-        }
-      ],
-      "finalRuling": "Urim VeTummim requires active service by the anointed High Priest in full vestments.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.72b.3"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.72b.1",
+    "Yoma.72b.2",
+    "Yoma.72b.3"
+   ],
+   "display": {
+    "whats": "Priestly vestments atone like sacrifices; loom-woven whole",
+    "hint": "How did the vestments atone, and how were they physically made?",
+    "title": "Vestments Woven Without Seams: Perfection Built Into the Process"
+   },
+   "learning": {
+    "ahaMoment": "Vestments were not sewn - they came off the loom as complete garments, like a sock knitted in the round.",
+    "memoryAnchor": "Imagine knitting a sweater on circular needles - no seams, finished when removed from the loom.",
+    "learnerQuestion": "How were the priestly vestments physically constructed, and why does their seamless construction matter?",
+    "coreTension": "The vestments had to be flawless for Temple service. Any physical defect could potentially invalidate them. Was their construction designed to prevent flaws, or did flawlessness need to be verified after the fact?",
+    "coreMove": "According to R. Shmuel bar Nachmani, the priestly vestments were woven as complete seamless tubes on a loom - never cut and sewn. This seamless construction made them flawless by design: no seams means no weak points, no unraveling, no improper joins. Without valid vestments, the kohanim lack their atoning function.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Priestly vestments were woven seamlessly as complete garments - flawlessness was built into the construction method, not inspected afterward. Seamless weaving ensured integrity from the loom outward."
+    },
+    "learningBlocker": "Students may assume seamless = luxury or extra quality. The seamless technique was the method that ensured structural validity: cut-and-sewn garments would have potential failure points; seamless weaving eliminates them by design."
+   },
+   "argumentFlow": [
     {
-      "he": "אוּרִים וְתוּמִּים",
-      "translit": "Urim VeTummim",
-      "en": "A divine oracle worn in the High Priest's breastplate, used to answer questions of national importance."
+     "id": "yoma-072b-l01",
+     "type": "ruling",
+     "label": "Vestments atone like sacrifices",
+     "speaker": "Aggadic tradition",
+     "text": "Without them Israel's enemies would have been wiped out",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-072b-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "he": "כֶּתֶר תּוֹרָה",
-      "translit": "Keter Torah",
-      "en": "The crown of Torah - the spiritual leadership role available to any person who earns it through learning."
+     "id": "yoma-072b-l02",
+     "type": "ruling",
+     "label": "Woven seamlessly",
+     "speaker": "Rabbi Shmuel bar Nachmani",
+     "text": "The school of Rabbi Shimon: woven as tubes off the loom",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-072b-l02",
+       "vilnaLine": 2
+      }
+     ]
     },
     {
-      "he": "מַעֲשֵׂה רוֹקֵם",
-      "translit": "Ma'aseh rokem",
-      "en": "Embroidery work done with a needle, showing a pattern only on the front side."
+     "id": "yoma-072b-l03",
+     "type": "resolution",
+     "label": "Confirms loom-weaving",
+     "speaker": "Baraita",
+     "text": "Vestments made by loom not by needle - consistent",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-072b-l03",
+       "vilnaLine": 6
+      }
+     ]
     }
-  ],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "he": "אלמלא בגדי כהונה. שעל ידיהן מקריבין הקרבנות המכפרין על",
-      "en": "were it not for the priestly vestments, none of Israel's enemies would have survived - the vestments brought atonement",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 2,
-      "he": "ישראל: שגורדין אותן כברייתן מכליהן. כשהיו חותכין אותן בגרדין",
-      "en": "Rabbi Shmuel bar Nachmani: the vestments were woven as complete tubes, not cut and then sewn",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 3,
-      "he": "שלהן מתוך כלי אריגתן היו עושים כברייתן חלולין כדרך לבישתן",
-      "en": "an objection: vestments are not made by needle but by loom weaving - this confirms they came off the loom whole",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 4,
-      "he": "ולא כשאר יריעה שצריך שוב לחתכה למדת הלבוש ולתפור במחט:",
-      "en": "Rachava citing Rav Yehuda: Bezalel made three arks - a middle wood ark enclosed in two gold ones",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "he": "ומשרדין מהם כלום. ומשיירין מהן",
-      "en": "contradiction: one baraita says the outer ark was eleven cubits tall, another says eleven and a bit",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "he": "מקצת שאינו ארוג עמהן וזהו לשון",
-      "en": "Rabbi Yochanan: three crowns - of the altar, the ark, and the table - correspond to priesthood, Torah, kingship",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "he": "שרד: מאי היא. אותו שיור: אלו",
-      "en": "Rabbi Yochanan: the word is written zar (stranger) but read zeir (crown) - merit it and it becomes your crown; fail and it becomes your enemy",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "he": "מעשה מחט. מקצתו היה נארג",
-      "en": "contradiction: one verse says make yourself an ark, another says make an ark - for God or for yourself?",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "he": "בפני עצמו ומחברו במחט: שלש",
-      "en": "the verse says cover it from within and without - Rabbi Rava: a Torah scholar must be the same inside and outside",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "he": "ארונות. שנאמר מבית ומחוץ תצפנו",
-      "en": "Abaye: one whose inside does not match outside is called abominable",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "he": "ושל עץ באמצע והושיבו בתוך של",
-      "en": "Rabbi Shmuel bar Nachmani citing Rabbi Yonatan: what does 'a lovely hind' mean? Torah scholars are beloved at every boundary",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "he": "זהב וחזר ונתן של זהב שני בתוך של",
-      "en": "Rabbi Yannai: woe to one who has no courtyard but builds a gate for it - learning without inner integration",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "he": "עץ וחיפה שפתו העליונה בזהב",
-      "en": "Rava pleads with his students: do not inherit Gehenna twice - do not embarrass scholars in public",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "he": "נמצא מצופה מבית ומחוץ: תשעה.",
-      "en": "Rabbi Yehoshua ben Levi: the Torah was given as fire, water, and wilderness - just as they are free, Torah is free",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "he": "גבהו תשעה טפחים מבחוץ שנאמר",
-      "en": "Rabbi Shmuel bar Nachmani: contradiction about lips and heart - sometimes written as speech, sometimes as thought",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "he": "אמה וחצי קומתו (שמות כה) ורגלים",
-      "en": "fear of God is pure, it stands forever - Rabbi Chanina: he who learns Torah from fear, his Torah endures",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "he": "לא היו לו אלא עץ חלול היה: פנימי",
-      "en": "the testimony of God is faithful - Rabbi Chiyya bar Abba: it is faithful to repay each person",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "he": "של זהב ח'. טפחים גבהו מבחוץ",
-      "en": "embroiderer vs weaver - Rabbi Elazar: embroiderers made patterns visible on both sides, weavers only one side",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "he": "עם עובי שוליו ועובי שולי העץ של",
-      "en": "Rabbi Nechemia: embroiderer = needle, so the pattern faces outward only; weaver = loom, faces both sides",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "he": "אמצעי טפח נמצא פנימי ממלא חללו",
-      "en": "in these eight vestments one may inquire via Urim VeTummim - when Rav Dimi came from Eretz Yisrael he said this applies only when serving",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "he": "של אמצעי: וחיצון. של זהב: י'",
-      "en": "Rav Adda bar Ahava: a baraita asks - could even a son of the High Priest consult the Urim? Only an anointed kohen",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "he": "ומשהו. תשעה כנגד גובה האמצעי",
-      "en": "[Rashi commentary on line 22]: ומשהו. תשעה כנגד גובה האמצעי",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "he": "ומשהו עובי שולי זהב של חיצון וטפח",
-      "en": "[Rashi commentary on line 23]: ומשהו עובי שולי זהב של חיצון וטפח",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "he": "עשירי עולה למול עובי הכפורת",
-      "en": "[Rashi commentary on line 24]: עשירי עולה למול עובי הכפורת",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "he": "שהוא טפח ומכסה חיבור הכפורת",
-      "en": "[Rashi commentary on line 25]: שהוא טפח ומכסה חיבור הכפורת",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "he": "והארון: והתניא אחד עשר ומשהו.",
-      "en": "[Rashi commentary on line 26]: והארון: והתניא אחד עשר ומשהו.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "he": "ומשני הא כמאן דאמר יש בעובי שולי",
-      "en": "[Rashi commentary on line 27]: ומשני הא כמאן דאמר יש בעובי שולי",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "he": "הזהב טפח כאשר יש בעובי שולי",
-      "en": "[Rashi commentary on line 28]: הזהב טפח כאשר יש בעובי שולי",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "he": "העץ: הא כמאן דאמר אין בעוביו",
-      "en": "[Rashi commentary on line 29]: העץ: הא כמאן דאמר אין בעוביו",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "he": "טפח. אלא משהו ולא ידענא היכא",
-      "en": "[Rashi commentary on line 30]: טפח. אלא משהו ולא ידענא היכא",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "he": "איפליגו בה: ומאי משהו. דקתני",
-      "en": "[Rashi commentary on line 31]: איפליגו בה: ומאי משהו. דקתני",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "he": "בברייתא בתרייתא: זיר. העולה",
-      "en": "[Rashi commentary on line 32]: בברייתא בתרייתא: זיר. העולה",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "he": "היה עודף למעלה על עובי הכפורת",
-      "en": "[Rashi commentary on line 33]: היה עודף למעלה על עובי הכפורת",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "he": "משהו בגובה החיצון להיות זר",
-      "en": "[Rashi commentary on line 34]: משהו בגובה החיצון להיות זר",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "he": "לכפורת סביב ומשהו דקאמר רב",
-      "en": "[Rashi commentary on line 35]: לכפורת סביב ומשהו דקאמר רב",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "he": "יהודה בעובי שולי החיצון קאמר",
-      "en": "[Rashi commentary on line 36]: יהודה בעובי שולי החיצון קאמר",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "he": "ובזר לא איירי כלל: שלשה זירין.",
-      "en": "[Rashi commentary on line 37]: ובזר לא איירי כלל: שלשה זירין.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "he": "נעשו בכלי הקודש של מזבח סימן",
-      "en": "[Rashi commentary on line 38]: נעשו בכלי הקודש של מזבח סימן",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "he": "לכתר כהונה ושל ארון סימן לכתר",
-      "en": "[Rashi commentary on line 39]: לכתר כהונה ושל ארון סימן לכתר",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "he": "תורה ושל שולחן סימן לכתר מלכות",
-      "en": "[Rashi commentary on line 40]: תורה ושל שולחן סימן לכתר מלכות",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "he": "שהשולחן הוא סימן לעושר מלכים:",
-      "en": "[Rashi commentary on line 41]: שהשולחן הוא סימן לעושר מלכים:",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "he": "הכי גרסינן של מזבח זכה אהרן",
-      "en": "[Rashi commentary on line 42]: הכי גרסינן של מזבח זכה אהרן",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "he": "ונטלו של שלחן זכה דוד ונטלו.",
-      "en": "[Rashi commentary on line 43]: ונטלו של שלחן זכה דוד ונטלו.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "he": "שהכהונה נתנה לאהרן ברית מלח",
-      "en": "[Rashi commentary on line 44]: שהכהונה נתנה לאהרן ברית מלח",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "he": "(במדבר יח) וכן המלכות לדוד ולזרעו",
-      "en": "[Rashi commentary on line 45]: (במדבר יח) וכן המלכות לדוד ולזרעו",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "he": "(תהלים יח) : בי מלכים ימלוכו.",
-      "en": "[Rashi commentary on line 46]: (תהלים יח) : בי מלכים ימלוכו.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "he": "וגדול הממליך מן המלך והתורה",
-      "en": "[Rashi commentary on line 47]: וגדול הממליך מן המלך והתורה",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "he": "אמרה מקרא זה: זכה. ללמוד לשמה",
-      "en": "[Rashi commentary on line 48]: אמרה מקרא זה: זכה. ללמוד לשמה",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "he": "ולקיימה: זרה. משתכחת ממנו:",
-      "en": "[Rashi commentary on line 49]: ולקיימה: זרה. משתכחת ממנו:",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "he": "מצווין לעשות מלאכתו. שהארון",
-      "en": "[Rashi commentary on line 50]: מצווין לעשות מלאכתו. שהארון",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "he": "בתחילה הטיל הכתוב המלאכה",
-      "en": "[Rashi commentary on line 51]: בתחילה הטיל הכתוב המלאכה",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 52,
-      "he": "על משה ואח\"כ הטילו על הציבור ואע\"ג דקראי לאו בהאי סידרא",
-      "en": "[Rashi commentary on line 52]: על משה ואח\"כ הטילו על הציבור ואע\"ג דקראי לאו בהאי סידרא",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 53,
-      "he": "כתיבי אסמכתא בעלמא הוא דקאמר: איש שותה. תורה כמים",
-      "en": "[Rashi commentary on line 53]: כתיבי אסמכתא בעלמא הוא דקאמר: איש שותה. תורה כמים",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 54,
-      "he": "ויש בו עולה: דרתא. חצר: ותרעא לדרתיה עביד. שהתורה אינה",
-      "en": "[Rashi commentary on line 54]: ויש בו עולה: דרתא. חצר: ותרעא לדרתיה עביד. שהתורה אינה",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 55,
-      "he": "אלא שער ליכנס בה ליראת שמים לכך צריך שתקדים לו יראת",
-      "en": "[Rashi commentary on line 55]: אלא שער ליכנס בה ליראת שמים לכך צריך שתקדים לו יראת",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 56,
-      "he": "שמים: תרתי גיהנם. להיות יגעים",
-      "en": "[Rashi commentary on line 56]: שמים: תרתי גיהנם. להיות יגעים",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 57,
-      "he": "ועמלים בתורה בעולם הזה ולא",
-      "en": "[Rashi commentary on line 57]: ועמלים בתורה בעולם הזה ולא",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 58,
-      "he": "תקיימוה ותירשו גיהנם במותכם",
-      "en": "[Rashi commentary on line 58]: תקיימוה ותירשו גיהנם במותכם",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 59,
-      "he": "ובחייכם לא נהניתם בעולמכם:",
-      "en": "[Rashi commentary on line 59]: ובחייכם לא נהניתם בעולמכם:",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 60,
-      "he": "צורפתו. ביסורין ובגיהנם: נושא",
-      "en": "[Rashi commentary on line 60]: צורפתו. ביסורין ובגיהנם: נושא",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 61,
-      "he": "אשה. ניצול מהרהור עבירה: להעיד",
-      "en": "[Rashi commentary on line 61]: אשה. ניצול מהרהור עבירה: להעיד",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 62,
-      "he": "בלומדיה. מי קיים ומי לא קיים:",
-      "en": "[Rashi commentary on line 62]: בלומדיה. מי קיים ומי לא קיים:",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 63,
-      "he": "שרוקמין במקום שחושבים. בתחילה",
-      "en": "[Rashi commentary on line 63]: שרוקמין במקום שחושבים. בתחילה",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 64,
-      "he": "מתקן הצורה על הבגד על ידי צבע",
-      "en": "[Rashi commentary on line 64]: מתקן הצורה על הבגד על ידי צבע",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 65,
-      "he": "ואחר כך רוקמה במחט: חושב",
-      "en": "[Rashi commentary on line 65]: ואחר כך רוקמה במחט: חושב",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 66,
-      "he": "מעשה אורג. שיש לה ליריעה שתי",
-      "en": "[Rashi commentary on line 66]: מעשה אורג. שיש לה ליריעה שתי",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 67,
-      "he": "קירות ושתי צורות על שתי קירותיה",
-      "en": "[Rashi commentary on line 67]: קירות ושתי צורות על שתי קירותיה",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 68,
-      "he": "אין דומות זו לזו פעמים שמצד זה",
-      "en": "[Rashi commentary on line 68]: אין דומות זו לזו פעמים שמצד זה",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 69,
-      "he": "ארי ומצד זה נשר כמו לחגורות של",
-      "en": "[Rashi commentary on line 69]: ארי ומצד זה נשר כמו לחגורות של",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 70,
-      "he": "משי והיינו ב' פרצופים אבל רוקם",
-      "en": "[Rashi commentary on line 70]: משי והיינו ב' פרצופים אבל רוקם",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 71,
-      "he": "כצורתו מכאן כך צורתו מכאן: משוח",
-      "en": "[Rashi commentary on line 71]: כצורתו מכאן כך צורתו מכאן: משוח",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 72,
-      "he": "מלחמה. כהן שמשחוהו למלחמה",
-      "en": "[Rashi commentary on line 72]: מלחמה. כהן שמשחוהו למלחמה",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 73,
-      "he": "לדבר דברי מערכי המלחמה שנאמר",
-      "en": "[Rashi commentary on line 73]: לדבר דברי מערכי המלחמה שנאמר",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 74,
-      "he": "ונגש הכהן ודבר אל העם (דברים כ) :",
-      "en": "[Rashi commentary on line 74]: ונגש הכהן ודבר אל העם (דברים כ) :",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 75,
-      "he": "משמש בהן. אם בא לעבוד בבית",
-      "en": "[Rashi commentary on line 75]: משמש בהן. אם בא לעבוד בבית",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 76,
-      "he": "המקדש לובש ח' בגדים: יהיו לבניו",
-      "en": "[Rashi commentary on line 76]: המקדש לובש ח' בגדים: יהיו לבניו",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 77,
-      "he": "אחריו. האי אחריו קרא יתירא הוא",
-      "en": "[Rashi commentary on line 77]: אחריו. האי אחריו קרא יתירא הוא",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 78,
-      "he": "למדרש בה כל גדולות נוהגות בזרעו",
-      "en": "[Rashi commentary on line 78]: למדרש בה כל גדולות נוהגות בזרעו",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 79,
-      "he": "אחריו ומשוח מלחמה גדולה היא:",
-      "en": "[Rashi commentary on line 79]: אחריו ומשוח מלחמה גדולה היא:",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 80,
-      "he": "יכול יהא בנו של משוח מלחמה משמש",
-      "en": "[Rashi commentary on line 80]: יכול יהא בנו של משוח מלחמה משמש",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 81,
-      "he": "תחתיו וכו'. יכול תהא גדולת משוח",
-      "en": "[Rashi commentary on line 81]: תחתיו וכו'. יכול תהא גדולת משוח",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 82,
-      "he": "מלחמה ירושה להיות בנו קודם לכל",
-      "en": "[Rashi commentary on line 82]: מלחמה ירושה להיות בנו קודם לכל",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 83,
-      "he": "אדם כדרך שבנו של כהן גדול משמש",
-      "en": "[Rashi commentary on line 83]: אדם כדרך שבנו של כהן גדול משמש",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 84,
-      "he": "תחתיו רישא דברייתא הכי תניא לה",
-      "en": "[Rashi commentary on line 84]: תחתיו רישא דברייתא הכי תניא לה",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 85,
-      "he": "בת\"כ גבי עשירית האיפה והכהן",
-      "en": "[Rashi commentary on line 85]: בת\"כ גבי עשירית האיפה והכהן",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 86,
-      "he": "המשיח אין לי אלא משיח מרובה",
-      "en": "[Rashi commentary on line 86]: המשיח אין לי אלא משיח מרובה",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 87,
-      "he": "בגדים מניין תלמוד לומר והכהן יכול",
-      "en": "[Rashi commentary on line 87]: בגדים מניין תלמוד לומר והכהן יכול",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 88,
-      "he": "שאני מרבה אף משוח מלחמה תלמוד",
-      "en": "[Rashi commentary on line 88]: שאני מרבה אף משוח מלחמה תלמוד",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 89,
-      "he": "לומר תחתיו מבניו מי שבנו עומד",
-      "en": "[Rashi commentary on line 89]: לומר תחתיו מבניו מי שבנו עומד",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 90,
-      "he": "תחתיו יצא משוח מלחמה שאין בנו",
-      "en": "[Rashi commentary on line 90]: תחתיו יצא משוח מלחמה שאין בנו",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 91,
-      "he": "עומד תחתיו ומניין למשוח מלחמה",
-      "en": "[Rashi commentary on line 91]: עומד תחתיו ומניין למשוח מלחמה",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 92,
-      "he": "שאין בנו עומד תחתיו תלמוד לומר",
-      "en": "[Rashi commentary on line 92]: שאין בנו עומד תחתיו תלמוד לומר",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 93,
-      "he": "שבעת ימים ילבשם הכהן וגו' יצא",
-      "en": "[Rashi commentary on line 93]: שבעת ימים ילבשם הכהן וגו' יצא",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 94,
-      "he": "זה שאין ראוי לבוא אל אהל מועד",
-      "en": "[Rashi commentary on line 94]: זה שאין ראוי לבוא אל אהל מועד",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 95,
-      "he": "לכפר בקודש וגבי כהן גדול",
-      "en": "[Rashi commentary on line 95]: לכפר בקודש וגבי כהן גדול",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 96,
-      "he": "תניא בדוכתא אחריתי בתורת כהנים",
-      "en": "[Rashi commentary on line 96]: תניא בדוכתא אחריתי בתורת כהנים",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 97,
-      "he": "לכהן תחת אביו מלמד שהבן קודם",
-      "en": "[Rashi commentary on line 97]: לכהן תחת אביו מלמד שהבן קודם",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 98,
-      "he": "לכל אדם יכול אף על פי שאין",
-      "en": "[Rashi commentary on line 98]: לכל אדם יכול אף על פי שאין",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 99,
-      "he": "ממלא את מקומו ת\"ל ואשר ימלא:",
-      "en": "[Rashi commentary on line 99]: ממלא את מקומו ת\"ל ואשר ימלא:",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 100,
-      "he": "ת\"ל",
-      "en": "[Rashi commentary on line 100]: ת\"ל",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
+   ],
+   "topicTags": [
+    "priestly-vestments",
+    "atonement",
+    "weaving"
+   ],
+   "concepts": {
+    "halachic": [
+     "priestly vestments have atoning power",
+     "vestments made by loom, not needle"
+    ],
+    "theological": [
+     "vestments as protection for Israel"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "description": "Argument flow",
+     "role": "anchor",
+     "priority": 1
     }
-  ],
-  "review": "reviewed"
+   ],
+   "quizSeeds": [
+    {
+     "question": "How were the priestly vestments made according to Rabbi Shmuel bar Nachmani?",
+     "answer": "Woven as complete seamless tubes on a loom, not cut and sewn",
+     "sourceRefs": []
+    }
+   ],
+   "finalRuling": "Vestments atone for sins; they were woven as seamless garments.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-072b-s02",
+   "lineRange": {
+    "startVilnaLine": 11,
+    "endVilnaLine": 16
+   },
+   "lines": [
+    {
+     "vilnaLine": 11,
+     "sefariaRef": "Yoma.72b.4"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.72b.5"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.72b.6"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.72b.4",
+    "Yoma.72b.5",
+    "Yoma.72b.6"
+   ],
+   "display": {
+    "whats": "Three crowns of the Temple, Torah as inner/outer integrity, scholars' warnings",
+    "hint": "What do the three crowns of the Temple teach about who rules Israel?",
+    "title": "Three Crowns: Only the Torah Crown Is Open to All"
+   },
+   "learning": {
+    "ahaMoment": "The crown of Torah is the only one that has no dynasty - any person can earn it. The word zar (stranger) becomes zeir (crown) depending on how you use Torah.",
+    "memoryAnchor": "Zar vs zeir - one letter difference between 'stranger' and 'crown' mirrors the difference between misusing Torah and elevating it.",
+    "learnerQuestion": "What are the three Temple crowns, and why is the Torah crown uniquely available to anyone, unlike the other two?",
+    "coreTension": "Three crowns are associated with the Mishkan's furnishings: the altar (priesthood), the ark (Torah), and the table (kingship). What does the structure of each crown teach about who can access that form of honor?",
+    "coreMove": "Rabbi Yochanan derives three categories of honor: priesthood (hereditary), kingship (dynastic), and Torah (open). The Torah's crown is the only one with no dynastic succession - anyone can acquire it through learning. The ark's 'zeir' (crown) is one letter away from 'zar' (stranger), encoding the teaching that even a stranger can earn the Torah crown.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Priesthood passes by birth; kingship passes by dynasty; the Torah crown has no succession - it is available to anyone. The one-letter shift from 'zeir' to 'zar' encodes this radical openness."
+    },
+    "learningBlocker": "Students may treat the 'crown of Torah' as metaphorical. The Gemara treats it as a real category of honor - structurally distinct from the other crowns precisely because it requires no lineage qualification."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-072b-l04",
+     "type": "ruling",
+     "label": "Three arks (Bezalel)",
+     "speaker": "Rachava/Rav Yehuda",
+     "text": "Wood ark enclosed in two gold ones; the ark's rim is the crown",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-072b-l04",
+       "vilnaLine": 11
+      }
+     ]
+    },
+    {
+     "id": "yoma-072b-l06",
+     "type": "ruling",
+     "label": "Three Temple crowns",
+     "speaker": "Rabbi Yochanan",
+     "text": "Altar, ark, table - priesthood, Torah, kingship",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-072b-l06",
+       "vilnaLine": 16
+      }
+     ]
+    },
+    {
+     "id": "yoma-072b-l07",
+     "type": "ruling",
+     "label": "Zar vs zeir",
+     "speaker": "Rabbi Yochanan",
+     "text": "Merit Torah and it crowns you; fail and it is alien to you",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-072b-l07",
+       "vilnaLine": 21
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "three-crowns",
+    "Torah-study",
+    "inner-integrity",
+    "ark"
+   ],
+   "concepts": {
+    "halachic": [
+     "three Temple crowns: priesthood, Torah, kingship",
+     "crown of Torah available to all",
+     "Torah scholar must be same inside and outside"
+    ],
+    "theological": [
+     "anyone can earn the crown of Torah through effort",
+     "learning must be internalized"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "description": "Argument flow",
+     "role": "anchor",
+     "priority": 1
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What is the 'gate without a courtyard'?",
+     "answer": "Learning Torah externally without internalizing it - building the outer form without the inner substance",
+     "sourceRefs": []
+    }
+   ],
+   "finalRuling": "Crown of Torah is open to all who earn it through genuine internalization.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-072b-s03",
+   "lineRange": {
+    "startVilnaLine": 21,
+    "endVilnaLine": 46
+   },
+   "lines": [
+    {
+     "vilnaLine": 21,
+     "sefariaRef": "Yoma.72b.7"
+    },
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.72b.8"
+    },
+    {
+     "vilnaLine": 26,
+     "sefariaRef": "Yoma.72b.9"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.72b.10"
+    },
+    {
+     "vilnaLine": 30,
+     "sefariaRef": "Yoma.72b.11"
+    },
+    {
+     "vilnaLine": 34,
+     "sefariaRef": "Yoma.72b.12"
+    },
+    {
+     "vilnaLine": 36,
+     "sefariaRef": "Yoma.72b.13"
+    },
+    {
+     "vilnaLine": 37,
+     "sefariaRef": "Yoma.72b.14"
+    },
+    {
+     "vilnaLine": 41,
+     "sefariaRef": "Yoma.72b.15"
+    },
+    {
+     "vilnaLine": 44,
+     "sefariaRef": "Yoma.72b.16"
+    },
+    {
+     "vilnaLine": 45,
+     "sefariaRef": "Yoma.72b.17"
+    },
+    {
+     "vilnaLine": 46,
+     "sefariaRef": "Yoma.72b.18"
+    },
+    {
+     "vilnaLine": 46,
+     "sefariaRef": "Yoma.72b.19"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.72b.7",
+    "Yoma.72b.8",
+    "Yoma.72b.9",
+    "Yoma.72b.10",
+    "Yoma.72b.11",
+    "Yoma.72b.12",
+    "Yoma.72b.13",
+    "Yoma.72b.14",
+    "Yoma.72b.15",
+    "Yoma.72b.16",
+    "Yoma.72b.17",
+    "Yoma.72b.18",
+    "Yoma.72b.19"
+   ],
+   "display": {
+    "whats": "Aggadic cluster on Torah scholars' inner-outer integrity: the ark covered within and without, Rabbi Yannai's gate-without-a-courtyard parable, and the embroiderer/weaver contrast",
+    "hint": "Why does the Gemara compare someone who learns Torah's outer form without inner substance to a gate built with no courtyard behind it?",
+    "title": "The Gate Without a Courtyard: When Torah Stays on the Outside"
+   },
+   "learning": {
+    "ahaMoment": "Rabbi Yannai's parable names the failure precisely: a gate signals that something valuable lies behind it. A gate with no courtyard is not incomplete work, it is construction that accomplishes nothing, exactly like Torah mastered only on the outside.",
+    "memoryAnchor": "A gate with no courtyard behind it, built but guarding nothing. That is Torah learned only in its outer form.",
+    "learnerQuestion": "What does the Gemara mean by 'a gate without a courtyard,' and what does this teach about how Torah must be studied?",
+    "coreTension": "Building a gate requires effort and skill. Why is externally-acquired Torah knowledge described as a gate without a courtyard - implying useless construction - rather than simply incomplete learning?",
+    "coreMove": "A gate without a courtyard is functionally useless - it guards nothing. Similarly, acquiring the outer form of Torah (texts, arguments, structures) without internalizing its values and meaning is effort that achieves nothing. The Torah crown requires substance; mere external mastery is form without content.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "External Torah learning without internalization is a gate without a courtyard: constructed effort that serves no purpose. The Torah crown requires substance, not form alone."
+    },
+    "learningBlocker": "Students may interpret 'gate without a courtyard' as merely shallow learning. The image is stronger: the gate is not just incomplete but purposeless - it guards nothing. External Torah mastery without internalization misses the entire point."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-072b-l08",
+     "type": "contradiction",
+     "label": "Make yourself vs make an ark",
+     "speaker": "Rabbi Yochanan",
+     "text": "Resolved: God says make it for Me, but if you merit, it becomes yours",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-072b-l08",
+       "vilnaLine": 23
+      }
+     ]
+    },
+    {
+     "id": "yoma-072b-l09",
+     "type": "ruling",
+     "label": "Inside must match outside",
+     "speaker": "Rava",
+     "text": "A Torah scholar must be identical in conduct inside and outside",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-072b-l09",
+       "vilnaLine": 26
+      }
+     ]
+    },
+    {
+     "id": "yoma-072b-l10",
+     "type": "ruling",
+     "label": "Mismatch = abominable",
+     "speaker": "Abaye",
+     "text": "If your inside differs from your outside you are called nitvav (abominable)",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-072b-l10",
+       "vilnaLine": 28
+      }
+     ]
+    },
+    {
+     "id": "yoma-072b-l11",
+     "type": "aggadah",
+     "label": "Torah beloved at every boundary",
+     "speaker": "Rabbi Shmuel b. Nachmani",
+     "text": "Torah scholars are loved everywhere they go",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-072b-l11",
+       "vilnaLine": 30
+      }
+     ]
+    },
+    {
+     "id": "yoma-072b-l12",
+     "type": "aggadah",
+     "label": "Gate without courtyard",
+     "speaker": "Rabbi Yannai",
+     "text": "Woe to one who builds a gatehouse but has no courtyard behind it",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-072b-l12",
+       "vilnaLine": 34
+      }
+     ]
+    },
+    {
+     "id": "yoma-072b-l13",
+     "type": "ruling",
+     "label": "Do not shame scholars",
+     "speaker": "Rava",
+     "text": "Do not inherit Gehenna twice - shame them once in this world",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-072b-l13",
+       "vilnaLine": 36
+      }
+     ]
+    },
+    {
+     "id": "yoma-072b-l14",
+     "type": "ruling",
+     "label": "Torah must be free",
+     "speaker": "Rabbi Yehoshua ben Levi",
+     "text": "Given through fire, water, wilderness - all are free",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-072b-l14",
+       "vilnaLine": 37
+      }
+     ]
+    },
+    {
+     "id": "yoma-072b-l15",
+     "type": "ruling",
+     "label": "Torah from fear endures",
+     "speaker": "Rabbi Chanina",
+     "text": "Fear of God is pure and endures; Torah learned from fear stands",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-072b-l15",
+       "vilnaLine": 41
+      }
+     ]
+    },
+    {
+     "id": "yoma-072b-l16",
+     "type": "ruling",
+     "label": "Torah testimony faithful",
+     "speaker": "Rabbi Chiyya bar Abba",
+     "text": "God faithfully repays each person",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-072b-l16",
+       "vilnaLine": 44
+      }
+     ]
+    },
+    {
+     "id": "yoma-072b-l17",
+     "type": "ruling",
+     "label": "Embroiderer vs weaver",
+     "speaker": "Rabbi Elazar",
+     "text": "Weaver shows pattern on both sides; embroiderer only on front",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-072b-l17",
+       "vilnaLine": 45
+      }
+     ]
+    },
+    {
+     "id": "yoma-072b-l18",
+     "type": "ruling",
+     "label": "Needle vs loom",
+     "speaker": "Rabbi Nechemia",
+     "text": "Embroiderer = needle (one side visible); weaver = loom (both sides)",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-072b-l18",
+       "vilnaLine": 46
+      }
+     ]
+    },
+    {
+     "id": "yoma-072b-l20",
+     "type": "ruling",
+     "label": "Urim VeTummim while serving",
+     "speaker": "Rav Dimi",
+     "text": "Only when actively performing service in the eight vestments",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-072b-l20",
+       "vilnaLine": 47
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "three-crowns",
+    "Torah-study",
+    "inner-integrity",
+    "ark"
+   ],
+   "concepts": {
+    "halachic": [
+     "three Temple crowns: priesthood, Torah, kingship",
+     "crown of Torah available to all",
+     "Torah scholar must be same inside and outside"
+    ],
+    "theological": [
+     "anyone can earn the crown of Torah through effort",
+     "learning must be internalized"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "description": "Argument flow",
+     "role": "anchor",
+     "priority": 1
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What is the 'gate without a courtyard'?",
+     "answer": "Learning Torah externally without internalizing it - building the outer form without the inner substance",
+     "sourceRefs": []
+    }
+   ],
+   "finalRuling": "Crown of Torah is open to all who earn it through genuine internalization.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 4,
+   "id": "yoma-072b-s04",
+   "lineRange": {
+    "startVilnaLine": 47,
+    "endVilnaLine": 49
+   },
+   "lines": [
+    {
+     "vilnaLine": 47,
+     "sefariaRef": "Yoma.72b.20"
+    },
+    {
+     "vilnaLine": 49,
+     "sefariaRef": "Yoma.72b.21"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.72b.20",
+    "Yoma.72b.21"
+   ],
+   "display": {
+    "whats": "Weaving techniques and Urim VeTummim: when may it be consulted?",
+    "hint": "What is the difference between embroiderer and weaver, and when can one consult the Urim VeTummim?",
+    "title": "Consulting the Urim VeTummim: Active Service as the Prerequisite"
+   },
+   "learning": {
+    "ahaMoment": "The Urim VeTummim could only be consulted when the High Priest was actually dressed and serving - not merely wearing the vestments for other purposes.",
+    "memoryAnchor": "Urim VeTummim: the ultimate decision tool, but it requires the HP in full service mode - not ceremonial dress.",
+    "learnerQuestion": "Under what conditions may the Urim VeTummim be consulted, and what does the requirement for active service signify?",
+    "coreTension": "The Urim VeTummim answers national questions. Can it be consulted whenever the HP is available, or are specific service conditions required? And what is the distinction between the two weaving techniques for vestments?",
+    "coreMove": "The Urim VeTummim can only be consulted when the HP is dressed in all eight vestments and actively performing Temple service. The Gemara also distinguishes rokem (needle-work embroidery from one side) from choshev (weaving that creates pattern on both faces) - the vestments required the more complex choshev technique.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The Urim VeTummim requires active Temple service as its precondition. It is not available for private consultation but only within the full service setting - linking divine inquiry to its proper institutional context."
+    },
+    "learningBlocker": "Students may assume the HP could consult the Urim VeTummim privately at any time. The requirement for active service in eight vestments restricts the oracle to its proper institutional setting."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-072b-l21",
+     "type": "ruling",
+     "label": "Only anointed kohen may consult",
+     "speaker": "Rav Adda bar Ahava",
+     "text": "Not just any son of the HP - must be the anointed one",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-072b-l21",
+       "vilnaLine": 49
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "Urim-VeTummim",
+    "priestly-vestments",
+    "weaving"
+   ],
+   "concepts": {
+    "halachic": [
+     "Urim VeTummim requires HP in active service",
+     "loom weaving vs needle embroidery - pattern visibility differs"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "description": "Argument flow",
+     "role": "anchor",
+     "priority": 1
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "When may the Urim VeTummim be consulted?",
+     "answer": "Only when the High Priest is dressed in the eight vestments and actively performing the Temple service",
+     "sourceRefs": []
+    }
+   ],
+   "finalRuling": "Urim VeTummim requires active service by the anointed High Priest in full vestments.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [
+  {
+   "he": "אוּרִים וְתוּמִּים",
+   "translit": "Urim VeTummim",
+   "en": "A divine oracle worn in the High Priest's breastplate, used to answer questions of national importance."
+  },
+  {
+   "he": "כֶּתֶר תּוֹרָה",
+   "translit": "Keter Torah",
+   "en": "The crown of Torah - the spiritual leadership role available to any person who earns it through learning."
+  },
+  {
+   "he": "מַעֲשֵׂה רוֹקֵם",
+   "translit": "Ma'aseh rokem",
+   "en": "Embroidery work done with a needle, showing a pattern only on the front side."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "he": "אלמלא בגדי כהונה. שעל ידיהן מקריבין הקרבנות המכפרין על",
+   "en": "'Were it not for the priestly garments' - for through them the offerings that atone for",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "he": "ישראל: שגורדין אותן כברייתן מכליהן. כשהיו חותכין אותן בגרדין",
+   "en": "Israel are offered. 'That are cut from their weaving-frames in their natural form' - when they would cut them from their weaving frames,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l01",
+    "yoma-072b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "he": "שלהן מתוך כלי אריגתן היו עושים כברייתן חלולין כדרך לבישתן",
+   "en": "from the weaving vessel itself, they made them hollow in their natural form, in the manner they would be worn,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "he": "ולא כשאר יריעה שצריך שוב לחתכה למדת הלבוש ולתפור במחט:",
+   "en": "and not like an ordinary sheet of cloth that must then be cut to the garment's measure and sewn with a needle.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "he": "ומשרדין מהם כלום. ומשיירין מהן",
+   "en": "'And they leave a remnant from them' - they leave over",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "he": "מקצת שאינו ארוג עמהן וזהו לשון",
+   "en": "a small portion not woven together with them, and this is the meaning of the term",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "he": "שרד: מאי היא. אותו שיור: אלו",
+   "en": "'serad' (remnant). 'What is it' - that remnant. 'These are",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "he": "מעשה מחט. מקצתו היה נארג",
+   "en": "needlework' - a portion of it was woven",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "he": "בפני עצמו ומחברו במחט: שלש",
+   "en": "separately, and he would attach it with a needle. 'Three",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l02",
+    "yoma-072b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "he": "ארונות. שנאמר מבית ומחוץ תצפנו",
+   "en": "arks' - since it says, 'you shall overlay it from within and from without,'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "he": "ושל עץ באמצע והושיבו בתוך של",
+   "en": "and the wooden one was in the middle: he set it inside the",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "he": "זהב וחזר ונתן של זהב שני בתוך של",
+   "en": "gold one, then placed a second gold one inside the",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "he": "עץ וחיפה שפתו העליונה בזהב",
+   "en": "wooden one, and overlaid its upper rim with gold,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "he": "נמצא מצופה מבית ומחוץ: תשעה.",
+   "en": "so it turned out overlaid from within and from without. 'Nine'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "he": "גבהו תשעה טפחים מבחוץ שנאמר",
+   "en": "- its height was nine handbreadths on the outside, since it says,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "he": "אמה וחצי קומתו (שמות כה) ורגלים",
+   "en": "'a cubit and a half was its height' (Exodus 25), and legs",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "he": "לא היו לו אלא עץ חלול היה: פנימי",
+   "en": "it had none; it was simply hollow wood. 'The inner one,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "he": "של זהב ח'. טפחים גבהו מבחוץ",
+   "en": "of gold, eight' - handbreadths was its height on the outside,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "he": "עם עובי שוליו ועובי שולי העץ של",
+   "en": "including the thickness of its rim; and the thickness of the wooden",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "he": "אמצעי טפח נמצא פנימי ממלא חללו",
+   "en": "middle ark's rim was a handbreadth, so the inner one filled the hollow",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "he": "של אמצעי: וחיצון. של זהב: י'",
+   "en": "of the middle one. 'And the outer one' - of gold. 'Ten",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "he": "ומשהו. תשעה כנגד גובה האמצעי",
+   "en": "and a bit' - nine corresponding to the middle ark's height,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "he": "ומשהו עובי שולי זהב של חיצון וטפח",
+   "en": "and the bit is the thickness of the outer gold rim, and the",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "he": "עשירי עולה למול עובי הכפורת",
+   "en": "tenth handbreadth rises to meet the thickness of the ark-cover,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "he": "שהוא טפח ומכסה חיבור הכפורת",
+   "en": "which is a handbreadth, and covers the join of the ark-cover",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "he": "והארון: והתניא אחד עשר ומשהו.",
+   "en": "and the ark. 'But isn't it taught: eleven and a bit'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l11",
+    "yoma-072b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "he": "ומשני הא כמאן דאמר יש בעובי שולי",
+   "en": "- and it is resolved: this follows the opinion that the thickness of the",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "he": "הזהב טפח כאשר יש בעובי שולי",
+   "en": "gold rim is a handbreadth, just as the thickness of the",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "he": "העץ: הא כמאן דאמר אין בעוביו",
+   "en": "wood rim is; while the other follows the opinion that its thickness is not",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "he": "טפח. אלא משהו ולא ידענא היכא",
+   "en": "a full handbreadth, but only a bit, and I do not know where exactly",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "he": "איפליגו בה: ומאי משהו. דקתני",
+   "en": "they disagree. 'And what is the bit' - that is taught",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "he": "בברייתא בתרייתא: זיר. העולה",
+   "en": "in the latter baraita? 'A crown' - the crown rose up,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "he": "היה עודף למעלה על עובי הכפורת",
+   "en": "extending above the thickness of the ark-cover",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "he": "משהו בגובה החיצון להיות זר",
+   "en": "by a bit, in the outer ark's height, to be a crown",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "he": "לכפורת סביב ומשהו דקאמר רב",
+   "en": "surrounding the ark-cover; and the 'bit' that Rav",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "he": "יהודה בעובי שולי החיצון קאמר",
+   "en": "Yehuda mentioned refers to the thickness of the outer rim,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "he": "ובזר לא איירי כלל: שלשה זירין.",
+   "en": "and he was not discussing the crown at all. 'Three crowns'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l14",
+    "yoma-072b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "he": "נעשו בכלי הקודש של מזבח סימן",
+   "en": "- were made on the sacred vessels: that of the altar, a symbol",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "he": "לכתר כהונה ושל ארון סימן לכתר",
+   "en": "for the crown of priesthood; that of the ark, a symbol for the crown of",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "he": "תורה ושל שולחן סימן לכתר מלכות",
+   "en": "Torah; and that of the table, a symbol for the crown of kingship,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "he": "שהשולחן הוא סימן לעושר מלכים:",
+   "en": "since the table is a symbol for the wealth of kings.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "he": "הכי גרסינן של מזבח זכה אהרן",
+   "en": "'This is how we read it: that of the altar, Aaron merited",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "he": "ונטלו של שלחן זכה דוד ונטלו.",
+   "en": "and took it; that of the table, David merited and took it'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "he": "שהכהונה נתנה לאהרן ברית מלח",
+   "en": "- for priesthood was given to Aaron as a covenant of salt",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "he": "(במדבר יח) וכן המלכות לדוד ולזרעו",
+   "en": "(Numbers 18), and so too kingship to David and his descendants",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "he": "(תהלים יח) : בי מלכים ימלוכו.",
+   "en": "(Psalms 18). 'Through Me kings shall reign'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "he": "וגדול הממליך מן המלך והתורה",
+   "en": "- and the one who crowns is greater than the king, and the Torah",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "he": "אמרה מקרא זה: זכה. ללמוד לשמה",
+   "en": "is the one that made this statement. 'He who merits it' - by learning it for its own sake",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l16",
+    "yoma-072b-l21"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "he": "ולקיימה: זרה. משתכחת ממנו:",
+   "en": "and fulfilling it. 'It becomes strange to him' - it is forgotten by him.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l21"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "he": "מצווין לעשות מלאכתו. שהארון",
+   "en": "'They are commanded to do his work' - for regarding the ark,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "he": "בתחילה הטיל הכתוב המלאכה",
+   "en": "Scripture first placed the task",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "he": "על משה ואח\"כ הטילו על הציבור ואע\"ג דקראי לאו בהאי סידרא",
+   "en": "upon Moses, and afterward placed it upon the community; and even though the verses are not written in this order,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "he": "כתיבי אסמכתא בעלמא הוא דקאמר: איש שותה. תורה כמים",
+   "en": "he is speaking merely as a mnemonic support. 'A man drinks' - Torah, like water,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l23",
+    "yoma-072b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "he": "ויש בו עולה: דרתא. חצר: ותרעא לדרתיה עביד. שהתורה אינה",
+   "en": "and there is wrongdoing in this. 'Darta' - courtyard. 'Yet made a gate for his courtyard' - for Torah is only",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l28",
+    "yoma-072b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "he": "אלא שער ליכנס בה ליראת שמים לכך צריך שתקדים לו יראת",
+   "en": "a gateway through which one enters to fear of Heaven; therefore fear of Heaven must precede",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "he": "שמים: תרתי גיהנם. להיות יגעים",
+   "en": "it. 'A double Gehenna' - to be weary",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l34",
+    "yoma-072b-l36"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "he": "ועמלים בתורה בעולם הזה ולא",
+   "en": "and toiling over Torah in this world, and yet not",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l36"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "he": "תקיימוה ותירשו גיהנם במותכם",
+   "en": "fulfill it, so that you inherit Gehenna at your death,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l36"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "he": "ובחייכם לא נהניתם בעולמכם:",
+   "en": "while in your lifetime you had no enjoyment in your world either.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l36"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "he": "צורפתו. ביסורין ובגיהנם: נושא",
+   "en": "'It refines him' - through suffering and through Gehenna. 'He marries",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l41",
+    "yoma-072b-l44"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "he": "אשה. ניצול מהרהור עבירה: להעיד",
+   "en": "a woman' - he is saved from sinful thoughts. 'To testify",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l44",
+    "yoma-072b-l45"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "he": "בלומדיה. מי קיים ומי לא קיים:",
+   "en": "concerning those who study it' - who fulfilled it and who did not.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l45"
+   ]
+  },
+  {
+   "vilnaLine": 63,
+   "he": "שרוקמין במקום שחושבים. בתחילה",
+   "en": "'They embroider where they weave the design' - first",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l46a"
+   ]
+  },
+  {
+   "vilnaLine": 64,
+   "he": "מתקן הצורה על הבגד על ידי צבע",
+   "en": "he fixes the design onto the garment by means of dye,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l46a"
+   ]
+  },
+  {
+   "vilnaLine": 65,
+   "he": "ואחר כך רוקמה במחט: חושב",
+   "en": "and afterward embroiders it with a needle. 'Choshev'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l46a",
+    "yoma-072b-l46b"
+   ]
+  },
+  {
+   "vilnaLine": 66,
+   "he": "מעשה אורג. שיש לה ליריעה שתי",
+   "en": "is loom-work' - for the sheet has two",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l46b"
+   ]
+  },
+  {
+   "vilnaLine": 67,
+   "he": "קירות ושתי צורות על שתי קירותיה",
+   "en": "faces, with two designs on its two faces",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l46b"
+   ]
+  },
+  {
+   "vilnaLine": 68,
+   "he": "אין דומות זו לזו פעמים שמצד זה",
+   "en": "that are not alike; sometimes on one side",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l46b"
+   ]
+  },
+  {
+   "vilnaLine": 69,
+   "he": "ארי ומצד זה נשר כמו לחגורות של",
+   "en": "a lion and on the other side an eagle, like the belts made of",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l46b"
+   ]
+  },
+  {
+   "vilnaLine": 70,
+   "he": "משי והיינו ב' פרצופים אבל רוקם",
+   "en": "silk, and this is called 'two faces'; but embroidery",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l46b"
+   ]
+  },
+  {
+   "vilnaLine": 71,
+   "he": "כצורתו מכאן כך צורתו מכאן: משוח",
+   "en": "has the same design on this side as on that side. 'The one anointed",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l46b",
+    "yoma-072b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 72,
+   "he": "מלחמה. כהן שמשחוהו למלחמה",
+   "en": "for war' - a priest who was anointed for war,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 73,
+   "he": "לדבר דברי מערכי המלחמה שנאמר",
+   "en": "to speak the words concerning the battle lines, as it is stated,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 74,
+   "he": "ונגש הכהן ודבר אל העם (דברים כ) :",
+   "en": "'and the priest shall approach and speak to the people' (Deuteronomy 20).",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 75,
+   "he": "משמש בהן. אם בא לעבוד בבית",
+   "en": "'Serves in them' - if he comes to serve in the",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 76,
+   "he": "המקדש לובש ח' בגדים: יהיו לבניו",
+   "en": "Temple, he wears the eight garments. 'Shall be for his sons",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 77,
+   "he": "אחריו. האי אחריו קרא יתירא הוא",
+   "en": "after him' - this word 'after him' is superfluous in the verse,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 78,
+   "he": "למדרש בה כל גדולות נוהגות בזרעו",
+   "en": "meant to be expounded that all forms of greatness apply to his descendants",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 79,
+   "he": "אחריו ומשוח מלחמה גדולה היא:",
+   "en": "after him, and being anointed for war is a form of greatness.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 80,
+   "he": "יכול יהא בנו של משוח מלחמה משמש",
+   "en": "'One might think that a son of the priest anointed for war serves",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 81,
+   "he": "תחתיו וכו'. יכול תהא גדולת משוח",
+   "en": "in his place,' etc. - one might think that the greatness of the anointed-for-war status",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 82,
+   "he": "מלחמה ירושה להיות בנו קודם לכל",
+   "en": "is inherited, so that his son takes precedence over everyone",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 83,
+   "he": "אדם כדרך שבנו של כהן גדול משמש",
+   "en": "else, just as a High Priest's son serves",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 84,
+   "he": "תחתיו רישא דברייתא הכי תניא לה",
+   "en": "in his place. The opening of the baraita is taught this way",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 85,
+   "he": "בת\"כ גבי עשירית האיפה והכהן",
+   "en": "in Torat Kohanim, regarding the tenth of an eifah and 'the",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 86,
+   "he": "המשיח אין לי אלא משיח מרובה",
+   "en": "anointed priest': I would know only that this applies to the priest anointed with many",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 87,
+   "he": "בגדים מניין תלמוד לומר והכהן יכול",
+   "en": "garments; from where do we derive it applies to others too? The verse teaches, 'and the priest' - one might think",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 88,
+   "he": "שאני מרבה אף משוח מלחמה תלמוד",
+   "en": "I should include even the priest anointed for war; the verse teaches,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 89,
+   "he": "לומר תחתיו מבניו מי שבנו עומד",
+   "en": "'in his place, from his sons' - meaning specifically one whose son stands",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 90,
+   "he": "תחתיו יצא משוח מלחמה שאין בנו",
+   "en": "in his place; this excludes the priest anointed for war, whose son does not stand",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 91,
+   "he": "עומד תחתיו ומניין למשוח מלחמה",
+   "en": "in his place. And from where do we know that the priest anointed for war",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 92,
+   "he": "שאין בנו עומד תחתיו תלמוד לומר",
+   "en": "'s son does not stand in his place? The verse teaches,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 93,
+   "he": "שבעת ימים ילבשם הכהן וגו' יצא",
+   "en": "'seven days shall the priest... wear them,' etc. - this excludes",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 94,
+   "he": "זה שאין ראוי לבוא אל אהל מועד",
+   "en": "one who is not fit to enter the Tent of Meeting",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 95,
+   "he": "לכפר בקודש וגבי כהן גדול",
+   "en": "to atone in the sanctuary. And regarding the High Priest,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 96,
+   "he": "תניא בדוכתא אחריתי בתורת כהנים",
+   "en": "it is taught elsewhere in Torat Kohanim:",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 97,
+   "he": "לכהן תחת אביו מלמד שהבן קודם",
+   "en": "'to be priest in his father's place' - this teaches that the son takes precedence",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 98,
+   "he": "לכל אדם יכול אף על פי שאין",
+   "en": "over everyone else; one might think even if he does not",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 99,
+   "he": "ממלא את מקומו ת\"ל ואשר ימלא:",
+   "en": "fill his father's position; the verse teaches, 'and whoever shall fill it.'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 100,
+   "he": "ת\"ל",
+   "en": "'The verse teaches' - the daf ends mid-word here; the comment continues on 73a.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-072b-l49"
+   ]
+  }
+ ],
+ "review": "reviewed"
 }
