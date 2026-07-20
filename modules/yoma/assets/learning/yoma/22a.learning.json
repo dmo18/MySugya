@@ -1,910 +1,919 @@
 {
-  "daf": "22a",
-  "canonicalRef": "Yoma 22a",
-  "summary": "Chapter 2 opens: originally, whoever arrived first at the ash removal ramp won the privilege of performing the terumat hadeshen. This led to competition and once to a dangerous incident. The first section describes the original free-for-all and its problems. The second section gives the background that led the Sages to institute a lottery system instead: the incident of a priest stabbing a competitor while running up the ramp, shocking the court into reform.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "22a",
+ "canonicalRef": "Yoma 22a",
+ "summary": "Chapter 2 opens: originally, whoever arrived first at the ash removal ramp won the privilege of performing the terumat hadeshen. This led to competition and once to a dangerous incident. The first section describes the original free-for-all and its problems. The second section gives the background that led the Sages to institute a lottery system instead: the incident of a priest stabbing a competitor while running up the ramp, shocking the court into reform.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-022a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 35
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-022a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 35
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.22a.1"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.22a.2"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.22a.3"
-        },
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.22a.4"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.22a.5"
-        },
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.22a.6"
-        },
-        {
-          "vilnaLine": 21,
-          "sefariaRef": "Yoma.22a.7"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.22a.8"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.22a.9"
-        },
-        {
-          "vilnaLine": 30,
-          "sefariaRef": "Yoma.22a.10"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.22a.1",
-        "Yoma.22a.2",
-        "Yoma.22a.3",
-        "Yoma.22a.4",
-        "Yoma.22a.5",
-        "Yoma.22a.6",
-        "Yoma.22a.7",
-        "Yoma.22a.8",
-        "Yoma.22a.9",
-        "Yoma.22a.10"
-      ],
-      "display": {
-        "title": "From a footrace up the ramp to Saul and David: why one word triggers a digression about royal punishment",
-        "whats": "The mishna: originally priests ran up the ramp to win the ash removal privilege - first one there got it. If two were tied, they raced or had a count-off. This system was used until an incident involving violence (discussed in s02). The Gemara discusses: why was this method used? How was a tie broken? What were the original rules? Also: the Gemara asks why Saul and David are discussed in this context - and a lengthy digression on biblical narrative begins.",
-        "hint": "The shift from 'whoever runs fastest wins' to 'lottery decides' marks a fundamental change in Temple culture: from competitive pride to controlled order. The violence of the incident was not accidental - it was the natural outcome of a competitive system with high stakes and zealous priests."
-      },
-      "learning": {
-        "learnerQuestion": "Why does a discussion of how priests broke a tie in the ash removal race suddenly turn into a lengthy comparison of Saul's and David's very different fates?",
-        "coreTension": "The tie-break procedure described, a count-off where priests extend fingers toward a named number, uses the word mispar, 'count.' That single shared word seems like a thin thread to justify a long digression about why Saul lost his kingdom for a seemingly smaller sin while David kept his after a far graver one.",
-        "coreMove": "The Gemara follows the verbal link from mispar to Saul's counting of Israel's troops in Samuel, and once inside that narrative it pursues a real interpretive problem: Saul's failure to fully destroy Amalek looks like a partial, almost technical lapse, while David's adultery and arranging Uriah's death are unambiguously severe, yet Saul lost the throne and David did not. The resolution turns not on the size of the sin but on its character and aftermath: Saul's failure was a public rejection of an explicit divine command, met without full acknowledgment, while David's sin, though graver, was followed by complete and immediate repentance. Royal continuity tracks the completeness of the response to wrongdoing, not the raw severity of the wrongdoing itself.",
-        "resolution": "Saul lost the kingdom not because his sin was objectively worse than David's, but because it was a public rejection of a direct command without full repentance, while David's far graver sin was followed by complete, immediate repentance, which is what determined whether the throne was retained.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Consequences for wrongdoing can track the completeness of repentance and the public character of the failure rather than the objective severity of the act itself; a smaller sin met with incomplete repentance can carry a heavier penalty than a graver sin fully repented."
-        },
-        "ahaMoment": "The original system was pure meritocracy of speed, the fastest priest won. This reflected Temple zeal. But zeal without structure is dangerous, as the stabbing incident (s02) proved.",
-        "learningBlocker": "Learners expect the Gemara's digressions to be thematically motivated and get lost looking for a substantive connection between ash removal and royal succession, missing that the trigger here is purely verbal, the shared word mispar, which is itself a recognizable and recurring pattern of talmudic association worth naming.",
-        "memoryAnchor": "Originally: race up the ramp, ties broken by count-off (mispar). That word triggers the Saul digression: Saul's public, unrepented failure cost him the throne; David's private, fully repented sin did not."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-022a-l01",
-          "type": "ruling",
-          "label": "Mishna: originally whoever arrived first removed the ashes",
-          "text": "The original protocol for ash removal was pure competition: priests ran up the ramp, and whoever arrived at the top first performed the service.",
-          "sourceRefs": [
-            "Yoma.22a.1"
-          ]
-        },
-        {
-          "id": "yoma-022a-l05",
-          "type": "elaboration",
-          "label": "What happened when two priests arrived simultaneously?",
-          "text": "If two priests reached the top of the ramp at the same time, they had a count-off (mispar), or alternatively, they raced from the start of the Temple courtyard.",
-          "sourceRefs": [
-            "Yoma.22a.2"
-          ]
-        },
-        {
-          "id": "yoma-022a-l07",
-          "type": "question",
-          "label": "How did the count-off work?",
-          "text": "The officer named a number higher than the participants; each priest extended fingers, and they were counted. Whoever's count reached the named number won.",
-          "sourceRefs": [
-            "Yoma.22a.3"
-          ]
-        },
-        {
-          "id": "yoma-022a-l12",
-          "type": "digression",
-          "label": "Biblical digression: Saul and the count",
-          "text": "A reference to counting connects to Samuel I and the story of Saul counting Israel - launching a lengthy biblical narrative digression about Saul and David.",
-          "sourceRefs": [
-            "Yoma.22a.4"
-          ]
-        },
-        {
-          "id": "yoma-022a-l16",
-          "type": "narrative",
-          "label": "Saul and David: narrative details",
-          "text": "The Gemara discusses the question of why Saul was punished so severely (losing the kingdom) for what seems like a minor sin, while David, who sinned more gravely, was not stripped of the kingdom.",
-          "sourceRefs": [
-            "Yoma.22a.5"
-          ]
-        },
-        {
-          "id": "yoma-022a-l18",
-          "type": "narrative",
-          "label": "Saul's sin vs. David's sin: the severity question",
-          "text": "R. Elazar: Saul uprooted a word of Torah (he killed the priests of Nov); David repented and was forgiven. The kingdom depends not on the sin's size but on whether repentance was complete.",
-          "sourceRefs": [
-            "Yoma.22a.6"
-          ]
-        },
-        {
-          "id": "yoma-022a-l21",
-          "type": "narrative",
-          "label": "Amalek command and Saul's partial compliance",
-          "text": "Saul was commanded to destroy Amalek completely. He spared Agag and the best sheep. The Gemara examines why partial compliance was treated as total failure.",
-          "sourceRefs": [
-            "Yoma.22a.7"
-          ]
-        },
-        {
-          "id": "yoma-022a-l22",
-          "type": "narrative",
-          "label": "Samuel's response to Saul's partial compliance",
-          "text": "Samuel told Saul: because you rejected God's word, God rejected you as king. The Gemara analyzes the severity of the response.",
-          "sourceRefs": [
-            "Yoma.22a.8"
-          ]
-        },
-        {
-          "id": "yoma-022a-l27",
-          "type": "narrative",
-          "label": "David's sin with Bathsheba: the comparison",
-          "text": "David's adultery and arrangement of Uriah's death seem more severe than Saul's partial compliance. Yet David was not dethroned. The Gemara explores why.",
-          "sourceRefs": [
-            "Yoma.22a.9"
-          ]
-        },
-        {
-          "id": "yoma-022a-l30",
-          "type": "narrative",
-          "label": "Resolution: repentance and the nature of the sin",
-          "text": "The resolution involves the quality of repentance and the nature of the audience. Saul's public sin (disobeying a public divine command) required public punishment; David's sin was private and his repentance was immediate.",
-          "sourceRefs": [
-            "Yoma.22a.10"
-          ]
-        }
-      ],
-      "topicTags": [
-        "terumat hadeshen",
-        "lottery",
-        "ash removal",
-        "count-off",
-        "Saul",
-        "David",
-        "Amalek",
-        "repentance",
-        "kingship"
-      ],
-      "concepts": {
-        "halachic": [
-          "terumat hadeshen competition",
-          "count-off procedure",
-          "lottery as replacement"
-        ],
-        "theological": [
-          "punishment proportional to sin",
-          "repentance and royal continuity",
-          "Saul vs. David: the fairness question"
-        ],
-        "narrative": [
-          "Saul and Amalek",
-          "David and Bathsheba",
-          "Samuel's rebuke"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "yoma-020a-s02"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The Saul-David comparison is meant to excuse or minimize David's sin.",
-          "correction": "David's sin, adultery and arranging Uriah's death, is treated as extremely serious throughout. The comparison explores why the consequences for the throne differed, focusing on the completeness of repentance, not on downplaying David's wrongdoing."
-        },
-        {
-          "misconception": "The count-off procedure was an informal or arbitrary tie-breaker.",
-          "correction": "It was a structured, fair random selection: priests extended any number of fingers, the officer named a total in advance, and whoever's count landed on that total won, functioning much like the lottery system that would later replace it entirely."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-022b-s02",
-        "yoma-023a-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "description": "Priests racing up the altar ramp in the early morning before dawn to be first to remove the ashes"
-        },
-        {
-          "type": "action",
-          "description": "Count-off procedure: priests extending fingers, an officer counting to a predetermined number"
-        },
-        {
-          "type": "contrast",
-          "description": "Saul vs. David: similar sins with drastically different consequences; diagram of repentance as the key variable"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What was the original method for determining which priest would remove the altar ashes, and what triggers the digression about Saul and David?",
-          "answer": "Priests raced up the altar ramp; whoever arrived first performed the service. If two tied, a count-off (mispar) determined the winner. The shared word mispar links to Saul's counting of Israel's troops in Samuel, launching the digression."
-        },
-        {
-          "question": "Why did Saul lose the kingdom for sparing Agag and the best sheep, while David kept the throne despite adultery and arranging a man's death?",
-          "answer": "The deciding factor was not the relative size of the sins but their character and aftermath: Saul's failure was a public rejection of an explicit command without full repentance, while David's far graver sin was followed by complete, immediate repentance, which is what preserved his kingship."
-        }
-      ],
-      "finalRuling": "Originally priests raced to the top of the altar ramp. A count-off resolved ties. The system was later replaced by lottery after an incident of violence.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "תְּרוּמַת הַדֶּשֶׁן",
-          "translit": "terumat hadeshen",
-          "en": "Removal of the altar ashes; the first daily Temple service, competed for by priests."
-        },
-        {
-          "he": "מִסְפָּר",
-          "translit": "mispar",
-          "en": "Count-off; the method for resolving ties in the ash removal competition."
-        },
-        {
-          "he": "כֶּבֶשׁ",
-          "translit": "kevesh",
-          "en": "The ramp leading up to the altar; the site of the priestly race."
-        }
-      ],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.22a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-022a-s02",
-      "lineRange": {
-        "startVilnaLine": 36,
-        "endVilnaLine": 49
-      },
-      "lines": [
-        {
-          "vilnaLine": 36,
-          "sefariaRef": "Yoma.22a.11"
-        },
-        {
-          "vilnaLine": 39,
-          "sefariaRef": "Yoma.22a.12"
-        },
-        {
-          "vilnaLine": 40,
-          "sefariaRef": "Yoma.22a.13"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.22a.11",
-        "Yoma.22a.12",
-        "Yoma.22a.13"
-      ],
-      "display": {
-        "title": "The stabbing on the ramp: why one act of violence ended priestly competition for good",
-        "whats": "The incident that led to the lottery: once two priests were racing up the ramp and one pushed the other off, then stabbed him with a knife. The court was horrified. The father of the wounded priest (concerned it might make the knife ritually impure) caused a secondary incident. The Sages instituted the lottery system because of this violence.",
-        "hint": "The stabbing incident is shocking because it occurred in the Temple itself, by a priest, during service. The father's reaction (concerned about knife impurity!) adds a darkly comic element - even in crisis, halachic categories operated. The Sages rightly concluded that competitive systems in sacred contexts breed dangerous consequences."
-      },
-      "learning": {
-        "learnerQuestion": "The race-and-count-off system in s01 sounds orderly enough to have been the mishna's default for generations. What happened that was severe enough to scrap it entirely rather than just patch it?",
-        "coreTension": "A procedure that had functioned as the accepted method for assigning ash removal had to be abolished outright and replaced system-wide, not just for this one service. That degree of reform implies the triggering event was not ordinary competitive friction but something the court saw as discrediting the whole approach.",
-        "coreMove": "Two priests racing up the ramp ended in one pushing the other and stabbing him with a knife. What turned this from a violent crime into grounds for comprehensive reform was the father's reaction: he ran up not principally to save his son but to remove the knife before it could contract corpse impurity if his son died while still impaled. That reflex, halachic categories operating even in the middle of a stabbing, showed the Sages how far competitive zeal had displaced ordinary human response, and they replaced racing with lottery for all Temple service assignments, not just this one.",
-        "resolution": "The Sages abolished the competitive race entirely and instituted the lottery (goralot) system for assigning all Temple services, not only ash removal, in direct response to this incident.",
-        "takeaway": {
-          "type": "logical_principle",
-          "text": "A single severe incident can discredit an entire procedural system even when that system had functioned acceptably for a long time, prompting comprehensive reform rather than a narrow patch."
-        },
-        "ahaMoment": "The father's bizarre halachic concern mid-tragedy captures the Temple's unusual psychological environment: even at his son's stabbing, a priest's instinct was to prevent the knife from becoming impure. This reveals both the depth of halachic commitment and its potential to crowd out normal human responses.",
-        "learningBlocker": "Learners tend to treat the father's knife-impurity concern as a colorful side detail in a violence story, missing that it is the detail doing the real work: it is what showed the Sages that the competitive system itself, not just one bad actor, had distorted priestly judgment badly enough to require replacing it entirely.",
-        "memoryAnchor": "Priest stabbed on ramp. Father runs up, not to save his son, but to save the knife from impurity. Sages institute lottery for all Temple services."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-022a-l36",
-          "type": "narrative",
-          "label": "The stabbing incident",
-          "text": "Two priests raced up the altar ramp. One pushed the other. The pusher then stabbed the fallen priest with a knife while he lay on the ground.",
-          "sourceRefs": [
-            "Yoma.22a.11"
-          ]
-        },
-        {
-          "id": "yoma-022a-l39",
-          "type": "narrative",
-          "label": "The father's reaction: knife impurity concern",
-          "text": "The wounded priest's father ran up and pulled out the knife - not to help his son, but because he was concerned the knife would become impure if his son died while still impaled. The crowd realized the son was still alive.",
-          "sourceRefs": [
-            "Yoma.22a.12"
-          ]
-        },
-        {
-          "id": "yoma-022a-l40",
-          "type": "ruling",
-          "label": "The Sages institute the lottery",
-          "text": "Shocked by the violence, the Sages abolished the competitive race and instituted the lottery (goralot) system for assigning all Temple services.",
-          "sourceRefs": [
-            "Yoma.22a.13"
-          ]
-        }
-      ],
-      "topicTags": [
-        "lottery",
-        "violence in Temple",
-        "Sages reform",
-        "knife impurity",
-        "priestly competition",
-        "goralot"
-      ],
-      "concepts": {
-        "halachic": [
-          "knife impurity from corpse contact",
-          "lottery system origins",
-          "reform of Temple procedures"
-        ],
-        "theological": [
-          "Temple violence as institutional failure",
-          "halachic commitment as both strength and limitation"
-        ],
-        "narrative": [
-          "the stabbing on the ramp",
-          "the father's halakhic reflex"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "yoma-022a-s01"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The father abandoned his dying son to save a knife.",
-          "correction": "The text presents his primary stated motive as preventing knife impurity, but removing the knife may also have reduced further blood loss. The Gemara records his halachic reflex without ruling on whether it was admirable or disturbing."
-        },
-        {
-          "misconception": "The lottery system was instituted just for ash removal.",
-          "correction": "It replaced all competitive selection of Temple services, not only ash removal. This single stabbing incident triggered a comprehensive system-wide reform."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-022b-s02",
-        "yoma-023a-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "description": "Two priests racing up the altar ramp, one pushing the other and stabbing him with a knife"
-        },
-        {
-          "type": "action",
-          "description": "The wounded priest's father rushing up the ramp to remove the knife before his son dies, to prevent the knife from contracting corpse impurity"
-        },
-        {
-          "type": "contrast",
-          "description": "Before lottery: chaotic race up the ramp. After lottery: orderly selection in the chamber of hewn stone"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What incident caused the Sages to abolish the ramp race entirely rather than just discipline the offending priest?",
-          "answer": "Two priests raced up the altar ramp; one pushed the other and stabbed him with a knife. The father's halachic reflex, concern for the knife's purity rather than his son's life, revealed how far competitive zeal had distorted priestly judgment, prompting the Sages to replace the entire system with lottery."
-        },
-        {
-          "question": "Why does the father's reaction matter more to the sugya than the stabbing itself?",
-          "answer": "The stabbing alone could have been treated as one priest's crime. It was the father's reflex, running to save the knife from impurity rather than his son, that showed the Sages the competitive system itself had warped priestly instincts, justifying a comprehensive reform rather than a narrow punishment."
-        }
-      ],
-      "finalRuling": "After the stabbing incident on the altar ramp, the Sages instituted the lottery system for all Temple service assignments.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "גּוֹרָל",
-          "translit": "goral",
-          "en": "Lottery; the system instituted by the Sages to replace competitive racing for Temple service privileges."
-        },
-        {
-          "he": "טוּמְאַת מֵת",
-          "translit": "tumeat met",
-          "en": "Corpse impurity; the severe form of ritual impurity transmitted by a dead body, to which metal implements like knives can become susceptible."
-        }
-      ],
-      "review": "reviewed"
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.22a.2"
+    },
+    {
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.22a.3"
+    },
+    {
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.22a.4"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.22a.5"
+    },
+    {
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.22a.6"
+    },
+    {
+     "vilnaLine": 21,
+     "sefariaRef": "Yoma.22a.7"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.22a.8"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.22a.9"
+    },
+    {
+     "vilnaLine": 30,
+     "sefariaRef": "Yoma.22a.10"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.22a.1",
+    "Yoma.22a.2",
+    "Yoma.22a.3",
+    "Yoma.22a.4",
+    "Yoma.22a.5",
+    "Yoma.22a.6",
+    "Yoma.22a.7",
+    "Yoma.22a.8",
+    "Yoma.22a.9",
+    "Yoma.22a.10"
+   ],
+   "display": {
+    "title": "From a footrace up the ramp to Saul and David: why one word triggers a digression about royal punishment",
+    "whats": "The mishna: originally priests ran up the ramp to win the ash removal privilege - first one there got it. If two were tied, they raced or had a count-off. This system was used until an incident involving violence (discussed in s02). The Gemara discusses: why was this method used? How was a tie broken? What were the original rules? Also: the Gemara asks why Saul and David are discussed in this context - and a lengthy digression on biblical narrative begins.",
+    "hint": "The shift from 'whoever runs fastest wins' to 'lottery decides' marks a fundamental change in Temple culture: from competitive pride to controlled order. The violence of the incident was not accidental - it was the natural outcome of a competitive system with high stakes and zealous priests."
+   },
+   "learning": {
+    "learnerQuestion": "Why does a discussion of how priests broke a tie in the ash removal race suddenly turn into a lengthy comparison of Saul's and David's very different fates?",
+    "coreTension": "The tie-break procedure described, a count-off where priests extend fingers toward a named number, uses the word mispar, 'count.' That single shared word seems like a thin thread to justify a long digression about why Saul lost his kingdom for a seemingly smaller sin while David kept his after a far graver one.",
+    "coreMove": "The Gemara follows the verbal link from mispar to Saul's counting of Israel's troops in Samuel, and once inside that narrative it pursues a real interpretive problem: Saul's failure to fully destroy Amalek looks like a partial, almost technical lapse, while David's adultery and arranging Uriah's death are unambiguously severe, yet Saul lost the throne and David did not. The resolution turns not on the size of the sin but on its character and aftermath: Saul's failure was a public rejection of an explicit divine command, met without full acknowledgment, while David's sin, though graver, was followed by complete and immediate repentance. Royal continuity tracks the completeness of the response to wrongdoing, not the raw severity of the wrongdoing itself.",
+    "resolution": "Saul lost the kingdom not because his sin was objectively worse than David's, but because it was a public rejection of a direct command without full repentance, while David's far graver sin was followed by complete, immediate repentance, which is what determined whether the throne was retained.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Consequences for wrongdoing can track the completeness of repentance and the public character of the failure rather than the objective severity of the act itself; a smaller sin met with incomplete repentance can carry a heavier penalty than a graver sin fully repented."
+    },
+    "ahaMoment": "The original system was pure meritocracy of speed, the fastest priest won. This reflected Temple zeal. But zeal without structure is dangerous, as the stabbing incident (s02) proved.",
+    "learningBlocker": "Learners expect the Gemara's digressions to be thematically motivated and get lost looking for a substantive connection between ash removal and royal succession, missing that the trigger here is purely verbal, the shared word mispar, which is itself a recognizable and recurring pattern of talmudic association worth naming.",
+    "memoryAnchor": "Originally: race up the ramp, ties broken by count-off (mispar). That word triggers the Saul digression: Saul's public, unrepented failure cost him the throne; David's private, fully repented sin did not."
+   },
+   "argumentFlow": [
     {
-      "he": "תְּרוּמַת הַדֶּשֶׁן",
-      "translit": "terumat hadeshen",
-      "en": "Altar ash removal; originally competed for by racing priests."
+     "id": "yoma-022a-l01",
+     "type": "ruling",
+     "label": "Mishna: originally whoever arrived first removed the ashes",
+     "text": "The original protocol for ash removal was pure competition: priests ran up the ramp, and whoever arrived at the top first performed the service.",
+     "sourceRefs": [
+      "Yoma.22a.1"
+     ]
     },
     {
-      "he": "מִסְפָּר",
-      "translit": "mispar",
-      "en": "Count-off; the tie-breaking method before the lottery."
+     "id": "yoma-022a-l05",
+     "type": "elaboration",
+     "label": "What happened when two priests arrived simultaneously?",
+     "text": "If two priests reached the top of the ramp at the same time, they had a count-off (mispar), or alternatively, they raced from the start of the Temple courtyard.",
+     "sourceRefs": [
+      "Yoma.22a.2"
+     ]
     },
     {
-      "he": "כֶּבֶשׁ",
-      "translit": "kevesh",
-      "en": "Altar ramp; site of the priestly race and the stabbing incident."
+     "id": "yoma-022a-l07",
+     "type": "question",
+     "label": "How did the count-off work?",
+     "text": "The officer named a number higher than the participants; each priest extended fingers, and they were counted. Whoever's count reached the named number won.",
+     "sourceRefs": [
+      "Yoma.22a.3"
+     ]
     },
     {
-      "he": "גּוֹרָל",
-      "translit": "goral",
-      "en": "Lottery; replaced competitive racing after the stabbing incident."
+     "id": "yoma-022a-l12",
+     "type": "digression",
+     "label": "Biblical digression: Saul and the count",
+     "text": "A reference to counting connects to Samuel I and the story of Saul counting Israel - launching a lengthy biblical narrative digression about Saul and David.",
+     "sourceRefs": [
+      "Yoma.22a.4"
+     ]
     },
     {
-      "he": "טוּמְאַת מֵת",
-      "translit": "tumeat met",
-      "en": "Corpse impurity; what the father feared the knife would contract."
+     "id": "yoma-022a-l16",
+     "type": "narrative",
+     "label": "Saul and David: narrative details",
+     "text": "The Gemara discusses the question of why Saul was punished so severely (losing the kingdom) for what seems like a minor sin, while David, who sinned more gravely, was not stripped of the kingdom.",
+     "sourceRefs": [
+      "Yoma.22a.5"
+     ]
+    },
+    {
+     "id": "yoma-022a-l18",
+     "type": "narrative",
+     "label": "Saul's sin vs. David's sin: the severity question",
+     "text": "R. Elazar: Saul uprooted a word of Torah (he killed the priests of Nov); David repented and was forgiven. The kingdom depends not on the sin's size but on whether repentance was complete.",
+     "sourceRefs": [
+      "Yoma.22a.6"
+     ]
+    },
+    {
+     "id": "yoma-022a-l21",
+     "type": "narrative",
+     "label": "Amalek command and Saul's partial compliance",
+     "text": "Saul was commanded to destroy Amalek completely. He spared Agag and the best sheep. The Gemara examines why partial compliance was treated as total failure.",
+     "sourceRefs": [
+      "Yoma.22a.7"
+     ]
+    },
+    {
+     "id": "yoma-022a-l22",
+     "type": "narrative",
+     "label": "Samuel's response to Saul's partial compliance",
+     "text": "Samuel told Saul: because you rejected God's word, God rejected you as king. The Gemara analyzes the severity of the response.",
+     "sourceRefs": [
+      "Yoma.22a.8"
+     ]
+    },
+    {
+     "id": "yoma-022a-l27",
+     "type": "narrative",
+     "label": "David's sin with Bathsheba: the comparison",
+     "text": "David's adultery and arrangement of Uriah's death seem more severe than Saul's partial compliance. Yet David was not dethroned. The Gemara explores why.",
+     "sourceRefs": [
+      "Yoma.22a.9"
+     ]
+    },
+    {
+     "id": "yoma-022a-l30",
+     "type": "narrative",
+     "label": "Resolution: repentance and the nature of the sin",
+     "text": "The resolution involves the quality of repentance and the nature of the audience. Saul's public sin (disobeying a public divine command) required public punishment; David's sin was private and his repentance was immediate.",
+     "sourceRefs": [
+      "Yoma.22a.10"
+     ]
     }
-  ],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "en": "Opens 'Mishnah: at first, whoever wished to remove the ashes': any priest who was of that priestly division",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "continuing: wishing to remove the ashes in the morning would do so, and there was no lottery",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "closing: for the matter.' Then opens 'and when they were numerous': those who came to remove the ashes, one saying 'I will remove them' and another",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "continuing: saying 'I will remove them' - this was their procedure.' Then opens 'they would run and go up the ramp': which was thirty-",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "continuing: two cubits in length.' Then opens 'and whoever preceded among them': entering",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "continuing: into the upper four cubits of the ramp,",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "continuing: adjoining the top of the altar, gained the right to remove the ashes,",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "closing: and this was their determination.' Then opens 'and if the two of them were equal' -",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "continuing: in their entry, neither one gains the right to remove the ashes,",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "continuing: but then all of them come to cast lots,",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: and what is the lottery? The officer in charge of the lotteries",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: says to all of them: 'put out'",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "continuing: your fingers - each one would show his finger,",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "continuing: as is explained further on in this chapter: they surround and stand",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: in a circle; the officer comes and takes the turban",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: from the head of one of them, and from him the lottery",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: begins to be counted, and he brings out each one's",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: finger for the count, and the officer says: whichever one",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: the count ends on, he gains the right; and he states",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "continuing: aloud from his mouth a number, either a hundred or sixty, considerably",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: more than the priests present there, and he begins",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: to count from this one who had the turban taken from his head,",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: and goes around and counts, going around again and again until",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: the end of the count, and whoever the count ends on",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "closing: is the winner, and so for every lottery.' Then opens 'one or",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "closing: two': in the Gemara it raises a question about this.' Then opens 'and'",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: 'they may not put out a thumb in the Temple': the Gemara explains",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: because of cheaters, that when the count draws near to its end",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: and he watches for whom it will end, this one standing before him would put out",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "continuing: two fingers, so that he count for two men,",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: and thereby speed the count to end upon him, and the officer",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: would not notice, since a person can spread",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: a thumb far from the finger, and they would appear",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "closing: like the fingers of two men.' Then opens 'except by lottery' -",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "closing: this which we have explained.' Then opens 'there were four lotteries there' -",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "closing: four times a day they would gather for the lottery.",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Opens 'Gemara: but this': this service, of removing",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "closing: the ashes itself.' Then opens 'originally': before the mishap occurred",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "closing: in their running.' Then opens 'why did they not institute a lottery for it' -",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: like all the other services in the mishnah, which we learned",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "closing: all began with a lottery.' Then opens 'originally",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "closing: they reasoned': the court.' Then opens 'since it is a nighttime",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "continuing: service, it is': since it becomes valid at night, it was not considered",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "closing: significant enough by the priests, and they did not come to quarrel over it.",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Opens 'but the burning of the limbs': which is valid",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "continuing: the entire night, and we learned regarding the lotteries in the mishnah",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "continuing: (further on, 25a): who brings the limbs up",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "closing: to the ramp, and from the ramp to the altar?' Then opens 'the completion of the service",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "continuing: of the daytime, it is': for it is the finishing of the offering",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "continuing: that was slaughtered by day and whose blood was cast by day; therefore",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "continuing: it is significant in the priests' eyes, for them to come and vie",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "closing: for it.' Then opens 'the next day he need not sanctify again': if",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "continuing: he did not leave the Temple, and even according to Rabbi, who says regarding the slaughter of sacred offerings (Zevachim 19b) that lodging overnight has effect for requiring re-sanctification of hands and feet, he concedes that from the rooster's crowing until dawn, lodging overnight does not",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "closing: disqualify it.' Then opens 'from the start of the service': from which it follows he calls it the start of the service.' Then opens 'say instead: for he had already sanctified from the start': for the sake of the service.' Then opens 'it is different to lose sleep than to arise': easier",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "continuing: for a person to forgo sleep from his eyes rather than to go to sleep until the end of the night, than to be standing up from his bed early, which is the removal of the ashes.' Then opens 'and was that ordinance for this side' -",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "closing: it is a difficulty: is it, then, because of the mishap that occurred that a lottery was instituted for it?' Then opens 'but was it not for this side': for the sake of arranging the woodpile and the two logs, since the one who removes the ashes is",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "continuing: also the one who arranges it, and since all these fall to one priest, these are significant services, and originally they required a lottery.' Then opens 'the two logs of wood': two long split logs, the size of the width of",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "continuing: the woodpile, and he places them atop the wood of the arrangement; and this is derived from the verse further on (26b): 'and the priest shall lay wood upon it,' and 'the wood of the arrangement shall burn upon it,' meaning two",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "continuing: logs of wood, for that verse speaks of the arrangement; the beginning of the verse, 'and the fire on the altar shall be kept burning on it,' etc. - so wherever 'its burning-place' occurs in this passage it means the arrangement,",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 60,
-      "en": "closing: a bonfire.' Then opens 'they said, who can say that it will happen': it was not considered significant enough for them to trouble themselves over a mere possibility.' Then opens 'of the ground': the four cubits of ground adjoining",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 61,
-      "en": "closing: the ramp, before ascending it.' Then opens 'the first ones, too, not': the first four at the foot of the ramp.' Then opens 'those in between' - to select four cubits within the thirty-",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l36"
-      ]
-    },
-    {
-      "vilnaLine": 62,
-      "en": "closing: two, for this purpose.' Then opens 'they set no marker': there was to be no sign among them.' Then opens 'it is obvious to me': that the four cubits of the ramp, regarding the altar, we learned; however this I must ask, since we hold (Zevachim",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l39"
-      ]
-    },
-    {
-      "vilnaLine": 63,
-      "en": "continuing: 62b): that the ramp overhangs one cubit at the entry of the base, and one cubit at the surround, from which it follows that the four cubits adjoining the ramp, at the beginning of the altar's base from below, become six at the point where the roof of",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l39"
-      ]
-    },
-    {
-      "vilnaLine": 64,
-      "en": "closing: the altar adjoins, since the altar's roof is set back two cubits from the first base; and so he asks whether the mishnah's 'four cubits' refers to the roof of the altar, meaning together with the base-cubit and the surround-cubit.",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l39"
-      ]
-    },
-    {
-      "vilnaLine": 65,
-      "en": "Opens 'or' -",
-      "linkedGemaraLineIds": [
-        "yoma-022a-l40"
-      ]
+   ],
+   "topicTags": [
+    "terumat hadeshen",
+    "lottery",
+    "ash removal",
+    "count-off",
+    "Saul",
+    "David",
+    "Amalek",
+    "repentance",
+    "kingship"
+   ],
+   "concepts": {
+    "halachic": [
+     "terumat hadeshen competition",
+     "count-off procedure",
+     "lottery as replacement"
+    ],
+    "theological": [
+     "punishment proportional to sin",
+     "repentance and royal continuity",
+     "Saul vs. David: the fairness question"
+    ],
+    "narrative": [
+     "Saul and Amalek",
+     "David and Bathsheba",
+     "Samuel's rebuke"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "yoma-020a-s02"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The Saul-David comparison is meant to excuse or minimize David's sin.",
+     "correction": "David's sin, adultery and arranging Uriah's death, is treated as extremely serious throughout. The comparison explores why the consequences for the throne differed, focusing on the completeness of repentance, not on downplaying David's wrongdoing."
+    },
+    {
+     "misconception": "The count-off procedure was an informal or arbitrary tie-breaker.",
+     "correction": "It was a structured, fair random selection: priests extended any number of fingers, the officer named a total in advance, and whoever's count landed on that total won, functioning much like the lottery system that would later replace it entirely."
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-022b-s02",
+    "yoma-023a-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "description": "Priests racing up the altar ramp in the early morning before dawn to be first to remove the ashes"
+    },
+    {
+     "type": "action",
+     "description": "Count-off procedure: priests extending fingers, an officer counting to a predetermined number"
+    },
+    {
+     "type": "contrast",
+     "description": "Saul vs. David: similar sins with drastically different consequences; diagram of repentance as the key variable"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What was the original method for determining which priest would remove the altar ashes, and what triggers the digression about Saul and David?",
+     "answer": "Priests raced up the altar ramp; whoever arrived first performed the service. If two tied, a count-off (mispar) determined the winner. The shared word mispar links to Saul's counting of Israel's troops in Samuel, launching the digression."
+    },
+    {
+     "question": "Why did Saul lose the kingdom for sparing Agag and the best sheep, while David kept the throne despite adultery and arranging a man's death?",
+     "answer": "The deciding factor was not the relative size of the sins but their character and aftermath: Saul's failure was a public rejection of an explicit command without full repentance, while David's far graver sin was followed by complete, immediate repentance, which is what preserved his kingship."
+    }
+   ],
+   "finalRuling": "Originally priests raced to the top of the altar ramp. A count-off resolved ties. The system was later replaced by lottery after an incident of violence.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "תְּרוּמַת הַדֶּשֶׁן",
+     "translit": "terumat hadeshen",
+     "en": "Removal of the altar ashes; the first daily Temple service, competed for by priests."
+    },
+    {
+     "he": "מִסְפָּר",
+     "translit": "mispar",
+     "en": "Count-off; the method for resolving ties in the ash removal competition."
+    },
+    {
+     "he": "כֶּבֶשׁ",
+     "translit": "kevesh",
+     "en": "The ramp leading up to the altar; the site of the priestly race."
+    }
+   ],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-022a-s02",
+   "lineRange": {
+    "startVilnaLine": 36,
+    "endVilnaLine": 49
+   },
+   "lines": [
+    {
+     "vilnaLine": 36,
+     "sefariaRef": "Yoma.22a.11"
+    },
+    {
+     "vilnaLine": 39,
+     "sefariaRef": "Yoma.22a.12"
+    },
+    {
+     "vilnaLine": 40,
+     "sefariaRef": "Yoma.22a.13"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.22a.11",
+    "Yoma.22a.12",
+    "Yoma.22a.13"
+   ],
+   "display": {
+    "title": "The stabbing on the ramp: why one act of violence ended priestly competition for good",
+    "whats": "The incident that led to the lottery: once two priests were racing up the ramp and one pushed the other off, then stabbed him with a knife. The court was horrified. The father of the wounded priest (concerned it might make the knife ritually impure) caused a secondary incident. The Sages instituted the lottery system because of this violence.",
+    "hint": "The stabbing incident is shocking because it occurred in the Temple itself, by a priest, during service. The father's reaction (concerned about knife impurity!) adds a darkly comic element - even in crisis, halachic categories operated. The Sages rightly concluded that competitive systems in sacred contexts breed dangerous consequences."
+   },
+   "learning": {
+    "learnerQuestion": "The race-and-count-off system in s01 sounds orderly enough to have been the mishna's default for generations. What happened that was severe enough to scrap it entirely rather than just patch it?",
+    "coreTension": "A procedure that had functioned as the accepted method for assigning ash removal had to be abolished outright and replaced system-wide, not just for this one service. That degree of reform implies the triggering event was not ordinary competitive friction but something the court saw as discrediting the whole approach.",
+    "coreMove": "Two priests racing up the ramp ended in one pushing the other and stabbing him with a knife. What turned this from a violent crime into grounds for comprehensive reform was the father's reaction: he ran up not principally to save his son but to remove the knife before it could contract corpse impurity if his son died while still impaled. That reflex, halachic categories operating even in the middle of a stabbing, showed the Sages how far competitive zeal had displaced ordinary human response, and they replaced racing with lottery for all Temple service assignments, not just this one.",
+    "resolution": "The Sages abolished the competitive race entirely and instituted the lottery (goralot) system for assigning all Temple services, not only ash removal, in direct response to this incident.",
+    "takeaway": {
+     "type": "logical_principle",
+     "text": "A single severe incident can discredit an entire procedural system even when that system had functioned acceptably for a long time, prompting comprehensive reform rather than a narrow patch."
+    },
+    "ahaMoment": "The father's bizarre halachic concern mid-tragedy captures the Temple's unusual psychological environment: even at his son's stabbing, a priest's instinct was to prevent the knife from becoming impure. This reveals both the depth of halachic commitment and its potential to crowd out normal human responses.",
+    "learningBlocker": "Learners tend to treat the father's knife-impurity concern as a colorful side detail in a violence story, missing that it is the detail doing the real work: it is what showed the Sages that the competitive system itself, not just one bad actor, had distorted priestly judgment badly enough to require replacing it entirely.",
+    "memoryAnchor": "Priest stabbed on ramp. Father runs up, not to save his son, but to save the knife from impurity. Sages institute lottery for all Temple services."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-022a-l36",
+     "type": "narrative",
+     "label": "The stabbing incident",
+     "text": "Two priests raced up the altar ramp. One pushed the other. The pusher then stabbed the fallen priest with a knife while he lay on the ground.",
+     "sourceRefs": [
+      "Yoma.22a.11"
+     ]
+    },
+    {
+     "id": "yoma-022a-l39",
+     "type": "narrative",
+     "label": "The father's reaction: knife impurity concern",
+     "text": "The wounded priest's father ran up and pulled out the knife - not to help his son, but because he was concerned the knife would become impure if his son died while still impaled. The crowd realized the son was still alive.",
+     "sourceRefs": [
+      "Yoma.22a.12"
+     ]
+    },
+    {
+     "id": "yoma-022a-l40",
+     "type": "ruling",
+     "label": "The Sages institute the lottery",
+     "text": "Shocked by the violence, the Sages abolished the competitive race and instituted the lottery (goralot) system for assigning all Temple services.",
+     "sourceRefs": [
+      "Yoma.22a.13"
+     ]
+    }
+   ],
+   "topicTags": [
+    "lottery",
+    "violence in Temple",
+    "Sages reform",
+    "knife impurity",
+    "priestly competition",
+    "goralot"
+   ],
+   "concepts": {
+    "halachic": [
+     "knife impurity from corpse contact",
+     "lottery system origins",
+     "reform of Temple procedures"
+    ],
+    "theological": [
+     "Temple violence as institutional failure",
+     "halachic commitment as both strength and limitation"
+    ],
+    "narrative": [
+     "the stabbing on the ramp",
+     "the father's halakhic reflex"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "yoma-022a-s01"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The father abandoned his dying son to save a knife.",
+     "correction": "The text presents his primary stated motive as preventing knife impurity, but removing the knife may also have reduced further blood loss. The Gemara records his halachic reflex without ruling on whether it was admirable or disturbing."
+    },
+    {
+     "misconception": "The lottery system was instituted just for ash removal.",
+     "correction": "It replaced all competitive selection of Temple services, not only ash removal. This single stabbing incident triggered a comprehensive system-wide reform."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-022b-s02",
+    "yoma-023a-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "description": "Two priests racing up the altar ramp, one pushing the other and stabbing him with a knife"
+    },
+    {
+     "type": "action",
+     "description": "The wounded priest's father rushing up the ramp to remove the knife before his son dies, to prevent the knife from contracting corpse impurity"
+    },
+    {
+     "type": "contrast",
+     "description": "Before lottery: chaotic race up the ramp. After lottery: orderly selection in the chamber of hewn stone"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What incident caused the Sages to abolish the ramp race entirely rather than just discipline the offending priest?",
+     "answer": "Two priests raced up the altar ramp; one pushed the other and stabbed him with a knife. The father's halachic reflex, concern for the knife's purity rather than his son's life, revealed how far competitive zeal had distorted priestly judgment, prompting the Sages to replace the entire system with lottery."
+    },
+    {
+     "question": "Why does the father's reaction matter more to the sugya than the stabbing itself?",
+     "answer": "The stabbing alone could have been treated as one priest's crime. It was the father's reflex, running to save the knife from impurity rather than his son, that showed the Sages the competitive system itself had warped priestly instincts, justifying a comprehensive reform rather than a narrow punishment."
+    }
+   ],
+   "finalRuling": "After the stabbing incident on the altar ramp, the Sages instituted the lottery system for all Temple service assignments.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "גּוֹרָל",
+     "translit": "goral",
+     "en": "Lottery; the system instituted by the Sages to replace competitive racing for Temple service privileges."
+    },
+    {
+     "he": "טוּמְאַת מֵת",
+     "translit": "tumeat met",
+     "en": "Corpse impurity; the severe form of ritual impurity transmitted by a dead body, to which metal implements like knives can become susceptible."
+    }
+   ],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [
+  {
+   "he": "תְּרוּמַת הַדֶּשֶׁן",
+   "translit": "terumat hadeshen",
+   "en": "Altar ash removal; originally competed for by racing priests."
+  },
+  {
+   "he": "מִסְפָּר",
+   "translit": "mispar",
+   "en": "Count-off; the tie-breaking method before the lottery."
+  },
+  {
+   "he": "כֶּבֶשׁ",
+   "translit": "kevesh",
+   "en": "Altar ramp; site of the priestly race and the stabbing incident."
+  },
+  {
+   "he": "גּוֹרָל",
+   "translit": "goral",
+   "en": "Lottery; replaced competitive racing after the stabbing incident."
+  },
+  {
+   "he": "טוּמְאַת מֵת",
+   "translit": "tumeat met",
+   "en": "Corpse impurity; what the father feared the knife would contract."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "Originally, whoever wished to remove the ashes - any priest who was of that priestly division",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "wishing to remove the ashes in the morning would do so, and there was no lottery",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "for the matter. And when they were numerous - those who came to remove the ashes, one saying 'I will remove them' and another",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "saying 'I will remove them' - this was their procedure. They would run and go up the ramp - which was thirty-",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "two cubits in length. And whoever preceded among them - entering",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "into the upper four cubits of the ramp,",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "adjoining the top of the altar, gained the right to remove the ashes,",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "and this was their determination. And if the two of them were equal -",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "in their entry, neither one gains the right to remove the ashes,",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "but then all of them come to cast lots,",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "and what is the lottery? The officer in charge of the lotteries",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "says to all of them: 'put out your fingers.' Bring out",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "your fingers - each one would show his finger,",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "as is explained further on in this chapter: they surround and stand",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "in a circle; the officer comes and takes the turban",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "from the head of one of them, and from him the lottery",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "begins to be counted, and he brings out each one's",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "finger for the count, and the officer says: whichever one",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "the count ends on, he gains the right; and he states",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "aloud from his mouth a number, either a hundred or sixty, considerably",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "more than the priests present there, and he begins",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "to count from this one who had the turban taken from his head,",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "and goes around and counts, going around again and again until",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "the end of the count, and whoever the count ends on",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "is the winner, and so for every lottery. One or",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01",
+    "yoma-022a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "two - in the Gemara it raises a question about this. And",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "they may not put out a thumb in the Temple - the Gemara explains",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "because of cheaters, that when the count draws near to its end",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "and he watches for whom it will end, this one standing before him would put out",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "two fingers, so that he count for two men,",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "and thereby speed the count to end upon him, and the officer",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "would not notice, since a person can spread",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "a thumb far from the finger, and they would appear",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "like the fingers of two men. Except by lottery -",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l05",
+    "yoma-022a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "this which we have explained. There were four lotteries there -",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "four times a day they would gather for the lottery.",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "Gemara: but this - this service, of removing",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "the ashes itself. Originally - before the mishap occurred",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "in their running. Why did they not institute a lottery for it -",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "like all the other services in the mishnah, which we learned",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "all began with a lottery. Originally",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "they reasoned - the court. Since it is a nighttime",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "service, it is - since it becomes valid at night, it was not considered",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "significant enough by the priests, and they did not come to quarrel over it.",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "But the burning of the limbs - which is valid",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "the entire night, and we learned regarding the lotteries in the mishnah",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "(further on, 25a): who brings the limbs up",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "to the ramp, and from the ramp to the altar? The completion of the service",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "of the daytime, it is - for it is the finishing of the offering",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "that was slaughtered by day and whose blood was cast by day; therefore",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "it is significant in the priests' eyes, for them to come and vie",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "for it. The next day he need not sanctify again - if",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "he did not leave the Temple, and even according to Rabbi, who says regarding the slaughter of sacred offerings (Zevachim 19b) that lodging overnight has effect for requiring re-sanctification of hands and feet, he concedes that from the rooster's crowing until dawn, lodging overnight does not",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "disqualify it. From the start of the service - from which it follows he calls it the start of the service. Say instead: for he had already sanctified from the start - for the sake of the service. It is different to lose sleep than to arise - easier",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l18",
+    "yoma-022a-l21",
+    "yoma-022a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "for a person to forgo sleep from his eyes rather than to go to sleep until the end of the night, than to be standing up from his bed early, which is the removal of the ashes. And was that ordinance for this side -",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l22",
+    "yoma-022a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "it is a difficulty: is it, then, because of the mishap that occurred that a lottery was instituted for it? But was it not for this side - for the sake of arranging the woodpile and the two logs, since the one who removes the ashes is",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "also the one who arranges it, and since all these fall to one priest, these are significant services, and originally they required a lottery. The two logs of wood - two long split logs, the size of the width of",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "the woodpile, and he places them atop the wood of the arrangement; and this is derived from the verse further on (26b), 'and the priest shall lay wood upon it,' and 'the wood of the arrangement shall burn upon it,' meaning two",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "logs of wood, for that verse speaks of the arrangement; the beginning of the verse, 'and the fire on the altar shall be kept burning on it,' etc. - so wherever 'its burning-place' occurs in this passage it means the arrangement,",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "a bonfire. They said, who can say that it will happen - it was not considered significant enough for them to trouble themselves over a mere possibility. Of the ground - the four cubits of ground adjoining",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l27",
+    "yoma-022a-l30",
+    "yoma-022a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "the ramp, before ascending it. The first ones, too, not - the first four at the foot of the ramp. Those in between -",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l36",
+    "yoma-022a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "to select four cubits within the thirty-two, for this purpose. They set no marker - there was to be no sign among them. It is obvious to me -",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 63,
+   "en": "that the four cubits of the ramp, regarding the altar, we learned; however this I must ask, since we hold (Zevachim 62b), that the ramp overhangs one cubit at the entry of the base, and one cubit at the surround, from which it follows that the four cubits adjoining the ramp, at the beginning of the altar's base from below, become six at the point where the roof of",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 64,
+   "en": "the altar adjoins, since the altar's roof is set back two cubits from the first base; and so he asks whether the mishnah's four cubits refers to the roof of the altar, meaning together with the base-cubit and the surround-cubit.",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l39",
+    "yoma-022a-l40"
+   ]
+  },
+  {
+   "vilnaLine": 65,
+   "en": "Or - the daf ends mid-word here; the comment (weighing whether it instead refers to the lower pavement adjacent to the altar's base) continues on 22b.",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l40"
+   ]
+  }
+ ]
 }
