@@ -1,548 +1,551 @@
 {
-  "daf": "17a",
-  "canonicalRef": "Yoma 17a",
-  "summary": "The page closes the extended Chamber of the Lambs debate. Segment [0] reaches a verdict: Middot follows R. Eliezer ben Yaakov. Then Rav Adda b. R. Yitzchak offers a different resolution: the Chamber of the Lambs was not in a corner at all but along the middle of the west wall, making its apparent location depend on the viewer's approach direction. The Gemara prefers the two-authority resolution (SW per Middot vs NW per Tamid reflect different tannaitic traditions). The page then transitions to a new topic: the High Priest's rights to sacrifice first and take first - followed by a debate about how many Shewbread loaves the KG receives when the twelve loaves are distributed on Shabbat between the outgoing and incoming watch-shifts.",
-  "review": {
+ "daf": "17a",
+ "canonicalRef": "Yoma 17a",
+ "summary": "The page closes the extended Chamber of the Lambs debate. Segment [0] reaches a verdict: Middot follows R. Eliezer ben Yaakov. Then Rav Adda b. R. Yitzchak offers a different resolution: the Chamber of the Lambs was not in a corner at all but along the middle of the west wall, making its apparent location depend on the viewer's approach direction. The Gemara prefers the two-authority resolution (SW per Middot vs NW per Tamid reflect different tannaitic traditions). The page then transitions to a new topic: the High Priest's rights to sacrifice first and take first - followed by a debate about how many Shewbread loaves the KG receives when the twelve loaves are distributed on Shabbat between the outgoing and incoming watch-shifts.",
+ "review": {
+  "content": "ai_generated",
+  "sourceRefs": "ai_generated"
+ },
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-17a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 9
+   },
+   "lines": [
+    {
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.17a.1"
+    },
+    {
+     "vilnaLine": 2,
+     "sefariaRef": "Yoma.17a.2"
+    },
+    {
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.17a.3"
+    },
+    {
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.17a.4"
+    },
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.17a.5"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.17a.1",
+    "Yoma.17a.2",
+    "Yoma.17a.3",
+    "Yoma.17a.4",
+    "Yoma.17a.5"
+   ],
+   "display": {
+    "title": "Closing the debate: a simpler verdict over a viewing-angle workaround",
+    "whats": "The page closes the extended Chamber of the Lambs debate. First, a verdict is reached: Tractate Middot follows R. Eliezer ben Yaakov, and the Chamber of the Lambs was in the southwest corner of the Beit HaMoked. Then Rav Adda bar R. Yitzchak offers a different approach: the Chamber of the Lambs was not in any corner but along the middle of the west wall - so it appeared to be in different corners from different viewing angles. The Gemara debates which resolution is more defensible.",
+    "hint": "Two competing resolutions both manage to explain the Yoma/Middot discrepancy. The Gemara must pick one: either (A) two authorities with different corner placements, or (B) one chamber in the middle of the west wall appearing at different corners depending on where you stand."
+   },
+   "learning": {
+    "learnerQuestion": "Two explanations both reconcile Yoma and Middot - so why does the Gemara prefer the two-authority resolution over Rav Adda's single-chamber-seen-from-different-angles theory?",
+    "coreTension": "Rav Adda's middle-of-the-west-wall theory is architecturally creative and explains the Yoma/Middot discrepancy just as well as the two-authority theory, yet the sugya has to settle on one conclusion.",
+    "coreMove": "The Gemara favors the resolution that needs no further assumptions: since the Women's Courtyard amnesia admission and the matching measurement proofs already independently establish R. Eliezer ben Yaakov's authorship of Middot, the two-authority explanation is adopted over Rav Adda's unproven architectural workaround. The sugya then pivots immediately to a different topic, signaling that the debate's value was textual reconciliation, not an ongoing legal consequence.",
+    "resolution": "The SW corner placement, per Middot and R. Eliezer ben Yaakov, stands as the working conclusion. Rav Adda's middle-of-the-west-wall alternative is noted but not adopted.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "When two explanations resolve a contradiction equally well, the one requiring fewer new assumptions is preferred - and once adopted, the debate's payoff is reconciling the texts, not producing a new practical ruling."
+    },
+    "ahaMoment": "The 'different viewing angles' resolution is clever but ultimately unprovable - the Gemara prefers the simpler attribution to two different authorities, then moves straight to a topic where the verdict carries no further practical weight.",
+    "learningBlocker": "Learners often expect an attribution debate like this to end in a practical legal ruling, so the abrupt shift to the Shewbread topic feels disconnected; the actual payoff is settling which tannaitic tradition is correct, not creating new Temple-service halakha.",
+    "memoryAnchor": "Chamber of Lambs verdict: SW corner per R. Eliezer ben Yaakov / Middot. Alternative considered and set aside: a single chamber on the west wall that looked different from north vs south."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "verdict",
+     "label": "Verdict: Middot = R. EbY, Chamber at SW corner",
+     "speaker": "Gemara",
+     "text": "The weight of evidence (Women's Courtyard admission, measurement alignment) establishes that Tractate Middot was authored by R. Eliezer ben Yaakov. The Chamber of the Lambs was in the southwest corner.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-17a-l01",
+       "vilnaLine": 1,
+       "note": "Final verdict on Middot authorship"
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "alternative",
+     "label": "Rav Adda: Chamber was on the middle of the west wall",
+     "speaker": "Rav Adda bar R. Yitzchak",
+     "text": "Perhaps the Chamber of the Lambs was not in any corner at all but extended along the middle of the west wall. From the north it appeared to be in the SW corner; from the south it appeared in the NW corner.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-17a-l02",
+       "vilnaLine": 2,
+       "note": "Rav Adda's west-wall alternative"
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "evaluation",
+     "label": "Evaluating the two resolutions",
+     "speaker": "Gemara",
+     "text": "Both resolutions explain the discrepancy. The first (two tannaim) is simpler. The second (perspective-dependent) is architecturally creative. The Gemara notes that the SW corner placement (Middot) is more probable.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-17a-l05",
+       "vilnaLine": 5,
+       "note": "Comparative evaluation"
+      }
+     ]
+    },
+    {
+     "id": "step-04",
+     "type": "transition",
+     "label": "New topic: High Priest's first share and Shewbread",
+     "speaker": "Gemara",
+     "text": "The Gemara transitions to a new mishnah: the High Priest sacrifices first and takes the first share. A debate follows about how many Shewbread loaves the KG receives.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-17a-l07",
+       "vilnaLine": 7,
+       "note": "Transition to Shewbread topic"
+      }
+     ]
+    },
+    {
+     "id": "step-05",
+     "type": "claim",
+     "label": "How many loaves does the KG receive?",
+     "speaker": "Gemara",
+     "text": "The twelve Shewbread loaves are split between the departing and incoming Temple watch-shifts. The KG receives his share from both halves. How many does he take - half of twelve (six) or something different?",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-17a-l09",
+       "vilnaLine": 9,
+       "note": "KG's Shewbread portion debate"
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "Chamber of the Lambs",
+    "Tractate Middot",
+    "verdict",
+    "R. Eliezer ben Yaakov",
+    "Shewbread",
+    "KG rights",
+    "Beit HaMoked"
+   ],
+   "concepts": [
+    {
+     "term": "lechem ha-panim",
+     "def": "Shewbread - twelve loaves arranged in two stacks on the golden table in the Sanctuary, replaced every Shabbat. On replacement, the old loaves are distributed between the incoming and outgoing priestly shifts."
+    },
+    {
+     "term": "mishmar",
+     "def": "Priestly watch-shift - the 24 families of kohanim each served a week in the Temple on rotation. On Shabbat the outgoing mishmar and incoming mishmar would each receive six Shewbread loaves."
+    }
+   ],
+   "conceptRefs": [
+    "Yoma.17a.1",
+    "Yoma.17a.3"
+   ],
+   "requiresUnderstanding": [
+    "The Chamber of the Lambs debate from 15b-17a",
+    "The Shewbread rotation system"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The Chamber of the Lambs controversy is merely academic with no real stakes.",
+     "correction": "It matters for reconstructing accurate Temple topography and for establishing which tannaitic traditions are authoritative about the Temple's physical structure."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-16b-s01",
+    "yoma-17b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "place",
+     "desc": "Beit HaMoked with Chamber of Lambs shown at SW corner (final position), with annotation showing how it appeared at NW from the south view"
+    },
+    {
+     "type": "timeline",
+     "desc": "Shewbread distribution on Shabbat: twelve loaves split between outgoing and incoming shifts, with KG taking his portion"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why does the Gemara prefer the two-authority resolution over Rav Adda's single-chamber-viewed-from-different-angles theory?",
+     "answer": "The two-authority resolution already has independent support from the Women's Courtyard amnesia admission and the matching measurement proofs, so it needs no further assumptions, while Rav Adda's theory is a creative but unproven architectural workaround."
+    },
+    {
+     "question": "After the Chamber of the Lambs debate closes, what new topic does the Gemara turn to and what question opens it?",
+     "answer": "The High Priest's right to sacrifice and take his portion first, which opens into a dispute over how many of the twelve Shewbread loaves the KG receives when they are divided between the outgoing and incoming priestly watch-shifts."
+    }
+   ],
+   "finalRuling": "SW corner (Middot/R. EbY) is the accepted location for the Chamber of the Lambs. The KG's Shewbread allocation debate continues on 17b.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "לֶחֶם הַפָּנִים",
+     "translit": "lechem ha-panim",
+     "en": "Shewbread - twelve loaves on the golden table, replaced every Shabbat and divided between kohanim."
+    },
+    {
+     "he": "מִשְׁמָר",
+     "translit": "mishmar",
+     "en": "Priestly watch-shift - one of 24 rotating kohanic families, each serving one week in the Temple."
+    }
+   ],
+   "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
+   }
+  }
+ ],
+ "glossary": [
+  {
+   "he": "לֶחֶם הַפָּנִים",
+   "translit": "lechem ha-panim",
+   "en": "Shewbread - twelve loaves on the golden table, replaced every Shabbat and divided between kohanim."
   },
-  "sugyot": [
-    {
-      "sugyaNumber": 1,
-      "id": "yoma-17a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 9
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.17a.1"
-        },
-        {
-          "vilnaLine": 2,
-          "sefariaRef": "Yoma.17a.2"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.17a.3"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.17a.4"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.17a.5"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.17a.1",
-        "Yoma.17a.2",
-        "Yoma.17a.3",
-        "Yoma.17a.4",
-        "Yoma.17a.5"
-      ],
-      "display": {
-        "title": "Closing the debate: a simpler verdict over a viewing-angle workaround",
-        "whats": "The page closes the extended Chamber of the Lambs debate. First, a verdict is reached: Tractate Middot follows R. Eliezer ben Yaakov, and the Chamber of the Lambs was in the southwest corner of the Beit HaMoked. Then Rav Adda bar R. Yitzchak offers a different approach: the Chamber of the Lambs was not in any corner but along the middle of the west wall - so it appeared to be in different corners from different viewing angles. The Gemara debates which resolution is more defensible.",
-        "hint": "Two competing resolutions both manage to explain the Yoma/Middot discrepancy. The Gemara must pick one: either (A) two authorities with different corner placements, or (B) one chamber in the middle of the west wall appearing at different corners depending on where you stand."
-      },
-      "learning": {
-        "learnerQuestion": "Two explanations both reconcile Yoma and Middot - so why does the Gemara prefer the two-authority resolution over Rav Adda's single-chamber-seen-from-different-angles theory?",
-        "coreTension": "Rav Adda's middle-of-the-west-wall theory is architecturally creative and explains the Yoma/Middot discrepancy just as well as the two-authority theory, yet the sugya has to settle on one conclusion.",
-        "coreMove": "The Gemara favors the resolution that needs no further assumptions: since the Women's Courtyard amnesia admission and the matching measurement proofs already independently establish R. Eliezer ben Yaakov's authorship of Middot, the two-authority explanation is adopted over Rav Adda's unproven architectural workaround. The sugya then pivots immediately to a different topic, signaling that the debate's value was textual reconciliation, not an ongoing legal consequence.",
-        "resolution": "The SW corner placement, per Middot and R. Eliezer ben Yaakov, stands as the working conclusion. Rav Adda's middle-of-the-west-wall alternative is noted but not adopted.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "When two explanations resolve a contradiction equally well, the one requiring fewer new assumptions is preferred - and once adopted, the debate's payoff is reconciling the texts, not producing a new practical ruling."
-        },
-        "ahaMoment": "The 'different viewing angles' resolution is clever but ultimately unprovable - the Gemara prefers the simpler attribution to two different authorities, then moves straight to a topic where the verdict carries no further practical weight.",
-        "learningBlocker": "Learners often expect an attribution debate like this to end in a practical legal ruling, so the abrupt shift to the Shewbread topic feels disconnected; the actual payoff is settling which tannaitic tradition is correct, not creating new Temple-service halakha.",
-        "memoryAnchor": "Chamber of Lambs verdict: SW corner per R. Eliezer ben Yaakov / Middot. Alternative considered and set aside: a single chamber on the west wall that looked different from north vs south."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "verdict",
-          "label": "Verdict: Middot = R. EbY, Chamber at SW corner",
-          "speaker": "Gemara",
-          "text": "The weight of evidence (Women's Courtyard admission, measurement alignment) establishes that Tractate Middot was authored by R. Eliezer ben Yaakov. The Chamber of the Lambs was in the southwest corner.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-17a-l01",
-              "vilnaLine": 1,
-              "note": "Final verdict on Middot authorship"
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "alternative",
-          "label": "Rav Adda: Chamber was on the middle of the west wall",
-          "speaker": "Rav Adda bar R. Yitzchak",
-          "text": "Perhaps the Chamber of the Lambs was not in any corner at all but extended along the middle of the west wall. From the north it appeared to be in the SW corner; from the south it appeared in the NW corner.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-17a-l02",
-              "vilnaLine": 2,
-              "note": "Rav Adda's west-wall alternative"
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "evaluation",
-          "label": "Evaluating the two resolutions",
-          "speaker": "Gemara",
-          "text": "Both resolutions explain the discrepancy. The first (two tannaim) is simpler. The second (perspective-dependent) is architecturally creative. The Gemara notes that the SW corner placement (Middot) is more probable.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-17a-l05",
-              "vilnaLine": 5,
-              "note": "Comparative evaluation"
-            }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "transition",
-          "label": "New topic: High Priest's first share and Shewbread",
-          "speaker": "Gemara",
-          "text": "The Gemara transitions to a new mishnah: the High Priest sacrifices first and takes the first share. A debate follows about how many Shewbread loaves the KG receives.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-17a-l07",
-              "vilnaLine": 7,
-              "note": "Transition to Shewbread topic"
-            }
-          ]
-        },
-        {
-          "id": "step-05",
-          "type": "claim",
-          "label": "How many loaves does the KG receive?",
-          "speaker": "Gemara",
-          "text": "The twelve Shewbread loaves are split between the departing and incoming Temple watch-shifts. The KG receives his share from both halves. How many does he take - half of twelve (six) or something different?",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-17a-l09",
-              "vilnaLine": 9,
-              "note": "KG's Shewbread portion debate"
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Chamber of the Lambs",
-        "Tractate Middot",
-        "verdict",
-        "R. Eliezer ben Yaakov",
-        "Shewbread",
-        "KG rights",
-        "Beit HaMoked"
-      ],
-      "concepts": [
-        {
-          "term": "lechem ha-panim",
-          "def": "Shewbread - twelve loaves arranged in two stacks on the golden table in the Sanctuary, replaced every Shabbat. On replacement, the old loaves are distributed between the incoming and outgoing priestly shifts."
-        },
-        {
-          "term": "mishmar",
-          "def": "Priestly watch-shift - the 24 families of kohanim each served a week in the Temple on rotation. On Shabbat the outgoing mishmar and incoming mishmar would each receive six Shewbread loaves."
-        }
-      ],
-      "conceptRefs": [
-        "Yoma.17a.1",
-        "Yoma.17a.3"
-      ],
-      "requiresUnderstanding": [
-        "The Chamber of the Lambs debate from 15b-17a",
-        "The Shewbread rotation system"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The Chamber of the Lambs controversy is merely academic with no real stakes.",
-          "correction": "It matters for reconstructing accurate Temple topography and for establishing which tannaitic traditions are authoritative about the Temple's physical structure."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-16b-s01",
-        "yoma-17b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "place",
-          "desc": "Beit HaMoked with Chamber of Lambs shown at SW corner (final position), with annotation showing how it appeared at NW from the south view"
-        },
-        {
-          "type": "timeline",
-          "desc": "Shewbread distribution on Shabbat: twelve loaves split between outgoing and incoming shifts, with KG taking his portion"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why does the Gemara prefer the two-authority resolution over Rav Adda's single-chamber-viewed-from-different-angles theory?",
-          "answer": "The two-authority resolution already has independent support from the Women's Courtyard amnesia admission and the matching measurement proofs, so it needs no further assumptions, while Rav Adda's theory is a creative but unproven architectural workaround."
-        },
-        {
-          "question": "After the Chamber of the Lambs debate closes, what new topic does the Gemara turn to and what question opens it?",
-          "answer": "The High Priest's right to sacrifice and take his portion first, which opens into a dispute over how many of the twelve Shewbread loaves the KG receives when they are divided between the outgoing and incoming priestly watch-shifts."
-        }
-      ],
-      "finalRuling": "SW corner (Middot/R. EbY) is the accepted location for the Chamber of the Lambs. The KG's Shewbread allocation debate continues on 17b.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "לֶחֶם הַפָּנִים",
-          "translit": "lechem ha-panim",
-          "en": "Shewbread - twelve loaves on the golden table, replaced every Shabbat and divided between kohanim."
-        },
-        {
-          "he": "מִשְׁמָר",
-          "translit": "mishmar",
-          "en": "Priestly watch-shift - one of 24 rotating kohanic families, each serving one week in the Temple."
-        }
-      ],
-      "review": {
-        "content": "ai_generated",
-        "sourceRefs": "ai_generated"
-      }
-    }
-  ],
-  "glossary": [
-    {
-      "he": "לֶחֶם הַפָּנִים",
-      "translit": "lechem ha-panim",
-      "en": "Shewbread - twelve loaves on the golden table, replaced every Shabbat and divided between kohanim."
-    },
-    {
-      "he": "מִשְׁמָר",
-      "translit": "mishmar",
-      "en": "Priestly watch-shift - one of 24 rotating kohanic families, each serving one week in the Temple."
-    }
-  ],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "en": "closing (continuing from 16b): 'rather, must you not conclude from this that it is Rabbi Eliezer ben Yaakov's view' - and it was obscured to him by the extra step, and not",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "continuing: because of the altar, since we hear Rabbi Eliezer ben Yaakov say, in the third chapter (below, 37a), that the entire",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "continuing: altar stands to the south, and the whole half of the entrance's open space is exposed. And if it should be asked: how",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "continuing: can the unattributed teaching of Middot be established according to his view, when we hear from this same unattributed teaching that the altar takes up",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "continuing: seven cubits to the north - necessarily,",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "continuing: this is how we must explain those twenty-five",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "continuing: cubits that you allot: that between the ramp",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: and the wall there are only five and a half cubits,",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "continuing: and the ramp and the altar sixty-two - so",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "continuing: the whole altar stands to the south, and all of it is opposite",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: the middle of the Courtyard, and the entire remainder goes to the place of",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: the nanasin. And if you say: if so, that the tanna was not precise",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "continuing: in dividing it into halves, and so you could increase",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "continuing: or decrease wherever you wish, then according to Rabbi Yehuda too you could",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: establish it, and the altar would be centered",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: in the middle of the Courtyard - how? Allot twenty-one",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: and a half of them between the ramp and the wall, and the ramp thirty, and half the altar's width sixteen -",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: it turns out the middle of the altar falls at sixty-seven and a half, which is the middle of the Courtyard! But this",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: you cannot say, that the place of the tables and the nanasin would be only three",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "continuing: and a half. And in my view it seems better to explain this teaching of Rav Adda bar Ahavah, and the whole passage,",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: in another way: Rav Adda bar Ahavah said 'whose view is this' regarding the mishna of Tamid,",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: '[where] the appointed one said to them' - he stands on the fact that Middot is cast as contradicting the mishna of Tamid,",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: meaning that they dispute the unattributed teaching of Middot; it is Rabbi Yehuda's view, since we hear that he disputes the unattributed teaching",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: of Middot, for it is taught: Rabbi Yehuda says the altar is centered, etc. And if it should enter your mind that Middot is Rabbi Yehuda's view,",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: where would you find it? But we learned, etc., that shows the majority of the altar stands to the south - conclude from",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: this. And we do not read 'rather, must you not conclude from this that it is Rabbi Eliezer's view' as a fresh question; rather this is its meaning: conclude",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: from this that Middot is not Rabbi Yehuda's view. Then opens 'Rav Adda bar Yitzchak said, this",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: chamber of the lambs juts out at its corners': at its two corners it appears elongated,",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: standing in the west, and extending lengthwise to the north and south, close to the corners",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "closing: on either side.' Then opens 'and one coming from the north, it appears to him': that it is drawn toward the south",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "closing: more.' Then opens 'and one coming from the south, it appears to him': drawn toward the north.' Then opens 'it stands to reason",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: that it was in the southwest': more so; and the tanna of Tamid also agrees to this, except that he follows",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: the order from south to north, so it appears to him, in the way of his walking, as though it were",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "closing: in the north.' Then opens 'from the contradiction we raise regarding the showbread chamber': for it was assumed that he counts",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: onward by way of the right, from north to west, and from west to south, and from south to east:",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "continuing: the chamber of the lambs in the northwest, the chamber of the seals in the",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "continuing: southwest, the chamber of the hearth in the southeast, the chamber of the showbread",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: in the northeast; and we would raise against this the mishna of Middot, which teaches that the southeast",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "closing: corner - that was the chamber of the showbread.' Then opens 'and we answer: Rav Huna",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: the son of Rav Yehoshua said': the tanna of Middot counts by way of the right, as he explains",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "continuing: explicitly, that he goes and counts from south to east, and from east to north, and from north to west",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "continuing: and from west to south; and one who comes to circle around the whole building circles by way of the right,",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "continuing: from outside - this is the order of his circling; and as for the mishna of Tamid, which did not specify anything, one can",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "closing: say that it counted by way of the left, and no further difficulty remains from now on.",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Opens 'if' -",
-      "linkedGemaraLineIds": [
-        "yoma-017a-l09"
-      ]
-    }
-  ]
+  {
+   "he": "מִשְׁמָר",
+   "translit": "mishmar",
+   "en": "Priestly watch-shift - one of 24 rotating kohanic families, each serving one week in the Temple."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'Rather, must you not conclude from this that it is Rabbi Eliezer ben Yaakov's view' - and it was obscured to him by the extra step, and not",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "because of the altar, since we hear Rabbi Eliezer ben Yaakov say, in the third chapter (below, 37a), that the entire",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "altar stands to the south, and the whole half of the entrance's open space is exposed. And if it should be asked: how",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "can the unattributed teaching of Middot be established according to his view, when we hear from this same unattributed teaching that the altar takes up",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "seven cubits to the north - necessarily,",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "this is how we must explain those twenty-five",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "cubits that you allot: that between the ramp",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "and the wall there are only five and a half cubits,",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "and the ramp and the altar sixty-two - so",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "the whole altar stands to the south, and all of it is opposite",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "the middle of the Courtyard, and the entire remainder goes to the place of",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "the nanasin. And if you say: if so, that the tanna was not precise",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "in dividing it into halves, and so you could increase",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "or decrease wherever you wish, then according to Rabbi Yehuda too you could",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "establish it, and the altar would be centered",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "in the middle of the Courtyard - how? Allot twenty-one",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "and a half of them between the ramp and the wall, and the ramp thirty, and half the altar's width sixteen -",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "it turns out the middle of the altar falls at sixty-seven and a half, which is the middle of the Courtyard! But this",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "you cannot say, that the place of the tables and the nanasin would be only three",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "and a half. And in my view it seems better to explain this teaching of Rav Adda bar Ahavah, and the whole passage,",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "in another way: Rav Adda bar Ahavah said 'whose view is this' regarding the mishna of Tamid,",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "'the appointed one said to them' - he stands on the fact that Middot is cast as contradicting the mishna of Tamid,",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "meaning that they dispute the unattributed teaching of Middot; it is Rabbi Yehuda's view, since we hear that he disputes the unattributed teaching",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "of Middot, for it is taught: Rabbi Yehuda says the altar is centered, etc. And if it should enter your mind that Middot is Rabbi Yehuda's view,",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "where would you find it? But we learned, etc., that shows the majority of the altar stands to the south - conclude from",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "this. And we do not read the phrase 'rather, must you not conclude from this that it is Rabbi Eliezer's view' as a fresh question; rather its meaning is: conclude from",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "this that Middot is not Rabbi Yehuda's view. 'Rav Adda bar Yitzchak said, this",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01",
+    "yoma-017a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "chamber of the lambs juts out at its corners' - at its two corners it appears elongated,",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "standing in the west, and extending lengthwise to the north and south, close to the corners",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "on either side. 'And one coming from the north, it appears to him' - that it is drawn toward the south",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "more. 'And one coming from the south, it appears to him' - drawn toward the north. 'It stands to reason",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l02",
+    "yoma-017a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "that it was in the southwest' - more so; and the tanna of Tamid also agrees to this, except that he follows",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "the order from south to north, so it appears to him, in the way of his walking, as though it were",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "in the north. 'From the contradiction we raise regarding the showbread chamber' - for it was assumed that he counts",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "onward by way of the right, from north to west, and from west to south, and from south to east:",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "the chamber of the lambs in the northwest, the chamber of the seals in the",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "southwest, the chamber of the hearth in the southeast, the chamber of the showbread",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "in the northeast; and we would raise against this the mishna of Middot, which teaches that the southeast",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "corner - that was the chamber of the showbread. 'And we answer: Rav Huna",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l05",
+    "yoma-017a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "the son of Rav Yehoshua said' - the tanna of Middot counts by way of the right, as he explains",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "explicitly, that he goes and counts from south to east, and from east to north, and from north to west",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "and from west to south; and one who comes to circle around the whole building circles by way of the right,",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "from outside - this is the order of his circling; and as for the mishna of Tamid, which did not specify anything, one can",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "say that it counted by way of the left, and no further difficulty remains from now on",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "'If' - the daf ends mid-word here; the comment (granting that the tanna of Tamid himself agrees the chamber was toward the southwest) continues on 17b.",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l09"
+   ]
+  }
+ ]
 }

@@ -21,12 +21,12 @@ with `python3 scripts/generate_rashi_docs.py` and the freshness gate
 from the baseline.
 
 <!-- rashi-status-summary:begin (regenerate with `python3 scripts/generate_rashi_docs.py`; do not hand-edit) -->
-- Current VERSION: 15.236
-- Generated from commit: 9b6a876 (the commit this doc was generated from, necessarily pre-merge for the PR that carries this change; it will differ from live main's HEAD immediately after that PR merges by design, since a PR's own merge commit does not exist yet at generation time. Not a staleness signal; see the freshness gate for what actually indicates staleness.)
-- Total scaffold-debt entries (all rules, current inventory): 2291
-- Unique affected daf: 54
-- Tracked daf in status table: 93 (39 resolved, 54 open)
-- Current next reconstruction target: 17a
+- Current VERSION: 15.237
+- Generated from commit: 67fbf7f (the commit this doc was generated from, necessarily pre-merge for the PR that carries this change; it will differ from live main's HEAD immediately after that PR merges by design, since a PR's own merge commit does not exist yet at generation time. Not a staleness signal; see the freshness gate for what actually indicates staleness.)
+- Total scaffold-debt entries (all rules, current inventory): 2247
+- Unique affected daf: 53
+- Tracked daf in status table: 93 (40 resolved, 53 open)
+- Current next reconstruction target: 17b
 - Rule families: scaffold-prefix / line-number-scaffold / hebrew-passthrough (the original "Rashi: opens ..." family) and plain-meta-scaffold (the same translator-position narration without the literal word "Rashi": "Opens 'X':", "continuing:", "closing:", "Then opens").
 - Historical narrative sections below ("Batch N findings", per-daf "resolved" write-ups) are preserved as historical fact; they do NOT reflect current status. The table above and this summary are the only current-truth sections.
 <!-- rashi-status-summary:end -->
@@ -62,99 +62,99 @@ Context on the two rule families tracked in the table:
 <!-- scaffold-status-table:begin (regenerate with `python3 scripts/generate_rashi_docs.py`; do not hand-edit rows) -->
 | daf | contaminated | total | severity | task recommendation | status | last verified |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2b | 5 | 29 | 17% | rashi-repair (after fresh semantic verification) | open | 9b6a876 |
-| 3a | 2 | 38 | 5% | rashi-repair (after fresh semantic verification) | open | 9b6a876 |
-| 3b | 11 | 49 | 22% | rashi-reconstruction | open | 9b6a876 |
-| 4a | 0 | 56 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 7b | 1 | 18 | 6% | rashi-repair (after fresh semantic verification) | open | 9b6a876 |
-| 10a | 0 | 35 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 10b | 0 | 21 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 11a | 0 | 43 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 11b | 0 | 39 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 12a | 0 | 66 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 12b | 0 | 62 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 13a | 0 | 29 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 13b | 0 | 28 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 14a | 0 | 58 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 14b | 0 | 59 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 15a | 0 | 66 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 15b | 0 | 66 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 16a | 0 | 61 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 16b | 0 | 62 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 17a | 44 | 45 | 98% | rashi-narration-repair | open | 9b6a876 |
-| 17b | 33 | 33 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 18a | 58 | 58 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 18b | 33 | 34 | 97% | rashi-narration-repair | open | 9b6a876 |
-| 19a | 58 | 58 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 19b | 68 | 68 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 20a | 41 | 41 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 20b | 62 | 62 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 21a | 62 | 62 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 21b | 45 | 46 | 98% | rashi-narration-repair | open | 9b6a876 |
-| 22a | 65 | 65 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 22b | 35 | 35 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 23a | 45 | 45 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 23b | 65 | 65 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 24a | 47 | 47 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 24b | 65 | 65 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 25a | 61 | 61 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 25b | 62 | 62 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 26a | 42 | 42 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 26b | 61 | 61 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 27a | 53 | 53 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 27b | 44 | 44 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 28a | 44 | 45 | 98% | rashi-narration-repair | open | 9b6a876 |
-| 28b | 79 | 79 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 29a | 56 | 56 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 29b | 54 | 54 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 30a | 54 | 54 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 30b | 51 | 51 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 31a | 37 | 37 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 31b | 63 | 63 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 32a | 62 | 62 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 32b | 55 | 55 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 33a | 13 | 64 | 20% | rashi-narration-repair | open | 9b6a876 |
-| 33b | 2 | 60 | 3% | rashi-narration-repair | open | 9b6a876 |
-| 34a | 5 | 46 | 11% | rashi-narration-repair | open | 9b6a876 |
-| 34b | 3 | 40 | 8% | rashi-narration-repair | open | 9b6a876 |
-| 35a | 2 | 14 | 14% | rashi-narration-repair | open | 9b6a876 |
-| 35b | 10 | 58 | 17% | rashi-narration-repair | open | 9b6a876 |
-| 36a | 54 | 54 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 36b | 62 | 62 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 37a | 71 | 71 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 37b | 25 | 25 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 38a | 37 | 37 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 38b | 49 | 49 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 39a | 58 | 59 | 98% | rashi-narration-repair | open | 9b6a876 |
-| 39b | 65 | 65 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 40a | 65 | 65 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 40b | 43 | 43 | 100% | rashi-narration-repair | open | 9b6a876 |
-| 41b | 0 | 74 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 42a | 0 | 52 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 42b | 0 | 60 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 43a | 0 | 65 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 43b | 0 | 59 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 44a | 0 | 60 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 44b | 0 | 60 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 45a | 0 | 44 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 45b | 2 | 29 | 7% | rashi-repair (after fresh semantic verification) | open | 9b6a876 |
-| 46a | 2 | 32 | 6% | rashi-repair (after fresh semantic verification) | open | 9b6a876 |
-| 47a | 0 | 64 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 47b | 0 | 65 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 48a | 0 | 42 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 48b | 0 | 26 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 49a | 0 | 64 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 49b | 0 | 21 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 72a | 0 | 31 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 72b | 0 | 100 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 73a | 0 | 65 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 73b | 0 | 58 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 74a | 0 | 55 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 74b | 0 | 42 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 75a | 0 | 49 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 75b | 0 | 46 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 76a | 0 | 47 | 0% | none (repaired and verified) | resolved | 9b6a876 |
-| 76b | 0 | 44 | 0% | none (repaired and verified) | resolved | 9b6a876 |
+| 2b | 5 | 29 | 17% | rashi-repair (after fresh semantic verification) | open | 67fbf7f |
+| 3a | 2 | 38 | 5% | rashi-repair (after fresh semantic verification) | open | 67fbf7f |
+| 3b | 11 | 49 | 22% | rashi-reconstruction | open | 67fbf7f |
+| 4a | 0 | 56 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 7b | 1 | 18 | 6% | rashi-repair (after fresh semantic verification) | open | 67fbf7f |
+| 10a | 0 | 35 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 10b | 0 | 21 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 11a | 0 | 43 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 11b | 0 | 39 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 12a | 0 | 66 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 12b | 0 | 62 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 13a | 0 | 29 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 13b | 0 | 28 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 14a | 0 | 58 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 14b | 0 | 59 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 15a | 0 | 66 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 15b | 0 | 66 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 16a | 0 | 61 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 16b | 0 | 62 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 17a | 0 | 45 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 17b | 33 | 33 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 18a | 58 | 58 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 18b | 33 | 34 | 97% | rashi-narration-repair | open | 67fbf7f |
+| 19a | 58 | 58 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 19b | 68 | 68 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 20a | 41 | 41 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 20b | 62 | 62 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 21a | 62 | 62 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 21b | 45 | 46 | 98% | rashi-narration-repair | open | 67fbf7f |
+| 22a | 65 | 65 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 22b | 35 | 35 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 23a | 45 | 45 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 23b | 65 | 65 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 24a | 47 | 47 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 24b | 65 | 65 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 25a | 61 | 61 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 25b | 62 | 62 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 26a | 42 | 42 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 26b | 61 | 61 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 27a | 53 | 53 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 27b | 44 | 44 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 28a | 44 | 45 | 98% | rashi-narration-repair | open | 67fbf7f |
+| 28b | 79 | 79 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 29a | 56 | 56 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 29b | 54 | 54 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 30a | 54 | 54 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 30b | 51 | 51 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 31a | 37 | 37 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 31b | 63 | 63 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 32a | 62 | 62 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 32b | 55 | 55 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 33a | 13 | 64 | 20% | rashi-narration-repair | open | 67fbf7f |
+| 33b | 2 | 60 | 3% | rashi-narration-repair | open | 67fbf7f |
+| 34a | 5 | 46 | 11% | rashi-narration-repair | open | 67fbf7f |
+| 34b | 3 | 40 | 8% | rashi-narration-repair | open | 67fbf7f |
+| 35a | 2 | 14 | 14% | rashi-narration-repair | open | 67fbf7f |
+| 35b | 10 | 58 | 17% | rashi-narration-repair | open | 67fbf7f |
+| 36a | 54 | 54 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 36b | 62 | 62 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 37a | 71 | 71 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 37b | 25 | 25 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 38a | 37 | 37 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 38b | 49 | 49 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 39a | 58 | 59 | 98% | rashi-narration-repair | open | 67fbf7f |
+| 39b | 65 | 65 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 40a | 65 | 65 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 40b | 43 | 43 | 100% | rashi-narration-repair | open | 67fbf7f |
+| 41b | 0 | 74 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 42a | 0 | 52 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 42b | 0 | 60 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 43a | 0 | 65 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 43b | 0 | 59 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 44a | 0 | 60 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 44b | 0 | 60 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 45a | 0 | 44 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 45b | 2 | 29 | 7% | rashi-repair (after fresh semantic verification) | open | 67fbf7f |
+| 46a | 2 | 32 | 6% | rashi-repair (after fresh semantic verification) | open | 67fbf7f |
+| 47a | 0 | 64 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 47b | 0 | 65 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 48a | 0 | 42 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 48b | 0 | 26 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 49a | 0 | 64 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 49b | 0 | 21 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 72a | 0 | 31 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 72b | 0 | 100 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 73a | 0 | 65 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 73b | 0 | 58 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 74a | 0 | 55 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 74b | 0 | 42 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 75a | 0 | 49 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 75b | 0 | 46 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 76a | 0 | 47 | 0% | none (repaired and verified) | resolved | 67fbf7f |
+| 76b | 0 | 44 | 0% | none (repaired and verified) | resolved | 67fbf7f |
 <!-- scaffold-status-table:end -->
 
 The remediation campaign runs one daf per PR (order and per-batch bounds in
