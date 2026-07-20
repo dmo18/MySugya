@@ -1,1033 +1,1040 @@
 {
-  "daf": "45a",
-  "canonicalRef": "Yoma 45a",
-  "summary": "The Gemara concludes the gold quality discussion (paz gold glistens like pearls; Rav Ashi enumerates five gold types), then opens Mishna chapter 5: on ordinary days a half-measure of incense is sacrificed, priests use the eastern ramp, today the High Priest uses the middle, and on ordinary days four wood-pyre arrangements are on the altar.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "45a",
+ "canonicalRef": "Yoma 45a",
+ "summary": "The Gemara concludes the gold quality discussion (paz gold glistens like pearls; Rav Ashi enumerates five gold types), then opens Mishna chapter 5: on ordinary days a half-measure of incense is sacrificed, priests use the eastern ramp, today the High Priest uses the middle, and on ordinary days four wood-pyre arrangements are on the altar.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-045a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 3
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-045a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 3
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.45a.1"
-        },
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.45a.2"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.45a.1",
-        "Yoma.45a.2"
-      ],
-      "display": {
-        "whats": "What is 'paz' gold, and how many types of gold are there?",
-        "hint": "Paz gold gets its name because it glistens like pearls. Rav Ashi counts five types of gold, each with distinctive properties - the classification matters because different Temple vessels required different quality gold.",
-        "title": "Five Names for Gold: Rav Ashi's Taxonomy"
-      },
-      "learning": {
-        "ahaMoment": "Five types of gold, each with a name and a property - the Talmud preserves a complete taxonomy of gold quality for Temple use.",
-        "memoryAnchor": "Paz gold glistens like pearls - the name is descriptive of its appearance.",
-        "learnerQuestion": "How many distinct types of gold does the Torah name, and what does each name mean?",
-        "coreTension": "The Torah uses several different words for gold across its verses, and without a structured account a reader cannot tell whether these are just stylistic variation or genuinely distinct grades relevant to Temple vessels.",
-        "coreMove": "Rav Ashi lays out a taxonomy of five named gold types, each tied to a distinguishing quality or verse, establishing that the Torah's varied gold-language reflects real, distinct grades rather than interchangeable synonyms.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "Rav Ashi identifies five distinct types of gold named in the Torah, each with its own defining quality - the variation in gold-language across verses reflects genuinely distinct grades, not stylistic synonyms."
-        },
-        "learningBlocker": "Learners may assume the Torah's different gold-words are just stylistic variety for the same material, missing that Rav Ashi treats them as a structured taxonomy of five genuinely distinct grades."
-      },
-      "argumentFlow": [
-        {
-          "type": "derivation",
-          "speaker": "Gemara",
-          "text": "'Paz' gold is named for its pearl-like glistening quality.",
-          "id": "yoma-045a-l01",
-          "label": "Derivation: 'Paz' gold is named for its pearl-like",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-045a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Rav Ashi",
-          "text": "There are five types of gold, with the finest being paz from Parvaim.",
-          "id": "yoma-045a-l03",
-          "label": "Ruling: There are five types of gold, with",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-045a-l03",
-              "vilnaLine": 3
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "gold types",
-        "paz gold",
-        "Temple vessels"
-      ],
-      "concepts": {
-        "halachic": [
-          "gold quality for Temple vessels"
-        ],
-        "theological": [],
-        "narrative": [
-          "five gold types taxonomy"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Temple vessel materials",
-        "parah adumah gold pan discussion"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The Torah's different words for gold (zahav, zahav tov, paz, etc.) are just stylistic variation describing the same single material.",
-          "correction": "Rav Ashi treats these as a structured taxonomy of five distinct gold grades, each defined by its own quality or verse - the varied language reflects real differences, not synonyms.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-044b-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "five types of gold from ordinary to paz"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Paz is fine gold named because it glistens like the luster of pearls (paz = pearl-like sheen).",
-          "question": "What does 'paz' mean and why is it called that?"
-        }
-      ],
-      "finalRuling": "Five types of gold exist; paz is the finest, named for its pearl-like glistening quality.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.45a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-045a-s02",
-      "lineRange": {
-        "startVilnaLine": 7,
-        "endVilnaLine": 7
-      },
-      "lines": [
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.45a.3"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.45a.3"
-      ],
-      "display": {
-        "whats": "What incense measure was used on ordinary days vs. Yom Kippur?",
-        "hint": "On every day, including Yom Kippur, a priest offers a peras of incense in the morning and a peras in the afternoon on the golden altar, unchanged. Yom Kippur adds something new: the High Priest also burns an additional handful of incense inside the Holy of Holies.",
-        "title": "How Much Incense? Ordinary Days vs. Yom Kippur"
-      },
-      "learning": {
-        "ahaMoment": "The regular peras offering is not replaced on Yom Kippur, it is joined by something new: the High Priest carries an additional handful of incense into the Holy of Holies itself, a service that exists on no other day.",
-        "memoryAnchor": "Peras, morning and afternoon, unchanged, every day including Yom Kippur, on the golden altar. Plus, only on Yom Kippur, an added handful inside the Holy of Holies.",
-        "learnerQuestion": "Does the Yom Kippur incense use the same measure (peras) as the daily incense offering, or a different amount?",
-        "coreTension": "The daily incense offering uses a fixed peras measure, but Yom Kippur's incense service - carried by the High Priest's own hands into the Holy of Holies - raises the question of whether the same fixed measure still applies or whether the unique rite calls for a different quantity.",
-        "coreMove": "The Gemara's baraita reads 'the incense' twice in the same line: once for the peras burned morning and afternoon on the golden altar exactly as on every other day, and once for an additional handful the High Priest burns inside the Holy of Holies specifically on Yom Kippur. The peras measure for the daily incense is not replaced or altered; a distinct second incense service, using a handful rather than a peras, is added inside the Holy of Holies for Yom Kippur alone.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The daily peras measure of incense continues unchanged on Yom Kippur for the regular golden-altar offering. Yom Kippur adds a separate, additional incense service: a handful the High Priest burns inside the Holy of Holies. The two are distinct services, not one measure replacing the other."
-        },
-        "learningBlocker": "Learners may assume that because the Yom Kippur incense rite differs so much in vessel, carrier, and location, its incense quantity must differ too, missing that the Gemara holds the peras measure constant across both."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Mishna",
-          "text": "On ordinary days a peras of incense is offered on the golden altar.",
-          "id": "yoma-045a-l07",
-          "label": "Ruling: On ordinary days a peras of incense",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-045a-l07",
-              "vilnaLine": 7
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "incense",
-        "peras",
-        "daily service",
-        "Yom Kippur contrast"
-      ],
-      "concepts": {
-        "halachic": [
-          "incense quantity daily vs Yom Kippur"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "incense service laws",
-        "daily Temple service structure"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Since the Yom Kippur incense service differs from the daily service in vessel, carrier, and location, it must also use a different quantity of incense.",
-          "correction": "The Gemara does not replace the daily peras with a different measure. The peras for the regular golden-altar incense stays exactly as on every other day; Yom Kippur adds a second, separate incense service - a handful burned inside the Holy of Holies - on top of the unchanged daily peras.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "ordinary day peras vs Yom Kippur quantity"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "A peras (half-measure) of incense on the golden altar.",
-          "question": "What quantity of incense was used on ordinary days?"
-        }
-      ],
-      "finalRuling": "The daily peras of incense continues unchanged on Yom Kippur. Yom Kippur adds a separate incense service: an additional handful the High Priest burns inside the Holy of Holies.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 3,
-      "id": "yoma-045a-s03",
-      "lineRange": {
-        "startVilnaLine": 11,
-        "endVilnaLine": 11
-      },
-      "lines": [
-        {
-          "vilnaLine": 11,
-          "sefariaRef": "Yoma.45a.4"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.45a.4"
-      ],
-      "display": {
-        "whats": "Which ramp did priests use on ordinary days, and which did the High Priest use today?",
-        "hint": "On ordinary days, priests ascend the altar via the eastern side of the ramp. On Yom Kippur, the High Priest ascends via the middle of the ramp - a special path reserved for this day.",
-        "title": "Eastern Ramp for the Daily Rite, Middle Ramp for the High Priest"
-      },
-      "learning": {
-        "ahaMoment": "Same ramp, different path - the middle path of the kevesh is reserved for the High Priest on Yom Kippur.",
-        "memoryAnchor": "East side for priests on ordinary days; middle of the ramp for the High Priest on Yom Kippur.",
-        "learnerQuestion": "Why does the High Priest ascend the altar by the middle ramp on Yom Kippur instead of the eastern ramp used on ordinary days?",
-        "coreTension": "Ordinary priests ascend the altar's ramp from the east side for the daily service, but the Yom Kippur procedure has the High Priest use the middle of the ramp, raising the question of what about his role or the day calls for a different approach path.",
-        "coreMove": "The Gemara explains the middle-ramp ascent as an expression of honor for the High Priest, distinguishing his approach from the ordinary priests' eastern approach to mark his elevated status on the day's central rite.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Ordinary priests ascend the altar ramp from the east for the daily service, but the High Priest ascends via the middle of the ramp on Yom Kippur - a deliberate mark of honor distinguishing his role."
-        },
-        "learningBlocker": "Learners may assume the ramp approach is identical for all priests regardless of day or rank, missing that the middle-ramp ascent is a specific honor reserved for the High Priest on Yom Kippur."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Mishna",
-          "text": "Ordinary priests use the eastern side of the ramp; today the High Priest uses the middle.",
-          "id": "yoma-045a-l11",
-          "label": "Ruling: Ordinary priests use the eastern side of",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-045a-l11",
-              "vilnaLine": 11
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "altar ramp",
-        "kevesh",
-        "High Priest",
-        "ordinary priests"
-      ],
-      "concepts": {
-        "halachic": [
-          "ramp path for High Priest on Yom Kippur"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "altar ramp geometry",
-        "High Priest's special status on Yom Kippur"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "All priests, including the High Priest on Yom Kippur, ascend the altar ramp the same way, from the east side.",
-          "correction": "The High Priest ascends via the middle of the ramp on Yom Kippur, distinct from the eastern approach used by ordinary priests in the daily service - a deliberate mark of honor for his role.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "place",
-          "label": "altar ramp - east side vs middle path"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "The middle of the ramp, as opposed to ordinary priests who use the eastern side.",
-          "question": "Which path on the ramp did the High Priest use on Yom Kippur?"
-        }
-      ],
-      "finalRuling": "On Yom Kippur the High Priest uses the middle path of the altar ramp; ordinary priests use the eastern path.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 4,
-      "id": "yoma-045a-s04",
-      "lineRange": {
-        "startVilnaLine": 13,
-        "endVilnaLine": 13
-      },
-      "lines": [
-        {
-          "vilnaLine": 13,
-          "sefariaRef": "Yoma.45a.5"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.45a.5"
-      ],
-      "display": {
-        "whats": "How many wood-pyre arrangements were on the altar on ordinary days vs. Yom Kippur?",
-        "hint": "On ordinary days there were four wood-pyre arrangements on the altar; on Yom Kippur the arrangement was different. The Mishna specifies the ordinary baseline so the Yom Kippur variation can be understood.",
-        "title": "Four Wood Arrangements: The Baseline Pyre"
-      },
-      "learning": {
-        "ahaMoment": "Four wood arrangements on ordinary days; the Yom Kippur arrangement is the subject of rabbinic dispute.",
-        "memoryAnchor": "Four wood-pyre arrangements on ordinary days on the outer altar.",
-        "learnerQuestion": "How many separate wood arrangements were set on the altar, and what was each one for?",
-        "coreTension": "The altar fire requires organized wood arrangements rather than an undifferentiated pile, so the Gemara must establish the baseline number and purpose of these arrangements before the later dispute over whether Yom Kippur adds a fifth.",
-        "coreMove": "The Gemara lays out four distinct wood arrangements, each serving a specific function in the daily Temple fire system, establishing the baseline structure that the later R. Meir/R. Yehuda dispute will build on.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The altar fire is organized into four distinct wood arrangements, each with its own specific function, not a single undifferentiated pile of wood."
-        },
-        "learningBlocker": "Learners may picture the altar fire as one generic woodpile, missing that the Gemara establishes four distinct, purpose-built arrangements as the baseline structure."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Mishna",
-          "text": "On ordinary days four wood-pyre arrangements are on the altar.",
-          "id": "yoma-045a-l13",
-          "label": "Ruling: On ordinary days four wood-pyre arrangements are",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-045a-l13",
-              "vilnaLine": 13
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "wood arrangements",
-        "altar",
-        "daily service"
-      ],
-      "concepts": {
-        "halachic": [
-          "four wood arrangements on altar"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "altar fire laws",
-        "daily Temple service"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The wood on the altar is just one undifferentiated pile, with no meaningful distinction between separate arrangements.",
-          "correction": "The Gemara establishes four distinct wood arrangements on the altar, each serving its own specific function within the daily Temple fire system.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "place",
-          "label": "four wood arrangements on the altar"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Four arrangements.",
-          "question": "How many wood-pyre arrangements were on the altar on ordinary days?"
-        }
-      ],
-      "finalRuling": "Four wood-pyre arrangements are on the altar on ordinary days.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 5,
-      "id": "yoma-045a-s05",
-      "lineRange": {
-        "startVilnaLine": 15,
-        "endVilnaLine": 15
-      },
-      "lines": [
-        {
-          "vilnaLine": 15,
-          "sefariaRef": "Yoma.45a.6"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.45a.6"
-      ],
-      "display": {
-        "whats": "How did the High Priest sanctify his hands and feet differently on Yom Kippur vs. ordinary days?",
-        "hint": "On ordinary days, a priest sanctifies his hands and feet from the laver. On Yom Kippur, the High Priest sanctifies from the golden pitcher. This is a specific Yom Kippur distinction noted in the Mishna.",
-        "title": "Laver Water for Ordinary Days, Golden Pitcher for Yom Kippur"
-      },
-      "learning": {
-        "ahaMoment": "Golden pitcher for Yom Kippur hand-foot sanctification vs. the ordinary laver - the vessel itself signals the day's sanctity.",
-        "memoryAnchor": "Ordinary day: laver for sanctification. Yom Kippur: golden pitcher.",
-        "learnerQuestion": "Why does the High Priest use a golden pitcher to sanctify his hands and feet on Yom Kippur instead of the laver used on ordinary days?",
-        "coreTension": "Ordinary priests sanctify their hands and feet from the laver before service, but the Yom Kippur procedure substitutes a golden pitcher for the High Priest, raising the question of why the day's heightened sanctity requires departing from the standard laver.",
-        "coreMove": "The Gemara explains the golden-pitcher substitution as fitting the elevated, vessel-upgraded character of the Yom Kippur service, paralleling the earlier silver-to-gold upgrade seen with the coal pan.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Ordinary priests sanctify their hands and feet from the laver, but on Yom Kippur the High Priest uses a golden pitcher instead - another instance of the day's vessels being upgraded to match its heightened sanctity."
-        },
-        "learningBlocker": "Learners may assume the same laver is used for hand/foot sanctification on every day of Temple service, missing that Yom Kippur substitutes a golden pitcher specifically for the High Priest."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Mishna",
-          "text": "On Yom Kippur the High Priest uses a golden pitcher for hand-foot sanctification; otherwise the laver.",
-          "id": "yoma-045a-l15",
-          "label": "Ruling: On Yom Kippur the High Priest uses",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-045a-l15",
-              "vilnaLine": 15
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "hand-foot sanctification",
-        "golden pitcher",
-        "laver",
-        "Yom Kippur"
-      ],
-      "concepts": {
-        "halachic": [
-          "golden pitcher for Yom Kippur sanctification"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "hand-foot sanctification laws",
-        "Yom Kippur distinctions"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The High Priest sanctifies his hands and feet from the same laver used by ordinary priests on every day, including Yom Kippur.",
-          "correction": "On Yom Kippur the High Priest uses a golden pitcher instead of the laver - a vessel upgrade matching the day's heightened sanctity, similar to the silver-to-gold upgrade seen with the coal pan.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "object",
-          "label": "golden pitcher vs laver for hand sanctification"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "A golden pitcher, as opposed to the ordinary copper laver.",
-          "question": "What vessel was used for hand-foot sanctification on Yom Kippur?"
-        }
-      ],
-      "finalRuling": "On Yom Kippur a golden pitcher is used for the High Priest's hand-foot sanctification instead of the ordinary laver.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 6,
-      "id": "yoma-045a-s06",
-      "lineRange": {
-        "startVilnaLine": 18,
-        "endVilnaLine": 47
-      },
-      "lines": [
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.45a.7"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.45a.8"
-        },
-        {
-          "vilnaLine": 25,
-          "sefariaRef": "Yoma.45a.9"
-        },
-        {
-          "vilnaLine": 30,
-          "sefariaRef": "Yoma.45a.10"
-        },
-        {
-          "vilnaLine": 36,
-          "sefariaRef": "Yoma.45a.11"
-        },
-        {
-          "vilnaLine": 39,
-          "sefariaRef": "Yoma.45a.12"
-        },
-        {
-          "vilnaLine": 44,
-          "sefariaRef": "Yoma.45a.13"
-        },
-        {
-          "vilnaLine": 45,
-          "sefariaRef": "Yoma.45a.14"
-        },
-        {
-          "vilnaLine": 47,
-          "sefariaRef": "Yoma.45a.15"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.45a.7",
-        "Yoma.45a.8",
-        "Yoma.45a.9",
-        "Yoma.45a.10",
-        "Yoma.45a.11",
-        "Yoma.45a.12",
-        "Yoma.45a.13",
-        "Yoma.45a.14",
-        "Yoma.45a.15"
-      ],
-      "display": {
-        "whats": "How many wood-pyre arrangements were on the altar, and what was the dispute between R. Meir and R. Yehuda?",
-        "hint": "The Mishna says four arrangements; R. Meir and R. Yehuda dispute whether there is a fifth arrangement needed for the Yom Kippur avodah. The Gemara analyzes each arrangement's source and function.",
-        "title": "Five Arrangements or Four? R. Meir and R. Yehuda Dispute the Pyre"
-      },
-      "learning": {
-        "ahaMoment": "R. Meir: five arrangements (one more for Yom Kippur coals). R. Yehuda: four suffice. The Gemara derives each arrangement from a separate Torah verse.",
-        "memoryAnchor": "Four vs. five wood arrangements - the extra one for Yom Kippur is the dispute. Each arrangement comes from a different Torah verse.",
-        "learnerQuestion": "Does Yom Kippur require a fifth wood arrangement beyond the four used on ordinary days?",
-        "coreTension": "R. Meir holds that Yom Kippur requires an extra wood arrangement specifically for the incense coals beyond the baseline four, while R. Yehuda holds the same four arrangements suffice even on Yom Kippur, and each grounds his position in a verse-by-verse reading.",
-        "coreMove": "R. Meir derives a fifth arrangement from the verse's wording to supply coals for the Yom Kippur incense specifically, while R. Yehuda reads the same verses as not requiring any addition beyond the standard four - the dispute turns on competing derivations from the same textual material.",
-        "takeaway": {
-          "type": "logical_principle",
-          "text": "R. Meir holds Yom Kippur requires a fifth wood arrangement to supply coals for the incense, while R. Yehuda holds the standard four arrangements suffice even on Yom Kippur - both positions are derived from close readings of the same verses."
-        },
-        "learningBlocker": "Learners may assume the number of wood arrangements is a settled, undisputed fact, missing that R. Meir and R. Yehuda actively dispute whether Yom Kippur adds a fifth arrangement, each from verse-based derivation."
-      },
-      "argumentFlow": [
-        {
-          "type": "case",
-          "speaker": "Mishna",
-          "text": "Four wood-pyre arrangements on the altar on ordinary days.",
-          "id": "yoma-045a-l18",
-          "label": "Mishna: Four wood-pyre arrangements on the altar on",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-045a-l18",
-              "vilnaLine": 18
-            }
-          ]
-        },
-        {
-          "type": "derivation",
-          "speaker": "Gemara",
-          "text": "First arrangement: main fire for offerings, from 'fire on the altar.'",
-          "id": "yoma-045a-l22",
-          "label": "Derivation: First arrangement: main fire for offerings, from",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-045a-l22",
-              "vilnaLine": 22
-            }
-          ]
-        },
-        {
-          "type": "derivation",
-          "speaker": "Gemara",
-          "text": "Second arrangement: incense fire from 'he shall burn incense in the morning.'",
-          "id": "yoma-045a-l25",
-          "label": "Derivation: Second arrangement: incense fire from 'he shall",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-045a-l25",
-              "vilnaLine": 25
-            }
-          ]
-        },
-        {
-          "type": "derivation",
-          "speaker": "Gemara",
-          "text": "Third and fourth arrangements: additional wood for the main fire.",
-          "id": "yoma-045a-l30",
-          "label": "Derivation: Third and fourth arrangements: additional wood for",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-045a-l30",
-              "vilnaLine": 30
-            }
-          ]
-        },
-        {
-          "type": "dispute",
-          "speaker": "R. Meir/R. Yehuda",
-          "text": "R. Meir: five arrangements; R. Yehuda: four. The fifth would be for Yom Kippur coals.",
-          "id": "yoma-045a-l36",
-          "label": "Dispute: R. Meir: five arrangements; R. Yehuda: four.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-045a-l36",
-              "vilnaLine": 36
-            }
-          ]
-        },
-        {
-          "type": "resolution",
-          "speaker": "Gemara",
-          "text": "Resolution: R. Yehuda derives the Yom Kippur coal source from one of the four; R. Meir needs a separate fifth.",
-          "id": "yoma-045a-l44",
-          "label": "Resolution: Resolution: R. Yehuda derives the Yom Kippur",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-045a-l44",
-              "vilnaLine": 44
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "wood arrangements",
-        "altar fire",
-        "R. Meir",
-        "R. Yehuda",
-        "Yom Kippur coals"
-      ],
-      "concepts": {
-        "halachic": [
-          "four vs five wood arrangements",
-          "Yom Kippur coal source"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "altar fire laws",
-        "perpetual fire laws",
-        "Yom Kippur avodah structure"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The number of wood arrangements on the altar is a fixed, undisputed fact rather than a matter of tannaitic disagreement.",
-          "correction": "R. Meir and R. Yehuda dispute the count: R. Meir derives a fifth arrangement for the Yom Kippur incense coals, while R. Yehuda holds four suffice even on Yom Kippur - each position rests on a verse-based derivation.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-045b-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "R. Meir 5 arrangements vs R. Yehuda 4"
-        },
-        {
-          "type": "sequence",
-          "label": "four arrangements derived from four Torah verses"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "He required a fifth arrangement specifically to provide the coals for the Yom Kippur incense firepan, which R. Yehuda derived from one of the four standard arrangements.",
-          "question": "Why did R. Meir hold there were five wood arrangements on the altar?"
-        }
-      ],
-      "finalRuling": "On ordinary days four wood-pyre arrangements; R. Meir requires a fifth for Yom Kippur coal sourcing.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.45a.2"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.45a.1",
+    "Yoma.45a.2"
+   ],
+   "display": {
+    "whats": "What is 'paz' gold, and how many types of gold are there?",
+    "hint": "Paz gold gets its name because it glistens like pearls. Rav Ashi counts five types of gold, each with distinctive properties - the classification matters because different Temple vessels required different quality gold.",
+    "title": "Five Names for Gold: Rav Ashi's Taxonomy"
+   },
+   "learning": {
+    "ahaMoment": "Five types of gold, each with a name and a property - the Talmud preserves a complete taxonomy of gold quality for Temple use.",
+    "memoryAnchor": "Paz gold glistens like pearls - the name is descriptive of its appearance.",
+    "learnerQuestion": "How many distinct types of gold does the Torah name, and what does each name mean?",
+    "coreTension": "The Torah uses several different words for gold across its verses, and without a structured account a reader cannot tell whether these are just stylistic variation or genuinely distinct grades relevant to Temple vessels.",
+    "coreMove": "Rav Ashi lays out a taxonomy of five named gold types, each tied to a distinguishing quality or verse, establishing that the Torah's varied gold-language reflects real, distinct grades rather than interchangeable synonyms.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "Rav Ashi identifies five distinct types of gold named in the Torah, each with its own defining quality - the variation in gold-language across verses reflects genuinely distinct grades, not stylistic synonyms."
+    },
+    "learningBlocker": "Learners may assume the Torah's different gold-words are just stylistic variety for the same material, missing that Rav Ashi treats them as a structured taxonomy of five genuinely distinct grades."
+   },
+   "argumentFlow": [
     {
-      "he": "פָּרָס",
-      "translit": "peras",
-      "en": "Half-measure (half a maneh) of incense offered on the golden altar in the Sanctuary on ordinary days."
+     "type": "derivation",
+     "speaker": "Gemara",
+     "text": "'Paz' gold is named for its pearl-like glistening quality.",
+     "id": "yoma-045a-l01",
+     "label": "Derivation: 'Paz' gold is named for its pearl-like",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-045a-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "he": "כֶּבֶשׁ",
-      "translit": "kevesh",
-      "en": "The ramp leading up to the altar; priests used the east side normally, the High Priest used the middle on Yom Kippur."
-    },
-    {
-      "he": "פָּז",
-      "translit": "paz",
-      "en": "Finest grade gold, named because it glistens like the luster of pearls; used for the most elevated Temple vessels."
+     "type": "ruling",
+     "speaker": "Rav Ashi",
+     "text": "There are five types of gold, with the finest being paz from Parvaim.",
+     "id": "yoma-045a-l03",
+     "label": "Ruling: There are five types of gold, with",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-045a-l03",
+       "vilnaLine": 3
+      }
+     ]
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "topicTags": [
+    "gold types",
+    "paz gold",
+    "Temple vessels"
+   ],
+   "concepts": {
+    "halachic": [
+     "gold quality for Temple vessels"
+    ],
+    "theological": [],
+    "narrative": [
+     "five gold types taxonomy"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Temple vessel materials",
+    "parah adumah gold pan discussion"
+   ],
+   "misconceptions": [
     {
-      "vilnaLine": 1,
-      "en": "Rashi: 'that resembles paz' means it glistens like a pearl; 'that is spun like a thread' means it is soft and malleable.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "Rashi: 'all the shops close' - because there is no market for other gold once this superior gold appears. 'It is also taught thus' introduces a supporting Baraita.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "Rashi: this gold is called gold of Parvaim in Chronicles because it resembles the blood of bulls.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "Rashi: citing II Chronicles 3. 'But has it not already been stated' refers to the ordinary-year rule, 'and you shall grind it finely.'",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "Rashi: 'rather, by way of the right' means to the east, since the ramp faces south.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "Rashi: therefore the priest ascends on the eastern side of the ramp, which is adjacent to turning toward the right.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "Rashi: continues explaining why the eastern approach naturally leads to a rightward turn at the top.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "Rashi: 'on account of his honor' means to demonstrate his importance, that he is treated like a member of the household.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "Rashi: he circles the altar both when it is functionally needed and when it is not, purely to show his stature.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Rashi: 'that they add on that day' means taking coals from that arrangement for the Holy of Holies incense.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "Rashi: continues describing the purpose of taking those coals specifically for the Yom Kippur incense service.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l11"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "Rashi: but the inner altar's regular incense is treated the same throughout the year, without this special addition.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l11"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Rashi: continues distinguishing the Yom Kippur coal-taking from the ordinary daily incense practice.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Rashi: 'for maintaining the fire' means so that if the large arrangement's fire weakens, they can reinforce it from this arrangement.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "Rashi: continues explaining the backup function of this fourth wood arrangement.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l15"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "Rashi: 'that were not consumed' means logs that were not placed on the arrangement, or were placed but not fully burned.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l15"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Rashi: continues clarifying which unburned wood this rule addresses.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l15"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Rashi: 'for kindling the aliata' means using them to kindle the fire of the large wood arrangement.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "Rashi: 'aliata' refers to thin wood splinters or chips used as kindling.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Rashi: the Gemara asks where Rabbi Yosei derives the requirement for kindling the aliata specifically.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "Rashi: the requirement is that kindling occur at the top of the altar, not on the ground below.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Rashi: he should not kindle it on the floor and then carry it up already burning to place on the altar.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Rashi: 'and with sacred vessels' means clothed in the priestly garments while performing this.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Rashi: 'could it enter your mind' - since the verse about fire on the altar already implies the location requirement.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Rashi: continues - would we need a separate verse just to teach that a priest must load the wood?",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Rashi: could one possibly think a non-priest would approach the altar to do this?",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Rashi: continues developing this rhetorical challenge to the proposed derivation.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Rashi: after all, it is already stated elsewhere that only priests may approach the sacred vessels and the altar.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Rashi: citing the verse from Numbers 18 that non-priests may not come near the sacred vessels or the altar.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "Rashi: rather, the verse teaches something else specifically about the kindling of the aliata.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Rashi: that the kindling may only take place at the top of the altar, not below.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "Rashi: continues distinguishing the two verses' separate teachings on location versus priesthood.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "Rashi: the other verse comes to teach the requirement of maintaining the fire, following Rabbi Yosei's view.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "Rashi: and the priesthood requirement written in that verse is needed for its own independent teaching.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "Rashi: that placing fire on the altar requires a priest specifically.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "Rashi: so that a non-priest should not take the fire and throw it onto the altar himself.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l36"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Rashi: 'and Rabbi Yehuda would say to you' introduces his alternative reading of the same verses.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l36"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "Rashi: 'had the law been derived only from there' - from the verse about fire on the altar alone.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l36"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "Rashi: even though we would learn from it that kindling must be at the top of the altar.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l36"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "Rashi: we would not learn from it that the act is invalid when performed by a non-priest.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l36"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "Rashi: one might have thought a non-priest could stand on the ground and kindle it using a bellows.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l36"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Rashi: the Gemara asks from where Rabbi Yehuda derives that the fire must specifically be placed on the wood arrangement.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l36"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Rashi: he derives it from the word 'fire' with its prefixed letter vav, interpreting that added letter.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l36"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Rashi: 'which' - the word that opens the next phrase, continuing onto the following daf.",
-      "linkedGemaraLineIds": [
-        "yoma-045a-l44"
-      ]
+     "misconception": "The Torah's different words for gold (zahav, zahav tov, paz, etc.) are just stylistic variation describing the same single material.",
+     "correction": "Rav Ashi treats these as a structured taxonomy of five distinct gold grades, each defined by its own quality or verse - the varied language reflects real differences, not synonyms.",
+     "correctedByStepId": null
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-044b-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "five types of gold from ordinary to paz"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Paz is fine gold named because it glistens like the luster of pearls (paz = pearl-like sheen).",
+     "question": "What does 'paz' mean and why is it called that?"
+    }
+   ],
+   "finalRuling": "Five types of gold exist; paz is the finest, named for its pearl-like glistening quality.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-045a-s02",
+   "lineRange": {
+    "startVilnaLine": 7,
+    "endVilnaLine": 7
+   },
+   "lines": [
+    {
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.45a.3"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.45a.3"
+   ],
+   "display": {
+    "whats": "What incense measure was used on ordinary days vs. Yom Kippur?",
+    "hint": "On every day, including Yom Kippur, a priest offers a peras of incense in the morning and a peras in the afternoon on the golden altar, unchanged. Yom Kippur adds something new: the High Priest also burns an additional handful of incense inside the Holy of Holies.",
+    "title": "How Much Incense? Ordinary Days vs. Yom Kippur"
+   },
+   "learning": {
+    "ahaMoment": "The regular peras offering is not replaced on Yom Kippur, it is joined by something new: the High Priest carries an additional handful of incense into the Holy of Holies itself, a service that exists on no other day.",
+    "memoryAnchor": "Peras, morning and afternoon, unchanged, every day including Yom Kippur, on the golden altar. Plus, only on Yom Kippur, an added handful inside the Holy of Holies.",
+    "learnerQuestion": "Does the Yom Kippur incense use the same measure (peras) as the daily incense offering, or a different amount?",
+    "coreTension": "The daily incense offering uses a fixed peras measure, but Yom Kippur's incense service - carried by the High Priest's own hands into the Holy of Holies - raises the question of whether the same fixed measure still applies or whether the unique rite calls for a different quantity.",
+    "coreMove": "The Gemara's baraita reads 'the incense' twice in the same line: once for the peras burned morning and afternoon on the golden altar exactly as on every other day, and once for an additional handful the High Priest burns inside the Holy of Holies specifically on Yom Kippur. The peras measure for the daily incense is not replaced or altered; a distinct second incense service, using a handful rather than a peras, is added inside the Holy of Holies for Yom Kippur alone.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The daily peras measure of incense continues unchanged on Yom Kippur for the regular golden-altar offering. Yom Kippur adds a separate, additional incense service: a handful the High Priest burns inside the Holy of Holies. The two are distinct services, not one measure replacing the other."
+    },
+    "learningBlocker": "Learners may assume that because the Yom Kippur incense rite differs so much in vessel, carrier, and location, its incense quantity must differ too, missing that the Gemara holds the peras measure constant across both."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Mishna",
+     "text": "On ordinary days a peras of incense is offered on the golden altar.",
+     "id": "yoma-045a-l07",
+     "label": "Ruling: On ordinary days a peras of incense",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-045a-l07",
+       "vilnaLine": 7
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "incense",
+    "peras",
+    "daily service",
+    "Yom Kippur contrast"
+   ],
+   "concepts": {
+    "halachic": [
+     "incense quantity daily vs Yom Kippur"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "incense service laws",
+    "daily Temple service structure"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Since the Yom Kippur incense service differs from the daily service in vessel, carrier, and location, it must also use a different quantity of incense.",
+     "correction": "The Gemara does not replace the daily peras with a different measure. The peras for the regular golden-altar incense stays exactly as on every other day; Yom Kippur adds a second, separate incense service - a handful burned inside the Holy of Holies - on top of the unchanged daily peras.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "ordinary day peras vs Yom Kippur quantity"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "A peras (half-measure) of incense on the golden altar.",
+     "question": "What quantity of incense was used on ordinary days?"
+    }
+   ],
+   "finalRuling": "The daily peras of incense continues unchanged on Yom Kippur. Yom Kippur adds a separate incense service: an additional handful the High Priest burns inside the Holy of Holies.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-045a-s03",
+   "lineRange": {
+    "startVilnaLine": 11,
+    "endVilnaLine": 11
+   },
+   "lines": [
+    {
+     "vilnaLine": 11,
+     "sefariaRef": "Yoma.45a.4"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.45a.4"
+   ],
+   "display": {
+    "whats": "Which ramp did priests use on ordinary days, and which did the High Priest use today?",
+    "hint": "On ordinary days, priests ascend the altar via the eastern side of the ramp. On Yom Kippur, the High Priest ascends via the middle of the ramp - a special path reserved for this day.",
+    "title": "Eastern Ramp for the Daily Rite, Middle Ramp for the High Priest"
+   },
+   "learning": {
+    "ahaMoment": "Same ramp, different path - the middle path of the kevesh is reserved for the High Priest on Yom Kippur.",
+    "memoryAnchor": "East side for priests on ordinary days; middle of the ramp for the High Priest on Yom Kippur.",
+    "learnerQuestion": "Why does the High Priest ascend the altar by the middle ramp on Yom Kippur instead of the eastern ramp used on ordinary days?",
+    "coreTension": "Ordinary priests ascend the altar's ramp from the east side for the daily service, but the Yom Kippur procedure has the High Priest use the middle of the ramp, raising the question of what about his role or the day calls for a different approach path.",
+    "coreMove": "The Gemara explains the middle-ramp ascent as an expression of honor for the High Priest, distinguishing his approach from the ordinary priests' eastern approach to mark his elevated status on the day's central rite.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Ordinary priests ascend the altar ramp from the east for the daily service, but the High Priest ascends via the middle of the ramp on Yom Kippur - a deliberate mark of honor distinguishing his role."
+    },
+    "learningBlocker": "Learners may assume the ramp approach is identical for all priests regardless of day or rank, missing that the middle-ramp ascent is a specific honor reserved for the High Priest on Yom Kippur."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Mishna",
+     "text": "Ordinary priests use the eastern side of the ramp; today the High Priest uses the middle.",
+     "id": "yoma-045a-l11",
+     "label": "Ruling: Ordinary priests use the eastern side of",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-045a-l11",
+       "vilnaLine": 11
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "altar ramp",
+    "kevesh",
+    "High Priest",
+    "ordinary priests"
+   ],
+   "concepts": {
+    "halachic": [
+     "ramp path for High Priest on Yom Kippur"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "altar ramp geometry",
+    "High Priest's special status on Yom Kippur"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "All priests, including the High Priest on Yom Kippur, ascend the altar ramp the same way, from the east side.",
+     "correction": "The High Priest ascends via the middle of the ramp on Yom Kippur, distinct from the eastern approach used by ordinary priests in the daily service - a deliberate mark of honor for his role.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "place",
+     "label": "altar ramp - east side vs middle path"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "The middle of the ramp, as opposed to ordinary priests who use the eastern side.",
+     "question": "Which path on the ramp did the High Priest use on Yom Kippur?"
+    }
+   ],
+   "finalRuling": "On Yom Kippur the High Priest uses the middle path of the altar ramp; ordinary priests use the eastern path.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 4,
+   "id": "yoma-045a-s04",
+   "lineRange": {
+    "startVilnaLine": 13,
+    "endVilnaLine": 13
+   },
+   "lines": [
+    {
+     "vilnaLine": 13,
+     "sefariaRef": "Yoma.45a.5"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.45a.5"
+   ],
+   "display": {
+    "whats": "How many wood-pyre arrangements were on the altar on ordinary days vs. Yom Kippur?",
+    "hint": "On ordinary days there were four wood-pyre arrangements on the altar; on Yom Kippur the arrangement was different. The Mishna specifies the ordinary baseline so the Yom Kippur variation can be understood.",
+    "title": "Four Wood Arrangements: The Baseline Pyre"
+   },
+   "learning": {
+    "ahaMoment": "Four wood arrangements on ordinary days; the Yom Kippur arrangement is the subject of rabbinic dispute.",
+    "memoryAnchor": "Four wood-pyre arrangements on ordinary days on the outer altar.",
+    "learnerQuestion": "How many separate wood arrangements were set on the altar, and what was each one for?",
+    "coreTension": "The altar fire requires organized wood arrangements rather than an undifferentiated pile, so the Gemara must establish the baseline number and purpose of these arrangements before the later dispute over whether Yom Kippur adds a fifth.",
+    "coreMove": "The Gemara lays out four distinct wood arrangements, each serving a specific function in the daily Temple fire system, establishing the baseline structure that the later R. Meir/R. Yehuda dispute will build on.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The altar fire is organized into four distinct wood arrangements, each with its own specific function, not a single undifferentiated pile of wood."
+    },
+    "learningBlocker": "Learners may picture the altar fire as one generic woodpile, missing that the Gemara establishes four distinct, purpose-built arrangements as the baseline structure."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Mishna",
+     "text": "On ordinary days four wood-pyre arrangements are on the altar.",
+     "id": "yoma-045a-l13",
+     "label": "Ruling: On ordinary days four wood-pyre arrangements are",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-045a-l13",
+       "vilnaLine": 13
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "wood arrangements",
+    "altar",
+    "daily service"
+   ],
+   "concepts": {
+    "halachic": [
+     "four wood arrangements on altar"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "altar fire laws",
+    "daily Temple service"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The wood on the altar is just one undifferentiated pile, with no meaningful distinction between separate arrangements.",
+     "correction": "The Gemara establishes four distinct wood arrangements on the altar, each serving its own specific function within the daily Temple fire system.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "place",
+     "label": "four wood arrangements on the altar"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Four arrangements.",
+     "question": "How many wood-pyre arrangements were on the altar on ordinary days?"
+    }
+   ],
+   "finalRuling": "Four wood-pyre arrangements are on the altar on ordinary days.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 5,
+   "id": "yoma-045a-s05",
+   "lineRange": {
+    "startVilnaLine": 15,
+    "endVilnaLine": 15
+   },
+   "lines": [
+    {
+     "vilnaLine": 15,
+     "sefariaRef": "Yoma.45a.6"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.45a.6"
+   ],
+   "display": {
+    "whats": "How did the High Priest sanctify his hands and feet differently on Yom Kippur vs. ordinary days?",
+    "hint": "On ordinary days, a priest sanctifies his hands and feet from the laver. On Yom Kippur, the High Priest sanctifies from the golden pitcher. This is a specific Yom Kippur distinction noted in the Mishna.",
+    "title": "Laver Water for Ordinary Days, Golden Pitcher for Yom Kippur"
+   },
+   "learning": {
+    "ahaMoment": "Golden pitcher for Yom Kippur hand-foot sanctification vs. the ordinary laver - the vessel itself signals the day's sanctity.",
+    "memoryAnchor": "Ordinary day: laver for sanctification. Yom Kippur: golden pitcher.",
+    "learnerQuestion": "Why does the High Priest use a golden pitcher to sanctify his hands and feet on Yom Kippur instead of the laver used on ordinary days?",
+    "coreTension": "Ordinary priests sanctify their hands and feet from the laver before service, but the Yom Kippur procedure substitutes a golden pitcher for the High Priest, raising the question of why the day's heightened sanctity requires departing from the standard laver.",
+    "coreMove": "The Gemara explains the golden-pitcher substitution as fitting the elevated, vessel-upgraded character of the Yom Kippur service, paralleling the earlier silver-to-gold upgrade seen with the coal pan.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Ordinary priests sanctify their hands and feet from the laver, but on Yom Kippur the High Priest uses a golden pitcher instead - another instance of the day's vessels being upgraded to match its heightened sanctity."
+    },
+    "learningBlocker": "Learners may assume the same laver is used for hand/foot sanctification on every day of Temple service, missing that Yom Kippur substitutes a golden pitcher specifically for the High Priest."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Mishna",
+     "text": "On Yom Kippur the High Priest uses a golden pitcher for hand-foot sanctification; otherwise the laver.",
+     "id": "yoma-045a-l15",
+     "label": "Ruling: On Yom Kippur the High Priest uses",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-045a-l15",
+       "vilnaLine": 15
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "hand-foot sanctification",
+    "golden pitcher",
+    "laver",
+    "Yom Kippur"
+   ],
+   "concepts": {
+    "halachic": [
+     "golden pitcher for Yom Kippur sanctification"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "hand-foot sanctification laws",
+    "Yom Kippur distinctions"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The High Priest sanctifies his hands and feet from the same laver used by ordinary priests on every day, including Yom Kippur.",
+     "correction": "On Yom Kippur the High Priest uses a golden pitcher instead of the laver - a vessel upgrade matching the day's heightened sanctity, similar to the silver-to-gold upgrade seen with the coal pan.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "object",
+     "label": "golden pitcher vs laver for hand sanctification"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "A golden pitcher, as opposed to the ordinary copper laver.",
+     "question": "What vessel was used for hand-foot sanctification on Yom Kippur?"
+    }
+   ],
+   "finalRuling": "On Yom Kippur a golden pitcher is used for the High Priest's hand-foot sanctification instead of the ordinary laver.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 6,
+   "id": "yoma-045a-s06",
+   "lineRange": {
+    "startVilnaLine": 18,
+    "endVilnaLine": 47
+   },
+   "lines": [
+    {
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.45a.7"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.45a.8"
+    },
+    {
+     "vilnaLine": 25,
+     "sefariaRef": "Yoma.45a.9"
+    },
+    {
+     "vilnaLine": 30,
+     "sefariaRef": "Yoma.45a.10"
+    },
+    {
+     "vilnaLine": 36,
+     "sefariaRef": "Yoma.45a.11"
+    },
+    {
+     "vilnaLine": 39,
+     "sefariaRef": "Yoma.45a.12"
+    },
+    {
+     "vilnaLine": 44,
+     "sefariaRef": "Yoma.45a.13"
+    },
+    {
+     "vilnaLine": 45,
+     "sefariaRef": "Yoma.45a.14"
+    },
+    {
+     "vilnaLine": 47,
+     "sefariaRef": "Yoma.45a.15"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.45a.7",
+    "Yoma.45a.8",
+    "Yoma.45a.9",
+    "Yoma.45a.10",
+    "Yoma.45a.11",
+    "Yoma.45a.12",
+    "Yoma.45a.13",
+    "Yoma.45a.14",
+    "Yoma.45a.15"
+   ],
+   "display": {
+    "whats": "How many wood-pyre arrangements were on the altar, and what was the dispute between R. Meir and R. Yehuda?",
+    "hint": "The Mishna says four arrangements; R. Meir and R. Yehuda dispute whether there is a fifth arrangement needed for the Yom Kippur avodah. The Gemara analyzes each arrangement's source and function.",
+    "title": "Five Arrangements or Four? R. Meir and R. Yehuda Dispute the Pyre"
+   },
+   "learning": {
+    "ahaMoment": "R. Meir: five arrangements (one more for Yom Kippur coals). R. Yehuda: four suffice. The Gemara derives each arrangement from a separate Torah verse.",
+    "memoryAnchor": "Four vs. five wood arrangements - the extra one for Yom Kippur is the dispute. Each arrangement comes from a different Torah verse.",
+    "learnerQuestion": "Does Yom Kippur require a fifth wood arrangement beyond the four used on ordinary days?",
+    "coreTension": "R. Meir holds that Yom Kippur requires an extra wood arrangement specifically for the incense coals beyond the baseline four, while R. Yehuda holds the same four arrangements suffice even on Yom Kippur, and each grounds his position in a verse-by-verse reading.",
+    "coreMove": "R. Meir derives a fifth arrangement from the verse's wording to supply coals for the Yom Kippur incense specifically, while R. Yehuda reads the same verses as not requiring any addition beyond the standard four - the dispute turns on competing derivations from the same textual material.",
+    "takeaway": {
+     "type": "logical_principle",
+     "text": "R. Meir holds Yom Kippur requires a fifth wood arrangement to supply coals for the incense, while R. Yehuda holds the standard four arrangements suffice even on Yom Kippur - both positions are derived from close readings of the same verses."
+    },
+    "learningBlocker": "Learners may assume the number of wood arrangements is a settled, undisputed fact, missing that R. Meir and R. Yehuda actively dispute whether Yom Kippur adds a fifth arrangement, each from verse-based derivation."
+   },
+   "argumentFlow": [
+    {
+     "type": "case",
+     "speaker": "Mishna",
+     "text": "Four wood-pyre arrangements on the altar on ordinary days.",
+     "id": "yoma-045a-l18",
+     "label": "Mishna: Four wood-pyre arrangements on the altar on",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-045a-l18",
+       "vilnaLine": 18
+      }
+     ]
+    },
+    {
+     "type": "derivation",
+     "speaker": "Gemara",
+     "text": "First arrangement: main fire for offerings, from 'fire on the altar.'",
+     "id": "yoma-045a-l22",
+     "label": "Derivation: First arrangement: main fire for offerings, from",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-045a-l22",
+       "vilnaLine": 22
+      }
+     ]
+    },
+    {
+     "type": "derivation",
+     "speaker": "Gemara",
+     "text": "Second arrangement: incense fire from 'he shall burn incense in the morning.'",
+     "id": "yoma-045a-l25",
+     "label": "Derivation: Second arrangement: incense fire from 'he shall",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-045a-l25",
+       "vilnaLine": 25
+      }
+     ]
+    },
+    {
+     "type": "derivation",
+     "speaker": "Gemara",
+     "text": "Third and fourth arrangements: additional wood for the main fire.",
+     "id": "yoma-045a-l30",
+     "label": "Derivation: Third and fourth arrangements: additional wood for",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-045a-l30",
+       "vilnaLine": 30
+      }
+     ]
+    },
+    {
+     "type": "dispute",
+     "speaker": "R. Meir/R. Yehuda",
+     "text": "R. Meir: five arrangements; R. Yehuda: four. The fifth would be for Yom Kippur coals.",
+     "id": "yoma-045a-l36",
+     "label": "Dispute: R. Meir: five arrangements; R. Yehuda: four.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-045a-l36",
+       "vilnaLine": 36
+      }
+     ]
+    },
+    {
+     "type": "resolution",
+     "speaker": "Gemara",
+     "text": "Resolution: R. Yehuda derives the Yom Kippur coal source from one of the four; R. Meir needs a separate fifth.",
+     "id": "yoma-045a-l44",
+     "label": "Resolution: Resolution: R. Yehuda derives the Yom Kippur",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-045a-l44",
+       "vilnaLine": 44
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "wood arrangements",
+    "altar fire",
+    "R. Meir",
+    "R. Yehuda",
+    "Yom Kippur coals"
+   ],
+   "concepts": {
+    "halachic": [
+     "four vs five wood arrangements",
+     "Yom Kippur coal source"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "altar fire laws",
+    "perpetual fire laws",
+    "Yom Kippur avodah structure"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The number of wood arrangements on the altar is a fixed, undisputed fact rather than a matter of tannaitic disagreement.",
+     "correction": "R. Meir and R. Yehuda dispute the count: R. Meir derives a fifth arrangement for the Yom Kippur incense coals, while R. Yehuda holds four suffice even on Yom Kippur - each position rests on a verse-based derivation.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-045b-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "R. Meir 5 arrangements vs R. Yehuda 4"
+    },
+    {
+     "type": "sequence",
+     "label": "four arrangements derived from four Torah verses"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "He required a fifth arrangement specifically to provide the coals for the Yom Kippur incense firepan, which R. Yehuda derived from one of the four standard arrangements.",
+     "question": "Why did R. Meir hold there were five wood arrangements on the altar?"
+    }
+   ],
+   "finalRuling": "On ordinary days four wood-pyre arrangements; R. Meir requires a fifth for Yom Kippur coal sourcing.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [
+  {
+   "he": "פָּרָס",
+   "translit": "peras",
+   "en": "Half-measure (half a maneh) of incense offered on the golden altar in the Sanctuary on ordinary days."
+  },
+  {
+   "he": "כֶּבֶשׁ",
+   "translit": "kevesh",
+   "en": "The ramp leading up to the altar; priests used the east side normally, the High Priest used the middle on Yom Kippur."
+  },
+  {
+   "he": "פָּז",
+   "translit": "paz",
+   "en": "Finest grade gold, named because it glistens like the luster of pearls; used for the most elevated Temple vessels."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'That resembles paz' - it glistens like a pearl. 'That is spun like a thread' - since it is soft.",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "'All the shops close' - since there is no market for other gold on account of this one. 'It is likewise",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l01",
+    "yoma-045a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "taught' - because it resembles the blood of bulls it is called gold of Parvaim in Chronicles",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "(II Chronicles 3). 'But has it not already been stated' - regarding every ordinary day, 'and grind it fine.'",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l03",
+    "yoma-045a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "'Rather, by way of the right' - which is to the east, since",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l11"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "the ramp is in the south; therefore he ascends by the eastern side of the",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l11"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "ramp, which is near turning to the right.",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l11"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "'On account of his honor' - to display his importance,",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "that he is like a member of the household and circles it whether needed or",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "not needed. 'That they add on that day' - to take",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l13",
+    "yoma-045a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "from it coals for the incense of the innermost sanctuary,",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "but the incense of the inner altar is treated",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "like the incense of the rest of the year. 'For",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l18",
+    "yoma-045a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "maintaining the fire' - so that if the fire of the large",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "arrangement weakens, they add to it from this one.",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "'That were not consumed' - that were not placed on the arrangement,",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "or were placed but did not finish burning.",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "'For kindling the alita' - to kindle with them the flame of",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "the large arrangement. 'Alita' - thin",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "splinters. 'And Rabbi Yosei - from where does he derive the kindling of the alita",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l36",
+    "yoma-045a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "requirement' - that it be at the top of the altar,",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "and not that he kindle it on the floor and carry it up while it is",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "already burning onto the altar. 'And with sacred vessels' -",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "clothed in the priestly garments. 'And could it enter",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "your mind' - since you already learn from the verse about the fire",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "on the altar that it be kept burning that it must be at the top",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "of the altar, would we then need this verse at all",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "to load it upon a priest, and could it enter your mind",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "that a non-priest would approach the altar? For is it not stated",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "(Numbers 18), 'only they shall not come near the sacred vessels",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "or the altar'? Rather, it teaches",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "about the kindling of the alita, that it may only be",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "at the top of the altar; and the other verse comes for maintaining",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "the fire, following Rabbi Yosei, and the priesthood requirement written",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "in this verse is needed for its own teaching,",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "that the placing of fire requires a priest, and a non-priest may not",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "take it and throw it onto the altar. 'And Rabbi Yehuda' -",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l39",
+    "yoma-045a-l44"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "would say to you: 'if from there' - from the fire on the altar",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l44"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "etc. - even though we hear from it that the kindling",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l44"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "must be at the top of the altar, we would not hear from it that it is invalid",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l44"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "when performed by a non-priest; one might have thought the non-priest stands on the ground and does it",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l44"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "with a bellows. 'From where does he derive' that it requires an arrangement -",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l44",
+    "yoma-045a-l45"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "he derives it from 'and fire' - he expounds the added letter vav.",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l45"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "'Which'",
+   "linkedGemaraLineIds": [
+    "yoma-045a-l47"
+   ]
+  }
+ ]
 }
