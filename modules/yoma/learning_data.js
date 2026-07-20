@@ -101521,7 +101521,7 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 1,
         he: "יכול אף בכל העזרה. לא יהא אדם עומד כשהכהן מקטיר קטרת",
-        en: "Rashi: the Baraita's phrase 'I might think even the entire courtyard' means a person may not stand anywhere in the Temple courtyard while the priest burns the incense in the Holy of Holies.",
+        en: "'One might think even in the entire courtyard' - a person should not stand while the priest burns the incense",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -101535,12 +101535,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 2,
         he: "לפני ולפנים: אין לי אלא בשעת הקטרת קטורת. לקמיה מפרש",
-        en: "Rashi: continues on the Baraita's next clause, 'I only have this for the time of the incense burning' - the source for this limit is explained further on in the Gemara.",
+        en: "in the innermost sanctuary. 'I have only that it applies during the burning of the incense' - further on it explains",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l01"
+          "yoma-044a-l01",
+          "yoma-044a-l10"
         ]
       },
       {
@@ -101549,12 +101550,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 3,
         he: "מאי משמע: הוי אומר זו הקטרת קטרת. דאילו מתן דמים אין",
-        en: "Rashi: the Gemara's question 'from where is this inferred' is answered: it must mean the burning of the incense, since the giving of the blood is not uniform across the different offerings.",
+        en: "what this implies: 'you must say this refers to the burning of the incense,' since the giving of the blood is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l03"
+          "yoma-044a-l10"
         ]
       },
       {
@@ -101563,12 +101564,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 4,
         he: "שוה בכולם שהפר מכפר עליו ועל הכהנים והשעיר על ישראל:",
-        en: "Rashi: explains why blood-giving is not uniform - the bull atones for the High Priest and the priests, while the goat atones for Israel, so the exclusion rule cannot be about blood-giving specifically.",
+        en: "uniform across all of them, since the bull atones for him and for the priests and the goat for Israel.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l03"
+          "yoma-044a-l10"
         ]
       },
       {
@@ -101577,12 +101578,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 5,
         he: "על לשון הרע. כי ההיא דקרח",
-        en: "Rashi: 'concerning slander' refers to the incident of Korah, which was an act of slander.",
+        en: "'Concerning slander' - like that of Korach,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l03"
+          "yoma-044a-l16"
         ]
       },
       {
@@ -101591,12 +101592,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 6,
         he: "לשון הרע הוה דכתיב (במדבר יז)",
-        en: "Rashi: identifies the verse (Numbers 17) 'you have killed the people of the Lord' as the slander in question.",
+        en: "it was slander, as it is written (Numbers 17),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l06"
+          "yoma-044a-l16"
         ]
       },
       {
@@ -101605,12 +101606,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 7,
         he: "אתם המיתם את עם ה' וסתם לשון",
-        en: "Rashi: continues quoting the verse establishing that this accusation constituted the slander.",
+        en: "'you have killed the people of the Lord'; and unspecified slander",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l06"
+          "yoma-044a-l16"
         ]
       },
       {
@@ -101619,12 +101620,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 8,
         he: "הרע בחשאי הוא: מבין האולם",
-        en: "Rashi: notes that unspecified slander is typically spoken quietly, in secret.",
+        en: "is spoken in secret. 'From between the Entrance Hall",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l06"
+          "yoma-044a-l16",
+          "yoma-044a-l21"
         ]
       },
       {
@@ -101633,12 +101635,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 9,
         he: "ולמזבח. מכל אויר כ\"ב אמות",
-        en: "Rashi: 'from between the Entrance Hall and the Altar' means the entire air-space of the twenty-two cubits between them.",
+        en: "and the Altar' - the entire air-space of twenty-two cubits",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l06"
+          "yoma-044a-l21"
         ]
       },
       {
@@ -101647,12 +101649,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 10,
         he: "שביניהם: ל\"ש אלא בשעת הקטרה",
-        en: "Rashi: 'this applies only during the burning' - meaning the incense burning.",
+        en: "between them. 'This was only taught regarding the burning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l10"
+          "yoma-044a-l21"
         ]
       },
       {
@@ -101661,12 +101663,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 11,
         he: "דהיכל. דמזבח הפנימי שחרית וערבית",
-        en: "Rashi: 'of the Sanctuary' refers to the inner altar's morning and evening incense, since that area is adjacent to the Sanctuary.",
+        en: "of the Sanctuary' - the inner altar's morning and evening incense,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l10"
+          "yoma-044a-l21"
         ]
       },
       {
@@ -101675,12 +101677,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 12,
         he: "שהרי סמוך לו: אבל בשעת הקטרה",
-        en: "Rashi: explains the adjacency reasoning - the space between Hall and Altar is close to the Sanctuary.",
+        en: "since it is close to it. 'But during the burning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l10"
+          "yoma-044a-l21"
         ]
       },
       {
@@ -101689,12 +101691,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 13,
         he: "דלפני ולפנים. מהיכל שהוא סמוך",
-        en: "Rashi: but during the Holy of Holies incense burning, people must leave the Sanctuary itself, since it is adjacent to the Holy of Holies.",
+        en: "of the innermost sanctuary' - from the Sanctuary, since it is close",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l10"
+          "yoma-044a-l21"
         ]
       },
       {
@@ -101703,12 +101705,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 14,
         he: "לו פרשי אבל מבין האולם ולמזבח",
-        en: "Rashi: continues distinguishing the areas - the Sanctuary is near the Holy of Holies, unlike the space between Hall and Altar.",
+        en: "to it, they separate; but from between the Entrance Hall and the Altar,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l10"
+          "yoma-044a-l21"
         ]
       },
       {
@@ -101717,12 +101719,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 15,
         he: "שהוא מרוחק לא פרשי: בשעת מתן פר",
-        en: "Rashi: since the space between Hall and Altar is farther away, people need not leave it during the Holy of Holies incense.",
+        en: "which is farther away, they do not separate. 'At the time of giving the blood of the bull",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l10"
+          "yoma-044a-l21",
+          "yoma-044a-l25"
         ]
       },
       {
@@ -101731,12 +101734,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 16,
         he: "כהן משיח. הבא על אחת מכל המצות",
-        en: "Rashi: 'at the time of giving the blood of the anointed priest's bull' refers to the bull brought when the High Priest erred in his own halakhic ruling and acted wrongly.",
+        en: "of the anointed priest' - the one brought for erring in one of the commandments",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l16"
+          "yoma-044a-l25"
         ]
       },
       {
@@ -101745,12 +101748,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 17,
         he: "שטעה בהוראת עצמו ועשה ומתן דמו",
-        en: "Rashi: continues describing this bull - brought for an error in any of the commandments that the High Priest ruled on himself.",
+        en: "in his own ruling and acting on it, whose blood is given",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l16"
+          "yoma-044a-l25"
         ]
       },
       {
@@ -101759,12 +101762,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 18,
         he: "על הפרוכת ועל מזבח הזהב: ושעירי",
-        en: "Rashi: its blood is given upon the curtain (Parochet) and upon the golden altar.",
+        en: "on the curtain and on the golden altar. 'And the goats of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l16"
+          "yoma-044a-l25"
         ]
       },
       {
@@ -101773,12 +101776,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 19,
         he: "עבודת כוכבים. ציבור שעבדו ע\"ז",
-        en: "Rashi: 'and the goats of idol worship' refers to the case where the community worshipped idols due to a mistaken ruling of the court.",
+        en: "idol worship' - a community that worshipped idols",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l16"
+          "yoma-044a-l25"
         ]
       },
       {
@@ -101787,12 +101790,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 20,
         he: "בהוראת בית דין מביאים פר לעולה",
-        en: "Rashi: in that case they bring a bull as a burnt-offering and a goat as a sin-offering.",
+        en: "on a ruling of the court brings a bull as a burnt offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l16"
+          "yoma-044a-l25"
         ]
       },
       {
@@ -101801,12 +101804,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 21,
         he: "ושעיר לחטאת כדכתיב בפרשת שלח",
-        en: "Rashi: this is written in the portion Shelach Lecha Anashim, Numbers chapter 15.",
+        en: "and a goat as a sin offering, as it is written in the portion Shelach",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l16"
+          "yoma-044a-l25"
         ]
       },
       {
@@ -101815,12 +101818,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 22,
         he: "לך אנשים (שם טו) ואותו שעיר מתן",
-        en: "Rashi: continues citing the source verse for the community's bull and goat offerings.",
+        en: "Lecha Anashim (ibid. 15); and that goat's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l16"
+          "yoma-044a-l25"
         ]
       },
       {
@@ -101829,12 +101832,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 23,
         he: "דמו על הפרוכת ואינו נאכל כדילפינן",
-        en: "Rashi: that goat's blood is given on the Parochet and it is not eaten.",
+        en: "blood is given on the curtain and it is not eaten, as we derive",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l16"
+          "yoma-044a-l25"
         ]
       },
       {
@@ -101843,12 +101846,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 24,
         he: "בסיפרא וסיפרי ובמסכת זבחים",
-        en: "Rashi: this is derived in the Sifra, the Sifrei, and in tractate Zevachim 47a.",
+        en: "in the Sifra and Sifrei and in tractate Zevachim",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l16"
+          "yoma-044a-l25"
         ]
       },
       {
@@ -101857,12 +101860,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 25,
         he: "(דף מז.): הא מה מעלה יש כו'.",
-        en: "Rashi: 'so what distinction is there' - the word 'ha' here functions like 'harei,' meaning 'thus, now that we've established this.'",
+        en: "(47a). 'So what distinction is there,' etc. -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l25"
+          "yoma-044a-l25",
+          "yoma-044a-l30"
         ]
       },
       {
@@ -101871,12 +101875,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 26,
         he: "האי הא כמו הרי כלומר מעתה",
-        en: "Rashi: continues explaining the logical force of the Gemara's rhetorical question.",
+        en: "this 'ha' is like 'harei,' meaning, now",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l25"
+          "yoma-044a-l30"
         ]
       },
       {
@@ -101885,12 +101889,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 27,
         he: "[מה] מעלה יש בפרישה בין היכל",
-        en: "Rashi: the question asks what distinction remains in the separation requirement between the Sanctuary and the space between Hall and Altar.",
+        en: "what distinction is there in the separation between the Sanctuary",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l25"
+          "yoma-044a-l30"
         ]
       },
       {
@@ -101899,12 +101903,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 28,
         he: "לבין אולם ולמזבח: בין בשעת",
-        en: "Rashi: 'whether during the burning, etc.' reflects the Gemara's initial assumption about the scope of the rule.",
+        en: "and the Entrance Hall and the Altar. 'Whether during",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l25"
+          "yoma-044a-l30"
         ]
       },
       {
@@ -101913,12 +101917,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 29,
         he: "הקטרה כו'. קא סלקא דעתיה בין",
-        en: "Rashi: the assumption is whether this applies during the Holy of Holies incense burning.",
+        en: "the burning,' etc. - he assumed it meant either",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l25"
+          "yoma-044a-l30"
         ]
       },
       {
@@ -101927,12 +101931,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 30,
         he: "בשעת הקטרה דלפני ולפנים בין",
-        en: "Rashi: or alternatively not during that incense burning, but during the giving of the Holy of Holies blood.",
+        en: "during the burning of the innermost sanctuary, or",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l25"
+          "yoma-044a-l30"
         ]
       },
       {
@@ -101941,12 +101945,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 31,
         he: "שלא בשעת הקטרה דלפני ולפנים",
-        en: "Rashi: continues laying out this alternative scenario for the Gemara's assumption.",
+        en: "not during the burning of the innermost sanctuary",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l25"
+          "yoma-044a-l30"
         ]
       },
       {
@@ -101955,12 +101959,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 32,
         he: "אלא בשעת מתן דמים דלפני ולפנים:",
-        en: "Rashi: clarifies that this alternative concerns the blood-giving stage of the Holy of Holies service specifically.",
+        en: "but during the giving of the blood of the innermost sanctuary.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l25"
+          "yoma-044a-l30"
         ]
       },
       {
@@ -101969,12 +101973,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 33,
         he: "ומבין אולם ולמזבח אין פורשין. משום",
-        en: "Rashi: 'and from between the Hall and Altar they need not separate' - this applies to the Holy of Holies service except during the incense burning.",
+        en: "'And from between the Entrance Hall and the Altar they do not separate' - meaning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l25"
+          "yoma-044a-l30"
         ]
       },
       {
@@ -101983,12 +101987,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 34,
         he: "לפני ולפנים אלא בשעת הקטרה",
-        en: "Rashi: continues - but not during the giving of the blood, people need not leave that intermediate space.",
+        en: "regarding the innermost sanctuary, except during its burning,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l30"
         ]
       },
       {
@@ -101997,11 +102001,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 35,
         he: "אבל לא בשעת מתן דמים: מאי לאו",
-        en: "Rashi: 'does this not mean, etc.' - as I explained above regarding the two possible readings.",
+        en: "but not during the giving of the blood. 'Does this not mean,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-044a-l30",
           "yoma-044a-l34"
         ]
       },
@@ -102011,12 +102016,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 36,
         he: "כו'. כדפרישית: לא בשעת הקטרה",
-        en: "Rashi: 'no, [it means] during the burning of the Sanctuary incense' - it means people must separate from between the Hall and Altar.",
+        en: "etc. - as I explained. 'No, during the burning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l34",
+          "yoma-044a-l36"
         ]
       },
       {
@@ -102025,12 +102031,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 37,
         he: "דהיכל. קאמר דפורשים מבין האולם",
-        en: "Rashi: continues explaining this reading of the Baraita's intent.",
+        en: "of the Sanctuary' - meaning that they separate from between the Entrance Hall",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l36"
         ]
       },
       {
@@ -102039,12 +102045,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 38,
         he: "ולמזבח והכי קתני כשם שפורשים",
-        en: "Rashi: this teaches that just as people separate from between the Hall and Altar during the Sanctuary's incense burning.",
+        en: "and the Altar, and this is what it teaches: just as they separate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l36"
         ]
       },
       {
@@ -102053,12 +102059,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 39,
         he: "מבין האולם בשעת הקטרה דהיכל",
-        en: "Rashi: continues the parallel - so too they separate during the giving of the anointed priest's bull blood.",
+        en: "from between the Entrance Hall during the burning of the Sanctuary,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l36"
         ]
       },
       {
@@ -102067,12 +102073,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 40,
         he: "כך פורשין בשעת מתן פר כהן",
-        en: "Rashi: since that bull's blood-giving is also performed in the Sanctuary.",
+        en: "so too they separate during the giving of the blood of the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l36"
         ]
       },
       {
@@ -102081,12 +102087,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 41,
         he: "משיח דהוי נמי בהיכל: אי הכי.",
-        en: "Rashi: concludes this comparison between the incense burning and the bull's blood-giving, both located in the Sanctuary.",
+        en: "anointed priest's bull, which is also performed in the Sanctuary. 'If so' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l36"
         ]
       },
       {
@@ -102095,12 +102101,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 42,
         he: "דכשם שפורשין בשעת הקטרה אהיכל",
-        en: "Rashi: 'if so' - that the separation during burning refers specifically to the Sanctuary and not the Holy of Holies.",
+        en: "since just as they separate during the burning it refers to the Sanctuary",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l36"
         ]
       },
       {
@@ -102109,12 +102115,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 43,
         he: "קאי ולא אדלפני ולפנים הא מה",
-        en: "Rashi: continues - then the earlier question 'so what distinction is there' is asked with astonishment, as if to say there is no other distinction.",
+        en: "and not to the innermost sanctuary, then 'what",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l36"
         ]
       },
       {
@@ -102123,12 +102129,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 44,
         he: "מעלה יש בתמיה וכי אין עוד מעלה",
-        en: "Rashi: continues developing this rhetorical objection to the proposed reading.",
+        en: "distinction is there' - said with astonishment, as if to say is there no further distinction",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l36"
         ]
       },
       {
@@ -102137,12 +102143,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 45,
         he: "אלא הא דשלא בשעת הקטרה",
-        en: "Rashi: rather, the true point concerns the case of not-during-the-burning but during the Holy of Holies blood-giving.",
+        en: "besides the one that not during the burning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l36"
         ]
       },
       {
@@ -102151,12 +102157,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 46,
         he: "דלפני לפנים דקתני שבהיכל פורשין",
-        en: "Rashi: the Baraita teaches that in the Sanctuary people separate both during its own incense burning.",
+        en: "of the innermost sanctuary the teaching states that in the Sanctuary they separate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l36"
         ]
       },
       {
@@ -102165,12 +102171,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 47,
         he: "בין בשעת הקטרה בין דהיכל בין",
-        en: "Rashi: and during the Holy of Holies service, whether during incense burning or during blood-giving.",
+        en: "both during its own burning and during",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l36"
         ]
       },
       {
@@ -102179,12 +102185,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 48,
         he: "לפני לפנים בין שלא בשעת הקטרה",
-        en: "Rashi: continues specifying that this applies whether the Holy of Holies stage is incense or blood.",
+        en: "the innermost sanctuary's burning, and not during its burning,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l36"
         ]
       },
       {
@@ -102193,12 +102199,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 49,
         he: "אלא בשעת מתן דמים בין דהיכל",
-        en: "Rashi: but not during the giving of blood - this applies whether of the Sanctuary or of the Holy of Holies.",
+        en: "meaning during the giving of the blood, whether of the Sanctuary",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l36"
         ]
       },
       {
@@ -102207,12 +102213,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 50,
         he: "בין לפני ולפנים ומבין האולם",
-        en: "Rashi: continues clarifying the scope of when blood-giving does not require separation.",
+        en: "or of the innermost sanctuary; whereas from between the Entrance Hall",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l36"
         ]
       },
       {
@@ -102221,12 +102227,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 51,
         he: "ולמזבח לא פרשינן שלא בשעת",
-        en: "Rashi: but from between the Hall and Altar, people do not separate except during the Sanctuary's own incense burning.",
+        en: "and the Altar they do not separate except not during",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l36"
         ]
       },
       {
@@ -102235,12 +102241,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 52,
         he: "הקטרה דהיא שעת מתן דמים",
-        en: "Rashi: not during the time that is also the time of the Holy of Holies blood-giving.",
+        en: "the burning, which is the time of the giving of the blood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l36"
         ]
       },
       {
@@ -102249,12 +102255,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 53,
         he: "דלפני ולפנים אלא בשעת הקטרה",
-        en: "Rashi: continues distinguishing these overlapping time periods for the separation rule.",
+        en: "of the innermost sanctuary, but only during the burning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l36"
         ]
       },
       {
@@ -102263,12 +102269,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 54,
         he: "דהיכל דהא אפילו בשעת הקטרה",
-        en: "Rashi: for even during that burning there remains a distinction, since people must separate from the Sanctuary as well.",
+        en: "of the Sanctuary, for even during that burning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l36"
         ]
       },
       {
@@ -102277,12 +102283,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 55,
         he: "יש מעלה דאילו מהיכל פרשי כו':",
-        en: "Rashi: concludes this analysis of the layered separation requirements across the two chambers.",
+        en: "there is a further distinction, since from the Sanctuary they separate, etc.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l36"
         ]
       },
       {
@@ -102291,12 +102297,13 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 56,
         he: "הא קתני. בניחותא ה\"נ קאמר האי שלא בשעת הקטרה דקאמר",
-        en: "Rashi: 'so it is taught' is understood affirmatively - this is indeed what the Baraita says.",
+        en: "'It does indeed teach this' - he says this affirmatively; this is indeed what it means: this 'not during the burning' that it states",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l36",
+          "yoma-044a-l41"
         ]
       },
       {
@@ -102305,12 +102312,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 57,
         he: "שלא בשעת הקטרה דהיכל קאמר אלא בשעת הקטרה היא לפני לפנים:",
-        en: "Rashi: the phrase 'not during the burning' means not during the Sanctuary's burning, but rather during the Holy of Holies burning.",
+        en: "means not during the burning of the Sanctuary, but rather it is during the burning of the innermost sanctuary.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l41"
         ]
       },
       {
@@ -102319,12 +102326,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 58,
         he: "בין בשעת הקטרה. [דהיכל] והא שלא בשעת הקטרה דקתני תנא",
-        en: "Rashi: 'whether during the burning' refers to the Sanctuary's burning.",
+        en: "'Whether during the burning' - of the Sanctuary; and this 'not during the burning' that the tanna teaches",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l41"
         ]
       },
       {
@@ -102333,12 +102340,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 59,
         he: "שלא בשעת הקטרה דידיה אלא בשעת הקטרה דלפני ולפנים:",
-        en: "Rashi: continues - the Tanna's 'not during the burning' means not its own (Sanctuary) burning, but rather the Holy of Holies burning.",
+        en: "means not its own burning, but rather during the burning of the innermost sanctuary.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l41"
         ]
       },
       {
@@ -102347,12 +102354,12 @@ const DAF_CONTENT = {
         daf: "44a",
         vilnaLine: 60,
         he: "בקדושה",
-        en: "Rashi: 'in holiness' opens the discussion continued on the next daf regarding levels of sanctity.",
+        en: "'In holiness'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-044a-l34"
+          "yoma-044a-l41"
         ]
       }
     ],

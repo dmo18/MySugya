@@ -1,698 +1,705 @@
 {
-  "daf": "44a",
-  "canonicalRef": "Yoma 44a",
-  "summary": "The Gemara establishes that the incense must be placed on the coals inside the Holy of Holies (refuting the Sadducee position), the cloud of incense must fill the space before the High Priest approaches the ark, and the 'no man in the Tent of Meeting' exclusion applies only during the incense burning - not during blood sprinkling.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "44a",
+ "canonicalRef": "Yoma 44a",
+ "summary": "The Gemara establishes that the incense must be placed on the coals inside the Holy of Holies (refuting the Sadducee position), the cloud of incense must fill the space before the High Priest approaches the ark, and the 'no man in the Tent of Meeting' exclusion applies only during the incense burning - not during blood sprinkling.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-044a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 41
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-044a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 41
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.44a.1"
-        },
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.44a.2"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.44a.3"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.44a.4"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.44a.5"
-        },
-        {
-          "vilnaLine": 21,
-          "sefariaRef": "Yoma.44a.6"
-        },
-        {
-          "vilnaLine": 25,
-          "sefariaRef": "Yoma.44a.7"
-        },
-        {
-          "vilnaLine": 30,
-          "sefariaRef": "Yoma.44a.8"
-        },
-        {
-          "vilnaLine": 34,
-          "sefariaRef": "Yoma.44a.9"
-        },
-        {
-          "vilnaLine": 36,
-          "sefariaRef": "Yoma.44a.10"
-        },
-        {
-          "vilnaLine": 41,
-          "sefariaRef": "Yoma.44a.11"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.44a.5",
-        "Yoma.44a.11",
-        "Yoma.44a.9",
-        "Yoma.44a.10",
-        "Yoma.44a.6",
-        "Yoma.44a.4",
-        "Yoma.44a.8",
-        "Yoma.44a.3",
-        "Yoma.44a.2",
-        "Yoma.44a.7",
-        "Yoma.44a.1"
-      ],
-      "display": {
-        "whats": "Must the incense be lit inside the Holy of Holies, and how complete must the cloud be before the High Priest approaches the ark?",
-        "hint": "The Sages derive from 'before God' that the incense must be placed inside - the Sadducees wanted to prepare it outside first. The cloud requirement is absolute: if it does not fill the space, the rite is incomplete. The 'no man' prohibition applies only during burning.",
-        "title": "Inside the Cloud: Where Incense Atones"
-      },
-      "learning": {
-        "ahaMoment": "The incense rite embodies a theological principle: even the High Priest cannot approach the divine presence without mediation. The smoke cloud is not protection from danger - it is the act of reverence itself.",
-        "memoryAnchor": "The cloud of incense must fill the entire space of the Holy of Holies before the High Priest approaches the ark - the rite cannot be rushed.",
-        "learnerQuestion": "Must the incense be lit inside the Holy of Holies, and how complete must the cloud be before the High Priest approaches the ark?",
-        "coreTension": "The Sadducees held the incense should be lit outside so the High Priest enters already wrapped in smoke, while the verse 'before God' must be reconciled with the 'no man' exclusion and with how complete the cloud must be before any approach to the ark.",
-        "coreMove": "The Gemara reads 'before God' as requiring the incense to be placed on the coals inside the Kodesh Kodashim itself, reads 'so the cloud covers' as requiring the fill to be complete before approach, and limits the 'no man' exclusion to the duration of the burning itself.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The incense must be placed on the coals inside the Holy of Holies, not prepared outside; the cloud must fill the space completely before the High Priest approaches the ark; the 'no man' exclusion applies only during the burning, not throughout the whole service."
-        },
-        "learningBlocker": "Learners may assume the 'no man' prohibition excludes everyone from the Tent of Meeting for the entire Yom Kippur Holy of Holies service, missing that it applies specifically during the incense burning."
-      },
-      "argumentFlow": [
-        {
-          "type": "question",
-          "speaker": "Baraita",
-          "text": "I might think nobody should be in the Temple courtyard - verse limits exclusion to 'Tent of Meeting.'",
-          "id": "yoma-044a-l01",
-          "label": "Question: I might think nobody should be in",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-044a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "derivation",
-          "speaker": "Baraita",
-          "text": "'And have made atonement' - incense can effect atonement, proven from Miriam and lashon hara.",
-          "id": "yoma-044a-l03",
-          "label": "Derivation: 'And have made atonement' - incense can",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-044a-l03",
-              "vilnaLine": 3
-            }
-          ]
-        },
-        {
-          "type": "citation",
-          "speaker": "Gemara",
-          "text": "Verse 'and he shall put incense before God' = inside the Kodesh Kodashim, not outside.",
-          "id": "yoma-044a-l06",
-          "label": "Citation: Verse 'and he shall put incense before",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-044a-l06",
-              "vilnaLine": 6
-            }
-          ]
-        },
-        {
-          "type": "dispute",
-          "speaker": "Sages vs Sadducees",
-          "text": "Sages: incense inside. Sadducees: incense prepared outside first. Sages derive from 'before God' = in God's presence.",
-          "id": "yoma-044a-l10",
-          "label": "Dispute: Sages: incense inside. Sadducees: incense prepared o...",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-044a-l10",
-              "vilnaLine": 10
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Sages",
-          "text": "The cloud must fill the space before the High Priest approaches the ark - verse 'so the cloud covers the ark cover.'",
-          "id": "yoma-044a-l16",
-          "label": "Ruling: The cloud must fill the space before",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-044a-l16",
-              "vilnaLine": 16
-            }
-          ]
-        },
-        {
-          "type": "narrative",
-          "speaker": "Gemara",
-          "text": "The High Priest prays briefly at the exit - a long prayer is forbidden lest the congregation despair.",
-          "id": "yoma-044a-l25",
-          "label": "Narrative: The High Priest prays briefly at the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-044a-l25",
-              "vilnaLine": 25
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "'No man in the Tent of Meeting' applies only during incense burning, not during blood sprinkling.",
-          "id": "yoma-044a-l34",
-          "label": "Ruling: 'No man in the Tent of Meeting'",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-044a-l34",
-              "vilnaLine": 34
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "incense inside vs outside",
-        "incense cloud requirement",
-        "no man in Tent of Meeting",
-        "High Priest's prayer"
-      ],
-      "concepts": {
-        "halachic": [
-          "incense placement inside Kodesh Kodashim",
-          "cloud coverage requirement",
-          "exclusion zone during burning"
-        ],
-        "theological": [
-          "incense atones for lashon hara",
-          "mediation before divine presence"
-        ],
-        "narrative": [
-          "High Priest's brief prayer at exit",
-          "Sadducee vs Pharisee incense dispute"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Yom Kippur incense service",
-        "Holy of Holies entry laws",
-        "atonement theology"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The 'no man' prohibition excludes anyone from the Tent of Meeting throughout the whole Yom Kippur service, including during the blood sprinkling.",
-          "correction": "The 'no man' verse applies only during the incense burning itself - it does not apply during the blood sprinkling that follows.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-043b-s01",
-        "yoma-044b-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "place",
-          "label": "incense cloud filling the Holy of Holies"
-        },
-        {
-          "type": "contrast",
-          "label": "Sages: incense inside vs Sadducees: incense outside"
-        },
-        {
-          "type": "action",
-          "label": "High Priest's brief prayer at the exit"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "That the incense must be placed on the coals inside the Holy of Holies, in the presence of God - not prepared outside and carried in as a cloud.",
-          "question": "What does the verse 'before God' teach about the incense offering?"
-        },
-        {
-          "answer": "Lashon hara (evil speech), derived from the story of Miriam who was punished for speaking against Moses.",
-          "question": "For what sin does incense atone according to the Gemara?"
-        }
-      ],
-      "finalRuling": "The incense must be placed on the coals inside the Holy of Holies; the cloud must fill completely before the High Priest approaches the ark; the exclusion applies only during the burning.",
-      "difficulty": "intermediate",
-      "review": "reviewed",
-      "alternateAngles": [],
-      "glossary": []
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.44a.1"
+    },
+    {
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.44a.2"
+    },
+    {
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.44a.3"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.44a.4"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.44a.5"
+    },
+    {
+     "vilnaLine": 21,
+     "sefariaRef": "Yoma.44a.6"
+    },
+    {
+     "vilnaLine": 25,
+     "sefariaRef": "Yoma.44a.7"
+    },
+    {
+     "vilnaLine": 30,
+     "sefariaRef": "Yoma.44a.8"
+    },
+    {
+     "vilnaLine": 34,
+     "sefariaRef": "Yoma.44a.9"
+    },
+    {
+     "vilnaLine": 36,
+     "sefariaRef": "Yoma.44a.10"
+    },
+    {
+     "vilnaLine": 41,
+     "sefariaRef": "Yoma.44a.11"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.44a.5",
+    "Yoma.44a.11",
+    "Yoma.44a.9",
+    "Yoma.44a.10",
+    "Yoma.44a.6",
+    "Yoma.44a.4",
+    "Yoma.44a.8",
+    "Yoma.44a.3",
+    "Yoma.44a.2",
+    "Yoma.44a.7",
+    "Yoma.44a.1"
+   ],
+   "display": {
+    "whats": "Must the incense be lit inside the Holy of Holies, and how complete must the cloud be before the High Priest approaches the ark?",
+    "hint": "The Sages derive from 'before God' that the incense must be placed inside - the Sadducees wanted to prepare it outside first. The cloud requirement is absolute: if it does not fill the space, the rite is incomplete. The 'no man' prohibition applies only during burning.",
+    "title": "Inside the Cloud: Where Incense Atones"
+   },
+   "learning": {
+    "ahaMoment": "The incense rite embodies a theological principle: even the High Priest cannot approach the divine presence without mediation. The smoke cloud is not protection from danger - it is the act of reverence itself.",
+    "memoryAnchor": "The cloud of incense must fill the entire space of the Holy of Holies before the High Priest approaches the ark - the rite cannot be rushed.",
+    "learnerQuestion": "Must the incense be lit inside the Holy of Holies, and how complete must the cloud be before the High Priest approaches the ark?",
+    "coreTension": "The Sadducees held the incense should be lit outside so the High Priest enters already wrapped in smoke, while the verse 'before God' must be reconciled with the 'no man' exclusion and with how complete the cloud must be before any approach to the ark.",
+    "coreMove": "The Gemara reads 'before God' as requiring the incense to be placed on the coals inside the Kodesh Kodashim itself, reads 'so the cloud covers' as requiring the fill to be complete before approach, and limits the 'no man' exclusion to the duration of the burning itself.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The incense must be placed on the coals inside the Holy of Holies, not prepared outside; the cloud must fill the space completely before the High Priest approaches the ark; the 'no man' exclusion applies only during the burning, not throughout the whole service."
+    },
+    "learningBlocker": "Learners may assume the 'no man' prohibition excludes everyone from the Tent of Meeting for the entire Yom Kippur Holy of Holies service, missing that it applies specifically during the incense burning."
+   },
+   "argumentFlow": [
     {
-      "he": "כַּפֹּרֶת",
-      "translit": "kapporet",
-      "en": "The gold cover of the Ark of the Covenant, with two cherubim on top; the cloud of incense covered this on Yom Kippur."
+     "type": "question",
+     "speaker": "Baraita",
+     "text": "I might think nobody should be in the Temple courtyard - verse limits exclusion to 'Tent of Meeting.'",
+     "id": "yoma-044a-l01",
+     "label": "Question: I might think nobody should be in",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-044a-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "he": "קְטֹרֶת",
-      "translit": "ketoret",
-      "en": "The incense offering burned on Yom Kippur inside the Holy of Holies; placed on coals, its cloud covered the ark."
+     "type": "derivation",
+     "speaker": "Baraita",
+     "text": "'And have made atonement' - incense can effect atonement, proven from Miriam and lashon hara.",
+     "id": "yoma-044a-l03",
+     "label": "Derivation: 'And have made atonement' - incense can",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-044a-l03",
+       "vilnaLine": 3
+      }
+     ]
     },
     {
-      "he": "לָשׁוֹן הָרָע",
-      "translit": "lashon hara",
-      "en": "Evil speech, slander; according to the Gemara, incense atones for this sin specifically."
+     "type": "citation",
+     "speaker": "Gemara",
+     "text": "Verse 'and he shall put incense before God' = inside the Kodesh Kodashim, not outside.",
+     "id": "yoma-044a-l06",
+     "label": "Citation: Verse 'and he shall put incense before",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-044a-l06",
+       "vilnaLine": 6
+      }
+     ]
+    },
+    {
+     "type": "dispute",
+     "speaker": "Sages vs Sadducees",
+     "text": "Sages: incense inside. Sadducees: incense prepared outside first. Sages derive from 'before God' = in God's presence.",
+     "id": "yoma-044a-l10",
+     "label": "Dispute: Sages: incense inside. Sadducees: incense prepared o...",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-044a-l10",
+       "vilnaLine": 10
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Sages",
+     "text": "The cloud must fill the space before the High Priest approaches the ark - verse 'so the cloud covers the ark cover.'",
+     "id": "yoma-044a-l16",
+     "label": "Ruling: The cloud must fill the space before",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-044a-l16",
+       "vilnaLine": 16
+      }
+     ]
+    },
+    {
+     "type": "narrative",
+     "speaker": "Gemara",
+     "text": "The High Priest prays briefly at the exit - a long prayer is forbidden lest the congregation despair.",
+     "id": "yoma-044a-l25",
+     "label": "Narrative: The High Priest prays briefly at the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-044a-l25",
+       "vilnaLine": 25
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "'No man in the Tent of Meeting' applies only during incense burning, not during blood sprinkling.",
+     "id": "yoma-044a-l34",
+     "label": "Ruling: 'No man in the Tent of Meeting'",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-044a-l34",
+       "vilnaLine": 34
+      }
+     ]
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "topicTags": [
+    "incense inside vs outside",
+    "incense cloud requirement",
+    "no man in Tent of Meeting",
+    "High Priest's prayer"
+   ],
+   "concepts": {
+    "halachic": [
+     "incense placement inside Kodesh Kodashim",
+     "cloud coverage requirement",
+     "exclusion zone during burning"
+    ],
+    "theological": [
+     "incense atones for lashon hara",
+     "mediation before divine presence"
+    ],
+    "narrative": [
+     "High Priest's brief prayer at exit",
+     "Sadducee vs Pharisee incense dispute"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Yom Kippur incense service",
+    "Holy of Holies entry laws",
+    "atonement theology"
+   ],
+   "misconceptions": [
     {
-      "vilnaLine": 1,
-      "en": "Rashi: the Baraita's phrase 'I might think even the entire courtyard' means a person may not stand anywhere in the Temple courtyard while the priest burns the incense in the Holy of Holies.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "Rashi: continues on the Baraita's next clause, 'I only have this for the time of the incense burning' - the source for this limit is explained further on in the Gemara.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "Rashi: the Gemara's question 'from where is this inferred' is answered: it must mean the burning of the incense, since the giving of the blood is not uniform across the different offerings.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "Rashi: explains why blood-giving is not uniform - the bull atones for the High Priest and the priests, while the goat atones for Israel, so the exclusion rule cannot be about blood-giving specifically.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "Rashi: 'concerning slander' refers to the incident of Korah, which was an act of slander.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "Rashi: identifies the verse (Numbers 17) 'you have killed the people of the Lord' as the slander in question.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "Rashi: continues quoting the verse establishing that this accusation constituted the slander.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "Rashi: notes that unspecified slander is typically spoken quietly, in secret.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "Rashi: 'from between the Entrance Hall and the Altar' means the entire air-space of the twenty-two cubits between them.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Rashi: 'this applies only during the burning' - meaning the incense burning.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "Rashi: 'of the Sanctuary' refers to the inner altar's morning and evening incense, since that area is adjacent to the Sanctuary.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "Rashi: explains the adjacency reasoning - the space between Hall and Altar is close to the Sanctuary.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Rashi: but during the Holy of Holies incense burning, people must leave the Sanctuary itself, since it is adjacent to the Holy of Holies.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Rashi: continues distinguishing the areas - the Sanctuary is near the Holy of Holies, unlike the space between Hall and Altar.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "Rashi: since the space between Hall and Altar is farther away, people need not leave it during the Holy of Holies incense.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "Rashi: 'at the time of giving the blood of the anointed priest's bull' refers to the bull brought when the High Priest erred in his own halakhic ruling and acted wrongly.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Rashi: continues describing this bull - brought for an error in any of the commandments that the High Priest ruled on himself.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Rashi: its blood is given upon the curtain (Parochet) and upon the golden altar.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "Rashi: 'and the goats of idol worship' refers to the case where the community worshipped idols due to a mistaken ruling of the court.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Rashi: in that case they bring a bull as a burnt-offering and a goat as a sin-offering.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "Rashi: this is written in the portion Shelach Lecha Anashim, Numbers chapter 15.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Rashi: continues citing the source verse for the community's bull and goat offerings.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Rashi: that goat's blood is given on the Parochet and it is not eaten.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Rashi: this is derived in the Sifra, the Sifrei, and in tractate Zevachim 47a.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Rashi: 'so what distinction is there' - the word 'ha' here functions like 'harei,' meaning 'thus, now that we've established this.'",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Rashi: continues explaining the logical force of the Gemara's rhetorical question.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Rashi: the question asks what distinction remains in the separation requirement between the Sanctuary and the space between Hall and Altar.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Rashi: 'whether during the burning, etc.' reflects the Gemara's initial assumption about the scope of the rule.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Rashi: the assumption is whether this applies during the Holy of Holies incense burning.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "Rashi: or alternatively not during that incense burning, but during the giving of the Holy of Holies blood.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Rashi: continues laying out this alternative scenario for the Gemara's assumption.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "Rashi: clarifies that this alternative concerns the blood-giving stage of the Holy of Holies service specifically.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "Rashi: 'and from between the Hall and Altar they need not separate' - this applies to the Holy of Holies service except during the incense burning.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "Rashi: continues - but not during the giving of the blood, people need not leave that intermediate space.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "Rashi: 'does this not mean, etc.' - as I explained above regarding the two possible readings.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "Rashi: 'no, [it means] during the burning of the Sanctuary incense' - it means people must separate from between the Hall and Altar.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Rashi: continues explaining this reading of the Baraita's intent.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "Rashi: this teaches that just as people separate from between the Hall and Altar during the Sanctuary's incense burning.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "Rashi: continues the parallel - so too they separate during the giving of the anointed priest's bull blood.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "Rashi: since that bull's blood-giving is also performed in the Sanctuary.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "Rashi: concludes this comparison between the incense burning and the bull's blood-giving, both located in the Sanctuary.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Rashi: 'if so' - that the separation during burning refers specifically to the Sanctuary and not the Holy of Holies.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Rashi: continues - then the earlier question 'so what distinction is there' is asked with astonishment, as if to say there is no other distinction.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Rashi: continues developing this rhetorical objection to the proposed reading.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Rashi: rather, the true point concerns the case of not-during-the-burning but during the Holy of Holies blood-giving.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "Rashi: the Baraita teaches that in the Sanctuary people separate both during its own incense burning.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "Rashi: and during the Holy of Holies service, whether during incense burning or during blood-giving.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "Rashi: continues specifying that this applies whether the Holy of Holies stage is incense or blood.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "Rashi: but not during the giving of blood - this applies whether of the Sanctuary or of the Holy of Holies.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "Rashi: continues clarifying the scope of when blood-giving does not require separation.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "Rashi: but from between the Hall and Altar, people do not separate except during the Sanctuary's own incense burning.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "Rashi: not during the time that is also the time of the Holy of Holies blood-giving.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "Rashi: continues distinguishing these overlapping time periods for the separation rule.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "Rashi: for even during that burning there remains a distinction, since people must separate from the Sanctuary as well.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "Rashi: concludes this analysis of the layered separation requirements across the two chambers.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "Rashi: 'so it is taught' is understood affirmatively - this is indeed what the Baraita says.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "Rashi: the phrase 'not during the burning' means not during the Sanctuary's burning, but rather during the Holy of Holies burning.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "Rashi: 'whether during the burning' refers to the Sanctuary's burning.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "Rashi: continues - the Tanna's 'not during the burning' means not its own (Sanctuary) burning, but rather the Holy of Holies burning.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 60,
-      "en": "Rashi: 'in holiness' opens the discussion continued on the next daf regarding levels of sanctity.",
-      "linkedGemaraLineIds": [
-        "yoma-044a-l34"
-      ]
+     "misconception": "The 'no man' prohibition excludes anyone from the Tent of Meeting throughout the whole Yom Kippur service, including during the blood sprinkling.",
+     "correction": "The 'no man' verse applies only during the incense burning itself - it does not apply during the blood sprinkling that follows.",
+     "correctedByStepId": null
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-043b-s01",
+    "yoma-044b-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "place",
+     "label": "incense cloud filling the Holy of Holies"
+    },
+    {
+     "type": "contrast",
+     "label": "Sages: incense inside vs Sadducees: incense outside"
+    },
+    {
+     "type": "action",
+     "label": "High Priest's brief prayer at the exit"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "That the incense must be placed on the coals inside the Holy of Holies, in the presence of God - not prepared outside and carried in as a cloud.",
+     "question": "What does the verse 'before God' teach about the incense offering?"
+    },
+    {
+     "answer": "Lashon hara (evil speech), derived from the story of Miriam who was punished for speaking against Moses.",
+     "question": "For what sin does incense atone according to the Gemara?"
+    }
+   ],
+   "finalRuling": "The incense must be placed on the coals inside the Holy of Holies; the cloud must fill completely before the High Priest approaches the ark; the exclusion applies only during the burning.",
+   "difficulty": "intermediate",
+   "review": "reviewed",
+   "alternateAngles": [],
+   "glossary": []
+  }
+ ],
+ "glossary": [
+  {
+   "he": "כַּפֹּרֶת",
+   "translit": "kapporet",
+   "en": "The gold cover of the Ark of the Covenant, with two cherubim on top; the cloud of incense covered this on Yom Kippur."
+  },
+  {
+   "he": "קְטֹרֶת",
+   "translit": "ketoret",
+   "en": "The incense offering burned on Yom Kippur inside the Holy of Holies; placed on coals, its cloud covered the ark."
+  },
+  {
+   "he": "לָשׁוֹן הָרָע",
+   "translit": "lashon hara",
+   "en": "Evil speech, slander; according to the Gemara, incense atones for this sin specifically."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'One might think even in the entire courtyard' - a person should not stand while the priest burns the incense",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "in the innermost sanctuary. 'I have only that it applies during the burning of the incense' - further on it explains",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l01",
+    "yoma-044a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "what this implies: 'you must say this refers to the burning of the incense,' since the giving of the blood is not",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "uniform across all of them, since the bull atones for him and for the priests and the goat for Israel.",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "'Concerning slander' - like that of Korach,",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "it was slander, as it is written (Numbers 17),",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "'you have killed the people of the Lord'; and unspecified slander",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "is spoken in secret. 'From between the Entrance Hall",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l16",
+    "yoma-044a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "and the Altar' - the entire air-space of twenty-two cubits",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "between them. 'This was only taught regarding the burning",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "of the Sanctuary' - the inner altar's morning and evening incense,",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "since it is close to it. 'But during the burning",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "of the innermost sanctuary' - from the Sanctuary, since it is close",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "to it, they separate; but from between the Entrance Hall and the Altar,",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "which is farther away, they do not separate. 'At the time of giving the blood of the bull",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l21",
+    "yoma-044a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "of the anointed priest' - the one brought for erring in one of the commandments",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "in his own ruling and acting on it, whose blood is given",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "on the curtain and on the golden altar. 'And the goats of",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "idol worship' - a community that worshipped idols",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "on a ruling of the court brings a bull as a burnt offering",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "and a goat as a sin offering, as it is written in the portion Shelach",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "Lecha Anashim (ibid. 15); and that goat's",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "blood is given on the curtain and it is not eaten, as we derive",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "in the Sifra and Sifrei and in tractate Zevachim",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "(47a). 'So what distinction is there,' etc. -",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l25",
+    "yoma-044a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "this 'ha' is like 'harei,' meaning, now",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "what distinction is there in the separation between the Sanctuary",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "and the Entrance Hall and the Altar. 'Whether during",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "the burning,' etc. - he assumed it meant either",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "during the burning of the innermost sanctuary, or",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "not during the burning of the innermost sanctuary",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "but during the giving of the blood of the innermost sanctuary.",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "'And from between the Entrance Hall and the Altar they do not separate' - meaning",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "regarding the innermost sanctuary, except during its burning,",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "but not during the giving of the blood. 'Does this not mean,'",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l30",
+    "yoma-044a-l34"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "etc. - as I explained. 'No, during the burning",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l34",
+    "yoma-044a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "of the Sanctuary' - meaning that they separate from between the Entrance Hall",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "and the Altar, and this is what it teaches: just as they separate",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "from between the Entrance Hall during the burning of the Sanctuary,",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "so too they separate during the giving of the blood of the",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "anointed priest's bull, which is also performed in the Sanctuary. 'If so' -",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "since just as they separate during the burning it refers to the Sanctuary",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "and not to the innermost sanctuary, then 'what",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "distinction is there' - said with astonishment, as if to say is there no further distinction",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "besides the one that not during the burning",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "of the innermost sanctuary the teaching states that in the Sanctuary they separate",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "both during its own burning and during",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "the innermost sanctuary's burning, and not during its burning,",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "meaning during the giving of the blood, whether of the Sanctuary",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "or of the innermost sanctuary; whereas from between the Entrance Hall",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "and the Altar they do not separate except not during",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "the burning, which is the time of the giving of the blood",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "of the innermost sanctuary, but only during the burning",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "of the Sanctuary, for even during that burning",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "there is a further distinction, since from the Sanctuary they separate, etc.",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "'It does indeed teach this' - he says this affirmatively; this is indeed what it means: this 'not during the burning' that it states",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l36",
+    "yoma-044a-l41"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "means not during the burning of the Sanctuary, but rather it is during the burning of the innermost sanctuary.",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l41"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "'Whether during the burning' - of the Sanctuary; and this 'not during the burning' that the tanna teaches",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l41"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "means not its own burning, but rather during the burning of the innermost sanctuary.",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l41"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "'In holiness'",
+   "linkedGemaraLineIds": [
+    "yoma-044a-l41"
+   ]
+  }
+ ]
 }
