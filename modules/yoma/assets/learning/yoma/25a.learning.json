@@ -1,800 +1,806 @@
 {
-  "daf": "25a",
-  "canonicalRef": "Yoma 25a",
-  "summary": "The Gemara debates whether priests wore sacred or non-sacred garments during the daily lottery, resolving that non-lottery-winners shed their sacred garments. Abaye proves from this that the Chamber of Hewn Stone (Lishkat HaGazit) straddled the boundary between sacred and non-sacred Temple precincts. The page then presents the Mishna listing the thirteen tasks assigned by the second daily lottery, followed by Ben Azzai's tradition about the correct order for carrying the tamid's limbs to the altar.",
-  "review": {
-    "status": "enriched",
-    "version": "10.63"
+ "daf": "25a",
+ "canonicalRef": "Yoma 25a",
+ "summary": "The Gemara debates whether priests wore sacred or non-sacred garments during the daily lottery, resolving that non-lottery-winners shed their sacred garments. Abaye proves from this that the Chamber of Hewn Stone (Lishkat HaGazit) straddled the boundary between sacred and non-sacred Temple precincts. The page then presents the Mishna listing the thirteen tasks assigned by the second daily lottery, followed by Ben Azzai's tradition about the correct order for carrying the tamid's limbs to the altar.",
+ "review": {
+  "status": "enriched",
+  "version": "10.63"
+ },
+ "glossary": [
+  {
+   "he": "פַּיִּיס",
+   "translit": "payyis",
+   "en": "Lottery; the daily priestly lottery determining who performs which Temple service."
   },
-  "glossary": [
+  {
+   "he": "לִשְׁכַּת הַגָּזִית",
+   "translit": "Lishkat HaGazit",
+   "en": "Chamber of Hewn Stone; the seat of the Sanhedrin, located partly in sacred and partly in non-sacred Temple precincts."
+  },
+  {
+   "he": "מִזְרָח",
+   "translit": "mizrach",
+   "en": "East; the eastern precinct of the Temple where daily service began at dawn."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "Regarding those who did not win the lottery - they would strip off the sacred garments in which they had held the lottery. For if you",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "might say it refers to those who won the lottery - then this stripping would be of ordinary clothes, to dress them in sacred clothes; yet it teaches",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "they would leave upon them only ordinary breeches - so evidently they would dress them in",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "sacred breeches over the ordinary breeches, and afterward remove the ordinary breeches and put on the sacred breeches,",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "and so it was taught, etc. They dress them in",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l03",
+    "yoma-025a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "sacred breeches - so that they should not stand naked",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "when they strip them. The Chamber of Hewn Stone - for there",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l07",
+    "yoma-025a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "they would hold the lottery. Like a basilica - a raised structure",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "with an upper story. The lottery on its eastern side - the gathering",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "circle of those casting the lottery was on its eastern side.",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "And an elder - of the court, who instructs them in the order",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "of the lotteries, sits on its western side. In a kulyar -",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "a circle which they call 'nushka.' From whom it begins -",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "the count of the lottery reckoning, as I explained",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "at the beginning of the chapter. As Rav Shmuel",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l10",
+    "yoma-025a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "bar Yehuda taught - further on, in chapter three (35b),",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "that the mothers of priests would make",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "for their sons, at their own expense, a garment like the priestly vestments,",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "to display the splendor of their wealth and the beauty of their workmanship,",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "and how greatly they beautified the mitzvah, as it teaches: a priest",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "for whom his mother made a tunic wears it and serves",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "an individual service in it. There is no sitting in the Courtyard -",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l17",
+    "yoma-025a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "as it is said (Deuteronomy 18), 'to stand and minister,",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "those who stand there before the Lord.' Except for the kings of",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "the House of David - for we find sitting recorded of them, as it is said",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "(II Samuel 7), 'and King David came and sat before",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "the Lord and said, who am I and what is my house,' etc.",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "But do we not require, 'in the house of God we walked with a crowd' -",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "so evidently the lottery must take place in the house of God.",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "Mishnah: who slaughters - the daily-offering.",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "The head and the leg - the right ones, by one priest,",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "and the two forelegs by a second priest. The tail-piece - that is",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "the tail and the left leg, by a third priest.",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "The breast - that is the fat that faces",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "the ground, and they cut it on this side and that,",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "without the tips of the ribs. And the gerah - that is",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "the neck, to which are attached the windpipe and liver",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "and the heart, and the breast and the gerah go to a fourth priest.",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "And the two flanks - to a fifth priest. And the innards -",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "to a sixth priest. And the fine flour - a tenth-measure for the meal-offering",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "of the libation of the daily-offering. And the griddle-cakes -",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "half of the tenth-measure of the High Priest that is offered with",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "the daily-offerings every day, as it is said (Leviticus 6),",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "'half of it in the morning and half of it in the evening,'",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "and next to it is written 'on a griddle with oil it shall be made,'",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "therefore it is called griddle-cakes. And the wine - three logs",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "of libation for the lamb of the daily-offering. Thirteen",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "priests merit through it - through this one lottery,",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "thirteen priestly services are enumerated",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "here. In the manner of its walking - while alive it would draw near",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l37",
+    "yoma-025a-l40"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "the daily-offering, and the Gemara explains it. Gemara -",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l40",
+    "yoma-025a-l42"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "'do they hold the lottery for one service at a time' - such as who",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l42"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "slaughters, and once the one who merited slaughtering has won,",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l42"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "there is no further lottery for the remaining twelve services, but rather",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l42"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "the priests standing in a circle to his right follow after him",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l42"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "in the order of our mishnah: the second to the tossing of the blood,",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l42"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "the third to the removal of ash from the inner altar, the fourth",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l42"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "to the candelabrum, and so all of them. Or perhaps, for each",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l42"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "and every service - they would go back and put out",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l42"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "their fingers for the count, and the winner wins.",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l42"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "No - the daf ends mid-word here; the comment (that there was no lottery for the fire-pan) continues on 25b.",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l42"
+   ]
+  }
+ ],
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-025a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 28
+   },
+   "lines": [
     {
-      "he": "פַּיִּיס",
-      "translit": "payyis",
-      "en": "Lottery; the daily priestly lottery determining who performs which Temple service."
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.25a.1"
     },
     {
-      "he": "לִשְׁכַּת הַגָּזִית",
-      "translit": "Lishkat HaGazit",
-      "en": "Chamber of Hewn Stone; the seat of the Sanhedrin, located partly in sacred and partly in non-sacred Temple precincts."
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.25a.2"
     },
     {
-      "he": "מִזְרָח",
-      "translit": "mizrach",
-      "en": "East; the eastern precinct of the Temple where daily service began at dawn."
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.25a.3"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.25a.4"
+    },
+    {
+     "vilnaLine": 17,
+     "sefariaRef": "Yoma.25a.5"
+    },
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.25a.6"
+    },
+    {
+     "vilnaLine": 25,
+     "sefariaRef": "Yoma.25a.7"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.25a.8"
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.25a.1",
+    "Yoma.25a.2",
+    "Yoma.25a.3",
+    "Yoma.25a.4",
+    "Yoma.25a.5",
+    "Yoma.25a.6",
+    "Yoma.25a.7",
+    "Yoma.25a.8"
+   ],
+   "display": {
+    "whats": "Whether priests wore sacred garments during the lottery - and Abaye's geometric proof that the Chamber of Hewn Stone straddled the sacred/non-sacred boundary.",
+    "title": "A garment dispute turns into an architectural proof: pinpointing where the Chamber of Hewn Stone stood",
+    "hint": "The garments the priests wore reveal the precise architectural layout of the Temple precinct."
+   },
+   "learning": {
+    "learnerQuestion": "Does it matter, halachically, exactly which patch of ground the Sanhedrin's Chamber of Hewn Stone stood on?",
+    "coreTension": "An architectural detail like a building's exact footprint sounds like antiquarian trivia, yet the Gemara builds a full deductive proof to pin it down, which only makes sense if the boundary carries real legal weight rather than being incidental description.",
+    "coreMove": "The geography question is downstream of the garments question. Sacred precincts require sacred garments; if the chamber where the lottery convened touches that precinct, the priests' attire while inside it needs explaining. Abaye reasons from the same baraita Rav Sheshet cited: the only way the details fit is if the Chamber of Hewn Stone has doorways opening into both the sacred and the non-sacred zones, meaning the building itself straddles the boundary.",
+    "resolution": "The Chamber of Hewn Stone straddled the sacred/non-sacred boundary, with doorways opening into both zones. This is established as architectural fact, but the Gemara does not spell out every further halachic consequence that follows from the boundary's exact location.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "A precise geographic boundary can carry real halachic weight whenever garment, entry, or conduct rules are zone-dependent; the boundary is not merely descriptive."
+    },
+    "ahaMoment": "A debate that started as 'what did the priests wear' ends as a geometric proof about a building's footprint, because in a Temple where dress is governed by zone, pinning down the zone pins down the dress requirement too.",
+    "learningBlocker": "Learners may expect the Gemara to state outright why the chamber's location matters practically. It does not generalize beyond the proof itself: it establishes where the boundary runs, using the garments dispute as its evidence, without separately stating every downstream consequence of that boundary.",
+    "memoryAnchor": "Imagine the Chamber of Hewn Stone as a building split exactly down the middle by the Temple wall, one half sacred, one half not, proven from a dispute about priestly headdresses."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "Opens 'among those who did not merit the lottery': they would strip off the sacred garments in which they had held the lottery.' Then opens 'for if you",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l01"
-      ]
+     "id": "yoma-025a-l01",
+     "type": "question",
+     "label": "Lottery garments?",
+     "text": "Did the priests who won the lottery wear sacred or non-sacred garments during the lottery ceremony?",
+     "sourceRefs": [
+      "Yoma.25a.1"
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "continuing: might say it refers to those who merited the lottery - then this stripping would be of ordinary clothes, to dress them in sacred clothes; yet it teaches",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l03"
-      ]
+     "id": "yoma-025a-l03",
+     "type": "resolution",
+     "label": "Rav Sheshet: non-winners shed sacred garments",
+     "text": "Rav Sheshet: the mishna describes non-lottery-winners, who shed their sacred garments after failing to win.",
+     "sourceRefs": [
+      "Yoma.25a.2"
+     ]
     },
     {
-      "vilnaLine": 3,
-      "en": "continuing: they would leave upon them only ordinary breeches - so evidently they would dress them in",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l03"
-      ]
+     "id": "yoma-025a-l09",
+     "type": "proof",
+     "label": "Baraita: headdress proof",
+     "text": "Rav Sheshet proves priests wore sacred garments: a baraita mentions the mitznefet (priestly headdress) being removed - only relevant if they wore full sacred garb.",
+     "sourceRefs": [
+      "Yoma.25a.4"
+     ]
     },
     {
-      "vilnaLine": 4,
-      "en": "continuing: sacred breeches over the ordinary breeches, and afterward remove the ordinary breeches and put on the sacred breeches",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l03"
-      ]
+     "id": "yoma-025a-l11",
+     "type": "objection",
+     "label": "Non-sacred mitre exists",
+     "text": "Rejected: there is a non-sacred headdress (mitre), so the mitznefet mention does not prove sacred garments.",
+     "sourceRefs": [
+      "Yoma.25a.5"
+     ]
     },
     {
-      "vilnaLine": 5,
-      "en": "closing: and so it was taught, etc.' Then opens 'they dress them in breeches",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "continuing: of sacred linen': so that they should not stand naked",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "closing: when they strip them.' Then opens 'the Chamber of Hewn Stone': for there",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: they would hold the lottery.' Then opens 'like a basilica': a raised structure",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "continuing: with an upper story.' Then opens 'the lottery on its eastern side': the gathering",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "continuing: circle of those casting the lottery was on its eastern side.",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "Opens 'and an elder': of the court, who instructs them in the order",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: of the lotteries, sits on its western side.' Then opens 'in a kulyar'",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "continuing: a circle which they call 'nushka.'' Then opens 'from whom it begins' -",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "continuing: the count of the lottery reckoning, as I explained",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "closing: at the beginning of the chapter.' Then opens 'as Rav Shmuel",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l17"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: bar Yehuda taught': further on, in chapter three (35b),",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l17"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: that the mothers of priests would make",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l17"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: for their sons, at their own expense, a garment like the priestly vestments,",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l17"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: to display the splendor of their wealth and the beauty of their workmanship,",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l17"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "continuing: and how greatly they beautified the mitzvah, as it teaches: a priest",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l17"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: for whom his mother made a tunic wears it and serves",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l17"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "closing: an individual service in it.' Then opens 'there is no sitting in the Courtyard' -",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: as it is said (Deuteronomy 18): 'to stand and minister,",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "closing: those who stand there before the Lord.' Then opens 'except for the kings of",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: the House of David': for we find sitting recorded of them, as it is said",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: (II Samuel 7): 'and King David came and sat before",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "closing: the Lord and said, who am I and what is my house,' etc.",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Opens 'but do we not require, in the house of God we walked with a crowd' -",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "closing: so evidently the lottery must take place in the house of God.",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "Opens 'mishnah: who slaughters': the daily-offering.",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l35"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Opens 'the head and the leg': the right ones, by one priest,",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "closing: and the two forelegs by a second priest.' Then opens 'the tail-piece': that is",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "closing: the tail and the left leg, by a third priest.",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "Opens 'the breast': that is the fat that faces",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: the ground, and they cut it on this side and that,",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "closing: without the tips of the ribs.' Then opens 'and the gerah': that is",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "continuing: the neck, to which are attached the windpipe and liver",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "closing: and the heart, and the breast and the gerah go to a fourth priest.",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "Opens 'and the two flanks': to a fifth priest.' Then opens 'and the innards' -",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "closing: to a sixth priest.' Then opens 'and the fine flour': a tenth-measure for the meal-offering",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "closing: of the libation of the daily-offering.' Then opens 'and the griddle-cakes' -",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "continuing: half of the tenth-measure of the High Priest that is offered with",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "continuing: the daily-offerings every day, as it is said (Leviticus 6):",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "continuing: 'half of it in the morning and half of it in the evening,'",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "continuing: and next to it is written 'on a griddle with oil it shall be made,'",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "closing: therefore it is called griddle-cakes.' Then opens 'and the wine': three logs",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "closing: of libation for the lamb of the daily-offering.' Then opens 'thirteen",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "continuing: priests merit through it': through this one lottery,",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "closing: thirteen priestly services are enumerated",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "closing: here.' Then opens 'in the manner of its walking': while alive it would draw near",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l40"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "closing: the daily-offering, and the Gemara explains it.' Then opens 'Gemara' -",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l40"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "continuing: 'do they hold the lottery for one service at a time': such as who",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l42"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "continuing: slaughters, and once the one who merited slaughtering has won,",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l42"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "continuing: there is no further lottery for the remaining twelve services, but rather",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l42"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "continuing: the priests standing in a circle to his right follow after him",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l42"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "continuing: in the order of our mishnah: the second to the tossing of the blood,",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l42"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "continuing: the third to the removal of ash from the inner altar, the fourth",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l42"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "closing: to the candelabrum, and so all of them.' Then opens 'or perhaps, for each",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l42"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "continuing: and every service': they would go back and put out",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l42"
-      ]
-    },
-    {
-      "vilnaLine": 60,
-      "en": "closing: their fingers for the count, and the winner wins.",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l42"
-      ]
-    },
-    {
-      "vilnaLine": 61,
-      "en": "Opens 'no' -",
-      "linkedGemaraLineIds": [
-        "yoma-025a-l42"
-      ]
+     "id": "yoma-025a-l14",
+     "type": "resolution",
+     "label": "Abaye: Chamber of Hewn Stone location",
+     "text": "Abaye derives from the same baraita that the Chamber of Hewn Stone had doorways in both sacred and non-sacred precincts, straddling the border.",
+     "sourceRefs": [
+      "Yoma.25a.6",
+      "Yoma.25a.7",
+      "Yoma.25a.8"
+     ]
     }
-  ],
-  "sugyot": [
+   ],
+   "topicTags": [
+    "priestly garments",
+    "lottery ceremony",
+    "Chamber of Hewn Stone",
+    "Lishkat HaGazit",
+    "Temple architecture",
+    "sacred boundary"
+   ],
+   "concepts": {
+    "halachic": [
+     "bigdei kehuna during lottery",
+     "mitznefet vs non-sacred mitre",
+     "sacred/non-sacred boundary"
+    ],
+    "theological": [
+     "precise Temple geography as halachic evidence"
+    ],
+    "narrative": [
+     "Abaye's geometric deduction",
+     "Rav Sheshet vs Rav Nachman"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "daily lottery system",
+    "bigdei kehuna (priestly garments)",
+    "Temple court layout"
+   ],
+   "misconceptions": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-025a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 28
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.25a.1"
-        },
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.25a.2"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.25a.3"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.25a.4"
-        },
-        {
-          "vilnaLine": 17,
-          "sefariaRef": "Yoma.25a.5"
-        },
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.25a.6"
-        },
-        {
-          "vilnaLine": 25,
-          "sefariaRef": "Yoma.25a.7"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.25a.8"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.25a.1",
-        "Yoma.25a.2",
-        "Yoma.25a.3",
-        "Yoma.25a.4",
-        "Yoma.25a.5",
-        "Yoma.25a.6",
-        "Yoma.25a.7",
-        "Yoma.25a.8"
-      ],
-      "display": {
-        "whats": "Whether priests wore sacred garments during the lottery - and Abaye's geometric proof that the Chamber of Hewn Stone straddled the sacred/non-sacred boundary.",
-        "title": "A garment dispute turns into an architectural proof: pinpointing where the Chamber of Hewn Stone stood",
-        "hint": "The garments the priests wore reveal the precise architectural layout of the Temple precinct."
-      },
-      "learning": {
-        "learnerQuestion": "Does it matter, halachically, exactly which patch of ground the Sanhedrin's Chamber of Hewn Stone stood on?",
-        "coreTension": "An architectural detail like a building's exact footprint sounds like antiquarian trivia, yet the Gemara builds a full deductive proof to pin it down, which only makes sense if the boundary carries real legal weight rather than being incidental description.",
-        "coreMove": "The geography question is downstream of the garments question. Sacred precincts require sacred garments; if the chamber where the lottery convened touches that precinct, the priests' attire while inside it needs explaining. Abaye reasons from the same baraita Rav Sheshet cited: the only way the details fit is if the Chamber of Hewn Stone has doorways opening into both the sacred and the non-sacred zones, meaning the building itself straddles the boundary.",
-        "resolution": "The Chamber of Hewn Stone straddled the sacred/non-sacred boundary, with doorways opening into both zones. This is established as architectural fact, but the Gemara does not spell out every further halachic consequence that follows from the boundary's exact location.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "A precise geographic boundary can carry real halachic weight whenever garment, entry, or conduct rules are zone-dependent; the boundary is not merely descriptive."
-        },
-        "ahaMoment": "A debate that started as 'what did the priests wear' ends as a geometric proof about a building's footprint, because in a Temple where dress is governed by zone, pinning down the zone pins down the dress requirement too.",
-        "learningBlocker": "Learners may expect the Gemara to state outright why the chamber's location matters practically. It does not generalize beyond the proof itself: it establishes where the boundary runs, using the garments dispute as its evidence, without separately stating every downstream consequence of that boundary.",
-        "memoryAnchor": "Imagine the Chamber of Hewn Stone as a building split exactly down the middle by the Temple wall, one half sacred, one half not, proven from a dispute about priestly headdresses."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-025a-l01",
-          "type": "question",
-          "label": "Lottery garments?",
-          "text": "Did the priests who won the lottery wear sacred or non-sacred garments during the lottery ceremony?",
-          "sourceRefs": [
-            "Yoma.25a.1"
-          ]
-        },
-        {
-          "id": "yoma-025a-l03",
-          "type": "resolution",
-          "label": "Rav Sheshet: non-winners shed sacred garments",
-          "text": "Rav Sheshet: the mishna describes non-lottery-winners, who shed their sacred garments after failing to win.",
-          "sourceRefs": [
-            "Yoma.25a.2"
-          ]
-        },
-        {
-          "id": "yoma-025a-l09",
-          "type": "proof",
-          "label": "Baraita: headdress proof",
-          "text": "Rav Sheshet proves priests wore sacred garments: a baraita mentions the mitznefet (priestly headdress) being removed - only relevant if they wore full sacred garb.",
-          "sourceRefs": [
-            "Yoma.25a.4"
-          ]
-        },
-        {
-          "id": "yoma-025a-l11",
-          "type": "objection",
-          "label": "Non-sacred mitre exists",
-          "text": "Rejected: there is a non-sacred headdress (mitre), so the mitznefet mention does not prove sacred garments.",
-          "sourceRefs": [
-            "Yoma.25a.5"
-          ]
-        },
-        {
-          "id": "yoma-025a-l14",
-          "type": "resolution",
-          "label": "Abaye: Chamber of Hewn Stone location",
-          "text": "Abaye derives from the same baraita that the Chamber of Hewn Stone had doorways in both sacred and non-sacred precincts, straddling the border.",
-          "sourceRefs": [
-            "Yoma.25a.6",
-            "Yoma.25a.7",
-            "Yoma.25a.8"
-          ]
-        }
-      ],
-      "topicTags": [
-        "priestly garments",
-        "lottery ceremony",
-        "Chamber of Hewn Stone",
-        "Lishkat HaGazit",
-        "Temple architecture",
-        "sacred boundary"
-      ],
-      "concepts": {
-        "halachic": [
-          "bigdei kehuna during lottery",
-          "mitznefet vs non-sacred mitre",
-          "sacred/non-sacred boundary"
-        ],
-        "theological": [
-          "precise Temple geography as halachic evidence"
-        ],
-        "narrative": [
-          "Abaye's geometric deduction",
-          "Rav Sheshet vs Rav Nachman"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "daily lottery system",
-        "bigdei kehuna (priestly garments)",
-        "Temple court layout"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The mishna describes the lottery winners shedding their sacred garments.",
-          "correction": "Rav Sheshet reads the mishna as describing the non-winners, who shed their sacred garments after failing to win a task."
-        },
-        {
-          "misconception": "The Chamber of Hewn Stone (Lishkat HaGazit) sat entirely outside the sacred precincts.",
-          "correction": "Abaye's proof from the garment baraita establishes that it straddled the sacred/non-sacred boundary, with doorways opening on both sides."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-023a-s02",
-        "yoma-024a-s03"
-      ],
-      "visualizableElements": [
-        {
-          "type": "place",
-          "label": "Chamber of Hewn Stone",
-          "description": "Building straddling the sacred/non-sacred boundary with doors opening in both directions"
-        },
-        {
-          "type": "contrast",
-          "label": "Sacred vs non-sacred garments",
-          "description": "Priests in sacred headdresses inside the chamber vs common attire outside"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "According to Rav Sheshet, which priests does the mishna describe removing their garments after the lottery?",
-          "answer": "The non-winners who had worn sacred garments and now removed them after failing to win a task."
-        },
-        {
-          "question": "What architectural fact does Abaye deduce from the lottery garment baraita?",
-          "answer": "That the Chamber of Hewn Stone straddled the sacred/non-sacred boundary, with doorways opening into both areas."
-        }
-      ],
-      "finalRuling": "The lottery was conducted in the Chamber of Hewn Stone, which sat at the sacred-to-non-sacred boundary. The practical question of whether failures to follow garment protocol invalidate service remains unresolved.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "The mishna describes the lottery winners shedding their sacred garments.",
+     "correction": "Rav Sheshet reads the mishna as describing the non-winners, who shed their sacred garments after failing to win a task."
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-025a-s02",
-      "lineRange": {
-        "startVilnaLine": 35,
-        "endVilnaLine": 42
-      },
-      "lines": [
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.25a.9"
-        },
-        {
-          "vilnaLine": 37,
-          "sefariaRef": "Yoma.25a.10"
-        },
-        {
-          "vilnaLine": 40,
-          "sefariaRef": "Yoma.25a.11"
-        },
-        {
-          "vilnaLine": 42,
-          "sefariaRef": "Yoma.25a.12"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.25a.9",
-        "Yoma.25a.10",
-        "Yoma.25a.11",
-        "Yoma.25a.12"
-      ],
-      "display": {
-        "whats": "The Mishna lists the thirteen tasks assigned by the second daily lottery. Ben Azzai transmits a different tradition for the order in which the tamid's limbs were carried up to the altar.",
-        "title": "Thirteen fixed tasks, then a competing tradition: Ben Azzai's alternate order for the tamid's limbs",
-        "hint": "The second lottery assigned 13 tasks covering the entire tamid service from slaughter through limb-carrying."
-      },
-      "learning": {
-        "learnerQuestion": "If the mishna already lays out a fixed order for carrying the tamid's limbs, why does Ben Azzai introduce a competing sequence in Rabbi Yehoshua's name?",
-        "coreTension": "A precisely choreographed list, thirteen tasks, exact limb pairings, reads like settled law, yet a named tanna immediately offers a different sequence attributed to an earlier authority. That is a strange thing to transmit if the order were simply fixed fact with nothing left to debate.",
-        "coreMove": "The Gemara registers Ben Azzai's tradition as a real, attributed alternative, not a casual variant, and then opens its own structural question: was the lottery that assigned these thirteen tasks a single lottery, or were some tasks, like the incense, assigned separately? The sequence dispute and the lottery-structure question are connected: both probe how rigid versus how negotiated the Temple's daily choreography actually was.",
-        "resolution": "The mishna's sequence is followed as the operative practice for carrying the tamid's limbs. Ben Azzai's competing tradition, transmitted in Rabbi Yehoshua's name, remains a live point of debate that the Gemara carries forward rather than resolving here.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "An operative mishnaic sequence and a transmitted minority tradition can stand side by side in the text without the Gemara forcing an immediate resolution between them."
-        },
-        "ahaMoment": "The thirteen lottery positions are not arbitrary; each maps to a distinct moment in the tamid service. Yet even a routine this precisely choreographed still carries an unresolved alternate tradition about its own order, showing the choreography was transmitted, and contested, not simply self-evident.",
-        "learningBlocker": "Learners may expect the Gemara to settle here whether Ben Azzai's order reflects an actual historical change in Temple practice or just a different reading of the same source. The sugya does not decide this; it carries the question forward into the next daf.",
-        "memoryAnchor": "Thirteen lottery tasks, mishna's order operative; Ben Azzai (in Rabbi Yehoshua's name) transmits a different limb-carrying order, an open dispute, not yet resolved."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-025a-l35",
-          "type": "ruling",
-          "label": "Mishna: 2nd lottery - 13 tasks",
-          "text": "The second daily lottery assigned thirteen tasks for the morning tamid service, from slaughtering through carrying the limbs.",
-          "sourceRefs": [
-            "Yoma.25a.9"
-          ]
-        },
-        {
-          "id": "yoma-025a-l37",
-          "type": "premise",
-          "label": "Limb pairing",
-          "text": "The mishna specifies how the limbs were paired for carrying: head with right leg (one priest), tail with left leg (one priest), etc.",
-          "sourceRefs": [
-            "Yoma.25a.10"
-          ]
-        },
-        {
-          "id": "yoma-025a-l40",
-          "type": "claim",
-          "label": "Ben Azzai's alternate order",
-          "text": "Ben Azzai transmitted in Rabbi Yehoshua's name a different order for carrying the limbs to the altar.",
-          "sourceRefs": [
-            "Yoma.25a.11"
-          ]
-        },
-        {
-          "id": "yoma-025a-l42",
-          "type": "question",
-          "label": "Single or separate lottery for incense?",
-          "text": "The Gemara opens: did the lottery assign all tasks together, or was incense a separate lottery?",
-          "sourceRefs": [
-            "Yoma.25a.12"
-          ]
-        }
-      ],
-      "topicTags": [
-        "tamid service",
-        "second lottery",
-        "limb order",
-        "Ben Azzai",
-        "R. Yehoshua",
-        "Temple procedure"
-      ],
-      "concepts": {
-        "halachic": [
-          "thirteen lottery tasks",
-          "tamid limb order",
-          "blood sprinkling assignment"
-        ],
-        "theological": [
-          "precise choreography of divine service"
-        ],
-        "narrative": [
-          "Ben Azzai's alternate tradition",
-          "dispute between tannaim on service sequence"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "tamid (daily offering)",
-        "thirteen Temple tasks",
-        "lottery system"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The second lottery assigned only a few tasks.",
-          "correction": "It assigned thirteen distinct roles covering the entire morning tamid service, from slaughter through carrying every limb."
-        },
-        {
-          "misconception": "Ben Azzai's different order is his own independent opinion.",
-          "correction": "It is a received tradition, transmitted in the name of Rabbi Yehoshua, not Ben Azzai's own innovation."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-022b-s02",
-        "yoma-025b-s03"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "label": "Thirteen lottery tasks",
-          "description": "Ordered list of 13 tamid tasks assigned by the second lottery"
-        },
-        {
-          "type": "relationship",
-          "label": "Limb pairing",
-          "description": "Which limbs were carried together by one priest to the altar ramp"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "How many tasks did the second daily lottery assign?",
-          "answer": "Thirteen tasks, covering the full tamid service from slaughter through carrying all the limbs."
-        },
-        {
-          "question": "In whose name did Ben Azzai transmit his alternate limb-order tradition?",
-          "answer": "In the name of Rabbi Yehoshua."
-        }
-      ],
-      "finalRuling": "The mishna's sequence is the operative practice; Ben Azzai's tradition opens a debate continued on 25b.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "The Chamber of Hewn Stone (Lishkat HaGazit) sat entirely outside the sacred precincts.",
+     "correction": "Abaye's proof from the garment baraita establishes that it straddled the sacred/non-sacred boundary, with doorways opening on both sides."
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-023a-s02",
+    "yoma-024a-s03"
+   ],
+   "visualizableElements": [
+    {
+     "type": "place",
+     "label": "Chamber of Hewn Stone",
+     "description": "Building straddling the sacred/non-sacred boundary with doors opening in both directions"
+    },
+    {
+     "type": "contrast",
+     "label": "Sacred vs non-sacred garments",
+     "description": "Priests in sacred headdresses inside the chamber vs common attire outside"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "According to Rav Sheshet, which priests does the mishna describe removing their garments after the lottery?",
+     "answer": "The non-winners who had worn sacred garments and now removed them after failing to win a task."
+    },
+    {
+     "question": "What architectural fact does Abaye deduce from the lottery garment baraita?",
+     "answer": "That the Chamber of Hewn Stone straddled the sacred/non-sacred boundary, with doorways opening into both areas."
+    }
+   ],
+   "finalRuling": "The lottery was conducted in the Chamber of Hewn Stone, which sat at the sacred-to-non-sacred boundary. The practical question of whether failures to follow garment protocol invalidate service remains unresolved.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-025a-s02",
+   "lineRange": {
+    "startVilnaLine": 35,
+    "endVilnaLine": 42
+   },
+   "lines": [
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.25a.9"
+    },
+    {
+     "vilnaLine": 37,
+     "sefariaRef": "Yoma.25a.10"
+    },
+    {
+     "vilnaLine": 40,
+     "sefariaRef": "Yoma.25a.11"
+    },
+    {
+     "vilnaLine": 42,
+     "sefariaRef": "Yoma.25a.12"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.25a.9",
+    "Yoma.25a.10",
+    "Yoma.25a.11",
+    "Yoma.25a.12"
+   ],
+   "display": {
+    "whats": "The Mishna lists the thirteen tasks assigned by the second daily lottery. Ben Azzai transmits a different tradition for the order in which the tamid's limbs were carried up to the altar.",
+    "title": "Thirteen fixed tasks, then a competing tradition: Ben Azzai's alternate order for the tamid's limbs",
+    "hint": "The second lottery assigned 13 tasks covering the entire tamid service from slaughter through limb-carrying."
+   },
+   "learning": {
+    "learnerQuestion": "If the mishna already lays out a fixed order for carrying the tamid's limbs, why does Ben Azzai introduce a competing sequence in Rabbi Yehoshua's name?",
+    "coreTension": "A precisely choreographed list, thirteen tasks, exact limb pairings, reads like settled law, yet a named tanna immediately offers a different sequence attributed to an earlier authority. That is a strange thing to transmit if the order were simply fixed fact with nothing left to debate.",
+    "coreMove": "The Gemara registers Ben Azzai's tradition as a real, attributed alternative, not a casual variant, and then opens its own structural question: was the lottery that assigned these thirteen tasks a single lottery, or were some tasks, like the incense, assigned separately? The sequence dispute and the lottery-structure question are connected: both probe how rigid versus how negotiated the Temple's daily choreography actually was.",
+    "resolution": "The mishna's sequence is followed as the operative practice for carrying the tamid's limbs. Ben Azzai's competing tradition, transmitted in Rabbi Yehoshua's name, remains a live point of debate that the Gemara carries forward rather than resolving here.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "An operative mishnaic sequence and a transmitted minority tradition can stand side by side in the text without the Gemara forcing an immediate resolution between them."
+    },
+    "ahaMoment": "The thirteen lottery positions are not arbitrary; each maps to a distinct moment in the tamid service. Yet even a routine this precisely choreographed still carries an unresolved alternate tradition about its own order, showing the choreography was transmitted, and contested, not simply self-evident.",
+    "learningBlocker": "Learners may expect the Gemara to settle here whether Ben Azzai's order reflects an actual historical change in Temple practice or just a different reading of the same source. The sugya does not decide this; it carries the question forward into the next daf.",
+    "memoryAnchor": "Thirteen lottery tasks, mishna's order operative; Ben Azzai (in Rabbi Yehoshua's name) transmits a different limb-carrying order, an open dispute, not yet resolved."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-025a-l35",
+     "type": "ruling",
+     "label": "Mishna: 2nd lottery - 13 tasks",
+     "text": "The second daily lottery assigned thirteen tasks for the morning tamid service, from slaughtering through carrying the limbs.",
+     "sourceRefs": [
+      "Yoma.25a.9"
+     ]
+    },
+    {
+     "id": "yoma-025a-l37",
+     "type": "premise",
+     "label": "Limb pairing",
+     "text": "The mishna specifies how the limbs were paired for carrying: head with right leg (one priest), tail with left leg (one priest), etc.",
+     "sourceRefs": [
+      "Yoma.25a.10"
+     ]
+    },
+    {
+     "id": "yoma-025a-l40",
+     "type": "claim",
+     "label": "Ben Azzai's alternate order",
+     "text": "Ben Azzai transmitted in Rabbi Yehoshua's name a different order for carrying the limbs to the altar.",
+     "sourceRefs": [
+      "Yoma.25a.11"
+     ]
+    },
+    {
+     "id": "yoma-025a-l42",
+     "type": "question",
+     "label": "Single or separate lottery for incense?",
+     "text": "The Gemara opens: did the lottery assign all tasks together, or was incense a separate lottery?",
+     "sourceRefs": [
+      "Yoma.25a.12"
+     ]
+    }
+   ],
+   "topicTags": [
+    "tamid service",
+    "second lottery",
+    "limb order",
+    "Ben Azzai",
+    "R. Yehoshua",
+    "Temple procedure"
+   ],
+   "concepts": {
+    "halachic": [
+     "thirteen lottery tasks",
+     "tamid limb order",
+     "blood sprinkling assignment"
+    ],
+    "theological": [
+     "precise choreography of divine service"
+    ],
+    "narrative": [
+     "Ben Azzai's alternate tradition",
+     "dispute between tannaim on service sequence"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "tamid (daily offering)",
+    "thirteen Temple tasks",
+    "lottery system"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The second lottery assigned only a few tasks.",
+     "correction": "It assigned thirteen distinct roles covering the entire morning tamid service, from slaughter through carrying every limb."
+    },
+    {
+     "misconception": "Ben Azzai's different order is his own independent opinion.",
+     "correction": "It is a received tradition, transmitted in the name of Rabbi Yehoshua, not Ben Azzai's own innovation."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-022b-s02",
+    "yoma-025b-s03"
+   ],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "label": "Thirteen lottery tasks",
+     "description": "Ordered list of 13 tamid tasks assigned by the second lottery"
+    },
+    {
+     "type": "relationship",
+     "label": "Limb pairing",
+     "description": "Which limbs were carried together by one priest to the altar ramp"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "How many tasks did the second daily lottery assign?",
+     "answer": "Thirteen tasks, covering the full tamid service from slaughter through carrying all the limbs."
+    },
+    {
+     "question": "In whose name did Ben Azzai transmit his alternate limb-order tradition?",
+     "answer": "In the name of Rabbi Yehoshua."
+    }
+   ],
+   "finalRuling": "The mishna's sequence is the operative practice; Ben Azzai's tradition opens a debate continued on 25b.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "review": "reviewed"
+  }
+ ]
 }
