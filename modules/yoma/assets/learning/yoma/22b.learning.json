@@ -1,991 +1,998 @@
 {
-  "daf": "22b",
-  "canonicalRef": "Yoma 22b",
-  "summary": "The chapter continues describing the lottery system for Temple services. First: the ramp height calculation (30 amot, 32 amot, or 28 amot?). Second: the four lotteries are listed and their procedures. Third: a long biblical narrative digression on Saul and David (continuing from 22a) covering key incidents. Fourth: the narrative continues with the dispute between Saul and David over the size of their guilt.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "22b",
+ "canonicalRef": "Yoma 22b",
+ "summary": "The chapter continues describing the lottery system for Temple services. First: the ramp height calculation (30 amot, 32 amot, or 28 amot?). Second: the four lotteries are listed and their procedures. Third: a long biblical narrative digression on Saul and David (continuing from 22a) covering key incidents. Fourth: the narrative continues with the dispute between Saul and David over the size of their guilt.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-022b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 1
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-022b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 1
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.22b.1"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.22b.1"
-      ],
-      "display": {
-        "title": "Why a destroyed ramp still gets measured to the amah: the 32-amot calculation",
-        "whats": "A brief halakhic calculation: the altar ramp (kevesh) was 32 amot long according to R. Yosi b. R. Yehuda (30 amot rise plus 1 amah for the edge + 1 for the top). The discussion of the ramp's dimensions is relevant because the race up the ramp defined the original service competition.",
-        "hint": "The precise calculation of the ramp dimensions is typical Talmudic interest in the technical details of Temple construction. The 30/32/28 amot dispute reflects different traditions about the ramp's exact dimensions."
-      },
-      "learning": {
-        "learnerQuestion": "Why does the Gemara bother calculating the altar ramp's exact height down to the amah, for a ramp that no longer physically exists?",
-        "coreTension": "A throwaway architectural detail turns out to carry real stakes: the same ramp described here is the site of the race in chapter 2's opening mishna, and ultimately of the stabbing in 22a. Its height is not decoration, it is the scale of the danger.",
-        "coreMove": "R. Yosi b. R. Yehuda derives the ramp's total height of 32 amot from three components: 30 amot of actual rise, plus 1 amah for the sovev, the surrounding ledge, plus 1 amah for the altar's own body.",
-        "resolution": "The altar ramp measured 32 amot in total: 30 amot of rise, 1 amah for the ledge, and 1 amah for the altar body.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "A total measurement can be derived by summing distinct structural components rather than stated as a single given figure, and each component can carry its own halachic justification."
-        },
-        "ahaMoment": "The Gemara insists on precise measurement even for a structure that no longer exists, treating destroyed Temple architecture with the same rigor as a still-standing building.",
-        "learningBlocker": "The ramp's height looks like a stray technical aside until it is read against the race and stabbing described nearby: a 32-amah ramp run at speed in the predawn dark is steep and dangerous enough that a push at the top is a real threat to life, which is exactly what happened.",
-        "memoryAnchor": "Ramp = 32 amot (30 rise + 1 ledge + 1 body). Steep enough that a push at the top could kill, which is exactly what happened."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-022b-l01",
-          "type": "ruling",
-          "label": "Ramp height: 32 amot",
-          "text": "R. Yosi b. R. Yehuda: the altar ramp was 32 amot long: 30 amot of rise, plus 1 amah for the lip of the altar, plus 1 amah for the altar body.",
-          "sourceRefs": [
-            "Yoma.22b.1"
-          ]
-        }
-      ],
-      "topicTags": [
-        "altar ramp",
-        "kevesh",
-        "Temple dimensions",
-        "R. Yosi b. R. Yehuda"
-      ],
-      "concepts": {
-        "halachic": [
-          "altar ramp dimensions",
-          "Temple architecture"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "yoma-022a-s01"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The 32-amot figure is just a stated given, not a computed value.",
-          "correction": "It is explicitly derived by summing three distinct components: 30 amot of practical rise, 1 amah for the sovev (ledge), and 1 amah for the altar's body."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-022a-s01",
-        "yoma-022b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "object",
-          "description": "The altar ramp (kevesh) with measurements labeled: 30 amot rise, 1 amah lip, 1 amah body = 32 total"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "According to R. Yosi b. R. Yehuda, what is the altar ramp's total height, and how is that figure built up from its parts?",
-          "answer": "32 amot total: 30 amot of actual rise, plus 1 amah for the sovev (ledge), plus 1 amah for the altar's own body."
-        }
-      ],
-      "finalRuling": "The altar ramp was 32 amot according to R. Yosi b. R. Yehuda.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "כֶּבֶשׁ",
-          "translit": "kevesh",
-          "en": "The ramp leading up to the altar; priests ran up this ramp in the original competition for Temple services."
-        }
-      ],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 2,
-      "id": "yoma-022b-s02",
-      "lineRange": {
-        "startVilnaLine": 2,
-        "endVilnaLine": 24
-      },
-      "lines": [
-        {
-          "vilnaLine": 2,
-          "sefariaRef": "Yoma.22b.2"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.22b.3"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.22b.4"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.22b.5"
-        },
-        {
-          "vilnaLine": 17,
-          "sefariaRef": "Yoma.22b.6"
-        },
-        {
-          "vilnaLine": 21,
-          "sefariaRef": "Yoma.22b.7"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.22b.2",
-        "Yoma.22b.3",
-        "Yoma.22b.4",
-        "Yoma.22b.5",
-        "Yoma.22b.6",
-        "Yoma.22b.7"
-      ],
-      "display": {
-        "title": "Four lotteries, one principle: why the incense lottery alone barred repeat winners",
-        "whats": "The four lotteries of the Temple morning service: (1) who removes ashes; (2) who slaughters, sprinkles blood, removes ash, cleans the menorah and altar, and brings the limbs, flour, wine, and incense to the altar entrance; (3) the new priest designated for the incense; (4) who brings the limbs from the ramp to the altar. The lottery was held in the Chamber of Hewn Stone. The Gemara discusses how the lottery was conducted - counting priests who extended fingers.",
-        "hint": "The four lotteries cover the complete morning service schedule. Lottery 3 specifically favors those who had not previously performed the incense service - because the incense made priests wealthy (the smoke's scent clung to them, giving them dignity), so the opportunity was rotated."
-      },
-      "learning": {
-        "learnerQuestion": "All four daily lotteries assign Temple services, so why does only the third one, the incense, bar anyone who has already performed it from winning it again?",
-        "coreTension": "Ash removal, the thirteen-position main service, and limb carrying all let any eligible priest win repeatedly. The incense lottery alone excludes past winners, which looks arbitrary unless something about the incense service itself sets it apart.",
-        "coreMove": "The Gemara explains that burning the incense was believed to bring lasting blessing and prosperity, a man who performed it never became poor, and its scent clung visibly to him afterward. Because that benefit was concentrated and durable rather than a one-time honor, the Sages restricted the lottery to first-timers so the privilege would spread across the priesthood instead of accumulating with repeat winners.",
-        "resolution": "Four lotteries governed the Temple morning service: ash removal, the thirteen-position main service, incense (limited to those who had never performed it before), and limb carrying, all conducted in the Chamber of Hewn Stone by counting priests' extended fingers.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "A service carrying a uniquely concentrated and lasting personal benefit can warrant a procedural restriction, such as a first-timer-only lottery, that services without that benefit do not need."
-        },
-        "ahaMoment": "The incense lottery's first-timer rule is not arbitrary ritual variation, it is a deliberate redistribution mechanism: because the incense made its performer wealthy, the Sages prevented any one priest from monopolizing that wealth.",
-        "learningBlocker": "Learners tend to read the four lotteries as a uniform list and miss that the third one's restriction is solving a problem the other three do not have, concentrated economic benefit, rather than just being one more procedural variation among equals.",
-        "memoryAnchor": "Four lotteries: ash, 13-position main service, incense (first-timers only, because it brought wealth), limbs. All held in the Chamber of Hewn Stone."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-022b-l02",
-          "type": "ruling",
-          "label": "The four lotteries described",
-          "text": "Mishna: there were four lotteries daily. The first was for ash removal; the second for the main service (13 positions); the third for the incense (first-timers only); the fourth for carrying limbs to the altar.",
-          "sourceRefs": [
-            "Yoma.22b.2"
-          ]
-        },
-        {
-          "id": "yoma-022b-l07",
-          "type": "elaboration",
-          "label": "The second lottery's 13 positions",
-          "text": "The second lottery assigned 13 positions for the main morning service: slaughter, blood, two for the head, two for the tail, etc., the flour offering, and the wine libation.",
-          "sourceRefs": [
-            "Yoma.22b.3"
-          ]
-        },
-        {
-          "id": "yoma-022b-l10",
-          "type": "elaboration",
-          "label": "Third lottery: incense for first-timers",
-          "text": "The third lottery was exclusively for priests who had never performed the incense service before. The incense brought blessing and dignity to those who burned it.",
-          "sourceRefs": [
-            "Yoma.22b.4"
-          ]
-        },
-        {
-          "id": "yoma-022b-l14",
-          "type": "elaboration",
-          "label": "Why the incense lottery favored first-timers",
-          "text": "The incense was said never to have left its performer poor. The scent clung to the performer's clothing. Therefore the Sages spread this privilege broadly.",
-          "sourceRefs": [
-            "Yoma.22b.5"
-          ]
-        },
-        {
-          "id": "yoma-022b-l17",
-          "type": "elaboration",
-          "label": "Fourth lottery: carrying limbs",
-          "text": "The fourth lottery determined which priests carried the animal limbs from the altar ramp up to the altar proper. Any priest who had not yet participated that morning could join.",
-          "sourceRefs": [
-            "Yoma.22b.6"
-          ]
-        },
-        {
-          "id": "yoma-022b-l21",
-          "type": "elaboration",
-          "label": "Lottery procedure: counting extended fingers",
-          "text": "The lottery was conducted by counting priests who extended one or two fingers. The chief officer named a large number; counting began from a designated starting priest; whoever's count reached the named number performed the service.",
-          "sourceRefs": [
-            "Yoma.22b.7"
-          ]
-        }
-      ],
-      "topicTags": [
-        "lottery",
-        "four lotteries",
-        "ketoret",
-        "Temple service",
-        "Chamber of Hewn Stone",
-        "morning service",
-        "incense blessing"
-      ],
-      "concepts": {
-        "halachic": [
-          "lottery procedure",
-          "four daily lotteries",
-          "incense first-timer rule",
-          "Chamber of Hewn Stone"
-        ],
-        "theological": [
-          "equal distribution of Temple privileges",
-          "incense as blessing-bearer"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "yoma-022a-s02"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The four lotteries are alternative or overlapping ways of assigning the same services.",
-          "correction": "Each lottery covers a distinct, non-overlapping set of services, and a single priest could win and participate in more than one lottery in the same morning."
-        },
-        {
-          "misconception": "The first-timer restriction applied to all four lotteries.",
-          "correction": "It applied only to the third lottery, for incense, specifically because that service was believed to bring concentrated wealth and blessing that the Sages wanted distributed broadly rather than monopolized."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-022a-s02",
-        "yoma-023a-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "description": "Four lotteries in order: (1) ash removal, (2) 13-position main service, (3) incense for first-timers, (4) limbs to altar"
-        },
-        {
-          "type": "place",
-          "description": "The Chamber of Hewn Stone (lishkat hagazit) where the morning lottery was conducted"
-        },
-        {
-          "type": "action",
-          "description": "Priests extending fingers; an officer counting to a named number to determine who performs each service"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why was the incense lottery (the third) restricted to priests who had never performed that service before, when the other three lotteries had no such restriction?",
-          "answer": "Burning the incense was believed to bring lasting wealth and blessing to whoever performed it. Restricting it to first-timers prevented any priest from monopolizing that benefit and spread it broadly across the priesthood, a concern the other three services did not raise."
-        },
-        {
-          "question": "How was each of the four lotteries physically conducted?",
-          "answer": "The chief officer named a number larger than the number of participating priests; priests extended one or two fingers each; counting began from a designated starting priest, and whoever's count landed on the named number won that lottery."
-        }
-      ],
-      "finalRuling": "Four lotteries were held: ash removal, 13-position morning service, incense (first-timers only), and limbs carrying.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "לִשְׁכַּת הַגָּזִית",
-          "translit": "lishkat hagazit",
-          "en": "Chamber of Hewn Stone; the seat of the Sanhedrin and the location of the morning lottery."
-        },
-        {
-          "he": "קְטֹרֶת",
-          "translit": "ketoret",
-          "en": "Incense; its daily burning was believed to bring wealth to the priest who performed it. The third lottery was reserved for first-timers."
-        }
-      ],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 3,
-      "id": "yoma-022b-s03",
-      "lineRange": {
-        "startVilnaLine": 25,
-        "endVilnaLine": 40
-      },
-      "lines": [
-        {
-          "vilnaLine": 25,
-          "sefariaRef": "Yoma.22b.8"
-        },
-        {
-          "vilnaLine": 29,
-          "sefariaRef": "Yoma.22b.9"
-        },
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.22b.10"
-        },
-        {
-          "vilnaLine": 34,
-          "sefariaRef": "Yoma.22b.11"
-        },
-        {
-          "vilnaLine": 34,
-          "sefariaRef": "Yoma.22b.12"
-        },
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.22b.13"
-        },
-        {
-          "vilnaLine": 36,
-          "sefariaRef": "Yoma.22b.14"
-        },
-        {
-          "vilnaLine": 38,
-          "sefariaRef": "Yoma.22b.15"
-        },
-        {
-          "vilnaLine": 39,
-          "sefariaRef": "Yoma.22b.16"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.22b.8",
-        "Yoma.22b.9",
-        "Yoma.22b.10",
-        "Yoma.22b.11",
-        "Yoma.22b.12",
-        "Yoma.22b.13",
-        "Yoma.22b.14",
-        "Yoma.22b.15",
-        "Yoma.22b.16"
-      ],
-      "display": {
-        "title": "Same words, different audience: why 'I have sinned' saved David but not Saul",
-        "whats": "The Saul-David biblical narrative digression continues (from 22a). The Gemara examines why Saul merited the kingship (he was humble), why he lost it (he disobeyed Samuel over Amalek), and the contrast with David who kept it despite serious sin. Key: Saul said 'I have sinned' but it was not genuine repentance. The Gemara also discusses whether a Torah scholar should avenge like a snake - i.e., quietly without forgetting.",
-        "hint": "The Saul digression is not random. The counting of Israel (which Saul did, like the Temple count-off) is the textual hook, but the real interest is the question of when a king/person loses divine favor permanently. The answer the Gemara develops is about the quality of repentance and the nature of the sin's public impact."
-      },
-      "learning": {
-        "learnerQuestion": "Saul and David both say the words 'I have sinned.' Why did Saul lose the kingdom over his confession while David kept it over his?",
-        "coreTension": "If the same confession formula produced opposite results, the words themselves cannot be what determines whether repentance is accepted. Something else must distinguish a genuine confession from an inadequate one.",
-        "coreMove": "The Gemara reads what each man said immediately after admitting sin. Saul told Samuel 'I have sinned,' then added 'now honor me before the elders,' a request that protects his public standing rather than accepting consequence. David told Nathan 'I have sinned to God' and accepted the rebuke without any self-protective addition. Because Saul's sin, disobeying the public command to destroy Amalek, was itself committed publicly, his confession needed to match that public exposure to count as complete; instead it stayed focused on preserving his image.",
-        "resolution": "Saul's repentance was judged incomplete because his confession was immediately followed by a request to protect his honor, while David's confession was followed by unguarded acceptance of consequence, which is why David kept the throne and Saul did not.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Identical confession language can reflect opposite degrees of genuine repentance; what follows the admission, self-protection versus unguarded acceptance of consequence, is what reveals which one occurred."
-        },
-        "ahaMoment": "Both kings used nearly the same words. The giveaway was not the confession itself but the very next thing each man said: Saul asked to be honored, David accepted the rebuke in silence.",
-        "learningBlocker": "Learners who focus only on the shared phrase 'I have sinned' miss the actual distinction the Gemara is drawing: genuine repentance is identified by what immediately follows the confession, not by the confession's wording.",
-        "memoryAnchor": "Saul: 'I have sinned, now honor me.' David: 'I have sinned to God,' then silence and acceptance. Same words, opposite follow-through, opposite outcome."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-022b-l25",
-          "type": "question",
-          "label": "Why did Saul merit the kingship?",
-          "text": "Saul was chosen because he was humble: 'am I not from Benjamin, the smallest tribe, and from the least of families?' His humility made him worthy.",
-          "sourceRefs": [
-            "Yoma.22b.8"
-          ]
-        },
-        {
-          "id": "yoma-022b-l29",
-          "type": "question",
-          "label": "Why did Saul lose the kingship permanently?",
-          "text": "Despite saying 'I have sinned,' Saul's sin was not forgiven. The Gemara probes: was his repentance genuine? What made his sin unforgivable?",
-          "sourceRefs": [
-            "Yoma.22b.9"
-          ]
-        },
-        {
-          "id": "yoma-022b-l31",
-          "type": "contrast",
-          "label": "Saul's repentance vs. David's repentance",
-          "text": "Saul said 'I have sinned' to Samuel - but then added 'honor me now before the elders.' This shows his concern was his reputation, not genuine contrition. David said 'I have sinned to God' (to Nathan) and accepted the consequences without protecting his image.",
-          "sourceRefs": [
-            "Yoma.22b.10"
-          ]
-        },
-        {
-          "id": "yoma-022b-l34",
-          "type": "elaboration",
-          "label": "The nature of Saul's sin: public violation",
-          "text": "Saul publicly disobeyed a public divine command (destroy Amalek) in a way that all Israel could see. This required a public divine repudiation. Private repentance cannot undo public divine commands.",
-          "sourceRefs": [
-            "Yoma.22b.11"
-          ]
-        },
-        {
-          "id": "yoma-022b-l34",
-          "type": "elaboration",
-          "label": "Additional details on Saul's sin",
-          "text": "Further analysis of Saul sparing Agag and the best animals despite explicit command to destroy everything.",
-          "sourceRefs": [
-            "Yoma.22b.12"
-          ]
-        },
-        {
-          "id": "yoma-022b-l35",
-          "type": "elaboration",
-          "label": "Why David kept the kingdom despite sin",
-          "text": "David's sin (adultery, murder by proxy) was private. His repentance was genuine and immediate. The kingdom, which represented the divine covenant, was not revoked because the repentance was complete.",
-          "sourceRefs": [
-            "Yoma.22b.13"
-          ]
-        },
-        {
-          "id": "yoma-022b-l36",
-          "type": "principle",
-          "label": "A Torah scholar must avenge like a snake",
-          "text": "A talmid chacham who is insulted should not ignore it - he should avenge like a snake (quietly, without forgetting). This principle is brought in connection with a discussion of Saul's overly passive response.",
-          "sourceRefs": [
-            "Yoma.22b.14"
-          ]
-        },
-        {
-          "id": "yoma-022b-l38",
-          "type": "elaboration",
-          "label": "The snake's method of avenging",
-          "text": "A snake does not strike immediately but remembers and eventually avenges. Similarly, a Torah scholar who is wronged should not immediately retaliate but should not forget either.",
-          "sourceRefs": [
-            "Yoma.22b.15"
-          ]
-        },
-        {
-          "id": "yoma-022b-l39",
-          "type": "conclusion",
-          "label": "Closing the Saul-David comparison",
-          "text": "The Gemara closes the comparison: Saul's failure was theological (disobeying a public divine mandate without genuine repentance); David's sin was human (passion, poor judgment) with genuine immediate repentance.",
-          "sourceRefs": [
-            "Yoma.22b.16"
-          ]
-        }
-      ],
-      "topicTags": [
-        "Saul",
-        "David",
-        "repentance",
-        "kingship",
-        "Amalek",
-        "Torah scholar",
-        "snake",
-        "avenge",
-        "humility"
-      ],
-      "concepts": {
-        "halachic": [
-          "repentance",
-          "public sin vs. private sin"
-        ],
-        "theological": [
-          "genuine vs. performative repentance",
-          "public accountability for leaders",
-          "divine forgiveness"
-        ],
-        "narrative": [
-          "Saul's humility at selection; his failure at Amalek; David's genuine repentance"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "yoma-022a-s01"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "'Avenge like a snake' is a general endorsement of vengeance.",
-          "correction": "It applies specifically to a Torah scholar who has been publicly shamed; silently absorbing such shame would undermine the dignity of Torah itself, so a measured, eventual response is required rather than blanket forgiveness."
-        },
-        {
-          "misconception": "The Gemara denies that Saul ever said 'I have sinned.'",
-          "correction": "The Gemara does not dispute that Saul said the words, even multiple times. It argues instead that his follow-up requests, asking to be honored before the elders, show the repentance itself was incomplete despite the correct words."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-022b-s04",
-        "yoma-023a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "description": "Saul: 'I have sinned - now honor me before the elders.' David: 'I have sinned to God' - then accepted Nathan's rebuke without protest."
-        },
-        {
-          "type": "person",
-          "description": "Saul standing before Samuel, asking for honor despite his admission of sin"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Saul and David both said 'I have sinned.' What did the Gemara identify as the actual difference between their repentances?",
-          "answer": "What each man said immediately afterward. Saul added 'now honor me before the elders,' revealing concern for his image. David accepted Nathan's rebuke without any self-protective addition, showing unguarded acceptance of consequence."
-        },
-        {
-          "question": "What does the Gemara mean by saying a Torah scholar must 'avenge like a snake' when publicly shamed?",
-          "answer": "He should not passively absorb the insult, since that would diminish Torah's honor, but he also should not strike back immediately. Like a snake, he responds with a measured, eventual reaction rather than instant retaliation or total forgiveness."
-        }
-      ],
-      "finalRuling": "Saul's repentance was incomplete (protecting his image); David's was genuine. A talmid chacham must not passively absorb public shame.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "תַּלְמִיד חָכָם",
-          "translit": "talmid chacham",
-          "en": "Torah scholar; one who must maintain the dignity of Torah against those who demean it."
-        }
-      ],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 4,
-      "id": "yoma-022b-s04",
-      "lineRange": {
-        "startVilnaLine": 41,
-        "endVilnaLine": 49
-      },
-      "lines": [
-        {
-          "vilnaLine": 41,
-          "sefariaRef": "Yoma.22b.17"
-        },
-        {
-          "vilnaLine": 42,
-          "sefariaRef": "Yoma.22b.18"
-        },
-        {
-          "vilnaLine": 44,
-          "sefariaRef": "Yoma.22b.19"
-        },
-        {
-          "vilnaLine": 47,
-          "sefariaRef": "Yoma.22b.20"
-        },
-        {
-          "vilnaLine": 49,
-          "sefariaRef": "Yoma.22b.21"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.22b.17",
-        "Yoma.22b.18",
-        "Yoma.22b.19",
-        "Yoma.22b.20",
-        "Yoma.22b.21"
-      ],
-      "display": {
-        "title": "Owning a sin you did not commit: David's confession over Nov, and the son he would not fight",
-        "whats": "Continuing the Saul and David analysis: a dispute about Saul's additional sin (the slaughter of the priests of Nov), which David later claimed was his fault (he triggered it by fleeing to Nov). David says: 'I am guilty of the deaths of your father's house.' The Gemara also discusses Absalom's revolt and asks why David did not defend himself militarily against his own son.",
-        "hint": "David's admission of guilt over Nov is remarkable - he takes personal responsibility for a disaster he did not commit. This is the opposite of Saul's self-protective repentance. The Absalom question further reveals David's character: he would not use military force against his own son, even when Absalom was in rebellion."
-      },
-      "learning": {
-        "learnerQuestion": "Saul, not David, gave the order that massacred the priests of Nov. Why does David tell the sole survivor that he himself is responsible for their deaths?",
-        "coreTension": "David did not kill anyone at Nov and did not order the massacre. Claiming responsibility for a crime someone else committed looks like an overstatement, unless David is naming a real chain of causation rather than the direct act.",
-        "coreMove": "David traces the chain back to his own choice: by fleeing to Nov and accepting the priests' help there, he set in motion the events that let Doeg inform on them, which led Saul to order their deaths. David owns that indirect causation instead of treating Saul's direct order as the only relevant cause. The same instinct, absorbing responsibility rather than protecting himself, surfaces again when his son Absalom revolts: despite having the military strength to suppress the rebellion, David cannot bring himself to fight his own son.",
-        "resolution": "David accepted moral responsibility for the indirect harm at Nov, naming his own choice to flee there as the first link in the chain that led to the massacre, and he refused to move militarily against Absalom despite having the capacity to do so.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Moral responsibility can extend beyond the person who performed the direct act to include someone whose earlier choice set the chain of causation in motion, and owning that indirect responsibility is itself a mark of character distinct from accepting blame only for what one did directly."
-        },
-        "ahaMoment": "David's admission about Nov is a different kind of greatness than his military victories: he did not strike the blow, yet he refuses to hide behind that fact and instead names himself as the first cause.",
-        "learningBlocker": "Learners tend to read David's statement about Nov as poetic self-blame rather than a precise claim, missing that the Gemara is treating indirect moral causation, not direct action, as a real category of responsibility worth naming.",
-        "memoryAnchor": "Saul ordered Nov's massacre. David says: I caused it, by fleeing there. Same instinct later: David cannot fight Absalom, his own son, even in rebellion."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-022b-l41",
-          "type": "narrative",
-          "label": "The Nov massacre and David's guilt",
-          "text": "Saul massacred the priests of Nov after Doeg told him David had received help there. Later, David tells Evyatar: 'I knew Doeg would inform; I caused the deaths of your father's house.'",
-          "sourceRefs": [
-            "Yoma.22b.17"
-          ]
-        },
-        {
-          "id": "yoma-022b-l42",
-          "type": "analysis",
-          "label": "Why Saul's sin of Nov was so severe",
-          "text": "The priests of Nov were killed on Saul's order based on Doeg's false testimony. This was not just a political act - it was mass killing of kohanim. The Gemara adds it to Saul's list of unforgivable acts.",
-          "sourceRefs": [
-            "Yoma.22b.18"
-          ]
-        },
-        {
-          "id": "yoma-022b-l44",
-          "type": "narrative",
-          "label": "David and Absalom: why no military response?",
-          "text": "When Absalom revolted, David did not immediately mobilize the military against him. The Gemara asks why - David was fully capable of fighting. Answer: he could not bring himself to order military force against his own son.",
-          "sourceRefs": [
-            "Yoma.22b.19"
-          ]
-        },
-        {
-          "id": "yoma-022b-l47",
-          "type": "elaboration",
-          "label": "Further analysis of David and Absalom",
-          "text": "David's response to Absalom's rebellion reveals the limits of his authority - even a great king cannot fully suppress his parental instincts. The Gemara explores whether this was weakness or virtue.",
-          "sourceRefs": [
-            "Yoma.22b.20"
-          ]
-        },
-        {
-          "id": "yoma-022b-l49",
-          "type": "conclusion",
-          "label": "Closing the Saul-David digression",
-          "text": "The Gemara wraps up the biblical narrative comparing Saul and David, preparing to return to the main topic of Temple lottery procedures.",
-          "sourceRefs": [
-            "Yoma.22b.21"
-          ]
-        }
-      ],
-      "topicTags": [
-        "David",
-        "Saul",
-        "Nov",
-        "Absalom",
-        "moral responsibility",
-        "kings",
-        "sin and repentance"
-      ],
-      "concepts": {
-        "halachic": [
-          "indirect causation of harm",
-          "moral responsibility for outcomes"
-        ],
-        "theological": [
-          "taking moral responsibility",
-          "parental love vs. leadership duty"
-        ],
-        "narrative": [
-          "Nov massacre",
-          "Absalom's revolt",
-          "David's parental anguish"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "yoma-022b-s03"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "David's claim of responsibility for Nov means he believes he literally committed the massacre.",
-          "correction": "Saul gave the order and the killing was carried out on his command. David is naming indirect moral causation: his choice to flee to Nov set in motion the chain of events that led to the massacre, which is a distinct claim from direct guilt."
-        },
-        {
-          "misconception": "David never engaged militarily with Absalom's rebellion at all.",
-          "correction": "David's own reluctance to fight his son did eventually give way when Joab's forces killed Absalom in the field. David's grief, 'My son Absalom!', shows this outcome was not what he wanted, even though it ended the rebellion."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-022b-s03"
-      ],
-      "visualizableElements": [
-        {
-          "type": "narrative",
-          "description": "David telling Evyatar the survivor of Nov: 'I knew Doeg was there; I am responsible for your father's house'"
-        },
-        {
-          "type": "person",
-          "description": "David weeping over Absalom: unable to issue military orders against his own son despite the political necessity"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Saul gave the order that massacred the priests of Nov. Why does David still call himself responsible for their deaths?",
-          "answer": "David traces the causation back to his own choice: by fleeing to Nov and accepting the priests' help, he set in motion the chain of events, Doeg's report to Saul, that led to the massacre. He accepts this indirect moral causation rather than treating Saul's direct order as the only relevant cause."
-        },
-        {
-          "question": "Why did David not move militarily against Absalom's revolt despite having the capacity to do so?",
-          "answer": "David could not bring himself to order military force against his own son. His later grief at Absalom's death, 'My son Absalom!', shows this restraint reflected genuine parental anguish rather than political calculation."
-        }
-      ],
-      "finalRuling": "David accepted moral responsibility for indirect harm (Nov) and refused to fight his son Absalom directly. The Saul-David comparison concludes.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "נֹב",
-          "translit": "Nov",
-          "en": "The city of priests where David received help when fleeing Saul; later massacred on Saul's orders based on Doeg's report."
-        },
-        {
-          "he": "אַבְשָׁלוֹם",
-          "translit": "Avshalom",
-          "en": "Absalom; David's son who led a revolt against him. David could not bring himself to fight his own son."
-        }
-      ],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.22b.1"
     }
-  ],
-  "glossary": [
-    {
-      "he": "כֶּבֶשׁ",
-      "translit": "kevesh",
-      "en": "Altar ramp; 32 amot long; site of the original priestly race."
+   ],
+   "sefariaRefs": [
+    "Yoma.22b.1"
+   ],
+   "display": {
+    "title": "Why a destroyed ramp still gets measured to the amah: the 32-amot calculation",
+    "whats": "A brief halakhic calculation: the altar ramp (kevesh) was 32 amot long according to R. Yosi b. R. Yehuda (30 amot rise plus 1 amah for the edge + 1 for the top). The discussion of the ramp's dimensions is relevant because the race up the ramp defined the original service competition.",
+    "hint": "The precise calculation of the ramp dimensions is typical Talmudic interest in the technical details of Temple construction. The 30/32/28 amot dispute reflects different traditions about the ramp's exact dimensions."
+   },
+   "learning": {
+    "learnerQuestion": "Why does the Gemara bother calculating the altar ramp's exact height down to the amah, for a ramp that no longer physically exists?",
+    "coreTension": "A throwaway architectural detail turns out to carry real stakes: the same ramp described here is the site of the race in chapter 2's opening mishna, and ultimately of the stabbing in 22a. Its height is not decoration, it is the scale of the danger.",
+    "coreMove": "R. Yosi b. R. Yehuda derives the ramp's total height of 32 amot from three components: 30 amot of actual rise, plus 1 amah for the sovev, the surrounding ledge, plus 1 amah for the altar's own body.",
+    "resolution": "The altar ramp measured 32 amot in total: 30 amot of rise, 1 amah for the ledge, and 1 amah for the altar body.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "A total measurement can be derived by summing distinct structural components rather than stated as a single given figure, and each component can carry its own halachic justification."
     },
+    "ahaMoment": "The Gemara insists on precise measurement even for a structure that no longer exists, treating destroyed Temple architecture with the same rigor as a still-standing building.",
+    "learningBlocker": "The ramp's height looks like a stray technical aside until it is read against the race and stabbing described nearby: a 32-amah ramp run at speed in the predawn dark is steep and dangerous enough that a push at the top is a real threat to life, which is exactly what happened.",
+    "memoryAnchor": "Ramp = 32 amot (30 rise + 1 ledge + 1 body). Steep enough that a push at the top could kill, which is exactly what happened."
+   },
+   "argumentFlow": [
     {
-      "he": "לִשְׁכַּת הַגָּזִית",
-      "translit": "lishkat hagazit",
-      "en": "Chamber of Hewn Stone; location of the morning lottery."
-    },
-    {
-      "he": "קְטֹרֶת",
-      "translit": "ketoret",
-      "en": "Incense; its burning brought blessing. Third lottery reserved for first-timers."
-    },
-    {
-      "he": "תַּלְמִיד חָכָם",
-      "translit": "talmid chacham",
-      "en": "Torah scholar; must avenge like a snake when publicly shamed."
-    },
-    {
-      "he": "נֹב",
-      "translit": "Nov",
-      "en": "City of priests massacred on Saul's order; David accepted indirect responsibility."
-    },
-    {
-      "he": "אַבְשָׁלוֹם",
-      "translit": "Avshalom",
-      "en": "David's son who revolted; David could not fight him militarily."
+     "id": "yoma-022b-l01",
+     "type": "ruling",
+     "label": "Ramp height: 32 amot",
+     "text": "R. Yosi b. R. Yehuda: the altar ramp was 32 amot long: 30 amot of rise, plus 1 amah for the lip of the altar, plus 1 amah for the altar body.",
+     "sourceRefs": [
+      "Yoma.22b.1"
+     ]
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "topicTags": [
+    "altar ramp",
+    "kevesh",
+    "Temple dimensions",
+    "R. Yosi b. R. Yehuda"
+   ],
+   "concepts": {
+    "halachic": [
+     "altar ramp dimensions",
+     "Temple architecture"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "yoma-022a-s01"
+   ],
+   "misconceptions": [
     {
-      "vilnaLine": 1,
-      "en": "Opens 'or perhaps': he reckons them by the adjoining lower floor of the altar, apart from the base",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "closing: and the surround, which totals six, before reaching the adjoining of its roof.' Then opens 'and let us count them for themselves': for their own heads -",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "Opens 'with Bezek': a term for potsherds; each one took a shard and cast it before him,",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l02"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "closing: and they counted the shards.' Then opens 'and he numbered them with lambs': he commanded each one to take a lamb from the flock of",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "closing: the king, and they came to Telaim, and the lambs were counted.",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "Opens 'it is written, and the number of the children of Israel shall be like the sand'",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "closing: 'of the sea': from which it follows they do have a count.' Then opens 'how'",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: 'unaware and unfeeling is a man whose Master assists him' -",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "continuing: how secure and assured, and he need not fall ill",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "continuing: or worry over any evil, is he whom the Holy One, blessed be He, assists,",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: for we find that Saul stumbled in one matter",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: and it turned out badly for him, to penalize him with death, to nullify",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "continuing: his kingship; and David stumbled in two matters, yet it did not turn out",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "closing: badly for him.' Then opens 'Uriah and the incitement': that he was incited",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l34a"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: to number Israel at the end of his days, which caused",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l34a"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "closing: a plague to come upon them.' Then opens 'of Batsheva': that he came",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l34a"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "closing: upon her.' Then opens 'the child': her first son.' Then opens 'slander' -",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l34b"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: regarding Mefivoshet, from the mouth of Ziva.",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "Opens 'this one, he was punished for it': it is measure for measure -",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "continuing: he caused him to lose half his inheritance, and he himself lost the inheritance",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "closing: of the kingdom.' Then opens 'a nightmare': terrifying angels of dread that",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "closing: startle him.' Then opens 'was not extended': for a length of days.",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l44"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Opens 'that there was in it no blemish': of lineage,",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l44"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: lest the kings descending from his line grow haughty over",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l44"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "closing: Israel; but David descended from Ruth the Moabite.",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l44"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Opens 'a basket of vermin': a blemish of lineage.",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l44"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Opens 'Saul was punished': to come to the matter for which",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l47"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "closing: the kingdom was taken from him.' Then opens 'because': since from the beginning of",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l47"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: his reign he forwent his honor, and thereby revealed about himself",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l47"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "closing: that he was unworthy to reign.' Then opens 'and it is written, and Nachash'",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l47"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: 'the Ammonite came up': and the upshot of the matter was that",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l47"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: Israel said, in astonishment, 'who is it that says Saul shall reign over us' -",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l47"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: 'give us the men, that we may put them to death,'",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l47"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "closing: and he said: 'no man shall be put to death this day.'",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l47"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "Opens 'who does not' -",
-      "linkedGemaraLineIds": [
-        "yoma-022b-l49"
-      ]
+     "misconception": "The 32-amot figure is just a stated given, not a computed value.",
+     "correction": "It is explicitly derived by summing three distinct components: 30 amot of practical rise, 1 amah for the sovev (ledge), and 1 amah for the altar's body."
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-022a-s01",
+    "yoma-022b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "object",
+     "description": "The altar ramp (kevesh) with measurements labeled: 30 amot rise, 1 amah lip, 1 amah body = 32 total"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "According to R. Yosi b. R. Yehuda, what is the altar ramp's total height, and how is that figure built up from its parts?",
+     "answer": "32 amot total: 30 amot of actual rise, plus 1 amah for the sovev (ledge), plus 1 amah for the altar's own body."
+    }
+   ],
+   "finalRuling": "The altar ramp was 32 amot according to R. Yosi b. R. Yehuda.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "כֶּבֶשׁ",
+     "translit": "kevesh",
+     "en": "The ramp leading up to the altar; priests ran up this ramp in the original competition for Temple services."
+    }
+   ],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-022b-s02",
+   "lineRange": {
+    "startVilnaLine": 2,
+    "endVilnaLine": 24
+   },
+   "lines": [
+    {
+     "vilnaLine": 2,
+     "sefariaRef": "Yoma.22b.2"
+    },
+    {
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.22b.3"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.22b.4"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.22b.5"
+    },
+    {
+     "vilnaLine": 17,
+     "sefariaRef": "Yoma.22b.6"
+    },
+    {
+     "vilnaLine": 21,
+     "sefariaRef": "Yoma.22b.7"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.22b.2",
+    "Yoma.22b.3",
+    "Yoma.22b.4",
+    "Yoma.22b.5",
+    "Yoma.22b.6",
+    "Yoma.22b.7"
+   ],
+   "display": {
+    "title": "Four lotteries, one principle: why the incense lottery alone barred repeat winners",
+    "whats": "The four lotteries of the Temple morning service: (1) who removes ashes; (2) who slaughters, sprinkles blood, removes ash, cleans the menorah and altar, and brings the limbs, flour, wine, and incense to the altar entrance; (3) the new priest designated for the incense; (4) who brings the limbs from the ramp to the altar. The lottery was held in the Chamber of Hewn Stone. The Gemara discusses how the lottery was conducted - counting priests who extended fingers.",
+    "hint": "The four lotteries cover the complete morning service schedule. Lottery 3 specifically favors those who had not previously performed the incense service - because the incense made priests wealthy (the smoke's scent clung to them, giving them dignity), so the opportunity was rotated."
+   },
+   "learning": {
+    "learnerQuestion": "All four daily lotteries assign Temple services, so why does only the third one, the incense, bar anyone who has already performed it from winning it again?",
+    "coreTension": "Ash removal, the thirteen-position main service, and limb carrying all let any eligible priest win repeatedly. The incense lottery alone excludes past winners, which looks arbitrary unless something about the incense service itself sets it apart.",
+    "coreMove": "The Gemara explains that burning the incense was believed to bring lasting blessing and prosperity, a man who performed it never became poor, and its scent clung visibly to him afterward. Because that benefit was concentrated and durable rather than a one-time honor, the Sages restricted the lottery to first-timers so the privilege would spread across the priesthood instead of accumulating with repeat winners.",
+    "resolution": "Four lotteries governed the Temple morning service: ash removal, the thirteen-position main service, incense (limited to those who had never performed it before), and limb carrying, all conducted in the Chamber of Hewn Stone by counting priests' extended fingers.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "A service carrying a uniquely concentrated and lasting personal benefit can warrant a procedural restriction, such as a first-timer-only lottery, that services without that benefit do not need."
+    },
+    "ahaMoment": "The incense lottery's first-timer rule is not arbitrary ritual variation, it is a deliberate redistribution mechanism: because the incense made its performer wealthy, the Sages prevented any one priest from monopolizing that wealth.",
+    "learningBlocker": "Learners tend to read the four lotteries as a uniform list and miss that the third one's restriction is solving a problem the other three do not have, concentrated economic benefit, rather than just being one more procedural variation among equals.",
+    "memoryAnchor": "Four lotteries: ash, 13-position main service, incense (first-timers only, because it brought wealth), limbs. All held in the Chamber of Hewn Stone."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-022b-l02",
+     "type": "ruling",
+     "label": "The four lotteries described",
+     "text": "Mishna: there were four lotteries daily. The first was for ash removal; the second for the main service (13 positions); the third for the incense (first-timers only); the fourth for carrying limbs to the altar.",
+     "sourceRefs": [
+      "Yoma.22b.2"
+     ]
+    },
+    {
+     "id": "yoma-022b-l07",
+     "type": "elaboration",
+     "label": "The second lottery's 13 positions",
+     "text": "The second lottery assigned 13 positions for the main morning service: slaughter, blood, two for the head, two for the tail, etc., the flour offering, and the wine libation.",
+     "sourceRefs": [
+      "Yoma.22b.3"
+     ]
+    },
+    {
+     "id": "yoma-022b-l10",
+     "type": "elaboration",
+     "label": "Third lottery: incense for first-timers",
+     "text": "The third lottery was exclusively for priests who had never performed the incense service before. The incense brought blessing and dignity to those who burned it.",
+     "sourceRefs": [
+      "Yoma.22b.4"
+     ]
+    },
+    {
+     "id": "yoma-022b-l14",
+     "type": "elaboration",
+     "label": "Why the incense lottery favored first-timers",
+     "text": "The incense was said never to have left its performer poor. The scent clung to the performer's clothing. Therefore the Sages spread this privilege broadly.",
+     "sourceRefs": [
+      "Yoma.22b.5"
+     ]
+    },
+    {
+     "id": "yoma-022b-l17",
+     "type": "elaboration",
+     "label": "Fourth lottery: carrying limbs",
+     "text": "The fourth lottery determined which priests carried the animal limbs from the altar ramp up to the altar proper. Any priest who had not yet participated that morning could join.",
+     "sourceRefs": [
+      "Yoma.22b.6"
+     ]
+    },
+    {
+     "id": "yoma-022b-l21",
+     "type": "elaboration",
+     "label": "Lottery procedure: counting extended fingers",
+     "text": "The lottery was conducted by counting priests who extended one or two fingers. The chief officer named a large number; counting began from a designated starting priest; whoever's count reached the named number performed the service.",
+     "sourceRefs": [
+      "Yoma.22b.7"
+     ]
+    }
+   ],
+   "topicTags": [
+    "lottery",
+    "four lotteries",
+    "ketoret",
+    "Temple service",
+    "Chamber of Hewn Stone",
+    "morning service",
+    "incense blessing"
+   ],
+   "concepts": {
+    "halachic": [
+     "lottery procedure",
+     "four daily lotteries",
+     "incense first-timer rule",
+     "Chamber of Hewn Stone"
+    ],
+    "theological": [
+     "equal distribution of Temple privileges",
+     "incense as blessing-bearer"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "yoma-022a-s02"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The four lotteries are alternative or overlapping ways of assigning the same services.",
+     "correction": "Each lottery covers a distinct, non-overlapping set of services, and a single priest could win and participate in more than one lottery in the same morning."
+    },
+    {
+     "misconception": "The first-timer restriction applied to all four lotteries.",
+     "correction": "It applied only to the third lottery, for incense, specifically because that service was believed to bring concentrated wealth and blessing that the Sages wanted distributed broadly rather than monopolized."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-022a-s02",
+    "yoma-023a-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "description": "Four lotteries in order: (1) ash removal, (2) 13-position main service, (3) incense for first-timers, (4) limbs to altar"
+    },
+    {
+     "type": "place",
+     "description": "The Chamber of Hewn Stone (lishkat hagazit) where the morning lottery was conducted"
+    },
+    {
+     "type": "action",
+     "description": "Priests extending fingers; an officer counting to a named number to determine who performs each service"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why was the incense lottery (the third) restricted to priests who had never performed that service before, when the other three lotteries had no such restriction?",
+     "answer": "Burning the incense was believed to bring lasting wealth and blessing to whoever performed it. Restricting it to first-timers prevented any priest from monopolizing that benefit and spread it broadly across the priesthood, a concern the other three services did not raise."
+    },
+    {
+     "question": "How was each of the four lotteries physically conducted?",
+     "answer": "The chief officer named a number larger than the number of participating priests; priests extended one or two fingers each; counting began from a designated starting priest, and whoever's count landed on the named number won that lottery."
+    }
+   ],
+   "finalRuling": "Four lotteries were held: ash removal, 13-position morning service, incense (first-timers only), and limbs carrying.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "לִשְׁכַּת הַגָּזִית",
+     "translit": "lishkat hagazit",
+     "en": "Chamber of Hewn Stone; the seat of the Sanhedrin and the location of the morning lottery."
+    },
+    {
+     "he": "קְטֹרֶת",
+     "translit": "ketoret",
+     "en": "Incense; its daily burning was believed to bring wealth to the priest who performed it. The third lottery was reserved for first-timers."
+    }
+   ],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-022b-s03",
+   "lineRange": {
+    "startVilnaLine": 25,
+    "endVilnaLine": 40
+   },
+   "lines": [
+    {
+     "vilnaLine": 25,
+     "sefariaRef": "Yoma.22b.8"
+    },
+    {
+     "vilnaLine": 29,
+     "sefariaRef": "Yoma.22b.9"
+    },
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.22b.10"
+    },
+    {
+     "vilnaLine": 34,
+     "sefariaRef": "Yoma.22b.11"
+    },
+    {
+     "vilnaLine": 34,
+     "sefariaRef": "Yoma.22b.12"
+    },
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.22b.13"
+    },
+    {
+     "vilnaLine": 36,
+     "sefariaRef": "Yoma.22b.14"
+    },
+    {
+     "vilnaLine": 38,
+     "sefariaRef": "Yoma.22b.15"
+    },
+    {
+     "vilnaLine": 39,
+     "sefariaRef": "Yoma.22b.16"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.22b.8",
+    "Yoma.22b.9",
+    "Yoma.22b.10",
+    "Yoma.22b.11",
+    "Yoma.22b.12",
+    "Yoma.22b.13",
+    "Yoma.22b.14",
+    "Yoma.22b.15",
+    "Yoma.22b.16"
+   ],
+   "display": {
+    "title": "Same words, different audience: why 'I have sinned' saved David but not Saul",
+    "whats": "The Saul-David biblical narrative digression continues (from 22a). The Gemara examines why Saul merited the kingship (he was humble), why he lost it (he disobeyed Samuel over Amalek), and the contrast with David who kept it despite serious sin. Key: Saul said 'I have sinned' but it was not genuine repentance. The Gemara also discusses whether a Torah scholar should avenge like a snake - i.e., quietly without forgetting.",
+    "hint": "The Saul digression is not random. The counting of Israel (which Saul did, like the Temple count-off) is the textual hook, but the real interest is the question of when a king/person loses divine favor permanently. The answer the Gemara develops is about the quality of repentance and the nature of the sin's public impact."
+   },
+   "learning": {
+    "learnerQuestion": "Saul and David both say the words 'I have sinned.' Why did Saul lose the kingdom over his confession while David kept it over his?",
+    "coreTension": "If the same confession formula produced opposite results, the words themselves cannot be what determines whether repentance is accepted. Something else must distinguish a genuine confession from an inadequate one.",
+    "coreMove": "The Gemara reads what each man said immediately after admitting sin. Saul told Samuel 'I have sinned,' then added 'now honor me before the elders,' a request that protects his public standing rather than accepting consequence. David told Nathan 'I have sinned to God' and accepted the rebuke without any self-protective addition. Because Saul's sin, disobeying the public command to destroy Amalek, was itself committed publicly, his confession needed to match that public exposure to count as complete; instead it stayed focused on preserving his image.",
+    "resolution": "Saul's repentance was judged incomplete because his confession was immediately followed by a request to protect his honor, while David's confession was followed by unguarded acceptance of consequence, which is why David kept the throne and Saul did not.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Identical confession language can reflect opposite degrees of genuine repentance; what follows the admission, self-protection versus unguarded acceptance of consequence, is what reveals which one occurred."
+    },
+    "ahaMoment": "Both kings used nearly the same words. The giveaway was not the confession itself but the very next thing each man said: Saul asked to be honored, David accepted the rebuke in silence.",
+    "learningBlocker": "Learners who focus only on the shared phrase 'I have sinned' miss the actual distinction the Gemara is drawing: genuine repentance is identified by what immediately follows the confession, not by the confession's wording.",
+    "memoryAnchor": "Saul: 'I have sinned, now honor me.' David: 'I have sinned to God,' then silence and acceptance. Same words, opposite follow-through, opposite outcome."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-022b-l25",
+     "type": "question",
+     "label": "Why did Saul merit the kingship?",
+     "text": "Saul was chosen because he was humble: 'am I not from Benjamin, the smallest tribe, and from the least of families?' His humility made him worthy.",
+     "sourceRefs": [
+      "Yoma.22b.8"
+     ]
+    },
+    {
+     "id": "yoma-022b-l29",
+     "type": "question",
+     "label": "Why did Saul lose the kingship permanently?",
+     "text": "Despite saying 'I have sinned,' Saul's sin was not forgiven. The Gemara probes: was his repentance genuine? What made his sin unforgivable?",
+     "sourceRefs": [
+      "Yoma.22b.9"
+     ]
+    },
+    {
+     "id": "yoma-022b-l31",
+     "type": "contrast",
+     "label": "Saul's repentance vs. David's repentance",
+     "text": "Saul said 'I have sinned' to Samuel - but then added 'honor me now before the elders.' This shows his concern was his reputation, not genuine contrition. David said 'I have sinned to God' (to Nathan) and accepted the consequences without protecting his image.",
+     "sourceRefs": [
+      "Yoma.22b.10"
+     ]
+    },
+    {
+     "id": "yoma-022b-l34",
+     "type": "elaboration",
+     "label": "The nature of Saul's sin: public violation",
+     "text": "Saul publicly disobeyed a public divine command (destroy Amalek) in a way that all Israel could see. This required a public divine repudiation. Private repentance cannot undo public divine commands.",
+     "sourceRefs": [
+      "Yoma.22b.11"
+     ]
+    },
+    {
+     "id": "yoma-022b-l34",
+     "type": "elaboration",
+     "label": "Additional details on Saul's sin",
+     "text": "Further analysis of Saul sparing Agag and the best animals despite explicit command to destroy everything.",
+     "sourceRefs": [
+      "Yoma.22b.12"
+     ]
+    },
+    {
+     "id": "yoma-022b-l35",
+     "type": "elaboration",
+     "label": "Why David kept the kingdom despite sin",
+     "text": "David's sin (adultery, murder by proxy) was private. His repentance was genuine and immediate. The kingdom, which represented the divine covenant, was not revoked because the repentance was complete.",
+     "sourceRefs": [
+      "Yoma.22b.13"
+     ]
+    },
+    {
+     "id": "yoma-022b-l36",
+     "type": "principle",
+     "label": "A Torah scholar must avenge like a snake",
+     "text": "A talmid chacham who is insulted should not ignore it - he should avenge like a snake (quietly, without forgetting). This principle is brought in connection with a discussion of Saul's overly passive response.",
+     "sourceRefs": [
+      "Yoma.22b.14"
+     ]
+    },
+    {
+     "id": "yoma-022b-l38",
+     "type": "elaboration",
+     "label": "The snake's method of avenging",
+     "text": "A snake does not strike immediately but remembers and eventually avenges. Similarly, a Torah scholar who is wronged should not immediately retaliate but should not forget either.",
+     "sourceRefs": [
+      "Yoma.22b.15"
+     ]
+    },
+    {
+     "id": "yoma-022b-l39",
+     "type": "conclusion",
+     "label": "Closing the Saul-David comparison",
+     "text": "The Gemara closes the comparison: Saul's failure was theological (disobeying a public divine mandate without genuine repentance); David's sin was human (passion, poor judgment) with genuine immediate repentance.",
+     "sourceRefs": [
+      "Yoma.22b.16"
+     ]
+    }
+   ],
+   "topicTags": [
+    "Saul",
+    "David",
+    "repentance",
+    "kingship",
+    "Amalek",
+    "Torah scholar",
+    "snake",
+    "avenge",
+    "humility"
+   ],
+   "concepts": {
+    "halachic": [
+     "repentance",
+     "public sin vs. private sin"
+    ],
+    "theological": [
+     "genuine vs. performative repentance",
+     "public accountability for leaders",
+     "divine forgiveness"
+    ],
+    "narrative": [
+     "Saul's humility at selection; his failure at Amalek; David's genuine repentance"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "yoma-022a-s01"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "'Avenge like a snake' is a general endorsement of vengeance.",
+     "correction": "It applies specifically to a Torah scholar who has been publicly shamed; silently absorbing such shame would undermine the dignity of Torah itself, so a measured, eventual response is required rather than blanket forgiveness."
+    },
+    {
+     "misconception": "The Gemara denies that Saul ever said 'I have sinned.'",
+     "correction": "The Gemara does not dispute that Saul said the words, even multiple times. It argues instead that his follow-up requests, asking to be honored before the elders, show the repentance itself was incomplete despite the correct words."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-022b-s04",
+    "yoma-023a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "description": "Saul: 'I have sinned - now honor me before the elders.' David: 'I have sinned to God' - then accepted Nathan's rebuke without protest."
+    },
+    {
+     "type": "person",
+     "description": "Saul standing before Samuel, asking for honor despite his admission of sin"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Saul and David both said 'I have sinned.' What did the Gemara identify as the actual difference between their repentances?",
+     "answer": "What each man said immediately afterward. Saul added 'now honor me before the elders,' revealing concern for his image. David accepted Nathan's rebuke without any self-protective addition, showing unguarded acceptance of consequence."
+    },
+    {
+     "question": "What does the Gemara mean by saying a Torah scholar must 'avenge like a snake' when publicly shamed?",
+     "answer": "He should not passively absorb the insult, since that would diminish Torah's honor, but he also should not strike back immediately. Like a snake, he responds with a measured, eventual reaction rather than instant retaliation or total forgiveness."
+    }
+   ],
+   "finalRuling": "Saul's repentance was incomplete (protecting his image); David's was genuine. A talmid chacham must not passively absorb public shame.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "תַּלְמִיד חָכָם",
+     "translit": "talmid chacham",
+     "en": "Torah scholar; one who must maintain the dignity of Torah against those who demean it."
+    }
+   ],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 4,
+   "id": "yoma-022b-s04",
+   "lineRange": {
+    "startVilnaLine": 41,
+    "endVilnaLine": 49
+   },
+   "lines": [
+    {
+     "vilnaLine": 41,
+     "sefariaRef": "Yoma.22b.17"
+    },
+    {
+     "vilnaLine": 42,
+     "sefariaRef": "Yoma.22b.18"
+    },
+    {
+     "vilnaLine": 44,
+     "sefariaRef": "Yoma.22b.19"
+    },
+    {
+     "vilnaLine": 47,
+     "sefariaRef": "Yoma.22b.20"
+    },
+    {
+     "vilnaLine": 49,
+     "sefariaRef": "Yoma.22b.21"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.22b.17",
+    "Yoma.22b.18",
+    "Yoma.22b.19",
+    "Yoma.22b.20",
+    "Yoma.22b.21"
+   ],
+   "display": {
+    "title": "Owning a sin you did not commit: David's confession over Nov, and the son he would not fight",
+    "whats": "Continuing the Saul and David analysis: a dispute about Saul's additional sin (the slaughter of the priests of Nov), which David later claimed was his fault (he triggered it by fleeing to Nov). David says: 'I am guilty of the deaths of your father's house.' The Gemara also discusses Absalom's revolt and asks why David did not defend himself militarily against his own son.",
+    "hint": "David's admission of guilt over Nov is remarkable - he takes personal responsibility for a disaster he did not commit. This is the opposite of Saul's self-protective repentance. The Absalom question further reveals David's character: he would not use military force against his own son, even when Absalom was in rebellion."
+   },
+   "learning": {
+    "learnerQuestion": "Saul, not David, gave the order that massacred the priests of Nov. Why does David tell the sole survivor that he himself is responsible for their deaths?",
+    "coreTension": "David did not kill anyone at Nov and did not order the massacre. Claiming responsibility for a crime someone else committed looks like an overstatement, unless David is naming a real chain of causation rather than the direct act.",
+    "coreMove": "David traces the chain back to his own choice: by fleeing to Nov and accepting the priests' help there, he set in motion the events that let Doeg inform on them, which led Saul to order their deaths. David owns that indirect causation instead of treating Saul's direct order as the only relevant cause. The same instinct, absorbing responsibility rather than protecting himself, surfaces again when his son Absalom revolts: despite having the military strength to suppress the rebellion, David cannot bring himself to fight his own son.",
+    "resolution": "David accepted moral responsibility for the indirect harm at Nov, naming his own choice to flee there as the first link in the chain that led to the massacre, and he refused to move militarily against Absalom despite having the capacity to do so.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Moral responsibility can extend beyond the person who performed the direct act to include someone whose earlier choice set the chain of causation in motion, and owning that indirect responsibility is itself a mark of character distinct from accepting blame only for what one did directly."
+    },
+    "ahaMoment": "David's admission about Nov is a different kind of greatness than his military victories: he did not strike the blow, yet he refuses to hide behind that fact and instead names himself as the first cause.",
+    "learningBlocker": "Learners tend to read David's statement about Nov as poetic self-blame rather than a precise claim, missing that the Gemara is treating indirect moral causation, not direct action, as a real category of responsibility worth naming.",
+    "memoryAnchor": "Saul ordered Nov's massacre. David says: I caused it, by fleeing there. Same instinct later: David cannot fight Absalom, his own son, even in rebellion."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-022b-l41",
+     "type": "narrative",
+     "label": "The Nov massacre and David's guilt",
+     "text": "Saul massacred the priests of Nov after Doeg told him David had received help there. Later, David tells Evyatar: 'I knew Doeg would inform; I caused the deaths of your father's house.'",
+     "sourceRefs": [
+      "Yoma.22b.17"
+     ]
+    },
+    {
+     "id": "yoma-022b-l42",
+     "type": "analysis",
+     "label": "Why Saul's sin of Nov was so severe",
+     "text": "The priests of Nov were killed on Saul's order based on Doeg's false testimony. This was not just a political act - it was mass killing of kohanim. The Gemara adds it to Saul's list of unforgivable acts.",
+     "sourceRefs": [
+      "Yoma.22b.18"
+     ]
+    },
+    {
+     "id": "yoma-022b-l44",
+     "type": "narrative",
+     "label": "David and Absalom: why no military response?",
+     "text": "When Absalom revolted, David did not immediately mobilize the military against him. The Gemara asks why - David was fully capable of fighting. Answer: he could not bring himself to order military force against his own son.",
+     "sourceRefs": [
+      "Yoma.22b.19"
+     ]
+    },
+    {
+     "id": "yoma-022b-l47",
+     "type": "elaboration",
+     "label": "Further analysis of David and Absalom",
+     "text": "David's response to Absalom's rebellion reveals the limits of his authority - even a great king cannot fully suppress his parental instincts. The Gemara explores whether this was weakness or virtue.",
+     "sourceRefs": [
+      "Yoma.22b.20"
+     ]
+    },
+    {
+     "id": "yoma-022b-l49",
+     "type": "conclusion",
+     "label": "Closing the Saul-David digression",
+     "text": "The Gemara wraps up the biblical narrative comparing Saul and David, preparing to return to the main topic of Temple lottery procedures.",
+     "sourceRefs": [
+      "Yoma.22b.21"
+     ]
+    }
+   ],
+   "topicTags": [
+    "David",
+    "Saul",
+    "Nov",
+    "Absalom",
+    "moral responsibility",
+    "kings",
+    "sin and repentance"
+   ],
+   "concepts": {
+    "halachic": [
+     "indirect causation of harm",
+     "moral responsibility for outcomes"
+    ],
+    "theological": [
+     "taking moral responsibility",
+     "parental love vs. leadership duty"
+    ],
+    "narrative": [
+     "Nov massacre",
+     "Absalom's revolt",
+     "David's parental anguish"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "yoma-022b-s03"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "David's claim of responsibility for Nov means he believes he literally committed the massacre.",
+     "correction": "Saul gave the order and the killing was carried out on his command. David is naming indirect moral causation: his choice to flee to Nov set in motion the chain of events that led to the massacre, which is a distinct claim from direct guilt."
+    },
+    {
+     "misconception": "David never engaged militarily with Absalom's rebellion at all.",
+     "correction": "David's own reluctance to fight his son did eventually give way when Joab's forces killed Absalom in the field. David's grief, 'My son Absalom!', shows this outcome was not what he wanted, even though it ended the rebellion."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-022b-s03"
+   ],
+   "visualizableElements": [
+    {
+     "type": "narrative",
+     "description": "David telling Evyatar the survivor of Nov: 'I knew Doeg was there; I am responsible for your father's house'"
+    },
+    {
+     "type": "person",
+     "description": "David weeping over Absalom: unable to issue military orders against his own son despite the political necessity"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Saul gave the order that massacred the priests of Nov. Why does David still call himself responsible for their deaths?",
+     "answer": "David traces the causation back to his own choice: by fleeing to Nov and accepting the priests' help, he set in motion the chain of events, Doeg's report to Saul, that led to the massacre. He accepts this indirect moral causation rather than treating Saul's direct order as the only relevant cause."
+    },
+    {
+     "question": "Why did David not move militarily against Absalom's revolt despite having the capacity to do so?",
+     "answer": "David could not bring himself to order military force against his own son. His later grief at Absalom's death, 'My son Absalom!', shows this restraint reflected genuine parental anguish rather than political calculation."
+    }
+   ],
+   "finalRuling": "David accepted moral responsibility for indirect harm (Nov) and refused to fight his son Absalom directly. The Saul-David comparison concludes.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "נֹב",
+     "translit": "Nov",
+     "en": "The city of priests where David received help when fleeing Saul; later massacred on Saul's orders based on Doeg's report."
+    },
+    {
+     "he": "אַבְשָׁלוֹם",
+     "translit": "Avshalom",
+     "en": "Absalom; David's son who led a revolt against him. David could not bring himself to fight his own son."
+    }
+   ],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [
+  {
+   "he": "כֶּבֶשׁ",
+   "translit": "kevesh",
+   "en": "Altar ramp; 32 amot long; site of the original priestly race."
+  },
+  {
+   "he": "לִשְׁכַּת הַגָּזִית",
+   "translit": "lishkat hagazit",
+   "en": "Chamber of Hewn Stone; location of the morning lottery."
+  },
+  {
+   "he": "קְטֹרֶת",
+   "translit": "ketoret",
+   "en": "Incense; its burning brought blessing. Third lottery reserved for first-timers."
+  },
+  {
+   "he": "תַּלְמִיד חָכָם",
+   "translit": "talmid chacham",
+   "en": "Torah scholar; must avenge like a snake when publicly shamed."
+  },
+  {
+   "he": "נֹב",
+   "translit": "Nov",
+   "en": "City of priests massacred on Saul's order; David accepted indirect responsibility."
+  },
+  {
+   "he": "אַבְשָׁלוֹם",
+   "translit": "Avshalom",
+   "en": "David's son who revolted; David could not fight him militarily."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "Or perhaps - he reckons them by the adjoining lower floor of the altar, apart from the base",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "and the surround, which totals six, before reaching the adjoining of its roof. And let us count them for themselves -",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l01",
+    "yoma-022b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "for their heads. With Bezek - a term for potsherds; each one took a shard and cast it before him,",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "and they counted the shards. And he numbered them with lambs - he commanded each one to take a lamb from the flock of",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l02",
+    "yoma-022b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "the king, and they came to Telaim, and the lambs were counted.",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "It is written, and the number of the children of Israel shall be like the sand of",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "the sea - from which it follows they do have a count. How",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l14",
+    "yoma-022b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "unaware and unfeeling is a man whose Master assists him.",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "How secure and assured, and he need not fall ill",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "or worry over any evil, is he whom the Holy One, blessed be He, assists,",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "for we find that Saul stumbled in one matter",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "and it turned out badly for him, to penalize him with death, to nullify",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "his kingship; and David stumbled in two matters, yet it did not turn out",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "badly for him. Uriah and the incitement - that he was incited",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l31",
+    "yoma-022b-l34a"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "to number Israel at the end of his days, which caused",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l34a"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "a plague to come upon them. Of Batsheva - that he came",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l34a",
+    "yoma-022b-l34b"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "upon her. The child - her first son. Slander -",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l34b"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "regarding Mefivoshet, from the mouth of Ziva.",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l38"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "This one, he was punished for it - it is measure for measure,",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l39"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "he caused him to lose half his inheritance, and he himself lost the inheritance",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l39"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "of the kingdom. A nightmare - terrifying angels of dread that",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l39",
+    "yoma-022b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "startle him. Was not extended - for a length of days.",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l42",
+    "yoma-022b-l44"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "That there was in it no blemish - of lineage,",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l44"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "lest the kings descending from his line grow haughty over",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l44"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "Israel; but David descended from Ruth the Moabite.",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l44"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "A basket of vermin - a blemish of lineage.",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l44"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "Saul was punished - to come to the matter for which",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "the kingdom was taken from him. Because - since from the beginning of",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "his reign he forwent his honor, and thereby revealed about himself",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "that he was unworthy to reign. And it is written, and Nachash",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "the Ammonite came up - and the upshot of the matter was that",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "Israel said, in astonishment, 'who is it that says Saul shall reign over us' -",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "'give us the men, that we may put them to death,'",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "and he said: 'no man shall be put to death this day.'",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "That he does not - the daf ends mid-word here; the comment (that a Torah scholar who does not take revenge and bear a grudge like a snake) continues on 23a.",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l49"
+   ]
+  }
+ ]
 }
