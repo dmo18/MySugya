@@ -164842,11 +164842,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 1,
         he: "תלמוד לומר אשר יבא אל אהל מועד מי שראוי לבא אל אהל מועד.  לכפר בקודש ביום הכפורים עליו אני אומר לך תחתיו מבניו",
-        en: "the verse teaches: only one who is fit to enter the Tent of Meeting may wear the vestments - excluding the anointed-for-war priest",
+        en: "'The verse teaches, whoever shall come to the Tent of Meeting' - one who is fit to come to the Tent of Meeting, to atone in the sanctuary on Yom Kippur; regarding him I say to you, 'in his place, from his sons,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l01"
+        ]
       },
       {
         id: "rashi-yoma-073a-002",
@@ -164854,11 +164856,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 2,
         he: "שבנו יהיה תחתיו יצא זה שאינו ראוי וכו' דלאו כהן גדול הוא: ואם איתא. דבח' בגדים הוא משמש כל השנה האי נמי מיחזא חזי",
-        en: "Rav Nachman bar Yitzchak: the baraita means those whose primary anointing is oil serve in eight vestments",
+        en: "meaning specifically one whose son shall be in his place; this excludes one who is not fit, etc., since he is not a High Priest. 'And if it is so' - that he serves in eight garments all year, this one too should be fit,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l01"
+        ]
       },
       {
         id: "rashi-yoma-073a-003",
@@ -164866,11 +164870,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 3,
         he: "דכתיב ביוה\"כ וכפר הכהן אשר ימשח אותו ואשר ימלא את ידו וכל מילוי ידים על ידי הבגדים הוא כדכתיב ובגדי הקדש אשר לאהרן",
-        en: "objection: the anointed-for-war priest neither serves in four (like an ordinary kohen) nor in eight (like the HP)",
+        en: "since it is written regarding Yom Kippur, 'and the priest who is anointed and who is inducted shall make atonement,' and all induction is through the garments, as it is written, 'and the sacred garments that belong to Aaron'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l01"
+        ]
       },
       {
         id: "rashi-yoma-073a-004",
@@ -164878,11 +164884,15 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 4,
         he: "(שמות כט) : משום איבה. אבל מדאורייתא חזי: דלית ליה איבה. דלא חייש לאיבה: ולא קמשמש. כלומר וקאמר דלא משמש משוח",
-        en: "Abaye: you can't make him a non-priest entirely - he must wear some vestments appropriate to his status",
+        en: "(Exodus 29). 'Because of resentment' - but by Torah law he is fit. 'That this tanna does not accept the resentment concern' - he does not worry about resentment. 'And he does not serve' - meaning, he states that the priest anointed for war does not serve",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l01",
+          "yoma-073a-l08",
+          "yoma-073a-l11"
+        ]
       },
       {
         id: "rashi-yoma-073a-005",
@@ -164890,11 +164900,14 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 5,
         he: "מלחמה בשמונה: פר כהן משיח לא",
-        en: "Rav Adda bar Abba to Rava: what does this tanna hold who doesn't accept the animosity concern?",
+        en: "in eight garments. 'The bull of the anointed priest' - we do not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l11",
+          "yoma-073a-l13"
+        ]
       },
       {
         id: "rashi-yoma-073a-006",
@@ -164902,11 +164915,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 6,
         he: "גרסינן דהיינו פר הבא על כל",
-        en: "baraita: differences between HP and ordinary priest - HP brings bull for individual sin, ordinary priest does not",
+        en: "read this as a separate item, for it is the same as 'the bull brought for any of the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l13"
+        ]
       },
       {
         id: "rashi-yoma-073a-007",
@@ -164914,11 +164929,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 7,
         he: "המצות כהן משיח שחטא בהעלם",
-        en: "HP does not let hair grow wild or tear his garments in mourning, but tears from below (unlike ordinary priest who tears from above)",
+        en: "commandments': an anointed priest who transgressed unwittingly",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l13"
+        ]
       },
       {
         id: "rashi-yoma-073a-008",
@@ -164926,11 +164943,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 8,
         he: "דבר ועשה דבר שחייבין על זדונו",
-        en: "HP sacrifices even as an acute mourner (onen) but does not eat; he takes the first portion of the showbread",
+        en: "a matter whose deliberate violation carries excision",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l13"
+        ]
       },
       {
         id: "rashi-yoma-073a-009",
@@ -164938,11 +164957,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 9,
         he: "כרת מביא פר וההדיוט מביא כשבה",
-        en: "all these apply also to the merubeh begadim (multi-vestment) priest except the Yom Kippur bull",
+        en: "brings a bull, while an ordinary person brings a ewe",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l13"
+        ]
       },
       {
         id: "rashi-yoma-073a-010",
@@ -164950,11 +164971,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 10,
         he: "או שעירה כשאר יחיד שבישראל:",
-        en: "all these apply to a former anointed HP except for the Yom Kippur bull and the Yom Kippur lot",
+        en: "or a she-goat, like any individual in Israel.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l13"
+        ]
       },
       {
         id: "rashi-yoma-073a-011",
@@ -164962,11 +164985,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 11,
         he: "ועשירית האיפה. שבכל יום כדכתיב",
-        en: "none of these apply to the anointed-for-war priest except for five items",
+        en: "'And the tenth of an eifah' - offered every day, as it is written,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l13"
+        ]
       },
       {
         id: "rashi-yoma-073a-012",
@@ -164974,11 +164999,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 12,
         he: "הכהן המשיח תחתיו מבניו יעשה",
-        en: "when there is no animosity - among equals - there is animosity; among subordinates - yes there is",
+        en: "'the priest who is anointed in his place from among his sons shall offer",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l13"
+        ]
       },
       {
         id: "rashi-yoma-073a-013",
@@ -164986,11 +165013,14 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 13,
         he: "אותה (ויקרא ו) : לא פורע. ראשו",
-        en: "Rabbi Abbahu was sitting and teaching this halakha in the name of Rabbi Yochanan; a student corrected his attribution",
+        en: "it' (Leviticus 6). 'He does not let his hair grow wild' - his head,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l13",
+          "yoma-073a-l16"
+        ]
       },
       {
         id: "rashi-yoma-073a-014",
@@ -164998,11 +165028,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 14,
         he: "לגדל שיער מחמת אבילות: מלמטה.",
-        en: "Rav Pappa objects: granted Rabbi Abbahu - out of honor for Rabbi Yochanan; but why would anyone else change the attribution?",
+        en: "to grow hair on account of mourning. 'From below'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l16"
+        ]
       },
       {
         id: "rashi-yoma-073a-015",
@@ -165010,11 +165042,14 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 15,
         he: "שיפולי בגדיו: ואינו מטמא לקרוביו.",
-        en: "when Ravin came from Eretz Yisrael he said: the ruling was stated regarding asking (she'ilah), not wearing",
+        en: "- the hem of his garments. 'And he does not become impure for his relatives'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l16",
+          "yoma-073a-l23"
+        ]
       },
       {
         id: "rashi-yoma-073a-016",
@@ -165022,11 +165057,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 16,
         he: "אבל הדיוט מטמא לאותן האמורין",
-        en: "the Sages taught: how does one consult the Urim VeTummim? The asker faces the one being asked (the HP)",
+        en: "- but an ordinary priest becomes impure for those enumerated",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l23"
+        ]
       },
       {
         id: "rashi-yoma-073a-017",
@@ -165034,11 +165071,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 17,
         he: "בפרשה: ומצווה על הבתולה.",
-        en: "the asker states his question: 'Shall I pursue this troop?' and the answer comes forth",
+        en: "in the parsha. 'And he is commanded regarding the virgin'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l23"
+        ]
       },
       {
         id: "rashi-yoma-073a-018",
@@ -165046,11 +165085,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 18,
         he: "בעשה: ומוזהר על האלמנה. בלאו:",
-        en: "one does not ask aloud (it would shame the HP to speak audibly); and not by mere thought - an intermediate level",
+        en: "- a positive commandment. 'And he is warned regarding the widow' - a prohibition.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l16"
+        ]
       },
       {
         id: "rashi-yoma-073a-019",
@@ -165058,11 +165099,14 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 19,
         he: "ומחזיר את הרוצח. במיתתו: ומקריב",
-        en: "one does not ask two questions simultaneously; if he did, the answer addresses only one of them",
+        en: "'And he returns the killer' - through his execution. 'And he sacrifices",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l16",
+          "yoma-073a-l18"
+        ]
       },
       {
         id: "rashi-yoma-073a-020",
@@ -165070,11 +165114,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 20,
         he: "אונן. דכתיב ומן המקדש לא יצא",
-        en: "[Rashi commentary on line 20]: אונן. דכתיב ומן המקדש לא יצא",
+        en: "as an acute mourner' - since it is written, 'and from the sanctuary he shall not depart'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l18"
+        ]
       },
       {
         id: "rashi-yoma-073a-021",
@@ -165082,11 +165128,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 21,
         he: "(ויקרא כא) כדפרישית בפרק קמא",
-        en: "[Rashi commentary on line 21]: (ויקרא כא) כדפרישית בפרק קמא",
+        en: "(Leviticus 21), as I explained in the first chapter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l18"
+        ]
       },
       {
         id: "rashi-yoma-073a-022",
@@ -165094,11 +165142,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 22,
         he: "(דף יג:): ואינו אוכל. כלומר אף",
-        en: "[Rashi commentary on line 22]: (דף יג:): ואינו אוכל. כלומר אף",
+        en: "(13b). 'And he does not eat' - meaning, although",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l18"
+        ]
       },
       {
         id: "rashi-yoma-073a-023",
@@ -165106,11 +165156,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 23,
         he: "על פי שהוא חלוק מן ההדיוט לענין",
-        en: "[Rashi commentary on line 23]: על פי שהוא חלוק מן ההדיוט לענין",
+        en: "he differs from an ordinary priest regarding",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l18"
+        ]
       },
       {
         id: "rashi-yoma-073a-024",
@@ -165118,11 +165170,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 24,
         he: "הקרבה שוה הוא לו לענין אכילה:",
-        en: "[Rashi commentary on line 24]: הקרבה שוה הוא לו לענין אכילה:",
+        en: "offering, he is equal to him regarding eating.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l18"
+        ]
       },
       {
         id: "rashi-yoma-073a-025",
@@ -165130,11 +165184,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 25,
         he: "ואינו חולק. כשהוא אונן לאכול לערב",
-        en: "[Rashi commentary on line 25]: ואינו חולק. כשהוא אונן לאכול לערב",
+        en: "'And he does not take a portion' - when he is an acute mourner, to eat in the evening",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l18"
+        ]
       },
       {
         id: "rashi-yoma-073a-026",
@@ -165142,11 +165198,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 26,
         he: "כשתעבור האנינות דאמרינן בזבחים",
-        en: "[Rashi commentary on line 26]: כשתעבור האנינות דאמרינן בזבחים",
+        en: "once the acute mourning has passed, as we say in Zevachim,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l18"
+        ]
       },
       {
         id: "rashi-yoma-073a-027",
@@ -165154,11 +165212,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 27,
         he: "פרק טבול יום (דף צט.) הראוי לאכילה",
-        en: "[Rashi commentary on line 27]: פרק טבול יום (דף צט.) הראוי לאכילה",
+        en: "chapter Tevul Yom (99a): one fit to eat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l18"
+        ]
       },
       {
         id: "rashi-yoma-073a-028",
@@ -165166,11 +165226,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 28,
         he: "חולק שאינו ראוי לאכילה אינו חולק:",
-        en: "[Rashi commentary on line 28]: חולק שאינו ראוי לאכילה אינו חולק:",
+        en: "takes a portion; one not fit to eat does not take a portion.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l18"
+        ]
       },
       {
         id: "rashi-yoma-073a-029",
@@ -165178,11 +165240,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 29,
         he: "ומקריב חלק בראש. מפורש בפ\"ק",
-        en: "[Rashi commentary on line 29]: ומקריב חלק בראש. מפורש בפ\"ק",
+        en: "'And he sacrifices a portion first' - explained in the first chapter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l18"
+        ]
       },
       {
         id: "rashi-yoma-073a-030",
@@ -165190,11 +165254,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 30,
         he: "(דף יד.): ופטור על טומאת מקדש.",
-        en: "[Rashi commentary on line 30]: (דף יד.): ופטור על טומאת מקדש.",
+        en: "(14a). 'And he is exempt from impurity to the Sanctuary'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l18"
+        ]
       },
       {
         id: "rashi-yoma-073a-031",
@@ -165202,11 +165268,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 31,
         he: "בהוריות נפקא לן מקרא בפרק בתרא",
-        en: "[Rashi commentary on line 31]: בהוריות נפקא לן מקרא בפרק בתרא",
+        en: "- we derive this from a verse in tractate Horayot, in the last chapter,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l18"
+        ]
       },
       {
         id: "rashi-yoma-073a-032",
@@ -165214,11 +165282,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 32,
         he: "וכולה הך מתניתא מפרש לה התם:",
-        en: "[Rashi commentary on line 32]: וכולה הך מתניתא מפרש לה התם:",
+        en: "and the whole of this mishna is explained there.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l18"
+        ]
       },
       {
         id: "rashi-yoma-073a-033",
@@ -165226,11 +165296,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 33,
         he: "מרובה בגדים. כהנים גדולים ששימשו",
-        en: "[Rashi commentary on line 33]: מרובה בגדים. כהנים גדולים ששימשו",
+        en: "'A priest with many garments' - High Priests who served",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l21"
+        ]
       },
       {
         id: "rashi-yoma-073a-034",
@@ -165238,11 +165310,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 34,
         he: "מיום שנגנז שמן המשחה שלא היה",
-        en: "[Rashi commentary on line 34]: מיום שנגנז שמן המשחה שלא היה",
+        en: "from the day the anointing oil was hidden away, who had",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l21"
+        ]
       },
       {
         id: "rashi-yoma-073a-035",
@@ -165250,11 +165324,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 35,
         he: "להם לכהונה גדולה אלא בריבוי",
-        en: "[Rashi commentary on line 35]: להם לכהונה גדולה אלא בריבוי",
+        en: "no High Priesthood except through the multiplicity of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l21"
+        ]
       },
       {
         id: "rashi-yoma-073a-036",
@@ -165262,11 +165338,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 36,
         he: "בגדים: חוץ מפר הבא על כל המצות.",
-        en: "[Rashi commentary on line 36]: בגדים: חוץ מפר הבא על כל המצות.",
+        en: "garments. 'Except for the bull brought for any of the commandments'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l21"
+        ]
       },
       {
         id: "rashi-yoma-073a-037",
@@ -165274,11 +165352,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 37,
         he: "דמשיח כתיב ביה ואע\"ג דגבי עשירית",
-        en: "[Rashi commentary on line 37]: דמשיח כתיב ביה ואע\"ג דגבי עשירית",
+        en: "- for it says 'anointed' regarding it, and even though regarding the tenth",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l21"
+        ]
       },
       {
         id: "rashi-yoma-073a-038",
@@ -165286,11 +165366,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 38,
         he: "האיפה נמי משיח כתיב איתרבי נמי",
-        en: "[Rashi commentary on line 38]: האיפה נמי משיח כתיב איתרבי נמי",
+        en: "of an eifah it also says 'anointed,' the priest with many garments is included too",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l21"
+        ]
       },
       {
         id: "rashi-yoma-073a-039",
@@ -165298,11 +165380,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 39,
         he: "מרובה בגדים מוהכהן בת\"כ אבל",
-        en: "[Rashi commentary on line 39]: מרובה בגדים מוהכהן בת\"כ אבל",
+        en: "from 'and the priest' in Torat Kohanim; but",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l21"
+        ]
       },
       {
         id: "rashi-yoma-073a-040",
@@ -165310,11 +165394,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 40,
         he: "הכהן דכתיב גבי פר הבא על כל",
-        en: "[Rashi commentary on line 40]: הכהן דכתיב גבי פר הבא על כל",
+        en: "'the priest,' which is written regarding the bull brought for any of the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l21"
+        ]
       },
       {
         id: "rashi-yoma-073a-041",
@@ -165322,11 +165408,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 41,
         he: "המצות איצטריך לגופיה כדתניא בת\"כ",
-        en: "[Rashi commentary on line 41]: המצות איצטריך לגופיה כדתניא בת\"כ",
+        en: "commandments, is needed for its own case, as is taught in Torat Kohanim:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l21"
+        ]
       },
       {
         id: "rashi-yoma-073a-042",
@@ -165334,11 +165422,14 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 42,
         he: "משיח יכול זה מלך ת\"ל הכהן: וכולן",
-        en: "[Rashi commentary on line 42]: משיח יכול זה מלך ת\"ל הכהן: וכולן",
+        en: "'anointed' - one might think this means a king; the verse teaches 'the priest.' 'And all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l21",
+          "yoma-073a-l22"
+        ]
       },
       {
         id: "rashi-yoma-073a-043",
@@ -165346,11 +165437,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 43,
         he: "נוהגות במשוח שעבר. כגון אם אירע",
-        en: "[Rashi commentary on line 43]: נוהגות במשוח שעבר. כגון אם אירע",
+        en: "of these apply to a former anointed one' - such as if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l22"
+        ]
       },
       {
         id: "rashi-yoma-073a-044",
@@ -165358,11 +165451,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 44,
         he: "פסול בכהן גדול ומינו אחר תחתיו",
-        en: "[Rashi commentary on line 44]: פסול בכהן גדול ומינו אחר תחתיו",
+        en: "a disqualification occurred to a High Priest and another was appointed in his place,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l22"
+        ]
       },
       {
         id: "rashi-yoma-073a-045",
@@ -165370,11 +165465,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 45,
         he: "ולאחר זמן חזר ראשון לעבודתו ועבר",
-        en: "[Rashi commentary on line 45]: ולאחר זמן חזר ראשון לעבודתו ועבר",
+        en: "and after a time the first one returned to his service and this one passed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l22"
+        ]
       },
       {
         id: "rashi-yoma-073a-046",
@@ -165382,11 +165479,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 46,
         he: "זה ממשיחותו כולן נוהגות בו: חוץ",
-        en: "[Rashi commentary on line 46]: זה ממשיחותו כולן נוהגות בו: חוץ",
+        en: "from his anointed status, all of these apply to him. 'Except",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l22"
+        ]
       },
       {
         id: "rashi-yoma-073a-047",
@@ -165394,11 +165493,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 47,
         he: "מפר יום הכפורים ועשירית האיפה.",
-        en: "[Rashi commentary on line 47]: מפר יום הכפורים ועשירית האיפה.",
+        en: "for the Yom Kippur bull and the tenth of an eifah'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l22"
+        ]
       },
       {
         id: "rashi-yoma-073a-048",
@@ -165406,11 +165507,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 48,
         he: "שהם חובה קבועה וחדא אמר",
-        en: "[Rashi commentary on line 48]: שהם חובה קבועה וחדא אמר",
+        en: "- since these are a fixed obligation, and the Merciful One said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l22"
+        ]
       },
       {
         id: "rashi-yoma-073a-049",
@@ -165418,11 +165521,14 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 49,
         he: "רחמנא דתיקרב ולא שתים: האמורין",
-        en: "[Rashi commentary on line 49]: רחמנא דתיקרב ולא שתים: האמורין",
+        en: "that one is offered, not two. 'Those enumerated",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l22",
+          "yoma-073a-l23"
+        ]
       },
       {
         id: "rashi-yoma-073a-050",
@@ -165430,11 +165536,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 50,
         he: "בפרשה. גבי והכהן הגדול מאחיו",
-        en: "[Rashi commentary on line 50]: בפרשה. גבי והכהן הגדול מאחיו",
+        en: "in the parsha' - regarding 'and the priest who is greater than his brothers'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l23"
+        ]
       },
       {
         id: "rashi-yoma-073a-051",
@@ -165442,11 +165550,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 51,
         he: "(ויקרא כא) דהתם איתרבי נמי משוח",
-        en: "[Rashi commentary on line 51]: (ויקרא כא) דהתם איתרבי נמי משוח",
+        en: "(Leviticus 21), where the priest anointed for war is also included,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l23"
+        ]
       },
       {
         id: "rashi-yoma-073a-052",
@@ -165454,11 +165564,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 52,
         he: "מלחמה כדמפרש בהוריות (דף יב:)",
-        en: "[Rashi commentary on line 52]: מלחמה כדמפרש בהוריות (דף יב:)",
+        en: "as is explained in Horayot (12b),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l23"
+        ]
       },
       {
         id: "rashi-yoma-073a-053",
@@ -165466,11 +165578,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 53,
         he: "מאשר יוצק (ויקרא כא) ואלו הן חמשה דברים לא פורע ולא פורם ואינו מטמא לקרובים ומצווה על הבתולה ומוזהר על האלמנה אבל לא",
-        en: "[Rashi commentary on line 53]: מאשר יוצק (ויקרא כא) ואלו הן חמשה דברים לא פורע ולא פורם ואי",
+        en: "from 'upon whose head the oil was poured' (Leviticus 21); and these are the five things: he does not let his hair grow wild, he does not tear his garments, he does not become impure for his relatives, he is commanded regarding the virgin, he is warned regarding the widow, but he does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l23"
+        ]
       },
       {
         id: "rashi-yoma-073a-054",
@@ -165478,11 +165592,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 54,
         he: "מקריב אונן ואף על גב דכתיב בההיא פרשתא דהכי תניא בהוריות יכול יקריב אונן תלמוד לומר עליו ולא על חבירו: ומחזיר",
-        en: "[Rashi commentary on line 54]: מקריב אונן ואף על גב דכתיב בההיא פרשתא דהכי תניא בהוריות יכו",
+        en: "sacrifice as an acute mourner; and even though it is written in that same passage, as is taught in Horayot, one might think he should sacrifice as an acute mourner, the verse teaches, 'for him,' and not for another. 'And he returns",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l23"
+        ]
       },
       {
         id: "rashi-yoma-073a-055",
@@ -165490,11 +165606,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 55,
         he: "את הרוצח כדברי רבי יהודה. דמרבי ליה במסכת מכות (דף יא.) מקראי ופליגי רבנן עליה אלמא האי תנא לית ליה איבה מדקתני",
-        en: "[Rashi commentary on line 55]: את הרוצח כדברי רבי יהודה. דמרבי ליה במסכת מכות (דף יא.) מקרא",
+        en: "the killer, according to the words of Rabbi Yehuda' - for it is derived in tractate Makkot (11a) from verses, and the Sages disagree with him; this shows that this tanna does not accept the resentment concern, since he taught",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l23"
+        ]
       },
       {
         id: "rashi-yoma-073a-056",
@@ -165502,11 +165620,14 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 56,
         he: "כולן נוהגות במשוח שעבר דמשמש [בח'] בגדים ואפילו הכי משוח מלחמה לא דקתני כולן אין נוהגות במשוח מלחמה: כי לית ליה",
-        en: "[Rashi commentary on line 56]: כולן נוהגות במשוח שעבר דמשמש [בח'] בגדים ואפילו הכי משוח מלח",
+        en: "that all these apply to a former anointed one, who serves in eight garments, and yet not the priest anointed for war, since he taught that none of these apply to the priest anointed for war. 'When this tanna does not accept",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l23",
+          "yoma-073a-l26a"
+        ]
       },
       {
         id: "rashi-yoma-073a-057",
@@ -165514,11 +165635,14 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 57,
         he: "איבה בדכוותיה. משוח שעבר גדול היה כמותו אבל משוח מלחמה דזוטר מיניה חושש לאיבתו: להא שמעתא. דכי אתא רב דימי:",
-        en: "[Rashi commentary on line 57]: איבה בדכוותיה. משוח שעבר גדול היה כמותו אבל משוח מלחמה דזוטר",
+        en: "the resentment concern regarding one comparable to him' - a former anointed High Priest was as great as him, but the priest anointed for war, who is lesser than him, he does worry about resentment toward him. 'Regarding this teaching' - that when Rav Dimi came:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l26a",
+          "yoma-073a-l26b"
+        ]
       },
       {
         id: "rashi-yoma-073a-058",
@@ -165526,11 +165650,14 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 58,
         he: "אהדרינהו לאפייהו. כלומר לא אמרה ר' יוחנן: רבי אבהו. חשוב היה בבית המלך כדאמרינן במסכת חגיגה (דף יד.) נשוא",
-        en: "[Rashi commentary on line 58]: אהדרינהו לאפייהו. כלומר לא אמרה ר' יוחנן: רבי אבהו. חשוב היה",
+        en: "'They turned their faces from him' - meaning, Rabbi Yochanan did not say it. 'Rabbi Abbahu' - he was important in the king's house, as we say in tractate Chagigah (14a), 'those who are received with honor,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l26b",
+          "yoma-073a-l29"
+        ]
       },
       {
         id: "rashi-yoma-073a-059",
@@ -165538,11 +165665,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 59,
         he: "פנים כגון ר' אבהו בי קיסר ובסנהדרין (דף יד.) נמי אמרינן דנפקי אמהתא דבי קיסר לאפיה ומשרו ליה: נימרו ליה מימר.",
-        en: "[Rashi commentary on line 59]: פנים כגון ר' אבהו בי קיסר ובסנהדרין (דף יד.) נמי אמרינן דנפק",
+        en: "such as Rabbi Abbahu at the emperor's court; and in Sanhedrin (14a) too we say that the emperor's maidservants would go out to greet him and pay him honor. 'They should have told him plainly'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l29"
+        ]
       },
       {
         id: "rashi-yoma-073a-060",
@@ -165550,11 +165679,14 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 60,
         he: "בהדיא לא אמרה רבי יוחנן: כי אתא רבין אמר. לאו משמש בהן איתמר אלא נשאל בהן איתמר בגדים שכהן גדול משמש",
-        en: "[Rashi commentary on line 60]: בהדיא לא אמרה רבי יוחנן: כי אתא רבין אמר. לאו משמש בהן איתמר",
+        en: "- Rabbi Yochanan did not say it explicitly. 'When Ravin came he said' - it was not stated regarding serving, but regarding asking: the garments in which the High Priest serves,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l29",
+          "yoma-073a-l31"
+        ]
       },
       {
         id: "rashi-yoma-073a-061",
@@ -165562,11 +165694,14 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 61,
         he: "בהן משוח מלחמה נשאל כשיוצא למלחמה ונשאל באורים ותומים שהמלך נשאל לו בהן: השואל. מלך או אב בית דין: פניו",
-        en: "[Rashi commentary on line 61]: בהן משוח מלחמה נשאל כשיוצא למלחמה ונשאל באורים ותומים שהמלך ",
+        en: "the priest anointed for war is asked in when he goes out to war, and is asked through the Urim VeTummim, through which the king is asked. 'The asker' - the king or the head of the court. 'His face",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l31",
+          "yoma-073a-l32"
+        ]
       },
       {
         id: "rashi-yoma-073a-062",
@@ -165574,11 +165709,14 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 62,
         he: "כלפי נשאל. כלפי כהן: כלפי שכינה. כלפי אורים ותומים ושם המפורש שבתוך החושן: ושאל לו. משמע לו לבדו שאין שומע",
-        en: "[Rashi commentary on line 62]: כלפי נשאל. כלפי כהן: כלפי שכינה. כלפי אורים ותומים ושם המפור",
+        en: "toward the one asked' - toward the priest. 'Toward the Divine Presence' - toward the Urim VeTummim and the Explicit Name within the breastplate. 'And he shall ask for him'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l32",
+          "yoma-073a-l35"
+        ]
       },
       {
         id: "rashi-yoma-073a-063",
@@ -165586,11 +165724,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 63,
         he: "אלא הוא: אינו מהרהר בלבו. אלא יוציא בשפתיו מה הוא שואל שנאמר ושאל לו במשפט האורים וסמיך ליה על פיו יצאו קרי",
-        en: "[Rashi commentary on line 63]: אלא הוא: אינו מהרהר בלבו. אלא יוציא בשפתיו מה הוא שואל שנאמר",
+        en: "- implying for him alone, that no one else hears. 'He does not merely think it in his heart' - rather he must utter with his lips what he is asking, as it is stated, 'and he shall ask for him by the judgment of the Urim,' and adjacent to it, 'by his word they shall go out,' which is read",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l35"
+        ]
       },
       {
         id: "rashi-yoma-073a-064",
@@ -165598,11 +165738,14 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 64,
         he: "ביה הכי ושאל לו השואל על פיו שמוציא דברים בפיו: שני דברים כאחד. אלא לאחר שהשיבו לו על הראשון שואל לו על השני:",
-        en: "[Rashi commentary on line 64]: ביה הכי ושאל לו השואל על פיו שמוציא דברים בפיו: שני דברים כא",
+        en: "this way: 'and he shall ask for him' - the asker, by his word, that he utters words with his mouth. 'Two matters as one' - rather, after they answer him regarding the first, he asks him regarding the second.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l35",
+          "yoma-073a-l37"
+        ]
       },
       {
         id: "rashi-yoma-073a-065",
@@ -165610,11 +165753,13 @@ const DAF_CONTENT = {
         daf: "73a",
         vilnaLine: 65,
         he: "שלא",
-        en: "[Rashi commentary on line 65]: שלא",
+        en: "'Not' - the daf ends mid-word here; the comment (explaining that questions must be asked in their proper order) continues on 73b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-073a-l37"
+        ]
       }
     ],
     review: "reviewed"
