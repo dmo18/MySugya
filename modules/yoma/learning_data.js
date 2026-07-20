@@ -98006,12 +98006,13 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 1,
         he: "למשמרת למי נדה. משמע דצריכי שימור עד שיזה מהן: לסיועיה",
-        en: "Rashi: opens - for watch [to those who keep it pure] - for whom? For menstruating women. [This means they] require guarding until [the water is] sprinkled from it.",
+        en: "'For keeping, for the water of impurity purification' is written; this implies that these things require safekeeping until they are sprinkled from it. To support",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l01"
+          "yoma-042b-l01",
+          "yoma-042b-l06"
         ]
       },
       {
@@ -98020,12 +98021,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 2,
         he: "לרב. דאמר פרה שחיטתה בזר פסולה: הזאת מימיה אין כשירה",
-        en: "Rashi: continues - to support Rav [who] said: [that the] heifer, [when] slaughtered by a non-Jew, is disqualified.",
+        en: "Rav, who said that the heifer's slaughter by a non-priest is disqualified. 'The sprinkling of its water is not valid'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l01"
+          "yoma-042b-l06"
         ]
       },
       {
@@ -98034,12 +98035,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 3,
         he: "באשה. לקמן מפרש לה: ואין כשירה אלא ביום. דכתיב (במדבר יט)",
-        en: "Rashi: continues - and this [water of] its [sprinkling] is not fit in a woman - [the Mishna continues:] and there is nothing fit except on the day [when specified].",
+        en: "performed by a woman - this is explained further on. 'And it is valid only by day' - as it is written (Numbers 19),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l03"
+          "yoma-042b-l06"
         ]
       },
       {
@@ -98048,12 +98049,13 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 4,
         he: "הוא יתחטא בו ביום השלישי: מניין לרבות שחיטתה וקבלת דמה",
-        en: "Rashi: continues - as it is written [in Numbers 19] 'he shall cleanse himself with it on the third day' - [from where do we derive] that [this includes] the slaughter and receiving [of the blood]",
+        en: "'he shall purify himself with it on the third day.' 'From where do we include its slaughter, the receiving of its blood,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l03"
+          "yoma-042b-l06",
+          "yoma-042b-l08"
         ]
       },
       {
@@ -98062,12 +98064,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 5,
         he: "והזאת דמה ושריפתה והשלכת עץ",
-        en: "Rashi: continues - and the sprinkling of its blood and burning and casting [of the] cedar [and] hyssop [and] scarlet wool [that they are required only on] that day?",
+        en: "the sprinkling of its blood, its burning, and the casting of cedar wood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l03"
+          "yoma-042b-l08"
         ]
       },
       {
@@ -98076,12 +98078,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 6,
         he: "ארז ואזוב ושני תולעת. דלא יהיו",
-        en: "Rashi: continues - '[the term] 'this' is not written [in Scripture except to teach that these things are required on the day only, and if they were to be done] on [any other] day they would not be fit.",
+        en: "hyssop, and scarlet wool' - that they too should be",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l06"
+          "yoma-042b-l08"
         ]
       },
       {
@@ -98090,12 +98092,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 7,
         he: "כשרין אלא ביום דאילו לענין באשה",
-        en: "Rashi: continues - but [regarding the matter of] a woman, [the scripture does not need] to add multiple restrictive terms, [because the negative] 'not fit except on a day [is already stated]'.",
+        en: "valid only by day, whereas regarding the matter of a woman",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l06"
+          "yoma-042b-l08"
         ]
       },
       {
@@ -98104,7 +98106,7 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 8,
         he: "כבאיש אינו אצטריך לרבויי",
-        en: "Rashi: continues - [and all these terms are written in Scripture: that everything concerning] both the man [and the woman are fit], either Elazar or [any] priest [except in the case of the heifer itself, which requires Elazar or a specific priest].",
+        en: "being like a man, there was no need for an inclusion,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -98118,7 +98120,7 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 9,
         he: "דכולהו כתיב בהו או אלעזר או",
-        en: "Rashi: continues - and the sprinkling of its blood [is written:] 'before the tent of meeting seven times'.",
+        en: "since all of these already have written in them either Elazar or",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -98132,7 +98134,7 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 10,
         he: "כהן: והזאת דמה. אל נוכח פני",
-        en: "Rashi: continues - [the Gemara] says [we must derive it from] the Torah - 'this is the statute of the Torah' [Numbers 19] - [the word] 'Torah' appears once here [and once elsewhere].",
+        en: "a priest. 'The sprinkling of its blood' - toward the front of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -98146,7 +98148,7 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 11,
         he: "אהל מועד שבע פעמים: ת\"ל",
-        en: "Rashi: continues - [implying] one statute for all its services - [the phrase] 'this' appears to teach you that the written [text] here holds [firm] and do not add [to it].",
+        en: "the Tent of Meeting, seven times. 'This teaches'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -98160,7 +98162,7 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 12,
         he: "תורה. זאת חקת התורה (שם) תורה",
-        en: "Rashi: continues - after the scripture increased and diminished [restrictive and inclusive terms], and did not explain what increased and what diminished, from now on do not entrust them [to you to determine yourself]",
+        en: "from 'Torah' - 'this is the statute of the Torah' (ibid.), 'Torah'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -98174,7 +98176,7 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 13,
         he: "אחת לכל עבודתה: ת\"ל זאת. את",
-        en: "Rashi: continues - but rather [you must] examine it to understand the truth and the straight [path].",
+        en: "meaning one law for all its services. 'This teaches from the word 'this'' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -98188,7 +98190,7 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 14,
         he: "הכתוב כאן קיים ואל תוסיף: אחר",
-        en: "Rashi: continues - you say: behold we learn all of them from the sprinkling of its water [that nightfall invalidates it, as is explicitly stated regarding women].",
+        en: "the text establishes what is stated here and do not add to it. After",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -98202,12 +98204,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 15,
         he: "שריבה הכתוב ומיעט. ולא פירש",
-        en: "Rashi: continues - [and] there are [other matters] not fit in a woman just as in a man [so if you rule that the heifer] slaughtered by a non-Jew is disqualified - [then it should also be disqualified if slaughtered] by a woman.",
+        en: "the text both included and excluded, and did not explain",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l08"
+          "yoma-042b-l12"
         ]
       },
       {
@@ -98216,12 +98218,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 16,
         he: "מאי ריבה ומאי מיעט מעתה לא",
-        en: "Rashi: continues - [and regarding] a woman, what is the reason? From where does she have that slaughter is disqualified in a woman? [In the scriptural text about] receiving the blood and sprinkling the blood [Elazar is mentioned, but regarding] slaughter it is not written [that he must do it].",
+        en: "what it included and what it excluded, from now on it does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l08"
+          "yoma-042b-l12"
         ]
       },
       {
@@ -98230,12 +98232,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 17,
         he: "מסרן אלא להתבונן בה את האמת",
-        en: "Rashi: continues - certainly receiving the blood and sprinkling the blood [are written:] 'and Elazar the priest received [its blood]' [and] 'sprinkled before the tent of meeting', and burning and casting [are also written:] 'the priest shall burn [the heifer]' [and] 'cast cedar'.",
+        en: "entrust them to you except to examine within it the truth",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l08"
+          "yoma-042b-l12"
         ]
       },
       {
@@ -98244,12 +98246,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 18,
         he: "ואת הישר: אמרת הרי אנו למידין",
-        en: "Rashi: continues - but slaughter - from where [do we know a priest must do it]? [The tanna] teaches: 'and slaughter it before him [Elazar]'.",
+        en: "and the straight path. 'You say: behold, we learn",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l18"
+          "yoma-042b-l12"
         ]
       },
       {
@@ -98258,12 +98260,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 19,
         he: "כולן מהזאת מימיה. שפסול הלילה",
-        en: "Rashi: continues - thus the tanna is deriving [that slaughter requires] a priest just as Rav [rules] - and if [we say that] another [could] slaughter and Elazar [watches], how [would the tanna] derive [it]? [Rather,]",
+        en: "all of them from the sprinkling of its water' - for the disqualification of night",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l18"
+          "yoma-042b-l12"
         ]
       },
       {
@@ -98272,12 +98274,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 20,
         he: "מפורש בו: שאין כשרים באשה",
-        en: "Rashi: continues - from here [the text] derives [that] a non-Jew [slaughtering is] disqualified, and similarly a woman is disqualified.",
+        en: "is explicit regarding it. 'That they are not valid performed by a woman",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l18"
+          "yoma-042b-l12"
         ]
       },
       {
@@ -98286,12 +98288,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 21,
         he: "כבאיש. כדלקמן ולקח אזוב וטבל",
-        en: "Rashi: continues - [and regarding] a woman, what is the reason? From where [do we derive] that slaughter is disqualified in a woman? [In scriptural passages about] receiving the blood and the sprinkling of the blood [Elazar or priest is mentioned], but [regarding] slaughter - [the text does not explicitly state, so the tanna must teach it].",
+        en: "the way they are valid performed by a man' - as stated further on, 'and he shall take hyssop and dip it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l18"
+          "yoma-042b-l12"
         ]
       },
       {
@@ -98300,7 +98302,7 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 22,
         he: "במים איש טהור וגו' (שם) : והאי",
-        en: "Rashi: continues - [the tanna] says: come and hear [and understand the tradition] - so that you should not say [that because] the teaching [states] 'slaughter is disqualified in a non-Jew, [therefore] disqualified also in a woman'.",
+        en: "in water, a pure man,' etc. (ibid.). 'And this,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -98314,7 +98316,7 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 23,
         he: "מאי תיובתיה. לשמואל אי נימא",
-        en: "Rashi: continues - [but] what is the refutation [against this reasoning]? To Shmuel - if we say [the reasoning is based] on the teaching ['slaughter is disqualified in a woman it is also disqualified in a non-Jew'].",
+        en: "what is its refutation' - to Shmuel, if we say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -98328,7 +98330,7 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 24,
         he: "מדקתני שחיטה פסולה באשה פסולה",
-        en: "Rashi: continues - a woman - what is the reason? From where [do we learn] that slaughter is disqualified in a woman? [Certainly regarding] receiving the blood and sprinkling of the blood [the text mentions] Elazar the priest [but regarding] slaughter - [it is not explicitly stated].",
+        en: "that from the fact that it is taught that slaughter is invalid performed by a woman, it is invalid",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -98342,12 +98344,13 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 25,
         he: "נמי בזר: אשה מאי טעמא. מנא",
-        en: "Rashi: continues - and burning [is written:] 'the priest shall burn the heifer before him' [so] Elazar - and the casting [is written:] 'cedar [and] hyssop [and] scarlet wool' [it is written] priest - but slaughter - from where [do we derive it requires a priest]?",
+        en: "also performed by a non-priest. 'A woman - what is the reason?' From where",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l22"
+          "yoma-042b-l22",
+          "yoma-042b-l24"
         ]
       },
       {
@@ -98356,12 +98359,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 26,
         he: "ליה דשחיטה פסולה באשה בשלמא",
-        en: "Rashi: continues - [only] from the [additional teaching:] 'and slaughter it before him [Elazar]' [is slaughter mentioned as requiring a priest] - thus the tanna [rules] as Rav - [meaning] slaughter requires a priest.",
+        en: "does he derive that slaughter is invalid performed by a woman? Granted,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l22"
+          "yoma-042b-l24"
         ]
       },
       {
@@ -98370,12 +98373,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 27,
         he: "קבלת דמה והזאת דמה כתיב ולקח",
-        en: "Rashi: continues - and if another were to slaughter and Elazar [watches], from where [does the text teach] that? [Rather, it must be that] from here the text restricts [to require] a priest.",
+        en: "regarding the receiving of its blood and the sprinkling of its blood it is written, 'and",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l22"
+          "yoma-042b-l24"
         ]
       },
       {
@@ -98384,12 +98387,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 28,
         he: "אלעזר הכהן מדמה היינו קבלה והזה",
-        en: "Rashi: continues - thus the tanna is deriving just as Rav [taught].",
+        en: "Elazar the priest shall take of its blood' - that is the receiving, and 'he shall sprinkle'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l22"
+          "yoma-042b-l24"
         ]
       },
       {
@@ -98398,12 +98401,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 29,
         he: "אל נוכח פני אהל מועד היינו הזאתה",
-        en: "Rashi: continues - therefore from here [we understand the entire passage as a continuous whole treating] the whole section [of the heifer].",
+        en: "toward the front of the Tent of Meeting - that is its sprinkling.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l22"
+          "yoma-042b-l24"
         ]
       },
       {
@@ -98412,12 +98415,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 30,
         he: "ושריפה נמי לעיל מינה כתיב כהן",
-        en: "Rashi: continues - of the heifer [the entire section is structured] like its services are arranged one after another.",
+        en: "The burning too, just before it, has 'priest' written,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l22"
+          "yoma-042b-l24"
         ]
       },
       {
@@ -98426,12 +98429,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 31,
         he: "והדר ושרף את הפרה לעיניו דאלעזר",
-        en: "Rashi: continues - [meaning the entire interpretation of the heifer law] is derived by examining how each word and phrase contributes to the complete understanding.",
+        en: "and then 'and he shall burn the heifer before his eyes' - referring to Elazar.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l24"
         ]
       },
       {
@@ -98440,12 +98443,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 32,
         he: "והשלכת עץ ואזוב כהן כתיב אלא",
-        en: "Rashi: continues - [End of the detailed discussion on red heifer slaughter requirements].",
+        en: "And regarding the casting of the wood and hyssop, 'priest' is written. But",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l24"
         ]
       },
       {
@@ -98454,12 +98457,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 33,
         he: "שחיטה מהיכא: אלעזר ולא אשה.",
-        en: "Rashi: continues - [Continuation of analysis of the red heifer passage structure].",
+        en: "the slaughter - from where? 'Elazar' - and not a woman -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l24"
         ]
       },
       {
@@ -98468,12 +98471,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 34,
         he: "ועל כרחך ושחט אותה לפניו אאלעזר",
-        en: "Rashi: continues - [Further examination of how the scriptural text teaches requirements].",
+        en: "and you must say that 'and he shall slaughter it before him' refers to Elazar,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l24"
         ]
       },
       {
@@ -98482,12 +98485,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 35,
         he: "קא דריש ליה תנא כרב דאי שיהא",
-        en: "Rashi: continues - [Analysis of the logical structure of the heifer section].",
+        en: "which is how the tanna derives it, in accordance with Rav; for if it meant that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l24"
         ]
       },
       {
@@ -98496,12 +98499,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 36,
         he: "אחר שוחט ואלעזר רואה כדדריש",
-        en: "Rashi: continues - [Discussion of how different parts of the passage interconnect].",
+        en: "another slaughters while Elazar watches, as Shmuel expounds,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l24"
         ]
       },
       {
@@ -98510,12 +98513,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 37,
         he: "שמואל מהיכא ממעט אשה אלא",
-        en: "Rashi: continues - [Extended treatment of the heifer section's teachings].",
+        en: "from where would he exclude a woman? Rather,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l24"
         ]
       },
       {
@@ -98524,12 +98527,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 38,
         he: "מאלעזר דריש ליה תנא וכי היכי",
-        en: "Rashi: continues - [Detailed examination of scriptural terminology in the passage].",
+        en: "the tanna derives it from 'Elazar,' and just as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l24"
         ]
       },
       {
@@ -98538,12 +98541,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 39,
         he: "דממעט אשה מהכא ממעטינן נמי",
-        en: "Rashi: continues - [Concluding remarks on the structure of this section].",
+        en: "a woman is excluded from here, we likewise exclude",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l24"
         ]
       },
       {
@@ -98552,12 +98555,13 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 40,
         he: "זר: כל הפרשה כולה. של פרה כמו",
-        en: "Rashi: opens - the entire section of the heifer - of [all matters pertaining to] the heifer, [structured] like its services are arranged one after another.",
+        en: "a non-priest. 'The entire passage' - of the heifer, just as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l24",
+          "yoma-042b-l26"
         ]
       },
       {
@@ -98566,12 +98570,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 41,
         he: "שעבודותיה סדורות זו אחר זו:",
-        en: "Rashi: continues - it [the passage] is understood by examining it [carefully, since] 'derives' [appears multiple times, indicating] some scriptural citations extract [restrictive lessons] from the implied meaning of earlier verses.",
+        en: "its services are arranged one after another.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l26"
         ]
       },
       {
@@ -98580,12 +98584,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 42,
         he: "משמע מוציא מיד משמע ומשמע",
-        en: "Rashi: continues - and [some] scriptural citations [extract meanings] from their own [direct meaning], and by their arrangement you [will] understand what [lesson is] extracted from the association [with] another and who [derives] its [meaning] from [direct scriptural] implication.",
+        en: "'Some implications exclude directly from another implication, and some implications'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l26"
         ]
       },
       {
@@ -98594,12 +98598,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 43,
         he: "ממילא. כשתדקדק בה אינך יכול",
-        en: "Rashi: continues - [This requires careful] thought in order to understand the complete [picture, since one cannot equalize the order of the entire section into a uniform sequence].",
+        en: "stand on their own - when you examine it closely, you cannot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l26"
         ]
       },
       {
@@ -98608,12 +98612,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 44,
         he: "להשוות שיטת הפרשה בשוה שיהיו",
-        en: "Rashi: continues - [rather] each matter [has] its [own] scriptural source, and some scriptural [passages] convey [their meaning through] direct implication [while] others [are understood through] the association [with what comes before].",
+        en: "make the method of the passage uniform, such that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l26"
         ]
       },
       {
@@ -98622,12 +98626,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 45,
         he: "כל מקראותיה שוים זה עם זה אלא",
-        en: "Rashi: continues - [and furthermore] there are scriptural passages [whose meanings] stand by themselves [independently] and do not extract [or teach] about the [meaning of] the associated [passage] - rather their meaning stands in its place.",
+        en: "all its verses would be equal to one another; rather,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l26"
         ]
       },
       {
@@ -98636,12 +98640,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 46,
         he: "יש בהן שמשמע מקרא זה מוציא",
-        en: "Rashi: continues - and according to their arrangement you have [the key] to understand what extracts [restricts] the associated [passage].",
+        en: "some of them have this: the implication of one verse excludes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l26"
         ]
       },
       {
@@ -98650,12 +98654,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 47,
         he: "מכלל משמע מקרא שלפניו מה שפסל",
-        en: "Rashi: continues - and who [derives its meaning] from [direct scriptural] implication [rather than from association].",
+        en: "from the implication of the verse before it - what the earlier verse disqualified,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l26"
         ]
       },
       {
@@ -98664,12 +98668,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 48,
         he: "זה הכשיר זה או מה שהכשיר זה",
-        en: "Rashi: continues - [The careful study of this entire section requires understanding] how each teaching operates - whether it restricts a previous [one].",
+        en: "this one validates, or what the earlier one validated,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l26"
         ]
       },
       {
@@ -98678,12 +98682,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 49,
         he: "פוסל זה א] ויש בה מקראות משמעות",
-        en: "Rashi: continues - or [whether it] permits [something that was previously restricted].",
+        en: "this one disqualifies. And there are verses whose implication",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l26"
         ]
       },
       {
@@ -98692,12 +98696,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 50,
         he: "שמתקיימין ממילא משמעותו שהמשמע",
-        en: "Rashi: continues - [and now the Gemara says: come and interpret the entire passage accordingly].",
+        en: "stands on its own, meaning that the implication",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l26"
         ]
       },
       {
@@ -98706,12 +98710,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 51,
         he: "עומד במקומו ואינו מוציא מכלל",
-        en: "Rashi: continues - [interpreting each element according to the principles established above].",
+        en: "stands in its own place and does not exclude from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l26"
         ]
       },
       {
@@ -98720,12 +98724,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 52,
         he: "חבירו ולפי סידורן יש לך להבין מהו",
-        en: "Rashi: continues - [the complete teaching of the heifer becomes clear when each part is understood in its proper context].",
+        en: "its counterpart; and by their order you can understand which",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l26"
         ]
       },
       {
@@ -98734,12 +98738,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 53,
         he: "המוציא מכלל חבירו ומי משמע",
-        en: "Rashi: continues - [End of the methodological discussion on interpreting the red heifer passage].",
+        en: "excludes from its counterpart, and which",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l26"
         ]
       },
       {
@@ -98748,11 +98752,13 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 54,
         he: "ממילא ועכשיו דורש והולך את כולה: לאלעזר. שהוא סגן: בשלמא",
-        en: "Rashi: continues - [Transition to practical application of the red heifer law]: to Elazar [the High Priest, since he was designated for this service].",
+        en: "stands on its own; and now he goes on expounding the whole of it. 'To Elazar' - for he was the deputy priest. 'Granted,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-042b-l26",
+          "yoma-042b-l28",
           "yoma-042b-l31"
         ]
       },
@@ -98762,7 +98768,7 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 55,
         he: "למאן דאמר לדורות בכהן הדיוט שפיר. דכיון דלא קבע לה קרא",
-        en: "Rashi: continues - [even though the statute says] 'to generations' [and theoretically any priest could perform it], [regarding any] regular priest - [they are all fit to perform it, since] the scripture did not establish it specifically for the High Priest.",
+        en: "according to the one who says that for future generations it is done by an ordinary priest, well and good' - since the verse did not fix for it explicitly",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -98776,12 +98782,13 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 56,
         he: "בהדיא סגן או כהן גדול כל כהנים כשרין בה: שלא יאמרו שתים",
-        en: "Rashi: continues - [but only for Elazar because of] specific tradition [that Elazar was chosen] - [this teaches that] not [all] say [that both would be] fit [to perform all aspects].",
+        en: "either a deputy or a High Priest, any priest is valid for it. 'So that they should not say two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l31",
+          "yoma-042b-l34"
         ]
       },
       {
@@ -98790,12 +98797,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 57,
         he: "שחטו. וקי\"ל שכל מלאכות הנעשות עמה פוסלות אותה כדתנן (פרה פ\"ד משנה ד') כל העוסק בפרה מתחילה ועד סוף פוסלין אותה",
-        en: "Rashi: continues - [all persons who work with the heifer from beginning to end disqualify it, as taught in the Mishna in Tractate Para (chapter 4, law 4)] - [anyone who] works with [it] [during any stage from] beginning to end disqualifies it.",
+        en: "were slaughtered' - and we hold that any labor performed with it disqualifies it, as we learned (Parah 4:4): anyone who works on the heifer from beginning to end disqualifies it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l34"
         ]
       },
       {
@@ -98804,12 +98811,13 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 58,
         he: "במלאכה ולקמן (דף מג.) נמי אמרינן ושחט אותה שלא ישחוט אחרת עמה: משום שנאמר אותה. והוציא אותה: דדריש טעמא דקרא. בבבא",
-        en: "Rashi: continues - [and below (folio 43) it is also stated:] and slaughter it so that [he] does not slaughter another [heifer] together with it - because it is said 'it [the heifer]' [exclusively].",
+        en: "through that labor, and further on (43a) we likewise say 'and he shall slaughter it' means he should not slaughter another together with it. 'Because it says 'it'' - 'and he shall bring it out.' 'For he expounds the reason of the verse' - in Bava",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l34",
+          "yoma-042b-l39"
         ]
       },
       {
@@ -98818,12 +98826,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 59,
         he: "מציעא (דף קטו.) אלמנה עשירה ממשכנין אותה עניה אין ממשכנין אותה מפני שאתה צריך להחזיר לה ואתה משיאה שם רע בשכינותיה:",
-        en: "Rashi: continues - and [the Talmud brings a] support: [from] Bava Metzia (folio 115) - [a case regarding] a widow [who is] rich and they give a lien to [take payment from] an orphan, they do not give a lien to a poor [widow] because you need her [poor widow to be solvent to] return [to her], and you [should not] give her a bad name in her neighborhood.",
+        en: "Metzia (115a): a wealthy widow, one takes a pledge from her; a poor widow, one does not take a pledge from her, because you must return it to her and you would give her a bad name among her neighbors.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l39"
         ]
       },
       {
@@ -98832,12 +98840,12 @@ const DAF_CONTENT = {
         daf: "42b",
         vilnaLine: 60,
         he: "דאפיק",
-        en: "Rashi: concludes - 'who brought out' - the daf ends mid-comment with this single word; the comment continues on 43a, where Rashi discusses one who brought out a donkey along with the heifer, permitted by the first Tanna but forbidden by Rabbi because 'it' is written.",
+        en: "who brought out",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-042b-l31"
+          "yoma-042b-l39"
         ]
       }
     ],

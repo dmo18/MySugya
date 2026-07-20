@@ -1,695 +1,703 @@
 {
-  "daf": "42b",
-  "canonicalRef": "Yoma 42b",
-  "summary": "The Gemara continues the parah adumah discussion - the verse 'l'mishmerit' excludes Tur Shimon as a valid location, amoraim dispute whether non-priest slaughter of the parah is valid, and the ish iti's impurity mechanism and immersion requirement are clarified.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "42b",
+ "canonicalRef": "Yoma 42b",
+ "summary": "The Gemara continues the parah adumah discussion - the verse 'l'mishmerit' excludes Tur Shimon as a valid location, amoraim dispute whether non-priest slaughter of the parah is valid, and the ish iti's impurity mechanism and immersion requirement are clarified.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-042b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 39
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-042b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 39
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.42b.1"
-        },
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.42b.2"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.42b.3"
-        },
-        {
-          "vilnaLine": 8,
-          "sefariaRef": "Yoma.42b.4"
-        },
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.42b.5"
-        },
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.42b.6"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.42b.7"
-        },
-        {
-          "vilnaLine": 24,
-          "sefariaRef": "Yoma.42b.8"
-        },
-        {
-          "vilnaLine": 26,
-          "sefariaRef": "Yoma.42b.9"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.42b.10"
-        },
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.42b.11"
-        },
-        {
-          "vilnaLine": 34,
-          "sefariaRef": "Yoma.42b.12"
-        },
-        {
-          "vilnaLine": 39,
-          "sefariaRef": "Yoma.42b.13"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.42b.3",
-        "Yoma.42b.2",
-        "Yoma.42b.6",
-        "Yoma.42b.4",
-        "Yoma.42b.13",
-        "Yoma.42b.5",
-        "Yoma.42b.7",
-        "Yoma.42b.10",
-        "Yoma.42b.8",
-        "Yoma.42b.11",
-        "Yoma.42b.9",
-        "Yoma.42b.1",
-        "Yoma.42b.12"
-      ],
-      "display": {
-        "whats": "Does a non-priest invalidate the parah slaughter, and what is the legal basis for the ish iti's impurity?",
-        "hint": "The verse 'l'mishmerit l'mei nidda' does double duty: it establishes geographic requirements (excluding Tur Shimon) and implicitly addresses personnel requirements (a kohen for slaughter). The ish iti's impurity is rabbinic but immersion is still required.",
-        "title": "Tur Shimon Excluded, and the Ish Iti's Rabbinic Impurity"
-      },
-      "learning": {
-        "ahaMoment": "The term 'l'mishmerit' (for keeping/guarding) is read as restricting where parah can be performed - a geographic halakha derived from a word about storage.",
-        "memoryAnchor": "The word 'mishmerit' restricts both location (not Tur Shimon) and handling (a kohen for slaughter) - one word, two limiting functions.",
-        "learnerQuestion": "What does the verse 'l'mishmerit l'mei nidda' exclude, and why must the ish iti immerse if his impurity is only rabbinic?",
-        "coreTension": "The verse 'l'mishmerit l'mei nidda' must do double duty - excluding Tur Shimon geographically while the ongoing non-priest slaughter dispute and the ish iti's impurity status (biblical or merely rabbinic) remain unresolved.",
-        "coreMove": "The Gemara reads 'l'mishmerit' as excluding Tur Shimon from valid parah locations, and resolves the ish iti dispute (R. Yehuda: no immersion needed since impurity is rabbinic; Sages: immerse anyway) by ruling that he immerses and waits until nightfall regardless.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Tur Shimon is excluded as a valid location for the parah rite by the verse 'l'mishmerit l'mei nidda'; the ish iti's impurity is rabbinic, not biblical, but the final ruling requires him to immerse and wait until nightfall regardless."
-        },
-        "learningBlocker": "Learners may assume the goat itself is impure like an ordinary impurity source, missing that its 'for Azazel' designation, not its physical state, is what causes the ish iti's impurity."
-      },
-      "argumentFlow": [
-        {
-          "type": "citation",
-          "speaker": "Tanna",
-          "text": "'L'mishmerit l'mei nidda' - the verse excludes Tur Shimon as invalid for the parah rite.",
-          "id": "yoma-042b-l01",
-          "label": "Citation: 'L'mishmerit l'mei nidda' - the verse excludes",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-042b-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "dispute",
-          "speaker": "Amoraim",
-          "text": "R. Ami: non-priest slaughter of parah valid. Rav: invalid.",
-          "id": "yoma-042b-l03",
-          "label": "Dispute: R. Ami: non-priest slaughter of parah valid.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-042b-l03",
-              "vilnaLine": 3
-            }
-          ]
-        },
-        {
-          "type": "counter",
-          "speaker": "R. Yehoshua bar Abba",
-          "text": "Objection: a baraita implies non-priest slaughter might be valid.",
-          "id": "yoma-042b-l06",
-          "label": "Counter: Objection: a baraita implies non-priest slaughter might",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-042b-l06",
-              "vilnaLine": 6
-            }
-          ]
-        },
-        {
-          "type": "derivation",
-          "speaker": "Gemara",
-          "text": "From where do we include all parah stages in the law? Double expression 'statute of the Torah' teaches two things.",
-          "id": "yoma-042b-l08",
-          "label": "Derivation: From where do we include all parah",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-042b-l08",
-              "vilnaLine": 8
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "Elazar teaches: a kohen performs the parah rite; mixing is different and valid by anyone.",
-          "id": "yoma-042b-l18",
-          "label": "Ruling: Elazar teaches: a kohen performs the parah",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-042b-l18",
-              "vilnaLine": 18
-            }
-          ]
-        },
-        {
-          "type": "dispute",
-          "speaker": "Tanna/R. Yehuda",
-          "text": "R. Yehuda: ish iti need not immerse (rabbinic impurity). Sages: he must immerse.",
-          "id": "yoma-042b-l22",
-          "label": "Dispute: R. Yehuda: ish iti need not immerse",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-042b-l22",
-              "vilnaLine": 22
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "Final ruling: ish iti immerses and waits until nightfall.",
-          "id": "yoma-042b-l31",
-          "label": "Ruling: Final ruling: ish iti immerses and waits",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-042b-l31",
-              "vilnaLine": 31
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "parah adumah",
-        "ish iti",
-        "non-priest slaughter",
-        "Tur Shimon",
-        "ritual impurity"
-      ],
-      "concepts": {
-        "halachic": [
-          "parah adumah personnel",
-          "ish iti impurity and immersion",
-          "Tur Shimon exclusion"
-        ],
-        "theological": [
-          "geographic sanctity affects ritual validity"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "red heifer laws",
-        "Yom Kippur avodah",
-        "rabbinic vs biblical impurity"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The ish iti becomes impure because the live goat itself carries ordinary ritual impurity, the way a corpse or other impurity-source would.",
-          "correction": "The goat is alive and not impure in the ordinary sense; its designation 'for Azazel' gives it a special status that causes the one who carries it to become impure, a designation-based impurity rather than standard contact impurity.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-042a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "biblical vs rabbinic impurity of ish iti"
-        },
-        {
-          "type": "text",
-          "label": "verse 'l'mishmerit' excluding Tur Shimon"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Tur Shimon - a region outside the Land of Israel - as a valid location for the parah rite.",
-          "question": "What does 'l'mishmerit l'mei nidda' exclude?"
-        },
-        {
-          "answer": "The Sages enacted immersion even for rabbinic impurity to maintain the seriousness of the Yom Kippur rite.",
-          "question": "Why does the ish iti need to immerse if his impurity is only rabbinic?"
-        }
-      ],
-      "finalRuling": "The ish iti must immerse and wait until nightfall; non-priest slaughter of parah is invalid according to the majority view.",
-      "difficulty": "intermediate",
-      "review": "reviewed",
-      "alternateAngles": [],
-      "glossary": []
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.42b.1"
+    },
+    {
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.42b.2"
+    },
+    {
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.42b.3"
+    },
+    {
+     "vilnaLine": 8,
+     "sefariaRef": "Yoma.42b.4"
+    },
+    {
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.42b.5"
+    },
+    {
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.42b.6"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.42b.7"
+    },
+    {
+     "vilnaLine": 24,
+     "sefariaRef": "Yoma.42b.8"
+    },
+    {
+     "vilnaLine": 26,
+     "sefariaRef": "Yoma.42b.9"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.42b.10"
+    },
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.42b.11"
+    },
+    {
+     "vilnaLine": 34,
+     "sefariaRef": "Yoma.42b.12"
+    },
+    {
+     "vilnaLine": 39,
+     "sefariaRef": "Yoma.42b.13"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.42b.3",
+    "Yoma.42b.2",
+    "Yoma.42b.6",
+    "Yoma.42b.4",
+    "Yoma.42b.13",
+    "Yoma.42b.5",
+    "Yoma.42b.7",
+    "Yoma.42b.10",
+    "Yoma.42b.8",
+    "Yoma.42b.11",
+    "Yoma.42b.9",
+    "Yoma.42b.1",
+    "Yoma.42b.12"
+   ],
+   "display": {
+    "whats": "Does a non-priest invalidate the parah slaughter, and what is the legal basis for the ish iti's impurity?",
+    "hint": "The verse 'l'mishmerit l'mei nidda' does double duty: it establishes geographic requirements (excluding Tur Shimon) and implicitly addresses personnel requirements (a kohen for slaughter). The ish iti's impurity is rabbinic but immersion is still required.",
+    "title": "Tur Shimon Excluded, and the Ish Iti's Rabbinic Impurity"
+   },
+   "learning": {
+    "ahaMoment": "The term 'l'mishmerit' (for keeping/guarding) is read as restricting where parah can be performed - a geographic halakha derived from a word about storage.",
+    "memoryAnchor": "The word 'mishmerit' restricts both location (not Tur Shimon) and handling (a kohen for slaughter) - one word, two limiting functions.",
+    "learnerQuestion": "What does the verse 'l'mishmerit l'mei nidda' exclude, and why must the ish iti immerse if his impurity is only rabbinic?",
+    "coreTension": "The verse 'l'mishmerit l'mei nidda' must do double duty - excluding Tur Shimon geographically while the ongoing non-priest slaughter dispute and the ish iti's impurity status (biblical or merely rabbinic) remain unresolved.",
+    "coreMove": "The Gemara reads 'l'mishmerit' as excluding Tur Shimon from valid parah locations, and resolves the ish iti dispute (R. Yehuda: no immersion needed since impurity is rabbinic; Sages: immerse anyway) by ruling that he immerses and waits until nightfall regardless.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Tur Shimon is excluded as a valid location for the parah rite by the verse 'l'mishmerit l'mei nidda'; the ish iti's impurity is rabbinic, not biblical, but the final ruling requires him to immerse and wait until nightfall regardless."
+    },
+    "learningBlocker": "Learners may assume the goat itself is impure like an ordinary impurity source, missing that its 'for Azazel' designation, not its physical state, is what causes the ish iti's impurity."
+   },
+   "argumentFlow": [
     {
-      "he": "טוּר שִׁמְעוֹן",
-      "translit": "Tur Shimon",
-      "en": "A region east of the Jordan River, excluded as a valid location for the red heifer rite."
+     "type": "citation",
+     "speaker": "Tanna",
+     "text": "'L'mishmerit l'mei nidda' - the verse excludes Tur Shimon as invalid for the parah rite.",
+     "id": "yoma-042b-l01",
+     "label": "Citation: 'L'mishmerit l'mei nidda' - the verse excludes",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-042b-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "he": "לְמִשְׁמֶרֶת לְמֵי נִדָּה",
-      "translit": "l'mishmerit l'mei nidda",
-      "en": "For keeping as waters of impurity (Num. 19:9) - a verse that restricts where the parah rite may be performed."
+     "type": "dispute",
+     "speaker": "Amoraim",
+     "text": "R. Ami: non-priest slaughter of parah valid. Rav: invalid.",
+     "id": "yoma-042b-l03",
+     "label": "Dispute: R. Ami: non-priest slaughter of parah valid.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-042b-l03",
+       "vilnaLine": 3
+      }
+     ]
+    },
+    {
+     "type": "counter",
+     "speaker": "R. Yehoshua bar Abba",
+     "text": "Objection: a baraita implies non-priest slaughter might be valid.",
+     "id": "yoma-042b-l06",
+     "label": "Counter: Objection: a baraita implies non-priest slaughter might",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-042b-l06",
+       "vilnaLine": 6
+      }
+     ]
+    },
+    {
+     "type": "derivation",
+     "speaker": "Gemara",
+     "text": "From where do we include all parah stages in the law? Double expression 'statute of the Torah' teaches two things.",
+     "id": "yoma-042b-l08",
+     "label": "Derivation: From where do we include all parah",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-042b-l08",
+       "vilnaLine": 8
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "Elazar teaches: a kohen performs the parah rite; mixing is different and valid by anyone.",
+     "id": "yoma-042b-l18",
+     "label": "Ruling: Elazar teaches: a kohen performs the parah",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-042b-l18",
+       "vilnaLine": 18
+      }
+     ]
+    },
+    {
+     "type": "dispute",
+     "speaker": "Tanna/R. Yehuda",
+     "text": "R. Yehuda: ish iti need not immerse (rabbinic impurity). Sages: he must immerse.",
+     "id": "yoma-042b-l22",
+     "label": "Dispute: R. Yehuda: ish iti need not immerse",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-042b-l22",
+       "vilnaLine": 22
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "Final ruling: ish iti immerses and waits until nightfall.",
+     "id": "yoma-042b-l31",
+     "label": "Ruling: Final ruling: ish iti immerses and waits",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-042b-l31",
+       "vilnaLine": 31
+      }
+     ]
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "topicTags": [
+    "parah adumah",
+    "ish iti",
+    "non-priest slaughter",
+    "Tur Shimon",
+    "ritual impurity"
+   ],
+   "concepts": {
+    "halachic": [
+     "parah adumah personnel",
+     "ish iti impurity and immersion",
+     "Tur Shimon exclusion"
+    ],
+    "theological": [
+     "geographic sanctity affects ritual validity"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "red heifer laws",
+    "Yom Kippur avodah",
+    "rabbinic vs biblical impurity"
+   ],
+   "misconceptions": [
     {
-      "vilnaLine": 1,
-      "en": "Rashi: opens - for watch [to those who keep it pure] - for whom? For menstruating women. [This means they] require guarding until [the water is] sprinkled from it.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "Rashi: continues - to support Rav [who] said: [that the] heifer, [when] slaughtered by a non-Jew, is disqualified.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "Rashi: continues - and this [water of] its [sprinkling] is not fit in a woman - [the Mishna continues:] and there is nothing fit except on the day [when specified].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "Rashi: continues - as it is written [in Numbers 19] 'he shall cleanse himself with it on the third day' - [from where do we derive] that [this includes] the slaughter and receiving [of the blood]",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "Rashi: continues - and the sprinkling of its blood and burning and casting [of the] cedar [and] hyssop [and] scarlet wool [that they are required only on] that day?",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "Rashi: continues - '[the term] 'this' is not written [in Scripture except to teach that these things are required on the day only, and if they were to be done] on [any other] day they would not be fit.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l06"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "Rashi: continues - but [regarding the matter of] a woman, [the scripture does not need] to add multiple restrictive terms, [because the negative] 'not fit except on a day [is already stated]'.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l06"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "Rashi: continues - [and all these terms are written in Scripture: that everything concerning] both the man [and the woman are fit], either Elazar or [any] priest [except in the case of the heifer itself, which requires Elazar or a specific priest].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "Rashi: continues - and the sprinkling of its blood [is written:] 'before the tent of meeting seven times'.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Rashi: continues - [the Gemara] says [we must derive it from] the Torah - 'this is the statute of the Torah' [Numbers 19] - [the word] 'Torah' appears once here [and once elsewhere].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "Rashi: continues - [implying] one statute for all its services - [the phrase] 'this' appears to teach you that the written [text] here holds [firm] and do not add [to it].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "Rashi: continues - after the scripture increased and diminished [restrictive and inclusive terms], and did not explain what increased and what diminished, from now on do not entrust them [to you to determine yourself]",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Rashi: continues - but rather [you must] examine it to understand the truth and the straight [path].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Rashi: continues - you say: behold we learn all of them from the sprinkling of its water [that nightfall invalidates it, as is explicitly stated regarding women].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "Rashi: continues - [and] there are [other matters] not fit in a woman just as in a man [so if you rule that the heifer] slaughtered by a non-Jew is disqualified - [then it should also be disqualified if slaughtered] by a woman.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "Rashi: continues - [and regarding] a woman, what is the reason? From where does she have that slaughter is disqualified in a woman? [In the scriptural text about] receiving the blood and sprinkling the blood [Elazar is mentioned, but regarding] slaughter it is not written [that he must do it].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Rashi: continues - certainly receiving the blood and sprinkling the blood [are written:] 'and Elazar the priest received [its blood]' [and] 'sprinkled before the tent of meeting', and burning and casting [are also written:] 'the priest shall burn [the heifer]' [and] 'cast cedar'.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Rashi: continues - but slaughter - from where [do we know a priest must do it]? [The tanna] teaches: 'and slaughter it before him [Elazar]'.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "Rashi: continues - thus the tanna is deriving [that slaughter requires] a priest just as Rav [rules] - and if [we say that] another [could] slaughter and Elazar [watches], how [would the tanna] derive [it]? [Rather,]",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Rashi: continues - from here [the text] derives [that] a non-Jew [slaughtering is] disqualified, and similarly a woman is disqualified.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "Rashi: continues - [and regarding] a woman, what is the reason? From where [do we derive] that slaughter is disqualified in a woman? [In scriptural passages about] receiving the blood and the sprinkling of the blood [Elazar or priest is mentioned], but [regarding] slaughter - [the text does not explicitly state, so the tanna must teach it].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Rashi: continues - [the tanna] says: come and hear [and understand the tradition] - so that you should not say [that because] the teaching [states] 'slaughter is disqualified in a non-Jew, [therefore] disqualified also in a woman'.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l22"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Rashi: continues - [but] what is the refutation [against this reasoning]? To Shmuel - if we say [the reasoning is based] on the teaching ['slaughter is disqualified in a woman it is also disqualified in a non-Jew'].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l22"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Rashi: continues - a woman - what is the reason? From where [do we learn] that slaughter is disqualified in a woman? [Certainly regarding] receiving the blood and sprinkling of the blood [the text mentions] Elazar the priest [but regarding] slaughter - [it is not explicitly stated].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l22"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Rashi: continues - and burning [is written:] 'the priest shall burn the heifer before him' [so] Elazar - and the casting [is written:] 'cedar [and] hyssop [and] scarlet wool' [it is written] priest - but slaughter - from where [do we derive it requires a priest]?",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l22"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Rashi: continues - [only] from the [additional teaching:] 'and slaughter it before him [Elazar]' [is slaughter mentioned as requiring a priest] - thus the tanna [rules] as Rav - [meaning] slaughter requires a priest.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l22"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Rashi: continues - and if another were to slaughter and Elazar [watches], from where [does the text teach] that? [Rather, it must be that] from here the text restricts [to require] a priest.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l22"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Rashi: continues - thus the tanna is deriving just as Rav [taught].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l22"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Rashi: continues - therefore from here [we understand the entire passage as a continuous whole treating] the whole section [of the heifer].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l22"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "Rashi: continues - of the heifer [the entire section is structured] like its services are arranged one after another.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l22"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Rashi: continues - [meaning the entire interpretation of the heifer law] is derived by examining how each word and phrase contributes to the complete understanding.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "Rashi: continues - [End of the detailed discussion on red heifer slaughter requirements].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "Rashi: continues - [Continuation of analysis of the red heifer passage structure].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "Rashi: continues - [Further examination of how the scriptural text teaches requirements].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "Rashi: continues - [Analysis of the logical structure of the heifer section].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "Rashi: continues - [Discussion of how different parts of the passage interconnect].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Rashi: continues - [Extended treatment of the heifer section's teachings].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "Rashi: continues - [Detailed examination of scriptural terminology in the passage].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "Rashi: continues - [Concluding remarks on the structure of this section].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "Rashi: opens - the entire section of the heifer - of [all matters pertaining to] the heifer, [structured] like its services are arranged one after another.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "Rashi: continues - it [the passage] is understood by examining it [carefully, since] 'derives' [appears multiple times, indicating] some scriptural citations extract [restrictive lessons] from the implied meaning of earlier verses.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Rashi: continues - and [some] scriptural citations [extract meanings] from their own [direct meaning], and by their arrangement you [will] understand what [lesson is] extracted from the association [with] another and who [derives] its [meaning] from [direct scriptural] implication.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Rashi: continues - [This requires careful] thought in order to understand the complete [picture, since one cannot equalize the order of the entire section into a uniform sequence].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Rashi: continues - [rather] each matter [has] its [own] scriptural source, and some scriptural [passages] convey [their meaning through] direct implication [while] others [are understood through] the association [with what comes before].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Rashi: continues - [and furthermore] there are scriptural passages [whose meanings] stand by themselves [independently] and do not extract [or teach] about the [meaning of] the associated [passage] - rather their meaning stands in its place.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "Rashi: continues - and according to their arrangement you have [the key] to understand what extracts [restricts] the associated [passage].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "Rashi: continues - and who [derives its meaning] from [direct scriptural] implication [rather than from association].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "Rashi: continues - [The careful study of this entire section requires understanding] how each teaching operates - whether it restricts a previous [one].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "Rashi: continues - or [whether it] permits [something that was previously restricted].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "Rashi: continues - [and now the Gemara says: come and interpret the entire passage accordingly].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "Rashi: continues - [interpreting each element according to the principles established above].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "Rashi: continues - [the complete teaching of the heifer becomes clear when each part is understood in its proper context].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "Rashi: continues - [End of the methodological discussion on interpreting the red heifer passage].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "Rashi: continues - [Transition to practical application of the red heifer law]: to Elazar [the High Priest, since he was designated for this service].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "Rashi: continues - [even though the statute says] 'to generations' [and theoretically any priest could perform it], [regarding any] regular priest - [they are all fit to perform it, since] the scripture did not establish it specifically for the High Priest.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "Rashi: continues - [but only for Elazar because of] specific tradition [that Elazar was chosen] - [this teaches that] not [all] say [that both would be] fit [to perform all aspects].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "Rashi: continues - [all persons who work with the heifer from beginning to end disqualify it, as taught in the Mishna in Tractate Para (chapter 4, law 4)] - [anyone who] works with [it] [during any stage from] beginning to end disqualifies it.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "Rashi: continues - [and below (folio 43) it is also stated:] and slaughter it so that [he] does not slaughter another [heifer] together with it - because it is said 'it [the heifer]' [exclusively].",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "Rashi: continues - and [the Talmud brings a] support: [from] Bava Metzia (folio 115) - [a case regarding] a widow [who is] rich and they give a lien to [take payment from] an orphan, they do not give a lien to a poor [widow] because you need her [poor widow to be solvent to] return [to her], and you [should not] give her a bad name in her neighborhood.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 60,
-      "en": "Rashi: concludes - 'who brought out' - the daf ends mid-comment with this single word; the comment continues on 43a, where Rashi discusses one who brought out a donkey along with the heifer, permitted by the first Tanna but forbidden by Rabbi because 'it' is written.",
-      "linkedGemaraLineIds": [
-        "yoma-042b-l31"
-      ]
+     "misconception": "The ish iti becomes impure because the live goat itself carries ordinary ritual impurity, the way a corpse or other impurity-source would.",
+     "correction": "The goat is alive and not impure in the ordinary sense; its designation 'for Azazel' gives it a special status that causes the one who carries it to become impure, a designation-based impurity rather than standard contact impurity.",
+     "correctedByStepId": null
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-042a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "biblical vs rabbinic impurity of ish iti"
+    },
+    {
+     "type": "text",
+     "label": "verse 'l'mishmerit' excluding Tur Shimon"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Tur Shimon - a region outside the Land of Israel - as a valid location for the parah rite.",
+     "question": "What does 'l'mishmerit l'mei nidda' exclude?"
+    },
+    {
+     "answer": "The Sages enacted immersion even for rabbinic impurity to maintain the seriousness of the Yom Kippur rite.",
+     "question": "Why does the ish iti need to immerse if his impurity is only rabbinic?"
+    }
+   ],
+   "finalRuling": "The ish iti must immerse and wait until nightfall; non-priest slaughter of parah is invalid according to the majority view.",
+   "difficulty": "intermediate",
+   "review": "reviewed",
+   "alternateAngles": [],
+   "glossary": []
+  }
+ ],
+ "glossary": [
+  {
+   "he": "טוּר שִׁמְעוֹן",
+   "translit": "Tur Shimon",
+   "en": "A region east of the Jordan River, excluded as a valid location for the red heifer rite."
+  },
+  {
+   "he": "לְמִשְׁמֶרֶת לְמֵי נִדָּה",
+   "translit": "l'mishmerit l'mei nidda",
+   "en": "For keeping as waters of impurity (Num. 19:9) - a verse that restricts where the parah rite may be performed."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'For keeping, for the water of impurity purification' is written; this implies that these things require safekeeping until they are sprinkled from it. To support",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l01",
+    "yoma-042b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "Rav, who said that the heifer's slaughter by a non-priest is disqualified. 'The sprinkling of its water is not valid'",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "performed by a woman - this is explained further on. 'And it is valid only by day' - as it is written (Numbers 19),",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "'he shall purify himself with it on the third day.' 'From where do we include its slaughter, the receiving of its blood,",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l06",
+    "yoma-042b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "the sprinkling of its blood, its burning, and the casting of cedar wood",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "hyssop, and scarlet wool' - that they too should be",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "valid only by day, whereas regarding the matter of a woman",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "being like a man, there was no need for an inclusion,",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "since all of these already have written in them either Elazar or",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "a priest. 'The sprinkling of its blood' - toward the front of",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "the Tent of Meeting, seven times. 'This teaches'",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "from 'Torah' - 'this is the statute of the Torah' (ibid.), 'Torah'",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "meaning one law for all its services. 'This teaches from the word 'this'' -",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "the text establishes what is stated here and do not add to it. After",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "the text both included and excluded, and did not explain",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "what it included and what it excluded, from now on it does not",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "entrust them to you except to examine within it the truth",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "and the straight path. 'You say: behold, we learn",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "all of them from the sprinkling of its water' - for the disqualification of night",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "is explicit regarding it. 'That they are not valid performed by a woman",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "the way they are valid performed by a man' - as stated further on, 'and he shall take hyssop and dip it",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "in water, a pure man,' etc. (ibid.). 'And this,",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "what is its refutation' - to Shmuel, if we say",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "that from the fact that it is taught that slaughter is invalid performed by a woman, it is invalid",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "also performed by a non-priest. 'A woman - what is the reason?' From where",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l22",
+    "yoma-042b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "does he derive that slaughter is invalid performed by a woman? Granted,",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "regarding the receiving of its blood and the sprinkling of its blood it is written, 'and",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "Elazar the priest shall take of its blood' - that is the receiving, and 'he shall sprinkle'",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "toward the front of the Tent of Meeting - that is its sprinkling.",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "The burning too, just before it, has 'priest' written,",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "and then 'and he shall burn the heifer before his eyes' - referring to Elazar.",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "And regarding the casting of the wood and hyssop, 'priest' is written. But",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "the slaughter - from where? 'Elazar' - and not a woman -",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "and you must say that 'and he shall slaughter it before him' refers to Elazar,",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "which is how the tanna derives it, in accordance with Rav; for if it meant that",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "another slaughters while Elazar watches, as Shmuel expounds,",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "from where would he exclude a woman? Rather,",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "the tanna derives it from 'Elazar,' and just as",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "a woman is excluded from here, we likewise exclude",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "a non-priest. 'The entire passage' - of the heifer, just as",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l24",
+    "yoma-042b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "its services are arranged one after another.",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "'Some implications exclude directly from another implication, and some implications'",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "stand on their own - when you examine it closely, you cannot",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "make the method of the passage uniform, such that",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "all its verses would be equal to one another; rather,",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "some of them have this: the implication of one verse excludes",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "from the implication of the verse before it - what the earlier verse disqualified,",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "this one validates, or what the earlier one validated,",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "this one disqualifies. And there are verses whose implication",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "stands on its own, meaning that the implication",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "stands in its own place and does not exclude from",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "its counterpart; and by their order you can understand which",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "excludes from its counterpart, and which",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "stands on its own; and now he goes on expounding the whole of it. 'To Elazar' - for he was the deputy priest. 'Granted,",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l26",
+    "yoma-042b-l28",
+    "yoma-042b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "according to the one who says that for future generations it is done by an ordinary priest, well and good' - since the verse did not fix for it explicitly",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "either a deputy or a High Priest, any priest is valid for it. 'So that they should not say two",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l31",
+    "yoma-042b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "were slaughtered' - and we hold that any labor performed with it disqualifies it, as we learned (Parah 4:4): anyone who works on the heifer from beginning to end disqualifies it",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "through that labor, and further on (43a) we likewise say 'and he shall slaughter it' means he should not slaughter another together with it. 'Because it says 'it'' - 'and he shall bring it out.' 'For he expounds the reason of the verse' - in Bava",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l34",
+    "yoma-042b-l39"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "Metzia (115a): a wealthy widow, one takes a pledge from her; a poor widow, one does not take a pledge from her, because you must return it to her and you would give her a bad name among her neighbors.",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l39"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "who brought out",
+   "linkedGemaraLineIds": [
+    "yoma-042b-l39"
+   ]
+  }
+ ]
 }
