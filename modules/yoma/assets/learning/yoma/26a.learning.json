@@ -1,907 +1,913 @@
 {
-  "daf": "26a",
-  "canonicalRef": "Yoma 26a",
-  "summary": "The page opens with the conclusion of the previous discussion, then presents the Mishna about the third lottery for incense (exclusive to first-timers) and the fourth lottery for limb-carrying. The Gemara explains why ketoret always goes to a new priest and discusses the spiritual reward of incense-offering (financial prosperity). Rabbi Yochanan rules that no separate lottery was held for the afternoon tamid; the Gemara debates this and traces the disagreement to different understandings of the afternoon service lottery.",
-  "review": {
-    "status": "enriched",
-    "version": "10.63"
+ "daf": "26a",
+ "canonicalRef": "Yoma 26a",
+ "summary": "The page opens with the conclusion of the previous discussion, then presents the Mishna about the third lottery for incense (exclusive to first-timers) and the fourth lottery for limb-carrying. The Gemara explains why ketoret always goes to a new priest and discusses the spiritual reward of incense-offering (financial prosperity). Rabbi Yochanan rules that no separate lottery was held for the afternoon tamid; the Gemara debates this and traces the disagreement to different understandings of the afternoon service lottery.",
+ "review": {
+  "status": "enriched",
+  "version": "10.63"
+ },
+ "glossary": [
+  {
+   "he": "קְטֹרֶת",
+   "translit": "ketoret",
+   "en": "Incense; the daily incense offering burned on the inner altar - considered especially beneficial for whoever offered it."
   },
-  "glossary": [
+  {
+   "he": "עֲשִׁיר",
+   "translit": "ashir",
+   "en": "Wealthy; the Gemara notes that offering ketoret made a priest prosperous."
+  },
+  {
+   "he": "מִנְחַת חֲבִיתִין",
+   "translit": "minchat chavittin",
+   "en": "The High Priest's daily griddle-cake offering."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "For what purpose does it come - for these too are included among the pieces; now granted, the head, we derive it",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "in tractate Chullin (27a), that it was needed since it is said, 'and he shall flay it and arrange it' - I would have",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "thought only the pieces included in the flaying belong to the arranging; from where do we include the head,",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "which had already been severed at the slaughtering and was not there at the time of flaying? The verse teaches 'the head.' But",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "the fat is already included among the flayed parts, so for what purpose",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "is it written? In a manner of honor - because the place of",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "slaughtering is soiled with the blood of the head.",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "Mishnah: new ones for the incense - whoever",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "has never yet merited the incense, and the Gemara explains",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "why 'new ones' specifically, and thus they would announce, a voice",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "in the Courtyard. Gemara: because it enriches -",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l03",
+    "yoma-026a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "therefore they would not allow him to repeat it.",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "But is it not written, 'and whole upon Your altar' - in that very",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "same verse. This one is uncommon - and it stands to reason",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l07",
+    "yoma-026a-l11a"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "that when wealth is written about, it is regarding what is uncommon, for if",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l11a"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "it were not so, everyone would turn out wealthy. Who rules -",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l11a",
+    "yoma-026a-l11b"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "who issues rulings in Israel. In accordance",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l11b"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "with the law - to rule according to the statute and the law.",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l11b"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "Who merited it in the morning - any man who merited",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "the service. When that was taught, it was about the incense -",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "since no one repeats it. Since",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l18",
+    "yoma-026a-l26"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "the priestly watches are renewed, and a watch that served",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l26"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "in the morning does not serve in the afternoon.",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l26"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "And according to what first occurred to us - that they would cast the lottery",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "in the afternoon as well, they would have many lotteries.",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "All of them come in the morning - and there they cast the lottery",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "for who shall merit the morning one and who the",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "afternoon one. He brings it up to the altar -",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l28",
+    "yoma-026a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "that same man who merited it, to carry it to the ramp, returns",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "and brings it up afterward to the altar; and when they",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "would carry it, they would set it down from the midpoint of",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "the ramp downward, so that he would not need to carry it",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "the whole length of the ramp, and he goes and climbs the ramp, and when he reaches",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "the place where the limbs are, he takes them; and thus we learned",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "in tractate Shekalim (13a): the limbs of the daily-offering",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "are placed from the midpoint of the ramp downward, on the east.",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "It is not proper conduct - to appear like one",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l34"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "for whom the matter is a burden. Not Rabbi Eliezer ben Yaakov",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l34",
+    "yoma-026a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "holds like Rabbi Yehuda - who said there was no lottery",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "for the fire-pan, while Rabbi Eliezer ben Yaakov assigns a lottery for the fire-pan",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "in place of the lottery from the ramp to the altar.",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "That not - the daf ends mid-word here; the comment (that a hypothetical five-service tanna would follow neither Rabbi Eliezer ben Yaakov nor Rabbi Yehuda) continues on 26b.",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l37"
+   ]
+  }
+ ],
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-026a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 1
+   },
+   "lines": [
     {
-      "he": "קְטֹרֶת",
-      "translit": "ketoret",
-      "en": "Incense; the daily incense offering burned on the inner altar - considered especially beneficial for whoever offered it."
-    },
-    {
-      "he": "עֲשִׁיר",
-      "translit": "ashir",
-      "en": "Wealthy; the Gemara notes that offering ketoret made a priest prosperous."
-    },
-    {
-      "he": "מִנְחַת חֲבִיתִין",
-      "translit": "minchat chavittin",
-      "en": "The High Priest's daily griddle-cake offering."
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.26a.1"
     }
-  ],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "en": "Opens 'for what purpose does it come': for these too are included among the pieces; now granted, the head, we derive it",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l01"
-      ]
+   ],
+   "sefariaRefs": [
+    "Yoma.26a.1"
+   ],
+   "display": {
+    "title": "A one-line bridge: closing the second lottery before the third begins",
+    "whats": "Brief continuation from the previous page completing the discussion about the lottery.",
+    "hint": "A transitional passage linking the previous page's analysis to the new mishna."
+   },
+   "learning": {
+    "learnerQuestion": "What is this single line doing here, sitting between the second lottery's discussion and the third lottery's mishna?",
+    "coreTension": "The Gemara could simply jump straight from one mishna's analysis to the next, but instead it pauses to close the loop on the prior topic first.",
+    "coreMove": "This passage finishes the thought left open at the end of the second-lottery discussion, so that the third-lottery mishna can open cleanly without unfinished business hanging over it.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Not every line in the Gemara carries independent content - some exist purely to close one discussion before the next opens, and recognizing that saves a learner from over-reading a transition as a new teaching."
     },
+    "ahaMoment": "The Gemara carefully places each transitional thought before introducing a new mishna.",
+    "learningBlocker": "It is tempting to treat this line as a substantive ruling in its own right, when its actual function is structural: it closes the second-lottery discussion so the page can move on.",
+    "memoryAnchor": "Think of this as a paragraph break - the Gemara wrapping up one thought before the next mishna."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 2,
-      "en": "continuing: in tractate Chullin (27a), that it was needed since it is said 'and he shall flay it and arrange it' - I would have",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "continuing: thought only the pieces included in the flaying belong to the arranging; from where do we include the head,",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "continuing: which had already been severed at the slaughtering and was not there at the time of flaying? The verse teaches 'the head.' But",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "continuing: the fat is already included among the flayed parts, so for what purpose",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "closing: is it written?' Then opens 'in a manner of honor': because the place of",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "closing: slaughtering is soiled with the blood, so it honors the head.",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "Opens 'mishnah: new ones for the incense': whoever",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "continuing: has never yet merited the incense, and the Gemara explains",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "continuing: why 'new ones' specifically, and thus they would announce, a voice",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "closing: in the Courtyard.' Then opens 'Gemara: because it enriches' -",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "closing: therefore they would not allow him to repeat it.",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Opens 'but is it not written, and whole upon Your altar': in that very",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "closing: same verse.' Then opens 'this one is uncommon': and it stands to reason",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l11a"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: that when wealth is written about, it is regarding what is uncommon, for if",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l11a"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "closing: it were not so, everyone would turn out wealthy.' Then opens 'who rules' -",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l11a"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: who issues rulings in Israel.' Then opens 'in accordance",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l11b"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "closing: with the law': to rule according to the statute and the law.",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l11b"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "Opens 'who merited it in the morning': any man who merited",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "closing: the service.' Then opens 'when that was taught, it was about the incense' -",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "closing: since no one repeats it.' Then opens 'since' -",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: the priestly watches are renewed, and a watch that served",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l26"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "closing: in the morning does not serve in the afternoon.",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l26"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Opens 'and according to what first occurred to us': that they would cast the lottery",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "closing: in the afternoon as well, they would have many lotteries.",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Opens 'all of them come in the morning': and there they cast the lottery",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: for who shall merit the morning one and who the",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "closing: afternoon one.' Then opens 'he brings it up to the altar' -",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l31"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: that same man who merited it, to carry it to the ramp, returns",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l31"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "continuing: and brings it up afterward to the altar; and when they",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l31"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: would carry it, they would set it down from the midpoint of",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l31"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: the ramp downward, so that he would not need to carry it",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l31"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: the whole length of the ramp, and he goes and climbs the ramp, and when he reaches",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l31"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "continuing: the place where the limbs are, he takes them; and thus we learned",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l31"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: in tractate Shekalim (13a): the limbs of the daily-offering",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l31"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "closing: are placed from the midpoint of the ramp downward, on the east.",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l31"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Opens 'it is not proper conduct': to appear like one",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l34"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "closing: for whom the matter is a burden.' Then opens 'not Rabbi Eliezer ben Yaakov'",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l35"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "continuing: holds like Rabbi Yehuda': who said there was no lottery",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l35"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: for the fire-pan, while Rabbi Eliezer ben Yaakov assigns a lottery for the fire-pan",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l35"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "closing: in place of the lottery from the ramp to the altar.",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l35"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Opens 'that not' -",
-      "linkedGemaraLineIds": [
-        "yoma-026a-l37"
-      ]
+     "id": "yoma-026a-l01",
+     "type": "resolution",
+     "label": "Conclusion of previous analysis",
+     "text": "Brief conclusion linking the lottery analysis of 25b to the third lottery mishna.",
+     "sourceRefs": [
+      "Yoma.26a.1"
+     ]
     }
-  ],
-  "sugyot": [
+   ],
+   "topicTags": [
+    "lottery",
+    "Temple procedure",
+    "transitional passage"
+   ],
+   "concepts": {
+    "halachic": [
+     "lottery assignment continuity"
+    ],
+    "theological": [],
+    "narrative": [
+     "Talmudic transitional passage"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "second lottery",
+    "tamid service"
+   ],
+   "misconceptions": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-026a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 1
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.26a.1"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.26a.1"
-      ],
-      "display": {
-        "title": "A one-line bridge: closing the second lottery before the third begins",
-        "whats": "Brief continuation from the previous page completing the discussion about the lottery.",
-        "hint": "A transitional passage linking the previous page's analysis to the new mishna."
-      },
-      "learning": {
-        "learnerQuestion": "What is this single line doing here, sitting between the second lottery's discussion and the third lottery's mishna?",
-        "coreTension": "The Gemara could simply jump straight from one mishna's analysis to the next, but instead it pauses to close the loop on the prior topic first.",
-        "coreMove": "This passage finishes the thought left open at the end of the second-lottery discussion, so that the third-lottery mishna can open cleanly without unfinished business hanging over it.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Not every line in the Gemara carries independent content - some exist purely to close one discussion before the next opens, and recognizing that saves a learner from over-reading a transition as a new teaching."
-        },
-        "ahaMoment": "The Gemara carefully places each transitional thought before introducing a new mishna.",
-        "learningBlocker": "It is tempting to treat this line as a substantive ruling in its own right, when its actual function is structural: it closes the second-lottery discussion so the page can move on.",
-        "memoryAnchor": "Think of this as a paragraph break - the Gemara wrapping up one thought before the next mishna."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-026a-l01",
-          "type": "resolution",
-          "label": "Conclusion of previous analysis",
-          "text": "Brief conclusion linking the lottery analysis of 25b to the third lottery mishna.",
-          "sourceRefs": [
-            "Yoma.26a.1"
-          ]
-        }
-      ],
-      "topicTags": [
-        "lottery",
-        "Temple procedure",
-        "transitional passage"
-      ],
-      "concepts": {
-        "halachic": [
-          "lottery assignment continuity"
-        ],
-        "theological": [],
-        "narrative": [
-          "Talmudic transitional passage"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "second lottery",
-        "tamid service"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "This brief passage is the main content of the page.",
-          "correction": "It is actually just a transition to the major discussions that follow, closing out the second-lottery topic before the third-lottery mishna begins."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-025b-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "text",
-          "label": "Transitional ruling",
-          "description": "Brief statement connecting lottery discussions across pages"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What is the function of the brief passage at the opening of 26a?",
-          "answer": "It completes the previous discussion and provides a transition to the third lottery mishna."
-        }
-      ],
-      "finalRuling": "Transitional; connects to the third lottery mishna that follows.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 2,
-      "id": "yoma-026a-s02",
-      "lineRange": {
-        "startVilnaLine": 3,
-        "endVilnaLine": 11
-      },
-      "lines": [
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.26a.2"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.26a.3"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.26a.4"
-        },
-        {
-          "vilnaLine": 11,
-          "sefariaRef": "Yoma.26a.5"
-        },
-        {
-          "vilnaLine": 11,
-          "sefariaRef": "Yoma.26a.6"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.26a.2",
-        "Yoma.26a.3",
-        "Yoma.26a.4",
-        "Yoma.26a.5",
-        "Yoma.26a.6"
-      ],
-      "display": {
-        "title": "One shot at the incense: why ketoret could never be repeated, and what made it worth a fortune",
-        "whats": "The third lottery was exclusively for priests who had never offered the incense. No priest ever burned the ketoret twice, because it brought wealth - and Rava connects this to the prosperity of young Torah scholars.",
-        "hint": "Ketoret's unique status: unlike all other Temple tasks, it could never be repeated by the same priest - the privilege was too great."
-      },
-      "learning": {
-        "learnerQuestion": "Why does the Torah require incense to go to a new priest each time, and why does this one task specifically bring wealth to whoever performs it?",
-        "coreTension": "Every other Temple task could be repeated by the same priest, and most rewards for Temple service are spiritual rather than material - so ketoret's once-only rule and its financial payoff both look like outliers that need explaining.",
-        "coreMove": "Abaye locates the answer in the ketoret's unique proximity: unlike animal offerings burned on the outer altar, incense is offered in the most intimate possible nearness to the divine presence. Rava extends the logic with an analogy - a young Torah scholar who issues rulings draws on that same kind of closeness, which is why he too prospers materially. The first-timer-only rule follows naturally: since the privilege is so great, demand from first-timers never runs dry, so no priest ever needs a second turn.",
-        "resolution": "The Torah's first-timer restriction is not really about fairness in the abstract - it is a structural consequence of the reward being so significant that there is always a new priest eager for the one chance. The deeper reason for the reward itself is proximity to God, not arbitrary generosity.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Material reward in the Gemara's framework is not random luck attached to a ritual - it tracks proximity to the divine presence, and the ketoret's singular nearness explains both its wealth-effect and the rule restricting it to one turn per priest."
-        },
-        "ahaMoment": "The incense's power to bring wealth is not magic - it reflects that the ketoret is the closest approach to the divine presence, and closeness to God manifests as blessing.",
-        "learningBlocker": "It is easy to read the first-timer rule as a fairness mechanism, like a queue everyone has to wait in - but the sugya frames it as a side-effect of the reward's intensity, not a deliberately designed turn-taking system.",
-        "memoryAnchor": "Ketoret = once-in-a-lifetime prize. Every priest got one shot at the incense lottery. And that one shot could make him wealthy."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-026a-l03",
-          "type": "ruling",
-          "label": "Mishna: 3rd lottery - first-timers only",
-          "text": "The third lottery for ketoret was exclusively open to priests who had never burned incense before.",
-          "sourceRefs": [
-            "Yoma.26a.2"
-          ]
-        },
-        {
-          "id": "yoma-026a-l04",
-          "type": "premise",
-          "label": "No repeat ketoret priests",
-          "text": "Tosefta: in practice no priest ever burned the incense twice, since new priests were always available and eager.",
-          "sourceRefs": [
-            "Yoma.26a.3"
-          ]
-        },
-        {
-          "id": "yoma-026a-l05",
-          "type": "proof",
-          "label": "Reason: ketoret brings wealth",
-          "text": "The reason new priests were always eager: offering the ketoret made priests wealthy, so every priest wanted this once-in-a-lifetime opportunity.",
-          "sourceRefs": [
-            "Yoma.26a.4"
-          ]
-        },
-        {
-          "id": "yoma-026a-l07",
-          "type": "claim",
-          "label": "Abaye: ketoret's unique closeness to God",
-          "text": "Abaye explains why ketoret specifically brings wealth: unlike burnt-offerings, ketoret is offered in extreme proximity to the divine presence.",
-          "sourceRefs": [
-            "Yoma.26a.5"
-          ]
-        },
-        {
-          "id": "yoma-026a-l11",
-          "type": "analogy",
-          "label": "Rava: Torah scholar analogy",
-          "text": "Rava: a young scholar who gives halakhic rulings similarly gains material prosperity - Torah study in the right spirit mirrors ketoret's proximity to the divine.",
-          "sourceRefs": [
-            "Yoma.26a.6"
-          ]
-        }
-      ],
-      "topicTags": [
-        "ketoret",
-        "incense lottery",
-        "wealth",
-        "first-timer rule",
-        "Torah scholar prosperity",
-        "Temple service reward"
-      ],
-      "concepts": {
-        "halachic": [
-          "ketoret first-timer rule",
-          "lottery eligibility restriction"
-        ],
-        "theological": [
-          "proximity to God brings blessing",
-          "ketoret as closest divine approach",
-          "Torah learning and material reward"
-        ],
-        "narrative": [
-          "Abaye's explanation of ketoret wealth",
-          "Rava's Torah scholar analogy"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "third lottery",
-        "ketoret offering",
-        "inner altar"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Any priest could offer the ketoret multiple times if he wanted.",
-          "correction": "The rule absolutely restricted it to first-timers only - in practice no priest ever needed a second turn because demand from new priests never ran dry."
-        },
-        {
-          "misconception": "The wealth from ketoret was a miraculous instant reward.",
-          "correction": "The Gemara does not say it was instant; the prosperity came as a broader divine blessing tied to the offering's proximity to God, not a magical payout."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-025b-s01",
-        "yoma-022b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "person",
-          "label": "First-time incense priest",
-          "description": "A young kohen burning ketoret for the only time in his life, knowing this is his one opportunity"
-        },
-        {
-          "type": "relationship",
-          "label": "Ketoret to wealth",
-          "description": "The connection between offering the most intimate Temple service and receiving divine blessing"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why did no priest ever offer the incense twice, even though the rule only excluded those who had already done it?",
-          "answer": "Because the ketoret brought wealth to the priest who offered it, so there were always eager first-timers and no need to repeat anyone."
-        },
-        {
-          "question": "What comparison does Rava draw between the ketoret and Torah scholarship?",
-          "answer": "Just as ketoret brings wealth to the priest through proximity to God, a young Torah scholar who properly teaches gains material prosperity through the power of Torah."
-        }
-      ],
-      "finalRuling": "The ketoret lottery was restricted to first-time participants. The spiritual-material reward framework is established by the Gemara but not codified as law.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 3,
-      "id": "yoma-026a-s03",
-      "lineRange": {
-        "startVilnaLine": 18,
-        "endVilnaLine": 28
-      },
-      "lines": [
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.26a.7"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.26a.8"
-        },
-        {
-          "vilnaLine": 24,
-          "sefariaRef": "Yoma.26a.9"
-        },
-        {
-          "vilnaLine": 26,
-          "sefariaRef": "Yoma.26a.10"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.26a.11"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.26a.7",
-        "Yoma.26a.8",
-        "Yoma.26a.9",
-        "Yoma.26a.10",
-        "Yoma.26a.11"
-      ],
-      "display": {
-        "title": "No second lottery: how Shabbat's musaf, not the afternoon tamid itself, breaks the morning's continuity",
-        "whats": "Rabbi Yochanan rules that no separate lottery was held for the afternoon tamid. Contradictory baraitot are reconciled: one refers to Shabbat (where a new lottery was needed), the other to weekdays.",
-        "hint": "The afternoon tamid inherited its priest assignments from the morning - unless it was Shabbat, when the extra musaf offering required a fresh lottery."
-      },
-      "learning": {
-        "learnerQuestion": "Was a separate lottery held to assign priests to the afternoon tamid, or did the morning's lottery already cover it - and how can two baraitot that seem to contradict each other both be right?",
-        "coreTension": "One baraita states plainly that a lottery is held in the afternoon just as in the morning, while another baraita - aligned with R. Yochanan - says no separate afternoon lottery exists at all.",
-        "coreMove": "Rav Shmuel bar Rav Yitzchak reconciles the baraitot by splitting them across two different days: the baraita describing an afternoon lottery is talking about Shabbat, when the additional musaf offerings break the morning assignments and require fresh lots; the baraita denying an afternoon lottery is talking about ordinary weekdays, when the morning lottery's assignments simply carry forward into the afternoon.",
-        "resolution": "On weekdays, no second lottery is held - the priests chosen in the morning serve the afternoon tamid as well. On Shabbat, the musaf offerings disrupt that continuity, so a fresh lottery becomes necessary.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "An apparent contradiction between two halakhic sources can dissolve once each is read as describing a different circumstance - here, weekday continuity versus Shabbat's musaf-driven exception - rather than one source being simply wrong."
-        },
-        "ahaMoment": "The Shabbat exception illuminates the general rule: ordinarily the afternoon tamid was continuous with the morning service. Shabbat's extra offerings broke that continuity, requiring fresh lots.",
-        "learningBlocker": "The sugya does not address what happens if a priest who won the morning lottery becomes ritually impure before the afternoon service - that practical contingency is simply not raised here, so no answer should be inferred from this passage.",
-        "memoryAnchor": "Regular days: morning lottery covers afternoon too. Shabbat: a new lottery was needed because the musaf broke the sequence."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-026a-l18",
-          "type": "ruling",
-          "label": "R. Yochanan: no afternoon lottery",
-          "text": "Rabbi Yochanan: on weekdays no separate lottery was held for the afternoon tamid - the morning priests continued.",
-          "sourceRefs": [
-            "Yoma.26a.7"
-          ]
-        },
-        {
-          "id": "yoma-026a-l19",
-          "type": "objection",
-          "label": "Baraita: afternoon lottery exists",
-          "text": "A baraita contradicts: 'just as they hold a lottery in the morning, so they hold one in the afternoon.'",
-          "sourceRefs": [
-            "Yoma.26a.8"
-          ]
-        },
-        {
-          "id": "yoma-026a-l20",
-          "type": "proof",
-          "label": "Another baraita: no afternoon lottery",
-          "text": "A second baraita supports R. Yochanan: no separate afternoon lottery.",
-          "sourceRefs": [
-            "Yoma.26a.9"
-          ]
-        },
-        {
-          "id": "yoma-026a-l21",
-          "type": "resolution",
-          "label": "Rav Shmuel: Shabbat vs weekday",
-          "text": "Reconciliation: the first baraita speaks of Shabbat (where a new lottery was needed for the musaf), the second of ordinary weekdays.",
-          "sourceRefs": [
-            "Yoma.26a.10"
-          ]
-        },
-        {
-          "id": "yoma-026a-l28",
-          "type": "question",
-          "label": "Then how were afternoon tasks assigned?",
-          "text": "If no afternoon lottery on weekdays, the Gemara asks how the afternoon service tasks were distributed among priests.",
-          "sourceRefs": [
-            "Yoma.26a.11"
-          ]
-        }
-      ],
-      "topicTags": [
-        "afternoon tamid",
-        "lottery",
-        "Shabbat",
-        "R. Yochanan",
-        "musaf",
-        "priest assignment"
-      ],
-      "concepts": {
-        "halachic": [
-          "afternoon tamid lottery rule",
-          "Shabbat exception",
-          "musaf affecting service assignments"
-        ],
-        "theological": [],
-        "narrative": [
-          "Rav Shmuel bar Rav Yitzchak's reconciliation",
-          "baraita contradiction resolution"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "tamid service",
-        "musaf offering",
-        "Shabbat Temple service"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "A separate lottery was held every afternoon for the afternoon tamid.",
-          "correction": "On weekdays, the morning lottery covered the afternoon too - no fresh lottery was needed."
-        },
-        {
-          "misconception": "Shabbat and weekday followed the same lottery procedure.",
-          "correction": "Shabbat required a new afternoon lottery because the musaf offering broke the continuity of the morning assignments."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-026b-s02",
-        "yoma-022b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "Weekday vs Shabbat lottery",
-          "description": "On weekdays: morning lottery covers afternoon. On Shabbat: new afternoon lottery required due to musaf offerings"
-        },
-        {
-          "type": "timeline",
-          "label": "Morning-to-afternoon service continuity",
-          "description": "Same priests from morning lottery serve through the afternoon tamid on weekdays"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "According to Rabbi Yochanan, was a new lottery held for the afternoon tamid on weekdays?",
-          "answer": "No - the morning lottery covered the afternoon tamid as well on regular weekdays."
-        },
-        {
-          "question": "Why was a new lottery held for the afternoon tamid on Shabbat?",
-          "answer": "Because the musaf offerings on Shabbat required additional priests and new task assignments, breaking the continuity of the morning lottery."
-        }
-      ],
-      "finalRuling": "No afternoon lottery on weekdays; Shabbat required a fresh afternoon lottery due to the musaf offerings.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 4,
-      "id": "yoma-026a-s04",
-      "lineRange": {
-        "startVilnaLine": 31,
-        "endVilnaLine": 37
-      },
-      "lines": [
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.26a.12"
-        },
-        {
-          "vilnaLine": 34,
-          "sefariaRef": "Yoma.26a.13"
-        },
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.26a.14"
-        },
-        {
-          "vilnaLine": 37,
-          "sefariaRef": "Yoma.26a.15"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.26a.12",
-        "Yoma.26a.13",
-        "Yoma.26a.14",
-        "Yoma.26a.15"
-      ],
-      "display": {
-        "title": "One task or two? Why the fourth lottery's scope hinges on what counts as 'carrying' the limbs",
-        "whats": "The fourth lottery was open to all priests. The Gemara debates whether R. Eliezer ben Yaakov and the mishna's tanna disagree about whether the limb-carrier also burns them on the altar. A 'five lottery' opinion fits neither position.",
-        "hint": "The fourth lottery's scope - who was eligible - turns on whether carrying limbs and burning them were considered one task or two."
-      },
-      "learning": {
-        "learnerQuestion": "What exactly are R. Eliezer ben Yaakov and the mishna's other tanna disagreeing about when they dispute the fourth lottery's scope?",
-        "coreTension": "The mishna's bare ruling - that the fourth lottery was open to everyone, including priests who had already served - does not by itself explain what the underlying dispute with R. Eliezer ben Yaakov actually concerns.",
-        "coreMove": "Rava clarifies that the dispute is not about eligibility directly but about task definition: R. Eliezer ben Yaakov holds that the priest who carries the limbs up to the ramp also places them on the altar fire himself, treating carrying-and-burning as a single combined task. The other tanna treats them as two distinct tasks. A separate opinion counting five lotteries altogether fits neither of these two structured views, since it implies yet another task division.",
-        "resolution": "The fourth lottery's open eligibility follows directly from how the task is defined: once carrying and burning are understood as one continuous job (R. Eliezer ben Yaakov) or as two separate jobs (the other tanna), the number and scope of lottery slots needed falls out accordingly.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "A halakhic dispute over eligibility or procedure often traces back to a more basic disagreement about how to define the underlying task - resolving that definitional question resolves the practical one."
-        },
-        "ahaMoment": "Whether carrying limbs to the altar and burning them is 'one task' or 'two tasks' is not just procedural - it determines whether the fourth lottery slot is needed at all.",
-        "learningBlocker": "The sugya does not say whether dividing Temple tasks into more lottery slots was driven by a practical need to involve more priests or by a deeper concern for distributing spiritual merit - that broader motivation is left unaddressed here, though it echoes the participation-maximizing principle seen in the second lottery's design on 24b.",
-        "memoryAnchor": "Fourth lottery: everyone eligible. The question is whether 'carrying to the ramp' and 'placing on the fire' are one job or two."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-026a-l31",
-          "type": "ruling",
-          "label": "Mishna: 4th lottery - all eligible",
-          "text": "The fourth lottery for limb-carrying was open to all priests, including those who had already served that morning.",
-          "sourceRefs": [
-            "Yoma.26a.12"
-          ]
-        },
-        {
-          "id": "yoma-026a-l33",
-          "type": "question",
-          "label": "What is the dispute about?",
-          "text": "The Gemara asks: what exactly do R. Eliezer ben Yaakov and the other tanna disagree about?",
-          "sourceRefs": [
-            "Yoma.26a.13"
-          ]
-        },
-        {
-          "id": "yoma-026a-l34",
-          "type": "resolution",
-          "label": "Rava: limb-carrier = burner",
-          "text": "Rava: R. Eliezer ben Yaakov holds that the priest who carries the limbs to the ramp also places them on the altar fire - one task, not two.",
-          "sourceRefs": [
-            "Yoma.26a.14"
-          ]
-        },
-        {
-          "id": "yoma-026a-l37",
-          "type": "claim",
-          "label": "Five-lottery view fits neither",
-          "text": "A tanna who counts five lotteries would fit neither R. Eliezer ben Yaakov nor the other major position.",
-          "sourceRefs": [
-            "Yoma.26a.15"
-          ]
-        }
-      ],
-      "topicTags": [
-        "fourth lottery",
-        "limb carrying",
-        "altar fire",
-        "R. Eliezer ben Yaakov",
-        "Rava",
-        "lottery count"
-      ],
-      "concepts": {
-        "halachic": [
-          "carrying vs burning limbs as one or two tasks",
-          "fourth lottery eligibility",
-          "five-lottery opinion"
-        ],
-        "theological": [],
-        "narrative": [
-          "Rava's explanation of R. Eliezer ben Yaakov",
-          "tanna who counted five lotteries"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "tamid limb service",
-        "lottery system",
-        "altar ramp (kevesh)"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The fourth lottery was restricted to new priests.",
-          "correction": "It was actually open to all priests, including those who had already served that day, unlike the first-timer-only incense lottery."
-        },
-        {
-          "misconception": "Carrying limbs and burning them were always considered two separate tasks.",
-          "correction": "R. Eliezer ben Yaakov counts them as one combined task, performed by the same priest from carry to placement on the fire."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-025a-s02",
-        "yoma-026b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "One task vs two tasks",
-          "description": "R. Eliezer ben Yaakov: carrying and burning = one task; Other tanna: two tasks requiring two lottery slots"
-        },
-        {
-          "type": "person",
-          "label": "Fourth lottery eligibility",
-          "description": "All priests (new and veteran) eligible for the limb-carrying lottery"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Who was eligible to participate in the fourth daily lottery?",
-          "answer": "All priests, both those new to service that day and those who had already served in the morning."
-        },
-        {
-          "question": "What is Rava's explanation of R. Eliezer ben Yaakov's position?",
-          "answer": "R. Eliezer ben Yaakov holds that the same priest who carries the limbs to the altar ramp also places them on the fire - these are one combined task, not two."
-        }
-      ],
-      "finalRuling": "The fourth lottery was open to all. Whether limb-carrying and burning is one task or two is a tannaitic dispute.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "This brief passage is the main content of the page.",
+     "correction": "It is actually just a transition to the major discussions that follow, closing out the second-lottery topic before the third-lottery mishna begins."
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-025b-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "text",
+     "label": "Transitional ruling",
+     "description": "Brief statement connecting lottery discussions across pages"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What is the function of the brief passage at the opening of 26a?",
+     "answer": "It completes the previous discussion and provides a transition to the third lottery mishna."
+    }
+   ],
+   "finalRuling": "Transitional; connects to the third lottery mishna that follows.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-026a-s02",
+   "lineRange": {
+    "startVilnaLine": 3,
+    "endVilnaLine": 11
+   },
+   "lines": [
+    {
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.26a.2"
+    },
+    {
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.26a.3"
+    },
+    {
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.26a.4"
+    },
+    {
+     "vilnaLine": 11,
+     "sefariaRef": "Yoma.26a.5"
+    },
+    {
+     "vilnaLine": 11,
+     "sefariaRef": "Yoma.26a.6"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.26a.2",
+    "Yoma.26a.3",
+    "Yoma.26a.4",
+    "Yoma.26a.5",
+    "Yoma.26a.6"
+   ],
+   "display": {
+    "title": "One shot at the incense: why ketoret could never be repeated, and what made it worth a fortune",
+    "whats": "The third lottery was exclusively for priests who had never offered the incense. No priest ever burned the ketoret twice, because it brought wealth - and Rava connects this to the prosperity of young Torah scholars.",
+    "hint": "Ketoret's unique status: unlike all other Temple tasks, it could never be repeated by the same priest - the privilege was too great."
+   },
+   "learning": {
+    "learnerQuestion": "Why does the Torah require incense to go to a new priest each time, and why does this one task specifically bring wealth to whoever performs it?",
+    "coreTension": "Every other Temple task could be repeated by the same priest, and most rewards for Temple service are spiritual rather than material - so ketoret's once-only rule and its financial payoff both look like outliers that need explaining.",
+    "coreMove": "Abaye locates the answer in the ketoret's unique proximity: unlike animal offerings burned on the outer altar, incense is offered in the most intimate possible nearness to the divine presence. Rava extends the logic with an analogy - a young Torah scholar who issues rulings draws on that same kind of closeness, which is why he too prospers materially. The first-timer-only rule follows naturally: since the privilege is so great, demand from first-timers never runs dry, so no priest ever needs a second turn.",
+    "resolution": "The Torah's first-timer restriction is not really about fairness in the abstract - it is a structural consequence of the reward being so significant that there is always a new priest eager for the one chance. The deeper reason for the reward itself is proximity to God, not arbitrary generosity.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Material reward in the Gemara's framework is not random luck attached to a ritual - it tracks proximity to the divine presence, and the ketoret's singular nearness explains both its wealth-effect and the rule restricting it to one turn per priest."
+    },
+    "ahaMoment": "The incense's power to bring wealth is not magic - it reflects that the ketoret is the closest approach to the divine presence, and closeness to God manifests as blessing.",
+    "learningBlocker": "It is easy to read the first-timer rule as a fairness mechanism, like a queue everyone has to wait in - but the sugya frames it as a side-effect of the reward's intensity, not a deliberately designed turn-taking system.",
+    "memoryAnchor": "Ketoret = once-in-a-lifetime prize. Every priest got one shot at the incense lottery. And that one shot could make him wealthy."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-026a-l03",
+     "type": "ruling",
+     "label": "Mishna: 3rd lottery - first-timers only",
+     "text": "The third lottery for ketoret was exclusively open to priests who had never burned incense before.",
+     "sourceRefs": [
+      "Yoma.26a.2"
+     ]
+    },
+    {
+     "id": "yoma-026a-l04",
+     "type": "premise",
+     "label": "No repeat ketoret priests",
+     "text": "Tosefta: in practice no priest ever burned the incense twice, since new priests were always available and eager.",
+     "sourceRefs": [
+      "Yoma.26a.3"
+     ]
+    },
+    {
+     "id": "yoma-026a-l05",
+     "type": "proof",
+     "label": "Reason: ketoret brings wealth",
+     "text": "The reason new priests were always eager: offering the ketoret made priests wealthy, so every priest wanted this once-in-a-lifetime opportunity.",
+     "sourceRefs": [
+      "Yoma.26a.4"
+     ]
+    },
+    {
+     "id": "yoma-026a-l07",
+     "type": "claim",
+     "label": "Abaye: ketoret's unique closeness to God",
+     "text": "Abaye explains why ketoret specifically brings wealth: unlike burnt-offerings, ketoret is offered in extreme proximity to the divine presence.",
+     "sourceRefs": [
+      "Yoma.26a.5"
+     ]
+    },
+    {
+     "id": "yoma-026a-l11",
+     "type": "analogy",
+     "label": "Rava: Torah scholar analogy",
+     "text": "Rava: a young scholar who gives halakhic rulings similarly gains material prosperity - Torah study in the right spirit mirrors ketoret's proximity to the divine.",
+     "sourceRefs": [
+      "Yoma.26a.6"
+     ]
+    }
+   ],
+   "topicTags": [
+    "ketoret",
+    "incense lottery",
+    "wealth",
+    "first-timer rule",
+    "Torah scholar prosperity",
+    "Temple service reward"
+   ],
+   "concepts": {
+    "halachic": [
+     "ketoret first-timer rule",
+     "lottery eligibility restriction"
+    ],
+    "theological": [
+     "proximity to God brings blessing",
+     "ketoret as closest divine approach",
+     "Torah learning and material reward"
+    ],
+    "narrative": [
+     "Abaye's explanation of ketoret wealth",
+     "Rava's Torah scholar analogy"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "third lottery",
+    "ketoret offering",
+    "inner altar"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Any priest could offer the ketoret multiple times if he wanted.",
+     "correction": "The rule absolutely restricted it to first-timers only - in practice no priest ever needed a second turn because demand from new priests never ran dry."
+    },
+    {
+     "misconception": "The wealth from ketoret was a miraculous instant reward.",
+     "correction": "The Gemara does not say it was instant; the prosperity came as a broader divine blessing tied to the offering's proximity to God, not a magical payout."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-025b-s01",
+    "yoma-022b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "person",
+     "label": "First-time incense priest",
+     "description": "A young kohen burning ketoret for the only time in his life, knowing this is his one opportunity"
+    },
+    {
+     "type": "relationship",
+     "label": "Ketoret to wealth",
+     "description": "The connection between offering the most intimate Temple service and receiving divine blessing"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why did no priest ever offer the incense twice, even though the rule only excluded those who had already done it?",
+     "answer": "Because the ketoret brought wealth to the priest who offered it, so there were always eager first-timers and no need to repeat anyone."
+    },
+    {
+     "question": "What comparison does Rava draw between the ketoret and Torah scholarship?",
+     "answer": "Just as ketoret brings wealth to the priest through proximity to God, a young Torah scholar who properly teaches gains material prosperity through the power of Torah."
+    }
+   ],
+   "finalRuling": "The ketoret lottery was restricted to first-time participants. The spiritual-material reward framework is established by the Gemara but not codified as law.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-026a-s03",
+   "lineRange": {
+    "startVilnaLine": 18,
+    "endVilnaLine": 28
+   },
+   "lines": [
+    {
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.26a.7"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.26a.8"
+    },
+    {
+     "vilnaLine": 24,
+     "sefariaRef": "Yoma.26a.9"
+    },
+    {
+     "vilnaLine": 26,
+     "sefariaRef": "Yoma.26a.10"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.26a.11"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.26a.7",
+    "Yoma.26a.8",
+    "Yoma.26a.9",
+    "Yoma.26a.10",
+    "Yoma.26a.11"
+   ],
+   "display": {
+    "title": "No second lottery: how Shabbat's musaf, not the afternoon tamid itself, breaks the morning's continuity",
+    "whats": "Rabbi Yochanan rules that no separate lottery was held for the afternoon tamid. Contradictory baraitot are reconciled: one refers to Shabbat (where a new lottery was needed), the other to weekdays.",
+    "hint": "The afternoon tamid inherited its priest assignments from the morning - unless it was Shabbat, when the extra musaf offering required a fresh lottery."
+   },
+   "learning": {
+    "learnerQuestion": "Was a separate lottery held to assign priests to the afternoon tamid, or did the morning's lottery already cover it - and how can two baraitot that seem to contradict each other both be right?",
+    "coreTension": "One baraita states plainly that a lottery is held in the afternoon just as in the morning, while another baraita - aligned with R. Yochanan - says no separate afternoon lottery exists at all.",
+    "coreMove": "Rav Shmuel bar Rav Yitzchak reconciles the baraitot by splitting them across two different days: the baraita describing an afternoon lottery is talking about Shabbat, when the additional musaf offerings break the morning assignments and require fresh lots; the baraita denying an afternoon lottery is talking about ordinary weekdays, when the morning lottery's assignments simply carry forward into the afternoon.",
+    "resolution": "On weekdays, no second lottery is held - the priests chosen in the morning serve the afternoon tamid as well. On Shabbat, the musaf offerings disrupt that continuity, so a fresh lottery becomes necessary.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "An apparent contradiction between two halakhic sources can dissolve once each is read as describing a different circumstance - here, weekday continuity versus Shabbat's musaf-driven exception - rather than one source being simply wrong."
+    },
+    "ahaMoment": "The Shabbat exception illuminates the general rule: ordinarily the afternoon tamid was continuous with the morning service. Shabbat's extra offerings broke that continuity, requiring fresh lots.",
+    "learningBlocker": "The sugya does not address what happens if a priest who won the morning lottery becomes ritually impure before the afternoon service - that practical contingency is simply not raised here, so no answer should be inferred from this passage.",
+    "memoryAnchor": "Regular days: morning lottery covers afternoon too. Shabbat: a new lottery was needed because the musaf broke the sequence."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-026a-l18",
+     "type": "ruling",
+     "label": "R. Yochanan: no afternoon lottery",
+     "text": "Rabbi Yochanan: on weekdays no separate lottery was held for the afternoon tamid - the morning priests continued.",
+     "sourceRefs": [
+      "Yoma.26a.7"
+     ]
+    },
+    {
+     "id": "yoma-026a-l19",
+     "type": "objection",
+     "label": "Baraita: afternoon lottery exists",
+     "text": "A baraita contradicts: 'just as they hold a lottery in the morning, so they hold one in the afternoon.'",
+     "sourceRefs": [
+      "Yoma.26a.8"
+     ]
+    },
+    {
+     "id": "yoma-026a-l20",
+     "type": "proof",
+     "label": "Another baraita: no afternoon lottery",
+     "text": "A second baraita supports R. Yochanan: no separate afternoon lottery.",
+     "sourceRefs": [
+      "Yoma.26a.9"
+     ]
+    },
+    {
+     "id": "yoma-026a-l21",
+     "type": "resolution",
+     "label": "Rav Shmuel: Shabbat vs weekday",
+     "text": "Reconciliation: the first baraita speaks of Shabbat (where a new lottery was needed for the musaf), the second of ordinary weekdays.",
+     "sourceRefs": [
+      "Yoma.26a.10"
+     ]
+    },
+    {
+     "id": "yoma-026a-l28",
+     "type": "question",
+     "label": "Then how were afternoon tasks assigned?",
+     "text": "If no afternoon lottery on weekdays, the Gemara asks how the afternoon service tasks were distributed among priests.",
+     "sourceRefs": [
+      "Yoma.26a.11"
+     ]
+    }
+   ],
+   "topicTags": [
+    "afternoon tamid",
+    "lottery",
+    "Shabbat",
+    "R. Yochanan",
+    "musaf",
+    "priest assignment"
+   ],
+   "concepts": {
+    "halachic": [
+     "afternoon tamid lottery rule",
+     "Shabbat exception",
+     "musaf affecting service assignments"
+    ],
+    "theological": [],
+    "narrative": [
+     "Rav Shmuel bar Rav Yitzchak's reconciliation",
+     "baraita contradiction resolution"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "tamid service",
+    "musaf offering",
+    "Shabbat Temple service"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "A separate lottery was held every afternoon for the afternoon tamid.",
+     "correction": "On weekdays, the morning lottery covered the afternoon too - no fresh lottery was needed."
+    },
+    {
+     "misconception": "Shabbat and weekday followed the same lottery procedure.",
+     "correction": "Shabbat required a new afternoon lottery because the musaf offering broke the continuity of the morning assignments."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-026b-s02",
+    "yoma-022b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "Weekday vs Shabbat lottery",
+     "description": "On weekdays: morning lottery covers afternoon. On Shabbat: new afternoon lottery required due to musaf offerings"
+    },
+    {
+     "type": "timeline",
+     "label": "Morning-to-afternoon service continuity",
+     "description": "Same priests from morning lottery serve through the afternoon tamid on weekdays"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "According to Rabbi Yochanan, was a new lottery held for the afternoon tamid on weekdays?",
+     "answer": "No - the morning lottery covered the afternoon tamid as well on regular weekdays."
+    },
+    {
+     "question": "Why was a new lottery held for the afternoon tamid on Shabbat?",
+     "answer": "Because the musaf offerings on Shabbat required additional priests and new task assignments, breaking the continuity of the morning lottery."
+    }
+   ],
+   "finalRuling": "No afternoon lottery on weekdays; Shabbat required a fresh afternoon lottery due to the musaf offerings.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 4,
+   "id": "yoma-026a-s04",
+   "lineRange": {
+    "startVilnaLine": 31,
+    "endVilnaLine": 37
+   },
+   "lines": [
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.26a.12"
+    },
+    {
+     "vilnaLine": 34,
+     "sefariaRef": "Yoma.26a.13"
+    },
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.26a.14"
+    },
+    {
+     "vilnaLine": 37,
+     "sefariaRef": "Yoma.26a.15"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.26a.12",
+    "Yoma.26a.13",
+    "Yoma.26a.14",
+    "Yoma.26a.15"
+   ],
+   "display": {
+    "title": "One task or two? Why the fourth lottery's scope hinges on what counts as 'carrying' the limbs",
+    "whats": "The fourth lottery was open to all priests. The Gemara debates whether R. Eliezer ben Yaakov and the mishna's tanna disagree about whether the limb-carrier also burns them on the altar. A 'five lottery' opinion fits neither position.",
+    "hint": "The fourth lottery's scope - who was eligible - turns on whether carrying limbs and burning them were considered one task or two."
+   },
+   "learning": {
+    "learnerQuestion": "What exactly are R. Eliezer ben Yaakov and the mishna's other tanna disagreeing about when they dispute the fourth lottery's scope?",
+    "coreTension": "The mishna's bare ruling - that the fourth lottery was open to everyone, including priests who had already served - does not by itself explain what the underlying dispute with R. Eliezer ben Yaakov actually concerns.",
+    "coreMove": "Rava clarifies that the dispute is not about eligibility directly but about task definition: R. Eliezer ben Yaakov holds that the priest who carries the limbs up to the ramp also places them on the altar fire himself, treating carrying-and-burning as a single combined task. The other tanna treats them as two distinct tasks. A separate opinion counting five lotteries altogether fits neither of these two structured views, since it implies yet another task division.",
+    "resolution": "The fourth lottery's open eligibility follows directly from how the task is defined: once carrying and burning are understood as one continuous job (R. Eliezer ben Yaakov) or as two separate jobs (the other tanna), the number and scope of lottery slots needed falls out accordingly.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "A halakhic dispute over eligibility or procedure often traces back to a more basic disagreement about how to define the underlying task - resolving that definitional question resolves the practical one."
+    },
+    "ahaMoment": "Whether carrying limbs to the altar and burning them is 'one task' or 'two tasks' is not just procedural - it determines whether the fourth lottery slot is needed at all.",
+    "learningBlocker": "The sugya does not say whether dividing Temple tasks into more lottery slots was driven by a practical need to involve more priests or by a deeper concern for distributing spiritual merit - that broader motivation is left unaddressed here, though it echoes the participation-maximizing principle seen in the second lottery's design on 24b.",
+    "memoryAnchor": "Fourth lottery: everyone eligible. The question is whether 'carrying to the ramp' and 'placing on the fire' are one job or two."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-026a-l31",
+     "type": "ruling",
+     "label": "Mishna: 4th lottery - all eligible",
+     "text": "The fourth lottery for limb-carrying was open to all priests, including those who had already served that morning.",
+     "sourceRefs": [
+      "Yoma.26a.12"
+     ]
+    },
+    {
+     "id": "yoma-026a-l33",
+     "type": "question",
+     "label": "What is the dispute about?",
+     "text": "The Gemara asks: what exactly do R. Eliezer ben Yaakov and the other tanna disagree about?",
+     "sourceRefs": [
+      "Yoma.26a.13"
+     ]
+    },
+    {
+     "id": "yoma-026a-l34",
+     "type": "resolution",
+     "label": "Rava: limb-carrier = burner",
+     "text": "Rava: R. Eliezer ben Yaakov holds that the priest who carries the limbs to the ramp also places them on the altar fire - one task, not two.",
+     "sourceRefs": [
+      "Yoma.26a.14"
+     ]
+    },
+    {
+     "id": "yoma-026a-l37",
+     "type": "claim",
+     "label": "Five-lottery view fits neither",
+     "text": "A tanna who counts five lotteries would fit neither R. Eliezer ben Yaakov nor the other major position.",
+     "sourceRefs": [
+      "Yoma.26a.15"
+     ]
+    }
+   ],
+   "topicTags": [
+    "fourth lottery",
+    "limb carrying",
+    "altar fire",
+    "R. Eliezer ben Yaakov",
+    "Rava",
+    "lottery count"
+   ],
+   "concepts": {
+    "halachic": [
+     "carrying vs burning limbs as one or two tasks",
+     "fourth lottery eligibility",
+     "five-lottery opinion"
+    ],
+    "theological": [],
+    "narrative": [
+     "Rava's explanation of R. Eliezer ben Yaakov",
+     "tanna who counted five lotteries"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "tamid limb service",
+    "lottery system",
+    "altar ramp (kevesh)"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The fourth lottery was restricted to new priests.",
+     "correction": "It was actually open to all priests, including those who had already served that day, unlike the first-timer-only incense lottery."
+    },
+    {
+     "misconception": "Carrying limbs and burning them were always considered two separate tasks.",
+     "correction": "R. Eliezer ben Yaakov counts them as one combined task, performed by the same priest from carry to placement on the fire."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-025a-s02",
+    "yoma-026b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "One task vs two tasks",
+     "description": "R. Eliezer ben Yaakov: carrying and burning = one task; Other tanna: two tasks requiring two lottery slots"
+    },
+    {
+     "type": "person",
+     "label": "Fourth lottery eligibility",
+     "description": "All priests (new and veteran) eligible for the limb-carrying lottery"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Who was eligible to participate in the fourth daily lottery?",
+     "answer": "All priests, both those new to service that day and those who had already served in the morning."
+    },
+    {
+     "question": "What is Rava's explanation of R. Eliezer ben Yaakov's position?",
+     "answer": "R. Eliezer ben Yaakov holds that the same priest who carries the limbs to the altar ramp also places them on the fire - these are one combined task, not two."
+    }
+   ],
+   "finalRuling": "The fourth lottery was open to all. Whether limb-carrying and burning is one task or two is a tannaitic dispute.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "review": "reviewed"
+  }
+ ]
 }
