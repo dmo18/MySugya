@@ -1,928 +1,943 @@
 {
-  "daf": "26b",
-  "canonicalRef": "Yoma 26b",
-  "summary": "A brief passage concludes the previous discussion. The Mishna then specifies how many priests participated in the morning tamid (nine) and afternoon tamid (eleven). The Gemara discusses when wine libations were offered, citing a dispute about whether water libations were used only on Sukkot. A second Mishna covers the communal ram burnt-offering, which required eleven priests, and the Gemara compares individual and communal offerings for flaying and cutting.",
-  "review": {
-    "status": "enriched",
-    "version": "10.63"
+ "daf": "26b",
+ "canonicalRef": "Yoma 26b",
+ "summary": "A brief passage concludes the previous discussion. The Mishna then specifies how many priests participated in the morning tamid (nine) and afternoon tamid (eleven). The Gemara discusses when wine libations were offered, citing a dispute about whether water libations were used only on Sukkot. A second Mishna covers the communal ram burnt-offering, which required eleven priests, and the Gemara compares individual and communal offerings for flaying and cutting.",
+ "review": {
+  "status": "enriched",
+  "version": "10.63"
+ },
+ "glossary": [
+  {
+   "he": "נְסָכִים",
+   "translit": "nesachim",
+   "en": "Libations; wine or water poured on the altar alongside offerings."
   },
-  "glossary": [
+  {
+   "he": "אַיִל",
+   "translit": "ayil",
+   "en": "Ram; a male sheep offered as a communal burnt-offering."
+  },
+  {
+   "he": "הֶפְשֵׁט",
+   "translit": "hefshet",
+   "en": "Flaying; removing the skin from the animal sacrifice."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "That follows neither Rabbi Eliezer ben Yaakov nor Rabbi Yehuda - since it counts a lottery for the fire-pan, which does not",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "follow Rabbi Yehuda, and a lottery for the one from the ramp to the altar, which does not follow Rabbi Eliezer ben Yaakov.",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "Mishnah: the daily-offering is offered - it counts from the time the limbs are carried onward.",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "Itself - every day with nine: five for the limbs, one for the innards, one for the fine flour,",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "one for the griddle-cakes, and one for the wine; and this follows Rabbi Eliezer",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "ben Yaakov, who does not hold there is one extra for bringing up",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "from the ramp to the altar. On the festival - for it needs two",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "libations, one of wine and one of water.",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "In hand - one priest, one flask of water.",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "In the afternoon - that every day two have in their hands",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "two logs of wood to add to the wood of",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "the arrangement, to increase it; and the Gemara derives it",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "from a verse, that in the afternoon the daily-offering requires",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "two logs by two priests, but in the morning",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "it does not need the arranging of two logs, but by one",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "priest, as it is written, 'and the priest shall kindle it.'",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "And on the Shabbat within the festival, etc. - behold, there are twelve",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "in all. Gemara: from where - from the fact that it teaches, 'and on Shabbat",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "etc.' - by inference, that on the other days of the festival, it does not",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "happen to require twelve; and if you say",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "that even in the afternoon they pour the water libation on the weekdays of",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "all the days of the festival, you would find twelve in the",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "afternoon too - itself with nine, and two in their hands",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "two logs, and one with a flask of water in his hand.",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "And to the one pouring the water he says, raise",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "your hand - so that it is visible that he pours the flask into",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "the silver bowl on the altar, which is",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "perforated like a thin nostril, through which the wine flows",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "and exits, and that is the libation. That once",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "he poured it on his feet - he did not pour the flask",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "into the bowl but poured the water on his feet, since",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "he was a Sadducee and did not accept the water libation.",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "With their citrons - why do I need it to teach 'with their citrons'",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "if not to teach us that the water libation",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "applies only at the time of taking the lulav.",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "And say we do one - one priest",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "shall arrange two logs in the morning, as it is written, 'and he shall kindle it,'",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "singular, and let us do two - then two",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "priests shall bring, to make their two logs again",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "in the morning, as it is written, 'and they shall arrange,' plural, twice.",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "And he shall kindle, and they shall kindle - let it write both in the same",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "wording. Sometimes thirteen - priests occupied",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l28",
+    "yoma-026b-l30"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "with the service of the daily-offering, as we learned in our mishnah,",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l30"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "in the second lottery thirteen priests merit through it.",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l30"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "Sometimes fourteen - on the festival, in the hand of one, a flask",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l30"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "of water. Sometimes fifteen - on Shabbat.",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l30"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "Sometimes sixteen - on the Shabbat within",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l30"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "the festival. This is the reading: but was it not taught, seventeen -",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l30",
+    "yoma-026b-l31a",
+    "yoma-026b-l31b"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "that one is not according to Rabbi Eliezer ben Yaakov but according to Rabbi",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l31a",
+    "yoma-026b-l31b"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "Yehuda - that tanna holds there is also another",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l31a",
+    "yoma-026b-l31b"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "priest, who brings the limbs up from",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l31a",
+    "yoma-026b-l31b"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "the ramp to the altar, and so here there are seventeen, which does not",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l31a",
+    "yoma-026b-l31b"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "follow Rabbi Eliezer ben Yaakov but Rabbi Yehuda,",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l31a",
+    "yoma-026b-l31b"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "who says there was no lottery for the fire-pan; and by",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l31a",
+    "yoma-026b-l31b"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "necessity this tanna does not hold like Rabbi Eliezer ben Yaakov, for if so the lotteries would be too few, as we said above, and he needed a priest for the one from the ramp to the altar; and I have heard it in",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l31a",
+    "yoma-026b-l31b"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "other wordings, and it is not possible to establish it; and if we heard from him that Rabbi Yehuda said there was no lottery for the fire-pan, we did not hear from him that he said there was no priest for the fire-pan; rather",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l31a",
+    "yoma-026b-l31b"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "he says: the priest who merited the incense says to the one standing beside him, 'merit with me in the fire-pan'; but from Rabbi Eliezer ben Yaakov we heard that he said there was no priest",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l31a",
+    "yoma-026b-l31b"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "to bring the limbs up from the ramp to the altar, but they themselves, who brought them up to the ramp, would bring them up to the altar. Mishnah: the flesh with five - like the daily-offering's ramp-carrying count. The fine flour -",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l31a",
+    "yoma-026b-l31b",
+    "yoma-026b-l32"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "was two-tenths, and two priests. In what case is this said - for we need all these priests for each animal, and we need a lottery. If a priest wished to offer",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l32",
+    "yoma-026b-l39"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "alone - all of it, and without a lottery. Their flaying and dismemberment - of communal and individual offerings are equal, being valid by a non-priest, and thus it is explained in the Gemara.",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l39"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "This - the daf ends mid-word here; the comment (on whether Chizkiyah's derivation for a non-priest's flaying and dismemberment needs its own verse) continues on 27a.",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l41"
+   ]
+  }
+ ],
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-026b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 1
+   },
+   "lines": [
     {
-      "he": "נְסָכִים",
-      "translit": "nesachim",
-      "en": "Libations; wine or water poured on the altar alongside offerings."
-    },
-    {
-      "he": "אַיִל",
-      "translit": "ayil",
-      "en": "Ram; a male sheep offered as a communal burnt-offering."
-    },
-    {
-      "he": "הֶפְשֵׁט",
-      "translit": "hefshet",
-      "en": "Flaying; removing the skin from the animal sacrifice."
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.26b.1"
     }
-  ],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "en": "continuing: 'that follows neither Rabbi Eliezer ben Yaakov nor Rabbi Yehuda': since it counts a lottery for the fire-pan, which does not",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l01"
-      ]
+   ],
+   "sefariaRefs": [
+    "Yoma.26b.1"
+   ],
+   "display": {
+    "title": "Closing the lottery chapter: one last line before the priest-count mishna",
+    "whats": "Final conclusion of the previous lottery discussion before the new mishna.",
+    "hint": "Transitional passage."
+   },
+   "learning": {
+    "learnerQuestion": "What is this brief closing line doing before the mishna on priest counts begins?",
+    "coreTension": "The lottery discussion spanning the prior daf needs a clean endpoint before the Gemara can move to a completely different topic - how many priests serve each offering.",
+    "coreMove": "This line supplies that endpoint, finishing the lottery-assignment debate so the priest-count mishna can open without unresolved business from the previous topic.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "A short closing line at a topic boundary is doing real structural work even though it adds no new content - it signals that one sugya is fully resolved before the next begins."
     },
+    "ahaMoment": "The Gemara ties up one discussion before moving to another - no topic is left hanging.",
+    "learningBlocker": "It would be a mistake to look for a substantive teaching in this line beyond its function as a closing transition - the lottery topic it concludes is already settled by what came before.",
+    "memoryAnchor": "Quick closure before the next major section."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 2,
-      "en": "closing: follow Rabbi Yehuda, and a lottery for the one from the ramp to the altar, which does not follow Rabbi Eliezer ben Yaakov.",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "Opens 'mishnah: the daily-offering is offered': it counts from the time the limbs are carried onward.",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l02"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "Opens 'itself': every day with nine - five for the limbs, one for the innards, one for the fine flour,",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l02"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "continuing: one for the griddle-cakes, and one for the wine; and this follows Rabbi Eliezer",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l02"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "continuing: ben Yaakov, who does not hold there is one extra for bringing up",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l02"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "closing: from the ramp to the altar.' Then opens 'on the festival': for it needs two",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l02"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "closing: libations, one of wine and one of water.",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l02"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "Opens 'in hand': one priest, one flask of water.",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l02"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Opens 'in the afternoon': that every day two have in their hands",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: two logs of wood to add to the wood of",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: the arrangement, to increase it; and the Gemara derives it",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "continuing: from a verse, that in the afternoon the daily-offering requires",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "continuing: two logs by two priests, but in the morning",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: it does not need the arranging of two logs, but by one",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "closing: priest, as it is written, 'and the priest shall kindle it.'",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Opens 'and on the Shabbat within the festival, etc.': behold, there are twelve",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l05"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "closing: in all.' Then opens 'Gemara: from where do we know this - from the fact that it teaches, and on Shabbat",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: etc.': by inference, that on the other days of the festival, it does not",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "continuing: happen to require twelve; and if you say",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: that even in the afternoon they pour the water libation on the weekdays of",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: all the days of the festival, you would find twelve in the",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: afternoon too - itself with nine, and two in their hands",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "closing: two logs, and one with a flask of water in his hand.",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Opens 'and to the one pouring the water he says, raise",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: your hand': so that it is visible that he pours the flask into",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: the silver bowl on the altar, which is",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: perforated like a thin nostril, through which the wine flows",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: and exits, and that is the libation.' 'That once",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "continuing: he poured it on his feet': he did not pour the flask",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: into the bowl but poured the water on his feet, since",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "closing: he was a Sadducee and did not accept the water libation.",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "Opens 'with their citrons': why do I need it to teach 'with their citrons'",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "continuing: if not to teach us that the water libation",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "closing: applies only at the time of taking the lulav.",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "Opens 'and say we do one': one priest",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l24"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "continuing: shall arrange two logs in the morning, as it is written, 'and he shall kindle it'",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l24"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: singular, and let us do two - then two",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l24"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "continuing: priests shall bring, to make their two logs again",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l24"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "closing: in the morning, as it is written, 'and they shall arrange,' plural, twice.",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l24"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "Opens 'and he shall kindle, and they shall kindle': let it write both in the same",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "closing: wording.' Then opens 'sometimes thirteen': priests occupied",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l30"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "continuing: with the service of the daily-offering, as we learned in our mishnah,",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l30"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "closing: in the second lottery thirteen priests merit through it.",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l30"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Opens 'sometimes fourteen': on the festival, in the hand of one, a flask",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l30"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "closing: of water.' Then opens 'sometimes fifteen': on Shabbat.",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l30"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "Opens 'sometimes sixteen': on the Shabbat within",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l30"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "closing: the festival.' This is the reading: 'but was it not taught, seventeen' -",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l31a"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "Opens 'that one is not according to Rabbi Eliezer ben Yaakov but according to Rabbi",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l31b"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "continuing: Yehuda': that tanna holds there is also another",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l31b"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "continuing: priest, who brings the limbs up from",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l31b"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "continuing: the ramp to the altar, and so here there are seventeen, which does not",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l31b"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "continuing: follow Rabbi Eliezer ben Yaakov but Rabbi Yehuda,",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l31b"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "continuing: who says there was no lottery for the fire-pan; and by",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l31b"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "continuing: necessity this tanna does not hold like Rabbi Eliezer ben Yaakov, for if so the lotteries would be too few, as we said above, and he needed a priest for the one from the ramp to the altar; and I have heard it in",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l31b"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "continuing: other wordings, and it is not possible to establish it; and if we heard from him that Rabbi Yehuda said there was no lottery for the fire-pan, we did not hear from him that he said there was no priest for the fire-pan; rather",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l31b"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "continuing: he says: the priest who merited the incense says to the one standing beside him, 'merit with me in the fire-pan'; but from Rabbi Eliezer ben Yaakov we heard that he said there was no priest",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l31b"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "closing: to bring the limbs up from the ramp to the altar, but they themselves, who brought them up to the ramp, would bring them up to the altar.' Then opens 'mishnah: the flesh with five': like the daily-offering's ramp-carriers.' Then opens 'the fine flour' -",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l31b"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "closing: was two-tenths, and two priests.' Then opens 'in what case is this said': for we need all these priests for each animal, and we need a lottery.' Then opens 'if a priest wished to offer' -",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 60,
-      "en": "continuing: alone, all of it, and without a lottery.' Then opens 'their flaying and dismemberment': of communal and individual offerings are equal, being valid by a non-priest, and thus it is explained in the Gemara.",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 61,
-      "en": "Opens 'this' -",
-      "linkedGemaraLineIds": [
-        "yoma-026b-l41"
-      ]
+     "id": "yoma-026b-l01",
+     "type": "resolution",
+     "label": "Lottery discussion conclusion",
+     "text": "Final conclusion of the lottery assignment debate from the previous page.",
+     "sourceRefs": [
+      "Yoma.26b.1"
+     ]
     }
-  ],
-  "sugyot": [
+   ],
+   "topicTags": [
+    "lottery",
+    "transitional",
+    "Temple procedure"
+   ],
+   "concepts": {
+    "halachic": [
+     "lottery conclusion"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "lottery system"
+   ],
+   "misconceptions": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-026b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 1
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.26b.1"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.26b.1"
-      ],
-      "display": {
-        "title": "Closing the lottery chapter: one last line before the priest-count mishna",
-        "whats": "Final conclusion of the previous lottery discussion before the new mishna.",
-        "hint": "Transitional passage."
-      },
-      "learning": {
-        "learnerQuestion": "What is this brief closing line doing before the mishna on priest counts begins?",
-        "coreTension": "The lottery discussion spanning the prior daf needs a clean endpoint before the Gemara can move to a completely different topic - how many priests serve each offering.",
-        "coreMove": "This line supplies that endpoint, finishing the lottery-assignment debate so the priest-count mishna can open without unresolved business from the previous topic.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "A short closing line at a topic boundary is doing real structural work even though it adds no new content - it signals that one sugya is fully resolved before the next begins."
-        },
-        "ahaMoment": "The Gemara ties up one discussion before moving to another - no topic is left hanging.",
-        "learningBlocker": "It would be a mistake to look for a substantive teaching in this line beyond its function as a closing transition - the lottery topic it concludes is already settled by what came before.",
-        "memoryAnchor": "Quick closure before the next major section."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-026b-l01",
-          "type": "resolution",
-          "label": "Lottery discussion conclusion",
-          "text": "Final conclusion of the lottery assignment debate from the previous page.",
-          "sourceRefs": [
-            "Yoma.26b.1"
-          ]
-        }
-      ],
-      "topicTags": [
-        "lottery",
-        "transitional",
-        "Temple procedure"
-      ],
-      "concepts": {
-        "halachic": [
-          "lottery conclusion"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "lottery system"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "This is the main content of 26b.",
-          "correction": "It is only a brief transition that closes the previous page's lottery discussion before the priest-count mishna begins."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-026a-s04"
-      ],
-      "visualizableElements": [
-        {
-          "type": "text",
-          "label": "Transitional passage",
-          "description": "Brief closure"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What is the function of the brief passage at the start of 26b?",
-          "answer": "It concludes the previous lottery discussion before introducing the priest-count mishna."
-        }
-      ],
-      "finalRuling": "Transitional.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 2,
-      "id": "yoma-026b-s02",
-      "lineRange": {
-        "startVilnaLine": 2,
-        "endVilnaLine": 31
-      },
-      "lines": [
-        {
-          "vilnaLine": 2,
-          "sefariaRef": "Yoma.26b.2"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.26b.3"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.26b.4"
-        },
-        {
-          "vilnaLine": 15,
-          "sefariaRef": "Yoma.26b.5"
-        },
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.26b.6"
-        },
-        {
-          "vilnaLine": 24,
-          "sefariaRef": "Yoma.26b.7"
-        },
-        {
-          "vilnaLine": 26,
-          "sefariaRef": "Yoma.26b.8"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.26b.9"
-        },
-        {
-          "vilnaLine": 30,
-          "sefariaRef": "Yoma.26b.10"
-        },
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.26b.11"
-        },
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.26b.12"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.26b.2",
-        "Yoma.26b.3",
-        "Yoma.26b.4",
-        "Yoma.26b.5",
-        "Yoma.26b.6",
-        "Yoma.26b.7",
-        "Yoma.26b.8",
-        "Yoma.26b.9",
-        "Yoma.26b.10",
-        "Yoma.26b.11",
-        "Yoma.26b.12"
-      ],
-      "display": {
-        "title": "Nine in the morning, eleven by afternoon: counting priests, and proving the afternoon tamid from a doubled word",
-        "whats": "The Mishna counts nine priests for the morning tamid and eleven for the afternoon. The Gemara asks when wine libations were offered and derives the source for the afternoon offering from doubled biblical language.",
-        "hint": "The afternoon tamid has more priests than the morning because libations and wood-carrying require extra hands after midday."
-      },
-      "learning": {
-        "learnerQuestion": "Why does the afternoon tamid need two more priests than the morning tamid, and why does the Torah need a doubled phrase to even establish that an afternoon offering is required at all?",
-        "coreTension": "Nothing about the daily routine makes an afternoon offering self-evidently necessary on its own logic - if the Torah had only written the command once, it would most naturally be read as describing the morning offering alone.",
-        "coreMove": "R. Shimon ben Yochai locates the afternoon tamid's requirement in the doubled phrase 'in the morning, in the morning' in Leviticus 6. The Gemara tests this: maybe both instances of 'morning' just describe the morning offering twice, redundantly. The resolution is that redundancy is exactly the textual signal the Gemara relies on - if a single instance would already cover the morning, the second instance must be teaching something beyond it, namely those same tasks performed again in the afternoon. The extra two priests in the afternoon then trace to specific added tasks (such as additional lamp-related work) that simply do not arise in the morning service.",
-        "resolution": "The Torah's explicit doubling is necessary precisely because the afternoon offering's existence is not derivable from the routine's own logic - it is a separate textual requirement, not an obvious inference, which is why the derivation has to lean on the doubled language rather than common sense.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "When a law cannot be derived from practical logic alone, the Gemara looks for a textual marker like redundant phrasing to ground the requirement in the verse itself - extra priests for extra tasks follow once the underlying obligation is established this way."
-        },
-        "ahaMoment": "The afternoon tamid has more priests not because the service is more complex - but because the afternoon also includes clearing additional lamps and performing extra tasks that don't occur in the morning.",
-        "learningBlocker": "It is easy to assume the afternoon tamid's extra priests reflect a generally heavier afternoon workload, when the sugya actually traces each extra priest to specific, named additional tasks rather than to an overall increase in complexity.",
-        "memoryAnchor": "Morning = 9 priests. Afternoon = 11. The extra 2 handle the additional tasks that only happen later in the day."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-026b-l02",
-          "type": "ruling",
-          "label": "Mishna: 9 morning priests",
-          "text": "The daily morning offering requires nine priests - one for each of the major tasks listed.",
-          "sourceRefs": [
-            "Yoma.26b.2"
-          ]
-        },
-        {
-          "id": "yoma-026b-l08",
-          "type": "ruling",
-          "label": "Mishna: 11 afternoon priests",
-          "text": "The afternoon offering requires eleven priests - two more than morning due to additional tasks.",
-          "sourceRefs": [
-            "Yoma.26b.3"
-          ]
-        },
-        {
-          "id": "yoma-026b-l12",
-          "type": "claim",
-          "label": "R. Abba: wine libations on festivals only",
-          "text": "R. Abba: the Mishna implies that wine libations were added on festival days, confirming water libations were unique to Sukkot.",
-          "sourceRefs": [
-            "Yoma.26b.4"
-          ]
-        },
-        {
-          "id": "yoma-026b-l15",
-          "type": "proof",
-          "label": "R. Shimon ben Yochai: afternoon source verse",
-          "text": "R. Shimon ben Yochai derives the obligation to offer the afternoon tamid from the doubled expression 'in the morning, in the morning' in Leviticus.",
-          "sourceRefs": [
-            "Yoma.26b.6"
-          ]
-        },
-        {
-          "id": "yoma-026b-l19",
-          "type": "objection",
-          "label": "Both verses might mean morning only",
-          "text": "Challenge: perhaps both references to 'morning' in the verse describe the morning offering twice, not the afternoon.",
-          "sourceRefs": [
-            "Yoma.26b.7"
-          ]
-        },
-        {
-          "id": "yoma-026b-l23",
-          "type": "resolution",
-          "label": "Torah's doubling teaches afternoon",
-          "text": "If the Torah had written only 'and he shall burn wood on it', morning would be sufficient. The doubled 'in the morning' teaches that an afternoon service is also required.",
-          "sourceRefs": [
-            "Yoma.26b.9"
-          ]
-        },
-        {
-          "id": "yoma-026b-l28",
-          "type": "claim",
-          "label": "R. Chiyya: sometimes 13 priests",
-          "text": "R. Chiyya: on some days thirteen priests participated, for tasks involving the wine libation (the extra two beyond the standard eleven).",
-          "sourceRefs": [
-            "Yoma.26b.11"
-          ]
-        },
-        {
-          "id": "yoma-026b-l30",
-          "type": "resolution",
-          "label": "14-priest baraita: not R. Eliezer ben Yaakov",
-          "text": "The contradictory baraita saying fourteen priests follows a different tanna, not R. Eliezer ben Yaakov.",
-          "sourceRefs": [
-            "Yoma.26b.12"
-          ]
-        }
-      ],
-      "topicTags": [
-        "tamid priest count",
-        "morning tamid",
-        "afternoon tamid",
-        "libations",
-        "Sukkot",
-        "R. Shimon ben Yochai",
-        "biblical derivation",
-        "R. Chiyya"
-      ],
-      "concepts": {
-        "halachic": [
-          "nine morning priests",
-          "eleven afternoon priests",
-          "wine vs water libations",
-          "afternoon tamid derivation"
-        ],
-        "theological": [
-          "doubled biblical language as legal derivation",
-          "precision of Temple service numbers"
-        ],
-        "narrative": [
-          "R. Abba's festival-libation teaching",
-          "reconciliation of R. Chiyya's thirteen with R. Eliezer ben Yaakov"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "tamid service",
-        "libations (nesachim)",
-        "Sukkot water libation"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The afternoon tamid had more priests because the afternoon service was inherently more complex.",
-          "correction": "The extra priests handled specific additional tasks (like certain lamp clearings) that happened to occur only in the afternoon - it is not a general complexity difference."
-        },
-        {
-          "misconception": "Wine libations were offered every day with the tamid.",
-          "correction": "R. Abba's teaching implies they were added only on festival days, distinct from the water libations unique to Sukkot."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-025a-s02",
-        "yoma-026a-s03"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "9 morning vs 11 afternoon priests",
-          "description": "Diagram showing which tasks required additional priests in the afternoon"
-        },
-        {
-          "type": "text",
-          "label": "Biblical doubled phrase",
-          "description": "Leviticus 6's 'in the morning, in the morning' as source for the afternoon tamid"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "How many priests served in the morning tamid vs the afternoon tamid?",
-          "answer": "Nine priests for the morning tamid and eleven for the afternoon."
-        },
-        {
-          "question": "What does R. Shimon ben Yochai use as his biblical source for the afternoon tamid obligation?",
-          "answer": "The doubled expression 'in the morning, in the morning' (Leviticus 6) - the repetition teaches that both morning and afternoon services are required."
-        }
-      ],
-      "finalRuling": "Nine priests for morning tamid, eleven for afternoon. The afternoon service is biblically mandated from the doubled morning phrase.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 3,
-      "id": "yoma-026b-s03",
-      "lineRange": {
-        "startVilnaLine": 32,
-        "endVilnaLine": 41
-      },
-      "lines": [
-        {
-          "vilnaLine": 32,
-          "sefariaRef": "Yoma.26b.13"
-        },
-        {
-          "vilnaLine": 39,
-          "sefariaRef": "Yoma.26b.14"
-        },
-        {
-          "vilnaLine": 40,
-          "sefariaRef": "Yoma.26b.15"
-        },
-        {
-          "vilnaLine": 41,
-          "sefariaRef": "Yoma.26b.16"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.26b.13",
-        "Yoma.26b.14",
-        "Yoma.26b.15",
-        "Yoma.26b.16"
-      ],
-      "display": {
-        "title": "Eleven hands for one ram: where communal and individual offerings part ways, and where they don't",
-        "whats": "A communal ram burnt-offering required eleven priests. The Gemara establishes that flaying and cutting are equal for individual and communal offerings, and derives this from a biblical analogy.",
-        "hint": "Communal and individual offerings are treated identically for the physical processing steps (flaying, cutting)."
-      },
-      "learning": {
-        "learnerQuestion": "If communal offerings have special rules for slaughter and blood-sprinkling, why are flaying and cutting treated exactly the same as for an individual's offering?",
-        "coreTension": "Communal offerings clearly differ from individual ones in significant ways - eleven priests for one ram is itself evidence of special communal treatment - so it is not obvious why the physical butchering steps would be exempt from that same differentiation.",
-        "coreMove": "Hizkiya grounds the equality in a direct verse-to-verse biblical comparison, establishing that flaying and cutting follow the same rule regardless of whether the offering is individual or communal, even though the elaborate eleven-priest distribution for slaughter-adjacent and sprinkling-adjacent tasks remains specific to the communal context.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "A single offering can be communal for some halakhic purposes (like priest distribution and possibly slaughter/sprinkling rules) while remaining governed by the ordinary individual-offering rules for others (like flaying and cutting) - status is not all-or-nothing across every stage of the process."
-        },
-        "ahaMoment": "Individual and communal offerings might have different rules for slaughter and sprinkling (because communal offerings have special rules), but the physical processing steps (flaying and cutting) are identical.",
-        "learningBlocker": "The sugya supplies Hizkiya's textual source for the equality but does not explain the conceptual reason flaying and cutting specifically were singled out as identical while slaughter and sprinkling were not - that deeper rationale is not addressed in this passage.",
-        "memoryAnchor": "Flaying and cutting = same rules for all. Slaughter and blood-sprinkling = potentially different by offering type."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-026b-l32",
-          "type": "ruling",
-          "label": "Mishna: communal ram = 11 priests",
-          "text": "A communal ram burnt-offering was sacrificed by eleven priests with specific task assignments.",
-          "sourceRefs": [
-            "Yoma.26b.13"
-          ]
-        },
-        {
-          "id": "yoma-026b-l33",
-          "type": "premise",
-          "label": "Limb distribution for communal ram",
-          "text": "The mishna specifies how the ram's limbs were distributed among the eleven priests.",
-          "sourceRefs": [
-            "Yoma.26b.14"
-          ]
-        },
-        {
-          "id": "yoma-026b-l36",
-          "type": "ruling",
-          "label": "Individual = communal for flaying/cutting",
-          "text": "Individual and communal offerings are treated identically for flaying and cutting.",
-          "sourceRefs": [
-            "Yoma.26b.15"
-          ]
-        },
-        {
-          "id": "yoma-026b-l41",
-          "type": "proof",
-          "label": "Hizkiya's biblical derivation",
-          "text": "Hizkiya derives the equality of individual and communal offerings for flaying from a verse-to-verse comparison.",
-          "sourceRefs": [
-            "Yoma.26b.16"
-          ]
-        }
-      ],
-      "topicTags": [
-        "communal offering",
-        "ram burnt-offering",
-        "eleven priests",
-        "flaying",
-        "cutting",
-        "Hizkiya",
-        "individual vs communal"
-      ],
-      "concepts": {
-        "halachic": [
-          "communal ram = 11 priests",
-          "flaying equality for all offerings",
-          "individual vs communal offering rules"
-        ],
-        "theological": [],
-        "narrative": [
-          "Hizkiya's biblical derivation"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "communal offerings",
-        "burnt-offering service",
-        "flaying and cutting process"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Communal offerings had entirely different rules for all steps.",
-          "correction": "Only slaughter and blood-sprinkling differ; flaying and cutting use the same rules as individual offerings."
-        },
-        {
-          "misconception": "Eleven priests were needed for the communal ram for the same reasons as the afternoon tamid's extra priests.",
-          "correction": "Each offering type has its own specific distribution logic - the communal ram's eleven-priest structure is not simply borrowed from the tamid's task division."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-026b-s02",
-        "yoma-027a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "Communal vs individual offering rules",
-          "description": "Flaying and cutting: identical rules; slaughter and sprinkling: potentially different"
-        },
-        {
-          "type": "sequence",
-          "label": "Eleven priests for communal ram",
-          "description": "Specific task assignments for each of the eleven priests"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "How many priests participated in the communal ram burnt-offering?",
-          "answer": "Eleven priests, each assigned specific tasks."
-        },
-        {
-          "question": "For which steps are communal and individual offerings treated identically?",
-          "answer": "Flaying and cutting - these steps are the same regardless of whether the offering is individual or communal."
-        }
-      ],
-      "finalRuling": "Communal ram requires eleven priests. Individual and communal offerings are equal for flaying and cutting.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "This is the main content of 26b.",
+     "correction": "It is only a brief transition that closes the previous page's lottery discussion before the priest-count mishna begins."
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-026a-s04"
+   ],
+   "visualizableElements": [
+    {
+     "type": "text",
+     "label": "Transitional passage",
+     "description": "Brief closure"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What is the function of the brief passage at the start of 26b?",
+     "answer": "It concludes the previous lottery discussion before introducing the priest-count mishna."
+    }
+   ],
+   "finalRuling": "Transitional.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-026b-s02",
+   "lineRange": {
+    "startVilnaLine": 2,
+    "endVilnaLine": 31
+   },
+   "lines": [
+    {
+     "vilnaLine": 2,
+     "sefariaRef": "Yoma.26b.2"
+    },
+    {
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.26b.3"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.26b.4"
+    },
+    {
+     "vilnaLine": 15,
+     "sefariaRef": "Yoma.26b.5"
+    },
+    {
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.26b.6"
+    },
+    {
+     "vilnaLine": 24,
+     "sefariaRef": "Yoma.26b.7"
+    },
+    {
+     "vilnaLine": 26,
+     "sefariaRef": "Yoma.26b.8"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.26b.9"
+    },
+    {
+     "vilnaLine": 30,
+     "sefariaRef": "Yoma.26b.10"
+    },
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.26b.11"
+    },
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.26b.12"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.26b.2",
+    "Yoma.26b.3",
+    "Yoma.26b.4",
+    "Yoma.26b.5",
+    "Yoma.26b.6",
+    "Yoma.26b.7",
+    "Yoma.26b.8",
+    "Yoma.26b.9",
+    "Yoma.26b.10",
+    "Yoma.26b.11",
+    "Yoma.26b.12"
+   ],
+   "display": {
+    "title": "Nine in the morning, eleven by afternoon: counting priests, and proving the afternoon tamid from a doubled word",
+    "whats": "The Mishna counts nine priests for the morning tamid and eleven for the afternoon. The Gemara asks when wine libations were offered and derives the source for the afternoon offering from doubled biblical language.",
+    "hint": "The afternoon tamid has more priests than the morning because libations and wood-carrying require extra hands after midday."
+   },
+   "learning": {
+    "learnerQuestion": "Why does the afternoon tamid need two more priests than the morning tamid, and why does the Torah need a doubled phrase to even establish that an afternoon offering is required at all?",
+    "coreTension": "Nothing about the daily routine makes an afternoon offering self-evidently necessary on its own logic - if the Torah had only written the command once, it would most naturally be read as describing the morning offering alone.",
+    "coreMove": "R. Shimon ben Yochai locates the afternoon tamid's requirement in the doubled phrase 'in the morning, in the morning' in Leviticus 6. The Gemara tests this: maybe both instances of 'morning' just describe the morning offering twice, redundantly. The resolution is that redundancy is exactly the textual signal the Gemara relies on - if a single instance would already cover the morning, the second instance must be teaching something beyond it, namely those same tasks performed again in the afternoon. The extra two priests in the afternoon then trace to specific added tasks (such as additional lamp-related work) that simply do not arise in the morning service.",
+    "resolution": "The Torah's explicit doubling is necessary precisely because the afternoon offering's existence is not derivable from the routine's own logic - it is a separate textual requirement, not an obvious inference, which is why the derivation has to lean on the doubled language rather than common sense.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "When a law cannot be derived from practical logic alone, the Gemara looks for a textual marker like redundant phrasing to ground the requirement in the verse itself - extra priests for extra tasks follow once the underlying obligation is established this way."
+    },
+    "ahaMoment": "The afternoon tamid has more priests not because the service is more complex - but because the afternoon also includes clearing additional lamps and performing extra tasks that don't occur in the morning.",
+    "learningBlocker": "It is easy to assume the afternoon tamid's extra priests reflect a generally heavier afternoon workload, when the sugya actually traces each extra priest to specific, named additional tasks rather than to an overall increase in complexity.",
+    "memoryAnchor": "Morning = 9 priests. Afternoon = 11. The extra 2 handle the additional tasks that only happen later in the day."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-026b-l02",
+     "type": "ruling",
+     "label": "Mishna: 9 morning priests",
+     "text": "The daily morning offering requires nine priests - one for each of the major tasks listed.",
+     "sourceRefs": [
+      "Yoma.26b.2"
+     ]
+    },
+    {
+     "id": "yoma-026b-l08",
+     "type": "ruling",
+     "label": "Mishna: 11 afternoon priests",
+     "text": "The afternoon offering requires eleven priests - two more than morning due to additional tasks.",
+     "sourceRefs": [
+      "Yoma.26b.3"
+     ]
+    },
+    {
+     "id": "yoma-026b-l12",
+     "type": "claim",
+     "label": "R. Abba: wine libations on festivals only",
+     "text": "R. Abba: the Mishna implies that wine libations were added on festival days, confirming water libations were unique to Sukkot.",
+     "sourceRefs": [
+      "Yoma.26b.4"
+     ]
+    },
+    {
+     "id": "yoma-026b-l15",
+     "type": "proof",
+     "label": "R. Shimon ben Yochai: afternoon source verse",
+     "text": "R. Shimon ben Yochai derives the obligation to offer the afternoon tamid from the doubled expression 'in the morning, in the morning' in Leviticus.",
+     "sourceRefs": [
+      "Yoma.26b.6"
+     ]
+    },
+    {
+     "id": "yoma-026b-l19",
+     "type": "objection",
+     "label": "Both verses might mean morning only",
+     "text": "Challenge: perhaps both references to 'morning' in the verse describe the morning offering twice, not the afternoon.",
+     "sourceRefs": [
+      "Yoma.26b.7"
+     ]
+    },
+    {
+     "id": "yoma-026b-l23",
+     "type": "resolution",
+     "label": "Torah's doubling teaches afternoon",
+     "text": "If the Torah had written only 'and he shall burn wood on it', morning would be sufficient. The doubled 'in the morning' teaches that an afternoon service is also required.",
+     "sourceRefs": [
+      "Yoma.26b.9"
+     ]
+    },
+    {
+     "id": "yoma-026b-l28",
+     "type": "claim",
+     "label": "R. Chiyya: sometimes 13 priests",
+     "text": "R. Chiyya: on some days thirteen priests participated, for tasks involving the wine libation (the extra two beyond the standard eleven).",
+     "sourceRefs": [
+      "Yoma.26b.11"
+     ]
+    },
+    {
+     "id": "yoma-026b-l30",
+     "type": "resolution",
+     "label": "14-priest baraita: not R. Eliezer ben Yaakov",
+     "text": "The contradictory baraita saying fourteen priests follows a different tanna, not R. Eliezer ben Yaakov.",
+     "sourceRefs": [
+      "Yoma.26b.12"
+     ]
+    }
+   ],
+   "topicTags": [
+    "tamid priest count",
+    "morning tamid",
+    "afternoon tamid",
+    "libations",
+    "Sukkot",
+    "R. Shimon ben Yochai",
+    "biblical derivation",
+    "R. Chiyya"
+   ],
+   "concepts": {
+    "halachic": [
+     "nine morning priests",
+     "eleven afternoon priests",
+     "wine vs water libations",
+     "afternoon tamid derivation"
+    ],
+    "theological": [
+     "doubled biblical language as legal derivation",
+     "precision of Temple service numbers"
+    ],
+    "narrative": [
+     "R. Abba's festival-libation teaching",
+     "reconciliation of R. Chiyya's thirteen with R. Eliezer ben Yaakov"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "tamid service",
+    "libations (nesachim)",
+    "Sukkot water libation"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The afternoon tamid had more priests because the afternoon service was inherently more complex.",
+     "correction": "The extra priests handled specific additional tasks (like certain lamp clearings) that happened to occur only in the afternoon - it is not a general complexity difference."
+    },
+    {
+     "misconception": "Wine libations were offered every day with the tamid.",
+     "correction": "R. Abba's teaching implies they were added only on festival days, distinct from the water libations unique to Sukkot."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-025a-s02",
+    "yoma-026a-s03"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "9 morning vs 11 afternoon priests",
+     "description": "Diagram showing which tasks required additional priests in the afternoon"
+    },
+    {
+     "type": "text",
+     "label": "Biblical doubled phrase",
+     "description": "Leviticus 6's 'in the morning, in the morning' as source for the afternoon tamid"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "How many priests served in the morning tamid vs the afternoon tamid?",
+     "answer": "Nine priests for the morning tamid and eleven for the afternoon."
+    },
+    {
+     "question": "What does R. Shimon ben Yochai use as his biblical source for the afternoon tamid obligation?",
+     "answer": "The doubled expression 'in the morning, in the morning' (Leviticus 6) - the repetition teaches that both morning and afternoon services are required."
+    }
+   ],
+   "finalRuling": "Nine priests for morning tamid, eleven for afternoon. The afternoon service is biblically mandated from the doubled morning phrase.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-026b-s03",
+   "lineRange": {
+    "startVilnaLine": 32,
+    "endVilnaLine": 41
+   },
+   "lines": [
+    {
+     "vilnaLine": 32,
+     "sefariaRef": "Yoma.26b.13"
+    },
+    {
+     "vilnaLine": 39,
+     "sefariaRef": "Yoma.26b.14"
+    },
+    {
+     "vilnaLine": 40,
+     "sefariaRef": "Yoma.26b.15"
+    },
+    {
+     "vilnaLine": 41,
+     "sefariaRef": "Yoma.26b.16"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.26b.13",
+    "Yoma.26b.14",
+    "Yoma.26b.15",
+    "Yoma.26b.16"
+   ],
+   "display": {
+    "title": "Eleven hands for one ram: where communal and individual offerings part ways, and where they don't",
+    "whats": "A communal ram burnt-offering required eleven priests. The Gemara establishes that flaying and cutting are equal for individual and communal offerings, and derives this from a biblical analogy.",
+    "hint": "Communal and individual offerings are treated identically for the physical processing steps (flaying, cutting)."
+   },
+   "learning": {
+    "learnerQuestion": "If communal offerings have special rules for slaughter and blood-sprinkling, why are flaying and cutting treated exactly the same as for an individual's offering?",
+    "coreTension": "Communal offerings clearly differ from individual ones in significant ways - eleven priests for one ram is itself evidence of special communal treatment - so it is not obvious why the physical butchering steps would be exempt from that same differentiation.",
+    "coreMove": "Hizkiya grounds the equality in a direct verse-to-verse biblical comparison, establishing that flaying and cutting follow the same rule regardless of whether the offering is individual or communal, even though the elaborate eleven-priest distribution for slaughter-adjacent and sprinkling-adjacent tasks remains specific to the communal context.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "A single offering can be communal for some halakhic purposes (like priest distribution and possibly slaughter/sprinkling rules) while remaining governed by the ordinary individual-offering rules for others (like flaying and cutting) - status is not all-or-nothing across every stage of the process."
+    },
+    "ahaMoment": "Individual and communal offerings might have different rules for slaughter and sprinkling (because communal offerings have special rules), but the physical processing steps (flaying and cutting) are identical.",
+    "learningBlocker": "The sugya supplies Hizkiya's textual source for the equality but does not explain the conceptual reason flaying and cutting specifically were singled out as identical while slaughter and sprinkling were not - that deeper rationale is not addressed in this passage.",
+    "memoryAnchor": "Flaying and cutting = same rules for all. Slaughter and blood-sprinkling = potentially different by offering type."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-026b-l32",
+     "type": "ruling",
+     "label": "Mishna: communal ram = 11 priests",
+     "text": "A communal ram burnt-offering was sacrificed by eleven priests with specific task assignments.",
+     "sourceRefs": [
+      "Yoma.26b.13"
+     ]
+    },
+    {
+     "id": "yoma-026b-l33",
+     "type": "premise",
+     "label": "Limb distribution for communal ram",
+     "text": "The mishna specifies how the ram's limbs were distributed among the eleven priests.",
+     "sourceRefs": [
+      "Yoma.26b.14"
+     ]
+    },
+    {
+     "id": "yoma-026b-l36",
+     "type": "ruling",
+     "label": "Individual = communal for flaying/cutting",
+     "text": "Individual and communal offerings are treated identically for flaying and cutting.",
+     "sourceRefs": [
+      "Yoma.26b.15"
+     ]
+    },
+    {
+     "id": "yoma-026b-l41",
+     "type": "proof",
+     "label": "Hizkiya's biblical derivation",
+     "text": "Hizkiya derives the equality of individual and communal offerings for flaying from a verse-to-verse comparison.",
+     "sourceRefs": [
+      "Yoma.26b.16"
+     ]
+    }
+   ],
+   "topicTags": [
+    "communal offering",
+    "ram burnt-offering",
+    "eleven priests",
+    "flaying",
+    "cutting",
+    "Hizkiya",
+    "individual vs communal"
+   ],
+   "concepts": {
+    "halachic": [
+     "communal ram = 11 priests",
+     "flaying equality for all offerings",
+     "individual vs communal offering rules"
+    ],
+    "theological": [],
+    "narrative": [
+     "Hizkiya's biblical derivation"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "communal offerings",
+    "burnt-offering service",
+    "flaying and cutting process"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Communal offerings had entirely different rules for all steps.",
+     "correction": "Only slaughter and blood-sprinkling differ; flaying and cutting use the same rules as individual offerings."
+    },
+    {
+     "misconception": "Eleven priests were needed for the communal ram for the same reasons as the afternoon tamid's extra priests.",
+     "correction": "Each offering type has its own specific distribution logic - the communal ram's eleven-priest structure is not simply borrowed from the tamid's task division."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-026b-s02",
+    "yoma-027a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "Communal vs individual offering rules",
+     "description": "Flaying and cutting: identical rules; slaughter and sprinkling: potentially different"
+    },
+    {
+     "type": "sequence",
+     "label": "Eleven priests for communal ram",
+     "description": "Specific task assignments for each of the eleven priests"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "How many priests participated in the communal ram burnt-offering?",
+     "answer": "Eleven priests, each assigned specific tasks."
+    },
+    {
+     "question": "For which steps are communal and individual offerings treated identically?",
+     "answer": "Flaying and cutting - these steps are the same regardless of whether the offering is individual or communal."
+    }
+   ],
+   "finalRuling": "Communal ram requires eleven priests. Individual and communal offerings are equal for flaying and cutting.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "review": "reviewed"
+  }
+ ]
 }
