@@ -1,958 +1,971 @@
 {
-  "daf": "24b",
-  "canonicalRef": "Yoma 24b",
-  "summary": "Two major topics close out the batch: (1) An extended discussion of which services within the veil (the inner sanctuary, including the Holy of Holies) require the kohen gadol vs. the common priests, and whether kohanim with blemishes may assist with certain support tasks. The Talmud systematically analyzes which Temple activities fall within or outside the veil, who may perform them, and whether the prohibition on blemished kohanim extends to logistical tasks. (2) The mishna resumes the lottery: the second lottery covers 13 positions, which are detailed. The Gemara discusses each position's requirements.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "24b",
+ "canonicalRef": "Yoma 24b",
+ "summary": "Two major topics close out the batch: (1) An extended discussion of which services within the veil (the inner sanctuary, including the Holy of Holies) require the kohen gadol vs. the common priests, and whether kohanim with blemishes may assist with certain support tasks. The Talmud systematically analyzes which Temple activities fall within or outside the veil, who may perform them, and whether the prohibition on blemished kohanim extends to logistical tasks. (2) The mishna resumes the lottery: the second lottery covers 13 positions, which are detailed. The Gemara discusses each position's requirements.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-024b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 34
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-024b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 34
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.24b.1"
-        },
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.24b.2"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.24b.3"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.24b.4"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.24b.5"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.24b.6"
-        },
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.24b.7"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.24b.8"
-        },
-        {
-          "vilnaLine": 15,
-          "sefariaRef": "Yoma.24b.9"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.24b.10"
-        },
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.24b.11"
-        },
-        {
-          "vilnaLine": 26,
-          "sefariaRef": "Yoma.24b.12"
-        },
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.24b.13"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.24b.1",
-        "Yoma.24b.2",
-        "Yoma.24b.3",
-        "Yoma.24b.4",
-        "Yoma.24b.5",
-        "Yoma.24b.6",
-        "Yoma.24b.7",
-        "Yoma.24b.8",
-        "Yoma.24b.9",
-        "Yoma.24b.10",
-        "Yoma.24b.11",
-        "Yoma.24b.12",
-        "Yoma.24b.13"
-      ],
-      "display": {
-        "whats": "Services within the veil (lifnim min haparochet): which require the KG and which can be done by common priests? An analysis of the criteria: service within the veil must be done by the KG specifically on Yom Kippur; but at other times, common priests may enter the heichal for specific purposes. Blemished kohanim: may they assist with support tasks? The discussion covers the full topology of Temple service eligibility based on location, day, and physical qualifications.",
-        "title": "Two maps, not one: where you stand and what you look like both decide who may serve",
-        "hint": "The veil (parochet) is the physical dividing line between the heichal (outer sanctuary) and the kodesh hakodashim (Holy of Holies). Services on each side of this line have different personnel requirements. Yom Kippur is the one day the KG enters the innermost space; the Gemara explores what this means for related services."
-      },
-      "learning": {
-        "learnerQuestion": "If the Holy of Holies is restricted to the Kohen Gadol and a blemished kohen is restricted from formal service, are these the same kind of restriction applied twice, or two separate rules that happen to overlap?",
-        "coreTension": "Both rules sound like 'only certain kohanim may serve here,' which invites collapsing them into one principle, yet one rule is about a place (the veil, on Yom Kippur) and the other is about a person's physical qualification (unblemished status, anywhere avodah happens). Treating them as the same rule would mispredict who may do what, and where.",
-        "coreMove": "The Gemara maps two independent axes. Location: within the veil on Yom Kippur, the KG alone; in the heichal, any common priest, all year; in the courtyard, any kosher kohen; beyond the courtyard, logistical participation broadens further. Physical qualification: a mum (blemish) disqualifies a kohen from formal avodah at any of those locations, but does not strip his general priestly status (teruma, duchaning remain his), and whether the disqualification reaches logistical support tasks (not formal avodah) is itself disputed, mirroring the non-priest support-task dispute just established for daf 24a.",
-        "resolution": "Within the veil on Yom Kippur: the Kohen Gadol only. In the heichal: any common priest. A blemished kohen is excluded from formal avodah everywhere, but retains his general priestly status, and authorities dispute whether logistical support tasks are open to him.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Location and physical qualification are independent eligibility criteria. A kohen can be barred by one and not the other, so the two restrictions must be checked separately, not assumed to track each other."
-        },
-        "ahaMoment": "The veil is not just an architectural feature, it is a theological boundary that determines personnel requirements by location alone. The mum rule is a completely separate axis, about the person rather than the place. The same kohen who is barred from the Holy of Holies on every day but Yom Kippur, and barred from it even then unless he is the KG, is a different question entirely from whether a blemish bars him from the altar at all.",
-        "learningBlocker": "Learners may assume a blemished kohen loses his priestly identity entirely. He does not; mum disqualifies specifically from performing avodah, not from teruma or duchaning. The sugya also sets up, without yet resolving, the KG's four separate entries into the Holy of Holies on Yom Kippur itself, each governed by its own conditions, which the Gemara develops fully in the chapters describing the Yom Kippur service.",
-        "memoryAnchor": "Inside veil (Yom Kippur): KG only. Heichal: common priests. Courtyard: any kosher kohen. Blemished kohanim: barred from avodah everywhere, status otherwise intact, support tasks disputed. Two separate axes: place and person."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-024b-l01",
-          "type": "ruling",
-          "label": "Services within the veil require the KG on Yom Kippur",
-          "text": "All services performed within the veil (in the Holy of Holies) on Yom Kippur must be done by the KG. Common priests cannot enter on Yom Kippur.",
-          "sourceRefs": [
-            "Yoma.24b.1"
-          ]
-        },
-        {
-          "id": "yoma-024b-l03",
-          "type": "elaboration",
-          "label": "Services in the heichal: common priests eligible",
-          "text": "Services in the outer sanctuary (heichal) - menorah, incense altar, showbread table - may be performed by common priests throughout the year. Only Yom Kippur restricts the inner area to the KG.",
-          "sourceRefs": [
-            "Yoma.24b.2"
-          ]
-        },
-        {
-          "id": "yoma-024b-l06",
-          "type": "question",
-          "label": "Can blemished kohanim perform any Temple service?",
-          "text": "A kohen with a physical blemish (mum) is excluded from performing Temple service. The question: does this extend to logistical tasks (wood, ash carrying) or only to formal avodah?",
-          "sourceRefs": [
-            "Yoma.24b.3"
-          ]
-        },
-        {
-          "id": "yoma-024b-l07",
-          "type": "ruling",
-          "label": "Blemished kohanim are excluded from formal service",
-          "text": "Any physical blemish (mum) excludes a kohen from performing the altar service or burning on the fire. This applies to all formal avodah.",
-          "sourceRefs": [
-            "Yoma.24b.4"
-          ]
-        },
-        {
-          "id": "yoma-024b-l09",
-          "type": "dispute",
-          "label": "Blemished kohanim and logistical tasks",
-          "text": "Dispute: can a blemished kohen carry wood to the altar fire? Some say yes (logistical support, not formal avodah). Others say the prohibition extends to any participation in the altar area.",
-          "sourceRefs": [
-            "Yoma.24b.5"
-          ]
-        },
-        {
-          "id": "yoma-024b-l09",
-          "type": "elaboration",
-          "label": "Additional analysis of blemish categories",
-          "text": "Further examination of which types of blemishes disqualify and whether the disqualification is from the entire Temple area or only from the altar service.",
-          "sourceRefs": [
-            "Yoma.24b.6"
-          ]
-        },
-        {
-          "id": "yoma-024b-l12",
-          "type": "ruling",
-          "label": "Wood bringer: valid by any kohen including blemished",
-          "text": "Some authorities hold that a blemished kohen may bring wood to the altar fire because this is not formal avodah but logistical preparation.",
-          "sourceRefs": [
-            "Yoma.24b.7"
-          ]
-        },
-        {
-          "id": "yoma-024b-l14",
-          "type": "ruling",
-          "label": "Prohibition on blemished kohen doing avodah is absolute",
-          "text": "The prohibition on blemished kohanim performing avodah is derived from a specific verse. Any act classified as avodah requires an unblemished kohen.",
-          "sourceRefs": [
-            "Yoma.24b.8"
-          ]
-        },
-        {
-          "id": "yoma-024b-l15",
-          "type": "elaboration",
-          "label": "The four services the KG performs on Yom Kippur within the veil",
-          "text": "The four entries of the KG into the Holy of Holies on Yom Kippur, with the specific service performed at each entry, are enumerated as background to the service restriction.",
-          "sourceRefs": [
-            "Yoma.24b.9"
-          ]
-        },
-        {
-          "id": "yoma-024b-l20",
-          "type": "elaboration",
-          "label": "Services in the heichal on ordinary days",
-          "text": "On non-Yom Kippur days, common priests perform services in the heichal (menorah, showbread, incense). The KG may also perform these but is not required to.",
-          "sourceRefs": [
-            "Yoma.24b.10"
-          ]
-        },
-        {
-          "id": "yoma-024b-l23",
-          "type": "elaboration",
-          "label": "The principle: location determines personnel",
-          "text": "Inside the veil (Yom Kippur): KG only. Heichal: any kosher kohen. Courtyard (altar): any kosher kohen. Beyond the courtyard: logistical tasks may be broader.",
-          "sourceRefs": [
-            "Yoma.24b.11"
-          ]
-        },
-        {
-          "id": "yoma-024b-l26",
-          "type": "elaboration",
-          "label": "Summary of blemished kohen eligibility",
-          "text": "Blemished kohanim are excluded from all formal avodah at all Temple locations. For logistical support tasks, some authorities allow participation; others maintain the full exclusion throughout the Temple complex.",
-          "sourceRefs": [
-            "Yoma.24b.12"
-          ]
-        },
-        {
-          "id": "yoma-024b-l31",
-          "type": "conclusion",
-          "label": "Closing the within-the-veil analysis",
-          "text": "The Gemara concludes its analysis of who may serve where, preparing for the detailed description of the Yom Kippur service that will follow in later chapters.",
-          "sourceRefs": [
-            "Yoma.24b.13"
-          ]
-        }
-      ],
-      "topicTags": [
-        "within the veil",
-        "parochet",
-        "kohen gadol",
-        "blemished kohen",
-        "mum",
-        "heichal",
-        "holy of holies",
-        "avodah eligibility",
-        "Yom Kippur service"
-      ],
-      "concepts": {
-        "halachic": [
-          "lifnim min haparochet (within the veil)",
-          "mum (physical blemish) disqualification",
-          "heichal service vs. inner sanctuary",
-          "KG exclusivity on Yom Kippur"
-        ],
-        "theological": [
-          "the veil as theological boundary",
-          "physical perfection as requirement for inner sanctity"
-        ],
-        "narrative": [
-          "four KG entries on Yom Kippur as background"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "yoma-024a-s03"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The Kohen Gadol's exclusive access to the Holy of Holies is a year-round restriction.",
-          "correction": "It applies specifically to Yom Kippur. Throughout the rest of the year, the inner sanctuary is not entered for service at all; the heichal services are open to any kosher common priest."
-        },
-        {
-          "misconception": "A blemished kohen loses his status as a kohen entirely.",
-          "correction": "A mum excludes him only from performing formal Temple service (avodah). His general priestly status, including teruma and duchaning, is unaffected; only his eligibility to perform avodah is restricted."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-024a-s03",
-        "yoma-024b-s02",
-        "yoma-024a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "place",
-          "description": "Temple floor plan showing the three zones: Holy of Holies (KG only on Yom Kippur), Heichal (common priests), Courtyard (any kosher kohen) - with personnel requirements labeled"
-        },
-        {
-          "type": "contrast",
-          "description": "Unblemished kohen vs. blemished kohen: same priestly status, different service eligibility"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Who may perform services within the veil (lifnim min haparochet) on Yom Kippur, and what about the rest of the year?",
-          "answer": "On Yom Kippur: only the Kohen Gadol may enter the Holy of Holies (within the veil). Throughout the year: the inner sanctuary is not entered for service; the heichal services (menorah, incense, showbread) are performed by common priests."
-        },
-        {
-          "question": "What is the status of a kohen with a physical blemish (mum) regarding Temple service?",
-          "answer": "A blemished kohen is excluded from performing formal Temple service (avodah) at any location. His general priestly status (teruma, duchaning) is not affected. There is a dispute about whether he may perform logistical support tasks."
-        }
-      ],
-      "finalRuling": "Within the veil on Yom Kippur: KG only. Heichal: common priests. Blemished kohanim: excluded from avodah, disputed on logistical tasks.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "לִפְנִים מִן הַפָּרֹכֶת",
-          "translit": "lifnim min haparochet",
-          "en": "Within the veil; the Holy of Holies. On Yom Kippur, only the KG may enter."
-        },
-        {
-          "he": "מוּם",
-          "translit": "mum",
-          "en": "Physical blemish; disqualifies a kohen from performing formal Temple service but not from his general priestly status."
-        },
-        {
-          "he": "הֵיכָל",
-          "translit": "heichal",
-          "en": "The outer sanctuary; the space between the entrance hall and the Holy of Holies. Common priests perform services here throughout the year."
-        }
-      ],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.24b.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-024b-s02",
-      "lineRange": {
-        "startVilnaLine": 35,
-        "endVilnaLine": 49
-      },
-      "lines": [
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.24b.14"
-        },
-        {
-          "vilnaLine": 37,
-          "sefariaRef": "Yoma.24b.15"
-        },
-        {
-          "vilnaLine": 39,
-          "sefariaRef": "Yoma.24b.16"
-        },
-        {
-          "vilnaLine": 41,
-          "sefariaRef": "Yoma.24b.17"
-        },
-        {
-          "vilnaLine": 43,
-          "sefariaRef": "Yoma.24b.18"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.24b.14",
-        "Yoma.24b.15",
-        "Yoma.24b.16",
-        "Yoma.24b.17",
-        "Yoma.24b.18"
-      ],
-      "display": {
-        "whats": "The mishna's second lottery: 13 positions for the main morning service. The mishna lists all 13: slaughter, blood, removing ash from the inner altar, removing ash from the menorah, limbs in specific order, flour offering, wine libation, and final bringing to the ramp. The Gemara begins examining which of these positions could theoretically be combined and why each requires a separate designee.",
-        "title": "Thirteen priests for one offering: the lottery that turned a daily duty into shared privilege",
-        "hint": "The 13-position list for the second lottery is the most complex assignment in the Temple's morning. Each position is distinct: the order matters, the vessel matters, and the moment matters. Breaking it into 13 separate lottery positions ensures both fairness and precision."
-      },
-      "learning": {
-        "learnerQuestion": "Why split one morning offering into 13 separate lottery positions when a smaller crew could physically perform the same service?",
-        "coreTension": "Efficiency would favor fewer priests doing more each; the mishna does the opposite, multiplying the number of distinct positions to 13 for a single offering. That choice only makes sense if the lottery is optimizing for something other than workflow efficiency.",
-        "coreMove": "The Gemara confirms that combining positions, one priest doing two or more, was theoretically possible: the tasks do not halakhically require separate hands. The 13-way split is therefore a deliberate design choice, not a functional necessity, aimed at maximizing how many priests could share in performing the daily tamid each morning.",
-        "resolution": "One priest could, in principle, perform multiple of the 13 positions, but the lottery system deliberately assigned all 13 separately every morning to distribute participation in the daily offering as broadly as possible.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "A ritual's procedural structure can be designed to distribute participation rather than to minimize the number of participants."
-        },
-        "ahaMoment": "The 13-person list reveals how many priests were needed for a single daily morning offering, not because the task demanded it, but because the system wanted it. Modern readers might imagine one or two priests; in fact, 13 different priests each had a distinct role, by design.",
-        "learningBlocker": "Learners may assume the 13 positions are mandated by the physical complexity of the offering itself. The Gemara's own analysis shows otherwise: combination was theoretically available, and the granularity is a deliberate fairness mechanism, not a functional requirement of the offering.",
-        "memoryAnchor": "Second lottery: 13 positions, by design not necessity. Slaughter, blood, inner altar ash, menorah ash, then carriers of limbs and offerings, plus flour and wine. Splitting maximized participation."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-024b-l35",
-          "type": "ruling",
-          "label": "The 13 positions of the second lottery",
-          "text": "The mishna lists 13 distinct positions: slaughter, blood sprinkling, inner altar ash removal, menorah cleaning, and nine carriers of the offering's limbs and supplementary offerings.",
-          "sourceRefs": [
-            "Yoma.24b.14"
-          ]
-        },
-        {
-          "id": "yoma-024b-l37",
-          "type": "elaboration",
-          "label": "Why 13 separate positions?",
-          "text": "Each position represents a distinct halakhic act, and assigning each to a different priest maximized participation in the daily tamid service. The lottery's fairness required each position to be separate.",
-          "sourceRefs": [
-            "Yoma.24b.15"
-          ]
-        },
-        {
-          "id": "yoma-024b-l39",
-          "type": "elaboration",
-          "label": "The order of the positions",
-          "text": "The 13 positions follow the order of the tamid service: from slaughter through blood, then ash removal, then the precise order of limb-carrying up the altar ramp.",
-          "sourceRefs": [
-            "Yoma.24b.16"
-          ]
-        },
-        {
-          "id": "yoma-024b-l41",
-          "type": "question",
-          "label": "Could some positions be combined?",
-          "text": "The Gemara asks: could one priest perform both slaughter and blood sprinkling? The answer: in theory, but the lottery system assigned them separately to maximize participation.",
-          "sourceRefs": [
-            "Yoma.24b.17"
-          ]
-        },
-        {
-          "id": "yoma-024b-l43",
-          "type": "conclusion",
-          "label": "Summary of the second lottery",
-          "text": "The second lottery's 13 positions represent the complete morning tamid service as a collective act by 13 different priests. The lottery was the mechanism ensuring equitable distribution of this daily privilege.",
-          "sourceRefs": [
-            "Yoma.24b.18"
-          ]
-        }
-      ],
-      "topicTags": [
-        "second lottery",
-        "thirteen positions",
-        "tamid",
-        "morning service",
-        "daily offering",
-        "priestly participation"
-      ],
-      "concepts": {
-        "halachic": [
-          "thirteen positions in second lottery",
-          "tamid service order",
-          "multiple priests for single offering"
-        ],
-        "theological": [
-          "collective priestly participation in daily service",
-          "daily tamid as national act"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "yoma-022b-s02"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Combining positions was impossible, so 13 separate priests were physically required.",
-          "correction": "The Gemara establishes that combination was theoretically possible. The 13-way split was a deliberate choice to maximize participation, not a functional necessity of the offering."
-        },
-        {
-          "misconception": "The first lottery's ash removal already covers the inner altar and menorah ash, so the second lottery's ash positions are redundant.",
-          "correction": "The first lottery covers only the outer altar ash. Inner altar ash removal and menorah ash removal are distinct positions assigned in the second lottery."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-022b-s02",
-        "yoma-023a-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "description": "The 13 positions of the second lottery listed in order: slaughter, blood, inner altar, menorah, then 9 carriers in the order of the tamid limbs"
-        },
-        {
-          "type": "action",
-          "description": "13 priests each carrying a different part of the morning offering in procession from the slaughter area to the altar"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "How many positions were in the second lottery, and what types of tasks did they cover?",
-          "answer": "13 positions: slaughter, blood sprinkling, inner altar ash removal, menorah cleaning, and nine positions carrying the animal limbs and supplementary offerings (flour, wine) to the altar."
-        },
-        {
-          "question": "Why were 13 separate positions required for the morning service rather than having fewer priests do multiple tasks?",
-          "answer": "To maximize priestly participation in the daily tamid service. Each position was distinct, and the lottery system was designed to distribute the privilege broadly among the available priests."
-        }
-      ],
-      "finalRuling": "The second lottery assigned 13 separate positions covering the complete morning tamid service, from slaughter through final carrying to the altar.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "תָּמִיד",
-          "translit": "tamid",
-          "en": "The daily offering; brought every morning and evening. The second lottery assigned 13 priests to the morning tamid service."
-        }
-      ],
-      "review": "reviewed"
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.24b.2"
+    },
+    {
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.24b.3"
+    },
+    {
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.24b.4"
+    },
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.24b.5"
+    },
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.24b.6"
+    },
+    {
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.24b.7"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.24b.8"
+    },
+    {
+     "vilnaLine": 15,
+     "sefariaRef": "Yoma.24b.9"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.24b.10"
+    },
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.24b.11"
+    },
+    {
+     "vilnaLine": 26,
+     "sefariaRef": "Yoma.24b.12"
+    },
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.24b.13"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.24b.1",
+    "Yoma.24b.2",
+    "Yoma.24b.3",
+    "Yoma.24b.4",
+    "Yoma.24b.5",
+    "Yoma.24b.6",
+    "Yoma.24b.7",
+    "Yoma.24b.8",
+    "Yoma.24b.9",
+    "Yoma.24b.10",
+    "Yoma.24b.11",
+    "Yoma.24b.12",
+    "Yoma.24b.13"
+   ],
+   "display": {
+    "whats": "Services within the veil (lifnim min haparochet): which require the KG and which can be done by common priests? An analysis of the criteria: service within the veil must be done by the KG specifically on Yom Kippur; but at other times, common priests may enter the heichal for specific purposes. Blemished kohanim: may they assist with support tasks? The discussion covers the full topology of Temple service eligibility based on location, day, and physical qualifications.",
+    "title": "Two maps, not one: where you stand and what you look like both decide who may serve",
+    "hint": "The veil (parochet) is the physical dividing line between the heichal (outer sanctuary) and the kodesh hakodashim (Holy of Holies). Services on each side of this line have different personnel requirements. Yom Kippur is the one day the KG enters the innermost space; the Gemara explores what this means for related services."
+   },
+   "learning": {
+    "learnerQuestion": "If the Holy of Holies is restricted to the Kohen Gadol and a blemished kohen is restricted from formal service, are these the same kind of restriction applied twice, or two separate rules that happen to overlap?",
+    "coreTension": "Both rules sound like 'only certain kohanim may serve here,' which invites collapsing them into one principle, yet one rule is about a place (the veil, on Yom Kippur) and the other is about a person's physical qualification (unblemished status, anywhere avodah happens). Treating them as the same rule would mispredict who may do what, and where.",
+    "coreMove": "The Gemara maps two independent axes. Location: within the veil on Yom Kippur, the KG alone; in the heichal, any common priest, all year; in the courtyard, any kosher kohen; beyond the courtyard, logistical participation broadens further. Physical qualification: a mum (blemish) disqualifies a kohen from formal avodah at any of those locations, but does not strip his general priestly status (teruma, duchaning remain his), and whether the disqualification reaches logistical support tasks (not formal avodah) is itself disputed, mirroring the non-priest support-task dispute just established for daf 24a.",
+    "resolution": "Within the veil on Yom Kippur: the Kohen Gadol only. In the heichal: any common priest. A blemished kohen is excluded from formal avodah everywhere, but retains his general priestly status, and authorities dispute whether logistical support tasks are open to him.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Location and physical qualification are independent eligibility criteria. A kohen can be barred by one and not the other, so the two restrictions must be checked separately, not assumed to track each other."
+    },
+    "ahaMoment": "The veil is not just an architectural feature, it is a theological boundary that determines personnel requirements by location alone. The mum rule is a completely separate axis, about the person rather than the place. The same kohen who is barred from the Holy of Holies on every day but Yom Kippur, and barred from it even then unless he is the KG, is a different question entirely from whether a blemish bars him from the altar at all.",
+    "learningBlocker": "Learners may assume a blemished kohen loses his priestly identity entirely. He does not; mum disqualifies specifically from performing avodah, not from teruma or duchaning. The sugya also sets up, without yet resolving, the KG's four separate entries into the Holy of Holies on Yom Kippur itself, each governed by its own conditions, which the Gemara develops fully in the chapters describing the Yom Kippur service.",
+    "memoryAnchor": "Inside veil (Yom Kippur): KG only. Heichal: common priests. Courtyard: any kosher kohen. Blemished kohanim: barred from avodah everywhere, status otherwise intact, support tasks disputed. Two separate axes: place and person."
+   },
+   "argumentFlow": [
     {
-      "he": "לִפְנִים מִן הַפָּרֹכֶת",
-      "translit": "lifnim min haparochet",
-      "en": "Within the veil; the Holy of Holies. KG only on Yom Kippur."
+     "id": "yoma-024b-l01",
+     "type": "ruling",
+     "label": "Services within the veil require the KG on Yom Kippur",
+     "text": "All services performed within the veil (in the Holy of Holies) on Yom Kippur must be done by the KG. Common priests cannot enter on Yom Kippur.",
+     "sourceRefs": [
+      "Yoma.24b.1"
+     ]
     },
     {
-      "he": "מוּם",
-      "translit": "mum",
-      "en": "Physical blemish; excludes a kohen from formal Temple service."
+     "id": "yoma-024b-l03",
+     "type": "elaboration",
+     "label": "Services in the heichal: common priests eligible",
+     "text": "Services in the outer sanctuary (heichal) - menorah, incense altar, showbread table - may be performed by common priests throughout the year. Only Yom Kippur restricts the inner area to the KG.",
+     "sourceRefs": [
+      "Yoma.24b.2"
+     ]
     },
     {
-      "he": "הֵיכָל",
-      "translit": "heichal",
-      "en": "The outer sanctuary; common priests serve here throughout the year."
+     "id": "yoma-024b-l06",
+     "type": "question",
+     "label": "Can blemished kohanim perform any Temple service?",
+     "text": "A kohen with a physical blemish (mum) is excluded from performing Temple service. The question: does this extend to logistical tasks (wood, ash carrying) or only to formal avodah?",
+     "sourceRefs": [
+      "Yoma.24b.3"
+     ]
     },
     {
-      "he": "תָּמִיד",
-      "translit": "tamid",
-      "en": "Daily offering; 13 priests in the second lottery served the morning tamid."
+     "id": "yoma-024b-l07",
+     "type": "ruling",
+     "label": "Blemished kohanim are excluded from formal service",
+     "text": "Any physical blemish (mum) excludes a kohen from performing the altar service or burning on the fire. This applies to all formal avodah.",
+     "sourceRefs": [
+      "Yoma.24b.4"
+     ]
+    },
+    {
+     "id": "yoma-024b-l09",
+     "type": "dispute",
+     "label": "Blemished kohanim and logistical tasks",
+     "text": "Dispute: can a blemished kohen carry wood to the altar fire? Some say yes (logistical support, not formal avodah). Others say the prohibition extends to any participation in the altar area.",
+     "sourceRefs": [
+      "Yoma.24b.5"
+     ]
+    },
+    {
+     "id": "yoma-024b-l09",
+     "type": "elaboration",
+     "label": "Additional analysis of blemish categories",
+     "text": "Further examination of which types of blemishes disqualify and whether the disqualification is from the entire Temple area or only from the altar service.",
+     "sourceRefs": [
+      "Yoma.24b.6"
+     ]
+    },
+    {
+     "id": "yoma-024b-l12",
+     "type": "ruling",
+     "label": "Wood bringer: valid by any kohen including blemished",
+     "text": "Some authorities hold that a blemished kohen may bring wood to the altar fire because this is not formal avodah but logistical preparation.",
+     "sourceRefs": [
+      "Yoma.24b.7"
+     ]
+    },
+    {
+     "id": "yoma-024b-l14",
+     "type": "ruling",
+     "label": "Prohibition on blemished kohen doing avodah is absolute",
+     "text": "The prohibition on blemished kohanim performing avodah is derived from a specific verse. Any act classified as avodah requires an unblemished kohen.",
+     "sourceRefs": [
+      "Yoma.24b.8"
+     ]
+    },
+    {
+     "id": "yoma-024b-l15",
+     "type": "elaboration",
+     "label": "The four services the KG performs on Yom Kippur within the veil",
+     "text": "The four entries of the KG into the Holy of Holies on Yom Kippur, with the specific service performed at each entry, are enumerated as background to the service restriction.",
+     "sourceRefs": [
+      "Yoma.24b.9"
+     ]
+    },
+    {
+     "id": "yoma-024b-l20",
+     "type": "elaboration",
+     "label": "Services in the heichal on ordinary days",
+     "text": "On non-Yom Kippur days, common priests perform services in the heichal (menorah, showbread, incense). The KG may also perform these but is not required to.",
+     "sourceRefs": [
+      "Yoma.24b.10"
+     ]
+    },
+    {
+     "id": "yoma-024b-l23",
+     "type": "elaboration",
+     "label": "The principle: location determines personnel",
+     "text": "Inside the veil (Yom Kippur): KG only. Heichal: any kosher kohen. Courtyard (altar): any kosher kohen. Beyond the courtyard: logistical tasks may be broader.",
+     "sourceRefs": [
+      "Yoma.24b.11"
+     ]
+    },
+    {
+     "id": "yoma-024b-l26",
+     "type": "elaboration",
+     "label": "Summary of blemished kohen eligibility",
+     "text": "Blemished kohanim are excluded from all formal avodah at all Temple locations. For logistical support tasks, some authorities allow participation; others maintain the full exclusion throughout the Temple complex.",
+     "sourceRefs": [
+      "Yoma.24b.12"
+     ]
+    },
+    {
+     "id": "yoma-024b-l31",
+     "type": "conclusion",
+     "label": "Closing the within-the-veil analysis",
+     "text": "The Gemara concludes its analysis of who may serve where, preparing for the detailed description of the Yom Kippur service that will follow in later chapters.",
+     "sourceRefs": [
+      "Yoma.24b.13"
+     ]
     }
-  ],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "en": "Opens 'and to within the curtain': he separates between the general rule and the specific case: 'within the curtain' is",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "continuing: where a service of giving occurs, such as the sprinklings between the poles on Yom Kippur, and the placing of",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "closing: incense on the fire.' Then opens 'and not a service of removal': such as taking out the ladle and fire-pan",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "continuing: which the High Priest brings in there for the Yom Kippur incense, and places between the poles, and afterward returns",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "closing: and takes them out.' Then opens 'if so, \"and he shall serve\" also, within",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "continuing: the curtain, is a complete service.' Such as",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "closing: placing incense on the fire.' Then opens 'and not one after",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: which another service still follows': carrying the ladle and fire-pan,",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "closing: after which scooping and burning still follow.' Then opens 'and he shall serve,'",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "continuing: 'the verse repeats it again': regarding a complete service,",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l06"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: since the vav adds to the first matter, but",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l06"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: a service of giving does not need repeating, but only to 'within",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l06"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "closing: the curtain,' which precedes it, since it is not written with a vav.",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l06"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Opens 'a service of removal in the Sanctuary': and it is a service",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: complete, such as the removal of ash of the inner altar",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "closing: and of the candelabrum - what of it, for Levi?' Then opens 'within the curtain'",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: 'it should have written': but it wrote 'and to within",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l09a"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: the curtain' - to make the Sanctuary like the House of the Holy",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l09a"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "closing: of Holies, and exempt it from the service of removal.",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l09a"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Opens 'but if so': that a service of giving obligates",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l09b"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: in the Sanctuary a non-priest, since it is included by 'and within it.'' Then opens 'a non-priest'",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l09b"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: 'who arranges': the bread - should he be liable to death? And why",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l09b"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "closing: did we say above only four services, and no more?",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l09b"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Opens 'there is also the arranging of the spoon-fuls': afterward it, as it is written",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l09b"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: (Leviticus 24): 'and you shall put on the row pure",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l09b"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "closing: frankincense' - and it is not a complete service.' Then opens 'there is also'",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l09b"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: 'the removal and burning': its service is not yet finished",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l09b"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: until the following Shabbat, when he removes it",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l09b"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "closing: and burns the spoon-fuls.' Then opens 'who arranges the candelabrum' -",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "continuing: in the morning they would remove the lamps of",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: gold from the candelabrum, to clean their ash well,",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: and return and set them back into it, and this is a service",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "closing: complete.' Then opens 'kindling a small flame': the kindling of thin sticks,",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "continuing: if needed, to kindle upon the altar",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: in one of the arrangements, such as when it draws",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "closing: near to its end, since the whole pile has burned out.",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Opens 'and with sacred vessels': that he must wear priestly garments,",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: four, if he is an ordinary priest, and if",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "continuing: he is the High Priest, eight, for it is said here",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: 'the priests,' and wherever it says 'the sons of Aaron'",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "continuing: 'the priests, in their priesthood,' it implies in their priestly",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l15"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "closing: garments.' Then opens 'who arranges the arrangement': wood.",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l20"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Opens 'there is also, after it, the arranging of two logs' -",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l20"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "closing: which we derive from the verses further on (26b).",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l20"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Opens 'there is also the arranging of the limbs': for the daily-offering follows it,",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l20"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "closing: and all this is part of the service of arranging.",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l20"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "Opens 'about this they disagree': Rav and Rabbi Yochanan; Rabbi",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "continuing: Yochanan holds that arranging the two logs is a service",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "continuing: complete, since the arranging of the wood-pile",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "continuing: is complete and finished with it, and the arranging",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "continuing: of the limbs is the start of another arranging entirely",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "continuing: and Rav holds it is not a complete service, since the name",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "closing: 'arranging' is all one.' Then opens 'the tossing of the blood' -",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "continuing: of the altar, outside.' Then opens 'either within': the sprinkling",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "closing: upon the curtain.' Then opens 'either within the innermost part' -",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "closing: that upon the space between the poles on Yom Kippur.",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "Opens 'in the bird-sin-offering': it is written 'sprinkling' - 'and he shall sprinkle'",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "closing: from the blood of the sin-offering on the wall of the altar' (Leviticus 5).' Then opens 'in the bird-burnt-offering': it is written 'draining' - 'and he shall wring off its head and burn it on the altar, and its blood shall be drained on the wall of the altar'",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "closing: (Leviticus 1).' Then opens 'and he who burns': since the burnt-offering is wholly consumed.' Then opens 'and he who pours out three logs': which is the least of the libations, a quarter-hin for the lamb - whereas terumat hadeshen",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 60,
-      "en": "closing: is not taught, and this follows Rav's view.' Then opens 'whether a disqualified item': among those disqualifications whose invalidity took effect within the sanctified area, so that if they went up they do not come down, and for this reason the burning is significant.' Then opens 'as we said' -",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 61,
-      "en": "continuing: that they would come to disagreement.' Then opens 'why do they hold a lottery, and hold a lottery again': why do they gather to hold the lottery",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l35"
-      ]
-    },
-    {
-      "vilnaLine": 62,
-      "en": "closing: four times a day, as we learned in the mishnah - let them hold the lottery for all of them at the first gathering, who shall merit this and who that?' Then opens 'to make felt': to make heard the voice of a great multitude, as many times as possible, which is an honor for the King, as it is said, 'in the house of",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l37"
-      ]
-    },
-    {
-      "vilnaLine": 63,
-      "en": "closing: God,' etc.' Then opens 'in what do they hold the lottery': what did those gathering for the lottery wear, ordinary clothes or sacred clothes?' Then opens 'in ordinary clothes': and the winner of the service takes off and dons",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 64,
-      "en": "closing: sacred clothes.' Then opens 'who seize and serve': even though they did not win the lottery.' Then opens 'who call out and serve': serving in ordinary clothes, those who won the lottery.' Then opens 'to the attendants': servants.' Then opens 'among those'",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l41"
-      ]
-    },
-    {
-      "vilnaLine": 65,
-      "en": "continuing: who did not' -",
-      "linkedGemaraLineIds": [
-        "yoma-024b-l43"
-      ]
+   ],
+   "topicTags": [
+    "within the veil",
+    "parochet",
+    "kohen gadol",
+    "blemished kohen",
+    "mum",
+    "heichal",
+    "holy of holies",
+    "avodah eligibility",
+    "Yom Kippur service"
+   ],
+   "concepts": {
+    "halachic": [
+     "lifnim min haparochet (within the veil)",
+     "mum (physical blemish) disqualification",
+     "heichal service vs. inner sanctuary",
+     "KG exclusivity on Yom Kippur"
+    ],
+    "theological": [
+     "the veil as theological boundary",
+     "physical perfection as requirement for inner sanctity"
+    ],
+    "narrative": [
+     "four KG entries on Yom Kippur as background"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "yoma-024a-s03"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The Kohen Gadol's exclusive access to the Holy of Holies is a year-round restriction.",
+     "correction": "It applies specifically to Yom Kippur. Throughout the rest of the year, the inner sanctuary is not entered for service at all; the heichal services are open to any kosher common priest."
+    },
+    {
+     "misconception": "A blemished kohen loses his status as a kohen entirely.",
+     "correction": "A mum excludes him only from performing formal Temple service (avodah). His general priestly status, including teruma and duchaning, is unaffected; only his eligibility to perform avodah is restricted."
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-024a-s03",
+    "yoma-024b-s02",
+    "yoma-024a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "place",
+     "description": "Temple floor plan showing the three zones: Holy of Holies (KG only on Yom Kippur), Heichal (common priests), Courtyard (any kosher kohen) - with personnel requirements labeled"
+    },
+    {
+     "type": "contrast",
+     "description": "Unblemished kohen vs. blemished kohen: same priestly status, different service eligibility"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Who may perform services within the veil (lifnim min haparochet) on Yom Kippur, and what about the rest of the year?",
+     "answer": "On Yom Kippur: only the Kohen Gadol may enter the Holy of Holies (within the veil). Throughout the year: the inner sanctuary is not entered for service; the heichal services (menorah, incense, showbread) are performed by common priests."
+    },
+    {
+     "question": "What is the status of a kohen with a physical blemish (mum) regarding Temple service?",
+     "answer": "A blemished kohen is excluded from performing formal Temple service (avodah) at any location. His general priestly status (teruma, duchaning) is not affected. There is a dispute about whether he may perform logistical support tasks."
+    }
+   ],
+   "finalRuling": "Within the veil on Yom Kippur: KG only. Heichal: common priests. Blemished kohanim: excluded from avodah, disputed on logistical tasks.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "לִפְנִים מִן הַפָּרֹכֶת",
+     "translit": "lifnim min haparochet",
+     "en": "Within the veil; the Holy of Holies. On Yom Kippur, only the KG may enter."
+    },
+    {
+     "he": "מוּם",
+     "translit": "mum",
+     "en": "Physical blemish; disqualifies a kohen from performing formal Temple service but not from his general priestly status."
+    },
+    {
+     "he": "הֵיכָל",
+     "translit": "heichal",
+     "en": "The outer sanctuary; the space between the entrance hall and the Holy of Holies. Common priests perform services here throughout the year."
+    }
+   ],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-024b-s02",
+   "lineRange": {
+    "startVilnaLine": 35,
+    "endVilnaLine": 49
+   },
+   "lines": [
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.24b.14"
+    },
+    {
+     "vilnaLine": 37,
+     "sefariaRef": "Yoma.24b.15"
+    },
+    {
+     "vilnaLine": 39,
+     "sefariaRef": "Yoma.24b.16"
+    },
+    {
+     "vilnaLine": 41,
+     "sefariaRef": "Yoma.24b.17"
+    },
+    {
+     "vilnaLine": 43,
+     "sefariaRef": "Yoma.24b.18"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.24b.14",
+    "Yoma.24b.15",
+    "Yoma.24b.16",
+    "Yoma.24b.17",
+    "Yoma.24b.18"
+   ],
+   "display": {
+    "whats": "The mishna's second lottery: 13 positions for the main morning service. The mishna lists all 13: slaughter, blood, removing ash from the inner altar, removing ash from the menorah, limbs in specific order, flour offering, wine libation, and final bringing to the ramp. The Gemara begins examining which of these positions could theoretically be combined and why each requires a separate designee.",
+    "title": "Thirteen priests for one offering: the lottery that turned a daily duty into shared privilege",
+    "hint": "The 13-position list for the second lottery is the most complex assignment in the Temple's morning. Each position is distinct: the order matters, the vessel matters, and the moment matters. Breaking it into 13 separate lottery positions ensures both fairness and precision."
+   },
+   "learning": {
+    "learnerQuestion": "Why split one morning offering into 13 separate lottery positions when a smaller crew could physically perform the same service?",
+    "coreTension": "Efficiency would favor fewer priests doing more each; the mishna does the opposite, multiplying the number of distinct positions to 13 for a single offering. That choice only makes sense if the lottery is optimizing for something other than workflow efficiency.",
+    "coreMove": "The Gemara confirms that combining positions, one priest doing two or more, was theoretically possible: the tasks do not halakhically require separate hands. The 13-way split is therefore a deliberate design choice, not a functional necessity, aimed at maximizing how many priests could share in performing the daily tamid each morning.",
+    "resolution": "One priest could, in principle, perform multiple of the 13 positions, but the lottery system deliberately assigned all 13 separately every morning to distribute participation in the daily offering as broadly as possible.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "A ritual's procedural structure can be designed to distribute participation rather than to minimize the number of participants."
+    },
+    "ahaMoment": "The 13-person list reveals how many priests were needed for a single daily morning offering, not because the task demanded it, but because the system wanted it. Modern readers might imagine one or two priests; in fact, 13 different priests each had a distinct role, by design.",
+    "learningBlocker": "Learners may assume the 13 positions are mandated by the physical complexity of the offering itself. The Gemara's own analysis shows otherwise: combination was theoretically available, and the granularity is a deliberate fairness mechanism, not a functional requirement of the offering.",
+    "memoryAnchor": "Second lottery: 13 positions, by design not necessity. Slaughter, blood, inner altar ash, menorah ash, then carriers of limbs and offerings, plus flour and wine. Splitting maximized participation."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-024b-l35",
+     "type": "ruling",
+     "label": "The 13 positions of the second lottery",
+     "text": "The mishna lists 13 distinct positions: slaughter, blood sprinkling, inner altar ash removal, menorah cleaning, and nine carriers of the offering's limbs and supplementary offerings.",
+     "sourceRefs": [
+      "Yoma.24b.14"
+     ]
+    },
+    {
+     "id": "yoma-024b-l37",
+     "type": "elaboration",
+     "label": "Why 13 separate positions?",
+     "text": "Each position represents a distinct halakhic act, and assigning each to a different priest maximized participation in the daily tamid service. The lottery's fairness required each position to be separate.",
+     "sourceRefs": [
+      "Yoma.24b.15"
+     ]
+    },
+    {
+     "id": "yoma-024b-l39",
+     "type": "elaboration",
+     "label": "The order of the positions",
+     "text": "The 13 positions follow the order of the tamid service: from slaughter through blood, then ash removal, then the precise order of limb-carrying up the altar ramp.",
+     "sourceRefs": [
+      "Yoma.24b.16"
+     ]
+    },
+    {
+     "id": "yoma-024b-l41",
+     "type": "question",
+     "label": "Could some positions be combined?",
+     "text": "The Gemara asks: could one priest perform both slaughter and blood sprinkling? The answer: in theory, but the lottery system assigned them separately to maximize participation.",
+     "sourceRefs": [
+      "Yoma.24b.17"
+     ]
+    },
+    {
+     "id": "yoma-024b-l43",
+     "type": "conclusion",
+     "label": "Summary of the second lottery",
+     "text": "The second lottery's 13 positions represent the complete morning tamid service as a collective act by 13 different priests. The lottery was the mechanism ensuring equitable distribution of this daily privilege.",
+     "sourceRefs": [
+      "Yoma.24b.18"
+     ]
+    }
+   ],
+   "topicTags": [
+    "second lottery",
+    "thirteen positions",
+    "tamid",
+    "morning service",
+    "daily offering",
+    "priestly participation"
+   ],
+   "concepts": {
+    "halachic": [
+     "thirteen positions in second lottery",
+     "tamid service order",
+     "multiple priests for single offering"
+    ],
+    "theological": [
+     "collective priestly participation in daily service",
+     "daily tamid as national act"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "yoma-022b-s02"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Combining positions was impossible, so 13 separate priests were physically required.",
+     "correction": "The Gemara establishes that combination was theoretically possible. The 13-way split was a deliberate choice to maximize participation, not a functional necessity of the offering."
+    },
+    {
+     "misconception": "The first lottery's ash removal already covers the inner altar and menorah ash, so the second lottery's ash positions are redundant.",
+     "correction": "The first lottery covers only the outer altar ash. Inner altar ash removal and menorah ash removal are distinct positions assigned in the second lottery."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-022b-s02",
+    "yoma-023a-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "description": "The 13 positions of the second lottery listed in order: slaughter, blood, inner altar, menorah, then 9 carriers in the order of the tamid limbs"
+    },
+    {
+     "type": "action",
+     "description": "13 priests each carrying a different part of the morning offering in procession from the slaughter area to the altar"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "How many positions were in the second lottery, and what types of tasks did they cover?",
+     "answer": "13 positions: slaughter, blood sprinkling, inner altar ash removal, menorah cleaning, and nine positions carrying the animal limbs and supplementary offerings (flour, wine) to the altar."
+    },
+    {
+     "question": "Why were 13 separate positions required for the morning service rather than having fewer priests do multiple tasks?",
+     "answer": "To maximize priestly participation in the daily tamid service. Each position was distinct, and the lottery system was designed to distribute the privilege broadly among the available priests."
+    }
+   ],
+   "finalRuling": "The second lottery assigned 13 separate positions covering the complete morning tamid service, from slaughter through final carrying to the altar.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "תָּמִיד",
+     "translit": "tamid",
+     "en": "The daily offering; brought every morning and evening. The second lottery assigned 13 priests to the morning tamid service."
+    }
+   ],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [
+  {
+   "he": "לִפְנִים מִן הַפָּרֹכֶת",
+   "translit": "lifnim min haparochet",
+   "en": "Within the veil; the Holy of Holies. KG only on Yom Kippur."
+  },
+  {
+   "he": "מוּם",
+   "translit": "mum",
+   "en": "Physical blemish; excludes a kohen from formal Temple service."
+  },
+  {
+   "he": "הֵיכָל",
+   "translit": "heichal",
+   "en": "The outer sanctuary; common priests serve here throughout the year."
+  },
+  {
+   "he": "תָּמִיד",
+   "translit": "tamid",
+   "en": "Daily offering; 13 priests in the second lottery served the morning tamid."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "And within the curtain - it interrupts between the generalization and the specification: 'within the curtain' is",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "where a service of giving occurs, such as the sprinklings between the poles on Yom Kippur, and the placing of",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "incense on the fire. And not a service of removal - such as taking out the ladle and fire-pan",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "which the High Priest brings in there for the Yom Kippur incense, and places between the poles, and afterward returns",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "and takes them out. If so, 'and he shall serve' also, within",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l01",
+    "yoma-024b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "the curtain, is a complete service - such as",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "placing incense on the fire. And not one after",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "which another service still follows - carrying the ladle and fire-pan,",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "after which scooping and burning still follow. 'And he shall serve,'",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l03",
+    "yoma-024b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "the verse repeats it again - regarding a complete service,",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "since the vav adds to the first matter, but",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "a service of giving does not need repeating, but only to 'within",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "the curtain,' which precedes it, since it is not written with a vav.",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "A service of removal in the Sanctuary - and it is a service",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "complete, such as the removal of ash of the inner altar",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "and of the candelabrum - what of it, for Levi? 'Within the curtain'",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l07",
+    "yoma-024b-l09a"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "it should have written - but it wrote 'and to within",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l09a"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "the curtain' - to make the Sanctuary like the House of the Holy",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l09a"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "of Holies, and exempt it from the service of removal.",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l09a"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "But if so - that a service of giving obligates",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l09b"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "in the Sanctuary a non-priest, since it is included by 'and within it.' A non-priest",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l09b"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "who arranges - the table, should he be liable to death? And why",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l09b"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "did we say above only four services, and no more?",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l09b"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "There is also the arranging of the spoon-fuls - afterward it, as it is written",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l09b"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "(Leviticus 24), 'and you shall put on the row pure",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l09b"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "frankincense' - and it is not a complete service. There is also",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l09b"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "the removal and burning - its service is not yet finished",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l09b"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "until the following Shabbat, when he removes it",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l09b"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "and burns the spoon-fuls. 'Who arranges the candelabrum' -",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l09b",
+    "yoma-024b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "in the morning they would remove the lamps of",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "gold from the candelabrum, to clean their ash well,",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "and return and set them back into it, and this is a service",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "complete. Kindling a small flame - the kindling of thin sticks,",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l12",
+    "yoma-024b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "if needed, to kindle upon the altar",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "in one of the arrangements, such as when it draws",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "near to its end, since the whole pile has burned out.",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "And with sacred vessels - that he must wear priestly garments,",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "four, if he is an ordinary priest, and if",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "he is the High Priest, eight, for it is said here",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "'the priests,' and wherever it says 'the sons of Aaron",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "the priests, in their priesthood,' it implies in their priestly",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "garments. Who arranges the arrangement - wood.",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l15",
+    "yoma-024b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "There is also, after it, the arranging of two logs -",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "which we derive from the verses further on (26b).",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "There is also the arranging of the limbs - for the daily-offering follows it,",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "and all this is part of the service of arranging.",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "About this they disagree - Rav and Rabbi Yochanan; Rabbi",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "Yochanan holds that arranging the two logs is a service",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "complete, since the arranging of the wood-pile",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "is complete and finished with it, and the arranging",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "of the limbs is the start of another arranging entirely,",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "and Rav holds it is not a complete service, since the name",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "'arranging' is all one. The tossing of the blood -",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l23",
+    "yoma-024b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "of the altar, outside. Either within - the sprinkling",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "upon the curtain. Either within the innermost part -",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "that upon the space between the poles on Yom Kippur.",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "In the bird-sin-offering - it is written 'sprinkling,' 'and he shall sprinkle'",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "from the blood of the sin-offering on the wall of the altar' (Leviticus 5). In the bird-burnt-offering - it is written 'draining,' 'and he shall wring off its head and burn it on the altar, and its blood shall be drained on the wall of the altar'",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "(Leviticus 1). And he who burns - since the burnt-offering is wholly consumed. And he who pours out three logs - which is the least of the libations, a quarter-hin for the lamb - whereas terumat hadeshen",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "is not taught, and this follows Rav's view. Whether a disqualified item - among those disqualifications whose invalidity took effect within the sanctified area, so that if they went up they do not come down, and for this reason the burning is significant. As we said -",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l26",
+    "yoma-024b-l31",
+    "yoma-024b-l35"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "that they would come to disagreement. Why do they hold a lottery, and hold a lottery again - why do they gather to hold the lottery",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l35"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "four times a day, as we learned in the mishnah - let them hold the lottery for all of them at the first gathering, who shall merit this and who that? To make felt -",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l35",
+    "yoma-024b-l37"
+   ]
+  },
+  {
+   "vilnaLine": 63,
+   "en": "to make heard the voice of a great multitude, as many times as possible, which is an honor for the King, as it is said, 'in the house of God,' etc. In what do they hold the lottery - what did those gathering for the lottery wear, ordinary clothes or sacred clothes? In ordinary clothes -",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l37",
+    "yoma-024b-l39"
+   ]
+  },
+  {
+   "vilnaLine": 64,
+   "en": "and the winner of the service takes off and dons sacred clothes. Who seize and serve - even though they did not win the lottery. Who call out and serve - serving in ordinary clothes, those who won the lottery. To the attendants - servants. Among those",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l39",
+    "yoma-024b-l41",
+    "yoma-024b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 65,
+   "en": "who did not - the daf ends mid-word here; the comment (that those who did not win the lottery strip off the sacred garments they had donned) continues on 25a.",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l43"
+   ]
+  }
+ ]
 }
