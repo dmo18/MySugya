@@ -1,985 +1,993 @@
 {
-  "daf": "19a",
-  "canonicalRef": "Yoma 19a",
-  "summary": "The Gemara maps the Temple courtyard: six chambers (three north, three south) and seven gates, then resolves where the KG's two chambers were located. The KG's immersion bath (ten immersions on Yom Kippur) was adjacent to the Parhedrin chamber; since the immersion facility was near the Water Gate in the south, the Parhedrin chamber is confirmed in the south. The Gemara then traces the KG's daily routine during the seven days: rise, relieve himself, south to immerse, north to Beit Avtinas for incense practice, full day of service, evening purification sprinkling, south again for immersion, rest in Parhedrin. The page ends with the agency question: are kohanim acting as God's agents or Israel's agents when offering sacrifices?",
-  "review": {
+ "daf": "19a",
+ "canonicalRef": "Yoma 19a",
+ "summary": "The Gemara maps the Temple courtyard: six chambers (three north, three south) and seven gates, then resolves where the KG's two chambers were located. The KG's immersion bath (ten immersions on Yom Kippur) was adjacent to the Parhedrin chamber; since the immersion facility was near the Water Gate in the south, the Parhedrin chamber is confirmed in the south. The Gemara then traces the KG's daily routine during the seven days: rise, relieve himself, south to immerse, north to Beit Avtinas for incense practice, full day of service, evening purification sprinkling, south again for immersion, rest in Parhedrin. The page ends with the agency question: are kohanim acting as God's agents or Israel's agents when offering sacrifices?",
+ "review": {
+  "content": "ai_generated",
+  "sourceRefs": "ai_generated"
+ },
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-19a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 25
+   },
+   "lines": [
+    {
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.19a.1"
+    },
+    {
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.19a.2"
+    },
+    {
+     "vilnaLine": 11,
+     "sefariaRef": "Yoma.19a.3"
+    },
+    {
+     "vilnaLine": 15,
+     "sefariaRef": "Yoma.19a.4"
+    },
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.19a.5"
+    },
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.19a.6"
+    },
+    {
+     "vilnaLine": 25,
+     "sefariaRef": "Yoma.19a.7"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.19a.1",
+    "Yoma.19a.2",
+    "Yoma.19a.3",
+    "Yoma.19a.4",
+    "Yoma.19a.5",
+    "Yoma.19a.6",
+    "Yoma.19a.7"
+   ],
+   "display": {
+    "title": "Locating the Parhedrin chamber by adjacency, not by direct statement",
+    "whats": "The Gemara maps the Temple's inner courtyard (Azara): six chambers (three along the north wall, three along the south wall) and seven gates. It then locates where the KG's two chambers were within this layout. The Parhedrin chamber (where the KG sleeps during his seven-day separation) is identified, and the question of whether it was on the north or south side of the Azara begins.",
+    "hint": "The Temple's courtyard had a specific layout with named chambers and gates. The KG's location during his seven days matters because his immersions (10 total on Yom Kippur) need to be near the gate where the water is brought in. North or south placement affects the logistics of his preparation."
+   },
+   "learning": {
+    "learnerQuestion": "Was the Parhedrin chamber, where the KG sleeps during his seven-day separation, on the north or south side of the Azara?",
+    "coreTension": "The Mishna never states the Parhedrin chamber's side directly, so the Gemara has to derive its location from an indirect fact: where the KG's immersion bath stood.",
+    "coreMove": "The Gemara reasons from adjacency: the Mishna in Tamid places the KG's immersion bath next to his Parhedrin chamber, and the Water Gate, where the immersion bath sat, is independently known to be in the south. Since the bath is in the south and the chamber is adjacent to the bath, the chamber must also be in the south.",
+    "resolution": "The Parhedrin chamber is located on the south side of the Azara, established by inference from its adjacency to the southern immersion bath rather than by a direct textual statement.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "An unstated fact can be derived by chaining two known facts through a shared point of contact: if A is adjacent to B, and B's location is known, A's location follows even without a direct source stating it."
+    },
+    "ahaMoment": "The Temple was a functioning institutional complex with specialized chambers. The KG's spatial location during preparation is not random; it determines his proximity to key service locations, and that proximity is itself the evidence the Gemara reasons from.",
+    "learningBlocker": "Learners often look for a single verse or mishna that states the Parhedrin chamber's side outright and get stuck when they cannot find one, missing that the Gemara establishes the location entirely through an adjacency inference from the immersion bath.",
+    "memoryAnchor": "Azara: six chambers (3N + 3S), 7 gates. Bath is south (Water Gate). Parhedrin is next to the bath, so Parhedrin is south too."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "description",
+     "label": "Six Azara chambers: three north, three south",
+     "speaker": "Gemara",
+     "text": "The inner courtyard has three chambers along the north wall: Chamber of the Exile (Lishkat HaGolah), Chamber of the Hewn Stone (Lishkat HaGazit), and a third. Three along the south wall: Chamber of Parhedrin (KG's separation chamber), Chamber of Parvah, and Chamber of Avtinas.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19a-l01",
+       "vilnaLine": 1,
+       "note": "Six chambers of the Azara"
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "description",
+     "label": "Seven gates of the Azara",
+     "speaker": "Gemara",
+     "text": "The Azara has seven gates: the Great Gate, the Fuel Gate (Sha'ar HaNitzotz), the Gate of the Firstborn (Sha'ar HaBchorot), the Water Gate (Sha'ar HaMayim), the Gate of the Singing (Sha'ar HaShir), the Gate of the Spark (Sha'ar HaNitzotz), and the Eastern Gate (Sha'ar HaMizrach).",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19a-l05",
+       "vilnaLine": 5,
+       "note": "Seven gates of the Azara"
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "detail",
+     "label": "The Water Gate: where Sukkot water is brought",
+     "speaker": "Gemara",
+     "text": "The Water Gate is the gate through which the water for the Sukkot water-drawing (nisuch ha-mayim) was brought. It was located on the south side.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19a-l11",
+       "vilnaLine": 11,
+       "note": "Water Gate location and function"
+      }
+     ]
+    },
+    {
+     "id": "step-04",
+     "type": "detail",
+     "label": "Ten immersions: KG immerses on Yom Kippur",
+     "speaker": "Gemara",
+     "text": "The KG immerses ten times on Yom Kippur, five times in the sanctified immersion pool (on the roof of the Parvah chamber) and the rest in a regular mikveh. Each immersion corresponds to a service change requiring clean garments.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19a-l15",
+       "vilnaLine": 15,
+       "note": "Ten immersions on Yom Kippur"
+      }
+     ]
+    },
+    {
+     "id": "step-05",
+     "type": "detail",
+     "label": "First immersion: not counted with the Yom Kippur immersions",
+     "speaker": "Gemara",
+     "text": "The first immersion (the one every person must do before entering the Azara) is not counted among the KG's ten Yom Kippur immersions. All the Yom Kippur immersions must occur in a sanctified place.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19a-l19",
+       "vilnaLine": 19,
+       "note": "First immersion not counted"
+      }
+     ]
+    },
+    {
+     "id": "step-06",
+     "type": "question",
+     "label": "Where was the Parhedrin chamber: north or south?",
+     "speaker": "Gemara",
+     "text": "Based on the Mishna in Tamid, the KG's immersion bath was adjacent to his chamber (Parhedrin). Since the immersion bath was in the south (near the Water Gate), the Parhedrin chamber should also be in the south.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19a-l23",
+       "vilnaLine": 23,
+       "note": "South placement of Parhedrin from immersion proximity"
+      }
+     ]
+    },
+    {
+     "id": "step-07",
+     "type": "reasoning",
+     "label": "The KG's daily routine during the seven days",
+     "speaker": "Gemara",
+     "text": "Each morning during the seven days, the KG rises, goes to relieve himself, immerses (in the south), goes north to his second chamber to practice the incense-scooping, returns to the Temple for the full-day service, then at dusk goes south again for the purification sprinkling.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19a-l25",
+       "vilnaLine": 25,
+       "note": "KG's daily seven-day routine"
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "Temple layout",
+    "Azara chambers",
+    "seven gates",
+    "Parhedrin chamber",
+    "immersions",
+    "KG routine",
+    "Water Gate"
+   ],
+   "concepts": [
+    {
+     "term": "Lishkat Parhedrin",
+     "def": "The Chamber of Parhedrin - the KG's personal chamber during his seven-day separation before Yom Kippur. He slept there and prepared. The name 'parhedrin' may relate to the word for 'chambers' or 'governors.'"
+    },
+    {
+     "term": "Lishkat Parvah",
+     "def": "The Parvah Chamber - a chamber on the south side of the Azara with a sanctified immersion pool on its roof. The KG immerses in this pool for his five sanctified immersions on Yom Kippur."
+    }
+   ],
+   "conceptRefs": [
+    "Yoma.19a.1",
+    "Yoma.19a.4",
+    "Yoma.19a.6"
+   ],
+   "requiresUnderstanding": [
+    "The Temple's three-court structure (outer, women's, inner/Azara)",
+    "The KG's ten immersions on Yom Kippur",
+    "The Sukkot water-drawing ceremony"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The KG immerses ten times on Yom Kippur because there are ten distinct services requiring it.",
+     "correction": "There are only five garment changes (golden and white alternating); the ten count reflects the immersions tied to those five changes, not ten separate services."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-18b-s02",
+    "yoma-19a-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "place",
+     "desc": "Azara floor plan showing six named chambers (3N + 3S), seven gates with names, KG's Parhedrin chamber in south, Parvah chamber roof pool"
+    },
+    {
+     "type": "sequence",
+     "desc": "KG's daily seven-day routine: wake up, relieve self, south for immersion, north to Beit Avtinas for incense practice, full day of service, dusk purification"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "How many chambers and gates did the Temple's inner courtyard (Azara) have?",
+     "answer": "Six chambers, three along the north wall and three along the south wall, and seven gates."
+    },
+    {
+     "question": "The Mishna never states directly which side of the Azara the Parhedrin chamber was on. How does the Gemara establish that it was in the south?",
+     "answer": "By adjacency inference: the Mishna in Tamid places the KG's immersion bath next to the Parhedrin chamber, and the immersion bath is independently known to be in the south, near the Water Gate. Since the chamber sits next to the bath, it must also be in the south."
+    }
+   ],
+   "finalRuling": "Parhedrin chamber = south side of the Azara, adjacent to the immersion facility.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "לִשְׁכַּת פַּרְהֶדְרִין",
+     "translit": "Lishkat Parhedrin",
+     "en": "KG's personal separation chamber during the seven days before Yom Kippur, located on the south side of the inner courtyard."
+    },
+    {
+     "he": "לִשְׁכַּת פַּרְוָה",
+     "translit": "Lishkat Parvah",
+     "en": "Parvah Chamber - south side of the Azara, with a sanctified immersion pool on its roof used for five of the KG's Yom Kippur immersions."
+    }
+   ],
+   "review": {
     "content": "ai_generated",
     "sourceRefs": "ai_generated"
+   }
   },
-  "sugyot": [
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-19a-s02",
+   "lineRange": {
+    "startVilnaLine": 28,
+    "endVilnaLine": 36
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-19a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 25
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.19a.1"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.19a.2"
-        },
-        {
-          "vilnaLine": 11,
-          "sefariaRef": "Yoma.19a.3"
-        },
-        {
-          "vilnaLine": 15,
-          "sefariaRef": "Yoma.19a.4"
-        },
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.19a.5"
-        },
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.19a.6"
-        },
-        {
-          "vilnaLine": 25,
-          "sefariaRef": "Yoma.19a.7"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.19a.1",
-        "Yoma.19a.2",
-        "Yoma.19a.3",
-        "Yoma.19a.4",
-        "Yoma.19a.5",
-        "Yoma.19a.6",
-        "Yoma.19a.7"
-      ],
-      "display": {
-        "title": "Locating the Parhedrin chamber by adjacency, not by direct statement",
-        "whats": "The Gemara maps the Temple's inner courtyard (Azara): six chambers (three along the north wall, three along the south wall) and seven gates. It then locates where the KG's two chambers were within this layout. The Parhedrin chamber (where the KG sleeps during his seven-day separation) is identified, and the question of whether it was on the north or south side of the Azara begins.",
-        "hint": "The Temple's courtyard had a specific layout with named chambers and gates. The KG's location during his seven days matters because his immersions (10 total on Yom Kippur) need to be near the gate where the water is brought in. North or south placement affects the logistics of his preparation."
-      },
-      "learning": {
-        "learnerQuestion": "Was the Parhedrin chamber, where the KG sleeps during his seven-day separation, on the north or south side of the Azara?",
-        "coreTension": "The Mishna never states the Parhedrin chamber's side directly, so the Gemara has to derive its location from an indirect fact: where the KG's immersion bath stood.",
-        "coreMove": "The Gemara reasons from adjacency: the Mishna in Tamid places the KG's immersion bath next to his Parhedrin chamber, and the Water Gate, where the immersion bath sat, is independently known to be in the south. Since the bath is in the south and the chamber is adjacent to the bath, the chamber must also be in the south.",
-        "resolution": "The Parhedrin chamber is located on the south side of the Azara, established by inference from its adjacency to the southern immersion bath rather than by a direct textual statement.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "An unstated fact can be derived by chaining two known facts through a shared point of contact: if A is adjacent to B, and B's location is known, A's location follows even without a direct source stating it."
-        },
-        "ahaMoment": "The Temple was a functioning institutional complex with specialized chambers. The KG's spatial location during preparation is not random; it determines his proximity to key service locations, and that proximity is itself the evidence the Gemara reasons from.",
-        "learningBlocker": "Learners often look for a single verse or mishna that states the Parhedrin chamber's side outright and get stuck when they cannot find one, missing that the Gemara establishes the location entirely through an adjacency inference from the immersion bath.",
-        "memoryAnchor": "Azara: six chambers (3N + 3S), 7 gates. Bath is south (Water Gate). Parhedrin is next to the bath, so Parhedrin is south too."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "description",
-          "label": "Six Azara chambers: three north, three south",
-          "speaker": "Gemara",
-          "text": "The inner courtyard has three chambers along the north wall: Chamber of the Exile (Lishkat HaGolah), Chamber of the Hewn Stone (Lishkat HaGazit), and a third. Three along the south wall: Chamber of Parhedrin (KG's separation chamber), Chamber of Parvah, and Chamber of Avtinas.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19a-l01",
-              "vilnaLine": 1,
-              "note": "Six chambers of the Azara"
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "description",
-          "label": "Seven gates of the Azara",
-          "speaker": "Gemara",
-          "text": "The Azara has seven gates: the Great Gate, the Fuel Gate (Sha'ar HaNitzotz), the Gate of the Firstborn (Sha'ar HaBchorot), the Water Gate (Sha'ar HaMayim), the Gate of the Singing (Sha'ar HaShir), the Gate of the Spark (Sha'ar HaNitzotz), and the Eastern Gate (Sha'ar HaMizrach).",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19a-l05",
-              "vilnaLine": 5,
-              "note": "Seven gates of the Azara"
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "detail",
-          "label": "The Water Gate: where Sukkot water is brought",
-          "speaker": "Gemara",
-          "text": "The Water Gate is the gate through which the water for the Sukkot water-drawing (nisuch ha-mayim) was brought. It was located on the south side.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19a-l11",
-              "vilnaLine": 11,
-              "note": "Water Gate location and function"
-            }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "detail",
-          "label": "Ten immersions: KG immerses on Yom Kippur",
-          "speaker": "Gemara",
-          "text": "The KG immerses ten times on Yom Kippur, five times in the sanctified immersion pool (on the roof of the Parvah chamber) and the rest in a regular mikveh. Each immersion corresponds to a service change requiring clean garments.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19a-l15",
-              "vilnaLine": 15,
-              "note": "Ten immersions on Yom Kippur"
-            }
-          ]
-        },
-        {
-          "id": "step-05",
-          "type": "detail",
-          "label": "First immersion: not counted with the Yom Kippur immersions",
-          "speaker": "Gemara",
-          "text": "The first immersion (the one every person must do before entering the Azara) is not counted among the KG's ten Yom Kippur immersions. All the Yom Kippur immersions must occur in a sanctified place.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19a-l19",
-              "vilnaLine": 19,
-              "note": "First immersion not counted"
-            }
-          ]
-        },
-        {
-          "id": "step-06",
-          "type": "question",
-          "label": "Where was the Parhedrin chamber: north or south?",
-          "speaker": "Gemara",
-          "text": "Based on the Mishna in Tamid, the KG's immersion bath was adjacent to his chamber (Parhedrin). Since the immersion bath was in the south (near the Water Gate), the Parhedrin chamber should also be in the south.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19a-l23",
-              "vilnaLine": 23,
-              "note": "South placement of Parhedrin from immersion proximity"
-            }
-          ]
-        },
-        {
-          "id": "step-07",
-          "type": "reasoning",
-          "label": "The KG's daily routine during the seven days",
-          "speaker": "Gemara",
-          "text": "Each morning during the seven days, the KG rises, goes to relieve himself, immerses (in the south), goes north to his second chamber to practice the incense-scooping, returns to the Temple for the full-day service, then at dusk goes south again for the purification sprinkling.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19a-l25",
-              "vilnaLine": 25,
-              "note": "KG's daily seven-day routine"
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Temple layout",
-        "Azara chambers",
-        "seven gates",
-        "Parhedrin chamber",
-        "immersions",
-        "KG routine",
-        "Water Gate"
-      ],
-      "concepts": [
-        {
-          "term": "Lishkat Parhedrin",
-          "def": "The Chamber of Parhedrin - the KG's personal chamber during his seven-day separation before Yom Kippur. He slept there and prepared. The name 'parhedrin' may relate to the word for 'chambers' or 'governors.'"
-        },
-        {
-          "term": "Lishkat Parvah",
-          "def": "The Parvah Chamber - a chamber on the south side of the Azara with a sanctified immersion pool on its roof. The KG immerses in this pool for his five sanctified immersions on Yom Kippur."
-        }
-      ],
-      "conceptRefs": [
-        "Yoma.19a.1",
-        "Yoma.19a.4",
-        "Yoma.19a.6"
-      ],
-      "requiresUnderstanding": [
-        "The Temple's three-court structure (outer, women's, inner/Azara)",
-        "The KG's ten immersions on Yom Kippur",
-        "The Sukkot water-drawing ceremony"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The KG immerses ten times on Yom Kippur because there are ten distinct services requiring it.",
-          "correction": "There are only five garment changes (golden and white alternating); the ten count reflects the immersions tied to those five changes, not ten separate services."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-18b-s02",
-        "yoma-19a-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "place",
-          "desc": "Azara floor plan showing six named chambers (3N + 3S), seven gates with names, KG's Parhedrin chamber in south, Parvah chamber roof pool"
-        },
-        {
-          "type": "sequence",
-          "desc": "KG's daily seven-day routine: wake up, relieve self, south for immersion, north to Beit Avtinas for incense practice, full day of service, dusk purification"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "How many chambers and gates did the Temple's inner courtyard (Azara) have?",
-          "answer": "Six chambers, three along the north wall and three along the south wall, and seven gates."
-        },
-        {
-          "question": "The Mishna never states directly which side of the Azara the Parhedrin chamber was on. How does the Gemara establish that it was in the south?",
-          "answer": "By adjacency inference: the Mishna in Tamid places the KG's immersion bath next to the Parhedrin chamber, and the immersion bath is independently known to be in the south, near the Water Gate. Since the chamber sits next to the bath, it must also be in the south."
-        }
-      ],
-      "finalRuling": "Parhedrin chamber = south side of the Azara, adjacent to the immersion facility.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "לִשְׁכַּת פַּרְהֶדְרִין",
-          "translit": "Lishkat Parhedrin",
-          "en": "KG's personal separation chamber during the seven days before Yom Kippur, located on the south side of the inner courtyard."
-        },
-        {
-          "he": "לִשְׁכַּת פַּרְוָה",
-          "translit": "Lishkat Parvah",
-          "en": "Parvah Chamber - south side of the Azara, with a sanctified immersion pool on its roof used for five of the KG's Yom Kippur immersions."
-        }
-      ],
-      "review": {
-        "content": "ai_generated",
-        "sourceRefs": "ai_generated"
-      }
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.19a.8"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-19a-s02",
-      "lineRange": {
-        "startVilnaLine": 28,
-        "endVilnaLine": 36
-      },
-      "lines": [
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.19a.8"
-        },
-        {
-          "vilnaLine": 30,
-          "sefariaRef": "Yoma.19a.9"
-        },
-        {
-          "vilnaLine": 32,
-          "sefariaRef": "Yoma.19a.10"
-        },
-        {
-          "vilnaLine": 36,
-          "sefariaRef": "Yoma.19a.11"
-        },
-        {
-          "vilnaLine": 36,
-          "sefariaRef": "Yoma.19a.12"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.19a.8",
-        "Yoma.19a.9",
-        "Yoma.19a.10",
-        "Yoma.19a.11",
-        "Yoma.19a.12"
-      ],
-      "display": {
-        "title": "Efficient placement, deliberate difficulty: south wins, but the walking stays",
-        "whats": "The Gemara debates whether the Parhedrin chamber was on the north or south side of the Azara. The debate hinges on the KG's daily routine during the seven days: if Parhedrin is in the south, his morning routine is efficient (rise, relieve self, immerse at the nearby Water Gate, then walk north to Beit Avtinas). If in the north, his routine involves more walking. The Gemara concludes: south is more defensible. The difficulty of the all-day service imposed on the KG is also analyzed.",
-        "hint": "The north-south debate about the Parhedrin chamber is really a debate about the KG's logistical convenience during his seven-day preparation. The Gemara's preferred answer puts Parhedrin in the south - closer to the Water Gate for morning immersion."
-      },
-      "learning": {
-        "learnerQuestion": "Given two possible layouts, why does the Gemara settle on south for the Parhedrin chamber, and why would the Sages design the KG's routine to involve repeated back-and-forth walking at all?",
-        "coreTension": "A south placement makes the KG's morning efficient, but his daily routine still has him crossing the Azara repeatedly between immersion (south) and incense practice (north), which looks like avoidable inefficiency for someone the Temple should be accommodating.",
-        "coreMove": "The Gemara first settles the chamber's side by comparing the two possible routines: south placement keeps the morning sequence efficient, while north placement would force a redundant double crossing, so south is preferred as the more economical reading. It then reframes the remaining daily back-and-forth itself: the Sages did not minimize the KG's exertion because they wanted him to feel the weight of the preparation, preventing his elevated role from inflating his ego.",
-        "resolution": "Parhedrin is confirmed in the south based on routine efficiency, but the routine's residual difficulty is not a design flaw; it is intentional, meant to keep the KG humble despite his status.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Not every apparent inefficiency in a religious procedure is an oversight to be optimized away; some friction is deliberately preserved because the difficulty itself serves a formative purpose."
-        },
-        "ahaMoment": "The physical difficulty of the KG's preparation is deliberate: the Sages could have arranged an easier sequence, but they chose the harder path on purpose to keep the KG humble.",
-        "learningBlocker": "Learners who just resolved the north/south question by efficiency logic tend to assume the Gemara is optimizing the KG's routine throughout, then are surprised when it turns around and defends the remaining difficulty as intentional rather than something to streamline further.",
-        "memoryAnchor": "Parhedrin in the south. Daily routine: south for morning needs, north for incense practice. The leftover difficulty is intentional, to prevent pride."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "question",
-          "label": "Where is the Parhedrin: north or south?",
-          "speaker": "Gemara",
-          "text": "We established the immersion bath was in the south (adjacent to Parhedrin). But is this Parhedrin chamber itself in the north or south? The logic from the immersion bath suggests south.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19a-l28",
-              "vilnaLine": 28,
-              "note": "North-south debate opening"
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "argument",
-          "label": "If south: efficient morning routine",
-          "speaker": "Gemara",
-          "text": "If Parhedrin is in the south: the KG wakes up, relieves himself (needs immersion for entering the Azara), goes south to the Water Gate area, immerses, then walks north to Beit Avtinas for incense practice. This is an efficient path.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19a-l30",
-              "vilnaLine": 30,
-              "note": "Efficient south-placement routine"
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "argument",
-          "label": "If north: roundabout routine",
-          "speaker": "Gemara",
-          "text": "If Parhedrin is in the north: the KG wakes up in the north, must go south to the Water Gate to immerse, then can return north to Beit Avtinas. This doubles his walking and is less efficient.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19a-l32",
-              "vilnaLine": 32,
-              "note": "Inefficient north-placement route"
-            }
-          ]
-        },
-        {
-          "id": "step-04",
-          "type": "conclusion",
-          "label": "Parhedrin is in the south - confirmed",
-          "speaker": "Gemara",
-          "text": "The south placement is more logical given the routine. Parhedrin in the south means the KG's immersion bath is right there, making his morning routine streamlined. This is the accepted conclusion.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19a-l36",
-              "vilnaLine": 36,
-              "note": "South placement confirmed"
-            }
-          ]
-        },
-        {
-          "id": "step-05",
-          "type": "question",
-          "label": "Why impose such difficulty on the KG?",
-          "speaker": "Gemara",
-          "text": "Why does the seven-day preparation impose all this physical difficulty on the KG? The Gemara answers: to prevent his ego from becoming puffed up. The difficulty keeps him focused and humble.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19a-l36",
-              "vilnaLine": 36,
-              "note": "Rationale for imposed difficulty"
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Parhedrin chamber",
-        "north vs south",
-        "KG routine",
-        "immersion logistics",
-        "humility",
-        "Azara layout"
-      ],
-      "concepts": [
-        {
-          "term": "beit ha-tevilah",
-          "def": "Immersion chamber - the ritual bath used by the KG for his ten Yom Kippur immersions. Five immersions were done in the sanctified pool atop the Parvah chamber; the rest in a regular mikveh near the Water Gate."
-        }
-      ],
-      "conceptRefs": [
-        "Yoma.19a.8",
-        "Yoma.19a.10"
-      ],
-      "requiresUnderstanding": [
-        "The six Azara chambers from 19a-s01",
-        "The KG's daily routine during seven days preparation"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The walking back and forth in the KG's daily routine is an accidental or unavoidable byproduct of the Temple's layout.",
-          "correction": "The Gemara presents it as deliberately preserved: the Sages wanted the KG to experience some physical difficulty during his preparation so that his elevated status would not inflate his ego."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-19a-s01",
-        "yoma-19a-s03"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "desc": "Two routing diagrams: (A) Parhedrin in south - efficient morning route; (B) Parhedrin in north - roundabout route. Shows why south is preferred."
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why does the Gemara conclude that the Parhedrin chamber was in the south of the Azara rather than the north?",
-          "answer": "Because the KG's morning routine requires going south to the Water Gate area for immersion. If Parhedrin were in the north, he would walk south for immersion and then back north to Beit Avtinas, an inefficient double circuit that a south placement avoids."
-        },
-        {
-          "question": "After concluding south is more efficient, why does the Gemara still defend the KG's remaining back-and-forth walking as necessary rather than streamlining it further?",
-          "answer": "Because the Sages deliberately preserved some physical difficulty in the KG's preparation to prevent his elevated status from inflating his ego, not because the routine could not be made easier."
-        }
-      ],
-      "finalRuling": "Parhedrin is in the south. The imposed difficulty is intentional and serves a mussar function: keeping the KG humble.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": {
-        "content": "ai_generated",
-        "sourceRefs": "ai_generated"
-      }
+     "vilnaLine": 30,
+     "sefariaRef": "Yoma.19a.9"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-19a-s03",
-      "lineRange": {
-        "startVilnaLine": 38,
-        "endVilnaLine": 38
-      },
-      "lines": [
-        {
-          "vilnaLine": 38,
-          "sefariaRef": "Yoma.19a.13"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.19a.13"
-      ],
-      "display": {
-        "title": "God's agent or Israel's agent? The question opens, the answer waits for 19b",
-        "whats": "A brief but theologically significant debate: do the kohanim act as agents (shlichim) of God when offering sacrifices, or as agents of the Jewish people? This distinction has practical halakhic consequences - if they are God's agents, a kohen who is forbidden from benefiting from a particular person could still bring that person's sacrifice. If they are Israel's agents, such service would be forbidden.",
-        "hint": "The agency question (shlichut) matters: if kohanim = God's agents, then the person offering has no legal 'hand' in the service (God is the effective party). If kohanim = Israel's agents, then the person's status (e.g., a vow against the kohen) affects whether the service is valid."
-      },
-      "learning": {
-        "learnerQuestion": "When a kohen offers someone's sacrifice, is he legally acting on behalf of God, or on behalf of the person who brought the offering?",
-        "coreTension": "The classification is not just abstract theology: if a person has vowed not to benefit from a particular kohen, the answer determines whether that kohen may still bring his sacrifice, since the case turns on whose agent the kohen actually is.",
-        "coreMove": "The Gemara frames the question as a live dispute with practical stakes rather than settling it here: if kohanim are God's agents, the offerer has no direct legal 'hand' in the kohen's actions, so a forbidden-benefit vow would not block the service; if kohanim are Israel's agents, the personal relationship between kohen and offerer carries through and a forbidden-benefit vow could disqualify it.",
-        "takeaway": {
-          "type": "open_question",
-          "text": "Some halakhic questions are introduced with their full practical stakes laid out before any resolution is reached, and the sugya's job at that stage is to make clear why the answer matters, not to supply it yet."
-        },
-        "ahaMoment": "Agency law (shlichut) applied to Temple service: who is the 'real' party when a kohen brings a sacrifice? The answer determines whether personal legal relationships between the kohen and the offerer matter at all.",
-        "learningBlocker": "Learners often expect every question the Gemara raises to be answered within the same sugya, and may search this page for a resolution that the text deliberately withholds until 19b.",
-        "memoryAnchor": "Kohanim: shlichei shamayim (God's agents) vs shlichei Yisrael (Israel's agents). God's agents: a forbidden-benefit vow does not block the service. Israel's agents: it might. Answer on 19b."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "question",
-          "label": "Are kohanim agents of God or agents of Israel?",
-          "speaker": "Gemara",
-          "text": "The question arises: when a kohen offers a sacrifice, is he acting as God's agent (and the service proceeds regardless of the kohen's personal relationship with the offerer) or as Israel's agent (and personal legal relationships between kohen and offerer could invalidate the service)?",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-19a-l38",
-              "vilnaLine": 38,
-              "note": "Agency question introduced"
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "agency law",
-        "shlichut",
-        "kohanim",
-        "sacrifice",
-        "shlichei shamayim",
-        "shlichei Yisrael"
-      ],
-      "concepts": [
-        {
-          "term": "shlichut",
-          "def": "Agency law - the principle that an agent acts on behalf of the principal. 'An agent is like the principal himself.' The question is whether the kohen-offerer relationship is principal-agent (Israel's agent) or messenger-sender (God's agent)."
-        }
-      ],
-      "conceptRefs": [
-        "Yoma.19a.13"
-      ],
-      "requiresUnderstanding": [
-        "Basic shlichut (agency) principles in halacha",
-        "Forbidden-benefit vows (nedarim) that could block kohen-offerer relationships"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The question of whether kohanim are God's agents or Israel's agents is purely theological speculation with no practical consequence.",
-          "correction": "It directly determines a practical case: whether a kohen bound by another person's forbidden-benefit vow may still bring that person's sacrifice."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-19b-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "desc": "Two diagrams: (A) shlichei shamayim - kohen -> God -> sacrifice, offerer has no direct connection; (B) shlichei Yisrael - offerer -> kohen (as agent) -> sacrifice, kohen-offerer relationship matters"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What is the practical halakhic difference between kohanim being 'God's agents' versus 'Israel's agents' when it comes to a forbidden-benefit vow against a specific kohen?",
-          "answer": "If kohanim are God's agents, the kohen can still bring that person's sacrifice because the offerer has no direct legal hand in the kohen's act. If kohanim are Israel's agents, the personal relationship carries through and the vow could block the kohen from performing that service."
-        },
-        {
-          "question": "According to Rashi, what position does Rav Huna take on this question, and what is the practical upshot?",
-          "answer": "Rav Huna holds that kohanim are shelichei shamayim, agents of Heaven. The upshot is that even a kohen whom the offerer has vowed not to benefit from can still bring that person's sacrifice, since the vow does not reach an act done on God's behalf."
-        }
-      ],
-      "finalRuling": "Question posed; answer given on 19b.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "glossary": [
-        {
-          "he": "שְׁלִיחֵי שָׁמַיִם",
-          "translit": "shlichei shamayim",
-          "en": "Agents of Heaven - one position on kohanim's status: they act for God, not for the individual offerer."
-        }
-      ],
-      "review": {
-        "content": "ai_generated",
-        "sourceRefs": "ai_generated"
-      }
+     "vilnaLine": 32,
+     "sefariaRef": "Yoma.19a.10"
+    },
+    {
+     "vilnaLine": 36,
+     "sefariaRef": "Yoma.19a.11"
+    },
+    {
+     "vilnaLine": 36,
+     "sefariaRef": "Yoma.19a.12"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.19a.8",
+    "Yoma.19a.9",
+    "Yoma.19a.10",
+    "Yoma.19a.11",
+    "Yoma.19a.12"
+   ],
+   "display": {
+    "title": "Efficient placement, deliberate difficulty: south wins, but the walking stays",
+    "whats": "The Gemara debates whether the Parhedrin chamber was on the north or south side of the Azara. The debate hinges on the KG's daily routine during the seven days: if Parhedrin is in the south, his morning routine is efficient (rise, relieve self, immerse at the nearby Water Gate, then walk north to Beit Avtinas). If in the north, his routine involves more walking. The Gemara concludes: south is more defensible. The difficulty of the all-day service imposed on the KG is also analyzed.",
+    "hint": "The north-south debate about the Parhedrin chamber is really a debate about the KG's logistical convenience during his seven-day preparation. The Gemara's preferred answer puts Parhedrin in the south - closer to the Water Gate for morning immersion."
+   },
+   "learning": {
+    "learnerQuestion": "Given two possible layouts, why does the Gemara settle on south for the Parhedrin chamber, and why would the Sages design the KG's routine to involve repeated back-and-forth walking at all?",
+    "coreTension": "A south placement makes the KG's morning efficient, but his daily routine still has him crossing the Azara repeatedly between immersion (south) and incense practice (north), which looks like avoidable inefficiency for someone the Temple should be accommodating.",
+    "coreMove": "The Gemara first settles the chamber's side by comparing the two possible routines: south placement keeps the morning sequence efficient, while north placement would force a redundant double crossing, so south is preferred as the more economical reading. It then reframes the remaining daily back-and-forth itself: the Sages did not minimize the KG's exertion because they wanted him to feel the weight of the preparation, preventing his elevated role from inflating his ego.",
+    "resolution": "Parhedrin is confirmed in the south based on routine efficiency, but the routine's residual difficulty is not a design flaw; it is intentional, meant to keep the KG humble despite his status.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Not every apparent inefficiency in a religious procedure is an oversight to be optimized away; some friction is deliberately preserved because the difficulty itself serves a formative purpose."
+    },
+    "ahaMoment": "The physical difficulty of the KG's preparation is deliberate: the Sages could have arranged an easier sequence, but they chose the harder path on purpose to keep the KG humble.",
+    "learningBlocker": "Learners who just resolved the north/south question by efficiency logic tend to assume the Gemara is optimizing the KG's routine throughout, then are surprised when it turns around and defends the remaining difficulty as intentional rather than something to streamline further.",
+    "memoryAnchor": "Parhedrin in the south. Daily routine: south for morning needs, north for incense practice. The leftover difficulty is intentional, to prevent pride."
+   },
+   "argumentFlow": [
     {
-      "he": "לִשְׁכַּת פַּרְהֶדְרִין",
-      "translit": "Lishkat Parhedrin",
-      "en": "KG's personal separation chamber during the seven days before Yom Kippur, located on the south side of the inner courtyard."
+     "id": "step-01",
+     "type": "question",
+     "label": "Where is the Parhedrin: north or south?",
+     "speaker": "Gemara",
+     "text": "We established the immersion bath was in the south (adjacent to Parhedrin). But is this Parhedrin chamber itself in the north or south? The logic from the immersion bath suggests south.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19a-l28",
+       "vilnaLine": 28,
+       "note": "North-south debate opening"
+      }
+     ]
     },
     {
-      "he": "לִשְׁכַּת פַּרְוָה",
-      "translit": "Lishkat Parvah",
-      "en": "Parvah Chamber - south side of the Azara, with a sanctified immersion pool on its roof used for five of the KG's Yom Kippur immersions."
+     "id": "step-02",
+     "type": "argument",
+     "label": "If south: efficient morning routine",
+     "speaker": "Gemara",
+     "text": "If Parhedrin is in the south: the KG wakes up, relieves himself (needs immersion for entering the Azara), goes south to the Water Gate area, immerses, then walks north to Beit Avtinas for incense practice. This is an efficient path.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19a-l30",
+       "vilnaLine": 30,
+       "note": "Efficient south-placement routine"
+      }
+     ]
     },
     {
-      "he": "שְׁלִיחֵי שָׁמַיִם",
-      "translit": "shlichei shamayim",
-      "en": "Agents of Heaven - one position on kohanim's status: they act for God, not for the individual offerer."
+     "id": "step-03",
+     "type": "argument",
+     "label": "If north: roundabout routine",
+     "speaker": "Gemara",
+     "text": "If Parhedrin is in the north: the KG wakes up in the north, must go south to the Water Gate to immerse, then can return north to Beit Avtinas. This doubles his walking and is less efficient.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19a-l32",
+       "vilnaLine": 32,
+       "note": "Inefficient north-placement route"
+      }
+     ]
+    },
+    {
+     "id": "step-04",
+     "type": "conclusion",
+     "label": "Parhedrin is in the south - confirmed",
+     "speaker": "Gemara",
+     "text": "The south placement is more logical given the routine. Parhedrin in the south means the KG's immersion bath is right there, making his morning routine streamlined. This is the accepted conclusion.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19a-l36",
+       "vilnaLine": 36,
+       "note": "South placement confirmed"
+      }
+     ]
+    },
+    {
+     "id": "step-05",
+     "type": "question",
+     "label": "Why impose such difficulty on the KG?",
+     "speaker": "Gemara",
+     "text": "Why does the seven-day preparation impose all this physical difficulty on the KG? The Gemara answers: to prevent his ego from becoming puffed up. The difficulty keeps him focused and humble.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19a-l36",
+       "vilnaLine": 36,
+       "note": "Rationale for imposed difficulty"
+      }
+     ]
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "topicTags": [
+    "Parhedrin chamber",
+    "north vs south",
+    "KG routine",
+    "immersion logistics",
+    "humility",
+    "Azara layout"
+   ],
+   "concepts": [
     {
-      "vilnaLine": 1,
-      "en": "Opens 'Gemara: it was taught: to teach him the scooping': they take him to the house of Avtinas, where the incense",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "closing: is found.' Then opens 'the chamber of Parhedrin': to sleep there.' Then opens 'the chamber of Avtinas': to learn the scooping.' Then opens 'on its roof' -",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "closing: there was the immersion chamber; spring water was brought there by an elevated conduit. Then opens 'the winding stair': a construction",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "continuing: of stones, steps that revolve and circle around a central post, like the wooden wheel of",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "closing: a winepress.' Then opens 'to the roof of the chamber of Parva': to go up",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "closing: to it by way of the winding stair.' Then opens 'the chamber of the exile' -",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l11"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "continuing: named after a cistern which those returning from exile dug there.",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l11"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "Then opens 'behind both of them': behind the chamber of the exile and the chamber of",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l11"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "closing: hewn stone.' Then opens 'and the roof of all three was level': one single covering",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l11"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "closing: for all three.' Then opens 'the Kindling Gate, the Offering Gate' -",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "closing: I do not know why they were called by these names. Then opens 'the Gate",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: of Water': through which they would bring in the flask of water",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "continuing: for the water libation on the festival - so it is explained in Shekalim",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "closing: (9b).' Then opens 'and ten sanctifications': of his hands and feet",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "closing: from the laver.' Then opens 'on that day': on Yom Kippur, and further on",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: (32a) it derives them from verses, and all of them are in the sanctified area,",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "closing: as it goes on to explain. Then opens 'on the roof of the chamber of Parva' -",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "closing: since it was built within the sanctified Courtyard.",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "Then opens 'except this one': the first immersion, which does not come",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "continuing: on account of Yom Kippur, since even on every other day of the year",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: we learned (30b): a person may not enter",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: the Courtyard, even if pure, until he immerses; but",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: the immersions that come on account of Yom Kippur require",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: a sanctified place, since it is thus written concerning them: 'and he shall bathe",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "closing: his flesh in water in a sanctified place' (Leviticus 16).",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Then opens 'and it was beside his chamber': from which it follows there is",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l25"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "closing: a chamber for him in the south.' Then opens 'and it stands to reason the chamber of Parhedrin' -",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: where he sleeps, is in the south, next to the",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "closing: weekday immersion chamber.' Then opens 'what is the reason: he rises early",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "continuing: etc.': when he rises early in the morning, throughout",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "closing: the seven days, he gets up from his bed. Then opens 'and relieves himself",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: and immerses': there, above the Water Gate,",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: which is set above it, within the thickness of the wall, is arranged",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "continuing: a weekday immersion chamber, and a spring is drawn there",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: by a channel from the spring of Eitam, as further on (28a),",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "continuing: and anyone who relieves himself requires immersion to enter",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "continuing: the Courtyard; and he goes to the north, to his second chamber,",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: to learn the scooping, and comes to the Temple,",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "continuing: and performs the service all day, as we learned",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: (above, 14a): all seven days he",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "closing: tosses the blood, etc. Then opens 'toward evening they measure",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "closing: against him' - as we said at the start of this chapter. Then opens 'and he goes",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "continuing: to the south and immerses': at the Water Gate, following Rabbi Akiva,",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "continuing: who says (ibid.) that a pure person on whom sprinkling water fell",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "closing: becomes impure. Then opens 'and rests': he goes and lies down in the chamber",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "closing: of Parhedrin, which is beside the immersion chamber.",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "Opens 'for if you say the chamber of Parhedrin': in which he",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "continuing: sleeps, is in the north, and far from the",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "continuing: immersion chamber - you would burden him with all this",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "closing: exertion.' Then opens 'he rises early and relieves himself': in the manner",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "closing: of all who rise early.' Then opens 'and goes to the south': to the Gate",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "closing: of Water.' Then opens 'and immerses and completes the scooping': there,",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "closing: in the house of Avtinas which is there, and goes to the Temple, etc.' Then opens 'why not?': it is a difficulty, meaning: is it not good for you that we deliberately burden him, since if he is a Sadducee and not",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l36a"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "closing: God-fearing enough to accept the burden of the Temple upon himself, he would withdraw from the High Priesthood and not accept it in the first place - and that is good for us, since they change the service, as explained further on in this passage.",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l36a"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "closing: Then opens 'alternatively': even if he is a worthy man, it is good for us to burden him, so that he not become haughty, priding himself on the crown of the priesthood.' Then opens 'for if you do not say so': that we would not need to burden him",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l36b"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "closing: to use his two chambers together.' Then opens 'shall we say this is': the mishna which teaches 'you are our agent' - a refutation of Rav Huna, etc.' Then opens 'these priests': in offering his sacrifices are agents",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l38"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "closing: of the Merciful One, and not our agents; and the practical difference is: if one is under a vow prohibiting him from benefiting from another, it is permitted for that other person to offer his sacrifices, as we learned in Nedarim (35b).",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l38"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "Opens 'thus' -",
-      "linkedGemaraLineIds": [
-        "yoma-019a-l38"
-      ]
+     "term": "beit ha-tevilah",
+     "def": "Immersion chamber - the ritual bath used by the KG for his ten Yom Kippur immersions. Five immersions were done in the sanctified pool atop the Parvah chamber; the rest in a regular mikveh near the Water Gate."
     }
-  ]
+   ],
+   "conceptRefs": [
+    "Yoma.19a.8",
+    "Yoma.19a.10"
+   ],
+   "requiresUnderstanding": [
+    "The six Azara chambers from 19a-s01",
+    "The KG's daily routine during seven days preparation"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The walking back and forth in the KG's daily routine is an accidental or unavoidable byproduct of the Temple's layout.",
+     "correction": "The Gemara presents it as deliberately preserved: the Sages wanted the KG to experience some physical difficulty during his preparation so that his elevated status would not inflate his ego."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-19a-s01",
+    "yoma-19a-s03"
+   ],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "desc": "Two routing diagrams: (A) Parhedrin in south - efficient morning route; (B) Parhedrin in north - roundabout route. Shows why south is preferred."
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why does the Gemara conclude that the Parhedrin chamber was in the south of the Azara rather than the north?",
+     "answer": "Because the KG's morning routine requires going south to the Water Gate area for immersion. If Parhedrin were in the north, he would walk south for immersion and then back north to Beit Avtinas, an inefficient double circuit that a south placement avoids."
+    },
+    {
+     "question": "After concluding south is more efficient, why does the Gemara still defend the KG's remaining back-and-forth walking as necessary rather than streamlining it further?",
+     "answer": "Because the Sages deliberately preserved some physical difficulty in the KG's preparation to prevent his elevated status from inflating his ego, not because the routine could not be made easier."
+    }
+   ],
+   "finalRuling": "Parhedrin is in the south. The imposed difficulty is intentional and serves a mussar function: keeping the KG humble.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": {
+    "content": "ai_generated",
+    "sourceRefs": "ai_generated"
+   }
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-19a-s03",
+   "lineRange": {
+    "startVilnaLine": 38,
+    "endVilnaLine": 38
+   },
+   "lines": [
+    {
+     "vilnaLine": 38,
+     "sefariaRef": "Yoma.19a.13"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.19a.13"
+   ],
+   "display": {
+    "title": "God's agent or Israel's agent? The question opens, the answer waits for 19b",
+    "whats": "A brief but theologically significant debate: do the kohanim act as agents (shlichim) of God when offering sacrifices, or as agents of the Jewish people? This distinction has practical halakhic consequences - if they are God's agents, a kohen who is forbidden from benefiting from a particular person could still bring that person's sacrifice. If they are Israel's agents, such service would be forbidden.",
+    "hint": "The agency question (shlichut) matters: if kohanim = God's agents, then the person offering has no legal 'hand' in the service (God is the effective party). If kohanim = Israel's agents, then the person's status (e.g., a vow against the kohen) affects whether the service is valid."
+   },
+   "learning": {
+    "learnerQuestion": "When a kohen offers someone's sacrifice, is he legally acting on behalf of God, or on behalf of the person who brought the offering?",
+    "coreTension": "The classification is not just abstract theology: if a person has vowed not to benefit from a particular kohen, the answer determines whether that kohen may still bring his sacrifice, since the case turns on whose agent the kohen actually is.",
+    "coreMove": "The Gemara frames the question as a live dispute with practical stakes rather than settling it here: if kohanim are God's agents, the offerer has no direct legal 'hand' in the kohen's actions, so a forbidden-benefit vow would not block the service; if kohanim are Israel's agents, the personal relationship between kohen and offerer carries through and a forbidden-benefit vow could disqualify it.",
+    "takeaway": {
+     "type": "open_question",
+     "text": "Some halakhic questions are introduced with their full practical stakes laid out before any resolution is reached, and the sugya's job at that stage is to make clear why the answer matters, not to supply it yet."
+    },
+    "ahaMoment": "Agency law (shlichut) applied to Temple service: who is the 'real' party when a kohen brings a sacrifice? The answer determines whether personal legal relationships between the kohen and the offerer matter at all.",
+    "learningBlocker": "Learners often expect every question the Gemara raises to be answered within the same sugya, and may search this page for a resolution that the text deliberately withholds until 19b.",
+    "memoryAnchor": "Kohanim: shlichei shamayim (God's agents) vs shlichei Yisrael (Israel's agents). God's agents: a forbidden-benefit vow does not block the service. Israel's agents: it might. Answer on 19b."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "question",
+     "label": "Are kohanim agents of God or agents of Israel?",
+     "speaker": "Gemara",
+     "text": "The question arises: when a kohen offers a sacrifice, is he acting as God's agent (and the service proceeds regardless of the kohen's personal relationship with the offerer) or as Israel's agent (and personal legal relationships between kohen and offerer could invalidate the service)?",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-19a-l38",
+       "vilnaLine": 38,
+       "note": "Agency question introduced"
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "agency law",
+    "shlichut",
+    "kohanim",
+    "sacrifice",
+    "shlichei shamayim",
+    "shlichei Yisrael"
+   ],
+   "concepts": [
+    {
+     "term": "shlichut",
+     "def": "Agency law - the principle that an agent acts on behalf of the principal. 'An agent is like the principal himself.' The question is whether the kohen-offerer relationship is principal-agent (Israel's agent) or messenger-sender (God's agent)."
+    }
+   ],
+   "conceptRefs": [
+    "Yoma.19a.13"
+   ],
+   "requiresUnderstanding": [
+    "Basic shlichut (agency) principles in halacha",
+    "Forbidden-benefit vows (nedarim) that could block kohen-offerer relationships"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The question of whether kohanim are God's agents or Israel's agents is purely theological speculation with no practical consequence.",
+     "correction": "It directly determines a practical case: whether a kohen bound by another person's forbidden-benefit vow may still bring that person's sacrifice."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-19b-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "desc": "Two diagrams: (A) shlichei shamayim - kohen -> God -> sacrifice, offerer has no direct connection; (B) shlichei Yisrael - offerer -> kohen (as agent) -> sacrifice, kohen-offerer relationship matters"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What is the practical halakhic difference between kohanim being 'God's agents' versus 'Israel's agents' when it comes to a forbidden-benefit vow against a specific kohen?",
+     "answer": "If kohanim are God's agents, the kohen can still bring that person's sacrifice because the offerer has no direct legal hand in the kohen's act. If kohanim are Israel's agents, the personal relationship carries through and the vow could block the kohen from performing that service."
+    },
+    {
+     "question": "According to Rashi, what position does Rav Huna take on this question, and what is the practical upshot?",
+     "answer": "Rav Huna holds that kohanim are shelichei shamayim, agents of Heaven. The upshot is that even a kohen whom the offerer has vowed not to benefit from can still bring that person's sacrifice, since the vow does not reach an act done on God's behalf."
+    }
+   ],
+   "finalRuling": "Question posed; answer given on 19b.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "glossary": [
+    {
+     "he": "שְׁלִיחֵי שָׁמַיִם",
+     "translit": "shlichei shamayim",
+     "en": "Agents of Heaven - one position on kohanim's status: they act for God, not for the individual offerer."
+    }
+   ],
+   "review": {
+    "content": "ai_generated",
+    "sourceRefs": "ai_generated"
+   }
+  }
+ ],
+ "glossary": [
+  {
+   "he": "לִשְׁכַּת פַּרְהֶדְרִין",
+   "translit": "Lishkat Parhedrin",
+   "en": "KG's personal separation chamber during the seven days before Yom Kippur, located on the south side of the inner courtyard."
+  },
+  {
+   "he": "לִשְׁכַּת פַּרְוָה",
+   "translit": "Lishkat Parvah",
+   "en": "Parvah Chamber - south side of the Azara, with a sanctified immersion pool on its roof used for five of the KG's Yom Kippur immersions."
+  },
+  {
+   "he": "שְׁלִיחֵי שָׁמַיִם",
+   "translit": "shlichei shamayim",
+   "en": "Agents of Heaven - one position on kohanim's status: they act for God, not for the individual offerer."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "Gemara: 'It was taught: to teach him the scooping' - they take him to the house of Avtinas, where the incense",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "is kept. 'The chamber of Parhedrin' - to sleep there. 'The chamber of Avtinas' - to learn the scooping. 'On its roof' -",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l01",
+    "yoma-019a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "was the immersion chamber; spring water was brought there by an elevated conduit. 'The winding stair' - a construction",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "of stones, steps that wind and circle around a central post, like the wooden wheel of",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "a winepress. 'To the roof of the chamber of Parva' - to go up",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "to it by way of the winding stair. 'The chamber of the exile' -",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l05",
+    "yoma-019a-l11"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "named after a cistern that the returnees from exile dug there",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l11"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "'Behind both of them' - behind the chamber of the exile and the chamber of",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l11"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "hewn stone. 'And the roof of all three was level' - one single covering",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l11"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "for all three. 'The Kindling Gate, the Offering Gate' -",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l11",
+    "yoma-019a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "I do not know why they were called by these names. 'The Gate",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "of Water' - through which they would bring in the flask of water",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "for the water libation on the festival; so it is explained in Shekalim",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "(9b). 'And ten sanctifications' - of his hands and feet",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l19",
+    "yoma-019a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "from the laver. 'On that day' - on Yom Kippur, and further on",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "(32a) it derives them from verses, and all of them are in the sanctified place,",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "as it goes on to explain. 'On the roof of the chamber of Parva' -",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "since it was built within the sanctified Courtyard",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "'Except this one' - the first immersion, which does not come",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "on account of Yom Kippur, since even on every other day of the year",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "we learned (3:30b): a person may not enter",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "the Courtyard, even if pure, until he immerses; but",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "the immersions that come on account of Yom Kippur require",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "a sanctified place, since it is thus written concerning them, 'and he shall bathe",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "his flesh in water in a sanctified place' (Leviticus 16)",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "'And it was beside his chamber' - from which it follows there is",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "a chamber for him in the south. 'And it stands to reason the chamber of Parhedrin' -",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l25",
+    "yoma-019a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "where he sleeps, is in the south, next to the",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "weekday immersion chamber. 'What is the reason: he rises early",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l28",
+    "yoma-019a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "etc.' - when he rises early in the morning, throughout",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "the seven days, he gets up from his bed. 'And relieves himself",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "and immerses' - there, above the Water Gate,",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "which is set above it, within the thickness of the wall, is arranged",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "a weekday immersion chamber, and a spring is drawn there",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "by a channel from the spring of Eitam, as further on (28a),",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "and anyone who relieves himself requires immersion to enter",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "the Courtyard; and he goes to the north, to his second chamber,",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "to learn the scooping, and comes to the Temple,",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "and performs the service all day, as we learned",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "(above, 14a): all seven days he",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "tosses the blood, etc. 'Toward evening they measure",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "against him' - as we said at the start of this chapter. 'And he goes",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "to the south and immerses' - at the Water Gate, following Rabbi Akiva,",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "who says (ibid.) that a pure person on whom sprinkling water fell",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "becomes impure. 'And rests' - he goes and lies down in the chamber",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "of Parhedrin, which is beside the immersion chamber",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "'For if you say the chamber of Parhedrin' - in which he",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "sleeps, is in the north, and far from the",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "immersion chamber - you would burden him with all this",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "exertion. 'He rises early and relieves himself' - in the manner",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "of all who rise early. 'And goes to the south' - to the Gate",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "of Water. 'And immerses and completes the scooping' - there,",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "in the house of Avtinas which is there, and goes to the Temple, etc. 'Why not' - it is a difficulty, meaning: is it not good for you that we deliberately burden him, since if he is a Sadducee and not",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l32",
+    "yoma-019a-l36a"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "God-fearing enough to accept the burden of the Temple upon himself, he would withdraw from the High Priesthood and not accept it in the first place, and that is good for us, since they alter the service, as explained further in this passage",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l36a"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "'Alternatively' - even if he is a worthy man, it is good for us to burden him, so that he not become haughty, priding himself on the crown of the priesthood. 'For if you do not say so' - that we would not need to burden him",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l36b"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "to use his two chambers together. 'Shall we say this is' - the mishna which teaches 'you are our agent', a refutation of Rav Huna, etc. 'These priests' - in offering his sacrifices are agents",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l36b",
+    "yoma-019a-l38"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "of the Merciful One, and not our agents; and the practical difference is: if one is under a vow prohibiting benefit from another, it is permitted for that other person to offer his sacrifices, as we learned in Nedarim (35b)",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l38"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "'Thus' - the daf ends mid-word here; the comment (explaining that this phrase does not concern the sacrificial service itself) continues on 19b.",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l38"
+   ]
+  }
+ ]
 }
