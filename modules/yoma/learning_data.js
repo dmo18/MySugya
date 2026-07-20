@@ -173484,11 +173484,14 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 1,
         he: "חייב. משום שכר אל תשת (ויקרא י) : אף כאן יין. וביין אין שכרות",
-        en: "liable for sheikhar prohibition - but does sheikhar forbid all liquids? Gezerah shavah from nazir: tirosh = wine",
+        en: "'Liable' - because of 'strong drink you shall not drink' (Leviticus 10). 'Here too, wine' - and with wine, there is no intoxication",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l01a",
+          "yoma-076b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-076b-002",
@@ -173496,11 +173499,14 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 2,
         he: "אלא בשתייתו: אסור בכל מיני מתיקה. בפירות חדשים בתפוחים",
-        en: "it is derived from nazir - just as for the nazir tirosh means wine, so too on Yom Kippur",
+        en: "except through drinking it. 'Forbidden with all kinds of sweets' - with new fruits, with apples,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l01b",
+          "yoma-076b-l02"
+        ]
       },
       {
         id: "rashi-yoma-076b-003",
@@ -173508,11 +173514,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 3,
         he: "בענבים: ומותר ביין. בן ארבעים : ותירוש ינובב בתולות. זה יין",
-        en: "is tirosh wine? Isn't it taught: one who vows from tirosh is forbidden only from new wine?",
+        en: "with grapes. 'But permitted with wine' - forty days old. 'And new wine makes maidens speak' - this is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l02"
+        ]
       },
       {
         id: "rashi-yoma-076b-004",
@@ -173520,11 +173528,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 4,
         he: "טוב שהוא משכר את האדם לגלות סתרי לבו האטומים כבתולה:",
-        en: "but isn't it written 'your wine-vats shall overflow with tirosh'? What comes from the tirosh is also called tirosh",
+        en: "good wine, which intoxicates a person to reveal the secrets of his heart, sealed like a maiden's.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l02"
+        ]
       },
       {
         id: "rashi-yoma-076b-005",
@@ -173532,11 +173542,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 5,
         he: "הבא מן התירוש. מן הענבים והכי",
-        en: "and isn't it written 'harlotry, wine, and tirosh take away the heart'? In general tirosh is the same as wine",
+        en: "'That which comes from the new wine' - from the grapes, and this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l02"
+        ]
       },
       {
         id: "rashi-yoma-076b-006",
@@ -173544,11 +173556,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 6,
         he: "קאמר קרא הענבים יוציאו לכם דבר",
-        en: "why is it called wine (yayin) and why is it called tirosh (new wine)? Wine = it causes woe (vai); new wine = if you merit, wealth; if not, poverty",
+        en: "is what the verse means: the grapes will produce for you something",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l02"
+        ]
       },
       {
         id: "rashi-yoma-076b-007",
@@ -173556,11 +173570,14 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 7,
         he: "אשר ינובב בתולות: ותירוש יקביך",
-        en: "Rav Kahana: written tirash but read tirosh - if you merit it becomes an inheritance (tirosh); if not, it impoverishes you (tirash)",
+        en: "that makes maidens speak. 'And your vats will overflow",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l02",
+          "yoma-076b-l06"
+        ]
       },
       {
         id: "rashi-yoma-076b-008",
@@ -173568,11 +173585,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 8,
         he: "יפרוצו. וכל יקב שבמקרא הוא הבור",
-        en: "from where do we derive that bathing and anointing are called affliction?",
+        en: "with new wine' - and every 'yekev' in Scripture is the pit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l06"
+        ]
       },
       {
         id: "rashi-yoma-076b-009",
@@ -173580,11 +173599,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 9,
         he: "שלפני הגת ושם אין הענבים נתונים",
-        en: "from where do we know that anointing is considered affliction? From Daniel - 'bread of affliction I did not eat'",
+        en: "before the winepress, and there grapes are not placed,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l06"
+        ]
       },
       {
         id: "rashi-yoma-076b-010",
@@ -173592,11 +173613,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 10,
         he: "אלא היין: דבר הבא מתירוש וכו'.",
-        en: "we have found anointing. From where do we know bathing?",
+        en: "only wine. 'Something that comes from new wine,' etc.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l06"
+        ]
       },
       {
         id: "rashi-yoma-076b-011",
@@ -173604,11 +173627,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 11,
         he: "והכי קאמר קרא ענבים יהיו לך",
-        en: "but the tanna derives it the other way: from where do we derive that anointing is like affliction - it was taught in the mishnah about a mourner",
+        en: "- and this is what the verse means: grapes will be yours,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l06"
+        ]
       },
       {
         id: "rashi-yoma-076b-012",
@@ -173616,11 +173641,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 12,
         he: "המפריצים יקביך ביין ולעולם אין",
-        en: "what does 'I came according to your words' mean? That is what is written: seventy men of the elders of Israel",
+        en: "which overflow your vats with wine; but it is never the case that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l06"
+        ]
       },
       {
         id: "rashi-yoma-076b-013",
@@ -173628,11 +173655,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 13,
         he: "היין נקרא תירוש אלא הענבים:",
-        en: "[Rashi commentary on line 13]: היין נקרא תירוש אלא הענבים:",
+        en: "wine itself is called 'tirosh,' but rather the grapes are.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l06"
+        ]
       },
       {
         id: "rashi-yoma-076b-014",
@@ -173640,11 +173669,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 14,
         he: "והכתיב יין ותירוש יקח לב. ואכילת",
-        en: "[Rashi commentary on line 14]: והכתיב יין ותירוש יקח לב. ואכילת",
+        en: "'But is it not written, wine and new wine take away the heart' - and eating",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l07"
+        ]
       },
       {
         id: "rashi-yoma-076b-015",
@@ -173652,11 +173683,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 15,
         he: "ענבים אינה משכרת: הלך אחר",
-        en: "[Rashi commentary on line 15]: ענבים אינה משכרת: הלך אחר",
+        en: "grapes does not intoxicate. 'Follow",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l07"
+        ]
       },
       {
         id: "rashi-yoma-076b-016",
@@ -173664,11 +173697,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 16,
         he: "לשון בני אדם. ואין דרכן לקרות",
-        en: "[Rashi commentary on line 16]: לשון בני אדם. ואין דרכן לקרות",
+        en: "the language of people' - and it is not their way to call",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l07"
+        ]
       },
       {
         id: "rashi-yoma-076b-017",
@@ -173676,11 +173711,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 17,
         he: "את היין תירוש לכך מותר ביין:",
-        en: "[Rashi commentary on line 17]: את היין תירוש לכך מותר ביין:",
+        en: "wine 'tirosh,' therefore it is permitted with wine.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l07"
+        ]
       },
       {
         id: "rashi-yoma-076b-018",
@@ -173688,11 +173725,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 18,
         he: "שמביא יללה. ע\"י היין רב הניאוף",
-        en: "[Rashi commentary on line 18]: שמביא יללה. ע\"י היין רב הניאוף",
+        en: "'That brings wailing' - through wine, much licentiousness",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l10"
+        ]
       },
       {
         id: "rashi-yoma-076b-019",
@@ -173700,11 +173739,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 19,
         he: "ופורענות באה לעולם. יין לשון",
-        en: "[Rashi commentary on line 19]: ופורענות באה לעולם. יין לשון",
+        en: "and punishment comes into the world; 'yayin' is a term",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l10"
+        ]
       },
       {
         id: "rashi-yoma-076b-020",
@@ -173712,11 +173753,14 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 20,
         he: "תאניה ויללה: זכה. לשתות לפי",
-        en: "[Rashi commentary on line 20]: תאניה ויללה: זכה. לשתות לפי",
+        en: "of mourning and wailing. 'If he merits' - to drink according to",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l10",
+          "yoma-076b-l13"
+        ]
       },
       {
         id: "rashi-yoma-076b-021",
@@ -173724,11 +173768,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 21,
         he: "מדה: נעשה ראש. שמפקח לבו",
-        en: "[Rashi commentary on line 21]: מדה: נעשה ראש. שמפקח לבו",
+        en: "measure. 'He becomes a head' - since it clarifies his heart",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l13"
+        ]
       },
       {
         id: "rashi-yoma-076b-022",
@@ -173736,11 +173782,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 22,
         he: "בחכמה: כתיב ישמח. בשי\"ן לשון",
-        en: "[Rashi commentary on line 22]: בחכמה: כתיב ישמח. בשי\"ן לשון",
+        en: "with wisdom. 'It is written yishmam' - with a shin, a term",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l13"
+        ]
       },
       {
         id: "rashi-yoma-076b-023",
@@ -173748,11 +173796,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 23,
         he: "שממה וקרינן יין ישמח לשון שמחה:",
-        en: "[Rashi commentary on line 23]: שממה וקרינן יין ישמח לשון שמחה:",
+        en: "of desolation, but we read 'wine gladdens,' a term of joy.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l13"
+        ]
       },
       {
         id: "rashi-yoma-076b-024",
@@ -173760,11 +173810,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 24,
         he: "פקחין. פקחוני עשאוני פקח:",
-        en: "[Rashi commentary on line 24]: פקחין. פקחוני עשאוני פקח:",
+        en: "'The clear-sighted' - they made me clear-sighted, opened my eyes.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l13"
+        ]
       },
       {
         id: "rashi-yoma-076b-025",
@@ -173772,11 +173824,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 25,
         he: "דחיטי דכייתא. חטים נאות ונקיות",
-        en: "[Rashi commentary on line 25]: דחיטי דכייתא. חטים נאות ונקיות",
+        en: "'Of pure wheat' - fine, clean wheat,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l17"
+        ]
       },
       {
         id: "rashi-yoma-076b-026",
@@ -173784,11 +173838,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 26,
         he: "כדמתרגמינן את בגדי עשו החמודות",
-        en: "[Rashi commentary on line 26]: כדמתרגמינן את בגדי עשו החמודות",
+        en: "as we translate 'the choice garments of Esau'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l17"
+        ]
       },
       {
         id: "rashi-yoma-076b-027",
@@ -173796,11 +173852,14 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 27,
         he: "(בראשית כז) דכייתא: דומיא דשמן.",
-        en: "[Rashi commentary on line 27]: (בראשית כז) דכייתא: דומיא דשמן.",
+        en: "(Genesis 27) as 'dachyata' [pure]. 'Like oil'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l17",
+          "yoma-076b-l27"
+        ]
       },
       {
         id: "rashi-yoma-076b-028",
@@ -173808,11 +173867,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 28,
         he: "מים בקרבו דכתיבי בקרא דומיא",
-        en: "[Rashi commentary on line 28]: מים בקרבו דכתיבי בקרא דומיא",
+        en: "- the water within him, as written in the verse, is comparable",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l27"
+        ]
       },
       {
         id: "rashi-yoma-076b-029",
@@ -173820,11 +173881,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 29,
         he: "דכשמן בעצמותיו מה שמן מבחוץ",
-        en: "[Rashi commentary on line 29]: דכשמן בעצמותיו מה שמן מבחוץ",
+        en: "to the oil in his bones: just as oil, from outside,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l27"
+        ]
       },
       {
         id: "rashi-yoma-076b-030",
@@ -173832,11 +173895,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 30,
         he: "סכין אותו ונבלע בעצמותיו אף",
-        en: "[Rashi commentary on line 30]: סכין אותו ונבלע בעצמותיו אף",
+        en: "is applied and absorbed into the bones, so too",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l27"
+        ]
       },
       {
         id: "rashi-yoma-076b-031",
@@ -173844,11 +173909,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 31,
         he: "מים בקרבו הנבלעות דרך החוץ",
-        en: "[Rashi commentary on line 31]: מים בקרבו הנבלעות דרך החוץ",
+        en: "the water within him is absorbed from the outside",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l27"
+        ]
       },
       {
         id: "rashi-yoma-076b-032",
@@ -173856,11 +173923,14 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 32,
         he: "על ידי רחיצה: שהיא כשתיה.",
-        en: "[Rashi commentary on line 32]: על ידי רחיצה: שהיא כשתיה.",
+        en: "through bathing. 'That it is like drinking'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l27",
+          "yoma-076b-l31"
+        ]
       },
       {
         id: "rashi-yoma-076b-033",
@@ -173868,11 +173938,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 33,
         he: "אלמא מים דקרא שתיה הוא",
-        en: "[Rashi commentary on line 33]: אלמא מים דקרא שתיה הוא",
+        en: "- this shows that the water in the verse refers to drinking,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l31"
+        ]
       },
       {
         id: "rashi-yoma-076b-034",
@@ -173880,11 +173952,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 34,
         he: "ושמן הוא דיליף ממים ואת ילפת",
-        en: "[Rashi commentary on line 34]: ושמן הוא דיליף ממים ואת ילפת",
+        en: "and it is oil that is derived from water; yet you derive",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l31"
+        ]
       },
       {
         id: "rashi-yoma-076b-035",
@@ -173892,11 +173966,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 35,
         he: "מים משמן: אלא אמר רב אשי",
-        en: "[Rashi commentary on line 35]: מים משמן: אלא אמר רב אשי",
+        en: "water from oil. 'Rather, Rav Ashi said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l31"
+        ]
       },
       {
         id: "rashi-yoma-076b-036",
@@ -173904,11 +173980,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 36,
         he: "רחיצה מגופיה דקרא. דדניאל דגבי",
-        en: "[Rashi commentary on line 36]: רחיצה מגופיה דקרא. דדניאל דגבי",
+        en: "bathing is derived from the verse's own wording' - for regarding Daniel, concerning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l31"
+        ]
       },
       {
         id: "rashi-yoma-076b-037",
@@ -173916,11 +173994,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 37,
         he: "סיכה נפקא לן מריבויא דלישנא וסוך",
-        en: "[Rashi commentary on line 37]: סיכה נפקא לן מריבויא דלישנא וסוך",
+        en: "anointing, we derive it from an extension of the language, 'and anointing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l31"
+        ]
       },
       {
         id: "rashi-yoma-076b-038",
@@ -173928,11 +174008,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 38,
         he: "לא סכתי ומצי למכתב ולא סכתי:",
-        en: "[Rashi commentary on line 38]: לא סכתי ומצי למכתב ולא סכתי:",
+        en: "I did not anoint,' when it could have written simply 'nor did I anoint.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l31"
+        ]
       },
       {
         id: "rashi-yoma-076b-039",
@@ -173940,11 +174022,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 39,
         he: "ואני באתי בדבריך. סיפיה דההוא",
-        en: "[Rashi commentary on line 39]: ואני באתי בדבריך. סיפיה דההוא",
+        en: "'And I have come because of your words' - the end of that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l36"
+        ]
       },
       {
         id: "rashi-yoma-076b-040",
@@ -173952,11 +174036,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 40,
         he: "קרא דלעיל אל תירא דניאל וגו'",
-        en: "[Rashi commentary on line 40]: קרא דלעיל אל תירא דניאל וגו'",
+        en: "verse cited above, 'fear not, Daniel,' etc.,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l36"
+        ]
       },
       {
         id: "rashi-yoma-076b-041",
@@ -173964,11 +174050,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 41,
         he: "ואני באתי בדבריך נכנסתי לתוך",
-        en: "[Rashi commentary on line 41]: ואני באתי בדבריך נכנסתי לתוך",
+        en: "'and I have come because of your words' - I entered into",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l36"
+        ]
       },
       {
         id: "rashi-yoma-076b-042",
@@ -173976,11 +174064,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 42,
         he: "הפרגוד בשבילך: מאי ואני באתי.",
-        en: "[Rashi commentary on line 42]: הפרגוד בשבילך: מאי ואני באתי.",
+        en: "the Curtain for your sake. 'What is the meaning of, and I have come'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l36"
+        ]
       },
       {
         id: "rashi-yoma-076b-043",
@@ -173988,11 +174078,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 43,
         he: "מתי נגרש מתוכו שהוצרך ליכנס:",
-        en: "[Rashi commentary on line 43]: מתי נגרש מתוכו שהוצרך ליכנס:",
+        en: "- when was I expelled from within it, that I needed to enter?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l36"
+        ]
       },
       {
         id: "rashi-yoma-076b-044",
@@ -174000,11 +174092,13 @@ const DAF_CONTENT = {
         daf: "76b",
         vilnaLine: 44,
         he: "לבוש",
-        en: "[Rashi commentary on line 44]: לבוש",
+        en: "'Clothed' - the daf ends mid-word here; the comment (identifying the man clothed in linen as Gabriel) continues on 77a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-076b-l36"
+        ]
       }
     ],
     review: "reviewed"

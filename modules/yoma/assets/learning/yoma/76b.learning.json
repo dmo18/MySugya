@@ -1,791 +1,885 @@
 {
-  "canonicalRef": "Yoma 76b",
-  "summary": "The Gemara establishes that Yom Kippur's drinking prohibition applies to all liquids (via gezerah shavah from nazir), discusses the meaning of tirosh (new wine) as a word that spells either wealth or poverty, and derives the sources for bathing and anointing as Yom Kippur afflictions from Scriptural verses.",
-  "sugyot": [
+ "canonicalRef": "Yoma 76b",
+ "summary": "The Gemara establishes that Yom Kippur's drinking prohibition applies to all liquids (via gezerah shavah from nazir), discusses the meaning of tirosh (new wine) as a word that spells either wealth or poverty, and derives the sources for bathing and anointing as Yom Kippur afflictions from Scriptural verses.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-076b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 13
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-076b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 13
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.76b.1"
-        },
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.76b.2"
-        },
-        {
-          "vilnaLine": 2,
-          "sefariaRef": "Yoma.76b.3"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.76b.4"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.76b.5"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.76b.6"
-        },
-        {
-          "vilnaLine": 13,
-          "sefariaRef": "Yoma.76b.7"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.76b.1",
-        "Yoma.76b.2",
-        "Yoma.76b.3",
-        "Yoma.76b.4",
-        "Yoma.76b.5",
-        "Yoma.76b.6",
-        "Yoma.76b.7"
-      ],
-      "display": {
-        "whats": "Tirosh (new wine) and the YK drinking prohibition scope",
-        "hint": "Does the Yom Kippur prohibition apply to all beverages or only wine?",
-        "title": "Sheikhar: Linking Yom Kippur to the Nazir"
-      },
-      "learning": {
-        "ahaMoment": "The word 'sheikhar' in the YK verse is a hook, not a scope limit - it exists to enable the gezerah shavah, not to restrict the prohibition.",
-        "memoryAnchor": "Sheikhar appears in both places: the shared word imports the nazir's full prohibition into YK.",
-        "learnerQuestion": "Why does the Yom Kippur verse use the word 'sheikhar' (strong drink) if the prohibition covers all liquids?",
-        "coreTension": "Between the literal scope of 'sheikhar' (strong drink only) and the gezerah shavah that extends the prohibition to all drinking via the nazir's prohibition.",
-        "coreMove": "The shared word 'sheikhar' in the YK verse and the nazir section creates a gezerah shavah that imports the nazir's total prohibition on all drink into YK, expanding far beyond the literal meaning of sheikhar.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "A gezerah shavah uses a shared word as a legal hook to import the full framework of one context into another; the word need not define the scope of the prohibition - it only needs to anchor the analogy."
-        },
-        "learningBlocker": "Students may think 'sheikhar' limits the prohibition to strong drink; the gezerah shavah mechanism is what matters, not the word's literal meaning."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-076b-l01",
-          "type": "ruling",
-          "label": "Liable for drinking on YK",
-          "speaker": "Gemara",
-          "text": "'Sheikhar' in the verse establishes a drinking prohibition",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076b-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "id": "yoma-076b-l02",
-          "type": "ruling",
-          "label": "Gezerah shavah from nazir",
-          "speaker": "Gemara",
-          "text": "Tirosh = wine on Yom Kippur as for the nazir",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076b-l02",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "id": "yoma-076b-l03",
-          "type": "ruling",
-          "label": "Tirosh = new wine, not fully fermented",
-          "speaker": "Baraita",
-          "text": "Vow from tirosh: only new wine forbidden",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076b-l03",
-              "vilnaLine": 2
-            }
-          ]
-        },
-        {
-          "id": "yoma-076b-l04",
-          "type": "ruling",
-          "label": "What comes from tirosh is also tirosh",
-          "speaker": "Gemara",
-          "text": "The wine produced from new wine grapes is also tirosh",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076b-l04",
-              "vilnaLine": 6
-            }
-          ]
-        },
-        {
-          "id": "yoma-076b-l05",
-          "type": "ruling",
-          "label": "Tirosh used for wine in general",
-          "speaker": "Gemara",
-          "text": "'Harlotry, wine, and tirosh' - tirosh = wine in general usage",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076b-l05",
-              "vilnaLine": 7
-            }
-          ]
-        },
-        {
-          "id": "yoma-076b-l06",
-          "type": "ruling",
-          "label": "Yayin = woe; tirosh = wealth or poverty",
-          "speaker": "Gemara",
-          "text": "Wine causes woe (vai); tirosh brings wealth if merited, poverty if not",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076b-l06",
-              "vilnaLine": 10
-            }
-          ]
-        },
-        {
-          "id": "yoma-076b-l07",
-          "type": "ruling",
-          "label": "Tirash vs tirosh",
-          "speaker": "Rav Kahana",
-          "text": "Written without vav (tirash=impoverish); read with vav (tirosh=inherit)",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076b-l07",
-              "vilnaLine": 13
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Yom-Kippur",
-        "drinking",
-        "tirosh",
-        "nazir",
-        "wine"
-      ],
-      "concepts": {
-        "halachic": [
-          "YK drinking prohibition applies to all beverages via gezerah shavah from nazir",
-          "tirosh = same substance as wine, different name reflects merit/demerit"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "description": "Argument flow",
-          "role": "anchor",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why is the new wine called 'tirosh' in some verses and 'yayin' in others?",
-          "answer": "They refer to the same substance: yayin means it causes woe; tirosh means inheritance if used meritoriously, poverty if not",
-          "sourceRefs": []
-        }
-      ],
-      "finalRuling": "YK drinking prohibition extends to all beverages; tirosh = wine, with its dual potential for wealth or poverty.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.76b.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-076b-s02",
-      "lineRange": {
-        "startVilnaLine": 17,
-        "endVilnaLine": 36
-      },
-      "lines": [
-        {
-          "vilnaLine": 17,
-          "sefariaRef": "Yoma.76b.8"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.76b.9"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.76b.10"
-        },
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.76b.11"
-        },
-        {
-          "vilnaLine": 36,
-          "sefariaRef": "Yoma.76b.12"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.76b.8",
-        "Yoma.76b.9",
-        "Yoma.76b.10",
-        "Yoma.76b.11",
-        "Yoma.76b.12"
-      ],
-      "display": {
-        "whats": "Sources for bathing and anointing as Yom Kippur afflictions",
-        "hint": "From which verses do we derive that bathing and anointing are forbidden on Yom Kippur?",
-        "title": "Anointing as Affliction: Daniel's Proof"
-      },
-      "learning": {
-        "ahaMoment": "Daniel's mourning list is the Gemara's key: by grouping anointing with fasting from food, it reclassifies anointing from luxury to genuine bodily need.",
-        "memoryAnchor": "Daniel abstained from bread, water, and anointing - three items, one act of affliction, anointing elevated to need.",
-        "learnerQuestion": "Why does the Gemara need multiple proofs to establish that abstaining from anointing counts as inui (affliction)?",
-        "coreTension": "Between the intuition that anointing is a luxury (not a need, so abstaining from it should not count as affliction) and the halakhic requirement that it does count as inui on Yom Kippur.",
-        "coreMove": "Daniel's text groups bread, water, and anointing together as what he abstained from in mourning, treating all three as equivalent forms of deprivation. This grouping elevates anointing from luxury to genuine need.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "When a verse groups multiple abstentions together as a single act of self-deprivation, each item in the group gains the halakhic status of affliction, even items that seem like luxuries."
-        },
-        "learningBlocker": "Students may ask why one clear proof isn't enough; the Gemara needs multiple proofs because bathing and anointing seem like luxuries rather than necessities, making each step of the proof work harder."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-076b-l08",
-          "type": "ruling",
-          "label": "Bathing and anointing = affliction",
-          "speaker": "Gemara",
-          "text": "From where is this derived?",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076b-l08",
-              "vilnaLine": 17
-            }
-          ]
-        },
-        {
-          "id": "yoma-076b-l09",
-          "type": "ruling",
-          "label": "Anointing derived from Daniel",
-          "speaker": "Gemara",
-          "text": "Daniel abstained from bread, water, and anointing - inuy",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076b-l09",
-              "vilnaLine": 22
-            }
-          ]
-        },
-        {
-          "id": "yoma-076b-l10",
-          "type": "ruling",
-          "label": "Bathing derived from same Daniel verse",
-          "speaker": "Rav Zutra",
-          "text": "Bathing implied alongside anointing in Daniel's abstention",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076b-l10",
-              "vilnaLine": 27
-            }
-          ]
-        },
-        {
-          "id": "yoma-076b-l11",
-          "type": "ruling",
-          "label": "Tanna derives anointing from mourner",
-          "speaker": "Baraita",
-          "text": "A mourner's anointing prohibition is the source for YK",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076b-l11",
-              "vilnaLine": 31
-            }
-          ]
-        },
-        {
-          "id": "yoma-076b-l12",
-          "type": "ruling",
-          "label": "'I came according to your words': 70 elders",
-          "speaker": "Gemara",
-          "text": "The angel's statement relates to the verse about the 70 elders",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-076b-l12",
-              "vilnaLine": 36
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Yom-Kippur",
-        "bathing",
-        "anointing",
-        "affliction",
-        "Daniel"
-      ],
-      "concepts": {
-        "halachic": [
-          "bathing and anointing are Yom Kippur prohibitions derived from Daniel's self-affliction and mourner laws"
-        ],
-        "theological": [
-          "Daniel's voluntary affliction became a halakhic model for Yom Kippur prohibitions"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "description": "Argument flow",
-          "role": "anchor",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "From which verse is anointing derived as a Yom Kippur prohibition?",
-          "answer": "From Daniel's self-affliction: 'bread of affliction I did not eat, water I did not drink, and anointing I did not anoint' - inuy covers all three",
-          "sourceRefs": []
-        }
-      ],
-      "finalRuling": "Bathing and anointing are Yom Kippur prohibitions; anointing derived from Daniel; bathing from the same verse or from the mourner parallel.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.76b.2"
+    },
+    {
+     "vilnaLine": 2,
+     "sefariaRef": "Yoma.76b.3"
+    },
+    {
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.76b.4"
+    },
+    {
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.76b.5"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.76b.6"
+    },
+    {
+     "vilnaLine": 13,
+     "sefariaRef": "Yoma.76b.7"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.76b.1",
+    "Yoma.76b.2",
+    "Yoma.76b.3",
+    "Yoma.76b.4",
+    "Yoma.76b.5",
+    "Yoma.76b.6",
+    "Yoma.76b.7"
+   ],
+   "display": {
+    "whats": "Tirosh (new wine) and the YK drinking prohibition scope",
+    "hint": "Does the Yom Kippur prohibition apply to all beverages or only wine?",
+    "title": "Sheikhar: Linking Yom Kippur to the Nazir"
+   },
+   "learning": {
+    "ahaMoment": "The word 'sheikhar' in the YK verse is a hook, not a scope limit - it exists to enable the gezerah shavah, not to restrict the prohibition.",
+    "memoryAnchor": "Sheikhar appears in both places: the shared word imports the nazir's full prohibition into YK.",
+    "learnerQuestion": "Why does the Yom Kippur verse use the word 'sheikhar' (strong drink) if the prohibition covers all liquids?",
+    "coreTension": "Between the literal scope of 'sheikhar' (strong drink only) and the gezerah shavah that extends the prohibition to all drinking via the nazir's prohibition.",
+    "coreMove": "The shared word 'sheikhar' in the YK verse and the nazir section creates a gezerah shavah that imports the nazir's total prohibition on all drink into YK, expanding far beyond the literal meaning of sheikhar.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "A gezerah shavah uses a shared word as a legal hook to import the full framework of one context into another; the word need not define the scope of the prohibition - it only needs to anchor the analogy."
+    },
+    "learningBlocker": "Students may think 'sheikhar' limits the prohibition to strong drink; the gezerah shavah mechanism is what matters, not the word's literal meaning."
+   },
+   "argumentFlow": [
     {
-      "he": "תִּירוֹשׁ",
-      "translit": "Tirosh",
-      "en": "New wine (grape juice at various stages of fermentation); the Gemara identifies it with wine generally."
+     "id": "yoma-076b-l01",
+     "type": "ruling",
+     "label": "Liable for drinking on YK",
+     "speaker": "Gemara",
+     "text": "'Sheikhar' in the verse establishes a drinking prohibition",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076b-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "he": "נָזִיר",
-      "translit": "Nazir",
-      "en": "A person who has taken a Nazirite vow, abstaining from wine, haircuts, and contact with the dead."
+     "id": "yoma-076b-l02",
+     "type": "ruling",
+     "label": "Gezerah shavah from nazir",
+     "speaker": "Gemara",
+     "text": "Tirosh = wine on Yom Kippur as for the nazir",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076b-l02",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "he": "סִיכָה",
-      "translit": "Sichah",
-      "en": "Anointing the body with oil; one of the five activities forbidden on Yom Kippur."
+     "id": "yoma-076b-l03",
+     "type": "ruling",
+     "label": "Tirosh = new wine, not fully fermented",
+     "speaker": "Baraita",
+     "text": "Vow from tirosh: only new wine forbidden",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076b-l03",
+       "vilnaLine": 2
+      }
+     ]
+    },
+    {
+     "id": "yoma-076b-l04",
+     "type": "ruling",
+     "label": "What comes from tirosh is also tirosh",
+     "speaker": "Gemara",
+     "text": "The wine produced from new wine grapes is also tirosh",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076b-l04",
+       "vilnaLine": 6
+      }
+     ]
+    },
+    {
+     "id": "yoma-076b-l05",
+     "type": "ruling",
+     "label": "Tirosh used for wine in general",
+     "speaker": "Gemara",
+     "text": "'Harlotry, wine, and tirosh' - tirosh = wine in general usage",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076b-l05",
+       "vilnaLine": 7
+      }
+     ]
+    },
+    {
+     "id": "yoma-076b-l06",
+     "type": "ruling",
+     "label": "Yayin = woe; tirosh = wealth or poverty",
+     "speaker": "Gemara",
+     "text": "Wine causes woe (vai); tirosh brings wealth if merited, poverty if not",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076b-l06",
+       "vilnaLine": 10
+      }
+     ]
+    },
+    {
+     "id": "yoma-076b-l07",
+     "type": "ruling",
+     "label": "Tirash vs tirosh",
+     "speaker": "Rav Kahana",
+     "text": "Written without vav (tirash=impoverish); read with vav (tirosh=inherit)",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076b-l07",
+       "vilnaLine": 13
+      }
+     ]
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "topicTags": [
+    "Yom-Kippur",
+    "drinking",
+    "tirosh",
+    "nazir",
+    "wine"
+   ],
+   "concepts": {
+    "halachic": [
+     "YK drinking prohibition applies to all beverages via gezerah shavah from nazir",
+     "tirosh = same substance as wine, different name reflects merit/demerit"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [],
+   "relatedSugyot": [],
+   "visualizableElements": [
     {
-      "vilnaLine": 1,
-      "he": "חייב. משום שכר אל תשת (ויקרא י) : אף כאן יין. וביין אין שכרות",
-      "en": "liable for sheikhar prohibition - but does sheikhar forbid all liquids? Gezerah shavah from nazir: tirosh = wine",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 2,
-      "he": "אלא בשתייתו: אסור בכל מיני מתיקה. בפירות חדשים בתפוחים",
-      "en": "it is derived from nazir - just as for the nazir tirosh means wine, so too on Yom Kippur",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 3,
-      "he": "בענבים: ומותר ביין. בן ארבעים : ותירוש ינובב בתולות. זה יין",
-      "en": "is tirosh wine? Isn't it taught: one who vows from tirosh is forbidden only from new wine?",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 4,
-      "he": "טוב שהוא משכר את האדם לגלות סתרי לבו האטומים כבתולה:",
-      "en": "but isn't it written 'your wine-vats shall overflow with tirosh'? What comes from the tirosh is also called tirosh",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "he": "הבא מן התירוש. מן הענבים והכי",
-      "en": "and isn't it written 'harlotry, wine, and tirosh take away the heart'? In general tirosh is the same as wine",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "he": "קאמר קרא הענבים יוציאו לכם דבר",
-      "en": "why is it called wine (yayin) and why is it called tirosh (new wine)? Wine = it causes woe (vai); new wine = if you merit, wealth; if not, poverty",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "he": "אשר ינובב בתולות: ותירוש יקביך",
-      "en": "Rav Kahana: written tirash but read tirosh - if you merit it becomes an inheritance (tirosh); if not, it impoverishes you (tirash)",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "he": "יפרוצו. וכל יקב שבמקרא הוא הבור",
-      "en": "from where do we derive that bathing and anointing are called affliction?",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "he": "שלפני הגת ושם אין הענבים נתונים",
-      "en": "from where do we know that anointing is considered affliction? From Daniel - 'bread of affliction I did not eat'",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "he": "אלא היין: דבר הבא מתירוש וכו'.",
-      "en": "we have found anointing. From where do we know bathing?",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "he": "והכי קאמר קרא ענבים יהיו לך",
-      "en": "but the tanna derives it the other way: from where do we derive that anointing is like affliction - it was taught in the mishnah about a mourner",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "he": "המפריצים יקביך ביין ולעולם אין",
-      "en": "what does 'I came according to your words' mean? That is what is written: seventy men of the elders of Israel",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "he": "היין נקרא תירוש אלא הענבים:",
-      "en": "[Rashi commentary on line 13]: היין נקרא תירוש אלא הענבים:",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "he": "והכתיב יין ותירוש יקח לב. ואכילת",
-      "en": "[Rashi commentary on line 14]: והכתיב יין ותירוש יקח לב. ואכילת",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "he": "ענבים אינה משכרת: הלך אחר",
-      "en": "[Rashi commentary on line 15]: ענבים אינה משכרת: הלך אחר",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "he": "לשון בני אדם. ואין דרכן לקרות",
-      "en": "[Rashi commentary on line 16]: לשון בני אדם. ואין דרכן לקרות",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "he": "את היין תירוש לכך מותר ביין:",
-      "en": "[Rashi commentary on line 17]: את היין תירוש לכך מותר ביין:",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "he": "שמביא יללה. ע\"י היין רב הניאוף",
-      "en": "[Rashi commentary on line 18]: שמביא יללה. ע\"י היין רב הניאוף",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "he": "ופורענות באה לעולם. יין לשון",
-      "en": "[Rashi commentary on line 19]: ופורענות באה לעולם. יין לשון",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "he": "תאניה ויללה: זכה. לשתות לפי",
-      "en": "[Rashi commentary on line 20]: תאניה ויללה: זכה. לשתות לפי",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "he": "מדה: נעשה ראש. שמפקח לבו",
-      "en": "[Rashi commentary on line 21]: מדה: נעשה ראש. שמפקח לבו",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "he": "בחכמה: כתיב ישמח. בשי\"ן לשון",
-      "en": "[Rashi commentary on line 22]: בחכמה: כתיב ישמח. בשי\"ן לשון",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "he": "שממה וקרינן יין ישמח לשון שמחה:",
-      "en": "[Rashi commentary on line 23]: שממה וקרינן יין ישמח לשון שמחה:",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "he": "פקחין. פקחוני עשאוני פקח:",
-      "en": "[Rashi commentary on line 24]: פקחין. פקחוני עשאוני פקח:",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "he": "דחיטי דכייתא. חטים נאות ונקיות",
-      "en": "[Rashi commentary on line 25]: דחיטי דכייתא. חטים נאות ונקיות",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "he": "כדמתרגמינן את בגדי עשו החמודות",
-      "en": "[Rashi commentary on line 26]: כדמתרגמינן את בגדי עשו החמודות",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "he": "(בראשית כז) דכייתא: דומיא דשמן.",
-      "en": "[Rashi commentary on line 27]: (בראשית כז) דכייתא: דומיא דשמן.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "he": "מים בקרבו דכתיבי בקרא דומיא",
-      "en": "[Rashi commentary on line 28]: מים בקרבו דכתיבי בקרא דומיא",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "he": "דכשמן בעצמותיו מה שמן מבחוץ",
-      "en": "[Rashi commentary on line 29]: דכשמן בעצמותיו מה שמן מבחוץ",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "he": "סכין אותו ונבלע בעצמותיו אף",
-      "en": "[Rashi commentary on line 30]: סכין אותו ונבלע בעצמותיו אף",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "he": "מים בקרבו הנבלעות דרך החוץ",
-      "en": "[Rashi commentary on line 31]: מים בקרבו הנבלעות דרך החוץ",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "he": "על ידי רחיצה: שהיא כשתיה.",
-      "en": "[Rashi commentary on line 32]: על ידי רחיצה: שהיא כשתיה.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "he": "אלמא מים דקרא שתיה הוא",
-      "en": "[Rashi commentary on line 33]: אלמא מים דקרא שתיה הוא",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "he": "ושמן הוא דיליף ממים ואת ילפת",
-      "en": "[Rashi commentary on line 34]: ושמן הוא דיליף ממים ואת ילפת",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "he": "מים משמן: אלא אמר רב אשי",
-      "en": "[Rashi commentary on line 35]: מים משמן: אלא אמר רב אשי",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "he": "רחיצה מגופיה דקרא. דדניאל דגבי",
-      "en": "[Rashi commentary on line 36]: רחיצה מגופיה דקרא. דדניאל דגבי",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "he": "סיכה נפקא לן מריבויא דלישנא וסוך",
-      "en": "[Rashi commentary on line 37]: סיכה נפקא לן מריבויא דלישנא וסוך",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "he": "לא סכתי ומצי למכתב ולא סכתי:",
-      "en": "[Rashi commentary on line 38]: לא סכתי ומצי למכתב ולא סכתי:",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "he": "ואני באתי בדבריך. סיפיה דההוא",
-      "en": "[Rashi commentary on line 39]: ואני באתי בדבריך. סיפיה דההוא",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "he": "קרא דלעיל אל תירא דניאל וגו'",
-      "en": "[Rashi commentary on line 40]: קרא דלעיל אל תירא דניאל וגו'",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "he": "ואני באתי בדבריך נכנסתי לתוך",
-      "en": "[Rashi commentary on line 41]: ואני באתי בדבריך נכנסתי לתוך",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "he": "הפרגוד בשבילך: מאי ואני באתי.",
-      "en": "[Rashi commentary on line 42]: הפרגוד בשבילך: מאי ואני באתי.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "he": "מתי נגרש מתוכו שהוצרך ליכנס:",
-      "en": "[Rashi commentary on line 43]: מתי נגרש מתוכו שהוצרך ליכנס:",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "he": "לבוש",
-      "en": "[Rashi commentary on line 44]: לבוש",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
+     "type": "sequence",
+     "description": "Argument flow",
+     "role": "anchor",
+     "priority": 1
     }
-  ],
-  "review": "reviewed"
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why is the new wine called 'tirosh' in some verses and 'yayin' in others?",
+     "answer": "They refer to the same substance: yayin means it causes woe; tirosh means inheritance if used meritoriously, poverty if not",
+     "sourceRefs": []
+    }
+   ],
+   "finalRuling": "YK drinking prohibition extends to all beverages; tirosh = wine, with its dual potential for wealth or poverty.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-076b-s02",
+   "lineRange": {
+    "startVilnaLine": 17,
+    "endVilnaLine": 36
+   },
+   "lines": [
+    {
+     "vilnaLine": 17,
+     "sefariaRef": "Yoma.76b.8"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.76b.9"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.76b.10"
+    },
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.76b.11"
+    },
+    {
+     "vilnaLine": 36,
+     "sefariaRef": "Yoma.76b.12"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.76b.8",
+    "Yoma.76b.9",
+    "Yoma.76b.10",
+    "Yoma.76b.11",
+    "Yoma.76b.12"
+   ],
+   "display": {
+    "whats": "Sources for bathing and anointing as Yom Kippur afflictions",
+    "hint": "From which verses do we derive that bathing and anointing are forbidden on Yom Kippur?",
+    "title": "Anointing as Affliction: Daniel's Proof"
+   },
+   "learning": {
+    "ahaMoment": "Daniel's mourning list is the Gemara's key: by grouping anointing with fasting from food, it reclassifies anointing from luxury to genuine bodily need.",
+    "memoryAnchor": "Daniel abstained from bread, water, and anointing - three items, one act of affliction, anointing elevated to need.",
+    "learnerQuestion": "Why does the Gemara need multiple proofs to establish that abstaining from anointing counts as inui (affliction)?",
+    "coreTension": "Between the intuition that anointing is a luxury (not a need, so abstaining from it should not count as affliction) and the halakhic requirement that it does count as inui on Yom Kippur.",
+    "coreMove": "Daniel's text groups bread, water, and anointing together as what he abstained from in mourning, treating all three as equivalent forms of deprivation. This grouping elevates anointing from luxury to genuine need.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "When a verse groups multiple abstentions together as a single act of self-deprivation, each item in the group gains the halakhic status of affliction, even items that seem like luxuries."
+    },
+    "learningBlocker": "Students may ask why one clear proof isn't enough; the Gemara needs multiple proofs because bathing and anointing seem like luxuries rather than necessities, making each step of the proof work harder."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-076b-l08",
+     "type": "ruling",
+     "label": "Bathing and anointing = affliction",
+     "speaker": "Gemara",
+     "text": "From where is this derived?",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076b-l08",
+       "vilnaLine": 17
+      }
+     ]
+    },
+    {
+     "id": "yoma-076b-l09",
+     "type": "ruling",
+     "label": "Anointing derived from Daniel",
+     "speaker": "Gemara",
+     "text": "Daniel abstained from bread, water, and anointing - inuy",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076b-l09",
+       "vilnaLine": 22
+      }
+     ]
+    },
+    {
+     "id": "yoma-076b-l10",
+     "type": "ruling",
+     "label": "Bathing derived from same Daniel verse",
+     "speaker": "Rav Zutra",
+     "text": "Bathing implied alongside anointing in Daniel's abstention",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076b-l10",
+       "vilnaLine": 27
+      }
+     ]
+    },
+    {
+     "id": "yoma-076b-l11",
+     "type": "ruling",
+     "label": "Tanna derives anointing from mourner",
+     "speaker": "Baraita",
+     "text": "A mourner's anointing prohibition is the source for YK",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076b-l11",
+       "vilnaLine": 31
+      }
+     ]
+    },
+    {
+     "id": "yoma-076b-l12",
+     "type": "ruling",
+     "label": "'I came according to your words': 70 elders",
+     "speaker": "Gemara",
+     "text": "The angel's statement relates to the verse about the 70 elders",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-076b-l12",
+       "vilnaLine": 36
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "Yom-Kippur",
+    "bathing",
+    "anointing",
+    "affliction",
+    "Daniel"
+   ],
+   "concepts": {
+    "halachic": [
+     "bathing and anointing are Yom Kippur prohibitions derived from Daniel's self-affliction and mourner laws"
+    ],
+    "theological": [
+     "Daniel's voluntary affliction became a halakhic model for Yom Kippur prohibitions"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "description": "Argument flow",
+     "role": "anchor",
+     "priority": 1
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "From which verse is anointing derived as a Yom Kippur prohibition?",
+     "answer": "From Daniel's self-affliction: 'bread of affliction I did not eat, water I did not drink, and anointing I did not anoint' - inuy covers all three",
+     "sourceRefs": []
+    }
+   ],
+   "finalRuling": "Bathing and anointing are Yom Kippur prohibitions; anointing derived from Daniel; bathing from the same verse or from the mourner parallel.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [
+  {
+   "he": "תִּירוֹשׁ",
+   "translit": "Tirosh",
+   "en": "New wine (grape juice at various stages of fermentation); the Gemara identifies it with wine generally."
+  },
+  {
+   "he": "נָזִיר",
+   "translit": "Nazir",
+   "en": "A person who has taken a Nazirite vow, abstaining from wine, haircuts, and contact with the dead."
+  },
+  {
+   "he": "סִיכָה",
+   "translit": "Sichah",
+   "en": "Anointing the body with oil; one of the five activities forbidden on Yom Kippur."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "he": "חייב. משום שכר אל תשת (ויקרא י) : אף כאן יין. וביין אין שכרות",
+   "en": "'Liable' - because of 'strong drink you shall not drink' (Leviticus 10). 'Here too, wine' - and with wine, there is no intoxication",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l01a",
+    "yoma-076b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "he": "אלא בשתייתו: אסור בכל מיני מתיקה. בפירות חדשים בתפוחים",
+   "en": "except through drinking it. 'Forbidden with all kinds of sweets' - with new fruits, with apples,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l01b",
+    "yoma-076b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "he": "בענבים: ומותר ביין. בן ארבעים : ותירוש ינובב בתולות. זה יין",
+   "en": "with grapes. 'But permitted with wine' - forty days old. 'And new wine makes maidens speak' - this is",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "he": "טוב שהוא משכר את האדם לגלות סתרי לבו האטומים כבתולה:",
+   "en": "good wine, which intoxicates a person to reveal the secrets of his heart, sealed like a maiden's.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "he": "הבא מן התירוש. מן הענבים והכי",
+   "en": "'That which comes from the new wine' - from the grapes, and this",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "he": "קאמר קרא הענבים יוציאו לכם דבר",
+   "en": "is what the verse means: the grapes will produce for you something",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "he": "אשר ינובב בתולות: ותירוש יקביך",
+   "en": "that makes maidens speak. 'And your vats will overflow",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l02",
+    "yoma-076b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "he": "יפרוצו. וכל יקב שבמקרא הוא הבור",
+   "en": "with new wine' - and every 'yekev' in Scripture is the pit",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "he": "שלפני הגת ושם אין הענבים נתונים",
+   "en": "before the winepress, and there grapes are not placed,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "he": "אלא היין: דבר הבא מתירוש וכו'.",
+   "en": "only wine. 'Something that comes from new wine,' etc.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "he": "והכי קאמר קרא ענבים יהיו לך",
+   "en": "- and this is what the verse means: grapes will be yours,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "he": "המפריצים יקביך ביין ולעולם אין",
+   "en": "which overflow your vats with wine; but it is never the case that",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "he": "היין נקרא תירוש אלא הענבים:",
+   "en": "wine itself is called 'tirosh,' but rather the grapes are.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "he": "והכתיב יין ותירוש יקח לב. ואכילת",
+   "en": "'But is it not written, wine and new wine take away the heart' - and eating",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "he": "ענבים אינה משכרת: הלך אחר",
+   "en": "grapes does not intoxicate. 'Follow",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "he": "לשון בני אדם. ואין דרכן לקרות",
+   "en": "the language of people' - and it is not their way to call",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "he": "את היין תירוש לכך מותר ביין:",
+   "en": "wine 'tirosh,' therefore it is permitted with wine.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "he": "שמביא יללה. ע\"י היין רב הניאוף",
+   "en": "'That brings wailing' - through wine, much licentiousness",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "he": "ופורענות באה לעולם. יין לשון",
+   "en": "and punishment comes into the world; 'yayin' is a term",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "he": "תאניה ויללה: זכה. לשתות לפי",
+   "en": "of mourning and wailing. 'If he merits' - to drink according to",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l10",
+    "yoma-076b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "he": "מדה: נעשה ראש. שמפקח לבו",
+   "en": "measure. 'He becomes a head' - since it clarifies his heart",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "he": "בחכמה: כתיב ישמח. בשי\"ן לשון",
+   "en": "with wisdom. 'It is written yishmam' - with a shin, a term",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "he": "שממה וקרינן יין ישמח לשון שמחה:",
+   "en": "of desolation, but we read 'wine gladdens,' a term of joy.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "he": "פקחין. פקחוני עשאוני פקח:",
+   "en": "'The clear-sighted' - they made me clear-sighted, opened my eyes.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "he": "דחיטי דכייתא. חטים נאות ונקיות",
+   "en": "'Of pure wheat' - fine, clean wheat,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "he": "כדמתרגמינן את בגדי עשו החמודות",
+   "en": "as we translate 'the choice garments of Esau'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "he": "(בראשית כז) דכייתא: דומיא דשמן.",
+   "en": "(Genesis 27) as 'dachyata' [pure]. 'Like oil'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l17",
+    "yoma-076b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "he": "מים בקרבו דכתיבי בקרא דומיא",
+   "en": "- the water within him, as written in the verse, is comparable",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "he": "דכשמן בעצמותיו מה שמן מבחוץ",
+   "en": "to the oil in his bones: just as oil, from outside,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "he": "סכין אותו ונבלע בעצמותיו אף",
+   "en": "is applied and absorbed into the bones, so too",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "he": "מים בקרבו הנבלעות דרך החוץ",
+   "en": "the water within him is absorbed from the outside",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "he": "על ידי רחיצה: שהיא כשתיה.",
+   "en": "through bathing. 'That it is like drinking'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l27",
+    "yoma-076b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "he": "אלמא מים דקרא שתיה הוא",
+   "en": "- this shows that the water in the verse refers to drinking,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "he": "ושמן הוא דיליף ממים ואת ילפת",
+   "en": "and it is oil that is derived from water; yet you derive",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "he": "מים משמן: אלא אמר רב אשי",
+   "en": "water from oil. 'Rather, Rav Ashi said",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "he": "רחיצה מגופיה דקרא. דדניאל דגבי",
+   "en": "bathing is derived from the verse's own wording' - for regarding Daniel, concerning",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "he": "סיכה נפקא לן מריבויא דלישנא וסוך",
+   "en": "anointing, we derive it from an extension of the language, 'and anointing",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "he": "לא סכתי ומצי למכתב ולא סכתי:",
+   "en": "I did not anoint,' when it could have written simply 'nor did I anoint.'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "he": "ואני באתי בדבריך. סיפיה דההוא",
+   "en": "'And I have come because of your words' - the end of that",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l36"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "he": "קרא דלעיל אל תירא דניאל וגו'",
+   "en": "verse cited above, 'fear not, Daniel,' etc.,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l36"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "he": "ואני באתי בדבריך נכנסתי לתוך",
+   "en": "'and I have come because of your words' - I entered into",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l36"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "he": "הפרגוד בשבילך: מאי ואני באתי.",
+   "en": "the Curtain for your sake. 'What is the meaning of, and I have come'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l36"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "he": "מתי נגרש מתוכו שהוצרך ליכנס:",
+   "en": "- when was I expelled from within it, that I needed to enter?",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l36"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "he": "לבוש",
+   "en": "'Clothed' - the daf ends mid-word here; the comment (identifying the man clothed in linen as Gabriel) continues on 77a.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-076b-l36"
+   ]
+  }
+ ],
+ "review": "reviewed"
 }
