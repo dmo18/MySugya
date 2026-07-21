@@ -1,616 +1,622 @@
 {
-  "daf": "30b",
-  "canonicalRef": "Yoma 30b",
-  "summary": "The Gemara explores the practical consequences of the Ben Zoma vs Rabbi Yehuda dispute about Temple immersion. Does failing to immerse invalidate Temple service? Does it violate a positive commandment? The leper analogy (tzaraat) is analyzed: a healed leper immerses the evening before - why? Multiple baraitot seem to support and contradict R. Yehuda's position. The page ends with Abaye's question to Rav Yosef about whether the Rabbis (who disagree with R. Yehuda) require two immersions in some cases.",
-  "review": {
-    "status": "enriched",
-    "version": "10.63"
+ "daf": "30b",
+ "canonicalRef": "Yoma 30b",
+ "summary": "The Gemara explores the practical consequences of the Ben Zoma vs Rabbi Yehuda dispute about Temple immersion. Does failing to immerse invalidate Temple service? Does it violate a positive commandment? The leper analogy (tzaraat) is analyzed: a healed leper immerses the evening before - why? Multiple baraitot seem to support and contradict R. Yehuda's position. The page ends with Abaye's question to Rav Yosef about whether the Rabbis (who disagree with R. Yehuda) require two immersions in some cases.",
+ "review": {
+  "status": "enriched",
+  "version": "10.63"
+ },
+ "glossary": [
+  {
+   "he": "מְצֹרָע",
+   "translit": "metzora",
+   "en": "A person afflicted with tzaraat (commonly mistranslated as leprosy); must undergo a purification process including immersion."
   },
-  "glossary": [
+  {
+   "he": "עֲשֵׂה",
+   "translit": "aseh",
+   "en": "A positive commandment; violation of an aseh is less severe than a negative commandment."
+  },
+  {
+   "he": "טְבִילַת עֶזְרָה",
+   "translit": "tevilat ezra",
+   "en": "Ezra's immersion decree; the requirement for those who experienced a seminal emission to immerse before Torah study or prayer."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "Regarding the profanation of the service - if he did not immerse in the morning and served anyway. According to Ben Zoma - who says",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "it is a Torah-level law, since a kal vachomer can be derived, his service becomes profaned. According to Rabbi",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "Yehuda - who says it is a rabbinic law, it does not profane. But according to Ben Zoma, does it profane? But does he not derive it from the High",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l01",
+    "yoma-030b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "Priest on Yom Kippur, and he himself, if he did not immerse and did not sanctify on Yom Kippur",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "between the golden garments and the white garments, in which he",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "changes, his service is nonetheless valid. Both",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "a High Priest, etc., his service is invalid - in the second chapter",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "of Zevachim (19b) we derive that when he has not washed",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "hands and feet, it profanes the service. According to Ben",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l02",
+    "yoma-030b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "Zoma, he stands liable under a positive commandment - from a kal vachomer of the High Priest",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "who violates a positive commandment, as it is written (Leviticus 16),",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "'and he shall bathe his flesh in water, and put them on.'",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "And does Rabbi Yehuda hold this reasoning",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "- that the mishnah requires that all who enter the courtyard",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "need immersion? A leper - on the eighth",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "day of his own purification, even though he immersed on the seventh day, as it is written",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "(ibid. 14), 'and it shall be, on the seventh day he shall shave'",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "etc.; he returns and immerses again on the eighth day, when he brings",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "his offerings. And stands at the Gate of Nikanor -",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "to insert his hands and feet inward, for placing",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "on the thumbs, from the blood of the guilt-offering and the oil of the log.",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "As the reason is taught: since he already immersed the evening before -",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "Rabbi Yehuda follows his own reasoning, who says there is no",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "morning immersion for those who come to the courtyard, except",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "to remember old impurity; and this one does not need",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "it for that, since he already immersed the night before for any impurity",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "upon him. And the one who raises this question, why does he raise it -",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l12",
+    "yoma-030b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "one who studies this mishnah in order to raise an objection from it",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "in the study hall, why did he trouble himself; is it not that",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "the reason is explicit within it? The Chamber of the Lepers -",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "why is it called the Chamber of Lepers? Since there",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "lepers immerse - because they bring in",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "their thumbs into the courtyard. But rather any person -",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "who enters the courtyard; since he says 'only,' it implies",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "that he does hold there is a requirement of immersion in the case of a leper. Who did not",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l13",
+    "yoma-030b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "immerse - the evening before, for his leprosy. Turned his mind away",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "from guarding his own body, requires sprinkling,",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "lest he entered a tent with a corpse and did not pay",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "attention. According to me, a leper does not need immersion -",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l17",
+    "yoma-030b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "since he already immersed. Treads in impurity - that",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "impurity, and has become accustomed until now to touch",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "impurity; therefore he is under suspicion of further impurities,",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "lest after his immersion he touched something impure. Let us say the Rabbis",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l27",
+    "yoma-030b-l32"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "who disagree with Rabbi Yehuda - in the first mishnah",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l32"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "that teaches, a leper immerses and stands, etc.: like Ben",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l32"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "Zoma, they hold, who says it is a Torah-level law",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l32"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "for anyone; therefore it makes no difference whether he immersed",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l32"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "the evening before or did not immerse; and these are not",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l32"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "the Rabbis of the mishnah who disagree with him, in the mishnah",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l32"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "of Middot; or perhaps it is a single tanna, and a leper is different, since he treads in impurity.",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l32"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "Does it interpose - the daf ends mid-phrase here; the comment (on whether the guilt-offering thumb-application requires no interposition, like other immersions) continues on 31a.",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l36"
+   ]
+  }
+ ],
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-030b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 36
+   },
+   "lines": [
     {
-      "he": "מְצֹרָע",
-      "translit": "metzora",
-      "en": "A person afflicted with tzaraat (commonly mistranslated as leprosy); must undergo a purification process including immersion."
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.30b.1"
     },
     {
-      "he": "עֲשֵׂה",
-      "translit": "aseh",
-      "en": "A positive commandment; violation of an aseh is less severe than a negative commandment."
+     "vilnaLine": 2,
+     "sefariaRef": "Yoma.30b.2"
     },
     {
-      "he": "טְבִילַת עֶזְרָה",
-      "translit": "tevilat ezra",
-      "en": "Ezra's immersion decree; the requirement for those who experienced a seminal emission to immerse before Torah study or prayer."
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.30b.3"
+    },
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.30b.4"
+    },
+    {
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.30b.5"
+    },
+    {
+     "vilnaLine": 13,
+     "sefariaRef": "Yoma.30b.6"
+    },
+    {
+     "vilnaLine": 17,
+     "sefariaRef": "Yoma.30b.7"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.30b.8"
+    },
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.30b.9"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.30b.10"
+    },
+    {
+     "vilnaLine": 32,
+     "sefariaRef": "Yoma.30b.11"
+    },
+    {
+     "vilnaLine": 36,
+     "sefariaRef": "Yoma.30b.12"
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.30b.1",
+    "Yoma.30b.2",
+    "Yoma.30b.3",
+    "Yoma.30b.4",
+    "Yoma.30b.5",
+    "Yoma.30b.6",
+    "Yoma.30b.7",
+    "Yoma.30b.8",
+    "Yoma.30b.9",
+    "Yoma.30b.10",
+    "Yoma.30b.11",
+    "Yoma.30b.12"
+   ],
+   "display": {
+    "title": "Two consequences, one dispute: does skipping immersion invalidate the avodah?",
+    "whats": "The practical stakes of the Ben Zoma vs R. Yehuda debate: does skipping the pre-service immersion disqualify the Temple service? The leper case tests R. Yehuda's position. Multiple baraitot are reconciled.",
+    "hint": "Ben Zoma: biblical obligation = service disqualified if skipped. R. Yehuda: rabbinic precaution = service valid, but priest violated a positive commandment."
+   },
+   "learning": {
+    "learnerQuestion": "If a priest skips the pre-service immersion, does that actually disqualify the Temple service, or is something less severe at stake?",
+    "coreTension": "The Ben Zoma/Rabbi Yehuda dispute from the previous daf is not merely theoretical: if the immersion is biblically mandated (Ben Zoma), skipping it should disqualify the Temple service entirely; if it is only a rabbinic precaution (Rabbi Yehuda), the service remains valid even though the priest has failed to fulfill a positive commandment. The Gemara then tests Rabbi Yehuda's position against a baraita about the healed leper (metzora), who immerses the evening before his purification day - a case that initially seems to require a further morning immersion under Rabbi Yehuda's logic, contradicting the baraita's silence on that point.",
+    "coreMove": "The Gemara resolves the apparent contradiction by treating the leper's case as distinct: the leper's evening immersion is its own established preparation, exempting him from immersing again the next morning. Ravina articulates this reconciliation. The sugya closes with Abaye putting a related question to Rav Yosef: do the Rabbis who disagree with Rabbi Yehuda actually require two separate immersions in certain edge cases?",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Whether an obligation is biblical or rabbinic is not just a label - it directly decides whether skipping it spoils the entire act (Ben Zoma) or only leaves a separate violation on the books while the service itself stands (Rabbi Yehuda)."
+    },
+    "ahaMoment": "The entire practical force of the dispute hinges on one question: does a purely procedural (non-purificatory) immersion, if skipped, affect the validity of Temple service? Ben Zoma says yes (it's biblical), R. Yehuda says no (it's procedural).",
+    "learningBlocker": "The sugya ends with Abaye's question to Rav Yosef about whether the Rabbis require two immersions in some cases, without recording an answer - and even Rabbi Yehuda's 'service remains valid' position does not address whether a priest who realizes mid-service that he skipped immersion should stop or continue.",
+    "memoryAnchor": "Ben Zoma = skip immersion, service invalid. R. Yehuda = skip immersion, service valid but you've violated a positive commandment."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "Opens 'regarding the profanation of the service': if he did not immerse in the morning and served anyway.' Then opens 'according to Ben Zoma': who says",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l01"
-      ]
+     "id": "yoma-030b-l01",
+     "type": "question",
+     "label": "Does skipping immersion invalidate service?",
+     "text": "The practical question from the Ben Zoma/R. Yehuda dispute: if a priest skips the pre-service immersion, is the Temple service invalid?",
+     "sourceRefs": [
+      "Yoma.30b.1"
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "closing: it is a Torah-level law, since a kal vachomer can be derived that his service becomes profaned.' Then opens 'according to Rabbi'",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l01"
-      ]
+     "id": "yoma-030b-l03",
+     "type": "claim",
+     "label": "Ben Zoma: service disqualified",
+     "text": "According to Ben Zoma (biblical obligation), skipping the immersion should disqualify the Temple service.",
+     "sourceRefs": [
+      "Yoma.30b.2"
+     ]
     },
     {
-      "vilnaLine": 3,
-      "en": "closing: Yehuda: who says it is a rabbinic law, it does not profane.' Then opens 'but according to Ben Zoma, does it profane? But is it not from the High",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l02"
-      ]
+     "id": "yoma-030b-l06",
+     "type": "claim",
+     "label": "R. Yehuda: service valid, positive mitzva violated",
+     "text": "According to R. Yehuda (rabbinic precaution), the service remains valid but the priest has violated a positive commandment by failing to immerse.",
+     "sourceRefs": [
+      "Yoma.30b.3"
+     ]
     },
     {
-      "vilnaLine": 4,
-      "en": "continuing: Priest on Yom Kippur that he derives it, and he himself, who did not immerse and did not sanctify on Yom Kippur",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l02"
-      ]
+     "id": "yoma-030b-l08",
+     "type": "objection",
+     "label": "Leper baraita seems to contradict R. Yehuda",
+     "text": "A baraita about the healed leper's immersion the evening before service seems to contradict R. Yehuda's requirement for morning immersion.",
+     "sourceRefs": [
+      "Yoma.30b.4"
+     ]
     },
     {
-      "vilnaLine": 5,
-      "en": "continuing: between the golden garments and the white garments, that he",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l02"
-      ]
+     "id": "yoma-030b-l11",
+     "type": "resolution",
+     "label": "Leper's case is different",
+     "text": "The leper who immerses the evening before service is in a special category - the prior evening's immersion serves as preparation for the morning service.",
+     "sourceRefs": [
+      "Yoma.30b.5"
+     ]
     },
     {
-      "vilnaLine": 6,
-      "en": "closing: changes in it, his service is valid.' Then opens 'both'",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l02"
-      ]
+     "id": "yoma-030b-l30",
+     "type": "resolution",
+     "label": "Ravina's reconciliation",
+     "text": "Ravina: the leper who immerses the evening before Yom Kippur service is exempt from the morning immersion because the evening immersion covers both.",
+     "sourceRefs": [
+      "Yoma.30b.10"
+     ]
     },
     {
-      "vilnaLine": 7,
-      "en": "closing: a High Priest, etc., his service is invalid.' Then continuing: in the second chapter",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l02"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: of Zevachim (19b) we derive that when he has not washed",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l02"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "closing: hands and feet, it profanes the service.' Then opens 'according to Ben'",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l02"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "continuing: Zoma, he stands liable under a positive commandment': from a kal vachomer of the High Priest",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: who violates a positive commandment, as it is written (Leviticus 16),",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "closing: 'and he shall bathe his flesh in water, and put them on.'",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Opens 'and does Rabbi Yehuda hold this reasoning' -",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "continuing: that the mishna requires that all who enter the courtyard",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "closing: require immersion.' Then opens 'a leper': on the eighth",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: day of his own purification, even though he immersed on the seventh day, as it is written",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: (ibid. 14): 'and it shall be, on the seventh day he shall shave'",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: etc.; he returns and immerses on the eighth day, when he brings",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "closing: his offerings.' Then opens 'and stands at the Gate of Nikanor':",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "continuing: to insert his hands and feet inside, for placing",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "closing: on the thumbs, from the blood of the guilt-offering and the oil of the log.",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Opens 'as the reason is taught: since he already immersed the evening before' -",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: Rabbi Yehuda follows his own reasoning, who says there is no",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: morning immersion for those who come to the courtyard, except",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: to remember old impurity; and this one does not need",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: this, since he already immersed last night for any impurity",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "closing: upon him.' Then opens 'and the one who raises this question, why does he raise it':",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: one who studies this mishna in order to raise an objection from it",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: in the study hall, why did he trouble himself; is it not that",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "closing: the reason is explicit in it.' Then opens 'the Chamber of the Lepers':",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "closing: why is it called the Chamber of Lepers?' Then opens 'since there'",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: lepers immerse': since they bring in",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "closing: their thumbs into the courtyard.' Then opens 'but rather any person':",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "continuing: who enters the courtyard; since it says 'only,' implying",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "closing: that he does hold there is a requirement of immersion in the case of a leper.' Then opens 'who did not'",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "closing: immerse': from the evening before, for his leprosy.' Then opens 'turned his mind away'",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l17"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "continuing: from guarding his own body, requires sprinkling",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l17"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: lest he entered a tent with a corpse and did not pay",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l17"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "closing: attention.' Then opens 'according to me, a leper does not need immersion':",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "closing: since he already immersed.' Then opens 'treads in impurity': that",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "continuing: impurity, and has become accustomed until now to touch",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "continuing: impurity; therefore he is under suspicion of impurities,",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "closing: lest after immersion he touched something impure.' Then opens 'let us say the Rabbis'",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "continuing: who disagree with him, Rabbi Yehuda': in the first mishna",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l32"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "continuing: that teaches, a leper immerses and stands, etc.: like Ben",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l32"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "continuing: Zoma, they hold, who says it is a Torah-level law",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l32"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "continuing: for anyone; therefore it makes no difference whether he immersed",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l32"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "continuing: in the evening or did not immerse; and this is not",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l32"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "continuing: the Rabbis of the mishna who disagree with him, in the mishna",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l32"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "closing: of Middot; or perhaps it is a single tanna, and a leper is different, since he treads in impurity.",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l32"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "Opens 'does it interpose' -",
-      "linkedGemaraLineIds": [
-        "yoma-030b-l36"
-      ]
+     "id": "yoma-030b-l33",
+     "type": "question",
+     "label": "Abaye: do Rabbis require two immersions?",
+     "text": "Abaye asks Rav Yosef: in edge cases, do the Rabbis (who disagree with R. Yehuda) actually require two separate immersions?",
+     "sourceRefs": [
+      "Yoma.30b.11"
+     ]
     }
-  ],
-  "sugyot": [
+   ],
+   "topicTags": [
+    "Temple immersion",
+    "Ben Zoma",
+    "R. Yehuda",
+    "service validity",
+    "leper",
+    "metzora",
+    "Ravina",
+    "Abaye",
+    "double immersion"
+   ],
+   "concepts": {
+    "halachic": [
+     "service validity when immersion skipped",
+     "positive mitzva violation",
+     "leper's prior-evening immersion",
+     "double immersion question"
+    ],
+    "theological": [
+     "Temple service integrity",
+     "levels of obligation (biblical vs rabbinic)"
+    ],
+    "narrative": [
+     "series of baraita contradictions and resolutions",
+     "Ravina's elegant solution",
+     "Abaye's edge case question"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "pre-service immersion",
+    "Temple service validity (kosher/pasul)",
+    "metzora purification process",
+    "Ben Zoma vs R. Yehuda dispute from 30a"
+   ],
+   "misconceptions": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-030b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 36
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.30b.1"
-        },
-        {
-          "vilnaLine": 2,
-          "sefariaRef": "Yoma.30b.2"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.30b.3"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.30b.4"
-        },
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.30b.5"
-        },
-        {
-          "vilnaLine": 13,
-          "sefariaRef": "Yoma.30b.6"
-        },
-        {
-          "vilnaLine": 17,
-          "sefariaRef": "Yoma.30b.7"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.30b.8"
-        },
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.30b.9"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.30b.10"
-        },
-        {
-          "vilnaLine": 32,
-          "sefariaRef": "Yoma.30b.11"
-        },
-        {
-          "vilnaLine": 36,
-          "sefariaRef": "Yoma.30b.12"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.30b.1",
-        "Yoma.30b.2",
-        "Yoma.30b.3",
-        "Yoma.30b.4",
-        "Yoma.30b.5",
-        "Yoma.30b.6",
-        "Yoma.30b.7",
-        "Yoma.30b.8",
-        "Yoma.30b.9",
-        "Yoma.30b.10",
-        "Yoma.30b.11",
-        "Yoma.30b.12"
-      ],
-      "display": {
-        "title": "Two consequences, one dispute: does skipping immersion invalidate the avodah?",
-        "whats": "The practical stakes of the Ben Zoma vs R. Yehuda debate: does skipping the pre-service immersion disqualify the Temple service? The leper case tests R. Yehuda's position. Multiple baraitot are reconciled.",
-        "hint": "Ben Zoma: biblical obligation = service disqualified if skipped. R. Yehuda: rabbinic precaution = service valid, but priest violated a positive commandment."
-      },
-      "learning": {
-        "learnerQuestion": "If a priest skips the pre-service immersion, does that actually disqualify the Temple service, or is something less severe at stake?",
-        "coreTension": "The Ben Zoma/Rabbi Yehuda dispute from the previous daf is not merely theoretical: if the immersion is biblically mandated (Ben Zoma), skipping it should disqualify the Temple service entirely; if it is only a rabbinic precaution (Rabbi Yehuda), the service remains valid even though the priest has failed to fulfill a positive commandment. The Gemara then tests Rabbi Yehuda's position against a baraita about the healed leper (metzora), who immerses the evening before his purification day - a case that initially seems to require a further morning immersion under Rabbi Yehuda's logic, contradicting the baraita's silence on that point.",
-        "coreMove": "The Gemara resolves the apparent contradiction by treating the leper's case as distinct: the leper's evening immersion is its own established preparation, exempting him from immersing again the next morning. Ravina articulates this reconciliation. The sugya closes with Abaye putting a related question to Rav Yosef: do the Rabbis who disagree with Rabbi Yehuda actually require two separate immersions in certain edge cases?",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Whether an obligation is biblical or rabbinic is not just a label - it directly decides whether skipping it spoils the entire act (Ben Zoma) or only leaves a separate violation on the books while the service itself stands (Rabbi Yehuda)."
-        },
-        "ahaMoment": "The entire practical force of the dispute hinges on one question: does a purely procedural (non-purificatory) immersion, if skipped, affect the validity of Temple service? Ben Zoma says yes (it's biblical), R. Yehuda says no (it's procedural).",
-        "learningBlocker": "The sugya ends with Abaye's question to Rav Yosef about whether the Rabbis require two immersions in some cases, without recording an answer - and even Rabbi Yehuda's 'service remains valid' position does not address whether a priest who realizes mid-service that he skipped immersion should stop or continue.",
-        "memoryAnchor": "Ben Zoma = skip immersion, service invalid. R. Yehuda = skip immersion, service valid but you've violated a positive commandment."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-030b-l01",
-          "type": "question",
-          "label": "Does skipping immersion invalidate service?",
-          "text": "The practical question from the Ben Zoma/R. Yehuda dispute: if a priest skips the pre-service immersion, is the Temple service invalid?",
-          "sourceRefs": [
-            "Yoma.30b.1"
-          ]
-        },
-        {
-          "id": "yoma-030b-l03",
-          "type": "claim",
-          "label": "Ben Zoma: service disqualified",
-          "text": "According to Ben Zoma (biblical obligation), skipping the immersion should disqualify the Temple service.",
-          "sourceRefs": [
-            "Yoma.30b.2"
-          ]
-        },
-        {
-          "id": "yoma-030b-l06",
-          "type": "claim",
-          "label": "R. Yehuda: service valid, positive mitzva violated",
-          "text": "According to R. Yehuda (rabbinic precaution), the service remains valid but the priest has violated a positive commandment by failing to immerse.",
-          "sourceRefs": [
-            "Yoma.30b.3"
-          ]
-        },
-        {
-          "id": "yoma-030b-l08",
-          "type": "objection",
-          "label": "Leper baraita seems to contradict R. Yehuda",
-          "text": "A baraita about the healed leper's immersion the evening before service seems to contradict R. Yehuda's requirement for morning immersion.",
-          "sourceRefs": [
-            "Yoma.30b.4"
-          ]
-        },
-        {
-          "id": "yoma-030b-l11",
-          "type": "resolution",
-          "label": "Leper's case is different",
-          "text": "The leper who immerses the evening before service is in a special category - the prior evening's immersion serves as preparation for the morning service.",
-          "sourceRefs": [
-            "Yoma.30b.5"
-          ]
-        },
-        {
-          "id": "yoma-030b-l30",
-          "type": "resolution",
-          "label": "Ravina's reconciliation",
-          "text": "Ravina: the leper who immerses the evening before Yom Kippur service is exempt from the morning immersion because the evening immersion covers both.",
-          "sourceRefs": [
-            "Yoma.30b.10"
-          ]
-        },
-        {
-          "id": "yoma-030b-l33",
-          "type": "question",
-          "label": "Abaye: do Rabbis require two immersions?",
-          "text": "Abaye asks Rav Yosef: in edge cases, do the Rabbis (who disagree with R. Yehuda) actually require two separate immersions?",
-          "sourceRefs": [
-            "Yoma.30b.11"
-          ]
-        }
-      ],
-      "topicTags": [
-        "Temple immersion",
-        "Ben Zoma",
-        "R. Yehuda",
-        "service validity",
-        "leper",
-        "metzora",
-        "Ravina",
-        "Abaye",
-        "double immersion"
-      ],
-      "concepts": {
-        "halachic": [
-          "service validity when immersion skipped",
-          "positive mitzva violation",
-          "leper's prior-evening immersion",
-          "double immersion question"
-        ],
-        "theological": [
-          "Temple service integrity",
-          "levels of obligation (biblical vs rabbinic)"
-        ],
-        "narrative": [
-          "series of baraita contradictions and resolutions",
-          "Ravina's elegant solution",
-          "Abaye's edge case question"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "pre-service immersion",
-        "Temple service validity (kosher/pasul)",
-        "metzora purification process",
-        "Ben Zoma vs R. Yehuda dispute from 30a"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The practical consequence of the Ben Zoma/R. Yehuda dispute is minor.",
-          "correction": "It determines whether skipping the immersion actually invalidates the Temple service, a highly significant question."
-        },
-        {
-          "misconception": "All opinions agree that missing the pre-service immersion disqualifies the avodah.",
-          "correction": "R. Yehuda holds the service remains valid."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-030a-s02",
-        "yoma-031a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "Two outcomes of skipping pre-service immersion",
-          "description": "Ben Zoma: service invalid. R. Yehuda: service valid, but positive mitzva violated."
-        },
-        {
-          "type": "timeline",
-          "label": "Leper's immersion timing",
-          "description": "Evening before service: leper immerses. Morning of service: is another immersion required?"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "According to Ben Zoma, what is the consequence if a priest enters Temple service without the pre-service immersion?",
-          "answer": "The Temple service is disqualified (pasul) - since the immersion is biblically mandated, skipping it invalidates the avodah."
-        },
-        {
-          "question": "According to Rabbi Yehuda, what is the consequence if a priest skips the pre-service immersion?",
-          "answer": "The Temple service remains valid (not disqualified), but the priest has violated a positive commandment by failing to perform the required immersion."
-        }
-      ],
-      "finalRuling": "Disputed: Ben Zoma rules the service is invalid if immersion is skipped; R. Yehuda rules the service is valid but the priest has violated a positive commandment.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "The practical consequence of the Ben Zoma/R. Yehuda dispute is minor.",
+     "correction": "It determines whether skipping the immersion actually invalidates the Temple service, a highly significant question."
+    },
+    {
+     "misconception": "All opinions agree that missing the pre-service immersion disqualifies the avodah.",
+     "correction": "R. Yehuda holds the service remains valid."
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-030a-s02",
+    "yoma-031a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "Two outcomes of skipping pre-service immersion",
+     "description": "Ben Zoma: service invalid. R. Yehuda: service valid, but positive mitzva violated."
+    },
+    {
+     "type": "timeline",
+     "label": "Leper's immersion timing",
+     "description": "Evening before service: leper immerses. Morning of service: is another immersion required?"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "According to Ben Zoma, what is the consequence if a priest enters Temple service without the pre-service immersion?",
+     "answer": "The Temple service is disqualified (pasul) - since the immersion is biblically mandated, skipping it invalidates the avodah."
+    },
+    {
+     "question": "According to Rabbi Yehuda, what is the consequence if a priest skips the pre-service immersion?",
+     "answer": "The Temple service remains valid (not disqualified), but the priest has violated a positive commandment by failing to perform the required immersion."
+    }
+   ],
+   "finalRuling": "Disputed: Ben Zoma rules the service is invalid if immersion is skipped; R. Yehuda rules the service is valid but the priest has violated a positive commandment.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "review": "reviewed"
+  }
+ ]
 }
