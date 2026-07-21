@@ -1,563 +1,567 @@
 {
-  "daf": "31a",
-  "canonicalRef": "Yoma 31a",
-  "summary": "The Gemara continues analyzing the Temple immersion: do interpositions (chatzitzot) invalidate this pre-service immersion? Does partial body entry count? These questions apply differently to Ben Zoma and Rabbi Yehuda and their respective Rabbinic frameworks. The Mishna then states that the High Priest immerses and sanctifies five times and ten times on Yom Kippur, and the Gemara begins examining the immersion chamber's height.",
-  "review": {
-    "status": "enriched",
-    "version": "10.63"
+ "daf": "31a",
+ "canonicalRef": "Yoma 31a",
+ "summary": "The Gemara continues analyzing the Temple immersion: do interpositions (chatzitzot) invalidate this pre-service immersion? Does partial body entry count? These questions apply differently to Ben Zoma and Rabbi Yehuda and their respective Rabbinic frameworks. The Mishna then states that the High Priest immerses and sanctifies five times and ten times on Yom Kippur, and the Gemara begins examining the immersion chamber's height.",
+ "review": {
+  "status": "enriched",
+  "version": "10.63"
+ },
+ "glossary": [
+  {
+   "he": "חֲצִיצָה",
+   "translit": "chatzitza",
+   "en": "Interposition; anything between the body and the immersion water that could invalidate the tevila."
   },
-  "glossary": [
+  {
+   "he": "קִדּוּשׁ",
+   "translit": "kiddush",
+   "en": "Sanctification; the priestly washing of hands and feet from the Temple basin (kiyor) required before service."
+  },
+  {
+   "he": "כִּיּוֹר",
+   "translit": "kiyor",
+   "en": "Basin (laver); the bronze vessel in the Temple courtyard from which priests sanctified their hands and feet."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "Does it interpose, or does it not interpose - according to Rabbi Yehuda, who says it is merely a formality of immersion,",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "does an interposition invalidate it like other immersions, or perhaps, since it comes only",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "to make him remember old impurity and does not come to purify him,",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "an interposition does not invalidate it. Is it called entry - regarding this immersion, and he must immerse if he comes to insert",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l01",
+    "yoma-031a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "one of his limbs into the courtyard. What if he made",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "a long knife - to exempt himself from immersion",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "and stand outside the courtyard and extend his hand inside",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "and slaughter: is he exempted from immersion by this,",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "or perhaps he still requires immersion? And regarding the validity",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "of the offering, that is not in question for him, since even",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "though he stood outside and slaughtered, it is valid,",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "as it is taught in Zevachim (32b): 'a young bull",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "before the Lord,' and not, 'the slaughterer before the Lord.' Let it be asked",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l02",
+    "yoma-031a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "of Ben Zoma - who is stringent about it. Let it be asked",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "of the Rabbis who disagree with Rabbi Yehuda - who said",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "any person did not require immersion. For entering inside",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "- one who enters it. Ein Eitam - from it",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l07",
+    "yoma-031a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "comes the water channel to the immersion-place of the Water Gate",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "that is upon the wall; and according to the sense of",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "the verses, it seems to me that it is the spring of the waters of",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "Nephtoach, stated in the Book of Joshua (15),",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "from where the border slopes down to the east",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "and to the west, and it is the border throughout the land of",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "Israel; and this statement of Abaye is because",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "we say in Zevachim (54b): they thought",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "to build the Temple at Ein Eitam,",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "they said, let us lower it a bit, since it is written",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "(Deuteronomy 33), 'and between his shoulders,' from which we learn",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "that it is higher than everything, but he did not explain",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "from where he derives this, and Abaye explains it here.",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "Twenty-three cubits high above the courtyard floor",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "- like the measure of the height of the Water Gate,",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "and the construction of a vessel of three cubits on top of it,",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "to hold forty se'ah, since it is not possible",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "for water to rise to a mountain that is higher",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "than the place from which it springs. Except for that of the Ulam - whose height was forty and width twenty.",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l14",
+    "yoma-031a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "But is there not - the daf ends mid-phrase here; the comment (on the additional cubit of ceiling-thickness and plaster requiring adjustment to the Water Gate's height measurement) continues on 31b.",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l20"
+   ]
+  }
+ ],
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-031a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 10
+   },
+   "lines": [
     {
-      "he": "חֲצִיצָה",
-      "translit": "chatzitza",
-      "en": "Interposition; anything between the body and the immersion water that could invalidate the tevila."
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.31a.1"
     },
     {
-      "he": "קִדּוּשׁ",
-      "translit": "kiddush",
-      "en": "Sanctification; the priestly washing of hands and feet from the Temple basin (kiyor) required before service."
+     "vilnaLine": 2,
+     "sefariaRef": "Yoma.31a.2"
     },
     {
-      "he": "כִּיּוֹר",
-      "translit": "kiyor",
-      "en": "Basin (laver); the bronze vessel in the Temple courtyard from which priests sanctified their hands and feet."
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.31a.3"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.31a.4"
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.31a.1",
+    "Yoma.31a.2",
+    "Yoma.31a.3",
+    "Yoma.31a.4"
+   ],
+   "display": {
+    "whats": "Do interpositions (chatzitzot) invalidate the pre-service immersion? Does partial body entry count? These dilemmas apply differently depending on whether one follows Ben Zoma (biblical immersion) or Rabbi Yehuda (rabbinic).",
+    "hint": "If the immersion is biblical, the standard mikveh rules apply (including chatzitzot). If rabbinic, perhaps the rabbis were lenient about such technicalities.",
+    "title": "Two unresolved immersion dilemmas: interpositions and partial entry"
+   },
+   "learning": {
+    "ahaMoment": "The status of the pre-service immersion (biblical vs rabbinic) affects not just whether it can be skipped but how strictly it must be performed - interpositions, partial entry, and other technicalities all depend on this underlying question.",
+    "memoryAnchor": "Biblical immersion = all mikveh rules apply. Rabbinic immersion = maybe lighter standards. The dilemma is left unresolved.",
+    "learnerQuestion": "If a chatzitza blocks part of the priest's body, or if he only partially enters the immersion chamber, does the pre-service immersion still count?",
+    "coreTension": "The two dilemmas only make sense once daf 30b established that the pre-service immersion's validity might depend on whether it is biblical (Ben Zoma) or rabbinic (R. Yehuda): a chatzitza or partial entry would clearly invalidate a biblical immersion, but it is unclear whether the rabbis who made it a precaution insisted on the same strict mikveh standards.",
+    "coreMove": "Abaye frames both dilemmas through the lens of the Ben Zoma/R. Yehuda dispute, asking whether a precautionary rabbinic immersion must follow the same chatzitza and full-entry rules as a biblical one - and the Gemara leaves both questions unresolved (teiku).",
+    "takeaway": {
+     "type": "open_question",
+     "text": "Some halachic dilemmas in the Gemara are left formally unresolved (teiku) precisely because the underlying obligation's status (biblical vs. rabbinic) is itself disputed; downstream questions about how strictly to apply standard mikveh rules to it can remain open as well."
+    },
+    "learningBlocker": "It's tempting to assume an unresolved teiku means the question doesn't matter practically, but here it bears directly on whether a priest with a chatzitza, or one who enters the chamber only partway, has performed a valid pre-service immersion at all."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "Opens 'does it interpose or does it not interpose': according to Rabbi Yehuda, who says this is merely a formality of immersion,",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l01"
-      ]
+     "id": "yoma-031a-l01",
+     "type": "question",
+     "label": "Chatzitza in pre-service immersion?",
+     "text": "Does a standard interposition between the body and the water invalidate the pre-service immersion?",
+     "sourceRefs": [
+      "Yoma.31a.1"
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "continuing: an interposition would invalidate it like other immersions; or perhaps, since it comes only",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l01"
-      ]
+     "id": "yoma-031a-l03",
+     "type": "question",
+     "label": "Ben Zoma's framework",
+     "text": "Raise the dilemma according to Ben Zoma (biblical): if biblical, standard mikveh rules apply - but do they?",
+     "sourceRefs": [
+      "Yoma.31a.2"
+     ]
     },
     {
-      "vilnaLine": 3,
-      "en": "continuing: to make him remember old impurity and does not come to purify him, an interposition would not invalidate",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l01"
-      ]
+     "id": "yoma-031a-l05",
+     "type": "question",
+     "label": "Partial body entry?",
+     "text": "Similarly: does partial body entry into the immersion chamber count as a valid immersion?",
+     "sourceRefs": [
+      "Yoma.31a.3"
+     ]
     },
     {
-      "vilnaLine": 4,
-      "en": "closing: it.' Then opens 'is it called entry': regarding this immersion; and he must immerse if he comes to insert",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "closing: one of his limbs into the courtyard.' Then opens 'what if he made'",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "continuing: a long knife': to exempt himself from immersion",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "continuing: and stand outside the courtyard and extend his hand inside",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: and slaughter; is he exempted from immersion by this,",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "continuing: or perhaps he requires immersion; and regarding the validity",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "continuing: of the offering, it is not in question for him, since even",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: though he stood outside and slaughtered, it is valid,",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: as it is taught in Zevachim (32b): 'a young bull",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "closing: before the Lord,' and not, 'the slaughterer before the Lord.'' Then opens 'let it be asked'",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "closing: of Ben Zoma': who is stringent about it.' Then opens 'let it be asked'",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: of the Rabbis who disagree with Rabbi Yehuda': who said",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "closing: any person did not require immersion.' Then opens 'for entering inside'",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "closing: one who enters it.' Then opens 'Ein Eitam': from it",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: comes the water channel to the immersion-place of the gate",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: of the water that is upon the wall; and according to the sense of",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "continuing: the verses, it seems to me that it is the spring of the waters of",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: Nephtoach, stated in the Book of Joshua (15),",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: from where the border slopes down to the east",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: and to the west, and it is the border throughout the land of",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: Israel; and this statement of Abaye is because",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: we say in Zevachim (54b): they thought",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: to build the Temple at Ein Eitam,",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: they said, let us lower it a bit, since it is written",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: (Deuteronomy 33): 'between his shoulders,' from which we learn",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: that it is higher than everything; but he did not explain",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "closing: from where he derives this, and Abaye explains it here.",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Opens 'high above the courtyard floor by twenty-three'",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: cubits': like the measure of the height of the Water Gate,",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: and the construction of a vessel of three cubits on top,",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "continuing: to hold forty se'ah, since it is not possible",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: for water to rise to a mountain that is higher",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "closing: than the place from which it springs.' Then opens and closes 'except for the Ulam's': whose height was forty and width twenty.",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Opens 'but is there not' -",
-      "linkedGemaraLineIds": [
-        "yoma-031a-l20"
-      ]
+     "id": "yoma-031a-l08",
+     "type": "question",
+     "label": "Rabbis' framework on chatzitza",
+     "text": "Even according to the Rabbis (who say it is rabbinic): do they apply the chatzitza rules strictly or leniently?",
+     "sourceRefs": [
+      "Yoma.31a.4"
+     ]
     }
-  ],
-  "sugyot": [
+   ],
+   "topicTags": [
+    "chatzitza",
+    "interposition",
+    "partial entry",
+    "Ben Zoma",
+    "R. Yehuda",
+    "unresolved dilemma",
+    "Temple immersion"
+   ],
+   "concepts": {
+    "halachic": [
+     "chatzitza in Temple immersion",
+     "partial body entry",
+     "biblical vs rabbinic immersion strictness"
+    ],
+    "theological": [],
+    "narrative": [
+     "Abaye's framing of dilemmas",
+     "unresolved Talmudic questions (teiku)"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "chatzitza (interposition)",
+    "mikveh rules",
+    "Ben Zoma vs R. Yehuda dispute from 30a-30b"
+   ],
+   "misconceptions": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-031a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 10
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.31a.1"
-        },
-        {
-          "vilnaLine": 2,
-          "sefariaRef": "Yoma.31a.2"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.31a.3"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.31a.4"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.31a.1",
-        "Yoma.31a.2",
-        "Yoma.31a.3",
-        "Yoma.31a.4"
-      ],
-      "display": {
-        "whats": "Do interpositions (chatzitzot) invalidate the pre-service immersion? Does partial body entry count? These dilemmas apply differently depending on whether one follows Ben Zoma (biblical immersion) or Rabbi Yehuda (rabbinic).",
-        "hint": "If the immersion is biblical, the standard mikveh rules apply (including chatzitzot). If rabbinic, perhaps the rabbis were lenient about such technicalities.",
-        "title": "Two unresolved immersion dilemmas: interpositions and partial entry"
-      },
-      "learning": {
-        "ahaMoment": "The status of the pre-service immersion (biblical vs rabbinic) affects not just whether it can be skipped but how strictly it must be performed - interpositions, partial entry, and other technicalities all depend on this underlying question.",
-        "memoryAnchor": "Biblical immersion = all mikveh rules apply. Rabbinic immersion = maybe lighter standards. The dilemma is left unresolved.",
-        "learnerQuestion": "If a chatzitza blocks part of the priest's body, or if he only partially enters the immersion chamber, does the pre-service immersion still count?",
-        "coreTension": "The two dilemmas only make sense once daf 30b established that the pre-service immersion's validity might depend on whether it is biblical (Ben Zoma) or rabbinic (R. Yehuda): a chatzitza or partial entry would clearly invalidate a biblical immersion, but it is unclear whether the rabbis who made it a precaution insisted on the same strict mikveh standards.",
-        "coreMove": "Abaye frames both dilemmas through the lens of the Ben Zoma/R. Yehuda dispute, asking whether a precautionary rabbinic immersion must follow the same chatzitza and full-entry rules as a biblical one - and the Gemara leaves both questions unresolved (teiku).",
-        "takeaway": {
-          "type": "open_question",
-          "text": "Some halachic dilemmas in the Gemara are left formally unresolved (teiku) precisely because the underlying obligation's status (biblical vs. rabbinic) is itself disputed; downstream questions about how strictly to apply standard mikveh rules to it can remain open as well."
-        },
-        "learningBlocker": "It's tempting to assume an unresolved teiku means the question doesn't matter practically, but here it bears directly on whether a priest with a chatzitza, or one who enters the chamber only partway, has performed a valid pre-service immersion at all."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-031a-l01",
-          "type": "question",
-          "label": "Chatzitza in pre-service immersion?",
-          "text": "Does a standard interposition between the body and the water invalidate the pre-service immersion?",
-          "sourceRefs": [
-            "Yoma.31a.1"
-          ]
-        },
-        {
-          "id": "yoma-031a-l03",
-          "type": "question",
-          "label": "Ben Zoma's framework",
-          "text": "Raise the dilemma according to Ben Zoma (biblical): if biblical, standard mikveh rules apply - but do they?",
-          "sourceRefs": [
-            "Yoma.31a.2"
-          ]
-        },
-        {
-          "id": "yoma-031a-l05",
-          "type": "question",
-          "label": "Partial body entry?",
-          "text": "Similarly: does partial body entry into the immersion chamber count as a valid immersion?",
-          "sourceRefs": [
-            "Yoma.31a.3"
-          ]
-        },
-        {
-          "id": "yoma-031a-l08",
-          "type": "question",
-          "label": "Rabbis' framework on chatzitza",
-          "text": "Even according to the Rabbis (who say it is rabbinic): do they apply the chatzitza rules strictly or leniently?",
-          "sourceRefs": [
-            "Yoma.31a.4"
-          ]
-        }
-      ],
-      "topicTags": [
-        "chatzitza",
-        "interposition",
-        "partial entry",
-        "Ben Zoma",
-        "R. Yehuda",
-        "unresolved dilemma",
-        "Temple immersion"
-      ],
-      "concepts": {
-        "halachic": [
-          "chatzitza in Temple immersion",
-          "partial body entry",
-          "biblical vs rabbinic immersion strictness"
-        ],
-        "theological": [],
-        "narrative": [
-          "Abaye's framing of dilemmas",
-          "unresolved Talmudic questions (teiku)"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "chatzitza (interposition)",
-        "mikveh rules",
-        "Ben Zoma vs R. Yehuda dispute from 30a-30b"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The pre-service immersion definitely follows all standard mikveh rules.",
-          "correction": "These requirements are explicitly left as unresolved dilemmas."
-        },
-        {
-          "misconception": "A partial immersion would never count.",
-          "correction": "The question of partial body entry is raised and left unresolved."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-030b-s01",
-        "yoma-031a-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "Biblical vs rabbinic immersion rules",
-          "description": "Chatzitza: if biblical - apply full mikveh rules; if rabbinic - perhaps leniency. Both remain unresolved."
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Are the questions about interpositions (chatzitzot) and partial entry in the pre-service immersion resolved in the Gemara?",
-          "answer": "No - both dilemmas are left as unresolved questions (teiku), partly because they depend on the unresolved dispute between Ben Zoma and Rabbi Yehuda about the nature of the immersion."
-        }
-      ],
-      "finalRuling": "Both the chatzitza and partial-entry questions remain unresolved. The underlying dispute (Ben Zoma vs R. Yehuda) controls the analysis but is itself unresolved.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "The pre-service immersion definitely follows all standard mikveh rules.",
+     "correction": "These requirements are explicitly left as unresolved dilemmas."
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-031a-s02",
-      "lineRange": {
-        "startVilnaLine": 14,
-        "endVilnaLine": 20
-      },
-      "lines": [
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.31a.5"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.31a.6"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.31a.5",
-        "Yoma.31a.6"
-      ],
-      "display": {
-        "whats": "The Mishna: the High Priest immerses five times and sanctifies (kiddush yadayim veraglayim) ten times on Yom Kippur. The immersion chamber was above the Water Gate, so the gate height determines the chamber's minimum height.",
-        "hint": "Five immersions, each accompanied by two sanctifications (before undressing and after dressing), gives ten total sanctifications.",
-        "title": "The Mishna's count: five immersions, ten sanctifications"
-      },
-      "learning": {
-        "ahaMoment": "Ten sanctifications from five immersions: each immersion is accompanied by two sanctifications - one before undressing (before the garment change) and one after dressing (before beginning the new service). Five changes of garments = five immersions = ten total sanctifications.",
-        "memoryAnchor": "5 immersions x 2 sanctifications = 10 sanctifications. Each garment change requires: sanctify, undress, immerse, dress, sanctify.",
-        "learnerQuestion": "Why does the High Priest immerse five times and sanctify his hands and feet ten times over the course of Yom Kippur?",
-        "coreTension": "The Mishna asserts specific numbers - five immersions, ten sanctifications - without yet explaining why; the Gemara must establish both the geometry of where these immersions happened (the chamber above the Water Gate) and, in the sugyot that follow, the textual basis for the numbers themselves.",
-        "coreMove": "The Gemara opens its explanation with an architectural detail: the immersion chamber stood above the twenty-cubit Water Gate, making the chamber itself at least twenty-three cubits above ground - a feature it needs to account for in describing the High Priest's movement through the Temple precincts.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The Mishna's headline numbers (five immersions, ten sanctifications) are not arbitrary; the Gemara grounds them first in physical layout and afterward in textual derivation, treating the architecture of the Temple as part of the legal record."
-        },
-        "learningBlocker": "A reader can take the 'five immersions, ten sanctifications' figure as a simple count to memorize, missing that the Gemara treats both the physical setting (chamber height) and each individual transition as halachically significant and in need of justification."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-031a-l14",
-          "type": "ruling",
-          "label": "Mishna: 5 immersions, 10 sanctifications",
-          "text": "The High Priest immerses five times and sanctifies his hands and feet ten times on Yom Kippur, all in a sacred area with a linen privacy screen.",
-          "sourceRefs": [
-            "Yoma.31a.5"
-          ]
-        },
-        {
-          "id": "yoma-031a-l20",
-          "type": "premise",
-          "label": "Chamber height explanation",
-          "text": "The immersion chamber was above the Water Gate (twenty cubits tall), requiring the chamber to be at least twenty-three cubits above the ground.",
-          "sourceRefs": [
-            "Yoma.31a.6"
-          ]
-        }
-      ],
-      "topicTags": [
-        "High Priest",
-        "Yom Kippur",
-        "five immersions",
-        "ten sanctifications",
-        "immersion chamber",
-        "Water Gate",
-        "linen screen"
-      ],
-      "concepts": {
-        "halachic": [
-          "five immersions of High Priest",
-          "ten sanctifications",
-          "garment change sequence",
-          "immersion chamber location"
-        ],
-        "theological": [
-          "Yom Kippur service purity",
-          "sacred privacy screen"
-        ],
-        "narrative": [
-          "architectural explanation of immersion chamber height"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "kiddush yadayim veraglayim (sanctification of hands and feet)",
-        "Yom Kippur garment changes",
-        "linen vs golden garments"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Ten sanctifications means ten immersions.",
-          "correction": "Five immersions paired with two sanctifications each gives ten total (not ten separate immersions)."
-        },
-        {
-          "misconception": "The immersion chamber was at ground level.",
-          "correction": "It was elevated above the Water Gate, placing it well above the Temple courtyard floor."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-032a-s02",
-        "yoma-031b-s03"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "label": "Five immersion cycle",
-          "description": "Sanctify - undress - immerse - dress - sanctify. Repeated five times for each of the five garment changes."
-        },
-        {
-          "type": "place",
-          "label": "Immersion chamber above Water Gate",
-          "description": "Elevated chamber, at least 23 cubits high, with a linen privacy screen for the High Priest"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "How many times does the High Priest immerse and sanctify on Yom Kippur?",
-          "answer": "Five immersions and ten sanctifications (two per immersion: one before undressing and one after dressing)."
-        },
-        {
-          "question": "Why was the immersion chamber so high above the ground?",
-          "answer": "It was located above the Water Gate, which was twenty cubits tall, placing the chamber at least twenty-three cubits above ground level."
-        }
-      ],
-      "finalRuling": "The High Priest immerses five times and sanctifies ten times on Yom Kippur. The immersion chamber was elevated above the Water Gate.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "A partial immersion would never count.",
+     "correction": "The question of partial body entry is raised and left unresolved."
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-030b-s01",
+    "yoma-031a-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "Biblical vs rabbinic immersion rules",
+     "description": "Chatzitza: if biblical - apply full mikveh rules; if rabbinic - perhaps leniency. Both remain unresolved."
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Are the questions about interpositions (chatzitzot) and partial entry in the pre-service immersion resolved in the Gemara?",
+     "answer": "No - both dilemmas are left as unresolved questions (teiku), partly because they depend on the unresolved dispute between Ben Zoma and Rabbi Yehuda about the nature of the immersion."
+    }
+   ],
+   "finalRuling": "Both the chatzitza and partial-entry questions remain unresolved. The underlying dispute (Ben Zoma vs R. Yehuda) controls the analysis but is itself unresolved.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-031a-s02",
+   "lineRange": {
+    "startVilnaLine": 14,
+    "endVilnaLine": 20
+   },
+   "lines": [
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.31a.5"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.31a.6"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.31a.5",
+    "Yoma.31a.6"
+   ],
+   "display": {
+    "whats": "The Mishna: the High Priest immerses five times and sanctifies (kiddush yadayim veraglayim) ten times on Yom Kippur. The immersion chamber was above the Water Gate, so the gate height determines the chamber's minimum height.",
+    "hint": "Five immersions, each accompanied by two sanctifications (before undressing and after dressing), gives ten total sanctifications.",
+    "title": "The Mishna's count: five immersions, ten sanctifications"
+   },
+   "learning": {
+    "ahaMoment": "Ten sanctifications from five immersions: each immersion is accompanied by two sanctifications - one before undressing (before the garment change) and one after dressing (before beginning the new service). Five changes of garments = five immersions = ten total sanctifications.",
+    "memoryAnchor": "5 immersions x 2 sanctifications = 10 sanctifications. Each garment change requires: sanctify, undress, immerse, dress, sanctify.",
+    "learnerQuestion": "Why does the High Priest immerse five times and sanctify his hands and feet ten times over the course of Yom Kippur?",
+    "coreTension": "The Mishna asserts specific numbers - five immersions, ten sanctifications - without yet explaining why; the Gemara must establish both the geometry of where these immersions happened (the chamber above the Water Gate) and, in the sugyot that follow, the textual basis for the numbers themselves.",
+    "coreMove": "The Gemara opens its explanation with an architectural detail: the immersion chamber stood above the twenty-cubit Water Gate, making the chamber itself at least twenty-three cubits above ground - a feature it needs to account for in describing the High Priest's movement through the Temple precincts.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The Mishna's headline numbers (five immersions, ten sanctifications) are not arbitrary; the Gemara grounds them first in physical layout and afterward in textual derivation, treating the architecture of the Temple as part of the legal record."
+    },
+    "learningBlocker": "A reader can take the 'five immersions, ten sanctifications' figure as a simple count to memorize, missing that the Gemara treats both the physical setting (chamber height) and each individual transition as halachically significant and in need of justification."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-031a-l14",
+     "type": "ruling",
+     "label": "Mishna: 5 immersions, 10 sanctifications",
+     "text": "The High Priest immerses five times and sanctifies his hands and feet ten times on Yom Kippur, all in a sacred area with a linen privacy screen.",
+     "sourceRefs": [
+      "Yoma.31a.5"
+     ]
+    },
+    {
+     "id": "yoma-031a-l20",
+     "type": "premise",
+     "label": "Chamber height explanation",
+     "text": "The immersion chamber was above the Water Gate (twenty cubits tall), requiring the chamber to be at least twenty-three cubits above the ground.",
+     "sourceRefs": [
+      "Yoma.31a.6"
+     ]
+    }
+   ],
+   "topicTags": [
+    "High Priest",
+    "Yom Kippur",
+    "five immersions",
+    "ten sanctifications",
+    "immersion chamber",
+    "Water Gate",
+    "linen screen"
+   ],
+   "concepts": {
+    "halachic": [
+     "five immersions of High Priest",
+     "ten sanctifications",
+     "garment change sequence",
+     "immersion chamber location"
+    ],
+    "theological": [
+     "Yom Kippur service purity",
+     "sacred privacy screen"
+    ],
+    "narrative": [
+     "architectural explanation of immersion chamber height"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "kiddush yadayim veraglayim (sanctification of hands and feet)",
+    "Yom Kippur garment changes",
+    "linen vs golden garments"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Ten sanctifications means ten immersions.",
+     "correction": "Five immersions paired with two sanctifications each gives ten total (not ten separate immersions)."
+    },
+    {
+     "misconception": "The immersion chamber was at ground level.",
+     "correction": "It was elevated above the Water Gate, placing it well above the Temple courtyard floor."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-032a-s02",
+    "yoma-031b-s03"
+   ],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "label": "Five immersion cycle",
+     "description": "Sanctify - undress - immerse - dress - sanctify. Repeated five times for each of the five garment changes."
+    },
+    {
+     "type": "place",
+     "label": "Immersion chamber above Water Gate",
+     "description": "Elevated chamber, at least 23 cubits high, with a linen privacy screen for the High Priest"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "How many times does the High Priest immerse and sanctify on Yom Kippur?",
+     "answer": "Five immersions and ten sanctifications (two per immersion: one before undressing and one after dressing)."
+    },
+    {
+     "question": "Why was the immersion chamber so high above the ground?",
+     "answer": "It was located above the Water Gate, which was twenty cubits tall, placing the chamber at least twenty-three cubits above ground level."
+    }
+   ],
+   "finalRuling": "The High Priest immerses five times and sanctifies ten times on Yom Kippur. The immersion chamber was elevated above the Water Gate.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "review": "reviewed"
+  }
+ ]
 }
