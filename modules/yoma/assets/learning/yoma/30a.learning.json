@@ -1,713 +1,718 @@
 {
-  "daf": "30a",
-  "canonicalRef": "Yoma 30a",
-  "summary": "Temple hygiene obligations for priests: brushing drops of urine off legs is a mitzva. Rav Pappa discusses excrement in an unusual location. A baraita on washing hands before a meal. Then the Mishna: anyone who enters the Temple courtyard for service must immerse (tevila) even if already pure. Ben Zoma and Rabbi Yehuda dispute the reason for this requirement: is it a biblical obligation or a rabbinic ordinance to remind worshippers of their purity status?",
-  "review": {
-    "status": "enriched",
-    "version": "10.63"
+ "daf": "30a",
+ "canonicalRef": "Yoma 30a",
+ "summary": "Temple hygiene obligations for priests: brushing drops of urine off legs is a mitzva. Rav Pappa discusses excrement in an unusual location. A baraita on washing hands before a meal. Then the Mishna: anyone who enters the Temple courtyard for service must immerse (tevila) even if already pure. Ben Zoma and Rabbi Yehuda dispute the reason for this requirement: is it a biblical obligation or a rabbinic ordinance to remind worshippers of their purity status?",
+ "review": {
+  "status": "enriched",
+  "version": "10.63"
+ },
+ "glossary": [
+  {
+   "he": "טְבִילָה",
+   "translit": "tevila",
+   "en": "Immersion; ritual immersion in a mikveh, required before Temple service even for a ritually pure person."
   },
-  "glossary": [
+  {
+   "he": "בֶּן זוֹמָא",
+   "translit": "Ben Zoma",
+   "en": "A tanna who holds that the Temple immersion requirement is biblical in origin."
+  },
+  {
+   "he": "קִדּוּשׁ יָדַיִם וְרַגְלַיִם",
+   "translit": "kiddush yadayim veraglayim",
+   "en": "Sanctification of hands and feet; the priestly washing required before Temple service."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "It is a mitzva to rub away with one's hand - the droplets of urine that splash onto his feet, so that he not go out",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "with them into the open and appear to have a severed member, since a severed member's urine does not flow in a stream but trickles,",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "and one with a severed member cannot father children, so people would say his children are not his own. In its place - at the opening of",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l01",
+    "yoma-030a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "the anus, this is forbidden for reciting the Shema. His hands were in the bathroom - a partition separates them",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l04",
+    "yoma-030a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "with the bathroom on the inner side of the partition, and this one",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "inserted his hands through a hole in the partition. And Rav",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "Chisda said, forbidden - because of 'all",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "my bones shall say,' etc. (Psalms 35),",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "the reason being 'all my bones,' but not because of",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "the foulness of the smell, and this is difficult for Rav Pappa",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "from both directions. In its place there is more foulness -",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "since it is warm, not having been exposed to open air, and",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "its smell has not dispersed. A halakha regarding a meal - meaning",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l08",
+    "yoma-030a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "this halakha was stated among the halakhot governing a meal.",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "A person - who goes out from the meal to urinate",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "washes the one hand with which he rubbed away",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "the droplets. And delayed - lingered. Washes",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "both his hands - since, having lingered one hour",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "or two, he turned his mind away from his meal and did not",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "take care to guard his hands, since they are prone to touch things. He should not",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "wash outside - so that they not say about him that he did not",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "wash. And he returns the pitcher to the guests - so it is taught",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "in the Tosefta (chapter 4) of Berachot: a pitcher is a jug",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "from which water is poured onto the hands; he passes it",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "around to the reclining guests, and the attendant passes it",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "to them and says: is there among you one who still needs to wash,",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "and this is only to make known that this one who brought",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "his hands back inside has already washed. We only said this - that he need not",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l13",
+    "yoma-030a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "wash outside, except that he no longer needs",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "to eat but rather he enters to drink, since they were",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "accustomed to prolong their drinking after",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "the meal; but nevertheless he must wash, lest he put",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "a piece of bread into his mouth. It is well known that his mind is preoccupied",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "about it, and they do not suspect him. Mishnah:",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l18",
+    "yoma-030a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "for the service - not stated precisely, for a person does not enter",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "the courtyard until he immerses, and the reason is explained",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "in the Gemara. Five immersions, etc. - he derives",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "it in the Gemara. On the Beit HaParva - on the roof of",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "the chamber of Beit HaParva. Except for this one - the first,",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "which is not an obligation specific to Yom Kippur,",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "since it occurs on every other day too; but the immersions",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "that come as an obligation for Yom Kippur are written of,",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "'in a sacred place,' in the passage of Acharei Mot.",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "Gemara: this immersion - the one performed every morning, why",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "is it required for one who is already pure? And just as one who changes from sacred to sacred, etc. -",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "the High Priest, in the five services of Yom Kippur,",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "which alternate from outside to inside and from inside to outside, since both places are sacred, and for both,",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "one who enters impure is liable to karet. Requires immersion - between one service and the next, as he derives",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "further on in this chapter (32a); and this one who comes from his home to the courtyard, which is from the mundane to the sacred, etc.",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "This is a mere formality of immersion - there is no Torah obligation here, but rather to establish a form and to hold onto",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "the name 'immersion,' so that it come to mind that immersion is only for the impure, and so that he take to heart",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "whether there is impurity upon him, and remember an old impurity he may have had and forgotten, and refrain",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "from entering the courtyard that day until his purification is complete following the immersion, and not serve that day before then.",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "Regarding the profanation of - the daf ends mid-phrase here; the comment (on Ben Zoma's view that an omitted immersion invalidates the service) continues on 30b.",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l35"
+   ]
+  }
+ ],
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-030a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 18
+   },
+   "lines": [
     {
-      "he": "טְבִילָה",
-      "translit": "tevila",
-      "en": "Immersion; ritual immersion in a mikveh, required before Temple service even for a ritually pure person."
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.30a.1"
     },
     {
-      "he": "בֶּן זוֹמָא",
-      "translit": "Ben Zoma",
-      "en": "A tanna who holds that the Temple immersion requirement is biblical in origin."
+     "vilnaLine": 4,
+     "sefariaRef": "Yoma.30a.2"
     },
     {
-      "he": "קִדּוּשׁ יָדַיִם וְרַגְלַיִם",
-      "translit": "kiddush yadayim veraglayim",
-      "en": "Sanctification of hands and feet; the priestly washing required before Temple service."
+     "vilnaLine": 8,
+     "sefariaRef": "Yoma.30a.3"
+    },
+    {
+     "vilnaLine": 13,
+     "sefariaRef": "Yoma.30a.4"
+    },
+    {
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.30a.5"
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.30a.1",
+    "Yoma.30a.2",
+    "Yoma.30a.3",
+    "Yoma.30a.4",
+    "Yoma.30a.5"
+   ],
+   "display": {
+    "title": "Visible matters: Temple hygiene from urine drops to public hand-washing",
+    "whats": "Temple hygiene requirements: brushing urine drops is a mitzva. Rav Pappa's case about excrement. A baraita about washing hands before meals and where to do so publicly.",
+    "hint": "Physical purity and hygiene are taken seriously in the Temple context - even minor hygiene matters have halachic dimensions."
+   },
+   "learning": {
+    "learnerQuestion": "Why do minor hygiene matters like urine drops on a priest's legs, or where to wash hands before a meal, get treated as halachic concerns at all?",
+    "coreTension": "Temple purity discourse might seem to concern only major ritual impurity, but the Gemara extends it to minor physical hygiene: it is a mitzva for a priest to brush away urine drops so they cannot be seen, and Rav Pappa works out how this concern applies differently when residue sits on the skin rather than in its natural location.",
+    "coreMove": "From there the Gemara pivots to a parallel concern outside the Temple: a baraita on washing hands before a meal, where Rav Chisda rules that the washing should be done where others can see it, so the practice isn't mistaken for an idiosyncratic stringency.",
+    "resolution": "The practical rulings stand as stated: a priest brushes away visible urine residue, and a person washes hands before a meal in view of others rather than hidden away.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Dignity in service runs from major ritual purity down to small visible details - what is seen reflects what is expected, whether in the Temple courtyard or at an ordinary meal."
+    },
+    "ahaMoment": "Temple purity isn't only about ritual impurity (tum'ah) - it includes physical hygiene standards that reflect the dignity of divine service.",
+    "learningBlocker": "The sugya does not say whether these hygiene requirements are halachically obligatory in a way that would disqualify service if violated, or whether they are standards of dignity that are socially expected but not legally enforceable.",
+    "memoryAnchor": "Temple hygiene rule: visible = not permitted. Brush it, clean it, wash where others see. Dignity in divine service runs from major impurity down to minor hygiene."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "Opens 'it is a mitzva to rub with his hand': the drops of urine that splash onto his feet, so that he not go out",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l01"
-      ]
+     "id": "yoma-030a-l01",
+     "type": "ruling",
+     "label": "Brushing urine drops: mitzva",
+     "text": "It is a mitzva for a priest to brush residual urine drops from his legs so they cannot be seen.",
+     "sourceRefs": [
+      "Yoma.30a.1"
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "continuing: with them into the outside and appear to have a severed member, since his urine does not flow in a stream but trickles,",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l01"
-      ]
+     "id": "yoma-030a-l03",
+     "type": "case",
+     "label": "Rav Pappa: excrement location distinction",
+     "text": "Rav Pappa discusses a case where excrement is on the flesh (distinct from its natural location) and how the prayer/service prohibition applies differently.",
+     "sourceRefs": [
+      "Yoma.30a.2",
+      "Yoma.30a.3"
+     ]
     },
     {
-      "vilnaLine": 3,
-      "en": "closing: and one with a severed member cannot father children, and they would say his children are not his own.' Then opens 'in its place': at the hole of",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "closing: the anus, is forbidden for reciting the Shema.' Then opens 'his hands were in the bathroom': a partition separates",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l04"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "continuing: and the bathroom is on the inner side of the partition, and this one",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "closing: inserted his hands through a hole in the partition.' Then opens 'and Rav'",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "continuing: Chisda said, forbidden': because of the verse 'all",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: my bones shall say,' etc. (Psalms 35),",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "continuing: the reason being 'all my bones,' but not because of",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "continuing: the foulness of the smell; and this is difficult for Rav Pappa",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "closing: from both of them.' Then opens 'in its place there is more foulness':",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: since it is warm, not having been exposed to open air, and",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "closing: its smell has not dispersed.' Then opens 'a halakha regarding a meal': meaning",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "closing: this halakha was stated among the halakhot governing a meal.",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "Opens 'a person': who goes out from the meal to urinate",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: washes one hand, the one with which he wiped away",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "closing: the drops with.' Then opens and closes 'and delayed': lingered.' Then opens 'washes'",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: both his hands': since, having lingered one hour",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: or two, he turned his mind away from his meal and did not",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "closing: take care to guard his hands, since they are active.' Then opens 'he should not'",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: wash outside': so that they not say about him that he did not",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "closing: wash.' Then opens 'and he returns the pitcher to the guests': so it reads",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: in the Tosefta (chapter 4) of Berachot: a pitcher is a jug",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: from which water is poured onto the hands; he returns it",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: to the guests who are reclining, and the attendant returns it",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: to them and says: is there among you one who still needs to wash,",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: and this is only to make known that this one who brought",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "closing: his hands inside has washed.' Then opens 'we only said this': that he need not",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l13"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: wash outside, except that he no longer needs",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "continuing: to eat, but rather he enters to drink, since they were",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: accustomed to prolong their drinking after",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: the meal; but nevertheless he must wash, lest he put",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "closing: a piece of bread into his mouth.' Then opens 'it is well known that he is uneasy'",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "closing: about it, and they do not suspect him.' Then marks the start of the new mishna:",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "Opens 'for the service': not precisely stated, for a person does not enter",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "continuing: the courtyard until he immerses, and the reason is explained",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "closing: in the Gemara.' Then opens 'five immersions, etc.': he derives",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "closing: it in the Gemara.' Then opens 'on the Beit HaParva': on the roof of",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "closing: the chamber of Beit HaParva.' Then opens 'except for this one': the first,",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: which does not come as an obligation specific to Yom Kippur,",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "continuing: since it occurs on every other day too; but the immersions",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "continuing: that come as an obligation for Yom Kippur, it is written of them,",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "closing: 'in a sacred place,' in the passage of Acharei Mot.",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Opens 'gemara: this immersion': the one performed every morning, why",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "closing: is it required for one who is already pure?' Then opens 'and just as one who changes from sacred to sacred, etc.':",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "continuing: the High Priest, in the five services of Yom Kippur,",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "continuing: which alternate from outside to inside and from inside to outside, since both places are sacred, and for both,",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "closing: one who enters impure is liable to karet.' Then opens 'requires immersion': between one service and the next, as he derives",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "closing: further on in this chapter (32a); and this one who comes from his home to the courtyard, which is from the mundane to the sacred, etc.",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "Opens 'this is a mere formality of immersion': there is no Torah obligation here, but rather to establish a form and to hold onto",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l33"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "continuing: the name of immersion, so that it come to mind that immersion is only for the impure, and so that he take to heart",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l33"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "continuing: whether there is impurity upon him, and remember an old impurity he may have and forgotten, and separate himself",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l33"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "closing: from entering the courtyard that day, until his purification is complete after the immersion, and not serve that day before then.",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l33"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "Opens 'regarding the profanation of' -",
-      "linkedGemaraLineIds": [
-        "yoma-030a-l35"
-      ]
+     "id": "yoma-030a-l08",
+     "type": "ruling",
+     "label": "Hand-washing visibility rule",
+     "text": "Rav Chisda: one should wash hands before a meal only where others can see, to avoid the appearance of unusual piety.",
+     "sourceRefs": [
+      "Yoma.30a.4",
+      "Yoma.30a.5"
+     ]
     }
-  ],
-  "sugyot": [
+   ],
+   "topicTags": [
+    "Temple hygiene",
+    "urine drops",
+    "excrement",
+    "hand washing",
+    "Rav Pappa",
+    "Rav Chisda",
+    "Temple purity",
+    "public appearance"
+   ],
+   "concepts": {
+    "halachic": [
+     "hygiene as mitzva in Temple context",
+     "excrement location distinction for prayer",
+     "hand-washing visibility norm"
+    ],
+    "theological": [
+     "dignity in divine service",
+     "physical purity as spiritual preparation"
+    ],
+    "narrative": [
+     "Rav Pappa's hygiene case",
+     "Rav Chisda's public-washing rule"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Temple purity standards",
+    "prayer/service prohibitions with bodily functions"
+   ],
+   "misconceptions": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-030a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 18
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.30a.1"
-        },
-        {
-          "vilnaLine": 4,
-          "sefariaRef": "Yoma.30a.2"
-        },
-        {
-          "vilnaLine": 8,
-          "sefariaRef": "Yoma.30a.3"
-        },
-        {
-          "vilnaLine": 13,
-          "sefariaRef": "Yoma.30a.4"
-        },
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.30a.5"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.30a.1",
-        "Yoma.30a.2",
-        "Yoma.30a.3",
-        "Yoma.30a.4",
-        "Yoma.30a.5"
-      ],
-      "display": {
-        "title": "Visible matters: Temple hygiene from urine drops to public hand-washing",
-        "whats": "Temple hygiene requirements: brushing urine drops is a mitzva. Rav Pappa's case about excrement. A baraita about washing hands before meals and where to do so publicly.",
-        "hint": "Physical purity and hygiene are taken seriously in the Temple context - even minor hygiene matters have halachic dimensions."
-      },
-      "learning": {
-        "learnerQuestion": "Why do minor hygiene matters like urine drops on a priest's legs, or where to wash hands before a meal, get treated as halachic concerns at all?",
-        "coreTension": "Temple purity discourse might seem to concern only major ritual impurity, but the Gemara extends it to minor physical hygiene: it is a mitzva for a priest to brush away urine drops so they cannot be seen, and Rav Pappa works out how this concern applies differently when residue sits on the skin rather than in its natural location.",
-        "coreMove": "From there the Gemara pivots to a parallel concern outside the Temple: a baraita on washing hands before a meal, where Rav Chisda rules that the washing should be done where others can see it, so the practice isn't mistaken for an idiosyncratic stringency.",
-        "resolution": "The practical rulings stand as stated: a priest brushes away visible urine residue, and a person washes hands before a meal in view of others rather than hidden away.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Dignity in service runs from major ritual purity down to small visible details - what is seen reflects what is expected, whether in the Temple courtyard or at an ordinary meal."
-        },
-        "ahaMoment": "Temple purity isn't only about ritual impurity (tum'ah) - it includes physical hygiene standards that reflect the dignity of divine service.",
-        "learningBlocker": "The sugya does not say whether these hygiene requirements are halachically obligatory in a way that would disqualify service if violated, or whether they are standards of dignity that are socially expected but not legally enforceable.",
-        "memoryAnchor": "Temple hygiene rule: visible = not permitted. Brush it, clean it, wash where others see. Dignity in divine service runs from major impurity down to minor hygiene."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-030a-l01",
-          "type": "ruling",
-          "label": "Brushing urine drops: mitzva",
-          "text": "It is a mitzva for a priest to brush residual urine drops from his legs so they cannot be seen.",
-          "sourceRefs": [
-            "Yoma.30a.1"
-          ]
-        },
-        {
-          "id": "yoma-030a-l03",
-          "type": "case",
-          "label": "Rav Pappa: excrement location distinction",
-          "text": "Rav Pappa discusses a case where excrement is on the flesh (distinct from its natural location) and how the prayer/service prohibition applies differently.",
-          "sourceRefs": [
-            "Yoma.30a.2",
-            "Yoma.30a.3"
-          ]
-        },
-        {
-          "id": "yoma-030a-l08",
-          "type": "ruling",
-          "label": "Hand-washing visibility rule",
-          "text": "Rav Chisda: one should wash hands before a meal only where others can see, to avoid the appearance of unusual piety.",
-          "sourceRefs": [
-            "Yoma.30a.4",
-            "Yoma.30a.5"
-          ]
-        }
-      ],
-      "topicTags": [
-        "Temple hygiene",
-        "urine drops",
-        "excrement",
-        "hand washing",
-        "Rav Pappa",
-        "Rav Chisda",
-        "Temple purity",
-        "public appearance"
-      ],
-      "concepts": {
-        "halachic": [
-          "hygiene as mitzva in Temple context",
-          "excrement location distinction for prayer",
-          "hand-washing visibility norm"
-        ],
-        "theological": [
-          "dignity in divine service",
-          "physical purity as spiritual preparation"
-        ],
-        "narrative": [
-          "Rav Pappa's hygiene case",
-          "Rav Chisda's public-washing rule"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Temple purity standards",
-        "prayer/service prohibitions with bodily functions"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Temple purity rules only concern major ritual impurity.",
-          "correction": "Even minor hygiene matters like urine drops on legs have halachic significance in the Temple context."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-029b-s01",
-        "yoma-030a-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "Hygiene levels in Temple service",
-          "description": "Major ritual impurity (requires full purification) vs minor hygiene (brushing, washing) both matter in Temple context"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What hygiene practice is considered a mitzva for Temple priests regarding their legs?",
-          "answer": "Brushing residual drops of urine from the legs so they are not visible - maintaining physical cleanliness as part of Temple service dignity."
-        },
-        {
-          "question": "Why does Rav Chisda say one should wash hands before meals only where others can see?",
-          "answer": "To avoid appearing excessively pious - washing in a hidden place might suggest one considers oneself more scrupulous than others."
-        }
-      ],
-      "finalRuling": "Hygiene standards for Temple priests include brushing urine residue. Hand-washing before meals should be done where visible.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "Temple purity rules only concern major ritual impurity.",
+     "correction": "Even minor hygiene matters like urine drops on legs have halachic significance in the Temple context."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-029b-s01",
+    "yoma-030a-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "Hygiene levels in Temple service",
+     "description": "Major ritual impurity (requires full purification) vs minor hygiene (brushing, washing) both matter in Temple context"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What hygiene practice is considered a mitzva for Temple priests regarding their legs?",
+     "answer": "Brushing residual drops of urine from the legs so they are not visible - maintaining physical cleanliness as part of Temple service dignity."
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-030a-s02",
-      "lineRange": {
-        "startVilnaLine": 22,
-        "endVilnaLine": 35
-      },
-      "lines": [
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.30a.6"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.30a.7"
-        },
-        {
-          "vilnaLine": 33,
-          "sefariaRef": "Yoma.30a.8"
-        },
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.30a.9"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.30a.6",
-        "Yoma.30a.7",
-        "Yoma.30a.8",
-        "Yoma.30a.9"
-      ],
-      "display": {
-        "title": "Already pure, still immerses: Ben Zoma and Rabbi Yehuda on the reminder immersion",
-        "whats": "Mishna: any priest entering the Temple courtyard for service must immerse even if already pure. Ben Zoma says this is a biblical requirement; Rabbi Yehuda calls it a rabbinic precaution to reinforce awareness of purity.",
-        "hint": "The immersion before Temple service is not about purification (since the priest is already pure) but about preparation and intentionality - the disagreement is whether this is biblical or rabbinic in source."
-      },
-      "learning": {
-        "learnerQuestion": "If a priest is already ritually pure, why does the Mishna still require him to immerse before Temple service, and is that requirement biblical or rabbinic?",
-        "coreTension": "The Mishna states flatly that no one enters the Temple courtyard for service without immersing, even if already pure - a requirement that cannot be purifying anyone, since the entrant is pure to begin with. Ben Zoma derives the requirement from the verse about the High Priest's Yom Kippur immersion, treating it as biblical and applying broadly to all Temple-service immersions; Rabbi Yehuda holds instead that it is only a rabbinic precaution, a 'reminder immersion' meant to make a priest consciously aware of his purity status before serving.",
-        "coreMove": "Having laid out the two positions, the Gemara asks the natural follow-up: what practical halachic difference actually flows from calling the immersion biblical versus rabbinic, since either way every priest currently immerses before service?",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "An immersion can function as ritual preparation and intentionality rather than purification - Ben Zoma and Rabbi Yehuda agree on the practice but disagree on whether it is a biblical mandate or a rabbinic reminder."
-        },
-        "ahaMoment": "The immersion isn't a purification - it's a consciousness-raising act. Even a pure priest must go through a physical act that says 'I am entering the realm of the sacred.' Ben Zoma finds a biblical basis; R. Yehuda says it's good practice.",
-        "learningBlocker": "The Gemara raises the practical-difference question between Ben Zoma's and Rabbi Yehuda's positions but does not answer it within this sugya - the resolution is deferred to the following daf.",
-        "memoryAnchor": "Immersion before Temple = not about purity, about intentionality. Like putting on a uniform - you're already qualified, but the ritual act marks the transition."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-030a-l22",
-          "type": "ruling",
-          "label": "Mishna: immerse before Temple service",
-          "text": "No one enters the Temple courtyard for service without immersing, even if already pure.",
-          "sourceRefs": [
-            "Yoma.30a.6"
-          ]
-        },
-        {
-          "id": "yoma-030a-l24",
-          "type": "question",
-          "label": "Ben Zoma's derivation",
-          "text": "Ben Zoma: how do we know pure people must immerse? He derives it from the High Priest's immersion verse - all Temple immersions share the same character.",
-          "sourceRefs": [
-            "Yoma.30a.7"
-          ]
-        },
-        {
-          "id": "yoma-030a-l28",
-          "type": "claim",
-          "label": "R. Yehuda: rabbinic reminder immersion",
-          "text": "Rabbi Yehuda disagrees: this is not a biblical obligation but a rabbinic precaution - an 'ancillary immersion' to remind priests that they are already pure.",
-          "sourceRefs": [
-            "Yoma.30a.8"
-          ]
-        },
-        {
-          "id": "yoma-030a-l35",
-          "type": "question",
-          "label": "Practical difference between their views",
-          "text": "The Gemara asks: what practical halachic difference follows from whether the immersion is biblical (Ben Zoma) or rabbinic (R. Yehuda)?",
-          "sourceRefs": [
-            "Yoma.30a.9"
-          ]
-        }
-      ],
-      "topicTags": [
-        "Temple immersion",
-        "tevila",
-        "Ben Zoma",
-        "R. Yehuda",
-        "biblical vs rabbinic",
-        "purity preparation",
-        "Temple entry requirement"
-      ],
-      "concepts": {
-        "halachic": [
-          "immersion before Temple service",
-          "biblical vs rabbinic immersion obligation",
-          "tevila l'zecher (reminder immersion)"
-        ],
-        "theological": [
-          "intentionality in Temple service",
-          "purity as mental-spiritual state, not just physical"
-        ],
-        "narrative": [
-          "Ben Zoma's biblical derivation",
-          "R. Yehuda's rabbinic alternative"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "tevila (immersion)",
-        "mikveh",
-        "Temple entry requirements",
-        "High Priest's Yom Kippur immersions"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The immersion before Temple service purifies the priest.",
-          "correction": "The priest is already pure; the immersion is about preparation and intentionality, not purification."
-        },
-        {
-          "misconception": "This immersion is clearly biblical according to all opinions.",
-          "correction": "Ben Zoma and Rabbi Yehuda dispute whether it is biblical or only rabbinic."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-030b-s01",
-        "yoma-031a-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "Biblical vs rabbinic immersion",
-          "description": "Ben Zoma: biblical source in High Priest verse. R. Yehuda: rabbinic reminder to reinforce purity consciousness."
-        },
-        {
-          "type": "sequence",
-          "label": "Temple entry process",
-          "description": "Priest (already pure) immerses - dries - dresses in sacred garments - sanctifies hands and feet - enters for service"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "According to Rabbi Yehuda, why does a ritually pure priest need to immerse before Temple service?",
-          "answer": "It is a rabbinic precaution - a 'reminder immersion' to ensure the priest is consciously aware of his pure status before entering divine service."
-        },
-        {
-          "question": "What is Ben Zoma's position on the pre-service immersion requirement?",
-          "answer": "Ben Zoma holds it is biblically mandated, deriving it from the verse about the High Priest's immersion which applies to all Temple service immersions."
-        }
-      ],
-      "finalRuling": "All agree that immersion is required before Temple service even for a pure priest. Ben Zoma says it is biblical; R. Yehuda says it is rabbinic. Practical implications are explored on 30b.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "question": "Why does Rav Chisda say one should wash hands before meals only where others can see?",
+     "answer": "To avoid appearing excessively pious - washing in a hidden place might suggest one considers oneself more scrupulous than others."
     }
-  ]
+   ],
+   "finalRuling": "Hygiene standards for Temple priests include brushing urine residue. Hand-washing before meals should be done where visible.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-030a-s02",
+   "lineRange": {
+    "startVilnaLine": 22,
+    "endVilnaLine": 35
+   },
+   "lines": [
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.30a.6"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.30a.7"
+    },
+    {
+     "vilnaLine": 33,
+     "sefariaRef": "Yoma.30a.8"
+    },
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.30a.9"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.30a.6",
+    "Yoma.30a.7",
+    "Yoma.30a.8",
+    "Yoma.30a.9"
+   ],
+   "display": {
+    "title": "Already pure, still immerses: Ben Zoma and Rabbi Yehuda on the reminder immersion",
+    "whats": "Mishna: any priest entering the Temple courtyard for service must immerse even if already pure. Ben Zoma says this is a biblical requirement; Rabbi Yehuda calls it a rabbinic precaution to reinforce awareness of purity.",
+    "hint": "The immersion before Temple service is not about purification (since the priest is already pure) but about preparation and intentionality - the disagreement is whether this is biblical or rabbinic in source."
+   },
+   "learning": {
+    "learnerQuestion": "If a priest is already ritually pure, why does the Mishna still require him to immerse before Temple service, and is that requirement biblical or rabbinic?",
+    "coreTension": "The Mishna states flatly that no one enters the Temple courtyard for service without immersing, even if already pure - a requirement that cannot be purifying anyone, since the entrant is pure to begin with. Ben Zoma derives the requirement from the verse about the High Priest's Yom Kippur immersion, treating it as biblical and applying broadly to all Temple-service immersions; Rabbi Yehuda holds instead that it is only a rabbinic precaution, a 'reminder immersion' meant to make a priest consciously aware of his purity status before serving.",
+    "coreMove": "Having laid out the two positions, the Gemara asks the natural follow-up: what practical halachic difference actually flows from calling the immersion biblical versus rabbinic, since either way every priest currently immerses before service?",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "An immersion can function as ritual preparation and intentionality rather than purification - Ben Zoma and Rabbi Yehuda agree on the practice but disagree on whether it is a biblical mandate or a rabbinic reminder."
+    },
+    "ahaMoment": "The immersion isn't a purification - it's a consciousness-raising act. Even a pure priest must go through a physical act that says 'I am entering the realm of the sacred.' Ben Zoma finds a biblical basis; R. Yehuda says it's good practice.",
+    "learningBlocker": "The Gemara raises the practical-difference question between Ben Zoma's and Rabbi Yehuda's positions but does not answer it within this sugya - the resolution is deferred to the following daf.",
+    "memoryAnchor": "Immersion before Temple = not about purity, about intentionality. Like putting on a uniform - you're already qualified, but the ritual act marks the transition."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-030a-l22",
+     "type": "ruling",
+     "label": "Mishna: immerse before Temple service",
+     "text": "No one enters the Temple courtyard for service without immersing, even if already pure.",
+     "sourceRefs": [
+      "Yoma.30a.6"
+     ]
+    },
+    {
+     "id": "yoma-030a-l24",
+     "type": "question",
+     "label": "Ben Zoma's derivation",
+     "text": "Ben Zoma: how do we know pure people must immerse? He derives it from the High Priest's immersion verse - all Temple immersions share the same character.",
+     "sourceRefs": [
+      "Yoma.30a.7"
+     ]
+    },
+    {
+     "id": "yoma-030a-l28",
+     "type": "claim",
+     "label": "R. Yehuda: rabbinic reminder immersion",
+     "text": "Rabbi Yehuda disagrees: this is not a biblical obligation but a rabbinic precaution - an 'ancillary immersion' to remind priests that they are already pure.",
+     "sourceRefs": [
+      "Yoma.30a.8"
+     ]
+    },
+    {
+     "id": "yoma-030a-l35",
+     "type": "question",
+     "label": "Practical difference between their views",
+     "text": "The Gemara asks: what practical halachic difference follows from whether the immersion is biblical (Ben Zoma) or rabbinic (R. Yehuda)?",
+     "sourceRefs": [
+      "Yoma.30a.9"
+     ]
+    }
+   ],
+   "topicTags": [
+    "Temple immersion",
+    "tevila",
+    "Ben Zoma",
+    "R. Yehuda",
+    "biblical vs rabbinic",
+    "purity preparation",
+    "Temple entry requirement"
+   ],
+   "concepts": {
+    "halachic": [
+     "immersion before Temple service",
+     "biblical vs rabbinic immersion obligation",
+     "tevila l'zecher (reminder immersion)"
+    ],
+    "theological": [
+     "intentionality in Temple service",
+     "purity as mental-spiritual state, not just physical"
+    ],
+    "narrative": [
+     "Ben Zoma's biblical derivation",
+     "R. Yehuda's rabbinic alternative"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "tevila (immersion)",
+    "mikveh",
+    "Temple entry requirements",
+    "High Priest's Yom Kippur immersions"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The immersion before Temple service purifies the priest.",
+     "correction": "The priest is already pure; the immersion is about preparation and intentionality, not purification."
+    },
+    {
+     "misconception": "This immersion is clearly biblical according to all opinions.",
+     "correction": "Ben Zoma and Rabbi Yehuda dispute whether it is biblical or only rabbinic."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-030b-s01",
+    "yoma-031a-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "Biblical vs rabbinic immersion",
+     "description": "Ben Zoma: biblical source in High Priest verse. R. Yehuda: rabbinic reminder to reinforce purity consciousness."
+    },
+    {
+     "type": "sequence",
+     "label": "Temple entry process",
+     "description": "Priest (already pure) immerses - dries - dresses in sacred garments - sanctifies hands and feet - enters for service"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "According to Rabbi Yehuda, why does a ritually pure priest need to immerse before Temple service?",
+     "answer": "It is a rabbinic precaution - a 'reminder immersion' to ensure the priest is consciously aware of his pure status before entering divine service."
+    },
+    {
+     "question": "What is Ben Zoma's position on the pre-service immersion requirement?",
+     "answer": "Ben Zoma holds it is biblically mandated, deriving it from the verse about the High Priest's immersion which applies to all Temple service immersions."
+    }
+   ],
+   "finalRuling": "All agree that immersion is required before Temple service even for a pure priest. Ben Zoma says it is biblical; R. Yehuda says it is rabbinic. Practical implications are explored on 30b.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "review": "reviewed"
+  }
+ ]
 }
