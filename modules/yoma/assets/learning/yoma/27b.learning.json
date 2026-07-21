@@ -1,625 +1,633 @@
 {
-  "daf": "27b",
-  "canonicalRef": "Yoma 27b",
-  "summary": "A brief transitional passage, then the Gemara continues: Rabbi Yochanan rules that a non-priest who sets up the wood arrangement on the altar (sidur etzim) is liable for the death penalty. Rabbi Zeira objects: is there any Temple service valid when performed by a non-priest but also a death-penalty offense? The discussion refines Rabbi Yochanan's ruling and establishes the precise conditions under which wood-arrangement is considered a complete service requiring priestly status.",
-  "review": {
-    "status": "enriched",
-    "version": "10.63"
+ "daf": "27b",
+ "canonicalRef": "Yoma 27b",
+ "summary": "A brief transitional passage, then the Gemara continues: Rabbi Yochanan rules that a non-priest who sets up the wood arrangement on the altar (sidur etzim) is liable for the death penalty. Rabbi Zeira objects: is there any Temple service valid when performed by a non-priest but also a death-penalty offense? The discussion refines Rabbi Yochanan's ruling and establishes the precise conditions under which wood-arrangement is considered a complete service requiring priestly status.",
+ "review": {
+  "status": "enriched",
+  "version": "10.63"
+ },
+ "glossary": [
+  {
+   "he": "חַיָּב מִיתָה",
+   "translit": "chayav mita",
+   "en": "Liable to death penalty; a non-priest who performs certain Temple services is liable to death at the hand of Heaven."
   },
-  "glossary": [
+  {
+   "he": "עֲבוֹדָה תְּמִימָה",
+   "translit": "avodah temimah",
+   "en": "Complete service; a Temple task that is a full, standalone act of divine service requiring priesthood."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "You must say: this is the lamb - the daily morning-offering: the verse obligated you regarding it to a fresh arrangement of wood",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "every morning, and a fire shall burn continually on the altar regarding it - and this kindling is the arrangement",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "itself, as is taught further on in chapter three: and the priest shall kindle wood upon it in the morning,",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "and shall arrange the burnt-offering upon it - and the master said, the burnt-offering is offered first; but the other offerings",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "are not bound to a fresh arrangement, and this wood",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "and fire written regarding the young bull are not meant to require",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "their own separate arrangement, but rather because it had not yet",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "stated the passage of the wood-pile's arrangement,",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "written in 'command Aaron,' and here it began",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "to speak of the needs of the burnt-offering, and it needed to say",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "how it would be provided - it wrote for us here, 'and they shall place fire",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "and arrange wood,' which refers to the arranging of the morning wood-pile",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "itself. Liable - to death. He dismantles it - the non-priest",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l01a",
+    "yoma-027b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "does not need a priest to undo its arrangement, but rather",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "the non-priest himself. But what of the limbs and fats",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l01b",
+    "yoma-027b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "- the burning of the fats, which lasts the whole night,",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "and we equated it above (Yoma 24a) with the four services",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "for which a non-priest is liable to death. But what of",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l06",
+    "yoma-027b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "the removal of the ashes - for priesthood is written regarding it. But",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "it is difficult - is there a service that is valid",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "at night yet invalid by a non-priest. And it is a daytime service",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l07",
+    "yoma-027b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "- for it is written, 'and the priest shall kindle upon it",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "wood every morning.' But if so",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "- since it is so significant, being a daytime service",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "for which a non-priest is liable. Does this mean that a daytime",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l10",
+    "yoma-027b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "service requires a lottery - since Rava challenged, 'but if",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "so it would require a lottery' - by inference this",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "service does require it. But did we not learn",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l16",
+    "yoma-027b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "that the arranging of two logs is a daytime service.",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "If the time for slaughtering has arrived - if",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "the east had lit up and it was time to slaughter the daily-offerings,",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "for slaughtering is invalid at night, as it is written",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "(Leviticus 19), 'on the day of your sacrifice.' That which has no",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l23",
+    "yoma-027b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "remedy - if it was slaughtered at night. That which has",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "a remedy - if he arranged them at night, he dismantles them",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "and rearranges them by day; therefore they did not trouble",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "them to go up to the roof and see if it had arrived, since that",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "trouble they did not impose, except that once",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "the light of the moon rose and they thought the east had lit up,",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "and they slaughtered the daily-offering, as is taught in chapter three",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "(28a); but arranging the logs takes place on the floor of the Courtyard once the east has lit up,",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "and if he erred by the light of the moon it does not matter, since there is a remedy for the matter. One after which",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l26",
+    "yoma-027b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "another service follows - the arranging of the two logs is such a service, and it is invalid by a non-priest, to the point of liability to death.",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "But what of - the daf ends mid-phrase here; the comment (opening a new challenge reaching back to the limbs-and-fats and ashes-removal precedents) continues on 28a.",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l28"
+   ]
+  }
+ ],
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-027b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 1
+   },
+   "lines": [
     {
-      "he": "חַיָּב מִיתָה",
-      "translit": "chayav mita",
-      "en": "Liable to death penalty; a non-priest who performs certain Temple services is liable to death at the hand of Heaven."
-    },
-    {
-      "he": "עֲבוֹדָה תְּמִימָה",
-      "translit": "avodah temimah",
-      "en": "Complete service; a Temple task that is a full, standalone act of divine service requiring priesthood."
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.27b.1"
     }
-  ],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "en": "continuing: 'you must say this is the lamb': the daily morning-offering, the verse obligated you regarding it to a fresh arrangement of wood",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l01a"
-      ]
+   ],
+   "sefariaRefs": [
+    "Yoma.27b.1"
+   ],
+   "display": {
+    "title": "A one-line bridge: from the resolved young-bull difficulty to R. Yochanan's new ruling",
+    "whats": "Brief transitional passage.",
+    "hint": "Connects the previous analysis to R. Yochanan's new ruling."
+   },
+   "learning": {
+    "learnerQuestion": "What is this single transitional line doing between the resolved young-bull difficulty on the previous page and R. Yochanan's new ruling about non-priests and wood arrangement?",
+    "coreTension": "The Gemara could move straight from Rav Hamnuna's now-resolved difficulty into R. Yochanan's new statement, but instead inserts a brief connector first.",
+    "coreMove": "This line closes the verse-by-verse derivation from 27a so that R. Yochanan's ruling on non-priest wood arrangement, cited in R. Asi's name, opens cleanly as its own topic.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Not every line in the Gemara carries independent content - some exist purely to mark a clean break between one finished discussion and the next, and a learner should not search this line for substantive teaching it does not contain."
     },
+    "ahaMoment": "The Gemara signals a new topic is beginning by first finishing the old one, even in a single line.",
+    "learningBlocker": "There is no substantive content to extract from this line beyond its structural role - it should not be read as adding anything to either the preceding verse-derivation or the coming ruling.",
+    "memoryAnchor": "A paragraph break: closing the previous page's analysis before opening R. Yochanan's new ruling."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 2,
-      "en": "continuing: every morning, and 'a fire shall burn on the altar' regarding it - and this kindling is the arranging",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l01a"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "continuing: of the arrangement, as is taught further on in chapter three: 'and the priest shall kindle wood upon it in the morning,",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l01a"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "continuing: and shall arrange the burnt-offering upon it' - and the master said, the burnt-offering ascends first; but the other offerings",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l01a"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "continuing: are not bound to a fresh arrangement, and those wood",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l01a"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "continuing: and fire written regarding the young bull are not to require",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l01a"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "continuing: its own arrangements, but rather because it had not yet",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l01a"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: stated the passage of the arrangement of the wood-pile,",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l01a"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "continuing: written in 'command Aaron,' and here it began",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l01a"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "continuing: to speak of the needs of the burnt-offering, and it needed to say",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l01a"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: how it shall be given - it wrote for us here, 'and they shall place fire",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l01a"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: and arrange wood,' which refers to the arranging of the morning wood-pile",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l01a"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "closing: itself.' Then opens 'liable': to death.' Then opens 'dismantles it': the non-priest",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l01b"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "continuing: does not need a priest to undo its arrangement, but rather",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l01b"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "closing: the non-priest himself.' Then opens 'but what of the limbs and fats' -",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l06"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: the burning of the fats, which lasts the whole night,",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l06"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: and we equated it above (24a) with the four services",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l06"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "closing: for which a non-priest is liable to death.' Then opens 'but what of",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l06"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: terumat hadeshen' - since priesthood is written regarding it.' Then opens 'but",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "continuing: it is difficult': is there a service that is valid",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "closing: at night yet invalid by a non-priest.' Then opens 'and it is a daytime service",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: as it is written, 'and the priest shall kindle upon it",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "closing: wood every morning.' Then opens 'but if so' -",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: since it is so significant, being a daytime service",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "closing: for which a non-priest is liable.' Then opens 'does this mean that a daytime",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: service requires a lottery': since Rava challenged, 'but if",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: so it would require a lottery' - by inference this",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "closing: service does require it.' Then opens 'but did we not learn' -",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "closing: that the arranging of two logs is a daytime service.",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "Opens 'if the time for slaughtering has arrived': if",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: the east had lit up and it was time to slaughter the daily-offerings,",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: for slaughtering is invalid at night, as it is written",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "closing: (Leviticus 19), 'on the day of your sacrifice.'' Then opens 'that which has no'",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "continuing: remedy': if it was slaughtered at night.' Then opens 'that which has",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: a remedy': if he arranged them at night, he dismantles them",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "continuing: and rearranges them in the day; therefore they did not trouble",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "continuing: to go up to the roof and see if it had arrived, since that",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: trouble they did not impose, except that once",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "continuing: the light of the moon rose and they thought the east had lit up,",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: and they slaughtered the daily-offering, as is taught in chapter three",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "continuing: (28a); but arranging the logs, its arrangement takes place on the floor of the Courtyard once the east has lit up,",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "closing: and if he erred by the light of the moon it does not matter, since there is a remedy for the matter.' Then opens 'one after which",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l26"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "continuing: another service follows': the arranging of the two logs, and it is invalid by a non-priest to the point of liability to death.",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Opens 'but what of' -",
-      "linkedGemaraLineIds": [
-        "yoma-027b-l28"
-      ]
+     "id": "yoma-027b-l01",
+     "type": "premise",
+     "label": "Transition",
+     "text": "Brief passage connecting the Rav Hamnuna difficulty to R. Yochanan's new ruling.",
+     "sourceRefs": [
+      "Yoma.27b.1"
+     ]
     }
-  ],
-  "sugyot": [
+   ],
+   "topicTags": [
+    "transition",
+    "Temple service"
+   ],
+   "concepts": {
+    "halachic": [],
+    "theological": [],
+    "narrative": [
+     "transitional passage"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "previous discussion about non-priest services"
+   ],
+   "misconceptions": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-027b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 1
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.27b.1"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.27b.1"
-      ],
-      "display": {
-        "title": "A one-line bridge: from the resolved young-bull difficulty to R. Yochanan's new ruling",
-        "whats": "Brief transitional passage.",
-        "hint": "Connects the previous analysis to R. Yochanan's new ruling."
-      },
-      "learning": {
-        "learnerQuestion": "What is this single transitional line doing between the resolved young-bull difficulty on the previous page and R. Yochanan's new ruling about non-priests and wood arrangement?",
-        "coreTension": "The Gemara could move straight from Rav Hamnuna's now-resolved difficulty into R. Yochanan's new statement, but instead inserts a brief connector first.",
-        "coreMove": "This line closes the verse-by-verse derivation from 27a so that R. Yochanan's ruling on non-priest wood arrangement, cited in R. Asi's name, opens cleanly as its own topic.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Not every line in the Gemara carries independent content - some exist purely to mark a clean break between one finished discussion and the next, and a learner should not search this line for substantive teaching it does not contain."
-        },
-        "ahaMoment": "The Gemara signals a new topic is beginning by first finishing the old one, even in a single line.",
-        "learningBlocker": "There is no substantive content to extract from this line beyond its structural role - it should not be read as adding anything to either the preceding verse-derivation or the coming ruling.",
-        "memoryAnchor": "A paragraph break: closing the previous page's analysis before opening R. Yochanan's new ruling."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-027b-l01",
-          "type": "premise",
-          "label": "Transition",
-          "text": "Brief passage connecting the Rav Hamnuna difficulty to R. Yochanan's new ruling.",
-          "sourceRefs": [
-            "Yoma.27b.1"
-          ]
-        }
-      ],
-      "topicTags": [
-        "transition",
-        "Temple service"
-      ],
-      "concepts": {
-        "halachic": [],
-        "theological": [],
-        "narrative": [
-          "transitional passage"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "previous discussion about non-priest services"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "This is a major independent passage with its own teaching.",
-          "correction": "It is only a transitional connector closing the previous discussion before R. Yochanan's new ruling begins."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-027a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "text",
-          "label": "Transition",
-          "description": "Brief connector"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What is the brief passage at the start of 27b?",
-          "answer": "A transitional connector from the previous discussion about non-priest services to R. Yochanan's new ruling."
-        }
-      ],
-      "finalRuling": "Transitional.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "This is a major independent passage with its own teaching.",
+     "correction": "It is only a transitional connector closing the previous discussion before R. Yochanan's new ruling begins."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-027a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "text",
+     "label": "Transition",
+     "description": "Brief connector"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What is the brief passage at the start of 27b?",
+     "answer": "A transitional connector from the previous discussion about non-priest services to R. Yochanan's new ruling."
+    }
+   ],
+   "finalRuling": "Transitional.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-027b-s02",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 28
+   },
+   "lines": [
+    {
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.27b.2"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-027b-s02",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 28
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.27b.2"
-        },
-        {
-          "vilnaLine": 4,
-          "sefariaRef": "Yoma.27b.3"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.27b.4"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.27b.5"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.27b.6"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.27b.7"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.27b.8"
-        },
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.27b.9"
-        },
-        {
-          "vilnaLine": 26,
-          "sefariaRef": "Yoma.27b.10"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.27b.11"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.27b.2",
-        "Yoma.27b.3",
-        "Yoma.27b.4",
-        "Yoma.27b.5",
-        "Yoma.27b.6",
-        "Yoma.27b.7",
-        "Yoma.27b.8",
-        "Yoma.27b.9",
-        "Yoma.27b.10",
-        "Yoma.27b.11"
-      ],
-      "display": {
-        "title": "Valid but punishable: R. Zeira's paradox and R. Yochanan's revised wood-arrangement ruling",
-        "whats": "R. Yochanan rules that a non-priest who sets up the wood arrangement on the altar incurs the death penalty. R. Zeira objects: every service incurring the death penalty must also be invalid when done by a non-priest. R. Yochanan's ruling is revised multiple times to account for these objections.",
-        "hint": "The criterion is whether wood-arrangement is a 'complete service' (avodah temimah). If it is, a non-priest doing it both transgresses and renders the service invalid."
-      },
-      "learning": {
-        "learnerQuestion": "If a non-priest who arranges the wood on the altar is liable to death, how can the wood arrangement also remain valid - aren't 'liable to death' and 'service stays valid' supposed to be mutually exclusive?",
-        "coreTension": "R. Zeira objects that R. Yochanan's ruling seems to describe an impossible combination: every other Temple service that incurs the death penalty for a non-priest also disqualifies the offering when he performs it, yet R. Yochanan says the non-priest is liable to death for wood arrangement without saying the arrangement itself is invalid.",
-        "coreMove": "Through several rounds of objection and revision, the Gemara narrows R. Yochanan's ruling: it first confirms that a non-priest can transgress and be punished while the wood arrangement itself remains valid, so the two categories are not actually mutually exclusive; further objections then require that the service be both a daytime service and a 'complete service' (avodah temimah) before the death penalty applies. Mar Zutra closes the daf by asking exactly what the now several-times-revised ruling actually covers.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "A ruling that initially looks like a flat contradiction - valid yet punishable - survives because transgressing a prohibition and invalidating an offering are not the same axis; whether the two align depends on whether the act counts as a 'complete service.'"
-        },
-        "ahaMoment": "Liable to death and the offering remaining valid are not mutually exclusive after all - a non-priest can transgress a prohibition and be punished for it without that transgression by itself disqualifying the service, as long as the act is not classified as a full, independent 'complete service.'",
-        "learningBlocker": "Mar Zutra's question, exactly what R. Yochanan's now several-times-revised ruling covers, is left open at the end of 27b; the daf does not pin down whether the death penalty applies to wood arrangement broadly or to some narrower piece of it - that precision is only supplied on the following daf, where Rava identifies the two-log placement specifically as the 'complete service' in question.",
-        "memoryAnchor": "Death penalty without invalidation: a non-priest can be punished for touching the altar fire without his act voiding the offering - unless that act counts as a full, independent service."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-027b-l02",
-          "type": "ruling",
-          "label": "R. Yochanan: non-priest wood arranger = death",
-          "text": "R. Asi citing R. Yochanan: a non-priest who sets up the wood arrangement on the altar is liable to death.",
-          "sourceRefs": [
-            "Yoma.27b.2"
-          ]
-        },
-        {
-          "id": "yoma-027b-l03",
-          "type": "objection",
-          "label": "R. Zeira: valid non-priest service cannot also be punishable",
-          "text": "R. Zeira: is there any service that is valid when performed by a non-priest but also punishable? These categories seem contradictory.",
-          "sourceRefs": [
-            "Yoma.27b.3"
-          ]
-        },
-        {
-          "id": "yoma-027b-l05",
-          "type": "question",
-          "label": "Is there no such case?",
-          "text": "The Gemara wonders: is there truly no Temple service that is valid by a non-priest but still punishable?",
-          "sourceRefs": [
-            "Yoma.27b.4"
-          ]
-        },
-        {
-          "id": "yoma-027b-l11",
-          "type": "resolution",
-          "label": "Revised ruling: non-priest transgresses but service valid",
-          "text": "Revision of R. Yochanan's position: the wood arrangement is valid even if done by a non-priest (the service is not disqualified), but the non-priest has transgressed.",
-          "sourceRefs": [
-            "Yoma.27b.6"
-          ]
-        },
-        {
-          "id": "yoma-027b-l14",
-          "type": "objection",
-          "label": "Further difficulty: daytime + complete service",
-          "text": "Additional objections: the ruling must specify that this is a daytime service AND a complete service before the death penalty applies.",
-          "sourceRefs": [
-            "Yoma.27b.7",
-            "Yoma.27b.8"
-          ]
-        },
-        {
-          "id": "yoma-027b-l24",
-          "type": "question",
-          "label": "Mar Zutra's query",
-          "text": "Mar Zutra asks what exactly R. Yochanan's ruling covers, given all the objections and revisions.",
-          "sourceRefs": [
-            "Yoma.27b.9"
-          ]
-        }
-      ],
-      "topicTags": [
-        "non-priest in Temple",
-        "death penalty",
-        "wood arrangement",
-        "complete service",
-        "R. Yochanan",
-        "R. Zeira",
-        "avodah temimah"
-      ],
-      "concepts": {
-        "halachic": [
-          "death penalty for non-priest Temple service",
-          "valid but punishable - apparent contradiction",
-          "complete service (avodah temimah)",
-          "wood arrangement priestly status"
-        ],
-        "theological": [
-          "Temple service as exclusively priestly domain"
-        ],
-        "narrative": [
-          "R. Zeira's systematic challenges",
-          "multiple rounds of revision to R. Yochanan's ruling"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "non-priest Temple service rules",
-        "death penalty for priestly service violation",
-        "wood arrangement (sidur etzim)"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Any service a non-priest performs validly, he may also do without penalty.",
-          "correction": "R. Zeira shows this assumption breaks down for wood arrangement: a non-priest can be punished for the act even though the service itself remains valid."
-        },
-        {
-          "misconception": "Wood arrangement performed by a non-priest automatically invalidates the altar service.",
-          "correction": "R. Yochanan's revised ruling holds that the arrangement may still be valid even though the non-priest has transgressed and is liable to death."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-027a-s01",
-        "yoma-028a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "Valid vs punishable service categories",
-          "description": "Three categories: (1) complete priestly service - non-priest is punished AND service is invalid; (2) non-priestly service - non-priest may do it validly; (3) the problematic middle category"
-        },
-        {
-          "type": "person",
-          "label": "Non-priest at the altar fire",
-          "description": "A non-kohen placing logs on the altar fire - does this transgress and/or invalidate the service?"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What paradox does R. Zeira identify in R. Yochanan's ruling about non-priests arranging wood?",
-          "answer": "If a service is valid when performed by a non-priest, it should not be punishable; if it is punishable, the service should be invalid. 'Valid but punishable' seems contradictory."
-        },
-        {
-          "question": "What is the revised understanding of R. Yochanan's ruling about wood arrangement?",
-          "answer": "The wood arrangement remains valid even if performed by a non-priest, but the non-priest has transgressed a prohibition - he is punishable but the service is not disqualified."
-        }
-      ],
-      "finalRuling": "Non-priest wood arrangement: the ruling and its precise conditions are debated and revised across 27b-28a. The service may be valid while the non-priest transgresses.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "vilnaLine": 4,
+     "sefariaRef": "Yoma.27b.3"
+    },
+    {
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.27b.4"
+    },
+    {
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.27b.5"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.27b.6"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.27b.7"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.27b.8"
+    },
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.27b.9"
+    },
+    {
+     "vilnaLine": 26,
+     "sefariaRef": "Yoma.27b.10"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.27b.11"
     }
-  ]
+   ],
+   "sefariaRefs": [
+    "Yoma.27b.2",
+    "Yoma.27b.3",
+    "Yoma.27b.4",
+    "Yoma.27b.5",
+    "Yoma.27b.6",
+    "Yoma.27b.7",
+    "Yoma.27b.8",
+    "Yoma.27b.9",
+    "Yoma.27b.10",
+    "Yoma.27b.11"
+   ],
+   "display": {
+    "title": "Valid but punishable: R. Zeira's paradox and R. Yochanan's revised wood-arrangement ruling",
+    "whats": "R. Yochanan rules that a non-priest who sets up the wood arrangement on the altar incurs the death penalty. R. Zeira objects: every service incurring the death penalty must also be invalid when done by a non-priest. R. Yochanan's ruling is revised multiple times to account for these objections.",
+    "hint": "The criterion is whether wood-arrangement is a 'complete service' (avodah temimah). If it is, a non-priest doing it both transgresses and renders the service invalid."
+   },
+   "learning": {
+    "learnerQuestion": "If a non-priest who arranges the wood on the altar is liable to death, how can the wood arrangement also remain valid - aren't 'liable to death' and 'service stays valid' supposed to be mutually exclusive?",
+    "coreTension": "R. Zeira objects that R. Yochanan's ruling seems to describe an impossible combination: every other Temple service that incurs the death penalty for a non-priest also disqualifies the offering when he performs it, yet R. Yochanan says the non-priest is liable to death for wood arrangement without saying the arrangement itself is invalid.",
+    "coreMove": "Through several rounds of objection and revision, the Gemara narrows R. Yochanan's ruling: it first confirms that a non-priest can transgress and be punished while the wood arrangement itself remains valid, so the two categories are not actually mutually exclusive; further objections then require that the service be both a daytime service and a 'complete service' (avodah temimah) before the death penalty applies. Mar Zutra closes the daf by asking exactly what the now several-times-revised ruling actually covers.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "A ruling that initially looks like a flat contradiction - valid yet punishable - survives because transgressing a prohibition and invalidating an offering are not the same axis; whether the two align depends on whether the act counts as a 'complete service.'"
+    },
+    "ahaMoment": "Liable to death and the offering remaining valid are not mutually exclusive after all - a non-priest can transgress a prohibition and be punished for it without that transgression by itself disqualifying the service, as long as the act is not classified as a full, independent 'complete service.'",
+    "learningBlocker": "Mar Zutra's question, exactly what R. Yochanan's now several-times-revised ruling covers, is left open at the end of 27b; the daf does not pin down whether the death penalty applies to wood arrangement broadly or to some narrower piece of it - that precision is only supplied on the following daf, where Rava identifies the two-log placement specifically as the 'complete service' in question.",
+    "memoryAnchor": "Death penalty without invalidation: a non-priest can be punished for touching the altar fire without his act voiding the offering - unless that act counts as a full, independent service."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-027b-l02",
+     "type": "ruling",
+     "label": "R. Yochanan: non-priest wood arranger = death",
+     "text": "R. Asi citing R. Yochanan: a non-priest who sets up the wood arrangement on the altar is liable to death.",
+     "sourceRefs": [
+      "Yoma.27b.2"
+     ]
+    },
+    {
+     "id": "yoma-027b-l03",
+     "type": "objection",
+     "label": "R. Zeira: valid non-priest service cannot also be punishable",
+     "text": "R. Zeira: is there any service that is valid when performed by a non-priest but also punishable? These categories seem contradictory.",
+     "sourceRefs": [
+      "Yoma.27b.3"
+     ]
+    },
+    {
+     "id": "yoma-027b-l05",
+     "type": "question",
+     "label": "Is there no such case?",
+     "text": "The Gemara wonders: is there truly no Temple service that is valid by a non-priest but still punishable?",
+     "sourceRefs": [
+      "Yoma.27b.4"
+     ]
+    },
+    {
+     "id": "yoma-027b-l11",
+     "type": "resolution",
+     "label": "Revised ruling: non-priest transgresses but service valid",
+     "text": "Revision of R. Yochanan's position: the wood arrangement is valid even if done by a non-priest (the service is not disqualified), but the non-priest has transgressed.",
+     "sourceRefs": [
+      "Yoma.27b.6"
+     ]
+    },
+    {
+     "id": "yoma-027b-l14",
+     "type": "objection",
+     "label": "Further difficulty: daytime + complete service",
+     "text": "Additional objections: the ruling must specify that this is a daytime service AND a complete service before the death penalty applies.",
+     "sourceRefs": [
+      "Yoma.27b.7",
+      "Yoma.27b.8"
+     ]
+    },
+    {
+     "id": "yoma-027b-l24",
+     "type": "question",
+     "label": "Mar Zutra's query",
+     "text": "Mar Zutra asks what exactly R. Yochanan's ruling covers, given all the objections and revisions.",
+     "sourceRefs": [
+      "Yoma.27b.9"
+     ]
+    }
+   ],
+   "topicTags": [
+    "non-priest in Temple",
+    "death penalty",
+    "wood arrangement",
+    "complete service",
+    "R. Yochanan",
+    "R. Zeira",
+    "avodah temimah"
+   ],
+   "concepts": {
+    "halachic": [
+     "death penalty for non-priest Temple service",
+     "valid but punishable - apparent contradiction",
+     "complete service (avodah temimah)",
+     "wood arrangement priestly status"
+    ],
+    "theological": [
+     "Temple service as exclusively priestly domain"
+    ],
+    "narrative": [
+     "R. Zeira's systematic challenges",
+     "multiple rounds of revision to R. Yochanan's ruling"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "non-priest Temple service rules",
+    "death penalty for priestly service violation",
+    "wood arrangement (sidur etzim)"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Any service a non-priest performs validly, he may also do without penalty.",
+     "correction": "R. Zeira shows this assumption breaks down for wood arrangement: a non-priest can be punished for the act even though the service itself remains valid."
+    },
+    {
+     "misconception": "Wood arrangement performed by a non-priest automatically invalidates the altar service.",
+     "correction": "R. Yochanan's revised ruling holds that the arrangement may still be valid even though the non-priest has transgressed and is liable to death."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-027a-s01",
+    "yoma-028a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "Valid vs punishable service categories",
+     "description": "Three categories: (1) complete priestly service - non-priest is punished AND service is invalid; (2) non-priestly service - non-priest may do it validly; (3) the problematic middle category"
+    },
+    {
+     "type": "person",
+     "label": "Non-priest at the altar fire",
+     "description": "A non-kohen placing logs on the altar fire - does this transgress and/or invalidate the service?"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What paradox does R. Zeira identify in R. Yochanan's ruling about non-priests arranging wood?",
+     "answer": "If a service is valid when performed by a non-priest, it should not be punishable; if it is punishable, the service should be invalid. 'Valid but punishable' seems contradictory."
+    },
+    {
+     "question": "What is the revised understanding of R. Yochanan's ruling about wood arrangement?",
+     "answer": "The wood arrangement remains valid even if performed by a non-priest, but the non-priest has transgressed a prohibition - he is punishable but the service is not disqualified."
+    }
+   ],
+   "finalRuling": "Non-priest wood arrangement: the ruling and its precise conditions are debated and revised across 27b-28a. The service may be valid while the non-priest transgresses.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "review": "reviewed"
+  }
+ ]
 }
