@@ -1,699 +1,709 @@
 {
-  "daf": "34a",
-  "canonicalRef": "Yoma 34a",
-  "summary": "Abaye's morning service sequence concludes with meal-offerings, the kohen gadol's daily griddle-cake, wine libations, and musaf offerings. The Gemara analyzes whether frankincense vessels precede or follow the musaf. The page then shifts to the afternoon service: what precedes what, including the afternoon incense and its relation to the limb-burning and wine libation. Rabbi Yehuda HaNasi's derivation of the afternoon tamid from the morning offering.",
-  "review": {
-    "status": "enriched",
-    "version": "10.63"
+ "daf": "34a",
+ "canonicalRef": "Yoma 34a",
+ "summary": "Abaye's morning service sequence concludes with meal-offerings, the kohen gadol's daily griddle-cake, wine libations, and musaf offerings. The Gemara analyzes whether frankincense vessels precede or follow the musaf. The page then shifts to the afternoon service: what precedes what, including the afternoon incense and its relation to the limb-burning and wine libation. Rabbi Yehuda HaNasi's derivation of the afternoon tamid from the morning offering.",
+ "review": {
+  "status": "enriched",
+  "version": "10.63"
+ },
+ "glossary": [
+  {
+   "he": "מִנְחַת חֲבִיתִין",
+   "translit": "minchat chavittin",
+   "en": "Griddle-cake offering; the High Priest's daily flour offering baked on a griddle, half in the morning and half in the afternoon."
   },
-  "glossary": [
+  {
+   "he": "בָּזִיכִין",
+   "translit": "bazichin",
+   "en": "Frankincense vessels; the two bowls of frankincense placed alongside the shewbread on the Table of the Presence."
+  },
+  {
+   "he": "מוּסָפִין",
+   "transrit": "musafin",
+   "en": "Additional offerings; the extra sacrifices for Shabbat, festivals, and Rosh Chodesh beyond the daily tamid."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "The verse teaches, 'and he shall arrange upon it the burnt-offering,' etc. - the word 'burnt-offering' implies it must be first, for if",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "it had come merely to indicate that they burn a burnt-offering and peace-offerings upon it, it would have written simply 'and he shall arrange upon it.'",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "Burnt-offering and meal-offering - 'to offer a fire-offering to the Lord: burnt-offering, meal-offering, sacrifice, and libations, each",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l02a"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "on its own day' (Leviticus 23) - 'burnt-offering and meal-offering' teaches you that the burnt-offering's own meal-offering must be",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l02a"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "right after the burnt-offering, and the griddle-cakes must not interrupt",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l02a"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "between the burnt-offering and the daily-offering's own meal-offering. Category of",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l02a",
+    "yoma-034a-l02b"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "meal-offering - since the griddle-cakes too are a meal-offering,",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l02b"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "Scripture bound them to the daily-offering, as it is written",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l02b"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "regarding it (Numbers 28), 'and a tenth of an ephah",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l02b"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "of fine flour for a perpetual meal-offering' - it too must be",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l02b"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "adjacent to the daily-offering, after the libation-meal-offering,",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l02b"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "as it is written, 'burnt-offering and meal-offering.' Sacrifice and libations -",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l02b",
+    "yoma-034a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "we learn that no other offering may interrupt between",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "the sacrifice and the libations. It is a dispute of Tannaim - Rabbi",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "Yishmael and Rabbi Akiva disagree about this,",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "in Pesachim, in the chapter Tamid Nishchat (58a).",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l03",
+    "yoma-034a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "On the day - 'on the day of Shabbat he shall arrange it' (Leviticus",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "24) - and the term 'on the day' implies in the strong light of",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "the day itself, not at its dawn. Statute, statute -",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l05",
+    "yoma-034a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "regarding the griddle-cakes it is written (ibid. 6), 'a perpetual statute",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "to the Lord, wholly burned,' and regarding the frankincense-vessels it is written (ibid.",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "24), 'it is most holy to him, from the Lord's fire-offerings,",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "a perpetual statute' - and this phrase governs the entire matter, and we derive",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "from it that they should precede the additional offerings just as the griddle-cakes do.",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l08",
+    "yoma-034a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "And let him derive the entire matter - to have them precede",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "the libations too. If it follows the Rabbis - who say in the first chapter",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l10",
+    "yoma-034a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "(15a) that he interrupts with the incense before the tending of",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "the lamps. 'Between the blood and the lamps' it should have stated -",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "between the service of the blood and the service of the lamps,",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "before he finishes them. Actually it is the Rabbis' own view -",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l12",
+    "yoma-034a-l15"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "it is preferable to establish it according to the Rabbis. And of the sequence",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l15"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "it does not speak - it is not precise. Between the limbs",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l15",
+    "yoma-034a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "and the libations - meaning the libation-meal-offering. Like the meal-offering of",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "the morning - the evening's meal-offering shall be the same. Just as",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "the morning's meal-offering is later",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "than the incense, since even the limbs are later than it, so too the evening's meal-offering -",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "the incense precedes it. Is it written 'like the limbs of the morning'? If so, the evening's limbs would be the same,",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l16",
+    "yoma-034a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "and you would deduce from it that just as the morning's limbs are later than the incense, so too the evening's limbs",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "are later than it. Like the meal-offering of the morning - the evening's meal-offering shall be the same. And not like the limbs of",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "the morning - meaning the evening's limbs. 'And its libation shall be a quarter-hin for the one lamb' - stated regarding",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l21",
+    "yoma-034a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "the daily offerings, teaching that 'the one' requires libations; but 'the one' here is",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "the evening one, since the passage continues directly from it, as it is written just before it: 'and the second lamb",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "you shall offer in the afternoon, and a tenth of an ephah of fine flour, etc., the perpetual burnt-offering",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "that is made, etc., and its libation a quarter-hin.' The morning shall be derived",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "from the evening - just as this one requires libations, so too this one requires libations.",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "Rabbi - the daf ends mid-comment here; the comment (Rabbi's own view that the evening quantity is derived from the morning, the reverse direction) continues on 34b.",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l24"
+   ]
+  }
+ ],
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-034a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 10
+   },
+   "lines": [
     {
-      "he": "מִנְחַת חֲבִיתִין",
-      "translit": "minchat chavittin",
-      "en": "Griddle-cake offering; the High Priest's daily flour offering baked on a griddle, half in the morning and half in the afternoon."
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.34a.1"
     },
     {
-      "he": "בָּזִיכִין",
-      "translit": "bazichin",
-      "en": "Frankincense vessels; the two bowls of frankincense placed alongside the shewbread on the Table of the Presence."
+     "vilnaLine": 2,
+     "sefariaRef": "Yoma.34a.2"
     },
     {
-      "he": "מוּסָפִין",
-      "transrit": "musafin",
-      "en": "Additional offerings; the extra sacrifices for Shabbat, festivals, and Rosh Chodesh beyond the daily tamid."
+     "vilnaLine": 2,
+     "sefariaRef": "Yoma.34a.3"
+    },
+    {
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.34a.4"
+    },
+    {
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.34a.5"
+    },
+    {
+     "vilnaLine": 8,
+     "sefariaRef": "Yoma.34a.6"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.34a.7"
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.34a.1",
+    "Yoma.34a.2",
+    "Yoma.34a.3",
+    "Yoma.34a.4",
+    "Yoma.34a.5"
+   ],
+   "display": {
+    "whats": "Abaye concludes the morning sequence: meal-offering precedes griddle-cake, griddle-cake precedes wine libation, libation precedes musaf. Abaye addresses the frankincense vessels' position. A dispute: do frankincense vessels precede or follow the musaf offerings?",
+    "hint": "The frankincense vessels placed with the shewbread were burned periodically - when they were burned on the same day as musaf, which comes first?",
+    "title": "Finishing the morning order, then a side dispute about the frankincense vessels"
+   },
+   "learning": {
+    "ahaMoment": "Even within the musaf category there is an ordering question about associated items like the frankincense vessels - the Gemara's attention to these details shows the meticulous precision of Temple service law.",
+    "memoryAnchor": "End of morning sequence: Meal-offering - Griddle-cake - Wine libation - Musaf. Then the frankincense vessels debate: before or after musaf?",
+    "learnerQuestion": "Where do the High Priest's personal griddle-cake offering and the frankincense vessels fit into the morning sequence relative to the musaf offerings?",
+    "coreTension": "Multiple distinct offerings - the tamid's meal-offering, the High Priest's own griddle-cake, the wine libation, the musaf offerings, and the periodically-burned frankincense vessels - all compete for a place in the sequence, and it is not obvious from the text alone which precedes which.",
+    "coreMove": "Abaye completes the chain (meal-offering, then griddle-cake, then libation, then musaf) and adds that the frankincense vessels precede musaf because they are linked to the shewbread's daily association; a dispute then arises over whether musaf, being the more standard and frequent offering, should actually take precedence over the vessels instead.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Even after a primary sequence is established, secondary or occasional items, like the frankincense vessels burned only periodically, still need their own placement worked out relative to the regular order - completeness in Temple service law extends to items that don't appear every day."
+    },
+    "learningBlocker": "A learner might assume that once the main morning sequence (tamid through musaf) is settled, every other item simply falls in around it without dispute; the frankincense vessels show that even peripheral items generate real disagreement."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "Opens the verse citation 'and he shall place the burnt-offering upon it, etc.': the word 'the burnt-offering' implies it must be first, for if -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l01"
-      ]
+     "id": "yoma-034a-l01",
+     "type": "proof",
+     "label": "Wood verse teaches first in sequence",
+     "text": "The verse 'the priest shall burn wood upon it in the morning' confirms the wood arrangement's primacy in the sequence.",
+     "sourceRefs": [
+      "Yoma.34a.1"
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "the verse had come merely to teach in general that they offer a burnt-offering and peace-offerings upon it, it would have written 'and he shall place upon it' alone, without naming the burnt-offering (closing).",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l01"
-      ]
+     "id": "yoma-034a-l03",
+     "type": "ruling",
+     "label": "Meal-offering before griddle-cake",
+     "text": "The tamid's accompanying meal-offering precedes the High Priest's daily griddle-cake.",
+     "sourceRefs": [
+      "Yoma.34a.2"
+     ]
     },
     {
-      "vilnaLine": 3,
-      "en": "Opens 'the burnt-offering and the meal-offering': from the verse, 'to bring offerings by fire to the Lord: burnt-offerings, meal-offerings, sacrifices, and libations, each -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l02a"
-      ]
+     "id": "yoma-034a-l06",
+     "type": "ruling",
+     "label": "Griddle-cake before libation",
+     "text": "The High Priest's griddle-cake precedes the wine libation accompanying the tamid.",
+     "sourceRefs": [
+      "Yoma.34a.3"
+     ]
     },
     {
-      "vilnaLine": 4,
-      "en": "on its own day' (Leviticus 23:37) - 'burnt-offering and meal-offering' teaches that the meal-offering of the burnt-offering follows -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l02a"
-      ]
+     "id": "yoma-034a-l09",
+     "type": "ruling",
+     "label": "Libation before musaf",
+     "text": "The wine libation precedes the musaf offerings on days when additional offerings are brought.",
+     "sourceRefs": [
+      "Yoma.34a.4"
+     ]
     },
     {
-      "vilnaLine": 5,
-      "en": "the burnt-offering immediately, and the griddle-cakes do not interrupt -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l02a"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "between the burnt-offering and the meal-offering of the tamid (closing). Opens 'since [it is a category of]' -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l02b"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "'meal-offering': since the griddle-cakes are also a meal-offering, -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l02b"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "Scripture required them to be linked to the tamid, as it is written -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l02b"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "regarding it (Numbers 28): 'a tenth of an ephah -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l02b"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "of fine flour for a perpetual meal-offering' - so too it [the griddle-cake] must be -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l02b"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "adjacent to the tamid, after the libation-linked meal-offering, -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l02b"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "as it is written 'olah u-mincha' (closing). Opens 'sacrifice and libations': -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "we learn that no other offering may interrupt between -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "the sacrifice and the libations (closing). Opens 'it is a [dispute of] Tannaim': Rabbi -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "Yishmael and Rabbi Akiva disagree about this -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "in tractate Pesachim, in the chapter 'Tamid Nishchat' (58a) (closing).",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Opens 'on the day': from the verse 'on the day of Shabbat he shall arrange it' (Leviticus -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "24:8) - the term 'on the day' implies in the full light of -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "day itself, not in its early morning (closing). Opens 'statute, statute' [the verbal analogy]: -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "regarding the griddle-cakes it is written (ibid. 6): 'a perpetual statute, -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "wholly burned to the Lord,' and regarding the frankincense-vessels it is written (ibid. -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "24): 'it is most holy to him from the Lord's fire-offerings, -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "a perpetual statute' - and this phrase governs the whole matter, and we derive -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "from it that the vessels should precede the additional offerings just as the griddle-cakes do (closing).",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Opens 'and let him derive the entire matter': to have them [the frankincense-vessels] precede -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "the libations too (closing). Opens 'if [it follows] the Rabbis': who say in the first chapter -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "(15a) that with the incense he interrupts before the trimming of -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "the lamps (closing). Opens “'between the blood and the lamps' it should have stated”: -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "meaning between the service of the blood and the service of the lamps, -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "before he finishes trimming them (closing). Opens 'actually it is the Rabbis' [view]': -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l15"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "it is preferable for the Gemara to establish the mishna according to the Rabbis (closing). Opens 'and of the sequence, it does not speak': the mishna is not being precise about the full order (closing).",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l15"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "Opens 'between the limbs' -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "'and the libations': refers to the libation-linked meal-offering (closing). Opens 'like the meal-offering of' -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "'the morning': the meal-offering of the evening shall be treated the same (closing). Opens 'just as' -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "'the meal-offering of the morning' is later -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "than the incense, since even the limbs [of the morning tamid] are later than it (closing). Opens 'so too the meal-offering of the evening': -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "the incense precedes it too (closing). Opens “'is it written, like the limbs of the morning'?”: if it were, it would read 'the limbs of the evening,' -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "and you would deduce that just as the morning's limbs are later than the incense, so too the evening's -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "limbs are later than it (closing). Opens 'like the meal-offering of the morning': the evening's meal-offering shall be the same (closing). Opens 'and not like the limbs of' -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "'the morning': meaning the limbs of the evening (closing). Opens \"'and its libation shall be a quarter-hin for the one lamb'\": stated regarding -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "the daily offerings, teaching that 'the one' requires libations; but 'the one' here is -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "the evening lamb, since the passage continues directly from it, as it is written just before: 'and the second lamb -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "you shall offer in the afternoon, and a tenth of an ephah of fine flour, etc., the perpetual burnt-offering -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "that is made, etc., and its libation a quarter-hin' (closing). Opens 'the morning shall be derived -",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "from the evening': just as the evening lamb requires libations, so too the morning lamb requires libations (closing).",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "Truncated: the single word 'Rabbi,' opening a new comment (Rabbi's view that the evening quantity is derived from the morning) that continues onto 34b.",
-      "linkedGemaraLineIds": [
-        "yoma-034a-l24"
-      ]
+     "id": "yoma-034a-l11",
+     "type": "claim",
+     "label": "Abaye: frankincense vessels before musaf",
+     "text": "Abaye: it is logical that the frankincense vessels should precede the musaf offerings because they are part of the regular inner-service cycle.",
+     "sourceRefs": [
+      "Yoma.34a.5"
+     ]
     }
-  ],
-  "sugyot": [
+   ],
+   "topicTags": [
+    "morning sequence conclusion",
+    "meal-offering",
+    "griddle-cake",
+    "minchat chavittin",
+    "wine libation",
+    "musaf",
+    "frankincense vessels",
+    "bazichin",
+    "Abaye"
+   ],
+   "concepts": {
+    "halachic": [
+     "meal-offering before griddle-cake",
+     "griddle-cake before libation",
+     "libation before musaf",
+     "frankincense vessels ordering"
+    ],
+    "theological": [
+     "High Priest's personal daily offering in the service sequence"
+    ],
+    "narrative": [
+     "Abaye's complete morning sequence",
+     "frankincense vessels dispute"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "minchat chavittin (griddle-cake)",
+    "musaf offerings",
+    "frankincense vessels (bazichin)",
+    "wine libation"
+   ],
+   "misconceptions": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-034a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 10
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.34a.1"
-        },
-        {
-          "vilnaLine": 2,
-          "sefariaRef": "Yoma.34a.2"
-        },
-        {
-          "vilnaLine": 2,
-          "sefariaRef": "Yoma.34a.3"
-        },
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.34a.4"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.34a.5"
-        },
-        {
-          "vilnaLine": 8,
-          "sefariaRef": "Yoma.34a.6"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.34a.7"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.34a.1",
-        "Yoma.34a.2",
-        "Yoma.34a.3",
-        "Yoma.34a.4",
-        "Yoma.34a.5"
-      ],
-      "display": {
-        "whats": "Abaye concludes the morning sequence: meal-offering precedes griddle-cake, griddle-cake precedes wine libation, libation precedes musaf. Abaye addresses the frankincense vessels' position. A dispute: do frankincense vessels precede or follow the musaf offerings?",
-        "hint": "The frankincense vessels placed with the shewbread were burned periodically - when they were burned on the same day as musaf, which comes first?",
-        "title": "Finishing the morning order, then a side dispute about the frankincense vessels"
-      },
-      "learning": {
-        "ahaMoment": "Even within the musaf category there is an ordering question about associated items like the frankincense vessels - the Gemara's attention to these details shows the meticulous precision of Temple service law.",
-        "memoryAnchor": "End of morning sequence: Meal-offering - Griddle-cake - Wine libation - Musaf. Then the frankincense vessels debate: before or after musaf?",
-        "learnerQuestion": "Where do the High Priest's personal griddle-cake offering and the frankincense vessels fit into the morning sequence relative to the musaf offerings?",
-        "coreTension": "Multiple distinct offerings - the tamid's meal-offering, the High Priest's own griddle-cake, the wine libation, the musaf offerings, and the periodically-burned frankincense vessels - all compete for a place in the sequence, and it is not obvious from the text alone which precedes which.",
-        "coreMove": "Abaye completes the chain (meal-offering, then griddle-cake, then libation, then musaf) and adds that the frankincense vessels precede musaf because they are linked to the shewbread's daily association; a dispute then arises over whether musaf, being the more standard and frequent offering, should actually take precedence over the vessels instead.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Even after a primary sequence is established, secondary or occasional items, like the frankincense vessels burned only periodically, still need their own placement worked out relative to the regular order - completeness in Temple service law extends to items that don't appear every day."
-        },
-        "learningBlocker": "A learner might assume that once the main morning sequence (tamid through musaf) is settled, every other item simply falls in around it without dispute; the frankincense vessels show that even peripheral items generate real disagreement."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-034a-l01",
-          "type": "proof",
-          "label": "Wood verse teaches first in sequence",
-          "text": "The verse 'the priest shall burn wood upon it in the morning' confirms the wood arrangement's primacy in the sequence.",
-          "sourceRefs": [
-            "Yoma.34a.1"
-          ]
-        },
-        {
-          "id": "yoma-034a-l03",
-          "type": "ruling",
-          "label": "Meal-offering before griddle-cake",
-          "text": "The tamid's accompanying meal-offering precedes the High Priest's daily griddle-cake.",
-          "sourceRefs": [
-            "Yoma.34a.2"
-          ]
-        },
-        {
-          "id": "yoma-034a-l06",
-          "type": "ruling",
-          "label": "Griddle-cake before libation",
-          "text": "The High Priest's griddle-cake precedes the wine libation accompanying the tamid.",
-          "sourceRefs": [
-            "Yoma.34a.3"
-          ]
-        },
-        {
-          "id": "yoma-034a-l09",
-          "type": "ruling",
-          "label": "Libation before musaf",
-          "text": "The wine libation precedes the musaf offerings on days when additional offerings are brought.",
-          "sourceRefs": [
-            "Yoma.34a.4"
-          ]
-        },
-        {
-          "id": "yoma-034a-l11",
-          "type": "claim",
-          "label": "Abaye: frankincense vessels before musaf",
-          "text": "Abaye: it is logical that the frankincense vessels should precede the musaf offerings because they are part of the regular inner-service cycle.",
-          "sourceRefs": [
-            "Yoma.34a.5"
-          ]
-        }
-      ],
-      "topicTags": [
-        "morning sequence conclusion",
-        "meal-offering",
-        "griddle-cake",
-        "minchat chavittin",
-        "wine libation",
-        "musaf",
-        "frankincense vessels",
-        "bazichin",
-        "Abaye"
-      ],
-      "concepts": {
-        "halachic": [
-          "meal-offering before griddle-cake",
-          "griddle-cake before libation",
-          "libation before musaf",
-          "frankincense vessels ordering"
-        ],
-        "theological": [
-          "High Priest's personal daily offering in the service sequence"
-        ],
-        "narrative": [
-          "Abaye's complete morning sequence",
-          "frankincense vessels dispute"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "minchat chavittin (griddle-cake)",
-        "musaf offerings",
-        "frankincense vessels (bazichin)",
-        "wine libation"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The musaf offering comes first since it is the most prominent extra offering.",
-          "correction": "The Gemara establishes that the daily tamid sequence (including meal-offering, griddle-cake, and libation) must be completed before musaf."
-        },
-        {
-          "misconception": "The High Priest's griddle-cake was optional.",
-          "correction": "It was offered daily, every single day, split between morning and afternoon."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-033b-s02",
-        "yoma-034a-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "label": "End of morning sequence",
-          "description": "... Limbs - Meal-offering - Griddle-cake - Wine libation - [Frankincense vessels?] - Musaf"
-        },
-        {
-          "type": "contrast",
-          "label": "Frankincense vessels: before or after musaf?",
-          "description": "Dispute: Abaye says before musaf (part of inner service); alternative view: musaf first (more standard/frequent)"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "In Abaye's morning sequence, what comes immediately after the tamid's accompanying meal-offering?",
-          "answer": "The High Priest's personal daily griddle-cake offering (minchat chavittin), which precedes the wine libation."
-        },
-        {
-          "question": "What is the dispute about the frankincense vessels (bazichin)?",
-          "answer": "Abaye says the frankincense vessels precede the musaf; an alternative view holds the musaf comes first because it is more standard."
-        }
-      ],
-      "finalRuling": "Morning sequence concludes: Meal-offering - Griddle-cake - Libation - Musaf. Frankincense vessel ordering relative to musaf is disputed.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "The musaf offering comes first since it is the most prominent extra offering.",
+     "correction": "The Gemara establishes that the daily tamid sequence (including meal-offering, griddle-cake, and libation) must be completed before musaf."
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-034a-s02",
-      "lineRange": {
-        "startVilnaLine": 12,
-        "endVilnaLine": 24
-      },
-      "lines": [
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.34a.8"
-        },
-        {
-          "vilnaLine": 15,
-          "sefariaRef": "Yoma.34a.9"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.34a.10"
-        },
-        {
-          "vilnaLine": 21,
-          "sefariaRef": "Yoma.34a.11"
-        },
-        {
-          "vilnaLine": 24,
-          "sefariaRef": "Yoma.34a.12"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.34a.6",
-        "Yoma.34a.7",
-        "Yoma.34a.8",
-        "Yoma.34a.9",
-        "Yoma.34a.10"
-      ],
-      "display": {
-        "whats": "The afternoon service sequence: afternoon incense is burned between taking the tamid limbs to the altar and the wine libation. The afternoon sequence differs from the morning because incense comes after the limbs in the afternoon (not before). Source: derivation from the morning verse about the tamid.",
-        "hint": "The key difference: morning incense comes BEFORE the limbs; afternoon incense comes AFTER the limbs go to the ramp but BEFORE the wine libation.",
-        "title": "Why the afternoon incense moves: after the limbs, not before"
-      },
-      "learning": {
-        "ahaMoment": "The afternoon service is not simply a mirror of the morning - the incense position shifts. In the morning, incense helps create the sacred atmosphere before the main offering. In the afternoon, the limbs go up first, then the incense closes the service before the libation completes it.",
-        "memoryAnchor": "Morning: incense BEFORE limbs. Afternoon: incense BETWEEN limbs and libation. Both services end with the wine libation.",
-        "learnerQuestion": "If the morning service burns incense before placing the tamid's limbs on the altar, why does the afternoon service reverse that order and burn incense after the limbs go up?",
-        "coreTension": "The morning and afternoon tamid services might be expected to mirror each other exactly, but the Mishna places the afternoon incense between the limb-placement and the wine libation - after the limbs, not before them as in the morning - which calls for its own explanation.",
-        "coreMove": "The Gemara derives the afternoon's distinct sequence from the same morning verse used earlier, showing that the textual source itself accounts for the difference between the two services rather than treating the afternoon as a simple copy of the morning.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "Parallel daily services, like the morning and afternoon tamid, are not assumed to share an identical internal order just because they share the same basic components; each service's sequence is independently derived from the text, even when that means the same verse yields different orders for morning and afternoon."
-        },
-        "learningBlocker": "It's natural to assume the afternoon service simply repeats the morning's order in miniature; the position of incense shows that the Gemara does not let assumed symmetry substitute for actual derivation."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-034a-l12",
-          "type": "question",
-          "label": "Return to R. Yehuda HaNasi question",
-          "text": "The Gemara returns to the question of whether the mishna about afternoon incense follows R. Yehuda HaNasi or the Rabbis.",
-          "sourceRefs": [
-            "Yoma.34a.6"
-          ]
-        },
-        {
-          "id": "yoma-034a-l14",
-          "type": "resolution",
-          "label": "Mishna follows Rabbis but with nuance",
-          "text": "The mishna is consistent with the Rabbis, but only by acknowledging a nuance in how the afternoon musaf sequence relates to the morning.",
-          "sourceRefs": [
-            "Yoma.34a.7"
-          ]
-        },
-        {
-          "id": "yoma-034a-l19",
-          "type": "ruling",
-          "label": "Afternoon incense: between limbs and libation",
-          "text": "The afternoon incense was burned after the tamid limbs were taken up to the altar ramp but before the wine libation completed the service.",
-          "sourceRefs": [
-            "Yoma.34a.8"
-          ]
-        },
-        {
-          "id": "yoma-034a-l22",
-          "type": "question",
-          "label": "Why not incense before limbs in afternoon too?",
-          "text": "In the morning, incense comes before the limbs. Why does the afternoon reverse this order?",
-          "sourceRefs": [
-            "Yoma.34a.9"
-          ]
-        },
-        {
-          "id": "yoma-034a-l24",
-          "type": "proof",
-          "label": "Afternoon libation: quarter hin",
-          "text": "A baraita derives from the verse about 'one quarter hin for the one lamb' the quantity and order of the afternoon tamid's wine libation.",
-          "sourceRefs": [
-            "Yoma.34a.10"
-          ]
-        }
-      ],
-      "topicTags": [
-        "afternoon service",
-        "afternoon incense",
-        "afternoon tamid",
-        "wine libation",
-        "morning vs afternoon order",
-        "R. Yehuda HaNasi",
-        "quarter hin"
-      ],
-      "concepts": {
-        "halachic": [
-          "afternoon incense between limbs and libation",
-          "morning vs afternoon incense position",
-          "quarter-hin libation for tamid"
-        ],
-        "theological": [
-          "morning and afternoon services as parallel but distinct divine encounters"
-        ],
-        "narrative": [
-          "comparison of morning and afternoon service orders"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "afternoon tamid",
-        "afternoon incense",
-        "wine libation quantity"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The afternoon service is identical in sequence to the morning service.",
-          "correction": "The incense position is different: morning incense precedes limbs; afternoon incense comes between limbs and libation."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-033b-s02",
-        "yoma-034b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "Morning vs afternoon incense position",
-          "description": "Morning: Wood - Lamps - Blood - Lamps - INCENSE - Limbs. Afternoon: Limbs - INCENSE - Libation"
-        },
-        {
-          "type": "sequence",
-          "label": "Afternoon service",
-          "description": "Afternoon tamid slaughter - blood - limbs to ramp - afternoon incense - wine libation"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "When is the afternoon incense burned relative to the tamid service?",
-          "answer": "After the tamid's limbs are taken up to the altar ramp but before the wine libation - unlike the morning when incense comes before the limbs."
-        },
-        {
-          "question": "How does the afternoon incense's timing differ from the morning incense?",
-          "answer": "In the morning, incense is burned before the limbs are placed on the fire. In the afternoon, incense is burned after the limbs go up to the altar ramp but before the final wine libation."
-        }
-      ],
-      "finalRuling": "Afternoon incense comes between the limbs and the wine libation. This sequence differs from the morning, where incense precedes the limbs.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "The High Priest's griddle-cake was optional.",
+     "correction": "It was offered daily, every single day, split between morning and afternoon."
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-033b-s02",
+    "yoma-034a-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "label": "End of morning sequence",
+     "description": "... Limbs - Meal-offering - Griddle-cake - Wine libation - [Frankincense vessels?] - Musaf"
+    },
+    {
+     "type": "contrast",
+     "label": "Frankincense vessels: before or after musaf?",
+     "description": "Dispute: Abaye says before musaf (part of inner service); alternative view: musaf first (more standard/frequent)"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "In Abaye's morning sequence, what comes immediately after the tamid's accompanying meal-offering?",
+     "answer": "The High Priest's personal daily griddle-cake offering (minchat chavittin), which precedes the wine libation."
+    },
+    {
+     "question": "What is the dispute about the frankincense vessels (bazichin)?",
+     "answer": "Abaye says the frankincense vessels precede the musaf; an alternative view holds the musaf comes first because it is more standard."
+    }
+   ],
+   "finalRuling": "Morning sequence concludes: Meal-offering - Griddle-cake - Libation - Musaf. Frankincense vessel ordering relative to musaf is disputed.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-034a-s02",
+   "lineRange": {
+    "startVilnaLine": 12,
+    "endVilnaLine": 24
+   },
+   "lines": [
+    {
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.34a.8"
+    },
+    {
+     "vilnaLine": 15,
+     "sefariaRef": "Yoma.34a.9"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.34a.10"
+    },
+    {
+     "vilnaLine": 21,
+     "sefariaRef": "Yoma.34a.11"
+    },
+    {
+     "vilnaLine": 24,
+     "sefariaRef": "Yoma.34a.12"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.34a.6",
+    "Yoma.34a.7",
+    "Yoma.34a.8",
+    "Yoma.34a.9",
+    "Yoma.34a.10"
+   ],
+   "display": {
+    "whats": "The afternoon service sequence: afternoon incense is burned between taking the tamid limbs to the altar and the wine libation. The afternoon sequence differs from the morning because incense comes after the limbs in the afternoon (not before). Source: derivation from the morning verse about the tamid.",
+    "hint": "The key difference: morning incense comes BEFORE the limbs; afternoon incense comes AFTER the limbs go to the ramp but BEFORE the wine libation.",
+    "title": "Why the afternoon incense moves: after the limbs, not before"
+   },
+   "learning": {
+    "ahaMoment": "The afternoon service is not simply a mirror of the morning - the incense position shifts. In the morning, incense helps create the sacred atmosphere before the main offering. In the afternoon, the limbs go up first, then the incense closes the service before the libation completes it.",
+    "memoryAnchor": "Morning: incense BEFORE limbs. Afternoon: incense BETWEEN limbs and libation. Both services end with the wine libation.",
+    "learnerQuestion": "If the morning service burns incense before placing the tamid's limbs on the altar, why does the afternoon service reverse that order and burn incense after the limbs go up?",
+    "coreTension": "The morning and afternoon tamid services might be expected to mirror each other exactly, but the Mishna places the afternoon incense between the limb-placement and the wine libation - after the limbs, not before them as in the morning - which calls for its own explanation.",
+    "coreMove": "The Gemara derives the afternoon's distinct sequence from the same morning verse used earlier, showing that the textual source itself accounts for the difference between the two services rather than treating the afternoon as a simple copy of the morning.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "Parallel daily services, like the morning and afternoon tamid, are not assumed to share an identical internal order just because they share the same basic components; each service's sequence is independently derived from the text, even when that means the same verse yields different orders for morning and afternoon."
+    },
+    "learningBlocker": "It's natural to assume the afternoon service simply repeats the morning's order in miniature; the position of incense shows that the Gemara does not let assumed symmetry substitute for actual derivation."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-034a-l12",
+     "type": "question",
+     "label": "Return to R. Yehuda HaNasi question",
+     "text": "The Gemara returns to the question of whether the mishna about afternoon incense follows R. Yehuda HaNasi or the Rabbis.",
+     "sourceRefs": [
+      "Yoma.34a.6"
+     ]
+    },
+    {
+     "id": "yoma-034a-l14",
+     "type": "resolution",
+     "label": "Mishna follows Rabbis but with nuance",
+     "text": "The mishna is consistent with the Rabbis, but only by acknowledging a nuance in how the afternoon musaf sequence relates to the morning.",
+     "sourceRefs": [
+      "Yoma.34a.7"
+     ]
+    },
+    {
+     "id": "yoma-034a-l19",
+     "type": "ruling",
+     "label": "Afternoon incense: between limbs and libation",
+     "text": "The afternoon incense was burned after the tamid limbs were taken up to the altar ramp but before the wine libation completed the service.",
+     "sourceRefs": [
+      "Yoma.34a.8"
+     ]
+    },
+    {
+     "id": "yoma-034a-l22",
+     "type": "question",
+     "label": "Why not incense before limbs in afternoon too?",
+     "text": "In the morning, incense comes before the limbs. Why does the afternoon reverse this order?",
+     "sourceRefs": [
+      "Yoma.34a.9"
+     ]
+    },
+    {
+     "id": "yoma-034a-l24",
+     "type": "proof",
+     "label": "Afternoon libation: quarter hin",
+     "text": "A baraita derives from the verse about 'one quarter hin for the one lamb' the quantity and order of the afternoon tamid's wine libation.",
+     "sourceRefs": [
+      "Yoma.34a.10"
+     ]
+    }
+   ],
+   "topicTags": [
+    "afternoon service",
+    "afternoon incense",
+    "afternoon tamid",
+    "wine libation",
+    "morning vs afternoon order",
+    "R. Yehuda HaNasi",
+    "quarter hin"
+   ],
+   "concepts": {
+    "halachic": [
+     "afternoon incense between limbs and libation",
+     "morning vs afternoon incense position",
+     "quarter-hin libation for tamid"
+    ],
+    "theological": [
+     "morning and afternoon services as parallel but distinct divine encounters"
+    ],
+    "narrative": [
+     "comparison of morning and afternoon service orders"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "afternoon tamid",
+    "afternoon incense",
+    "wine libation quantity"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The afternoon service is identical in sequence to the morning service.",
+     "correction": "The incense position is different: morning incense precedes limbs; afternoon incense comes between limbs and libation."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-033b-s02",
+    "yoma-034b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "Morning vs afternoon incense position",
+     "description": "Morning: Wood - Lamps - Blood - Lamps - INCENSE - Limbs. Afternoon: Limbs - INCENSE - Libation"
+    },
+    {
+     "type": "sequence",
+     "label": "Afternoon service",
+     "description": "Afternoon tamid slaughter - blood - limbs to ramp - afternoon incense - wine libation"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "When is the afternoon incense burned relative to the tamid service?",
+     "answer": "After the tamid's limbs are taken up to the altar ramp but before the wine libation - unlike the morning when incense comes before the limbs."
+    },
+    {
+     "question": "How does the afternoon incense's timing differ from the morning incense?",
+     "answer": "In the morning, incense is burned before the limbs are placed on the fire. In the afternoon, incense is burned after the limbs go up to the altar ramp but before the final wine libation."
+    }
+   ],
+   "finalRuling": "Afternoon incense comes between the limbs and the wine libation. This sequence differs from the morning, where incense precedes the limbs.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "review": "reviewed"
+  }
+ ]
 }
