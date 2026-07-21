@@ -1,546 +1,549 @@
 {
-  "daf": "28a",
-  "canonicalRef": "Yoma 28a",
-  "summary": "The Gemara concludes the wood-arrangement debate: Rava objects that if wood arrangement is complete service then it requires a lottery too - contradiction resolved. Rabbi Yochanan's final position is that two log-placement is a complete service (avodah temimah) for death-penalty purposes. The page then presents the Mishna opening Yom Kippur's Temple service: the appointed priest checks if dawn has broken. Priests are taken to the Hall of Immersion for the High Priest's first immersion.",
-  "review": {
-    "status": "enriched",
-    "version": "10.63"
+ "daf": "28a",
+ "canonicalRef": "Yoma 28a",
+ "summary": "The Gemara concludes the wood-arrangement debate: Rava objects that if wood arrangement is complete service then it requires a lottery too - contradiction resolved. Rabbi Yochanan's final position is that two log-placement is a complete service (avodah temimah) for death-penalty purposes. The page then presents the Mishna opening Yom Kippur's Temple service: the appointed priest checks if dawn has broken. Priests are taken to the Hall of Immersion for the High Priest's first immersion.",
+ "review": {
+  "status": "enriched",
+  "version": "10.63"
+ },
+ "glossary": [
+  {
+   "he": "שַׁחַר",
+   "translit": "shachar",
+   "en": "Dawn; the Yom Kippur avodah begins only after dawn is confirmed."
   },
-  "glossary": [
+  {
+   "he": "לִשְׁכַּת בֵּית הַפַּרְוָה",
+   "translit": "Lishkat Beit HaParva",
+   "en": "Hall of Parva; the chamber containing the immersion pool used by the High Priest on Yom Kippur."
+  },
+  {
+   "he": "מֶמֻנֶּה",
+   "translit": "memune",
+   "en": "Appointed official; the Temple superintendent who coordinated service timing."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "But what of the limbs and fats - we do not read this entire version about the limbs",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "and about the removal of the ashes here, since we already enumerated them regarding the dispute of Rav and Levi",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "about a service not followed by another service; and due to the flow of the earlier version's recitation",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "of Rabbi Zeira's first wording, it was repeated and read again in the later wording; and so we read: 'is there",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "a service that is followed by another service and yet is invalid",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "by a non-priest? Rather, if it was stated, etc.' Since",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l01",
+    "yoma-028a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "it is a complete service - for its arranging is finished.",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "'Does this mean that a complete service requires a lottery,'",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l11",
+    "yoma-028a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "etc., through 'because of an incident that occurred' - we do not read this.",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l11",
+    "yoma-028a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "We too have learned this - that the arranging of the logs",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "is a complete service, in accordance with Rabbi Yochanan and not",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "with Rav and Levi, who did not enumerate it among the services for which a non-priest",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "is liable, because it is followed by the arranging of",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "the limbs. And yet, a time for two logs was not",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "taught - evidently it is a nighttime service,",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "and it is the completion of the arranging of the wood-pile, whereas the arranging of the limbs,",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "which is a daytime service, is the beginning of another service entirely,",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "and not the completion of the arranging of the wood-pile.",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "We shall return to you, chapter HaRishonah.",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "The mishnah: the appointed one said to them - that is the deputy High Priest.",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "Go out and see - on the wall or",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "on the roof. The time for slaughtering - the slaughtering of",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "the daily-offering, meaning whether the east has lit up,",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "for the slaughtering is invalid at night, as it is written",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "(Leviticus 19), 'on the day of your sacrifice.' The one who sees",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "- this is the one who went up to the roof. Barkai - the language of brightness,",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "as in 'that it may have brightness' (Ezekiel",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "21:33), 'His lightnings lit up' (Psalms 77). Until",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "it is at Hebron - until the brightness is seen",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "as far as Hebron. And he says to them, yes - explained",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "in the Gemara. Why did they need this - to go up",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "to the roof and see. The light of the moon rose -",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "the shape of the moon appeared near morning.",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "And they thought - and reckoned. And they took it out to the",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "place of burning - when they realized it had been slaughtered at night.",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "They brought the High Priest down, etc. - it is explained in the Gemara.",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "Covers his feet - relieving the greater need,",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "and the language of covering is like 'a tree that covers'",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "the ground (Nazir 54b), since one who needs",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "the greater need kneels on his knees",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "and his body covers his feet, and likewise",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "it is written regarding Saul (I Samuel 24), and there,",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "was a cave, and Saul came in to cover his feet.",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "The sanctifying of hands and feet - from the basin.",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "Gemara - the daf ends here with just this opening marker; the Gemara's discussion of the High Priest's immersion and washing continues on 28b.",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l30"
+   ]
+  }
+ ],
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-028a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 30
+   },
+   "lines": [
     {
-      "he": "שַׁחַר",
-      "translit": "shachar",
-      "en": "Dawn; the Yom Kippur avodah begins only after dawn is confirmed."
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.28a.1"
     },
     {
-      "he": "לִשְׁכַּת בֵּית הַפַּרְוָה",
-      "translit": "Lishkat Beit HaParva",
-      "en": "Hall of Parva; the chamber containing the immersion pool used by the High Priest on Yom Kippur."
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.28a.2"
     },
     {
-      "he": "מֶמֻנֶּה",
-      "translit": "memune",
-      "en": "Appointed official; the Temple superintendent who coordinated service timing."
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.28a.3"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.28a.4"
+    },
+    {
+     "vilnaLine": 11,
+     "sefariaRef": "Yoma.28a.5"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.28a.6"
+    },
+    {
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.28a.7"
+    },
+    {
+     "vilnaLine": 21,
+     "sefariaRef": "Yoma.28a.8"
+    },
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.28a.9"
+    },
+    {
+     "vilnaLine": 24,
+     "sefariaRef": "Yoma.28a.10"
+    },
+    {
+     "vilnaLine": 30,
+     "sefariaRef": "Yoma.28a.11"
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.28a.1",
+    "Yoma.28a.2",
+    "Yoma.28a.3",
+    "Yoma.28a.4",
+    "Yoma.28a.5",
+    "Yoma.28a.6",
+    "Yoma.28a.7",
+    "Yoma.28a.8",
+    "Yoma.28a.10",
+    "Yoma.28a.11"
+   ],
+   "display": {
+    "title": "Complete service without a lottery: Rava settles wood arrangement, then dawn opens Yom Kippur",
+    "whats": "The wood-arrangement debate concludes: the two-log placement is a complete service requiring priesthood. Then the Mishna opens: dawn is announced, the High Priest descends to his first immersion of Yom Kippur morning.",
+    "hint": "The wood-arrangement debate ends with Rava's position that two-log placement counts as a complete service. The Yom Kippur narrative then begins in earnest."
+   },
+   "learning": {
+    "learnerQuestion": "Why does Rava insist that two-log placement is full priestly service even though it does not require its own lottery like other complete services, and why does the Yom Kippur day itself only begin once dawn is independently confirmed rather than at a fixed hour?",
+    "coreTension": "If two-log placement is truly 'complete service' like every other complete service that requires priesthood, it should also need its own lottery to assign priests the way other complete services do - yet it does not, which seems to undercut Rava's classification.",
+    "coreMove": "Rava resolves this by clarifying his own position: two-log placement is complete service for the purpose of the death-penalty and validity rule, while the lottery requirement is governed by a separate consideration that does not apply here. With the wood-arrangement debate now settled, the Gemara pivots to the Mishna that opens the Yom Kippur day: the appointed official sends priests to check whether dawn has broken, and only once dawn is confirmed does the High Priest descend for his first of five immersions.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Being classified as 'complete service' for one halakhic purpose, such as the death penalty and validity, does not automatically carry every other consequence usually associated with complete services, such as requiring a lottery - each consequence rests on its own textual basis."
+    },
+    "ahaMoment": "The wood-arrangement debate was not a digression - it was establishing exactly which acts count as full priestly service, a distinction the Yom Kippur narrative immediately puts to use as the High Priest's unique service begins.",
+    "learningBlocker": "The Gemara does not explain here why the lottery requirement and the complete-service classification come apart for two-log placement specifically - Rava's resolution settles that they do, but not the deeper reason this one service is treated differently from other complete services for lottery purposes.",
+    "memoryAnchor": "Two logs on the fire = complete service, but no lottery needed. Then: dawn confirmed = first immersion begins the Yom Kippur day."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "continuing: 'but what of the limbs and fats': we do not read this entire version about the limbs",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l01"
-      ]
+     "id": "yoma-028a-l01",
+     "type": "objection",
+     "label": "Rava objects to revised R. Yochanan",
+     "text": "Rava: if two-log placement is complete service and valid when done by a priest, it should also require its own lottery - but it does not. This is a contradiction.",
+     "sourceRefs": [
+      "Yoma.28a.1"
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "continuing: and of terumat hadeshen here, since we already enumerated them regarding the dispute of Rav and Levi",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l01"
-      ]
+     "id": "yoma-028a-l04",
+     "type": "resolution",
+     "label": "Rava's actual position",
+     "text": "Rava clarifies: two-log placement IS complete service - a non-priest is punished and the service is invalidated. The lottery question is separately resolved.",
+     "sourceRefs": [
+      "Yoma.28a.4"
+     ]
     },
     {
-      "vilnaLine": 3,
-      "en": "continuing: about a service not followed by another service, and due to the flow of the earlier version's reading",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l01"
-      ]
+     "id": "yoma-028a-l19",
+     "type": "premise",
+     "label": "Mishna referenced to explain R. Yochanan's framing",
+     "text": "The mishna mentions slaughter as its starting point simply because slaughter is the first temple task listed, not because it is the key contested service.",
+     "sourceRefs": [
+      "Yoma.28a.8"
+     ]
     },
     {
-      "vilnaLine": 4,
-      "en": "continuing: of Rabbi Zeira's first version, it repeated and read them again in the later version; and thus we read: 'you have",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l01"
-      ]
+     "id": "yoma-028a-l25",
+     "type": "ruling",
+     "label": "Mishna: Dawn check begins Yom Kippur",
+     "text": "The appointed priest announces: go out and see if dawn has broken. Once confirmed, the Yom Kippur avodah begins.",
+     "sourceRefs": [
+      "Yoma.28a.10"
+     ]
     },
     {
-      "vilnaLine": 5,
-      "en": "continuing: a service followed by another service and invalid",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "closing: by a non-priest, rather if it was stated, etc.' Then opens 'since",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "continuing: it is a complete service': for its arranging is finished.",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "Opens 'does this mean a complete service requires a lottery'",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l11"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "continuing: etc., through 'because of an incident that occurred' - we do not read this.",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l11"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Opens 'we too have learned this': that the arranging of the logs",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: is a complete service, in accordance with Rabbi Yochanan and not",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: with Rav and Levi, who did not enumerate it among the services for which a non-priest",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "continuing: is liable, because it is followed by the arranging of",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "closing: the limbs.' Then opens 'and yet, a time for two logs was not",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: taught': so evidently it is a nighttime service,",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: and it is the completion of the arranging of the wood-pile, whereas the arranging of the limbs",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: which is a daytime service, is the beginning of another service entirely,",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "closing: and not the completion of the arranging of the wood-pile.",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "We return to you, from the first chapter.",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Opens 'the appointed one said to them': that is the deputy High Priest.",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "Opens 'go out and see': on the wall or",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "closing: on the roof.' Then opens 'the time for slaughtering': the slaughtering of",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: the daily-offering, meaning whether the east has lit up,",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: for the slaughtering is invalid at night, as it is written",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "closing: (Leviticus 19), 'on the day of your sacrifice.'' Then opens 'the one who sees' -",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "closing: this is the one who went up to the roof.' Then opens 'barkai': the language of brightness,",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: as in 'that it may have brightness' (Ezekiel",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: 21), 'His lightnings lit up' (Psalms 77).' Then opens 'until",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: it is at Hebron': until the brightness is seen",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "closing: as far as Hebron.' Then opens 'and he says to them, yes': explained",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "closing: in the Gemara.' Then opens 'why did they need this': to go up",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "closing: to the roof and see.' Then opens 'the light of the moon rose' -",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "closing: the shape of the moon sprouted near morning.",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "Opens 'and they thought': and reckoned.' Then opens 'and they took it out to the",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "closing: place of burning': when they realized it had been slaughtered at night.",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "Opens 'they brought the High Priest down, etc.': it is explained in the Gemara.",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Opens 'covers his feet': relieving himself of the greater need,",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: and the language of 'covering' is like 'a tree that covers'",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "continuing: the ground (Nazir 54b), since one who needs",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: the greater need kneels on his knees",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "continuing: and his body covers his feet, and likewise",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "continuing: it is written regarding Saul (I Samuel 24), and there,",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "closing: 'a cave, and Saul came in to cover his feet.'",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Opens 'the sanctifying of hands and feet': from the basin.",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Opens 'Gemara' -",
-      "linkedGemaraLineIds": [
-        "yoma-028a-l30"
-      ]
+     "id": "yoma-028a-l30",
+     "type": "premise",
+     "label": "First immersion: Hall of Parva",
+     "text": "The High Priest is taken down to the Hall of Parva for his first immersion before beginning Yom Kippur service.",
+     "sourceRefs": [
+      "Yoma.28a.11"
+     ]
     }
-  ],
-  "sugyot": [
+   ],
+   "topicTags": [
+    "wood arrangement",
+    "complete service",
+    "Rava",
+    "dawn check",
+    "first immersion",
+    "Yom Kippur",
+    "Hall of Parva",
+    "memune"
+   ],
+   "concepts": {
+    "halachic": [
+     "two-log placement as complete service",
+     "Yom Kippur dawn timing",
+     "five immersions of High Priest"
+    ],
+    "theological": [
+     "Yom Kippur avodah beginning",
+     "dawn as threshold for divine service"
+    ],
+    "narrative": [
+     "Rava's clarification of R. Yochanan",
+     "transition to Yom Kippur narrative"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "complete service (avodah temimah)",
+    "High Priest's Yom Kippur service",
+    "five immersions and ten sanctifications"
+   ],
+   "misconceptions": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-028a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 30
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.28a.1"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.28a.2"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.28a.3"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.28a.4"
-        },
-        {
-          "vilnaLine": 11,
-          "sefariaRef": "Yoma.28a.5"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.28a.6"
-        },
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.28a.7"
-        },
-        {
-          "vilnaLine": 21,
-          "sefariaRef": "Yoma.28a.8"
-        },
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.28a.9"
-        },
-        {
-          "vilnaLine": 24,
-          "sefariaRef": "Yoma.28a.10"
-        },
-        {
-          "vilnaLine": 30,
-          "sefariaRef": "Yoma.28a.11"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.28a.1",
-        "Yoma.28a.2",
-        "Yoma.28a.3",
-        "Yoma.28a.4",
-        "Yoma.28a.5",
-        "Yoma.28a.6",
-        "Yoma.28a.7",
-        "Yoma.28a.8",
-        "Yoma.28a.10",
-        "Yoma.28a.11"
-      ],
-      "display": {
-        "title": "Complete service without a lottery: Rava settles wood arrangement, then dawn opens Yom Kippur",
-        "whats": "The wood-arrangement debate concludes: the two-log placement is a complete service requiring priesthood. Then the Mishna opens: dawn is announced, the High Priest descends to his first immersion of Yom Kippur morning.",
-        "hint": "The wood-arrangement debate ends with Rava's position that two-log placement counts as a complete service. The Yom Kippur narrative then begins in earnest."
-      },
-      "learning": {
-        "learnerQuestion": "Why does Rava insist that two-log placement is full priestly service even though it does not require its own lottery like other complete services, and why does the Yom Kippur day itself only begin once dawn is independently confirmed rather than at a fixed hour?",
-        "coreTension": "If two-log placement is truly 'complete service' like every other complete service that requires priesthood, it should also need its own lottery to assign priests the way other complete services do - yet it does not, which seems to undercut Rava's classification.",
-        "coreMove": "Rava resolves this by clarifying his own position: two-log placement is complete service for the purpose of the death-penalty and validity rule, while the lottery requirement is governed by a separate consideration that does not apply here. With the wood-arrangement debate now settled, the Gemara pivots to the Mishna that opens the Yom Kippur day: the appointed official sends priests to check whether dawn has broken, and only once dawn is confirmed does the High Priest descend for his first of five immersions.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Being classified as 'complete service' for one halakhic purpose, such as the death penalty and validity, does not automatically carry every other consequence usually associated with complete services, such as requiring a lottery - each consequence rests on its own textual basis."
-        },
-        "ahaMoment": "The wood-arrangement debate was not a digression - it was establishing exactly which acts count as full priestly service, a distinction the Yom Kippur narrative immediately puts to use as the High Priest's unique service begins.",
-        "learningBlocker": "The Gemara does not explain here why the lottery requirement and the complete-service classification come apart for two-log placement specifically - Rava's resolution settles that they do, but not the deeper reason this one service is treated differently from other complete services for lottery purposes.",
-        "memoryAnchor": "Two logs on the fire = complete service, but no lottery needed. Then: dawn confirmed = first immersion begins the Yom Kippur day."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-028a-l01",
-          "type": "objection",
-          "label": "Rava objects to revised R. Yochanan",
-          "text": "Rava: if two-log placement is complete service and valid when done by a priest, it should also require its own lottery - but it does not. This is a contradiction.",
-          "sourceRefs": [
-            "Yoma.28a.1"
-          ]
-        },
-        {
-          "id": "yoma-028a-l04",
-          "type": "resolution",
-          "label": "Rava's actual position",
-          "text": "Rava clarifies: two-log placement IS complete service - a non-priest is punished and the service is invalidated. The lottery question is separately resolved.",
-          "sourceRefs": [
-            "Yoma.28a.4"
-          ]
-        },
-        {
-          "id": "yoma-028a-l19",
-          "type": "premise",
-          "label": "Mishna referenced to explain R. Yochanan's framing",
-          "text": "The mishna mentions slaughter as its starting point simply because slaughter is the first temple task listed, not because it is the key contested service.",
-          "sourceRefs": [
-            "Yoma.28a.8"
-          ]
-        },
-        {
-          "id": "yoma-028a-l25",
-          "type": "ruling",
-          "label": "Mishna: Dawn check begins Yom Kippur",
-          "text": "The appointed priest announces: go out and see if dawn has broken. Once confirmed, the Yom Kippur avodah begins.",
-          "sourceRefs": [
-            "Yoma.28a.10"
-          ]
-        },
-        {
-          "id": "yoma-028a-l30",
-          "type": "premise",
-          "label": "First immersion: Hall of Parva",
-          "text": "The High Priest is taken down to the Hall of Parva for his first immersion before beginning Yom Kippur service.",
-          "sourceRefs": [
-            "Yoma.28a.11"
-          ]
-        }
-      ],
-      "topicTags": [
-        "wood arrangement",
-        "complete service",
-        "Rava",
-        "dawn check",
-        "first immersion",
-        "Yom Kippur",
-        "Hall of Parva",
-        "memune"
-      ],
-      "concepts": {
-        "halachic": [
-          "two-log placement as complete service",
-          "Yom Kippur dawn timing",
-          "five immersions of High Priest"
-        ],
-        "theological": [
-          "Yom Kippur avodah beginning",
-          "dawn as threshold for divine service"
-        ],
-        "narrative": [
-          "Rava's clarification of R. Yochanan",
-          "transition to Yom Kippur narrative"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "complete service (avodah temimah)",
-        "High Priest's Yom Kippur service",
-        "five immersions and ten sanctifications"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The two-log placement can be done by a non-priest since it doesn't require a lottery.",
-          "correction": "Rava establishes it IS complete priestly service for the death-penalty and validity rule, even though it does not require its own lottery."
-        },
-        {
-          "misconception": "The Yom Kippur service can begin at any time of night.",
-          "correction": "It requires dawn confirmation first - the appointed official sends priests to verify dawn has broken before the avodah begins."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-027b-s02",
-        "yoma-031a-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "label": "Yom Kippur service initiation",
-          "description": "Dawn check - announcement - priests lead High Priest to Hall of Parva - first immersion"
-        },
-        {
-          "type": "place",
-          "label": "Hall of Parva",
-          "description": "The immersion chamber where the High Priest underwent his Yom Kippur immersions"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What is Rava's position on whether two-log placement counts as 'complete Temple service'?",
-          "answer": "Rava holds that placing the two logs on the altar fire IS complete Temple service - a non-priest doing it is both punished and the service is invalidated."
-        },
-        {
-          "question": "What is the first step in the Yom Kippur morning service according to the Mishna?",
-          "answer": "The appointed official sends priests out to check if dawn has broken. Only after dawn is confirmed does the Yom Kippur avodah begin."
-        }
-      ],
-      "finalRuling": "Two-log placement is complete priestly service. The Yom Kippur avodah begins at dawn with the High Priest's first immersion.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "The two-log placement can be done by a non-priest since it doesn't require a lottery.",
+     "correction": "Rava establishes it IS complete priestly service for the death-penalty and validity rule, even though it does not require its own lottery."
+    },
+    {
+     "misconception": "The Yom Kippur service can begin at any time of night.",
+     "correction": "It requires dawn confirmation first - the appointed official sends priests to verify dawn has broken before the avodah begins."
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-027b-s02",
+    "yoma-031a-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "label": "Yom Kippur service initiation",
+     "description": "Dawn check - announcement - priests lead High Priest to Hall of Parva - first immersion"
+    },
+    {
+     "type": "place",
+     "label": "Hall of Parva",
+     "description": "The immersion chamber where the High Priest underwent his Yom Kippur immersions"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What is Rava's position on whether two-log placement counts as 'complete Temple service'?",
+     "answer": "Rava holds that placing the two logs on the altar fire IS complete Temple service - a non-priest doing it is both punished and the service is invalidated."
+    },
+    {
+     "question": "What is the first step in the Yom Kippur morning service according to the Mishna?",
+     "answer": "The appointed official sends priests out to check if dawn has broken. Only after dawn is confirmed does the Yom Kippur avodah begin."
+    }
+   ],
+   "finalRuling": "Two-log placement is complete priestly service. The Yom Kippur avodah begins at dawn with the High Priest's first immersion.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "review": "reviewed"
+  }
+ ]
 }
