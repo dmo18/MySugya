@@ -1,601 +1,605 @@
 {
-  "daf": "29b",
-  "canonicalRef": "Yoma 29b",
-  "summary": "Can a meal-offering's handful (kometz) removed at night be replaced with a new handful during the day? Rabbi Zeira raises objections from a baraita about principles governing disqualified offerings. Rava analyzes the dispute. The page concludes with Temple hygiene practices: priests who needed to relieve themselves would leave the service area, and a euphemism ('covering one's feet') is used throughout.",
-  "review": {
-    "status": "enriched",
-    "version": "10.63"
+ "daf": "29b",
+ "canonicalRef": "Yoma 29b",
+ "summary": "Can a meal-offering's handful (kometz) removed at night be replaced with a new handful during the day? Rabbi Zeira raises objections from a baraita about principles governing disqualified offerings. Rava analyzes the dispute. The page concludes with Temple hygiene practices: priests who needed to relieve themselves would leave the service area, and a euphemism ('covering one's feet') is used throughout.",
+ "review": {
+  "status": "enriched",
+  "version": "10.63"
+ },
+ "glossary": [
+  {
+   "he": "קֹמֶץ",
+   "translit": "kometz",
+   "en": "Handful; the measured scoop of flour removed from a meal-offering (mincha) and burned on the altar."
   },
-  "glossary": [
+  {
+   "he": "כִּסּוּי רַגְלַיִם",
+   "translit": "kissui raglayim",
+   "en": "Covering of legs; a biblical euphemism for relieving oneself (defecation)."
+  },
+  {
+   "he": "מִנְחָה",
+   "translit": "mincha",
+   "en": "Meal-offering; a grain offering, part of which (the kometz) is burned on the altar."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "He taught it - this mishnah, and he stated this resolution on his own reasoning. Service vessels",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "consecrate even not at their proper time - the handful requires placement in a vessel, and once the handful was consecrated",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "in the vessel for the sake of the handful, it cannot revert to being untithed like a meal-offering that was never handfuled; and necessarily,",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "since it is now called a handful, the remainder becomes the leftover portion. Anything sacrificed during the day - such as",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l01",
+    "yoma-029b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "the meal-offerings, the frankincense, the blood, and the incense.",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "Is consecrated - in a service vessel during the day, and it becomes consecrated with bodily",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "sanctity. Anything sacrificed at night - such as",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "the libation meal-offering, of which the master said (Menachot 44b):",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "'and their meal-offerings and their libations,' even at night.",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "Is consecrated - in a service vessel with bodily sanctity, if",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "it was placed in them at night. In any case it teaches: anything",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "sacrificed during the day is consecrated during the day, but at night",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "not, it is not consecrated. To be sacrificed - to be valid",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "to be sacrificed, but it is consecrated to become fit with that same",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "sanctity to be disqualified by one who immersed that day, and by one lacking",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "atonement offerings if he touched it, and by one who left the Temple courtyard if he left,",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "and by remaining overnight if it remained; and this too becomes disqualified",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "by remaining overnight, since we hold in Zevachim (87a) that the rise of",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "dawn causes the status of remaining overnight; and a handful",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "taken at night is disqualified, since it can no longer be re-tithed.",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "Disqualified - since it was not arranged on Shabbat to remain",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "there its seven days as required, so it is lacking its",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "proper time. And it seems to me that the text should not read 'disqualified,' since",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "the conclusion of our sugya does not consider the first day's arrangement",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "to be a valid arrangement at all, but rather as if a monkey had arranged it,",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "as though it were still lying in its box; and why would it disqualify",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "the bread through the burning of the frankincense vessels, when the table never",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "consecrated it for the bread at all, unless he took it apart",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "the following Shabbat and rearranged it; and this is",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "also proven from the fact that it teaches 'how shall he proceed,' implying",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "there is a remedy for the matter; and so too Rabbeinu Chananel",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "of Rome reads it explicitly: 'Rabbi Zeira raised an objection, etc.,",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "and he burned the frankincense vessels on Shabbat, how shall he proceed, etc.'; and it is a novel point that he states, that even though",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "he burned the frankincense vessels on Shabbat as they usually do, he shall bring other vessels and arrange them",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "together with the bread. How shall he proceed: he shall leave it - on the table until the following Shabbat. It should become consecrated",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l08",
+    "yoma-029b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "and disqualified - since service vessels consecrate even not at their proper time so as to become disqualified, so the table should consecrate",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "the bread from the first day of the week, disqualifying it through an arrangement not at its proper time. Rava said, this",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l10",
+    "yoma-029b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "one who raises the objection raises it well, and the father of Rabbi Avin - since what they challenge him with",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "is not merely a statement of the Amoraim, of which we would say it stands refuted, but rather a baraita that a tanna taught,",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "and we must reconcile it so that the baraitot do not contradict each other, resolving them thus: he holds,",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "the tanna cited by the father of Rabbi Avin, that night is not a lack of time, since it was fit",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "to be consecrated in a service vessel the next morning; therefore service vessels consecrate the handful at night.",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "But a day is a lack of time - something whose time has not yet arrived today but only tomorrow, and it is",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "lacking a whole day's worth of time, which counts as a lack of time; and all the more so this, whose time to become consecrated does not arrive until",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "the day of Shabbat. When the eve arrives - since Friday night, which is fit to become consecrated the next day,",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l13",
+    "yoma-029b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "should become consecrated on the table, since you said night is not a lack of time, and it should become disqualified because of an arrangement",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "at night, and by morning it becomes disqualified through remaining overnight. One who removed it beforehand - close to nightfall, on the eve of",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "Shabbat. Not in accordance with its mitzva - through a lack of time. It becomes as if a monkey arranged it - not",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "deliberately, since it was arranged before Friday night on the table at a time when it was lacking",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "its proper time; this is unlike a handful taken at night, or bread arranged on Friday night, which is not",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "lacking its time and is consecrated so as to become disqualified (and now, on Shabbat, when the time to arrange the showbread",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "arrives, the priest enters in the morning, removes it, and arranges it again); and when its own",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "time arrives, the table does not consecrate it until he removes it from it and rearranges it.",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "It is a mitzva - the daf ends mid-phrase here; the comment (to rub away drops of urine with one's hand) continues on 30a.",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l20"
+   ]
+  }
+ ],
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-029b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 20
+   },
+   "lines": [
     {
-      "he": "קֹמֶץ",
-      "translit": "kometz",
-      "en": "Handful; the measured scoop of flour removed from a meal-offering (mincha) and burned on the altar."
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.29b.1"
     },
     {
-      "he": "כִּסּוּי רַגְלַיִם",
-      "translit": "kissui raglayim",
-      "en": "Covering of legs; a biblical euphemism for relieving oneself (defecation)."
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.29b.2"
     },
     {
-      "he": "מִנְחָה",
-      "translit": "mincha",
-      "en": "Meal-offering; a grain offering, part of which (the kometz) is burned on the altar."
+     "vilnaLine": 8,
+     "sefariaRef": "Yoma.29b.3"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.29b.4"
+    },
+    {
+     "vilnaLine": 13,
+     "sefariaRef": "Yoma.29b.5"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.29b.6"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.29b.7"
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.29b.1",
+    "Yoma.29b.2",
+    "Yoma.29b.3",
+    "Yoma.29b.4",
+    "Yoma.29b.5",
+    "Yoma.29b.6",
+    "Yoma.29b.7"
+   ],
+   "display": {
+    "title": "On hold, not invalid: replacing a nighttime kometz",
+    "whats": "Can the nighttime kometz of a meal-offering be replaced by a new daytime handful? Rabbi Zeira objects from baraita principles. Rava acknowledges both sides have valid points. The page concludes with Temple hygiene protocol.",
+    "hint": "The nighttime kometz question hinges on whether a 'disqualified' offering that can theoretically become valid (once day breaks) is in the same category as an offering whose time has permanently passed."
+   },
+   "learning": {
+    "learnerQuestion": "If a kometz is removed at night, when offerings cannot be burned, is it permanently disqualified, or can a fresh handful simply be taken once day breaks?",
+    "coreTension": "The father of Rabbi Avin raises the question of whether a nighttime kometz can be replaced by a new daytime handful. Rabbi Zeira objects from a baraita: an offering whose proper time has not yet arrived cannot be disqualified by improper intent - implying that a nighttime kometz occupies a protected, intermediate status rather than being simply discardable and replaceable at will.",
+    "coreMove": "Rava resolves the tension not by picking a side but by affirming both: Rabbi Zeira's objection is well-founded and the father of Rabbi Avin's principle is also well-founded, each describing a different layer of the same status. The practical instruction follows from this: leave the kometz in place without burning it until day breaks, then take a new kometz at the proper time. The page closes with the Mishna's related Temple protocol - any priest who needs to relieve himself must step away from the service area first.",
+    "resolution": "The practical ruling is to leave the kometz in place overnight without burning it, and take a new kometz once day breaks - the nighttime kometz is treated as suspended rather than disqualified.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "An offering whose proper time simply hasn't arrived yet is not the same halachic category as one that is actually disqualified - the nighttime kometz waits for its moment rather than being thrown out."
+    },
+    "ahaMoment": "The nighttime kometz is neither 'valid' nor 'permanently invalid' - it is in a waiting state, and this temporal ambiguity drives the entire halachic analysis.",
+    "learningBlocker": "The sugya does not say whether the second, daytime kometz is a continuation of the same offering or counts as an entirely new act of removal - it settles the practical outcome (wait, then take a fresh handful) without addressing that conceptual question.",
+    "memoryAnchor": "Nighttime kometz = on hold. Wait for day, then take a fresh handful. Don't discard - but don't burn at night either."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "Opens 'he taught it': this mishna, and he stated its resolution on his own reasoning.' Then opens 'service vessels'",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l01"
-      ]
+     "id": "yoma-029b-l01",
+     "type": "question",
+     "label": "Can nighttime kometz be replaced?",
+     "text": "Can a kometz removed at night (when altar service is invalid) be replaced with a fresh handful once day breaks?",
+     "sourceRefs": [
+      "Yoma.29b.1"
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "continuing: consecrate even not at their proper time': the handful requires placement in a vessel; and once the handful was consecrated",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l01"
-      ]
+     "id": "yoma-029b-l05",
+     "type": "proof",
+     "label": "Baraita: offerings not-yet-ready cannot be disqualified",
+     "text": "A baraita teaches: an offering whose proper time has not yet arrived cannot be disqualified by improper intent - suggesting nighttime kometz is in a protected state.",
+     "sourceRefs": [
+      "Yoma.29b.2"
+     ]
     },
     {
-      "vilnaLine": 3,
-      "en": "continuing: in the vessel for the sake of the handful, it cannot revert to being untithed like a meal-offering that was not yet handfuled; and necessarily,",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l01"
-      ]
+     "id": "yoma-029b-l07",
+     "type": "objection",
+     "label": "R. Zeira: this proves no replacement",
+     "text": "Rabbi Zeira: the baraita principle shows a nighttime kometz cannot simply be replaced - it has a valid future and must wait for its time.",
+     "sourceRefs": [
+      "Yoma.29b.3"
+     ]
     },
     {
-      "vilnaLine": 4,
-      "en": "closing: since once it is called a handful, the rest of it becomes leftover.' Then opens 'anything sacrificed during the day': such as",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l01"
-      ]
+     "id": "yoma-029b-l10",
+     "type": "resolution",
+     "label": "Leave in place, take new kometz at day",
+     "text": "Practical ruling: leave the offering in place overnight; in the morning take a new kometz properly.",
+     "sourceRefs": [
+      "Yoma.29b.4"
+     ]
     },
     {
-      "vilnaLine": 5,
-      "en": "closing: the meal-offerings, the frankincense, the blood, and the incense.",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l03"
-      ]
+     "id": "yoma-029b-l12",
+     "type": "resolution",
+     "label": "Rava: both sides valid",
+     "text": "Rava says both Rabbi Zeira's objection and the father of Rabbi Avin's principle are correctly stated - they resolve different aspects of the question.",
+     "sourceRefs": [
+      "Yoma.29b.5"
+     ]
     },
     {
-      "vilnaLine": 6,
-      "en": "Opens 'is consecrated': in a service vessel during the day, and it becomes consecrated with",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "closing: bodily sanctity.' Then opens 'anything sacrificed at night': such as",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: the libation meal-offering, of which the master said (Menachot 44b):",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "closing: 'and their meal-offerings and their libations,' even at night.",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Opens 'is consecrated': in a service vessel with bodily sanctity, if",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "closing: it was placed in them at night.' Then opens 'in any case it teaches: anything'",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: sacrificed during the day is consecrated during the day, but at night",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "closing: not, it is not consecrated.' Then opens 'to be sacrificed': to be valid",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "continuing: to be sacrificed, but consecrated to become fit with that",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: sanctity to be disqualified by one who immersed that day, and by one lacking",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: atonement offerings if he touched it, and by one who left the Temple courtyard if he left,",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: and by remaining overnight if it remained; and this too becomes disqualified",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: by remaining overnight, since we hold in Zevachim (87a) that the rise of",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: dawn causes the status of remaining overnight; and a handful",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "closing: taken at night is disqualified, since it can no longer be re-tithed.",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "Opens 'disqualified': since it was not arranged on Shabbat to remain",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: there its seven days as required, and it is now",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: lacking its time.' [And it seems to me that the reading does not include 'disqualified,' since",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: the conclusion of our sugya does not consider the arrangement",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: of the first day an arrangement at all, but rather as if a monkey arranged it,",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: as if it were still lying in its box; and why would it disqualify",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: the bread through the burning of the frankincense vessels, when the table never even",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: consecrated it for the bread at all, unless he took it apart",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: the following Shabbat and rearranged it; and this is",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "continuing: also proven from the fact that it teaches 'how shall he proceed,' implying",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: there is a remedy for the matter; and so too Rabbeinu Chananel",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: of Rome reads it explicitly: 'Rabbi Zeira raised an objection, etc.,",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: and he burned the frankincense vessels on Shabbat, how shall he proceed, etc.'; and it is a novel point that he states even though",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "continuing: he burned the frankincense vessels on Shabbat as they usually do, he shall bring other vessels and arrange them",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l08"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "closing: with the bread.]' Then opens 'how shall he proceed: he shall leave it': on the table until the following Shabbat.' Then opens 'it should become consecrated'",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "continuing: and disqualified': since service vessels consecrate even not at their proper time, so it should become disqualified, and the table should consecrate",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "closing: the bread from the first day of the week, to become disqualified through an arrangement not at its proper time.' Then opens 'Rava said, this'",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l10"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: one who raises the objection raises it well, and the father of Rabbi Avin' - those who challenge him from it",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "continuing: are not merely a statement of the Amoraim, of which we would say it stands refuted, but rather a baraita that a tanna taught,",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: and we need to reconcile it so that the baraitot do not contradict each other, and resolve them thus: he holds,",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "continuing: the tanna of the father of Rabbi Avin, that night is not a lack of time, since it was fit",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "closing: to be consecrated in a service vessel the next morning; therefore service vessels consecrate the handful at night.",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Opens 'but a day is a lack of time': something whose time is not today but tomorrow, and it is",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "closing: lacking a whole day's worth of time, which is a lack of time; and all the more so this, whose time to become consecrated does not arrive until",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "closing: the day of Shabbat.' Then opens 'when the eve arrives': since Friday night is fit to be consecrated the next day,",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "continuing: it should become consecrated on the table, since you said night is not a lack of time, and it should become disqualified because of an arrangement",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "closing: at night, and it becomes disqualified in the morning through remaining overnight.' Then opens 'one who removed it beforehand': close to nightfall, on the eve of",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "closing: Shabbat.' Then opens and closes 'not in accordance with its mitzva': through a lack of time.' Then opens 'it becomes as if a monkey arranged it': not",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "continuing: deliberately, since it was arranged before Friday night on the table at a time when it was lacking",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "continuing: its time; unlike a handful taken at night, or bread arranged on Friday night, which is not",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "continuing: lacking its time and is consecrated to become disqualified (and now, on Shabbat, when the time to arrange the showbread",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "continuing: arrives, the priest enters in the morning, removes it, and arranges it again); and when its own",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "closing: time arrives, the table does not consecrate it until he removes it from it and rearranges it.",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "Opens 'a mitzva' -",
-      "linkedGemaraLineIds": [
-        "yoma-029b-l20"
-      ]
+     "id": "yoma-029b-l16",
+     "type": "ruling",
+     "label": "Mishna: bathroom = leave service",
+     "text": "Any priest who needs to relieve himself ('cover his legs') must leave the service area before doing so.",
+     "sourceRefs": [
+      "Yoma.29b.7"
+     ]
     }
-  ],
-  "sugyot": [
+   ],
+   "topicTags": [
+    "kometz",
+    "meal-offering",
+    "nighttime service",
+    "disqualification",
+    "R. Zeira",
+    "Rava",
+    "Temple hygiene",
+    "kissui raglayim"
+   ],
+   "concepts": {
+    "halachic": [
+     "nighttime kometz status",
+     "offering-not-yet-ready cannot be disqualified",
+     "replacing a nighttime handful",
+     "priest bathroom protocol"
+    ],
+    "theological": [
+     "Temple purity standards"
+    ],
+    "narrative": [
+     "father of R. Avin's question",
+     "R. Zeira's baraita objection",
+     "Rava's balanced resolution"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "kometz (handful) service",
+    "meal-offering (mincha)",
+    "nighttime Temple service rule"
+   ],
+   "misconceptions": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-029b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 20
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.29b.1"
-        },
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.29b.2"
-        },
-        {
-          "vilnaLine": 8,
-          "sefariaRef": "Yoma.29b.3"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.29b.4"
-        },
-        {
-          "vilnaLine": 13,
-          "sefariaRef": "Yoma.29b.5"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.29b.6"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.29b.7"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.29b.1",
-        "Yoma.29b.2",
-        "Yoma.29b.3",
-        "Yoma.29b.4",
-        "Yoma.29b.5",
-        "Yoma.29b.6",
-        "Yoma.29b.7"
-      ],
-      "display": {
-        "title": "On hold, not invalid: replacing a nighttime kometz",
-        "whats": "Can the nighttime kometz of a meal-offering be replaced by a new daytime handful? Rabbi Zeira objects from baraita principles. Rava acknowledges both sides have valid points. The page concludes with Temple hygiene protocol.",
-        "hint": "The nighttime kometz question hinges on whether a 'disqualified' offering that can theoretically become valid (once day breaks) is in the same category as an offering whose time has permanently passed."
-      },
-      "learning": {
-        "learnerQuestion": "If a kometz is removed at night, when offerings cannot be burned, is it permanently disqualified, or can a fresh handful simply be taken once day breaks?",
-        "coreTension": "The father of Rabbi Avin raises the question of whether a nighttime kometz can be replaced by a new daytime handful. Rabbi Zeira objects from a baraita: an offering whose proper time has not yet arrived cannot be disqualified by improper intent - implying that a nighttime kometz occupies a protected, intermediate status rather than being simply discardable and replaceable at will.",
-        "coreMove": "Rava resolves the tension not by picking a side but by affirming both: Rabbi Zeira's objection is well-founded and the father of Rabbi Avin's principle is also well-founded, each describing a different layer of the same status. The practical instruction follows from this: leave the kometz in place without burning it until day breaks, then take a new kometz at the proper time. The page closes with the Mishna's related Temple protocol - any priest who needs to relieve himself must step away from the service area first.",
-        "resolution": "The practical ruling is to leave the kometz in place overnight without burning it, and take a new kometz once day breaks - the nighttime kometz is treated as suspended rather than disqualified.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "An offering whose proper time simply hasn't arrived yet is not the same halachic category as one that is actually disqualified - the nighttime kometz waits for its moment rather than being thrown out."
-        },
-        "ahaMoment": "The nighttime kometz is neither 'valid' nor 'permanently invalid' - it is in a waiting state, and this temporal ambiguity drives the entire halachic analysis.",
-        "learningBlocker": "The sugya does not say whether the second, daytime kometz is a continuation of the same offering or counts as an entirely new act of removal - it settles the practical outcome (wait, then take a fresh handful) without addressing that conceptual question.",
-        "memoryAnchor": "Nighttime kometz = on hold. Wait for day, then take a fresh handful. Don't discard - but don't burn at night either."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-029b-l01",
-          "type": "question",
-          "label": "Can nighttime kometz be replaced?",
-          "text": "Can a kometz removed at night (when altar service is invalid) be replaced with a fresh handful once day breaks?",
-          "sourceRefs": [
-            "Yoma.29b.1"
-          ]
-        },
-        {
-          "id": "yoma-029b-l05",
-          "type": "proof",
-          "label": "Baraita: offerings not-yet-ready cannot be disqualified",
-          "text": "A baraita teaches: an offering whose proper time has not yet arrived cannot be disqualified by improper intent - suggesting nighttime kometz is in a protected state.",
-          "sourceRefs": [
-            "Yoma.29b.2"
-          ]
-        },
-        {
-          "id": "yoma-029b-l07",
-          "type": "objection",
-          "label": "R. Zeira: this proves no replacement",
-          "text": "Rabbi Zeira: the baraita principle shows a nighttime kometz cannot simply be replaced - it has a valid future and must wait for its time.",
-          "sourceRefs": [
-            "Yoma.29b.3"
-          ]
-        },
-        {
-          "id": "yoma-029b-l10",
-          "type": "resolution",
-          "label": "Leave in place, take new kometz at day",
-          "text": "Practical ruling: leave the offering in place overnight; in the morning take a new kometz properly.",
-          "sourceRefs": [
-            "Yoma.29b.4"
-          ]
-        },
-        {
-          "id": "yoma-029b-l12",
-          "type": "resolution",
-          "label": "Rava: both sides valid",
-          "text": "Rava says both Rabbi Zeira's objection and the father of Rabbi Avin's principle are correctly stated - they resolve different aspects of the question.",
-          "sourceRefs": [
-            "Yoma.29b.5"
-          ]
-        },
-        {
-          "id": "yoma-029b-l16",
-          "type": "ruling",
-          "label": "Mishna: bathroom = leave service",
-          "text": "Any priest who needs to relieve himself ('cover his legs') must leave the service area before doing so.",
-          "sourceRefs": [
-            "Yoma.29b.7"
-          ]
-        }
-      ],
-      "topicTags": [
-        "kometz",
-        "meal-offering",
-        "nighttime service",
-        "disqualification",
-        "R. Zeira",
-        "Rava",
-        "Temple hygiene",
-        "kissui raglayim"
-      ],
-      "concepts": {
-        "halachic": [
-          "nighttime kometz status",
-          "offering-not-yet-ready cannot be disqualified",
-          "replacing a nighttime handful",
-          "priest bathroom protocol"
-        ],
-        "theological": [
-          "Temple purity standards"
-        ],
-        "narrative": [
-          "father of R. Avin's question",
-          "R. Zeira's baraita objection",
-          "Rava's balanced resolution"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "kometz (handful) service",
-        "meal-offering (mincha)",
-        "nighttime Temple service rule"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "A kometz removed at night is permanently invalid and must be discarded.",
-          "correction": "It is actually in a waiting state and can be followed by a valid daytime kometz."
-        },
-        {
-          "misconception": "The baraita about 'offerings not yet ready' applies only to future-timed offerings.",
-          "correction": "The Gemara applies it to nighttime offerings that will become valid at dawn."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-029a-s02",
-        "yoma-030a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "timeline",
-          "label": "Nighttime kometz status",
-          "description": "Kometz removed at night: in waiting state. Dawn breaks: valid time resumes. New kometz taken in daytime."
-        },
-        {
-          "type": "place",
-          "label": "Temple service area exit for hygiene",
-          "description": "Priests step outside the service area to relieve themselves before returning to Temple duty"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What is the ruling if a priest takes the kometz from a meal-offering at night?",
-          "answer": "The offering is left in place; the priest waits until daytime and takes a new, valid kometz then."
-        },
-        {
-          "question": "What does the Temple protocol require of a priest who needs to relieve himself?",
-          "answer": "The priest must leave the Temple service area before relieving himself ('covering his legs')."
-        }
-      ],
-      "finalRuling": "A nighttime kometz is not permanently disqualified - a new daytime kometz may be taken. Priests must leave service to relieve themselves.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "A kometz removed at night is permanently invalid and must be discarded.",
+     "correction": "It is actually in a waiting state and can be followed by a valid daytime kometz."
+    },
+    {
+     "misconception": "The baraita about 'offerings not yet ready' applies only to future-timed offerings.",
+     "correction": "The Gemara applies it to nighttime offerings that will become valid at dawn."
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-029a-s02",
+    "yoma-030a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "timeline",
+     "label": "Nighttime kometz status",
+     "description": "Kometz removed at night: in waiting state. Dawn breaks: valid time resumes. New kometz taken in daytime."
+    },
+    {
+     "type": "place",
+     "label": "Temple service area exit for hygiene",
+     "description": "Priests step outside the service area to relieve themselves before returning to Temple duty"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What is the ruling if a priest takes the kometz from a meal-offering at night?",
+     "answer": "The offering is left in place; the priest waits until daytime and takes a new, valid kometz then."
+    },
+    {
+     "question": "What does the Temple protocol require of a priest who needs to relieve himself?",
+     "answer": "The priest must leave the Temple service area before relieving himself ('covering his legs')."
+    }
+   ],
+   "finalRuling": "A nighttime kometz is not permanently disqualified - a new daytime kometz may be taken. Priests must leave service to relieve themselves.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "review": "reviewed"
+  }
+ ]
 }
