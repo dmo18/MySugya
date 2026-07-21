@@ -1,757 +1,764 @@
 {
-  "daf": "32b",
-  "canonicalRef": "Yoma 32b",
-  "summary": "The school of Rabbi Yishmael presents a kal vachomer for immersion before golden garments. Rav Hisda says R. Yehuda HaNasi's five-immersion ruling was original (chiddush). Rav Acha bar Yaakov explains the debate's resolution. The Mishna then presents the next stage of Yom Kippur: the daily tamid is handed to the High Priest. The Gemara discusses whether the High Priest or another priest slaughters, and the principle about majority of organs (rov simanim).",
-  "review": {
-    "status": "enriched",
-    "version": "10.63"
+ "daf": "32b",
+ "canonicalRef": "Yoma 32b",
+ "summary": "The school of Rabbi Yishmael presents a kal vachomer for immersion before golden garments. Rav Hisda says R. Yehuda HaNasi's five-immersion ruling was original (chiddush). Rav Acha bar Yaakov explains the debate's resolution. The Mishna then presents the next stage of Yom Kippur: the daily tamid is handed to the High Priest. The Gemara discusses whether the High Priest or another priest slaughters, and the principle about majority of organs (rov simanim).",
+ "review": {
+  "status": "enriched",
+  "version": "10.63"
+ },
+ "glossary": [
+  {
+   "he": "חִידּוּשׁ",
+   "translit": "chiddush",
+   "en": "Novel ruling; a ruling that goes beyond simple logical derivation, establishing something not otherwise obvious."
   },
-  "glossary": [
+  {
+   "he": "רֹב סִימָנִים",
+   "translit": "rov simanim",
+   "en": "Majority of organs; the principle that cutting through the majority of the trachea and esophagus completes valid shechita."
+  },
+  {
+   "he": "סַכִּין",
+   "translit": "sakkin",
+   "en": "Slaughter knife; the priest handed the knife to the High Priest for the tamid slaughter."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "Their atonement is great - since he serves in them all the days of the year, but the inner service of",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "Yom Kippur atones only for the impurity of the Sanctuary and its sacred things, as we say",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "in Shevuot (7b). He derives it from Rebbi - 'a sacred linen tunic he shall wear, and bathe",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "in water, and don them.' Rebbi said, etc. - he returns to explain the earlier mishnah.",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l01",
+    "yoma-032b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "This is what he taught - in Rebbi's own matter, and it says",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "'they are sacred garments,' and this is how he expounds it: the verse hung",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "the reason for immersion on the fact that they are",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "sacred garments, to teach you that every change of the",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "sacred garments on that day requires immersion, and the golden",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "garments are also sacred. But this is written regarding immersion",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l14",
+    "yoma-032b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "is written - since it says 'his flesh.' This is our reading -",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "if it is not needed for the matter of immersion, since it is derived",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "from 'they are sacred garments,' apply it to the matter of sanctification.",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "This teaches us - since he stated it in the language of immersion,",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "that we derive immersion from it. Just as sanctification",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "is in a sacred place - as it is written regarding it, in a",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "sacred place, so too the immersions that come on account of",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "the day's own changes must be in a sacred place; but",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "the first immersion you do not derive from it, since",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "it is not a Torah-level law. And Rabbi Yehuda - since he derives",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l24",
+    "yoma-032b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "this verse for the immersion of the golden garments,",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "he does not expound 'they are sacred garments' for sanctification; from where does he derive",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "it? Rav Chisda said, etc. - he holds",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l27",
+    "yoma-032b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "that Rav Chisda specifically means that Rebbi's verse, 'and he shall remove, and bathe, and bathe,",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "and don,' requires two sanctifications between undressing and dressing,",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "one before immersion and one after it, before",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "dressing. It excludes from Rabbi Meir's own view - it emerges",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "from the implication of Rabbi Meir's own words that he does not hold",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "like Rabbi Meir, since even though we say in the mishnah",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "he undressed and sanctified his hands and feet, that he holds the sanctification",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "before the immersion is after the undressing, he still disagrees",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "with him about the second sanctification, that he says it is after",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "dressing, as is taught in Rabbi Meir's own baraita",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "above: he dressed, sanctified his hands and feet. All",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l28",
+    "yoma-032b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "agree - even Rebbi, that the sanctification adjacent",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "to the service, when he is dressed, he performs it.",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "Not Rav Chisda - who says that Rebbi's own statement",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l38"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "specifically requires two sanctifications between undressing",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l38"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "and dressing. He holds like Rav Acha - who says",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l38"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "we require a sanctification after dressing. Not Rav",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l38"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "Acha - who requires a sanctification adjacent to the service.",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l38"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "He holds like Rav Chisda - who requires that Rebbi",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l38"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "have two sanctifications while he is naked, for if so,",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l38"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "that both apply together, Rebbi would have three",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l38"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "sanctifications for every immersion: two while naked",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l38"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "and one while dressed. By more than half of two -",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l38",
+    "yoma-032b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "the validity of the slaughter requires the exact minimum. But since",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l42",
+    "yoma-032b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "we learned - in the slaughtering of non-sacred animals, that the majority of",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "one is like the whole, we automatically learn that a majority of",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "two is like two. Why did we teach - alongside it,",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "'a majority of one for a bird,' etc. One might think it would be",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l47"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "invalid by rabbinic law - since the whole matter itself",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "is for the sake of the blood, he needs... it should be invalid; and when we learned 'the majority",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "of one is like it,' we learned this regarding non-sacred slaughter.",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "Therefore - the daf ends mid-comment here; the comment (on why the mishnah separately states a majority-of-one rule for a bird alongside majority-of-two for an animal) continues on 33a.",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l49"
+   ]
+  }
+ ],
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-032b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 38
+   },
+   "lines": [
     {
-      "he": "חִידּוּשׁ",
-      "translit": "chiddush",
-      "en": "Novel ruling; a ruling that goes beyond simple logical derivation, establishing something not otherwise obvious."
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.32b.1"
     },
     {
-      "he": "רֹב סִימָנִים",
-      "translit": "rov simanim",
-      "en": "Majority of organs; the principle that cutting through the majority of the trachea and esophagus completes valid shechita."
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.32b.2"
     },
     {
-      "he": "סַכִּין",
-      "translit": "sakkin",
-      "en": "Slaughter knife; the priest handed the knife to the High Priest for the tamid slaughter."
+     "vilnaLine": 11,
+     "sefariaRef": "Yoma.32b.3"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.32b.4"
+    },
+    {
+     "vilnaLine": 17,
+     "sefariaRef": "Yoma.32b.5"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.32b.6"
+    },
+    {
+     "vilnaLine": 24,
+     "sefariaRef": "Yoma.32b.7"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.32b.8"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.32b.9"
+    },
+    {
+     "vilnaLine": 34,
+     "sefariaRef": "Yoma.32b.10"
+    },
+    {
+     "vilnaLine": 38,
+     "sefariaRef": "Yoma.32b.11"
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.32b.1",
+    "Yoma.32b.2",
+    "Yoma.32b.3",
+    "Yoma.32b.4",
+    "Yoma.32b.5",
+    "Yoma.32b.6",
+    "Yoma.32b.7",
+    "Yoma.32b.8",
+    "Yoma.32b.9",
+    "Yoma.32b.10",
+    "Yoma.32b.11"
+   ],
+   "display": {
+    "whats": "The school of R. Yishmael's kal vachomer for immersion before golden garments. Rav Hisda: R. Yehuda HaNasi's ruling was a chiddush. Rav Acha bar Yaakov resolves: the debate is about which sanctification is included in the biblical derivation.",
+    "hint": "Whether immersion before golden garments is biblical or learned from the white-garments context is the core dispute that the school of R. Yishmael's kal vachomer addresses.",
+    "title": "Locating the real dispute: which sanctification is the 'extra' one?"
+   },
+   "learning": {
+    "ahaMoment": "The debate about whether the first or second sanctification is the 'extra' one reveals a deep question: is the sanctification closing the previous service, or opening the next one? Both are crucial for continuity of the Yom Kippur avodah.",
+    "memoryAnchor": "Everyone agrees: sanctify after dressing (second). Debate: is sanctifying before undressing (first) also required?",
+    "learnerQuestion": "If immersion before the white garments is firmly established, why would immersion before the gold garments need its own separate proof?",
+    "coreTension": "The school of R. Yishmael's kal vachomer (white garments require immersion, so surely gold garments do too) is challenged because white garments carry unique atonement significance that gold garments lack, so the logic doesn't automatically transfer.",
+    "coreMove": "Rav Acha bar Yaakov narrows the entire debate to one precise point: everyone agrees the sanctification after dressing in new garments is required; the only live question is whether the sanctification before undressing from the prior garments is also mandated.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Talmudic disputes that look broad at first often collapse, on careful analysis, into a single narrow point of disagreement - here, whether one specific sanctification, not the whole immersion structure, is required."
+    },
+    "learningBlocker": "A learner might think the entire five-immersion structure is in dispute, rather than recognizing that Rav Acha bar Yaakov has isolated the disagreement down to just the first of each pair of sanctifications."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "Opens 'their atonement is broader': since he wears them all the days of the year, but the inner service of",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l01"
-      ]
+     "id": "yoma-032b-l01",
+     "type": "proof",
+     "label": "School of R. Yishmael: kal vachomer",
+     "text": "Kal vachomer: before donning white garments (for the unique inner service), immersion is required. Before donning golden garments (for the more standard service), certainly immersion is required.",
+     "sourceRefs": [
+      "Yoma.32b.1",
+      "Yoma.32b.2"
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "continuing: Yom Kippur atones only for impurity of the Sanctuary and its sacred things, as we say",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l01"
-      ]
+     "id": "yoma-032b-l07",
+     "type": "objection",
+     "label": "Kal vachomer refuted: white is special",
+     "text": "The inference can be refuted: white garments have special atonement significance that golden garments lack - you can't derive golden from white.",
+     "sourceRefs": [
+      "Yoma.32b.4"
+     ]
     },
     {
-      "vilnaLine": 3,
-      "en": "closing: as we say in Shevuot (7b).' Then opens 'he derives it from Rebbi': 'a sacred linen tunic he shall wear, and bathe'",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l01"
-      ]
+     "id": "yoma-032b-l13",
+     "type": "question",
+     "label": "Two sanctifications: biblical source?",
+     "text": "What is the biblical source for requiring two sanctifications (not just one) per immersion?",
+     "sourceRefs": [
+      "Yoma.32b.6",
+      "Yoma.32b.7"
+     ]
     },
     {
-      "vilnaLine": 4,
-      "en": "closing: 'in water, and don them.'' Then opens and closes 'Rebbi said, etc.': he returns to explain the earlier mishna.",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l06"
-      ]
+     "id": "yoma-032b-l26",
+     "type": "claim",
+     "label": "Rav Hisda: R. Yehuda HaNasi's ruling was chiddush",
+     "text": "Rav Hisda: R. Yehuda HaNasi's ruling about five immersions and ten sanctifications was an original legal innovation, not derivable from standard Talmudic analysis.",
+     "sourceRefs": [
+      "Yoma.32b.9"
+     ]
     },
     {
-      "vilnaLine": 5,
-      "en": "Opens 'this is what it teaches': in Rebbi's own statement, and it says",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l14"
-      ]
+     "id": "yoma-032b-l30",
+     "type": "resolution",
+     "label": "Rav Acha: debate is about the first sanctification",
+     "text": "Rav Acha bar Yaakov clarifies: all agree that the second sanctification (after dressing) is required. The debate is about whether the first (before undressing) is also included.",
+     "sourceRefs": [
+      "Yoma.32b.10"
+     ]
     },
     {
-      "vilnaLine": 6,
-      "en": "continuing: 'they are sacred garments,' and this is how he expounds it: the verse hung",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l14"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "continuing: the reason for immersion on the fact that they are",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l14"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: sacred garments, to teach you that every change of the",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l14"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "continuing: sacred garments on that day requires immersion; and the golden",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l14"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "closing: garments are also sacred.' Then opens 'but this is written regarding immersion'",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l14"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: since it says 'his flesh.'' Then opens 'this is our reading' -",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l20"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: if it is not needed for the matter of immersion, since he derives it",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l20"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "closing: from 'they are sacred garments,' apply it to the matter of sanctification.",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l20"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Opens 'this teaches us': since he stated it in the language of immersion,",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l24"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "closing: that we derive immersion from it.' Then opens 'just as sanctification'",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l24"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: is in a sacred place': as it is written regarding it, in a",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l24"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: sacred place, so too the immersions that come on account of",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l24"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: the day's own changes must be in a sacred place; but",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l24"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: the first immersion you do not derive from it, since",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l24"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "closing: it is not a Torah-level law.' Then opens 'and Rabbi Yehuda'",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l24"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: derives from this verse the immersion for the golden garments,",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: does not expound 'they are sacred garments' for sanctification; from where does he derive",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "closing: it?' Then opens 'Rav Chisda said, etc.': he holds",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: that Rav Chisda specifically requires that Rebbi, from 'and he shall remove, and bathe, and bathe,",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: and don,' [derives] two sanctifications between undressing and dressing,",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: one before immersion and one after it, before",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "closing: dressing.' Then opens 'it excludes from Rabbi Meir': it emerges",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: from the implication of Rabbi Meir's own words that he does not hold",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: like Rabbi Meir, since even though we say in the mishna",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "continuing: he undressed and sanctified his hands and feet, that he holds the sanctification",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: before the immersion is after undressing, he disagrees",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: with him, however, about the second sanctification, that he says it is after",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: dressing, as is taught in the baraita of Rabbi Meir",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "closing: above: he dressed, sanctified his hands and feet.' Then opens 'all'",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: agree': even Rebbi, that the sanctification adjacent",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l34"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "closing: to the service, when he is dressed, he sanctifies it.",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l34"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Opens 'not Rav Chisda': who says Rebbi's own statement",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l38"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: specifically requires two sanctifications between undressing",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l38"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "closing: and dressing.' Then opens 'he holds like Rav Acha': who says",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l38"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "closing: we require a sanctification after dressing.' Then opens 'not Rav'",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l38"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "continuing: Acha': who requires a sanctification adjacent to the service.",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l38"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Opens 'he holds like Rav Chisda': who requires that Rebbi",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l38"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "continuing: two sanctifications when he is naked, for if so",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l38"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "continuing: that both apply together, Rebbi would have three",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l38"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "continuing: sanctifications for every immersion: two while naked",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l38"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "closing: and one while dressed.' Then opens 'by more than half of two'",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l38"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "closing: the validity of the slaughter is by the exact minimum.' Then opens 'but since'",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "continuing: we learned': in the slaughtering of non-sacred animals, and the majority of",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l47"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "continuing: one is like it; automatically we learn the majority of",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l47"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "closing: two is like two.' Then opens 'why did we teach': alongside it",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l47"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "closing: a majority of one for a bird, etc.' Then opens 'one might think it would be'",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l47"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "continuing: invalid by rabbinic law': since the whole matter itself",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l49"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "continuing: is for the sake of the blood, he requires... invalid; and when we learned 'the majority of",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l49"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "closing: one is like it,' we learned this regarding non-sacred slaughter.",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l49"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "Opens 'therefore' -",
-      "linkedGemaraLineIds": [
-        "yoma-032b-l49"
-      ]
+     "id": "yoma-032b-l34",
+     "type": "resolution",
+     "label": "Rav Acha son of Rava: Rav Hisda's nuance",
+     "text": "Rav Acha son of Rava clarifies that Rav Hisda's 'chiddush' statement does not mean R. Yehuda HaNasi's ruling was completely without basis, only that it was not the obvious derivation.",
+     "sourceRefs": [
+      "Yoma.32b.11"
+     ]
     }
-  ],
-  "sugyot": [
+   ],
+   "topicTags": [
+    "school of R. Yishmael",
+    "kal vachomer",
+    "golden vs white garments",
+    "chiddush",
+    "Rav Hisda",
+    "Rav Acha bar Yaakov",
+    "first vs second sanctification",
+    "R. Yehuda HaNasi"
+   ],
+   "concepts": {
+    "halachic": [
+     "kal vachomer from white to golden garments",
+     "first vs second sanctification debate",
+     "chiddush in halachic derivation"
+    ],
+    "theological": [
+     "white garments' special atonement quality"
+    ],
+    "narrative": [
+     "multiple competing derivations",
+     "Rav Hisda's chiddush characterization",
+     "Rav Acha's resolution"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "golden vs white garments",
+    "five immersions",
+    "ten sanctifications",
+    "kal vachomer"
+   ],
+   "misconceptions": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-032b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 38
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.32b.1"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.32b.2"
-        },
-        {
-          "vilnaLine": 11,
-          "sefariaRef": "Yoma.32b.3"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.32b.4"
-        },
-        {
-          "vilnaLine": 17,
-          "sefariaRef": "Yoma.32b.5"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.32b.6"
-        },
-        {
-          "vilnaLine": 24,
-          "sefariaRef": "Yoma.32b.7"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.32b.8"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.32b.9"
-        },
-        {
-          "vilnaLine": 34,
-          "sefariaRef": "Yoma.32b.10"
-        },
-        {
-          "vilnaLine": 38,
-          "sefariaRef": "Yoma.32b.11"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.32b.1",
-        "Yoma.32b.2",
-        "Yoma.32b.3",
-        "Yoma.32b.4",
-        "Yoma.32b.5",
-        "Yoma.32b.6",
-        "Yoma.32b.7",
-        "Yoma.32b.8",
-        "Yoma.32b.9",
-        "Yoma.32b.10",
-        "Yoma.32b.11"
-      ],
-      "display": {
-        "whats": "The school of R. Yishmael's kal vachomer for immersion before golden garments. Rav Hisda: R. Yehuda HaNasi's ruling was a chiddush. Rav Acha bar Yaakov resolves: the debate is about which sanctification is included in the biblical derivation.",
-        "hint": "Whether immersion before golden garments is biblical or learned from the white-garments context is the core dispute that the school of R. Yishmael's kal vachomer addresses.",
-        "title": "Locating the real dispute: which sanctification is the 'extra' one?"
-      },
-      "learning": {
-        "ahaMoment": "The debate about whether the first or second sanctification is the 'extra' one reveals a deep question: is the sanctification closing the previous service, or opening the next one? Both are crucial for continuity of the Yom Kippur avodah.",
-        "memoryAnchor": "Everyone agrees: sanctify after dressing (second). Debate: is sanctifying before undressing (first) also required?",
-        "learnerQuestion": "If immersion before the white garments is firmly established, why would immersion before the gold garments need its own separate proof?",
-        "coreTension": "The school of R. Yishmael's kal vachomer (white garments require immersion, so surely gold garments do too) is challenged because white garments carry unique atonement significance that gold garments lack, so the logic doesn't automatically transfer.",
-        "coreMove": "Rav Acha bar Yaakov narrows the entire debate to one precise point: everyone agrees the sanctification after dressing in new garments is required; the only live question is whether the sanctification before undressing from the prior garments is also mandated.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Talmudic disputes that look broad at first often collapse, on careful analysis, into a single narrow point of disagreement - here, whether one specific sanctification, not the whole immersion structure, is required."
-        },
-        "learningBlocker": "A learner might think the entire five-immersion structure is in dispute, rather than recognizing that Rav Acha bar Yaakov has isolated the disagreement down to just the first of each pair of sanctifications."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-032b-l01",
-          "type": "proof",
-          "label": "School of R. Yishmael: kal vachomer",
-          "text": "Kal vachomer: before donning white garments (for the unique inner service), immersion is required. Before donning golden garments (for the more standard service), certainly immersion is required.",
-          "sourceRefs": [
-            "Yoma.32b.1",
-            "Yoma.32b.2"
-          ]
-        },
-        {
-          "id": "yoma-032b-l07",
-          "type": "objection",
-          "label": "Kal vachomer refuted: white is special",
-          "text": "The inference can be refuted: white garments have special atonement significance that golden garments lack - you can't derive golden from white.",
-          "sourceRefs": [
-            "Yoma.32b.4"
-          ]
-        },
-        {
-          "id": "yoma-032b-l13",
-          "type": "question",
-          "label": "Two sanctifications: biblical source?",
-          "text": "What is the biblical source for requiring two sanctifications (not just one) per immersion?",
-          "sourceRefs": [
-            "Yoma.32b.6",
-            "Yoma.32b.7"
-          ]
-        },
-        {
-          "id": "yoma-032b-l26",
-          "type": "claim",
-          "label": "Rav Hisda: R. Yehuda HaNasi's ruling was chiddush",
-          "text": "Rav Hisda: R. Yehuda HaNasi's ruling about five immersions and ten sanctifications was an original legal innovation, not derivable from standard Talmudic analysis.",
-          "sourceRefs": [
-            "Yoma.32b.9"
-          ]
-        },
-        {
-          "id": "yoma-032b-l30",
-          "type": "resolution",
-          "label": "Rav Acha: debate is about the first sanctification",
-          "text": "Rav Acha bar Yaakov clarifies: all agree that the second sanctification (after dressing) is required. The debate is about whether the first (before undressing) is also included.",
-          "sourceRefs": [
-            "Yoma.32b.10"
-          ]
-        },
-        {
-          "id": "yoma-032b-l34",
-          "type": "resolution",
-          "label": "Rav Acha son of Rava: Rav Hisda's nuance",
-          "text": "Rav Acha son of Rava clarifies that Rav Hisda's 'chiddush' statement does not mean R. Yehuda HaNasi's ruling was completely without basis, only that it was not the obvious derivation.",
-          "sourceRefs": [
-            "Yoma.32b.11"
-          ]
-        }
-      ],
-      "topicTags": [
-        "school of R. Yishmael",
-        "kal vachomer",
-        "golden vs white garments",
-        "chiddush",
-        "Rav Hisda",
-        "Rav Acha bar Yaakov",
-        "first vs second sanctification",
-        "R. Yehuda HaNasi"
-      ],
-      "concepts": {
-        "halachic": [
-          "kal vachomer from white to golden garments",
-          "first vs second sanctification debate",
-          "chiddush in halachic derivation"
-        ],
-        "theological": [
-          "white garments' special atonement quality"
-        ],
-        "narrative": [
-          "multiple competing derivations",
-          "Rav Hisda's chiddush characterization",
-          "Rav Acha's resolution"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "golden vs white garments",
-        "five immersions",
-        "ten sanctifications",
-        "kal vachomer"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "A kal vachomer from white to golden garments is straightforward.",
-          "correction": "White garments have special atonement significance that makes them MORE stringent in some ways, breaking the kal vachomer."
-        },
-        {
-          "misconception": "Everyone agrees about both sanctifications.",
-          "correction": "The debate is specifically about whether the first sanctification (before undressing) is biblically required."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-032a-s02",
-        "yoma-032b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "White vs golden garments stringency",
-          "description": "White: associated with atonement, inner service. Gold: associated with honor, outer service. White is stricter in some ways."
-        },
-        {
-          "type": "sequence",
-          "label": "First vs second sanctification",
-          "description": "Before undressing (first - debated) - immerse - dress - sanctify (second - all agree)"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What is the school of R. Yishmael's kal vachomer for immersion before golden garments, and why is it challenged?",
-          "answer": "Kal vachomer: if immersion is required before white garments, certainly before golden. Challenged: white garments have unique atonement significance that golden lack, breaking the inference."
-        },
-        {
-          "question": "What does Rav Acha bar Yaakov say is the real point of dispute about the ten sanctifications?",
-          "answer": "All agree the second sanctification (after dressing) is required. The debate is about the first sanctification (before undressing) - whether it is also biblically mandated."
-        }
-      ],
-      "finalRuling": "The kal vachomer from white to golden garments is challenged. The core debate is about the first sanctification. Rav Hisda characterizes R. Yehuda HaNasi's ruling as a novel chiddush.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "A kal vachomer from white to golden garments is straightforward.",
+     "correction": "White garments have special atonement significance that makes them MORE stringent in some ways, breaking the kal vachomer."
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-032b-s02",
-      "lineRange": {
-        "startVilnaLine": 42,
-        "endVilnaLine": 49
-      },
-      "lines": [
-        {
-          "vilnaLine": 42,
-          "sefariaRef": "Yoma.32b.12"
-        },
-        {
-          "vilnaLine": 47,
-          "sefariaRef": "Yoma.32b.13"
-        },
-        {
-          "vilnaLine": 49,
-          "sefariaRef": "Yoma.32b.14"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.32b.12",
-        "Yoma.32b.13",
-        "Yoma.32b.14"
-      ],
-      "display": {
-        "whats": "The Mishna: the daily tamid's slaughter knife is handed to the High Priest. The Gemara asks whether the principle of 'majority of organs' (rov simanim) applies - confirmed by R. Yochanan and Reish Lakish.",
-        "hint": "Even for the High Priest's personal slaughter of the tamid, standard shechita rules apply: majority of the two organs makes the slaughter valid.",
-        "title": "The High Priest's tamid: standard shechita rules apply"
-      },
-      "learning": {
-        "ahaMoment": "The High Priest personally slaughtering the Yom Kippur tamid is not ceremonial - he performs the actual act with the same halachic standards that apply to any kosher slaughter.",
-        "memoryAnchor": "High Priest + tamid = standard shechita: majority of both organs. No special Yom Kippur relaxation of shechita rules.",
-        "learnerQuestion": "When the Mishna says the High Priest 'slaughtered' the tamid, does that mean he had to sever both organs completely?",
-        "coreTension": "Because the Yom Kippur tamid is performed personally by the High Priest as part of an extraordinary, once-a-year service, it is reasonable to wonder whether ordinary shechita standards still apply to it, or whether some special stringency or leniency governs this particular slaughter.",
-        "coreMove": "R. Yochanan and Reish Lakish both confirm that the standard rule of rov simanim - cutting through the majority of each of the two organs - governs the High Priest's slaughter of the tamid exactly as it would any other slaughter.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The extraordinary status of an act, such as the High Priest personally slaughtering the Yom Kippur tamid, does not by itself change the technical halachic standards that govern it; shechita is shechita, regardless of who performs it or on what day."
-        },
-        "learningBlocker": "It's tempting to assume that because the High Priest's slaughter is performed in a uniquely sacred context, some special standard applies to it; the sugya makes clear the underlying mechanics of valid shechita do not change."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-032b-l42",
-          "type": "ruling",
-          "label": "Mishna: High Priest slaughters tamid",
-          "text": "The slaughter knife was handed to the High Priest and he slaughtered the daily morning tamid himself.",
-          "sourceRefs": [
-            "Yoma.32b.12"
-          ]
-        },
-        {
-          "id": "yoma-032b-l45",
-          "type": "claim",
-          "label": "R. Yochanan and Reish Lakish: majority of organs",
-          "text": "Both R. Yochanan and Reish Lakish confirm: 'with the majority of each of the two organs' - standard shechita rules apply.",
-          "sourceRefs": [
-            "Yoma.32b.13"
-          ]
-        },
-        {
-          "id": "yoma-032b-l49",
-          "type": "question",
-          "label": "Could one have thought otherwise?",
-          "text": "The Gemara explains the possible misconception that prompted this clarification - one might have thought a unique Yom Kippur standard applied.",
-          "sourceRefs": [
-            "Yoma.32b.14"
-          ]
-        }
-      ],
-      "topicTags": [
-        "High Priest",
-        "tamid slaughter",
-        "rov simanim",
-        "shechita",
-        "R. Yochanan",
-        "Reish Lakish",
-        "Yom Kippur service"
-      ],
-      "concepts": {
-        "halachic": [
-          "rov simanim in shechita",
-          "High Priest's personal tamid slaughter",
-          "standard shechita rules on Yom Kippur"
-        ],
-        "theological": [
-          "High Priest personally performing the service"
-        ],
-        "narrative": [
-          "R. Yochanan and Reish Lakish converging on same ruling"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "shechita (ritual slaughter)",
-        "rov simanim (majority of organs)",
-        "tamid service"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The High Priest's tamid slaughter on Yom Kippur uses different standards than ordinary shechita.",
-          "correction": "Standard shechita rules (majority of both organs) apply equally."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-033a-s01",
-        "yoma-025a-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "label": "Tamid slaughter hand-off",
-          "description": "Priest takes lamb - hands knife to High Priest - High Priest slaughters - cutting through majority of trachea and esophagus"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What principle governs the High Priest's slaughter of the Yom Kippur tamid?",
-          "answer": "The standard shechita principle: majority of each of the two organs (trachea and esophagus) must be cut through - the same rule as for all ritual slaughter."
-        }
-      ],
-      "finalRuling": "The High Priest personally slaughters the Yom Kippur tamid using standard shechita: majority of both organs.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "Everyone agrees about both sanctifications.",
+     "correction": "The debate is specifically about whether the first sanctification (before undressing) is biblically required."
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-032a-s02",
+    "yoma-032b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "White vs golden garments stringency",
+     "description": "White: associated with atonement, inner service. Gold: associated with honor, outer service. White is stricter in some ways."
+    },
+    {
+     "type": "sequence",
+     "label": "First vs second sanctification",
+     "description": "Before undressing (first - debated) - immerse - dress - sanctify (second - all agree)"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What is the school of R. Yishmael's kal vachomer for immersion before golden garments, and why is it challenged?",
+     "answer": "Kal vachomer: if immersion is required before white garments, certainly before golden. Challenged: white garments have unique atonement significance that golden lack, breaking the inference."
+    },
+    {
+     "question": "What does Rav Acha bar Yaakov say is the real point of dispute about the ten sanctifications?",
+     "answer": "All agree the second sanctification (after dressing) is required. The debate is about the first sanctification (before undressing) - whether it is also biblically mandated."
+    }
+   ],
+   "finalRuling": "The kal vachomer from white to golden garments is challenged. The core debate is about the first sanctification. Rav Hisda characterizes R. Yehuda HaNasi's ruling as a novel chiddush.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-032b-s02",
+   "lineRange": {
+    "startVilnaLine": 42,
+    "endVilnaLine": 49
+   },
+   "lines": [
+    {
+     "vilnaLine": 42,
+     "sefariaRef": "Yoma.32b.12"
+    },
+    {
+     "vilnaLine": 47,
+     "sefariaRef": "Yoma.32b.13"
+    },
+    {
+     "vilnaLine": 49,
+     "sefariaRef": "Yoma.32b.14"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.32b.12",
+    "Yoma.32b.13",
+    "Yoma.32b.14"
+   ],
+   "display": {
+    "whats": "The Mishna: the daily tamid's slaughter knife is handed to the High Priest. The Gemara asks whether the principle of 'majority of organs' (rov simanim) applies - confirmed by R. Yochanan and Reish Lakish.",
+    "hint": "Even for the High Priest's personal slaughter of the tamid, standard shechita rules apply: majority of the two organs makes the slaughter valid.",
+    "title": "The High Priest's tamid: standard shechita rules apply"
+   },
+   "learning": {
+    "ahaMoment": "The High Priest personally slaughtering the Yom Kippur tamid is not ceremonial - he performs the actual act with the same halachic standards that apply to any kosher slaughter.",
+    "memoryAnchor": "High Priest + tamid = standard shechita: majority of both organs. No special Yom Kippur relaxation of shechita rules.",
+    "learnerQuestion": "When the Mishna says the High Priest 'slaughtered' the tamid, does that mean he had to sever both organs completely?",
+    "coreTension": "Because the Yom Kippur tamid is performed personally by the High Priest as part of an extraordinary, once-a-year service, it is reasonable to wonder whether ordinary shechita standards still apply to it, or whether some special stringency or leniency governs this particular slaughter.",
+    "coreMove": "R. Yochanan and Reish Lakish both confirm that the standard rule of rov simanim - cutting through the majority of each of the two organs - governs the High Priest's slaughter of the tamid exactly as it would any other slaughter.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The extraordinary status of an act, such as the High Priest personally slaughtering the Yom Kippur tamid, does not by itself change the technical halachic standards that govern it; shechita is shechita, regardless of who performs it or on what day."
+    },
+    "learningBlocker": "It's tempting to assume that because the High Priest's slaughter is performed in a uniquely sacred context, some special standard applies to it; the sugya makes clear the underlying mechanics of valid shechita do not change."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-032b-l42",
+     "type": "ruling",
+     "label": "Mishna: High Priest slaughters tamid",
+     "text": "The slaughter knife was handed to the High Priest and he slaughtered the daily morning tamid himself.",
+     "sourceRefs": [
+      "Yoma.32b.12"
+     ]
+    },
+    {
+     "id": "yoma-032b-l45",
+     "type": "claim",
+     "label": "R. Yochanan and Reish Lakish: majority of organs",
+     "text": "Both R. Yochanan and Reish Lakish confirm: 'with the majority of each of the two organs' - standard shechita rules apply.",
+     "sourceRefs": [
+      "Yoma.32b.13"
+     ]
+    },
+    {
+     "id": "yoma-032b-l49",
+     "type": "question",
+     "label": "Could one have thought otherwise?",
+     "text": "The Gemara explains the possible misconception that prompted this clarification - one might have thought a unique Yom Kippur standard applied.",
+     "sourceRefs": [
+      "Yoma.32b.14"
+     ]
+    }
+   ],
+   "topicTags": [
+    "High Priest",
+    "tamid slaughter",
+    "rov simanim",
+    "shechita",
+    "R. Yochanan",
+    "Reish Lakish",
+    "Yom Kippur service"
+   ],
+   "concepts": {
+    "halachic": [
+     "rov simanim in shechita",
+     "High Priest's personal tamid slaughter",
+     "standard shechita rules on Yom Kippur"
+    ],
+    "theological": [
+     "High Priest personally performing the service"
+    ],
+    "narrative": [
+     "R. Yochanan and Reish Lakish converging on same ruling"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "shechita (ritual slaughter)",
+    "rov simanim (majority of organs)",
+    "tamid service"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The High Priest's tamid slaughter on Yom Kippur uses different standards than ordinary shechita.",
+     "correction": "Standard shechita rules (majority of both organs) apply equally."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-033a-s01",
+    "yoma-025a-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "label": "Tamid slaughter hand-off",
+     "description": "Priest takes lamb - hands knife to High Priest - High Priest slaughters - cutting through majority of trachea and esophagus"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What principle governs the High Priest's slaughter of the Yom Kippur tamid?",
+     "answer": "The standard shechita principle: majority of each of the two organs (trachea and esophagus) must be cut through - the same rule as for all ritual slaughter."
+    }
+   ],
+   "finalRuling": "The High Priest personally slaughters the Yom Kippur tamid using standard shechita: majority of both organs.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "review": "reviewed"
+  }
+ ]
 }
