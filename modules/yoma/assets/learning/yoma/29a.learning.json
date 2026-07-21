@@ -1,743 +1,750 @@
 {
-  "daf": "29a",
-  "canonicalRef": "Yoma 29a",
-  "summary": "An extended digression discusses aggadic maxims: that sinful thoughts are worse than the sin itself (with a mnemonic about meat smell), that fever in winter is worse than in summer, and that the morning star (netz hachama) is stronger than moonlight. Rabbi Abbahu derives from Psalm 22 that Esther is compared to the morning star - the last miracle before dawn. The page then addresses what happened when the tamid was slaughtered before dawn: the ruling and a key principle about day-slaughter requirements.",
-  "review": {
-    "status": "enriched",
-    "version": "10.63"
+ "daf": "29a",
+ "canonicalRef": "Yoma 29a",
+ "summary": "An extended digression discusses aggadic maxims: that sinful thoughts are worse than the sin itself (with a mnemonic about meat smell), that fever in winter is worse than in summer, and that the morning star (netz hachama) is stronger than moonlight. Rabbi Abbahu derives from Psalm 22 that Esther is compared to the morning star - the last miracle before dawn. The page then addresses what happened when the tamid was slaughtered before dawn: the ruling and a key principle about day-slaughter requirements.",
+ "review": {
+  "status": "enriched",
+  "version": "10.63"
+ },
+ "glossary": [
+  {
+   "he": "מַחֲשֶׁבֶת עֲבֵרָה",
+   "translit": "machshevet aveira",
+   "en": "Sinful thought; the Gemara teaches that contemplating a sin is worse than the sin itself in some respects."
   },
-  "glossary": [
+  {
+   "he": "נֵץ הַחַמָּה",
+   "translit": "netz hachama",
+   "en": "Sunrise; the morning star's light, which the Gemara considers stronger and more dangerous than moonlight."
+  },
+  {
+   "he": "כּוֹכָב הַשַּׁחַר",
+   "translit": "kochav hashachar",
+   "en": "Morning star; the bright star visible just before dawn, analogized to Esther as the last miracle."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "Thoughts of transgression - the desire for women is harder on a person's flesh, wasting it more, than",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "the act itself. The smell of meat - one who smells roasting meat finds the smell very",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "difficult, since he craves it. The end of summer - Elul, which is the end of summer, is harsher than summer itself; its",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "heat is harsher than the heat of summer in Tammuz, since the whole air and people's bodies have already",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "grown warm from the summer heat that passed over them; one constantly grows warmer",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "now even from mild heat, and it harms him. And your mnemonic",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "is a heated oven - an oven that has been fired",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "two or three times in a day is hot and easy to heat further",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "with little wood. A winter fever -",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l01",
+    "yoma-029a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "a fever of the winter months that heats",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "the patient is known to be far more severe",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "than a fever burning him in the summer months.",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "And your mnemonic is a cold oven - it requires",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "much wood to heat it; so too here, where the air is cold",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "and the body is cold, and the illness burns him regardless, it is known",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "to be a severe illness. Relearning old material",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "is harder than new - one who learned and turned his attention away",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "and forgot; it is harder for him to relearn what he forgot",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "than what he never learned at all. And your mnemonic is clay",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "from clay - mud that one kneads from the mortar-clay of",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "an old wall is harder to knead than",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "mud from fresh earth. What is the reason",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l03",
+    "yoma-029a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "of Rabbi - who says a column of sunlight splits open.",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "This hind - it is not stated with precision, since there are no",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "antlers on a female. Why was",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l06",
+    "yoma-029a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "Esther likened to a hind - in Tractate Megillah (15b)",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "we say that Esther recited this psalm",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "once she reached the house of idols, the Divine Presence departed",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "from her; she said, 'My God, my God, why",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "have You forsaken me?' That works out well according to the one who says - a dispute",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l09",
+    "yoma-029a-l15"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "in Tractate Megillah (7a): there is one who",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l15"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "says it renders the hands impure, and there is one",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l15"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "who says it does not render the hands impure,",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l15"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "since it is not a book. It establishes it in accordance with Rabbi",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l15",
+    "yoma-029a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "Binyamin bar Yefet - meaning he interprets this",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "dawn as Rabbi Binyamin bar Yefet does. Why was",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "the prayer of the righteous likened, etc. - since this 'dawn'",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "is interpreted as an expression of prayer, like 'my spirit",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "within me seeks You' (Isaiah 26); 'for the leader, on",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "the prayer,' which is like a hind, since the longer it grows,",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "its antlers branch; each and every year an additional",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "branching is added to it. When - if we say, etc. -",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l18",
+    "yoma-029a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "it occurs to you that 'they brought the High Priest down to the Hall of Immersion' is the mishnah's own closing clause,",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "and it speaks of the day they mistakenly slaughtered the daily-offering at night, saying they brought the High Priest down to the Hall of Immersion",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "to slaughter the daily-offering after immersion; when did this mistake occur? If we say during the rest",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "of the days of the year - meaning not Yom Kippur, at the end of one of the months when the moon rises",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "close to dawn. There is no alternative but the High Priest - the service of the other",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "days does not suffice unless performed by the High Priest. Is there moonlight - to sprout close to dawn.",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "This is what it means: and on Yom Kippur, when he said, the light has flashed, etc. - that 'they took it out to the place of burning'",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "is the conclusion of the earlier matter, and 'they brought the High Priest down' is its own separate matter, and it returns",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "to explain the order of the Yom Kippur service; and this is what it is saying: when the observer says 'barkai,' they would",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "bring the High Priest down on Yom Kippur to the Hall of Immersion in the morning. Not this alone - not the offering alone",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l27",
+    "yoma-029a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "that was slaughtered at night did they say is to be burned. But even the pinching of the bird and the taking of the handful of the meal-offering",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "at night is to be burned - since they derive them from slaughtering, for the pinching of the bird and the taking of the handful of the meal-offering",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "stand in place of the slaughtering of offerings. What was, was - it cannot be undone.",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "He - the daf ends mid-phrase here; the comment ('he taught this mishnah on his own initiative') continues on 29b.",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l28"
+   ]
+  }
+ ],
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-029a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 18
+   },
+   "lines": [
     {
-      "he": "מַחֲשֶׁבֶת עֲבֵרָה",
-      "translit": "machshevet aveira",
-      "en": "Sinful thought; the Gemara teaches that contemplating a sin is worse than the sin itself in some respects."
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.29a.1"
     },
     {
-      "he": "נֵץ הַחַמָּה",
-      "translit": "netz hachama",
-      "en": "Sunrise; the morning star's light, which the Gemara considers stronger and more dangerous than moonlight."
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.29a.2"
     },
     {
-      "he": "כּוֹכָב הַשַּׁחַר",
-      "translit": "kochav hashachar",
-      "en": "Morning star; the bright star visible just before dawn, analogized to Esther as the last miracle."
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.29a.3"
+    },
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.29a.4"
+    },
+    {
+     "vilnaLine": 15,
+     "sefariaRef": "Yoma.29a.5"
+    },
+    {
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.29a.6"
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.29a.1",
+    "Yoma.29a.2",
+    "Yoma.29a.3",
+    "Yoma.29a.4",
+    "Yoma.29a.5",
+    "Yoma.29a.6"
+   ],
+   "display": {
+    "title": "Esther as the morning star: the last universal miracle before dawn",
+    "whats": "Three aggadic maxims about things worse than their counterparts (sinful thought, winter fever, morning star). Rabbi Abbahu: Esther = the morning star, the last great miracle of the Jewish people before the 'dawn' of messianic redemption.",
+    "hint": "The morning star discussion (apropos the dawn theme of the previous page) spirals into a meditation on Esther and the nature of Jewish history's last miracle before full redemption."
+   },
+   "learning": {
+    "learnerQuestion": "Why does the Gemara's discussion of dawn light lead into a teaching that Esther is the 'morning star,' and what does it mean to call her miracle the last one?",
+    "coreTension": "The Gemara strings together three maxims about an intensified version outdoing its counterpart - sinful thought over the sin, winter fever over summer fever, and the morning star's light over moonlight - then uses the third maxim to launch R. Abbahu's claim that Psalm 22 was Esther's own words about herself as the 'morning star,' the last miracle performed for the Jewish people. That claim is immediately challenged: Hanukkah came after Purim, so how can Purim be the last miracle?",
+    "coreMove": "The Gemara resolves the challenge by distinguishing scope rather than chronology: Purim was the last miracle performed for all Jews everywhere, while Hanukkah, though later, benefited only the Jews living in Eretz Yisrael. Purim therefore retains its status as the final universal miracle even though Hanukkah followed it in time.",
+    "resolution": "Purim is identified as the last miracle performed for the Jewish people universally; Hanukkah, though later, was a local miracle limited to Eretz Yisrael, so it does not displace Purim's status as the final universal miracle.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Esther as the 'morning star' is not just a poetic flourish - it maps her historically: just as the morning star is the last brilliant light before full dawn, Esther's miracle was being read as the last great redemption before the eventual messianic dawn."
+    },
+    "ahaMoment": "Esther as the 'morning star' is not just a poetic comparison - it maps her historically: just as the morning star is the last brilliant light before full dawn, Esther's miracle was the last great redemption before the eventual messianic dawn.",
+    "learningBlocker": "The Gemara does not explain whether 'last miracle for all Jews' is meant as a closed historical claim or simply describes Purim's status up to that point - it asserts the universal/local distinction to answer the Hanukkah challenge without addressing whether a future universal miracle could occur.",
+    "memoryAnchor": "Esther = morning star = last darkness before dawn. The pattern: most intense right before the end."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "Opens 'thoughts of transgression': the desire for women is harder to suppress in the body than",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l01"
-      ]
+     "id": "yoma-029a-l01",
+     "type": "claim",
+     "label": "Sinful thoughts worse than sin",
+     "text": "Sinful thoughts are more harmful than the sin itself - the smell of meat stimulates appetite more than the taste. The mental craving is more destructive than the act.",
+     "sourceRefs": [
+      "Yoma.29a.1"
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "closing: the act itself.' Then opens 'the smell of meat': one who smells roasting meat finds the smell very",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l01"
-      ]
+     "id": "yoma-029a-l02",
+     "type": "claim",
+     "label": "Winter fever worse than summer fever",
+     "text": "A fever in winter is more dangerous than in summer - heating a cold oven takes more fuel and effort, so a winter fever burns hotter inside the body.",
+     "sourceRefs": [
+      "Yoma.29a.2"
+     ]
     },
     {
-      "vilnaLine": 3,
-      "en": "closing: appetizing.' Then opens 'the end of summer': Elul, which is the end of summer, is harsher than summer itself; its",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l01"
-      ]
+     "id": "yoma-029a-l05",
+     "type": "claim",
+     "label": "Morning star stronger than moonlight",
+     "text": "R. Abbahu: the netz hachama (morning star's light) is stronger and more intense than moonlight, as derived from Psalm 22.",
+     "sourceRefs": [
+      "Yoma.29a.3"
+     ]
     },
     {
-      "vilnaLine": 4,
-      "en": "continuing: heat is harsher than the heat of summer in Tammuz, since the whole air and people's bodies have already",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l01"
-      ]
+     "id": "yoma-029a-l06",
+     "type": "proof",
+     "label": "Esther = morning star, last miracle",
+     "text": "Psalm 22 begins 'For the choirmaster, on the morning star' - Esther recited this Psalm about herself. She was the 'morning star': the last divine miracle performed for all the Jewish people.",
+     "sourceRefs": [
+      "Yoma.29a.4"
+     ]
     },
     {
-      "vilnaLine": 5,
-      "en": "continuing: grown warm from the summer heat that passed over them; one constantly grows warmer",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l01"
-      ]
+     "id": "yoma-029a-l08",
+     "type": "objection",
+     "label": "What about Hanukkah?",
+     "text": "The Gemara objects: Hanukkah occurred after Purim - wasn't that the 'last miracle'?",
+     "sourceRefs": [
+      "Yoma.29a.5"
+     ]
     },
     {
-      "vilnaLine": 6,
-      "en": "closing: now even from mild heat, and it harms him.' Then opens 'and your mnemonic'",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "continuing: is a heated oven': an oven that has been heated",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: twice or three times in a day is hot and easy to heat further",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "closing: with little wood.' Then opens 'a winter fever':",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "continuing: a fever of the winter months that heats",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: the patient is known to be far more severe",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "closing: than a fever burning him in the summer months.",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Opens 'and your mnemonic is a cold oven': it requires",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "continuing: much wood to heat it; so too here, where the air is cold",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: and the body is cold and the illness inflames it, it is known",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "closing: to be a severe illness.' Then opens 'relearning old material'",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: is harder than new': one who learned and turned his attention away",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: and forgot; it is harder for him to relearn what he forgot",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "closing: than what he never learned at all.' Then opens 'and your mnemonic is clay'",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "continuing: from clay': mud that one kneads from the mud of",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: an old wall's material is harder to knead than",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "closing: than mud from fresh earth.' Then opens 'what is the reason'",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "closing: of Rabbi': who says a column of sunlight splits.",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Opens 'this hind': it is not stated with precision, since there are no",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l06"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "closing: antlers on a female.' Then opens 'why was Esther likened'",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: to a hind': in Tractate Megilla (15b)",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: we say that Esther recited this psalm",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: once she reached the house of idols, the Divine Presence departed",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: from her; she said, 'My God, my God, why",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "closing: have You forsaken me?' Then opens 'that works out well according to the one who said': a dispute",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l15"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: in Tractate Megilla (7a): there is one who",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l15"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: says it renders the hands impure, and there is one",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l15"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: who says it does not render the hands impure,",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l15"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "closing: since it is not a book.' Then opens 'it is established in accordance with Rabbi'",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: Binyamin bar Yefet': meaning he interprets this",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "closing: dawn like Rabbi Binyamin bar Yefet.' Then opens 'why was'",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "continuing: the prayer of the righteous likened, etc.': since this 'dawn'",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: is interpreted as an expression of prayer, like 'my spirit",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "continuing: within me seeks You' (Isaiah 26); 'for the leader, on",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: the prayer' that is like a hind, since the longer it grows,",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "continuing: its antlers branch; each and every year an additional",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "closing: branching is added to it.' Then opens 'when, if we say, etc.':",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "continuing: one might think that 'they brought the High Priest down' is the mishna's own closing clause,",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "continuing: and that it speaks of the day they mistakenly slaughtered the daily-offering at night, saying they brought the High Priest down to the Hall of Immersion",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "closing: to slaughter the daily-offering after immersion; when did this mistake occur?' Then opens 'if we say during the rest'",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "continuing: of the days of the year': meaning not Yom Kippur, at the end of one of the months when the moon rises",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "closing: close to dawn.' Then opens 'there is no alternative to the High Priest': the service of the other",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "closing: days does not require the High Priest specifically.' Then opens and closes 'is there moonlight': to sprout close to dawn.",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "Opens 'this is what it means: and on Yom Kippur, when he said, the light has flashed, etc.': that 'they took it out to the place of burning'",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "continuing: is the conclusion of the earlier matter, and 'they brought the High Priest down' is its own separate matter, and it returns",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "continuing: to explain the order of the Yom Kippur service; and this is what it is saying: when the observer says 'the light has flashed,' they would",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "closing: bring the High Priest down on Yom Kippur to the Hall of Immersion in the morning.' Then opens 'not this alone': not the offering alone",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "closing: that was slaughtered at night did they say is to be burned.' Then opens 'but even the pinching of the bird and the taking of the handful of the meal-offering'",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "continuing: at night, is to be burned': since they derive them from slaughtering, that the pinching of the bird and the taking of the handful of the meal-offering",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "closing: stand in place of the slaughtering of offerings.' Then opens and closes 'what was, was': it cannot be undone.",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "Opens 'he' -",
-      "linkedGemaraLineIds": [
-        "yoma-029a-l28"
-      ]
+     "id": "yoma-029a-l10",
+     "type": "resolution",
+     "label": "Purim = last universal miracle",
+     "text": "Resolution: Purim was the last miracle for all Jews everywhere. Hanukkah affected only Jews in Eretz Yisrael. Purim remains the final universal miracle.",
+     "sourceRefs": [
+      "Yoma.29a.6"
+     ]
     }
-  ],
-  "sugyot": [
+   ],
+   "topicTags": [
+    "Esther",
+    "morning star",
+    "Purim",
+    "Hanukkah",
+    "sinful thoughts",
+    "aggadah",
+    "last miracle",
+    "Psalm 22"
+   ],
+   "concepts": {
+    "halachic": [],
+    "theological": [
+     "sinful thought vs sinful act",
+     "Esther as dawn-star before redemption",
+     "Purim as last universal miracle",
+     "Hanukkah as local miracle"
+    ],
+    "narrative": [
+     "three aggadic maxims",
+     "R. Abbahu's Psalm 22 interpretation",
+     "Purim vs Hanukkah as 'last' miracle"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Purim story (Esther)",
+    "Psalm 22",
+    "Hanukkah vs Purim historical order"
+   ],
+   "misconceptions": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-029a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 18
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.29a.1"
-        },
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.29a.2"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.29a.3"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.29a.4"
-        },
-        {
-          "vilnaLine": 15,
-          "sefariaRef": "Yoma.29a.5"
-        },
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.29a.6"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.29a.1",
-        "Yoma.29a.2",
-        "Yoma.29a.3",
-        "Yoma.29a.4",
-        "Yoma.29a.5",
-        "Yoma.29a.6"
-      ],
-      "display": {
-        "title": "Esther as the morning star: the last universal miracle before dawn",
-        "whats": "Three aggadic maxims about things worse than their counterparts (sinful thought, winter fever, morning star). Rabbi Abbahu: Esther = the morning star, the last great miracle of the Jewish people before the 'dawn' of messianic redemption.",
-        "hint": "The morning star discussion (apropos the dawn theme of the previous page) spirals into a meditation on Esther and the nature of Jewish history's last miracle before full redemption."
-      },
-      "learning": {
-        "learnerQuestion": "Why does the Gemara's discussion of dawn light lead into a teaching that Esther is the 'morning star,' and what does it mean to call her miracle the last one?",
-        "coreTension": "The Gemara strings together three maxims about an intensified version outdoing its counterpart - sinful thought over the sin, winter fever over summer fever, and the morning star's light over moonlight - then uses the third maxim to launch R. Abbahu's claim that Psalm 22 was Esther's own words about herself as the 'morning star,' the last miracle performed for the Jewish people. That claim is immediately challenged: Hanukkah came after Purim, so how can Purim be the last miracle?",
-        "coreMove": "The Gemara resolves the challenge by distinguishing scope rather than chronology: Purim was the last miracle performed for all Jews everywhere, while Hanukkah, though later, benefited only the Jews living in Eretz Yisrael. Purim therefore retains its status as the final universal miracle even though Hanukkah followed it in time.",
-        "resolution": "Purim is identified as the last miracle performed for the Jewish people universally; Hanukkah, though later, was a local miracle limited to Eretz Yisrael, so it does not displace Purim's status as the final universal miracle.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Esther as the 'morning star' is not just a poetic flourish - it maps her historically: just as the morning star is the last brilliant light before full dawn, Esther's miracle was being read as the last great redemption before the eventual messianic dawn."
-        },
-        "ahaMoment": "Esther as the 'morning star' is not just a poetic comparison - it maps her historically: just as the morning star is the last brilliant light before full dawn, Esther's miracle was the last great redemption before the eventual messianic dawn.",
-        "learningBlocker": "The Gemara does not explain whether 'last miracle for all Jews' is meant as a closed historical claim or simply describes Purim's status up to that point - it asserts the universal/local distinction to answer the Hanukkah challenge without addressing whether a future universal miracle could occur.",
-        "memoryAnchor": "Esther = morning star = last darkness before dawn. The pattern: most intense right before the end."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-029a-l01",
-          "type": "claim",
-          "label": "Sinful thoughts worse than sin",
-          "text": "Sinful thoughts are more harmful than the sin itself - the smell of meat stimulates appetite more than the taste. The mental craving is more destructive than the act.",
-          "sourceRefs": [
-            "Yoma.29a.1"
-          ]
-        },
-        {
-          "id": "yoma-029a-l02",
-          "type": "claim",
-          "label": "Winter fever worse than summer fever",
-          "text": "A fever in winter is more dangerous than in summer - heating a cold oven takes more fuel and effort, so a winter fever burns hotter inside the body.",
-          "sourceRefs": [
-            "Yoma.29a.2"
-          ]
-        },
-        {
-          "id": "yoma-029a-l05",
-          "type": "claim",
-          "label": "Morning star stronger than moonlight",
-          "text": "R. Abbahu: the netz hachama (morning star's light) is stronger and more intense than moonlight, as derived from Psalm 22.",
-          "sourceRefs": [
-            "Yoma.29a.3"
-          ]
-        },
-        {
-          "id": "yoma-029a-l06",
-          "type": "proof",
-          "label": "Esther = morning star, last miracle",
-          "text": "Psalm 22 begins 'For the choirmaster, on the morning star' - Esther recited this Psalm about herself. She was the 'morning star': the last divine miracle performed for all the Jewish people.",
-          "sourceRefs": [
-            "Yoma.29a.4"
-          ]
-        },
-        {
-          "id": "yoma-029a-l08",
-          "type": "objection",
-          "label": "What about Hanukkah?",
-          "text": "The Gemara objects: Hanukkah occurred after Purim - wasn't that the 'last miracle'?",
-          "sourceRefs": [
-            "Yoma.29a.5"
-          ]
-        },
-        {
-          "id": "yoma-029a-l10",
-          "type": "resolution",
-          "label": "Purim = last universal miracle",
-          "text": "Resolution: Purim was the last miracle for all Jews everywhere. Hanukkah affected only Jews in Eretz Yisrael. Purim remains the final universal miracle.",
-          "sourceRefs": [
-            "Yoma.29a.6"
-          ]
-        }
-      ],
-      "topicTags": [
-        "Esther",
-        "morning star",
-        "Purim",
-        "Hanukkah",
-        "sinful thoughts",
-        "aggadah",
-        "last miracle",
-        "Psalm 22"
-      ],
-      "concepts": {
-        "halachic": [],
-        "theological": [
-          "sinful thought vs sinful act",
-          "Esther as dawn-star before redemption",
-          "Purim as last universal miracle",
-          "Hanukkah as local miracle"
-        ],
-        "narrative": [
-          "three aggadic maxims",
-          "R. Abbahu's Psalm 22 interpretation",
-          "Purim vs Hanukkah as 'last' miracle"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Purim story (Esther)",
-        "Psalm 22",
-        "Hanukkah vs Purim historical order"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Hanukkah is the last miracle because it occurred after Purim.",
-          "correction": "Purim is the last universal miracle (affecting all Jews); Hanukkah was local (only Eretz Yisrael)."
-        },
-        {
-          "misconception": "The morning star comparison to Esther is just poetry.",
-          "correction": "The Gemara uses it to make a precise historical claim about Esther's place in Jewish history."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-028b-s01",
-        "yoma-029a-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "timeline",
-          "label": "Jewish miracles ending with Purim",
-          "description": "Timeline of miracles: Exodus, Temple, Purim (last universal) - then Hanukkah (local)"
-        },
-        {
-          "type": "contrast",
-          "label": "Morning star vs moonlight",
-          "description": "Morning star: more intense, last light before dawn. Moonlight: reflected, gentler"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "How does the Gemara reconcile the claim that Esther's miracle was the last with the fact that Hanukkah came after?",
-          "answer": "Purim was the last miracle for ALL Jews everywhere; Hanukkah was only for Jews in Eretz Yisrael. Purim is therefore the last universal Jewish miracle."
-        },
-        {
-          "question": "What is the mnemonic the Gemara gives for why sinful thoughts are worse than the sin itself?",
-          "answer": "The smell of meat drives the appetite more intensely than the taste - the mental stimulus (sinful thought) is more powerful than the act."
-        }
-      ],
-      "finalRuling": "Aggadic teachings: sinful thoughts are more spiritually damaging than the act itself; Esther's miracle (Purim) was the last universal miracle for all Jews.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "Hanukkah is the last miracle because it occurred after Purim.",
+     "correction": "Purim is the last universal miracle (affecting all Jews); Hanukkah was local (only Eretz Yisrael)."
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-029a-s02",
-      "lineRange": {
-        "startVilnaLine": 24,
-        "endVilnaLine": 28
-      },
-      "lines": [
-        {
-          "vilnaLine": 24,
-          "sefariaRef": "Yoma.29a.7"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.29a.8"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.29a.9"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.29a.7",
-        "Yoma.29a.8",
-        "Yoma.29a.9"
-      ],
-      "display": {
-        "title": "No repair after dawn: the tamid's premature-slaughter ruling",
-        "whats": "The mishna returns to the confusion incident: they slaughtered the tamid before dawn. The ruling: the incident occurred during the rest of the year (not Yom Kippur). The father of Rabbi Avin teaches: a daily offering slaughtered before dawn is invalid.",
-        "hint": "Premature slaughter before dawn disqualifies the tamid - the daytime requirement for slaughter is absolute."
-      },
-      "learning": {
-        "learnerQuestion": "What is the actual halachic consequence when the tamid is mistakenly slaughtered before dawn, and is there any way to fix it after the fact?",
-        "coreTension": "The mishna raises the confusion incident again and asks for its ruling, but before stating the rule the Gemara first needs to pin down when the incident happened, since a Yom Kippur context could carry different stakes than an ordinary weekday.",
-        "coreMove": "The Gemara clarifies that the incident occurred during the rest of the year, not on Yom Kippur, and the father of Rabbi Avin then states the underlying principle directly: a daily offering slaughtered before dawn is invalid, because the daytime requirement for slaughter is absolute and admits no after-the-fact exception.",
-        "resolution": "The halacha is settled: a tamid slaughtered before dawn is invalid, full stop - the daytime requirement admits no retroactive validation even for an honest mistake.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Dawn functions as a hard halachic threshold, not a guideline - service performed even slightly before it is invalid regardless of intent, with no after-the-fact remedy."
-        },
-        "ahaMoment": "The incident's halachic consequence is clear and absolute: pre-dawn slaughter equals an invalid offering. There is no retroactive validation, no repair.",
-        "learningBlocker": "The sugya does not say whether, once the premature slaughter was discovered, another animal could be slaughtered immediately as a replacement, or whether the error disqualified the rest of that day's morning service.",
-        "memoryAnchor": "Before dawn + slaughter = invalid tamid. No exceptions, no retroactive fix."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-029a-l24",
-          "type": "ruling",
-          "label": "Premature tamid slaughter - ruling",
-          "text": "The mishna addresses the confusion incident: what is the ruling when the tamid is slaughtered before dawn?",
-          "sourceRefs": [
-            "Yoma.29a.7"
-          ]
-        },
-        {
-          "id": "yoma-029a-l25",
-          "type": "resolution",
-          "label": "Incident was not Yom Kippur",
-          "text": "The Gemara clarifies: this incident occurred on a regular weekday, not on Yom Kippur itself.",
-          "sourceRefs": [
-            "Yoma.29a.8"
-          ]
-        },
-        {
-          "id": "yoma-029a-l28",
-          "type": "ruling",
-          "label": "Father of R. Avin: pre-dawn tamid = invalid",
-          "text": "The father of Rabbi Avin teaches: a daily offering slaughtered before dawn is invalid - the daytime requirement is absolute.",
-          "sourceRefs": [
-            "Yoma.29a.9"
-          ]
-        }
-      ],
-      "topicTags": [
-        "premature slaughter",
-        "tamid",
-        "dawn requirement",
-        "invalid offering",
-        "father of R. Avin",
-        "daytime requirement"
-      ],
-      "concepts": {
-        "halachic": [
-          "tamid slaughter must be after dawn",
-          "pre-dawn slaughter = invalid",
-          "daytime requirement for Temple service"
-        ],
-        "theological": [],
-        "narrative": [
-          "confusion incident ruling",
-          "clarification that incident was not Yom Kippur"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "tamid offering",
-        "dawn (shachar)",
-        "daytime requirement for slaughter"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "An accidentally premature tamid can be validated retroactively.",
-          "correction": "Pre-dawn slaughter is an absolute invalidation with no repair."
-        },
-        {
-          "misconception": "The confusion incident happened on Yom Kippur.",
-          "correction": "The Gemara clarifies it occurred on a regular weekday."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-028b-s04",
-        "yoma-029b-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "Dawn threshold for tamid",
-          "description": "Before dawn: slaughter invalid. After dawn: slaughter valid. No middle ground."
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What is the ruling when the tamid is accidentally slaughtered before dawn?",
-          "answer": "The tamid offering is invalid - pre-dawn slaughter disqualifies the offering entirely."
-        },
-        {
-          "question": "During which type of day did the confusion incident (premature tamid) occur?",
-          "answer": "On a regular weekday, not on Yom Kippur."
-        }
-      ],
-      "finalRuling": "A tamid slaughtered before dawn is invalid. The daytime requirement for slaughter is absolute.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "The morning star comparison to Esther is just poetry.",
+     "correction": "The Gemara uses it to make a precise historical claim about Esther's place in Jewish history."
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-028b-s01",
+    "yoma-029a-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "timeline",
+     "label": "Jewish miracles ending with Purim",
+     "description": "Timeline of miracles: Exodus, Temple, Purim (last universal) - then Hanukkah (local)"
+    },
+    {
+     "type": "contrast",
+     "label": "Morning star vs moonlight",
+     "description": "Morning star: more intense, last light before dawn. Moonlight: reflected, gentler"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "How does the Gemara reconcile the claim that Esther's miracle was the last with the fact that Hanukkah came after?",
+     "answer": "Purim was the last miracle for ALL Jews everywhere; Hanukkah was only for Jews in Eretz Yisrael. Purim is therefore the last universal Jewish miracle."
+    },
+    {
+     "question": "What is the mnemonic the Gemara gives for why sinful thoughts are worse than the sin itself?",
+     "answer": "The smell of meat drives the appetite more intensely than the taste - the mental stimulus (sinful thought) is more powerful than the act."
+    }
+   ],
+   "finalRuling": "Aggadic teachings: sinful thoughts are more spiritually damaging than the act itself; Esther's miracle (Purim) was the last universal miracle for all Jews.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-029a-s02",
+   "lineRange": {
+    "startVilnaLine": 24,
+    "endVilnaLine": 28
+   },
+   "lines": [
+    {
+     "vilnaLine": 24,
+     "sefariaRef": "Yoma.29a.7"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.29a.8"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.29a.9"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.29a.7",
+    "Yoma.29a.8",
+    "Yoma.29a.9"
+   ],
+   "display": {
+    "title": "No repair after dawn: the tamid's premature-slaughter ruling",
+    "whats": "The mishna returns to the confusion incident: they slaughtered the tamid before dawn. The ruling: the incident occurred during the rest of the year (not Yom Kippur). The father of Rabbi Avin teaches: a daily offering slaughtered before dawn is invalid.",
+    "hint": "Premature slaughter before dawn disqualifies the tamid - the daytime requirement for slaughter is absolute."
+   },
+   "learning": {
+    "learnerQuestion": "What is the actual halachic consequence when the tamid is mistakenly slaughtered before dawn, and is there any way to fix it after the fact?",
+    "coreTension": "The mishna raises the confusion incident again and asks for its ruling, but before stating the rule the Gemara first needs to pin down when the incident happened, since a Yom Kippur context could carry different stakes than an ordinary weekday.",
+    "coreMove": "The Gemara clarifies that the incident occurred during the rest of the year, not on Yom Kippur, and the father of Rabbi Avin then states the underlying principle directly: a daily offering slaughtered before dawn is invalid, because the daytime requirement for slaughter is absolute and admits no after-the-fact exception.",
+    "resolution": "The halacha is settled: a tamid slaughtered before dawn is invalid, full stop - the daytime requirement admits no retroactive validation even for an honest mistake.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Dawn functions as a hard halachic threshold, not a guideline - service performed even slightly before it is invalid regardless of intent, with no after-the-fact remedy."
+    },
+    "ahaMoment": "The incident's halachic consequence is clear and absolute: pre-dawn slaughter equals an invalid offering. There is no retroactive validation, no repair.",
+    "learningBlocker": "The sugya does not say whether, once the premature slaughter was discovered, another animal could be slaughtered immediately as a replacement, or whether the error disqualified the rest of that day's morning service.",
+    "memoryAnchor": "Before dawn + slaughter = invalid tamid. No exceptions, no retroactive fix."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-029a-l24",
+     "type": "ruling",
+     "label": "Premature tamid slaughter - ruling",
+     "text": "The mishna addresses the confusion incident: what is the ruling when the tamid is slaughtered before dawn?",
+     "sourceRefs": [
+      "Yoma.29a.7"
+     ]
+    },
+    {
+     "id": "yoma-029a-l25",
+     "type": "resolution",
+     "label": "Incident was not Yom Kippur",
+     "text": "The Gemara clarifies: this incident occurred on a regular weekday, not on Yom Kippur itself.",
+     "sourceRefs": [
+      "Yoma.29a.8"
+     ]
+    },
+    {
+     "id": "yoma-029a-l28",
+     "type": "ruling",
+     "label": "Father of R. Avin: pre-dawn tamid = invalid",
+     "text": "The father of Rabbi Avin teaches: a daily offering slaughtered before dawn is invalid - the daytime requirement is absolute.",
+     "sourceRefs": [
+      "Yoma.29a.9"
+     ]
+    }
+   ],
+   "topicTags": [
+    "premature slaughter",
+    "tamid",
+    "dawn requirement",
+    "invalid offering",
+    "father of R. Avin",
+    "daytime requirement"
+   ],
+   "concepts": {
+    "halachic": [
+     "tamid slaughter must be after dawn",
+     "pre-dawn slaughter = invalid",
+     "daytime requirement for Temple service"
+    ],
+    "theological": [],
+    "narrative": [
+     "confusion incident ruling",
+     "clarification that incident was not Yom Kippur"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "tamid offering",
+    "dawn (shachar)",
+    "daytime requirement for slaughter"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "An accidentally premature tamid can be validated retroactively.",
+     "correction": "Pre-dawn slaughter is an absolute invalidation with no repair."
+    },
+    {
+     "misconception": "The confusion incident happened on Yom Kippur.",
+     "correction": "The Gemara clarifies it occurred on a regular weekday."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-028b-s04",
+    "yoma-029b-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "Dawn threshold for tamid",
+     "description": "Before dawn: slaughter invalid. After dawn: slaughter valid. No middle ground."
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What is the ruling when the tamid is accidentally slaughtered before dawn?",
+     "answer": "The tamid offering is invalid - pre-dawn slaughter disqualifies the offering entirely."
+    },
+    {
+     "question": "During which type of day did the confusion incident (premature tamid) occur?",
+     "answer": "On a regular weekday, not on Yom Kippur."
+    }
+   ],
+   "finalRuling": "A tamid slaughtered before dawn is invalid. The daytime requirement for slaughter is absolute.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "review": "reviewed"
+  }
+ ]
 }
