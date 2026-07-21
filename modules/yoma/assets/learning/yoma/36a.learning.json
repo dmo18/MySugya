@@ -1,705 +1,712 @@
 {
-  "daf": "36a",
-  "canonicalRef": "Yoma 36a",
-  "summary": "36a analyzes the Mishna's description of the KG's bull: which tanna holds the bull stands between the vestibule and altar (R. Yehuda), and how the bull can simultaneously have its head pointing south and its face pointing west (its body runs east-west with head turned).",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "36a",
+ "canonicalRef": "Yoma 36a",
+ "summary": "36a analyzes the Mishna's description of the KG's bull: which tanna holds the bull stands between the vestibule and altar (R. Yehuda), and how the bull can simultaneously have its head pointing south and its face pointing west (its body runs east-west with head turned).",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-036a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 15
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-036a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 15
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.36a.1"
-        },
-        {
-          "vilnaLine": 2,
-          "sefariaRef": "Yoma.36a.2"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.36a.3"
-        },
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.36a.4"
-        },
-        {
-          "vilnaLine": 15,
-          "sefariaRef": "Yoma.36a.5"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.36a.1",
-        "Yoma.36a.2",
-        "Yoma.36a.3",
-        "Yoma.36a.4",
-        "Yoma.36a.5"
-      ],
-      "display": {
-        "whats": "Who holds that the bull stands 'between the vestibule and the altar'?",
-        "hint": "Only R. Yehuda; the Rabbis place the confession at the east of the Azarah.",
-        "title": "Whose View Places the Bull There?"
-      },
-      "learning": {
-        "ahaMoment": "The bull's location is a tannaic dispute: between vestibule and altar (R. Yehuda) vs east of the Azarah (Rabbis).",
-        "memoryAnchor": "Same bull, different location: R. Yehuda = vestibule-altar gap; Rabbis = eastern Azarah.",
-        "learnerQuestion": "The Mishna says the bull stands between the vestibule and the altar - but is that universally agreed?",
-        "coreTension": "The Mishna's stated location for the bull (between the vestibule and altar) needs an author, since the Rabbis are known to hold a different position.",
-        "coreMove": "The Gemara identifies R. Yehuda as the source of the Mishna's ruling, linking the confession's location to where the bull's blood is later sprinkled - the Rabbis place the confession further east in the Azarah.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The Mishna's seemingly neutral description of the bull's location actually follows one specific tanna, R. Yehuda, whose view ties the confession site to the blood-sprinkling site."
-        },
-        "learningBlocker": "Learners assume an unattributed Mishna reflects unanimous agreement; here it silently follows R. Yehuda against the Rabbis' dissenting view."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-036a-l01",
-          "type": "question",
-          "label": "Question: Who holds the bull stands between vestibule",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036a-l01",
-              "vilnaLine": 1
-            }
-          ],
-          "text": "Who holds the bull stands between vestibule and altar?"
-        },
-        {
-          "id": "yoma-036a-l02",
-          "type": "resolution",
-          "label": "Resolution: R. Yehuda holds this; the Rabbis disagree",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036a-l02",
-              "vilnaLine": 2
-            }
-          ],
-          "text": "R. Yehuda holds this; the Rabbis disagree on placement."
-        },
-        {
-          "id": "yoma-036a-l09",
-          "type": "elaboration",
-          "label": "Elaboration: The blood of the bull is sprinkled",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036a-l09",
-              "vilnaLine": 9
-            }
-          ],
-          "text": "The blood of the bull is sprinkled between the vestibule and the altar."
-        },
-        {
-          "id": "yoma-036a-l12",
-          "type": "elaboration",
-          "label": "Elaboration: R. Yehuda: the confession location matches the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036a-l12",
-              "vilnaLine": 12
-            }
-          ],
-          "text": "R. Yehuda: the confession location matches the blood sprinkling location."
-        },
-        {
-          "id": "yoma-036a-l15",
-          "type": "ruling",
-          "label": "Ruling: The Mishna follows R. Yehuda; the bull",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036a-l15",
-              "vilnaLine": 15
-            }
-          ],
-          "text": "The Mishna follows R. Yehuda; the bull stands between vestibule and altar."
-        }
-      ],
-      "topicTags": [
-        "Yom Kippur",
-        "KG bull confession",
-        "tannaic dispute"
-      ],
-      "concepts": {
-        "halachic": [
-          "bull location for confession",
-          "blood sprinkling location"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Temple spatial layout",
-        "KG bull"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "All tannaim agree that the KG's confession took place between the vestibule and the altar.",
-          "correction": "This location is R. Yehuda's position; the Rabbis held that the confession took place further east. The Mishna follows R. Yehuda.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-035b-s03"
-      ],
-      "visualizableElements": [
-        {
-          "type": "place",
-          "description": "Between vestibule and altar - contested location for the bull"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "factual",
-          "question": "Which tanna holds the bull stands between the vestibule and altar?",
-          "answer": "R. Yehuda."
-        }
-      ],
-      "finalRuling": "R. Yehuda holds the bull stands between vestibule and altar; the Rabbis disagree on placement.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.36a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-036a-s02",
-      "lineRange": {
-        "startVilnaLine": 17,
-        "endVilnaLine": 29
-      },
-      "lines": [
-        {
-          "vilnaLine": 17,
-          "sefariaRef": "Yoma.36a.6"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.36a.7"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.36a.8"
-        },
-        {
-          "vilnaLine": 29,
-          "sefariaRef": "Yoma.36a.9"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.36a.6",
-        "Yoma.36a.7",
-        "Yoma.36a.8",
-        "Yoma.36a.9"
-      ],
-      "display": {
-        "whats": "How can the bull face both south (head) and west (face) simultaneously?",
-        "hint": "The bull is turned sideways: body aligned east-west, head turned to face south.",
-        "title": "Head South, Face West: How?"
-      },
-      "learning": {
-        "ahaMoment": "Bovine anatomy allows simultaneous orientations: body east-west, head turned south, face west.",
-        "memoryAnchor": "A sideways neck: bull's body east-west, head south, face west - KG east facing west, pressing on.",
-        "learnerQuestion": "How can the bull's head face south while its face simultaneously faces west?",
-        "coreTension": "The Mishna's description seems geometrically contradictory: the bull's head points south while its face points west.",
-        "coreMove": "The Gemara resolves this by orienting the bull's body along an east-west axis with its head turned sideways to the south, so the muzzle still points west - allowing the High Priest to stand east of the bull, facing west toward the Heichal, while pressing both hands on its head.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "An apparent contradiction in the Mishna's spatial description resolves once the turn of the bull's neck, not just its body axis, is accounted for."
-        },
-        "learningBlocker": "Learners read 'head south' and 'face west' as describing two different parts of the body pointing in unrelated directions, rather than realizing both describe the same turned head."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-036a-l17",
-          "type": "question",
-          "label": "Question: How can head face south and face",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036a-l17",
-              "vilnaLine": 17
-            }
-          ],
-          "text": "How can head face south and face face west simultaneously?"
-        },
-        {
-          "id": "yoma-036a-l20",
-          "type": "resolution",
-          "label": "Resolution: The bull stands east-west; its head is",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036a-l20",
-              "vilnaLine": 20
-            }
-          ],
-          "text": "The bull stands east-west; its head is turned to the south while its face (muzzle) points west."
-        },
-        {
-          "id": "yoma-036a-l27",
-          "type": "elaboration",
-          "label": "Elaboration: The KG stands east of the bull,",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036a-l27",
-              "vilnaLine": 27
-            }
-          ],
-          "text": "The KG stands east of the bull, facing west, pressing both hands on the bull's head."
-        },
-        {
-          "id": "yoma-036a-l29",
-          "type": "ruling",
-          "label": "Ruling: This positioning allows the KG to lean",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036a-l29",
-              "vilnaLine": 29
-            }
-          ],
-          "text": "This positioning allows the KG to lean forward on the bull while facing the Heichal."
-        }
-      ],
-      "topicTags": [
-        "Yom Kippur",
-        "KG bull confession",
-        "Temple positioning"
-      ],
-      "concepts": {
-        "halachic": [
-          "bull positioning",
-          "KG stance for semicha"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "semicha (hand-pressing)",
-        "KG Yom Kippur avodah"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The bull's head and its face cannot point in two different directions at once, so the Mishna's description must be contradictory.",
-          "correction": "A turned neck allows the head to point south while the muzzle (face) points west - the bull's body runs east-west with the head turned sideways.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-035b-s03"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "description": "Head south vs face west: explained by sideways neck turn"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "factual",
-          "question": "How does the bull's head face south while its face faces west?",
-          "answer": "The bull stands east-west; its head is turned south while the muzzle naturally faces west."
-        }
-      ],
-      "finalRuling": "The bull stands east-west, head turned south, face west; the KG stands east facing west with both hands pressed on the bull.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 2,
+     "sefariaRef": "Yoma.36a.2"
+    },
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.36a.3"
+    },
+    {
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.36a.4"
+    },
+    {
+     "vilnaLine": 15,
+     "sefariaRef": "Yoma.36a.5"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.36a.1",
+    "Yoma.36a.2",
+    "Yoma.36a.3",
+    "Yoma.36a.4",
+    "Yoma.36a.5"
+   ],
+   "display": {
+    "whats": "Who holds that the bull stands 'between the vestibule and the altar'?",
+    "hint": "Only R. Yehuda; the Rabbis place the confession at the east of the Azarah.",
+    "title": "Whose View Places the Bull There?"
+   },
+   "learning": {
+    "ahaMoment": "The bull's location is a tannaic dispute: between vestibule and altar (R. Yehuda) vs east of the Azarah (Rabbis).",
+    "memoryAnchor": "Same bull, different location: R. Yehuda = vestibule-altar gap; Rabbis = eastern Azarah.",
+    "learnerQuestion": "The Mishna says the bull stands between the vestibule and the altar - but is that universally agreed?",
+    "coreTension": "The Mishna's stated location for the bull (between the vestibule and altar) needs an author, since the Rabbis are known to hold a different position.",
+    "coreMove": "The Gemara identifies R. Yehuda as the source of the Mishna's ruling, linking the confession's location to where the bull's blood is later sprinkled - the Rabbis place the confession further east in the Azarah.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The Mishna's seemingly neutral description of the bull's location actually follows one specific tanna, R. Yehuda, whose view ties the confession site to the blood-sprinkling site."
+    },
+    "learningBlocker": "Learners assume an unattributed Mishna reflects unanimous agreement; here it silently follows R. Yehuda against the Rabbis' dissenting view."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "Opens 'who do you hear say, between the vestibule and the altar': is called north for slaughtering the most",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l01"
-      ]
+     "id": "yoma-036a-l01",
+     "type": "question",
+     "label": "Question: Who holds the bull stands between vestibule",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036a-l01",
+       "vilnaLine": 1
+      }
+     ],
+     "text": "Who holds the bull stands between vestibule and altar?"
     },
     {
-      "vilnaLine": 2,
-      "en": "continuing: sacred offerings, from half the entrance of the Sanctuary and northward, between the vestibule and the altar, as our mishna teaches",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l01"
-      ]
+     "id": "yoma-036a-l02",
+     "type": "resolution",
+     "label": "Resolution: R. Yehuda holds this; the Rabbis disagree",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036a-l02",
+       "vilnaLine": 2
+      }
+     ],
+     "text": "R. Yehuda holds this; the Rabbis disagree on placement."
     },
     {
-      "vilnaLine": 3,
-      "en": "continuing: that his bull stood between the vestibule and the altar, and we learned in the coming chapter (41b)",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l01"
-      ]
+     "id": "yoma-036a-l09",
+     "type": "elaboration",
+     "label": "Elaboration: The blood of the bull is sprinkled",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036a-l09",
+       "vilnaLine": 9
+      }
+     ],
+     "text": "The blood of the bull is sprinkled between the vestibule and the altar."
     },
     {
-      "vilnaLine": 4,
-      "en": "continuing: that he slaughtered it in the place of confession, as it teaches: he comes to his second bull and places his two hands",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l01"
-      ]
+     "id": "yoma-036a-l12",
+     "type": "elaboration",
+     "label": "Elaboration: R. Yehuda: the confession location matches the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036a-l12",
+       "vilnaLine": 12
+      }
+     ],
+     "text": "R. Yehuda: the confession location matches the blood sprinkling location."
     },
     {
-      "vilnaLine": 5,
-      "en": "closing: etc., slaughtered it and received in a basin, etc.' Then opens 'and opposite'",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "continuing: the whole altar': thirty-two cubits",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "continuing: that is opposite the altar to the north is called north",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: for slaughtering the most sacred offerings, but not opposite",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "continuing: the altar, to the west side or east side, even though",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "continuing: it is the north of the courtyard, it is not the north for slaughter",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: since we require 'on the side of the altar,' as it is written",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: (Leviticus 1): 'and he shall slaughter it on the side of the altar'",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "closing: northward.'' Then opens 'northward: even between the vestibule and the altar': any",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "continuing: northern portion toward the west, even though it is not",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: literally the side, but the northern portion that is toward the east",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "closing: and the altar, no (which is from the altar).' Then opens 'Rebbi'",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: adds': even all the north of the courtyard which is in the eleven",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: cubits of the area where the priests",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "closing: tread, until the eastern wall of the courtyard.",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Opens 'but from the beit hachalifot inward': the width",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: of the vestibule exceeds the width of the Sanctuary by fifteen",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: cubits to the north, and correspondingly to the south, and the length of that",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: excess is only ten cubits from east",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: to the west, and that excess is called beit",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: hachalifot, which had twenty-four",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: windows, one window for each priestly watch, where they stored",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: the sacred knives, and a knife is called chalif",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: in Arabic, and the air behind that",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: excess westward, and the air between the north wall",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "continuing: of the excess and the wall of the courtyard is called inward",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "closing: from the beit hachalifot.' Then opens 'all agree it is invalid':",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: since the altar is not visible there, it is not",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "closing: called the side of the altar.' Then opens 'let us say': specifically",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "continuing: Rabbi Elazar b'Rabbi Shimon holds this, and not",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "closing: Rebbi.' Then opens 'now, Rabbi against Rabbi Yosei adds'",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "continuing: etc.: meaning what is the question, is it not obvious",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "continuing: that they do not speak precisely, and that Rebbi",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: who adds the north of the eastern side, which is",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "continuing: further from the sanctity of the Sanctuary, it is regarding Rabbi Yosei",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: that he adds it, but regarding Rabbi Elazar's own view he does not hold so; one could say the further point",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "closing: is valid and the closer point is invalid.' Then opens 'we are saying this': meaning it is certainly obvious",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "continuing: to us that Rebbi too holds that between the vestibule and the altar is north, and this that the mishna says 'let us say' it is not like Rebbi, this is our difficulty, that the tanna of the mishna does not hold like Rebbi",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "closing: who validates the whole north of the courtyard, for if it were like Rebbi why bring it close to between the vestibule and the altar - let him place it in any northern portion of the whole courtyard wherever he wishes.",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Opens 'rather, what - Rabbi Elazar b'Rabbi Shimon': let him place it between the altar's northern wall and the courtyard's northern wall, since according to everyone the essential side of the altar",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l12"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "closing: is truly there.' Then opens 'rather, what can you say': why does he bring it so close.' Then opens 'because of the weakness of the priest': so that the weight of the blood basin not be heavy upon him",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l15"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "closing: from far.' Then opens 'for Rebbi too': even though the whole courtyard is valid in its own north, he brings it close to the entrance because of the weakness of the priest.' Then opens 'let us place it explicitly': his back to the altar",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l15"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "closing: and his face to the Sanctuary.' Then opens 'lest he pass excrement': it is disgraceful to show the place of his waste toward the altar, and it is better this way, that his tail face south and his head north",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l17"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "closing: it comes out that his tail is not opposite the altar, since he does not draw it southward the whole length of the bull, but rather that part of his body is between the vestibule and the altar.' Then opens 'how does one lean': all",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l17"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "closing: leaning of the most sacred offerings.' Then opens 'stands in the north': since the most sacred offerings require north.' Then opens 'and his face west': and his back east.' Then opens 'and the one leaning': the owner.' Then opens 'stands in the east'",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "closing: his back to the east.' Then opens 'sin of a sin-offering': that sin which he brings it for.' Then opens 'and for a burnt-offering, the sin of gleanings, forgotten sheaves, and the corner': since these have no confession, so we read it in the Tosefta",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "continuing: of Menachot (chapter 10), and we do not read in it 'poor man's tithe,' since that has a confession, and also 'and I have given it to the Levite' - this is the first tithe, 'to the orphan and widow' - this is the poor man's tithe (Ma'aser Sheni chapter 5",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "closing: mishna 10).' Then opens 'Rabbi Akiva says: a burnt-offering does not come,' etc.: the reason is explained in the Tosefta: for what does a burnt-offering come, if for matters punishable by karet or court death, their punishment",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "closing: is already stated; if for a negative commandment, its punishment of lashes is stated; so a burnt-offering comes only for a positive commandment or for a negative commandment that is convertible to a positive one, for which there is no lashing.",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "Opens 'with a negative commandment' -",
-      "linkedGemaraLineIds": [
-        "yoma-036a-l29"
-      ]
+     "id": "yoma-036a-l15",
+     "type": "ruling",
+     "label": "Ruling: The Mishna follows R. Yehuda; the bull",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036a-l15",
+       "vilnaLine": 15
+      }
+     ],
+     "text": "The Mishna follows R. Yehuda; the bull stands between vestibule and altar."
     }
-  ]
+   ],
+   "topicTags": [
+    "Yom Kippur",
+    "KG bull confession",
+    "tannaic dispute"
+   ],
+   "concepts": {
+    "halachic": [
+     "bull location for confession",
+     "blood sprinkling location"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Temple spatial layout",
+    "KG bull"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "All tannaim agree that the KG's confession took place between the vestibule and the altar.",
+     "correction": "This location is R. Yehuda's position; the Rabbis held that the confession took place further east. The Mishna follows R. Yehuda.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-035b-s03"
+   ],
+   "visualizableElements": [
+    {
+     "type": "place",
+     "description": "Between vestibule and altar - contested location for the bull"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "factual",
+     "question": "Which tanna holds the bull stands between the vestibule and altar?",
+     "answer": "R. Yehuda."
+    }
+   ],
+   "finalRuling": "R. Yehuda holds the bull stands between vestibule and altar; the Rabbis disagree on placement.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-036a-s02",
+   "lineRange": {
+    "startVilnaLine": 17,
+    "endVilnaLine": 29
+   },
+   "lines": [
+    {
+     "vilnaLine": 17,
+     "sefariaRef": "Yoma.36a.6"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.36a.7"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.36a.8"
+    },
+    {
+     "vilnaLine": 29,
+     "sefariaRef": "Yoma.36a.9"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.36a.6",
+    "Yoma.36a.7",
+    "Yoma.36a.8",
+    "Yoma.36a.9"
+   ],
+   "display": {
+    "whats": "How can the bull face both south (head) and west (face) simultaneously?",
+    "hint": "The bull is turned sideways: body aligned east-west, head turned to face south.",
+    "title": "Head South, Face West: How?"
+   },
+   "learning": {
+    "ahaMoment": "Bovine anatomy allows simultaneous orientations: body east-west, head turned south, face west.",
+    "memoryAnchor": "A sideways neck: bull's body east-west, head south, face west - KG east facing west, pressing on.",
+    "learnerQuestion": "How can the bull's head face south while its face simultaneously faces west?",
+    "coreTension": "The Mishna's description seems geometrically contradictory: the bull's head points south while its face points west.",
+    "coreMove": "The Gemara resolves this by orienting the bull's body along an east-west axis with its head turned sideways to the south, so the muzzle still points west - allowing the High Priest to stand east of the bull, facing west toward the Heichal, while pressing both hands on its head.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "An apparent contradiction in the Mishna's spatial description resolves once the turn of the bull's neck, not just its body axis, is accounted for."
+    },
+    "learningBlocker": "Learners read 'head south' and 'face west' as describing two different parts of the body pointing in unrelated directions, rather than realizing both describe the same turned head."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-036a-l17",
+     "type": "question",
+     "label": "Question: How can head face south and face",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036a-l17",
+       "vilnaLine": 17
+      }
+     ],
+     "text": "How can head face south and face face west simultaneously?"
+    },
+    {
+     "id": "yoma-036a-l20",
+     "type": "resolution",
+     "label": "Resolution: The bull stands east-west; its head is",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036a-l20",
+       "vilnaLine": 20
+      }
+     ],
+     "text": "The bull stands east-west; its head is turned to the south while its face (muzzle) points west."
+    },
+    {
+     "id": "yoma-036a-l27",
+     "type": "elaboration",
+     "label": "Elaboration: The KG stands east of the bull,",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036a-l27",
+       "vilnaLine": 27
+      }
+     ],
+     "text": "The KG stands east of the bull, facing west, pressing both hands on the bull's head."
+    },
+    {
+     "id": "yoma-036a-l29",
+     "type": "ruling",
+     "label": "Ruling: This positioning allows the KG to lean",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036a-l29",
+       "vilnaLine": 29
+      }
+     ],
+     "text": "This positioning allows the KG to lean forward on the bull while facing the Heichal."
+    }
+   ],
+   "topicTags": [
+    "Yom Kippur",
+    "KG bull confession",
+    "Temple positioning"
+   ],
+   "concepts": {
+    "halachic": [
+     "bull positioning",
+     "KG stance for semicha"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "semicha (hand-pressing)",
+    "KG Yom Kippur avodah"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The bull's head and its face cannot point in two different directions at once, so the Mishna's description must be contradictory.",
+     "correction": "A turned neck allows the head to point south while the muzzle (face) points west - the bull's body runs east-west with the head turned sideways.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-035b-s03"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "description": "Head south vs face west: explained by sideways neck turn"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "factual",
+     "question": "How does the bull's head face south while its face faces west?",
+     "answer": "The bull stands east-west; its head is turned south while the muzzle naturally faces west."
+    }
+   ],
+   "finalRuling": "The bull stands east-west, head turned south, face west; the KG stands east facing west with both hands pressed on the bull.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "Who do you hear hold that between the vestibule and the altar - is called north for the slaughter of the most",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "sacred offerings, from half the entrance of the Sanctuary and northward, between the vestibule and the altar, since we learned in the mishnah",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "that his bull stood between the vestibule and the altar, and we learned in the coming chapter (41b)",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "that he slaughtered it in the place of confession, as it teaches: he comes to his second bull and places his two hands",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "etc., slaughtered it and received it in a basin, etc. And opposite",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l01",
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "the whole altar - thirty-two cubits,",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "opposite the altar to the north, is called north",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "for slaughtering the most sacred offerings; but what is not opposite",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "the altar, to the west or east side, even though",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "it is the north of the courtyard, it is not the north for slaughter,",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "since we require 'on the side of the altar,' as it is written",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "(Leviticus 1), 'and he shall slaughter it on the side of the altar,",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "northward.' Even between the vestibule and the altar - any",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "northern portion toward the west, even though it is not",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "literally the side; but the northern portion that is east",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "of the altar, no. Rebbi",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "adds - even all the north of the courtyard within the eleven",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "cubits of the area where the priests",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "tread, up to the eastern wall of the courtyard.",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "But from the beit hachalifot inward - the width",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "of the vestibule exceeds the width of the Sanctuary by fifteen",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "cubits to the north, and correspondingly to the south, and the length of that",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "excess is only ten cubits, from east",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "toward the west, and that excess is called",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "the beit hachalifot, which had twenty-four",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "windows, one window for each priestly watch, where they stored",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "the sacred knives, and a knife is called chalif",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "in Arabic; and the air behind that",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "excess toward the west, and the air between the north wall",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "of the excess and the wall of the courtyard, is called inward",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "from the beit hachalifot. All agree it is invalid -",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "since the altar is not visible there, it is not",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "called the side of the altar. Let us say - specifically",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l02",
+    "yoma-036a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "Rabbi Elazar b'Rabbi Shimon holds this, and not",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "Rebbi. Now, Rebbi against Rabbi Yosei adds",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "etc. - meaning, what is your question? It is obvious",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "that they are not speaking precisely, and that Rebbi,",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "who adds the north of the eastern side, which is",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "further from the Sanctuary's own sanctity, adds it against Rabbi Yosei",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "specifically, but regarding Rabbi Elazar's own view he does not hold so; one could say that the further point",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "is valid and the closer point is invalid. We are saying this - meaning it is certainly obvious",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l09",
+    "yoma-036a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "to us that Rebbi too holds that between the vestibule and the altar is north, and this that the mishnah says 'let us say' it is not like Rebbi, this is our own difficulty, that the tanna of the mishnah does not hold like Rebbi",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "who validates the whole north of the courtyard, for if it were like Rebbi, why bring it close specifically to between the vestibule and the altar? Let him place it in any northern portion of the whole courtyard wherever he wishes.",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "Rather, what - Rabbi Elazar b'Rabbi Shimon? Let him place it between the altar's own northern wall and the courtyard's northern wall, since according to everyone the essential 'side of the altar'",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "is truly there. Rather, what can you say - why does he bring it so close? Because of the priest's own weakness - so that the weight of the blood basin not be heavy upon him",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l12",
+    "yoma-036a-l15"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "from far away. For Rebbi too - even though the whole courtyard is valid in its own north, he brings it close to the entrance because of the priest's own weakness. Let us place it explicitly - his back to the altar",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l15",
+    "yoma-036a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "and his face to the Sanctuary. Lest he pass excrement - it is disgraceful to show the place of his waste toward the altar, and it is better this way, that his tail faces north and his head south,",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "so that his tail is not opposite the altar, since he does not draw it southward the whole length of the bull, but rather only part of his body is between the vestibule and the altar. How does one lean - all",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l17",
+    "yoma-036a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "leaning of the most sacred offerings. He stands in the north - since the most sacred offerings require north. And his face west - and his back east. And the one leaning - the owner. Stands in the east -",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "his back to the east. Sin of a sin-offering - that sin for which he brings it. And for a burnt-offering, the sin of gleanings, forgotten sheaves, and the corner - since these have no confession of their own, this is how we read it in the Tosefta",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "of Menachot (chapter 10), and we do not read in it 'poor man's tithe,' since that one has its own confession, and also 'and I have given it to the Levite' - this is the first tithe, 'to the orphan and widow' - this is the poor man's tithe (Ma'aser Sheni, chapter 5,",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "mishnah 10). Rabbi Akiva says: a burnt-offering does not come, etc. - the reason is explained in the Tosefta: for what does a burnt-offering come? If for matters punishable by karet or court death, their punishment",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l20",
+    "yoma-036a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "is already stated; if for a negative commandment, its own punishment of lashes is stated. So a burnt-offering comes only for a positive commandment, or for a negative commandment convertible to a positive one, for which there is no lashing.",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "With a [negative commandment] - the daf ends mid-comment here; the comment (on which negative commandment their dispute concerns) continues on 36b.",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l29"
+   ]
+  }
+ ]
 }
