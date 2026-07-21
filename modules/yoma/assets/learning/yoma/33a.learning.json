@@ -1,827 +1,836 @@
 {
-  "daf": "33a",
-  "canonicalRef": "Yoma 33a",
-  "summary": "The rov simanim (majority of organs) discussion concludes. Then Abaye presents a comprehensive ordering of the morning Temple service sequence, deriving from scripture or logic the order for: wood arrangement, lamp ash removal, slaughter, blood sprinkling, incense offering, limb placement, and meal-offerings. This is the most complete statement of the Temple morning service sequence in the Talmud.",
-  "review": {
-    "status": "enriched",
-    "version": "10.63"
+ "daf": "33a",
+ "canonicalRef": "Yoma 33a",
+ "summary": "The rov simanim (majority of organs) discussion concludes. Then Abaye presents a comprehensive ordering of the morning Temple service sequence, deriving from scripture or logic the order for: wood arrangement, lamp ash removal, slaughter, blood sprinkling, incense offering, limb placement, and meal-offerings. This is the most complete statement of the Temple morning service sequence in the Talmud.",
+ "review": {
+  "status": "enriched",
+  "version": "10.63"
+ },
+ "glossary": [
+  {
+   "he": "מַעֲרָכָה",
+   "translit": "ma'aracha",
+   "en": "Arrangement; the wood pile on the altar, maintained at all times."
   },
-  "glossary": [
+  {
+   "he": "דִּשּׁוּן הַמִּזְבֵּחַ הַפְּנִימִי",
+   "translit": "dishun hamizbeach hapnimi",
+   "en": "Ash removal from the inner altar; the golden altar for incense, inside the Sanctuary."
+  },
+  {
+   "he": "מְנוֹרָה",
+   "translit": "menorah",
+   "en": "The seven-branched candelabrum in the Sanctuary; five lamps were cleaned before morning slaughter, two after incense."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "Therefore we learned, etc. - from a superfluous mishnah, one for non-sacred slaughter and one for sacred offerings, since",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "Reish Lakish says that this mishnah of the order of the day is taught to explain it, so we learn that non-sacred slaughter",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "too has its 'keratzo' here meant as a majority of two. A mitzva to finish - in order to bring out the blood",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "well. Abaye arranges the sequence in the name of the Gemara - he enumerated the order of every",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l01",
+    "yoma-033a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "day's own services. In the name of the Gemara - since the whole",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "session of the Sages of the study hall. And according to",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "Abba Shaul - who says in the first chapter that the tending",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "of all the lamps precedes the incense.",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "The large arrangement - upon which they burn all",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "the offerings. Precedes - in sequence, before",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "the second arrangement, which is made in the southwest",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "corner, drawn four cubits",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "toward the north, as taught in Tractate Tamid (folio",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "29a). Of incense - since from it they rake",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "coals to bring into the inner altar, morning",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "and evening, to burn upon it the twice-daily incense offering,",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "half in the morning and half in the afternoon.",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "For the arranging of the two logs - which are arranged upon",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "the large arrangement; all these reasons he explains",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "further on. For the blood of the daily offering - for the slaughter",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l03",
+    "yoma-033a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "and the sprinkling. Incense - of the inner altar,",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "precedes the limbs, for burning the limbs of",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "the daily offering on the outer altar. For the meal-offering -",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "the meal-offering of the daily offering's own libation and their libations,",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "as it is written (Numbers 28): 'and a tenth of an ephah",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "of fine flour for a meal-offering,' etc. For the libations - to pour",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "the daily offering's own wine. And the libations before the additional offerings -",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l09",
+    "yoma-033a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "if it is Shabbat. As it is stated, 'and he shall burn upon it",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "the fats of the peace-offerings' - he expounds it as a term of completion,",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "'upon it' referring to the burnt-offering, the morning daily-offering,",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "mentioned at the top of the verse, as it is stated,",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "'and he shall arrange upon it the burnt-offering, and burn'; and he added",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "'and complete,' meaning after it come all the other offerings, and not regarding",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "the afternoon offering did he teach about the daily-offering of the",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "afternoon, that it is last of all the offerings.",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "Mokda - a term for a bonfire of wood, and likewise",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "'tukad.' This is the second arrangement - and it teaches you",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "that it must be on the outer altar, and from there they bring in",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "coals to the inner one. And let me reverse it - to advance",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l17",
+    "yoma-033a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "the incense arrangement's own place; and the verse",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "remains in its own order, since it refers to 'kept burning all night.'",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "Its atonement is great - since upon it they burn",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "all the offerings, except for the incense that goes inside",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "the Sanctuary. 'Does he not bring in,' etc. - it turns out",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l22",
+    "yoma-033a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "that the large arrangement too is fit for use inside. And he shall kindle",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l23",
+    "yoma-033a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "upon it - refers to the large arrangement, since right next to it",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "it says 'and he shall arrange upon it wood,' meaning two logs.",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "And not upon its counterpart - the incense arrangement. And here it is",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l27",
+    "yoma-033a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "written, 'morning by morning, when he tends",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "the lamps he shall burn it' (Exodus 30) - meant",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "to be expounded regarding the inner ash-removal and the lamp-tending",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "and the incense, as it is written 'he shall burn it,' and there is",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "no incense except after the ash-removal. The facilitator",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "takes precedence - what facilitates and prepares this",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "thing precedes it, and the logs are facilitators of the incense,",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "since it is the logs that facilitate",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "the incense. What is the facilitator - what facilitator are we dealing with here?",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "The two logs. But don't they go to the large arrangement - and so are not facilitators",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "of the incense? Category of wood - even though these do not go to the incense arrangement, the name",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l32",
+    "yoma-033a-l37"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "'wood' still makes them facilitators of the incense. I learned it as a tradition - that this is their order. Reasoning",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l37",
+    "yoma-033a-l41"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "I do not know - to give a reason for the matter from my own understanding. One does not pass over - one who encounters",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l41"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "a mitzva should not pass it by, and we derive this in the Mekhilta from 'and you shall guard",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l41"
+   ]
+  },
+  {
+   "vilnaLine": 63,
+   "en": "the matzot' - read it as 'the mitzvot': do not delay it until it becomes leavened and stale.",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l41"
+   ]
+  },
+  {
+   "vilnaLine": 64,
+   "en": "But since - the daf ends mid-comment here; the comment (explaining that the priest entering the Sanctuary with the altar coals would first encounter the golden altar before reaching the candelabrum) continues on 33b.",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l41"
+   ]
+  }
+ ],
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-033a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 1
+   },
+   "lines": [
     {
-      "he": "מַעֲרָכָה",
-      "translit": "ma'aracha",
-      "en": "Arrangement; the wood pile on the altar, maintained at all times."
-    },
-    {
-      "he": "דִּשּׁוּן הַמִּזְבֵּחַ הַפְּנִימִי",
-      "translit": "dishun hamizbeach hapnimi",
-      "en": "Ash removal from the inner altar; the golden altar for incense, inside the Sanctuary."
-    },
-    {
-      "he": "מְנוֹרָה",
-      "translit": "menorah",
-      "en": "The seven-branched candelabrum in the Sanctuary; five lamps were cleaned before morning slaughter, two after incense."
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.33a.1"
     }
-  ],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "en": "Opens explaining why the mishna repeats the rov-simanim teaching separately for non-sacred slaughter and for sacred offerings: Reish Lakish's statement, said regarding this very passage on the order of the day's service.",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l01"
-      ]
+   ],
+   "sefariaRefs": [
+    "Yoma.33a.1"
+   ],
+   "display": {
+    "whats": "Conclusion of the rov simanim discussion: majority of one organ (trachea) in a bird, majority of both (trachea and esophagus) in a beast.",
+    "hint": "This brief conclusion closes the shechita discussion before Abaye's major sequence teaching.",
+    "title": "Bird versus beast: how many organs make a valid shechita?"
+   },
+   "learning": {
+    "ahaMoment": "Bird and beast have different shechita requirements - this distinction applies equally to Temple offerings and everyday slaughter.",
+    "memoryAnchor": "Bird = one organ majority. Beast = both organs majority. The High Priest's tamid uses beast rules.",
+    "learnerQuestion": "Does the majority-organ rule for valid slaughter apply the same way to birds as it does to animals like the tamid lamb?",
+    "coreTension": "The rov simanim discussion needs to specify whether the majority requirement applies to one organ or to both, and whether that requirement is the same across different categories of creatures.",
+    "coreMove": "The Gemara closes the discussion by distinguishing the two cases: a bird's shechita is valid with a majority cut through just one of its two organs (trachea or esophagus), while a beast - including the tamid lamb the High Priest slaughters - requires a majority cut through both organs.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The general principle of rov simanim is not uniform across all creatures; birds and beasts have distinct thresholds, and applying the wrong one would misjudge whether a slaughter is valid."
     },
+    "learningBlocker": "A learner might assume rov simanim means the same single standard for every animal, missing that the Gemara explicitly sets a lighter bar for birds than for beasts."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 2,
-      "en": "Continues: since this passage of Reish Lakish's is learned in connection with the order of the day's service, it shows that non-sacred slaughter too follows the majority-of-two-organs rule taught here.",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "Closes that point, then opens 'a mitzva to finish': completing the cut, though not strictly required, lets the blood flow out well.",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "Closes 'to finish... well,' then opens 'Abaye arranges the sequence in the name of the Gemara': he counted the order of every day's Temple services.",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "Continues 'in the name of the Gemara': meaning it came from the entire study hall of the Sages.",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "Closes that gloss, opens 'and according to Abba Shaul' -",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "continuing: Abba Shaul, who states in the first chapter (of Tamid) that cleaning of all the lamps precedes -",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "the incense (closing the Abba Shaul citation).",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "Opens 'the large arrangement': the wood pile on the altar on which all the offerings are burned.",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Closes that, opens 'precedes': explaining the location of the second (incense) arrangement, set up before -",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "the second arrangement, which is made in the southwest corner,",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "drawn four cubits north from the corner,",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "as taught in Tractate Tamid (folio",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "29a); closes that citation. Opens 'of incense': explaining that coals are raked from it",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "to bring into the inner altar, morning and evening,",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "to burn the twice-daily incense offering upon it,",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "half in the morning and half in the afternoon (closing the gloss).",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Opens 'for arranging the two logs': which are arranged upon -",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "the large arrangement; all these reasons are explained further on (closing).",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Closes that promise of reasons ahead, then opens 'for the blood of the daily offering': referring to -",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "the slaughter and the sprinkling (closing). Opens 'incense': of the inner altar, precedes -",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "the limbs, to burn the daily offering's limbs",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "on the outer altar (closing). Opens 'for the meal-offering':",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "the daily offering's own meal-offering and its libations,",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "as it is written (Numbers 28): 'a tenth of an ephah of fine flour for a meal-offering...'",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "closing that verse citation. Opens 'for the libations': to pour -",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "the daily offering's own wine (closing). Opens 'and libations to the additional offerings': if it is Shabbat.",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Closes that. Opens 'as it is stated, and he shall burn on it the fats of the peace-offerings':",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "he reads 'upon it' as a term of completion,",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "referring back to the morning daily-offering",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "mentioned at the top of the verse, as it is stated,",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "'and he shall arrange upon it the burnt-offering, and burn'; and he added",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "'and complete' after it all the other offerings, teaching that this is not",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "about the afternoon offering itself, but rather that the afternoon",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "daily offering is the last of all the offerings (closing the gloss).",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l14"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "Opens 'mokda': a term for a wood bonfire, and likewise -",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l17"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "'tukad' (closing). Opens 'this is the second arrangement': teaching -",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l17"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "it must be on the outer altar, from where they bring in",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l17"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "coals to the inner one (closing). Opens 'and I will reverse it': to advance -",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "the incense arrangement's verse ... and the verse",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "stays in its own order, since 'all night' refers to [the large arrangement] (closing).",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Opens 'its atonement is great': since upon it they burn",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "all the offerings except for the incense that goes inside",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l22"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "the Sanctuary (closing). Opens 'does he not bring in, etc.': proving that",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "the large arrangement too is fit for use inside (closing). Opens 'and he shall kindle upon it': referring to -",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "the large arrangement, since right nearby it says 'and he shall arrange upon it wood' -",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "two logs (closing that gloss).",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "Closes 'and not its counterpart' (the incense arrangement), then opens 'and here it is written':",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "'in the morning, in the morning, when he tends the lamps he shall burn it' (Exodus 30) - meant",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "to be expounded regarding the inner altar's ash removal, and the lamp-tending,",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "and the incense, since it says 'he shall burn it,' and there is",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "no incense except after the ash removal (closing).",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "Opens 'the facilitator takes precedence': what facilitates and prepares",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "this thing precedes it, and the logs are facilitators of the incense",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "since logs are what facilitate",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "the incense (closing).",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "Opens 'what is the facilitator': what facilitator are we dealing with here?",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "The two logs (closing). Opens 'but don't they go to the large arrangement': and so are not facilitators of the incense (closing).",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "Opens 'category of wood': even though these logs do not go to the incense arrangement,",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l37"
-      ]
-    },
-    {
-      "vilnaLine": 60,
-      "en": "Closes 'category of wood' (they still count as wood, a facilitator of incense), states 'I learned it as a tradition - that this is their order,' and opens 'reasoning' -",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l41"
-      ]
-    },
-    {
-      "vilnaLine": 61,
-      "en": "'I do not know it,' to give a reason on my own understanding (closing). Opens 'one does not pass over a mitzva': one who encounters -",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l41"
-      ]
-    },
-    {
-      "vilnaLine": 62,
-      "en": "a mitzva should not pass it by; this is derived in the Mekhilta from the phrase 'you shall guard' -",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l41"
-      ]
-    },
-    {
-      "vilnaLine": 63,
-      "en": "'the mitzvot,' read as: do not delay performing it lest it become leavened and stale (closing the comment).",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l41"
-      ]
-    },
-    {
-      "vilnaLine": 64,
-      "en": "Single truncated word, 'and behold' (ve'chi), continuing onto 33b.",
-      "linkedGemaraLineIds": [
-        "yoma-033a-l41"
-      ]
+     "id": "yoma-033a-l01",
+     "type": "ruling",
+     "label": "Rov simanim: bird vs beast",
+     "text": "For birds: majority of one organ completes shechita. For beasts: majority of both organs required.",
+     "sourceRefs": [
+      "Yoma.33a.1"
+     ]
     }
-  ],
-  "sugyot": [
+   ],
+   "topicTags": [
+    "rov simanim",
+    "shechita",
+    "bird vs beast",
+    "tamid slaughter"
+   ],
+   "concepts": {
+    "halachic": [
+     "bird shechita - one organ",
+     "beast shechita - two organs"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "shechita",
+    "rov simanim (majority of organs)",
+    "tamid slaughter"
+   ],
+   "misconceptions": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-033a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 1
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.33a.1"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.33a.1"
-      ],
-      "display": {
-        "whats": "Conclusion of the rov simanim discussion: majority of one organ (trachea) in a bird, majority of both (trachea and esophagus) in a beast.",
-        "hint": "This brief conclusion closes the shechita discussion before Abaye's major sequence teaching.",
-        "title": "Bird versus beast: how many organs make a valid shechita?"
-      },
-      "learning": {
-        "ahaMoment": "Bird and beast have different shechita requirements - this distinction applies equally to Temple offerings and everyday slaughter.",
-        "memoryAnchor": "Bird = one organ majority. Beast = both organs majority. The High Priest's tamid uses beast rules.",
-        "learnerQuestion": "Does the majority-organ rule for valid slaughter apply the same way to birds as it does to animals like the tamid lamb?",
-        "coreTension": "The rov simanim discussion needs to specify whether the majority requirement applies to one organ or to both, and whether that requirement is the same across different categories of creatures.",
-        "coreMove": "The Gemara closes the discussion by distinguishing the two cases: a bird's shechita is valid with a majority cut through just one of its two organs (trachea or esophagus), while a beast - including the tamid lamb the High Priest slaughters - requires a majority cut through both organs.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The general principle of rov simanim is not uniform across all creatures; birds and beasts have distinct thresholds, and applying the wrong one would misjudge whether a slaughter is valid."
-        },
-        "learningBlocker": "A learner might assume rov simanim means the same single standard for every animal, missing that the Gemara explicitly sets a lighter bar for birds than for beasts."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-033a-l01",
-          "type": "ruling",
-          "label": "Rov simanim: bird vs beast",
-          "text": "For birds: majority of one organ completes shechita. For beasts: majority of both organs required.",
-          "sourceRefs": [
-            "Yoma.33a.1"
-          ]
-        }
-      ],
-      "topicTags": [
-        "rov simanim",
-        "shechita",
-        "bird vs beast",
-        "tamid slaughter"
-      ],
-      "concepts": {
-        "halachic": [
-          "bird shechita - one organ",
-          "beast shechita - two organs"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "shechita",
-        "rov simanim (majority of organs)",
-        "tamid slaughter"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The rov simanim rule is the same for all animals.",
-          "correction": "Birds require only one organ while beasts require both."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-032b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "Bird vs beast shechita",
-          "description": "Bird: one organ majority. Beast: both organs majority."
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "How many organs must be cut through for valid shechita in a beast vs a bird?",
-          "answer": "In a beast: majority of both organs (trachea and esophagus). In a bird: majority of either one organ."
-        }
-      ],
-      "finalRuling": "Beast shechita requires majority of both organs; bird shechita requires majority of one.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "The rov simanim rule is the same for all animals.",
+     "correction": "Birds require only one organ while beasts require both."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-032b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "Bird vs beast shechita",
+     "description": "Bird: one organ majority. Beast: both organs majority."
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "How many organs must be cut through for valid shechita in a beast vs a bird?",
+     "answer": "In a beast: majority of both organs (trachea and esophagus). In a bird: majority of either one organ."
+    }
+   ],
+   "finalRuling": "Beast shechita requires majority of both organs; bird shechita requires majority of one.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-033a-s02",
+   "lineRange": {
+    "startVilnaLine": 3,
+    "endVilnaLine": 41
+   },
+   "lines": [
+    {
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.33a.2"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-033a-s02",
-      "lineRange": {
-        "startVilnaLine": 3,
-        "endVilnaLine": 41
-      },
-      "lines": [
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.33a.2"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.33a.3"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.33a.4"
-        },
-        {
-          "vilnaLine": 17,
-          "sefariaRef": "Yoma.33a.5"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.33a.6"
-        },
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.33a.7"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.33a.8"
-        },
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.33a.9"
-        },
-        {
-          "vilnaLine": 32,
-          "sefariaRef": "Yoma.33a.10"
-        },
-        {
-          "vilnaLine": 37,
-          "sefariaRef": "Yoma.33a.11"
-        },
-        {
-          "vilnaLine": 41,
-          "sefariaRef": "Yoma.33a.12"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.33a.2",
-        "Yoma.33a.3",
-        "Yoma.33a.4",
-        "Yoma.33a.5",
-        "Yoma.33a.6",
-        "Yoma.33a.7",
-        "Yoma.33a.8",
-        "Yoma.33a.9",
-        "Yoma.33a.10",
-        "Yoma.33a.11",
-        "Yoma.33a.12"
-      ],
-      "display": {
-        "whats": "Abaye presents the definitive sequence of the morning Temple service: large wood arrangement - small arrangement for incense - five-lamp ash removal - tamid slaughter - blood - incense - two logs - inner altar ash removal - two remaining lamp ashes. Each item's precedence is derived from scripture or logic.",
-        "hint": "This is the most comprehensive listing of Temple morning service order in the Talmud - each step is carefully sequenced and justified.",
-        "title": "Abaye's master sequence for the morning Temple service"
-      },
-      "learning": {
-        "ahaMoment": "Abaye's sequence is not a simple list - every item's position is derived from textual analysis. The morning Temple service was a precisely ordered liturgy where each act was performed in a specific sequence determined by biblical interpretation.",
-        "memoryAnchor": "Think of the morning Temple service as a carefully scripted ritual in seven stages: Wood + fire, Lamps (5), Tamid, Inner altar, Incense, Limbs, Meals. Each stage has its biblical anchor.",
-        "learnerQuestion": "In what exact order did the priests perform the many separate tasks that made up the morning Temple service, and how does the Gemara know that order is correct?",
-        "coreTension": "The Torah describes the components of the morning service - wood arrangement, lamp cleaning, the tamid, incense, and more - without spelling out their precise sequence, leaving the order to be reconstructed from scattered textual cues.",
-        "coreMove": "Abaye builds out the full sequence step by step, anchoring each item's position to specific biblical language - most notably the doubled phrase 'in the morning, in the morning,' which he reads as teaching that one task must precede another - so that the order is derived rather than assumed.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "A long, intricate ritual sequence can be reconstructed entirely from a handful of textual cues, such as a doubled word or a paired phrase, when each cue is read as deliberately signaling a precedence relationship between two specific tasks."
-        },
-        "learningBlocker": "It is easy to read Abaye's sequence as simply a traditional or practical ordering, when in fact nearly every step's position is defended with a specific textual derivation rather than assumed convenience."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-033a-l03",
-          "type": "ruling",
-          "label": "Step 1: Large wood arrangement first",
-          "text": "The large wood arrangement (ma'aracha gedola) comes before all other services - it must be burning before anything can be offered.",
-          "sourceRefs": [
-            "Yoma.33a.2"
-          ]
-        },
-        {
-          "id": "yoma-033a-l07",
-          "type": "ruling",
-          "label": "Step 2: Five-lamp ash removal before tamid",
-          "text": "Ash removal from five of the seven menorah lamps precedes the slaughter and blood of the tamid.",
-          "sourceRefs": [
-            "Yoma.33a.3"
-          ]
-        },
-        {
-          "id": "yoma-033a-l11",
-          "type": "ruling",
-          "label": "Steps 3-4: Tamid, then libations before musaf",
-          "text": "The tamid service (slaughter, blood) precedes the wine libation; libations precede the musaf offerings on days when they are brought.",
-          "sourceRefs": [
-            "Yoma.33a.4"
-          ]
-        },
-        {
-          "id": "yoma-033a-l13",
-          "type": "proof",
-          "label": "Source: doubled 'in the morning'",
-          "text": "From 'in the morning, in the morning' - the doubled phrase teaches that one 'morning' applies to the wood arrangement and one to the lamp ash removal, establishing their sequence.",
-          "sourceRefs": [
-            "Yoma.33a.5"
-          ]
-        },
-        {
-          "id": "yoma-033a-l16",
-          "type": "objection",
-          "label": "Could the order be reversed?",
-          "text": "Could the verse's doubled phrase apply to lamps first, then wood? No - the second arrangement (for ketoret) takes precedence over reversing the lamp order.",
-          "sourceRefs": [
-            "Yoma.33a.6"
-          ]
-        },
-        {
-          "id": "yoma-033a-l20",
-          "type": "ruling",
-          "label": "Second arrangement precedes two logs",
-          "text": "The ketoret-fire arrangement precedes the placement of the two sustaining logs on the main altar.",
-          "sourceRefs": [
-            "Yoma.33a.7"
-          ]
-        },
-        {
-          "id": "yoma-033a-l27",
-          "type": "ruling",
-          "label": "Two logs precede inner altar ash removal",
-          "text": "The two logs must be placed on the altar fire before ash is removed from the inner altar (the ketoret altar).",
-          "sourceRefs": [
-            "Yoma.33a.9"
-          ]
-        },
-        {
-          "id": "yoma-033a-l31",
-          "type": "premise",
-          "label": "R. Yirmeya: category of wood",
-          "text": "Rabbi Yirmeya: even logs that do not actually burn still count for the 'two log' obligation - they are in the 'category of wood.'",
-          "sourceRefs": [
-            "Yoma.33a.10"
-          ]
-        },
-        {
-          "id": "yoma-033a-l35",
-          "type": "ruling",
-          "label": "Inner altar ash before remaining two lamps",
-          "text": "Ash removal from the inner altar precedes ash removal from the remaining two menorah lamps.",
-          "sourceRefs": [
-            "Yoma.33a.11"
-          ]
-        },
-        {
-          "id": "yoma-033a-l41",
-          "type": "question",
-          "label": "Why split lamp cleaning 5+2?",
-          "text": "The Gemara asks: why are five lamps cleaned before the tamid and two lamps cleaned only after the inner altar - why not all seven at once?",
-          "sourceRefs": [
-            "Yoma.33a.12"
-          ]
-        }
-      ],
-      "topicTags": [
-        "Abaye",
-        "Temple service sequence",
-        "morning tamid order",
-        "wood arrangement",
-        "menorah lamps",
-        "inner altar",
-        "ketoret",
-        "R. Yirmeya",
-        "biblical derivation"
-      ],
-      "concepts": {
-        "halachic": [
-          "morning service sequence",
-          "wood arrangement order",
-          "5+2 lamp cleaning split",
-          "ketoret before limbs",
-          "inner altar ash timing",
-          "R. Yirmeya on category of wood"
-        ],
-        "theological": [
-          "Temple morning service as divine liturgy",
-          "each service step has biblical anchor"
-        ],
-        "narrative": [
-          "Abaye's comprehensive sequence",
-          "R. Yirmeya's 'category of wood' principle"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "tamid service",
-        "menorah (seven lamps)",
-        "inner altar",
-        "ketoret",
-        "wood arrangements (large and small)"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The Temple morning service had no fixed order.",
-          "correction": "Abaye demonstrates it had a precise biblically-derived sequence."
-        },
-        {
-          "misconception": "All seven menorah lamps were cleaned at the same time.",
-          "correction": "Five are cleaned before the tamid slaughter, and two are cleaned only after the inner altar ash removal."
-        },
-        {
-          "misconception": "The incense offering (ketoret) came at the beginning of the day.",
-          "correction": "It came in the middle of the sequence, after the tamid's blood was sprinkled."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-033b-s01",
-        "yoma-033b-s02",
-        "yoma-034a-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "label": "Abaye's morning service order",
-          "description": "Wood (large) - Wood (incense) - 5 Lamps - Tamid slaughter/blood - Inner altar ash - 2 logs - 2 Lamps - Ketoret - Limbs - Meal-offering - Libation"
-        },
-        {
-          "type": "text",
-          "label": "Doubled 'in the morning' source",
-          "description": "Leviticus's doubled phrase 'in the morning, in the morning' establishes the order of wood arrangement vs lamp ash removal"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "In Abaye's morning service sequence, does the ash removal from all seven menorah lamps happen at once?",
-          "answer": "No - five lamps are cleaned before the tamid slaughter, and the remaining two are cleaned only after the inner altar ash removal."
-        },
-        {
-          "question": "What does Rabbi Yirmeya teach about the two-log placement with the phrase 'category of wood'?",
-          "answer": "Even logs that do not actually burn still fulfill the obligation to place two logs on the altar fire - they are in the 'category of wood' and their presence suffices."
-        }
-      ],
-      "finalRuling": "Abaye's sequence of the morning Temple service is the definitive ordering, each step with its biblical or logical source.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.33a.3"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.33a.4"
+    },
+    {
+     "vilnaLine": 17,
+     "sefariaRef": "Yoma.33a.5"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.33a.6"
+    },
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.33a.7"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.33a.8"
+    },
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.33a.9"
+    },
+    {
+     "vilnaLine": 32,
+     "sefariaRef": "Yoma.33a.10"
+    },
+    {
+     "vilnaLine": 37,
+     "sefariaRef": "Yoma.33a.11"
+    },
+    {
+     "vilnaLine": 41,
+     "sefariaRef": "Yoma.33a.12"
     }
-  ]
+   ],
+   "sefariaRefs": [
+    "Yoma.33a.2",
+    "Yoma.33a.3",
+    "Yoma.33a.4",
+    "Yoma.33a.5",
+    "Yoma.33a.6",
+    "Yoma.33a.7",
+    "Yoma.33a.8",
+    "Yoma.33a.9",
+    "Yoma.33a.10",
+    "Yoma.33a.11",
+    "Yoma.33a.12"
+   ],
+   "display": {
+    "whats": "Abaye presents the definitive sequence of the morning Temple service: large wood arrangement - small arrangement for incense - five-lamp ash removal - tamid slaughter - blood - incense - two logs - inner altar ash removal - two remaining lamp ashes. Each item's precedence is derived from scripture or logic.",
+    "hint": "This is the most comprehensive listing of Temple morning service order in the Talmud - each step is carefully sequenced and justified.",
+    "title": "Abaye's master sequence for the morning Temple service"
+   },
+   "learning": {
+    "ahaMoment": "Abaye's sequence is not a simple list - every item's position is derived from textual analysis. The morning Temple service was a precisely ordered liturgy where each act was performed in a specific sequence determined by biblical interpretation.",
+    "memoryAnchor": "Think of the morning Temple service as a carefully scripted ritual in seven stages: Wood + fire, Lamps (5), Tamid, Inner altar, Incense, Limbs, Meals. Each stage has its biblical anchor.",
+    "learnerQuestion": "In what exact order did the priests perform the many separate tasks that made up the morning Temple service, and how does the Gemara know that order is correct?",
+    "coreTension": "The Torah describes the components of the morning service - wood arrangement, lamp cleaning, the tamid, incense, and more - without spelling out their precise sequence, leaving the order to be reconstructed from scattered textual cues.",
+    "coreMove": "Abaye builds out the full sequence step by step, anchoring each item's position to specific biblical language - most notably the doubled phrase 'in the morning, in the morning,' which he reads as teaching that one task must precede another - so that the order is derived rather than assumed.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "A long, intricate ritual sequence can be reconstructed entirely from a handful of textual cues, such as a doubled word or a paired phrase, when each cue is read as deliberately signaling a precedence relationship between two specific tasks."
+    },
+    "learningBlocker": "It is easy to read Abaye's sequence as simply a traditional or practical ordering, when in fact nearly every step's position is defended with a specific textual derivation rather than assumed convenience."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-033a-l03",
+     "type": "ruling",
+     "label": "Step 1: Large wood arrangement first",
+     "text": "The large wood arrangement (ma'aracha gedola) comes before all other services - it must be burning before anything can be offered.",
+     "sourceRefs": [
+      "Yoma.33a.2"
+     ]
+    },
+    {
+     "id": "yoma-033a-l07",
+     "type": "ruling",
+     "label": "Step 2: Five-lamp ash removal before tamid",
+     "text": "Ash removal from five of the seven menorah lamps precedes the slaughter and blood of the tamid.",
+     "sourceRefs": [
+      "Yoma.33a.3"
+     ]
+    },
+    {
+     "id": "yoma-033a-l11",
+     "type": "ruling",
+     "label": "Steps 3-4: Tamid, then libations before musaf",
+     "text": "The tamid service (slaughter, blood) precedes the wine libation; libations precede the musaf offerings on days when they are brought.",
+     "sourceRefs": [
+      "Yoma.33a.4"
+     ]
+    },
+    {
+     "id": "yoma-033a-l13",
+     "type": "proof",
+     "label": "Source: doubled 'in the morning'",
+     "text": "From 'in the morning, in the morning' - the doubled phrase teaches that one 'morning' applies to the wood arrangement and one to the lamp ash removal, establishing their sequence.",
+     "sourceRefs": [
+      "Yoma.33a.5"
+     ]
+    },
+    {
+     "id": "yoma-033a-l16",
+     "type": "objection",
+     "label": "Could the order be reversed?",
+     "text": "Could the verse's doubled phrase apply to lamps first, then wood? No - the second arrangement (for ketoret) takes precedence over reversing the lamp order.",
+     "sourceRefs": [
+      "Yoma.33a.6"
+     ]
+    },
+    {
+     "id": "yoma-033a-l20",
+     "type": "ruling",
+     "label": "Second arrangement precedes two logs",
+     "text": "The ketoret-fire arrangement precedes the placement of the two sustaining logs on the main altar.",
+     "sourceRefs": [
+      "Yoma.33a.7"
+     ]
+    },
+    {
+     "id": "yoma-033a-l27",
+     "type": "ruling",
+     "label": "Two logs precede inner altar ash removal",
+     "text": "The two logs must be placed on the altar fire before ash is removed from the inner altar (the ketoret altar).",
+     "sourceRefs": [
+      "Yoma.33a.9"
+     ]
+    },
+    {
+     "id": "yoma-033a-l31",
+     "type": "premise",
+     "label": "R. Yirmeya: category of wood",
+     "text": "Rabbi Yirmeya: even logs that do not actually burn still count for the 'two log' obligation - they are in the 'category of wood.'",
+     "sourceRefs": [
+      "Yoma.33a.10"
+     ]
+    },
+    {
+     "id": "yoma-033a-l35",
+     "type": "ruling",
+     "label": "Inner altar ash before remaining two lamps",
+     "text": "Ash removal from the inner altar precedes ash removal from the remaining two menorah lamps.",
+     "sourceRefs": [
+      "Yoma.33a.11"
+     ]
+    },
+    {
+     "id": "yoma-033a-l41",
+     "type": "question",
+     "label": "Why split lamp cleaning 5+2?",
+     "text": "The Gemara asks: why are five lamps cleaned before the tamid and two lamps cleaned only after the inner altar - why not all seven at once?",
+     "sourceRefs": [
+      "Yoma.33a.12"
+     ]
+    }
+   ],
+   "topicTags": [
+    "Abaye",
+    "Temple service sequence",
+    "morning tamid order",
+    "wood arrangement",
+    "menorah lamps",
+    "inner altar",
+    "ketoret",
+    "R. Yirmeya",
+    "biblical derivation"
+   ],
+   "concepts": {
+    "halachic": [
+     "morning service sequence",
+     "wood arrangement order",
+     "5+2 lamp cleaning split",
+     "ketoret before limbs",
+     "inner altar ash timing",
+     "R. Yirmeya on category of wood"
+    ],
+    "theological": [
+     "Temple morning service as divine liturgy",
+     "each service step has biblical anchor"
+    ],
+    "narrative": [
+     "Abaye's comprehensive sequence",
+     "R. Yirmeya's 'category of wood' principle"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "tamid service",
+    "menorah (seven lamps)",
+    "inner altar",
+    "ketoret",
+    "wood arrangements (large and small)"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The Temple morning service had no fixed order.",
+     "correction": "Abaye demonstrates it had a precise biblically-derived sequence."
+    },
+    {
+     "misconception": "All seven menorah lamps were cleaned at the same time.",
+     "correction": "Five are cleaned before the tamid slaughter, and two are cleaned only after the inner altar ash removal."
+    },
+    {
+     "misconception": "The incense offering (ketoret) came at the beginning of the day.",
+     "correction": "It came in the middle of the sequence, after the tamid's blood was sprinkled."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-033b-s01",
+    "yoma-033b-s02",
+    "yoma-034a-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "label": "Abaye's morning service order",
+     "description": "Wood (large) - Wood (incense) - 5 Lamps - Tamid slaughter/blood - Inner altar ash - 2 logs - 2 Lamps - Ketoret - Limbs - Meal-offering - Libation"
+    },
+    {
+     "type": "text",
+     "label": "Doubled 'in the morning' source",
+     "description": "Leviticus's doubled phrase 'in the morning, in the morning' establishes the order of wood arrangement vs lamp ash removal"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "In Abaye's morning service sequence, does the ash removal from all seven menorah lamps happen at once?",
+     "answer": "No - five lamps are cleaned before the tamid slaughter, and the remaining two are cleaned only after the inner altar ash removal."
+    },
+    {
+     "question": "What does Rabbi Yirmeya teach about the two-log placement with the phrase 'category of wood'?",
+     "answer": "Even logs that do not actually burn still fulfill the obligation to place two logs on the altar fire - they are in the 'category of wood' and their presence suffices."
+    }
+   ],
+   "finalRuling": "Abaye's sequence of the morning Temple service is the definitive ordering, each step with its biblical or logical source.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "review": "reviewed"
+  }
+ ]
 }
