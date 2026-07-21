@@ -1,784 +1,791 @@
 {
-  "daf": "32a",
-  "canonicalRef": "Yoma 32a",
-  "summary": "The Gemara asks how R. Meir arrives at exactly five immersions and ten sanctifications. Then an extensive discussion presents multiple tannaitic and amoraic derivations for the five immersions: Rav Hisda's tradition, Rabbi Yehuda's biblical derivation, Rabbi Yehuda HaNasi's alternative, Rabbi Elazar son of Rabbi Shimon's kal vachomer. Each Sage derives the same five-immersion rule from different biblical sources.",
-  "review": {
-    "status": "enriched",
-    "version": "10.63"
+ "daf": "32a",
+ "canonicalRef": "Yoma 32a",
+ "summary": "The Gemara asks how R. Meir arrives at exactly five immersions and ten sanctifications. Then an extensive discussion presents multiple tannaitic and amoraic derivations for the five immersions: Rav Hisda's tradition, Rabbi Yehuda's biblical derivation, Rabbi Yehuda HaNasi's alternative, Rabbi Elazar son of Rabbi Shimon's kal vachomer. Each Sage derives the same five-immersion rule from different biblical sources.",
+ "review": {
+  "status": "enriched",
+  "version": "10.63"
+ },
+ "glossary": [
+  {
+   "he": "קַל וָחֹמֶר",
+   "translit": "kal vachomer",
+   "en": "A fortiori inference; if X is true in a less severe case, it must be true in a more severe one."
   },
-  "glossary": [
+  {
+   "he": "גְּזֵרָה שָׁוָה",
+   "translit": "gezera shava",
+   "en": "Verbal analogy; a biblical derivation based on shared language between two passages."
+  },
+  {
+   "he": "סָנְהֶדְרִין",
+   "translit": "Sanhedrin",
+   "en": "The high court; here mentioned because ordinary courts required immersion before entry."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "Ten sanctifications - for five immersions. There would be nine - since he lacks",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "the first immersion's own single sanctification. The Rabbis say to you - the tenth sanctification that is missing here.",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "The last sanctification - when he finished the whole day's service and removes the sacred garments and dons",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "ordinary garments. He performs it there - when he comes to remove the sacred garments, since according to our own view,",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "sanctification is one for undressing and one for dressing; but according to Rabbi",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "Meir, he does not sanctify at all, since he does not come",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "to wear sacred garments. And Aaron shall come to",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l01",
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "the Tent of Meeting - this is stated after he finished",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "the burning and the placing of the blood of the bull and the goat. Why",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "does he come - to the Sanctuary, behold",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "he finished his services; even in this verse it did not explain",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "what he shall do there. He comes only",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "to take out the ladle and the fire-pan - which he had placed between the poles",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "as it is written, 'and he shall place the incense upon the fire,'",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "etc. That the whole passage - the verses were stated",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "in the order of the alternating services,",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "in their own order in the passage, so is the order of their service,",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "except for this verse, which wrote the taking out of the ladle",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "and fire-pan together with the inner services, and did not",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "interrupt with the service of his own ram and the people's ram in between;",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "it should have written first, 'and he went out and performed",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "his burnt-offering,' etc., and afterward, 'and Aaron shall come to take out",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "the ladle and the fire-pan,' and afterward, 'and he shall remove the linen",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "garments and leave them there, and bathe his flesh in water,",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "and don his own garments' - the eight garments of the whole year,",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "and perform the additional offerings and the afternoon daily-offering.",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "What is the reason - he must interrupt with his own ram and",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "the people's ram, between the day's service and the taking out of the ladle",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "and fire-pan. Rav Chisda said, it is a tradition -",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l03",
+    "yoma-032a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "given to Moses at Sinai. Five immersions -",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "on that day. But if in their order - of the services",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "this verse is written. You would not find among them except",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "three immersions - one for the morning daily-offering,",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "and one between it and the whole of the day's service, together with",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "the taking out of the ladle and fire-pan, and one between the taking out",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "of the ladle and fire-pan and his own ram and the people's ram, and with them",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "the additional offerings and the afternoon daily-offering.",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "Therefore he must interrupt with his own ram and the people's ram",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "between the day's service and the taking out of the ladle and fire-pan,",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "and their taking out shall interrupt between his own ram and the people's ram",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "and the afternoon daily-offering; behold, five:",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "the morning daily-offering in golden garments, the day's",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "service in white garments, his own ram and the people's ram in golden garments,",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "on the outer altar; the taking out of the ladle",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "and fire-pan in white garments; and the additional offerings and the daily-offering of",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "the afternoon in golden garments. And he shall don his",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l07",
+    "yoma-032a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "garments - the eight garments unique to him",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "all the days of the year. From service to service -",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "from an inner service to an outer service, and the same applies",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "from outer to inner; and further on he completes his own statement",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "and teaches, there were five services - behold, five",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "immersions. 'A sacred linen tunic he shall wear, and bathe",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l10",
+    "yoma-032a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "in water,' etc. - behold, when he changes from the service of",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "the daily-offering to begin the day's service, which is",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "an inner one, as it is written afterward, 'and he shall take",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "the two goats,' etc., and the whole matter. And it says, 'they are sacred garments' - within this very verse, to expound, you have these three superfluous words, all of them, and he explains further on",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "what the exposition is. And there are five services - this works out according to both Rebbi and Rabbi Yehuda. The verse teaches: 'and he shall remove... and bathe,' etc. - this matter, Rebbi says it,",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l16",
+    "yoma-032a-l24",
+    "yoma-032a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "that he derives the immersions from 'and he shall bathe in water,' which is written regarding the garments of white; and this verse of Rabbi Yehuda's is left over for him, and he expounds it for the sanctifications: 'and he shall remove, and bathe, and bathe, and don' - the verse placed 'and bathe' between 'and he shall remove' and 'and don,' to give a bathing to the undressing and a bathing to the dressing.",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "Just as a place that does not require immersion - all the rest of the year, one who comes to serve does not require immersion by Torah law, but rather by the words of the Sages, to remember old impurity. Requires sanctification - as it is written",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "(Exodus 40): when they come to the Tent of Meeting and when they approach the altar, they shall wash. A place that requires immersion - on Yom Kippur, for every change of garments. Just as dressing requires sanctification -",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l29",
+    "yoma-032a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "which we derive from the kal vachomer of immersion, as we said; and Rabbi Elazar b'Rabbi Shimon does not derive from 'and he shall remove and bathe' that it requires sanctification, since he needs that phrase for immersion, to change into golden garments, like Rabbi Yehuda.",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "Their atonement - the daf ends mid-comment here; the comment (on why the gold garments' atonement, worn all year, is greater than the white inner-service garments) continues on 32b.",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l37"
+   ]
+  }
+ ],
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-032a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 1
+   },
+   "lines": [
     {
-      "he": "קַל וָחֹמֶר",
-      "translit": "kal vachomer",
-      "en": "A fortiori inference; if X is true in a less severe case, it must be true in a more severe one."
-    },
-    {
-      "he": "גְּזֵרָה שָׁוָה",
-      "translit": "gezera shava",
-      "en": "Verbal analogy; a biblical derivation based on shared language between two passages."
-    },
-    {
-      "he": "סָנְהֶדְרִין",
-      "translit": "Sanhedrin",
-      "en": "The high court; here mentioned because ordinary courts required immersion before entry."
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.32a.1"
     }
-  ],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "en": "Opens 'ten sanctifications': for five immersions.' Then opens 'there would be nine': since he lacks",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l01"
-      ]
+   ],
+   "sefariaRefs": [
+    "Yoma.32a.1"
+   ],
+   "display": {
+    "whats": "How does R. Meir derive exactly ten sanctifications from five immersions?",
+    "hint": "Each immersion is bracketed by two sanctifications: one before undressing and one after dressing.",
+    "title": "Bracketing each change: how five immersions yield ten sanctifications"
+   },
+   "learning": {
+    "ahaMoment": "The sanctification brackets each garment change: a closing sanctification at the end of one service, an opening sanctification at the start of the next. The immersion sits between them.",
+    "memoryAnchor": "Sanctify - undress - immerse - dress - sanctify. x5 = 10 sanctifications.",
+    "learnerQuestion": "Mechanically, where do the ten sanctifications fall relative to the five immersions?",
+    "coreTension": "The Mishna states the totals (five immersions, ten sanctifications) but does not by itself make clear how the sanctifications are distributed around each immersion.",
+    "coreMove": "The Gemara confirms that every one of the five immersions is bracketed by two sanctifications - one immediately before undressing for the change, and one immediately after dressing in the new garments - which is what produces the total of ten.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "A single repeated micro-structure (sanctify-undress-immerse-dress-sanctify), applied five times, accounts for the Mishna's full numerical totals - complex totals can rest on one simple repeated unit."
     },
+    "learningBlocker": "It's easy to picture the ten sanctifications as occurring all together or at fixed points in the day, rather than understanding that they are paired bookends around each individual immersion and garment change."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 2,
-      "en": "closing: the first immersion's own single sanctification.' Then opens and closes 'the Rabbis say to you': the tenth sanctification that is missing here.",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "Opens 'the last sanctification': when he finished the whole day's service and removes the sacred garments and dons ordinary",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "closing: garments.' Then opens 'he performs it there': when he comes to remove the sacred garments, since according to our own view,",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "continuing: sanctification is one for undressing and one for dressing; but according to Rabbi",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "continuing: Meir, he does not sanctify at all, since he does not come",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "closing: to wear sacred garments.' Then opens 'and Aaron shall come to'",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: the Tent of Meeting': stated after he finished",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "closing: the burning and the placing of the blood of the bull and the goat.' Then opens 'why'",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "continuing: does he come': to the Sanctuary; behold",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: he finished his services; even in this verse it did not explain",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "closing: what he shall do there.' Then opens 'he comes only'",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "continuing: to take out the ladle and the fire-pan': which he had placed between the poles",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "continuing: as it is written: 'and he shall place the incense upon the fire'",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "closing: etc.' Then opens 'that the whole passage': the verses were stated",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: in the order of the alternating services",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: in their order in the passage, so is the order of their service,",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: except for this verse, which wrote the taking out of the ladle",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: and fire-pan together with the inner services, and did not",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "continuing: interrupt with the service of his own ram and the people's ram in between;",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: it should have written first: 'and he went out and performed",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: his burnt-offering,' etc., and afterward: 'and Aaron shall come to take out",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: the ladle and the fire-pan,' and afterward: 'and he shall remove the linen",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: garments and leave them there, and bathe his flesh in water,",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: and don his own garments' - the eight of the whole year,",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "closing: and perform the additional offerings and the afternoon daily-offering.",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Opens 'what is the reason': he must interrupt with his own ram and the ram of",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: the people, between the day's service and the taking out of the ladle",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "closing: and the fire-pan.' Then opens 'Rav Chisda said: it is a tradition'",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "closing: given to Moses at Sinai.' Then opens 'five immersions':",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "closing: on that day.' Then opens 'but if in their order': of the services",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "closing: this verse is written.' Then opens 'you would not find among them except'",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: three immersions': one for the morning daily-offering,",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "continuing: and one between it and the whole of the day's service, together with",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: the taking out of the ladle and fire-pan, and one between the taking out",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "continuing: of the ladle and fire-pan and his own ram and the people's ram, and with them",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "continuing: the additional offerings and the afternoon daily-offering.",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: Therefore he must interrupt with his own ram and the people's ram",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "continuing: between the day's service and the taking out of the ladle and fire-pan,",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: and their taking out shall interrupt between his own ram and the people's ram",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "continuing: and the afternoon daily-offering; behold, five.",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "continuing: The morning daily-offering in golden garments, the day's",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "continuing: service in white garments, his own ram and the people's ram in golden garments,",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "continuing: on the outer altar; the taking out of the ladle",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "continuing: and fire-pan in white garments; and the additional offerings and the daily-offering of",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "closing: the afternoon in golden garments.' Then opens 'and he shall don his'",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "continuing: garments': the eight garments unique to him",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "closing: all the days of the year.' Then opens 'from service to service':",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "continuing: from an inner service to an outer service, and the same applies",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "continuing: from outer to inner; and further on he completes his own statement",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "continuing: and teaches: there were five services - behold, five",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "closing: immersions.' Then opens 'a sacred linen tunic he shall wear, and bathe'",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "closing: in water,' etc.' Then opens 'behold, when he changes from the service of'",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "continuing: the daily-offering to begin the day's service, which is",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "continuing: an inner one, as it is written afterward: 'and he shall take",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "closing: the two goats,' etc., and the whole matter.' Then opens 'and it says: they are sacred garments': within this very verse, to expound, you have these three superfluous words, all of them, and he explains further on",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "closing: what the exposition is.' Then opens and closes 'and there are five services': this works out according to both Rebbi and Rabbi Yehuda.' Then opens 'the verse teaches: and he shall remove and bathe,' etc.: this matter, Rebbi says it, that he derives the immersions from 'and bathe in water,' which is written regarding the garments of",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "continuing: white; and this verse of Rabbi Yehuda's is left over for him, and he expounds it for the sanctifications: 'and he shall remove, and bathe, and bathe, and don' - the verse placed 'and bathe' between 'and he shall remove' and 'and don,' to give a bathing to the undressing and a bathing to the dressing.",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "Opens 'just as a place that does not require immersion': all the rest of the year, one who comes to serve does not require immersion by Torah law, but rather by the words of the Sages, to remember old impurity.' Then opens 'requires sanctification': as it is written",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 60,
-      "en": "closing: (Exodus 40): when they come to the Tent of Meeting and when they approach the altar they shall wash.' Then opens 'a place that requires immersion': on Yom Kippur, for every change of garments.' Then opens 'just as dressing requires sanctification'",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 61,
-      "en": "continuing: which we derive from the kal vachomer of immersion, as we said; and Rabbi Elazar b'Rabbi Shimon does not derive from 'and he shall remove and bathe' that it requires sanctification, since he needs that phrase for immersion, to change into golden garments, like Rabbi Yehuda.",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l31"
-      ]
-    },
-    {
-      "vilnaLine": 62,
-      "en": "Opens 'their atonement' -",
-      "linkedGemaraLineIds": [
-        "yoma-032a-l37"
-      ]
+     "id": "yoma-032a-l01",
+     "type": "premise",
+     "label": "R. Meir's ten sanctification count",
+     "text": "According to R. Meir, each of the five immersions is paired with two sanctifications (before and after the garment change), giving ten total.",
+     "sourceRefs": [
+      "Yoma.32a.1"
+     ]
     }
-  ],
-  "sugyot": [
+   ],
+   "topicTags": [
+    "ten sanctifications",
+    "five immersions",
+    "R. Meir",
+    "garment change sequence",
+    "Yom Kippur"
+   ],
+   "concepts": {
+    "halachic": [
+     "two sanctifications per immersion",
+     "garment-change sequence"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "five immersions",
+    "kiddush yadayim veraglayim"
+   ],
+   "misconceptions": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-032a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 1
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.32a.1"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.32a.1"
-      ],
-      "display": {
-        "whats": "How does R. Meir derive exactly ten sanctifications from five immersions?",
-        "hint": "Each immersion is bracketed by two sanctifications: one before undressing and one after dressing.",
-        "title": "Bracketing each change: how five immersions yield ten sanctifications"
-      },
-      "learning": {
-        "ahaMoment": "The sanctification brackets each garment change: a closing sanctification at the end of one service, an opening sanctification at the start of the next. The immersion sits between them.",
-        "memoryAnchor": "Sanctify - undress - immerse - dress - sanctify. x5 = 10 sanctifications.",
-        "learnerQuestion": "Mechanically, where do the ten sanctifications fall relative to the five immersions?",
-        "coreTension": "The Mishna states the totals (five immersions, ten sanctifications) but does not by itself make clear how the sanctifications are distributed around each immersion.",
-        "coreMove": "The Gemara confirms that every one of the five immersions is bracketed by two sanctifications - one immediately before undressing for the change, and one immediately after dressing in the new garments - which is what produces the total of ten.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "A single repeated micro-structure (sanctify-undress-immerse-dress-sanctify), applied five times, accounts for the Mishna's full numerical totals - complex totals can rest on one simple repeated unit."
-        },
-        "learningBlocker": "It's easy to picture the ten sanctifications as occurring all together or at fixed points in the day, rather than understanding that they are paired bookends around each individual immersion and garment change."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-032a-l01",
-          "type": "premise",
-          "label": "R. Meir's ten sanctification count",
-          "text": "According to R. Meir, each of the five immersions is paired with two sanctifications (before and after the garment change), giving ten total.",
-          "sourceRefs": [
-            "Yoma.32a.1"
-          ]
-        }
-      ],
-      "topicTags": [
-        "ten sanctifications",
-        "five immersions",
-        "R. Meir",
-        "garment change sequence",
-        "Yom Kippur"
-      ],
-      "concepts": {
-        "halachic": [
-          "two sanctifications per immersion",
-          "garment-change sequence"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "five immersions",
-        "kiddush yadayim veraglayim"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "R. Meir requires ten separate immersions.",
-          "correction": "He requires five immersions with two sanctifications each = ten sanctifications."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-031b-s03"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "label": "Immersion-sanctification cycle",
-          "description": "Sanctify - undress - immerse - dress - sanctify: five cycles = ten sanctifications"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "How does R. Meir arrive at exactly ten sanctifications from five immersions?",
-          "answer": "Each of the five immersions requires two sanctifications: one before undressing (closing the previous service) and one after dressing (opening the next service). Five times two equals ten."
-        }
-      ],
-      "finalRuling": "Ten sanctifications from five immersions: two per garment-change cycle.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "misconception": "R. Meir requires ten separate immersions.",
+     "correction": "He requires five immersions with two sanctifications each = ten sanctifications."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-031b-s03"
+   ],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "label": "Immersion-sanctification cycle",
+     "description": "Sanctify - undress - immerse - dress - sanctify: five cycles = ten sanctifications"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "How does R. Meir arrive at exactly ten sanctifications from five immersions?",
+     "answer": "Each of the five immersions requires two sanctifications: one before undressing (closing the previous service) and one after dressing (opening the next service). Five times two equals ten."
+    }
+   ],
+   "finalRuling": "Ten sanctifications from five immersions: two per garment-change cycle.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-032a-s02",
+   "lineRange": {
+    "startVilnaLine": 3,
+    "endVilnaLine": 37
+   },
+   "lines": [
+    {
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.32a.2"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-032a-s02",
-      "lineRange": {
-        "startVilnaLine": 3,
-        "endVilnaLine": 37
-      },
-      "lines": [
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.32a.2"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.32a.3"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.32a.4"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.32a.5"
-        },
-        {
-          "vilnaLine": 24,
-          "sefariaRef": "Yoma.32a.6"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.32a.7"
-        },
-        {
-          "vilnaLine": 29,
-          "sefariaRef": "Yoma.32a.8"
-        },
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.32a.9"
-        },
-        {
-          "vilnaLine": 37,
-          "sefariaRef": "Yoma.32a.10"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.32a.2",
-        "Yoma.32a.3",
-        "Yoma.32a.4",
-        "Yoma.32a.5",
-        "Yoma.32a.6",
-        "Yoma.32a.7",
-        "Yoma.32a.8",
-        "Yoma.32a.9",
-        "Yoma.32a.10"
-      ],
-      "display": {
-        "whats": "Multiple sages offer different biblical derivations for the five immersions and ten sanctifications. Rav Hisda presents the tradition, R. Yehuda derives from verses, R. Yehuda HaNasi offers an alternative, and R. Elazar son of R. Shimon uses a kal vachomer from ordinary courts.",
-        "hint": "When multiple sages derive the same rule from different sources, it reinforces the rule's validity even when any single derivation can be challenged.",
-        "title": "Four sages, four routes to the same five immersions"
-      },
-      "learning": {
-        "ahaMoment": "The multiple independent derivations (tradition, verse derivation, kal vachomer) all converging on 'five immersions, ten sanctifications' demonstrates this as a firmly established rule - no single derivation is vulnerable to challenge because the others provide backup.",
-        "memoryAnchor": "Five derivations for five immersions: Rav Hisda (tradition), R. Yehuda (verses), R. Yehuda HaNasi (garment changes), R. Elazar son of R. Shimon (kal vachomer from Sanhedrin), and R. Yehuda's actual verse derivation.",
-        "learnerQuestion": "Is the rule of five immersions and ten sanctifications a received tradition, or can it be derived from the biblical text itself?",
-        "coreTension": "A rule this detailed and numerically specific needs some textual or traditional anchor; if it rested on only one fragile derivation, a single successful challenge could undermine it entirely.",
-        "coreMove": "The Gemara stacks several independent routes to the same conclusion - Rav Hisda's oral tradition, R. Yehuda's verse-based derivation, R. Yehuda HaNasi's count of garment changes in Leviticus 16, and R. Elazar son of R. Shimon's kal vachomer from an ordinary Sanhedrin member - so that the rule does not depend on any single line of reasoning surviving challenge.",
-        "takeaway": {
-          "type": "logical_principle",
-          "text": "When the Gemara offers multiple independent derivations for the same rule, the redundancy itself is the point: even if one derivation is later challenged or rejected, the rule still stands on the others."
-        },
-        "learningBlocker": "A learner can mistake the parade of derivations for the Gemara being indecisive about the source, when the multiplicity is actually a sign of how well-established and secure the underlying rule is."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-032a-l03",
-          "type": "question",
-          "label": "Baraita: verse about Aaron's entry",
-          "text": "A baraita analyzes the verse 'And Aaron shall come into the Tent of Meeting' to derive requirements for the High Priest's entry on Yom Kippur.",
-          "sourceRefs": [
-            "Yoma.32a.2"
-          ]
-        },
-        {
-          "id": "yoma-032a-l07",
-          "type": "claim",
-          "label": "Rav Hisda: tradition",
-          "text": "Rav Hisda: the five immersions and ten sanctifications are an established oral tradition passed down from Sinai.",
-          "sourceRefs": [
-            "Yoma.32a.3"
-          ]
-        },
-        {
-          "id": "yoma-032a-l10",
-          "type": "proof",
-          "label": "R. Yehuda: three Leviticus passages",
-          "text": "Rabbi Yehuda derives the obligation from three passages in Leviticus, each establishing one or two of the immersions biblically.",
-          "sourceRefs": [
-            "Yoma.32a.4"
-          ]
-        },
-        {
-          "id": "yoma-032a-l14",
-          "type": "proof",
-          "label": "R. Yehuda HaNasi: five garment changes",
-          "text": "R. Yehuda HaNasi: Leviticus 16 describes five distinct garment-donning events, each requiring a prior immersion.",
-          "sourceRefs": [
-            "Yoma.32a.5"
-          ]
-        },
-        {
-          "id": "yoma-032a-l18",
-          "type": "premise",
-          "label": "Five services enumerated",
-          "text": "The five services are: morning tamid in gold, Yom Kippur inner service in white, musaf in gold, additional inner service in white, afternoon tamid in gold.",
-          "sourceRefs": [
-            "Yoma.32a.6"
-          ]
-        },
-        {
-          "id": "yoma-032a-l23",
-          "type": "question",
-          "label": "Source for two sanctifications per immersion",
-          "text": "The Gemara asks: what is the biblical source for requiring two sanctifications per immersion (not just one)?",
-          "sourceRefs": [
-            "Yoma.32a.7"
-          ]
-        },
-        {
-          "id": "yoma-032a-l27",
-          "type": "proof",
-          "label": "R. Elazar son of R. Shimon: kal vachomer from Sanhedrin",
-          "text": "R. Elazar son of R. Shimon: if a Sanhedrin member (ordinary priest) required immersion before service, the High Priest on Yom Kippur certainly requires it.",
-          "sourceRefs": [
-            "Yoma.32a.8"
-          ]
-        },
-        {
-          "id": "yoma-032a-l31",
-          "type": "objection",
-          "label": "Kal vachomer can be refuted",
-          "text": "The inference can be challenged: Sanhedrin entry might have different stringency than High Priest's Yom Kippur inner service.",
-          "sourceRefs": [
-            "Yoma.32a.9"
-          ]
-        },
-        {
-          "id": "yoma-032a-l37",
-          "type": "proof",
-          "label": "R. Yehuda's actual verse derivation",
-          "text": "R. Yehuda derives from the garment-donning verse (Leviticus 16:4) that immersion must precede each garment donning.",
-          "sourceRefs": [
-            "Yoma.32a.10"
-          ]
-        }
-      ],
-      "topicTags": [
-        "five immersions",
-        "ten sanctifications",
-        "R. Yehuda",
-        "R. Yehuda HaNasi",
-        "R. Elazar ben R. Shimon",
-        "Rav Hisda",
-        "kal vachomer",
-        "biblical derivation",
-        "tradition (kabbalah)"
-      ],
-      "concepts": {
-        "halachic": [
-          "five immersions derivation",
-          "ten sanctifications derivation",
-          "kal vachomer from Sanhedrin",
-          "verse-based vs tradition-based derivation"
-        ],
-        "theological": [
-          "biblical grounding for Yom Kippur ritual"
-        ],
-        "narrative": [
-          "multiple sages offering independent derivations for same rule"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "five immersions",
-        "kal vachomer (a fortiori)",
-        "Leviticus 16",
-        "Sanhedrin entry requirements"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Only one derivation exists for the five immersions.",
-          "correction": "Multiple independent tannaitic and amoraic authorities provide different biblical sources for the same rule."
-        },
-        {
-          "misconception": "The kal vachomer from Sanhedrin is the primary source.",
-          "correction": "It is actually challenged; R. Yehuda's verse derivation is more central."
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-031a-s02",
-        "yoma-032b-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "relationship",
-          "label": "Four derivations for five immersions",
-          "description": "Rav Hisda (tradition), R. Yehuda (verses), R. Yehuda HaNasi (garment changes), R. Elazar (kal vachomer) - all reaching the same conclusion"
-        },
-        {
-          "type": "sequence",
-          "label": "Five services requiring garment changes",
-          "description": "Morning gold, inner white, musaf gold, additional white, afternoon gold"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What are two different ways the Gemara derives the five immersions and ten sanctifications of the High Priest on Yom Kippur?",
-          "answer": "Rav Hisda says it is an established oral tradition; Rabbi Yehuda HaNasi derives it from the five distinct garment-donning events described in Leviticus 16."
-        },
-        {
-          "question": "What kal vachomer does R. Elazar son of R. Shimon use to derive the immersion requirement?",
-          "answer": "If an ordinary Sanhedrin member required immersion before service, certainly the High Priest performing the unique Yom Kippur inner service requires immersion."
-        }
-      ],
-      "finalRuling": "The five immersions and ten sanctifications are multiply derived: from tradition, from specific verses (Leviticus 16), from the five garment changes, and by kal vachomer from Sanhedrin entry requirements.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "review": "reviewed"
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.32a.3"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.32a.4"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.32a.5"
+    },
+    {
+     "vilnaLine": 24,
+     "sefariaRef": "Yoma.32a.6"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.32a.7"
+    },
+    {
+     "vilnaLine": 29,
+     "sefariaRef": "Yoma.32a.8"
+    },
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.32a.9"
+    },
+    {
+     "vilnaLine": 37,
+     "sefariaRef": "Yoma.32a.10"
     }
-  ]
+   ],
+   "sefariaRefs": [
+    "Yoma.32a.2",
+    "Yoma.32a.3",
+    "Yoma.32a.4",
+    "Yoma.32a.5",
+    "Yoma.32a.6",
+    "Yoma.32a.7",
+    "Yoma.32a.8",
+    "Yoma.32a.9",
+    "Yoma.32a.10"
+   ],
+   "display": {
+    "whats": "Multiple sages offer different biblical derivations for the five immersions and ten sanctifications. Rav Hisda presents the tradition, R. Yehuda derives from verses, R. Yehuda HaNasi offers an alternative, and R. Elazar son of R. Shimon uses a kal vachomer from ordinary courts.",
+    "hint": "When multiple sages derive the same rule from different sources, it reinforces the rule's validity even when any single derivation can be challenged.",
+    "title": "Four sages, four routes to the same five immersions"
+   },
+   "learning": {
+    "ahaMoment": "The multiple independent derivations (tradition, verse derivation, kal vachomer) all converging on 'five immersions, ten sanctifications' demonstrates this as a firmly established rule - no single derivation is vulnerable to challenge because the others provide backup.",
+    "memoryAnchor": "Five derivations for five immersions: Rav Hisda (tradition), R. Yehuda (verses), R. Yehuda HaNasi (garment changes), R. Elazar son of R. Shimon (kal vachomer from Sanhedrin), and R. Yehuda's actual verse derivation.",
+    "learnerQuestion": "Is the rule of five immersions and ten sanctifications a received tradition, or can it be derived from the biblical text itself?",
+    "coreTension": "A rule this detailed and numerically specific needs some textual or traditional anchor; if it rested on only one fragile derivation, a single successful challenge could undermine it entirely.",
+    "coreMove": "The Gemara stacks several independent routes to the same conclusion - Rav Hisda's oral tradition, R. Yehuda's verse-based derivation, R. Yehuda HaNasi's count of garment changes in Leviticus 16, and R. Elazar son of R. Shimon's kal vachomer from an ordinary Sanhedrin member - so that the rule does not depend on any single line of reasoning surviving challenge.",
+    "takeaway": {
+     "type": "logical_principle",
+     "text": "When the Gemara offers multiple independent derivations for the same rule, the redundancy itself is the point: even if one derivation is later challenged or rejected, the rule still stands on the others."
+    },
+    "learningBlocker": "A learner can mistake the parade of derivations for the Gemara being indecisive about the source, when the multiplicity is actually a sign of how well-established and secure the underlying rule is."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-032a-l03",
+     "type": "question",
+     "label": "Baraita: verse about Aaron's entry",
+     "text": "A baraita analyzes the verse 'And Aaron shall come into the Tent of Meeting' to derive requirements for the High Priest's entry on Yom Kippur.",
+     "sourceRefs": [
+      "Yoma.32a.2"
+     ]
+    },
+    {
+     "id": "yoma-032a-l07",
+     "type": "claim",
+     "label": "Rav Hisda: tradition",
+     "text": "Rav Hisda: the five immersions and ten sanctifications are an established oral tradition passed down from Sinai.",
+     "sourceRefs": [
+      "Yoma.32a.3"
+     ]
+    },
+    {
+     "id": "yoma-032a-l10",
+     "type": "proof",
+     "label": "R. Yehuda: three Leviticus passages",
+     "text": "Rabbi Yehuda derives the obligation from three passages in Leviticus, each establishing one or two of the immersions biblically.",
+     "sourceRefs": [
+      "Yoma.32a.4"
+     ]
+    },
+    {
+     "id": "yoma-032a-l14",
+     "type": "proof",
+     "label": "R. Yehuda HaNasi: five garment changes",
+     "text": "R. Yehuda HaNasi: Leviticus 16 describes five distinct garment-donning events, each requiring a prior immersion.",
+     "sourceRefs": [
+      "Yoma.32a.5"
+     ]
+    },
+    {
+     "id": "yoma-032a-l18",
+     "type": "premise",
+     "label": "Five services enumerated",
+     "text": "The five services are: morning tamid in gold, Yom Kippur inner service in white, musaf in gold, additional inner service in white, afternoon tamid in gold.",
+     "sourceRefs": [
+      "Yoma.32a.6"
+     ]
+    },
+    {
+     "id": "yoma-032a-l23",
+     "type": "question",
+     "label": "Source for two sanctifications per immersion",
+     "text": "The Gemara asks: what is the biblical source for requiring two sanctifications per immersion (not just one)?",
+     "sourceRefs": [
+      "Yoma.32a.7"
+     ]
+    },
+    {
+     "id": "yoma-032a-l27",
+     "type": "proof",
+     "label": "R. Elazar son of R. Shimon: kal vachomer from Sanhedrin",
+     "text": "R. Elazar son of R. Shimon: if a Sanhedrin member (ordinary priest) required immersion before service, the High Priest on Yom Kippur certainly requires it.",
+     "sourceRefs": [
+      "Yoma.32a.8"
+     ]
+    },
+    {
+     "id": "yoma-032a-l31",
+     "type": "objection",
+     "label": "Kal vachomer can be refuted",
+     "text": "The inference can be challenged: Sanhedrin entry might have different stringency than High Priest's Yom Kippur inner service.",
+     "sourceRefs": [
+      "Yoma.32a.9"
+     ]
+    },
+    {
+     "id": "yoma-032a-l37",
+     "type": "proof",
+     "label": "R. Yehuda's actual verse derivation",
+     "text": "R. Yehuda derives from the garment-donning verse (Leviticus 16:4) that immersion must precede each garment donning.",
+     "sourceRefs": [
+      "Yoma.32a.10"
+     ]
+    }
+   ],
+   "topicTags": [
+    "five immersions",
+    "ten sanctifications",
+    "R. Yehuda",
+    "R. Yehuda HaNasi",
+    "R. Elazar ben R. Shimon",
+    "Rav Hisda",
+    "kal vachomer",
+    "biblical derivation",
+    "tradition (kabbalah)"
+   ],
+   "concepts": {
+    "halachic": [
+     "five immersions derivation",
+     "ten sanctifications derivation",
+     "kal vachomer from Sanhedrin",
+     "verse-based vs tradition-based derivation"
+    ],
+    "theological": [
+     "biblical grounding for Yom Kippur ritual"
+    ],
+    "narrative": [
+     "multiple sages offering independent derivations for same rule"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "five immersions",
+    "kal vachomer (a fortiori)",
+    "Leviticus 16",
+    "Sanhedrin entry requirements"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Only one derivation exists for the five immersions.",
+     "correction": "Multiple independent tannaitic and amoraic authorities provide different biblical sources for the same rule."
+    },
+    {
+     "misconception": "The kal vachomer from Sanhedrin is the primary source.",
+     "correction": "It is actually challenged; R. Yehuda's verse derivation is more central."
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-031a-s02",
+    "yoma-032b-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "relationship",
+     "label": "Four derivations for five immersions",
+     "description": "Rav Hisda (tradition), R. Yehuda (verses), R. Yehuda HaNasi (garment changes), R. Elazar (kal vachomer) - all reaching the same conclusion"
+    },
+    {
+     "type": "sequence",
+     "label": "Five services requiring garment changes",
+     "description": "Morning gold, inner white, musaf gold, additional white, afternoon gold"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What are two different ways the Gemara derives the five immersions and ten sanctifications of the High Priest on Yom Kippur?",
+     "answer": "Rav Hisda says it is an established oral tradition; Rabbi Yehuda HaNasi derives it from the five distinct garment-donning events described in Leviticus 16."
+    },
+    {
+     "question": "What kal vachomer does R. Elazar son of R. Shimon use to derive the immersion requirement?",
+     "answer": "If an ordinary Sanhedrin member required immersion before service, certainly the High Priest performing the unique Yom Kippur inner service requires immersion."
+    }
+   ],
+   "finalRuling": "The five immersions and ten sanctifications are multiply derived: from tradition, from specific verses (Leviticus 16), from the five garment changes, and by kal vachomer from Sanhedrin entry requirements.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "review": "reviewed"
+  }
+ ]
 }
