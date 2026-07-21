@@ -1,927 +1,932 @@
 {
-  "daf": "35b",
-  "canonicalRef": "Yoma 35b",
-  "summary": "35b has three sections: (1) halachic analysis of whether the Yom Kippur linen garments require sanctification, derived from the verse 'other garments'; (2) the famous aggadah of Hillel in the snow, Elazar ben Charsum, and Joseph - the three who refute excuses at divine judgment; (3) the opening Mishna of chapter 4 placing the KG's bull between the vestibule and altar.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "35b",
+ "canonicalRef": "Yoma 35b",
+ "summary": "35b has three sections: (1) halachic analysis of whether the Yom Kippur linen garments require sanctification, derived from the verse 'other garments'; (2) the famous aggadah of Hillel in the snow, Elazar ben Charsum, and Joseph - the three who refute excuses at divine judgment; (3) the opening Mishna of chapter 4 placing the KG's bull between the vestibule and altar.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-035b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 12
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-035b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 12
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.35b.1"
-        },
-        {
-          "vilnaLine": 2,
-          "sefariaRef": "Yoma.35b.2"
-        },
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.35b.3"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.35b.4"
-        },
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.35b.5"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.35b.1",
-        "Yoma.35b.2",
-        "Yoma.35b.3",
-        "Yoma.35b.4",
-        "Yoma.35b.5"
-      ],
-      "display": {
-        "whats": "Must the Yom Kippur linen garments be sanctified before use?",
-        "hint": "Yes - 'and he shall put on sacred linen garments' requires immersion and sanctification each time.",
-        "title": "'Other Garments' Still Need Sanctification"
-      },
-      "learning": {
-        "ahaMoment": "Even 'other garments' requires sanctification - the verse teaches that each garment change on Yom Kippur demands immersion and hand-foot sanctification.",
-        "memoryAnchor": "Other garments = still sacred = still need immersion.",
-        "learnerQuestion": "If the verse says the High Priest puts on 'other garments,' does that mean ordinary, non-sacred clothing requiring no sanctification?",
-        "coreTension": "The verse 'and he shall put on other garments' (Lev. 16:23) could be read as describing a switch to non-sacred clothing that needs no immersion or hand-foot sanctification.",
-        "coreMove": "R. Yehuda reads the extra word 'other' as referring to other sacred linen garments, not ordinary clothes - meaning each Yom Kippur garment change still requires immersion and sanctification.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "The word 'other' in the garment-change verse does not exempt a change from sanctification; it identifies a different sacred linen set that still requires the full immersion and sanctification procedure."
-        },
-        "learningBlocker": "Learners read 'other garments' as a cue that the rules relax; R. Yehuda's reading keeps the garments sacred and the requirement intact."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-035b-l01",
-          "type": "question",
-          "label": "Question: Challenge: 'he shall put on other garments",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-035b-l01",
-              "vilnaLine": 1
-            }
-          ],
-          "text": "Challenge: 'he shall put on other garments and shall not sanctify' - implies no sanctification needed?"
-        },
-        {
-          "id": "yoma-035b-l02",
-          "type": "proof",
-          "label": "Proof: The priest must immerse and sanctify when",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-035b-l02",
-              "vilnaLine": 2
-            }
-          ],
-          "text": "The priest must immerse and sanctify when changing between sacred garment sets."
-        },
-        {
-          "id": "yoma-035b-l03",
-          "type": "resolution",
-          "label": "Resolution: R. Yehuda: 'other' = other sacred garments",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-035b-l03",
-              "vilnaLine": 3
-            }
-          ],
-          "text": "R. Yehuda: 'other' = other sacred garments (white linen), still requiring sanctification."
-        },
-        {
-          "id": "yoma-035b-l07",
-          "type": "elaboration",
-          "label": "Elaboration: The five immersions are derived from the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-035b-l07",
-              "vilnaLine": 7
-            }
-          ],
-          "text": "The five immersions are derived from the five garment changes in Lev. 16."
-        },
-        {
-          "id": "yoma-035b-l12",
-          "type": "ruling",
-          "label": "Ruling: Each Yom Kippur garment change requires immersion",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-035b-l12",
-              "vilnaLine": 12
-            }
-          ],
-          "text": "Each Yom Kippur garment change requires immersion and sanctification."
-        }
-      ],
-      "topicTags": [
-        "Yom Kippur",
-        "KG garments",
-        "immersion"
-      ],
-      "concepts": {
-        "halachic": [
-          "garment sanctification",
-          "immersion requirement",
-          "biblical derivation"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "KG garment sequence",
-        "five immersions and ten sanctifications"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "'Other garments' means the High Priest changes into ordinary, non-sacred clothing during Yom Kippur.",
-          "correction": "R. Yehuda reads 'other' as referring to a different set of sacred linen garments, which still require immersion and sanctification before wearing.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-032a-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "text",
-          "description": "Verse analysis: 'other garments' = other sacred garments"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "conceptual",
-          "question": "What does 'other garments' mean in Lev. 16:23?",
-          "answer": "Other sacred (white linen) garments - not ordinary clothes."
-        }
-      ],
-      "finalRuling": "The verse 'other garments' refers to other sacred linen vestments; each change requires immersion and sanctification.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.35b.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-035b-s02",
-      "lineRange": {
-        "startVilnaLine": 16,
-        "endVilnaLine": 47
-      },
-      "lines": [
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.35b.6"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.35b.7"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.35b.8"
-        },
-        {
-          "vilnaLine": 32,
-          "sefariaRef": "Yoma.35b.9"
-        },
-        {
-          "vilnaLine": 36,
-          "sefariaRef": "Yoma.35b.10"
-        },
-        {
-          "vilnaLine": 39,
-          "sefariaRef": "Yoma.35b.11"
-        },
-        {
-          "vilnaLine": 43,
-          "sefariaRef": "Yoma.35b.12"
-        },
-        {
-          "vilnaLine": 47,
-          "sefariaRef": "Yoma.35b.13"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.35b.6",
-        "Yoma.35b.7",
-        "Yoma.35b.8",
-        "Yoma.35b.9",
-        "Yoma.35b.10",
-        "Yoma.35b.11",
-        "Yoma.35b.12",
-        "Yoma.35b.13"
-      ],
-      "display": {
-        "whats": "Aggadah: poor, rich, and wicked come to judgment - Hillel, Elazar ben Charsum, Joseph.",
-        "hint": "The classic three figures at divine judgment: Hillel the poor scholar, Elazar ben Charsum the rich, and Joseph who withstood temptation.",
-        "title": "No Excuse Holds at Judgment"
-      },
-      "learning": {
-        "ahaMoment": "No excuse holds at judgment: the poor points to Hillel, the rich to Elazar ben Charsum, the wicked to Joseph.",
-        "memoryAnchor": "Three archetypes: Hillel, Elazar ben Charsum, Joseph - your excuse is already refuted.",
-        "learnerQuestion": "Can poverty, wealth, or a powerful evil inclination excuse someone from Torah study or sin?",
-        "coreTension": "A person might plead poverty, wealth and its distractions, or an overwhelming evil inclination as an excuse for failing to study Torah or for sinning.",
-        "coreMove": "The baraita rebuts each excuse with a counter-example: Hillel's extreme poverty did not stop his Torah study, Elazar ben Charsum's vast wealth did not stop his, and Joseph withstood the most intense temptation - so none of these conditions is a valid excuse at judgment.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Circumstance, whether poverty, wealth, or strong temptation, does not excuse failure, because a real historical figure faced the same or worse circumstance and still succeeded."
-        },
-        "learningBlocker": "Learners take this aggadah as hyperbole rather than a structured rebuttal: each of the three figures specifically and individually answers one of the three excuses."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-035b-l16",
-          "type": "elaboration",
-          "label": "Elaboration: Poor man pleads poverty as reason for",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-035b-l16",
-              "vilnaLine": 16
-            }
-          ],
-          "text": "Poor man pleads poverty as reason for not learning Torah."
-        },
-        {
-          "id": "yoma-035b-l20",
-          "type": "proof",
-          "label": "Proof: Hillel refutes: he was desperately poor yet",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-035b-l20",
-              "vilnaLine": 20
-            }
-          ],
-          "text": "Hillel refutes: he was desperately poor yet climbed through the roof to hear Torah in a snowstorm."
-        },
-        {
-          "id": "yoma-035b-l27",
-          "type": "elaboration",
-          "label": "Elaboration: Rich man pleads wealth and preoccupation as",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-035b-l27",
-              "vilnaLine": 27
-            }
-          ],
-          "text": "Rich man pleads wealth and preoccupation as excuse."
-        },
-        {
-          "id": "yoma-035b-l32",
-          "type": "proof",
-          "label": "Proof: Elazar ben Charsum refutes: vastly wealthy yet",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-035b-l32",
-              "vilnaLine": 32
-            }
-          ],
-          "text": "Elazar ben Charsum refutes: vastly wealthy yet he never visited his estates, studying all day."
-        },
-        {
-          "id": "yoma-035b-l36",
-          "type": "elaboration",
-          "label": "Elaboration: Wicked man pleads his evil inclination was",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-035b-l36",
-              "vilnaLine": 36
-            }
-          ],
-          "text": "Wicked man pleads his evil inclination was too strong."
-        },
-        {
-          "id": "yoma-035b-l39",
-          "type": "proof",
-          "label": "Proof: Joseph refutes: faced intense temptation from Potiph...",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-035b-l39",
-              "vilnaLine": 39
-            }
-          ],
-          "text": "Joseph refutes: faced intense temptation from Potiphar's wife yet withstood it."
-        },
-        {
-          "id": "yoma-035b-l43",
-          "type": "ruling",
-          "label": "Ruling: Hillel condemns the poor; Elazar condemns the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-035b-l43",
-              "vilnaLine": 43
-            }
-          ],
-          "text": "Hillel condemns the poor; Elazar condemns the rich; Joseph condemns the wicked."
-        },
-        {
-          "id": "yoma-035b-l47",
-          "type": "elaboration",
-          "label": "Elaboration: Joseph's reward in Egypt mirrored his trial.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-035b-l47",
-              "vilnaLine": 47
-            }
-          ],
-          "text": "Joseph's reward in Egypt mirrored his trial."
-        }
-      ],
-      "topicTags": [
-        "Aggadah",
-        "divine judgment",
-        "Torah study",
-        "yetzer hara"
-      ],
-      "concepts": {
-        "halachic": [],
-        "theological": [
-          "divine judgment",
-          "personal responsibility",
-          "evil inclination"
-        ],
-        "narrative": [
-          "Hillel in snowstorm",
-          "Elazar ben Charsum",
-          "Joseph and Potiphar's wife"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [
-        {
-          "misconception": "Wealth and its accompanying distractions are a legitimate excuse for not studying Torah.",
-          "correction": "Elazar ben Charsum, despite owning a thousand villages and ships, never visited his estates and studied Torah all day - refuting the excuse that wealth prevents study.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-029a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "description": "Three figures: poor/rich/wicked and their paradigmatic responses"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "factual",
-          "question": "Which figure refutes the poor man's excuse at divine judgment?",
-          "answer": "Hillel, who was desperately poor yet climbed through the roof to study Torah in the snow."
-        }
-      ],
-      "finalRuling": "No one can claim poverty, wealth, or evil inclination as an excuse; Hillel, Elazar ben Charsum, and Joseph demonstrate the rebuttal.",
-      "difficulty": "introductory",
-      "alternateAngles": [
-        {
-          "angle": "Educational",
-          "description": "Three models of overcoming circumstance to serve God"
-        }
-      ],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 2,
+     "sefariaRef": "Yoma.35b.2"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-035b-s03",
-      "lineRange": {
-        "startVilnaLine": 49,
-        "endVilnaLine": 50
-      },
-      "lines": [
-        {
-          "vilnaLine": 49,
-          "sefariaRef": "Yoma.35b.14"
-        },
-        {
-          "vilnaLine": 50,
-          "sefariaRef": "Yoma.35b.15"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.35b.14",
-        "Yoma.35b.15"
-      ],
-      "display": {
-        "whats": "Mishna Ch. 4: The KG came to his bull standing between the vestibule and the altar.",
-        "hint": "First Mishna of chapter 4 - the core Yom Kippur service begins.",
-        "title": "Opening the Bull Confession: Where He Stands"
-      },
-      "learning": {
-        "ahaMoment": "The KG faces west to lean on the bull - he and his offering face the same direction, toward the Divine Presence.",
-        "memoryAnchor": "KG faces west, bull faces west, hands pressed on head - the confession begins.",
-        "learnerQuestion": "Where exactly does the High Priest stand to confess over his bull, and which direction does he face?",
-        "coreTension": "Chapter 4 opens with the High Priest approaching his bull for confession, and the Mishna specifies an exact, seemingly technical position and orientation for both the bull and the High Priest.",
-        "coreMove": "The Mishna fixes the bull between the vestibule and the altar with its head south and face west, and the High Priest standing east of it facing west with both hands pressed on its head - establishing the precise stance for the first confession of the day.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The bull's location and orientation are not mere staging details - they are halachically fixed elements of a valid confession, tied to a tannaic dispute over the bull's exact position."
-        },
-        "learningBlocker": "Learners treat the bull's positioning as incidental scene-setting; later sugyot reveal it reflects a real tannaic dispute tied to legal consequences."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-035b-l49",
-          "type": "ruling",
-          "label": "Ruling: Mishna: KG came to his bull standing",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-035b-l49",
-              "vilnaLine": 49
-            }
-          ],
-          "text": "Mishna: KG came to his bull standing between vestibule and altar."
-        },
-        {
-          "id": "yoma-035b-l50",
-          "type": "elaboration",
-          "label": "Elaboration: The bull's head faces south, face toward",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-035b-l50",
-              "vilnaLine": 50
-            }
-          ],
-          "text": "The bull's head faces south, face toward west; KG stands east facing west with both hands on the bull."
-        }
-      ],
-      "topicTags": [
-        "Yom Kippur",
-        "KG bull confession",
-        "Temple service"
-      ],
-      "concepts": {
-        "halachic": [
-          "bull position for confession",
-          "KG's stance for semicha"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "semicha (laying on of hands)",
-        "Yom Kippur Avodah sequence"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The bull's position between the vestibule and the altar is a minor logistical detail with no legal significance.",
-          "correction": "The position is a tannaic dispute (R. Yehuda vs. Rabbis) tied to nevelah liability in sacred zones - it has real legal consequences.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-036a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "place",
-          "description": "Bull between vestibule and altar; KG east facing west"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "factual",
-          "question": "Where does the KG's bull stand for the Yom Kippur confession?",
-          "answer": "Between the vestibule and the altar, head facing south, face toward west."
-        }
-      ],
-      "finalRuling": "The bull stands between the vestibule and altar, head south, face west; the KG stands east facing west, hands on the bull.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.35b.3"
+    },
+    {
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.35b.4"
+    },
+    {
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.35b.5"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.35b.1",
+    "Yoma.35b.2",
+    "Yoma.35b.3",
+    "Yoma.35b.4",
+    "Yoma.35b.5"
+   ],
+   "display": {
+    "whats": "Must the Yom Kippur linen garments be sanctified before use?",
+    "hint": "Yes - 'and he shall put on sacred linen garments' requires immersion and sanctification each time.",
+    "title": "'Other Garments' Still Need Sanctification"
+   },
+   "learning": {
+    "ahaMoment": "Even 'other garments' requires sanctification - the verse teaches that each garment change on Yom Kippur demands immersion and hand-foot sanctification.",
+    "memoryAnchor": "Other garments = still sacred = still need immersion.",
+    "learnerQuestion": "If the verse says the High Priest puts on 'other garments,' does that mean ordinary, non-sacred clothing requiring no sanctification?",
+    "coreTension": "The verse 'and he shall put on other garments' (Lev. 16:23) could be read as describing a switch to non-sacred clothing that needs no immersion or hand-foot sanctification.",
+    "coreMove": "R. Yehuda reads the extra word 'other' as referring to other sacred linen garments, not ordinary clothes - meaning each Yom Kippur garment change still requires immersion and sanctification.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "The word 'other' in the garment-change verse does not exempt a change from sanctification; it identifies a different sacred linen set that still requires the full immersion and sanctification procedure."
+    },
+    "learningBlocker": "Learners read 'other garments' as a cue that the rules relax; R. Yehuda's reading keeps the garments sacred and the requirement intact."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "Opens an editorial note on reading order: read 'they raise an objection' first, then 'Rav Shmuel taught'; the objection quotes 'and they shall wear other garments,' and we do not read [the earlier verse about] 'and they shall approach the people,' since that verse is not -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l01"
-      ]
+     "id": "yoma-035b-l01",
+     "type": "question",
+     "label": "Question: Challenge: 'he shall put on other garments",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-035b-l01",
+       "vilnaLine": 1
+      }
+     ],
+     "text": "Challenge: 'he shall put on other garments and shall not sanctify' - implies no sanctification needed?"
     },
     {
-      "vilnaLine": 2,
-      "en": "written about the [special] service but about the garments they ate in [certain sacrificial meals], and it cannot be located on Yom Kippur except from this verse; [Rashi] raises the objection from 'and when they go out to the outer court, etc.,' since there is -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l01"
-      ]
+     "id": "yoma-035b-l02",
+     "type": "proof",
+     "label": "Proof: The priest must immerse and sanctify when",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-035b-l02",
+       "vilnaLine": 2
+      }
+     ],
+     "text": "The priest must immerse and sanctify when changing between sacred garment sets."
     },
     {
-      "vilnaLine": 3,
-      "en": "reason to locate it on Yom Kippur, as it is written just before it, 'and when they come to the gates of the inner court, wool shall not go up on them' - this is certainly written about Yom Kippur, for on any -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l01"
-      ]
+     "id": "yoma-035b-l03",
+     "type": "resolution",
+     "label": "Resolution: R. Yehuda: 'other' = other sacred garments",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-035b-l03",
+       "vilnaLine": 3
+      }
+     ],
+     "text": "R. Yehuda: 'other' = other sacred garments (white linen), still requiring sanctification."
     },
     {
-      "vilnaLine": 4,
-      "en": "other day of the year there is the [regular] robe, which is entirely turquoise wool, and the breastplate and ephod, which contain turquoise wool, and after it is written 'and when they go out to the outer court they shall remove their garments, etc.,' -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l01"
-      ]
+     "id": "yoma-035b-l07",
+     "type": "elaboration",
+     "label": "Elaboration: The five immersions are derived from the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-035b-l07",
+       "vilnaLine": 7
+      }
+     ],
+     "text": "The five immersions are derived from the five garment changes in Lev. 16."
     },
     {
-      "vilnaLine": 5,
-      "en": "'and don other garments' - and you might think -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "that this means: and when he returns and enters there -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "in the afternoon, he shall wear other linen garments -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "not the first ones, and because Moses did not hint at this in the Torah, and it was learned as a law given [orally] to Moses at Sinai, -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "Ezekiel came and supported it with a verse, -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "'and they shall not sanctify the people' - since it is written in the latter clause -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "that this is a separate matter, and when they mix with -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "the people they shall wear ordinary weekday clothes (closing).",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Opens 'is it not [that] \"other\" means more distinguished than them': for if not [so], -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l02"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "why would it need to write 'other' at all, to elevate them, -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l02"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "since 'other' implies they should not resemble the first ones (closing).",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l02"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "Opens 'no, [rather \"other\" means] lesser than them': since the first service -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l02"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "is significant and atones, whereas this one is only to clear -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l02"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "the place, as it is not fitting for the vessels to remain lying -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l02"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "there; therefore Scripture changed the garments -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l02"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "to lesser ones (closing).",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l02"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "Opens 'an individual's service': taking out -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "the ladle and fire-pan, which is not required by the community, but rather -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "is incumbent on him to clear the place; -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "therefore it is called an individual's service (closing). Opens 'and provided' -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "'that he gives it over to the community': since ultimately it is from -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "the community's own service - so it appears to me; but I -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "have heard [another explanation]: 'an individual's service' means he reads the [Torah] portion, -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "as we learned in the mishna (below, 68b): he reads -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "in his own white robe; but I find this difficult, -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "since we did not learn there 'provided that he gives it to the community' (closing).",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Opens 'obviously': that he performs the service with it, since you said -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "he gives it to the community, as it belongs to the community anyway (closing). Opens 'from two' -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "'ten-thousands' - [means] maneh (closing). Opens 'but did not the master say its thread' -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "of the priestly garments is six-ply, [as stated] below, -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "in the chapter Ba Lo (71a) (closing). Opens 'like wine' -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "'in a glass': like wine visible from outside a glass -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "vessel - even though the glass is thick, so too was -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "the linen so fine that his flesh showed through it (closing).",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "Opens 'to the poor they say, etc.': meaning, if there came -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "before the heavenly court [a case] condemning the poor via Hillel, -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "and the rich via Rabbi Elazar, and those overcome by the [evil] inclination -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "via Joseph, the prosecutor has grounds -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "to condemn them (closing). Opens 'trafa'ik': a provincial sela, which is -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l20"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "half a dinar, as explained in Ketubot (64a) (closing).",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l20"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Opens and closes 'they unloaded him': they removed the weight of snow from upon him.",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "Opens 'angarya [forced labor]': the town official's own service -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l36"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "it actually was, but they did not recognize him -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l36"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "and thought he was one of the people of his own estate-towns, -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l36"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "upon whom service to the land's lord is imposed (closing).",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l36"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "Opens 'meshadelto [she entices him]': she seduces him, [as] 'ki yefateh' -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "is translated [in Targum] as 'ari yishdal' (Exodus 22:15) (closing).",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "Opens and closes 'she wore for him': for his sake. Opens the next mishna's 'his head' -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l49"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "'to the south, and his face to the west': the Gemara explains -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l49"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "that he turned his head toward the Sanctuary, and it asks -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l49"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "the reason why it does not state directly -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l49"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "'its tail to the east and its head to the west' (closing). Opens 'and the priest' -",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l49"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "'stands in the east': his back is to the east (closing).",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l49"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "Truncated: the single word 'Gemara,' the section heading for the next comment on the confession formula, continuing onto 36a.",
-      "linkedGemaraLineIds": [
-        "yoma-035b-l50"
-      ]
+     "id": "yoma-035b-l12",
+     "type": "ruling",
+     "label": "Ruling: Each Yom Kippur garment change requires immersion",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-035b-l12",
+       "vilnaLine": 12
+      }
+     ],
+     "text": "Each Yom Kippur garment change requires immersion and sanctification."
     }
-  ]
+   ],
+   "topicTags": [
+    "Yom Kippur",
+    "KG garments",
+    "immersion"
+   ],
+   "concepts": {
+    "halachic": [
+     "garment sanctification",
+     "immersion requirement",
+     "biblical derivation"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "KG garment sequence",
+    "five immersions and ten sanctifications"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "'Other garments' means the High Priest changes into ordinary, non-sacred clothing during Yom Kippur.",
+     "correction": "R. Yehuda reads 'other' as referring to a different set of sacred linen garments, which still require immersion and sanctification before wearing.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-032a-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "text",
+     "description": "Verse analysis: 'other garments' = other sacred garments"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "conceptual",
+     "question": "What does 'other garments' mean in Lev. 16:23?",
+     "answer": "Other sacred (white linen) garments - not ordinary clothes."
+    }
+   ],
+   "finalRuling": "The verse 'other garments' refers to other sacred linen vestments; each change requires immersion and sanctification.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-035b-s02",
+   "lineRange": {
+    "startVilnaLine": 16,
+    "endVilnaLine": 47
+   },
+   "lines": [
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.35b.6"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.35b.7"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.35b.8"
+    },
+    {
+     "vilnaLine": 32,
+     "sefariaRef": "Yoma.35b.9"
+    },
+    {
+     "vilnaLine": 36,
+     "sefariaRef": "Yoma.35b.10"
+    },
+    {
+     "vilnaLine": 39,
+     "sefariaRef": "Yoma.35b.11"
+    },
+    {
+     "vilnaLine": 43,
+     "sefariaRef": "Yoma.35b.12"
+    },
+    {
+     "vilnaLine": 47,
+     "sefariaRef": "Yoma.35b.13"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.35b.6",
+    "Yoma.35b.7",
+    "Yoma.35b.8",
+    "Yoma.35b.9",
+    "Yoma.35b.10",
+    "Yoma.35b.11",
+    "Yoma.35b.12",
+    "Yoma.35b.13"
+   ],
+   "display": {
+    "whats": "Aggadah: poor, rich, and wicked come to judgment - Hillel, Elazar ben Charsum, Joseph.",
+    "hint": "The classic three figures at divine judgment: Hillel the poor scholar, Elazar ben Charsum the rich, and Joseph who withstood temptation.",
+    "title": "No Excuse Holds at Judgment"
+   },
+   "learning": {
+    "ahaMoment": "No excuse holds at judgment: the poor points to Hillel, the rich to Elazar ben Charsum, the wicked to Joseph.",
+    "memoryAnchor": "Three archetypes: Hillel, Elazar ben Charsum, Joseph - your excuse is already refuted.",
+    "learnerQuestion": "Can poverty, wealth, or a powerful evil inclination excuse someone from Torah study or sin?",
+    "coreTension": "A person might plead poverty, wealth and its distractions, or an overwhelming evil inclination as an excuse for failing to study Torah or for sinning.",
+    "coreMove": "The baraita rebuts each excuse with a counter-example: Hillel's extreme poverty did not stop his Torah study, Elazar ben Charsum's vast wealth did not stop his, and Joseph withstood the most intense temptation - so none of these conditions is a valid excuse at judgment.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Circumstance, whether poverty, wealth, or strong temptation, does not excuse failure, because a real historical figure faced the same or worse circumstance and still succeeded."
+    },
+    "learningBlocker": "Learners take this aggadah as hyperbole rather than a structured rebuttal: each of the three figures specifically and individually answers one of the three excuses."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-035b-l16",
+     "type": "elaboration",
+     "label": "Elaboration: Poor man pleads poverty as reason for",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-035b-l16",
+       "vilnaLine": 16
+      }
+     ],
+     "text": "Poor man pleads poverty as reason for not learning Torah."
+    },
+    {
+     "id": "yoma-035b-l20",
+     "type": "proof",
+     "label": "Proof: Hillel refutes: he was desperately poor yet",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-035b-l20",
+       "vilnaLine": 20
+      }
+     ],
+     "text": "Hillel refutes: he was desperately poor yet climbed through the roof to hear Torah in a snowstorm."
+    },
+    {
+     "id": "yoma-035b-l27",
+     "type": "elaboration",
+     "label": "Elaboration: Rich man pleads wealth and preoccupation as",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-035b-l27",
+       "vilnaLine": 27
+      }
+     ],
+     "text": "Rich man pleads wealth and preoccupation as excuse."
+    },
+    {
+     "id": "yoma-035b-l32",
+     "type": "proof",
+     "label": "Proof: Elazar ben Charsum refutes: vastly wealthy yet",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-035b-l32",
+       "vilnaLine": 32
+      }
+     ],
+     "text": "Elazar ben Charsum refutes: vastly wealthy yet he never visited his estates, studying all day."
+    },
+    {
+     "id": "yoma-035b-l36",
+     "type": "elaboration",
+     "label": "Elaboration: Wicked man pleads his evil inclination was",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-035b-l36",
+       "vilnaLine": 36
+      }
+     ],
+     "text": "Wicked man pleads his evil inclination was too strong."
+    },
+    {
+     "id": "yoma-035b-l39",
+     "type": "proof",
+     "label": "Proof: Joseph refutes: faced intense temptation from Potiph...",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-035b-l39",
+       "vilnaLine": 39
+      }
+     ],
+     "text": "Joseph refutes: faced intense temptation from Potiphar's wife yet withstood it."
+    },
+    {
+     "id": "yoma-035b-l43",
+     "type": "ruling",
+     "label": "Ruling: Hillel condemns the poor; Elazar condemns the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-035b-l43",
+       "vilnaLine": 43
+      }
+     ],
+     "text": "Hillel condemns the poor; Elazar condemns the rich; Joseph condemns the wicked."
+    },
+    {
+     "id": "yoma-035b-l47",
+     "type": "elaboration",
+     "label": "Elaboration: Joseph's reward in Egypt mirrored his trial.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-035b-l47",
+       "vilnaLine": 47
+      }
+     ],
+     "text": "Joseph's reward in Egypt mirrored his trial."
+    }
+   ],
+   "topicTags": [
+    "Aggadah",
+    "divine judgment",
+    "Torah study",
+    "yetzer hara"
+   ],
+   "concepts": {
+    "halachic": [],
+    "theological": [
+     "divine judgment",
+     "personal responsibility",
+     "evil inclination"
+    ],
+    "narrative": [
+     "Hillel in snowstorm",
+     "Elazar ben Charsum",
+     "Joseph and Potiphar's wife"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [
+    {
+     "misconception": "Wealth and its accompanying distractions are a legitimate excuse for not studying Torah.",
+     "correction": "Elazar ben Charsum, despite owning a thousand villages and ships, never visited his estates and studied Torah all day - refuting the excuse that wealth prevents study.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-029a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "description": "Three figures: poor/rich/wicked and their paradigmatic responses"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "factual",
+     "question": "Which figure refutes the poor man's excuse at divine judgment?",
+     "answer": "Hillel, who was desperately poor yet climbed through the roof to study Torah in the snow."
+    }
+   ],
+   "finalRuling": "No one can claim poverty, wealth, or evil inclination as an excuse; Hillel, Elazar ben Charsum, and Joseph demonstrate the rebuttal.",
+   "difficulty": "introductory",
+   "alternateAngles": [
+    {
+     "angle": "Educational",
+     "description": "Three models of overcoming circumstance to serve God"
+    }
+   ],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-035b-s03",
+   "lineRange": {
+    "startVilnaLine": 49,
+    "endVilnaLine": 50
+   },
+   "lines": [
+    {
+     "vilnaLine": 49,
+     "sefariaRef": "Yoma.35b.14"
+    },
+    {
+     "vilnaLine": 50,
+     "sefariaRef": "Yoma.35b.15"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.35b.14",
+    "Yoma.35b.15"
+   ],
+   "display": {
+    "whats": "Mishna Ch. 4: The KG came to his bull standing between the vestibule and the altar.",
+    "hint": "First Mishna of chapter 4 - the core Yom Kippur service begins.",
+    "title": "Opening the Bull Confession: Where He Stands"
+   },
+   "learning": {
+    "ahaMoment": "The KG faces west to lean on the bull - he and his offering face the same direction, toward the Divine Presence.",
+    "memoryAnchor": "KG faces west, bull faces west, hands pressed on head - the confession begins.",
+    "learnerQuestion": "Where exactly does the High Priest stand to confess over his bull, and which direction does he face?",
+    "coreTension": "Chapter 4 opens with the High Priest approaching his bull for confession, and the Mishna specifies an exact, seemingly technical position and orientation for both the bull and the High Priest.",
+    "coreMove": "The Mishna fixes the bull between the vestibule and the altar with its head south and face west, and the High Priest standing east of it facing west with both hands pressed on its head - establishing the precise stance for the first confession of the day.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The bull's location and orientation are not mere staging details - they are halachically fixed elements of a valid confession, tied to a tannaic dispute over the bull's exact position."
+    },
+    "learningBlocker": "Learners treat the bull's positioning as incidental scene-setting; later sugyot reveal it reflects a real tannaic dispute tied to legal consequences."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-035b-l49",
+     "type": "ruling",
+     "label": "Ruling: Mishna: KG came to his bull standing",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-035b-l49",
+       "vilnaLine": 49
+      }
+     ],
+     "text": "Mishna: KG came to his bull standing between vestibule and altar."
+    },
+    {
+     "id": "yoma-035b-l50",
+     "type": "elaboration",
+     "label": "Elaboration: The bull's head faces south, face toward",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-035b-l50",
+       "vilnaLine": 50
+      }
+     ],
+     "text": "The bull's head faces south, face toward west; KG stands east facing west with both hands on the bull."
+    }
+   ],
+   "topicTags": [
+    "Yom Kippur",
+    "KG bull confession",
+    "Temple service"
+   ],
+   "concepts": {
+    "halachic": [
+     "bull position for confession",
+     "KG's stance for semicha"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "semicha (laying on of hands)",
+    "Yom Kippur Avodah sequence"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The bull's position between the vestibule and the altar is a minor logistical detail with no legal significance.",
+     "correction": "The position is a tannaic dispute (R. Yehuda vs. Rabbis) tied to nevelah liability in sacred zones - it has real legal consequences.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-036a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "place",
+     "description": "Bull between vestibule and altar; KG east facing west"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "factual",
+     "question": "Where does the KG's bull stand for the Yom Kippur confession?",
+     "answer": "Between the vestibule and the altar, head facing south, face toward west."
+    }
+   ],
+   "finalRuling": "The bull stands between the vestibule and altar, head south, face west; the KG stands east facing west, hands on the bull.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "We read 'they raised an objection' first and then read 'Rav Shmuel taught' - the objection quotes 'and they shall wear other garments.' And we do not read 'and they shall approach the people,' since that verse is not",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "written regarding the service but regarding the garments in which they ate, and it cannot be placed on Yom Kippur; rather, he raises the objection from this verse, 'and when they go out to the outer court,' etc., since there is reason",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "to place it on Yom Kippur, as it is written just before it, 'and when they come to the gates of the inner court, wool shall not go up on them' - this is certainly written about Yom Kippur, since on any other",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "day of the year there is the robe, which is entirely turquoise wool, and the breastplate and ephod, which contain turquoise wool; and after it is written, 'and when they go out to the outer court they shall remove their garments,' etc.,",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "'and don other garments' - and you might think",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "that this means: and when he returns and enters there",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "in the afternoon, he shall wear other linen garments,",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "not the first ones; and because Moses did not hint at this",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "in the Torah, and it was learned as a law given orally",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "at Sinai, Ezekiel came and supported it with a verse,",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "'and they shall not sanctify the people,' since it is written in the latter part",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "that this is a separate matter, and when they mix with",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "the people they shall wear ordinary weekday clothes. Is it not [that]",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l01",
+    "yoma-035b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "'other' means more distinguished than them - for if not,",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "to elevate them, why would it need to write 'other',",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "which implies they should not resemble the first ones.",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "No, [rather 'other' means] lesser than them - since the first service",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "is significant and atones, whereas this one is only to clear",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "the place, as it is not fitting for the vessels to remain",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "lying there; therefore Scripture changed the garments",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "to lesser ones. An individual's service - taking out",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l02",
+    "yoma-035b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "the ladle and fire-pan, which is not required by the community, but rather",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "is incumbent on him to clear the place;",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "therefore it is called an individual's service. And provided",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "that he gives it over to the community - since ultimately it is from",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "the community's own service; so it appears to me. But I",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "have heard that 'an individual's service' means he reads the Torah portion,",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "as we learned in the mishnah (below, 68b): he reads",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "in his own white robe; but this is difficult for me,",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "since we did not learn there 'provided that he gives it to the community.'",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "Obviously - that he performs the service with it, since you said",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "he gives it to the community, as it belongs to the community anyway. From two",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l03",
+    "yoma-035b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "ten-thousands - meaning maneh. But did not the master say its thread -",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "of the priestly garments is six-ply, as stated below,",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "in the chapter Ba Lo (71b)? Like wine",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "in a glass - like wine visible from outside a glass",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "vessel; even though the glass is thick, so too was",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "the linen so fine that his flesh showed through it.",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "To the poor they say, etc. - meaning, if there came",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "before the heavenly court a case condemning the poor via Hillel,",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "the rich via Rabbi Elazar, and those overcome by the evil inclination",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "via Joseph, the prosecutor has grounds",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "to condemn them. Trafa'ik - a provincial sela, which is",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l16",
+    "yoma-035b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "half a dinar, as explained in Ketubot (64a).",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "They unloaded him - they removed the weight of snow from upon him.",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "Angarya - it was actually the town official's own service and",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l36"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "his own personal service, but they did not recognize him",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l36"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "and thought he was one of the residents of his own estate-towns,",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l36"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "upon whom the service owed to the land's lord is imposed.",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l36"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "Meshadelto - she seduces him; 'ki yefateh'",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l39"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "we translate in Targum as 'ari yishdal' (Exodus 22).",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l39"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "'She wore for him' - for his sake. Mishnah: 'his head'",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l39",
+    "yoma-035b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "'to the south, and his face to the west' - the Gemara explains",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "that he turned his head toward the Sanctuary, and it asks",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "the reason why it does not state directly",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "'its tail to the east and its head to the west.' And the priest",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "'stands in the east' - his back is to the east.",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "Gemara - the daf ends here at the start of a new heading; the comment continues on 36a, addressing which view holds that the space between the Sanctuary hall and the altar counts as 'the north.'",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l50"
+   ]
+  }
+ ]
 }
