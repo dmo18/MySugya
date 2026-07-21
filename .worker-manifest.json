@@ -2,7 +2,7 @@
  "type": "rashi-reconstruction",
  "module": "yoma",
  "targets": [
-  "34b"
+  "35a"
  ],
  "model": "sonnet",
  "paused": false,
@@ -73,22 +73,16 @@
  "scaffoldDebt": {
   "snapshot": [
    {
-    "daf": "34b",
+    "daf": "35a",
     "vilnaLine": 1,
     "rule": "plain-meta-scaffold",
-    "enHash": "5a99c90044f5dbab"
+    "enHash": "7abb4250c3a64239"
    },
    {
-    "daf": "34b",
-    "vilnaLine": 8,
+    "daf": "35a",
+    "vilnaLine": 10,
     "rule": "plain-meta-scaffold",
-    "enHash": "e7b3bb53532b7333"
-   },
-   {
-    "daf": "34b",
-    "vilnaLine": 28,
-    "rule": "plain-meta-scaffold",
-    "enHash": "d5088fe4cd65713a"
+    "enHash": "8b252a07ebd9a0d9"
    }
   ]
  },
