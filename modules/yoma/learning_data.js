@@ -87537,7 +87537,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 1,
         he: "בסירוגין. אם לא שכב אחריו ראשי תיבות עד סוף המקרא ואת כי שטית",
-        en: "Opens 'in alternation': if she did not lie with another, he writes the first letters until the end of the verse 'and if you have gone astray'",
+        en: "In intervals - if he did not lie [with her], following it are the acrostic letters through the end of the verse, 'and if you have gone astray'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87551,7 +87551,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 2,
         he: "ואחריו ראשי תיבות עד סוף המקרא יתן ה' אותך ואחריו ראשי",
-        en: "continuing: and after it, the first letters until the end of the verse 'may the Lord make you,' and after it, the first",
+        en: "and following it, the acrostic letters through the end of the verse, 'the Lord shall make you,' and following it, the acrostic",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87565,7 +87565,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 3,
         he: "תיבות עד סוף המקרא ובאו המים ואחריו ראשי תיבות א] (אם שכב ואת",
-        en: "continuing: letters until the end of the verse 'and the water shall enter,' and after it, the first letters of aleph (if she lay, and",
+        en: "letters through the end of the verse, 'and the water shall enter,' and following it, the acrostic letters of 'if he lay, and if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87579,11 +87579,12 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 4,
         he: "כי שטית): להביא דלתות. לשער המזרח של העזרה ושל נחושת היו:",
-        en: "closing: if you have gone astray).' Then opens 'to bring doors': for the eastern gate of the courtyard, and they were made of bronze.'",
+        en: "you have gone astray.' To bring doors - for the eastern gate of the courtyard, and they were made of bronze.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-038a-l01a",
           "yoma-038a-l01b"
         ]
       },
@@ -87593,7 +87594,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 5,
         he: "נחשול. סערה: והטילוה לים. להקל",
-        en: "Opens 'a swell': a storm.' Then opens 'and they threw it into the sea': to lighten",
+        en: "A swell - a storm. And they threw it into the sea - to lighten",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87607,11 +87608,12 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 6,
         he: "לספינה: וכרכה. חבקה: לנמלה.",
-        en: "closing: the ship.' Then opens 'and he embraced it': he clasped it.' Then opens 'to the harbor of'",
+        en: "the ship. And he embraced it - he wrapped his arms around it. To the harbor of -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-038a-l01b",
           "yoma-038a-l06"
         ]
       },
@@ -87621,7 +87623,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 7,
         he: "פורט\"ו מקום שהספינות נמשכות שם",
-        en: "continuing: porto in the vernacular, the place where the ships are drawn",
+        en: "porto, the vernacular term for the place where ships are drawn",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87635,11 +87637,12 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 8,
         he: "ליבשה: רהיטנו. לשון דלת שהוא",
-        en: "closing: to dry land.' Then opens 'our rafters': a term for a door that",
+        en: "to dry land. Our rafters - a term for a door that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-038a-l06",
           "yoma-038a-l11"
         ]
       },
@@ -87649,7 +87652,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 9,
         he: "רץ ונועל רץ ופותח: אלא ברית ים.",
-        en: "closing: runs and closes, runs and opens.' Then opens 'rather, a covenant of the sea'",
+        en: "runs to close and runs to open. Rather, a covenant of the sea -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87663,7 +87666,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 10,
         he: "כאילו כרתו ברית זו עם זו ויש",
-        en: "continuing: as though this one and that one made a covenant with each other, and some",
+        en: "as though this one and that one made a covenant with each other; and some",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87677,7 +87680,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 11,
         he: "אומרים בריית ים: נשתנו. כשהעשירו:",
-        en: "closing: say a creature of the sea.' Then opens 'were changed': when they grew wealthy.'",
+        en: "say a creature of the sea. Were changed - when they grew wealthy.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87691,7 +87694,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 12,
         he: "קלניתא. מזוקקת וכן שם מין נחושת",
-        en: "Opens 'kelonita': refined, and it is likewise the name of a type of bronze",
+        en: "Kelonita - refined, and this is likewise the name of a type of bronze,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87705,12 +87708,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 13,
         he: "והוא נחושת קלל: מתני' בן לוי.",
-        en: "closing: namely burnished bronze.' The mishna. Then opens 'ben Levi'",
+        en: "namely burnished bronze. Mishnah: 'ben Levi' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-038a-l17"
+          "yoma-038a-l11",
+          "yoma-038a-l16"
         ]
       },
       {
@@ -87719,11 +87723,12 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 14,
         he: "כלומר מן הלוים: פרק. הכרעת",
-        en: "closing: meaning, of the Levites.' Then opens 'a passage': a rendering",
+        en: "meaning of the Levites. A passage - a rendering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-038a-l16",
           "yoma-038a-l17"
         ]
       },
@@ -87733,7 +87738,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 15,
         he: "קול נעימה: על מעשה הכתב. קושר",
-        en: "closing: of a pleasant tune.' Then opens 'the technique of the writing': he would tie",
+        en: "of a pleasant tune. Regarding the technique of the writing - he would tie",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87747,7 +87752,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 16,
         he: "ד' קולמוסין בד' אצבעותיו וכותב",
-        en: "continuing: four quills to his four fingers and write",
+        en: "four quills to his four fingers and write",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87761,12 +87766,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 17,
         he: "שם בן ארבע אותיות כאחד: גמ'",
-        en: "closing: the four-letter Name all at once.' Opens 'Gemara'",
+        en: "the four-letter Name all at once. Gemara:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-038a-l17"
+          "yoma-038a-l17",
+          "yoma-038a-l18"
         ]
       },
       {
@@ -87775,7 +87781,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 18,
         he: "לרדות. מן התנור: שהללו. שבאו",
-        en: "closing: to remove': from the oven.' Then opens 'that these ones': who came",
+        en: "'to remove' - from the oven. That these ones - who came",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87789,7 +87795,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 19,
         he: "מן אלכסנדריא לפי שלא יודעים לרדות מן התנור שלא יהא נשבר",
-        en: "continuing: from Alexandria, since they did not know how to remove it from the oven so that it would not break",
+        en: "from Alexandria, since they did not know how to remove it from the oven without it breaking,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87803,7 +87809,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 20,
         he: "לפי שהוא עשוי כמין תיבה פרוצה כמין ספינה היו יראים לדבקם",
-        en: "continuing: because it was made like an open box, shaped like a boat, they were afraid to stick them",
+        en: "since it was shaped like an open box, like a boat, they were afraid to press it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87817,12 +87823,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 21,
         he: "מבפנים לתנור ואופין אותן מבחוץ: כפלו להם שכרם. מתרומת",
-        en: "closing: to the inside of the oven, and would bake them from outside.' Then opens 'they doubled their wage': from the funds of",
+        en: "against the inside of the oven, and would bake them from outside. They doubled their wage - from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-038a-l18"
+          "yoma-038a-l18",
+          "yoma-038a-l21"
         ]
       },
       {
@@ -87831,12 +87838,14 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 22,
         he: "הלשכה: ועל דבר זה מזכירים אותם לשבח שמעולם כו': לפטם.",
-        en: "closing: the Chamber, and for this reason they are mentioned favorably, that never,' etc.' Then opens 'to blend the spices'",
+        en: "the Chamber's own funds. And for this matter they are mentioned favorably: 'never,' etc. To blend the spices -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-038a-l21"
+          "yoma-038a-l21",
+          "yoma-038a-l24",
+          "yoma-038a-l27"
         ]
       },
       {
@@ -87845,7 +87854,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 23,
         he: "לכתוש הסמנין ולערבם יפה כמו",
-        en: "continuing: to pound the spices and mix them well, as",
+        en: "to pound the spices and mix them well, as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87859,7 +87868,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 24,
         he: "שנאמר (שמות ל) ממולח: להעלות",
-        en: "closing: it is said (Exodus 30): 'well blended.'' Then opens 'to raise'",
+        en: "it is said (Exodus 30), 'well blended.' To raise",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87873,7 +87882,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 25,
         he: "עשן. שלא היו מכירין בעשב שהוא",
-        en: "continuing: smoke': that they did not know the plant that",
+        en: "the smoke - since they did not know the plant that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87887,7 +87896,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 26,
         he: "מעלה את העשן זוקף ומתמר כמקל:",
-        en: "closing: makes the smoke rise straight and column-like as a rod.'",
+        en: "makes the smoke rise straight and column-like, like a rod.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87901,12 +87910,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 27,
         he: "מיעט כבודם. בחורבן ביתו: מעלה",
-        en: "Opens 'diminished their honor': in the destruction of his own house.' Then opens 'raises'",
+        en: "Diminished their honor - in the destruction of his own house. Raises",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-038a-l36"
+          "yoma-038a-l36",
+          "yoma-038a-l38"
         ]
       },
       {
@@ -87915,7 +87925,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 28,
         he: "עשן. עשב שהוא מעלה עשן",
-        en: "closing: smoke': the plant that raises smoke",
+        en: "smoke - the plant that raises smoke",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87929,11 +87939,12 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 29,
         he: "ראיתי כנגדי: מגילת סמנין. שכתובין",
-        en: "closing: I saw across from me.' Then opens 'a scroll of spices': in which are written",
+        en: "'I saw across from me.' A scroll of spices - in which are written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-038a-l38",
           "yoma-038a-l41"
         ]
       },
@@ -87943,12 +87954,13 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 30,
         he: "בה שמות סמני הקטורת: מכאן",
-        en: "closing: the names of the incense's ingredients.' Then opens 'from here'",
+        en: "the names of the incense's own ingredients. From here",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-038a-l41"
+          "yoma-038a-l41",
+          "yoma-038a-l44"
         ]
       },
       {
@@ -87957,7 +87969,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 31,
         he: "אמר בן עזאי. ממעשה בית גרמו",
-        en: "continuing: Ben Azzai said: from the incident of the house of Garmu",
+        en: "Ben Azzai said - from the incident of the house of Garmu",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87971,7 +87983,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 32,
         he: "ובית אבטינס שבקשו חכמים לדחותם",
-        en: "continuing: and the house of Avtinas, whom the Sages sought to remove",
+        en: "and the house of Avtinas, whom the Sages sought to remove",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87985,7 +87997,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 33,
         he: "ממקומם ולא יכלו: בשמך",
-        en: "closing: from their position and could not.' Then opens 'in your name'",
+        en: "from their position, and could not. 'In your name",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -87999,7 +88011,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 34,
         he: "יקראוך. לא ידאג אדם לומר פלוני",
-        en: "continuing: they shall call you': a person need not worry, saying, so-and-so",
+        en: "they shall call you' - a person need not worry, saying, so-and-so",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -88013,7 +88025,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 35,
         he: "יקפח פרנסתי כי על כרחך בשם",
-        en: "continuing: will deprive me of my livelihood, for necessarily, in the name",
+        en: "will cut off my livelihood, for necessarily, in the name",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -88027,7 +88039,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 36,
         he: "יקראוך לבא ולשוב במקומך:",
-        en: "closing: they shall call you, to come and to return to your place.'",
+        en: "they shall call you, to come and return to your own place.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -88041,7 +88053,7 @@ const DAF_CONTENT = {
         daf: "38a",
         vilnaLine: 37,
         he: "ומשלך",
-        en: "Opens 'and from your own' -",
+        en: "And from your own - the daf ends mid-comment here; the comment (on Ben Azzai's own continuing teaching that one's own sustenance and position are fixed by heaven, not taken by another) continues on 38b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
