@@ -1,820 +1,831 @@
 {
-  "daf": "40a",
-  "canonicalRef": "Yoma 40a",
-  "summary": "40a resolves the right vs left hand lot dispute (right preferred, both valid); addresses the requirement for verbal designation ('chattat l'HaShem'); describes the crimson thread placement (half on Azazel goat, half on cliff) and the communication system (originally fire signals, later messengers after Samaritan interference).",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "40a",
+ "canonicalRef": "Yoma 40a",
+ "summary": "40a resolves the right vs left hand lot dispute (right preferred, both valid); addresses the requirement for verbal designation ('chattat l'HaShem'); describes the crimson thread placement (half on Azazel goat, half on cliff) and the communication system (originally fire signals, later messengers after Samaritan interference).",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-040a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 31
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-040a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 31
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.40a.1"
-        },
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.40a.2"
-        },
-        {
-          "vilnaLine": 4,
-          "sefariaRef": "Yoma.40a.3"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.40a.4"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.40a.5"
-        },
-        {
-          "vilnaLine": 15,
-          "sefariaRef": "Yoma.40a.6"
-        },
-        {
-          "vilnaLine": 15,
-          "sefariaRef": "Yoma.40a.7"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.40a.8"
-        },
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.40a.9"
-        },
-        {
-          "vilnaLine": 21,
-          "sefariaRef": "Yoma.40a.10"
-        },
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.40a.11"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.40a.12"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.40a.13"
-        },
-        {
-          "vilnaLine": 29,
-          "sefariaRef": "Yoma.40a.14"
-        },
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.40a.15"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.40a.1",
-        "Yoma.40a.2",
-        "Yoma.40a.3",
-        "Yoma.40a.4",
-        "Yoma.40a.5",
-        "Yoma.40a.6",
-        "Yoma.40a.7",
-        "Yoma.40a.8",
-        "Yoma.40a.9",
-        "Yoma.40a.10",
-        "Yoma.40a.11",
-        "Yoma.40a.12",
-        "Yoma.40a.13",
-        "Yoma.40a.14",
-        "Yoma.40a.15"
-      ],
-      "display": {
-        "whats": "The right vs left hand lot dispute resolved; R. Yochanan and Reish Lakish debate.",
-        "hint": "The lot is valid from either hand; if right draws 'for God' it is a good omen; the Deputy helps if needed.",
-        "title": "Resolving the Right-Hand Lot Dispute"
-      },
-      "learning": {
-        "ahaMoment": "The lot ceremony's spiritual significance transcends technical hand requirements: God's acceptance is shown by the omen (right hand), not determined by it.",
-        "memoryAnchor": "Right hand = omen; left hand = still valid. The miracle was in the omen, not in invalidating the left.",
-        "learnerQuestion": "How does the Gemara resolve R. Yochanan and Reish Lakish's dispute over whether the right-hand lot is required?",
-        "coreTension": "R. Yochanan holds both hands are equally valid; Reish Lakish holds the right hand is required, two opposing positions on the same designation ceremony that the Gemara must reconcile into a working rule.",
-        "coreMove": "The Gemara resolves the dispute as preferred-but-not-required: the right hand is le-chatchila (the ideal way to perform it), while the left hand remains valid b'dieved (after the fact), with the Deputy assisting if the lot needs transferring.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The right-hand 'for God' lot is the preferred, ideal outcome (le-chatchila), but a left-hand draw remains valid after the fact (b'dieved), the dispute resolves into a single graded rule rather than an either/or contradiction."
-        },
-        "learningBlocker": "Learners may read the resolution as simply 'right hand wins' or 'both are equal,' missing the le-chatchila/b'dieved distinction that actually reconciles the two positions."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-040a-l01",
-          "type": "elaboration",
-          "label": "Elaboration: Continuation of right vs left lot dispute",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040a-l01",
-              "vilnaLine": 1
-            }
-          ],
-          "text": "Continuation of right vs left lot dispute from 39b."
-        },
-        {
-          "id": "yoma-040a-l03",
-          "type": "elaboration",
-          "label": "Elaboration: R. Yochanan: both hands are valid; Reish",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040a-l03",
-              "vilnaLine": 3
-            }
-          ],
-          "text": "R. Yochanan: both hands are valid; Reish Lakish: right hand required."
-        },
-        {
-          "id": "yoma-040a-l04",
-          "type": "resolution",
-          "label": "Resolution: Resolution: right hand is preferred but not",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040a-l04",
-              "vilnaLine": 4
-            }
-          ],
-          "text": "Resolution: right hand is preferred but not strictly required; left hand is technically valid."
-        },
-        {
-          "id": "yoma-040a-l07",
-          "type": "elaboration",
-          "label": "Elaboration: If left hand drew 'for God,' the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040a-l07",
-              "vilnaLine": 7
-            }
-          ],
-          "text": "If left hand drew 'for God,' the Deputy helps place it on the goat's head."
-        },
-        {
-          "id": "yoma-040a-l10",
-          "type": "elaboration",
-          "label": "Elaboration: The KG says 'for God' over the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040a-l10",
-              "vilnaLine": 10
-            }
-          ],
-          "text": "The KG says 'for God' over the right goat and 'for Azazel' over the left."
-        },
-        {
-          "id": "yoma-040a-l15a",
-          "type": "elaboration",
-          "label": "Elaboration: Dispute: does the lot designation require the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040a-l15a",
-              "vilnaLine": 15
-            }
-          ],
-          "text": "Dispute: does the lot designation require the KG to say 'for God' or just place it?"
-        },
-        {
-          "id": "yoma-040a-l15b",
-          "type": "elaboration",
-          "label": "Elaboration: R. Yehuda: he must say 'a sin-offering",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040a-l15b",
-              "vilnaLine": 15
-            }
-          ],
-          "text": "R. Yehuda: he must say 'a sin-offering for God' explicitly."
-        },
-        {
-          "id": "yoma-040a-l16",
-          "type": "elaboration",
-          "label": "Elaboration: The Rabbis say: the lot itself designates;",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040a-l16",
-              "vilnaLine": 16
-            }
-          ],
-          "text": "The Rabbis say: the lot itself designates; the verbal formula is an enhancement."
-        },
-        {
-          "id": "yoma-040a-l19",
-          "type": "elaboration",
-          "label": "Elaboration: The crimson thread is placed on the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040a-l19",
-              "vilnaLine": 19
-            }
-          ],
-          "text": "The crimson thread is placed on the goat sent to Azazel."
-        },
-        {
-          "id": "yoma-040a-l21",
-          "type": "elaboration",
-          "label": "Elaboration: Half the thread on the goat's neck,",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040a-l21",
-              "vilnaLine": 21
-            }
-          ],
-          "text": "Half the thread on the goat's neck, half on the rock (Tsuk) or the cliff."
-        },
-        {
-          "id": "yoma-040a-l23",
-          "type": "elaboration",
-          "label": "Elaboration: The crimson thread turning white was visible",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040a-l23",
-              "vilnaLine": 23
-            }
-          ],
-          "text": "The crimson thread turning white was visible to those in Jerusalem."
-        },
-        {
-          "id": "yoma-040a-l27",
-          "type": "elaboration",
-          "label": "Elaboration: Those in Jerusalem could see the thread;",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040a-l27",
-              "vilnaLine": 27
-            }
-          ],
-          "text": "Those in Jerusalem could see the thread; those in the outer areas relied on signal fires or messengers."
-        },
-        {
-          "id": "yoma-040a-l28",
-          "type": "elaboration",
-          "label": "Elaboration: The Rabbis later stopped using fire-signals because",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040a-l28",
-              "vilnaLine": 28
-            }
-          ],
-          "text": "The Rabbis later stopped using fire-signals because of Samaritan interference."
-        },
-        {
-          "id": "yoma-040a-l29",
-          "type": "elaboration",
-          "label": "Elaboration: Messengers were used instead to convey news",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040a-l29",
-              "vilnaLine": 29
-            }
-          ],
-          "text": "Messengers were used instead to convey news of the thread turning white."
-        },
-        {
-          "id": "yoma-040a-l31",
-          "type": "ruling",
-          "label": "Ruling: Both hands valid; right preferred as omen;",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040a-l31",
-              "vilnaLine": 31
-            }
-          ],
-          "text": "Both hands valid; right preferred as omen; verbal designation required; crimson thread half on goat, half on cliff."
-        }
-      ],
-      "topicTags": [
-        "Yom Kippur",
-        "lot ceremony",
-        "crimson thread",
-        "Azazel"
-      ],
-      "concepts": {
-        "halachic": [
-          "right vs left lot validity",
-          "verbal designation requirement",
-          "crimson thread placement"
-        ],
-        "theological": [
-          "omen vs requirement",
-          "atonement confirmation"
-        ],
-        "narrative": [
-          "signal fires vs messengers"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Yom Kippur lot",
-        "crimson thread (lashon shel zehorit)"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The right-hand lot is absolutely required for the ceremony's validity; a left-hand draw invalidates the entire Yom Kippur designation.",
-          "correction": "The Gemara's resolution is graded, not absolute: the right hand is the ideal (le-chatchila) outcome, but a left-hand draw is valid after the fact (b'dieved). The dispute between R. Yochanan and Reish Lakish is resolved by distinguishing the preferred method from the minimum requirement for validity, not by ruling one position simply wrong.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-039b-s04"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "description": "Lot drawn → placed on goat → verbal designation → crimson thread half on goat, half on cliff"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "factual",
-          "question": "What is the halachic status of the 'for God' lot landing in the left hand?",
-          "answer": "It is valid post-facto; the right hand is preferred as a good omen but not strictly required."
-        }
-      ],
-      "finalRuling": "Right-hand lot is preferred (omen) but not required; verbal designation required; crimson thread split between goat and cliff.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.40a.1"
+    },
+    {
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.40a.2"
+    },
+    {
+     "vilnaLine": 4,
+     "sefariaRef": "Yoma.40a.3"
+    },
+    {
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.40a.4"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.40a.5"
+    },
+    {
+     "vilnaLine": 15,
+     "sefariaRef": "Yoma.40a.6"
+    },
+    {
+     "vilnaLine": 15,
+     "sefariaRef": "Yoma.40a.7"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.40a.8"
+    },
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.40a.9"
+    },
+    {
+     "vilnaLine": 21,
+     "sefariaRef": "Yoma.40a.10"
+    },
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.40a.11"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.40a.12"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.40a.13"
+    },
+    {
+     "vilnaLine": 29,
+     "sefariaRef": "Yoma.40a.14"
+    },
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.40a.15"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.40a.1",
+    "Yoma.40a.2",
+    "Yoma.40a.3",
+    "Yoma.40a.4",
+    "Yoma.40a.5",
+    "Yoma.40a.6",
+    "Yoma.40a.7",
+    "Yoma.40a.8",
+    "Yoma.40a.9",
+    "Yoma.40a.10",
+    "Yoma.40a.11",
+    "Yoma.40a.12",
+    "Yoma.40a.13",
+    "Yoma.40a.14",
+    "Yoma.40a.15"
+   ],
+   "display": {
+    "whats": "The right vs left hand lot dispute resolved; R. Yochanan and Reish Lakish debate.",
+    "hint": "The lot is valid from either hand; if right draws 'for God' it is a good omen; the Deputy helps if needed.",
+    "title": "Resolving the Right-Hand Lot Dispute"
+   },
+   "learning": {
+    "ahaMoment": "The lot ceremony's spiritual significance transcends technical hand requirements: God's acceptance is shown by the omen (right hand), not determined by it.",
+    "memoryAnchor": "Right hand = omen; left hand = still valid. The miracle was in the omen, not in invalidating the left.",
+    "learnerQuestion": "How does the Gemara resolve R. Yochanan and Reish Lakish's dispute over whether the right-hand lot is required?",
+    "coreTension": "R. Yochanan holds both hands are equally valid; Reish Lakish holds the right hand is required, two opposing positions on the same designation ceremony that the Gemara must reconcile into a working rule.",
+    "coreMove": "The Gemara resolves the dispute as preferred-but-not-required: the right hand is le-chatchila (the ideal way to perform it), while the left hand remains valid b'dieved (after the fact), with the Deputy assisting if the lot needs transferring.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The right-hand 'for God' lot is the preferred, ideal outcome (le-chatchila), but a left-hand draw remains valid after the fact (b'dieved), the dispute resolves into a single graded rule rather than an either/or contradiction."
+    },
+    "learningBlocker": "Learners may read the resolution as simply 'right hand wins' or 'both are equal,' missing the le-chatchila/b'dieved distinction that actually reconciles the two positions."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-040a-l01",
+     "type": "elaboration",
+     "label": "Elaboration: Continuation of right vs left lot dispute",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040a-l01",
+       "vilnaLine": 1
+      }
+     ],
+     "text": "Continuation of right vs left lot dispute from 39b."
+    },
+    {
+     "id": "yoma-040a-l03",
+     "type": "elaboration",
+     "label": "Elaboration: R. Yochanan: both hands are valid; Reish",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040a-l03",
+       "vilnaLine": 3
+      }
+     ],
+     "text": "R. Yochanan: both hands are valid; Reish Lakish: right hand required."
+    },
+    {
+     "id": "yoma-040a-l04",
+     "type": "resolution",
+     "label": "Resolution: Resolution: right hand is preferred but not",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040a-l04",
+       "vilnaLine": 4
+      }
+     ],
+     "text": "Resolution: right hand is preferred but not strictly required; left hand is technically valid."
+    },
+    {
+     "id": "yoma-040a-l07",
+     "type": "elaboration",
+     "label": "Elaboration: If left hand drew 'for God,' the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040a-l07",
+       "vilnaLine": 7
+      }
+     ],
+     "text": "If left hand drew 'for God,' the Deputy helps place it on the goat's head."
+    },
+    {
+     "id": "yoma-040a-l10",
+     "type": "elaboration",
+     "label": "Elaboration: The KG says 'for God' over the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040a-l10",
+       "vilnaLine": 10
+      }
+     ],
+     "text": "The KG says 'for God' over the right goat and 'for Azazel' over the left."
+    },
     {
-      "vilnaLine": 1,
-      "en": "Opens 'rather, according to this version you stated': they disagree in accordance with Rabbi Yehuda, and Rabbi Yannai said",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "continuing: it is indispensable, and all the more so for Rabbi Nechemia - whose view is this? Neither Rabbi Yehuda nor Rabbi",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "closing: Nechemia.' Then opens 'we learned: it is a mitzvah to place': and if he did not place it, it is valid, and on this everyone",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "continuing: agrees, that regarding the placing the verse states it only once, as it is written: 'and Aaron shall place'",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "continuing: Aaron,' etc.; but regarding the rising, the verse states it",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "continuing: as it is written: 'and Aaron shall offer the goat",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "continuing: upon which came up,' etc., and it is written: 'and the goat",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l03"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "closing: upon which it came up.'' Then opens 'and to confess': regarding",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l04"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "closing: the scapegoat, as it is written: 'and he shall confess over it,' etc.'",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l04"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Opens 'if you say he did not place it': that is what Rabbi Shimon",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: says is valid, but its rising from within",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "closing: the urn, Rabbi Shimon holds, is indispensable.'",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Opens 'but it was taught: if one of them dies': after the lottery,",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "continuing: for it is no longer possible to cast lots, unless",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: he brings two others and one goes to waste,",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "closing: as stated in the chapter 'the two goats' (62a, below).'",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: he brings one from the market in place of the one that died,",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: and it becomes the partner of the one still standing, and there is no",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l07"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "closing: need to cast lots.' Then opens 'Rabbi Shimon did not know'",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "continuing: etc.: it truly means 'he did not cast lots,' which the first Tanna states",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: is valid, is really 'he did not place it,' and your difficulty -",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: how can Rabbi Shimon say about it 'he did not cast lots, valid,'",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: if this casting of lots means the placing, implying that if",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: he did not lift it up it is invalid according to Rabbi Shimon - is not",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: a difficulty, since 'he did not cast lots' as Rabbi Shimon",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: says means literally 'he did not cast lots,' and he did not know",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: that 'he did not cast lots' as the first Tanna says refers to",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: the placing, and this is what Rabbi Shimon",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: says to the Rabbis: if you mean 'he did not cast lots, valid'",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "continuing: as referring to the rising, which is the actual casting of lots,",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "closing: I disagree with you in one point, absent the confession.'",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "Opens 'and if the casting of lots you mean is the placing':",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: but the rising, according to you, is indispensable, then I disagree",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "continuing: in two points, for according to me the casting of lots is not indispensable",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: at all, and the confession is indispensable, and below it explains",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "closing: the reason for both, in the confession.' Then opens 'the bull is indispensable'",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l10"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "continuing: to the goat': if he advanced one of the goat's",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l15a"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: later services and performed it before the bull, the bull, which",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l15a"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "continuing: was fitting to precede it, is indispensable and disqualifies it, and it does not",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l15a"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: count for him, and he must go back and perform it after",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l15a"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "continuing: the bull; and the order of their services is as follows,",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l15a"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "continuing: as laid out in the passage: first he confesses over the bull,",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l15a"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "continuing: the first confession, and then he casts lots on",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l15a"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "continuing: the goat, and then he confesses over the bull again, the second confession, and slaughters it, and brings in the ladle",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l15a"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "continuing: and the fire-pan, and places the incense on the coals, etc., and places some of the bull's blood on",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l15a"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "continuing: the ark-cover; and then he slaughters the goat and places some of it on the ark-cover; and then",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l15a"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "continuing: he places some of the bull's blood on the curtain, and then some of the goat's, and then",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l15a"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "closing: he mixes the bloods and places some on the inner altar.' Then opens 'but the goat does not indispensably precede'",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l15a"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "closing: the bull': if he advanced the bull's service, which is one of the later services relative to the goat,",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l15b"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "closing: and performed it before the goat, the goat, which was fitting to precede it, does not disqualify it.'",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l15b"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "closing: Opens 'regarding the sprinklings that are done inside': they are saying that the order of the bull is indispensable to the goat.' Then opens 'if he advanced it'",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l15b"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "closing: to the goat': regarding what is between the poles, before the bull, he has done nothing.' Then opens 'but the goat does not'",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "continuing: indispensably precede the bull, what is this': which service do we find performed for the goat",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "continuing: before the bull's inside sprinklings, that we should say about it that if he changed and advanced the bull's before it,",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "closing: the goat, which was fitting to precede it, does not disqualify it.' Then opens 'in the Sanctuary': on the curtain.' Then opens 'a statute'",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "continuing: is written regarding them': for even Rabbi Yehuda concedes that regarding matters performed inside,",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "continuing: a statute is written, and here he changed the order in an inside service, since he advanced",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "closing: the outside one, which is later than it.' Then opens 'rather, is it not that he advanced the bull's sprinklings inside, before'",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "continuing: the lottery': for the goat, since you can find no other goat-service that precedes the bull's",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 60,
-      "en": "closing: inside sprinklings except this one, and it teaches that it is not indispensable.' Then opens 'and since the order is not indispensable, the lottery too is not indispensable': even if he uprooted it entirely; this implies there is someone",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 61,
-      "en": "closing: who says the lottery is not indispensable, and this is difficult for the one who says even according to Rabbi Yehuda it is indispensable, all the more so for Rabbi Nechemia - whose view is this?' Then opens 'that he advanced the bull's sprinklings'",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 62,
-      "en": "closing: on the inner altar, as it is written (Leviticus 16): 'and he shall take some of the bull's blood and some of the goat's blood,' etc., when he should have delayed it until the completion of the curtain sprinklings.' Then opens 'granted the order is not'",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 63,
-      "en": "continuing: indispensable, the lottery - since for Rabbi Yehuda a statute is not written regarding matters done outside - the lottery itself, when uprooted entirely, is indispensable, since the verse states",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 64,
-      "en": "closing: it explicitly, as we said.' Then opens 'and they follow their own reasoning': it stands on the dispute over one who did not confess, and before 'come and hear: the bull is indispensable to the goat' we read it.",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l31"
-      ]
-    },
-    {
-      "vilnaLine": 65,
-      "en": "Opens 'he shall stand' -",
-      "linkedGemaraLineIds": [
-        "yoma-040a-l31"
-      ]
+     "id": "yoma-040a-l15a",
+     "type": "elaboration",
+     "label": "Elaboration: Dispute: does the lot designation require the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040a-l15a",
+       "vilnaLine": 15
+      }
+     ],
+     "text": "Dispute: does the lot designation require the KG to say 'for God' or just place it?"
+    },
+    {
+     "id": "yoma-040a-l15b",
+     "type": "elaboration",
+     "label": "Elaboration: R. Yehuda: he must say 'a sin-offering",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040a-l15b",
+       "vilnaLine": 15
+      }
+     ],
+     "text": "R. Yehuda: he must say 'a sin-offering for God' explicitly."
+    },
+    {
+     "id": "yoma-040a-l16",
+     "type": "elaboration",
+     "label": "Elaboration: The Rabbis say: the lot itself designates;",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040a-l16",
+       "vilnaLine": 16
+      }
+     ],
+     "text": "The Rabbis say: the lot itself designates; the verbal formula is an enhancement."
+    },
+    {
+     "id": "yoma-040a-l19",
+     "type": "elaboration",
+     "label": "Elaboration: The crimson thread is placed on the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040a-l19",
+       "vilnaLine": 19
+      }
+     ],
+     "text": "The crimson thread is placed on the goat sent to Azazel."
+    },
+    {
+     "id": "yoma-040a-l21",
+     "type": "elaboration",
+     "label": "Elaboration: Half the thread on the goat's neck,",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040a-l21",
+       "vilnaLine": 21
+      }
+     ],
+     "text": "Half the thread on the goat's neck, half on the rock (Tsuk) or the cliff."
+    },
+    {
+     "id": "yoma-040a-l23",
+     "type": "elaboration",
+     "label": "Elaboration: The crimson thread turning white was visible",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040a-l23",
+       "vilnaLine": 23
+      }
+     ],
+     "text": "The crimson thread turning white was visible to those in Jerusalem."
+    },
+    {
+     "id": "yoma-040a-l27",
+     "type": "elaboration",
+     "label": "Elaboration: Those in Jerusalem could see the thread;",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040a-l27",
+       "vilnaLine": 27
+      }
+     ],
+     "text": "Those in Jerusalem could see the thread; those in the outer areas relied on signal fires or messengers."
+    },
+    {
+     "id": "yoma-040a-l28",
+     "type": "elaboration",
+     "label": "Elaboration: The Rabbis later stopped using fire-signals because",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040a-l28",
+       "vilnaLine": 28
+      }
+     ],
+     "text": "The Rabbis later stopped using fire-signals because of Samaritan interference."
+    },
+    {
+     "id": "yoma-040a-l29",
+     "type": "elaboration",
+     "label": "Elaboration: Messengers were used instead to convey news",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040a-l29",
+       "vilnaLine": 29
+      }
+     ],
+     "text": "Messengers were used instead to convey news of the thread turning white."
+    },
+    {
+     "id": "yoma-040a-l31",
+     "type": "ruling",
+     "label": "Ruling: Both hands valid; right preferred as omen;",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040a-l31",
+       "vilnaLine": 31
+      }
+     ],
+     "text": "Both hands valid; right preferred as omen; verbal designation required; crimson thread half on goat, half on cliff."
     }
-  ]
+   ],
+   "topicTags": [
+    "Yom Kippur",
+    "lot ceremony",
+    "crimson thread",
+    "Azazel"
+   ],
+   "concepts": {
+    "halachic": [
+     "right vs left lot validity",
+     "verbal designation requirement",
+     "crimson thread placement"
+    ],
+    "theological": [
+     "omen vs requirement",
+     "atonement confirmation"
+    ],
+    "narrative": [
+     "signal fires vs messengers"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Yom Kippur lot",
+    "crimson thread (lashon shel zehorit)"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The right-hand lot is absolutely required for the ceremony's validity; a left-hand draw invalidates the entire Yom Kippur designation.",
+     "correction": "The Gemara's resolution is graded, not absolute: the right hand is the ideal (le-chatchila) outcome, but a left-hand draw is valid after the fact (b'dieved). The dispute between R. Yochanan and Reish Lakish is resolved by distinguishing the preferred method from the minimum requirement for validity, not by ruling one position simply wrong.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-039b-s04"
+   ],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "description": "Lot drawn → placed on goat → verbal designation → crimson thread half on goat, half on cliff"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "factual",
+     "question": "What is the halachic status of the 'for God' lot landing in the left hand?",
+     "answer": "It is valid post-facto; the right hand is preferred as a good omen but not strictly required."
+    }
+   ],
+   "finalRuling": "Right-hand lot is preferred (omen) but not required; verbal designation required; crimson thread split between goat and cliff.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "Rather, according to that version you stated - they disagree in accordance with Rabbi Yehuda, and Rabbi Yannai said",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "it is indispensable, and all the more so for Rabbi Nechemia - whose view is this? Neither Rabbi Yehuda's nor Rabbi",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "Nechemia's. It was taught: it is a mitzvah to place it - and if he did not place it, it is valid; and on this everyone",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l01",
+    "yoma-040a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "agrees, since regarding the placing the verse states it only one time, as it is written, 'and Aaron shall place,'",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "etc.; but regarding the rising, the verse states it,",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "as it is written, 'and Aaron shall offer the goat",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "upon which it came up,' etc., and it is written, 'and the goat",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "upon which it came up.' And to confess -",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l03",
+    "yoma-040a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "over the goat sent away, as it is written, 'and he shall confess over it,' etc.",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "If you say he did not place it - it is regarding that alone that",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "Rabbi Shimon says it is valid, but its rising from within",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "the urn, Rabbi Shimon holds, is indispensable.",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "But it was taught: if one of them dies - after the lottery,",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "since it is no longer possible to cast lots again unless",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "he brings two more and one goes to waste,",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "as stated in the chapter 'The Two Goats' (62a, below);",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "he brings one from the market in place of the one that died,",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "and it becomes the partner of the one still standing, and there is no",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "need to cast lots again. Rabbi Shimon did not know",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l07",
+    "yoma-040a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "etc. - it truly means that 'he did not cast lots,' which the first Tanna",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "says is valid, refers to 'he did not place it,' and your difficulty -",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "how can Rabbi Shimon say about that 'he did not cast lots, valid,'",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "if this casting of lots means the placing, implying that if",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "he did not lift it up it is invalid according to Rabbi Shimon - is not",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "a difficulty, since 'he did not cast lots,' as Rabbi Shimon",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "says, means literally 'he did not cast lots,' and he did not know",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "that 'he did not cast lots,' as the first Tanna says, refers to",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "the placing; and this is what Rabbi Shimon",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "says to the Rabbis: if you mean that 'he did not cast lots, valid,'",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "refers to the rising, which is the actual casting of lots,",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "I disagree with you in one point, absent the confession.",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "And if the casting of lots you mean is the placing -",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "but the rising, according to you, is indispensable, then I disagree",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "with you in two points, since for me the casting of lots is not indispensable",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "at all, while the confession is indispensable; and below it explains",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "the reason for both, in the confession. The bull is indispensable",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l10",
+    "yoma-040a-l15a"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "to the goat - if he advanced one of the goat's",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l15a"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "later services and performed it before the bull, the bull, which",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l15a"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "is fitting to precede it, is indispensable and disqualifies it, and it does not",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l15a"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "count for him, and he must go back and perform it after",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l15a"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "the bull. And the order of their services is as follows,",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l15a"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "as laid out in the passage: first he confesses over the bull,",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l15a"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "the first confession, and then he casts lots on",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l15a"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "the goat, and then he confesses over the bull again, the second confession, and slaughters it, and brings in the ladle",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l15a"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "and the fire-pan, and places the incense on the coals, etc., and places some of the bull's blood on",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l15a"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "the ark-cover; and then he slaughters the goat and places some of it on the ark-cover; and then",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l15a"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "he places some of the bull's blood on the curtain, and then some of the goat's, and then",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l15a"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "he mixes the bloods and places some on the inner altar. But the goat does not indispensably precede",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l15a",
+    "yoma-040a-l15b"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "the bull - if he advanced the bull's service, which is one of the later services relative to the goat,",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l15b"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "and performed it before the goat, the goat, which was fitting to precede it, does not disqualify it.",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l15b"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "Regarding the sprinklings that are done inside - they mean that the order of the bull is indispensable to the goat. If he advanced it",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l15b",
+    "yoma-040a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "to the goat - regarding what is between the poles, before the bull, he has done nothing. But the goat does not",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "indispensably precede the bull, what is this - which service do we find performed for the goat",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "before the bull's inside sprinklings, that we should say about it that if he changed and advanced the bull's service before it,",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "the goat, which was fitting to precede it, does not disqualify it. In the Sanctuary - on the curtain. A statute",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l16",
+    "yoma-040a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "is written regarding them - for even Rabbi Yehuda concedes that regarding matters performed inside,",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "a statute is written, and here he changed the order in an inside service, since he advanced",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "the outside one, which is later than it, before it. Rather, is it not that he advanced the bull's sprinklings inside, before",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l19",
+    "yoma-040a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "the goat's lottery - since you can find no other goat-service that precedes the bull's",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "inside sprinklings except this one, and it teaches that it is not indispensable. And since the order is not indispensable, the lottery too is not indispensable - even if he uprooted it entirely; this implies there is someone",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "who says the lottery is not indispensable, and this is difficult for the one who says it is indispensable even according to Rabbi Yehuda, all the more so for Rabbi Nechemia - whose view is this? That he advanced the bull's sprinklings",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l21",
+    "yoma-040a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "on the inner altar, as it is written (Leviticus 16), 'and he shall take some of the bull's blood and some of the goat's blood,' etc., when he should have delayed it until the completion of the curtain sprinklings. And granted the order is not",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l23",
+    "yoma-040a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 63,
+   "en": "indispensable, the lottery - since for Rabbi Yehuda a statute is not written regarding matters done outside - the lottery itself, when uprooted entirely, is indispensable, since the verse states",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 64,
+   "en": "it explicitly, as we said. And they follow their own reasoning - this stands on the dispute over one who did not confess, and we read it before 'come and hear: the bull is indispensable to the goat.'",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l29",
+    "yoma-040a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 65,
+   "en": "He shall stand - the daf ends mid-word here; the comment (explaining that this teaches the requirement to bring a replacement goat if the first dies) continues on 40b.",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l31"
+   ]
+  }
+ ]
 }
