@@ -2,7 +2,7 @@
  "type": "rashi-reconstruction",
  "module": "yoma",
  "targets": [
-  "45b"
+  "46a"
  ],
  "model": "sonnet",
  "paused": false,
@@ -70,21 +70,6 @@
   "more than one daf would change in the same content PR"
  ],
  "allowlistDrain": null,
- "scaffoldDebt": {
-  "snapshot": [
-   {
-    "daf": "45b",
-    "vilnaLine": 9,
-    "rule": "scaffold-prefix",
-    "enHash": "bfd0c26b7932b941"
-   },
-   {
-    "daf": "45b",
-    "vilnaLine": 26,
-    "rule": "scaffold-prefix",
-    "enHash": "0493ce6aef13a6bf"
-   }
-  ]
- },
+ "scaffoldDebt": null,
  "repetitionDrain": null
 }

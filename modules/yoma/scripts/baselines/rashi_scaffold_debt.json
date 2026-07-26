@@ -115,18 +115,6 @@
    "vilnaLine": 2,
    "rule": "scaffold-prefix",
    "enHash": "3f4b058a92462740"
-  },
-  {
-   "daf": "46a",
-   "vilnaLine": 11,
-   "rule": "scaffold-prefix",
-   "enHash": "3ac53adfa3ecdba3"
-  },
-  {
-   "daf": "46a",
-   "vilnaLine": 16,
-   "rule": "scaffold-prefix",
-   "enHash": "e0cbb6cf3cb0190c"
   }
  ]
 }

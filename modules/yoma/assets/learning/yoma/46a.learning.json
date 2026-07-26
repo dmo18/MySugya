@@ -1,469 +1,475 @@
 {
-  "daf": "46a",
-  "canonicalRef": "Yoma 46a",
-  "summary": "The Gemara analyzes bar Kappara's citation of R. Meir about wood added from the sides of the altar, discusses whether that wood is valid for the altar fire, and then addresses which mitzvot override Shabbat and which override the prohibition of offering in a state of ritual impurity.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "46a",
+ "canonicalRef": "Yoma 46a",
+ "summary": "The Gemara analyzes bar Kappara's citation of R. Meir about wood added from the sides of the altar, discusses whether that wood is valid for the altar fire, and then addresses which mitzvot override Shabbat and which override the prohibition of offering in a state of ritual impurity.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-046a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 26
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-046a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 26
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.46a.1"
-        },
-        {
-          "vilnaLine": 2,
-          "sefariaRef": "Yoma.46a.2"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.46a.3"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.46a.4"
-        },
-        {
-          "vilnaLine": 8,
-          "sefariaRef": "Yoma.46a.5"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.46a.6"
-        },
-        {
-          "vilnaLine": 11,
-          "sefariaRef": "Yoma.46a.7"
-        },
-        {
-          "vilnaLine": 15,
-          "sefariaRef": "Yoma.46a.8"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.46a.9"
-        },
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.46a.10"
-        },
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.46a.11"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.46a.12"
-        },
-        {
-          "vilnaLine": 25,
-          "sefariaRef": "Yoma.46a.13"
-        },
-        {
-          "vilnaLine": 26,
-          "sefariaRef": "Yoma.46a.14"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.46a.1",
-        "Yoma.46a.2",
-        "Yoma.46a.3",
-        "Yoma.46a.4",
-        "Yoma.46a.5",
-        "Yoma.46a.6",
-        "Yoma.46a.7",
-        "Yoma.46a.8",
-        "Yoma.46a.9",
-        "Yoma.46a.10",
-        "Yoma.46a.11",
-        "Yoma.46a.12",
-        "Yoma.46a.13",
-        "Yoma.46a.14"
-      ],
-      "display": {
-        "whats": "What does bar Kappara teach in R. Meir's name, and does the wood added from the sides of the altar count as a valid arrangement?",
-        "hint": "Bar Kappara taught: R. Meir would say that wood added from the sides of the altar (not from the main arrangements) is not counted as a distinct arrangement. The Gemara then pivots to the question of which prohibitions are overridden by the Temple service and which are not.",
-        "title": "Wood From the Sides Doesn't Count, and Who Overrides Shabbat"
-      },
-      "learning": {
-        "ahaMoment": "Communal public offerings override Shabbat and communal tumah. Individual offerings and certain other prohibitions are not overridden. The distinction is between 'tzibur' (communal) and 'yachid' (individual).",
-        "memoryAnchor": "Bar Kappara teaching R. Meir: wood from the sides of the altar is not a valid arrangement.",
-        "learnerQuestion": "Does wood placed on the sides of the altar count as a valid arrangement, and which Temple services are permitted to override Shabbat and ritual impurity?",
-        "coreTension": "Bar Kappara cites R. Meir that wood from the altar's sides is not counted as a valid arrangement, and the Gemara must explain what this teaches beyond what was already known, before turning to the broader question of which prohibitions communal Temple service may override.",
-        "coreMove": "The Gemara clarifies that wood placed on the sides (not the designated arrangement positions) does not count, and establishes the broader principle that communal public offerings override Shabbat and communal ritual impurity, while individual offerings do not.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Wood placed on the sides of the altar, rather than the designated arrangement positions, is not counted as a valid arrangement; communal public offerings override Shabbat and ritual impurity, but individual offerings do not."
-        },
-        "learningBlocker": "Learners may assume the override of Shabbat and impurity applies to any Temple offering, missing that the Gemara restricts it specifically to communal (tzibur) offerings, not individual (yachid) ones."
-      },
-      "argumentFlow": [
-        {
-          "type": "citation",
-          "speaker": "bar Kappara",
-          "text": "R. Meir: wood from the sides of the altar is not a valid arrangement for the prescribed fires.",
-          "id": "yoma-046a-l01",
-          "label": "Citation: R. Meir: wood from the sides of",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-046a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "question",
-          "speaker": "Gemara",
-          "text": "What is bar Kappara teaching us that we didn't already know?",
-          "id": "yoma-046a-l05",
-          "label": "Question: What is bar Kappara teaching us that",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-046a-l05",
-              "vilnaLine": 5
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "The specific detail about 'from this side or that side' - these positions are not valid for arrangement wood.",
-          "id": "yoma-046a-l08",
-          "label": "Ruling: The specific detail about 'from this side",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-046a-l08",
-              "vilnaLine": 8
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "Communal public offerings override Shabbat and communal ritual impurity.",
-          "id": "yoma-046a-l11",
-          "label": "Ruling: Communal public offerings override Shabbat and communal",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-046a-l11",
-              "vilnaLine": 11
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "Individual offerings do not override Shabbat or impurity - only public communal offerings do.",
-          "id": "yoma-046a-l18",
-          "label": "Ruling: Individual offerings do not override Shabbat or",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-046a-l18",
-              "vilnaLine": 18
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "altar wood",
-        "sides of altar",
-        "override Shabbat",
-        "override tumah",
-        "public vs private offerings"
-      ],
-      "concepts": {
-        "halachic": [
-          "wood from sides of altar invalid",
-          "communal offerings override Shabbat and tumah"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "altar fire arrangements",
-        "Shabbat overriding laws",
-        "ritual impurity and Temple service"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Any offering brought in the Temple, communal or individual, overrides Shabbat and ritual impurity restrictions.",
-          "correction": "The override applies specifically to communal public offerings, such as the tamid and musaf - individual offerings do not override Shabbat or ritual impurity.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-045b-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "label": "communal offerings override Shabbat/tumah vs private offerings do not"
-        },
-        {
-          "type": "place",
-          "label": "sides of altar - not valid positions for wood arrangement"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "No. Only communal public offerings (like the tamid and musaf) override Shabbat and communal ritual impurity.",
-          "question": "Do private offerings override Shabbat in the Temple?"
-        }
-      ],
-      "finalRuling": "Wood from the sides of the altar is not a valid arrangement; communal offerings override Shabbat and tumah; private offerings do not.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.46a.1"
+    },
+    {
+     "vilnaLine": 2,
+     "sefariaRef": "Yoma.46a.2"
+    },
+    {
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.46a.3"
+    },
+    {
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.46a.4"
+    },
+    {
+     "vilnaLine": 8,
+     "sefariaRef": "Yoma.46a.5"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.46a.6"
+    },
+    {
+     "vilnaLine": 11,
+     "sefariaRef": "Yoma.46a.7"
+    },
+    {
+     "vilnaLine": 15,
+     "sefariaRef": "Yoma.46a.8"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.46a.9"
+    },
+    {
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.46a.10"
+    },
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.46a.11"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.46a.12"
+    },
+    {
+     "vilnaLine": 25,
+     "sefariaRef": "Yoma.46a.13"
+    },
+    {
+     "vilnaLine": 26,
+     "sefariaRef": "Yoma.46a.14"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.46a.1",
+    "Yoma.46a.2",
+    "Yoma.46a.3",
+    "Yoma.46a.4",
+    "Yoma.46a.5",
+    "Yoma.46a.6",
+    "Yoma.46a.7",
+    "Yoma.46a.8",
+    "Yoma.46a.9",
+    "Yoma.46a.10",
+    "Yoma.46a.11",
+    "Yoma.46a.12",
+    "Yoma.46a.13",
+    "Yoma.46a.14"
+   ],
+   "display": {
+    "whats": "What does bar Kappara teach in R. Meir's name, and does the wood added from the sides of the altar count as a valid arrangement?",
+    "hint": "Bar Kappara taught: R. Meir would say that wood added from the sides of the altar (not from the main arrangements) is not counted as a distinct arrangement. The Gemara then pivots to the question of which prohibitions are overridden by the Temple service and which are not.",
+    "title": "Wood From the Sides Doesn't Count, and Who Overrides Shabbat"
+   },
+   "learning": {
+    "ahaMoment": "Communal public offerings override Shabbat and communal tumah. Individual offerings and certain other prohibitions are not overridden. The distinction is between 'tzibur' (communal) and 'yachid' (individual).",
+    "memoryAnchor": "Bar Kappara teaching R. Meir: wood from the sides of the altar is not a valid arrangement.",
+    "learnerQuestion": "Does wood placed on the sides of the altar count as a valid arrangement, and which Temple services are permitted to override Shabbat and ritual impurity?",
+    "coreTension": "Bar Kappara cites R. Meir that wood from the altar's sides is not counted as a valid arrangement, and the Gemara must explain what this teaches beyond what was already known, before turning to the broader question of which prohibitions communal Temple service may override.",
+    "coreMove": "The Gemara clarifies that wood placed on the sides (not the designated arrangement positions) does not count, and establishes the broader principle that communal public offerings override Shabbat and communal ritual impurity, while individual offerings do not.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Wood placed on the sides of the altar, rather than the designated arrangement positions, is not counted as a valid arrangement; communal public offerings override Shabbat and ritual impurity, but individual offerings do not."
+    },
+    "learningBlocker": "Learners may assume the override of Shabbat and impurity applies to any Temple offering, missing that the Gemara restricts it specifically to communal (tzibur) offerings, not individual (yachid) ones."
+   },
+   "argumentFlow": [
     {
-      "he": "צִבּוּר",
-      "translit": "tzibur",
-      "en": "Communal, public - communal offerings override Shabbat and ritual impurity; individual offerings do not."
+     "type": "citation",
+     "speaker": "bar Kappara",
+     "text": "R. Meir: wood from the sides of the altar is not a valid arrangement for the prescribed fires.",
+     "id": "yoma-046a-l01",
+     "label": "Citation: R. Meir: wood from the sides of",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-046a-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "he": "טֻמְאָה",
-      "translit": "tumah",
-      "en": "Ritual impurity - certain forms are overridden by communal Temple service needs."
+     "type": "question",
+     "speaker": "Gemara",
+     "text": "What is bar Kappara teaching us that we didn't already know?",
+     "id": "yoma-046a-l05",
+     "label": "Question: What is bar Kappara teaching us that",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-046a-l05",
+       "vilnaLine": 5
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "The specific detail about 'from this side or that side' - these positions are not valid for arrangement wood.",
+     "id": "yoma-046a-l08",
+     "label": "Ruling: The specific detail about 'from this side",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-046a-l08",
+       "vilnaLine": 8
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "Communal public offerings override Shabbat and communal ritual impurity.",
+     "id": "yoma-046a-l11",
+     "label": "Ruling: Communal public offerings override Shabbat and communal",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-046a-l11",
+       "vilnaLine": 11
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "Individual offerings do not override Shabbat or impurity - only public communal offerings do.",
+     "id": "yoma-046a-l18",
+     "label": "Ruling: Individual offerings do not override Shabbat or",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-046a-l18",
+       "vilnaLine": 18
+      }
+     ]
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "topicTags": [
+    "altar wood",
+    "sides of altar",
+    "override Shabbat",
+    "override tumah",
+    "public vs private offerings"
+   ],
+   "concepts": {
+    "halachic": [
+     "wood from sides of altar invalid",
+     "communal offerings override Shabbat and tumah"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "altar fire arrangements",
+    "Shabbat overriding laws",
+    "ritual impurity and Temple service"
+   ],
+   "misconceptions": [
     {
-      "vilnaLine": 1,
-      "en": "Rashi: 'but from this side' - he did not begin from this side, even though it is the western side; this is how the text should be read.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "Rashi: 'Rabbi Meir would say: the limbs of the burnt-offering that were left over' - we do not read this as 'the weekday burnt-offering.'",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "Rashi: for if we read it that way, the Gemara's challenge 'we have already learned this' would make no sense; rather this comes to teach about Shabbat.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "Rashi: and if you object that the Mishna's 'every day' already includes Shabbat, note that the Gemara raises this as a further challenge.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "Rashi: the Gemara goes on to raise yet another difficulty concerning Shabbat specifically, showing these are separate points.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "Rashi: 'what is bar Kappara teaching us' - since he says one makes an arrangement for these leftover limbs.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "Rashi: on a weekday, we have already learned this from the Mishna's own statement about the four arrangements.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "Rashi: every day there were four arrangements, and one of them was designated for limbs that were left over.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "Rashi: 'for disqualified offerings' means those parts that, once they went up onto the altar, are not brought back down.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Rashi: 'once the fire took hold of them' - from that moment they are considered accepted, the bread of the altar.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l08"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "Rashi: continues explaining the significance of the fire taking hold for the offering's validity.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l11"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "Rashi: 'we have learned: today there are five' refers to the five arrangements taught for Yom Kippur.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l11"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Rashi: since Yom Kippur is treated like Shabbat in stringency, and the Mishna teaches about the eve-of-Yom-Kippur daily offering's limbs.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l11"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Rashi: one makes an arrangement for those limbs on Yom Kippur itself.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l11"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "Rashi: 'every day' - the Mishna teaches there were four arrangements, and this phrase includes even Shabbat by implication.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l11"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "Rashi: continues explaining why 'every day' must be read to include Shabbat in this context.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l11"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Rashi: 'and this disagrees with Rav Huna' - meaning it disagrees with bar Kappara's position as well.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l11"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Rashi: moreover it disagrees with the claim that 'every day' in the Mishna precisely includes Shabbat.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "Rashi: for Rav Huna holds that 'every day' means every day except Shabbat.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Rashi: 'its beginning overrides Shabbat' - the Shabbat daily-offering is slaughtered on Shabbat itself.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "Rashi: and it is offered on Shabbat as well, since its beginning stage overrides the Shabbat prohibition.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Rashi: 'its end does not override Shabbat' - meaning the completion stage does not carry the same override.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Rashi: the limbs of the Friday daily-offering are not burned once it becomes dark into Shabbat.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Rashi: rather, he brings those limbs up onto the altar while it is still day, before Shabbat begins.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Rashi: this is how the text should be read: 'the matter itself, Rav Huna said, etc.'",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Rashi: 'what does it mean that it does not override' - the Gemara asks what specifically is not overridden.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Rashi: it does not override the law of impurity for the burning of the fats and sacrificial portions.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Rashi: rather, the override applies only to the sprinkling of the blood alone.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Rashi: another version reads the terms differently: 'its beginning' means the burning of the fats.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "Rashi: and 'its end' means the limbs that were left over from the evening before.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Rashi: this is the version I heard, but the first version seems more correct to me.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l18"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "Rashi: 'impurity' - opens the next clause, continuing onto the following daf.",
-      "linkedGemaraLineIds": [
-        "yoma-046a-l18"
-      ]
+     "misconception": "Any offering brought in the Temple, communal or individual, overrides Shabbat and ritual impurity restrictions.",
+     "correction": "The override applies specifically to communal public offerings, such as the tamid and musaf - individual offerings do not override Shabbat or ritual impurity.",
+     "correctedByStepId": null
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-045b-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "label": "communal offerings override Shabbat/tumah vs private offerings do not"
+    },
+    {
+     "type": "place",
+     "label": "sides of altar - not valid positions for wood arrangement"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "No. Only communal public offerings (like the tamid and musaf) override Shabbat and communal ritual impurity.",
+     "question": "Do private offerings override Shabbat in the Temple?"
+    }
+   ],
+   "finalRuling": "Wood from the sides of the altar is not a valid arrangement; communal offerings override Shabbat and tumah; private offerings do not.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [
+  {
+   "he": "צִבּוּר",
+   "translit": "tzibur",
+   "en": "Communal, public - communal offerings override Shabbat and ritual impurity; individual offerings do not."
+  },
+  {
+   "he": "טֻמְאָה",
+   "translit": "tumah",
+   "en": "Ritual impurity - certain forms are overridden by communal Temple service needs."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "But from this side - since it does not open, even though it is the western side. This is",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l01",
+    "yoma-046a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "the reading: 'Rabbi Meir would say: the limbs of a burnt-offering that were left over,' etc. - we do not read it as",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "'a weekday burnt-offering,' for if we read it that way, what would the Gemara's own challenge, 'we have already learned this,' even mean? Rather this comes to teach about",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "Shabbat. And if you say: then let the Gemara challenge it this way, that the Mishnah teaches 'every day,' even including Shabbat - that cannot be, since the Gemara itself goes on",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "to raise yet a further challenge, even for Shabbat, as a separate",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "difficulty. What is he teaching us - by saying one makes",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l02",
+    "yoma-046a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "an arrangement for them on a weekday? We have already learned: every day",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "there were four arrangements there, and one of them was",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "for limbs that were left over. For disqualified offerings -",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "those which, once they went up onto the altar, are not brought back down. Once the fire took hold of",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l05",
+    "yoma-046a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "them - since from that moment they become",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "the bread of the altar. We have learned: today there are five -",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l07",
+    "yoma-046a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "and Yom Kippur is treated like Shabbat, yet it teaches that one makes",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "an arrangement on Yom Kippur itself for the limbs of the daily offering from the eve of",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "Yom Kippur. Every day - we learned there were four",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l10",
+    "yoma-046a-l15"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "arrangements, and this includes even Shabbat by implication.",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l15"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "And this disagrees with Rav Huna - both with bar Kappara",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "and with the ruling that the Mishnah's own 'every day' is",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "precise and includes even Shabbat, for Rav Huna",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "holds that 'every day' means every day except Shabbat. Its beginning",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "overrides - the Shabbat daily-offering is slaughtered on Shabbat",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "and offered on Shabbat. Its end does not override - the daily-offering",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "of Friday, its limbs are not burned",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "once it grows dark, but rather he brings them up while it is still day.",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "This is the reading: 'the matter itself: Rav Huna said,'",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "etc. What does 'it does not override' mean - it does not override",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l18",
+    "yoma-046a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "impurity for the burning of the fats and the sacrificial portions,",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "but only for the sprinkling of its blood. Another",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "version: 'its beginning' means the burning of the fats, and 'its end' means",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "the limbs that were left over from the evening before, and this",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "is the version I heard, but the first one seems more correct to me.",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "Impurity - the daf ends mid-word here; the comment (explaining that since impurity was overridden by the offering's own beginning, its end is treated the same way) continues on 46b.",
+   "linkedGemaraLineIds": [
+    "yoma-046a-l26"
+   ]
+  }
+ ]
 }

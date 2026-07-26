@@ -106464,12 +106464,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 1,
         he: "אבל מהאי גיסא. דפתח לא ואע\"ג דצד מערבי הוא: הכי גרסינן",
-        en: "Rashi: 'but from this side' - he did not begin from this side, even though it is the western side; this is how the text should be read.",
+        en: "But from this side - since it does not open, even though it is the western side. This is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l01"
+          "yoma-046a-l01",
+          "yoma-046a-l02"
         ]
       },
       {
@@ -106478,12 +106479,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 2,
         he: "אומר היה ר\"מ איברי עולה שניתותרו כו'. ולא גרסינן עולת",
-        en: "Rashi: 'Rabbi Meir would say: the limbs of the burnt-offering that were left over' - we do not read this as 'the weekday burnt-offering.'",
+        en: "the reading: 'Rabbi Meir would say: the limbs of a burnt-offering that were left over,' etc. - we do not read it as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l01"
+          "yoma-046a-l02"
         ]
       },
       {
@@ -106492,12 +106493,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 3,
         he: "חול דאי גרסי' ליה מאי תנינא דקא פריך ליה הא אתא לאשמועינן",
-        en: "Rashi: for if we read it that way, the Gemara's challenge 'we have already learned this' would make no sense; rather this comes to teach about Shabbat.",
+        en: "'a weekday burnt-offering,' for if we read it that way, what would the Gemara's own challenge, 'we have already learned this,' even mean? Rather this comes to teach about",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l01"
+          "yoma-046a-l02"
         ]
       },
       {
@@ -106506,12 +106507,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 4,
         he: "שבת ואם תאמר הכי פריך ליה בכל יום תנן ואפילו בשבת דהא הדר",
-        en: "Rashi: and if you object that the Mishna's 'every day' already includes Shabbat, note that the Gemara raises this as a further challenge.",
+        en: "Shabbat. And if you say: then let the Gemara challenge it this way, that the Mishnah teaches 'every day,' even including Shabbat - that cannot be, since the Gemara itself goes on",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l01"
+          "yoma-046a-l02"
         ]
       },
       {
@@ -106520,12 +106521,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 5,
         he: "פריך ליה תו אפילו בשבת פירכא",
-        en: "Rashi: the Gemara goes on to raise yet another difficulty concerning Shabbat specifically, showing these are separate points.",
+        en: "to raise yet a further challenge, even for Shabbat, as a separate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l05"
+          "yoma-046a-l02"
         ]
       },
       {
@@ -106534,11 +106535,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 6,
         he: "אחריתי: מאי קמ\"ל. דקאמר עושה",
-        en: "Rashi: 'what is bar Kappara teaching us' - since he says one makes an arrangement for these leftover limbs.",
+        en: "difficulty. What is he teaching us - by saying one makes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-046a-l02",
           "yoma-046a-l05"
         ]
       },
@@ -106548,7 +106550,7 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 7,
         he: "להן מערכה בחול תנינא בכל יום",
-        en: "Rashi: on a weekday, we have already learned this from the Mishna's own statement about the four arrangements.",
+        en: "an arrangement for them on a weekday? We have already learned: every day",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -106562,12 +106564,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 8,
         he: "היו שם ד' מערכות וחדא מינייהו",
-        en: "Rashi: every day there were four arrangements, and one of them was designated for limbs that were left over.",
+        en: "there were four arrangements there, and one of them was",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l08"
+          "yoma-046a-l05"
         ]
       },
       {
@@ -106576,12 +106578,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 9,
         he: "לאיברים שניתותרו: לפסולין.",
-        en: "Rashi: 'for disqualified offerings' means those parts that, once they went up onto the altar, are not brought back down.",
+        en: "for limbs that were left over. For disqualified offerings -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l08"
+          "yoma-046a-l05"
         ]
       },
       {
@@ -106590,12 +106592,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 10,
         he: "הנך דאם עלו לא ירדו: שמשלה",
-        en: "Rashi: 'once the fire took hold of them' - from that moment they are considered accepted, the bread of the altar.",
+        en: "those which, once they went up onto the altar, are not brought back down. Once the fire took hold of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l08"
+          "yoma-046a-l05",
+          "yoma-046a-l07"
         ]
       },
       {
@@ -106604,12 +106607,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 11,
         he: "בהן האור. דמההיא שעתא נעשו",
-        en: "Rashi: continues explaining the significance of the fire taking hold for the offering's validity.",
+        en: "them - since from that moment they become",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l11"
+          "yoma-046a-l07"
         ]
       },
       {
@@ -106618,12 +106621,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 12,
         he: "לחמו של מזבח: תנינא היום חמש.",
-        en: "Rashi: 'we have learned: today there are five' refers to the five arrangements taught for Yom Kippur.",
+        en: "the bread of the altar. We have learned: today there are five -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l11"
+          "yoma-046a-l07",
+          "yoma-046a-l10"
         ]
       },
       {
@@ -106632,12 +106636,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 13,
         he: "והרי יוה\"כ כשבת וקתני דאיברי",
-        en: "Rashi: since Yom Kippur is treated like Shabbat in stringency, and the Mishna teaches about the eve-of-Yom-Kippur daily offering's limbs.",
+        en: "and Yom Kippur is treated like Shabbat, yet it teaches that one makes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l11"
+          "yoma-046a-l10"
         ]
       },
       {
@@ -106646,12 +106650,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 14,
         he: "תמיד של ערב יוה\"כ עושה להן",
-        en: "Rashi: one makes an arrangement for those limbs on Yom Kippur itself.",
+        en: "an arrangement on Yom Kippur itself for the limbs of the daily offering from the eve of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l11"
+          "yoma-046a-l10"
         ]
       },
       {
@@ -106660,12 +106664,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 15,
         he: "מערכה ביוה\"כ: בכל יום. היו ארבע",
-        en: "Rashi: 'every day' - the Mishna teaches there were four arrangements, and this phrase includes even Shabbat by implication.",
+        en: "Yom Kippur. Every day - we learned there were four",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l11"
+          "yoma-046a-l10",
+          "yoma-046a-l15"
         ]
       },
       {
@@ -106674,12 +106679,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 16,
         he: "מערכות תנן ואפילו שבת במשמע:",
-        en: "Rashi: continues explaining why 'every day' must be read to include Shabbat in this context.",
+        en: "arrangements, and this includes even Shabbat by implication.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l11"
+          "yoma-046a-l15"
         ]
       },
       {
@@ -106688,12 +106693,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 17,
         he: "ופליגא דרב הונא. אדבר קפרא",
-        en: "Rashi: 'and this disagrees with Rav Huna' - meaning it disagrees with bar Kappara's position as well.",
+        en: "And this disagrees with Rav Huna - both with bar Kappara",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l11"
+          "yoma-046a-l16"
         ]
       },
       {
@@ -106702,12 +106707,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 18,
         he: "ואדרבא דאמר בכל יום דמתניתין",
-        en: "Rashi: moreover it disagrees with the claim that 'every day' in the Mishna precisely includes Shabbat.",
+        en: "and with the ruling that the Mishnah's own 'every day' is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l18"
+          "yoma-046a-l16"
         ]
       },
       {
@@ -106716,12 +106721,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 19,
         he: "דווקא הוא ואפי' בשבת דרב הונא",
-        en: "Rashi: for Rav Huna holds that 'every day' means every day except Shabbat.",
+        en: "precise and includes even Shabbat, for Rav Huna",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l18"
+          "yoma-046a-l16"
         ]
       },
       {
@@ -106730,12 +106735,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 20,
         he: "סבר בכל יום לבר משבת: תחילתו",
-        en: "Rashi: 'its beginning overrides Shabbat' - the Shabbat daily-offering is slaughtered on Shabbat itself.",
+        en: "holds that 'every day' means every day except Shabbat. Its beginning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l18"
+          "yoma-046a-l16"
         ]
       },
       {
@@ -106744,12 +106749,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 21,
         he: "דוחה. תמיד של שבת נשחט בשבת",
-        en: "Rashi: and it is offered on Shabbat as well, since its beginning stage overrides the Shabbat prohibition.",
+        en: "overrides - the Shabbat daily-offering is slaughtered on Shabbat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l18"
+          "yoma-046a-l16"
         ]
       },
       {
@@ -106758,12 +106763,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 22,
         he: "וקרב בשבת: סופו אינו דוחה. תמיד",
-        en: "Rashi: 'its end does not override Shabbat' - meaning the completion stage does not carry the same override.",
+        en: "and offered on Shabbat. Its end does not override - the daily-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l18"
+          "yoma-046a-l16"
         ]
       },
       {
@@ -106772,12 +106777,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 23,
         he: "של ערב שבת אין אבריו נקטרין",
-        en: "Rashi: the limbs of the Friday daily-offering are not burned once it becomes dark into Shabbat.",
+        en: "of Friday, its limbs are not burned",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l18"
+          "yoma-046a-l16"
         ]
       },
       {
@@ -106786,12 +106791,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 24,
         he: "משתחשך אלא מעלן מבעוד יום:",
-        en: "Rashi: rather, he brings those limbs up onto the altar while it is still day, before Shabbat begins.",
+        en: "once it grows dark, but rather he brings them up while it is still day.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l18"
+          "yoma-046a-l16"
         ]
       },
       {
@@ -106800,7 +106805,7 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 25,
         he: "הכי גרסינן גופא אמר רב הונא",
-        en: "Rashi: this is how the text should be read: 'the matter itself, Rav Huna said, etc.'",
+        en: "This is the reading: 'the matter itself: Rav Huna said,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -106814,12 +106819,13 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 26,
         he: "כו': מאי אינו דוחה. אינו דוחה",
-        en: "Rashi: 'what does it mean that it does not override' - the Gemara asks what specifically is not overridden.",
+        en: "etc. What does 'it does not override' mean - it does not override",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l18"
+          "yoma-046a-l18",
+          "yoma-046a-l19"
         ]
       },
       {
@@ -106828,12 +106834,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 27,
         he: "את הטומאה הקטר חלבים ואימורין",
-        en: "Rashi: it does not override the law of impurity for the burning of the fats and sacrificial portions.",
+        en: "impurity for the burning of the fats and the sacrificial portions,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l18"
+          "yoma-046a-l19"
         ]
       },
       {
@@ -106842,12 +106848,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 28,
         he: "אלא זריקת דמו בלבד לישנא",
-        en: "Rashi: rather, the override applies only to the sprinkling of the blood alone.",
+        en: "but only for the sprinkling of its blood. Another",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l18"
+          "yoma-046a-l19"
         ]
       },
       {
@@ -106856,12 +106862,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 29,
         he: "אחרינא תחילתו הקטר חלבים סופו",
-        en: "Rashi: another version reads the terms differently: 'its beginning' means the burning of the fats.",
+        en: "version: 'its beginning' means the burning of the fats, and 'its end' means",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l18"
+          "yoma-046a-l19"
         ]
       },
       {
@@ -106870,12 +106876,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 30,
         he: "איברים שניתותרו מבערב וזה",
-        en: "Rashi: and 'its end' means the limbs that were left over from the evening before.",
+        en: "the limbs that were left over from the evening before, and this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l18"
+          "yoma-046a-l19"
         ]
       },
       {
@@ -106884,12 +106890,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 31,
         he: "שמעתי והראשון נראה בעיני:",
-        en: "Rashi: this is the version I heard, but the first version seems more correct to me.",
+        en: "is the version I heard, but the first one seems more correct to me.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l18"
+          "yoma-046a-l19"
         ]
       },
       {
@@ -106898,12 +106904,12 @@ const DAF_CONTENT = {
         daf: "46a",
         vilnaLine: 32,
         he: "טומאה",
-        en: "Rashi: 'impurity' - opens the next clause, continuing onto the following daf.",
+        en: "Impurity - the daf ends mid-word here; the comment (explaining that since impurity was overridden by the offering's own beginning, its end is treated the same way) continues on 46b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046a-l18"
+          "yoma-046a-l26"
         ]
       }
     ],
