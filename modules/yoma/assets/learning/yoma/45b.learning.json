@@ -1,423 +1,428 @@
 {
-  "daf": "45b",
-  "canonicalRef": "Yoma 45b",
-  "summary": "The Gemara resolves the R. Meir/R. Yehuda dispute about wood arrangements on the altar, analyzing the verse 'and the fire on the altar shall be kept burning' to determine how many distinct arrangements are required and what each serves.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "45b",
+ "canonicalRef": "Yoma 45b",
+ "summary": "The Gemara resolves the R. Meir/R. Yehuda dispute about wood arrangements on the altar, analyzing the verse 'and the fire on the altar shall be kept burning' to determine how many distinct arrangements are required and what each serves.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-045b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 29
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-045b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 29
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.45b.1"
-        },
-        {
-          "vilnaLine": 4,
-          "sefariaRef": "Yoma.45b.2"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.45b.3"
-        },
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.45b.4"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.45b.5"
-        },
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.45b.6"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.45b.7"
-        },
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.45b.8"
-        },
-        {
-          "vilnaLine": 25,
-          "sefariaRef": "Yoma.45b.9"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.45b.10"
-        },
-        {
-          "vilnaLine": 29,
-          "sefariaRef": "Yoma.45b.11"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.45b.1",
-        "Yoma.45b.2",
-        "Yoma.45b.3",
-        "Yoma.45b.4",
-        "Yoma.45b.5",
-        "Yoma.45b.6",
-        "Yoma.45b.7",
-        "Yoma.45b.8",
-        "Yoma.45b.9",
-        "Yoma.45b.10",
-        "Yoma.45b.11"
-      ],
-      "display": {
-        "whats": "How does R. Meir resolve the question of wood arrangements, and what does 'the fire on the altar shall be kept burning' add?",
-        "hint": "The Gemara analyzes how R. Meir uses the repeated mention of 'fire on the altar' to derive an additional wood arrangement. Each mention yields one arrangement. R. Meir needs five; R. Yehuda four. The verse 'it shall not be extinguished' adds the prohibition against extinguishing, not a new arrangement.",
-        "title": "'It Shall Not Be Extinguished': A Prohibition, Not a New Pyre"
-      },
-      "learning": {
-        "ahaMoment": "Every 'fire on the altar' phrase in Torah creates a new wood arrangement. Count the mentions, count the arrangements. R. Meir finds one more than R. Yehuda.",
-        "memoryAnchor": "The fire prohibition ('lo tichbeh') is not a new arrangement but a prohibition against extinguishing what already exists.",
-        "learnerQuestion": "Does the verse 'the fire on the altar shall be kept burning, it shall not be extinguished' support R. Meir's fifth wood arrangement, or does it mean something else entirely?",
-        "coreTension": "R. Meir reads added phrases about the perpetual fire as justifying an extra wood arrangement, but the Gemara must determine whether 'lo tichbeh' (it shall not be extinguished) is really describing a new arrangement requirement or is simply a prohibition against letting the fire go out.",
-        "coreMove": "The Gemara works through the verse phrase by phrase and concludes that 'lo tichbeh' is a prohibition against extinguishing the fire, not a directive to add a new wood arrangement, so the verse does not support R. Meir's fifth arrangement - the final ruling follows R. Yehuda's four.",
-        "takeaway": {
-          "type": "logical_principle",
-          "text": "'It shall not be extinguished' (lo tichbeh) is a prohibition against letting the altar fire go out, not a command to add a new wood arrangement; the final ruling follows R. Yehuda that four arrangements suffice."
-        },
-        "learningBlocker": "Learners may read 'lo tichbeh' as describing an additional wood-arrangement requirement because it appears alongside the wood-arrangement verses, missing that the Gemara identifies it as a separate prohibition about maintaining the fire."
-      },
-      "argumentFlow": [
-        {
-          "type": "derivation",
-          "speaker": "Gemara",
-          "text": "'And the fire on the altar shall be kept burning' - this phrase teaches the arrangement must be maintained, not just lit once.",
-          "id": "yoma-045b-l01",
-          "label": "Derivation: 'And the fire on the altar shall",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-045b-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "dispute",
-          "speaker": "R. Meir/R. Yehuda",
-          "text": "R. Meir: an additional fire mention creates a fifth arrangement for Yom Kippur coals.",
-          "id": "yoma-045b-l04",
-          "label": "Dispute: R. Meir: an additional fire mention creates",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-045b-l04",
-              "vilnaLine": 4
-            }
-          ]
-        },
-        {
-          "type": "resolution",
-          "speaker": "Gemara",
-          "text": "R. Yehuda: the Yom Kippur coal fire is the same as the incense fire - no fifth needed.",
-          "id": "yoma-045b-l09",
-          "label": "Resolution: R. Yehuda: the Yom Kippur coal fire",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-045b-l09",
-              "vilnaLine": 9
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "'It shall not be extinguished' is a prohibition, not a new arrangement requirement.",
-          "id": "yoma-045b-l16",
-          "label": "Ruling: 'It shall not be extinguished' is a",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-045b-l16",
-              "vilnaLine": 16
-            }
-          ]
-        },
-        {
-          "type": "narrative",
-          "speaker": "Gemara",
-          "text": "Additional altar fire mention noted; Gemara checks whether it creates another arrangement.",
-          "id": "yoma-045b-l22",
-          "label": "Narrative: Additional altar fire mention noted; Gemara checks",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-045b-l22",
-              "vilnaLine": 22
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "wood arrangements",
-        "altar fire",
-        "R. Meir",
-        "R. Yehuda",
-        "fire prohibition"
-      ],
-      "concepts": {
-        "halachic": [
-          "fire prohibition lo tichbeh",
-          "four vs five arrangements resolved"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "altar fire laws",
-        "wood arrangement count dispute"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The phrase 'it shall not be extinguished' is part of the verse's instructions for how many wood arrangements to build on the altar.",
-          "correction": "The Gemara reads 'lo tichbeh' as a prohibition against letting the fire go out, not as a new wood-arrangement requirement; the final ruling follows R. Yehuda's four arrangements.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-045a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "text",
-          "label": "altar fire verse 'lo tichbeh' as prohibition not arrangement"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "It is a prohibition against extinguishing the altar fire, not a requirement for a new separate wood arrangement.",
-          "question": "What does 'lo tichbeh' (it shall not be extinguished) teach about the altar fire?"
-        }
-      ],
-      "finalRuling": "The altar fire prohibition 'lo tichbeh' is not a new arrangement but a ban on extinguishing the existing fire; R. Yehuda holds four arrangements suffice.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.45b.1"
+    },
+    {
+     "vilnaLine": 4,
+     "sefariaRef": "Yoma.45b.2"
+    },
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.45b.3"
+    },
+    {
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.45b.4"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.45b.5"
+    },
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.45b.6"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.45b.7"
+    },
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.45b.8"
+    },
+    {
+     "vilnaLine": 25,
+     "sefariaRef": "Yoma.45b.9"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.45b.10"
+    },
+    {
+     "vilnaLine": 29,
+     "sefariaRef": "Yoma.45b.11"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.45b.1",
+    "Yoma.45b.2",
+    "Yoma.45b.3",
+    "Yoma.45b.4",
+    "Yoma.45b.5",
+    "Yoma.45b.6",
+    "Yoma.45b.7",
+    "Yoma.45b.8",
+    "Yoma.45b.9",
+    "Yoma.45b.10",
+    "Yoma.45b.11"
+   ],
+   "display": {
+    "whats": "How does R. Meir resolve the question of wood arrangements, and what does 'the fire on the altar shall be kept burning' add?",
+    "hint": "The Gemara analyzes how R. Meir uses the repeated mention of 'fire on the altar' to derive an additional wood arrangement. Each mention yields one arrangement. R. Meir needs five; R. Yehuda four. The verse 'it shall not be extinguished' adds the prohibition against extinguishing, not a new arrangement.",
+    "title": "'It Shall Not Be Extinguished': A Prohibition, Not a New Pyre"
+   },
+   "learning": {
+    "ahaMoment": "Every 'fire on the altar' phrase in Torah creates a new wood arrangement. Count the mentions, count the arrangements. R. Meir finds one more than R. Yehuda.",
+    "memoryAnchor": "The fire prohibition ('lo tichbeh') is not a new arrangement but a prohibition against extinguishing what already exists.",
+    "learnerQuestion": "Does the verse 'the fire on the altar shall be kept burning, it shall not be extinguished' support R. Meir's fifth wood arrangement, or does it mean something else entirely?",
+    "coreTension": "R. Meir reads added phrases about the perpetual fire as justifying an extra wood arrangement, but the Gemara must determine whether 'lo tichbeh' (it shall not be extinguished) is really describing a new arrangement requirement or is simply a prohibition against letting the fire go out.",
+    "coreMove": "The Gemara works through the verse phrase by phrase and concludes that 'lo tichbeh' is a prohibition against extinguishing the fire, not a directive to add a new wood arrangement, so the verse does not support R. Meir's fifth arrangement - the final ruling follows R. Yehuda's four.",
+    "takeaway": {
+     "type": "logical_principle",
+     "text": "'It shall not be extinguished' (lo tichbeh) is a prohibition against letting the altar fire go out, not a command to add a new wood arrangement; the final ruling follows R. Yehuda that four arrangements suffice."
+    },
+    "learningBlocker": "Learners may read 'lo tichbeh' as describing an additional wood-arrangement requirement because it appears alongside the wood-arrangement verses, missing that the Gemara identifies it as a separate prohibition about maintaining the fire."
+   },
+   "argumentFlow": [
     {
-      "he": "לֹא תִכְבֶּה",
-      "translit": "lo tichbeh",
-      "en": "It shall not be extinguished - the Torah prohibition against allowing the altar fire to go out (Lev. 6:6)."
+     "type": "derivation",
+     "speaker": "Gemara",
+     "text": "'And the fire on the altar shall be kept burning' - this phrase teaches the arrangement must be maintained, not just lit once.",
+     "id": "yoma-045b-l01",
+     "label": "Derivation: 'And the fire on the altar shall",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-045b-l01",
+       "vilnaLine": 1
+      }
+     ]
+    },
+    {
+     "type": "dispute",
+     "speaker": "R. Meir/R. Yehuda",
+     "text": "R. Meir: an additional fire mention creates a fifth arrangement for Yom Kippur coals.",
+     "id": "yoma-045b-l04",
+     "label": "Dispute: R. Meir: an additional fire mention creates",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-045b-l04",
+       "vilnaLine": 4
+      }
+     ]
+    },
+    {
+     "type": "resolution",
+     "speaker": "Gemara",
+     "text": "R. Yehuda: the Yom Kippur coal fire is the same as the incense fire - no fifth needed.",
+     "id": "yoma-045b-l09",
+     "label": "Resolution: R. Yehuda: the Yom Kippur coal fire",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-045b-l09",
+       "vilnaLine": 9
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "'It shall not be extinguished' is a prohibition, not a new arrangement requirement.",
+     "id": "yoma-045b-l16",
+     "label": "Ruling: 'It shall not be extinguished' is a",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-045b-l16",
+       "vilnaLine": 16
+      }
+     ]
+    },
+    {
+     "type": "narrative",
+     "speaker": "Gemara",
+     "text": "Additional altar fire mention noted; Gemara checks whether it creates another arrangement.",
+     "id": "yoma-045b-l22",
+     "label": "Narrative: Additional altar fire mention noted; Gemara checks",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-045b-l22",
+       "vilnaLine": 22
+      }
+     ]
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "topicTags": [
+    "wood arrangements",
+    "altar fire",
+    "R. Meir",
+    "R. Yehuda",
+    "fire prohibition"
+   ],
+   "concepts": {
+    "halachic": [
+     "fire prohibition lo tichbeh",
+     "four vs five arrangements resolved"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "altar fire laws",
+    "wood arrangement count dispute"
+   ],
+   "misconceptions": [
     {
-      "vilnaLine": 1,
-      "en": "Rashi: 'which consumes the burnt-offering' - if this phrase is not needed for teaching about the offering's beginning, since 'the burnt-offering' is already written elsewhere.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "Rashi: apply it instead to teach about the offering's end. 'Consumed remains of the burnt-offering' means bits that popped off from the fire.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "Rashi: so the verse reads, 'which the fire consumed of the burnt-offering upon the altar.' Then asks about 'a perpetual fire shall burn.'",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "Rashi: for what purpose does this phrase come, since you have already expounded all the hearth-references in this passage?",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l04"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "Rashi: 'that it should only be upon the outer altar' - for this verse is written concerning the altar of the burnt-offering specifically.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l04"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "Rashi: 'the fire for the fire-pan and for the lampstand' introduces the next derivation.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l04"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "Rashi: the fire for Yom Kippur used in the Holy of Holies, and the fire for the lampstand's daily lighting.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l04"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "Rashi: from where do we derive that both must be taken from the outer altar specifically?",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l04"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "Rashi: continues introducing the derivation that follows.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Rashi: the derivation reads: it says 'fire' here regarding the incense.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "Rashi: as it is written 'he shall burn it,' and there is no burning without fire.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "Rashi: 'just as there, the fire is taken from what is adjacent to it' - from the outer altar.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Rashi: which is adjacent to the inner altar, upon which the daily incense is burned.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Rashi: so too for the fire-pan and the lampstand, the fire is taken from what is adjacent to it.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "Rashi: namely the inner altar, which is adjacent to the lampstand and to the Holy of Holies.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "Rashi: 'a perpetual fire' - introduces the next phrase to be explained.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Rashi: the fire called 'perpetual' here is the fire of the lampstand.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Rashi: as it is stated concerning it, 'to kindle a perpetual lamp.'",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "Rashi: 'it says fire regarding the incense' means the ordinary daily incense. Then cites 'and he shall take.'",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Rashi: 'a fire-pan full of coals from upon the altar' (Leviticus 16) raises the question of which altar and which side.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "Rashi: the answer is 'from before the Lord,' meaning from the western side.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Rashi: the derivation continues: which altar has only part of it described as 'before the Lord,' not all of it?",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l22"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Rashi: the answer must be the outer altar, since only part of it faces that direction.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l22"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Rashi: the Gemara then asks, for which altar would there even be room to distinguish parts within it.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l22"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Rashi: asking which part of it is 'before the Lord,' such that Scripture needed to specify 'from before the Lord.'",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l22"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Rashi: continues developing this question about why the qualifying phrase was necessary at all.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l22"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Rashi: the answer is the outer altar, since the inner altar is entirely 'before the Lord' with no need to specify a part.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l22"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Rashi: 'specifically from before the Lord' means directly opposite the entrance.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l22"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Rashi: 'but' - opens the next clause, continuing onto daf 46a.",
-      "linkedGemaraLineIds": [
-        "yoma-045b-l22"
-      ]
+     "misconception": "The phrase 'it shall not be extinguished' is part of the verse's instructions for how many wood arrangements to build on the altar.",
+     "correction": "The Gemara reads 'lo tichbeh' as a prohibition against letting the fire go out, not as a new wood-arrangement requirement; the final ruling follows R. Yehuda's four arrangements.",
+     "correctedByStepId": null
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-045a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "text",
+     "label": "altar fire verse 'lo tichbeh' as prohibition not arrangement"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "It is a prohibition against extinguishing the altar fire, not a requirement for a new separate wood arrangement.",
+     "question": "What does 'lo tichbeh' (it shall not be extinguished) teach about the altar fire?"
+    }
+   ],
+   "finalRuling": "The altar fire prohibition 'lo tichbeh' is not a new arrangement but a ban on extinguishing the existing fire; R. Yehuda holds four arrangements suffice.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [
+  {
+   "he": "לֹא תִכְבֶּה",
+   "translit": "lo tichbeh",
+   "en": "It shall not be extinguished - the Torah prohibition against allowing the altar fire to go out (Lev. 6:6)."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "Which the fire consumes of the burnt-offering - if this phrase is not needed to teach about its beginning, since 'the burnt-offering' upon its own hearth is already written elsewhere,",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "apply it instead to teach about its end. The consumed remains of the burnt-offering -",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l01",
+    "yoma-045b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "bits that popped off from the fire, and read the verse accordingly: 'which the fire consumed of the burnt-offering upon the altar.' A perpetual fire shall burn -",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "for what purpose does this come, since you have already expounded all the hearth-references in this passage? That it should only be upon",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "the outer altar - since this verse",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "is written specifically concerning the altar of the burnt-offering. The fire for the fire-pan and the lampstand -",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l04",
+    "yoma-045b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "from where do we derive that the fire for the Day of Atonement service in the Holy of Holies, and the fire for the lampstand's",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "own daily lighting, must both be taken",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "from the outer altar? This is",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "the reading: 'it says fire here regarding the incense' -",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "as it is written, 'he shall burn it,' and there is no burning without",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "fire. Just as there, the fire is taken from what is adjacent to it -",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l16",
+    "yoma-045b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "from the outer altar, which is adjacent to the inner altar upon which the daily incense",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "is burned, so too for the fire-pan and the lampstand, the fire is taken from what is",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "adjacent to it, namely the inner altar, which is adjacent",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "to the lampstand and to the Holy of Holies. A perpetual fire -",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l19",
+    "yoma-045b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "the fire I told you is called 'perpetual' is the fire of the",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "lampstand, concerning which it is stated, 'to kindle a perpetual lamp.'",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "It says fire regarding the incense - the ordinary daily incense. And he shall take",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l25",
+    "yoma-045b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "a fire-pan full of coals from upon the altar (Leviticus 16), and from where?",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "'From before the Lord,' meaning from the western side. This is",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "the reading: 'which altar has only part of it described as before the Lord,'",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "'and not all of it? You must say this is the outer",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "altar.' Which altar has a distinguishable part,",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "such that a part of it faces before the Lord, that Scripture",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "needed to specify 'from before the Lord'? You must say this is the outer",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "altar, since the inner altar is entirely before the Lord.",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "Specifically from before the Lord - directly opposite the entrance.",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l29"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "But - the daf ends mid-clause here; the comment (explaining why the western side alone is not sufficient to identify 'before the Lord') continues on 46a.",
+   "linkedGemaraLineIds": [
+    "yoma-045b-l29"
+   ]
+  }
+ ]
 }

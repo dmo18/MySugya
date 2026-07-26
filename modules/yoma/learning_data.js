@@ -105834,7 +105834,7 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 1,
         he: "אשר תאכל את העולה. אם אינו ענין לתחילתה דהא כתיב העולה",
-        en: "Rashi: 'which consumes the burnt-offering' - if this phrase is not needed for teaching about the offering's beginning, since 'the burnt-offering' is already written elsewhere.",
+        en: "Which the fire consumes of the burnt-offering - if this phrase is not needed to teach about its beginning, since 'the burnt-offering' upon its own hearth is already written elsewhere,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -105848,12 +105848,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 2,
         he: "על מוקדה תנהו לענין סופה: עיכולי עולה. פוקעין שפקעו מעל",
-        en: "Rashi: apply it instead to teach about the offering's end. 'Consumed remains of the burnt-offering' means bits that popped off from the fire.",
+        en: "apply it instead to teach about its end. The consumed remains of the burnt-offering -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l01"
+          "yoma-045b-l01",
+          "yoma-045b-l04"
         ]
       },
       {
@@ -105862,12 +105863,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 3,
         he: "האש וקרי ביה אשר תאכל את העולה על המזבח: אש תמיד תוקד",
-        en: "Rashi: so the verse reads, 'which the fire consumed of the burnt-offering upon the altar.' Then asks about 'a perpetual fire shall burn.'",
+        en: "bits that popped off from the fire, and read the verse accordingly: 'which the fire consumed of the burnt-offering upon the altar.' A perpetual fire shall burn -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l01"
+          "yoma-045b-l04"
         ]
       },
       {
@@ -105876,7 +105877,7 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 4,
         he: "למאי אתא. כיון דדרשת כל מוקדות דענינא: שלא תהא אלא על",
-        en: "Rashi: for what purpose does this phrase come, since you have already expounded all the hearth-references in this passage?",
+        en: "for what purpose does this come, since you have already expounded all the hearth-references in this passage? That it should only be upon",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -105890,7 +105891,7 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 5,
         he: "מזבח החיצון. דהאי קרא במזבח",
-        en: "Rashi: 'that it should only be upon the outer altar' - for this verse is written concerning the altar of the burnt-offering specifically.",
+        en: "the outer altar - since this verse",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -105904,12 +105905,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 6,
         he: "העולה כתיב: אש מחתה ומנורה.",
-        en: "Rashi: 'the fire for the fire-pan and for the lampstand' introduces the next derivation.",
+        en: "is written specifically concerning the altar of the burnt-offering. The fire for the fire-pan and the lampstand -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l04"
+          "yoma-045b-l04",
+          "yoma-045b-l16"
         ]
       },
       {
@@ -105918,12 +105920,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 7,
         he: "אש דיוה\"כ דלפני ולפנים ואש דמנורה",
-        en: "Rashi: the fire for Yom Kippur used in the Holy of Holies, and the fire for the lampstand's daily lighting.",
+        en: "from where do we derive that the fire for the Day of Atonement service in the Holy of Holies, and the fire for the lampstand's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l04"
+          "yoma-045b-l16"
         ]
       },
       {
@@ -105932,12 +105934,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 8,
         he: "דהדלקת נרות דכל יומא מניין שתהא",
-        en: "Rashi: from where do we derive that both must be taken from the outer altar specifically?",
+        en: "own daily lighting, must both be taken",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l04"
+          "yoma-045b-l16"
         ]
       },
       {
@@ -105946,12 +105948,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 9,
         he: "ניטלת מעל המזבח החיצון: הכי",
-        en: "Rashi: continues introducing the derivation that follows.",
+        en: "from the outer altar? This is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l09"
+          "yoma-045b-l16"
         ]
       },
       {
@@ -105960,12 +105962,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 10,
         he: "גרסינן נאמר כאן אש בקטורת.",
-        en: "Rashi: the derivation reads: it says 'fire' here regarding the incense.",
+        en: "the reading: 'it says fire here regarding the incense' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l09"
+          "yoma-045b-l16"
         ]
       },
       {
@@ -105974,12 +105976,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 11,
         he: "דכתיב יקטירנה ואין הקטרה בלא",
-        en: "Rashi: as it is written 'he shall burn it,' and there is no burning without fire.",
+        en: "as it is written, 'he shall burn it,' and there is no burning without",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l09"
+          "yoma-045b-l16"
         ]
       },
       {
@@ -105988,12 +105990,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 12,
         he: "אש:מה להלן בסמוך לו. במזבח",
-        en: "Rashi: 'just as there, the fire is taken from what is adjacent to it' - from the outer altar.",
+        en: "fire. Just as there, the fire is taken from what is adjacent to it -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l09"
+          "yoma-045b-l16",
+          "yoma-045b-l19"
         ]
       },
       {
@@ -106002,12 +106005,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 13,
         he: "החיצון הסמוך לפנימי שעליו הקטורת",
-        en: "Rashi: which is adjacent to the inner altar, upon which the daily incense is burned.",
+        en: "from the outer altar, which is adjacent to the inner altar upon which the daily incense",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l09"
+          "yoma-045b-l19"
         ]
       },
       {
@@ -106016,12 +106019,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 14,
         he: "נקטר אף מחתה ומנורה נוטל מן",
-        en: "Rashi: so too for the fire-pan and the lampstand, the fire is taken from what is adjacent to it.",
+        en: "is burned, so too for the fire-pan and the lampstand, the fire is taken from what is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l09"
+          "yoma-045b-l19"
         ]
       },
       {
@@ -106030,12 +106033,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 15,
         he: "הסמוך לו והוא מזבח הפנימי הסמוך",
-        en: "Rashi: namely the inner altar, which is adjacent to the lampstand and to the Holy of Holies.",
+        en: "adjacent to it, namely the inner altar, which is adjacent",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l09"
+          "yoma-045b-l19"
         ]
       },
       {
@@ -106044,12 +106047,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 16,
         he: "למנורה ולפני לפנים: אש תמיד.",
-        en: "Rashi: 'a perpetual fire' - introduces the next phrase to be explained.",
+        en: "to the lampstand and to the Holy of Holies. A perpetual fire -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l16"
+          "yoma-045b-l19",
+          "yoma-045b-l22"
         ]
       },
       {
@@ -106058,12 +106062,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 17,
         he: "אש שאמרתי לך בה תמיד והוא של",
-        en: "Rashi: the fire called 'perpetual' here is the fire of the lampstand.",
+        en: "the fire I told you is called 'perpetual' is the fire of the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l16"
+          "yoma-045b-l22"
         ]
       },
       {
@@ -106072,12 +106076,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 18,
         he: "מנורה שנאמר בה להעלות נר תמיד:",
-        en: "Rashi: as it is stated concerning it, 'to kindle a perpetual lamp.'",
+        en: "lampstand, concerning which it is stated, 'to kindle a perpetual lamp.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l16"
+          "yoma-045b-l22"
         ]
       },
       {
@@ -106086,12 +106090,13 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 19,
         he: "נאמר אש בקטורת. של כל יום: ולקח",
-        en: "Rashi: 'it says fire regarding the incense' means the ordinary daily incense. Then cites 'and he shall take.'",
+        en: "It says fire regarding the incense - the ordinary daily incense. And he shall take",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l16"
+          "yoma-045b-l25",
+          "yoma-045b-l27"
         ]
       },
       {
@@ -106100,12 +106105,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 20,
         he: "מלא המחתה מעל המזבח. (ויקרא טז)",
-        en: "Rashi: 'a fire-pan full of coals from upon the altar' (Leviticus 16) raises the question of which altar and which side.",
+        en: "a fire-pan full of coals from upon the altar (Leviticus 16), and from where?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l16"
+          "yoma-045b-l27"
         ]
       },
       {
@@ -106114,12 +106119,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 21,
         he: "ומהיכן מלפני ה' מצד מערב: הכי",
-        en: "Rashi: the answer is 'from before the Lord,' meaning from the western side.",
+        en: "'From before the Lord,' meaning from the western side. This is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l16"
+          "yoma-045b-l27"
         ]
       },
       {
@@ -106128,12 +106133,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 22,
         he: "גרסינן איזהו מזבח שמקצתו לפני ה'",
-        en: "Rashi: the derivation continues: which altar has only part of it described as 'before the Lord,' not all of it?",
+        en: "the reading: 'which altar has only part of it described as before the Lord,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l22"
+          "yoma-045b-l27"
         ]
       },
       {
@@ -106142,12 +106147,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 23,
         he: "ואין כולו לפני ה' הוי אומר זה מזבח",
-        en: "Rashi: the answer must be the outer altar, since only part of it faces that direction.",
+        en: "'and not all of it? You must say this is the outer",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l22"
+          "yoma-045b-l27"
         ]
       },
       {
@@ -106156,12 +106161,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 24,
         he: "החיצון. איזהו מזבח שיש לחלק",
-        en: "Rashi: the Gemara then asks, for which altar would there even be room to distinguish parts within it.",
+        en: "altar.' Which altar has a distinguishable part,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l22"
+          "yoma-045b-l27"
         ]
       },
       {
@@ -106170,12 +106175,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 25,
         he: "בו מה ממנו לפני ה' שהוזקק הכתוב",
-        en: "Rashi: asking which part of it is 'before the Lord,' such that Scripture needed to specify 'from before the Lord.'",
+        en: "such that a part of it faces before the Lord, that Scripture",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l22"
+          "yoma-045b-l27"
         ]
       },
       {
@@ -106184,12 +106189,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 26,
         he: "לומר מלפני ה' הוי אומר זה מזבח",
-        en: "Rashi: continues developing this question about why the qualifying phrase was necessary at all.",
+        en: "needed to specify 'from before the Lord'? You must say this is the outer",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l22"
+          "yoma-045b-l27"
         ]
       },
       {
@@ -106198,12 +106203,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 27,
         he: "החיצון דאילו פנימי כולו לפני ה':",
-        en: "Rashi: the answer is the outer altar, since the inner altar is entirely 'before the Lord' with no need to specify a part.",
+        en: "altar, since the inner altar is entirely before the Lord.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l22"
+          "yoma-045b-l27"
         ]
       },
       {
@@ -106212,12 +106217,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 28,
         he: "דוקא מלפני ה'. כנגד הפתח ממש:",
-        en: "Rashi: 'specifically from before the Lord' means directly opposite the entrance.",
+        en: "Specifically from before the Lord - directly opposite the entrance.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l22"
+          "yoma-045b-l29"
         ]
       },
       {
@@ -106226,12 +106231,12 @@ const DAF_CONTENT = {
         daf: "45b",
         vilnaLine: 29,
         he: "אבל",
-        en: "Rashi: 'but' - opens the next clause, continuing onto daf 46a.",
+        en: "But - the daf ends mid-clause here; the comment (explaining why the western side alone is not sufficient to identify 'before the Lord') continues on 46a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-045b-l22"
+          "yoma-045b-l29"
         ]
       }
     ],
