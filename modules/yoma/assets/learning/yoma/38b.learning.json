@@ -1,942 +1,951 @@
 {
-  "daf": "38b",
-  "canonicalRef": "Yoma 38b",
-  "summary": "38b covers: 'from yours they give you' (divine provision for Temple); Hugras's vocal trill technique (thumb in mouth) and refusal to teach; interpretation of 'the name of the wicked shall rot' (R. Elazar: forgotten; R. Yochanan: preserved in infamy); R. Elazar's principle that blessing of the righteous and curse of the wicked are mirror images.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "38b",
+ "canonicalRef": "Yoma 38b",
+ "summary": "38b covers: 'from yours they give you' (divine provision for Temple); Hugras's vocal trill technique (thumb in mouth) and refusal to teach; interpretation of 'the name of the wicked shall rot' (R. Elazar: forgotten; R. Yochanan: preserved in infamy); R. Elazar's principle that blessing of the righteous and curse of the wicked are mirror images.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-038b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 1
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-038b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 1
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.38b.1"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.38b.1"
-      ],
-      "display": {
-        "whats": "'And from yours they give you' - God provides what is needed for Temple service.",
-        "hint": "Whatever skills are needed, God will provide them through those who possess them.",
-        "title": "'From Yours They Give You': Temple Provision Belongs to God"
-      },
-      "learning": {
-        "ahaMoment": "Temple service depends on God's provision: even withheld knowledge eventually becomes available.",
-        "memoryAnchor": "From yours - everything dedicated to the Temple comes from God; no one can permanently withhold.",
-        "learnerQuestion": "What does the teaching 'from yours they give you' add to the story of families withholding Temple skills?",
-        "coreTension": "Beth Avtinas and others believed their family knowledge was theirs to withhold, yet the Temple's resources, the Gemara teaches, ultimately come from God, not from any individual's private possession.",
-        "coreMove": "The Gemara frames the entire withheld-knowledge narrative through this principle: whatever serves the Temple was never truly owned by the families who held it.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "'From yours they give you' teaches that no person can permanently withhold what belongs to Temple service, since the knowledge ultimately comes from God's provision."
-        },
-        "learningBlocker": "Learners may treat this teaching as a separate aphorism rather than seeing it as the Gemara's theological frame for the families-who-withheld narrative."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-038b-l01",
-          "type": "ruling",
-          "label": "Ruling: 'And from yours they give you' -",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-038b-l01",
-              "vilnaLine": 1
-            }
-          ],
-          "text": "'And from yours they give you' - God provides; no person truly owns what belongs to Temple service."
-        }
-      ],
-      "topicTags": [
-        "Temple theology",
-        "divine providence"
-      ],
-      "concepts": {
-        "halachic": [],
-        "theological": [
-          "divine provision for Temple service",
-          "human ownership of Temple knowledge"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [
-        {
-          "misconception": "When the Temple families refused to share their skills, this meant those skills were permanently lost.",
-          "correction": "The Gemara teaches 'from yours they give you' - God provided the needed knowledge even when families withheld it. Divine providence filled the gap.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-038a-s04"
-      ],
-      "visualizableElements": [
-        {
-          "type": "text",
-          "description": "From yours they give you - Temple resources ultimately come from God"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "conceptual",
-          "question": "What does 'from yours they give you' teach about Temple service?",
-          "answer": "Whatever is used for Temple service ultimately comes from God; human beings cannot permanently withhold what God has designated for sacred use."
-        }
-      ],
-      "finalRuling": "'From yours they give you' - God provides all that is needed for the Temple service.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 2,
-      "id": "yoma-038b-s02",
-      "lineRange": {
-        "startVilnaLine": 3,
-        "endVilnaLine": 6
-      },
-      "lines": [
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.38b.2"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.38b.3"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.38b.2",
-        "Yoma.38b.3"
-      ],
-      "display": {
-        "whats": "Hugras ben Levi's voice technique for Temple music; a negative tradition.",
-        "hint": "Hugras could hit the musical note with his thumb in his mouth; his descendants kept this secret too.",
-        "title": "Hugras's Lost Vocal Trill"
-      },
-      "learning": {
-        "ahaMoment": "Hugras's vocal artistry was extraordinary but his secrecy was criticized; the voice and knowledge both perished with him.",
-        "memoryAnchor": "Thumb in mouth = Hugras's secret trill; never shared; lost with his death.",
-        "learnerQuestion": "What was Hugras ben Levi's secret technique, and why does the Gemara record it negatively despite its skill?",
-        "coreTension": "Hugras's thumb-in-mouth vocal trill was an extraordinary skill for Temple song, yet extraordinary skill did not exempt him, or his descendants, from the same shame applied to the other secret-keeping families.",
-        "coreMove": "The Gemara describes the technique in detail, then notes that he and his descendants kept it secret until it was lost entirely, illustrating that skill without teaching still earns the Mishna's censure.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Hugras ben Levi's vocal trill technique was extraordinary, but his refusal to teach it, continued by his descendants, meant the skill was lost and his family is remembered for shame, not praise."
-        },
-        "learningBlocker": "Learners may assume the detailed, admiring description of the technique signals approval, missing that the Gemara pairs technical praise with moral censure."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-038b-l03",
-          "type": "elaboration",
-          "label": "Elaboration: Hugras ben Levi had a special vocal",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-038b-l03",
-              "vilnaLine": 3
-            }
-          ],
-          "text": "Hugras ben Levi had a special vocal technique: thumb in mouth for a trill during Temple songs."
-        },
-        {
-          "id": "yoma-038b-l06",
-          "type": "ruling",
-          "label": "Ruling: He refused to teach it; his descendants",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-038b-l06",
-              "vilnaLine": 6
-            }
-          ],
-          "text": "He refused to teach it; his descendants also kept it secret; the technique was lost."
-        }
-      ],
-      "topicTags": [
-        "Temple music",
-        "Levitical service",
-        "Temple families"
-      ],
-      "concepts": {
-        "halachic": [],
-        "theological": [
-          "sharing sacred knowledge"
-        ],
-        "narrative": [
-          "Hugras's vocal technique"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Levitical music"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Hugras ben Levi's vocal technique was widely celebrated and is described positively in the Talmud.",
-          "correction": "His technique was extraordinary but his secrecy was criticized. The Gemara preserves his memory alongside a negative judgment - extraordinary skill does not excuse knowledge-hoarding.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-038a-s03"
-      ],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "description": "Hugras puts thumb in mouth to produce special trill for Temple Levitical songs"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "factual",
-          "question": "What was Hugras ben Levi's secret technique?",
-          "answer": "He placed his thumb in his mouth to produce a special trill or resonance for Levitical Temple music."
-        }
-      ],
-      "finalRuling": "Hugras's vocal trill (thumb in mouth) was extraordinary but never taught; lost at his death.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 3,
-      "id": "yoma-038b-s03",
-      "lineRange": {
-        "startVilnaLine": 14,
-        "endVilnaLine": 29
-      },
-      "lines": [
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.38b.4"
-        },
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.38b.5"
-        },
-        {
-          "vilnaLine": 21,
-          "sefariaRef": "Yoma.38b.6"
-        },
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.38b.7"
-        },
-        {
-          "vilnaLine": 26,
-          "sefariaRef": "Yoma.38b.8"
-        },
-        {
-          "vilnaLine": 29,
-          "sefariaRef": "Yoma.38b.9"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.38b.4",
-        "Yoma.38b.5",
-        "Yoma.38b.6",
-        "Yoma.38b.7",
-        "Yoma.38b.8",
-        "Yoma.38b.9"
-      ],
-      "display": {
-        "whats": "The name of the wicked rots (Prov. 10:7); positive vs negative Temple family legacies.",
-        "hint": "R. Elazar: the name of the wicked is forgotten; R. Yochanan: their deeds live on in infamy.",
-        "title": "'The Name of the Wicked Shall Rot': Forgotten or Shamed?"
-      },
-      "learning": {
-        "ahaMoment": "Memory cuts both ways: the righteous are remembered for blessing; the wicked for shame. Temple legacy is permanent.",
-        "memoryAnchor": "Name rots = either forgotten or remembered in shame - either way, no honor. Temple shame endures.",
-        "learnerQuestion": "Does Proverbs 10:7's 'the name of the wicked shall rot' mean their name disappears, or that it persists as a mark of shame?",
-        "coreTension": "R. Elazar reads 'rot' as forgetting, while R. Yochanan reads it as persisting in infamy, two opposite outcomes from the same verse, both called 'rot.'",
-        "coreMove": "The Gemara resolves the dispute using the Mishna itself as proof: since Beth Garmu and the other families are named explicitly for shame, their names were not forgotten, supporting R. Yochanan's reading.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "The Mishna's explicit naming of shamed families serves as proof for R. Yochanan: 'the name of the wicked shall rot' means the name endures in infamy, not that it is forgotten."
-        },
-        "learningBlocker": "Learners may assume 'rot' straightforwardly means disappearance, missing how the Gemara uses the Mishna's preserved names as textual evidence against that reading."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-038b-l14",
-          "type": "question",
-          "label": "Question: What does 'the name of the wicked",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-038b-l14",
-              "vilnaLine": 14
-            }
-          ],
-          "text": "What does 'the name of the wicked shall rot' mean (Prov. 10:7)?"
-        },
-        {
-          "id": "yoma-038b-l19",
-          "type": "elaboration",
-          "label": "Elaboration: R. Elazar: the name is forgotten (rotted",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-038b-l19",
-              "vilnaLine": 19
-            }
-          ],
-          "text": "R. Elazar: the name is forgotten (rotted away)."
-        },
-        {
-          "id": "yoma-038b-l21",
-          "type": "elaboration",
-          "label": "Elaboration: R. Yochanan: the name is preserved in",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-038b-l21",
-              "vilnaLine": 21
-            }
-          ],
-          "text": "R. Yochanan: the name is preserved in shame (the families are recorded for disgrace)."
-        },
-        {
-          "id": "yoma-038b-l23",
-          "type": "proof",
-          "label": "Proof: The Mishna records the names of the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-038b-l23",
-              "vilnaLine": 23
-            }
-          ],
-          "text": "The Mishna records the names of the families for shame - this shows their name endures in infamy."
-        },
-        {
-          "id": "yoma-038b-l26",
-          "type": "elaboration",
-          "label": "Elaboration: But the memory of the righteous is",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-038b-l26",
-              "vilnaLine": 26
-            }
-          ],
-          "text": "But the memory of the righteous is for blessing - they are blessed even after death."
-        },
-        {
-          "id": "yoma-038b-l29",
-          "type": "ruling",
-          "label": "Ruling: Both interpretations teach: Temple service creates a",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-038b-l29",
-              "vilnaLine": 29
-            }
-          ],
-          "text": "Both interpretations teach: Temple service creates a permanent legacy, for good or shame."
-        }
-      ],
-      "topicTags": [
-        "Aggadah",
-        "legacy",
-        "memory",
-        "Temple families"
-      ],
-      "concepts": {
-        "halachic": [],
-        "theological": [
-          "memory of the righteous and wicked",
-          "legacy of Temple service"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [
-        {
-          "misconception": "'The name of the wicked rots' means these families are simply forgotten.",
-          "correction": "It means their names are actively preserved - in infamy. The Talmud records their names precisely so their shame is eternal, the inverse of the righteous who are remembered for blessing.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-038b-s04"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "description": "Righteous remembered for blessing; wicked remembered for shame - both permanent"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "conceptual",
-          "question": "What does R. Yochanan say about 'the name of the wicked shall rot'?",
-          "answer": "Their name is preserved in infamy - they are remembered in shame, not forgotten."
-        }
-      ],
-      "finalRuling": "The name of the wicked endures in shame; the righteous are blessed even after death - both legacies are permanent.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 4,
-      "id": "yoma-038b-s04",
-      "lineRange": {
-        "startVilnaLine": 32,
-        "endVilnaLine": 49
-      },
-      "lines": [
-        {
-          "vilnaLine": 32,
-          "sefariaRef": "Yoma.38b.10"
-        },
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.38b.11"
-        },
-        {
-          "vilnaLine": 39,
-          "sefariaRef": "Yoma.38b.12"
-        },
-        {
-          "vilnaLine": 41,
-          "sefariaRef": "Yoma.38b.13"
-        },
-        {
-          "vilnaLine": 44,
-          "sefariaRef": "Yoma.38b.14"
-        },
-        {
-          "vilnaLine": 46,
-          "sefariaRef": "Yoma.38b.15"
-        },
-        {
-          "vilnaLine": 49,
-          "sefariaRef": "Yoma.38b.16"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.38b.10",
-        "Yoma.38b.11",
-        "Yoma.38b.12",
-        "Yoma.38b.13",
-        "Yoma.38b.14",
-        "Yoma.38b.15",
-        "Yoma.38b.16"
-      ],
-      "display": {
-        "whats": "From the blessing of the righteous one can learn about the curse of the wicked, and vice versa.",
-        "hint": "The contrasting memories of Temple families teach about divine reward and punishment.",
-        "title": "Blessing of the Righteous, Curse of the Wicked: Mirror Principles"
-      },
-      "learning": {
-        "ahaMoment": "One lesson teaches two: bless the righteous by contrasting with the wicked, curse the wicked by contrasting with the righteous.",
-        "memoryAnchor": "Mirror image: righteous = blessing (learn from it the curse of the wicked); wicked = shame (learn the blessing of the righteous).",
-        "learnerQuestion": "Why does R. Elazar say the blessing of the righteous and the curse of the wicked can each be learned from the other?",
-        "coreTension": "The Mishna records both praised families (Ben Katin, Queen Helene) and shamed families (Beth Garmu) in the same list, raising the question of whether these are two separate lessons or one principle running in both directions.",
-        "coreMove": "R. Elazar derives that the two are mirror images: the qualities that earn blessing, sharing freely, are the inverse of the qualities that earn curse, withholding, so each illuminates the other from a single textual contrast.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "R. Elazar's principle: from the blessing of the righteous you can derive the nature of the wicked's curse, and vice versa, since the Mishna's praised and shamed families are mirror images of the same behavior."
-        },
-        "learningBlocker": "Learners may treat the Mishna's two lists as unrelated examples rather than seeing R. Elazar's point that they function as a single mirrored teaching."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-038b-l32",
-          "type": "ruling",
-          "label": "Ruling: From the blessing of the righteous one",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-038b-l32",
-              "vilnaLine": 32
-            }
-          ],
-          "text": "From the blessing of the righteous one learns the curse of the wicked, and vice versa."
-        },
-        {
-          "id": "yoma-038b-l35",
-          "type": "elaboration",
-          "label": "Elaboration: Ben Katin and Queen Helene are blessed;",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-038b-l35",
-              "vilnaLine": 35
-            }
-          ],
-          "text": "Ben Katin and Queen Helene are blessed; Beth Garmu is shamed - the contrast teaches both."
-        },
-        {
-          "id": "yoma-038b-l39",
-          "type": "elaboration",
-          "label": "Elaboration: The righteous who shared Temple skills: their",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-038b-l39",
-              "vilnaLine": 39
-            }
-          ],
-          "text": "The righteous who shared Temple skills: their memory is for blessing."
-        },
-        {
-          "id": "yoma-038b-l41",
-          "type": "elaboration",
-          "label": "Elaboration: The wicked who withheld: their name is",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-038b-l41",
-              "vilnaLine": 41
-            }
-          ],
-          "text": "The wicked who withheld: their name is for shame."
-        },
-        {
-          "id": "yoma-038b-l44",
-          "type": "elaboration",
-          "label": "Elaboration: This principle applies broadly: any act of",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-038b-l44",
-              "vilnaLine": 44
-            }
-          ],
-          "text": "This principle applies broadly: any act of righteous sharing creates legacy; withholding creates shame."
-        },
-        {
-          "id": "yoma-038b-l46",
-          "type": "elaboration",
-          "label": "Elaboration: Additional aggadic teachings about righteous and wicked",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-038b-l46",
-              "vilnaLine": 46
-            }
-          ],
-          "text": "Additional aggadic teachings about righteous and wicked legacy."
-        },
-        {
-          "id": "yoma-038b-l49",
-          "type": "ruling",
-          "label": "Ruling: The Temple families chapter concludes: Beth Garmu,",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-038b-l49",
-              "vilnaLine": 49
-            }
-          ],
-          "text": "The Temple families chapter concludes: Beth Garmu, Avtinas, Hugras, Ben Kamtsar are for shame; others for praise."
-        }
-      ],
-      "topicTags": [
-        "Aggadah",
-        "legacy",
-        "divine reward",
-        "Temple families"
-      ],
-      "concepts": {
-        "halachic": [],
-        "theological": [
-          "divine reward and punishment",
-          "legacy of good and bad deeds"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [
-        {
-          "misconception": "The contrast between blessing the righteous and cursing the wicked requires two separate scriptural sources.",
-          "correction": "The Gemara teaches that one verse teaches both: from the blessing of the righteous you can derive the curse of the wicked, and vice versa - a single textual principle cuts both ways.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-038b-s03"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "description": "Blessing of righteous = inverse of curse of wicked; both taught from the same Mishna"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "conceptual",
-          "question": "What principle does R. Elazar derive about righteous and wicked legacies?",
-          "answer": "From the blessing of the righteous you can understand the nature of the wicked's curse, and vice versa - they are mirror images."
-        }
-      ],
-      "finalRuling": "From the blessing of the righteous you learn the nature of the wicked's punishment; their legacies are mirror images.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.38b.1"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "en": "Opens 'and from your own they shall give you': meaning, it is not a gift from them, but rather a fixed sustenance",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l01"
-      ]
+   ],
+   "sefariaRefs": [
+    "Yoma.38b.1"
+   ],
+   "display": {
+    "whats": "'And from yours they give you' - God provides what is needed for Temple service.",
+    "hint": "Whatever skills are needed, God will provide them through those who possess them.",
+    "title": "'From Yours They Give You': Temple Provision Belongs to God"
+   },
+   "learning": {
+    "ahaMoment": "Temple service depends on God's provision: even withheld knowledge eventually becomes available.",
+    "memoryAnchor": "From yours - everything dedicated to the Temple comes from God; no one can permanently withhold.",
+    "learnerQuestion": "What does the teaching 'from yours they give you' add to the story of families withholding Temple skills?",
+    "coreTension": "Beth Avtinas and others believed their family knowledge was theirs to withhold, yet the Temple's resources, the Gemara teaches, ultimately come from God, not from any individual's private possession.",
+    "coreMove": "The Gemara frames the entire withheld-knowledge narrative through this principle: whatever serves the Temple was never truly owned by the families who held it.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "'From yours they give you' teaches that no person can permanently withhold what belongs to Temple service, since the knowledge ultimately comes from God's provision."
     },
+    "learningBlocker": "Learners may treat this teaching as a separate aphorism rather than seeing it as the Gemara's theological frame for the families-who-withheld narrative."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 2,
-      "en": "continuing: given to you from Heaven.' Then opens 'and one kingdom does not touch its fellow': once the time for a kingdom",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "continuing: to fall arrives, and another rises, it does not delay by even a hairsbreadth, but rather whichever kingdom's time is to fall",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "continuing: at night falls at night, as it is said (Daniel 5): 'in that very night Belshazzar was slain'",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "continuing: and whichever kingdom's time is by day falls by day, as it is said",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "closing: (Ezekiel 30): 'and at Tehaphnehes the day grew dark.'",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "Opens 'between the strands': between the smooth part of the lip's hair",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: opposite the partition of the nose.' Then opens 'they recoiled suddenly'",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "closing: they startled back from the force of the sound.'",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Opens 'rot': 'rodolia' in the vernacular, rust like that of an",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l14"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "closing: iron vessel that is no longer used.' Then opens 'that we do not'",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l14"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: name our children after them': a person should not name his son after",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l14"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "closing: a wicked person.' Then opens 'she would measure him in handbreadths'",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l14"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "continuing: to know how much he had grown from day to day, and she would give",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l14"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "closing: the weight as an estimate of the growth.'",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l14"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "Opens 'priest and prophet': Zechariah son of Yehoiada the priest; this shows that we do name children",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: after the righteous, for Doeg the Edomite was wicked",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "closing: and yet this one named his infant after him.' Then opens 'see'",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: what became of him': see what happened to him",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l19"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "closing: that he was slaughtered.' Then opens 'a righteous person is remembered on his own': through",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l21"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "closing: his own deeds he is remembered favorably.' Then opens 'but a wicked person, even through'",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l21"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "closing: another, he is remembered unfavorably.' Then opens 'the name of the wicked'",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l21"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "closing: and it is not written 'the name of A wicked person' in the singular.'",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l21"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Opens 'shall I hide it from Abraham': and since it mentioned his name it then blesses him",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "closing: and juxtaposes it with 'and Abraham shall surely become,' etc.'",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l23"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Opens 'Ovadia': he lived among Ahab and Jezebel.'",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l29"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Opens 'from the blessing of the righteous,' etc.: in the place",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l32"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: where the Holy One, Blessed be He, blesses the righteous, there",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l32"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "closing: He curses the wicked.' Then opens 'and He saw the light'",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l35"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "continuing: He foresaw in His mind that the light of the world would endure",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l35"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "closing: for the sake of the righteous one, who is 'good.'' Then opens 'and set'",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l35"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: the world upon them': He scattered them throughout all the generations",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l41"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: to be foundations, a support, and a base to sustain",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l41"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "closing: the world.' Then opens 'the feet of His pious ones': for the sake of His pious ones",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l44"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: like 'and the Lord has blessed you on my account' (Genesis",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l44"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "closing: 30:30).' Then opens 'he no longer sins, as it says: the feet of His pious ones'",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l46"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "closing: He shall guard': He shall guard the latter days of His pious ones.' Then opens 'a first'",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l46"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: and second time,' etc.: the feet of His pious ones",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l46"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "continuing: once he has conducted himself graciously for two 'feet' - occasions - like this,",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l46"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: three 'feet' (Numbers 22): He shall guard him these times",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l46"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "closing: from sin.' Then opens 'once a person comes to become impure': meaning, to become",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l49"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "closing: wicked.' Then opens 'they open for him': the opening of",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l49"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "continuing: impurity, to enter through it, they enable him",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l49"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "closing: and Heaven does not hold him back or prevent him.'",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l49"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Opens 'if it is for scoffers, he shall scoff': if it is with scoffers that he",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l49"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "continuing: comes to associate, he shall scoff; they do not hold him back",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l49"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "closing: and do not help him.' Then opens 'but for the humble': if he comes",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l49"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "closing: to associate, He who has the power to grant favor grants him favor.'",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l49"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "Opens 'he comes' -",
-      "linkedGemaraLineIds": [
-        "yoma-038b-l49"
-      ]
+     "id": "yoma-038b-l01",
+     "type": "ruling",
+     "label": "Ruling: 'And from yours they give you' -",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-038b-l01",
+       "vilnaLine": 1
+      }
+     ],
+     "text": "'And from yours they give you' - God provides; no person truly owns what belongs to Temple service."
     }
-  ]
+   ],
+   "topicTags": [
+    "Temple theology",
+    "divine providence"
+   ],
+   "concepts": {
+    "halachic": [],
+    "theological": [
+     "divine provision for Temple service",
+     "human ownership of Temple knowledge"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [
+    {
+     "misconception": "When the Temple families refused to share their skills, this meant those skills were permanently lost.",
+     "correction": "The Gemara teaches 'from yours they give you' - God provided the needed knowledge even when families withheld it. Divine providence filled the gap.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-038a-s04"
+   ],
+   "visualizableElements": [
+    {
+     "type": "text",
+     "description": "From yours they give you - Temple resources ultimately come from God"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "conceptual",
+     "question": "What does 'from yours they give you' teach about Temple service?",
+     "answer": "Whatever is used for Temple service ultimately comes from God; human beings cannot permanently withhold what God has designated for sacred use."
+    }
+   ],
+   "finalRuling": "'From yours they give you' - God provides all that is needed for the Temple service.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-038b-s02",
+   "lineRange": {
+    "startVilnaLine": 3,
+    "endVilnaLine": 6
+   },
+   "lines": [
+    {
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.38b.2"
+    },
+    {
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.38b.3"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.38b.2",
+    "Yoma.38b.3"
+   ],
+   "display": {
+    "whats": "Hugras ben Levi's voice technique for Temple music; a negative tradition.",
+    "hint": "Hugras could hit the musical note with his thumb in his mouth; his descendants kept this secret too.",
+    "title": "Hugras's Lost Vocal Trill"
+   },
+   "learning": {
+    "ahaMoment": "Hugras's vocal artistry was extraordinary but his secrecy was criticized; the voice and knowledge both perished with him.",
+    "memoryAnchor": "Thumb in mouth = Hugras's secret trill; never shared; lost with his death.",
+    "learnerQuestion": "What was Hugras ben Levi's secret technique, and why does the Gemara record it negatively despite its skill?",
+    "coreTension": "Hugras's thumb-in-mouth vocal trill was an extraordinary skill for Temple song, yet extraordinary skill did not exempt him, or his descendants, from the same shame applied to the other secret-keeping families.",
+    "coreMove": "The Gemara describes the technique in detail, then notes that he and his descendants kept it secret until it was lost entirely, illustrating that skill without teaching still earns the Mishna's censure.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Hugras ben Levi's vocal trill technique was extraordinary, but his refusal to teach it, continued by his descendants, meant the skill was lost and his family is remembered for shame, not praise."
+    },
+    "learningBlocker": "Learners may assume the detailed, admiring description of the technique signals approval, missing that the Gemara pairs technical praise with moral censure."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-038b-l03",
+     "type": "elaboration",
+     "label": "Elaboration: Hugras ben Levi had a special vocal",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-038b-l03",
+       "vilnaLine": 3
+      }
+     ],
+     "text": "Hugras ben Levi had a special vocal technique: thumb in mouth for a trill during Temple songs."
+    },
+    {
+     "id": "yoma-038b-l06",
+     "type": "ruling",
+     "label": "Ruling: He refused to teach it; his descendants",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-038b-l06",
+       "vilnaLine": 6
+      }
+     ],
+     "text": "He refused to teach it; his descendants also kept it secret; the technique was lost."
+    }
+   ],
+   "topicTags": [
+    "Temple music",
+    "Levitical service",
+    "Temple families"
+   ],
+   "concepts": {
+    "halachic": [],
+    "theological": [
+     "sharing sacred knowledge"
+    ],
+    "narrative": [
+     "Hugras's vocal technique"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Levitical music"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Hugras ben Levi's vocal technique was widely celebrated and is described positively in the Talmud.",
+     "correction": "His technique was extraordinary but his secrecy was criticized. The Gemara preserves his memory alongside a negative judgment - extraordinary skill does not excuse knowledge-hoarding.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-038a-s03"
+   ],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "description": "Hugras puts thumb in mouth to produce special trill for Temple Levitical songs"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "factual",
+     "question": "What was Hugras ben Levi's secret technique?",
+     "answer": "He placed his thumb in his mouth to produce a special trill or resonance for Levitical Temple music."
+    }
+   ],
+   "finalRuling": "Hugras's vocal trill (thumb in mouth) was extraordinary but never taught; lost at his death.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-038b-s03",
+   "lineRange": {
+    "startVilnaLine": 14,
+    "endVilnaLine": 29
+   },
+   "lines": [
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.38b.4"
+    },
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.38b.5"
+    },
+    {
+     "vilnaLine": 21,
+     "sefariaRef": "Yoma.38b.6"
+    },
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.38b.7"
+    },
+    {
+     "vilnaLine": 26,
+     "sefariaRef": "Yoma.38b.8"
+    },
+    {
+     "vilnaLine": 29,
+     "sefariaRef": "Yoma.38b.9"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.38b.4",
+    "Yoma.38b.5",
+    "Yoma.38b.6",
+    "Yoma.38b.7",
+    "Yoma.38b.8",
+    "Yoma.38b.9"
+   ],
+   "display": {
+    "whats": "The name of the wicked rots (Prov. 10:7); positive vs negative Temple family legacies.",
+    "hint": "R. Elazar: the name of the wicked is forgotten; R. Yochanan: their deeds live on in infamy.",
+    "title": "'The Name of the Wicked Shall Rot': Forgotten or Shamed?"
+   },
+   "learning": {
+    "ahaMoment": "Memory cuts both ways: the righteous are remembered for blessing; the wicked for shame. Temple legacy is permanent.",
+    "memoryAnchor": "Name rots = either forgotten or remembered in shame - either way, no honor. Temple shame endures.",
+    "learnerQuestion": "Does Proverbs 10:7's 'the name of the wicked shall rot' mean their name disappears, or that it persists as a mark of shame?",
+    "coreTension": "R. Elazar reads 'rot' as forgetting, while R. Yochanan reads it as persisting in infamy, two opposite outcomes from the same verse, both called 'rot.'",
+    "coreMove": "The Gemara resolves the dispute using the Mishna itself as proof: since Beth Garmu and the other families are named explicitly for shame, their names were not forgotten, supporting R. Yochanan's reading.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "The Mishna's explicit naming of shamed families serves as proof for R. Yochanan: 'the name of the wicked shall rot' means the name endures in infamy, not that it is forgotten."
+    },
+    "learningBlocker": "Learners may assume 'rot' straightforwardly means disappearance, missing how the Gemara uses the Mishna's preserved names as textual evidence against that reading."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-038b-l14",
+     "type": "question",
+     "label": "Question: What does 'the name of the wicked",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-038b-l14",
+       "vilnaLine": 14
+      }
+     ],
+     "text": "What does 'the name of the wicked shall rot' mean (Prov. 10:7)?"
+    },
+    {
+     "id": "yoma-038b-l19",
+     "type": "elaboration",
+     "label": "Elaboration: R. Elazar: the name is forgotten (rotted",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-038b-l19",
+       "vilnaLine": 19
+      }
+     ],
+     "text": "R. Elazar: the name is forgotten (rotted away)."
+    },
+    {
+     "id": "yoma-038b-l21",
+     "type": "elaboration",
+     "label": "Elaboration: R. Yochanan: the name is preserved in",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-038b-l21",
+       "vilnaLine": 21
+      }
+     ],
+     "text": "R. Yochanan: the name is preserved in shame (the families are recorded for disgrace)."
+    },
+    {
+     "id": "yoma-038b-l23",
+     "type": "proof",
+     "label": "Proof: The Mishna records the names of the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-038b-l23",
+       "vilnaLine": 23
+      }
+     ],
+     "text": "The Mishna records the names of the families for shame - this shows their name endures in infamy."
+    },
+    {
+     "id": "yoma-038b-l26",
+     "type": "elaboration",
+     "label": "Elaboration: But the memory of the righteous is",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-038b-l26",
+       "vilnaLine": 26
+      }
+     ],
+     "text": "But the memory of the righteous is for blessing - they are blessed even after death."
+    },
+    {
+     "id": "yoma-038b-l29",
+     "type": "ruling",
+     "label": "Ruling: Both interpretations teach: Temple service creates a",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-038b-l29",
+       "vilnaLine": 29
+      }
+     ],
+     "text": "Both interpretations teach: Temple service creates a permanent legacy, for good or shame."
+    }
+   ],
+   "topicTags": [
+    "Aggadah",
+    "legacy",
+    "memory",
+    "Temple families"
+   ],
+   "concepts": {
+    "halachic": [],
+    "theological": [
+     "memory of the righteous and wicked",
+     "legacy of Temple service"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [
+    {
+     "misconception": "'The name of the wicked rots' means these families are simply forgotten.",
+     "correction": "It means their names are actively preserved - in infamy. The Talmud records their names precisely so their shame is eternal, the inverse of the righteous who are remembered for blessing.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-038b-s04"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "description": "Righteous remembered for blessing; wicked remembered for shame - both permanent"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "conceptual",
+     "question": "What does R. Yochanan say about 'the name of the wicked shall rot'?",
+     "answer": "Their name is preserved in infamy - they are remembered in shame, not forgotten."
+    }
+   ],
+   "finalRuling": "The name of the wicked endures in shame; the righteous are blessed even after death - both legacies are permanent.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 4,
+   "id": "yoma-038b-s04",
+   "lineRange": {
+    "startVilnaLine": 32,
+    "endVilnaLine": 49
+   },
+   "lines": [
+    {
+     "vilnaLine": 32,
+     "sefariaRef": "Yoma.38b.10"
+    },
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.38b.11"
+    },
+    {
+     "vilnaLine": 39,
+     "sefariaRef": "Yoma.38b.12"
+    },
+    {
+     "vilnaLine": 41,
+     "sefariaRef": "Yoma.38b.13"
+    },
+    {
+     "vilnaLine": 44,
+     "sefariaRef": "Yoma.38b.14"
+    },
+    {
+     "vilnaLine": 46,
+     "sefariaRef": "Yoma.38b.15"
+    },
+    {
+     "vilnaLine": 49,
+     "sefariaRef": "Yoma.38b.16"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.38b.10",
+    "Yoma.38b.11",
+    "Yoma.38b.12",
+    "Yoma.38b.13",
+    "Yoma.38b.14",
+    "Yoma.38b.15",
+    "Yoma.38b.16"
+   ],
+   "display": {
+    "whats": "From the blessing of the righteous one can learn about the curse of the wicked, and vice versa.",
+    "hint": "The contrasting memories of Temple families teach about divine reward and punishment.",
+    "title": "Blessing of the Righteous, Curse of the Wicked: Mirror Principles"
+   },
+   "learning": {
+    "ahaMoment": "One lesson teaches two: bless the righteous by contrasting with the wicked, curse the wicked by contrasting with the righteous.",
+    "memoryAnchor": "Mirror image: righteous = blessing (learn from it the curse of the wicked); wicked = shame (learn the blessing of the righteous).",
+    "learnerQuestion": "Why does R. Elazar say the blessing of the righteous and the curse of the wicked can each be learned from the other?",
+    "coreTension": "The Mishna records both praised families (Ben Katin, Queen Helene) and shamed families (Beth Garmu) in the same list, raising the question of whether these are two separate lessons or one principle running in both directions.",
+    "coreMove": "R. Elazar derives that the two are mirror images: the qualities that earn blessing, sharing freely, are the inverse of the qualities that earn curse, withholding, so each illuminates the other from a single textual contrast.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "R. Elazar's principle: from the blessing of the righteous you can derive the nature of the wicked's curse, and vice versa, since the Mishna's praised and shamed families are mirror images of the same behavior."
+    },
+    "learningBlocker": "Learners may treat the Mishna's two lists as unrelated examples rather than seeing R. Elazar's point that they function as a single mirrored teaching."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-038b-l32",
+     "type": "ruling",
+     "label": "Ruling: From the blessing of the righteous one",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-038b-l32",
+       "vilnaLine": 32
+      }
+     ],
+     "text": "From the blessing of the righteous one learns the curse of the wicked, and vice versa."
+    },
+    {
+     "id": "yoma-038b-l35",
+     "type": "elaboration",
+     "label": "Elaboration: Ben Katin and Queen Helene are blessed;",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-038b-l35",
+       "vilnaLine": 35
+      }
+     ],
+     "text": "Ben Katin and Queen Helene are blessed; Beth Garmu is shamed - the contrast teaches both."
+    },
+    {
+     "id": "yoma-038b-l39",
+     "type": "elaboration",
+     "label": "Elaboration: The righteous who shared Temple skills: their",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-038b-l39",
+       "vilnaLine": 39
+      }
+     ],
+     "text": "The righteous who shared Temple skills: their memory is for blessing."
+    },
+    {
+     "id": "yoma-038b-l41",
+     "type": "elaboration",
+     "label": "Elaboration: The wicked who withheld: their name is",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-038b-l41",
+       "vilnaLine": 41
+      }
+     ],
+     "text": "The wicked who withheld: their name is for shame."
+    },
+    {
+     "id": "yoma-038b-l44",
+     "type": "elaboration",
+     "label": "Elaboration: This principle applies broadly: any act of",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-038b-l44",
+       "vilnaLine": 44
+      }
+     ],
+     "text": "This principle applies broadly: any act of righteous sharing creates legacy; withholding creates shame."
+    },
+    {
+     "id": "yoma-038b-l46",
+     "type": "elaboration",
+     "label": "Elaboration: Additional aggadic teachings about righteous and wicked",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-038b-l46",
+       "vilnaLine": 46
+      }
+     ],
+     "text": "Additional aggadic teachings about righteous and wicked legacy."
+    },
+    {
+     "id": "yoma-038b-l49",
+     "type": "ruling",
+     "label": "Ruling: The Temple families chapter concludes: Beth Garmu,",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-038b-l49",
+       "vilnaLine": 49
+      }
+     ],
+     "text": "The Temple families chapter concludes: Beth Garmu, Avtinas, Hugras, Ben Kamtsar are for shame; others for praise."
+    }
+   ],
+   "topicTags": [
+    "Aggadah",
+    "legacy",
+    "divine reward",
+    "Temple families"
+   ],
+   "concepts": {
+    "halachic": [],
+    "theological": [
+     "divine reward and punishment",
+     "legacy of good and bad deeds"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [
+    {
+     "misconception": "The contrast between blessing the righteous and cursing the wicked requires two separate scriptural sources.",
+     "correction": "The Gemara teaches that one verse teaches both: from the blessing of the righteous you can derive the curse of the wicked, and vice versa - a single textual principle cuts both ways.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-038b-s03"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "description": "Blessing of righteous = inverse of curse of wicked; both taught from the same Mishna"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "conceptual",
+     "question": "What principle does R. Elazar derive about righteous and wicked legacies?",
+     "answer": "From the blessing of the righteous you can understand the nature of the wicked's curse, and vice versa - they are mirror images."
+    }
+   ],
+   "finalRuling": "From the blessing of the righteous you learn the nature of the wicked's punishment; their legacies are mirror images.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "And from your own they shall give you - meaning, it is not a gift from them, but rather fixed sustenance",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "given to you from Heaven. And one kingdom does not touch its fellow - once the time for a kingdom",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "to fall has arrived and another is to arise, it will not delay even a hairsbreadth; rather, whichever kingdom's time is to fall",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "at night falls at night, as it is said (Daniel 5), 'On that very night Belshazzar was slain';",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "and whichever kingdom's time is to fall by day falls by day, as it is said",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "(Ezekiel 30), 'and at Tehaphnehes the day grew dark.'",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "Between the strands - between the smooth part of the lip's hair",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "opposite the partition of the nose. Would recoil suddenly -",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "they would startle back from the force of the sound.",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "Rot - 'rodolia' in the vernacular: rust, like that of an",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "iron vessel no longer in use. That we do not name after them -",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "a person should not name his son after",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "a wicked person. Would measure him in handbreadths -",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "to know how much he had grown from day to day, and she would give",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "the weight as an estimate of the growth. Priest and prophet -",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l14",
+    "yoma-038b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "Zechariah son of Jehoiada the priest; this shows that we do name children",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "after the righteous, for Doeg the Edomite was wicked",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "yet this one named his infant after him. See what became of him -",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "see what happened to him:",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "that he was slaughtered. A righteous person on his own - through",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l19",
+    "yoma-038b-l21"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "his own deeds he is remembered favorably. But a wicked person, even through",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l21"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "another - he is remembered unfavorably. '[The] name of the wicked' -",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l21",
+    "yoma-038b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "and it is not written '[the] name of a wicked person' in the singular. Shall I hide it from Abraham -",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l26",
+    "yoma-038b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "and since it mentioned his name it then blessed him,",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "juxtaposing it with 'and Abraham shall surely become...,' etc.",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "Ovadia - he lived among Ahab and Jezebel.",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l29"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "'From the blessing of the righteous,' etc. - in the place",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l32"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "where the Holy One, Blessed be He, blesses the righteous, there",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l32"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "He curses the wicked. And He saw the light -",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l32",
+    "yoma-038b-l35"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "He foresaw in His mind that the light of the world would endure",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l35"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "for the sake of the righteous one, who is 'good.' And set",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l35",
+    "yoma-038b-l41"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "the world upon them - He scattered them throughout all the generations,",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l41"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "to be foundations, a support, and a base to sustain",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l41"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "the world. The feet of His pious ones - for the sake of His pious ones",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l41",
+    "yoma-038b-l44"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "like 'and the Lord has blessed you on my account' (Genesis",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l44"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "30). He no longer sins, as it says, 'the feet of His pious ones'",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l44",
+    "yoma-038b-l46"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "'He shall guard' - He shall guard the latter days of His pious ones. 'A first",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l46"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "and second time,' etc. - 'the feet of His pious ones'",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l46"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "once he has conducted himself graciously for two 'feet' - occasions - like this,",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l46"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "for a third 'foot' (Numbers 22), He shall guard him these times",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l46"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "from sin. Once a person comes to become impure -",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l46",
+    "yoma-038b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "[meaning,] to become wicked. They open for him - the opening of",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "impurity, to enter through it, they enable him",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "and Heaven does not hold him back or prevent him.",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "If it is for scoffers, he shall scoff - if it is with scoffers that he",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "comes to associate, he shall scoff; they do not hold him back",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "and do not help him. But for the humble - if he comes",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "to associate, He who has the power to grant favor grants him favor.",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l49"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "Comes - the daf ends mid-comment here; the comment (on the parable of a man selling naphtha and balsam) continues on 39a.",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l49"
+   ]
+  }
+ ]
 }
