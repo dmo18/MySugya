@@ -1,1288 +1,1299 @@
 {
-  "daf": "37a",
-  "canonicalRef": "Yoma 37a",
-  "summary": "37a covers: derivation of 'anna' in the viduy via gezerah shavah; congregation's Baruch Shem response to the Shem HaMeforash; Mishna of the lot ceremony (kalpei box, Deputy right/head of bet av left); R. Yehuda's reversed positions; lot box material (boxwood then gold); Ben Katin's 12-spigot laver improvements.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "37a",
+ "canonicalRef": "Yoma 37a",
+ "summary": "37a covers: derivation of 'anna' in the viduy via gezerah shavah; congregation's Baruch Shem response to the Shem HaMeforash; Mishna of the lot ceremony (kalpei box, Deputy right/head of bet av left); R. Yehuda's reversed positions; lot box material (boxwood then gold); Ben Katin's 12-spigot laver improvements.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-037a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 5
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-037a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 5
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.37a.1"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.37a.2"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.37a.1",
-        "Yoma.37a.2"
-      ],
-      "display": {
-        "whats": "How is 'anna' (please) derived for the Yom Kippur confession?",
-        "hint": "Gezerah shavah: 'kappara' links Yom Kippur confession to Moses's prayer 'anna' in Numbers.",
-        "title": "Deriving 'Anna' from Moses's Prayer"
-      },
-      "learning": {
-        "ahaMoment": "The word 'anna' in the confession is a biblical requirement, not a later addition - derived via gezerah shavah from Moses's prayer.",
-        "memoryAnchor": "Kappara links Yom Kippur to Moses praying 'anna HaShem' - so 'anna' is mandated.",
-        "learnerQuestion": "Where does the requirement to say 'anna' (please) at the start of the Yom Kippur confession come from?",
-        "coreTension": "The confession formula opens with 'anna HaShem,' and the Gemara asks what authorizes this specific opening word as a textual requirement rather than a later addition.",
-        "coreMove": "A gezerah shavah links the word 'kappara' as it appears in the Yom Kippur passage (Lev. 16) to the same word in Moses's prayer after the golden calf (Num. 14), where Moses opens with 'anna HaShem' - transferring that opening word to the Yom Kippur confession.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "A gezerah shavah linking a shared word ('kappara') in two unrelated passages transfers a specific verbal formula (Moses's 'anna HaShem') from one context to the Yom Kippur confession."
-        },
-        "learningBlocker": "Learners assume the confession's wording was composed freely by the Sages; the opening word 'anna' is in fact derived from a formal hermeneutic link to Moses's own prayer."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-037a-l01",
-          "type": "question",
-          "label": "Question: How do we know the confession must",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-037a-l01",
-              "vilnaLine": 1
-            }
-          ],
-          "text": "How do we know the confession must include 'anna' (please)?"
-        },
-        {
-          "id": "yoma-037a-l05",
-          "type": "proof",
-          "label": "Proof: Gezerah shavah: 'kappara' appears in both Lev.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-037a-l05",
-              "vilnaLine": 5
-            }
-          ],
-          "text": "Gezerah shavah: 'kappara' appears in both Lev. 16 (Yom Kippur) and Num. 14 (Moses's prayer which uses 'anna'); thus 'anna' is required in the viduy."
-        }
-      ],
-      "topicTags": [
-        "Yom Kippur",
-        "confession formula",
-        "biblical derivation"
-      ],
-      "concepts": {
-        "halachic": [
-          "viduy formula derivation",
-          "gezerah shavah"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "gezerah shavah",
-        "viduy (confession)"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The word 'anna' in the KG's Yom Kippur confession is a rabbinically invented formula with no biblical grounding.",
-          "correction": "The Gemara derives 'anna' from Moses's prayer via gezerah shavah - it has scriptural basis even if the full confession text was elaborated by the Sages.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-036b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "text",
-          "description": "Gezerah shavah links 'anna' to Yom Kippur via the word kappara"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "factual",
-          "question": "How is 'anna' derived as part of the Yom Kippur confession?",
-          "answer": "Gezerah shavah: 'kappara' in Lev. 16 parallels Num. 14 where Moses says 'anna HaShem' for atonement."
-        }
-      ],
-      "finalRuling": "The word 'anna' in the viduy is derived via gezerah shavah: 'kappara' links Yom Kippur to Moses's prayer.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.37a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-037a-s02",
-      "lineRange": {
-        "startVilnaLine": 9,
-        "endVilnaLine": 9
-      },
-      "lines": [
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.37a.3"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.37a.3"
-      ],
-      "display": {
-        "whats": "The congregation responds 'Baruch Shem' after the KG; R. Yehuda: they respond to the Divine Name.",
-        "hint": "The congregation prostrates and says 'Baruch Shem' when the KG pronounces the explicit Divine Name.",
-        "title": "The Congregation's Response to the Divine Name"
-      },
-      "learning": {
-        "ahaMoment": "When the Divine Name is spoken, the congregation's response (Baruch Shem + prostration) is itself a form of worship - acknowledgment of the Name.",
-        "memoryAnchor": "Explicit Name + congregation's response = Baruch Shem + prostration, three times on Yom Kippur.",
-        "learnerQuestion": "What did the people in the Temple do when the High Priest pronounced God's actual Name during the confession?",
-        "coreTension": "The Yom Kippur confession uses the explicit Divine Name (Shem HaMeforash), an utterance otherwise avoided, raising the question of how the assembled congregation responded to hearing it.",
-        "coreMove": "The baraita teaches that whenever the High Priest spoke the Shem HaMeforash, the congregation fell prostrate and responded aloud with 'Baruch Shem kevod malchuto le'olam va'ed.'",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Hearing the explicit Divine Name on Yom Kippur triggered a specific congregational response - full prostration paired with the Baruch Shem declaration - marking the only occasion this was done aloud."
-        },
-        "learningBlocker": "Learners assume Baruch Shem is always said the same quiet way it is recited daily; on Yom Kippur, in response to the spoken Name, it was said aloud together with prostration."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-037a-l09",
-          "type": "ruling",
-          "label": "Ruling: When the KG speaks the Shem HaMeforash,",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-037a-l09",
-              "vilnaLine": 9
-            }
-          ],
-          "text": "When the KG speaks the Shem HaMeforash, the congregation responds with Baruch Shem and falls prostrate."
-        }
-      ],
-      "topicTags": [
-        "Yom Kippur",
-        "Shem HaMeforash",
-        "prostration"
-      ],
-      "concepts": {
-        "halachic": [
-          "congregation's response to Divine Name",
-          "prostration in Temple"
-        ],
-        "theological": [
-          "Shem HaMeforash",
-          "acknowledgment of God's sovereignty"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Baruch Shem",
-        "Temple prostration (kidat arkavin)"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Baruch Shem was said quietly during the Yom Kippur service just as it is recited daily.",
-          "correction": "On Yom Kippur, when the High Priest spoke the explicit Divine Name, the congregation responded aloud with Baruch Shem while falling prostrate - a unique, audible response distinct from its ordinary quiet recitation.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-036b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "description": "Congregation falls prostrate when hearing Shem HaMeforash, responding Baruch Shem"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "factual",
-          "question": "What did the congregation do when the KG spoke the Divine Name?",
-          "answer": "They fell prostrate and responded 'Baruch Shem kavod malchuto l'olam va'ed.'"
-        }
-      ],
-      "finalRuling": "When the KG spoke the Shem HaMeforash, the congregation fell prostrate and responded with Baruch Shem.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 3,
-      "id": "yoma-037a-s03",
-      "lineRange": {
-        "startVilnaLine": 16,
-        "endVilnaLine": 30
-      },
-      "lines": [
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.37a.4"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.37a.5"
-        },
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.37a.6"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.37a.7"
-        },
-        {
-          "vilnaLine": 30,
-          "sefariaRef": "Yoma.37a.8"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.37a.4",
-        "Yoma.37a.5",
-        "Yoma.37a.6",
-        "Yoma.37a.7",
-        "Yoma.37a.8"
-      ],
-      "display": {
-        "whats": "Mishna: KG came to east of Azarah, north of altar; lot box with the Deputy and head of bet av.",
-        "hint": "The lot ceremony for the two goats: the box containing the lots, the Deputy on the right.",
-        "title": "The Lot Ceremony for the Two Goats"
-      },
-      "learning": {
-        "ahaMoment": "The lot ceremony is a moment of Divine selection: no human chooses which goat is 'for God' - the lot decides.",
-        "memoryAnchor": "Box shaken, KG draws two lots simultaneously - left hand or right hand determines which goat goes to God.",
-        "learnerQuestion": "How was it decided which of the two identical goats was offered to God and which was sent to Azazel?",
-        "coreTension": "Two goats stand before the High Priest, and a method is needed to assign one to God and the other to Azazel without human preference influencing the choice.",
-        "coreMove": "The Mishna describes a lottery: a box (kalpei) holds two lots, one inscribed 'for God' and one 'for Azazel'; the High Priest draws one lot with each hand simultaneously, and the lot drawn in each hand determines which goat receives which designation.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The designation of the two goats is determined entirely by simultaneous lot-drawing, removing human choice from which goat is 'for God' and which is 'for Azazel.'"
-        },
-        "learningBlocker": "Learners assume the High Priest selected the goats based on some visible quality; the assignment is purely random, decided by which inscribed lot lands in which hand."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-037a-l16",
-          "type": "ruling",
-          "label": "Ruling: Mishna: KG came east of Azarah, north",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-037a-l16",
-              "vilnaLine": 16
-            }
-          ],
-          "text": "Mishna: KG came east of Azarah, north of altar; two goats before him."
-        },
-        {
-          "id": "yoma-037a-l20",
-          "type": "elaboration",
-          "label": "Elaboration: The lot box (kalpei) contained two lots",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-037a-l20",
-              "vilnaLine": 20
-            }
-          ],
-          "text": "The lot box (kalpei) contained two lots - one saying 'for God' and one 'for Azazel.'"
-        },
-        {
-          "id": "yoma-037a-l23",
-          "type": "elaboration",
-          "label": "Elaboration: The KG shook the box and drew",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-037a-l23",
-              "vilnaLine": 23
-            }
-          ],
-          "text": "The KG shook the box and drew one lot with each hand simultaneously."
-        },
-        {
-          "id": "yoma-037a-l28",
-          "type": "elaboration",
-          "label": "Elaboration: The Deputy stood to his right, head",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-037a-l28",
-              "vilnaLine": 28
-            }
-          ],
-          "text": "The Deputy stood to his right, head of bet av to his left."
-        },
-        {
-          "id": "yoma-037a-l30",
-          "type": "ruling",
-          "label": "Ruling: Whatever hand drew the 'for God' lot",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-037a-l30",
-              "vilnaLine": 30
-            }
-          ],
-          "text": "Whatever hand drew the 'for God' lot - that goat was designated for God."
-        }
-      ],
-      "topicTags": [
-        "Yom Kippur",
-        "lot ceremony",
-        "two goats",
-        "Azazel"
-      ],
-      "concepts": {
-        "halachic": [
-          "lot drawing procedure",
-          "designation of two goats",
-          "role of Deputy"
-        ],
-        "theological": [
-          "Divine selection via lot",
-          "Azazel"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Yom Kippur two-goat ritual",
-        "lottery (goral)"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The High Priest selected which goat was 'for God' based on its appearance or some other personal judgment.",
-          "correction": "The assignment was determined entirely by lottery - the High Priest drew one lot with each hand from the kalpei, and whichever lot a hand drew determined that goat's designation.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-039b-s03"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "description": "KG comes to north of altar, shakes box, draws two lots simultaneously"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "factual",
-          "question": "What was in the kalpei (lot box) on Yom Kippur?",
-          "answer": "Two lots - one inscribed 'for God' and one 'for Azazel.'"
-        }
-      ],
-      "finalRuling": "The KG drew two lots simultaneously from the box - the lot in each hand designated which goat was for God and which for Azazel.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 4,
-      "id": "yoma-037a-s04",
-      "lineRange": {
-        "startVilnaLine": 31,
-        "endVilnaLine": 35
-      },
-      "lines": [
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.37a.9"
-        },
-        {
-          "vilnaLine": 33,
-          "sefariaRef": "Yoma.37a.10"
-        },
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.37a.11"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.37a.9",
-        "Yoma.37a.10",
-        "Yoma.37a.11"
-      ],
-      "display": {
-        "whats": "Deputy on his right, head of bet av on his left; R. Yehuda's different configuration.",
-        "hint": "R. Yehuda reverses: head of bet av to the right, Deputy to the left.",
-        "title": "Who Stands Where: A Reversed Dispute"
-      },
-      "learning": {
-        "ahaMoment": "Right = more honorable position; the dispute reflects whether the Deputy or the head of bet av had greater honor.",
-        "memoryAnchor": "Who stands where? Deputy vs head of bet av: right = honor; they dispute priority.",
-        "learnerQuestion": "Does it matter who stands to the High Priest's right during the lot ceremony - the Deputy or the head of that day's priestly division?",
-        "coreTension": "The Mishna places the Deputy High Priest on the right and the head of bet av on the left, but R. Yehuda is recorded as reversing this configuration.",
-        "coreMove": "The Gemara notes that R. Yehuda holds the opposite arrangement - head of bet av on the right, Deputy on the left - reflecting a real dispute over which role carries greater honor in this ceremony.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The positioning of officials during the lot ceremony encodes a dispute about relative honor: the right side is the more honorable position, and the tannaim disagree about who occupies it."
-        },
-        "learningBlocker": "Learners read the Mishna's positional detail as fixed and undisputed; R. Yehuda's reversed arrangement shows it reflects an unresolved honor dispute."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-037a-l31",
-          "type": "ruling",
-          "label": "Ruling: Deputy to his right, head of bet",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-037a-l31",
-              "vilnaLine": 31
-            }
-          ],
-          "text": "Deputy to his right, head of bet av to his left (Mishna's view)."
-        },
-        {
-          "id": "yoma-037a-l33",
-          "type": "question",
-          "label": "Question: R. Yehuda reverses: head of bet av",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-037a-l33",
-              "vilnaLine": 33
-            }
-          ],
-          "text": "R. Yehuda reverses: head of bet av to right, Deputy to left."
-        },
-        {
-          "id": "yoma-037a-l35",
-          "type": "elaboration",
-          "label": "Elaboration: Right side = more honorable; the dispute",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-037a-l35",
-              "vilnaLine": 35
-            }
-          ],
-          "text": "Right side = more honorable; the dispute is about relative precedence."
-        }
-      ],
-      "topicTags": [
-        "Temple hierarchy",
-        "lot ceremony",
-        "Deputy KG"
-      ],
-      "concepts": {
-        "halachic": [
-          "positional honor",
-          "Deputy role",
-          "bet av"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Temple hierarchy",
-        "segan (Deputy KG)"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The positioning of the Deputy on the KG's right is a fixed halacha with no dispute.",
-          "correction": "R. Yehuda disputes the configuration, placing different officials in different positions - reflecting a real disagreement about the honor hierarchy.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-037a-s03"
-      ],
-      "visualizableElements": [
-        {
-          "type": "relationship",
-          "description": "Deputy vs head of bet av: contested right-side precedence"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "factual",
-          "question": "Who stood to the KG's right during the lot ceremony according to the Mishna?",
-          "answer": "The Deputy (segan) KG."
-        }
-      ],
-      "finalRuling": "Mishna: Deputy to the right, head of bet av to the left. R. Yehuda reverses the positions.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 5,
-      "id": "yoma-037a-s05",
-      "lineRange": {
-        "startVilnaLine": 37,
-        "endVilnaLine": 44
-      },
-      "lines": [
-        {
-          "vilnaLine": 37,
-          "sefariaRef": "Yoma.37a.12"
-        },
-        {
-          "vilnaLine": 39,
-          "sefariaRef": "Yoma.37a.13"
-        },
-        {
-          "vilnaLine": 44,
-          "sefariaRef": "Yoma.37a.14"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.37a.12",
-        "Yoma.37a.13",
-        "Yoma.37a.14"
-      ],
-      "display": {
-        "whats": "The lot box (kalpei) and the two golden lots; Ben Katin made improvements to the Temple.",
-        "hint": "The lots were originally made of boxwood; a later KG made them of gold.",
-        "title": "From Boxwood to Gold: The Lots Upgrade"
-      },
-      "learning": {
-        "ahaMoment": "The lot ceremony evolved: boxwood lots were replaced by gold lots as a sign of honor to the Temple service.",
-        "memoryAnchor": "Lots: wood → gold (Temple honor); Ben Katin made 12-spigot laver.",
-        "learnerQuestion": "Were the lots used in the Yom Kippur lottery always made of gold?",
-        "coreTension": "The Yom Kippur lots are a sacred ritual implement, and a learner might assume their material was fixed from the start rather than evolving over time.",
-        "coreMove": "A baraita records that the lots were originally made of boxwood and were later remade in gold by a High Priest seeking to honor the Temple service, alongside other Temple improvements made by various individuals.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Ritual implements like the Yom Kippur lots were not fixed forever at their original material; later generations upgraded them as an expression of honor for the service, without changing the underlying procedure."
-        },
-        "learningBlocker": "Learners assume any detail recorded in the Mishna was original from Sinai; the lots' gold material was a later honorific upgrade over the original boxwood."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-037a-l37",
-          "type": "ruling",
-          "label": "Ruling: The kalpei contained two lots; originally boxwood,",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-037a-l37",
-              "vilnaLine": 37
-            }
-          ],
-          "text": "The kalpei contained two lots; originally boxwood, later replaced with gold."
-        },
-        {
-          "id": "yoma-037a-l39",
-          "type": "elaboration",
-          "label": "Elaboration: A KG had them made of gold",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-037a-l39",
-              "vilnaLine": 39
-            }
-          ],
-          "text": "A KG had them made of gold to honor the Temple service."
-        },
-        {
-          "id": "yoma-037a-l44",
-          "type": "elaboration",
-          "label": "Elaboration: Ben Katin made 12 spigots for the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-037a-l44",
-              "vilnaLine": 44
-            }
-          ],
-          "text": "Ben Katin made 12 spigots for the laver and other Temple improvements."
-        }
-      ],
-      "topicTags": [
-        "Temple improvements",
-        "lot ceremony",
-        "Temple utensils"
-      ],
-      "concepts": {
-        "halachic": [
-          "lot box material",
-          "Temple improvements"
-        ],
-        "theological": [],
-        "narrative": [
-          "Ben Katin's laver improvements"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [
-        {
-          "misconception": "The Yom Kippur lots were always gold - this was the original Mosaic requirement.",
-          "correction": "The original lots were boxwood; gold lots were a Temple improvement introduced later as a mark of honor to the ceremony.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-037b-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "object",
-          "description": "Golden lot box with two golden lots inscribed 'for God' and 'for Azazel'"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "factual",
-          "question": "What were the Yom Kippur lots originally made of?",
-          "answer": "Boxwood; later replaced with gold."
-        }
-      ],
-      "finalRuling": "The lots were originally boxwood, later made gold; Ben Katin made 12 spigots for the laver.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 6,
-      "id": "yoma-037a-s06",
-      "lineRange": {
-        "startVilnaLine": 47,
-        "endVilnaLine": 51
-      },
-      "lines": [
-        {
-          "vilnaLine": 47,
-          "sefariaRef": "Yoma.37a.15"
-        },
-        {
-          "vilnaLine": 50,
-          "sefariaRef": "Yoma.37a.16"
-        },
-        {
-          "vilnaLine": 51,
-          "sefariaRef": "Yoma.37a.17"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.37a.15",
-        "Yoma.37a.16",
-        "Yoma.37a.17"
-      ],
-      "display": {
-        "whats": "Ben Katin's 12 spigots for the laver - other Temple improvements enumerated.",
-        "hint": "Ben Katin, Queen Helene, and others made various gifts and improvements to the Temple.",
-        "title": "Ben Katin's Twelve Spigots"
-      },
-      "learning": {
-        "ahaMoment": "Multiple donors across generations beautified the Temple; each contribution is remembered in the Mishna.",
-        "memoryAnchor": "Temple gifts: 12 spigots (Ben Katin), golden doors (Nicanor), golden menorah (Helene) - community investment in the sacred.",
-        "learnerQuestion": "Why does the Gemara record the names of donors like Ben Katin, Queen Helene, and Nicanor rather than only halachic rulings?",
-        "coreTension": "Improvements like Ben Katin's twelve-spigot laver are practical engineering upgrades, not halachic rulings, raising the question of why the Mishna preserves them at all.",
-        "coreMove": "The Gemara lists multiple individual contributions to the Temple - Ben Katin's twelve spigots and cistern mechanism for the laver, alongside gifts from Monobaz, Queen Helene, and Nicanor - showing that the tradition preserves the memory of those who beautified the Temple's daily operation, not only its law.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "The Mishna and Gemara preserve the names of practical and material benefactors to the Temple alongside legal rulings, treating devotion expressed through improvement and donation as worth recording."
-        },
-        "learningBlocker": "Learners assume Ben Katin's laver upgrade was a unique, isolated improvement; the Gemara situates it within a broader pattern of recorded donor contributions across generations."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-037a-l47",
-          "type": "elaboration",
-          "label": "Elaboration: Ben Katin made 12 spigots for the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-037a-l47",
-              "vilnaLine": 47
-            }
-          ],
-          "text": "Ben Katin made 12 spigots for the laver and a winding mechanism to lower it into a cistern overnight."
-        },
-        {
-          "id": "yoma-037a-l50",
-          "type": "elaboration",
-          "label": "Elaboration: Baraita lists contributors: Monobaz, Helene, Nicanor...",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-037a-l50",
-              "vilnaLine": 50
-            }
-          ],
-          "text": "Baraita lists contributors: Monobaz, Helene, Nicanor with his doors."
-        },
-        {
-          "id": "yoma-037a-l51",
-          "type": "ruling",
-          "label": "Ruling: All their gifts were preserved and honored",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-037a-l51",
-              "vilnaLine": 51
-            }
-          ],
-          "text": "All their gifts were preserved and honored as Temple improvements."
-        }
-      ],
-      "topicTags": [
-        "Temple improvements",
-        "historical narrative",
-        "Temple benefactors"
-      ],
-      "concepts": {
-        "halachic": [],
-        "theological": [],
-        "narrative": [
-          "Ben Katin's laver",
-          "Queen Helene's gifts",
-          "Nicanor's doors"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [
-        {
-          "misconception": "Ben Katin's 12-spigot laver was the only Temple improvement made by donors outside the priestly families.",
-          "correction": "The Mishna records multiple Temple improvements by various donors (Ben Katin, Queen Helene, Nicanor) - individual gifts to the Temple were common and remembered.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-037b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "person",
-          "description": "Ben Katin (KG), Queen Helene, Nicanor - Temple benefactors"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "factual",
-          "question": "What improvement did Ben Katin make to the laver?",
-          "answer": "He added 12 spigots (instead of 2) and a device to lower it into a cistern overnight to prevent the water from becoming invalid."
-        }
-      ],
-      "finalRuling": "Ben Katin made 12 laver spigots and a cistern mechanism; multiple donors beautified the Temple.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.37a.2"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.37a.1",
+    "Yoma.37a.2"
+   ],
+   "display": {
+    "whats": "How is 'anna' (please) derived for the Yom Kippur confession?",
+    "hint": "Gezerah shavah: 'kappara' links Yom Kippur confession to Moses's prayer 'anna' in Numbers.",
+    "title": "Deriving 'Anna' from Moses's Prayer"
+   },
+   "learning": {
+    "ahaMoment": "The word 'anna' in the confession is a biblical requirement, not a later addition - derived via gezerah shavah from Moses's prayer.",
+    "memoryAnchor": "Kappara links Yom Kippur to Moses praying 'anna HaShem' - so 'anna' is mandated.",
+    "learnerQuestion": "Where does the requirement to say 'anna' (please) at the start of the Yom Kippur confession come from?",
+    "coreTension": "The confession formula opens with 'anna HaShem,' and the Gemara asks what authorizes this specific opening word as a textual requirement rather than a later addition.",
+    "coreMove": "A gezerah shavah links the word 'kappara' as it appears in the Yom Kippur passage (Lev. 16) to the same word in Moses's prayer after the golden calf (Num. 14), where Moses opens with 'anna HaShem' - transferring that opening word to the Yom Kippur confession.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "A gezerah shavah linking a shared word ('kappara') in two unrelated passages transfers a specific verbal formula (Moses's 'anna HaShem') from one context to the Yom Kippur confession."
+    },
+    "learningBlocker": "Learners assume the confession's wording was composed freely by the Sages; the opening word 'anna' is in fact derived from a formal hermeneutic link to Moses's own prayer."
+   },
+   "argumentFlow": [
     {
-      "he": "קַלְפִּי",
-      "translit": "kalpei",
-      "en": "The lot box used on Yom Kippur to draw the lots for the two goats."
+     "id": "yoma-037a-l01",
+     "type": "question",
+     "label": "Question: How do we know the confession must",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-037a-l01",
+       "vilnaLine": 1
+      }
+     ],
+     "text": "How do we know the confession must include 'anna' (please)?"
+    },
+    {
+     "id": "yoma-037a-l05",
+     "type": "proof",
+     "label": "Proof: Gezerah shavah: 'kappara' appears in both Lev.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-037a-l05",
+       "vilnaLine": 5
+      }
+     ],
+     "text": "Gezerah shavah: 'kappara' appears in both Lev. 16 (Yom Kippur) and Num. 14 (Moses's prayer which uses 'anna'); thus 'anna' is required in the viduy."
     }
-  ],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "en": "Opens 'and from where do we derive that with anna': that this shall be the confession.' Then opens 'atonement is stated at Horeb': in the incident of the calf",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "continuing: (Exodus 32): perhaps I shall atone for your sin.' Then opens 'just as there, with anna': anna, this people has sinned",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "closing: etc.' Then opens 'and from where that with the divine name': anna, O Lord.' Then opens 'regarding the axed heifer': atone for Your people",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l01"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "closing: Israel whom You redeemed, O Lord' (Deuteronomy 21).' Then opens 'granted that Horeb does not derive from the axed heifer': to say",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "continuing: that there should be a mention of the divine name there.' Then opens 'what was, was'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "closing: it has already passed and cannot be undone.'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "Opens 'but let the axed heifer derive from Horeb'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "closing: and it should require anna.' Then opens 'and we learned': explicitly, the same",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "continuing: axed-heifer procedure, in tractate Sotah (46a)",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "closing: the priests say,' etc.' Then opens the reading: this is how we read it",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "continuing: at the moment I mention the Name of the Holy One, Blessed be He",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l09"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "closing: etc.' Then opens 'the mishna: he comes to the east': he turns",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "continuing: his back toward the east, close to the entrance, so that they would not",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "continuing: bring the two goats in for the lottery",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: unless they were within the open space of the courtyard, as it is written",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: (Leviticus 16): and he shall stand them before the Lord",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: but not brought so close toward the Sanctuary",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: until he comes to slaughter it, when they would bring it forward",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: as we learned further on (53b): they brought to him",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "closing: the goat, he slaughtered it, etc.' Then opens 'to the north of the altar'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: meaning drawn away from opposite the altar toward the north",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: so that it should be opposite the open space between the altar and the north",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: for even though he does not slaughter it here, nonetheless all",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: its rites require the north, and this teaches us that",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "closing: opposite the east side of the altar is not considered north.' Then opens 'the urn'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "closing: esqueron in the vernacular.' Then opens 'made of box-wood': a cypress-like wood.",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Opens 'Yehoshua ben Gamla': when he was appointed to the high",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l16"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "closing: priesthood.' Then opens 'ben Katin': he was a high priest.' Then opens 'made'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "closing: twelve spouts': for pouring the water.' Then opens 'a wheel'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "continuing: explained in the Gemara: a wheel to lower it into",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: a pit, so that its waters would remain connected to the waters",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: of the basin, since otherwise they would become disqualified by remaining overnight",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: because they had already been sanctified in a vessel, and it is not befitting the sanctity",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "closing: for sanctified water to become disqualified.' Then opens 'chandelier'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: a lamp stand, and similar to it in the book (Daniel 5)",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "continuing: to receive the golden chandelier, in the episode",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "closing: of Belshazzar.' Then opens 'that the passage of the sotah was written'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: on it: so that he would not need to bring a Torah scroll to copy",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "closing: from it the sotah scroll in the Temple.' Then opens 'Nicanor'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: miracles were done for its doors': that was the man's name",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "closing: Nicanor, and his miracle is explained in the Gemara.'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l23"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Opens 'Gemara: from the fact that it states \"to the north of the altar\"'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "closing: that he needed to draw it away from opposite the altar and to the north.'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Opens 'it follows that the altar itself does not stand in the north'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "continuing: none of the altar is within the north of the courtyard",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "continuing: and if they stood opposite the eastern side of the altar",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "closing: even slightly, they would not be standing in the north.' Then opens 'northward, at the side'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "continuing: of the altar': northward implies a term of open space",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "continuing: this extra letter heh means toward the north, which is the open",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l28"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "closing: unoccupied space.' Then opens 'but the first clause is Rabbi Elazar b'Rabbi Shimon's': who says",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "continuing: part of the altar is in the north, since he validated the slaughtering",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "closing: of the bull between the vestibule and the altar.' Then opens 'the whole mishna is Rabbi Eliezer ben Yaakov's'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "continuing: and teach in the first clause: the bull stood between",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "continuing: the vestibule and the altar, close to the area between the vestibule",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "continuing: and the altar, next to the northern corner of the altar",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "continuing: for he would bring it as close to the entrance as he possibly could",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "continuing: because of the weakness of the priest, and beyond that he could not",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "continuing: bring it closer, for if he brought it in opposite",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "closing: the east side of the altar, it would not be in the north.' Then opens 'this one is'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l30"
-      ]
-    },
-    {
-      "vilnaLine": 60,
-      "en": "closing: an ignoramus': he is not even versed in proper conduct.'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l31"
-      ]
-    },
-    {
-      "vilnaLine": 61,
-      "en": "Opens 'three walking together on the road': they should not walk one",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l33"
-      ]
-    },
-    {
-      "vilnaLine": 62,
-      "en": "continuing: after another, but in a single row, and so we find",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l33"
-      ]
-    },
-    {
-      "vilnaLine": 63,
-      "en": "continuing: regarding the ministering angels, since it is written (Genesis 18)",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l33"
-      ]
-    },
-    {
-      "vilnaLine": 64,
-      "en": "continuing: three men were standing over him, implying that in a single row",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l33"
-      ]
-    },
-    {
-      "vilnaLine": 65,
-      "en": "closing: they were standing beside one another, for if they stood one after another, it would only be the first one standing over him.' Then opens 'so that he would be covered by his teacher': this teaches that when it says 'to his right,' he would not walk right beside him, but",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l33"
-      ]
-    },
-    {
-      "vilnaLine": 66,
-      "en": "continuing: behind him; however, the elder walks to the right and the younger to the left of the elder, and both are truly behind the teacher.' Then this is the correct reading: and it was taught: one who walks alongside his teacher is an ignoramus; behind his teacher, he",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l35"
-      ]
-    },
-    {
-      "vilnaLine": 67,
-      "en": "closing: is among the arrogant.' Then opens 'he walks at a slant': not truly beside him and not truly behind him, but so that he partly covers his teacher's side.' Then opens 'one might think he should place two lots on this one and two on that one'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l35"
-      ]
-    },
-    {
-      "vilnaLine": 68,
-      "en": "closing: and this is what the verse means: and he shall place lots on each of the two, implying two on each.' Then opens 'the verse teaches: \"one lot for the Lord\"': the divine name is written only regarding one of them, and Azazel is not written",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l39"
-      ]
-    },
-    {
-      "vilnaLine": 69,
-      "en": "closing: except regarding one of them.' Then opens 'one might think he should place both the one for the divine name and the one for Azazel on the same goat': to fulfill 'and he shall place lots, two, on each of the two,' and whichever he wishes he could designate for the divine name.' Then opens 'the verse teaches: \"one\"'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l39"
-      ]
-    },
-    {
-      "vilnaLine": 70,
-      "en": "closing: from the very fact that it says 'a lot for the Lord,' I already know it is one; but since 'one' is written anyway, it is written for a further teaching.' Then opens 'one might think this one too': the lot on which the divine name is written.' Then opens 'to them': to the vessels themselves.'",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l39"
-      ]
-    },
-    {
-      "vilnaLine": 71,
-      "en": "Opens 'regarding the handles' -",
-      "linkedGemaraLineIds": [
-        "yoma-037a-l51"
-      ]
+   ],
+   "topicTags": [
+    "Yom Kippur",
+    "confession formula",
+    "biblical derivation"
+   ],
+   "concepts": {
+    "halachic": [
+     "viduy formula derivation",
+     "gezerah shavah"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "gezerah shavah",
+    "viduy (confession)"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The word 'anna' in the KG's Yom Kippur confession is a rabbinically invented formula with no biblical grounding.",
+     "correction": "The Gemara derives 'anna' from Moses's prayer via gezerah shavah - it has scriptural basis even if the full confession text was elaborated by the Sages.",
+     "correctedByStepId": null
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-036b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "text",
+     "description": "Gezerah shavah links 'anna' to Yom Kippur via the word kappara"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "factual",
+     "question": "How is 'anna' derived as part of the Yom Kippur confession?",
+     "answer": "Gezerah shavah: 'kappara' in Lev. 16 parallels Num. 14 where Moses says 'anna HaShem' for atonement."
+    }
+   ],
+   "finalRuling": "The word 'anna' in the viduy is derived via gezerah shavah: 'kappara' links Yom Kippur to Moses's prayer.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-037a-s02",
+   "lineRange": {
+    "startVilnaLine": 9,
+    "endVilnaLine": 9
+   },
+   "lines": [
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.37a.3"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.37a.3"
+   ],
+   "display": {
+    "whats": "The congregation responds 'Baruch Shem' after the KG; R. Yehuda: they respond to the Divine Name.",
+    "hint": "The congregation prostrates and says 'Baruch Shem' when the KG pronounces the explicit Divine Name.",
+    "title": "The Congregation's Response to the Divine Name"
+   },
+   "learning": {
+    "ahaMoment": "When the Divine Name is spoken, the congregation's response (Baruch Shem + prostration) is itself a form of worship - acknowledgment of the Name.",
+    "memoryAnchor": "Explicit Name + congregation's response = Baruch Shem + prostration, three times on Yom Kippur.",
+    "learnerQuestion": "What did the people in the Temple do when the High Priest pronounced God's actual Name during the confession?",
+    "coreTension": "The Yom Kippur confession uses the explicit Divine Name (Shem HaMeforash), an utterance otherwise avoided, raising the question of how the assembled congregation responded to hearing it.",
+    "coreMove": "The baraita teaches that whenever the High Priest spoke the Shem HaMeforash, the congregation fell prostrate and responded aloud with 'Baruch Shem kevod malchuto le'olam va'ed.'",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Hearing the explicit Divine Name on Yom Kippur triggered a specific congregational response - full prostration paired with the Baruch Shem declaration - marking the only occasion this was done aloud."
+    },
+    "learningBlocker": "Learners assume Baruch Shem is always said the same quiet way it is recited daily; on Yom Kippur, in response to the spoken Name, it was said aloud together with prostration."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-037a-l09",
+     "type": "ruling",
+     "label": "Ruling: When the KG speaks the Shem HaMeforash,",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-037a-l09",
+       "vilnaLine": 9
+      }
+     ],
+     "text": "When the KG speaks the Shem HaMeforash, the congregation responds with Baruch Shem and falls prostrate."
+    }
+   ],
+   "topicTags": [
+    "Yom Kippur",
+    "Shem HaMeforash",
+    "prostration"
+   ],
+   "concepts": {
+    "halachic": [
+     "congregation's response to Divine Name",
+     "prostration in Temple"
+    ],
+    "theological": [
+     "Shem HaMeforash",
+     "acknowledgment of God's sovereignty"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Baruch Shem",
+    "Temple prostration (kidat arkavin)"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Baruch Shem was said quietly during the Yom Kippur service just as it is recited daily.",
+     "correction": "On Yom Kippur, when the High Priest spoke the explicit Divine Name, the congregation responded aloud with Baruch Shem while falling prostrate - a unique, audible response distinct from its ordinary quiet recitation.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-036b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "description": "Congregation falls prostrate when hearing Shem HaMeforash, responding Baruch Shem"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "factual",
+     "question": "What did the congregation do when the KG spoke the Divine Name?",
+     "answer": "They fell prostrate and responded 'Baruch Shem kavod malchuto l'olam va'ed.'"
+    }
+   ],
+   "finalRuling": "When the KG spoke the Shem HaMeforash, the congregation fell prostrate and responded with Baruch Shem.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-037a-s03",
+   "lineRange": {
+    "startVilnaLine": 16,
+    "endVilnaLine": 30
+   },
+   "lines": [
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.37a.4"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.37a.5"
+    },
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.37a.6"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.37a.7"
+    },
+    {
+     "vilnaLine": 30,
+     "sefariaRef": "Yoma.37a.8"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.37a.4",
+    "Yoma.37a.5",
+    "Yoma.37a.6",
+    "Yoma.37a.7",
+    "Yoma.37a.8"
+   ],
+   "display": {
+    "whats": "Mishna: KG came to east of Azarah, north of altar; lot box with the Deputy and head of bet av.",
+    "hint": "The lot ceremony for the two goats: the box containing the lots, the Deputy on the right.",
+    "title": "The Lot Ceremony for the Two Goats"
+   },
+   "learning": {
+    "ahaMoment": "The lot ceremony is a moment of Divine selection: no human chooses which goat is 'for God' - the lot decides.",
+    "memoryAnchor": "Box shaken, KG draws two lots simultaneously - left hand or right hand determines which goat goes to God.",
+    "learnerQuestion": "How was it decided which of the two identical goats was offered to God and which was sent to Azazel?",
+    "coreTension": "Two goats stand before the High Priest, and a method is needed to assign one to God and the other to Azazel without human preference influencing the choice.",
+    "coreMove": "The Mishna describes a lottery: a box (kalpei) holds two lots, one inscribed 'for God' and one 'for Azazel'; the High Priest draws one lot with each hand simultaneously, and the lot drawn in each hand determines which goat receives which designation.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The designation of the two goats is determined entirely by simultaneous lot-drawing, removing human choice from which goat is 'for God' and which is 'for Azazel.'"
+    },
+    "learningBlocker": "Learners assume the High Priest selected the goats based on some visible quality; the assignment is purely random, decided by which inscribed lot lands in which hand."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-037a-l16",
+     "type": "ruling",
+     "label": "Ruling: Mishna: KG came east of Azarah, north",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-037a-l16",
+       "vilnaLine": 16
+      }
+     ],
+     "text": "Mishna: KG came east of Azarah, north of altar; two goats before him."
+    },
+    {
+     "id": "yoma-037a-l20",
+     "type": "elaboration",
+     "label": "Elaboration: The lot box (kalpei) contained two lots",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-037a-l20",
+       "vilnaLine": 20
+      }
+     ],
+     "text": "The lot box (kalpei) contained two lots - one saying 'for God' and one 'for Azazel.'"
+    },
+    {
+     "id": "yoma-037a-l23",
+     "type": "elaboration",
+     "label": "Elaboration: The KG shook the box and drew",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-037a-l23",
+       "vilnaLine": 23
+      }
+     ],
+     "text": "The KG shook the box and drew one lot with each hand simultaneously."
+    },
+    {
+     "id": "yoma-037a-l28",
+     "type": "elaboration",
+     "label": "Elaboration: The Deputy stood to his right, head",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-037a-l28",
+       "vilnaLine": 28
+      }
+     ],
+     "text": "The Deputy stood to his right, head of bet av to his left."
+    },
+    {
+     "id": "yoma-037a-l30",
+     "type": "ruling",
+     "label": "Ruling: Whatever hand drew the 'for God' lot",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-037a-l30",
+       "vilnaLine": 30
+      }
+     ],
+     "text": "Whatever hand drew the 'for God' lot - that goat was designated for God."
+    }
+   ],
+   "topicTags": [
+    "Yom Kippur",
+    "lot ceremony",
+    "two goats",
+    "Azazel"
+   ],
+   "concepts": {
+    "halachic": [
+     "lot drawing procedure",
+     "designation of two goats",
+     "role of Deputy"
+    ],
+    "theological": [
+     "Divine selection via lot",
+     "Azazel"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Yom Kippur two-goat ritual",
+    "lottery (goral)"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The High Priest selected which goat was 'for God' based on its appearance or some other personal judgment.",
+     "correction": "The assignment was determined entirely by lottery - the High Priest drew one lot with each hand from the kalpei, and whichever lot a hand drew determined that goat's designation.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-039b-s03"
+   ],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "description": "KG comes to north of altar, shakes box, draws two lots simultaneously"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "factual",
+     "question": "What was in the kalpei (lot box) on Yom Kippur?",
+     "answer": "Two lots - one inscribed 'for God' and one 'for Azazel.'"
+    }
+   ],
+   "finalRuling": "The KG drew two lots simultaneously from the box - the lot in each hand designated which goat was for God and which for Azazel.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 4,
+   "id": "yoma-037a-s04",
+   "lineRange": {
+    "startVilnaLine": 31,
+    "endVilnaLine": 35
+   },
+   "lines": [
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.37a.9"
+    },
+    {
+     "vilnaLine": 33,
+     "sefariaRef": "Yoma.37a.10"
+    },
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.37a.11"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.37a.9",
+    "Yoma.37a.10",
+    "Yoma.37a.11"
+   ],
+   "display": {
+    "whats": "Deputy on his right, head of bet av on his left; R. Yehuda's different configuration.",
+    "hint": "R. Yehuda reverses: head of bet av to the right, Deputy to the left.",
+    "title": "Who Stands Where: A Reversed Dispute"
+   },
+   "learning": {
+    "ahaMoment": "Right = more honorable position; the dispute reflects whether the Deputy or the head of bet av had greater honor.",
+    "memoryAnchor": "Who stands where? Deputy vs head of bet av: right = honor; they dispute priority.",
+    "learnerQuestion": "Does it matter who stands to the High Priest's right during the lot ceremony - the Deputy or the head of that day's priestly division?",
+    "coreTension": "The Mishna places the Deputy High Priest on the right and the head of bet av on the left, but R. Yehuda is recorded as reversing this configuration.",
+    "coreMove": "The Gemara notes that R. Yehuda holds the opposite arrangement - head of bet av on the right, Deputy on the left - reflecting a real dispute over which role carries greater honor in this ceremony.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The positioning of officials during the lot ceremony encodes a dispute about relative honor: the right side is the more honorable position, and the tannaim disagree about who occupies it."
+    },
+    "learningBlocker": "Learners read the Mishna's positional detail as fixed and undisputed; R. Yehuda's reversed arrangement shows it reflects an unresolved honor dispute."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-037a-l31",
+     "type": "ruling",
+     "label": "Ruling: Deputy to his right, head of bet",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-037a-l31",
+       "vilnaLine": 31
+      }
+     ],
+     "text": "Deputy to his right, head of bet av to his left (Mishna's view)."
+    },
+    {
+     "id": "yoma-037a-l33",
+     "type": "question",
+     "label": "Question: R. Yehuda reverses: head of bet av",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-037a-l33",
+       "vilnaLine": 33
+      }
+     ],
+     "text": "R. Yehuda reverses: head of bet av to right, Deputy to left."
+    },
+    {
+     "id": "yoma-037a-l35",
+     "type": "elaboration",
+     "label": "Elaboration: Right side = more honorable; the dispute",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-037a-l35",
+       "vilnaLine": 35
+      }
+     ],
+     "text": "Right side = more honorable; the dispute is about relative precedence."
+    }
+   ],
+   "topicTags": [
+    "Temple hierarchy",
+    "lot ceremony",
+    "Deputy KG"
+   ],
+   "concepts": {
+    "halachic": [
+     "positional honor",
+     "Deputy role",
+     "bet av"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Temple hierarchy",
+    "segan (Deputy KG)"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The positioning of the Deputy on the KG's right is a fixed halacha with no dispute.",
+     "correction": "R. Yehuda disputes the configuration, placing different officials in different positions - reflecting a real disagreement about the honor hierarchy.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-037a-s03"
+   ],
+   "visualizableElements": [
+    {
+     "type": "relationship",
+     "description": "Deputy vs head of bet av: contested right-side precedence"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "factual",
+     "question": "Who stood to the KG's right during the lot ceremony according to the Mishna?",
+     "answer": "The Deputy (segan) KG."
+    }
+   ],
+   "finalRuling": "Mishna: Deputy to the right, head of bet av to the left. R. Yehuda reverses the positions.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 5,
+   "id": "yoma-037a-s05",
+   "lineRange": {
+    "startVilnaLine": 37,
+    "endVilnaLine": 44
+   },
+   "lines": [
+    {
+     "vilnaLine": 37,
+     "sefariaRef": "Yoma.37a.12"
+    },
+    {
+     "vilnaLine": 39,
+     "sefariaRef": "Yoma.37a.13"
+    },
+    {
+     "vilnaLine": 44,
+     "sefariaRef": "Yoma.37a.14"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.37a.12",
+    "Yoma.37a.13",
+    "Yoma.37a.14"
+   ],
+   "display": {
+    "whats": "The lot box (kalpei) and the two golden lots; Ben Katin made improvements to the Temple.",
+    "hint": "The lots were originally made of boxwood; a later KG made them of gold.",
+    "title": "From Boxwood to Gold: The Lots Upgrade"
+   },
+   "learning": {
+    "ahaMoment": "The lot ceremony evolved: boxwood lots were replaced by gold lots as a sign of honor to the Temple service.",
+    "memoryAnchor": "Lots: wood → gold (Temple honor); Ben Katin made 12-spigot laver.",
+    "learnerQuestion": "Were the lots used in the Yom Kippur lottery always made of gold?",
+    "coreTension": "The Yom Kippur lots are a sacred ritual implement, and a learner might assume their material was fixed from the start rather than evolving over time.",
+    "coreMove": "A baraita records that the lots were originally made of boxwood and were later remade in gold by a High Priest seeking to honor the Temple service, alongside other Temple improvements made by various individuals.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Ritual implements like the Yom Kippur lots were not fixed forever at their original material; later generations upgraded them as an expression of honor for the service, without changing the underlying procedure."
+    },
+    "learningBlocker": "Learners assume any detail recorded in the Mishna was original from Sinai; the lots' gold material was a later honorific upgrade over the original boxwood."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-037a-l37",
+     "type": "ruling",
+     "label": "Ruling: The kalpei contained two lots; originally boxwood,",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-037a-l37",
+       "vilnaLine": 37
+      }
+     ],
+     "text": "The kalpei contained two lots; originally boxwood, later replaced with gold."
+    },
+    {
+     "id": "yoma-037a-l39",
+     "type": "elaboration",
+     "label": "Elaboration: A KG had them made of gold",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-037a-l39",
+       "vilnaLine": 39
+      }
+     ],
+     "text": "A KG had them made of gold to honor the Temple service."
+    },
+    {
+     "id": "yoma-037a-l44",
+     "type": "elaboration",
+     "label": "Elaboration: Ben Katin made 12 spigots for the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-037a-l44",
+       "vilnaLine": 44
+      }
+     ],
+     "text": "Ben Katin made 12 spigots for the laver and other Temple improvements."
+    }
+   ],
+   "topicTags": [
+    "Temple improvements",
+    "lot ceremony",
+    "Temple utensils"
+   ],
+   "concepts": {
+    "halachic": [
+     "lot box material",
+     "Temple improvements"
+    ],
+    "theological": [],
+    "narrative": [
+     "Ben Katin's laver improvements"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [
+    {
+     "misconception": "The Yom Kippur lots were always gold - this was the original Mosaic requirement.",
+     "correction": "The original lots were boxwood; gold lots were a Temple improvement introduced later as a mark of honor to the ceremony.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-037b-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "object",
+     "description": "Golden lot box with two golden lots inscribed 'for God' and 'for Azazel'"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "factual",
+     "question": "What were the Yom Kippur lots originally made of?",
+     "answer": "Boxwood; later replaced with gold."
+    }
+   ],
+   "finalRuling": "The lots were originally boxwood, later made gold; Ben Katin made 12 spigots for the laver.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 6,
+   "id": "yoma-037a-s06",
+   "lineRange": {
+    "startVilnaLine": 47,
+    "endVilnaLine": 51
+   },
+   "lines": [
+    {
+     "vilnaLine": 47,
+     "sefariaRef": "Yoma.37a.15"
+    },
+    {
+     "vilnaLine": 50,
+     "sefariaRef": "Yoma.37a.16"
+    },
+    {
+     "vilnaLine": 51,
+     "sefariaRef": "Yoma.37a.17"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.37a.15",
+    "Yoma.37a.16",
+    "Yoma.37a.17"
+   ],
+   "display": {
+    "whats": "Ben Katin's 12 spigots for the laver - other Temple improvements enumerated.",
+    "hint": "Ben Katin, Queen Helene, and others made various gifts and improvements to the Temple.",
+    "title": "Ben Katin's Twelve Spigots"
+   },
+   "learning": {
+    "ahaMoment": "Multiple donors across generations beautified the Temple; each contribution is remembered in the Mishna.",
+    "memoryAnchor": "Temple gifts: 12 spigots (Ben Katin), golden doors (Nicanor), golden menorah (Helene) - community investment in the sacred.",
+    "learnerQuestion": "Why does the Gemara record the names of donors like Ben Katin, Queen Helene, and Nicanor rather than only halachic rulings?",
+    "coreTension": "Improvements like Ben Katin's twelve-spigot laver are practical engineering upgrades, not halachic rulings, raising the question of why the Mishna preserves them at all.",
+    "coreMove": "The Gemara lists multiple individual contributions to the Temple - Ben Katin's twelve spigots and cistern mechanism for the laver, alongside gifts from Monobaz, Queen Helene, and Nicanor - showing that the tradition preserves the memory of those who beautified the Temple's daily operation, not only its law.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "The Mishna and Gemara preserve the names of practical and material benefactors to the Temple alongside legal rulings, treating devotion expressed through improvement and donation as worth recording."
+    },
+    "learningBlocker": "Learners assume Ben Katin's laver upgrade was a unique, isolated improvement; the Gemara situates it within a broader pattern of recorded donor contributions across generations."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-037a-l47",
+     "type": "elaboration",
+     "label": "Elaboration: Ben Katin made 12 spigots for the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-037a-l47",
+       "vilnaLine": 47
+      }
+     ],
+     "text": "Ben Katin made 12 spigots for the laver and a winding mechanism to lower it into a cistern overnight."
+    },
+    {
+     "id": "yoma-037a-l50",
+     "type": "elaboration",
+     "label": "Elaboration: Baraita lists contributors: Monobaz, Helene, Nicanor...",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-037a-l50",
+       "vilnaLine": 50
+      }
+     ],
+     "text": "Baraita lists contributors: Monobaz, Helene, Nicanor with his doors."
+    },
+    {
+     "id": "yoma-037a-l51",
+     "type": "ruling",
+     "label": "Ruling: All their gifts were preserved and honored",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-037a-l51",
+       "vilnaLine": 51
+      }
+     ],
+     "text": "All their gifts were preserved and honored as Temple improvements."
+    }
+   ],
+   "topicTags": [
+    "Temple improvements",
+    "historical narrative",
+    "Temple benefactors"
+   ],
+   "concepts": {
+    "halachic": [],
+    "theological": [],
+    "narrative": [
+     "Ben Katin's laver",
+     "Queen Helene's gifts",
+     "Nicanor's doors"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [
+    {
+     "misconception": "Ben Katin's 12-spigot laver was the only Temple improvement made by donors outside the priestly families.",
+     "correction": "The Mishna records multiple Temple improvements by various donors (Ben Katin, Queen Helene, Nicanor) - individual gifts to the Temple were common and remembered.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-037b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "person",
+     "description": "Ben Katin (KG), Queen Helene, Nicanor - Temple benefactors"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "factual",
+     "question": "What improvement did Ben Katin make to the laver?",
+     "answer": "He added 12 spigots (instead of 2) and a device to lower it into a cistern overnight to prevent the water from becoming invalid."
+    }
+   ],
+   "finalRuling": "Ben Katin made 12 laver spigots and a cistern mechanism; multiple donors beautified the Temple.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [
+  {
+   "he": "קַלְפִּי",
+   "translit": "kalpei",
+   "en": "The lot box used on Yom Kippur to draw the lots for the two goats."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "And from where do we derive that it includes 'please' - that this is the confession. Atonement is stated at Horeb - in the incident of the calf",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "(Exodus 32), 'perhaps I shall atone for your sin.' Just as there, with 'please' - 'please, this people has sinned",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "a great sin,' etc. And from where do we derive that it includes the divine name - 'please, O Lord.' Regarding the axed heifer - 'atone for Your people",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "Israel, whom You redeemed, O Lord' (Deuteronomy 21). Granted that Horeb does not derive from the axed heifer - to say",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l01",
+    "yoma-037a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "that there should be a mention of the divine name there. What was,",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "was - it has already passed and cannot be undone.",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "But let the axed heifer derive from Horeb -",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "and it should require 'please.' But we learned - explicitly, regarding the very",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "procedure of the axed heifer, in tractate Sotah (46a),",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "'the priests say,' etc. This is how we read it -",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l05",
+    "yoma-037a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "'at the moment I mention the Name of the Holy One, Blessed be He,",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "etc.' Mishnah: 'he comes to the east' - he turns",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l09",
+    "yoma-037a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "his back toward the east, close to the entrance, since they would not",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "bring the two goats in for the lottery",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "unless they were within the open space of the courtyard, as it is written",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "(Leviticus 16), 'and he shall stand them before the Lord,'",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "but not brought so close toward the Sanctuary",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "until he comes to slaughter it, when they would bring it forward,",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "as we learned further on (53b): 'they brought to him",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "the goat, he slaughtered it,' etc. To the north of the altar -",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "meaning drawn away from opposite the altar toward the north,",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "so that it should be opposite the open space between the altar and the north,",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "for even though he does not slaughter it here, nonetheless all",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "its rites require the north, and this teaches us that",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "opposite the east side of the altar is not considered north. The urn -",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "esqueron in the vernacular. Made of eshkaroa wood - a cypress.",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "Yehoshua ben Gamla - when he was appointed to the high",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "priesthood. Ben Katin - he was a High Priest. Made",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l16",
+    "yoma-037a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "twelve spouts - for pouring the water. A wheel -",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "explained in the Gemara: a wheel to lower it into",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "a pit, so that its waters would remain connected to the waters",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "of the basin, since otherwise they would become disqualified by remaining overnight,",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "because they had already been sanctified in a vessel, and it is not befitting the sanctity",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "of sanctified water for it to become disqualified. Chandelier -",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l20",
+    "yoma-037a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "a lamp stand, and similar to it in the book (Daniel 5),",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "'to receive the golden chandelier,' in the episode",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "of Belshazzar. That the passage of the sotah was written",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "on it - so that he would not need to bring a Torah scroll to copy",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "from it the sotah scroll in the Temple. Nicanor -",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "'miracles were done for its doors' - that was the man's name,",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "Nicanor, and his own miracle is explained in the Gemara.",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "Gemara: from the fact that it states 'to the north of the altar' -",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "he needed to draw it away from opposite the altar and toward the north.",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "It follows that the altar itself does not stand in the north -",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "none of the altar is within the north of the courtyard,",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "and if they stood opposite the eastern side of the altar,",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "even slightly, they would not be standing in the north. 'Northward, at the side'",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "of the altar - 'northward' implies a term of open space;",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "this extra letter heh means toward the north, which is the open",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "unoccupied space. But the first clause is Rabbi Elazar b'Rabbi Shimon's - who says",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l28",
+    "yoma-037a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "part of the altar is in the north, since he validated the slaughtering",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "of the bull between the vestibule and the altar. The whole mishnah is Rabbi Eliezer ben Yaakov's,",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "and teach in the opening clause: the bull stood between",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "the vestibule and the altar, close to the space between the vestibule",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "and the altar, next to the northern corner of the altar,",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "since he would bring it as close to the entrance as he possibly could",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "because of the priest's own weakness, and beyond that he could not",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "bring it closer, for if he brought it in opposite",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "the east side of the altar, it would not be in the north. This one",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l30",
+    "yoma-037a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "is an ignoramus - he is not even versed in proper conduct.",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "Three walking together on the road - they should not walk one",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "after another, but in a single row, and so we find",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 63,
+   "en": "regarding the ministering angels, since it is written (Genesis 18),",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 64,
+   "en": "'three men were standing over him,' implying that in a single row",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 65,
+   "en": "they were standing beside one another, for if they had stood one after another, only the first would be standing over him. So that his teacher would be covered by him - this teaches that although it says 'to his right,' he would not walk right beside him, but rather",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l33",
+    "yoma-037a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 66,
+   "en": "behind him; the elder walks to the right and the younger to the left of the elder, and both are truly behind the teacher. This is the correct reading: 'and it was taught, one who walks alongside his teacher is an ignoramus; behind his teacher, he",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 67,
+   "en": "is among the arrogant.' He walks at a slant - not truly beside him and not truly behind him, but so that he partly covers his teacher's own side. One might think he should place two lots on this one and two on that one -",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l35",
+    "yoma-037a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 68,
+   "en": "and this is what the verse would mean: 'and he shall place lots on each of the two,' implying two on each. The verse teaches: 'one lot for the Lord' - the divine name is written only regarding one of them, and Azazel is not written",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 69,
+   "en": "except regarding one of them. One might think he should place both the one for the divine name and the one for Azazel on the same goat - to fulfill 'and he shall place lots, two, on each of the two,' and whichever he wishes he could designate for the divine name. The verse teaches: 'one' -",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l39"
+   ]
+  },
+  {
+   "vilnaLine": 70,
+   "en": "from the very fact that it says 'a lot for the Lord,' I already know it is one; but since 'one' is written anyway, it is written for a further teaching. One might think this one too - the lot on which the divine name is written. To them - meaning the vessels themselves.",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l39",
+    "yoma-037a-l44",
+    "yoma-037a-l51"
+   ]
+  },
+  {
+   "vilnaLine": 71,
+   "en": "Regarding the handles - the daf ends mid-comment here; the comment (explaining why the knife handles, unlike the vessel handles, could not be made entirely of gold) continues on 37b.",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l51"
+   ]
+  }
+ ]
 }
