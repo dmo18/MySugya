@@ -1,1143 +1,1149 @@
 {
-  "daf": "39b",
-  "canonicalRef": "Yoma 39b",
-  "summary": "39b covers: the 'chamtzan' era after Shimon HaTzaddik's death; the year he died and its signs (thin Azazel goat, red thread stayed red); placement of the lots on the goats' heads with the designation formula 'chattat l'HaShem'; baraita about the God-lot historically coming up right; R. Yannai's dispute about whether the right-hand position is halachically required.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "39b",
+ "canonicalRef": "Yoma 39b",
+ "summary": "39b covers: the 'chamtzan' era after Shimon HaTzaddik's death; the year he died and its signs (thin Azazel goat, red thread stayed red); placement of the lots on the goats' heads with the designation formula 'chattat l'HaShem'; baraita about the God-lot historically coming up right; R. Yannai's dispute about whether the right-hand position is halachically required.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-039b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 1
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-039b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 1
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.39b.1"
-        },
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.39b.2"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.39b.1",
-        "Yoma.39b.2"
-      ],
-      "display": {
-        "whats": "Continuation: 'chamtzan' (sour/bitter) describes the era after Shimon HaTzaddik.",
-        "hint": "The era following Shimon HaTzaddik became 'sour' - divine favor withdrew.",
-        "title": "Chamtzan: The Sour Era After Shimon HaTzaddik"
-      },
-      "learning": {
-        "ahaMoment": "Chamtzan = the bitterness of decline; the sweetness of Shimon HaTzaddik's era contrasted with what came after.",
-        "memoryAnchor": "Sweet era (Shimon) vs sour era (aftermath) - one word captures the contrast.",
-        "learnerQuestion": "What does the term 'chamtzan' (sour/bitter) capture about the period immediately following Shimon HaTzaddik's death?",
-        "coreTension": "The four-miracle era was sweet (good); chamtzan names what came after as its opposite, but the single word leaves open how sharply or how soon the change occurred.",
-        "coreMove": "The Gemara's placement of 'chamtzan' directly after the account of the signs ceasing ties the word to that same abrupt transition, not a gradual fading.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "'Chamtzan' (sour, bitter) names the era after Shimon HaTzaddik's death, when the four miraculous signs of his service ceased, the word captures a sudden reversal, not a slow decline."
-        },
-        "learningBlocker": "Learners may assume 'chamtzan' implies a gradual souring over generations, missing that the Gemara places it immediately after the account of the signs reversing at his death."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-039b-l01a",
-          "type": "elaboration",
-          "label": "Elaboration: 'Chamtzan' (sour/bitter) describes the post-Shimon H...",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039b-l01a",
-              "vilnaLine": 1
-            }
-          ],
-          "text": "'Chamtzan' (sour/bitter) describes the post-Shimon HaTzaddik era."
-        },
-        {
-          "id": "yoma-039b-l01b",
-          "type": "ruling",
-          "label": "Ruling: The era became sour: the miraculous signs",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039b-l01b",
-              "vilnaLine": 1
-            }
-          ],
-          "text": "The era became sour: the miraculous signs ceased, the service lost its divine quality."
-        }
-      ],
-      "topicTags": [
-        "Shimon HaTzaddik",
-        "Temple history",
-        "aggadah"
-      ],
-      "concepts": {
-        "halachic": [],
-        "theological": [
-          "divine withdrawal",
-          "era of decline"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [],
-      "misconceptions": [
-        {
-          "misconception": "The era after Shimon HaTzaddik began a gradual decline that slowly worsened over generations.",
-          "correction": "The decline was immediate - the very next year after his death the pattern changed. 'Chamtzan' describes a sudden souring, not a slow drift.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-039a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "description": "Sweet era of Shimon HaTzaddik vs sour era after his death"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "conceptual",
-          "question": "What does 'chamtzan' describe?",
-          "answer": "The sour/bitter quality of the Temple service era after Shimon HaTzaddik's death, when the miraculous signs ceased."
-        }
-      ],
-      "finalRuling": "After Shimon HaTzaddik died the era became 'chamtzan' - sour, as the miraculous signs ceased.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.39b.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-039b-s02",
-      "lineRange": {
-        "startVilnaLine": 5,
-        "endVilnaLine": 30
-      },
-      "lines": [
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.39b.3"
-        },
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.39b.4"
-        },
-        {
-          "vilnaLine": 13,
-          "sefariaRef": "Yoma.39b.5"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.39b.6"
-        },
-        {
-          "vilnaLine": 21,
-          "sefariaRef": "Yoma.39b.7"
-        },
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.39b.8"
-        },
-        {
-          "vilnaLine": 30,
-          "sefariaRef": "Yoma.39b.9"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.39b.3",
-        "Yoma.39b.4",
-        "Yoma.39b.5",
-        "Yoma.39b.6",
-        "Yoma.39b.7",
-        "Yoma.39b.8",
-        "Yoma.39b.9"
-      ],
-      "display": {
-        "whats": "The year Shimon HaTzaddik told his disciples he would die; the goat to Azazel grew thin.",
-        "hint": "Shimon HaTzaddik predicted his death; that year the Azazel goat grew lean and the crimson thread did not turn white.",
-        "title": "The Year Shimon HaTzaddik Foretold His Death"
-      },
-      "learning": {
-        "ahaMoment": "Shimon HaTzaddik foresaw his own death; the ominous signs on the Azazel goat confirmed that Yom Kippur's spiritual power was fading.",
-        "memoryAnchor": "Thin Azazel goat + thread stays red = Yom Kippur atonement weakening; Shimon HaTzaddik knew his time was up.",
-        "learnerQuestion": "What signs accompanied the specific year Shimon HaTzaddik told his disciples he would die?",
-        "coreTension": "Shimon HaTzaddik predicted his own death in advance, and that same year the Azazel goat grew thin and the crimson thread did not turn white, raising the question of whether these were independent omens or directly connected to his prophecy.",
-        "coreMove": "The Gemara places the prediction and the physical signs (thin goat, thread staying red) in the same account, treating the goat's and thread's behavior as confirming evidence alongside his own foreknowledge.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "The year Shimon HaTzaddik foretold his death, the Azazel goat grew thin on its way to the cliff and the crimson thread did not turn white, signs the Gemara reads as confirming that his era of divine favor was ending."
-        },
-        "learningBlocker": "Learners may treat the crimson thread's behavior as a fixed ritual outcome rather than a variable sign whose failure to turn white was itself meaningful."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-039b-l05",
-          "type": "elaboration",
-          "label": "Elaboration: The year Shimon HaTzaddik died, he told",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039b-l05",
-              "vilnaLine": 5
-            }
-          ],
-          "text": "The year Shimon HaTzaddik died, he told his disciples in advance."
-        },
-        {
-          "id": "yoma-039b-l12",
-          "type": "elaboration",
-          "label": "Elaboration: That year the goat sent to Azazel",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039b-l12",
-              "vilnaLine": 12
-            }
-          ],
-          "text": "That year the goat sent to Azazel grew thin on its way to the cliff."
-        },
-        {
-          "id": "yoma-039b-l13",
-          "type": "elaboration",
-          "label": "Elaboration: The crimson thread did not turn white",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039b-l13",
-              "vilnaLine": 13
-            }
-          ],
-          "text": "The crimson thread did not turn white that year."
-        },
-        {
-          "id": "yoma-039b-l16",
-          "type": "elaboration",
-          "label": "Elaboration: The showbread was found stale; further signs",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039b-l16",
-              "vilnaLine": 16
-            }
-          ],
-          "text": "The showbread was found stale; further signs of decline."
-        },
-        {
-          "id": "yoma-039b-l21",
-          "type": "elaboration",
-          "label": "Elaboration: Discussion of when exactly the crimson thread",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039b-l21",
-              "vilnaLine": 21
-            }
-          ],
-          "text": "Discussion of when exactly the crimson thread turns white."
-        },
-        {
-          "id": "yoma-039b-l23",
-          "type": "elaboration",
-          "label": "Elaboration: Some say it turned white when the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039b-l23",
-              "vilnaLine": 23
-            }
-          ],
-          "text": "Some say it turned white when the goat reached the desert; some say on the cliff."
-        },
-        {
-          "id": "yoma-039b-l30",
-          "type": "ruling",
-          "label": "Ruling: The crimson thread's turning white was the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039b-l30",
-              "vilnaLine": 30
-            }
-          ],
-          "text": "The crimson thread's turning white was the sign of atonement being accepted."
-        }
-      ],
-      "topicTags": [
-        "Shimon HaTzaddik",
-        "Azazel goat",
-        "crimson thread",
-        "Yom Kippur"
-      ],
-      "concepts": {
-        "halachic": [
-          "crimson thread timing",
-          "Azazel goat signs"
-        ],
-        "theological": [
-          "signs of atonement",
-          "divine acceptance"
-        ],
-        "narrative": [
-          "Shimon HaTzaddik's death foretold"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "lashon shel zehorit (crimson thread)",
-        "Azazel goat"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The crimson thread always turned white automatically whenever the Yom Kippur ritual was correctly performed.",
-          "correction": "The Gemara presents the thread's turning white as a variable sign of divine acceptance, not a guaranteed mechanical outcome of correct ritual performance. Its failure to turn white in Shimon HaTzaddik's final year, despite the ritual being performed, is precisely what made it significant as an omen.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-039b-s03"
-      ],
-      "visualizableElements": [
-        {
-          "type": "timeline",
-          "description": "Signs of decline: thin Azazel goat, red thread stays red, stale showbread"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "factual",
-          "question": "What happened to the Azazel goat in the year Shimon HaTzaddik died?",
-          "answer": "It grew thin on its way to the cliff, and the crimson thread tied to it did not turn white - signs of declining atonement."
-        }
-      ],
-      "finalRuling": "In Shimon HaTzaddik's final year the Azazel goat grew thin and the crimson thread did not turn white.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 3,
-      "id": "yoma-039b-s03",
-      "lineRange": {
-        "startVilnaLine": 32,
-        "endVilnaLine": 39
-      },
-      "lines": [
-        {
-          "vilnaLine": 32,
-          "sefariaRef": "Yoma.39b.10"
-        },
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.39b.11"
-        },
-        {
-          "vilnaLine": 36,
-          "sefariaRef": "Yoma.39b.12"
-        },
-        {
-          "vilnaLine": 39,
-          "sefariaRef": "Yoma.39b.13"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.39b.10",
-        "Yoma.39b.11",
-        "Yoma.39b.12",
-        "Yoma.39b.13"
-      ],
-      "display": {
-        "whats": "The lots are placed on the two goats; baraita: ten times the God-lot came up right.",
-        "hint": "The KG places the lots on the goats' heads; in Second Temple times the right-hand lot was usually for God.",
-        "title": "Placing the Lots: A Public Oracle"
-      },
-      "learning": {
-        "ahaMoment": "The lot's hand position was a public divine oracle: right = accepted, left = rejected. Everyone watching knew the verdict.",
-        "memoryAnchor": "Right hand = God accepts; left hand = God rejects. The lot was a live barometer of national standing.",
-        "learnerQuestion": "How did the Kohen Gadol designate the two goats after drawing the lots, and what did onlookers learn from it?",
-        "coreTension": "The lot drawing itself happened in the KG's hands, but its result needed to become public and binding, the question is how the private draw became a visible, formal designation.",
-        "coreMove": "The Gemara describes the KG placing each lot on the corresponding goat's head and declaring 'chattat l'HaShem,' converting the private draw into a public, verbally confirmed designation that everyone present could witness.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The KG placed the 'for God' lot on the right goat's head and the 'for Azazel' lot on the left, announcing 'chattat l'HaShem', the lot's outcome was a public, verbally confirmed oracle, not a private determination."
-        },
-        "learningBlocker": "Learners may assume the lot ceremony was a quiet procedural step, missing that the Gemara frames it as a publicly witnessed declaration with real evidentiary weight for the nation."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-039b-l32",
-          "type": "ruling",
-          "label": "Ruling: The KG placed the lots on the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039b-l32",
-              "vilnaLine": 32
-            }
-          ],
-          "text": "The KG placed the lots on the goats: 'for God' lot on the right goat's head, 'for Azazel' on the left."
-        },
-        {
-          "id": "yoma-039b-l35",
-          "type": "elaboration",
-          "label": "Elaboration: Baraita: in Second Temple times the God-lot",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039b-l35",
-              "vilnaLine": 35
-            }
-          ],
-          "text": "Baraita: in Second Temple times the God-lot often came up in the right hand."
-        },
-        {
-          "id": "yoma-039b-l36",
-          "type": "elaboration",
-          "label": "Elaboration: In the 40 years before destruction it",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039b-l36",
-              "vilnaLine": 36
-            }
-          ],
-          "text": "In the 40 years before destruction it came up consistently in the left hand."
-        },
-        {
-          "id": "yoma-039b-l39",
-          "type": "ruling",
-          "label": "Ruling: The lot placement on the goat's head",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039b-l39",
-              "vilnaLine": 39
-            }
-          ],
-          "text": "The lot placement on the goat's head designated it; the KG said 'a sin-offering for God' over it."
-        }
-      ],
-      "topicTags": [
-        "Yom Kippur",
-        "lot ceremony",
-        "two goats",
-        "omens"
-      ],
-      "concepts": {
-        "halachic": [
-          "lot placement on goat's head",
-          "verbal designation"
-        ],
-        "theological": [
-          "right vs left lot as divine oracle"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "kappara (atonement)",
-        "goral (lot)"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The lot outcome on Yom Kippur was private - only the KG knew which hand held the God-lot.",
-          "correction": "The lot ceremony was public. When the God-lot came up in the right hand, everyone present could see it. The outcome was a public divine oracle, visible to all.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-037a-s03"
-      ],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "description": "KG places 'for God' lot on right goat's head, says 'chattat l'HaShem'"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "factual",
-          "question": "What did the KG say when placing the 'for God' lot on the goat?",
-          "answer": "'Chattat l'HaShem' - a sin-offering for God."
-        }
-      ],
-      "finalRuling": "The KG placed the lots on the goats' heads; the God-lot going right was a good omen, left a bad one.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 4,
-      "id": "yoma-039b-s04",
-      "lineRange": {
-        "startVilnaLine": 42,
-        "endVilnaLine": 50
-      },
-      "lines": [
-        {
-          "vilnaLine": 42,
-          "sefariaRef": "Yoma.39b.14"
-        },
-        {
-          "vilnaLine": 43,
-          "sefariaRef": "Yoma.39b.15"
-        },
-        {
-          "vilnaLine": 47,
-          "sefariaRef": "Yoma.39b.16"
-        },
-        {
-          "vilnaLine": 47,
-          "sefariaRef": "Yoma.39b.17"
-        },
-        {
-          "vilnaLine": 47,
-          "sefariaRef": "Yoma.39b.18"
-        },
-        {
-          "vilnaLine": 50,
-          "sefariaRef": "Yoma.39b.19"
-        },
-        {
-          "vilnaLine": 50,
-          "sefariaRef": "Yoma.39b.20"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.39b.14",
-        "Yoma.39b.15",
-        "Yoma.39b.16",
-        "Yoma.39b.17",
-        "Yoma.39b.18",
-        "Yoma.39b.19",
-        "Yoma.39b.20"
-      ],
-      "display": {
-        "whats": "R. Yannai: drawing the lot from the box; dispute whether right or left hand matters.",
-        "hint": "The manner of drawing the lots and whether the hand matters is debated.",
-        "title": "Must the God-Lot Land in the Right Hand?"
-      },
-      "learning": {
-        "ahaMoment": "The miracle of the right-hand lot was a sign, not a requirement - the lot itself designates the goat regardless of hand.",
-        "memoryAnchor": "Right-hand lot = good omen (sign); but any hand is valid for designation - the miracle was the omen, not the rule.",
-        "learnerQuestion": "Is it halachically required that the 'for God' lot come up in the Kohen Gadol's right hand, or is this only a good omen?",
-        "coreTension": "The right-hand lot was celebrated throughout Shimon HaTzaddik's era as a sign of favor, which could suggest it is required for validity, yet the Gemara also describes practical handling for when it lands left, suggesting it remains valid either way.",
-        "coreMove": "R. Yannai's account of the simultaneous two-handed draw, combined with the description of the Deputy assisting when the lot lands left, leads the Gemara to treat the right hand as the preferred and auspicious outcome, but not the sole valid one.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Whichever hand draws the 'for God' lot from the box validly designates that goat; the right hand is the favorable omen, but the left hand does not invalidate the ceremony."
-        },
-        "learningBlocker": "Learners may conflate 'good omen' with 'halachic requirement,' missing the Gemara's distinction between what is auspicious and what is strictly necessary for validity."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-039b-l42",
-          "type": "question",
-          "label": "Question: R. Yannai: how exactly are the lots",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039b-l42",
-              "vilnaLine": 42
-            }
-          ],
-          "text": "R. Yannai: how exactly are the lots drawn from the kalpei box?"
-        },
-        {
-          "id": "yoma-039b-l43",
-          "type": "elaboration",
-          "label": "Elaboration: The KG draws simultaneously with both hands;",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039b-l43",
-              "vilnaLine": 43
-            }
-          ],
-          "text": "The KG draws simultaneously with both hands; whichever hand draws 'for God' - that goat is designated."
-        },
-        {
-          "id": "yoma-039b-l47a",
-          "type": "question",
-          "label": "Question: Must the 'for God' lot always end",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039b-l47a",
-              "vilnaLine": 47
-            }
-          ],
-          "text": "Must the 'for God' lot always end up in the right hand?"
-        },
-        {
-          "id": "yoma-039b-l47b",
-          "type": "elaboration",
-          "label": "Elaboration: Dispute: some say the right hand is",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039b-l47b",
-              "vilnaLine": 47
-            }
-          ],
-          "text": "Dispute: some say the right hand is required; others say it is only an omen, not a requirement."
-        },
-        {
-          "id": "yoma-039b-l47c",
-          "type": "elaboration",
-          "label": "Elaboration: If it came up in the left,",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039b-l47c",
-              "vilnaLine": 47
-            }
-          ],
-          "text": "If it came up in the left, the Deputy would help transfer it to the right."
-        },
-        {
-          "id": "yoma-039b-l50a",
-          "type": "ruling",
-          "label": "Ruling: The lot in either hand validly designates",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039b-l50a",
-              "vilnaLine": 50
-            }
-          ],
-          "text": "The lot in either hand validly designates the goat; right is preferred but not indispensable."
-        },
-        {
-          "id": "yoma-039b-l50b",
-          "type": "elaboration",
-          "label": "Elaboration: The thread turning white was the public",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039b-l50b",
-              "vilnaLine": 50
-            }
-          ],
-          "text": "The thread turning white was the public confirmation of atonement's acceptance."
-        }
-      ],
-      "topicTags": [
-        "Yom Kippur",
-        "lot ceremony",
-        "lot validity"
-      ],
-      "concepts": {
-        "halachic": [
-          "lot drawing procedure",
-          "right vs left validity",
-          "lot transfer"
-        ],
-        "theological": [
-          "right-hand lot as omen"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Yom Kippur lot (goral)",
-        "Deputy KG (segan)"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The 'for God' lot must come up in the Kohen Gadol's right hand, or the entire designation is invalid.",
-          "correction": "The Gemara treats the right hand as a favorable omen (siman tov), not a strict requirement for validity. If the lot lands in the left hand, the Deputy helps transfer it and the designation still stands, the right hand's significance is auspicious, not determinative.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-040a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "description": "KG draws simultaneously; right hand preferred but left is technically valid"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "factual",
-          "question": "Is it halachically required that the 'for God' lot come up in the KG's right hand?",
-          "answer": "No - right hand is a good omen but both hands are technically valid for designation."
-        }
-      ],
-      "finalRuling": "The right-hand 'for God' lot is a good omen but not technically required; both hands validly designate the goat.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.39b.2"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "en": "Opens 'chometzan': a robber.' Then opens 'give strength to the wronged one': strengthen the one who was robbed.' Then opens 'and not the wronger': this is not relevant here, but",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l01b"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "closing: rather in [Sanhedrin] (35a), from which we learn that the claimant is addressed first.'",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l01b"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "Opens 'from blessing with the Name': from blessing the people with the priestly blessing using the explicit Name, since they were",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l12"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "closing: not worthy of it.' Then opens 'they would open on their own': a sign that enemies would come and enter.' Then opens 'and already had'",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "continuing: prophesied against you': that this very opening was itself a sign",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l16"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "closing: of the destruction.' Then opens 'three in the first confession': that of the bull -",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l32"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "continuing: 'anna Hashem, I have sinned; anna Hashem, atone'",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l32"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "closing: 'before the Lord shall you be purified.' Then opens 'and one in the lots': 'to the'",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l32"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "closing: Lord, a sin-offering.' Then opens 'and he had already said': meaning, and there",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l35"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "closing: was once an incident where his voice reached as far as Jericho.'",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l35"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "Opens 'a bride': her practice is to adorn herself with perfumes.'",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l36"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "Opens 'in the hills of Michmar': the name of the district.' Then opens 'and I smelled'",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "continuing: the fragrance of incense': from the incense that was made there",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "closing: while the Tabernacle still stood at Shiloh.' Then opens 'the rising of the lot'",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l39"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: from within the urn is indispensable': for the service, since the goats",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: are not designated as 'to the Lord' or 'to Azazel' except",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: by the lot, therefore one must see",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: which one came up in the right hand, so that the right-hand goat",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: is designated by it, and which came up in the left, so that the",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "continuing: left-hand goat is designated by it.' Then opens 'but'",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: the placing': of the lot upon the goat is not",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: indispensable, even if he did not place it on the goat, since",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: the right-hand goat is already established by the lot that came up in the right hand",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "closing: and likewise the left-hand goat by the left-hand lot.' Then opens 'even'",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: the rising of the lot is not indispensable': and if the priest calls out",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: 'sin-offering' over one and",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: 'Azazel' over the other, they become established without a lottery,",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: for the lottery is not indispensable, only that he has omitted",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l42"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "closing: a commandment.' Then opens 'in accordance with Rabbi Yehuda,' etc.:",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "continuing: in the chapter 'they brought out for him' (60a, below), disagree",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: Rabbi Yehuda and Rabbi Nechemia, as to whether one who changed the order of",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: the services, advancing the later one, is valid; and",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: Rabbi Nechemia says: the entire order of services performed",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "continuing: in the white garments, whether inside, such as in the innermost sanctum,",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: or outside, such as in the Sanctuary or the courtyard, is",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "continuing: indispensable, since the statute written in the passage",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "continuing: of 'after the death' of Aharon's sons was written concerning them; and Rabbi Yehuda",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: says the statute is written only regarding matters",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "continuing: performed in the white garments while inside; therefore",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: the lottery, which is not performed inside",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "continuing: but rather outside - according to Rabbi Yehuda, who says that regarding matters",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "closing: performed outside, the statute is not written.'",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Opens 'all agree it is not indispensable': for even Rabbi",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "continuing: Yannai concedes that according to Rabbi Yehuda it is not indispensable,",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "closing: since indispensability is not written regarding them.' Then opens 'when'",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "continuing: they disagree, it is in accordance with Rabbi Nechemia': who says",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "continuing: the statute applies to all matters performed in the white",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "continuing: garments, and this is performed in white garments, as is written",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "closing: in the passage.' Then opens 'this applies': that where 'chukah' is written",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "continuing: for indispensability regarding a service, it comes for indispensability",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "continuing: - up to here Rabbi Nechemia has not said that it is written",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "continuing: 'chukah' regarding a service for indispensability, such as scooping",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "continuing: coals from the altar, or slaughtering the bull,",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "continuing: since these are genuine services and are disqualified if performed by another priest;",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "continuing: but the lottery, since it is not a service, is valid",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "continuing: when performed by the deputy - according to the one who said above that the deputy and the High Priest",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "continuing: insert their right hands into the urn - one might say",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "closing: here, even Rabbi Nechemia concedes it is not indispensable.'",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "Opens 'all agree it is indispensable':",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l47b"
-      ]
-    },
-    {
-      "vilnaLine": 60,
-      "en": "closing: since 'chukah' is written regarding them.'",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l47b"
-      ]
-    },
-    {
-      "vilnaLine": 61,
-      "en": "Opens 'this case is different, since the verse states it explicitly': even",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l50b"
-      ]
-    },
-    {
-      "vilnaLine": 62,
-      "en": "continuing: though the mere word 'statute' does not by itself render something",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l50b"
-      ]
-    },
-    {
-      "vilnaLine": 63,
-      "en": "continuing: indispensable, here it is indispensable, since the verse repeated the requirement",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l50b"
-      ]
-    },
-    {
-      "vilnaLine": 64,
-      "en": "closing: to render it indispensable, and the indispensability is derived from the extra verse.'",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l50b"
-      ]
-    },
-    {
-      "vilnaLine": 65,
-      "en": "Opens 'rather' -",
-      "linkedGemaraLineIds": [
-        "yoma-039b-l50b"
-      ]
+   ],
+   "sefariaRefs": [
+    "Yoma.39b.1",
+    "Yoma.39b.2"
+   ],
+   "display": {
+    "whats": "Continuation: 'chamtzan' (sour/bitter) describes the era after Shimon HaTzaddik.",
+    "hint": "The era following Shimon HaTzaddik became 'sour' - divine favor withdrew.",
+    "title": "Chamtzan: The Sour Era After Shimon HaTzaddik"
+   },
+   "learning": {
+    "ahaMoment": "Chamtzan = the bitterness of decline; the sweetness of Shimon HaTzaddik's era contrasted with what came after.",
+    "memoryAnchor": "Sweet era (Shimon) vs sour era (aftermath) - one word captures the contrast.",
+    "learnerQuestion": "What does the term 'chamtzan' (sour/bitter) capture about the period immediately following Shimon HaTzaddik's death?",
+    "coreTension": "The four-miracle era was sweet (good); chamtzan names what came after as its opposite, but the single word leaves open how sharply or how soon the change occurred.",
+    "coreMove": "The Gemara's placement of 'chamtzan' directly after the account of the signs ceasing ties the word to that same abrupt transition, not a gradual fading.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "'Chamtzan' (sour, bitter) names the era after Shimon HaTzaddik's death, when the four miraculous signs of his service ceased, the word captures a sudden reversal, not a slow decline."
+    },
+    "learningBlocker": "Learners may assume 'chamtzan' implies a gradual souring over generations, missing that the Gemara places it immediately after the account of the signs reversing at his death."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-039b-l01a",
+     "type": "elaboration",
+     "label": "Elaboration: 'Chamtzan' (sour/bitter) describes the post-Shimon H...",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039b-l01a",
+       "vilnaLine": 1
+      }
+     ],
+     "text": "'Chamtzan' (sour/bitter) describes the post-Shimon HaTzaddik era."
+    },
+    {
+     "id": "yoma-039b-l01b",
+     "type": "ruling",
+     "label": "Ruling: The era became sour: the miraculous signs",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039b-l01b",
+       "vilnaLine": 1
+      }
+     ],
+     "text": "The era became sour: the miraculous signs ceased, the service lost its divine quality."
     }
-  ]
+   ],
+   "topicTags": [
+    "Shimon HaTzaddik",
+    "Temple history",
+    "aggadah"
+   ],
+   "concepts": {
+    "halachic": [],
+    "theological": [
+     "divine withdrawal",
+     "era of decline"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [],
+   "misconceptions": [
+    {
+     "misconception": "The era after Shimon HaTzaddik began a gradual decline that slowly worsened over generations.",
+     "correction": "The decline was immediate - the very next year after his death the pattern changed. 'Chamtzan' describes a sudden souring, not a slow drift.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-039a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "description": "Sweet era of Shimon HaTzaddik vs sour era after his death"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "conceptual",
+     "question": "What does 'chamtzan' describe?",
+     "answer": "The sour/bitter quality of the Temple service era after Shimon HaTzaddik's death, when the miraculous signs ceased."
+    }
+   ],
+   "finalRuling": "After Shimon HaTzaddik died the era became 'chamtzan' - sour, as the miraculous signs ceased.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-039b-s02",
+   "lineRange": {
+    "startVilnaLine": 5,
+    "endVilnaLine": 30
+   },
+   "lines": [
+    {
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.39b.3"
+    },
+    {
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.39b.4"
+    },
+    {
+     "vilnaLine": 13,
+     "sefariaRef": "Yoma.39b.5"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.39b.6"
+    },
+    {
+     "vilnaLine": 21,
+     "sefariaRef": "Yoma.39b.7"
+    },
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.39b.8"
+    },
+    {
+     "vilnaLine": 30,
+     "sefariaRef": "Yoma.39b.9"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.39b.3",
+    "Yoma.39b.4",
+    "Yoma.39b.5",
+    "Yoma.39b.6",
+    "Yoma.39b.7",
+    "Yoma.39b.8",
+    "Yoma.39b.9"
+   ],
+   "display": {
+    "whats": "The year Shimon HaTzaddik told his disciples he would die; the goat to Azazel grew thin.",
+    "hint": "Shimon HaTzaddik predicted his death; that year the Azazel goat grew lean and the crimson thread did not turn white.",
+    "title": "The Year Shimon HaTzaddik Foretold His Death"
+   },
+   "learning": {
+    "ahaMoment": "Shimon HaTzaddik foresaw his own death; the ominous signs on the Azazel goat confirmed that Yom Kippur's spiritual power was fading.",
+    "memoryAnchor": "Thin Azazel goat + thread stays red = Yom Kippur atonement weakening; Shimon HaTzaddik knew his time was up.",
+    "learnerQuestion": "What signs accompanied the specific year Shimon HaTzaddik told his disciples he would die?",
+    "coreTension": "Shimon HaTzaddik predicted his own death in advance, and that same year the Azazel goat grew thin and the crimson thread did not turn white, raising the question of whether these were independent omens or directly connected to his prophecy.",
+    "coreMove": "The Gemara places the prediction and the physical signs (thin goat, thread staying red) in the same account, treating the goat's and thread's behavior as confirming evidence alongside his own foreknowledge.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "The year Shimon HaTzaddik foretold his death, the Azazel goat grew thin on its way to the cliff and the crimson thread did not turn white, signs the Gemara reads as confirming that his era of divine favor was ending."
+    },
+    "learningBlocker": "Learners may treat the crimson thread's behavior as a fixed ritual outcome rather than a variable sign whose failure to turn white was itself meaningful."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-039b-l05",
+     "type": "elaboration",
+     "label": "Elaboration: The year Shimon HaTzaddik died, he told",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039b-l05",
+       "vilnaLine": 5
+      }
+     ],
+     "text": "The year Shimon HaTzaddik died, he told his disciples in advance."
+    },
+    {
+     "id": "yoma-039b-l12",
+     "type": "elaboration",
+     "label": "Elaboration: That year the goat sent to Azazel",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039b-l12",
+       "vilnaLine": 12
+      }
+     ],
+     "text": "That year the goat sent to Azazel grew thin on its way to the cliff."
+    },
+    {
+     "id": "yoma-039b-l13",
+     "type": "elaboration",
+     "label": "Elaboration: The crimson thread did not turn white",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039b-l13",
+       "vilnaLine": 13
+      }
+     ],
+     "text": "The crimson thread did not turn white that year."
+    },
+    {
+     "id": "yoma-039b-l16",
+     "type": "elaboration",
+     "label": "Elaboration: The showbread was found stale; further signs",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039b-l16",
+       "vilnaLine": 16
+      }
+     ],
+     "text": "The showbread was found stale; further signs of decline."
+    },
+    {
+     "id": "yoma-039b-l21",
+     "type": "elaboration",
+     "label": "Elaboration: Discussion of when exactly the crimson thread",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039b-l21",
+       "vilnaLine": 21
+      }
+     ],
+     "text": "Discussion of when exactly the crimson thread turns white."
+    },
+    {
+     "id": "yoma-039b-l23",
+     "type": "elaboration",
+     "label": "Elaboration: Some say it turned white when the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039b-l23",
+       "vilnaLine": 23
+      }
+     ],
+     "text": "Some say it turned white when the goat reached the desert; some say on the cliff."
+    },
+    {
+     "id": "yoma-039b-l30",
+     "type": "ruling",
+     "label": "Ruling: The crimson thread's turning white was the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039b-l30",
+       "vilnaLine": 30
+      }
+     ],
+     "text": "The crimson thread's turning white was the sign of atonement being accepted."
+    }
+   ],
+   "topicTags": [
+    "Shimon HaTzaddik",
+    "Azazel goat",
+    "crimson thread",
+    "Yom Kippur"
+   ],
+   "concepts": {
+    "halachic": [
+     "crimson thread timing",
+     "Azazel goat signs"
+    ],
+    "theological": [
+     "signs of atonement",
+     "divine acceptance"
+    ],
+    "narrative": [
+     "Shimon HaTzaddik's death foretold"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "lashon shel zehorit (crimson thread)",
+    "Azazel goat"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The crimson thread always turned white automatically whenever the Yom Kippur ritual was correctly performed.",
+     "correction": "The Gemara presents the thread's turning white as a variable sign of divine acceptance, not a guaranteed mechanical outcome of correct ritual performance. Its failure to turn white in Shimon HaTzaddik's final year, despite the ritual being performed, is precisely what made it significant as an omen.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-039b-s03"
+   ],
+   "visualizableElements": [
+    {
+     "type": "timeline",
+     "description": "Signs of decline: thin Azazel goat, red thread stays red, stale showbread"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "factual",
+     "question": "What happened to the Azazel goat in the year Shimon HaTzaddik died?",
+     "answer": "It grew thin on its way to the cliff, and the crimson thread tied to it did not turn white - signs of declining atonement."
+    }
+   ],
+   "finalRuling": "In Shimon HaTzaddik's final year the Azazel goat grew thin and the crimson thread did not turn white.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-039b-s03",
+   "lineRange": {
+    "startVilnaLine": 32,
+    "endVilnaLine": 39
+   },
+   "lines": [
+    {
+     "vilnaLine": 32,
+     "sefariaRef": "Yoma.39b.10"
+    },
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.39b.11"
+    },
+    {
+     "vilnaLine": 36,
+     "sefariaRef": "Yoma.39b.12"
+    },
+    {
+     "vilnaLine": 39,
+     "sefariaRef": "Yoma.39b.13"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.39b.10",
+    "Yoma.39b.11",
+    "Yoma.39b.12",
+    "Yoma.39b.13"
+   ],
+   "display": {
+    "whats": "The lots are placed on the two goats; baraita: ten times the God-lot came up right.",
+    "hint": "The KG places the lots on the goats' heads; in Second Temple times the right-hand lot was usually for God.",
+    "title": "Placing the Lots: A Public Oracle"
+   },
+   "learning": {
+    "ahaMoment": "The lot's hand position was a public divine oracle: right = accepted, left = rejected. Everyone watching knew the verdict.",
+    "memoryAnchor": "Right hand = God accepts; left hand = God rejects. The lot was a live barometer of national standing.",
+    "learnerQuestion": "How did the Kohen Gadol designate the two goats after drawing the lots, and what did onlookers learn from it?",
+    "coreTension": "The lot drawing itself happened in the KG's hands, but its result needed to become public and binding, the question is how the private draw became a visible, formal designation.",
+    "coreMove": "The Gemara describes the KG placing each lot on the corresponding goat's head and declaring 'chattat l'HaShem,' converting the private draw into a public, verbally confirmed designation that everyone present could witness.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The KG placed the 'for God' lot on the right goat's head and the 'for Azazel' lot on the left, announcing 'chattat l'HaShem', the lot's outcome was a public, verbally confirmed oracle, not a private determination."
+    },
+    "learningBlocker": "Learners may assume the lot ceremony was a quiet procedural step, missing that the Gemara frames it as a publicly witnessed declaration with real evidentiary weight for the nation."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-039b-l32",
+     "type": "ruling",
+     "label": "Ruling: The KG placed the lots on the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039b-l32",
+       "vilnaLine": 32
+      }
+     ],
+     "text": "The KG placed the lots on the goats: 'for God' lot on the right goat's head, 'for Azazel' on the left."
+    },
+    {
+     "id": "yoma-039b-l35",
+     "type": "elaboration",
+     "label": "Elaboration: Baraita: in Second Temple times the God-lot",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039b-l35",
+       "vilnaLine": 35
+      }
+     ],
+     "text": "Baraita: in Second Temple times the God-lot often came up in the right hand."
+    },
+    {
+     "id": "yoma-039b-l36",
+     "type": "elaboration",
+     "label": "Elaboration: In the 40 years before destruction it",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039b-l36",
+       "vilnaLine": 36
+      }
+     ],
+     "text": "In the 40 years before destruction it came up consistently in the left hand."
+    },
+    {
+     "id": "yoma-039b-l39",
+     "type": "ruling",
+     "label": "Ruling: The lot placement on the goat's head",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039b-l39",
+       "vilnaLine": 39
+      }
+     ],
+     "text": "The lot placement on the goat's head designated it; the KG said 'a sin-offering for God' over it."
+    }
+   ],
+   "topicTags": [
+    "Yom Kippur",
+    "lot ceremony",
+    "two goats",
+    "omens"
+   ],
+   "concepts": {
+    "halachic": [
+     "lot placement on goat's head",
+     "verbal designation"
+    ],
+    "theological": [
+     "right vs left lot as divine oracle"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "kappara (atonement)",
+    "goral (lot)"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The lot outcome on Yom Kippur was private - only the KG knew which hand held the God-lot.",
+     "correction": "The lot ceremony was public. When the God-lot came up in the right hand, everyone present could see it. The outcome was a public divine oracle, visible to all.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-037a-s03"
+   ],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "description": "KG places 'for God' lot on right goat's head, says 'chattat l'HaShem'"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "factual",
+     "question": "What did the KG say when placing the 'for God' lot on the goat?",
+     "answer": "'Chattat l'HaShem' - a sin-offering for God."
+    }
+   ],
+   "finalRuling": "The KG placed the lots on the goats' heads; the God-lot going right was a good omen, left a bad one.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 4,
+   "id": "yoma-039b-s04",
+   "lineRange": {
+    "startVilnaLine": 42,
+    "endVilnaLine": 50
+   },
+   "lines": [
+    {
+     "vilnaLine": 42,
+     "sefariaRef": "Yoma.39b.14"
+    },
+    {
+     "vilnaLine": 43,
+     "sefariaRef": "Yoma.39b.15"
+    },
+    {
+     "vilnaLine": 47,
+     "sefariaRef": "Yoma.39b.16"
+    },
+    {
+     "vilnaLine": 47,
+     "sefariaRef": "Yoma.39b.17"
+    },
+    {
+     "vilnaLine": 47,
+     "sefariaRef": "Yoma.39b.18"
+    },
+    {
+     "vilnaLine": 50,
+     "sefariaRef": "Yoma.39b.19"
+    },
+    {
+     "vilnaLine": 50,
+     "sefariaRef": "Yoma.39b.20"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.39b.14",
+    "Yoma.39b.15",
+    "Yoma.39b.16",
+    "Yoma.39b.17",
+    "Yoma.39b.18",
+    "Yoma.39b.19",
+    "Yoma.39b.20"
+   ],
+   "display": {
+    "whats": "R. Yannai: drawing the lot from the box; dispute whether right or left hand matters.",
+    "hint": "The manner of drawing the lots and whether the hand matters is debated.",
+    "title": "Must the God-Lot Land in the Right Hand?"
+   },
+   "learning": {
+    "ahaMoment": "The miracle of the right-hand lot was a sign, not a requirement - the lot itself designates the goat regardless of hand.",
+    "memoryAnchor": "Right-hand lot = good omen (sign); but any hand is valid for designation - the miracle was the omen, not the rule.",
+    "learnerQuestion": "Is it halachically required that the 'for God' lot come up in the Kohen Gadol's right hand, or is this only a good omen?",
+    "coreTension": "The right-hand lot was celebrated throughout Shimon HaTzaddik's era as a sign of favor, which could suggest it is required for validity, yet the Gemara also describes practical handling for when it lands left, suggesting it remains valid either way.",
+    "coreMove": "R. Yannai's account of the simultaneous two-handed draw, combined with the description of the Deputy assisting when the lot lands left, leads the Gemara to treat the right hand as the preferred and auspicious outcome, but not the sole valid one.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Whichever hand draws the 'for God' lot from the box validly designates that goat; the right hand is the favorable omen, but the left hand does not invalidate the ceremony."
+    },
+    "learningBlocker": "Learners may conflate 'good omen' with 'halachic requirement,' missing the Gemara's distinction between what is auspicious and what is strictly necessary for validity."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-039b-l42",
+     "type": "question",
+     "label": "Question: R. Yannai: how exactly are the lots",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039b-l42",
+       "vilnaLine": 42
+      }
+     ],
+     "text": "R. Yannai: how exactly are the lots drawn from the kalpei box?"
+    },
+    {
+     "id": "yoma-039b-l43",
+     "type": "elaboration",
+     "label": "Elaboration: The KG draws simultaneously with both hands;",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039b-l43",
+       "vilnaLine": 43
+      }
+     ],
+     "text": "The KG draws simultaneously with both hands; whichever hand draws 'for God' - that goat is designated."
+    },
+    {
+     "id": "yoma-039b-l47a",
+     "type": "question",
+     "label": "Question: Must the 'for God' lot always end",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039b-l47a",
+       "vilnaLine": 47
+      }
+     ],
+     "text": "Must the 'for God' lot always end up in the right hand?"
+    },
+    {
+     "id": "yoma-039b-l47b",
+     "type": "elaboration",
+     "label": "Elaboration: Dispute: some say the right hand is",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039b-l47b",
+       "vilnaLine": 47
+      }
+     ],
+     "text": "Dispute: some say the right hand is required; others say it is only an omen, not a requirement."
+    },
+    {
+     "id": "yoma-039b-l47c",
+     "type": "elaboration",
+     "label": "Elaboration: If it came up in the left,",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039b-l47c",
+       "vilnaLine": 47
+      }
+     ],
+     "text": "If it came up in the left, the Deputy would help transfer it to the right."
+    },
+    {
+     "id": "yoma-039b-l50a",
+     "type": "ruling",
+     "label": "Ruling: The lot in either hand validly designates",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039b-l50a",
+       "vilnaLine": 50
+      }
+     ],
+     "text": "The lot in either hand validly designates the goat; right is preferred but not indispensable."
+    },
+    {
+     "id": "yoma-039b-l50b",
+     "type": "elaboration",
+     "label": "Elaboration: The thread turning white was the public",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039b-l50b",
+       "vilnaLine": 50
+      }
+     ],
+     "text": "The thread turning white was the public confirmation of atonement's acceptance."
+    }
+   ],
+   "topicTags": [
+    "Yom Kippur",
+    "lot ceremony",
+    "lot validity"
+   ],
+   "concepts": {
+    "halachic": [
+     "lot drawing procedure",
+     "right vs left validity",
+     "lot transfer"
+    ],
+    "theological": [
+     "right-hand lot as omen"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Yom Kippur lot (goral)",
+    "Deputy KG (segan)"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The 'for God' lot must come up in the Kohen Gadol's right hand, or the entire designation is invalid.",
+     "correction": "The Gemara treats the right hand as a favorable omen (siman tov), not a strict requirement for validity. If the lot lands in the left hand, the Deputy helps transfer it and the designation still stands, the right hand's significance is auspicious, not determinative.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-040a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "description": "KG draws simultaneously; right hand preferred but left is technically valid"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "factual",
+     "question": "Is it halachically required that the 'for God' lot come up in the KG's right hand?",
+     "answer": "No - right hand is a good omen but both hands are technically valid for designation."
+    }
+   ],
+   "finalRuling": "The right-hand 'for God' lot is a good omen but not technically required; both hands validly designate the goat.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "Chometzan - a robber. Give strength to the wronged one - strengthen the one who was robbed. And not the wrongdoer - this is not relevant here;",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l01a",
+    "yoma-039b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "rather, [in Sanhedrin] (35a), we learn from this that the claimant is addressed first.",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "From blessing with the Name - from blessing the people with the priestly blessing using the explicit Name, since they were",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "not worthy of it. Would open on their own - a sign that enemies would come and enter. And already",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l12",
+    "yoma-039b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "Zechariah has prophesied against you - that this very opening was itself a sign",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "of the destruction. Three in the first confession - that of the bull -",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l16",
+    "yoma-039b-l32"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "'please, the Name, I have sinned; please, the Name, atone,'",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l32"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "'before the Lord shall you be purified.' And one in the lots - 'to the",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l32"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "Lord, a sin-offering.' And he had already said - meaning, there",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l32",
+    "yoma-039b-l35"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "was once an incident where his voice reached as far as Jericho.",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l35"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "A bride - her practice is to adorn herself with perfumes.",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l36"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "In the hills of Michmar - the name of the district. And I smelled",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l39"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "the fragrance of incense - from the incense that was made there",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l39"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "while the Tabernacle still stood at Shiloh. The rising of the lot",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l39",
+    "yoma-039b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "from within the urn is indispensable - for the service, since the goats",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "are not designated as 'to the Lord' or 'to Azazel' except",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "by the lot; therefore one must see",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "which one came up in the right hand, so that the right-hand goat",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "is designated by it, and which came up in the left, so that the",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "left-hand goat is designated by it. But",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "the placing - of the lot upon the goat is not",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "indispensable, even if he did not place it on the goat, since",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "the right-hand goat is already established by the lot that came up in the right hand,",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "and likewise the left-hand goat by the left-hand lot. Even",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "the rising of the lot is not indispensable - and if the priest calls out",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "'sin-offering' over one and",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "'Azazel' over the other, they are established without the lottery,",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "since the lottery is not indispensable; he has only omitted",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l42"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "a commandment. In accordance with Rabbi Yehuda, etc. -",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l42",
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "in the chapter 'They Brought Out for Him' (60a, below), disagree",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "Rabbi Yehuda and Rabbi Nechemia, as to one who changed the order of",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "the services, performing the later one first; and",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "Rabbi Nechemia says: the entire order of the services performed",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "in the white garments, whether inside, such as in the innermost sanctum,",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "or outside, such as in the Sanctuary or the courtyard, is",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "indispensable, since the statute written in the passage",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "of 'after the death' [of Aharon's sons] was written concerning them; and Rabbi Yehuda",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "says the statute is written only regarding matters",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "performed in the white garments inside; therefore",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "the lottery, which is performed not inside",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "but outside - according to Rabbi Yehuda, who says that regarding matters",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "performed outside, the statute is not written.",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "That all agree it is not indispensable - since even Rabbi",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "Yannai concedes that according to Rabbi Yehuda it is not indispensable,",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "since indispensability is not written regarding them. When",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "they disagree, it is in accordance with Rabbi Nechemia - who says",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "the statute applies to all matters performed in the white",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "garments, and this is performed in the white garments, as is written",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "in the passage. This applies - where the statute 'chukah' is written",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "for indispensability regarding a service, it comes for indispensability.",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "(Up to here, Rabbi Nechemia has only said that 'chukah' is written",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "for indispensability regarding a genuine service, such as scooping",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "coals from the altar, or slaughtering the bull,",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "which are genuine services and are disqualified if performed by another priest;",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "but the lottery, since it is not a service, is valid",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "when performed by the deputy - according to the one who said above that the deputy and the High Priest",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "both insert their right hands into the urn - one might say",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "that here, even Rabbi Nechemia concedes it is not indispensable.)",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "All agree it is indispensable -",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l47b"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "since it says the statute is written regarding them.",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l47b"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "This case is different, since the verse states it explicitly - even",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l50b"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "though the statute does not itself stand to render it indispensable,",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l50b"
+   ]
+  },
+  {
+   "vilnaLine": 63,
+   "en": "it is nonetheless indispensable, since the text repeated the requirement",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l50b"
+   ]
+  },
+  {
+   "vilnaLine": 64,
+   "en": "to render it indispensable, and the indispensability is derived from the extra verse.",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l50b"
+   ]
+  },
+  {
+   "vilnaLine": 65,
+   "en": "Rather - the daf ends mid-word here; the comment (resuming the objection's own resolution according to Rabbi Nechemia's view) continues on 40a.",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l50b"
+   ]
+  }
+ ]
 }
