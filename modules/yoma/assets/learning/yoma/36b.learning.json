@@ -1,928 +1,936 @@
 {
-  "daf": "36b",
-  "canonicalRef": "Yoma 36b",
-  "summary": "36b covers three topics: (1) R. Yehuda vs Rabbis on bull location is tied to nevelah liability in Temple precincts; (2) the full Yom Kippur confession formula - Anna HaShem, chatati, aviti, pashati, with the congregation responding Baruch Shem when the Divine Name is spoken; (3) v'chipper means kaparat devarim - verbal confession is the mechanism of atonement on Yom Kippur.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "36b",
+ "canonicalRef": "Yoma 36b",
+ "summary": "36b covers three topics: (1) R. Yehuda vs Rabbis on bull location is tied to nevelah liability in Temple precincts; (2) the full Yom Kippur confession formula - Anna HaShem, chatati, aviti, pashati, with the congregation responding Baruch Shem when the Divine Name is spoken; (3) v'chipper means kaparat devarim - verbal confession is the mechanism of atonement on Yom Kippur.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-036b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 4
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-036b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 4
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.36b.1"
-        },
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.36b.2"
-        },
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.36b.3"
-        },
-        {
-          "vilnaLine": 4,
-          "sefariaRef": "Yoma.36b.4"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.36b.1",
-        "Yoma.36b.2",
-        "Yoma.36b.3",
-        "Yoma.36b.4"
-      ],
-      "display": {
-        "whats": "Do R. Yehuda and the Rabbis dispute about nevelah (neveilah prohibition)?",
-        "hint": "Yes - their underlying dispute is about whether a bull that becomes nevelah before slaughter is a problem.",
-        "title": "Why Does the Bull's Location Matter? Nevelah"
-      },
-      "learning": {
-        "ahaMoment": "The location of the confession is not merely spatial - it is tied to liability for nevelah in sacred spaces.",
-        "memoryAnchor": "Where the bull stands = where it might die = where nevelah might occur.",
-        "learnerQuestion": "Why would the exact spot where the High Priest's bull stands matter halachically, beyond ceremony?",
-        "coreTension": "R. Yehuda and the Rabbis disagree about where the bull stands for confession, and the Gemara asks whether this dispute is rooted in something more substantive than spatial preference.",
-        "coreMove": "The Gemara ties the location dispute to nevelah liability: if the bull were to die before slaughter while standing in one zone versus another, the Temple precincts impose different consequences, so the location choice carries real legal weight.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "A dispute that looks purely spatial (where the bull stands) is actually rooted in a substantive halachic concern: nevelah liability differs by zone within the Temple precincts."
-        },
-        "learningBlocker": "Learners see the location dispute as a matter of staging or honor; it is in fact anchored in a deeper disagreement about sacred-zone liability for an animal that dies unslaughtered."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-036b-l01a",
-          "type": "question",
-          "label": "Question: Is R. Yehuda vs Rabbis a dispute",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036b-l01a",
-              "vilnaLine": 1
-            }
-          ],
-          "text": "Is R. Yehuda vs Rabbis a dispute about nevelah?"
-        },
-        {
-          "id": "yoma-036b-l01b",
-          "type": "elaboration",
-          "label": "Elaboration: Underlying issue: nevelah prohibition in the Temple",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036b-l01b",
-              "vilnaLine": 1
-            }
-          ],
-          "text": "Underlying issue: nevelah prohibition in the Temple precincts."
-        },
-        {
-          "id": "yoma-036b-l03",
-          "type": "proof",
-          "label": "Proof: Their dispute about the bull's location reflects",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036b-l03",
-              "vilnaLine": 3
-            }
-          ],
-          "text": "Their dispute about the bull's location reflects nevelah liability concerns."
-        },
-        {
-          "id": "yoma-036b-l04",
-          "type": "ruling",
-          "label": "Ruling: The dispute is confirmed as concerning nevelah",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036b-l04",
-              "vilnaLine": 4
-            }
-          ],
-          "text": "The dispute is confirmed as concerning nevelah in the sacred space."
-        }
-      ],
-      "topicTags": [
-        "Temple law",
-        "nevelah",
-        "tannaic dispute"
-      ],
-      "concepts": {
-        "halachic": [
-          "nevelah in Temple precincts",
-          "bull location"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "nevelah prohibition",
-        "Temple zones of sanctity"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The dispute about the bull's location is purely about ceremony - where the KG physically stood during confession.",
-          "correction": "The dispute is tied to nevelah rules: if the bull died before slaughter in the wrong zone, it affects liability. Location and legal category are linked.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-036a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "description": "R. Yehuda vs Rabbis: nevelah liability in different Temple zones"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "factual",
-          "question": "What is the underlying basis of R. Yehuda vs Rabbis on bull location?",
-          "answer": "Nevelah liability in sacred Temple precincts."
-        }
-      ],
-      "finalRuling": "The location dispute is fundamentally about nevelah liability in different Temple zones.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.36b.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-036b-s02",
-      "lineRange": {
-        "startVilnaLine": 6,
-        "endVilnaLine": 31
-      },
-      "lines": [
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.36b.5"
-        },
-        {
-          "vilnaLine": 13,
-          "sefariaRef": "Yoma.36b.6"
-        },
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.36b.7"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.36b.8"
-        },
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.36b.9"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.36b.5",
-        "Yoma.36b.6",
-        "Yoma.36b.7",
-        "Yoma.36b.8",
-        "Yoma.36b.9"
-      ],
-      "display": {
-        "whats": "The confession formula: 'I have sinned, transgressed, rebelled' - what order?",
-        "hint": "'Aviti, pashati, chatati' or 'chatati, aviti, pashati'? The halacha is stated.",
-        "title": "The Full Confession Formula"
-      },
-      "learning": {
-        "ahaMoment": "The full confession formula names three categories of sin in a specific order, repeated twice - first admitting, then requesting atonement.",
-        "memoryAnchor": "Chatati, aviti, pashati: three sin-types, said twice - once admitting, once requesting forgiveness.",
-        "learnerQuestion": "What exact words does the High Priest say when he confesses over the bull?",
-        "coreTension": "Confession requires specific words, and a learner might assume a single general admission of guilt suffices rather than a structured formula.",
-        "coreMove": "The baraita gives the precise text: 'Anna HaShem, chatati, aviti, pashati' - naming three distinct categories of wrongdoing (sin, iniquity, rebellion), for himself, his household, and the priesthood, then repeating the same three categories in the request for atonement.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The Yom Kippur confession is a fixed formula naming three distinct categories of wrongdoing, recited twice - once in admission and once in the plea for atonement - not a generic statement of guilt."
-        },
-        "learningBlocker": "Learners assume any sincere admission of wrongdoing fulfills the confession requirement; the halacha fixes a specific three-part formula recited in a specific structure."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-036b-l06",
-          "type": "ruling",
-          "label": "Ruling: Baraita gives the confession text: Anna HaShem,",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036b-l06",
-              "vilnaLine": 6
-            }
-          ],
-          "text": "Baraita gives the confession text: Anna HaShem, chatati aviti pashati lefanecha..."
-        },
-        {
-          "id": "yoma-036b-l13",
-          "type": "elaboration",
-          "label": "Elaboration: ...I and my household and the sons",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036b-l13",
-              "vilnaLine": 13
-            }
-          ],
-          "text": "...I and my household and the sons of Aaron, Your holy people."
-        },
-        {
-          "id": "yoma-036b-l18",
-          "type": "elaboration",
-          "label": "Elaboration: Please, HaShem, atone (kapper na) for the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036b-l18",
-              "vilnaLine": 18
-            }
-          ],
-          "text": "Please, HaShem, atone (kapper na) for the chatati, aviti, pashati..."
-        },
-        {
-          "id": "yoma-036b-l28",
-          "type": "elaboration",
-          "label": "Elaboration: That I have sinned, transgressed, and rebelled",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036b-l28",
-              "vilnaLine": 28
-            }
-          ],
-          "text": "That I have sinned, transgressed, and rebelled before You - and they respond with the Baruch Shem."
-        },
-        {
-          "id": "yoma-036b-l31",
-          "type": "ruling",
-          "label": "Ruling: The explicit Name (Shem HaMeforash) was spoken;",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036b-l31",
-              "vilnaLine": 31
-            }
-          ],
-          "text": "The explicit Name (Shem HaMeforash) was spoken; the congregation prostrated in response."
-        }
-      ],
-      "topicTags": [
-        "Yom Kippur",
-        "confession formula",
-        "Shem HaMeforash"
-      ],
-      "concepts": {
-        "halachic": [
-          "viduy formula",
-          "triple sin categories",
-          "use of Shem HaMeforash"
-        ],
-        "theological": [
-          "confession theology",
-          "Shem HaMeforash"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "chatati aviti pashati (sin categories)",
-        "Baruch Shem"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The Yom Kippur confession formula names only a single, general category of sin.",
-          "correction": "The fixed formula names three distinct categories - chatati (sin), aviti (iniquity), pashati (rebellion) - and repeats all three both in the admission and in the plea for atonement.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-037a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "text",
-          "description": "Full viduy text: chatati, aviti, pashati + kapper na + congregation responds Baruch Shem"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "factual",
-          "question": "What are the three sin categories in the Yom Kippur confession formula?",
-          "answer": "Chatati (unintentional sin), aviti (deliberate wrongdoing), pashati (willful rebellion)."
-        }
-      ],
-      "finalRuling": "The viduy formula: 'I have sinned, transgressed, rebelled before You - I, my household, and the sons of Aaron' using the explicit Divine Name.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.36b.2"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-036b-s03",
-      "lineRange": {
-        "startVilnaLine": 34,
-        "endVilnaLine": 43
-      },
-      "lines": [
-        {
-          "vilnaLine": 34,
-          "sefariaRef": "Yoma.36b.10"
-        },
-        {
-          "vilnaLine": 37,
-          "sefariaRef": "Yoma.36b.11"
-        },
-        {
-          "vilnaLine": 40,
-          "sefariaRef": "Yoma.36b.12"
-        },
-        {
-          "vilnaLine": 43,
-          "sefariaRef": "Yoma.36b.13"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.36b.10",
-        "Yoma.36b.11",
-        "Yoma.36b.12",
-        "Yoma.36b.13"
-      ],
-      "display": {
-        "whats": "'V'chipper' (he shall atone) - what does 'atone' mean here? Atonement through words.",
-        "hint": "Verbal confession (kaparat devarim) is the means of atonement for intentional sins.",
-        "title": "Atonement Through Words"
-      },
-      "learning": {
-        "ahaMoment": "V'chipper = kaparat devarim: the confession speech itself is the atoning act, not just the sacrifice.",
-        "memoryAnchor": "Atonement is verbal: the blood atones for impurity, the words atone for sins.",
-        "learnerQuestion": "If the bull's blood already atones, why does the High Priest also need to say anything?",
-        "coreTension": "The verse states that the High Priest 'shall atone' (v'chipper), and the Gemara asks what kind of atoning act this word is describing, since the blood of the sacrifice already accomplishes a form of atonement.",
-        "coreMove": "The Gemara teaches that v'chipper refers specifically to kaparat devarim - atonement accomplished through speech - meaning the verbal confession itself is the atoning mechanism for deliberate sins, distinct from the blood's atonement for ritual impurity.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Yom Kippur atonement operates on two distinct tracks: the sacrificial blood addresses ritual impurity, while the spoken confession (kaparat devarim) is the atoning act for deliberate sin."
-        },
-        "learningBlocker": "Learners assume the blood sacrifice alone accomplishes atonement; the Gemara teaches that verbal confession is itself a required, independent atoning mechanism."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-036b-l34",
-          "type": "question",
-          "label": "Question: What does 'v'chipper' mean in the verse",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036b-l34",
-              "vilnaLine": 34
-            }
-          ],
-          "text": "What does 'v'chipper' mean in the verse about Yom Kippur?"
-        },
-        {
-          "id": "yoma-036b-l37",
-          "type": "resolution",
-          "label": "Resolution: Kaparat devarim - atonement accomplished through words",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036b-l37",
-              "vilnaLine": 37
-            }
-          ],
-          "text": "Kaparat devarim - atonement accomplished through words (verbal confession)."
-        },
-        {
-          "id": "yoma-036b-l40",
-          "type": "elaboration",
-          "label": "Elaboration: The blood of the bull atones for",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036b-l40",
-              "vilnaLine": 40
-            }
-          ],
-          "text": "The blood of the bull atones for ritual impurity; the verbal confession atones for deliberate sins."
-        },
-        {
-          "id": "yoma-036b-l43",
-          "type": "ruling",
-          "label": "Ruling: Both dimensions - sacrificial and verbal -",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-036b-l43",
-              "vilnaLine": 43
-            }
-          ],
-          "text": "Both dimensions - sacrificial and verbal - are required for full Yom Kippur atonement."
-        }
-      ],
-      "topicTags": [
-        "Yom Kippur",
-        "confession",
-        "atonement theology"
-      ],
-      "concepts": {
-        "halachic": [
-          "kaparat devarim",
-          "verbal atonement requirement"
-        ],
-        "theological": [
-          "atonement mechanism",
-          "role of confession"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Yom Kippur atonement",
-        "confession requirement"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The blood of the bull alone atones on Yom Kippur; the spoken confession is optional or merely ceremonial.",
-          "correction": "The Gemara derives that v'chipper means kaparat devarim - the verbal confession is itself the atoning act for deliberate sins, distinct from and necessary alongside the blood's atonement for impurity.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-036b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "text",
-          "description": "Verse v'chipper = kaparat devarim: verbal confession as the atoning act"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "conceptual",
-          "question": "What does 'v'chipper' teach about Yom Kippur atonement?",
-          "answer": "That verbal confession (kaparat devarim) is the mechanism of atonement, not only the sacrifice."
-        }
-      ],
-      "finalRuling": "V'chipper means kaparat devarim: verbal confession is the atoning act on Yom Kippur, essential alongside the sacrifice.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.36b.3"
+    },
+    {
+     "vilnaLine": 4,
+     "sefariaRef": "Yoma.36b.4"
     }
-  ],
-  "glossary": [
+   ],
+   "sefariaRefs": [
+    "Yoma.36b.1",
+    "Yoma.36b.2",
+    "Yoma.36b.3",
+    "Yoma.36b.4"
+   ],
+   "display": {
+    "whats": "Do R. Yehuda and the Rabbis dispute about nevelah (neveilah prohibition)?",
+    "hint": "Yes - their underlying dispute is about whether a bull that becomes nevelah before slaughter is a problem.",
+    "title": "Why Does the Bull's Location Matter? Nevelah"
+   },
+   "learning": {
+    "ahaMoment": "The location of the confession is not merely spatial - it is tied to liability for nevelah in sacred spaces.",
+    "memoryAnchor": "Where the bull stands = where it might die = where nevelah might occur.",
+    "learnerQuestion": "Why would the exact spot where the High Priest's bull stands matter halachically, beyond ceremony?",
+    "coreTension": "R. Yehuda and the Rabbis disagree about where the bull stands for confession, and the Gemara asks whether this dispute is rooted in something more substantive than spatial preference.",
+    "coreMove": "The Gemara ties the location dispute to nevelah liability: if the bull were to die before slaughter while standing in one zone versus another, the Temple precincts impose different consequences, so the location choice carries real legal weight.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "A dispute that looks purely spatial (where the bull stands) is actually rooted in a substantive halachic concern: nevelah liability differs by zone within the Temple precincts."
+    },
+    "learningBlocker": "Learners see the location dispute as a matter of staging or honor; it is in fact anchored in a deeper disagreement about sacred-zone liability for an animal that dies unslaughtered."
+   },
+   "argumentFlow": [
     {
-      "he": "כַּפָּרַת דְּבָרִים",
-      "translit": "kaparat devarim",
-      "en": "Atonement through words; the Yom Kippur confession speech is itself the atoning act."
+     "id": "yoma-036b-l01a",
+     "type": "question",
+     "label": "Question: Is R. Yehuda vs Rabbis a dispute",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036b-l01a",
+       "vilnaLine": 1
+      }
+     ],
+     "text": "Is R. Yehuda vs Rabbis a dispute about nevelah?"
     },
     {
-      "he": "שֵׁם הַמְּפֹרָשׁ",
-      "translit": "Shem HaMeforash",
-      "en": "The explicit/ineffable Name of God, spoken aloud only by the KG on Yom Kippur in the Temple."
+     "id": "yoma-036b-l01b",
+     "type": "elaboration",
+     "label": "Elaboration: Underlying issue: nevelah prohibition in the Temple",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036b-l01b",
+       "vilnaLine": 1
+      }
+     ],
+     "text": "Underlying issue: nevelah prohibition in the Temple precincts."
+    },
+    {
+     "id": "yoma-036b-l03",
+     "type": "proof",
+     "label": "Proof: Their dispute about the bull's location reflects",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036b-l03",
+       "vilnaLine": 3
+      }
+     ],
+     "text": "Their dispute about the bull's location reflects nevelah liability concerns."
+    },
+    {
+     "id": "yoma-036b-l04",
+     "type": "ruling",
+     "label": "Ruling: The dispute is confirmed as concerning nevelah",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036b-l04",
+       "vilnaLine": 4
+      }
+     ],
+     "text": "The dispute is confirmed as concerning nevelah in the sacred space."
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "topicTags": [
+    "Temple law",
+    "nevelah",
+    "tannaic dispute"
+   ],
+   "concepts": {
+    "halachic": [
+     "nevelah in Temple precincts",
+     "bull location"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "nevelah prohibition",
+    "Temple zones of sanctity"
+   ],
+   "misconceptions": [
     {
-      "vilnaLine": 1,
-      "en": "Opens 'they disagree about the prohibition of carrion': as it is written, a positive commandment follows it, 'to the convert who is within your gates'",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l01a"
-      ]
-    },
-    {
-      "vilnaLine": 2,
-      "en": "continuing: you shall give it, and he shall eat it' (Deuteronomy 14), but by necessity this is not a negative commandment convertible to a positive one, since",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l01a"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "continuing: giving it to the convert is impossible until after one has already transgressed the negative commandment of eating, and by",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l01a"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "continuing: necessity the positive commandment implies from the outset: do not eat any carrion, but rather you shall give it to the convert",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l01a"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "closing: and not eat it.' Then opens 'Rabbi Akiva holds it is'",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l01b"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "continuing: not a proper prohibition': and one is lashed for it, and the prohibition of gleanings",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l01b"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "continuing: forgotten sheaves, and pe'ah is likewise a positive commandment that follows it",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l01b"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "continuing: from the outset, implying, and thus the verse states",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l01b"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "continuing: (Leviticus 19): you shall not glean your harvest",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l01b"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "continuing: but rather leave it for the poor, and do not glean it, and one is lashed",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l01b"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "closing: for it, and no burnt-offering comes for it.' Then opens 'and Rabbi Yosei'",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l01b"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "continuing: HaGlili holds': the prohibition of carrion, even though",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l01b"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "continuing: by necessity the positive commandment that follows it is implied",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l01b"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "continuing: from the outset, since after it a negative commandment is written,",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l01b"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: one is not lashed for it, since it is not comparable to the prohibition of muzzling,",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l01b"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "continuing: which does carry a burnt-offering, and the prohibition of gleanings, forgotten sheaves,",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l01b"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "continuing: and pe'ah likewise, even if we say the positive commandment",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l01b"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: that follows it is implied from the outset, one is not",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l01b"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "closing: lashed for it.' Then opens 'Abaye said: all agree'",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "continuing: about the prohibition of carrion': that by necessity the positive commandment that follows it is implied",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "closing: from the outset, and it is a proper prohibition, and one is lashed for it.'",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Opens 'but here, regarding leave': the verse after the prohibition of",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "closing: gleanings, forgotten sheaves, and pe'ah, they disagree.' Then opens 'Rabbi'",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l03"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "continuing: Yosei holds it implies from now': after he has gathered",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l04"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: and transgressed the negative commandment, the verse converted it",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l04"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: to a positive commandment and commanded him to leave it there for the poor and the convert,",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l04"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "closing: and therefore he is not lashed for it.' Then opens 'and Rabbi Akiva holds':",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l04"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: the positive commandment stands from the outset, before the gathering,",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l04"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: and he is lashed for it, since it is not converted to a positive commandment, and no burnt-offering",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l04"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "closing: comes for it.' Then opens 'and so regarding the scapegoat it'",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l06"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: states': iniquities first, then transgressions,",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l06"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "closing: and afterward sins.' Then opens 'the rebels': one who",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l06"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "closing: acts to provoke.' Then opens 'the king of Moab rebelled against me': he rebelled",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "closing: against me.' Then opens 'then Livnah rebelled': the residents of",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "closing: Livnah rebelled against the king of Judah.' Then opens 'he goes back and confesses'",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "continuing: etc.: as a rhetorical question - if for the intentional sins they would already be forgiven",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "closing: him, he would not need to ask again about the unintentional ones.'",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l13"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "Opens 'treat them as intentional sins that are unintentional': and thus it means",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "closing: bearing iniquity and transgression like an unwitting sin-offering.' Then opens 'that'",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l18"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "closing: the verse supports him': it refers to the Yom Kippur confession itself.'",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l28"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "Opens 'the one who went down [to lead the prayers]': a prayer leader who arranges",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "continuing: in his Yom Kippur prayer the order",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "continuing: of the High Priest's own services, based on",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "closing: so shall our lips substitute for bulls' (Hosea 14).'",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l31"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Opens 'and he shall atone': what is stated regarding his own bull, 'and he shall atone for himself",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l34"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "closing: and for his household' (Leviticus 16), refers to words of confession.'",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l34"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "continuing: it is stated below regarding the scapegoat: he shall stand",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l37"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "closing: alive before the Lord to atone for him (ibid).' Then opens 'and if'",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l37"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "continuing: you wish to say': to answer a rebuttal to",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "continuing: this gezeirah shavah, that atonement means only",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "continuing: through the presentation of the blood, you could by necessity derive it from",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "continuing: the very verse itself, that it is impossible to say so,",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "continuing: for it states: and Aaron shall present",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "continuing: the bull of the sin-offering that is his, and he shall atone for himself",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "continuing: and for his household, and afterward: and he shall slaughter",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "continuing: the bull of the sin-offering, etc.: by necessity, he shall atone",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "continuing: for himself while it has still not been slaughtered, so",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l40"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "closing: this atonement is through words.' Then opens 'what does \"and if you wish to say\" mean': what",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "continuing: response did he need to give, that a different reason was required.' Then opens 'and if you would say'",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 60,
-      "en": "continuing: let us derive it': that this atonement is derived from the atonement written regarding the goat done within, where it is written",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 61,
-      "en": "closing: and he shall atone for the Sanctuary from the impurities of the children of Israel, but that instance is through the presentation of blood, since it is written after the presentation of the blood, and moreover it has no confession.'",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l43"
-      ]
-    },
-    {
-      "vilnaLine": 62,
-      "en": "Opens 'and from where do we derive' -",
-      "linkedGemaraLineIds": [
-        "yoma-036b-l43"
-      ]
+     "misconception": "The dispute about the bull's location is purely about ceremony - where the KG physically stood during confession.",
+     "correction": "The dispute is tied to nevelah rules: if the bull died before slaughter in the wrong zone, it affects liability. Location and legal category are linked.",
+     "correctedByStepId": null
     }
-  ]
+   ],
+   "relatedSugyot": [
+    "yoma-036a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "description": "R. Yehuda vs Rabbis: nevelah liability in different Temple zones"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "factual",
+     "question": "What is the underlying basis of R. Yehuda vs Rabbis on bull location?",
+     "answer": "Nevelah liability in sacred Temple precincts."
+    }
+   ],
+   "finalRuling": "The location dispute is fundamentally about nevelah liability in different Temple zones.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-036b-s02",
+   "lineRange": {
+    "startVilnaLine": 6,
+    "endVilnaLine": 31
+   },
+   "lines": [
+    {
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.36b.5"
+    },
+    {
+     "vilnaLine": 13,
+     "sefariaRef": "Yoma.36b.6"
+    },
+    {
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.36b.7"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.36b.8"
+    },
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.36b.9"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.36b.5",
+    "Yoma.36b.6",
+    "Yoma.36b.7",
+    "Yoma.36b.8",
+    "Yoma.36b.9"
+   ],
+   "display": {
+    "whats": "The confession formula: 'I have sinned, transgressed, rebelled' - what order?",
+    "hint": "'Aviti, pashati, chatati' or 'chatati, aviti, pashati'? The halacha is stated.",
+    "title": "The Full Confession Formula"
+   },
+   "learning": {
+    "ahaMoment": "The full confession formula names three categories of sin in a specific order, repeated twice - first admitting, then requesting atonement.",
+    "memoryAnchor": "Chatati, aviti, pashati: three sin-types, said twice - once admitting, once requesting forgiveness.",
+    "learnerQuestion": "What exact words does the High Priest say when he confesses over the bull?",
+    "coreTension": "Confession requires specific words, and a learner might assume a single general admission of guilt suffices rather than a structured formula.",
+    "coreMove": "The baraita gives the precise text: 'Anna HaShem, chatati, aviti, pashati' - naming three distinct categories of wrongdoing (sin, iniquity, rebellion), for himself, his household, and the priesthood, then repeating the same three categories in the request for atonement.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The Yom Kippur confession is a fixed formula naming three distinct categories of wrongdoing, recited twice - once in admission and once in the plea for atonement - not a generic statement of guilt."
+    },
+    "learningBlocker": "Learners assume any sincere admission of wrongdoing fulfills the confession requirement; the halacha fixes a specific three-part formula recited in a specific structure."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-036b-l06",
+     "type": "ruling",
+     "label": "Ruling: Baraita gives the confession text: Anna HaShem,",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036b-l06",
+       "vilnaLine": 6
+      }
+     ],
+     "text": "Baraita gives the confession text: Anna HaShem, chatati aviti pashati lefanecha..."
+    },
+    {
+     "id": "yoma-036b-l13",
+     "type": "elaboration",
+     "label": "Elaboration: ...I and my household and the sons",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036b-l13",
+       "vilnaLine": 13
+      }
+     ],
+     "text": "...I and my household and the sons of Aaron, Your holy people."
+    },
+    {
+     "id": "yoma-036b-l18",
+     "type": "elaboration",
+     "label": "Elaboration: Please, HaShem, atone (kapper na) for the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036b-l18",
+       "vilnaLine": 18
+      }
+     ],
+     "text": "Please, HaShem, atone (kapper na) for the chatati, aviti, pashati..."
+    },
+    {
+     "id": "yoma-036b-l28",
+     "type": "elaboration",
+     "label": "Elaboration: That I have sinned, transgressed, and rebelled",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036b-l28",
+       "vilnaLine": 28
+      }
+     ],
+     "text": "That I have sinned, transgressed, and rebelled before You - and they respond with the Baruch Shem."
+    },
+    {
+     "id": "yoma-036b-l31",
+     "type": "ruling",
+     "label": "Ruling: The explicit Name (Shem HaMeforash) was spoken;",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036b-l31",
+       "vilnaLine": 31
+      }
+     ],
+     "text": "The explicit Name (Shem HaMeforash) was spoken; the congregation prostrated in response."
+    }
+   ],
+   "topicTags": [
+    "Yom Kippur",
+    "confession formula",
+    "Shem HaMeforash"
+   ],
+   "concepts": {
+    "halachic": [
+     "viduy formula",
+     "triple sin categories",
+     "use of Shem HaMeforash"
+    ],
+    "theological": [
+     "confession theology",
+     "Shem HaMeforash"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "chatati aviti pashati (sin categories)",
+    "Baruch Shem"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The Yom Kippur confession formula names only a single, general category of sin.",
+     "correction": "The fixed formula names three distinct categories - chatati (sin), aviti (iniquity), pashati (rebellion) - and repeats all three both in the admission and in the plea for atonement.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-037a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "text",
+     "description": "Full viduy text: chatati, aviti, pashati + kapper na + congregation responds Baruch Shem"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "factual",
+     "question": "What are the three sin categories in the Yom Kippur confession formula?",
+     "answer": "Chatati (unintentional sin), aviti (deliberate wrongdoing), pashati (willful rebellion)."
+    }
+   ],
+   "finalRuling": "The viduy formula: 'I have sinned, transgressed, rebelled before You - I, my household, and the sons of Aaron' using the explicit Divine Name.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-036b-s03",
+   "lineRange": {
+    "startVilnaLine": 34,
+    "endVilnaLine": 43
+   },
+   "lines": [
+    {
+     "vilnaLine": 34,
+     "sefariaRef": "Yoma.36b.10"
+    },
+    {
+     "vilnaLine": 37,
+     "sefariaRef": "Yoma.36b.11"
+    },
+    {
+     "vilnaLine": 40,
+     "sefariaRef": "Yoma.36b.12"
+    },
+    {
+     "vilnaLine": 43,
+     "sefariaRef": "Yoma.36b.13"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.36b.10",
+    "Yoma.36b.11",
+    "Yoma.36b.12",
+    "Yoma.36b.13"
+   ],
+   "display": {
+    "whats": "'V'chipper' (he shall atone) - what does 'atone' mean here? Atonement through words.",
+    "hint": "Verbal confession (kaparat devarim) is the means of atonement for intentional sins.",
+    "title": "Atonement Through Words"
+   },
+   "learning": {
+    "ahaMoment": "V'chipper = kaparat devarim: the confession speech itself is the atoning act, not just the sacrifice.",
+    "memoryAnchor": "Atonement is verbal: the blood atones for impurity, the words atone for sins.",
+    "learnerQuestion": "If the bull's blood already atones, why does the High Priest also need to say anything?",
+    "coreTension": "The verse states that the High Priest 'shall atone' (v'chipper), and the Gemara asks what kind of atoning act this word is describing, since the blood of the sacrifice already accomplishes a form of atonement.",
+    "coreMove": "The Gemara teaches that v'chipper refers specifically to kaparat devarim - atonement accomplished through speech - meaning the verbal confession itself is the atoning mechanism for deliberate sins, distinct from the blood's atonement for ritual impurity.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Yom Kippur atonement operates on two distinct tracks: the sacrificial blood addresses ritual impurity, while the spoken confession (kaparat devarim) is the atoning act for deliberate sin."
+    },
+    "learningBlocker": "Learners assume the blood sacrifice alone accomplishes atonement; the Gemara teaches that verbal confession is itself a required, independent atoning mechanism."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-036b-l34",
+     "type": "question",
+     "label": "Question: What does 'v'chipper' mean in the verse",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036b-l34",
+       "vilnaLine": 34
+      }
+     ],
+     "text": "What does 'v'chipper' mean in the verse about Yom Kippur?"
+    },
+    {
+     "id": "yoma-036b-l37",
+     "type": "resolution",
+     "label": "Resolution: Kaparat devarim - atonement accomplished through words",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036b-l37",
+       "vilnaLine": 37
+      }
+     ],
+     "text": "Kaparat devarim - atonement accomplished through words (verbal confession)."
+    },
+    {
+     "id": "yoma-036b-l40",
+     "type": "elaboration",
+     "label": "Elaboration: The blood of the bull atones for",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036b-l40",
+       "vilnaLine": 40
+      }
+     ],
+     "text": "The blood of the bull atones for ritual impurity; the verbal confession atones for deliberate sins."
+    },
+    {
+     "id": "yoma-036b-l43",
+     "type": "ruling",
+     "label": "Ruling: Both dimensions - sacrificial and verbal -",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-036b-l43",
+       "vilnaLine": 43
+      }
+     ],
+     "text": "Both dimensions - sacrificial and verbal - are required for full Yom Kippur atonement."
+    }
+   ],
+   "topicTags": [
+    "Yom Kippur",
+    "confession",
+    "atonement theology"
+   ],
+   "concepts": {
+    "halachic": [
+     "kaparat devarim",
+     "verbal atonement requirement"
+    ],
+    "theological": [
+     "atonement mechanism",
+     "role of confession"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Yom Kippur atonement",
+    "confession requirement"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The blood of the bull alone atones on Yom Kippur; the spoken confession is optional or merely ceremonial.",
+     "correction": "The Gemara derives that v'chipper means kaparat devarim - the verbal confession is itself the atoning act for deliberate sins, distinct from and necessary alongside the blood's atonement for impurity.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-036b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "text",
+     "description": "Verse v'chipper = kaparat devarim: verbal confession as the atoning act"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "conceptual",
+     "question": "What does 'v'chipper' teach about Yom Kippur atonement?",
+     "answer": "That verbal confession (kaparat devarim) is the mechanism of atonement, not only the sacrifice."
+    }
+   ],
+   "finalRuling": "V'chipper means kaparat devarim: verbal confession is the atoning act on Yom Kippur, essential alongside the sacrifice.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [
+  {
+   "he": "כַּפָּרַת דְּבָרִים",
+   "translit": "kaparat devarim",
+   "en": "Atonement through words; the Yom Kippur confession speech is itself the atoning act."
+  },
+  {
+   "he": "שֵׁם הַמְּפֹרָשׁ",
+   "translit": "Shem HaMeforash",
+   "en": "The explicit/ineffable Name of God, spoken aloud only by the KG on Yom Kippur in the Temple."
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "They disagree about the prohibition of carrion - since it is written, a positive commandment follows it, 'to the convert who is within your gates",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "you shall give it, and he shall eat it' (Deuteronomy 14); but by necessity this is not converted to a positive commandment, since",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "giving it to the convert is impossible except after one has already transgressed the negative commandment against eating it, and by",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "necessity the positive commandment must mean from the outset: do not eat any carrion, but rather you shall give it to the convert",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "and not eat it yourself. Rabbi Akiva holds it is not",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l01a",
+    "yoma-036b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "a proper prohibition - and one is lashed for it, and the prohibition of gleanings,",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "forgotten sheaves, and the corner is likewise a positive commandment that follows it",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "meant from the outset, and thus the verse states",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "(Leviticus 19), 'and the gleanings of your harvest you shall not gather;",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "rather, you shall leave it for the poor,' meaning do not gather it, and he is lashed",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "for it, and no burnt-offering comes for it. And Rabbi Yosei",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "HaGlili holds - the prohibition of carrion, even though",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "by necessity the positive commandment that follows it must mean from the outset,",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "since it is written right after the negative commandment,",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "one is not lashed for it, since it is not comparable to the prohibition against muzzling,",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "which does carry a burnt-offering; and the prohibition of gleanings, forgotten sheaves,",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "and the corner likewise, even if we say the positive commandment",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "that follows it means from the outset, still one is not",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "lashed for it. Abaye said: all agree about the prohibition of",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l01b",
+    "yoma-036b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "carrion - since by necessity the positive commandment that follows it means from the outset",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "and it is a proper prohibition, and we lash for it.",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "But here, regarding 'leave' - the verse written after the prohibition of",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "gleanings, forgotten sheaves, and the corner, they disagree. Rabbi",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l03",
+    "yoma-036b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "Yosei holds it means from now - after he has already gathered",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "and transgressed the negative commandment, the verse converted it",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "to a positive commandment and commanded him to leave it there for the poor and the convert,",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "and therefore he is not lashed for it. And Rabbi Akiva holds -",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "the positive commandment stands from the outset, before the gathering,",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "and he is lashed for it, since it is not converted to a positive commandment, and no burnt-offering",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "comes for it. And so regarding the scapegoat it",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l04",
+    "yoma-036b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "states - iniquities first, then transgressions,",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "and afterward sins. The rebels - one who acts",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l06",
+    "yoma-036b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "to provoke. The king of Moab rebelled against me - he rebelled",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "against me. Then Livnah rebelled - the residents of",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "Livnah rebelled against the king of Judah. He goes back and confesses",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "etc. - as a rhetorical question: if for the intentional sins he would already be forgiven",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "he would not need to ask again regarding the unintentional ones.",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "Treat their intentional sins as unintentional ones - and thus it means",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "'bearing iniquity and transgression' like an unwitting sin-offering. That",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l18",
+    "yoma-036b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "the verse supports him - meaning the Yom Kippur confession itself.",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l28"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "The one who went down before the ark - a prayer leader who arranges",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "in his own Yom Kippur prayer the order",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "of the High Priest's own services, based on",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "'so shall our lips substitute for bulls' (Hosea 14).",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l31"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "And he shall atone - what is stated regarding his own bull, 'and he shall atone for himself",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "and for his household' (Leviticus 16), refers to words of confession.",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l34"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "It is stated below regarding the scapegoat, 'he shall stand",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l37"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "alive before the Lord to atone for him' (ibid). And if",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l37",
+    "yoma-036b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "you wish to say - to answer a rebuttal to",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "this gezeirah shavah, saying that 'and he shall atone' means only",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "through the presentation of the blood, by necessity from that very verse itself",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "you can derive that it is impossible to say so,",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "since it states, 'and Aaron shall present",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "the bull of the sin-offering that is his, and he shall atone for himself",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "and for his household,' and only afterward, 'and he shall slaughter",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "the bull of the sin-offering,' etc. By necessity, 'and he shall atone",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "for himself' is said while it has still not been slaughtered; so it emerges that",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l40"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "this atonement is through words. What does 'and if you wish to say' mean - what",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l40",
+    "yoma-036b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "response did he need to give, that another reason was required? And if you would say,",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "let us derive it - that this 'and he shall atone' comes from the atonement written regarding the inner goat, where it is written,",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "'and he shall atone for the Sanctuary from the impurities of the children of Israel' - but that one is through the presentation of blood, since it is written after the presentation of the blood, and moreover it has no confession.",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l43"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "And from where - the daf ends mid-comment here; the comment (deriving the confession's own opening word from a shared verbal analogy) continues on 37a.",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l43"
+   ]
+  }
+ ]
 }
