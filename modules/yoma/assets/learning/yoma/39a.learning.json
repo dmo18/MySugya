@@ -1,890 +1,902 @@
 {
-  "daf": "39a",
-  "canonicalRef": "Yoma 39a",
-  "summary": "39a recounts two parallel 40-year periods: Shimon HaTzaddik's miraculous service (lot always right hand, western lamp continuous, showbread fresh, incense smoke straight) and the 40 years before the Temple's destruction when all these signs reversed, culminating in Rabban Yochanan ben Zakkai's prophetic rebuke of the self-opening Temple gates.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "39a",
+ "canonicalRef": "Yoma 39a",
+ "summary": "39a recounts two parallel 40-year periods: Shimon HaTzaddik's miraculous service (lot always right hand, western lamp continuous, showbread fresh, incense smoke straight) and the 40 years before the Temple's destruction when all these signs reversed, culminating in Rabban Yochanan ben Zakkai's prophetic rebuke of the self-opening Temple gates.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-039a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 29
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-039a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 29
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.39a.1"
-        },
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.39a.2"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.39a.3"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.39a.4"
-        },
-        {
-          "vilnaLine": 13,
-          "sefariaRef": "Yoma.39a.5"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.39a.6"
-        },
-        {
-          "vilnaLine": 17,
-          "sefariaRef": "Yoma.39a.7"
-        },
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.39a.8"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.39a.9"
-        },
-        {
-          "vilnaLine": 21,
-          "sefariaRef": "Yoma.39a.10"
-        },
-        {
-          "vilnaLine": 24,
-          "sefariaRef": "Yoma.39a.11"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.39a.12"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.39a.13"
-        },
-        {
-          "vilnaLine": 29,
-          "sefariaRef": "Yoma.39a.14"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.39a.1",
-        "Yoma.39a.2",
-        "Yoma.39a.3",
-        "Yoma.39a.4",
-        "Yoma.39a.5",
-        "Yoma.39a.6",
-        "Yoma.39a.7",
-        "Yoma.39a.8",
-        "Yoma.39a.9",
-        "Yoma.39a.10",
-        "Yoma.39a.11",
-        "Yoma.39a.12",
-        "Yoma.39a.13",
-        "Yoma.39a.14"
-      ],
-      "display": {
-        "whats": "Shimon HaTzaddik served 40 years; four miracles confirmed his righteousness.",
-        "hint": "The lot, the western lamp, the showbread, and the incense smoke all showed miraculous signs during his tenure.",
-        "title": "Shimon HaTzaddik's Forty Years of Miracles"
-      },
-      "learning": {
-        "ahaMoment": "Forty years of miracles - the lot, the lamp, the bread, and the smoke - each confirmed that Shimon HaTzaddik's service was accepted by God.",
-        "memoryAnchor": "Four miracles: right-hand lot, western lamp, fresh showbread, straight smoke - all during Shimon HaTzaddik's service.",
-        "learnerQuestion": "What four miraculous signs marked Shimon HaTzaddik's forty years of service, and why did they matter?",
-        "coreTension": "Ordinary priestly service could in principle produce the same outward results, lot, lamp, bread, smoke, by chance, yet the baraita treats their unbroken consistency across forty years as proof of something beyond chance.",
-        "coreMove": "The baraita lists all four signs together, then reports that all four ceased simultaneously upon Shimon HaTzaddik's death, using the abrupt and total reversal to argue the signs were miraculous, tied to him personally, not generic outcomes.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "During Shimon HaTzaddik's forty years, the lot always fell right, the western lamp stayed lit, the showbread stayed fresh, and the incense smoke rose straight, four signs the baraita reads as miraculous confirmation of his service, not coincidence."
-        },
-        "learningBlocker": "Learners may read each sign in isolation as a plausible natural outcome, missing that the baraita's argument rests on all four occurring together for forty straight years and stopping together at his death."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-039a-l01",
-          "type": "elaboration",
-          "label": "Elaboration: Measuring naphtha: tell him to measure himself,",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039a-l01",
-              "vilnaLine": 1
-            }
-          ],
-          "text": "Measuring naphtha: tell him to measure himself, not for you."
-        },
-        {
-          "id": "yoma-039a-l03",
-          "type": "elaboration",
-          "label": "Elaboration: Baraita: 40 years Shimon HaTzaddik served as",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039a-l03",
-              "vilnaLine": 3
-            }
-          ],
-          "text": "Baraita: 40 years Shimon HaTzaddik served as KG."
-        },
-        {
-          "id": "yoma-039a-l06",
-          "type": "elaboration",
-          "label": "Elaboration: Sign 1: the Yom Kippur lot for",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039a-l06",
-              "vilnaLine": 6
-            }
-          ],
-          "text": "Sign 1: the Yom Kippur lot for God came up in the right hand every year."
-        },
-        {
-          "id": "yoma-039a-l10",
-          "type": "elaboration",
-          "label": "Elaboration: Sign 2: the western lamp burned throughout",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039a-l10",
-              "vilnaLine": 10
-            }
-          ],
-          "text": "Sign 2: the western lamp burned throughout the day."
-        },
-        {
-          "id": "yoma-039a-l13",
-          "type": "elaboration",
-          "label": "Elaboration: Sign 3: the showbread was warm when",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039a-l13",
-              "vilnaLine": 13
-            }
-          ],
-          "text": "Sign 3: the showbread was warm when removed each Shabbat."
-        },
-        {
-          "id": "yoma-039a-l14",
-          "type": "elaboration",
-          "label": "Elaboration: Sign 4: the incense smoke rose straight",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039a-l14",
-              "vilnaLine": 14
-            }
-          ],
-          "text": "Sign 4: the incense smoke rose straight up and never dispersed."
-        },
-        {
-          "id": "yoma-039a-l17",
-          "type": "elaboration",
-          "label": "Elaboration: After his death, these signs ceased: the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039a-l17",
-              "vilnaLine": 17
-            }
-          ],
-          "text": "After his death, these signs ceased: the lot came up in the left hand."
-        },
-        {
-          "id": "yoma-039a-l19",
-          "type": "elaboration",
-          "label": "Elaboration: The western lamp went out; the showbread",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039a-l19",
-              "vilnaLine": 19
-            }
-          ],
-          "text": "The western lamp went out; the showbread was found crushed."
-        },
-        {
-          "id": "yoma-039a-l20",
-          "type": "elaboration",
-          "label": "Elaboration: The incense smoke began to disperse sideways.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039a-l20",
-              "vilnaLine": 20
-            }
-          ],
-          "text": "The incense smoke began to disperse sideways."
-        },
-        {
-          "id": "yoma-039a-l21",
-          "type": "elaboration",
-          "label": "Elaboration: The priests no longer blessed with the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039a-l21",
-              "vilnaLine": 21
-            }
-          ],
-          "text": "The priests no longer blessed with the full explicit Name."
-        },
-        {
-          "id": "yoma-039a-l24",
-          "type": "elaboration",
-          "label": "Elaboration: The crimson thread stopped turning white on",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039a-l24",
-              "vilnaLine": 24
-            }
-          ],
-          "text": "The crimson thread stopped turning white on Yom Kippur."
-        },
-        {
-          "id": "yoma-039a-l27",
-          "type": "elaboration",
-          "label": "Elaboration: Gates of the Sanctuary opened by themselves",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039a-l27",
-              "vilnaLine": 27
-            }
-          ],
-          "text": "Gates of the Sanctuary opened by themselves at night."
-        },
-        {
-          "id": "yoma-039a-l28",
-          "type": "elaboration",
-          "label": "Elaboration: R. Yochanan: the Temple's self-opening gates were",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039a-l28",
-              "vilnaLine": 28
-            }
-          ],
-          "text": "R. Yochanan: the Temple's self-opening gates were a bad omen, fulfilled by Zechariah's prophecy."
-        },
-        {
-          "id": "yoma-039a-l29",
-          "type": "ruling",
-          "label": "Ruling: These signs signaled the coming destruction; Shimon",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039a-l29",
-              "vilnaLine": 29
-            }
-          ],
-          "text": "These signs signaled the coming destruction; Shimon HaTzaddik's era was the last golden age."
-        }
-      ],
-      "topicTags": [
-        "Shimon HaTzaddik",
-        "Temple miracles",
-        "Yom Kippur"
-      ],
-      "concepts": {
-        "halachic": [],
-        "theological": [
-          "divine acceptance of service",
-          "Temple miracles"
-        ],
-        "narrative": [
-          "Shimon HaTzaddik's 40-year service",
-          "four miraculous signs"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Yom Kippur lot",
-        "western lamp (ner ma'aravi)"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "These were standard, naturally expected results of the Temple service, not miraculous.",
-          "correction": "The baraita's argument is built on the signs' total reversal immediately after Shimon HaTzaddik's death. If they were standard results of the service itself, they would have continued under his successors. Their simultaneous cessation is the Gemara's evidence that they were tied to him personally, not the routine.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-039b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "description": "Four miracles: right-hand lot, continuous western lamp, fresh showbread, straight incense smoke"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "factual",
-          "question": "What four signs occurred during Shimon HaTzaddik's tenure?",
-          "answer": "Right-hand lot every year, western lamp burning throughout, fresh showbread, straight incense smoke."
-        }
-      ],
-      "finalRuling": "During Shimon HaTzaddik's 40 years: lot always right hand, western lamp continuous, showbread fresh, incense smoke straight.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.39a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-039a-s02",
-      "lineRange": {
-        "startVilnaLine": 32,
-        "endVilnaLine": 38
-      },
-      "lines": [
-        {
-          "vilnaLine": 32,
-          "sefariaRef": "Yoma.39a.15"
-        },
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.39a.16"
-        },
-        {
-          "vilnaLine": 38,
-          "sefariaRef": "Yoma.39a.17"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.39a.15",
-        "Yoma.39a.16",
-        "Yoma.39a.17"
-      ],
-      "display": {
-        "whats": "Forty years before the Temple's destruction, further signs of decline appeared.",
-        "hint": "40 years before destruction: western lamp stopped, lot came left, gates opened themselves.",
-        "title": "The Mirror Forty Years: Omens Before the Destruction"
-      },
-      "learning": {
-        "ahaMoment": "The 40-year countdown to destruction mirrors the 40-year era of Shimon HaTzaddik's miracles - same timeframe, opposite direction.",
-        "memoryAnchor": "40 years miracles (Shimon) vs 40 years omens (pre-destruction) - same timeline, inverted meaning.",
-        "learnerQuestion": "What is the significance of a second forty-year period, this time of decline, appearing in the same baraita tradition?",
-        "coreTension": "Shimon HaTzaddik's forty years showed favor; the forty years before the destruction showed the same signs in reverse, raising the question of why the Gemara frames decline using the identical timeframe and the identical signs.",
-        "coreMove": "The baraita reports the lot coming up left, the lamp failing, and the gates opening by themselves, then has Rabban Yochanan ben Zakkai rebuke the gates directly, reading their self-opening as the Temple's own admission of its coming fate, fulfilling Zechariah's prophecy.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Forty years before the destruction, the lot came up left, the western lamp went out, and the Temple gates opened by themselves at night, the same sign-structure as Shimon HaTzaddik's era, inverted, which Rabban Yochanan ben Zakkai read as a direct omen of destruction."
-        },
-        "learningBlocker": "Learners may treat these omens as a list of disconnected ill signs rather than recognizing the deliberate parallel structure to the earlier forty years of miracles."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-039a-l32",
-          "type": "elaboration",
-          "label": "Elaboration: Baraita: 40 years before destruction, the lot",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039a-l32",
-              "vilnaLine": 32
-            }
-          ],
-          "text": "Baraita: 40 years before destruction, the lot for God came up in the left hand."
-        },
-        {
-          "id": "yoma-039a-l35",
-          "type": "elaboration",
-          "label": "Elaboration: The western lamp went out and could",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039a-l35",
-              "vilnaLine": 35
-            }
-          ],
-          "text": "The western lamp went out and could not be kept lit; the crimson thread stopped turning white."
-        },
-        {
-          "id": "yoma-039a-l38",
-          "type": "ruling",
-          "label": "Ruling: Rabban Yochanan ben Zakkai rebuked the Temple",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-039a-l38",
-              "vilnaLine": 38
-            }
-          ],
-          "text": "Rabban Yochanan ben Zakkai rebuked the Temple gates: 'Heichal, Heichal, why do you alarm yourself?' - foretelling destruction."
-        }
-      ],
-      "topicTags": [
-        "Temple destruction",
-        "omens",
-        "Shimon HaTzaddik"
-      ],
-      "concepts": {
-        "halachic": [],
-        "theological": [
-          "Temple destruction foretold",
-          "divine withdrawal"
-        ],
-        "narrative": [
-          "40-year decline signs",
-          "Rabban Yochanan ben Zakkai's rebuke"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "western lamp",
-        "Yom Kippur lot"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The 40-year decline signs before the Temple's destruction were universally recognized and led to repentance.",
-          "correction": "The signs were miraculous and unmistakable, yet they did not produce repentance. The Gemara records them as evidence of what was lost, not as a repentance narrative.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-039a-s01"
-      ],
-      "visualizableElements": [
-        {
-          "type": "timeline",
-          "description": "40 years of omens before destruction: lot left, lamp out, gates open"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "factual",
-          "question": "What did Rabban Yochanan ben Zakkai say about the Temple gates opening by themselves?",
-          "answer": "He rebuked them: 'Heichal, Heichal, why do you alarm yourself? I know your end will be destruction.'"
-        }
-      ],
-      "finalRuling": "40 years before destruction: lot came left, western lamp went out, gates opened - Rabban Yochanan ben Zakkai foretold the end.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.39a.2"
+    },
+    {
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.39a.3"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.39a.4"
+    },
+    {
+     "vilnaLine": 13,
+     "sefariaRef": "Yoma.39a.5"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.39a.6"
+    },
+    {
+     "vilnaLine": 17,
+     "sefariaRef": "Yoma.39a.7"
+    },
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.39a.8"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.39a.9"
+    },
+    {
+     "vilnaLine": 21,
+     "sefariaRef": "Yoma.39a.10"
+    },
+    {
+     "vilnaLine": 24,
+     "sefariaRef": "Yoma.39a.11"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.39a.12"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.39a.13"
+    },
+    {
+     "vilnaLine": 29,
+     "sefariaRef": "Yoma.39a.14"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.39a.1",
+    "Yoma.39a.2",
+    "Yoma.39a.3",
+    "Yoma.39a.4",
+    "Yoma.39a.5",
+    "Yoma.39a.6",
+    "Yoma.39a.7",
+    "Yoma.39a.8",
+    "Yoma.39a.9",
+    "Yoma.39a.10",
+    "Yoma.39a.11",
+    "Yoma.39a.12",
+    "Yoma.39a.13",
+    "Yoma.39a.14"
+   ],
+   "display": {
+    "whats": "Shimon HaTzaddik served 40 years; four miracles confirmed his righteousness.",
+    "hint": "The lot, the western lamp, the showbread, and the incense smoke all showed miraculous signs during his tenure.",
+    "title": "Shimon HaTzaddik's Forty Years of Miracles"
+   },
+   "learning": {
+    "ahaMoment": "Forty years of miracles - the lot, the lamp, the bread, and the smoke - each confirmed that Shimon HaTzaddik's service was accepted by God.",
+    "memoryAnchor": "Four miracles: right-hand lot, western lamp, fresh showbread, straight smoke - all during Shimon HaTzaddik's service.",
+    "learnerQuestion": "What four miraculous signs marked Shimon HaTzaddik's forty years of service, and why did they matter?",
+    "coreTension": "Ordinary priestly service could in principle produce the same outward results, lot, lamp, bread, smoke, by chance, yet the baraita treats their unbroken consistency across forty years as proof of something beyond chance.",
+    "coreMove": "The baraita lists all four signs together, then reports that all four ceased simultaneously upon Shimon HaTzaddik's death, using the abrupt and total reversal to argue the signs were miraculous, tied to him personally, not generic outcomes.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "During Shimon HaTzaddik's forty years, the lot always fell right, the western lamp stayed lit, the showbread stayed fresh, and the incense smoke rose straight, four signs the baraita reads as miraculous confirmation of his service, not coincidence."
+    },
+    "learningBlocker": "Learners may read each sign in isolation as a plausible natural outcome, missing that the baraita's argument rests on all four occurring together for forty straight years and stopping together at his death."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "Opens 'he comes': one who comes to measure naphtha, since its smell is foul, the seller tells him: measure it yourself.' Then opens 'dulls': it seals and blocks off all wisdom.' Then opens 'and you shall become dulled': the word lacks an aleph.",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l01"
-      ]
+     "id": "yoma-039a-l01",
+     "type": "elaboration",
+     "label": "Elaboration: Measuring naphtha: tell him to measure himself,",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039a-l01",
+       "vilnaLine": 1
+      }
+     ],
+     "text": "Measuring naphtha: tell him to measure himself, not for you."
     },
     {
-      "vilnaLine": 2,
-      "en": "Opens 'they let him become impure greatly': they leave him to become impure greatly, and this is what the verse means: do not make yourselves impure through them, but if you do make yourselves impure, in the end you will become dulled.' Then opens 'and you shall sanctify yourselves': a little",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l06"
-      ]
+     "id": "yoma-039a-l03",
+     "type": "elaboration",
+     "label": "Elaboration: Baraita: 40 years Shimon HaTzaddik served as",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039a-l03",
+       "vilnaLine": 3
+      }
+     ],
+     "text": "Baraita: 40 years Shimon HaTzaddik served as KG."
     },
     {
-      "vilnaLine": 3,
-      "en": "continuing: and you shall become holy greatly - one who comes to become pure",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l10"
-      ]
+     "id": "yoma-039a-l06",
+     "type": "elaboration",
+     "label": "Elaboration: Sign 1: the Yom Kippur lot for",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039a-l06",
+       "vilnaLine": 6
+      }
+     ],
+     "text": "Sign 1: the Yom Kippur lot for God came up in the right hand every year."
     },
     {
-      "vilnaLine": 4,
-      "en": "closing: is assisted.'",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l10"
-      ]
+     "id": "yoma-039a-l10",
+     "type": "elaboration",
+     "label": "Elaboration: Sign 2: the western lamp burned throughout",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039a-l10",
+       "vilnaLine": 10
+      }
+     ],
+     "text": "Sign 2: the western lamp burned throughout the day."
     },
     {
-      "vilnaLine": 5,
-      "en": "Chapter heading, 'we shall return to you.' Opens the new mishna: 'the appointed one said to them'",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l13"
-      ]
+     "id": "yoma-039a-l13",
+     "type": "elaboration",
+     "label": "Elaboration: Sign 3: the showbread was warm when",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039a-l13",
+       "vilnaLine": 13
+      }
+     ],
+     "text": "Sign 3: the showbread was warm when removed each Shabbat."
     },
     {
-      "vilnaLine": 6,
-      "en": "Opens 'he shook the urn': we learned this in the chapter above",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l14"
-      ]
+     "id": "yoma-039a-l14",
+     "type": "elaboration",
+     "label": "Elaboration: Sign 4: the incense smoke rose straight",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039a-l14",
+       "vilnaLine": 14
+      }
+     ],
+     "text": "Sign 4: the incense smoke rose straight up and never dispersed."
     },
     {
-      "vilnaLine": 7,
-      "en": "closing: (37a), that the urn was there.'",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l14"
-      ]
+     "id": "yoma-039a-l17",
+     "type": "elaboration",
+     "label": "Elaboration: After his death, these signs ceased: the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039a-l17",
+       "vilnaLine": 17
+      }
+     ],
+     "text": "After his death, these signs ceased: the lot came up in the left hand."
     },
     {
-      "vilnaLine": 8,
-      "en": "Opens 'shook': suddenly, with a shaking and a snatching motion.'",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l14"
-      ]
+     "id": "yoma-039a-l19",
+     "type": "elaboration",
+     "label": "Elaboration: The western lamp went out; the showbread",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039a-l19",
+       "vilnaLine": 19
+      }
+     ],
+     "text": "The western lamp went out; the showbread was found crushed."
     },
     {
-      "vilnaLine": 9,
-      "en": "Opens 'and he drew up two lots': one in the right hand and one",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l14"
-      ]
+     "id": "yoma-039a-l20",
+     "type": "elaboration",
+     "label": "Elaboration: The incense smoke began to disperse sideways.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039a-l20",
+       "vilnaLine": 20
+      }
+     ],
+     "text": "The incense smoke began to disperse sideways."
     },
     {
-      "vilnaLine": 10,
-      "en": "continuing: in the left, with the goats standing one to the right",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l14"
-      ]
+     "id": "yoma-039a-l21",
+     "type": "elaboration",
+     "label": "Elaboration: The priests no longer blessed with the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039a-l21",
+       "vilnaLine": 21
+      }
+     ],
+     "text": "The priests no longer blessed with the full explicit Name."
     },
     {
-      "vilnaLine": 11,
-      "en": "continuing: and one to the left, and he gives the lot that comes up in his right hand",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l14"
-      ]
+     "id": "yoma-039a-l24",
+     "type": "elaboration",
+     "label": "Elaboration: The crimson thread stopped turning white on",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039a-l24",
+       "vilnaLine": 24
+      }
+     ],
+     "text": "The crimson thread stopped turning white on Yom Kippur."
     },
     {
-      "vilnaLine": 12,
-      "en": "closing: to the goat on the right.' Then opens 'and they answer after him'",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l17"
-      ]
+     "id": "yoma-039a-l27",
+     "type": "elaboration",
+     "label": "Elaboration: Gates of the Sanctuary opened by themselves",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039a-l27",
+       "vilnaLine": 27
+      }
+     ],
+     "text": "Gates of the Sanctuary opened by themselves at night."
     },
     {
-      "vilnaLine": 13,
-      "en": "closing: when he mentions the divine Name.' Opens 'Gemara: so that he not aim'",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l19"
-      ]
+     "id": "yoma-039a-l28",
+     "type": "elaboration",
+     "label": "Elaboration: R. Yochanan: the Temple's self-opening gates were",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039a-l28",
+       "vilnaLine": 28
+      }
+     ],
+     "text": "R. Yochanan: the Temple's self-opening gates were a bad omen, fulfilled by Zechariah's prophecy."
     },
     {
-      "vilnaLine": 14,
-      "en": "continuing: so that he not feel around to discern by his touch which",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: lot bears the divine Name and take it in his right hand, since it is a",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "closing: good sign when it comes up in the right hand.' Then opens 'and it was of ordinary'",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l19"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "closing: material': it was not consecrated.' Then opens 'the Torah is considerate'",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l20"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "continuing: etc.: as it is said (Leviticus 14): 'and the priest shall command'",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "continuing: that they empty the house,' etc.: for what is",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "continuing: the Torah considerate? For earthenware jars that have",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: no purification through immersion; if so, it is considerate of",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: cheap property, all the more so of valuable property; if so",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "continuing: it is considerate of the property of the afflicted, and by an a fortiori",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "closing: inference, of the property of the righteous.' Then opens 'and if'",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l21"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: it came up in the deputy's right hand, the head of the father's house",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: says to the High Priest: speak your word",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "closing: say your words: to the Lord, a sin-offering.' Then opens 'since it did not'",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l24"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "continuing: come up in his hand': that of the High Priest, but it came up in the hand",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "continuing: of the deputy, the High Priest's spirits are dampened, so why not",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l27"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "closing: have the deputy say it to him?' Then opens 'why is the deputy at his right,' etc.:",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: because he always walks at his right - so they said in the name of",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: Rabbi Yitzchak HaLevi, but I have heard from my teacher",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: Yitzchak bar Yehuda: why the deputy is appointed - so that if",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "continuing: a disqualification occurs, he may serve in his place; but so long as no",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: disqualification occurs, the deputy performs no service",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l29"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "closing: at all.' Then opens 'the strip of crimson wool': combed wool",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "continuing: drawn out in the shape of a tongue and dyed red, and they would tie",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: it on the head of the scapegoat, and it would",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "continuing: turn white on its own, and this was a sign that the Holy One, Blessed be He, had forgiven",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: Israel, as it is said (Isaiah 1): 'if'",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "closing: your sins be like scarlet, they shall become white as snow.' Then opens 'and it was that'",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "continuing: the western lamp remained lit': after all the other",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "continuing: lamps had gone out, and even though the kindling in the evening began from it",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 44,
-      "en": "continuing: nonetheless it was the one on which the morning tending of the lamps",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 45,
-      "en": "continuing: would conclude, and this was testimony that the Divine Presence",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 46,
-      "en": "continuing: rests upon Israel, as it is written: 'outside the curtain'",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 47,
-      "en": "continuing: of the testimony,' and we say in tractate Shabbat (22b)",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 48,
-      "en": "continuing: that it is testimony to all who come into the world that the Divine Presence",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 49,
-      "en": "continuing: rests upon Israel, and we say there: what is",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 50,
-      "en": "continuing: this testimony? The western lamp, into which one pours oil",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 51,
-      "en": "continuing: in the same measure as its fellows, and from it he would begin",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 52,
-      "en": "continuing: and with it he would conclude; and which one is the western lamp?",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 53,
-      "en": "continuing: according to the one who says (Menachot 98b) that the seven lamps were arranged east-to-west, the 'western lamp' is called the second lamp, the one adjacent to the first one on the east, as we learned (Tamid 6:1)",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 54,
-      "en": "continuing: one priest would enter and find two eastern lamps still lit, etc.; and according to the one who says the lamps were arranged north-to-south, the middle one had its face turned toward the west, and it",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 55,
-      "en": "continuing: is called the western one, while the rest of the lamps turned their faces toward the middle one, as it is written (Numbers 8): toward the face of the lampstand - that is the middle one - shall the six",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l32"
-      ]
-    },
-    {
-      "vilnaLine": 56,
-      "en": "closing: lamps shine.' Then opens 'and the fire of the arrangement would grow stronger on its own': it would burn on its own without adding wood, and they did not need to bring wood once they had arranged it in the morning, except for two",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l35"
-      ]
-    },
-    {
-      "vilnaLine": 57,
-      "en": "closing: logs, for the afternoon offering, which are obligatory, as stated earlier in this chapter.' Then opens 'a curse was sent': it no longer satisfied him.' Then opens 'and every priest's portion was doubled': since it was no longer even an olive's volume",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l38"
-      ]
-    },
-    {
-      "vilnaLine": 58,
-      "en": "closing: once they saw that it did not satisfy, the modest ones would withdraw their hands (though if there was extra they would not withdraw their hands), whereas in Shimon's days, whoever received a doubled portion, they would not withdraw their hands.'",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l38"
-      ]
-    },
-    {
-      "vilnaLine": 59,
-      "en": "Opens 'chometzan' -",
-      "linkedGemaraLineIds": [
-        "yoma-039a-l38"
-      ]
+     "id": "yoma-039a-l29",
+     "type": "ruling",
+     "label": "Ruling: These signs signaled the coming destruction; Shimon",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039a-l29",
+       "vilnaLine": 29
+      }
+     ],
+     "text": "These signs signaled the coming destruction; Shimon HaTzaddik's era was the last golden age."
     }
-  ]
+   ],
+   "topicTags": [
+    "Shimon HaTzaddik",
+    "Temple miracles",
+    "Yom Kippur"
+   ],
+   "concepts": {
+    "halachic": [],
+    "theological": [
+     "divine acceptance of service",
+     "Temple miracles"
+    ],
+    "narrative": [
+     "Shimon HaTzaddik's 40-year service",
+     "four miraculous signs"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Yom Kippur lot",
+    "western lamp (ner ma'aravi)"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "These were standard, naturally expected results of the Temple service, not miraculous.",
+     "correction": "The baraita's argument is built on the signs' total reversal immediately after Shimon HaTzaddik's death. If they were standard results of the service itself, they would have continued under his successors. Their simultaneous cessation is the Gemara's evidence that they were tied to him personally, not the routine.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-039b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "description": "Four miracles: right-hand lot, continuous western lamp, fresh showbread, straight incense smoke"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "factual",
+     "question": "What four signs occurred during Shimon HaTzaddik's tenure?",
+     "answer": "Right-hand lot every year, western lamp burning throughout, fresh showbread, straight incense smoke."
+    }
+   ],
+   "finalRuling": "During Shimon HaTzaddik's 40 years: lot always right hand, western lamp continuous, showbread fresh, incense smoke straight.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-039a-s02",
+   "lineRange": {
+    "startVilnaLine": 32,
+    "endVilnaLine": 38
+   },
+   "lines": [
+    {
+     "vilnaLine": 32,
+     "sefariaRef": "Yoma.39a.15"
+    },
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.39a.16"
+    },
+    {
+     "vilnaLine": 38,
+     "sefariaRef": "Yoma.39a.17"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.39a.15",
+    "Yoma.39a.16",
+    "Yoma.39a.17"
+   ],
+   "display": {
+    "whats": "Forty years before the Temple's destruction, further signs of decline appeared.",
+    "hint": "40 years before destruction: western lamp stopped, lot came left, gates opened themselves.",
+    "title": "The Mirror Forty Years: Omens Before the Destruction"
+   },
+   "learning": {
+    "ahaMoment": "The 40-year countdown to destruction mirrors the 40-year era of Shimon HaTzaddik's miracles - same timeframe, opposite direction.",
+    "memoryAnchor": "40 years miracles (Shimon) vs 40 years omens (pre-destruction) - same timeline, inverted meaning.",
+    "learnerQuestion": "What is the significance of a second forty-year period, this time of decline, appearing in the same baraita tradition?",
+    "coreTension": "Shimon HaTzaddik's forty years showed favor; the forty years before the destruction showed the same signs in reverse, raising the question of why the Gemara frames decline using the identical timeframe and the identical signs.",
+    "coreMove": "The baraita reports the lot coming up left, the lamp failing, and the gates opening by themselves, then has Rabban Yochanan ben Zakkai rebuke the gates directly, reading their self-opening as the Temple's own admission of its coming fate, fulfilling Zechariah's prophecy.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Forty years before the destruction, the lot came up left, the western lamp went out, and the Temple gates opened by themselves at night, the same sign-structure as Shimon HaTzaddik's era, inverted, which Rabban Yochanan ben Zakkai read as a direct omen of destruction."
+    },
+    "learningBlocker": "Learners may treat these omens as a list of disconnected ill signs rather than recognizing the deliberate parallel structure to the earlier forty years of miracles."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-039a-l32",
+     "type": "elaboration",
+     "label": "Elaboration: Baraita: 40 years before destruction, the lot",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039a-l32",
+       "vilnaLine": 32
+      }
+     ],
+     "text": "Baraita: 40 years before destruction, the lot for God came up in the left hand."
+    },
+    {
+     "id": "yoma-039a-l35",
+     "type": "elaboration",
+     "label": "Elaboration: The western lamp went out and could",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039a-l35",
+       "vilnaLine": 35
+      }
+     ],
+     "text": "The western lamp went out and could not be kept lit; the crimson thread stopped turning white."
+    },
+    {
+     "id": "yoma-039a-l38",
+     "type": "ruling",
+     "label": "Ruling: Rabban Yochanan ben Zakkai rebuked the Temple",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-039a-l38",
+       "vilnaLine": 38
+      }
+     ],
+     "text": "Rabban Yochanan ben Zakkai rebuked the Temple gates: 'Heichal, Heichal, why do you alarm yourself?' - foretelling destruction."
+    }
+   ],
+   "topicTags": [
+    "Temple destruction",
+    "omens",
+    "Shimon HaTzaddik"
+   ],
+   "concepts": {
+    "halachic": [],
+    "theological": [
+     "Temple destruction foretold",
+     "divine withdrawal"
+    ],
+    "narrative": [
+     "40-year decline signs",
+     "Rabban Yochanan ben Zakkai's rebuke"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "western lamp",
+    "Yom Kippur lot"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The 40-year decline signs before the Temple's destruction were universally recognized and led to repentance.",
+     "correction": "The signs were miraculous and unmistakable, yet they did not produce repentance. The Gemara records them as evidence of what was lost, not as a repentance narrative.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-039a-s01"
+   ],
+   "visualizableElements": [
+    {
+     "type": "timeline",
+     "description": "40 years of omens before destruction: lot left, lamp out, gates open"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "factual",
+     "question": "What did Rabban Yochanan ben Zakkai say about the Temple gates opening by themselves?",
+     "answer": "He rebuked them: 'Heichal, Heichal, why do you alarm yourself? I know your end will be destruction.'"
+    }
+   ],
+   "finalRuling": "40 years before destruction: lot came left, western lamp went out, gates opened - Rabban Yochanan ben Zakkai foretold the end.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "Comes - the one who comes to buy naphtha to measure, since its smell is bad, the seller tells him: measure it yourself. Dulls - it seals and blocks off all wisdom. And you shall become dulled - the word is spelled without an aleph.",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l01",
+    "yoma-039a-l03"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "They make him impure greatly - they leave him to become impure greatly; and this is what the verse means: do not make yourselves impure through them, but if you do make yourselves impure, in the end you shall become dulled. And you shall sanctify yourselves - a little,",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l06",
+    "yoma-039a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "and you shall become holy - greatly: one who comes to become pure,",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "they assist him.",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "We shall return to you [the closing formula for the prior chapter]. The appointed one said to them [the new mishnah opens]",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "Mishnah: He shook the urn - we learned in the chapter above",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "(37a) that the urn was kept there.",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "Shook - suddenly, with a shaking and snatching motion.",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "And he drew up two lots - one in the right hand and one",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "in the left, with the goats standing one to the right",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "and one to the left, and he places the lot that comes up in his right hand",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "on the goat standing to the right. And they answer after him -",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l14",
+    "yoma-039a-l17"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "when he mentions the divine Name. Gemara: So that he not aim -",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l17",
+    "yoma-039a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "so that he not feel around to discern by touch which",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "lot bears the divine Name and take it specifically in his right hand, since it is a",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "good sign when it comes up in the right hand. And it was of ordinary [material] -",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l19",
+    "yoma-039a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "it was not consecrated. The Torah is considerate,",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l20",
+    "yoma-039a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "etc. - as it is said (Leviticus 14), 'and the priest shall command'",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "'that they empty the house,' etc. Of what is",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "the Torah considerate? Of earthenware jars, which have",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "no purification through immersion. If so, it is considerate of",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "cheap property; all the more so of valuable property. If so,",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "it is considerate of the property of the afflicted [lepers]; and by an a fortiori",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "inference, of the property of the righteous. And if",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l21",
+    "yoma-039a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "it came up in the deputy's right hand, the head of the father's house",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "says to the High Priest: speak your word.",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "Meaning, say your own words: to the Lord, a sin-offering. Since it did not",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l24",
+    "yoma-039a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "come up in his hand - that of the High Priest, but it came up in the hand",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "of the deputy, the High Priest's spirits are dampened; so why should",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "the deputy tell him? Why is the deputy at his right, etc. -",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l27",
+    "yoma-039a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "because he always walks at his right: so they said in the name of",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "Rabbi Yitzchak HaLevi. But I have heard from my teacher",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "Rabbi Yitzchak bar Yehuda: why is the deputy appointed? So that if",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "a disqualification should occur, he may serve in his place; but so long as no",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "disqualification occurs, the deputy performs no service",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "at all. The strip of crimson wool - combed wool",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l29",
+    "yoma-039a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "drawn out in the shape of a tongue and dyed red, and they would tie",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "it on the head of the goat sent away; and it would",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "turn white on its own, and this was a sign that the Holy One, Blessed be He, had forgiven",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "Israel, as it is said (Isaiah 1), 'if",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "your sins be like scarlet, they shall become white as snow.' And the western lamp",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "remained lit - after all the other",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "lamps had gone out; and even though the evening kindling would begin from it,",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "it was nonetheless the one on which the morning tending",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "of the lamps would conclude, and this was testimony that the Divine Presence",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "rests upon Israel, as it is written, 'outside the curtain",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "of the testimony.' And we say in tractate Shabbat (22b):",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "'it is testimony to all who come into the world that the Divine Presence",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "rests upon Israel.' And we say there: what is",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "this testimony? The western lamp, into which he would pour oil",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "in the same measure as its fellow lamps, and from it he would begin,",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "and with it he would conclude. And which is the western lamp?",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "According to the one who says (Menachot 98b) that the seven lamps were arranged east to west, the 'western lamp' is the second lamp, the one adjacent to the first one on the east, as we learned (Mishnah Tamid 6:1):",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "one priest would enter and find two eastern lamps still lit, etc. And according to the one who says they were arranged north to south, the middle one had its face turned toward the west, and it",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "is called the western one, while the rest of the lamps turned their faces toward the middle one, as it is written (Numbers 8), 'toward the face of the lampstand,' meaning the middle one, 'shall the six",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "lamps give light.' And the fire of the arrangement would grow stronger on its own - it would burn on its own without adding wood, and they did not need to bring wood once they had arranged it in the morning. Except for two",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l32",
+    "yoma-039a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "logs - for the afternoon offering, which are obligatory, as stated earlier in this chapter. A curse was sent - meaning, it no longer satisfied him. And every priest's portion was doubled - since it was no longer even an olive's volume,",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l35",
+    "yoma-039a-l38"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "once they saw that it did not satisfy, the modest ones would withdraw their hands (though if there was extra, they would not withdraw their hands), whereas in Shimon's days, whoever received a doubled portion, they would not withdraw their hands.",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l38"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "Chometzan - the daf ends mid-word here; the comment (identifying the word as meaning 'a robber,' opening a new discussion of the verse 'God rescued me from the hand of the wicked, from the grip of the wrongdoer') continues on 39b.",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l38"
+   ]
+  }
+ ]
 }
