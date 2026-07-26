@@ -2,7 +2,7 @@
  "type": "rashi-reconstruction",
  "module": "yoma",
  "targets": [
-  "3a"
+  "3b"
  ],
  "model": "sonnet",
  "paused": false,
@@ -73,16 +73,70 @@
  "scaffoldDebt": {
   "snapshot": [
    {
-    "daf": "3a",
-    "vilnaLine": 2,
+    "daf": "3b",
+    "vilnaLine": 6,
     "rule": "scaffold-prefix",
-    "enHash": "94dd005247a375ca"
+    "enHash": "c882a75d4c61ab3d"
    },
    {
-    "daf": "3a",
-    "vilnaLine": 5,
+    "daf": "3b",
+    "vilnaLine": 11,
     "rule": "scaffold-prefix",
-    "enHash": "502c50e243db88c0"
+    "enHash": "778f45ab5bedb6b1"
+   },
+   {
+    "daf": "3b",
+    "vilnaLine": 19,
+    "rule": "scaffold-prefix",
+    "enHash": "44bb5f12b42327fe"
+   },
+   {
+    "daf": "3b",
+    "vilnaLine": 21,
+    "rule": "scaffold-prefix",
+    "enHash": "e4fcb001113898e1"
+   },
+   {
+    "daf": "3b",
+    "vilnaLine": 25,
+    "rule": "scaffold-prefix",
+    "enHash": "472a638442284101"
+   },
+   {
+    "daf": "3b",
+    "vilnaLine": 30,
+    "rule": "scaffold-prefix",
+    "enHash": "4cc5c3573d5a40a0"
+   },
+   {
+    "daf": "3b",
+    "vilnaLine": 32,
+    "rule": "scaffold-prefix",
+    "enHash": "0ef45c7d655d7018"
+   },
+   {
+    "daf": "3b",
+    "vilnaLine": 35,
+    "rule": "scaffold-prefix",
+    "enHash": "9ebe56443240f1c6"
+   },
+   {
+    "daf": "3b",
+    "vilnaLine": 37,
+    "rule": "scaffold-prefix",
+    "enHash": "b5f339ea3da2bcac"
+   },
+   {
+    "daf": "3b",
+    "vilnaLine": 45,
+    "rule": "scaffold-prefix",
+    "enHash": "663c75b44f62d5fc"
+   },
+   {
+    "daf": "3b",
+    "vilnaLine": 46,
+    "rule": "scaffold-prefix",
+    "enHash": "70fa0e2184a5f953"
    }
   ]
  },
