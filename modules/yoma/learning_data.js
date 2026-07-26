@@ -3407,12 +3407,12 @@ const DAF_CONTENT = {
         daf: "2b",
         vilnaLine: 1,
         he: "ואימא צוואה דקרבנות. להצריך כל כהן העובד במקדש פרישה",
-        en: "Rashi addresses the Gemara's question: why not use the 'tzivah of offerings' to derive separation, requiring every kohen who serves in the Temple to separate seven days beforehand?",
+        en: "And say the command is that of the offerings - to require every priest who serves in the Temple to separate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-002b-l01"
+          "yoma-002b-l04"
         ]
       },
       {
@@ -3421,12 +3421,13 @@ const DAF_CONTENT = {
         daf: "2b",
         vilnaLine: 2,
         he: "לקרבנות ציבור: זו היא שיבה וזו היא ביאה. לדון גזירה שוה זה",
-        en: "Rashi introduces the school of R. Yishmael's verbal analogy from the leprous-house laws, where 've-shav' (the priest shall return) and 'u-va' (the priest shall come) are linked: 'this is returning, and this is coming.'",
+        en: "for the communal offerings. This is returning and this is coming - to derive a verbal analogy from one to the other:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-002b-l04"
+          "yoma-002b-l04",
+          "yoma-002b-l07"
         ]
       },
       {
@@ -3435,12 +3436,13 @@ const DAF_CONTENT = {
         daf: "2b",
         vilnaLine: 3,
         he: "מזה מה שיבה חולץ וקוצה וטח אף ביאה חולץ וקוצה וטח: ואימא",
-        en: "Rashi spells out the substance of that gezerah shavah: just as 'returning' means the priest removes, scrapes, and plasters, so too 'coming' requires the same procedure - proving different verb roots can form a gezerah shavah.",
+        en: "just as returning means he removes, scrapes, and plasters, so too coming means he removes, scrapes, and plasters. And say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-002b-l04"
+          "yoma-002b-l07",
+          "yoma-002b-l11"
         ]
       },
       {
@@ -3449,12 +3451,12 @@ const DAF_CONTENT = {
         daf: "2b",
         vilnaLine: 4,
         he: "כפרה דקרבנות. כגון קרבנות יחיד דכתיב בהן בכמה מקומות",
-        en: "Rashi explains the Gemara's proposal: 'atonement of offerings' means atonement offerings for individuals, since phrases like 'and the priest shall atone for him' appear many times in the Torah in that context.",
+        en: "it means the atonement of offerings - such as individual offerings, regarding which it is written in many places,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-002b-l07"
+          "yoma-002b-l11"
         ]
       },
       {
@@ -3463,12 +3465,13 @@ const DAF_CONTENT = {
         daf: "2b",
         vilnaLine: 5,
         he: "וכפר עליו הכהן: מי ידעינן הי",
-        en: "Rashi quotes the Gemara's practical objection: 'and the priest shall atone for him' - but do we know in advance which kohen will end up performing that service?",
+        en: "'and the priest shall atone for him.' Do we know which one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-002b-l07"
+          "yoma-002b-l11",
+          "yoma-002b-l12"
         ]
       },
       {
@@ -3477,189 +3480,7 @@ const DAF_CONTENT = {
         daf: "2b",
         vilnaLine: 6,
         he: "מתרמי. והלא ע\"י פייס היו עובדין",
-        en: "Rashi explains the force of that question: priests serve by lottery, so we don't know in advance who will sacrifice a given offering.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-002b-l09"
-        ]
-      },
-      {
-        id: "rashi-yoma-002b-007",
-        sourceType: "rashi",
-        daf: "2b",
-        vilnaLine: 7,
-        he: "כדאמרינן לקמן (דף כב.): הכי",
-        en: "Rashi cross-references the lottery discussion that appears later in the tractate (22a), where the Temple lottery system is described in detail.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-002b-l09"
-        ]
-      },
-      {
-        id: "rashi-yoma-002b-008",
-        sourceType: "rashi",
-        daf: "2b",
-        vilnaLine: 8,
-        he: "גרסינן אמרי אלמה לא ניבעי",
-        en: "Rashi notes a textual variant: the Gemara reads 'they say: Why not?' as the response to the lottery objection, rejecting it.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-002b-l09"
-        ]
-      },
-      {
-        id: "rashi-yoma-002b-009",
-        sourceType: "rashi",
-        daf: "2b",
-        vilnaLine: 9,
-        he: "פרישה לכולה משמרת בית אב.",
-        en: "Rashi explains the proposed solution: require the entire patrilineal family (beit av) of the priestly watch to separate seven days before their assigned service week.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-002b-l09"
-        ]
-      },
-      {
-        id: "rashi-yoma-002b-010",
-        sourceType: "rashi",
-        daf: "2b",
-        vilnaLine: 10,
-        he: "אלמה לא בתמיה אינך יכול לומר",
-        en: "Rashi glosses 'almah lo' as a rhetorical question expressing astonishment: you cannot say there is no way to know - the schedule is known in advance.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-002b-l09"
-        ]
-      },
-      {
-        id: "rashi-yoma-002b-011",
-        sourceType: "rashi",
-        daf: "2b",
-        vilnaLine: 11,
-        he: "בהן פרישה הרי יש לומר על כל בית",
-        en: "Rashi continues: you could indeed require separation, because for each beit av of the priestly watch, the days of service are divided and assigned.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-002b-l09"
-        ]
-      },
-      {
-        id: "rashi-yoma-002b-012",
-        sourceType: "rashi",
-        daf: "2b",
-        vilnaLine: 12,
-        he: "אב של משמרת החלוקין לימי שבת",
-        en: "Rashi elaborates on the structure: each beit av is assigned specific days within the week of their mishmar's service.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-002b-l09"
-        ]
-      },
-      {
-        id: "rashi-yoma-002b-013",
-        sourceType: "rashi",
-        daf: "2b",
-        vilnaLine: 13,
-        he: "לשמש איש יומו שיפרשו כל בית אב",
-        en: "Rashi continues: since each beit av knows its day, they could all separate seven days beforehand - so the practical objection fails.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-002b-l09"
-        ]
-      },
-      {
-        id: "rashi-yoma-002b-014",
-        sourceType: "rashi",
-        daf: "2b",
-        vilnaLine: 14,
-        he: "שבעת ימים קודם היום הקבוע לו:",
-        en: "Rashi concludes the solution: each beit av would separate the seven days leading up to their designated service day.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-002b-l09"
-        ]
-      },
-      {
-        id: "rashi-yoma-002b-015",
-        sourceType: "rashi",
-        daf: "2b",
-        vilnaLine: 15,
-        he: "דבר הקבוע לו זמן. יוה\"כ מדבר",
-        en: "Rashi explains the principle that excludes daily offerings: 'a matter that has a fixed time for it' - Yom Kippur has a fixed date, and we derive from the inauguration, which also had a fixed date.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-002b-l11"
-        ]
-      },
-      {
-        id: "rashi-yoma-002b-016",
-        sourceType: "rashi",
-        daf: "2b",
-        vilnaLine: 16,
-        he: "הקבוע לו זמן המלואים שנאמר: (שמות",
-        en: "Rashi cites the verse proving the inauguration was time-fixed: Exodus 40 - 'On the first day of the first month' - establishing a specific date for the Tabernacle's consecration.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-002b-l11"
-        ]
-      },
-      {
-        id: "rashi-yoma-002b-017",
-        sourceType: "rashi",
-        daf: "2b",
-        vilnaLine: 17,
-        he: "מ) ביום החדש הראשון באחד לחדש",
-        en: "Rashi continues quoting: 'you shall erect [the Tabernacle]' - referring to the specific calendar date in Exodus 40.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-002b-l11"
-        ]
-      },
-      {
-        id: "rashi-yoma-002b-018",
-        sourceType: "rashi",
-        daf: "2b",
-        vilnaLine: 18,
-        he: "תקים וגו' והוא היה שמיני למילואים:",
-        en: "Rashi notes: that erection was the eighth day of the inauguration ceremonies, proving the inauguration concluded on a fixed calendar date.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-002b-l11"
-        ]
-      },
-      {
-        id: "rashi-yoma-002b-019",
-        sourceType: "rashi",
-        daf: "2b",
-        vilnaLine: 19,
-        he: "הנוהג פעם אחת בשנה. מלואים",
-        en: "Rashi explains why the inauguration counts as 'once a year': it occurred on a specific day in a specific year, establishing it as an annual-cycle, time-anchored event.",
+        en: "falls to him - but did they not serve by lottery,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -3668,17 +3489,200 @@ const DAF_CONTENT = {
         ]
       },
       {
-        id: "rashi-yoma-002b-020",
+        id: "rashi-yoma-002b-007",
         sourceType: "rashi",
         daf: "2b",
-        vilnaLine: 20,
-        he: "פעם אחת הוא דהוו בשנה: אי חג",
-        en: "Rashi pivots to the next proposal: 'If [we say it applies to] Passover' - the Gemara raises the possibility that one Festival might qualify.",
+        vilnaLine: 7,
+        he: "כדאמרינן לקמן (דף כב.): הכי",
+        en: "as we say further on (22a)? This is",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-002b-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-002b-008",
+        sourceType: "rashi",
+        daf: "2b",
+        vilnaLine: 8,
+        he: "גרסינן אמרי אלמה לא ניבעי",
+        en: "the reading: 'they say: why not",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-002b-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-002b-009",
+        sourceType: "rashi",
+        daf: "2b",
+        vilnaLine: 9,
+        he: "פרישה לכולה משמרת בית אב.",
+        en: "require separation for the entire patrilineal family of the watch?'",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-002b-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-002b-010",
+        sourceType: "rashi",
+        daf: "2b",
+        vilnaLine: 10,
+        he: "אלמה לא בתמיה אינך יכול לומר",
+        en: "'Why not' as a rhetorical question: you cannot say",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-002b-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-002b-011",
+        sourceType: "rashi",
+        daf: "2b",
+        vilnaLine: 11,
+        he: "בהן פרישה הרי יש לומר על כל בית",
+        en: "there is no separation for them, since one could say, for each patrilineal",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-002b-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-002b-012",
+        sourceType: "rashi",
+        daf: "2b",
+        vilnaLine: 12,
+        he: "אב של משמרת החלוקין לימי שבת",
+        en: "family of the watch divided among the days of the week",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-002b-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-002b-013",
+        sourceType: "rashi",
+        daf: "2b",
+        vilnaLine: 13,
+        he: "לשמש איש יומו שיפרשו כל בית אב",
+        en: "to serve each his own day, let the whole family",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-002b-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-002b-014",
+        sourceType: "rashi",
+        daf: "2b",
+        vilnaLine: 14,
+        he: "שבעת ימים קודם היום הקבוע לו:",
+        en: "separate seven days before its own appointed day.",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-002b-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-002b-015",
+        sourceType: "rashi",
+        daf: "2b",
+        vilnaLine: 15,
+        he: "דבר הקבוע לו זמן. יוה\"כ מדבר",
+        en: "A matter fixed to it a time - Yom Kippur is derived from",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-002b-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-002b-016",
+        sourceType: "rashi",
+        daf: "2b",
+        vilnaLine: 16,
+        he: "הקבוע לו זמן המלואים שנאמר: (שמות",
+        en: "a matter fixed to it a time, the inauguration, as it is said (Exodus",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-002b-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-002b-017",
+        sourceType: "rashi",
+        daf: "2b",
+        vilnaLine: 17,
+        he: "מ) ביום החדש הראשון באחד לחדש",
+        en: "40), 'on the first day of the first month",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-002b-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-002b-018",
+        sourceType: "rashi",
+        daf: "2b",
+        vilnaLine: 18,
+        he: "תקים וגו' והוא היה שמיני למילואים:",
+        en: "you shall erect,' etc., and that was the eighth day of the inauguration.",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-002b-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-002b-019",
+        sourceType: "rashi",
+        daf: "2b",
+        vilnaLine: 19,
+        he: "הנוהג פעם אחת בשנה. מלואים",
+        en: "That occurs once a year - the inauguration",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
           "yoma-002b-l16"
+        ]
+      },
+      {
+        id: "rashi-yoma-002b-020",
+        sourceType: "rashi",
+        daf: "2b",
+        vilnaLine: 20,
+        he: "פעם אחת הוא דהוו בשנה: אי חג",
+        en: "occurred only once in the year. If it means the Festival of",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-002b-l16",
+          "yoma-002b-l19"
         ]
       },
       {
@@ -3687,12 +3691,12 @@ const DAF_CONTENT = {
         daf: "2b",
         vilnaLine: 21,
         he: "המצות. כלומר יש לך לומר שעל חג",
-        en: "Rashi explains the case for Passover: one could argue that the verse is speaking about Passover specifically, since Torah lists it first among the festivals.",
+        en: "Matzot - meaning, you could say it refers to the Festival of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-002b-l16"
+          "yoma-002b-l19"
         ]
       },
       {
@@ -3701,12 +3705,12 @@ const DAF_CONTENT = {
         daf: "2b",
         vilnaLine: 22,
         he: "המצות נאמר הואיל ופתח בו תחילה",
-        en: "Rashi continues: the Torah consistently places Passover first when listing the festivals, suggesting a kind of primacy.",
+        en: "Matzot, since Scripture always opens with it first",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-002b-l16"
+          "yoma-002b-l19"
         ]
       },
       {
@@ -3715,7 +3719,7 @@ const DAF_CONTENT = {
         daf: "2b",
         vilnaLine: 23,
         he: "בכל מקום או על חג הסוכות הואיל",
-        en: "Rashi adds the alternative argument for Sukkot: one could prefer Sukkot instead, since it has more associated commandments than the other festivals.",
+        en: "everywhere, or to the Festival of Sukkot, since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -3729,7 +3733,7 @@ const DAF_CONTENT = {
         daf: "2b",
         vilnaLine: 24,
         he: "ומרובה מצותו בסוכה ולולב וערבה",
-        en: "Rashi lists Sukkot's numerous commandments: the sukkah itself, lulav, willow branch, water libation - making Sukkot the festival with the most mitzvot.",
+        en: "it has more commandments, with the sukkah, the lulav, the willow-branch,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -3743,11 +3747,12 @@ const DAF_CONTENT = {
         daf: "2b",
         vilnaLine: 25,
         he: "וניסוך המים: ליום א'. בשביל יום",
-        en: "Rashi glosses the key phrase: 'for one day' means the eight days of Sukkot culminate in Shemini Atzeret as a single-day climax, just as the inauguration culminated in one day.",
+        en: "and the water libation. For one day - for the eighth",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-002b-l19",
           "yoma-002b-l22"
         ]
       },
@@ -3757,11 +3762,12 @@ const DAF_CONTENT = {
         daf: "2b",
         vilnaLine: 26,
         he: "שמיני לבדו: ואימא שמיני. עצרת:",
-        en: "Rashi clarifies: 'And say Shemini' in the Gemara refers to Shemini Atzeret, the Eighth Day of Assembly immediately following Sukkot.",
+        en: "day alone. And say the eighth - Atzeret.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-002b-l22",
           "yoma-002b-l23"
         ]
       },
@@ -3771,7 +3777,7 @@ const DAF_CONTENT = {
         daf: "2b",
         vilnaLine: 27,
         he: "הזה כתיב. כאשר עשה ביום הזה:",
-        en: "Rashi explains Rav Mesharshiyya's answer: 'this is written' - the verse says 'as the Lord commanded to do on this day,' referring specifically to the inauguration day.",
+        en: "'This' is written - 'as he did on this day.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -3785,7 +3791,7 @@ const DAF_CONTENT = {
         daf: "2b",
         vilnaLine: 28,
         he: "כזה. לא הצריך פרישה אלא לדוגמתו:",
-        en: "Rashi glosses 'like this': the Torah required separation only for something structurally identical to the inauguration - not for any case that is merely more sanctified.",
+        en: "'Like this' - he required separation only for something matching its own pattern.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -3799,7 +3805,7 @@ const DAF_CONTENT = {
         daf: "2b",
         vilnaLine: 29,
         he: "לענין",
-        en: "Rashi's commentary on 2b ends here mid-word, continuing on 3a with the phrase 'le-inyan' (regarding) - this fragment belongs to the discussion of Rav Ashi's argument.",
+        en: "Regarding - the daf ends mid-word here; the comment (identifying the mnemonic 'PZR KSHB' for the priestly watches' own lottery divisions) continues on 3a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",

@@ -3,36 +3,6 @@
  "generatedFrom": "main@c623f1503e3bb91799418a5514fa4bda6ba9fcb0",
  "entries": [
   {
-   "daf": "2b",
-   "vilnaLine": 11,
-   "rule": "scaffold-prefix",
-   "enHash": "9197b74e5637fc90"
-  },
-  {
-   "daf": "2b",
-   "vilnaLine": 13,
-   "rule": "scaffold-prefix",
-   "enHash": "cda00264cf745d75"
-  },
-  {
-   "daf": "2b",
-   "vilnaLine": 14,
-   "rule": "scaffold-prefix",
-   "enHash": "b8c290bee6fd801f"
-  },
-  {
-   "daf": "2b",
-   "vilnaLine": 17,
-   "rule": "scaffold-prefix",
-   "enHash": "869a2190c2d17c88"
-  },
-  {
-   "daf": "2b",
-   "vilnaLine": 22,
-   "rule": "scaffold-prefix",
-   "enHash": "cce0c54b53fef6e3"
-  },
-  {
    "daf": "3a",
    "vilnaLine": 2,
    "rule": "scaffold-prefix",
