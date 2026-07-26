@@ -205,9 +205,9 @@ def parse_current_summary(text):
     ad = re.search(r"Unique affected daf:\s*(\d+)", body)
     if ad:
         out["affected_daf"] = int(ad.group(1))
-    nt = re.search(r"Current next reconstruction target:\s*(\S+)", body)
+    nt = re.search(r"Current next reconstruction target:\s*(.+)", body)
     if nt:
-        out["next_target"] = nt.group(1)
+        out["next_target"] = nt.group(1).strip()
     return out
 
 
