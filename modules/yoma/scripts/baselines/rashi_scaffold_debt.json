@@ -3,18 +3,6 @@
  "generatedFrom": "main@c623f1503e3bb91799418a5514fa4bda6ba9fcb0",
  "entries": [
   {
-   "daf": "3a",
-   "vilnaLine": 2,
-   "rule": "scaffold-prefix",
-   "enHash": "94dd005247a375ca"
-  },
-  {
-   "daf": "3a",
-   "vilnaLine": 5,
-   "rule": "scaffold-prefix",
-   "enHash": "502c50e243db88c0"
-  },
-  {
    "daf": "3b",
    "vilnaLine": 6,
    "rule": "scaffold-prefix",
