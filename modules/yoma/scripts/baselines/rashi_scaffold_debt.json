@@ -1,12 +1,5 @@
 {
  "_comment": "Locked inventory of pre-existing Rashi scaffold-fabrication debt (see docs/reports/yoma-rashi-scaffold-audit.md and docs/rashi-audit-backlog.md). audit_rashi_scaffold.py enforces it as a shrink-only ratchet: an entry covers ONLY the exact contaminated en text hashed here. Never add entries in worker PRs; growth requires explicit operator authorization. Retire stale entries with --update-baseline as daf are repaired. One-time expansion (+2541 entries, corpus-wide) authorized by the operator to inventory the plain-meta-scaffold family (disguised translator-position narration without the literal word 'Rashi': 'Opens X:', 'continuing:', 'closing:', 'Then opens'), discovered via a forensic corpus audit; content is presumed faithful pending the narration-repair pass, not re-verified for accuracy by this expansion.",
  "generatedFrom": "main@c623f1503e3bb91799418a5514fa4bda6ba9fcb0",
- "entries": [
-  {
-   "daf": "7b",
-   "vilnaLine": 2,
-   "rule": "scaffold-prefix",
-   "enHash": "3f4b058a92462740"
-  }
- ]
+ "entries": []
 }

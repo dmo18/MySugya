@@ -16569,7 +16569,7 @@ const DAF_CONTENT = {
         daf: "7b",
         vilnaLine: 1,
         he: "הא אינו נושא וכו'. הא לשון מעתה הוא מעתה אי אתה מוצא שיהא",
-        en: "Rashi on 'ha eino nosei' (now it only atones): 'ha' means 'now therefore' - from now on you cannot claim the tzitz atones for anything other than tumah that was itself permitted for the tzibbur. Why interpret leniently? Because we found one leniency (permitted for tzibbur), we extend it: the tzitz atones even in the case of individual impurity. The baraita's phrase 'that was permitted for the community' proves tumah is hutrah (fully permitted), not merely dchuya.",
+        en: "'It bears only...' etc. - the word 'ha' [here] means 'from now'; from now on you will not find that it bears",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -16583,7 +16583,7 @@ const DAF_CONTENT = {
         daf: "7b",
         vilnaLine: 2,
         he: "נושא אלא עון קרבן טומאה ומאי שנא דשדינן ליה לקולא הואיל ומצינו",
-        en: "Rashi continues: the conclusion that tzitz only atones for tumah she-hutrah l'tzibbur - established. The word 'ha' introduces the logical consequence of the chain of reasoning in 7a.",
+        en: "anything except the sin of an impure offering. And why do we rule leniently here? Because we find",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -16597,7 +16597,7 @@ const DAF_CONTENT = {
         daf: "7b",
         vilnaLine: 3,
         he: "בה קל אחר שהותרה לצבור מכלל איסור שביחיד הלכך שדי ביה",
-        en: "Rashi: 'the baraita states that it was permitted for the community' - this phrase is the key proof. 'Permitted' (hutrah) means the prohibition is fully suspended for the tzibbur, not merely overridden (dchuya). This is what the tzitz atones for.",
+        en: "a related leniency: once it was permitted for the community, an exception to the individual's own prohibition, therefore we also apply",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -16611,12 +16611,12 @@ const DAF_CONTENT = {
         daf: "7b",
         vilnaLine: 4,
         he: "נמי לקולא שיהא הציץ מרצה אותה בקרבן יחיד קתני מיהא שהותרה",
-        en: "Rashi on 'bein she'isno al mitzcho' (whether or not on the forehead): 'bein' refers to the tzitz - whether the tzitz is physically on the High Priest's forehead at the time the offering became impure.",
+        en: "leniency here, that the tzitz atones for it even in an individual's offering. Yet [the baraita] nonetheless teaches that it was permitted",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l04"
+          "yoma-007b-l01"
         ]
       },
       {
@@ -16625,12 +16625,12 @@ const DAF_CONTENT = {
         daf: "7b",
         vilnaLine: 5,
         he: "בצבור אלמא היתר היא בצבור:",
-        en: "Rashi: 'R. Yehuda says: only when on the forehead does it atone' - R. Yehuda's position requires the tzitz to be physically resting on the kohein gadol's forehead for its atonement power to be operative.",
+        en: "for the community - proving this is a full permission for the community.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l04"
+          "yoma-007b-l01"
         ]
       },
       {
@@ -16639,12 +16639,12 @@ const DAF_CONTENT = {
         daf: "7b",
         vilnaLine: 6,
         he: "בין שישנו הציץ על מצחו. של כהן",
-        en: "Rashi on the YK kohein gadol reference: on Yom Kippur the tzitz is not on the High Priest's forehead during the inner Temple service because he does not enter the inner sanctum in golden garments - he wears white linen instead.",
+        en: "'Whether the tzitz is on his forehead' - referring to the High Priest's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l04"
+          "yoma-007b-l01"
         ]
       },
       {
@@ -16653,12 +16653,12 @@ const DAF_CONTENT = {
         daf: "7b",
         vilnaLine: 7,
         he: "גדול כשאירעה טומאה על הקרבן:",
-        en: "Rashi: 'he does not enter in golden garments for the inner service' - the YK inner service is done in white linen only. Since the tzitz is part of the golden vestments, it is absent from his forehead during that service. This is why R. Yehuda uses the YK case as a proof.",
+        en: "forehead, at the time impurity befell the offering.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l04"
+          "yoma-007b-l01"
         ]
       },
       {
@@ -16667,12 +16667,12 @@ const DAF_CONTENT = {
         daf: "7b",
         vilnaLine: 8,
         he: "יוה\"כ. אינו על מצחו בשעת עבודת",
-        en: "Rashi on 'sheTumah hutrah lo b'tzibbur' (tumah was permitted for him via the tzibbur): the entire Yom Kippur service is communal - tumah is fully hutrah l'tzibbur. Therefore the tzitz does not need to atone, and the off-forehead situation is irrelevant. R. Shimon's deflection.",
+        en: "'On Yom Kippur' - it is not on his forehead during the service of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l08"
+          "yoma-007b-l04"
         ]
       },
       {
@@ -16681,12 +16681,12 @@ const DAF_CONTENT = {
         daf: "7b",
         vilnaLine: 9,
         he: "היום הפנימית שאינו נכנס לפנים",
-        en: "Rashi: 'because all of it is a communal offering and the tzitz does not need to atone for it' - in the YK context, the tzitz's atonement function is simply not invoked. This is R. Shimon's rebuttal to R. Yehuda's proof.",
+        en: "that day's inner sanctuary rite, since he does not enter the innermost sanctum",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l08"
+          "yoma-007b-l04"
         ]
       },
       {
@@ -16695,11 +16695,12 @@ const DAF_CONTENT = {
         daf: "7b",
         vilnaLine: 10,
         he: "בבגדי זהב: שטומאה הותרה לו.",
-        en: "Rashi: 'hence R. Shimon holds dchuya' - we infer from R. Shimon's deflection that he holds dchuya: the tzitz does need to atone for the community's tumah (since the prohibition is merely overridden, not removed). This is what makes the off-forehead case relevant in his view.",
+        en: "in the golden vestments. 'For impurity has been permitted to him' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-007b-l04",
           "yoma-007b-l08"
         ]
       },
@@ -16709,12 +16710,12 @@ const DAF_CONTENT = {
         daf: "7b",
         vilnaLine: 11,
         he: "שכולו קרבן צבור ואינו צריך לרצויי",
-        en: "Rashi on 'amar Abaye' (Abaye said): Abaye's statement is an independent clarification of what the tanaim were actually disputing. 'Bisikta' = a peg or hook on which the tzitz is hung when removed from the forehead.",
+        en: "since the whole [service] is a communal offering, and it does not need the tzitz to atone for it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l11"
+          "yoma-007b-l08"
         ]
       },
       {
@@ -16723,12 +16724,12 @@ const DAF_CONTENT = {
         daf: "7b",
         vilnaLine: 12,
         he: "ציץ: מכלל דר\"ש סבר דחויה היא. וציץ",
-        en: "Rashi: 'bisikta' = a wooden peg. The case Abaye identifies: the tzitz is intact and hanging on a peg rather than on the High Priest's forehead. This is the only case where R. Yehuda and R. Shimon genuinely disagree.",
+        en: "'By inference, R. Shimon holds it is [only] overridden' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l11"
+          "yoma-007b-l08"
         ]
       },
       {
@@ -16737,12 +16738,13 @@ const DAF_CONTENT = {
         daf: "7b",
         vilnaLine: 13,
         he: "הוא דמרצה עלה והיינו תנאי: אמר",
-        en: "Rashi on 'al mitzcho v'nasa' (on his forehead and he shall bear): Exodus 28 verse - 'It shall be on Aaron's forehead, and Aaron shall bear the iniquity of the holy things.' R. Yehuda derives from this that being on the forehead (or fit for the forehead) is required for atonement.",
+        en: "and it is the tzitz that atones for it; and this [dispute] is the tannaitic dispute [cited earlier]. 'Abaye said' etc. -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l13"
+          "yoma-007b-l08",
+          "yoma-007b-l11"
         ]
       },
       {
@@ -16751,12 +16753,12 @@ const DAF_CONTENT = {
         daf: "7b",
         vilnaLine: 14,
         he: "אביי כו'. מילתא באפי נפשיה היא",
-        en: "Rashi: 'v'R. Shimon holds tamid liratzon' - R. Shimon's reading: the continuation of the verse 'tamid liratzon lifnei Hashem' means the tzitz perpetually effects acceptance before God, whether or not it is physically on the forehead at this moment.",
+        en: "this is an independent point [Abaye makes] in order to clarify",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l13"
+          "yoma-007b-l11"
         ]
       },
       {
@@ -16765,12 +16767,12 @@ const DAF_CONTENT = {
         daf: "7b",
         vilnaLine: 15,
         he: "לפרושי פלוגתייהו: בסיכתא. יתד:",
-        en: "Rashi on 'what does tamid mean? If it means always literally on the forehead...' - the Gemara challenges the literal reading. A kohein must go to the restroom and must sleep. He cannot literally always have the tzitz on his forehead.",
+        en: "what they are actually disputing. 'On a peg' - meaning a wooden peg [where the tzitz hangs when removed].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l15"
+          "yoma-007b-l11"
         ]
       },
       {
@@ -16779,12 +16781,12 @@ const DAF_CONTENT = {
         daf: "7b",
         vilnaLine: 16,
         he: "על מצח ונשא. והיה על מצח אהרן ונשא",
-        en: "Rashi: 'rather, tamid = it always atones' (R. Shimon's reading) OR 'tamid = do not be distracted from it' (R. Yehuda's reading). The Gemara resolves by giving each side a non-literal reading of 'tamid.'",
+        en: "'On the forehead, and he shall bear' - [the verse] 'and it shall be on Aaron's forehead, and Aaron shall bear'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l15"
+          "yoma-007b-l11"
         ]
       },
       {
@@ -16793,12 +16795,12 @@ const DAF_CONTENT = {
         daf: "7b",
         vilnaLine: 17,
         he: "אהרן את עון הקדשים (שמות כח) :",
-        en: "Rashi on 'achat' (one divine name on the tzitz): the tzitz inscription 'Kodesh l'Hashem' contains only one explicit divine name. Yet it requires constant mindfulness of the kohein. This is the basis for the kal v'chomer to tefillin.",
+        en: "'the iniquity of the holy things' (Exodus 28:38).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007b-l15"
+          "yoma-007b-l11"
         ]
       },
       {
@@ -16807,7 +16809,7 @@ const DAF_CONTENT = {
         daf: "7b",
         vilnaLine: 18,
         he: "אחד",
-        en: "Rashi on 'umah' (and just as): the beginning of the kal v'chomer from tzitz to tefillin. 'And just as the tzitz, which has only one divine name, requires constant mindfulness...' - the argument continues into 8a.",
+        en: "'One' - the word is cut off here; the tzitz bears only a single inscribed mention of God's name, the premise opening the kal v'chomer argument to tefillin that continues on 8a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
