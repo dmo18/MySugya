@@ -21,11 +21,11 @@ with `python3 scripts/generate_rashi_docs.py` and the freshness gate
 from the baseline.
 
 <!-- rashi-status-summary:begin (regenerate with `python3 scripts/generate_rashi_docs.py`; do not hand-edit) -->
-- Current VERSION: 15.286
-- Generated from commit: 980c687 (the commit this doc was generated from, necessarily pre-merge for the PR that carries this change; it will differ from live main's HEAD immediately after that PR merges by design, since a PR's own merge commit does not exist yet at generation time. Not a staleness signal; see the freshness gate for what actually indicates staleness.)
-- Total scaffold-debt entries (all rules, current inventory): 19
-- Unique affected daf: 4
-- Tracked daf in status table: 93 (89 resolved, 4 open)
+- Current VERSION: 15.287
+- Generated from commit: 5621cf6 (the commit this doc was generated from, necessarily pre-merge for the PR that carries this change; it will differ from live main's HEAD immediately after that PR merges by design, since a PR's own merge commit does not exist yet at generation time. Not a staleness signal; see the freshness gate for what actually indicates staleness.)
+- Total scaffold-debt entries (all rules, current inventory): 14
+- Unique affected daf: 3
+- Tracked daf in status table: 93 (90 resolved, 3 open)
 - Current next reconstruction target: none - all tracked daf resolved
 - Rule families: scaffold-prefix / line-number-scaffold / hebrew-passthrough (the original "Rashi: opens ..." family) and plain-meta-scaffold (the same translator-position narration without the literal word "Rashi": "Opens 'X':", "continuing:", "closing:", "Then opens").
 - Historical narrative sections below ("Batch N findings", per-daf "resolved" write-ups) are preserved as historical fact; they do NOT reflect current status. The table above and this summary are the only current-truth sections.
@@ -62,99 +62,99 @@ Context on the two rule families tracked in the table:
 <!-- scaffold-status-table:begin (regenerate with `python3 scripts/generate_rashi_docs.py`; do not hand-edit rows) -->
 | daf | contaminated | total | severity | task recommendation | status | last verified |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2b | 5 | 29 | 17% | rashi-repair (after fresh semantic verification) | open | 980c687 |
-| 3a | 2 | 38 | 5% | rashi-repair (after fresh semantic verification) | open | 980c687 |
-| 3b | 11 | 49 | 22% | rashi-reconstruction | open | 980c687 |
-| 4a | 0 | 56 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 7b | 1 | 18 | 6% | rashi-repair (after fresh semantic verification) | open | 980c687 |
-| 10a | 0 | 35 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 10b | 0 | 21 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 11a | 0 | 43 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 11b | 0 | 39 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 12a | 0 | 66 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 12b | 0 | 62 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 13a | 0 | 29 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 13b | 0 | 28 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 14a | 0 | 58 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 14b | 0 | 59 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 15a | 0 | 66 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 15b | 0 | 66 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 16a | 0 | 61 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 16b | 0 | 62 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 17a | 0 | 45 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 17b | 0 | 33 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 18a | 0 | 58 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 18b | 0 | 34 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 19a | 0 | 58 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 19b | 0 | 68 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 20a | 0 | 41 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 20b | 0 | 62 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 21a | 0 | 62 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 21b | 0 | 46 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 22a | 0 | 65 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 22b | 0 | 35 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 23a | 0 | 45 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 23b | 0 | 65 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 24a | 0 | 47 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 24b | 0 | 65 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 25a | 0 | 61 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 25b | 0 | 62 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 26a | 0 | 42 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 26b | 0 | 61 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 27a | 0 | 53 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 27b | 0 | 44 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 28a | 0 | 45 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 28b | 0 | 79 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 29a | 0 | 56 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 29b | 0 | 54 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 30a | 0 | 54 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 30b | 0 | 51 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 31a | 0 | 37 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 31b | 0 | 63 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 32a | 0 | 62 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 32b | 0 | 55 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 33a | 0 | 64 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 33b | 0 | 60 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 34a | 0 | 46 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 34b | 0 | 40 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 35a | 0 | 14 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 35b | 0 | 58 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 36a | 0 | 54 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 36b | 0 | 62 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 37a | 0 | 71 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 37b | 0 | 25 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 38a | 0 | 37 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 38b | 0 | 49 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 39a | 0 | 59 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 39b | 0 | 65 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 40a | 0 | 65 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 40b | 0 | 43 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 41b | 0 | 74 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 42a | 0 | 52 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 42b | 0 | 60 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 43a | 0 | 65 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 43b | 0 | 59 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 44a | 0 | 60 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 44b | 0 | 60 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 45a | 0 | 44 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 45b | 0 | 29 | 0% | rashi-repair (after fresh semantic verification) | resolved | 980c687 |
-| 46a | 0 | 32 | 0% | rashi-repair (after fresh semantic verification) | resolved | 980c687 |
-| 47a | 0 | 64 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 47b | 0 | 65 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 48a | 0 | 42 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 48b | 0 | 26 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 49a | 0 | 64 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 49b | 0 | 21 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 72a | 0 | 31 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 72b | 0 | 100 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 73a | 0 | 65 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 73b | 0 | 58 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 74a | 0 | 55 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 74b | 0 | 42 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 75a | 0 | 49 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 75b | 0 | 46 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 76a | 0 | 47 | 0% | none (repaired and verified) | resolved | 980c687 |
-| 76b | 0 | 44 | 0% | none (repaired and verified) | resolved | 980c687 |
+| 2b | 0 | 29 | 0% | rashi-repair (after fresh semantic verification) | resolved | 5621cf6 |
+| 3a | 2 | 38 | 5% | rashi-repair (after fresh semantic verification) | open | 5621cf6 |
+| 3b | 11 | 49 | 22% | rashi-reconstruction | open | 5621cf6 |
+| 4a | 0 | 56 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 7b | 1 | 18 | 6% | rashi-repair (after fresh semantic verification) | open | 5621cf6 |
+| 10a | 0 | 35 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 10b | 0 | 21 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 11a | 0 | 43 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 11b | 0 | 39 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 12a | 0 | 66 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 12b | 0 | 62 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 13a | 0 | 29 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 13b | 0 | 28 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 14a | 0 | 58 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 14b | 0 | 59 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 15a | 0 | 66 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 15b | 0 | 66 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 16a | 0 | 61 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 16b | 0 | 62 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 17a | 0 | 45 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 17b | 0 | 33 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 18a | 0 | 58 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 18b | 0 | 34 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 19a | 0 | 58 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 19b | 0 | 68 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 20a | 0 | 41 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 20b | 0 | 62 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 21a | 0 | 62 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 21b | 0 | 46 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 22a | 0 | 65 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 22b | 0 | 35 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 23a | 0 | 45 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 23b | 0 | 65 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 24a | 0 | 47 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 24b | 0 | 65 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 25a | 0 | 61 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 25b | 0 | 62 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 26a | 0 | 42 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 26b | 0 | 61 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 27a | 0 | 53 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 27b | 0 | 44 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 28a | 0 | 45 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 28b | 0 | 79 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 29a | 0 | 56 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 29b | 0 | 54 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 30a | 0 | 54 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 30b | 0 | 51 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 31a | 0 | 37 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 31b | 0 | 63 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 32a | 0 | 62 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 32b | 0 | 55 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 33a | 0 | 64 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 33b | 0 | 60 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 34a | 0 | 46 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 34b | 0 | 40 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 35a | 0 | 14 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 35b | 0 | 58 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 36a | 0 | 54 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 36b | 0 | 62 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 37a | 0 | 71 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 37b | 0 | 25 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 38a | 0 | 37 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 38b | 0 | 49 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 39a | 0 | 59 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 39b | 0 | 65 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 40a | 0 | 65 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 40b | 0 | 43 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 41b | 0 | 74 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 42a | 0 | 52 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 42b | 0 | 60 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 43a | 0 | 65 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 43b | 0 | 59 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 44a | 0 | 60 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 44b | 0 | 60 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 45a | 0 | 44 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 45b | 0 | 29 | 0% | rashi-repair (after fresh semantic verification) | resolved | 5621cf6 |
+| 46a | 0 | 32 | 0% | rashi-repair (after fresh semantic verification) | resolved | 5621cf6 |
+| 47a | 0 | 64 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 47b | 0 | 65 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 48a | 0 | 42 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 48b | 0 | 26 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 49a | 0 | 64 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 49b | 0 | 21 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 72a | 0 | 31 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 72b | 0 | 100 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 73a | 0 | 65 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 73b | 0 | 58 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 74a | 0 | 55 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 74b | 0 | 42 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 75a | 0 | 49 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 75b | 0 | 46 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 76a | 0 | 47 | 0% | none (repaired and verified) | resolved | 5621cf6 |
+| 76b | 0 | 44 | 0% | none (repaired and verified) | resolved | 5621cf6 |
 <!-- scaffold-status-table:end -->
 
 The remediation campaign runs one daf per PR (order and per-batch bounds in
