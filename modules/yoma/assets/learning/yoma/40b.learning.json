@@ -1,610 +1,615 @@
 {
-  "daf": "40b",
-  "canonicalRef": "Yoma 40b",
-  "summary": "40b analyzes 'the live goat shall stand before God' - until the KG confesses over it; gives the third confession text (covering all Israel); then examines replacement scenarios for when the Azazel or God-goat dies or the pair gets mixed up, with rulings depending on whether blood sprinkling had already occurred.",
-  "review": "reviewed",
-  "sugyot": [
+ "daf": "40b",
+ "canonicalRef": "Yoma 40b",
+ "summary": "40b analyzes 'the live goat shall stand before God' - until the KG confesses over it; gives the third confession text (covering all Israel); then examines replacement scenarios for when the Azazel or God-goat dies or the pair gets mixed up, with rulings depending on whether blood sprinkling had already occurred.",
+ "review": "reviewed",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-040b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 29
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-040b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 29
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.40b.1"
-        },
-        {
-          "vilnaLine": 4,
-          "sefariaRef": "Yoma.40b.2"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.40b.3"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.40b.4"
-        },
-        {
-          "vilnaLine": 11,
-          "sefariaRef": "Yoma.40b.5"
-        },
-        {
-          "vilnaLine": 15,
-          "sefariaRef": "Yoma.40b.6"
-        },
-        {
-          "vilnaLine": 17,
-          "sefariaRef": "Yoma.40b.7"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.40b.8"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.40b.9"
-        },
-        {
-          "vilnaLine": 25,
-          "sefariaRef": "Yoma.40b.10"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.40b.11"
-        },
-        {
-          "vilnaLine": 29,
-          "sefariaRef": "Yoma.40b.12"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.40b.1",
-        "Yoma.40b.2",
-        "Yoma.40b.3",
-        "Yoma.40b.4",
-        "Yoma.40b.5",
-        "Yoma.40b.6",
-        "Yoma.40b.7",
-        "Yoma.40b.8",
-        "Yoma.40b.9",
-        "Yoma.40b.10",
-        "Yoma.40b.11",
-        "Yoma.40b.12"
-      ],
-      "display": {
-        "whats": "The live goat stands before God until when? The KG's confession over it; the full confession text.",
-        "hint": "The live goat stands in the Azarah until the KG confesses over it; the third confession text covers all Israel.",
-        "title": "The Live Goat's Standing and the Third Confession"
-      },
-      "learning": {
-        "ahaMoment": "The third confession is the culmination: it covers all Israel. The live goat, laden with the nation's sins, then goes to the wilderness.",
-        "memoryAnchor": "Third confession: chatati aviti pashati, I + household + kohanim + all Israel - the goat carries it all.",
-        "learnerQuestion": "Until what point in the service must the live goat 'stand before God,' and what does the third confession cover?",
-        "coreTension": "The verse requires the goat to 'stand before God to atone,' but does not specify an endpoint, leaving open exactly how long that standing requirement lasts within the unfolding service.",
-        "coreMove": "The Gemara answers that the standing requirement lasts until the KG's third confession over the goat, then gives that confession's expanding text, covering the KG, his household, the priests, and finally all of Israel, before the goat is sent to the wilderness.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The live goat must stand before God until the Kohen Gadol's third confession is recited over it, a confession that, unlike the first two, extends to cover all of Israel, after which the goat is sent away."
-        },
-        "learningBlocker": "Learners may assume the goat's required presence ends whenever it is physically sent off, missing that the Gemara ties the standing requirement specifically to the confession's recitation, not to the departure itself."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-040b-l01",
-          "type": "question",
-          "label": "Question: Until when must the live goat stand",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040b-l01",
-              "vilnaLine": 1
-            }
-          ],
-          "text": "Until when must the live goat stand before God (Lev. 16:10)?"
-        },
-        {
-          "id": "yoma-040b-l04",
-          "type": "resolution",
-          "label": "Resolution: Until the KG makes the third confession",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040b-l04",
-              "vilnaLine": 4
-            }
-          ],
-          "text": "Until the KG makes the third confession over it."
-        },
-        {
-          "id": "yoma-040b-l07",
-          "type": "ruling",
-          "label": "Ruling: The text of the third confession: chatati",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040b-l07",
-              "vilnaLine": 7
-            }
-          ],
-          "text": "The text of the third confession: chatati aviti pashati - I, my household, the sons of Aaron, and all Israel."
-        },
-        {
-          "id": "yoma-040b-l09",
-          "type": "elaboration",
-          "label": "Elaboration: After this confession the congregation responds with",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040b-l09",
-              "vilnaLine": 9
-            }
-          ],
-          "text": "After this confession the congregation responds with Baruch Shem."
-        },
-        {
-          "id": "yoma-040b-l11",
-          "type": "elaboration",
-          "label": "Elaboration: The KG then sends the goat to",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040b-l11",
-              "vilnaLine": 11
-            }
-          ],
-          "text": "The KG then sends the goat to the uninhabited wilderness via the appointed handler."
-        },
-        {
-          "id": "yoma-040b-l15",
-          "type": "elaboration",
-          "label": "Elaboration: If the Azazel goat dies before being",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040b-l15",
-              "vilnaLine": 15
-            }
-          ],
-          "text": "If the Azazel goat dies before being sent, a replacement must be found."
-        },
-        {
-          "id": "yoma-040b-l17",
-          "type": "elaboration",
-          "label": "Elaboration: If it gets lost on the way,",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040b-l17",
-              "vilnaLine": 17
-            }
-          ],
-          "text": "If it gets lost on the way, it must be replaced."
-        },
-        {
-          "id": "yoma-040b-l20",
-          "type": "elaboration",
-          "label": "Elaboration: What if the goat for God dies?",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040b-l20",
-              "vilnaLine": 20
-            }
-          ],
-          "text": "What if the goat for God dies? A replacement is needed."
-        },
-        {
-          "id": "yoma-040b-l22",
-          "type": "elaboration",
-          "label": "Elaboration: Various scenarios of goat death or exchange",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040b-l22",
-              "vilnaLine": 22
-            }
-          ],
-          "text": "Various scenarios of goat death or exchange are analyzed."
-        },
-        {
-          "id": "yoma-040b-l25",
-          "type": "elaboration",
-          "label": "Elaboration: If the goats got mixed up before",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040b-l25",
-              "vilnaLine": 25
-            }
-          ],
-          "text": "If the goats got mixed up before the lot, a new pair must be drawn."
-        },
-        {
-          "id": "yoma-040b-l27",
-          "type": "elaboration",
-          "label": "Elaboration: If mixed up after the lot but",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040b-l27",
-              "vilnaLine": 27
-            }
-          ],
-          "text": "If mixed up after the lot but before sprinkling, they must be re-drawn."
-        },
-        {
-          "id": "yoma-040b-l29",
-          "type": "ruling",
-          "label": "Ruling: The goats are designated specifically; if mixed",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-040b-l29",
-              "vilnaLine": 29
-            }
-          ],
-          "text": "The goats are designated specifically; if mixed up or one dies, replacements are needed based on timing."
-        }
-      ],
-      "topicTags": [
-        "Yom Kippur",
-        "live goat",
-        "third confession",
-        "Azazel"
-      ],
-      "concepts": {
-        "halachic": [
-          "live goat's required presence",
-          "replacement goat scenarios",
-          "mixed-up goat scenarios"
-        ],
-        "theological": [
-          "third confession covering all Israel"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Azazel goat",
-        "third Yom Kippur confession",
-        "sair hamishtaleiach"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The Azazel goat only needs to be present and alive at the moment it is sent to the wilderness; its presence earlier in the service is optional.",
-          "correction": "The Gemara derives from the verse that the goat must stand before God continuously through the service, specifically until the Kohen Gadol's third confession is recited over it. Its presence is required throughout that period, not just at the moment of sending, which is why the Gemara then addresses what happens if the goat dies or is lost beforehand.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [
-        "yoma-041b-s02"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "description": "Third confession over live goat → congregation responds → handler takes goat to wilderness"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "type": "factual",
-          "question": "What is the third Yom Kippur confession?",
-          "answer": "'Chatati, aviti, pashati before You - I, my household, the sons of Aaron Your holy people, and all Israel Your nation' - said over the live Azazel goat."
-        }
-      ],
-      "finalRuling": "The third confession over the live goat covers all Israel; afterward the goat is sent to the wilderness.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.40b.1"
+    },
+    {
+     "vilnaLine": 4,
+     "sefariaRef": "Yoma.40b.2"
+    },
+    {
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.40b.3"
+    },
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.40b.4"
+    },
+    {
+     "vilnaLine": 11,
+     "sefariaRef": "Yoma.40b.5"
+    },
+    {
+     "vilnaLine": 15,
+     "sefariaRef": "Yoma.40b.6"
+    },
+    {
+     "vilnaLine": 17,
+     "sefariaRef": "Yoma.40b.7"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.40b.8"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.40b.9"
+    },
+    {
+     "vilnaLine": 25,
+     "sefariaRef": "Yoma.40b.10"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.40b.11"
+    },
+    {
+     "vilnaLine": 29,
+     "sefariaRef": "Yoma.40b.12"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.40b.1",
+    "Yoma.40b.2",
+    "Yoma.40b.3",
+    "Yoma.40b.4",
+    "Yoma.40b.5",
+    "Yoma.40b.6",
+    "Yoma.40b.7",
+    "Yoma.40b.8",
+    "Yoma.40b.9",
+    "Yoma.40b.10",
+    "Yoma.40b.11",
+    "Yoma.40b.12"
+   ],
+   "display": {
+    "whats": "The live goat stands before God until when? The KG's confession over it; the full confession text.",
+    "hint": "The live goat stands in the Azarah until the KG confesses over it; the third confession text covers all Israel.",
+    "title": "The Live Goat's Standing and the Third Confession"
+   },
+   "learning": {
+    "ahaMoment": "The third confession is the culmination: it covers all Israel. The live goat, laden with the nation's sins, then goes to the wilderness.",
+    "memoryAnchor": "Third confession: chatati aviti pashati, I + household + kohanim + all Israel - the goat carries it all.",
+    "learnerQuestion": "Until what point in the service must the live goat 'stand before God,' and what does the third confession cover?",
+    "coreTension": "The verse requires the goat to 'stand before God to atone,' but does not specify an endpoint, leaving open exactly how long that standing requirement lasts within the unfolding service.",
+    "coreMove": "The Gemara answers that the standing requirement lasts until the KG's third confession over the goat, then gives that confession's expanding text, covering the KG, his household, the priests, and finally all of Israel, before the goat is sent to the wilderness.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The live goat must stand before God until the Kohen Gadol's third confession is recited over it, a confession that, unlike the first two, extends to cover all of Israel, after which the goat is sent away."
+    },
+    "learningBlocker": "Learners may assume the goat's required presence ends whenever it is physically sent off, missing that the Gemara ties the standing requirement specifically to the confession's recitation, not to the departure itself."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "Opens 'he shall stand alive': by necessity, to teach us that if it dies you must bring another, for if not,",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l01"
-      ]
+     "id": "yoma-040b-l01",
+     "type": "question",
+     "label": "Question: Until when must the live goat stand",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040b-l01",
+       "vilnaLine": 1
+      }
+     ],
+     "text": "Until when must the live goat stand before God (Lev. 16:10)?"
     },
     {
-      "vilnaLine": 2,
-      "en": "continuing: what would it come for? If you say it is only so that he not send it away before the sprinkling of the blood, let it write",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l01"
-      ]
+     "id": "yoma-040b-l04",
+     "type": "resolution",
+     "label": "Resolution: Until the KG makes the third confession",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040b-l04",
+       "vilnaLine": 4
+      }
+     ],
+     "text": "Until the KG makes the third confession over it."
     },
     {
-      "vilnaLine": 3,
-      "en": "continuing: 'he shall stand before the Lord to atone for him' - why do I need 'alive'? Rather, it teaches that if it dies you must bring",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l01"
-      ]
+     "id": "yoma-040b-l07",
+     "type": "ruling",
+     "label": "Ruling: The text of the third confession: chatati",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040b-l07",
+       "vilnaLine": 7
+      }
+     ],
+     "text": "The text of the third confession: chatati aviti pashati - I, my household, the sons of Aaron, and all Israel."
     },
     {
-      "vilnaLine": 4,
-      "en": "closing: another.' Then opens 'and until when did they require it to remain alive - until the moment of the sprinkling of the blood of its fellow'",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l01"
-      ]
+     "id": "yoma-040b-l09",
+     "type": "elaboration",
+     "label": "Elaboration: After this confession the congregation responds with",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040b-l09",
+       "vilnaLine": 9
+      }
+     ],
+     "text": "After this confession the congregation responds with Baruch Shem."
     },
     {
-      "vilnaLine": 5,
-      "en": "continuing: as it is written 'to atone,' meaning until he atones with the blood of",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l01"
-      ]
+     "id": "yoma-040b-l11",
+     "type": "elaboration",
+     "label": "Elaboration: The KG then sends the goat to",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040b-l11",
+       "vilnaLine": 11
+      }
+     ],
+     "text": "The KG then sends the goat to the uninhabited wilderness via the appointed handler."
     },
     {
-      "vilnaLine": 6,
-      "en": "continuing: its fellow, but from the moment of the sprinkling of the blood onward,",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l01"
-      ]
+     "id": "yoma-040b-l15",
+     "type": "elaboration",
+     "label": "Elaboration: If the Azazel goat dies before being",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040b-l15",
+       "vilnaLine": 15
+      }
+     ],
+     "text": "If the Azazel goat dies before being sent, a replacement must be found."
     },
     {
-      "vilnaLine": 7,
-      "en": "continuing: even though he has not yet confessed, following the order of the verses -",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l01"
-      ]
+     "id": "yoma-040b-l17",
+     "type": "elaboration",
+     "label": "Elaboration: If it gets lost on the way,",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040b-l17",
+       "vilnaLine": 17
+      }
+     ],
+     "text": "If it gets lost on the way, it must be replaced."
     },
     {
-      "vilnaLine": 8,
-      "en": "continuing: 'and when he has finished atoning,' etc. (Leviticus 16),",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l01"
-      ]
+     "id": "yoma-040b-l20",
+     "type": "elaboration",
+     "label": "Elaboration: What if the goat for God dies?",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040b-l20",
+       "vilnaLine": 20
+      }
+     ],
+     "text": "What if the goat for God dies? A replacement is needed."
     },
     {
-      "vilnaLine": 9,
-      "en": "continuing: 'and Aaron shall lean,' etc. - if it dies, no need for",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l01"
-      ]
+     "id": "yoma-040b-l22",
+     "type": "elaboration",
+     "label": "Elaboration: Various scenarios of goat death or exchange",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040b-l22",
+       "vilnaLine": 22
+      }
+     ],
+     "text": "Various scenarios of goat death or exchange are analyzed."
     },
     {
-      "vilnaLine": 10,
-      "en": "closing: another, implying that the confession is not indispensable.' Then opens 'Rabbi'",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l01"
-      ]
+     "id": "yoma-040b-l25",
+     "type": "elaboration",
+     "label": "Elaboration: If the goats got mixed up before",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040b-l25",
+       "vilnaLine": 25
+      }
+     ],
+     "text": "If the goats got mixed up before the lot, a new pair must be drawn."
     },
     {
-      "vilnaLine": 11,
-      "en": "continuing: Shimon says,' etc.: as I will explain the reason further on,",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l01"
-      ]
+     "id": "yoma-040b-l27",
+     "type": "elaboration",
+     "label": "Elaboration: If mixed up after the lot but",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040b-l27",
+       "vilnaLine": 27
+      }
+     ],
+     "text": "If mixed up after the lot but before sprinkling, they must be re-drawn."
     },
     {
-      "vilnaLine": 12,
-      "en": "continuing: and I have heard it, and they follow their own reasoning",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "closing: regarding whether the lottery is indispensable or not, and it is not possible to sustain it.'",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l01"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Opens 'and so it says: and when he has finished atoning for the Sanctuary'",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l04"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "continuing: this refers to the sprinkling of the blood, 'and he shall offer the live goat' -",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l04"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "closing: up to that point it must remain alive.'",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l04"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Opens 'to atone for him': the atonement",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "closing: imposed upon it, the verse speaks of, and this is the confession.'",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l07"
-      ]
-    },
-    {
-      "vilnaLine": 19,
-      "en": "Opens 'it came up in the left hand': the lot for the divine Name.'",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Opens 'do not give an opening to the Sadducees': students",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 21,
-      "en": "continuing: who dispute the Torah, to dominate and rule",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 22,
-      "en": "continuing: over you, to belittle you with words they would say,",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 23,
-      "en": "closing: that everything is done according to their own will.' Then opens 'is it not'",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l09"
-      ]
-    },
-    {
-      "vilnaLine": 24,
-      "en": "closing: that we return it': to Azazel's designation.' Then opens 'since'",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l11"
-      ]
-    },
-    {
-      "vilnaLine": 25,
-      "en": "continuing: it came up': from within the urn, and it is known which is for the Name",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l17"
-      ]
-    },
-    {
-      "vilnaLine": 26,
-      "en": "continuing: and which is for Azazel, one no longer needs it to be",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l17"
-      ]
-    },
-    {
-      "vilnaLine": 27,
-      "en": "continuing: placed upon it, even for the sake of the mitzvah; but the rising",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l17"
-      ]
-    },
-    {
-      "vilnaLine": 28,
-      "en": "closing: and the placing are, at any rate, each a mitzvah.'",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l17"
-      ]
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Opens 'and not the naming': if he called it by a name without a lottery.'",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l25"
-      ]
-    },
-    {
-      "vilnaLine": 30,
-      "en": "Opens 'in a case where the lottery did not sanctify': in the other",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 31,
-      "en": "continuing: offerings requiring specification, such as the nest-offerings of",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 32,
-      "en": "continuing: zavim, zavot, and women after childbirth, where one is a sin-offering",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 33,
-      "en": "continuing: and one is a burnt-offering, where the lottery did not sanctify - if",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 34,
-      "en": "continuing: he wrote on two lots, on one 'sin-offering' and on",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 35,
-      "en": "continuing: the other 'burnt-offering,' and placed them upon them, we do not find that the lottery",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 36,
-      "en": "closing: establishes them, and he cannot change them.' Then opens 'the naming'",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 37,
-      "en": "continuing: sanctified': once he has called this one a sin-offering",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 38,
-      "en": "continuing: and that one a burnt-offering, the priest may not change them,",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 39,
-      "en": "continuing: as we say further on (41a): from 'and he shall take'",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 40,
-      "en": "continuing: two turtledoves or two young pigeons, one",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 41,
-      "en": "continuing: for a burnt-offering and one for a sin-offering, at the time of taking they are established, this one for the burnt-offering",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 42,
-      "en": "closing: and that one for the sin-offering; here, since we find that the lottery establishes them, is it not logical that the naming should establish them?'",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l27"
-      ]
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Opens 'unspecified' -",
-      "linkedGemaraLineIds": [
-        "yoma-040b-l29"
-      ]
+     "id": "yoma-040b-l29",
+     "type": "ruling",
+     "label": "Ruling: The goats are designated specifically; if mixed",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-040b-l29",
+       "vilnaLine": 29
+      }
+     ],
+     "text": "The goats are designated specifically; if mixed up or one dies, replacements are needed based on timing."
     }
-  ]
+   ],
+   "topicTags": [
+    "Yom Kippur",
+    "live goat",
+    "third confession",
+    "Azazel"
+   ],
+   "concepts": {
+    "halachic": [
+     "live goat's required presence",
+     "replacement goat scenarios",
+     "mixed-up goat scenarios"
+    ],
+    "theological": [
+     "third confession covering all Israel"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Azazel goat",
+    "third Yom Kippur confession",
+    "sair hamishtaleiach"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The Azazel goat only needs to be present and alive at the moment it is sent to the wilderness; its presence earlier in the service is optional.",
+     "correction": "The Gemara derives from the verse that the goat must stand before God continuously through the service, specifically until the Kohen Gadol's third confession is recited over it. Its presence is required throughout that period, not just at the moment of sending, which is why the Gemara then addresses what happens if the goat dies or is lost beforehand.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [
+    "yoma-041b-s02"
+   ],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "description": "Third confession over live goat → congregation responds → handler takes goat to wilderness"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "type": "factual",
+     "question": "What is the third Yom Kippur confession?",
+     "answer": "'Chatati, aviti, pashati before You - I, my household, the sons of Aaron Your holy people, and all Israel Your nation' - said over the live Azazel goat."
+    }
+   ],
+   "finalRuling": "The third confession over the live goat covers all Israel; afterward the goat is sent to the wilderness.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "He shall stand alive - this necessarily teaches us that if it dies you must bring another, for if not,",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "what would it come to teach? If you say it is only so that he not send it away before the sprinkling of the blood, then let it write",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "'he shall stand before the Lord to atone for him' - why do I need 'alive'? Rather, it teaches that if it dies, you must bring",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "another. And until when did they require it to remain alive - until the moment of the sprinkling of the blood of its fellow,",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "as it is written, 'to atone,' meaning until he atones with the blood of",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "its fellow; but from the moment of the sprinkling of the blood onward,",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "even though he has not yet confessed - following the order of the verses,",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "'and when he has finished atoning,' etc. (Leviticus 16),",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "'and Aaron shall lean,' etc. - if it dies, there is no need for",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "another; this shows that the confession is not indispensable. Rabbi",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "Shimon says, etc. - as I will explain the reason further on,",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "and I have heard it, and they follow their own reasoning",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "regarding whether the lottery is indispensable or not, and it is not possible to establish it otherwise.",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "And so it says, and when he has finished atoning for the Sanctuary -",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l01",
+    "yoma-040b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "this refers to the sprinkling of the blood; and he shall offer the live goat -",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "up to that point it must remain alive.",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "To atone for him - the verse speaks of the atonement",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l04",
+    "yoma-040b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "incumbent upon him, and this is the confession.",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l07"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "It came up in the left hand - the lot for the divine Name.",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l07",
+    "yoma-040b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "Do not give an opening to the Sadducees - students",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "who dispute the Torah, to dominate and rule over you,",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "saying that everything is done merely according to their own will, thereby undermining you with their words.",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "Is it not that we return it -",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l09",
+    "yoma-040b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "the one designated for Azazel, to the Name. Since",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l11",
+    "yoma-040b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "it came up - from within the urn, and it is known which is for the Name",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "and which is for Azazel, one no longer needs it to be",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "placed upon the goat, even merely for the sake of the mitzvah; but the rising",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "and the placing are, at any rate, each their own mitzvah.",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "And not the naming - if he called it by a name without a lottery.",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l25"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "In a case where the lottery did not sanctify - in other",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "offerings requiring specification, such as the bird-offerings of",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "zavim, zavot, and women after childbirth, where one is a sin-offering",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "and one is a burnt-offering, the lottery does not sanctify them; if",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "he wrote on two lots, on one 'sin-offering' and on",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "the other 'burnt-offering,' and placed them upon the birds, we do not find that the lottery",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "establishes them, and he can still change them. The naming",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "sanctified - once he has called this one a sin-offering",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "and that one a burnt-offering, the priest may not change them,",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "as we say further on (41a) from the verse, 'and he shall take'",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "two turtledoves or two young pigeons, one",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "for a burnt-offering and one for a sin-offering: at the time of taking they are established, this one for the burnt-offering",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "and that one for the sin-offering; here, since we find that the lottery establishes them, is it not logical that the naming should establish them too?",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "Unspecified - the daf ends mid-word here; the comment (identifying the anonymous Torat Kohanim source as Rabbi Yehuda's own view, matching this daf's own closing teaching that the lottery, not the naming, makes the goat a sin-offering) continues on 41a.",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l29"
+   ]
+  }
+ ]
 }
