@@ -157793,11 +157793,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 1,
         he: "וסיפא איצטריך ליה. שינה דנקט משום דבעי לאשמועינן שמותר",
-        en: "And the latter clause was needed - 'sleep' is mentioned because it needs to teach that it is permitted to place them under his head; and we do not care if he passes wind after removing them.",
+        en: "'And the latter clause was needed for it' - he changed his wording, using 'sleep,' because he wanted to teach us that it is permitted",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l01"
+        ]
       },
       {
         id: "rashi-yoma-069a-002",
@@ -157805,11 +157807,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 2,
         he: "ליתנן תחת ראשיהן ותו לא איכפת לן אם יפיח מאחר שפושטן:",
-        en: "Against his head - near his head.",
+        en: "to place them under their heads, and moreover we do not care if he passes wind, since he has already removed them.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l01"
+        ]
       },
       {
         id: "rashi-yoma-069a-003",
@@ -157817,11 +157821,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 3,
         he: "כנגד ראשיהן. אצל ראשיהן: שמע מיניה. מדמותר להניחן אצלו",
-        en: "Learn from this - since he is permitted to place them near him, he is not concerned that he might pass wind.",
+        en: "'Alongside their heads' - near their heads. 'Learn from this' - since it is permitted to place them near him,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l02"
+        ]
       },
       {
         id: "rashi-yoma-069a-004",
@@ -157829,11 +157835,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 4,
         he: "לא חייש לשמא יפיח: תפילין מן הצד. להניחן אצלו כשהוא ישן:",
-        en: "Tefillin from the side - to place them near him when he sleeps.",
+        en: "he is not concerned lest he pass wind. 'Tefillin from the side' - to place them near him when he is sleeping.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l02"
+        ]
       },
       {
         id: "rashi-yoma-069a-005",
@@ -157841,11 +157849,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 5,
         he: "הניחא. האי דלא חייש לכלאים למאן",
-        en: "This works well - the reason he is not concerned about shatnez (mixed fibers) is according to the one who says.",
+        en: "'This works well' - the reason he is not concerned about shatnez is according to the one who",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l11"
+        ]
       },
       {
         id: "rashi-yoma-069a-006",
@@ -157853,11 +157863,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 6,
         he: "דאמר אבנטו של כהן גדול ביום",
-        en: "That the HP's belt on Yom Kippur, which is of linen, is the same as the ordinary priest's belt all year round.",
+        en: "says that the High Priest's belt on the day of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l11"
+        ]
       },
       {
         id: "rashi-yoma-069a-007",
@@ -157865,11 +157877,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 7,
         he: "הכפורים שהוא של בוץ זהו אבנטו",
-        en: "And there is no shatnez in an ordinary priest's vestments.",
+        en: "Atonement, which is of linen, is the same as the belt",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l11"
+        ]
       },
       {
         id: "rashi-yoma-069a-008",
@@ -157877,11 +157891,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 8,
         he: "של הדיוט כל ימות השנה ואין כלאים",
-        en: "That the ordinary priest's garments all year are of shatnez.",
+        en: "of the ordinary priest all the days of the year, and there is no shatnez",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l11"
+        ]
       },
       {
         id: "rashi-yoma-069a-009",
@@ -157889,11 +157905,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 9,
         he: "בבגדי כהן הדיוט שפיר: לא זהו וכו'.",
-        en: "It is difficult - if the ordinary priest's belt is of shatnez all year.",
+        en: "in the ordinary priest's garments - fine. 'It is not the same,' etc. -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l11"
+        ]
       },
       {
         id: "rashi-yoma-069a-010",
@@ -157901,11 +157919,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 10,
         he: "דשל הדיוט כל השנה של כלאים:",
-        en: "Hard they are - and do not warm; therefore they do not constitute shatnez (since shatnez is about warmth).",
+        en: "for the ordinary priest's belt all year is indeed of shatnez.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l11"
+        ]
       },
       {
         id: "rashi-yoma-069a-011",
@@ -157913,11 +157933,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 11,
         he: "קשים הם. ואינן מחממין לפיכך אין",
-        en: "Namta - felt. In the vernacular: palteira.",
+        en: "'They are hard' - and they do not provide warmth; therefore there is no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l22"
+        ]
       },
       {
         id: "rashi-yoma-069a-012",
@@ -157925,11 +157947,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 12,
         he: "בהן משום כלאים: נמטא. לבד",
-        en: "Gamda - hard.",
+        en: "concern of shatnez in them. 'Namta' - felt,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l22"
+        ]
       },
       {
         id: "rashi-yoma-069a-013",
@@ -157937,11 +157961,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 13,
         he: "פלטר\"א בלע\"ז: גמדא. קשה: שרי.",
-        en: "It is permitted - there is no shatnez in it, because the prohibition of wearing applies to clothing that provides warmth.",
+        en: "'palteira' in the vernacular. 'Gamda' - hard. 'It is permitted' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l22"
+        ]
       },
       {
         id: "rashi-yoma-069a-014",
@@ -157949,11 +157975,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 14,
         he: "אין בו משום כלאים דהעלאה דומיא",
-        en: "And it is forbidden only when it gives warmth.",
+        en: "there is no shatnez in it, for the prohibition of wearing is like",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l22"
+        ]
       },
       {
         id: "rashi-yoma-069a-015",
@@ -157961,11 +157989,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 15,
         he: "דלבישה דאית בה הנאת חימום הוא",
-        en: "In the provinces it is forbidden - because it is worn in a mundane manner.",
+        en: "that of spreading beneath oneself, which applies only where there is the benefit of warmth,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l22"
+        ]
       },
       {
         id: "rashi-yoma-069a-016",
@@ -157973,11 +158003,14 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 16,
         he: "דאיתסר: למדינה אסור. שנוהג",
-        en: "Mount Gerizim - the place where the Samaritans (Kutim) dwelt.",
+        en: "and that is what is forbidden. 'In the provinces it is forbidden' - since it is treated",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l22",
+          "yoma-069a-l25"
+        ]
       },
       {
         id: "rashi-yoma-069a-017",
@@ -157985,11 +158018,14 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 17,
         he: "בה דרך חול: הר גריזים. מקום",
-        en: "A time to act for Hashem - when the time comes to do something for God's sake.",
+        en: "there in a mundane way. 'Mount Gerizim' - the place",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l25",
+          "yoma-069a-l27"
+        ]
       },
       {
         id: "rashi-yoma-069a-018",
@@ -157997,11 +158033,14 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 18,
         he: "מושבן של כותים: עת לעשות לה'.",
-        en: "It is permitted to suspend Torah law.",
+        en: "of dwelling of the Samaritans, the Kutim. 'A time to act for the Lord' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l27",
+          "yoma-069a-l41"
+        ]
       },
       {
         id: "rashi-yoma-069a-019",
@@ -158009,11 +158048,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 19,
         he: "כשבא עת לעשות דבר לשמו של מקום",
-        en: "To a student in the presence of the master - the synagogue head and the deputy HP may sit in the HP's presence without it diminishing honor of the master.",
+        en: "when the time comes to do something for the sake of the Omnipresent,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l41"
+        ]
       },
       {
         id: "rashi-yoma-069a-020",
@@ -158021,11 +158062,14 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 20,
         he: "מותר להפר בו תורה: לתלמיד",
-        en: "Because all this is for the honor of the HP - showing him that there is much authority below him; but generally one does not grant such honor.",
+        en: "it is permitted to override the Torah on its account. 'To a student",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l41",
+          "yoma-069a-l42"
+        ]
       },
       {
         id: "rashi-yoma-069a-021",
@@ -158033,11 +158077,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 21,
         he: "במקום הרב. לראש הכנסת ולסגן",
-        en: "All of this is for the honor of the HP.",
+        en: "in the place of the master' - the head of the synagogue and the deputy,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l42"
+        ]
       },
       {
         id: "rashi-yoma-069a-022",
@@ -158045,11 +158091,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 22,
         he: "בפני כהן גדול ואינו כממעט כבוד",
-        en: "Showing him that there are many ranks of authority beneath him - but generally one does not differentiate.",
+        en: "who may sit in the presence of the High Priest without this being considered a diminishing of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l42"
+        ]
       },
       {
         id: "rashi-yoma-069a-023",
@@ -158057,11 +158105,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 23,
         he: "הרב: כולה משום כבודו דכהן גדול.",
-        en: "Showing him that many ranks are below him, but generally no differentiation is made.",
+        en: "the master's honor. 'All of it is for the sake of the honor of the High Priest' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l42"
+        ]
       },
       {
         id: "rashi-yoma-069a-024",
@@ -158069,11 +158119,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 24,
         he: "מראין אותו שיש שררות הרבה למטה",
-        en: "All is for the HP's honor.",
+        en: "this is to show him that there is much authority beneath",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l42"
+        ]
       },
       {
         id: "rashi-yoma-069a-025",
@@ -158081,11 +158133,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 25,
         he: "ממנו אבל בעלמא אין חולקין:",
-        en: "To show him that there are many ranks of authority beneath him.",
+        en: "him, but ordinarily one does not grant such honor.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l42"
+        ]
       },
       {
         id: "rashi-yoma-069a-026",
@@ -158093,11 +158147,13 @@ const DAF_CONTENT = {
         daf: "69a",
         vilnaLine: 26,
         he: "אין",
-        en: "There is no.",
+        en: "'Indeed' - the comment is completed on 69b, explaining why the Mishnah's phrase 'and the High Priest stands' implies that ordinarily he sits.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069a-l44"
+        ]
       }
     ],
     review: "reviewed"
