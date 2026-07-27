@@ -136200,11 +136200,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 1,
         he: "ובגדי כהונה. ארבעה בגדי לבן דכ\"ג ביום הכפורים דכתיב בהו",
-        en: "Immersion and washing of hands and feet: each garment change requires immersion.",
+        en: "'And the garments of the priesthood' - the four white linen garments of the High Priest on Yom Kippur, about which it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l01"
+        ]
       },
       {
         id: "rashi-yoma-060a-002",
@@ -136212,11 +136214,14 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 2,
         he: "והניחם שם (ויקרא טז) : ראוין הן לכהן הדיוט. וקיימא לן בגדי",
-        en: "The HP immerses five times on Yom Kippur and washes hands and feet ten times.",
+        en: "'and he shall leave them there' (Leviticus 16). 'They are fit for a common priest' - and we hold that the priestly garments",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l01",
+          "yoma-060a-l04"
+        ]
       },
       {
         id: "rashi-yoma-060a-003",
@@ -136224,11 +136229,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 3,
         he: "כהונה אין בהן מעילה מפני שלא ניתנה תורה למלאכי השרת שיהו",
-        en: "Each immersion in a holy vessel (the gold water container in the Temple).",
+        en: "are not subject to misuse of sacred property, since the Torah was not given to ministering angels that they should be",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l04"
+        ]
       },
       {
         id: "rashi-yoma-060a-004",
@@ -136236,11 +136243,14 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 4,
         he: "זריזין לפושטן מיד: עגלה ערופה. כתיב בה שם שם תהא גניזתה:",
-        en: "Or in a regular mikveh - dispute between the sages.",
+        en: "diligent to remove them immediately. 'The broken-necked heifer' - it is written regarding it 'there,' meaning its burial must be there.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l04",
+          "yoma-060a-l06"
+        ]
       },
       {
         id: "rashi-yoma-060a-005",
@@ -136248,11 +136258,14 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 5,
         he: "הערופה. זו ולא אחרת: תלתא קראי",
-        en: "The immersions mark transitions between the garment-phases of the day.",
+        en: "'The broken-necked one' - this one and not another. 'Three verses are written' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l09",
+          "yoma-060a-l11"
+        ]
       },
       {
         id: "rashi-yoma-060a-006",
@@ -136260,11 +136273,14 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 6,
         he: "כתיבי. לכם לכפר הוא: חד למעוטי",
-        en: "Each change from white to gold or gold to white requires its own immersion.",
+        en: "[the extra words] 'to you,' 'to atone,' and 'it.' 'One to exclude from notar' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l11",
+          "yoma-060a-l12"
+        ]
       },
       {
         id: "rashi-yoma-060a-007",
@@ -136272,11 +136288,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 7,
         he: "מנותר. שאם אכל דם נותר בשוגג",
-        en: "This maintains the ritual purity required for each new phase of service.",
+        en: "that if one unwittingly ate blood that had become leftover (notar), one is liable for only one sin,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l12"
+        ]
       },
       {
         id: "rashi-yoma-060a-008",
@@ -136284,11 +136302,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 8,
         he: "אינו חייב אלא אחת משום דם וכן",
-        en: "Five immersions: the number corresponding to the five garment changes.",
+        en: "on account of the blood alone; and likewise if one ate blood of consecrated offerings while in a state of bodily impurity,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l12"
+        ]
       },
       {
         id: "rashi-yoma-060a-009",
@@ -136296,11 +136316,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 9,
         he: "אם אכל דם קדשים בטומאת הגוף",
-        en: "Actually four garment changes but five immersions - different counting systems.",
+        en: "which carries karet in all these cases, one is liable for only one sin,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l12"
+        ]
       },
       {
         id: "rashi-yoma-060a-010",
@@ -136308,11 +136330,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 10,
         he: "שהיא בכרת בכולן אינו חייב אלא",
-        en: "The ten hand-and-foot washings correspond to each entry and exit.",
+        en: "on account of the blood alone; and likewise if one was unwitting regarding the blood but deliberate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l12"
+        ]
       },
       {
         id: "rashi-yoma-060a-011",
@@ -136320,11 +136344,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 11,
         he: "אחת משום דם וכן אם שגג בדם",
-        en: "Washing before service and after service at specific transition points.",
+        en: "regarding one of these other prohibitions, one is exempt from karet",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l12"
+        ]
       },
       {
         id: "rashi-yoma-060a-012",
@@ -136332,11 +136358,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 12,
         he: "והזיד באחת מאלו פטור מכרת:",
-        en: "The hand-and-foot washing is like regular priestly preparation but intensified.",
+        en: "for that other prohibition.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l12"
+        ]
       },
       {
         id: "rashi-yoma-060a-013",
@@ -136344,11 +136372,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 13,
         he: "אבל מפיגול לא צריך למעוטי. שאם",
-        en: "Regular priests wash once before the morning service.",
+        en: "'But regarding piggul one does not need an exclusion' - for if one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-014",
@@ -136356,11 +136386,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 14,
         he: "אכל דם מקרבן פיגול ממילתא אחריתי",
-        en: "The HP washes ten times due to the multiple phases of Yom Kippur.",
+        en: "ate blood from an offering that became piggul, we derive from another matter entirely",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-015",
@@ -136368,11 +136400,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 15,
         he: "נפקא לן דפטור מכרת דפיגול: בין",
-        en: "All immersions sanctified - the HP maintains highest purity throughout.",
+        en: "that one is exempt from karet for piggul. 'Whether",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-016",
@@ -136380,11 +136414,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 16,
         he: "לאדם בין למזבח. שאחרים מתירין",
-        en: "The immersion is in holy water: from the laver (kiyor) in the Temple court.",
+        en: "for a person or for the altar' - meaning items that others permit,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-017",
@@ -136392,11 +136428,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 17,
         he: "אותן או לאכילת אדם כגון בשר",
-        en: "The HP's purity on Yom Kippur is the most stringent standard in Temple law.",
+        en: "either for human consumption, such as the meat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-018",
@@ -136404,11 +136442,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 18,
         he: "קדשים הנאכל שתלוי בזריקת הדם",
-        en: "This level of purity reflects the day's unique status.",
+        en: "of sacred offerings that is eaten, which depends on the tossing of the blood,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-019",
@@ -136416,11 +136456,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 19,
         he: "שכל זמן שלא נזרק אסור באכילה",
-        en: "The HP's body must be as pure as the space he enters.",
+        en: "since as long as the blood has not been tossed it is forbidden to eat,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-020",
@@ -136428,11 +136470,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 20,
         he: "כדכתיב ודם זבחיך ישפך (דברים יב)",
-        en: "On the day when he enters the innermost space, he must be the purest person.",
+        en: "as it is written, 'and the blood of your sacrifices shall be poured out' (Deuteronomy 12),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-021",
@@ -136440,11 +136484,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 21,
         he: "והדר והבשר תאכל או מתירין למזבח",
-        en: "The five immersions also serve a practical purpose: resetting between phases.",
+        en: "and afterward 'and you shall eat the meat'; or items that permit for the altar,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-022",
@@ -136452,11 +136498,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 22,
         he: "כגון אימורין שזריקת הדם מכשרתן",
-        en: "Moving from golden garments (outer service) to white (inner service) requires a fresh start.",
+        en: "such as the sacrificial portions, since the tossing of the blood renders them fit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-023",
@@ -136464,11 +136512,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 23,
         he: "למזבח כדכתיב (ויקרא יז) וזרק",
-        en: "The immersion is that fresh start - a physical reset between phases.",
+        en: "for the altar, as it is written (Leviticus 17), 'and shall dash'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-024",
@@ -136476,11 +136526,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 24,
         he: "הכהן את הדם על מזבח ה' והדר",
-        en: "After completing the scapegoat service: another immersion before the outer service.",
+        en: "the priest the blood against the altar of the Lord, and afterward",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-025",
@@ -136488,11 +136540,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 25,
         he: "והקטיר החלב לריח ניחוח חייבין",
-        en: "After the outer service: immersion before the reading.",
+        en: "burn the fat as a pleasing aroma' - one is liable",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-026",
@@ -136500,11 +136554,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 26,
         he: "עליו משום פיגול אם אכל מהן",
-        en: "After the reading: immersion before the closing inner service.",
+        en: "for piggul regarding them: if one eats from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-027",
@@ -136512,11 +136568,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 27,
         he: "מקרבן מפוגל חייב כרת דכתיב (שם ז)",
-        en: "And after the closing inner service: final immersion.",
+        en: "an offering that became piggul, one is liable for karet, as it is written (ibid. 7),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-028",
@@ -136524,11 +136582,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 28,
         he: "והנפש האוכלת ממנו עונה תשא",
-        en: "Each immersion marks a clean transition.",
+        en: "'and the person who eats from it shall bear his iniquity.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-029",
@@ -136536,11 +136596,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 29,
         he: "אבל מתיר את אחרים כגון הדם",
-        en: "The HP's body is the instrument of atonement.",
+        en: "But an item that itself permits others, such as the blood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-030",
@@ -136548,11 +136610,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 30,
         he: "והקומץ אין חייבין עליו משום פיגול",
-        en: "As an instrument, it must be constantly maintained and purified.",
+        en: "and the handful, one is not liable for piggul regarding it,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-031",
@@ -136560,11 +136624,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 31,
         he: "דגמרי' משלמים דפיגול בשלמים",
-        en: "The immersions maintain the instrument throughout the day.",
+        en: "for we derive from peace-offerings that piggul applies specifically to peace-offerings,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-032",
@@ -136572,11 +136638,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 32,
         he: "כתיב ושלמים יש להן מתירין למזבח",
-        en: "On no other day does any priest immerse five times.",
+        en: "since it is peace-offerings that have items permitting the altar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-033",
@@ -136584,11 +136652,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 33,
         he: "ומתירין לאדם שהדם מתיר את",
-        en: "This is the uniqueness of Yom Kippur for the HP.",
+        en: "and items permitting a person, for the blood permits",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-034",
@@ -136596,11 +136666,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 34,
         he: "אימוריהן למזבח ובשרם לאכילה:",
-        en: "He is not just the most important priest - he is the most pure on this day.",
+        en: "their sacrificial portions for the altar and their meat for eating.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l13"
+        ]
       },
       {
         id: "rashi-yoma-060a-035",
@@ -136608,11 +136680,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 35,
         he: "מתני' האמורין על הסדר.",
-        en: "His purity enables his service; his service enables Israel's atonement.",
+        en: "'Mishna: those acts stated' are performed 'in sequence' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l17"
+        ]
       },
       {
         id: "rashi-yoma-060a-036",
@@ -136620,11 +136694,14 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 36,
         he: "במשנתנו: וכן בהיכל. נתן מקצת",
-        en: "The sequence of immersions ensures this purity is maintained throughout.",
+        en: "as stated in our Mishna. 'And so too in the Sanctuary' - if he placed some of the sprinklings",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l17",
+          "yoma-060a-l22"
+        ]
       },
       {
         id: "rashi-yoma-060a-037",
@@ -136632,11 +136709,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 37,
         he: "מתנות על הפרוכת ונשפך הדם יביא",
-        en: "Dispute: must each immersion be in holy water, or is a regular mikveh sufficient?",
+        en: "on the curtain and the blood spilled, he must bring another bull and begin again the sprinklings",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l22"
+        ]
       },
       {
         id: "rashi-yoma-060a-038",
@@ -136644,11 +136723,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 38,
         he: "פר אחר ויתחיל מתנות הפרוכת ואין",
-        en: "Ben Measha and the Sages debate.",
+        en: "on the curtain, but he need not go back and start over",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l22"
+        ]
       },
       {
         id: "rashi-yoma-060a-039",
@@ -136656,11 +136737,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 39,
         he: "צריך לחזור ולהתחיל בכפורת: שכולן",
-        en: "The ruling affects the accessibility of the HP's immersions.",
+        en: "with the sprinklings on the ark-cover. 'For each is its own separate atonement' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l22"
+        ]
       },
       {
         id: "rashi-yoma-060a-040",
@@ -136668,11 +136751,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 40,
         he: "כפרה בפני עצמן. לפיכך כפרה",
-        en: "Regular mikvehs are available; holy water is not always accessible.",
+        en: "therefore an atonement that has been completed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l22"
+        ]
       },
       {
         id: "rashi-yoma-060a-041",
@@ -136680,11 +136765,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 41,
         he: "שנגמרה נגמרה: ממקום שפסק.",
-        en: "The practical ruling determines how the immersions are performed.",
+        en: "remains completed. 'From where he stopped' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l22"
+        ]
       },
       {
         id: "rashi-yoma-060a-042",
@@ -136692,11 +136779,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 42,
         he: "ואפילו לא נגמרה אותה כפרה אין",
-        en: "The halachic decision follows one position.",
+        en: "meaning even if that atonement was not completed, he does not need",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l22"
+        ]
       },
       {
         id: "rashi-yoma-060a-043",
@@ -136704,11 +136793,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 43,
         he: "צריך לחזור וליתן מה שנתן:",
-        en: "Either way, the immersions are mandatory and cannot be skipped.",
+        en: "to go back and give again what he already gave.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l22"
+        ]
       },
       {
         id: "rashi-yoma-060a-044",
@@ -136716,11 +136807,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 44,
         he: "גמ' מבפנים. לפני ולפנים: בבגדי",
-        en: "They are part of the formal Yom Kippur service sequence.",
+        en: "'Gemara: within' - meaning in the Holy of Holies. 'In white garments outside' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l25"
+        ]
       },
       {
         id: "rashi-yoma-060a-045",
@@ -136728,11 +136821,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 45,
         he: "לבן מבחוץ. כגון הגרלה וידוי ושפיכת",
-        en: "Without the immersions, the garment changes would be invalid.",
+        en: "such as the casting of lots, the confession, the pouring out",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l25"
+        ]
       },
       {
         id: "rashi-yoma-060a-046",
@@ -136740,11 +136835,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 46,
         he: "שירים וכל מתנות הפרוכת ומזבח",
-        en: "The garment changes without immersion are not transitions - they are incomplete.",
+        en: "of the remainder of the blood, and all the sprinklings on the curtain and on the golden altar:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l25"
+        ]
       },
       {
         id: "rashi-yoma-060a-047",
@@ -136752,11 +136849,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 47,
         he: "הזהב אם הקדים להן דבר מאוחר אין אלו מעכבין עליו לפוסלו",
-        en: "The physical action (immersion) and the garment change together constitute the transition.",
+        en: "if he performed a later act before an earlier one, these do not disqualify it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l25"
+        ]
       },
       {
         id: "rashi-yoma-060a-048",
@@ -136764,11 +136863,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 48,
         he: "אבל בשחיטה ובחפינה מודה הוא דצורך פנים כפנים דמי:",
-        en: "One without the other is insufficient.",
+        en: "But regarding the slaughtering and the scooping of the incense, he concedes that a requirement of the inside is treated like the inside itself.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l25"
+        ]
       },
       {
         id: "rashi-yoma-060a-049",
@@ -136776,11 +136877,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 49,
         he: "בבגדי זהב מבחוץ. כגון אילו ואיל העם שהקדים להן",
-        en: "This integrity of the service is what makes Yom Kippur coherent.",
+        en: "'In golden garments outside' - such as this ram and the people's ram, if he performed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l30"
+        ]
       },
       {
         id: "rashi-yoma-060a-050",
@@ -136788,11 +136891,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 50,
         he: "הוצאת כף ומחתה אין מעכבין עליו לפסול: אחת בשנה.",
-        en: "Every detail is part of a unified whole.",
+        en: "the removal of the ladle and the fire-pan before them, these do not disqualify it. 'Once a year' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l30"
+        ]
       },
       {
         id: "rashi-yoma-060a-051",
@@ -136800,11 +136905,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 51,
         he: "אלמא כי כתיב חוקה לעיכובא אאחת בשנה כתיב:",
-        en: "Nothing is casual or optional in the Yom Kippur service.",
+        en: "this shows that where it is written as an indispensable decree, it is written specifically regarding 'once a year.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l30"
+        ]
       },
       {
         id: "rashi-yoma-060a-052",
@@ -136812,11 +136919,13 @@ const DAF_CONTENT = {
         daf: "60a",
         vilnaLine: 52,
         he: "רבי",
-        en: "Every step has its source and its purpose.",
+        en: "'Rabbi' - the daf ends mid-word here; the comment continues on 60b with 'Yehuda holds,' explaining Rabbi Yehuda's view on which acts require the indispensable sequence.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060a-l30"
+        ]
       }
     ],
     review: "reviewed"
