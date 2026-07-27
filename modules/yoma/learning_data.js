@@ -11542,7 +11542,7 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 1,
         he: "מילתא דכתיבא בהאי ענינא. בפרשת צוואה דמלואים שנאמר בואתה",
-        en: "A matter written in this context: in the passage of the inauguration command, within the parasha that opens 've-atah tetzaveh' (Exodus 27:20).",
+        en: "'A matter written in this context' - in the passage commanding the inauguration, as it says 'and you,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -11556,7 +11556,7 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 2,
         he: "תצוה: דלא כתיב. בפרשת המלואים בזה הדבר אשר תעשה וגו'",
-        en: "It is not written: in the inauguration portion there is no text requiring placing the Urim ve-Tumim in the breastplate when they were dressed, but in the portion commanding Aaron's anointing (Lev. 8) it is written 'and he placed on him the breastplate.'",
+        en: "command' (Exodus 27:20). 'A matter not written [there]' - in the inauguration passage, 'and this is the matter that you shall do to them' etc.,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -11570,7 +11570,7 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 3,
         he: "לא כתיב שיתן אל החושן אורים ותומים כשהלבישן אבל בפרשת צו את",
-        en: "And if you ask: is it not also written in 've-atah tetzaveh' (Exodus 28:30): 'and you shall place in the breastplate of judgment the Urim and Tumim'?",
+        en: "it is not written that he should place the Urim and Tumim into the breastplate when he dressed them; but in the passage 'command",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -11584,7 +11584,7 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 4,
         he: "אהרן שנאמרה שם עשיית המלואים כתיב ויתן עליו את החשן",
-        en: "That verse is not from the inauguration passage but from the garment-making section, and 'kachah' as an invalidation condition was not said there.",
+        en: "Aaron,' where the performance of the inauguration is stated, it is written 'and he placed on him the breastplate'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -11598,7 +11598,7 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 5,
         he: "ויתן אל החשן את האורים ואת התומים",
-        en: "And he placed in the breastplate the Urim and Tumim.",
+        en: "and 'he placed into the breastplate the Urim and the Tumim.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -11612,7 +11612,7 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 6,
         he: "וא\"ת אף בואתה תצוה נאמר ונתת",
-        en: "And if you say: Is it not written in 've-atah tetzaveh' (Exodus 28): 'and you shall place in the breastplate of judgment the Urim and Tumim'?",
+        en: "And if you say, is it not also said in 'and you, command': 'and you shall place",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -11626,7 +11626,7 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 7,
         he: "אל חשן המשפט את האורים ואת",
-        en: "This is not from the inauguration passage but from the garment-making section - and kachah was not said there as an invalidation condition.",
+        en: "into the breastplate of judgment the Urim and the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -11640,7 +11640,7 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 8,
         he: "התומים אין זו מפרשת המלואים אלא",
-        en: "That verse (and you shall place the Urim) is not from the inauguration passage but from the garment-making section - and 'kachah' as invalidation was not applied there. The context there does not bear the invalidation stamp.",
+        en: "Tumim' - that is not from the inauguration passage but",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -11654,12 +11654,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 9,
         he: "עשיית הבגדים ובההוא ענינא לא",
-        en: "Petach petach: in the command it is written (Exodus 29) 'to the opening of the Tent of Meeting' as an additional mention, and similarly in the implementation: 'and he brought near to the opening of the Tent of Meeting'; 'and Aaron and his sons ate the meat of the ram and the bread which was in the basket at the opening of the Tent of Meeting'; and similarly in the implementation: 'and he assembled the entire congregation to the opening of the Tent of Meeting; they cooked the meat at the opening of the Tent of Meeting.'",
+        en: "from the making of the garments, and in that context",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l02"
+          "yoma-005b-l01"
         ]
       },
       {
@@ -11668,11 +11668,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 10,
         he: "כתיב ככה לעיכובא: פתח פתח.",
-        en: "And Rav Mesharshiyya says: in the implementation passage too an invalidation phrase is written - 'and you shall keep the guard of God' implies: guard everything written there.",
+        en: "'kachah' is not written as an indispensable condition. 'Opening, opening' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-005b-l01",
           "yoma-005b-l02"
         ]
       },
@@ -11682,12 +11683,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 11,
         he: "בצוואה כתיב (שמות כט) אל פתח אהל",
-        en: "The Sages taught: 'ki chen tzuviti' etc. Since this phrase was cited here to derive that even in acute mourning the minhah must be eaten - for the inauguration took place under those circumstances and the Torah said 'ki chen tzuviti' - the baraita seized the opportunity here to also interpret 'ki chen tzuviti' of Shemini: what does that one teach?",
+        en: "in the command it is written (Exodus 29): 'at the opening of the Tent",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l05"
+          "yoma-005b-l02"
         ]
       },
       {
@@ -11696,12 +11697,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 12,
         he: "מועד [יתירא] וכן בעשייה [בצוואה",
-        en: "For it is not the same verse as the inauguration one - 'ki chen tzuviti' there refers to the commandment about the minhah (Lev. 10), 'take the minhah remaining from the fires of God and eat it unleavened beside the altar, for thus I was commanded.'",
+        en: "of Meeting' redundantly, and likewise in the performance: [in the command",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l05"
+          "yoma-005b-l02"
         ]
       },
       {
@@ -11710,12 +11711,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 13,
         he: "כתיב] תקריב פתח אהל מועד",
-        en: "'Ka'asher tziviti': concerning the goat-sin-offering, which Moses investigated and found had been burned - 'you shall eat it in the holy place as I commanded' (Lev. 10).",
+        en: "it is written] 'bring near to the opening of the Tent of Meeting,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l05"
+          "yoma-005b-l02"
         ]
       },
       {
@@ -11724,12 +11725,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 14,
         he: "ואכל אהרן ובניו את בשר האיל ואת",
-        en: "'Ka'asher tzivah Hashem': concerning the thigh of the wave-offering and the breast of the wave-offering it is written 'you shall eat it in a pure place... as God commanded' (Lev. 10). Why do I need all these? They are all cases of: 'and all the things that were said to Moses to tell Israel, did he say them? For thus I was commanded.'",
+        en: "'and Aaron and his sons shall eat the meat of the ram and",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l05"
+          "yoma-005b-l02"
         ]
       },
       {
@@ -11738,12 +11739,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 15,
         he: "הלחם אשר בסל פתח אהל מועד וכן",
-        en: "Mourners (onanin): over Nadav and Avihu - and sacrificial foods are forbidden to an onen by a fortiori from ma'aser (tithe), which is lenient: 'I have not eaten of it in my mourning' (Deut. 26) - and he told them to eat the minhah, so he had to say 'ki chen tzuviti': eat it in mourning.",
+        en: "the bread that is in the basket at the opening of the Tent of Meeting,' and likewise",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l05"
+          "yoma-005b-l02"
         ]
       },
       {
@@ -11752,12 +11753,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 16,
         he: "בעשייה ואת כל העדה הקהילו אל",
-        en: "'Ka'asher tziviti' - at the moment of the act he said it to them. When he found what they had done - that they had burned the goat-sin-offering, the Rosh Chodesh goat - he said: 'was not its blood brought in? Was there not a disqualification? You should have eaten it in the sanctuary as I commanded you in the minhah, which I told you derives from the Almighty.'",
+        en: "in the performance: 'and the entire congregation was assembled at",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l05"
+          "yoma-005b-l02"
         ]
       },
       {
@@ -11766,12 +11767,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 17,
         he: "פתח אהל מועד בשלו את הבשר פתח",
-        en: "'Ka'asher tzivah Hashem' - and not from myself am I speaking. They were relying on the divine word and eating it in mourning, and 'do not do as you did with the sin-offering.' And Moses erred in a matter that had not been told to him except regarding the minhah, the breast, and the thigh and the Shemini goat and Nachshon's goat which were sacred for the hour - but the Rosh Chodesh goat which is an ongoing sacred offering was not permitted for a mourner. Three goats were offered that day and only the Rosh Chodesh one was burned.",
+        en: "the opening of the Tent of Meeting,' 'they cooked the meat at the opening",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l05"
+          "yoma-005b-l02"
         ]
       },
       {
@@ -11780,12 +11781,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 18,
         he: "אהל מועד: ורב משרשיא אמר.",
-        en: "And 'ותן alav et hachoshen - that one (Nachshon's goat) was given to you to bear the sin of the congregation, i.e., the sin-offering for impurity of the Temple and its sacred objects - as we learned in Shevuot (9b). They are not written in the passage: in the dressing of the garments - not in the command and not in the implementation.",
+        en: "of the Tent of Meeting.' 'And Rav Mesharshiya says' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l09"
+          "yoma-005b-l02"
         ]
       },
       {
@@ -11794,12 +11795,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 19,
         he: "בפרשת עשייתן נמי עיכובא כתיבא",
-        en: "When he says 've-zeh hadavar asher ta'aseh lahem': the vav (and) adds to the previous topic - the one speaking about the command concerning the garments, and there it is written 've-asa lahem mikhnasai bad'; and a tenth of an ephah - which the priests must bring on their inauguration day, even the ordinary priest as we say in Menachot (51b).",
+        en: "in the passage of their performance too, an indispensability phrase is written:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l09"
+          "yoma-005b-l02"
         ]
       },
       {
@@ -11808,12 +11809,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 20,
         he: "ושמרתם משמרת משמע תשמור ככל",
-        en: "Granted, trousers are written in the garment-context: above that passage there is enough reason to include them - the vav adds to the first topic.",
+        en: "'and you shall keep the charge' implies: keep everything",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l12"
+          "yoma-005b-l02"
         ]
       },
       {
@@ -11822,12 +11823,13 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 21,
         he: "הכתוב ולא צריך גזירה שוה: ת\"ר",
-        en: "'Zeh korban Aharon u-vanav': the tenth of an ephah is written in it - that ordinary priests must bring on their inauguration day, and the Kohen Gadol every day.",
+        en: "that is written, and no gezeirah shavah is needed. 'The Sages taught:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l12"
+          "yoma-005b-l02",
+          "yoma-005b-l05"
         ]
       },
       {
@@ -11836,12 +11838,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 22,
         he: "כי כן צויתי וכו'. איידי דנקט הכא",
-        en: "From Scripture - the inauguration Torah portion which was commanded in 've-atah tetzaveh.' He said it to the community on the twenty-third of Adar when the inauguration began and he assembled the congregation to the opening of the Tent of Meeting, as it says 'va-tikkahel ha-edah... va-yomer Moshe el ha-edah: zeh hadavar asher tzivah Hashem la'asot' - and these verses are in the implementation in 'tzav et Aharon.'",
+        en: "ki chen tzuviti' etc. - since [the Gemara] cited here",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l15"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -11850,12 +11852,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 23,
         he: "למידרש כי כן צויתי לענינא דמלואים",
-        en: "How did he dress them: sequence of garments for father and sons one after another. What was, was - what do we need to ask?",
+        en: "the exposition of 'ki chen tzuviti' for the matter of the inauguration,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l19"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -11864,12 +11866,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 24,
         he: "דלעיכובא אתא קבעה לה ברייתא",
-        en: "To explain the verses: so that they not contradict each other - for in the command it is written (Exodus 29) 've-chagarta otam avnet Aharon u-vanav' implying their girding, father's and sons', was done together without another garment interrupting, while in the implementation it is written of Aaron (Lev. 8): 'va-yachgor oto ba-avnet' in the order of his garment-dressing... 'and he brought near his sons and dressed them in tunics and girded them with belts' - and he did not gird Aaron and his sons together.",
+        en: "which comes to teach indispensability, the baraita fixed it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l22"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -11878,12 +11880,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 25,
         he: "הכא למדרש כי כן צויתי דשמיני",
-        en: "Abaye explains their statements: he took tunic and mitre as the examples because they are the same for the High Priest and the ordinary priest, and he did not need to mention trousers since they precede everything as we say later: 'from where that nothing should precede the trousers?'",
+        en: "here to also expound 'ki chen tzuviti' of the eighth day:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -11892,12 +11894,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 26,
         he: "למאי אתא ולאו ניהו ההוא קרא",
-        en: "Everyone agrees Aaron first and afterward sons: for Aaron was dressed first in all his other garments except the belt, and then they began dressing the sons.",
+        en: "what does it come for? It is not that same verse",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -11906,12 +11908,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 27,
         he: "דענינא דמלואים דצו את אהרן אלא",
-        en: "Because in both the command and in the implementation, Aaron precedes.",
+        en: "belonging to the inauguration passage, of 'command Aaron,' but rather",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -11920,12 +11922,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 28,
         he: "דיום השמיני דכתיב במנחה (ויקרא י)",
-        en: "When they disagree: about the belt. And from the command where it is written (Exodus 29:9): 've-chagarta otam avnet' (and you shall gird them with belts) - Aaron and sons - it does not state Aaron's girding in the sequence of his garment-dressing. But in the implementation it is stated in order with his other garments.",
+        en: "[the one] regarding the eighth day, as it is written concerning the meal-offering (Leviticus 10:12):",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -11934,12 +11936,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 29,
         he: "קחו את המנחה הנותרת מאשי ה'",
-        en: "The one who says Aaron and afterward sons: as it is written 'va-yachgor oto ba-avnet' and then it is written 'va-yachgor otam avnet.'",
+        en: "'take the meal-offering that remains from the fire-offerings of the Lord",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -11948,12 +11950,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 30,
         he: "ואכלוה מצות אצל המזבח כי כן צויתי:",
-        en: "The one who says Aaron and sons together: as it is written (in the command) 've-chagarta otam' - Aaron and sons together were girded, without stating Aaron's girding within his garment sequence.",
+        en: "and eat it unleavened beside the altar, for so I was commanded.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -11962,12 +11964,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 31,
         he: "כאשר צויתי. גבי שעיר חטאת",
-        en: "And according to the one who says Aaron and sons together: is it not written 'va-yachgor oto ba-avnet' and then 'va-yachgor otam avnet'?",
+        en: "'Ka'asher tziviti' (as I commanded) - regarding the goat sin-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -11976,12 +11978,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 32,
         he: "אשר דרש משה והנה שורף כתיב",
-        en: "He dressed Aaron in all his garments except the belt; then dressed the sons in tunic, mitre, and trousers; then took the belts and girded Aaron and afterward his sons, and the one who says Aaron and sons together, following the command - he explains the same: 'bvat achat' does not literally mean simultaneously; rather, they were one-after-another in the same sequence without interruption: he dressed Aaron in all his garments and did not gird him with the belt, then dressed the sons with their garments - tunic, mitre, trousers - and then took the belts and girded Aaron and afterward his sons.",
+        en: "that Moses investigated and found had been burned, it is written:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -11990,12 +11992,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 33,
         he: "אכל תאכלו אותה במקום קדוש כאשר",
-        en: "He who says Aaron and sons together follows the command reading, and below he will explain: can 'bvat achat' (simultaneously) actually be found?",
+        en: "'you should surely have eaten it in a holy place, as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -12004,12 +12006,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 34,
         he: "צויתי (שם) : כאשר צוה ה'. גבי",
-        en: "Whether in the command or the implementation: so it is written.",
+        en: "I commanded' (ibid.). 'Ka'asher tzivah Hashem' (as the Lord commanded) - regarding",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -12018,12 +12020,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 35,
         he: "שוק התרומה וחזה התנופה כתיב",
-        en: "When they disagree: about the belt. In the command (Exodus 29): 've-chagarta otam avnet Aharon u-vanav' - their girding as one, and Aaron's girding was not stated in the sequence of his garment-dressing. In the implementation it is stated in his garment sequence.",
+        en: "the thigh of the offering and the breast of the waving, it is written:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -12032,12 +12034,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 36,
         he: "תאכלו במקום טהור וגו' כאשר צוה",
-        en: "The one who says Aaron and afterward sons: follows the implementation. And below he explains 'bvat achat' - can you actually find it?",
+        en: "'you shall eat in a pure place' etc., 'as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -12046,12 +12048,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 37,
         he: "ה' (שם) ולמה לי חד מכל הני כו'",
-        en: "The one who says Aaron and sons together: follows the command. And the implementation with its 'va-yachgor oto' and then 'va-yachgor otam' - to tell us that their belts are not the same: the High Priest's belt is not the ordinary priest's belt.",
+        en: "the Lord commanded' (ibid.). And why do I need each of these?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -12060,12 +12062,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 38,
         he: "וכי כל הדברים שנאמרו למשה לומר",
-        en: "He who says Aaron and afterward sons: goes after the implementation - and what does 've-chagarta otam' teach us? That the High Priest's belt is the same as the ordinary priest's belt. Both are of mixed weave (kilaim) as stated in the implementation: 'the belt of fine twisted linen and blue and purple...' - we learn that it is kilaim, since linen is linen (kitan) and blue is wool (amra). And the sons' belt was not explained in the Torah from what it was made - and this teaches us here that the High Priest's belt is not the ordinary priest's belt: this is kilaim and this is linen.",
+        en: "[To teach that] whatever things were said to Moses to tell",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -12074,12 +12076,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 39,
         he: "לישראל חזר ואמר כי כן צויתי:",
-        en: "That belt. Meaning: both are of kilaim.",
+        en: "Israel, he went and said 'for so I was commanded.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -12088,12 +12090,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 40,
         he: "אוננין. על נדב ואביהוא וקדשים",
-        en: "And can 'bvat achat' (simultaneously) actually be found - that Moses alone girds five people together?",
+        en: "'Onenin' (mourners) - over Nadav and Avihu; and sacred foods",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -12102,12 +12104,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 41,
         he: "אסורין לאונן מקל וחומר ממעשר",
-        en: "Not literally simultaneously - he does not mean actually at once, but one after another in the same uninterrupted sequence: he dressed Aaron in all his other garments and did not gird him with the belt, then dressed the sons in tunic, mitre, and trousers; then took the belts and girded Aaron and afterward his sons. And according to the one who says Aaron and afterward sons: as written in the implementation 'va-yayten alav et ha-kutonet va-yachgor oto ba-avnet...' - and dressed him in all the garments, including the belt in sequence - then 'and he brought near Aaron's sons and dressed them in tunics and girded them with belts' - and he did not gird Aaron and his sons together.",
+        en: "are forbidden to a mourner, by a kal vachomer from the lenient case of ma'aser,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -12116,12 +12118,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 42,
         he: "הקל דכתיב גבי מעשר (דברים כו) לא",
-        en: "Abaye explains their statements: tunic and mitre he specifically mentions because they are the same for the High Priest and the ordinary priest. He did not need to mention trousers - they precede everything as we say below: 'from where that nothing precedes the trousers?'",
+        en: "as it is written regarding ma'aser (Deuteronomy 26:14): 'I have not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -12130,12 +12132,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 43,
         he: "אכלתי באוני ממנו והוא אמר להן",
-        en: "Everyone agrees Aaron first then sons: Aaron was first dressed in all his other garments except the belt, and then they began dressing the sons.",
+        en: "eaten of it in my mourning.' And since he told them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -12144,12 +12146,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 44,
         he: "לאכול המנחה הוזקק לומר כי כן צויתי",
-        en: "Because both in the command and the implementation, Aaron precedes.",
+        en: "to eat the meal-offering, he needed to say 'for so I was commanded':",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -12158,12 +12160,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 45,
         he: "באנינות תאכלוה: כאשר צויתי בשעת מעשה אמר להם. כשמצא מה",
-        en: "When they disagree: about the belt. In the command 've-chagarta otam avnet Aharon u-vanav' - their girding together without stating Aaron's girding in the sequence of his garment-dressing. In the implementation it is stated in the sequence.",
+        en: "eat it in mourning. 'Ka'asher tziviti at the time of the act he told them' - when he found what",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -12172,12 +12174,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 46,
         he: "שעשו ששרפו שעיר החטאת והוא שעיר של ר\"ח אמר להם הן לא",
-        en: "Who says Aaron and afterward sons: follows the implementation, and 've-chagarta otam' teaches the belts are the same.",
+        en: "they had done, that they had burned the sin-offering goat, which was the Rosh Chodesh goat, he said to them: 'behold, was not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -12186,12 +12188,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 47,
         he: "הובא את דמה וגו' הלא לא אירע בו פסול היה לכם לאוכלו בקודש",
-        en: "Who says Aaron and sons together: follows the command, and 've-chagarta otam' teaches the belts differ - this is kilaim and this is plain linen.",
+        en: "its blood brought in' etc.; was no disqualification not to have occurred to it? You should have eaten it in sanctity,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -12200,12 +12202,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 48,
         he: "כאשר צויתי אתכם במנחה שאמרתי לכם בה שמפי הקב\"ה נצטויתי:",
-        en: "'Va-yachgor oto ba-avnet' - 'va-yachgor otam' - why do I need both? Learn from it: Aaron and afterward sons. And can you find 'bvat achat' (simultaneously)?",
+        en: "as I commanded you regarding the meal-offering, which I told you [about], since I was commanded by the Holy One.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -12214,12 +12216,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 49,
         he: "כאשר צוה ה' ולא מאלי אני אומר. היו סומכין ע\"פ הדיבור ואכלו אותו",
-        en: "Not literally simultaneously is what he means - rather one after another as described above.",
+        en: "'Ka'asher tzivah Hashem, and not from myself do I say [this]' - they were relying on the [divine] word and ate it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -12228,12 +12230,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 50,
         he: "אוננין ולא תעשו כאשר עשיתם בחטאת ומשה טעה בדבר שלא",
-        en: "And for the one who says Aaron and sons together - is it not written 'va-yachgor oto ba-avnet' and then 'va-yachgor otam avnet'?",
+        en: "as mourners; and 'do not do as you did with the sin-offering,' for Moses erred in a matter that had only",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -12242,12 +12244,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 51,
         he: "נאמר לו אלא במנחה ובחזה ושוק ושעיר שמיני ובשעיר נחשון שהיו",
-        en: "That teaches us that the High Priest's belt is not the ordinary priest's belt - this is kilaim, this is linen.",
+        en: "been told to him regarding the meal-offering, and the thigh and shoulder, and the eighth-day goat, and Nachshon's goat, which were",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -12256,12 +12258,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 52,
         he: "קדשי שעה אבל שעיר ר\"ח שהוא קדשי דורות לא הותר לאונן ושלשה שעירים קרבו בו ביום ולא נשרף אלא של ר\"ח בלבד שנאמר (ויקרא י)",
-        en: "He who says Aaron and sons together: for him the belts differ (kilaim vs. linen). He who says Aaron first then sons: for him the two verses prove sequential dressing.",
+        en: "offerings sacred only for that hour, but the Rosh Chodesh goat, which is an ongoing sacred offering, was not permitted to a mourner. Three goats were offered that day, and only the Rosh Chodesh one was burned, as it is said (Leviticus 10:17):",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05"
         ]
       },
       {
@@ -12270,12 +12272,13 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 53,
         he: "ואותה נתן לכם לשאת את עון העדה זהו של ר\"ח הבא על טומאת מקדש וקדשיו כמו ששנינו במסכת שבועות (דף ט:): אינן כתובין",
-        en: "He who says Aaron first then sons, and we said 've-chagarta otam' - what does that teach? That the belts are the same (both kilaim). But what does he do with 'va-yachgor oto' and then 'va-yachgor otam'? He says: learn from it Aaron first then sons. And can 'bvat achat' even be done? Answer: not literally simultaneously - he first dressed all of Aaron's garments except the belt, then dressed the sons' garments without the belt, then girded Aaron and afterward the sons in sequence.",
+        en: "'and it was given to you to bear the sin of the congregation' - this refers to the Rosh Chodesh goat, which comes for impurity of the Sanctuary and its sacred things, as we learned in tractate Shevuot (9b). 'They are not written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l05",
+          "yoma-005b-l09"
         ]
       },
       {
@@ -12284,12 +12287,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 54,
         he: "בפרשה. בלבישת הבגדים לא בצוואה ולא בעשייה: כשהוא אומר וזה הדבר אשר תעשה להם. וי\"ו מוסיף על ענין ראשון המדבר בצוואת",
-        en: "He who says Aaron and sons together: for him the belts are different (this kilaim, this linen). So he reads 've-chagarta otam' as simultaneously, and the two separate implementation verses ('girded him' then 'girded them') teach the material distinction.",
+        en: "in the passage' - in the dressing of the garments, neither in the command nor in the performance. 'When it says: and this is the matter that you shall do to them' - the 'vav' [and] adds to the first topic, which speaks of the command",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l09"
         ]
       },
       {
@@ -12298,7 +12301,7 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 55,
         he: "עשיית הבגדים ושם כתיב ועשה להם מכנסי בד: ועשירית האיפה. שהכהנים צריכים להביא ביום חינוכם ואפילו ההדיוט כדאמרינן במנחות",
-        en: "Not written in the passage: in the dressing of the garments - neither in the command nor the implementation.",
+        en: "to make the garments, and there it is written 'and make for them linen trousers.' 'And a tenth of an ephah' - which the priests must bring on the day of their induction, even the ordinary priest, as we say in Menachot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -12312,11 +12315,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 56,
         he: "(דף נא:): בשלמא מכנסים כתיבי בעניינא דבגדים. דלעיל מיניה דההיא פרשתא איכא לרבויינהו וי\"ו מוסיף על ענין ראשון: זה קרבן",
-        en: "Granted trousers are written in the garment context: above that passage there is reason to include them via the vav adding to the first topic. 'Zeh korban Aharon u-vanav': the tenth of an ephah - which ordinary priests bring on their inauguration day and the Kohen Gadol brings every day.",
+        en: "(51b). 'Granted, trousers are written in the context of the garments' - since above that passage there is a basis to include them, with the 'vav' adding to the first topic. 'This is the offering'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-005b-l09",
           "yoma-005b-l12"
         ]
       },
@@ -12326,11 +12330,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 57,
         he: "אהרן ובניו. בעשירית האיפה כתיב שההדיוט מביא ביום חינוכו וכהן גדול בכל יום: מקרא. פרשת מלואים שנצטווה בואתה תצוה",
-        en: "From Scripture: the inauguration Torah portion that was commanded in 've-atah tetzaveh.' He said it to the community on twenty-third of Adar when the inauguration began and assembled the congregation to the Tent of Meeting opening as it says 'va-tikkahel... va-yomer Moshe el ha-edah: zeh hadavar' - these verses are in the implementation in 'tzav et Aharon.'",
+        en: "of Aaron and his sons' - is written regarding the tenth of an ephah, that the ordinary priest brings it on the day of his induction, and the Kohen Gadol every day. 'From Scripture' - the inauguration portion that was commanded in 'and you, command,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-005b-l12",
           "yoma-005b-l15"
         ]
       },
@@ -12340,12 +12345,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 58,
         he: "אמר להם לציבור בעשרים ושלשה באדר כשהתחילו המלואים והקהיל את העדה אל פתח אהל מועד שנאמר ותקהל העדה וגו' ויאמר משה",
-        en: "How did he dress them: the sequence of garments for father and sons one after another.",
+        en: "he said to them, to the community, on the twenty-third of Adar, when the inauguration began, and he assembled the congregation to the opening of the Tent of Meeting, as it is said: 'and the congregation assembled' etc., 'and Moses said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l19"
+          "yoma-005b-l15"
         ]
       },
       {
@@ -12354,12 +12359,13 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 59,
         he: "אל העדה זה הדבר אשר צוה ה' לעשות ומקראות הללו בעשיית המלואים בצו את אהרן: כיצד הלבישן. סדר בגדים לאב ולבנים זה",
-        en: "To explain the verses: that they not contradict each other. For in the command (Exodus 29) 've-chagarta otam avnet Aharon u-vanav' implies their girding together without interruption, while in the implementation Aaron's girding comes within his garment sequence and sons' girding separately in theirs.",
+        en: "to the congregation: this is the matter that the Lord commanded to do' - and these verses are found in the performance, in 'command Aaron.' 'How did he dress them' - the sequence of garments for the father and the sons, one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l22"
+          "yoma-005b-l15",
+          "yoma-005b-l19"
         ]
       },
       {
@@ -12368,12 +12374,13 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 60,
         he: "אחר זה: מאי דהוה הוה. ומה צריך לנו לשאול: למסבר קראי. דלא לירמו אהדדי דבצוואה כתיב (שמות כט) וחגרת אותם אבנט אהרן",
-        en: "Abaye explains their statements: he specifically uses tunic and mitre because they are the same for both High Priest and ordinary priest. Trousers did not need to be mentioned - they precede everything.",
+        en: "after another. 'What was, was' - and why do we need to ask? 'To explain the verses' - so that they should not contradict each other. For in the command it is written (Exodus 29:9): 'and you shall gird them with a belt, Aaron",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l19",
+          "yoma-005b-l22"
         ]
       },
       {
@@ -12382,12 +12389,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 61,
         he: "ובניו משמע חגירתם של אב ובנים בסדר אחד ולא הפסיק לבישת בגד אחר בינתיים ובעשייה כתיב באהרן (ויקרא ח) ויחגור אותו באבנט",
-        en: "Everyone agrees Aaron first then sons: for the tunic and mitre Aaron was dressed in all his garments first except the belt, then the sons were dressed.",
+        en: "and his sons' - implying that the girding of the father and sons was in one sequence, without the dressing of another garment interrupting in between; while in the performance it is written of Aaron (Leviticus 8:7): 'and he girded him with the belt'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005b-l24"
+          "yoma-005b-l22"
         ]
       },
       {
@@ -12396,11 +12403,12 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 62,
         he: "בסדר לבישת בגדים וגו' והלבישו כל המלבושין ואח\"כ הקריב בניו והלבישם [ולא] חגר אהרן ובניו בבת אחת: אביי מפרש לה",
-        en: "Both in the command and the implementation Aaron precedes his sons.",
+        en: "in the sequence of dressing the garments etc., 'and he dressed him in all the garments,' and only afterward did he bring his sons near and dress them - so he did not gird Aaron and his sons at the same time. 'Abaye explains their statement'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-005b-l22",
           "yoma-005b-l24"
         ]
       },
@@ -12410,7 +12418,7 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 63,
         he: "למילתייהו בכתונת ומצנפת להכי נקט כתונת ומצנפת ששוין בגדול ובהדיוט ומכנסים לא הוצרך לומר שהרי הן קודמין לכל כדאמרינן",
-        en: "When they disagree: about the belt.",
+        en: "in terms of the tunic and turban; this is why he specifically mentions tunic and turban, which are the same for the High Priest and the ordinary priest, whereas he did not need to mention the trousers, since they precede everything, as we say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -12424,7 +12432,7 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 64,
         he: "לקמן מניין שלא יהא דבר קודם למכנסים כו': כולי עלמא לא פליגי דאהרן ואח\"כ בניו. לאהרן הלביש תחילה כל שאר בגדיו חוץ",
-        en: "Who says Aaron and afterward sons: follows the implementation (sequential verses). Who says together: follows the command ('gird them') and reads the implementation verses as teaching the belts are materially different.",
+        en: "further on: 'from where do we know that nothing should precede the trousers' etc. 'Everyone agrees that Aaron [was dressed] and afterward his sons' - Aaron he first dressed in all his other garments except",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -12438,7 +12446,7 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 65,
         he: "מאבנט ואחר כך התחיל להלביש את בניו: דבין בצוואה בין בעשייה. כך כתיב: כי פליגי באבנט. שבצוואה נאמר חגירתם כאחת",
-        en: "Who says Aaron and afterward sons: follows the implementation - 'va-yachgor oto' then 'va-yachgor otam' proves sequential. And 've-chagarta otam' teaches the belts are the same (both kilaim).",
+        en: "the belt, and only afterward did he begin dressing his sons. 'For both in the command and in the performance' - so it is written. 'When they disagree, it is about the belt' - for in the command their girding is stated as one:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -12452,7 +12460,7 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 66,
         he: "וחגרת אותם אבנט אהרן ובניו ולא נאמרה חגירה באהרן כסדר לבישת בגדים ובעשייה נאמרה חגירתו כסדר שאר בגדיו",
-        en: "Who says together: follows the command, reads the implementation verses as teaching material distinction between belts.",
+        en: "'and you shall gird them with a belt, Aaron and his sons,' and Aaron's own girding is not stated in the sequence of the dressing of the garments; whereas in the performance his girding is stated in the sequence of his other garments,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -12466,7 +12474,7 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 67,
         he: "וחגירת בניו לעצמן בסדר בגדיהם: מאן דאמר אהרן ובניו בבת אחת. אזל בתר צוואה ולקמיה מפרש בבת אחת מי משכחת לה:",
-        en: "He who says Aaron and sons together: follows the command - 've-chagarta otam' means simultaneously, and the implementation's two-stage verses teach belts differ.",
+        en: "and his sons' girding separately, in the sequence of their own garments. 'The one who says Aaron and his sons [were girded] at once' - follows the command, and further on [the Gemara] will explain: where can '[girded] at once' actually be found?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -12480,7 +12488,7 @@ const DAF_CONTENT = {
         daf: "5b",
         vilnaLine: 68,
         he: "אמר",
-        en: "He said (partial - continues on 6a with resolution of the belt-material question).",
+        en: "'He said' - the daf ends mid-word here; the comment continues on 6a, resolving whether the High Priest's belt and the ordinary priest's belt are made the same way.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
