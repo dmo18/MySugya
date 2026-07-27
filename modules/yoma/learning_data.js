@@ -144379,11 +144379,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 1,
         he: "אי קרבן שומע אני וכו'. רישא דברייתא בתורת כהנים הכי איתא",
-        en: "If the verse had only said 'offering' I would think even slaughtering outside the city for a burnt-offering is prohibited.",
+        en: "'If [I understand] \"offering\" to mean,' etc. - the opening of the braita in Torat Kohanim states as follows:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l01"
+        ]
       },
       {
         id: "rashi-yoma-063b-002",
@@ -144391,11 +144393,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 2,
         he: "יכול השוחט חולין בפנים יהא חייב ודין הוא וכו' ת\"ל קרבן על הקרבן",
-        en: "The derivation limits the prohibition to offerings that should go on the altar.",
+        en: "one might think that one who slaughters non-sacred animals inside would be liable, and this could be derived by logical inference, etc.; the verse teaches, 'offering' - for an offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l01"
+        ]
       },
       {
         id: "rashi-yoma-063b-003",
@@ -144403,11 +144407,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 3,
         he: "הוא חייב ואינו חייב על החולין אי קרבן שומע אני וכו' כלומר או",
-        en: "Slaughtering for meat (non-sacred purposes) is different.",
+        en: "is one liable, but not for a non-sacred animal. 'If [I understand] \"offering\" to mean,' etc. - meaning, or",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l01"
+        ]
       },
       {
         id: "rashi-yoma-063b-004",
@@ -144415,11 +144421,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 4,
         he: "אינו אומר קרבן להוציא את החולין בפנים אלא להביא קדשי בדק",
-        en: "The prohibition on outside slaughter applies to sacrificial animals offered for the altar.",
+        en: "does the word 'offering' come only to exclude non-sacred animals slaughtered inside, but rather to include consecrated property of the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l01"
+        ]
       },
       {
         id: "rashi-yoma-063b-005",
@@ -144427,11 +144435,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 5,
         he: "הבית ששחטן בחוץ שיהא חייב שהרי",
-        en: "A person who slaughters an animal outside the Temple in the normal course of eating is not liable.",
+        en: "Temple treasury slaughtered outside, that he should be liable, since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l01"
+        ]
       },
       {
         id: "rashi-yoma-063b-006",
@@ -144439,11 +144449,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 6,
         he: "אף הם נקראו קרבן כענין שנאמר",
-        en: "Only if he intends it as a sacrifice and slaughters it outside is he liable.",
+        en: "these too are called 'offering,' as in the verse that states,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l01"
+        ]
       },
       {
         id: "rashi-yoma-063b-007",
@@ -144451,11 +144463,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 7,
         he: "ונקרב את קרבן ה' איש אשר מצא",
-        en: "The verse's scope: covering intent-based sacrificial acts outside.",
+        en: "'and we brought the offering of the Lord, whatever any man found' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l01"
+        ]
       },
       {
         id: "rashi-yoma-063b-008",
@@ -144463,11 +144477,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 8,
         he: "והא ודאי בדק הבית הוא: הראוי",
-        en: "Not covering routine slaughter for food.",
+        en: "and this certainly refers to Temple-treasury property. 'Fit for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l01"
+        ]
       },
       {
         id: "rashi-yoma-063b-009",
@@ -144475,11 +144491,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 9,
         he: "לפתח וגו'. וקדשי בדק הבית לא",
-        en: "The distinction between slaughter for food and slaughter for sacrifice.",
+        en: "the entrance,' etc. - and Temple-treasury property was never",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l01"
+        ]
       },
       {
         id: "rashi-yoma-063b-010",
@@ -144487,11 +144505,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 10,
         he: "היו עתידים לבא לפתח אהל מועד",
-        en: "Both involve the physical act; the legal distinction is intent and context.",
+        en: "destined to come to the entrance of the Tent of Meeting.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l01"
+        ]
       },
       {
         id: "rashi-yoma-063b-011",
@@ -144499,11 +144519,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 11,
         he: "ואני שמעתי שאינן ראוין לפתח אהל",
-        en: "The verse analysis: 'that he has not brought it to the door of the Tent of Meeting.'",
+        en: "But I have heard that they are not fit for the entrance of the Tent",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l01"
+        ]
       },
       {
         id: "rashi-yoma-063b-012",
@@ -144511,11 +144533,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 12,
         he: "מועד שסתם קדשי בדק הבית בעלי",
-        en: "The phrase 'to bring' indicates the obligation to bring to the proper place.",
+        en: "of Meeting for a different reason: that ordinary Temple-treasury property consists of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l01"
+        ]
       },
       {
         id: "rashi-yoma-063b-013",
@@ -144523,11 +144547,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 13,
         he: "מומין הן דאמר מר (תמורה דף ז:)",
-        en: "'The door of the Tent of Meeting' is the prototype for the Temple courtyard.",
+        en: "blemished animals, for the master said (Temurah 7b)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l01"
+        ]
       },
       {
         id: "rashi-yoma-063b-014",
@@ -144535,11 +144561,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 14,
         he: "המתפיס תמימים לבדק הבית עובר",
-        en: "The verse addresses the situation where one should bring but does not.",
+        en: "that one who consecrates unblemished animals for Temple-treasury use transgresses",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l01"
+        ]
       },
       {
         id: "rashi-yoma-063b-015",
@@ -144547,11 +144575,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 15,
         he: "בעשה וא\"א להעמידה כן במקומה במס'",
-        en: "The penalty: kareth (spiritual excision).",
+        en: "a positive commandment; and I cannot establish it that way in its proper place, as it should be understood in tractate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l01"
+        ]
       },
       {
         id: "rashi-yoma-063b-016",
@@ -144559,11 +144589,14 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 16,
         he: "זבחים: ולא אוציא פרת חטאת.",
-        en: "This is a serious violation because it bypasses the Temple's sacred function.",
+        en: "Zevachim. 'And I do not exclude the red heifer' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l01",
+          "yoma-063b-l06"
+        ]
       },
       {
         id: "rashi-yoma-063b-017",
@@ -144571,11 +144604,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 17,
         he: "לא גרסינן שאף היא אינה ראויה",
-        en: "The Temple altar was the designated place for sacrificial service.",
+        en: "we do not read it that way, reasoning that it too is not fit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l06"
+        ]
       },
       {
         id: "rashi-yoma-063b-018",
@@ -144583,11 +144618,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 18,
         he: "לבא לאהל מועד אלא ולא אוציא",
-        en: "Bypassing it undermines the entire system of divine-human encounter through sacrifice.",
+        en: "to come to the Tent of Meeting; rather, the correct reading is 'and I do not exclude",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l06"
+        ]
       },
       {
         id: "rashi-yoma-063b-019",
@@ -144595,11 +144632,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 19,
         he: "שעיר המשתלח שהוא ראוי לבא לאהל",
-        en: "The sacrifice offered outside the Temple is not a lesser version of Temple sacrifice.",
+        en: "the goat that is sent away,' which is fit to come to the Tent",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l06"
+        ]
       },
       {
         id: "rashi-yoma-063b-020",
@@ -144607,11 +144646,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 20,
         he: "מועד להגריל ולהתוודות עליו הכי",
-        en: "It is an entirely different act - one that substitutes for the Temple instead of going through it.",
+        en: "of Meeting for the lottery and for the confession said over it. This is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l06"
+        ]
       },
       {
         id: "rashi-yoma-063b-021",
@@ -144619,11 +144660,14 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 21,
         he: "מפרש לה בזבחים: ולה' להוציא",
-        en: "This substitution is what the prohibition targets.",
+        en: "how it is explained in Zevachim. 'And \"to the Lord\" comes to exclude'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l06",
+          "yoma-063b-l10"
+        ]
       },
       {
         id: "rashi-yoma-063b-022",
@@ -144631,11 +144675,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 22,
         he: "הוא. בשעיר המשתלח שהוא ראוי",
-        en: "The Temple is the exclusive intermediary for sacrificial worship.",
+        en: "regarding the goat that is sent away, which IS fit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l10"
+        ]
       },
       {
         id: "rashi-yoma-063b-023",
@@ -144643,11 +144689,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 23,
         he: "לבא בתמיה: אלו אישים. שלא יתן",
-        en: "Bypassing it is not just procedurally wrong but theologically wrong.",
+        en: "to come? This is said in astonishment. 'These are the fire-offerings' - meaning he shall not place",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l10"
+        ]
       },
       {
         id: "rashi-yoma-063b-024",
@@ -144655,11 +144703,14 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 24,
         he: "מהן על אש של מערכה: מנין שלא",
-        en: "The Sages derive the penalty and scope through careful verse analysis.",
+        en: "any of it on the fire of the arrangement. 'From where do we know that one should not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l10",
+          "yoma-063b-l12"
+        ]
       },
       {
         id: "rashi-yoma-063b-025",
@@ -144667,11 +144718,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 25,
         he: "יקדישנו מחוסר זמן ת\"ל קרבן.",
-        en: "Each word of the verse contributes to the legal framework.",
+        en: "consecrate it while it lacks its time? The verse teaches, \"offering\"' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l12"
+        ]
       },
       {
         id: "rashi-yoma-063b-026",
@@ -144679,11 +144732,14 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 26,
         he: "ומשעת הקדשו קרוי קרבן: התם",
-        en: "This type of verse analysis - deriving law from each word and phrase - is characteristic of Tannaitic midrash.",
+        en: "for from the moment of its consecration it is already called an offering. 'There,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l12",
+          "yoma-063b-l13"
+        ]
       },
       {
         id: "rashi-yoma-063b-027",
@@ -144691,11 +144747,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 27,
         he: "דאל פתח לרבות. שעיר המשתלח",
-        en: "The Talmud preserves these derivations as essential knowledge.",
+        en: "in the first verse, \"to the entrance\" comes to include' - the goat that is sent away,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l13"
+        ]
       },
       {
         id: "rashi-yoma-063b-028",
@@ -144703,11 +144761,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 28,
         he: "דלא ממעט מאל פתח שהרי ראוי",
-        en: "Understanding why the law is as it is helps in applying it correctly.",
+        en: "since it is not excluded by \"to the entrance,\" for it is indeed fit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l13"
+        ]
       },
       {
         id: "rashi-yoma-063b-029",
@@ -144715,11 +144775,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 29,
         he: "לבא אל פתח: לה' להוציא. אתא",
-        en: "And helps in understanding the theology behind it.",
+        en: "to come to the entrance. '\"To the Lord\" comes to exclude' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l13"
+        ]
       },
       {
         id: "rashi-yoma-063b-030",
@@ -144727,11 +144789,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 30,
         he: "דאילו לרבות לא איצטריך וכי אתא",
-        en: "The prohibition on outside slaughter teaches: the Temple is not optional.",
+        en: "since if it came to include, it would not be necessary; rather, since it comes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l13"
+        ]
       },
       {
         id: "rashi-yoma-063b-031",
@@ -144739,11 +144803,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 31,
         he: "להוציא אתא ולמדרש מי שמיוחדין",
-        en: "God's designated presence in the Temple makes it the required address for worship.",
+        en: "to exclude, it comes to teach: whatever is exclusively designated",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l13"
+        ]
       },
       {
         id: "rashi-yoma-063b-032",
@@ -144751,11 +144817,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 32,
         he: "לשם יצא זה שאינו מיוחד: הכא",
-        en: "Worshipping elsewhere is not supplementary - it is prohibited.",
+        en: "for the Name is included, and this one, not exclusively designated, is excluded. 'Here,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l13"
+        ]
       },
       {
         id: "rashi-yoma-063b-033",
@@ -144763,11 +144831,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 33,
         he: "דאשה משמע להוציא. שעיר המשתלח",
-        en: "This teaching remains relevant even without the Temple.",
+        en: "in the second verse, \"fire-offering\" implies exclusion' - of the goat that is sent away,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l13"
+        ]
       },
       {
         id: "rashi-yoma-063b-034",
@@ -144775,11 +144845,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 34,
         he: "שהרי אינו עולה לאשים: לה' לרבוי.",
-        en: "The principle: Jewish worship has a home address, and all other addresses are substitutes.",
+        en: "since it is not offered up as a fire-offering. '\"To the Lord\" comes for inclusion' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l13"
+        ]
       },
       {
         id: "rashi-yoma-063b-035",
@@ -144787,11 +144859,14 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 35,
         he: "אתא ולמדרש לה' כל דלה': והא אין",
-        en: "Prayer, the successor to sacrifice, is also subject to directional rules.",
+        en: "and it comes to teach: to the Lord, meaning anything that belongs to the Lord. 'But does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l13",
+          "yoma-063b-l16"
+        ]
       },
       {
         id: "rashi-yoma-063b-036",
@@ -144799,11 +144874,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 36,
         he: "הגורל קובע. לשם אלא את הראוי",
-        en: "We pray toward Jerusalem, toward the Temple Mount.",
+        en: "the lottery designate' - for the Name only that which is fit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l16"
+        ]
       },
       {
         id: "rashi-yoma-063b-037",
@@ -144811,11 +144888,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 37,
         he: "לשם וכיון דלא ידע על איזה מהן",
-        en: "The location requirement never fully disappears from Jewish worship.",
+        en: "for the Name? And since one does not know upon which of the two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l16"
+        ]
       },
       {
         id: "rashi-yoma-063b-038",
@@ -144823,11 +144902,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 38,
         he: "יעלה הגורל לשם א\"א להיות אחד",
-        en: "It transforms: from physical location of slaughter to spiritual orientation of prayer.",
+        en: "the lottery for the Name will fall, it is impossible for either",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l16"
+        ]
       },
       {
         id: "rashi-yoma-063b-039",
@@ -144835,11 +144916,14 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 39,
         he: "מהן מחוסר זמן: חנן המצרי היא.",
-        en: "But the principle - the Temple is the center - remains constant.",
+        en: "of them to be lacking its time. 'This follows Chanan the Egyptian' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l16",
+          "yoma-063b-l19"
+        ]
       },
       {
         id: "rashi-yoma-063b-040",
@@ -144847,11 +144931,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 40,
         he: "דלית ליה הגרלה משהגריל ומת אחד",
-        en: "The study of these laws reinforces this center even in its absence.",
+        en: "who holds that once the lottery has been cast and one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l19"
+        ]
       },
       {
         id: "rashi-yoma-063b-041",
@@ -144859,11 +144945,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 41,
         he: "מהן הלכך כשמת שעיר המשתלח",
-        en: "Yoma is the tractate that keeps the Temple alive in the Jewish consciousness.",
+        en: "of the pair dies, no new lottery is needed; therefore, when the goat to be sent away dies",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l19"
+        ]
       },
       {
         id: "rashi-yoma-063b-042",
@@ -144871,11 +144959,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 42,
         he: "ומביא אחר שלא בהגרלה הוצרך",
-        en: "Through its study, the Temple's centrality is maintained across generations.",
+        en: "and he brings another without a new lottery, it was necessary",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l19"
+        ]
       },
       {
         id: "rashi-yoma-063b-043",
@@ -144883,11 +144973,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 43,
         he: "ללמד מן המקרא שלא יביא מחוסר",
-        en: "This is the deepest purpose of Talmud Torah: to keep alive what the Temple embodied.",
+        en: "to derive from the verse that he may not bring one lacking",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l19"
+        ]
       },
       {
         id: "rashi-yoma-063b-044",
@@ -144895,11 +144987,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 44,
         he: "זמן: אפי' דם. של שעיר הפנימי",
-        en: "The Temple was the physical home of the divine-human encounter.",
+        en: "its time. 'Even blood' - of the inner goat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l19"
+        ]
       },
       {
         id: "rashi-yoma-063b-045",
@@ -144907,11 +145001,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 45,
         he: "בכוס שכבר נשחט ומת המשתלח",
-        en: "The Talmud is its textual home.",
+        en: "already in the cup, having already been slaughtered, if the goat to be sent away then dies,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l19"
+        ]
       },
       {
         id: "rashi-yoma-063b-046",
@@ -144919,11 +145015,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 46,
         he: "מביא חבירו מן השוק: ומזויג. לדם",
-        en: "In studying the Talmud, we enter the Temple.",
+        en: "he brings its replacement from the marketplace. 'And pairs it' - with the blood,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l19"
+        ]
       },
       {
         id: "rashi-yoma-063b-047",
@@ -144931,11 +145029,14 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 47,
         he: "ומשלחו: דלית ליה דחויין. דלית ליה",
-        en: "And on Yom Kippur, in studying Yoma, we enter the Holy of Holies.",
+        en: "and sends it away. 'For he does not hold of rejection' - meaning he does not hold",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l19",
+          "yoma-063b-l21"
+        ]
       },
       {
         id: "rashi-yoma-063b-048",
@@ -144943,11 +145044,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 48,
         he: "שיהא הדם דחוי בשביל חבירו שמת לומר ישפך הדם כדקאמר רבי",
-        en: "With all the fear and all the hope of the HP who stood there.",
+        en: "that the blood becomes rejected on account of its partner having died, such that one would say the blood must be poured out, as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l21"
+        ]
       },
       {
         id: "rashi-yoma-063b-049",
@@ -144955,11 +145058,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 49,
         he: "יהודה במתני' מת המשתלח ישפך הדם: דילמא מייתי ומגריל.",
-        en: "May our study bring us to the same place - the encounter with the Divine Presence.",
+        en: "Rabbi Yehuda states in the Mishnah: if the one sent away dies, the blood must be poured out. 'Perhaps he brings a new pair and casts lots' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l21"
+        ]
       },
       {
         id: "rashi-yoma-063b-050",
@@ -144967,11 +145072,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 50,
         he: "וירעה אותו שיפול עליו גורל של שם ויתכפר בדם של ראשון",
-        en: "And may we merit to see the Temple rebuilt.",
+        en: "and lets the surviving goat graze until the lot for the Name falls upon it, and atonement is achieved through the blood of the first goat;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l21"
+        ]
       },
       {
         id: "rashi-yoma-063b-051",
@@ -144979,11 +145086,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 51,
         he: "ולעולם שנים צריך להביא ומגריל ואכתי פשיטא דמחוסר",
-        en: "Where the encounter will be physical again.",
+        en: "and in any case he must bring two and cast lots; but still it is obvious that one lacking",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l21"
+        ]
       },
       {
         id: "rashi-yoma-063b-052",
@@ -144991,11 +145100,14 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 52,
         he: "זמן לא דאין גורל קובע אלא בראוי לשם: רבינא אמר.",
-        en: "And Yom Kippur will be fully restored.",
+        en: "its time may not be included, since the lottery designates only that which is fit for the Name. 'Ravina said' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l21",
+          "yoma-063b-l26"
+        ]
       },
       {
         id: "rashi-yoma-063b-053",
@@ -145003,11 +145115,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 53,
         he: "כי איצטריך קרא דמחוסר זמן כגון שהומם המשתלח משהגריל",
-        en: "Until then: the Talmud is our Holy of Holies.",
+        en: "the verse regarding one lacking its time is necessary for a case such as this: the goat to be sent away became blemished after the lottery had already fallen",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l26"
+        ]
       },
       {
         id: "rashi-yoma-063b-054",
@@ -145015,11 +145129,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 54,
         he: "עליו וחיללו על אחר וזה אין צריך להגריל שהרי מכח הראשון בא:",
-        en: "And the year of study is our Yom Kippur.",
+        en: "upon it, and he transferred its sanctity onto another animal; and this replacement does not need a new lottery, since it comes by force of the first one's own designation.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l26"
+        ]
       },
       {
         id: "rashi-yoma-063b-055",
@@ -145027,11 +145143,14 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 55,
         he: "ואשה לא תתנו וגו'. בבעלי מומין כתיב: מקצתן. כזית מהן:",
-        en: "May it atone for us. Amen.",
+        en: "'And you shall not give a fire-offering from them,' etc. - this is written regarding blemished animals. 'Some of them' - an olive's-bulk's worth of them.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l27",
+          "yoma-063b-l29"
+        ]
       },
       {
         id: "rashi-yoma-063b-056",
@@ -145039,11 +145158,13 @@ const DAF_CONTENT = {
         daf: "63b",
         vilnaLine: 56,
         he: "רבא",
-        en: "The tractate continues its careful analysis.",
+        en: "'Rava' - the comment is truncated here; it continues on 64a as 'Rava said,' explaining a further case in which the verse about one lacking its time is needed.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063b-l29"
+        ]
       }
     ],
     review: "reviewed"
