@@ -1,670 +1,763 @@
 {
-  "canonicalRef": "Yoma 58a",
-  "summary": "Three topics: First, the fixed service order - parochet receives individual blood sprinkles (bull then goat separately) before the bloods are mixed; the golden altar's top surface receives seven sprinkles from the combined blood after mixing. Second, the outer altar service - corner sprinkles from combined blood and a base pour at the western side, completing the spatial circuit from innermost to outermost. Third, a comprehensive accounting of all Yom Kippur blood sprinkle acts across the four zones, totaling over 40 individual sprinkle acts.",
-  "sugyot": [
+ "canonicalRef": "Yoma 58a",
+ "summary": "Three topics: First, the fixed service order - parochet receives individual blood sprinkles (bull then goat separately) before the bloods are mixed; the golden altar's top surface receives seven sprinkles from the combined blood after mixing. Second, the outer altar service - corner sprinkles from combined blood and a base pour at the western side, completing the spatial circuit from innermost to outermost. Third, a comprehensive accounting of all Yom Kippur blood sprinkle acts across the four zones, totaling over 40 individual sprinkle acts.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-058a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 6
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-058a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 6
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.58a.1"
-        },
-        {
-          "vilnaLine": 2,
-          "sefariaRef": "Yoma.58a.2"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.58a.3"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.58a.1",
-        "Yoma.58a.2",
-        "Yoma.58a.3"
-      ],
-      "display": {
-        "whats": "Order of services: parochet from individual bloods, then mixing, then golden altar from combined blood",
-        "hint": "The Gemara clarifies the precise order: the parochet receives the individual blood sprinkles first (bull then goat separately), then the two bloods are mixed, and the mixture is sprinkled seven times on the golden altar's top.",
-        "title": "Service Order: Parochet Before Golden Altar; Blood Mixed After Both Parochet Services"
-      },
-      "learning": {
-        "ahaMoment": "Parochet gets individual blood; golden altar gets combined blood. The sequence forces the mixing to happen at precisely the right moment - after the parochet, before the golden altar.",
-        "memoryAnchor": "The mixing is perfectly timed: after the parochet's individual blood service, before the golden altar's combined blood service.",
-        "learnerQuestion": "What is the correct sequence of the outer blood services on Yom Kippur, and when does the mixing of bull and goat blood occur?",
-        "coreTension": "The outer services involve the parochet and the golden altar; the order between them, and the timing of when the two bloods are mixed, must be precisely defined to ensure the correct sequence.",
-        "coreMove": "The Talmud establishes that the parochet service comes before the golden altar service; the mixing of the bull and goat blood occurs only after both parochet services (bull and goat) are complete, not before them.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The outer blood services follow this order: bull parochet, then goat parochet, then mixing, then golden altar; the blood is not mixed until both parochet services are complete."
-        },
-        "learningBlocker": "Students may assume the bloods are mixed first and then applied to all outer locations together; the Talmud's separate sequential treatment of each location with each blood is not immediately obvious."
-      },
-      "argumentFlow": [
-        {
-          "type": "question",
-          "speaker": "Gemara",
-          "text": "Does the parochet service precede or follow the golden altar service?",
-          "id": "yoma-058a-l01",
-          "label": "Question: Does the parochet service precede or follow",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-058a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "derivation",
-          "speaker": "Gemara",
-          "text": "From the verses: parochet from individual bloods first, then mix, then golden altar from combined blood.",
-          "id": "yoma-058a-l02",
-          "label": "Derivation: From the verses: parochet from individual bloods",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-058a-l02",
-              "vilnaLine": 2
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "This sequence is fixed by Scripture; deviation affects validity.",
-          "id": "yoma-058a-l06",
-          "label": "Ruling: This sequence is fixed by Scripture; deviation",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-058a-l06",
-              "vilnaLine": 6
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "service order",
-        "parochet before golden altar",
-        "blood mixing timing",
-        "sequence"
-      ],
-      "concepts": {
-        "halachic": [
-          "fixed sequence: parochet then mix then golden altar",
-          "timing of blood mixing"
-        ],
-        "theological": [
-          "divine ordering of purification stages",
-          "the precise moment of synthesis"
-        ],
-        "narrative": [
-          "Yom Kippur service order",
-          "scriptural derivation"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing both the parochet and golden altar receive sprinkles",
-        "Knowing the difference between individual blood (parochet) and combined blood (golden altar top)"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The mixing of bull and goat blood happens before the parochet service - the mixed blood is then used for all the outer services.",
-          "correction": "The mixing occurs after both parochet services are complete; the parochet receives bull and goat blood separately before any mixing, and the mixing precedes only the golden altar service."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "name": "parochet individual bloods then mixing then golden altar combined"
-        },
-        {
-          "type": "contrast",
-          "name": "individual blood vs. combined blood timing"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "After completing the parochet sprinklings from individual bloods (bull then goat separately), and before the golden altar service - the mixed blood is used for the seven sprinkles on the altar's top.",
-          "question": "When does the HP mix the bull and goat blood during the Yom Kippur service?"
-        }
-      ],
-      "finalRuling": "The parochet receives individual blood sprinkles first, then the HP mixes both bloods, then sprinkles seven times on the golden altar's top from the combined blood.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.58a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-058a-s02",
-      "lineRange": {
-        "startVilnaLine": 10,
-        "endVilnaLine": 20
-      },
-      "lines": [
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.58a.4"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.58a.5"
-        },
-        {
-          "vilnaLine": 15,
-          "sefariaRef": "Yoma.58a.6"
-        },
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.58a.7"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.58a.8"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.58a.4",
-        "Yoma.58a.5",
-        "Yoma.58a.6",
-        "Yoma.58a.7",
-        "Yoma.58a.8"
-      ],
-      "display": {
-        "whats": "The outer altar service and the pouring of combined blood at the western base",
-        "hint": "After the Heichal services, the HP moves to the outer courtyard with the remaining combined blood. He sprinkles on the outer altar's corners and pours the remainder at the western base, concluding the spatial circuit.",
-        "title": "High Priest at the Outer Altar on Yom Kippur"
-      },
-      "learning": {
-        "ahaMoment": "From the Ark at the center of the Temple to the outer altar at the courtyard's heart: the HP's blood circuit spans the full extent of Israel's sacred space.",
-        "memoryAnchor": "Outer altar base: the last stop on blood's journey from the innermost sacred to the outer court.",
-        "learnerQuestion": "What does the High Priest do at the outer altar (mizbeach ha-chitzon) as part of the Yom Kippur service, and how does it differ from the inner altar service?",
-        "coreTension": "The outer altar (bronze altar) is used for daily and festival sacrifices; on Yom Kippur, the HP also has a specific service there, but its nature and relationship to the inner services must be defined.",
-        "coreMove": "The Talmud clarifies the HP's outer altar service on Yom Kippur: this involves corner (horn) blood applications from the mixed blood, distinct from the regular daily offerings; the outer altar receives a specific Yom Kippur service in addition to the regular Temple schedule.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The High Priest performs a specific service at the outer altar on Yom Kippur, applying the mixed blood to the altar's corners; this is distinct from the regular daily altar service and is a required component of the Yom Kippur blood services."
-        },
-        "learningBlocker": "Students may confuse the outer altar's Yom Kippur service with regular daily sacrificial services, or may not realize the HP separately services the outer altar as part of the Yom Kippur ritual."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Mishnah",
-          "text": "HP moves to the outer court and sprinkles on the four corners of the outer altar.",
-          "id": "yoma-058a-l10",
-          "label": "Ruling: HP moves to the outer court and",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-058a-l10",
-              "vilnaLine": 10
-            }
-          ]
-        },
-        {
-          "type": "detail",
-          "speaker": "Gemara",
-          "text": "The corner sprinkles use the combined blood.",
-          "id": "yoma-058a-l14",
-          "label": "Detail: The corner sprinkles use the combined blood.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-058a-l14",
-              "vilnaLine": 14
-            }
-          ]
-        },
-        {
-          "type": "completion",
-          "speaker": "Mishnah",
-          "text": "He pours the remaining blood at the western base of the outer altar.",
-          "id": "yoma-058a-l18",
-          "label": "Completion: He pours the remaining blood at the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-058a-l18",
-              "vilnaLine": 18
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "outer altar",
-        "corner sprinkles",
-        "western base",
-        "base pour",
-        "outer service"
-      ],
-      "concepts": {
-        "halachic": [
-          "outer altar service",
-          "completing the blood circuit",
-          "western base pouring"
-        ],
-        "theological": [
-          "full traversal of Temple sacred space",
-          "blood purifying from innermost to outermost"
-        ],
-        "narrative": [
-          "Yom Kippur blood service conclusion",
-          "outer court"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing the outer altar is in the azarah (courtyard), not inside the Heichal",
-        "Knowing the western base receives this blood specifically"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The outer altar's corners also receive seven sprinklings from the Yom Kippur blood service, identical in count to the golden altar.",
-          "correction": "The outer altar (bronze) and inner golden altar have separate and distinct blood services on Yom Kippur; they do not receive identical treatments, and the counts and methods differ between them."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "place",
-          "name": "outer altar in the azarah"
-        },
-        {
-          "type": "sequence",
-          "name": "corner sprinkles then western base pour"
-        },
-        {
-          "type": "action",
-          "name": "completing the blood circuit"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "He sprinkles on the four corners of the outer altar from the combined blood, then pours the remainder at the western base.",
-          "question": "After completing all the inner Heichal services, what blood service does the HP perform in the outer court?"
-        }
-      ],
-      "finalRuling": "The HP concludes the blood service by sprinkling on the outer altar's corners and pouring the remainder at the western base.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 2,
+     "sefariaRef": "Yoma.58a.2"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-058a-s03",
-      "lineRange": {
-        "startVilnaLine": 24,
-        "endVilnaLine": 29
-      },
-      "lines": [
-        {
-          "vilnaLine": 24,
-          "sefariaRef": "Yoma.58a.9"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.58a.10"
-        },
-        {
-          "vilnaLine": 29,
-          "sefariaRef": "Yoma.58a.11"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.58a.9",
-        "Yoma.58a.10",
-        "Yoma.58a.11"
-      ],
-      "display": {
-        "whats": "Complete accounting of Yom Kippur blood sprinkles across all four zones",
-        "hint": "The Gemara totals the blood sprinkle acts across all four zones: Holy of Holies (8+8), parochet (8+8), golden altar (4+4 corners + 7 on top), and outer altar (4 corners + base pour).",
-        "title": "Total Yom Kippur Blood Acts: 43"
-      },
-      "learning": {
-        "ahaMoment": "Over 40 sprinkle acts across four zones - Yom Kippur atonement is not one gesture but an entire systematic purification of sacred space.",
-        "memoryAnchor": "40+ sprinkles, 4 zones, 2 bloods: the arithmetic reveals the architecture of atonement.",
-        "learnerQuestion": "How does the Talmud arrive at 43 total blood acts for the complete Yom Kippur blood service, and which stations contribute to that count?",
-        "coreTension": "The various blood services (inner kapporet, parochet, golden altar, outer altar, base pours) each contribute their own counts; tallying them requires careful tracking to avoid double-counting and to include every required act.",
-        "coreMove": "The Talmud systematically tallies: the inner kapporet sprinklings total 32 (16 from bull and 16 from goat, each with one up and seven down twice), plus 11 at the golden altar (7 corner and 4 top sprinklings), equaling 43 total blood acts.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The complete Yom Kippur blood service totals 43 acts: 32 from the kapporet sprinklings (16 from bull and 16 from goat) plus 11 at the golden altar (7 corner and 4 top)."
-        },
-        "learningBlocker": "The multi-station, multi-blood complexity makes accurate counting difficult; students often undercount by forgetting one station or by not correctly counting the direction (up vs. down) of each sprinkling."
-      },
-      "argumentFlow": [
-        {
-          "type": "summary",
-          "speaker": "Gemara",
-          "text": "Complete accounting: inside 8+8, parochet 8+8, golden altar 8 corners + 7 top, outer altar corners + base.",
-          "id": "yoma-058a-l24",
-          "label": "Summary: Complete accounting: inside 8+8, parochet 8+8, golden",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-058a-l24",
-              "vilnaLine": 24
-            }
-          ]
-        },
-        {
-          "type": "total",
-          "speaker": "Gemara",
-          "text": "Total blood sprinkle acts on Yom Kippur exceeds 40 individual sprinkles.",
-          "id": "yoma-058a-l28",
-          "label": "Total: Total blood sprinkle acts on Yom Kippur",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-058a-l28",
-              "vilnaLine": 28
-            }
-          ]
-        },
-        {
-          "type": "completion",
-          "speaker": "Gemara",
-          "text": "All four zones purified; the blood service is now complete.",
-          "id": "yoma-058a-l29",
-          "label": "Completion: All four zones purified; the blood service",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-058a-l29",
-              "vilnaLine": 29
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "total sprinkle count",
-        "four zones",
-        "complete accounting",
-        "blood service summary"
-      ],
-      "concepts": {
-        "halachic": [
-          "comprehensive blood service",
-          "systematic four-zone purification",
-          "total sprinkle accounting"
-        ],
-        "theological": [
-          "atonement as total coverage of sacred space",
-          "systematic thoroughness"
-        ],
-        "narrative": [
-          "Yom Kippur totality",
-          "arithmetic of atonement"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing all four zones and their respective formulas",
-        "Knowing the golden altar has both corner (individual) and top (combined) sprinkles"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The golden altar receives only 7 blood acts on Yom Kippur - the seven corner sprinklings.",
-          "correction": "The golden altar receives 11 total acts on Yom Kippur: 7 corner applications plus 4 additional top sprinklings; together with the 32 kapporet sprinklings, the total is 43."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "name": "full four-zone blood service accounting"
-        },
-        {
-          "type": "timeline",
-          "name": "Holy of Holies to parochet to golden altar to outer altar"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Over 40: 8 from bull at kapporet, 8 from goat at kapporet, 8 from bull at parochet, 8 from goat at parochet, 8 corner sprinkles at golden altar, 7 on top of golden altar, plus outer altar corners and base.",
-          "question": "How many total blood sprinkle acts does the HP perform across all Yom Kippur services?"
-        }
-      ],
-      "finalRuling": "The Yom Kippur blood service involves over 40 individual sprinkle acts across four Temple zones, constituting a complete systematic purification.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.58a.3"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.58a.1",
+    "Yoma.58a.2",
+    "Yoma.58a.3"
+   ],
+   "display": {
+    "whats": "Order of services: parochet from individual bloods, then mixing, then golden altar from combined blood",
+    "hint": "The Gemara clarifies the precise order: the parochet receives the individual blood sprinkles first (bull then goat separately), then the two bloods are mixed, and the mixture is sprinkled seven times on the golden altar's top.",
+    "title": "Service Order: Parochet Before Golden Altar; Blood Mixed After Both Parochet Services"
+   },
+   "learning": {
+    "ahaMoment": "Parochet gets individual blood; golden altar gets combined blood. The sequence forces the mixing to happen at precisely the right moment - after the parochet, before the golden altar.",
+    "memoryAnchor": "The mixing is perfectly timed: after the parochet's individual blood service, before the golden altar's combined blood service.",
+    "learnerQuestion": "What is the correct sequence of the outer blood services on Yom Kippur, and when does the mixing of bull and goat blood occur?",
+    "coreTension": "The outer services involve the parochet and the golden altar; the order between them, and the timing of when the two bloods are mixed, must be precisely defined to ensure the correct sequence.",
+    "coreMove": "The Talmud establishes that the parochet service comes before the golden altar service; the mixing of the bull and goat blood occurs only after both parochet services (bull and goat) are complete, not before them.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The outer blood services follow this order: bull parochet, then goat parochet, then mixing, then golden altar; the blood is not mixed until both parochet services are complete."
+    },
+    "learningBlocker": "Students may assume the bloods are mixed first and then applied to all outer locations together; the Talmud's separate sequential treatment of each location with each blood is not immediately obvious."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "A decree was instituted - a rabbinic fence preventing accidental violation.",
-      "linkedGemaraLineIds": []
+     "type": "question",
+     "speaker": "Gemara",
+     "text": "Does the parochet service precede or follow the golden altar service?",
+     "id": "yoma-058a-l01",
+     "label": "Question: Does the parochet service precede or follow",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-058a-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "The parochet sprinkling and golden altar service: order and derivation.",
-      "linkedGemaraLineIds": []
+     "type": "derivation",
+     "speaker": "Gemara",
+     "text": "From the verses: parochet from individual bloods first, then mix, then golden altar from combined blood.",
+     "id": "yoma-058a-l02",
+     "label": "Derivation: From the verses: parochet from individual bloods",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-058a-l02",
+       "vilnaLine": 2
+      }
+     ]
     },
     {
-      "vilnaLine": 3,
-      "en": "He sprinkles on the parochet before the golden altar service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 4,
-      "en": "The combined blood for the golden altar comes after the individual blood parochet service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "en": "After mixing, seven sprinkles go on the golden altar from the combined blood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "en": "The parochet receives individual blood sprinkles first; golden altar receives mixed blood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "en": "The order: parochet from individual bloods, then mix, then golden altar from mixed blood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "en": "This ordering is derived from the verses.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "en": "The seven sprinkles on the golden altar top are from the combined blood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "en": "After the golden altar: the outer altar.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "en": "HP moves from the inner golden altar to the outer altar in the courtyard.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "en": "He sprinkles on the four corners of the outer altar.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "en": "From the combined blood, the corners receive sprinkles.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Then he pours the remainder at the base.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "The base receives the final remnant blood from all services.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "Two pours: one at the inner altar base and one at the outer altar base.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Actually: all remainders go to the outer altar's western base.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "HP completes the inner circuit and then moves to the outer court.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "He carries the remaining blood bowl to the outer court.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "There he completes the outer altar service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "After all sprinklings: residual blood is poured.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "The Mishnah specifies which base receives which blood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Inner services vs. outer services: different bloods, different locations for remainders.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "The outer altar's western base receives the combined blood remainder.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "This is the final act of the blood service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "The western base of the outer altar: why specifically the west?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "The west is closest to the Holy of Holies - blood returns toward its source.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "The western base receives certain bloods by tradition and derivation.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "After all pouring, the blood service is complete.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "The HP has moved through all four zones of the sanctuary.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Now he returns to other Yom Kippur tasks: scapegoat, reading, personal services.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "The blood service is the ritual heart; everything else surrounds it.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "The HP's concentration during the blood service is unparalleled.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "No other day requires this level of sustained focus from one person.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "Each sprinkle represents specific atonement for a specific category of sin.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "The entire nation's sins are addressed through the HP's service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "The outer altar base pour marks the transition from blood service to other services.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "After this pour, the HP exits and proceeds to the outer services.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "The scapegoat service follows the blood services.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "Then the HP reads the Torah and offers personal sacrifices.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "But first, he changes from white linen to golden garments.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "White garments: for the blood service requiring humility before God.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Golden garments: for the outer services performed before the community.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "The garment change marks the transition between the two phases.",
-      "linkedGemaraLineIds": []
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "This sequence is fixed by Scripture; deviation affects validity.",
+     "id": "yoma-058a-l06",
+     "label": "Ruling: This sequence is fixed by Scripture; deviation",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-058a-l06",
+       "vilnaLine": 6
+      }
+     ]
     }
-  ],
-  "review": "reviewed"
+   ],
+   "topicTags": [
+    "service order",
+    "parochet before golden altar",
+    "blood mixing timing",
+    "sequence"
+   ],
+   "concepts": {
+    "halachic": [
+     "fixed sequence: parochet then mix then golden altar",
+     "timing of blood mixing"
+    ],
+    "theological": [
+     "divine ordering of purification stages",
+     "the precise moment of synthesis"
+    ],
+    "narrative": [
+     "Yom Kippur service order",
+     "scriptural derivation"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Knowing both the parochet and golden altar receive sprinkles",
+    "Knowing the difference between individual blood (parochet) and combined blood (golden altar top)"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The mixing of bull and goat blood happens before the parochet service - the mixed blood is then used for all the outer services.",
+     "correction": "The mixing occurs after both parochet services are complete; the parochet receives bull and goat blood separately before any mixing, and the mixing precedes only the golden altar service."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "name": "parochet individual bloods then mixing then golden altar combined"
+    },
+    {
+     "type": "contrast",
+     "name": "individual blood vs. combined blood timing"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "After completing the parochet sprinklings from individual bloods (bull then goat separately), and before the golden altar service - the mixed blood is used for the seven sprinkles on the altar's top.",
+     "question": "When does the HP mix the bull and goat blood during the Yom Kippur service?"
+    }
+   ],
+   "finalRuling": "The parochet receives individual blood sprinkles first, then the HP mixes both bloods, then sprinkles seven times on the golden altar's top from the combined blood.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-058a-s02",
+   "lineRange": {
+    "startVilnaLine": 10,
+    "endVilnaLine": 20
+   },
+   "lines": [
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.58a.4"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.58a.5"
+    },
+    {
+     "vilnaLine": 15,
+     "sefariaRef": "Yoma.58a.6"
+    },
+    {
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.58a.7"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.58a.8"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.58a.4",
+    "Yoma.58a.5",
+    "Yoma.58a.6",
+    "Yoma.58a.7",
+    "Yoma.58a.8"
+   ],
+   "display": {
+    "whats": "The outer altar service and the pouring of combined blood at the western base",
+    "hint": "After the Heichal services, the HP moves to the outer courtyard with the remaining combined blood. He sprinkles on the outer altar's corners and pours the remainder at the western base, concluding the spatial circuit.",
+    "title": "High Priest at the Outer Altar on Yom Kippur"
+   },
+   "learning": {
+    "ahaMoment": "From the Ark at the center of the Temple to the outer altar at the courtyard's heart: the HP's blood circuit spans the full extent of Israel's sacred space.",
+    "memoryAnchor": "Outer altar base: the last stop on blood's journey from the innermost sacred to the outer court.",
+    "learnerQuestion": "What does the High Priest do at the outer altar (mizbeach ha-chitzon) as part of the Yom Kippur service, and how does it differ from the inner altar service?",
+    "coreTension": "The outer altar (bronze altar) is used for daily and festival sacrifices; on Yom Kippur, the HP also has a specific service there, but its nature and relationship to the inner services must be defined.",
+    "coreMove": "The Talmud clarifies the HP's outer altar service on Yom Kippur: this involves corner (horn) blood applications from the mixed blood, distinct from the regular daily offerings; the outer altar receives a specific Yom Kippur service in addition to the regular Temple schedule.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The High Priest performs a specific service at the outer altar on Yom Kippur, applying the mixed blood to the altar's corners; this is distinct from the regular daily altar service and is a required component of the Yom Kippur blood services."
+    },
+    "learningBlocker": "Students may confuse the outer altar's Yom Kippur service with regular daily sacrificial services, or may not realize the HP separately services the outer altar as part of the Yom Kippur ritual."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Mishnah",
+     "text": "HP moves to the outer court and sprinkles on the four corners of the outer altar.",
+     "id": "yoma-058a-l10",
+     "label": "Ruling: HP moves to the outer court and",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-058a-l10",
+       "vilnaLine": 10
+      }
+     ]
+    },
+    {
+     "type": "detail",
+     "speaker": "Gemara",
+     "text": "The corner sprinkles use the combined blood.",
+     "id": "yoma-058a-l14",
+     "label": "Detail: The corner sprinkles use the combined blood.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-058a-l14",
+       "vilnaLine": 14
+      }
+     ]
+    },
+    {
+     "type": "completion",
+     "speaker": "Mishnah",
+     "text": "He pours the remaining blood at the western base of the outer altar.",
+     "id": "yoma-058a-l18",
+     "label": "Completion: He pours the remaining blood at the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-058a-l18",
+       "vilnaLine": 18
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "outer altar",
+    "corner sprinkles",
+    "western base",
+    "base pour",
+    "outer service"
+   ],
+   "concepts": {
+    "halachic": [
+     "outer altar service",
+     "completing the blood circuit",
+     "western base pouring"
+    ],
+    "theological": [
+     "full traversal of Temple sacred space",
+     "blood purifying from innermost to outermost"
+    ],
+    "narrative": [
+     "Yom Kippur blood service conclusion",
+     "outer court"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Knowing the outer altar is in the azarah (courtyard), not inside the Heichal",
+    "Knowing the western base receives this blood specifically"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The outer altar's corners also receive seven sprinklings from the Yom Kippur blood service, identical in count to the golden altar.",
+     "correction": "The outer altar (bronze) and inner golden altar have separate and distinct blood services on Yom Kippur; they do not receive identical treatments, and the counts and methods differ between them."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "place",
+     "name": "outer altar in the azarah"
+    },
+    {
+     "type": "sequence",
+     "name": "corner sprinkles then western base pour"
+    },
+    {
+     "type": "action",
+     "name": "completing the blood circuit"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "He sprinkles on the four corners of the outer altar from the combined blood, then pours the remainder at the western base.",
+     "question": "After completing all the inner Heichal services, what blood service does the HP perform in the outer court?"
+    }
+   ],
+   "finalRuling": "The HP concludes the blood service by sprinkling on the outer altar's corners and pouring the remainder at the western base.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-058a-s03",
+   "lineRange": {
+    "startVilnaLine": 24,
+    "endVilnaLine": 29
+   },
+   "lines": [
+    {
+     "vilnaLine": 24,
+     "sefariaRef": "Yoma.58a.9"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.58a.10"
+    },
+    {
+     "vilnaLine": 29,
+     "sefariaRef": "Yoma.58a.11"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.58a.9",
+    "Yoma.58a.10",
+    "Yoma.58a.11"
+   ],
+   "display": {
+    "whats": "Complete accounting of Yom Kippur blood sprinkles across all four zones",
+    "hint": "The Gemara totals the blood sprinkle acts across all four zones: Holy of Holies (8+8), parochet (8+8), golden altar (4+4 corners + 7 on top), and outer altar (4 corners + base pour).",
+    "title": "Total Yom Kippur Blood Acts: 43"
+   },
+   "learning": {
+    "ahaMoment": "Over 40 sprinkle acts across four zones - Yom Kippur atonement is not one gesture but an entire systematic purification of sacred space.",
+    "memoryAnchor": "40+ sprinkles, 4 zones, 2 bloods: the arithmetic reveals the architecture of atonement.",
+    "learnerQuestion": "How does the Talmud arrive at 43 total blood acts for the complete Yom Kippur blood service, and which stations contribute to that count?",
+    "coreTension": "The various blood services (inner kapporet, parochet, golden altar, outer altar, base pours) each contribute their own counts; tallying them requires careful tracking to avoid double-counting and to include every required act.",
+    "coreMove": "The Talmud systematically tallies: the inner kapporet sprinklings total 32 (16 from bull and 16 from goat, each with one up and seven down twice), plus 11 at the golden altar (7 corner and 4 top sprinklings), equaling 43 total blood acts.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The complete Yom Kippur blood service totals 43 acts: 32 from the kapporet sprinklings (16 from bull and 16 from goat) plus 11 at the golden altar (7 corner and 4 top)."
+    },
+    "learningBlocker": "The multi-station, multi-blood complexity makes accurate counting difficult; students often undercount by forgetting one station or by not correctly counting the direction (up vs. down) of each sprinkling."
+   },
+   "argumentFlow": [
+    {
+     "type": "summary",
+     "speaker": "Gemara",
+     "text": "Complete accounting: inside 8+8, parochet 8+8, golden altar 8 corners + 7 top, outer altar corners + base.",
+     "id": "yoma-058a-l24",
+     "label": "Summary: Complete accounting: inside 8+8, parochet 8+8, golden",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-058a-l24",
+       "vilnaLine": 24
+      }
+     ]
+    },
+    {
+     "type": "total",
+     "speaker": "Gemara",
+     "text": "Total blood sprinkle acts on Yom Kippur exceeds 40 individual sprinkles.",
+     "id": "yoma-058a-l28",
+     "label": "Total: Total blood sprinkle acts on Yom Kippur",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-058a-l28",
+       "vilnaLine": 28
+      }
+     ]
+    },
+    {
+     "type": "completion",
+     "speaker": "Gemara",
+     "text": "All four zones purified; the blood service is now complete.",
+     "id": "yoma-058a-l29",
+     "label": "Completion: All four zones purified; the blood service",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-058a-l29",
+       "vilnaLine": 29
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "total sprinkle count",
+    "four zones",
+    "complete accounting",
+    "blood service summary"
+   ],
+   "concepts": {
+    "halachic": [
+     "comprehensive blood service",
+     "systematic four-zone purification",
+     "total sprinkle accounting"
+    ],
+    "theological": [
+     "atonement as total coverage of sacred space",
+     "systematic thoroughness"
+    ],
+    "narrative": [
+     "Yom Kippur totality",
+     "arithmetic of atonement"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Knowing all four zones and their respective formulas",
+    "Knowing the golden altar has both corner (individual) and top (combined) sprinkles"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The golden altar receives only 7 blood acts on Yom Kippur - the seven corner sprinklings.",
+     "correction": "The golden altar receives 11 total acts on Yom Kippur: 7 corner applications plus 4 additional top sprinklings; together with the 32 kapporet sprinklings, the total is 43."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "name": "full four-zone blood service accounting"
+    },
+    {
+     "type": "timeline",
+     "name": "Holy of Holies to parochet to golden altar to outer altar"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Over 40: 8 from bull at kapporet, 8 from goat at kapporet, 8 from bull at parochet, 8 from goat at parochet, 8 corner sprinkles at golden altar, 7 on top of golden altar, plus outer altar corners and base.",
+     "question": "How many total blood sprinkle acts does the HP perform across all Yom Kippur services?"
+    }
+   ],
+   "finalRuling": "The Yom Kippur blood service involves over 40 individual sprinkle acts across four Temple zones, constituting a complete systematic purification.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'And he shall receive the blood in it' - he questions all the receiving-vessels used throughout the year.",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "'Same kind with same kind' - one basin inside another basin. 'Does it interpose?' - meaning this receiving would not count as done by the priest himself, since he",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "is not holding the basin that the blood is actually in. 'Does this not mean he set a full basin inside",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l10",
+    "yoma-058a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "an empty one' - that he poured from it? But here too it is written 'and he shall take,' 'and he shall take from the blood of the bull'",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "'and from the blood of the goat,' and this 'taking' means holding the basin",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "itself. 'No, he poured a full basin' - after",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l14",
+    "yoma-058a-l15"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "he poured the bull's blood into the goat's blood, he goes back",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l15"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "and pours a full basin into an empty basin.",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l15"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "'He stood upon vessels, etc.' - since the school of",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "R. Yishmael taught: since the floor sanctifies and the sacred",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "vessels sanctify, just as with a sacred vessel nothing may",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "interpose between it and the sacred vessel, so too",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "with the floor nothing may interpose between him and",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "the floor, in tractate Zevachim (24a). 'Upon",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "his fellow's foot' - this shows that same kind interposes upon same kind.",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "'Since he does not nullify it' - his fellow does not withdraw his foot until",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "he finishes his service. 'The vessels of service' - two vessels",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l18",
+    "yoma-058a-l20"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "are implied and a single act of service. 'Fiber' - that grows around",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l20",
+    "yoma-058a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "the palm tree and wraps around it like the tendrils on grapevines,",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "and it is soft and absorbs the blood, and the blood",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "seeps out from every side of it, so it does not interpose very much - is this",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "sort of thing considered an interposition or not?",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "'He pours it out gradually, etc.' - the Mishnah's own beginning states this",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "(Parah 6:3): if one sanctified the ash water in a trough and there",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "was a sponge inside it, the water absorbed in the sponge is invalid.",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "What should he do? He pours it out gradually until he reaches",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "the sponge. The trough is a hollowed stone at the spring's",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "edge, and the water enters it through a hole",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "in its wall, and animals are watered from it, and it is sanctified",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "in it, the ash of the red heifer into living water, and this is",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "the vessel. The water absorbed in the sponge is invalid because for living water we require the water",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "to be in contact with a vessel.",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "How does he proceed? When he comes to take the water",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "and place it in a flask or a tube, he pours out and empties",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "all the water in the trough until he reaches",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "the sponge; he pours until only what is available drains, 'egoutter'",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "in the vernacular, and just as we say in Mo'ed Katan (11b):",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "he pours it out in the usual way, this shows that a sponge does not",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "interpose or invalidate, but only what is absorbed within it does,",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "and the same applies to fiber. 'Water is different, since it is thin' -",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "it seeps out from every side and enters between it and the vessel, but blood is thick. 'With",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l28",
+    "yoma-058a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "blood it is valid' - since it is thin. 'With a handful it is invalid' - regarding the sanctification of the handful, which must be sanctified",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "in a vessel after the scooping, and this corresponds to the receiving of blood, which is invalid since it interposes.",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l29"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "'The Mishnah' - the daf ends here; the comment's own explanation is deferred to 58b, quoting the Mishnah's own text about the golden altar.",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l29"
+   ]
+  }
+ ],
+ "review": "reviewed"
 }
