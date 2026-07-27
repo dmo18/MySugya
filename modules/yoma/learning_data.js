@@ -149317,11 +149317,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 1,
         he: "ואם נתעברה נתעברה למוכר. ולא תחלט עד שיגיע באותו יום",
-        en: "If the year was extended (leap year): it is extended for the benefit of the seller.",
+        en: "'And if it was intercalated, it was intercalated for the seller' - meaning the house is not finalized in the buyer's possession until that same day",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l01"
+        ]
       },
       {
         id: "rashi-yoma-066a-002",
@@ -149329,11 +149331,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 2,
         he: "באותו חדש שמכרה לו ולרבי משכחת לה כגון שהקדישו ביום שמיני",
-        en: "The leap year extension and its relationship to contracts and agreements.",
+        en: "of that same month arrives in which he sold it to him; and according to Rabbi, you can find this applying, for instance, where he consecrated the animal on the eighth day",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l01"
+        ]
       },
       {
         id: "rashi-yoma-066a-003",
@@ -149341,11 +149345,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 3,
         he: "ללידתו בערב יום הכפורים בשנה פשוטה וכי מטי יום הכפורים",
-        en: "When a year is extended, dates in contracts are interpreted generously.",
+        en: "after its birth, on the eve of Yom Kippur in a plain year, and by the time the next Yom Kippur",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l01"
+        ]
       },
       {
         id: "rashi-yoma-066a-004",
@@ -149353,11 +149359,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 4,
         he: "הבא אכתי לא מלו ליה שס\"ה ימים אלא שס\"ד: פר מאי איכא",
-        en: "The month added in a leap year benefits the later party, not the earlier.",
+        en: "arrives, only 364 days have passed for it, not 365. 'What can be said regarding the bull' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l01"
+        ]
       },
       {
         id: "rashi-yoma-066a-005",
@@ -149365,11 +149373,14 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 5,
         he: "למימר. שהוא בן שלש: רואין אותה.",
-        en: "This general leap year principle is applied to various legal contexts.",
+        en: "since it is three years old. 'We view it' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l01",
+          "yoma-066a-l03"
+        ]
       },
       {
         id: "rashi-yoma-066a-006",
@@ -149377,11 +149388,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 6,
         he: "בכל מקום שהיא כאילו עומדת בבית",
-        en: "Then the Yom Kippur service continues: 'The HP comes over to the goat.'",
+        en: "as though, wherever it is, it stands in",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l03"
+        ]
       },
       {
         id: "rashi-yoma-066a-007",
@@ -149389,11 +149402,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 7,
         he: "הקברות שאין הכהן יכול ליקרב",
-        en: "After the scapegoat is prepared and the third confession is recited.",
+        en: "a cemetery, since the priest cannot come near it;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l03"
+        ]
       },
       {
         id: "rashi-yoma-066a-008",
@@ -149401,11 +149416,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 8,
         he: "אליה אבל לא מחטאות המתות היא",
-        en: "The HP comes to the Azazel goat to begin the confession.",
+        en: "but it is not among the sin-offerings that must die,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l03"
+        ]
       },
       {
         id: "rashi-yoma-066a-009",
@@ -149413,11 +149430,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 9,
         he: "אלא שאינה קריבה הלכך רועה",
-        en: "He stands before the goat, which is tethered at the gate.",
+        en: "only that it cannot be offered; therefore it grazes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l03"
+        ]
       },
       {
         id: "rashi-yoma-066a-010",
@@ -149425,11 +149444,14 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 10,
         he: "עד שיפול בה מום ותימכר: משום",
-        en: "He places both hands on the goat's head.",
+        en: "until a blemish befalls it and it is sold. 'On account of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l03",
+          "yoma-066a-l06"
+        ]
       },
       {
         id: "rashi-yoma-066a-011",
@@ -149437,11 +149459,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 11,
         he: "תקלה. לקמן מפרש מאי תקלה:",
-        en: "This is the formal beginning of the scapegoat dispatch ritual.",
+        en: "a mishap' - the Gemara will explain below what this mishap is.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l06"
+        ]
       },
       {
         id: "rashi-yoma-066a-012",
@@ -149449,11 +149473,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 12,
         he: "דתנן. דחיישינן לתקלה: אין מקדישין.",
-        en: "The confession he recites at this point is comprehensive.",
+        en: "'As we learned' - that we are concerned about a mishap. 'One may not consecrate' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l06"
+        ]
       },
       {
         id: "rashi-yoma-066a-013",
@@ -149461,11 +149487,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 13,
         he: "שום דבר שסתם הקדש לבדק הבית",
-        en: "All of Israel's sins are confessed and transferred.",
+        en: "anything, since an unspecified consecration goes to Temple maintenance,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l06"
+        ]
       },
       {
         id: "rashi-yoma-066a-014",
@@ -149473,11 +149501,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 14,
         he: "ואין להן תקנה: ואין מחרימין.",
-        en: "The transfer is symbolized by the placing of hands.",
+        en: "and there is no remedy for it. 'And one may not devote' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l06"
+        ]
       },
       {
         id: "rashi-yoma-066a-015",
@@ -149485,11 +149515,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 15,
         he: "קסבר סתם חרמין לבדק הבית",
-        en: "And effectuated by the words of the confession.",
+        en: "he holds that an unspecified devotion goes to Temple maintenance,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l06"
+        ]
       },
       {
         id: "rashi-yoma-066a-016",
@@ -149497,11 +149529,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 16,
         he: "ופלוגתא היא במסכת ערכין (דף כח:):",
-        en: "After the confession: the guide takes the goat away.",
+        en: "and this is a matter of dispute in tractate Arachin (28b).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l06"
+        ]
       },
       {
         id: "rashi-yoma-066a-017",
@@ -149509,11 +149543,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 17,
         he: "כל רועות. כל הני דאמור רבנן",
-        en: "The guide is accompanied by the crowds that line the route.",
+        en: "'All that graze' - all these cases where the Rabbis said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l13"
+        ]
       },
       {
         id: "rashi-yoma-066a-018",
@@ -149521,11 +149557,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 18,
         he: "ירעו עד שיסתאבו ניחוש שמא",
-        en: "The HP's role is complete once the confession is recited and the goat handed to the guide.",
+        en: "they should graze until they become blemished, we are concerned lest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l13"
+        ]
       },
       {
         id: "rashi-yoma-066a-019",
@@ -149533,11 +149571,14 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 19,
         he: "יקריבם: והנך דלאו בני הקרבה",
-        en: "He does not accompany the goat himself.",
+        en: "one offer them. 'And those that are not themselves fit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l13",
+          "yoma-066a-l15"
+        ]
       },
       {
         id: "rashi-yoma-066a-020",
@@ -149545,11 +149586,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 20,
         he: "נינהו. שאר רועות אינן עומדות",
-        en: "His job is the confession; the guide's job is the dispatch.",
+        en: "for offering' - the other grazing animals do not themselves stand",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l15"
+        ]
       },
       {
         id: "rashi-yoma-066a-021",
@@ -149557,11 +149600,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 21,
         he: "ליקרב הני עצמן אלא דמיהן: לא",
-        en: "The HP's concentration is needed back in the Temple for the remaining services.",
+        en: "to be offered, only their proceeds after sale. 'He is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l15"
+        ]
       },
       {
         id: "rashi-yoma-066a-022",
@@ -149569,11 +149614,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 22,
         he: "טריד בהו. אינו מהרהר בהקרבתן",
-        en: "He cannot leave for the journey to the wilderness.",
+        en: "preoccupied with them' - he does not dwell on offering them,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l15"
+        ]
       },
       {
         id: "rashi-yoma-066a-023",
@@ -149581,11 +149628,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 23,
         he: "ומסיח דעתיה מהקרבה דידהו:",
-        en: "The division of labor: HP confesses and hands off; guide leads to the cliff.",
+        en: "and his mind is diverted from offering them.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l15"
+        ]
       },
       {
         id: "rashi-yoma-066a-024",
@@ -149593,11 +149642,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 24,
         he: "הך דבת הקרבה היא. ליוה\"כ",
-        en: "This division is itself legally required.",
+        en: "'This one, which is fit for offering' - for the coming",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l15"
+        ]
       },
       {
         id: "rashi-yoma-066a-025",
@@ -149605,11 +149656,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 25,
         he: "הבא טריד בהו לבו על הקרבתו",
-        en: "The HP must remain in the Temple area for subsequent services.",
+        en: "Yom Kippur, his mind is preoccupied with offering it,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l15"
+        ]
       },
       {
         id: "rashi-yoma-066a-026",
@@ -149617,11 +149670,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 26,
         he: "ודילמא מקריב לה מקמי יוה\"כ:",
-        en: "Therefore the guide role was created: to complete what the HP began.",
+        en: "and he might offer it before Yom Kippur.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l15"
+        ]
       },
       {
         id: "rashi-yoma-066a-027",
@@ -149629,11 +149684,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 27,
         he: "תנאי היא. איכא דחייש ואיכא דלא",
-        en: "The guide serves as the HP's surrogate for the journey.",
+        en: "'It is a dispute among Tannaim' - there is one who is concerned and one who is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l17"
+        ]
       },
       {
         id: "rashi-yoma-066a-028",
@@ -149641,11 +149698,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 28,
         he: "חייש: יקרב בשני. בפסח שני ימכר",
-        en: "His act is the HP's act; his success is the HP's success.",
+        en: "concerned. 'It shall be offered on the second' - on Pesach Sheni, it shall be sold",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l17"
+        ]
       },
       {
         id: "rashi-yoma-066a-029",
@@ -149653,11 +149712,14 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 29,
         he: "לטמא ושהיה בדרך רחוקה: הא רבי.",
-        en: "This surrogate relationship is common in halachic thinking.",
+        en: "to one who is impure or was on a distant journey. 'This is Rabbi's view' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l17",
+          "yoma-066a-l20"
+        ]
       },
       {
         id: "rashi-yoma-066a-030",
@@ -149665,11 +149727,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 30,
         he: "דאמר מפסח לפסח אפשר לו שלא",
-        en: "An agent can act in place of the principal.",
+        en: "who says that from one Pesach to the next it is possible for its year not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l20"
+        ]
       },
       {
         id: "rashi-yoma-066a-031",
@@ -149677,11 +149741,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 31,
         he: "עברה שנתו ואע\"פ שהופרש לאחר",
-        en: "The guide is the HP's agent for the final leg of the scapegoat's journey.",
+        en: "to have passed, even though it was set aside after",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l20"
+        ]
       },
       {
         id: "rashi-yoma-066a-032",
@@ -149689,11 +149755,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 32,
         he: "שמונה ללידתו דאלו מחוסר זמן לא",
-        en: "The agency relationship is complete: the HP's intention, the guide's action.",
+        en: "the eighth day from its birth, since an animal lacking its time is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l20"
+        ]
       },
       {
         id: "rashi-yoma-066a-033",
@@ -149701,11 +149769,14 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 33,
         he: "קדיש: וכן המעות. שהפרישו לפסח",
-        en: "Together they constitute the full scapegoat dispatch service.",
+        en: "consecrated. 'And likewise the money' - that was set aside for a Pesach-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l20",
+          "yoma-066a-l23"
+        ]
       },
       {
         id: "rashi-yoma-066a-034",
@@ -149713,11 +149784,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 34,
         he: "אל יקרבו לשנה הבאה ואיכא למאן",
-        en: "The HP at the gate, the guide on the road: one service, two participants.",
+        en: "should not be used to offer in the following year; but there is one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l23"
+        ]
       },
       {
         id: "rashi-yoma-066a-035",
@@ -149725,11 +149798,14 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 35,
         he: "דאמר יקרבו: מתני' בא לו אצל",
-        en: "This is the last major action of the blood-and-scapegoat service of Yom Kippur.",
+        en: "who says it may be used. 'Mishnah: he comes to'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l23",
+          "yoma-066a-l24"
+        ]
       },
       {
         id: "rashi-yoma-066a-036",
@@ -149737,11 +149813,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 36,
         he: "שעיר. השתא הדר תנא למילתיה",
-        en: "After the scapegoat is dispatched: the HP begins the communal service.",
+        en: "'the goat' - now the Tanna returns to his subject",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l24"
+        ]
       },
       {
         id: "rashi-yoma-066a-037",
@@ -149749,11 +149827,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 37,
         he: "לאורויי בסדר העבודה וקאמר דלאחר",
-        en: "Reading the Torah, reciting the blessings, offering the additional sacrifices.",
+        en: "to instruct us in the order of the service, and he says that after",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l24"
+        ]
       },
       {
         id: "rashi-yoma-066a-038",
@@ -149761,11 +149841,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 38,
         he: "שגמר כהן גדול מתן דמים של פר",
-        en: "The communal phase of Yom Kippur begins after the scapegoat disappears into the wilderness.",
+        en: "the High Priest finished placing the blood of the bull",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l24"
+        ]
       },
       {
         id: "rashi-yoma-066a-039",
@@ -149773,11 +149855,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 39,
         he: "ושעיר כדסליק פירקין דהוציאו לו בא",
-        en: "The two phases: atonement (blood and scapegoat) then celebration (reading and offerings).",
+        en: "and the goat, as concluded at the end of the chapter Hotzi'u Lo, comes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l24"
+        ]
       },
       {
         id: "rashi-yoma-066a-040",
@@ -149785,11 +149869,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 40,
         he: "לו הכהן אצל שעיר המשתלח במקום",
-        en: "The celebration phase: Torah reading, blessings, sacrifices.",
+        en: "the priest to the goat that is sent away, at the place",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l24"
+        ]
       },
       {
         id: "rashi-yoma-066a-041",
@@ -149797,11 +149883,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 41,
         he: "שהעמידו שם כנגד בית שילוחו",
-        en: "Israel gathers to hear the HP read, pray for them, and offer on their behalf.",
+        en: "where they had stationed it opposite the House of its Dispatch,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l24"
+        ]
       },
       {
         id: "rashi-yoma-066a-042",
@@ -149809,11 +149897,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 42,
         he: "כדאמרן בפ' טרף בקלפי (לעיל ד' מא:):",
-        en: "The community is present for the communal phase.",
+        en: "as we said in the chapter Teref BeKalfi (above, daf 41b).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l24"
+        ]
       },
       {
         id: "rashi-yoma-066a-043",
@@ -149821,11 +149911,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 43,
         he: "אלא שעשו כהנים קבע. שהרגילו",
-        en: "The blood service was witnessed only by the HP alone.",
+        en: "'Except that the priests made it a fixed practice' - they became accustomed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l33"
+        ]
       },
       {
         id: "rashi-yoma-066a-044",
@@ -149833,11 +149925,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 44,
         he: "לעשות את הכהנים קבע להיות",
-        en: "The communal phase is witnessed by all.",
+        en: "to make it the priests' fixed practice to",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l33"
+        ]
       },
       {
         id: "rashi-yoma-066a-045",
@@ -149845,11 +149939,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 45,
         he: "מוליכים אותו ולא היו בית דין של",
-        en: "This is the transition: from the most private to the most public.",
+        en: "lead it, and the court of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l33"
+        ]
       },
       {
         id: "rashi-yoma-066a-046",
@@ -149857,11 +149953,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 46,
         he: "כהנים מניחין את ישראל להוליכו:",
-        en: "The arc of Yom Kippur: begins alone in the innermost, ends with all Israel present.",
+        en: "priests would not allow an Israelite to lead it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l33"
+        ]
       },
       {
         id: "rashi-yoma-066a-047",
@@ -149869,11 +149967,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 47,
         he: "ערסלא. שם האיש: וכבש. כמין",
-        en: "This is how atonement works: first the private encounter, then the communal celebration.",
+        en: "'Arsela' - the name of the man. 'And a ramp' - they made for him a kind",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l40"
+        ]
       },
       {
         id: "rashi-yoma-066a-048",
@@ -149881,11 +149981,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 48,
         he: "מעלה עשו לו שהוא גבוה ויוצא",
-        en: "First you have to fix the break; then you can celebrate the repair.",
+        en: "of raised platform, high up, and he would go out",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l40"
+        ]
       },
       {
         id: "rashi-yoma-066a-049",
@@ -149893,11 +149995,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 49,
         he: "דרך אותו הכבש חוץ לעזרה וחוץ",
-        en: "The blood service fixes the break; the reading and offerings celebrate the repair.",
+        en: "by way of that ramp, outside the courtyard and outside",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l40"
+        ]
       },
       {
         id: "rashi-yoma-066a-050",
@@ -149905,11 +150009,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 50,
         he: "לעיר כדי שלא יוכלו הבבליים ליגע",
-        en: "Yom Kippur is not just the day of atonement.",
+        en: "the city, so that the Babylonians could not touch",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l40"
+        ]
       },
       {
         id: "rashi-yoma-066a-051",
@@ -149917,11 +150023,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 51,
         he: "במשולח לפי שהיו רגילין לתלשו בשערו",
-        en: "It is also the day of celebration of atonement.",
+        en: "the one being sent away, since they used to pull out his hair",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l40"
+        ]
       },
       {
         id: "rashi-yoma-066a-052",
@@ -149929,11 +150037,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 52,
         he: "ואומרים לו טול מהר וצא ואל",
-        en: "The Mishnah tells us that Yom Kippur (and Tu B'Av) are the happiest days in Israel.",
+        en: "and say to him, 'Take our sins and go quickly, and do not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l40"
+        ]
       },
       {
         id: "rashi-yoma-066a-053",
@@ -149941,11 +150051,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 53,
         he: "תשהה עונותינו אצלנו עוד:",
-        en: "Not despite the fasting - because of what the fasting leads to.",
+        en: "delay our iniquities with us any longer.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l40"
+        ]
       },
       {
         id: "rashi-yoma-066a-054",
@@ -149953,11 +150065,13 @@ const DAF_CONTENT = {
         daf: "66a",
         vilnaLine: 54,
         he: "גמ'",
-        en: "Atonement achieved is cause for celebration.",
+        en: "'Gemara' - the comment is completed on 66b as 'that it be ready,' explaining the word 'iti' from the braita cited here.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066a-l47"
+        ]
       }
     ],
     review: "reviewed"
