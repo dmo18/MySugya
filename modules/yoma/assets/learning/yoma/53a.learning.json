@@ -1,989 +1,1126 @@
 {
-  "canonicalRef": "Yoma 53a",
-  "summary": "The HP approaches the coal pan from the side (not from in front). A baraita confirms the Sages' position against the Sadducees: incense is piled inside the Holy of Holies, not outside. R. Eliezer's baraita shows 'before God' means inside. The HP exits walking backward out of kavod for the divine presence. His brief exit prayer must be short to prevent public panic; its content is communal (good year, proper rain, Israel's welfare).",
-  "sugyot": [
+ "canonicalRef": "Yoma 53a",
+ "summary": "The HP approaches the coal pan from the side (not from in front). A baraita confirms the Sages' position against the Sadducees: incense is piled inside the Holy of Holies, not outside. R. Eliezer's baraita shows 'before God' means inside. The HP exits walking backward out of kavod for the divine presence. His brief exit prayer must be short to prevent public panic; its content is communal (good year, proper rain, Israel's welfare).",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-053a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 1
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-053a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 1
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.53a.1"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.53a.1"
-      ],
-      "display": {
-        "whats": "The HP does not pile incense from in front of the coal pan - he approaches from the side",
-        "hint": "The Gemara clarifies the HP's approach direction: he approaches the coal pan from the side, not from in front. Approaching from in front would be even more directly facing the kapporet, which is reserved for the sprinkling moment.",
-        "title": "High Priest Approaches Coal Pan from the Side"
-      },
-      "learning": {
-        "ahaMoment": "The HP's every movement inside the Holy of Holies is calibrated - even the direction of approach to the coal pan.",
-        "memoryAnchor": "Side approach to the coal pan - not from the front which is reserved for the kapporet sprinkling position.",
-        "learnerQuestion": "In what position does the High Priest place the incense onto the coal pan inside the Holy of Holies, and why does the approach angle matter?",
-        "coreTension": "The coal pan holds burning coals and is placed near the kapporet; approaching from directly in front would mean the HP's hands pass very close to the kapporet. The proper approach must be from a direction that respects both safety and the sacred object.",
-        "coreMove": "The Talmud teaches that the HP approaches the coal pan from its side (not front), allowing him to pile the incense while keeping his body properly oriented and avoiding approaching the kapporet too directly with his hands.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The High Priest places incense on the coal pan from the side, not from directly in front; the angle of approach inside the Holy of Holies is a defined halachic detail, not left to discretion."
-        },
-        "learningBlocker": "The mechanics of incense placement inside the small Holy of Holies chamber are not described explicitly in the Torah; learners may assume the HP had discretion over exactly how to position himself."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "The HP approaches the coal pan from the side, not from in front.",
-          "id": "yoma-053a-l01",
-          "label": "Ruling: The HP approaches the coal pan from",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-053a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "coal pan approach",
-        "incense piling direction",
-        "Holy of Holies service"
-      ],
-      "concepts": {
-        "halachic": [
-          "side approach to coal pan required"
-        ],
-        "theological": [],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Temple service orientation",
-        "Holy of Holies protocol"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Inside the Holy of Holies, the HP could approach the incense coal pan from any direction.",
-          "correction": "The HP approaches from the side, not directly in front of the coal pan. Every movement inside the Holy of Holies follows a specific protocol - even the angle of approach is regulated.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "place",
-          "description": "Holy of Holies interior: HP approaches coal pan from the side, not directly in front",
-          "role": "anchor",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Approaching from in front is the position reserved for the kapporet sprinkling. For incense piling, the side approach is used so the HP is properly oriented for each act.",
-          "question": "Why does the HP approach the coal pan from the side rather than from in front?"
-        }
-      ],
-      "finalRuling": "The HP approaches the coal pan from the side when piling incense - not from in front.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 2,
-      "id": "yoma-053a-s02",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 15
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.53a.2"
-        },
-        {
-          "vilnaLine": 4,
-          "sefariaRef": "Yoma.53a.3"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.53a.4"
-        },
-        {
-          "vilnaLine": 8,
-          "sefariaRef": "Yoma.53a.5"
-        },
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.53a.6"
-        },
-        {
-          "vilnaLine": 13,
-          "sefariaRef": "Yoma.53a.7"
-        },
-        {
-          "vilnaLine": 15,
-          "sefariaRef": "Yoma.53a.8"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.53a.2",
-        "Yoma.53a.3",
-        "Yoma.53a.4",
-        "Yoma.53a.5",
-        "Yoma.53a.6",
-        "Yoma.53a.7",
-        "Yoma.53a.8"
-      ],
-      "display": {
-        "whats": "A baraita teaches that the HP places the incense inside the Holy of Holies - the Sadducee interpretation rejected",
-        "hint": "A baraita confirms: the HP piles the incense inside the Holy of Holies (after entering, not before). The Sadducee position - that he should pile it outside before entering - is rejected.",
-        "title": "Pharisees vs. Sadducees on Where Incense Is Lit"
-      },
-      "learning": {
-        "ahaMoment": "The Sadducees vs. Sages debate on incense timing is one of the most famous disputes in Temple service history - it has theological implications about when the HP may be 'before God.'",
-        "memoryAnchor": "Sadducees: pile outside then enter with smoke. Sages: enter with separate coals and incense, pile inside. The baraita supports the Sages.",
-        "learnerQuestion": "Did the Sadducean position that the HP lights the incense outside have any scriptural basis, and how do the Sages counter it?",
-        "coreTension": "The verse says the HP should come 'before God' in a cloud of incense; Sadducees read this to mean the cloud must form before entry (outside), while Pharisees read it as describing a cloud that forms inside, 'before God' in the Holy of Holies.",
-        "coreMove": "The Sages refute the Sadducean reading by noting that 'before God' specifies the place the cloud must reach - inside the Holy of Holies - not that it must already exist before entry; the incense is lit inside so the cloud forms 'before God.'",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "The phrase 'before God' in the Yom Kippur incense verse refers to where the cloud must exist (inside the Holy of Holies), not to when it must form; therefore the incense is placed on the coals after entry."
-        },
-        "learningBlocker": "The Sadducean reading feels intuitive: 'come in a cloud' sounds like 'already be in a cloud when you come in.' Students need to understand how the Sages parse the verse differently."
-      },
-      "argumentFlow": [
-        {
-          "type": "position",
-          "speaker": "Sadducees",
-          "text": "The HP piles incense outside the parochet, then enters with the smoke already formed.",
-          "id": "yoma-053a-l02",
-          "label": "Position: The HP piles incense outside the parochet,",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-053a-l02",
-              "vilnaLine": 2
-            }
-          ]
-        },
-        {
-          "type": "objection",
-          "speaker": "Sages/Baraita",
-          "text": "A baraita teaches: the HP enters with the coals and incense separately, then piles the incense on the coals inside.",
-          "id": "yoma-053a-l03",
-          "label": "Objection: A baraita teaches: the HP enters with",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-053a-l03",
-              "vilnaLine": 3
-            }
-          ]
-        },
-        {
-          "type": "resolution",
-          "speaker": "Gemara",
-          "text": "The Sadducee interpretation is rejected; the accepted halacha is that incense is piled inside the Holy of Holies.",
-          "id": "yoma-053a-l04",
-          "label": "Resolution: The Sadducee interpretation is rejected; the accepted",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-053a-l04",
-              "vilnaLine": 4
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Sadducees vs Sages",
-        "incense placement",
-        "inside vs outside",
-        "Pharisees",
-        "baraita"
-      ],
-      "concepts": {
-        "halachic": [
-          "incense piled inside Holy of Holies (Sages)",
-          "Sadducee position rejected"
-        ],
-        "theological": [
-          "meaning of 'before God' in incense service"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Sadducee-Pharisee disputes",
-        "incense service",
-        "Temple service halacha"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The Sadducees were correct that the HP should pile incense outside and enter already surrounded by smoke - their reading of the verse is the natural one.",
-          "correction": "The Sages ruled that 'before God' indicates where the cloud must exist (inside the Holy of Holies), not when it must form; the HP enters separately and places incense on the coals only after he is inside."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        "HP",
-        "incense",
-        "parochet",
-        "before God"
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Sadducees: HP piles incense outside then enters with smoke. Sages (supported by baraita): HP enters with coals and incense separately and piles inside. The Sages' position is the accepted halacha.",
-          "question": "What is the Sadducee-Sages dispute about incense and how is it resolved?"
-        }
-      ],
-      "finalRuling": "The incense is piled inside the Holy of Holies (Sages/baraita position); the Sadducee position is rejected.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 3,
-      "id": "yoma-053a-s03",
-      "lineRange": {
-        "startVilnaLine": 19,
-        "endVilnaLine": 30
-      },
-      "lines": [
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.53a.9"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.53a.10"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.53a.11"
-        },
-        {
-          "vilnaLine": 26,
-          "sefariaRef": "Yoma.53a.12"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.53a.13"
-        },
-        {
-          "vilnaLine": 29,
-          "sefariaRef": "Yoma.53a.14"
-        },
-        {
-          "vilnaLine": 29,
-          "sefariaRef": "Yoma.53a.15"
-        },
-        {
-          "vilnaLine": 30,
-          "sefariaRef": "Yoma.53a.16"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.53a.9",
-        "Yoma.53a.10",
-        "Yoma.53a.11",
-        "Yoma.53a.12",
-        "Yoma.53a.13",
-        "Yoma.53a.14",
-        "Yoma.53a.15",
-        "Yoma.53a.16"
-      ],
-      "display": {
-        "whats": "R. Eliezer's baraita and the Sadducee challenge to the timing of the incense cloud",
-        "hint": "A baraita in the name of R. Eliezer presents the Sadducee position more formally. The Gemara then presents the challenge: if the smoke must be present 'before God,' doesn't that require piling it outside?",
-        "title": "R. Eliezer: 'Before God' Means Inside the Holy of Holies"
-      },
-      "learning": {
-        "ahaMoment": "The debate about 'before God' - does it describe where the smoke must be, or when it must be created - is the core theological question of this Sadducee-Sages dispute.",
-        "memoryAnchor": "R. Eliezer's baraita: 'before God' means inside the Holy of Holies, not before the parochet.",
-        "learnerQuestion": "What interpretive evidence does R. Eliezer bring to establish that 'before God' definitively refers to inside the Holy of Holies and not to outside the parochet?",
-        "coreTension": "The phrase 'before God' could in theory refer to anywhere in the Temple precincts where God's presence resides; R. Eliezer must establish that it specifically means inside the innermost chamber, the Holy of Holies.",
-        "coreMove": "R. Eliezer derives from context and Temple geography that 'before God' in the Yom Kippur incense passage refers uniquely to the inner sanctum, distinguishing it from 'before God' used elsewhere for the Heichal or outer areas.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "R. Eliezer establishes that 'before God' in the Yom Kippur incense context means inside the Holy of Holies specifically, ruling out the possibility that the parochet area or Heichal satisfies the requirement."
-        },
-        "learningBlocker": "The phrase 'before God' appears in many contexts throughout the Torah referring to different Temple areas; students need to learn how context narrows its meaning in each specific passage."
-      },
-      "argumentFlow": [
-        {
-          "type": "citation",
-          "speaker": "R. Eliezer",
-          "text": "The incense must be placed 'before God' meaning inside the Holy of Holies, not in front of the parochet.",
-          "id": "yoma-053a-l09",
-          "label": "Baraita: The incense must be placed 'before God'",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-053a-l09",
-              "vilnaLine": 9
-            }
-          ]
-        },
-        {
-          "type": "challenge",
-          "speaker": "Sadducees",
-          "text": "If 'before God' means inside, how can the verse require the smoke to be present before entry?",
-          "id": "yoma-053a-l10",
-          "label": "Challenge: If 'before God' means inside, how can",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-053a-l10",
-              "vilnaLine": 10
-            }
-          ]
-        },
-        {
-          "type": "resolution",
-          "speaker": "Gemara",
-          "text": "The verse requires piling inside; the smoke creates the protective cloud inside the space.",
-          "id": "yoma-053a-l11",
-          "label": "Resolution: The verse requires piling inside; the smoke",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-053a-l11",
-              "vilnaLine": 11
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "R. Eliezer baraita",
-        "Sadducee challenge",
-        "before God",
-        "lifnei Hashem",
-        "incense timing"
-      ],
-      "concepts": {
-        "halachic": [
-          "'before God' means inside Holy of Holies",
-          "incense piling location confirmed"
-        ],
-        "theological": [
-          "presence of God and ritual timing"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Temple service hermeneutics",
-        "Sadducee interpretation",
-        "biblical analysis"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "'Before God' can refer to any area in the Temple where God's presence dwells, including outside the parochet.",
-          "correction": "R. Eliezer demonstrates from context that in the Yom Kippur incense verse, 'before God' specifically means inside the Holy of Holies, not merely within the broader Temple precinct."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        "incense",
-        "Holy of Holies",
-        "parochet",
-        "divine presence"
-      ],
-      "quizSeeds": [
-        {
-          "answer": "R. Eliezer teaches that 'before God' (lifnei Hashem) means inside the Holy of Holies. The incense is piled on the coals once inside, creating the protective cloud in the presence of God.",
-          "question": "How does R. Eliezer's baraita address the Sadducee challenge?"
-        }
-      ],
-      "finalRuling": "R. Eliezer: 'before God' means inside - incense is piled inside the Holy of Holies.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 4,
-      "id": "yoma-053a-s04",
-      "lineRange": {
-        "startVilnaLine": 31,
-        "endVilnaLine": 36
-      },
-      "lines": [
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.53a.17"
-        },
-        {
-          "vilnaLine": 32,
-          "sefariaRef": "Yoma.53a.18"
-        },
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.53a.19"
-        },
-        {
-          "vilnaLine": 36,
-          "sefariaRef": "Yoma.53a.20"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.53a.17",
-        "Yoma.53a.18",
-        "Yoma.53a.19",
-        "Yoma.53a.20"
-      ],
-      "display": {
-        "whats": "The HP exits backward from the Holy of Holies out of respect - not turning his back to the Ark",
-        "hint": "After completing the incense and blood service, the HP exits the Holy of Holies by walking backward - he does not turn his back to the Ark's location. This is maximum kavod for the divine presence.",
-        "title": "High Priest Exits the Holy of Holies Walking Backward"
-      },
-      "learning": {
-        "ahaMoment": "Leaving a holy presence: you do not turn your back - you walk backward facing it until you exit. This principle applies from the Holy of Holies to leaving a Torah scholar's presence.",
-        "memoryAnchor": "HP exits backward: he faces the kapporet location until he is fully outside - the ultimate deference.",
-        "learnerQuestion": "When the High Priest leaves the Holy of Holies after the blood and incense service, does he turn around and walk out normally, or does he exit differently?",
-        "coreTension": "Turning one's back to the Holy Ark or to the divine presence when leaving is considered disrespectful; but walking backward out of a small chamber after completing a complex ritual is physically awkward.",
-        "coreMove": "The Talmud rules that the HP exits the Holy of Holies walking backward, face still turned toward the kapporet, because one does not turn one's back on the divine presence when departing.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The High Priest exits the Holy of Holies walking backward, facing inward toward the kapporet, because turning one's back on the divine presence when departing is considered disrespectful."
-        },
-        "learningBlocker": "Students assume that after completing the service the HP simply turns and walks out normally; the backward-exit rule is not stated explicitly in the Torah and is easily overlooked."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "The HP exits the Holy of Holies walking backward, not turning his back to the Ark's location.",
-          "id": "yoma-053a-l17",
-          "label": "Ruling: The HP exits the Holy of Holies",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-053a-l17",
-              "vilnaLine": 17
-            }
-          ]
-        },
-        {
-          "type": "principle",
-          "speaker": "Gemara",
-          "text": "Exiting backward from holy presences is a general kavod principle applied maximally in the Temple.",
-          "id": "yoma-053a-l18",
-          "label": "Principle: Exiting backward from holy presences is a",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-053a-l18",
-              "vilnaLine": 18
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "backward exit",
-        "Holy of Holies",
-        "kavod",
-        "turning back",
-        "Ark presence"
-      ],
-      "concepts": {
-        "halachic": [
-          "backward exit from Holy of Holies required"
-        ],
-        "theological": [
-          "deference to divine presence"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "kavod principles",
-        "Holy of Holies protocol",
-        "deference to holiness"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The HP turns around normally and walks forward out of the Holy of Holies after completing the blood and incense service.",
-          "correction": "The HP exits the Holy of Holies walking backward, keeping his face toward the kapporet, because turning one's back on the divine presence during departure is forbidden."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        "HP",
-        "backward walk",
-        "Holy of Holies exit",
-        "kapporet"
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Walking backward shows he does not turn his back to the Ark's location (the divine presence). This is maximum kavod, derived from the general principle of not turning one's back to a holy presence.",
-          "question": "Why does the HP exit the Holy of Holies walking backward?"
-        }
-      ],
-      "finalRuling": "The HP exits the Holy of Holies walking backward - maintaining deference to the divine presence throughout.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
-    },
-    {
-      "sugyaNumber": 5,
-      "id": "yoma-053a-s05",
-      "lineRange": {
-        "startVilnaLine": 38,
-        "endVilnaLine": 47
-      },
-      "lines": [
-        {
-          "vilnaLine": 38,
-          "sefariaRef": "Yoma.53a.21"
-        },
-        {
-          "vilnaLine": 40,
-          "sefariaRef": "Yoma.53a.22"
-        },
-        {
-          "vilnaLine": 43,
-          "sefariaRef": "Yoma.53a.23"
-        },
-        {
-          "vilnaLine": 45,
-          "sefariaRef": "Yoma.53a.24"
-        },
-        {
-          "vilnaLine": 47,
-          "sefariaRef": "Yoma.53a.25"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.53a.21",
-        "Yoma.53a.22",
-        "Yoma.53a.23",
-        "Yoma.53a.24",
-        "Yoma.53a.25"
-      ],
-      "display": {
-        "whats": "The HP offers a brief prayer at the exit from the Holy of Holies - short to prevent public anxiety",
-        "hint": "Upon exiting the Holy of Holies the HP offers a brief prayer. The Gemara explains it must be short so the people outside do not worry that he has died inside.",
-        "title": "The High Priest's Exit Prayer Must Be Brief"
-      },
-      "learning": {
-        "ahaMoment": "The HP's prayer must be communal and brief - his role as representative means even his prayer is for others, and its brevity protects public wellbeing.",
-        "memoryAnchor": "HP's exit prayer: brief (so people don't panic), communal (for Israel, not personal).",
-        "learnerQuestion": "After the High Priest exits the Holy of Holies on Yom Kippur, is he required to pray, and if so, how long may his prayer last?",
-        "coreTension": "The HP has just completed the most sacred service of the year and the congregation is waiting outside; he should express gratitude and supplication, but extending the prayer while the people wait causes public anxiety and is potentially dangerous.",
-        "coreMove": "The Talmud rules that the HP's exit prayer must be brief; prolonging it causes the people outside to fear that something has gone wrong inside the Holy of Holies, potentially leading to panic.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The High Priest's prayer upon exiting the Holy of Holies must be kept brief because prolonging it while the congregation waits outside could trigger fear that something went wrong inside."
-        },
-        "learningBlocker": "Students might assume that after the holiest act of the year, an extended prayer of thanksgiving or supplication would be appropriate and even expected; the public-anxiety concern is not immediately obvious."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "The HP offers a brief prayer upon exiting the Holy of Holies.",
-          "id": "yoma-053a-l21",
-          "label": "Ruling: The HP offers a brief prayer upon",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-053a-l21",
-              "vilnaLine": 21
-            }
-          ]
-        },
-        {
-          "type": "explanation",
-          "speaker": "Gemara",
-          "text": "The prayer must be short - prolonged absence would cause the waiting people to fear he died inside.",
-          "id": "yoma-053a-l22",
-          "label": "Explanation: The prayer must be short - prolonged",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-053a-l22",
-              "vilnaLine": 22
-            }
-          ]
-        },
-        {
-          "type": "elaboration",
-          "speaker": "Gemara",
-          "text": "The HP prays for: a good year, not too much or too little rain, Israel's prosperity; not for personal matters.",
-          "id": "yoma-053a-l23",
-          "label": "Content: The HP prays for: a good year,",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-053a-l23",
-              "vilnaLine": 23
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "exit prayer",
-        "HP brief prayer",
-        "communal prayer",
-        "public anxiety",
-        "Holy of Holies exit"
-      ],
-      "concepts": {
-        "halachic": [
-          "exit prayer must be brief",
-          "HP prays for community not self"
-        ],
-        "theological": [
-          "HP as communal representative even in prayer"
-        ],
-        "narrative": []
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "HP communal role",
-        "prayer requirements",
-        "Yom Kippur service"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The HP can pray at length after emerging from the Holy of Holies - extended prayer after such a holy act is fitting and appropriate.",
-          "correction": "The HP's exit prayer must be brief; the congregation waiting outside would interpret a long absence as a sign that something went wrong inside, potentially causing panic."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        "HP",
-        "exit prayer",
-        "waiting crowd",
-        "communal vs personal prayer"
-      ],
-      "quizSeeds": [
-        {
-          "answer": "If the HP spent too long inside after the service, the fasting crowd would fear he died inside. The brief exit prayer reassures them. The prayer itself is for communal welfare (good year, proper rain, Israel's prosperity) not personal matters.",
-          "question": "Why must the HP's exit prayer be brief?"
-        }
-      ],
-      "finalRuling": "The HP offers a brief communal exit prayer - brevity prevents public panic; content is communal, not personal.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.53a.1"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "en": "The HP approaches the coal pan from the side, not from in front - the front position is for the kapporet sprinkling.",
-      "linkedGemaraLineIds": []
+   ],
+   "sefariaRefs": [
+    "Yoma.53a.1"
+   ],
+   "display": {
+    "whats": "The HP does not pile incense from in front of the coal pan - he approaches from the side",
+    "hint": "The Gemara clarifies the HP's approach direction: he approaches the coal pan from the side, not from in front. Approaching from in front would be even more directly facing the kapporet, which is reserved for the sprinkling moment.",
+    "title": "High Priest Approaches Coal Pan from the Side"
+   },
+   "learning": {
+    "ahaMoment": "The HP's every movement inside the Holy of Holies is calibrated - even the direction of approach to the coal pan.",
+    "memoryAnchor": "Side approach to the coal pan - not from the front which is reserved for the kapporet sprinkling position.",
+    "learnerQuestion": "In what position does the High Priest place the incense onto the coal pan inside the Holy of Holies, and why does the approach angle matter?",
+    "coreTension": "The coal pan holds burning coals and is placed near the kapporet; approaching from directly in front would mean the HP's hands pass very close to the kapporet. The proper approach must be from a direction that respects both safety and the sacred object.",
+    "coreMove": "The Talmud teaches that the HP approaches the coal pan from its side (not front), allowing him to pile the incense while keeping his body properly oriented and avoiding approaching the kapporet too directly with his hands.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The High Priest places incense on the coal pan from the side, not from directly in front; the angle of approach inside the Holy of Holies is a defined halachic detail, not left to discretion."
     },
+    "learningBlocker": "The mechanics of incense placement inside the small Holy of Holies chamber are not described explicitly in the Torah; learners may assume the HP had discretion over exactly how to position himself."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 2,
-      "en": "The Sadducees: the HP should pile incense outside the parochet, then enter with the smoke formed.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 3,
-      "en": "The Pharisees/Sages: the HP enters with coals and incense separately, piles inside the Holy of Holies.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 4,
-      "en": "A baraita supports the Sages: the incense is piled inside after the HP has entered.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "en": "The Sadducee reading of 'before God' - that the smoke must be present before God before entry.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "en": "The Sages' reading: 'before God' means the piling itself occurs in the divine presence, inside.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "en": "The Sadducee interpretation would mean the HP creates the smoke before crossing the threshold.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "en": "The Pharisee/rabbinic position: he creates the smoke on the other side of the threshold, inside.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "en": "R. Eliezer's baraita presents the formal analysis of 'before God' (lifnei Hashem).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "en": "'Before God' in this verse means inside the Holy of Holies, where God's presence is most concentrated.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "en": "The incense piled outside would not be 'before God' in the sense the verse requires.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "en": "The Sadducee challenge: if 'before God' means inside, how did they interpret the verse?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "en": "The Gemara shows the Sadducee reading is inconsistent with the broader context.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "The Sages' reading is confirmed: incense piled inside is 'before God.'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "The practical consequence: the HP never enters the Holy of Holies with pre-formed incense smoke.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "He always carries the coal pan and the incense ladle separately and combines them inside.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "The HP exits walking backward after completing the incense and blood services.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Walking backward shows he does not turn his back to the Ark's location (even in the Ark's absence).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "The principle of backward exit applies: from the Holy of Holies to leaving a rabbi's presence.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Maximum kavod requires facing the holy presence throughout one's time in it.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "The HP completes his service and walks backward out through the curtains.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Upon exiting, he pauses for a brief prayer before the people.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "The prayer must be short because the waiting crowd could panic if he stays inside too long.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "The people know: if the HP is inside too long, something went wrong.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "A brief exit prayer reassures them that the service was accepted.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "The prayer's content: good year, proper rain, Israel's prosperity.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "The HP does not pray for personal matters - his role as communal representative extends to prayer.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "He prays that Yom Kippur not fall on Shabbat (which creates halachic complications).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "He prays for the people of the Sharon Valley that their houses not become their graves (flood risk).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "This last petition shows the HP's concern for specific vulnerable communities.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "The exit prayer marks the transition from the inner service back to the communal setting.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "Once he exits, the HP resumes the service in the outer areas (menorah lighting, etc.).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "The inner service (Holy of Holies) is the most sacred; the outer service follows it.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "The backward exit and brief prayer are the transition moments between these two phases.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "Rashi explains all these details to help the learner visualize the complete inner-service sequence.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "The HP's movements inside and outside the Holy of Holies were all choreographed.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "No detail was accidental; every gesture reflected a principle of kavod or halachic requirement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "The Sadducee-Sages dispute is one of the most famous in Temple service history.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "The Gemara's thorough rejection of the Sadducee position preserves the correct practice.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "This section of 53a is thus both procedural (exit protocol) and polemical (Sadducee refutation).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "Both aspects are important for understanding how Yom Kippur was observed in the Temple period.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "The exit prayer ends the innermost service - the HP has completed the most sacred act.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "What follows (53b) is the continuation of the service in the outer areas.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "The transition from 53a to 53b marks the shift from inner service to outer service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Rashi's commentary on 53a covers all five major topics of this daf.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "en": "The approach direction, incense debate, R. Eliezer's baraita, backward exit, and exit prayer.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "en": "Together they describe the complete conclusion of the innermost Yom Kippur service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "en": "End of 53a Rashi section.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "en": "The even ha-shetiya (foundation stone) is the location in the Holy of Holies where the HP sprinkled.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "en": "It was the foundation point of the entire Temple and, by tradition, of the world itself.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "en": "The HP's service there was literally at the center of the universe according to Temple theology.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 52,
-      "en": "This theological background explains why every detail of his service was so precisely regulated.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 53,
-      "en": "Nothing was left to chance in the service at the world's center.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 54,
-      "en": "Rashi ends his commentary on 53a with the details of the exit prayer and its communal nature.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 55,
-      "en": "The HP's prayer concludes the chapter of innermost service; 53b begins the outer-service continuation.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 56,
-      "en": "End of 53a Rashi.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 57,
-      "en": "The even ha-shetiya is the first topic of 53b.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 58,
-      "en": "Its cosmological significance is explained in the Gemara before the outer-service Mishna resumes.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 59,
-      "en": "The transition from inner to outer service is marked by this cosmological discussion.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 60,
-      "en": "This reflects the Talmud's characteristic of weaving theological reflection into practical halacha.",
-      "linkedGemaraLineIds": []
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "The HP approaches the coal pan from the side, not from in front.",
+     "id": "yoma-053a-l01",
+     "label": "Ruling: The HP approaches the coal pan from",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-053a-l01",
+       "vilnaLine": 1
+      }
+     ]
     }
-  ],
-  "review": "reviewed"
+   ],
+   "topicTags": [
+    "coal pan approach",
+    "incense piling direction",
+    "Holy of Holies service"
+   ],
+   "concepts": {
+    "halachic": [
+     "side approach to coal pan required"
+    ],
+    "theological": [],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Temple service orientation",
+    "Holy of Holies protocol"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Inside the Holy of Holies, the HP could approach the incense coal pan from any direction.",
+     "correction": "The HP approaches from the side, not directly in front of the coal pan. Every movement inside the Holy of Holies follows a specific protocol - even the angle of approach is regulated.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "place",
+     "description": "Holy of Holies interior: HP approaches coal pan from the side, not directly in front",
+     "role": "anchor",
+     "priority": 1
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Approaching from in front is the position reserved for the kapporet sprinkling. For incense piling, the side approach is used so the HP is properly oriented for each act.",
+     "question": "Why does the HP approach the coal pan from the side rather than from in front?"
+    }
+   ],
+   "finalRuling": "The HP approaches the coal pan from the side when piling incense - not from in front.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-053a-s02",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 15
+   },
+   "lines": [
+    {
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.53a.2"
+    },
+    {
+     "vilnaLine": 4,
+     "sefariaRef": "Yoma.53a.3"
+    },
+    {
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.53a.4"
+    },
+    {
+     "vilnaLine": 8,
+     "sefariaRef": "Yoma.53a.5"
+    },
+    {
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.53a.6"
+    },
+    {
+     "vilnaLine": 13,
+     "sefariaRef": "Yoma.53a.7"
+    },
+    {
+     "vilnaLine": 15,
+     "sefariaRef": "Yoma.53a.8"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.53a.2",
+    "Yoma.53a.3",
+    "Yoma.53a.4",
+    "Yoma.53a.5",
+    "Yoma.53a.6",
+    "Yoma.53a.7",
+    "Yoma.53a.8"
+   ],
+   "display": {
+    "whats": "A baraita teaches that the HP places the incense inside the Holy of Holies - the Sadducee interpretation rejected",
+    "hint": "A baraita confirms: the HP piles the incense inside the Holy of Holies (after entering, not before). The Sadducee position - that he should pile it outside before entering - is rejected.",
+    "title": "Pharisees vs. Sadducees on Where Incense Is Lit"
+   },
+   "learning": {
+    "ahaMoment": "The Sadducees vs. Sages debate on incense timing is one of the most famous disputes in Temple service history - it has theological implications about when the HP may be 'before God.'",
+    "memoryAnchor": "Sadducees: pile outside then enter with smoke. Sages: enter with separate coals and incense, pile inside. The baraita supports the Sages.",
+    "learnerQuestion": "Did the Sadducean position that the HP lights the incense outside have any scriptural basis, and how do the Sages counter it?",
+    "coreTension": "The verse says the HP should come 'before God' in a cloud of incense; Sadducees read this to mean the cloud must form before entry (outside), while Pharisees read it as describing a cloud that forms inside, 'before God' in the Holy of Holies.",
+    "coreMove": "The Sages refute the Sadducean reading by noting that 'before God' specifies the place the cloud must reach - inside the Holy of Holies - not that it must already exist before entry; the incense is lit inside so the cloud forms 'before God.'",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "The phrase 'before God' in the Yom Kippur incense verse refers to where the cloud must exist (inside the Holy of Holies), not to when it must form; therefore the incense is placed on the coals after entry."
+    },
+    "learningBlocker": "The Sadducean reading feels intuitive: 'come in a cloud' sounds like 'already be in a cloud when you come in.' Students need to understand how the Sages parse the verse differently."
+   },
+   "argumentFlow": [
+    {
+     "type": "position",
+     "speaker": "Sadducees",
+     "text": "The HP piles incense outside the parochet, then enters with the smoke already formed.",
+     "id": "yoma-053a-l02",
+     "label": "Position: The HP piles incense outside the parochet,",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-053a-l02",
+       "vilnaLine": 2
+      }
+     ]
+    },
+    {
+     "type": "objection",
+     "speaker": "Sages/Baraita",
+     "text": "A baraita teaches: the HP enters with the coals and incense separately, then piles the incense on the coals inside.",
+     "id": "yoma-053a-l03",
+     "label": "Objection: A baraita teaches: the HP enters with",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-053a-l03",
+       "vilnaLine": 3
+      }
+     ]
+    },
+    {
+     "type": "resolution",
+     "speaker": "Gemara",
+     "text": "The Sadducee interpretation is rejected; the accepted halacha is that incense is piled inside the Holy of Holies.",
+     "id": "yoma-053a-l04",
+     "label": "Resolution: The Sadducee interpretation is rejected; the accepted",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-053a-l04",
+       "vilnaLine": 4
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "Sadducees vs Sages",
+    "incense placement",
+    "inside vs outside",
+    "Pharisees",
+    "baraita"
+   ],
+   "concepts": {
+    "halachic": [
+     "incense piled inside Holy of Holies (Sages)",
+     "Sadducee position rejected"
+    ],
+    "theological": [
+     "meaning of 'before God' in incense service"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Sadducee-Pharisee disputes",
+    "incense service",
+    "Temple service halacha"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The Sadducees were correct that the HP should pile incense outside and enter already surrounded by smoke - their reading of the verse is the natural one.",
+     "correction": "The Sages ruled that 'before God' indicates where the cloud must exist (inside the Holy of Holies), not when it must form; the HP enters separately and places incense on the coals only after he is inside."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    "HP",
+    "incense",
+    "parochet",
+    "before God"
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Sadducees: HP piles incense outside then enters with smoke. Sages (supported by baraita): HP enters with coals and incense separately and piles inside. The Sages' position is the accepted halacha.",
+     "question": "What is the Sadducee-Sages dispute about incense and how is it resolved?"
+    }
+   ],
+   "finalRuling": "The incense is piled inside the Holy of Holies (Sages/baraita position); the Sadducee position is rejected.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-053a-s03",
+   "lineRange": {
+    "startVilnaLine": 19,
+    "endVilnaLine": 30
+   },
+   "lines": [
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.53a.9"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.53a.10"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.53a.11"
+    },
+    {
+     "vilnaLine": 26,
+     "sefariaRef": "Yoma.53a.12"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.53a.13"
+    },
+    {
+     "vilnaLine": 29,
+     "sefariaRef": "Yoma.53a.14"
+    },
+    {
+     "vilnaLine": 29,
+     "sefariaRef": "Yoma.53a.15"
+    },
+    {
+     "vilnaLine": 30,
+     "sefariaRef": "Yoma.53a.16"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.53a.9",
+    "Yoma.53a.10",
+    "Yoma.53a.11",
+    "Yoma.53a.12",
+    "Yoma.53a.13",
+    "Yoma.53a.14",
+    "Yoma.53a.15",
+    "Yoma.53a.16"
+   ],
+   "display": {
+    "whats": "R. Eliezer's baraita and the Sadducee challenge to the timing of the incense cloud",
+    "hint": "A baraita in the name of R. Eliezer presents the Sadducee position more formally. The Gemara then presents the challenge: if the smoke must be present 'before God,' doesn't that require piling it outside?",
+    "title": "R. Eliezer: 'Before God' Means Inside the Holy of Holies"
+   },
+   "learning": {
+    "ahaMoment": "The debate about 'before God' - does it describe where the smoke must be, or when it must be created - is the core theological question of this Sadducee-Sages dispute.",
+    "memoryAnchor": "R. Eliezer's baraita: 'before God' means inside the Holy of Holies, not before the parochet.",
+    "learnerQuestion": "What interpretive evidence does R. Eliezer bring to establish that 'before God' definitively refers to inside the Holy of Holies and not to outside the parochet?",
+    "coreTension": "The phrase 'before God' could in theory refer to anywhere in the Temple precincts where God's presence resides; R. Eliezer must establish that it specifically means inside the innermost chamber, the Holy of Holies.",
+    "coreMove": "R. Eliezer derives from context and Temple geography that 'before God' in the Yom Kippur incense passage refers uniquely to the inner sanctum, distinguishing it from 'before God' used elsewhere for the Heichal or outer areas.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "R. Eliezer establishes that 'before God' in the Yom Kippur incense context means inside the Holy of Holies specifically, ruling out the possibility that the parochet area or Heichal satisfies the requirement."
+    },
+    "learningBlocker": "The phrase 'before God' appears in many contexts throughout the Torah referring to different Temple areas; students need to learn how context narrows its meaning in each specific passage."
+   },
+   "argumentFlow": [
+    {
+     "type": "citation",
+     "speaker": "R. Eliezer",
+     "text": "The incense must be placed 'before God' meaning inside the Holy of Holies, not in front of the parochet.",
+     "id": "yoma-053a-l09",
+     "label": "Baraita: The incense must be placed 'before God'",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-053a-l09",
+       "vilnaLine": 9
+      }
+     ]
+    },
+    {
+     "type": "challenge",
+     "speaker": "Sadducees",
+     "text": "If 'before God' means inside, how can the verse require the smoke to be present before entry?",
+     "id": "yoma-053a-l10",
+     "label": "Challenge: If 'before God' means inside, how can",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-053a-l10",
+       "vilnaLine": 10
+      }
+     ]
+    },
+    {
+     "type": "resolution",
+     "speaker": "Gemara",
+     "text": "The verse requires piling inside; the smoke creates the protective cloud inside the space.",
+     "id": "yoma-053a-l11",
+     "label": "Resolution: The verse requires piling inside; the smoke",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-053a-l11",
+       "vilnaLine": 11
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "R. Eliezer baraita",
+    "Sadducee challenge",
+    "before God",
+    "lifnei Hashem",
+    "incense timing"
+   ],
+   "concepts": {
+    "halachic": [
+     "'before God' means inside Holy of Holies",
+     "incense piling location confirmed"
+    ],
+    "theological": [
+     "presence of God and ritual timing"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Temple service hermeneutics",
+    "Sadducee interpretation",
+    "biblical analysis"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "'Before God' can refer to any area in the Temple where God's presence dwells, including outside the parochet.",
+     "correction": "R. Eliezer demonstrates from context that in the Yom Kippur incense verse, 'before God' specifically means inside the Holy of Holies, not merely within the broader Temple precinct."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    "incense",
+    "Holy of Holies",
+    "parochet",
+    "divine presence"
+   ],
+   "quizSeeds": [
+    {
+     "answer": "R. Eliezer teaches that 'before God' (lifnei Hashem) means inside the Holy of Holies. The incense is piled on the coals once inside, creating the protective cloud in the presence of God.",
+     "question": "How does R. Eliezer's baraita address the Sadducee challenge?"
+    }
+   ],
+   "finalRuling": "R. Eliezer: 'before God' means inside - incense is piled inside the Holy of Holies.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 4,
+   "id": "yoma-053a-s04",
+   "lineRange": {
+    "startVilnaLine": 31,
+    "endVilnaLine": 36
+   },
+   "lines": [
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.53a.17"
+    },
+    {
+     "vilnaLine": 32,
+     "sefariaRef": "Yoma.53a.18"
+    },
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.53a.19"
+    },
+    {
+     "vilnaLine": 36,
+     "sefariaRef": "Yoma.53a.20"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.53a.17",
+    "Yoma.53a.18",
+    "Yoma.53a.19",
+    "Yoma.53a.20"
+   ],
+   "display": {
+    "whats": "The HP exits backward from the Holy of Holies out of respect - not turning his back to the Ark",
+    "hint": "After completing the incense and blood service, the HP exits the Holy of Holies by walking backward - he does not turn his back to the Ark's location. This is maximum kavod for the divine presence.",
+    "title": "High Priest Exits the Holy of Holies Walking Backward"
+   },
+   "learning": {
+    "ahaMoment": "Leaving a holy presence: you do not turn your back - you walk backward facing it until you exit. This principle applies from the Holy of Holies to leaving a Torah scholar's presence.",
+    "memoryAnchor": "HP exits backward: he faces the kapporet location until he is fully outside - the ultimate deference.",
+    "learnerQuestion": "When the High Priest leaves the Holy of Holies after the blood and incense service, does he turn around and walk out normally, or does he exit differently?",
+    "coreTension": "Turning one's back to the Holy Ark or to the divine presence when leaving is considered disrespectful; but walking backward out of a small chamber after completing a complex ritual is physically awkward.",
+    "coreMove": "The Talmud rules that the HP exits the Holy of Holies walking backward, face still turned toward the kapporet, because one does not turn one's back on the divine presence when departing.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The High Priest exits the Holy of Holies walking backward, facing inward toward the kapporet, because turning one's back on the divine presence when departing is considered disrespectful."
+    },
+    "learningBlocker": "Students assume that after completing the service the HP simply turns and walks out normally; the backward-exit rule is not stated explicitly in the Torah and is easily overlooked."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "The HP exits the Holy of Holies walking backward, not turning his back to the Ark's location.",
+     "id": "yoma-053a-l17",
+     "label": "Ruling: The HP exits the Holy of Holies",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-053a-l17",
+       "vilnaLine": 17
+      }
+     ]
+    },
+    {
+     "type": "principle",
+     "speaker": "Gemara",
+     "text": "Exiting backward from holy presences is a general kavod principle applied maximally in the Temple.",
+     "id": "yoma-053a-l18",
+     "label": "Principle: Exiting backward from holy presences is a",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-053a-l18",
+       "vilnaLine": 18
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "backward exit",
+    "Holy of Holies",
+    "kavod",
+    "turning back",
+    "Ark presence"
+   ],
+   "concepts": {
+    "halachic": [
+     "backward exit from Holy of Holies required"
+    ],
+    "theological": [
+     "deference to divine presence"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "kavod principles",
+    "Holy of Holies protocol",
+    "deference to holiness"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The HP turns around normally and walks forward out of the Holy of Holies after completing the blood and incense service.",
+     "correction": "The HP exits the Holy of Holies walking backward, keeping his face toward the kapporet, because turning one's back on the divine presence during departure is forbidden."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    "HP",
+    "backward walk",
+    "Holy of Holies exit",
+    "kapporet"
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Walking backward shows he does not turn his back to the Ark's location (the divine presence). This is maximum kavod, derived from the general principle of not turning one's back to a holy presence.",
+     "question": "Why does the HP exit the Holy of Holies walking backward?"
+    }
+   ],
+   "finalRuling": "The HP exits the Holy of Holies walking backward - maintaining deference to the divine presence throughout.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 5,
+   "id": "yoma-053a-s05",
+   "lineRange": {
+    "startVilnaLine": 38,
+    "endVilnaLine": 47
+   },
+   "lines": [
+    {
+     "vilnaLine": 38,
+     "sefariaRef": "Yoma.53a.21"
+    },
+    {
+     "vilnaLine": 40,
+     "sefariaRef": "Yoma.53a.22"
+    },
+    {
+     "vilnaLine": 43,
+     "sefariaRef": "Yoma.53a.23"
+    },
+    {
+     "vilnaLine": 45,
+     "sefariaRef": "Yoma.53a.24"
+    },
+    {
+     "vilnaLine": 47,
+     "sefariaRef": "Yoma.53a.25"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.53a.21",
+    "Yoma.53a.22",
+    "Yoma.53a.23",
+    "Yoma.53a.24",
+    "Yoma.53a.25"
+   ],
+   "display": {
+    "whats": "The HP offers a brief prayer at the exit from the Holy of Holies - short to prevent public anxiety",
+    "hint": "Upon exiting the Holy of Holies the HP offers a brief prayer. The Gemara explains it must be short so the people outside do not worry that he has died inside.",
+    "title": "The High Priest's Exit Prayer Must Be Brief"
+   },
+   "learning": {
+    "ahaMoment": "The HP's prayer must be communal and brief - his role as representative means even his prayer is for others, and its brevity protects public wellbeing.",
+    "memoryAnchor": "HP's exit prayer: brief (so people don't panic), communal (for Israel, not personal).",
+    "learnerQuestion": "After the High Priest exits the Holy of Holies on Yom Kippur, is he required to pray, and if so, how long may his prayer last?",
+    "coreTension": "The HP has just completed the most sacred service of the year and the congregation is waiting outside; he should express gratitude and supplication, but extending the prayer while the people wait causes public anxiety and is potentially dangerous.",
+    "coreMove": "The Talmud rules that the HP's exit prayer must be brief; prolonging it causes the people outside to fear that something has gone wrong inside the Holy of Holies, potentially leading to panic.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The High Priest's prayer upon exiting the Holy of Holies must be kept brief because prolonging it while the congregation waits outside could trigger fear that something went wrong inside."
+    },
+    "learningBlocker": "Students might assume that after the holiest act of the year, an extended prayer of thanksgiving or supplication would be appropriate and even expected; the public-anxiety concern is not immediately obvious."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "The HP offers a brief prayer upon exiting the Holy of Holies.",
+     "id": "yoma-053a-l21",
+     "label": "Ruling: The HP offers a brief prayer upon",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-053a-l21",
+       "vilnaLine": 21
+      }
+     ]
+    },
+    {
+     "type": "explanation",
+     "speaker": "Gemara",
+     "text": "The prayer must be short - prolonged absence would cause the waiting people to fear he died inside.",
+     "id": "yoma-053a-l22",
+     "label": "Explanation: The prayer must be short - prolonged",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-053a-l22",
+       "vilnaLine": 22
+      }
+     ]
+    },
+    {
+     "type": "elaboration",
+     "speaker": "Gemara",
+     "text": "The HP prays for: a good year, not too much or too little rain, Israel's prosperity; not for personal matters.",
+     "id": "yoma-053a-l23",
+     "label": "Content: The HP prays for: a good year,",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-053a-l23",
+       "vilnaLine": 23
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "exit prayer",
+    "HP brief prayer",
+    "communal prayer",
+    "public anxiety",
+    "Holy of Holies exit"
+   ],
+   "concepts": {
+    "halachic": [
+     "exit prayer must be brief",
+     "HP prays for community not self"
+    ],
+    "theological": [
+     "HP as communal representative even in prayer"
+    ],
+    "narrative": []
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "HP communal role",
+    "prayer requirements",
+    "Yom Kippur service"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The HP can pray at length after emerging from the Holy of Holies - extended prayer after such a holy act is fitting and appropriate.",
+     "correction": "The HP's exit prayer must be brief; the congregation waiting outside would interpret a long absence as a sign that something went wrong inside, potentially causing panic."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    "HP",
+    "exit prayer",
+    "waiting crowd",
+    "communal vs personal prayer"
+   ],
+   "quizSeeds": [
+    {
+     "answer": "If the HP spent too long inside after the service, the fasting crowd would fear he died inside. The brief exit prayer reassures them. The prayer itself is for communal welfare (good year, proper rain, Israel's prosperity) not personal matters.",
+     "question": "Why must the HP's exit prayer be brief?"
+    }
+   ],
+   "finalRuling": "The HP offers a brief communal exit prayer - brevity prevents public panic; content is communal, not personal.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'Not to begin from the near side' - meaning he piles the coals and moves progressively further away. 'Lest he be burned' - for the incense",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "he has already piled beside him keeps burning continually, and as his arm reaches out further it would be burned by the smoke",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l01a"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "column rising from it. 'For in the cloud' - he may enter only surrounded by the cloud of incense smoke. 'Ma'aleh ashan' (smoke-raiser) -",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l01a",
+    "yoma-053a-l04",
+    "yoma-053a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "the name of an herb that makes the smoke rise up straight like a rod. 'And from where do we know that he places ma'aleh ashan in it, etc.' -",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "the Gemara below will ask why this is needed, since it can be derived elsewhere. 'This, if he'",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "'did not place it, etc.' - we learn this from here,",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "since it is stated 'and he shall not die,' implying that if he did not place it he is liable.",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "'Or he was missing' - since it is written 'the incense,' meaning whole,",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "and not lacking. 'Let it be derived from there instead' -",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l08",
+    "yoma-053a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "for even if 'and he shall not die' were not written here, he would still be liable for death",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "for deficient incense, since we find that he entered",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "needlessly, empty-handed, and it is written, 'and he shall not come'",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "at just any time, lest he die. 'That he erred in his entry' -",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l12",
+    "yoma-053a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "entering emptyhanded unintentionally, but he knew there is a death penalty for burning",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "deficient incense, and there is no death penalty for",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l13"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "one who errs unintentionally. 'That he brought in two portions of incense' - in a single",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l13",
+    "yoma-053a-l15"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "entry. 'A verse to teach a verse' - but this is already derived",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l15",
+    "yoma-053a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "from 'for in the cloud.' 'Ikkar' (the essential part) - the root/base. 'But the opposite'",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l19",
+    "yoma-053a-l20",
+    "yoma-053a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "was taught! - that the root/base spreads further than the leaves/tips. 'Until it reaches'",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "the beams' - 'shemei' means sky/ceiling. 'It gropes along the walls' -",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "this is the natural way of smoke: when it cannot escape straight ahead,",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "it keeps spreading upward continually until",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "the space of the house fills from wall to wall, and when it has",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "no more room, it gropes and descends along",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "the walls. 'This, is derived from and so shall he do for the Tent of Meeting'",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l22",
+    "yoma-053a-l29a"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "'that dwells among them' - meaning: in whatever place is",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l29a"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "'dwelling among them,' they shall do so. 'One verse for the penalty and one'",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l29a",
+    "yoma-053a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "'for the warning' - 'and he shall not come' is the warning; 'for in the cloud'",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "'and the cloud shall cover... and he shall not die' is the penalty; whereas the 'and he shall not'",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "'die' of 'and he shall not come' is not written regarding a deficiency in the cloud,",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "but rather regarding an empty-handed entry. It was taught, R. Eliezer",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l30",
+    "yoma-053a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "says: 'and the cloud shall cover... and he shall not die' is the penalty",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l31"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "for omitting ma'aleh ashan. 'One might think both were stated'",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l31",
+    "yoma-053a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "'before the death of Aaron's sons' - and it would be said",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "that they died for the sin of not putting in the ma'aleh ashan.",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l32"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "'And He had not yet appeared' - 'era'eh' (I will appear) implies",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "the future, meaning that when this verse was stated,",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "He had not yet appeared; but if it were stated after their death,",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "He had already appeared, on that very day, as it is written, 'and they went out'",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "'and blessed the people, and the glory of the Lord appeared to'",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "'all the people' (Leviticus 9). 'It is a commandment to bring from'",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l35",
+    "yoma-053a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "'an ordinary source' - and even though they ruled correctly, they were punished",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l36"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "because they did not first ask permission. 'The high place that was in Gibeon'",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l36",
+    "yoma-053a-l38"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "'to Jerusalem' - it should have written 'from Jerusalem,' or",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l38"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "'from the high place that was in Gibeon, to Jerusalem';",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l38"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "[it names Gibeon first because] Gibeon had sanctity, since the altar",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l38"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "that Moses made was there, and he used to go and offer there.",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l38"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "'It compares his departure from Gibeon to Jerusalem to his arrival'",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l40"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "'from Jerusalem to Gibeon' - and the verse means this:",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l40"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "'and Solomon came to the high place that was in Gibeon' in the manner of",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l40"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "his going there; and likewise his coming to Jerusalem upon his return from Gibeon",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l40"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "was like his first arrival. 'And the Israelites'",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l40",
+    "yoma-053a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "'at their station' - those standing in the Temple courtyard in place of",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "all Israel over the daily offering, since it is written,",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "'you shall take care to offer to Me' (Numbers 28), they would stand",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "watch over your offering. 'Until'",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l43",
+    "yoma-053a-l45"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "'R. Yochanan was hidden from him' - so that",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l45"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "R. Elazar would no longer see him. 'From R. Yochanan' -",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l45",
+    "yoma-053a-l47"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "so that R. Yochanan would not see him turning his face away.",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l47"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "'They said' - the daf ends mid-word here; the comment continues on 53b with Rava's own similar practice with Rav Yosef.",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l47"
+   ]
+  }
+ ],
+ "review": "reviewed"
 }
