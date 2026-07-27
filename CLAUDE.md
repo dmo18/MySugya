@@ -63,7 +63,7 @@ MySugya/
     tractate-build-process.md   Generalized, reusable build/review/audit procedure for any masechta
     yoma-completion-report.md   Concrete record of the Yoma build and review, phase by phase
     yoma-perek-review.md        Perek-by-perek semantic review findings for Yoma
-    rashi-audit-backlog.md      Read-only backlog for the not-yet-started Rashi content/nekudot audit
+    rashi-audit-backlog.md      Live tracking for the Rashi content-quality audit (in progress) and nekudot/vowelization audit (not started)
   modules/
     yoma/                       Frozen Yoma module, see modules/yoma/MODULE.md
 ```
@@ -190,7 +190,7 @@ python3 scripts/validate_literal.py
 python3 scripts/validate_schema_completeness.py
 ```
 
-`validate_sefaria.py`, `order_audit.py`, `validate_en.py`, `validate_daftext.py`, `validate_rashi.py`, and `validate_literal.py` all check the Gemara SOURCE text layer (he/en/Vilna alignment). `validate_schema_completeness.py` checks a different layer: whether each sugya's enrichment JSON carries the `display`/`learning` fields that `shared/schema_map.js` declares required and that `app.jsx` renders as the sugya heading and the LearningPanel. It does not check source text alignment at all, and a sugya can pass every other gate while still failing this one if its enrichment predates the canonical display/learning schema. This gate is not currently wired into the default `npm test` chain because the corpus has a known backlog of legacy-schema sugyot pending a backfill pass; run it manually to see current completeness status.
+`validate_sefaria.py`, `order_audit.py`, `validate_en.py`, `validate_daftext.py`, `validate_rashi.py`, and `validate_literal.py` all check the Gemara SOURCE text layer (he/en/Vilna alignment). `validate_schema_completeness.py` checks a different layer: whether each sugya's enrichment JSON carries the `display`/`learning` fields that `shared/schema_map.js` declares required and that `app.jsx` renders as the sugya heading and the LearningPanel. It does not check source text alignment at all, and a sugya can pass every other gate while still failing this one if its enrichment predates the canonical display/learning schema. This gate is not currently wired into the default `npm test` chain (schema drift is rare enough that a manual check is sufficient); as of VERSION 15.290 it reports 0 failures across all 173 daf / 492 sugyot, but run it manually after any bulk enrichment change to confirm current completeness status.
 
 ---
 
