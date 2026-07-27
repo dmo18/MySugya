@@ -141929,11 +141929,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 1,
         he: "גמ' עיכובא מנלן. אי משום דכתיבא חוקה הא בין לרבי יהודה",
-        en: "'He shall take two goats' - the verse requires they be matched in appearance.",
+        en: "'Gemara: from where do we derive that it is indispensable' - if you might say because the indispensable decree is written regarding it, but according to both Rabbi Yehuda",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l05"
+        ]
       },
       {
         id: "rashi-yoma-062b-002",
@@ -141941,11 +141943,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 2,
         he: "בין לר' נחמיה לא כתיבה חוקה אלא על דברים שהן מן העבודה",
-        en: "The two goats should be alike: in appearance, height, and value.",
+        en: "and Rabbi Nechemya, the decree is written only regarding acts that are part of the service itself,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l05"
+        ]
       },
       {
         id: "rashi-yoma-062b-003",
@@ -141953,11 +141957,14 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 3,
         he: "אבל לא על הלקיחה שהיא מתמול שלשום: סד\"א שני שני שני.",
-        en: "And they should be acquired together at the same time.",
+        en: "but not regarding the taking of the animals, which happens the day before. 'You might have thought \"two,\" \"two,\" \"two\"' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l05",
+          "yoma-062b-l07"
+        ]
       },
       {
         id: "rashi-yoma-062b-004",
@@ -141965,11 +141972,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 4,
         he: "תלתא כתיבי ושנה עליהן הכתוב לעכב: חד למראה וכו'. ולמצוה",
-        en: "This is the ideal; ab initio they must be as similar as possible.",
+        en: "the word is written three times, and Scripture repeated it to make it indispensable. 'One for appearance,' etc. - and this teaches a mitzvah,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l07"
+        ]
       },
       {
         id: "rashi-yoma-062b-005",
@@ -141977,11 +141986,14 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 5,
         he: "ולא לעכב: תהיה כתיב. זאת תהיה",
-        en: "After the fact, even if they differ in appearance, the service is valid.",
+        en: "not something indispensable. 'It is written \"shall be\"' - 'this shall be'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l07",
+          "yoma-062b-l14"
+        ]
       },
       {
         id: "rashi-yoma-062b-006",
@@ -141989,11 +142001,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 6,
         he: "תורת המצורע דמשמע בהוייתו",
-        en: "If the HP slaughtered both goats: only the first one serves as the Yom Kippur sin-offering.",
+        en: "'the law of the metzora,' which implies that in its ongoing state",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l14"
+        ]
       },
       {
         id: "rashi-yoma-062b-007",
@@ -142001,11 +142015,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 7,
         he: "תהא פרשה זו ככל הכתוב בה:",
-        en: "The second one, if slaughtered after the first, is invalid.",
+        en: "this passage shall remain in force exactly as all that is written in it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l14"
+        ]
       },
       {
         id: "rashi-yoma-062b-008",
@@ -142013,11 +142029,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 8,
         he: "ולמצוה ה\"נ דבעינן. שיהו שניהן",
-        en: "If he slaughtered the Azazel goat first: its partner (for God) cannot serve.",
+        en: "'For a mitzvah, do we likewise require' - that they be",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l26"
+        ]
       },
       {
         id: "rashi-yoma-062b-009",
@@ -142025,11 +142043,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 9,
         he: "שוין והלא לא שנינו זאת אצל תמידין:",
-        en: "Because the lottery designated which was for God and which for Azazel.",
+        en: "equal to each other? But did we not teach this same requirement regarding the daily offerings?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l26"
+        ]
       },
       {
         id: "rashi-yoma-062b-010",
@@ -142037,11 +142057,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 10,
         he: "כנגד היום. כנגד זריחת השמש:",
-        en: "Once the Azazel goat is slaughtered (not dispatched), the lottery's designation is broken.",
+        en: "'Corresponding to the day' - corresponding to the rising of the sun.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l31"
+        ]
       },
       {
         id: "rashi-yoma-062b-011",
@@ -142049,11 +142071,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 11,
         he: "או אינו אלא חובת היום. ובא ללמד",
-        en: "A new pair must be brought.",
+        en: "'Or is it perhaps only an obligation of the day' - and it comes to teach",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l32"
+        ]
       },
       {
         id: "rashi-yoma-062b-012",
@@ -142061,11 +142085,14 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 12,
         he: "שיהו שנים לכל יום: על קרן מערבית",
-        en: "If he sprinkled the blood of the sin-offering goat, and then the Azazel goat died.",
+        en: "that there shall be two lambs for each day. 'At the northwest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l32",
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-013",
@@ -142073,11 +142100,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 13,
         he: "צפונית. של מזבח שהשמש באה מן",
-        en: "The atonement of the blood service is complete; the Azazel's death doesn't undo it.",
+        en: "corner' - of the altar, since the sun rises from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-014",
@@ -142085,11 +142114,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 14,
         he: "המזרח לפיכך מושכו השוחט לצד",
-        en: "If the Azazel goat died after being dispatched but before reaching the cliff.",
+        en: "the east, therefore the slaughterer draws the animal toward",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-015",
@@ -142097,11 +142128,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 15,
         he: "מערב להרחיקו מן כותל המזרח",
-        en: "The question: is the service complete at dispatch or only at arrival at the cliff?",
+        en: "the west, to keep it away from the eastern wall,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-016",
@@ -142109,11 +142142,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 16,
         he: "בכל יכולת מפני שהכתלים גבוהים",
-        en: "The service is complete at dispatch; the goat's subsequent death does not matter.",
+        en: "as far as possible, because the walls are high",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-017",
@@ -142121,11 +142156,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 17,
         he: "והחמה שחרית בשיפולו של רקיע",
-        en: "The dispatch itself is the atonement act, not the goat's physical end at the cliff.",
+        en: "and in the early morning the sun is still low on the horizon,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-018",
@@ -142133,11 +142170,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 18,
         he: "וצל הכותל עומד כנגדה וצפונית",
-        en: "This is analogous to sacrificial animals: the act of slaughtering is the service, not the burning.",
+        en: "so the wall's shadow stands directly against it; and it is the north side",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-019",
@@ -142145,11 +142184,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 19,
         he: "משום דקדשי קדשים שחיטתן על",
-        en: "The Azazel goat's atonement act is the dispatch, not the cliff.",
+        en: "because most-holy offerings are slaughtered at",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-020",
@@ -142157,11 +142198,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 20,
         he: "ירך המזבח צפונה ושם היה בית",
-        en: "Therefore if it dies en route, the atonement stands.",
+        en: "the north side of the altar's base, where the slaughtering-house",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-021",
@@ -142169,11 +142212,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 21,
         he: "המטבחיים והטבעות קבועות ברצפה",
-        en: "But if it escaped before being dispatched, the service is not yet complete.",
+        en: "stood, and the rings were fixed into the floor",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-022",
@@ -142181,11 +142226,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 22,
         he: "לתת ראש הבהמה לתוכן והן עשרים",
-        en: "It must be found and dispatched, or a replacement brought.",
+        en: "to hold the animal's head, twenty",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-023",
@@ -142193,11 +142240,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 23,
         he: "וארבעה כמנין המשמרות ומקומן",
-        en: "If one of the pair died before the lottery: a new pair must be brought.",
+        en: "four of them corresponding to the number of the priestly watches, occupying an area",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-024",
@@ -142205,11 +142254,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 24,
         he: "עשרים וארבע אמות על עשרים",
-        en: "If one died after the lottery but before the service: a new pair is needed.",
+        en: "of twenty-four by twenty",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-025",
@@ -142217,11 +142268,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 25,
         he: "וארבע קבועות בששה סדרים: על",
-        en: "If one died mid-service: complex rules apply depending on which service was completed.",
+        en: "four cubits, arranged in six rows. 'At the second",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-026",
@@ -142229,11 +142282,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 26,
         he: "טבעת שניה. לא בטבעת שאצל",
-        en: "The Gemara works through these stages carefully.",
+        en: "ring' - not the ring nearest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-027",
@@ -142241,11 +142296,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 27,
         he: "המזבח אלא בשניה לה המשוכה לצד",
-        en: "The key question at each stage: what is the point of no return?",
+        en: "the altar, but the one next to it, drawn toward",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-028",
@@ -142253,11 +142310,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 28,
         he: "צפון ופני השוחט וצואר הבהמה",
-        en: "After which act is the atonement secured against the other goat's failure?",
+        en: "the north, with the slaughterer's face and the animal's neck",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-029",
@@ -142265,11 +142324,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 29,
         he: "באלכסון לצד מזרחית צפונית שמשם",
-        en: "The blood sprinkling is the point of no return for the sin-offering goat.",
+        en: "angled toward the northeast, from where",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-030",
@@ -142277,11 +142338,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 30,
         he: "השמש באה שחרית וטעמא דטבעת",
-        en: "The dispatch is the point of no return for the Azazel goat.",
+        en: "the morning sun rises; and the reason for the ring",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-031",
@@ -142289,11 +142352,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 31,
         he: "שניה לא ידענא ואני שמעתי כדי",
-        en: "After each passes its point of no return, the other's failure doesn't undo it.",
+        en: "being specifically the second one I do not know myself, but I have heard it is so that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-032",
@@ -142301,11 +142366,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 32,
         he: "שתהא הראשונה מסייעתו להאחז בה",
-        en: "Before the point of no return, each goat's failure requires replacement.",
+        en: "the first ring may help hold",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-033",
@@ -142313,11 +142380,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 33,
         he: "רגלי הבהמה שלא תהפך ושל בין",
-        en: "The lottery: the beginning of the service, creating the legal status of each goat.",
+        en: "the animal's legs so it does not overturn. And for the afternoon offering,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-034",
@@ -142325,11 +142394,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 34,
         he: "הערבים שהחמה באה מן המערב",
-        en: "The slaughtering: completing the sin-offering goat's status.",
+        en: "since the sun comes from the west,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-035",
@@ -142337,11 +142408,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 35,
         he: "מושך עצמו לצד מזרח בכל יכולת",
-        en: "The dispatch: completing the Azazel goat's status.",
+        en: "he draws himself as far as possible toward the east,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-036",
@@ -142349,11 +142422,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 36,
         he: "ופניו למערב דרום באלכסון שזריחת",
-        en: "These three events define the points of no return.",
+        en: "with his face toward the southwest, angled toward where the rising",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35"
+        ]
       },
       {
         id: "rashi-yoma-062b-037",
@@ -142361,11 +142436,14 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 37,
         he: "החמה באה משם: ומוספין של שבת.",
-        en: "Understanding these stages is essential for HP preparation.",
+        en: "of the sun comes from. 'And the Sabbath additional offerings' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l35",
+          "yoma-062b-l37"
+        ]
       },
       {
         id: "rashi-yoma-062b-038",
@@ -142373,11 +142451,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 38,
         he: "שנאמר בהם שני כבשים ודאי שנים",
-        en: "The contingency rules flow directly from understanding what each stage accomplishes.",
+        en: "regarding which it says 'two lambs,' certainly meaning two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l37"
+        ]
       },
       {
         id: "rashi-yoma-062b-039",
@@ -142385,11 +142465,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 39,
         he: "שוים לעיכובא מדלא הדר כתב בהו",
-        en: "The Talmud preserves all this for the day when the Temple will be rebuilt.",
+        en: "equal lambs, indispensably, since it does not go on to write regarding them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l37"
+        ]
       },
       {
         id: "rashi-yoma-062b-040",
@@ -142397,11 +142479,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 40,
         he: "אחד לרבות אע\"פ שאינן שוין",
-        en: "And for the present: the study of these halachot honors the Yom Kippur service.",
+        en: "'one' a second time to include validity even when they are not equal -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l37"
+        ]
       },
       {
         id: "rashi-yoma-062b-041",
@@ -142409,11 +142493,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 41,
         he: "להכשיר כך שמעתי וקשיא לי עיכובא",
-        en: "Each learner who studies these laws participates vicariously in the Temple service.",
+        en: "so I have heard it, but I find it difficult, since it should say from where do we derive it is indispensable;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l37"
+        ]
       },
       {
         id: "rashi-yoma-062b-042",
@@ -142421,11 +142507,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 42,
         he: "מנלן ונראה בעיני דהכי גרס מוספין",
-        en: "The text is the Temple; the learning is the service.",
+        en: "and it appears to me that the correct reading is: the additional offerings",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l37"
+        ]
       },
       {
         id: "rashi-yoma-062b-043",
@@ -142433,11 +142521,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 43,
         he: "ודאי שנים למצוה מצותן להיות שוין",
-        en: "Yoma teaches us this: that the learning of the service is never separate from the service itself.",
+        en: "certainly require two lambs as a mitzvah, meaning their proper observance is to be equal,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l37"
+        ]
       },
       {
         id: "rashi-yoma-062b-044",
@@ -142445,11 +142535,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 44,
         he: "ולא גרסי' מדלא כתיב אחד אחד",
-        en: "This is why it is studied before Yom Kippur - preparation, not just knowledge.",
+        en: "and we do not read it as 'since it does not write one, one' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l37"
+        ]
       },
       {
         id: "rashi-yoma-062b-045",
@@ -142457,11 +142549,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 45,
         he: "ושיטתא דתלמידי תרביצאי היא:",
-        en: "The HP prepared his body; we prepare our minds and hearts.",
+        en: "that alternate reading belongs to the school of the students of the academy.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l37"
+        ]
       },
       {
         id: "rashi-yoma-062b-046",
@@ -142469,11 +142563,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 46,
         he: "שני שעירי יום הכפורים. שמשלקחן",
-        en: "Both preparations are necessary for Yom Kippur.",
+        en: "'The two goats of Yom Kippur' - which from the moment they were acquired",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l38"
+        ]
       },
       {
         id: "rashi-yoma-062b-047",
@@ -142481,11 +142577,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 47,
         he: "הם קדושים שהרי מתרומת הלשכה",
-        en: "The HP's body and the people's hearts: two halves of one Yom Kippur.",
+        en: "are sanctified, since they came from the terumah of the treasury chamber,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l38"
+        ]
       },
       {
         id: "rashi-yoma-062b-048",
@@ -142493,11 +142591,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 48,
         he: "באו ושחטן בחוץ לעזרה: חייב על",
-        en: "His service and our prayer: two halves of one atonement.",
+        en: "and he slaughtered them outside the Temple courtyard. 'He is liable for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l38"
+        ]
       },
       {
         id: "rashi-yoma-062b-049",
@@ -142505,11 +142605,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 49,
         he: "שניהן. משום שחוטי חוץ ולקמן פריך",
-        en: "The tractate ends where Yom Kippur itself ends: with everyone purified.",
+        en: "both of them' - on account of slaughtering outside; and later the Gemara will ask:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l38"
+        ]
       },
       {
         id: "rashi-yoma-062b-050",
@@ -142517,11 +142619,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 50,
         he: "קודם הגרלה למאי חזו בפנים וכיון",
-        en: "The HP having served; the nation having prayed; the day having atoned.",
+        en: "before the lottery, for what purpose are they fit to be offered inside? And since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l38"
+        ]
       },
       {
         id: "rashi-yoma-062b-051",
@@ -142529,11 +142633,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 51,
         he: "דלא חזו אמאי חייב הא ראוי לפתח",
-        en: "A new year begins, clean.",
+        en: "they are not yet fit, why is he liable? We require that they be fit to be brought to the entrance of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l38"
+        ]
       },
       {
         id: "rashi-yoma-062b-052",
@@ -142541,11 +142647,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 52,
         he: "אהל מועד בעינן דכתיב (ויקרא יז)",
-        en: "May we merit to see the rebuilding of the Temple and the restoration of the service.",
+        en: "the Tent of Meeting, as it is written (Leviticus 17)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l38"
+        ]
       },
       {
         id: "rashi-yoma-062b-053",
@@ -142553,11 +142661,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 53,
         he: "בשחוטי חוץ ואל פתח אהל מועד",
-        en: "And until then, may our study be accepted in its place.",
+        en: "regarding those slaughtered outside, 'and he did not bring it to the entrance of the Tent of Meeting.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l38"
+        ]
       },
       {
         id: "rashi-yoma-062b-054",
@@ -142565,11 +142675,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 54,
         he: "לא הביאו: ופטור על של עזאזל.",
-        en: "This is the prayer of every student of Yoma.",
+        en: "'But he is exempt regarding the one for Azazel' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l38"
+        ]
       },
       {
         id: "rashi-yoma-062b-055",
@@ -142577,11 +142689,14 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 55,
         he: "דלא חזי להקריב בפנים: לשעיר",
-        en: "As it was said: the study of the sacrificial laws is as if one sacrificed them.",
+        en: "since it is not fit to be offered inside at all. 'For the goat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l38",
+          "yoma-062b-l40"
+        ]
       },
       {
         id: "rashi-yoma-062b-056",
@@ -142589,11 +142704,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 56,
         he: "הנעשה בחוץ. כל אחד היה ראוי",
-        en: "The study of Yom Kippur is as if we performed the Yom Kippur service.",
+        en: "offered outside' - meaning each of the two was fit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l40"
+        ]
       },
       {
         id: "rashi-yoma-062b-057",
@@ -142601,11 +142718,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 57,
         he: "להקריבו לחטאת המוסף של יום",
-        en: "May our study atone for us as the service once did.",
+        en: "to be offered as the additional sin-offering goat of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l40"
+        ]
       },
       {
         id: "rashi-yoma-062b-058",
@@ -142613,11 +142732,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 58,
         he: "הכפורים האמורה בפרשת פנחס:",
-        en: "Amen.",
+        en: "Yom Kippur stated in the portion of Pinchas.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l40"
+        ]
       },
       {
         id: "rashi-yoma-062b-059",
@@ -142625,11 +142746,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 59,
         he: "ומאי שנא לשעיר הנעשה בפנים דלא.",
-        en: "This is the faith behind the detailed study of Yoma.",
+        en: "'And why is it different regarding the goat offered inside, that it is not' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l41"
+        ]
       },
       {
         id: "rashi-yoma-062b-060",
@@ -142637,11 +142760,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 60,
         he: "חזי משום דמחוסר הגרלה: לשעיר הנעשה בחוץ נמי לא חזו. דמחסרי כל מעשה עבודת היום של מתן דמי פר ושעיר וחפינת הקטרת והקטרתה",
-        en: "Every halacha studied is an act of devotion.",
+        en: "fit? Because it still lacks the lottery. 'They are also not fit for the goat offered outside' - since they still lack the entire day's service: the placing of the blood of the bull and the goat, and the scooping of the incense and its burning,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l41"
+        ]
       },
       {
         id: "rashi-yoma-062b-061",
@@ -142649,11 +142774,14 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 61,
         he: "הראוין ליקדם למוספין: אין מחוסר זמן לבו ביום. לענין שעיר החיצון אין כאן חסרון מעשה בגופו אלא חסרון זמן שעדיין לא הגיע זמן",
-        en: "And devotion, the rabbis teach, can replace the Temple service.",
+        en: "all of which are meant to precede the additional offerings. 'There is no lack of time within the day itself' - regarding the outer goat, there is no lack of an act performed on its own body, only a lack of time, since the time has not yet arrived",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l41",
+          "yoma-062b-l43a"
+        ]
       },
       {
         id: "rashi-yoma-062b-062",
@@ -142661,11 +142789,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 62,
         he: "המוספין וזמן הראוי לבו ביום אין זה חסרון זמן אבל הגרלה אע\"ג דלאו מעשה בגופן היא דהא אמרן עליית גורל מתוך קלפי היא מעכבת",
-        en: "Until the Temple is rebuilt and the service resumes.",
+        en: "for the additional offerings, and a time that is fit to occur later within that same day is not considered a lack of time. But the lottery, even though it is not itself an act performed on their bodies, for we have said that the rising of the lot from the container is what is indispensable,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l43a"
+        ]
       },
       {
         id: "rashi-yoma-062b-063",
@@ -142673,11 +142803,14 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 63,
         he: "אבל הנחה אינה מעכבת אפילו הכי הואיל ומצוה האמורה בהן היא כמחוסר מעשה דמי: השתא דאמר רב חסדא מחוסר הגרלה כמחוסר",
-        en: "In that merit, may it come speedily in our days.",
+        en: "while merely placing the lot down is not indispensable, nevertheless, since it is a mitzvah stated regarding them, it is treated as though it were a lack of an act. 'Now that Rav Chisda has said that lacking the lottery is treated like lacking",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l43a",
+          "yoma-062b-l43b"
+        ]
       },
       {
         id: "rashi-yoma-062b-064",
@@ -142685,11 +142818,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 64,
         he: "מעשה דמי. ואע\"ג דלאו מעשה בגופן הוא דאי לאו דחזו לשעיר המוסף לא היה מתחייב על שחיטתן בחוץ: הא דאמר שמואל",
-        en: "The tractate Yoma: a complete portrait of the holiest day.",
+        en: "an act' - even though it is not itself an act performed on their bodies, for if they were not fit for the additional goat-offering, he would not be liable for slaughtering them outside. 'That which Shmuel said,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l43b"
+        ]
       },
       {
         id: "rashi-yoma-062b-065",
@@ -142697,11 +142832,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 65,
         he: "וכו'. ומחוסר פתיחה כמחוסר מעשה דמי ואע\"ג דלאו מעשה בגופן של שלמים הוא הואיל ובהן נאמר הוי כמעשה בגופן:",
-        en: "Studied with love, it becomes more than knowledge - it becomes encounter.",
+        en: "etc. - that lacking the opening of the Sanctuary doors is likewise treated like lacking an act, even though it is not itself an act performed on the bodies of the peace-offerings, since it is stated regarding them, it is treated as though it were an act performed on their bodies.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l43b"
+        ]
       },
       {
         id: "rashi-yoma-062b-066",
@@ -142709,11 +142846,13 @@ const DAF_CONTENT = {
         daf: "62b",
         vilnaLine: 66,
         he: "ומי",
-        en: "Encounter with the day, with the HP, with Israel, and with God.",
+        en: "'But does' - the comment is truncated here; it continues on 63a as 'Rav Chisda really accept the principle of hoil,' challenging whether Rav Chisda's reasoning here is consistent with his position elsewhere.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-062b-l43b"
+        ]
       }
     ],
     review: "reviewed"
