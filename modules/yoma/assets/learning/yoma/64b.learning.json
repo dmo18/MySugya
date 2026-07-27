@@ -1,418 +1,509 @@
 {
-  "canonicalRef": "Yoma 64b",
-  "summary": "The quality requirements for replacement Yom Kippur goats: when a replacement is needed, the finest available goat should be chosen, and the replacement pair must be matched with each other just like the original pair. The quality standard doesn't relax in contingency scenarios. This reflects the principle of hidur mitzvah (beautifying the commandment) as applied to the Temple service - in Israel's relationship with God, the best is always owed.",
-  "sugyot": [
+ "canonicalRef": "Yoma 64b",
+ "summary": "The quality requirements for replacement Yom Kippur goats: when a replacement is needed, the finest available goat should be chosen, and the replacement pair must be matched with each other just like the original pair. The quality standard doesn't relax in contingency scenarios. This reflects the principle of hidur mitzvah (beautifying the commandment) as applied to the Temple service - in Israel's relationship with God, the best is always owed.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-064b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 18
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-064b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 18
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.64b.1"
-        },
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.64b.2"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.64b.3"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.64b.4"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.64b.5"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.64b.6"
-        },
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.64b.7"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.64b.1",
-        "Yoma.64b.2",
-        "Yoma.64b.3",
-        "Yoma.64b.4",
-        "Yoma.64b.5",
-        "Yoma.64b.6",
-        "Yoma.64b.7"
-      ],
-      "display": {
-        "whats": "Replacement goats: choosing the superior animal; the matching requirement applies to replacements",
-        "hint": "When replacement Yom Kippur goats are needed, the finest available animals should be chosen. The matching requirement ('he shall take two goats') applies to replacement pairs as much as to the original.",
-        "title": "The Best Available: Hidur Mitzvah Applied to Replacement Offerings"
-      },
-      "learning": {
-        "ahaMoment": "Even in replacement scenarios, the Yom Kippur standard demands the best. The circumstances may be difficult but the quality requirement is unchanged - the relationship with God is not compromised by operational challenges.",
-        "memoryAnchor": "Even in replacement: the best available is owed to God. The standard doesn't drop because the situation is difficult.",
-        "learnerQuestion": "When replacing a disqualified Yom Kippur goat, is any valid matching animal sufficient, or must the replacement be of equal or superior quality to the original?",
-        "coreTension": "In contingency scenarios, quality standards might reasonably relax since the ideal pair is no longer available; yet the Mishnah insists on choosing the superior replacement even in an already-disrupted situation.",
-        "coreMove": "The principle of hidur mitzvah (beautifying the commandment) applies to contingency scenarios without relaxation; the obligation to offer the best available animal is unconditional - the disruption does not lower the quality standard, and the replacement pair must still be matched in appearance, height, and value.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "When a Yom Kippur goat requires replacement, the superior available animal must be chosen; hidur mitzvah and matching requirements apply to replacement pairs with full force, reflecting that quality obligations for Temple service are unconditional rather than situational."
-        },
-        "learningBlocker": "Students may assume contingency scenarios allow quality relaxation since the ideal has already been disrupted; they miss that hidur mitzvah is not conditional on circumstances and applies with full force even when the original ideal conditions have been lost."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Mishnah",
-          "text": "If a superior replacement goat is available, choose it over an inferior one.",
-          "id": "yoma-064b-l01a",
-          "label": "Ruling: If a superior replacement goat is available,",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-064b-l01a",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "principle",
-          "speaker": "Gemara",
-          "text": "The quality requirement applies to replacements as to originals.",
-          "id": "yoma-064b-l01b",
-          "label": "Principle: The quality requirement applies to replacements as",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-064b-l01b",
-              "vilnaLine": 2
-            }
-          ]
-        },
-        {
-          "type": "application",
-          "speaker": "Gemara",
-          "text": "The matching requirement ('he shall take two goats') also applies to replacement pairs.",
-          "id": "yoma-064b-l05",
-          "label": "Application: The matching requirement ('he shall take two",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-064b-l05",
-              "vilnaLine": 5
-            }
-          ]
-        },
-        {
-          "type": "theology",
-          "speaker": "Gemara",
-          "text": "Hidur mitzvah: beautifying the commandment with the finest available materials.",
-          "id": "yoma-064b-l09",
-          "label": "Theology: Hidur mitzvah: beautifying the commandment with the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-064b-l09",
-              "vilnaLine": 9
-            }
-          ]
-        },
-        {
-          "type": "context",
-          "speaker": "Gemara",
-          "text": "The quality standard reflects Israel's relationship with God - the best is owed, never less.",
-          "id": "yoma-064b-l16",
-          "label": "Context: The quality standard reflects Israel's relationship ...",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-064b-l16",
-              "vilnaLine": 16
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "superior replacement",
-        "hidur mitzvah",
-        "quality requirement",
-        "matching replacement pair"
-      ],
-      "concepts": {
-        "halachic": [
-          "quality requirement for replacement goats",
-          "hidur mitzvah in Temple service"
-        ],
-        "theological": [
-          "offering the best as an expression of the relationship with God"
-        ],
-        "narrative": [
-          "Temple service standards",
-          "quality in replacement scenarios"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing the matching requirement applies to the original pair",
-        "Understanding hidur mitzvah in the context of Temple service"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "When a Yom Kippur goat must be replaced, any valid matching animal is acceptable - quality standards are secondary once a contingency situation has already disrupted the original plan.",
-          "correction": "The Mishnah requires choosing the superior available replacement; hidur mitzvah and matching requirements apply to replacement pairs with full force, reflecting that quality obligations in Temple service are unconditional and do not relax in contingency scenarios."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "principle",
-          "name": "hidur mitzvah - choosing the finest in Temple service"
-        },
-        {
-          "type": "contrast",
-          "name": "replacement scenario maintaining original quality standards"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "The finest available goat should be chosen - the quality requirement doesn't relax in replacement scenarios. If a superior goat is available, that one is used. The replacement pair must also match each other, just like the original pair.",
-          "question": "When a replacement Yom Kippur goat is needed, what quality standard applies?"
-        }
-      ],
-      "finalRuling": "Replacement goats must meet the same quality and matching standards as the original pair; the finest available animal is required, reflecting hidur mitzvah.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.64b.1"
+    },
+    {
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.64b.2"
+    },
+    {
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.64b.3"
+    },
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.64b.4"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.64b.5"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.64b.6"
+    },
+    {
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.64b.7"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.64b.1",
+    "Yoma.64b.2",
+    "Yoma.64b.3",
+    "Yoma.64b.4",
+    "Yoma.64b.5",
+    "Yoma.64b.6",
+    "Yoma.64b.7"
+   ],
+   "display": {
+    "whats": "Replacement goats: choosing the superior animal; the matching requirement applies to replacements",
+    "hint": "When replacement Yom Kippur goats are needed, the finest available animals should be chosen. The matching requirement ('he shall take two goats') applies to replacement pairs as much as to the original.",
+    "title": "The Best Available: Hidur Mitzvah Applied to Replacement Offerings"
+   },
+   "learning": {
+    "ahaMoment": "Even in replacement scenarios, the Yom Kippur standard demands the best. The circumstances may be difficult but the quality requirement is unchanged - the relationship with God is not compromised by operational challenges.",
+    "memoryAnchor": "Even in replacement: the best available is owed to God. The standard doesn't drop because the situation is difficult.",
+    "learnerQuestion": "When replacing a disqualified Yom Kippur goat, is any valid matching animal sufficient, or must the replacement be of equal or superior quality to the original?",
+    "coreTension": "In contingency scenarios, quality standards might reasonably relax since the ideal pair is no longer available; yet the Mishnah insists on choosing the superior replacement even in an already-disrupted situation.",
+    "coreMove": "The principle of hidur mitzvah (beautifying the commandment) applies to contingency scenarios without relaxation; the obligation to offer the best available animal is unconditional - the disruption does not lower the quality standard, and the replacement pair must still be matched in appearance, height, and value.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "When a Yom Kippur goat requires replacement, the superior available animal must be chosen; hidur mitzvah and matching requirements apply to replacement pairs with full force, reflecting that quality obligations for Temple service are unconditional rather than situational."
+    },
+    "learningBlocker": "Students may assume contingency scenarios allow quality relaxation since the ideal has already been disrupted; they miss that hidur mitzvah is not conditional on circumstances and applies with full force even when the original ideal conditions have been lost."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "And if the second one was superior to it: he brings the superior one.",
-      "linkedGemaraLineIds": []
+     "type": "ruling",
+     "speaker": "Mishnah",
+     "text": "If a superior replacement goat is available, choose it over an inferior one.",
+     "id": "yoma-064b-l01a",
+     "label": "Ruling: If a superior replacement goat is available,",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-064b-l01a",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "When a replacement goat is available, choose the better quality one.",
-      "linkedGemaraLineIds": []
+     "type": "principle",
+     "speaker": "Gemara",
+     "text": "The quality requirement applies to replacements as to originals.",
+     "id": "yoma-064b-l01b",
+     "label": "Principle: The quality requirement applies to replacements as",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-064b-l01b",
+       "vilnaLine": 2
+      }
+     ]
     },
     {
-      "vilnaLine": 3,
-      "en": "Temple offerings should be of the highest quality: this is the principle of hidur mitzvah.",
-      "linkedGemaraLineIds": []
+     "type": "application",
+     "speaker": "Gemara",
+     "text": "The matching requirement ('he shall take two goats') also applies to replacement pairs.",
+     "id": "yoma-064b-l05",
+     "label": "Application: The matching requirement ('he shall take two",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-064b-l05",
+       "vilnaLine": 5
+      }
+     ]
     },
     {
-      "vilnaLine": 4,
-      "en": "Using a superior replacement honors the service.",
-      "linkedGemaraLineIds": []
+     "type": "theology",
+     "speaker": "Gemara",
+     "text": "Hidur mitzvah: beautifying the commandment with the finest available materials.",
+     "id": "yoma-064b-l09",
+     "label": "Theology: Hidur mitzvah: beautifying the commandment with the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-064b-l09",
+       "vilnaLine": 9
+      }
+     ]
     },
     {
-      "vilnaLine": 5,
-      "en": "The superior replacement pair: both new goats should match each other.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "en": "The matching requirement (from 'he shall take two goats') applies to replacements too.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "en": "The replacement pair should be as similar to each other as possible.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "en": "This is the ideal even when the original pair failed.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "en": "The quality requirements don't relax for replacement situations.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "en": "The HP brings the best available animals even in contingency scenarios.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "en": "This reflects the principle that the Yom Kippur service is not compromised by circumstances.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "en": "The service must be the best even when the situation is difficult.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "en": "The replacement goat should be of equal or better quality than the original.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Never inferior quality for a replacement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "The principle of hidur mitzvah: beautifying the commandment with the finest materials.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "Applied to Temple service: always offer the best.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "This is not just an aesthetic preference - it is a halachic requirement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "The Temple service reflects Israel's relationship with God.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "Giving God the best is not optional; it is the foundation of the sacrificial system.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Inferior offerings were explicitly criticized by the prophets.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "The prophets' critique: offering the lame and the sick while keeping the best for oneself.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "The Talmud's rules about quality replacements reflect the same prophetic concern.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "The best is owed to God; anything less is a diminishment of the relationship.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "The quality requirement for the Yom Kippur goats extends even to replacement scenarios.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "This is an unusually demanding standard.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "It reflects the day's unique status: nothing about Yom Kippur can be second-rate.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "The HP, the garments, the animals, the service itself - all must be the finest.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Yom Kippur is the supreme expression of Israel's devotion to God.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "That devotion is expressed not just in spiritual intention but in material quality.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "The quality of the offerings is itself a form of worship.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "The Talmud preserves these quality requirements so they are never forgotten.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "When the Temple is rebuilt, the standard will be the same.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "The finest animals for the finest day.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "This is the Torah's standard and the Talmud's preservation of it.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "It speaks to a people that honors God with both spirit and matter.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "Both are necessary; neither is sufficient alone.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Spirit: the fast, the prayer, the repentance.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "Matter: the finest animals, the white linen, the golden vessels.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "Together they constitute the full Yom Kippur offering.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "The people's spirit and the HP's material service: one complete Yom Kippur.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "This is what Tractate Yoma preserves for us.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "The full picture of Yom Kippur in all its spiritual and material dimensions.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "May we study it with the same devotion that the HP performed it.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "And may our study be accepted as if we had performed the service.",
-      "linkedGemaraLineIds": []
+     "type": "context",
+     "speaker": "Gemara",
+     "text": "The quality standard reflects Israel's relationship with God - the best is owed, never less.",
+     "id": "yoma-064b-l16",
+     "label": "Context: The quality standard reflects Israel's relationship ...",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-064b-l16",
+       "vilnaLine": 16
+      }
+     ]
     }
-  ],
-  "review": "reviewed"
+   ],
+   "topicTags": [
+    "superior replacement",
+    "hidur mitzvah",
+    "quality requirement",
+    "matching replacement pair"
+   ],
+   "concepts": {
+    "halachic": [
+     "quality requirement for replacement goats",
+     "hidur mitzvah in Temple service"
+    ],
+    "theological": [
+     "offering the best as an expression of the relationship with God"
+    ],
+    "narrative": [
+     "Temple service standards",
+     "quality in replacement scenarios"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Knowing the matching requirement applies to the original pair",
+    "Understanding hidur mitzvah in the context of Temple service"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "When a Yom Kippur goat must be replaced, any valid matching animal is acceptable - quality standards are secondary once a contingency situation has already disrupted the original plan.",
+     "correction": "The Mishnah requires choosing the superior available replacement; hidur mitzvah and matching requirements apply to replacement pairs with full force, reflecting that quality obligations in Temple service are unconditional and do not relax in contingency scenarios."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "principle",
+     "name": "hidur mitzvah - choosing the finest in Temple service"
+    },
+    {
+     "type": "contrast",
+     "name": "replacement scenario maintaining original quality standards"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "The finest available goat should be chosen - the quality requirement doesn't relax in replacement scenarios. If a superior goat is available, that one is used. The replacement pair must also match each other, just like the original pair.",
+     "question": "When a replacement Yom Kippur goat is needed, what quality standard applies?"
+    }
+   ],
+   "finalRuling": "Replacement goats must meet the same quality and matching standards as the original pair; the finest available animal is required, reflecting hidur mitzvah.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'It shall stand in its place' - he designates a substitute only for the one that died, but for the surviving one",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "he does not designate a substitute to disqualify it and have this new one take its place. 'As it stands, so it stands' - meaning it remains in its own sanctity,",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l01b"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "and we do not say it becomes rejected. 'I do not know which \"second\"' etc. - this refers back to the Mishnah: the 'second' that we taught",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l01b",
+    "yoma-064b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "shall graze - I do not know which, etc. This is how we read it: 'and not the one whose partner died' - meaning, not this one",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "whose partner died. 'It shall stand alive, and not that it already",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "stood' - and then became rejected through its partner's death,",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "and now comes to stand again: it shall stand",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "alive with a single standing, not two standings.",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "'The one to be sent away shall die' - this shows that living animals",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "can become rejected. 'When I said it follows the Rabbis, I meant according to the Rabbis' view' -",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l09",
+    "yoma-064b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "for since Rabbi Yehuda says 'and furthermore,' to teach us",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "that living animals can become rejected, this implies he has heard",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "the Rabbis say that the second of the first pair is offered,",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "since living animals are not rejected, and the second of the",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "second pair shall graze, since a communal sin-offering does not die;",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "and he comes to disagree with them on two points: as for what",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "you say, that a communal sin-offering does not die, I",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "say it does die; and furthermore, not regarding the one you said",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "shall graze do I say it shall die, but rather",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "it shall be offered, and instead the second of the first pair shall die.",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "'This works out well according to Rav: this is what Rabbi Yehuda",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "and the Rabbis dispute' - regarding this \"and furthermore\" of the latter clause. 'But",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "according to Rabbi Yochanan' - who says that even the Rabbis said that the second of",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "the first pair shall graze, on what point does",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "Rabbi Yehuda disagree with them in this latter clause that states",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "'and furthermore'? 'This works out well according to Rabbi Yochanan' - who says",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l16",
+    "yoma-064b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "that the Mishnah's ruling of 'it shall graze' is stated regarding the second of the first pair;",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "you find that in the corresponding individual case,",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "it would die, on account of the principle of a sin-offering whose owner has",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "achieved atonement. 'In accordance with Rabbi Abba' - who said, in tractate",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "Temurah (23a), regarding the dispute between Rabbi and the Rabbis about one who set aside his sin-offering",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "and it was lost, and set aside another in its place, and then the first was found, so both now stand:",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "Rabbi says atonement is achieved through one of them and the other must die, while the Sages say a sin-offering",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "whose owner achieved atonement dies only when found after the owner already achieved atonement, but",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "if found before atonement and after the setting-aside, it grazes. And Rabbi Abba said regarding this: all",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "agree that if atonement was achieved through the one not lost, meaning the second one set aside last,",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "the lost one dies, for so was it stated as a law given to Moses at Sinai: a sin-offering that was lost,",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "and its owner achieved atonement through another, the first one dies; they disagree only where atonement was achieved through the first one",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "and the second remains standing. And this is the point of their dispute: Rabbi holds that one set aside to replace a lost animal",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "is treated like a lost animal, while the Rabbis hold it is not. And regarding our Mishnah here: this works out well",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "according to Rabbi Yochanan, who says the Mishnah's 'it shall graze' refers to the second of the first pair - this is why it gives",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "the reason that a communal sin-offering does not die, whereas an individual's in this case would die, since it would be",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "a case of atonement achieved through the one not lost while the rejected one still survives, and all agree that one dies.",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l18"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "'But' - the comment is completed on 65a as 'according to Rav,' continuing the challenge of how Rav's own view can explain this same Mishnah clause.",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l18"
+   ]
+  }
+ ],
+ "review": "reviewed"
 }
