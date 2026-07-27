@@ -14662,12 +14662,12 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 1,
         he: "שמטמא משכב ומושב. אפילו עשר מצעות זו על גב זו וטמא מת",
-        en: "That makes mishkav and moshav impure: even ten mattresses piled one on top of another. But a tamei meit does not transmit mishkav/moshav - only his direct contact.",
+        en: "'That he renders a bed or seat impure' - even ten mattresses piled one atop another; whereas a tamei met",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006b-l01a"
+          "yoma-006b-l01b"
         ]
       },
       {
@@ -14676,7 +14676,7 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 2,
         he: "אינו מטמא אלא מגעו: לטמא אוכלין ומשקין. ולא לטמא אדם וכלים",
-        en: "To render food and liquids impure: but not to render a person or vessels impure.",
+        en: "does not render them impure except through his own direct contact. 'To render food and drink impure' - but not to render a person or vessels impure,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -14690,7 +14690,7 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 3,
         he: "כשאר כל עושה משכב ומושב כגון זב וזבה ונדה ומצורע שטומאתן",
-        en: "Like all others who transmit mishkav/moshav - such as a zav, a zava, a niddah, and a metzora - whose impurity is av hatumah and renders persons and vessels impure. But a bo'el niddah is written (Lev. 15):",
+        en: "unlike all others who render a bed or seat impure, such as a zav, a zavah, a niddah, or a metzora, whose impurity is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -14704,7 +14704,7 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 4,
         he: "אב הטומאה לטמא אדם וכלים אבל בועל נדה כתיב ביה (ויקרא טו)",
-        en: "All the bedding on which he lies will be impure.",
+        en: "a father of impurity that renders persons and vessels impure. But regarding a bo'el niddah it is written (Leviticus 15:24):",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -14718,7 +14718,7 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 5,
         he: "כל המשכב אשר ישכב עליו יטמא",
-        en: "The verse severed him from the severe mishkav/moshav impurity.",
+        en: "'all the bedding on which he lies shall become impure' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -14732,7 +14732,7 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 6,
         he: "נתקו הכתוב מטומאה חמורה דמשכב",
-        en: "Of the niddah herself who renders a person impure, as it is written:",
+        en: "Scripture severed him from the severe impurity of the bedding",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -14746,7 +14746,7 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 7,
         he: "נדה עצמה שמטמא אדם כדכתיב",
-        en: "'And whoever touches her bedding etc.'",
+        en: "of the niddah herself, which renders a person impure, as it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -14760,7 +14760,7 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 8,
         he: "(שם) וכל אשר יגע במשכבה וגו'",
-        en: "And brought him to the light impurity of rendering food and liquids impure.",
+        en: "(ibid.): 'and whoever touches her bedding' etc.,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -14774,7 +14774,7 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 9,
         he: "והביאו לטומאה קלה לטמא אוכלין",
-        en: "If it were for severe impurity, the verse could have been silent - I would have known that his bedding is impure like the niddah's bedding, since it is written 'and her niddah-impurity shall be upon him.'",
+        en: "and brought him instead to the light impurity of rendering food",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -14788,7 +14788,7 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 10,
         he: "ומשקין דאי לטומאה חמורה לישתוק",
-        en: "Impure like the niddah's bedding, for it is written 'vetehei niddata alav' (her niddah-state shall be upon him).",
+        en: "and drink impure. For if it were for the severe impurity, the verse could have remained silent",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -14802,12 +14802,12 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 11,
         he: "קרא מיניה ואנא ידענא דמשכבה",
-        en: "And before you separate him from the impurity of his house - and all other people enter and leave his presence - separate him from corpse impurity too, so that people not come and go near him, lest a dead person occur upon him.",
+        en: "about it, and I would have known on my own that his bedding is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006b-l07"
+          "yoma-006b-l01b"
         ]
       },
       {
@@ -14816,12 +14816,12 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 12,
         he: "טמא כמשכב נדה דהא כתיב ותהי",
-        en: "Permitted for the tzibbur: as it is written 'an individual is postponed to the second Pesach but the tzibbur is not postponed' and Yom Kippur - all its sacrifices are communal, and even his own sacrifice overrides impurity since its time is fixed and its sacrifice depends on him.",
+        en: "impure like the niddah's own bedding, since it is written 'and her",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006b-l07"
+          "yoma-006b-l01b"
         ]
       },
       {
@@ -14830,11 +14830,12 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 13,
         he: "נדתה עליו (שם) : ועד שאתה מפרישו",
-        en: "Overridden for the tzibbur: even though the communal sacrifice overrides it, it is only with difficulty that it is overridden - it was not completely permitted - and wherever possible to return to purity, we do.",
+        en: "niddah-impurity shall be upon him' (ibid.). 'And before you separate him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-006b-l01b",
           "yoma-006b-l07"
         ]
       },
@@ -14844,12 +14845,12 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 14,
         he: "מטומאת ביתו. ושאר כל אדם נכנסין",
-        en: "In that beit av: the one serving on that day - everyone is pure and performs the tamidim of that day even though they are communal sacrifices.",
+        en: "from the impurity of his own house' - and all other people come",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006b-l16"
+          "yoma-006b-l07"
         ]
       },
       {
@@ -14858,12 +14859,12 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 15,
         he: "ויוצאין אצלו הפרישו מטומאת מת",
-        en: "Even though the communal sacrifice is involved.",
+        en: "and go near him - separate him from corpse impurity too,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006b-l16"
+          "yoma-006b-l07"
         ]
       },
       {
@@ -14872,12 +14873,12 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 16,
         he: "ולא יהיו כל אדם נכנסין ויוצאין אצלו",
-        en: "Permission for tzibbur: and we do not seek out others.",
+        en: "so that not all people come and go near him,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006b-l20"
+          "yoma-006b-l07"
         ]
       },
       {
@@ -14886,12 +14887,12 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 17,
         he: "שמא ימות מת עליו: הותרה היא",
-        en: "Overridden for tzibbur: and we seek out others.",
+        en: "lest a dead person die upon him. 'It is fully permitted for the community' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006b-l20"
+          "yoma-006b-l07"
         ]
       },
       {
@@ -14900,12 +14901,12 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 18,
         he: "בציבור. כדכתיב איש נדחה ואין ציבור",
-        en: "Even where there are pure and impure in that beit av, Rav Nachman disagreed and said: Even the impure may serve.",
+        en: "as it is written: an individual whose offering is postponed for impurity is postponed, but the community",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006b-l22"
+          "yoma-006b-l07"
         ]
       },
       {
@@ -14914,12 +14915,12 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 19,
         he: "נדחין וביום הכפורים כוליה קרבן",
-        en: "Because all corpse impurity in the tzibbur the Merciful One has permitted.",
+        en: "is not postponed; and on Yom Kippur the entire offering is a communal one,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006b-l24"
+          "yoma-006b-l07"
         ]
       },
       {
@@ -14928,7 +14929,7 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 20,
         he: "ציבור ואף קרבן שלו דוחה את",
-        en: "I concede where there are remnants for eating: even though the communal sacrifice is offered in impurity, it is not eaten in impurity as we say in 'Keitzad Tzolin' (Pesachim 77b) - and in a minhah that is konetzet (partially consumed) I concede that we return to perform it in purity so that the remnants may be eaten.",
+        en: "and even his own personal offering overrides",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -14942,7 +14943,7 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 21,
         he: "הטומאה שהרי זמנו קבוע וקרבנו",
-        en: "And if there is only one: who was not prepared for this.",
+        en: "the impurity, since its time is fixed and his offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -14956,11 +14957,12 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 22,
         he: "תלוי בו: דחויה היא בציבור. אף",
-        en: "The bulls, rams, and sheep of the Festival: which are communal sacrifices with a fixed time - and their libation minhah overrides impurity - and it teaches: 'they say bring another' - hence dchuya for tzibbur.",
+        en: "depends upon him. 'It is only overridden for the community' - even",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-006b-l07",
           "yoma-006b-l11"
         ]
       },
@@ -14970,12 +14972,12 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 23,
         he: "על פי שהקרבן ציבור דוחה אותה",
-        en: "Bull for idolatry: a communal burnt offering, which requires libations as derived in Shelach lecha.",
+        en: "though the communal offering overrides it,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006b-l16"
+          "yoma-006b-l11"
         ]
       },
       {
@@ -14984,12 +14986,12 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 24,
         he: "בקושי הותרה ולא היתר גמור וכל",
-        en: "Aaron's ram: of Yom Kippur.",
+        en: "it is only permitted with difficulty, not a complete permission, and wherever",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006b-l16"
+          "yoma-006b-l11"
         ]
       },
       {
@@ -14998,12 +15000,12 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 25,
         he: "מה דמצינו להדורי מהדרינן שיעשה",
-        en: "The sheep that accompanies the omer: as written (Lev. 23) 'and you shall do on the day you wave the omer' - and that 'minhah of the sheep' mentioned in the baraita is not the libation minhah but the omer minhah itself that accompanies it, and it is konetzet and its remnants are eaten.",
+        en: "we find a way to seek an alternative, we seek it out, so that the offering may be performed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006b-l16"
+          "yoma-006b-l11"
         ]
       },
       {
@@ -15012,12 +15014,13 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 26,
         he: "בטהרה: בההוא בית אב. שעובד באותו",
-        en: "Intentionally not accepted: even though the tzitz atones, the Sages penalized him so that the flesh would not be eaten - but the owners have still atoned, so that non-sacred animals should not be brought to the Temple courtyard, since by Torah law it is valid - but we hear from this that it is not a heiter (permission).",
+        en: "in purity. 'In that priestly division' - the one serving on that particular",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006b-l20"
+          "yoma-006b-l11",
+          "yoma-006b-l16"
         ]
       },
       {
@@ -15026,12 +15029,12 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 27,
         he: "יום דכולי עלמא טהורין עבדי תמידים",
-        en: "On what does the tzitz atone: it is written 'and Aaron shall bear the sin of the sacred things' - atoning for the owners.",
+        en: "day: everyone agrees that if pure priests are available, they perform the daily offerings",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006b-l22"
+          "yoma-006b-l16"
         ]
       },
       {
@@ -15040,12 +15043,12 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 28,
         he: "דההוא יומא אע\"פ שקרבן ציבור הן:",
-        en: "Acceptance: this falls under the category of 'intentional' - but regarding compulsion, 'acceptance/ratzon' is the appropriate term.",
+        en: "of that day, even though they are communal offerings.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006b-l22"
+          "yoma-006b-l16"
         ]
       },
       {
@@ -15054,12 +15057,12 @@ const DAF_CONTENT = {
         daf: "6b",
         vilnaLine: 29,
         he: "כל",
-        en: "Both for the tzibbur: and since the tzitz is needed to effect acceptance, we learn that it is not hutrah.",
+        en: "'Every' - the daf ends mid-word here; the comment continues on 7a, resuming the discussion of Rav Nachman's own further version of the dispute.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006b-l22"
+          "yoma-006b-l24"
         ]
       }
     ],
