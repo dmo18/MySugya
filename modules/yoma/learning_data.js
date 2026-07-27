@@ -134521,11 +134521,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 1,
         he: "ואי בעית אימא אי סבירא לן. דהקפה במזבח הפנימי ברגל היא",
-        en: "The HP carries out the scapegoat service and the blood services in a fixed order.",
+        en: "'And if you wish to say: if we hold' - that the circuit at the inner altar is on foot, just like",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l01"
+        ]
       },
       {
         id: "rashi-yoma-059a-002",
@@ -134533,11 +134535,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 2,
         he: "כהקפה דחיצון דכולי עלמא ילפינן פנים מחוץ לענין ימין אלא",
-        en: "The services that come before the scapegoat and those that come after.",
+        en: "the circuit at the outer altar, since all agree we derive the inner from the outer regarding the rightward direction; rather,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l01"
+        ]
       },
       {
         id: "rashi-yoma-059a-003",
@@ -134545,11 +134549,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 3,
         he: "סבירא להו להני תנאי דהקפה ביד ובמקומו עומד ומחטא לכל",
-        en: "This is the order of the Yom Kippur service as the Mishnah describes.",
+        en: "these Tannaim hold that the circuit is done by hand, and he stands in place and purges all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l01"
+        ]
       },
       {
         id: "rashi-yoma-059a-004",
@@ -134557,11 +134563,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 4,
         he: "הקרנות לפי שאינו צריך להקיף ברגל שהרי כולו אינו אלא אמה",
-        en: "After the blood services: the HP's reading and the community's prayer.",
+        en: "the corners from there, since he does not need to circle on foot, for the entire altar is only a cubit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l01"
+        ]
       },
       {
         id: "rashi-yoma-059a-005",
@@ -134569,11 +134577,14 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 5,
         he: "על אמה: מכלל דת\"ק. לא שני ליה",
-        en: "The HP reads the Torah to the assembled community.",
+        en: "square. 'This implies that the first Tanna' - does not distinguish",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l01",
+          "yoma-059a-l06"
+        ]
       },
       {
         id: "rashi-yoma-059a-006",
@@ -134581,11 +134592,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 6,
         he: "בין הקפת פנימי לחיצון אלא שניהן",
-        en: "He reads the Yom Kippur portions from Leviticus.",
+        en: "between the inner and outer circuits, but holds both are done",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l06"
+        ]
       },
       {
         id: "rashi-yoma-059a-007",
@@ -134593,11 +134606,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 7,
         he: "ברגל ותנא קמא דמתני' רבי יוסי",
-        en: "After reading from the sefer Torah, he rolls it and places it in his bosom.",
+        en: "on foot; and the first Tanna of the Mishnah is R. Yosei",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l06"
+        ]
       },
       {
         id: "rashi-yoma-059a-008",
@@ -134605,11 +134620,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 8,
         he: "הגלילי היא דהא כוותיה קאמר",
-        en: "He then reads the additional portions by heart from Numbers.",
+        en: "HaGelili, since he says the same thing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l06"
+        ]
       },
       {
         id: "rashi-yoma-059a-009",
@@ -134617,11 +134634,14 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 9,
         he: "בברייתא: סביב דמזבח הפנימי.",
-        en: "He recites eight blessings after the reading.",
+        en: "in the baraita. 'Around the inner altar' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l06",
+          "yoma-059a-l11"
+        ]
       },
       {
         id: "rashi-yoma-059a-010",
@@ -134629,11 +134649,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 10,
         he: "דכתיב ביה על קרנות המזבח סביב",
-        en: "The eight blessings: Torah, Temple service, Thanksgiving, Forgiveness of sins, Temple, Israel, Jerusalem, priests, and the general blessing.",
+        en: "since it is written regarding it, 'upon the horns of the altar round about'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l11"
+        ]
       },
       {
         id: "rashi-yoma-059a-011",
@@ -134641,11 +134663,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 11,
         he: "(ויקרא טז) : כסביב דמזבח החיצון.",
-        en: "He recites these in the Temple courtyard before the assembled people.",
+        en: "(Leviticus 16). 'Like the circuit of the outer altar' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l11"
+        ]
       },
       {
         id: "rashi-yoma-059a-012",
@@ -134653,11 +134677,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 12,
         he: "מה זה ברגל אף זה ברגל: במקום",
-        en: "The community prostrates themselves when they hear the Divine Name in the blessings.",
+        en: "just as that one is on foot, so too this one is on foot. 'In the place",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l11"
+        ]
       },
       {
         id: "rashi-yoma-059a-013",
@@ -134665,11 +134691,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 13,
         he: "חדא קרן. שהקרן של חיצון אמה על",
-        en: "The HP then makes additional prayers on behalf of Israel.",
+        en: "of a single corner' - since the corner of the outer altar is a cubit by",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l11"
+        ]
       },
       {
         id: "rashi-yoma-059a-014",
@@ -134677,11 +134705,14 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 14,
         he: "אמה: מתניתין רבי יהודה היא.",
-        en: "His prayer includes petitions for rain, prosperity, and the continuity of the Temple.",
+        en: "cubit. 'The Mishnah follows R. Yehuda' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l11",
+          "yoma-059a-l22"
+        ]
       },
       {
         id: "rashi-yoma-059a-015",
@@ -134689,11 +134720,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 15,
         he: "דשמעינן ליה דאמר משום רבי",
-        en: "The HP's prayer is brief: he does not stay long so the people are not frightened.",
+        en: "since we hear him say this in R.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l22"
+        ]
       },
       {
         id: "rashi-yoma-059a-016",
@@ -134701,11 +134734,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 16,
         he: "אליעזר הכי: ועל כולן הוא נותן",
-        en: "A long absence in the Holy of Holies would frighten the people that something went wrong.",
+        en: "Eliezer's name. 'And for all of them he gives",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l22"
+        ]
       },
       {
         id: "rashi-yoma-059a-017",
@@ -134713,11 +134748,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 17,
         he: "מלמעלה למטה. בזו שלפניו על",
-        en: "But in the courtyard during the Torah reading, there is no such concern.",
+        en: "from above downward' - for the one directly in front of him, he is forced to do so,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l22"
+        ]
       },
       {
         id: "rashi-yoma-059a-018",
@@ -134725,11 +134762,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 18,
         he: "כרחו כדי שלא יזוב הדם לתוך בית",
-        en: "The assembled people see him and know he is safe and performing the service.",
+        en: "so that the blood does not drip into his",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l22"
+        ]
       },
       {
         id: "rashi-yoma-059a-019",
@@ -134737,11 +134776,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 19,
         he: "ידו דהואיל וגבוה היא יותר מידו",
-        en: "Eight blessings correspond to different aspects of the relationship between Israel and God.",
+        en: "sleeve, since it is higher than his hand,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l22"
+        ]
       },
       {
         id: "rashi-yoma-059a-020",
@@ -134749,11 +134790,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 20,
         he: "צריך להיות ראשי אצבעותיו למעלה",
-        en: "Torah study, Temple service, and forgiveness are the three pillars.",
+        en: "his fingertips must point upward,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l22"
+        ]
       },
       {
         id: "rashi-yoma-059a-021",
@@ -134761,11 +134804,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 21,
         he: "ואם מושך מלמטה למעלה הדם זב",
-        en: "Additional blessings for the physical and spiritual welfare of the nation.",
+        en: "and if he drew it from below upward the blood would drip",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l22"
+        ]
       },
       {
         id: "rashi-yoma-059a-022",
@@ -134773,11 +134818,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 22,
         he: "לתוך בית ידו ובאותן של צדדין נותן",
-        en: "The community's full participation: prostration, prayer, and attentive listening.",
+        en: "into his sleeve; and for the ones at the sides, he gives it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l22"
+        ]
       },
       {
         id: "rashi-yoma-059a-023",
@@ -134785,11 +134832,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 23,
         he: "כדרך שהתחיל בזו חוץ מאותה",
-        en: "The reading is a public act of covenantal renewal.",
+        en: "the same way he began with this one, except for the one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l22"
+        ]
       },
       {
         id: "rashi-yoma-059a-024",
@@ -134797,11 +134846,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 24,
         he: "שבאלכסון שהיא רחוקה ואם בא",
-        en: "The HP reading to Israel mirrors the original Sinai covenant.",
+        en: "diagonal, which is farther away, and if he were",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l22"
+        ]
       },
       {
         id: "rashi-yoma-059a-025",
@@ -134809,11 +134860,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 25,
         he: "למשוך מלמעלה למטה טורח הוא לו",
-        en: "Moses read the Torah to Israel; the HP reads it to them on Yom Kippur.",
+        en: "to draw it from above downward it would be difficult for him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l22"
+        ]
       },
       {
         id: "rashi-yoma-059a-026",
@@ -134821,11 +134874,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 26,
         he: "להיות כפוף ופושט זרועו עד כלות",
-        en: "The Yom Kippur reading reconnects Israel to the covenant of Sinai.",
+        en: "to remain bent over and extend his arm until the sprinkling is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l22"
+        ]
       },
       {
         id: "rashi-yoma-059a-027",
@@ -134833,11 +134888,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 27,
         he: "המתנה אלא משכופף גופו ופושט",
-        en: "On the day when Israel's relationship with God is renewed through atonement.",
+        en: "complete; rather, he bends his body and extends",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l22"
+        ]
       },
       {
         id: "rashi-yoma-059a-028",
@@ -134845,11 +134902,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 28,
         he: "זרועו מתחיל למטה ונזקף והולך",
-        en: "The reading and blessings are the communal bookend to the personal blood service.",
+        en: "his arm, beginning below and rising as he goes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l22"
+        ]
       },
       {
         id: "rashi-yoma-059a-029",
@@ -134857,11 +134916,14 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 29,
         he: "למעלה: ועל כולן נותן מלמטה",
-        en: "First: the HP atones privately inside. Then: he leads the nation publicly outside.",
+        en: "upward. 'And for all of them he gives from below",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l22",
+          "yoma-059a-l27"
+        ]
       },
       {
         id: "rashi-yoma-059a-030",
@@ -134869,11 +134931,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 30,
         he: "למעלה. שכך נוח לו לכל הרחוקות:",
-        en: "The two phases of Yom Kippur: inner and outer, private and communal.",
+        en: "upward' - since this is easier for him for all the distant ones.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l27"
+        ]
       },
       {
         id: "rashi-yoma-059a-031",
@@ -134881,11 +134945,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 31,
         he: "דלא ניתווסי מאניה. כדפרישית:",
-        en: "After the reading: the HP changes into white garments again.",
+        en: "'So that his garments not become stained' - as I explained.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l27"
+        ]
       },
       {
         id: "rashi-yoma-059a-032",
@@ -134893,11 +134959,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 32,
         he: "אפלגיה דמזבח. באמצע גובה כתלו:",
-        en: "He returns to the Holy of Holies to retrieve the fire pan and incense spoon.",
+        en: "'At its half' - referring to the altar, in the middle of the height of its wall.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l31"
+        ]
       },
       {
         id: "rashi-yoma-059a-033",
@@ -134905,11 +134973,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 33,
         he: "טהר טיהרא. תרגום של צהרים",
-        en: "This is the last entry to the Holy of Holies on Yom Kippur.",
+        en: "'Tehar tihara' - the Aramaic translation of 'noon'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l31"
+        ]
       },
       {
         id: "rashi-yoma-059a-034",
@@ -134917,11 +134987,14 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 34,
         he: "(בראשית מג) שהוא בחצי היום: חנניה",
-        en: "He brings out the fire pan left from the incense burning.",
+        en: "(Genesis 43), which is the middle of the day. 'Chananya",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l31",
+          "yoma-059a-l37"
+        ]
       },
       {
         id: "rashi-yoma-059a-035",
@@ -134929,11 +135002,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 35,
         he: "אומר בצד צפוני היה נותן. כל",
-        en: "Then returns to complete additional outer services.",
+        en: "says he gave it on the northern side' - all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l37"
+        ]
       },
       {
         id: "rashi-yoma-059a-036",
@@ -134941,11 +135016,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 36,
         he: "שבע הזאות חנניה סבר פתח",
-        en: "The scapegoat: if it died before reaching the cliff, the service may be valid.",
+        en: "seven sprinklings; Chananya holds the opening",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l37"
+        ]
       },
       {
         id: "rashi-yoma-059a-037",
@@ -134953,11 +135030,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 37,
         he: "דפרוכת בדרום וכי נפיק במערבית",
-        en: "If the guide died en route: another may take over.",
+        en: "of the curtain was in the south, and when he exited he first encountered the southwest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l37"
+        ]
       },
       {
         id: "rashi-yoma-059a-038",
@@ -134965,11 +135044,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 38,
         he: "דרומית פגע והתם לא יהיב",
-        en: "The service must be completed; it cannot be left incomplete.",
+        en: "corner, but did not give the corner sprinkling there",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l37"
+        ]
       },
       {
         id: "rashi-yoma-059a-039",
@@ -134977,11 +135058,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 39,
         he: "ברישא חיטוי דקרנות כדאמרן",
-        en: "A scapegoat that ran away before reaching the cliff is replaced.",
+        en: "first, as we said, until he exited",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l37"
+        ]
       },
       {
         id: "rashi-yoma-059a-040",
@@ -134989,11 +135072,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 40,
         he: "עד דנפיק למזרחית דרומית ויהיב",
-        en: "The next year's pair of goats replaces it if necessary.",
+        en: "to the southeast corner and gave it there,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l37"
+        ]
       },
       {
         id: "rashi-yoma-059a-041",
@@ -135001,11 +135086,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 41,
         he: "והדר למערבית דרומית לשמאל",
-        en: "The community does not require notification about these contingencies.",
+        en: "and then returned to the southwest corner by way of the left,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l37"
+        ]
       },
       {
         id: "rashi-yoma-059a-042",
@@ -135013,11 +135100,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 42,
         he: "משום דבהא איחייב ברישא כדאמרן",
-        en: "The HP handles these situations according to the established halachot.",
+        en: "since that is where he was obligated to give it first, as we said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l37"
+        ]
       },
       {
         id: "rashi-yoma-059a-043",
@@ -135025,11 +135114,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 43,
         he: "לעיל ומשם למערבית צפונית",
-        en: "After the scapegoat is dispatched and the services are complete.",
+        en: "above; and from there to the northwest,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l37"
+        ]
       },
       {
         id: "rashi-yoma-059a-044",
@@ -135037,11 +135128,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 44,
         he: "צפונית מזרחית והתם דגמריה לחיטוי",
-        en: "The HP reads Torah and the nation prays together.",
+        en: "then the northeast, and there, once he had completed the corner sprinklings,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l37"
+        ]
       },
       {
         id: "rashi-yoma-059a-045",
@@ -135049,11 +135142,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 45,
         he: "יהיב שבע הזאות: ורבי יוסי סבר",
-        en: "The service is communal and complete.",
+        en: "he gave the seven sprinklings. 'And R. Yosei",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l37"
+        ]
       },
       {
         id: "rashi-yoma-059a-046",
@@ -135061,11 +135156,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 46,
         he: "פתח בצפון. כדקאמר במתני' הלכך",
-        en: "Neither the blood service alone nor the communal prayer alone suffices.",
+        en: "holds the opening was in the north' - as he says in the Mishnah; therefore",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l37"
+        ]
       },
       {
         id: "rashi-yoma-059a-047",
@@ -135073,11 +135170,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 47,
         he: "במזרחית צפונית מתחיל ובדרומית",
-        en: "Both together constitute the full Yom Kippur.",
+        en: "he begins at the northeast and finishes at the southeast",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l37"
+        ]
       },
       {
         id: "rashi-yoma-059a-048",
@@ -135085,11 +135184,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 48,
         he: "מזרחית מסיים והתם יהיב להזאות:",
-        en: "The HP is the axis - he connects the innermost service with the communal.",
+        en: "and gives the sprinklings there.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l37"
+        ]
       },
       {
         id: "rashi-yoma-059a-049",
@@ -135097,11 +135198,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 49,
         he: "במקום שקידשו. בקרנותיו שם טהרו",
-        en: "His body moves between the most sacred and the public courtyard.",
+        en: "'In the place where it was sanctified' - at its corners, there it was cleared",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l39"
+        ]
       },
       {
         id: "rashi-yoma-059a-050",
@@ -135109,11 +135212,14 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 50,
         he: "בהזאות: דאמר קרא. גבי פר כהן",
-        en: "He carries the atonement from the presence of God to the presence of the people.",
+        en: "by the sprinklings. 'For Scripture states' - regarding the anointed priest's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l39",
+          "yoma-059a-l41"
+        ]
       },
       {
         id: "rashi-yoma-059a-051",
@@ -135121,11 +135227,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 51,
         he: "משיח ואת כל דם הפר וגו' (ויקרא ד)",
-        en: "This movement from inner to outer, from private to communal, is itself a teaching.",
+        en: "bull, 'and all the blood of the bull,' etc. (Leviticus 4),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l41"
+        ]
       },
       {
         id: "rashi-yoma-059a-052",
@@ -135133,11 +135241,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 52,
         he: "ותניא בתורת כהנים הפר לרבות",
-        en: "Atonement is not complete until it is brought back to the community.",
+        en: "and it is taught in the Torat Kohanim that 'the bull' comes to include",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l41"
+        ]
       },
       {
         id: "rashi-yoma-059a-053",
@@ -135145,11 +135255,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 53,
         he: "פר יום הכפורים שיהו שיריו נשפכין",
-        en: "The blood service atones; the reading and blessings celebrate and reinforce.",
+        en: "the Yom Kippur bull, that its remainder is poured",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l41"
+        ]
       },
       {
         id: "rashi-yoma-059a-054",
@@ -135157,11 +135269,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 54,
         he: "ליסוד אשר פתח אהל מועד זה יסוד",
-        en: "The nation hears about their forgiveness from the mouth of the HP himself.",
+        en: "at the base that is at the entrance of the Tent of Meeting, which is the western",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l41"
+        ]
       },
       {
         id: "rashi-yoma-059a-055",
@@ -135169,11 +135283,14 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 55,
         he: "מערבי: יסוד המזבח. האמורה",
-        en: "He who sought the forgiveness announces its arrival.",
+        en: "base. 'The base of the altar' - stated",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l41",
+          "yoma-059a-l42"
+        ]
       },
       {
         id: "rashi-yoma-059a-056",
@@ -135181,11 +135298,14 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 56,
         he: "בחטאת החיצונה: ה\"ג אמרת ילמד",
-        en: "This is the theological arc of Yom Kippur: petition, atonement, proclamation.",
+        en: "regarding the outer sin offering. This is the correct reading: 'you said, let",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l42",
+          "yoma-059a-l44"
+        ]
       },
       {
         id: "rashi-yoma-059a-057",
@@ -135193,11 +135313,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 57,
         he: "ירידתו מן הכבש וכו' ירידתו מן",
-        en: "The entire nation participates - by fasting, praying, and hearing.",
+        en: "his descent from the ramp, etc. be derived' - his descent from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l44"
+        ]
       },
       {
         id: "rashi-yoma-059a-058",
@@ -135205,11 +135327,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 58,
         he: "הכבש בחיצונות ליציאתו מן ההיכל",
-        en: "The HP acts; the nation receives and responds.",
+        en: "the ramp for the outer sin offerings is derived from his exit from the Heichal,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l44"
+        ]
       },
       {
         id: "rashi-yoma-059a-059",
@@ -135217,11 +135341,14 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 59,
         he: "ושירים הפנימיים בידו: זה וזה.",
-        en: "Together, this constitutes the full Yom Kippur experience.",
+        en: "and the inner remainders follow accordingly. 'This one and that one' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l44",
+          "yoma-059a-l46"
+        ]
       },
       {
         id: "rashi-yoma-059a-060",
@@ -135229,11 +135356,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 60,
         he: "חיצונות ופנימיות: ילמד סתום.",
-        en: "After the day: the HP celebrates privately with his family.",
+        en: "the outer and the inner. 'Let the unspecified be derived' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l46"
+        ]
       },
       {
         id: "rashi-yoma-059a-061",
@@ -135241,11 +135370,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 61,
         he: "חיצונות שלא פורש בהן לאיזה יסוד:",
-        en: "He made a feast for his friends when he came out safely.",
+        en: "the outer ones, for which it is not specified to which base.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l46"
+        ]
       },
       {
         id: "rashi-yoma-059a-062",
@@ -135253,11 +135384,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 62,
         he: "מן המפורש. מן הפנימיות שכתוב",
-        en: "The emergence from the Holy of Holies was the most dangerous moment.",
+        en: "'From the specified' - from the inner ones, that it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l46"
+        ]
       },
       {
         id: "rashi-yoma-059a-063",
@@ -135265,11 +135398,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 63,
         he: "בהן אל יסוד המזבח אשר פתח אהל",
-        en: "Surviving it intact was cause for private celebration.",
+        en: "regarding them, 'to the base of the altar that is at the entrance of the Tent'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l46"
+        ]
       },
       {
         id: "rashi-yoma-059a-064",
@@ -135277,11 +135412,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 64,
         he: "מועד (שם) והוא יסוד מערבי:",
-        en: "His family celebrates the day after Yom Kippur.",
+        en: "of Meeting' (ibid.), which is the western base.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l46"
+        ]
       },
       {
         id: "rashi-yoma-059a-065",
@@ -135289,11 +135426,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 65,
         he: "קסבר פיתחא. דהיכל בדרומו של",
-        en: "The HP treated the day of his exit like a personal festival.",
+        en: "'He holds the entrance' - of the Heichal stands to the south of the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l48"
+        ]
       },
       {
         id: "rashi-yoma-059a-066",
@@ -135301,11 +135440,14 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 66,
         he: "מזבח קאי הלכך יסוד אשר פתח אהל מועד היינו דרומי: תנא דבי רבי ישמעאל בדבי ר' שמעון בן יוחי זה וזה יסוד",
-        en: "The relief and joy of emerging safely from the most sacred encounter.",
+        en: "altar; therefore 'the base that is at the entrance of the Tent of Meeting' means the southern base. 'It was taught in the school of R. Yishmael, in the school of R. Shimon bar Yochai: this one and that one are the southern",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l48",
+          "yoma-059a-l49"
+        ]
       },
       {
         id: "rashi-yoma-059a-067",
@@ -135313,11 +135455,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 67,
         he: "דרומי. בבית מדרשו של ר\"ש בן יוחי היו שונין משנת ר' ישמעאל וגורסין בה זה וזה יסוד דרומי לומר חזר בו ר' ישמעאל:",
-        en: "The HP's emergence is also a sign for Israel: the service was accepted.",
+        en: "base' - in R. Shimon bar Yochai's own study hall, they would teach R. Yishmael's Mishnah and read within it 'this one and that one are the southern base,' meaning that R. Yishmael retracted his own view.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l49"
+        ]
       },
       {
         id: "rashi-yoma-059a-068",
@@ -135325,11 +135469,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 68,
         he: "וסימן. שלא תטעה לומר זה וזה יסוד מערבי היו שונין: משכוה גברי לגברא. תלמידי ר' שמעון משכו את ר' ישמעאל לומר כדבריהן:",
-        en: "If the HP came out joyful, it was a sign of favorable reception.",
+        en: "'And a mnemonic' - so that you not mistakenly say they taught 'this one and that one are the western base.' 'The men drew the man' - R. Shimon's own students drew R. Yishmael over to say things their way.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l49"
+        ]
       },
       {
         id: "rashi-yoma-059a-069",
@@ -135337,11 +135483,13 @@ const DAF_CONTENT = {
         daf: "59a",
         vilnaLine: 69,
         he: "אלא",
-        en: "Tradition preserved various interpretations of what favorable emergence looked like.",
+        en: "'But' - the daf ends mid-word here; the comment continues on 59b with the further discussion of whether the prohibition on benefiting from the poured-out blood is rabbinic or biblical in origin.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059a-l51"
+        ]
       }
     ],
     review: "reviewed"
