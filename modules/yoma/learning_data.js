@@ -128243,11 +128243,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 1,
         he: "לכשיבקע. נחוש לו כלומר לא חיישינן לשמא יבקע דאפשר דמסר",
-        en: "When it bursts - not a concern; it can be handed to a guardian until proper vessels arrive.",
+        en: "'When it bursts' - we take precaution for it, meaning we are not concerned that it might burst, since it is possible",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l02"
+        ]
       },
       {
         id: "rashi-yoma-056b-002",
@@ -128255,11 +128257,14 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 2,
         he: "ליה לשומר: אין אדם מתנה על שני דברים. להניח שני עירובין אחד",
-        en: "No one may make two conditions - cannot prepare two eruvin, one east and one west, to choose between them later.",
+        en: "to hand it over to a guardian. 'A person may not make a condition regarding two things' - meaning he may not set out two eruvin, one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l02",
+          "yoma-056b-l05"
+        ]
       },
       {
         id: "rashi-yoma-056b-003",
@@ -128267,11 +128272,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 3,
         he: "למזרח ואחד למערב שמא אם יבאו שני חכמים אחד למזרח ואחד",
-        en: "One east and one west - hoping two sages will come from different directions and he can choose.",
+        en: "to the east and one to the west, hoping that if two sages come, one from the east and one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l05"
+        ]
       },
       {
         id: "rashi-yoma-056b-004",
@@ -128279,11 +128286,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 4,
         he: "למערב ולומר לאי זה מהן שארצה אלך למחר לפי שקניית עירוב",
-        en: "At twilight the eruv takes effect - the status is fixed at nightfall; cannot retroactively choose next day.",
+        en: "from the west, he could say 'to whichever of them I wish, I will go tomorrow' - since acquiring an eruv",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l05"
+        ]
       },
       {
         id: "rashi-yoma-056b-005",
@@ -128291,11 +128300,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 5,
         he: "בין השמשות היא וכשזה בורר למחר",
-        en: "When he chooses tomorrow - we do not apply breira to say one eruv was valid from twilight.",
+        en: "happens at twilight, and if he then chooses tomorrow",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l05"
+        ]
       },
       {
         id: "rashi-yoma-056b-006",
@@ -128303,11 +128314,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 6,
         he: "אותו שירצה לא סמכינן אברירה לומר",
-        en: "Rather, the condition must be for one sage; he does not know the direction, so he specifies: if from east, eastern eruv applies; if from west, western eruv applies.",
+        en: "whichever he wants, we do not rely on retroactive determination to say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l05"
+        ]
       },
       {
         id: "rashi-yoma-056b-007",
@@ -128315,11 +128328,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 7,
         he: "הוברר שהעירוב לצד חכם זה קנה",
-        en: "So the eruv applies retroactively if the specified condition is met.",
+        en: "it has become clear that the eruv toward that sage's direction acquired rest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l05"
+        ]
       },
       {
         id: "rashi-yoma-056b-008",
@@ -128327,11 +128342,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 8,
         he: "שביתה אמש אלא על חכם אחד ואינו",
-        en: "One condition on an uncertain outcome - this is the permitted form.",
+        en: "last night. Rather, he may only make the condition regarding a single sage, and if he does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l05"
+        ]
       },
       {
         id: "rashi-yoma-056b-009",
@@ -128339,11 +128356,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 9,
         he: "יודע לאיזה רוח יבא הוא מתנה אם",
-        en: "The outcome determines which eruv applied.",
+        en: "know from which direction that sage will come, he may condition it: if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l05"
+        ]
       },
       {
         id: "rashi-yoma-056b-010",
@@ -128351,11 +128370,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 10,
         he: "בא למזרח עירובי של מזרח יקנה ואם",
-        en: "Breira means retroactive clarification - determining after the fact what was always true.",
+        en: "he comes from the east, my eastern eruv shall take effect; and if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l05"
+        ]
       },
       {
         id: "rashi-yoma-056b-011",
@@ -128363,11 +128384,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 11,
         he: "בא למערב עירובי של מערב יקנה",
-        en: "The dispute: does breira apply in biblical law?",
+        en: "he comes from the west, my western eruv shall take effect.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l05"
+        ]
       },
       {
         id: "rashi-yoma-056b-012",
@@ -128375,11 +128398,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 12,
         he: "ואילו לכאן ולכאן על שני חכמים",
-        en: "Rav: breira applies. Shmuel: breira does not apply in biblical matters.",
+        en: "But if he sets it up for both directions, hoping for two sages,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l05"
+        ]
       },
       {
         id: "rashi-yoma-056b-013",
@@ -128387,11 +128412,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 13,
         he: "למקום שארצה אלך לא דאין ברירה:",
-        en: "The Yom Kippur service requires certainty - not retroactive determination.",
+        en: "saying 'to wherever I wish I will go,' that is not valid, since there is no retroactive determination.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l05"
+        ]
       },
       {
         id: "rashi-yoma-056b-014",
@@ -128399,11 +128426,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 14,
         he: "והוינן בה. דקס\"ד בין השמשות עדיין",
-        en: "He sprinkles and counts explicitly - nothing is left to retroactive clarification.",
+        en: "'And we discussed it' - for it might have been thought that at twilight",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l09"
+        ]
       },
       {
         id: "rashi-yoma-056b-015",
@@ -128411,11 +128440,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 15,
         he: "חכם לא בא והוא באלכסון ויכול לבא",
-        en: "After the inner service: the HP sprinkles on the parochet from the bull's blood.",
+        en: "the sage had not yet arrived, and he was positioned diagonally, and could come",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l09"
+        ]
       },
       {
         id: "rashi-yoma-056b-016",
@@ -128423,11 +128454,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 16,
         he: "משתחשך למזרח ולמערב ובא לו",
-        en: "He sprinkles once above and seven below on the face of the curtain.",
+        en: "after dark to either the east or the west, and eventually came",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l09"
+        ]
       },
       {
         id: "rashi-yoma-056b-017",
@@ -128435,11 +128468,14 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 17,
         he: "לאחד מהן: מזרח ומערב נמי.",
-        en: "Then once above and seven below from the goat's blood.",
+        en: "to one of them. 'East and west also' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l09",
+          "yoma-056b-l10"
+        ]
       },
       {
         id: "rashi-yoma-056b-018",
@@ -128447,11 +128483,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 18,
         he: "כשתלה זה עירובו בדעת החכם",
-        en: "Total: sixteen sprinkles on the parochet from both bloods.",
+        en: "when this person makes his eruv depend on the sage's own intention, saying",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l10"
+        ]
       },
       {
         id: "rashi-yoma-056b-019",
@@ -128459,11 +128497,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 19,
         he: "לומר יקנה עירוב לרוח שהחכם בא",
-        en: "The curtain faces the Holy of Holies - separating the two sacred zones.",
+        en: "'let the eruv take effect in the direction the sage comes to,' there is no retroactive determination, since perhaps at twilight",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l10"
+        ]
       },
       {
         id: "rashi-yoma-056b-020",
@@ -128471,11 +128511,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 20,
         he: "לה אין ברירה שמא בין השמשות",
-        en: "The parochet receives the same formula as the kapporet.",
+        en: "the sage's own intention",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l10"
+        ]
       },
       {
         id: "rashi-yoma-056b-021",
@@ -128483,11 +128525,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 21,
         he: "היה בדעתו של חכם לרוח שכנגדה:",
-        en: "Sixteen sprinkles on the parochet mirror the sixteen inside.",
+        en: "was for the opposite direction.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l10"
+        ]
       },
       {
         id: "rashi-yoma-056b-022",
@@ -128495,11 +128539,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 22,
         he: "ואמר ר' יוחנן כשכבר בא חכם.",
-        en: "The HP stands and sprinkles without touching the curtain.",
+        en: "'And R. Yochanan said: when the sage has already come' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l11"
+        ]
       },
       {
         id: "rashi-yoma-056b-023",
@@ -128507,11 +128553,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 23,
         he: "בין השמשות דקנה עירוב לאותו",
-        en: "He faces the curtain and sprinkles toward it.",
+        en: "at twilight, it works, since the eruv takes effect in",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l11"
+        ]
       },
       {
         id: "rashi-yoma-056b-024",
@@ -128519,11 +128567,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 24,
         he: "הרוח שכך התנה זה מבעוד יום:",
-        en: "After the parochet: the golden altar service.",
+        en: "that direction, for this person made his condition while it was still day.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l11"
+        ]
       },
       {
         id: "rashi-yoma-056b-025",
@@ -128531,11 +128581,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 25,
         he: "והשתא דאמרת. טעמא דר' יהודה",
-        en: "Corner sprinkles on the golden altar's four horns.",
+        en: "'And now that you have said' - the reason for R. Yehuda's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l12"
+        ]
       },
       {
         id: "rashi-yoma-056b-026",
@@ -128543,11 +128595,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 26,
         he: "בקני חובה משום דברירה לית ליה",
-        en: "Then he pours the remaining blood from the parochet service.",
+        en: "ruling regarding the obligatory boxes is that he holds there is no retroactive determination",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l12"
+        ]
       },
       {
         id: "rashi-yoma-056b-027",
@@ -128555,11 +128609,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 27,
         he: "אבל כתיבה אית ליה: יום",
-        en: "After the parochet, he takes the bull's blood for the altar corner service.",
+        en: "but he does hold that written labels work. 'Yom Kippur",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l12"
+        ]
       },
       {
         id: "rashi-yoma-056b-028",
@@ -128567,11 +128623,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 28,
         he: "הכפורים. דקאמר לא היה שם",
-        en: "Bull blood corners first, then goat blood corners, then mixed blood on top.",
+        en: "too' - since he says there was only",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l12"
+        ]
       },
       {
         id: "rashi-yoma-056b-029",
@@ -128579,11 +128637,14 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 29,
         he: "אלא כן אחד ליעביד תרי וכו': לאו",
-        en: "Each corner receives one application.",
+        en: "a single stand there, let them make two, etc. 'It does not occur to him' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l12",
+          "yoma-056b-l14"
+        ]
       },
       {
         id: "rashi-yoma-056b-030",
@@ -128591,11 +128652,14 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 30,
         he: "אדעתיה. לעיוני בכתיבה: דם הפר",
-        en: "Then seven sprinkles from the combined blood on the altar's top surface.",
+        en: "to examine the writing. 'The bull's blood is red'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l14",
+          "yoma-056b-l20"
+        ]
       },
       {
         id: "rashi-yoma-056b-031",
@@ -128603,11 +128667,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 31,
         he: "סומק כדאמרן באידך פירקין",
-        en: "Remaining blood is poured at the base of the relevant altar.",
+        en: "as we said in the other chapter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l20"
+        ]
       },
       {
         id: "rashi-yoma-056b-032",
@@ -128615,11 +128681,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 32,
         he: "(דף מה.) שדומה לדם הפרים:",
-        en: "He does not return to re-sprinkle corners already done.",
+        en: "(45a), since it resembles the blood of bulls.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l20"
+        ]
       },
       {
         id: "rashi-yoma-056b-033",
@@ -128627,11 +128695,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 33,
         he: "ההוא. שליח צבור דנחית קמיה דרבא",
-        en: "The altar service follows the parochet service without interruption.",
+        en: "'That one' - a prayer leader who went before Rava",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l23"
+        ]
       },
       {
         id: "rashi-yoma-056b-034",
@@ -128639,11 +128709,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 34,
         he: "והיה אומר סדר יום הכפורים",
-        en: "All these services form the fixed Yom Kippur sequence.",
+        en: "and would recite the order of the Yom Kippur service",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l23"
+        ]
       },
       {
         id: "rashi-yoma-056b-035",
@@ -128651,11 +128723,14 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 35,
         he: "בתפלה כמו שאנו אומרים: חדא",
-        en: "Any deviation in order is examined to determine if it invalidates.",
+        en: "in prayer, just as we say it today. 'One like",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l23",
+          "yoma-056b-l26"
+        ]
       },
       {
         id: "rashi-yoma-056b-036",
@@ -128663,11 +128738,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 36,
         he: "כרבנן. דאמרת כן השני: וחדא",
-        en: "The sequence: inside Holy of Holies, parochet, golden altar, outer altar.",
+        en: "the Rabbis' - since you said there is a second stand. And one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l26"
+        ]
       },
       {
         id: "rashi-yoma-056b-037",
@@ -128675,11 +128752,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 37,
         he: "כרבי יהודה. דאמרת נטל תחילה",
-        en: "Each stage purifies a different zone of the Temple.",
+        en: "like R. Yehuda' - since you said he took it first",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l26"
+        ]
       },
       {
         id: "rashi-yoma-056b-038",
@@ -128687,11 +128766,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 38,
         he: "ואחר כך הניח אלמא לא היה כן שני",
-        en: "Inner to outer: atonement radiates from the most sacred space outward.",
+        en: "and only afterward set it down, implying there was no second stand",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l26"
+        ]
       },
       {
         id: "rashi-yoma-056b-039",
@@ -128699,11 +128780,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 39,
         he: "להניחו לכך הוצרך ליטול תחילה:",
-        en: "The HP is the sole agent of all Israel's atonement on this day.",
+        en: "to set it on, so he needed to take the other blood first.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l26"
+        ]
       },
       {
         id: "rashi-yoma-056b-040",
@@ -128711,11 +128794,13 @@ const DAF_CONTENT = {
         daf: "56b",
         vilnaLine: 40,
         he: "השתא",
-        en: "His concentration and precision are the vessel through which atonement flows.",
+        en: "'Now' - the daf ends mid-word here; the comment continues on 57a with the Sadducee's own statement to R. Chanina, that the priests must be certainly impure since the Divine Presence would not otherwise dwell among impurity.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056b-l34"
+        ]
       }
     ],
     review: "reviewed"
