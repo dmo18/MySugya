@@ -1,667 +1,752 @@
 {
-  "canonicalRef": "Yoma 56b",
-  "summary": "Two major topics: First, a deep exploration of breira (retroactive determination) through an eruv parallel, with a dispute between Rav and Shmuel over whether breira applies in biblical law. The Yom Kippur blood service demands real-time certainty, not retroactive clarification. Second, the parochet (curtain) sprinkling: the HP sprinkles once above and seven below from the bull's blood on the curtain, then repeats with the goat's blood, for sixteen total sprinkles on the parochet - mirroring the sixteen inside the Holy of Holies.",
-  "sugyot": [
+ "canonicalRef": "Yoma 56b",
+ "summary": "Two major topics: First, a deep exploration of breira (retroactive determination) through an eruv parallel, with a dispute between Rav and Shmuel over whether breira applies in biblical law. The Yom Kippur blood service demands real-time certainty, not retroactive clarification. Second, the parochet (curtain) sprinkling: the HP sprinkles once above and seven below from the bull's blood on the curtain, then repeats with the goat's blood, for sixteen total sprinkles on the parochet - mirroring the sixteen inside the Holy of Holies.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-056b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 20
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-056b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 20
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.56b.1"
-        },
-        {
-          "vilnaLine": 2,
-          "sefariaRef": "Yoma.56b.2"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.56b.3"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.56b.4"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.56b.5"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.56b.6"
-        },
-        {
-          "vilnaLine": 11,
-          "sefariaRef": "Yoma.56b.7"
-        },
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.56b.8"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.56b.9"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.56b.10"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.56b.11"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.56b.1",
-        "Yoma.56b.2",
-        "Yoma.56b.3",
-        "Yoma.56b.4",
-        "Yoma.56b.5",
-        "Yoma.56b.6",
-        "Yoma.56b.7",
-        "Yoma.56b.8",
-        "Yoma.56b.9",
-        "Yoma.56b.10",
-        "Yoma.56b.11"
-      ],
-      "display": {
-        "whats": "Breira (retroactive clarification) debate; Yom Kippur requires certainty not retroactive determination",
-        "hint": "The Gemara explores breira through an eruv case - can one set up conditional eruvin and retroactively determine which applied? Rav and Shmuel dispute. The conclusion relevant to Yom Kippur: the blood service requires explicit certainty at each step, leaving no room for retroactive determination.",
-        "title": "Breira - Retroactive Determination in Halacha"
-      },
-      "learning": {
-        "ahaMoment": "The Yom Kippur service is the anti-breira: every drop of blood is placed with full certainty in the moment, not retroactively determined. The holiest service requires the clearest consciousness.",
-        "memoryAnchor": "Yom Kippur vs. breira: where eternal atonement is at stake, every act must be certain as it happens.",
-        "learnerQuestion": "What is the halachic concept of breira, and why does the Talmud use the eruv case to explore it in the context of the Yom Kippur service?",
-        "coreTension": "Breira asks whether an ambiguous act can be retroactively determined to have been a specific act once the outcome is known. This has implications for situations where choices are not made explicitly in advance.",
-        "coreMove": "The Talmud explores breira through the eruv scenario to determine whether retroactive clarification is a valid halachic mechanism; the majority view restricts its use in biblical-level matters, limiting the cases where an ambiguous prior act can be retroactively specified.",
-        "takeaway": {
-          "type": "logical_principle",
-          "text": "Breira (retroactive determination) is a limited halachic concept: while it may work for rabbinic matters, it generally cannot retroactively specify which biblical-level act was performed; ambiguous acts require prospective definition."
-        },
-        "learningBlocker": "The concept of retroactive determination is intuitive in ordinary life but the Talmud restricts it severely in halacha, and students are surprised by how limited its application is."
-      },
-      "argumentFlow": [
-        {
-          "type": "introduction",
-          "speaker": "Gemara",
-          "text": "Exploration of breira - retroactive clarification of halachic status.",
-          "id": "yoma-056b-l01",
-          "label": "Introduction: Exploration of breira - retroactive clarification of",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-056b-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "example",
-          "speaker": "Gemara",
-          "text": "Eruv parallel: can conditional eruvin be prepared for two directions? The breira question in practice.",
-          "id": "yoma-056b-l02",
-          "label": "Example: Eruv parallel: can conditional eruvin be prepared",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-056b-l02",
-              "vilnaLine": 2
-            }
-          ]
-        },
-        {
-          "type": "dispute",
-          "speaker": "Gemara",
-          "text": "Rav: breira applies. Shmuel: breira does not apply in biblical matters.",
-          "id": "yoma-056b-l09",
-          "label": "Dispute: Rav: breira applies. Shmuel: breira does not",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-056b-l09",
-              "vilnaLine": 9
-            }
-          ]
-        },
-        {
-          "type": "application",
-          "speaker": "Gemara",
-          "text": "Yom Kippur requires real-time certainty; the counting formula ensures this.",
-          "id": "yoma-056b-l16",
-          "label": "Application: Yom Kippur requires real-time certainty; the counting",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-056b-l16",
-              "vilnaLine": 16
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "breira",
-        "retroactive clarification",
-        "eruv case",
-        "certainty",
-        "Yom Kippur"
-      ],
-      "concepts": {
-        "halachic": [
-          "breira in biblical law",
-          "certainty requirement",
-          "Yom Kippur service precision"
-        ],
-        "theological": [
-          "certainty as prerequisite for atonement",
-          "consciousness in sacred service"
-        ],
-        "narrative": [
-          "talmudic principle",
-          "halachic epistemology"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Understanding what breira means in halachic reasoning",
-        "Knowing the Yom Kippur service requires explicit counting"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Breira means that once you know how things turned out, you can retroactively declare what your original intention was, and this always works in halacha.",
-          "correction": "The Talmud generally rejects breira for biblical-level acts; you cannot retroactively define which specific act you performed at a biblical level - the specification must be made prospectively."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "name": "breira vs. real-time certainty in Yom Kippur service"
-        },
-        {
-          "type": "relationship",
-          "name": "eruv law as lens for understanding breira principle"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "The blood service requires each sprinkle to be performed with explicit real-time certainty. Retroactive clarification of which sprinkle 'was' which cannot substitute for deliberate, counted, certain action.",
-          "question": "Why is breira inapplicable to the Yom Kippur blood service?"
-        }
-      ],
-      "finalRuling": "Breira does not apply to Yom Kippur service - the HP must act with explicit certainty at every moment, not rely on retroactive clarification.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.56b.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-056b-s02",
-      "lineRange": {
-        "startVilnaLine": 23,
-        "endVilnaLine": 26
-      },
-      "lines": [
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.56b.12"
-        },
-        {
-          "vilnaLine": 26,
-          "sefariaRef": "Yoma.56b.13"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.56b.12",
-        "Yoma.56b.13"
-      ],
-      "display": {
-        "whats": "HP sprinkles bull blood on the parochet: once above, seven below",
-        "hint": "After the inner service, the HP sprinkles once above and seven below from the bull's blood on the face of the parochet, using the identical formula and technique as the inner service.",
-        "title": "Parochet Receives Eight Bull Blood Sprinklings"
-      },
-      "learning": {
-        "ahaMoment": "The formula is the same, the hand position is the same - but the surface differs. The parochet is not the kapporet; this is purification of the boundary, not the center.",
-        "memoryAnchor": "Parochet: same formula, new surface. Purification moves from the center to its border.",
-        "learnerQuestion": "After the Holy of Holies service, what does the HP do with the bull's blood at the parochet, and how many sprinklings does the parochet receive from the bull?",
-        "coreTension": "The Torah specifies a sprinkling pattern for the inner kapporet; a parallel but distinct pattern applies to the parochet (outer curtain). The count and direction of sprinklings at the parochet must be derived separately.",
-        "coreMove": "The Talmud establishes that the HP sprinkles the bull's blood at the parochet with the same count as inside: one upward and seven downward, totaling eight sprinklings from the bull alone.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The parochet receives eight sprinklings from the bull's blood: one upward and seven downward, using the same pattern as the inner kapporet sprinkling."
-        },
-        "learningBlocker": "Students who know the inner sprinkling count (one up, seven down) may not realize the identical pattern is applied again at the parochet, effectively repeating the count."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Mishnah",
-          "text": "HP sprinkles once above and seven below from the bull's blood on the parochet.",
-          "id": "yoma-056b-l23",
-          "label": "Ruling: HP sprinkles once above and seven below",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-056b-l23",
-              "vilnaLine": 23
-            }
-          ]
-        },
-        {
-          "type": "technique",
-          "speaker": "Gemara",
-          "text": "Same technique as the inner service: upward then seven downward.",
-          "id": "yoma-056b-l26",
-          "label": "Technique: Same technique as the inner service: upward",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-056b-l26",
-              "vilnaLine": 26
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "parochet sprinkling",
-        "outer curtain",
-        "bull blood",
-        "once above seven below"
-      ],
-      "concepts": {
-        "halachic": [
-          "parochet service",
-          "purification of the Heichal boundary"
-        ],
-        "theological": [
-          "concentric purification outward from the Holy of Holies"
-        ],
-        "narrative": [
-          "Yom Kippur service zones"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing the parochet separates the Holy of Holies from the Heichal",
-        "Knowing the HP sprinkles on the side facing the Heichal"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The HP does not touch the parochet itself - he only sprinkles toward it from a distance without following a specific count.",
-          "correction": "The HP sprinkles the bull's blood at the parochet with a defined pattern: one upward and seven downward (eight total), mirroring the inner sprinkling count."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "place",
-          "name": "parochet curtain"
-        },
-        {
-          "type": "action",
-          "name": "once above seven below on the curtain surface"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "He sprinkles once above and seven below from the bull's blood on the face of the parochet.",
-          "question": "What is the first outer service the HP performs after exiting the Holy of Holies?"
-        }
-      ],
-      "finalRuling": "The HP sprinkles bull blood once above and seven below on the parochet, extending the inner service formula to the curtain boundary.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 2,
+     "sefariaRef": "Yoma.56b.2"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-056b-s03",
-      "lineRange": {
-        "startVilnaLine": 28,
-        "endVilnaLine": 34
-      },
-      "lines": [
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.56b.14"
-        },
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.56b.15"
-        },
-        {
-          "vilnaLine": 34,
-          "sefariaRef": "Yoma.56b.16"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.56b.14",
-        "Yoma.56b.15",
-        "Yoma.56b.16"
-      ],
-      "display": {
-        "whats": "HP sprinkles goat blood on the parochet: completing sixteen total sprinkles on the curtain",
-        "hint": "The HP then sprinkles once above and seven below from the goat's blood on the parochet - identical to the bull service - completing a total of sixteen sprinkles on the curtain from both bloods.",
-        "title": "Parochet Total: Sixteen Sprinklings"
-      },
-      "learning": {
-        "ahaMoment": "Eight plus eight on the parochet: the outer boundary receives exactly what the inner sanctum received - full dual-blood coverage.",
-        "memoryAnchor": "Sixteen on the parochet: what entered the most sacred space must also purify the curtain through which the HP entered.",
-        "learnerQuestion": "How many total sprinklings does the parochet receive from both the bull and the goat blood services combined?",
-        "coreTension": "Both bull and goat blood services include a parochet component; the total must be calculated carefully because each service contributes an independent set of sprinklings with the same count.",
-        "coreMove": "The Talmud sums the parochet sprinklings: eight from the bull (one up, seven down) plus eight from the goat (one up, seven down) equals sixteen total sprinklings on the parochet.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The parochet receives a total of sixteen sprinklings on Yom Kippur: eight from the bull blood and eight from the goat blood, each following the pattern of one upward and seven downward."
-        },
-        "learningBlocker": "Students may count only the inner (kapporet) sprinklings and forget that the parochet receives its own independent set; the doubling of the count (bull plus goat) is easily missed."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Mishnah",
-          "text": "HP sprinkles once above and seven below from the goat's blood on the parochet.",
-          "id": "yoma-056b-l28",
-          "label": "Ruling: HP sprinkles once above and seven below",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-056b-l28",
-              "vilnaLine": 28
-            }
-          ]
-        },
-        {
-          "type": "total",
-          "speaker": "Gemara",
-          "text": "Total: sixteen sprinkles on the parochet (8 from bull + 8 from goat).",
-          "id": "yoma-056b-l31",
-          "label": "Total: Total: sixteen sprinkles on the parochet (8",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-056b-l31",
-              "vilnaLine": 31
-            }
-          ]
-        },
-        {
-          "type": "order",
-          "speaker": "Gemara",
-          "text": "Bull parochet service before goat parochet service - parallel to the inner service order.",
-          "id": "yoma-056b-l34",
-          "label": "Order: Bull parochet service before goat parochet service",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-056b-l34",
-              "vilnaLine": 34
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "goat blood on parochet",
-        "sixteen sprinkles total",
-        "parochet complete service"
-      ],
-      "concepts": {
-        "halachic": [
-          "complete parochet service",
-          "dual blood coverage",
-          "service order"
-        ],
-        "theological": [
-          "the curtain as a zone requiring full dual-blood purification"
-        ],
-        "narrative": [
-          "Yom Kippur service",
-          "mirroring inner and outer zones"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing the bull service must precede the goat service in all phases",
-        "Knowing the total count at each zone"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The parochet receives eight total sprinklings - one combined set of eight from both blood services.",
-          "correction": "The parochet receives sixteen total: eight from the bull (one up, seven down) and eight from the goat (one up, seven down), each service contributing its own full set."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "name": "bull then goat parochet service"
-        },
-        {
-          "type": "object",
-          "name": "parochet receiving both bloods"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Sixteen: once above and seven below from the bull's blood (8), then once above and seven below from the goat's blood (8).",
-          "question": "How many total sprinkles does the parochet receive on Yom Kippur?"
-        }
-      ],
-      "finalRuling": "The parochet receives sixteen total sprinkles: 8 from bull blood and 8 from goat blood, mirroring the inner kapporet service.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.56b.3"
+    },
+    {
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.56b.4"
+    },
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.56b.5"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.56b.6"
+    },
+    {
+     "vilnaLine": 11,
+     "sefariaRef": "Yoma.56b.7"
+    },
+    {
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.56b.8"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.56b.9"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.56b.10"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.56b.11"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.56b.1",
+    "Yoma.56b.2",
+    "Yoma.56b.3",
+    "Yoma.56b.4",
+    "Yoma.56b.5",
+    "Yoma.56b.6",
+    "Yoma.56b.7",
+    "Yoma.56b.8",
+    "Yoma.56b.9",
+    "Yoma.56b.10",
+    "Yoma.56b.11"
+   ],
+   "display": {
+    "whats": "Breira (retroactive clarification) debate; Yom Kippur requires certainty not retroactive determination",
+    "hint": "The Gemara explores breira through an eruv case - can one set up conditional eruvin and retroactively determine which applied? Rav and Shmuel dispute. The conclusion relevant to Yom Kippur: the blood service requires explicit certainty at each step, leaving no room for retroactive determination.",
+    "title": "Breira - Retroactive Determination in Halacha"
+   },
+   "learning": {
+    "ahaMoment": "The Yom Kippur service is the anti-breira: every drop of blood is placed with full certainty in the moment, not retroactively determined. The holiest service requires the clearest consciousness.",
+    "memoryAnchor": "Yom Kippur vs. breira: where eternal atonement is at stake, every act must be certain as it happens.",
+    "learnerQuestion": "What is the halachic concept of breira, and why does the Talmud use the eruv case to explore it in the context of the Yom Kippur service?",
+    "coreTension": "Breira asks whether an ambiguous act can be retroactively determined to have been a specific act once the outcome is known. This has implications for situations where choices are not made explicitly in advance.",
+    "coreMove": "The Talmud explores breira through the eruv scenario to determine whether retroactive clarification is a valid halachic mechanism; the majority view restricts its use in biblical-level matters, limiting the cases where an ambiguous prior act can be retroactively specified.",
+    "takeaway": {
+     "type": "logical_principle",
+     "text": "Breira (retroactive determination) is a limited halachic concept: while it may work for rabbinic matters, it generally cannot retroactively specify which biblical-level act was performed; ambiguous acts require prospective definition."
+    },
+    "learningBlocker": "The concept of retroactive determination is intuitive in ordinary life but the Talmud restricts it severely in halacha, and students are surprised by how limited its application is."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "When it bursts - not a concern; it can be handed to a guardian until proper vessels arrive.",
-      "linkedGemaraLineIds": []
+     "type": "introduction",
+     "speaker": "Gemara",
+     "text": "Exploration of breira - retroactive clarification of halachic status.",
+     "id": "yoma-056b-l01",
+     "label": "Introduction: Exploration of breira - retroactive clarification of",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-056b-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "No one may make two conditions - cannot prepare two eruvin, one east and one west, to choose between them later.",
-      "linkedGemaraLineIds": []
+     "type": "example",
+     "speaker": "Gemara",
+     "text": "Eruv parallel: can conditional eruvin be prepared for two directions? The breira question in practice.",
+     "id": "yoma-056b-l02",
+     "label": "Example: Eruv parallel: can conditional eruvin be prepared",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-056b-l02",
+       "vilnaLine": 2
+      }
+     ]
     },
     {
-      "vilnaLine": 3,
-      "en": "One east and one west - hoping two sages will come from different directions and he can choose.",
-      "linkedGemaraLineIds": []
+     "type": "dispute",
+     "speaker": "Gemara",
+     "text": "Rav: breira applies. Shmuel: breira does not apply in biblical matters.",
+     "id": "yoma-056b-l09",
+     "label": "Dispute: Rav: breira applies. Shmuel: breira does not",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-056b-l09",
+       "vilnaLine": 9
+      }
+     ]
     },
     {
-      "vilnaLine": 4,
-      "en": "At twilight the eruv takes effect - the status is fixed at nightfall; cannot retroactively choose next day.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "en": "When he chooses tomorrow - we do not apply breira to say one eruv was valid from twilight.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "en": "Rather, the condition must be for one sage; he does not know the direction, so he specifies: if from east, eastern eruv applies; if from west, western eruv applies.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "en": "So the eruv applies retroactively if the specified condition is met.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "en": "One condition on an uncertain outcome - this is the permitted form.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "en": "The outcome determines which eruv applied.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Breira means retroactive clarification - determining after the fact what was always true.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "en": "The dispute: does breira apply in biblical law?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "en": "Rav: breira applies. Shmuel: breira does not apply in biblical matters.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "en": "The Yom Kippur service requires certainty - not retroactive determination.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "He sprinkles and counts explicitly - nothing is left to retroactive clarification.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "After the inner service: the HP sprinkles on the parochet from the bull's blood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "He sprinkles once above and seven below on the face of the curtain.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Then once above and seven below from the goat's blood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Total: sixteen sprinkles on the parochet from both bloods.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "The curtain faces the Holy of Holies - separating the two sacred zones.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "The parochet receives the same formula as the kapporet.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "Sixteen sprinkles on the parochet mirror the sixteen inside.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "The HP stands and sprinkles without touching the curtain.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "He faces the curtain and sprinkles toward it.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "After the parochet: the golden altar service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Corner sprinkles on the golden altar's four horns.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Then he pours the remaining blood from the parochet service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "After the parochet, he takes the bull's blood for the altar corner service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Bull blood corners first, then goat blood corners, then mixed blood on top.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Each corner receives one application.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "Then seven sprinkles from the combined blood on the altar's top surface.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Remaining blood is poured at the base of the relevant altar.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "He does not return to re-sprinkle corners already done.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "The altar service follows the parochet service without interruption.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "All these services form the fixed Yom Kippur sequence.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "Any deviation in order is examined to determine if it invalidates.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "The sequence: inside Holy of Holies, parochet, golden altar, outer altar.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Each stage purifies a different zone of the Temple.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "Inner to outer: atonement radiates from the most sacred space outward.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "The HP is the sole agent of all Israel's atonement on this day.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "His concentration and precision are the vessel through which atonement flows.",
-      "linkedGemaraLineIds": []
+     "type": "application",
+     "speaker": "Gemara",
+     "text": "Yom Kippur requires real-time certainty; the counting formula ensures this.",
+     "id": "yoma-056b-l16",
+     "label": "Application: Yom Kippur requires real-time certainty; the counting",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-056b-l16",
+       "vilnaLine": 16
+      }
+     ]
     }
-  ],
-  "review": "reviewed"
+   ],
+   "topicTags": [
+    "breira",
+    "retroactive clarification",
+    "eruv case",
+    "certainty",
+    "Yom Kippur"
+   ],
+   "concepts": {
+    "halachic": [
+     "breira in biblical law",
+     "certainty requirement",
+     "Yom Kippur service precision"
+    ],
+    "theological": [
+     "certainty as prerequisite for atonement",
+     "consciousness in sacred service"
+    ],
+    "narrative": [
+     "talmudic principle",
+     "halachic epistemology"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Understanding what breira means in halachic reasoning",
+    "Knowing the Yom Kippur service requires explicit counting"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Breira means that once you know how things turned out, you can retroactively declare what your original intention was, and this always works in halacha.",
+     "correction": "The Talmud generally rejects breira for biblical-level acts; you cannot retroactively define which specific act you performed at a biblical level - the specification must be made prospectively."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "name": "breira vs. real-time certainty in Yom Kippur service"
+    },
+    {
+     "type": "relationship",
+     "name": "eruv law as lens for understanding breira principle"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "The blood service requires each sprinkle to be performed with explicit real-time certainty. Retroactive clarification of which sprinkle 'was' which cannot substitute for deliberate, counted, certain action.",
+     "question": "Why is breira inapplicable to the Yom Kippur blood service?"
+    }
+   ],
+   "finalRuling": "Breira does not apply to Yom Kippur service - the HP must act with explicit certainty at every moment, not rely on retroactive clarification.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-056b-s02",
+   "lineRange": {
+    "startVilnaLine": 23,
+    "endVilnaLine": 26
+   },
+   "lines": [
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.56b.12"
+    },
+    {
+     "vilnaLine": 26,
+     "sefariaRef": "Yoma.56b.13"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.56b.12",
+    "Yoma.56b.13"
+   ],
+   "display": {
+    "whats": "HP sprinkles bull blood on the parochet: once above, seven below",
+    "hint": "After the inner service, the HP sprinkles once above and seven below from the bull's blood on the face of the parochet, using the identical formula and technique as the inner service.",
+    "title": "Parochet Receives Eight Bull Blood Sprinklings"
+   },
+   "learning": {
+    "ahaMoment": "The formula is the same, the hand position is the same - but the surface differs. The parochet is not the kapporet; this is purification of the boundary, not the center.",
+    "memoryAnchor": "Parochet: same formula, new surface. Purification moves from the center to its border.",
+    "learnerQuestion": "After the Holy of Holies service, what does the HP do with the bull's blood at the parochet, and how many sprinklings does the parochet receive from the bull?",
+    "coreTension": "The Torah specifies a sprinkling pattern for the inner kapporet; a parallel but distinct pattern applies to the parochet (outer curtain). The count and direction of sprinklings at the parochet must be derived separately.",
+    "coreMove": "The Talmud establishes that the HP sprinkles the bull's blood at the parochet with the same count as inside: one upward and seven downward, totaling eight sprinklings from the bull alone.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The parochet receives eight sprinklings from the bull's blood: one upward and seven downward, using the same pattern as the inner kapporet sprinkling."
+    },
+    "learningBlocker": "Students who know the inner sprinkling count (one up, seven down) may not realize the identical pattern is applied again at the parochet, effectively repeating the count."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Mishnah",
+     "text": "HP sprinkles once above and seven below from the bull's blood on the parochet.",
+     "id": "yoma-056b-l23",
+     "label": "Ruling: HP sprinkles once above and seven below",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-056b-l23",
+       "vilnaLine": 23
+      }
+     ]
+    },
+    {
+     "type": "technique",
+     "speaker": "Gemara",
+     "text": "Same technique as the inner service: upward then seven downward.",
+     "id": "yoma-056b-l26",
+     "label": "Technique: Same technique as the inner service: upward",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-056b-l26",
+       "vilnaLine": 26
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "parochet sprinkling",
+    "outer curtain",
+    "bull blood",
+    "once above seven below"
+   ],
+   "concepts": {
+    "halachic": [
+     "parochet service",
+     "purification of the Heichal boundary"
+    ],
+    "theological": [
+     "concentric purification outward from the Holy of Holies"
+    ],
+    "narrative": [
+     "Yom Kippur service zones"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Knowing the parochet separates the Holy of Holies from the Heichal",
+    "Knowing the HP sprinkles on the side facing the Heichal"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The HP does not touch the parochet itself - he only sprinkles toward it from a distance without following a specific count.",
+     "correction": "The HP sprinkles the bull's blood at the parochet with a defined pattern: one upward and seven downward (eight total), mirroring the inner sprinkling count."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "place",
+     "name": "parochet curtain"
+    },
+    {
+     "type": "action",
+     "name": "once above seven below on the curtain surface"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "He sprinkles once above and seven below from the bull's blood on the face of the parochet.",
+     "question": "What is the first outer service the HP performs after exiting the Holy of Holies?"
+    }
+   ],
+   "finalRuling": "The HP sprinkles bull blood once above and seven below on the parochet, extending the inner service formula to the curtain boundary.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-056b-s03",
+   "lineRange": {
+    "startVilnaLine": 28,
+    "endVilnaLine": 34
+   },
+   "lines": [
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.56b.14"
+    },
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.56b.15"
+    },
+    {
+     "vilnaLine": 34,
+     "sefariaRef": "Yoma.56b.16"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.56b.14",
+    "Yoma.56b.15",
+    "Yoma.56b.16"
+   ],
+   "display": {
+    "whats": "HP sprinkles goat blood on the parochet: completing sixteen total sprinkles on the curtain",
+    "hint": "The HP then sprinkles once above and seven below from the goat's blood on the parochet - identical to the bull service - completing a total of sixteen sprinkles on the curtain from both bloods.",
+    "title": "Parochet Total: Sixteen Sprinklings"
+   },
+   "learning": {
+    "ahaMoment": "Eight plus eight on the parochet: the outer boundary receives exactly what the inner sanctum received - full dual-blood coverage.",
+    "memoryAnchor": "Sixteen on the parochet: what entered the most sacred space must also purify the curtain through which the HP entered.",
+    "learnerQuestion": "How many total sprinklings does the parochet receive from both the bull and the goat blood services combined?",
+    "coreTension": "Both bull and goat blood services include a parochet component; the total must be calculated carefully because each service contributes an independent set of sprinklings with the same count.",
+    "coreMove": "The Talmud sums the parochet sprinklings: eight from the bull (one up, seven down) plus eight from the goat (one up, seven down) equals sixteen total sprinklings on the parochet.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The parochet receives a total of sixteen sprinklings on Yom Kippur: eight from the bull blood and eight from the goat blood, each following the pattern of one upward and seven downward."
+    },
+    "learningBlocker": "Students may count only the inner (kapporet) sprinklings and forget that the parochet receives its own independent set; the doubling of the count (bull plus goat) is easily missed."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Mishnah",
+     "text": "HP sprinkles once above and seven below from the goat's blood on the parochet.",
+     "id": "yoma-056b-l28",
+     "label": "Ruling: HP sprinkles once above and seven below",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-056b-l28",
+       "vilnaLine": 28
+      }
+     ]
+    },
+    {
+     "type": "total",
+     "speaker": "Gemara",
+     "text": "Total: sixteen sprinkles on the parochet (8 from bull + 8 from goat).",
+     "id": "yoma-056b-l31",
+     "label": "Total: Total: sixteen sprinkles on the parochet (8",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-056b-l31",
+       "vilnaLine": 31
+      }
+     ]
+    },
+    {
+     "type": "order",
+     "speaker": "Gemara",
+     "text": "Bull parochet service before goat parochet service - parallel to the inner service order.",
+     "id": "yoma-056b-l34",
+     "label": "Order: Bull parochet service before goat parochet service",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-056b-l34",
+       "vilnaLine": 34
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "goat blood on parochet",
+    "sixteen sprinkles total",
+    "parochet complete service"
+   ],
+   "concepts": {
+    "halachic": [
+     "complete parochet service",
+     "dual blood coverage",
+     "service order"
+    ],
+    "theological": [
+     "the curtain as a zone requiring full dual-blood purification"
+    ],
+    "narrative": [
+     "Yom Kippur service",
+     "mirroring inner and outer zones"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Knowing the bull service must precede the goat service in all phases",
+    "Knowing the total count at each zone"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The parochet receives eight total sprinklings - one combined set of eight from both blood services.",
+     "correction": "The parochet receives sixteen total: eight from the bull (one up, seven down) and eight from the goat (one up, seven down), each service contributing its own full set."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "name": "bull then goat parochet service"
+    },
+    {
+     "type": "object",
+     "name": "parochet receiving both bloods"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Sixteen: once above and seven below from the bull's blood (8), then once above and seven below from the goat's blood (8).",
+     "question": "How many total sprinkles does the parochet receive on Yom Kippur?"
+    }
+   ],
+   "finalRuling": "The parochet receives sixteen total sprinkles: 8 from bull blood and 8 from goat blood, mirroring the inner kapporet service.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'When it bursts' - we take precaution for it, meaning we are not concerned that it might burst, since it is possible",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l02"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "to hand it over to a guardian. 'A person may not make a condition regarding two things' - meaning he may not set out two eruvin, one",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l02",
+    "yoma-056b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "to the east and one to the west, hoping that if two sages come, one from the east and one",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "from the west, he could say 'to whichever of them I wish, I will go tomorrow' - since acquiring an eruv",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "happens at twilight, and if he then chooses tomorrow",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "whichever he wants, we do not rely on retroactive determination to say",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "it has become clear that the eruv toward that sage's direction acquired rest",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "last night. Rather, he may only make the condition regarding a single sage, and if he does not",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "know from which direction that sage will come, he may condition it: if",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "he comes from the east, my eastern eruv shall take effect; and if",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "he comes from the west, my western eruv shall take effect.",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "But if he sets it up for both directions, hoping for two sages,",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "saying 'to wherever I wish I will go,' that is not valid, since there is no retroactive determination.",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "'And we discussed it' - for it might have been thought that at twilight",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "the sage had not yet arrived, and he was positioned diagonally, and could come",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "after dark to either the east or the west, and eventually came",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "to one of them. 'East and west also' -",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l09",
+    "yoma-056b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "when this person makes his eruv depend on the sage's own intention, saying",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "'let the eruv take effect in the direction the sage comes to,' there is no retroactive determination, since perhaps at twilight",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "the sage's own intention",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "was for the opposite direction.",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "'And R. Yochanan said: when the sage has already come' -",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "at twilight, it works, since the eruv takes effect in",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "that direction, for this person made his condition while it was still day.",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l11"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "'And now that you have said' - the reason for R. Yehuda's",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "ruling regarding the obligatory boxes is that he holds there is no retroactive determination",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "but he does hold that written labels work. 'Yom Kippur",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "too' - since he says there was only",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "a single stand there, let them make two, etc. 'It does not occur to him' -",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l12",
+    "yoma-056b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "to examine the writing. 'The bull's blood is red'",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l14",
+    "yoma-056b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "as we said in the other chapter",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "(45a), since it resembles the blood of bulls.",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "'That one' - a prayer leader who went before Rava",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "and would recite the order of the Yom Kippur service",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "in prayer, just as we say it today. 'One like",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l23",
+    "yoma-056b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "the Rabbis' - since you said there is a second stand. And one",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "like R. Yehuda' - since you said he took it first",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "and only afterward set it down, implying there was no second stand",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "to set it on, so he needed to take the other blood first.",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l26"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "'Now' - the daf ends mid-word here; the comment continues on 57a with the Sadducee's own statement to R. Chanina, that the priests must be certainly impure since the Divine Presence would not otherwise dwell among impurity.",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l34"
+   ]
+  }
+ ],
+ "review": "reviewed"
 }
