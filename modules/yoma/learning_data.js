@@ -139684,11 +139684,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 1,
         he: "אשם מצורע ששחטו שלא לשמו. כגון לשם עולה או לשם שלמים",
-        en: "The bull and goat that are to be burned: their burning is outside Jerusalem.",
+        en: "'A metzora's guilt-offering that he slaughtered not for its own sake' - for instance, for the sake of a burnt-offering or a peace-offering,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l01"
+        ]
       },
       {
         id: "rashi-yoma-061b-002",
@@ -139696,11 +139698,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 2,
         he: "ואמר מר (זבחים דף ב.) כל הזבחים שנשחטו שלא לשמן כשרין אלא",
-        en: "The animal parts that were placed on the altar remain on the altar; the rest is taken out.",
+        en: "and the master said (Zevachim 2a) that all offerings slaughtered not for their own sake are valid, except",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l01"
+        ]
       },
       {
         id: "rashi-yoma-061b-003",
@@ -139708,11 +139712,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 3,
         he: "שלא עלו לבעלים לשם חובה: באנו. לדבר זה לתוך מחלוקתן של",
-        en: "Those who carry them out to burn become impure.",
+        en: "that they do not count for the owner as fulfilling his obligation. 'We have come' - to this matter, into the dispute of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l01"
+        ]
       },
       {
         id: "rashi-yoma-061b-004",
@@ -139720,11 +139726,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 4,
         he: "ר\"מ ורבי אלעזר יש לנו ללמוד שכשם שחולקין בזה כך חולקין בזה:",
-        en: "They immerse their garments and their bodies in water.",
+        en: "Rabbi Meir and Rabbi Elazar; we are to learn that just as they disagree there, so too they disagree here.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l01"
+        ]
       },
       {
         id: "rashi-yoma-061b-005",
@@ -139732,11 +139740,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 5,
         he: "לר\"מ. דאמר עבודה שלא נגמרה",
-        en: "And when the sun sets they are pure and return to the camp.",
+        en: "'According to Rabbi Meir' - who says a service that was not completed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l01"
+        ]
       },
       {
         id: "rashi-yoma-061b-006",
@@ -139744,11 +139754,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 6,
         he: "הרי היא כמי שאינה אף זו הואיל",
-        en: "Then when the fire caught - they return.",
+        en: "is as though it never happened; so too here, since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l01"
+        ]
       },
       {
         id: "rashi-yoma-061b-007",
@@ -139756,11 +139768,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 7,
         he: "ולא נגמרה שהרי לא עלתה לשם",
-        en: "The process of burning the Yom Kippur offerings outside Jerusalem.",
+        en: "it was not completed - for it did not count as fulfilling",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l01"
+        ]
       },
       {
         id: "rashi-yoma-061b-008",
@@ -139768,11 +139782,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 8,
         he: "חובה אע\"פ שנתן ממנו לבהונות",
-        en: "These are the only Temple offerings burned entirely outside the city.",
+        en: "the obligation - even though he placed some of its blood on the thumbs,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l01"
+        ]
       },
       {
         id: "rashi-yoma-061b-009",
@@ -139780,11 +139796,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 9,
         he: "הרי היא כמי שאינה ויביא אשם",
-        en: "The sin-offerings whose blood was brought inside the sanctuary are burned outside.",
+        en: "it is as though it never happened, and he must bring another guilt-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l01"
+        ]
       },
       {
         id: "rashi-yoma-061b-010",
@@ -139792,11 +139810,14 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 10,
         he: "אחר: ולרבי אלעזר ור\"ש דאמרי",
-        en: "The principle: inner blood service = burned outside. A general rule.",
+        en: "of his own. 'But according to Rabbi Elazar and Rabbi Shimon, who say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l01",
+          "yoma-061b-l04"
+        ]
       },
       {
         id: "rashi-yoma-061b-011",
@@ -139804,11 +139825,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 11,
         he: "ממקום שפסק משם הוא מתחיל.",
-        en: "The bull of the HP and the bull of the congregation and the goat of Yom Kippur.",
+        en: "that from where he stopped, from there he continues' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l04"
+        ]
       },
       {
         id: "rashi-yoma-061b-012",
@@ -139816,11 +139839,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 12,
         he: "אלמא לא אמר כמאן דליתא דמיא",
-        en: "All of whose blood was brought inside the sanctuary - burned outside.",
+        en: "this shows they do not say it is as though it does not exist;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l04"
+        ]
       },
       {
         id: "rashi-yoma-061b-013",
@@ -139828,11 +139853,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 13,
         he: "הכא נמי חשיבא היא ואי אפשר",
-        en: "The rule: these three are burned at the place of the ashes.",
+        en: "here too it is significant, and it is impossible",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l04"
+        ]
       },
       {
         id: "rashi-yoma-061b-014",
@@ -139840,11 +139867,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 14,
         he: "לגומרה באחר דהא כתיב (ויקרא יד)",
-        en: "Outside Jerusalem, at the beit ha-deshen.",
+        en: "to complete it with another animal, for it is written (Leviticus 14),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l04"
+        ]
       },
       {
         id: "rashi-yoma-061b-015",
@@ -139852,11 +139881,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 15,
         he: "כבש אחד אשם אשם אחד אמרתי",
-        en: "The burning completes the atonement cycle.",
+        en: "'one lamb as a guilt-offering' - I have told you one guilt-offering,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l04"
+        ]
       },
       {
         id: "rashi-yoma-061b-016",
@@ -139864,11 +139895,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 16,
         he: "לך ולא שתי אשמות והכא ליכא",
-        en: "The blood served inside; the body is removed and burned outside.",
+        en: "not two guilt-offerings; and here there is no room",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l04"
+        ]
       },
       {
         id: "rashi-yoma-061b-017",
@@ -139876,11 +139909,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 17,
         he: "לדחויי כדאמרינן לעיל חטוי אחד",
-        en: "Contraction and expansion: blood goes in, body goes out.",
+        en: "to reinterpret it, as we said above regarding 'one sprinkling",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l04"
+        ]
       },
       {
         id: "rashi-yoma-061b-018",
@@ -139888,11 +139923,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 18,
         he: "אמרתי לך כו' הלכך אין לו תקנה:",
-        en: "The sacred is concentrated in the blood; the physical body is externalized.",
+        en: "I have told you,' etc. Therefore it has no remedy.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l04"
+        ]
       },
       {
         id: "rashi-yoma-061b-019",
@@ -139900,11 +139937,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 19,
         he: "והא אותו כתיב. והקריב אותו",
-        en: "The sin-offering's blood mediates between the sacred interior and the impure exterior.",
+        en: "'But is it not written \"it\"' - 'and he shall offer it'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l06"
+        ]
       },
       {
         id: "rashi-yoma-061b-020",
@@ -139912,11 +139951,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 20,
         he: "לאשם אותו שהונף עם הלוג ולא",
-        en: "After the burning, the carriers immerse.",
+        en: "as a guilt-offering, meaning that very one which was waved together with the log of oil, and not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l06"
+        ]
       },
       {
         id: "rashi-yoma-061b-021",
@@ -139924,11 +139965,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 21,
         he: "אחר ואפי' לר\"מ נמי אין לו תקנה:",
-        en: "The sun sets; they are pure; the day is over.",
+        en: "another; and even according to Rabbi Meir, it too has no remedy.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l06"
+        ]
       },
       {
         id: "rashi-yoma-061b-022",
@@ -139936,11 +139979,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 22,
         he: "תניא כוותיה דרבי יוחנן. דאיכא",
-        en: "Yom Kippur ends as it began - with purification.",
+        en: "'It was taught in accordance with Rabbi Yochanan' - that there is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l07"
+        ]
       },
       {
         id: "rashi-yoma-061b-023",
@@ -139948,11 +139993,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 23,
         he: "למ\"ד יביא אחר: להכשירו. למצורע",
-        en: "The beginning: the HP immerses to begin his service.",
+        en: "one who says he must bring another. 'To render it fit' - meaning this metzora,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l07"
+        ]
       },
       {
         id: "rashi-yoma-061b-024",
@@ -139960,11 +140007,14 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 24,
         he: "זה לטהרו לאכול בקדשים: ותני תנא",
-        en: "The end: the burning-carriers immerse after completing theirs.",
+        en: "to purify him so he may eat consecrated food. 'And did a tanna teach [this]' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l07",
+          "yoma-061b-l12"
+        ]
       },
       {
         id: "rashi-yoma-061b-025",
@@ -139972,11 +140022,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 25,
         he: "וכו'. בתמיה וכי יש תנאים שונים",
-        en: "The entire day is framed by immersion.",
+        en: "said in astonishment: are there really different tannaim who",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l12"
+        ]
       },
       {
         id: "rashi-yoma-061b-026",
@@ -139984,11 +140036,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 26,
         he: "צריך בדבר שאין לו תקנה: צריך",
-        en: "Water marks both entry and exit from the sacred service.",
+        en: "require something for a matter that has no remedy? 'He requires",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l12"
+        ]
       },
       {
         id: "rashi-yoma-061b-027",
@@ -139996,11 +140050,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 27,
         he: "העברת תער. ביום מלאת ימי נזרו",
-        en: "The end of Yom Kippur in the Temple: fire (burning) and water (immersion).",
+        en: "the passing of a razor' - on the day his term as a nazirite is completed,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l12"
+        ]
       },
       {
         id: "rashi-yoma-061b-028",
@@ -140008,11 +140064,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 28,
         he: "כדכתיב (במדבר ו) תער לא יעבור",
-        en: "Fire purifies through consumption; water purifies through washing.",
+        en: "as it is written (Numbers 6), 'no razor shall pass",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l12"
+        ]
       },
       {
         id: "rashi-yoma-061b-029",
@@ -140020,11 +140078,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 29,
         he: "על ראשו עד מלאת אבל ביום מלאת",
-        en: "Both are instruments of renewal.",
+        en: "over his head until the completion,' but on the day of completion",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l12"
+        ]
       },
       {
         id: "rashi-yoma-061b-030",
@@ -140032,11 +140092,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 30,
         he: "יגלח בתער וזה אין לו שיער וקתני",
-        en: "The day that brought atonement has concluded.",
+        en: "he shaves with a razor; and this one has no hair, yet it is taught",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l12"
+        ]
       },
       {
         id: "rashi-yoma-061b-031",
@@ -140044,11 +140106,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 31,
         he: "צריך: ואמר רבי אבינא וכו'",
-        en: "Israel stands before God with a clean slate.",
+        en: "that he still requires it. 'And Rabbi Avina said, etc.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l12"
+        ]
       },
       {
         id: "rashi-yoma-061b-032",
@@ -140056,11 +140120,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 32,
         he: "ופליגא. הא דרבי אבינא אדר' פדת",
-        en: "The year begins again.",
+        en: "'and this disagrees' - this statement of Rabbi Avina disagrees with Rabbi Pedat's own statement:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l12"
+        ]
       },
       {
         id: "rashi-yoma-061b-033",
@@ -140068,11 +140134,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 33,
         he: "דאלו רבי פדת צריך ויש לו תקנה",
-        en: "The rabbis teach: Yom Kippur's atonement is effective only with genuine teshuvah.",
+        en: "Rabbi Pedat says he requires it but has a remedy,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l12"
+        ]
       },
       {
         id: "rashi-yoma-061b-034",
@@ -140080,11 +140148,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 34,
         he: "קאמר שיעבירנו על מקום השיער",
-        en: "The Temple service and the personal repentance together constitute full atonement.",
+        en: "meaning he should pass the razor over the place where the hair would be,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l12"
+        ]
       },
       {
         id: "rashi-yoma-061b-035",
@@ -140092,11 +140162,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 35,
         he: "דאע\"ג דכתיב וגלח הנזיר לא בעינן",
-        en: "Without teshuvah, the day's service atones for ritual violations but not for interpersonal ones.",
+        en: "for even though it is written 'and the nazirite shall shave,' we do not require",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l12"
+        ]
       },
       {
         id: "rashi-yoma-061b-036",
@@ -140104,11 +140176,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 36,
         he: "קרא כדכתיב היכא דלא אפשר:",
-        en: "Without the service (today: without the Temple), teshuvah and prayer substitute.",
+        en: "the verse to be fulfilled literally where it is impossible.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l12"
+        ]
       },
       {
         id: "rashi-yoma-061b-037",
@@ -140116,11 +140190,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 37,
         he: "אין לו טהרה עולמית. דבעינן קרא",
-        en: "The two legs of Yom Kippur: communal service and personal repentance.",
+        en: "'He has no purification ever' - for we require the verse",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l16"
+        ]
       },
       {
         id: "rashi-yoma-061b-038",
@@ -140128,11 +140204,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 38,
         he: "כדכתיב ופליגי בסנהדרין בפרק",
-        en: "In Temple times: both were present.",
+        en: "to be fulfilled literally as written; and they disagree about this in Sanhedrin, in the chapter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l16"
+        ]
       },
       {
         id: "rashi-yoma-061b-039",
@@ -140140,11 +140218,14 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 39,
         he: "נגמר הדין: ולקח. באשם מצורע",
-        en: "In exile: teshuvah carries the weight that the service once bore.",
+        en: "Nigmar HaDin. 'And he shall take' - it is written regarding the metzora's guilt-offering,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l16",
+          "yoma-061b-l22"
+        ]
       },
       {
         id: "rashi-yoma-061b-040",
@@ -140152,11 +140233,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 40,
         he: "כתיב ולקח הכהן מדם האשם וכל",
-        en: "The tractate ends with this implicit message.",
+        en: "'and the priest shall take from the blood of the guilt-offering'; and every",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l22"
+        ]
       },
       {
         id: "rashi-yoma-061b-041",
@@ -140164,11 +140247,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 41,
         he: "לקיחה האמורה בדם תכף לשחיטה",
-        en: "Study of Yoma is itself an act of encounter with what the Temple service meant.",
+        en: "instance of 'taking' stated regarding blood immediately after slaughtering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l22"
+        ]
       },
       {
         id: "rashi-yoma-061b-042",
@@ -140176,11 +140261,14 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 42,
         he: "לשון קבלה הוא: יכול אף למזבח",
-        en: "Every reader of this tractate engages with the most intimate act of the Jewish covenant.",
+        en: "means the language of receiving. 'One might think the same applies to the altar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l22",
+          "yoma-061b-l25"
+        ]
       },
       {
         id: "rashi-yoma-061b-043",
@@ -140188,11 +140276,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 43,
         he: "כן. דקיימא לן אשם מצורע טעון",
-        en: "The HP stands before the Ark; the student stands before the Talmud.",
+        en: "as well' - for we hold that the metzora's guilt-offering requires",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l25"
+        ]
       },
       {
         id: "rashi-yoma-061b-044",
@@ -140200,11 +140290,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 44,
         he: "מתן דמים לגבי מזבח כשאר אשמות",
-        en: "Both are seeking the same thing: connection to God, atonement for Israel.",
+        en: "the placing of blood on the altar like other guilt-offerings,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l25"
+        ]
       },
       {
         id: "rashi-yoma-061b-045",
@@ -140212,11 +140304,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 45,
         he: "וזה דבר שהיה בכלל ויצא לידון",
-        en: "The medium changes; the purpose remains.",
+        en: "and this matter was originally included in the general rule but was singled out to be treated",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l25"
+        ]
       },
       {
         id: "rashi-yoma-061b-046",
@@ -140224,11 +140318,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 46,
         he: "בדבר החדש והחזירו לך הכתוב",
-        en: "This is why Yoma is studied year after year before Yom Kippur.",
+        en: "as a new matter, and Scripture returned it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l25"
+        ]
       },
       {
         id: "rashi-yoma-061b-047",
@@ -140236,11 +140332,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 47,
         he: "לכללו בפירוש בפ\"ק דיבמות (דף ז.)",
-        en: "Not to remember a historical event, but to participate in a living reality.",
+        en: "to its inclusion explicitly, as explained in the first chapter of Yevamot (7a);",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l25"
+        ]
       },
       {
         id: "rashi-yoma-061b-048",
@@ -140248,11 +140346,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 48,
         he: "לכך נאמר בו כי כחטאת האשם הוא לכהן מה חטאת טעונה מתן",
-        en: "The atonement of Yom Kippur is available to every generation through study and teshuvah.",
+        en: "therefore it is said regarding it, 'for like the sin-offering, so is the guilt-offering, it belongs to the priest' - just as the sin-offering requires the placing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l25"
+        ]
       },
       {
         id: "rashi-yoma-061b-049",
@@ -140260,11 +140360,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 49,
         he: "דמים ואימורים אף זה טעון מתן דמים ואימורים יכול אף דם הניתן על",
-        en: "The Talmud is Israel's portable Temple.",
+        en: "of blood and the sacrificial portions, so too this one requires the placing of blood and the sacrificial portions. One might think that even the blood placed on",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l25"
+        ]
       },
       {
         id: "rashi-yoma-061b-050",
@@ -140272,11 +140374,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 50,
         he: "המזבח לא יתקבל בכלי ת\"ל כי כחטאת האשם הוא לכהן: מה חטאת",
-        en: "Yoma is its Yom Kippur service, preserved in words.",
+        en: "the altar need not be received in a vessel; the verse teaches, 'for like the sin-offering, so is the guilt-offering, it belongs to the priest.' 'Just as the sin-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l25"
+        ]
       },
       {
         id: "rashi-yoma-061b-051",
@@ -140284,11 +140388,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 51,
         he: "טעונה כלי. לקבלת דמה דכל הקרבנות נפקי לן בהיקישא (זבחים דף צז:)",
-        en: "A nation in exile studies what its priests once did.",
+        en: "requires a vessel' - for the receiving of its blood; for all the offerings, we derive this by comparison (Zevachim 97b),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l25"
+        ]
       },
       {
         id: "rashi-yoma-061b-052",
@@ -140296,11 +140402,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 52,
         he: "דזאת התורה לעולה ולמנחה לחטאת ולאשם ובעולה ובשלמים כתיב",
-        en: "And in the studying, the doing continues.",
+        en: "that 'this is the law' applies to the burnt-offering, the meal-offering, the sin-offering, and the guilt-offering; and regarding the burnt-offering and the peace-offerings it is written,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l25"
+        ]
       },
       {
         id: "rashi-yoma-061b-053",
@@ -140308,11 +140416,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 53,
         he: "וישם באגנות (שמות כד) ואשם נמי מהיכא דגמר חטאת גמר איהו אלא",
-        en: "The HP's service echoes through every page of Yoma.",
+        en: "'and he put it in basins' (Exodus 24); and the guilt-offering too derives this from wherever the sin-offering derives it. But",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l25"
+        ]
       },
       {
         id: "rashi-yoma-061b-054",
@@ -140320,11 +140430,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 54,
         he: "אשם מצורע משום דיצא לידון בדבר החדש בבהן יד ובהן רגל ואזן",
-        en: "And through every Yom Kippur when Israel fasts, prays, and returns.",
+        en: "the metzora's guilt-offering, because it was singled out to be treated as a new matter regarding the thumb of the hand, the thumb of the foot, and the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l25"
+        ]
       },
       {
         id: "rashi-yoma-061b-055",
@@ -140332,11 +140444,14 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 55,
         he: "ימנית הוצרך להחזירו לכללו בהיקישא דכחטאת האשם: וכולן",
-        en: "The atonement is real. The covenant is renewed. The year begins clean.",
+        en: "right ear, needed to be returned to its inclusion by the comparison to the sin-offering's law. 'And all of them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l25",
+          "yoma-061b-l30"
+        ]
       },
       {
         id: "rashi-yoma-061b-056",
@@ -140344,11 +140459,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 56,
         he: "מטמאין בגדים. כל הפרים והשעירים השנויים במשנתנו גבי נשפך",
-        en: "This is the promise of Yom Kippur.",
+        en: "render garments impure' - all the bulls and goats discussed in our Mishnah regarding a case where the blood was spilled",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l30"
+        ]
       },
       {
         id: "rashi-yoma-061b-057",
@@ -140356,11 +140473,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 57,
         he: "הדם לאחר כפרה זו והביא פר שני לפרכת וגמר מתנות הפרכת",
-        en: "This is what the tractate Yoma teaches.",
+        en: "after this atonement, and a second bull was brought for the sprinklings on the curtain, and the sprinklings on the curtain were completed,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l30"
+        ]
       },
       {
         id: "rashi-yoma-061b-058",
@@ -140368,11 +140487,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 58,
         he: "ונשפך הדם והביא שלישי למתנות המזבח כולן נשרפין חוץ לשלש",
-        en: "May the study of Yoma bring atonement as the service itself once did.",
+        en: "and the blood was spilled again, and a third was brought for the sprinklings on the altar - all of these are burned outside the three",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l30"
+        ]
       },
       {
         id: "rashi-yoma-061b-059",
@@ -140380,11 +140501,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 59,
         he: "מחנות אבית הדשן ומטמאין בגדים העסוקין בשריפתן כדכתיב",
-        en: "And may the People of Israel see the rebuilding of the Temple speedily in our days.",
+        en: "camps, at the place of the ashes, and they render impure the garments of those engaged in burning them, as it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l30"
+        ]
       },
       {
         id: "rashi-yoma-061b-060",
@@ -140392,11 +140515,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 60,
         he: "(ויקרא טז) ואת פר החטאת ואת שעיר החטאת אשר הובא את",
-        en: "Where the service will be renewed in its full form.",
+        en: "(Leviticus 16), 'and the bull of the sin-offering and the goat of the sin-offering whose blood was brought in'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l30"
+        ]
       },
       {
         id: "rashi-yoma-061b-061",
@@ -140404,11 +140529,14 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 61,
         he: "דמם וגו' והשורף אותם יכבס בגדיו במים: כמה [שעירים]",
-        en: "And the HP will again stand before the Ark.",
+        en: "to atone... and the one who burns them shall wash his garments in water.' 'How many goats",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l30",
+          "yoma-061b-l35"
+        ]
       },
       {
         id: "rashi-yoma-061b-062",
@@ -140416,11 +140544,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 62,
         he: "משלח. אם נשפך דם השעיר לאחר שגמר מתנות פנים והוצרך",
-        en: "And all Israel will prostrate and hear the Name.",
+        en: "does he send'? - if the blood of the goat was spilled after he completed the inner sprinklings, and he needed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l35"
+        ]
       },
       {
         id: "rashi-yoma-061b-063",
@@ -140428,11 +140558,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 63,
         he: "להביא שנים ולהגריל עליהן ושחט את של שם ונתן מתנות הפרוכת",
-        en: "As it was, so may it be again.",
+        en: "to bring two more and cast lots on them, and slaughtered the one designated 'for the Lord' and gave the sprinklings on the curtain,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l35"
+        ]
       },
       {
         id: "rashi-yoma-061b-064",
@@ -140440,11 +140572,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 64,
         he: "ונשפך הדם והוצרך עוד להביא שנים ולהגריל עליהן ושחט את",
-        en: "Amen.",
+        en: "and the blood was spilled again, and he needed to bring two more and cast lots on them, and slaughtered",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l35"
+        ]
       },
       {
         id: "rashi-yoma-061b-065",
@@ -140452,11 +140586,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 65,
         he: "של שם למתנות המזבח הרי כאן שלשה שעירי עזאזל משלשה",
-        en: "This concludes the main body of the tractate Yoma.",
+        en: "the one designated 'for the Lord' for the sprinklings on the altar - here there are three goats for Azazel from three",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l35"
+        ]
       },
       {
         id: "rashi-yoma-061b-066",
@@ -140464,11 +140600,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 66,
         he: "זוגות: וכי עדרו משלח. לא הזקיק הכתוב לשלח אלא אחד:",
-        en: "The appendix addresses further details of Yom Kippur law.",
+        en: "pairs. 'But does he send his whole flock'? - Scripture required him to send only one.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l35"
+        ]
       },
       {
         id: "rashi-yoma-061b-067",
@@ -140476,11 +140614,13 @@ const DAF_CONTENT = {
         daf: "61b",
         vilnaLine: 67,
         he: "וכי",
-        en: "Additional cases and principles that flow from the service.",
+        en: "'But' - the dibbur hamatchil is completed on 62a as 'does he burn his whole flock,' Rava's parallel question to Rav Nachman, mirroring the immediately preceding question about sending the goats.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-061b-l35"
+        ]
       }
     ],
     review: "reviewed"
