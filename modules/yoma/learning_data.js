@@ -161798,11 +161798,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 1,
         he: "ואחר כך אילו ואיל העם ואח\"כ אימורי חטאת. כל אלו בטבילה",
-        en: "And then the HP's ram and the people's ram and then the sin-offering fats - all these at the third immersion.",
+        en: "'And then his ram and the people's ram, and then the sin-offering's sacrificial parts' - all these are done at the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l01"
+        ]
       },
       {
         id: "rashi-yoma-070b-002",
@@ -161810,11 +161812,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 2,
         he: "שלישית: ואחר כך תמיד של בין הערבים. בטבילה חמישית ולא",
-        en: "And then the afternoon tamid - at the fifth immersion. We do not discuss here the removal of the ladle and fire-pan.",
+        en: "third immersion. 'And then the afternoon tamid' - at the fifth immersion. And [Rashi] does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l01"
+        ]
       },
       {
         id: "rashi-yoma-070b-003",
@@ -161822,11 +161826,14 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 3,
         he: "איירי הכא בהוצאת כף ומחתה דפשיטא לן דבתר אילו ואיל העם",
-        en: "Since it is obvious to us that it comes after the rams, as taught later: the entire portion was stated in order.",
+        en: "discuss here the removal of the ladle and fire-pan, since it is obvious to us that it comes after his ram and the people's ram,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l01",
+          "yoma-070b-l32"
+        ]
       },
       {
         id: "rashi-yoma-070b-004",
@@ -161834,11 +161841,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 4,
         he: "היא כדתניא לקמן שכל הפרשה נאמרה על הסדר וכו': עביד",
-        en: "He performed as written - Torat Kohanim was written first.",
+        en: "as is taught further on, that the entire passage was stated in order, etc. 'He performs it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l01"
+        ]
       },
       {
         id: "rashi-yoma-070b-005",
@@ -161846,11 +161855,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 5,
         he: "כדכתיב. תורת כהנים כתיבא",
-        en: "Therefore the rams and sin-offering fats come after the day's service, then removal of ladle and fire-pan.",
+        en: "as it is written' - Torat Kohanim was written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l04"
+        ]
       },
       {
         id: "rashi-yoma-070b-006",
@@ -161858,11 +161869,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 6,
         he: "ברישא הלכך אילו ואיל העם ואימורי",
-        en: "Then the rams and the sin-offering fats and then the ladle and fire-pan.",
+        en: "first; therefore his ram, the people's ram, and the sin-offering's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l04"
+        ]
       },
       {
         id: "rashi-yoma-070b-007",
@@ -161870,11 +161883,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 7,
         he: "חטאת בתר עבודת היום והדר הוצאת",
-        en: "Then the mussafin and afternoon tamid which are written last in Numbers.",
+        en: "sacrificial parts come after the day's service, and then the removal of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l04"
+        ]
       },
       {
         id: "rashi-yoma-070b-008",
@@ -161882,11 +161897,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 8,
         he: "כף ומחתה ואחר כך מוספין ותמיד",
-        en: "This 'besides the sin-offering of atonement' - which implies the external goat precedes the rams.",
+        en: "the ladle and fire-pan, and then the mussafin and the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l04"
+        ]
       },
       {
         id: "rashi-yoma-070b-009",
@@ -161894,11 +161911,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 9,
         he: "של בין הערבים דכתיבי לבסוף",
-        en: "What does he do with it? Granted 'besides the morning burnt-offering' is not written for Yom Kippur itself.",
+        en: "afternoon tamid, since they are written last,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l04"
+        ]
       },
       {
         id: "rashi-yoma-070b-010",
@@ -161906,11 +161925,14 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 10,
         he: "בחומש הפקודים: האי מלבד חטאת",
-        en: "And the continuum-learner does not derive from it to do the Torat Kohanim things first.",
+        en: "in the Book of Numbers. 'This, besides the sin-offering of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l04",
+          "yoma-070b-l09"
+        ]
       },
       {
         id: "rashi-yoma-070b-011",
@@ -161918,11 +161940,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 11,
         he: "הכפורים. דמשמע דשעיר החיצון",
-        en: "But this 'besides the sin-offering of atonement' written for Yom Kippur - what does he do with it?",
+        en: "atonement' - since it implies that the external goat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l09"
+        ]
       },
       {
         id: "rashi-yoma-070b-012",
@@ -161930,11 +161954,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 12,
         he: "קודם לאילו ואיל העם מאי עביד ליה",
-        en: "What the internal goat atones for, the external goat also atones for - as derived in the first chapter of Shevuot.",
+        en: "precedes his ram and the people's ram - what does Rabbi Eliezer do with it?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l09"
+        ]
       },
       {
         id: "rashi-yoma-070b-013",
@@ -161942,11 +161968,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 13,
         he: "בשלמא מלבד עולת הבקר לאו ביום",
-        en: "For awareness at the end without awareness at the beginning - the external goat atones.",
+        en: "Granted, 'besides the morning burnt-offering' is not written regarding the day",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l09"
+        ]
       },
       {
         id: "rashi-yoma-070b-014",
@@ -161954,11 +161982,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 14,
         he: "הכיפורים כתיב ומרגלים לא יליף",
-        en: "As it says: 'a sin-offering goat, besides the sin-offering of atonement' - what the one atones for the other atones for.",
+        en: "of Atonement itself, so one cannot learn from it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l09"
+        ]
       },
       {
         id: "rashi-yoma-070b-015",
@@ -161966,11 +161996,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 15,
         he: "דסמיך אסידרא למיעבד הני דתורת",
-        en: "Just as the internal goat does not atone except for something with awareness at the end.",
+        en: "to rely on the order to perform these Torat Kohanim actions",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l09"
+        ]
       },
       {
         id: "rashi-yoma-070b-016",
@@ -161978,11 +162010,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 16,
         he: "כהנים ברישא אלא האי דכתב ביום",
-        en: "As explained there, so too the external goat does not atone, etc.",
+        en: "first; but this one, which is written regarding the Day",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l09"
+        ]
       },
       {
         id: "rashi-yoma-070b-017",
@@ -161990,11 +162024,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 17,
         he: "הכפורים גופיה מאי עביד ליה:",
-        en: "In his name - in Rabbi Akiva's name.",
+        en: "of Atonement itself - what does he do with it?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l09"
+        ]
       },
       {
         id: "rashi-yoma-070b-018",
@@ -162002,11 +162038,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 18,
         he: "על מה שזה מכפר וכו'. במתניתין",
-        en: "One - of the seven lambs.",
+        en: "'For what the one atones, etc.' - in the Mishnah",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l09"
+        ]
       },
       {
         id: "rashi-yoma-070b-019",
@@ -162014,11 +162052,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 19,
         he: "דפ\"ק דשבועות (דף ב.) דריש ליה",
-        en: "He performed one - as written 'besides the morning burnt-offering' to link some of the mussafin to the morning tamid.",
+        en: "of the first chapter of Shevuot (2a) this is derived",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l09"
+        ]
       },
       {
         id: "rashi-yoma-070b-020",
@@ -162026,11 +162066,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 20,
         he: "הכי ועל שיש בה ידיעה בסוף ואין",
-        en: "And then he performed the day's service - for if you say all mussafin come with the morning tamid.",
+        en: "thus: and for a sin that has awareness at the end but not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l09"
+        ]
       },
       {
         id: "rashi-yoma-070b-021",
@@ -162038,11 +162080,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 21,
         he: "בה ידיעה בתחילה שעיר הנעשה",
-        en: "Perhaps he will become tired and be unable to perform the day's service which is the essential atonement.",
+        en: "at the beginning, the goat made",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l09"
+        ]
       },
       {
         id: "rashi-yoma-070b-022",
@@ -162050,11 +162094,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 22,
         he: "בחוץ מכפר שנאמר ושעיר חטאת",
-        en: "Perhaps he will neglect - and not do them after the day's service.",
+        en: "outside atones, as it says, 'and a sin-offering goat,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l09"
+        ]
       },
       {
         id: "rashi-yoma-070b-023",
@@ -162062,11 +162108,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 23,
         he: "אחד מלבד חטאת הכפורים על",
-        en: "And if you worry he might become tired - there is no concern.",
+        en: "one, besides the sin-offering of atonement' - for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l09"
+        ]
       },
       {
         id: "rashi-yoma-070b-024",
@@ -162074,11 +162122,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 24,
         he: "מה שזה מכפר זה מכפר מה פנימי",
-        en: "For regarding the day's service he is energetic and regains his strength.",
+        en: "what the one atones the other atones; just as the inner one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l09"
+        ]
       },
       {
         id: "rashi-yoma-070b-025",
@@ -162086,11 +162136,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 25,
         he: "אינו מכפר אלא על דבר שיש בו",
-        en: "And all the mussafin he did not perform - for Torat Kohanim precedes and he needs to fulfill both this and that sequence.",
+        en: "atones only for something that has",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l09"
+        ]
       },
       {
         id: "rashi-yoma-070b-026",
@@ -162098,11 +162150,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 26,
         he: "ידיעה כדמפרש התם אף חיצון",
-        en: "All opinions hold - both Rabbi Eliezer and Rabbi Akiva.",
+        en: "awareness, as is explained there, so too the outer one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l09"
+        ]
       },
       {
         id: "rashi-yoma-070b-027",
@@ -162110,11 +162164,14 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 27,
         he: "אינו מכפר וכו': משמו. של ר'",
-        en: "One ram is for the community - for all say 'the people's ram' and they do not discuss the ram written in Numbers at all.",
+        en: "atones only for the same, etc. 'In his name' - Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l09",
+          "yoma-070b-l12"
+        ]
       },
       {
         id: "rashi-yoma-070b-028",
@@ -162122,11 +162179,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 28,
         he: "עקיבא: אחד. מן שבעת כבשים:",
-        en: "The ram mentioned here - in Torat Kohanim: 'and one ram for a burnt-offering.'",
+        en: "Akiva's. 'One' - of the seven lambs.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l12"
+        ]
       },
       {
         id: "rashi-yoma-070b-029",
@@ -162134,11 +162193,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 29,
         he: "עביד חד. כדכתיב מלבד עולת",
-        en: "And they are both needed - there is reason to think a freewill offering is better to be chosen so it will be accepted willingly.",
+        en: "'He performs one' - as it is written, 'besides the burnt-offering of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l19"
+        ]
       },
       {
         id: "rashi-yoma-070b-030",
@@ -162146,11 +162207,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 30,
         he: "הבקר לסמוך מקצת המוספין לעולת",
-        en: "And there is reason to think an obligatory offering is better to be choice so he fulfills his obligation properly.",
+        en: "the morning,' to attach some of the mussafin to the burnt-offering of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l19"
+        ]
       },
       {
         id: "rashi-yoma-070b-031",
@@ -162158,11 +162221,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 31,
         he: "התמיד: והדר עביד עבודת היום.",
-        en: "As taught.",
+        en: "the [morning] tamid. 'And then he performs the day's service.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l19"
+        ]
       },
       {
         id: "rashi-yoma-070b-032",
@@ -162170,11 +162235,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 32,
         he: "דאי אמרת כל המוספין יקריב עם",
-        en: "And then the rams and the people's ram and then the sin-offering fats - all in the third immersion.",
+        en: "For if you say he offers all the mussafin with",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l19"
+        ]
       },
       {
         id: "rashi-yoma-070b-033",
@@ -162182,11 +162249,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 33,
         he: "תמיד של שחר דילמא חליש ולא",
-        en: "For the text of Torat Kohanim is written first, therefore the rams and sin-offering fats come after the day's service.",
+        en: "the morning tamid, perhaps he will grow weak and not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l19"
+        ]
       },
       {
         id: "rashi-yoma-070b-034",
@@ -162194,11 +162263,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 34,
         he: "מצי למיעבד עבודת היום והוא",
-        en: "And then the ladle and fire-pan removal and then the mussafin and afternoon tamid.",
+        en: "be able to perform the day's service, which is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l19"
+        ]
       },
       {
         id: "rashi-yoma-070b-035",
@@ -162206,11 +162277,14 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 35,
         he: "עיקר הכפרה: דילמא פשע. ולא",
-        en: "This 'besides the sin-offering of atonement' which implies the external goat precedes the rams.",
+        en: "the essential atonement. 'Perhaps he will be negligent' - and not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l19",
+          "yoma-070b-l22"
+        ]
       },
       {
         id: "rashi-yoma-070b-036",
@@ -162218,11 +162292,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 36,
         he: "עביד להו אחר עבודת היום ולמאי",
-        en: "What does he do with it? Granted 'besides the morning burnt-offering' is not written for Yom Kippur.",
+        en: "perform them after the day's service; and as for what",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l22"
+        ]
       },
       {
         id: "rashi-yoma-070b-037",
@@ -162230,11 +162306,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 37,
         he: "דחיישת דילמא חליש ליכא למיחש",
-        en: "But 'besides the sin-offering of atonement' written for Yom Kippur itself - what does he do with it?",
+        en: "you feared, that perhaps he will grow weak, there is no need to worry,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l22"
+        ]
       },
       {
         id: "rashi-yoma-070b-038",
@@ -162242,11 +162320,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 38,
         he: "דלגבי עבודת היום זריז הוא ומחליף",
-        en: "On what the one atones the other atones - as derived in the first chapter of Shevuot.",
+        en: "since for the day's service he is diligent, and he renews",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l22"
+        ]
       },
       {
         id: "rashi-yoma-070b-039",
@@ -162254,11 +162334,14 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 39,
         he: "כח וכולהו מוספין לא עביד דתורת",
-        en: "From his name - Rabbi Akiva's name. One - of the seven lambs.",
+        en: "his strength; and he does not perform all the mussafin first, since Torat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l22",
+          "yoma-070b-l16"
+        ]
       },
       {
         id: "rashi-yoma-070b-040",
@@ -162266,11 +162349,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 40,
         he: "כהנים קדים וצריך לקיים זו וזו סדר",
-        en: "He performed one - as written 'besides the morning burnt-offering' to attach some mussafin to the morning tamid.",
+        en: "Kohanim comes first, and he must fulfill both this order and that,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l16"
+        ]
       },
       {
         id: "rashi-yoma-070b-041",
@@ -162278,11 +162363,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 41,
         he: "הכתוב ומדרשי המקראות: דכולי",
-        en: "And then the day's service.",
+        en: "the order of the verse and the derivations of the texts.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l16"
+        ]
       },
       {
         id: "rashi-yoma-070b-042",
@@ -162290,11 +162377,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 42,
         he: "עלמא מיהא. בין לר' אליעזר בין",
-        en: "For if you say all mussafin with the morning tamid, perhaps he will tire and be unable to perform the day's service.",
+        en: "'That all agree' - both according to Rabbi Eliezer and according to",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l24"
+        ]
       },
       {
         id: "rashi-yoma-070b-043",
@@ -162302,11 +162391,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 43,
         he: "לר' עקיבא חד איל הוא דציבור",
-        en: "Perhaps he will neglect - and not do them after. And if you worry about tiredness - no concern.",
+        en: "Rabbi Akiva, there is one ram of the community,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l24"
+        ]
       },
       {
         id: "rashi-yoma-070b-044",
@@ -162314,11 +162405,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 44,
         he: "דכולהו אמרי איל העם ולא איירי",
-        en: "For the day's service he is energetic and regains strength. And all mussafin he did not do for Torat Kohanim precedes.",
+        en: "since all of them say 'the people's ram,' and they do not discuss",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l24"
+        ]
       },
       {
         id: "rashi-yoma-070b-045",
@@ -162326,11 +162419,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 45,
         he: "באיל הכתוב בחומש הפקודים כלל:",
-        en: "All opinions hold. One ram is for the community.",
+        en: "the ram written in the Book of Numbers at all.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l24"
+        ]
       },
       {
         id: "rashi-yoma-070b-046",
@@ -162338,11 +162433,14 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 46,
         he: "האמור כאן. בתורת כהנים ואיל אחד לעולה: וצריכי. שיש",
-        en: "The ram mentioned here - in Torat Kohanim: and one ram as a burnt-offering.",
+        en: "'Stated here' - in Torat Kohanim: 'and one ram for a burnt-offering.' 'And both are needed' - since there is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l24",
+          "yoma-070b-l30"
+        ]
       },
       {
         id: "rashi-yoma-070b-047",
@@ -162350,11 +162448,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 47,
         he: "דעת נוטה לומר נדבה מובחרת כדי שתהא מקובלת ברצון ויש",
-        en: "And they are both needed - reason for freewill offering quality; reason for obligatory offering quality.",
+        en: "a view inclined to say a voluntary offering should be the choicest, so that it will be accepted willingly; and there is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l30"
+        ]
       },
       {
         id: "rashi-yoma-070b-048",
@@ -162362,11 +162462,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 48,
         he: "דעת נוטה לומר חובה תהא מובחרת כדי שיצא ידי חובתו יפה:",
-        en: "As the entire.",
+        en: "a view inclined to say an obligatory offering should be the choicest, so that he fulfills his obligation properly.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l30"
+        ]
       },
       {
         id: "rashi-yoma-070b-049",
@@ -162374,11 +162476,13 @@ const DAF_CONTENT = {
         daf: "70b",
         vilnaLine: 49,
         he: "שכל",
-        en: "All opinions.",
+        en: "'That the entire' - the comment is completed on 71a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-070b-l30"
+        ]
       }
     ],
     review: "reviewed"
