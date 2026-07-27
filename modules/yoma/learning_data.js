@@ -162998,11 +162998,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 1,
         he: "שכל הפרשה נאמרה על הסדר וכו'. ואי כסדרן כתיבי וכן הסדר",
-        en: "The entire portion was stated in order etc. - and if they were written in order and the sequence is thus.",
+        en: "'That the entire passage was stated in order,' etc. - for if they were written in order, then this would be the order,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l01"
+        ]
       },
       {
         id: "rashi-yoma-071a-002",
@@ -163010,11 +163012,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 2,
         he: "שמוציאן בלבישה ראשונה ואין עבודה חיצונה של בגדי זהב מפסקת",
-        en: "And he takes them out at the first vestment change, and no outer golden-vestment service interrupts.",
+        en: "that he takes them out at the first donning, and no outer service in the golden vestments interrupts",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l01"
+        ]
       },
       {
         id: "rashi-yoma-071a-003",
@@ -163022,11 +163026,14 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 3,
         he: "בין עבודת היום להוצאת כף ומחתה לא משכחת לה וכו' כבר",
-        en: "Between the day's service and the removal of ladle and fire-pan - you will not find it. Etc. I already explained this in the chapter 'Amar Lahem HaMemuneh' (above, 32b).",
+        en: "between the day's service and the removal of the ladle and fire-pan - yet you would not find it [five immersions/ten sanctifications] that way, etc. I already",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l02",
+          "yoma-071a-l04"
+        ]
       },
       {
         id: "rashi-yoma-071a-004",
@@ -163034,11 +163041,14 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 4,
         he: "פרשתיה בפרק אמר להם הממונה (לעיל דף לב:): בשעיר הנעשה",
-        en: "In the external goat - as written (Num. 29) 'besides the sin-offering of atonement.'",
+        en: "explained this in the chapter 'Amar Lahem HaMemuneh' (above, 32b). 'In the goat made",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l04",
+          "yoma-071a-l06"
+        ]
       },
       {
         id: "rashi-yoma-071a-005",
@@ -163046,11 +163056,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 5,
         he: "בחוץ. כדכתיב (במדבר כט) מלבד",
-        en: "And it is not written here, but the rams and people's ram are written.",
+        en: "outside' - as it is written (Numbers 29), 'besides",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l06"
+        ]
       },
       {
         id: "rashi-yoma-071a-006",
@@ -163058,11 +163070,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 6,
         he: "חטאת הכפורים והוא אינו כתוב",
-        en: "After the removal of the ladle and fire-pan.",
+        en: "the sin-offering of atonement,' and it is not written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l06"
+        ]
       },
       {
         id: "rashi-yoma-071a-007",
@@ -163070,11 +163084,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 7,
         he: "כאן אבל אילו ואיל העם דווקא",
-        en: "And we did not need to disrupt the order of the verses.",
+        en: "here; but his ram and the people's ram are specifically",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l06"
+        ]
       },
       {
         id: "rashi-yoma-071a-008",
@@ -163082,11 +163098,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 8,
         he: "כתבינהו קרא אחר הוצאת כף ומחתה",
-        en: "The verse says 've'yatza ve'asa' (he went out and performed) - and this is the first exit mentioned in the portion.",
+        en: "written by the verse after the removal of the ladle and fire-pan,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l06"
+        ]
       },
       {
         id: "rashi-yoma-071a-009",
@@ -163094,11 +163112,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 9,
         he: "ולא איצטריך לן לשבש סדרא דקראי:",
-        en: "Therefore necessarily before the removal of the ladle and fire-pan he performed them.",
+        en: "so we do not need to disrupt the order of the verses.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l06"
+        ]
       },
       {
         id: "rashi-yoma-071a-010",
@@ -163106,11 +163126,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 10,
         he: "אמר קרא ויצא ועשה וגו'. וזו יציאה",
-        en: "With an interruption between them for the day's service.",
+        en: "'The verse says, and he shall go out and perform,' etc. - and this is the exit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l07"
+        ]
       },
       {
         id: "rashi-yoma-071a-011",
@@ -163118,11 +163140,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 11,
         he: "ראשונה האמורה בפרשה הילכך על",
-        en: "'The vestments he put on' - implying this is the second removal, learn from this there is an interruption of vestment change.",
+        en: "first mentioned in the passage; therefore, of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l07"
+        ]
       },
       {
         id: "rashi-yoma-071a-012",
@@ -163130,11 +163154,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 12,
         he: "כרחך מקמי הוצאת כף ומחתה עביד",
-        en: "Between the day's service and the removal of ladle and fire-pan.",
+        en: "necessity, before the removal of the ladle and fire-pan he performs",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l07"
+        ]
       },
       {
         id: "rashi-yoma-071a-013",
@@ -163142,11 +163168,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 13,
         he: "להו בהפסקה שביניהם לעבודת היום:",
-        en: "And Rava - he does not respond to Rabbi Zeira's question but merely explains the reason for the Mishnah's text which disrupts the verses.",
+        en: "them, with the day's service as the interruption between them.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l07"
+        ]
       },
       {
         id: "rashi-yoma-071a-014",
@@ -163154,11 +163182,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 14,
         he: "אשר לבש כבר. אלמא זו היא פשיטה",
-        en: "The reading is 'the verses are written' etc. - and do not read 'two'.",
+        en: "'That he already wore' - this shows that this is the removal",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l09"
+        ]
       },
       {
         id: "rashi-yoma-071a-015",
@@ -163166,11 +163196,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 15,
         he: "שניה שמע מינה יש הפסקת חילוף",
-        en: "He does not see the burning bull and goat - implying their burning occurs while the HP still wears white vestments.",
+        en: "second one; learn from this that there is an interruption of the change of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l09"
+        ]
       },
       {
         id: "rashi-yoma-071a-016",
@@ -163178,11 +163210,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 16,
         he: "בגדים בין עבודת היום להוצאת כף",
-        en: "And the sin-offering eimurim - all opinions agree these come after, when he immerses the third time with the rams.",
+        en: "vestments between the day's service and the removal of the ladle",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l09"
+        ]
       },
       {
         id: "rashi-yoma-071a-017",
@@ -163190,11 +163224,14 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 17,
         he: "ומחתה ורבא לא אאתקפתיה דרבי",
-        en: "Say from this verse and beyond - it was not written in order.",
+        en: "and fire-pan. And Rava does not respond to Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l06",
+          "yoma-071a-l09"
+        ]
       },
       {
         id: "rashi-yoma-071a-018",
@@ -163202,11 +163239,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 18,
         he: "זירא קאי אלא לפרושי טעמא",
-        en: "The Mishnah text is altered - should we say burning of bull and goat comes after the third immersion?",
+        en: "Zeira's challenge, but rather comes to explain the reason",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l06"
+        ]
       },
       {
         id: "rashi-yoma-071a-019",
@@ -163214,11 +163253,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 19,
         he: "דמתניתא דמשבשא קראי: ה\"ג קראי",
-        en: "The verse says 'and the one who sends the goat etc.' - and in the same language is written 'and the one who burns them.'",
+        en: "for the Mishnah being the one that disrupts the verses. The correct reading is: 'the verses",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l15"
+        ]
       },
       {
         id: "rashi-yoma-071a-020",
@@ -163226,11 +163267,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 20,
         he: "כתיבי וכו'. ולא גרס תרי: אינו",
-        en: "Which speaks of burning the bull and goat - both written after 'the fat of the sin offering.'",
+        en: "are written' etc., and one should not read 'two.' 'He does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l15"
+        ]
       },
       {
         id: "rashi-yoma-071a-021",
@@ -163238,11 +163281,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 21,
         he: "רואה פר ושעיר הנשרפים. אלמא",
-        en: "By necessity, sending the goat precedes the burning of fats as written.",
+        en: "see the burnt bull and goat' - this shows that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l15"
+        ]
       },
       {
         id: "rashi-yoma-071a-022",
@@ -163250,11 +163295,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 22,
         he: "שריפתן בעוד שכהן גדול לבוש בגדי",
-        en: "He sent the goat to the wilderness, then 'the fat of the sin offering' - by necessity 'the one who sends.'",
+        en: "their burning happens while the High Priest is still dressed in the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l15"
+        ]
       },
       {
         id: "rashi-yoma-071a-023",
@@ -163262,11 +163309,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 23,
         he: "בוץ היא: ואילו אימורי חטאת.",
-        en: "Written after it - is like someone interrupting a topic and returning to complete it.",
+        en: "linen vestments. 'But the sin-offering's sacrificial parts' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l15"
+        ]
       },
       {
         id: "rashi-yoma-071a-024",
@@ -163274,11 +163323,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 24,
         he: "לדברי הכל בתר הכי עביד להו",
-        en: "And that sending I mentioned above - the sender becomes tamei in garments.",
+        en: "by all opinions, he performs them afterward,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l15"
+        ]
       },
       {
         id: "rashi-yoma-071a-025",
@@ -163286,11 +163337,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 25,
         he: "(כשטובל) בטבילה שלישית עם אילו",
-        en: "Just as 'the sender' - even though written after the sin-offering fats, it refers to what happened originally.",
+        en: "when he immerses at the third immersion, together with his ram",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l15"
+        ]
       },
       {
         id: "rashi-yoma-071a-026",
@@ -163298,11 +163351,14 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 26,
         he: "ואיל העם: אימא חוץ מפסוק זה",
-        en: "So 'the burner' - even though written after them, it refers to what happened originally.",
+        en: "and the people's ram. 'Say: except from this verse",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l15",
+          "yoma-071a-l19"
+        ]
       },
       {
         id: "rashi-yoma-071a-027",
@@ -163310,11 +163366,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 27,
         he: "ואילך. לא נכתבה על הסדר:",
-        en: "On the contrary: 'the burner' refers to now - for the command for their burning is written after the sin-offering fats.",
+        en: "onward' - it was not written in order.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l19"
+        ]
       },
       {
         id: "rashi-yoma-071a-028",
@@ -163322,11 +163380,14 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 28,
         he: "שביש מתניתא. ואימא שריפת הפר",
-        en: "Bring out and burn them. So 'the sender' is also now - specifically written after the fats.",
+        en: "'The Mishnah's text is disrupted' - one might say the burning of the bull",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l19",
+          "yoma-071a-l20a"
+        ]
       },
       {
         id: "rashi-yoma-071a-029",
@@ -163334,11 +163395,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 29,
         he: "והשעיר אחר טבילה שלישית: אמר",
-        en: "And the Azazel sending mentioned above - this means: when the time for sending comes.",
+        en: "and the goat comes after the third immersion. 'The verse",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l20a"
+        ]
       },
       {
         id: "rashi-yoma-071a-030",
@@ -163346,11 +163409,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 30,
         he: "קרא והמשלח את השעיר וגו'.",
-        en: "'The sender' refers to originally - like returning to a topic, as I explained.",
+        en: "says, and the one who sends the goat, etc.,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l20b"
+        ]
       },
       {
         id: "rashi-yoma-071a-031",
@@ -163358,11 +163423,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 31,
         he: "ובאותו לשון עצמו נאמר והשורף",
-        en: "He found him in the marketplace - honors him publicly saying: my master the HP.",
+        en: "and in that same language it is stated, and the one who burns",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l20b"
+        ]
       },
       {
         id: "rashi-yoma-071a-032",
@@ -163370,11 +163437,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 32,
         he: "אותם דמשתעי בשריפת הפר ושעיר",
-        en: "He sustains the living - He who gives life.",
+        en: "them, which speaks of the burning of the bull and goat,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l20b"
+        ]
       },
       {
         id: "rashi-yoma-071a-033",
@@ -163382,11 +163451,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 33,
         he: "ושניהן כתובין אחר ואת חלב",
-        en: "They took leave of each other - one took permission from the other to return home.",
+        en: "and both of them are written after 'and the fat of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l20b"
+        ]
       },
       {
         id: "rashi-yoma-071a-034",
@@ -163394,11 +163465,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 34,
         he: "החטאת ועל כרחך שילוח השעיר",
-        en: "I shall walk etc. - since it spoke of good lives, it cites this.",
+        en: "the sin-offering'; and of necessity, the sending of the goat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l20b"
+        ]
       },
       {
         id: "rashi-yoma-071a-035",
@@ -163406,11 +163479,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 35,
         he: "מקמי הקטרת אימורים הוה כדכתיב",
-        en: "Where markets are - a person can buy food; since David moved constantly, he prayed about this.",
+        en: "occurred before the burning of the sacrificial parts, as it is written,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l20b"
+        ]
       },
       {
         id: "rashi-yoma-071a-036",
@@ -163418,11 +163493,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 36,
         he: "ושלח את השעיר במדבר והדר ואת",
-        en: "One who becomes rich in old age after being poor in youth - it is as if he was reborn from death.",
+        en: "and he shall send the goat to the wilderness, and only afterward, and",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l20b"
+        ]
       },
       {
         id: "rashi-yoma-071a-037",
@@ -163430,11 +163507,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 37,
         he: "חלב החטאת על כרחך והמשלח",
-        en: "To you, O men, I call - for this reason it is cited.",
+        en: "the fat of the sin-offering. And of necessity, 'the one who sends,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l20b"
+        ]
       },
       {
         id: "rashi-yoma-071a-038",
@@ -163442,11 +163521,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 38,
         he: "דכתיב בתריה כאדם שהפסיק הענין",
-        en: "Similar to women - humble and weak of strength.",
+        en: "which is written after it, is like a person who interrupted the topic",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l20b"
+        ]
       },
       {
         id: "rashi-yoma-071a-039",
@@ -163454,11 +163535,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 39,
         he: "שהיה מדבר בו וחוזר ומסיימו ואומר",
-        en: "Ishim - from the word 'isha' (woman), since it does not write 'anashim.'",
+        en: "he was discussing and then returns to finish it, saying,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l20b"
+        ]
       },
       {
         id: "rashi-yoma-071a-040",
@@ -163466,11 +163549,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 40,
         he: "ואותו שילוח שאמרתי לך למעלה",
-        en: "HP's festive procession - his return home after Yom Kippur was a celebration.",
+        en: "'and that sending which I told you about above,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l20b"
+        ]
       },
       {
         id: "rashi-yoma-071a-041",
@@ -163478,11 +163563,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 41,
         he: "המשלחו מטמא בגדים ובאותו לשון",
-        en: "He made a feast for his friends - to celebrate the successful completion of the Yom Kippur service.",
+        en: "the one who sends it becomes tamei in his garments'; and in that same language",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l20b"
+        ]
       },
       {
         id: "rashi-yoma-071a-042",
@@ -163490,11 +163577,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 42,
         he: "עצמו נאמר והשורף: מה והמשלח.",
-        en: "The Kohen Gadol's day was a spiritual mountain - a high point for all Israel.",
+        en: "it is stated, and the one who burns. 'Just as and the one who sends,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l20b"
+        ]
       },
       {
         id: "rashi-yoma-071a-043",
@@ -163502,11 +163591,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 43,
         he: "אף על פי שנכתב אחר אימורי",
-        en: "His neighbors would come to celebrate with him that he had emerged safely from the Holy of Holies.",
+        en: "even though it is written after the sin-offering's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l20b"
+        ]
       },
       {
         id: "rashi-yoma-071a-044",
@@ -163514,11 +163605,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 44,
         he: "חטאת דמעיקרא הוא אף והשורף",
-        en: "From generation to generation - the great occasions of Jewish history.",
+        en: "sacrificial parts, refers to what happened originally, so too and the one who burns,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l20b"
+        ]
       },
       {
         id: "rashi-yoma-071a-045",
@@ -163526,11 +163619,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 45,
         he: "אף על פי שנכתב אחריהן מעיקרא",
-        en: "The final verse of the chapter - the closing of the Torah portion.",
+        en: "even though it is written after them, refers to what happened originally",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l20b"
+        ]
       },
       {
         id: "rashi-yoma-071a-046",
@@ -163538,11 +163633,14 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 46,
         he: "הוא: אדרבה מה שורף דהשתא. שהרי צווי עיקר שריפתן אחר אימורי חטאת נאמר כדכתיב ואת חלב החטאת וגו' והדר ואת פר",
-        en: "A statute forever - the Yom Kippur laws are eternal.",
+        en: "as well. 'On the contrary: just as the one who burns refers to now' - for the main command for their burning is stated after the sin-offering's sacrificial parts, as it is written, 'and the fat of the sin-offering' etc., and only afterward, 'and the bull",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l20b",
+          "yoma-071a-l21"
+        ]
       },
       {
         id: "rashi-yoma-071a-047",
@@ -163550,11 +163648,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 47,
         he: "החטאת יוציא ושרפו: אף המשלח דהשתא. דווקא כתב אחר אימורין ושילוח שעיר האמור למעלה מהם הכי קאמר ונשא",
-        en: "For the HP who completed the service - the successful performance obligates celebration.",
+        en: "of the sin-offering he shall take out and burn' - so too the one who sends refers to now, since it was written specifically after the sacrificial parts; and the sending of the goat mentioned above them means this: 'and the goat shall bear",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l21"
+        ]
       },
       {
         id: "rashi-yoma-071a-048",
@@ -163562,11 +163662,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 48,
         he: "השעיר עליו את עונותם ושלחו המדברה כשיגיע זמן שילוחו: והמשלח מעיקרא משמע. כאדם שחוזר לענין שהפסיק בו וכמו",
-        en: "All who heard - felt a share in the atonement.",
+        en: "upon itself all their iniquities, and it shall be sent to the wilderness' when the time for its sending arrives. 'But the one who sends implies what happened originally' - like a person who returns to a topic he had interrupted, and just as",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l22"
+        ]
       },
       {
         id: "rashi-yoma-071a-049",
@@ -163574,11 +163676,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 49,
         he: "שפירשתי ושילוח שעיר במקומו נכתב מדלא הדר וכתב אחר אימורין ושלח השעיר והמשלחו יכבס בגדיו: רבא אמר. לא מצית",
-        en: "The HP as intercessor for all Israel - his successful day atoned for the entire nation.",
+        en: "I explained; and the sending of the goat is written in its proper place, since it did not go back and write, after the sacrificial parts, and he shall send the goat and the one who sends it shall wash his garments. 'Rava said' - you cannot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l22"
+        ]
       },
       {
         id: "rashi-yoma-071a-050",
@@ -163586,11 +163690,14 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 50,
         he: "אמרת דשילוח שעיר לא במקומו נאמר דהא לא הזקיקו לעמוד שם אלא עד שעת כפרה והיא עבודת היום דמתן דמים: אתי משלח.",
-        en: "Return home with joy - the completion of Yom Kippur was a time of national celebration.",
+        en: "say that the sending of the goat was not stated in its proper place, since it did not require him to remain standing there except until the time of atonement, which is the day's service of the sprinkling of the blood. 'The sender comes'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l22",
+          "yoma-071a-l24"
+        ]
       },
       {
         id: "rashi-yoma-071a-051",
@@ -163598,11 +163705,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 51,
         he: "ליום המחרת: מצאו בשוק. מכבדו לפני הבריות ואומר לו אישי כהן גדול וכו': מחייה חיים. הוא הקדוש ברוך הוא עשינו שליחותו:",
-        en: "The guests at the feast - companions who celebrated the HP's safe emergence.",
+        en: "the next day. 'He found him in the market' - he honors him before others and says to him, 'my master, the High Priest,' etc. 'He who gives life to the living' - refers to the Holy One, blessed be He; 'we have performed His mission.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l24"
+        ]
       },
       {
         id: "rashi-yoma-071a-052",
@@ -163610,11 +163719,14 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 52,
         he: "מפטרי מהדדי. שהיה אחד נוטל רשות מחבירו לשוב לביתו: אתהלך וכו'. איידי דאיירי בחיים מתוקנים נקט לה: זה",
-        en: "The entire passage refers to the HP's role as national representative.",
+        en: "'They take leave of each other' - one takes permission from the other to return home. 'I shall walk,' etc. - since it deals with a proper life, he cites this. 'This is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l25",
+          "yoma-071a-l27"
+        ]
       },
       {
         id: "rashi-yoma-071a-053",
@@ -163622,11 +163734,14 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 53,
         he: "מקום שווקים. שאדם מוצא לקנות מזונותיו ולפי שהיה דוד מטלטל נע ונד היה מתפלל על הדבר: שמתהפכות עליו. מי שהיה",
-        en: "His personal success on Yom Kippur was Israel's collective success.",
+        en: "the place of markets' - where a person finds his food to buy; and since David was constantly wandering, he prayed about this matter. 'Which turn over for him' - one who was",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l27",
+          "yoma-071a-l28"
+        ]
       },
       {
         id: "rashi-yoma-071a-054",
@@ -163634,11 +163749,14 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 54,
         he: "עני בילדותו ונעשה עשיר לעת זקנותו דומה לו כאילו עכשיו נעשה חי מתוך מיתה: אליכם אישים אקרא.  בראש פרשת ושנות חיים",
-        en: "Not just the HP's achievement - but everyone who supported the service.",
+        en: "poor in his youth and became rich in his old age, it is as if he has now come to life from death. 'To you, O men, I call' - at the start of the passage, 'and years of life'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l28",
+          "yoma-071a-l30"
+        ]
       },
       {
         id: "rashi-yoma-071a-055",
@@ -163646,11 +163764,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 55,
         he: "הוא להכי נקט ליה: שדומין לנשים. ענותנין ותשושי כח: אישים. לשון אשה מדלא כתיב אנשים: (שנסך) יין וכו'. אישים לשון קרבן אשה:",
-        en: "The celebration reflected communal relief and gratitude.",
+        en: "is why he cites it there. 'Who resemble women' - humble and weak in strength. 'Ishim' - a term related to 'isha' (woman), since it does not write 'anashim' (men). 'To pour wine' etc. - 'ishim' is also a term for a fire-offering (isheh).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l30"
+        ]
       },
       {
         id: "rashi-yoma-071a-056",
@@ -163658,11 +163778,13 @@ const DAF_CONTENT = {
         daf: "71a",
         vilnaLine: 56,
         he: "מריח",
-        en: "From the scent of water.",
+        en: "'From the scent' [of water it will bud] - continuing the same verse cited above.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-071a-l33"
+        ]
       }
     ],
     review: "reviewed"
