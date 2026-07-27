@@ -1,525 +1,615 @@
 {
-  "canonicalRef": "Yoma 60b",
-  "summary": "Two topics: First, the eight blessings recited by the HP after the Torah reading in the Temple courtyard. Uniquely in the Temple, he pronounced the explicit Divine Name (Shem haMeforash), causing the entire congregation to prostrate themselves. This communal moment of direct divine encounter is the public counterpart to the HP's private encounter inside the Holy of Holies. Second, the closing service sequence: the HP's final (fourth) entry to the Holy of Holies in white garments to retrieve the fire pan, followed by a change back to golden garments for the closing animal offerings.",
-  "sugyot": [
+ "canonicalRef": "Yoma 60b",
+ "summary": "Two topics: First, the eight blessings recited by the HP after the Torah reading in the Temple courtyard. Uniquely in the Temple, he pronounced the explicit Divine Name (Shem haMeforash), causing the entire congregation to prostrate themselves. This communal moment of direct divine encounter is the public counterpart to the HP's private encounter inside the Holy of Holies. Second, the closing service sequence: the HP's final (fourth) entry to the Holy of Holies in white garments to retrieve the fire pan, followed by a change back to golden garments for the closing animal offerings.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-060b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 17
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-060b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 17
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.60b.1"
-        },
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.60b.2"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.60b.3"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.60b.4"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.60b.5"
-        },
-        {
-          "vilnaLine": 17,
-          "sefariaRef": "Yoma.60b.6"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.60b.1",
-        "Yoma.60b.2",
-        "Yoma.60b.3",
-        "Yoma.60b.4",
-        "Yoma.60b.5",
-        "Yoma.60b.6"
-      ],
-      "display": {
-        "whats": "Eight blessings after the Torah reading; the Divine Name pronounced aloud in the Temple",
-        "hint": "The HP recites eight blessings after the Torah reading. In the Temple, he pronounces the explicit Divine Name (Shem haMeforash), and the congregation prostrates at each mention.",
-        "title": "The Eight Blessings and the Shem haMeforash"
-      },
-      "learning": {
-        "ahaMoment": "The Divine Name pronounced in the Temple courtyard: the private encounter (HP alone before the Ark with the Name) becomes public, reaching the entire assembly prostrate before God.",
-        "memoryAnchor": "The Name spoken aloud in the Temple: the holiest moment of the inner service echoes outward to the entire community prostrating together.",
-        "learnerQuestion": "What made the HP's recitation of the eight blessings after the Torah reading uniquely powerful, and why was the pronunciation of the explicit Divine Name reserved exclusively for this moment in the Temple?",
-        "coreTension": "Divine Names are normally pronounced euphemistically to preserve their sanctity; yet the Temple on Yom Kippur permitted their full pronunciation, creating a tension between concealment-as-protection and direct-address-as-honor.",
-        "coreMove": "In the Temple on Yom Kippur, the HP's direct pronunciation of the Shem haMeforash was a sanctioned moment of maximum divine intimacy - not a breach of concealment but a deliberate revelation available only at the intersection of the holiest day and the holiest place; the congregation's full prostration was the appropriate response.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "The HP pronounced the explicit Divine Name during the eight blessings only in the Temple on Yom Kippur; this was a sanctioned exception to the general prohibition, representing the maximum point of divine-human intimacy in Jewish practice, marked by the congregation's full prostration upon hearing the Name."
-        },
-        "learningBlocker": "Students may think the prohibition on pronouncing the Shem haMeforash was absolute and universal; they miss that the Temple on Yom Kippur was a sanctioned exception representing the maximum point of divine closeness, not a violation."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Mishnah",
-          "text": "HP recites eight blessings after the Torah reading.",
-          "id": "yoma-060b-l01",
-          "label": "Ruling: HP recites eight blessings after the Torah",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-060b-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "detail",
-          "speaker": "Mishnah",
-          "text": "In the Temple, he pronounces the Shem haMeforash (explicit Divine Name) in the blessings.",
-          "id": "yoma-060b-l03",
-          "label": "Detail: In the Temple, he pronounces the Shem",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-060b-l03",
-              "vilnaLine": 3
-            }
-          ]
-        },
-        {
-          "type": "reaction",
-          "speaker": "Mishnah",
-          "text": "The congregation prostrates fully at each mention of the Divine Name.",
-          "id": "yoma-060b-l06",
-          "label": "Reaction: The congregation prostrates fully at each mention",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-060b-l06",
-              "vilnaLine": 6
-            }
-          ]
-        },
-        {
-          "type": "contrast",
-          "speaker": "Gemara",
-          "text": "Outside the Temple, only 'Adonai' (the substitute Name) is used; inside, the actual Name was pronounced.",
-          "id": "yoma-060b-l14",
-          "label": "Contrast: Outside the Temple, only 'Adonai' (the substitute",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-060b-l14",
-              "vilnaLine": 14
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "eight blessings",
-        "Shem haMeforash",
-        "prostration",
-        "Divine Name",
-        "Temple service",
-        "communal encounter"
-      ],
-      "concepts": {
-        "halachic": [
-          "pronouncing the Divine Name in the Temple",
-          "full prostration of the congregation",
-          "eight blessings"
-        ],
-        "theological": [
-          "the congregation's direct encounter with the divine through the Name",
-          "private inner service made communal"
-        ],
-        "narrative": [
-          "Yom Kippur communal prayer",
-          "Divine Name in Temple"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing that the Shem haMeforash is not pronounced outside the Temple",
-        "Understanding what full prostration (hishtachavaya) looks like"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The prohibition against pronouncing the Shem haMeforash was absolute even in the Temple; the HP always used a substitute name for the Divine Name.",
-          "correction": "In the Temple on Yom Kippur the HP pronounced the explicit Divine Name during the eight blessings - this was a sanctioned exception representing maximum divine intimacy, and the congregation responded with full prostration upon hearing the Name spoken directly."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "person",
-          "name": "HP pronouncing the Shem haMeforash"
-        },
-        {
-          "type": "action",
-          "name": "entire congregation prostrating at each Divine Name"
-        },
-        {
-          "type": "contrast",
-          "name": "Temple Name pronunciation vs. outside Temple substitute"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "He pronounces the explicit Divine Name (Shem haMeforash) in each blessing, and the entire congregation performs a full prostration each time they hear it - a uniquely direct communal encounter with the divine.",
-          "question": "What happens when the HP recites the eight blessings in the Temple courtyard on Yom Kippur?"
-        }
-      ],
-      "finalRuling": "The HP pronounces the explicit Divine Name in the eight blessings; the congregation performs full prostration at each mention - possible only in the Temple.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.60b.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-060b-s02",
-      "lineRange": {
-        "startVilnaLine": 19,
-        "endVilnaLine": 24
-      },
-      "lines": [
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.60b.7"
-        },
-        {
-          "vilnaLine": 24,
-          "sefariaRef": "Yoma.60b.8"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.60b.7",
-        "Yoma.60b.8"
-      ],
-      "display": {
-        "whats": "Closing services: HP's personal offerings, Musaf offerings, and return to white garments for final entry",
-        "hint": "After the Torah reading, the HP offers his personal ram, the communal ram, and the Musaf offerings. He then changes back to white garments for a brief final entry to retrieve the fire pan, then changes to gold for the remaining closing services.",
-        "title": "The HP's Final Entry into the Holy of Holies"
-      },
-      "learning": {
-        "ahaMoment": "The last entry to the Holy of Holies: a brief, humble retrieval of the fire pan - not a blood service, not an atonement rite, just a caretaking act to complete the day.",
-        "memoryAnchor": "Last entry in white: after all the atonement work is done, the HP enters one final time for the humble task of retrieving the pan.",
-        "learnerQuestion": "After the blood services, why must the HP re-enter the Holy of Holies specifically to retrieve the fire pan and spoon, and could someone else retrieve them?",
-        "coreTension": "The fire pan and spoon have already served their purpose; one might assume they could be retrieved by any kohen or left until a convenient time, making the HP's re-entry seem unnecessary.",
-        "coreMove": "The retrieval of the fire pan and spoon is itself a service act bound to the Holy of Holies' sacred domain; items brought inside by the HP as part of service remain within that service's requirements until formally removed by the HP, completing the incense service's physical circuit.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The HP must re-enter the Holy of Holies in white garments to retrieve the fire pan and spoon left from the incense service; this retrieval is a required service act that only the HP can perform, completing the incense service's physical circuit and constituting the last entry into the Holy of Holies on Yom Kippur."
-        },
-        "learningBlocker": "Students treat the retrieval of the fire pan as a practical cleanup task that could be delegated; they miss that objects brought into the Holy of Holies as part of service remain bound by that service's requirements until the HP formally removes them."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Mishnah",
-          "text": "After the Torah reading, HP changes to white garments and re-enters the Holy of Holies to retrieve the fire pan.",
-          "id": "yoma-060b-l19",
-          "label": "Ruling: After the Torah reading, HP changes to",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-060b-l19",
-              "vilnaLine": 19
-            }
-          ]
-        },
-        {
-          "type": "continuation",
-          "speaker": "Mishnah",
-          "text": "He exits, changes to gold, and completes the closing animal offerings.",
-          "id": "yoma-060b-l24",
-          "label": "Continuation: He exits, changes to gold, and completes",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-060b-l24",
-              "vilnaLine": 24
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "closing services",
-        "fire pan retrieval",
-        "fourth entry",
-        "personal offerings",
-        "Musaf"
-      ],
-      "concepts": {
-        "halachic": [
-          "closing Yom Kippur services",
-          "final Holy of Holies entry",
-          "HP's personal offerings"
-        ],
-        "theological": [
-          "the day concluding with a humble task after the greatest atonement work"
-        ],
-        "narrative": [
-          "Yom Kippur service conclusion",
-          "closing sequence"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing the fire pan was left inside from the incense service",
-        "Knowing this is the fourth and final entry to the Holy of Holies"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The fire pan and spoon could be retrieved later by any kohen once the essential Yom Kippur services were complete.",
-          "correction": "The HP alone must re-enter the Holy of Holies in white garments to retrieve the fire pan and spoon; their retrieval is a required service act bound to the HP's role, not a delegable cleanup task, and constitutes the last entry into the Holy of Holies on Yom Kippur."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "fourth and final entry to Holy of Holies for fire pan retrieval"
-        },
-        {
-          "type": "sequence",
-          "name": "white garments, retrieve pan, change to gold, complete offerings"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "To retrieve the fire pan (the coal pan) and incense spoon left inside from the morning incense service - a brief practical task rather than an atonement rite.",
-          "question": "What is the HP's final entry to the Holy of Holies on Yom Kippur for?"
-        }
-      ],
-      "finalRuling": "The HP's final entry to the Holy of Holies is to retrieve the fire pan left from the incense service; he then changes to golden garments for the closing offerings.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.60b.2"
+    },
+    {
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.60b.3"
+    },
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.60b.4"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.60b.5"
+    },
+    {
+     "vilnaLine": 17,
+     "sefariaRef": "Yoma.60b.6"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.60b.1",
+    "Yoma.60b.2",
+    "Yoma.60b.3",
+    "Yoma.60b.4",
+    "Yoma.60b.5",
+    "Yoma.60b.6"
+   ],
+   "display": {
+    "whats": "Eight blessings after the Torah reading; the Divine Name pronounced aloud in the Temple",
+    "hint": "The HP recites eight blessings after the Torah reading. In the Temple, he pronounces the explicit Divine Name (Shem haMeforash), and the congregation prostrates at each mention.",
+    "title": "The Eight Blessings and the Shem haMeforash"
+   },
+   "learning": {
+    "ahaMoment": "The Divine Name pronounced in the Temple courtyard: the private encounter (HP alone before the Ark with the Name) becomes public, reaching the entire assembly prostrate before God.",
+    "memoryAnchor": "The Name spoken aloud in the Temple: the holiest moment of the inner service echoes outward to the entire community prostrating together.",
+    "learnerQuestion": "What made the HP's recitation of the eight blessings after the Torah reading uniquely powerful, and why was the pronunciation of the explicit Divine Name reserved exclusively for this moment in the Temple?",
+    "coreTension": "Divine Names are normally pronounced euphemistically to preserve their sanctity; yet the Temple on Yom Kippur permitted their full pronunciation, creating a tension between concealment-as-protection and direct-address-as-honor.",
+    "coreMove": "In the Temple on Yom Kippur, the HP's direct pronunciation of the Shem haMeforash was a sanctioned moment of maximum divine intimacy - not a breach of concealment but a deliberate revelation available only at the intersection of the holiest day and the holiest place; the congregation's full prostration was the appropriate response.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "The HP pronounced the explicit Divine Name during the eight blessings only in the Temple on Yom Kippur; this was a sanctioned exception to the general prohibition, representing the maximum point of divine-human intimacy in Jewish practice, marked by the congregation's full prostration upon hearing the Name."
+    },
+    "learningBlocker": "Students may think the prohibition on pronouncing the Shem haMeforash was absolute and universal; they miss that the Temple on Yom Kippur was a sanctioned exception representing the maximum point of divine closeness, not a violation."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "Reading the Torah in the Temple court: the HP reads Leviticus 16 and 23.",
-      "linkedGemaraLineIds": []
+     "type": "ruling",
+     "speaker": "Mishnah",
+     "text": "HP recites eight blessings after the Torah reading.",
+     "id": "yoma-060b-l01",
+     "label": "Ruling: HP recites eight blessings after the Torah",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-060b-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "He reads 'After the death' and 'But on the tenth' from the sefer Torah.",
-      "linkedGemaraLineIds": []
+     "type": "detail",
+     "speaker": "Mishnah",
+     "text": "In the Temple, he pronounces the Shem haMeforash (explicit Divine Name) in the blessings.",
+     "id": "yoma-060b-l03",
+     "label": "Detail: In the Temple, he pronounces the Shem",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-060b-l03",
+       "vilnaLine": 3
+      }
+     ]
     },
     {
-      "vilnaLine": 3,
-      "en": "After rolling the scroll, he recites 'And on the tenth' (Numbers 29) by heart.",
-      "linkedGemaraLineIds": []
+     "type": "reaction",
+     "speaker": "Mishnah",
+     "text": "The congregation prostrates fully at each mention of the Divine Name.",
+     "id": "yoma-060b-l06",
+     "label": "Reaction: The congregation prostrates fully at each mention",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-060b-l06",
+       "vilnaLine": 6
+      }
+     ]
     },
     {
-      "vilnaLine": 4,
-      "en": "The congregation does not need to hear from the scroll - hearing from the HP is sufficient.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "en": "Recitation from memory is valid for the Numbers portion since the congregation would wait too long.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "en": "After the reading: eight blessings.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "en": "First blessing: Torah. Second: Avodah (Temple service). Third: Hoda'ah (Thanksgiving).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "en": "Fourth: forgiveness of sins. Fifth: Temple. Sixth: Israel. Seventh: Jerusalem.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "en": "Eighth: the priests. Ninth: a general final blessing.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "en": "The nine blessings (some count eight) are recited to the assembled congregation.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "en": "Each blessing is followed by the congregation responding 'Blessed is the Name...'",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "en": "The response when hearing the explicit Divine Name in the Temple.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Outside the Temple, the Divine Name is not pronounced - 'Adonai' is used instead.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Inside the Temple on Yom Kippur, the Shem haMeforash was pronounced.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "The congregation heard the Name and prostrated in response.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "The prostration: a complete prostration, face to the ground.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "This is one of the few occasions in Temple service when complete prostration was performed.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Full prostration differs from bowing or bending the knee.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "The experience of hearing the Divine Name and prostrating was theologically profound.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "The community in the Temple experienced the covenant at its most direct.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "The HP as the one who pronounced the Name was himself trembling.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "The entire assembly felt the weight of the divine presence.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "This public moment of encounter with the divine balanced the HP's private moment inside.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Inner: alone with God. Outer: the entire community encounters God through the HP's recitation.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Yom Kippur is both the most private and most communal day in the Jewish calendar.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "The most private: the HP alone in the Holy of Holies.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "The most communal: all Israel prostrating together in the Temple court.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Both are essential; neither is complete without the other.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "The reading and blessings are the communal conclusion to the private blood service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "After blessings: the HP proceeds to the closing services.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "He offers his personal sin-offering and burnt-offering.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "He offers the communal daily burnt-offering.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "He offers the additional Musaf offerings for Yom Kippur and Rosh Chodesh.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "All these are performed after the Torah reading.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "The sequence continues: from reading to sacrifices to the final inner service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "After the reading and the closing animal services: the HP changes to white again.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "He re-enters the Holy of Holies to retrieve the fire pan and incense spoon.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "This is the fourth entry to the Holy of Holies on Yom Kippur.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "A brief final entry, after which he changes to golden garments again.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "Then he offers the ram and ewe sacrifices.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "Then the Musaf offerings and the evening tamid.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "The closing of the day follows in sequence.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "The HP's day is the most demanding single-day service in Temple history.",
-      "linkedGemaraLineIds": []
+     "type": "contrast",
+     "speaker": "Gemara",
+     "text": "Outside the Temple, only 'Adonai' (the substitute Name) is used; inside, the actual Name was pronounced.",
+     "id": "yoma-060b-l14",
+     "label": "Contrast: Outside the Temple, only 'Adonai' (the substitute",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-060b-l14",
+       "vilnaLine": 14
+      }
+     ]
     }
-  ],
-  "review": "reviewed"
+   ],
+   "topicTags": [
+    "eight blessings",
+    "Shem haMeforash",
+    "prostration",
+    "Divine Name",
+    "Temple service",
+    "communal encounter"
+   ],
+   "concepts": {
+    "halachic": [
+     "pronouncing the Divine Name in the Temple",
+     "full prostration of the congregation",
+     "eight blessings"
+    ],
+    "theological": [
+     "the congregation's direct encounter with the divine through the Name",
+     "private inner service made communal"
+    ],
+    "narrative": [
+     "Yom Kippur communal prayer",
+     "Divine Name in Temple"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Knowing that the Shem haMeforash is not pronounced outside the Temple",
+    "Understanding what full prostration (hishtachavaya) looks like"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The prohibition against pronouncing the Shem haMeforash was absolute even in the Temple; the HP always used a substitute name for the Divine Name.",
+     "correction": "In the Temple on Yom Kippur the HP pronounced the explicit Divine Name during the eight blessings - this was a sanctioned exception representing maximum divine intimacy, and the congregation responded with full prostration upon hearing the Name spoken directly."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "person",
+     "name": "HP pronouncing the Shem haMeforash"
+    },
+    {
+     "type": "action",
+     "name": "entire congregation prostrating at each Divine Name"
+    },
+    {
+     "type": "contrast",
+     "name": "Temple Name pronunciation vs. outside Temple substitute"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "He pronounces the explicit Divine Name (Shem haMeforash) in each blessing, and the entire congregation performs a full prostration each time they hear it - a uniquely direct communal encounter with the divine.",
+     "question": "What happens when the HP recites the eight blessings in the Temple courtyard on Yom Kippur?"
+    }
+   ],
+   "finalRuling": "The HP pronounces the explicit Divine Name in the eight blessings; the congregation performs full prostration at each mention - possible only in the Temple.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-060b-s02",
+   "lineRange": {
+    "startVilnaLine": 19,
+    "endVilnaLine": 24
+   },
+   "lines": [
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.60b.7"
+    },
+    {
+     "vilnaLine": 24,
+     "sefariaRef": "Yoma.60b.8"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.60b.7",
+    "Yoma.60b.8"
+   ],
+   "display": {
+    "whats": "Closing services: HP's personal offerings, Musaf offerings, and return to white garments for final entry",
+    "hint": "After the Torah reading, the HP offers his personal ram, the communal ram, and the Musaf offerings. He then changes back to white garments for a brief final entry to retrieve the fire pan, then changes to gold for the remaining closing services.",
+    "title": "The HP's Final Entry into the Holy of Holies"
+   },
+   "learning": {
+    "ahaMoment": "The last entry to the Holy of Holies: a brief, humble retrieval of the fire pan - not a blood service, not an atonement rite, just a caretaking act to complete the day.",
+    "memoryAnchor": "Last entry in white: after all the atonement work is done, the HP enters one final time for the humble task of retrieving the pan.",
+    "learnerQuestion": "After the blood services, why must the HP re-enter the Holy of Holies specifically to retrieve the fire pan and spoon, and could someone else retrieve them?",
+    "coreTension": "The fire pan and spoon have already served their purpose; one might assume they could be retrieved by any kohen or left until a convenient time, making the HP's re-entry seem unnecessary.",
+    "coreMove": "The retrieval of the fire pan and spoon is itself a service act bound to the Holy of Holies' sacred domain; items brought inside by the HP as part of service remain within that service's requirements until formally removed by the HP, completing the incense service's physical circuit.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The HP must re-enter the Holy of Holies in white garments to retrieve the fire pan and spoon left from the incense service; this retrieval is a required service act that only the HP can perform, completing the incense service's physical circuit and constituting the last entry into the Holy of Holies on Yom Kippur."
+    },
+    "learningBlocker": "Students treat the retrieval of the fire pan as a practical cleanup task that could be delegated; they miss that objects brought into the Holy of Holies as part of service remain bound by that service's requirements until the HP formally removes them."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Mishnah",
+     "text": "After the Torah reading, HP changes to white garments and re-enters the Holy of Holies to retrieve the fire pan.",
+     "id": "yoma-060b-l19",
+     "label": "Ruling: After the Torah reading, HP changes to",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-060b-l19",
+       "vilnaLine": 19
+      }
+     ]
+    },
+    {
+     "type": "continuation",
+     "speaker": "Mishnah",
+     "text": "He exits, changes to gold, and completes the closing animal offerings.",
+     "id": "yoma-060b-l24",
+     "label": "Continuation: He exits, changes to gold, and completes",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-060b-l24",
+       "vilnaLine": 24
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "closing services",
+    "fire pan retrieval",
+    "fourth entry",
+    "personal offerings",
+    "Musaf"
+   ],
+   "concepts": {
+    "halachic": [
+     "closing Yom Kippur services",
+     "final Holy of Holies entry",
+     "HP's personal offerings"
+    ],
+    "theological": [
+     "the day concluding with a humble task after the greatest atonement work"
+    ],
+    "narrative": [
+     "Yom Kippur service conclusion",
+     "closing sequence"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Knowing the fire pan was left inside from the incense service",
+    "Knowing this is the fourth and final entry to the Holy of Holies"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The fire pan and spoon could be retrieved later by any kohen once the essential Yom Kippur services were complete.",
+     "correction": "The HP alone must re-enter the Holy of Holies in white garments to retrieve the fire pan and spoon; their retrieval is a required service act bound to the HP's role, not a delegable cleanup task, and constitutes the last entry into the Holy of Holies on Yom Kippur."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "fourth and final entry to Holy of Holies for fire pan retrieval"
+    },
+    {
+     "type": "sequence",
+     "name": "white garments, retrieve pan, change to gold, complete offerings"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "To retrieve the fire pan (the coal pan) and incense spoon left inside from the morning incense service - a brief practical task rather than an atonement rite.",
+     "question": "What is the HP's final entry to the Holy of Holies on Yom Kippur for?"
+    }
+   ],
+   "finalRuling": "The HP's final entry to the Holy of Holies is to retrieve the fire pan left from the incense service; he then changes to golden garments for the closing offerings.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'Rabbi Yehuda holds' - that the indispensable decree is written specifically regarding a place whose atonement occurs only once a year, but",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "regarding the Sanctuary and the courtyards, even acts performed in white garments whose atonement by the",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "High Priest occurs only once a year, the indispensable decree is not written. 'Things atoned through once a year' -",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "whether regarding the place or regarding the garments. 'It is written \"this\"' - implying that the decree",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l01",
+    "yoma-060b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "is written specifically regarding \"this\" and not regarding another.",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "'To exclude the remainder' - the pouring out of the remainder of the blood,",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "which is not indispensable: a later act does not disqualify it if",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "performed before it, and even though these acts are done",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "in white garments their sequence is not indispensable. 'And Rabbi",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "Yehuda [says]: if they are indispensable' - meaning if the other acts",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "performed in white garments outside are indispensable in their sequence,",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "then the remainder too is indispensable in its sequence. 'And if they are not",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "indispensable' - meaning if the other acts performed in",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "white garments are not indispensable, then these too are not,",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "since they too are a service indispensable to atonement, and what",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l06"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "basis is there to exclude it specifically? 'As it was taught' - that according to Rabbi",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l06",
+    "yoma-060b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "Yehuda the remainder is indispensable to atonement like the other",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "sprinklings, if he omitted them entirely; therefore if",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "the indispensable decree is written regarding the other sprinklings, it is written regarding them",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "as well. 'Why was it not stated' - who",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "prevents us from expounding it in this",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "way: if he completed the sprinklings, he atoned, and if he did not complete them, he did not",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "atone? 'And we say' - in the chapter Eizehu Mekoman",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l09",
+    "yoma-060b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "(Zevachim 52b). 'A matter of how they interpret the implication' -",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "one master understands it this way and one master understands it",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "that way. 'Whether the remainder is indispensable is the difference between them' -",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "Rabbi Akiva holds the remainder is not indispensable,",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "and he reads the verse this way: if he completed the essential sprinklings,",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "he has finished the atonement even if he did not pour out the remainder; but Rabbi",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "Yehuda holds it is indispensable, and he reads the verse this way: if",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "he completed all of them, then he atoned, but if he did not atone",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "with all of them, the atonement of the sprinklings is not an atonement.",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l14"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "'And did Rabbi Yochanan really say this' - that according to Rabbi",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "Nechemya the remainder is not indispensable? For we said",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "above that both of them expounded the same verse, and the conclusion",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "for Rabbi Nechemya was that one exclusion is for the remainder, which is not",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "indispensable. 'But did not Rabbi Yochanan say' - in tractate",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "Zevachim, in the chapter HaShochet VeHama'aleh BaChutz (ibid. 111a), that it was taught that Rabbi Nechemya spoke in accordance",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "with the one who says the remainder is indispensable? For Rabbi Nechemya said there that the remainder of the blood,",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "if offered outside, one is liable, showing that it is a service performed inside, about which it is written",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "(Leviticus 17), 'and did not bring it to the entrance of the Tent of Meeting... and he shall be cut off.' 'He shall bring'",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l17",
+    "yoma-060b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "'other blood and begin again' - but the incense has already been burned, and this one is only slaughtering the bull.",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l24"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "'Regarding the incense' - the comment is completed on 61a, where Rashi explains that the Mishnah does not speak of it there, since he certainly needs to burn different incense after the slaughtering of this bull.",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l24"
+   ]
+  }
+ ],
+ "review": "reviewed"
 }

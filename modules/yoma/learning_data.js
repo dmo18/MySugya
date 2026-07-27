@@ -137231,11 +137231,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 1,
         he: "רבי יהודה סבר. אמקום שכפרתו אחת בשנה כתיבא חוקה אבל",
-        en: "Reading the Torah in the Temple court: the HP reads Leviticus 16 and 23.",
+        en: "'Rabbi Yehuda holds' - that the indispensable decree is written specifically regarding a place whose atonement occurs only once a year, but",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l01"
+        ]
       },
       {
         id: "rashi-yoma-060b-002",
@@ -137243,11 +137245,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 2,
         he: "אהיכל ואעזרות אפי' דברים הנעשים בבגדי לבן שאין כפרתן בכהן",
-        en: "He reads 'After the death' and 'But on the tenth' from the sefer Torah.",
+        en: "regarding the Sanctuary and the courtyards, even acts performed in white garments whose atonement by the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l01"
+        ]
       },
       {
         id: "rashi-yoma-060b-003",
@@ -137255,11 +137259,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 3,
         he: "גדול אלא אחת בשנה לא כתיבא חוקה: דברים המתכפרים בהן",
-        en: "After rolling the scroll, he recites 'And on the tenth' (Numbers 29) by heart.",
+        en: "High Priest occurs only once a year, the indispensable decree is not written. 'Things atoned through once a year' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l01"
+        ]
       },
       {
         id: "rashi-yoma-060b-004",
@@ -137267,11 +137273,14 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 4,
         he: "אחת בשנה. בין אמקום בין אבגדים: כתיב זאת. משמע חוקה",
-        en: "The congregation does not need to hear from the scroll - hearing from the HP is sufficient.",
+        en: "whether regarding the place or regarding the garments. 'It is written \"this\"' - implying that the decree",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l01",
+          "yoma-060b-l03"
+        ]
       },
       {
         id: "rashi-yoma-060b-005",
@@ -137279,11 +137288,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 5,
         he: "על זאת כתיבה ולא על אחרת:",
-        en: "Recitation from memory is valid for the Numbers portion since the congregation would wait too long.",
+        en: "is written specifically regarding \"this\" and not regarding another.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l03"
+        ]
       },
       {
         id: "rashi-yoma-060b-006",
@@ -137291,11 +137302,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 6,
         he: "למעוטי שירים. שפיכת שירים",
-        en: "After the reading: eight blessings.",
+        en: "'To exclude the remainder' - the pouring out of the remainder of the blood,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l06"
+        ]
       },
       {
         id: "rashi-yoma-060b-007",
@@ -137303,11 +137316,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 7,
         he: "דלא מעכבי דבר המאוחר להם אם",
-        en: "First blessing: Torah. Second: Avodah (Temple service). Third: Hoda'ah (Thanksgiving).",
+        en: "which is not indispensable: a later act does not disqualify it if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l06"
+        ]
       },
       {
         id: "rashi-yoma-060b-008",
@@ -137315,11 +137330,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 8,
         he: "הקדימו להם ואע\"פ שהן נעשין",
-        en: "Fourth: forgiveness of sins. Fifth: Temple. Sixth: Israel. Seventh: Jerusalem.",
+        en: "performed before it, and even though these acts are done",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l06"
+        ]
       },
       {
         id: "rashi-yoma-060b-009",
@@ -137327,11 +137344,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 9,
         he: "בבגדי לבן אין סדרן מעכב: ור'",
-        en: "Eighth: the priests. Ninth: a general final blessing.",
+        en: "in white garments their sequence is not indispensable. 'And Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l06"
+        ]
       },
       {
         id: "rashi-yoma-060b-010",
@@ -137339,11 +137358,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 10,
         he: "יהודה אי מעכבי. שאר דברים",
-        en: "The nine blessings (some count eight) are recited to the assembled congregation.",
+        en: "Yehuda [says]: if they are indispensable' - meaning if the other acts",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l06"
+        ]
       },
       {
         id: "rashi-yoma-060b-011",
@@ -137351,11 +137372,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 11,
         he: "הנעשים בבגדי לבן מבחוץ בכסדרן",
-        en: "Each blessing is followed by the congregation responding 'Blessed is the Name...'",
+        en: "performed in white garments outside are indispensable in their sequence,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l06"
+        ]
       },
       {
         id: "rashi-yoma-060b-012",
@@ -137363,11 +137386,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 12,
         he: "מעכבי אף שירים כסדרן: ואי לא",
-        en: "The response when hearing the explicit Divine Name in the Temple.",
+        en: "then the remainder too is indispensable in its sequence. 'And if they are not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l06"
+        ]
       },
       {
         id: "rashi-yoma-060b-013",
@@ -137375,11 +137400,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 13,
         he: "מעכבי. שאר דברים הנעשים בבגדי",
-        en: "Outside the Temple, the Divine Name is not pronounced - 'Adonai' is used instead.",
+        en: "indispensable' - meaning if the other acts performed in",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l06"
+        ]
       },
       {
         id: "rashi-yoma-060b-014",
@@ -137387,11 +137414,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 14,
         he: "לבן לא מעכבי הני דאינהו נמי",
-        en: "Inside the Temple on Yom Kippur, the Shem haMeforash was pronounced.",
+        en: "white garments are not indispensable, then these too are not,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l06"
+        ]
       },
       {
         id: "rashi-yoma-060b-015",
@@ -137399,11 +137428,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 15,
         he: "עבודה המעכבת כפרה היא ומאי",
-        en: "The congregation heard the Name and prostrated in response.",
+        en: "since they too are a service indispensable to atonement, and what",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l06"
+        ]
       },
       {
         id: "rashi-yoma-060b-016",
@@ -137411,11 +137442,14 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 16,
         he: "חזית למעוטה: כדתניא. דלרבי",
-        en: "The prostration: a complete prostration, face to the ground.",
+        en: "basis is there to exclude it specifically? 'As it was taught' - that according to Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l06",
+          "yoma-060b-l09"
+        ]
       },
       {
         id: "rashi-yoma-060b-017",
@@ -137423,11 +137457,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 17,
         he: "יהודה שירים מעכבי כפרה כשאר",
-        en: "This is one of the few occasions in Temple service when complete prostration was performed.",
+        en: "Yehuda the remainder is indispensable to atonement like the other",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l09"
+        ]
       },
       {
         id: "rashi-yoma-060b-018",
@@ -137435,11 +137471,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 18,
         he: "המתנות אי עקר להו לגמרי הלכך אי",
-        en: "Full prostration differs from bowing or bending the knee.",
+        en: "sprinklings, if he omitted them entirely; therefore if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l09"
+        ]
       },
       {
         id: "rashi-yoma-060b-019",
@@ -137447,11 +137485,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 19,
         he: "חוקה אשארא כתיבא אדידהו נמי",
-        en: "The experience of hearing the Divine Name and prostrating was theologically profound.",
+        en: "the indispensable decree is written regarding the other sprinklings, it is written regarding them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l09"
+        ]
       },
       {
         id: "rashi-yoma-060b-020",
@@ -137459,11 +137499,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 20,
         he: "כתיבא: מפני מה לא נאמר. מי",
-        en: "The community in the Temple experienced the covenant at its most direct.",
+        en: "as well. 'Why was it not stated' - who",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l09"
+        ]
       },
       {
         id: "rashi-yoma-060b-021",
@@ -137471,11 +137513,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 21,
         he: "מעכב על ידינו שלא נדרוש בלשון",
-        en: "The HP as the one who pronounced the Name was himself trembling.",
+        en: "prevents us from expounding it in this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l09"
+        ]
       },
       {
         id: "rashi-yoma-060b-022",
@@ -137483,11 +137527,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 22,
         he: "זה אם כלה כפר ואם לא כלה לא",
-        en: "The entire assembly felt the weight of the divine presence.",
+        en: "way: if he completed the sprinklings, he atoned, and if he did not complete them, he did not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l09"
+        ]
       },
       {
         id: "rashi-yoma-060b-023",
@@ -137495,11 +137541,14 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 23,
         he: "כפר: ואמרינן. באיזהו מקומן",
-        en: "This public moment of encounter with the divine balanced the HP's private moment inside.",
+        en: "atone? 'And we say' - in the chapter Eizehu Mekoman",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l09",
+          "yoma-060b-l14"
+        ]
       },
       {
         id: "rashi-yoma-060b-024",
@@ -137507,11 +137556,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 24,
         he: "(זבחים דף נב:): משמעות דורשין.",
-        en: "Inner: alone with God. Outer: the entire community encounters God through the HP's recitation.",
+        en: "(Zevachim 52b). 'A matter of how they interpret the implication' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l14"
+        ]
       },
       {
         id: "rashi-yoma-060b-025",
@@ -137519,11 +137570,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 25,
         he: "מר משמע ליה הכי ומר משמע ליה",
-        en: "Yom Kippur is both the most private and most communal day in the Jewish calendar.",
+        en: "one master understands it this way and one master understands it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l14"
+        ]
       },
       {
         id: "rashi-yoma-060b-026",
@@ -137531,11 +137584,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 26,
         he: "הכי: שירים מעכבי איכא בינייהו.",
-        en: "The most private: the HP alone in the Holy of Holies.",
+        en: "that way. 'Whether the remainder is indispensable is the difference between them' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l14"
+        ]
       },
       {
         id: "rashi-yoma-060b-027",
@@ -137543,11 +137598,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 27,
         he: "רבי עקיבא סבר שירים לא מעכבי",
-        en: "The most communal: all Israel prostrating together in the Temple court.",
+        en: "Rabbi Akiva holds the remainder is not indispensable,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l14"
+        ]
       },
       {
         id: "rashi-yoma-060b-028",
@@ -137555,11 +137612,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 28,
         he: "והכי קאמר אם כפר עיקר המתנות",
-        en: "Both are essential; neither is complete without the other.",
+        en: "and he reads the verse this way: if he completed the essential sprinklings,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l14"
+        ]
       },
       {
         id: "rashi-yoma-060b-029",
@@ -137567,11 +137626,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 29,
         he: "כלה ואפי' לא שפך שירים ורבי",
-        en: "The reading and blessings are the communal conclusion to the private blood service.",
+        en: "he has finished the atonement even if he did not pour out the remainder; but Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l14"
+        ]
       },
       {
         id: "rashi-yoma-060b-030",
@@ -137579,11 +137640,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 30,
         he: "יהודה סבר מעכבי והכי קאמר אם",
-        en: "After blessings: the HP proceeds to the closing services.",
+        en: "Yehuda holds it is indispensable, and he reads the verse this way: if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l14"
+        ]
       },
       {
         id: "rashi-yoma-060b-031",
@@ -137591,11 +137654,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 31,
         he: "כלה הכל אז כפר ואם לא כפר",
-        en: "He offers his personal sin-offering and burnt-offering.",
+        en: "he completed all of them, then he atoned, but if he did not atone",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l14"
+        ]
       },
       {
         id: "rashi-yoma-060b-032",
@@ -137603,11 +137668,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 32,
         he: "הכל אין הכפרה של מתנות כפרה:",
-        en: "He offers the communal daily burnt-offering.",
+        en: "with all of them, the atonement of the sprinklings is not an atonement.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l14"
+        ]
       },
       {
         id: "rashi-yoma-060b-033",
@@ -137615,11 +137682,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 33,
         he: "ומי אמר רבי יוחנן הכי. דלר'",
-        en: "He offers the additional Musaf offerings for Yom Kippur and Rosh Chodesh.",
+        en: "'And did Rabbi Yochanan really say this' - that according to Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l17"
+        ]
       },
       {
         id: "rashi-yoma-060b-034",
@@ -137627,11 +137696,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 34,
         he: "נחמיה שירים לא מעכבי דקאמרינן",
-        en: "All these are performed after the Torah reading.",
+        en: "Nechemya the remainder is not indispensable? For we said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l17"
+        ]
       },
       {
         id: "rashi-yoma-060b-035",
@@ -137639,11 +137710,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 35,
         he: "לעיל שניהן מקרא אחד דרשו ומסקנא",
-        en: "The sequence continues: from reading to sacrifices to the final inner service.",
+        en: "above that both of them expounded the same verse, and the conclusion",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l17"
+        ]
       },
       {
         id: "rashi-yoma-060b-036",
@@ -137651,11 +137724,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 36,
         he: "לר' נחמיה חד למעוטי שירים דלא",
-        en: "After the reading and the closing animal services: the HP changes to white again.",
+        en: "for Rabbi Nechemya was that one exclusion is for the remainder, which is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l17"
+        ]
       },
       {
         id: "rashi-yoma-060b-037",
@@ -137663,11 +137738,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 37,
         he: "מעכבי: והאמר רבי יוחנן. במסכת",
-        en: "He re-enters the Holy of Holies to retrieve the fire pan and incense spoon.",
+        en: "indispensable. 'But did not Rabbi Yochanan say' - in tractate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l17"
+        ]
       },
       {
         id: "rashi-yoma-060b-038",
@@ -137675,11 +137752,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 38,
         he: "זבחים בפרק השוחט והמעלה בחוץ (שם קיא.) תנא רבי נחמיה כדברי",
-        en: "This is the fourth entry to the Holy of Holies on Yom Kippur.",
+        en: "Zevachim, in the chapter HaShochet VeHama'aleh BaChutz (ibid. 111a), that it was taught that Rabbi Nechemya spoke in accordance",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l17"
+        ]
       },
       {
         id: "rashi-yoma-060b-039",
@@ -137687,11 +137766,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 39,
         he: "האומר שירים מעכבי דקאמר רבי נחמיה התם שירי הדם",
-        en: "A brief final entry, after which he changes to golden garments again.",
+        en: "with the one who says the remainder is indispensable? For Rabbi Nechemya said there that the remainder of the blood,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l17"
+        ]
       },
       {
         id: "rashi-yoma-060b-040",
@@ -137699,11 +137780,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 40,
         he: "שהקריבן בחוץ חייב אלמא עבודה הן בפנים וקרינן בהו",
-        en: "Then he offers the ram and ewe sacrifices.",
+        en: "if offered outside, one is liable, showing that it is a service performed inside, about which it is written",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l17"
+        ]
       },
       {
         id: "rashi-yoma-060b-041",
@@ -137711,11 +137794,14 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 41,
         he: "(ויקרא יז) ואל פתח אהל מועד לא יביאנו וגו' ונכרת: יביא",
-        en: "Then the Musaf offerings and the evening tamid.",
+        en: "(Leviticus 17), 'and did not bring it to the entrance of the Tent of Meeting... and he shall be cut off.' 'He shall bring'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l17",
+          "yoma-060b-l24"
+        ]
       },
       {
         id: "rashi-yoma-060b-042",
@@ -137723,11 +137809,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 42,
         he: "דם אחר ויתחיל. והרי כבר נקטר הקטורת וזה שוחט פר :",
-        en: "The closing of the day follows in sequence.",
+        en: "'other blood and begin again' - but the incense has already been burned, and this one is only slaughtering the bull.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l24"
+        ]
       },
       {
         id: "rashi-yoma-060b-043",
@@ -137735,11 +137823,13 @@ const DAF_CONTENT = {
         daf: "60b",
         vilnaLine: 43,
         he: "בקטורת",
-        en: "The HP's day is the most demanding single-day service in Temple history.",
+        en: "'Regarding the incense' - the comment is completed on 61a, where Rashi explains that the Mishnah does not speak of it there, since he certainly needs to burn different incense after the slaughtering of this bull.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-060b-l24"
+        ]
       }
     ],
     review: "reviewed"
