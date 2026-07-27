@@ -125012,11 +125012,13 @@ const DAF_CONTENT = {
         daf: "54b",
         vilnaLine: 1,
         he: "כאיש המעורה בלוייה שלו. הנדבק וחבוק באשתו בין זרועותיו:",
-        en: "Like a man clinging to his companion between his arms - the world clings together with the even ha-shetiya.",
+        en: "'Like a man clinging to his companion' - one who clings and embraces his wife between his arms.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054b-l01"
+        ]
       },
       {
         id: "rashi-yoma-054b-002",
@@ -125024,11 +125026,14 @@ const DAF_CONTENT = {
         daf: "54b",
         vilnaLine: 2,
         he: "הוציאום לשוק. קיפלום מן הכותל: מציון נברא. ציון נבראת תחילה",
-        en: "He spread them to the market - he unfolded the curtains from the wall.",
+        en: "'They took them out to the market' - they peeled them off the wall. 'It was created from Zion' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054b-l01",
+          "yoma-054b-l07"
+        ]
       },
       {
         id: "rashi-yoma-054b-003",
@@ -125036,11 +125041,13 @@ const DAF_CONTENT = {
         daf: "54b",
         vilnaLine: 3,
         he: "וסביביה נדבקו רגבים עד סוף העולם מכל צד: בצקת עפר",
-        en: "Created from Zion - Zion was created first and all other lands were attached to it from all sides.",
+        en: "Zion was created first, and clods attached around it to the end of the world from every side. 'When the dust runs'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054b-l07"
+        ]
       },
       {
         id: "rashi-yoma-054b-004",
@@ -125048,11 +125055,14 @@ const DAF_CONTENT = {
         daf: "54b",
         vilnaLine: 4,
         he: "למוצק. מוצק אחד היה לו ומשם נדבקו רגבים סביביו: מן הצדדין",
-        en: "A solid mass - it had one solid mass and other clumps attached to its sides to make the world.",
+        en: "'into a mass' - it had one single mass, and from there clods attached themselves all around it. 'It was created from the sides' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054b-l07",
+          "yoma-054b-l10"
+        ]
       },
       {
         id: "rashi-yoma-054b-005",
@@ -125060,11 +125070,13 @@ const DAF_CONTENT = {
         daf: "54b",
         vilnaLine: 5,
         he: "נברא. ארבע מוצקות היו לו ונמתח",
-        en: "Created from the sides - it had four solid masses at the corners and they expanded and joined in the middle.",
+        en: "it had four separate masses, and each stretched inward",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054b-l10"
+        ]
       },
       {
         id: "rashi-yoma-054b-006",
@@ -125072,11 +125084,13 @@ const DAF_CONTENT = {
         daf: "54b",
         vilnaLine: 6,
         he: "והלך מכל צד עד שנדבק באמצעיתו:",
-        en: "For snow He says 'be earth' - the earth was made: from where does rain come? From four sides He sent it down and it formed the earth.",
+        en: "from its own side until they joined together at the center.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054b-l10"
+        ]
       },
       {
         id: "rashi-yoma-054b-007",
@@ -125084,11 +125098,13 @@ const DAF_CONTENT = {
         daf: "54b",
         vilnaLine: 7,
         he: "כי לשלג יאמר הוא ארץ. תעשה",
-        en: "'From Zion, the perfection of beauty' - the following verse continues this...",
+        en: "'For to the snow He says, be earth' - it shall become",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054b-l10"
+        ]
       },
       {
         id: "rashi-yoma-054b-008",
@@ -125096,11 +125112,13 @@ const DAF_CONTENT = {
         daf: "54b",
         vilnaLine: 8,
         he: "ארץ ומהיכן גשם מטר וגשם מטרות",
-        en: "The generations of the heavens - the luminaries and stars.",
+        en: "earth; and from where does the heavy rain and the mighty rains come?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054b-l10"
+        ]
       },
       {
         id: "rashi-yoma-054b-009",
@@ -125108,11 +125126,13 @@ const DAF_CONTENT = {
         daf: "54b",
         vilnaLine: 9,
         he: "מארבע צדדין הורידו והגשימו להעשות",
-        en: "The text reads: the generations of the heavens were created from the heavens, and the generations of the earth from the earth.",
+        en: "They were brought down from the four sides and made to rain, in order to become",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054b-l10"
+        ]
       },
       {
         id: "rashi-yoma-054b-010",
@@ -125120,11 +125140,14 @@ const DAF_CONTENT = {
         daf: "54b",
         vilnaLine: 10,
         he: "ארץ: מציון מכלל יופי. בתריה כתיב:",
-        en: "As one who clings to a companion between his arms - the blood services cling together.",
+        en: "earth. 'From Zion, the perfection of beauty' - this verse is written right after it, in the same psalm.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054b-l10",
+          "yoma-054b-l13"
+        ]
       },
       {
         id: "rashi-yoma-054b-011",
@@ -125132,11 +125155,13 @@ const DAF_CONTENT = {
         daf: "54b",
         vilnaLine: 11,
         he: "תולדות השמים. מאורות וכוכבים:",
-        en: "The bull blood and goat blood services are paired companions in the Yom Kippur atonement.",
+        en: "'The generations of the heavens' - the heavenly lights and stars.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054b-l15"
+        ]
       },
       {
         id: "rashi-yoma-054b-012",
@@ -125144,11 +125169,13 @@ const DAF_CONTENT = {
         daf: "54b",
         vilnaLine: 12,
         he: "ה\"ג תולדות השמים משמים נבראו",
-        en: "The inner services and outer services complete each other.",
+        en: "This is the correct reading: 'the generations of the heavens' means they were created from the heavens,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054b-l15"
+        ]
       },
       {
         id: "rashi-yoma-054b-013",
@@ -125156,11 +125183,13 @@ const DAF_CONTENT = {
         daf: "54b",
         vilnaLine: 13,
         he: "ותולדות הארץ מן הארץ נבראו:",
-        en: "This concludes the blood service section; the remaining Yom Kippur service begins.",
+        en: "and 'the generations of the earth' means they were created from the earth.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054b-l15"
+        ]
       },
       {
         id: "rashi-yoma-054b-014",
@@ -125168,11 +125197,13 @@ const DAF_CONTENT = {
         daf: "54b",
         vilnaLine: 14,
         he: "כמנגדנא",
-        en: "End of Rashi on 54b.",
+        en: "'Like this, facing me' - this is the citation of Rav Yehuda's gesture; the daf ends here, and the comment's own explanation is deferred to 55a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054b-l20"
+        ]
       }
     ],
     review: "reviewed"
