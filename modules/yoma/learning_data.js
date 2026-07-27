@@ -148410,11 +148410,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 1,
         he: "קרבנות צבור. הבאין מתרומת הלשכה קאמרת: שאני קרבנות",
-        en: "You speak of communal offerings? Communal offerings are different in that they cannot be lost.",
+        en: "'Communal offerings' - you speak of those that come from the terumah of the treasury chamber. 'Communal offerings are different' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l01"
+        ]
       },
       {
         id: "rashi-yoma-065b-002",
@@ -148422,11 +148424,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 2,
         he: "צבור. מראש חדש ניסן ואילך אין באין מן הישנה: כדרבי טבי.",
-        en: "A communal offering's replacement comes from the public fund, not from a private owner.",
+        en: "from the New Moon of Nisan onward, they do not come from the old funds. 'In accordance with Rabbi Tavi' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l01"
+        ]
       },
       {
         id: "rashi-yoma-065b-003",
@@ -148434,11 +148438,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 3,
         he: "במסכת ר\"ה [דף ז.]: חדש בחדשו. לחדשי חידושין יתירי כתיבי",
-        en: "Therefore: communal offerings don't face the same 'owner lost it' scenarios.",
+        en: "in tractate Rosh Hashanah (7a). 'New, in its month' - the word 'new' is written repeatedly, in excess,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l01"
+        ]
       },
       {
         id: "rashi-yoma-065b-004",
@@ -148446,11 +148452,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 4,
         he: "לדרשה לומר לך יש חדש שאתה צריך לחדש הקרבנות ולהביאם",
-        en: "The Gemara's challenge: the scenarios being discussed apply to communal offerings.",
+        en: "for exposition, to tell you that there is a month in which you must renew the offerings and bring them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l01"
+        ]
       },
       {
         id: "rashi-yoma-065b-005",
@@ -148458,11 +148466,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 5,
         he: "מתרומה חדשה וגמר שנה שנה מניסן",
-        en: "But communal offerings work differently from individual ones in replacement scenarios.",
+        en: "from a new terumah collection; and we derive 'year' from 'year' as beginning from Nisan,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l01"
+        ]
       },
       {
         id: "rashi-yoma-065b-006",
@@ -148470,11 +148480,14 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 6,
         he: "דכתיב ראשון הוא לכם וגו': התינח",
-        en: "The distinction: individual offerings can be lost by their owner; communal ones cannot be 'lost.'",
+        en: "since it is written, 'it shall be the first for you,' etc. 'This works out well",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l01",
+          "yoma-065b-l05"
+        ]
       },
       {
         id: "rashi-yoma-065b-007",
@@ -148482,11 +148495,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 7,
         he: "שעיר. דאתי מתרומת הלשכה:",
-        en: "If an individual's sin-offering dies or is lost: a personal replacement is needed.",
+        en: "for the goat' - which comes from the terumah of the treasury chamber.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l05"
+        ]
       },
       {
         id: "rashi-yoma-065b-008",
@@ -148494,11 +148509,14 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 8,
         he: "מצוה היא. ולא עיכוב: אין גורל.",
-        en: "If a communal offering has an issue: the community funds a replacement.",
+        en: "'It is a mitzvah' - and not indispensable. 'The lottery' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l06",
+          "yoma-065b-l11"
+        ]
       },
       {
         id: "rashi-yoma-065b-009",
@@ -148506,11 +148524,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 9,
         he: "של שנה זו קובע לשם שנה אחרת:",
-        en: "The accountability is different: individual vs. communal.",
+        en: "of this year does not designate for the sake of another year.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l11"
+        ]
       },
       {
         id: "rashi-yoma-065b-010",
@@ -148518,11 +148538,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 10,
         he: "ומשום גזירה ימותו. בתמיה דיו אם",
-        en: "The Yom Kippur goats are communal offerings - from the half-shekel fund.",
+        en: "'And on account of a decree they should die' - said in astonishment: it should suffice",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l14"
+        ]
       },
       {
         id: "rashi-yoma-065b-011",
@@ -148530,11 +148552,14 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 11,
         he: "ירעה: משום חטאת שמתו בעליה.",
-        en: "Therefore: the community (represented by the HP) is responsible for their replacement.",
+        en: "that they graze. 'On account of a sin-offering whose owner died' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l14",
+          "yoma-065b-l16"
+        ]
       },
       {
         id: "rashi-yoma-065b-012",
@@ -148542,11 +148567,14 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 12,
         he: "שמא ימות הכהן בשנה זו: אלא",
-        en: "The HP is not acting as a private individual on Yom Kippur.",
+        en: "lest the priest die within this year. 'Rather, it is a decree on account of'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l16",
+          "yoma-065b-l18"
+        ]
       },
       {
         id: "rashi-yoma-065b-013",
@@ -148554,11 +148582,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 13,
         he: "גזירה משום חטאת שעברה שנתה.",
-        en: "He is acting as the representative of the entire community.",
+        en: "a sin-offering that has passed its year' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l18"
+        ]
       },
       {
         id: "rashi-yoma-065b-014",
@@ -148566,11 +148596,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 14,
         he: "שמא עד יום הכפורים הבא תעבור",
-        en: "Every service he performs is communal, not personal.",
+        en: "lest by the next Yom Kippur a year will have passed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l18"
+        ]
       },
       {
         id: "rashi-yoma-065b-015",
@@ -148578,11 +148610,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 15,
         he: "שנה על השעיר הזה משנולד וקיימא",
-        en: "This distinction affects the legal analysis of replacement scenarios.",
+        en: "on this goat since its birth, and we hold",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l18"
+        ]
       },
       {
         id: "rashi-yoma-065b-016",
@@ -148590,11 +148624,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 16,
         he: "לן בכל שעירי חטאת שפסולין",
-        en: "Communal offerings can always be replaced by public funds.",
+        en: "that all sin-offering goats are invalidated",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l18"
+        ]
       },
       {
         id: "rashi-yoma-065b-017",
@@ -148602,11 +148638,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 17,
         he: "לאחר שנה דתניא בתורת כהנים",
-        en: "Individual offerings depend on the private owner's willingness and ability.",
+        en: "after a year, as it is taught in Torat Kohanim",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l18"
+        ]
       },
       {
         id: "rashi-yoma-065b-018",
@@ -148614,11 +148652,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 18,
         he: "גבי חטאת יחיד תורה אחת יהיה",
-        en: "The HP's Yom Kippur service: no private individual can substitute.",
+        en: "regarding an individual's sin-offering: 'one law shall be'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l18"
+        ]
       },
       {
         id: "rashi-yoma-065b-019",
@@ -148626,11 +148666,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 19,
         he: "לכם וגו' הרי כל התורה כולה",
-        en: "The community is always represented; the service is always communal.",
+        en: "'for you,' etc. - this teaches that the entire law",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l18"
+        ]
       },
       {
         id: "rashi-yoma-065b-020",
@@ -148638,11 +148680,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 20,
         he: "כע\"ז מה חטאת ע\"ז בת שנתה",
-        en: "This communal nature is one of the theological features of Yom Kippur.",
+        en: "is compared to the idol-worship sin-offering: just as that must be within its first year,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l18"
+        ]
       },
       {
         id: "rashi-yoma-065b-021",
@@ -148650,11 +148694,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 21,
         he: "אף כאן בת שנתה כשהוא אומר",
-        en: "It is not the HP's personal atonement day.",
+        en: "so too here it must be within its first year. When it says 'shall be,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l18"
+        ]
       },
       {
         id: "rashi-yoma-065b-022",
@@ -148662,11 +148708,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 22,
         he: "יהיה לרבות שעירי רגלים כשהוא",
-        en: "It is the entire community's atonement day, conducted through the HP's agency.",
+        en: "this comes to include the festival goats; when it says",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l18"
+        ]
       },
       {
         id: "rashi-yoma-065b-023",
@@ -148674,11 +148722,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 23,
         he: "אומר לכם לרבות שעירי ע\"ז לעושה",
-        en: "The HP is the community's agent, not the community's representative only.",
+        en: "'for you,' this comes to include the idol-worship goats of the individual sinner;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l18"
+        ]
       },
       {
         id: "rashi-yoma-065b-024",
@@ -148686,11 +148736,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 24,
         he: "לרבות שעיר נשיא: ופרכינן גזירה",
-        en: "He acts in their name and on their behalf.",
+        en: "and to include the goat of the prince. 'And we ask: is it itself a decree,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l18"
+        ]
       },
       {
         id: "rashi-yoma-065b-025",
@@ -148698,11 +148750,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 25,
         he: "היא גופה חטאת שעברה שנתה.",
-        en: "His action is their action; his service is their service.",
+        en: "that it is a sin-offering that has passed its year -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l18"
+        ]
       },
       {
         id: "rashi-yoma-065b-026",
@@ -148710,11 +148764,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 26,
         he: "מאי גזירה דקאמרת הא ודאי חטאת",
-        en: "This is the deepest meaning of the HP's role.",
+        en: "what decree are you speaking of? It is certainly, in fact, a sin-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l18"
+        ]
       },
       {
         id: "rashi-yoma-065b-027",
@@ -148722,11 +148778,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 27,
         he: "שעברה שנתה היא לשנה הבאה:",
-        en: "He disappears into his function.",
+        en: "that has passed its year by the following year!",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l18"
+        ]
       },
       {
         id: "rashi-yoma-065b-028",
@@ -148734,11 +148792,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 28,
         he: "הא לא קשיא. משכחת לה דלא",
-        en: "On Yom Kippur, there is no 'private HP' - only the HP as communal agent.",
+        en: "'This is not difficult' - you can find a case where its year has not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l21"
+        ]
       },
       {
         id: "rashi-yoma-065b-029",
@@ -148746,11 +148806,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 29,
         he: "עברה שנתה כרבי דאמר אין השנה",
-        en: "The community's atonement depends entirely on his performance.",
+        en: "passed, in accordance with Rabbi, who says that the year is not necessarily complete",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l21"
+        ]
       },
       {
         id: "rashi-yoma-065b-030",
@@ -148758,11 +148820,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 30,
         he: "שלימה מיום הכפורים ליום הכפורים",
-        en: "And his performance is entirely on the community's behalf.",
+        en: "from one Yom Kippur to the next,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l21"
+        ]
       },
       {
         id: "rashi-yoma-065b-031",
@@ -148770,11 +148834,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 31,
         he: "מפני שאנו מונין ללבנה ושנת החמה",
-        en: "This complete identification between the HP and the community he represents.",
+        en: "since we count by the moon, and the solar year",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l21"
+        ]
       },
       {
         id: "rashi-yoma-065b-032",
@@ -148782,11 +148848,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 32,
         he: "עודפת עליה אחד עשר יום וצריך",
-        en: "This is what makes the HP's service so weighty.",
+        en: "exceeds it by eleven days, and you must",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l21"
+        ]
       },
       {
         id: "rashi-yoma-065b-033",
@@ -148794,11 +148862,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 33,
         he: "אתה ליתן לכל שנה את עיבורה מה",
-        en: "And this is why the community prays so intensely for the HP's success.",
+        en: "add to each year its intercalation, the amount by which",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l21"
+        ]
       },
       {
         id: "rashi-yoma-065b-034",
@@ -148806,11 +148876,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 34,
         he: "ששנת החמה יתירה עליה: דתניא",
-        en: "His success is their atonement.",
+        en: "the solar year exceeds it. 'As it was taught:'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l21"
+        ]
       },
       {
         id: "rashi-yoma-065b-035",
@@ -148818,11 +148890,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 35,
         he: "שנה תמימה. האמורה בבתי ערי חומה להיות חלוטה ללוקח: רבי",
-        en: "His failure would be their tragedy.",
+        en: "'a complete year' - stated regarding houses in walled cities, to become permanently the buyer's. 'Rabbi'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l21"
+        ]
       },
       {
         id: "rashi-yoma-065b-036",
@@ -148830,11 +148904,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 36,
         he: "אומר מונה שס\"ה ימים. בין שעיברו ב\"ד את השנה בין שלא",
-        en: "The vigil of the community outside the Temple is not passive waiting.",
+        en: "'says: one counts 365 days' - whether the court intercalated the year or did not,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l21"
+        ]
       },
       {
         id: "rashi-yoma-065b-037",
@@ -148842,11 +148918,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 37,
         he: "עיברוה שאין לך למנות אלא לימות החמה: וחכמים אומרים.",
-        en: "It is active prayer and identification with the HP's service.",
+        en: "for you may count only by the days of the solar year. 'And the Sages say' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l21"
+        ]
       },
       {
         id: "rashi-yoma-065b-038",
@@ -148854,11 +148932,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 38,
         he: "הכל כמו שישראל מונין י\"ב חדש מיום ליום אם פשוטה היא:",
-        en: "The community is present through their prayer; the HP is present through his service.",
+        en: "it is entirely as Israel counts: twelve months from day to day, if it is a plain year.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l21"
+        ]
       },
       {
         id: "rashi-yoma-065b-039",
@@ -148866,11 +148946,13 @@ const DAF_CONTENT = {
         daf: "65b",
         vilnaLine: 39,
         he: "ואם",
-        en: "Together they constitute the full Yom Kippur encounter.",
+        en: "'And if' - the comment is completed on 66a as 'it was intercalated,' explaining that an intercalated year affects the buyer of a house sold with redemption rights within a full year.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-065b-l21"
+        ]
       }
     ],
     review: "reviewed"
