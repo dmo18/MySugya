@@ -1,730 +1,889 @@
 {
-  "canonicalRef": "Yoma 65a",
-  "summary": "Two topics: First, the agreed-upon ruling that when a replacement sin-offering is designated and then the original reappears, the original is left to die - it is still consecrated but has no remaining purpose. Second, R. Yehuda's teaching that the lottery is the essential designating act for the Yom Kippur goats: without the lottery, even a valid goat cannot serve as the Yom Kippur offering. The lottery is not mere selection but divine determination of which animal serves.",
-  "sugyot": [
+ "canonicalRef": "Yoma 65a",
+ "summary": "Two topics: First, the agreed-upon ruling that when a replacement sin-offering is designated and then the original reappears, the original is left to die - it is still consecrated but has no remaining purpose. Second, R. Yehuda's teaching that the lottery is the essential designating act for the Yom Kippur goats: without the lottery, even a valid goat cannot serve as the Yom Kippur offering. The lottery is not mere selection but divine determination of which animal serves.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-065a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 16
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-065a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 16
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.65a.1"
-        },
-        {
-          "vilnaLine": 2,
-          "sefariaRef": "Yoma.65a.2"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.65a.3"
-        },
-        {
-          "vilnaLine": 7,
-          "sefariaRef": "Yoma.65a.4"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.65a.5"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.65a.6"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.65a.7"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.65a.1",
-        "Yoma.65a.2",
-        "Yoma.65a.3",
-        "Yoma.65a.4",
-        "Yoma.65a.5",
-        "Yoma.65a.6",
-        "Yoma.65a.7"
-      ],
-      "display": {
-        "whats": "When a replacement sin-offering is designated and then the original reappears: the original must die",
-        "hint": "If a designated sin-offering is lost, a replacement is brought. If the original then reappears, the original must be left to die - it cannot serve since the replacement already fulfilled its purpose.",
-        "title": "The Stranded Original: When Replacement Seals the Outcome"
-      },
-      "learning": {
-        "ahaMoment": "Once a replacement is designated, the original sin-offering is in limbo: too holy to be released back into ordinary use, but no longer needed for its original purpose. It must die because it has no other legitimate use.",
-        "memoryAnchor": "Two animals, one role: when the replacement fills the purpose, the original is left in sacred limbo until it dies.",
-        "learnerQuestion": "If a Yom Kippur sin-offering was lost, replaced, and then the original reappears, what happens to each animal?",
-        "coreTension": "The original animal is still consecrated and technically valid - yet its ritual purpose has been fulfilled by the replacement. Can it serve another role, or is it permanently stranded?",
-        "coreMove": "The Gemara rules the original is left to die. The replacement already fulfilled the Yom Kippur purpose, so the original cannot serve as a sin-offering again. Yet it remains consecrated and cannot be sold. It is a holy animal with no remaining outlet.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "A consecrated animal whose designated purpose was fulfilled by a replacement is left to die - it cannot serve (purpose gone) and cannot be sold (still sacred)."
-        },
-        "learningBlocker": "Students assume that because the original is still valid and holy it must have some use. The key is the irreversibility of the purpose transfer: once the replacement fulfilled the specific Yom Kippur role, the original's sacred role is permanently vacated."
-      },
-      "argumentFlow": [
-        {
-          "type": "premise",
-          "speaker": "Gemara",
-          "text": "Everyone agrees: if the original reappears after a replacement was designated, the original is left to die.",
-          "id": "yoma-065a-l01",
-          "label": "Premise: Everyone agrees: if the original reappears after",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-065a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "reason",
-          "speaker": "Gemara",
-          "text": "The replacement filled the purpose; the original is still consecrated but has no remaining role.",
-          "id": "yoma-065a-l02",
-          "label": "Reason: The replacement filled the purpose; the original",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-065a-l02",
-              "vilnaLine": 2
-            }
-          ]
-        },
-        {
-          "type": "principle",
-          "speaker": "Gemara",
-          "text": "A sin-offering left with no purpose and no further use: it must die.",
-          "id": "yoma-065a-l07",
-          "label": "Principle: A sin-offering left with no purpose and",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-065a-l07",
-              "vilnaLine": 7
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "replacement sin-offering",
-        "original reappears",
-        "left to die",
-        "consecrated with no purpose"
-      ],
-      "concepts": {
-        "halachic": [
-          "replacement and reappearance of original sin-offering",
-          "consecrated animal with no role"
-        ],
-        "theological": [
-          "the fate of sacred objects that have lost their purpose"
-        ],
-        "narrative": [
-          "Temple law",
-          "replacement rules"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing what a sin-offering's 'purpose' is",
-        "Understanding why a consecrated animal cannot simply be released or sold"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The original animal, still being holy and technically valid, can be used for another sacrifice or redeemed",
-          "correction": "The original is not invalid - it is still holy. But its purpose has been filled by the replacement. It cannot serve (its role is taken) and cannot be sold (still consecrated). So it is left to die."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "name": "original sin-offering vs. replacement in use"
-        },
-        {
-          "type": "principle",
-          "name": "consecrated animal with fulfilled purpose must die"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "The original is left to die - it cannot serve since the replacement already fulfilled the Yom Kippur sin-offering purpose. It is still consecrated and cannot be released, but has no remaining role.",
-          "question": "What happens when a sin-offering that was lost and replaced then reappears?"
-        }
-      ],
-      "finalRuling": "When the original sin-offering reappears after a replacement was designated and used, the original is left to die - its purpose is filled and it has no remaining role.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.65a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-065a-s02",
-      "lineRange": {
-        "startVilnaLine": 19,
-        "endVilnaLine": 35
-      },
-      "lines": [
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.65a.8"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.65a.9"
-        },
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.65a.10"
-        },
-        {
-          "vilnaLine": 26,
-          "sefariaRef": "Yoma.65a.11"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.65a.12"
-        },
-        {
-          "vilnaLine": 30,
-          "sefariaRef": "Yoma.65a.13"
-        },
-        {
-          "vilnaLine": 33,
-          "sefariaRef": "Yoma.65a.14"
-        },
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.65a.15"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.65a.8",
-        "Yoma.65a.9",
-        "Yoma.65a.10",
-        "Yoma.65a.11",
-        "Yoma.65a.12",
-        "Yoma.65a.13",
-        "Yoma.65a.14",
-        "Yoma.65a.15"
-      ],
-      "display": {
-        "whats": "R. Yehuda: the lottery designates the Yom Kippur goats; it is the act that makes them the Yom Kippur offering",
-        "hint": "R. Yehuda teaches that the lottery is the essential designating act for the Yom Kippur goats - not just a procedure but the very act that transforms a valid goat into the Yom Kippur offering. Without the lottery, no goat can serve as the Yom Kippur offering.",
-        "title": "The Lottery as Divine Designation, Not Random Selection"
-      },
-      "learning": {
-        "ahaMoment": "The lottery is not a randomizer but a divine designator. What appears as a chance mechanism reveals divine choice: God determines which animal becomes the Yom Kippur offering by determining the lot's outcome.",
-        "memoryAnchor": "The lottery as divine determination: what looks random reveals which goat God chose for His service.",
-        "learnerQuestion": "Why must the lottery always be performed for the Yom Kippur goats, even when both are identical and either could serve?",
-        "coreTension": "If both goats are identical and interchangeable, the lottery seems pointless. Yet R. Yehuda insists it is indispensable. Is the lottery a legal formality or something more essential?",
-        "coreMove": "R. Yehuda holds the lottery is not a selection mechanism but a designating act. Without the lottery, no goat acquires the status of 'Yom Kippur offering.' The lottery is divine designation that creates the halachic role - however valid the animal, without the lottery it has no status.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "The lottery is not mere randomization - it is the essential act that designates which goat serves God and which serves Azazel. Without it, neither goat has its Yom Kippur status."
-        },
-        "learningBlocker": "Learners may see the lottery as logistical selection and assume that when both animals qualify, it could be skipped. R. Yehuda teaches that the lottery is constitutive - it does not reveal which goat to use; it creates the goat's legal identity."
-      },
-      "argumentFlow": [
-        {
-          "type": "teaching",
-          "speaker": "R. Yehuda",
-          "text": "If two valid goats are present, the lottery designates which serves.",
-          "id": "yoma-065a-l19",
-          "label": "Teaching: If two valid goats are present, the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-065a-l19",
-              "vilnaLine": 19
-            }
-          ]
-        },
-        {
-          "type": "principle",
-          "speaker": "R. Yehuda",
-          "text": "The lottery is the essential act that creates the Yom Kippur offering status.",
-          "id": "yoma-065a-l22",
-          "label": "Principle: The lottery is the essential act that",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-065a-l22",
-              "vilnaLine": 22
-            }
-          ]
-        },
-        {
-          "type": "theology",
-          "speaker": "Gemara",
-          "text": "The lottery reveals divine determination, not randomness.",
-          "id": "yoma-065a-l26",
-          "label": "Theology: The lottery reveals divine determination, not random...",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-065a-l26",
-              "vilnaLine": 26
-            }
-          ]
-        },
-        {
-          "type": "distinction",
-          "speaker": "Gemara",
-          "text": "Communal vs. individual sin-offerings differ in replacement rules.",
-          "id": "yoma-065a-l30",
-          "label": "Distinction: Communal vs. individual sin-offerings differ in repl...",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-065a-l30",
-              "vilnaLine": 30
-            }
-          ]
-        },
-        {
-          "type": "application",
-          "speaker": "Gemara",
-          "text": "The Yom Kippur goats are communal offerings; their replacement rules follow.",
-          "id": "yoma-065a-l33",
-          "label": "Application: The Yom Kippur goats are communal offerings;",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-065a-l33",
-              "vilnaLine": 33
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "lottery essential",
-        "designating act",
-        "R. Yehuda",
-        "communal vs. individual sin-offering",
-        "divine determination"
-      ],
-      "concepts": {
-        "halachic": [
-          "lottery as essential designating act",
-          "communal sin-offering replacement rules"
-        ],
-        "theological": [
-          "the lottery as divine determination rather than random chance",
-          "human mechanism revealing divine will"
-        ],
-        "narrative": [
-          "Yom Kippur theology",
-          "lottery's function"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing the lottery is performed for the Yom Kippur goats",
-        "Understanding the difference between communal and individual offerings"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The lottery is just a fair selection mechanism and can be skipped when both goats are identical and interchangeable",
-          "correction": "The lottery does not choose randomly - it reveals and creates divine determination. Without the lottery, neither goat has its Yom Kippur designation, regardless of physical similarity."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "lottery as divine designating act"
-        },
-        {
-          "type": "contrast",
-          "name": "communal vs. individual offering replacement rules"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "The lottery is the essential designating act that creates the Yom Kippur offering status. Without the lottery, no goat - however valid - can serve as the Yom Kippur offering. The lottery is divine designation, not mere selection.",
-          "question": "According to R. Yehuda, why must the lottery always be performed for the Yom Kippur goats even when both are valid?"
-        }
-      ],
-      "finalRuling": "R. Yehuda: the lottery is the essential designating act for the Yom Kippur goats; it is not a procedure but the theological act that makes a goat into the Yom Kippur offering.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 2,
+     "sefariaRef": "Yoma.65a.2"
+    },
+    {
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.65a.3"
+    },
+    {
+     "vilnaLine": 7,
+     "sefariaRef": "Yoma.65a.4"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.65a.5"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.65a.6"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.65a.7"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "en": "Everyone concedes: if the designated sin-offering became lost and a replacement was designated.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 2,
-      "en": "Then the original is found.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 3,
-      "en": "Both are now present: the original and the replacement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 4,
-      "en": "One must be left to die (because it cannot be used as a sin-offering once the replacement was brought).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "en": "The logic: once a replacement is designated, the original sin-offering's purpose is filled.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "en": "But the original is still consecrated and cannot simply be used or released.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "en": "The ruling: it is left to die (it cannot be sacrificed but must die on its own).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "en": "This ruling is agreed upon by all parties in the subsequent dispute.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "en": "The shared starting point: the original sin-offering goes to die when replaced.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "en": "R. Yehuda adds: if both are present when the service begins, and the HP uses one.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "en": "The unused one must die afterward.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "en": "Because only one sin-offering for Yom Kippur can be used per year.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "en": "The second one, even if valid, cannot serve as the Yom Kippur sin-offering.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Its purpose was fulfilled by the one that actually served.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "R. Yehuda's case: what if the HP doesn't know which is which?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "The lottery procedure resolves this.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "The lottery designates the roles; the one designated for God serves.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "The other one (whichever it is) is set aside.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "R. Yehuda's additional point: the communal nature of the sin-offering.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "A communal offering has unique rules about replacement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "Individual offerings and communal offerings differ in how replacements work.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Communal offerings have a different funding source and a different replacement process.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "The Yom Kippur goats are communal offerings funded by the half-shekel collection.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Therefore their replacement rules follow communal offering rules.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "This is the key to unlocking R. Yehuda's additional teaching.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "The communal nature affects replacement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "A communal offering can in principle be replaced more freely.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "But the Yom Kippur goats specifically require the lottery process.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Even for replacements, the lottery is mandatory.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "The lottery is what makes the goat into the Yom Kippur offering.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Without the lottery, even a perfectly valid goat cannot serve.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "This is the unique feature of the Yom Kippur goats.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "Most offerings are designated by the owner's intent.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "The Yom Kippur goats are designated by the lottery.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "The lottery is the designating act, not the owner's intent.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "This distinction is theologically significant.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "The Yom Kippur offering is not a personal choice - it is a divinely determined assignment.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "The lottery represents divine decision: this one, not that one.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "The atonement flows through the divinely designated channel.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "This is perhaps why the lottery is performed even when both goats are perfectly valid.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "The choice of which is 'for God' and which is 'for Azazel' is not arbitrary.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "It is divinely assigned, even if the mechanism (lottery) appears random.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "The Jewish understanding: the lottery reveals divine will, it doesn't create randomness.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "What appears random to human eyes is the expression of divine choice.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "en": "This is why 'the lot came up for...' is stated as a fact, not as a chance outcome.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "en": "The lottery is the divine hand designating the atonement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "en": "Understanding this transforms the lottery from a procedure to a theology.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "en": "The Yom Kippur lottery is the moment when divine will is expressed in the Temple.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "en": "The HP holds the lots; God determines the outcome.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "en": "This is the partnership: human action, divine determination.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "en": "The same partnership that defines the entire Yom Kippur service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 52,
-      "en": "The HP acts; God atones.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 53,
-      "en": "The people fast; God forgives.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 54,
-      "en": "Human effort and divine response: the structure of Yom Kippur.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 55,
-      "en": "The tractate Yoma has traced this partnership throughout.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 56,
-      "en": "Every halacha is a rule for the human side of the partnership.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 57,
-      "en": "And the whole edifice of rules enables the divine response: atonement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 58,
-      "en": "This is what the Talmud is ultimately about.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 59,
-      "en": "The detailed rules of what humans must do to enable divine response.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 60,
-      "en": "Yoma is the supreme expression of this.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 61,
-      "en": "Study it to understand not just the halachot but the theology.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 62,
-      "en": "And in understanding both, you participate in the partnership.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 63,
-      "en": "You become part of the Yom Kippur covenant.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 64,
-      "en": "May it be so. Amen.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 65,
-      "en": "The tractate continues with further analysis.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 66,
-      "en": "Each law adding another layer to the complete picture.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 67,
-      "en": "Until the full Yom Kippur stands revealed.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 68,
-      "en": "In all its complexity, all its holiness, all its beauty.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 69,
-      "en": "And all its atonement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 70,
-      "en": "May we be worthy of it.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 71,
-      "en": "May it atone for us.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 72,
-      "en": "Amen.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 73,
-      "en": "This is what Tractate Yoma teaches.",
-      "linkedGemaraLineIds": []
+   ],
+   "sefariaRefs": [
+    "Yoma.65a.1",
+    "Yoma.65a.2",
+    "Yoma.65a.3",
+    "Yoma.65a.4",
+    "Yoma.65a.5",
+    "Yoma.65a.6",
+    "Yoma.65a.7"
+   ],
+   "display": {
+    "whats": "When a replacement sin-offering is designated and then the original reappears: the original must die",
+    "hint": "If a designated sin-offering is lost, a replacement is brought. If the original then reappears, the original must be left to die - it cannot serve since the replacement already fulfilled its purpose.",
+    "title": "The Stranded Original: When Replacement Seals the Outcome"
+   },
+   "learning": {
+    "ahaMoment": "Once a replacement is designated, the original sin-offering is in limbo: too holy to be released back into ordinary use, but no longer needed for its original purpose. It must die because it has no other legitimate use.",
+    "memoryAnchor": "Two animals, one role: when the replacement fills the purpose, the original is left in sacred limbo until it dies.",
+    "learnerQuestion": "If a Yom Kippur sin-offering was lost, replaced, and then the original reappears, what happens to each animal?",
+    "coreTension": "The original animal is still consecrated and technically valid - yet its ritual purpose has been fulfilled by the replacement. Can it serve another role, or is it permanently stranded?",
+    "coreMove": "The Gemara rules the original is left to die. The replacement already fulfilled the Yom Kippur purpose, so the original cannot serve as a sin-offering again. Yet it remains consecrated and cannot be sold. It is a holy animal with no remaining outlet.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "A consecrated animal whose designated purpose was fulfilled by a replacement is left to die - it cannot serve (purpose gone) and cannot be sold (still sacred)."
+    },
+    "learningBlocker": "Students assume that because the original is still valid and holy it must have some use. The key is the irreversibility of the purpose transfer: once the replacement fulfilled the specific Yom Kippur role, the original's sacred role is permanently vacated."
+   },
+   "argumentFlow": [
+    {
+     "type": "premise",
+     "speaker": "Gemara",
+     "text": "Everyone agrees: if the original reappears after a replacement was designated, the original is left to die.",
+     "id": "yoma-065a-l01",
+     "label": "Premise: Everyone agrees: if the original reappears after",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-065a-l01",
+       "vilnaLine": 1
+      }
+     ]
+    },
+    {
+     "type": "reason",
+     "speaker": "Gemara",
+     "text": "The replacement filled the purpose; the original is still consecrated but has no remaining role.",
+     "id": "yoma-065a-l02",
+     "label": "Reason: The replacement filled the purpose; the original",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-065a-l02",
+       "vilnaLine": 2
+      }
+     ]
+    },
+    {
+     "type": "principle",
+     "speaker": "Gemara",
+     "text": "A sin-offering left with no purpose and no further use: it must die.",
+     "id": "yoma-065a-l07",
+     "label": "Principle: A sin-offering left with no purpose and",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-065a-l07",
+       "vilnaLine": 7
+      }
+     ]
     }
-  ],
-  "review": "reviewed"
+   ],
+   "topicTags": [
+    "replacement sin-offering",
+    "original reappears",
+    "left to die",
+    "consecrated with no purpose"
+   ],
+   "concepts": {
+    "halachic": [
+     "replacement and reappearance of original sin-offering",
+     "consecrated animal with no role"
+    ],
+    "theological": [
+     "the fate of sacred objects that have lost their purpose"
+    ],
+    "narrative": [
+     "Temple law",
+     "replacement rules"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Knowing what a sin-offering's 'purpose' is",
+    "Understanding why a consecrated animal cannot simply be released or sold"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The original animal, still being holy and technically valid, can be used for another sacrifice or redeemed",
+     "correction": "The original is not invalid - it is still holy. But its purpose has been filled by the replacement. It cannot serve (its role is taken) and cannot be sold (still consecrated). So it is left to die."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "name": "original sin-offering vs. replacement in use"
+    },
+    {
+     "type": "principle",
+     "name": "consecrated animal with fulfilled purpose must die"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "The original is left to die - it cannot serve since the replacement already fulfilled the Yom Kippur sin-offering purpose. It is still consecrated and cannot be released, but has no remaining role.",
+     "question": "What happens when a sin-offering that was lost and replaced then reappears?"
+    }
+   ],
+   "finalRuling": "When the original sin-offering reappears after a replacement was designated and used, the original is left to die - its purpose is filled and it has no remaining role.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-065a-s02",
+   "lineRange": {
+    "startVilnaLine": 19,
+    "endVilnaLine": 35
+   },
+   "lines": [
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.65a.8"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.65a.9"
+    },
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.65a.10"
+    },
+    {
+     "vilnaLine": 26,
+     "sefariaRef": "Yoma.65a.11"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.65a.12"
+    },
+    {
+     "vilnaLine": 30,
+     "sefariaRef": "Yoma.65a.13"
+    },
+    {
+     "vilnaLine": 33,
+     "sefariaRef": "Yoma.65a.14"
+    },
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.65a.15"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.65a.8",
+    "Yoma.65a.9",
+    "Yoma.65a.10",
+    "Yoma.65a.11",
+    "Yoma.65a.12",
+    "Yoma.65a.13",
+    "Yoma.65a.14",
+    "Yoma.65a.15"
+   ],
+   "display": {
+    "whats": "R. Yehuda: the lottery designates the Yom Kippur goats; it is the act that makes them the Yom Kippur offering",
+    "hint": "R. Yehuda teaches that the lottery is the essential designating act for the Yom Kippur goats - not just a procedure but the very act that transforms a valid goat into the Yom Kippur offering. Without the lottery, no goat can serve as the Yom Kippur offering.",
+    "title": "The Lottery as Divine Designation, Not Random Selection"
+   },
+   "learning": {
+    "ahaMoment": "The lottery is not a randomizer but a divine designator. What appears as a chance mechanism reveals divine choice: God determines which animal becomes the Yom Kippur offering by determining the lot's outcome.",
+    "memoryAnchor": "The lottery as divine determination: what looks random reveals which goat God chose for His service.",
+    "learnerQuestion": "Why must the lottery always be performed for the Yom Kippur goats, even when both are identical and either could serve?",
+    "coreTension": "If both goats are identical and interchangeable, the lottery seems pointless. Yet R. Yehuda insists it is indispensable. Is the lottery a legal formality or something more essential?",
+    "coreMove": "R. Yehuda holds the lottery is not a selection mechanism but a designating act. Without the lottery, no goat acquires the status of 'Yom Kippur offering.' The lottery is divine designation that creates the halachic role - however valid the animal, without the lottery it has no status.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "The lottery is not mere randomization - it is the essential act that designates which goat serves God and which serves Azazel. Without it, neither goat has its Yom Kippur status."
+    },
+    "learningBlocker": "Learners may see the lottery as logistical selection and assume that when both animals qualify, it could be skipped. R. Yehuda teaches that the lottery is constitutive - it does not reveal which goat to use; it creates the goat's legal identity."
+   },
+   "argumentFlow": [
+    {
+     "type": "teaching",
+     "speaker": "R. Yehuda",
+     "text": "If two valid goats are present, the lottery designates which serves.",
+     "id": "yoma-065a-l19",
+     "label": "Teaching: If two valid goats are present, the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-065a-l19",
+       "vilnaLine": 19
+      }
+     ]
+    },
+    {
+     "type": "principle",
+     "speaker": "R. Yehuda",
+     "text": "The lottery is the essential act that creates the Yom Kippur offering status.",
+     "id": "yoma-065a-l22",
+     "label": "Principle: The lottery is the essential act that",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-065a-l22",
+       "vilnaLine": 22
+      }
+     ]
+    },
+    {
+     "type": "theology",
+     "speaker": "Gemara",
+     "text": "The lottery reveals divine determination, not randomness.",
+     "id": "yoma-065a-l26",
+     "label": "Theology: The lottery reveals divine determination, not random...",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-065a-l26",
+       "vilnaLine": 26
+      }
+     ]
+    },
+    {
+     "type": "distinction",
+     "speaker": "Gemara",
+     "text": "Communal vs. individual sin-offerings differ in replacement rules.",
+     "id": "yoma-065a-l30",
+     "label": "Distinction: Communal vs. individual sin-offerings differ in repl...",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-065a-l30",
+       "vilnaLine": 30
+      }
+     ]
+    },
+    {
+     "type": "application",
+     "speaker": "Gemara",
+     "text": "The Yom Kippur goats are communal offerings; their replacement rules follow.",
+     "id": "yoma-065a-l33",
+     "label": "Application: The Yom Kippur goats are communal offerings;",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-065a-l33",
+       "vilnaLine": 33
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "lottery essential",
+    "designating act",
+    "R. Yehuda",
+    "communal vs. individual sin-offering",
+    "divine determination"
+   ],
+   "concepts": {
+    "halachic": [
+     "lottery as essential designating act",
+     "communal sin-offering replacement rules"
+    ],
+    "theological": [
+     "the lottery as divine determination rather than random chance",
+     "human mechanism revealing divine will"
+    ],
+    "narrative": [
+     "Yom Kippur theology",
+     "lottery's function"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Knowing the lottery is performed for the Yom Kippur goats",
+    "Understanding the difference between communal and individual offerings"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The lottery is just a fair selection mechanism and can be skipped when both goats are identical and interchangeable",
+     "correction": "The lottery does not choose randomly - it reveals and creates divine determination. Without the lottery, neither goat has its Yom Kippur designation, regardless of physical similarity."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "lottery as divine designating act"
+    },
+    {
+     "type": "contrast",
+     "name": "communal vs. individual offering replacement rules"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "The lottery is the essential designating act that creates the Yom Kippur offering status. Without the lottery, no goat - however valid - can serve as the Yom Kippur offering. The lottery is divine designation, not mere selection.",
+     "question": "According to R. Yehuda, why must the lottery always be performed for the Yom Kippur goats even when both are valid?"
+    }
+   ],
+   "finalRuling": "R. Yehuda: the lottery is the essential designating act for the Yom Kippur goats; it is not a procedure but the theological act that makes a goat into the Yom Kippur offering.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'But according to Rav' - who says that the Mishnah teaches 'it shall graze' regarding the second of the second pair, and atonement is achieved through the first,",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "the rejected one - why? If this were like an individual's counterpart dying, this is not even a question for the Rabbis, who hold it does not die, since",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "atonement was achieved through the rejected one, and they say that one set aside to cover a loss is not treated like a lost animal. But even",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "according to Rabbi, it should not die here, for this one was not set aside to replace a lost animal, since originally",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "the first one still existed, and it was on account of the goat to be sent away that died",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "that he needed to bring two more; and since living",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "animals are not rejected from the start, he could have offered",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "either one, so it is as though he had set aside two sin-offerings",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "to cover a contingency, such that if one of them is lost, he offers",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "the other. 'And Rabbi Oshaya said' - the second",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "one shall graze, even according to Rabbi, since it was not set aside",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "to cover a loss. 'Since' - there is a mitzvah preference for the first",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l02",
+    "yoma-065a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "from the outset, when we set aside this second one,",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "we set it aside with the loss in mind, and it is no different",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "from one who sets aside an animal to cover a loss; and the Mishnah follows Rabbi's view, and so",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "we say in tractate Temurah that Rav",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "establishes the Mishnah in accordance with Rabbi. 'We learned: Rabbi Yehuda",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l05",
+    "yoma-065a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "says it shall die' - one might initially think that this refers to the very case where",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "the Rabbis say it shall graze, and Rabbi Yehuda says it shall die,",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "and this forces the conclusion that according to Rabbi Yehuda living",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "animals can become rejected, as is taught: if the blood is spilled, the one to be sent away",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "shall die. 'This works out well according to Rabbi Yochanan, who says'",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "the Mishnah's ruling applies to the second of the first pair - we learned it shall graze, and",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "Rabbi Yehuda says regarding it that it shall die, meaning atonement is achieved through the second of",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l07"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "the second pair. 'But according to Rav' - who says that it shall graze",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l07",
+    "yoma-065a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "was taught in the Mishnah regarding the second of the second pair, and it is regarding this one",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "that Rabbi Yehuda says it shall die. 'Through what is atonement achieved' -",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "for according to Rabbi Yehuda, atonement cannot be achieved through the first,",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "since he holds that living animals can become rejected. 'Do you think,' etc.,",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "'that it refers to the second of the first pair' - and he disputes on two points,",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "as I explained above. 'And some raise the challenge' -",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l10",
+    "yoma-065a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "this way: this first challenge that I raised",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "above, from 'and Rabbi Yehuda further said,' etc.,",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "which I raised above against Rav - some instead raise",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "it originally against Rabbi Yochanan, and this is how",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l14"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "they raise it: 'This works out well according to Rav' - who says that according to the first Tanna",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l14",
+    "yoma-065a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "living animals are not rejected, and regarding the second of the second pair",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "he says it shall graze, and Rabbi Yehuda does not say regarding that one",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "that it shall die; this is why he then says 'and furthermore,'",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "to teach that he holds living animals",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "can become rejected, and the 'it shall die' he says in the opening clause does not",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "refer to the very one the Rabbis say shall graze,",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "and he comes to disagree on two points: in the opening clause he disagrees",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "regarding a communal sin-offering, where the Rabbis say it shall graze",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "and Rabbi Yehuda says it shall die; and in the latter clause",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "he disagrees regarding living animals, where the Rabbis say they are not",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "rejected and atonement is achieved through the first, and he comes",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "to say that this one shall die and the second shall be offered. 'But",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "according to Rabbi Yochanan, what does \"and furthermore\" add' - for the Rabbis too",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "say the first becomes rejected? 'It is difficult' - as we said,",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "that the Mishnah is precisely in accordance with Rav. 'This works out well:",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l16",
+    "yoma-065a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "if the blood is spilled, the one to be sent away shall die, since",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "its mitzvah was not yet performed' - for the blood and the indispensable decree are written regarding the acts",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "performed in white garments, and he must bring other blood, and this is impossible without",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l19"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "a new lottery; and since he holds that living animals can become rejected, the first goat to be sent away shall die. 'But",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l19",
+    "yoma-065a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "if the one to be sent away dies' - why do you require a replacement, forcing him to bring two more and cast lots",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "and pour out the first blood? Its mitzvah has already been performed, for the goat to be sent away, the only thing",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "indispensable about it is the lottery alone, to establish which lot falls 'for the Name' upon its counterpart; for",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "we hear from Rabbi Yehuda himself that even if the confession was not said, it is still valid, and all the more so the sending itself is not",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "indispensable according to all opinions, since when 'the indispensable decree' is written, it is written regarding the acts the priest himself performs in white garments,",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "and not regarding acts performed by the designated man. 'To remain alive' - meaning it must not die before",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l22",
+    "yoma-065a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "the time of its counterpart's blood being placed; for if it dies before that, the atonement of the blood accomplishes nothing.",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 63,
+   "en": "Therefore a replacement is needed, and this is impossible without a new lottery, requiring two more animals, and the original",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 64,
+   "en": "is rejected, for all agree that among slaughtered animals, rejection applies. 'The townspeople who sent' - through a messenger,",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l23",
+    "yoma-065a-l26"
+   ]
+  },
+  {
+   "vilnaLine": 65,
+   "en": "their shekels to Jerusalem, to the Temple. 'If the terumah was already separated' - the three baskets, before it became known",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l26"
+   ]
+  },
+  {
+   "vilnaLine": 66,
+   "en": "that they were lost. 'They must take an oath' - the messengers take the oath of bailees to the treasurers, since the loss",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l26"
+   ]
+  },
+  {
+   "vilnaLine": 67,
+   "en": "falls on the Temple treasury, for the owners are not obligated to contribute the shekel again, as we learned (Ketubot 108a):",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l26"
+   ]
+  },
+  {
+   "vilnaLine": 68,
+   "en": "they separate the terumah on behalf of what was lost but not yet known. 'But if not' - if the terumah had not yet been separated,",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l26",
+    "yoma-065a-l28"
+   ]
+  },
+  {
+   "vilnaLine": 69,
+   "en": "the loss does not fall on the Temple treasury but on the owners; therefore they take an oath to the townspeople. 'They were found' -",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l28",
+    "yoma-065a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 70,
+   "en": "referring back to 'were lost.' 'The thieves returned them' - referring back to 'were stolen.' 'And they are not credited to them' -",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l30"
+   ]
+  },
+  {
+   "vilnaLine": 71,
+   "en": "to the owners, and they must contribute the shekel again for the coming year. 'Obligations of this year' - meaning shekels set aside as an obligation for this year. 'The goats for idol worship' - when the community sins in idol worship by a court ruling,",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l30",
+    "yoma-065a-l33",
+    "yoma-065a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 72,
+   "en": "they bring a bull for a burnt-offering and a goat for a sin-offering. 'And he set aside others in their place' - and the original ones were then found. 'All of them shall die' - and we do not say they may be offered in the coming year.",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l35"
+   ]
+  },
+  {
+   "vilnaLine": 73,
+   "en": "'Offerings' - the comment is completed on 65b as 'communal,' continuing to explain the communal-offering funding source discussed here.",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l35"
+   ]
+  }
+ ],
+ "review": "reviewed"
 }
