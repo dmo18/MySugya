@@ -1,29 +1,33 @@
-# Yoma Module - Frozen
+# Yoma Module - Frozen Scope, Actively Maintained Content
 
-Tractate Yoma: 173 daf (2a-88a), 8 chapters, 492 sugyot, 8,854 rashiLines (runtime); 8,878 rashiTranslations (source enrichment layer).
+Tractate Yoma: 173 daf (2a-88a), 8 chapters, 492 sugyot, 8,854 rashiLines (runtime) and 8,854 rashiTranslations (source enrichment layer).
 
-**Status: FROZEN at v10.75. Do not modify any learning content.**
+**Status: corpus SCOPE is frozen (173 daf, 492 sugyot; no new sugyot are added). Content within that scope is actively maintained: corrections land via explicit-approval PRs following `docs/worker-pipeline-sop.md`, never as ad hoc hand-edits. See `docs/tractate-build-process.md` and `docs/rashi-audit-backlog.md` for the live record of in-scope correction work (the Yoma Rashi scaffold-fabrication remediation campaign completed at VERSION 15.290; a Rashi content-quality audit is in progress, see `docs/rashi-audit-backlog.md`'s Scope note).**
 
 ---
 
-## What is frozen
+## What "frozen scope" means
 
-- `learning_data.js` - GENERATED runtime data. Do not hand-edit.
-- `source_store.js` - Sefaria-validated Gemara he/en. Do not modify.
-- `assets/learning/yoma/*.learning.json` - Enrichment source. Do not modify.
-- `assets/talmuddev/*.json` - Vilna line source. Do not modify.
-- `assets/daftexts/*.txt` - Generated daftexts. Do not modify.
+No new daf, sugyot, or fields are added without a deliberate schema/scope decision (see `shared/schema_map.js` and CLAUDE.md's "Do not add schema fields casually" rule). Within the existing 173-daf/492-sugya scope, these files are corrected only via the worker pipeline (manifest, preflight, packet, verify, one PR, sequential merge), never hand-edited directly:
+
+- `learning_data.js` - GENERATED runtime data. Do not hand-edit; rebuild it.
+- `source_store.js` - Sefaria-validated Gemara he/en. Do not hand-edit.
+- `assets/learning/yoma/*.learning.json` - Enrichment source, including `rashiTranslations`. Corrected only through the worker pipeline.
+- `assets/talmuddev/*.json` - Vilna line source. Do not hand-edit.
+- `assets/daftexts/*.txt` - Generated daftexts. Do not hand-edit; regenerate.
 
 ## Validation gates
 
 Run from the MySugya repo root:
 
 ```
-npm run validate:yoma        # he: verbatim Sefaria (all 173 daf)
-npm run audit:order:yoma     # Vilna sequence, no inversions
-npm run validate:en:yoma     # en: aligned to correct he: segment
-npm run validate:daftext:yoma # daftexts from talmud.dev
-npm run validate:rashi:yoma  # Rashi layer integrity
+npm run validate:yoma          # he: verbatim Sefaria (all 173 daf)
+npm run audit:order:yoma       # Vilna sequence, no inversions
+npm run validate:en:yoma       # en: aligned to correct he: segment
+npm run validate:daftext:yoma  # daftexts from talmud.dev
+npm run validate:rashi:yoma    # Rashi layer integrity
+npm run validate:literal:yoma  # en_lit coverage threshold
+npm run validate:schema:yoma   # display/learning schema completeness (manual; not in default npm test)
 ```
 
 Or run directly from this directory:
@@ -35,6 +39,8 @@ python3 scripts/order_audit.py
 python3 scripts/validate_en.py
 python3 scripts/validate_daftext.py
 python3 scripts/validate_rashi.py
+python3 scripts/validate_literal.py
+python3 scripts/validate_schema_completeness.py
 ```
 
 All validators read from `modules/yoma/` as their working root.
@@ -66,10 +72,10 @@ Then re-run all validation gates and commit learning_data.js.
 
 `archive/build_phase_tools/` - used during initial corpus construction only. See that directory's README.
 
-## Data counts (frozen state)
+## Data counts
 
 - Daf: 173 (2a through 88a)
 - Sugyot: 492
 - rashiLines (runtime, in learning_data.js): 8,854
-- rashiTranslations (source enrichment layer): 8,878
-- Corpus version: v10.75
+- rashiTranslations (source enrichment layer): 8,854
+- Platform VERSION: see repository root `VERSION` (data-layer versions such as `DATA_VERSION` in this module's `learning_data.js` are tracked independently; see CLAUDE.md's Version management section)
