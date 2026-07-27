@@ -1,798 +1,929 @@
 {
-  "canonicalRef": "Yoma 58b",
-  "summary": "Three topics: First, a tannaitic dispute between R. Eliezer (blood remainders go to the altar base of the zone where the service was performed) and R. Shimon (all remainders go to the outer altar's western base). Second, the HP's third and most comprehensive confession over the scapegoat, transferring all of Israel's sins through the ritual of hand-laying and verbal confession before dispatching the goat to Azazel. Third, the ten relay stations along the Azazel route, through which news of the goat's arrival at the cliff is transmitted back to the HP while he continues the day's service.",
-  "sugyot": [
+ "canonicalRef": "Yoma 58b",
+ "summary": "Three topics: First, a tannaitic dispute between R. Eliezer (blood remainders go to the altar base of the zone where the service was performed) and R. Shimon (all remainders go to the outer altar's western base). Second, the HP's third and most comprehensive confession over the scapegoat, transferring all of Israel's sins through the ritual of hand-laying and verbal confession before dispatching the goat to Azazel. Third, the ten relay stations along the Azazel route, through which news of the goat's arrival at the cliff is transmitted back to the HP while he continues the day's service.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-058b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 14
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-058b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 14
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.58b.1"
-        },
-        {
-          "vilnaLine": 4,
-          "sefariaRef": "Yoma.58b.2"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.58b.3"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.58b.4"
-        },
-        {
-          "vilnaLine": 11,
-          "sefariaRef": "Yoma.58b.5"
-        },
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.58b.6"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.58b.7"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.58b.1",
-        "Yoma.58b.2",
-        "Yoma.58b.3",
-        "Yoma.58b.4",
-        "Yoma.58b.5",
-        "Yoma.58b.6",
-        "Yoma.58b.7"
-      ],
-      "display": {
-        "whats": "R. Eliezer vs. R. Shimon: do inner and outer blood remainders go to different altar bases?",
-        "hint": "R. Eliezer rules that each service's remainder goes to the altar base of the zone where it was performed (inner to inner, outer to outer). R. Shimon rules all remainders go to the outer altar's western base.",
-        "title": "Where Remaining Blood Is Poured - R. Eliezer vs. R. Shimon"
-      },
-      "learning": {
-        "ahaMoment": "R. Eliezer matches blood to its zone even for the final pour; R. Shimon unifies all remainders at the outer altar - two different visions of how the blood's journey concludes.",
-        "memoryAnchor": "Eliezer: each blood ends where it served. Shimon: all blood ends at the outermost point.",
-        "learnerQuestion": "After all blood services are complete, where does the remaining blood go - is there a dispute about which altar's base receives it?",
-        "coreTension": "R. Eliezer and R. Shimon dispute which altar's base receives the remaining blood: R. Eliezer says the outer altar base, R. Shimon distinguishes inner-service blood from outer-service blood. The practical difference reflects deeper principles about where each service's blood 'belongs.'",
-        "coreMove": "The dispute turns on which is the service's conceptual home base: R. Eliezer follows the outer altar as the primary base for all leftover blood; R. Shimon argues that blood used inside ends at the inside base, so remaining inner blood goes to the golden altar's base.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "R. Eliezer and R. Shimon dispute the destination of remaining blood: R. Eliezer sends all remaining blood to the outer altar base, while R. Shimon distinguishes inner-service blood (to the golden altar base) from outer-service blood (to the outer altar base)."
-        },
-        "learningBlocker": "Students may assume a single unified rule for all remaining blood; the Talmud's dispute reveals that the principle governing leftover blood destination depends on the conceptual locus of the service."
-      },
-      "argumentFlow": [
-        {
-          "type": "dispute",
-          "speaker": "R. Eliezer",
-          "text": "Inner service blood remainder goes to the inner altar base; outer service remainder to the outer altar base.",
-          "id": "yoma-058b-l01",
-          "label": "Dispute: Inner service blood remainder goes to the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-058b-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "dispute",
-          "speaker": "R. Shimon",
-          "text": "All blood remainders - from all services - go to the outer altar's western base.",
-          "id": "yoma-058b-l04",
-          "label": "Dispute: All blood remainders - from all services",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-058b-l04",
-              "vilnaLine": 4
-            }
-          ]
-        },
-        {
-          "type": "crux",
-          "speaker": "Gemara",
-          "text": "The practical difference: blood from the parochet service - inner base (Eliezer) or outer base (Shimon)?",
-          "id": "yoma-058b-l09",
-          "label": "Crux: The practical difference: blood from the parochet",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-058b-l09",
-              "vilnaLine": 9
-            }
-          ]
-        },
-        {
-          "type": "context",
-          "speaker": "Gemara",
-          "text": "This blood pouring is the final act before the HP transitions to the scapegoat and other services.",
-          "id": "yoma-058b-l14",
-          "label": "Context: This blood pouring is the final act",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-058b-l14",
-              "vilnaLine": 14
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "blood remainder",
-        "altar base",
-        "R. Eliezer",
-        "R. Shimon",
-        "inner vs. outer"
-      ],
-      "concepts": {
-        "halachic": [
-          "blood pouring at altar base",
-          "dispute over inner vs. outer base",
-          "tannaitic dispute"
-        ],
-        "theological": [
-          "spatial theology: does blood belong to its service zone?",
-          "the blood's concluding journey"
-        ],
-        "narrative": [
-          "tannaitic dispute",
-          "blood disposal"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing there are two altars each with a base",
-        "Knowing the inner and outer services are distinguished by zone"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "All remaining blood from both the inner and outer services is always poured to the same single base with no distinction.",
-          "correction": "R. Eliezer and R. Shimon dispute whether inner-service blood must go to the golden altar base or can go to the outer altar base; the destination is not uniformly the same for all remaining blood."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "name": "R. Eliezer zone-based vs. R. Shimon unified outer base"
-        },
-        {
-          "type": "place",
-          "name": "inner altar base vs. outer altar base"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "R. Eliezer: inner service blood goes to the inner altar base, outer service blood to the outer altar base. R. Shimon: all blood remainders go to the outer altar's base.",
-          "question": "What is the dispute between R. Eliezer and R. Shimon about blood remainder?"
-        }
-      ],
-      "finalRuling": "R. Eliezer rules inner/outer blood remainders go to their respective altar bases; R. Shimon rules all go to the outer altar's western base.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.58b.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-058b-s02",
-      "lineRange": {
-        "startVilnaLine": 15,
-        "endVilnaLine": 27
-      },
-      "lines": [
-        {
-          "vilnaLine": 15,
-          "sefariaRef": "Yoma.58b.8"
-        },
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.58b.9"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.58b.10"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.58b.11"
-        },
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.58b.12"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.58b.13"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.58b.8",
-        "Yoma.58b.9",
-        "Yoma.58b.10",
-        "Yoma.58b.11",
-        "Yoma.58b.12",
-        "Yoma.58b.13"
-      ],
-      "display": {
-        "whats": "The HP's third confession over the scapegoat; sins transferred to Azazel",
-        "hint": "The HP places both hands on the scapegoat's head and recites the third and most comprehensive confession, transferring all of Israel's sins to the goat before it is sent to Azazel.",
-        "title": "High Priest's Confession over the Scapegoat"
-      },
-      "learning": {
-        "ahaMoment": "The HP's hands on the scapegoat's head: a physical bridge between the nation's sins and their departure. What the mind alone cannot release, the ritual transfers.",
-        "memoryAnchor": "Two hands, one goat, all of Israel: the HP's body becomes the conduit through which the nation's sins are symbolically dispatched.",
-        "learnerQuestion": "When the High Priest confesses over the scapegoat, who is he confessing on behalf of, and what does the confession accomplish?",
-        "coreTension": "The scapegoat is sent to Azazel bearing 'all the sins of Israel'; the HP confesses over it in a way that transfers communal sin. But the mechanism of how verbal confession and a goat combine to achieve communal atonement is conceptually challenging.",
-        "coreMove": "The Talmud explains that the HP's confession over the scapegoat is a verbal-ritual act of transfer: the confession articulates and expresses the community's sins on behalf of all Israel, and the act of sending the goat away enacts their removal. The goat is the vehicle, the confession is the primary act.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "The High Priest's confession over the scapegoat is a verbal-ritual act of transfer: the confession articulates Israel's sins, and the act of sending the goat away enacts their symbolic removal; the goat is the vehicle for communal expiation."
-        },
-        "learningBlocker": "Students may either be confused by the mechanism of 'transferring sins to a goat' or may assume the goat itself accomplishes something metaphysical; the Talmud treats the confession as the primary act and the goat as its vehicle."
-      },
-      "argumentFlow": [
-        {
-          "type": "action",
-          "speaker": "Mishnah",
-          "text": "HP places both hands on the scapegoat and recites the third confession.",
-          "id": "yoma-058b-l15",
-          "label": "Action: HP places both hands on the scapegoat",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-058b-l15",
-              "vilnaLine": 15
-            }
-          ]
-        },
-        {
-          "type": "content",
-          "speaker": "Mishnah",
-          "text": "Confession text: 'Your people Israel have sinned, transgressed, and rebelled...'",
-          "id": "yoma-058b-l19",
-          "label": "Content: Confession text: 'Your people Israel have sinned,",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-058b-l19",
-              "vilnaLine": 19
-            }
-          ]
-        },
-        {
-          "type": "effect",
-          "speaker": "Gemara",
-          "text": "Sins are transferred to the goat through the confession and hand-laying.",
-          "id": "yoma-058b-l22",
-          "label": "Effect: Sins are transferred to the goat through",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-058b-l22",
-              "vilnaLine": 22
-            }
-          ]
-        },
-        {
-          "type": "dispatch",
-          "speaker": "Mishnah",
-          "text": "A designated person leads the scapegoat to Azazel.",
-          "id": "yoma-058b-l27",
-          "label": "Dispatch: A designated person leads the scapegoat to",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-058b-l27",
-              "vilnaLine": 27
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "third confession",
-        "scapegoat",
-        "vidui",
-        "hand-laying",
-        "Azazel",
-        "sin transfer"
-      ],
-      "concepts": {
-        "halachic": [
-          "third of three confessions",
-          "scapegoat dispatch",
-          "sin transfer through ritual"
-        ],
-        "theological": [
-          "physical ritual as spiritual reality",
-          "symbolic displacement of sin"
-        ],
-        "narrative": [
-          "Yom Kippur theology",
-          "atonement mechanism"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing this is the third confession (first two were for HP's household and the priesthood)",
-        "Knowing the scapegoat was designated by lot earlier in the service"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The goat metaphysically absorbs Israel's sins and physically carries them away - the goat itself is the independent agent of atonement.",
-          "correction": "The HP's verbal confession is the primary act of transfer; the goat is the vehicle for enacting what the confession expresses. The goat's departure symbolizes the removal of sins that the confession has already addressed."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "person",
-          "name": "HP with hands on scapegoat's head"
-        },
-        {
-          "type": "action",
-          "name": "third confession text - for all Israel"
-        },
-        {
-          "type": "person",
-          "name": "designated guide leading scapegoat"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "The third covers all of Israel's sins, transgressions, and rebellions - it represents the entire nation. The first was for the HP and his household; the second was for the priesthood.",
-          "question": "What makes the third confession over the scapegoat different from the first two?"
-        }
-      ],
-      "finalRuling": "The HP's third confession transfers all of Israel's sins to the scapegoat, which is then led by a designated person to Azazel in the wilderness.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 4,
+     "sefariaRef": "Yoma.58b.2"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-058b-s03",
-      "lineRange": {
-        "startVilnaLine": 29,
-        "endVilnaLine": 32
-      },
-      "lines": [
-        {
-          "vilnaLine": 29,
-          "sefariaRef": "Yoma.58b.14"
-        },
-        {
-          "vilnaLine": 32,
-          "sefariaRef": "Yoma.58b.15"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.58b.14",
-        "Yoma.58b.15"
-      ],
-      "display": {
-        "whats": "Ten relay stations on the Azazel route; news relayed back to HP during Torah reading",
-        "hint": "Ten stations were established along the route from Jerusalem to the Azazel cliff, providing support for the goat's guide and relaying news of the goat's arrival back to the HP while he reads the Torah.",
-        "title": "Ten Relay Stations for the Scapegoat's Guide"
-      },
-      "learning": {
-        "ahaMoment": "The relay system means the HP and the nation know the scapegoat has arrived while the day's service continues - the entire Yom Kippur is one synchronized event, inner and outer, city and wilderness.",
-        "memoryAnchor": "Ten relay stations: the city reaches all the way to the wilderness to confirm what cannot be left to uncertainty.",
-        "learnerQuestion": "Why are there ten relay stations set up along the path from Jerusalem to the wilderness for the person leading the scapegoat?",
-        "coreTension": "The wilderness destination is far from Jerusalem; the guide who leads the scapegoat to Azazel needs support and rest along the way, but the specific number and spacing of stations must be explained.",
-        "coreMove": "The Talmud describes ten relay stations set up with food, drink, and escort so that the guide can complete the long journey without hardship; the stations are spaced at practical intervals along the route, ensuring the guide's welfare throughout the mission.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Ten relay stations were established along the route from Jerusalem to the wilderness to support the scapegoat's guide with food, drink, and escort, ensuring he could complete the journey and return safely."
-        },
-        "learningBlocker": "Students may focus on the scapegoat as the ritual subject and overlook the practical logistical system set up to support the human guide who led it; the ten-station system reflects care for the guide's wellbeing."
-      },
-      "argumentFlow": [
-        {
-          "type": "institution",
-          "speaker": "Mishnah",
-          "text": "Ten relay stations established along the Azazel route.",
-          "id": "yoma-058b-l29",
-          "label": "Institution: Ten relay stations established along the Azazel",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-058b-l29",
-              "vilnaLine": 29
-            }
-          ]
-        },
-        {
-          "type": "relay",
-          "speaker": "Mishnah",
-          "text": "News of the goat's arrival at the cliff is relayed back station by station to the HP.",
-          "id": "yoma-058b-l32",
-          "label": "Relay: News of the goat's arrival at the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-058b-l32",
-              "vilnaLine": 32
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "relay stations",
-        "Azazel route",
-        "communication relay",
-        "ten stations",
-        "HP during Torah reading"
-      ],
-      "concepts": {
-        "halachic": [
-          "ten relay stations",
-          "news relay to HP",
-          "scapegoat arrival confirmation"
-        ],
-        "theological": [
-          "the synchronized Yom Kippur: inner service and outer journey",
-          "community holding vigil"
-        ],
-        "narrative": [
-          "Yom Kippur logistics",
-          "communal participation in atonement"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing the HP reads the Torah later in the day's sequence",
-        "Knowing the scapegoat must reach the cliff (not just leave the city)"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The ten relay stations were set up for the scapegoat's benefit - to ensure it traveled safely and comfortably to its destination.",
-          "correction": "The relay stations were for the human guide's practical needs - food, drink, and escort - not for the goat; the guide needed support to make the long journey to the wilderness and return."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "name": "ten stations from Jerusalem to Azazel cliff"
-        },
-        {
-          "type": "action",
-          "name": "news relay back to HP during Torah reading"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "They provided support for the person leading the goat, and more importantly served as a relay system to transmit news of the goat's arrival back to Jerusalem - ultimately reaching the HP while he was still reading the Torah.",
-          "question": "What was the purpose of the ten relay stations on the route to the Azazel cliff?"
-        }
-      ],
-      "finalRuling": "Ten relay stations enable news of the scapegoat's arrival at the Azazel cliff to be relayed back to the HP during his Torah reading.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.58b.3"
+    },
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.58b.4"
+    },
+    {
+     "vilnaLine": 11,
+     "sefariaRef": "Yoma.58b.5"
+    },
+    {
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.58b.6"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.58b.7"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.58b.1",
+    "Yoma.58b.2",
+    "Yoma.58b.3",
+    "Yoma.58b.4",
+    "Yoma.58b.5",
+    "Yoma.58b.6",
+    "Yoma.58b.7"
+   ],
+   "display": {
+    "whats": "R. Eliezer vs. R. Shimon: do inner and outer blood remainders go to different altar bases?",
+    "hint": "R. Eliezer rules that each service's remainder goes to the altar base of the zone where it was performed (inner to inner, outer to outer). R. Shimon rules all remainders go to the outer altar's western base.",
+    "title": "Where Remaining Blood Is Poured - R. Eliezer vs. R. Shimon"
+   },
+   "learning": {
+    "ahaMoment": "R. Eliezer matches blood to its zone even for the final pour; R. Shimon unifies all remainders at the outer altar - two different visions of how the blood's journey concludes.",
+    "memoryAnchor": "Eliezer: each blood ends where it served. Shimon: all blood ends at the outermost point.",
+    "learnerQuestion": "After all blood services are complete, where does the remaining blood go - is there a dispute about which altar's base receives it?",
+    "coreTension": "R. Eliezer and R. Shimon dispute which altar's base receives the remaining blood: R. Eliezer says the outer altar base, R. Shimon distinguishes inner-service blood from outer-service blood. The practical difference reflects deeper principles about where each service's blood 'belongs.'",
+    "coreMove": "The dispute turns on which is the service's conceptual home base: R. Eliezer follows the outer altar as the primary base for all leftover blood; R. Shimon argues that blood used inside ends at the inside base, so remaining inner blood goes to the golden altar's base.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "R. Eliezer and R. Shimon dispute the destination of remaining blood: R. Eliezer sends all remaining blood to the outer altar base, while R. Shimon distinguishes inner-service blood (to the golden altar base) from outer-service blood (to the outer altar base)."
+    },
+    "learningBlocker": "Students may assume a single unified rule for all remaining blood; the Talmud's dispute reveals that the principle governing leftover blood destination depends on the conceptual locus of the service."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "He pours the remainder of the bull's blood at the base of the inner altar.",
-      "linkedGemaraLineIds": []
+     "type": "dispute",
+     "speaker": "R. Eliezer",
+     "text": "Inner service blood remainder goes to the inner altar base; outer service remainder to the outer altar base.",
+     "id": "yoma-058b-l01",
+     "label": "Dispute: Inner service blood remainder goes to the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-058b-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "And the remainder of the goat's blood at the base of the outer altar.",
-      "linkedGemaraLineIds": []
+     "type": "dispute",
+     "speaker": "R. Shimon",
+     "text": "All blood remainders - from all services - go to the outer altar's western base.",
+     "id": "yoma-058b-l04",
+     "label": "Dispute: All blood remainders - from all services",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-058b-l04",
+       "vilnaLine": 4
+      }
+     ]
     },
     {
-      "vilnaLine": 3,
-      "en": "Or: both remainders go to the outer altar's base.",
-      "linkedGemaraLineIds": []
+     "type": "crux",
+     "speaker": "Gemara",
+     "text": "The practical difference: blood from the parochet service - inner base (Eliezer) or outer base (Shimon)?",
+     "id": "yoma-058b-l09",
+     "label": "Crux: The practical difference: blood from the parochet",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-058b-l09",
+       "vilnaLine": 9
+      }
+     ]
     },
     {
-      "vilnaLine": 4,
-      "en": "Inner altar's base receives the individual blood remainders from the inner service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "en": "Outer altar's base receives the combined blood remainder from the outer service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "en": "Two pourings at two different altars' bases.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "en": "Dispute: which blood goes to which base.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "en": "R. Eliezer: inner services' remainders go inside (inner altar base); outer services' go outside.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "en": "R. Shimon: all remainders go to the outer altar's base.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Practical difference: blood from the parochet service goes to inner base (Eliezer) or outer base (Shimon).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "en": "R. Eliezer: parochet is an inner service; its remainder stays at the inner altar base.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "en": "R. Shimon: all remainder goes to the outer altar regardless of where the service was performed.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "en": "The halachic ruling follows one of these positions.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "Blood pouring at the base is the final act of the sacrificial blood service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "After pouring, the HP proceeds to other Yom Kippur tasks.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "He has completed the blood services and transitions to communal tasks.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "The scapegoat service awaits: sending Azazel into the wilderness.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Before the scapegoat: does the HP change from white to golden garments?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "Confession over the scapegoat is performed in white garments.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Then he changes to golden garments for the communal outer services.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "The garment changes mark distinct phases of the day.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "White: for innermost sacred services requiring humility.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Gold: for outer visible services before the community.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "The HP wears five golden garments: tunic, pants, belt, turban, ephod.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "In the Holy of Holies: four white linen garments only.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "The contrast is deliberate: no golden pride before God in His chamber.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "The scapegoat takes Israel's accumulated sins into the wilderness.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Two goats: one for God (slaughtered), one for Azazel (sent away).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "One stays, one goes; one is sacrificed, one carries sins away.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "Sin is transferred to the goat through the HP's confession and hand-laying.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "The goat bears the sins to a desolate wilderness place.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "The wilderness: a place of dissolution where sins are rendered harmless.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "The HP confesses all of Israel's willful and unwitting transgressions.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "Both categories of sin are placed on the scapegoat's head.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "The confession over the scapegoat is the third and final Yom Kippur confession.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "First: for himself and household. Second: for the priesthood. Third: for all Israel.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Three confessions cover the full range of Israel's relationship with God.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "Personal, priestly, and national: a complete accounting.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "The scapegoat service is the most distinctive Yom Kippur ritual.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "No parallel exists for it in the regular Temple service calendar.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "Sending a live animal to the wilderness is unique to this day.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "Physical removal of sins from the camp mirrors theological removal of guilt.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Once the scapegoat leaves, Israel's sins are considered removed.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "The day is not complete until the scapegoat reaches the wilderness.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "en": "News of its arrival is transmitted to the HP while he continues his service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "en": "Crowds line the route to watch the scapegoat's departure.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "en": "Some say jeering remarks were forbidden; others say permitted.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "en": "The scapegoat carries what language cannot adequately express.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "en": "The transfer is legally and spiritually effective - sins are genuinely removed.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "en": "Yom Kippur requires both blood service and scapegoat: purification and removal.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "en": "Blood atones through the sacrificial channel; scapegoat removes through displacement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 52,
-      "en": "Two mechanisms: ritual purification and symbolic displacement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 53,
-      "en": "Together they constitute the complete Yom Kippur package.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 54,
-      "en": "The HP is the sole agent of both mechanisms.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 55,
-      "en": "On this day, his actions speak for all Israel.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 56,
-      "en": "The nation fasts and prays while the HP acts on their behalf.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 57,
-      "en": "The synchrony between HP's service and nation's prayer is Yom Kippur.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 58,
-      "en": "Both action in the Temple and intention in the heart are necessary.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 59,
-      "en": "This is why the Mishnah describes the entire day's sequence.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 60,
-      "en": "The nation must know what is being done on their behalf.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 61,
-      "en": "Understanding the service deepens the nation's participation.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 62,
-      "en": "Study of the service is itself a form of participation in its effect.",
-      "linkedGemaraLineIds": []
+     "type": "context",
+     "speaker": "Gemara",
+     "text": "This blood pouring is the final act before the HP transitions to the scapegoat and other services.",
+     "id": "yoma-058b-l14",
+     "label": "Context: This blood pouring is the final act",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-058b-l14",
+       "vilnaLine": 14
+      }
+     ]
     }
-  ],
-  "review": "reviewed"
+   ],
+   "topicTags": [
+    "blood remainder",
+    "altar base",
+    "R. Eliezer",
+    "R. Shimon",
+    "inner vs. outer"
+   ],
+   "concepts": {
+    "halachic": [
+     "blood pouring at altar base",
+     "dispute over inner vs. outer base",
+     "tannaitic dispute"
+    ],
+    "theological": [
+     "spatial theology: does blood belong to its service zone?",
+     "the blood's concluding journey"
+    ],
+    "narrative": [
+     "tannaitic dispute",
+     "blood disposal"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Knowing there are two altars each with a base",
+    "Knowing the inner and outer services are distinguished by zone"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "All remaining blood from both the inner and outer services is always poured to the same single base with no distinction.",
+     "correction": "R. Eliezer and R. Shimon dispute whether inner-service blood must go to the golden altar base or can go to the outer altar base; the destination is not uniformly the same for all remaining blood."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "name": "R. Eliezer zone-based vs. R. Shimon unified outer base"
+    },
+    {
+     "type": "place",
+     "name": "inner altar base vs. outer altar base"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "R. Eliezer: inner service blood goes to the inner altar base, outer service blood to the outer altar base. R. Shimon: all blood remainders go to the outer altar's base.",
+     "question": "What is the dispute between R. Eliezer and R. Shimon about blood remainder?"
+    }
+   ],
+   "finalRuling": "R. Eliezer rules inner/outer blood remainders go to their respective altar bases; R. Shimon rules all go to the outer altar's western base.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-058b-s02",
+   "lineRange": {
+    "startVilnaLine": 15,
+    "endVilnaLine": 27
+   },
+   "lines": [
+    {
+     "vilnaLine": 15,
+     "sefariaRef": "Yoma.58b.8"
+    },
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.58b.9"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.58b.10"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.58b.11"
+    },
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.58b.12"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.58b.13"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.58b.8",
+    "Yoma.58b.9",
+    "Yoma.58b.10",
+    "Yoma.58b.11",
+    "Yoma.58b.12",
+    "Yoma.58b.13"
+   ],
+   "display": {
+    "whats": "The HP's third confession over the scapegoat; sins transferred to Azazel",
+    "hint": "The HP places both hands on the scapegoat's head and recites the third and most comprehensive confession, transferring all of Israel's sins to the goat before it is sent to Azazel.",
+    "title": "High Priest's Confession over the Scapegoat"
+   },
+   "learning": {
+    "ahaMoment": "The HP's hands on the scapegoat's head: a physical bridge between the nation's sins and their departure. What the mind alone cannot release, the ritual transfers.",
+    "memoryAnchor": "Two hands, one goat, all of Israel: the HP's body becomes the conduit through which the nation's sins are symbolically dispatched.",
+    "learnerQuestion": "When the High Priest confesses over the scapegoat, who is he confessing on behalf of, and what does the confession accomplish?",
+    "coreTension": "The scapegoat is sent to Azazel bearing 'all the sins of Israel'; the HP confesses over it in a way that transfers communal sin. But the mechanism of how verbal confession and a goat combine to achieve communal atonement is conceptually challenging.",
+    "coreMove": "The Talmud explains that the HP's confession over the scapegoat is a verbal-ritual act of transfer: the confession articulates and expresses the community's sins on behalf of all Israel, and the act of sending the goat away enacts their removal. The goat is the vehicle, the confession is the primary act.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "The High Priest's confession over the scapegoat is a verbal-ritual act of transfer: the confession articulates Israel's sins, and the act of sending the goat away enacts their symbolic removal; the goat is the vehicle for communal expiation."
+    },
+    "learningBlocker": "Students may either be confused by the mechanism of 'transferring sins to a goat' or may assume the goat itself accomplishes something metaphysical; the Talmud treats the confession as the primary act and the goat as its vehicle."
+   },
+   "argumentFlow": [
+    {
+     "type": "action",
+     "speaker": "Mishnah",
+     "text": "HP places both hands on the scapegoat and recites the third confession.",
+     "id": "yoma-058b-l15",
+     "label": "Action: HP places both hands on the scapegoat",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-058b-l15",
+       "vilnaLine": 15
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "speaker": "Mishnah",
+     "text": "Confession text: 'Your people Israel have sinned, transgressed, and rebelled...'",
+     "id": "yoma-058b-l19",
+     "label": "Content: Confession text: 'Your people Israel have sinned,",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-058b-l19",
+       "vilnaLine": 19
+      }
+     ]
+    },
+    {
+     "type": "effect",
+     "speaker": "Gemara",
+     "text": "Sins are transferred to the goat through the confession and hand-laying.",
+     "id": "yoma-058b-l22",
+     "label": "Effect: Sins are transferred to the goat through",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-058b-l22",
+       "vilnaLine": 22
+      }
+     ]
+    },
+    {
+     "type": "dispatch",
+     "speaker": "Mishnah",
+     "text": "A designated person leads the scapegoat to Azazel.",
+     "id": "yoma-058b-l27",
+     "label": "Dispatch: A designated person leads the scapegoat to",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-058b-l27",
+       "vilnaLine": 27
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "third confession",
+    "scapegoat",
+    "vidui",
+    "hand-laying",
+    "Azazel",
+    "sin transfer"
+   ],
+   "concepts": {
+    "halachic": [
+     "third of three confessions",
+     "scapegoat dispatch",
+     "sin transfer through ritual"
+    ],
+    "theological": [
+     "physical ritual as spiritual reality",
+     "symbolic displacement of sin"
+    ],
+    "narrative": [
+     "Yom Kippur theology",
+     "atonement mechanism"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Knowing this is the third confession (first two were for HP's household and the priesthood)",
+    "Knowing the scapegoat was designated by lot earlier in the service"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The goat metaphysically absorbs Israel's sins and physically carries them away - the goat itself is the independent agent of atonement.",
+     "correction": "The HP's verbal confession is the primary act of transfer; the goat is the vehicle for enacting what the confession expresses. The goat's departure symbolizes the removal of sins that the confession has already addressed."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "person",
+     "name": "HP with hands on scapegoat's head"
+    },
+    {
+     "type": "action",
+     "name": "third confession text - for all Israel"
+    },
+    {
+     "type": "person",
+     "name": "designated guide leading scapegoat"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "The third covers all of Israel's sins, transgressions, and rebellions - it represents the entire nation. The first was for the HP and his household; the second was for the priesthood.",
+     "question": "What makes the third confession over the scapegoat different from the first two?"
+    }
+   ],
+   "finalRuling": "The HP's third confession transfers all of Israel's sins to the scapegoat, which is then led by a designated person to Azazel in the wilderness.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-058b-s03",
+   "lineRange": {
+    "startVilnaLine": 29,
+    "endVilnaLine": 32
+   },
+   "lines": [
+    {
+     "vilnaLine": 29,
+     "sefariaRef": "Yoma.58b.14"
+    },
+    {
+     "vilnaLine": 32,
+     "sefariaRef": "Yoma.58b.15"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.58b.14",
+    "Yoma.58b.15"
+   ],
+   "display": {
+    "whats": "Ten relay stations on the Azazel route; news relayed back to HP during Torah reading",
+    "hint": "Ten stations were established along the route from Jerusalem to the Azazel cliff, providing support for the goat's guide and relaying news of the goat's arrival back to the HP while he reads the Torah.",
+    "title": "Ten Relay Stations for the Scapegoat's Guide"
+   },
+   "learning": {
+    "ahaMoment": "The relay system means the HP and the nation know the scapegoat has arrived while the day's service continues - the entire Yom Kippur is one synchronized event, inner and outer, city and wilderness.",
+    "memoryAnchor": "Ten relay stations: the city reaches all the way to the wilderness to confirm what cannot be left to uncertainty.",
+    "learnerQuestion": "Why are there ten relay stations set up along the path from Jerusalem to the wilderness for the person leading the scapegoat?",
+    "coreTension": "The wilderness destination is far from Jerusalem; the guide who leads the scapegoat to Azazel needs support and rest along the way, but the specific number and spacing of stations must be explained.",
+    "coreMove": "The Talmud describes ten relay stations set up with food, drink, and escort so that the guide can complete the long journey without hardship; the stations are spaced at practical intervals along the route, ensuring the guide's welfare throughout the mission.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Ten relay stations were established along the route from Jerusalem to the wilderness to support the scapegoat's guide with food, drink, and escort, ensuring he could complete the journey and return safely."
+    },
+    "learningBlocker": "Students may focus on the scapegoat as the ritual subject and overlook the practical logistical system set up to support the human guide who led it; the ten-station system reflects care for the guide's wellbeing."
+   },
+   "argumentFlow": [
+    {
+     "type": "institution",
+     "speaker": "Mishnah",
+     "text": "Ten relay stations established along the Azazel route.",
+     "id": "yoma-058b-l29",
+     "label": "Institution: Ten relay stations established along the Azazel",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-058b-l29",
+       "vilnaLine": 29
+      }
+     ]
+    },
+    {
+     "type": "relay",
+     "speaker": "Mishnah",
+     "text": "News of the goat's arrival at the cliff is relayed back station by station to the HP.",
+     "id": "yoma-058b-l32",
+     "label": "Relay: News of the goat's arrival at the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-058b-l32",
+       "vilnaLine": 32
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "relay stations",
+    "Azazel route",
+    "communication relay",
+    "ten stations",
+    "HP during Torah reading"
+   ],
+   "concepts": {
+    "halachic": [
+     "ten relay stations",
+     "news relay to HP",
+     "scapegoat arrival confirmation"
+    ],
+    "theological": [
+     "the synchronized Yom Kippur: inner service and outer journey",
+     "community holding vigil"
+    ],
+    "narrative": [
+     "Yom Kippur logistics",
+     "communal participation in atonement"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Knowing the HP reads the Torah later in the day's sequence",
+    "Knowing the scapegoat must reach the cliff (not just leave the city)"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The ten relay stations were set up for the scapegoat's benefit - to ensure it traveled safely and comfortably to its destination.",
+     "correction": "The relay stations were for the human guide's practical needs - food, drink, and escort - not for the goat; the guide needed support to make the long journey to the wilderness and return."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "name": "ten stations from Jerusalem to Azazel cliff"
+    },
+    {
+     "type": "action",
+     "name": "news relay back to HP during Torah reading"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "They provided support for the person leading the goat, and more importantly served as a relay system to transmit news of the goat's arrival back to Jerusalem - ultimately reaching the HP while he was still reading the Torah.",
+     "question": "What was the purpose of the ten relay stations on the route to the Azazel cliff?"
+    }
+   ],
+   "finalRuling": "Ten relay stations enable news of the scapegoat's arrival at the Azazel cliff to be relayed back to the HP during his Torah reading.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'The Mishnah: this is the golden altar' - for the outer altar is not 'before the Lord.' 'He began purging and descending' - because this Tanna holds that the circuit is made on foot, as stated",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "in the Gemara, and each sprinkling was on the corner nearest and adjacent to him, and he had to give it from above downward, so that his garments would not become stained, since the altar is two cubits high and it is impossible",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "to tilt his fingertips downward and give the sprinkling on the corner from below upward; he is forced to keep his fingertips upward, and when he gives it with his finger against the edge of the corner, giving",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "a long, drawn-out sprinkling - if he draws it from below upward the blood drips into the sleeve of his garment, so he must give it from above downward. He uses the term 'purging and descending' since 'purging'",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "connotes descent, as we say in Menachot (66b),",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "'he carries up and is purged.' 'The place where he begins'",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "'with the sin offering on the outer altar' -",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "that is, the southeast corner, as we learned",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "in Eizehu Mekoman (Zevachim 53a); there he finishes",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "on the inner altar, and the reason is stated",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "in the Gemara. 'R. Eliezer says' - he did not",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l01",
+    "yoma-058b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "circle it on foot, since the entire altar is only",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "a square cubit, and since",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "the three other corners are not close to him, he could give it",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l04"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "from below upward. 'Except for this one' - since he",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l04",
+    "yoma-058b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "stands right next to it, being directly in front of him, so it is impossible for him",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "to tilt his fingertips downward, only",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "upward, and he must draw the sprinkling from above",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "downward, since if he drew it from below upward",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "the blood would drip into the sleeve of his garment. 'He sprinkled'",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "'upon its cleared surface' - after he finished",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "the corner sprinklings, he sprinkles upon it seven times,",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "as it is written (Leviticus 16), 'and he shall sprinkle upon it some of'",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "'the blood,' etc. 'Its cleared surface' - explained in the Gemara. 'Of",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "the outer altar' - he would pour the remainder of the blood of the outer sin offerings",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "onto the southern base, and the reason",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "is explained in the Gemara. 'These and those' - the",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "outer and inner bloods poured onto the base",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "of the burnt-offering altar would trickle down and fall from",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "the base onto the floor. 'And they mix in the channel' -",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "a conduit in the courtyard that flows out to the Kidron valley.",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "'To gardeners' - owners of gardens. 'And one may be liable for misuse regarding them' - there",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "is a prohibition on benefiting from them without payment. 'Gemara: our Rabbis taught,'",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l05",
+    "yoma-058b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "etc. - this is how it is read in the Torat Kohanim: 'and he shall go out to",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "the altar' - why is this stated? R. Nechemya said: since",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "we find regarding the bull brought for all the commandments that he",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "stands outside the altar and sprinkles on the parochet",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "when he sprinkles, one might think the same applies here; Scripture states,",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "'and he shall go out to the altar' - where was he? Inside",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "the altar. Another baraita teaches: 'before the Lord' - why is this stated?",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "R. Nechemya said: since we find regarding the",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "Yom Kippur bull that he stands inside",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "the altar and sprinkles on the parochet when he",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "sprinkles, one might think the same applies here; Scripture states, 'the altar",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "of sweet incense before the Lord' - the altar is before the Lord, but the priest is not before the Lord. This is likewise the reading for the anointed priest's bull in the Torat Kohanim, and the explanation of both is: 'and he shall go out to the altar' -",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "why is this stated? He should have written 'and he shall atone upon the altar that is before the Lord'; why does it say 'and he shall go out'? R. Nechemya said: since we find regarding the anointed priest's bull and the community's bull that he stands",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "outside the altar when he performs the sprinklings upon the parochet, and does not stand between the altar and the parochet, as is taught in that other baraita below; Scripture states, 'and he shall go out to'",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "'the altar,' teaching us that until now he had been standing inside the altar. Another baraita teaches regarding the anointed priest's bull, 'before the Lord' - why is this stated? It should have written 'and the priest shall place'",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "'some of the blood on the horns of the altar of sweet incense' - I would know that it is before the Lord; why does it say 'before the Lord'? The altar is before the Lord, but the priest is not before the Lord; the altar",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "comes between the priest and the parochet at the time of the corner sprinklings, and when he sprinkles on the parochet he was in that very same standing position, since no exit is stated in between; we learn",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "that he was standing outside the altar and sprinkling. And if you should say, is it not written 'that is before the Lord' rather than just 'before the Lord'? - one could say it refers back to the placing, and the priest is before the Lord - but",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "this cannot be said, since regarding the community's bull it is stated 'that is before the Lord,' and so it must necessarily refer to the altar, and the service of both was the same. 'From where does he begin - from the southeast",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l09",
+    "yoma-058b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "corner' - he holds that there were two curtains, and the outer one was fastened from the south, as we learned in the Mishnah; and when he exited the Holy of Holies through the south, he sprinkled on the curtain,",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "and when he finished he came to the altar at its southwest corner, which is nearest to him, but he did not give the sprinkling there, as we say below that we require 'and he shall go out' to mean until he has fully exited the altar;",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "therefore he goes out to the southeast corner and begins there, and returns by way of the left to the southwest corner, and below it will be asked why he does not circle to the right. 'R. Yosei HaGelili says, etc.' - he holds",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "like R. Yosei of the Mishnah, who says there was only a single curtain there, fastened from the north; and when he finished the inner sprinklings and exited through the north, he first encountered",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l15"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "the northwest corner of the altar, but did not give the sprinkling there until he had exited and come to the northeast corner, giving it there, and returning to the northwest corner by way of the right. 'According to all opinions, etc.' - since necessarily he comes from",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l15",
+    "yoma-058b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "the west, and he first encounters the western side of the altar. 'Shall we say' - that R. Akiva, who circles to the left, and R. Yosei HaGelili, who circles to the right, disagree about",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l20",
+    "yoma-058b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "Rami bar Yechezkel's own teaching? 'It stood upon twelve oxen' - regarding the bronze sea that Solomon made, it is written 'three facing north,' etc. (Chronicles II 4), and this verse counts going by way of the right, circling",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l22",
+    "yoma-058b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "the sea, coming from north to west, from west to south, and from south to east, circling it by way of the right. 'By way of the right, to the east' - this phrase 'to the east' is not really relevant to teach here, but rather in tractate Zevachim,",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "which cites this same teaching regarding the ramp, which is on the south side, and one ascending it and turning to the right turns to the east, and by force of the flow of that same version, it is cited this way throughout the Talmud.",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l23"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "'And if' - the daf ends mid-word here; the comment continues on 59a with the further analysis of whether the circuit direction is a foot-based or hand-based dispute.",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l23"
+   ]
+  }
+ ],
+ "review": "reviewed"
 }

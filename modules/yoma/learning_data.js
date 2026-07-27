@@ -132650,11 +132650,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 1,
         he: "מתני' זה מזבח הזהב. דאילו מזבח החיצון לאו לפני ה' הוא: התחיל מחטא ויורד. משום דסבירא ליה להאי תנא הקפה ברגל כדאמר",
-        en: "He pours the remainder of the bull's blood at the base of the inner altar.",
+        en: "'The Mishnah: this is the golden altar' - for the outer altar is not 'before the Lord.' 'He began purging and descending' - because this Tanna holds that the circuit is made on foot, as stated",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l01"
+        ]
       },
       {
         id: "rashi-yoma-058b-002",
@@ -132662,11 +132664,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 2,
         he: "בגמרא וכל מתנה ומתנה היתה בקרן שלפניו וסמוך לו וצריך ליתן מלמעלה למטה כי היכי דלא נתווסי מאניה שהמזבח גבוה אמתים ואי אפשר",
-        en: "And the remainder of the goat's blood at the base of the outer altar.",
+        en: "in the Gemara, and each sprinkling was on the corner nearest and adjacent to him, and he had to give it from above downward, so that his garments would not become stained, since the altar is two cubits high and it is impossible",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l01"
+        ]
       },
       {
         id: "rashi-yoma-058b-003",
@@ -132674,11 +132678,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 3,
         he: "לצדד ראשי אצבעותיו למטה ולתת המתנה בקרן מלמטה למעלה ועל כרחו ראשי אצבעותיו למעלה וכשהוא נותן באצבע כנגד חודה של קרן ונותן",
-        en: "Or: both remainders go to the outer altar's base.",
+        en: "to tilt his fingertips downward and give the sprinkling on the corner from below upward; he is forced to keep his fingertips upward, and when he gives it with his finger against the edge of the corner, giving",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l01"
+        ]
       },
       {
         id: "rashi-yoma-058b-004",
@@ -132686,11 +132692,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 4,
         he: "מתנה ארוכה ומשוכה אם מושך מלמטה למעלה הדם זב לתוך בית יד כתונת שלו וצריך ליתן מלמעלה למטה נקט לשון מחטא ויורד מחטא לשון",
-        en: "Inner altar's base receives the individual blood remainders from the inner service.",
+        en: "a long, drawn-out sprinkling - if he draws it from below upward the blood drips into the sleeve of his garment, so he must give it from above downward. He uses the term 'purging and descending' since 'purging'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l01"
+        ]
       },
       {
         id: "rashi-yoma-058b-005",
@@ -132698,11 +132706,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 5,
         he: "ירידה היא כדאמרינן במנחות [סו:]",
-        en: "Outer altar's base receives the combined blood remainder from the outer service.",
+        en: "connotes descent, as we say in Menachot (66b),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l01"
+        ]
       },
       {
         id: "rashi-yoma-058b-006",
@@ -132710,11 +132720,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 6,
         he: "נושא עולה ומתחטא: מקום שהוא",
-        en: "Two pourings at two different altars' bases.",
+        en: "'he carries up and is purged.' 'The place where he begins'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l01"
+        ]
       },
       {
         id: "rashi-yoma-058b-007",
@@ -132722,11 +132734,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 7,
         he: "מתחיל בחטאת על מזבח החיצון.",
-        en: "Dispute: which blood goes to which base.",
+        en: "'with the sin offering on the outer altar' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l01"
+        ]
       },
       {
         id: "rashi-yoma-058b-008",
@@ -132734,11 +132748,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 8,
         he: "דהיינו בקרן דרומית מזרחית כדתנן",
-        en: "R. Eliezer: inner services' remainders go inside (inner altar base); outer services' go outside.",
+        en: "that is, the southeast corner, as we learned",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l01"
+        ]
       },
       {
         id: "rashi-yoma-058b-009",
@@ -132746,11 +132762,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 9,
         he: "באיזהו מקומן (זבחים דף נג.) שם גומר",
-        en: "R. Shimon: all remainders go to the outer altar's base.",
+        en: "in Eizehu Mekoman (Zevachim 53a); there he finishes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l01"
+        ]
       },
       {
         id: "rashi-yoma-058b-010",
@@ -132758,11 +132776,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 10,
         he: "על מזבח הפנימי וטעמא אמרי'",
-        en: "Practical difference: blood from the parochet service goes to inner base (Eliezer) or outer base (Shimon).",
+        en: "on the inner altar, and the reason is stated",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l01"
+        ]
       },
       {
         id: "rashi-yoma-058b-011",
@@ -132770,11 +132790,14 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 11,
         he: "בגמ': ר' אליעזר אומר. לא היה",
-        en: "R. Eliezer: parochet is an inner service; its remainder stays at the inner altar base.",
+        en: "in the Gemara. 'R. Eliezer says' - he did not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l01",
+          "yoma-058b-l04"
+        ]
       },
       {
         id: "rashi-yoma-058b-012",
@@ -132782,11 +132805,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 12,
         he: "מקיפו ברגליו שהרי כולו אינו אלא",
-        en: "R. Shimon: all remainder goes to the outer altar regardless of where the service was performed.",
+        en: "circle it on foot, since the entire altar is only",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l04"
+        ]
       },
       {
         id: "rashi-yoma-058b-013",
@@ -132794,11 +132819,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 13,
         he: "אמה על אמה מרובעת וכיון שאין",
-        en: "The halachic ruling follows one of these positions.",
+        en: "a square cubit, and since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l04"
+        ]
       },
       {
         id: "rashi-yoma-058b-014",
@@ -132806,11 +132833,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 14,
         he: "שלשת הקרנות סמוכות לו יכול ליתן",
-        en: "Blood pouring at the base is the final act of the sacrificial blood service.",
+        en: "the three other corners are not close to him, he could give it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l04"
+        ]
       },
       {
         id: "rashi-yoma-058b-015",
@@ -132818,11 +132847,14 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 15,
         he: "מלמטה למעלה: חוץ מזו. שהוא",
-        en: "After pouring, the HP proceeds to other Yom Kippur tasks.",
+        en: "from below upward. 'Except for this one' - since he",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l04",
+          "yoma-058b-l05"
+        ]
       },
       {
         id: "rashi-yoma-058b-016",
@@ -132830,11 +132862,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 16,
         he: "עומד אצלה שהיא לפניו שאי אפשר לו",
-        en: "He has completed the blood services and transitions to communal tasks.",
+        en: "stands right next to it, being directly in front of him, so it is impossible for him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l05"
+        ]
       },
       {
         id: "rashi-yoma-058b-017",
@@ -132842,11 +132876,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 17,
         he: "לצדד ראשי אצבעותיו למטה אלא",
-        en: "The scapegoat service awaits: sending Azazel into the wilderness.",
+        en: "to tilt his fingertips downward, only",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l05"
+        ]
       },
       {
         id: "rashi-yoma-058b-018",
@@ -132854,11 +132890,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 18,
         he: "למעלה וצריך למשוך המתנה מלמעלה",
-        en: "Before the scapegoat: does the HP change from white to golden garments?",
+        en: "upward, and he must draw the sprinkling from above",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l05"
+        ]
       },
       {
         id: "rashi-yoma-058b-019",
@@ -132866,11 +132904,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 19,
         he: "למטה שאם מושכה מלמטה למעלה",
-        en: "Confession over the scapegoat is performed in white garments.",
+        en: "downward, since if he drew it from below upward",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l05"
+        ]
       },
       {
         id: "rashi-yoma-058b-020",
@@ -132878,11 +132918,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 20,
         he: "הדם זב לתוך בית יד כתנתו: הזה",
-        en: "Then he changes to golden garments for the communal outer services.",
+        en: "the blood would drip into the sleeve of his garment. 'He sprinkled'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l05"
+        ]
       },
       {
         id: "rashi-yoma-058b-021",
@@ -132890,11 +132932,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 21,
         he: "על טהרו. אחר שגמר מתנות",
-        en: "The garment changes mark distinct phases of the day.",
+        en: "'upon its cleared surface' - after he finished",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l05"
+        ]
       },
       {
         id: "rashi-yoma-058b-022",
@@ -132902,11 +132946,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 22,
         he: "הקרנות מזה עליו שבע פעמים",
-        en: "White: for innermost sacred services requiring humility.",
+        en: "the corner sprinklings, he sprinkles upon it seven times,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l05"
+        ]
       },
       {
         id: "rashi-yoma-058b-023",
@@ -132914,11 +132960,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 23,
         he: "כדכתיב (ויקרא טז) והזה עליו מן",
-        en: "Gold: for outer visible services before the community.",
+        en: "as it is written (Leviticus 16), 'and he shall sprinkle upon it some of'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l05"
+        ]
       },
       {
         id: "rashi-yoma-058b-024",
@@ -132926,11 +132974,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 24,
         he: "הדם וגו': טהרו. מפ' בגמ': של",
-        en: "The HP wears five golden garments: tunic, pants, belt, turban, ephod.",
+        en: "'the blood,' etc. 'Its cleared surface' - explained in the Gemara. 'Of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l05"
+        ]
       },
       {
         id: "rashi-yoma-058b-025",
@@ -132938,11 +132988,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 25,
         he: "מזבח החיצון. שירי דמי חטאות",
-        en: "In the Holy of Holies: four white linen garments only.",
+        en: "the outer altar' - he would pour the remainder of the blood of the outer sin offerings",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l05"
+        ]
       },
       {
         id: "rashi-yoma-058b-026",
@@ -132950,11 +133002,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 26,
         he: "החיצונות היה שופך על יסוד דרומי",
-        en: "The contrast is deliberate: no golden pride before God in His chamber.",
+        en: "onto the southern base, and the reason",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l05"
+        ]
       },
       {
         id: "rashi-yoma-058b-027",
@@ -132962,11 +133016,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 27,
         he: "וטעמא מפרש בגמרא: אלו ואלו. דמים",
-        en: "The scapegoat takes Israel's accumulated sins into the wilderness.",
+        en: "is explained in the Gemara. 'These and those' - the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l05"
+        ]
       },
       {
         id: "rashi-yoma-058b-028",
@@ -132974,11 +133030,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 28,
         he: "החיצוני' והפנימיים הנשפכים על יסוד",
-        en: "Two goats: one for God (slaughtered), one for Azazel (sent away).",
+        en: "outer and inner bloods poured onto the base",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l05"
+        ]
       },
       {
         id: "rashi-yoma-058b-029",
@@ -132986,11 +133044,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 29,
         he: "מזבח העולה היו שותתין ונופלים מן",
-        en: "One stays, one goes; one is sacrificed, one carries sins away.",
+        en: "of the burnt-offering altar would trickle down and fall from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l05"
+        ]
       },
       {
         id: "rashi-yoma-058b-030",
@@ -132998,11 +133058,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 30,
         he: "היסוד על הרצפה: ומתערבין באמה.",
-        en: "Sin is transferred to the goat through the HP's confession and hand-laying.",
+        en: "the base onto the floor. 'And they mix in the channel' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l05"
+        ]
       },
       {
         id: "rashi-yoma-058b-031",
@@ -133010,11 +133072,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 31,
         he: "סילון שבעזרה היוצא לנחל קדרון:",
-        en: "The goat bears the sins to a desolate wilderness place.",
+        en: "a conduit in the courtyard that flows out to the Kidron valley.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l05"
+        ]
       },
       {
         id: "rashi-yoma-058b-032",
@@ -133022,11 +133086,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 32,
         he: "לגננין. בעלי גנות: ומועלין בהן. יש",
-        en: "The wilderness: a place of dissolution where sins are rendered harmless.",
+        en: "'To gardeners' - owners of gardens. 'And one may be liable for misuse regarding them' - there",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l05"
+        ]
       },
       {
         id: "rashi-yoma-058b-033",
@@ -133034,11 +133100,14 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 33,
         he: "בהן איסור ליהנות בלא דמים: גמ' תנו",
-        en: "The HP confesses all of Israel's willful and unwitting transgressions.",
+        en: "is a prohibition on benefiting from them without payment. 'Gemara: our Rabbis taught,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l05",
+          "yoma-058b-l09"
+        ]
       },
       {
         id: "rashi-yoma-058b-034",
@@ -133046,11 +133115,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 34,
         he: "רבנן וכו'. הכי גר' לה בת\"כ ויצא אל",
-        en: "Both categories of sin are placed on the scapegoat's head.",
+        en: "etc. - this is how it is read in the Torat Kohanim: 'and he shall go out to",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l09"
+        ]
       },
       {
         id: "rashi-yoma-058b-035",
@@ -133058,11 +133129,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 35,
         he: "המזבח מה ת\"ל אמר רבי נחמיה לפי",
-        en: "The confession over the scapegoat is the third and final Yom Kippur confession.",
+        en: "the altar' - why is this stated? R. Nechemya said: since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l09"
+        ]
       },
       {
         id: "rashi-yoma-058b-036",
@@ -133070,11 +133143,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 36,
         he: "שמצינו בפר הבא על כל המצות שהוא",
-        en: "First: for himself and household. Second: for the priesthood. Third: for all Israel.",
+        en: "we find regarding the bull brought for all the commandments that he",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l09"
+        ]
       },
       {
         id: "rashi-yoma-058b-037",
@@ -133082,11 +133157,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 37,
         he: "עומד חוץ למזבח ומזה על הפרכת",
-        en: "Three confessions cover the full range of Israel's relationship with God.",
+        en: "stands outside the altar and sprinkles on the parochet",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l09"
+        ]
       },
       {
         id: "rashi-yoma-058b-038",
@@ -133094,11 +133171,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 38,
         he: "בשעה שהוא מזה יכול אף זה כן ת\"ל",
-        en: "Personal, priestly, and national: a complete accounting.",
+        en: "when he sprinkles, one might think the same applies here; Scripture states,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l09"
+        ]
       },
       {
         id: "rashi-yoma-058b-039",
@@ -133106,11 +133185,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 39,
         he: "ויצא אל המזבח היכן היה לפנים מן",
-        en: "The scapegoat service is the most distinctive Yom Kippur ritual.",
+        en: "'and he shall go out to the altar' - where was he? Inside",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l09"
+        ]
       },
       {
         id: "rashi-yoma-058b-040",
@@ -133118,11 +133199,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 40,
         he: "המזבח תניא אידך לפני ה' מה תלמוד",
-        en: "No parallel exists for it in the regular Temple service calendar.",
+        en: "the altar. Another baraita teaches: 'before the Lord' - why is this stated?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l09"
+        ]
       },
       {
         id: "rashi-yoma-058b-041",
@@ -133130,11 +133213,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 41,
         he: "לומר אמר רבי נחמיה לפי שמצינו בפר",
-        en: "Sending a live animal to the wilderness is unique to this day.",
+        en: "R. Nechemya said: since we find regarding the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l09"
+        ]
       },
       {
         id: "rashi-yoma-058b-042",
@@ -133142,11 +133227,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 42,
         he: "יום הכפורים שהוא עומד לפנים מן",
-        en: "Physical removal of sins from the camp mirrors theological removal of guilt.",
+        en: "Yom Kippur bull that he stands inside",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l09"
+        ]
       },
       {
         id: "rashi-yoma-058b-043",
@@ -133154,11 +133241,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 43,
         he: "המזבח ומזה על הפרכת בשעה שהוא",
-        en: "Once the scapegoat leaves, Israel's sins are considered removed.",
+        en: "the altar and sprinkles on the parochet when he",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l09"
+        ]
       },
       {
         id: "rashi-yoma-058b-044",
@@ -133166,11 +133255,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 44,
         he: "מזה יכול אף זה כן תלמוד לומר מזבח",
-        en: "The day is not complete until the scapegoat reaches the wilderness.",
+        en: "sprinkles, one might think the same applies here; Scripture states, 'the altar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l09"
+        ]
       },
       {
         id: "rashi-yoma-058b-045",
@@ -133178,11 +133269,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 45,
         he: "קטרת הסמים (אשר) לפני ה' ואין הכהן לפני ה' הכי גרסינן נמי להך גבי פר כהן משיח בת\"כ והכי פירושה דתרווייהו ויצא אל המזבח",
-        en: "News of its arrival is transmitted to the HP while he continues his service.",
+        en: "of sweet incense before the Lord' - the altar is before the Lord, but the priest is not before the Lord. This is likewise the reading for the anointed priest's bull in the Torat Kohanim, and the explanation of both is: 'and he shall go out to the altar' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l09"
+        ]
       },
       {
         id: "rashi-yoma-058b-046",
@@ -133190,11 +133283,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 46,
         he: "מה תלמוד לומר היה לו לכתוב וכפר על המזבח אשר לפני ה' מה ת\"ל ויצא אמר רבי נחמיה לפי שמצינו בפר כהן משיח ופר העדה שהכהן עומד",
-        en: "Crowds line the route to watch the scapegoat's departure.",
+        en: "why is this stated? He should have written 'and he shall atone upon the altar that is before the Lord'; why does it say 'and he shall go out'? R. Nechemya said: since we find regarding the anointed priest's bull and the community's bull that he stands",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l09"
+        ]
       },
       {
         id: "rashi-yoma-058b-047",
@@ -133202,11 +133297,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 47,
         he: "חוץ למזבח כשהוא מזה הזאות שעל הפרוכת ואינו עומד בין המזבח לפרוכת כדקתני בהך אידך ברייתא לקמן תלמוד לומר ויצא אל",
-        en: "Some say jeering remarks were forbidden; others say permitted.",
+        en: "outside the altar when he performs the sprinklings upon the parochet, and does not stand between the altar and the parochet, as is taught in that other baraita below; Scripture states, 'and he shall go out to'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l09"
+        ]
       },
       {
         id: "rashi-yoma-058b-048",
@@ -133214,11 +133311,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 48,
         he: "המזבח למדנו שעד עכשיו היה עומד בפנים מן המזבח תניא אידך גבי פר כהן משיח לפני ה' מה תלמוד לומר ליכתוב ונתן הכהן",
-        en: "The scapegoat carries what language cannot adequately express.",
+        en: "'the altar,' teaching us that until now he had been standing inside the altar. Another baraita teaches regarding the anointed priest's bull, 'before the Lord' - why is this stated? It should have written 'and the priest shall place'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l09"
+        ]
       },
       {
         id: "rashi-yoma-058b-049",
@@ -133226,11 +133325,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 49,
         he: "מן הדם על קרנות מזבח קטרת הסמים יודע אני שהיא לפני ה' מה תלמוד לומר לפני ה' מזבח לפני ה' ואין כהן לפני ה' המזבח",
-        en: "The transfer is legally and spiritually effective - sins are genuinely removed.",
+        en: "'some of the blood on the horns of the altar of sweet incense' - I would know that it is before the Lord; why does it say 'before the Lord'? The altar is before the Lord, but the priest is not before the Lord; the altar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l09"
+        ]
       },
       {
         id: "rashi-yoma-058b-050",
@@ -133238,11 +133339,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 50,
         he: "מפסיק בין הכהן לפרוכת בשעת מתן הקרנות וכשהזה על הפרוכת באותו מעמד עצמו היה שהרי לא נאמרה יציאה בינתיים למדנו",
-        en: "Yom Kippur requires both blood service and scapegoat: purification and removal.",
+        en: "comes between the priest and the parochet at the time of the corner sprinklings, and when he sprinkles on the parochet he was in that very same standing position, since no exit is stated in between; we learn",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l09"
+        ]
       },
       {
         id: "rashi-yoma-058b-051",
@@ -133250,11 +133353,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 51,
         he: "שהיה עומד חוץ למזבח ומזה ואם תאמר והלא לא כתיב אשר לפני ה' אלא לפני ה' ואיכא למימר דאנתינה קאי והכהן לפני ה' אי",
-        en: "Blood atones through the sacrificial channel; scapegoat removes through displacement.",
+        en: "that he was standing outside the altar and sprinkling. And if you should say, is it not written 'that is before the Lord' rather than just 'before the Lord'? - one could say it refers back to the placing, and the priest is before the Lord - but",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l09"
+        ]
       },
       {
         id: "rashi-yoma-058b-052",
@@ -133262,11 +133367,14 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 52,
         he: "אפשר לומר כן שהרי בפר העדה נאמר אשר לפני ה' ועל כרחיך אמזבח קאי ועבודת שניהן היה שוה: מהיכן מתחיל מקרן מזרחית",
-        en: "Two mechanisms: ritual purification and symbolic displacement.",
+        en: "this cannot be said, since regarding the community's bull it is stated 'that is before the Lord,' and so it must necessarily refer to the altar, and the service of both was the same. 'From where does he begin - from the southeast",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l09",
+          "yoma-058b-l15"
+        ]
       },
       {
         id: "rashi-yoma-058b-053",
@@ -133274,11 +133382,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 53,
         he: "דרומית. קסבר שתי פרוכת היו והחיצונה פרופה מן הדרום כדתנן במתניתין וכשיצא מבית קדשי הקדשים דרך הדרום הזה על הפרוכת",
-        en: "Together they constitute the complete Yom Kippur package.",
+        en: "corner' - he holds that there were two curtains, and the outer one was fastened from the south, as we learned in the Mishnah; and when he exited the Holy of Holies through the south, he sprinkled on the curtain,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l15"
+        ]
       },
       {
         id: "rashi-yoma-058b-054",
@@ -133286,11 +133396,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 54,
         he: "וכשהשלים בא לו למזבח לדרומית מערבית שהיא ראשונה לו ושם לא היה נותן כדאמרינן לקמן דבעינן ויצא עד דנפיק מכוליה מזבח",
-        en: "The HP is the sole agent of both mechanisms.",
+        en: "and when he finished he came to the altar at its southwest corner, which is nearest to him, but he did not give the sprinkling there, as we say below that we require 'and he shall go out' to mean until he has fully exited the altar;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l15"
+        ]
       },
       {
         id: "rashi-yoma-058b-055",
@@ -133298,11 +133410,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 55,
         he: "לפיכך יוצא למזרחית דרומית ומתחיל שם וחוזר דרך שמאל למערבית דרומית ולקמן פריך לקיף דרך ימין: ר\"י הגלילי אומר כו'. סבר לה",
-        en: "On this day, his actions speak for all Israel.",
+        en: "therefore he goes out to the southeast corner and begins there, and returns by way of the left to the southwest corner, and below it will be asked why he does not circle to the right. 'R. Yosei HaGelili says, etc.' - he holds",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l15"
+        ]
       },
       {
         id: "rashi-yoma-058b-056",
@@ -133310,11 +133424,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 56,
         he: "כרבי יוסי דמתני' דאמר לא היתה שם אלא פרוכת אחת ופרופה מן הצפון וכשגמר מתנות פנים ויצא דרך הצפון פגע תחילה בצפונית",
-        en: "The nation fasts and prays while the HP acts on their behalf.",
+        en: "like R. Yosei of the Mishnah, who says there was only a single curtain there, fastened from the north; and when he finished the inner sprinklings and exited through the north, he first encountered",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l15"
+        ]
       },
       {
         id: "rashi-yoma-058b-057",
@@ -133322,11 +133438,14 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 57,
         he: "מערבית דמזבח ושם לא נתן עד שיצא ובא לו למזרחית צפונית ונותן שם וחוזר לצפונית מערבית דרך ימין: דכולי עלמא וכו'. דהא ע\"כ מן",
-        en: "The synchrony between HP's service and nation's prayer is Yom Kippur.",
+        en: "the northwest corner of the altar, but did not give the sprinkling there until he had exited and come to the northeast corner, giving it there, and returning to the northwest corner by way of the right. 'According to all opinions, etc.' - since necessarily he comes from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l15",
+          "yoma-058b-l20"
+        ]
       },
       {
         id: "rashi-yoma-058b-058",
@@ -133334,11 +133453,14 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 58,
         he: "המערב הוא בא ובמערבה של מזבח פוגע תחילה: לימא. רבי עקיבא שמקיף לשמאל ורבי יוסי הגלילי המקיף לימין בדרמי בר יחזקאל קא",
-        en: "Both action in the Temple and intention in the heart are necessary.",
+        en: "the west, and he first encounters the western side of the altar. 'Shall we say' - that R. Akiva, who circles to the left, and R. Yosei HaGelili, who circles to the right, disagree about",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l20",
+          "yoma-058b-l22"
+        ]
       },
       {
         id: "rashi-yoma-058b-059",
@@ -133346,11 +133468,14 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 59,
         he: "מיפלגי: עומד על שנים עשר בקר. בים של נחושת שעשה שלמה כתיב שלשה פונים (צפון) וגו' (דה\"ב ד) מקרא זה מונה והולך דרך ימין המקיף",
-        en: "This is why the Mishnah describes the entire day's sequence.",
+        en: "Rami bar Yechezkel's own teaching? 'It stood upon twelve oxen' - regarding the bronze sea that Solomon made, it is written 'three facing north,' etc. (Chronicles II 4), and this verse counts going by way of the right, circling",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l22",
+          "yoma-058b-l23"
+        ]
       },
       {
         id: "rashi-yoma-058b-060",
@@ -133358,11 +133483,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 60,
         he: "את הים ובא מצפון למערב וממערב לדרום ומדרום למזרח דרך ימין מקיפה: דרך ימין למזרח. לא שייך למתני הכא למזרח אלא במס' זבחים",
-        en: "The nation must know what is being done on their behalf.",
+        en: "the sea, coming from north to west, from west to south, and from south to east, circling it by way of the right. 'By way of the right, to the east' - this phrase 'to the east' is not really relevant to teach here, but rather in tractate Zevachim,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l23"
+        ]
       },
       {
         id: "rashi-yoma-058b-061",
@@ -133370,11 +133497,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 61,
         he: "דמייתי לה להא מתניתא על הכבש שהוא בדרום והעולה לו ופונה לימין למזרח הוא פונה ואגב ריהטא דההיא גירסא נקיט לה בכולה הש\"ס:",
-        en: "Understanding the service deepens the nation's participation.",
+        en: "which cites this same teaching regarding the ramp, which is on the south side, and one ascending it and turning to the right turns to the east, and by force of the flow of that same version, it is cited this way throughout the Talmud.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l23"
+        ]
       },
       {
         id: "rashi-yoma-058b-062",
@@ -133382,11 +133511,13 @@ const DAF_CONTENT = {
         daf: "58b",
         vilnaLine: 62,
         he: "ואי",
-        en: "Study of the service is itself a form of participation in its effect.",
+        en: "'And if' - the daf ends mid-word here; the comment continues on 59a with the further analysis of whether the circuit direction is a foot-based or hand-based dispute.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058b-l23"
+        ]
       }
     ],
     review: "reviewed"
