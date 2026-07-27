@@ -145499,11 +145499,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 1,
         he: "רבא אמר. מחוסר זמן דאיצטריך קרא לשעיר המשתלח כגון שהיה",
-        en: "Another explanation why a verse is needed for the scapegoat: it might otherwise be considered fit for the altar.",
+        en: "'Rava said' - the verse teaching the exclusion of one lacking its time was necessary for the goat sent away, in a case such as this:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l01"
+        ]
       },
       {
         id: "rashi-yoma-064a-002",
@@ -145511,11 +145513,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 2,
         he: "לו למי שמוכרן לציבור חולה בתוך ביתו שמותר לחלל עליו יום",
-        en: "If not for the verse, one might think the scapegoat could be slaughtered as a regular offering.",
+        en: "one of those who sells animals to the public had a sick person in his household, for whom it is permitted to desecrate Yom",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l01"
+        ]
       },
       {
         id: "rashi-yoma-064a-003",
@@ -145523,11 +145527,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 3,
         he: "הכפורים ושחט את אמו של שעיר שנעשה מחוסר זמן משום אותו",
-        en: "The verse designates it exclusively for Azazel - thus excluding it from altar service.",
+        en: "Kippur, and he slaughtered the mother of a goat that had already been designated by the lottery, making it lacking its time on account of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l01"
+        ]
       },
       {
         id: "rashi-yoma-064a-004",
@@ -145535,11 +145541,14 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 4,
         he: "ואת בנו לאחר שהגריל עליו: מי אסיר. להוליכו לצוק משום אותו",
-        en: "The exclusion is needed because otherwise the scapegoat would seem like a valid offering.",
+        en: "'it and its offspring,' after the lottery had already fallen upon it. 'Is it forbidden' - to lead it to the cliff on account of 'it and",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l01",
+          "yoma-064a-l02"
+        ]
       },
       {
         id: "rashi-yoma-064a-005",
@@ -145547,11 +145556,14 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 5,
         he: "ואת בנו: אין נדחין. אם אירעה",
-        en: "Its designation for Azazel removes it from the normal sacrificial category.",
+        en: "its offspring'? 'They are not rejected' - if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l02",
+          "yoma-064a-l09"
+        ]
       },
       {
         id: "rashi-yoma-064a-006",
@@ -145559,11 +145571,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 6,
         he: "להם שעת פסול עדיין יכולין להתקן",
-        en: "If one of the goats dies after the lottery: complex replacement rules apply.",
+        en: "a moment of disqualification befell them, they can still be rectified",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l09"
+        ]
       },
       {
         id: "rashi-yoma-064a-007",
@@ -145571,11 +145585,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 7,
         he: "כשיזדווג לו אחר ולא אמרי' הואיל",
-        en: "If the 'for God' goat dies after the lottery but before slaughtering.",
+        en: "once another is paired with it, and we do not say 'since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l09"
+        ]
       },
       {
         id: "rashi-yoma-064a-008",
@@ -145583,11 +145599,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 8,
         he: "ונדחה ידחה אלא בשחוטין כגון מת",
-        en: "A replacement must be brought; the replacement undergoes a new lottery.",
+        en: "it was once rejected, it remains rejected' except regarding items already slaughtered, such as the ruling: if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l09"
+        ]
       },
       {
         id: "rashi-yoma-064a-009",
@@ -145595,11 +145613,14 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 9,
         he: "המשתלח ישפך הדם: הא על ידי",
-        en: "But the question: what happens to the surviving Azazel goat?",
+        en: "the one to be sent away dies, the blood must be poured out. 'But through",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l09",
+          "yoma-064a-l23"
+        ]
       },
       {
         id: "rashi-yoma-064a-010",
@@ -145607,11 +145628,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 10,
         he: "תערובת ירצו. כרבי אליעזר:",
-        en: "Does it remain valid for Azazel until a replacement lottery resolves the new pair?",
+        en: "mixture they may be accepted' - in accordance with Rabbi Eliezer.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l23"
+        ]
       },
       {
         id: "rashi-yoma-064a-011",
@@ -145619,11 +145642,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 11,
         he: "איברים. של עולה תמימה שנתערבו",
-        en: "Or does the death of its partner automatically invalidate it?",
+        en: "'Limbs' - of an unblemished burnt-offering that became mixed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l24"
+        ]
       },
       {
         id: "rashi-yoma-064a-012",
@@ -145631,11 +145656,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 12,
         he: "בהן איברי בעלת מום אחת: אם",
-        en: "The dispute follows from the paired nature of the two goats.",
+        en: "together with the limbs of one blemished animal. 'If",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l24"
+        ]
       },
       {
         id: "rashi-yoma-064a-013",
@@ -145643,11 +145670,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 13,
         he: "קרב הראש של אחד מהן. קודם",
-        en: "If they are a complete unit, one's death invalidates the other.",
+        en: "the head of one of them was offered' - before",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l24"
+        ]
       },
       {
         id: "rashi-yoma-064a-014",
@@ -145655,11 +145684,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 14,
         he: "שהרגישו בדבר: יקריבו כל הראשין",
-        en: "If they are independent in their respective roles, the survivor continues.",
+        en: "they noticed the matter. 'They shall offer all the heads'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l24"
+        ]
       },
       {
         id: "rashi-yoma-064a-015",
@@ -145667,11 +145698,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 15,
         he: "כולן. ותולין האיסור באותו שקרב",
-        en: "The resolution: the survivor is held pending until the replacement pair is ready.",
+        en: "- and we attribute the potential prohibition to the one already offered,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l24"
+        ]
       },
       {
         id: "rashi-yoma-064a-016",
@@ -145679,11 +145712,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 16,
         he: "כבר ותלינן לקולא דהואיל ונתערבו",
-        en: "Then a new lottery is performed on the new pair.",
+        en: "ruling leniently, since once they became mixed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l24"
+        ]
       },
       {
         id: "rashi-yoma-064a-017",
@@ -145691,11 +145726,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 17,
         he: "אין כאן ספק איסור דאורייתא למיזל",
-        en: "The original survivor is included in or compared to the new lottery.",
+        en: "there is no biblical doubt of prohibition requiring",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l24"
+        ]
       },
       {
         id: "rashi-yoma-064a-018",
@@ -145703,11 +145740,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 18,
         he: "לחומרא דלא הזהירה תורה עליהן",
-        en: "The rules here protect against situations where the Yom Kippur service cannot proceed.",
+        en: "stringency, for the Torah warned against them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l24"
+        ]
       },
       {
         id: "rashi-yoma-064a-019",
@@ -145715,11 +145754,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 19,
         he: "אלא כשהן בעצמן שנאמר בהם כי",
-        en: "The goal is always to complete the service; replacement rules enable this.",
+        en: "only when they remain by themselves, as it states regarding them, 'for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l24"
+        ]
       },
       {
         id: "rashi-yoma-064a-020",
@@ -145727,11 +145768,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 20,
         he: "משחתם בהם מום בם כי איתנהו",
-        en: "Complex scenarios were prepared for during the HP's seven days of preparation.",
+        en: "their corruption is in them, their blemish is in them' - meaning, when it is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l24"
+        ]
       },
       {
         id: "rashi-yoma-064a-021",
@@ -145739,11 +145782,14 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 21,
         he: "בעינייהו: מבם בהם. מדמצי",
-        en: "The HP was drilled on these contingency cases.",
+        en: "actually present in them. 'From \"bam\" to \"bahem\"' - since Scripture could",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l24",
+          "yoma-064a-l29"
+        ]
       },
       {
         id: "rashi-yoma-064a-022",
@@ -145751,11 +145797,14 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 22,
         he: "למיכתב בם וכתב בהם: בעידנא",
-        en: "His preparation was not just ritual but halachic - knowing all the rules.",
+        en: "have written the shorter form and instead wrote the longer one. 'At the time",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l29",
+          "yoma-064a-l36"
+        ]
       },
       {
         id: "rashi-yoma-064a-023",
@@ -145763,11 +145812,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 23,
         he: "דאיתחזאי קמייתא לא איתחזאי",
-        en: "The seven-day preparation was a total preparation: physical, spiritual, and legal.",
+        en: "the first one became fit, the last one had not yet",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l36"
+        ]
       },
       {
         id: "rashi-yoma-064a-024",
@@ -145775,11 +145826,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 24,
         he: "בתרייתא. אבל האי לא איתחזי",
-        en: "This comprehensive preparation is itself a model.",
+        en: "become fit' - but in our case, this first one was never fit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l36"
+        ]
       },
       {
         id: "rashi-yoma-064a-025",
@@ -145787,11 +145840,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 25,
         he: "קמא עד דאיתחזי בתרא שאף על",
-        en: "Total preparation, total focus, total service.",
+        en: "until the last one became fit, for even",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l36"
+        ]
       },
       {
         id: "rashi-yoma-064a-026",
@@ -145799,11 +145854,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 26,
         he: "פי שהגריל עליו אינו ראוי לישחט",
-        en: "The HP was the most prepared person in Israel on the holiest day.",
+        en: "though the lottery had fallen upon it, it is not fit to be slaughtered",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l36"
+        ]
       },
       {
         id: "rashi-yoma-064a-027",
@@ -145811,11 +145868,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 27,
         he: "עד לאחר מתן דם הפר ובתוך כך",
-        en: "And his preparation enabled the most effective service.",
+        en: "until after the placing of the bull's blood; and in the meantime",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l36"
+        ]
       },
       {
         id: "rashi-yoma-064a-028",
@@ -145823,11 +145882,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 28,
         he: "מת חבירו והביאו שנים והגרילו",
-        en: "The contingency rules are not failures of planning but enhancements to it.",
+        en: "its partner died, and they brought two more and cast lots",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l36"
+        ]
       },
       {
         id: "rashi-yoma-064a-029",
@@ -145835,11 +145896,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 29,
         he: "עליהן וכשהגיע זמן שחיטת השעיר",
-        en: "Knowing what to do when things go wrong is itself part of excellence.",
+        en: "on them, and by the time the moment for slaughtering the goat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l36"
+        ]
       },
       {
         id: "rashi-yoma-064a-030",
@@ -145847,11 +145910,14 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 30,
         he: "כבר זה האחרון עומד: אלא רבי",
-        en: "The Talmud's preservation of these contingency rules is therefore not just legal but pastoral.",
+        en: "arrived, this later pair was already standing ready. 'Rather, the source is Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l36",
+          "yoma-064a-l37"
+        ]
       },
       {
         id: "rashi-yoma-064a-031",
@@ -145859,11 +145925,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 31,
         he: "יוסי דפסח. דהא הכא לא איתחזאי",
-        en: "It teaches: be prepared for all eventualities, and have a plan.",
+        en: "Yosei's teaching regarding the Pesach-offering' - for here too the first one was never fit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l37"
+        ]
       },
       {
         id: "rashi-yoma-064a-032",
@@ -145871,11 +145939,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 32,
         he: "קמא עד דאתחזאי בתרא שהרי",
-        en: "The HP's example: even in the most sacred service, things can go wrong.",
+        en: "until the last one became fit, since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l37"
+        ]
       },
       {
         id: "rashi-yoma-064a-033",
@@ -145883,11 +145953,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 33,
         he: "אין זמן שחיטת פסח אלא לאחר",
-        en: "And having planned for that in advance is what makes the service succeed.",
+        en: "the time for slaughtering the Pesach-offering is only after",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l37"
+        ]
       },
       {
         id: "rashi-yoma-064a-034",
@@ -145895,11 +145967,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 34,
         he: "חצות וקודם לכן אבד ראשון והופרש",
-        en: "This is a teaching for life, not just for the Temple.",
+        en: "midday, and before that the first one was lost and a second",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l37"
+        ]
       },
       {
         id: "rashi-yoma-064a-035",
@@ -145907,11 +145981,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 35,
         he: "שני ונמצא ראשון והרי שניהן",
-        en: "Be so prepared that even unexpected developments can be handled with clarity.",
+        en: "was set aside, and then the first one was found, so that both",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l37"
+        ]
       },
       {
         id: "rashi-yoma-064a-036",
@@ -145919,11 +145995,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 36,
         he: "עומדים כשהגיע זמן שחיטה ואפילו",
-        en: "The HP's preparation for the Yom Kippur service was the ultimate model for this.",
+        en: "are standing ready by the time the slaughtering-time arrives; and even",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l37"
+        ]
       },
       {
         id: "rashi-yoma-064a-037",
@@ -145931,11 +146009,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 37,
         he: "הכי קאמר רבי יוסי מצוה בראשון:",
-        en: "Seven days of drill, practice, and halachic review.",
+        en: "so, Rabbi Yosei says there is a mitzvah in the first.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l37"
+        ]
       },
       {
         id: "rashi-yoma-064a-038",
@@ -145943,11 +146023,13 @@ const DAF_CONTENT = {
         daf: "64a",
         vilnaLine: 38,
         he: "יתקיים",
-        en: "So that on the day itself, nothing could surprise or derail him.",
+        en: "'It shall stand' - the comment is completed on 64b as 'in its place,' explaining that a substitute animal may only be designated in place of the one that died, not in place of the surviving one.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064a-l37"
+        ]
       }
     ],
     review: "reviewed"

@@ -2,7 +2,7 @@
  "type": "rashi-reconstruction",
  "module": "yoma",
  "targets": [
-  "63b"
+  "64a"
  ],
  "model": "sonnet",
  "paused": false,
