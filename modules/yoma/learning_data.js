@@ -122891,11 +122891,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 1,
         he: "אמרו ליה לרב יוסף. שהוא היה מאור עינים ואינו מכיר בדבר:",
-        en: "Walking backward when leaving a Torah scholar derives from the HP's backward exit from the Holy of Holies.",
+        en: "'They said to Rav Yosef' - for he was blind and could not perceive",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l01"
+        ]
       },
       {
         id: "rashi-yoma-053b-002",
@@ -122903,11 +122905,14 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 2,
         he: "תרום רישיך. תהיה ראש ישיבת הכרך: התם מיבעי ליה למיקם.",
-        en: "The HP prays briefly at his exit: good year, proper rain, Israel's welfare.",
+        en: "this on his own. 'May your head be raised' - may you become head of the great yeshiva. 'There he must pause' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l01",
+          "yoma-053b-l02"
+        ]
       },
       {
         id: "rashi-yoma-053b-003",
@@ -122915,11 +122920,14 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 3,
         he: "במקום שהפסיעות כלות ולא לחזור לאלתר: ואם לא עשה כן.",
-        en: "He does not pray for personal matters - his entire exit prayer is communal.",
+        en: "at the place where his steps end, and not return right away. 'And if he did not do so' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l02",
+          "yoma-053b-l08"
+        ]
       },
       {
         id: "rashi-yoma-053b-004",
@@ -122927,11 +122935,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 4,
         he: "נראה כמו שלא נטל רשות להיפטר: וראוי לו שלא התפלל. ראוי",
-        en: "Brevity is required to prevent the waiting crowd from panicking that the HP died inside.",
+        en: "it appears as though he did not take leave properly. 'And it would have been fitting for him not to have prayed' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l08"
+        ]
       },
       {
         id: "rashi-yoma-053b-005",
@@ -122939,11 +122949,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 5,
         he: "לו שלא התפלל גרסינן כלומר נוח",
-        en: "The Sharon Valley prayer: that the people's houses not collapse from flooding.",
+        en: "we read it this way, meaning: it would have been better for him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l08"
+        ]
       },
       {
         id: "rashi-yoma-053b-006",
@@ -122951,11 +122963,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 6,
         he: "היה לו אם לא התפלל כמו ראוי לו",
-        en: "The even ha-shetiya (foundation stone) in the Holy of Holies is where the Ark rested.",
+        en: "not to have prayed, just as it would have been better for him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l08"
+        ]
       },
       {
         id: "rashi-yoma-053b-007",
@@ -122963,11 +122977,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 7,
         he: "שלא בא לעולם: מימינו אש דת.",
-        en: "It is called shetiya because the world was 'woven' or 'founded' from this point outward.",
+        en: "not to have been born. 'From His right hand, a fiery law' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l08"
+        ]
       },
       {
         id: "rashi-yoma-053b-008",
@@ -122975,11 +122991,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 8,
         he: "אלמא ימין עדיפא: ורבבה מימינך.",
-        en: "The cosmological claim: creation began at the Temple Mount, specifically at this stone.",
+        en: "this shows that the right side is preferred. 'And ten thousand at your right hand' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l08"
+        ]
       },
       {
         id: "rashi-yoma-053b-009",
@@ -122987,11 +123005,14 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 9,
         he: "הימין סובלת רבבה מזיקין: וכי תימא",
-        en: "Three finger-breadths: the even ha-shetiya protruded this much above the Holy of Holies floor.",
+        en: "the right side can withstand ten thousand demons. 'And should you say'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l08",
+          "yoma-053b-l12"
+        ]
       },
       {
         id: "rashi-yoma-053b-010",
@@ -122999,11 +123020,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 10,
         he: "אורחא הוא. שהימין מוכנת להשתמש",
-        en: "The HP placed the coal pan on the even ha-shetiya when performing the incense service.",
+        en: "it is merely the ordinary way - that the right hand is naturally the one used, and so",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l12"
+        ]
       },
       {
         id: "rashi-yoma-053b-011",
@@ -123011,11 +123034,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 11,
         he: "בה לכך ניתנו הלוחות בימין ולאו",
-        en: "The outer blood service: the HP exits the Holy of Holies and takes bull blood from the stirrer.",
+        en: "the tablets were given into the right hand, and it is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l12"
+        ]
       },
       {
         id: "rashi-yoma-053b-012",
@@ -123023,11 +123048,14 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 12,
         he: "חשיבותא דימין היא: לשמאל דידך.",
-        en: "He sprinkles before the parochet (outer curtain): one time upward, seven times downward.",
+        en: "a matter of the right side's inherent importance. 'To your own left' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l12",
+          "yoma-053b-l13"
+        ]
       },
       {
         id: "rashi-yoma-053b-013",
@@ -123035,11 +123063,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 13,
         he: "דהיא ימינו של הקב\"ה שהמתפלל",
-        en: "The counting formula is the same as for the inner sprinkling.",
+        en: "for that is the right hand of the Holy One, since one who prays",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l13"
+        ]
       },
       {
         id: "rashi-yoma-053b-014",
@@ -123047,11 +123077,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 14,
         he: "רואה עצמו כאילו שכינה למול פניו",
-        en: "The bull blood sprinkling before the parochet atones for different categories than the inner sprinkling.",
+        en: "sees himself as if the Divine Presence is directly before him,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l13"
+        ]
       },
       {
         id: "rashi-yoma-053b-015",
@@ -123059,11 +123091,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 15,
         he: "שנאמר שויתי ה' לנגדי תמיד (תהלים",
-        en: "The inner sprinkling (inside Holy of Holies) and outer sprinkling (before parochet) together provide full atonement.",
+        en: "as it is stated, 'I have set the Lord always before me' (Psalms",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l13"
+        ]
       },
       {
         id: "rashi-yoma-053b-016",
@@ -123071,11 +123105,15 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 16,
         he: "טז) : שחונה. חמה: עביד שולטן.",
-        en: "After the bull's outer sprinkling, the HP performs the same service with the goat's blood.",
+        en: "16). 'Shechunah' - hot/dry. 'That exercises rule' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l13",
+          "yoma-053b-l16",
+          "yoma-053b-l19"
+        ]
       },
       {
         id: "rashi-yoma-053b-017",
@@ -123083,11 +123121,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 17,
         he: "עושה ממשלה: עוברי דרכים.",
-        en: "The goat blood: first inside the Holy of Holies, then outside before the parochet.",
+        en: "that wields dominion. 'Travelers' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l19"
+        ]
       },
       {
         id: "rashi-yoma-053b-018",
@@ -123095,11 +123135,14 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 18,
         he: "מתפללים שלא ירדו גשמים: וחנינא",
-        en: "The order: bull inside - goat inside - bull outside - goat outside (some hold different orders).",
+        en: "who pray that rain not fall. 'While Chanina is at ease' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l19",
+          "yoma-053b-l21"
+        ]
       },
       {
         id: "rashi-yoma-053b-019",
@@ -123107,11 +123150,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 19,
         he: "בנחת. שאין לי זריעה בשדות:",
-        en: "The Gemara on 54a will clarify the exact order of blood services.",
+        en: "since I have no planting in the fields.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l21"
+        ]
       },
       {
         id: "rashi-yoma-053b-020",
@@ -123119,11 +123164,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 20,
         he: "מתני' נביאים הראשונים. דוד",
-        en: "Summary of outer blood service: same formula as inner, bull before goat.",
+        en: "'The Mishnah's, the first prophets' - David and Samuel,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l30"
+        ]
       },
       {
         id: "rashi-yoma-053b-021",
@@ -123131,11 +123178,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 21,
         he: "ושמואל מפרש במס' סוטה (דף מח:):",
-        en: "The backward walking principle (53b s1) is one of the most well-known applications of Temple practice to daily life.",
+        en: "as explained in tractate Sotah (48b).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l30"
+        ]
       },
       {
         id: "rashi-yoma-053b-022",
@@ -123143,11 +123192,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 22,
         he: "ושתייה היתה נקראת. מפרש בגמ':",
-        en: "When leaving a rabbi, walking backward is a sign of respect still practiced today.",
+        en: "'And it was called Shetiya' - explained in the Gemara.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l30"
+        ]
       },
       {
         id: "rashi-yoma-053b-023",
@@ -123155,11 +123206,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 23,
         he: "למקום שנכנס. לבית קדשי הקדשים:",
-        en: "The HP's brief communal prayer is also a model for communal prayer leaders.",
+        en: "'To the place he had entered' - into the Holy of Holies.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l30"
+        ]
       },
       {
         id: "rashi-yoma-053b-024",
@@ -123167,11 +123220,14 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 24,
         he: "במקום שעמד. בין הבדים: ולא היה",
-        en: "A shliach tzibbur (prayer leader) should not extend prayers in ways that burden the congregation.",
+        en: "'To the place he had stood' - between the poles of the Ark. 'And he did not intend to sprinkle either upward or downward, etc.' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l30",
+          "yoma-053b-l33"
+        ]
       },
       {
         id: "rashi-yoma-053b-025",
@@ -123179,11 +123235,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 25,
         he: "מתכוון להזות לא למעלה וכו'.",
-        en: "The even ha-shetiya's cosmological significance connects Temple service to creation itself.",
+        en: "meaning that the one upward sprinkling should be at the upper edge of the kapporet",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l33"
+        ]
       },
       {
         id: "rashi-yoma-053b-026",
@@ -123191,11 +123249,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 26,
         he: "שתהא אחת למעלה בחודה של כפורת",
-        en: "Performing atonement at the world's foundation point gives Yom Kippur cosmic significance.",
+        en: "and the seven downward should be from its middle,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l33"
+        ]
       },
       {
         id: "rashi-yoma-053b-027",
@@ -123203,11 +123263,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 27,
         he: "העליון והשבע למטה מאמצעה",
-        en: "The three finger-breadth measurement is a practical detail that grounds the cosmological discussion.",
+        en: "since they do not actually touch the kapporet, but rather",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l33"
+        ]
       },
       {
         id: "rashi-yoma-053b-028",
@@ -123215,11 +123277,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 28,
         he: "שהרי לא על הכפורת נוגעים אלא",
-        en: "The outer blood service (53b s5) transitions from the inner service to the broader Yom Kippur blood protocol.",
+        en: "fall to the ground. 'But like one who cracks a whip' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l33"
+        ]
       },
       {
         id: "rashi-yoma-053b-029",
@@ -123227,11 +123291,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 29,
         he: "לארץ נופלות: אלא כמצליף. בשורה",
-        en: "The Yom Kippur blood protocol has multiple phases: inner (Holy of Holies) and outer (before parochet).",
+        en: "meaning all eight sprinklings follow one below the other,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l33"
+        ]
       },
       {
         id: "rashi-yoma-053b-030",
@@ -123239,11 +123305,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 30,
         he: "זו תחת זו כל שמונה הזאות כמצליף",
-        en: "Both phases use the same counting formula but occur in different locations.",
+        en: "like the motion of a whip; I do not know the precise sense of this term. 'And so he would count' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l33"
+        ]
       },
       {
         id: "rashi-yoma-053b-031",
@@ -123251,11 +123319,14 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 31,
         he: "לא ידעתי לשונו: וכך היה מונה.",
-        en: "The completeness of atonement requires both phases to be performed correctly.",
+        en: "the Gemara will explain the reason for this counting style",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l33",
+          "yoma-053b-l36"
+        ]
       },
       {
         id: "rashi-yoma-053b-032",
@@ -123263,11 +123334,14 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 32,
         he: "בגמרא מפרש טעמא: נטל דם הפר",
-        en: "If either phase is invalid, the entire atonement service must be reconsidered.",
+        en: "below. 'He first took the bull's blood and set down the goat's blood' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l33",
+          "yoma-053b-l36"
+        ]
       },
       {
         id: "rashi-yoma-053b-033",
@@ -123275,11 +123349,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 33,
         he: "תחילה והניח דם השעיר. מסקנא",
-        en: "The Gemara on 54a will continue with the Lamentations verse about Jerusalem's glory.",
+        en: "this is the conclusion of R. Yehuda's own position, who holds",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l36"
+        ]
       },
       {
         id: "rashi-yoma-053b-034",
@@ -123287,11 +123363,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 34,
         he: "דמילתיה דר' יהודה היא דאמר לא",
-        en: "This verse is cited to explain why the even ha-shetiya's cosmological significance is important.",
+        en: "there was only a single stand there, so the bull's blood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l36"
+        ]
       },
       {
         id: "rashi-yoma-053b-035",
@@ -123299,11 +123377,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 35,
         he: "היה שם אלא כן אחד וצריך ליטול דם",
-        en: "The transition from 53b to 54a moves from procedural service description to theological reflection.",
+        en: "had to be taken first.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l36"
+        ]
       },
       {
         id: "rashi-yoma-053b-036",
@@ -123311,11 +123391,14 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 36,
         he: "הפר תחילה: על הפרוכת.",
-        en: "Then 54a returns to practical questions about where the Ark was hidden.",
+        en: "'Upon the curtain' - as it is written,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l36",
+          "yoma-053b-l40"
+        ]
       },
       {
         id: "rashi-yoma-053b-037",
@@ -123323,11 +123406,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 37,
         he: "כדכתיב וכן יעשה לאהל מועד",
-        en: "The Gemara's weaving between service procedure and theological/historical reflection is characteristic.",
+        en: "'and so shall he do for the Tent of Meeting'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l40"
+        ]
       },
       {
         id: "rashi-yoma-053b-038",
@@ -123335,11 +123420,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 38,
         he: "(ויקרא טז) : עירה דם הפר וכו'.",
-        en: "Rashi's commentary on 53b covers all five topics: backward walking, exit prayer, even ha-shetiya, its height, and outer service.",
+        en: "(Leviticus 16). 'He poured the bull's blood, etc.' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l40"
+        ]
       },
       {
         id: "rashi-yoma-053b-039",
@@ -123347,11 +123434,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 39,
         he: "כדכתיב במתנות המזבח ולקח מדם",
-        en: "Together these explain the transition from the innermost service to the outer service.",
+        en: "as it is written regarding the gifts on the altar, 'and he shall take of the blood'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l40"
+        ]
       },
       {
         id: "rashi-yoma-053b-040",
@@ -123359,11 +123448,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 40,
         he: "הפר ומדם השעיר מדם שניהן יחדיו:",
-        en: "The transition is marked by the backward exit, the brief prayer, and the cosmological reflection.",
+        en: "'of the bull and of the blood of the goat, of the blood of both together.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l40"
+        ]
       },
       {
         id: "rashi-yoma-053b-041",
@@ -123371,11 +123462,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 41,
         he: "ונתן המלא וכו'. בגמרא מפרש חוזר",
-        en: "Then the HP returns to the outer areas to continue the Yom Kippur blood protocol.",
+        en: "'And he placed the full one, etc.' - the Gemara will explain: he goes back",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l40"
+        ]
       },
       {
         id: "rashi-yoma-053b-042",
@@ -123383,11 +123476,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 42,
         he: "ומערה מזרק מלא לתוך הריקן כדי",
-        en: "End of 53b Rashi section.",
+        en: "and pours the full basin into the empty one, in order",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l40"
+        ]
       },
       {
         id: "rashi-yoma-053b-043",
@@ -123395,11 +123490,14 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 43,
         he: "לערבן יפה: גמ' ויביאו בבלה.",
-        en: "The next section (54a) begins with Lamentations and moves to the Ark's location.",
+        en: "to mix them well. Gemara. 'And they brought it to Babylon' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l40",
+          "yoma-053b-l43"
+        ]
       },
       {
         id: "rashi-yoma-053b-044",
@@ -123407,11 +123505,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 44,
         he: "ליהויכין: עם כלי חמדת. הוא",
-        en: "Then 54b concludes with the final stage of the blood service preparation.",
+        en: "referring to Yehoyachin's exile. 'With the precious vessels' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l43"
+        ]
       },
       {
         id: "rashi-yoma-053b-045",
@@ -123419,11 +123519,14 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 45,
         he: "ארון: ויאריכו הבדים וגו'. סיפיה",
-        en: "The overall structure of 53b-54b: inner service complete, outer service begins.",
+        en: "this is the Ark. 'And the poles projected, etc.' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l43",
+          "yoma-053b-l46"
+        ]
       },
       {
         id: "rashi-yoma-053b-046",
@@ -123431,11 +123534,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 46,
         he: "דקרא ויהיו שם עד היום הזה:",
-        en: "The HP has performed the most sacred acts; now the atonement service continues in the outer areas.",
+        en: "the end of the verse: 'and they remained there until this day.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l46"
+        ]
       },
       {
         id: "rashi-yoma-053b-047",
@@ -123443,11 +123548,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 47,
         he: "ופליגא דעולא. הא דתניא ר' שמעון",
-        en: "Rashi's commentary throughout 53a-53b makes the Yom Kippur service comprehensible for all learners.",
+        en: "'And this disagrees with Ulla' - this refers to what was taught,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l47"
+        ]
       },
       {
         id: "rashi-yoma-053b-048",
@@ -123455,11 +123562,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 48,
         he: "אומר ארון גלה לבבל: ראשונה",
-        en: "End of 53b Rashi.",
+        en: "that R. Shimon says the Ark was exiled to Babylon. 'First and second' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l47"
+        ]
       },
       {
         id: "rashi-yoma-053b-049",
@@ -123467,11 +123576,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 49,
         he: "ושניה. כלומר משני מקראות:",
-        en: "The even ha-shetiya will be mentioned again in the discussion of where the world's ends meet.",
+        en: "meaning, from two verses.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l47"
+        ]
       },
       {
         id: "rashi-yoma-053b-050",
@@ -123479,11 +123590,13 @@ const DAF_CONTENT = {
         daf: "53b",
         vilnaLine: 50,
         he: "כל",
-        en: "The Ark's hiding place and the Temple's cosmological centrality are connected themes.",
+        en: "'All' - the daf ends mid-word here; the comment continues on 54a with the verse's full continuation about Bat Zion's glory departing.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-053b-l47"
+        ]
       }
     ],
     review: "reviewed"
