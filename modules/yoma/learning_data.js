@@ -125792,11 +125792,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 1,
         he: "כמנגדנא. כמכה ברצועה שמתחיל מן הכתפים ומכה והולך למטה:",
-        en: "Like lashing with a whip - begins at the shoulders and strikes downward.",
+        en: "'Like this, facing me' - like striking with a strap, starting from the shoulders and striking downward.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l01"
+        ]
       },
       {
         id: "rashi-yoma-055a-002",
@@ -125804,11 +125806,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 2,
         he: "אינו מזה על הכפורת. על גגה אלא כנגד עוביה ולא היו דמים",
-        en: "He does not sprinkle on top of the kapporet but toward its thickness; blood does not touch it.",
+        en: "'He does not sprinkle on the kapporet' - on its top surface, but rather toward its thickness, and the blood did not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l01"
+        ]
       },
       {
         id: "rashi-yoma-055a-003",
@@ -125816,11 +125820,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 3,
         he: "נוגעין בה: כשהוא מזה. אחת למעלה מצדד גב ידו למטה ומזה",
-        en: "When sprinkling upward: tilts the back of his hand downward and sprinkles toward above.",
+        en: "touch it. 'When he sprinkles' - the one upward sprinkling, he tilts the back of his hand downward and sprinkles",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l01"
+        ]
       },
       {
         id: "rashi-yoma-055a-004",
@@ -125828,11 +125834,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 4,
         he: "כלפי למעלה וכשהוא מזה השבע למטה מצדד ידו למעלה ומזה למול",
-        en: "When sprinkling the seven below: tilts his hand upward and sprinkles facing himself.",
+        en: "toward above; and when he sprinkles the seven downward ones, he tilts his hand upward and sprinkles facing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l01"
+        ]
       },
       {
         id: "rashi-yoma-055a-005",
@@ -125840,11 +125848,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 5,
         he: "פניו אחת גבוהה ואחת בנמוך",
-        en: "One high and one low from it, and they all fall to the ground.",
+        en: "himself, one higher and one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l01"
+        ]
       },
       {
         id: "rashi-yoma-055a-006",
@@ -125852,11 +125862,14 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 6,
         he: "הימנה וכולן נופלות לארץ: מנא הני",
-        en: "From where are these rulings derived? Those two sprinkles - one above from bull, one above from goat,",
+        en: "lower than it, and all of them fall to the ground. 'From where'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l01",
+          "yoma-055a-l04"
+        ]
       },
       {
         id: "rashi-yoma-055a-007",
@@ -125864,11 +125877,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 7,
         he: "מילי. דאינו מזה על הכפורת אותן",
-        en: "on the actual top of the kapporet.",
+        en: "are these matters derived - that he does not sprinkle on the kapporet those",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l04"
+        ]
       },
       {
         id: "rashi-yoma-055a-008",
@@ -125876,11 +125891,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 8,
         he: "שתים אחת של מעלה בפר ואחת",
-        en: "Both the bull and goat upper sprinkles land on the kapporet's top.",
+        en: "two sprinklings, one above for the bull, and one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l04"
+        ]
       },
       {
         id: "rashi-yoma-055a-009",
@@ -125888,11 +125905,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 9,
         he: "של מעלה בשעיר על גג הכפורת",
-        en: "The verse teaches: 'on the kapporet' - once above; 'before the kapporet' - seven below.",
+        en: "above for the goat, actually on the top of the kapporet",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l04"
+        ]
       },
       {
         id: "rashi-yoma-055a-010",
@@ -125900,11 +125919,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 10,
         he: "ממש: לא יאמר למטה בשעיר. לא",
-        en: "It shall not say 'below for the goat' - the verse for the goat need not state the lower sprinkles",
+        en: "itself. 'It should not need to say below regarding the goat' - it should not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l04"
+        ]
       },
       {
         id: "rashi-yoma-055a-011",
@@ -125912,11 +125933,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 11,
         he: "יאמר ולפני הכפורת דהיינו למטה",
-        en: "since 'before the kapporet' already means below and is written for the bull.",
+        en: "need to say 'and before the kapporet,' which is the below-sprinkling",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l04"
+        ]
       },
       {
         id: "rashi-yoma-055a-012",
@@ -125924,11 +125947,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 12,
         he: "דשעיר דכתיב ביה והזה אותו על",
-        en: "And the goat's lower sprinkles are derived by analogy from the bull.",
+        en: "for the goat, since it is written regarding it, 'and he shall sprinkle it on'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l04"
+        ]
       },
       {
         id: "rashi-yoma-055a-013",
@@ -125936,11 +125961,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 13,
         he: "הכפורת ולפני הכפורת דלא צריך",
-        en: "Scripture spelled it out anyway to prevent us relying on analogy for penalties.",
+        en: "'the kapporet and before the kapporet' - for it is unnecessary,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l04"
+        ]
       },
       {
         id: "rashi-yoma-055a-014",
@@ -125948,11 +125975,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 14,
         he: "דסוף סוף גמר ממטה דפר שהרי",
-        en: "An analogy derivation is insufficient to impose kareth penalties.",
+        en: "since in the end it is derived from the bull's below-sprinkling anyway, for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l04"
+        ]
       },
       {
         id: "rashi-yoma-055a-015",
@@ -125960,11 +125989,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 15,
         he: "לא פירש בו כמה הזאות וילפינן ליה",
-        en: "So Scripture explicitly states both for the bull and the goat.",
+        en: "the verse did not specify how many sprinklings, and we derive it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l04"
+        ]
       },
       {
         id: "rashi-yoma-055a-016",
@@ -125972,11 +126003,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 16,
         he: "לקמן ממטה דפר דכתיב ביה ולפני",
-        en: "The verse is written for the bull but derived also for the goat.",
+        en: "below from the bull's below-sprinkling, regarding which it is written, 'and before'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l04"
+        ]
       },
       {
         id: "rashi-yoma-055a-017",
@@ -125984,11 +126017,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 17,
         he: "הכפורת יזה שבע פעמים וכיון דסוף",
-        en: "Seven times for the bull below - and the goat by analogy.",
+        en: "'the kapporet he shall sprinkle seven times' - and since in the end",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l04"
+        ]
       },
       {
         id: "rashi-yoma-055a-018",
@@ -125996,11 +126031,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 18,
         he: "סוף גמר מיניה לישתוק קרא מיניה",
-        en: "The formula: one above, seven below - both explicit for bull; both derived for goat.",
+        en: "it is derived from there, let the verse be silent about it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l04"
+        ]
       },
       {
         id: "rashi-yoma-055a-019",
@@ -126008,11 +126045,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 19,
         he: "וליגמרה לכולה מילתא דמטה דשעיר",
-        en: "He counted: One; one and one; one and two... up to one and seven.",
+        en: "and let the whole matter of the goat's below-sprinkling be derived",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l04"
+        ]
       },
       {
         id: "rashi-yoma-055a-020",
@@ -126020,11 +126059,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 20,
         he: "ממטה דפר דאיתקוש להדדי דכתיב",
-        en: "The compound count keeps the upper sprinkle perpetually in mind.",
+        en: "from the bull's below-sprinkling, since they are juxtaposed, as it is written,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l04"
+        ]
       },
       {
         id: "rashi-yoma-055a-021",
@@ -126032,11 +126073,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 21,
         he: "ועשה את דמו כאשר עשה לדם הפר",
-        en: "He cannot forget the first sprinkle since it is included in every subsequent count.",
+        en: "'and he shall do with its blood as he did with the blood of the bull.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l04"
+        ]
       },
       {
         id: "rashi-yoma-055a-022",
@@ -126044,11 +126087,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 22,
         he: "דבשלמא למעלה דידיה איצטריך",
-        en: "This is the entire formula: each count acknowledges the first upward sprinkle.",
+        en: "Granted, its above-sprinkling was necessary to state explicitly,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l04"
+        ]
       },
       {
         id: "rashi-yoma-055a-023",
@@ -126056,11 +126101,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 23,
         he: "דמפורש בו אחת דכתיב והזה אותו",
-        en: "The formula ensures accuracy even under the stress of the holiest service.",
+        en: "since one sprinkling is specified there, as it is written, 'he shall sprinkle it'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l04"
+        ]
       },
       {
         id: "rashi-yoma-055a-024",
@@ -126068,11 +126115,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 24,
         he: "על הכפורת ואותו חדא משמע ובמעלה",
-        en: "If he reversed - sprinkled the seven first and then the one above.",
+        en: "'on the kapporet,' and 'it' implies one - but regarding the bull's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l04"
+        ]
       },
       {
         id: "rashi-yoma-055a-025",
@@ -126080,11 +126129,14 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 25,
         he: "דפר לא פירש אחת: למה נאמר.",
-        en: "Valid after the fact; the upward sprinkle is valid whenever performed.",
+        en: "above-sprinkling, one was not specified. 'Why then is it stated' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l04",
+          "yoma-055a-l08"
+        ]
       },
       {
         id: "rashi-yoma-055a-026",
@@ -126092,11 +126144,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 26,
         he: "למטה דשעיר לאקושי ליה מעלה",
-        en: "Even if all seven came first and then one above - the service stands.",
+        en: "the below-sprinkling for the goat, in order to juxtapose it with the goat's own",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l08"
+        ]
       },
       {
         id: "rashi-yoma-055a-027",
@@ -126104,11 +126158,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 27,
         he: "דשעיר ולומר על הכפורת כלפני",
-        en: "He counts aloud as he sprinkles to avoid losing track.",
+        en: "above-sprinkling, and to teach that 'on the kapporet' means like 'before",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l08"
+        ]
       },
       {
         id: "rashi-yoma-055a-028",
@@ -126116,11 +126172,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 28,
         he: "הכפורת מה לפני דלאו ממש נוגע",
-        en: "One and two - he continues counting with the upward sprinkle embedded in the count.",
+        en: "the kapporet': just as 'before' does not mean actual contact",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l08"
+        ]
       },
       {
         id: "rashi-yoma-055a-029",
@@ -126128,11 +126186,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 29,
         he: "בכפורת דהא לפני על הארץ משמע",
-        en: "One and three, one and four - continuing through all seven lower sprinkles.",
+        en: "with the kapporet, since 'before' implies onto the ground,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l08"
+        ]
       },
       {
         id: "rashi-yoma-055a-030",
@@ -126140,11 +126200,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 30,
         he: "אע\"ג דלא ממש נוגע בכפורת אלא",
-        en: "If he finished and does not know how many he sprinkled.",
+        en: "even though it does not actually touch the kapporet, but rather",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l08"
+        ]
       },
       {
         id: "rashi-yoma-055a-031",
@@ -126152,11 +126214,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 31,
         he: "לענין שיהא מצדד ידו למטה:",
-        en: "He returns and sprinkles until he completes seven with certainty.",
+        en: "means only that he tilts his hand downward.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l08"
+        ]
       },
       {
         id: "rashi-yoma-055a-032",
@@ -126164,11 +126228,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 32,
         he: "אדרבה לא יאמר למעלה בפר דלא",
-        en: "He does not start over from one; he continues from where he is sure.",
+        en: "'On the contrary, it should not need to say above regarding the bull, since it is'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l09"
+        ]
       },
       {
         id: "rashi-yoma-055a-033",
@@ -126176,11 +126242,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 33,
         he: "צריך. דסוף סוף גמר לקמן ממעלה",
-        en: "The rule prevents both over-sprinkling and under-sprinkling.",
+        en: "unnecessary - for in the end it is derived below from the goat's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l09"
+        ]
       },
       {
         id: "rashi-yoma-055a-034",
@@ -126188,11 +126256,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 34,
         he: "דשעיר שפירש בו אחת: למה נאמר",
-        en: "If blood splattered on his garments during the service.",
+        en: "above-sprinkling, where one sprinkling is specified. 'Why then is it stated?'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l09"
+        ]
       },
       {
         id: "rashi-yoma-055a-035",
@@ -126200,11 +126270,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 35,
         he: "לאקושי. לפני דפר לעל דפר",
-        en: "The garment question is separate from the blood service validity.",
+        en: "'To juxtapose' - the bull's 'before' to the bull's own 'on,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l09"
+        ]
       },
       {
         id: "rashi-yoma-055a-036",
@@ -126212,11 +126284,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 36,
         he: "שהמופנה בא ללמד: מה על על",
-        en: "Blood remaining in the bowl does not require a return to replenish.",
+        en: "since the term left free comes to teach. 'Just as 'on''",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l09"
+        ]
       },
       {
         id: "rashi-yoma-055a-037",
@@ -126224,11 +126298,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 37,
         he: "ממש. דהא על פני הכפורת כתיב",
-        en: "The Mishnah: after sprinkling inside for the bull, the HP exits.",
+        en: "'means actual contact' - since it is written 'on the face of the kapporet,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l09"
+        ]
       },
       {
         id: "rashi-yoma-055a-038",
@@ -126236,11 +126312,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 38,
         he: "אף לפני על ממש שיהו דמים",
-        en: "He places the bull's bowl on the stand and takes the goat's blood.",
+        en: "so too 'before' means actual contact, such that the blood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l09"
+        ]
       },
       {
         id: "rashi-yoma-055a-039",
@@ -126248,11 +126326,14 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 39,
         he: "נוגעים בעביה של כפורת: אי אמרת",
-        en: "He re-enters the Holy of Holies with the goat's blood.",
+        en: "touches the thickness of the kapporet. 'Granted, if you say'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l09",
+          "yoma-055a-l12"
+        ]
       },
       {
         id: "rashi-yoma-055a-040",
@@ -126260,11 +126341,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 40,
         he: "בשלמא למטה דשעיר לאקושי.",
-        en: "And sprinkles once above and seven below, identical to the bull's service.",
+        en: "'that the goat's below-sprinkling comes to juxtapose it'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l12"
+        ]
       },
       {
         id: "rashi-yoma-055a-041",
@@ -126272,11 +126355,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 41,
         he: "כדאמרן למעלה דפר דקשיא לך לא",
-        en: "Same technique, same count, same formula for the goat.",
+        en: "with the bull's above-sprinkling as we said, which troubled you as unnecessary,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l12"
+        ]
       },
       {
         id: "rashi-yoma-055a-042",
@@ -126284,11 +126369,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 42,
         he: "יאמר מיבעי ליה לכדתניא וכו':",
-        en: "The stands in the Heichal: the bull's bowl rests while the HP works with the goat's.",
+        en: "it is needed for the teaching in the baraita, etc.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l12"
+        ]
       },
       {
         id: "rashi-yoma-055a-043",
@@ -126296,11 +126383,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 43,
         he: "למדנו למעלה בשעיר אחת. דאותו",
-        en: "He does not spill or discard the bull's blood - it is set aside carefully.",
+        en: "'We learned that the goat's above-sprinkling is one' - since 'it'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l23"
+        ]
       },
       {
         id: "rashi-yoma-055a-044",
@@ -126308,11 +126397,14 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 44,
         he: "חדא משמע: שאין תלמוד לומר וכו'.",
-        en: "The bloods are kept separate until after the inner service is complete.",
+        en: "implies a single one. 'For Scripture need not have said, etc.' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l23",
+          "yoma-055a-l25"
+        ]
       },
       {
         id: "rashi-yoma-055a-045",
@@ -126320,11 +126412,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 45,
         he: "שהרי אף כאן פורש והזה ועל ולפני:",
-        en: "The bowls remain distinct throughout the inner service.",
+        en: "since here too it spells out both 'he shall sprinkle,' 'on,' and 'before.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l25"
+        ]
       },
       {
         id: "rashi-yoma-055a-046",
@@ -126332,11 +126426,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 46,
         he: "מר כי אתריה וכו'. באתריה דרבי",
-        en: "The HP exits after the goat's sprinkling.",
+        en: "'Each master follows his own locale, etc.' - in R. Meir's locale",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l41a"
+        ]
       },
       {
         id: "rashi-yoma-055a-047",
@@ -126344,11 +126440,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 47,
         he: "מאיר מונין מנין כלל תחילה ואחר",
-        en: "He does not linger inside the Holy of Holies.",
+        en: "they count the general number first and then",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l41a"
+        ]
       },
       {
         id: "rashi-yoma-055a-048",
@@ -126356,11 +126454,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 48,
         he: "כך פרט כגון עשרים ואחת עשרים",
-        en: "The exit is immediate after completing the goat's blood service.",
+        en: "the specific, for example 'twenty-one, twenty-",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l41a"
+        ]
       },
       {
         id: "rashi-yoma-055a-049",
@@ -126368,11 +126468,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 49,
         he: "ושתים ובאתריה דרבי יהודה פרט",
-        en: "Inside time is sacred and should not be extended unnecessarily.",
+        en: "two'; and in R. Yehuda's locale they state the specific",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l41a"
+        ]
       },
       {
         id: "rashi-yoma-055a-050",
@@ -126380,11 +126482,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 50,
         he: "תחילה שתים ועשרים שלש ועשרים:",
-        en: "He takes the combined blood out with him.",
+        en: "first, 'two and twenty, three and twenty.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l41a"
+        ]
       },
       {
         id: "rashi-yoma-055a-051",
@@ -126392,11 +126496,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 51,
         he: "שלא יטעה. שיהא לו שהות בנתיים",
-        en: "He places the bull's blood bowl on the second stand in the Heichal.",
+        en: "'So that he not err' - so that he has an interval in between",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l41b"
+        ]
       },
       {
         id: "rashi-yoma-055a-052",
@@ -126404,11 +126510,14 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 52,
         he: "לתת לבו למנין שלא יטעה: לימד",
-        en: "The mizrak rests on the gold stand while the HP proceeds.",
+        en: "to focus his attention on the count, so that he not err. 'It taught'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l41b",
+          "yoma-055a-l43"
+        ]
       },
       {
         id: "rashi-yoma-055a-053",
@@ -126416,11 +126525,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 53,
         he: "על הזאה וכו'. וכתיבא חוקה",
-        en: "Then he takes the goat blood for the next phase.",
+        en: "regarding the first sprinkling, etc. - and it is written as a chok (statute),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l43"
+        ]
       },
       {
         id: "rashi-yoma-055a-054",
@@ -126428,11 +126539,14 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 54,
         he: "לעיכובא: לא היו שופרות לקיני",
-        en: "After the inner services: the parochet and golden altar await.",
+        en: "indicating that it is indispensable. 'There were no shofar-boxes for obligatory bird-offerings' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l43",
+          "yoma-055a-l45b"
+        ]
       },
       {
         id: "rashi-yoma-055a-055",
@@ -126440,11 +126554,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 55,
         he: "חובה. שופר לתת לתוכו מעות מי",
-        en: "The inner service is the core; everything else radiates outward from it.",
+        en: "a shofar-box in which to place coins for one who owes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l45b"
+        ]
       },
       {
         id: "rashi-yoma-055a-056",
@@ -126452,11 +126568,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 56,
         he: "שעליו קן חובה של זב וזבה ויולדת או",
-        en: "The second stand is in the doorway between the ulam and heichal.",
+        en: "an obligatory bird-offering (a zav, a zavah, a woman after childbirth, or one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l45b"
+        ]
       },
       {
         id: "rashi-yoma-055a-057",
@@ -126464,11 +126582,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 57,
         he: "מטמא מקדש כשם שהיו שופרות לקן",
-        en: "The HP moves from the innermost outward step by step.",
+        en: "who defiled the Temple), just as there were shofar-boxes for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l45b"
+        ]
       },
       {
         id: "rashi-yoma-055a-058",
@@ -126476,11 +126596,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 58,
         he: "נדבה כדתניא לקמן בשמעתין והכהנים",
-        en: "Each zone receives its own service with its own blood.",
+        en: "voluntary offerings, as is taught below in this same passage, and the priests",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l45b"
+        ]
       },
       {
         id: "rashi-yoma-055a-059",
@@ -126488,11 +126610,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 59,
         he: "לוקחין במעות קינין ומקריבין אותן:",
-        en: "The systematic outward movement mirrors the structure of sacred space.",
+        en: "would take the coins and offer the birds.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l45b"
+        ]
       },
       {
         id: "rashi-yoma-055a-060",
@@ -126500,11 +126624,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 60,
         he: "מפני תערובת חובה בנדבה. שמא",
-        en: "From the most sacred (kapporet) to the less sacred, blood purifies each zone.",
+        en: "'Because of the mixing of obligatory with voluntary offerings' - lest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l47"
+        ]
       },
       {
         id: "rashi-yoma-055a-061",
@@ -126512,11 +126638,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 61,
         he: "יתחלף שופר בשופר ויקריב ממעות",
-        en: "After all inner sprinklings, the golden altar service awaits.",
+        en: "one shofar-box be mistaken for another, and he offer from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l47"
+        ]
       },
       {
         id: "rashi-yoma-055a-062",
@@ -126524,11 +126652,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 62,
         he: "שופר החובה נדבה או משל נדבה חובה ותיפסל שהחובה אחת לחטאת ואחת לעולה והנדבה כולן עולות ואין מעשה עולה ומעשה חטאת שוין:",
-        en: "The remaining blood will be poured at the altar base.",
+        en: "the obligatory box's coins as a voluntary offering, or from the voluntary box's coins as an obligatory one, and it become invalid, since the obligatory offering is one sin-offering and one burnt-offering, while the voluntary offerings are all burnt-offerings, and the procedure for a burnt-offering and a sin-offering are not the same.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l47"
+        ]
       },
       {
         id: "rashi-yoma-055a-063",
@@ -126536,11 +126666,13 @@ const DAF_CONTENT = {
         daf: "55a",
         vilnaLine: 63,
         he: "לית",
-        en: "This completes the blood circuit of the Holy of Holies and inner Heichal.",
+        en: "'There is not' - the daf ends mid-word here; the comment continues on 55b with Rabbi Yehuda's own position, that documentary labeling on the shofar-boxes is not a reliable safeguard against mixing up the coins.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055a-l47"
+        ]
       }
     ],
     review: "reviewed"

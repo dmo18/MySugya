@@ -1,928 +1,1060 @@
 {
-  "canonicalRef": "Yoma 55a",
-  "summary": "The HP performs the blood sprinkling service on the kapporet inside the Holy of Holies. Key topics: the physical technique (tilting the hand like a whip, blood aimed toward the kapporet's thickness rather than its surface), the counting formula ('one; one and one; one and two...' up to one and seven) designed to prevent any error during this most critical service, and the biblical derivation showing why Scripture explicitly states both bull and goat counts rather than relying on analogy (analogy is insufficient when kareth penalties are at stake). The HP then exits, swaps bowls, and re-enters for the identical goat's blood service.",
-  "sugyot": [
+ "canonicalRef": "Yoma 55a",
+ "summary": "The HP performs the blood sprinkling service on the kapporet inside the Holy of Holies. Key topics: the physical technique (tilting the hand like a whip, blood aimed toward the kapporet's thickness rather than its surface), the counting formula ('one; one and one; one and two...' up to one and seven) designed to prevent any error during this most critical service, and the biblical derivation showing why Scripture explicitly states both bull and goat counts rather than relying on analogy (analogy is insufficient when kareth penalties are at stake). The HP then exits, swaps bowls, and re-enters for the identical goat's blood service.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-055a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 12
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-055a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 12
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.55a.1"
-        },
-        {
-          "vilnaLine": 4,
-          "sefariaRef": "Yoma.55a.2"
-        },
-        {
-          "vilnaLine": 8,
-          "sefariaRef": "Yoma.55a.3"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.55a.4"
-        },
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.55a.5"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.55a.1",
-        "Yoma.55a.2",
-        "Yoma.55a.3",
-        "Yoma.55a.4",
-        "Yoma.55a.5"
-      ],
-      "display": {
-        "whats": "Sprinkling technique: not on the kapporet surface but toward its thickness; hand tilts like a whip",
-        "hint": "The HP does not sprinkle directly on top of the kapporet but alongside its edge. For the upward sprinkle he tilts his hand one way; for the seven downward he tilts the other - the Gemara compares it to lashing with a whip.",
-        "title": "Sprinkling Toward the Side of the Kapporet"
-      },
-      "learning": {
-        "ahaMoment": "The physical technique of sprinkling encodes spiritual precision - the blood must fly true without landing on the most sacred surface.",
-        "memoryAnchor": "Whip arc: tilt one way for up, the other for down - the hand itself knows where the blood must go.",
-        "learnerQuestion": "Where exactly does the High Priest aim when sprinkling blood before the kapporet - at the flat top surface, at the side, or forward in front of it?",
-        "coreTension": "The Torah says to sprinkle 'before' the kapporet; the precise target surface or direction - top, side, or forward toward it - must be established, as each implies different physical execution of the rite.",
-        "coreMove": "The Talmud establishes that the HP sprinkles toward the side (face) of the kapporet, not downward onto its flat top surface; the motion is a forward-and-upward flick toward the kapporet's vertical side.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The High Priest sprinkles toward the side (face) of the kapporet, directing the blood forward toward its vertical surface, not downward onto its flat top."
-        },
-        "learningBlocker": "Students imagining the physical act of sprinkling may default to thinking of it as a downward sprinkle onto the top surface of the kapporet, like sprinkling water onto a table."
-      },
-      "argumentFlow": [
-        {
-          "type": "teaching",
-          "speaker": "Baraita",
-          "text": "He sprinkles toward the kapporet's thickness, not its surface; blood does not touch it.",
-          "id": "yoma-055a-l01",
-          "label": "Teaching: He sprinkles toward the kapporet's thickness, not",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-055a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "technique",
-          "speaker": "Baraita",
-          "text": "Upward sprinkle: tilt back of hand down. Downward sprinkles: tilt hand up. Like lashing with a whip.",
-          "id": "yoma-055a-l04",
-          "label": "Technique: Upward sprinkle: tilt back of hand down.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-055a-l04",
-              "vilnaLine": 4
-            }
-          ]
-        },
-        {
-          "type": "derivation",
-          "speaker": "Gemara",
-          "text": "Source: 'on the kapporet' = once above; 'before the kapporet' = seven below.",
-          "id": "yoma-055a-l08",
-          "label": "Derivation: Source: 'on the kapporet' = once above;",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-055a-l08",
-              "vilnaLine": 8
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "sprinkling technique",
-        "kapporet",
-        "hand position",
-        "blood service"
-      ],
-      "concepts": {
-        "halachic": [
-          "kapporet sprinkling technique",
-          "hand tilt for up vs. down"
-        ],
-        "theological": [
-          "precision approaching the most sacred object",
-          "body as instrument of atonement"
-        ],
-        "narrative": [
-          "Yom Kippur atonement",
-          "Temple service precision"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Understanding the kapporet's placement inside the Holy of Holies",
-        "Familiarity with the bull's blood service as the first inner service"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The HP sprinkles the blood downward onto the flat top surface of the kapporet.",
-          "correction": "The HP sprinkles toward the side (face) of the kapporet, with an upward and forward motion directed at the kapporet's vertical face, not a downward motion onto its top."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "person",
-          "name": "HP with tilted wrist sprinkling"
-        },
-        {
-          "type": "object",
-          "name": "kapporet"
-        },
-        {
-          "type": "action",
-          "name": "whip-arc sprinkling motion"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "For upward: tilts back of hand downward, sprinkles toward above. For the seven downward: tilts hand upward and sprinkles facing himself. Like lashing with a whip.",
-          "question": "How does the HP's hand position differ for the upward vs. downward sprinkles?"
-        }
-      ],
-      "finalRuling": "The HP tilts his hand in opposite directions for upward vs. downward sprinkles, directing blood toward the kapporet's thickness without touching its surface.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.55a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-055a-s02",
-      "lineRange": {
-        "startVilnaLine": 19,
-        "endVilnaLine": 33
-      },
-      "lines": [
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.55a.6"
-        },
-        {
-          "vilnaLine": 21,
-          "sefariaRef": "Yoma.55a.7"
-        },
-        {
-          "vilnaLine": 23,
-          "sefariaRef": "Yoma.55a.8"
-        },
-        {
-          "vilnaLine": 25,
-          "sefariaRef": "Yoma.55a.9"
-        },
-        {
-          "vilnaLine": 28,
-          "sefariaRef": "Yoma.55a.10"
-        },
-        {
-          "vilnaLine": 31,
-          "sefariaRef": "Yoma.55a.11"
-        },
-        {
-          "vilnaLine": 33,
-          "sefariaRef": "Yoma.55a.12"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.55a.6",
-        "Yoma.55a.7",
-        "Yoma.55a.8",
-        "Yoma.55a.9",
-        "Yoma.55a.10",
-        "Yoma.55a.11",
-        "Yoma.55a.12"
-      ],
-      "display": {
-        "whats": "Counting formula 'one; one and one; one and two...' keeps the upward sprinkle in every count",
-        "hint": "The HP counts each downward sprinkle while maintaining the first (upward) sprinkle in the count: 'one and one, one and two...' so he can never forget the upward sprinkle or lose his place in the sequence.",
-        "title": "Counting Formula as Error-Prevention System"
-      },
-      "learning": {
-        "ahaMoment": "The formula is a self-monitoring system: every count carries the first sprinkle within it, making omission or repetition impossible as long as he counts correctly.",
-        "memoryAnchor": "The 'one and...' formula: you can't forget what you never stop counting.",
-        "learnerQuestion": "Why does the Mishnah prescribe a precise verbal counting formula (achat, achat v'achat, achat u'shtayim...) for the blood sprinklings, rather than simply counting silently?",
-        "coreTension": "Counting is a simple task; an elaborate verbal formula seems excessive. But in a high-stress setting where any miscounting could invalidate the service and require repetition, the counting method must be error-proof.",
-        "coreMove": "The Talmud explains that the verbal counting formula is specifically designed to prevent losing count: by always including the running total in each call, the HP maintains a cumulative count that makes miscounting nearly impossible even under extreme stress.",
-        "takeaway": {
-          "type": "logical_principle",
-          "text": "The verbal counting formula for kapporet sprinklings is an error-prevention system: each count includes the running total so that even under stress or distraction, the HP cannot lose his place in the sequence."
-        },
-        "learningBlocker": "Students see the counting formula as a liturgical formality rather than as a practical error-prevention mechanism designed for a high-stakes, high-stress ritual context."
-      },
-      "argumentFlow": [
-        {
-          "type": "tradition",
-          "speaker": "Tannaitic",
-          "text": "The HP counts: One; one and one; one and two; up to one and seven.",
-          "id": "yoma-055a-l19",
-          "label": "Tradition: The HP counts: One; one and one;",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-055a-l19",
-              "vilnaLine": 19
-            }
-          ]
-        },
-        {
-          "type": "question",
-          "speaker": "Gemara",
-          "text": "Why the compound formula? Why not simply count one through seven for the lower sprinkles?",
-          "id": "yoma-055a-l21",
-          "label": "Question: Why the compound formula? Why not simply",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-055a-l21",
-              "vilnaLine": 21
-            }
-          ]
-        },
-        {
-          "type": "answer",
-          "speaker": "Gemara",
-          "text": "The compound formula perpetually acknowledges the first upward sprinkle, preventing any confusion.",
-          "id": "yoma-055a-l25",
-          "label": "Answer: The compound formula perpetually acknowledges the first",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-055a-l25",
-              "vilnaLine": 25
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Gemara",
-          "text": "If he lost count, he continues from the last number he is certain of, not from the beginning.",
-          "id": "yoma-055a-l31",
-          "label": "Ruling: If he lost count, he continues from",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-055a-l31",
-              "vilnaLine": 31
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "counting formula",
-        "seven sprinkles",
-        "error prevention",
-        "sprinkling count"
-      ],
-      "concepts": {
-        "halachic": [
-          "sprinkling count formula",
-          "self-monitoring in Temple service"
-        ],
-        "theological": [
-          "ritual as structured memory",
-          "error correction built into liturgical form"
-        ],
-        "narrative": [
-          "mnemonic counting",
-          "Temple service precision"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Understanding why the upward sprinkle is counted separately from the seven below",
-        "Knowing what happens if the HP loses count during the service"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The elaborate counting formula (achat, achat v'achat...) is a liturgical convention with no functional purpose; simple silent counting would work just as well.",
-          "correction": "The formula is specifically designed as an error-prevention system: each count embeds the running total, making it nearly impossible to lose count even in the intense stress of the Yom Kippur service."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "name": "HP counting aloud during sprinkling"
-        },
-        {
-          "type": "sequence",
-          "name": "one then one-and-one through one-and-seven"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "The compound formula keeps the initial upward sprinkle embedded in every subsequent count, preventing the HP from ever forgetting it or losing his place.",
-          "question": "Why does the HP count 'one and one, one and two' instead of simply 'one, two, three...'?"
-        }
-      ],
-      "finalRuling": "The 'one and one, one and two...' formula embeds the upward sprinkle in every subsequent count, making it impossible to forget.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 4,
+     "sefariaRef": "Yoma.55a.2"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-055a-s03",
-      "lineRange": {
-        "startVilnaLine": 37,
-        "endVilnaLine": 45
-      },
-      "lines": [
-        {
-          "vilnaLine": 37,
-          "sefariaRef": "Yoma.55a.13"
-        },
-        {
-          "vilnaLine": 41,
-          "sefariaRef": "Yoma.55a.14"
-        },
-        {
-          "vilnaLine": 41,
-          "sefariaRef": "Yoma.55a.15"
-        },
-        {
-          "vilnaLine": 43,
-          "sefariaRef": "Yoma.55a.16"
-        },
-        {
-          "vilnaLine": 45,
-          "sefariaRef": "Yoma.55a.17"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.55a.13",
-        "Yoma.55a.14",
-        "Yoma.55a.15",
-        "Yoma.55a.16",
-        "Yoma.55a.17"
-      ],
-      "display": {
-        "whats": "Biblical derivation of the sprinkling count for bull and goat; why Scripture states both explicitly",
-        "hint": "The Gemara derives why Scripture needed to spell out both bull and goat counts rather than letting one derive from the other by analogy, and establishes the principle that analogy is insufficient to impose kareth penalties.",
-        "title": "Goat's Lower Sprinklings Derived from Its Own Verse"
-      },
-      "learning": {
-        "ahaMoment": "Scripture is more explicit than logic requires because when kareth is at stake, analogy alone is not enough - lives and atonement cannot rest on implication.",
-        "memoryAnchor": "When kareth is at stake, Scripture speaks directly: no inference is safe enough for Yom Kippur.",
-        "learnerQuestion": "Is the number of lower sprinklings for the goat's blood service derived purely by analogy with the bull, or does the Torah provide an independent textual basis for the goat's count?",
-        "coreTension": "Using analogy alone to derive ritual details can be questioned; if the goat's lower sprinkling count were only inferred from the bull, it could theoretically be rejected by those who do not accept the analogy.",
-        "coreMove": "The Talmud establishes that the goat's lower sprinkling count has independent derivation from its own verse, not only from analogy with the bull; the verse language for the goat parallels that for the bull, providing an independent textual anchor.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "The seven lower sprinklings for the goat blood service in the Holy of Holies are derived from the goat's own verse, not merely by analogy with the bull; both blood services have independent textual grounding for their counts."
-        },
-        "learningBlocker": "Students may assume the goat's service is only a copy of the bull's service, derived entirely by analogy; they miss that each has its own independent textual derivation."
-      },
-      "argumentFlow": [
-        {
-          "type": "question",
-          "speaker": "Gemara",
-          "text": "If the goat's lower count can be derived by analogy from the bull, why does Scripture state it explicitly?",
-          "id": "yoma-055a-l37",
-          "label": "Question: If the goat's lower count can be",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-055a-l37",
-              "vilnaLine": 37
-            }
-          ]
-        },
-        {
-          "type": "principle",
-          "speaker": "Gemara",
-          "text": "Analogy is insufficient to impose kareth penalties - Scripture must be explicit.",
-          "id": "yoma-055a-l41a",
-          "label": "Principle: Analogy is insufficient to impose kareth penalties",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-055a-l41a",
-              "vilnaLine": 2
-            }
-          ]
-        },
-        {
-          "type": "resolution",
-          "speaker": "Gemara",
-          "text": "Each explicit statement serves a distinct purpose; neither is redundant.",
-          "id": "yoma-055a-l43",
-          "label": "Resolution: Each explicit statement serves a distinct purpose;",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-055a-l43",
-              "vilnaLine": 43
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "biblical derivation",
-        "kareth",
-        "analogy insufficient",
-        "sprinkling count",
-        "bull and goat"
-      ],
-      "concepts": {
-        "halachic": [
-          "limits of analogy in halachic derivation",
-          "kareth requires explicit verse"
-        ],
-        "theological": [
-          "divine law's precision in matters of spiritual life and death"
-        ],
-        "narrative": [
-          "hermeneutics",
-          "scriptural redundancy as purposeful"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Understanding what kareth means",
-        "Knowing the principle that analogies cannot impose penalties"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The goat's seven lower sprinklings are purely an extension by analogy from the bull - there is no independent verse for the goat's count.",
-          "correction": "The goat's seven lower sprinklings are derived from the goat's own verse, not only by analogy; both blood services have independent textual bases for their respective sprinkling counts."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "text",
-          "name": "Leviticus 16 verses on kapporet sprinkling"
-        },
-        {
-          "type": "contrast",
-          "name": "explicit statement vs. analogy"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Because derivation by analogy is insufficient to impose kareth penalties. Scripture must explicitly state the requirement when violation carries such severe consequences.",
-          "question": "Why does Scripture explicitly state the sprinkling count for the goat's blood if it could be derived from the bull by analogy?"
-        }
-      ],
-      "finalRuling": "Scripture explicitly states the sprinkling count for both bull and goat because analogy alone cannot impose kareth penalties.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 8,
+     "sefariaRef": "Yoma.55a.3"
     },
     {
-      "sugyaNumber": 4,
-      "id": "yoma-055a-s04",
-      "lineRange": {
-        "startVilnaLine": 45,
-        "endVilnaLine": 47
-      },
-      "lines": [
-        {
-          "vilnaLine": 45,
-          "sefariaRef": "Yoma.55a.18"
-        },
-        {
-          "vilnaLine": 47,
-          "sefariaRef": "Yoma.55a.19"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.55a.18",
-        "Yoma.55a.19"
-      ],
-      "display": {
-        "whats": "HP exits, places bull's bowl, takes goat's blood, and re-enters for the second inner sprinkling",
-        "hint": "After the bull's blood service, the HP exits the Holy of Holies, places the bull's bowl on the stand, takes the goat's blood bowl, re-enters, and performs the identical one-above-seven-below formula.",
-        "title": "High Priest Enters the Holy of Holies More Than Twice"
-      },
-      "learning": {
-        "ahaMoment": "Two entries to the innermost: one for the priesthood's representative (bull), one for the entire nation (goat). The HP serves as messenger for both.",
-        "memoryAnchor": "Exit, swap, re-enter: two bloods, two services, one agent, one formula.",
-        "learnerQuestion": "How many separate times does the High Priest enter the Holy of Holies on Yom Kippur, and why is it more than the simple bull-and-goat count might suggest?",
-        "coreTension": "There are two blood services (bull and goat) inside the Holy of Holies, suggesting two entries; but the incense service is also performed inside, adding at least one more entry. The exact total matters for understanding the full ritual sequence.",
-        "coreMove": "The Talmud establishes that the HP enters the Holy of Holies more than twice: once for the incense service, then again for the bull blood, and again for the goat blood - resulting in at least three separate entries.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The High Priest enters the Holy of Holies more than twice on Yom Kippur: separate entries are required for the incense service, the bull blood, and the goat blood, totaling at least three distinct entries."
-        },
-        "learningBlocker": "Students count only the two blood services and assume two entries; the incense service is a distinct entry that they overlook when tallying the HP's movements."
-      },
-      "argumentFlow": [
-        {
-          "type": "action",
-          "speaker": "Mishnah",
-          "text": "HP exits, places bull's bowl on the stand in the Heichal.",
-          "id": "yoma-055a-l45a",
-          "label": "Action: HP exits, places bull's bowl on the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-055a-l45a",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "action",
-          "speaker": "Mishnah",
-          "text": "Takes goat's blood, re-enters Holy of Holies, sprinkles once above and seven below.",
-          "id": "yoma-055a-l45b",
-          "label": "Action: Takes goat's blood, re-enters Holy of Holies,",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-055a-l45b",
-              "vilnaLine": 2
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "second entry",
-        "goat blood",
-        "transition between services",
-        "HP re-enters"
-      ],
-      "concepts": {
-        "halachic": [
-          "goat's blood inner service",
-          "two-entry structure of Holy of Holies service"
-        ],
-        "theological": [
-          "separate representation for priests and nation",
-          "two-phase inner atonement"
-        ],
-        "narrative": [
-          "Yom Kippur service sequence",
-          "Holy of Holies entries"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing the bull's blood atones for priests while goat's blood atones for Israel",
-        "Knowing the HP enters the Holy of Holies only on Yom Kippur"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The HP enters the Holy of Holies exactly twice on Yom Kippur - once for the bull blood and once for the goat blood.",
-          "correction": "The HP enters at least three times: once for the incense service, once for the bull blood, and once for the goat blood; the incense and blood services require separate distinct entries."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "person",
-          "name": "HP exiting and re-entering the Holy of Holies"
-        },
-        {
-          "type": "object",
-          "name": "gold stand holding the bull's blood bowl"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "He exits, places the bull's bowl on a gold stand, takes the goat's blood bowl, and re-enters the Holy of Holies for the identical sprinkling sequence.",
-          "question": "What does the HP do between the bull's and goat's blood sprinklings inside the Holy of Holies?"
-        }
-      ],
-      "finalRuling": "The HP exits between services, swaps bowls at the gold stand, and re-enters for the goat's blood service - an exact parallel to the bull's service.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.55a.4"
+    },
+    {
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.55a.5"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.55a.1",
+    "Yoma.55a.2",
+    "Yoma.55a.3",
+    "Yoma.55a.4",
+    "Yoma.55a.5"
+   ],
+   "display": {
+    "whats": "Sprinkling technique: not on the kapporet surface but toward its thickness; hand tilts like a whip",
+    "hint": "The HP does not sprinkle directly on top of the kapporet but alongside its edge. For the upward sprinkle he tilts his hand one way; for the seven downward he tilts the other - the Gemara compares it to lashing with a whip.",
+    "title": "Sprinkling Toward the Side of the Kapporet"
+   },
+   "learning": {
+    "ahaMoment": "The physical technique of sprinkling encodes spiritual precision - the blood must fly true without landing on the most sacred surface.",
+    "memoryAnchor": "Whip arc: tilt one way for up, the other for down - the hand itself knows where the blood must go.",
+    "learnerQuestion": "Where exactly does the High Priest aim when sprinkling blood before the kapporet - at the flat top surface, at the side, or forward in front of it?",
+    "coreTension": "The Torah says to sprinkle 'before' the kapporet; the precise target surface or direction - top, side, or forward toward it - must be established, as each implies different physical execution of the rite.",
+    "coreMove": "The Talmud establishes that the HP sprinkles toward the side (face) of the kapporet, not downward onto its flat top surface; the motion is a forward-and-upward flick toward the kapporet's vertical side.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The High Priest sprinkles toward the side (face) of the kapporet, directing the blood forward toward its vertical surface, not downward onto its flat top."
+    },
+    "learningBlocker": "Students imagining the physical act of sprinkling may default to thinking of it as a downward sprinkle onto the top surface of the kapporet, like sprinkling water onto a table."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "Like lashing with a whip - begins at the shoulders and strikes downward.",
-      "linkedGemaraLineIds": []
+     "type": "teaching",
+     "speaker": "Baraita",
+     "text": "He sprinkles toward the kapporet's thickness, not its surface; blood does not touch it.",
+     "id": "yoma-055a-l01",
+     "label": "Teaching: He sprinkles toward the kapporet's thickness, not",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-055a-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "He does not sprinkle on top of the kapporet but toward its thickness; blood does not touch it.",
-      "linkedGemaraLineIds": []
+     "type": "technique",
+     "speaker": "Baraita",
+     "text": "Upward sprinkle: tilt back of hand down. Downward sprinkles: tilt hand up. Like lashing with a whip.",
+     "id": "yoma-055a-l04",
+     "label": "Technique: Upward sprinkle: tilt back of hand down.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-055a-l04",
+       "vilnaLine": 4
+      }
+     ]
     },
     {
-      "vilnaLine": 3,
-      "en": "When sprinkling upward: tilts the back of his hand downward and sprinkles toward above.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 4,
-      "en": "When sprinkling the seven below: tilts his hand upward and sprinkles facing himself.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "en": "One high and one low from it, and they all fall to the ground.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "en": "From where are these rulings derived? Those two sprinkles - one above from bull, one above from goat,",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "en": "on the actual top of the kapporet.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "en": "Both the bull and goat upper sprinkles land on the kapporet's top.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "en": "The verse teaches: 'on the kapporet' - once above; 'before the kapporet' - seven below.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "en": "It shall not say 'below for the goat' - the verse for the goat need not state the lower sprinkles",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "en": "since 'before the kapporet' already means below and is written for the bull.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "en": "And the goat's lower sprinkles are derived by analogy from the bull.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Scripture spelled it out anyway to prevent us relying on analogy for penalties.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "An analogy derivation is insufficient to impose kareth penalties.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "So Scripture explicitly states both for the bull and the goat.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "The verse is written for the bull but derived also for the goat.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Seven times for the bull below - and the goat by analogy.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "The formula: one above, seven below - both explicit for bull; both derived for goat.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "He counted: One; one and one; one and two... up to one and seven.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "The compound count keeps the upper sprinkle perpetually in mind.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "He cannot forget the first sprinkle since it is included in every subsequent count.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "This is the entire formula: each count acknowledges the first upward sprinkle.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "The formula ensures accuracy even under the stress of the holiest service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "If he reversed - sprinkled the seven first and then the one above.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Valid after the fact; the upward sprinkle is valid whenever performed.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Even if all seven came first and then one above - the service stands.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "He counts aloud as he sprinkles to avoid losing track.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "One and two - he continues counting with the upward sprinkle embedded in the count.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "One and three, one and four - continuing through all seven lower sprinkles.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "If he finished and does not know how many he sprinkled.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "He returns and sprinkles until he completes seven with certainty.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "He does not start over from one; he continues from where he is sure.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "The rule prevents both over-sprinkling and under-sprinkling.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "If blood splattered on his garments during the service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "The garment question is separate from the blood service validity.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "Blood remaining in the bowl does not require a return to replenish.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "The Mishnah: after sprinkling inside for the bull, the HP exits.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "He places the bull's bowl on the stand and takes the goat's blood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "He re-enters the Holy of Holies with the goat's blood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "And sprinkles once above and seven below, identical to the bull's service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "Same technique, same count, same formula for the goat.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "The stands in the Heichal: the bull's bowl rests while the HP works with the goat's.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "He does not spill or discard the bull's blood - it is set aside carefully.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "The bloods are kept separate until after the inner service is complete.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "en": "The bowls remain distinct throughout the inner service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "en": "The HP exits after the goat's sprinkling.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "en": "He does not linger inside the Holy of Holies.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "en": "The exit is immediate after completing the goat's blood service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "en": "Inside time is sacred and should not be extended unnecessarily.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "en": "He takes the combined blood out with him.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "en": "He places the bull's blood bowl on the second stand in the Heichal.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 52,
-      "en": "The mizrak rests on the gold stand while the HP proceeds.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 53,
-      "en": "Then he takes the goat blood for the next phase.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 54,
-      "en": "After the inner services: the parochet and golden altar await.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 55,
-      "en": "The inner service is the core; everything else radiates outward from it.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 56,
-      "en": "The second stand is in the doorway between the ulam and heichal.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 57,
-      "en": "The HP moves from the innermost outward step by step.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 58,
-      "en": "Each zone receives its own service with its own blood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 59,
-      "en": "The systematic outward movement mirrors the structure of sacred space.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 60,
-      "en": "From the most sacred (kapporet) to the less sacred, blood purifies each zone.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 61,
-      "en": "After all inner sprinklings, the golden altar service awaits.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 62,
-      "en": "The remaining blood will be poured at the altar base.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 63,
-      "en": "This completes the blood circuit of the Holy of Holies and inner Heichal.",
-      "linkedGemaraLineIds": []
+     "type": "derivation",
+     "speaker": "Gemara",
+     "text": "Source: 'on the kapporet' = once above; 'before the kapporet' = seven below.",
+     "id": "yoma-055a-l08",
+     "label": "Derivation: Source: 'on the kapporet' = once above;",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-055a-l08",
+       "vilnaLine": 8
+      }
+     ]
     }
-  ],
-  "review": "reviewed"
+   ],
+   "topicTags": [
+    "sprinkling technique",
+    "kapporet",
+    "hand position",
+    "blood service"
+   ],
+   "concepts": {
+    "halachic": [
+     "kapporet sprinkling technique",
+     "hand tilt for up vs. down"
+    ],
+    "theological": [
+     "precision approaching the most sacred object",
+     "body as instrument of atonement"
+    ],
+    "narrative": [
+     "Yom Kippur atonement",
+     "Temple service precision"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Understanding the kapporet's placement inside the Holy of Holies",
+    "Familiarity with the bull's blood service as the first inner service"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The HP sprinkles the blood downward onto the flat top surface of the kapporet.",
+     "correction": "The HP sprinkles toward the side (face) of the kapporet, with an upward and forward motion directed at the kapporet's vertical face, not a downward motion onto its top."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "person",
+     "name": "HP with tilted wrist sprinkling"
+    },
+    {
+     "type": "object",
+     "name": "kapporet"
+    },
+    {
+     "type": "action",
+     "name": "whip-arc sprinkling motion"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "For upward: tilts back of hand downward, sprinkles toward above. For the seven downward: tilts hand upward and sprinkles facing himself. Like lashing with a whip.",
+     "question": "How does the HP's hand position differ for the upward vs. downward sprinkles?"
+    }
+   ],
+   "finalRuling": "The HP tilts his hand in opposite directions for upward vs. downward sprinkles, directing blood toward the kapporet's thickness without touching its surface.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-055a-s02",
+   "lineRange": {
+    "startVilnaLine": 19,
+    "endVilnaLine": 33
+   },
+   "lines": [
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.55a.6"
+    },
+    {
+     "vilnaLine": 21,
+     "sefariaRef": "Yoma.55a.7"
+    },
+    {
+     "vilnaLine": 23,
+     "sefariaRef": "Yoma.55a.8"
+    },
+    {
+     "vilnaLine": 25,
+     "sefariaRef": "Yoma.55a.9"
+    },
+    {
+     "vilnaLine": 28,
+     "sefariaRef": "Yoma.55a.10"
+    },
+    {
+     "vilnaLine": 31,
+     "sefariaRef": "Yoma.55a.11"
+    },
+    {
+     "vilnaLine": 33,
+     "sefariaRef": "Yoma.55a.12"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.55a.6",
+    "Yoma.55a.7",
+    "Yoma.55a.8",
+    "Yoma.55a.9",
+    "Yoma.55a.10",
+    "Yoma.55a.11",
+    "Yoma.55a.12"
+   ],
+   "display": {
+    "whats": "Counting formula 'one; one and one; one and two...' keeps the upward sprinkle in every count",
+    "hint": "The HP counts each downward sprinkle while maintaining the first (upward) sprinkle in the count: 'one and one, one and two...' so he can never forget the upward sprinkle or lose his place in the sequence.",
+    "title": "Counting Formula as Error-Prevention System"
+   },
+   "learning": {
+    "ahaMoment": "The formula is a self-monitoring system: every count carries the first sprinkle within it, making omission or repetition impossible as long as he counts correctly.",
+    "memoryAnchor": "The 'one and...' formula: you can't forget what you never stop counting.",
+    "learnerQuestion": "Why does the Mishnah prescribe a precise verbal counting formula (achat, achat v'achat, achat u'shtayim...) for the blood sprinklings, rather than simply counting silently?",
+    "coreTension": "Counting is a simple task; an elaborate verbal formula seems excessive. But in a high-stress setting where any miscounting could invalidate the service and require repetition, the counting method must be error-proof.",
+    "coreMove": "The Talmud explains that the verbal counting formula is specifically designed to prevent losing count: by always including the running total in each call, the HP maintains a cumulative count that makes miscounting nearly impossible even under extreme stress.",
+    "takeaway": {
+     "type": "logical_principle",
+     "text": "The verbal counting formula for kapporet sprinklings is an error-prevention system: each count includes the running total so that even under stress or distraction, the HP cannot lose his place in the sequence."
+    },
+    "learningBlocker": "Students see the counting formula as a liturgical formality rather than as a practical error-prevention mechanism designed for a high-stakes, high-stress ritual context."
+   },
+   "argumentFlow": [
+    {
+     "type": "tradition",
+     "speaker": "Tannaitic",
+     "text": "The HP counts: One; one and one; one and two; up to one and seven.",
+     "id": "yoma-055a-l19",
+     "label": "Tradition: The HP counts: One; one and one;",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-055a-l19",
+       "vilnaLine": 19
+      }
+     ]
+    },
+    {
+     "type": "question",
+     "speaker": "Gemara",
+     "text": "Why the compound formula? Why not simply count one through seven for the lower sprinkles?",
+     "id": "yoma-055a-l21",
+     "label": "Question: Why the compound formula? Why not simply",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-055a-l21",
+       "vilnaLine": 21
+      }
+     ]
+    },
+    {
+     "type": "answer",
+     "speaker": "Gemara",
+     "text": "The compound formula perpetually acknowledges the first upward sprinkle, preventing any confusion.",
+     "id": "yoma-055a-l25",
+     "label": "Answer: The compound formula perpetually acknowledges the first",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-055a-l25",
+       "vilnaLine": 25
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Gemara",
+     "text": "If he lost count, he continues from the last number he is certain of, not from the beginning.",
+     "id": "yoma-055a-l31",
+     "label": "Ruling: If he lost count, he continues from",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-055a-l31",
+       "vilnaLine": 31
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "counting formula",
+    "seven sprinkles",
+    "error prevention",
+    "sprinkling count"
+   ],
+   "concepts": {
+    "halachic": [
+     "sprinkling count formula",
+     "self-monitoring in Temple service"
+    ],
+    "theological": [
+     "ritual as structured memory",
+     "error correction built into liturgical form"
+    ],
+    "narrative": [
+     "mnemonic counting",
+     "Temple service precision"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Understanding why the upward sprinkle is counted separately from the seven below",
+    "Knowing what happens if the HP loses count during the service"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The elaborate counting formula (achat, achat v'achat...) is a liturgical convention with no functional purpose; simple silent counting would work just as well.",
+     "correction": "The formula is specifically designed as an error-prevention system: each count embeds the running total, making it nearly impossible to lose count even in the intense stress of the Yom Kippur service."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "name": "HP counting aloud during sprinkling"
+    },
+    {
+     "type": "sequence",
+     "name": "one then one-and-one through one-and-seven"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "The compound formula keeps the initial upward sprinkle embedded in every subsequent count, preventing the HP from ever forgetting it or losing his place.",
+     "question": "Why does the HP count 'one and one, one and two' instead of simply 'one, two, three...'?"
+    }
+   ],
+   "finalRuling": "The 'one and one, one and two...' formula embeds the upward sprinkle in every subsequent count, making it impossible to forget.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-055a-s03",
+   "lineRange": {
+    "startVilnaLine": 37,
+    "endVilnaLine": 45
+   },
+   "lines": [
+    {
+     "vilnaLine": 37,
+     "sefariaRef": "Yoma.55a.13"
+    },
+    {
+     "vilnaLine": 41,
+     "sefariaRef": "Yoma.55a.14"
+    },
+    {
+     "vilnaLine": 41,
+     "sefariaRef": "Yoma.55a.15"
+    },
+    {
+     "vilnaLine": 43,
+     "sefariaRef": "Yoma.55a.16"
+    },
+    {
+     "vilnaLine": 45,
+     "sefariaRef": "Yoma.55a.17"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.55a.13",
+    "Yoma.55a.14",
+    "Yoma.55a.15",
+    "Yoma.55a.16",
+    "Yoma.55a.17"
+   ],
+   "display": {
+    "whats": "Biblical derivation of the sprinkling count for bull and goat; why Scripture states both explicitly",
+    "hint": "The Gemara derives why Scripture needed to spell out both bull and goat counts rather than letting one derive from the other by analogy, and establishes the principle that analogy is insufficient to impose kareth penalties.",
+    "title": "Goat's Lower Sprinklings Derived from Its Own Verse"
+   },
+   "learning": {
+    "ahaMoment": "Scripture is more explicit than logic requires because when kareth is at stake, analogy alone is not enough - lives and atonement cannot rest on implication.",
+    "memoryAnchor": "When kareth is at stake, Scripture speaks directly: no inference is safe enough for Yom Kippur.",
+    "learnerQuestion": "Is the number of lower sprinklings for the goat's blood service derived purely by analogy with the bull, or does the Torah provide an independent textual basis for the goat's count?",
+    "coreTension": "Using analogy alone to derive ritual details can be questioned; if the goat's lower sprinkling count were only inferred from the bull, it could theoretically be rejected by those who do not accept the analogy.",
+    "coreMove": "The Talmud establishes that the goat's lower sprinkling count has independent derivation from its own verse, not only from analogy with the bull; the verse language for the goat parallels that for the bull, providing an independent textual anchor.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "The seven lower sprinklings for the goat blood service in the Holy of Holies are derived from the goat's own verse, not merely by analogy with the bull; both blood services have independent textual grounding for their counts."
+    },
+    "learningBlocker": "Students may assume the goat's service is only a copy of the bull's service, derived entirely by analogy; they miss that each has its own independent textual derivation."
+   },
+   "argumentFlow": [
+    {
+     "type": "question",
+     "speaker": "Gemara",
+     "text": "If the goat's lower count can be derived by analogy from the bull, why does Scripture state it explicitly?",
+     "id": "yoma-055a-l37",
+     "label": "Question: If the goat's lower count can be",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-055a-l37",
+       "vilnaLine": 37
+      }
+     ]
+    },
+    {
+     "type": "principle",
+     "speaker": "Gemara",
+     "text": "Analogy is insufficient to impose kareth penalties - Scripture must be explicit.",
+     "id": "yoma-055a-l41a",
+     "label": "Principle: Analogy is insufficient to impose kareth penalties",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-055a-l41a",
+       "vilnaLine": 2
+      }
+     ]
+    },
+    {
+     "type": "resolution",
+     "speaker": "Gemara",
+     "text": "Each explicit statement serves a distinct purpose; neither is redundant.",
+     "id": "yoma-055a-l43",
+     "label": "Resolution: Each explicit statement serves a distinct purpose;",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-055a-l43",
+       "vilnaLine": 43
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "biblical derivation",
+    "kareth",
+    "analogy insufficient",
+    "sprinkling count",
+    "bull and goat"
+   ],
+   "concepts": {
+    "halachic": [
+     "limits of analogy in halachic derivation",
+     "kareth requires explicit verse"
+    ],
+    "theological": [
+     "divine law's precision in matters of spiritual life and death"
+    ],
+    "narrative": [
+     "hermeneutics",
+     "scriptural redundancy as purposeful"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Understanding what kareth means",
+    "Knowing the principle that analogies cannot impose penalties"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The goat's seven lower sprinklings are purely an extension by analogy from the bull - there is no independent verse for the goat's count.",
+     "correction": "The goat's seven lower sprinklings are derived from the goat's own verse, not only by analogy; both blood services have independent textual bases for their respective sprinkling counts."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "text",
+     "name": "Leviticus 16 verses on kapporet sprinkling"
+    },
+    {
+     "type": "contrast",
+     "name": "explicit statement vs. analogy"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Because derivation by analogy is insufficient to impose kareth penalties. Scripture must explicitly state the requirement when violation carries such severe consequences.",
+     "question": "Why does Scripture explicitly state the sprinkling count for the goat's blood if it could be derived from the bull by analogy?"
+    }
+   ],
+   "finalRuling": "Scripture explicitly states the sprinkling count for both bull and goat because analogy alone cannot impose kareth penalties.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 4,
+   "id": "yoma-055a-s04",
+   "lineRange": {
+    "startVilnaLine": 45,
+    "endVilnaLine": 47
+   },
+   "lines": [
+    {
+     "vilnaLine": 45,
+     "sefariaRef": "Yoma.55a.18"
+    },
+    {
+     "vilnaLine": 47,
+     "sefariaRef": "Yoma.55a.19"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.55a.18",
+    "Yoma.55a.19"
+   ],
+   "display": {
+    "whats": "HP exits, places bull's bowl, takes goat's blood, and re-enters for the second inner sprinkling",
+    "hint": "After the bull's blood service, the HP exits the Holy of Holies, places the bull's bowl on the stand, takes the goat's blood bowl, re-enters, and performs the identical one-above-seven-below formula.",
+    "title": "High Priest Enters the Holy of Holies More Than Twice"
+   },
+   "learning": {
+    "ahaMoment": "Two entries to the innermost: one for the priesthood's representative (bull), one for the entire nation (goat). The HP serves as messenger for both.",
+    "memoryAnchor": "Exit, swap, re-enter: two bloods, two services, one agent, one formula.",
+    "learnerQuestion": "How many separate times does the High Priest enter the Holy of Holies on Yom Kippur, and why is it more than the simple bull-and-goat count might suggest?",
+    "coreTension": "There are two blood services (bull and goat) inside the Holy of Holies, suggesting two entries; but the incense service is also performed inside, adding at least one more entry. The exact total matters for understanding the full ritual sequence.",
+    "coreMove": "The Talmud establishes that the HP enters the Holy of Holies more than twice: once for the incense service, then again for the bull blood, and again for the goat blood - resulting in at least three separate entries.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The High Priest enters the Holy of Holies more than twice on Yom Kippur: separate entries are required for the incense service, the bull blood, and the goat blood, totaling at least three distinct entries."
+    },
+    "learningBlocker": "Students count only the two blood services and assume two entries; the incense service is a distinct entry that they overlook when tallying the HP's movements."
+   },
+   "argumentFlow": [
+    {
+     "type": "action",
+     "speaker": "Mishnah",
+     "text": "HP exits, places bull's bowl on the stand in the Heichal.",
+     "id": "yoma-055a-l45a",
+     "label": "Action: HP exits, places bull's bowl on the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-055a-l45a",
+       "vilnaLine": 1
+      }
+     ]
+    },
+    {
+     "type": "action",
+     "speaker": "Mishnah",
+     "text": "Takes goat's blood, re-enters Holy of Holies, sprinkles once above and seven below.",
+     "id": "yoma-055a-l45b",
+     "label": "Action: Takes goat's blood, re-enters Holy of Holies,",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-055a-l45b",
+       "vilnaLine": 2
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "second entry",
+    "goat blood",
+    "transition between services",
+    "HP re-enters"
+   ],
+   "concepts": {
+    "halachic": [
+     "goat's blood inner service",
+     "two-entry structure of Holy of Holies service"
+    ],
+    "theological": [
+     "separate representation for priests and nation",
+     "two-phase inner atonement"
+    ],
+    "narrative": [
+     "Yom Kippur service sequence",
+     "Holy of Holies entries"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Knowing the bull's blood atones for priests while goat's blood atones for Israel",
+    "Knowing the HP enters the Holy of Holies only on Yom Kippur"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The HP enters the Holy of Holies exactly twice on Yom Kippur - once for the bull blood and once for the goat blood.",
+     "correction": "The HP enters at least three times: once for the incense service, once for the bull blood, and once for the goat blood; the incense and blood services require separate distinct entries."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "person",
+     "name": "HP exiting and re-entering the Holy of Holies"
+    },
+    {
+     "type": "object",
+     "name": "gold stand holding the bull's blood bowl"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "He exits, places the bull's bowl on a gold stand, takes the goat's blood bowl, and re-enters the Holy of Holies for the identical sprinkling sequence.",
+     "question": "What does the HP do between the bull's and goat's blood sprinklings inside the Holy of Holies?"
+    }
+   ],
+   "finalRuling": "The HP exits between services, swaps bowls at the gold stand, and re-enters for the goat's blood service - an exact parallel to the bull's service.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'Like this, facing me' - like striking with a strap, starting from the shoulders and striking downward.",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "'He does not sprinkle on the kapporet' - on its top surface, but rather toward its thickness, and the blood did not",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "touch it. 'When he sprinkles' - the one upward sprinkling, he tilts the back of his hand downward and sprinkles",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "toward above; and when he sprinkles the seven downward ones, he tilts his hand upward and sprinkles facing",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "himself, one higher and one",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "lower than it, and all of them fall to the ground. 'From where'",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l01",
+    "yoma-055a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "are these matters derived - that he does not sprinkle on the kapporet those",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "two sprinklings, one above for the bull, and one",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "above for the goat, actually on the top of the kapporet",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "itself. 'It should not need to say below regarding the goat' - it should not",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "need to say 'and before the kapporet,' which is the below-sprinkling",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "for the goat, since it is written regarding it, 'and he shall sprinkle it on'",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "'the kapporet and before the kapporet' - for it is unnecessary,",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "since in the end it is derived from the bull's below-sprinkling anyway, for",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "the verse did not specify how many sprinklings, and we derive it",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "below from the bull's below-sprinkling, regarding which it is written, 'and before'",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "'the kapporet he shall sprinkle seven times' - and since in the end",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "it is derived from there, let the verse be silent about it",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "and let the whole matter of the goat's below-sprinkling be derived",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "from the bull's below-sprinkling, since they are juxtaposed, as it is written,",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "'and he shall do with its blood as he did with the blood of the bull.'",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "Granted, its above-sprinkling was necessary to state explicitly,",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "since one sprinkling is specified there, as it is written, 'he shall sprinkle it'",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "'on the kapporet,' and 'it' implies one - but regarding the bull's",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "above-sprinkling, one was not specified. 'Why then is it stated' -",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l04",
+    "yoma-055a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "the below-sprinkling for the goat, in order to juxtapose it with the goat's own",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "above-sprinkling, and to teach that 'on the kapporet' means like 'before",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "the kapporet': just as 'before' does not mean actual contact",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "with the kapporet, since 'before' implies onto the ground,",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "even though it does not actually touch the kapporet, but rather",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "means only that he tilts his hand downward.",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "'On the contrary, it should not need to say above regarding the bull, since it is'",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "unnecessary - for in the end it is derived below from the goat's",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "above-sprinkling, where one sprinkling is specified. 'Why then is it stated?'",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "'To juxtapose' - the bull's 'before' to the bull's own 'on,'",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "since the term left free comes to teach. 'Just as 'on''",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "'means actual contact' - since it is written 'on the face of the kapporet,'",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "so too 'before' means actual contact, such that the blood",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "touches the thickness of the kapporet. 'Granted, if you say'",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l09",
+    "yoma-055a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "'that the goat's below-sprinkling comes to juxtapose it'",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "with the bull's above-sprinkling as we said, which troubled you as unnecessary,",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "it is needed for the teaching in the baraita, etc.",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "'We learned that the goat's above-sprinkling is one' - since 'it'",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l23"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "implies a single one. 'For Scripture need not have said, etc.' -",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l23",
+    "yoma-055a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "since here too it spells out both 'he shall sprinkle,' 'on,' and 'before.'",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l25"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "'Each master follows his own locale, etc.' - in R. Meir's locale",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l41a"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "they count the general number first and then",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l41a"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "the specific, for example 'twenty-one, twenty-",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l41a"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "two'; and in R. Yehuda's locale they state the specific",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l41a"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "first, 'two and twenty, three and twenty.'",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l41a"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "'So that he not err' - so that he has an interval in between",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l41b"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "to focus his attention on the count, so that he not err. 'It taught'",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l41b",
+    "yoma-055a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "regarding the first sprinkling, etc. - and it is written as a chok (statute),",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l43"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "indicating that it is indispensable. 'There were no shofar-boxes for obligatory bird-offerings' -",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l43",
+    "yoma-055a-l45b"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "a shofar-box in which to place coins for one who owes",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l45b"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "an obligatory bird-offering (a zav, a zavah, a woman after childbirth, or one",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l45b"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "who defiled the Temple), just as there were shofar-boxes for",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l45b"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "voluntary offerings, as is taught below in this same passage, and the priests",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l45b"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "would take the coins and offer the birds.",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l45b"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "'Because of the mixing of obligatory with voluntary offerings' - lest",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l47"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "one shofar-box be mistaken for another, and he offer from",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l47"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "the obligatory box's coins as a voluntary offering, or from the voluntary box's coins as an obligatory one, and it become invalid, since the obligatory offering is one sin-offering and one burnt-offering, while the voluntary offerings are all burnt-offerings, and the procedure for a burnt-offering and a sin-offering are not the same.",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l47"
+   ]
+  },
+  {
+   "vilnaLine": 63,
+   "en": "'There is not' - the daf ends mid-word here; the comment continues on 55b with Rabbi Yehuda's own position, that documentary labeling on the shofar-boxes is not a reliable safeguard against mixing up the coins.",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l47"
+   ]
+  }
+ ],
+ "review": "reviewed"
 }
