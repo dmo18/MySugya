@@ -143336,11 +143336,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 1,
         he: "ומי אית ליה לרב חסדא הואיל. לחייב על קרבן שאינו ראוי לשם",
-        en: "Based on Rav Chisda's statement: if he slaughtered them outside the Temple.",
+        en: "'But does Rav Chisda really accept the \"hoil\" principle' - to make one liable for an offering that is not fit for the purpose",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l03a"
+        ]
       },
       {
         id: "rashi-yoma-063a-002",
@@ -143348,11 +143350,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 2,
         he: "מה שהופרש בפנים ושחטו בחוץ דנימא חייב משום הואיל וראוי",
-        en: "The principle: slaughtering outside the Temple makes the service invalid.",
+        en: "for which it was designated inside, and he slaughtered it outside, that we should say he is liable because it is fit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l03a"
+        ]
       },
       {
         id: "rashi-yoma-063a-003",
@@ -143360,11 +143364,14 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 3,
         he: "לשם קרבן אחר: לשמו פטור. דאינו ראוי לשמו בפנים: שלא לשמו.",
-        en: "Even if valid animals were designated, the location is essential.",
+        en: "for the purpose of another offering? 'For its own sake, he is exempt' - since it is not fit for its own sake inside. 'Not for its own sake' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l03a",
+          "yoma-063a-l03b"
+        ]
       },
       {
         id: "rashi-yoma-063a-004",
@@ -143372,11 +143379,14 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 4,
         he: "אלא לשם שלמים חייב דראוי הוא לשם שלמים בפנים: הכי גרסי'",
-        en: "The Holy of Holies is the only place for the inner service.",
+        en: "but rather for the sake of a peace-offering, he is liable, since it is fit for that purpose inside. This is how we read it:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l03b",
+          "yoma-063a-l05"
+        ]
       },
       {
         id: "rashi-yoma-063a-005",
@@ -143384,11 +143394,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 5,
         he: "טעמא דשלא לשמו הא סתמא לשמו",
-        en: "This principle extends to the slaughtering of the Yom Kippur animals.",
+        en: "the reason he is liable is specifically when slaughtered not for its own sake; but when unspecified, it is for its own sake",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l05"
+        ]
       },
       {
         id: "rashi-yoma-063a-006",
@@ -143396,11 +143408,14 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 6,
         he: "הוא ופטור ואמאי נימא וכו': בעי",
-        en: "The Temple courtyard is the required location.",
+        en: "and he is exempt. But why? Let us say the hoil principle applies, etc. 'It requires",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l05",
+          "yoma-063a-l08"
+        ]
       },
       {
         id: "rashi-yoma-063a-007",
@@ -143408,11 +143423,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 7,
         he: "עקירה. אינו ראוי בפנים לשלמים",
-        en: "When Rav Dimi came from Eretz Yisrael he reported: Rabbi Yochanan said...",
+        en: "uprooting' - it is not fit inside to be a peace-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l08"
+        ]
       },
       {
         id: "rashi-yoma-063a-008",
@@ -143420,11 +143437,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 8,
         he: "אלא אם כן עקר שם פסח ממנו",
-        en: "The Eretz Yisrael tradition on this matter.",
+        en: "unless he first uproots the designation of Pesach from it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l08"
+        ]
       },
       {
         id: "rashi-yoma-063a-009",
@@ -143432,11 +143451,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 9,
         he: "בשחיטתו הלכך לאו מתקבל בפנים",
-        en: "The two schools: Babylonian amoraim and those transmitting Eretz Yisrael traditions.",
+        en: "during its slaughtering; therefore it is not accepted inside",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l08"
+        ]
       },
       {
         id: "rashi-yoma-063a-010",
@@ -143444,11 +143465,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 10,
         he: "הוא כל כמה דלא עקריה: האי לא",
-        en: "Rav Dimi's report supplements Rav Chisda's statement with further detail.",
+        en: "as long as he has not uprooted it. 'This one does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l08"
+        ]
       },
       {
         id: "rashi-yoma-063a-011",
@@ -143456,11 +143479,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 11,
         he: "בעי עקירה. ואע\"פ שלקחו לשם",
-        en: "The location requirement connects to the altar - service must be in the altar's domain.",
+        en: "require uprooting' - even though he took it for the sake of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l08"
+        ]
       },
       {
         id: "rashi-yoma-063a-012",
@@ -143468,11 +143493,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 12,
         he: "שעיר הנעשה בפנים זה חטאת וזה",
-        en: "Slaughtering outside the Temple courts violates the prohibition of slaughtering outside.",
+        en: "the goat offered inside, this one is a sin-offering and that one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l08"
+        ]
       },
       {
         id: "rashi-yoma-063a-013",
@@ -143480,11 +143507,14 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 13,
         he: "חטאת שניהן שוין בשמותיהן: מתני",
-        en: "And invalidates the service.",
+        en: "is a sin-offering; both share the same designation. 'He teaches",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l08",
+          "yoma-063a-l09"
+        ]
       },
       {
         id: "rashi-yoma-063a-014",
@@ -143492,11 +143522,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 14,
         he: "להו בדרבה. הני תרתי שמעתתא",
-        en: "The two aspects: the positive obligation (inside) and the negative prohibition (outside).",
+        en: "them as a dispute on Rabbah's own reasoning' - these two teachings",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l09"
+        ]
       },
       {
         id: "rashi-yoma-063a-015",
@@ -143504,11 +143536,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 15,
         he: "דרב חסדא הא דאמר לעיל הואיל",
-        en: "The Gemara derives both from Scripture.",
+        en: "of Rav Chisda: the one stated above regarding 'hoil'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l09"
+        ]
       },
       {
         id: "rashi-yoma-063a-016",
@@ -143516,11 +143550,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 16,
         he: "וראוין לשעיר הנעשה בחוץ והא",
-        en: "The source verse for the prohibition of slaughtering sacrifices outside the Temple.",
+        en: "applying to the goat offered outside, and the one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l09"
+        ]
       },
       {
         id: "rashi-yoma-063a-017",
@@ -143528,11 +143564,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 17,
         he: "דאמר רב חסדא פסח ששחטו בחוץ",
-        en: "And the source for the obligation to slaughter inside.",
+        en: "Rav Chisda stated about a Pesach-offering slaughtered outside",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l09"
+        ]
       },
       {
         id: "rashi-yoma-063a-018",
@@ -143540,11 +143578,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 18,
         he: "בשאר ימות השנה וכו' מתני לה",
-        en: "These two requirements - inside and not outside - are two sides of the same halacha.",
+        en: "during the rest of the year, etc. - he teaches this latter one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l09"
+        ]
       },
       {
         id: "rashi-yoma-063a-019",
@@ -143552,11 +143592,14 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 19,
         he: "בדרבה דרבה אמרינהו: פסח",
-        en: "The Yom Kippur animals are subject to the same location requirement as all sacrifices.",
+        en: "as built on Rabbah's own reasoning, since Rabbah first stated these principles. 'A Pesach-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l09",
+          "yoma-063a-l10"
+        ]
       },
       {
         id: "rashi-yoma-063a-020",
@@ -143564,11 +143607,14 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 20,
         he: "ששחטו בחוץ. גרס בכולה: עקירת",
-        en: "No special leniency or stringency applies to them regarding location.",
+        en: "that he slaughtered outside' - is the reading throughout this whole passage. 'Uprooting",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l10",
+          "yoma-063a-l16"
+        ]
       },
       {
         id: "rashi-yoma-063a-021",
@@ -143576,11 +143622,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 21,
         he: "חוץ. עקירת שם בשחיטת חוץ לא",
-        en: "However, their unique nature (inner service) adds requirements beyond regular sacrifices.",
+        en: "outside' - an uprooting of the designation performed during an outside slaughtering is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l16"
+        ]
       },
       {
         id: "rashi-yoma-063a-022",
@@ -143588,11 +143636,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 22,
         he: "שמה עקירה אם הכשיר הכתוב",
-        en: "The inner blood service must be performed inside the Holy of Holies specifically.",
+        en: "called an uprooting. If Scripture validated",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l16"
+        ]
       },
       {
         id: "rashi-yoma-063a-023",
@@ -143600,11 +143650,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 23,
         he: "פסח בשאר ימות השנה בשלמים",
-        en: "The slaughtering must be in the Temple court.",
+        en: "a Pesach-offering during the rest of the year as a peace-offering,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l16"
+        ]
       },
       {
         id: "rashi-yoma-063a-024",
@@ -143612,11 +143664,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 24,
         he: "לא הכשירו אלא בפנים ובעקירת",
-        en: "The parochet and altar services in the Heichal.",
+        en: "it validated it only when slaughtered inside and with an uprooting of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l16"
+        ]
       },
       {
         id: "rashi-yoma-063a-025",
@@ -143624,11 +143678,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 25,
         he: "השם אבל בחוץ לעולם שמו עליו:",
-        en: "The outer altar service in the azarah.",
+        en: "the designation; but outside, its original designation always remains upon it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l16"
+        ]
       },
       {
         id: "rashi-yoma-063a-026",
@@ -143636,11 +143692,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 26,
         he: "חייב. עליו משום הואיל וראוי שלא",
-        en: "Each service has its required location.",
+        en: "'He is liable' - regarding it, because of the hoil principle, since it is fit not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l17"
+        ]
       },
       {
         id: "rashi-yoma-063a-027",
@@ -143648,11 +143706,14 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 27,
         he: "לשמו בפנים: והא תנן. במסכת",
-        en: "Location is not incidental - it is part of the service itself.",
+        en: "for its own sake inside. 'But did we not learn' - in tractate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l17",
+          "yoma-063a-l20"
+        ]
       },
       {
         id: "rashi-yoma-063a-028",
@@ -143660,11 +143721,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 28,
         he: "זבחים: מחוסר זמן. פטור על",
-        en: "The geography of the Temple service is the map of atonement.",
+        en: "Zevachim? 'One lacking its time' - is exempt from liability for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l20"
+        ]
       },
       {
         id: "rashi-yoma-063a-029",
@@ -143672,11 +143735,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 29,
         he: "שחיטת חוץ בין שהוא מחוסר זמן",
-        en: "Each zone has its specific service; each service has its specific zone.",
+        en: "slaughtering it outside, whether it lacks time",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l20"
+        ]
       },
       {
         id: "rashi-yoma-063a-030",
@@ -143684,11 +143749,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 30,
         he: "בגופו בין שהוא מחוסר זמן בבעלים",
-        en: "The correspondences are not arbitrary but divinely designed.",
+        en: "in its own body, or lacks time because of its owner.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l20"
+        ]
       },
       {
         id: "rashi-yoma-063a-031",
@@ -143696,11 +143763,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 31,
         he: "בגופו כגון בתוך שמונה ללידתו:",
-        en: "The HP moves through these zones in a fixed order.",
+        en: "In its own body, for instance, within eight days of its birth.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l20"
+        ]
       },
       {
         id: "rashi-yoma-063a-032",
@@ -143708,11 +143777,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 32,
         he: "ואיזהו מחוסר זמן בבעלים הזב",
-        en: "His movement is itself a sacred act.",
+        en: "'And which is lacking time because of its owner? The zav,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l21"
+        ]
       },
       {
         id: "rashi-yoma-063a-033",
@@ -143720,11 +143791,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 33,
         he: "והזבה וכו'. שיש זמן להבאת",
-        en: "The physical path he walks on Yom Kippur traces the architecture of atonement.",
+        en: "'the zavah,' etc. - since there is a set time for bringing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l21"
+        ]
       },
       {
         id: "rashi-yoma-063a-034",
@@ -143732,11 +143805,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 34,
         he: "קרבנותיהם לסוף ספירת שבעה",
-        en: "From the innermost to the outermost, each step is prescribed.",
+        en: "their offerings, at the end of the count of seven days,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l21"
+        ]
       },
       {
         id: "rashi-yoma-063a-035",
@@ -143744,11 +143819,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 35,
         he: "והיולדת לסוף מלאת ימי טהרה:",
-        en: "The location requirement preserves this sacred geography.",
+        en: "and for the woman who gave birth, at the end of the completion of her days of purification.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l21"
+        ]
       },
       {
         id: "rashi-yoma-063a-036",
@@ -143756,11 +143833,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 36,
         he: "שהקריבו. לפני הזמן חטאתן ואשמן",
-        en: "Location is how the Temple maintains its integrity as a sacred space.",
+        en: "'Who offered' - before their time, their sin-offering and guilt-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l23"
+        ]
       },
       {
         id: "rashi-yoma-063a-037",
@@ -143768,11 +143847,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 37,
         he: "בחוץ. פטורין שאינן מתקבלים בפנים",
-        en: "Without location requirements, the spatial distinctions of the Temple lose meaning.",
+        en: "outside - they are exempt, since these are not accepted inside",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l23"
+        ]
       },
       {
         id: "rashi-yoma-063a-038",
@@ -143780,11 +143861,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 38,
         he: "לא לחובה ולא לנדבה לחובה משום",
-        en: "The rules about where to slaughter, where to sprinkle, and where to pour",
+        en: "either as an obligatory offering or as a voluntary one: not obligatory, because",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l23"
+        ]
       },
       {
         id: "rashi-yoma-063a-039",
@@ -143792,11 +143875,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 39,
         he: "דלא מטא זימנייהו ולנדבה שאין חטאת",
-        en: "all together create the Temple as a meaningful sacred geography.",
+        en: "their time has not yet arrived, and not voluntary, since a sin-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l23"
+        ]
       },
       {
         id: "rashi-yoma-063a-040",
@@ -143804,11 +143889,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 40,
         he: "ואשם בא לנדבה והאי אשם במצורע",
-        en: "The study of these location requirements participates in this geography.",
+        en: "or guilt-offering cannot be brought voluntarily. This 'guilt-offering' refers specifically to the metzora's case,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l23"
+        ]
       },
       {
         id: "rashi-yoma-063a-041",
@@ -143816,11 +143903,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 41,
         he: "הוא דאילו בזב וזבה ויולדת ליכא",
-        en: "Even without the physical Temple, the mental map of the Temple is preserved.",
+        en: "since a zav, zavah, or woman who gave birth has no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l23"
+        ]
       },
       {
         id: "rashi-yoma-063a-042",
@@ -143828,11 +143917,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 42,
         he: "אשם: עולותיהן ושלמיהם חייבין.",
-        en: "In the learning of these halachot, the Temple's geography lives on.",
+        en: "guilt-offering at all. 'But their burnt-offerings and peace-offerings, they are liable' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l23"
+        ]
       },
       {
         id: "rashi-yoma-063a-043",
@@ -143840,11 +143931,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 43,
         he: "שעולה ושלמים באים נדבה ומתקבלין",
-        en: "This is another way in which the study of Yoma is the practice of Yom Kippur.",
+        en: "since a burnt-offering and peace-offering may be brought voluntarily, and are accepted",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l23"
+        ]
       },
       {
         id: "rashi-yoma-063a-044",
@@ -143852,11 +143945,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 44,
         he: "נדבה בפנים ובמסכת זבחים פרכינן",
-        en: "The student learns the map; the HP walked the map.",
+        en: "inside as voluntary offerings; and in tractate Zevachim we raise the challenge,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l23"
+        ]
       },
       {
         id: "rashi-yoma-063a-045",
@@ -143864,11 +143959,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 45,
         he: "והני בני שלמים נינהו ומשנינן תני",
-        en: "Both are necessary for the full understanding of Yom Kippur.",
+        en: "are these even eligible to bring peace-offerings? And we answer: the Mishnah includes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l23"
+        ]
       },
       {
         id: "rashi-yoma-063a-046",
@@ -143876,11 +143973,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 46,
         he: "נזיר בהדייהו ואף מצורע לא שנינו",
-        en: "The tractate Yoma gives us both: the walk and the map.",
+        en: "the nazirite along with them, even though the metzora was not taught",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l23"
+        ]
       },
       {
         id: "rashi-yoma-063a-047",
@@ -143888,11 +143987,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 47,
         he: "במשנה ופרכינן התם הני בני אשמות",
-        en: "Every detail of the service is simultaneously a halacha and a theology.",
+        en: "in that Mishnah either; and there we further challenge, are these eligible for guilt-offerings?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l23"
+        ]
       },
       {
         id: "rashi-yoma-063a-048",
@@ -143900,11 +144001,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 48,
         he: "נינהו ומשנינן תני מצורע בהדייהו:",
-        en: "The halacha tells us what to do; the theology tells us why.",
+        en: "And we answer: the Mishnah includes the metzora along with them.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l23"
+        ]
       },
       {
         id: "rashi-yoma-063a-049",
@@ -143912,11 +144015,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 49,
         he: "ואמר רב חלקיה לא שנו. דאשם בחוץ",
-        en: "The study of Yoma teaches both simultaneously.",
+        en: "'And Rav Chilkiya bar Tovi said: they only taught' - that a guilt-offering brought outside",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l25"
+        ]
       },
       {
         id: "rashi-yoma-063a-050",
@@ -143924,11 +144029,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 50,
         he: "מחוסר זמן בבעלים פטור אלא לשמו",
-        en: "This is why it has been the subject of such intense rabbinic attention.",
+        en: "by one lacking time because of its owner is exempt only when for its own sake,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l25"
+        ]
       },
       {
         id: "rashi-yoma-063a-051",
@@ -143936,11 +144043,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 51,
         he: "דאינו ראוי לשמו בפנים אבל שלא לשמו כגון לשם עולה או לשם",
-        en: "The tractate Yoma is Torah at its most precise and most profound.",
+        en: "since it is not fit for its own sake inside; but not for its own sake, such as for the sake of a burnt-offering or",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l25"
+        ]
       },
       {
         id: "rashi-yoma-063a-052",
@@ -143948,11 +144057,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 52,
         he: "שלמים חייב שכן ראוי לפנים כיוצא בו בפנים דכל הזבחים שנזבחו",
-        en: "It demands everything from the reader: knowledge, attention, reverence.",
+        en: "a peace-offering, he is liable, since something like it is fit inside, for all offerings slaughtered",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l25"
+        ]
       },
       {
         id: "rashi-yoma-063a-053",
@@ -143960,11 +144071,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 53,
         he: "שלא לשמן כשרין אלא שלא עלו לבעלים לשם חובה חוץ מן הפסח",
-        en: "And in return, it gives the reader the most intimate access to the Yom Kippur service.",
+        en: "not for their own sake are valid, except that they do not count as fulfilling the owner's obligation, except for the Pesach-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l25"
+        ]
       },
       {
         id: "rashi-yoma-063a-054",
@@ -143972,11 +144085,14 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 54,
         he: "בזמנו והחטאת בכל זמן: ואמאי. לשמו פטור לימא הואיל כדקאמרת:",
-        en: "May our study of Yoma be accepted as if we had performed the service ourselves.",
+        en: "at its proper time and the sin-offering at any time. 'But why' - is he exempt when it is for its own sake? Let us say the hoil principle applies, as you stated.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l25",
+          "yoma-063a-l26"
+        ]
       },
       {
         id: "rashi-yoma-063a-055",
@@ -143984,11 +144100,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 55,
         he: "שלמים. הוה סתמיה בלא עקירה ומקראי ילפינן לה במסכת",
-        en: "Amen.",
+        en: "'A peace-offering' - its unspecified status requires no uprooting, and we derive this from verses in tractate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l26"
+        ]
       },
       {
         id: "rashi-yoma-063a-056",
@@ -143996,11 +144114,14 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 56,
         he: "פסחים ובפ\"ק דזבחים: רב אשי מתני חייב. בהא דכי אתא",
-        en: "This prayer frames the study of the entire tractate.",
+        en: "Pesachim and the first chapter of Zevachim. 'Rav Ashi teaches: liable' - regarding the teaching reported when",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l26",
+          "yoma-063a-l30"
+        ]
       },
       {
         id: "rashi-yoma-063a-057",
@@ -144008,11 +144129,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 57,
         he: "רבין: ורב ירמיה מתני פטור. בין לשמו בין שלא לשמו כרב",
-        en: "And now the tractate continues with its careful legal analysis.",
+        en: "Ravin came. 'And Rav Yirmeya teaches: exempt' - whether for its own sake or not, in accordance with Rav",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l30"
+        ]
       },
       {
         id: "rashi-yoma-063a-058",
@@ -144020,11 +144143,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 58,
         he: "דימי: ופליגא דרב חלקיה. דאמר עקירת חוץ שמה עקירה:",
-        en: "Each halacha in service of the whole.",
+        en: "Dimi's version. 'And this disagrees with Rav Chilkiya' - who says that an uprooting performed outside is called a valid uprooting.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l30"
+        ]
       },
       {
         id: "rashi-yoma-063a-059",
@@ -144032,11 +144157,13 @@ const DAF_CONTENT = {
         daf: "63a",
         vilnaLine: 59,
         he: "אי",
-        en: "Each analysis building toward the complete picture.",
+        en: "'If' - the comment is truncated here; it continues on 63b as 'if I understand \"korban\" to mean,' opening Rashi's verse-by-verse explanation of the new braita.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-063a-l35"
+        ]
       }
     ],
     review: "reviewed"
