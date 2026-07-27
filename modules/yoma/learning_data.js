@@ -158788,11 +158788,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 1,
         he: "אין ישיבה בעזרה. דכתיב לעמוד לשרת (דברים יח) העומדים שם לפני ה' (שם) ולא מצינו בה ישיבה: אלא למלכי בית דוד שנאמר",
-        en: "There is no sitting in the Azarah - as it is written 'to stand to serve' (Deut. 18), 'those who stand there before Hashem' - and we find no sitting there.",
+        en: "'There is no sitting in the Azarah' - as it is written, 'to stand to minister' (Deut. 18), 'those who stand there before the Lord' (ibid.), and we do not find sitting mentioned regarding it. 'Except for the kings of the House of David' - as it is stated,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l01"
+        ]
       },
       {
         id: "rashi-yoma-069b-002",
@@ -158800,11 +158802,15 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 2,
         he: "ויבא המלך דוד וישב וגו'. כשאמר לו נתן הנביא אתה לא תבנה הבית כי ימלאו ימיך וגו': ויברך עזרא וגו'. בההוא ענינא דויקרא לפני",
-        en: "And King David came and sat - when Nathan the prophet told him: you shall not build the House, for your days will be fulfilled etc. And Ezra blessed.",
+        en: "'and King David came and sat' etc. - when Nathan the prophet told him, 'you shall not build the House, for your days will be fulfilled' etc. 'And Ezra blessed' etc. - in that same matter of 'and he read before",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l01",
+          "yoma-069b-l04",
+          "yoma-069b-l08"
+        ]
       },
       {
         id: "rashi-yoma-069b-003",
@@ -158812,11 +158818,14 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 3,
         he: "הרחוב כתיב ברוך ה' אלהים וגו' כך תיקנו באותו היום לומר במקדש בסוף כל ברכה וברכה כדאמרינן במסכת תענית (דף יג.): בגבולין.",
-        en: "In the public square it is written: 'Blessed is Hashem God' etc. Thus they instituted on that day to say in the Temple at the end of each blessing as stated in the Gemara.",
+        en: "the square,' it is written, 'Blessed is the Lord God' etc.; thus they instituted, on that very day, to say this in the Temple at the end of every blessing, as we say in tractate Ta'anit (13a). 'In the border towns'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l08",
+          "yoma-069b-l12"
+        ]
       },
       {
         id: "rashi-yoma-069b-004",
@@ -158824,11 +158833,14 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 4,
         he: "כל חוץ לעזרה קרי גבולין: בייא בייא. לשון זעקה וקובלנא: האי דאחרביה לבית המקדש. מבקשין רחמים שימסר בידם יצר הרע של",
-        en: "Everything outside the Azarah is called 'provincial.' Biya biya - an expression of outcry and complaint. The one who destroyed the Temple - they prayed for mercy.",
+        en: "- everything outside the Azarah is called 'the border towns.' 'Woe, woe' - an expression of outcry and complaint. 'This one who destroyed the Temple' - they requested mercy that the evil inclination be delivered into their hands, the inclination for",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l12",
+          "yoma-069b-l16"
+        ]
       },
       {
         id: "rashi-yoma-069b-005",
@@ -158836,11 +158848,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 5,
         he: "עבודת כוכבים: לקבולי אגרא.",
-        en: "Idolatry.",
+        en: "idolatry. 'To receive reward' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l16"
+        ]
       },
       {
         id: "rashi-yoma-069b-006",
@@ -158848,11 +158862,14 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 6,
         he: "שנכוף אותו ונקבל שכר: פיתקא.",
-        en: "To accept the reward - let us bend it and receive the reward.",
+        en: "that we should subdue it and receive reward for doing so. 'A note'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l16",
+          "yoma-069b-l19"
+        ]
       },
       {
         id: "rashi-yoma-069b-007",
@@ -158860,11 +158877,14 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 7,
         he: "כתב: אמת. כלומר מסכים אני",
-        en: "A note - a written message.",
+        en: "was written [and fell to them]. 'Truth' - meaning, I agree",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l19",
+          "yoma-069b-l20"
+        ]
       },
       {
         id: "rashi-yoma-069b-008",
@@ -158872,11 +158892,14 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 8,
         he: "עמכם: אמר להו נביא. זכריה בן",
-        en: "True - meaning I agree with you.",
+        en: "with you. 'The prophet told them' - Zechariah son of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l20",
+          "yoma-069b-l21"
+        ]
       },
       {
         id: "rashi-yoma-069b-009",
@@ -158884,11 +158907,14 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 9,
         he: "עדו: ביניתא. שיער: בדודא",
-        en: "The prophet told them - Zechariah son of Iddo.",
+        en: "Iddo. 'A hair' - a strand of hair. 'In a cauldron",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l21",
+          "yoma-069b-l24"
+        ]
       },
       {
         id: "rashi-yoma-069b-010",
@@ -158896,11 +158922,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 10,
         he: "דאברא. בסיר של עופרת: זאת",
-        en: "A hair - a strand of hair. In a lead cauldron.",
+        en: "of lead' - in a pot of lead. 'This is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l24"
+        ]
       },
       {
         id: "rashi-yoma-069b-011",
@@ -158908,11 +158936,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 11,
         he: "הרשעה. וישלך אותה אל תוך האיפה",
-        en: "In a lead cauldron. 'This is wickedness' - and he threw her into the ephah and put the lead stone over its mouth.",
+        en: "the wickedness' - 'and he cast it into the ephah",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l24"
+        ]
       },
       {
         id: "rashi-yoma-069b-012",
@@ -158920,11 +158950,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 12,
         he: "(ויתן) את אבן העופרת אל פיה:",
-        en: "He absorbed the sound - the sound entered the lead and could not escape.",
+        en: "and placed the leaden stone over its mouth.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l24"
+        ]
       },
       {
         id: "rashi-yoma-069b-013",
@@ -158932,11 +158964,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 13,
         he: "שאיב קלא. נכנס הקול לתוך",
-        en: "The world would be destroyed - there would be no procreation.",
+        en: "'It absorbed the sound' - the sound entered into",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l24"
+        ]
       },
       {
         id: "rashi-yoma-069b-014",
@@ -158944,11 +158978,14 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 14,
         he: "העופרת ואינו יוצא ממנו: כליא",
-        en: "An egg laid that same day - because the heating process stopped in the hens' bodies, even those eggs already conceived could not be cooked.",
+        en: "the lead and does not emerge from it. 'It would destroy",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l24",
+          "yoma-069b-l29"
+        ]
       },
       {
         id: "rashi-yoma-069b-015",
@@ -158956,11 +158993,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 15,
         he: "עלמא. יכלה העולם שלא תהא פריה",
-        en: "To half - so that the inclination would control a man regarding his wife but not regarding another's wife.",
+        en: "the world' - the world would cease to exist, for there would be no fertility",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l29"
+        ]
       },
       {
         id: "rashi-yoma-069b-016",
@@ -158968,11 +159007,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 16,
         he: "ורביה: ביעתא בת יומא. ביצה",
-        en: "They applied kohl to its eyes - they blinded it with kohl.",
+        en: "or procreation. 'A same-day egg' - an egg",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l29"
+        ]
       },
       {
         id: "rashi-yoma-069b-017",
@@ -158980,11 +159021,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 17,
         he: "הנולדה בו ביום לפי שפסק החימום",
-        en: "The great, mighty, and awesome God - who shows no favoritism.",
+        en: "laid that very day, since once the heat stopped",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l29"
+        ]
       },
       {
         id: "rashi-yoma-069b-018",
@@ -158992,11 +159035,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 18,
         he: "מן המעים ואפילו אותן שעיברה",
-        en: "Pagans were desecrating His Temple - he saw Nebuchadnezzar's generals entering the Sanctuary and doing as they pleased.",
+        en: "in the innards, even those [eggs] that the hen",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l29"
+        ]
       },
       {
         id: "rashi-yoma-069b-019",
@@ -159004,11 +159049,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 19,
         he: "התרנגולת כבר אינן מתבשלין במעיה:",
-        en: "He did not say 'awesome' - in the passage of Hanamel (Jer. 32) it says 'the great mighty God, Hashem of hosts is His name.'",
+        en: "had already conceived would no longer develop inside her.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l29"
+        ]
       },
       {
         id: "rashi-yoma-069b-020",
@@ -159016,11 +159063,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 20,
         he: "לפלגא. שיהא שולט באדם ליזקק",
-        en: "Daniel did not say 'mighty' - in his prayer in his book (Dan. 9).",
+        en: "'For half' - that it should still have power over a person to be intimate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l29"
+        ]
       },
       {
         id: "rashi-yoma-069b-021",
@@ -159028,11 +159077,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 21,
         he: "לאשתו ולא לאחרת: כחלינהו. סימו",
-        en: "Pagans were enslaving his children - seventy years.",
+        en: "with his own wife, but not with another's. 'They blinded it' - they blocked",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l29"
+        ]
       },
       {
         id: "rashi-yoma-069b-022",
@@ -159040,11 +159091,14 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 22,
         he: "את עיניו ע\"י כחול: האל הגדול",
-        en: "This is His strength - that He suppresses His inclination all those years while they are enslaved.",
+        en: "its eyes with kohl. 'The great,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l29",
+          "yoma-069b-l33"
+        ]
       },
       {
         id: "rashi-yoma-069b-023",
@@ -159052,11 +159106,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 23,
         he: "הגבור והנורא. אשר לא ישא פנים:",
-        en: "And extends His patience for all the decrees made against His children.",
+        en: "mighty, and awesome God' - who shows no favoritism.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l33"
+        ]
       },
       {
         id: "rashi-yoma-069b-024",
@@ -159064,11 +159120,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 24,
         he: "עובדי כוכבים מקרקרים בהיכלו.",
-        en: "These are His awesomeness - were it not for His fear of Him etc. From the day of the destruction you learn His awesomeness.",
+        en: "'Pagans croak in His Sanctuary' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l35"
+        ]
       },
       {
         id: "rashi-yoma-069b-025",
@@ -159076,11 +159134,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 25,
         he: "שראה שרי נבוכדנצר נכנסין להיכל",
-        en: "All the nations gathered to destroy them yet they survived.",
+        en: "for he saw Nebuchadnezzar's officers entering the Sanctuary",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l35"
+        ]
       },
       {
         id: "rashi-yoma-069b-026",
@@ -159088,11 +159148,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 26,
         he: "ומריעים בו ככל רצונם: לא אמר",
-        en: "And the Rabbis - Jeremiah and Daniel.",
+        en: "and behaving there just as they pleased; therefore he did not say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l35"
+        ]
       },
       {
         id: "rashi-yoma-069b-027",
@@ -159100,11 +159162,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 27,
         he: "נורא. בפרשת הנה חנמאל כתיב",
-        en: "He is true - aligned with truth and hates falsehood.",
+        en: "'awesome.' In the passage 'Behold, Hanamel,' it is written,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l35"
+        ]
       },
       {
         id: "rashi-yoma-069b-028",
@@ -159112,11 +159176,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 28,
         he: "עושה חסד לאלפים ומשלם עון אבות",
-        en: "Here when the translator can pause - this refers to the teaching that one may not skip in a distant passage.",
+        en: "'He performs kindness for thousands, and repays the sin of fathers",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l35"
+        ]
       },
       {
         id: "rashi-yoma-069b-029",
@@ -159124,11 +159190,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 29,
         he: "אל חיק בניהם אחריהם האל הגדול",
-        en: "For before the Torah reader rolls the scroll to the place of the skip, the translator who translates each verse will pause.",
+        en: "into the bosom of their children after them, the great God,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l35"
+        ]
       },
       {
         id: "rashi-yoma-069b-030",
@@ -159136,11 +159204,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 30,
         he: "והגבור ה' צבאות שמו (ירמיה לב) :",
-        en: "And the congregation will sit waiting - this is not honoring the congregation. But 'only on the tenth' is near to 'Acharei Mot' and he can roll the scroll.",
+        en: "the mighty, the Lord of Hosts is His name' (Jeremiah 32).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l35"
+        ]
       },
       {
         id: "rashi-yoma-069b-031",
@@ -159148,11 +159218,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 31,
         he: "דניאל לא אמר גבור. בתפלתו בספרו",
-        en: "Before the translator pauses.",
+        en: "'Daniel did not say mighty' - in his prayer, in his own book",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l35"
+        ]
       },
       {
         id: "rashi-yoma-069b-032",
@@ -159160,11 +159232,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 32,
         he: "(דניאל ט) : עובדי כוכבים משתעבדים",
-        en: "In one topic - such as here where both portions deal with Yom Kippur - one may skip, and as long as the translator does not pause.",
+        en: "(Daniel 9). 'Pagans enslave",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l35"
+        ]
       },
       {
         id: "rashi-yoma-069b-033",
@@ -159172,11 +159246,14 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 33,
         he: "בבניו. זה שבעים שנה: זו היא",
-        en: "But the reason one may not skip between two different topics even when the translator could pause is because Torah words.",
+        en: "his children' - this refers to the seventy years [of exile]. 'This is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l35",
+          "yoma-069b-l39"
+        ]
       },
       {
         id: "rashi-yoma-069b-034",
@@ -159184,11 +159261,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 34,
         he: "גבורתו. שכובש יצרו כל השנים הללו",
-        en: "Are warnings, punishments, and commandments - they must enter the listeners' hearts.",
+        en: "His might' - that He suppresses His own inclination all these years",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l39"
+        ]
       },
       {
         id: "rashi-yoma-069b-035",
@@ -159196,11 +159275,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 35,
         he: "שנשתעבדו בהן ומאריך אפו על כל",
-        en: "And when a person moves from one topic to another, it is not easy to focus.",
+        en: "during which they were enslaved, and extends His patience regarding all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l39"
+        ]
       },
       {
         id: "rashi-yoma-069b-036",
@@ -159208,11 +159289,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 36,
         he: "הגזירות שגוזרים על בניו: ואלו הן",
-        en: "And it was taught - in a gentle tone.",
+        en: "the decrees enacted against His children. 'And these are'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l39"
+        ]
       },
       {
         id: "rashi-yoma-069b-037",
@@ -159220,11 +159303,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 37,
         he: "נוראותיו שאלמלא מוראו וכו'. מן",
-        en: "He does not see the burning bull and goat - implying their burning happens while the HP still wears white vestments.",
+        en: "'His awesome deeds' - were it not for His awe, etc. From",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l39"
+        ]
       },
       {
         id: "rashi-yoma-069b-038",
@@ -159232,11 +159317,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 38,
         he: "יום החורבן אתה למד נוראותיו שכל",
-        en: "And the eimurim of the sin offering - according to all opinions these are done afterward.",
+        en: "the day of the destruction you can learn His awesome deeds, for all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l39"
+        ]
       },
       {
         id: "rashi-yoma-069b-039",
@@ -159244,11 +159331,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 39,
         he: "האומות נאספו להשמידם ונתקיימו",
-        en: "When he immerses a third time with the ram of the HP and the people's ram.",
+        en: "the nations gathered to destroy them, yet they survived",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l39"
+        ]
       },
       {
         id: "rashi-yoma-069b-040",
@@ -159256,11 +159345,14 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 40,
         he: "מהן: ורבנן. ירמיה ודניאל: שהוא",
-        en: "Say from this verse and onward - it was not written in order.",
+        en: "from among them. 'But the Rabbis' - Jeremiah and Daniel. 'That He is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l39",
+          "yoma-069b-l42"
+        ]
       },
       {
         id: "rashi-yoma-069b-041",
@@ -159268,11 +159360,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 41,
         he: "אמתי. מסכים על האמת ושונא את",
-        en: "The Mishnah's text was altered - should we say the burning of the bull and goat comes after the third immersion?",
+        en: "truthful' - He upholds truth and hates",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l42"
+        ]
       },
       {
         id: "rashi-yoma-069b-042",
@@ -159280,11 +159374,14 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 42,
         he: "השקר: כאן בכדי שיפסיק התורגמן.",
-        en: "The verse says - and regarding the same language is written 'and the one who burns them.'",
+        en: "falsehood. 'Here, within the time it takes the translator to pause.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l42",
+          "yoma-069b-l44"
+        ]
       },
       {
         id: "rashi-yoma-069b-043",
@@ -159292,11 +159389,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 43,
         he: "הא דקתני אין מדלגין בפרשה",
-        en: "In the context of burning the bull and goat - and both are written after 'the fat of the sin offering.'",
+        en: "That which is taught: one may not skip in a passage",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l44"
+        ]
       },
       {
         id: "rashi-yoma-069b-044",
@@ -159304,11 +159403,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 44,
         he: "הרחוקה מזה שקודם שגולל ספר",
-        en: "By necessity the Azazel dispatch precedes the burning of fats as written.",
+        en: "that is distant from this one, since before he rolls the Torah",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l44"
+        ]
       },
       {
         id: "rashi-yoma-069b-045",
@@ -159316,11 +159417,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 45,
         he: "תורה עד מקום הדילוג יפסיק",
-        en: "He sent the goat to the wilderness and then 'the fat of the sin offering' - by necessity 'the one who dispatches.'",
+        en: "scroll to the place of the skip, the translator",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l44"
+        ]
       },
       {
         id: "rashi-yoma-069b-046",
@@ -159328,11 +159431,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 46,
         he: "התורגמן המתרגם פסוק שקרא",
-        en: "Written after it - is like someone who interrupted the topic and returns to complete it.",
+        en: "who is translating the verse that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l44"
+        ]
       },
       {
         id: "rashi-yoma-069b-047",
@@ -159340,11 +159445,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 47,
         he: "הקורא ונמצאו צבור יושבין ומצפין",
-        en: "And that dispatch I mentioned above - the one who dispatched it becomes tamei in garments.",
+        en: "the reader read will pause, and the congregation will be found sitting and waiting -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l44"
+        ]
       },
       {
         id: "rashi-yoma-069b-048",
@@ -159352,11 +159459,14 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 48,
         he: "אין זה כבוד צבור אבל אך בעשור",
-        en: "What about 'the one who dispatches' - even though it is written after the sin offering fats, it refers to what happened originally.",
+        en: "this is not the congregation's honor. But 'Ach BeAsor'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l43",
+          "yoma-069b-l44"
+        ]
       },
       {
         id: "rashi-yoma-069b-049",
@@ -159364,11 +159474,14 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 49,
         he: "סמוכה היא לאחרי מות ויכול לגלול",
-        en: "So too 'the one who burns' - even though written after them, it refers to what happened originally.",
+        en: "is adjacent to 'Acharei Mot,' so he can roll the scroll",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l43",
+          "yoma-069b-l44"
+        ]
       },
       {
         id: "rashi-yoma-069b-050",
@@ -159376,11 +159489,14 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 50,
         he: "שם קודם שיפסיק התורגמן: בענין",
-        en: "On the contrary: 'the burner' is current - for the command for their burning is written after the sin offering fats.",
+        en: "there before the translator pauses. 'On the same topic' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l44",
+          "yoma-069b-l47"
+        ]
       },
       {
         id: "rashi-yoma-069b-051",
@@ -159388,11 +159504,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 51,
         he: "אחד. כגון הכא ששתי הפרשיות",
-        en: "Bring out and burn them. So too 'the dispatcher' is current - specifically written after the fats.",
+        en: "such as here, where the two portions",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l47"
+        ]
       },
       {
         id: "rashi-yoma-069b-052",
@@ -159400,11 +159518,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 52,
         he: "מדברות בענין יוה\"כ מדלגינן ובכדי",
-        en: "And the Azazel dispatch mentioned above - this is what it means: when the time for his dispatch comes.",
+        en: "speak of the matter of Yom Kippur, we skip, but only within the time",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l47"
+        ]
       },
       {
         id: "rashi-yoma-069b-053",
@@ -159412,11 +159532,14 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 53,
         he: "שלא יפסיק התורגמן והא דקתני",
-        en: "'The dispatcher' refers to originally - like someone returning to a topic, as I explained.",
+        en: "that the translator does not pause. And that which is taught,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l47",
+          "yoma-069b-l48"
+        ]
       },
       {
         id: "rashi-yoma-069b-054",
@@ -159424,11 +159547,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 54,
         he: "דאפילו בכדי שלא יפסיק נמי לא",
-        en: "The Azazel dispatch is written in its own place - since it did not write again after the fats 'and he sent the goat.'",
+        en: "that even within the time the translator does not pause, one may still not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l48"
+        ]
       },
       {
         id: "rashi-yoma-069b-055",
@@ -159436,11 +159561,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 55,
         he: "ידלג בשני ענינים לפי שדברי תורה",
-        en: "You say the Azazel dispatch was not written in its proper place - since he was not required to stand there until the time of atonement.",
+        en: "skip between two topics - this is because the words of Torah",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l48"
+        ]
       },
       {
         id: "rashi-yoma-069b-056",
@@ -159448,11 +159575,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 56,
         he: "היא אזהרות ועונשין ומצות וצריך",
-        en: "He found him in the market - he honors him in public saying: my master, the HP.",
+        en: "are warnings, punishments, and commandments, and they must",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l48"
+        ]
       },
       {
         id: "rashi-yoma-069b-057",
@@ -159460,11 +159589,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 57,
         he: "שיכנסו בלב השומעין וכשאדם יוצא",
-        en: "He sustains the living - He who gives life.",
+        en: "enter the listeners' hearts, and when a person moves",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l48"
+        ]
       },
       {
         id: "rashi-yoma-069b-058",
@@ -159472,11 +159603,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 58,
         he: "משיטה לשיטה אחרת אינו",
-        en: "They took leave of each other - one took permission from the other to return home.",
+        en: "from one topic to another, it is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l48"
+        ]
       },
       {
         id: "rashi-yoma-069b-059",
@@ -159484,11 +159617,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 59,
         he: "נוח להתבונן: והתניא. בניחותא:",
-        en: "I shall walk - since it spoke of good lives, it cites this.",
+        en: "easy to focus. 'And it was taught' - stated as a confirming point, not a challenge.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l48"
+        ]
       },
       {
         id: "rashi-yoma-069b-060",
@@ -159496,11 +159631,13 @@ const DAF_CONTENT = {
         daf: "69b",
         vilnaLine: 60,
         he: "מסוף",
-        en: "Where markets are - where a person can buy food; since David was constantly moving about, he prayed about this.",
+        en: "'From the end' - the comment is completed on 70a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-069b-l48"
+        ]
       }
     ],
     review: "reviewed"
