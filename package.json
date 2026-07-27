@@ -1,7 +1,7 @@
 {
   "name": "mysugya",
   "private": true,
-  "version": "15.305",
+  "version": "15.306",
   "description": "My Sugya - universal Talmud study companion",
   "scripts": {
     "build": "node scripts/build.mjs",

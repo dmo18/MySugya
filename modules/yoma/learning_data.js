@@ -130299,11 +130299,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 1,
         he: "כוסות בכוסות. שאינו מכיר איזה כוס של פר ואיזה כוס של שעיר:",
-        en: "Bowls into bowls - he cannot tell which bowl held the bull's blood and which held the goat's.",
+        en: "'Cups mixed with cups' - meaning he cannot tell which cup held the bull's blood and which held the goat's.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l03"
+        ]
       },
       {
         id: "rashi-yoma-057b-002",
@@ -130311,11 +130313,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 2,
         he: "נותן וחוזר ונותן וחוזר ונותן. בכל עבודה ועבודה נותן אחת למעלה",
-        en: "He gives and comes back and gives and comes back and gives - in each service: one above and seven below from the first bowl, then from the second, then from the first.",
+        en: "'He gives, and goes back and gives, and goes back and gives' - for each service he gives one above",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l03"
+        ]
       },
       {
         id: "rashi-yoma-057b-003",
@@ -130323,11 +130327,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 3,
         he: "ושבע למטה מן האחד וחוזר ונותן מן השני וחוזר ונותן מן הראשון",
-        en: "Whatever happens: if the first bowl is bull's blood, the service is fulfilled with the first and second rounds.",
+        en: "and seven below from the first cup, then goes back and gives from the second, then goes back and gives from the first again.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l03"
+        ]
       },
       {
         id: "rashi-yoma-057b-004",
@@ -130335,11 +130341,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 4,
         he: "דמה נפשך אם ראשון של פר היה ושני שעיר יצא בראשונה ובשניה",
-        en: "And if the first was goat's, the service is fulfilled with the second and third rounds.",
+        en: "Whichever way you look at it: if the first cup was the bull's and the second the goat's, the obligation is fulfilled by the first and second rounds;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l03"
+        ]
       },
       {
         id: "rashi-yoma-057b-005",
@@ -130347,11 +130355,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 5,
         he: "ואי ראשון של שעיר היה והרי הוא",
-        en: "Similarly for the Heichal service - the same three-round coverage applies.",
+        en: "and if the first cup was the goat's, that round is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l03"
+        ]
       },
       {
         id: "rashi-yoma-057b-006",
@@ -130359,11 +130369,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 6,
         he: "כמו שאינו כדתניא פר מעכב את",
-        en: "Some blood mixed together - blood from two bowls spilled into an empty third bowl.",
+        en: "as though it did not happen, since we learned the bull's blood holds back",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l03"
+        ]
       },
       {
         id: "rashi-yoma-057b-007",
@@ -130371,11 +130383,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 7,
         he: "השעיר יצא בשניה ובשלישית שהרי",
-        en: "He does not know which was the bull's and which was the goat's.",
+        en: "the goat's, so the obligation is fulfilled by the second and third rounds, since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l03"
+        ]
       },
       {
         id: "rashi-yoma-057b-008",
@@ -130383,11 +130397,14 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 8,
         he: "קדם פר לשעיר וכן בהיכל: מקצת",
-        en: "He is required to sprinkle from the bull's blood before the goat's blood.",
+        en: "the bull must precede the goat, and likewise in the Heichal. 'Some",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l03",
+          "yoma-057b-l04b"
+        ]
       },
       {
         id: "rashi-yoma-057b-009",
@@ -130395,11 +130412,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 9,
         he: "דמים נתערבו. כגון שנשפך משני",
-        en: "If he reversed and sprinkled from the goat first, the service is valid after the fact.",
+        en: "of the blood got mixed' - meaning some spilled from two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l04b"
+        ]
       },
       {
         id: "rashi-yoma-057b-010",
@@ -130407,11 +130426,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 10,
         he: "מזרקות לתוך מזרק שלישי ריקם",
-        en: "But ab initio, he must follow the order: bull before goat.",
+        en: "basins into an empty third basin,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l04b"
+        ]
       },
       {
         id: "rashi-yoma-057b-011",
@@ -130419,11 +130440,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 11,
         he: "ונשתייר בהם בכל אחד ואחד:",
-        en: "The mixing problem: when bloods intermingle, sequence must still be maintained.",
+        en: "while some remained in each of the original two.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l04b"
+        ]
       },
       {
         id: "rashi-yoma-057b-012",
@@ -130431,11 +130454,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 12,
         he: "פשיטא לי דכי יהיב. מתנות מודאין",
-        en: "He sprinkles from the mixture with appropriate intention.",
+        en: "'It is obvious to me that when he gives' - he gives the sprinklings with certainty",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l04b"
+        ]
       },
       {
         id: "rashi-yoma-057b-013",
@@ -130443,11 +130468,14 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 13,
         he: "יהיב ממה שנשאר במזרקות: מיהו.",
-        en: "Each sprinkle from the mixture serves its intended purpose.",
+        en: "from what remains in the two original basins. 'However' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l04b",
+          "yoma-057b-l06"
+        ]
       },
       {
         id: "rashi-yoma-057b-014",
@@ -130455,11 +130483,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 14,
         he: "הא מיבעיא לן הנך שנתערבו בשלישי",
-        en: "If the parochet service was done with one blood and the other is unavailable.",
+        en: "this we must ask: is the blood that mixed in the third basin",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l06"
+        ]
       },
       {
         id: "rashi-yoma-057b-015",
@@ -130467,11 +130497,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 15,
         he: "שירים הוו כאילו לא נתערבו וליסוד",
-        en: "What was done stands - the completed portion is not voided.",
+        en: "treated as leftover, as though it had not mixed, and does it go to the base",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l06"
+        ]
       },
       {
         id: "rashi-yoma-057b-016",
@@ -130479,11 +130511,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 16,
         he: "מזבח החיצון אזלי כדתנן (זבחים דף",
-        en: "Each blood atones for its own constituency even when mixed.",
+        en: "of the outer altar, as we learned (Zevachim",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l06"
+        ]
       },
       {
         id: "rashi-yoma-057b-017",
@@ -130491,11 +130525,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 17,
         he: "מז.) שירי הדם היה שופך על יסוד",
-        en: "Bull's blood atones for the priests; goat's blood atones for the Israelites.",
+        en: "47a), that the leftover blood was poured on the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l06"
+        ]
       },
       {
         id: "rashi-yoma-057b-018",
@@ -130503,11 +130539,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 18,
         he: "מערבי של מזבח החיצון: או דילמא",
-        en: "When mixed, each drop retains its atonement power for its constituency.",
+        en: "western base of the outer altar? 'Or perhaps'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l06"
+        ]
       },
       {
         id: "rashi-yoma-057b-019",
@@ -130515,11 +130553,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 19,
         he: "דחויין נינהו. הואיל ואין מתנות",
-        en: "The mixture does not invalidate either blood's atonement.",
+        en: "'it is rejected' - since the initial sprinklings",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l06"
+        ]
       },
       {
         id: "rashi-yoma-057b-020",
@@ -130527,11 +130567,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 20,
         he: "הראשונות ניתנו ממנו ולאמה שבעזרה",
-        en: "A third bowl receiving spillage: its identity is uncertain.",
+        en: "were not given from it, and it goes instead to the channel in the courtyard",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l06"
+        ]
       },
       {
         id: "rashi-yoma-057b-021",
@@ -130539,11 +130581,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 21,
         he: "המביאה את כל ליכלוך העזרה לנחל",
-        en: "He sprinkles from all three bowls to ensure the service is complete.",
+        en: "that carries all the courtyard's waste to the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l06"
+        ]
       },
       {
         id: "rashi-yoma-057b-022",
@@ -130551,11 +130595,14 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 22,
         he: "קדרון אזלי: אפילו למאן דאמר.",
-        en: "From each bowl in turn, performing the full service from each.",
+        en: "Kidron valley? 'Even according to the one who says' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l06",
+          "yoma-057b-l08"
+        ]
       },
       {
         id: "rashi-yoma-057b-023",
@@ -130563,11 +130610,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 23,
         he: "בברייתא לקמן כוס אחת וכו' כגון",
-        en: "Even if this means extra sprinkles beyond what is technically required.",
+        en: "in the baraita below, 'one cup, etc.', for example,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l08"
+        ]
       },
       {
         id: "rashi-yoma-057b-024",
@@ -130575,11 +130624,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 24,
         he: "קיבל הדם בשתי כוסות ונתן את כל",
-        en: "Extra sprinkles do not invalidate this service.",
+        en: "he collected the blood in two cups and gave all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l08"
+        ]
       },
       {
         id: "rashi-yoma-057b-025",
@@ -130587,11 +130638,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 25,
         he: "מתנות הקרנות מכוס אחת: אבל האי",
-        en: "He acts conservatively to ensure the required service is fulfilled.",
+        en: "the corner-sprinklings from one cup. 'But this one,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l08"
+        ]
       },
       {
         id: "rashi-yoma-057b-026",
@@ -130599,11 +130652,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 26,
         he: "דיהיב מיניה. שהרי הדמים הללו",
-        en: "The blood remaining in the bowl after all sprinklings - the leftover.",
+        en: "'from which he gives' - since this blood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l08"
+        ]
       },
       {
         id: "rashi-yoma-057b-027",
@@ -130611,11 +130666,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 27,
         he: "שבמזרק שלישי נתקבלו בשני המזרקות",
-        en: "After all sprinklings, the remaining blood goes to the outer altar.",
+        en: "in the third basin was originally collected in the two basins",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l08"
+        ]
       },
       {
         id: "rashi-yoma-057b-028",
@@ -130623,11 +130680,14 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 28,
         he: "שנתן מהן המתנות: דתניא. פלוגתא",
-        en: "Specifically to the western base of the outer altar.",
+        en: "from which he gave the sprinklings. 'For it was taught' - this is the dispute",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l08",
+          "yoma-057b-l15"
+        ]
       },
       {
         id: "rashi-yoma-057b-029",
@@ -130635,11 +130695,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 29,
         he: "דכוס עושה חבירו דחוי או שירים",
-        en: "The base receives the final remnant blood.",
+        en: "about whether one cup renders its counterpart rejected or leftover,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l15"
+        ]
       },
       {
         id: "rashi-yoma-057b-030",
@@ -130647,11 +130709,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 30,
         he: "דאמרן לעיל אפילו למ\"ד וכו':",
-        en: "Which base: the western base of the outer altar.",
+        en: "which we stated above, 'even according to the one who says, etc.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l15"
+        ]
       },
       {
         id: "rashi-yoma-057b-031",
@@ -130659,11 +130723,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 31,
         he: "למעלה הוא אומר. בחטאת דשעיר",
-        en: "Both the bull's remainder and the goat's remainder are poured there.",
+        en: "'Above it says' - regarding the sin offering of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l15"
+        ]
       },
       {
         id: "rashi-yoma-057b-032",
@@ -130671,11 +130737,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 32,
         he: "נשיא (ויקרא ד) ואת דמו ישפוך וגו'",
-        en: "Together they conclude their purpose at this final point.",
+        en: "a nasi's goat (Leviticus 4), 'and its blood he shall pour,' etc.,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l15"
+        ]
       },
       {
         id: "rashi-yoma-057b-033",
@@ -130683,11 +130751,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 33,
         he: "ובשירים כתיב ולא כתיב הכא כל",
-        en: "The pouring at the base concludes the blood service.",
+        en: "and regarding the leftover it is written, but the word 'all' is not written here;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l15"
+        ]
       },
       {
         id: "rashi-yoma-057b-034",
@@ -130695,11 +130765,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 34,
         he: "ולמטה בחטאת יחיד בשירים דידה",
-        en: "After pouring, the atonement for the categories addressed by this service is complete.",
+        en: "whereas below, regarding an individual's sin offering, its own leftover",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l15"
+        ]
       },
       {
         id: "rashi-yoma-057b-035",
@@ -130707,11 +130779,14 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 35,
         he: "כתיב כל: ה\"ג מנין לחטאת שקבל",
-        en: "This completes the blood service sequence of Yom Kippur.",
+        en: "does have 'all' written. This is the correct reading: from where do we know that for a sin offering whose blood was collected",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l15",
+          "yoma-057b-l17"
+        ]
       },
       {
         id: "rashi-yoma-057b-036",
@@ -130719,11 +130794,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 36,
         he: "דמה בארבע כוסות ונתן מזה אחת",
-        en: "Four zones have been purified: kapporet, parochet, golden altar, outer altar base.",
+        en: "in four cups, and he gave one sprinkling from this one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l17"
+        ]
       },
       {
         id: "rashi-yoma-057b-037",
@@ -130731,11 +130808,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 37,
         he: "ומזה אחת שכולן נשפכין ליסוד ת\"ל",
-        en: "Each zone corresponds to a category of sin or class of people.",
+        en: "and one from that one, that all of them are poured to the base? Scripture states,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l17"
+        ]
       },
       {
         id: "rashi-yoma-057b-038",
@@ -130743,11 +130822,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 38,
         he: "ואת כל דמה ישפוך יכול אפילו נתן",
-        en: "The HP has moved through the entire sacred space, purifying every zone.",
+        en: "'and all of its blood he shall pour.' One might think even if he gave",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l17"
+        ]
       },
       {
         id: "rashi-yoma-057b-039",
@@ -130755,11 +130836,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 39,
         he: "ארבע מתנות מאחת מהן ת\"ל ואת",
-        en: "The remaining blood concludes the service at the outermost zone.",
+        en: "all four sprinklings from just one of them; Scripture states, 'and",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l17"
+        ]
       },
       {
         id: "rashi-yoma-057b-040",
@@ -130767,11 +130850,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 40,
         he: "דמו ישפוך הוא נשפך ליסוד והן",
-        en: "Yom Kippur blood atonement is complete through this full four-zone circuit.",
+        en: "its blood he shall pour' - that one alone is poured to the base, and the others",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l17"
+        ]
       },
       {
         id: "rashi-yoma-057b-041",
@@ -130779,11 +130864,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 41,
         he: "נשפכין לאמה ר\"א בר\"ש אמר מנין",
-        en: "No further blood services remain after the base pouring.",
+        en: "are poured to the channel. R. Elazar bar R. Shimon says: from where do we know",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l17"
+        ]
       },
       {
         id: "rashi-yoma-057b-042",
@@ -130791,11 +130878,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 42,
         he: "לחטאת שקיבל דמה בארבע כוסות",
-        en: "The HP then changes clothes and begins the non-blood services.",
+        en: "that for a sin offering whose blood was collected in four cups,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l17"
+        ]
       },
       {
         id: "rashi-yoma-057b-043",
@@ -130803,11 +130892,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 43,
         he: "ונתן ארבע מתנות מכוס ראשון",
-        en: "The scapegoat service follows.",
+        en: "and he gave all four sprinklings from the first cup,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l17"
+        ]
       },
       {
         id: "rashi-yoma-057b-044",
@@ -130815,11 +130906,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 44,
         he: "שכולן נשפכין ליסוד ת\"ל ואת כל דמה",
-        en: "The order: blood services first, then scapegoat, then reading, then later services.",
+        en: "that all of them are poured to the base? Scripture states, 'and all of its blood'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l17"
+        ]
       },
       {
         id: "rashi-yoma-057b-045",
@@ -130827,11 +130920,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 45,
         he: "ישפוך ת\"ק סבר כוס עושה את",
-        en: "Everything flows from the inner blood service outward.",
+        en: "'he shall pour.' The first master holds that one cup renders its counterpart",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l17"
+        ]
       },
       {
         id: "rashi-yoma-057b-046",
@@ -130839,11 +130934,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 46,
         he: "חבירו דחוי ור\"א בר\"ש סבר כוס",
-        en: "The HP is the axis around which Yom Kippur rotates.",
+        en: "rejected, while R. Elazar bar R. Shimon holds that one cup",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l17"
+        ]
       },
       {
         id: "rashi-yoma-057b-047",
@@ -130851,11 +130948,14 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 47,
         he: "עושה את חבירו שירים: מערבין לקרנות. מערבין דם פר בדם",
-        en: "His precision in the blood service sanctifies the entire day.",
+        en: "renders its counterpart leftover. 'They are mixed for the corner sprinklings' - the bull's blood is mixed with the goat's blood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l17",
+          "yoma-057b-l27"
+        ]
       },
       {
         id: "rashi-yoma-057b-048",
@@ -130863,11 +130963,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 48,
         he: "שעיר כשבא ליתן מתנות קרנות מזבח הפנימי: אין מערבין.",
-        en: "If he failed in the blood service, the entire atonement is in question.",
+        en: "when he comes to give the corner sprinklings of the inner altar. 'They are not mixed' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l27"
+        ]
       },
       {
         id: "rashi-yoma-057b-049",
@@ -130875,11 +130977,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 49,
         he: "דמשמע ליה ולקח מדם הפר ומדם השעיר מכל אחד בפני עצמו:",
-        en: "Therefore the Talmud is so precise about every detail.",
+        en: "since he understands 'and he shall take from the blood of the bull and from the blood of the goat' to mean each one separately.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l27"
+        ]
       },
       {
         id: "rashi-yoma-057b-050",
@@ -130887,11 +130991,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 50,
         he: "דאמר אע\"ג דלא כתיב יחדיו וכו'. דתניא (סנהדרין דף סו.) איש",
-        en: "Each rule about technique, count, and order serves the integrity of the atonement.",
+        en: "'Who says that even though 'together' is not written, etc.' - for it was taught (Sanhedrin 66a): 'any",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l30"
+        ]
       },
       {
         id: "rashi-yoma-057b-051",
@@ -130899,11 +131005,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 51,
         he: "איש אשר יקלל את אביו ואת אמו אין לי אלא אביו ואמו אביו בלא",
-        en: "The HP is tested, prepared, and the most spiritually ready person in Israel.",
+        en: "man who curses his father or his mother' - I know only of cursing both his father and his mother; from where do I know cursing his father without",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l30"
+        ]
       },
       {
         id: "rashi-yoma-057b-052",
@@ -130911,11 +131019,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 52,
         he: "אמו אמו בלא אביו מנין ת\"ל אביו קילל אמו קילל דברי רבי יאשיה",
-        en: "On this day, his service is the service of all Israel.",
+        en: "his mother, or his mother without his father? Scripture states, 'his father he cursed,' 'his mother he cursed' separately - these are the words of R. Yoshiya.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l30"
+        ]
       },
       {
         id: "rashi-yoma-057b-053",
@@ -130923,11 +131033,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 53,
         he: "ר' יונתן אומר משמע שניהן כאחד ומשמע כל אחד ואחד בעצמו עד",
-        en: "The blood is Israel's petition; the HP is its messenger.",
+        en: "R. Yonatan says: the verse implies both of them together, and it also implies each one on his own, until",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l30"
+        ]
       },
       {
         id: "rashi-yoma-057b-054",
@@ -130935,11 +131047,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 54,
         he: "שיפרוט לך הכתוב יחדיו אלמא לר' יאשיה אי לא הדר כתיב אביו",
-        en: "The kapporet is where God accepts; the HP is the intermediary.",
+        en: "Scripture specifies 'together' elsewhere. This shows that, according to R. Yoshiya, had Scripture not gone on to write 'his father'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l30"
+        ]
       },
       {
         id: "rashi-yoma-057b-055",
@@ -130947,11 +131061,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 55,
         he: "ואמו קילל הוה אמינא רישיה דקרא שניהן כאחד משמע הכא נמי",
-        en: "This is the heart of Yom Kippur as described in Leviticus 16.",
+        en: "'and his mother he cursed' separately, I would have said the opening of the verse implies both together; here too,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l30"
+        ]
       },
       {
         id: "rashi-yoma-057b-056",
@@ -130959,11 +131075,14 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 56,
         he: "מדם הפר ומדם השעיר שניהן כאחד משמע: דכתיב אחת. וכפר",
-        en: "The entire tractate Yoma is commentary on this moment.",
+        en: "'from the blood of the bull and from the blood of the goat' implies both together. 'Since it is written 'once'' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l30",
+          "yoma-057b-l32"
+        ]
       },
       {
         id: "rashi-yoma-057b-057",
@@ -130971,11 +131090,14 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 57,
         he: "אהרן על קרנותיו אחת בשנה (שמות ל) ולא שתים: תניא דלא כשנויין.",
-        en: "Understanding this service is essential to understanding Yom Kippur.",
+        en: "'and Aaron shall atone upon its horns once a year' (Exodus 30), and not twice. 'It was taught not according to the reversed version' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l32",
+          "yoma-057b-l34"
+        ]
       },
       {
         id: "rashi-yoma-057b-058",
@@ -130983,11 +131105,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 58,
         he: "אלא כמה דסלקא דעתך מעיקרא דר' יאשיה הוא דאמר מערבין:",
-        en: "The Talmud preserves this service in exacting detail for future generations.",
+        en: "but rather as we originally assumed, that it is R. Yoshiya who says they are mixed.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l34"
+        ]
       },
       {
         id: "rashi-yoma-057b-059",
@@ -130995,11 +131119,13 @@ const DAF_CONTENT = {
         daf: "57b",
         vilnaLine: 59,
         he: "וקבל",
-        en: "Even without a Temple, detailed study of this service is considered meritorious.",
+        en: "'And he received' - the daf ends here; the comment's own explanation is deferred to 58a, opening the new Mishnah about the receiving-vessel for the blood.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057b-l34"
+        ]
       }
     ],
     review: "reviewed"
