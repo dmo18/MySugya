@@ -1,8 +1,8 @@
 {
- "type": "rashi-reconstruction",
+ "type": "rashi-realignment",
  "module": "yoma",
  "targets": [
-  "7b"
+  "5a"
  ],
  "model": "sonnet",
  "paused": false,
@@ -70,15 +70,6 @@
   "more than one daf would change in the same content PR"
  ],
  "allowlistDrain": null,
- "scaffoldDebt": {
-  "snapshot": [
-   {
-    "daf": "7b",
-    "vilnaLine": 2,
-    "rule": "scaffold-prefix",
-    "enHash": "3f4b058a92462740"
-   }
-  ]
- },
+ "scaffoldDebt": null,
  "repetitionDrain": null
 }

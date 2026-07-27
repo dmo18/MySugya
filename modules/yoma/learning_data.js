@@ -10461,11 +10461,12 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 1,
         he: "דבר שאין מעכב בהן לדורות. לקמיה מפרש לה: שירי מצוה. כלומר",
-        en: "Something that does not invalidate ongoing service [ladorot]. Below, the Gemara explains this is a 'shirei mitzva' - meaning [omitting it is treated as] if one did not properly perform the mitzva. The phrase 'shirei mitzva' here means a residual component.",
+        en: "'Something that does not invalidate for future generations' - the Gemara explains this below. 'A residual mitzvah' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-005a-l01",
           "yoma-005a-l07"
         ]
       },
@@ -10475,7 +10476,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 2,
         he: "שלא חש לחשוב אותה מצוה ולא סמך: כאילו לא כיפר. מן המובחר:",
-        en: "He was not careful to treat it as a full mitzva and did not perform semikha: it is as if he did not fully atone. From the choicest [performance]: the verse says 'and he shall lay... and it shall be accepted.'",
+        en: "meaning he was not careful to count it as [part of] the mitzvah and did not lean [on the animal]. 'As if he had not atoned' - in the choicest manner.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10489,7 +10490,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 3,
         he: "וכיפר. (דאין כפרה אלא בדם) כדאמרינן בזבחים (דף ו.) כיפר",
-        en: "And he shall atone. Since atonement comes only through blood, as we say in Zevachim (6a): 'he atoned' refers to the man - meaning the essential atonement is in the blood. But he has not achieved full atonement either, since he did not properly fulfill his Master's command.",
+        en: "'And he shall be atoned' - since atonement is only through blood, as we say in Zevachim (6a): 'he atoned'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10503,7 +10504,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 4,
         he: "לגברא דעיקר כפרה בדם אבל לא כיפר נמי (שלא קיים) מצות קונו",
-        en: "For the man - the core atonement is through blood. But he also did not atone fully [by not performing the shirei mitzva], since he did not fulfill the command of his Master from the ideal.",
+        en: "refers to the man - meaning the essential atonement is through blood, but he has not atoned",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10517,11 +10518,12 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 5,
         he: "מן המובחר: ולא קתני מפרישין.",
-        en: "From the choicest: the mishna does not teach 'mafrishin' [they separate him as well].",
+        en: "in the choicest manner. 'And it does not teach they separate him' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-005a-l07",
           "yoma-005a-l22"
         ]
       },
@@ -10531,7 +10533,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 6,
         he: "ואע\"פ שלא הופרש אם יארע פסול",
-        en: "And even though he was not separated, if a disqualifying condition [pesul] occurs",
+        en: "even though he was not separated, if a disqualification occurs",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10545,7 +10547,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 7,
         he: "בראשון יעבוד זה השני שמע מינה",
-        en: "with the first [KG], this second one serves. We derive from this",
+        en: "with the first [High Priest], this second one serves. From this we learn that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10559,7 +10561,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 8,
         he: "פרישה לא מעכבא (בה) עבודה:",
-        en: "that prisha [sequestering] does not invalidate [lit. is not an obstacle to] service.",
+        en: "separation does not invalidate the service.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10573,7 +10575,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 9,
         he: "ריבוי שבעה. שישמש כ\"ג שבעה",
-        en: "Rivui shiva: that the Kohen Gadol should serve [as KG] for seven consecutive days when he is first appointed to the high priesthood, wearing the eight priestly garments during service. 'Rivui' means multiplying - he multiplies [his use of] garments by serving in all eight while an ordinary kohen serves only in four.",
+        en: "'Seven days of increase' - that the Kohen Gadol serves for seven",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10587,7 +10589,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 10,
         he: "ימים רצופים כשממנין אותו בכהונה",
-        en: "days consecutively when he is appointed to the high priesthood, wearing the eight garments during service. 'Rivui' means multiplying - he is 'multiplied' in garments in that he serves in eight while an ordinary kohen serves in four.",
+        en: "consecutive days when he is appointed to the high priesthood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10601,7 +10603,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 11,
         he: "גדולה וילבש שמונה בגדים בשעת",
-        en: "in garments, in that he serves in eight while an ordinary kohen serves in four.",
+        en: "and wears eight garments during",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10615,7 +10617,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 12,
         he: "עבודה וריבוי לשון מרבה מרובה",
-        en: "Meshicha shiva: [that they apply] the anointing oil on his head and between his eyebrows for seven consecutive days.",
+        en: "service; 'increase' means multiplication - he multiplies his",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10629,7 +10631,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 13,
         he: "בגדים שהוא משמש בשמונה וההדיוט",
-        en: "between his eyebrows for seven consecutive days.",
+        en: "garments, since he serves in eight while the ordinary priest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10643,7 +10645,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 14,
         he: "בארבעה: משיחת שבעה. [שיתנו",
-        en: "[Rashi on 'kol hakatuv bahen']: Everything written [concerning them]: 'seven days shall he fill' [Lev. 8] etc.",
+        en: "serves in four. 'Seven days of anointing' - [that they place",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10657,7 +10659,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 15,
         he: "שמן המשחה על ראשו ובין ריסי",
-        en: "And everything that 'filling of hands' [inauguration service] is said there refers to wearing of garments, as it is written [Exod. 29]: 'And the sacred garments which are Aaron's",
+        en: "the anointing oil on his head and between his eyelids] for seven",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10671,7 +10673,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 16,
         he: "עיניו ז' ימים] רצופין: כל הכתוב",
-        en: "shall be for his sons after him to be anointed in them' and so on. And anointing",
+        en: "days consecutively. 'All that is written concerning them' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10685,7 +10687,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 17,
         he: "בהן. ז' ימים ימלא וגו' (ויקרא ח)",
-        en: "also [requires] all seven [days] because anointing is juxtaposed",
+        en: "'seven days shall he fill' etc. (Leviticus 8:33), and every filling-of-hands",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10699,7 +10701,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 18,
         he: "וכל מילוי ידים האמור שם לבישת",
-        en: "to rivui [garment-wearing].",
+        en: "mentioned there refers to the wearing of garments, as it is said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10713,12 +10715,12 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 19,
         he: "בגדים הוא שנאמר (שמות כט) ובגדי",
-        en: "'And the Kohen who is anointed': [This verse is] written in Parshat Acharei Mot, in the context of Yom Kippur.",
+        en: "(Exodus 29:29): 'and the sacred garments which are Aaron's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005a-l27"
+          "yoma-005a-l23"
         ]
       },
       {
@@ -10727,12 +10729,12 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 20,
         he: "הקודש אשר לאהרן יהיו לבניו",
-        en: "who is anointed. [It is written] in Parshat Acharei Mot regarding Yom Kippur.",
+        en: "shall be for his sons after him,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005a-l27"
+          "yoma-005a-l23"
         ]
       },
       {
@@ -10741,12 +10743,12 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 21,
         he: "אחריו למשחה בהם וגו' ומשיחה",
-        en: "What does Scripture come to teach? If [this is] to teach",
+        en: "to be anointed in them' etc.; and anointing too",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005a-l27"
+          "yoma-005a-l23"
         ]
       },
       {
@@ -10755,12 +10757,12 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 22,
         he: "נמי כל שבעה מדאיתקש משיחה",
-        en: "that the Yom Kippur service must be performed by a KG - but the entire passage already speaks of Aaron: 'Aaron shall come,' 'Aaron shall give,' 'Aaron shall sacrifice,'",
+        en: "requires all seven, since anointing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005a-l27"
+          "yoma-005a-l23"
         ]
       },
       {
@@ -10769,11 +10771,12 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 23,
         he: "לריבוי: וכפר הכהן אשר ימשח",
-        en: "'and Aaron shall come' [Lev. 16]. Because it was said [earlier]:",
+        en: "is juxtaposed to increase. 'And the priest who is anointed'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-005a-l23",
           "yoma-005a-l27"
         ]
       },
@@ -10783,7 +10786,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 24,
         he: "אותו. גבי יוה\"כ באחרי מות כתיב:",
-        en: "In Parshat Tetzaveh: 'seven days shall the son who comes after him among his sons who enters the Tent of Meeting on Yom Kippur to serve in the holy place wear them.'",
+        en: "'in his place' - this is written regarding Yom Kippur, in Acharei Mot.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10797,7 +10800,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 25,
         he: "מה תלמוד לומר. אם ללמד",
-        en: "to serve in the holy place. I would only know [he is valid to enter] if he has undergone both rivui shiva and meshicha shiva when appointed. What if [he had] seven [days of garments] and one [day of anointing], or one [day of garments] and seven [days of anointing]? The redundant verse covers all cases: 'in any case.'",
+        en: "'What does Scripture teach?' - if it is to teach",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10811,7 +10814,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 26,
         he: "שתהיה עבודה בכ\"ג והלא כל",
-        en: "one [anointing] and seven [garments] are enough. Hear from this [verse]",
+        en: "that the service must be by the Kohen Gadol, but the entire passage",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10825,7 +10828,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 27,
         he: "הפרשה באהרן נאמרה בזאת יבא",
-        en: "I only know [he is valid if he had] both garments and anointing for all seven. The redundant verse teaches: in any case.",
+        en: "already speaks of Aaron: 'Aaron shall come,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10839,7 +10842,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 28,
         he: "אהרן ונתן אהרן והקריב אהרן",
-        en: "only then is he validated. But any combination is valid.",
+        en: "'Aaron shall place,' 'Aaron shall offer,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10853,11 +10856,12 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 29,
         he: "ובא אהרן (ויקרא טז) : לפי שנאמר.",
-        en: "Because it was said [in Parshat Tetzaveh]: 'Seven days shall the son wear them,' and because of this juxtaposition:",
+        en: "'and Aaron shall come' (Leviticus 16:3). 'Because it is said' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-005a-l27",
           "yoma-005a-l30"
         ]
       },
@@ -10867,7 +10871,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 30,
         he: "בפרשת ואתה תצוה שבעת ימים",
-        en: "in Parshat Tetzaveh: 'seven days shall the son wear them - the Kohen who succeeds him from among his sons who shall come on Yom Kippur into the Tent of Meeting",
+        en: "in the portion of Tetzaveh: 'seven days",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10881,7 +10885,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 31,
         he: "ילבשם הכהן תחתיו מבניו העומד",
-        en: "to serve in the sanctuary.' I only know [he must be anointed]",
+        en: "shall the priest who succeeds him from among his sons wear them, who",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10895,7 +10899,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 32,
         he: "תחת אהרן בכהונה גדולה אשר",
-        en: "that he must be qualified to enter the Tent of Meeting on Yom Kippur - meaning only one who has undergone both rivui shiva and meshicha shiva when appointed. Below,",
+        en: "comes in his place into the high priesthood, who shall enter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10909,7 +10913,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 33,
         he: "יבא ביום הכפורים אל אהל מועד",
-        en: "the Gemara asks: where is meshicha shiva written? [Meaning, where does the source for anointing needing seven days appear?]",
+        en: "on Yom Kippur into the Tent of Meeting",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -10923,12 +10927,13 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 34,
         he: "לשרת בקדש: אין לי אלא. שיהא",
-        en: "I only know [he must be qualified]: that is, only one who was anointed for seven days is qualified - and below [the Gemara] asks where meshicha shiva is derived from.",
+        en: "to serve in the sanctuary.' 'I would only know' - that he",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005a-l30"
+          "yoma-005a-l30",
+          "yoma-005a-l34"
         ]
       },
       {
@@ -10937,12 +10942,12 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 35,
         he: "כשר לבא אל אהל מועד ביום",
-        en: "Even one [day of anointing] - do not read this [as] a legitimate textual version.",
+        en: "is qualified to enter the Tent of Meeting on Yom Kippur",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-005a-l35"
+          "yoma-005a-l34"
         ]
       },
       {
@@ -10951,11 +10956,13 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 36,
         he: "הכפורים אלא מי שנתרבה שבעה",
-        en: "milta",
+        en: "if he had both seven days of increase and seven of anointing when appointed;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-005a-l34"
+        ]
       },
       {
         id: "rashi-yoma-005a-037",
@@ -10963,11 +10970,13 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 37,
         he: "ונמשח שבעה כשנתמנה ולקמיה",
-        en: "[Rashi: stub entry.] The daf ends here with the word 'milta,' indicating a question that continues on the following page. R. Yitzchak bar Bisna's 'kachah' derivation covers only what is written in the inauguration passage; requirements written elsewhere still need a separate source.",
+        en: "and below the Gemara asks",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-005a-l34"
+        ]
       },
       {
         id: "rashi-yoma-005a-038",
@@ -10975,11 +10984,13 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 38,
         he: "בעי משיחה שבעה היכא כתיבא:",
-        en: "[Continuation note.] From where do we derive that requirements not written in the inauguration passage itself but written elsewhere in the Torah also invalidate the service if omitted? This question is left open at the end of 5a.",
+        en: "where seven days of anointing is written.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-005a-l34"
+        ]
       },
       {
         id: "rashi-yoma-005a-039",
@@ -10987,7 +10998,7 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 39,
         he: "אפילו שעה אחת. לא גרסינן:",
-        en: "[Note on a non-standard reading.] 'Even one day' - this reading is not in the text. Rashi flags it as a textual variant to be set aside, not a genuine version of the Gemara's discussion.",
+        en: "'Even one hour' - we do not read this [variant].",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -11001,11 +11012,13 @@ const DAF_CONTENT = {
         daf: "5a",
         vilnaLine: 40,
         he: "מילתא",
-        en: "[Final stub.] The word 'milta' ends the folio. The open question continues on 5b: from where do we derive that inauguration requirements recorded outside the inauguration passage are also indispensable?",
+        en: "'The matter' - the daf ends mid-word here; Rashi's comment continues on 5b, where the Gemara asks from where we derive that requirements written elsewhere (outside the inauguration passage) also invalidate.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-005a-l40"
+        ]
       }
     ],
     review: {
