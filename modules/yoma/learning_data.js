@@ -129155,11 +129155,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 1,
         he: "השתא ברי. ודאי טמאים אתון ואין שכינה ביניכם שורה בטומאה:",
-        en: "Now they are certainly impure - you are definitely impure; the Shechina does not dwell amid impurity.",
+        en: "'Now, indeed' - you are certainly impure, and the Divine Presence does not dwell among you in impurity.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l01"
+        ]
       },
       {
         id: "rashi-yoma-057a-002",
@@ -129167,11 +129169,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 2,
         he: "וכי דבר הלמד בהיקש. כגון פר שלמד במתנות פנים אחת למעלה",
-        en: "A matter learned by analogy - such as the bull's upper sprinkle learned from the goat by analogy, and the goat's seven below from the bull by analogy.",
+        en: "'And can a matter learned by analogy in turn teach by analogy?' - for example, the bull, which learned its inner one-above sprinkling",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l04"
+        ]
       },
       {
         id: "rashi-yoma-057a-003",
@@ -129179,11 +129183,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 3,
         he: "מן השעיר בהיקש והשעיר שבע למטה בהיקש מן הפר חוזרין ומלמדין",
-        en: "These in turn teach the parochet sprinklings by further analogy? No - analogy cannot teach from analogy.",
+        en: "from the goat by analogy, and the goat learned its seven-below from the bull by analogy, would these in turn teach",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l04"
+        ]
       },
       {
         id: "rashi-yoma-057a-004",
@@ -129191,11 +129197,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 4,
         he: "מתנות שבפנים על מתנות הפרוכת בהיקש דוכן יעשה לאהל מועד",
-        en: "As you shall do for the Tent of Meeting - this verse connects the golden altar to the inner services directly.",
+        en: "the parochet sprinklings by a further analogy from 'and so shall he do for the Tent of Meeting'?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l04"
+        ]
       },
       {
         id: "rashi-yoma-057a-005",
@@ -129203,11 +129211,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 5,
         he: "וקיימא לן במסכת זבחים (דף מט:)",
-        en: "And we hold in Zevachim - in sacrificial matters we do not apply analogy from analogy.",
+        en: "And we hold in tractate Zevachim (49b)",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l04"
+        ]
       },
       {
         id: "rashi-yoma-057a-006",
@@ -129215,11 +129225,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 6,
         he: "דאין למדים בקדשים היקש מן ההיקש:",
-        en: "Therefore this verse is needed to provide a direct basis for the golden altar service.",
+        en: "that in sacred matters one does not learn an analogy from an analogy.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l04"
+        ]
       },
       {
         id: "rashi-yoma-057a-007",
@@ -129227,11 +129239,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 7,
         he: "הימנו ודבר אחר. היקש הראשון לאו",
-        en: "From it and another matter - the first analogy between bull and goat is not truly an analogy,",
+        en: "'From it, and another matter' - the first analogy is not truly",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l05"
+        ]
       },
       {
         id: "rashi-yoma-057a-008",
@@ -129239,11 +129253,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 8,
         he: "היקש הוא שהרי בין בפר בין בשעיר",
-        en: "since both bull and goat have explicit upper and lower sprinkles written for them.",
+        en: "an analogy, since for both the bull and the goat",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l05"
+        ]
       },
       {
         id: "rashi-yoma-057a-009",
@@ -129251,11 +129267,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 9,
         he: "כתיב מעלה ומטה ולא הוצרכו ללמוד",
-        en: "They only needed to learn from each other the count of the lower sprinkles.",
+        en: "an upper and a lower sprinkling are explicitly written; they only needed to learn",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l05"
+        ]
       },
       {
         id: "rashi-yoma-057a-010",
@@ -129263,11 +129281,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 10,
         he: "זה מזה אלא את המנין הלכך כל חד",
-        en: "Therefore each is still considered explicit and can independently teach the parochet via its own verse.",
+        en: "the count from each other, so each one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l05"
+        ]
       },
       {
         id: "rashi-yoma-057a-011",
@@ -129275,11 +129295,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 11,
         he: "וחד מעצמו למד מקצת ודבר אחר",
-        en: "This direct teaching: the parochet derives from the inner service via an explicit verse, not pure analogy.",
+        en: "learns partly on its own, with the other's help for the rest,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l05"
+        ]
       },
       {
         id: "rashi-yoma-057a-012",
@@ -129287,11 +129309,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 12,
         he: "מסייעו במקצת ואין זה למד בהיקש",
-        en: "The golden altar receives seven sprinkles on its top surface.",
+        en: "and this is not a case of learning by pure analogy.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l05"
+        ]
       },
       {
         id: "rashi-yoma-057a-013",
@@ -129299,11 +129323,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 13,
         he: "והיכי דמי היקש שאין חוזר ומלמד",
-        en: "The source verse: 'as you do to the Tent of Meeting' - connecting golden altar to inner service.",
+        en: "And what would a genuine analogy that cannot itself teach further",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l05"
+        ]
       },
       {
         id: "rashi-yoma-057a-014",
@@ -129311,11 +129337,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 14,
         he: "בהו כגון אם לא נאמר למטה",
-        en: "HP sprinkles seven times on top of the golden altar from the combined blood.",
+        en: "look like? For example, if the lower sprinkling",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l05"
+        ]
       },
       {
         id: "rashi-yoma-057a-015",
@@ -129323,11 +129351,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 15,
         he: "בשעיר כלל או למעלה בפר לא נאמר",
-        en: "This is derived from the verse connecting the Tent of Meeting service to the golden altar service.",
+        en: "for the goat were not stated at all, or the upper for the bull were not stated",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l05"
+        ]
       },
       {
         id: "rashi-yoma-057a-016",
@@ -129335,11 +129365,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 16,
         he: "כלל ולמדו הבהמות זו מזו בהיקש היינו",
-        en: "The golden altar: smaller than the outer altar, plated in gold, inside the Heichal.",
+        en: "at all, and the animals learned from each other by analogy alone - that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l05"
+        ]
       },
       {
         id: "rashi-yoma-057a-017",
@@ -129347,11 +129379,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 17,
         he: "היקש שאינו חוזר ומלמד בהיקש:",
-        en: "Also called the inner altar and the incense altar (used for ketoret).",
+        en: "would be an analogy that cannot in turn teach by analogy.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l05"
+        ]
       },
       {
         id: "rashi-yoma-057a-018",
@@ -129359,11 +129393,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 18,
         he: "הניחא למאן דאמר וכו'. פלוגתא",
-        en: "Also called the altar of gold - for its gold plating.",
+        en: "'This works out well according to the one who says, etc.' - this is a dispute",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l06"
+        ]
       },
       {
         id: "rashi-yoma-057a-019",
@@ -129371,11 +129407,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 19,
         he: "בזבחים בפרק איזהו מקומן (דף נז.):",
-        en: "Seven sprinkles on top: from the combined bull-and-goat blood.",
+        en: "in Zevachim, chapter Eizehu Mekoman (57a).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l06"
+        ]
       },
       {
         id: "rashi-yoma-057a-020",
@@ -129383,11 +129421,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 20,
         he: "מקומות הוא דגמרי מהדדי. אין זה",
-        en: "After the parochet service, the HP mixes the two bloods.",
+        en: "'It is the locations that are derived from one another' - this is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l08"
+        ]
       },
       {
         id: "rashi-yoma-057a-021",
@@ -129395,11 +129435,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 21,
         he: "היקש הלמד מן ההיקש שהרי בהיקש",
-        en: "From the combined blood he sprinkles seven times on the golden altar's top.",
+        en: "a case of an analogy learning from an analogy, since in the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l08"
+        ]
       },
       {
         id: "rashi-yoma-057a-022",
@@ -129407,11 +129449,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 22,
         he: "הראשון למדו בהמות זו מזו ועשה",
-        en: "The exact source verse for the golden altar service's sprinkling.",
+        en: "first analogy, the animals learned from each other, 'and he shall do'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l08"
+        ]
       },
       {
         id: "rashi-yoma-057a-023",
@@ -129419,11 +129463,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 23,
         he: "את דמו כאשר עשה לדם הפר",
-        en: "The analogy chain question: does inner service teach parochet teach golden altar?",
+        en: "with its blood as he did with the blood of the bull,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l08"
+        ]
       },
       {
         id: "rashi-yoma-057a-024",
@@ -129431,11 +129477,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 24,
         he: "ובהיקש השני לא הוקש שום דבר",
-        en: "Ruling: the golden altar has its own verse - no chain analogy needed.",
+        en: "whereas in the second analogy nothing was juxtaposed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l08"
+        ]
       },
       {
         id: "rashi-yoma-057a-025",
@@ -129443,11 +129491,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 25,
         he: "לאחת מן הבהמות ללמוד ממנה מה",
-        en: "Each service has its own scriptural basis even if details within a service are analogized.",
+        en: "to either animal to learn from it what",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l08"
+        ]
       },
       {
         id: "rashi-yoma-057a-026",
@@ -129455,11 +129505,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 26,
         he: "שלמדה בהיקש מחברתה אלא",
-        en: "R. Yishmael and R. Akiva interpret the verse differently - but the service itself is not disputed.",
+        en: "it had learned from its counterpart by analogy; rather,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l08"
+        ]
       },
       {
         id: "rashi-yoma-057a-027",
@@ -129467,11 +129519,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 27,
         he: "המקומות הוקשו זה לזה וכן יעשה",
-        en: "The golden altar service is unanimous - only the derivation pathway is debated.",
+        en: "the locations were juxtaposed to each other, 'and so shall he do'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l08"
+        ]
       },
       {
         id: "rashi-yoma-057a-028",
@@ -129479,11 +129533,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 28,
         he: "לאהל מועד כאשר כפר על הקודש",
-        en: "Seven times on top: all seven sprinkles on the altar's surface, not the horns.",
+        en: "'for the Tent of Meeting, as he atoned for the Sanctuary' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l08"
+        ]
       },
       {
         id: "rashi-yoma-057a-029",
@@ -129491,11 +129547,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 29,
         he: "והקודש לא למד כלום מתחלה בהיקש",
-        en: "Below the chut ha-sikra line: the horns receive corner sprinkles from individual bloods.",
+        en: "and the Sanctuary itself never learned anything by analogy from the start;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l08"
+        ]
       },
       {
         id: "rashi-yoma-057a-030",
@@ -129503,11 +129561,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 30,
         he: "אלא הפר הוקש לשעיר והשעיר לפר",
-        en: "The corners receive individual blood (bull alone, goat alone) before mixing.",
+        en: "rather, the bull was juxtaposed to the goat and the goat to the bull,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l08"
+        ]
       },
       {
         id: "rashi-yoma-057a-031",
@@ -129515,11 +129575,14 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 31,
         he: "במתנות הקודש: ואי בעית אימא חוץ",
-        en: "The corners and top are separate sub-services with different bloods.",
+        en: "regarding the sprinklings in the Sanctuary. 'And if you wish, say instead: the outer service'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l08",
+          "yoma-057a-l09"
+        ]
       },
       {
         id: "rashi-yoma-057a-032",
@@ -129527,11 +129590,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 32,
         he: "מפנים בחד זימנא גמר. אי נמי",
-        en: "This order is derived from the verse structure.",
+        en: "learned from the inner service in a single derivation. Or alternatively,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l09"
+        ]
       },
       {
         id: "rashi-yoma-057a-033",
@@ -129539,11 +129604,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 33,
         he: "סבירא לן דפנים בהיקש למד יכול",
-        en: "Four corners first (individual bloods), then seven on top (mixed blood).",
+        en: "we hold that since the inner service learned by analogy, it can",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l09"
+        ]
       },
       {
         id: "rashi-yoma-057a-034",
@@ -129551,11 +129618,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 34,
         he: "לחזור וללמוד על ההיכל בבת אחת",
-        en: "HP completes corner sprinkles from bull's blood first.",
+        en: "turn and teach the Heichal all at once",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l09"
+        ]
       },
       {
         id: "rashi-yoma-057a-035",
@@ -129563,11 +129632,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 35,
         he: "מה שכתוב בו בפירוש כגון אחת",
-        en: "Then from goat's blood on the corners.",
+        en: "both what is explicitly written in it, such as one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l09"
+        ]
       },
       {
         id: "rashi-yoma-057a-036",
@@ -129575,11 +129646,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 36,
         he: "למעלה בשעיר ושבע למטה בפר",
-        en: "Then mixes and sprinkles seven on top.",
+        en: "above for the goat and seven below for the bull,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l09"
+        ]
       },
       {
         id: "rashi-yoma-057a-037",
@@ -129587,11 +129660,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 37,
         he: "ועמהם אף מה שלמד בהיקש והיכי",
-        en: "The mixing happens only after both corner services are complete.",
+        en: "and along with them also what it learned by analogy. And what",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l09"
+        ]
       },
       {
         id: "rashi-yoma-057a-038",
@@ -129599,11 +129674,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 38,
         he: "דמי היקש שאינו למד מן ההיקש כגון",
-        en: "The order cannot be reversed without affecting the service's validity.",
+        en: "would an analogy that does not itself learn from a further analogy look like? For example,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l09"
+        ]
       },
       {
         id: "rashi-yoma-057a-039",
@@ -129611,11 +129688,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 39,
         he: "אם לא הוצרך היכל ללמוד מן לפניי",
-        en: "If reversed, the service's validity requires analysis.",
+        en: "if the Heichal had needed to learn only from the innermost",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l09"
+        ]
       },
       {
         id: "rashi-yoma-057a-040",
@@ -129623,11 +129702,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 40,
         he: "ולפנים אלא מה שלמד בהיקש אבל",
-        en: "Corner and top sprinkles have separate scriptural sources.",
+        en: "service what was learned by analogy, and not also its explicit teaching - but",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l09"
+        ]
       },
       {
         id: "rashi-yoma-057a-041",
@@ -129635,11 +129716,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 41,
         he: "השתא דהוצרך ללמוד ממנו את",
-        en: "Each is a distinct sub-service with its own derivation.",
+        en: "now that it needed to learn from it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l09"
+        ]
       },
       {
         id: "rashi-yoma-057a-042",
@@ -129647,11 +129730,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 42,
         he: "המפורש בו למד הכל בבת אחת:",
-        en: "The principle of no analogy-from-analogy protects against over-extension of Temple law.",
+        en: "the explicit teaching as well, it learns everything all at once.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l09"
+        ]
       },
       {
         id: "rashi-yoma-057a-043",
@@ -129659,11 +129744,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 43,
         he: "אני ראיתיה ברומי. במסכת מעילה",
-        en: "Safeguard: derived law cannot extend beyond its original derivation.",
+        en: "'I saw it in Rome' - in tractate Me'ilah",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l10"
+        ]
       },
       {
         id: "rashi-yoma-057a-044",
@@ -129671,11 +129758,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 44,
         he: "(דף יז:) גבי בן תלמיון נעשה נס לר'",
-        en: "In Yom Kippur, this principle is tested by the layered nature of the services.",
+        en: "(17b), regarding Ben Talmiyon: a miracle occurred for R.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l10"
+        ]
       },
       {
         id: "rashi-yoma-057a-045",
@@ -129683,11 +129772,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 45,
         he: "אלעזר בר' יוסי שריפא את בת מלך",
-        en: "Conclusion: each service has its own verse; analogies fill gaps within a service only.",
+        en: "Elazar bar R. Yosei, who healed the daughter of the king",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l10"
+        ]
       },
       {
         id: "rashi-yoma-057a-046",
@@ -129695,11 +129786,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 46,
         he: "רומי שנכנס שד בגופה ששמו בן",
-        en: "The HP moves through the services in fixed order, each grounded in Scripture.",
+        en: "of Rome, into whose body a demon named Ben",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l10"
+        ]
       },
       {
         id: "rashi-yoma-057a-047",
@@ -129707,11 +129800,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 47,
         he: "תלמיון והכניסוהו לאוצר המלך ליטול כל",
-        en: "Golden altar purified; HP proceeds to the outer altar.",
+        en: "Talmiyon had entered. They brought him into the king's treasury to take whatever",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l10"
+        ]
       },
       {
         id: "rashi-yoma-057a-048",
@@ -129719,11 +129814,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 48,
         he: "מה שירצה ולא היה חפץ אלא ליטול",
-        en: "Remaining blood will go to the outer altar's western base.",
+        en: "he wished, but he desired only to take",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l10"
+        ]
       },
       {
         id: "rashi-yoma-057a-049",
@@ -129731,11 +129828,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 49,
         he: "משם איגרות שכתבו גזירות שגזרו",
-        en: "This marks the conclusion of the inner purification sequence.",
+        en: "from there the decrees written against",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l10"
+        ]
       },
       {
         id: "rashi-yoma-057a-050",
@@ -129743,11 +129842,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 50,
         he: "על ישראל ומצאם וקרעם ושם ראה",
-        en: "From kapporet (innermost) to parochet to golden altar to outer altar (outermost).",
+        en: "Israel, and he found them and tore them up, and there he",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l10"
+        ]
       },
       {
         id: "rashi-yoma-057a-051",
@@ -129755,11 +129856,14 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 51,
         he: "כלי בית המקדש באוצר: כסדרן.",
-        en: "Four zones: Holy of Holies, curtain, inner altar, outer court.",
+        en: "saw the vessels of the Temple in the treasury. 'In their order' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l10",
+          "yoma-057a-l15"
+        ]
       },
       {
         id: "rashi-yoma-057a-052",
@@ -129767,11 +129871,14 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 52,
         he: "מלמעלה למטה כמצליף: דמים",
-        en: "The HP traces the complete sacred geography of the Temple.",
+        en: "from top to bottom, like the motion of a whip. 'Blood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l15",
+          "yoma-057a-l22"
+        ]
       },
       {
         id: "rashi-yoma-057a-053",
@@ -129779,11 +129886,14 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 53,
         he: "בדמים. של פר ושל שעיר קודם שנתן בפנים כלום: באתרא דחשוכא.",
-        en: "Atonement radiates from the most to the least sacred.",
+        en: "with blood' - of the bull and of the goat, before he had placed any of it inside. 'In a place of darkness' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l22",
+          "yoma-057a-l24"
+        ]
       },
       {
         id: "rashi-yoma-057a-054",
@@ -129791,11 +129901,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 54,
         he: "בבבל שהיא מצולה: הא קא יהיב למעלה דשעיר. שנותן אחת",
-        en: "The spatial sequence is theologically intentional.",
+        en: "in Babylonia, which is submerged/low-lying. 'But he is giving the goat's above-sprinkling' - since he gives one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l24"
+        ]
       },
       {
         id: "rashi-yoma-057a-055",
@@ -129803,11 +129915,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 55,
         he: "למעלה לשם פר ולשם שעיר: וכלה מכפר. כלה הכפרות כמו שהן",
-        en: "Beginning where God's presence is most concentrated.",
+        en: "above-sprinkling on behalf of both the bull and the goat. 'And he shall complete atoning' - complete the atonements exactly as they",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l24"
+        ]
       },
       {
         id: "rashi-yoma-057a-056",
@@ -129815,11 +129929,14 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 56,
         he: "אמורות בענין: במתנות אחרונות. אחר שנתן אחת למעלה מן הפר:",
-        en: "Moving outward through each zone.",
+        en: "are stated in the passage. 'In the final sprinklings' - after he has given the one above-sprinkling from the bull.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l24",
+          "yoma-057a-l33"
+        ]
       },
       {
         id: "rashi-yoma-057a-057",
@@ -129827,11 +129944,13 @@ const DAF_CONTENT = {
         daf: "57a",
         vilnaLine: 57,
         he: "כוסות",
-        en: "The blood is the medium that purifies each zone in sequence.",
+        en: "'Cups' - the daf ends here; the comment's own explanation is deferred to 57b, introducing a new case where the Kohen Gadol can no longer distinguish which cup holds the bull's blood and which holds the goat's.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-057a-l36"
+        ]
       }
     ],
     review: "reviewed"

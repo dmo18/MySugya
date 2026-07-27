@@ -1,658 +1,777 @@
 {
-  "canonicalRef": "Yoma 57a",
-  "summary": "Two major topics: First, the hermeneutic principle that analogy cannot generate further analogy (hekkesh mi-hekkesh). Since the parochet service was derived by analogy from the inner service, the golden altar cannot in turn be derived by analogy from the parochet - a direct verse is required. The Gemara identifies 'as you shall do to the Tent of Meeting.' Second, the golden altar service itself: the HP sprinkles on the four corners from individual bull and goat blood (kept separate at this stage), then mixes both bloods and sprinkles seven times on the altar's top surface.",
-  "sugyot": [
+ "canonicalRef": "Yoma 57a",
+ "summary": "Two major topics: First, the hermeneutic principle that analogy cannot generate further analogy (hekkesh mi-hekkesh). Since the parochet service was derived by analogy from the inner service, the golden altar cannot in turn be derived by analogy from the parochet - a direct verse is required. The Gemara identifies 'as you shall do to the Tent of Meeting.' Second, the golden altar service itself: the HP sprinkles on the four corners from individual bull and goat blood (kept separate at this stage), then mixes both bloods and sprinkles seven times on the altar's top surface.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-057a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 9
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-057a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 9
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.57a.1"
-        },
-        {
-          "vilnaLine": 4,
-          "sefariaRef": "Yoma.57a.2"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.57a.3"
-        },
-        {
-          "vilnaLine": 6,
-          "sefariaRef": "Yoma.57a.4"
-        },
-        {
-          "vilnaLine": 8,
-          "sefariaRef": "Yoma.57a.5"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.57a.6"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.57a.1",
-        "Yoma.57a.2",
-        "Yoma.57a.3",
-        "Yoma.57a.4",
-        "Yoma.57a.5",
-        "Yoma.57a.6"
-      ],
-      "display": {
-        "whats": "Analogy cannot derive from analogy; golden altar needs its own verse",
-        "hint": "A key hermeneutic principle: a law derived by analogy cannot itself serve as the basis for a further analogy. The golden altar's sprinkling therefore requires its own direct biblical source ('as you shall do to the Tent of Meeting').",
-        "title": "Parochet Service Derived by Analogy from Inner Service"
-      },
-      "learning": {
-        "ahaMoment": "Analogy is a one-generation tool in halachic law - you can derive from explicit text, but what you derive cannot generate further derivations by analogy. Each link in the chain needs its own explicit ground.",
-        "memoryAnchor": "Hekkesh cannot teach hekkesh: every link needs its own anchor, not just a connection to the previous link.",
-        "learnerQuestion": "Is the parochet blood service explicitly described in the Torah, or is it derived by analogy from the inner Holy of Holies service?",
-        "coreTension": "The Torah's Yom Kippur passage explicitly describes the inner sprinkling but is less explicit about the parochet; if the parochet service is purely derived by analogy, its status and precise details may be weaker than if it has a direct verse.",
-        "coreMove": "The Talmud derives the parochet sprinkling service primarily through analogy with the inner service, using verbal parallels in the Torah passage to establish that the same pattern applies to the parochet.",
-        "takeaway": {
-          "type": "derivation_principle",
-          "text": "The parochet blood sprinkling service is derived through analogy with the inner Holy of Holies service; the Torah's parallel language for the inner and outer services establishes that the same count and pattern apply to both."
-        },
-        "learningBlocker": "Students may assume every ritual action on Yom Kippur has an explicit verse; the derivation of the parochet service by analogy is a significant example of how the Oral Torah structures what the Torah implies."
-      },
-      "argumentFlow": [
-        {
-          "type": "question",
-          "speaker": "Gemara",
-          "text": "Can the golden altar service be derived by analogy from the parochet, which was itself derived by analogy?",
-          "id": "yoma-057a-l01",
-          "label": "Question: Can the golden altar service be derived",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-057a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "principle",
-          "speaker": "Gemara",
-          "text": "No - hekkesh mi-hekkesh (analogy from analogy) is not applied in sacrificial law.",
-          "id": "yoma-057a-l04",
-          "label": "Principle: No - hekkesh mi-hekkesh (analogy from analogy)",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-057a-l04",
-              "vilnaLine": 4
-            }
-          ]
-        },
-        {
-          "type": "solution",
-          "speaker": "Gemara",
-          "text": "The verse 'as you shall do to the Tent of Meeting' directly establishes the golden altar service.",
-          "id": "yoma-057a-l05",
-          "label": "Solution: The verse 'as you shall do to",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-057a-l05",
-              "vilnaLine": 5
-            }
-          ]
-        },
-        {
-          "type": "nuance",
-          "speaker": "Gemara",
-          "text": "The inner bull-goat analogy may not be a pure analogy since both have explicit texts, only the count is analogized.",
-          "id": "yoma-057a-l08",
-          "label": "Nuance: The inner bull-goat analogy may not be",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-057a-l08",
-              "vilnaLine": 8
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "hekkesh mi-hekkesh",
-        "no analogy from analogy",
-        "golden altar",
-        "direct verse",
-        "derivation limit"
-      ],
-      "concepts": {
-        "halachic": [
-          "hermeneutic principle: no chain analogy",
-          "golden altar service requires direct verse"
-        ],
-        "theological": [
-          "limits of analogical reasoning",
-          "scriptural directness in matters of highest sanctity"
-        ],
-        "narrative": [
-          "talmudic hermeneutics",
-          "Zevachim principle"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Understanding the principle that hekkesh cannot teach hekkesh",
-        "Knowing the verse 'as you shall do to the Tent of Meeting'"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The parochet has its own direct verse specifying its blood sprinkling service, independent of the inner service.",
-          "correction": "The parochet blood sprinkling service is primarily derived by analogy from the inner service, using the Torah's parallel language; it does not have the same independent explicit source as the inner kapporet service."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "name": "direct verse vs. analogy-from-analogy"
-        },
-        {
-          "type": "text",
-          "name": "'as you shall do to the Tent of Meeting' verse"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Because the parochet itself was derived by analogy from the inner service, and halachic law (hekkesh mi-hekkesh principle) prohibits deriving law by analogy from a ruling that was itself derived by analogy.",
-          "question": "Why can't the golden altar service be derived by analogy from the parochet sprinkling?"
-        }
-      ],
-      "finalRuling": "Analogy cannot generate further analogy in sacrificial law - the golden altar requires its own explicit biblical verse.",
-      "difficulty": "advanced",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.57a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-057a-s02",
-      "lineRange": {
-        "startVilnaLine": 10,
-        "endVilnaLine": 36
-      },
-      "lines": [
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.57a.7"
-        },
-        {
-          "vilnaLine": 14,
-          "sefariaRef": "Yoma.57a.8"
-        },
-        {
-          "vilnaLine": 15,
-          "sefariaRef": "Yoma.57a.9"
-        },
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.57a.10"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.57a.11"
-        },
-        {
-          "vilnaLine": 24,
-          "sefariaRef": "Yoma.57a.12"
-        },
-        {
-          "vilnaLine": 30,
-          "sefariaRef": "Yoma.57a.13"
-        },
-        {
-          "vilnaLine": 33,
-          "sefariaRef": "Yoma.57a.14"
-        },
-        {
-          "vilnaLine": 36,
-          "sefariaRef": "Yoma.57a.15"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.57a.7",
-        "Yoma.57a.8",
-        "Yoma.57a.9",
-        "Yoma.57a.10",
-        "Yoma.57a.11",
-        "Yoma.57a.12",
-        "Yoma.57a.13",
-        "Yoma.57a.14",
-        "Yoma.57a.15"
-      ],
-      "display": {
-        "whats": "Golden altar service: corner sprinkles from separate bloods, then seven on top from mixed blood",
-        "hint": "The HP sprinkles on the golden altar's four corners from the bull's blood alone, then from the goat's blood alone, then mixes both bloods and sprinkles seven times on the altar's top surface.",
-        "title": "Golden Altar - Two Distinct Sub-Services"
-      },
-      "learning": {
-        "ahaMoment": "The golden altar unifies what all other services kept separate: the bull and goat bloods converge at this altar, mixed for the top sprinkles. The inner services were separate; the golden altar synthesis is the only point where both bloods combine.",
-        "memoryAnchor": "Corner sprinkles separate, top sprinkles combined: the golden altar is where the two atonement streams finally merge.",
-        "learnerQuestion": "What two distinct sub-services does the golden altar receive on Yom Kippur, and what is the count for each?",
-        "coreTension": "The golden altar receives blood on Yom Kippur, but the precise application - whether on the corners, on the top, or in the air above - must be established, and the count for each sub-service is defined separately.",
-        "coreMove": "The Talmud distinguishes two sub-services for the golden altar: applications of blood onto the corners (horns) of the altar, and sprinklings onto its top surface - each derived separately and forming distinct components of the golden altar service.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The golden altar receives two distinct blood services on Yom Kippur: applications onto the four corners (horns) of the altar, and additional sprinklings onto the top surface - each is a separate ritual act with its own derivation."
-        },
-        "learningBlocker": "Students may lump the golden altar service into a single undifferentiated act; the distinction between corner (horn) applications and top-surface sprinklings is a technical detail they are likely to overlook."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Mishnah",
-          "text": "HP sprinkles on the four corners of the golden altar from bull's blood, then from goat's blood.",
-          "id": "yoma-057a-l10",
-          "label": "Ruling: HP sprinkles on the four corners of",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-057a-l10",
-              "vilnaLine": 10
-            }
-          ]
-        },
-        {
-          "type": "ruling",
-          "speaker": "Mishnah",
-          "text": "After corner sprinkles: he mixes both bloods and sprinkles seven times on the altar's top.",
-          "id": "yoma-057a-l14",
-          "label": "Ruling: After corner sprinkles: he mixes both bloods",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-057a-l14",
-              "vilnaLine": 14
-            }
-          ]
-        },
-        {
-          "type": "question",
-          "speaker": "Gemara",
-          "text": "What is the source for mixing the blood before the top sprinkles?",
-          "id": "yoma-057a-l22",
-          "label": "Question: What is the source for mixing the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-057a-l22",
-              "vilnaLine": 22
-            }
-          ]
-        },
-        {
-          "type": "answer",
-          "speaker": "Gemara",
-          "text": "Derived from the verse structure - mixing follows the individual corner services.",
-          "id": "yoma-057a-l30",
-          "label": "Answer: Derived from the verse structure - mixing",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-057a-l30",
-              "vilnaLine": 30
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "golden altar",
-        "corner sprinkles",
-        "blood mixing",
-        "seven on top",
-        "two sub-services"
-      ],
-      "concepts": {
-        "halachic": [
-          "golden altar service",
-          "individual blood corners",
-          "combined blood top",
-          "blood mixing timing"
-        ],
-        "theological": [
-          "convergence of atonement streams",
-          "bull and goat united at the golden altar"
-        ],
-        "narrative": [
-          "sequence of inner altar service",
-          "sacred synthesis"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing the golden altar is the incense altar inside the Heichal",
-        "Knowing corner sprinkles use individual blood while top sprinkles use mixed blood"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The sprinklings on the golden altar all go on the top surface - there is only one type of application there.",
-          "correction": "The golden altar receives two distinct sub-services: applications on the corners (horns) and sprinklings onto the top surface; these are separate acts with different purposes and derivations."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "object",
-          "name": "golden altar (incense altar)"
-        },
-        {
-          "type": "sequence",
-          "name": "corners individual then mix then top combined"
-        },
-        {
-          "type": "action",
-          "name": "mixing the two bloods for the top service"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "First he sprinkles on the four corners from bull blood only, then from goat blood only. Then he mixes both bloods and sprinkles seven times on the top surface.",
-          "question": "How does the HP use the bull and goat blood on the golden altar?"
-        }
-      ],
-      "finalRuling": "The HP sprinkles individual blood on the golden altar's corners, then mixes both bloods and sprinkles seven times on the top surface.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 4,
+     "sefariaRef": "Yoma.57a.2"
+    },
+    {
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.57a.3"
+    },
+    {
+     "vilnaLine": 6,
+     "sefariaRef": "Yoma.57a.4"
+    },
+    {
+     "vilnaLine": 8,
+     "sefariaRef": "Yoma.57a.5"
+    },
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.57a.6"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.57a.1",
+    "Yoma.57a.2",
+    "Yoma.57a.3",
+    "Yoma.57a.4",
+    "Yoma.57a.5",
+    "Yoma.57a.6"
+   ],
+   "display": {
+    "whats": "Analogy cannot derive from analogy; golden altar needs its own verse",
+    "hint": "A key hermeneutic principle: a law derived by analogy cannot itself serve as the basis for a further analogy. The golden altar's sprinkling therefore requires its own direct biblical source ('as you shall do to the Tent of Meeting').",
+    "title": "Parochet Service Derived by Analogy from Inner Service"
+   },
+   "learning": {
+    "ahaMoment": "Analogy is a one-generation tool in halachic law - you can derive from explicit text, but what you derive cannot generate further derivations by analogy. Each link in the chain needs its own explicit ground.",
+    "memoryAnchor": "Hekkesh cannot teach hekkesh: every link needs its own anchor, not just a connection to the previous link.",
+    "learnerQuestion": "Is the parochet blood service explicitly described in the Torah, or is it derived by analogy from the inner Holy of Holies service?",
+    "coreTension": "The Torah's Yom Kippur passage explicitly describes the inner sprinkling but is less explicit about the parochet; if the parochet service is purely derived by analogy, its status and precise details may be weaker than if it has a direct verse.",
+    "coreMove": "The Talmud derives the parochet sprinkling service primarily through analogy with the inner service, using verbal parallels in the Torah passage to establish that the same pattern applies to the parochet.",
+    "takeaway": {
+     "type": "derivation_principle",
+     "text": "The parochet blood sprinkling service is derived through analogy with the inner Holy of Holies service; the Torah's parallel language for the inner and outer services establishes that the same count and pattern apply to both."
+    },
+    "learningBlocker": "Students may assume every ritual action on Yom Kippur has an explicit verse; the derivation of the parochet service by analogy is a significant example of how the Oral Torah structures what the Torah implies."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "Now they are certainly impure - you are definitely impure; the Shechina does not dwell amid impurity.",
-      "linkedGemaraLineIds": []
+     "type": "question",
+     "speaker": "Gemara",
+     "text": "Can the golden altar service be derived by analogy from the parochet, which was itself derived by analogy?",
+     "id": "yoma-057a-l01",
+     "label": "Question: Can the golden altar service be derived",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-057a-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "A matter learned by analogy - such as the bull's upper sprinkle learned from the goat by analogy, and the goat's seven below from the bull by analogy.",
-      "linkedGemaraLineIds": []
+     "type": "principle",
+     "speaker": "Gemara",
+     "text": "No - hekkesh mi-hekkesh (analogy from analogy) is not applied in sacrificial law.",
+     "id": "yoma-057a-l04",
+     "label": "Principle: No - hekkesh mi-hekkesh (analogy from analogy)",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-057a-l04",
+       "vilnaLine": 4
+      }
+     ]
     },
     {
-      "vilnaLine": 3,
-      "en": "These in turn teach the parochet sprinklings by further analogy? No - analogy cannot teach from analogy.",
-      "linkedGemaraLineIds": []
+     "type": "solution",
+     "speaker": "Gemara",
+     "text": "The verse 'as you shall do to the Tent of Meeting' directly establishes the golden altar service.",
+     "id": "yoma-057a-l05",
+     "label": "Solution: The verse 'as you shall do to",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-057a-l05",
+       "vilnaLine": 5
+      }
+     ]
     },
     {
-      "vilnaLine": 4,
-      "en": "As you shall do for the Tent of Meeting - this verse connects the golden altar to the inner services directly.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "en": "And we hold in Zevachim - in sacrificial matters we do not apply analogy from analogy.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "en": "Therefore this verse is needed to provide a direct basis for the golden altar service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "en": "From it and another matter - the first analogy between bull and goat is not truly an analogy,",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "en": "since both bull and goat have explicit upper and lower sprinkles written for them.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "en": "They only needed to learn from each other the count of the lower sprinkles.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "en": "Therefore each is still considered explicit and can independently teach the parochet via its own verse.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "en": "This direct teaching: the parochet derives from the inner service via an explicit verse, not pure analogy.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "en": "The golden altar receives seven sprinkles on its top surface.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "en": "The source verse: 'as you do to the Tent of Meeting' - connecting golden altar to inner service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "HP sprinkles seven times on top of the golden altar from the combined blood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "This is derived from the verse connecting the Tent of Meeting service to the golden altar service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "The golden altar: smaller than the outer altar, plated in gold, inside the Heichal.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "Also called the inner altar and the incense altar (used for ketoret).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Also called the altar of gold - for its gold plating.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "Seven sprinkles on top: from the combined bull-and-goat blood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "After the parochet service, the HP mixes the two bloods.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "From the combined blood he sprinkles seven times on the golden altar's top.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "The exact source verse for the golden altar service's sprinkling.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "The analogy chain question: does inner service teach parochet teach golden altar?",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "Ruling: the golden altar has its own verse - no chain analogy needed.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Each service has its own scriptural basis even if details within a service are analogized.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "R. Yishmael and R. Akiva interpret the verse differently - but the service itself is not disputed.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "The golden altar service is unanimous - only the derivation pathway is debated.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Seven times on top: all seven sprinkles on the altar's surface, not the horns.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "Below the chut ha-sikra line: the horns receive corner sprinkles from individual bloods.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "The corners receive individual blood (bull alone, goat alone) before mixing.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "The corners and top are separate sub-services with different bloods.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "This order is derived from the verse structure.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "Four corners first (individual bloods), then seven on top (mixed blood).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "HP completes corner sprinkles from bull's blood first.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "Then from goat's blood on the corners.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "Then mixes and sprinkles seven on top.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "The mixing happens only after both corner services are complete.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "The order cannot be reversed without affecting the service's validity.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "If reversed, the service's validity requires analysis.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "Corner and top sprinkles have separate scriptural sources.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "Each is a distinct sub-service with its own derivation.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "The principle of no analogy-from-analogy protects against over-extension of Temple law.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Safeguard: derived law cannot extend beyond its original derivation.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "In Yom Kippur, this principle is tested by the layered nature of the services.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Conclusion: each service has its own verse; analogies fill gaps within a service only.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "en": "The HP moves through the services in fixed order, each grounded in Scripture.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "en": "Golden altar purified; HP proceeds to the outer altar.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "en": "Remaining blood will go to the outer altar's western base.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "en": "This marks the conclusion of the inner purification sequence.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "en": "From kapporet (innermost) to parochet to golden altar to outer altar (outermost).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "en": "Four zones: Holy of Holies, curtain, inner altar, outer court.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 52,
-      "en": "The HP traces the complete sacred geography of the Temple.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 53,
-      "en": "Atonement radiates from the most to the least sacred.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 54,
-      "en": "The spatial sequence is theologically intentional.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 55,
-      "en": "Beginning where God's presence is most concentrated.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 56,
-      "en": "Moving outward through each zone.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 57,
-      "en": "The blood is the medium that purifies each zone in sequence.",
-      "linkedGemaraLineIds": []
+     "type": "nuance",
+     "speaker": "Gemara",
+     "text": "The inner bull-goat analogy may not be a pure analogy since both have explicit texts, only the count is analogized.",
+     "id": "yoma-057a-l08",
+     "label": "Nuance: The inner bull-goat analogy may not be",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-057a-l08",
+       "vilnaLine": 8
+      }
+     ]
     }
-  ],
-  "review": "reviewed"
+   ],
+   "topicTags": [
+    "hekkesh mi-hekkesh",
+    "no analogy from analogy",
+    "golden altar",
+    "direct verse",
+    "derivation limit"
+   ],
+   "concepts": {
+    "halachic": [
+     "hermeneutic principle: no chain analogy",
+     "golden altar service requires direct verse"
+    ],
+    "theological": [
+     "limits of analogical reasoning",
+     "scriptural directness in matters of highest sanctity"
+    ],
+    "narrative": [
+     "talmudic hermeneutics",
+     "Zevachim principle"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Understanding the principle that hekkesh cannot teach hekkesh",
+    "Knowing the verse 'as you shall do to the Tent of Meeting'"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The parochet has its own direct verse specifying its blood sprinkling service, independent of the inner service.",
+     "correction": "The parochet blood sprinkling service is primarily derived by analogy from the inner service, using the Torah's parallel language; it does not have the same independent explicit source as the inner kapporet service."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "name": "direct verse vs. analogy-from-analogy"
+    },
+    {
+     "type": "text",
+     "name": "'as you shall do to the Tent of Meeting' verse"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Because the parochet itself was derived by analogy from the inner service, and halachic law (hekkesh mi-hekkesh principle) prohibits deriving law by analogy from a ruling that was itself derived by analogy.",
+     "question": "Why can't the golden altar service be derived by analogy from the parochet sprinkling?"
+    }
+   ],
+   "finalRuling": "Analogy cannot generate further analogy in sacrificial law - the golden altar requires its own explicit biblical verse.",
+   "difficulty": "advanced",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-057a-s02",
+   "lineRange": {
+    "startVilnaLine": 10,
+    "endVilnaLine": 36
+   },
+   "lines": [
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.57a.7"
+    },
+    {
+     "vilnaLine": 14,
+     "sefariaRef": "Yoma.57a.8"
+    },
+    {
+     "vilnaLine": 15,
+     "sefariaRef": "Yoma.57a.9"
+    },
+    {
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.57a.10"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.57a.11"
+    },
+    {
+     "vilnaLine": 24,
+     "sefariaRef": "Yoma.57a.12"
+    },
+    {
+     "vilnaLine": 30,
+     "sefariaRef": "Yoma.57a.13"
+    },
+    {
+     "vilnaLine": 33,
+     "sefariaRef": "Yoma.57a.14"
+    },
+    {
+     "vilnaLine": 36,
+     "sefariaRef": "Yoma.57a.15"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.57a.7",
+    "Yoma.57a.8",
+    "Yoma.57a.9",
+    "Yoma.57a.10",
+    "Yoma.57a.11",
+    "Yoma.57a.12",
+    "Yoma.57a.13",
+    "Yoma.57a.14",
+    "Yoma.57a.15"
+   ],
+   "display": {
+    "whats": "Golden altar service: corner sprinkles from separate bloods, then seven on top from mixed blood",
+    "hint": "The HP sprinkles on the golden altar's four corners from the bull's blood alone, then from the goat's blood alone, then mixes both bloods and sprinkles seven times on the altar's top surface.",
+    "title": "Golden Altar - Two Distinct Sub-Services"
+   },
+   "learning": {
+    "ahaMoment": "The golden altar unifies what all other services kept separate: the bull and goat bloods converge at this altar, mixed for the top sprinkles. The inner services were separate; the golden altar synthesis is the only point where both bloods combine.",
+    "memoryAnchor": "Corner sprinkles separate, top sprinkles combined: the golden altar is where the two atonement streams finally merge.",
+    "learnerQuestion": "What two distinct sub-services does the golden altar receive on Yom Kippur, and what is the count for each?",
+    "coreTension": "The golden altar receives blood on Yom Kippur, but the precise application - whether on the corners, on the top, or in the air above - must be established, and the count for each sub-service is defined separately.",
+    "coreMove": "The Talmud distinguishes two sub-services for the golden altar: applications of blood onto the corners (horns) of the altar, and sprinklings onto its top surface - each derived separately and forming distinct components of the golden altar service.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The golden altar receives two distinct blood services on Yom Kippur: applications onto the four corners (horns) of the altar, and additional sprinklings onto the top surface - each is a separate ritual act with its own derivation."
+    },
+    "learningBlocker": "Students may lump the golden altar service into a single undifferentiated act; the distinction between corner (horn) applications and top-surface sprinklings is a technical detail they are likely to overlook."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Mishnah",
+     "text": "HP sprinkles on the four corners of the golden altar from bull's blood, then from goat's blood.",
+     "id": "yoma-057a-l10",
+     "label": "Ruling: HP sprinkles on the four corners of",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-057a-l10",
+       "vilnaLine": 10
+      }
+     ]
+    },
+    {
+     "type": "ruling",
+     "speaker": "Mishnah",
+     "text": "After corner sprinkles: he mixes both bloods and sprinkles seven times on the altar's top.",
+     "id": "yoma-057a-l14",
+     "label": "Ruling: After corner sprinkles: he mixes both bloods",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-057a-l14",
+       "vilnaLine": 14
+      }
+     ]
+    },
+    {
+     "type": "question",
+     "speaker": "Gemara",
+     "text": "What is the source for mixing the blood before the top sprinkles?",
+     "id": "yoma-057a-l22",
+     "label": "Question: What is the source for mixing the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-057a-l22",
+       "vilnaLine": 22
+      }
+     ]
+    },
+    {
+     "type": "answer",
+     "speaker": "Gemara",
+     "text": "Derived from the verse structure - mixing follows the individual corner services.",
+     "id": "yoma-057a-l30",
+     "label": "Answer: Derived from the verse structure - mixing",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-057a-l30",
+       "vilnaLine": 30
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "golden altar",
+    "corner sprinkles",
+    "blood mixing",
+    "seven on top",
+    "two sub-services"
+   ],
+   "concepts": {
+    "halachic": [
+     "golden altar service",
+     "individual blood corners",
+     "combined blood top",
+     "blood mixing timing"
+    ],
+    "theological": [
+     "convergence of atonement streams",
+     "bull and goat united at the golden altar"
+    ],
+    "narrative": [
+     "sequence of inner altar service",
+     "sacred synthesis"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Knowing the golden altar is the incense altar inside the Heichal",
+    "Knowing corner sprinkles use individual blood while top sprinkles use mixed blood"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The sprinklings on the golden altar all go on the top surface - there is only one type of application there.",
+     "correction": "The golden altar receives two distinct sub-services: applications on the corners (horns) and sprinklings onto the top surface; these are separate acts with different purposes and derivations."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "object",
+     "name": "golden altar (incense altar)"
+    },
+    {
+     "type": "sequence",
+     "name": "corners individual then mix then top combined"
+    },
+    {
+     "type": "action",
+     "name": "mixing the two bloods for the top service"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "First he sprinkles on the four corners from bull blood only, then from goat blood only. Then he mixes both bloods and sprinkles seven times on the top surface.",
+     "question": "How does the HP use the bull and goat blood on the golden altar?"
+    }
+   ],
+   "finalRuling": "The HP sprinkles individual blood on the golden altar's corners, then mixes both bloods and sprinkles seven times on the top surface.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'Now, indeed' - you are certainly impure, and the Divine Presence does not dwell among you in impurity.",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "'And can a matter learned by analogy in turn teach by analogy?' - for example, the bull, which learned its inner one-above sprinkling",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "from the goat by analogy, and the goat learned its seven-below from the bull by analogy, would these in turn teach",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "the parochet sprinklings by a further analogy from 'and so shall he do for the Tent of Meeting'?",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "And we hold in tractate Zevachim (49b)",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "that in sacred matters one does not learn an analogy from an analogy.",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l04"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "'From it, and another matter' - the first analogy is not truly",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "an analogy, since for both the bull and the goat",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "an upper and a lower sprinkling are explicitly written; they only needed to learn",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "the count from each other, so each one",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "learns partly on its own, with the other's help for the rest,",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "and this is not a case of learning by pure analogy.",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "And what would a genuine analogy that cannot itself teach further",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "look like? For example, if the lower sprinkling",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "for the goat were not stated at all, or the upper for the bull were not stated",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "at all, and the animals learned from each other by analogy alone - that",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "would be an analogy that cannot in turn teach by analogy.",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "'This works out well according to the one who says, etc.' - this is a dispute",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "in Zevachim, chapter Eizehu Mekoman (57a).",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l06"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "'It is the locations that are derived from one another' - this is not",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "a case of an analogy learning from an analogy, since in the",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "first analogy, the animals learned from each other, 'and he shall do'",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "with its blood as he did with the blood of the bull,'",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "whereas in the second analogy nothing was juxtaposed",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "to either animal to learn from it what",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "it had learned from its counterpart by analogy; rather,",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "the locations were juxtaposed to each other, 'and so shall he do'",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "'for the Tent of Meeting, as he atoned for the Sanctuary' -",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "and the Sanctuary itself never learned anything by analogy from the start;",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "rather, the bull was juxtaposed to the goat and the goat to the bull,",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l08"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "regarding the sprinklings in the Sanctuary. 'And if you wish, say instead: the outer service'",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l08",
+    "yoma-057a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "learned from the inner service in a single derivation. Or alternatively,",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "we hold that since the inner service learned by analogy, it can",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "turn and teach the Heichal all at once",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "both what is explicitly written in it, such as one",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "above for the goat and seven below for the bull,",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "and along with them also what it learned by analogy. And what",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "would an analogy that does not itself learn from a further analogy look like? For example,",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "if the Heichal had needed to learn only from the innermost",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "service what was learned by analogy, and not also its explicit teaching - but",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "now that it needed to learn from it",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "the explicit teaching as well, it learns everything all at once.",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l09"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "'I saw it in Rome' - in tractate Me'ilah",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "(17b), regarding Ben Talmiyon: a miracle occurred for R.",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "Elazar bar R. Yosei, who healed the daughter of the king",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "of Rome, into whose body a demon named Ben",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "Talmiyon had entered. They brought him into the king's treasury to take whatever",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "he wished, but he desired only to take",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "from there the decrees written against",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "Israel, and he found them and tore them up, and there he",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l10"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "saw the vessels of the Temple in the treasury. 'In their order' -",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l10",
+    "yoma-057a-l15"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "from top to bottom, like the motion of a whip. 'Blood",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l15",
+    "yoma-057a-l22"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "with blood' - of the bull and of the goat, before he had placed any of it inside. 'In a place of darkness' -",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l22",
+    "yoma-057a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "in Babylonia, which is submerged/low-lying. 'But he is giving the goat's above-sprinkling' - since he gives one",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "above-sprinkling on behalf of both the bull and the goat. 'And he shall complete atoning' - complete the atonements exactly as they",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l24"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "are stated in the passage. 'In the final sprinklings' - after he has given the one above-sprinkling from the bull.",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l24",
+    "yoma-057a-l33"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "'Cups' - the daf ends here; the comment's own explanation is deferred to 57b, introducing a new case where the Kohen Gadol can no longer distinguish which cup holds the bull's blood and which holds the goat's.",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l36"
+   ]
+  }
+ ],
+ "review": "reviewed"
 }
