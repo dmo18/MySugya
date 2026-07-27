@@ -135668,11 +135668,13 @@ const DAF_CONTENT = {
         daf: "59b",
         vilnaLine: 1,
         he: "אלא מדרבנן. מאן דאמר מועלין",
-        en: "The bull and goat are burned at the place of the ashes.",
+        en: "'But only by rabbinic law' - the one who says one may be liable for misuse of sacred property means only by rabbinic law, to pay",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059b-l01"
+        ]
       },
       {
         id: "rashi-yoma-059b-002",
@@ -135680,11 +135682,13 @@ const DAF_CONTENT = {
         daf: "59b",
         vilnaLine: 2,
         he: "מדרבנן קאמר לשלם קרן אבל",
-        en: "The burning is at the place where other sin-offering animals are burned.",
+        en: "the principal, but not to add the additional fifth",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059b-l01"
+        ]
       },
       {
         id: "rashi-yoma-059b-003",
@@ -135692,11 +135696,14 @@ const DAF_CONTENT = {
         daf: "59b",
         vilnaLine: 3,
         he: "מדאורייתא להוסיף חומש לא: מנא",
-        en: "Those who carry them out become impure.",
+        en: "by biblical law. 'From where are these matters",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059b-l01",
+          "yoma-059b-l02"
+        ]
       },
       {
         id: "rashi-yoma-059b-004",
@@ -135704,11 +135711,13 @@ const DAF_CONTENT = {
         daf: "59b",
         vilnaLine: 4,
         he: "הני מילי. דאין מעילה בדמים:",
-        en: "After immersing and waiting for sundown, they return.",
+        en: "derived' - that there is no misuse of sacred property regarding blood.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059b-l02"
+        ]
       },
       {
         id: "rashi-yoma-059b-005",
@@ -135716,11 +135725,13 @@ const DAF_CONTENT = {
         daf: "59b",
         vilnaLine: 5,
         he: "לכם. ואני נתתיו לכם (ויקרא יז) :",
-        en: "The burning concludes the physical processing of the Yom Kippur offerings.",
+        en: "'To you' - 'and I have given it to you' (Leviticus 17).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059b-l02"
+        ]
       },
       {
         id: "rashi-yoma-059b-006",
@@ -135728,11 +135739,13 @@ const DAF_CONTENT = {
         daf: "59b",
         vilnaLine: 6,
         he: "הוא. כי הדם הוא בנפש יכפר (שם)",
-        en: "After burning: no more formal obligations for the day.",
+        en: "'It' - 'for the blood, it is the life that atones' (ibid.);",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059b-l05"
+        ]
       },
       {
         id: "rashi-yoma-059b-007",
@@ -135740,11 +135753,13 @@ const DAF_CONTENT = {
         daf: "59b",
         vilnaLine: 7,
         he: "הוא כהוייתו לפני כפרה כלאחר",
-        en: "This is the final act of the Yom Kippur ritual complex.",
+        en: "'it' remains in its own state before atonement just as after",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059b-l05"
+        ]
       },
       {
         id: "rashi-yoma-059b-008",
@@ -135752,11 +135767,13 @@ const DAF_CONTENT = {
         daf: "59b",
         vilnaLine: 8,
         he: "כפרה לאחר כפרה אין בו מעילה",
-        en: "The day ends with all obligations fulfilled.",
+        en: "atonement: just as after atonement there is no misuse regarding it,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059b-l05"
+        ]
       },
       {
         id: "rashi-yoma-059b-009",
@@ -135764,11 +135781,13 @@ const DAF_CONTENT = {
         daf: "59b",
         vilnaLine: 9,
         he: "דכיון דנעשית מצותו תו לא קרינן ביה",
-        en: "The community waits for nightfall to break the fast.",
+        en: "since once its commandment has been fulfilled we no longer call it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059b-l05"
+        ]
       },
       {
         id: "rashi-yoma-059b-010",
@@ -135776,11 +135795,14 @@ const DAF_CONTENT = {
         daf: "59b",
         vilnaLine: 10,
         he: "קדשי ה': והרי תרומת הדשן. דכתיב בו",
-        en: "The end of Yom Kippur: a return to normal life after the most intense day.",
+        en: "'the holy things of the Lord.' 'But consider the removal of the ashes' - since it is written regarding it (ibid. 6), 'and he shall put it beside",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059b-l05",
+          "yoma-059b-l08"
+        ]
       },
       {
         id: "rashi-yoma-059b-011",
@@ -135788,11 +135810,13 @@ const DAF_CONTENT = {
         daf: "59b",
         vilnaLine: 11,
         he: "(שם ו) ושמו אצל המזבח דטעון גניזה",
-        en: "The fast has accomplished its purpose.",
+        en: "the altar,' meaning it requires burial, showing that benefiting from it is forbidden;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059b-l08"
+        ]
       },
       {
         id: "rashi-yoma-059b-012",
@@ -135800,11 +135824,13 @@ const DAF_CONTENT = {
         daf: "59b",
         vilnaLine: 12,
         he: "אלמא אסור בהנאה וכיון דבהנאה אסור",
-        en: "Israel stands before God after a full day of service, prayer, and fasting.",
+        en: "and since it is forbidden to benefit from it because of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059b-l08"
+        ]
       },
       {
         id: "rashi-yoma-059b-013",
@@ -135812,11 +135838,13 @@ const DAF_CONTENT = {
         daf: "59b",
         vilnaLine: 13,
         he: "משום קדושתו מעילה נמי אית ביה:",
-        en: "The atonement is complete.",
+        en: "its sanctity, misuse of sacred property also applies to it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059b-l08"
+        ]
       },
       {
         id: "rashi-yoma-059b-014",
@@ -135824,11 +135852,13 @@ const DAF_CONTENT = {
         daf: "59b",
         vilnaLine: 14,
         he: "ובגדי",
-        en: "A new year begins with a clean slate.",
+        en: "'And the garments of' - the daf ends mid-phrase here; the comment continues on 60a with 'the priesthood,' explaining the four white linen garments of the High Priest on Yom Kippur.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-059b-l08"
+        ]
       }
     ],
     review: "reviewed"
