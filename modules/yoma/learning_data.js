@@ -13267,7 +13267,7 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 1,
         he: "אמר לך ההוא אבנטו של כהן גדול לא זהו אבנטו וכו'. כלומר",
-        en: "He said to you: that one - the High Priest's belt - is not his belt. Meaning: the belt of the ordinary priest is not that belt (kilaim). So the command's 've-chagarta otam' (gird them together) still holds, and the two separate implementation verses teach material distinction: the High Priest's belt is kilaim (linen and wool), while the ordinary priest's belt is plain linen.",
+        en: "'He said to you: that one - the High Priest's belt - is not his belt' etc. Meaning:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -13281,7 +13281,7 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 2,
         he: "לעולם קרא דצוואה דווקא בבת אחת ובעשייה דפלגינהו ללמדנו",
-        en: "Always the verse of the command means literally together, and the implementation shows they are separate to teach us that the belts are not the same: the one described in the implementation (Exodus 39): 'and the belt of fine twisted linen and blue and purple' - we learn it is kilaim: linen is kitan and blue is wool.",
+        en: "the verse of the command always means literally at once, while the performance separates them, to teach us",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -13295,7 +13295,7 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 3,
         he: "בא שאין האבנטים שוין שנאמר במעשה האבנט של כהן גדול",
-        en: "And the sons' belt - the verse did not specify what it was made of, and this teaches us here that the High Priest's belt is not the ordinary priest's belt: this is kilaim and this is plain linen.",
+        en: "that the belts are not the same, as it is said regarding the making of the High Priest's belt",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -13309,357 +13309,7 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 4,
         he: "(שמות לט) ואת האבנט שש משזר תכלת וארגמן למדנו שהוא של",
-        en: "That belt. Meaning: both are kilaim.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l02"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-005",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 5,
-        he: "כלאים דשש כיתנא ותכלת עמרא",
-        en: "And can 'bvat achat' (simultaneously) actually be found - that Moses alone girds five people at once?",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l06"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-006",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 6,
-        he: "ואבנט הבנים לא פירש הכתוב ממה",
-        en: "Not necessary - not literally simultaneously is what he means, but rather one after another, but in one uninterrupted sequence without any other garment in between: he dressed Aaron in all his garments and did not gird him with the belt, and then began dressing the sons - tunic, mitre, trousers - and then took the belts and girded Aaron and afterward his sons. And for the one who says Aaron-then-sons as written in the implementation: 'va-yayten alav et ha-kutonet va-yachgor oto ba-avnet' in the garment sequence... and dressed him in all his garments; then 'he brought near Aaron's sons and dressed them in tunics and girded them with belts' - and did not gird Aaron and sons together.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l06"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-007",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 7,
-        he: "היו ואשמועינן הכא דאבנטו של כהן",
-        en: "Not for the one who says Aaron then sons as written in the implementation - and for the one who says together: as in the command. And for R. Yochanan as per his view (who derives from inauguration), or for Reish Lakish as per his view (who derives from Sinai).",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l06"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-008",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 8,
-        he: "גדול לא זהו אבנטו של כהן הדיוט",
-        en: "From his home - why did he separate. From his wife - why did he separate. Let his wife come with him to the Parhedrin chamber - the Parhedrin chamber was not consecrated, since sitting in the Temple courtyard is permitted only to Davidic kings - certainly sleeping.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l08"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-009",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 9,
-        he: "שזה של כלאים וזה של בוץ: זהו",
-        en: "The text reads: it was taught - Rabbi Yehuda ben Beteira says: lest his wife be found etc.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l11"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-010",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 10,
-        he: "אבנטו. כלומר שניהם של כלאים:",
-        en: "With wicked people we are dealing: that he would knowingly come to a safek niddah.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l13"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-011",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 11,
-        he: "ובבת אחת מי משכחת לה. שיהא",
-        en: "Rather: lest he come to his wife, and afterward she be found to be a safek niddah - she discovers blood on the sheet she cleaned herself with after he withdrew, and it is unknown whether it was blood during relations or blood after. And a bo'el niddah is impure for seven days and would be forbidden to enter the Temple on Yom Kippur.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l13"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-012",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 12,
-        he: "משה לבדו חוגר חמשה בני אדם",
-        en: "Like whom - like R. Akiva, who says a woman who sees blood renders her sexual partner impure retroactively, going back 24 hours as they enacted that she renders pure things impure retroactively. Their dispute is in Niddah, in the chapter 'Kol HaYad' (14a) and so we learned: the way of daughters of Israel is to service with two cloths, one for him and one for her. If found on his - both are impure for all seven days, for certainly there was blood during relations, since men do not emit blood. If found on hers - immediately, which in Yonit means 'right away,' they are certainly impure; found later - meaning a while later, they are uncertainly impure. And how much is 'later'? As much time as needed to descend from the bed and wash the face of the underside, and then it makes things impure retroactively and does not make him impure. And even more than this - she waited a long time to examine and then found - she is like other women: makes pure things impure retroactively for 24 hours and does not make him impure. And so is its explanation: and if more time elapsed and she then examined and found - she is like other women to make things impure retroactively for 24 hours and does not make him impure. For they did not enact the 24-hour retroactive impurity for the sexual partner. R. Akiva says: also makes her sexual partner impure.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l15"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-013",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 13,
-        he: "כאחת: לא צריכא דאקדים. לא",
-        en: "Rather: achar achar. Which waited more than 'achar zman' - the time which is 'otiyom' (Greek for immediately), and 'achar zman' is after 'otiyom' within the time it takes to descend and wash; and there it teaches: impure with uncertainty. And they do not disagree with R. Akiva. And in 'achar achar zman' they disagree as it says 'and then she makes her partner impure' - retroactively for 24 hours. But in 'chad achar' within 'achar zman,' which is within the time to descend and wash - they agree.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l18"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-014",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 14,
-        he: "בבת אחת ממש קאמר אלא זה אחר",
-        en: "Learn from it: from what it teaches that we separate for seven days, and we established the reason is concern about niddah impurity.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l21"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-015",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 15,
-        he: "זה אבל בסדר אחד היו ולא הפסיק",
-        en: "A bo'el niddah is not like a niddah: who is forbidden to immerse on the seventh day until night - rather he immerses on the seventh day, by day. Therefore he does not need more than seven days separation, and if he came to a niddah on the day of his separation in the evening, he counts the partial day as a full day like a niddah, and immerses on erev Yom Kippur, which is his seventh day, and at sunset he completes - and enters the Temple on Yom Kippur.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l21"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-016",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 16,
-        he: "בגד אחר בנתיים הלביש לאהרן כל",
-        en: "As if you say bo'el niddah is like a niddah: when does he immerse? At night - at night of Yom Kippur, tomorrow how does he perform the service? For he needs he'erev hashemesh.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l22"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-017",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 17,
-        he: "בגדיו ולא חגר אותו אבנט ואח\"כ",
-        en: "Rather learn from it: bo'el niddah is not like niddah - he immerses by day. Therefore he needs only seven days separation and if he came to a niddah on the night of his departure, counting from that partial night like a full day, immerses the seventh day which is erev Yom Kippur, and his sun sets that evening, and enters and performs service on Yom Kippur.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l22"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-018",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 18,
-        he: "הלביש את בניו מכנסים כתונת",
-        en: "Even if you say bo'el niddah is like niddah - that he immerses at nightfall on the seventh day - we separate him close to sunset, eight days before Yom Kippur, and this is what is called 'seven days' because of that little bit of night at the beginning he doesn't count it, and he immerses at the start of Yom Kippur eve, which is his seventh day, and his sun sets at erev Yom Kippur and he performs service tomorrow which is Yom Kippur.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l26"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-019",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 19,
-        he: "ומצנפת ואח\"כ נטל את האבנטים",
-        en: "Close to sunset: eight days before Yom Kippur. And what he calls 'seven' - because of that little bit of time he doesn't count it. And he immerses at the start of Yom Kippur eve night which is his seventh day, and his sun sets erev Yom Kippur, and he performs service tomorrow which is Yom Kippur.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l26"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-020",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 20,
-        he: "וחגר את אהרן ואח\"כ בניו ולמאן",
-        en: "All who are obligated in immersion: immerse by day - as derived in Megilla (20a) from 'and he shall purify himself on the seventh day and wash in water' (Numbers 19).",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l28"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-021",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 21,
-        he: "דאמר אהרן ואח\"כ בניו ככתבו",
-        en: "A niddah and a yoledet: their immersion is at night. Niddah - as written (Lev. 15): 'she shall be in her niddah state for seven days' - all seven; yoledet - 'like the days of her niddah impurity she shall be impure' (Lev. 12).",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l28"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-022",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 22,
-        he: "האמור בעשייה ויתן עליו את",
-        en: "A niddah yes, a bo'el niddah no - he does not immerse at night.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l28"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-023",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 23,
-        he: "הכתונת ויחגור אותו באבנט וילבש",
-        en: "Niddah and all that derives from multiplication of her: meaning 'the niddah' includes all whose additional impurity derives from her - and that includes bo'el niddah who takes his impurity from her. And 'multiplication' means the inclusion implied by 'ha-' (the) prefix on niddah.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l30"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-024",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 24,
-        he: "אותו את המעיל ואח\"כ ויקרב את",
-        en: "A baal keri is like one who touched a creeping animal: to immerse on the day of his impurity, like contact with a sherets, which is one-day impurity. And a bo'el niddah is like a tamei met: to immerse on the seventh day by day, for that is how a tamei met immerses. Is it not then by day?",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l31"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-025",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 25,
-        he: "בני אהרן וילבישם כתנות ויחגור",
-        en: "No - for their impurity: baal keri like sherets for one-day impurity, and bo'el niddah like tamei met for seven-day impurity. And he is a primary source of impurity like tamei met.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l31"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-026",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 26,
-        he: "אותם באבנט ודברי הכל לאהרן",
-        en: "Their impurity?! It is explicitly written about them. This one has seven-day impurity written about him, and this one has seven-day impurity written about him.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l33"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-027",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 27,
-        he: "תחילה קודם שהתחיל לבניו: אי לר'",
-        en: "And why do I need it - one from the other when both are written? Why compare baal keri to sherets contact when baal keri's one-day impurity is explicit in the Torah? And why compare bo'el niddah to tamei met when his seven-day impurity is also explicit? The baraita must be teaching something else.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l33"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-028",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 28,
-        he: "יוחנן כדאית ליה. דיליף ממלואים",
-        en: "Rather (continues on 6b): not for their impurity duration - but for something else. The resolution of what the baraita is teaching continues on the next daf.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-006a-l35"
-        ]
-      },
-      {
-        id: "rashi-yoma-006a-029",
-        sourceType: "rashi",
-        daf: "6a",
-        vilnaLine: 29,
-        he: "אי לרשב\"ל כדאית ליה דיליף מסיני:",
-        en: "Amar lach: that one - the High Priest's belt - is not the ordinary priest's belt. Meaning: the ordinary priest's belt is of plain linen, while the High Priest's is kilaim.",
+        en: "(Exodus 39:29): 'and the belt of fine twisted linen and blue and purple' - we learn it is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -13668,12 +13318,83 @@ const DAF_CONTENT = {
         ]
       },
       {
-        id: "rashi-yoma-006a-030",
+        id: "rashi-yoma-006a-005",
         sourceType: "rashi",
         daf: "6a",
-        vilnaLine: 30,
-        he: "מביתו למה פירש. מאשתו",
-        en: "And for the one who says Aaron first and afterward sons: the command's 've-chagarta otam avnet' (gird them with a belt) teaches the belts are the same - both of kilaim as stated in the implementation. But the two implementation verses prove sequential: 'girded him' then 'girded them.'",
+        vilnaLine: 5,
+        he: "כלאים דשש כיתנא ותכלת עמרא",
+        en: "kilaim, since linen is flax and blue is wool.",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l01"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-006",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 6,
+        he: "ואבנט הבנים לא פירש הכתוב ממה",
+        en: "And the sons' belt the verse did not specify what",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l01"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-007",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 7,
+        he: "היו ואשמועינן הכא דאבנטו של כהן",
+        en: "it was made of, and this teaches us here that the High Priest's belt",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l01"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-008",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 8,
+        he: "גדול לא זהו אבנטו של כהן הדיוט",
+        en: "is not the ordinary priest's belt,",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l01"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-009",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 9,
+        he: "שזה של כלאים וזה של בוץ: זהו",
+        en: "since this one is kilaim and this one is plain linen. 'That is his belt' -",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l01",
+          "yoma-006a-l02"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-010",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 10,
+        he: "אבנטו. כלומר שניהם של כלאים:",
+        en: "meaning both are kilaim.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -13682,26 +13403,251 @@ const DAF_CONTENT = {
         ]
       },
       {
-        id: "rashi-yoma-006a-031",
+        id: "rashi-yoma-006a-011",
         sourceType: "rashi",
         daf: "6a",
-        vilnaLine: 31,
-        he: "למה פירש תבא אשתו עמו שם שהרי על",
-        en: "And for the one who says Aaron and sons together: follows the command. And the implementation's two separate verses teach the material distinction: this is kilaim (High Priest) and this is linen (ordinary priest).",
+        vilnaLine: 11,
+        he: "ובבת אחת מי משכחת לה. שיהא",
+        en: "'And can it be found done at once' - that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l02"
+          "yoma-006a-l06"
         ]
       },
       {
-        id: "rashi-yoma-006a-032",
+        id: "rashi-yoma-006a-012",
         sourceType: "rashi",
         daf: "6a",
-        vilnaLine: 32,
-        he: "כרחך לשכת פרהדרין לא היתה",
-        en: "If R. Yochanan as per his view: who derives from the inauguration. If Reish Lakish as per his view: who derives from Sinai.",
+        vilnaLine: 12,
+        he: "משה לבדו חוגר חמשה בני אדם",
+        en: "Moses alone would gird five people",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-013",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 13,
+        he: "כאחת: לא צריכא דאקדים. לא",
+        en: "at once? 'Not necessary, for he girded first' - not",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-014",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 14,
+        he: "בבת אחת ממש קאמר אלא זה אחר",
+        en: "literally at once is what is meant, but rather one after",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-015",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 15,
+        he: "זה אבל בסדר אחד היו ולא הפסיק",
+        en: "another, but in one sequence without",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-016",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 16,
+        he: "בגד אחר בנתיים הלביש לאהרן כל",
+        en: "any other garment interrupting in between. He dressed Aaron in all",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-017",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 17,
+        he: "בגדיו ולא חגר אותו אבנט ואח\"כ",
+        en: "his garments and did not gird him with the belt, and afterward",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-018",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 18,
+        he: "הלביש את בניו מכנסים כתונת",
+        en: "dressed his sons - trousers, tunic,",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-019",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 19,
+        he: "ומצנפת ואח\"כ נטל את האבנטים",
+        en: "and turban - and afterward took the belts",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-020",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 20,
+        he: "וחגר את אהרן ואח\"כ בניו ולמאן",
+        en: "and girded Aaron and afterward his sons. And for the one who",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-021",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 21,
+        he: "דאמר אהרן ואח\"כ בניו ככתבו",
+        en: "says Aaron and afterward his sons, as it is literally written",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-022",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 22,
+        he: "האמור בעשייה ויתן עליו את",
+        en: "regarding the performance: 'and he placed on him",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-023",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 23,
+        he: "הכתונת ויחגור אותו באבנט וילבש",
+        en: "the tunic and girded him with the belt' and dressed",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-024",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 24,
+        he: "אותו את המעיל ואח\"כ ויקרב את",
+        en: "him with the robe, and afterward 'and he brought near",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-025",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 25,
+        he: "בני אהרן וילבישם כתנות ויחגור",
+        en: "Aaron's sons and dressed them in tunics and girded",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-026",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 26,
+        he: "אותם באבנט ודברי הכל לאהרן",
+        en: "them with belts' - and all agree that Aaron came",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-027",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 27,
+        he: "תחילה קודם שהתחיל לבניו: אי לר'",
+        en: "first, before he began with his sons. 'If for Rabbi",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l06",
+          "yoma-006a-l08"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-028",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 28,
+        he: "יוחנן כדאית ליה. דיליף ממלואים",
+        en: "Yochanan as per his own view' - who derives from the inauguration,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -13710,17 +13656,73 @@ const DAF_CONTENT = {
         ]
       },
       {
+        id: "rashi-yoma-006a-029",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 29,
+        he: "אי לרשב\"ל כדאית ליה דיליף מסיני:",
+        en: "'if for Reish Lakish as per his own view' - who derives from Sinai.",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l08"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-030",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 30,
+        he: "מביתו למה פירש. מאשתו",
+        en: "'From his home, why did he separate' - from his wife,",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l11"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-031",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 31,
+        he: "למה פירש תבא אשתו עמו שם שהרי על",
+        en: "why did he separate? Let his wife come with him there, for surely",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l11"
+        ]
+      },
+      {
+        id: "rashi-yoma-006a-032",
+        sourceType: "rashi",
+        daf: "6a",
+        vilnaLine: 32,
+        he: "כרחך לשכת פרהדרין לא היתה",
+        en: "he was compelled to, since the Parhedrin chamber was not",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-006a-l11"
+        ]
+      },
+      {
         id: "rashi-yoma-006a-033",
         sourceType: "rashi",
         daf: "6a",
         vilnaLine: 33,
         he: "קדושה שאין ישיבה בעזרה אלא",
-        en: "Are we dealing with wicked people? That he would knowingly come to a woman known to be a safek niddah before relations.",
+        en: "sacred, since sitting in the [Temple] courtyard is permitted only",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l13"
+          "yoma-006a-l11"
         ]
       },
       {
@@ -13729,12 +13731,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 34,
         he: "למלכי בית דוד כ\"ש שכיבה: הכי",
-        en: "Rather: lest he come to his wife and then she be found to be a safek niddah - blood found on the sheet after coitus, and it is unknown whether it was during or after. And a bo'el niddah is impure for seven days and would be forbidden to enter the Temple on Yom Kippur.",
+        en: "to the kings of the house of David, all the more so lying down. 'We so",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l13"
+          "yoma-006a-l11"
         ]
       },
       {
@@ -13743,12 +13745,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 35,
         he: "גרסינן תניא רבי יהודה בן בתירה",
-        en: "Like whom (is the mishna's safek niddah concern): like R. Akiva who says a niddah renders her sexual partner impure retroactively. If the Rabbis - but they say a niddah does not render her partner impure.",
+        en: "read it: it was taught, Rabbi Yehuda ben Beteira",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l15"
+          "yoma-006a-l11"
         ]
       },
       {
@@ -13757,12 +13759,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 36,
         he: "אומר שמא תמצא אשתו וכו' :",
-        en: "With the wicked (be-reshi'ei) we are dealing: that he would knowingly come to a safek niddah.",
+        en: "says lest his wife be found' etc.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l13"
+          "yoma-006a-l11"
         ]
       },
       {
@@ -13771,7 +13773,7 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 37,
         he: "ברשיעי עסקינן. שיבא על ספק נדה:",
-        en: "Rather: lest he come to his wife and then she is found as a safek niddah. Blood found on the sheet she cleaned herself with - and it is unknown whether the blood was present during relations or appeared afterward. And a bo'el niddah is impure for seven days and would be forbidden to enter the Temple on Yom Kippur.",
+        en: "'Are we dealing with wicked people' - that he would knowingly come to a safek niddah.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -13785,12 +13787,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 38,
         he: "אלא שמא יבא על אשתו ואח\"כ",
-        en: "Like whom - like R. Akiva who says a woman who sees blood renders her sexual partner impure - retroactively for the entire 24-hour period, just as they enacted she makes pure things impure retroactively. Their dispute is in Niddah in 'Kol HaYad' (14a). And so we learned: daughters of Israel's practice is with two cloths, one for him and one for her. Found on his - both impure all seven days, since certainly blood was during relations. Found on hers - 'otiyom' (immediately, Greek) - they are certainly impure. Found later - meaning a while after that - they are uncertainly impure. And how long is 'later'? Time to descend from bed and wash the lower face. After that she makes things impure retroactively 24 hours and does not make him impure. And R. Akiva says: also makes him impure.",
+        en: "'Rather, lest he come to his wife and afterward",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l15"
+          "yoma-006a-l13"
         ]
       },
       {
@@ -13799,12 +13801,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 39,
         he: "תמצא ספק נדה. שתמצא דם על",
-        en: "Rather with 'achar achar': who delayed more than 'achar zman' - the time called 'otiyom' - and 'achar zman' is after 'otiyom,' within the time to descend and wash. And there it teaches 'impure with uncertainty' and they do not dispute R. Akiva. In 'achar achar zman' they dispute as it says 'and then she makes the partner impure retroactively for 24 hours.' But in 'chad achar' within 'achar zman' they agree.",
+        en: "she is found to be a safek niddah' - meaning she finds blood on",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l18"
+          "yoma-006a-l13"
         ]
       },
       {
@@ -13813,12 +13815,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 40,
         he: "הסדין שקנחה בו ואין ידוע אם בשעת",
-        en: "Learn from it: from what it teaches we separate for seven days, established because of niddah impurity concern.",
+        en: "the sheet she cleaned herself with, and it is not known whether",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l21"
+          "yoma-006a-l13"
         ]
       },
       {
@@ -13827,12 +13829,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 41,
         he: "ביאה היה בה דם זה או לאחר ביאה",
-        en: "Bo'el niddah is not like niddah: who is prohibited from immersing on the seventh day until night. Rather he immerses on the seventh day by day. Therefore he needs only seven days separation. And if he came to a niddah on the night of departure day, counting partial day as full like a niddah, immerses erev Yom Kippur (his seventh day), and his sun sets that evening, and enters the Temple on Yom Kippur.",
+        en: "the blood was present during intercourse or came after intercourse,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l21"
+          "yoma-006a-l13"
         ]
       },
       {
@@ -13841,12 +13843,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 42,
         he: "ובועל נדה טמא שבעת ימים ויהא",
-        en: "If you say bo'el niddah is like niddah: when does he immerse? At night. Tomorrow - the night of Yom Kippur - how can he perform the service? For he needs he'erev hashemesh.",
+        en: "and a bo'el niddah is impure for seven days and would be",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l22"
+          "yoma-006a-l13"
         ]
       },
       {
@@ -13855,12 +13857,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 43,
         he: "אסור לבוא במקדש ביום הכפורים:",
-        en: "Rather learn from it: bo'el niddah is not like niddah - he immerses by day on the seventh day. Therefore needs only seven days. If he came to a niddah on departure night, counting partial night as full, immerses the seventh day which is erev Yom Kippur, and his sun sets that evening, and enters and performs the service on Yom Kippur.",
+        en: "forbidden to enter the Temple on Yom Kippur.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l22"
+          "yoma-006a-l13"
         ]
       },
       {
@@ -13869,12 +13871,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 44,
         he: "כמאן כרבי עקיבא דאמר הרואה דם",
-        en: "Even if you say bo'el niddah is like niddah: we separate him close to sunset, eight days before Yom Kippur - and we call it 'seven' because that small amount at the beginning is not counted. And he immerses at the onset of Yom Kippur eve night, which is his seventh day, and his sun sets on erev Yom Kippur, and performs the service the next day which is Yom Kippur.",
+        en: "'Like whom - like Rabbi Akiva, who says the one who sees blood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l26"
+          "yoma-006a-l15"
         ]
       },
       {
@@ -13883,12 +13885,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 45,
         he: "מטמאה את בועלה. למפרע כל",
-        en: "Close to sunset: eight days before Yom Kippur. The reason he calls it seven: because of the small amount he doesn't count. And he immerses at the onset of Yom Kippur eve night, his seventh day, and his sun sets erev Yom Kippur, and performs service the next day.",
+        en: "renders her sexual partner impure' - retroactively, the entire",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l26"
+          "yoma-006a-l15"
         ]
       },
       {
@@ -13897,12 +13899,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 46,
         he: "מעת לעת כשם שגזרו שמטמאה טהרות מעת לעת למפרע ופלוגתייהו במסכת נדה בפרק כל היד (דף יד.) והכי תנן דרך בנות ישראל",
-        en: "All obligated in immersion: immerse by day - as derived in Megilla (20a) from 'he shall purify himself on the seventh day and wash in water' (Numbers 19).",
+        en: "twenty-four-hour period - just as they enacted that she renders pure things impure retroactively for that period - and their dispute is in tractate Niddah, in the chapter 'Kol HaYad' (14a), and so we learned: the way of daughters of Israel",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l28"
+          "yoma-006a-l15"
         ]
       },
       {
@@ -13911,12 +13913,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 47,
         he: "משמשות בשני עדים אחד לו ואחד לה נמצא על שלו טמאין שניהן כל שבעה דודאי היה דם בשעת ביאה שאין דרך האיש לצאת",
-        en: "A niddah and yoledet: their immersion at night. Niddah - written (Lev. 15): 'she shall be in her niddah state seven days' - all seven. Yoledet - 'like the days of her niddah impurity she shall be impure' (Lev. 12).",
+        en: "is to have relations using two cloths, one for him and one for her. If found on his, both are impure the entire seven days, since certainly there was blood during intercourse, for it is not the way of a man to emit",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l28"
+          "yoma-006a-l15"
         ]
       },
       {
@@ -13925,12 +13927,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 48,
         he: "ממנו דם נמצא על שלה אותיום והוא לשון מיד בלשון יוני שקנחה בפרישת יציאת השמש מיד טמאים ודאי נמצא לאחר זמן כלומר",
-        en: "Niddah yes, bo'el niddah no - does not immerse at night.",
+        en: "blood [of that kind]. If found on hers 'at once' - a term meaning immediately in Greek - upon cleaning herself right after sunset, they are certainly impure. If found after a delay, meaning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l28"
+          "yoma-006a-l15"
         ]
       },
       {
@@ -13939,12 +13941,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 49,
         he: "שהרחיקה בדיקה טמאים מספק ואיזהו אחר זמן כדי שתרד מן המטה ותדיח את פניה של מטה ואח\"כ מטמאה מעת לעת ואינה מטמאה",
-        en: "Niddah and all that derives from her multiplication: 'niddah' means the niddah category, which includes all whose additional impurity derives from her. And that is bo'el niddah who derives his impurity from her.",
+        en: "she postponed the examination, they are uncertainly impure. And how much is a 'delay'? Enough time to get down from the bed and wash her lower face, and afterward she renders things impure retroactively but does not render",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l30"
+          "yoma-006a-l15"
         ]
       },
       {
@@ -13953,12 +13955,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 50,
         he: "את בועלה והכי פירושה ואם יותר מכאן שהתה לבדוק ואח\"כ בדקה ומצאה הרי היא כשאר נשים לטמא למפרע טהרות של מעת",
-        en: "A baal keri is like one who touched a creeping animal: to immerse on the day of his impurity like sherets-contact, which is one-day impurity. And bo'el niddah is like tamei met: to immerse on the seventh day by day. Is this not then by day?",
+        en: "her sexual partner impure. And this is its explanation: and if she waited even longer than this to examine and then examined and found - she is like other women, rendering pure things impure retroactively for the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l31"
+          "yoma-006a-l15"
         ]
       },
       {
@@ -13967,12 +13969,13 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 51,
         he: "לעת ואינה מטמאה את בועלה שלא גזרו טומאת מעת לעת לענין טומאת בועלה ר\"ע אומר אף מטמאה בועלה: אלא באחר אחר.",
-        en: "No - for their impurity: baal keri like sherets for one-day; bo'el niddah like tamei met for seven-day. And he is a primary source of impurity like tamei met.",
+        en: "twenty-four-hour period but not rendering her sexual partner impure, since they did not enact the twenty-four-hour retroactive impurity with regard to her partner's impurity. Rabbi Akiva says: she also renders her partner impure. 'Rather, in a further delay' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l31"
+          "yoma-006a-l15",
+          "yoma-006a-l18"
         ]
       },
       {
@@ -13981,12 +13984,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 52,
         he: "ששהתה יותר מאחר זמן שהזמן אותיום ואחר זמן לאחר אותיום בתוך כדי שתרד ותדיח כדקתני איזהו אחר זמן והתם קתני טמאים",
-        en: "Their impurity?! It is explicitly written about them: this one has seven-day impurity written and this one has seven-day impurity written.",
+        en: "meaning she waited longer than the 'delay' whose time is called 'at once,' and 'delay' is after 'at once,' within the time it takes to get down and wash, as taught: 'what is a delay,' and there it teaches that they are",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l33"
+          "yoma-006a-l18"
         ]
       },
       {
@@ -13995,12 +13998,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 53,
         he: "מספק ולא פליגי עם ר\"ע ובאחר אחר זמן פליגי כדקתני ואח\"כ מטמאה את בועלה א] מעת לעת אבל בחד אחר בתוך אחר זמן דהיינו",
-        en: "Rather (incomplete - continues on 6b with what the baraita is actually teaching).",
+        en: "uncertainly impure, and they do not disagree with Rabbi Akiva; but in a further delay after the delay they disagree, as taught: 'and afterward she renders her partner impure' retroactively for twenty-four hours, but in a single delay within the delay, meaning",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l35"
+          "yoma-006a-l18"
         ]
       },
       {
@@ -14009,11 +14012,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 54,
         he: "בתוך כדי שתרד מודו: ש\"מ. מדקתני מפרישין שבעת ימים ואוקימנא טעמא משום חשש טומאת נדה: בועל נדה אינו כנדה. שאסורה",
-        en: "Within the time to descend - they agree. Learn from this: from the fact that we separate for seven days and we establish the reason as concern about niddah impurity; bo'el niddah is not like niddah - she is forbidden to immerse on the seventh day until night. Rather he immerses on the seventh day by day. Therefore he needs only seven days separation, and if he came to a niddah on the day of his departure he counts the partial day as a full day like a niddah, and immerses on erev Yom Kippur which is his seventh day by day, and his sun sets that evening, and enters the Temple on Yom Kippur.",
+        en: "within the time it takes to get down [from the bed], they agree. 'Learn from it' - from the fact that it teaches we separate him for seven days, and we established the reason is because of concern for niddah impurity. 'A bo'el niddah is not like a niddah' - who is forbidden",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-006a-l18",
           "yoma-006a-l21"
         ]
       },
@@ -14023,12 +14027,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 55,
         he: "לטבול בשביעי עד הלילה אלא טובל בשביעי ביום הלכך לא בעי פרישה אלא שבעת ימים ואם בא על ספק נדה ביום הפרישה מונה מקצת",
-        en: "As if you say bo'el niddah is like niddah: when would he immerse? This refers to a case where he came to a niddah on the night of his departure - and Yom Kippur is the next day: how would he perform the service?",
+        en: "to immerse on the seventh day until nightfall, but rather he immerses on the seventh day by day; therefore he needs only seven days of separation, and if he came to a safek niddah on the day of his separation, he counts",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l22"
+          "yoma-006a-l21"
         ]
       },
       {
@@ -14037,12 +14041,13 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 56,
         he: "היום ככולו כנדה וטובל ערב יוה\"כ שהוא שביעי ביום ומעריב שמשו ונכנס במקדש ביוה\"כ: דאי ס\"ד בועל נדה כנדה אימת טבל. זה אם",
-        en: "Close to sunset: eight days before Yom Kippur. And the reason he calls it seven days is that the small amount of time at the beginning he doesn't count. He immerses at the start of erev Yom Kippur night, which is his seventh day, and his sun sets on erev Yom Kippur, and he performs the service the next day which is Yom Kippur.",
+        en: "part of that day as a full day like a niddah, and immerses on the eve of Yom Kippur, which is his seventh day, by day, and his sun sets that evening, and he enters the Temple on Yom Kippur. 'For if you think a bo'el niddah is like a niddah, when would he immerse?' - this is if he",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l26"
+          "yoma-006a-l21",
+          "yoma-006a-l22"
         ]
       },
       {
@@ -14051,12 +14056,13 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 57,
         he: "בא על נדה ביום פרישתו בלילה דיוה\"כ למחר היכי עביד עבודה: סמוך לשקיעת החמה. שמונה ימים לפני יוה\"כ והאי דקרי ליה שבעה",
-        en: "All who are obligated in immersions immerse by day: as derived in Megilla (20a) from 'and he shall purify himself on the seventh day and wash in water etc.' (Numbers 19).",
+        en: "came to a niddah on the day of his separation, at night of the eve of Yom Kippur - tomorrow how would he perform the service? 'Close to sunset' - eight days before Yom Kippur, and it is called seven",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l28"
+          "yoma-006a-l22",
+          "yoma-006a-l26"
         ]
       },
       {
@@ -14065,11 +14071,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 58,
         he: "דמשום ההוא פורתא לא חשיב ליה וטביל אור של ערב יוה\"כ ועביד למחר של ערב יוה\"כ הערב שמשו: כל חייבי טבילות טבילתן ביום.",
-        en: "A niddah and yoledet immerse at night: niddah - as written (Lev. 15) 'she shall be in her niddah state for seven days' - all seven; yoledet - 'like the days of her niddah impurity she shall be impure' (Lev. 12).",
+        en: "because of that small amount [of time] he does not count it, and he immerses at the beginning of the night of the eve of Yom Kippur, and performs the service the next day, which is the eve of Yom Kippur itself, his sun having set. 'All who are obligated in immersions, their immersion is by day' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-006a-l26",
           "yoma-006a-l28"
         ]
       },
@@ -14079,12 +14086,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 59,
         he: "כדיליף במסכת מגילה (דף כ.) מוחטאו ביום השביעי ורחץ במים וגו' (במדבר יט) : נדה ויולדת טבילתן בלילה. נדה דכתיב (ויקרא טו)",
-        en: "A baal keri is like one who touched a creeping animal: to immerse on the day of his impurity, as we say in the chapter 'Elu Devarim' in Pesachim (67b). And bo'el niddah is like tamei met: to immerse on his seventh day - thus he immerses by day.",
+        en: "as is derived in tractate Megillah (20a) from 'and he shall purify himself on the seventh day and wash in water' etc. (Numbers 19). 'A niddah and a woman who gave birth, their immersion is at night' - a niddah, as it is written (Leviticus 15:13):",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l31"
+          "yoma-006a-l28"
         ]
       },
       {
@@ -14093,11 +14100,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 60,
         he: "שבעת ימים תהא בנדתה כל שבעה ויולדת כימי נדת דוותה תטמא (שם יב) : בעל קרי כמגע שרץ. לטבול ביום טומאתו כדאמרינן בפרק אלו",
-        en: "No - for their impurity (duration): baal keri like sherets-contact for one-day impurity and is first-degree impurity; bo'el niddah like tamei met for seven-day impurity and is a primary source of impurity like tamei met.",
+        en: "'seven days she shall be in her niddah state' - all seven; and a woman who gave birth: 'like the days of her niddah impurity she shall be impure' (ibid. 12). 'A man who had a seminal emission is like one who touched a creeping animal' - to immerse on the day of his impurity, as we say in the chapter 'Elu",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-006a-l28",
           "yoma-006a-l31"
         ]
       },
@@ -14107,12 +14115,12 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 61,
         he: "דברים בפסחים [דף סז:] ובועל נדה כטמא מת לטבול ביום שביעי אלמא טובל ביום: לא לטומאתן. בעל קרי כמגע שרץ לטומאת ערב וראשון",
-        en: "This one has seven-day impurity written about him: 'and her niddah-impurity shall be upon him and he shall be impure for seven days' (Lev. 15).",
+        en: "Devarim' in Pesachim (67b); and a bo'el niddah is like one who touched a corpse, to immerse on the seventh day - so he immerses by day. 'No, [it refers] to their impurity' - a man who had a seminal emission is like touching a creeping animal for evening-and-first-day",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l33"
+          "yoma-006a-l31"
         ]
       },
       {
@@ -14121,12 +14129,13 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 62,
         he: "לטומאה בועל נדה טומאת שבעה ואב הטומאה כטמא מת: האי טומאת שבעה כתיב ביה. ותהי נדתה עליו וטמא שבעת ימים (שם טו) :",
-        en: "That makes impure (partial - continues on 6b): the baraita is teaching something beyond duration comparison, but the resolution is deferred to the next daf.",
+        en: "impurity, while a bo'el niddah has seven-day impurity and is a primary source of impurity like one who touched a corpse. 'This one has seven-day impurity written about him' - 'and her niddah impurity shall be upon him and he shall be impure seven days' (Leviticus 15:24).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-006a-l35"
+          "yoma-006a-l31",
+          "yoma-006a-l33"
         ]
       },
       {
@@ -14135,7 +14144,7 @@ const DAF_CONTENT = {
         daf: "6a",
         vilnaLine: 63,
         he: "שמטמא",
-        en: "That renders impure (stub - final Rashi line on 6a, continues on 6b).",
+        en: "'That renders impure' - the daf ends mid-word here; the comment continues on 6b, explaining that a bo'el niddah renders a bed or seat impure like any other father of impurity, resuming the resolution of what the baraita was actually teaching.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
