@@ -126857,11 +126857,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 1,
         he: "לית ליה כתיבה. אין סומכין על כך דזמנין דלאו אדעתיה לעיוני",
-        en: "He has no written text - one cannot rely on a written prompt since the eye sometimes misses it.",
+        en: "'He does not hold that writing labels is a solution' - we do not rely on that, since sometimes he is not paying attention to examine",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l01"
+        ]
       },
       {
         id: "rashi-yoma-055b-002",
@@ -126869,11 +126871,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 2,
         he: "בכתבא: משום דמחלפי. אי עביד תרי מניח מזרק השעיר על זה",
-        en: "Due to confusion - if he had two bowls he might accidentally pick up the wrong one.",
+        en: "the writing. 'Because they get switched' - if he made two stands, he would set the goat's basin on one and",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l01"
+        ]
       },
       {
         id: "rashi-yoma-055b-003",
@@ -126881,11 +126885,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 3,
         he: "ושל פר על זה וכשבא לקחת את דם הפר פעמים שנתחלף לו",
-        en: "He would pick up the goat's bowl instead of the bull's when intending to take the bull's.",
+        en: "the bull's on the other, and when he comes to take the bull's blood, sometimes it gets switched on him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l01"
+        ]
       },
       {
         id: "rashi-yoma-055b-004",
@@ -126893,11 +126899,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 4,
         he: "ונוטל את של שעיר הלכך כי ליכא אלא חד לא מנח האי עד דשקיל",
-        en: "Therefore with one bowl at a time: he does not set it down until he picks up the other, so services remain in order.",
+        en: "and he takes the goat's instead. Therefore, when there is only a single stand, he does not set this one down until he picks up",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l01"
+        ]
       },
       {
         id: "rashi-yoma-055b-005",
@@ -126905,11 +126913,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 5,
         he: "האי ונמצאו העבודות כסדרן של",
-        en: "Goat inside after bull inside; bull's in the Heichal after that; then goat's.",
+        en: "the other, and so the services come out in their proper order:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l01"
+        ]
       },
       {
         id: "rashi-yoma-055b-006",
@@ -126917,11 +126927,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 6,
         he: "שעיר אחר פר בפנים ושל פר",
-        en: "After completing the inner service for each blood.",
+        en: "the goat's inside after the bull's, and the bull's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l01"
+        ]
       },
       {
         id: "rashi-yoma-055b-007",
@@ -126929,11 +126941,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 7,
         he: "אחריה בהיכל ואחר כך של שעיר:",
-        en: "Then the Heichal parochet service follows.",
+        en: "in the Heichal afterward, and only then the goat's.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l01"
+        ]
       },
       {
         id: "rashi-yoma-055b-008",
@@ -126941,11 +126955,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 8,
         he: "תקלין חדתין. על האחד תקלין",
-        en: "New shekel weights - on one stand: new weights, on another: old weights.",
+        en: "'New shekels' - on the first shofar-box;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l05"
+        ]
       },
       {
         id: "rashi-yoma-055b-009",
@@ -126953,11 +126969,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 9,
         he: "עתיקין על השני קינין על השלישי",
-        en: "On one: bird offerings. On another: young burnt-offerings. On another: wood.",
+        en: "old shekels on the second; bird-offerings on the third;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l05"
+        ]
       },
       {
         id: "rashi-yoma-055b-010",
@@ -126965,11 +126983,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 10,
         he: "גוזלי עולה על הרביעי עצים על",
-        en: "The five stands serve different purposes for different parts of the service.",
+        en: "young burnt-offering birds on the fourth; wood on",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l05"
+        ]
       },
       {
         id: "rashi-yoma-055b-011",
@@ -126977,11 +126997,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 11,
         he: "החמישי לבונה על הששי זהב",
-        en: "On the first stand: new shekels. On the second stand: old shekels.",
+        en: "the fifth; frankincense on the sixth; gold",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l05"
+        ]
       },
       {
         id: "rashi-yoma-055b-012",
@@ -126989,11 +127011,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 12,
         he: "לכפורת על השביעי וששה היה כתוב",
-        en: "On the third: bird offerings.",
+        en: "for the kapporet on the seventh; and six had",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l05"
+        ]
       },
       {
         id: "rashi-yoma-055b-013",
@@ -127001,11 +127025,14 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 13,
         he: "עליהן נדבה: תקלין חדתין אלו",
-        en: "On the fourth: young burnt-offerings.",
+        en: "'voluntary offering' written on them. 'New shekels - these are the shekels of each and every year' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l05",
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-014",
@@ -127013,11 +127040,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 14,
         he: "שקלים של כל שנה ושנה. מי שעליו",
-        en: "On the fifth: wood for the altar.",
+        en: "one who owes this year's shekel and did not bring it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-015",
@@ -127025,11 +127054,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 15,
         he: "להביא שקלי שנה זו שלא הביאן",
-        en: "Two stands inside for blood bowls; three outside for other offerings.",
+        en: "in Adar may bring it whenever he wishes,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-016",
@@ -127037,11 +127068,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 16,
         he: "באדר מביאן כל שעה שירצה",
-        en: "The HP uses the blood-bowl stands to maintain clear sequence.",
+        en: "and place it in the box for new shekels,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-017",
@@ -127049,11 +127082,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 17,
         he: "ונותנם בשופר של תקלין חדתין",
-        en: "He never holds both blood bowls simultaneously.",
+        en: "and the treasurers place them in the chamber",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-018",
@@ -127061,11 +127096,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 18,
         he: "והגזברים נותנים אותן בלשכה",
-        en: "The order is maintained through sequential handling.",
+        en: "and from them they set aside the three collection-boxes before",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-019",
@@ -127073,11 +127110,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 19,
         he: "ותורמין מהם שלש הקופות בפרוס",
-        en: "This prevents confusion during the most critical service.",
+        en: "Passover, before Shavuot, and before",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-020",
@@ -127085,11 +127124,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 20,
         he: "הפסח ובפרוס העצרת ובפרוס",
-        en: "He does not set down the bowl until he has used it.",
+        en: "Sukkot. 'He shall pay for the coming year' - and he places it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-021",
@@ -127097,11 +127138,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 21,
         he: "החג: ישקול לשנה הבאה. ונותנן",
-        en: "The sequential system is a practical safeguard.",
+        en: "in the box for old shekels, and the treasurers add it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-022",
@@ -127109,11 +127152,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 22,
         he: "לשופר של תקלין עתיקין והגזברין",
-        en: "Careful physical placement mirrors careful spiritual intention.",
+        en: "to the surplus of last year's chamber, from which they build",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-023",
@@ -127121,11 +127166,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 23,
         he: "נותנים אותן לשירי לשכה של אשתקד",
-        en: "Each bowl serves its purpose in strict order.",
+        en: "the city wall and its towers, as we learned in Shekalim",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-024",
@@ -127133,11 +127180,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 24,
         he: "שמהן בונים חומת העיר ומגדלותיה",
-        en: "The Passover parallel illustrates systematic sequencing of concurrent activities.",
+        en: "(chapter 4, mishnah 2). 'Bird-offerings - these are turtledoves' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-025",
@@ -127145,11 +127194,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 25,
         he: "כדתנן בשקלים (פ\"ד משנה ב): קינין",
-        en: "At the seder, multiple participants are assigned specific roles to prevent confusion.",
+        en: "from the coins in that box, only",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-026",
@@ -127157,11 +127208,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 26,
         he: "הן תורין. ממעות שבו אין לוקחין",
-        en: "Similarly, the Yom Kippur blood service uses sequential assignment.",
+        en: "turtledoves are purchased. 'All of them are burnt-offerings' - R. Yehuda",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-027",
@@ -127169,11 +127222,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 27,
         he: "אלא תורין: כולן עולות. ר' יהודה",
-        en: "The HP's discipline in handling the bowls is itself a form of service.",
+        en: "follows his own reasoning, since he says there were no shofar-boxes for obligatory",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-028",
@@ -127181,11 +127236,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 28,
         he: "לטעמיה דאמר לא היו שופרות לקיני",
-        en: "Attention to physical detail is the foundation of the spiritual act.",
+        en: "bird-offerings. And regarding wood, frankincense, and gold for the kapporet,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-029",
@@ -127193,11 +127250,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 29,
         he: "חובה ועצים ולבונה וזהב לכפורת",
-        en: "He knows at every moment which bowl he holds and what its purpose is.",
+        en: "it is explained in tractate Shekalim (chapter 6, mishnah 6):",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-030",
@@ -127205,11 +127264,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 30,
         he: "מפרש במס' שקלים (פ\"ו מ\"ו) המתנדב",
-        en: "After the goat's inner service, the HP exits the Holy of Holies.",
+        en: "one who donates wood puts money into that box, no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-031",
@@ -127217,11 +127278,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 31,
         he: "עצים נותן מעות לאותו שופר ולא",
-        en: "He takes the bull's bowl from the stand.",
+        en: "less than two logs' worth; and one who donates frankincense",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-032",
@@ -127229,11 +127292,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 32,
         he: "יפחות משני גזירין והמתנדב לבונה",
-        en: "He now has the goat's bowl - he places it on the stand.",
+        en: "brings money and places it into the frankincense box, and from it they purchase frankincense and burn it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-033",
@@ -127241,11 +127306,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 33,
         he: "מביא מעות ונותן לתוך שופר לבונה ולוקחים מהן לבונה ומקטירין",
-        en: "He picks up the bull's bowl for the next phase of service.",
+        en: "as a voluntary offering on the outer altar. For gold for the kapporet, one who donates gold places money",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-034",
@@ -127253,11 +127320,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 34,
         he: "אותן נדבה על המזבח החיצון זהב לכפורת המתנדב זהב נותן מעות",
-        en: "The swap is performed deliberately and without confusion.",
+        en: "into the box, and from it they purchase gold for sacred vessels, namely the basins called",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09"
+        ]
       },
       {
         id: "rashi-yoma-055b-035",
@@ -127265,11 +127334,14 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 35,
         he: "לתוך שופר ולוקחין מהן זהב לכלי שרת והן המזרקות הקרויין כפורי",
-        en: "Inner sequence: bull blood sprinkled, then goat blood sprinkled.",
+        en: "'kaphorei zahav' in Ezra and Chronicles. 'And six for voluntary offerings' - for the altar's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l09",
+          "yoma-055b-l05"
+        ]
       },
       {
         id: "rashi-yoma-055b-036",
@@ -127277,11 +127349,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 36,
         he: "זהב בעזרא (א) ודברי הימים (א כח) : וששה לנדבה. לקיץ המזבח",
-        en: "The stand system ensures no deviation from this fixed order.",
+        en: "'dessert' (supplementary offerings), to put into them money collected from all the shepherds, from the surplus of guilt-offerings",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l05"
+        ]
       },
       {
         id: "rashi-yoma-055b-037",
@@ -127289,11 +127363,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 37,
         he: "לתת לתוכן מעות שלוקחין מכל הרועות של מותר אשמות וחטאת",
-        en: "The counting aloud and the sequential bowl handling work together.",
+        en: "and sin-offerings, regarding which we learned that the animal shall graze until blemished, then be sold, and its proceeds fall to the voluntary-offering fund;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l05"
+        ]
       },
       {
         id: "rashi-yoma-055b-038",
@@ -127301,11 +127377,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 38,
         he: "ששנינו בהן ירעה וימכר ויפלו דמיו לנדבה ובפרק בתרא דמנחות",
-        en: "Together they prevent the two most dangerous error types.",
+        en: "and in the last chapter of Menachot,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l05"
+        ]
       },
       {
         id: "rashi-yoma-055b-039",
@@ -127313,11 +127391,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 39,
         he: "(דף קז:) ששה שופרות כנגד ששה בתי אבות שבכל משמר ומשמר",
-        en: "Any deviation from the sequence invalidates portions of the service.",
+        en: "(107b): six shofar-boxes correspond to the six ancestral houses in every priestly watch, and each one recognizes his own day's box; and if the altar was idle on its day",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l05"
+        ]
       },
       {
         id: "rashi-yoma-055b-040",
@@ -127325,11 +127405,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 40,
         he: "וכל אחד ואחד מכיר את של יומו ואם היה מזבח בטל ביומו",
-        en: "No unauthorized person enters during this entire sequence.",
+        en: "because no one brought offerings, the members of that ancestral house would take their box's money",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l05"
+        ]
       },
       {
         id: "rashi-yoma-055b-041",
@@ -127337,11 +127419,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 41,
         he: "שאין איש מביא קרבנות לוקחין בני בית אב מעות שופר שלהן",
-        en: "The HP is completely alone - no distraction, no confusion from others.",
+        en: "and purchase burnt-offerings with it, and that is the altar's 'dessert.' Learn from this, in any case,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l05"
+        ]
       },
       {
         id: "rashi-yoma-055b-042",
@@ -127349,11 +127433,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 42,
         he: "ולוקחין מהן עולות והוא קיץ המזבח שמע מינה מיהת דר' יהודה",
-        en: "On Yom Kippur, the HP acts as the sole agent for all of Israel.",
+        en: "that R. Yehuda does hold that writing labels works, since it is taught that they",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l05"
+        ]
       },
       {
         id: "rashi-yoma-055b-043",
@@ -127361,11 +127447,14 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 43,
         he: "אית ליה כתיבה דקתני והיה כתוב עליהן: גזירה משום חטאת",
-        en: "The bull represents the HP and priesthood; the goat represents all Israel.",
+        en: "had writing on them. 'A decree on account of a sin-offering whose owner died' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l05",
+          "yoma-055b-l13"
+        ]
       },
       {
         id: "rashi-yoma-055b-044",
@@ -127373,11 +127462,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 44,
         he: "שמתו בעליה. שמא מת אחד מן הבעלים שנתנו מעות בשופר",
-        en: "Priestly atonement precedes national atonement.",
+        en: "lest one of the owners who placed money in the box has died,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l13"
+        ]
       },
       {
         id: "rashi-yoma-055b-045",
@@ -127385,11 +127476,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 45,
         he: "וכיון דיש בהן חטאות הוה להו מעות חטאת שמתו בעליה והן",
-        en: "The service sequence reflects this: bull first, then goat.",
+        en: "and since there are sin-offerings among them, that money becomes the money of a sin-offering whose owner died,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l13"
+        ]
       },
       {
         id: "rashi-yoma-055b-046",
@@ -127397,11 +127490,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 46,
         he: "הולכות לים המלח ונמצאו מעורבות עם הכשרות ופוסלות אותן",
-        en: "Inside the Holy of Holies, the HP purges accumulated spiritual impurity.",
+        en: "which must go to the Dead Sea, and it would be found mixed with the valid coins and invalidate them,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l13"
+        ]
       },
       {
         id: "rashi-yoma-055b-047",
@@ -127409,11 +127504,14 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 47,
         he: "והיינו מפני התערובות: שמתו בעליה ודאי. שאנו יודעין בו שמת",
-        en: "The blood sprinkled inside cleanses the sanctuary from contamination.",
+        en: "and that is why it is because of the mixing. 'Whose owner has certainly died' - meaning we know of him that he died",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l13",
+          "yoma-055b-l17"
+        ]
       },
       {
         id: "rashi-yoma-055b-048",
@@ -127421,11 +127519,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 48,
         he: "משנתן מעות לשופר ועדיין לא קרבן: ונברור ארבע זוזי. דמי החטאת",
-        en: "This inner service is the heart of the entire Yom Kippur day.",
+        en: "after placing the money in the box but before an offering was brought. 'And let us set aside four zuz' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l17"
+        ]
       },
       {
         id: "rashi-yoma-055b-049",
@@ -127433,11 +127533,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 49,
         he: "וזוזי פשיטי קאמר זוזי מדינה שיש ח' מהן בזוזי צורי והן דמי פרידה",
-        en: "All other services of the day flow from this central act.",
+        en: "the value of the sin-offering, and he means plain provincial zuz, of which there are eight to a Tyrian zuz, and that is the price of a single bird,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l17"
+        ]
       },
       {
         id: "rashi-yoma-055b-050",
@@ -127445,11 +127547,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 50,
         he: "אחת דתנן עמדו קינין בו ביום ברבעתים (כריתות ח.) והרובע הוא",
-        en: "The HP emerges having completed the inner purification.",
+        en: "since we learned that bird-offerings once stood at a quarter-dinar each (Keritot 8a), and a quarter-dinar is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l17"
+        ]
       },
       {
         id: "rashi-yoma-055b-051",
@@ -127457,11 +127561,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 51,
         he: "חצי דינר צורי שהוא ארבעה זוזי מדינה: לית ליה ברירה. לא סמכינן",
-        en: "He proceeds outward: parochet, then golden altar, then outer altar.",
+        en: "half a Tyrian dinar, which is four provincial zuz. 'He does not hold by the principle of retroactive designation' - we do not rely",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l17"
+        ]
       },
       {
         id: "rashi-yoma-055b-052",
@@ -127469,11 +127575,14 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 52,
         he: "אברירה למשרי איסורא: הלוקח יין מבין הכותיים. קודם שגזרו עליהם",
-        en: "The inner service completed, he does not return to the Holy of Holies.",
+        en: "on retroactive designation to permit something forbidden. 'One who buys wine from the Samaritans' - before they were decreed impure,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l17",
+          "yoma-055b-l19"
+        ]
       },
       {
         id: "rashi-yoma-055b-053",
@@ -127481,11 +127590,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 53,
         he: "ואין לו כלים להפריש לתוכן תרומות ומעשרות: הרי הן תרומה. בתוכו:",
-        en: "If he erred in something, he proceeds regardless to the outer services.",
+        en: "and he has no vessels into which to separate the terumah and tithes. 'They shall be terumah' - remaining inside it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l19"
+        ]
       },
       {
         id: "rashi-yoma-055b-054",
@@ -127493,11 +127604,13 @@ const DAF_CONTENT = {
         daf: "55b",
         vilnaLine: 54,
         he: "ומיחל",
-        en: "A completed inner service is not invalidated by later outer-service errors.",
+        en: "'And he waits' - this is the citation of the next teaching; the daf ends here, and the comment's own explanation is deferred to 56a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-055b-l19"
+        ]
       }
     ],
     review: "reviewed"

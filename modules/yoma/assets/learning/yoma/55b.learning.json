@@ -1,456 +1,569 @@
 {
-  "canonicalRef": "Yoma 55b",
-  "summary": "This page discusses the practical bowl management system during the Yom Kippur blood service. Two gold stands in the Heichal hold the blood bowls sequentially - the HP never holds both bowls simultaneously, ensuring bull and goat blood are never confused. A Passover registration parallel illustrates the principle of systematic sequential handling in complex ritual situations. The Gemara also specifies the complete service order: bull inside the Holy of Holies, goat inside, then bull's Heichal service, then goat's Heichal service.",
-  "sugyot": [
+ "canonicalRef": "Yoma 55b",
+ "summary": "This page discusses the practical bowl management system during the Yom Kippur blood service. Two gold stands in the Heichal hold the blood bowls sequentially - the HP never holds both bowls simultaneously, ensuring bull and goat blood are never confused. A Passover registration parallel illustrates the principle of systematic sequential handling in complex ritual situations. The Gemara also specifies the complete service order: bull inside the Holy of Holies, goat inside, then bull's Heichal service, then goat's Heichal service.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-055b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 19
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-055b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 19
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.55b.1"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.55b.2"
-        },
-        {
-          "vilnaLine": 9,
-          "sefariaRef": "Yoma.55b.3"
-        },
-        {
-          "vilnaLine": 13,
-          "sefariaRef": "Yoma.55b.4"
-        },
-        {
-          "vilnaLine": 17,
-          "sefariaRef": "Yoma.55b.5"
-        },
-        {
-          "vilnaLine": 19,
-          "sefariaRef": "Yoma.55b.6"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.55b.1",
-        "Yoma.55b.2",
-        "Yoma.55b.3",
-        "Yoma.55b.4",
-        "Yoma.55b.5",
-        "Yoma.55b.6"
-      ],
-      "display": {
-        "whats": "Bowl placement system: two stands prevent confusion between bull and goat blood",
-        "hint": "The HP holds only one blood bowl at a time, using two stands in the Heichal so he never confuses the bull and goat bloods. The Gemara illustrates with a Passover parallel how sequential handling prevents confusion in complex concurrent activities.",
-        "title": "Two Bowls and the Stand System in the Heichal"
-      },
-      "learning": {
-        "ahaMoment": "The stand system is not organizational convenience - it prevents the worst possible error on the holiest day. Physical arrangement serves spiritual integrity.",
-        "memoryAnchor": "Two bowls, two stands, one at a time: the system guarantees correct sequence even under pressure.",
-        "learnerQuestion": "How does the High Priest manage two blood bowls (bull and goat) during the Heichal services, given that both are needed sequentially?",
-        "coreTension": "The HP cannot hold both bowls simultaneously while sprinkling, but setting one down without a designated stand risks confusion or impurity; the practical management of two active blood containers requires a defined system.",
-        "coreMove": "The Talmud describes a stand in the Heichal where the HP places one bowl while working with the other; this stand enforces sequential handling and prevents the bowls from being confused or set on the floor.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "A designated stand in the Heichal allows the High Priest to place one blood bowl while working with the other; this system enforces proper sequential handling and prevents confusion between the bull and goat blood."
-        },
-        "learningBlocker": "Students may not think about the practical logistics of managing two blood bowls simultaneously and may not realize the Talmud has a detailed, specified solution for this."
-      },
-      "argumentFlow": [
-        {
-          "type": "problem",
-          "speaker": "Gemara",
-          "text": "With two blood bowls in the Heichal, the HP might accidentally pick up the wrong one.",
-          "id": "yoma-055b-l01",
-          "label": "Problem: With two blood bowls in the Heichal,",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-055b-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "solution",
-          "speaker": "Gemara",
-          "text": "He never holds both bowls simultaneously - sets one down before picking up the other.",
-          "id": "yoma-055b-l05",
-          "label": "Solution: He never holds both bowls simultaneously -",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-055b-l05",
-              "vilnaLine": 5
-            }
-          ]
-        },
-        {
-          "type": "parallel",
-          "speaker": "Gemara",
-          "text": "Passover registration parallel: systematic sequential handling prevents errors in overlapping activities.",
-          "id": "yoma-055b-l09",
-          "label": "Parallel: Passover registration parallel: systematic sequentia...",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-055b-l09",
-              "vilnaLine": 9
-            }
-          ]
-        },
-        {
-          "type": "order",
-          "speaker": "Gemara",
-          "text": "The service order: bull inside, goat inside, then each one's Heichal service in sequence.",
-          "id": "yoma-055b-l17",
-          "label": "Order: The service order: bull inside, goat inside,",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-055b-l17",
-              "vilnaLine": 17
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "blood bowl stands",
-        "bowl confusion",
-        "sequential handling",
-        "Heichal stands",
-        "service order"
-      ],
-      "concepts": {
-        "halachic": [
-          "blood bowl management",
-          "stand system",
-          "sequential bowl handling"
-        ],
-        "theological": [
-          "physical order as spiritual safeguard",
-          "sequential discipline in sacred service"
-        ],
-        "narrative": [
-          "ritual error prevention",
-          "Temple logistics"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing the two blood services inside are sequential (bull before goat)",
-        "Knowing the Heichal contains stands for holding the bowls"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The HP simply held one bowl in each hand alternately - the stand system is a minor detail with no halachic significance.",
-          "correction": "The Talmud specifies a stand system in the Heichal where the HP places one bowl while sprinkling with the other; this is a defined technical detail of the ritual, not improvised."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "object",
-          "name": "two gold stands in the Heichal"
-        },
-        {
-          "type": "action",
-          "name": "sequential bowl handling - one at a time"
-        },
-        {
-          "type": "sequence",
-          "name": "bull inside then goat inside then Heichal services"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "The HP might confuse which bowl holds bull blood and which holds goat blood. The stand system ensures he handles one bowl at a time, setting it down before picking up the other.",
-          "question": "Why would having two blood bowls in the Heichal pose a danger, and how was it solved?"
-        }
-      ],
-      "finalRuling": "The two-stand system in the Heichal ensures the HP handles one blood bowl at a time, preventing any confusion between bull and goat blood.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.55b.1"
+    },
+    {
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.55b.2"
+    },
+    {
+     "vilnaLine": 9,
+     "sefariaRef": "Yoma.55b.3"
+    },
+    {
+     "vilnaLine": 13,
+     "sefariaRef": "Yoma.55b.4"
+    },
+    {
+     "vilnaLine": 17,
+     "sefariaRef": "Yoma.55b.5"
+    },
+    {
+     "vilnaLine": 19,
+     "sefariaRef": "Yoma.55b.6"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.55b.1",
+    "Yoma.55b.2",
+    "Yoma.55b.3",
+    "Yoma.55b.4",
+    "Yoma.55b.5",
+    "Yoma.55b.6"
+   ],
+   "display": {
+    "whats": "Bowl placement system: two stands prevent confusion between bull and goat blood",
+    "hint": "The HP holds only one blood bowl at a time, using two stands in the Heichal so he never confuses the bull and goat bloods. The Gemara illustrates with a Passover parallel how sequential handling prevents confusion in complex concurrent activities.",
+    "title": "Two Bowls and the Stand System in the Heichal"
+   },
+   "learning": {
+    "ahaMoment": "The stand system is not organizational convenience - it prevents the worst possible error on the holiest day. Physical arrangement serves spiritual integrity.",
+    "memoryAnchor": "Two bowls, two stands, one at a time: the system guarantees correct sequence even under pressure.",
+    "learnerQuestion": "How does the High Priest manage two blood bowls (bull and goat) during the Heichal services, given that both are needed sequentially?",
+    "coreTension": "The HP cannot hold both bowls simultaneously while sprinkling, but setting one down without a designated stand risks confusion or impurity; the practical management of two active blood containers requires a defined system.",
+    "coreMove": "The Talmud describes a stand in the Heichal where the HP places one bowl while working with the other; this stand enforces sequential handling and prevents the bowls from being confused or set on the floor.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "A designated stand in the Heichal allows the High Priest to place one blood bowl while working with the other; this system enforces proper sequential handling and prevents confusion between the bull and goat blood."
+    },
+    "learningBlocker": "Students may not think about the practical logistics of managing two blood bowls simultaneously and may not realize the Talmud has a detailed, specified solution for this."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "He has no written text - one cannot rely on a written prompt since the eye sometimes misses it.",
-      "linkedGemaraLineIds": []
+     "type": "problem",
+     "speaker": "Gemara",
+     "text": "With two blood bowls in the Heichal, the HP might accidentally pick up the wrong one.",
+     "id": "yoma-055b-l01",
+     "label": "Problem: With two blood bowls in the Heichal,",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-055b-l01",
+       "vilnaLine": 1
+      }
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "Due to confusion - if he had two bowls he might accidentally pick up the wrong one.",
-      "linkedGemaraLineIds": []
+     "type": "solution",
+     "speaker": "Gemara",
+     "text": "He never holds both bowls simultaneously - sets one down before picking up the other.",
+     "id": "yoma-055b-l05",
+     "label": "Solution: He never holds both bowls simultaneously -",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-055b-l05",
+       "vilnaLine": 5
+      }
+     ]
     },
     {
-      "vilnaLine": 3,
-      "en": "He would pick up the goat's bowl instead of the bull's when intending to take the bull's.",
-      "linkedGemaraLineIds": []
+     "type": "parallel",
+     "speaker": "Gemara",
+     "text": "Passover registration parallel: systematic sequential handling prevents errors in overlapping activities.",
+     "id": "yoma-055b-l09",
+     "label": "Parallel: Passover registration parallel: systematic sequentia...",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-055b-l09",
+       "vilnaLine": 9
+      }
+     ]
     },
     {
-      "vilnaLine": 4,
-      "en": "Therefore with one bowl at a time: he does not set it down until he picks up the other, so services remain in order.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "en": "Goat inside after bull inside; bull's in the Heichal after that; then goat's.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "en": "After completing the inner service for each blood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "en": "Then the Heichal parochet service follows.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "en": "New shekel weights - on one stand: new weights, on another: old weights.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "en": "On one: bird offerings. On another: young burnt-offerings. On another: wood.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "en": "The five stands serve different purposes for different parts of the service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "en": "On the first stand: new shekels. On the second stand: old shekels.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "en": "On the third: bird offerings.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "en": "On the fourth: young burnt-offerings.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "On the fifth: wood for the altar.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "Two stands inside for blood bowls; three outside for other offerings.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "The HP uses the blood-bowl stands to maintain clear sequence.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "He never holds both blood bowls simultaneously.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "The order is maintained through sequential handling.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "This prevents confusion during the most critical service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "He does not set down the bowl until he has used it.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "The sequential system is a practical safeguard.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "Careful physical placement mirrors careful spiritual intention.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "Each bowl serves its purpose in strict order.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "The Passover parallel illustrates systematic sequencing of concurrent activities.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "At the seder, multiple participants are assigned specific roles to prevent confusion.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "Similarly, the Yom Kippur blood service uses sequential assignment.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "The HP's discipline in handling the bowls is itself a form of service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Attention to physical detail is the foundation of the spiritual act.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "He knows at every moment which bowl he holds and what its purpose is.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "After the goat's inner service, the HP exits the Holy of Holies.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "He takes the bull's bowl from the stand.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "He now has the goat's bowl - he places it on the stand.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "He picks up the bull's bowl for the next phase of service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "The swap is performed deliberately and without confusion.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "Inner sequence: bull blood sprinkled, then goat blood sprinkled.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "The stand system ensures no deviation from this fixed order.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "The counting aloud and the sequential bowl handling work together.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "Together they prevent the two most dangerous error types.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "Any deviation from the sequence invalidates portions of the service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "No unauthorized person enters during this entire sequence.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "The HP is completely alone - no distraction, no confusion from others.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "On Yom Kippur, the HP acts as the sole agent for all of Israel.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "The bull represents the HP and priesthood; the goat represents all Israel.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "Priestly atonement precedes national atonement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "en": "The service sequence reflects this: bull first, then goat.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "en": "Inside the Holy of Holies, the HP purges accumulated spiritual impurity.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "en": "The blood sprinkled inside cleanses the sanctuary from contamination.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "en": "This inner service is the heart of the entire Yom Kippur day.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "en": "All other services of the day flow from this central act.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "en": "The HP emerges having completed the inner purification.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "en": "He proceeds outward: parochet, then golden altar, then outer altar.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 52,
-      "en": "The inner service completed, he does not return to the Holy of Holies.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 53,
-      "en": "If he erred in something, he proceeds regardless to the outer services.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 54,
-      "en": "A completed inner service is not invalidated by later outer-service errors.",
-      "linkedGemaraLineIds": []
+     "type": "order",
+     "speaker": "Gemara",
+     "text": "The service order: bull inside, goat inside, then each one's Heichal service in sequence.",
+     "id": "yoma-055b-l17",
+     "label": "Order: The service order: bull inside, goat inside,",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-055b-l17",
+       "vilnaLine": 17
+      }
+     ]
     }
-  ],
-  "review": "reviewed"
+   ],
+   "topicTags": [
+    "blood bowl stands",
+    "bowl confusion",
+    "sequential handling",
+    "Heichal stands",
+    "service order"
+   ],
+   "concepts": {
+    "halachic": [
+     "blood bowl management",
+     "stand system",
+     "sequential bowl handling"
+    ],
+    "theological": [
+     "physical order as spiritual safeguard",
+     "sequential discipline in sacred service"
+    ],
+    "narrative": [
+     "ritual error prevention",
+     "Temple logistics"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Knowing the two blood services inside are sequential (bull before goat)",
+    "Knowing the Heichal contains stands for holding the bowls"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The HP simply held one bowl in each hand alternately - the stand system is a minor detail with no halachic significance.",
+     "correction": "The Talmud specifies a stand system in the Heichal where the HP places one bowl while sprinkling with the other; this is a defined technical detail of the ritual, not improvised."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "object",
+     "name": "two gold stands in the Heichal"
+    },
+    {
+     "type": "action",
+     "name": "sequential bowl handling - one at a time"
+    },
+    {
+     "type": "sequence",
+     "name": "bull inside then goat inside then Heichal services"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "The HP might confuse which bowl holds bull blood and which holds goat blood. The stand system ensures he handles one bowl at a time, setting it down before picking up the other.",
+     "question": "Why would having two blood bowls in the Heichal pose a danger, and how was it solved?"
+    }
+   ],
+   "finalRuling": "The two-stand system in the Heichal ensures the HP handles one blood bowl at a time, preventing any confusion between bull and goat blood.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'He does not hold that writing labels is a solution' - we do not rely on that, since sometimes he is not paying attention to examine",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "the writing. 'Because they get switched' - if he made two stands, he would set the goat's basin on one and",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "the bull's on the other, and when he comes to take the bull's blood, sometimes it gets switched on him",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "and he takes the goat's instead. Therefore, when there is only a single stand, he does not set this one down until he picks up",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "the other, and so the services come out in their proper order:",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "the goat's inside after the bull's, and the bull's",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "in the Heichal afterward, and only then the goat's.",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "'New shekels' - on the first shofar-box;",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "old shekels on the second; bird-offerings on the third;",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "young burnt-offering birds on the fourth; wood on",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "the fifth; frankincense on the sixth; gold",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "for the kapporet on the seventh; and six had",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "'voluntary offering' written on them. 'New shekels - these are the shekels of each and every year' -",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l05",
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "one who owes this year's shekel and did not bring it",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "in Adar may bring it whenever he wishes,",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "and place it in the box for new shekels,",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "and the treasurers place them in the chamber",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "and from them they set aside the three collection-boxes before",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "Passover, before Shavuot, and before",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "Sukkot. 'He shall pay for the coming year' - and he places it",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "in the box for old shekels, and the treasurers add it",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "to the surplus of last year's chamber, from which they build",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "the city wall and its towers, as we learned in Shekalim",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "(chapter 4, mishnah 2). 'Bird-offerings - these are turtledoves' -",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "from the coins in that box, only",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "turtledoves are purchased. 'All of them are burnt-offerings' - R. Yehuda",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "follows his own reasoning, since he says there were no shofar-boxes for obligatory",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "bird-offerings. And regarding wood, frankincense, and gold for the kapporet,",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "it is explained in tractate Shekalim (chapter 6, mishnah 6):",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "one who donates wood puts money into that box, no",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "less than two logs' worth; and one who donates frankincense",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "brings money and places it into the frankincense box, and from it they purchase frankincense and burn it",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "as a voluntary offering on the outer altar. For gold for the kapporet, one who donates gold places money",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "into the box, and from it they purchase gold for sacred vessels, namely the basins called",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "'kaphorei zahav' in Ezra and Chronicles. 'And six for voluntary offerings' - for the altar's",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l09",
+    "yoma-055b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "'dessert' (supplementary offerings), to put into them money collected from all the shepherds, from the surplus of guilt-offerings",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "and sin-offerings, regarding which we learned that the animal shall graze until blemished, then be sold, and its proceeds fall to the voluntary-offering fund;",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "and in the last chapter of Menachot,",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "(107b): six shofar-boxes correspond to the six ancestral houses in every priestly watch, and each one recognizes his own day's box; and if the altar was idle on its day",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "because no one brought offerings, the members of that ancestral house would take their box's money",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "and purchase burnt-offerings with it, and that is the altar's 'dessert.' Learn from this, in any case,",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "that R. Yehuda does hold that writing labels works, since it is taught that they",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "had writing on them. 'A decree on account of a sin-offering whose owner died' -",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l05",
+    "yoma-055b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "lest one of the owners who placed money in the box has died,",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "and since there are sin-offerings among them, that money becomes the money of a sin-offering whose owner died,",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "which must go to the Dead Sea, and it would be found mixed with the valid coins and invalidate them,",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l13"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "and that is why it is because of the mixing. 'Whose owner has certainly died' - meaning we know of him that he died",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l13",
+    "yoma-055b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "after placing the money in the box but before an offering was brought. 'And let us set aside four zuz' -",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "the value of the sin-offering, and he means plain provincial zuz, of which there are eight to a Tyrian zuz, and that is the price of a single bird,",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "since we learned that bird-offerings once stood at a quarter-dinar each (Keritot 8a), and a quarter-dinar is",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "half a Tyrian dinar, which is four provincial zuz. 'He does not hold by the principle of retroactive designation' - we do not rely",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l17"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "on retroactive designation to permit something forbidden. 'One who buys wine from the Samaritans' - before they were decreed impure,",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l17",
+    "yoma-055b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "and he has no vessels into which to separate the terumah and tithes. 'They shall be terumah' - remaining inside it.",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l19"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "'And he waits' - this is the citation of the next teaching; the daf ends here, and the comment's own explanation is deferred to 56a.",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l19"
+   ]
+  }
+ ],
+ "review": "reviewed"
 }
