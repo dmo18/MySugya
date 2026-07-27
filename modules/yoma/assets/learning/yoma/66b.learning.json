@@ -1,948 +1,1094 @@
 {
-  "canonicalRef": "Yoma 66b",
-  "summary": "Four topics: First, the Azazel guide is designated the day before Yom Kippur (advance preparation extends to every service role). Second, a recorded teacher-student dialogue on Yom Kippur matters illustrating the dialogic nature of halachic transmission. Third, the five Yom Kippur afflictions (eating/drinking, bathing, anointing, sandals, marital relations) that engage the body alongside the soul in Yom Kippur's work. Fourth, Hakhel (the king's septennial public Torah reading), discussed as a parallel to the Yom Kippur Torah reading - both being moments of covenant renewal through public Torah.",
-  "sugyot": [
+ "canonicalRef": "Yoma 66b",
+ "summary": "Four topics: First, the Azazel guide is designated the day before Yom Kippur (advance preparation extends to every service role). Second, a recorded teacher-student dialogue on Yom Kippur matters illustrating the dialogic nature of halachic transmission. Third, the five Yom Kippur afflictions (eating/drinking, bathing, anointing, sandals, marital relations) that engage the body alongside the soul in Yom Kippur's work. Fourth, Hakhel (the king's septennial public Torah reading), discussed as a parallel to the Yom Kippur Torah reading - both being moments of covenant renewal through public Torah.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-066b-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 10
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-066b-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 10
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.66b.1"
-        },
-        {
-          "vilnaLine": 2,
-          "sefariaRef": "Yoma.66b.2"
-        },
-        {
-          "vilnaLine": 3,
-          "sefariaRef": "Yoma.66b.3"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.66b.4"
-        },
-        {
-          "vilnaLine": 8,
-          "sefariaRef": "Yoma.66b.5"
-        },
-        {
-          "vilnaLine": 10,
-          "sefariaRef": "Yoma.66b.6"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.66b.1",
-        "Yoma.66b.2",
-        "Yoma.66b.3",
-        "Yoma.66b.4",
-        "Yoma.66b.5",
-        "Yoma.66b.6"
-      ],
-      "display": {
-        "whats": "The Azazel guide is designated the day before; digression on the word 'appointed'",
-        "hint": "The Mishnah specifies that the guide for the Azazel goat is designated the day before Yom Kippur. The Gemara uses the word 'appointed' as a bridge to a broader discussion.",
-        "title": "Designating the Guide in Advance: Precision Extends to Every Role"
-      },
-      "learning": {
-        "ahaMoment": "The guide's advance designation parallels the HP's seven-day preparation: even the guide role requires preparation, not improvisation. The service's precision extends to every participant.",
-        "memoryAnchor": "Even the guide is prepared in advance - Yom Kippur's precision extends to every participant, not just the HP.",
-        "learnerQuestion": "Why must the guide for the Azazel goat be designated the day before Yom Kippur rather than on the day itself?",
-        "coreTension": "Many Yom Kippur roles are assigned on the day. Why does the guide need advance designation? Is this a formal requirement or merely practical preparation?",
-        "coreMove": "Advance designation ensures the guide is mentally and ritually prepared. The Mishnah treats this as a formal halachic requirement, not just practical planning. Just as the HP underwent seven days of preparation, even the guide's role cannot be improvised on the day.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The guide must be formally designated the day before Yom Kippur - advance preparation is required even for supporting roles, not just the HP."
-        },
-        "learningBlocker": "Students may assume advance designation is just practical planning. But the Mishnah presents it as a formal halachic requirement - the guide designation must happen before Yom Kippur begins, not on the morning."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Mishnah",
-          "text": "The Azazel goat guide is designated the day before Yom Kippur.",
-          "id": "yoma-066b-l01",
-          "label": "Ruling: The Azazel goat guide is designated the",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-066b-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "type": "reason",
-          "speaker": "Gemara",
-          "text": "Advance designation ensures preparation; the service cannot be improvised.",
-          "id": "yoma-066b-l03",
-          "label": "Reason: Advance designation ensures preparation; the service...",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-066b-l03",
-              "vilnaLine": 3
-            }
-          ]
-        },
-        {
-          "type": "digression",
-          "speaker": "Gemara",
-          "text": "The word 'mu'ad' (appointed) connects to related halachic discussions.",
-          "id": "yoma-066b-l05",
-          "label": "Digression: The word 'mu'ad' (appointed) connects to related",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-066b-l05",
-              "vilnaLine": 5
-            }
-          ]
-        },
-        {
-          "type": "discussion",
-          "speaker": "Gemara",
-          "text": "Various uses of 'appointed' in halachic contexts.",
-          "id": "yoma-066b-l08",
-          "label": "Discussion: Various uses of 'appointed' in halachic contexts.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-066b-l08",
-              "vilnaLine": 8
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "guide designated in advance",
-        "mu'ad",
-        "advance preparation",
-        "scapegoat guide"
-      ],
-      "concepts": {
-        "halachic": [
-          "advance designation of Azazel guide",
-          "preparation for all service roles"
-        ],
-        "theological": [
-          "preparation as prerequisite for sacred service at every level"
-        ],
-        "narrative": [
-          "Yom Kippur preparation",
-          "service roles"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing the HP is prepared for seven days",
-        "Understanding that all service roles require preparation"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The guide can be assigned on the morning of Yom Kippur like other service assistants",
-          "correction": "The guide designation is not optional - it must be done the day before, not on the day. Even this supporting role requires formal advance designation as a matter of halachic requirement."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "person",
-          "name": "designated Azazel guide"
-        },
-        {
-          "type": "action",
-          "name": "advance designation day before Yom Kippur"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "The day before Yom Kippur. Advance designation ensures preparation; even the guide's role cannot be improvised on the day.",
-          "question": "When is the guide for the Azazel goat designated?"
-        }
-      ],
-      "finalRuling": "The Azazel guide is designated the day before Yom Kippur, reflecting the principle that every role in the Yom Kippur service requires advance preparation.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.66b.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-066b-s02",
-      "lineRange": {
-        "startVilnaLine": 12,
-        "endVilnaLine": 40
-      },
-      "lines": [
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.66b.7"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.66b.8"
-        },
-        {
-          "vilnaLine": 20,
-          "sefariaRef": "Yoma.66b.9"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.66b.10"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.66b.11"
-        },
-        {
-          "vilnaLine": 29,
-          "sefariaRef": "Yoma.66b.12"
-        },
-        {
-          "vilnaLine": 33,
-          "sefariaRef": "Yoma.66b.13"
-        },
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.66b.14"
-        },
-        {
-          "vilnaLine": 37,
-          "sefariaRef": "Yoma.66b.15"
-        },
-        {
-          "vilnaLine": 39,
-          "sefariaRef": "Yoma.66b.16"
-        },
-        {
-          "vilnaLine": 40,
-          "sefariaRef": "Yoma.66b.17"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.66b.7",
-        "Yoma.66b.8",
-        "Yoma.66b.9",
-        "Yoma.66b.10",
-        "Yoma.66b.11",
-        "Yoma.66b.12",
-        "Yoma.66b.13",
-        "Yoma.66b.14",
-        "Yoma.66b.15",
-        "Yoma.66b.16",
-        "Yoma.66b.17"
-      ],
-      "display": {
-        "whats": "Students asked their teacher: a record of dialogic halachic transmission about Yom Kippur law",
-        "hint": "The Gemara records a teaching dialogue: students asked their teacher about certain Yom Kippur matters, and the questions and answers together reveal the depth of halachic reasoning and the tradition of dialogic transmission.",
-        "title": "The Question as Torah: Why Student-Teacher Dialogues Are Preserved"
-      },
-      "learning": {
-        "ahaMoment": "The Talmud values the question as much as the answer. The students' questions advance the discussion and are preserved alongside the teacher's answers - both are Torah.",
-        "memoryAnchor": "Students asking, teacher answering: the dialogue is preserved because the questions were as important as the answers.",
-        "learnerQuestion": "What does it mean that the Talmud preserves students' questions alongside the teacher's answers, and why are these dialogues considered Torah?",
-        "coreTension": "The Talmud typically records rulings and reasoning. Why preserve the dialogue itself - the question and the back-and-forth? Are student questions just historical curiosity, or do they carry halachic weight?",
-        "coreMove": "The Talmud values the question as much as the answer. The dialogue is the vehicle of Torah transmission - understanding what was puzzling, and why, is part of the learning itself. Preserved questions show what needed clarification, which shapes how we understand the ruling.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "The preserved student-teacher dialogue teaches that asking is an act of Torah learning, not a display of ignorance. The question illuminates the ruling."
-        },
-        "learningBlocker": "Students may read preserved dialogues as incidental. But the Talmud's choice to record both question and answer signals that the process of questioning is itself part of the transmitted Torah."
-      },
-      "argumentFlow": [
-        {
-          "type": "question",
-          "speaker": "Students",
-          "text": "Students ask their teacher about a Yom Kippur matter.",
-          "id": "yoma-066b-l12",
-          "label": "Question: Students ask their teacher about a Yom",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-066b-l12",
-              "vilnaLine": 12
-            }
-          ]
-        },
-        {
-          "type": "answer",
-          "speaker": "Teacher",
-          "text": "The teacher provides an initial answer.",
-          "id": "yoma-066b-l16",
-          "label": "Answer: The teacher provides an initial answer.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-066b-l16",
-              "vilnaLine": 16
-            }
-          ]
-        },
-        {
-          "type": "follow-up",
-          "speaker": "Students",
-          "text": "Students ask a further clarifying question.",
-          "id": "yoma-066b-l20",
-          "label": "Follow-up: Students ask a further clarifying question.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-066b-l20",
-              "vilnaLine": 20
-            }
-          ]
-        },
-        {
-          "type": "continuation",
-          "speaker": "Gemara",
-          "text": "The dialogue continues, each exchange adding a layer of understanding.",
-          "id": "yoma-066b-l29",
-          "label": "Continuation: The dialogue continues, each exchange adding a",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-066b-l29",
-              "vilnaLine": 29
-            }
-          ]
-        },
-        {
-          "type": "conclusion",
-          "speaker": "Gemara",
-          "text": "The dialogue reaches a conclusion that advances the halachic discussion.",
-          "id": "yoma-066b-l39",
-          "label": "Conclusion: The dialogue reaches a conclusion that advances",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-066b-l39",
-              "vilnaLine": 39
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "dialogic transmission",
-        "students and teacher",
-        "questions and answers",
-        "halachic pedagogy"
-      ],
-      "concepts": {
-        "halachic": [
-          "dialogic halachic transmission",
-          "teacher-student questions and answers"
-        ],
-        "theological": [
-          "the value of the question in Torah learning",
-          "dialogue as the method of Torah transmission"
-        ],
-        "narrative": [
-          "Talmudic pedagogy",
-          "Torah transmission"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Understanding the dialogic nature of Talmudic discussion",
-        "Knowing that both questions and answers are part of Torah"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "A student's recorded question shows a gap in their knowledge - these dialogues are just historical background to the ruling",
-          "correction": "The student's question is not a failure to know - it is an act of Torah learning. The Talmud preserves these dialogues because the question illuminates the ruling and the dialogue is itself part of Torah transmission."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "relationship",
-          "name": "teacher-student dialogue"
-        },
-        {
-          "type": "sequence",
-          "name": "question, answer, follow-up question, answer"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "The Talmud values the question as much as the answer. Both are preserved because the dialogue - the process of questioning and responding - is itself the Torah transmission. Understanding the reasoning, not just the conclusion, is the goal.",
-          "question": "What does the Talmud's preservation of student-teacher dialogues reveal about how halachic knowledge was transmitted?"
-        }
-      ],
-      "finalRuling": "The Talmud preserves teacher-student dialogues because the questions advance halachic understanding as much as the answers; dialogue is the mode of Torah transmission.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 2,
+     "sefariaRef": "Yoma.66b.2"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-066b-s03",
-      "lineRange": {
-        "startVilnaLine": 41,
-        "endVilnaLine": 44
-      },
-      "lines": [
-        {
-          "vilnaLine": 41,
-          "sefariaRef": "Yoma.66b.18"
-        },
-        {
-          "vilnaLine": 44,
-          "sefariaRef": "Yoma.66b.19"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.66b.18",
-        "Yoma.66b.19"
-      ],
-      "display": {
-        "whats": "The five afflictions of Yom Kippur; their connection to bodily expression of repentance",
-        "hint": "The Mishnah lists the five afflictions prohibited on Yom Kippur - eating/drinking, bathing, anointing, sandals, marital relations. These afflictions engage the body in the work of repentance.",
-        "title": "Five Afflictions: The Body Joins the Soul in Yom Kippur"
-      },
-      "learning": {
-        "ahaMoment": "The five afflictions make Yom Kippur a full-body experience: the soul repents and the body participates through denial. Neither alone is sufficient for the full Yom Kippur experience.",
-        "memoryAnchor": "Five denials: the body joins the soul in Yom Kippur's work - through what it gives up, not just through what it says.",
-        "learnerQuestion": "What are the five Yom Kippur afflictions and why do these five specifically constitute the day's unique bodily observance?",
-        "coreTension": "Why these five physical restraints and not others? And what unifies them into a single concept rather than five separate prohibitions?",
-        "coreMove": "The five afflictions engage the whole person in Yom Kippur: nourishment, cleanliness, comfort, protection, and intimacy are all suspended. The soul's repentance is mirrored by bodily deprivation - each deprivation addresses a different dimension of physical comfort, making the body a full participant alongside the soul.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "The five afflictions are not general asceticism - they are a structured engagement of the entire person, body and soul, in Yom Kippur's atonement. Each targets a distinct dimension of physical comfort."
-        },
-        "learningBlocker": "Students may treat the five as an arbitrary list. The Mishnah's logic is that together these five cover the full range of bodily comfort - they constitute total bodily participation in the day's atonement."
-      },
-      "argumentFlow": [
-        {
-          "type": "ruling",
-          "speaker": "Mishnah",
-          "text": "Five afflictions are prohibited on Yom Kippur: eating/drinking, bathing, anointing, sandals, marital relations.",
-          "id": "yoma-066b-l41",
-          "label": "Ruling: Five afflictions are prohibited on Yom Kippur:",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-066b-l41",
-              "vilnaLine": 41
-            }
-          ]
-        },
-        {
-          "type": "significance",
-          "speaker": "Gemara",
-          "text": "The five afflictions engage the body in repentance alongside the soul's prayer.",
-          "id": "yoma-066b-l44",
-          "label": "Significance: The five afflictions engage the body in",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-066b-l44",
-              "vilnaLine": 44
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "five afflictions",
-        "inuyim",
-        "Yom Kippur prohibitions",
-        "body and soul"
-      ],
-      "concepts": {
-        "halachic": [
-          "five prohibited activities on Yom Kippur",
-          "body's participation in repentance"
-        ],
-        "theological": [
-          "the body and soul as partners in Yom Kippur observance"
-        ],
-        "narrative": [
-          "Yom Kippur observance",
-          "bodily affliction"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing what the five afflictions are",
-        "Understanding why physical denial expresses spiritual repentance"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The five Yom Kippur afflictions are general ascetic practices similar to other Jewish fast days",
-          "correction": "The five afflictions are Yom Kippur-specific - they are not general ascetic practices but specifically linked to the day's atonement. Each of the five targets a different dimension of physical comfort, making Yom Kippur a full-body experience."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "name": "five afflictions in order"
-        },
-        {
-          "type": "contrast",
-          "name": "physical denial paired with spiritual prayer"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Eating/drinking, bathing, anointing, wearing sandals, and marital relations. They engage the body in the work of repentance alongside the soul's prayer - the full person, body and soul, observes Yom Kippur.",
-          "question": "What are the five afflictions prohibited on Yom Kippur and what purpose do they serve?"
-        }
-      ],
-      "finalRuling": "The five Yom Kippur afflictions (eating/drinking, bathing, anointing, sandals, marital relations) engage the body in repentance alongside the soul's prayer.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 3,
+     "sefariaRef": "Yoma.66b.3"
     },
     {
-      "sugyaNumber": 4,
-      "id": "yoma-066b-s04",
-      "lineRange": {
-        "startVilnaLine": 45,
-        "endVilnaLine": 45
-      },
-      "lines": [
-        {
-          "vilnaLine": 45,
-          "sefariaRef": "Yoma.66b.20"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.66b.20"
-      ],
-      "display": {
-        "whats": "Hakhel: the king reads Torah once every seven years; parallel to the Yom Kippur Torah reading",
-        "hint": "The Mishnah mentions Hakhel - the once-every-seven-years gathering when the king reads Torah to all Israel - drawing a parallel to the Yom Kippur Torah reading.",
-        "title": "Two Rhythms of Covenant Renewal: Yom Kippur and Hakhel"
-      },
-      "learning": {
-        "ahaMoment": "Two public Torah readings: Yom Kippur every year, Hakhel every seven years - both are covenant renewal events, marking different rhythms of the people's relationship with the Torah.",
-        "memoryAnchor": "Two renewal rhythms: annual (Yom Kippur) and septennial (Hakhel) - both using public Torah reading to renew the covenant.",
-        "learnerQuestion": "What is Hakhel, and how does the Gemara connect it to the Yom Kippur Torah reading?",
-        "coreTension": "Hakhel is septennial (every seven years); Yom Kippur is annual. Both involve public Torah reading. Are they the same category of event, or is the comparison merely structural?",
-        "coreMove": "Both Yom Kippur and Hakhel use public Torah reading as covenant renewal - Yom Kippur annually (HP reads), Hakhel every seven years (the king reads). They share the structure of a national assembly hearing Torah as an act of communal renewal, though led by different officials at different intervals.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Yom Kippur and Hakhel share the structure of public Torah reading as covenant renewal - one annual, one septennial, one led by the HP, one by the Davidic king."
-        },
-        "learningBlocker": "Students may see these as simply two occasions where Torah is read publicly. The deeper connection is that both are acts of communal covenant renewal, using public Torah reading to bind Israel to its obligations."
-      },
-      "argumentFlow": [
-        {
-          "type": "mention",
-          "speaker": "Mishnah/Gemara",
-          "text": "Hakhel: the king reads Torah to all Israel once every seven years.",
-          "id": "yoma-066b-l45",
-          "label": "Mention: Hakhel: the king reads Torah to all",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-066b-l45",
-              "vilnaLine": 45
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Hakhel",
-        "king reads Torah",
-        "every seven years",
-        "covenant renewal",
-        "public reading"
-      ],
-      "concepts": {
-        "halachic": [
-          "Hakhel commandment",
-          "parallel to Yom Kippur reading",
-          "covenantal Torah reading"
-        ],
-        "theological": [
-          "two rhythms of covenant renewal: annual and septennial"
-        ],
-        "narrative": [
-          "Yom Kippur and Hakhel",
-          "public Torah reading"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing what Hakhel is and when it occurs",
-        "Understanding the function of public Torah reading in covenant renewal"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "Any civic or religious leader of sufficient standing can conduct the Hakhel Torah reading",
-          "correction": "Hakhel requires the Davidic king to read - not any leader, specifically the king. This is a key structural difference from the Yom Kippur reading conducted by the HP."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "name": "annual Yom Kippur reading vs. septennial Hakhel"
-        },
-        {
-          "type": "relationship",
-          "name": "both as covenant renewal through public Torah reading"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "Hakhel is the once-every-seven-years gathering where the king reads Torah to all Israel, commanded in Deuteronomy 31. Both Yom Kippur and Hakhel use public Torah reading as a form of covenant renewal - one annually, the other every seven years.",
-          "question": "What is Hakhel and how does it relate to the Yom Kippur Torah reading?"
-        }
-      ],
-      "finalRuling": "Hakhel (septennial public Torah reading) parallels the annual Yom Kippur Torah reading: both are moments of covenant renewal through public Torah.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.66b.4"
+    },
+    {
+     "vilnaLine": 8,
+     "sefariaRef": "Yoma.66b.5"
+    },
+    {
+     "vilnaLine": 10,
+     "sefariaRef": "Yoma.66b.6"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "en": "He should be designated the day before: the guide for the Azazel goat.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 2,
-      "en": "The guide is prepared in advance like the HP himself.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 3,
-      "en": "The designation is made on the day before Yom Kippur.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 4,
-      "en": "The word 'appointed' also appears in a different context.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "en": "A digression on the word 'appointed/designated' (mu'ad) in various halachic contexts.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "en": "The students asked their teacher about a certain halachic matter.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "en": "The teacher gave one answer; the students then asked further.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "en": "The chain of questions and answers reveals how halachic knowledge was transmitted.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "en": "A teacher's initial answer and the students' follow-up questions.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "en": "The Talmud preserves this teaching-learning dialogue.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "en": "Each question and answer adds a layer of understanding.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "en": "The dialogic nature of halachic transmission: not lecture but conversation.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "en": "Teacher and students together working out the implications.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "en": "The students' questions often push the discussion forward.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "en": "A wise teacher welcomes good questions.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "en": "The Talmud models good Torah pedagogy through these recorded dialogues.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "en": "The study of Yoma itself should be approached with the same dialogic spirit.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "en": "Ask why, not just what. Seek the underlying principle, not just the rule.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "en": "The students who asked deep questions advanced halachic knowledge.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "en": "Their questions are remembered because they mattered.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "en": "The Talmud values the question as much as the answer.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "en": "A question that clarifies is as important as an answer that resolves.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "en": "This dialogic spirit is part of what makes Talmud study vibrant.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "en": "The text records not just the conclusions but the process.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "en": "Understanding the process is understanding the Torah itself.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "en": "The Mishnah: on Yom Kippur these five afflictions are prohibited.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "en": "Eating, drinking, bathing, anointing, wearing sandals, and marital relations.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "en": "Actually five: eating/drinking is one, and marital relations may be separately counted.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "en": "The five afflictions parallel the five garment changes of the HP.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "en": "Or the five uses of the Shem haMeforash in the blessings.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "en": "Numbers have meaning in the Temple service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "en": "The five afflictions correspond to the five books of Torah.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "en": "Or the five organs through which sin enters.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "en": "The correspondences are multiple and all meaningful.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "en": "The afflictions: physical denial as the external expression of internal repentance.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "en": "The fast is not the repentance itself - it is the vessel for the repentance.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "en": "Without the fasting, the repentance lacks a physical container.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "en": "The body and the soul together observe Yom Kippur.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "en": "The body fasts; the soul repents.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "en": "The body prays; the soul is elevated.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "en": "They work in tandem on the most holy day.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "en": "The Mishnah: the king reads from the Torah on Sukkot, and the nations of Israel gather.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "en": "Hakhel: the once-in-seven-years gathering where the king reads Torah.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "en": "The connection between Hakhel and Yom Kippur: both involve public Torah reading.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "en": "Yom Kippur's Torah reading is in some ways a model for Hakhel.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "en": "Both involve the leader reading to all Israel in a moment of communal covenant renewal.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "en": "The Yom Kippur reading: the HP reads to the gathered people.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "en": "Hakhel: the king reads to the gathered people.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "en": "Two moments of communal Torah reading anchoring the Jewish calendar.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "en": "One annual (Yom Kippur), one every seven years (Hakhel).",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "en": "Both are moments when all Israel gathers to renew the covenant.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 52,
-      "en": "Through the reading of Torah, the covenant is renewed.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 53,
-      "en": "This is the deepest function of public Torah reading.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 54,
-      "en": "Not to transmit information but to renew the relationship.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 55,
-      "en": "The Torah is read; the covenant is renewed; the relationship continues.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 56,
-      "en": "On Yom Kippur: the relationship renewed through atonement.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 57,
-      "en": "At Hakhel: the relationship renewed through gathering.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 58,
-      "en": "Both are forms of renewal; both are essential to the covenant's continuity.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 59,
-      "en": "The tractate Yoma has taught us about the Yom Kippur renewal.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 60,
-      "en": "May every generation renew the covenant on this day.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 61,
-      "en": "And may we merit the full restoration of the Temple service.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 62,
-      "en": "Where the renewal will be complete.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 63,
-      "en": "In our days. Amen.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 64,
-      "en": "The tractate has come to its conclusion.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 65,
-      "en": "Everything the Talmud says about Yom Kippur is here.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 66,
-      "en": "In all its detail and all its meaning.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 67,
-      "en": "May we study it, observe it, and be renewed by it.",
-      "linkedGemaraLineIds": []
+   ],
+   "sefariaRefs": [
+    "Yoma.66b.1",
+    "Yoma.66b.2",
+    "Yoma.66b.3",
+    "Yoma.66b.4",
+    "Yoma.66b.5",
+    "Yoma.66b.6"
+   ],
+   "display": {
+    "whats": "The Azazel guide is designated the day before; digression on the word 'appointed'",
+    "hint": "The Mishnah specifies that the guide for the Azazel goat is designated the day before Yom Kippur. The Gemara uses the word 'appointed' as a bridge to a broader discussion.",
+    "title": "Designating the Guide in Advance: Precision Extends to Every Role"
+   },
+   "learning": {
+    "ahaMoment": "The guide's advance designation parallels the HP's seven-day preparation: even the guide role requires preparation, not improvisation. The service's precision extends to every participant.",
+    "memoryAnchor": "Even the guide is prepared in advance - Yom Kippur's precision extends to every participant, not just the HP.",
+    "learnerQuestion": "Why must the guide for the Azazel goat be designated the day before Yom Kippur rather than on the day itself?",
+    "coreTension": "Many Yom Kippur roles are assigned on the day. Why does the guide need advance designation? Is this a formal requirement or merely practical preparation?",
+    "coreMove": "Advance designation ensures the guide is mentally and ritually prepared. The Mishnah treats this as a formal halachic requirement, not just practical planning. Just as the HP underwent seven days of preparation, even the guide's role cannot be improvised on the day.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The guide must be formally designated the day before Yom Kippur - advance preparation is required even for supporting roles, not just the HP."
+    },
+    "learningBlocker": "Students may assume advance designation is just practical planning. But the Mishnah presents it as a formal halachic requirement - the guide designation must happen before Yom Kippur begins, not on the morning."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Mishnah",
+     "text": "The Azazel goat guide is designated the day before Yom Kippur.",
+     "id": "yoma-066b-l01",
+     "label": "Ruling: The Azazel goat guide is designated the",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-066b-l01",
+       "vilnaLine": 1
+      }
+     ]
+    },
+    {
+     "type": "reason",
+     "speaker": "Gemara",
+     "text": "Advance designation ensures preparation; the service cannot be improvised.",
+     "id": "yoma-066b-l03",
+     "label": "Reason: Advance designation ensures preparation; the service...",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-066b-l03",
+       "vilnaLine": 3
+      }
+     ]
+    },
+    {
+     "type": "digression",
+     "speaker": "Gemara",
+     "text": "The word 'mu'ad' (appointed) connects to related halachic discussions.",
+     "id": "yoma-066b-l05",
+     "label": "Digression: The word 'mu'ad' (appointed) connects to related",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-066b-l05",
+       "vilnaLine": 5
+      }
+     ]
+    },
+    {
+     "type": "discussion",
+     "speaker": "Gemara",
+     "text": "Various uses of 'appointed' in halachic contexts.",
+     "id": "yoma-066b-l08",
+     "label": "Discussion: Various uses of 'appointed' in halachic contexts.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-066b-l08",
+       "vilnaLine": 8
+      }
+     ]
     }
-  ],
-  "review": "reviewed"
+   ],
+   "topicTags": [
+    "guide designated in advance",
+    "mu'ad",
+    "advance preparation",
+    "scapegoat guide"
+   ],
+   "concepts": {
+    "halachic": [
+     "advance designation of Azazel guide",
+     "preparation for all service roles"
+    ],
+    "theological": [
+     "preparation as prerequisite for sacred service at every level"
+    ],
+    "narrative": [
+     "Yom Kippur preparation",
+     "service roles"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Knowing the HP is prepared for seven days",
+    "Understanding that all service roles require preparation"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The guide can be assigned on the morning of Yom Kippur like other service assistants",
+     "correction": "The guide designation is not optional - it must be done the day before, not on the day. Even this supporting role requires formal advance designation as a matter of halachic requirement."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "person",
+     "name": "designated Azazel guide"
+    },
+    {
+     "type": "action",
+     "name": "advance designation day before Yom Kippur"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "The day before Yom Kippur. Advance designation ensures preparation; even the guide's role cannot be improvised on the day.",
+     "question": "When is the guide for the Azazel goat designated?"
+    }
+   ],
+   "finalRuling": "The Azazel guide is designated the day before Yom Kippur, reflecting the principle that every role in the Yom Kippur service requires advance preparation.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-066b-s02",
+   "lineRange": {
+    "startVilnaLine": 12,
+    "endVilnaLine": 40
+   },
+   "lines": [
+    {
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.66b.7"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.66b.8"
+    },
+    {
+     "vilnaLine": 20,
+     "sefariaRef": "Yoma.66b.9"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.66b.10"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.66b.11"
+    },
+    {
+     "vilnaLine": 29,
+     "sefariaRef": "Yoma.66b.12"
+    },
+    {
+     "vilnaLine": 33,
+     "sefariaRef": "Yoma.66b.13"
+    },
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.66b.14"
+    },
+    {
+     "vilnaLine": 37,
+     "sefariaRef": "Yoma.66b.15"
+    },
+    {
+     "vilnaLine": 39,
+     "sefariaRef": "Yoma.66b.16"
+    },
+    {
+     "vilnaLine": 40,
+     "sefariaRef": "Yoma.66b.17"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.66b.7",
+    "Yoma.66b.8",
+    "Yoma.66b.9",
+    "Yoma.66b.10",
+    "Yoma.66b.11",
+    "Yoma.66b.12",
+    "Yoma.66b.13",
+    "Yoma.66b.14",
+    "Yoma.66b.15",
+    "Yoma.66b.16",
+    "Yoma.66b.17"
+   ],
+   "display": {
+    "whats": "Students asked their teacher: a record of dialogic halachic transmission about Yom Kippur law",
+    "hint": "The Gemara records a teaching dialogue: students asked their teacher about certain Yom Kippur matters, and the questions and answers together reveal the depth of halachic reasoning and the tradition of dialogic transmission.",
+    "title": "The Question as Torah: Why Student-Teacher Dialogues Are Preserved"
+   },
+   "learning": {
+    "ahaMoment": "The Talmud values the question as much as the answer. The students' questions advance the discussion and are preserved alongside the teacher's answers - both are Torah.",
+    "memoryAnchor": "Students asking, teacher answering: the dialogue is preserved because the questions were as important as the answers.",
+    "learnerQuestion": "What does it mean that the Talmud preserves students' questions alongside the teacher's answers, and why are these dialogues considered Torah?",
+    "coreTension": "The Talmud typically records rulings and reasoning. Why preserve the dialogue itself - the question and the back-and-forth? Are student questions just historical curiosity, or do they carry halachic weight?",
+    "coreMove": "The Talmud values the question as much as the answer. The dialogue is the vehicle of Torah transmission - understanding what was puzzling, and why, is part of the learning itself. Preserved questions show what needed clarification, which shapes how we understand the ruling.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "The preserved student-teacher dialogue teaches that asking is an act of Torah learning, not a display of ignorance. The question illuminates the ruling."
+    },
+    "learningBlocker": "Students may read preserved dialogues as incidental. But the Talmud's choice to record both question and answer signals that the process of questioning is itself part of the transmitted Torah."
+   },
+   "argumentFlow": [
+    {
+     "type": "question",
+     "speaker": "Students",
+     "text": "Students ask their teacher about a Yom Kippur matter.",
+     "id": "yoma-066b-l12",
+     "label": "Question: Students ask their teacher about a Yom",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-066b-l12",
+       "vilnaLine": 12
+      }
+     ]
+    },
+    {
+     "type": "answer",
+     "speaker": "Teacher",
+     "text": "The teacher provides an initial answer.",
+     "id": "yoma-066b-l16",
+     "label": "Answer: The teacher provides an initial answer.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-066b-l16",
+       "vilnaLine": 16
+      }
+     ]
+    },
+    {
+     "type": "follow-up",
+     "speaker": "Students",
+     "text": "Students ask a further clarifying question.",
+     "id": "yoma-066b-l20",
+     "label": "Follow-up: Students ask a further clarifying question.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-066b-l20",
+       "vilnaLine": 20
+      }
+     ]
+    },
+    {
+     "type": "continuation",
+     "speaker": "Gemara",
+     "text": "The dialogue continues, each exchange adding a layer of understanding.",
+     "id": "yoma-066b-l29",
+     "label": "Continuation: The dialogue continues, each exchange adding a",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-066b-l29",
+       "vilnaLine": 29
+      }
+     ]
+    },
+    {
+     "type": "conclusion",
+     "speaker": "Gemara",
+     "text": "The dialogue reaches a conclusion that advances the halachic discussion.",
+     "id": "yoma-066b-l39",
+     "label": "Conclusion: The dialogue reaches a conclusion that advances",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-066b-l39",
+       "vilnaLine": 39
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "dialogic transmission",
+    "students and teacher",
+    "questions and answers",
+    "halachic pedagogy"
+   ],
+   "concepts": {
+    "halachic": [
+     "dialogic halachic transmission",
+     "teacher-student questions and answers"
+    ],
+    "theological": [
+     "the value of the question in Torah learning",
+     "dialogue as the method of Torah transmission"
+    ],
+    "narrative": [
+     "Talmudic pedagogy",
+     "Torah transmission"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Understanding the dialogic nature of Talmudic discussion",
+    "Knowing that both questions and answers are part of Torah"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "A student's recorded question shows a gap in their knowledge - these dialogues are just historical background to the ruling",
+     "correction": "The student's question is not a failure to know - it is an act of Torah learning. The Talmud preserves these dialogues because the question illuminates the ruling and the dialogue is itself part of Torah transmission."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "relationship",
+     "name": "teacher-student dialogue"
+    },
+    {
+     "type": "sequence",
+     "name": "question, answer, follow-up question, answer"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "The Talmud values the question as much as the answer. Both are preserved because the dialogue - the process of questioning and responding - is itself the Torah transmission. Understanding the reasoning, not just the conclusion, is the goal.",
+     "question": "What does the Talmud's preservation of student-teacher dialogues reveal about how halachic knowledge was transmitted?"
+    }
+   ],
+   "finalRuling": "The Talmud preserves teacher-student dialogues because the questions advance halachic understanding as much as the answers; dialogue is the mode of Torah transmission.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-066b-s03",
+   "lineRange": {
+    "startVilnaLine": 41,
+    "endVilnaLine": 44
+   },
+   "lines": [
+    {
+     "vilnaLine": 41,
+     "sefariaRef": "Yoma.66b.18"
+    },
+    {
+     "vilnaLine": 44,
+     "sefariaRef": "Yoma.66b.19"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.66b.18",
+    "Yoma.66b.19"
+   ],
+   "display": {
+    "whats": "The five afflictions of Yom Kippur; their connection to bodily expression of repentance",
+    "hint": "The Mishnah lists the five afflictions prohibited on Yom Kippur - eating/drinking, bathing, anointing, sandals, marital relations. These afflictions engage the body in the work of repentance.",
+    "title": "Five Afflictions: The Body Joins the Soul in Yom Kippur"
+   },
+   "learning": {
+    "ahaMoment": "The five afflictions make Yom Kippur a full-body experience: the soul repents and the body participates through denial. Neither alone is sufficient for the full Yom Kippur experience.",
+    "memoryAnchor": "Five denials: the body joins the soul in Yom Kippur's work - through what it gives up, not just through what it says.",
+    "learnerQuestion": "What are the five Yom Kippur afflictions and why do these five specifically constitute the day's unique bodily observance?",
+    "coreTension": "Why these five physical restraints and not others? And what unifies them into a single concept rather than five separate prohibitions?",
+    "coreMove": "The five afflictions engage the whole person in Yom Kippur: nourishment, cleanliness, comfort, protection, and intimacy are all suspended. The soul's repentance is mirrored by bodily deprivation - each deprivation addresses a different dimension of physical comfort, making the body a full participant alongside the soul.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "The five afflictions are not general asceticism - they are a structured engagement of the entire person, body and soul, in Yom Kippur's atonement. Each targets a distinct dimension of physical comfort."
+    },
+    "learningBlocker": "Students may treat the five as an arbitrary list. The Mishnah's logic is that together these five cover the full range of bodily comfort - they constitute total bodily participation in the day's atonement."
+   },
+   "argumentFlow": [
+    {
+     "type": "ruling",
+     "speaker": "Mishnah",
+     "text": "Five afflictions are prohibited on Yom Kippur: eating/drinking, bathing, anointing, sandals, marital relations.",
+     "id": "yoma-066b-l41",
+     "label": "Ruling: Five afflictions are prohibited on Yom Kippur:",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-066b-l41",
+       "vilnaLine": 41
+      }
+     ]
+    },
+    {
+     "type": "significance",
+     "speaker": "Gemara",
+     "text": "The five afflictions engage the body in repentance alongside the soul's prayer.",
+     "id": "yoma-066b-l44",
+     "label": "Significance: The five afflictions engage the body in",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-066b-l44",
+       "vilnaLine": 44
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "five afflictions",
+    "inuyim",
+    "Yom Kippur prohibitions",
+    "body and soul"
+   ],
+   "concepts": {
+    "halachic": [
+     "five prohibited activities on Yom Kippur",
+     "body's participation in repentance"
+    ],
+    "theological": [
+     "the body and soul as partners in Yom Kippur observance"
+    ],
+    "narrative": [
+     "Yom Kippur observance",
+     "bodily affliction"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Knowing what the five afflictions are",
+    "Understanding why physical denial expresses spiritual repentance"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The five Yom Kippur afflictions are general ascetic practices similar to other Jewish fast days",
+     "correction": "The five afflictions are Yom Kippur-specific - they are not general ascetic practices but specifically linked to the day's atonement. Each of the five targets a different dimension of physical comfort, making Yom Kippur a full-body experience."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "name": "five afflictions in order"
+    },
+    {
+     "type": "contrast",
+     "name": "physical denial paired with spiritual prayer"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Eating/drinking, bathing, anointing, wearing sandals, and marital relations. They engage the body in the work of repentance alongside the soul's prayer - the full person, body and soul, observes Yom Kippur.",
+     "question": "What are the five afflictions prohibited on Yom Kippur and what purpose do they serve?"
+    }
+   ],
+   "finalRuling": "The five Yom Kippur afflictions (eating/drinking, bathing, anointing, sandals, marital relations) engage the body in repentance alongside the soul's prayer.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 4,
+   "id": "yoma-066b-s04",
+   "lineRange": {
+    "startVilnaLine": 45,
+    "endVilnaLine": 45
+   },
+   "lines": [
+    {
+     "vilnaLine": 45,
+     "sefariaRef": "Yoma.66b.20"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.66b.20"
+   ],
+   "display": {
+    "whats": "Hakhel: the king reads Torah once every seven years; parallel to the Yom Kippur Torah reading",
+    "hint": "The Mishnah mentions Hakhel - the once-every-seven-years gathering when the king reads Torah to all Israel - drawing a parallel to the Yom Kippur Torah reading.",
+    "title": "Two Rhythms of Covenant Renewal: Yom Kippur and Hakhel"
+   },
+   "learning": {
+    "ahaMoment": "Two public Torah readings: Yom Kippur every year, Hakhel every seven years - both are covenant renewal events, marking different rhythms of the people's relationship with the Torah.",
+    "memoryAnchor": "Two renewal rhythms: annual (Yom Kippur) and septennial (Hakhel) - both using public Torah reading to renew the covenant.",
+    "learnerQuestion": "What is Hakhel, and how does the Gemara connect it to the Yom Kippur Torah reading?",
+    "coreTension": "Hakhel is septennial (every seven years); Yom Kippur is annual. Both involve public Torah reading. Are they the same category of event, or is the comparison merely structural?",
+    "coreMove": "Both Yom Kippur and Hakhel use public Torah reading as covenant renewal - Yom Kippur annually (HP reads), Hakhel every seven years (the king reads). They share the structure of a national assembly hearing Torah as an act of communal renewal, though led by different officials at different intervals.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Yom Kippur and Hakhel share the structure of public Torah reading as covenant renewal - one annual, one septennial, one led by the HP, one by the Davidic king."
+    },
+    "learningBlocker": "Students may see these as simply two occasions where Torah is read publicly. The deeper connection is that both are acts of communal covenant renewal, using public Torah reading to bind Israel to its obligations."
+   },
+   "argumentFlow": [
+    {
+     "type": "mention",
+     "speaker": "Mishnah/Gemara",
+     "text": "Hakhel: the king reads Torah to all Israel once every seven years.",
+     "id": "yoma-066b-l45",
+     "label": "Mention: Hakhel: the king reads Torah to all",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-066b-l45",
+       "vilnaLine": 45
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "Hakhel",
+    "king reads Torah",
+    "every seven years",
+    "covenant renewal",
+    "public reading"
+   ],
+   "concepts": {
+    "halachic": [
+     "Hakhel commandment",
+     "parallel to Yom Kippur reading",
+     "covenantal Torah reading"
+    ],
+    "theological": [
+     "two rhythms of covenant renewal: annual and septennial"
+    ],
+    "narrative": [
+     "Yom Kippur and Hakhel",
+     "public Torah reading"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Knowing what Hakhel is and when it occurs",
+    "Understanding the function of public Torah reading in covenant renewal"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Any civic or religious leader of sufficient standing can conduct the Hakhel Torah reading",
+     "correction": "Hakhel requires the Davidic king to read - not any leader, specifically the king. This is a key structural difference from the Yom Kippur reading conducted by the HP."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "name": "annual Yom Kippur reading vs. septennial Hakhel"
+    },
+    {
+     "type": "relationship",
+     "name": "both as covenant renewal through public Torah reading"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "Hakhel is the once-every-seven-years gathering where the king reads Torah to all Israel, commanded in Deuteronomy 31. Both Yom Kippur and Hakhel use public Torah reading as a form of covenant renewal - one annually, the other every seven years.",
+     "question": "What is Hakhel and how does it relate to the Yom Kippur Torah reading?"
+    }
+   ],
+   "finalRuling": "Hakhel (septennial public Torah reading) parallels the annual Yom Kippur Torah reading: both are moments of covenant renewal through public Torah.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'Gemara: that it be ready' - prepared for this from the day before. '\"Ready\" even on Shabbat' -",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "'ready' teaches that in its proper time it shall be sent away without delay, even on Shabbat and in a state of impurity; and the Gemara",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "will explain below what prohibition of Shabbat and impurity applies to its dispatch, such that a special inclusion was needed.",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "'For what halachic purpose' - what desecration of Shabbat is there that needed to be permitted? If on account of the boundary limits",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "of Shabbat, these are merely rabbinic, decreed",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l03"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "only after the giving of the Torah. 'In accordance with whom' - the inclusion was needed",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l03",
+    "yoma-066b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "for the view unlike Rabbi Natan, who says a living being carries",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "itself, and the prohibition involved is only",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "rabbinic in nature; and this is a dispute in tractate Shabbat (94a).",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "'A sick goat is different' - since now it does not carry",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l05"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "itself, and the one carrying it desecrates Shabbat. 'This",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l05",
+    "yoma-066b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "teaches' - since it was necessary to teach 'ready,",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "even on Shabbat,' we may infer that there is no",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "prohibition of carrying on Yom Kippur; for if",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "Yom Kippur were like Shabbat regarding carrying, why would",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "I need a verse to permit carrying it on Shabbat? Even",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "when it falls on a weekday it would be treated like Shabbat, and yet",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "the Torah says 'he shall send it away.' One might object that the eruv was instituted merely incidentally; but",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "en": "rather, the two matters are interdependent, since the Sages instituted",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "en": "courtyard eruvin only because of the prohibition",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "en": "on carrying that they decreed from one domain to another,",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "en": "a decree on account of carrying from a private",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l08"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "en": "domain to a public one. 'For what halachic purpose' - what prohibition",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l08",
+    "yoma-066b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "en": "of Temple or sacred-item impurity applies to its dispatch,",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "en": "that it needed to say that impurity is overridden?",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "en": "'One who is impure may enter the courtyard' - since the priest",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l10"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "en": "hands it over to him there. 'I and you together",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l10",
+    "yoma-066b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "en": "could carry it' - the goat was healthy and strong",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "en": "enough to carry both me and you upon it. The Gemara",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "en": "will say below that he did not wish to answer",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "en": "their question with anything he had not heard from his own teacher.",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "en": "'Let me and you be at peace' - meaning, why",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "en": "do you ask me this? Neither I nor you",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l12"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "en": "will ever need to deal with sending it away. 'He pushed it' - down the cliff and it did not die -",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l12",
+    "yoma-066b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "en": "must he go down after it and kill it?",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l16"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "en": "'What is the status of so-and-so in the World to Come' - they asked him about",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "en": "a certain man's deeds in his eyes; some",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "en": "explain they asked him about Solomon son of David.",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "en": "'But regarding so-and-so' - perhaps you are asking me about Absalom",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l20"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "en": "were you asking me. 'But regarding the shepherd' - whether it is permitted",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l20",
+    "yoma-066b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "en": "to save him from the lion's mouth. 'May a mamzer inherit' -",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "en": "from his father? 'He said to them: is the question about levirate marriage' -",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "en": "are you asking me about his brother's wife? 'May one plaster'",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "en": "'his house' - nowadays, is it forbidden on account of",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "en": "the grief of the Temple's destruction? 'He said to them: you did not",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "en": "ask me that, but rather, may one plaster his grave?'",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l22"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "en": "'Not that he brushed them off' - and diverted them to other matters,",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "en": "like someone intending to deflect because he does not know",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "en": "how to answer; rather, he did know, but he would not say",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l27"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "en": "anything he had not heard from his teacher. 'Since the acts",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l27",
+    "yoma-066b-l29"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "en": "of the calf were equal' - its forms of worship are equally forbidden;",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l29"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "en": "why then was their death not equal? For there were",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l29"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "en": "three forms of death: death by the sword, 'let every man'",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l29"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "en": "'put his sword' upon his brother; death by plague, 'and the Lord plagued the people'",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l29"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "en": "(Exodus 32); death by dropsy, as it is written, 'and he scattered it'",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l29"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "en": "'upon the water,' and we say in tractate",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l29"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "en": "Avodah Zarah (44a) that Moses intended",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l29"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "en": "only to test them like suspected wives, causing",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l29"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "en": "their bellies to swell. 'He sacrificed and burned incense' - these are the forms",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l29",
+    "yoma-066b-l33"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "en": "of service for which one is liable to death for idol worship, as we learned in the chapter Arba Mitot (Sanhedrin 60b), which are by stoning; but here it is by the sword, since the four",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l33"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "en": "court-imposed death penalties had not yet been specified, and they were judged by the death penalty of Noahides, all by the sword, as we say in Sanhedrin (56a). 'He embraced and kissed' - these carry no court-imposed death penalty, as we learned in the chapter Arba",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l33"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "en": "Mitot (ibid. 60b), but rather they were judged at the hand of Heaven, by plague. 'All the sons of Levi' - since all of them are included in this. 'He who said of his father and mother, \"I have not seen him\"' - regarding the incident of the calf, they became",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l33",
+    "yoma-066b-l37",
+    "yoma-066b-l39"
+   ]
+  },
+  {
+   "vilnaLine": 63,
+   "en": "cruel toward them to avenge God's vengeance; this shows that his father, mother, brothers, and sons had worshipped the idol. 'And since they hate' - the people of the Land of Israel",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l39",
+    "yoma-066b-l41"
+   ]
+  },
+  {
+   "vilnaLine": 64,
+   "en": "hated the Babylonians, they would call every reckless person and doer of improper deeds by their name. 'May your mind be at ease' - his family was from Babylonia, and this matter was difficult for him.",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l41"
+   ]
+  },
+  {
+   "vilnaLine": 65,
+   "en": "'Why does this goat linger, when the sins of the generation are so many?' - why is this goat delayed here, while the iniquities of the generation are numerous and rest upon it? 'Mishnah: from the notables of Jerusalem' -",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l44",
+    "yoma-066b-l45"
+   ]
+  },
+  {
+   "vilnaLine": 66,
+   "en": "from the prominent people of Jerusalem. 'To the first sukkah' - they made huts for it along the way, and people would go to reside there before Yom Kippur, so that they could escort it from hut to hut.",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l45"
+   ]
+  },
+  {
+   "vilnaLine": 67,
+   "en": "'Ninety' - the comment is completed on 67a as 'ris,' a unit of distance, explaining the total distance from Jerusalem to the cliff.",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l45"
+   ]
+  }
+ ],
+ "review": "reviewed"
 }
