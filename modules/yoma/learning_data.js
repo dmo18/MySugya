@@ -131566,11 +131566,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 1,
         he: "וקבל בו את הדם. כל קבלות של כל ימות השנה קמבעיא ליה:",
-        en: "A decree was instituted - a rabbinic fence preventing accidental violation.",
+        en: "'And he shall receive the blood in it' - he questions all the receiving-vessels used throughout the year.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l10"
+        ]
       },
       {
         id: "rashi-yoma-058a-002",
@@ -131578,11 +131580,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 2,
         he: "מין במינו. מזרק במזרק: חוצץ. ונמצא שאין קבלה זו בכהן שהרי",
-        en: "The parochet sprinkling and golden altar service: order and derivation.",
+        en: "'Same kind with same kind' - one basin inside another basin. 'Does it interpose?' - meaning this receiving would not count as done by the priest himself, since he",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l10"
+        ]
       },
       {
         id: "rashi-yoma-058a-003",
@@ -131590,11 +131594,14 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 3,
         he: "אינו אוחז במזרק שהדם בו: מאי לאו הושיב מזרק המלא בתוך",
-        en: "He sprinkles on the parochet before the golden altar service.",
+        en: "is not holding the basin that the blood is actually in. 'Does this not mean he set a full basin inside",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l10",
+          "yoma-058a-l14"
+        ]
       },
       {
         id: "rashi-yoma-058a-004",
@@ -131602,11 +131609,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 4,
         he: "הריקן. שעירה ממנו והא הכא נמי ולקח כתיב ולקח מדם הפר",
-        en: "The combined blood for the golden altar comes after the individual blood parochet service.",
+        en: "an empty one' - that he poured from it? But here too it is written 'and he shall take,' 'and he shall take from the blood of the bull'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l14"
+        ]
       },
       {
         id: "rashi-yoma-058a-005",
@@ -131614,11 +131623,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 5,
         he: "ומדם השעיר והך לקיחה אחיזת המזרק",
-        en: "After mixing, seven sprinkles go on the golden altar from the combined blood.",
+        en: "'and from the blood of the goat,' and this 'taking' means holding the basin",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l14"
+        ]
       },
       {
         id: "rashi-yoma-058a-006",
@@ -131626,11 +131637,14 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 6,
         he: "היא: לא עירה מזרק מלא. לאחר",
-        en: "The parochet receives individual blood sprinkles first; golden altar receives mixed blood.",
+        en: "itself. 'No, he poured a full basin' - after",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l14",
+          "yoma-058a-l15"
+        ]
       },
       {
         id: "rashi-yoma-058a-007",
@@ -131638,11 +131652,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 7,
         he: "שעירה דם הפר לדם השעיר חוזר",
-        en: "The order: parochet from individual bloods, then mix, then golden altar from mixed blood.",
+        en: "he poured the bull's blood into the goat's blood, he goes back",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l15"
+        ]
       },
       {
         id: "rashi-yoma-058a-008",
@@ -131650,11 +131666,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 8,
         he: "ומערה מזרק מלא לתוך מזרק ריקן:",
-        en: "This ordering is derived from the verses.",
+        en: "and pours a full basin into an empty basin.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l15"
+        ]
       },
       {
         id: "rashi-yoma-058a-009",
@@ -131662,11 +131680,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 9,
         he: "עומד על גבי כלים וכו'. דתנא דבי",
-        en: "The seven sprinkles on the golden altar top are from the combined blood.",
+        en: "'He stood upon vessels, etc.' - since the school of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l18"
+        ]
       },
       {
         id: "rashi-yoma-058a-010",
@@ -131674,11 +131694,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 10,
         he: "רבי ישמעאל הואיל ורצפה מקדשת וכלי",
-        en: "After the golden altar: the outer altar.",
+        en: "R. Yishmael taught: since the floor sanctifies and the sacred",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l18"
+        ]
       },
       {
         id: "rashi-yoma-058a-011",
@@ -131686,11 +131708,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 11,
         he: "שרת מקדשים מה כלי שרת לא יהא",
-        en: "HP moves from the inner golden altar to the outer altar in the courtyard.",
+        en: "vessels sanctify, just as with a sacred vessel nothing may",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l18"
+        ]
       },
       {
         id: "rashi-yoma-058a-012",
@@ -131698,11 +131722,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 12,
         he: "דבר חוצץ בינו ובין כלי שרת אף",
-        en: "He sprinkles on the four corners of the outer altar.",
+        en: "interpose between it and the sacred vessel, so too",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l18"
+        ]
       },
       {
         id: "rashi-yoma-058a-013",
@@ -131710,11 +131736,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 13,
         he: "רצפה לא יהא דבר חוצץ בינו לבין",
-        en: "From the combined blood, the corners receive sprinkles.",
+        en: "with the floor nothing may interpose between him and",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l18"
+        ]
       },
       {
         id: "rashi-yoma-058a-014",
@@ -131722,11 +131750,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 14,
         he: "הרצפה במס' זבחים (דף כד.): על",
-        en: "Then he pours the remainder at the base.",
+        en: "the floor, in tractate Zevachim (24a). 'Upon",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l18"
+        ]
       },
       {
         id: "rashi-yoma-058a-015",
@@ -131734,11 +131764,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 15,
         he: "גבי רגל חבירו. אלמא מין במינו חוצץ:",
-        en: "The base receives the final remnant blood from all services.",
+        en: "his fellow's foot' - this shows that same kind interposes upon same kind.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l18"
+        ]
       },
       {
         id: "rashi-yoma-058a-016",
@@ -131746,11 +131778,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 16,
         he: "דלא מבטל ליה. חבירו את רגלו עד",
-        en: "Two pours: one at the inner altar base and one at the outer altar base.",
+        en: "'Since he does not nullify it' - his fellow does not withdraw his foot until",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l18"
+        ]
       },
       {
         id: "rashi-yoma-058a-017",
@@ -131758,11 +131792,14 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 17,
         he: "שיגמור עבודתו: כלי השרת. שני כלים",
-        en: "Actually: all remainders go to the outer altar's western base.",
+        en: "he finishes his service. 'The vessels of service' - two vessels",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l18",
+          "yoma-058a-l20"
+        ]
       },
       {
         id: "rashi-yoma-058a-018",
@@ -131770,11 +131807,14 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 18,
         he: "במשמע ושירות אחת: סיב. הגדל סביב",
-        en: "HP completes the inner circuit and then moves to the outer court.",
+        en: "are implied and a single act of service. 'Fiber' - that grows around",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l20",
+          "yoma-058a-l24"
+        ]
       },
       {
         id: "rashi-yoma-058a-019",
@@ -131782,11 +131822,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 19,
         he: "הדקל ונכרך עליו סביב כמין לולבין",
-        en: "He carries the remaining blood bowl to the outer court.",
+        en: "the palm tree and wraps around it like the tendrils on grapevines,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l24"
+        ]
       },
       {
         id: "rashi-yoma-058a-020",
@@ -131794,11 +131836,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 20,
         he: "בגפנים והוא רך וסופג את הדם והדם",
-        en: "There he completes the outer altar service.",
+        en: "and it is soft and absorbs the blood, and the blood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l24"
+        ]
       },
       {
         id: "rashi-yoma-058a-021",
@@ -131806,11 +131850,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 21,
         he: "יוצא מכל עבריו ואינו חוצץ כל כך מי",
-        en: "After all sprinklings: residual blood is poured.",
+        en: "seeps out from every side of it, so it does not interpose very much - is this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l24"
+        ]
       },
       {
         id: "rashi-yoma-058a-022",
@@ -131818,11 +131864,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 22,
         he: "הויא כי האי גוונא חציצה או לא:",
-        en: "The Mishnah specifies which base receives which blood.",
+        en: "sort of thing considered an interposition or not?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l24"
+        ]
       },
       {
         id: "rashi-yoma-058a-023",
@@ -131830,11 +131878,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 23,
         he: "זולף והולך וכו'. רישא דמתני' הכי",
-        en: "Inner services vs. outer services: different bloods, different locations for remainders.",
+        en: "'He pours it out gradually, etc.' - the Mishnah's own beginning states this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l28"
+        ]
       },
       {
         id: "rashi-yoma-058a-024",
@@ -131842,11 +131892,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 24,
         he: "(פרה פ\"ו מ\"ג) המקדש בשוקת והיה",
-        en: "The outer altar's western base receives the combined blood remainder.",
+        en: "(Parah 6:3): if one sanctified the ash water in a trough and there",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l28"
+        ]
       },
       {
         id: "rashi-yoma-058a-025",
@@ -131854,11 +131906,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 25,
         he: "ספוג לתוכו מים שבספוג פסולין",
-        en: "This is the final act of the blood service.",
+        en: "was a sponge inside it, the water absorbed in the sponge is invalid.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l28"
+        ]
       },
       {
         id: "rashi-yoma-058a-026",
@@ -131866,11 +131920,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 26,
         he: "כיצד יעשה זולף והולך עד שמגיע",
-        en: "The western base of the outer altar: why specifically the west?",
+        en: "What should he do? He pours it out gradually until he reaches",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l28"
+        ]
       },
       {
         id: "rashi-yoma-058a-027",
@@ -131878,11 +131934,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 27,
         he: "לספוג שוקת היא אבן חלולה על שפת",
-        en: "The west is closest to the Holy of Holies - blood returns toward its source.",
+        en: "the sponge. The trough is a hollowed stone at the spring's",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l28"
+        ]
       },
       {
         id: "rashi-yoma-058a-028",
@@ -131890,11 +131948,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 28,
         he: "המעיין והמים נכנסין לה דרך חור",
-        en: "The western base receives certain bloods by tradition and derivation.",
+        en: "edge, and the water enters it through a hole",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l28"
+        ]
       },
       {
         id: "rashi-yoma-058a-029",
@@ -131902,11 +131962,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 29,
         he: "שבדופנה ומשקין בה בהמות ומקדשין",
-        en: "After all pouring, the blood service is complete.",
+        en: "in its wall, and animals are watered from it, and it is sanctified",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l28"
+        ]
       },
       {
         id: "rashi-yoma-058a-030",
@@ -131914,11 +131976,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 30,
         he: "בה אפר חטאת לתוך מים חיים והיא",
-        en: "The HP has moved through all four zones of the sanctuary.",
+        en: "in it, the ash of the red heifer into living water, and this is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l28"
+        ]
       },
       {
         id: "rashi-yoma-058a-031",
@@ -131926,11 +131990,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 31,
         he: "הכלי מים שבספוג פסולין דחיים אל",
-        en: "Now he returns to other Yom Kippur tasks: scapegoat, reading, personal services.",
+        en: "the vessel. The water absorbed in the sponge is invalid because for living water we require the water",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l28"
+        ]
       },
       {
         id: "rashi-yoma-058a-032",
@@ -131938,11 +132004,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 32,
         he: "כלי בעינן שיהו המים נוגעין בכלי",
-        en: "The blood service is the ritual heart; everything else surrounds it.",
+        en: "to be in contact with a vessel.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l28"
+        ]
       },
       {
         id: "rashi-yoma-058a-033",
@@ -131950,11 +132018,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 33,
         he: "כיצד הוא עושה כשבא ליטול את המים",
-        en: "The HP's concentration during the blood service is unparalleled.",
+        en: "How does he proceed? When he comes to take the water",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l28"
+        ]
       },
       {
         id: "rashi-yoma-058a-034",
@@ -131962,11 +132032,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 34,
         he: "וליתנם בצלוחית ובשפופרת זולף וגומר",
-        en: "No other day requires this level of sustained focus from one person.",
+        en: "and place it in a flask or a tube, he pours out and empties",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l28"
+        ]
       },
       {
         id: "rashi-yoma-058a-035",
@@ -131974,11 +132046,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 35,
         he: "את כל המים אשר בשוקת עד שמגיע",
-        en: "Each sprinkle represents specific atonement for a specific category of sin.",
+        en: "all the water in the trough until he reaches",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l28"
+        ]
       },
       {
         id: "rashi-yoma-058a-036",
@@ -131986,11 +132060,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 36,
         he: "לספוג זולף שואף עד המצוי אגוטי\"ר",
-        en: "The entire nation's sins are addressed through the HP's service.",
+        en: "the sponge; he pours until only what is available drains, 'egoutter'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l28"
+        ]
       },
       {
         id: "rashi-yoma-058a-037",
@@ -131998,11 +132074,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 37,
         he: "בלע\"ז וכדאמרינן במועד קטן (דף יא:)",
-        en: "The outer altar base pour marks the transition from blood service to other services.",
+        en: "in the vernacular, and just as we say in Mo'ed Katan (11b):",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l28"
+        ]
       },
       {
         id: "rashi-yoma-058a-038",
@@ -132010,11 +132088,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 38,
         he: "זולף וגומר כדרכו אלמא ספוג לא",
-        en: "After this pour, the HP exits and proceeds to the outer services.",
+        en: "he pours it out in the usual way, this shows that a sponge does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l28"
+        ]
       },
       {
         id: "rashi-yoma-058a-039",
@@ -132022,11 +132102,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 39,
         he: "חייץ ולא פסיל אלא הנבלעים בתוכו",
-        en: "The scapegoat service follows the blood services.",
+        en: "interpose or invalidate, but only what is absorbed within it does,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l28"
+        ]
       },
       {
         id: "rashi-yoma-058a-040",
@@ -132034,11 +132116,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 40,
         he: "והוא הדין לסיב: שאני מיא דקלישי.",
-        en: "Then the HP reads the Torah and offers personal sacrifices.",
+        en: "and the same applies to fiber. 'Water is different, since it is thin' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l28"
+        ]
       },
       {
         id: "rashi-yoma-058a-041",
@@ -132046,11 +132130,14 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 41,
         he: "ויוצאות מכל עבריו ונכנסות בינו לבין הכלי אבל דם עב הוא: בדם",
-        en: "But first, he changes from white linen to golden garments.",
+        en: "it seeps out from every side and enters between it and the vessel, but blood is thick. 'With",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l28",
+          "yoma-058a-l29"
+        ]
       },
       {
         id: "rashi-yoma-058a-042",
@@ -132058,11 +132145,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 42,
         he: "כשר. דקליש: בקומץ פסול. בקידוש שהקומץ טעון להתקדש",
-        en: "White garments: for the blood service requiring humility before God.",
+        en: "blood it is valid' - since it is thin. 'With a handful it is invalid' - regarding the sanctification of the handful, which must be sanctified",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l29"
+        ]
       },
       {
         id: "rashi-yoma-058a-043",
@@ -132070,11 +132159,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 43,
         he: "בכלי לאחר הקמיצה והוא כנגד קבלה בדם פסול דחייץ:",
-        en: "Golden garments: for the outer services performed before the community.",
+        en: "in a vessel after the scooping, and this corresponds to the receiving of blood, which is invalid since it interposes.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l29"
+        ]
       },
       {
         id: "rashi-yoma-058a-044",
@@ -132082,11 +132173,13 @@ const DAF_CONTENT = {
         daf: "58a",
         vilnaLine: 44,
         he: "מתני'",
-        en: "The garment change marks the transition between the two phases.",
+        en: "'The Mishnah' - the daf ends here; the comment's own explanation is deferred to 58b, quoting the Mishnah's own text about the golden altar.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-058a-l29"
+        ]
       }
     ],
     review: "reviewed"
