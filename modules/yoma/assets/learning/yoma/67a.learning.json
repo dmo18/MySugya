@@ -1,1074 +1,1215 @@
 {
-  "canonicalRef": "Yoma 67a",
-  "summary": "The relay station system (ten sukkot from Jerusalem to the Azazel cliff), the designated man's method of pushing the goat backward off the cliff with the crimson thread tied between its horns, and the ruling that the Azazel service is valid even after nightfall.",
-  "sugyot": [
+ "canonicalRef": "Yoma 67a",
+ "summary": "The relay station system (ten sukkot from Jerusalem to the Azazel cliff), the designated man's method of pushing the goat backward off the cliff with the crimson thread tied between its horns, and the ruling that the Azazel service is valid even after nightfall.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-067a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 22
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-067a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 22
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.67a.1"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.67a.2"
-        },
-        {
-          "vilnaLine": 12,
-          "sefariaRef": "Yoma.67a.3"
-        },
-        {
-          "vilnaLine": 16,
-          "sefariaRef": "Yoma.67a.4"
-        },
-        {
-          "vilnaLine": 18,
-          "sefariaRef": "Yoma.67a.5"
-        },
-        {
-          "vilnaLine": 21,
-          "sefariaRef": "Yoma.67a.6"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.67a.1",
-        "Yoma.67a.2",
-        "Yoma.67a.3",
-        "Yoma.67a.4",
-        "Yoma.67a.5",
-        "Yoma.67a.6"
-      ],
-      "display": {
-        "whats": "Ten relay stations were set up along the 90-ris route from Jerusalem to the Azazel cliff, each a mil apart (Shabbat boundary), except the last which was two mil away - so the final escort stopped short and watched from a distance.",
-        "hint": "Why was the last station different from all the others?",
-        "title": "The Relay System: Engineering Shabbat Observance for the Azazel Escort"
-      },
-      "learning": {
-        "ahaMoment": "The whole relay system was designed around the Shabbat boundary: each escort could walk one mil out and return without violating Shabbat - except at the end where they permitted extra distance because the man was exhausted and afraid to be alone.",
-        "memoryAnchor": "Ten sukkot, each a mil apart - like pit stops on a desert marathon, with the last runner watching from afar.",
-        "learnerQuestion": "Why were ten relay stations built along the Azazel goat's route, and what was the significance of each station being exactly one mil apart?",
-        "coreTension": "The Azazel goat had to travel 90 ris to the cliff, yet Shabbat restrictions limit how far anyone could walk. How was a complete escort service possible without violating Shabbat?",
-        "coreMove": "One mil equals the Shabbat boundary (2,000 amot). Each escort walked exactly one mil with the designated man, then returned home within the permitted limit. Ten relay stations allowed full coverage of the route. The final escort was granted an exception to go beyond the boundary to complete the mission.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The relay system solved a real halachic problem: how to escort the Azazel goat the full distance on Shabbat without violating the boundary. Each mil-long station allowed an escort to go and return within the limit."
-        },
-        "learningBlocker": "Students may wonder why not simply designate one person for the whole journey. The answer is Shabbat: no single escort could walk 90 ris and return. The relay architecture was the halachic solution."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-067a-l01",
-          "type": "ruling",
-          "label": "Ruling: Ten relay stations from Jerusalem to the cliff",
-          "speaker": "Mishnah",
-          "text": "Ten sukkot were built along the 90-ris route to the Azazel cliff, each with escorts.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-067a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        },
-        {
-          "id": "yoma-067a-l02",
-          "type": "reason",
-          "label": "Reason: Distance calculation - 90 ris equals 12 mil",
-          "speaker": "Gemara",
-          "text": "Ninety ris at 7.5 ris per mil equals 12 mil, giving 11 stages - 10 between sukkot plus one from last sukkah to cliff.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-067a-l02",
-              "vilnaLine": 5
-            }
-          ]
-        },
-        {
-          "id": "yoma-067a-l03",
-          "type": "digression",
-          "label": "Digression: Discrepancy with R. Elazar Kalir's calculation",
-          "speaker": "Gemara",
-          "text": "Rashi notes the calculation differs from liturgical poet R. Elazar Kalir, who used a different standard for ris measurement.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-067a-l03",
-              "vilnaLine": 12
-            }
-          ]
-        },
-        {
-          "id": "yoma-067a-l04",
-          "type": "ruling",
-          "label": "Ruling: Each escort walks one mil - Shabbat boundary",
-          "speaker": "Gemara",
-          "text": "Each mil is the Shabbat boundary - escorts could accompany the man exactly one mil and return.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-067a-l04",
-              "vilnaLine": 16
-            }
-          ]
-        },
-        {
-          "id": "yoma-067a-l05",
-          "type": "ruling",
-          "label": "Ruling: Last escort stopped at one mil from cliff",
-          "speaker": "Gemara",
-          "text": "The last station was two mil from the cliff; the final escort accompanied him one mil and watched from a distance.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-067a-l05",
-              "vilnaLine": 18
-            }
-          ]
-        },
-        {
-          "id": "yoma-067a-l06",
-          "type": "reason",
-          "label": "Reason: Permitted extra distance because man was afflicted",
-          "speaker": "Gemara",
-          "text": "The Sages permitted the escort to go beyond the normal Shabbat limit because the man was exhausted and afraid to be alone in the wilderness after dark.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-067a-l06",
-              "vilnaLine": 21
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "azazel",
-        "relay-stations",
-        "shabbat-boundary",
-        "yom-kippur-service"
-      ],
-      "concepts": {
-        "halachic": [
-          "Shabbat boundary (techum Shabbat)",
-          "eruv for extended travel",
-          "affliction permits"
-        ],
-        "theological": [
-          "communal escort as honor and support",
-          "Azazel service as communal atonement"
-        ],
-        "narrative": [
-          "ten sukkot along desert route",
-          "crowds lining the way to the cliff"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Shabbat boundary laws",
-        "Yom Kippur Azazel service overview"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The designated man walked alone the entire 90-ris route",
-          "correction": "He had relay escorts at each mile marker - only the final push to the cliff was alone.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "description": "Ten sukkot spaced one mil apart along desert road from Jerusalem to cliff",
-          "role": "anchor",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why could each escort accompany the designated man exactly one mil?",
-          "answer": "One mil equals the Shabbat boundary - the escort could walk one mil out and still return within the permitted two-thousand-amot limit.",
-          "sourceRefs": []
-        }
-      ],
-      "finalRuling": "Ten relay stations were arranged from Jerusalem to the cliff; each group escorted the designated man one mil, except the last escort who stopped a mile short of the cliff.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.67a.1"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-067a-s02",
-      "lineRange": {
-        "startVilnaLine": 24,
-        "endVilnaLine": 38
-      },
-      "lines": [
-        {
-          "vilnaLine": 24,
-          "sefariaRef": "Yoma.67a.7"
-        },
-        {
-          "vilnaLine": 27,
-          "sefariaRef": "Yoma.67a.8"
-        },
-        {
-          "vilnaLine": 29,
-          "sefariaRef": "Yoma.67a.9"
-        },
-        {
-          "vilnaLine": 35,
-          "sefariaRef": "Yoma.67a.10"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.67a.7",
-        "Yoma.67a.8",
-        "Yoma.67a.9",
-        "Yoma.67a.10"
-      ],
-      "display": {
-        "whats": "The designated man pushed the Azazel goat backward off the cliff. Half the crimson thread was tied between the goat's horns; when the thread turned white, Israel's atonement was accepted.",
-        "hint": "Why push the goat backward rather than simply letting it fall forward?",
-        "title": "The Crimson Thread: Real-Time Sign of Atonement Accepted"
-      },
-      "learning": {
-        "ahaMoment": "The thread turning white was not merely symbolic - it was real-time feedback that atonement had been accepted. The Talmud elsewhere records that in the last 40 years of the Second Temple the thread stopped turning white.",
-        "memoryAnchor": "The goat pushed backward so it could not land on its feet - and the red thread tied to its horns as atonement's status indicator.",
-        "learnerQuestion": "How did the relay escorts know the Azazel service was accepted, and why was the goat pushed backward off the cliff?",
-        "coreTension": "The Azazel service ends at the cliff. How does anyone know it was accepted? And why push the goat backward specifically rather than simply pushing it off forward?",
-        "coreMove": "The goat was pushed backward to prevent it from landing on its feet and surviving. Half the crimson thread tied between the goat's horns was the signal: the escort at the cliff watched for it turning white - the tangible sign, referencing Isaiah's promise, that God had accepted Israel's atonement.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "The crimson-to-white transformation was not merely symbolic - it was real-time confirmation that atonement was accepted, referencing the Isaiah promise that sins like crimson will become white as snow."
-        },
-        "learningBlocker": "Students may treat the cliff-push as the operative moment of atonement. But the atonement began with the confession and designation; the cliff event is the conclusion and the color change is the sign of acceptance."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-067a-l07",
-          "type": "ruling",
-          "label": "Ruling: Goat pushed backward off cliff",
-          "speaker": "Mishnah",
-          "text": "The designated man pushed the goat backward (al achorav) off the cliff so it would tumble and die.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-067a-l07",
-              "vilnaLine": 24
-            }
-          ]
-        },
-        {
-          "id": "yoma-067a-l08",
-          "type": "reason",
-          "label": "Reason: Backward push prevents landing on feet",
-          "speaker": "Gemara",
-          "text": "He bent its head under its body so it fell on its back and could not see if the thread turned white before dying.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-067a-l08",
-              "vilnaLine": 27
-            }
-          ]
-        },
-        {
-          "id": "yoma-067a-l09",
-          "type": "ruling",
-          "label": "Ruling: Half the crimson thread tied between goat's horns",
-          "speaker": "Gemara",
-          "text": "Half the crimson thread was tied between the goat's horns so the escort could watch for it turning white as a sign of atonement.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-067a-l09",
-              "vilnaLine": 29
-            }
-          ]
-        },
-        {
-          "id": "yoma-067a-l10",
-          "type": "reason",
-          "label": "Reason: Thread tied at the last moment to keep goat focused",
-          "speaker": "Gemara",
-          "text": "The thread was tied between the horns last so the goat's eyes would be fixed on it - ensuring the man would not stop pushing until the work was complete.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-067a-l10",
-              "vilnaLine": 35
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "azazel",
-        "crimson-thread",
-        "atonement-sign",
-        "yom-kippur-service"
-      ],
-      "concepts": {
-        "halachic": [
-          "method of killing the Azazel goat",
-          "crimson thread as atonement indicator"
-        ],
-        "theological": [
-          "Isaiah 1:18 - sins like crimson turning white as snow",
-          "Divine acceptance of communal atonement"
-        ],
-        "narrative": [
-          "the goat pushed backward off the cliff",
-          "thread between the horns as the last act"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Azazel cliff location",
-        "crimson thread tradition"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The goat simply fell off the cliff",
-          "correction": "The designated man actively pushed it backward so it could not land on its feet and survive.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "action",
-          "description": "Man at cliff top pushing goat backward; goat tumbling with crimson thread visible between horns",
-          "role": "anchor",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Why was half the crimson thread tied between the goat's horns?",
-          "answer": "So the escort at the cliff could watch for it turning white - the sign that Israel's sins had been forgiven.",
-          "sourceRefs": []
-        }
-      ],
-      "finalRuling": "The designated man pushed the Azazel goat backward off the cliff; half the crimson thread was tied between its horns as an atonement indicator.",
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.67a.2"
     },
     {
-      "sugyaNumber": 3,
-      "id": "yoma-067a-s03",
-      "lineRange": {
-        "startVilnaLine": 40,
-        "endVilnaLine": 46
-      },
-      "lines": [
-        {
-          "vilnaLine": 40,
-          "sefariaRef": "Yoma.67a.11"
-        },
-        {
-          "vilnaLine": 43,
-          "sefariaRef": "Yoma.67a.12"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.67a.11",
-        "Yoma.67a.12"
-      ],
-      "display": {
-        "whats": "If the designated man and the Azazel goat did not reach the cliff before nightfall, the service is still valid - the Azazel dispatch is not subject to the daytime requirement that governs other Temple services.",
-        "hint": "Does the Azazel service have a daytime requirement like other Temple offerings?",
-        "title": "The Night Exception: Why Azazel Alone Is Valid After Dark"
-      },
-      "learning": {
-        "ahaMoment": "The Azazel service is exceptional: most Temple work must be done by day, but since the goat's death at the cliff is not a Temple altar service in the classic sense, the nightfall cutoff does not apply.",
-        "memoryAnchor": "The goat can arrive after dark - the only Yom Kippur act that works at night.",
-        "learnerQuestion": "Why is the Azazel service at the cliff valid even after nightfall, unlike virtually every other Temple service?",
-        "coreTension": "All Temple services are required to be performed by day. The Azazel goat could be delayed and arrive at the cliff after dark. Is the service simply invalid if it happens at night?",
-        "coreMove": "The Gemara rules the Azazel service is categorically different: it is not an altar offering but a dispatch (shelicha) to the wilderness. This exempts it from the daytime requirement. Even if the goat arrives at the cliff after nightfall, the service is valid.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "The Azazel service is the only Yom Kippur act valid at night because it is categorically a dispatch, not an altar sacrifice - and the daytime requirement applies only to altar services."
-        },
-        "learningBlocker": "Students may assume the daytime rule applies universally to all Yom Kippur service elements. The key distinction is the nature of the act: altar offering vs. dispatch. Azazel belongs to the dispatch category, which is exempt."
-      },
-      "argumentFlow": [
-        {
-          "id": "yoma-067a-l11",
-          "type": "question",
-          "label": "Question: What if goat did not reach cliff before nightfall?",
-          "speaker": "Gemara",
-          "text": "What is the law if the designated man and the goat did not arrive at the cliff before Yom Kippur nightfall?",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-067a-l11",
-              "vilnaLine": 40
-            }
-          ]
-        },
-        {
-          "id": "yoma-067a-l12",
-          "type": "ruling",
-          "label": "Ruling: Service valid even after nightfall",
-          "speaker": "Gemara",
-          "text": "The Azazel service is valid even if performed after nightfall - not subject to the daytime requirement of standard Temple services.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-067a-l12",
-              "vilnaLine": 43
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "azazel",
-        "nightfall",
-        "yom-kippur-service",
-        "daytime-requirement"
-      ],
-      "concepts": {
-        "halachic": [
-          "daytime requirement for Temple service",
-          "Azazel exception to nighttime prohibition"
-        ],
-        "theological": [
-          "Azazel service as expulsion rather than sacrifice"
-        ],
-        "narrative": [
-          "journey to distant cliff potentially extending past dark"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "general rule that Temple services are invalid at night",
-        "Azazel as expulsion not sacrifice"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The Azazel service is invalid if performed at night like other Temple services",
-          "correction": "The Azazel service at the cliff is valid even after nightfall - categorically different from altar offerings.",
-          "correctedByStepId": null
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "contrast",
-          "description": "Standard Temple service (must be day) vs Azazel cliff dispatch (valid at night)",
-          "role": "anchor",
-          "priority": 1
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "Is the Azazel service invalid if the goat does not reach the cliff before nightfall?",
-          "answer": "No - the Azazel service at the cliff is valid even after dark, unlike most Temple services.",
-          "sourceRefs": []
-        }
-      ],
-      "finalRuling": "If the Azazel goat did not reach the cliff before nightfall, the service is still valid.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 12,
+     "sefariaRef": "Yoma.67a.3"
+    },
+    {
+     "vilnaLine": 16,
+     "sefariaRef": "Yoma.67a.4"
+    },
+    {
+     "vilnaLine": 18,
+     "sefariaRef": "Yoma.67a.5"
+    },
+    {
+     "vilnaLine": 21,
+     "sefariaRef": "Yoma.67a.6"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "he": "תשעים ריס. היו מירושלים ועד צוק הר גבוה וזקוף כדאמרי'",
-      "en": "Ninety ris is the distance from Jerusalem to the cliff - tall and sheer, as stated in Bava Metzia.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 2,
-      "he": "בבבא מציעא עלתה לראשי צוקין ונפלה: שבעה ומחצה ריס לכל",
-      "en": "The goat ascended to the cliff top and fell. Seven and a half ris per mil.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 3,
-      "he": "מיל. הרי לתשעים ריס י\"ב מיל והם י\"א מסעות מירושלים לסוכה",
-      "en": "So ninety ris equals twelve mil, which is eleven stages from Jerusalem to the first sukkah.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 4,
-      "he": "הראשונה מסע אחד ומסוכה לסוכה עד י' סוכות ט' מסעות הרי",
-      "en": "One stage from Jerusalem to the first sukkah; from sukkah to sukkah through ten sukkot is nine stages.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "he": "י' מסעות ומסוכה אחרונה לצוק מסע",
-      "en": "Ten stages, and from the last sukkah to the cliff is one stage.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "he": "אחד הרי לכל מסע ומסע מיל חוץ",
-      "en": "Thus each stage is one mil except one which is two mil.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 7,
-      "he": "מאחד מהן שיש בו ב' מילין היינו",
-      "en": "That is the one that is two mil - this explains why the escorts go from sukkah to sukkah.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 8,
-      "he": "דקתני ומלוין אותו מסוכה לסוכה",
-      "en": "Because one mil is the Shabbat boundary, except for the last one.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 9,
-      "he": "שהמיל הוא תחום שבת חוץ מאחרון",
-      "en": "Which is two mil away; the escorts accompany him one mil.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 10,
-      "he": "שהוא רחוק ב' מילין ומלויהו מיל",
-      "en": "And stand at a distance watching what he does.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 11,
-      "he": "ועומד מרחוק ורואה את מעשיו",
-      "en": "This calculation does not match the calculation of Rabbi Elazar Kalir.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 12,
-      "he": "והחשבון הזה אינו שוה לחשבון שיסד",
-      "en": "And in thirty reeds he measured the ris - that calculation does not equal two thousand amot per mil.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 13,
-      "he": "רבי אלעזר קליר ובשלשים קנים",
-      "en": "But in the Midrash to Haazinu (Sifri) we find the measurement for dividing the Land of Israel.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 14,
-      "he": "הוא קצב הריס אותו חשבון אינו עולה",
-      "en": "The width of each tribe's boundary is seventy-five mil.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 15,
-      "he": "לאלפים אמה המיל אבל בברייתא",
-      "en": "Also Rabbi Elazar Kalir composed it thus in his piyut Erchatz b'Nikon Kapot.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 16,
-      "he": "דהאזינו בספרי מצינו שם מידת חלוקת",
-      "en": "His borders - twenty-five thousand reeds as in the book of Ezekiel.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 17,
-      "he": "ארץ ישראל לעתיד לבוא רוחב גבול",
-      "en": "As it says 'from this measure you shall measure' - each reed is six amot.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 18,
-      "he": "כל שבט ושבט שבעים וחמשה מיל",
-      "en": "That is one hundred fifty thousand amot; divide by two thousand amot per mil.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 19,
-      "he": "וגם רבי אלעזר קליר יסד כן בפיוט",
-      "en": "That equals seventy-five mil.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 20,
-      "he": "ארחץ בנקיון כפות ברוחב ע\"ה מיל",
-      "en": "Aretz b'Nikon with a width of seventy-five mil.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 21,
-      "he": "חריצותיה והם כ\"ה אלף קנים שבספר",
-      "en": "Its borders are twenty-five thousand reeds from the book of Ezekiel.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 22,
-      "he": "יחזקאל (מה) שנאמר ומן המדה",
-      "en": "As stated: 'from this measure you shall measure' etc.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 23,
-      "he": "הזאת תמוד וגו' וכל קנה ו' אמות",
-      "en": "And each reed is six amot.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 24,
-      "he": "הרי ק\"נ אלף אמה תן לכל אלפים",
-      "en": "That is one hundred fifty thousand amot - seventy-five mil.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 25,
-      "he": "אמה מיל הרי ע\"ה מיל: הרי מים",
-      "en": "Amah per mil - seventy-five mil. Food and water.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 26,
-      "he": "והרי מזון. בגמרא מפרש אינו דומה",
-      "en": "Food and water. The Gemara explains: one who has bread in his basket is not like one without.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 27,
-      "he": "מי שיש לו פת בסלו למי שאין לו:",
-      "en": "One who has bread in his basket compared to one without.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 28,
-      "he": "שאינו מגיע עמו לצוק. כמו שפירשתי",
-      "en": "He does not reach the cliff with him - as I explained.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 29,
-      "he": "לפי שהוא רחוק ב' מילין: חולק לשון",
-      "en": "Because it is two mil away. He divides the crimson thread.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 30,
-      "he": "של זהורית. בגמרא מפרש טעמא:",
-      "en": "Of the crimson wool. The Gemara explains the reason.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 31,
-      "he": "בא וישב לו. חוזר עד סוכה האחרונה",
-      "en": "He comes and sits at the last sukkah - returns from the cliff.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 32,
-      "he": "אע\"פ שהיוצא חוץ לתחום אפילו",
-      "en": "Even though one who leaves the Shabbat boundary, even with permission.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 33,
-      "he": "ברשות אין לו אלא אלפים אמה",
-      "en": "Has only two thousand amot from where he left with permission.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 34,
-      "he": "ממקום שיצא לשם ברשות לזה התירו",
-      "en": "For this man they permitted it.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 35,
-      "he": "לפי שהוא מעונה וחלש ועוד שירא",
-      "en": "Because he is afflicted and weak, and also afraid.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 36,
-      "he": "לעמוד יחידי במדבר משתחשך:",
-      "en": "To stand alone in the wilderness after dark.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 37,
-      "he": "מאימתי מטמא בגדים. דכתיב והמשלח",
-      "en": "From when does he become tamei in his garments? As written: 'the one who sends the goat shall wash his garments.'",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 38,
-      "he": "את השעיר יכבס בגדיו (ויקרא טז) :",
-      "en": "The one who sends the goat shall wash his garments (Leviticus 16).",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 39,
-      "he": "גמ' חמש סוכות ועשרה מילין.",
-      "en": "Gemara: five sukkot and ten mil.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 40,
-      "he": "וכל אחד מלויהו יותר ממיל או עד",
-      "en": "Each one escorts him more than a mil or until the sukkah through eruv.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 41,
-      "he": "הסוכה על יד עירוב: סח לי אלעזר",
-      "en": "My son Elazar told me - in a tone of amusement about my words.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 42,
-      "he": "בני. בלשון שחוק על דבריי ואמר",
-      "en": "He said: if through eruv, two sukkot would suffice.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 43,
-      "he": "לי אם ע\"י עירוב דיי לנו בב' סוכות",
-      "en": "The people of Jerusalem escort him two mil and from the first sukkah they go out to meet him two mil.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 44,
-      "he": "שיהיו בני ירושלים מלוין אותו שני",
-      "en": "That is four mil you can distance the sukkah from Jerusalem.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 45,
-      "he": "מילין ומסוכה ראשונה יצאו לקראתו",
-      "en": "And the second sukkah at the end of the first four mil.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 46,
-      "he": "ב' מילין הרי ד' מילין שאתה יכול",
-      "en": "Some of the first sukkah people make an eruv toward the second.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 47,
-      "he": "להרחיק הסוכה מירושלים וסוכה",
-      "en": "And some make an eruv toward Jerusalem.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 48,
-      "he": "השניה לסוף ארבעה מילין של",
-      "en": "And the second sukkah people - some make an eruv toward the first.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 49,
-      "he": "ראשונה ויהיו מקצת בני הראשונה",
-      "en": "To go out to meet him two mil.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 50,
-      "he": "מערבין לצד השניה ומקצת יערבו",
-      "en": "And some make an eruv toward the cliff to escort him two mil.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 51,
-      "he": "לצד ירושלים וכן בני שניה",
-      "en": "According to whom? According to Rabbi Meir.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 52,
-      "he": "מקצתן מערבין לצד הראשונה",
-      "en": "For according to Rabbi Yehudah and Rabbi Yosi, even the last one reaches the cliff.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 53,
-      "he": "לצאת לקראתו ב' מילין ומקצתן",
-      "en": "A person does not need this - the sender does not need to eat on the way.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 54,
-      "he": "מערבין לצד צוק ללוותו ב' מילין:",
-      "en": "What is the reason they told him this? Because one who has bread in his basket is not like one who is hungry.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 55,
-      "he": "כמאן כרבי מאיר. דאילו לרבי",
-      "en": "Since there is a mitzva with the goat - to push it backward, as it is written 'to an arid land'.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 56,
-      "he": "יהודה ורבי יוסי אף האחרון מגיע לצוק: לא צריך אדם לכך.",
-      "en": "Something cut off and descending. If they held it completely on the rock, sometimes.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 57,
-      "he": "לא נצרך אדם המשלח לאכול בדרך אלא מה טעם אמרו לו כן",
-      "en": "The thread turns white before pushing the goat and they are satisfied by the whitening of sins.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 58,
-      "he": "שאינו דומה מי שיש לו פת בסלו להיות רעב כמי שאין לו:",
-      "en": "And do not care to fulfill the mitzva of the goat. Therefore he ties the second half between its horns.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 59,
-      "he": "כיון דמצוה בשעיר. לדחפו לאחוריו כדכתיב אל ארץ גזירה",
-      "en": "Its eyes fixed on it; and since he is occupied with it he will not refrain from pushing it.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 60,
-      "he": "דבר המתגזר ויורד אי אמרת נקטריה כוליה בסלע זמנין",
-      "en": "Until the work is complete. He bends its head under its body when falling backward.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 61,
-      "he": "דקדים ומלבין קודם דחיפת השעיר ומייתבא דעתיה משמחת",
-      "en": "So it cannot see whether the thread has turned white.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 62,
-      "he": "ליבון החטאים ולא איכפת ליה לקיים מצות השעיר לפיכך קושר",
-      "en": "Whitening of sins satisfies them and they do not care to complete the mitzva of the goat. Therefore he ties the second half between its horns.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 63,
-      "he": "באחרונה חציה בין קרניו ועיניו תלוין בו ומאחר שהוא עסוק בו באחרונה לא יניח מלדחפו והיא לא תלבין לחצאים עד",
-      "en": "Between its horns, its eyes fixed on it - and since he is occupied with it at the last moment, he will not refrain from pushing it.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 64,
-      "he": "שתגמר מלאכת כולה: דגמיש ליה לרישיה. יכוף ראשו תחת גופו כשיפול לאחוריו ולא יוכל לראות הלשון אם הלבין:",
-      "en": "Until the entire task is complete. He bends its head - bends its head under its body when falling backward so it cannot right itself.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 65,
-      "he": "דכתיב",
-      "en": "As it is written.",
-      "enSource": "ai_helper_translation",
-      "source": "talmud.dev",
-      "confidence": "helper",
-      "linkedGemaraLineIds": []
+   ],
+   "sefariaRefs": [
+    "Yoma.67a.1",
+    "Yoma.67a.2",
+    "Yoma.67a.3",
+    "Yoma.67a.4",
+    "Yoma.67a.5",
+    "Yoma.67a.6"
+   ],
+   "display": {
+    "whats": "Ten relay stations were set up along the 90-ris route from Jerusalem to the Azazel cliff, each a mil apart (Shabbat boundary), except the last which was two mil away - so the final escort stopped short and watched from a distance.",
+    "hint": "Why was the last station different from all the others?",
+    "title": "The Relay System: Engineering Shabbat Observance for the Azazel Escort"
+   },
+   "learning": {
+    "ahaMoment": "The whole relay system was designed around the Shabbat boundary: each escort could walk one mil out and return without violating Shabbat - except at the end where they permitted extra distance because the man was exhausted and afraid to be alone.",
+    "memoryAnchor": "Ten sukkot, each a mil apart - like pit stops on a desert marathon, with the last runner watching from afar.",
+    "learnerQuestion": "Why were ten relay stations built along the Azazel goat's route, and what was the significance of each station being exactly one mil apart?",
+    "coreTension": "The Azazel goat had to travel 90 ris to the cliff, yet Shabbat restrictions limit how far anyone could walk. How was a complete escort service possible without violating Shabbat?",
+    "coreMove": "One mil equals the Shabbat boundary (2,000 amot). Each escort walked exactly one mil with the designated man, then returned home within the permitted limit. Ten relay stations allowed full coverage of the route. The final escort was granted an exception to go beyond the boundary to complete the mission.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The relay system solved a real halachic problem: how to escort the Azazel goat the full distance on Shabbat without violating the boundary. Each mil-long station allowed an escort to go and return within the limit."
+    },
+    "learningBlocker": "Students may wonder why not simply designate one person for the whole journey. The answer is Shabbat: no single escort could walk 90 ris and return. The relay architecture was the halachic solution."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-067a-l01",
+     "type": "ruling",
+     "label": "Ruling: Ten relay stations from Jerusalem to the cliff",
+     "speaker": "Mishnah",
+     "text": "Ten sukkot were built along the 90-ris route to the Azazel cliff, each with escorts.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-067a-l01",
+       "vilnaLine": 1
+      }
+     ]
+    },
+    {
+     "id": "yoma-067a-l02",
+     "type": "reason",
+     "label": "Reason: Distance calculation - 90 ris equals 12 mil",
+     "speaker": "Gemara",
+     "text": "Ninety ris at 7.5 ris per mil equals 12 mil, giving 11 stages - 10 between sukkot plus one from last sukkah to cliff.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-067a-l02",
+       "vilnaLine": 5
+      }
+     ]
+    },
+    {
+     "id": "yoma-067a-l03",
+     "type": "digression",
+     "label": "Digression: Discrepancy with R. Elazar Kalir's calculation",
+     "speaker": "Gemara",
+     "text": "Rashi notes the calculation differs from liturgical poet R. Elazar Kalir, who used a different standard for ris measurement.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-067a-l03",
+       "vilnaLine": 12
+      }
+     ]
+    },
+    {
+     "id": "yoma-067a-l04",
+     "type": "ruling",
+     "label": "Ruling: Each escort walks one mil - Shabbat boundary",
+     "speaker": "Gemara",
+     "text": "Each mil is the Shabbat boundary - escorts could accompany the man exactly one mil and return.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-067a-l04",
+       "vilnaLine": 16
+      }
+     ]
+    },
+    {
+     "id": "yoma-067a-l05",
+     "type": "ruling",
+     "label": "Ruling: Last escort stopped at one mil from cliff",
+     "speaker": "Gemara",
+     "text": "The last station was two mil from the cliff; the final escort accompanied him one mil and watched from a distance.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-067a-l05",
+       "vilnaLine": 18
+      }
+     ]
+    },
+    {
+     "id": "yoma-067a-l06",
+     "type": "reason",
+     "label": "Reason: Permitted extra distance because man was afflicted",
+     "speaker": "Gemara",
+     "text": "The Sages permitted the escort to go beyond the normal Shabbat limit because the man was exhausted and afraid to be alone in the wilderness after dark.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-067a-l06",
+       "vilnaLine": 21
+      }
+     ]
     }
-  ],
-  "review": "reviewed"
+   ],
+   "topicTags": [
+    "azazel",
+    "relay-stations",
+    "shabbat-boundary",
+    "yom-kippur-service"
+   ],
+   "concepts": {
+    "halachic": [
+     "Shabbat boundary (techum Shabbat)",
+     "eruv for extended travel",
+     "affliction permits"
+    ],
+    "theological": [
+     "communal escort as honor and support",
+     "Azazel service as communal atonement"
+    ],
+    "narrative": [
+     "ten sukkot along desert route",
+     "crowds lining the way to the cliff"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Shabbat boundary laws",
+    "Yom Kippur Azazel service overview"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The designated man walked alone the entire 90-ris route",
+     "correction": "He had relay escorts at each mile marker - only the final push to the cliff was alone.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "sequence",
+     "description": "Ten sukkot spaced one mil apart along desert road from Jerusalem to cliff",
+     "role": "anchor",
+     "priority": 1
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why could each escort accompany the designated man exactly one mil?",
+     "answer": "One mil equals the Shabbat boundary - the escort could walk one mil out and still return within the permitted two-thousand-amot limit.",
+     "sourceRefs": []
+    }
+   ],
+   "finalRuling": "Ten relay stations were arranged from Jerusalem to the cliff; each group escorted the designated man one mil, except the last escort who stopped a mile short of the cliff.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-067a-s02",
+   "lineRange": {
+    "startVilnaLine": 24,
+    "endVilnaLine": 38
+   },
+   "lines": [
+    {
+     "vilnaLine": 24,
+     "sefariaRef": "Yoma.67a.7"
+    },
+    {
+     "vilnaLine": 27,
+     "sefariaRef": "Yoma.67a.8"
+    },
+    {
+     "vilnaLine": 29,
+     "sefariaRef": "Yoma.67a.9"
+    },
+    {
+     "vilnaLine": 35,
+     "sefariaRef": "Yoma.67a.10"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.67a.7",
+    "Yoma.67a.8",
+    "Yoma.67a.9",
+    "Yoma.67a.10"
+   ],
+   "display": {
+    "whats": "The designated man pushed the Azazel goat backward off the cliff. Half the crimson thread was tied between the goat's horns; when the thread turned white, Israel's atonement was accepted.",
+    "hint": "Why push the goat backward rather than simply letting it fall forward?",
+    "title": "The Crimson Thread: Real-Time Sign of Atonement Accepted"
+   },
+   "learning": {
+    "ahaMoment": "The thread turning white was not merely symbolic - it was real-time feedback that atonement had been accepted. The Talmud elsewhere records that in the last 40 years of the Second Temple the thread stopped turning white.",
+    "memoryAnchor": "The goat pushed backward so it could not land on its feet - and the red thread tied to its horns as atonement's status indicator.",
+    "learnerQuestion": "How did the relay escorts know the Azazel service was accepted, and why was the goat pushed backward off the cliff?",
+    "coreTension": "The Azazel service ends at the cliff. How does anyone know it was accepted? And why push the goat backward specifically rather than simply pushing it off forward?",
+    "coreMove": "The goat was pushed backward to prevent it from landing on its feet and surviving. Half the crimson thread tied between the goat's horns was the signal: the escort at the cliff watched for it turning white - the tangible sign, referencing Isaiah's promise, that God had accepted Israel's atonement.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "The crimson-to-white transformation was not merely symbolic - it was real-time confirmation that atonement was accepted, referencing the Isaiah promise that sins like crimson will become white as snow."
+    },
+    "learningBlocker": "Students may treat the cliff-push as the operative moment of atonement. But the atonement began with the confession and designation; the cliff event is the conclusion and the color change is the sign of acceptance."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-067a-l07",
+     "type": "ruling",
+     "label": "Ruling: Goat pushed backward off cliff",
+     "speaker": "Mishnah",
+     "text": "The designated man pushed the goat backward (al achorav) off the cliff so it would tumble and die.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-067a-l07",
+       "vilnaLine": 24
+      }
+     ]
+    },
+    {
+     "id": "yoma-067a-l08",
+     "type": "reason",
+     "label": "Reason: Backward push prevents landing on feet",
+     "speaker": "Gemara",
+     "text": "He bent its head under its body so it fell on its back and could not see if the thread turned white before dying.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-067a-l08",
+       "vilnaLine": 27
+      }
+     ]
+    },
+    {
+     "id": "yoma-067a-l09",
+     "type": "ruling",
+     "label": "Ruling: Half the crimson thread tied between goat's horns",
+     "speaker": "Gemara",
+     "text": "Half the crimson thread was tied between the goat's horns so the escort could watch for it turning white as a sign of atonement.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-067a-l09",
+       "vilnaLine": 29
+      }
+     ]
+    },
+    {
+     "id": "yoma-067a-l10",
+     "type": "reason",
+     "label": "Reason: Thread tied at the last moment to keep goat focused",
+     "speaker": "Gemara",
+     "text": "The thread was tied between the horns last so the goat's eyes would be fixed on it - ensuring the man would not stop pushing until the work was complete.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-067a-l10",
+       "vilnaLine": 35
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "azazel",
+    "crimson-thread",
+    "atonement-sign",
+    "yom-kippur-service"
+   ],
+   "concepts": {
+    "halachic": [
+     "method of killing the Azazel goat",
+     "crimson thread as atonement indicator"
+    ],
+    "theological": [
+     "Isaiah 1:18 - sins like crimson turning white as snow",
+     "Divine acceptance of communal atonement"
+    ],
+    "narrative": [
+     "the goat pushed backward off the cliff",
+     "thread between the horns as the last act"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Azazel cliff location",
+    "crimson thread tradition"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The goat simply fell off the cliff",
+     "correction": "The designated man actively pushed it backward so it could not land on its feet and survive.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "action",
+     "description": "Man at cliff top pushing goat backward; goat tumbling with crimson thread visible between horns",
+     "role": "anchor",
+     "priority": 1
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Why was half the crimson thread tied between the goat's horns?",
+     "answer": "So the escort at the cliff could watch for it turning white - the sign that Israel's sins had been forgiven.",
+     "sourceRefs": []
+    }
+   ],
+   "finalRuling": "The designated man pushed the Azazel goat backward off the cliff; half the crimson thread was tied between its horns as an atonement indicator.",
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-067a-s03",
+   "lineRange": {
+    "startVilnaLine": 40,
+    "endVilnaLine": 46
+   },
+   "lines": [
+    {
+     "vilnaLine": 40,
+     "sefariaRef": "Yoma.67a.11"
+    },
+    {
+     "vilnaLine": 43,
+     "sefariaRef": "Yoma.67a.12"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.67a.11",
+    "Yoma.67a.12"
+   ],
+   "display": {
+    "whats": "If the designated man and the Azazel goat did not reach the cliff before nightfall, the service is still valid - the Azazel dispatch is not subject to the daytime requirement that governs other Temple services.",
+    "hint": "Does the Azazel service have a daytime requirement like other Temple offerings?",
+    "title": "The Night Exception: Why Azazel Alone Is Valid After Dark"
+   },
+   "learning": {
+    "ahaMoment": "The Azazel service is exceptional: most Temple work must be done by day, but since the goat's death at the cliff is not a Temple altar service in the classic sense, the nightfall cutoff does not apply.",
+    "memoryAnchor": "The goat can arrive after dark - the only Yom Kippur act that works at night.",
+    "learnerQuestion": "Why is the Azazel service at the cliff valid even after nightfall, unlike virtually every other Temple service?",
+    "coreTension": "All Temple services are required to be performed by day. The Azazel goat could be delayed and arrive at the cliff after dark. Is the service simply invalid if it happens at night?",
+    "coreMove": "The Gemara rules the Azazel service is categorically different: it is not an altar offering but a dispatch (shelicha) to the wilderness. This exempts it from the daytime requirement. Even if the goat arrives at the cliff after nightfall, the service is valid.",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "The Azazel service is the only Yom Kippur act valid at night because it is categorically a dispatch, not an altar sacrifice - and the daytime requirement applies only to altar services."
+    },
+    "learningBlocker": "Students may assume the daytime rule applies universally to all Yom Kippur service elements. The key distinction is the nature of the act: altar offering vs. dispatch. Azazel belongs to the dispatch category, which is exempt."
+   },
+   "argumentFlow": [
+    {
+     "id": "yoma-067a-l11",
+     "type": "question",
+     "label": "Question: What if goat did not reach cliff before nightfall?",
+     "speaker": "Gemara",
+     "text": "What is the law if the designated man and the goat did not arrive at the cliff before Yom Kippur nightfall?",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-067a-l11",
+       "vilnaLine": 40
+      }
+     ]
+    },
+    {
+     "id": "yoma-067a-l12",
+     "type": "ruling",
+     "label": "Ruling: Service valid even after nightfall",
+     "speaker": "Gemara",
+     "text": "The Azazel service is valid even if performed after nightfall - not subject to the daytime requirement of standard Temple services.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-067a-l12",
+       "vilnaLine": 43
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "azazel",
+    "nightfall",
+    "yom-kippur-service",
+    "daytime-requirement"
+   ],
+   "concepts": {
+    "halachic": [
+     "daytime requirement for Temple service",
+     "Azazel exception to nighttime prohibition"
+    ],
+    "theological": [
+     "Azazel service as expulsion rather than sacrifice"
+    ],
+    "narrative": [
+     "journey to distant cliff potentially extending past dark"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "general rule that Temple services are invalid at night",
+    "Azazel as expulsion not sacrifice"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The Azazel service is invalid if performed at night like other Temple services",
+     "correction": "The Azazel service at the cliff is valid even after nightfall - categorically different from altar offerings.",
+     "correctedByStepId": null
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "contrast",
+     "description": "Standard Temple service (must be day) vs Azazel cliff dispatch (valid at night)",
+     "role": "anchor",
+     "priority": 1
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "Is the Azazel service invalid if the goat does not reach the cliff before nightfall?",
+     "answer": "No - the Azazel service at the cliff is valid even after dark, unlike most Temple services.",
+     "sourceRefs": []
+    }
+   ],
+   "finalRuling": "If the Azazel goat did not reach the cliff before nightfall, the service is still valid.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "he": "תשעים ריס. היו מירושלים ועד צוק הר גבוה וזקוף כדאמרי'",
+   "en": "'Ninety ris' - was the distance from Jerusalem to the cliff, a mountain, tall and steep, as they say",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "he": "בבבא מציעא עלתה לראשי צוקין ונפלה: שבעה ומחצה ריס לכל",
+   "en": "in tractate Bava Metzia: 'it rose to the tops of cliffs and fell.' 'Seven and a half [ris] to each",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "he": "מיל. הרי לתשעים ריס י\"ב מיל והם י\"א מסעות מירושלים לסוכה",
+   "en": "mil' - thus ninety ris equal twelve mil, and these are eleven stages from Jerusalem to the first",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "he": "הראשונה מסע אחד ומסוכה לסוכה עד י' סוכות ט' מסעות הרי",
+   "en": "sukkah, one stage; and from sukkah to sukkah, through ten sukkot, nine stages; that makes",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "he": "י' מסעות ומסוכה אחרונה לצוק מסע",
+   "en": "ten stages; and from the last sukkah to the cliff, one stage -",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "he": "אחד הרי לכל מסע ומסע מיל חוץ",
+   "en": "thus every single stage is one mil, except",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "he": "מאחד מהן שיש בו ב' מילין היינו",
+   "en": "for one of them, which has two mil in it; this is",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "he": "דקתני ומלוין אותו מסוכה לסוכה",
+   "en": "what is taught: 'and they escort him from sukkah to sukkah,'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "he": "שהמיל הוא תחום שבת חוץ מאחרון",
+   "en": "since a mil is the Shabbat boundary, except for the last one,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "he": "שהוא רחוק ב' מילין ומלויהו מיל",
+   "en": "which is two mil away, and his escorts go with him one mil",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "he": "ועומד מרחוק ורואה את מעשיו",
+   "en": "and stand at a distance and watch what he does.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "he": "והחשבון הזה אינו שוה לחשבון שיסד",
+   "en": "'And this calculation does not match the calculation that",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "he": "רבי אלעזר קליר ובשלשים קנים",
+   "en": "Rabbi Elazar Kalir established; and by thirty reeds",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "he": "הוא קצב הריס אותו חשבון אינו עולה",
+   "en": "he fixed the measure of the ris; that calculation does not come out",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "he": "לאלפים אמה המיל אבל בברייתא",
+   "en": "to two thousand amot per mil. But in the beraita",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "he": "דהאזינו בספרי מצינו שם מידת חלוקת",
+   "en": "of Ha'azinu, in the Sifri, we find there the measure for the division of",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "he": "ארץ ישראל לעתיד לבוא רוחב גבול",
+   "en": "the Land of Israel in the future to come: the width of the border of",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "he": "כל שבט ושבט שבעים וחמשה מיל",
+   "en": "each and every tribe is seventy-five mil,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 19,
+   "he": "וגם רבי אלעזר קליר יסד כן בפיוט",
+   "en": "and Rabbi Elazar Kalir likewise established this in the piyut",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 20,
+   "he": "ארחץ בנקיון כפות ברוחב ע\"ה מיל",
+   "en": "'Erchatz Benikayon Kapai' - with a width of seventy-five mil,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 21,
+   "he": "חריצותיה והם כ\"ה אלף קנים שבספר",
+   "en": "its boundaries being twenty-five thousand reeds, as in the book of",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 22,
+   "he": "יחזקאל (מה) שנאמר ומן המדה",
+   "en": "Ezekiel (45), as it says, 'and with this measure",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 23,
+   "he": "הזאת תמוד וגו' וכל קנה ו' אמות",
+   "en": "you shall measure' etc.; and each reed is six amot,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 24,
+   "he": "הרי ק\"נ אלף אמה תן לכל אלפים",
+   "en": "which comes to one hundred fifty thousand amot; allot two thousand",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 25,
+   "he": "אמה מיל הרי ע\"ה מיל: הרי מים",
+   "en": "amot to a mil, that makes seventy-five mil. 'Behold water",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 26,
+   "he": "והרי מזון. בגמרא מפרש אינו דומה",
+   "en": "and behold food' - the Gemara explains, further on, that one is not comparable",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01",
+    "yoma-067a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 27,
+   "he": "מי שיש לו פת בסלו למי שאין לו:",
+   "en": "who has bread in his basket, to one who does not have it.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01",
+    "yoma-067a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 28,
+   "he": "שאינו מגיע עמו לצוק. כמו שפירשתי",
+   "en": "'He does not reach the cliff with him' - as I explained above,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 29,
+   "he": "לפי שהוא רחוק ב' מילין: חולק לשון",
+   "en": "because he is two mil away. 'He divides the [crimson] tongue",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01",
+    "yoma-067a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 30,
+   "he": "של זהורית. בגמרא מפרש טעמא:",
+   "en": "of crimson wool' - the Gemara explains the reason further on.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 31,
+   "he": "בא וישב לו. חוזר עד סוכה האחרונה",
+   "en": "'He came and sat' - he returns to sit at the last sukkah",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 32,
+   "he": "אע\"פ שהיוצא חוץ לתחום אפילו",
+   "en": "even though one who exits the [Shabbat] boundary, even",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 33,
+   "he": "ברשות אין לו אלא אלפים אמה",
+   "en": "with permission, has only two thousand amot",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 34,
+   "he": "ממקום שיצא לשם ברשות לזה התירו",
+   "en": "from the place he exited to, with permission; for this person they permitted [more],",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 35,
+   "he": "לפי שהוא מעונה וחלש ועוד שירא",
+   "en": "because he is afflicted and weak, and also afraid",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 36,
+   "he": "לעמוד יחידי במדבר משתחשך:",
+   "en": "to stand alone in the wilderness once it grows dark.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 37,
+   "he": "מאימתי מטמא בגדים. דכתיב והמשלח",
+   "en": "'From when does he render garments impure' - as it is written, 'and he who sends",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 38,
+   "he": "את השעיר יכבס בגדיו (ויקרא טז) :",
+   "en": "the goat shall wash his garments' (Leviticus 16).",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 39,
+   "he": "גמ' חמש סוכות ועשרה מילין.",
+   "en": "'Gemara: five sukkot and ten mil' -",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 40,
+   "he": "וכל אחד מלויהו יותר ממיל או עד",
+   "en": "and each one, his escorts [accompany him] more than a mil, or until",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l12"
+   ]
+  },
+  {
+   "vilnaLine": 41,
+   "he": "הסוכה על יד עירוב: סח לי אלעזר",
+   "en": "the sukkah, by means of an eiruv. 'Elazar told me",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l12",
+    "yoma-067a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 42,
+   "he": "בני. בלשון שחוק על דבריי ואמר",
+   "en": "my son' - in a joking tone about my words, and he said",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 43,
+   "he": "לי אם ע\"י עירוב דיי לנו בב' סוכות",
+   "en": "to me: if by means of an eiruv, two sukkot would suffice for us,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 44,
+   "he": "שיהיו בני ירושלים מלוין אותו שני",
+   "en": "such that the people of Jerusalem would escort him two",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 45,
+   "he": "מילין ומסוכה ראשונה יצאו לקראתו",
+   "en": "mil, and from the first sukkah they would go out to meet him",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 46,
+   "he": "ב' מילין הרי ד' מילין שאתה יכול",
+   "en": "two mil - that makes four mil that you can",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 47,
+   "he": "להרחיק הסוכה מירושלים וסוכה",
+   "en": "distance the [first] sukkah from Jerusalem; and the second sukkah",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 48,
+   "he": "השניה לסוף ארבעה מילין של",
+   "en": "at the end of the first sukkah's four mil;",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 49,
+   "he": "ראשונה ויהיו מקצת בני הראשונה",
+   "en": "and some of the first sukkah's people",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 50,
+   "he": "מערבין לצד השניה ומקצת יערבו",
+   "en": "would make an eiruv toward the second, and some would make an eiruv",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 51,
+   "he": "לצד ירושלים וכן בני שניה",
+   "en": "toward Jerusalem; and likewise the second sukkah's people,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 52,
+   "he": "מקצתן מערבין לצד הראשונה",
+   "en": "some make an eiruv toward the first,",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 53,
+   "he": "לצאת לקראתו ב' מילין ומקצתן",
+   "en": "to go out to meet him two mil, and some",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 54,
+   "he": "מערבין לצד צוק ללוותו ב' מילין:",
+   "en": "make an eiruv toward the cliff, to escort him two mil.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l16"
+   ]
+  },
+  {
+   "vilnaLine": 55,
+   "he": "כמאן כרבי מאיר. דאילו לרבי",
+   "en": "'Like whom' - like Rabbi Meir; for according to Rabbi",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l18"
+   ]
+  },
+  {
+   "vilnaLine": 56,
+   "he": "יהודה ורבי יוסי אף האחרון מגיע לצוק: לא צריך אדם לכך.",
+   "en": "Yehuda and Rabbi Yosi, even the last one reaches the cliff. 'A person does not need this'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l18",
+    "yoma-067a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 57,
+   "he": "לא נצרך אדם המשלח לאכול בדרך אלא מה טעם אמרו לו כן",
+   "en": "- the sender was never actually required to eat along the way; rather, why did they say this to him?",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 58,
+   "he": "שאינו דומה מי שיש לו פת בסלו להיות רעב כמי שאין לו:",
+   "en": "Because one who has bread in his basket does not feel hunger the way one without does.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l21"
+   ]
+  },
+  {
+   "vilnaLine": 59,
+   "he": "כיון דמצוה בשעיר. לדחפו לאחוריו כדכתיב אל ארץ גזירה",
+   "en": "'Since there is a mitzva with the goat' - it must be pushed backward, as it is written, 'to a land that is cut off,'",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l24",
+    "yoma-067a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 60,
+   "he": "דבר המתגזר ויורד אי אמרת נקטריה כוליה בסלע זמנין",
+   "en": "something that is severed and descends. If you say to tie the entire thread on the rock, sometimes",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l24",
+    "yoma-067a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 61,
+   "he": "דקדים ומלבין קודם דחיפת השעיר ומייתבא דעתיה משמחת",
+   "en": "it whitens early, before the goat is pushed, and his mind grows complacent from the joy of",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l24",
+    "yoma-067a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 62,
+   "he": "ליבון החטאים ולא איכפת ליה לקיים מצות השעיר לפיכך קושר",
+   "en": "the sins whitening, and he no longer cares to fulfill the mitzva of pushing the goat; therefore he ties",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l24",
+    "yoma-067a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 63,
+   "he": "באחרונה חציה בין קרניו ועיניו תלוין בו ומאחר שהוא עסוק בו באחרונה לא יניח מלדחפו והיא לא תלבין לחצאים עד",
+   "en": "at the end, half of the thread between its horns, with his eyes fixed upon it; and since he is occupied with it until the end, he will not neglect to push it, and it will not whiten in halves until",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l24",
+    "yoma-067a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 64,
+   "he": "שתגמר מלאכת כולה: דגמיש ליה לרישיה. יכוף ראשו תחת גופו כשיפול לאחוריו ולא יוכל לראות הלשון אם הלבין:",
+   "en": "the whole task is done. 'That its head bends' - he bends its head under its body as it falls backward, so that it cannot see whether the thread has whitened.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l24",
+    "yoma-067a-l27"
+   ]
+  },
+  {
+   "vilnaLine": 65,
+   "he": "דכתיב",
+   "en": "'As it is written' - the comment is completed on 67b, citing the verse behind the goat's dispatch to the wilderness.",
+   "enSource": "ai_helper_translation",
+   "source": "talmud.dev",
+   "confidence": "helper",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l43"
+   ]
+  }
+ ],
+ "review": "reviewed"
 }

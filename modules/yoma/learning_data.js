@@ -152078,11 +152078,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 1,
         he: "תשעים ריס. היו מירושלים ועד צוק הר גבוה וזקוף כדאמרי'",
-        en: "Ninety ris is the distance from Jerusalem to the cliff - tall and sheer, as stated in Bava Metzia.",
+        en: "'Ninety ris' - was the distance from Jerusalem to the cliff, a mountain, tall and steep, as they say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-002",
@@ -152090,11 +152092,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 2,
         he: "בבבא מציעא עלתה לראשי צוקין ונפלה: שבעה ומחצה ריס לכל",
-        en: "The goat ascended to the cliff top and fell. Seven and a half ris per mil.",
+        en: "in tractate Bava Metzia: 'it rose to the tops of cliffs and fell.' 'Seven and a half [ris] to each",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-003",
@@ -152102,11 +152106,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 3,
         he: "מיל. הרי לתשעים ריס י\"ב מיל והם י\"א מסעות מירושלים לסוכה",
-        en: "So ninety ris equals twelve mil, which is eleven stages from Jerusalem to the first sukkah.",
+        en: "mil' - thus ninety ris equal twelve mil, and these are eleven stages from Jerusalem to the first",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-004",
@@ -152114,11 +152120,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 4,
         he: "הראשונה מסע אחד ומסוכה לסוכה עד י' סוכות ט' מסעות הרי",
-        en: "One stage from Jerusalem to the first sukkah; from sukkah to sukkah through ten sukkot is nine stages.",
+        en: "sukkah, one stage; and from sukkah to sukkah, through ten sukkot, nine stages; that makes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-005",
@@ -152126,11 +152134,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 5,
         he: "י' מסעות ומסוכה אחרונה לצוק מסע",
-        en: "Ten stages, and from the last sukkah to the cliff is one stage.",
+        en: "ten stages; and from the last sukkah to the cliff, one stage -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-006",
@@ -152138,11 +152148,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 6,
         he: "אחד הרי לכל מסע ומסע מיל חוץ",
-        en: "Thus each stage is one mil except one which is two mil.",
+        en: "thus every single stage is one mil, except",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-007",
@@ -152150,11 +152162,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 7,
         he: "מאחד מהן שיש בו ב' מילין היינו",
-        en: "That is the one that is two mil - this explains why the escorts go from sukkah to sukkah.",
+        en: "for one of them, which has two mil in it; this is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-008",
@@ -152162,11 +152176,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 8,
         he: "דקתני ומלוין אותו מסוכה לסוכה",
-        en: "Because one mil is the Shabbat boundary, except for the last one.",
+        en: "what is taught: 'and they escort him from sukkah to sukkah,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-009",
@@ -152174,11 +152190,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 9,
         he: "שהמיל הוא תחום שבת חוץ מאחרון",
-        en: "Which is two mil away; the escorts accompany him one mil.",
+        en: "since a mil is the Shabbat boundary, except for the last one,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-010",
@@ -152186,11 +152204,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 10,
         he: "שהוא רחוק ב' מילין ומלויהו מיל",
-        en: "And stand at a distance watching what he does.",
+        en: "which is two mil away, and his escorts go with him one mil",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-011",
@@ -152198,11 +152218,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 11,
         he: "ועומד מרחוק ורואה את מעשיו",
-        en: "This calculation does not match the calculation of Rabbi Elazar Kalir.",
+        en: "and stand at a distance and watch what he does.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-012",
@@ -152210,11 +152232,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 12,
         he: "והחשבון הזה אינו שוה לחשבון שיסד",
-        en: "And in thirty reeds he measured the ris - that calculation does not equal two thousand amot per mil.",
+        en: "'And this calculation does not match the calculation that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-013",
@@ -152222,11 +152246,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 13,
         he: "רבי אלעזר קליר ובשלשים קנים",
-        en: "But in the Midrash to Haazinu (Sifri) we find the measurement for dividing the Land of Israel.",
+        en: "Rabbi Elazar Kalir established; and by thirty reeds",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-014",
@@ -152234,11 +152260,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 14,
         he: "הוא קצב הריס אותו חשבון אינו עולה",
-        en: "The width of each tribe's boundary is seventy-five mil.",
+        en: "he fixed the measure of the ris; that calculation does not come out",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-015",
@@ -152246,11 +152274,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 15,
         he: "לאלפים אמה המיל אבל בברייתא",
-        en: "Also Rabbi Elazar Kalir composed it thus in his piyut Erchatz b'Nikon Kapot.",
+        en: "to two thousand amot per mil. But in the beraita",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-016",
@@ -152258,11 +152288,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 16,
         he: "דהאזינו בספרי מצינו שם מידת חלוקת",
-        en: "His borders - twenty-five thousand reeds as in the book of Ezekiel.",
+        en: "of Ha'azinu, in the Sifri, we find there the measure for the division of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-017",
@@ -152270,11 +152302,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 17,
         he: "ארץ ישראל לעתיד לבוא רוחב גבול",
-        en: "As it says 'from this measure you shall measure' - each reed is six amot.",
+        en: "the Land of Israel in the future to come: the width of the border of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-018",
@@ -152282,11 +152316,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 18,
         he: "כל שבט ושבט שבעים וחמשה מיל",
-        en: "That is one hundred fifty thousand amot; divide by two thousand amot per mil.",
+        en: "each and every tribe is seventy-five mil,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-019",
@@ -152294,11 +152330,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 19,
         he: "וגם רבי אלעזר קליר יסד כן בפיוט",
-        en: "That equals seventy-five mil.",
+        en: "and Rabbi Elazar Kalir likewise established this in the piyut",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-020",
@@ -152306,11 +152344,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 20,
         he: "ארחץ בנקיון כפות ברוחב ע\"ה מיל",
-        en: "Aretz b'Nikon with a width of seventy-five mil.",
+        en: "'Erchatz Benikayon Kapai' - with a width of seventy-five mil,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-021",
@@ -152318,11 +152358,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 21,
         he: "חריצותיה והם כ\"ה אלף קנים שבספר",
-        en: "Its borders are twenty-five thousand reeds from the book of Ezekiel.",
+        en: "its boundaries being twenty-five thousand reeds, as in the book of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-022",
@@ -152330,11 +152372,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 22,
         he: "יחזקאל (מה) שנאמר ומן המדה",
-        en: "As stated: 'from this measure you shall measure' etc.",
+        en: "Ezekiel (45), as it says, 'and with this measure",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-023",
@@ -152342,11 +152386,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 23,
         he: "הזאת תמוד וגו' וכל קנה ו' אמות",
-        en: "And each reed is six amot.",
+        en: "you shall measure' etc.; and each reed is six amot,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-024",
@@ -152354,11 +152400,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 24,
         he: "הרי ק\"נ אלף אמה תן לכל אלפים",
-        en: "That is one hundred fifty thousand amot - seventy-five mil.",
+        en: "which comes to one hundred fifty thousand amot; allot two thousand",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-025",
@@ -152366,11 +152414,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 25,
         he: "אמה מיל הרי ע\"ה מיל: הרי מים",
-        en: "Amah per mil - seventy-five mil. Food and water.",
+        en: "amot to a mil, that makes seventy-five mil. 'Behold water",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-026",
@@ -152378,11 +152428,14 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 26,
         he: "והרי מזון. בגמרא מפרש אינו דומה",
-        en: "Food and water. The Gemara explains: one who has bread in his basket is not like one without.",
+        en: "and behold food' - the Gemara explains, further on, that one is not comparable",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01",
+          "yoma-067a-l21"
+        ]
       },
       {
         id: "rashi-yoma-067a-027",
@@ -152390,11 +152443,14 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 27,
         he: "מי שיש לו פת בסלו למי שאין לו:",
-        en: "One who has bread in his basket compared to one without.",
+        en: "who has bread in his basket, to one who does not have it.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01",
+          "yoma-067a-l21"
+        ]
       },
       {
         id: "rashi-yoma-067a-028",
@@ -152402,11 +152458,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 28,
         he: "שאינו מגיע עמו לצוק. כמו שפירשתי",
-        en: "He does not reach the cliff with him - as I explained.",
+        en: "'He does not reach the cliff with him' - as I explained above,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01"
+        ]
       },
       {
         id: "rashi-yoma-067a-029",
@@ -152414,11 +152472,14 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 29,
         he: "לפי שהוא רחוק ב' מילין: חולק לשון",
-        en: "Because it is two mil away. He divides the crimson thread.",
+        en: "because he is two mil away. 'He divides the [crimson] tongue",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l01",
+          "yoma-067a-l05"
+        ]
       },
       {
         id: "rashi-yoma-067a-030",
@@ -152426,11 +152487,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 30,
         he: "של זהורית. בגמרא מפרש טעמא:",
-        en: "Of the crimson wool. The Gemara explains the reason.",
+        en: "of crimson wool' - the Gemara explains the reason further on.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l05"
+        ]
       },
       {
         id: "rashi-yoma-067a-031",
@@ -152438,11 +152501,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 31,
         he: "בא וישב לו. חוזר עד סוכה האחרונה",
-        en: "He comes and sits at the last sukkah - returns from the cliff.",
+        en: "'He came and sat' - he returns to sit at the last sukkah",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l05"
+        ]
       },
       {
         id: "rashi-yoma-067a-032",
@@ -152450,11 +152515,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 32,
         he: "אע\"פ שהיוצא חוץ לתחום אפילו",
-        en: "Even though one who leaves the Shabbat boundary, even with permission.",
+        en: "even though one who exits the [Shabbat] boundary, even",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l05"
+        ]
       },
       {
         id: "rashi-yoma-067a-033",
@@ -152462,11 +152529,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 33,
         he: "ברשות אין לו אלא אלפים אמה",
-        en: "Has only two thousand amot from where he left with permission.",
+        en: "with permission, has only two thousand amot",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l05"
+        ]
       },
       {
         id: "rashi-yoma-067a-034",
@@ -152474,11 +152543,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 34,
         he: "ממקום שיצא לשם ברשות לזה התירו",
-        en: "For this man they permitted it.",
+        en: "from the place he exited to, with permission; for this person they permitted [more],",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l05"
+        ]
       },
       {
         id: "rashi-yoma-067a-035",
@@ -152486,11 +152557,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 35,
         he: "לפי שהוא מעונה וחלש ועוד שירא",
-        en: "Because he is afflicted and weak, and also afraid.",
+        en: "because he is afflicted and weak, and also afraid",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l05"
+        ]
       },
       {
         id: "rashi-yoma-067a-036",
@@ -152498,11 +152571,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 36,
         he: "לעמוד יחידי במדבר משתחשך:",
-        en: "To stand alone in the wilderness after dark.",
+        en: "to stand alone in the wilderness once it grows dark.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l05"
+        ]
       },
       {
         id: "rashi-yoma-067a-037",
@@ -152510,11 +152585,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 37,
         he: "מאימתי מטמא בגדים. דכתיב והמשלח",
-        en: "From when does he become tamei in his garments? As written: 'the one who sends the goat shall wash his garments.'",
+        en: "'From when does he render garments impure' - as it is written, 'and he who sends",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l05"
+        ]
       },
       {
         id: "rashi-yoma-067a-038",
@@ -152522,11 +152599,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 38,
         he: "את השעיר יכבס בגדיו (ויקרא טז) :",
-        en: "The one who sends the goat shall wash his garments (Leviticus 16).",
+        en: "the goat shall wash his garments' (Leviticus 16).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l05"
+        ]
       },
       {
         id: "rashi-yoma-067a-039",
@@ -152534,11 +152613,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 39,
         he: "גמ' חמש סוכות ועשרה מילין.",
-        en: "Gemara: five sukkot and ten mil.",
+        en: "'Gemara: five sukkot and ten mil' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l12"
+        ]
       },
       {
         id: "rashi-yoma-067a-040",
@@ -152546,11 +152627,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 40,
         he: "וכל אחד מלויהו יותר ממיל או עד",
-        en: "Each one escorts him more than a mil or until the sukkah through eruv.",
+        en: "and each one, his escorts [accompany him] more than a mil, or until",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l12"
+        ]
       },
       {
         id: "rashi-yoma-067a-041",
@@ -152558,11 +152641,14 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 41,
         he: "הסוכה על יד עירוב: סח לי אלעזר",
-        en: "My son Elazar told me - in a tone of amusement about my words.",
+        en: "the sukkah, by means of an eiruv. 'Elazar told me",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l12",
+          "yoma-067a-l16"
+        ]
       },
       {
         id: "rashi-yoma-067a-042",
@@ -152570,11 +152656,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 42,
         he: "בני. בלשון שחוק על דבריי ואמר",
-        en: "He said: if through eruv, two sukkot would suffice.",
+        en: "my son' - in a joking tone about my words, and he said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l16"
+        ]
       },
       {
         id: "rashi-yoma-067a-043",
@@ -152582,11 +152670,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 43,
         he: "לי אם ע\"י עירוב דיי לנו בב' סוכות",
-        en: "The people of Jerusalem escort him two mil and from the first sukkah they go out to meet him two mil.",
+        en: "to me: if by means of an eiruv, two sukkot would suffice for us,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l16"
+        ]
       },
       {
         id: "rashi-yoma-067a-044",
@@ -152594,11 +152684,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 44,
         he: "שיהיו בני ירושלים מלוין אותו שני",
-        en: "That is four mil you can distance the sukkah from Jerusalem.",
+        en: "such that the people of Jerusalem would escort him two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l16"
+        ]
       },
       {
         id: "rashi-yoma-067a-045",
@@ -152606,11 +152698,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 45,
         he: "מילין ומסוכה ראשונה יצאו לקראתו",
-        en: "And the second sukkah at the end of the first four mil.",
+        en: "mil, and from the first sukkah they would go out to meet him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l16"
+        ]
       },
       {
         id: "rashi-yoma-067a-046",
@@ -152618,11 +152712,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 46,
         he: "ב' מילין הרי ד' מילין שאתה יכול",
-        en: "Some of the first sukkah people make an eruv toward the second.",
+        en: "two mil - that makes four mil that you can",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l16"
+        ]
       },
       {
         id: "rashi-yoma-067a-047",
@@ -152630,11 +152726,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 47,
         he: "להרחיק הסוכה מירושלים וסוכה",
-        en: "And some make an eruv toward Jerusalem.",
+        en: "distance the [first] sukkah from Jerusalem; and the second sukkah",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l16"
+        ]
       },
       {
         id: "rashi-yoma-067a-048",
@@ -152642,11 +152740,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 48,
         he: "השניה לסוף ארבעה מילין של",
-        en: "And the second sukkah people - some make an eruv toward the first.",
+        en: "at the end of the first sukkah's four mil;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l16"
+        ]
       },
       {
         id: "rashi-yoma-067a-049",
@@ -152654,11 +152754,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 49,
         he: "ראשונה ויהיו מקצת בני הראשונה",
-        en: "To go out to meet him two mil.",
+        en: "and some of the first sukkah's people",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l16"
+        ]
       },
       {
         id: "rashi-yoma-067a-050",
@@ -152666,11 +152768,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 50,
         he: "מערבין לצד השניה ומקצת יערבו",
-        en: "And some make an eruv toward the cliff to escort him two mil.",
+        en: "would make an eiruv toward the second, and some would make an eiruv",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l16"
+        ]
       },
       {
         id: "rashi-yoma-067a-051",
@@ -152678,11 +152782,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 51,
         he: "לצד ירושלים וכן בני שניה",
-        en: "According to whom? According to Rabbi Meir.",
+        en: "toward Jerusalem; and likewise the second sukkah's people,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l16"
+        ]
       },
       {
         id: "rashi-yoma-067a-052",
@@ -152690,11 +152796,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 52,
         he: "מקצתן מערבין לצד הראשונה",
-        en: "For according to Rabbi Yehudah and Rabbi Yosi, even the last one reaches the cliff.",
+        en: "some make an eiruv toward the first,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l16"
+        ]
       },
       {
         id: "rashi-yoma-067a-053",
@@ -152702,11 +152810,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 53,
         he: "לצאת לקראתו ב' מילין ומקצתן",
-        en: "A person does not need this - the sender does not need to eat on the way.",
+        en: "to go out to meet him two mil, and some",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l16"
+        ]
       },
       {
         id: "rashi-yoma-067a-054",
@@ -152714,11 +152824,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 54,
         he: "מערבין לצד צוק ללוותו ב' מילין:",
-        en: "What is the reason they told him this? Because one who has bread in his basket is not like one who is hungry.",
+        en: "make an eiruv toward the cliff, to escort him two mil.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l16"
+        ]
       },
       {
         id: "rashi-yoma-067a-055",
@@ -152726,11 +152838,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 55,
         he: "כמאן כרבי מאיר. דאילו לרבי",
-        en: "Since there is a mitzva with the goat - to push it backward, as it is written 'to an arid land'.",
+        en: "'Like whom' - like Rabbi Meir; for according to Rabbi",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l18"
+        ]
       },
       {
         id: "rashi-yoma-067a-056",
@@ -152738,11 +152852,14 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 56,
         he: "יהודה ורבי יוסי אף האחרון מגיע לצוק: לא צריך אדם לכך.",
-        en: "Something cut off and descending. If they held it completely on the rock, sometimes.",
+        en: "Yehuda and Rabbi Yosi, even the last one reaches the cliff. 'A person does not need this'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l18",
+          "yoma-067a-l21"
+        ]
       },
       {
         id: "rashi-yoma-067a-057",
@@ -152750,11 +152867,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 57,
         he: "לא נצרך אדם המשלח לאכול בדרך אלא מה טעם אמרו לו כן",
-        en: "The thread turns white before pushing the goat and they are satisfied by the whitening of sins.",
+        en: "- the sender was never actually required to eat along the way; rather, why did they say this to him?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l21"
+        ]
       },
       {
         id: "rashi-yoma-067a-058",
@@ -152762,11 +152881,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 58,
         he: "שאינו דומה מי שיש לו פת בסלו להיות רעב כמי שאין לו:",
-        en: "And do not care to fulfill the mitzva of the goat. Therefore he ties the second half between its horns.",
+        en: "Because one who has bread in his basket does not feel hunger the way one without does.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l21"
+        ]
       },
       {
         id: "rashi-yoma-067a-059",
@@ -152774,11 +152895,14 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 59,
         he: "כיון דמצוה בשעיר. לדחפו לאחוריו כדכתיב אל ארץ גזירה",
-        en: "Its eyes fixed on it; and since he is occupied with it he will not refrain from pushing it.",
+        en: "'Since there is a mitzva with the goat' - it must be pushed backward, as it is written, 'to a land that is cut off,'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l24",
+          "yoma-067a-l27"
+        ]
       },
       {
         id: "rashi-yoma-067a-060",
@@ -152786,11 +152910,14 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 60,
         he: "דבר המתגזר ויורד אי אמרת נקטריה כוליה בסלע זמנין",
-        en: "Until the work is complete. He bends its head under its body when falling backward.",
+        en: "something that is severed and descends. If you say to tie the entire thread on the rock, sometimes",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l24",
+          "yoma-067a-l27"
+        ]
       },
       {
         id: "rashi-yoma-067a-061",
@@ -152798,11 +152925,14 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 61,
         he: "דקדים ומלבין קודם דחיפת השעיר ומייתבא דעתיה משמחת",
-        en: "So it cannot see whether the thread has turned white.",
+        en: "it whitens early, before the goat is pushed, and his mind grows complacent from the joy of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l24",
+          "yoma-067a-l27"
+        ]
       },
       {
         id: "rashi-yoma-067a-062",
@@ -152810,11 +152940,14 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 62,
         he: "ליבון החטאים ולא איכפת ליה לקיים מצות השעיר לפיכך קושר",
-        en: "Whitening of sins satisfies them and they do not care to complete the mitzva of the goat. Therefore he ties the second half between its horns.",
+        en: "the sins whitening, and he no longer cares to fulfill the mitzva of pushing the goat; therefore he ties",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l24",
+          "yoma-067a-l27"
+        ]
       },
       {
         id: "rashi-yoma-067a-063",
@@ -152822,11 +152955,14 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 63,
         he: "באחרונה חציה בין קרניו ועיניו תלוין בו ומאחר שהוא עסוק בו באחרונה לא יניח מלדחפו והיא לא תלבין לחצאים עד",
-        en: "Between its horns, its eyes fixed on it - and since he is occupied with it at the last moment, he will not refrain from pushing it.",
+        en: "at the end, half of the thread between its horns, with his eyes fixed upon it; and since he is occupied with it until the end, he will not neglect to push it, and it will not whiten in halves until",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l24",
+          "yoma-067a-l27"
+        ]
       },
       {
         id: "rashi-yoma-067a-064",
@@ -152834,11 +152970,14 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 64,
         he: "שתגמר מלאכת כולה: דגמיש ליה לרישיה. יכוף ראשו תחת גופו כשיפול לאחוריו ולא יוכל לראות הלשון אם הלבין:",
-        en: "Until the entire task is complete. He bends its head - bends its head under its body when falling backward so it cannot right itself.",
+        en: "the whole task is done. 'That its head bends' - he bends its head under its body as it falls backward, so that it cannot see whether the thread has whitened.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l24",
+          "yoma-067a-l27"
+        ]
       },
       {
         id: "rashi-yoma-067a-065",
@@ -152846,11 +152985,13 @@ const DAF_CONTENT = {
         daf: "67a",
         vilnaLine: 65,
         he: "דכתיב",
-        en: "As it is written.",
+        en: "'As it is written' - the comment is completed on 67b, citing the verse behind the goat's dispatch to the wilderness.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-067a-l43"
+        ]
       }
     ],
     review: "reviewed"
