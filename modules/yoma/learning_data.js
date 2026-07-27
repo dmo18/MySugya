@@ -146224,11 +146224,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 1,
         he: "יתקיים תחתיו. אינו נותן תמורה אלא לזה שמת אבל לחי אינו",
-        en: "And if the second one was superior to it: he brings the superior one.",
+        en: "'It shall stand in its place' - he designates a substitute only for the one that died, but for the surviving one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-064b-002",
@@ -146236,11 +146238,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 2,
         he: "נותן תמורה להפסל הוא ולבא זה תחתיו: כדקאי קאי. בקדושתיה",
-        en: "When a replacement goat is available, choose the better quality one.",
+        en: "he does not designate a substitute to disqualify it and have this new one take its place. 'As it stands, so it stands' - meaning it remains in its own sanctity,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l01b"
+        ]
       },
       {
         id: "rashi-yoma-064b-003",
@@ -146248,11 +146252,14 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 3,
         he: "ולא אמרינן ידחה: שני איני יודע וכו'. אמתני' קאי שני ששנינו",
-        en: "Temple offerings should be of the highest quality: this is the principle of hidur mitzvah.",
+        en: "and we do not say it becomes rejected. 'I do not know which \"second\"' etc. - this refers back to the Mishnah: the 'second' that we taught",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l01b",
+          "yoma-064b-l05"
+        ]
       },
       {
         id: "rashi-yoma-064b-004",
@@ -146260,11 +146267,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 4,
         he: "עליו ירעה איני יודע וכו': הכי גרסינן ולא שחבירו מת. ולא זה",
-        en: "Using a superior replacement honors the service.",
+        en: "shall graze - I do not know which, etc. This is how we read it: 'and not the one whose partner died' - meaning, not this one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l05"
+        ]
       },
       {
         id: "rashi-yoma-064b-005",
@@ -146272,11 +146281,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 5,
         he: "שמת חבירו: יעמד חי ולא שכבר",
-        en: "The superior replacement pair: both new goats should match each other.",
+        en: "whose partner died. 'It shall stand alive, and not that it already",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l05"
+        ]
       },
       {
         id: "rashi-yoma-064b-006",
@@ -146284,11 +146295,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 6,
         he: "עמד. ונדחה על ידי מיתת חבירו",
-        en: "The matching requirement (from 'he shall take two goats') applies to replacements too.",
+        en: "stood' - and then became rejected through its partner's death,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l05"
+        ]
       },
       {
         id: "rashi-yoma-064b-007",
@@ -146296,11 +146309,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 7,
         he: "ועכשיו הוא בא לחזור ולעמוד יעמד",
-        en: "The replacement pair should be as similar to each other as possible.",
+        en: "and now comes to stand again: it shall stand",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l05"
+        ]
       },
       {
         id: "rashi-yoma-064b-008",
@@ -146308,11 +146323,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 8,
         he: "חי עמידה אחת ולא שתי עמידות:",
-        en: "This is the ideal even when the original pair failed.",
+        en: "alive with a single standing, not two standings.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l05"
+        ]
       },
       {
         id: "rashi-yoma-064b-009",
@@ -146320,11 +146337,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 9,
         he: "ימות המשתלח. אלמא בעלי חיים",
-        en: "The quality requirements don't relax for replacement situations.",
+        en: "'The one to be sent away shall die' - this shows that living animals",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l09"
+        ]
       },
       {
         id: "rashi-yoma-064b-010",
@@ -146332,11 +146351,14 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 10,
         he: "נדחין: כי קאמר אליבא דרבנן.",
-        en: "The HP brings the best available animals even in contingency scenarios.",
+        en: "can become rejected. 'When I said it follows the Rabbis, I meant according to the Rabbis' view' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l09",
+          "yoma-064b-l14"
+        ]
       },
       {
         id: "rashi-yoma-064b-011",
@@ -146344,11 +146366,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 11,
         he: "מדקאמר ר' יהודה ועוד לאשמועינן",
-        en: "This reflects the principle that the Yom Kippur service is not compromised by circumstances.",
+        en: "for since Rabbi Yehuda says 'and furthermore,' to teach us",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l14"
+        ]
       },
       {
         id: "rashi-yoma-064b-012",
@@ -146356,11 +146380,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 12,
         he: "דבעלי חיים נדחין מכלל דשמעינהו",
-        en: "The service must be the best even when the situation is difficult.",
+        en: "that living animals can become rejected, this implies he has heard",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l14"
+        ]
       },
       {
         id: "rashi-yoma-064b-013",
@@ -146368,11 +146394,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 13,
         he: "לרבנן דאמרי שני שבזוג ראשון קרב",
-        en: "The replacement goat should be of equal or better quality than the original.",
+        en: "the Rabbis say that the second of the first pair is offered,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l14"
+        ]
       },
       {
         id: "rashi-yoma-064b-014",
@@ -146380,11 +146408,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 14,
         he: "דבעלי חיים אין נדחין ושני שבזוג",
-        en: "Never inferior quality for a replacement.",
+        en: "since living animals are not rejected, and the second of the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l14"
+        ]
       },
       {
         id: "rashi-yoma-064b-015",
@@ -146392,11 +146422,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 15,
         he: "שני ירעה שאין חטאת צבור מתה",
-        en: "The principle of hidur mitzvah: beautifying the commandment with the finest materials.",
+        en: "second pair shall graze, since a communal sin-offering does not die;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l14"
+        ]
       },
       {
         id: "rashi-yoma-064b-016",
@@ -146404,11 +146436,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 16,
         he: "ואתא לאיפלוגי עלייהו בתרתי דקא",
-        en: "Applied to Temple service: always offer the best.",
+        en: "and he comes to disagree with them on two points: as for what",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l14"
+        ]
       },
       {
         id: "rashi-yoma-064b-017",
@@ -146416,11 +146450,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 17,
         he: "אמריתו אין חטאת צבור מתה אני",
-        en: "This is not just an aesthetic preference - it is a halachic requirement.",
+        en: "you say, that a communal sin-offering does not die, I",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l14"
+        ]
       },
       {
         id: "rashi-yoma-064b-018",
@@ -146428,11 +146464,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 18,
         he: "אומר תמות ועוד לא בזה שאמרתם",
-        en: "The Temple service reflects Israel's relationship with God.",
+        en: "say it does die; and furthermore, not regarding the one you said",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l14"
+        ]
       },
       {
         id: "rashi-yoma-064b-019",
@@ -146440,11 +146478,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 19,
         he: "עליו ירעה אני אומר ימות אלא",
-        en: "Giving God the best is not optional; it is the foundation of the sacrificial system.",
+        en: "shall graze do I say it shall die, but rather",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l14"
+        ]
       },
       {
         id: "rashi-yoma-064b-020",
@@ -146452,11 +146492,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 20,
         he: "הוא יקרב ושני שבזוג ראשון ימות:",
-        en: "Inferior offerings were explicitly criticized by the prophets.",
+        en: "it shall be offered, and instead the second of the first pair shall die.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l14"
+        ]
       },
       {
         id: "rashi-yoma-064b-021",
@@ -146464,11 +146506,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 21,
         he: "בשלמא לרב בהא פליגי רבי יהודה",
-        en: "The prophets' critique: offering the lame and the sick while keeping the best for oneself.",
+        en: "'This works out well according to Rav: this is what Rabbi Yehuda",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l16"
+        ]
       },
       {
         id: "rashi-yoma-064b-022",
@@ -146476,11 +146520,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 22,
         he: "ורבנן. בהאי ועוד דסיפא: אלא",
-        en: "The Talmud's rules about quality replacements reflect the same prophetic concern.",
+        en: "and the Rabbis dispute' - regarding this \"and furthermore\" of the latter clause. 'But",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l16"
+        ]
       },
       {
         id: "rashi-yoma-064b-023",
@@ -146488,11 +146534,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 23,
         he: "לרבי יוחנן. דאמר רבנן נמי בשני",
-        en: "The best is owed to God; anything less is a diminishment of the relationship.",
+        en: "according to Rabbi Yochanan' - who says that even the Rabbis said that the second of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l16"
+        ]
       },
       {
         id: "rashi-yoma-064b-024",
@@ -146500,11 +146548,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 24,
         he: "שבזוג ראשון אמרו ירעה במאי פליג",
-        en: "The quality requirement for the Yom Kippur goats extends even to replacement scenarios.",
+        en: "the first pair shall graze, on what point does",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l16"
+        ]
       },
       {
         id: "rashi-yoma-064b-025",
@@ -146512,11 +146562,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 25,
         he: "ר' יהודה עלייהו בהך סיפא דקתני",
-        en: "This is an unusually demanding standard.",
+        en: "Rabbi Yehuda disagree with them in this latter clause that states",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l16"
+        ]
       },
       {
         id: "rashi-yoma-064b-026",
@@ -146524,11 +146576,14 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 26,
         he: "ועוד: בשלמא לר' יוחנן. דאמר",
-        en: "It reflects the day's unique status: nothing about Yom Kippur can be second-rate.",
+        en: "'and furthermore'? 'This works out well according to Rabbi Yochanan' - who says",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l16",
+          "yoma-064b-l18"
+        ]
       },
       {
         id: "rashi-yoma-064b-027",
@@ -146536,11 +146591,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 27,
         he: "ירעה דמתניתין אשני שבזוג ראשון",
-        en: "The HP, the garments, the animals, the service itself - all must be the finest.",
+        en: "that the Mishnah's ruling of 'it shall graze' is stated regarding the second of the first pair;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l18"
+        ]
       },
       {
         id: "rashi-yoma-064b-028",
@@ -146548,11 +146605,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 28,
         he: "קאמר משכחת לה דאילו דיחיד כי",
-        en: "Yom Kippur is the supreme expression of Israel's devotion to God.",
+        en: "you find that in the corresponding individual case,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l18"
+        ]
       },
       {
         id: "rashi-yoma-064b-029",
@@ -146560,11 +146619,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 29,
         he: "האי גוונא תמות משום חטאת שכפרו",
-        en: "That devotion is expressed not just in spiritual intention but in material quality.",
+        en: "it would die, on account of the principle of a sin-offering whose owner has",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l18"
+        ]
       },
       {
         id: "rashi-yoma-064b-030",
@@ -146572,11 +146633,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 30,
         he: "בעליה: כדרבי אבא. דאמר במסכת",
-        en: "The quality of the offerings is itself a form of worship.",
+        en: "achieved atonement. 'In accordance with Rabbi Abba' - who said, in tractate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l18"
+        ]
       },
       {
         id: "rashi-yoma-064b-031",
@@ -146584,11 +146647,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 31,
         he: "תמורה (דף כג.) גבי פלוגתא דרבי ורבנן שנחלקו במפריש חטאתו",
-        en: "The Talmud preserves these quality requirements so they are never forgotten.",
+        en: "Temurah (23a), regarding the dispute between Rabbi and the Rabbis about one who set aside his sin-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l18"
+        ]
       },
       {
         id: "rashi-yoma-064b-032",
@@ -146596,11 +146661,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 32,
         he: "ונאבדה והפריש אחרת תחתיה ונמצאת הראשונה והרי שתיהן עומדות",
-        en: "When the Temple is rebuilt, the standard will be the same.",
+        en: "and it was lost, and set aside another in its place, and then the first was found, so both now stand:",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l18"
+        ]
       },
       {
         id: "rashi-yoma-064b-033",
@@ -146608,11 +146675,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 33,
         he: "דקאמר ר' מתכפר באחת מהן והשניה תמות וחכמים אומרים אין",
-        en: "The finest animals for the finest day.",
+        en: "Rabbi says atonement is achieved through one of them and the other must die, while the Sages say a sin-offering",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l18"
+        ]
       },
       {
         id: "rashi-yoma-064b-034",
@@ -146620,11 +146689,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 34,
         he: "חטאת שכפרו בעליה מתה אלא שנמצאת לאחר שכפרו הבעלים אבל",
-        en: "This is the Torah's standard and the Talmud's preservation of it.",
+        en: "whose owner achieved atonement dies only when found after the owner already achieved atonement, but",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l18"
+        ]
       },
       {
         id: "rashi-yoma-064b-035",
@@ -146632,11 +146703,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 35,
         he: "נמצא קודם כפרה ולאחר הפרשה רועה ואמר ר' אבא עליה הכל",
-        en: "It speaks to a people that honors God with both spirit and matter.",
+        en: "if found before atonement and after the setting-aside, it grazes. And Rabbi Abba said regarding this: all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l18"
+        ]
       },
       {
         id: "rashi-yoma-064b-036",
@@ -146644,11 +146717,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 36,
         he: "מודים שאם נתכפר בשאינה אבודה דהיינו שניה שהופרש אחרון",
-        en: "Both are necessary; neither is sufficient alone.",
+        en: "agree that if atonement was achieved through the one not lost, meaning the second one set aside last,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l18"
+        ]
       },
       {
         id: "rashi-yoma-064b-037",
@@ -146656,11 +146731,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 37,
         he: "אבודה מתה שכך נאמרה הלכה למשה מסיני חטאת שאבדה",
-        en: "Spirit: the fast, the prayer, the repentance.",
+        en: "the lost one dies, for so was it stated as a law given to Moses at Sinai: a sin-offering that was lost,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l18"
+        ]
       },
       {
         id: "rashi-yoma-064b-038",
@@ -146668,11 +146745,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 38,
         he: "ונתכפרו בעליה באחרת הראשונה מתה לא נחלקו אלא שנתכפר בראשונה",
-        en: "Matter: the finest animals, the white linen, the golden vessels.",
+        en: "and its owner achieved atonement through another, the first one dies; they disagree only where atonement was achieved through the first one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l18"
+        ]
       },
       {
         id: "rashi-yoma-064b-039",
@@ -146680,11 +146759,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 39,
         he: "והשניה עומדת ובהא פליגי רבי סבר מפריש לצורך תשלומי אבוד",
-        en: "Together they constitute the full Yom Kippur offering.",
+        en: "and the second remains standing. And this is the point of their dispute: Rabbi holds that one set aside to replace a lost animal",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l18"
+        ]
       },
       {
         id: "rashi-yoma-064b-040",
@@ -146692,11 +146773,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 40,
         he: "כאבוד דמי ורבנן סברי לאו כאבוד דמי וגבי מתניתין דהכא בשלמא",
-        en: "The people's spirit and the HP's material service: one complete Yom Kippur.",
+        en: "is treated like a lost animal, while the Rabbis hold it is not. And regarding our Mishnah here: this works out well",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l18"
+        ]
       },
       {
         id: "rashi-yoma-064b-041",
@@ -146704,11 +146787,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 41,
         he: "לר' יוחנן דאמר שני שבזוג ראשון קתני מתניתין ירעה היינו דיהיב",
-        en: "This is what Tractate Yoma preserves for us.",
+        en: "according to Rabbi Yochanan, who says the Mishnah's 'it shall graze' refers to the second of the first pair - this is why it gives",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l18"
+        ]
       },
       {
         id: "rashi-yoma-064b-042",
@@ -146716,11 +146801,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 42,
         he: "טעמא משום דאין חטאת צבור מתה הא דיחיד תמות דהוה ליה",
-        en: "The full picture of Yom Kippur in all its spiritual and material dimensions.",
+        en: "the reason that a communal sin-offering does not die, whereas an individual's in this case would die, since it would be",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l18"
+        ]
       },
       {
         id: "rashi-yoma-064b-043",
@@ -146728,11 +146815,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 43,
         he: "נתכפר בשאינה אבודה והדחויה קיימת והכל מודים שמתה:",
-        en: "May we study it with the same devotion that the HP performed it.",
+        en: "a case of atonement achieved through the one not lost while the rejected one still survives, and all agree that one dies.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l18"
+        ]
       },
       {
         id: "rashi-yoma-064b-044",
@@ -146740,11 +146829,13 @@ const DAF_CONTENT = {
         daf: "64b",
         vilnaLine: 44,
         he: "אלא",
-        en: "And may our study be accepted as if we had performed the service.",
+        en: "'But' - the comment is completed on 65a as 'according to Rav,' continuing the challenge of how Rav's own view can explain this same Mishnah clause.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-064b-l18"
+        ]
       }
     ],
     review: "reviewed"
