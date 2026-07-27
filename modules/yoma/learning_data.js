@@ -150658,11 +150658,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 1,
         he: "גמ'  שיהא מזומן. מוכן לכך מאתמול: עתי אפילו בשבת. עתי",
-        en: "He should be designated the day before: the guide for the Azazel goat.",
+        en: "'Gemara: that it be ready' - prepared for this from the day before. '\"Ready\" even on Shabbat' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l01"
+        ]
       },
       {
         id: "rashi-yoma-066b-002",
@@ -150670,11 +150672,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 2,
         he: "בעתו ובמועדו ישתלח ולא יעבור ואפי' בשבת ובטומאה ולקמן",
-        en: "The guide is prepared in advance like the HP himself.",
+        en: "'ready' teaches that in its proper time it shall be sent away without delay, even on Shabbat and in a state of impurity; and the Gemara",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l01"
+        ]
       },
       {
         id: "rashi-yoma-066b-003",
@@ -150682,11 +150686,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 3,
         he: "מפרש מאי איסור שבת וטומאה שייך בשילוחו דאיצטריך לרבויי:",
-        en: "The designation is made on the day before Yom Kippur.",
+        en: "will explain below what prohibition of Shabbat and impurity applies to its dispatch, such that a special inclusion was needed.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l01"
+        ]
       },
       {
         id: "rashi-yoma-066b-004",
@@ -150694,11 +150700,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 4,
         he: "למאי הלכתא. מה חלול שבת יש שהוצרך להתירו אי משום תחומין",
-        en: "The word 'appointed' also appears in a different context.",
+        en: "'For what halachic purpose' - what desecration of Shabbat is there that needed to be permitted? If on account of the boundary limits",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l03"
+        ]
       },
       {
         id: "rashi-yoma-066b-005",
@@ -150706,11 +150714,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 5,
         he: "דרבנן בעלמא נינהו שגזרו עליהן",
-        en: "A digression on the word 'appointed/designated' (mu'ad) in various halachic contexts.",
+        en: "of Shabbat, these are merely rabbinic, decreed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l03"
+        ]
       },
       {
         id: "rashi-yoma-066b-006",
@@ -150718,11 +150728,14 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 6,
         he: "לאחר מתן תורה: כמאן. איצטריך",
-        en: "The students asked their teacher about a certain halachic matter.",
+        en: "only after the giving of the Torah. 'In accordance with whom' - the inclusion was needed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l03",
+          "yoma-066b-l05"
+        ]
       },
       {
         id: "rashi-yoma-066b-007",
@@ -150730,11 +150743,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 7,
         he: "לרבויי דלא כרבי נתן דאמר חי נושא",
-        en: "The teacher gave one answer; the students then asked further.",
+        en: "for the view unlike Rabbi Natan, who says a living being carries",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l05"
+        ]
       },
       {
         id: "rashi-yoma-066b-008",
@@ -150742,11 +150757,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 8,
         he: "את עצמו הוא ואין בו אלא משום",
-        en: "The chain of questions and answers reveals how halachic knowledge was transmitted.",
+        en: "itself, and the prohibition involved is only",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l05"
+        ]
       },
       {
         id: "rashi-yoma-066b-009",
@@ -150754,11 +150771,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 9,
         he: "שבות ופלוגתא במסכת שבת (דף צד.):",
-        en: "A teacher's initial answer and the students' follow-up questions.",
+        en: "rabbinic in nature; and this is a dispute in tractate Shabbat (94a).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l05"
+        ]
       },
       {
         id: "rashi-yoma-066b-010",
@@ -150766,11 +150785,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 10,
         he: "חולה שאני. דהשתא לא נושא את",
-        en: "The Talmud preserves this teaching-learning dialogue.",
+        en: "'A sick goat is different' - since now it does not carry",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l05"
+        ]
       },
       {
         id: "rashi-yoma-066b-011",
@@ -150778,11 +150799,14 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 11,
         he: "עצמו והנושא מחלל שבת: זאת",
-        en: "Each question and answer adds a layer of understanding.",
+        en: "itself, and the one carrying it desecrates Shabbat. 'This",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l05",
+          "yoma-066b-l08"
+        ]
       },
       {
         id: "rashi-yoma-066b-012",
@@ -150790,11 +150814,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 12,
         he: "אומרת. מדאיצטריך למתני עתי",
-        en: "The dialogic nature of halachic transmission: not lecture but conversation.",
+        en: "teaches' - since it was necessary to teach 'ready,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l08"
+        ]
       },
       {
         id: "rashi-yoma-066b-013",
@@ -150802,11 +150828,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 13,
         he: "אפילו בשבת איכא למשמע דאין",
-        en: "Teacher and students together working out the implications.",
+        en: "even on Shabbat,' we may infer that there is no",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l08"
+        ]
       },
       {
         id: "rashi-yoma-066b-014",
@@ -150814,11 +150842,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 14,
         he: "איסור הוצאה ליום הכפורים דאי",
-        en: "The students' questions often push the discussion forward.",
+        en: "prohibition of carrying on Yom Kippur; for if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l08"
+        ]
       },
       {
         id: "rashi-yoma-066b-015",
@@ -150826,11 +150856,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 15,
         he: "יום הכפורים כשבת להוצאה למה",
-        en: "A wise teacher welcomes good questions.",
+        en: "Yom Kippur were like Shabbat regarding carrying, why would",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l08"
+        ]
       },
       {
         id: "rashi-yoma-066b-016",
@@ -150838,11 +150870,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 16,
         he: "לי קרא להתיר משאו בשבת הרי",
-        en: "The Talmud models good Torah pedagogy through these recorded dialogues.",
+        en: "I need a verse to permit carrying it on Shabbat? Even",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l08"
+        ]
       },
       {
         id: "rashi-yoma-066b-017",
@@ -150850,11 +150884,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 17,
         he: "כשחל בחול נמי כשבת דמי וקאמר",
-        en: "The study of Yoma itself should be approached with the same dialogic spirit.",
+        en: "when it falls on a weekday it would be treated like Shabbat, and yet",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l08"
+        ]
       },
       {
         id: "rashi-yoma-066b-018",
@@ -150862,11 +150898,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 18,
         he: "רחמנא ישלחנו עירוב כדי נסבא אלא",
-        en: "Ask why, not just what. Seek the underlying principle, not just the rule.",
+        en: "the Torah says 'he shall send it away.' One might object that the eruv was instituted merely incidentally; but",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l08"
+        ]
       },
       {
         id: "rashi-yoma-066b-019",
@@ -150874,11 +150912,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 19,
         he: "דהא בהא תליא דלא תקינו חכמים",
-        en: "The students who asked deep questions advanced halachic knowledge.",
+        en: "rather, the two matters are interdependent, since the Sages instituted",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l08"
+        ]
       },
       {
         id: "rashi-yoma-066b-020",
@@ -150886,11 +150926,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 20,
         he: "עירובי חצרות אלא בשביל איסור",
-        en: "Their questions are remembered because they mattered.",
+        en: "courtyard eruvin only because of the prohibition",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l08"
+        ]
       },
       {
         id: "rashi-yoma-066b-021",
@@ -150898,11 +150940,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 21,
         he: "הוצאה שגזרו מרשות לרשות",
-        en: "The Talmud values the question as much as the answer.",
+        en: "on carrying that they decreed from one domain to another,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l08"
+        ]
       },
       {
         id: "rashi-yoma-066b-022",
@@ -150910,11 +150954,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 22,
         he: "גזירה משום הוצאה מרשות היחיד",
-        en: "A question that clarifies is as important as an answer that resolves.",
+        en: "a decree on account of carrying from a private",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l08"
+        ]
       },
       {
         id: "rashi-yoma-066b-023",
@@ -150922,11 +150968,14 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 23,
         he: "לרה\"ר: למאי הלכתא. מה איסור",
-        en: "This dialogic spirit is part of what makes Talmud study vibrant.",
+        en: "domain to a public one. 'For what halachic purpose' - what prohibition",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l08",
+          "yoma-066b-l10"
+        ]
       },
       {
         id: "rashi-yoma-066b-024",
@@ -150934,11 +150983,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 24,
         he: "טומאת מקדש או קדשיו יש בשילוחו",
-        en: "The text records not just the conclusions but the process.",
+        en: "of Temple or sacred-item impurity applies to its dispatch,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l10"
+        ]
       },
       {
         id: "rashi-yoma-066b-025",
@@ -150946,11 +150997,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 25,
         he: "שהוצרך לומר שידחה את הטומאה:",
-        en: "Understanding the process is understanding the Torah itself.",
+        en: "that it needed to say that impurity is overridden?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l10"
+        ]
       },
       {
         id: "rashi-yoma-066b-026",
@@ -150958,11 +151011,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 26,
         he: "נכנס טמא לעזרה. שהכהן",
-        en: "The Mishnah: on Yom Kippur these five afflictions are prohibited.",
+        en: "'One who is impure may enter the courtyard' - since the priest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l10"
+        ]
       },
       {
         id: "rashi-yoma-066b-027",
@@ -150970,11 +151025,14 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 27,
         he: "מוסרו לו שם: יכול להרכיב אני",
-        en: "Eating, drinking, bathing, anointing, wearing sandals, and marital relations.",
+        en: "hands it over to him there. 'I and you together",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l10",
+          "yoma-066b-l12"
+        ]
       },
       {
         id: "rashi-yoma-066b-028",
@@ -150982,11 +151040,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 28,
         he: "ואתם. בריא וחזק היה השעיר",
-        en: "Actually five: eating/drinking is one, and marital relations may be separately counted.",
+        en: "could carry it' - the goat was healthy and strong",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l12"
+        ]
       },
       {
         id: "rashi-yoma-066b-029",
@@ -150994,11 +151054,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 29,
         he: "להרכיב אותי ואתכם עליו לקמן",
-        en: "The five afflictions parallel the five garment changes of the HP.",
+        en: "enough to carry both me and you upon it. The Gemara",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l12"
+        ]
       },
       {
         id: "rashi-yoma-066b-030",
@@ -151006,11 +151068,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 30,
         he: "אמרינן שלא היה חפץ להשיב על",
-        en: "Or the five uses of the Shem haMeforash in the blessings.",
+        en: "will say below that he did not wish to answer",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l12"
+        ]
       },
       {
         id: "rashi-yoma-066b-031",
@@ -151018,11 +151082,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 31,
         he: "שאלתם מה שלא שמע מפי רבו:",
-        en: "Numbers have meaning in the Temple service.",
+        en: "their question with anything he had not heard from his own teacher.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l12"
+        ]
       },
       {
         id: "rashi-yoma-066b-032",
@@ -151030,11 +151096,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 32,
         he: "אהא בשלום אני ואתם. כלומר מה",
-        en: "The five afflictions correspond to the five books of Torah.",
+        en: "'Let me and you be at peace' - meaning, why",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l12"
+        ]
       },
       {
         id: "rashi-yoma-066b-033",
@@ -151042,11 +151110,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 33,
         he: "לכם לשאול על זאת לא אני ולא אתם",
-        en: "Or the five organs through which sin enters.",
+        en: "do you ask me this? Neither I nor you",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l12"
+        ]
       },
       {
         id: "rashi-yoma-066b-034",
@@ -151054,11 +151124,14 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 34,
         he: "נזקק לשילוחו: דחפו. לצוק ולא מת",
-        en: "The correspondences are multiple and all meaningful.",
+        en: "will ever need to deal with sending it away. 'He pushed it' - down the cliff and it did not die -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l12",
+          "yoma-066b-l16"
+        ]
       },
       {
         id: "rashi-yoma-066b-035",
@@ -151066,11 +151139,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 35,
         he: "מהו שיהא צריך לירד אחריו וימיתנו:",
-        en: "The afflictions: physical denial as the external expression of internal repentance.",
+        en: "must he go down after it and kill it?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l16"
+        ]
       },
       {
         id: "rashi-yoma-066b-036",
@@ -151078,11 +151153,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 36,
         he: "פלוני מהו לעולם הבא. על אדם",
-        en: "The fast is not the repentance itself - it is the vessel for the repentance.",
+        en: "'What is the status of so-and-so in the World to Come' - they asked him about",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l20"
+        ]
       },
       {
         id: "rashi-yoma-066b-037",
@@ -151090,11 +151167,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 37,
         he: "אחד שאלוהו מה מעשיו בעיניך ויש",
-        en: "Without the fasting, the repentance lacks a physical container.",
+        en: "a certain man's deeds in his eyes; some",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l20"
+        ]
       },
       {
         id: "rashi-yoma-066b-038",
@@ -151102,11 +151181,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 38,
         he: "פותרים על שלמה בן דוד שאלוהו:",
-        en: "The body and the soul together observe Yom Kippur.",
+        en: "explain they asked him about Solomon son of David.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l20"
+        ]
       },
       {
         id: "rashi-yoma-066b-039",
@@ -151114,11 +151195,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 39,
         he: "אלא על פלוני. שמא על אבשלום",
-        en: "The body fasts; the soul repents.",
+        en: "'But regarding so-and-so' - perhaps you are asking me about Absalom",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l20"
+        ]
       },
       {
         id: "rashi-yoma-066b-040",
@@ -151126,11 +151209,14 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 40,
         he: "שאלתוני: אלא על הרועה. אם מותר",
-        en: "The body prays; the soul is elevated.",
+        en: "were you asking me. 'But regarding the shepherd' - whether it is permitted",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l20",
+          "yoma-066b-l22"
+        ]
       },
       {
         id: "rashi-yoma-066b-041",
@@ -151138,11 +151224,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 41,
         he: "להצילו מפי הארי: ממזר מהו לירש.",
-        en: "They work in tandem on the most holy day.",
+        en: "to save him from the lion's mouth. 'May a mamzer inherit' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l22"
+        ]
       },
       {
         id: "rashi-yoma-066b-042",
@@ -151150,11 +151238,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 42,
         he: "את אביו: אמר להם מהו ליבם.",
-        en: "The Mishnah: the king reads from the Torah on Sukkot, and the nations of Israel gather.",
+        en: "from his father? 'He said to them: is the question about levirate marriage' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l22"
+        ]
       },
       {
         id: "rashi-yoma-066b-043",
@@ -151162,11 +151252,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 43,
         he: "אשת אחיו שאלתם אותי: מהו לסוד",
-        en: "Hakhel: the once-in-seven-years gathering where the king reads Torah.",
+        en: "are you asking me about his brother's wife? 'May one plaster'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l22"
+        ]
       },
       {
         id: "rashi-yoma-066b-044",
@@ -151174,11 +151266,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 44,
         he: "את ביתו. בזמן הזה מי אסור מפני",
-        en: "The connection between Hakhel and Yom Kippur: both involve public Torah reading.",
+        en: "'his house' - nowadays, is it forbidden on account of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l22"
+        ]
       },
       {
         id: "rashi-yoma-066b-045",
@@ -151186,11 +151280,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 45,
         he: "צער חורבן הבית: אמר להם לא",
-        en: "Yom Kippur's Torah reading is in some ways a model for Hakhel.",
+        en: "the grief of the Temple's destruction? 'He said to them: you did not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l22"
+        ]
       },
       {
         id: "rashi-yoma-066b-046",
@@ -151198,11 +151294,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 46,
         he: "שאלתוני אלא מהו לסוד את קברו:",
-        en: "Both involve the leader reading to all Israel in a moment of communal covenant renewal.",
+        en: "ask me that, but rather, may one plaster his grave?'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l22"
+        ]
       },
       {
         id: "rashi-yoma-066b-047",
@@ -151210,11 +151308,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 47,
         he: "לא שהפליגן. והפרישן לדברים אחרים",
-        en: "The Yom Kippur reading: the HP reads to the gathered people.",
+        en: "'Not that he brushed them off' - and diverted them to other matters,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l27"
+        ]
       },
       {
         id: "rashi-yoma-066b-048",
@@ -151222,11 +151322,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 48,
         he: "כאדם המתכוין לדחות כשאינו יודע",
-        en: "Hakhel: the king reads to the gathered people.",
+        en: "like someone intending to deflect because he does not know",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l27"
+        ]
       },
       {
         id: "rashi-yoma-066b-049",
@@ -151234,11 +151336,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 49,
         he: "להשיב אלא יודע היה אבל לא אמר",
-        en: "Two moments of communal Torah reading anchoring the Jewish calendar.",
+        en: "how to answer; rather, he did know, but he would not say",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l27"
+        ]
       },
       {
         id: "rashi-yoma-066b-050",
@@ -151246,11 +151350,14 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 50,
         he: "דבר שלא שמע מרבו: שמעשה",
-        en: "One annual (Yom Kippur), one every seven years (Hakhel).",
+        en: "anything he had not heard from his teacher. 'Since the acts",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l27",
+          "yoma-066b-l29"
+        ]
       },
       {
         id: "rashi-yoma-066b-051",
@@ -151258,11 +151365,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 51,
         he: "העגל שוין. עבודותיו שוות לאיסור",
-        en: "Both are moments when all Israel gathers to renew the covenant.",
+        en: "of the calf were equal' - its forms of worship are equally forbidden;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l29"
+        ]
       },
       {
         id: "rashi-yoma-066b-052",
@@ -151270,11 +151379,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 52,
         he: "מפני מה אין מיתתן שוה שהיו בו",
-        en: "Through the reading of Torah, the covenant is renewed.",
+        en: "why then was their death not equal? For there were",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l29"
+        ]
       },
       {
         id: "rashi-yoma-066b-053",
@@ -151282,11 +151393,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 53,
         he: "שלש מיתות מיתת סייף שימו איש",
-        en: "This is the deepest function of public Torah reading.",
+        en: "three forms of death: death by the sword, 'let every man'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l29"
+        ]
       },
       {
         id: "rashi-yoma-066b-054",
@@ -151294,11 +151407,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 54,
         he: "חרבו מיתת מגיפה ויגוף ה' את העם",
-        en: "Not to transmit information but to renew the relationship.",
+        en: "'put his sword' upon his brother; death by plague, 'and the Lord plagued the people'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l29"
+        ]
       },
       {
         id: "rashi-yoma-066b-055",
@@ -151306,11 +151421,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 55,
         he: "(שמות לב) מיתת הדרוקן דכתיב ויזר",
-        en: "The Torah is read; the covenant is renewed; the relationship continues.",
+        en: "(Exodus 32); death by dropsy, as it is written, 'and he scattered it'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l29"
+        ]
       },
       {
         id: "rashi-yoma-066b-056",
@@ -151318,11 +151435,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 56,
         he: "על פני המים ואמרינן במסכת",
-        en: "On Yom Kippur: the relationship renewed through atonement.",
+        en: "'upon the water,' and we say in tractate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l29"
+        ]
       },
       {
         id: "rashi-yoma-066b-057",
@@ -151330,11 +151449,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 57,
         he: "ע\"ז (דף מד.) לא נתכוין משה",
-        en: "At Hakhel: the relationship renewed through gathering.",
+        en: "Avodah Zarah (44a) that Moses intended",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l29"
+        ]
       },
       {
         id: "rashi-yoma-066b-058",
@@ -151342,11 +151463,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 58,
         he: "אלא לבודקן כסוטות בלצבות",
-        en: "Both are forms of renewal; both are essential to the covenant's continuity.",
+        en: "only to test them like suspected wives, causing",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l29"
+        ]
       },
       {
         id: "rashi-yoma-066b-059",
@@ -151354,11 +151477,14 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 59,
         he: "בטן: זיבח וקיטר. הן עבודות",
-        en: "The tractate Yoma has taught us about the Yom Kippur renewal.",
+        en: "their bellies to swell. 'He sacrificed and burned incense' - these are the forms",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l29",
+          "yoma-066b-l33"
+        ]
       },
       {
         id: "rashi-yoma-066b-060",
@@ -151366,11 +151492,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 60,
         he: "שחייבין עליהן לע\"ז מיתה כדתנן בארבע מיתות (סנהדרין ס:) שהן בסקילה וכאן בסייף שעדיין לא נתפרשו להן ארבע מיתות",
-        en: "May every generation renew the covenant on this day.",
+        en: "of service for which one is liable to death for idol worship, as we learned in the chapter Arba Mitot (Sanhedrin 60b), which are by stoning; but here it is by the sword, since the four",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l33"
+        ]
       },
       {
         id: "rashi-yoma-066b-061",
@@ -151378,11 +151506,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 61,
         he: "בית דין ונידונו במיתת בני נח שכל מיתתן בסייף כדאמרינן בסנהדרין (דף נו.): גיפף ונישק. אין בהן מיתת בית דין כדתנן בארבע",
-        en: "And may we merit the full restoration of the Temple service.",
+        en: "court-imposed death penalties had not yet been specified, and they were judged by the death penalty of Noahides, all by the sword, as we say in Sanhedrin (56a). 'He embraced and kissed' - these carry no court-imposed death penalty, as we learned in the chapter Arba",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l33"
+        ]
       },
       {
         id: "rashi-yoma-066b-062",
@@ -151390,11 +151520,15 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 62,
         he: "מיתות (שם ס:) אלא בידי שמים נידונו במגפה: כל בני לוי. שכולן בכלל זה: האומר לאביו ולאמו. במעשה העגל לא ראיתיו",
-        en: "Where the renewal will be complete.",
+        en: "Mitot (ibid. 60b), but rather they were judged at the hand of Heaven, by plague. 'All the sons of Levi' - since all of them are included in this. 'He who said of his father and mother, \"I have not seen him\"' - regarding the incident of the calf, they became",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l33",
+          "yoma-066b-l37",
+          "yoma-066b-l39"
+        ]
       },
       {
         id: "rashi-yoma-066b-063",
@@ -151402,11 +151536,14 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 63,
         he: "נעשו אכזרים עליהם לנקום נקמתו של מקום אלמא אביו ואמו אחיו ובניו עבדו ע\"ז: ומתוך ששונאין. בני ארץ ישראל",
-        en: "In our days. Amen.",
+        en: "cruel toward them to avenge God's vengeance; this shows that his father, mother, brothers, and sons had worshipped the idol. 'And since they hate' - the people of the Land of Israel",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l39",
+          "yoma-066b-l41"
+        ]
       },
       {
         id: "rashi-yoma-066b-064",
@@ -151414,11 +151551,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 64,
         he: "את הבבליים היו קורין כל קלי הראש ועושי דבר שלא כהוגן על שמם: תנוח דעתך. משפחתו היתה מבבל והיה קשה לו הדבר:",
-        en: "The tractate has come to its conclusion.",
+        en: "hated the Babylonians, they would call every reckless person and doer of improper deeds by their name. 'May your mind be at ease' - his family was from Babylonia, and this matter was difficult for him.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l41"
+        ]
       },
       {
         id: "rashi-yoma-066b-065",
@@ -151426,11 +151565,14 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 65,
         he: "מה שהי צפירא דין וחובי דרא סגיאין. מה מתעכב שעיר זה כאן ועונות הדור מרובין והן עליו: מתני' מיקירי ירושלים.",
-        en: "Everything the Talmud says about Yom Kippur is here.",
+        en: "'Why does this goat linger, when the sins of the generation are so many?' - why is this goat delayed here, while the iniquities of the generation are numerous and rest upon it? 'Mishnah: from the notables of Jerusalem' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l44",
+          "yoma-066b-l45"
+        ]
       },
       {
         id: "rashi-yoma-066b-066",
@@ -151438,11 +151580,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 66,
         he: "מחשובי ירושלים: עד סוכה הראשונה. סוכות עשו לו בדרך ובני אדם הולכין לגור שם לפני יום הכפורים שמלוין אותו מסוכה לסוכה:",
-        en: "In all its detail and all its meaning.",
+        en: "from the prominent people of Jerusalem. 'To the first sukkah' - they made huts for it along the way, and people would go to reside there before Yom Kippur, so that they could escort it from hut to hut.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l45"
+        ]
       },
       {
         id: "rashi-yoma-066b-067",
@@ -151450,11 +151594,13 @@ const DAF_CONTENT = {
         daf: "66b",
         vilnaLine: 67,
         he: "תשעים",
-        en: "May we study it, observe it, and be renewed by it.",
+        en: "'Ninety' - the comment is completed on 67a as 'ris,' a unit of distance, explaining the total distance from Jerusalem to the cliff.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-066b-l45"
+        ]
       }
     ],
     review: "reviewed"
