@@ -123928,11 +123928,14 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 1,
         he: "כל חדרה. הגנוז בחדרי חדרים: נ\"ב שנה. הי' מחרבות ירושלים בגלות צדקיהו עד פקידת כורש שעלו לבנות הבית שהרי לסוף ע' לגלות",
-        en: "'All her splendor has gone' (Lamentations 1:6) - the Gemara interprets this as the cheruvim's intimate posture.",
+        en: "'All her chamber' - hidden away in the innermost chambers. 'Fifty-two years' - this was from the destruction of Jerusalem in Zedekiah's exile until Cyrus's decree, when they went up to build the House, since at the end of seventy years from the exile of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l01",
+          "yoma-054a-l09"
+        ]
       },
       {
         id: "rashi-yoma-054a-002",
@@ -123940,11 +123943,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 2,
         he: "יהויקים היתה הפקידה כמו ששנינו במגילה (דף יא:) וי\"ח שנה היה מכיבוש יהויקים עד חרבות ירושלים דאמר מר גלו בשבע גלו בשמונה גלו",
-        en: "The cheruvim on the kapporet faced each other when Israel found favor before God.",
+        en: "Jehoiakim was the decree, as we learned in Megillah (11b); and it was eighteen years from the conquest of Jehoiakim until the destruction of Jerusalem, as the master said: they went into exile in the seventh year, in the eighth year, they went",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l09"
+        ]
       },
       {
         id: "rashi-yoma-054a-003",
@@ -123952,11 +123957,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 3,
         he: "בשמונה עשרה גלו בתשע עשרה ופירושו גלה יכניה בשבע לכיבוש יהויקים שהוא שמונה לנבוכדנצר גלו צדקיהו וגלותו בחרבות ירושלים בשמונה",
-        en: "When the gentiles entered the Holy of Holies at the destruction, they found the cheruvim facing each other.",
+        en: "into exile in the eighteenth year, they went into exile in the nineteenth year; and its explanation is: Jeconiah went into exile in the seventh year of Jehoiakim's conquest, which is the eighth year of Nebuchadnezzar; Zedekiah's exile, at the destruction of Jerusalem, was in the eighteenth",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l09"
+        ]
       },
       {
         id: "rashi-yoma-054a-004",
@@ -123964,11 +123971,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 4,
         he: "עשר לכיבוש יהויקים שהוא תשע עשרה לנבוכדנצר דאמר מר שנה ראשונה כיבש נינוה שניה עלה וכיבש יהויקים: עד בהמה.",
-        en: "This intimate posture of divine love was then exposed and violated - 'all her splendor gone.'",
+        en: "year of Jehoiakim's conquest, which is the nineteenth of Nebuchadnezzar, as the master said: in the first year he conquered Nineveh, in the second he went up and conquered Jehoiakim. 'Until beast' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l09"
+        ]
       },
       {
         id: "rashi-yoma-054a-005",
@@ -123976,11 +123985,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 5,
         he: "בהמה בגימטריא חמשין ותרין: הגביר",
-        en: "The exposed intimacy represents both the depth of God's love and the horror of its violation.",
+        en: "'beast' in gematria is fifty-two. 'He strengthened'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l09"
+        ]
       },
       {
         id: "rashi-yoma-054a-006",
@@ -123988,11 +123999,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 6,
         he: "לרבים. בספר דניאל כתיב והכי",
-        en: "Even at the moment of destruction, the divine-Israel bond symbolized by the cheruvim was intact.",
+        en: "'for the many' - it is written in the book of Daniel, and thus",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l13"
+        ]
       },
       {
         id: "rashi-yoma-054a-007",
@@ -124000,11 +124013,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 7,
         he: "מפרש ליה ר' יוחנן אותו ברית האמור",
-        en: "R. Yehuda: the world's extremities all converge at Jerusalem - it is the world's geographic center.",
+        en: "Rabbi Yochanan explains it: that 'covenant' stated",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l13"
+        ]
       },
       {
         id: "rashi-yoma-054a-008",
@@ -124012,11 +124027,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 8,
         he: "בגפרית ומלח שנאמר בו על אשר",
-        en: "This cosmological claim connects to the even ha-shetiya as the world's creation point.",
+        en: "regarding sulfur and salt, of which it is said, 'because",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l13"
+        ]
       },
       {
         id: "rashi-yoma-054a-009",
@@ -124024,11 +124041,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 9,
         he: "עזבו את ברית הגבירו האויב על",
-        en: "The Ark: R. Eliezer says it was taken to Babylon; R. Shimon ben Yochai says it is hidden under the Temple.",
+        en: "they forsook the covenant' - 'he strengthened' means the enemy prevailed over",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l13"
+        ]
       },
       {
         id: "rashi-yoma-054a-010",
@@ -124036,11 +124055,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 10,
         he: "ישראל שבוע אחד: לרבים. לשרים",
-        en: "The Mishna on 53b records that Josiah hid the Ark before the Babylonian conquest.",
+        en: "Israel for one week. 'For the many' - for the officers,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l13"
+        ]
       },
       {
         id: "rashi-yoma-054a-011",
@@ -124048,11 +124069,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 11,
         he: "כמו כל רבי מלך בבל (ירמיה לט) :",
-        en: "If Josiah hid it, R. Eliezer would say the Babylonians found and took it anyway.",
+        en: "as in 'all the officers of the king of Babylon' (Jeremiah 39).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l13"
+        ]
       },
       {
         id: "rashi-yoma-054a-012",
@@ -124060,11 +124083,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 12,
         he: "מתעסק. בטיול ושחוק: רצפה",
-        en: "R. Shimon ben Yochai would say Josiah's hiding was successful - it remains under the Temple.",
+        en: "'He occupied himself' - in strolling and playing. 'A pavement",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l21"
+        ]
       },
       {
         id: "rashi-yoma-054a-013",
@@ -124072,11 +124097,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 13,
         he: "משונה. אחת מן הטבלאות של שיש",
-        en: "The tradition of the Ark under the Temple gives hope of its future discovery and restoration.",
+        en: "tile different' - one of the marble tiles",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l21"
+        ]
       },
       {
         id: "rashi-yoma-054a-014",
@@ -124084,11 +124111,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 14,
         he: "שברצפה ראה גבוהה מחברותיה והבין",
-        en: "The tradition of the Ark in Babylon explains why it has not been found since.",
+        en: "in the pavement he saw was higher than its fellows, and he understood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l21"
+        ]
       },
       {
         id: "rashi-yoma-054a-015",
@@ -124096,11 +124125,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 15,
         he: "שסילקוה מאחר שנסדרה שם:",
-        en: "Both traditions preserve the conviction that the Ark was not destroyed - only relocated.",
+        en: "that it had been removed after it had been set there.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l21"
+        ]
       },
       {
         id: "rashi-yoma-054a-016",
@@ -124108,11 +124139,14 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 16,
         he: "ביחוד. בברור: מתליעין בעצים.",
-        en: "This preservation of tradition reflects the deep importance of the Ark to Jewish identity.",
+        en: "'With certainty' - clearly. 'They were checking the wood for worms' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l21",
+          "yoma-054a-l25"
+        ]
       },
       {
         id: "rashi-yoma-054a-017",
@@ -124120,11 +124154,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 17,
         he: "דתנן (מדות פ\"ב משנה ה) כל עץ שיש",
-        en: "The HP's service in the Second Temple did not require knowing where the Ark was.",
+        en: "as we learned (Middot 2:5): any wood that has",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l25"
+        ]
       },
       {
         id: "rashi-yoma-054a-018",
@@ -124132,11 +124168,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 18,
         he: "בו תולעת פסול למזבח: בעלי מומין.",
-        en: "He sprinkled toward the even ha-shetiya (foundation stone) where the Ark had stood.",
+        en: "a worm in it is unfit for the altar. 'Blemished priests' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l25"
+        ]
       },
       {
         id: "rashi-yoma-054a-019",
@@ -124144,11 +124182,14 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 19,
         he: "שאין ראויין לעבודה אחרת: נראין",
-        en: "The sprinkling location was fixed by the stone's position, not by the Ark's current location.",
+        en: "who are not fit for other service. 'Visible",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l25",
+          "yoma-054a-l27"
+        ]
       },
       {
         id: "rashi-yoma-054a-020",
@@ -124156,11 +124197,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 20,
         he: "ואין נראין. כדמפרש ואזיל בברייתא",
-        en: "The even ha-shetiya's permanence ensured the service location was always known.",
+        en: "and not visible' - as is explained further in the beraita,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l27"
+        ]
       },
       {
         id: "rashi-yoma-054a-021",
@@ -124168,11 +124211,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 21,
         he: "שהיו דוחקין ובולטין בפרוכת ונראין",
-        en: "This section of 54a connects several threads: Lamentations, cheruvim theology, and Ark traditions.",
+        en: "that they pressed against and bulged out through the curtain and appeared",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l31"
+        ]
       },
       {
         id: "rashi-yoma-054a-022",
@@ -124180,11 +124225,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 22,
         he: "כשני דדי אשה שבולטין מתחת",
-        en: "All three illuminate the Second Temple's situation: service without the Ark, hope for restoration.",
+        en: "like a woman's two breasts, which bulge out from beneath",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l31"
+        ]
       },
       {
         id: "rashi-yoma-054a-023",
@@ -124192,11 +124239,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 23,
         he: "חלוקה: ויוצאין בפרוכת. הפרוסה",
-        en: "The cheruvim's intimate posture at destruction is a particularly poignant teaching.",
+        en: "her garment. 'And emerge through the curtain' - the one spread",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l31"
+        ]
       },
       {
         id: "rashi-yoma-054a-024",
@@ -124204,11 +124253,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 24,
         he: "כנגד פתח שבמחיצת אמה טרקסין",
-        en: "It suggests that God's love for Israel survived even the destruction - a message of comfort.",
+        en: "opposite the doorway in the partition of the amah-width screen wall,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l31"
+        ]
       },
       {
         id: "rashi-yoma-054a-025",
@@ -124216,11 +124267,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 25,
         he: "והפתח באמצע אמה טרקסין היה",
-        en: "Lamentations is both a dirge and, in this reading, a testimony to enduring divine love.",
+        en: "and the doorway was in the middle of the amah-width screen wall",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l31"
+        ]
       },
       {
         id: "rashi-yoma-054a-026",
@@ -124228,11 +124281,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 26,
         he: "במקדש ראשון: הכרובים. מדובקין",
-        en: "The Gemara's reading of Lamentations here is one of the most theologically significant passages in tractate Yoma.",
+        en: "in the First Temple. 'The cheruvim' - joined",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l32"
+        ]
       },
       {
         id: "rashi-yoma-054a-027",
@@ -124240,11 +124295,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 27,
         he: "זה בזה ואחוזין ומחבקין זה את זה",
-        en: "It transforms the book's mourning into a statement about the persistence of the divine-Israel relationship.",
+        en: "to each other, holding and embracing one another",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l32"
+        ]
       },
       {
         id: "rashi-yoma-054a-028",
@@ -124252,11 +124309,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 28,
         he: "כזכר החובק את הנקבה: מעורים.",
-        en: "The Ark traditions similarly express hope: the Ark was not destroyed, only hidden.",
+        en: "like a male embracing a female. 'Intertwined' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l32"
+        ]
       },
       {
         id: "rashi-yoma-054a-029",
@@ -124264,11 +124323,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 29,
         he: "לשון דיבוק כמו (עוקצין פ\"ג משנה ח)",
-        en: "Its rediscovery would mark the Temple's restoration and the fulfillment of messianic hopes.",
+        en: "an expression of clinging, as in (Uktzin 3:8),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l32"
+        ]
       },
       {
         id: "rashi-yoma-054a-030",
@@ -124276,11 +124337,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 30,
         he: "אילן שנפשח ומעורה בקליפה ובמס'",
-        en: "These theological threads appear in the midst of procedural halachic discussion.",
+        en: "'a tree that was split but remains attached by its bark,' and in tractate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l32"
+        ]
       },
       {
         id: "rashi-yoma-054a-031",
@@ -124288,11 +124351,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 31,
         he: "ביצה (דף ז.) אם היו מעורות בגידין",
-        en: "This is characteristic of the Talmud: theological reflection embedded in practical service description.",
+        en: "Beitza (7a): 'if they were attached by sinews",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l32"
+        ]
       },
       {
         id: "rashi-yoma-054a-032",
@@ -124300,11 +124365,14 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 32,
         he: "אסורות: ולא יבאו לראות. הלוים",
-        en: "The HP's blood sprinkling is described in the most precise procedural terms.",
+        en: "they are forbidden.' 'And they shall not come to see' - the Levites",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l32",
+          "yoma-054a-l35"
+        ]
       },
       {
         id: "rashi-yoma-054a-033",
@@ -124312,11 +124380,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 33,
         he: "שבמדבר אף על פי שהיו נושאין",
-        en: "But the space where he sprinkles is also the world's creation point and the site of cheruvim intimacy.",
+        en: "in the wilderness, even though they carried",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l35"
+        ]
       },
       {
         id: "rashi-yoma-054a-034",
@@ -124324,11 +124394,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 34,
         he: "כלי הקודש בכתף לא היו רשאין",
-        en: "These layers of meaning enrich the understanding of Yom Kippur service beyond mere procedure.",
+        en: "the sacred vessels on their shoulders, were not permitted",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l35"
+        ]
       },
       {
         id: "rashi-yoma-054a-035",
@@ -124336,11 +124408,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 35,
         he: "ליכנס בשעת סילוק מסעות שהיו",
-        en: "The HP was not just performing a legal act - he was serving at the intersection of creation, love, and redemption.",
+        en: "to enter at the time the camps journeyed onward, when",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l35"
+        ]
       },
       {
         id: "rashi-yoma-054a-036",
@@ -124348,11 +124422,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 36,
         he: "מפרקין את הארון והמזבח להסיעו",
-        en: "Rashi's commentary on 54a brings out these theological dimensions alongside the halachic details.",
+        en: "they dismantled the Ark and the altar to move it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l35"
+        ]
       },
       {
         id: "rashi-yoma-054a-037",
@@ -124360,11 +124436,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 37,
         he: "ממקומו עד שהיו אהרן ובניו מכסין",
-        en: "The cheruvim posture, the world's center, and the Ark's hiding place all converge here.",
+        en: "from its place, until Aaron and his sons covered",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l35"
+        ]
       },
       {
         id: "rashi-yoma-054a-038",
@@ -124372,11 +124450,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 38,
         he: "אותו בנרתיקיהן כמו שכתוב בפרשה",
-        en: "Together they explain why the Holy of Holies was the most sacred space in the world.",
+        en: "it in its coverings, as is written in the portion,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l35"
+        ]
       },
       {
         id: "rashi-yoma-054a-039",
@@ -124384,11 +124464,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 39,
         he: "וכסו אותו במכסה עור תחש ולקחו",
-        en: "And why the HP's service there on Yom Kippur was the most significant religious act of the year.",
+        en: "'and they shall cover it with a covering of tachash hide, and take",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l35"
+        ]
       },
       {
         id: "rashi-yoma-054a-040",
@@ -124396,11 +124478,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 40,
         he: "בגד תכלת וכסו וגו' כבלע לשון",
-        en: "End of 54a Rashi; 54b continues with the goat blood sprinkling preparation.",
+        en: "a cloth of blue and cover' etc. 'As it is swallowed' is a term of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l35"
+        ]
       },
       {
         id: "rashi-yoma-054a-041",
@@ -124408,11 +124492,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 41,
         he: "כיסוי: בבית אביה. באירוסיה אף",
-        en: "54b will describe the HP receiving the goat blood to complete the inner blood service.",
+        en: "covering. 'In her father's house' - during her betrothal, even",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l36"
+        ]
       },
       {
         id: "rashi-yoma-054a-042",
@@ -124420,11 +124506,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 42,
         he: "ישראל במדבר עדיין לא היו גסין",
-        en: "The inner blood service (Holy of Holies) requires both the bull blood and the goat blood.",
+        en: "Israel in the wilderness were not yet overly familiar",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l36"
+        ]
       },
       {
         id: "rashi-yoma-054a-043",
@@ -124432,11 +124520,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 43,
         he: "בשכינה: נתגרשה קאמרת. האי",
-        en: "54b marks the completion of the blood service preparation.",
+        en: "with the Divine Presence. 'You mean when she was divorced' - this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l38"
+        ]
       },
       {
         id: "rashi-yoma-054a-044",
@@ -124444,11 +124534,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 44,
         he: "מעשה בבית שני הוה לאחר שנתגרשו",
-        en: "The transition from 54a to 54b moves from theological reflection back to procedural description.",
+        en: "incident took place in the Second Temple, after they had been divorced",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l38"
+        ]
       },
       {
         id: "rashi-yoma-054a-045",
@@ -124456,11 +124548,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 45,
         he: "וחזרו: לחיבתה ראשונה. לתחילת",
-        en: "This transition is typical of tractate Yoma: theological meditation followed by practical detail.",
+        en: "and had returned. 'To her first love' - to the beginning of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l38"
+        ]
       },
       {
         id: "rashi-yoma-054a-046",
@@ -124468,11 +124562,14 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 46,
         he: "חיבתן שאין גסין זה בזה: במאי",
-        en: "The overall structure of 53a-54b: inner service ends, outer service begins, theological reflection.",
+        en: "their love, when they were not overly familiar with one another. 'With what",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l38",
+          "yoma-054a-l40"
+        ]
       },
       {
         id: "rashi-yoma-054a-047",
@@ -124480,11 +124577,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 47,
         he: "עסקינן. האי מגללין להן הפרוכת",
-        en: "End of Rashi on 54a.",
+        en: "are we dealing' - this 'they would roll up the curtain for them",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l40"
+        ]
       },
       {
         id: "rashi-yoma-054a-048",
@@ -124492,11 +124591,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 48,
         he: "ומראין להן הכרובים: מי הוו",
-        en: "The next section (54b) is brief: the HP receives the goat blood from the stirrer.",
+        en: "and show them the cheruvim.' 'Were there",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l40"
+        ]
       },
       {
         id: "rashi-yoma-054a-049",
@@ -124504,11 +124605,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 49,
         he: "כרובים. דקס\"ד בכרובים שעשה",
-        en: "The goat blood will be sprinkled inside the Holy of Holies and before the parochet.",
+        en: "cheruvim' - since one might think this refers to the cheruvim that",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l40"
+        ]
       },
       {
         id: "rashi-yoma-054a-050",
@@ -124516,11 +124619,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 50,
         he: "שלמה אצל הארון מזה ומזה קאמר:",
-        en: "Together with the bull blood, this completes the full Yom Kippur atonement blood service.",
+        en: "Solomon made beside the Ark, on this side and that, is what is meant.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l40"
+        ]
       },
       {
         id: "rashi-yoma-054a-051",
@@ -124528,11 +124633,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 51,
         he: "דבבי. שכנגד הפתחים פתח אולם",
-        en: "The Mishna's final description of the blood service follows on 54b.",
+        en: "'Of the doorways' - which were opposite the entrances: the entrance of the Entrance Hall,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l40"
+        ]
       },
       {
         id: "rashi-yoma-054a-052",
@@ -124540,11 +124647,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 52,
         he: "והיכל ובית קדשי הקדשים: שלש",
-        en: "After that, the HP will perform the Viduy (confession) over the scapegoat.",
+        en: "the Sanctuary, and the Holy of Holies. 'Thirteen",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l42"
+        ]
       },
       {
         id: "rashi-yoma-054a-053",
@@ -124552,11 +124661,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 53,
         he: "עשרה פרוכות היו במקדש שני.",
-        en: "And then the remaining Yom Kippur services (menorah, incense, additional offerings).",
+        en: "curtains there were in the Second Temple' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l42"
+        ]
       },
       {
         id: "rashi-yoma-054a-054",
@@ -124564,11 +124675,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 54,
         he: "שבעה לשבעה שערי העזרה שתים",
-        en: "54a stands as one of the most theologically rich pages in tractate Yoma.",
+        en: "seven for the seven gates of the courtyard, two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l42"
+        ]
       },
       {
         id: "rashi-yoma-054a-055",
@@ -124576,11 +124689,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 55,
         he: "בדביר במקום אמה טרקסין",
-        en: "Its combination of Lamentations interpretation, cheruvim theology, and Ark traditions is unique.",
+        en: "at the innermost sanctuary in place of the amah-width screen wall,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l42"
+        ]
       },
       {
         id: "rashi-yoma-054a-056",
@@ -124588,11 +124703,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 56,
         he: "ושתים כנגדן לחוץ בין עליית",
-        en: "Rashi's commentary makes all three accessible and connects them to the overall Yom Kippur narrative.",
+        en: "and two corresponding to them on the outside, between the upper chamber of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l42"
+        ]
       },
       {
         id: "rashi-yoma-054a-057",
@@ -124600,11 +124717,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 57,
         he: "ההיכל לעליית בית קדשי הקדשים",
-        en: "End of 54a Rashi section.",
+        en: "the Sanctuary and the upper chamber of the Holy of Holies,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l42"
+        ]
       },
       {
         id: "rashi-yoma-054a-058",
@@ -124612,11 +124731,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 58,
         he: "וכי היכי דבמקדש שני היו פרוכות",
-        en: "The following material on 54b is the final stage of the blood service.",
+        en: "and just as in the Second Temple there were curtains",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l42"
+        ]
       },
       {
         id: "rashi-yoma-054a-059",
@@ -124624,11 +124745,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 59,
         he: "כנגד הפתחים הכי נמי במקדש",
-        en: "After 54b, the blood service is complete and the remaining Yom Kippur service begins.",
+        en: "opposite the doorways, so too in",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l42"
+        ]
       },
       {
         id: "rashi-yoma-054a-060",
@@ -124636,11 +124759,14 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 60,
         he: "ראשון: כרובים דצורתא.",
-        en: "The Gemara's coverage of 54a-54b represents the conclusion of the blood-service section of tractate Yoma.",
+        en: "the First Temple. 'Cheruvim of form' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l42",
+          "yoma-054a-l44"
+        ]
       },
       {
         id: "rashi-yoma-054a-061",
@@ -124648,11 +124774,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 61,
         he: "מצויירין בכותל במיני סממנים או חקוקין בקירות העץ מלפנים מכותלי האבנים: מסב קלע. צורות רשתות וקליעות:",
-        en: "These pages are among the most important in the entire tractate for understanding the Temple service.",
+        en: "painted on the wall with dyes, or carved into the wooden walls in front of the stone walls. 'Surrounded with carved-work' - designs of latticework and carvings.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l44"
+        ]
       },
       {
         id: "rashi-yoma-054a-062",
@@ -124660,11 +124788,13 @@ const DAF_CONTENT = {
         daf: "54a",
         vilnaLine: 62,
         he: "כאיש",
-        en: "End of Rashi on 54a.",
+        en: "'Like a man' - the comment is completed on 54b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-054a-l47"
+        ]
       }
     ],
     review: "reviewed"
