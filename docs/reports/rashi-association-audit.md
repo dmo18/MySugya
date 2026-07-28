@@ -1,10 +1,55 @@
 # Rashi linkedGemaraLineIds renderer and audit
 
-Status as of VERSION 15.157. This document distinguishes what is implemented
-and locally verified from what remains open. Nothing here should be read as
-a corpus-closure claim: production still renders Rashi via the legacy
-vilnaLine-coincidence path by default, and the referential-integrity audit
-currently fails on three known-bad daf (see below).
+## Current closure status (VERSION 15.337)
+
+Everything below "Background" is the historical record of the PR that
+introduced the linked renderer and its data auditor (VERSION 15.157) -
+**superseded** by subsequent work and preserved here as history, not
+current state. For the live numbers, re-run the commands shown; this
+section is a snapshot as of VERSION 15.337.
+
+- 8,854 `rashiTranslations` entries across all 173 daf; 10,047 declared
+  associations (7,648 single-link, 1,186 multi-link, 279 Mishnah, 447
+  suffixed-id, 0 sparse, 20 boundary); **0 broken, 0 cross-daf** -
+  `audit_rashi_association.py --exhaustive-corpus` is fully green (the
+  43a/43b/44b bug this report documents below, and the 43a/43b/44b/7a/9b
+  content debt referenced further down, are all resolved: 7a via PR #326,
+  9b via PR #327).
+- The boundary-authorization registry
+  (`modules/yoma/scripts/allowlists/rashi_boundary_authorizations.json`,
+  validated by `validate_rashi_boundary_authorizations.py`) now exists and
+  is fully populated: all 20 boundary entries (4b L61; 61a L46-64)
+  authorized, ratchet 20/20, 0 stale/duplicate/unauthorized.
+- The readiness gate's semantic-link check now consumes
+  `audit_rashi_semantic.py --profile --json`'s per-daf `classification`/
+  `recommendedTaskType` directly: 0 daf SHIFTED or FABRICATION-SUSPECT, 0
+  daf with a recommended task. 14 advisory-only findings remain on
+  otherwise-ALIGNED/INSUFFICIENT-ANCHORS daf and are never suppressed -
+  see the readiness gate's own output for the full list with exact
+  offsets, including the 2a and 4b findings this report's Limitations
+  section originally flagged as out of scope.
+- A sharded browser-association workflow
+  (`.github/workflows/rashi-browser-shards.yml`) now exists, splitting all
+  173 daf across 8 CI matrix jobs and combining their results into one
+  artifact stamped with commit SHA and CI provenance
+  (`scripts/combine-rashi-browser-shards.mjs`,
+  `scripts/check-rashi-browser-shard-artifact.mjs`). It rejects missing,
+  partial, stale/wrong-commit, local-only, or failed evidence outright -
+  it has not yet produced a real run, so this check currently and
+  correctly reports "no artifact found."
+- Renderer readiness: **7/8** (`npm run audit:rashi-renderer-readiness:yoma`).
+  Only the exhaustive browser-shard artifact remains outstanding. The
+  linked renderer is still not enabled in production; this status is not a
+  cutover decision or recommendation.
+
+---
+
+Status as of VERSION 15.157 (historical). This document distinguishes what
+is implemented and locally verified from what remains open. Nothing here
+should be read as a corpus-closure claim: production still renders Rashi
+via the legacy vilnaLine-coincidence path by default, and the
+referential-integrity audit currently fails on three known-bad daf (see
+below).
 
 ## Background
 
@@ -188,7 +233,9 @@ Checks the repository's real ratchet files - there is no separate
    reports "not automatically checked" and never claims a manual step that
    didn't happen.
 
-Current real output (`npm run audit:rashi-renderer-readiness:yoma`):
+Real output at the time this report was written (VERSION 15.157; superseded
+- see "Current closure status" at the top of this document for the VERSION
+15.336 numbers, currently 7/8):
 
 ```
 3/8 checks pass.

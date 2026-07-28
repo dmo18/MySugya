@@ -2,7 +2,7 @@
 
 Tractate Yoma: 173 daf (2a-88a), 8 chapters, 492 sugyot, 8,854 rashiLines (runtime) and 8,854 rashiTranslations (source enrichment layer).
 
-**Status: corpus SCOPE is frozen (173 daf, 492 sugyot; no new sugyot are added). Content within that scope is actively maintained: corrections land via explicit-approval PRs following `docs/worker-pipeline-sop.md`, never as ad hoc hand-edits. See `docs/tractate-build-process.md` and `docs/rashi-audit-backlog.md` for the live record of in-scope correction work (the Yoma Rashi scaffold-fabrication remediation campaign completed at VERSION 15.290; a Rashi content-quality audit is in progress, see `docs/rashi-audit-backlog.md`'s Scope note).**
+**Status: corpus SCOPE is frozen (173 daf, 492 sugyot; no new sugyot are added). Content within that scope is actively maintained: corrections land via explicit-approval PRs following `docs/worker-pipeline-sop.md`, never as ad hoc hand-edits. See `docs/tractate-build-process.md` and `docs/rashi-audit-backlog.md` for the live record of in-scope correction work (the Yoma Rashi scaffold-fabrication remediation campaign completed at VERSION 15.290; a Rashi content-quality audit is in progress, see `docs/rashi-audit-backlog.md`'s Scope note). The `linkedGemaraLineIds` association layer is complete and referentially exhaustive (0 broken, 0 cross-daf across all 8,854 entries); the linked-renderer readiness gate reports 7/8 as of VERSION 15.337 - see `docs/reports/rashi-association-audit.md`. The linked renderer is test/audit only (`?rashiAssoc=linked`); production still uses the legacy vilnaLine-coincidence renderer.**
 
 ---
 
@@ -28,6 +28,8 @@ npm run validate:daftext:yoma  # daftexts from talmud.dev
 npm run validate:rashi:yoma    # Rashi layer integrity
 npm run validate:literal:yoma  # en_lit coverage threshold
 npm run validate:schema:yoma   # display/learning schema completeness (manual; not in default npm test)
+npm run validate:rashi:boundary:yoma   # boundary (empty-link) authorization registry
+npm run audit:rashi-renderer-readiness:yoma   # linked-renderer readiness gate (reporting only)
 ```
 
 Or run directly from this directory:
@@ -78,4 +80,5 @@ Then re-run all validation gates and commit learning_data.js.
 - Sugyot: 492
 - rashiLines (runtime, in learning_data.js): 8,854
 - rashiTranslations (source enrichment layer): 8,854
+- linkedGemaraLineIds declared associations: 10,047 (7,648 single-link, 1,186 multi-link, 279 Mishnah, 447 suffixed-id, 0 sparse, 20 boundary/empty-link, all 20 authorized in `scripts/allowlists/rashi_boundary_authorizations.json`); 0 broken, 0 cross-daf
 - Platform VERSION: see repository root `VERSION` (data-layer versions such as `DATA_VERSION` in this module's `learning_data.js` are tracked independently; see CLAUDE.md's Version management section)

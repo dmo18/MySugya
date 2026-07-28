@@ -110,6 +110,13 @@ Not settable from repo code; configure at Settings > Branches > main:
 
 ## Readiness matrix (as of VERSION 15.80)
 
+Historical snapshot, not re-verified row by row since. Several items below
+(61a stubs, 7a/9b-adjacent work) have since completed - see
+`docs/rashi-audit-backlog.md` for current per-daf status and
+`docs/reports/rashi-association-audit.md` for the current Rashi
+linked-association/renderer-readiness state (7/8 as of VERSION 15.337)
+rather than trusting this table's specifics.
+
 | Work item | Task type | Model | Batch | Mechanical tier? | Notes |
 |---|---|---|---|---|---|
 | 61a stubs (L46-64) | rashi-repair | sonnet | 1 daf/PR | yes | mechanical; packet lists exact lines |
