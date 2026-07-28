@@ -21028,7 +21028,7 @@ const DAF_CONTENT = {
         daf: "9b",
         vilnaLine: 1,
         he: "span class=\"five\">ששהו את קיניהן. שהיו מביאות במלאות ימי לידתן ליטהר לאכול בקדשים והם היו בעלי גיאות והיו מתרשלין בהקרבתן והנשים",
-        en: "Rashi on 'they delayed the bird-offerings of their wives': Eli's sons would wait for women who came to purify themselves after childbirth (or zavah status) to bring their bird-offerings. The women would wait at the Tabernacle and the sons would deliberately delay processing the offerings, preventing the women from returning home.",
+        en: "'That they delayed their bird-offerings' - for the women would bring them at the completion of their days of childbirth, to be purified so as to eat consecrated food, and they were arrogant men and were lax in offering them, and the women",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -21042,12 +21042,13 @@ const DAF_CONTENT = {
         daf: "9b",
         vilnaLine: 2,
         he: "ממתינות שם עד שיקריבום ומשתהות מלחזור למקומן אצל בעליהן ומבטלין את הנשים מפריה ורביה: מהשתרע. דריש בנוטריקון",
-        en: "Rashi: 'the text treats it as if they had slept with them' - scripture's language 'and they lay with the women' is interpreted as: because the sons caused the women to remain at the Tabernacle, unable to return to their husbands, it is as if they had themselves cohabited with those women. Attribution by effect.",
+        en: "would wait there until they offered them, and so were delayed from returning to their place, to their husbands, and they thereby kept the women from procreation. 'Mehishtarea' - he expounds it as a notarikon,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l02"
+          "yoma-009b-l01",
+          "yoma-009b-l12"
         ]
       },
       {
@@ -21056,12 +21057,13 @@ const DAF_CONTENT = {
         daf: "9b",
         vilnaLine: 3,
         he: "מהשתרר ריע אחד: שני ריעים.  צלם שהעמיד מנשה בהיכל צרה לשון ריעות כשתי נשים לאיש אחד וכעסתה צרתה (שמואל א א)",
-        en: "Rashi on 'min hastarer rei'a echad' (from the word rera = bad companion): the 'narrow bed' in Isaiah means the Temple, which is too small for two rivals - God and the idol of Manasseh. 'Two bad companions' = God and the idol placed side by side in the same space.",
+        en: "'from ruling, one companion'. 'Two companions' - the image that Manasseh set up in the Sanctuary. 'Tzarah' is a term of rivalry, like two wives to one man, 'and her rival provoked her' (1 Samuel 1),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l02"
+          "yoma-009b-l12",
+          "yoma-009b-l13"
         ]
       },
       {
@@ -21070,12 +21072,13 @@ const DAF_CONTENT = {
         daf: "9b",
         vilnaLine: 4,
         he: "ואשה אל אחותה לא תקח לצרור (ויקרא יח) : ראשיה בשוחד ישפוטו. סיפיה דקרא ועל ה' ישענו לאמר הלא ה' בקרבנו וגו':",
-        en: "Rashi: 'rasheha b'shochad yishpotu' (its leaders judge for bribes) - this is the end of the verse in Micah that R. Yonatan quotes to show that the sinat chinam in the First Temple era was concentrated among the nesi'im (leaders), not the general population.",
+        en: "'and you shall not take a woman to her sister, to be a rival to her' (Leviticus 18). 'Its heads judge for a bribe' - the end of the verse is 'yet they lean upon the Lord, saying, is not the Lord in our midst' etc.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l02"
+          "yoma-009b-l13",
+          "yoma-009b-l27"
         ]
       },
       {
@@ -21084,12 +21087,12 @@ const DAF_CONTENT = {
         daf: "9b",
         vilnaLine: 5,
         he: "ועליהם. אמקדש ראשון קאי: ושלש",
-        en: "Rashi: 'aleihem' (upon them) - the verse refers to the First Temple; the three divine decrees (destruction of fields, Jerusalem, and Temple Mount) are directed at those who sinned. Confirms the First Temple context.",
+        en: "'And upon them' - it refers to the First Temple. 'And three'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l02"
+          "yoma-009b-l27"
         ]
       },
       {
@@ -21098,12 +21101,12 @@ const DAF_CONTENT = {
         daf: "9b",
         vilnaLine: 6,
         he: "גזירות. שדה עיין ובמות יער",
-        en: "Rashi: 'three decrees: field, ruins, forest heights' - three parts of the verse in Micah ('therefore Zion will be plowed as a field, Jerusalem will become ruins, the Temple Mount will become forest heights') correspond to the three cardinal sins.",
+        en: "'decrees' - 'a field', 'ruins', and 'high places of a forest'.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l02"
+          "yoma-009b-l27"
         ]
       },
       {
@@ -21112,12 +21115,12 @@ const DAF_CONTENT = {
         daf: "9b",
         vilnaLine: 7,
         he: "ועיין חורבא במטאטא השמד (ישעיה",
-        en: "Rashi: 'whose sin was revealed - their end was revealed' - since the First Temple generation's sins were open (prophets could identify and rebuke them), the termination of their exile was also revealed: 70 years in Babylon.",
+        en: "And 'iyin' means ruin, from 'with the broom of destruction' (Isaiah 14),",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l02"
+          "yoma-009b-l27"
         ]
       },
       {
@@ -21126,12 +21129,12 @@ const DAF_CONTENT = {
         daf: "9b",
         vilnaLine: 8,
         he: "יד) כמו ויעה ברד מחסה כזב (שם",
-        en: "Rashi: 'whose sins were not revealed - their end was not revealed' - the Second Temple generation's sinat chinam was hidden in their hearts. No prophet could point at specific individuals and say 'you hate your neighbor without cause.' Therefore no revealed endpoint for their exile.",
+        en: "like 'and hail shall sweep away the refuge of lies' (ibid. 28).",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l02"
+          "yoma-009b-l27"
         ]
       },
       {
@@ -21140,12 +21143,13 @@ const DAF_CONTENT = {
         daf: "9b",
         vilnaLine: 9,
         he: "כח) : שנתגלה עונם. לא היו מכסין",
-        en: "Rashi: 'for they put their trust in the Holy One, blessed be He' - the First Temple's wicked leaders (nesi'im) are quoted as saying 'Is not God in our midst? No evil will befall us.' This trust despite their sins is what makes the verse in Micah so biting.",
+        en: "'Whose sin was revealed' - they did not conceal",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l02"
+          "yoma-009b-l27",
+          "yoma-009b-l35"
         ]
       },
       {
@@ -21154,357 +21158,7 @@ const DAF_CONTENT = {
         daf: "9b",
         vilnaLine: 10,
         he: "פשעיהם: נתגלה קצם. לפי מלאות",
-        en: "Rashi on 'the First Temple had no sinat chinam?' - the Gemara challenges the distinction between First and Second Temple: wasn't sinat chinam present in the First Temple too? The verse about leaders who eat and drink together yet attack each other with their speech proves it existed.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l10"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-011",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 11,
-        he: "לבבל שבעים שנה אפקוד אתכם",
-        en: "Rashi: 'that was among the nesi'im of Israel' - the sinat chinam was limited to the princes/leaders (nesi'im). A verse is cited that applies specifically to nesi'im. Therefore the common people could be rebuked and the exile had an end.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l10"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-012",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 12,
-        he: "(ירמיה כט) : אחרונים לא נתגלה",
-        en: "Rashi on 'fingernails of the former are better than the belly of the latter': R. Yochanan's statement expressing the greatness of the earlier (First Temple) generations compared to the later ones. Even the least significant part of the earlier generation (fingernails = extremities) surpasses the core (belly) of the later ones.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l12"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-013",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 13,
-        he: "עונם. בני מקדש שני רשעים היו",
-        en: "Rashi: 'on the contrary - the latter are greater': Reish Lakish's counterargument to R. Yochanan. The later generations maintain Torah study despite the additional burden of foreign oppression and exile. This requires more effort and merit.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l13"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-014",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 14,
-        he: "בסתר: בירה תוכיח. בית המקדש:",
-        en: "Rashi: 'the Temple will prove it': R. Yochanan's response to Reish Lakish - the Temple returned to the earlier generations but not to the later ones. This proves the earlier generations had greater merit.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l13"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-015",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 15,
-        he: "עידיכם בירה. בנין הבית עד לכם",
-        en: "Rashi on 'ask R. Elazar: are the former or latter greater?': the question asked of R. Elazar about relative generational merit, parallel to the R. Yochanan/Reish Lakish dispute.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l15"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-016",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 16,
-        he: "בדבר שלא חזר לנו וחזר לראשונים:",
-        en: "Rashi: 'the Temple is your witness' - in some versions, R. Elazar agrees with R. Yochanan: the Temple's restoration to earlier generations and its absence from later ones testifies to the former's greater merit.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l15"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-017",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 17,
-        he: "סנינא לכו. לכל בני בבל שלא עלו",
-        en: "Rashi on 'Reish Lakish was swimming in the Jordan': a famous aggadic scene. Reish Lakish (R. Shimon ben Lakish) is in the Jordan River; Rabba bar bar Chana comes and extends his hand to help.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l15"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-018",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 18,
-        he: "בימי עזרא ומנעו שכינה מלבוא",
-        en: "Rashi: 'he said to him: by God I hate you Babylonians!' - Reish Lakish's outburst is not personal hatred of Rabba bar bar Chana but historical frustration with Babylonian Jews who did not return to Israel when they had the chance under Ezra.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l15"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-019",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 19,
-        he: "מלשוב לשרות בבית שני: נמשלתם",
-        en: "Rashi: 'if you were like a wall and had come up [to Israel]': quoting Song of Songs 8:9. 'If all of you in Babylonian exile had come up together to Israel in the time of Ezra' - the wall metaphor means unified, solid, all together.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l15"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-020",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 20,
-        he: "ככסף. שאינו נרקב כך לא הייתם",
-        en: "Rashi: 'you would be likened to silver that does not rot' - silver does not decay or corrode under normal conditions. If all Jews had returned with Ezra, the Shechina would have returned fully to the Second Temple, and the temple would have been imperishable like silver.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l15"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-021",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 21,
-        he: "חסרים שכינה: כדלתות. שער שיש",
-        en: "Rashi: 'since you came up like doors' - doors open and close; they are not solid like walls. Applied to the return: only some came, not all; the return was partial, incomplete.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l15"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-022",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 22,
-        he: "בו שני דלתות פותח אחד וחבירו",
-        en: "Rashi: 'you are likened to cedar doors' - cedar wood has a property: sasmagor (a boring rot/worm) hollows it out from within. The Second Temple's divine presence was like cedar: outwardly present but inwardly diminished.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l22"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-023",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 23,
-        he: "סוגר כך עליתם לחצאין: שהרקב",
-        en: "Rashi: 'where the rot controls it' - sasmagor controls parts of the cedar tree, eating it hollow from the interior. Applied to the Second Temple: the Shechina was present but not fully - part of its spiritual power was 'eaten away' by the absence of the Jews who stayed in Babylon.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l22"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-024",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 24,
-        he: "שולט בו. מקצתו תולעת אוכלתו",
-        en: "Rashi on 'what is cedar? Ulla said: sasmagor' - Ulla identifies sasmagor as the name of the rot or boring creature that infests cedar wood. R. Abba's explanation follows.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l24"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-025",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 25,
-        he: "מתוכו ומקצתו קיים כך קצת חזון",
-        en: "Rashi: 'it grinds and erodes it from within' - sasmagor specifically attacks the interior of the cedar tree, creating hollow tunnels while the outside appears intact. The metaphor: the Second Temple looked whole but had a diminished spiritual interior.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l24"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-026",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 26,
-        he: "שכינה היה שם וכלו לא היה: מאי",
-        en: "Rashi: 'why is it called sasmagor? To say: what is the meaning of the cedar comparison?' - R. Abba is asking about the application of the sasmagor metaphor: why were the Jews of the Second Temple era compared to cedar-with-rot rather than to a healthier material?",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l24"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-027",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 27,
-        he: "ארז. מאי נמשלתם לארז דקאמר: אמר",
-        en: "Rashi on 'R. Abba said: bat kol': after the last three prophets died, prophecy ceased. The bat kol is what remained - a lesser form of divine guidance. The connection to the cedar discussion: even the bat kol is a 'partial' presence, like cedar-with-rot compared to full prophecy.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l27"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-028",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 28,
-        he: "עולא ססמגור.  מכתתו ומגררו",
-        en: "Rashi: 'a remnant remained for them as what remains of cedar' - just as rotted cedar still has some intact wood remaining, so too Israel still had some connection to divine guidance through the bat kol, even after full prophecy ended.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l27"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-029",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 29,
-        he: "מבפנים ססמגור שם תולעת: מאי",
-        en: "Rashi: 'what is sasmagor? Why were they likened to cedar in the second Temple context?' - the question is what specifically the cedar metaphor teaches about the spiritual state of the Second Temple period. The bat kol answer: partial divine communication, not none.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l27"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-030",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 30,
-        he: "ססמגור. כלומר למה נמשלו בבית",
-        en: "Rashi: 'would Reish Lakish speak with Rabba bar bar Chana?' - the Gemara questions: would Reish Lakish, who was a great sage of the Land of Israel, really speak with Rabba bar bar Chana, a Babylonian sage? Reish Lakish was known to avoid associating with those he considered beneath his standards.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l27"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-031",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 31,
-        he: "שני לססמגור לענין שריית שכינה:",
-        en: "Rashi: 'he was the master of the land of Israel and would not speak with one who spoke with Reish Lakish' - Reish Lakish was a dominant figure in the Land of Israel and was notoriously selective about his interlocutors.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l27"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-032",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 32,
-        he: "א\"ר אבא בת קול. נשתייר להו",
-        en: "Rashi on 'Rav Pappa said: cast a man between them': Rav Pappa resolves the doubt by suggesting an intermediate person. The scene may have involved a chain: either (A) Reish Lakish swimming, Zeira extending hand; or (B) Rabba bar bar Chana swimming, R. Elazar extending hand.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l32"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-033",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 33,
-        he: "כאשר נשאר מן הארז מקצת מועט:",
-        en: "Rashi: 'or Reish Lakish and Zeira' - one possibility: it was Reish Lakish in the water, and Zeira (a Babylonian immigrant to Israel) who extended his hand. Reish Lakish would speak with Zeira since Zeira made aliyah.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l32"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-034",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 34,
-        he: "שדי גברא בינייהו. או הרוחץ",
-        en: "Rashi: 'who removes [from a business] without witnesses' - Reish Lakish was careful not to do business with Rabba bar bar Chana without witnesses, implying he would speak to him in formal settings but not trust him in business.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-009b-l34"
-        ]
-      },
-      {
-        id: "rashi-yoma-009b-035",
-        sourceType: "rashi",
-        daf: "9b",
-        vilnaLine: 35,
-        he: "תחליף או הפושט היד אי ר\"ש בן",
-        en: "Rashi: 'with Rabba bar bar Chana he would speak' - in this version, it was Rabba bar bar Chana who spoke with Reish Lakish in certain contexts, and the one in the Jordan was R. Elazar.",
+        en: "their transgressions. 'Their end was revealed' - 'when seventy years are completed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -21513,54 +21167,69 @@ const DAF_CONTENT = {
         ]
       },
       {
-        id: "rashi-yoma-009b-036",
+        id: "rashi-yoma-009b-011",
         sourceType: "rashi",
         daf: "9b",
-        vilnaLine: 36,
-        he: "לקיש הוה הרוחץ זעירי פשט לו היד",
-        en: "Rashi on 'when he came before R. Yochanan he said to him' - Reish Lakish came before his teacher R. Yochanan and reported what he had said to the Babylonian sage in the Jordan.",
+        vilnaLine: 11,
+        he: "לבבל שבעים שנה אפקוד אתכם",
+        en: "for Babylon I will remember you'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l36"
+          "yoma-009b-l35"
         ]
       },
       {
-        id: "rashi-yoma-009b-037",
+        id: "rashi-yoma-009b-012",
         sourceType: "rashi",
         daf: "9b",
-        vilnaLine: 37,
-        he: "או רבה בר בר חנה פשט לו היד",
-        en: "Rashi: 'R. Yochanan said: is that not the case I said to him' - R. Yochanan confirms that the rebuke Reish Lakish gave ('I despise you Babylonians') was the same thing R. Yochanan himself had said to the Babylonian. This validates Reish Lakish's statement.",
+        vilnaLine: 12,
+        he: "(ירמיה כט) : אחרונים לא נתגלה",
+        en: "(Jeremiah 29). 'The latter, whose sin was not revealed'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-009b-l36"
+          "yoma-009b-l35"
         ]
       },
       {
-        id: "rashi-yoma-009b-038",
+        id: "rashi-yoma-009b-013",
         sourceType: "rashi",
         daf: "9b",
-        vilnaLine: 38,
-        he: "ור\"א היה הרוחץ: כי אתא. ר\"ש",
-        en: "Rashi: 'not all of them ascended in the days of Ezra' - confirming the historical fact: when Ezra called all Babylonian Jews to return to Israel and rebuild the Temple, only a portion responded. The majority remained in Babylon.",
+        vilnaLine: 13,
+        he: "עונם. בני מקדש שני רשעים היו",
+        en: "- the people of the Second Temple were wicked",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-009b-l35"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-014",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 14,
+        he: "בסתר: בירה תוכיח. בית המקדש:",
+        en: "in secret. 'The Temple will prove it' - the Temple building.",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l35",
           "yoma-009b-l36"
         ]
       },
       {
-        id: "rashi-yoma-009b-039",
+        id: "rashi-yoma-009b-015",
         sourceType: "rashi",
         daf: "9b",
-        vilnaLine: 39,
-        he: "בן לקיש לקמיה דרבי יוחנן וסיפר",
-        en: "Rashi: 'the Shechina [divine presence] did not dwell in the Second Temple' - the consequence of the partial return. The full restoration of the Shechina that characterized the First Temple was not present in the Second Temple.",
+        vilnaLine: 15,
+        he: "עידיכם בירה. בנין הבית עד לכם",
+        en: "'Set your eyes on the Temple' - the building of the Temple is a witness for you",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -21569,12 +21238,26 @@ const DAF_CONTENT = {
         ]
       },
       {
-        id: "rashi-yoma-009b-040",
+        id: "rashi-yoma-009b-016",
         sourceType: "rashi",
         daf: "9b",
-        vilnaLine: 40,
-        he: "לו כך אמרתי לו לפלוני:",
-        en: "Rashi on the verse 'yaft Elokim l'Yafet v'yishkon b'ohalei Shem': this verse from Noah's blessing (Genesis 9:27) is interpreted: 'May God make beautiful for Yafet, and may He dwell in the tents of Shem.' Applied: the Shechina would dwell in the Temple (Shem's descendants) but the Greeks' beauty (Yafet's descendants) would spread. In the Second Temple context: the Greek culture spread but the Shechina's full dwelling did not return.",
+        vilnaLine: 16,
+        he: "בדבר שלא חזר לנו וחזר לראשונים:",
+        en: "in a matter that did not return to us but did return to the former ones.",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l39"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-017",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 17,
+        he: "סנינא לכו. לכל בני בבל שלא עלו",
+        en: "'I hate you' - all the people of Babylon who did not go up",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -21583,17 +21266,340 @@ const DAF_CONTENT = {
         ]
       },
       {
-        id: "rashi-yoma-009b-041",
+        id: "rashi-yoma-009b-018",
         sourceType: "rashi",
         daf: "9b",
-        vilnaLine: 41,
-        he: "אעפ\"י",
-        en: "Rashi: 'aph' (also) at the end of 9b connects to the continuation on 10a. The Shechina's dwelling was conditional on all Israel being present in the Land.",
+        vilnaLine: 18,
+        he: "בימי עזרא ומנעו שכינה מלבוא",
+        en: "in the days of Ezra, and who thereby prevented the Divine Presence from coming",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
           "yoma-009b-l40"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-019",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 19,
+        he: "מלשוב לשרות בבית שני: נמשלתם",
+        en: "to rest again in the Second Temple. 'You would have been likened'",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l40"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-020",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 20,
+        he: "ככסף. שאינו נרקב כך לא הייתם",
+        en: "'to silver' - which does not rot; so too you would not have been",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l40"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-021",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 21,
+        he: "חסרים שכינה: כדלתות. שער שיש",
+        en: "lacking the Divine Presence. 'Like doors' - a gate that has",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l40"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-022",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 22,
+        he: "בו שני דלתות פותח אחד וחבירו",
+        en: "two doors in it: one opens and its fellow",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l40"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-023",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 23,
+        he: "סוגר כך עליתם לחצאין: שהרקב",
+        en: "closes; so too you went up only in halves. 'That the rot'",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l40"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-024",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 24,
+        he: "שולט בו. מקצתו תולעת אוכלתו",
+        en: "'controls it' - part of it a worm eats",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l40"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-025",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 25,
+        he: "מתוכו ומקצתו קיים כך קצת חזון",
+        en: "from within, and part of it remains; so too part of the vision of",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l40"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-026",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 26,
+        he: "שכינה היה שם וכלו לא היה: מאי",
+        en: "the Divine Presence was there, but not all of it. 'What is'",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l40",
+          "yoma-009b-l43"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-027",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 27,
+        he: "ארז. מאי נמשלתם לארז דקאמר: אמר",
+        en: "'cedar' - what is this 'you were likened to a cedar' that he said? 'Ulla said:'",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l43"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-028",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 28,
+        he: "עולא ססמגור.  מכתתו ומגררו",
+        en: "'sasmagor' - it crushes it and scrapes it",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l43"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-029",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 29,
+        he: "מבפנים ססמגור שם תולעת: מאי",
+        en: "from within; sasmagor is the name of a worm. 'What is'",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l43"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-030",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 30,
+        he: "ססמגור. כלומר למה נמשלו בבית",
+        en: "'sasmagor' - that is to say, why were they in the Second",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l43"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-031",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 31,
+        he: "שני לססמגור לענין שריית שכינה:",
+        en: "Temple likened to sasmagor with regard to the resting of the Divine Presence?",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l43"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-032",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 32,
+        he: "א\"ר אבא בת קול. נשתייר להו",
+        en: "'Rabbi Abba said: a bat kol' - there remained for them",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l43"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-033",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 33,
+        he: "כאשר נשאר מן הארז מקצת מועט:",
+        en: "just as there remains of the cedar a small part.",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l43"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-034",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 34,
+        he: "שדי גברא בינייהו. או הרוחץ",
+        en: "'Cast a man between them' - either the one bathing",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l47"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-035",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 35,
+        he: "תחליף או הפושט היד אי ר\"ש בן",
+        en: "changes, or the one who extended the hand: if it was Rabbi Shimon ben",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l47"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-036",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 36,
+        he: "לקיש הוה הרוחץ זעירי פשט לו היד",
+        en: "Lakish who was bathing, Ze'iri extended him the hand;",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l47"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-037",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 37,
+        he: "או רבה בר בר חנה פשט לו היד",
+        en: "or Rabba bar bar Chana extended him the hand",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l47"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-038",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 38,
+        he: "ור\"א היה הרוחץ: כי אתא. ר\"ש",
+        en: "and Rabbi Elazar was the one bathing. 'When he came' - Rabbi Shimon",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l47"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-039",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 39,
+        he: "בן לקיש לקמיה דרבי יוחנן וסיפר",
+        en: "ben Lakish came before Rabbi Yochanan and recounted",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l47"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-040",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 40,
+        he: "לו כך אמרתי לו לפלוני:",
+        en: "to him: thus did I say to so-and-so.",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l47"
+        ]
+      },
+      {
+        id: "rashi-yoma-009b-041",
+        sourceType: "rashi",
+        daf: "9b",
+        vilnaLine: 41,
+        he: "אעפ\"י",
+        en: "'Even though' - the comment is completed on 10a.",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-009b-l50"
         ]
       }
     ],
