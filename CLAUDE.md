@@ -245,6 +245,25 @@ Use `--skip-existing` to resume a partial run.
 
 ---
 
+## Rashi linked-renderer readiness
+
+The `linkedGemaraLineIds` field on every `rashiLines`/`rashiTranslations`
+entry declares which Gemara/Mishnah line(s) a Rashi comment belongs to.
+Production still renders Rashi via the legacy `vilnaLine`-coincidence path;
+a separate, test/audit-only linked renderer (`?rashiAssoc=linked`) reads
+`linkedGemaraLineIds` directly. `npm run audit:rashi-renderer-readiness:yoma`
+reports real, mechanically-checked cutover readiness across 8 conditions
+(ratchets, referential integrity, the boundary-authorization registry at
+`modules/yoma/scripts/allowlists/rashi_boundary_authorizations.json`,
+semantic-drift classification, and a sharded 173-daf browser-association
+CI artifact). It never hardcodes a pass. Current status and full detail:
+`docs/reports/rashi-association-audit.md` and `docs/rashi-audit-backlog.md`.
+
+Do not enable the linked renderer as the production default without an
+explicit operator decision, even if the readiness gate reaches 8/8.
+
+---
+
 ## Do not do these things
 
 - Do not modify any file under `modules/yoma/` without explicit approval.

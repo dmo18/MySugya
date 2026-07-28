@@ -221,10 +221,18 @@ revisited (9b/yoma-009b-s03 was never actually broken; see Phase 3).
 ## What is not yet done
 
 - **Rashi content-quality and nekudot audit**: structural integrity
-  (`validate:rashi:yoma`) has passed throughout, but no dedicated pass has
-  checked Rashi translation quality or Hebrew vowelization correctness.
-  See `docs/rashi-audit-backlog.md` for scope and status; this work has
-  not started.
+  (`validate:rashi:yoma`) has passed throughout. Content-quality and
+  linked-association work (this section's original claim that it "has not
+  started" is stale, superseded as of VERSION 15.337): the
+  `linkedGemaraLineIds` association layer now covers all 8,854 Rashi
+  entries with 0 broken/cross-daf associations, a boundary-authorization
+  registry, and a refined semantic-drift readiness check reaching 7/8 on
+  the linked-renderer readiness gate - see `docs/rashi-audit-backlog.md`'s
+  "Linked-renderer closure status" section and
+  `docs/reports/rashi-association-audit.md` for full detail. The
+  **nekudot/vowelization correctness audit of the `he:` fields remains
+  separate and has not started** - it is a distinct pass from the
+  association/readiness work above and is explicitly out of scope for it.
 - `modules/yoma/MODULE.md` still states "FROZEN at v10.75" and "Do not
   modify any learning content" - both are now stale relative to the
   actual corpus state (VERSION 14.66, substantial approved content work

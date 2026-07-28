@@ -183,6 +183,7 @@ npm run validate:rashi:yoma
 npm run audit:order:yoma
 npm run validate:literal:yoma
 npm run validate:schema:yoma
+npm run validate:rashi:boundary:yoma
 ```
 
 Or run from the module directory:
