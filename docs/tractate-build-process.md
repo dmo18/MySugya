@@ -486,7 +486,7 @@ No `gh` CLI and no direct GitHub API access are available in this
 environment outside the MCP server tools - do not attempt to shell out to
 `gh` or raw `curl` against the GitHub API for repo operations.
 
-### 12a. "Unverified commit" stop-hook warning on a reset working branch
+### 12a. "Unverified commit" stop-hook warning on a reset working branch (fixed)
 
 Worker campaigns that run one PR per daf on a single long-lived working
 branch (per `docs/worker-pipeline-sop.md`) reset that branch to
@@ -496,26 +496,37 @@ branch tip onto whatever commit is currently the head of `main`.
 
 When the just-merged PR was squash-merged through the GitHub API, that
 head commit was authored by GitHub itself: `Committer: GitHub
-<noreply@github.com>`, not the local git identity. A local repo hook
-that scans the branch tip for commits missing the expected
-`noreply@anthropic.com` committer email will flag this commit as
-"Unverified" and suggest rebasing/amending it and force-pushing the
-result.
+<noreply@github.com>`, not the local git identity. The session-level
+Stop hook (`scripts/claude-hooks/stop-hook-git-check.sh`, not a git-native
+hook and not part of this repository's own `githooks/pre-commit`) used to
+scan the branch tip for commits missing the expected
+`noreply@anthropic.com` committer email and flag this commit as
+"Unverified", suggesting a rebase/amend and force-push. Because the
+branch's own `origin/<branch>` remote-tracking ref stays stale at the last
+actually-pushed session commit until a fetch of that specific ref, the
+same root cause could also make the hook miscount the merge commit as an
+"unpushed commit" awaiting a push, once the Unverified check no longer
+fired first.
 
-**Do not do this.** The flagged commit is not something the current
-session authored locally - it is already permanent history on `main`,
-created by GitHub's own merge machinery, and rewriting it requires a
+**This is now fixed at the hook level, not just documented as a
+workaround.** Both `filter_unverifiable_commits` and
+`count_unpushed_commits` in `scripts/claude-hooks/stop-hook-git-check.sh`
+exclude any commit whose committer is `GitHub <noreply@github.com>`: it
+is a squash/rebase/merge artifact created by GitHub's own machinery, not
+a commit the current session authored, and rewriting it would require a
 force-push to `main` (a destructive, shared-history operation) to fix
 what is at most a cosmetic verification badge on a commit nobody is
-claiming authorship of. Before acting on such a warning, check the
-flagged commit's actual author/committer (`git log -1 --format="%an
-<%ae>%n%cn <%ce>"`); if the committer is `GitHub <noreply@github.com>`,
-it is a squash-merge artifact, not a locally-authored commit needing an
-identity fix, and the correct response is to leave it alone and explain
-why, not to rewrite `main`. Verify separately that the session's own
-authored commits (the ones actually pushed via `git commit` this
-session) carry the correct identity - that check is unaffected by this
-warning.
+claiming authorship of. Every other commit in range - missing signature,
+or a committer email that is neither `noreply@anthropic.com` nor
+GitHub's own - is still checked exactly as before, and a genuinely
+unpushed or misattributed session commit sitting in the same range is
+still flagged. Regression coverage lives in
+`scripts/test_stop_hook_git_check.py`. If this warning reappears despite
+the fix, check the flagged commit's actual committer (`git log -1
+--format="%cn <%ce>"`) before acting on the suggested rebase - it may
+indicate the live copy of the hook (outside this repository, at
+`~/.claude/stop-hook-git-check.sh`) has not been synced from the
+repo-tracked version.
 
 ---
 
