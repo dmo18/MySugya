@@ -486,6 +486,37 @@ No `gh` CLI and no direct GitHub API access are available in this
 environment outside the MCP server tools - do not attempt to shell out to
 `gh` or raw `curl` against the GitHub API for repo operations.
 
+### 12a. "Unverified commit" stop-hook warning on a reset working branch
+
+Worker campaigns that run one PR per daf on a single long-lived working
+branch (per `docs/worker-pipeline-sop.md`) reset that branch to
+`origin/main` after every merge (`git reset --soft origin/main`) so the
+next daf's commit starts from a clean base. This intentionally moves the
+branch tip onto whatever commit is currently the head of `main`.
+
+When the just-merged PR was squash-merged through the GitHub API, that
+head commit was authored by GitHub itself: `Committer: GitHub
+<noreply@github.com>`, not the local git identity. A local repo hook
+that scans the branch tip for commits missing the expected
+`noreply@anthropic.com` committer email will flag this commit as
+"Unverified" and suggest rebasing/amending it and force-pushing the
+result.
+
+**Do not do this.** The flagged commit is not something the current
+session authored locally - it is already permanent history on `main`,
+created by GitHub's own merge machinery, and rewriting it requires a
+force-push to `main` (a destructive, shared-history operation) to fix
+what is at most a cosmetic verification badge on a commit nobody is
+claiming authorship of. Before acting on such a warning, check the
+flagged commit's actual author/committer (`git log -1 --format="%an
+<%ae>%n%cn <%ce>"`); if the committer is `GitHub <noreply@github.com>`,
+it is a squash-merge artifact, not a locally-authored commit needing an
+identity fix, and the correct response is to leave it alone and explain
+why, not to rewrite `main`. Verify separately that the session's own
+authored commits (the ones actually pushed via `git commit` this
+session) carry the correct identity - that check is unaffected by this
+warning.
+
 ---
 
 ## 13. Stale container/local reset recovery
