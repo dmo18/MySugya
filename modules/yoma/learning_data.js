@@ -127731,11 +127731,13 @@ const DAF_CONTENT = {
         daf: "56a",
         vilnaLine: 1,
         he: "ומיחל. מעשר שני על המעות דמה",
-        en: "He redeems ma'aser sheni onto coins - he makes the best of a problematic situation.",
+        en: "'And he redeems' - he redeems the second tithe onto coins, for whatever",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056a-l01"
+        ]
       },
       {
         id: "rashi-yoma-056a-002",
@@ -127743,11 +127745,13 @@ const DAF_CONTENT = {
         daf: "56a",
         vilnaLine: 2,
         he: "שיש בידו לתקן יתקן ושותה מן",
-        en: "Relying on breira - retroactive clarification that this portion was the terumah from the start.",
+        en: "he has the ability to fix, he fixes; and he drinks from",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056a-l01"
+        ]
       },
       {
         id: "rashi-yoma-056a-003",
@@ -127755,11 +127759,13 @@ const DAF_CONTENT = {
         daf: "56a",
         vilnaLine: 3,
         he: "התערובת וכשיהיו לו כלים יפריש",
-        en: "And what he drinks now was actually the non-sacred portion.",
+        en: "the mixture. And when he has proper vessels, he will separate",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056a-l01"
+        ]
       },
       {
         id: "rashi-yoma-056a-004",
@@ -127767,11 +127773,13 @@ const DAF_CONTENT = {
         daf: "56a",
         vilnaLine: 4,
         he: "בם התרומה ומעשר דסמכין",
-        en: "When the vessel bursts - we are not concerned it will burst.",
+        en: "from them the teruma and the tithe, since they rely",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056a-l01"
+        ]
       },
       {
         id: "rashi-yoma-056a-005",
@@ -127779,11 +127787,13 @@ const DAF_CONTENT = {
         daf: "56a",
         vilnaLine: 5,
         he: "אברירה ולומר זה היה התרומה והוא שתה חולין:",
-        en: "Since it is possible to hand it to a guardian until the proper vessels arrive.",
+        en: "on retroactive designation, and say: this was the teruma, and what he drank was non-sacred.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056a-l01"
+        ]
       },
       {
         id: "rashi-yoma-056a-006",
@@ -127791,11 +127801,13 @@ const DAF_CONTENT = {
         daf: "56a",
         vilnaLine: 6,
         he: "לכשיבקע",
-        en: "When it actually bursts - then we address the problem.",
+        en: "'When it bursts' - the comment is completed on 56b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
-        linkedGemaraLineIds: []
+        linkedGemaraLineIds: [
+          "yoma-056a-l01"
+        ]
       }
     ],
     review: "reviewed"

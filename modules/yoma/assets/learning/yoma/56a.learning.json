@@ -1,142 +1,154 @@
 {
-  "canonicalRef": "Yoma 56a",
-  "summary": "A transitional page. The Mishnah records the HP's exit from the Holy of Holies, completing the innermost phase of the Yom Kippur blood service (two entries - bull and goat blood). The Gemara digresses on tangential matters (breira, eruv, ma'aser sheni) before returning to the main service sequence. The HP's exit marks the shift from the inner kapporet service to the outer parochet and golden altar services.",
-  "sugyot": [
+ "canonicalRef": "Yoma 56a",
+ "summary": "A transitional page. The Mishnah records the HP's exit from the Holy of Holies, completing the innermost phase of the Yom Kippur blood service (two entries - bull and goat blood). The Gemara digresses on tangential matters (breira, eruv, ma'aser sheni) before returning to the main service sequence. The HP's exit marks the shift from the inner kapporet service to the outer parochet and golden altar services.",
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-056a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 1
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-056a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 1
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.56a.1"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.56a.1"
-      ],
-      "display": {
-        "whats": "Mishnah: HP exits the Holy of Holies completing the inner blood service",
-        "hint": "The Mishnah briefly records the HP's exit from the Holy of Holies after the goat's blood service, marking the conclusion of the innermost Yom Kippur service and the beginning of the outer phase.",
-        "title": "High Priest Exits the Holy of Holies - Transition to Outer Services"
-      },
-      "learning": {
-        "ahaMoment": "The HP exits the most sacred space having completed atonement's innermost act - now the purification radiates outward through the remaining Temple zones.",
-        "memoryAnchor": "Exiting the Holy of Holies: inner atonement complete, outer atonement begins.",
-        "learnerQuestion": "What does the Mishnah emphasize when describing the HP's exit from the Holy of Holies, and what marks the transition to the next stage of the Yom Kippur service?",
-        "coreTension": "The exit is a transition point: the inner services are complete and the outer services begin. The Mishnah's language of 'exit' signals more than a physical movement - it marks the boundary between the innermost and the outer ritual domains.",
-        "coreMove": "The Mishnah records the HP's exit as a formal transition marker: upon exiting, the inner service is entirely complete, and the HP moves to the outer blood services (parochet and golden altar), with the blood bowls now carried to their next destination.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "The HP's exit from the Holy of Holies is a formal transition point in the Yom Kippur service, marking the complete end of the inner service and the beginning of the outer (parochet and golden altar) services."
-        },
-        "learningBlocker": "Students may picture the exit as just a physical step and miss that it is a legal threshold: once the HP exits with the completed inner service, the ritual domain shifts and the next phase is formally underway."
-      },
-      "argumentFlow": [
-        {
-          "type": "statement",
-          "speaker": "Mishnah",
-          "text": "The HP exits the Holy of Holies after completing the goat's blood sprinkling.",
-          "id": "yoma-056a-l01",
-          "label": "Statement: The HP exits the Holy of Holies",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-056a-l01",
-              "vilnaLine": 1
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "exit from Holy of Holies",
-        "completion of inner service",
-        "transition"
-      ],
-      "concepts": {
-        "halachic": [
-          "end of inner blood service",
-          "HP's exit from the most sacred space"
-        ],
-        "theological": [
-          "emergence from the sacred center",
-          "the HP as bearer of completed inner atonement"
-        ],
-        "narrative": [
-          "Yom Kippur service sequence",
-          "transition between service phases"
-        ]
-      },
-      "conceptRefs": [],
-      "requiresUnderstanding": [
-        "Knowing the HP entered for bull blood and re-entered for goat blood",
-        "Knowing the parochet service comes next"
-      ],
-      "misconceptions": [
-        {
-          "misconception": "When the HP exits the Holy of Holies, he carries the blood bowls to immediately dispose of them - the blood's role in the service is over.",
-          "correction": "Upon exiting, the HP proceeds to the parochet and golden altar blood services; the blood bowls are carried for continued use in the outer services, not for disposal."
-        }
-      ],
-      "relatedSugyot": [],
-      "visualizableElements": [
-        {
-          "type": "person",
-          "name": "HP emerging from the Holy of Holies"
-        },
-        {
-          "type": "place",
-          "name": "doorway between Holy of Holies and Heichal"
-        }
-      ],
-      "quizSeeds": [
-        {
-          "answer": "The HP exits the Holy of Holies after completing the goat's blood sprinkling - two entries (bull and goat) are now complete and the outer services begin.",
-          "question": "What signals the end of the innermost Yom Kippur service?"
-        }
-      ],
-      "finalRuling": "The HP exits the Holy of Holies after the goat's blood sprinkling, completing the innermost phase and transitioning to the parochet and golden altar services.",
-      "difficulty": "introductory",
-      "alternateAngles": [],
-      "glossary": [],
-      "review": "reviewed"
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.56a.1"
     }
-  ],
-  "glossary": [],
-  "rashiTranslations": [
-    {
-      "vilnaLine": 1,
-      "en": "He redeems ma'aser sheni onto coins - he makes the best of a problematic situation.",
-      "linkedGemaraLineIds": []
+   ],
+   "sefariaRefs": [
+    "Yoma.56a.1"
+   ],
+   "display": {
+    "whats": "Mishnah: HP exits the Holy of Holies completing the inner blood service",
+    "hint": "The Mishnah briefly records the HP's exit from the Holy of Holies after the goat's blood service, marking the conclusion of the innermost Yom Kippur service and the beginning of the outer phase.",
+    "title": "High Priest Exits the Holy of Holies - Transition to Outer Services"
+   },
+   "learning": {
+    "ahaMoment": "The HP exits the most sacred space having completed atonement's innermost act - now the purification radiates outward through the remaining Temple zones.",
+    "memoryAnchor": "Exiting the Holy of Holies: inner atonement complete, outer atonement begins.",
+    "learnerQuestion": "What does the Mishnah emphasize when describing the HP's exit from the Holy of Holies, and what marks the transition to the next stage of the Yom Kippur service?",
+    "coreTension": "The exit is a transition point: the inner services are complete and the outer services begin. The Mishnah's language of 'exit' signals more than a physical movement - it marks the boundary between the innermost and the outer ritual domains.",
+    "coreMove": "The Mishnah records the HP's exit as a formal transition marker: upon exiting, the inner service is entirely complete, and the HP moves to the outer blood services (parochet and golden altar), with the blood bowls now carried to their next destination.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "The HP's exit from the Holy of Holies is a formal transition point in the Yom Kippur service, marking the complete end of the inner service and the beginning of the outer (parochet and golden altar) services."
     },
+    "learningBlocker": "Students may picture the exit as just a physical step and miss that it is a legal threshold: once the HP exits with the completed inner service, the ritual domain shifts and the next phase is formally underway."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 2,
-      "en": "Relying on breira - retroactive clarification that this portion was the terumah from the start.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 3,
-      "en": "And what he drinks now was actually the non-sacred portion.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 4,
-      "en": "When the vessel bursts - we are not concerned it will burst.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 5,
-      "en": "Since it is possible to hand it to a guardian until the proper vessels arrive.",
-      "linkedGemaraLineIds": []
-    },
-    {
-      "vilnaLine": 6,
-      "en": "When it actually bursts - then we address the problem.",
-      "linkedGemaraLineIds": []
+     "type": "statement",
+     "speaker": "Mishnah",
+     "text": "The HP exits the Holy of Holies after completing the goat's blood sprinkling.",
+     "id": "yoma-056a-l01",
+     "label": "Statement: The HP exits the Holy of Holies",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-056a-l01",
+       "vilnaLine": 1
+      }
+     ]
     }
-  ],
-  "review": "reviewed"
+   ],
+   "topicTags": [
+    "exit from Holy of Holies",
+    "completion of inner service",
+    "transition"
+   ],
+   "concepts": {
+    "halachic": [
+     "end of inner blood service",
+     "HP's exit from the most sacred space"
+    ],
+    "theological": [
+     "emergence from the sacred center",
+     "the HP as bearer of completed inner atonement"
+    ],
+    "narrative": [
+     "Yom Kippur service sequence",
+     "transition between service phases"
+    ]
+   },
+   "conceptRefs": [],
+   "requiresUnderstanding": [
+    "Knowing the HP entered for bull blood and re-entered for goat blood",
+    "Knowing the parochet service comes next"
+   ],
+   "misconceptions": [
+    {
+     "misconception": "When the HP exits the Holy of Holies, he carries the blood bowls to immediately dispose of them - the blood's role in the service is over.",
+     "correction": "Upon exiting, the HP proceeds to the parochet and golden altar blood services; the blood bowls are carried for continued use in the outer services, not for disposal."
+    }
+   ],
+   "relatedSugyot": [],
+   "visualizableElements": [
+    {
+     "type": "person",
+     "name": "HP emerging from the Holy of Holies"
+    },
+    {
+     "type": "place",
+     "name": "doorway between Holy of Holies and Heichal"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "answer": "The HP exits the Holy of Holies after completing the goat's blood sprinkling - two entries (bull and goat) are now complete and the outer services begin.",
+     "question": "What signals the end of the innermost Yom Kippur service?"
+    }
+   ],
+   "finalRuling": "The HP exits the Holy of Holies after the goat's blood sprinkling, completing the innermost phase and transitioning to the parochet and golden altar services.",
+   "difficulty": "introductory",
+   "alternateAngles": [],
+   "glossary": [],
+   "review": "reviewed"
+  }
+ ],
+ "glossary": [],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'And he redeems' - he redeems the second tithe onto coins, for whatever",
+   "linkedGemaraLineIds": [
+    "yoma-056a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "he has the ability to fix, he fixes; and he drinks from",
+   "linkedGemaraLineIds": [
+    "yoma-056a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "the mixture. And when he has proper vessels, he will separate",
+   "linkedGemaraLineIds": [
+    "yoma-056a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "from them the teruma and the tithe, since they rely",
+   "linkedGemaraLineIds": [
+    "yoma-056a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "on retroactive designation, and say: this was the teruma, and what he drank was non-sacred.",
+   "linkedGemaraLineIds": [
+    "yoma-056a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "'When it bursts' - the comment is completed on 56b.",
+   "linkedGemaraLineIds": [
+    "yoma-056a-l01"
+   ]
+  }
+ ],
+ "review": "reviewed"
 }
