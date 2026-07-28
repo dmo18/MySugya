@@ -15461,7 +15461,7 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 1,
         he: "כל טומאת מת בצבור שרייה רחמנא. דכתיב [במדבר ט] איש כי יהיה",
-        en: "All corpse impurity in the tzibbur the Merciful One has permitted: it is written (Numbers 9) 'a man who is impure from a corpse shall make the second Pesach' - an individual is deferred to the second Pesach but the tzibbur is not deferred. But for zavim, metzora'im, niddot, and yoledot whose impurity comes out from their own bodies, it was not permitted. And bo'el niddah is like niddah.",
+        en: "'All corpse impurity in a community the Merciful One permitted' - as it is written (Numbers 9), 'any man who shall be'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -15475,315 +15475,7 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 2,
         he: "טמא לנפש יעשה פסח שני איש נדחה לפסח שני ואין צבור נדחין אבל",
-        en: "I concede where there are remnants for eating: even though the communal sacrifice is offered in impurity, it is not eaten in impurity as we say in Pesachim (77b). And in a minhah that is konetzet I concede we return to purity so the remnants may be eaten.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l06"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-003",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 3,
-        he: "זבין ומצורעין נדות ויולדות שטומאתו יוצא עליו מגופו לא הותרה",
-        en: "And if there is only one: who was not prepared for this.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l06"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-004",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 4,
-        he: "ובועל נדה כנדה: מודינא היכא דאיכא שיריים לאכילה. דאע\"ג דקרבן",
-        en: "What is it not - bulls and rams and sheep of the Festival: which are communal sacrifices with a fixed time, and their minhot and nesachim override impurity - and the baraita teaches 'they say bring another' - hence dchuya.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l11"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-005",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 5,
-        he: "צבור קרב בטומאה אינו נאכל",
-        en: "Bull for idolatry: a communal burnt offering which requires nesachim as derived in Shelach lecha.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l12"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-006",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 6,
-        he: "בטומאה כדאמרי' בכיצד צולין (פסחים",
-        en: "Aaron's ram: of Yom Kippur.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l12"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-007",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 7,
-        he: "דף עז:) ובמנחה הנקמצת מודינא",
-        en: "The sheep that comes with the omer: as written (Lev. 23) 'and you shall do on the day you wave the omer' - and the 'minhah of sheep' mentioned in the baraita is not the nesech minhah but the omer minhah itself that accompanies it, and it is konetzet and its remnants are eaten.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l12"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-008",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 8,
-        he: "דמהדרינן לעשות בטהרה שיהיו",
-        en: "Intentionally not accepted: even though the tzitz atones, the Sages penalized him so that the flesh not be eaten - but the owners have still atoned so that non-sacred animals not be brought to the Temple courtyard, since by Torah law it is valid. And we hear from this that it is not a heiter (permission).",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l17"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-009",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 9,
-        he: "שיריים נאכלין: ואם אין אלא היא.",
-        en: "On what does the tzitz atone: it is written 'and Aaron shall bear the sin of the sacred things' - atoning for the owners.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l19"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-010",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 10,
-        he: "שלא מצא מזומן לכך: מאי לאו פרים",
-        en: "Acceptance/ratzon: this falls under 'intentional' but regarding compulsion 'ratzon' (willful desire) is the appropriate term.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l19"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-011",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 11,
-        he: "ואילים דחג. שהן קרבן צבור וזמנו",
-        en: "Both for the tzibbur: and since the tzitz is needed to effect acceptance for tzibbur, we learn it is not a heiter.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l19"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-012",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 12,
-        he: "קבוע ומנחת נסכים דוחה טומאה",
-        en: "When the baraita teaches 'the tzitz atones' it is referring to an individual. And the tzibbur is mentioned in that it is also valid (kasher) - but not through the tzitz, rather it is a heiter for them.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l23"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-013",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 13,
-        he: "וקתני אומר ומביאין אחרת תחתיה",
-        en: "Even if you say it refers to tzibbur as well - and about those offerings that lack a fixed time, for which the prohibition is not deferred, the tzitz atones.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l23"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-014",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 14,
-        he: "אלמא דחוייה היא בצבור: פר",
-        en: "And Aaron shall bear the sin of the sacred things - and which sin does he bear? If the sin of piggul - it already says 'it shall not be accepted' - no acceptance is found for it.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l26"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-015",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 15,
-        he: "דע\"ז. דצבור עולה היא וטעונה",
-        en: "And if the sin of notar - it already says 'it shall not be credited' - and we explained this in Zevachim: the third day refers to outside its place (chutaz li-mekomo) - 'it shall not be accepted.' And if the sin of notar - one who intended at slaughter to eat it outside its time - 'the one who offers it shall not be credited,' and we explained it in Zevachim as outside its time (chutz li-zmano).",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l26"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-016",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 16,
-        he: "נסכים בשלח לך: אילו של אהרן.",
-        en: "Therefore (the tzitz atones only for tumah - continues on 7b).",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l30"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-017",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 17,
-        he: "דיום הכפורים: בכבש הבא עם",
-        en: "Ratzon here means it is within the category of 'intentional' - but for compulsion 'ratzon' (desire) is the term used.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l19"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-018",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 18,
-        he: "העומר. כדכתיב (ויקרא כג) ועשיתם",
-        en: "Both for the tzibbur: since the tzitz must effect acceptance - we hear it is not hutrah.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l19"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-019",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 19,
-        he: "ביום הניפכם את העומר וההיא",
-        en: "When the baraita teaches 'the tzitz atones' it refers to the individual. And tzibbur is mentioned only to say it too is kasher - but not through the tzitz; rather it is hutrah for them.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l23"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-020",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 20,
-        he: "מנחת כבשים דקתני לאו במנחת",
-        en: "Even if you say it also refers to tzibbur - it refers to those offerings that have no fixed time, for which dchuya applies, and the tzitz atones for them.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l23"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-021",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 21,
-        he: "נסכים קאמר דכליל היא אלא במנחת",
-        en: "The text reads: if the sin of piggul - already stated 'lo yeiratzeh' - and if the sin of notar - already stated 'lo yechashev.' And this is its explanation: which sin occurs in a sacrifice that the tzitz can atone for to make it valid? If the sin of piggul (intention outside its place) - it is already stated 'piggul hu lo yeiratzeh.' And we explained this as 'outside its place' in Zevachim (28a). And if notar - one who intended at slaughter to eat it outside its time - 'the one who offers it lo yechashev' - explained in Zevachim as 'outside its time.'",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l26"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-022",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 22,
-        he: "העומר עצמו הבאה עמו והיא נקמצת",
-        en: "And therefore: what sin is there left that the tzitz can atone for to make it valid? Only tumah. And we hear: since it says 'ratzon' - it atones for tumah. And regarding Rav Sheshet's challenge: in the tzibbur it would be unnecessary for the tzitz - the answer is: for tzibbur, even tumah is hutrah, so the tzitz is not needed for tzibbur at all.",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l26"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-023",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 23,
-        he: "ושיריה נאכלין: במזיד לא הורצה.",
-        en: "There (stub - continues on 7b with what the tzitz does atone for).",
-        enSource: "ai_helper_translation",
-        source: "talmud.dev",
-        confidence: "helper",
-        linkedGemaraLineIds: [
-          "yoma-007a-l30"
-        ]
-      },
-      {
-        id: "rashi-yoma-007a-024",
-        sourceType: "rashi",
-        daf: "7a",
-        vilnaLine: 24,
-        he: "ואע\"פ שהציץ מרצה קנסוהו רבנן",
-        en: "All corpse impurity for the tzibbur the Merciful One has permitted.",
+        en: "'impure from a corpse shall perform the second Pesach': an individual is deferred to the second Pesach, but a community is not deferred. But",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -15792,12 +15484,41 @@ const DAF_CONTENT = {
         ]
       },
       {
-        id: "rashi-yoma-007a-025",
+        id: "rashi-yoma-007a-003",
         sourceType: "rashi",
         daf: "7a",
-        vilnaLine: 25,
-        he: "שלא יהא בשר נאכל אבל בעלים",
-        en: "I concede where there are remnants for eating - the omer has remnants eaten by priests.",
+        vilnaLine: 3,
+        he: "זבין ומצורעין נדות ויולדות שטומאתו יוצא עליו מגופו לא הותרה",
+        en: "zavim, metzora'im, niddot, and yoladot, whose impurity issues out upon them from their own body, were not permitted,",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l01"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-004",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 4,
+        he: "ובועל נדה כנדה: מודינא היכא דאיכא שיריים לאכילה. דאע\"ג דקרבן",
+        en: "and one who cohabits with a niddah is like a niddah. 'I concede where there are remainders for eating' - for although a communal offering",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l01",
+          "yoma-007a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-005",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 5,
+        he: "צבור קרב בטומאה אינו נאכל",
+        en: "is offered in impurity, it is not eaten",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -15806,12 +15527,84 @@ const DAF_CONTENT = {
         ]
       },
       {
-        id: "rashi-yoma-007a-026",
+        id: "rashi-yoma-007a-006",
         sourceType: "rashi",
         daf: "7a",
-        vilnaLine: 26,
-        he: "מיהו נתכפרו דלא ניתו חולין לעזרה",
-        en: "What - is it not the bulls/rams/sheep of the Festival which are communal fixed-time sacrifices?",
+        vilnaLine: 6,
+        he: "בטומאה כדאמרי' בכיצד צולין (פסחים",
+        en: "in impurity, as we say in the chapter Keitzad Tzolin (Pesachim 77b);",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-007",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 7,
+        he: "דף עז:) ובמנחה הנקמצת מודינא",
+        en: "and regarding a minchah from which a handful is taken, I concede",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-008",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 8,
+        he: "דמהדרינן לעשות בטהרה שיהיו",
+        en: "that we go back and perform it in purity, so that the",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l06"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-009",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 9,
+        he: "שיריים נאכלין: ואם אין אלא היא.",
+        en: "remainders may be eaten. 'And if there is only it' -",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l06",
+          "yoma-007a-l08"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-010",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 10,
+        he: "שלא מצא מזומן לכך: מאי לאו פרים",
+        en: "that he did not find another one prepared for this. 'What, is it not bulls'",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l08",
+          "yoma-007a-l11"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-011",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 11,
+        he: "ואילים דחג. שהן קרבן צבור וזמנו",
+        en: "'and rams of the Festival' - which are a communal offering and whose time is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -15820,12 +15613,55 @@ const DAF_CONTENT = {
         ]
       },
       {
-        id: "rashi-yoma-007a-027",
+        id: "rashi-yoma-007a-012",
         sourceType: "rashi",
         daf: "7a",
-        vilnaLine: 27,
-        he: "דהא מדאורייתא חזי ומיהו שמעינן",
-        en: "Bull for idolatry - communal offering but no fixed time so we still search for purity.",
+        vilnaLine: 12,
+        he: "קבוע ומנחת נסכים דוחה טומאה",
+        en: "fixed, and the minchah of the libations overrides impurity;",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l11"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-013",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 13,
+        he: "וקתני אומר ומביאין אחרת תחתיה",
+        en: "and yet it teaches 'he speaks and they bring another in its place',",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l11"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-014",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 14,
+        he: "אלמא דחוייה היא בצבור: פר",
+        en: "which shows it is deferred-but-permitted for a community. 'A bull'",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l11",
+          "yoma-007a-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-015",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 15,
+        he: "דע\"ז. דצבור עולה היא וטעונה",
+        en: "'of idolatry' - it is a communal burnt offering and requires",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -15834,12 +15670,12 @@ const DAF_CONTENT = {
         ]
       },
       {
-        id: "rashi-yoma-007a-028",
+        id: "rashi-yoma-007a-016",
         sourceType: "rashi",
         daf: "7a",
-        vilnaLine: 28,
-        he: "מיניה דלאו היתר היא: על מה הציץ",
-        en: "Aaron's ram - Yom Kippur individual offering.",
+        vilnaLine: 16,
+        he: "נסכים בשלח לך: אילו של אהרן.",
+        en: "libations, in Shelach Lecha. 'Aaron's ram' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -15848,12 +15684,12 @@ const DAF_CONTENT = {
         ]
       },
       {
-        id: "rashi-yoma-007a-029",
+        id: "rashi-yoma-007a-017",
         sourceType: "rashi",
         daf: "7a",
-        vilnaLine: 29,
-        he: "מרצה. דכתיב ונשא אהרן את עון",
-        en: "Sheep with the omer - eating remnants apply.",
+        vilnaLine: 17,
+        he: "דיום הכפורים: בכבש הבא עם",
+        en: "of Yom Kippur. 'With the lamb that comes with'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -15862,12 +15698,97 @@ const DAF_CONTENT = {
         ]
       },
       {
-        id: "rashi-yoma-007a-030",
+        id: "rashi-yoma-007a-018",
         sourceType: "rashi",
         daf: "7a",
-        vilnaLine: 30,
-        he: "הקדשים שירצו לבעלים: רצון. הרי",
-        en: "Intentionally not accepted: Sages penalized but atonement still occurs for the owners.",
+        vilnaLine: 18,
+        he: "העומר. כדכתיב (ויקרא כג) ועשיתם",
+        en: "'the omer' - as it is written (Leviticus 23), 'and you shall offer'",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-019",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 19,
+        he: "ביום הניפכם את העומר וההיא",
+        en: "'on the day you wave the omer'; and that",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-020",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 20,
+        he: "מנחת כבשים דקתני לאו במנחת",
+        en: "'minchah of lambs' which it teaches does not speak of the minchah of",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-021",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 21,
+        he: "נסכים קאמר דכליל היא אלא במנחת",
+        en: "libations, for that is entirely burned, but of the minchah of",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-022",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 22,
+        he: "העומר עצמו הבאה עמו והיא נקמצת",
+        en: "the omer itself that comes with it, from which a handful is taken",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l12"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-023",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 23,
+        he: "ושיריה נאכלין: במזיד לא הורצה.",
+        en: "and whose remainders are eaten. 'Intentionally, it was not accepted' -",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l12",
+          "yoma-007a-l17"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-024",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 24,
+        he: "ואע\"פ שהציץ מרצה קנסוהו רבנן",
+        en: "even though the tzitz effects acceptance, the Sages penalized him",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -15876,12 +15797,97 @@ const DAF_CONTENT = {
         ]
       },
       {
+        id: "rashi-yoma-007a-025",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 25,
+        he: "שלא יהא בשר נאכל אבל בעלים",
+        en: "so that the flesh should not be eaten; but the owners",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l17"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-026",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 26,
+        he: "מיהו נתכפרו דלא ניתו חולין לעזרה",
+        en: "have nonetheless been atoned for, so that non-sacred animals not be brought into the courtyard,",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l17"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-027",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 27,
+        he: "דהא מדאורייתא חזי ומיהו שמעינן",
+        en: "since by Torah law it is fit. And in any case we learn",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l17"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-028",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 28,
+        he: "מיניה דלאו היתר היא: על מה הציץ",
+        en: "from it that it is not a permission. 'For what does the tzitz'",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l17",
+          "yoma-007a-l19"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-029",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 29,
+        he: "מרצה. דכתיב ונשא אהרן את עון",
+        en: "'effect acceptance' - as it is written, 'and Aaron shall bear the sin of'",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l19"
+        ]
+      },
+      {
+        id: "rashi-yoma-007a-030",
+        sourceType: "rashi",
+        daf: "7a",
+        vilnaLine: 30,
+        he: "הקדשים שירצו לבעלים: רצון. הרי",
+        en: "'the sacred things', that they be accepted for the owners. 'Willingly' -",
+        enSource: "ai_helper_translation",
+        source: "talmud.dev",
+        confidence: "helper",
+        linkedGemaraLineIds: [
+          "yoma-007a-l19"
+        ]
+      },
+      {
         id: "rashi-yoma-007a-031",
         sourceType: "rashi",
         daf: "7a",
         vilnaLine: 31,
         he: "הוא בכלל מזיד אלא גבי אונס שייך",
-        en: "On what the tzitz atones: written 'Aaron shall bear the sin of the sacred things.'",
+        en: "it is included within 'intentionally', but alongside 'under compulsion' it is fitting",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -15895,7 +15901,7 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 32,
         he: "למיתני רצון: בין בצבור. ומדבעי",
-        en: "Both for individual and tzibbur: and since tzitz is needed for tzibbur - hence not hutrah.",
+        en: "to teach 'willingly'. 'Whether for a community' - and since the",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -15909,12 +15915,12 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 33,
         he: "ציץ לרצויי שמע מינה לאו היתר הוא",
-        en: "The tzitz baraita refers to an individual - tzibbur is included only to say it is kasher, not via tzitz but via hutrah.",
+        en: "tzitz is needed to effect acceptance, learn from it that it is not a permission.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007a-l23"
+          "yoma-007a-l19"
         ]
       },
       {
@@ -15923,12 +15929,12 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 34,
         he: "ומה בין יחיד לצבור שהיחיד אין",
-        en: "Or even for tzibbur: but only for non-fixed-time communal offerings where dchuya still applies.",
+        en: "And what is the difference between an individual and a community? That for an individual,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007a-l23"
+          "yoma-007a-l19"
         ]
       },
       {
@@ -15937,12 +15943,12 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 35,
         he: "טומאת הגוף נדחה אצלו שאין הציץ",
-        en: "If piggul sin - already said 'it shall not be accepted': piggul is outside its place.",
+        en: "bodily impurity is not overridden, since the tzitz does not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007a-l26"
+          "yoma-007a-l19"
         ]
       },
       {
@@ -15951,12 +15957,12 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 36,
         he: "מרצה על טומאת הגוף ושל צבור",
-        en: "If notar sin - already said 'it shall not be credited': notar is eating after its time.",
+        en: "effect acceptance for bodily impurity; whereas for a community",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007a-l26"
+          "yoma-007a-l19"
         ]
       },
       {
@@ -15965,12 +15971,12 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 37,
         he: "נדחית טומאת הגוף אצלם ולא על ידי",
-        en: "So what sin does the tzitz atone for? Only tumah. This is derived here to refute: why would the tzitz be needed for the tzibbur? Because for the tzibbur tumah is hutrah - the tzitz is not needed for tzibbur at all; the listing refers only to individuals.",
+        en: "bodily impurity is overridden for them, and not by means of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007a-l26"
+          "yoma-007a-l19"
         ]
       },
       {
@@ -15979,12 +15985,12 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 38,
         he: "ציץ מיהו שמעינן מינה מדבעי טומאת",
-        en: "The text reads as follows: if the sin of piggul - already stated 'it will not be accepted.' If the sin of notar - already stated 'it will not be credited.' So what remains? Only tumah. Hence 'ratzon' - the tzitz effects acceptance only for tumah.",
+        en: "the tzitz. In any case we learn from it that since impurity of",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007a-l26"
+          "yoma-007a-l19"
         ]
       },
       {
@@ -15993,12 +15999,12 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 39,
         he: "בשר ועולין בצבור ציץ (מרצה)",
-        en: "Regarding the tzibbur: since we said tumah is hutrah for the tzibbur, the tzitz is entirely irrelevant for communal offerings - they need no tzitz to effect acceptance.",
+        en: "the flesh, and offerings that go up, in a community require the tzitz",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007a-l26"
+          "yoma-007a-l19"
         ]
       },
       {
@@ -16007,12 +16013,12 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 40,
         he: "לרצויי שמע מינה טומאת הגוף",
-        en: "Between the individual and the tzibbur: the individual cannot have his bodily impurity overridden - the tzitz does not atone for bodily impurity of an individual. But for the tzibbur, bodily impurity is overridden for them - not through the tzitz but because it is hutrah.",
+        en: "to effect acceptance, learn from it that bodily impurity",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007a-l26"
+          "yoma-007a-l19"
         ]
       },
       {
@@ -16021,12 +16027,12 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 41,
         he: "שנדחית אצלם בקושי נדחית וכל כמה דמצינן לאהדורי אטהרה מהדרינן:",
-        en: "Though the flesh rises for them in the tzibbur - and the tzitz atones for the impure flesh and blood - we hear from this that bodily impurity which is overridden for them (dchuya) - wherever possible we return to purity.",
+        en: "which is overridden for them is overridden only with difficulty, and however much we can return to purity we return.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007a-l26"
+          "yoma-007a-l19"
         ]
       },
       {
@@ -16035,7 +16041,7 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 42,
         he: "כי קתני הציץ מרצה אדיחיד קתני. וצבור אהכשירה קתני שאף",
-        en: "When the baraita teaches 'the tzitz atones' - it refers to the individual. And tzibbur is mentioned to say it too is kasher - but not through tzitz, rather through hutrah.",
+        en: "'When it teaches that the tzitz effects acceptance, it teaches it about an individual' - and about a community it teaches its fitness, for even",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -16049,7 +16055,7 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 43,
         he: "של צבור כשר ולא על ידי ציץ אלא היתר הוא אצלו: ואי בעית אימא",
-        en: "If you wish say: even for tzibbur - and in those offerings that have no fixed time for which dchuya applies, the tzitz atones.",
+        en: "a community's offering is fit, and not by means of the tzitz, but because it is a permission for it. 'And if you wish, say'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -16063,12 +16069,12 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 44,
         he: "אצבור. נמי קאי ובהנך קרבנות דלא קבע להו זמן שלא נדחית",
-        en: "The text reads: if piggul sin - already stated 'lo yeiratzeh.' If notar sin - already stated 'lo yechashev.' And this is the explanation: what sin arises in a sacrifice that the tzitz can atone for to make it valid?",
+        en: "'about a community' - it refers to that as well, and it speaks of those offerings that have no fixed time, for which impurity is not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007a-l26"
+          "yoma-007a-l23"
         ]
       },
       {
@@ -16077,11 +16083,12 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 45,
         he: "טומאה אצלו קאמר דציץ מרצה עליהן: ה\"ג אם עון פיגול הרי",
-        en: "If piggul - the sin of intention outside its place - already stated 'piggul hu lo yeiratzeh' - no acceptance is found for it.",
+        en: "overridden for it, saying that the tzitz effects acceptance for them. 'The reading is: if the sin of piggul, it has'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-007a-l23",
           "yoma-007a-l26"
         ]
       },
@@ -16091,7 +16098,7 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 46,
         he: "כבר נאמר לא ירצה ואם עון נותר הרי כבר נאמר לא יחשב והכי",
-        en: "And we established in Zevachim: the third day - that is 'outside its place' - is the piggul verse. And outside its time: 'he who offers it lo yechashev' - we established that as 'outside its time.'",
+        en: "'already been said, it shall not be accepted; and if the sin of notar, it has already been said, it shall not be credited.' And this",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -16105,7 +16112,7 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 47,
         he: "פירושו איזה עון יארע בקרבן שיהא הציץ מרצה עליו שיהא כשר",
-        en: "Therefore what sin is left? Only tumah - and the tzitz effects acceptance for it.",
+        en: "is its explanation: which sin can occur in an offering such that the tzitz effects acceptance for it, so that it be fit?",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -16119,7 +16126,7 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 48,
         he: "אם עון מחשבת חוץ למקומו הקרויה פיגול כדאמרינן בזבחים",
-        en: "For the tzibbur where tumah is hutrah - the tzitz is not needed at all; the baraita's mention of tzibbur means only that it too is kasher without the tzitz.",
+        en: "If the sin of intent outside its place, which is called piggul, as we say in Zevachim",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -16133,7 +16140,7 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 49,
         he: "(דף כח.) שלישי זה חוץ למקומו הרי כבר נאמר בקדושים תהיו",
-        en: "Between individual and tzibbur: individual - his bodily impurity is not overridden, and the tzitz does not atone for bodily impurity. Tzibbur - their bodily impurity is overridden, not through the tzitz.",
+        en: "(28a), 'this third one is outside its place', it has already been said in Kedoshim Tihyu,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -16147,7 +16154,7 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 50,
         he: "פיגול הוא לא ירצה ואוקימנא בחוץ למקומו במסכת זבחים ואם",
-        en: "Since the flesh rises for them in the tzibbur and the tzitz must atone for flesh/blood/fat impurity - we hear that bodily impurity which is overridden (dchuya) - wherever possible we return to purity.",
+        en: "'it is piggul, it shall not be accepted', and we established it as outside its place in tractate Zevachim. And if",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -16161,12 +16168,12 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 51,
         he: "עון מחשבת נותר שחישב בשחיטה על מנת לאוכלו חוץ לזמנו הרי",
-        en: "The tzitz atones for the individual: meaning the baraita's mention of tzitz applies to the individual; the tzibbur is mentioned to say it is kasher but via hutrah, not tzitz.",
+        en: "the sin of intent of notar, where he intended at the slaughter to eat it outside its time, it has",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007a-l23"
+          "yoma-007a-l26"
         ]
       },
       {
@@ -16175,12 +16182,12 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 52,
         he: "כבר נאמר המקריב אותו לא יחשב ואוקמינן במחשבת חוץ לזמנו:",
-        en: "Even for the tzibbur - those without fixed time - where dchuya still applies and the tzitz atones for them.",
+        en: "already been said, 'the one who offers it, it shall not be credited', and we established it as intent outside its time.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-007a-l23"
+          "yoma-007a-l26"
         ]
       },
       {
@@ -16189,7 +16196,7 @@ const DAF_CONTENT = {
         daf: "7a",
         vilnaLine: 53,
         he: "הא",
-        en: "This (stub - continues on 7b with the full resolution of what the tzitz atones for).",
+        en: "'This' - the comment is completed on 7b.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
