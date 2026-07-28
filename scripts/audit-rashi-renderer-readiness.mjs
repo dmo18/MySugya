@@ -16,20 +16,30 @@
  *     search
  *   - audit_rashi_association.py --exhaustive-corpus --json run as a real
  *     subprocess: broken/cross-daf count must be zero
- *   - audit_rashi_semantic.py run as a real subprocess: shift-candidate /
- *     missing-anchor flags must be zero (closest real proxy this repo has
- *     for "semantic-link closure state"; there is no dedicated closure file)
+ *   - modules/yoma/scripts/allowlists/rashi_boundary_authorizations.json,
+ *     validated by validate_rashi_boundary_authorizations.py (a real
+ *     subprocess): every boundary (empty-link) entry in the live corpus
+ *     must carry a current, non-stale, non-duplicate authorization, and the
+ *     registry may never silently grow past its ratchet
+ *   - audit_rashi_semantic.py --profile --json run as a real subprocess,
+ *     consuming its per-daf classification/recommendedTaskType output
+ *     directly (never a reimplementation of its scoring logic): readiness
+ *     requires zero daf classified SHIFTED or FABRICATION-SUSPECT and zero
+ *     daf with a non-null recommendedTaskType. Advisory-only findings on
+ *     otherwise-ALIGNED daf (drift within tolerance, or an isolated missing
+ *     anchor) never block this check, but are never suppressed either -
+ *     every one is printed with its daf, exact vilnaLine, and offset or
+ *     "missing" evidence in this check's own detail output.
+ *   - an exhaustive, sharded browser-association CI artifact
+ *     (see check-rashi-browser-shard-artifact.mjs / the
+ *     rashi-browser-shards.yml workflow): the gate parses and validates the
+ *     real downloaded/generated result file, rejecting it if it is missing,
+ *     stale, partial (not all 173 daf), from the wrong commit, or reports
+ *     any shard failure. A human stating the run happened is never treated
+ *     as machine evidence.
  *
- * Boundary (empty-link) entries require an explicit authorization registry
- * before they can be excluded from readiness. No such registry exists in
- * this repository today, so that condition is reported as NOT SATISFIED
- * whenever any boundary entries remain in scope - this script never invents
- * a passing mechanism for debt that hasn't actually been resolved.
- *
- * This script only reports. It never enables anything, never edits an
- * allowlist, and never claims a manual/future step (such as an exhaustive
- * browser corpus run - reserved for closure or a sharded workflow) has
- * passed when it has not actually been run.
+ * This script only reports. It never enables anything and never edits an
+ * allowlist or the boundary registry.
  */
 
 import { spawnSync } from 'node:child_process';
@@ -112,48 +122,77 @@ check('exhaustive referential-integrity audit (audit_rashi_association.py --exha
 });
 
 check('every boundary (empty-link) entry has explicit authorization', () => {
-  const boundaryCount = assocPlan?.counts?.boundary ?? null;
-  if (boundaryCount === null) return { pass: false, detail: 'referential audit did not run' };
-  // No boundary-authorization registry exists in this repository. Until one
-  // is introduced and populated, this condition cannot be satisfied while
-  // any boundary entries remain - reported honestly rather than invented.
+  // Delegates to the real registry validator (a separate subprocess, not a
+  // reimplementation): validate_rashi_boundary_authorizations.py checks the
+  // registry against the live corpus and fails on an authorization for a
+  // non-empty entry, a missing authorization, a stale authorization, a
+  // duplicate, a nonexistent daf/vilnaLine, or growth past its ratchet.
+  const r = run('python3', ['scripts/validate_rashi_boundary_authorizations.py'], YOMA);
   return {
-    pass: boundaryCount === 0,
-    detail: boundaryCount === 0
-      ? 'no boundary entries in corpus'
-      : `${boundaryCount} boundary entries exist and no authorization registry exists in this repo`,
+    pass: r.code === 0,
+    detail: r.code === 0 ? r.stdout.trim() : (r.stdout + r.stderr).trim().split('\n').slice(-6).join(' | '),
   };
 });
 
-check('semantic-link closure proxy is clean (audit_rashi_semantic.py)', () => {
-  // audit_rashi_semantic.py's --json flag is currently a no-op (declared but
-  // unused in that script); there is also no dedicated semantic-link
-  // closure file in this repo. The closest real, honest proxy is its
-  // "Totals:" summary line, parsed from real stdout - never a duplicated
-  // reimplementation of its scoring logic.
-  const r = run('python3', ['scripts/audit_rashi_semantic.py'], YOMA);
-  const m = r.stdout.match(
-    /Totals:\s*(\d+)\s*shift candidate\(s\),\s*(\d+)\s*missing-anchor flag\(s\),\s*(\d+)\s*generic flag\(s\)/
+check('semantic-link closure: no actionable defects (audit_rashi_semantic.py --profile --json)', () => {
+  // Actionable vs advisory, per daf, from the real per-daf drift profile
+  // (never a reimplementation of its classification logic):
+  //   - actionable: daf classified SHIFTED or FABRICATION-SUSPECT, or
+  //     carrying a non-null recommendedTaskType (repair work is owed)
+  //   - advisory: every other daf that still has a non-zero-offset or
+  //     missing anchor (findings that do not block readiness, but are
+  //     never suppressed - see the 2a/4b docs/rashi-audit-backlog.md entry)
+  // Readiness passes only when there are zero actionable daf. Advisory
+  // findings are reported in full (daf, exact vilnaLine, kind, offset or
+  // "missing") in the detail string every time this check runs, whether it
+  // passes or fails.
+  const r = run('python3', ['scripts/audit_rashi_semantic.py', '--profile', '--json'], YOMA);
+  if (!r.stdout) return { pass: false, detail: `no output; ${r.stderr.trim().split('\n').slice(-2).join(' | ')}` };
+  const profiles = JSON.parse(r.stdout);
+
+  const actionable = profiles.filter(p =>
+    p.classification === 'SHIFTED' || p.classification === 'FABRICATION-SUSPECT' || p.recommendedTaskType
   );
-  if (!m) return { pass: false, detail: 'could not find a "Totals:" summary line in audit_rashi_semantic.py output' };
-  const shift = Number(m[1]), missing = Number(m[2]), generic = Number(m[3]);
-  return {
-    pass: shift === 0 && missing === 0 && generic === 0,
-    detail: `shift_candidates=${shift} missing_anchor=${missing} generic=${generic}`,
-  };
+
+  const advisoryLines = [];
+  for (const p of profiles) {
+    if (actionable.includes(p)) continue;
+    for (const a of p.anchors ?? []) {
+      if (a.offset === null) {
+        advisoryLines.push(`${p.daf} L${a.line} (${p.classification}): missing anchor for ${a.kind} ${JSON.stringify(a.token)}`);
+      } else if (a.offset !== 0) {
+        advisoryLines.push(`${p.daf} L${a.line} (${p.classification}): ${a.kind} ${JSON.stringify(a.token)} offset ${a.offset}`);
+      }
+    }
+  }
+
+  const detailParts = [
+    `daf_examined=${profiles.length}`,
+    `actionable_daf=${actionable.length}`,
+    `advisory_findings=${advisoryLines.length}`,
+  ];
+  if (actionable.length) {
+    detailParts.push('ACTIONABLE: ' + actionable.map(p => `${p.daf}=${p.classification}${p.recommendedTaskType ? `(${p.recommendedTaskType})` : ''}`).join(', '));
+  }
+  if (advisoryLines.length) {
+    detailParts.push('advisory (not blocking): ' + advisoryLines.join(' ;; '));
+  }
+
+  return { pass: actionable.length === 0, detail: detailParts.join(' | ') };
 });
 
-check('exhaustive browser corpus association run (manual/sharded workflow)', () => {
-  // Deliberately never auto-verified: running the full browser spec across
-  // every daf in one process is reserved for closure or a sharded CI
-  // workflow (see docs/reports/rashi-association-audit.md). This check can
-  // never report pass on its own - only a human confirming that run
-  // actually happened, and it is never invoked implicitly by this script.
+check('exhaustive browser corpus association run (sharded workflow artifact)', () => {
+  // Delegates entirely to check-rashi-browser-shard-artifact.mjs (a real
+  // subprocess): it reads the combined result artifact produced by
+  // .github/workflows/rashi-browser-shards.yml and rejects it outright if
+  // missing, partial, stale/wrong-commit, local-only (not produced by the
+  // actual workflow run), or reporting any failure. This script never
+  // hardcodes a pass and never accepts a manually stated result in place of
+  // that artifact.
+  const r = run('node', ['scripts/check-rashi-browser-shard-artifact.mjs'], ROOT);
   return {
-    pass: false,
-    detail: 'not automatically checked; run manually via '
-      + '`node scripts/run-rashi-association.mjs --exhaustive-corpus` (data-only) '
-      + 'plus a sharded browser workflow before claiming this satisfied',
+    pass: r.code === 0,
+    detail: r.code === 0 ? r.stdout.trim() : (r.stdout + r.stderr).trim().split('\n').slice(-8).join(' | '),
   };
 });
 

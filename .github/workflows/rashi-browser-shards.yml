@@ -1,0 +1,101 @@
+name: Rashi Browser Association Shards
+
+# Exhaustive, sharded browser verification that every declared
+# linkedGemaraLineIds association across all 173 Yoma daf renders correctly
+# (tests/browser/rashi-association.spec.js, run per contiguous daf shard by
+# scripts/rashi-browser-shard-runner.mjs). Reserved as its own workflow
+# because running all 173 daf in one process is too slow for the default
+# per-PR pipeline (deploy-pages.yml runs a single-daf smoke test instead).
+#
+# The combined result artifact this workflow produces is the ONLY evidence
+# scripts/check-rashi-browser-shard-artifact.mjs (and therefore the
+# renderer-readiness gate) accepts for "exhaustive browser corpus
+# association run". A local, non-CI run of the same scripts is deliberately
+# rejected by that gate (ci: false), so this workflow is not optional
+# scaffolding - it is the only path to a passing readiness check 8/8.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 7 * * 1' # weekly, Monday 07:00 UTC
+
+permissions:
+  contents: read
+
+jobs:
+  shard:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        shard_index: [0, 1, 2, 3, 4, 5, 6, 7]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: Run shard ${{ matrix.shard_index }}
+        run: |
+          node scripts/rashi-browser-shard-runner.mjs \
+            --shard-index ${{ matrix.shard_index }} \
+            --shard-count 8 \
+            --out shard-${{ matrix.shard_index }}.json
+
+      - name: Upload shard result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rashi-browser-shard-result-${{ matrix.shard_index }}
+          path: shard-${{ matrix.shard_index }}.json
+          retention-days: 90
+
+  combine:
+    runs-on: ubuntu-latest
+    needs: shard
+    if: always()
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Download all shard results
+        uses: actions/download-artifact@v4
+        with:
+          pattern: rashi-browser-shard-result-*
+          path: shards
+          merge-multiple: true
+
+      - name: Combine shard results into the verifiable artifact
+        run: |
+          node scripts/combine-rashi-browser-shards.mjs shards/shard-*.json \
+            --out rashi_browser_shard_result.json \
+            --ci \
+            --commit-sha "${{ github.sha }}" \
+            --run-id "${{ github.run_id }}" \
+            --run-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+      - name: Upload combined result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rashi-browser-shard-result
+          path: rashi_browser_shard_result.json
+          retention-days: 90
