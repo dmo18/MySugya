@@ -249,18 +249,33 @@ Use `--skip-existing` to resume a partial run.
 
 The `linkedGemaraLineIds` field on every `rashiLines`/`rashiTranslations`
 entry declares which Gemara/Mishnah line(s) a Rashi comment belongs to.
-Production still renders Rashi via the legacy `vilnaLine`-coincidence path;
-a separate, test/audit-only linked renderer (`?rashiAssoc=linked`) reads
-`linkedGemaraLineIds` directly. `npm run audit:rashi-renderer-readiness:yoma`
-reports real, mechanically-checked cutover readiness across 8 conditions
-(ratchets, referential integrity, the boundary-authorization registry at
+**As of the VERSION 15.338 cutover, the linked renderer is the production
+default**: an ordinary URL with no query parameter renders Rashi from
+`linkedGemaraLineIds`, which is authoritative (no `vilnaLine` fallback, a
+multi-linked comment renders beneath every target it declares, and an
+authorized empty-link boundary entry renders nowhere).
+
+Renderer selection (`rashiRendererFromUrl` in `shared/rashi_association.js`),
+read fresh from the URL on every call and never persisted to any storage:
+
+| URL | Renderer |
+|---|---|
+| no `rashiAssoc` parameter | linked (production default) |
+| `?rashiAssoc=linked` | linked (still accepted, no longer required) |
+| `?rashiAssoc=legacy` | legacy (temporary rollback override) |
+| unknown or malformed value | linked |
+
+The legacy `vilnaLine`-coincidence renderer has **not** been deleted. It
+remains fully intact in `app.jsx` as the rollback path behind
+`?rashiAssoc=legacy`. Do not remove it without an explicit decision.
+
+`npm run audit:rashi-renderer-readiness:yoma` reports mechanically-checked
+readiness across 8 conditions (ratchets, referential integrity, the
+boundary-authorization registry at
 `modules/yoma/scripts/allowlists/rashi_boundary_authorizations.json`,
 semantic-drift classification, and a sharded 173-daf browser-association
 CI artifact). It never hardcodes a pass. Current status and full detail:
 `docs/reports/rashi-association-audit.md` and `docs/rashi-audit-backlog.md`.
-
-Do not enable the linked renderer as the production default without an
-explicit operator decision, even if the readiness gate reaches 8/8.
 
 ---
 

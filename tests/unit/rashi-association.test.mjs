@@ -12,7 +12,7 @@ import assert from "node:assert";
 import { createRequire } from "node:module";
 
 const require = createRequire(import.meta.url);
-const { groupRashiByLinkedId } = require("../../shared/rashi_association.js");
+const { groupRashiByLinkedId, rashiRendererFromUrl } = require("../../shared/rashi_association.js");
 
 describe("groupRashiByLinkedId", () => {
   it("should handle empty input", () => {
@@ -137,5 +137,96 @@ describe("groupRashiByLinkedId", () => {
     assert.equal(map.size, 1);
     assert.equal(map.get("l1").length, 1);
     assert.equal(map.get("l1")[0].id, "r3");
+  });
+});
+
+/* ------------------------------------------------------------------
+   rashiRendererFromUrl - renderer selection after the VERSION 15.338
+   cutover that made linked the production default.
+
+   Exercises the real exported selector (never a re-implementation) against
+   a stubbed window.location.search, and asserts the selection is derived
+   only from the URL: nothing is written to localStorage or any other
+   storage, and no value carries over between navigations.
+   ------------------------------------------------------------------ */
+describe("rashiRendererFromUrl", () => {
+  const originalWindow = globalThis.window;
+
+  function withSearch(search, fn) {
+    const storageWrites = [];
+    globalThis.window = {
+      location: { search },
+      localStorage: {
+        setItem: (k, v) => storageWrites.push([k, v]),
+        getItem: () => null,
+        removeItem: k => storageWrites.push(["remove", k]),
+      },
+      sessionStorage: {
+        setItem: (k, v) => storageWrites.push([k, v]),
+        getItem: () => null,
+      },
+    };
+    try {
+      return { result: fn(), storageWrites };
+    } finally {
+      globalThis.window = originalWindow;
+    }
+  }
+
+  it("selects linked when there is no rashiAssoc parameter (production default)", () => {
+    assert.equal(withSearch("", rashiRendererFromUrl).result, "linked");
+    assert.equal(withSearch("?module=yoma&daf=2a", rashiRendererFromUrl).result, "linked");
+  });
+
+  it("selects linked for an explicit ?rashiAssoc=linked (still accepted)", () => {
+    assert.equal(withSearch("?rashiAssoc=linked", rashiRendererFromUrl).result, "linked");
+    assert.equal(withSearch("?module=yoma&daf=2a&rashiAssoc=linked", rashiRendererFromUrl).result, "linked");
+  });
+
+  it("selects legacy only for an explicit ?rashiAssoc=legacy (rollback override)", () => {
+    assert.equal(withSearch("?rashiAssoc=legacy", rashiRendererFromUrl).result, "legacy");
+    assert.equal(withSearch("?module=yoma&daf=2a&rashiAssoc=legacy", rashiRendererFromUrl).result, "legacy");
+  });
+
+  it("selects linked for unknown or malformed values, never silently legacy", () => {
+    for (const bad of [
+      "?rashiAssoc=",
+      "?rashiAssoc=LEGACY",
+      "?rashiAssoc=Legacy",
+      "?rashiAssoc=legacy2",
+      "?rashiAssoc=lega%20cy",
+      "?rashiAssoc=true",
+      "?rashiAssoc=0",
+      "?rashiAssoc=linked&rashiAssoc=legacy2",
+      "?rashiassoc=legacy",
+    ]) {
+      assert.equal(withSearch(bad, rashiRendererFromUrl).result, "linked", `expected linked for ${bad}`);
+    }
+  });
+
+  it("never persists the selection to localStorage or sessionStorage", () => {
+    for (const search of ["", "?rashiAssoc=linked", "?rashiAssoc=legacy", "?rashiAssoc=bogus"]) {
+      const { storageWrites } = withSearch(search, rashiRendererFromUrl);
+      assert.deepEqual(storageWrites, [], `expected no storage writes for ${search}`);
+    }
+  });
+
+  it("does not carry a selection across navigations (re-reads the URL each call)", () => {
+    // A legacy visit must not pin legacy for the next, parameter-free visit.
+    assert.equal(withSearch("?rashiAssoc=legacy", rashiRendererFromUrl).result, "legacy");
+    assert.equal(withSearch("", rashiRendererFromUrl).result, "linked");
+    // ...and the reverse ordering is equally stateless.
+    assert.equal(withSearch("?rashiAssoc=linked", rashiRendererFromUrl).result, "linked");
+    assert.equal(withSearch("?rashiAssoc=legacy", rashiRendererFromUrl).result, "legacy");
+  });
+
+  it("falls back to the linked default when there is no window at all", () => {
+    const saved = globalThis.window;
+    globalThis.window = undefined;
+    try {
+      assert.equal(rashiRendererFromUrl(), "linked");
+    } finally {
+      globalThis.window = saved;
+    }
   });
 });

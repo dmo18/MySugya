@@ -704,15 +704,21 @@ function Sugya({ sugya, idx, total, tweaks, rashiMap, linkedRashiMap, rashiRende
 
         <div className="lines">
           {sugya.lines.filter(Boolean).map((line, i) => {
-            // Legacy path: vilnaLine-based coincidence
+            // Legacy path: vilnaLine-based coincidence. Retained intact as
+            // the rollback path behind ?rashiAssoc=legacy; not deleted.
             const legacyRashi = line.vilna_line != null ? rashiMap?.get(line.vilna_line) : null;
             const hasLegacyRashi = !!legacyRashi;
 
-            // Linked path: linkedGemaraLineIds-based association
+            // Linked path: linkedGemaraLineIds-based association. This is the
+            // production default as of the VERSION 15.338 cutover. It is
+            // authoritative: no vilnaLine fallback, a multi-linked comment
+            // renders beneath every target it declares, several comments may
+            // render beneath one target, and an authorized empty-link
+            // boundary entry declares no target so it renders nowhere.
             const linkedRashiEntries = line.id ? linkedRashiMap?.get(line.id) : null;
             const hasLinkedRashi = (linkedRashiEntries?.length ?? 0) > 0;
 
-            // Choose path based on renderer
+            // rashiRenderer is "linked" unless ?rashiAssoc=legacy was passed.
             const useLinked = rashiRenderer === "linked";
             const hasRashi = useLinked ? hasLinkedRashi : hasLegacyRashi;
             const toggleKey = useLinked ? line.id : line.vilna_line;

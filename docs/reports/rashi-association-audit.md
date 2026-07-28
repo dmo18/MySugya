@@ -1,6 +1,31 @@
 # Rashi linkedGemaraLineIds renderer and audit
 
-## Current closure status (VERSION 15.337)
+## Production cutover (VERSION 15.338)
+
+The linked renderer is now the **production default**. Renderer selection
+lives in `rashiRendererFromUrl` (`shared/rashi_association.js`), is read
+fresh from the URL on every call, and is never persisted to localStorage or
+any other storage:
+
+| URL | Renderer |
+|---|---|
+| no `rashiAssoc` parameter | linked (production default) |
+| `?rashiAssoc=linked` | linked (still accepted, no longer required) |
+| `?rashiAssoc=legacy` | legacy (temporary rollback override) |
+| unknown or malformed value | linked |
+
+The legacy vilnaLine-coincidence renderer has **not** been deleted; it
+remains intact in `app.jsx` behind `?rashiAssoc=legacy`. In linked mode
+`linkedGemaraLineIds` is authoritative: no vilnaLine fallback, multi-linked
+comments render beneath every declared target, several comments may render
+beneath one target, Mishnah and suffixed ids stay exact, and the 20
+authorized empty-link boundary entries render nowhere. No Rashi content,
+association data, or the boundary registry changed in the cutover.
+
+The closure evidence below (8/8 readiness at VERSION 15.337) is what
+authorized this cutover and remains accurate.
+
+## Closure status (VERSION 15.337)
 
 Everything below "Background" is the historical record of the PR that
 introduced the linked renderer and its data auditor (VERSION 15.157) -
@@ -34,13 +59,13 @@ section is a snapshot as of VERSION 15.337.
   artifact stamped with commit SHA and CI provenance
   (`scripts/combine-rashi-browser-shards.mjs`,
   `scripts/check-rashi-browser-shard-artifact.mjs`). It rejects missing,
-  partial, stale/wrong-commit, local-only, or failed evidence outright -
-  it has not yet produced a real run, so this check currently and
-  correctly reports "no artifact found."
-- Renderer readiness: **7/8** (`npm run audit:rashi-renderer-readiness:yoma`).
-  Only the exhaustive browser-shard artifact remains outstanding. The
-  linked renderer is still not enabled in production; this status is not a
-  cutover decision or recommendation.
+  partial, stale/wrong-commit, local-only, or failed evidence outright. It
+  first ran against commit `d1e4715` as workflow run `30399334278`,
+  producing artifact `rashi-browser-shard-result` (id `8704117259`): 8
+  shards, 173/173 daf, 8,854 entries, 183 passed, 0 failed.
+- Renderer readiness: **8/8** (`npm run audit:rashi-renderer-readiness:yoma`)
+  once that artifact was supplied. This is the evidence that authorized the
+  VERSION 15.338 production cutover recorded at the top of this document.
 
 ---
 
@@ -234,8 +259,8 @@ Checks the repository's real ratchet files - there is no separate
    didn't happen.
 
 Real output at the time this report was written (VERSION 15.157; superseded
-- see "Current closure status" at the top of this document for the VERSION
-15.336 numbers, currently 7/8):
+- see the sections at the top of this document for the VERSION 15.337
+closure numbers, now 8/8, and the VERSION 15.338 production cutover):
 
 ```
 3/8 checks pass.

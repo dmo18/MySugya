@@ -226,10 +226,12 @@ revisited (9b/yoma-009b-s03 was never actually broken; see Phase 3).
   started" is stale, superseded as of VERSION 15.337): the
   `linkedGemaraLineIds` association layer now covers all 8,854 Rashi
   entries with 0 broken/cross-daf associations, a boundary-authorization
-  registry, and a refined semantic-drift readiness check reaching 7/8 on
-  the linked-renderer readiness gate - see `docs/rashi-audit-backlog.md`'s
-  "Linked-renderer closure status" section and
-  `docs/reports/rashi-association-audit.md` for full detail. The
+  registry, and a refined semantic-drift readiness check reaching 8/8 on
+  the linked-renderer readiness gate, which authorized making the linked
+  renderer the production default at VERSION 15.338 (with
+  `?rashiAssoc=legacy` preserved as a rollback override) - see
+  `docs/rashi-audit-backlog.md`'s "Linked-renderer closure status" section
+  and `docs/reports/rashi-association-audit.md` for full detail. The
   **nekudot/vowelization correctness audit of the `he:` fields remains
   separate and has not started** - it is a distinct pass from the
   association/readiness work above and is explicitly out of scope for it.
