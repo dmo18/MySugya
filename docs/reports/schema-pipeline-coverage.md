@@ -1,5 +1,17 @@
 # Schema-wide worker pipeline coverage report (VERSION 15.82)
 
+> **Historical snapshot (superseded on model routing).** This report records
+> the coverage proof, negative-test battery, and dry runs exactly as they
+> stood at VERSION 15.82, and its findings are preserved verbatim as an
+> audit record. Its MODEL ROUTING is obsolete: since VERSION 15.332 Sonnet
+> is the only execution and escalation model, capability is expressed as
+> `mechanicalTier` / `independentReviewRequired` rather than by model name,
+> the inventory classes `haiku-manifest` and `fable-only` were renamed to
+> `manifest-editable` and `judgment-required`, and the drift-override
+> environment variable `FABLE_DRIFT_OVERRIDE` was renamed
+> `WORKER_DRIFT_OVERRIDE`. For current policy see docs/worker-pipeline-sop.md
+> ("Model policy") and the generated docs/reports/task-type-reference.md.
+
 Read-only inventory plus mechanical coverage proof for every
 schema-controlled path in Yoma learning JSON. Machine-readable inventory:
 scripts/worker_schema_scope.json (85 classified paths). Consistency is
@@ -68,17 +80,14 @@ legal-display-edit: all PASS.
 | docs-tooling | - | NO (fable) | gate weakening |
 | deployment-verify | - | YES | red deploy or version mismatch |
 
-## Haiku operating envelope
+## Worker operating envelope
 
-Haiku may: run generated manifests/prompts/packets for haiku-marked
-types, execute edits inside jsonScope, run verify, open PRs, poll
-CI/deploy after local verify --full passes, and merge ONLY
-non-review-required task types. Haiku may never: add allowlist/baseline
-entries, set RASHI_ALLOWLIST_RESTRUCTURE or allowStructure, edit the
-registry/validators/workflows, override a red gate, or merge a
-fableReviewRequired PR without review. Fable/Sonnet owns semantic
-Hebrew, structure and schema changes, new task types, allowlist growth,
-and ambiguous repairs.
+Superseded by docs/worker-pipeline-sop.md ("Model policy"), which is the
+single current source. In summary: Sonnet executes every tier; a pass may
+never add allowlist or baseline entries, set RASHI_ALLOWLIST_RESTRUCTURE or
+allowStructure without an operator-issued authorization, edit the
+registry/validators/workflows outside a docs-tooling manifest, override a
+red gate, or merge a PR whose task type requires an independent review.
 
 ## Roadmap after this PR
 

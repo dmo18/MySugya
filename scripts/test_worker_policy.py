@@ -4,28 +4,29 @@ test_worker_policy.py - tests for the conditional semantic-review policy
 and the sequential autopilot queue (scripts/worker_pipeline.py).
 
 Pins the VERSION 15.93 process change: rashi-realignment and
-rashi-reconstruction no longer require an unconditional Fable review per
-PR. Instead a Sonnet worker performs a fresh post-edit self-review and a
+rashi-reconstruction no longer require an unconditional independent review
+per PR. Instead a Sonnet worker performs a fresh post-edit self-review and a
 machine-checked auto-merge gate (worker:review) decides eligibility;
-every failed condition escalates to Sonnet and blocks merge. Fable is
-retired; Sonnet substitutes entirely for its former escalation role.
+every failed condition escalates to Sonnet and blocks merge. Sonnet is the
+only execution and escalation model in the pipeline.
 
 Layers:
 1. Registry: the two semantic types carry reviewPolicy conditional with
    escalationModel sonnet; the mechanical types keep their unconditional
-   Fable review; the self-review and queue files are in scope.
-2. Pure policy: all conditions true -> eligible (no Fable needed); EVERY
+   independent review; the self-review and queue files are in scope.
+2. Pure policy: all conditions true -> eligible (no independent review needed); EVERY
    single condition false -> blocked (negative test per condition).
 3. Live gate: worker:review on a no-diff tree is blocked (nothing to
    merge, no fresh self-review), proving the gate fails closed.
 4. Prompt: conditional prompts carry the self-review, auto-merge, and
-   escalation instructions and never a may-not-merge Fable line.
+   escalation instructions and never a may-not-merge independent-review line.
 5. Queue: create/next/advance are sequential, one PR per target,
    stop-on-escalation; out-of-order advance is rejected.
 
 Run: python3 scripts/test_worker_policy.py   (cwd repo root)
 Exit 0 on success, 1 on failure.
 """
+import re
 import json
 import subprocess
 import sys
@@ -38,9 +39,9 @@ import worker_pipeline as wp
 
 FAILURES = []
 CONDITIONAL_TYPES = ("rashi-realignment", "rashi-reconstruction")
-# placeholder-backfill keeps its unconditional Fable review; rashi-repair
-# was already haiku-safe with no per-PR Fable review (drift block gates it).
-FABLE_TYPES = ("placeholder-backfill",)
+# placeholder-backfill keeps its unconditional independent review; rashi-repair
+# was already line-level-safe with no per-PR review (drift block gates it).
+INDEPENDENT_REVIEW_TYPES = ("placeholder-backfill",)
 
 
 def check(name, cond, detail=""):
@@ -57,8 +58,8 @@ def test_registry():
         s = types[t]
         check(f"{t} reviewPolicy is conditional", wp.review_policy_of(s) == "conditional")
         check(f"{t} escalationModel is sonnet", s.get("escalationModel") == "sonnet")
-        check(f"{t} has no unconditional fableReviewRequired",
-              not s.get("fableReviewRequired"))
+        check(f"{t} has no unconditional independentReviewRequired",
+              not s.get("independentReviewRequired"))
         check(f"{t} worker model stays sonnet", s.get("model") == "sonnet")
         check(f"{t} still one daf per PR (maxBatch 1)", s.get("maxBatch") == 1)
         check(f"{t} allows the self-review attestation file",
@@ -71,16 +72,16 @@ def test_registry():
                        "fields outside the manifest",
                        "CI or full verification fails"):
             check(f"{t} escalation trigger covers '{needle}'", needle in et)
-    for t in FABLE_TYPES:
-        check(f"{t} keeps unconditional Fable review",
-              wp.review_policy_of(types[t]) == "fable")
+    for t in INDEPENDENT_REVIEW_TYPES:
+        check(f"{t} keeps unconditional independent review",
+              wp.review_policy_of(types[t]) == "independent")
 
 
 def test_pure_policy():
     print("pure auto-merge policy:")
     all_true = {k: True for k in wp.REVIEW_CONDITIONS}
     eligible, failed = wp.evaluate_review_policy(all_true)
-    check("all conditions true -> AUTO-MERGE eligible without Fable",
+    check("all conditions true -> AUTO-MERGE eligible without independent review",
           eligible and not failed)
     for c in wp.REVIEW_CONDITIONS:
         conds = dict(all_true)
@@ -145,7 +146,7 @@ def test_prompt():
               "No operator authorization is needed" in out)
         check("prompt continues to the next queued target",
               "next queued target" in out)
-        check("prompt does NOT carry the unconditional Fable no-merge line",
+        check("prompt does NOT carry the unconditional independent-review no-merge line",
               "may NOT merge" not in out)
         check("prompt escalates to sonnet", "hand off to sonnet" in out)
 
@@ -249,7 +250,7 @@ def test_structural_repair_type():
     print("rashi-structural-repair task type:")
     types = wp.load_registry()
     s = types["rashi-structural-repair"]
-    check("model is fable", s["model"] == "fable")
+    check("model is sonnet", s["model"] == "sonnet")
     check("escalation model is sonnet", s.get("escalationModel") == "sonnet")
     check("review policy is conditional (self-review + auto-merge gate)",
           wp.review_policy_of(s) == "conditional")
@@ -359,7 +360,7 @@ def _prof(classification, anchors, anchors_missing=None, offsets=None):
     return {"classification": classification, "anchors": anchors,
             "anchorsFound": len(anchors) - anchors_missing,
             "anchorsMissing": anchors_missing, "offsets": offsets,
-            "haikuSafe": classification in ("ALIGNED", "INSUFFICIENT-ANCHORS")}
+            "lineLevelSafe": classification in ("ALIGNED", "INSUFFICIENT-ANCHORS")}
 
 
 def _sr_one(attest_overrides=None, missing=False, daf="48b"):
@@ -542,11 +543,11 @@ def test_evidence_tiers():
               not ok17 and key17 is None)
 
     # 18. rashi-structural-repair keeps its existing (broader, unconditional)
-    # haiku-safe policy untouched: INSUFFICIENT-ANCHORS with NO anchors at
+    # line-level-safe policy untouched: INSUFFICIENT-ANCHORS with NO anchors at
     # all and NO self-review attestation still passes for structural repair.
     ok18, key18, _ = wp.drift_ok_for_type(wp.STRUCTURAL_TYPE, "49b",
                                            _prof("INSUFFICIENT-ANCHORS", []), None)
-    check("18. rashi-structural-repair keeps its own unconditional haiku-safe policy",
+    check("18. rashi-structural-repair keeps its own unconditional line-level-safe policy",
           ok18 and key18 is None)
 
     # Full dispatch sanity: each tier reports its own distinct condition key.
@@ -924,7 +925,7 @@ def test_repetition_drain():
     reconstruction instead. Mirrors test_allowlist_drain/
     test_scaffold_debt_drain in structure. Count mismatches are a wholly
     separate, always-hard-blocked check with no drain path; nothing here
-    ever touches FABLE_DRIFT_OVERRIDE or authorizeDriftOverride.
+    ever touches WORKER_DRIFT_OVERRIDE or authorizeDriftOverride.
 
     The pure-logic checks (1-7) are fully synthetic: they mock both
     repetition_baseline_entries and audit_rashi_semantic.profile_daf, so
@@ -1157,8 +1158,120 @@ def test_repetition_drain():
 
 
 
+def test_sonnet_only_policy():
+    """Sonnet is the only execution and escalation model. Pins the whole
+    registry plus every generated surface a worker actually reads, so a
+    reintroduced Haiku/Fable route fails CI instead of silently shipping."""
+    print("sonnet-only model policy:")
+    types = wp.load_registry()
+    for name, s in sorted(types.items()):
+        check(f"{name} model is sonnet", s.get("model") == "sonnet",
+              f"got {s.get('model')!r}")
+        check(f"{name} escalationModel is sonnet", s.get("escalationModel") == "sonnet",
+              f"got {s.get('escalationModel')!r}")
+        check(f"{name} declares an explicit mechanicalTier boolean",
+              isinstance(s.get("mechanicalTier"), bool))
+        check(f"{name} review policy is a known value",
+              wp.review_policy_of(s) in ("conditional", "independent", "none"))
+    # No retired model name may survive anywhere in the machine-read policy
+    # surface: registry, schema inventory, pipeline, or generated reference docs.
+    banned = re.compile(r"haiku|fable", re.I)
+    for rel in ("scripts/worker_task_types.json", "scripts/worker_schema_scope.json",
+                "scripts/worker_pipeline.py", "docs/reports/task-type-reference.md",
+                "docs/reports/schema-coverage-matrix.md"):
+        hits = [l for l in (REPO / rel).read_text().splitlines() if banned.search(l)]
+        check(f"{rel} carries no retired model name", not hits,
+              f"{len(hits)} line(s), first: {hits[0].strip()[:70] if hits else ''}")
+    # Every generated prompt must name Sonnet and never a retired model.
+    with tempfile.TemporaryDirectory() as td:
+        for ttype, rng in (("rashi-reconstruction", "70a"), ("audit-only", None),
+                           ("deployment-verify", None), ("docs-tooling", None)):
+            mp = Path(td) / f"{ttype}.json"
+            args = [sys.executable, "scripts/worker_pipeline.py", "manifest",
+                    "--type", ttype, "--module", "yoma", "--out", str(mp)]
+            if rng:
+                args += ["--range", rng]
+            subprocess.run(args, capture_output=True, text=True, cwd=REPO)
+            r = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "prompt",
+                                "--manifest", str(mp)], capture_output=True, text=True, cwd=REPO)
+            check(f"{ttype} prompt generates", r.returncode == 0, r.stderr[-160:])
+            check(f"{ttype} prompt carries no retired model name",
+                  not banned.search(r.stdout))
+            check(f"{ttype} prompt states Sonnet is the only model",
+                  "only execution and escalation model" in r.stdout)
+
+
+def test_lifecycle_consistency():
+    """Every task type's lifecycle must agree with its own file scope, and a
+    read-only pass must be forbidden from producing any tracked change. This
+    is the contradiction the pre-15.332 registry carried: audit-only and
+    deployment-verify forbade tracked changes while the universal loop
+    demanded a VERSION bump and a PR from every pass."""
+    print("task lifecycle consistency:")
+    types = wp.load_registry()
+    for name, s in sorted(types.items()):
+        lc = wp.lifecycle_of(s)
+        check(f"{name} lifecycle is a known value", lc in wp.LIFECYCLES)
+        writes = [f for f in s["allowedFiles"] if f != ".worker-manifest.json"]
+        if lc == "read-only":
+            check(f"{name} read-only type declares no writable files", not writes,
+                  f"declares {writes}")
+        else:
+            # A 'pr' type must be able to carry the VERSION bump its own
+            # lifecycle requires; otherwise the loop is unsatisfiable.
+            if writes:
+                for need in ("VERSION", "package.json", "package-lock.json"):
+                    check(f"{name} pr-lifecycle type may bump {need}",
+                          need in s["allowedFiles"] and need not in s["forbiddenFiles"],
+                          f"allowed={need in s['allowedFiles']} "
+                          f"forbidden={need in s['forbiddenFiles']}")
+    check("deployment-verify is read-only",
+          wp.lifecycle_of(types["deployment-verify"]) == "read-only")
+    check("audit-only writes reports, so it is a pr lifecycle",
+          wp.lifecycle_of(types["audit-only"]) == "pr")
+    check("audit-only still cannot touch modules or scripts",
+          "modules/*" in types["audit-only"]["forbiddenFiles"]
+          and "scripts/*" in types["audit-only"]["forbiddenFiles"])
+
+    with tempfile.TemporaryDirectory() as td:
+        mp = Path(td) / "m.json"
+        subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
+                        "--type", "deployment-verify", "--module", "yoma", "--out", str(mp)],
+                       capture_output=True, text=True, cwd=REPO)
+        m = json.loads(mp.read_text())
+        check("read-only manifest carries lifecycle read-only",
+              m.get("lifecycle") == "read-only")
+        r = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "prompt",
+                            "--manifest", str(mp)], capture_output=True, text=True, cwd=REPO)
+        check("read-only prompt forbids the VERSION bump",
+              "Do NOT bump VERSION" in r.stdout)
+        check("read-only prompt forbids opening a PR",
+              "do NOT open a PR" in r.stdout or "Do NOT commit" in r.stdout)
+        check("read-only prompt does not order a VERSION bump step",
+              "6. Bump VERSION one patch" not in r.stdout)
+        # The enforcement itself. Deterministic regardless of ambient working-tree
+        # state: verify_read_only must report ok exactly when nothing changed, and
+        # a VERSION bump must always surface as an offending path.
+        spec_dv = types["deployment-verify"]
+        ok0, changed0 = wp.verify_read_only(m, spec_dv, "HEAD")
+        check("verify_read_only reports ok exactly when nothing changed",
+              ok0 == (not changed0))
+        probe = REPO / "VERSION"
+        original = probe.read_text()
+        try:
+            probe.write_text("99.999\n")
+            ok2, changed2 = wp.verify_read_only(m, spec_dv, "HEAD")
+            check("verify_read_only fails when VERSION is bumped", not ok2)
+            check("verify_read_only names the offending path",
+                  any(c.endswith("VERSION") for c in changed2), f"{changed2}")
+        finally:
+            probe.write_text(original)
+
+
 def main():
     test_registry()
+    test_sonnet_only_policy()
+    test_lifecycle_consistency()
     test_pure_policy()
     test_live_gate_fails_closed()
     test_prompt()

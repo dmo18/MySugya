@@ -8,30 +8,26 @@ are split so that no single actor can bypass them.
 
 ## Roles
 
-- Fable builds and maintains the guardrails, performs forensic audits,
-  designs repair passes, owns docs/workflow/branch hygiene, and handles
-  every escalation. Since VERSION 15.93 Fable is NOT the routine per-PR
-  reviewer for semantic daf work: rashi-realignment and
-  rashi-reconstruction run under the conditional review policy (see
-  below), and Fable reviews only when an escalation condition fires.
-  Fable performs daf content work only when explicitly substituting
-  because Sonnet is unavailable.
-- Sonnet is the default worker for semantic daf work: Hebrew
-  translation, placement judgments, shifted-daf realignment
-  (rashi-realignment), and fabricated-daf reconstruction
-  (rashi-reconstruction). Only Fable/Sonnet may make Hebrew translation
-  or placement judgments; Haiku is not allowed on those task types. On
-  the two conditional types Sonnet executes end to end: repair, fresh
+Sonnet is the only execution and escalation model for Rashi work. The
+distinction that matters is capability tier, not model:
+
+- Judgment-required work (mechanicalTier false): Hebrew translation,
+  placement judgments, shifted-daf realignment (rashi-realignment), and
+  fabricated-daf reconstruction (rashi-reconstruction). On the
+  conditional types the worker executes end to end: repair, fresh
   post-edit self-review, CI, the worker:review auto-merge gate, merge,
   deploy verification, and progression to the next queued target.
-- Haiku (or another small model) may perform bounded Rashi work ONLY
-  inside the guardrails: executing a prepared work packet, running the
-  validators, committing, and doing mechanical CI/deploy polling.
-- Haiku may NOT override or reinterpret a validator failure, may NOT add
-  or edit allowlist or baseline entries (the PR scope gate enforces
-  remove-only), and may NOT proceed past any uncertain Hebrew meaning or
+- Mechanical-tier work (mechanicalTier true): bounded Rashi passes run
+  strictly inside the guardrails - executing a prepared work packet,
+  running the validators, committing, and mechanical CI/deploy polling.
+- No pass, at any tier, may override or reinterpret a validator failure,
+  add or edit allowlist or baseline entries (the PR scope gate enforces
+  remove-only), or proceed past any uncertain Hebrew meaning or
   placement. The required action on failure or uncertainty is stop and
-  escalate to Fable/Sonnet.
+  escalate.
+- Guardrail maintenance, forensic audits, repair-pass design, and
+  docs/workflow/branch hygiene are docs-tooling passes, separate from
+  content passes and never mixed into a content PR.
 - No content PR merges unless every offline gate passes in CI. There are
   no exceptions; a red gate means the content is wrong or the scope was
   exceeded.
@@ -76,17 +72,16 @@ citations, search window 25):
   (2+ distinct lines nonzero same-sign offsets including one beyond 2).
 - FABRICATION-SUSPECT: 2+ consecutive non-allowlisted Hebrew citation
   anchors appear nowhere in the English.
-- ALIGNED / INSUFFICIENT-ANCHORS: haiku-safe.
+- ALIGNED / INSUFFICIENT-ANCHORS: line-level-safe.
 
 On a SHIFTED or FABRICATION-SUSPECT daf, `rashi_preflight` FAILS any
 line-level task (repair, links): stub-only work there duplicates
 content and cements misalignment. The remedies are rashi-realignment
 (shifted) and rashi-reconstruction (fabricated), Sonnet worker under
-the conditional review policy (Fable substitutes as worker only when
-Sonnet is unavailable; Fable reviews only on escalation). Override is
-Fable-only: the manifest must carry
+the conditional review policy. Override is operator-only: the manifest
+must carry
 authorizeDriftOverride AND the environment must set
-FABLE_DRIFT_OVERRIDE=1; worker prompts never mention either. The work
+WORKER_DRIFT_OVERRIDE=1; worker prompts never mention either. The work
 packet embeds each daf's profile, and worker:verify enforces a clean
 post-edit profile for both rashi-realignment and rashi-reconstruction
 PRs. Tests: `npm run test:drift:yoma` (part of `npm test`).
@@ -102,7 +97,7 @@ manifest, and `worker:preflight` lets a reconstruction proceed past the
 repetition-baseline block only when that snapshot matches live state
 exactly AND the drift profile still recommends reconstruction. This is
 narrower than a drift override -- it never touches
-FABLE_DRIFT_OVERRIDE/authorizeDriftOverride, and it never applies to
+WORKER_DRIFT_OVERRIDE/authorizeDriftOverride, and it never applies to
 count mismatches, which have no drain path anywhere in the pipeline.
 
 ### Source-relative citation-evidence review-gate policy
@@ -147,7 +142,7 @@ own distinct PASS/FAIL line (`one-anchor-safe` or `zero-anchor-safe`)
 rather than a silent ALIGNED relabel. SHIFTED and FABRICATION-SUSPECT
 can never qualify at any tier (both always carry 2+ anchors). This
 never changes the classifier itself. `rashi-structural-repair` is
-unaffected: it keeps its own, separate, unconditional haiku-safe
+unaffected: it keeps its own, separate, unconditional line-level-safe
 (ALIGNED or INSUFFICIENT-ANCHORS) allowance.
 
 Before starting content work on a multi-daf campaign, run
@@ -165,7 +160,7 @@ rather than discovered mid-campaign. Tests: `npm run test:policy`.
 The baselined entry-count mismatches (8a: 41 entries vs 35 raw lines;
 9a: 22 vs 18) are structural defects: phantom entries with no raw-line
 anchor, not helper-content problems. They are handled ONLY by the
-rashi-structural-repair task type: Fable worker, one daf per PR,
+rashi-structural-repair task type: one daf per PR,
 conditional review, and a REQUIRED explicit allowStructure manifest
 authorization; preflight fails without it, and no other task type can
 carry it, so ordinary line-level passes can never change entry counts.
@@ -177,9 +172,9 @@ is removed only when the content validator reports it stale.
 ## Conditional semantic review (VERSION 15.93)
 
 rashi-realignment and rashi-reconstruction no longer require an
-unconditional Fable review on every PR. The registry marks them
-`reviewPolicy: "conditional"` with `escalationModel: "fable"`; the
-worker (Sonnet) merges its own PR WITHOUT operator or Fable sign-off
+unconditional independent review on every PR. The registry marks them
+`reviewPolicy: "conditional"` with `escalationModel: "sonnet"`; the
+worker merges its own PR WITHOUT operator or independent sign-off
 only when every auto-merge condition holds, and otherwise escalates.
 The full condition list, the fresh self-review contract
 (.worker-self-review.json), the mandatory escalation conditions, and
@@ -194,7 +189,7 @@ green case.
 
 ## Bounded work procedure (per daf)
 
-1. Fable (or the coordinator) generates the work packet:
+1. The coordinator generates the work packet:
    `npm run rashi:packet:yoma -- <daf>` (add `--json` for machine form).
    The packet contains the raw Hebrew, the ONLY legal local segment ids
    (Gemara AND Mishnah kinds, in source order, each with its kind and
@@ -291,7 +286,7 @@ at Settings > Branches > main:
 PR #80 (68b realignment) exposed a packet-generator defect: the legal
 id table collected only kind "gemara" segments, so the end-of-perek
 Mishnah yoma-068b-l13b was missing, and the worker fell back to
-positional linking (Rashi line N to the segment at vilna N). Fable
+positional linking (Rashi line N to the segment at vilna N). The review
 review had to correct 50 of 60 links. The fix (this section's version):
 
 - make_rashi_work_packet.py emits every kind-bearing local segment,

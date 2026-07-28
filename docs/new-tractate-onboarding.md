@@ -15,10 +15,10 @@ docs/tractate-build-process.md; this checklist covers the SAFETY layer.
 ## 2. Schema mapping
 
 - [ ] enrichment JSON follows shared/schema_map.js; any new field goes
-      through a schema change (Fable, docs-tooling PR) FIRST
+      through a schema change (docs-tooling PR) FIRST
 - [ ] run the corpus path walk (see scripts/worker_schema_scope.json
       generation) and extend the inventory with any module-specific paths
-- [ ] classify every new path (immutable / haiku-manifest / fable-only /
+- [ ] classify every new path (immutable / manifest-editable / judgment-required /
       flag-only / generated-only / deprecated) and assign an owning task
       type; `npm run worker:schema-matrix` must pass
 
@@ -49,7 +49,7 @@ docs/tractate-build-process.md; this checklist covers the SAFETY layer.
 - [ ] if migration imports known-bad legacy content, document each
       violation in the module backlog and load it as a ratchet baseline
       in the same PR that documents it (RASHI_ALLOWLIST_RESTRUCTURE=1,
-      Fable only); the list may only shrink afterwards
+      docs-tooling only); the list may only shrink afterwards
 
 ## 7. Required first dry runs (no content edits)
 
@@ -63,9 +63,9 @@ docs/tractate-build-process.md; this checklist covers the SAFETY layer.
 
 - [ ] required check `build` (containing the module's offline gates and
       both scope checks), PR-required, up-to-date-required, force pushes
-      blocked - configured by an admin before the first Haiku pass
+      blocked - configured by an admin before the first worker pass
 
-## 9. First Haiku task
+## 9. First worker task
 
 - [ ] choose the smallest, most mechanical, fully gate-covered task
       (single daf, repair-type, machine-checkable completion)

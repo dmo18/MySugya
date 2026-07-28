@@ -8,7 +8,7 @@ Root cause pinned here (found in PR #80 review, VERSION 15.90): the
 packet's segment table collected only kind "gemara" segments, so the
 end-of-perek Mishnah yoma-068b-l13b was missing from 68b's legal id
 table. Without that anchor the worker fell back to positional linking
-(Rashi line N to the segment at vilna N), and Fable review had to
+(Rashi line N to the segment at vilna N), and independent review had to
 correct 50 of 60 links. These tests fail if any part of the fix
 regresses:
 

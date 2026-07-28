@@ -5,12 +5,14 @@ Do not hand-edit; regenerate after registry changes.
 
 ## audit-only
 
-Read-only audits: corpus scans, semantic audit reports, validator dry runs, backlog reconciliation. May write ONLY report artifacts under docs/reports/ and process notes in docs/rashi-audit-backlog.md. No content, no generated data.
+Read-only audits: corpus scans, semantic audit reports, validator dry runs, backlog reconciliation. May write ONLY report artifacts under docs/reports/ and process notes in docs/rashi-audit-backlog.md. No content, no generated data. Carries its own VERSION bump for the report artifact it writes.
 
-- model: haiku
-- haiku allowed: yes
+- model: sonnet
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: yes
 - max batch: n/a
-- allowed files: docs/reports/*, docs/rashi-audit-backlog.md, .worker-manifest.json
+- allowed files: docs/reports/*, docs/rashi-audit-backlog.md, .worker-manifest.json, VERSION, package.json, package-lock.json
 - allowlist policy: forbidden; structure policy: forbidden
 - required validators: validate:offline:yoma
 - stop conditions:
@@ -20,8 +22,10 @@ Read-only audits: corpus scans, semantic audit reports, validator dry runs, back
 
 Verify main deploy workflows and live site after a merge. Read-only: no file changes permitted at all.
 
-- model: haiku
-- haiku allowed: yes
+- model: sonnet
+- escalation model: sonnet
+- lifecycle: read-only  (no VERSION bump, no commit, no PR)
+- mechanical tier: yes
 - max batch: n/a
 - allowed files: none (read-only task)
 - allowlist policy: forbidden; structure policy: forbidden
@@ -32,10 +36,12 @@ Verify main deploy workflows and live site after a merge. Read-only: no file cha
 
 ## display-only-edit
 
-Copy edits to sugya display fields only (whats, hint, title, oneLine, shortSummary). The Haiku-safe entry point for enrichment copy work.
+Copy edits to sugya display fields only (whats, hint, title, oneLine, shortSummary). The mechanical-tier entry point for enrichment copy work.
 
-- model: haiku; Fable review required
-- haiku allowed: yes
+- model: sonnet; independent Sonnet review required before merge
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: yes
 - max batch: 2
 - allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/yoma-perek-review.md, .worker-manifest.json
 - mutable JSON paths: sugyot[*].display.whats, sugyot[*].display.hint, sugyot[*].display.title, sugyot[*].display.oneLine, sugyot[*].display.shortSummary
@@ -47,10 +53,12 @@ Copy edits to sugya display fields only (whats, hint, title, oneLine, shortSumma
 
 ## docs-tooling
 
-Docs, scripts, CI, hooks, and pipeline changes. No module data. Fable/Sonnet only for validator/pipeline logic.
+Docs, scripts, CI, hooks, and pipeline changes. No module data. Sonnet only for validator/pipeline logic.
 
-- model: fable
-- haiku allowed: no
+- model: sonnet
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: no
 - max batch: n/a
 - allowed files: docs/*, scripts/*, modules/yoma/scripts/*.py, modules/yoma/scripts/allowlists/*, .github/workflows/*, githooks/*, package.json, package-lock.json, VERSION, README.md, CLAUDE.md, SOURCES.md, tests/*, .worker-manifest.json, .worker-queue.json
 - allowlist policy: restructure-with-env; structure policy: not-applicable
@@ -61,10 +69,12 @@ Docs, scripts, CI, hooks, and pipeline changes. No module data. Fable/Sonnet onl
 
 ## gemara-learning
 
-Edits to sugya display/learning enrichment fields (argumentFlow, quizSeeds, misconceptions, takeaway). Semantic content work: Fable/Sonnet only.
+Edits to sugya display/learning enrichment fields (argumentFlow, quizSeeds, misconceptions, takeaway). Semantic content work: Sonnet, with an independent Sonnet review before merge.
 
-- model: fable; Fable review required
-- haiku allowed: no
+- model: sonnet; independent Sonnet review required before merge
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: no
 - max batch: 1
 - allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/yoma-perek-review.md, .worker-manifest.json
 - mutable JSON paths: sugyot[*].display.whats, sugyot[*].display.hint, sugyot[*].display.title, sugyot[*].learning.ahaMoment, sugyot[*].learning.memoryAnchor, sugyot[*].learning.learnerQuestion, sugyot[*].learning.coreTension, sugyot[*].learning.coreMove, sugyot[*].learning.learningBlocker, sugyot[*].learning.takeaway.text
@@ -82,8 +92,10 @@ Edits to sugya display/learning enrichment fields (argumentFlow, quizSeeds, misc
 
 Regenerate learning_data.js/coverage.json from unchanged sources (e.g. after a generator fix merged separately). No source edits.
 
-- model: haiku
-- haiku allowed: yes
+- model: sonnet
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: yes
 - max batch: n/a
 - allowed files: modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, .worker-manifest.json
 - allowlist policy: forbidden; structure policy: forbidden
@@ -95,8 +107,10 @@ Regenerate learning_data.js/coverage.json from unchanged sources (e.g. after a g
 
 Glossary entry text edits (he/translit/en) at daf or sugya level. Entry add/remove is structure.
 
-- model: fable
-- haiku allowed: no
+- model: sonnet
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: no
 - max batch: 1
 - allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/yoma-perek-review.md, .worker-manifest.json
 - mutable JSON paths: glossary[*].he, glossary[*].translit, glossary[*].en, sugyot[*].glossary[*].he, sugyot[*].glossary[*].translit, sugyot[*].glossary[*].en, sugyot[*].concepts[*].term, sugyot[*].concepts[*].he, sugyot[*].concepts[*].translit, sugyot[*].concepts[*].def
@@ -107,10 +121,12 @@ Glossary entry text edits (he/translit/en) at daf or sugya level. Entry add/remo
 
 ## learning-copy-edit
 
-Edits to learning narrative fields (ahaMoment, memoryAnchor, learnerQuestion, coreTension, coreMove, learningBlocker, resolution, takeaway.text). Subject to CLAUDE.md enrichment quality standards: Fable/Sonnet only.
+Edits to learning narrative fields (ahaMoment, memoryAnchor, learnerQuestion, coreTension, coreMove, learningBlocker, resolution, takeaway.text). Subject to CLAUDE.md enrichment quality standards: Sonnet only.
 
-- model: fable
-- haiku allowed: no
+- model: sonnet
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: no
 - max batch: 1
 - allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/yoma-perek-review.md, .worker-manifest.json
 - mutable JSON paths: sugyot[*].learning.ahaMoment, sugyot[*].learning.coreMove, sugyot[*].learning.coreTension, sugyot[*].learning.learnerQuestion, sugyot[*].learning.learningBlocker, sugyot[*].learning.memoryAnchor, sugyot[*].learning.reasoningPattern.category, sugyot[*].learning.reasoningPattern.id, sugyot[*].learning.reasoningPattern.notes, sugyot[*].learning.resolution, sugyot[*].learning.takeaway.text
@@ -125,8 +141,10 @@ Edits to learning narrative fields (ahaMoment, memoryAnchor, learnerQuestion, co
 
 en_lit literal-translation fetch/injection work (assets/literal_en + regeneration). Mechanical once fetch output is verified.
 
-- model: haiku
-- haiku allowed: yes
+- model: sonnet
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: yes
 - max batch: 1
 - allowed files: modules/yoma/assets/literal_en/*, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, .worker-manifest.json
 - mutable JSON paths: <literal_en per-daf JSON>
@@ -140,8 +158,10 @@ en_lit literal-translation fetch/injection work (assets/literal_en + regeneratio
 
 Review-status stamp updates (top-level review block and sugyot[*].review) after an audited pass.
 
-- model: fable
-- haiku allowed: no
+- model: sonnet
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: no
 - max batch: 1
 - allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/yoma-perek-review.md, .worker-manifest.json
 - mutable JSON paths: review, review.argumentFlow, review.concepts, review.content, review.learning, review.sourceRefs, review.status, review.version, sugyot[*].review, sugyot[*].review.argumentFlow, sugyot[*].review.concepts, sugyot[*].review.content, sugyot[*].review.learning, sugyot[*].review.sourceRefs
@@ -152,10 +172,12 @@ Review-status stamp updates (top-level review block and sugyot[*].review) after 
 
 ## nekudot
 
-Nekudot/vowelization correctness work on Rashi he fields. PAUSED: not yet authorized; requires its own validator design first. Fable only when unpaused.
+Nekudot/vowelization correctness work on Rashi he fields. PAUSED: not yet authorized; requires its own validator design first. Sonnet only when unpaused.
 
-- model: fable; PAUSED
-- haiku allowed: no
+- model: sonnet; PAUSED
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: no
 - max batch: 1
 - allowed files: none (read-only task)
 - allowlist policy: forbidden; structure policy: forbidden
@@ -167,8 +189,10 @@ Nekudot/vowelization correctness work on Rashi he fields. PAUSED: not yet author
 
 Replace a documented filler/placeholder block (e.g. 77a-88a) with genuine helpers. Same contract as rashi-repair; targets must have documented allowlist hits.
 
-- model: haiku-with-fable-review; Fable review required
-- haiku allowed: yes
+- model: sonnet; independent Sonnet review required before merge
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: yes
 - max batch: 2
 - allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json
 - mutable JSON paths: rashiTranslations[*].en, rashiTranslations[*].linkedGemaraLineIds
@@ -181,10 +205,12 @@ Replace a documented filler/placeholder block (e.g. 77a-88a) with genuine helper
 
 ## quiz-edit
 
-quizSeeds and misconceptions text edits. Must test real distinctions per CLAUDE.md; Fable/Sonnet only.
+quizSeeds and misconceptions text edits. Must test real distinctions per CLAUDE.md; Sonnet only.
 
-- model: fable
-- haiku allowed: no
+- model: sonnet
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: no
 - max batch: 1
 - allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/yoma-perek-review.md, .worker-manifest.json
 - mutable JSON paths: sugyot[*].quizSeeds[*].question, sugyot[*].quizSeeds[*].answer, sugyot[*].quizSeeds[*].type, sugyot[*].misconceptions[*].misconception, sugyot[*].misconceptions[*].correction, sugyot[*].misconceptions[*].correctedByStepId
@@ -195,10 +221,12 @@ quizSeeds and misconceptions text edits. Must test real distinctions per CLAUDE.
 
 ## rashi-realignment
 
-Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 68a, 68b, 70a, 71b, 41a): redistribute the existing genuine translations onto their correct vilna lines and translate only the genuinely uncovered remainder. Never a stub repair. Fable/Sonnet only.
+Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 68a, 68b, 70a, 71b, 41a): redistribute the existing genuine translations onto their correct vilna lines and translate only the genuinely uncovered remainder. Never a stub repair. Sonnet worker under a generated manifest.
 
 - model: sonnet; review: conditional auto-merge gate (worker self-review + worker:review; escalation to sonnet)
-- haiku allowed: no
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: no
 - max batch: 1
 - allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
 - mutable JSON paths: rashiTranslations[*].en, rashiTranslations[*].linkedGemaraLineIds
@@ -227,7 +255,9 @@ Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 6
 Full line-by-line Rashi helper reconstruction for a daf with no unresolved content-allowlist hits, unless a matching allowlistDrain snapshot authorizes proceeding on pre-existing target-scoped debt. Pre-existing repetition-baseline debt for the target daf is similarly auto-snapshotted (repetitionDrain) and may be drained by the reconstruction itself when the daf's drift profile already recommends reconstruction; count mismatches have no such path and always block.
 
 - model: sonnet; review: conditional auto-merge gate (worker self-review + worker:review; escalation to sonnet)
-- haiku allowed: no
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: no
 - max batch: 1
 - allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
 - mutable JSON paths: rashiTranslations[*].en, rashiTranslations[*].linkedGemaraLineIds
@@ -255,8 +285,10 @@ Full line-by-line Rashi helper reconstruction for a daf with no unresolved conte
 
 Repair documented Rashi helper defects (stubs, filler, placeholder lines) on daf with existing allowlist/baseline hits.
 
-- model: haiku
-- haiku allowed: yes
+- model: sonnet
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: yes
 - max batch: 1
 - allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json
 - mutable JSON paths: rashiTranslations[*].en, rashiTranslations[*].linkedGemaraLineIds
@@ -272,12 +304,14 @@ Repair documented Rashi helper defects (stubs, filler, placeholder lines) on daf
 
 ## rashi-structural-repair
 
-Structural repair of a daf's rashiTranslations layer: baselined entry-count mismatches, phantom entries with no raw-line anchor, or missing entries (documented backlog: 8a, 9a). Restores exact 1:1 correspondence with the authoritative talmuddev raw lines: after the pass, entry count and vilnaLine sequence must match the source exactly, every helper must render its own raw line, and every link must be semantic. The ONLY task type permitted to change rashiTranslations structure, and only with the explicit allowStructure authorization on the manifest. Fable only; ordinary Haiku or Sonnet manifests can never authorize structural or count changes.
+Structural repair of a daf's rashiTranslations layer: baselined entry-count mismatches, phantom entries with no raw-line anchor, or missing entries (documented backlog: 8a, 9a). Restores exact 1:1 correspondence with the authoritative talmuddev raw lines: after the pass, entry count and vilnaLine sequence must match the source exactly, every helper must render its own raw line, and every link must be semantic. The ONLY task type permitted to change rashiTranslations structure, and only with the explicit allowStructure authorization on the manifest. Sonnet only, and only on a manifest carrying allowStructure; no ordinary manifest can ever authorize structural or count changes.
 
-- model: fable; review: conditional auto-merge gate (worker self-review + worker:review; escalation to sonnet)
-- haiku allowed: no
+- model: sonnet; review: conditional auto-merge gate (worker self-review + worker:review; escalation to sonnet)
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: no
 - max batch: 1
-- REQUIRED authorization: allowStructure (Fable-issued; preflight fails without it)
+- REQUIRED authorization: allowStructure (operator-issued; preflight fails without it)
 - allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
 - mutable JSON paths: rashiTranslations
 - allowlist policy: remove-only; structure policy: explicit-allowStructure-required
@@ -292,7 +326,7 @@ Structural repair of a daf's rashiTranslations layer: baselined entry-count mism
   - allowlist growth would be needed
   - validator or workflow modification would be needed
   - semantic uncertainty remains after rereading the raw Hebrew and full segment text
-  - post-edit drift profile not haiku-safe (ALIGNED or INSUFFICIENT-ANCHORS)
+  - post-edit drift profile not line-level-safe (ALIGNED or INSUFFICIENT-ANCHORS)
   - a semantic audit shift candidate remains on the target daf
   - the fresh post-edit self-review finds a blocker
   - CI or full verification fails after one bounded correction attempt
@@ -300,10 +334,12 @@ Structural repair of a daf's rashiTranslations layer: baselined entry-count mism
 
 ## structural-repair
 
-Structural repairs: argumentFlow steps/ids/labels/sourceRefs, lineRange, lines, sefariaRefs, conceptRefs, ids, sugya add/remove. Always requires --authorize allowStructure; Fable only.
+Structural repairs: argumentFlow steps/ids/labels/sourceRefs, lineRange, lines, sefariaRefs, conceptRefs, ids, sugya add/remove. Always requires --authorize allowStructure; Sonnet only.
 
-- model: fable
-- haiku allowed: no
+- model: sonnet
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: no
 - max batch: 1
 - allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/yoma-perek-review.md, .worker-manifest.json
 - mutable JSON paths: sugyot[*].argumentFlow[*], sugyot[*].lineRange, sugyot[*].lines[*], sugyot[*].sefariaRefs[*], sugyot[*].conceptRefs[*], sugyot[*].id, sugyot[*].sugyaNumber, sugyot[*].sourceLinks, sugyot[*].relatedSugyot[*], sugyot[*].requiresUnderstanding[*], sugyot[*].topicTags[*], sugyot[*].visualizableElements[*], sugyot[*].difficulty, sugyot[*].finalRuling, sugyot[*].quizSeeds[*].sourceRefs[*], canonicalRef
@@ -317,8 +353,10 @@ Structural repairs: argumentFlow steps/ids/labels/sourceRefs, lineRange, lines, 
 
 Top-level daf summary copy edits.
 
-- model: fable
-- haiku allowed: no
+- model: sonnet
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: no
 - max batch: 1
 - allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/yoma-perek-review.md, .worker-manifest.json
 - mutable JSON paths: summary

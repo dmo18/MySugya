@@ -42,8 +42,8 @@ FAILS (exit 1) when:
     SHIFTED or FABRICATION-SUSPECT and --task is a line-level mode
     ('repair' or 'links'): stub-only work there duplicates content and
     cements misalignment. Use rashi-realignment (shifted) or
-    rashi-reconstruction (fabricated) under Fable/Sonnet. Override is
-    Fable-only: FABLE_DRIFT_OVERRIDE=1 plus, at the worker-pipeline
+    rashi-reconstruction (fabricated) under Sonnet. Override is
+    operator-only: WORKER_DRIFT_OVERRIDE=1 plus, at the worker-pipeline
     level, a manifest carrying authorizeDriftOverride.
 
 Otherwise prints, per daf: raw Rashi count, current entry count, real local
@@ -115,15 +115,15 @@ def expand_targets(spec):
 # so these modes are blocked there. Realignment/reconstruction modes are the
 # remedies and stay allowed.
 DRIFT_BLOCKED_TASKS = {"repair", "links"}
-DRIFT_OVERRIDE_ENV = "FABLE_DRIFT_OVERRIDE"
+DRIFT_OVERRIDE_ENV = "WORKER_DRIFT_OVERRIDE"
 
 
 def drift_block_error(profile, task, env=None):
     """Return the blocking error string for this daf/task, or None.
-    Override requires the Fable-only environment variable (mirroring the
+    Override requires the operator-only environment variable (mirroring the
     RASHI_ALLOWLIST_RESTRUCTURE precedent); worker prompts never mention
     it, so a worker following its generated packet cannot trip it."""
-    if task not in DRIFT_BLOCKED_TASKS or profile is None or profile["haikuSafe"]:
+    if task not in DRIFT_BLOCKED_TASKS or profile is None or profile["lineLevelSafe"]:
         return None
     env = os.environ if env is None else env
     if env.get(DRIFT_OVERRIDE_ENV) == "1":
@@ -132,8 +132,8 @@ def drift_block_error(profile, task, env=None):
             f"{profile['classification']} (anchors found {profile['anchorsFound']}, "
             f"missing {profile['anchorsMissing']}, max offset {profile['maxAbsOffset']}); "
             f"stub-only {task} work is forbidden here. Use "
-            f"{profile['recommendedTaskType']} under Fable/Sonnet instead. "
-            f"Override requires a Fable-issued manifest authorization "
+            f"{profile['recommendedTaskType']} under Sonnet instead. "
+            f"Override requires an operator-issued manifest authorization "
             f"(authorizeDriftOverride) plus {DRIFT_OVERRIDE_ENV}=1.")
 
 
@@ -219,7 +219,7 @@ def main():
             print(f"drift profile:        {profile['classification']} "
                   f"(anchors {profile['anchorsFound']} found / {profile['anchorsMissing']} missing, "
                   f"max offset {profile['maxAbsOffset']}); "
-                  f"haiku-safe for line-level work: {'yes' if profile['haikuSafe'] else 'NO'}")
+                  f"line-level-safe for line-level work: {'yes' if profile['lineLevelSafe'] else 'NO'}")
 
         blockable = opts.task not in ("repair", "shifted-block", "links")
         if hits and blockable:

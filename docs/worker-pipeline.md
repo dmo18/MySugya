@@ -11,7 +11,7 @@ specifics). One registry, one driver, six commands. Added at VERSION
   contract per type (allowed files, allowed JSON paths, allowlist and
   structure policy, required validators, generation and test commands,
   escalation triggers, recommended model, paused flag). Editing the
-  registry is a pipeline change: Fable/Sonnet only, via a docs-tooling
+  registry is a pipeline change: Sonnet only, via a docs-tooling
   PR.
 - `scripts/worker_pipeline.py` - the driver. Rashi task types delegate
   to the proven Rashi tooling; nothing is duplicated or weakened.
@@ -58,8 +58,8 @@ canonical process document is docs/worker-pipeline-sop.md.
 - Workers may not override, weaken, or reinterpret any validator.
 - Workers may never ADD allowlist or baseline entries; the ratchet is
   enforced on every PR. Authorized restructuring requires
-  RASHI_ALLOWLIST_RESTRUCTURE=1 (Fable-run tooling PRs only).
-- Workers stop and escalate on semantic uncertainty; Fable/Sonnet owns
+  RASHI_ALLOWLIST_RESTRUCTURE=1 (docs-tooling PRs only).
+- Workers stop and escalate on semantic uncertainty; Sonnet owns
   Hebrew translation, placement judgment, validator design, schema and
   pipeline changes, and ambiguous repairs.
 - Generated files (`learning_data.js`, `coverage.json`) change only via
@@ -110,20 +110,20 @@ Not settable from repo code; configure at Settings > Branches > main:
 
 ## Readiness matrix (as of VERSION 15.80)
 
-| Work item | Task type | Model | Batch | Haiku now? | Notes |
+| Work item | Task type | Model | Batch | Mechanical tier? | Notes |
 |---|---|---|---|---|---|
-| 61a stubs (L46-64) | rashi-repair | haiku | 1 daf/PR | YES | first Haiku shakedown; packet lists exact lines |
-| 67b/68a/68b/70a/71b stubs | rashi-repair | haiku | 1 daf/PR | YES | after 61a merges green |
-| 41a shifted block (+42a L50 lead) | rashi-repair (shifted-block prompt) | fable/sonnet | 1 daf/PR | NO | semantic re-derivation; use rashi:prompt:yoma --task shifted-block |
-| 8a/9a phantom counts | rashi-repair + --allow-structure | fable | 1 daf/PR | NO | entry deletion needs explicit structure authorization |
-| 77a-88a filler (~765 lines) | placeholder-backfill | haiku-with-fable-review | 1 daf/PR, then 2-3 | PARTIAL | Haiku executes packets; Fable reviews semantic report pre-merge |
-| 47a+ reconstruction | rashi-reconstruction | haiku-with-fable-review | 1 daf/PR, then 2-3 | PARTIAL | resume only after defect backlog drained |
-| Gemara-learning edits | gemara-learning | fable | 1 daf/PR | NO | field-level jsonScope gate active since 15.81/15.82; passes require operator authorization and a fresh manifest (Rashi gate hands off to the worker gate) |
-| literal/en_lit refresh | literal-layer | haiku | range | YES | mechanical; literal gate protects coverage |
-| Nekudot/vowelization | nekudot | fable | n/a | NO | PAUSED in registry; needs validator design first |
-| Docs/tooling | docs-tooling | fable | n/a | NO | pipeline integrity is Fable's job |
-| Generated refresh | generated-refresh | haiku | n/a | YES | freshness gate proves output |
-| Deploy verification | deployment-verify | haiku | n/a | YES | read-only |
+| 61a stubs (L46-64) | rashi-repair | sonnet | 1 daf/PR | yes | mechanical; packet lists exact lines |
+| 67b/68a/68b/70a/71b stubs | rashi-repair | sonnet | 1 daf/PR | yes | after 61a merges green |
+| 41a shifted block (+42a L50 lead) | rashi-repair (shifted-block prompt) | sonnet | 1 daf/PR | no | semantic re-derivation; use rashi:prompt:yoma --task shifted-block |
+| 8a/9a phantom counts | rashi-structural-repair (--authorize allowStructure) | sonnet | 1 daf/PR | no | entry deletion needs explicit structure authorization |
+| 77a-88a filler (~765 lines) | placeholder-backfill | sonnet | 1 daf/PR, then 2-3 | yes | worker executes packets; independent Sonnet review before merge |
+| 47a+ reconstruction | rashi-reconstruction | sonnet | 1 daf/PR | no | conditional review gate; resume only after defect backlog drained |
+| Gemara-learning edits | gemara-learning | sonnet | 1 daf/PR | no | field-level jsonScope gate active since 15.81/15.82; passes require operator authorization and a fresh manifest (Rashi gate hands off to the worker gate) |
+| literal/en_lit refresh | literal-layer | sonnet | range | yes | mechanical; literal gate protects coverage |
+| Nekudot/vowelization | nekudot | sonnet | n/a | no | PAUSED in registry; needs validator design first |
+| Docs/tooling | docs-tooling | sonnet | n/a | no | pipeline integrity work |
+| Generated refresh | generated-refresh | sonnet | n/a | yes | freshness gate proves output |
+| Deploy verification | deployment-verify | sonnet | n/a | yes | read-only lifecycle: no VERSION bump, no PR |
 
 ## Hardening pass (VERSION 15.81): project-data-safe gates
 
@@ -135,7 +135,7 @@ Not settable from repo code; configure at Settings > Branches > main:
   ids, lineRange, argumentFlow, takeaway.type, glossary, quizSeeds,
   metadata) is immutable unless the manifest carries an explicit
   authorization flag (--authorize authorizeGlossary / authorizeQuizSeeds /
-  authorizeTakeawayType / allowStructure; Fable-issued only). Cross-daf
+  authorizeTakeawayType / allowStructure; operator-issued only). Cross-daf
   edits fail: every changed learning JSON must be a manifest target.
   The Rashi scope gate hands field enforcement for such PRs to this gate
   ONLY when a fresh gemara-learning manifest is part of the PR (both
@@ -162,10 +162,10 @@ Not settable from repo code; configure at Settings > Branches > main:
   .worker-manifest.json` emits the JSON report template prefilled with
   task type, targets, VERSION, branch, changed files, and allowlist
   delta; the worker fills PR/merge/deploy fields and posts it verbatim.
-- Fable review gate: task types flagged fableReviewRequired
+- Independent review gate: task types flagged independentReviewRequired
   (rashi-reconstruction, placeholder-backfill, gemara-learning) print a
   REVIEW GATE notice in verify output: the worker may open the PR and
-  poll CI but may NOT merge; Fable reviews first. This is a procedural
+  poll CI but may NOT merge; an independent Sonnet review comes first. This is a procedural
   gate; enable branch-protection required reviews to make it mechanical.
 
 ## Schema-wide coverage (VERSION 15.82)
@@ -176,9 +176,10 @@ cross-checked against the registry by `npm run worker:schema-matrix`
 (also run inside ci-check on every manifest-bearing PR). The scope gate
 is a generic jsonScope engine: per-type mutable path patterns, flag
 authorizations, structure detection with exact JSON pointers. Seven new
-task types cover the previously unowned paths: display-only-edit (haiku),
-learning-copy-edit, glossary-edit, quiz-edit, summary-edit,
-structural-repair (allowStructure required), metadata-review-status (all
-fable). See docs/reports/schema-pipeline-coverage.md for the full
-matrix, the 15-case negative-test battery, the 12 dry runs, the Haiku
-operating envelope, and the roadmap.
+task types cover the previously unowned paths: display-only-edit
+(mechanical tier), learning-copy-edit, glossary-edit, quiz-edit,
+summary-edit, structural-repair (allowStructure required), and
+metadata-review-status (all judgment-required). See
+docs/reports/schema-pipeline-coverage.md for the full matrix, the
+15-case negative-test battery, the 12 dry runs, the worker operating
+envelope, and the roadmap.
