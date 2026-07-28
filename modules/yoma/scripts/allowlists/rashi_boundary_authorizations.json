@@ -1,0 +1,166 @@
+{
+ "schema_version": 1,
+ "description": "Boundary-authorization registry for Yoma linkedGemaraLineIds. Each entry authorizes exactly one (daf, vilnaLine) Rashi entry to carry an empty linkedGemaraLineIds (a 'boundary' entry per audit_rashi_association.py's entry_category classification), with the specific reason, evidence classification, and source-relative boundary rule that justifies leaving it unlinked. Validated by validate_rashi_boundary_authorizations.py. Growth beyond the MAX_AUTHORIZED_ENTRIES ratchet in that validator requires an explicitly scoped docs-tooling PR that raises the ratchet.",
+ "entries": [
+  {
+   "daf": "4b",
+   "vilnaLine": 61,
+   "reason": "Single-word stub comment (\"Davar\") whose own text explicitly marks it as a continuation (\"stub continuation, continues on 5a\"). The comment it begins is completed on daf 5a, not on 4b.",
+   "evidenceClassification": "daf-boundary-truncation",
+   "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
+   "enFingerprint": "8dc9908e03e83ba1"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 46,
+   "reason": "Part of one continuous Rashi comment (vilnaLine 46-64) explaining Rabbi Yaakov's distinction between the metzora's log-of-oil applications and the Yom Kippur blood applications (Leviticus 14 citations, Menachot 9a). The Gemara passage it explains is itself truncated at yoma-061a-l45b (\"Rabbi Yochanan said:\") and completes at yoma-061b-l01. No local (61a) Gemara line exists for this content.",
+   "evidenceClassification": "daf-boundary-truncation",
+   "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
+   "enFingerprint": "3ebd4ed8945a884b"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 47,
+   "reason": "Part of one continuous Rashi comment (vilnaLine 46-64) explaining Rabbi Yaakov's distinction between the metzora's log-of-oil applications and the Yom Kippur blood applications (Leviticus 14 citations, Menachot 9a). The Gemara passage it explains is itself truncated at yoma-061a-l45b (\"Rabbi Yochanan said:\") and completes at yoma-061b-l01. No local (61a) Gemara line exists for this content.",
+   "evidenceClassification": "daf-boundary-truncation",
+   "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
+   "enFingerprint": "6a5536cbb0741fab"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 48,
+   "reason": "Part of one continuous Rashi comment (vilnaLine 46-64) explaining Rabbi Yaakov's distinction between the metzora's log-of-oil applications and the Yom Kippur blood applications (Leviticus 14 citations, Menachot 9a). The Gemara passage it explains is itself truncated at yoma-061a-l45b (\"Rabbi Yochanan said:\") and completes at yoma-061b-l01. No local (61a) Gemara line exists for this content.",
+   "evidenceClassification": "daf-boundary-truncation",
+   "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
+   "enFingerprint": "62c0a4623332414c"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 49,
+   "reason": "Part of one continuous Rashi comment (vilnaLine 46-64) explaining Rabbi Yaakov's distinction between the metzora's log-of-oil applications and the Yom Kippur blood applications (Leviticus 14 citations, Menachot 9a). The Gemara passage it explains is itself truncated at yoma-061a-l45b (\"Rabbi Yochanan said:\") and completes at yoma-061b-l01. No local (61a) Gemara line exists for this content.",
+   "evidenceClassification": "daf-boundary-truncation",
+   "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
+   "enFingerprint": "0e5a98681b23210c"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 50,
+   "reason": "Part of one continuous Rashi comment (vilnaLine 46-64) explaining Rabbi Yaakov's distinction between the metzora's log-of-oil applications and the Yom Kippur blood applications (Leviticus 14 citations, Menachot 9a). The Gemara passage it explains is itself truncated at yoma-061a-l45b (\"Rabbi Yochanan said:\") and completes at yoma-061b-l01. No local (61a) Gemara line exists for this content.",
+   "evidenceClassification": "daf-boundary-truncation",
+   "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
+   "enFingerprint": "43918c565dcab567"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 51,
+   "reason": "Part of one continuous Rashi comment (vilnaLine 46-64) explaining Rabbi Yaakov's distinction between the metzora's log-of-oil applications and the Yom Kippur blood applications (Leviticus 14 citations, Menachot 9a). The Gemara passage it explains is itself truncated at yoma-061a-l45b (\"Rabbi Yochanan said:\") and completes at yoma-061b-l01. No local (61a) Gemara line exists for this content.",
+   "evidenceClassification": "daf-boundary-truncation",
+   "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
+   "enFingerprint": "5ec51a20c011bd42"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 52,
+   "reason": "Part of one continuous Rashi comment (vilnaLine 46-64) explaining Rabbi Yaakov's distinction between the metzora's log-of-oil applications and the Yom Kippur blood applications (Leviticus 14 citations, Menachot 9a). The Gemara passage it explains is itself truncated at yoma-061a-l45b (\"Rabbi Yochanan said:\") and completes at yoma-061b-l01. No local (61a) Gemara line exists for this content.",
+   "evidenceClassification": "daf-boundary-truncation",
+   "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
+   "enFingerprint": "4994094ccf63caa8"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 53,
+   "reason": "Part of one continuous Rashi comment (vilnaLine 46-64) explaining Rabbi Yaakov's distinction between the metzora's log-of-oil applications and the Yom Kippur blood applications (Leviticus 14 citations, Menachot 9a). The Gemara passage it explains is itself truncated at yoma-061a-l45b (\"Rabbi Yochanan said:\") and completes at yoma-061b-l01. No local (61a) Gemara line exists for this content.",
+   "evidenceClassification": "daf-boundary-truncation",
+   "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
+   "enFingerprint": "329865144d876ae8"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 54,
+   "reason": "Part of one continuous Rashi comment (vilnaLine 46-64) explaining Rabbi Yaakov's distinction between the metzora's log-of-oil applications and the Yom Kippur blood applications (Leviticus 14 citations, Menachot 9a). The Gemara passage it explains is itself truncated at yoma-061a-l45b (\"Rabbi Yochanan said:\") and completes at yoma-061b-l01. No local (61a) Gemara line exists for this content.",
+   "evidenceClassification": "daf-boundary-truncation",
+   "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
+   "enFingerprint": "995be3f552667fe0"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 55,
+   "reason": "Part of one continuous Rashi comment (vilnaLine 46-64) explaining Rabbi Yaakov's distinction between the metzora's log-of-oil applications and the Yom Kippur blood applications (Leviticus 14 citations, Menachot 9a). The Gemara passage it explains is itself truncated at yoma-061a-l45b (\"Rabbi Yochanan said:\") and completes at yoma-061b-l01. No local (61a) Gemara line exists for this content.",
+   "evidenceClassification": "daf-boundary-truncation",
+   "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
+   "enFingerprint": "eeba09fdc5fe30fa"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 56,
+   "reason": "Part of one continuous Rashi comment (vilnaLine 46-64) explaining Rabbi Yaakov's distinction between the metzora's log-of-oil applications and the Yom Kippur blood applications (Leviticus 14 citations, Menachot 9a). The Gemara passage it explains is itself truncated at yoma-061a-l45b (\"Rabbi Yochanan said:\") and completes at yoma-061b-l01. No local (61a) Gemara line exists for this content.",
+   "evidenceClassification": "daf-boundary-truncation",
+   "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
+   "enFingerprint": "54064cd9ad5170ee"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 57,
+   "reason": "Part of one continuous Rashi comment (vilnaLine 46-64) explaining Rabbi Yaakov's distinction between the metzora's log-of-oil applications and the Yom Kippur blood applications (Leviticus 14 citations, Menachot 9a). The Gemara passage it explains is itself truncated at yoma-061a-l45b (\"Rabbi Yochanan said:\") and completes at yoma-061b-l01. No local (61a) Gemara line exists for this content.",
+   "evidenceClassification": "daf-boundary-truncation",
+   "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
+   "enFingerprint": "730a463d3f86b7bc"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 58,
+   "reason": "Part of one continuous Rashi comment (vilnaLine 46-64) explaining Rabbi Yaakov's distinction between the metzora's log-of-oil applications and the Yom Kippur blood applications (Leviticus 14 citations, Menachot 9a). The Gemara passage it explains is itself truncated at yoma-061a-l45b (\"Rabbi Yochanan said:\") and completes at yoma-061b-l01. No local (61a) Gemara line exists for this content.",
+   "evidenceClassification": "daf-boundary-truncation",
+   "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
+   "enFingerprint": "733f9f03acdd3325"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 59,
+   "reason": "Part of one continuous Rashi comment (vilnaLine 46-64) explaining Rabbi Yaakov's distinction between the metzora's log-of-oil applications and the Yom Kippur blood applications (Leviticus 14 citations, Menachot 9a). The Gemara passage it explains is itself truncated at yoma-061a-l45b (\"Rabbi Yochanan said:\") and completes at yoma-061b-l01. No local (61a) Gemara line exists for this content.",
+   "evidenceClassification": "daf-boundary-truncation",
+   "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
+   "enFingerprint": "0354353ffd717da2"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 60,
+   "reason": "Part of one continuous Rashi comment (vilnaLine 46-64) explaining Rabbi Yaakov's distinction between the metzora's log-of-oil applications and the Yom Kippur blood applications (Leviticus 14 citations, Menachot 9a). The Gemara passage it explains is itself truncated at yoma-061a-l45b (\"Rabbi Yochanan said:\") and completes at yoma-061b-l01. No local (61a) Gemara line exists for this content.",
+   "evidenceClassification": "daf-boundary-truncation",
+   "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
+   "enFingerprint": "0866132147133b71"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 61,
+   "reason": "Part of one continuous Rashi comment (vilnaLine 46-64) explaining Rabbi Yaakov's distinction between the metzora's log-of-oil applications and the Yom Kippur blood applications (Leviticus 14 citations, Menachot 9a). The Gemara passage it explains is itself truncated at yoma-061a-l45b (\"Rabbi Yochanan said:\") and completes at yoma-061b-l01. No local (61a) Gemara line exists for this content.",
+   "evidenceClassification": "daf-boundary-truncation",
+   "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
+   "enFingerprint": "b2e5c736ffb78260"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 62,
+   "reason": "Part of one continuous Rashi comment (vilnaLine 46-64) explaining Rabbi Yaakov's distinction between the metzora's log-of-oil applications and the Yom Kippur blood applications (Leviticus 14 citations, Menachot 9a). The Gemara passage it explains is itself truncated at yoma-061a-l45b (\"Rabbi Yochanan said:\") and completes at yoma-061b-l01. No local (61a) Gemara line exists for this content.",
+   "evidenceClassification": "daf-boundary-truncation",
+   "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
+   "enFingerprint": "a43cd4b7be2d4ea9"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 63,
+   "reason": "Part of one continuous Rashi comment (vilnaLine 46-64) explaining Rabbi Yaakov's distinction between the metzora's log-of-oil applications and the Yom Kippur blood applications (Leviticus 14 citations, Menachot 9a). The Gemara passage it explains is itself truncated at yoma-061a-l45b (\"Rabbi Yochanan said:\") and completes at yoma-061b-l01. No local (61a) Gemara line exists for this content.",
+   "evidenceClassification": "daf-boundary-truncation",
+   "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
+   "enFingerprint": "d6a85505a301087c"
+  },
+  {
+   "daf": "61a",
+   "vilnaLine": 64,
+   "reason": "Part of one continuous Rashi comment (vilnaLine 46-64) explaining Rabbi Yaakov's distinction between the metzora's log-of-oil applications and the Yom Kippur blood applications (Leviticus 14 citations, Menachot 9a). The Gemara passage it explains is itself truncated at yoma-061a-l45b (\"Rabbi Yochanan said:\") and completes at yoma-061b-l01. No local (61a) Gemara line exists for this content.",
+   "evidenceClassification": "daf-boundary-truncation",
+   "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
+   "enFingerprint": "3caf8c19571e6413"
+  }
+ ]
+}

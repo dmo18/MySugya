@@ -222,6 +222,10 @@ def main():
     parser.add_argument("--corpus", action="store_true", help="Audit an honest full-corpus sample")
     parser.add_argument("--exhaustive-corpus", action="store_true", help="Audit every daf and every association")
     parser.add_argument("--json", action="store_true", help="Emit exact JSON plan (he/en/kind included)")
+    parser.add_argument("--list-daf", action="store_true",
+                         help="Print the ordered JSON list of every real daf in the corpus and exit "
+                              "(no analysis; for sharding tools that need the authoritative daf order "
+                              "without paying for a full exhaustive-corpus plan)")
     args = parser.parse_args()
 
     if not DATA_JS.exists():
@@ -231,6 +235,10 @@ def main():
     corpus = load_corpus(text)
     if not corpus:
         sys.exit(f"ERROR: no daf blocks found in {DATA_JS.name}")
+
+    if args.list_daf:
+        print(json.dumps(list(corpus.keys())))
+        sys.exit(0)
 
     target_daf = select_target_daf(corpus, args)
 
