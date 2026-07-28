@@ -54,7 +54,7 @@ POST_EDIT_COMMANDS = [
 ]
 
 RULES = [
-    "If this packet's drift profile says SHIFTED or FABRICATION-SUSPECT, STOP: this daf is not eligible for stub repair or link edits; it needs the recommended Fable/Sonnet task type.",
+    "If this packet's drift profile says SHIFTED or FABRICATION-SUSPECT, STOP: this daf is not eligible for stub repair or link edits; it needs the recommended Sonnet task type.",
     "Translate every raw Rashi line from its own Hebrew; no placeholders, no generic filler.",
     "Never write or preserve scaffold narration ('Rashi: opens/continues/concludes ...') or guessed bracket completions such as '[the Gemara]'; even when part of the old meaning is correct, rewrite the line as a direct translation of its own Hebrew (audit_rashi_scaffold.py enforces this).",
     "linkedGemaraLineIds are SEMANTIC text anchors: link each Rashi comment to the local segment(s) whose text it explains, by matching the Rashi dibbur hamatchil, quoted phrase, subject, or discussion against the full segment text in this packet's id table.",
@@ -171,7 +171,7 @@ def packet_for(daf):
             "anchorsMissing": profile["anchorsMissing"],
             "offsets": profile["offsets"],
             "maxAbsOffset": profile["maxAbsOffset"],
-            "haikuSafe": profile["haikuSafe"],
+            "lineLevelSafe": profile["lineLevelSafe"],
             "recommendedTaskType": profile["recommendedTaskType"],
         }
     return {
@@ -205,10 +205,10 @@ def to_markdown(p):
         L.append(f"- anchors: {d['anchorsFound']} found, {d['anchorsMissing']} missing; "
                  f"offsets: {' '.join(f'{o:+d}' for o in d['offsets']) or 'none'}"
                  f" (max |offset| {d['maxAbsOffset']})")
-        L.append(f"- haiku-safe for line-level work: {'yes' if d['haikuSafe'] else 'NO'}")
-        if not d["haikuSafe"]:
+        L.append(f"- line-level-safe for line-level work: {'yes' if d['lineLevelSafe'] else 'NO'}")
+        if not d["lineLevelSafe"]:
             L.append(f"- WARNING: stub repair and link edits are FORBIDDEN on this daf; "
-                     f"required task type: {d['recommendedTaskType']} (Fable/Sonnet, Fable review)")
+                     f"required task type: {d['recommendedTaskType']} (Sonnet, independent review)")
     L.append("\n## Rules")
     for r in p["rules"]:
         L.append(f"- {r}")

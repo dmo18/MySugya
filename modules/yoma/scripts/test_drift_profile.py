@@ -9,7 +9,7 @@ Two layers:
    state cannot change them): anchor extraction (colon citations,
    tractate adjacency, split citations, gematria), SHIFTED,
    FABRICATION-SUSPECT, ALIGNED, INSUFFICIENT-ANCHORS, and the
-   Fable-only override behavior of the preflight drift block.
+   operator-only override behavior of the preflight drift block.
 
 2. Live-corpus assertions for the documented VERSION 15.84 audit
    findings (docs/reports/rashi-lookalike-shift-audit.md). These are
@@ -184,7 +184,7 @@ def test_classifier_synthetic():
             p = ars.profile_daf("901a", allowed=set())
             check("synthetic shifted -> SHIFTED", p["classification"] == "SHIFTED",
                   p["classification"])
-            check("shifted not haikuSafe", not p["haikuSafe"])
+            check("shifted not lineLevelSafe", not p["lineLevelSafe"])
             check("shifted -> rashi-realignment",
                   p["recommendedTaskType"] == "rashi-realignment")
 
@@ -197,12 +197,12 @@ def test_classifier_synthetic():
             p = ars.profile_daf("903a", allowed=set())
             check("synthetic aligned -> ALIGNED", p["classification"] == "ALIGNED",
                   p["classification"])
-            check("aligned is haikuSafe", p["haikuSafe"])
+            check("aligned is lineLevelSafe", p["lineLevelSafe"])
 
             p = ars.profile_daf("904a", allowed=set())
             check("anchor-poor -> INSUFFICIENT-ANCHORS",
                   p["classification"] == "INSUFFICIENT-ANCHORS", p["classification"])
-            check("insufficient is haikuSafe (never blocks)", p["haikuSafe"])
+            check("insufficient is lineLevelSafe (never blocks)", p["lineLevelSafe"])
 
             # allowlisted defect lines do not count toward fabrication
             p = ars.profile_daf("902a", allowed={("902a", 3), ("902a", 6)})
@@ -231,10 +231,10 @@ def test_classifier_synthetic():
 
 def test_drift_block():
     print("preflight drift block:")
-    bad = {"daf": "901a", "classification": "SHIFTED", "haikuSafe": False,
+    bad = {"daf": "901a", "classification": "SHIFTED", "lineLevelSafe": False,
            "anchorsFound": 2, "anchorsMissing": 0, "maxAbsOffset": 5,
            "recommendedTaskType": "rashi-realignment"}
-    good = dict(bad, classification="ALIGNED", haikuSafe=True, recommendedTaskType=None)
+    good = dict(bad, classification="ALIGNED", lineLevelSafe=True, recommendedTaskType=None)
 
     err = drift_block_error(bad, "repair", env={})
     check("repair blocked on SHIFTED", err is not None and "rashi-realignment" in err)
@@ -244,10 +244,10 @@ def test_drift_block():
           drift_block_error(bad, "shifted-block", env={}) is None)
     check("reconstruct task not blocked", drift_block_error(bad, "reconstruct", env={}) is None)
     check("aligned daf not blocked", drift_block_error(good, "repair", env={}) is None)
-    check("worker env alone cannot unblock (only FABLE_DRIFT_OVERRIDE=1)",
-          drift_block_error(bad, "repair", env={"FABLE_DRIFT_OVERRIDE": "0"}) is not None)
-    check("Fable override env unblocks",
-          drift_block_error(bad, "repair", env={"FABLE_DRIFT_OVERRIDE": "1"}) is None)
+    check("worker env alone cannot unblock (only WORKER_DRIFT_OVERRIDE=1)",
+          drift_block_error(bad, "repair", env={"WORKER_DRIFT_OVERRIDE": "0"}) is not None)
+    check("operator override env unblocks",
+          drift_block_error(bad, "repair", env={"WORKER_DRIFT_OVERRIDE": "1"}) is None)
 
 
 # ---------- layer 2: live corpus (self-retiring) ----------
@@ -288,7 +288,7 @@ def test_live_corpus():
     # A clean daf must stay repair-eligible (no false hard-block).
     for daf in ("2a", "12b"):
         p = ars.profile_daf(daf, allowed)
-        check(f"{daf} haikuSafe (clean daf not blocked)", p["haikuSafe"],
+        check(f"{daf} lineLevelSafe (clean daf not blocked)", p["lineLevelSafe"],
               p["classification"])
         check(f"{daf} repair not blocked", drift_block_error(p, "repair", env={}) is None)
 

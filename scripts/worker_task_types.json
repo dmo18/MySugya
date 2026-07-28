@@ -1,9 +1,11 @@
 {
- "_comment": "Registry of bounded worker task types for the MySugya worker pipeline (scripts/worker_pipeline.py). Each type declares its scope contract; manifests are generated from these definitions and enforced by the scope validator and CI. Editing this file is a pipeline change: Fable/Sonnet only, docs-tooling PR.",
+ "_comment": "Registry of bounded worker task types for the MySugya worker pipeline (scripts/worker_pipeline.py). Each type declares its scope contract; manifests are generated from these definitions and enforced by the scope validator and CI. Sonnet is the only execution and escalation model: every type carries model 'sonnet' and escalationModel 'sonnet'. Capability tiers are expressed by mechanicalTier (contract is fully pattern-checkable) and independentReviewRequired (a second, independent Sonnet review must approve the PR before merge), never by model name. lifecycle declares how a pass ends: 'pr' types produce a tracked change and therefore take a VERSION bump plus one PR; 'read-only' types must leave the tracked tree byte-identical and never bump VERSION or open a PR. Editing this file is a pipeline change: Sonnet only, docs-tooling PR.",
  "taskTypes": {
   "rashi-repair": {
    "description": "Repair documented Rashi helper defects (stubs, filler, placeholder lines) on daf with existing allowlist/baseline hits.",
-   "model": "haiku",
+   "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "pr",
    "requiresTarget": true,
    "paused": false,
    "allowedFiles": [
@@ -30,6 +32,7 @@
    ],
    "allowlistPolicy": "remove-only",
    "structurePolicy": "forbidden",
+   "mechanicalTier": true,
    "rashiPreflightTask": "repair",
    "requiredValidators": [
     "validate:offline:yoma",
@@ -53,7 +56,7 @@
     "new semantic audit shift candidate beyond offset +-1",
     "any gate failure not fixable by correcting your own content"
    ],
-   "fableReviewRequired": false,
+   "independentReviewRequired": false,
    "driftBlocked": true,
    "optionalAuthorizations": [
     "authorizeDriftOverride"
@@ -62,6 +65,8 @@
   "rashi-reconstruction": {
    "description": "Full line-by-line Rashi helper reconstruction for a daf with no unresolved content-allowlist hits, unless a matching allowlistDrain snapshot authorizes proceeding on pre-existing target-scoped debt. Pre-existing repetition-baseline debt for the target daf is similarly auto-snapshotted (repetitionDrain) and may be drained by the reconstruction itself when the daf's drift profile already recommends reconstruction; count mismatches have no such path and always block.",
    "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "pr",
    "requiresTarget": true,
    "paused": false,
    "allowedFiles": [
@@ -90,6 +95,7 @@
    ],
    "allowlistPolicy": "remove-only",
    "structurePolicy": "forbidden",
+   "mechanicalTier": false,
    "rashiPreflightTask": "reconstruct",
    "requiredValidators": [
     "validate:offline:yoma",
@@ -124,12 +130,13 @@
     "more than one daf would change in the same content PR"
    ],
    "reviewPolicy": "conditional",
-   "escalationModel": "sonnet",
    "maxBatch": 1
   },
   "rashi-realignment": {
-   "description": "Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 68a, 68b, 70a, 71b, 41a): redistribute the existing genuine translations onto their correct vilna lines and translate only the genuinely uncovered remainder. Never a stub repair. Fable/Sonnet only.",
+   "description": "Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 68a, 68b, 70a, 71b, 41a): redistribute the existing genuine translations onto their correct vilna lines and translate only the genuinely uncovered remainder. Never a stub repair. Sonnet worker under a generated manifest.",
    "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "pr",
    "requiresTarget": true,
    "paused": false,
    "allowedFiles": [
@@ -158,6 +165,7 @@
    ],
    "allowlistPolicy": "remove-only",
    "structurePolicy": "forbidden",
+   "mechanicalTier": false,
    "rashiPreflightTask": "shifted-block",
    "requiredValidators": [
     "validate:offline:yoma",
@@ -192,12 +200,13 @@
     "more than one daf would change in the same content PR"
    ],
    "maxBatch": 1,
-   "reviewPolicy": "conditional",
-   "escalationModel": "sonnet"
+   "reviewPolicy": "conditional"
   },
   "placeholder-backfill": {
    "description": "Replace a documented filler/placeholder block (e.g. 77a-88a) with genuine helpers. Same contract as rashi-repair; targets must have documented allowlist hits.",
-   "model": "haiku-with-fable-review",
+   "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "pr",
    "requiresTarget": true,
    "paused": false,
    "allowedFiles": [
@@ -224,6 +233,7 @@
    ],
    "allowlistPolicy": "remove-only",
    "structurePolicy": "forbidden",
+   "mechanicalTier": true,
    "rashiPreflightTask": "repair",
    "requiredValidators": [
     "validate:offline:yoma",
@@ -246,15 +256,17 @@
    ],
    "maxBatch": 2,
    "allowlistMustShrinkOrExplain": true,
-   "fableReviewRequired": true,
+   "independentReviewRequired": true,
    "driftBlocked": true,
    "optionalAuthorizations": [
     "authorizeDriftOverride"
    ]
   },
   "gemara-learning": {
-   "description": "Edits to sugya display/learning enrichment fields (argumentFlow, quizSeeds, misconceptions, takeaway). Semantic content work: Fable/Sonnet only.",
-   "model": "fable",
+   "description": "Edits to sugya display/learning enrichment fields (argumentFlow, quizSeeds, misconceptions, takeaway). Semantic content work: Sonnet, with an independent Sonnet review before merge.",
+   "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "pr",
    "requiresTarget": true,
    "paused": false,
    "allowedFiles": [
@@ -299,6 +311,7 @@
    ],
    "allowlistPolicy": "forbidden",
    "structurePolicy": "requires-authorization",
+   "mechanicalTier": false,
    "requiredValidators": [
     "validate:offline:yoma"
    ],
@@ -324,7 +337,7 @@
     "allowStructure"
    ],
    "fieldEnforcement": "strict-json-diff",
-   "fableReviewRequired": true,
+   "independentReviewRequired": true,
    "jsonScope": {
     "mutable": [
      "sugyot[*].display.whats",
@@ -355,7 +368,9 @@
   },
   "literal-layer": {
    "description": "en_lit literal-translation fetch/injection work (assets/literal_en + regeneration). Mechanical once fetch output is verified.",
-   "model": "haiku",
+   "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "pr",
    "requiresTarget": true,
    "paused": false,
    "allowedFiles": [
@@ -380,6 +395,7 @@
    ],
    "allowlistPolicy": "forbidden",
    "structurePolicy": "forbidden",
+   "mechanicalTier": true,
    "requiredValidators": [
     "validate:literal:yoma",
     "validate:offline:yoma"
@@ -398,8 +414,10 @@
    "coverageDeltaReport": true
   },
   "nekudot": {
-   "description": "Nekudot/vowelization correctness work on Rashi he fields. PAUSED: not yet authorized; requires its own validator design first. Fable only when unpaused.",
-   "model": "fable",
+   "description": "Nekudot/vowelization correctness work on Rashi he fields. PAUSED: not yet authorized; requires its own validator design first. Sonnet only when unpaused.",
+   "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "pr",
    "requiresTarget": true,
    "paused": true,
    "allowedFiles": [],
@@ -409,6 +427,7 @@
    ],
    "allowlistPolicy": "forbidden",
    "structurePolicy": "forbidden",
+   "mechanicalTier": false,
    "requiredValidators": [
     "validate:offline:yoma"
    ],
@@ -419,8 +438,10 @@
    ]
   },
   "docs-tooling": {
-   "description": "Docs, scripts, CI, hooks, and pipeline changes. No module data. Fable/Sonnet only for validator/pipeline logic.",
-   "model": "fable",
+   "description": "Docs, scripts, CI, hooks, and pipeline changes. No module data. Sonnet only for validator/pipeline logic.",
+   "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "pr",
    "requiresTarget": false,
    "paused": false,
    "allowedFiles": [
@@ -449,6 +470,7 @@
    ],
    "allowlistPolicy": "restructure-with-env",
    "structurePolicy": "not-applicable",
+   "mechanicalTier": false,
    "requiredValidators": [
     "validate:offline:yoma"
    ],
@@ -466,7 +488,9 @@
   },
   "generated-refresh": {
    "description": "Regenerate learning_data.js/coverage.json from unchanged sources (e.g. after a generator fix merged separately). No source edits.",
-   "model": "haiku",
+   "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "pr",
    "requiresTarget": false,
    "paused": false,
    "allowedFiles": [
@@ -488,6 +512,7 @@
    ],
    "allowlistPolicy": "forbidden",
    "structurePolicy": "forbidden",
+   "mechanicalTier": true,
    "requiredValidators": [
     "validate:offline:yoma"
    ],
@@ -506,7 +531,9 @@
   },
   "deployment-verify": {
    "description": "Verify main deploy workflows and live site after a merge. Read-only: no file changes permitted at all.",
-   "model": "haiku",
+   "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "read-only",
    "requiresTarget": false,
    "paused": false,
    "allowedFiles": [],
@@ -516,6 +543,7 @@
    ],
    "allowlistPolicy": "forbidden",
    "structurePolicy": "forbidden",
+   "mechanicalTier": true,
    "requiredValidators": [],
    "generationCommands": [],
    "buildTestCommands": [],
@@ -525,27 +553,31 @@
    ]
   },
   "audit-only": {
-   "description": "Read-only audits: corpus scans, semantic audit reports, validator dry runs, backlog reconciliation. May write ONLY report artifacts under docs/reports/ and process notes in docs/rashi-audit-backlog.md. No content, no generated data.",
-   "model": "haiku",
+   "description": "Read-only audits: corpus scans, semantic audit reports, validator dry runs, backlog reconciliation. May write ONLY report artifacts under docs/reports/ and process notes in docs/rashi-audit-backlog.md. No content, no generated data. Carries its own VERSION bump for the report artifact it writes.",
+   "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "pr",
    "requiresTarget": false,
    "paused": false,
    "allowedFiles": [
     "docs/reports/*",
     "docs/rashi-audit-backlog.md",
-    ".worker-manifest.json"
+    ".worker-manifest.json",
+    "VERSION",
+    "package.json",
+    "package-lock.json"
    ],
    "allowedJsonPaths": [],
    "forbiddenFiles": [
     "modules/*",
     "scripts/*",
     ".github/workflows/*",
-    "githooks/*",
-    "package.json",
-    "VERSION"
+    "githooks/*"
    ],
    "allowlistPolicy": "forbidden",
    "structurePolicy": "forbidden",
-   "fableReviewRequired": false,
+   "mechanicalTier": true,
+   "independentReviewRequired": false,
    "requiredValidators": [
     "validate:offline:yoma"
    ],
@@ -556,8 +588,10 @@
    ]
   },
   "display-only-edit": {
-   "description": "Copy edits to sugya display fields only (whats, hint, title, oneLine, shortSummary). The Haiku-safe entry point for enrichment copy work.",
-   "model": "haiku",
+   "description": "Copy edits to sugya display fields only (whats, hint, title, oneLine, shortSummary). The mechanical-tier entry point for enrichment copy work.",
+   "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "pr",
    "requiresTarget": true,
    "paused": false,
    "allowedFiles": [
@@ -587,7 +621,8 @@
    ],
    "allowlistPolicy": "forbidden",
    "structurePolicy": "requires-authorization",
-   "fableReviewRequired": true,
+   "mechanicalTier": true,
+   "independentReviewRequired": true,
    "maxBatch": 2,
    "optionalAuthorizations": [
     "allowStructure"
@@ -619,12 +654,13 @@
    "escalationTriggers": [
     "uncertainty about what the sugya actually says (do not re-derive content)",
     "any change outside the mutable path set would be needed"
-   ],
-   "haikuAllowed": true
+   ]
   },
   "learning-copy-edit": {
-   "description": "Edits to learning narrative fields (ahaMoment, memoryAnchor, learnerQuestion, coreTension, coreMove, learningBlocker, resolution, takeaway.text). Subject to CLAUDE.md enrichment quality standards: Fable/Sonnet only.",
-   "model": "fable",
+   "description": "Edits to learning narrative fields (ahaMoment, memoryAnchor, learnerQuestion, coreTension, coreMove, learningBlocker, resolution, takeaway.text). Subject to CLAUDE.md enrichment quality standards: Sonnet only.",
+   "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "pr",
    "requiresTarget": true,
    "paused": false,
    "allowedFiles": [
@@ -660,7 +696,8 @@
    ],
    "allowlistPolicy": "forbidden",
    "structurePolicy": "requires-authorization",
-   "fableReviewRequired": false,
+   "mechanicalTier": false,
+   "independentReviewRequired": false,
    "maxBatch": 1,
    "optionalAuthorizations": [
     "allowStructure",
@@ -706,12 +743,13 @@
    ],
    "escalationTriggers": [
     "any change outside the mutable path set would be needed"
-   ],
-   "haikuAllowed": false
+   ]
   },
   "glossary-edit": {
    "description": "Glossary entry text edits (he/translit/en) at daf or sugya level. Entry add/remove is structure.",
-   "model": "fable",
+   "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "pr",
    "requiresTarget": true,
    "paused": false,
    "allowedFiles": [
@@ -746,7 +784,8 @@
    ],
    "allowlistPolicy": "forbidden",
    "structurePolicy": "requires-authorization",
-   "fableReviewRequired": false,
+   "mechanicalTier": false,
+   "independentReviewRequired": false,
    "maxBatch": 1,
    "optionalAuthorizations": [
     "allowStructure"
@@ -782,12 +821,13 @@
    ],
    "escalationTriggers": [
     "any change outside the mutable path set would be needed"
-   ],
-   "haikuAllowed": false
+   ]
   },
   "quiz-edit": {
-   "description": "quizSeeds and misconceptions text edits. Must test real distinctions per CLAUDE.md; Fable/Sonnet only.",
-   "model": "fable",
+   "description": "quizSeeds and misconceptions text edits. Must test real distinctions per CLAUDE.md; Sonnet only.",
+   "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "pr",
    "requiresTarget": true,
    "paused": false,
    "allowedFiles": [
@@ -818,7 +858,8 @@
    ],
    "allowlistPolicy": "forbidden",
    "structurePolicy": "requires-authorization",
-   "fableReviewRequired": false,
+   "mechanicalTier": false,
+   "independentReviewRequired": false,
    "maxBatch": 1,
    "optionalAuthorizations": [
     "allowStructure"
@@ -850,12 +891,13 @@
    ],
    "escalationTriggers": [
     "any change outside the mutable path set would be needed"
-   ],
-   "haikuAllowed": false
+   ]
   },
   "summary-edit": {
    "description": "Top-level daf summary copy edits.",
-   "model": "fable",
+   "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "pr",
    "requiresTarget": true,
    "paused": false,
    "allowedFiles": [
@@ -881,7 +923,8 @@
    ],
    "allowlistPolicy": "forbidden",
    "structurePolicy": "requires-authorization",
-   "fableReviewRequired": false,
+   "mechanicalTier": false,
+   "independentReviewRequired": false,
    "maxBatch": 1,
    "optionalAuthorizations": [
     "allowStructure"
@@ -908,12 +951,13 @@
    ],
    "escalationTriggers": [
     "any change outside the mutable path set would be needed"
-   ],
-   "haikuAllowed": false
+   ]
   },
   "structural-repair": {
-   "description": "Structural repairs: argumentFlow steps/ids/labels/sourceRefs, lineRange, lines, sefariaRefs, conceptRefs, ids, sugya add/remove. Always requires --authorize allowStructure; Fable only.",
-   "model": "fable",
+   "description": "Structural repairs: argumentFlow steps/ids/labels/sourceRefs, lineRange, lines, sefariaRefs, conceptRefs, ids, sugya add/remove. Always requires --authorize allowStructure; Sonnet only.",
+   "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "pr",
    "requiresTarget": true,
    "paused": false,
    "allowedFiles": [
@@ -954,7 +998,8 @@
    ],
    "allowlistPolicy": "forbidden",
    "structurePolicy": "requires-authorization",
-   "fableReviewRequired": false,
+   "mechanicalTier": false,
+   "independentReviewRequired": false,
    "maxBatch": 1,
    "optionalAuthorizations": [
     "allowStructure"
@@ -997,12 +1042,13 @@
    "escalationTriggers": [
     "any ambiguity about the correct structure (verify against source_store and talmuddev first)",
     "any change outside the mutable path set would be needed"
-   ],
-   "haikuAllowed": false
+   ]
   },
   "metadata-review-status": {
    "description": "Review-status stamp updates (top-level review block and sugyot[*].review) after an audited pass.",
-   "model": "fable",
+   "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "pr",
    "requiresTarget": true,
    "paused": false,
    "allowedFiles": [
@@ -1041,7 +1087,8 @@
    ],
    "allowlistPolicy": "forbidden",
    "structurePolicy": "requires-authorization",
-   "fableReviewRequired": false,
+   "mechanicalTier": false,
+   "independentReviewRequired": false,
    "maxBatch": 1,
    "optionalAuthorizations": [
     "allowStructure"
@@ -1081,16 +1128,16 @@
    ],
    "escalationTriggers": [
     "any change outside the mutable path set would be needed"
-   ],
-   "haikuAllowed": false
+   ]
   },
   "rashi-structural-repair": {
-   "description": "Structural repair of a daf's rashiTranslations layer: baselined entry-count mismatches, phantom entries with no raw-line anchor, or missing entries (documented backlog: 8a, 9a). Restores exact 1:1 correspondence with the authoritative talmuddev raw lines: after the pass, entry count and vilnaLine sequence must match the source exactly, every helper must render its own raw line, and every link must be semantic. The ONLY task type permitted to change rashiTranslations structure, and only with the explicit allowStructure authorization on the manifest. Fable only; ordinary Haiku or Sonnet manifests can never authorize structural or count changes.",
-   "model": "fable",
+   "description": "Structural repair of a daf's rashiTranslations layer: baselined entry-count mismatches, phantom entries with no raw-line anchor, or missing entries (documented backlog: 8a, 9a). Restores exact 1:1 correspondence with the authoritative talmuddev raw lines: after the pass, entry count and vilnaLine sequence must match the source exactly, every helper must render its own raw line, and every link must be semantic. The ONLY task type permitted to change rashiTranslations structure, and only with the explicit allowStructure authorization on the manifest. Sonnet only, and only on a manifest carrying allowStructure; no ordinary manifest can ever authorize structural or count changes.",
+   "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "pr",
    "requiresTarget": true,
    "paused": false,
    "reviewPolicy": "conditional",
-   "escalationModel": "sonnet",
    "optionalAuthorizations": [
     "allowStructure"
    ],
@@ -1122,6 +1169,7 @@
    ],
    "allowlistPolicy": "remove-only",
    "structurePolicy": "explicit-allowStructure-required",
+   "mechanicalTier": false,
    "rashiPreflightTask": "repair",
    "requiredValidators": [
     "validate:offline:yoma",
@@ -1147,7 +1195,7 @@
     "allowlist growth would be needed",
     "validator or workflow modification would be needed",
     "semantic uncertainty remains after rereading the raw Hebrew and full segment text",
-    "post-edit drift profile not haiku-safe (ALIGNED or INSUFFICIENT-ANCHORS)",
+    "post-edit drift profile not line-level-safe (ALIGNED or INSUFFICIENT-ANCHORS)",
     "a semantic audit shift candidate remains on the target daf",
     "the fresh post-edit self-review finds a blocker",
     "CI or full verification fails after one bounded correction attempt",

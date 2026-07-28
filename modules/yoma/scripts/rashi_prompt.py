@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 rashi_prompt.py - generate a compact, deterministic task prompt for a
-bounded worker-model (Haiku) Rashi pass, so operators do not hand-write
+bounded Sonnet worker Rashi pass, so operators do not hand-write
 prompts and workers do not re-derive context.
 
 Usage:

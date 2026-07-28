@@ -42,9 +42,9 @@ Classification (profile mode):
                        blocks)
   ALIGNED              everything else
 
-haikuSafe is true only for ALIGNED and INSUFFICIENT-ANCHORS. The
+lineLevelSafe is true only for ALIGNED and INSUFFICIENT-ANCHORS. The
 recommended remedy is rashi-realignment for SHIFTED and
-rashi-reconstruction for FABRICATION-SUSPECT (both Fable/Sonnet).
+rashi-reconstruction for FABRICATION-SUSPECT (both Sonnet).
 
 Lines tolerated by allowlists/rashi_content_allowlist.json are excluded
 from fabrication counting (they are documented defects) and their stub
@@ -59,7 +59,7 @@ Usage:
   python3 scripts/audit_rashi_semantic.py --profile 67b    # JSON profile
   python3 scripts/audit_rashi_semantic.py --profile        # corpus table
   --top N    how many daf/lines to print in report mode (default 15)
-  --strict   exit 1 if any examined daf is not haikuSafe
+  --strict   exit 1 if any examined daf is not lineLevelSafe
 """
 import argparse
 import json
@@ -280,7 +280,7 @@ def profile_daf(daf, allowed=None):
         classification = "INSUFFICIENT-ANCHORS"
     else:
         classification = "ALIGNED"
-    haiku_safe = classification in ("ALIGNED", "INSUFFICIENT-ANCHORS")
+    line_level_safe = classification in ("ALIGNED", "INSUFFICIENT-ANCHORS")
     recommended = {"SHIFTED": "rashi-realignment",
                    "FABRICATION-SUSPECT": "rashi-reconstruction"}.get(classification)
     return {
@@ -292,7 +292,7 @@ def profile_daf(daf, allowed=None):
         "offsets": offsets,
         "maxAbsOffset": max((abs(o) for o in offsets), default=0),
         "classification": classification,
-        "haikuSafe": haiku_safe,
+        "lineLevelSafe": line_level_safe,
         "recommendedTaskType": recommended,
     }
 
@@ -312,7 +312,7 @@ def run_profile(targets, as_json_always=False):
     else:
         print("drift profile (corpus): daf not ALIGNED/INSUFFICIENT listed first")
         print(f"{'daf':5s} {'class':22s} {'found':>5s} {'miss':>4s} {'max|off|':>8s}  offsets")
-        flagged = [p for p in profiles if not p["haikuSafe"]]
+        flagged = [p for p in profiles if not p["lineLevelSafe"]]
         for p in flagged:
             offs = " ".join(f"{o:+d}" for o in p["offsets"])
             print(f"{p['daf']:5s} {p['classification']:22s} {p['anchorsFound']:5d} "
@@ -352,7 +352,7 @@ def run_report(targets, top):
             if len(raw[v - 1]) > 80 and len(ens[v].strip()) < 45:
                 generic += 1
         score = 3 * len(shifts) + missing + 0.5 * generic
-        if score or not p["haikuSafe"]:
+        if score or not p["lineLevelSafe"]:
             daf_scores.append((score, daf, len(shifts), missing, generic,
                                p["rawLines"], p["classification"]))
         for a in shifts:
@@ -385,14 +385,14 @@ def main():
     ap.add_argument("--json", action="store_true",
                     help="with --profile and no daf: JSON instead of the table")
     ap.add_argument("--strict", action="store_true",
-                    help="exit 1 if any examined daf is not haikuSafe")
+                    help="exit 1 if any examined daf is not lineLevelSafe")
     opts = ap.parse_args()
 
     if opts.profile:
         profiles = run_profile(opts.daf, as_json_always=opts.json)
     else:
         profiles = run_report(opts.daf, opts.top)
-    if opts.strict and any(not p["haikuSafe"] for p in profiles):
+    if opts.strict and any(not p["lineLevelSafe"] for p in profiles):
         sys.exit(1)
 
 

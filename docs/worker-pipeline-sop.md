@@ -17,7 +17,10 @@ references:
 
 ## The universal loop
 
-Every pass, regardless of task type, is exactly this:
+Every pass, regardless of task type, is exactly this. Steps 7 and 10-15
+are lifecycle-dependent: a task type declaring `lifecycle: "read-only"`
+(currently `deployment-verify`) MUST skip them entirely and end with the
+tracked tree byte-identical. See "Task lifecycles" below.
 
 ```
 1  npm run worker:manifest  -- --type <type> [--module yoma] [--range <daf|a-b>] \
@@ -36,7 +39,8 @@ Every pass, regardless of task type, is exactly this:
 11 wait for CI (build job runs validate:offline:yoma, the Rashi scope
    check, and the worker manifest check)
 12 merge rule, by the task type's review policy:
-   - reviewPolicy fable: request Fable review, do NOT merge
+   - reviewPolicy independent: request an independent Sonnet review of
+     the PR, do NOT merge your own work
    - reviewPolicy conditional (rashi-realignment, rashi-reconstruction):
      record the fresh post-edit self-review in .worker-self-review.json,
      run `npm run worker:review -- --manifest .worker-manifest.json`,
@@ -51,6 +55,34 @@ Every pass, regardless of task type, is exactly this:
    PR/merge/deploy fields; post the JSON verbatim
 15 stop and await the next authorization
 ```
+
+### Task lifecycles
+
+Every task type declares a `lifecycle` in the registry, and the manifest
+carries it:
+
+- `pr` (default): the pass produces a tracked change, so it takes
+  exactly one VERSION patch bump (step 7) and exactly one PR (steps
+  10-15). Any type that may write a tracked file must be able to carry
+  its own VERSION bump; `test:policy` fails the registry otherwise.
+- `read-only`: the pass must end with the tracked tree byte-identical.
+  It never bumps VERSION, never commits, and never opens a PR; findings
+  are reported in the worker's final report block only.
+  `worker:verify` enforces this directly (`read-only-no-tracked-change`),
+  and the generated prompt omits the VERSION/commit/PR steps rather than
+  ordering an impossible pass.
+
+Before VERSION 15.332 this was contradictory: `audit-only` and
+`deployment-verify` both forbade tracked changes in their scope contract
+while the universal loop demanded a VERSION bump and a PR from every
+pass, so a compliant run of either type was impossible. The resolution
+splits the two cases by what they actually do. `deployment-verify` writes
+nothing at all and is now genuinely `read-only`. `audit-only` does write
+a tracked report artifact under `docs/reports/`, so it is a `pr` type and
+its scope was widened by exactly the three version-sync files (`VERSION`,
+`package.json`, `package-lock.json`) needed to carry its own bump; every
+other path it was forbidden (`modules/*`, `scripts/*`, workflows, hooks)
+stays forbidden.
 
 Direct gate commands, when needed individually: `validate:offline:yoma`
 (all nine offline gates), `check:generated:yoma` (freshness),
@@ -126,7 +158,7 @@ recommended remedy for such a daf is reconstruction. Before VERSION
 15.206 these two checks contradicted each other for a daf that was
 both baselined and FABRICATION-SUSPECT (41b): reconstruct was blocked
 pending repair, repair was blocked pending reconstruction, and the only
-override path (`FABLE_DRIFT_OVERRIDE`) was Fable-issued and unrelated
+override path (`WORKER_DRIFT_OVERRIDE`) was operator-issued and unrelated
 to this contradiction in the first place.
 
 `worker:manifest` now auto-snapshots the target daf's current
@@ -146,7 +178,7 @@ block only when `validate_repetition_drain` in
   still recommends `rashi-reconstruction` -- this authorization only
   ever unlocks a remedy the drift classifier has already approved; it
   is not a generic override, and it never touches
-  `FABLE_DRIFT_OVERRIDE` or `authorizeDriftOverride`, which remain
+  `WORKER_DRIFT_OVERRIDE` or `authorizeDriftOverride`, which remain
   exactly as they were
 
 After the edit, `worker:verify` enforces the drain via
@@ -168,35 +200,42 @@ distinct errors (`COUNT MISMATCH` vs `REPETITION-BASELINE`) so the
 count-mismatch one is never eligible for this filtering in the first
 place.
 
-## Model roles (non-negotiable)
+## Model policy (non-negotiable)
 
-- Fable: owns the pipeline, schema, validators, registry, allowlist
-  growth, structure edits, new task types, workflow and docs changes,
-  branch cleanup, process hardening, and every escalation. Since
-  VERSION 15.93 Fable is NOT the routine per-PR reviewer for semantic
-  daf work: Fable reviews a semantic PR only when an escalation
-  condition fires (see the conditional review section below). Fable
-  acts as the semantic worker only when explicitly substituting
-  because Sonnet is unavailable.
-- Sonnet: the default WORKER for all semantic daf work: Hebrew/Rashi
-  translation, placement judgments, shifted-daf realignment, and
-  fabricated-daf reconstruction (rashi-realignment and
-  rashi-reconstruction carry model: sonnet in the registry; Haiku is
-  not allowed on them). On those two types Sonnet also performs the
-  fresh post-edit self-review, runs the worker:review auto-merge gate,
-  merges when eligible and CI is green, verifies deployment, and
-  proceeds to the next queued target; on any escalation condition it
-  stops, does not merge, and hands off with a report instead.
-- Only Fable/Sonnet may issue manifests carrying --authorize flags or
-  run with RASHI_ALLOWLIST_RESTRUCTURE=1.
-- Haiku (or another small model): executes mechanical bounded tasks
-  strictly inside a generated manifest/prompt/packet, and only where
-  the task type's model field says haiku (haiku-safe). Haiku CANNOT:
-  take a sonnet or fable task; add allowlist or baseline entries;
-  authorize structure edits; override, weaken, or reinterpret a
-  validator; edit the registry, validators, workflows, or hooks; merge
-  a fableReviewRequired PR without review. Haiku CAN poll CI/deploy
-  mechanically, but only after local `worker:verify --full` has passed.
+Sonnet is the ONLY execution and escalation model in this pipeline.
+Every task type carries `model: "sonnet"` and `escalationModel:
+"sonnet"`; no other model may take, review, or escalate any task type.
+`test:policy` pins this across the registry, the schema inventory, the
+pipeline source, the generated reference docs, and every generated
+prompt, so a reintroduced route to another model fails CI rather than
+shipping silently.
+
+Capability is expressed by tier, never by model name:
+
+- `mechanicalTier: true` marks a task type whose contract is fully
+  pattern-checkable (scope, allowlists, and generated-file freshness
+  decide correctness). These are the bounded, mechanical passes.
+- `mechanicalTier: false` marks work whose correctness needs semantic or
+  structural judgment that pattern gates cannot verify: Hebrew/Rashi
+  translation, placement judgments, realignment, reconstruction,
+  enrichment narrative, structure edits, and all pipeline/validator
+  changes.
+- `independentReviewRequired: true` (reviewPolicy `independent`) means a
+  second, independent Sonnet review must approve the PR before merge;
+  the worker may open the PR and poll CI but may NOT merge its own work.
+- reviewPolicy `conditional` (rashi-realignment, rashi-reconstruction,
+  rashi-structural-repair) means the worker records a fresh post-edit
+  self-review, runs the `worker:review` auto-merge gate, and merges only
+  when it prints AUTO-MERGE-ELIGIBLE and CI is green on the exact final
+  head; any failed condition escalates and blocks the merge.
+
+Regardless of tier, the same hard limits apply to every pass: no worker
+adds allowlist or baseline entries; no worker authorizes structure edits
+without an explicit operator-issued `--authorize allowStructure`; no
+worker overrides, weakens, or reinterprets a validator; no worker edits
+the registry, validators, workflows, or hooks outside a docs-tooling
+manifest. Manifests carrying `--authorize` flags, and any run with
+`RASHI_ALLOWLIST_RESTRUCTURE=1`, are operator-issued only.
 - A red gate always means the content or scope is wrong. The only two
   legal responses are: fix your own work, or stop and escalate.
 - NO model, at any tier, direct-pushes tracked changes to main. Main
@@ -207,15 +246,15 @@ place.
 ## Conditional semantic review and autopilot queue (VERSION 15.93)
 
 rashi-realignment and rashi-reconstruction carry `reviewPolicy:
-"conditional"` with `escalationModel: "sonnet"` in the registry (Fable
-is retired; Sonnet substitutes entirely for its former escalation
-role). The unconditional per-PR Fable review is removed; in its place
+"conditional"` with `escalationModel: "sonnet"` in the registry (Sonnet
+is the only execution and escalation model). The unconditional per-PR
+independent review is removed for these two types; in its place
 stand a mandatory fresh self-review and a machine-checked auto-merge
 gate. No hard validation gate was weakened: scope, freshness, content,
 link, repetition, drift, and schema checks all still block CI exactly
 as before.
 
-A semantic PR may auto-merge (no Fable, no operator sign-off) only when
+A semantic PR may auto-merge (no independent review, no operator sign-off) only when
 ALL of these hold. `npm run worker:review -- --manifest
 .worker-manifest.json` machine-checks all seventeen and prints
 AUTO-MERGE-ELIGIBLE or ESCALATE with the exact failed conditions:
@@ -283,7 +322,7 @@ AUTO-MERGE-ELIGIBLE or ESCALATE with the exact failed conditions:
    and the absence of citations never automatically implies
    correctness, which is why the zero-anchor tier demands the strongest
    attestation of the three. rashi-structural-repair keeps its own,
-   separate, unconditional haiku-safe allowance (unaffected by any of
+   separate, unconditional line-level-safe allowance (unaffected by any of
    this). Run `npm run worker:capability-scan -- --targets <list>`
    once per campaign (not per daf) before starting content work, to
    confirm every queued target's anchor cardinality (ZERO/ONE/MULTI)
@@ -346,7 +385,7 @@ each such vilnaLine and the documented boundary rule that permits it:
    {"vilnaLine": 12, "rule": "10a vilnaLine 35 boundary precedent"}]}
 ```
 
-Escalation to Fable is MANDATORY (stop, do not merge) when any of
+Escalation is MANDATORY (stop, do not merge) when any of
 these occur: required packet id missing or packet text truncated or
 incomplete; structure or count mismatch not already baselined;
 allowlist growth would be needed; validator or workflow modification
@@ -388,17 +427,17 @@ done. Consequences, all mechanically enforced and tested:
 
 The queue never batches daf into one PR (maxBatch 1 stands on both
 conditional types) and never skips deploy verification. On escalation
-the queue simply stops where it is; Fable resolves, then the queue
-resumes. Tests: `npm run test:policy` (part of `npm test`) covers the
-policy positively (all conditions green needs no Fable) and negatively
+the queue simply stops where it is; the escalation is resolved, then the
+queue resumes. Tests: `npm run test:policy` (part of `npm test`) covers
+the policy positively (all conditions green needs no review) and negatively
 (every single failed condition blocks the merge), the prompt text, the
 queue derivation mechanics, and the no-direct-push guarantees.
 
-## Operator quickstart (what do I paste to Haiku?)
+## Operator quickstart (what do I paste to the worker?)
 
 1. Pick the task type from docs/reports/task-type-reference.md; check
    the readiness matrix in docs/reports/schema-pipeline-coverage.md says
-   Haiku may take it.
+   the type is ready to run.
 2. Generate and commit nothing yet; run:
    `npm run worker:manifest -- --type <type> --module yoma --range <daf> --out .worker-manifest.json`
    `npm run worker:prompt -- --manifest .worker-manifest.json`
@@ -417,7 +456,7 @@ queue derivation mechanics, and the no-direct-push guarantees.
    commit's runs must be green. The native "pages build and deployment"
    tracker lags the two named Deploy workflows by a few minutes; the
    named workflows are authoritative.
-6. Escalate to Fable when: any stop condition in the prompt fires, a
+6. Escalate when: any stop condition in the prompt fires, a
    gate stays red after fixing content, the worker proposes touching an
    out-of-scope file, or anything requires an --authorize flag.
 7. Final report: `npm run worker:report`, fill in PR/merge/deploy, post
@@ -435,10 +474,9 @@ queue derivation mechanics, and the no-direct-push guarantees.
   OPEN pull request.
 - If a branch's status is uncertain (head not reachable from main, no
   associated PR, unclear owner), report it instead of deleting it.
-- Branch cleanup is Fable's job (a hygiene/tooling pass), not a worker
-  task.
+- Branch cleanup is a hygiene/tooling pass, not a content worker task.
 - Remote-session credentials may be push-scoped to the designated
-  branch only (branch deletion returns 403). In that case Fable
+  branch only (branch deletion returns 403). In that case the tooling pass
   produces the classified deletion list and the repository admin
   deletes via the GitHub branches page, which marks merged branches
   itself.
@@ -449,8 +487,8 @@ queue derivation mechanics, and the no-direct-push guarantees.
   to main arrives through a validated PR merge. No worker, autopilot,
   or queue step may produce a tracked post-merge change that would
   require a direct push (the queue derives progress from merged PRs for
-  exactly this reason; enforced by test:policy). Model roles: this
-  applies equally to Haiku, Sonnet, and Fable.
+  exactly this reason; enforced by test:policy). This applies to every
+  task type and every tier without exception.
 - VERSION: one patch bump per PR via VERSION + scripts/sync_version.py;
   never hand-edit package.json versions. Data-layer versions are
   separate.
@@ -462,7 +500,7 @@ queue derivation mechanics, and the no-direct-push guarantees.
 - Content PRs never touch workflow files; workflow edits require a
   docs-tooling manifest (CI-enforced).
 - Allowlists/baselines only shrink; growth requires
-  RASHI_ALLOWLIST_RESTRUCTURE=1 in a Fable tooling PR (CI-enforced).
+  RASHI_ALLOWLIST_RESTRUCTURE=1 in a docs-tooling PR (CI-enforced).
 - Branch protection (admin, manual): require PR; required check `build`
   (it contains all offline gates plus both scope checks); require
   up-to-date branches; block force pushes; restrict bypass. Do not
@@ -479,11 +517,11 @@ queue derivation mechanics, and the no-direct-push guarantees.
   test).
 - Structural changes to rashiTranslations (entry count, vilnaLine
   sequence) are possible ONLY under the rashi-structural-repair task
-  type (VERSION 15.97): model fable, one daf per PR, conditional
-  review, and a REQUIRED explicit allowStructure authorization on the
-  manifest (preflight fails without it; no other task type can mint or
-  carry that authorization, so ordinary Haiku or Sonnet manifests can
-  never make structural or count changes). Its review gate additionally
+  type (VERSION 15.97): one daf per PR, conditional review, and a
+  REQUIRED explicit allowStructure authorization on the manifest
+  (preflight fails without it; no other task type can mint or carry that
+  authorization, so no ordinary manifest can ever make structural or
+  count changes). Its review gate additionally
   requires exact post-repair entry-count and vilnaLine parity with the
   authoritative talmuddev raw lines, and accepts INSUFFICIENT-ANCHORS
   alongside ALIGNED for the drift condition (anchor-poor daf cannot
@@ -512,18 +550,17 @@ queue derivation mechanics, and the no-direct-push guarantees.
 - Drift gate: `audit:rashi:drift:yoma` classifies every daf (SHIFTED /
   FABRICATION-SUSPECT / ALIGNED / INSUFFICIENT-ANCHORS). Repair-type
   preflight (rashi-repair, placeholder-backfill) FAILS on a daf that is
-  not haiku-safe; the remedies are rashi-realignment (shifted) and
+  not line-level-safe; the remedies are rashi-realignment (shifted) and
   rashi-reconstruction (fabricated), Sonnet worker with the
-  conditional review policy above (Fable substitutes as worker only
-  when Sonnet is unavailable; Fable reviews only on escalation).
+  conditional review policy above.
   worker:verify enforces a clean post-edit profile for BOTH types.
-  Override is Fable-only: manifest authorizeDriftOverride
-  plus FABLE_DRIFT_OVERRIDE=1. Tests: npm run test:drift:yoma (in npm
+  Override is operator-only: manifest authorizeDriftOverride
+  plus WORKER_DRIFT_OVERRIDE=1. Tests: npm run test:drift:yoma (in npm
   test).
 - Known deferred content debt lives in docs/rashi-audit-backlog.md:
-  61a lines 1-45 fabricated (rashi-reconstruction, Fable/Sonnet);
-  67b/68a/68b/70a/71b shifted-compressed (rashi-realignment,
-  Fable/Sonnet; stub-only repair FORBIDDEN there, drift gate enforces);
+  61a lines 1-45 fabricated (rashi-reconstruction);
+  67b/68a/68b/70a/71b shifted-compressed (rashi-realignment;
+  stub-only repair FORBIDDEN there, drift gate enforces);
   41a shifted block (+42a L50 lead); 8a/9a phantom counts; 77a-88a
   filler; plus the drift-profile triage backlog recorded at VERSION
   15.85. 47a+ reconstruction is paused until the debt is drained.

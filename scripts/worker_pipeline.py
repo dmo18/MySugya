@@ -46,7 +46,7 @@ RASHI_TYPES = {"rashi-repair", "rashi-reconstruction", "rashi-realignment",
 STRUCTURAL_TYPE = "rashi-structural-repair"
 # Task types eligible for the source-relative citation-evidence policy (see
 # drift_ok_for_type below). Deliberately excludes rashi-structural-repair,
-# which already has its own, broader, unconditional haiku-safe allowance.
+# which already has its own, broader, unconditional line-level-safe allowance.
 EVIDENCE_TIER_TYPES = ("rashi-reconstruction", "rashi-realignment")
 ONE_ANCHOR_ATTESTATION_KEYS = (
     "onlyOneGenuineCitation",
@@ -68,7 +68,12 @@ def structure_authorized(m, spec):
     --allow-structure flag to the Rashi scope validator."""
     return (m.get("type") == STRUCTURAL_TYPE
             and "allowStructure" in m.get("authorizations", []))
-DRIFT_OVERRIDE_ENV = "FABLE_DRIFT_OVERRIDE"
+DRIFT_OVERRIDE_ENV = "WORKER_DRIFT_OVERRIDE"
+# Lifecycle values a task type may declare. 'pr' passes produce a tracked
+# change and therefore take a VERSION bump plus exactly one PR; 'read-only'
+# passes must leave the tracked tree byte-identical and never bump VERSION,
+# commit, or open a PR. Enforced by cmd_verify (see verify_read_only).
+LIFECYCLES = ("pr", "read-only")
 CONTENT_PREFIXES = ("modules/yoma/assets/learning/", "modules/yoma/assets/literal_en/",
                     "modules/yoma/assets/talmuddev/", "modules/yoma/assets/daftexts/")
 
@@ -85,10 +90,23 @@ def load_registry():
 def review_policy_of(spec):
     """A task type's review policy: 'conditional' (worker self-review plus
     the machine-checked auto-merge gate; escalation to escalationModel),
-    'fable' (unconditional Fable review before merge), or 'none'."""
+    'independent' (a second, independent Sonnet review must approve the PR
+    before merge; no auto-merge gate exists), or 'none'."""
     if spec.get("reviewPolicy"):
         return spec["reviewPolicy"]
-    return "fable" if spec.get("fableReviewRequired") else "none"
+    return "independent" if spec.get("independentReviewRequired") else "none"
+
+
+def lifecycle_of(spec):
+    """A task type's lifecycle: 'pr' (default) or 'read-only'. Read-only
+    types must end a pass with a byte-identical tracked tree: no VERSION
+    bump, no commit, no PR. This is what makes audit-only/deployment-verify
+    style contracts internally consistent instead of demanding a VERSION
+    bump for a pass that is forbidden to change tracked files."""
+    lc = spec.get("lifecycle", "pr")
+    if lc not in LIFECYCLES:
+        sys.exit(f"ERROR: task type declares unknown lifecycle {lc!r}")
+    return lc
 
 
 def load_manifest(path):
@@ -271,7 +289,7 @@ def validate_repetition_drain(m, daf):
     authorization is scoped to a specific, already-drift-approved remedy
     (a FABRICATION-SUSPECT or SHIFTED daf whose recommended fix is already
     full reconstruction), not a generic override -- no new drift-override
-    mechanism is introduced, and FABLE_DRIFT_OVERRIDE/authorizeDriftOverride
+    mechanism is introduced, and WORKER_DRIFT_OVERRIDE/authorizeDriftOverride
     are untouched by this function entirely. This is target-scoped repair
     debt a full reconstruction is expected to eliminate by construction
     (the whole daf is rewritten), not new tolerance: the snapshot must
@@ -550,7 +568,9 @@ def cmd_manifest(opts):
         "targets": targets,
         "model": spec["model"],
         "paused": spec.get("paused", False),
-        "fableReviewRequired": spec.get("fableReviewRequired", False),
+        "lifecycle": lifecycle_of(spec),
+        "mechanicalTier": spec.get("mechanicalTier", False),
+        "independentReviewRequired": spec.get("independentReviewRequired", False),
         "reviewPolicy": review_policy_of(spec),
         "escalationModel": spec.get("escalationModel", "sonnet"),
         "authorizations": auths,
@@ -586,7 +606,7 @@ def cmd_preflight(opts):
     for req in spec.get("requiredAuthorizations", []):
         if req not in m.get("authorizations", []):
             errors.append(f"task type {m['type']!r} requires the explicit --authorize {req} "
-                          f"authorization on the manifest (Fable-issued only)")
+                          f"authorization on the manifest (operator-issued only)")
 
     dirty = sh(["git", "status", "--porcelain"]).stdout.strip()
     branch = sh(["git", "rev-parse", "--abbrev-ref", "HEAD"]).stdout.strip()
@@ -619,10 +639,10 @@ def cmd_preflight(opts):
         task = spec.get("rashiPreflightTask", "reconstruct")
         # Drift-block enforcement is manifest-aware here: the underlying
         # rashi_preflight env override is honored ONLY when the manifest
-        # also carries the Fable-issued authorizeDriftOverride flag. A
+        # also carries the operator-issued authorizeDriftOverride flag. A
         # worker cannot unblock a SHIFTED/FABRICATION-SUSPECT daf by
         # setting the env var alone, and a manifest flag alone (however it
-        # was generated) does nothing without the Fable-only env var.
+        # was generated) does nothing without the operator-issued env var.
         child_env = dict(os.environ)
         if spec.get("driftBlocked") and "authorizeDriftOverride" not in m.get("authorizations", []):
             child_env.pop(DRIFT_OVERRIDE_ENV, None)
@@ -735,10 +755,17 @@ def cmd_prompt(opts):
         "",
         spec["description"],
         "",
-        f"Recommended model: {m['model']}. Haiku may take this task only if the model field says haiku"
-        " (haiku-with-fable-review means Haiku executes and Fable reviews the PR before merge;"
-        " sonnet means Sonnet is the worker and Haiku is not allowed; fable means pipeline/tooling"
-        " work owned by Fable).",
+        f"Model: {m['model']}. Sonnet is the only execution and escalation model in this"
+        " pipeline; no other model may take, review, or escalate any task type."
+        + (" This type additionally requires a second, independent Sonnet review of the PR"
+           " before merge." if review_policy_of(spec) == "independent" else ""),
+        "",
+        f"Lifecycle: {m['lifecycle']}."
+        + (" This is a READ-ONLY pass: it must end with the tracked tree byte-identical."
+           " Do NOT bump VERSION, do NOT commit, do NOT open a PR. Report findings only."
+           if m["lifecycle"] == "read-only" else
+           " This pass produces a tracked change, so it takes exactly one VERSION patch"
+           " bump and exactly one PR."),
         "",
         "Procedure:",
         f"1. Reconcile to origin/main; confirm clean tree.",
@@ -762,6 +789,34 @@ def cmd_prompt(opts):
         ]
     if m["generationCommands"]:
         lines.append("5. Regenerate: " + " && ".join(m["generationCommands"]))
+    if m["lifecycle"] == "read-only":
+        lines += [
+            "6. Do NOT bump VERSION and do NOT run sync_version.py: this lifecycle"
+            " forbids every tracked change.",
+            "7. npm run worker:verify -- --manifest .worker-manifest.json --fast",
+            "   then npm run worker:verify -- --manifest .worker-manifest.json --full",
+            "   (verify asserts the tracked tree is byte-identical for a read-only pass)",
+            "8. Do NOT commit, push, or open a PR. Report findings in your final report"
+            " block only. If the pass produced something that must be persisted, STOP:"
+            " that is a task-type mismatch, not a reason to write.",
+        ]
+        lines += [
+            "",
+            f"Allowlist policy: {m['allowlistPolicy']}. You may NEVER add allowlist or baseline entries.",
+            f"Structure policy: {m['structurePolicy']}.",
+            "You may not override, weaken, or reinterpret any validator. A red gate means your content or scope is wrong.",
+            "",
+            "Escalate (stop immediately and report) on:",
+        ]
+        lines += [f"- {e}" for e in m["escalationTriggers"]]
+        lines += [
+            "- any need to write a tracked file at all",
+            "",
+            "Final report format (one compact block): task type, targets, VERSION observed,",
+            "gates status, findings, anything escalated.",
+        ]
+        print("\n".join(lines))
+        return
     lines += [
         "6. Bump VERSION one patch; python3 scripts/sync_version.py",
         "7. npm run worker:verify -- --manifest .worker-manifest.json --fast",
@@ -803,6 +858,13 @@ def cmd_prompt(opts):
             "    next queued target with a fresh manifest. Stop ONLY on an escalation",
             "    condition, unexpected repository state, or an empty queue.",
             f"    On escalation: stop, do not merge, and hand off to {spec.get('escalationModel', 'sonnet')} with a report.",
+        ]
+    elif review_policy_of(spec) == "independent":
+        lines += [
+            "8. Commit .worker-manifest.json together with the work, push, ONE PR, wait for CI.",
+            "9. This task type requires an independent Sonnet review of the PR before merge:"
+            " you may open the PR and poll CI, but you may NOT merge your own work."
+            " Request the independent review and stop.",
         ]
     else:
         lines += [
@@ -855,7 +917,7 @@ def cmd_scope(opts):
         # Field-level enforcement reuses the proven Rashi validator. Only a
         # structural-repair manifest with the explicit allowStructure
         # authorization may relax the structure rules; every other type
-        # (Haiku or Sonnet manifests included) gets the strict contract.
+        # (every ordinary manifest included) gets the strict contract.
         scope_cmd = [sys.executable, "scripts/check_rashi_pr_scope.py", "--base", base]
         if structure_authorized(m, spec):
             scope_cmd.append("--allow-structure")
@@ -903,9 +965,35 @@ def cmd_scope(opts):
 
 # ---------------- verify ----------------
 
+def verify_read_only(m, spec, base):
+    """Read-only lifecycle enforcement: a read-only pass must end with the
+    tracked tree byte-identical to base. Any tracked diff at all -- including
+    a VERSION bump the universal loop would otherwise demand -- is a failure,
+    which is precisely what makes the read-only contract self-consistent
+    instead of unsatisfiable. Returns (ok, changed_paths)."""
+    changed = [l.strip() for l in sh(["git", "diff", "--name-only", base]).stdout.splitlines()
+               if l.strip()]
+    changed += [l.strip() for l in sh(["git", "diff", "--name-only", "--cached"]).stdout.splitlines()
+                if l.strip()]
+    untracked = [l.strip() for l in
+                 sh(["git", "ls-files", "--others", "--exclude-standard"]).stdout.splitlines()
+                 if l.strip()]
+    changed = sorted(set(changed) | set(untracked))
+    return (not changed), changed
+
+
 def cmd_verify(opts):
     m, spec = load_manifest(opts.manifest)
     results = []
+
+    if lifecycle_of(spec) == "read-only":
+        ok, changed = verify_read_only(m, spec, resolve_base(getattr(opts, "base", None)))
+        results.append(("read-only-no-tracked-change", ok))
+        if not ok:
+            print("READ-ONLY LIFECYCLE VIOLATION: this task type must not change any tracked "
+                  "file, and must never bump VERSION or open a PR. Offending paths:")
+            for c in changed:
+                print(f"  {c}")
 
     if m["type"] in RASHI_TYPES and m["targets"]:
         cmd = [sys.executable, "scripts/rashi_verify.py", *m["targets"]]
@@ -924,7 +1012,7 @@ def cmd_verify(opts):
             profs = profs if isinstance(profs, list) else [profs]
         except json.JSONDecodeError:
             profs = []
-        bad = [f"{p['daf']}={p['classification']}" for p in profs if not p.get("haikuSafe")]
+        bad = [f"{p['daf']}={p['classification']}" for p in profs if not p.get("lineLevelSafe")]
         print(f"post-edit drift profile: {', '.join(bad) if bad else 'all targets aligned'}")
         if m["type"] in ("rashi-realignment", "rashi-reconstruction", STRUCTURAL_TYPE):
             results.append(("drift-profile", not bad and bool(profs)))
@@ -1069,18 +1157,22 @@ def cmd_verify(opts):
         print("\nWORKER VERIFY FAILED. Fix your content/scope or STOP AND ESCALATE.")
         sys.exit(1)
     policy = review_policy_of(spec)
-    if policy == "fable":
-        print("\nREVIEW GATE: this task type requires Fable review of the PR before merge. "
-              "Workers may open the PR and poll CI, but may NOT merge; request Fable review "
-              "and stop.")
+    if policy == "independent":
+        print("\nREVIEW GATE: this task type requires an independent Sonnet review of the PR "
+              "before merge. Workers may open the PR and poll CI, but may NOT merge their own "
+              "work; request the independent review and stop.")
     elif policy == "conditional":
         print("\nCONDITIONAL REVIEW GATE: after the fresh post-edit self-review is recorded "
               "in .worker-self-review.json and CI is green on the final head, run "
               "`npm run worker:review -- --manifest .worker-manifest.json`. Merge ONLY if it "
               f"prints AUTO-MERGE-ELIGIBLE; on any failed condition, escalate to "
               f"{spec.get('escalationModel', 'sonnet')} instead of merging.")
-    nxt = "commit (include .worker-manifest.json), push, open the PR" if opts.full else \
-          "npm run worker:verify -- --manifest .worker-manifest.json --full"
+    if lifecycle_of(spec) == "read-only":
+        nxt = ("report findings; this lifecycle ends with NO commit, NO VERSION bump, and NO PR"
+               if opts.full else "npm run worker:verify -- --manifest .worker-manifest.json --full")
+    else:
+        nxt = "commit (include .worker-manifest.json), push, open the PR" if opts.full else \
+              "npm run worker:verify -- --manifest .worker-manifest.json --full"
     print(f"\nWORKER VERIFY PASSED ({'full' if opts.full else 'fast'}). Next: {nxt}")
 
 
@@ -1285,8 +1377,8 @@ def drift_ok_for_type(m_type, daf, prof, sr, entries=None):
     outcome; note is an empty string when there is nothing to add."""
     cls = prof["classification"] if prof else "NO-PROFILE"
     if m_type == STRUCTURAL_TYPE:
-        ok = bool(prof) and prof.get("haikuSafe", False)
-        note = "" if ok else f"post-edit drift profile is {cls}, not haiku-safe"
+        ok = bool(prof) and prof.get("lineLevelSafe", False)
+        note = "" if ok else f"post-edit drift profile is {cls}, not line-level-safe"
         return ok, None, note
     if m_type in EVIDENCE_TIER_TYPES:
         n_anchors = len(prof.get("anchors", [])) if prof else -1
@@ -1482,7 +1574,7 @@ def gather_review_conditions(m, spec, base):
     # offsets exactly 0), or qualify for the one-anchor-safe or
     # zero-anchor-safe evidence tier (see drift_ok_for_type); structural
     # repair on an anchor-poor daf keeps its own, broader, unconditional
-    # haiku-safe allowance. drift_ok_for_type never mutates the
+    # line-level-safe allowance. drift_ok_for_type never mutates the
     # classification itself and never accepts SHIFTED or
     # FABRICATION-SUSPECT.
     prof = ars.profile_daf(target, ars.load_allowlisted())
@@ -1559,9 +1651,9 @@ def cmd_review(opts):
     the exact failed conditions and the escalation target."""
     m, spec = load_manifest(opts.manifest)
     policy = review_policy_of(spec)
-    if policy == "fable":
-        print(f"REVIEW: task type {m['type']} requires unconditional Fable review; "
-              "there is no auto-merge gate. Request Fable review and stop.")
+    if policy == "independent":
+        print(f"REVIEW: task type {m['type']} requires an independent Sonnet review; "
+              "there is no auto-merge gate. Request the independent review and stop.")
         sys.exit(1)
     if policy != "conditional":
         print(f"REVIEW: task type {m['type']} has no review gate (policy: {policy}).")
@@ -1842,7 +1934,7 @@ def cmd_schema_matrix(opts):
     missing a known classification. Print the full matrix with --print."""
     inv = json.loads(SCHEMA_SCOPE.read_text())["paths"]
     types = load_registry()
-    legal_class = {"immutable", "haiku-manifest", "fable-only", "flag-only",
+    legal_class = {"immutable", "manifest-editable", "judgment-required", "flag-only",
                    "generated-only", "deprecated"}
     RASHI_MUTABLE = {"rashiTranslations[*].en", "rashiTranslations[*].linkedGemaraLineIds[*]"}
     errors = []
@@ -1868,17 +1960,17 @@ def cmd_schema_matrix(opts):
         matrix[path] = {"class": cls, "taskTypes": sorted(set(owners)),
                         "flagTaskTypes": sorted(set(flag_owners))}
 
-        if cls in ("haiku-manifest", "fable-only") and not owners:
+        if cls in ("manifest-editable", "judgment-required") and not owners:
             errors.append(f"{path}: classified {cls} but NO task type can edit it")
         if cls == "flag-only" and not flag_owners:
             errors.append(f"{path}: classified flag-only but no flagMutable pattern reaches it")
         if cls in ("immutable", "generated-only", "deprecated") and owners:
             errors.append(f"{path}: classified {cls} but reachable by {owners}")
-        if cls == "haiku-manifest":
-            ok = any(types[o].get("haikuAllowed") or types[o].get("model") in ("haiku", "haiku-with-fable-review")
-                     for o in owners)
+        if cls == "manifest-editable":
+            ok = any(types[o].get("mechanicalTier") for o in owners)
             if not ok:
-                errors.append(f"{path}: classified haiku-manifest but no owning type permits haiku")
+                errors.append(f"{path}: classified manifest-editable but no owning type "
+                              f"declares mechanicalTier")
 
     if opts.print_matrix:
         print(json.dumps(matrix, indent=1))
@@ -1914,18 +2006,22 @@ def cmd_docs(opts):
         L.append(s["description"])
         L.append("")
         pol = review_policy_of(s)
-        pol_txt = {"fable": "; Fable review required",
+        pol_txt = {"independent": "; independent Sonnet review required before merge",
                    "conditional": f"; review: conditional auto-merge gate (worker self-review "
                                   f"+ worker:review; escalation to {s.get('escalationModel', 'sonnet')})",
                    "none": ""}[pol]
         L.append(f"- model: {s['model']}"
                  + ("; PAUSED" if s.get("paused") else "")
                  + pol_txt)
-        L.append(f"- haiku allowed: {'yes' if s.get('haikuAllowed') or s.get('model') in ('haiku', 'haiku-with-fable-review') else 'no'}")
+        L.append(f"- escalation model: {s.get('escalationModel', 'sonnet')}")
+        L.append(f"- lifecycle: {lifecycle_of(s)}"
+                 + ("  (no VERSION bump, no commit, no PR)" if lifecycle_of(s) == "read-only"
+                    else "  (one VERSION patch bump, one PR)"))
+        L.append(f"- mechanical tier: {'yes' if s.get('mechanicalTier') else 'no'}")
         L.append(f"- max batch: {s.get('maxBatch', 1 if s.get('requiresTarget') else 'n/a')}")
         if s.get("requiredAuthorizations"):
             L.append(f"- REQUIRED authorization: {', '.join(s['requiredAuthorizations'])} "
-                     f"(Fable-issued; preflight fails without it)")
+                     f"(operator-issued; preflight fails without it)")
         L.append(f"- allowed files: {', '.join(s['allowedFiles']) or 'none (read-only task)'}")
         if s.get("jsonScope"):
             L.append(f"- mutable JSON paths: {', '.join(s['jsonScope']['mutable'])}")
@@ -1947,9 +2043,9 @@ def cmd_docs(opts):
          "Generated by `npm run worker:docs` from scripts/worker_schema_scope.json.",
          "Consistency with the registry is enforced by `npm run worker:schema-matrix`",
          "(run in CI on every manifest-bearing PR). High-risk paths (structure, ids,",
-         "sourceRefs, Hebrew, argumentFlow, quiz/misconception content) are Fable-only",
-         "because their correctness requires semantic or structural judgment that",
-         "pattern gates cannot verify.", "",
+         "sourceRefs, Hebrew, argumentFlow, quiz/misconception content) are",
+         "judgment-required because their correctness needs semantic or structural",
+         "judgment that pattern gates cannot verify. Sonnet executes every tier.", "",
          "| path | classification |", "|---|---|"]
     for path in sorted(inv):
         M.append(f"| `{path}` | {inv[path]} |")
@@ -1982,7 +2078,8 @@ def cmd_report(opts):
         "branch": sh(["git", "rev-parse", "--abbrev-ref", "HEAD"]).stdout.strip(),
         "filesChanged": changed,
         "allowlistDelta": {"before": old_n, "after": new_n},
-        "fableReviewRequired": m.get("fableReviewRequired", False),
+        "independentReviewRequired": m.get("independentReviewRequired", False),
+        "lifecycle": m.get("lifecycle", "pr"),
         "reviewPolicy": review_policy_of(spec),
         "selfReviewRecorded": SELF_REVIEW_PATH.exists(),
         "prNumber": "<fill after PR creation>",
@@ -2054,7 +2151,7 @@ def main():
     p.add_argument("--out", default=None)
     p.add_argument("--authorize", action="append", default=None,
                    help="grant an optional authorization defined by the task type "
-                        "(e.g. authorizeQuizSeeds); repeatable; Fable-issued only")
+                        "(e.g. authorizeQuizSeeds); repeatable; operator-issued only")
     p.add_argument("--drain-allowlist", action="store_true",
                    help="snapshot the target daf's CURRENT pre-existing content-allowlist "
                         "entries into the manifest, authorizing preflight to start "
