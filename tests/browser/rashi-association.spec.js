@@ -5,8 +5,13 @@ import { resolve } from 'node:path';
 
 /**
  * rashi-association.spec.js - browser verification of the linked Rashi
- * renderer (?rashiAssoc=linked, test/audit only; legacy stays production
- * default).
+ * renderer, which is the PRODUCTION DEFAULT as of the VERSION 15.338
+ * cutover. The per-daf association tests therefore navigate with no
+ * rashiAssoc parameter at all, so they verify the renderer users actually
+ * get. ?rashiAssoc=legacy remains a temporary rollback override onto the
+ * preserved legacy vilnaLine renderer, and ?rashiAssoc=linked is still
+ * accepted but no longer required; both are covered in the "Rashi renderer
+ * selection" describe block at the bottom of this file.
  *
  * The plan this spec asserts against always comes from
  * modules/yoma/scripts/audit_rashi_association.py --json - never hardcoded
@@ -72,10 +77,15 @@ for (const daf of plan.daf_list) {
   test.describe(`Rashi linked association - daf ${daf}`, () => {
     test('every declared association renders under exactly its declared targets, with exact text', async ({ page }) => {
       const pageErrors = collectPageErrors(page);
-      await page.goto(`/index.html?module=yoma&daf=${daf}&rashiAssoc=linked`);
+      // Deliberately NO rashiAssoc parameter: since the VERSION 15.338
+      // cutover, linked is the production default, so this asserts the
+      // real default rendering path across the whole corpus (single-link,
+      // multi-link, many-to-one, Mishnah, and suffixed-id cases alike),
+      // not a parameter-gated preview of it.
+      await page.goto(`/index.html?module=yoma&daf=${daf}`);
 
-      // Confirm the test-only URL switch is what's active, never a stored preference.
-      await expect(page).toHaveURL(/rashiAssoc=linked/);
+      // The linked default must come from the code, never from stored state.
+      await expect(page).not.toHaveURL(/rashiAssoc/);
       const stored = await page.evaluate(() => localStorage.getItem('mysugya:tweaks'));
       expect(stored ?? '').not.toContain('rashiAssoc');
 
@@ -150,7 +160,9 @@ for (const daf of plan.daf_list) {
       const dafFindings = plan.findings.filter(f => f.daf === daf && f.entry_category === 'boundary');
       if (dafFindings.length === 0) test.skip(true, 'no boundary entries in scope for this daf');
 
-      await page.goto(`/index.html?module=yoma&daf=${daf}&rashiAssoc=linked`);
+      // Default (linked) mode, no parameter - authorized boundary entries
+      // must render nowhere, including beneath unrelated lines.
+      await page.goto(`/index.html?module=yoma&daf=${daf}`);
       const boundaryIds = new Set(dafFindings.map(f => f.rashi_id));
 
       const badgeLineIds = await page.locator('.line[data-has-rashi="1"]').evaluateAll(
@@ -169,17 +181,77 @@ for (const daf of plan.daf_list) {
   });
 }
 
-test.describe('Rashi linked association - legacy path unaffected', () => {
-  test('default (no rashiAssoc param) still uses the legacy vilnaLine renderer', async ({ page }) => {
+/* Renderer selection after the VERSION 15.338 cutover.
+ *
+ * The discriminator between the two renderers is structural, not cosmetic:
+ * the linked path emits one [data-rashi-id] element per rendered comment
+ * inside .rashi-inline, while the legacy path emits a bare .rashi-inline
+ * with no such attribute. That distinction cannot be satisfied by accident
+ * by the other path, so these tests genuinely prove which renderer ran. */
+test.describe('Rashi renderer selection', () => {
+  const daf = plan.daf_list[0];
+
+  async function openFirstRashi(page, url) {
+    await page.goto(url);
+    const first = page.locator('.line[data-has-rashi="1"]').first();
+    await first.locator('.rashi-badge').click();
+    return first;
+  }
+
+  test('no rashiAssoc parameter uses the linked renderer (production default)', async ({ page }) => {
     const pageErrors = collectPageErrors(page);
-    const daf = plan.daf_list[0];
-    await page.goto(`/index.html?module=yoma&daf=${daf}`);
-    await expect(page).not.toHaveURL(/rashiAssoc=linked/);
-    // Legacy toggle key is vilna_line, not line.id; the presence of at least
-    // one badge with the legacy path active confirms the default branch
-    // still renders, unchanged by this feature's addition.
-    const badgeCount = await page.locator('.line[data-has-rashi="1"]').count();
-    expect(badgeCount).toBeGreaterThanOrEqual(0);
+    const line = await openFirstRashi(page, `/index.html?module=yoma&daf=${daf}`);
+    const lineId = await line.getAttribute('data-gemara-line-id');
+    await expect(
+      page.locator(`.line[data-gemara-line-id="${lineId}"] + .rashi-inline [data-rashi-id]`).first()
+    ).toBeVisible();
     expect(pageErrors).toEqual([]);
+  });
+
+  test('?rashiAssoc=linked still selects the linked renderer (accepted, not required)', async ({ page }) => {
+    const pageErrors = collectPageErrors(page);
+    const line = await openFirstRashi(page, `/index.html?module=yoma&daf=${daf}&rashiAssoc=linked`);
+    const lineId = await line.getAttribute('data-gemara-line-id');
+    await expect(
+      page.locator(`.line[data-gemara-line-id="${lineId}"] + .rashi-inline [data-rashi-id]`).first()
+    ).toBeVisible();
+    expect(pageErrors).toEqual([]);
+  });
+
+  test('?rashiAssoc=legacy selects the preserved legacy vilnaLine renderer', async ({ page }) => {
+    const pageErrors = collectPageErrors(page);
+    await openFirstRashi(page, `/index.html?module=yoma&daf=${daf}&rashiAssoc=legacy`);
+    // Legacy renders an open .rashi-inline that carries no [data-rashi-id]
+    // child, proving the rollback path is intact and actually selected.
+    await expect(page.locator('.rashi-inline').first()).toBeVisible();
+    expect(await page.locator('.rashi-inline [data-rashi-id]').count()).toBe(0);
+    expect(pageErrors).toEqual([]);
+  });
+
+  test('unknown rashiAssoc values fall through to linked, never silently to legacy', async ({ page }) => {
+    const pageErrors = collectPageErrors(page);
+    const line = await openFirstRashi(page, `/index.html?module=yoma&daf=${daf}&rashiAssoc=bogus-value`);
+    const lineId = await line.getAttribute('data-gemara-line-id');
+    await expect(
+      page.locator(`.line[data-gemara-line-id="${lineId}"] + .rashi-inline [data-rashi-id]`).first()
+    ).toBeVisible();
+    expect(pageErrors).toEqual([]);
+  });
+
+  test('renderer selection is not persisted and does not survive navigation', async ({ page }) => {
+    // Visit legacy explicitly, then navigate to a parameter-free URL: the
+    // second visit must be linked again, and nothing may be stored.
+    await openFirstRashi(page, `/index.html?module=yoma&daf=${daf}&rashiAssoc=legacy`);
+    const allStorage = await page.evaluate(() => JSON.stringify({
+      local: Object.fromEntries(Object.entries(localStorage)),
+      session: Object.fromEntries(Object.entries(sessionStorage)),
+    }));
+    expect(allStorage).not.toContain('rashiAssoc');
+
+    const line = await openFirstRashi(page, `/index.html?module=yoma&daf=${daf}`);
+    const lineId = await line.getAttribute('data-gemara-line-id');
+    await expect(
+      page.locator(`.line[data-gemara-line-id="${lineId}"] + .rashi-inline [data-rashi-id]`).first()
+    ).toBeVisible();
   });
 });

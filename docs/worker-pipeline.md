@@ -114,7 +114,8 @@ Historical snapshot, not re-verified row by row since. Several items below
 (61a stubs, 7a/9b-adjacent work) have since completed - see
 `docs/rashi-audit-backlog.md` for current per-daf status and
 `docs/reports/rashi-association-audit.md` for the current Rashi
-linked-association/renderer-readiness state (7/8 as of VERSION 15.337)
+linked-association/renderer-readiness state (8/8; linked renderer became
+the production default at VERSION 15.338)
 rather than trusting this table's specifics.
 
 | Work item | Task type | Model | Batch | Mechanical tier? | Notes |
