@@ -45,7 +45,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-053a-l01",
+       "lineId": "yoma-053a-l01a",
        "vilnaLine": 1
       }
      ]
@@ -169,8 +169,8 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-053a-l02",
-       "vilnaLine": 2
+       "lineId": "yoma-053a-l04",
+       "vilnaLine": 4
       }
      ]
     },
@@ -183,8 +183,8 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-053a-l03",
-       "vilnaLine": 3
+       "lineId": "yoma-053a-l01b",
+       "vilnaLine": 1
       }
      ]
     },
