@@ -175,11 +175,11 @@ const LEARNING_SCHEMA_MAP = {
   // image generation (scene selection), learning paths (argument pattern recognition).
   argumentFlow: {
     id:         { type: "string", status: "canonical", required: true,  purpose: "Stable step id, e.g. \"step-01\".", notes: "" },
-    type:       { type: "string", status: "canonical", required: true,  purpose: "Step type (controlledValues.argumentStepType).", notes: "See controlled values for the full list and semantics." },
+    type:       { type: "string", status: "canonical", required: true,  purpose: "The specific discourse move this step makes, in the author's own words.", notes: "Open, non-empty string, not restricted to controlledValues.argumentStepType (that list is now the seed of shared/argument_step_taxonomy.json's category registry, not a closed set for this field). Every value used in the corpus must have an entry in that registry mapping it to a category; validate_argument_taxonomy.py enforces 100% coverage. See docs/reports/argumentflow-category-decision.md." },
     label:      { type: "string", status: "canonical", required: true,  purpose: "Short heading for the step, e.g. \"Rabbi Yehuda extends the logic\".", notes: "" },
     speaker:    { type: "string", status: "canonical", required: false, purpose: "Who makes this move: a named Sage, 'Gemara', 'Mishnah', etc.", notes: "Use the most specific attribution the text supports." },
     text:       { type: "string", status: "canonical", required: true,  purpose: "Editorial paraphrase of the step's content.", notes: "Modern Orthodox editorial English. Not verbatim Gemara - a clear paraphrase of the move." },
-    sourceRefs: { type: "object[]", status: "optional", required: false, purpose: "Links to source line ids for this step.", notes: "Each: { sourceType, lineId, vilnaLine, note }. Used by tutoring to anchor steps to specific Gemara lines." }
+    sourceRefs: { type: "object[]|string[]", status: "optional", required: false, purpose: "Links to source line ids for this step.", notes: "Discriminated union: canonical object form { sourceType, lineId, vilnaLine, note? } (sourceType one of gemara/mishnah/unknown), or a legacy Sefaria-reference string \"Yoma.<daf>.<segment>\" preserved because converting it would require inventing sourceType. lineId is exact segment identity; vilnaLine is separate Vilna location metadata validated by containment, never equality. See docs/reports/sourcerefs-contract-decision.md and validate_source_refs.py." }
   },
 
   // ---- visualizableElements sub-schema (sugya.visualizableElements[]) ----

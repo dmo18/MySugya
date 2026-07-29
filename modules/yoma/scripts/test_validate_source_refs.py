@@ -137,6 +137,18 @@ c, _ = classes([sugya("s1", "10a", base,
                       [[{"sourceType": "gemara", "lineId": "yoma-010a-l04"}]])])
 check("object ref without vilnaLine", c["OBJECT_NO_VILNALINE"] == 1, str(dict(c)))
 
+c, f = classes([sugya("s1", "10a", base, [[oref("yoma-010a-l04", 4, sourceType="talmud")]])])
+check("sourceType outside the legal set is flagged even with sound geometry",
+      c["OBJECT_SOURCETYPE_INVALID"] == 1 and f[0]["legalValues"] == ["gemara", "mishnah", "unknown"],
+      str(dict(c)))
+
+c, _ = classes([sugya("s1", "10a", base, [[oref("yoma-010a-l04", 4, sourceType="mishnah")]])])
+check("legal sourceType 'mishnah' passes", c["OK"] == 1, str(dict(c)))
+
+c, _ = classes([sugya("s1", "10a", base, [[oref("yoma-010a-l04", 4, sourceType="unknown")]])])
+check("the contract's explicit 'unknown' sourceType is legal",
+      c["OK"] == 1, str(dict(c)))
+
 c, _ = classes([sugya("s1", "10a", base, [[42]])])
 check("ref that is neither string nor object", c["REF_NOT_STRING_OR_OBJECT"] == 1,
       str(dict(c)))

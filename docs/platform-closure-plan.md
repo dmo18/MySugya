@@ -234,6 +234,17 @@ until corrected.
 
 ## Phase 2: Semantic schema contract
 
+**Status: contracts defined and implemented; sourceRefs data migration
+outstanding.** argumentFlow (2A) is fully complete - see
+`docs/reports/argumentflow-category-decision.md` - because the chosen
+design (category derived from a registry, never stored per step) meant
+100% category coverage was reached the moment the registry was written,
+with zero content edits. sourceRefs (2B) has its canonical contract defined
+and validated (`docs/reports/sourcerefs-contract-decision.md`), but the 550
+defective refs it validates against are not yet repaired; that repair work
+is still Step 4 of this phase, tracked in
+`docs/reports/source-refs-normalization-plan.md`'s four-PR plan.
+
 ### A. argumentFlow vocabulary
 
 **Problem.** `argumentFlow[].type` is declared required/canonical over 13

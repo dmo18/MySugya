@@ -1,0 +1,16 @@
+{
+  "argumentFlowTypeConsumers": [
+    "app.jsx",
+    "modules/yoma/scripts/generate_phase2_inventory.py"
+  ],
+  "sourceRefsConsumers": [
+    "modules/yoma/learning_data.js",
+    "modules/yoma/scripts/generate_phase2_inventory.py",
+    "modules/yoma/scripts/preview_source_refs_migration.py",
+    "modules/yoma/scripts/test_validate_source_refs.py",
+    "modules/yoma/scripts/validate_source_refs.py",
+    "modules/yoma/source_store.js",
+    "scripts/worker_pipeline.py",
+    "shared/schema_map.js"
+  ]
+}

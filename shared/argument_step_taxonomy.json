@@ -1,0 +1,370 @@
+{
+  "schemaVersion": 1,
+  "description": "Canonical argumentFlow[].type -> category registry. category is DERIVED from this file, never stored per-step: no modules/yoma/assets/learning/*.json content is edited to add categories. A step's authored type is preserved exactly as written; category groups it for rendering, validation, and cross-tractate portability. See docs/reports/argumentflow-category-decision.md for why this design was chosen over storing category explicitly, and for the discourse-function evidence behind each category.",
+  "categories": {
+    "case": {
+      "en": "Case",
+      "he": "מַעֲשֶׂה",
+      "symbol": "▦",
+      "definition": "Introduces a concrete fact pattern, scenario, or cited source text as the subject of legal analysis.",
+      "inclusionCriteria": "Poses a scenario, incident, or source citation (mishna/baraita) that frames what the sugya will analyze.",
+      "exclusionCriteria": "Does not itself argue a position, raise a question, or describe non-legal narrative content.",
+      "examples": [
+        "A new mishna is introduced",
+        "A baraita is cited to frame the topic"
+      ]
+    },
+    "description": {
+      "en": "Description",
+      "he": null,
+      "symbol": "○",
+      "definition": "States factual, descriptive, or background content: physical facts, enumerations, or contextual detail not itself argued or narrated as a story.",
+      "inclusionCriteria": "Architectural/physical facts, formula contents, enumerations, background context, brief factual mentions.",
+      "exclusionCriteria": "Not an aggadic story (see narrative), not a specific halakhic ruling (see ruling), not a proposed position.",
+      "examples": [
+        "Temple chamber dimensions",
+        "Contents of a liturgical formula"
+      ]
+    },
+    "narrative": {
+      "en": "Narrative",
+      "he": "אַגָּדָה",
+      "symbol": "❧",
+      "definition": "Non-halakhic storytelling, aggadic, or theological content: an anecdote, historical incident, or homiletic teaching.",
+      "inclusionCriteria": "Recounts an incident, aggadic teaching, or theological/cosmic explanation not resolving a legal question.",
+      "exclusionCriteria": "Not a legal case posed for analysis (see case), not a general halakhic principle (see takeaway).",
+      "examples": [
+        "A sage's biographical anecdote",
+        "An aggadic explanation of a verse"
+      ]
+    },
+    "dispute": {
+      "en": "Dispute",
+      "he": "מַחֲלוֹקֶת",
+      "symbol": "⇌",
+      "definition": "States a disagreement between two or more named authorities as a single unit, presenting multiple sides together.",
+      "inclusionCriteria": "One step names two or more positions in tension (e.g. 'X holds A; Y holds B').",
+      "exclusionCriteria": "A single authority's own view stated alone belongs to position, not dispute.",
+      "examples": [
+        "R. Meir vs. Rabbis on scope of a rule",
+        "Tanna Kama vs. R. Yehuda"
+      ]
+    },
+    "position": {
+      "en": "Position",
+      "he": "הַצָּעָה",
+      "symbol": "✎",
+      "definition": "A single party's view, claim, hypothesis, or interpretation, offered as one side of a question rather than as proof or resolution.",
+      "inclusionCriteria": "One named or implied party's assertion, interpretation, or proposed reading, not yet supported or resolved.",
+      "exclusionCriteria": "Not a two-sided dispute (see dispute), not evidence for a position (see support), not the sugya's final resolution.",
+      "examples": [
+        "R. Yehuda's view stated alone",
+        "A proposed authorship attribution"
+      ]
+    },
+    "inquiry": {
+      "en": "Inquiry",
+      "he": "שְׁאֵלָה",
+      "symbol": "?",
+      "definition": "Raises a question, difficulty, contradiction, or open problem to be addressed.",
+      "inclusionCriteria": "Poses a question, names an internal contradiction, or leaves a problem explicitly open.",
+      "exclusionCriteria": "Not a challenge to a specific already-stated position (see challenge).",
+      "examples": [
+        "What is the source for this law?",
+        "Two sources appear to contradict"
+      ]
+    },
+    "support": {
+      "en": "Support",
+      "he": "רְאָיָה",
+      "symbol": "§",
+      "definition": "Brings textual, traditional, or derivational evidence for a position: a proof-text, citation, or scriptural derivation.",
+      "inclusionCriteria": "Cites a verse, tradition, or derivation as evidence; provides a premise later reasoning depends on.",
+      "exclusionCriteria": "Not the position itself (see position), not the logical unpacking of evidence (see reasoning).",
+      "examples": [
+        "A verse cited as proof",
+        "A scriptural derivation of a detail"
+      ]
+    },
+    "reasoning": {
+      "en": "Reasoning",
+      "he": null,
+      "symbol": "○",
+      "definition": "Explains logic, mechanism, implication, or inference: unpacks why something follows or how it works.",
+      "inclusionCriteria": "Analyzes, explains, applies a principle to a case, draws an inference, or clarifies a mechanism.",
+      "exclusionCriteria": "Not the initial claim (see position), not evidence itself (see support), not the sugya's final settlement (see resolution).",
+      "examples": [
+        "Explains why a rule applies here",
+        "Draws out an implication of an established status"
+      ]
+    },
+    "elaboration": {
+      "en": "Elaboration",
+      "he": null,
+      "symbol": "○",
+      "definition": "Continues or expands the immediately preceding point with further detail, whether legal or descriptive.",
+      "inclusionCriteria": "Adds further detail building directly on the prior step, without introducing a new argumentative move.",
+      "exclusionCriteria": "Not a self-contained new claim, proof, or objection.",
+      "examples": [
+        "Further detail continuing the previous point"
+      ]
+    },
+    "challenge": {
+      "en": "Challenge",
+      "he": "קֻשְׁיָא",
+      "symbol": "↯",
+      "definition": "Raises a difficulty against a specific, already-stated position.",
+      "inclusionCriteria": "Directly challenges a preceding claim or ruling.",
+      "exclusionCriteria": "Not a general open question (see inquiry).",
+      "examples": [
+        "A direct difficulty raised against the stated view"
+      ]
+    },
+    "objection": {
+      "en": "Objection",
+      "he": "קֻשְׁיָא",
+      "symbol": "↯",
+      "definition": "A specific objection, dissent, or counter-assertion against a stated position.",
+      "inclusionCriteria": "Explicitly disagrees with or counters a specific prior claim.",
+      "exclusionCriteria": "Not the rebuttal to an objection (see counter_objection).",
+      "examples": [
+        "An authority dissents from the stated view"
+      ]
+    },
+    "counter_objection": {
+      "en": "Counter",
+      "he": "פִּרְכָא",
+      "symbol": "⇄",
+      "definition": "A rebuttal or refutation directed back at a prior objection.",
+      "inclusionCriteria": "Responds to and rebuts an immediately preceding objection.",
+      "exclusionCriteria": "Not the original objection itself.",
+      "examples": [
+        "Evidence offered to refute the objection just raised"
+      ]
+    },
+    "distinction": {
+      "en": "Distinction",
+      "he": "חִילּוּק",
+      "symbol": "⌥",
+      "definition": "Draws a distinction, contrast, or identifies the crux separating two cases.",
+      "inclusionCriteria": "Highlights how two cases, rulings, or texts differ.",
+      "exclusionCriteria": "Not a scope-limiting qualification of a single rule (see qualification).",
+      "examples": [
+        "Distinguishes why one case differs from another"
+      ]
+    },
+    "qualification": {
+      "en": "Qualification",
+      "he": "סְיָג",
+      "symbol": "≈",
+      "definition": "Limits, conditions, or specifies the scope of an established rule.",
+      "inclusionCriteria": "Adds a condition or boundary to an already-stated rule.",
+      "exclusionCriteria": "Not a contrast between two separate cases (see distinction).",
+      "examples": [
+        "Specifies the scope a rule applies to"
+      ]
+    },
+    "rejection": {
+      "en": "Rejection",
+      "he": "דְחִיָּה",
+      "symbol": "✗",
+      "definition": "Rejects a proposed answer, solution, or line of reasoning as unworkable.",
+      "inclusionCriteria": "Explicitly dismisses a proposed resolution.",
+      "exclusionCriteria": "Not the sugya's own final resolution (see resolution).",
+      "examples": [
+        "A proposed answer is rejected as untenable"
+      ]
+    },
+    "resolution": {
+      "en": "Resolution",
+      "he": "מַסְקָנָא",
+      "symbol": "✓",
+      "definition": "Settles a raised question, dispute, or problem, including an explicit conclusion that the matter remains unresolved (teiku-style).",
+      "inclusionCriteria": "States the sugya's disposition of a question: a verdict, conclusion, solution, or an explicit standing-open finding.",
+      "exclusionCriteria": "Not a rejected intermediate proposal (see rejection), not a general takeaway principle (see takeaway).",
+      "examples": [
+        "Therefore the halakha follows X",
+        "The question is left standing as unresolved"
+      ]
+    },
+    "takeaway": {
+      "en": "Takeaway",
+      "he": "כְּלָל",
+      "symbol": "★",
+      "definition": "States a general principle, teaching, or the sugya's overarching lesson.",
+      "inclusionCriteria": "Articulates a principle or teaching that generalizes beyond the immediate case.",
+      "exclusionCriteria": "Not a case-specific settled ruling (see ruling), not the resolution of the immediate question (see resolution).",
+      "examples": [
+        "The broader principle this sugya illustrates"
+      ]
+    },
+    "ruling": {
+      "en": "Ruling",
+      "he": "פְּסָק",
+      "symbol": "⚖",
+      "definition": "States a concrete, settled halakhic rule, fact, or practice, often one of several enumerated in sequence.",
+      "inclusionCriteria": "Presents a specific settled law or practice as content, whether or not it settles a live dispute in this step.",
+      "exclusionCriteria": "Not a general principle abstracted beyond the specific case (see takeaway), not the resolution of a question raised earlier in this sugya (see resolution).",
+      "examples": [
+        "The mishna's specific rule stated plainly",
+        "A named halakhic detail in a list of such details"
+      ]
+    },
+    "procedure": {
+      "en": "Procedure",
+      "he": null,
+      "symbol": "○",
+      "definition": "Describes or continues the physical execution of a ritual or legal procedure, step by step.",
+      "inclusionCriteria": "Narrates what is physically done, in what order, including counts and totals of ritual acts.",
+      "exclusionCriteria": "Not a legal rule about the procedure (see ruling), not aggadic storytelling (see narrative).",
+      "examples": [
+        "The next physical step of the service",
+        "A tally of ritual acts performed"
+      ]
+    },
+    "meta": {
+      "en": "Meta",
+      "he": null,
+      "symbol": "○",
+      "definition": "Organizes the discussion itself rather than its halakhic content: a transition, digression marker, or summary of the discussion.",
+      "inclusionCriteria": "Marks a shift in topic, a digression, or recaps the preceding discussion as discussion.",
+      "exclusionCriteria": "Not a summary of ritual procedure counts (see procedure).",
+      "examples": [
+        "The sugya returns to its earlier topic",
+        "A digression from the main line of argument"
+      ]
+    },
+    "answer": {
+      "en": "Answer",
+      "he": "תֵּירוּץ",
+      "symbol": "✓",
+      "definition": "A specific answer or rejoinder that responds to a question raised earlier in this sugya.",
+      "inclusionCriteria": "Directly answers a previously posed question or challenge within the ongoing exchange.",
+      "exclusionCriteria": "Not the sugya's overall concluding resolution (see resolution), which settles the matter as a whole rather than answering one exchange.",
+      "examples": [
+        "A direct reply to the question just asked"
+      ]
+    }
+  },
+  "typeToCategory": {
+    "action": "procedure",
+    "addition": "qualification",
+    "additional": "reasoning",
+    "agency": "procedure",
+    "aggadah": "narrative",
+    "alternative": "position",
+    "analogy": "reasoning",
+    "analysis": "reasoning",
+    "answer": "answer",
+    "application": "reasoning",
+    "argument": "reasoning",
+    "assertion": "ruling",
+    "attempt": "position",
+    "carriers": "procedure",
+    "case": "case",
+    "cases": "case",
+    "challenge": "challenge",
+    "citation": "support",
+    "claim": "position",
+    "clarification": "reasoning",
+    "closing": "resolution",
+    "comparison": "reasoning",
+    "completion": "procedure",
+    "complication": "inquiry",
+    "concept": "takeaway",
+    "concern": "inquiry",
+    "conclusion": "resolution",
+    "confession": "procedure",
+    "content": "description",
+    "context": "description",
+    "continuation": "procedure",
+    "contradiction": "inquiry",
+    "contrast": "distinction",
+    "counter": "objection",
+    "counter_objection": "counter_objection",
+    "counterpoint": "counter_objection",
+    "crux": "distinction",
+    "deduction": "resolution",
+    "derivation": "support",
+    "description": "description",
+    "detail": "description",
+    "digression": "meta",
+    "discussion": "reasoning",
+    "dispatch": "procedure",
+    "dispute": "dispute",
+    "dissent": "objection",
+    "distinction": "distinction",
+    "effect": "procedure",
+    "elaboration": "elaboration",
+    "evaluation": "reasoning",
+    "example": "reasoning",
+    "explanation": "reasoning",
+    "exposition": "narrative",
+    "follow-up": "inquiry",
+    "hypothesis": "position",
+    "identification": "position",
+    "implication": "reasoning",
+    "incident": "narrative",
+    "inference": "reasoning",
+    "institution": "procedure",
+    "interpretation": "reasoning",
+    "introduction": "case",
+    "justification": "reasoning",
+    "list": "ruling",
+    "measurement": "description",
+    "mention": "description",
+    "mishna": "case",
+    "mnemonic": "takeaway",
+    "narrative": "narrative",
+    "new case": "case",
+    "new_topic": "case",
+    "note": "narrative",
+    "nuance": "distinction",
+    "objection": "objection",
+    "opinion": "position",
+    "order": "procedure",
+    "parallel": "reasoning",
+    "penalty": "ruling",
+    "position": "position",
+    "premise": "support",
+    "principle": "takeaway",
+    "problem": "inquiry",
+    "proof": "support",
+    "proposal": "position",
+    "qualification": "qualification",
+    "question": "inquiry",
+    "quotation": "narrative",
+    "rationale": "reasoning",
+    "reaction": "procedure",
+    "reason": "reasoning",
+    "reasoning": "reasoning",
+    "refutation": "counter_objection",
+    "rejection": "rejection",
+    "relay": "procedure",
+    "report": "description",
+    "resolution": "resolution",
+    "response": "narrative",
+    "resumption": "procedure",
+    "ruling": "ruling",
+    "scope": "qualification",
+    "sequence": "procedure",
+    "significance": "takeaway",
+    "solution": "resolution",
+    "statement": "description",
+    "structure": "procedure",
+    "stub": "inquiry",
+    "summary": "meta",
+    "support": "support",
+    "symmetry": "reasoning",
+    "takeaway": "takeaway",
+    "teaching": "takeaway",
+    "technique": "procedure",
+    "theology": "narrative",
+    "total": "procedure",
+    "tradition": "support",
+    "transfer": "procedure",
+    "transition": "meta",
+    "unresolved": "resolution",
+    "verdict": "resolution"
+  }
+}
