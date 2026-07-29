@@ -23,7 +23,7 @@ distinct, and is it inside the vocabulary the schema and the renderer expect.
 | C4 | no required field duplicated within or across sugyot | **PASS** |
 | C5 | `takeaway.type` inside controlled values | **PASS** 492/492 |
 | C6 | `argumentFlow.type` inside controlled values | **FAIL** 1,320 steps |
-| C7 | `argumentFlow.type` renderable (has a `STEP_META` entry) | **FAIL** 1,320 steps |
+| C7 | `argumentFlow.type` has a `STEP_META` label (Hebrew term + symbol) | **FAIL** 1,320 steps |
 | C8 | quizSeeds shape, questions test a distinction | **PASS** 754/754 |
 | C9 | no quiz question repeated across the corpus | **FAIL** 4 |
 | C10 | misconceptions shape and distinctness | **FAIL** 1 |

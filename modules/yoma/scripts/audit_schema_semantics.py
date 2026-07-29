@@ -16,8 +16,9 @@ This audit answers the harder question, over all 492 sugyot:
   C4  distinctness    no required field duplicated within a sugya or across sugyot
   C5  takeaway type   takeaway.type inside controlledValues.takeawayType
   C6  step type       argumentFlow[].type inside controlledValues.argumentStepType
-  C7  renderable      argumentFlow[].type has a real STEP_META entry in app.jsx,
-                      so it does not silently render as a mislabelled Question
+  C7  labelled       argumentFlow[].type has a real STEP_META entry in app.jsx,
+                      so it renders with a Hebrew term and symbol rather than
+                      falling back to its bare name
   C8  quiz shape      question and answer present, question tests a distinction
   C9  quiz distinct   no quiz question repeated across the corpus
   C10 misconceptions  shape correct, no correction duplicated across the corpus
@@ -98,9 +99,12 @@ def read_controlled_values(name):
 def read_step_meta_keys():
     """Pull the STEP_META keys out of app.jsx.
 
-    These are the step types the renderer can actually label. Anything else
-    hits the `|| STEP_META.question` fallback and is shown to the learner as
-    a Question, with the wrong Hebrew term and the wrong symbol.
+    These are the step types the renderer has a Hebrew term and symbol for.
+    Anything else goes through stepMetaFor's fallback and is shown with its
+    own humanised name and no Hebrew. That is correct but unpolished: the
+    learner sees "Ruling" rather than a term plus symbol. Before VERSION
+    15.350 the fallback was STEP_META.question, which actively mislabelled
+    these steps as Questions; that part is fixed.
     """
     text = APP_JSX.read_text(encoding="utf-8")
     m = re.search(r"const STEP_META = \{(.*?)\n\};", text, re.S)
@@ -206,7 +210,7 @@ def audit():
             if meta_keys and t not in meta_keys:
                 findings["C7"].append({**step_where,
                                        "detail": f"argumentFlow.type {t!r} has no STEP_META entry; "
-                                                 f"renders as a mislabelled Question"})
+                                                 f"renders with its bare name and no Hebrew term"})
 
         # C8 quiz shape
         for i, q in enumerate(s.get("quizSeeds") or []):
@@ -271,7 +275,7 @@ CHECKS = [
     ("C4", "distinctness: no required field duplicated within or across sugyot"),
     ("C5", "takeaway.type inside controlled values"),
     ("C6", "argumentFlow.type inside controlled values"),
-    ("C7", "argumentFlow.type renderable (has a STEP_META entry)"),
+    ("C7", "argumentFlow.type has a STEP_META label (Hebrew term + symbol)"),
     ("C8", "quizSeeds shape and non-generic questions"),
     ("C9", "no quiz question repeated across the corpus"),
     ("C10", "misconceptions shape and distinctness"),
