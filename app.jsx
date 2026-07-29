@@ -1493,6 +1493,29 @@ const STEP_META = {
   resolution:        { he: "מַסְקָנָא", sym: "✓", en: "Resolution" },
   takeaway:          { he: "כְּלָל",    sym: "★", en: "Takeaway" },
 };
+
+// Display metadata for one argument step.
+//
+// STEP_META covers the 13 values in controlledValues.argumentStepType, but the
+// corpus carries 106 more (ruling, elaboration, derivation, narrative, ...),
+// which is a known open item - see docs/reports/sugya-schema-readiness.md.
+// This used to fall back to the question entry, which told the learner
+// something false: `ruling`, the single most common type in the corpus, was
+// labelled "Question" with the Hebrew for question and a question-mark symbol.
+//
+// An unrecognised type now shows its own name instead. Hebrew is left empty
+// rather than invented, and callers omit the Hebrew element when it is, so an
+// unclassified step reads as itself rather than as the wrong thing.
+function stepMetaFor(type) {
+  const known = STEP_META[type];
+  if (known) return known;
+  const label = String(type || "").replace(/[_-]+/g, " ").trim();
+  return {
+    he: "",
+    sym: "○",
+    en: label ? label.charAt(0).toUpperCase() + label.slice(1) : "Step",
+  };
+}
 const FLOW_FALLBACK = [
   { type: "question",   label: "A question is raised" },
   { type: "proof",      label: "A proof is brought" },
@@ -1520,7 +1543,7 @@ function ArgumentFlowDemo({ steps, sugyaTitle }) {
     <div className="flow-wrap">
       <div className="flow-demo" onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)}>
         {flow.map((s, i) => {
-          const m = STEP_META[s.type] || STEP_META.question;
+          const m = stepMetaFor(s.type);
           return (
             <React.Fragment key={s.id || (s.type + "-" + i)}>
               <button
@@ -1533,7 +1556,7 @@ function ArgumentFlowDemo({ steps, sugyaTitle }) {
                 aria-label={m.en}
               >
                 <span className="flow-sym" aria-hidden="true">{m.sym}</span>
-                <span className="flow-he" lang="he" dir="rtl">{m.he}</span>
+                {m.he ? <span className="flow-he" lang="he" dir="rtl">{m.he}</span> : null}
                 <span className="flow-en">{m.en}</span>
               </button>
               {i < flow.length - 1 && (
@@ -1621,7 +1644,7 @@ function LivingDaf({ featured, mod }) {
     .filter(r => r.he).slice(0, 8)) || [];
   const firstStep = featured && featured.heroSugya && featured.heroSugya.argumentFlow &&
     featured.heroSugya.argumentFlow[0];
-  const stepMeta = firstStep && (STEP_META[firstStep.type] || STEP_META.question);
+  const stepMeta = firstStep ? stepMetaFor(firstStep.type) : null;
   const hot = coreLines.length > 2 ? 2 : 0;
 
   return (
@@ -1665,7 +1688,7 @@ function LivingDaf({ featured, mod }) {
                 ))
               )}
               {stepMeta ? (
-                <span className="ld-core-tag" lang="he" dir="rtl">{stepMeta.he} · {stepMeta.en}</span>
+                <span className="ld-core-tag" lang="he" dir="rtl">{stepMeta.he ? stepMeta.he + " · " : ""}{stepMeta.en}</span>
               ) : null}
             </div>
             <div className="ld-col ld-col-side" aria-hidden="true">
@@ -1973,7 +1996,7 @@ function PeekInside({ featured }) {
           {steps.length ? (
             <div className="peek-args" data-on={stage >= 3 ? "1" : "0"}>
               {steps.map((s, i) => {
-                const m = STEP_META[s.type] || STEP_META.question;
+                const m = stepMetaFor(s.type);
                 return <span className="peek-arg" key={s.id || i}><span aria-hidden="true">{m.sym}</span> {m.en}</span>;
               })}
             </div>
