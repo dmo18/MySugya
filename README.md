@@ -318,6 +318,8 @@ scheduled for deletion.
 
 ## Documentation
 
+- **docs/reports/legacy-renderer-retirement-policy.md** - Why the legacy Rashi renderer is retained and what would be required to retire it
+- **docs/reports/next-tractate-roadmap.md** - Prerequisites for the next tractate (roadmap, not outstanding work)
 - **docs/reports/open-items.md** - **Current status**: one classified inventory of everything open, paused, deferred, historical, or operator-owned. Start here.
 - **CLAUDE.md** - Complete maintainer guide, universal rules, module system
 - **SOURCES.md** - Source attribution and technology stack

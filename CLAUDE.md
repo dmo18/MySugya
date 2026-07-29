@@ -308,6 +308,8 @@ authorization run was `30399334278` / artifact `8704117259` at `d1e4715`
   staleness is never a blocker.
 
 Current classified status for everything else: `docs/reports/open-items.md`.
+Legacy renderer retirement policy: `docs/reports/legacy-renderer-retirement-policy.md`.
+Next-tractate prerequisites: `docs/reports/next-tractate-roadmap.md`.
 
 `npm run audit:rashi-renderer-readiness:yoma` reports mechanically-checked
 readiness across 8 conditions (ratchets, referential integrity, the
