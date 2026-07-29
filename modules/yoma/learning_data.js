@@ -18459,7 +18459,7 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 1,
         he: "שזה פרישתו לקדושה. ליכנס למחנה שכינה ולא יהא לבו זחה עליו",
-        en: "Rashi on 'that this one's separation is for holiness': the YK kohein gadol is separated so that his heart will not become arrogant and so that he withdraws from all frivolity. The separation creates an atmosphere of awe (eimah) through being set apart from people.",
+        en: "'That this one's separation is for holiness' - to enter the camp of the Divine Presence, and so that his heart not grow haughty upon him,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -18473,7 +18473,7 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 2,
         he: "ויהא נבדל מכל קלות ראש שחלה עליו אימה בהבדלתו מן הבריות:",
-        en: "Rashi: 'and his fellow priests touch him' - meaning: other kohanim are allowed to come into physical contact with the YK kohein gadol during his separation period. His separation is for holiness (attitude), not for purity (physical state).",
+        en: "and that he be set apart from all frivolity, for awe falls upon him through his separation from people.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -18487,7 +18487,7 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 3,
         he: "וזה פרישתו לטהרה. להחמיר בטהרתו מפני קל שעושין בו לטמאו",
-        en: "Rashi: 'and this one's separation is for purity' - the para priest's separation is meant to ensure he is in a state of strict purity, unlike the YK kohein gadol. The reason they are more strict with the para priest is to counter the Sadducean claim that the burning requires sunset (see later).",
+        en: "'And this one's separation is for purity' - to be stringent in his purity, because of the lightheadedness they practice with him: to render him impure",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -18501,12 +18501,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 4,
         he: "בו ביום להטבילו להוציא מלבן של צדוקים לכך החמירו בטהרתו",
-        en: "Rashi: 'his fellow priests do not touch him' - other kohanim are forbidden to touch the para priest during his separation period, because contact could convey impurity and undermine the stringent purity requirement.",
+        en: "on that very day and immerse him, so as to drive the notion from the heart of the Sadducees; therefore they were stringent in his purity,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l04"
+          "yoma-008b-l01"
         ]
       },
       {
@@ -18515,12 +18515,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 5,
         he: "שלא יהא אדם נוגע בו: הא איכא",
-        en: "Rashi on 'R. Yosei b'R. Chanina raises an objection': granted, days 1, 2, 3 - because perhaps the first day of the separation is day 3 of a prior tumah. Similarly days 5, 6, 7 - because perhaps day 7 of a prior tumah. But day 4 - what possible tumah-counting makes day 4 of the separation either day 3 or day 7 of tumah?",
+        en: "that no person should touch him. 'But there is also'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l04"
+          "yoma-008b-l01"
         ]
       },
       {
@@ -18529,12 +18529,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 6,
         he: "נמי האי. שזה מזין עליו כל שבעה",
-        en: "Rashi: 'second [day] perhaps day 3' - on day 2 of the separation, it is possible the priest had tumah contact on the night before the separation began, making day 2 the third day of his tumah. So sprinkling day 2 is warranted.",
+        en: "'this' - that upon this one they sprinkle all seven,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l04"
+          "yoma-008b-l01"
         ]
       },
       {
@@ -18543,12 +18543,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 7,
         he: "וזה אין מזין עליו כל שבעה:",
-        en: "Rashi: 'third perhaps day 3' - even day 3, perhaps he had tumah contact on day 1 of the separation itself (a brief hour before it began), making day 3 the third day of tumah. So even day 3 merits sprinkling.",
+        en: "and upon that one they do not sprinkle all seven.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l04"
+          "yoma-008b-l01"
         ]
       },
       {
@@ -18557,12 +18557,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 8,
         he: "בשלמא. יום ראשון מזין עליו",
-        en: "Rashi: 'fifth perhaps day 7' - day 5 of the separation could be day 7 of tumah, if the priest had tumah contact during the first day of separation. And similarly day 6 and day 7 cover other possible seventh-day scenarios.",
+        en: "'Granted' - on the first day they sprinkle upon him,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l08"
+          "yoma-008b-l04"
         ]
       },
       {
@@ -18571,12 +18571,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 9,
         he: "שמא היום יום שלישי לטומאתו וכן שני",
-        en: "Rashi: 'but the fourth day - why sprinkle at all?' - day 4 cannot be the third day of any tumah (all third-day possibilities are covered by days 1, 2, 3 of separation) and it cannot be the seventh day either (all seventh-day possibilities are covered by days 5, 6, 7).",
+        en: "for perhaps today is the third day of his impurity; and likewise the second,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l08"
+          "yoma-008b-l04"
         ]
       },
       {
@@ -18585,12 +18585,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 10,
         he: "וכן שלישי שמא שעה אחת קודם",
-        en: "Rashi: 'is hazaah all seven days possible? But we hold that hazaah is a shvut [and cannot override Shabbat]' - the answer to R. Yosei's challenge is that 'all seven' never truly means seven, because Shabbat always interrupts. So really it is 'seven minus Shabbat.'",
+        en: "and likewise the third, for perhaps one hour before",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l10"
+          "yoma-008b-l04"
         ]
       },
       {
@@ -18599,12 +18599,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 11,
         he: "פרישתו נטמא: חמישי שמא שביעי.",
-        en: "Rashi: 'rather, what must you say? Seven minus Shabbat' - the Mishnah's 'all seven' implicitly excludes Shabbat because hazaah is a Rabbinic prohibition that Shabbat overrides. So the actual number of sprinkling days is at most 6.",
+        en: "his separation he became impure. 'The fifth, perhaps the seventh' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l10"
+          "yoma-008b-l04"
         ]
       },
       {
@@ -18613,12 +18613,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 12,
         he: "שאם היה הראשון לפרישה שלישי",
-        en: "Rashi: 'here too, seven minus the fourth day' - applying the same logic: just as we say 'seven minus Shabbat' when Shabbat makes hazaah impossible, so too we say 'seven minus day 4' when day 4 is impossible for any logical tumah-counting reason.",
+        en: "for if the first day of the separation was the third",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l10"
+          "yoma-008b-l04"
         ]
       },
       {
@@ -18627,12 +18627,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 13,
         he: "לטומאה נמצא החמישי שביעי וכן ששי",
-        en: "Rashi on 'Rava said: therefore' - Rava introduces his resolution of the entire question. The key word 'therefore' (hilkhakh) signals that what follows is the practical ruling that resolves the theoretical problem.",
+        en: "of impurity, the fifth turns out to be the seventh; and likewise the sixth,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l10"
+          "yoma-008b-l04"
         ]
       },
       {
@@ -18641,12 +18641,13 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 14,
         he: "וכן שביעי: אלא רביעי. אמאי מזינן",
-        en: "Rashi: 'the High Priest on Yom Kippur, the matter does not depend on us but on the calendar' - the YK kohein gadol must be separated on 3 Tishrei regardless of what day of the week it falls on. We have no control over the starting day.",
+        en: "and likewise the seventh. 'But the fourth' - why do we sprinkle",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l14"
+          "yoma-008b-l04",
+          "yoma-008b-l08"
         ]
       },
       {
@@ -18655,12 +18656,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 15,
         he: "עליה לא בשלישי איכא לספוקי דהא",
-        en: "Rashi: 'on 3 Tishrei he must be separated' - Yom Kippur is 10 Tishrei; the seven-day separation backward puts the start at 3 Tishrei. This is fixed every year by the Torah calendar, not by us.",
+        en: "upon him? There is no doubt of a third, since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l14"
+          "yoma-008b-l08"
         ]
       },
       {
@@ -18669,12 +18670,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 16,
         he: "משפירש לא נטמא במת ולא בשביעי",
-        en: "Rashi: 'whenever 3 Tishrei falls, we separate him' - regardless of the day of the week, the YK kohein gadol is separated on 3 Tishrei. Sometimes his 4th day of separation falls on Shabbat (skipped), sometimes not.",
+        en: "from the time he separated he did not become impure through a corpse; nor of a seventh",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l14"
+          "yoma-008b-l08"
         ]
       },
       {
@@ -18683,12 +18684,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 17,
         he: "איכא לספוקי שאם היה שביעי",
-        en: "Rashi: 'but the para priest, the matter depends on us' - we control when the para aduma burning ritual takes place. We choose the start date of the para priest's separation, and we can choose it optimally.",
+        en: "is there doubt, for if it were the seventh",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l14"
+          "yoma-008b-l08"
         ]
       },
       {
@@ -18697,12 +18698,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 18,
         he: "לטומאתו הרי יום אחד לפני פרישתו",
-        en: "Rashi: 'we separate him on the 4th day of the week [Wednesday]' - by beginning the para priest's separation on Wednesday, his 4th day of separation falls on Shabbat, when hazaah is forbidden anyway.",
+        en: "of his impurity, then one day before his separation",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l14"
+          "yoma-008b-l08"
         ]
       },
       {
@@ -18711,12 +18712,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 19,
         he: "שלישי לטומאה נמצא שלא הזה",
-        en: "Rashi: 'so that the 4th day [of his separation] will fall on Shabbat' - the para priest separated on Wednesday has: Day 1 = Wednesday, Day 2 = Thursday, Day 3 = Friday, Day 4 = Shabbat (automatically no hazaah), Day 5 = Sunday, Day 6 = Monday, Day 7 = Tuesday.",
+        en: "was the third of the impurity, and it turns out that he did not sprinkle",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l14"
+          "yoma-008b-l08"
         ]
       },
       {
@@ -18725,12 +18726,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 20,
         he: "בשלישי והזאת שביעי בלא שלישי",
-        en: "Rashi: 'so that his 4th day falls on Shabbat' - this scheduling means the one day that cannot logically require hazaah (day 4) is the one day Shabbat prevents it. The impossible day and the forbidden day coincide perfectly.",
+        en: "on the third; and a seventh-day sprinkling without a third",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l14"
+          "yoma-008b-l08"
         ]
       },
       {
@@ -18739,12 +18740,13 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 21,
         he: "אינו כלום: וכל אימת דמתרמי",
-        en: "Rashi: 'so that only day 3 and day 7 [are required]' - with the para priest separated on Wednesday, the Shabbat (his day 4) eliminates the impossible day automatically. The result: his hazaah schedule covers only the days that are logically possible (days 1, 2, 3, 5, 6, 7) with Shabbat removing the impossible day 4.",
+        en: "is nothing. 'And whenever it occurs'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l21"
+          "yoma-008b-l08",
+          "yoma-008b-l14"
         ]
       },
       {
@@ -18753,12 +18755,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 22,
         he: "מפרשינן ליה. ואע\"ג דלא הוי רביעי",
-        en: "Rashi on 'Lishkat Parhedrin etc.' - a baraita: R. Yehuda raises a pointed question: was this room really called Parhedrin? In fact, it was called Lishkat Balvati (Chamber of Nobles/Senators).",
+        en: "'we separate him' - even though his fourth day does not fall",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l21"
+          "yoma-008b-l14"
         ]
       },
       {
@@ -18767,12 +18769,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 23,
         he: "שלו בשבת ונמצאת הזאתו בטלה שני",
-        en: "Rashi: 'Lishkat Balvati' - the word 'balvati' or 'belutai' comes from the Latin/Greek for senators (bouleutai) - 'like the speech of nobles.' This was the original dignified title for the chamber.",
+        en: "on Shabbat, and his sprinkling turns out to be void for two",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l21"
+          "yoma-008b-l14"
         ]
       },
       {
@@ -18781,12 +18783,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 24,
         he: "ימים: דבדידן תליא מילתא. שאין",
-        en: "Rashi on 'originally' - meaning: throughout all the days of Shimon HaTzaddik who served for many years and whose era was characterized by dignity and stability, the room was called Lishkat Balvati.",
+        en: "days. 'For the matter depends on us' - since",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l24"
+          "yoma-008b-l14"
         ]
       },
       {
@@ -18795,12 +18797,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 25,
         he: "זמנה קבוע: דניתרמי רביעי שלו",
-        en: "Rashi: 'because they paid money for the High Priesthood' - the Second Temple High Priests would give money to the Hasmonean kings to secure the position of High Priest. This is the corrupt practice that drove the annual rotation.",
+        en: "its time is not fixed. 'So that his fourth should fall'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l24"
+          "yoma-008b-l14"
         ]
       },
       {
@@ -18809,12 +18811,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 26,
         he: "בשבת. ולא יפסקו הזיותיו אלא יום",
-        en: "Rashi: 'and they would replace it every 12 months' - because the kohanim were wicked and did not complete their year, they would die and be replaced. Each new High Priest would tear down the previous one's construction and build his own, so the room was constantly rebuilt and renamed.",
+        en: "'on Shabbat' - and his sprinklings will be interrupted for only one",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l24"
+          "yoma-008b-l14"
         ]
       },
       {
@@ -18823,12 +18825,13 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 27,
         he: "אחד: פרהדרין. פקידי המלך:",
-        en: "Rashi: 'like these parhedrin [Persian governors] who are replaced every 12 months' - the comparison is explicit: just as Persian governors rotate annually, so did the Second Temple High Priests. The comparison is damning.",
+        en: "day. 'Parhedrin' - officers of the king.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l24"
+          "yoma-008b-l14",
+          "yoma-008b-l21"
         ]
       },
       {
@@ -18837,12 +18840,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 28,
         he: "לשכת בלווטי. לשון שרים כך היתה",
-        en: "Rashi: 'therefore they called it Lishkat Parhedrin' - the room acquired its unflattering name as social commentary. The name stuck in the Mishnah, preserving the critique across generations.",
+        en: "'Chamber of Balvati' - a term for nobles; thus was it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l24"
+          "yoma-008b-l21"
         ]
       },
       {
@@ -18851,12 +18854,13 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 29,
         he: "נקראת לשכת שרים: בתחלה. כל",
-        en: "Rashi on 'the bakers' (nachtomin): bakers who purchase grain from amei ha'aretz (common people) to bake and sell bread in the market. Sages did not require them to separate maaser sheni of dema'i for Jerusalem. They only required trumat maaser (1/100) and challah to be given to the kohein.",
+        en: "called, the Chamber of Nobles. 'At first' - all",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l29"
+          "yoma-008b-l21",
+          "yoma-008b-l24"
         ]
       },
       {
@@ -18865,12 +18869,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 30,
         he: "ימי שמעון הצדיק שהאריך ימים היו",
-        en: "Rashi: 'granted, trumah gedolah - they do not need to [separate] because...' - the baraita explains that trumah gedolah (the large priestly portion, approximately 1/50) does not need to be separated by the baker because a baraita explains why.",
+        en: "the days of Shimon HaTzaddik, who lived long, they would",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l29"
+          "yoma-008b-l24"
         ]
       },
       {
@@ -18879,12 +18883,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 31,
         he: "קוראין אותה לשכת בלווטי: מתוך",
-        en: "Rashi: 'granted, trumah gedolah - no' - the reason bakers do not separate trumah gedolah is explained in the following baraita: Yochanan High Priest sent throughout Israel and found that only trumah gedolah was being universally separated, suggesting it is the only tier that was well-enforced.",
+        en: "call it the Chamber of Balvati. 'Because'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l31"
+          "yoma-008b-l24"
         ]
       },
       {
@@ -18893,12 +18897,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 32,
         he: "שנותנין ממון לכהונה. מתוך שכהני",
-        en: "Rashi: 'because' - beginning of the reason: because Yochanan sent and found out what was universally practiced. The explanation continues on 9a.",
+        en: "'they give money for the priesthood' - because the priests",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l32"
+          "yoma-008b-l24"
         ]
       },
       {
@@ -18907,12 +18911,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 33,
         he: "בית שני היו עומדין ע\"י ממון שנותנין",
-        en: "Rashi (continuing on bakers): the full account of Yochanan High Priest's investigation is presented in 9a. Here the Gemara is setting up the context by asking why each tier of tithes does not apply to bakers.",
+        en: "of the Second Temple would attain office through money that they gave",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l32"
+          "yoma-008b-l24"
         ]
       },
       {
@@ -18921,12 +18925,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 34,
         he: "על כהונה גדולה למלכי בית חשמונאי:",
-        en: "Rashi on bakers and challah: challah is the portion separated from dough and given to the kohein. Unlike maaser sheni, challah must be separated from every baker's dough regardless of dema'i status, because bread production always involves challah obligation.",
+        en: "for the high priesthood to the kings of the Hasmonean house.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l32"
+          "yoma-008b-l24"
         ]
       },
       {
@@ -18935,12 +18939,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 35,
         he: "מחליפין אותה כל י\"ב חדש. כלומר",
-        en: "Rashi: 'bakers who are chaverim (Torah-observant)' - the entire discussion about bakers applies specifically to bakers who are themselves meticulous about Torah observance (chaverim), yet receive grain from amei ha'aretz of uncertain tithe status.",
+        en: "'They replace it every twelve months' - that is to say,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l32"
+          "yoma-008b-l24"
         ]
       },
       {
@@ -18949,12 +18953,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 36,
         he: "שרשעים היו ולא היו מוציאין שנתן",
-        en: "Rashi: 'because they are accustomed to sell constantly' - the reason bakers are treated leniently regarding dema'i maaser sheni is that they sell bread continuously throughout the day. If they had to account for maaser sheni of every batch, the burden would be excessive.",
+        en: "that they were wicked and would not complete their year,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l32"
+          "yoma-008b-l24"
         ]
       },
       {
@@ -18963,12 +18967,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 37,
         he: "ומעמידים אחר תחתיו וכל כהן",
-        en: "Rashi: 'the Sages were lenient with them' - a deliberate leniency: bakers do not need to separate maaser sheni from dema'i or redeem it. This is a concession to the commercial reality of the bread trade.",
+        en: "and they would appoint another in his place; and every priest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l32"
+          "yoma-008b-l24"
         ]
       },
       {
@@ -18977,12 +18981,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 38,
         he: "המתחדש בה סותר אותה ובונה",
-        en: "Rashi: 'and it is not necessary for them to separate maaser sheni from dema'i to ascend to Jerusalem or redeem it' - the full scope of the leniency: even if the dema'i grain actually had not had maaser sheni separated, the baker is not required to fix this for the customer.",
+        en: "newly appointed to it would demolish it and build",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l32"
+          "yoma-008b-l24"
         ]
       },
       {
@@ -18991,12 +18995,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 39,
         he: "בנין נאה מן הראשון שתהא קרויה",
-        en: "Rashi: 'maaser rishon and maaser ani' - the Gemara asks why bakers also do not need to separate these tithes. Answer: 'the one who claims from another bears the burden of proof' - the Levi or the poor person claiming these tithes must prove the baker's grain was not already tithed.",
+        en: "a building finer than the first, so that it should be called",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l32"
+          "yoma-008b-l24"
         ]
       },
       {
@@ -19005,12 +19009,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 40,
         he: "על שמו ונמצא מתחלפת כל שנה",
-        en: "Rashi: 'since he separated it and removed it from the category of tevel' - once the grain was separated from the larger batch (even as dema'i), the obligation for untithed produce (tevel) prohibition no longer applies strictly. Only a doubtful obligation remains for maaser rishon and maaser ani.",
+        en: "by his name; and so it turns out to be changed every year",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l32"
+          "yoma-008b-l24"
         ]
       },
       {
@@ -19019,12 +19023,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 41,
         he: "ושנה: כפרהדרין הללו. שהמלך",
-        en: "Rashi: 'the Levi and the poor person should bring their proof' - since the doubt is between the baker (who says he tithed) and the claimant (who says he did not), the burden falls on the claimant. The baker therefore owes nothing unless proven otherwise.",
+        en: "and year. 'Like these parhedrin' - whom the king",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l32"
+          "yoma-008b-l24"
         ]
       },
       {
@@ -19033,12 +19037,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 42,
         he: "מחלפן בכל שנה ושנה חזרו לקרות",
-        en: "Rashi: 'they separate it and ascend and eat it in Jerusalem' - for maaser sheni, which must be eaten in Jerusalem, the bakers do need to separate it from dema'i grain. But the Sages were lenient with bakers specifically for this - the explanation continues on 9a.",
+        en: "replaces every single year; they went back to calling it",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l32"
+          "yoma-008b-l24"
         ]
       },
       {
@@ -19047,12 +19051,13 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 43,
         he: "לשכת פרהדרין: הנחתומין. הלוקחין תבואה מעם הארץ למכור פת",
-        en: "Rashi on the final line of 8b: 'the bakers' - this is a concluding reference to the Mishnah being discussed. The explanation of why bakers are exempt from dema'i maaser sheni will be completed when the Gemara resumes on 9a.",
+        en: "the Chamber of Parhedrin. 'The bakers' - who buy grain from an am haaretz in order to sell bread",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l32"
+          "yoma-008b-l24",
+          "yoma-008b-l29"
         ]
       },
       {
@@ -19061,12 +19066,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 44,
         he: "לשוק לא חייבו עליהן להעלות מעשר שני של דמאי לירושלים",
-        en: "Rashi: summary note on the bakers section: bakers are chaverim who buy from amei ha'aretz. The Rabbis exempted them from the full dema'i tithe regime because they sell constantly and the burden would be impossible. Only trumat maaser and challah are required from them.",
+        en: "in the market: they did not obligate them to bring up the second tithe of demai to Jerusalem,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l32"
+          "yoma-008b-l29"
         ]
       },
       {
@@ -19075,12 +19080,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 45,
         he: "אלא תרומת מעשר שהוא אחד ממאה וחלה יתן לכהן אבל",
-        en: "Rashi (continuation): the phrase 'and they would eat it in Jerusalem' refers to maaser sheni - the second tithe that must physically be consumed in Jerusalem or redeemed. Bakers cannot practically do this for every batch, hence the leniency.",
+        en: "but only the terumat maaser, which is one hundredth, and challah, which he gives to the priest. But",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l32"
+          "yoma-008b-l29"
         ]
       },
       {
@@ -19089,12 +19094,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 46,
         he: "שאר כל אדם הטילו עליו להעלות מעשר שני של דמאי לירושלים",
-        en: "Rashi: 'not all other people' - in contrast to bakers, ordinary individuals who purchase grain from amei ha'aretz must separate maaser sheni from dema'i and either ascend to Jerusalem to eat it or redeem it for money.",
+        en: "upon every other person they imposed the duty to bring up the second tithe of demai to Jerusalem;",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l32"
+          "yoma-008b-l29"
         ]
       },
       {
@@ -19103,12 +19108,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 47,
         he: "ומעשר ראשון ומעשר עני מפרישין אותן ואין נותנים ובנחתום חבר",
-        en: "Rashi: 'and they separate maaser rishon and maaser ani' - ordinary purchasers must also separate maaser rishon for the Levi and maaser ani for the poor. They separate but do not necessarily give to specific individuals; the obligation is to separate.",
+        en: "and the first tithe and the poor man's tithe they separate but do not give. And we are dealing with a baker who is a chaver,",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l32"
+          "yoma-008b-l29"
         ]
       },
       {
@@ -19117,12 +19122,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 48,
         he: "עסקינן ומתוך שהוא רגיל למכור כל שעה הקילו עליו שאינו צריך",
-        en: "Rashi: 'since he is accustomed to sell every hour' - the baker's exemption is grounded in his commercial frequency. He sells bread continuously, making individual tracking of each batch's tithe obligations impossible.",
+        en: "and since he is accustomed to sell at every hour they were lenient with him, that he need not",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l32"
+          "yoma-008b-l29"
         ]
       },
       {
@@ -19131,12 +19136,12 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 49,
         he: "להפריש עליו מעשר שני של דמאי לעלות לירושלים [או] לפדות:",
-        en: "Rashi: 'they [the Sages] were lenient with him, that he does not need to separate maaser sheni from dema'i or redeem it' - the complete statement of the baker's leniency. He is the commercial exception; all other purchasers retain the full obligation.",
+        en: "separate upon it the second tithe of demai, to go up to Jerusalem [or] to redeem.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-008b-l32"
+          "yoma-008b-l29"
         ]
       },
       {
@@ -19145,7 +19150,7 @@ const DAF_CONTENT = {
         daf: "8b",
         vilnaLine: 50,
         he: "לפי",
-        en: "Rashi on the closing line (transition to 9a): 'because' - this is the connecting word leading into 9a's explanation of why Yochanan High Priest decreed the dema'i rules in the first place. The full baraita about his sending throughout Israel follows on 9a.",
+        en: "'Because' - the comment is completed on 9a.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
