@@ -2,7 +2,8 @@
 
 One concise, classified inventory of everything the repository still tracks as
 open, paused, deferred, historical, completed, or unknown. Produced by a
-read-only repository-wide sweep at **VERSION 15.338, commit `ef58878`**.
+read-only repository-wide sweep at **VERSION 15.338, commit `ef58878`**,
+updated through the Step 2 review at **VERSION 15.341**.
 
 This is the single current source of truth for "what is still outstanding".
 Where a longer document disagrees with this one, this one is current and the
@@ -65,7 +66,6 @@ per-shard test-count arithmetic reproduced from first principles.
 
 | Item | Detail |
 |---|---|
-| `docs-tooling` cannot edit `modules/yoma/MODULE.md` | The `docs-tooling` task type's `allowedFiles` in `scripts/worker_task_types.json` covers `docs/*`, `README.md`, `CLAUDE.md`, `SOURCES.md`, `tests/*`, `scripts/*`, and `modules/yoma/scripts/*`, but **not** `modules/yoma/MODULE.md`, which is pure module documentation. The scope gate correctly rejected a documentation-only edit to it during the VERSION 15.339 pass; the edit was reverted rather than the gate weakened. Consequence: MODULE.md cannot currently be kept in sync by a docs PR. Fixing this is a small, separate tooling change (extend `allowedFiles` to that one documentation path), never a gate bypass. |
 | Rashi translation-quality audit coverage | The corpus-wide translation-quality (not scaffold, not association) audit is not yet complete for every daf. A git-history-grounded coverage map exists in `docs/rashi-audit-backlog.md` but predates the 7a/9b repairs and the post-15.293 work. Reconstructing an exact per-daf audited/unaudited/uncertain list is the next actionable step. |
 
 Nothing else is currently blocked on code.
@@ -94,7 +94,7 @@ Nothing else is currently blocked on code.
 
 | Item | Observed state | Action owner |
 |---|---|---|
-| `main` branch protection | Read via the public GitHub API at VERSION 15.338: `protected: false`, protection `enabled: false`, required status checks enforcement `off`, and **zero rulesets**. None of the repository's own recommendations (PR required, `build` required, branch up to date, force pushes blocked, deletion restricted, bypass restricted) are currently enforced. | **Operator/admin.** This is a repository-settings action, not a code defect, and was not changed by this campaign. An unauthenticated read cannot see org-level overrides, so an admin should confirm from repository settings. |
+| `main` branch protection | **None enforced.** See the explicit comparison table below. | **Operator/admin** |
 | mysugya.com / Cloudways | Observed serving an older bundle than GitHub Pages. **Intentionally out of scope**: GitHub Pages is the authoritative beta deployment. Not a blocker and not to be repaired by this campaign. | Operator, if and when the custom domain is promoted. |
 
 ---
@@ -109,6 +109,7 @@ Nothing else is currently blocked on code.
 | `takeaway.type` normalization | **0 non-canonical values remain.** All corpus values are within the canonical set (`logical_principle`, `derivation_principle`, `legal_principle`, `conceptual`, `open_question`). The "57 sugyot carry non-canonical values" statement in `docs/yoma-perek-review.md` describes the pre-Phase-4 state and is superseded. |
 | Worker queue `.worker-queue.json` (rashi-reconstruction 79b-88a) | **All 18 targets have merged reconstruction commits on `main`.** See the note below on why the derived status reads "none". |
 | 61a, 67b, 68a, 68b, 70a, 71b | All six daf named in `docs/reports/rashi-lookalike-shift-audit.md` as needing reconstruction/realignment were repaired and now classify **ALIGNED** with `lineLevelSafe=true` and no recommended task type. That report's remediation instructions are historical. |
+| `docs-tooling` scope gap for `modules/yoma/MODULE.md` | **Resolved at VERSION 15.340** (PR #333): the single documentation path was added to `allowedFiles`, with regression tests pinning that every corpus path stays refused. |
 | 7a, 9b corrections | 7a realignment (53 entries, PR #326); 9b full reconstruction (41 entries, PR #327). |
 
 ### Worker queue: completed, with an explained derived status
@@ -177,6 +178,45 @@ derivation window has moved past it.*
   Cloudways/custom-domain configuration are out of scope.
 
 ---
+
+## Branch protection: recommended vs actual (VERSION 15.341)
+
+Read from the public GitHub API (`/branches/main` and `/rulesets`). Every
+recommendation in `docs/worker-pipeline.md` is currently unenforced:
+
+| Recommendation | Actual state |
+|---|---|
+| Require a pull request before merging | **Not enforced** (`protected: false`) |
+| Require status checks to pass (`build`) | **Not enforced** (enforcement `off`, zero contexts) |
+| Require branches up to date before merging | **Not enforced** |
+| Block force pushes | **Not enforced** |
+| Restrict deletions | **Not enforced** |
+| Restrict who can bypass | **Not enforced** (zero rulesets) |
+
+**Classification: UNKNOWN-OPERATOR, admin action, not a code defect.** These
+are repository settings that cannot be changed from repository code, and this
+campaign did not change them. Note that in practice the campaign has been
+following the recommended discipline voluntarily (every change through a PR,
+merged only on exact-head green `build`), so the gap is between policy and
+enforcement, not between policy and behavior. An unauthenticated read cannot
+observe org-level overrides; an admin should confirm from repository
+settings.
+
+## Legacy renderer retirement
+
+**Retained. Not scheduled for deletion.** Policy:
+`docs/reports/legacy-renderer-retirement-policy.md`, which defines the
+90-day observation period, the seven evidence requirements, the rollback
+conditions and procedure, and the explicit operator approval required before
+any deletion. No worker or agent may remove the legacy path, its selector
+arm, or its tests.
+
+## Next tractate
+
+**DEFERRED-ROADMAP.** All non-Yoma tractates are product roadmap, not
+incomplete Yoma work. Prerequisites and gate list:
+`docs/reports/next-tractate-roadmap.md`. No module may be created without
+explicit operator selection.
 
 ## Cross-references
 
