@@ -1,0 +1,2424 @@
+[
+ {
+  "idx": 0,
+  "daf": "55a",
+  "sugyaId": "yoma-055a-s03",
+  "stepId": "yoma-055a-l41a",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Principle: Analogy is insufficient to impose kareth penalties",
+  "stepText": "Analogy is insufficient to impose kareth penalties - Scripture must be explicit.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-055a-l41a",
+   "vilnaLine": 2
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step paraphrases a 'kareth/analogy insufficient' principle. Current lineId (l41a, real content: reconciling local sprinkling-count customs) is a clear topical mismatch. vilna-resolved segment (l01, sprinkling technique) is also a mismatch. Whole-daf top candidates (l04, l12, l09) discuss verse-derivation generally but none state the kareth/analogy principle; sibling steps (l37, l43) are themselves topically inconsistent with their own claimed content, undermining any positional inference. No segment clearly supported."
+ },
+ {
+  "idx": 1,
+  "daf": "55a",
+  "sugyaId": "yoma-055a-s04",
+  "stepId": "yoma-055a-l45a",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Action: HP exits, places bull's bowl on the",
+  "stepText": "HP exits, places bull's bowl on the stand in the Heichal.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-055a-l45a",
+   "vilnaLine": 1
+  },
+  "decision": "REASSIGN",
+  "reason": "l45b's real text: 'the mishna taught that the HP emerged and placed the bowl with remaining blood of bull on the golden pedestal in the Sanctuary' - direct, specific match for 'HP exits, places bull's bowl on the stand in the Heichal.'",
+  "newLineId": "yoma-055a-l45b",
+  "newVilna": 45
+ },
+ {
+  "idx": 2,
+  "daf": "55a",
+  "sugyaId": "yoma-055a-s04",
+  "stepId": "yoma-055a-l45b",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Action: Takes goat's blood, re-enters Holy of Holies,",
+  "stepText": "Takes goat's blood, re-enters Holy of Holies, sprinkles once above and seven below.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-055a-l45b",
+   "vilnaLine": 2
+  },
+  "decision": "REASSIGN",
+  "reason": "l01 states the sprinkling technique 'sprinkles once upward...seven times downward' - near-verbatim match to step text 'sprinkles once above and seven below.' No segment on the daf narrates the 're-enters' action explicitly, but this is the best specific match for the sprinkling-count detail, in the same passage.",
+  "newLineId": "yoma-055a-l01",
+  "newVilna": 1
+ },
+ {
+  "idx": 3,
+  "daf": "61a",
+  "sugyaId": "yoma-061a-s04",
+  "stepId": "yoma-061a-l45a",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Symmetry: The closing ram offerings mirror the opening",
+  "stepText": "The closing ram offerings mirror the opening bull-and-goat structure.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-061a-l45a",
+   "vilnaLine": 4
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step is 'Symmetry: closing ram offerings mirror opening bull-and-goat structure.' Current lineId, vilna-resolved candidates (l01a/l01b, genuinely ambiguous pair), and whole-daf top (l34, about sin-offering renewal rule) are all topical mismatches - the real content in this vicinity (l43-l45b) concerns the leper-purification analogy, not ram-offering symmetry. No segment clearly supported."
+ },
+ {
+  "idx": 4,
+  "daf": "62b",
+  "sugyaId": "yoma-062b-s02",
+  "stepId": "yoma-062b-l43a",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Principle: The lottery creates binding legal status that",
+  "stepText": "The lottery creates binding legal status that neither the HP nor circumstances can override.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-062b-l43a",
+   "vilnaLine": 4
+  },
+  "decision": "REPAIR_VILNA_ONLY",
+  "reason": "Current lineId (l43a) real content: 'before the HP draws lots... goats are not yet considered valid offerings because there is a necessary action the HP must take' - this IS the lottery-creates-binding-status principle, just paraphrased. Positioned correctly in sequence after siblings l38/l40/l41. Keep lineId, fix stale vilnaLine 4->43.",
+  "newLineId": "yoma-062b-l43a",
+  "newVilna": 43
+ },
+ {
+  "idx": 5,
+  "daf": "63a",
+  "sugyaId": "yoma-063a-s01",
+  "stepId": "yoma-063a-l03a",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Support: Rabbi Yochanan's tradition supports this ruling.",
+  "stepText": "Rabbi Yochanan's tradition supports this ruling.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-063a-l03a",
+   "vilnaLine": 2
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'Support: Rabbi Yochanan's tradition supports this ruling.' Two equally-plausible candidates found via whole-daf search (l10 and l17), both literally 'Rabbi Yirmeya said Rabbi Yochanan said' transmission chains (two versions of the same tradition, tied score). No textual basis to prefer one over the other."
+ },
+ {
+  "idx": 6,
+  "daf": "67a",
+  "sugyaId": "yoma-067a-s01",
+  "stepId": "yoma-067a-l05",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Last escort stopped at one mil from cliff",
+  "stepText": "The last station was two mil from the cliff; the final escort accompanied him one mil and watched from a distance.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-067a-l05",
+   "vilnaLine": 18
+  },
+  "decision": "REASSIGN",
+  "reason": "Stored vilnaLine=18 already correct; current lineId is a spurious copy of the step's own id (coincidentally matching an unrelated real segment about crimson-strip/tumah). l18 (the vilna-resolved segment) discusses 'whose opinion' the baraita rule (last escort does not reach cliff, stands at a distance) reflects - directly on-topic for 'Last escort stopped ... watched from a distance.'",
+  "newLineId": "yoma-067a-l18",
+  "newVilna": 18
+ },
+ {
+  "idx": 7,
+  "daf": "67a",
+  "sugyaId": "yoma-067a-s03",
+  "stepId": "yoma-067a-l12",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Service valid even after nightfall",
+  "stepText": "The Azazel service is valid even if performed after nightfall - not subject to the daytime requirement of standard Temple services.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-067a-l12",
+   "vilnaLine": 43
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'Azazel service valid even after nightfall.' Current lineId, vilna-resolved (l43), and whole-daf top candidates are all about the goat's-torn-limbs permitted/prohibited-for-benefit dispute, not nightfall. Sibling step (l40 real content) is also about that dispute, not nightfall - the nightfall topic does not appear to be textually anchored anywhere on this daf's line table."
+ },
+ {
+  "idx": 8,
+  "daf": "67b",
+  "sugyaId": "yoma-067b-s01",
+  "stepId": "yoma-067b-l05",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Atones for Uzza and Azza'el who fell for human women",
+  "stepText": "The Azazel goat atones for the sin of the fallen angels Uzza and Azza'el who descended for human women in Noah's generation (Gen. 6).",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-067b-l05",
+   "vilnaLine": 10
+  },
+  "decision": "REASSIGN",
+  "reason": "l16: 'The school of Rabbi Yishmael taught: Azazel is so called because it atones for the actions of Uzza and Azael... sons of God who sinned with daughters of men (Genesis 6:2)' - near-verbatim match.",
+  "newLineId": "yoma-067b-l16",
+  "newVilna": 16
+ },
+ {
+  "idx": 9,
+  "daf": "67b",
+  "sugyaId": "yoma-067b-s02",
+  "stepId": "yoma-067b-l08",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Reason: Must be ownerless - no one's property",
+  "stepText": "The second midbar teaches it must be ownerless, as the wilderness was ownerless - not privately owned land.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-067b-l08",
+   "vilnaLine": 17
+  },
+  "decision": "REASSIGN",
+  "reason": "l01: 'the goat shall be available for anyone to use, similar to a wilderness' - direct match for 'must be ownerless, as wilderness was ownerless.' vilna-resolved candidate (l17) was a mismatch (chok/mishpat digression); whole-daf search found l01 as the true anchor.",
+  "newLineId": "yoma-067b-l01",
+  "newVilna": 1
+ },
+ {
+  "idx": 10,
+  "daf": "67b",
+  "sugyaId": "yoma-067b-s03",
+  "stepId": "yoma-067b-l10",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Dispute: Goat fell backward vs face-first",
+  "stepText": "Tanna Kamma: the goat went backward (al achorav). Ben Azzai: it went face-first (al panav).",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-067b-l10",
+   "vilnaLine": 26
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step describes a Tanna Kamma vs Ben Azzai dispute (goat fell backward vs face-first). Searched full daf text (he and en) for 'Ben Azzai'/backward/face-first/headlong/roll - no match found anywhere on 67b. This dispute (a known Tosefta Yoma passage) does not appear to be textually anchored in this daf's Gemara line table at all."
+ },
+ {
+  "idx": 11,
+  "daf": "67b",
+  "sugyaId": "yoma-067b-s03",
+  "stepId": "yoma-067b-l12",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: He throws it off the top all at once",
+  "stepText": "He threw it off the top of the cliff all at once - the push itself is the act of shelicha according to one view.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-067b-l12",
+   "vilnaLine": 31
+  },
+  "decision": "REASSIGN",
+  "reason": "l31 (Rabbi Shimon's view): 'garments rendered impure only when he pushes the goat from the cliff... he throws it headlong and only then, once he has fulfilled the mitzva, his garments are rendered impure' - matches 'the push itself is the act of shelicha according to one view.'",
+  "newLineId": "yoma-067b-l31",
+  "newVilna": 31
+ },
+ {
+  "idx": 12,
+  "daf": "67b",
+  "sugyaId": "yoma-067b-s04",
+  "stepId": "yoma-067b-l16",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Handlers become tamei when leaving the Azarah wall",
+  "stepText": "Those handling the bull and goat become tamei in their garments from the moment the carcasses leave the Azarah courtyard wall.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-067b-l16",
+   "vilnaLine": 42
+  },
+  "decision": "REASSIGN",
+  "reason": "l37: '...at what point do bull and goat render garments of those who carried them impure?... from the moment they emerged outside wall of Temple courtyard' - exact match for 'become tamei... from the moment carcasses leave the Azarah courtyard wall.'",
+  "newLineId": "yoma-067b-l37",
+  "newVilna": 37
+ },
+ {
+  "idx": 13,
+  "daf": "68a",
+  "sugyaId": "yoma-068a-s01",
+  "stepId": "yoma-068a-l03",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Carcasses taken out whole and unflayed",
+  "stepText": "The bull and goat are taken out whole with hide on flesh - they are not flayed like normal offerings. Their bellies were torn only to remove the eimurim.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-068a-l03",
+   "vilnaLine": 7
+  },
+  "decision": "REPAIR_VILNA_ONLY",
+  "reason": "Current lineId (l03) real content directly states 'cut but not skinned... even the whole bull shall he carry outside the camp' - matches 'taken out whole and unflayed' as a clean ruling statement (vs. l07, which is the Gemara's challenge-and-refutation on the same topic, less suited to a 'ruling' step type). Keep lineId, fix stale vilnaLine 7->3.",
+  "newLineId": "yoma-068a-l03",
+  "newVilna": 3
+ },
+ {
+  "idx": 14,
+  "daf": "68a",
+  "sugyaId": "yoma-068a-s02",
+  "stepId": "yoma-068a-l07",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: All inner sin-offering bulls are comparable via repetition",
+  "stepText": "The word 'chatat chatat' (repeated) equates all inner sin offerings - the anointed priest's bull, congregation's bull, idolatry goats all follow the same rules.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-068a-l07",
+   "vilnaLine": 17
+  },
+  "decision": "REASSIGN",
+  "reason": "l17 discusses the 'outside the camp' phrase repeated to equate the HP's bull with the community's bull's halakhot - matches 'chatat chatat repeated equates all inner sin offerings.'",
+  "newLineId": "yoma-068a-l17",
+  "newVilna": 17
+ },
+ {
+  "idx": 15,
+  "daf": "68a",
+  "sugyaId": "yoma-068a-s02",
+  "stepId": "yoma-068a-l10",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Rabbis derive tum'ah from the verse; no gezerah shavah needed",
+  "stepText": "The Sages derive tum'ah from the verse itself ('the one who burns them shall wash his garments') without needing the gezerah shavah.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-068a-l10",
+   "vilnaLine": 31
+  },
+  "decision": "REPAIR_VILNA_ONLY",
+  "reason": "Current lineId (l10) IS already the best whole-daf content match (ranker top score tied with itself): 'Sages taught a baraita based on the verse' - directly matches 'Sages derive tumah from the verse itself.' Keep lineId, fix stale vilnaLine 31->10.",
+  "newLineId": "yoma-068a-l10",
+  "newVilna": 10
+ },
+ {
+  "idx": 16,
+  "daf": "68b",
+  "sugyaId": "yoma-068b-s01",
+  "stepId": "yoma-068b-l06",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Charred is not yet called 'the bull'",
+  "stepText": "According to Rabbi Eliezer b. Rabbi Shimon, charred flesh does not cause tum'ah - it is no longer recognizable as the bull and thus cannot cause garment tum'ah at that stage.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-068b-l06",
+   "vilnaLine": 13
+  },
+  "decision": "REASSIGN",
+  "reason": "l13a: 'difference is when he turned it into a charred mass and form has become distorted but not yet ash... according to Rabbi Elazar son of Rabbi Shimon, it no longer causes impurity' - exact match. (The vilna=13 interval also contains l13b, an unrelated mishna about the wilderness signal, but content clearly disambiguates in favor of l13a.)",
+  "newLineId": "yoma-068b-l13a",
+  "newVilna": 13
+ },
+ {
+  "idx": 17,
+  "daf": "68b",
+  "sugyaId": "yoma-068b-s02",
+  "stepId": "yoma-068b-l07",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: HP cannot begin next service until goat reaches wilderness",
+  "stepText": "The elders told the HP: you may not begin the next service until word comes that the goat has reached the wilderness (based on Lev. 16 sequence).",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-068b-l07",
+   "vilnaLine": 13
+  },
+  "decision": "REASSIGN",
+  "reason": "l13b (MISHNA): 'They said to the High Priest: The goat has reached the wilderness...' - exact match for 'The elders told the HP... goat has reached the wilderness.' (Same vilna=13 interval as case 16 above, disambiguated by content to the other co-located segment.)",
+  "newLineId": "yoma-068b-l13b",
+  "newVilna": 13
+ },
+ {
+  "idx": 18,
+  "daf": "68b",
+  "sugyaId": "yoma-068b-s02",
+  "stepId": "yoma-068b-l10",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: HP comes to read the Torah portion",
+  "stepText": "Once the mitzva was fulfilled, the HP came to read the Torah portion - the reading is indispensable to the Yom Kippur service.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-068b-l10",
+   "vilnaLine": 21
+  },
+  "decision": "REASSIGN",
+  "reason": "l24 (MISHNA): 'The High Priest came to read the Torah...' - exact match for 'HP comes to read the Torah portion.'",
+  "newLineId": "yoma-068b-l24",
+  "newVilna": 24
+ },
+ {
+  "idx": 19,
+  "daf": "68b",
+  "sugyaId": "yoma-068b-s02",
+  "stepId": "yoma-068b-l15",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Leviticus 23 read by heart - in Numbers format",
+  "stepText": "The Numbers mussaf portion (Pinchas section) was read from the scroll, not by heart - the Gemara explains the distinction.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-068b-l15",
+   "vilnaLine": 32
+  },
+  "decision": "REASSIGN",
+  "reason": "l25 explicitly narrates the scroll handoff and names which portions are read from the scroll vs by heart, calling out the Numbers portion (29:7) as read by heart - exact match.",
+  "newLineId": "yoma-068b-l25",
+  "newVilna": 25
+ },
+ {
+  "idx": 20,
+  "daf": "68b",
+  "sugyaId": "yoma-068b-s02",
+  "stepId": "yoma-068b-l18",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Vestments may be used outside service hours",
+  "stepText": "The Gemara rules that the HP's vestments may be used (enjoyed) when not in service - the prohibition is specifically during service transitions.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-068b-l18",
+   "vilnaLine": 38
+  },
+  "decision": "REASSIGN",
+  "reason": "l38 states the dilemma this passage resolves: 'is it permitted to derive benefit from priestly vestments, or is it not permitted' - the core question behind 'vestments may be used (enjoyed) when not in service.' Siblings already claim l39 (proof) and l42 (conclusion); l38 is the unclaimed, on-topic segment.",
+  "newLineId": "yoma-068b-l38",
+  "newVilna": 38
+ },
+ {
+  "idx": 21,
+  "daf": "69a",
+  "sugyaId": "yoma-069a-s01",
+  "stepId": "yoma-069a-l07",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Sitting before HP permitted for specific officeholders",
+  "stepText": "The synagogue head and the deputy HP may sit in the HP's presence - to show him there is authority below him. This does not diminish his honor.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-069a-l07",
+   "vilnaLine": 22
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'sitting before HP permitted for specific officeholders.' Found the true content match on a DIFFERENT daf: yoma-069b-l01 ('Sitting in the Temple courtyard is permitted only for kings of the House of David... How could the HP have been sitting?'). No same-daf (69a) segment supports this content, and the per-daf lineId contract does not support cross-daf references (validator's by_id/containing() is scoped per-file). Flagging as a cross-daf content-placement issue rather than forcing an invalid reference."
+ },
+ {
+  "idx": 22,
+  "daf": "69a",
+  "sugyaId": "yoma-069a-s02",
+  "stepId": "yoma-069a-l11",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: No me'ilah - vestments given for use",
+  "stepText": "No me'ilah - the vestments were given for the HP's use in his official functions. The Torah reading is an official function; wearing them is their intended purpose.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-069a-l11",
+   "vilnaLine": 32
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'No me'ilah - vestments given for use.' Current/vilna-resolved/whole-daf candidates are all part of the Shimon HaTzaddik/Alexander narrative digression. Closest candidate (l41) resolves a narrower point (time-of-need exception for wearing vestments outside Temple) not the general 'given for use' principle. Sibling refs in this sugya (l13->l38, l14->l41) also show content mismatches, suggesting broader anchor drift in this sugya beyond this task's scope."
+ },
+ {
+  "idx": 23,
+  "daf": "69a",
+  "sugyaId": "yoma-069a-s03",
+  "stepId": "yoma-069a-l15",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Four-step handoff chain for the Torah scroll",
+  "stepText": "The chazan handed the scroll to the rosh ha-knesset; the rosh ha-knesset to the segan (deputy HP); the segan to the HP. A formal chain of honor.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-069a-l15",
+   "vilnaLine": 42
+  },
+  "decision": "REASSIGN",
+  "reason": "l42 (mishna): 'the synagogue attendant takes a Torah scroll and gives to head of synagogue, who gives to deputy High Priest, who gives to High Priest' - exact match for the four-step handoff chain.",
+  "newLineId": "yoma-069a-l42",
+  "newVilna": 42
+ },
+ {
+  "idx": 24,
+  "daf": "69b",
+  "sugyaId": "yoma-069b-s02",
+  "stepId": "yoma-069b-l04",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Reason: Daniel omitted 'mighty' - pagans enslaved Israel",
+  "stepText": "Daniel said: pagans are enslaving His children - where is His might? So he omitted 'mighty.'",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-069b-l04",
+   "vilnaLine": 12
+  },
+  "decision": "REASSIGN",
+  "reason": "l35 contains the full Jeremiah/Daniel omission narrative verbatim: 'Daniel came and said: Gentiles are enslaving His children; where is His might? Therefore he did not say mighty' - exact match.",
+  "newLineId": "yoma-069b-l35",
+  "newVilna": 35
+ },
+ {
+  "idx": 25,
+  "daf": "69b",
+  "sugyaId": "yoma-069b-s02",
+  "stepId": "yoma-069b-l08",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Narrative: When imprisoned, chickens stopped laying eggs",
+  "stepText": "When the inclination was imprisoned, even a fresh egg could not be found - showing that reproductive drive sustains all life.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-069b-l08",
+   "vilnaLine": 20
+  },
+  "decision": "REASSIGN",
+  "reason": "l29: 'people searched for a fresh egg throughout all of Eretz Yisrael and could not find one... chickens stopped laying eggs' - exact match.",
+  "newLineId": "yoma-069b-l29",
+  "newVilna": 29
+ },
+ {
+  "idx": 26,
+  "daf": "69b",
+  "sugyaId": "yoma-069b-s02",
+  "stepId": "yoma-069b-l12",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: No skipping between different topics even briefly",
+  "stepText": "Between different topics one may not skip at all - because Torah words (warnings, punishments, commandments) require focused listening, and jumping topics breaks concentration.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-069b-l12",
+   "vilnaLine": 29
+  },
+  "decision": "REASSIGN",
+  "reason": "l48: 'one may skip sections when reading in the Torah when both sections pertain to one topic, and in the Prophets one may skip...' - directly the skipping-topics rule.",
+  "newLineId": "yoma-069b-l48",
+  "newVilna": 48
+ },
+ {
+  "idx": 27,
+  "daf": "69b",
+  "sugyaId": "yoma-069b-s02",
+  "stepId": "yoma-069b-l14",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Eimurim burned after third immersion with rams",
+  "stepText": "The eimurim (sacrificial parts) of the sin offering are burned at the third immersion together with the HP's ram and the people's ram.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-069b-l14",
+   "vilnaLine": 35
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'eimurim burned after third immersion with rams.' Searched full daf text for 'immersion'/'ram'/'eimurim' - no match found anywhere on 69b. Current, vilna-resolved, and whole-daf top candidates are all part of the unrelated Jeremiah/Daniel/Great-Assembly narrative."
+ },
+ {
+  "idx": 28,
+  "daf": "69b",
+  "sugyaId": "yoma-069b-s02",
+  "stepId": "yoma-069b-l16",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: 'The dispatcher' refers to an earlier action despite later textual position",
+  "stepText": "The verse about 'the one who dispatches the goat' is positioned after the eimurim text but refers to an earlier act - like a speaker who interrupts and then resumes the original topic.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-069b-l16",
+   "vilnaLine": 42
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: hermeneutic point about 'the dispatcher' verse appearing later but referring to an earlier action. Searched full daf text for 'dispatch'/'interrupt'/'resume' - no match found on 69b. Current, vilna-resolved, and whole-daf top candidates are all part of the unrelated Jeremiah/Daniel legitimacy discussion."
+ },
+ {
+  "idx": 29,
+  "daf": "69b",
+  "sugyaId": "yoma-069b-s03",
+  "stepId": "yoma-069b-l19",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Eight blessings recited after readings",
+  "stepText": "After the readings, the HP recited eight blessings: on Torah, service, thanksgiving, forgiveness, Temple, priests, Israel, and Jerusalem.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-069b-l19",
+   "vilnaLine": 45
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'eight blessings recited after readings.' The true 'eight blessings' passage is textually located on a DIFFERENT daf (yoma-070a-l16: 'mishna: HP recites eight blessings after reading...'). No 69b segment states this; current/vilna-resolved/whole-daf candidates are all part of the unrelated Torah-skipping-rule discussion. Cross-daf, out of scope."
+ },
+ {
+  "idx": 30,
+  "daf": "69b",
+  "sugyaId": "yoma-069b-s03",
+  "stepId": "yoma-069b-l20",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: The blessings recited in their standard formulation",
+  "stepText": "The blessings were recited as they appear in the Amidah - 'may You be pleased with Your people Israel' etc.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-069b-l20",
+   "vilnaLine": 47
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'blessings recited in standard Amidah formulation.' No 69b segment states this. Current/vilna-resolved/whole-daf candidates are all part of the unrelated Torah-skipping-rule discussion; the actual blessing-text content is on 70a."
+ },
+ {
+  "idx": 31,
+  "daf": "69b",
+  "sugyaId": "yoma-069b-s03",
+  "stepId": "yoma-069b-l21",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: 'Prayer for the rest' - for Israel's general needs",
+  "stepText": "An additional prayer for general needs: supplication and petition before God for His people Israel who need salvation.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-069b-l21",
+   "vilnaLine": 48
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'prayer for the rest - Israel's general needs.' Found the exact matching text on a DIFFERENT daf: yoma-070a-l22 ('Song, supplication, petition before You for Your people Israel, who need to be saved'). No 69b segment supports it; cross-daf, out of scope for a same-daf lineId repair."
+ },
+ {
+  "idx": 32,
+  "daf": "70a",
+  "sugyaId": "yoma-070a-s04",
+  "stepId": "yoma-070a-l07",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: HP prostrated eight times",
+  "stepText": "The HP prostrated himself eight times - once for each of the eight blessings he recited after the Torah reading.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-070a-l07",
+   "vilnaLine": 16
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'HP prostrated eight times, once per blessing.' Searched full daf text for 'prostrat'/'bow'/'kneel'/'fell on'/'face'/'knee' - no match anywhere on 70a. Current, vilna-resolved, and whole-daf top candidates are all about the eight-blessings list or unrelated Torah-scroll-flaw discussion, not the prostration detail."
+ },
+ {
+  "idx": 33,
+  "daf": "70a",
+  "sugyaId": "yoma-070a-s05",
+  "stepId": "yoma-070a-l10",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Mishnah Ch. 8 begins - five afflictions of Yom Kippur",
+  "stepText": "Mishnah Chapter 8: seven lambs of the mussaf - one is performed with the morning tamid (first vestment change), and others at the fifth immersion with the afternoon tamid.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-070a-l10",
+   "vilnaLine": 26
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step declares 'Mishnah Ch. 8 begins - five afflictions of Yom Kippur.' Searched full daf for 'afflict' - no match. Mishnah 8 (five afflictions) is a later passage in the tractate (~73b+), not on 70a. This sugya's declared placement appears to be mis-scoped to the wrong daf; no same-daf repair is possible."
+ },
+ {
+  "idx": 34,
+  "daf": "70a",
+  "sugyaId": "yoma-070a-s06",
+  "stepId": "yoma-070a-l15",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Reason R. Akiva: might tire the HP if all mussaf first",
+  "stepText": "If all mussaf offerings precede the day's service, the HP might become too tired to perform the essential atonement service - which is the priority.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-070a-l15",
+   "vilnaLine": 34
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'R. Akiva's reason - might tire the HP if all mussaf performed first.' Searched full daf for 'tire'/'exhaust'/'weary'/'weak' - no match. This daf's real content (through l46) only clarifies WHAT was sacrificed when (textual ambiguity in the mishna), never states WHY (the tiring-HP rationale). No segment supports this step."
+ },
+ {
+  "idx": 35,
+  "daf": "70a",
+  "sugyaId": "yoma-070a-s06",
+  "stepId": "yoma-070a-l16",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Concern: Might neglect the rest of the mussaf after day's service",
+  "stepText": "If only one mussaf is done first, he might neglect the remaining mussafin after the day's service. The Gemara responds: he is energetic for the day's service and will follow through.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-070a-l16",
+   "vilnaLine": 36
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'concern HP might neglect remaining mussafin; Gemara responds he is energetic.' Searched full daf for 'neglect'/'energetic' - no match. Same as case 34: this daf's visible content never reaches this reasoning; no segment supports it."
+ },
+ {
+  "idx": 36,
+  "daf": "70a",
+  "sugyaId": "yoma-070a-s06",
+  "stepId": "yoma-070a-l22",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Afternoon tamid at fifth immersion",
+  "stepText": "The afternoon tamid and remaining mussaf offerings are performed at the fifth immersion - the final service of the day.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-070a-l22",
+   "vilnaLine": 44
+  },
+  "decision": "REASSIGN",
+  "reason": "Current lineId's real content ('Song, supplication, petition... for Your people Israel') belongs to a different topic entirely (used instead for case 31's true match on a different daf). l44 (School of Shmuel/Rabbi Eliezer: bull, seven lambs, goat performed outside 'sacrificed with the daily afternoon offering') matches 'afternoon tamid and remaining mussaf offerings performed at the final service of the day.'",
+  "newLineId": "yoma-070a-l44",
+  "newVilna": 44
+ },
+ {
+  "idx": 37,
+  "daf": "70b",
+  "sugyaId": "yoma-070b-s01",
+  "stepId": "yoma-070b-l04",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: External goat atones for same category as internal",
+  "stepText": "The external mussaf goat atones for the same category of sin as the internal Yom Kippur goat - sins with awareness at the end but not at the beginning, as derived in Shevuot.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-070b-l04",
+   "vilnaLine": 9
+  },
+  "decision": "REASSIGN",
+  "reason": "l09: 'And Rabbi Eliezer, what does he do with this verse besides the sin-offering of atonement...that verse is necessary for him to derive that for what this one atones, that one atones' - exact match for 'external goat atones for same category as internal.'",
+  "newLineId": "yoma-070b-l09",
+  "newVilna": 9
+ },
+ {
+  "idx": 38,
+  "daf": "70b",
+  "sugyaId": "yoma-070b-s02",
+  "stepId": "yoma-070b-l07",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: First immersion sanctification at the kiyor",
+  "stepText": "The first immersion sequence: the HP immersed, dried off, dressed in white linen, then sanctified hands and feet at the kiyor before beginning the morning tamid and day's service.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-070b-l07",
+   "vilnaLine": 19
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'first immersion sanctification at the kiyor.' Current/vilna-resolved/sibling candidates in this cluster (l09,l12,l16,l19) are all actually about the R. Yehuda/R. Elazar lamb-sacrifice-timing dispute, not the kiyor. The real kiyor-sanctification content on this daf (l32) is already the best match for a different case (40); no distinct segment specifically supports 'first immersion' as such."
+ },
+ {
+  "idx": 39,
+  "daf": "70b",
+  "sugyaId": "yoma-070b-s02",
+  "stepId": "yoma-070b-l09",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Golden vestments for outer service",
+  "stepText": "The HP wore golden vestments for the outer (non-Holy of Holies) services - for the morning and afternoon tamid, mussafin, and other external services.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-070b-l09",
+   "vilnaLine": 24
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'Golden vestments for outer service.' Searched full daf for 'golden garments'/'white garments' allocation statement - no segment specifically states this general summary point. Current and vilna-resolved candidates are both about the ram-count dispute, unrelated."
+ },
+ {
+  "idx": 40,
+  "daf": "70b",
+  "sugyaId": "yoma-070b-s03",
+  "stepId": "yoma-070b-l12",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Kiyor used for all ten sanctifications of Yom Kippur",
+  "stepText": "The kiyor is the designated vessel for all ten sanctifications of the HP on Yom Kippur - hands and feet together, before each service segment after each vestment change.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-070b-l12",
+   "vilnaLine": 32
+  },
+  "decision": "REASSIGN",
+  "reason": "l32 (mishna+baraita): 'HP sanctified his hands and feet and entered the Holy of Holies... verse states Aaron shall come into the Tent of Meeting... why does he come' - directly discusses the kiyor sanctification act as the transition point before entering, matching 'kiyor as crossing point.'",
+  "newLineId": "yoma-070b-l32",
+  "newVilna": 32
+ },
+ {
+  "idx": 41,
+  "daf": "71a",
+  "sugyaId": "yoma-071a-s01",
+  "stepId": "yoma-071a-l04",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: 've'yatza ve'asa' is the first exit in the portion",
+  "stepText": "The verse 'he went out and performed' is the first exit mentioned - therefore by necessity it refers to actions before the removal of the ladle and fire-pan.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-071a-l04",
+   "vilnaLine": 6
+  },
+  "decision": "REASSIGN",
+  "reason": "l07: 'Abaye said... verse states \"and he shall exit and make his burnt-offering\"... THIS IS THE FIRST EXIT STATED IN THE VERSES' - exact match, literally uses 'first exit' language.",
+  "newLineId": "yoma-071a-l07",
+  "newVilna": 7
+ },
+ {
+  "idx": 42,
+  "daf": "71a",
+  "sugyaId": "yoma-071a-s01",
+  "stepId": "yoma-071a-l06",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Rava explains Mishnah disrupts verse order for a reason",
+  "stepText": "Rava: the Mishnah's text that seems to disrupt verse order is intentional - it follows the Torah's own non-chronological presentation.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-071a-l06",
+   "vilnaLine": 9
+  },
+  "decision": "REASSIGN",
+  "reason": "l09 is Rava's own proof (correct speaker) arguing the reentry verse is out of order via the 'which he wore' phrase - same general topic (verse-order reasoning) as the step, though the step's specific paraphrase ('follows Torah's own non-chronological presentation') is a looser summary of this specific proof. Moderate confidence.",
+  "newLineId": "yoma-071a-l09",
+  "newVilna": 9
+ },
+ {
+  "idx": 43,
+  "daf": "71a",
+  "sugyaId": "yoma-071a-s01",
+  "stepId": "yoma-071a-l07",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Burning of bull and goat in white vestments confirmed",
+  "stepText": "The HP does not see the burning of the bull and goat - implying the burning occurs while he still wears white vestments, before his third immersion.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-071a-l07",
+   "vilnaLine": 13
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'burning of bull and goat in white vestments confirmed.' No segment states this specific conclusion in these terms. The strongest candidate (l20b) is a better, more specific match for a different step (case 45's parallel dispatcher/burner resolution) and assigning it here too would be a weaker duplicate use not distinctively supporting this step's content."
+ },
+ {
+  "idx": 44,
+  "daf": "71a",
+  "sugyaId": "yoma-071a-s01",
+  "stepId": "yoma-071a-l09",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: 'The dispatcher' is a textual flashback",
+  "stepText": "The verse about 'the one who dispatches' appears after the eimurim text but refers to the earlier Azazel act - the Torah returns to record the tum'ah consequences of an earlier act.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-071a-l09",
+   "vilnaLine": 19
+  },
+  "decision": "REASSIGN",
+  "reason": "l22: 'The phrasing of \"And the one who sends\" implies that it was performed earlier... Rava said: sending the goat away definitely took place earlier' - directly supports 'the dispatcher is a textual flashback.'",
+  "newLineId": "yoma-071a-l22",
+  "newVilna": 22
+ },
+ {
+  "idx": 45,
+  "daf": "71a",
+  "sugyaId": "yoma-071a-s01",
+  "stepId": "yoma-071a-l13",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Resolution - 'dispatcher' is clearly earlier, so 'burner' is also earlier",
+  "stepText": "Final resolution: the Azazel dispatch obviously happened before the eimurim burning (the Torah says so). Therefore the 'dispatcher' clause is clearly a flashback - and the parallel 'burner' clause is also a flashback to the earlier burning in white vestments.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-071a-l13",
+   "vilnaLine": 22
+  },
+  "decision": "REASSIGN",
+  "reason": "l20b (Abaye): 'just as the one who sends the goat to Azazel does so earlier... so too, the one who burns the remains of the bull and goat does so earlier' - exact match for the final parallel resolution tying dispatcher and burner together.",
+  "newLineId": "yoma-071a-l20b",
+  "newVilna": 20
+ },
+ {
+  "idx": 46,
+  "daf": "71a",
+  "sugyaId": "yoma-071a-s02",
+  "stepId": "yoma-071a-l15",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Narrative: Shemaiah and Avtalyon came to bid farewell",
+  "stepText": "Shemaiah and Avtalyon came to take leave of the HP after Yom Kippur. The crowd followed them - showing the people's love for these scholars.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-071a-l15",
+   "vilnaLine": 25
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'Shemaiah and Avtalyon came to take leave of the HP.' Found the true narrative text on a DIFFERENT daf: yoma-071b-l06 ('Eventually, Shemaya and Avtalyon came to take leave of the High Priest before returning to their homes...'). No 71a segment supports this; cross-daf, out of scope."
+ },
+ {
+  "idx": 47,
+  "daf": "71a",
+  "sugyaId": "yoma-071a-s02",
+  "stepId": "yoma-071a-l19",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Narrative: The HP had shamed them - a Torah-forbidden act",
+  "stepText": "The HP committed ona'at devarim (verbal oppression) against Shemaiah and Avtalyon by mentioning their pagan ancestry - a Torah prohibition (Lev. 25).",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-071a-l19",
+   "vilnaLine": 33
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'HP committed ona'at devarim by mentioning their pagan ancestry.' Confirmed via yoma-071b-l06's full text ('he angrily said to them: Let the descendants of the gentile nations come in peace... Shemaya and Avtalyon descended from converts, he scornfully drew attention to that fact') that this whole narrative sugya's true home is daf 71b, not 71a. Cross-daf, out of scope."
+ },
+ {
+  "idx": 48,
+  "daf": "71b",
+  "sugyaId": "yoma-071b-s03",
+  "stepId": "yoma-071b-l06",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: 'Shesh' means six-ply thread",
+  "stepText": "The word 'shesh' (six) in the vestment verses means each thread is six-ply - six strands twisted together for each thread type.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-071b-l06",
+   "vilnaLine": 19
+  },
+  "decision": "REASSIGN",
+  "reason": "l19: 'that the threads made from shesh are spun six-fold, from where do we derive this? The verse states...Five mentions...' - exact match. (Current lineId's real content is, ironically, the Shemaiah/Avtalyon narrative that itself belongs on 71a per cases 46-47 - a mutual cross-daf mismatch between these two dappim.)",
+  "newLineId": "yoma-071b-l19",
+  "newVilna": 19
+ },
+ {
+  "idx": 49,
+  "daf": "71b",
+  "sugyaId": "yoma-071b-s03",
+  "stepId": "yoma-071b-l11",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ruling: Linen splits into multiple filaments when beaten",
+  "stepText": "When linen is beaten, each fiber splits into multiple filaments - this multiplying quality is part of what makes linen thread suitable for the six-ply requirement.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-071b-l11",
+   "vilnaLine": 46
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'linen splits into multiple filaments when beaten.' Searched full daf for 'beaten'/'filament'/'split'/'stalk' - closest hit (l26, 'sprouts from the ground stalk by stalk') is about linen's botanical source, not the beaten-splits-into-filaments detail. Current, vilna-resolved, and sibling candidates in this cluster are all about pomegranate/strand-count derivations."
+ },
+ {
+  "idx": 50,
+  "daf": "72a",
+  "sugyaId": "yoma-072a-s01",
+  "stepId": "yoma-072a-l05",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Breastplate/ephod: 28",
+  "stepText": "Four materials plus gold, seven each",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-072a-l05",
+   "vilnaLine": 8
+  },
+  "decision": "REASSIGN",
+  "reason": "l08: 'each thread of the breastplate and ephod was made of twenty-eight strands... written: you shall make a breastplate... of gold, sky-blue, purple, scarlet, fine twined linen' - exact match for 'Breastplate/ephod: 28, four materials plus gold, seven each.'",
+  "newLineId": "yoma-072a-l08",
+  "newVilna": 8
+ },
+ {
+  "idx": 51,
+  "daf": "72a",
+  "sugyaId": "yoma-072a-s01",
+  "stepId": "yoma-072a-l07",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Rav Ashi's reason",
+  "stepText": "The verse 'within the blue' means gold entwined in each color strand",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-072a-l07",
+   "vilnaLine": 16
+  },
+  "decision": "REASSIGN",
+  "reason": "l16: 'Rav Ashi said: this can be seen from the fact that the verse states with regard to the gold strands: to work it into the sky-blue, and into the purple' - exact match for Rav Ashi's reason about gold entwined in each color strand.",
+  "newLineId": "yoma-072a-l16",
+  "newVilna": 16
+ },
+ {
+  "idx": 52,
+  "daf": "72a",
+  "sugyaId": "yoma-072a-s02",
+  "stepId": "yoma-072a-l08",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Tearing vestments = lashes",
+  "stepText": "Derives from verse requiring vestments to be worn continuously",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-072a-l08",
+   "vilnaLine": 20
+  },
+  "decision": "REASSIGN",
+  "reason": "l20: 'Rachava said Rav Yehuda said: one who intentionally tears priestly vestments transgresses a prohibition and is flogged, as stated concerning the robe: it shall have a hem of woven work...' - exact match.",
+  "newLineId": "yoma-072a-l20",
+  "newVilna": 20
+ },
+ {
+  "idx": 53,
+  "daf": "72b",
+  "sugyaId": "yoma-072b-s02",
+  "stepId": "yoma-072b-l06",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Three Temple crowns",
+  "stepText": "Altar, ark, table - priesthood, Torah, kingship",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-072b-l06",
+   "vilnaLine": 16
+  },
+  "decision": "REASSIGN",
+  "reason": "l16: 'Rabbi Yochanan said: there were three crowns on the sacred vessels in the Temple: crown of the altar, and of the Ark, and of the table... crown of the altar symbolized the crown of priesthood' - exact, dominant match.",
+  "newLineId": "yoma-072b-l16",
+  "newVilna": 16
+ },
+ {
+  "idx": 54,
+  "daf": "72b",
+  "sugyaId": "yoma-072b-s03",
+  "stepId": "yoma-072b-l11",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Torah beloved at every boundary",
+  "stepText": "Torah scholars are loved everywhere they go",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-072b-l11",
+   "vilnaLine": 30
+  },
+  "decision": "REASSIGN",
+  "reason": "l30 discusses the worth/praise of Torah scholars ('haters of Torah scholars' - a euphemism praising them). Topically matches 'Torah scholars are loved everywhere' though not a verbatim phrase match. Moderate confidence.",
+  "newLineId": "yoma-072b-l30",
+  "newVilna": 30
+ },
+ {
+  "idx": 55,
+  "daf": "72b",
+  "sugyaId": "yoma-072b-s03",
+  "stepId": "yoma-072b-l14",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Torah must be free",
+  "stepText": "Given through fire, water, wilderness - all are free",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-072b-l14",
+   "vilnaLine": 37
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'Torah given through fire, water, wilderness - all free.' Searched full daf for 'wilderness'+'fire' and 'free'+'fire' combinations - no match. Current and vilna-resolved candidates (l37, about Torah as a potion of life/death) are a different aggadic point."
+ },
+ {
+  "idx": 56,
+  "daf": "72b",
+  "sugyaId": "yoma-072b-s03",
+  "stepId": "yoma-072b-l16",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Torah testimony faithful",
+  "stepText": "God faithfully repays each person",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-072b-l16",
+   "vilnaLine": 44
+  },
+  "decision": "REASSIGN",
+  "reason": "l45: 'In the same Psalm the verse states: The testimony of God is faithful (Psalms 19:8). Rabbi Chiyya bar Abba said: this alludes to the fact that the Torah is faithful to testify...' - exact match for 'Torah testimony faithful.'",
+  "newLineId": "yoma-072b-l45",
+  "newVilna": 45
+ },
+ {
+  "idx": 57,
+  "daf": "72b",
+  "sugyaId": "yoma-072b-s04",
+  "stepId": "yoma-072b-l21",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Only anointed kohen may consult",
+  "stepText": "Not just any son of the HP - must be the anointed one",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-072b-l21",
+   "vilnaLine": 49
+  },
+  "decision": "REASSIGN",
+  "reason": "l49 discusses the succession/fitness principle for the war-anointed priest's son inheriting the position 'in the same way that the son of a High Priest serves in his place if he is fit' - matches 'not just any son of the HP - must be the anointed one' at a moderate confidence level (vilna-resolved, single-step sugya so no sibling context to disambiguate against l47's more general Urim VeTummim topic-intro).",
+  "newLineId": "yoma-072b-l49",
+  "newVilna": 49
+ },
+ {
+  "idx": 58,
+  "daf": "73a",
+  "sugyaId": "yoma-073a-s01",
+  "stepId": "yoma-073a-l04",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Cannot make him a non-priest",
+  "stepText": "He must wear vestments appropriate to his intermediate status",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-073a-l04",
+   "vilnaLine": 8
+  },
+  "decision": "REASSIGN",
+  "reason": "l08: 'Abaye said to him: would you make him like a non-priest? If he dresses like neither High Priest nor common priest...' - exact, dominant match.",
+  "newLineId": "yoma-073a-l08",
+  "newVilna": 8
+ },
+ {
+  "idx": 59,
+  "daf": "73a",
+  "sugyaId": "yoma-073a-s01",
+  "stepId": "yoma-073a-l06",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "HP brings bull for individual sin",
+  "stepText": "Ordinary kohen does not",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-073a-l06",
+   "vilnaLine": 13
+  },
+  "decision": "REASSIGN",
+  "reason": "l13: 'the matters in which there are differences between High Priest and common priest: the bull of the anointed priest, also called the bull brought for all the mitzvot, brought for unwittingly deciding an erroneous ruling' - matches 'HP brings bull for individual sin.'",
+  "newLineId": "yoma-073a-l13",
+  "newVilna": 13
+ },
+ {
+  "idx": 60,
+  "daf": "73a",
+  "sugyaId": "yoma-073a-s01",
+  "stepId": "yoma-073a-l08",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "HP sacrifices as onen but does not eat",
+  "stepText": "First portion of showbread goes to him",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-073a-l08",
+   "vilnaLine": 18
+  },
+  "decision": "REASSIGN",
+  "reason": "l18: 'he sacrifices offerings even when an acute mourner... may not eat... may not take a portion... he takes his portion first' - exact match for 'onen but does not eat... first portion.'",
+  "newLineId": "yoma-073a-l18",
+  "newVilna": 18
+ },
+ {
+  "idx": 61,
+  "daf": "73a",
+  "sugyaId": "yoma-073a-s01",
+  "stepId": "yoma-073a-l11",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Anointed-for-war priest: five items only",
+  "stepText": "Does not share most HP distinctions",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-073a-l11",
+   "vilnaLine": 23
+  },
+  "decision": "REASSIGN",
+  "reason": "l23: 'none of them applies to the priest anointed for war, except for the five items stated explicitly' - exact match.",
+  "newLineId": "yoma-073a-l23",
+  "newVilna": 23
+ },
+ {
+  "idx": 62,
+  "daf": "73a",
+  "sugyaId": "yoma-073a-s02",
+  "stepId": "yoma-073a-l16",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Asker faces HP",
+  "stepText": "The questioner stands before the HP and asks facing him",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-073a-l16",
+   "vilnaLine": 32
+  },
+  "decision": "REASSIGN",
+  "reason": "l32: 'Sages taught: how does one consult the Urim VeTummim? The one asking stands with his face toward the one who is asked' - exact match.",
+  "newLineId": "yoma-073a-l32",
+  "newVilna": 32
+ },
+ {
+  "idx": 63,
+  "daf": "73a",
+  "sugyaId": "yoma-073a-s02",
+  "stepId": "yoma-073a-l18",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Not aloud, not purely mental",
+  "stepText": "Neither audible to bystanders nor silent thought",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-073a-l18",
+   "vilnaLine": 35
+  },
+  "decision": "REASSIGN",
+  "reason": "l35: 'One does not ask in a loud voice... And he should not think his question in his heart but should enunciate it' - exact match.",
+  "newLineId": "yoma-073a-l35",
+  "newVilna": 35
+ },
+ {
+  "idx": 64,
+  "daf": "73b",
+  "sugyaId": "yoma-073b-s01",
+  "stepId": "yoma-073b-l04",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Urim means light, Tummim means complete",
+  "stepText": "Illuminates the ruling and fulfills its words",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-073b-l04",
+   "vilnaLine": 8
+  },
+  "decision": "REASSIGN",
+  "reason": "l08: 'Why is it called Urim VeTummim? Urim...is so called because it illuminates and explains its words. Tummim...because it fulfills its words' - exact match.",
+  "newLineId": "yoma-073b-l08",
+  "newVilna": 8
+ },
+ {
+  "idx": 65,
+  "daf": "73b",
+  "sugyaId": "yoma-073b-s01",
+  "stepId": "yoma-073b-l07",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Letters protrude vs join",
+  "stepText": "Protrude individually, or combine to form words",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-073b-l07",
+   "vilnaLine": 13
+  },
+  "decision": "REASSIGN",
+  "reason": "l13: 'Rabbi Yochanan says: the letters of the answer protrude, and the priest combines those letters to form words' - exact match.",
+  "newLineId": "yoma-073b-l13",
+  "newVilna": 13
+ },
+ {
+  "idx": 66,
+  "daf": "73b",
+  "sugyaId": "yoma-073b-s01",
+  "stepId": "yoma-073b-l08",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Missing letters from Patriarchs' names",
+  "stepText": "Abraham etc. inscribed on the stones supply all letters of the alphabet",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-073b-l08",
+   "vilnaLine": 14
+  },
+  "decision": "REASSIGN",
+  "reason": "l14: 'the letter tzadi is not written within the names of the twelve tribes... Rav Shmuel bar Yitzchak said: the names Abraham, Isaac, and Jacob were also written there' - exact match.",
+  "newLineId": "yoma-073b-l14",
+  "newVilna": 14
+ },
+ {
+  "idx": 67,
+  "daf": "73b",
+  "sugyaId": "yoma-073b-s03",
+  "stepId": "yoma-073b-l14",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Chatzi shi'ur discussed",
+  "stepText": "Mishna uses 'forbidden' not 'karet' - referring to less than the shiur",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-073b-l14",
+   "vilnaLine": 26
+  },
+  "decision": "REASSIGN",
+  "reason": "l28: 'GEMARA: the Gemara expresses surprise at the mishna's terminology, which states it is prohibited to eat and drink on Yom Kippur. Why does the mishna use the word prohibited...' - directly addresses the step's 'mishna uses forbidden not karet' question, a more specific match than the vilna-resolved candidate (l26, which states the karet-liability shiur amount but doesn't raise the terminology question).",
+  "newLineId": "yoma-073b-l28",
+  "newVilna": 28
+ },
+ {
+  "idx": 68,
+  "daf": "73b",
+  "sugyaId": "yoma-073b-s03",
+  "stepId": "yoma-073b-l16",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Oath on YK eating",
+  "stepText": "If chatzi shi'ur is only rabbinic, does an oath create a new prohibition?",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-073b-l16",
+   "vilnaLine": 30
+  },
+  "decision": "REASSIGN",
+  "reason": "l30 sets up exactly this legal problem: 'this explanation works out well according to the one who said a half-measure is prohibited by Torah law... but according to the one who says a half-measure is permitted by Torah law, and it is the Sages who prohibit... what is there to say' - matches 'if chatzi shi'ur is only rabbinic, does an oath create a new prohibition.'",
+  "newLineId": "yoma-073b-l30",
+  "newVilna": 30
+ },
+ {
+  "idx": 69,
+  "daf": "74a",
+  "sugyaId": "yoma-074a-s02",
+  "stepId": "yoma-074a-l06",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Karet always implies forbidden",
+  "stepText": "But here mishna needs to teach the half-measure case",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-074a-l06",
+   "vilnaLine": 19
+  },
+  "decision": "REASSIGN",
+  "reason": "l19: 'when it is taught in the mishna using the language of prohibited, it is referring to the other transgressions, which do not incur karet' - matches the karet/forbidden distinction theme; moderate confidence given the step's fragment-like phrasing.",
+  "newLineId": "yoma-074a-l19",
+  "newVilna": 19
+ },
+ {
+  "idx": 70,
+  "daf": "74b",
+  "sugyaId": "yoma-074b-s02",
+  "stepId": "yoma-074b-l05",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Tevel included (death penalty)",
+  "stepText": "Even more severe foods are included",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-074b-l05",
+   "vilnaLine": 18
+  },
+  "decision": "REASSIGN",
+  "reason": "l21: 'I will include untithed produce, for which one receives death at the hand of Heaven' - exact match for 'Tevel included (death penalty).' (Note: the vilna-resolved candidate l18 actually states the OPPOSITE, excluding tevel - whole-daf search found the correct segment instead.)",
+  "newLineId": "yoma-074b-l21",
+  "newVilna": 21
+ },
+ {
+  "idx": 71,
+  "daf": "74b",
+  "sugyaId": "yoma-074b-s02",
+  "stepId": "yoma-074b-l09",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "'I will destroy' extends to all affliction-denial",
+  "stepText": "The verse broadens Yom Kippur prohibition to all forms",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-074b-l09",
+   "vilnaLine": 31
+  },
+  "decision": "REASSIGN",
+  "reason": "l31: 'the verse states with regard to one who violates Yom Kippur: I will destroy that soul from among his people... affliction is something that destroys a soul' - exact match.",
+  "newLineId": "yoma-074b-l31",
+  "newVilna": 31
+ },
+ {
+  "idx": 72,
+  "daf": "74b",
+  "sugyaId": "yoma-074b-s03",
+  "stepId": "yoma-074b-l14",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Manna: he afflicted and fed",
+  "stepText": "Paradox: afflicted with hunger yet provided food",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-074b-l14",
+   "vilnaLine": 41
+  },
+  "decision": "REASSIGN",
+  "reason": "l41: 'And he afflicted you and caused you to hunger, and fed you with manna... what affliction was there in eating the manna?' - exact match for the paradox.",
+  "newLineId": "yoma-074b-l41",
+  "newVilna": 41
+ },
+ {
+  "idx": 73,
+  "daf": "75a",
+  "sugyaId": "yoma-075a-s03",
+  "stepId": "yoma-075a-l03",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Serpent eats dust: curse or blessing?",
+  "stepText": "Curse: food tastes like dust; blessing: always finds food",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-075a-l03",
+   "vilnaLine": 5
+  },
+  "decision": "REASSIGN",
+  "reason": "l05: 'dust shall be the serpent's food... one said: even if it eats all delicacies, still taste like dust [curse]. And one said: unsettled until it also eats dust [blessing, gets both]' - exact match.",
+  "newLineId": "yoma-075a-l05",
+  "newVilna": 5
+ },
+ {
+  "idx": 74,
+  "daf": "75a",
+  "sugyaId": "yoma-075a-s03",
+  "stepId": "yoma-075a-l05",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Canaan cursed but fed by master",
+  "stepText": "Proof that God's curses may include unexpected provisions",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-075a-l05",
+   "vilnaLine": 14
+  },
+  "decision": "REASSIGN",
+  "reason": "l14: 'He cursed Canaan that he should be servant of servants, but he benefits somewhat... eats what his master eats' - exact match.",
+  "newLineId": "yoma-075a-l14",
+  "newVilna": 14
+ },
+ {
+  "idx": 75,
+  "daf": "75a",
+  "sugyaId": "yoma-075a-s03",
+  "stepId": "yoma-075a-l09",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Cucumbers and melons: real or forbidden?",
+  "stepText": "Real vegetables missed; or euphemism for forbidden things",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-075a-l09",
+   "vilnaLine": 23
+  },
+  "decision": "REASSIGN",
+  "reason": "l25 is the only segment specifically about cucumbers/melons ('the cucumbers, and the melons... Rabbi Ami and Rabbi Asi debate the verse's meaning'), matching the step's subject matter, though l25's actual dispute axis (taste-only vs taste+texture) differs slightly from the step's 'real vegetables vs euphemism' framing. Moderate confidence.",
+  "newLineId": "yoma-075a-l25",
+  "newVilna": 25
+ },
+ {
+  "idx": 76,
+  "daf": "75a",
+  "sugyaId": "yoma-075a-s03",
+  "stepId": "yoma-075a-l14",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Manna revealed what would be eaten tomorrow",
+  "stepText": "The manna tasted like tomorrow's food - a daily prophecy",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-075a-l14",
+   "vilnaLine": 30
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'manna tasted like tomorrow's food - a daily prophecy.' Vilna-resolved candidate (l30) and whole-daf top matches are all about a DIFFERENT point (manna's overnight LOCATION revealing legal truth in disputes, matching sibling step l15's already-claimed topic), not about manna's taste predicting tomorrow's food. No segment found stating the taste-based prophecy point."
+ },
+ {
+  "idx": 77,
+  "daf": "75a",
+  "sugyaId": "yoma-075a-s04",
+  "stepId": "yoma-075a-l17",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Harmonizing bread/cakes/ground",
+  "stepText": "Raw: bread; baked: cakes; cooked/ground also possible",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-075a-l17",
+   "vilnaLine": 37
+  },
+  "decision": "REASSIGN",
+  "reason": "l37: 'it is written bread... and cakes... and ground it in mills... For the righteous, it fell as baked bread; for average people...' - exact, dominant match.",
+  "newLineId": "yoma-075a-l37",
+  "newVilna": 37
+ },
+ {
+  "idx": 78,
+  "daf": "75a",
+  "sugyaId": "yoma-075a-s05",
+  "stepId": "yoma-075a-l19",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Freewill offerings morning by morning",
+  "stepText": "Two mornings: one portion for each day",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-075a-l19",
+   "vilnaLine": 40
+  },
+  "decision": "REASSIGN",
+  "reason": "l40: 'they brought yet to him free-will offerings every morning... they brought donations from that which fell every morning with the manna' - exact match.",
+  "newLineId": "yoma-075a-l40",
+  "newVilna": 40
+ },
+ {
+  "idx": 79,
+  "daf": "75b",
+  "sugyaId": "yoma-075b-s01",
+  "stepId": "yoma-075b-l08",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Quail found near Sages' goods",
+  "stepText": "Rav Yehuda found them near wine; Rav Chisda near millstones",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-075b-l08",
+   "vilnaLine": 23
+  },
+  "decision": "REASSIGN",
+  "reason": "l23: 'Rav Yehuda found quail among his barrels of wine, and Rav Chisda found quail among logs of wood in his storeroom' - matches (wine confirmed exactly; 'logs of wood' vs step's 'millstones' is a minor paraphrase variance, same anecdote).",
+  "newLineId": "yoma-075b-l23",
+  "newVilna": 23
+ },
+ {
+  "idx": 80,
+  "daf": "75b",
+  "sugyaId": "yoma-075b-s02",
+  "stepId": "yoma-075b-l11",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Manna = angels' bread vs 248-limb absorption",
+  "stepText": "Two interpretations: food angels eat; food absorbed by all limbs",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-075b-l11",
+   "vilnaLine": 28
+  },
+  "decision": "REASSIGN",
+  "reason": "l28: 'Man did eat the bread of the mighty [abirim]... bread that the ministering angels eat; statement of Rabbi Akiva. When these words were said before Rabbi Yishmael...' - exact match for the two-interpretation dispute.",
+  "newLineId": "yoma-075b-l28",
+  "newVilna": 28
+ },
+ {
+  "idx": 81,
+  "daf": "75b",
+  "sugyaId": "yoma-075b-s02",
+  "stepId": "yoma-075b-l17",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Ish = Joshua, manna for all",
+  "stepText": "Alternative: Joshua received manna corresponding to all Israel",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-075b-l17",
+   "vilnaLine": 39
+  },
+  "decision": "REASSIGN",
+  "reason": "l39: 'Alternatively, Man [ish] did eat the bread of the mighty (Psalms 78:25)' - exact match for the 'ish=Joshua' alternative reading.",
+  "newLineId": "yoma-075b-l39",
+  "newVilna": 39
+ },
+ {
+  "idx": 82,
+  "daf": "76a",
+  "sugyaId": "yoma-076a-s02",
+  "stepId": "yoma-076a-l05",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Rabbi Elazar derives manna calculation",
+  "stepText": "Derives the manna's volume from the Flood and window calculation",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-076a-l05",
+   "vilnaLine": 18
+  },
+  "decision": "REASSIGN",
+  "reason": "l18: 'Rabbi Tarfon...Rabbi Elazar HaModa'i sitting among them. Rabbi Elazar HaModa'i responded: the manna that fell was sixty cubits high. Rabbi Tarfon said to him: Moda'i, how long will you...' - exact match for sugya title 'Tarfon Challenges Elazar on Manna Volume.'",
+  "newLineId": "yoma-076a-l18",
+  "newVilna": 18
+ },
+ {
+  "idx": 83,
+  "daf": "76a",
+  "sugyaId": "yoma-076a-s03",
+  "stepId": "yoma-076a-l12",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Five verses of inuy = five afflictions",
+  "stepText": "Each of the five YK afflictions has its own Torah verse",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-076a-l12",
+   "vilnaLine": 43
+  },
+  "decision": "REASSIGN",
+  "reason": "l43 discusses the five-vs-six afflictions reconciliation ('are these five the only afflictions? we learn in the mishna there are six... drinking is included in eating') - topically matches 'five YK afflictions' though the step's specific 'each has its own verse' framing is not verbatim. Moderate confidence.",
+  "newLineId": "yoma-076a-l43",
+  "newVilna": 43
+ },
+ {
+  "idx": 84,
+  "daf": "76b",
+  "sugyaId": "yoma-076b-s01",
+  "stepId": "yoma-076b-l02",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Gezerah shavah from nazir",
+  "stepText": "Tirosh = wine on Yom Kippur as for the nazir",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-076b-l02",
+   "vilnaLine": 1
+  },
+  "decision": "REASSIGN",
+  "reason": "l01b: 'derived through a verbal analogy of sheikhar and sheikhar in the verses of the NAZIRITE... just as there, nazirite sheikhar means strong wine, so too here' - exact match for 'gezerah shavah from nazir.'",
+  "newLineId": "yoma-076b-l01b",
+  "newVilna": 1
+ },
+ {
+  "idx": 85,
+  "daf": "76b",
+  "sugyaId": "yoma-076b-s01",
+  "stepId": "yoma-076b-l06",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Yayin = woe; tirosh = wealth or poverty",
+  "stepText": "Wine causes woe (vai); tirosh brings wealth if merited, poverty if not",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-076b-l06",
+   "vilnaLine": 10
+  },
+  "decision": "REASSIGN",
+  "reason": "l10: 'wine suggests that it brings lament to the world... phonetic resemblance between yayin and ta'aniya va'aniya, sorrow and howling' - matches 'yayin=woe.'",
+  "newLineId": "yoma-076b-l10",
+  "newVilna": 10
+ },
+ {
+  "idx": 86,
+  "daf": "76b",
+  "sugyaId": "yoma-076b-s01",
+  "stepId": "yoma-076b-l07",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Tirash vs tirosh",
+  "stepText": "Written without vav (tirash=impoverish); read with vav (tirosh=inherit)",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-076b-l07",
+   "vilnaLine": 13
+  },
+  "decision": "REASSIGN",
+  "reason": "l13: 'written as tirash but we read it tirosh... if one merits and drinks appropriately, he is made a head [rosh]; if one does not merit, he is made poor [rash]' - matches 'written without vav=impoverish; read with vav=inherit/prosper.'",
+  "newLineId": "yoma-076b-l13",
+  "newVilna": 13
+ },
+ {
+  "idx": 87,
+  "daf": "76b",
+  "sugyaId": "yoma-076b-s02",
+  "stepId": "yoma-076b-l10",
+  "class": "OBJECT_COORDINATE_CONFLICT",
+  "stepLabel": "Bathing derived from same Daniel verse",
+  "stepText": "Bathing implied alongside anointing in Daniel's abstention",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-076b-l10",
+   "vilnaLine": 27
+  },
+  "decision": "REASSIGN",
+  "reason": "l27: 'we have found proof that abstaining from smearing oil is affliction; from where do we derive that abstaining from BATHING is also called affliction?' - exact match.",
+  "newLineId": "yoma-076b-l27",
+  "newVilna": 27
+ },
+ {
+  "idx": 88,
+  "daf": "11b",
+  "sugyaId": "yoma-011b-s04",
+  "stepId": "step-04",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Resolution 3: caretaker vs. no caretaker (most refined)",
+  "stepText": "The most refined answer: a synagogue with a caretaker's residence attached is susceptible to tzaraat (the caretaker = the specific personal owner). Without a caretaker's residence = not susceptible. Both baraitot are factually true in their respective cases.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-011b-l41",
+   "vilnaLine": 41,
+   "note": "Third resolution: caretaker distinction - the most precise answer"
+  },
+  "decision": "REASSIGN",
+  "reason": "l40's full text is the exact match: 'this baraita, which states that it can become impure, is referring to a synagogue in which there IS a place of residence; that baraita...is referring to a synagogue in which there is NOT a place of residence' - precisely the caretaker-residence distinction the step describes. (l40 is nominally claimed by sibling step-03 under a mismatched 'city vs village' label that does not match its real content; that sibling ref is not flagged and out of scope, but l40's content unambiguously belongs to THIS step.) Revises an earlier tentative call (l41a) made before the full text of l40 was available.",
+  "newLineId": "yoma-011b-l40",
+  "newVilna": 40
+ },
+ {
+  "idx": 89,
+  "daf": "12a",
+  "sugyaId": "yoma-012a-s01",
+  "stepId": "step-01",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Was Jerusalem divided among the tribes?",
+  "stepText": "Tanna Kama: Jerusalem was not divided - collective ownership. R. Yehuda: it was divided - private owners exist. This determines tzaraat law for city synagogues.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-012a-l01",
+   "vilnaLine": 1,
+   "note": "The tribal division dispute"
+  },
+  "decision": "REASSIGN",
+  "reason": "l08: 'With regard to what principle do Rabbi Yehuda and the Rabbis disagree? The first tanna holds: Jerusalem...' - introduces the exact Tanna Kama/R. Yehuda dispute the step describes, outside the narrow vilna=1 candidate set (l01a/l01b, which are unrelated content about synagogue impurity in large cities).",
+  "newLineId": "yoma-012a-l08",
+  "newVilna": 8
+ },
+ {
+  "idx": 90,
+  "daf": "19a",
+  "sugyaId": "yoma-19a-s02",
+  "stepId": "step-04",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Parhedrin is in the south - confirmed",
+  "stepText": "The south placement is more logical given the routine. Parhedrin in the south means the KG's immersion bath is right there, making his morning routine streamlined. This is the accepted conclusion.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-19a-l36",
+   "vilnaLine": 36,
+   "note": "South placement confirmed"
+  },
+  "decision": "REASSIGN",
+  "reason": "l32 ends with: 'Rather, it is reasonable to say that the Parhedrin chamber, the High Priest's private chamber, was in the south, which would limit the distance that he needed to walk' - directly matches 'south placement confirmed...accepted conclusion.' (l32 also supports sibling step-03's 'if north: roundabout routine' via its earlier clauses; one real segment legitimately grounding two adjacent argumentFlow steps.)",
+  "newLineId": "yoma-019a-l32",
+  "newVilna": 32
+ },
+ {
+  "idx": 91,
+  "daf": "19a",
+  "sugyaId": "yoma-19a-s02",
+  "stepId": "step-05",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Why impose such difficulty on the KG?",
+  "stepText": "Why does the seven-day preparation impose all this physical difficulty on the KG? The Gemara answers: to prevent his ego from becoming puffed up. The difficulty keeps him focused and humble.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-19a-l36",
+   "vilnaLine": 36,
+   "note": "Rationale for imposed difficulty"
+  },
+  "decision": "REASSIGN",
+  "reason": "l36b: 'there is even value in imposing on a God-fearing Pharisee High Priest, in order that he will not become haughty in his lofty position' - exact match for 'to prevent his ego from becoming puffed up.'",
+  "newLineId": "yoma-019a-l36b",
+  "newVilna": 36
+ },
+ {
+  "idx": 92,
+  "daf": "38a",
+  "sugyaId": "yoma-038a-s01",
+  "stepId": "yoma-038a-l01",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Ruling: B'seirugim means in alternating pattern; a get",
+  "stepText": "B'seirugim means in alternating pattern; a get in this style is valid.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-038a-l01",
+   "vilnaLine": 1
+  },
+  "decision": "REASSIGN",
+  "reason": "l01a discusses writing 'with alternating complete words and initials' - matches the 'b'seirugim = alternating pattern' concept, though the real text discusses a Torah scroll (Queen Helene's contribution) rather than literally a 'get'; the sugya's own title/framing appears to generalize the writing-style rule. Moderate confidence.",
+  "newLineId": "yoma-038a-l01a",
+  "newVilna": 1
+ },
+ {
+  "idx": 93,
+  "daf": "38a",
+  "sugyaId": "yoma-038a-s02",
+  "stepId": "yoma-038a-l01",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Elaboration: Nicanor's doors were made of special Alexandrian",
+  "stepText": "Nicanor's doors were made of special Alexandrian copper.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-038a-l01",
+   "vilnaLine": 1
+  },
+  "decision": "REASSIGN",
+  "reason": "l01b (mishna): 'For Nicanor, miracles were performed to his doors... When Nicanor went to bring copper doors for the eastern gate of the Temple from Alexandria in Egypt' - exact match for 'special Alexandrian copper.'",
+  "newLineId": "yoma-038a-l01b",
+  "newVilna": 1
+ },
+ {
+  "idx": 94,
+  "daf": "43a",
+  "sugyaId": "yoma-043a-s01",
+  "stepId": "yoma-043a-l01",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Citation: A donkey was taken along with the",
+  "stepText": "A donkey was taken along with the goat to Azazel.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-043a-l01",
+   "vilnaLine": 1
+  },
+  "decision": "REASSIGN",
+  "reason": "l01a: 'where one took out a DONKEY with it' - exact match.",
+  "newLineId": "yoma-043a-l01a",
+  "newVilna": 1
+ },
+ {
+  "idx": 95,
+  "daf": "43b",
+  "sugyaId": "yoma-043b-s01",
+  "stepId": "yoma-043b-l01",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Question: Does R. Yehuda disagree with the Mishna's",
+  "stepText": "Does R. Yehuda disagree with the Mishna's ruling about the tevul yom?",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-043b-l01",
+   "vilnaLine": 1
+  },
+  "decision": "REASSIGN",
+  "reason": "l01a: 'And Rabbi Yehuda does not disagree. The mishna implies that even he agrees with the mishna's ruling' - exact, direct match to the question.",
+  "newLineId": "yoma-043b-l01a",
+  "newVilna": 1
+ },
+ {
+  "idx": 96,
+  "daf": "44b",
+  "sugyaId": "yoma-044b-s01",
+  "stepId": "yoma-044b-l01",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Ruling: The 'no man' restriction is only during",
+  "stepText": "The 'no man' restriction is only during incense burning; blood sprinkling has a lesser exclusion.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-044b-l01",
+   "vilnaLine": 1
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step has two clauses ('no man restriction only during incense' + 'blood sprinkling has lesser exclusion'). l01a (a sentence fragment ending '...except during the burning of the incense') supports clause 1; l01b (about differential sanctification-removal standards) is a plausible but distinct match for clause 2. Neither single segment clearly and completely represents the whole step; genuinely split across both candidates."
+ },
+ {
+  "idx": 97,
+  "daf": "48b",
+  "sugyaId": "yoma-048b-s01",
+  "stepId": "yoma-048b-l01",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Question: What if he thought invalidating thoughts during",
+  "stepText": "What if he thought invalidating thoughts during the raking of coals - does that invalidate?",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-048b-l01",
+   "vilnaLine": 1
+  },
+  "decision": "REASSIGN",
+  "reason": "l01a: 'What is the halakha if he thought invalidating thoughts during the raking of the coals? Does this thought invalidate the incense?' - exact, dominant match.",
+  "newLineId": "yoma-048b-l01a",
+  "newVilna": 1
+ },
+ {
+  "idx": 98,
+  "daf": "48b",
+  "sugyaId": "yoma-048b-s02",
+  "stepId": "yoma-048b-l01",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Question: What is the law when the High",
+  "stepText": "What is the law when the High Priest scooped with intent to consume the incense at an improper time?",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-048b-l01",
+   "vilnaLine": 1
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'HP scooped with intent to consume the incense at an improper time.' Read l01a's FULL text - it is entirely about the raking-of-coals question (sugya s01's topic, already assigned there), not about scooping-with-consumption-intent at all. l01b is about carrying blood in the left hand, also unrelated. Neither candidate supports this step; the question appears to have no textual anchor among the available same-vilna segments."
+ },
+ {
+  "idx": 99,
+  "daf": "52b",
+  "sugyaId": "yoma-052b-s01",
+  "stepId": "yoma-052b-l01",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Teaching: Four words in the Torah have uncertain",
+  "stepText": "Four words in the Torah have uncertain meanings: Se'et, Meshukkadim, Mahar, Arur.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-052b-l01",
+   "vilnaLine": 1
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step lists all four uncertain words collectively (Se'et, Meshukkadim, Mahar, Arur) as a summary introduction. Each candidate (l01a-d) covers only ONE word individually; none represents the collective four-word claim, and picking one arbitrarily would misrepresent the step as being about only that word. No single segment is uniquely supported."
+ },
+ {
+  "idx": 100,
+  "daf": "52b",
+  "sugyaId": "yoma-052b-s01",
+  "stepId": "yoma-052b-l02",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Explanation: Each word appears in a context that",
+  "stepText": "Each word appears in a context that affects halachic ruling; the uncertainty is preserved by tradition.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-052b-l02",
+   "vilnaLine": 2
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step is a general summary statement ('each word appears in a context that affects halachic ruling; uncertainty preserved by tradition') describing the pattern across all four words, not anchored to any single one of the per-word candidate segments (l01a-f)."
+ },
+ {
+  "idx": 101,
+  "daf": "53a",
+  "sugyaId": "yoma-053a-s01",
+  "stepId": "yoma-053a-l01",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Ruling: The HP approaches the coal pan from",
+  "stepText": "The HP approaches the coal pan from the side, not from in front.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-053a-l01",
+   "vilnaLine": 1
+  },
+  "decision": "REASSIGN",
+  "reason": "l01a: 'not to begin piling the incense in front of you...lest you be burned' - exact match, confirmed via earlier deep-dive analysis in this review.",
+  "newLineId": "yoma-053a-l01a",
+  "newVilna": 1
+ },
+ {
+  "idx": 102,
+  "daf": "53a",
+  "sugyaId": "yoma-053a-s02",
+  "stepId": "yoma-053a-l02",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Position: The HP piles incense outside the parochet,",
+  "stepText": "The HP piles incense outside the parochet, then enters with the smoke already formed.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-053a-l02",
+   "vilnaLine": 2
+  },
+  "decision": "REASSIGN",
+  "reason": "l04 (outside the narrow vilna candidate set): 'teaches that he should prepare it outside...and then bring it in' - the dedicated statement of the Sadducee position matching 'piles incense outside the parochet, enters with smoke already formed.' Confirmed via earlier deep-dive analysis.",
+  "newLineId": "yoma-053a-l04",
+  "newVilna": 4
+ },
+ {
+  "idx": 103,
+  "daf": "53a",
+  "sugyaId": "yoma-053a-s02",
+  "stepId": "yoma-053a-l03",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Objection: A baraita teaches: the HP enters with",
+  "stepText": "A baraita teaches: the HP enters with the coals and incense separately, then piles the incense on the coals inside.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-053a-l03",
+   "vilnaLine": 3
+  },
+  "decision": "REASSIGN",
+  "reason": "l01b: 'The Sages taught in a baraita...he should not prepare by placing the incense outside...to exclude the opinion of the Sadducees' - matches 'a baraita teaches: HP enters with coals/incense separately, piles inside.' Confirmed via earlier deep-dive analysis.",
+  "newLineId": "yoma-053a-l01b",
+  "newVilna": 1
+ },
+ {
+  "idx": 104,
+  "daf": "61a",
+  "sugyaId": "yoma-061a-s01",
+  "stepId": "yoma-061a-l01",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Question: Which Yom Kippur services are me'akev (essential)",
+  "stepText": "Which Yom Kippur services are me'akev (essential) and which are required but not invalidating?",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-061a-l01",
+   "vilnaLine": 1
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step is the sugya's general framing question ('which YK services are me'akev and which are required but not invalidating'). Both candidates (l01a, l01b) are already deep into specific case analysis (incense-scooping detail; goat-before-bull sequencing), not the general framing question itself. No segment states this general question directly."
+ },
+ {
+  "idx": 105,
+  "daf": "61a",
+  "sugyaId": "yoma-061a-s02",
+  "stepId": "yoma-061a-l01c",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Principle: Impurity does not retroactively void completed Temple",
+  "stepText": "Impurity does not retroactively void completed Temple service (bedi'avad).",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-061a-l01c",
+   "vilnaLine": 2
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'impurity does not retroactively void completed Temple service.' Both candidates (l01a: incense-scooping detail; l01b: goat-before-bull sequencing) are specific procedural points, not the general impurity/retroactivity principle. Whole-daf top candidates (l10, l13) discuss atonement scope for Israelites/Levites, a different topic. No segment states this principle directly."
+ },
+ {
+  "idx": 106,
+  "daf": "70a",
+  "sugyaId": "yoma-070a-s06",
+  "stepId": "yoma-070a-l19",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Ruling: The ram mentioned in Torat Kohanim is distinct from Numbers",
+  "stepText": "The ram mentioned in Torat Kohanim (Lev. 16) is separate from the ram in Numbers - both are required.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-070a-l19",
+   "vilnaLine": 41
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'ram in Torat Kohanim distinct from Numbers, both required.' Candidates l41a (about the BULL, not ram) and l41b (about sin-offering portions, not ram) both address different unresolved dilemmas raised at this point in the sugya, neither the ram-distinctness question."
+ },
+ {
+  "idx": 107,
+  "daf": "70a",
+  "sugyaId": "yoma-070a-s06",
+  "stepId": "yoma-070a-l20",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Ruling: Two rams are each required individually",
+  "stepText": "Both rams are required: one as a freewill offering to be accepted willingly, one as an obligatory offering to fulfill the requirement properly.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-070a-l20",
+   "vilnaLine": 41
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: 'two rams required - one freewill, one obligatory.' Same candidates as case 106 (l41a/l41b), neither addresses the freewill-vs-obligatory ram distinction."
+ },
+ {
+  "idx": 108,
+  "daf": "71a",
+  "sugyaId": "yoma-071a-s01",
+  "stepId": "yoma-071a-l10",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Ruling: 'The burner' is similarly a textual flashback",
+  "stepText": "'The one who burns them' also appears after the eimurim text but refers to the earlier burning - both are cases where Torah mentions tum'ah at the end even though the act happened earlier.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-071a-l10",
+   "vilnaLine": 20
+  },
+  "decision": "REASSIGN",
+  "reason": "l20b (Abaye's parallel argument) establishes both the dispatcher-earlier AND burner-earlier claims in one continuous statement; its burner-specific clause ('so too, the one who burns...does so earlier') directly supports 'the burner is similarly a textual flashback.' (Same segment also grounds case 45's final-resolution step; a single continuous argument legitimately grounds adjacent related steps.)",
+  "newLineId": "yoma-071a-l20b",
+  "newVilna": 20
+ },
+ {
+  "idx": 109,
+  "daf": "71a",
+  "sugyaId": "yoma-071a-s01",
+  "stepId": "yoma-071a-l11",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Counter-argument: 'The burner' refers to current act",
+  "stepText": "Counter-argument: 'the burner' refers to the current time - the command for burning the fats is written after the eimurim, so 'the burner' is about burning that happens now.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-071a-l11",
+   "vilnaLine": 20
+  },
+  "decision": "UNRESOLVED",
+  "reason": "Step: counter-argument that 'the burner' refers to the current time (not a flashback). Neither candidate states this: l20a is a methodological objection about rearranging verses vs. the mishna; l20b argues the OPPOSITE view (burner IS a flashback). No segment supports this specific counter-argument."
+ },
+ {
+  "idx": 110,
+  "daf": "71b",
+  "sugyaId": "yoma-071b-s03",
+  "stepId": "yoma-071b-l13",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Ruling: Breastplate thread count derived from belt",
+  "stepText": "The breastplate's thread count (twenty-four) is derived from the belt which has four types each six-ply - when twisted together they are twenty-four. The same applies to the breastplate's three types.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-071b-l13",
+   "vilnaLine": 53
+  },
+  "decision": "REASSIGN",
+  "reason": "l51 (outside the narrow vilna=53 candidate set): 'the need for thread of eight strands is derived from the BELT, which had TWENTY-FOUR threads in total' - exact match for 'breastplate thread count derived from belt.'",
+  "newLineId": "yoma-071b-l51",
+  "newVilna": 51
+ },
+ {
+  "idx": 111,
+  "daf": "71b",
+  "sugyaId": "yoma-071b-s03",
+  "stepId": "yoma-071b-l14",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Ruling: 'Ta'asenu' vs 've'asita' - different derivations",
+  "stepText": "The breastplate uses 'ta'asenu' (singular command) while pomegranates use 've'asita' (plural, all types equal). Therefore we derive from the belt (four types x six = twenty-four) not from the breastplate.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-071b-l14",
+   "vilnaLine": 53
+  },
+  "decision": "REASSIGN",
+  "reason": "l53b: 'Rav Ashi said...\"And you shall make [ve'asita] pomegranates...\" is written to indicate that all the makings of it must be equal' - matches the 've'asita' (plural/equal) half of the ta'asenu/ve'asita contrast, the concluding link in the derive-from-belt-not-breastplate reasoning.",
+  "newLineId": "yoma-071b-l53b",
+  "newVilna": 53
+ },
+ {
+  "idx": 112,
+  "daf": "72b",
+  "sugyaId": "yoma-072b-s03",
+  "stepId": "yoma-072b-l18",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Needle vs loom",
+  "stepText": "Embroiderer = needle (one side visible); weaver = loom (both sides)",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-072b-l18",
+   "vilnaLine": 46
+  },
+  "decision": "REASSIGN",
+  "reason": "l46b: 'work of an embroiderer refers to needlework, which therefore produces only one face. The design is made with a needle passing back and forth from both sides...' - exact match for 'embroiderer=needle (one side visible).'",
+  "newLineId": "yoma-072b-l46b",
+  "newVilna": 46
+ },
+ {
+  "idx": 113,
+  "daf": "73a",
+  "sugyaId": "yoma-073a-s01",
+  "stepId": "yoma-073a-l12",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Animosity among subordinates only",
+  "stepText": "Among equals, there is no halakhic concern for animosity",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-073a-l12",
+   "vilnaLine": 26
+  },
+  "decision": "REASSIGN",
+  "reason": "l26a: 'When the High Priest has no animosity toward someone else wearing the same garments, it is only where that person is similar to him...But toward someone inferior to him who wears...' - exact match for 'among equals, no halakhic concern for animosity.'",
+  "newLineId": "yoma-073a-l26a",
+  "newVilna": 26
+ },
+ {
+  "idx": 114,
+  "daf": "73b",
+  "sugyaId": "yoma-073b-s01",
+  "stepId": "yoma-073b-l05",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Gibeah: first two times not consulted",
+  "stepText": "Only the third time did Israel properly consult and succeed",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-073b-l05",
+   "vilnaLine": 10
+  },
+  "decision": "REASSIGN",
+  "reason": "l10b: 'the first two times they did not check with the Urim VeTummim whether they would be victorious or defeated but only inquired how and whether to go to battle... but on the [third]...' - exact match.",
+  "newLineId": "yoma-073b-l10b",
+  "newVilna": 10
+ },
+ {
+  "idx": 115,
+  "daf": "73b",
+  "sugyaId": "yoma-073b-s01",
+  "stepId": "yoma-073b-l10",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Shechinah assists the HP",
+  "stepText": "The letters work together with divine assistance to form the answer",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-073b-l10",
+   "vilnaLine": 19
+  },
+  "decision": "REASSIGN",
+  "reason": "l19a's full text (not fully shown in the truncated snippet) includes: 'The Gemara answers: The Divine Spirit assisted the Urim VeTummim' - exact match for 'Shechinah assists the HP.'",
+  "newLineId": "yoma-073b-l19a",
+  "newVilna": 19
+ },
+ {
+  "idx": 116,
+  "daf": "73b",
+  "sugyaId": "yoma-073b-s02",
+  "stepId": "yoma-073b-l11",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Only kings may consult Urim",
+  "stepText": "Derived from the Pinchas-Yehoshua verse",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-073b-l11",
+   "vilnaLine": 19
+  },
+  "decision": "REASSIGN",
+  "reason": "l19b (mishna): 'HP may be consulted for Urim VeTummim decision only on behalf of the king, or on behalf of the president of the court, or on behalf of one whom the community needs. From where are these matters derived?' - exact match.",
+  "newLineId": "yoma-073b-l19b",
+  "newVilna": 19
+ },
+ {
+  "idx": 117,
+  "daf": "76b",
+  "sugyaId": "yoma-076b-s01",
+  "stepId": "yoma-076b-l01",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Liable for drinking on YK",
+  "stepText": "'Sheikhar' in the verse establishes a drinking prohibition",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-076b-l01",
+   "vilnaLine": 1
+  },
+  "decision": "REASSIGN",
+  "reason": "l01a: 'is liable for violating the prohibition: Drink no wine nor strong drink [sheikhar]' - exact match for 'liable for drinking on YK...sheikhar establishes prohibition.'",
+  "newLineId": "yoma-076b-l01a",
+  "newVilna": 1
+ },
+ {
+  "idx": 118,
+  "daf": "77b",
+  "sugyaId": "yoma-077b-s03",
+  "stepId": "step-08",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Abaye: only fast-flowing water is the danger",
+  "stepText": "Abaye answers that the verse proves nothing general, because a fast-flowing river is uniquely dangerous: above the waist one could be swept away. Still water, however, may be crossed even when deeper than the waist, so the depth limit is not absolute.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-077b-l35",
+   "vilnaLine": 35
+  },
+  "decision": "REASSIGN",
+  "reason": "l35a: 'Abaye said: that is not a proof, because a river with fast flowing water is different...one is permitted to cross still water even if it is deeper' - exact, dominant match.",
+  "newLineId": "yoma-077b-l35a",
+  "newVilna": 35
+ },
+ {
+  "idx": 119,
+  "daf": "77b",
+  "sugyaId": "yoma-077b-s04",
+  "stepId": "step-01",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Why Ezekiel could not even swim or boat across",
+  "stepText": "Continuing the river theme, the Gemara explains that Ezekiel could not cross by swimming, since the verse describes 'sachu' waters passable only by boat, and then excludes even a small boat and a large fishing boat, as Rav Yosef renders the verses, leaving the river uncrossable.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-077b-l35",
+   "vilnaLine": 35
+  },
+  "decision": "REASSIGN",
+  "reason": "l35b: 'one might think Ezekiel could cross the river by swimming. The verse states \"the water had swollen into sachu waters\"...' - exact, dominant match.",
+  "newLineId": "yoma-077b-l35b",
+  "newVilna": 35
+ },
+ {
+  "idx": 120,
+  "daf": "78b",
+  "sugyaId": "yoma-078b-s03",
+  "stepId": "step-03",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "A new mother may wear shoes against the cold",
+  "stepText": "A new mother may wear shoes on Yom Kippur because the cold could make her ill in her weakened state after childbirth, so her health overrides the prohibition on wearing shoes.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-078b-l44",
+   "vilnaLine": 44
+  },
+  "decision": "REASSIGN",
+  "reason": "l44a: 'A new mother may wear shoes. What is the reason? Due to the cold there is concern she will become ill, as she is weak from the birth' - exact match.",
+  "newLineId": "yoma-078b-l44a",
+  "newVilna": 44
+ },
+ {
+  "idx": 121,
+  "daf": "78b",
+  "sugyaId": "yoma-078b-s03",
+  "stepId": "step-04",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Shoes permitted where scorpions pose a danger",
+  "stepText": "Shmuel rules that one who fears scorpions while barefoot on Yom Kippur may wear shoes, since one need not place himself in danger in order to keep the affliction of going without shoes.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-078b-l44",
+   "vilnaLine": 44
+  },
+  "decision": "REASSIGN",
+  "reason": "l44b: 'Shmuel said: if a man is worried about walking barefoot due to the danger of scorpions, he is permitted to wear shoes' - exact match.",
+  "newLineId": "yoma-078b-l44b",
+  "newVilna": 44
+ },
+ {
+  "idx": 122,
+  "daf": "81a",
+  "sugyaId": "yoma-081a-s04",
+  "stepId": "step-06",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "The warning for the day itself is still unsourced",
+  "stepText": "The baraita notes that the actual warning for affliction on the day itself has not yet been derived. It proposes deriving it from labor by a fortiori: if affliction carries karet though it is not observed on Shabbat and Festivals, labor, which is, should all the more so.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-081a-l41",
+   "vilnaLine": 41
+  },
+  "decision": "REASSIGN",
+  "reason": "l37 (outside the narrow vilna=41 candidate set): 'the baraita comments: but the warning about lashes during the very day itself we have not learned. From where is it derived?' - exact, dominant match (score 20.65 vs weak candidates).",
+  "newLineId": "yoma-081a-l37",
+  "newVilna": 37
+ },
+ {
+  "idx": 123,
+  "daf": "81a",
+  "sugyaId": "yoma-081a-s04",
+  "stepId": "step-07",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "The a fortiori is set up to license a gezerah shavah",
+  "stepText": "Since the punishment for labor could be derived by logic, its explicit statement is 'available' to teach a verbal analogy: just as labor was punished only after a warning, so affliction was punished only after a warning.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-081a-l41",
+   "vilnaLine": 41
+  },
+  "decision": "REASSIGN",
+  "reason": "l41b: 'The Torah need not say the punishment for not being in a state of affliction, since one can learn it from the punishment for performing labor through an a fortiori inference' - matches 'the a fortiori is set up.' Follows naturally after step-06's l37.",
+  "newLineId": "yoma-081a-l41b",
+  "newVilna": 41
+ },
+ {
+  "idx": 124,
+  "daf": "81a",
+  "sugyaId": "yoma-081a-s04",
+  "stepId": "step-11",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Five verses make 'same day' available",
+  "stepText": "Five verses govern labor on Yom Kippur - warnings for day and night, punishments for day and night, and one spare verse - leaving 'same day' free to teach the affliction-labor analogy for both day and night.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-081a-l48",
+   "vilnaLine": 48
+  },
+  "decision": "REASSIGN",
+  "reason": "l46 (outside narrow vilna=48 candidate set): 'No, it is certainly available, and we may learn from it, as five verses are written with regard to the prohibition of labor on Yom Kippur' - exact, dominant match.",
+  "newLineId": "yoma-081a-l46",
+  "newVilna": 46
+ },
+ {
+  "idx": 125,
+  "daf": "81a",
+  "sugyaId": "yoma-081a-s04",
+  "stepId": "step-12",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Alternative analogies from Rabbi Yishmael and Rav Acha",
+  "stepText": "Rabbi Yishmael's school derives 'affliction'-'affliction' from the case of rape, and Rav Acha bar Yaakov derives 'Shabbat Shabbaton' from the weekly Shabbat - in each, the Torah punished only where it first warned, so too on Yom Kippur.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-081a-l48",
+   "vilnaLine": 48
+  },
+  "decision": "REASSIGN",
+  "reason": "l48a: 'the school of Rabbi Yishmael taught an alternative verbal analogy...\"affliction\" is stated here, with regard to Yom Kippur, and \"affliction\" is stated later, with regard to a man who rapes a woman' - exact, dominant match for the R. Yishmael half of the step; the Rav Acha half is not separately verified but l48a is the clearly dominant single candidate.",
+  "newLineId": "yoma-081a-l48a",
+  "newVilna": 48
+ },
+ {
+  "idx": 126,
+  "daf": "83b",
+  "sugyaId": "yoma-083b-s01",
+  "stepId": "step-01",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Tithe the produce even on Shabbat",
+  "stepText": "Per Rabba, if one can tithe untithed produce to make it permitted, one does so rather than feed it untithed. Though this seems obvious, it is stated for Shabbat, when separating tithes is normally forbidden - even so, tithing is preferred over feeding untithed produce.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-083b-l01",
+   "vilnaLine": 1
+  },
+  "decision": "REASSIGN",
+  "reason": "l01a states Rabba's core ruling directly: 'if it is possible to make the untithed produce fit and then feed him with non-sacred food, one should do so' - matches the step's primary claim. Moderate-high confidence given step-02 (sibling) more specifically covers l01b's Shabbat-obviousness challenge.",
+  "newLineId": "yoma-083b-l01a",
+  "newVilna": 1
+ },
+ {
+  "idx": 127,
+  "daf": "83b",
+  "sugyaId": "yoma-083b-s01",
+  "stepId": "step-02",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Why it is not obvious: imperforate-container produce",
+  "stepText": "On Shabbat the prohibition against tithing is only the rabbinic prohibition of muktzeh-like moving, lighter than eating untithed produce - so why state it? The case is produce grown in an imperforate container, which is untithed only rabbinically, yet one still tithes it on Shabbat rather than feed it as is.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-083b-l01",
+   "vilnaLine": 1
+  },
+  "decision": "REASSIGN",
+  "reason": "l01b: 'with regard to Shabbat it is also obvious, since the prohibition against separating terumot and tithes is merely a prohibition against moving...that is certainly less severe' - matches the 'why it is not obvious' challenge-setup, though the specific imperforate-container resolution detail is not explicit in this segment. Moderate confidence.",
+  "newLineId": "yoma-083b-l01b",
+  "newVilna": 1
+ },
+ {
+  "idx": 128,
+  "daf": "84a",
+  "sugyaId": "yoma-084a-s01",
+  "stepId": "step-01",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Kill a mad dog only from a distance",
+  "stepText": "Following Shmuel's view that an evil spirit rests on the mad dog, one kills it only with a thrown object, like an arrow, avoiding direct contact.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-084a-l01",
+   "vilnaLine": 1
+  },
+  "decision": "REASSIGN",
+  "reason": "l01a: 'killing it with an object that is thrown from a distance like an arrow rather than with one's hands. If the dog is possessed by an evil spirit, one should avoid direct contact' - exact, dominant match.",
+  "newLineId": "yoma-084a-l01a",
+  "newVilna": 1
+ },
+ {
+  "idx": 129,
+  "daf": "84a",
+  "sugyaId": "yoma-084a-s01",
+  "stepId": "step-02",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Rubbing versus biting",
+  "stepText": "A baraita aligned with Shmuel: one merely rubbed by a mad dog becomes dangerously ill, while one bitten will die. The remedy for one who is rubbed is to strip off his clothing and run, as Rav Huna son of Rav Yehoshua did in the market.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-084a-l01",
+   "vilnaLine": 1
+  },
+  "decision": "REASSIGN",
+  "reason": "l01b: 'one who is rubbed by a mad dog will become dangerously ill, while one bitten...' - exact, dominant match.",
+  "newLineId": "yoma-084a-l01b",
+  "newVilna": 1
+ },
+ {
+  "idx": 130,
+  "daf": "85a",
+  "sugyaId": "yoma-085a-s01",
+  "stepId": "step-01",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Shmuel rereads the foundling rule as leniency",
+  "stepText": "Shmuel's ruling about a found child concerns clearing debris off him on Shabbat. Read straight, it implies we follow the local majority even for saving a life - so in a gentile-majority town we would not clear the rubble. The Gemara rejects that reading: Shmuel was only explaining the first clause (status, e.g. lineage), and there following the majority is a leniency. For saving a life, majority does not control - we clear the debris on the chance he is alive.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-085a-l01",
+   "vilnaLine": 1
+  },
+  "decision": "REASSIGN",
+  "reason": "l01a: 'And Shmuel said: this halakha of the status of a found child is with regard to removing debris from on top of him, implying that if there is a majority of gentiles...one does not violate Shabbat' - exact, dominant match.",
+  "newLineId": "yoma-085a-l01a",
+  "newVilna": 1
+ },
+ {
+  "idx": 131,
+  "daf": "85a",
+  "sugyaId": "yoma-085a-s02",
+  "stepId": "step-01",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Gentile-majority foundling: feed him non-kosher food",
+  "stepText": "A foundling in a gentile-majority town counts as a gentile. Rav Pappa explains the practical stakes: we need not shield him from every prohibition and may even feed him non-kosher food, treating him as a gentile for such purposes.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-085a-l01",
+   "vilnaLine": 1
+  },
+  "decision": "REASSIGN",
+  "reason": "l01b: 'if there is a majority of gentiles in the city, a foundling is considered to have the status of a gentile...Rav Pappa said: it relates to feeding him non-kosher food' - exact, dominant match.",
+  "newLineId": "yoma-085a-l01b",
+  "newVilna": 1
+ },
+ {
+  "idx": 132,
+  "daf": "85b",
+  "sugyaId": "yoma-085b-s03",
+  "stepId": "step-02",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Reconciling with Rabbi",
+  "stepText": "The Gemara rejects the contradiction: even on Rabbi's view, the Mishnah can be read as saying repentance needs Yom Kippur to complete the atonement, while Yom Kippur does not need repentance - it atones even without it. So the Mishnah need not contradict Rabbi at all.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-085b-l41",
+   "vilnaLine": 41
+  },
+  "decision": "REASSIGN",
+  "reason": "l41a: 'even if you say the mishna is in accordance with the opinion of Rabbi Yehuda HaNasi, the mishna can be understood: repentance still requires Yom Kippur to complete the atonement' - exact, dominant match.",
+  "newLineId": "yoma-085b-l41a",
+  "newVilna": 41
+ },
+ {
+  "idx": 133,
+  "daf": "85b",
+  "sugyaId": "yoma-085b-s04",
+  "stepId": "step-01",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Why mention positive mitzvot if negative ones are covered?",
+  "stepText": "The Mishnah says repentance atones for both positive and negative mitzvot. The Gemara objects: a negative mitzva is more severe (it carries lashes), so if repentance handles that, why state the lighter positive mitzva? Rav Yehuda reframes the Mishnah: repentance atones for a positive mitzva and for a negative mitzva that can be corrected by a positive act (lav hanitak la'aseh), which has the lenient status of a positive command.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-085b-l41",
+   "vilnaLine": 41
+  },
+  "decision": "REASSIGN",
+  "reason": "l41b: 'repentance itself atones for minor transgressions, for both a positive mitzva and for a negative mitzva. The Gemara is surprised: now that repentance atones for a negative mitzva, which is severe...' - exact, dominant match.",
+  "newLineId": "yoma-085b-l41b",
+  "newVilna": 41
+ },
+ {
+  "idx": 134,
+  "daf": "86a",
+  "sugyaId": "yoma-086a-s01",
+  "stepId": "step-01",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "The exception: taking God's name in vain",
+  "stepText": "Continuing the list of minor transgressions, the source carves out 'you shall not take the name of the Lord in vain' (Exodus 20:7), about which the Torah says God 'will not absolve' the one who does so. The Gemara clarifies this is not the only weighty prohibition - rather it stands for that verse and anything like it, i.e. all severe prohibitions carrying court punishment.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-086a-l01",
+   "vilnaLine": 1
+  },
+  "decision": "REASSIGN",
+  "reason": "l01a: 'except for: You shall not take the name of the Lord, your God, in vain...about which the Torah states: For God will not absolve him' - exact, dominant match.",
+  "newLineId": "yoma-086a-l01a",
+  "newVilna": 1
+ },
+ {
+  "idx": 135,
+  "daf": "86a",
+  "sugyaId": "yoma-086a-s01",
+  "stepId": "step-02",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Rabbi Yehuda's dividing line",
+  "stepText": "A proof is offered from Rabbi Yehuda: for sins from 'you shall not take the name in vain' and below (lighter), repentance atones; from that verse and above (heavier), repentance suspends and Yom Kippur atones. The Gemara rejects it as proof - it may refer only to that verse and things like it, not to every prohibition that warrants lashes.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-086a-l01",
+   "vilnaLine": 1
+  },
+  "decision": "REASSIGN",
+  "reason": "l01b: 'come and hear from that which was taught: Rabbi Yehuda says: for any sin from You shall not take the name...and below, repentance atones' - exact, dominant match.",
+  "newLineId": "yoma-086a-l01b",
+  "newVilna": 1
+ },
+ {
+  "idx": 136,
+  "daf": "88a",
+  "sugyaId": "yoma-088a-s01",
+  "stepId": "step-07",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "The reed dispute over immersion-at-its-time",
+  "stepText": "In that baraita the Rabbis and Rabbi Yosei disagree precisely over tevila bizmanah. The Rabbis say immersion at its proper time is not a mitzva, so without a reed one waits even until the next day rather than risk erasing the name. Rabbi Yosei says it is a mitzva, so one immerses at the proper time even without covering the name - the opposite of the inference drawn above.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-088a-l19",
+   "vilnaLine": 19
+  },
+  "decision": "REASSIGN",
+  "reason": "l19a: 'we maintain that they disagree as to whether or not immersion at its proper time is a mitzva. According to the Rabbis, immersion at its proper time is not a mitzva...' - exact, dominant match.",
+  "newLineId": "yoma-088a-l19a",
+  "newVilna": 19
+ },
+ {
+  "idx": 137,
+  "daf": "88a",
+  "sugyaId": "yoma-088a-s01",
+  "stepId": "step-08",
+  "class": "OBJECT_DANGLING_AMBIGUOUS",
+  "stepLabel": "Reattributing the baraita to Rabbi Yosei bar Yehuda",
+  "stepText": "The resolution: the 'Rabbi Yosei' of that reed baraita is actually Rabbi Yosei bar Yehuda, who taught 'it suffices that the immersion be at the end' - one need only immerse once when surely pure, not repeatedly to hit the exact proper time. So he too holds immersion-at-its-time is not a binding mitzva, removing the contradiction.",
+  "beforeRef": {
+   "sourceType": "gemara",
+   "lineId": "yoma-088a-l19",
+   "vilnaLine": 19
+  },
+  "decision": "REASSIGN",
+  "reason": "l19b: 'this Rabbi Yosei mentioned in the baraita is actually Rabbi Yosei bar Yehuda...Rabbi Yosei bar Yehuda says: it is sufficient for the immersion to be at the end' - exact, dominant match.",
+  "newLineId": "yoma-088a-l19b",
+  "newVilna": 19
+ }
+]
