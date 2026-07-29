@@ -1,0 +1,415 @@
+# Platform closure plan
+
+**Status: authoritative.** This document is the single plan for finishing the
+reusable MySugya platform after the Yoma content and Rashi campaigns. It
+supersedes no other document's factual content: `docs/reports/open-items.md`
+remains the classified inventory of everything open, and
+`docs/reports/replication-readiness.md` and
+`docs/reports/sugya-schema-readiness.md` remain the evidence sources for
+Phases 2 and 3 below - but it is the one place that states what remains,
+in what order, and what "done" means for each piece.
+
+Read this after `CLAUDE.md`. Read `docs/reports/open-items.md` for the
+day-to-day classified state; read this document for the plan that closes it.
+
+---
+
+## What is already complete
+
+Stated here once, precisely, so no phase below re-litigates it.
+
+**Yoma corpus**: 173 daf, 492 sugyot. Frozen; see `modules/yoma/MODULE.md`.
+
+**Rashi campaign**: complete. 8,854 Rashi entries, 10,061 declared
+associations, 0 broken associations, 0 cross-daf associations, boundary
+(empty-link) registry 20/20 authorized with 0 stale/duplicate/unauthorized
+entries. The linked `linkedGemaraLineIds` renderer is the *only* renderer:
+the legacy vilnaLine-coincidence renderer and the `?rashiAssoc=legacy`
+selector were removed at VERSION 15.346 (`docs/reports/legacy-renderer-retirement-policy.md`).
+Renderer readiness has reached 8/8 on multiple verified commits, most
+recently `b86d7ef`, via the 8-shard `rashi-browser-shards.yml` workflow
+(173/173 daf, 215 passed / 0 failed).
+
+**Rashi nekudot/vowelization**: intentionally out of project scope, not
+paused work. See the OUT-OF-SCOPE section of `docs/reports/open-items.md`.
+Nothing below reopens this.
+
+**Schema field coverage**: 492/492 sugyot carry every field
+`shared/schema_map.js` marks required (`npm run validate:schema:yoma`).
+A separate semantic audit (`npm run report:schema:semantics:yoma`) has also
+run corpus-wide; see Phase 2 for what it found and what remains.
+
+**sourceRefs**: a canonical schema, an offline validator
+(`validate_source_refs.py`), a dry-run migration preview
+(`preview_source_refs_migration.py`), and a four-PR migration plan exist
+(`docs/reports/source-refs-normalization-plan.md`). The migration was
+**correctly stopped** where conversion would require inventing data: 331
+sound string refs cannot become canonical objects without inventing a
+`sourceType`, and 138 object refs need a human reading the step text against
+the Gemara. Applying only the mechanically safe subset was rejected because
+it would leave the corpus in a harder-to-read mixed state.
+
+**argumentFlow rendering**: unrecognised step types (106 values outside the
+13-value `controlledValues.argumentStepType`, covering 1,320 of 1,953 steps)
+no longer render with a false "Question" label. `stepMetaFor` in `app.jsx`
+shows the type's own name and leaves Hebrew empty rather than inventing it
+(VERSION 15.350). The underlying vocabulary question - widen the schema or
+re-type the data - is still open; see Phase 2.
+
+**Test, browser, and deployment evidence current as of this plan**: `npm test`
+passing (12 Python/Node suites), `npm run test:browser` passing (16 Playwright
+specs, 1 module-conditional skip), the 8-shard corpus-wide browser association
+run green, `npm run validate:offline:yoma` green (12 gates), GitHub Pages and
+Cloudways deployments both reporting success for the current `main` tip.
+
+**Known, currently unresolved**: GitHub Pages has two competing publishers
+(our `deploy-pages.yml` workflow and GitHub's built-in branch-build
+publisher), and which one serves at any given moment is nondeterministic.
+This is the subject of Phase 1.
+
+---
+
+## The four phases
+
+```
+Phase 1 ─┐
+         ├─→ Phase 4 (closure requires 1, 2, and 3 all done)
+Phase 2 ─┤
+         │
+Phase 3 ─┘
+```
+
+Phases 1, 2, and 3 do not depend on each other and may proceed in any order
+or in parallel. Phase 4 is the reconciliation pass and requires all three
+finished. This plan documents all four; only Phase 1 is executed as part of
+producing this document. Phases 2-4 remain planned, not started.
+
+---
+
+## Phase 1: Production publishing and repository protection
+
+### Goal
+
+GitHub Pages publishes only the tested `dist/` artifact through GitHub
+Actions, with no competing publisher. `main` is protected against
+unvalidated direct changes.
+
+### Why this is first
+
+It is the only phase that is a repository/operator setting rather than a
+code or content change, and the defect it fixes is live: production is
+currently serving the wrong bundle part of the time.
+
+### Required outcomes
+
+- Pages source set to GitHub Actions (Settings > Pages > Build and
+  deployment > Source > GitHub Actions).
+- A fresh `deploy-pages.yml` run succeeds on the exact `main` commit.
+- Repeated public checks (minimum 5 cache-busted checks spread across at
+  least 10 minutes) prove the served bundle stays the tested production
+  bundle for the entire window - not a single lucky sample.
+- `main` requires pull requests.
+- Required status check: `build`.
+- Required status checks are strict (branch must be up to date before merge).
+- Force pushes blocked.
+- Branch deletion blocked.
+- Bypass restricted to the smallest practical administrator-only set.
+- No Cloudways, mysugya.com, or custom-domain change of any kind.
+
+### Evidence required
+
+- Pages build-type read back via API, before and after.
+- Workflow run id and head SHA for the verification dispatch.
+- The 5+ sample log (timestamp, HTTP status, bundle filename, byte size)
+  showing a single stable outcome across the whole window.
+- Deployment history after the setting change, showing no branch/root
+  deployment superseding the workflow deployment.
+- Branch protection / ruleset configuration read back via API: PR required,
+  `build` required and strict, force-push disabled, deletion disabled,
+  bypass list.
+
+### Stop conditions
+
+- GitHub authentication does not permit changing Pages or protection
+  settings. Report the exact denied operation and response; give the exact
+  Settings UI path and values for the operator; do not fabricate a code
+  workaround; stop before Phase 2.
+- Branch-protection or repository-admin settings would need to change in a
+  way not listed above (e.g. adding required reviewer counts not already
+  policy). Ask before proceeding.
+
+### Not in scope for Phase 1
+
+Any application code change. Any Cloudways or mysugya.com change - GitHub
+Pages is the authoritative beta deployment; mysugya.com is not deployment
+debt (`docs/reports/open-items.md`, OUT-OF-SCOPE section).
+
+---
+
+## Phase 2: Semantic schema contract
+
+### A. argumentFlow vocabulary
+
+**Problem.** `argumentFlow[].type` is declared required/canonical over 13
+controlled values; the corpus uses 106 more across 1,320 of 1,953 steps
+(417/492 sugyot). Phase-1-adjacent work already stopped the renderer from
+mislabelling these as "Question" (VERSION 15.350), but the data itself still
+does not conform to the declared schema.
+
+**Direction.** Adopt a two-level model:
+
+```json
+{ "category": "<small controlled cross-tractate vocabulary>",
+  "type": "<specific authored distinction, preserved as-is>" }
+```
+
+`category` is what renderer behavior (symbol, color, Hebrew term) keys off,
+and stays small and stable across tractates. `type` preserves the specific
+distinction an enrichment author drew (`ruling`, `derivation`, `dispute`,
+...) without forcing it into one of 13 buckets.
+
+**Requirements:**
+
+- `category` vocabulary stays small; do not let renderer metadata grow past
+  roughly the current 13-20 entries. Widening it to cover all 106+ observed
+  `type` values defeats the purpose.
+- Do not collapse the 1,320 non-canonical steps down to 13 `type` values -
+  that erases the distinctions the enrichment deliberately drew.
+- An unrecognised `type` (one whose `category` mapping is not yet decided)
+  renders as readable text, never with an invented Hebrew label or symbol.
+  This behavior already exists (`stepMetaFor`) and must be preserved through
+  the migration, not reintroduced as a regression.
+- Inventory all existing `type` values and frequencies (this is already done;
+  see `docs/reports/sugya-schema-readiness.md`).
+- Map every value with an unambiguous `category` mechanically; escalate
+  genuinely ambiguous mappings to the operator rather than guessing.
+- Validate all 1,953 argumentFlow steps across all 492 sugyot against the
+  new two-level schema before declaring Phase 2A complete.
+
+### B. sourceRefs
+
+**Problem.** Recapped from the completed analysis
+(`docs/reports/source-refs-normalization-plan.md`): 1,431 of 1,981 refs are
+sound, 550 are defective across 102 daf, split into mechanically repairable
+(412) and judgment-required (138) tiers, plus 331 sound string refs that
+cannot be losslessly converted to the canonical object form without
+inventing a `sourceType`.
+
+**Requirements, unchanged from the existing plan and restated here as the
+Phase 2B contract:**
+
+- Segment ids (`lineId`) and Vilna line numbers (`vilnaLine`) are distinct
+  coordinate systems and must never be compared as if interchangeable - a
+  `lineId`'s Vilna interval containing a step's `vilnaLine` is the
+  correctness condition, not numeric equality.
+- Never invent `sourceType`. It is not a function of a line's `kind` (15
+  refs on Mishnah-kind lines are deliberately typed `gemara`).
+- Preserve the 331 sound string references as-is unless a specific proposed
+  representation is demonstrably lossless end to end, including
+  `sourceType`.
+- Classify every defective object reference into mechanical-repair versus
+  judgment-required tiers (already done; see the four-PR plan in the
+  normalization document) and execute them as separate, reviewable PRs.
+- Validation must cover: existence (`lineId` resolves on its own daf),
+  daf locality (no cross-daf refs), ordering (document order preserved),
+  segment identity (the referenced segment is the one meant), Vilna
+  reference correctness (interval containment), and source type
+  correctness.
+- Where provenance genuinely cannot be proven from repository data alone
+  (the 138 judgment-required refs), retain an explicit unknown/unresolved
+  state rather than a guessed value. This is not new policy; it is what the
+  existing preview tool already does by refusing to propose those refs.
+
+### Phase 2 completion criterion
+
+All 492 sugyot are structurally and semantically valid under both stable,
+documented contracts (the two-level `argumentFlow` schema and the
+canonical-form `sourceRefs` schema), with an offline validator for each
+wired into `validate:offline:yoma`.
+
+### Dependencies
+
+None on Phase 1 or Phase 3. Can run independently or in parallel.
+
+### Stop conditions
+
+- A `type` -> `category` mapping is ambiguous. Escalate to the operator;
+  do not guess.
+- A sourceRefs conversion cannot be shown lossless. Do not apply it; keep it
+  in the judgment-required tier.
+- Reopening Rashi content or nekudot work would be required to complete a
+  mapping. It would not be; if a plan step appears to require this, stop.
+
+---
+
+## Phase 3: Tractate-agnostic replication
+
+### Problem
+
+`docs/reports/replication-readiness.md` measured this precisely: the app and
+build layers are already module-generic (8/8 fixture checks pass, no change
+needed), but 7 shared tools at the repo root hardcode `modules/yoma`, chief
+among them `worker_pipeline.py`, whose `--module` flag is currently
+cosmetic - `YROOT` is pinned regardless of the flag's value.
+
+### Goals
+
+- Remove the seven documented Yoma-specific pipeline blockers.
+- Every command that accepts `--module` (or an equivalent parameter) actually
+  uses the selected module for every path it touches.
+- No hidden `modules/yoma` fallback remains anywhere in the parameterized
+  tools.
+
+### Required work (parameterize, in dependency order)
+
+1. Worker roots (`YROOT`, `YSCRIPTS` in `worker_pipeline.py`).
+2. Manifest generation and validation.
+3. Validators (schema, daftext, Rashi structural/content/links/repetition,
+   literal, order, boundary authorizations).
+4. Generators (`build_learning_data.py` and friends).
+5. Source acquisition (Sefaria fetch, talmud.dev cache).
+6. Daf ranges and chapter/perek metadata.
+7. Segmentation and learning-data paths.
+8. Rashi availability and behavior (a module with no Rashi layer yet must not
+   crash the pipeline).
+9. Literal-translation support.
+10. Schema validation completeness gate.
+11. Browser tests (association spec's default target daf and module
+    parameter).
+12. Generated documentation (`worker:docs`, `generate_rashi_docs.py`).
+13. Deployment assets (build.mjs already generalizes; confirm no regression).
+
+### Required proof: a synthetic fixture module
+
+Not a real second tractate. A tiny fixture (e.g. `fixturemasechet`, 1-2
+synthetic daf) that proves, end to end:
+
+- Onboarding from an empty module directory.
+- Manifest creation targets the fixture, never Yoma.
+- No fixture operation reads or writes any Yoma file (assert this directly,
+  not just observationally).
+- Source ingestion works against the fixture's own (synthetic or
+  test-fixture) data.
+- Generated data stays isolated under the fixture's own paths.
+- Schema validation runs and passes against the fixture.
+- Worker scope checks (`allowedFiles` resolution) work for the fixture's
+  module id.
+- Build succeeds with the fixture module present.
+- Browser tests pass against the fixture.
+- Documentation generation succeeds and describes the fixture correctly.
+- The entire process is executable from documented commands, with no manual
+  repo-internal knowledge required beyond what the commands themselves say.
+
+### Explicitly out of scope
+
+Starting or populating a real second tractate. The fixture module is deleted
+or kept as a permanent, clearly-labeled test fixture outside `modules/`
+proper - it is never promoted to a real tractate.
+
+### Dependencies
+
+None on Phase 1 or Phase 2. Can run independently or in parallel with either.
+
+### Stop conditions
+
+- A parameterization would require touching Yoma content or Rashi
+  associations. It should not; if it appears to, stop and reconsider the
+  approach rather than touching frozen content.
+- The fixture module accidentally reads or writes anything under
+  `modules/yoma/`. Treat as a bug in the parameterization, not an acceptable
+  edge case.
+
+---
+
+## Phase 4: Final repository closure
+
+### Required work
+
+- Scan all tracked files for TODO, FIXME, "deferred", "paused", "unknown",
+  "temporary", "in progress", "incomplete", and similar stale-claim markers.
+- Classify every result: completed, intentionally out of scope, future
+  roadmap, operator-owned, or genuine blocker. No fifth bucket.
+- Reconcile `docs/reports/open-items.md` against that classification.
+- Regenerate all worker, schema, audit, and onboarding documentation
+  (`npm run worker:docs`, `npm run generate:rashi-docs:yoma`, and any
+  Phase-3-added generators).
+- Verify no unexplained temporary or deferred state remains anywhere in the
+  classification.
+- Verify open PR and issue counts (expect 0 of each at closure).
+- Run all final gates: `validate:offline:yoma`, `npm test`,
+  `npm run test:browser`, the Phase-2 semantic validators, the Phase-3
+  fixture proof.
+- Produce `docs/reports/platform-readiness.md`, the terminal evidence
+  document.
+
+### Platform completion, defined precisely
+
+- Yoma and Rashi remain fully green (all gates above, no regression).
+- GitHub Pages serves only tested production output (Phase 1 evidence still
+  holds - re-verify, do not assume it is still true).
+- `main` is protected (Phase 1 evidence still holds).
+- All 492 sugyot are structurally and semantically schema-valid (Phase 2
+  complete).
+- `argumentFlow` and `sourceRefs` have stable, documented, validated
+  contracts (Phase 2 complete).
+- A fixture module proves module-agnostic replication (Phase 3 complete).
+- No unexplained repository debt remains (this phase's own scan, clean).
+- Onboarding the next real tractate requires selecting the tractate and
+  running documented commands - not redesigning the platform.
+
+### Dependencies
+
+Requires Phases 1, 2, and 3 all complete. Cannot start early.
+
+### Stop conditions
+
+- Any of Phases 1-3 is not actually complete when Phase 4 begins. Do not
+  paper over a gap in the closure report; report it as a remaining item.
+
+---
+
+## Operator-owned versus repository-owned actions
+
+| Action | Owner |
+|---|---|
+| GitHub Pages source setting | Operator (via this session, with API access) |
+| Branch protection / rulesets on `main` | Operator (via this session, with API access) |
+| `type` -> `category` vocabulary mapping decisions (Phase 2A) that are genuinely ambiguous | Operator |
+| Whether to convert the 331 sound sourceRefs strings at all (Phase 2B) | Operator |
+| Selecting and starting an actual second tractate | Operator, and only after Phase 3 closes |
+| Cloudways / mysugya.com configuration | Operator, out of scope for this entire plan |
+| Executing the mechanical majority of Phases 1-4 | This session, autonomously, per the constraints below |
+
+## Explicit prohibitions, restated
+
+- Do not reopen completed Rashi content work.
+- Do not perform nekudot/vowelization work in any phase.
+- Do not restore the legacy renderer or the `?rashiAssoc=legacy` selector.
+- Do not modify Yoma content or Rashi associations to satisfy any phase here.
+- Do not start or populate a real second tractate (Phase 3 uses a synthetic
+  fixture only).
+- Do not touch Cloudways configuration or treat mysugya.com as deployment
+  debt. GitHub Pages is the authoritative beta deployment throughout.
+- Do not weaken any validator, widen any allowlist, or add a baseline entry
+  to make a gate pass.
+- Do not rewrite merged `main` history or amend a GitHub squash-merge commit.
+
+## Verification lesson carried forward
+
+A single spot-check of the live site proves nothing either way about which
+publisher is currently serving (`docs/reports/open-items.md`). Phase 1's
+public-verification requirement (5+ samples over 10+ minutes) exists because
+of this, and any future re-verification of Phase 1's evidence must use the
+same standard, not a single request.
+
+## Cross-references
+
+- `docs/reports/open-items.md` - day-to-day classified inventory.
+- `docs/reports/replication-readiness.md` - Phase 3 evidence base.
+- `docs/reports/sugya-schema-readiness.md` - Phase 2A evidence base.
+- `docs/reports/source-refs-normalization-plan.md` - Phase 2B evidence base
+  and the four-PR execution plan for the judgment-required tier.
+- `docs/new-tractate-onboarding.md` - the checklist Phase 3 must make
+  fully executable without hand-adaptation.
+- `docs/reports/legacy-renderer-retirement-policy.md` - record of the
+  completed renderer retirement; not reopened by any phase here.
