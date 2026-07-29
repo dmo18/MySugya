@@ -29,7 +29,7 @@ Classification key:
 
 ---
 
-## Current verified platform state (VERSION 15.349, `main`)
+## Current verified platform state (VERSION 15.357, `main`)
 
 - Corpus: Yoma, 173 daf (2a-88a), 492 sugyot, 8,854 `rashiTranslations` and
   8,854 runtime `rashiLines`.
@@ -113,8 +113,11 @@ worker or agent should treat them as incomplete.
 
 | Item | Observed state | Action owner |
 |---|---|---|
-| `main` branch protection | **None enforced. A fix attempt was made at VERSION 15.355 and is blocked, not merely deferred.** `GET`/`POST` on `/repos/dmo18/MySugya/rulesets` show 0 rulesets configured (read succeeds, returns `[]`) but ruleset creation is refused by the environment proxy (`403 Write access to this GitHub API path is not permitted through this proxy`); the classic branch-protection endpoint refuses even the read (`403 Resource not accessible by integration` - the GitHub App token has no repository-administration scope). No `mcp__github__*` tool exposes either surface. See the explicit comparison table below and `docs/platform-closure-plan.md` Phase 1's attempt record for the full evidence. | **Operator/admin** |
-| GitHub Pages has two competing publishers | **Production intermittently serves the development shell. A fix attempt was made at VERSION 15.355 and is blocked, not merely deferred.** Two publishers write to the `github-pages` environment on every push: our `.github/workflows/deploy-pages.yml`, which uploads `dist/`, and GitHub's built-in `dynamic/pages/pages-build-deployment` branch build, which publishes the repository root. Two deployments land per commit about a minute apart and **the winner is nondeterministic**. Both outcomes were observed directly at VERSION 15.352-15.353: for `b86d7ef` the live `index.html` was byte-identical to the repository root dev shell (1,116 bytes, loading Babel standalone, the React *development* UMD builds and raw `.jsx` from unpkg) and `assets/app-15.352.js` returned 404, and it stayed that way across ten samples over ten minutes; for `0ed7008` the correct `dist/` bundle (`assets/app-15.353.js`, 742 bytes) won and held across seven samples. Our workflow always reports success in both cases: it is not failing, it is sometimes superseded. Serving the repository root violates the CLAUDE.md rule that production must serve generated `dist/`. **Fix is a repository setting**: set the Pages source to "GitHub Actions" so the branch build stops publishing. Attempted directly at VERSION 15.355: both reading and writing `/repos/dmo18/MySugya/pages` are refused by the environment's outbound proxy (`403 Access to this GitHub API path is not permitted through this proxy`), independent of any GitHub token permission. Behavioral confirmation that the setting is unchanged: `pages build and deployment` still fired on commit `0bbb86a`, which only happens when Pages source is "Deploy from a branch". A single spot-check of the live site is not sufficient evidence either way; sample repeatedly. | **Operator/admin** |
+
+Nothing currently requires operator/admin action. Both items previously
+listed here (`main` branch protection, the GitHub Pages dual-publisher race)
+were resolved by the repository owner at VERSION 15.357 and moved to
+COMPLETED below.
 
 ---
 
@@ -131,6 +134,8 @@ worker or agent should treat them as incomplete.
 | `docs-tooling` scope gap for `modules/yoma/MODULE.md` | **Resolved at VERSION 15.340** (PR #333): the single documentation path was added to `allowedFiles`, with regression tests pinning that every corpus path stays refused. |
 | Legacy renderer retirement | **Done at VERSION 15.346** by explicit operator decision. The legacy vilnaLine branch, the `?rashiAssoc` selector, and the legacy map/state were removed; `linkedGemaraLineIds` is the only association mechanism. A leftover `?rashiAssoc` value of any kind is ignored and renders linked. See `docs/reports/legacy-renderer-retirement-policy.md` (now closed). |
 | 7a, 9b corrections | 7a realignment (53 entries, PR #326); 9b full reconstruction (41 entries, PR #327). |
+| `main` branch protection | **Resolved at VERSION 15.357** (Phase 1 of `docs/platform-closure-plan.md`, operator-configured). Confirmed by direct API read-back of repository ruleset `19991220`: applies to `refs/heads/main`, enforcement active, PR required, 0 mandatory approving reviews (none added beyond what the owner configured), squash/merge/rebase all still allowed, required status check exactly `build`, strict/up-to-date enforcement true, force pushes and branch deletion both blocked, `current_user_can_bypass: "never"` with no bypass actors listed. Full table in the plan document's Phase 1 completion record. |
+| GitHub Pages dual-publisher race | **Resolved at VERSION 15.357** (Phase 1 of `docs/platform-closure-plan.md`, operator-configured). The Pages configuration endpoint itself remains unreadable from any session (environment proxy blocks `/repos/.../pages` unconditionally), so this is confirmed behaviorally and via live checks rather than by reading the setting's value directly: five cache-busted public checks spaced across a 9-minute window all served the identical `assets/app-15.356.js` at HTTP 200 with zero development-loader tokens, and the merge of the Phase 1 evidence PR (a real push to `main`) produced no competing `pages build and deployment` run against the merge commit. See the plan document's Phase 1 completion record for the full evidence chain, including the prior directly-observed defect this resolves (VERSION 15.352-15.353, both outcomes of the race caught live). |
 
 ### Worker queue: completed, with an explained derived status
 
@@ -199,28 +204,25 @@ derivation window has moved past it.*
 
 ---
 
-## Branch protection: recommended vs actual (VERSION 15.341)
+## Branch protection: recommended vs actual (VERSION 15.357, resolved)
 
-Read from the public GitHub API (`/branches/main` and `/rulesets`). Every
-recommendation in `docs/worker-pipeline.md` is currently unenforced:
+**Superseded.** As of VERSION 15.341 every recommendation below was
+unenforced; as of **VERSION 15.357** the repository owner configured
+ruleset `19991220` and every recommendation is now enforced, confirmed by a
+direct API read-back rather than inferred:
 
-| Recommendation | Actual state |
-|---|---|
-| Require a pull request before merging | **Not enforced** (`protected: false`) |
-| Require status checks to pass (`build`) | **Not enforced** (enforcement `off`, zero contexts) |
-| Require branches up to date before merging | **Not enforced** |
-| Block force pushes | **Not enforced** |
-| Restrict deletions | **Not enforced** |
-| Restrict who can bypass | **Not enforced** (zero rulesets) |
+| Recommendation | State at 15.341 | State at 15.357 |
+|---|---|---|
+| Require a pull request before merging | Not enforced (`protected: false`) | **Enforced** (`pull_request` rule active) |
+| Require status checks to pass (`build`) | Not enforced (enforcement `off`, zero contexts) | **Enforced** (`required_status_checks`, context exactly `build`) |
+| Require branches up to date before merging | Not enforced | **Enforced** (`strict_required_status_checks_policy: true`) |
+| Block force pushes | Not enforced | **Enforced** (`non_fast_forward` rule) |
+| Restrict deletions | Not enforced | **Enforced** (`deletion` rule) |
+| Restrict who can bypass | Not enforced (zero rulesets) | **Enforced** (`current_user_can_bypass: "never"`, no bypass actors) |
 
-**Classification: UNKNOWN-OPERATOR, admin action, not a code defect.** These
-are repository settings that cannot be changed from repository code, and this
-campaign did not change them. Note that in practice the campaign has been
-following the recommended discipline voluntarily (every change through a PR,
-merged only on exact-head green `build`), so the gap is between policy and
-enforcement, not between policy and behavior. An unauthenticated read cannot
-observe org-level overrides; an admin should confirm from repository
-settings.
+**Classification: COMPLETED.** This was an operator/admin action; no
+repository code change was possible or made. Full ruleset detail in
+`docs/platform-closure-plan.md`'s Phase 1 completion record.
 
 ## Legacy renderer retirement
 
