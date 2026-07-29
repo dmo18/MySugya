@@ -1,8 +1,23 @@
 # argumentFlow sourceRefs: canonical schema, defect inventory, migration plan
 
-**Status: ANALYSIS COMPLETE, MIGRATION NOT APPLIED.**
+**Status update (VERSION 15.360, Phase 2 Step 4 of
+`docs/platform-closure-plan.md`): PR 3 (the 412 mechanical repairs) is
+APPLIED.** `apply_sourcerefs_mechanical_repair.py` rewrote exactly one field
+(`lineId`) on exactly 412 refs across 52 daf, proven byte-for-byte surgical
+(412 insertions/412 deletions, every changed line a `"lineId"` line,
+confirmed by `git diff`) and proven lossless before writing via the existing
+preview tool's `losslessness_report()`. Post-write, the corpus classifier
+confirms `OBJECT_DANGLING_REPAIRABLE` reached exactly 0 with every other
+class's count unchanged. **138 judgment-required refs remain** (88
+`OBJECT_COORDINATE_CONFLICT` + 50 `OBJECT_DANGLING_AMBIGUOUS`) - PRs 1 and 2
+below, still not applied. The original analysis below (written before PR 3
+applied) is preserved as the historical record of the defect inventory and
+is still accurate for the remaining 138; only the "not applied" framing for
+the mechanical subset is superseded.
 
-The normalization pass is blocked. 412 of 550 defective refs can be repaired
+**Original status: ANALYSIS COMPLETE, MIGRATION NOT APPLIED.**
+
+The normalization pass was blocked. 412 of 550 defective refs can be repaired
 mechanically, but 469 refs cannot be settled from repository data alone, and
 applying only the mechanical subset would leave the corpus in a half-migrated
 state that is harder to reason about than the current one. The blockers, the
@@ -95,7 +110,7 @@ The `mishnah`/`mishna` vocabulary split should be settled as part of the
 migration, but it is a controlled-values decision, not a mechanical one, and
 belongs in the same PR that touches those refs.
 
-## Current inventory
+## Original inventory (before PR 3)
 
 173 files, 1,953 argumentFlow steps, **1,981 sourceRefs elements**.
 
@@ -110,6 +125,19 @@ belongs in the same PR that touches those refs.
 **1,431 sound, 550 defective, across 102 daf.** No ref is malformed,
 cross-daf, unparseable, or missing a `vilnaLine`: every defect is a
 resolvable-in-principle coordinate problem.
+
+## Current inventory (after PR 3)
+
+| class | count | sound? |
+|---|---|---|
+| `OK` | 1,512 | yes |
+| `STRING_RESOLVABLE` | 331 | yes |
+| `OBJECT_DANGLING_REPAIRABLE` | 0 | (was 412; now applied) |
+| `OBJECT_COORDINATE_CONFLICT` | 88 | no, judgment |
+| `OBJECT_DANGLING_AMBIGUOUS` | 50 | no, judgment |
+
+**1,843 sound, 138 defective, across 73 daf.** Only judgment-required
+refs remain (PRs 1 and 2).
 
 ### `OBJECT_DANGLING_REPAIRABLE` (412 refs, 52 daf) - mechanical
 
@@ -202,10 +230,18 @@ Judgment work, smaller but denser: pick the correct sub-line for each, including
 the six-way `52b` case. Deliverable: zero `OBJECT_DANGLING_AMBIGUOUS`.
 
 **PR 3 - apply the 412 mechanical repairs** (`structural-repair`, 52 daf).
-Generated from `preview_source_refs_migration.py`, reviewed against its
-per-ref evidence. Runs last among the repairs so that by this point a dangling
-id unambiguously means legacy drift. Deliverable: zero
-`OBJECT_DANGLING_REPAIRABLE`.
+**APPLIED.** Generated from `preview_source_refs_migration.py`, applied by
+`apply_sourcerefs_mechanical_repair.py`, which detects each file's exact
+pre-existing JSON serialization (the corpus is not uniformly formatted: 163
+files use `indent=1`, 8 use `indent=2`) and refuses to touch a file it
+cannot reproduce byte-for-byte, so the diff touches only the repaired field.
+Originally planned to run last so a remaining dangling id would unambiguously
+mean legacy drift; run first instead, since `OBJECT_DANGLING_REPAIRABLE`,
+`OBJECT_DANGLING_AMBIGUOUS`, and `OBJECT_COORDINATE_CONFLICT` are mutually
+exclusive classes with no interaction between them, so the original ordering
+rationale was about interpretive convenience, not a correctness dependency.
+Deliverable: zero `OBJECT_DANGLING_REPAIRABLE` - confirmed by the post-write
+corpus classification.
 
 **PR 4 - decide the string refs and close the gate** (`structural-repair` +
 `docs-tooling`, 30 daf). Two decisions, both operator-level:
