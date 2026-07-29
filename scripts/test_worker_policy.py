@@ -103,6 +103,92 @@ def test_docs_tooling_scope_boundaries():
         check(f"docs-tooling still refuses {path}", not wp.file_allowed(path, spec, []))
 
 
+
+
+def test_boundary_authorized_empty_links():
+    """The conditional-review gate must accept an empty linkedGemaraLineIds
+    ONLY when the boundary registry authorizes it AND the self-review
+    declares it, in both directions. Exercises the real shared helper
+    (validate_rashi_boundary_authorizations.authorized_empty_vilna_lines)
+    against synthetic registries and corpora, so the gate can never drift
+    from the canonical registry validation it delegates to."""
+    print("boundary-authorized empty links:")
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        "vrba", REPO / "modules/yoma/scripts/validate_rashi_boundary_authorizations.py")
+    vrba = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(vrba)
+
+    def auth(daf, vl, en):
+        return {"daf": daf, "vilnaLine": vl, "reason": "daf-boundary truncation",
+                "evidenceClassification": "daf-boundary-truncation",
+                "boundaryRule": "cross-daf links prohibited",
+                "enFingerprint": vrba.fingerprint(en)}
+
+    def entry(en, linked=None):
+        return {"en": en, "linkedGemaraLineIds": list(linked or [])}
+
+    # --- real 4b L61 and all nineteen 61a authorized empties ---
+    real_entries = vrba.load_registry_entries()
+    real_corpus = vrba.load_corpus()
+    vl4b, err4b = vrba.authorized_empty_vilna_lines("4b", real_entries, real_corpus)
+    check("4b L61 authorized empty passes", 61 in vl4b and not err4b)
+    vl61a, err61a = vrba.authorized_empty_vilna_lines("61a", real_entries, real_corpus)
+    check("all nineteen 61a authorized empties pass",
+          vl61a == set(range(46, 65)) and len(vl61a) == 19 and not err61a)
+
+    # --- an identical empty entry WITHOUT registry authorization ---
+    corpus = {("4b", 61): entry("stub"), ("4b", 60): entry("also empty")}
+    got, errs = vrba.authorized_empty_vilna_lines("4b", [auth("4b", 61, "stub")], corpus)
+    check("unauthorized empty entry is not authorized", 60 not in got and bool(errs))
+
+    # --- stale fingerprint ---
+    got, errs = vrba.authorized_empty_vilna_lines(
+        "4b", [auth("4b", 61, "ORIGINAL")], {("4b", 61): entry("EDITED")})
+    check("stale fingerprint fails", got == set() and any("stale" in e for e in errs))
+
+    # --- duplicate registry record ---
+    got, errs = vrba.authorized_empty_vilna_lines(
+        "4b", [auth("4b", 61, "stub"), auth("4b", 61, "stub")], {("4b", 61): entry("stub")})
+    check("duplicate registry record fails", got == set() and any("duplicate" in e for e in errs))
+
+    # --- registry record for a missing entry ---
+    got, errs = vrba.authorized_empty_vilna_lines(
+        "4b", [auth("4b", 999, "ghost"), auth("4b", 61, "stub")], {("4b", 61): entry("stub")})
+    check("registry record for a nonexistent entry fails",
+          got == set() and any("does not exist" in e for e in errs))
+
+    # --- an authorized entry changed to NONEMPTY ---
+    got, errs = vrba.authorized_empty_vilna_lines(
+        "4b", [auth("4b", 61, "stub")], {("4b", 61): entry("stub", ["yoma-004b-l47"])})
+    check("authorized entry that became nonempty fails registry validation",
+          got == set() and any("no longer empty-linked" in e for e in errs))
+
+    # --- gate-level agreement between registry and self-review ---
+    def gate(empty, authorized, declared, illegal=(), registry_errors=()):
+        """Mirrors the gate's own boolean, kept in lockstep with
+        worker_pipeline.py's condition so the semantics are asserted here."""
+        empty_set = set(empty); auth_set = set(authorized); decl = set(declared)
+        unauthorized = empty_set - auth_set
+        undeclared = empty_set - decl
+        overclaimed = decl - (empty_set & auth_set)
+        return (not illegal and not registry_errors and not unauthorized
+                and not undeclared and not overclaimed)
+
+    check("authorized + declared empty passes", gate([61], [61], [61]))
+    check("empty entry missing from self-review authorizedEmptyLinks fails",
+          not gate([61], [61], []))
+    check("extra self-review authorizedEmptyLinks claim fails",
+          not gate([61], [61], [61, 60]))
+    check("self-review claim for a nonempty entry fails", not gate([], [61], [61]))
+    check("ordinary daf with all legal nonempty links still passes",
+          gate([], [], []))
+    check("broken or cross-daf nonempty link still fails",
+          not gate([], [], [], illegal=["yoma-005a-l01"]))
+    check("registry-wide error blocks every empty entry",
+          not gate([61], [], [61], registry_errors=["stale"]))
+
+
 def test_pure_policy():
     print("pure auto-merge policy:")
     all_true = {k: True for k in wp.REVIEW_CONDITIONS}
@@ -504,7 +590,7 @@ def test_evidence_tiers():
     check("10. zero-anchor claim with incomplete self-review fails", not ok10)
 
     # 11. Zero-anchor claim with an unjustified link: covered structurally by
-    # the pre-existing, untouched all-links-legal-and-nonempty and
+    # the all-links-legal-and-empty-links-authorized and
     # packet-contains-every-linked-local-id conditions (semantic
     # justification of a link is a self-review matter, not machine-derivable
     # from a link id alone); confirm those conditions still gate
@@ -1312,6 +1398,7 @@ def main():
     test_structural_deferral_in_scope_validator()
     test_no_direct_main_push_anywhere()
     test_docs_tooling_scope_boundaries()
+    test_boundary_authorized_empty_links()
     if FAILURES:
         print(f"\nFAILED: {len(FAILURES)} check(s): {FAILURES}")
         sys.exit(1)

@@ -283,7 +283,22 @@ AUTO-MERGE-ELIGIBLE or ESCALATE with the exact failed conditions:
    maxCount/skeleton modified and no unrelated daf touched
 10. packet-contains-every-linked-local-id: the live packet segment
     table (Gemara AND Mishnah kinds) contains every linked id
-11. all-links-legal-and-nonempty: every entry links to legal local ids
+11. all-links-legal-and-empty-links-authorized: every NONEMPTY entry
+    links only to legal local ids (exact id, same daf, present in the
+    packet segment table). An EMPTY linkedGemaraLineIds is legal only for
+    an entry the boundary registry authorizes: a Rashi comment whose
+    Gemara content is truncated at the daf's last line and completes on
+    the next daf has no valid same-daf target, and cross-daf links are
+    prohibited. Such an entry passes only when the whole registry
+    validates (via validate_rashi_boundary_authorizations.py's own
+    authorized_empty_vilna_lines helper, never a second reading of the
+    file), AND the worker declares it in the fresh self-review's
+    authorizedEmptyLinks. Registry and declaration must agree exactly in
+    both directions: an authorized empty entry omitted from the
+    self-review fails, and a self-review claim not backed by an actually
+    empty, registry-authorized entry fails. Any stale, duplicate,
+    nonexistent-entry, now-nonempty, or over-ratchet authorization
+    anywhere in the registry makes every empty entry read unauthorized.
 12. drift-profile-ALIGNED: for rashi-reconstruction/rashi-realignment,
    evaluated by a source-relative citation-evidence policy with three
    tiers, chosen by how many genuine detectable citations exist in the

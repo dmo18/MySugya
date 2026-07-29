@@ -1201,7 +1201,7 @@ REVIEW_CONDITIONS = (
     "repetition-clean-on-target",
     "repetition-baseline-shrink-only",
     "packet-contains-every-linked-local-id",
-    "all-links-legal-and-nonempty",
+    "all-links-legal-and-empty-links-authorized",
     "drift-profile-ALIGNED",
     "semantic-audit-zero-shift-candidates",
     "no-stub-or-duplicate-helpers",
@@ -1563,11 +1563,52 @@ def gather_review_conditions(m, spec, base):
     empty = [e["vilnaLine"] for e in entries if not e.get("linkedGemaraLineIds")]
     illegal = sorted(used - table)
     conditions["packet-contains-every-linked-local-id"] = bool(table) and not illegal
-    conditions["all-links-legal-and-nonempty"] = bool(entries) and not illegal and not empty
     if illegal:
         notes.append(f"linked ids not in the packet segment table: {illegal}")
-    if empty:
-        notes.append(f"entries with empty linkedGemaraLineIds: {empty}")
+
+    # Empty linkedGemaraLineIds are legal ONLY for entries the boundary
+    # registry authorizes (a Rashi comment whose Gemara content is truncated
+    # at the daf's last line and completes on the next daf has no valid
+    # same-daf target, and cross-daf links are prohibited). The authoritative
+    # answer comes from the canonical validator via
+    # authorized_empty_vilna_lines, never from a second reading of the
+    # registry here: any stale, duplicate, nonexistent-entry, now-nonempty,
+    # or over-ratchet authorization anywhere in the registry collapses that
+    # helper to an empty set, so every empty entry then reads unauthorized.
+    #
+    # The worker must ALSO declare each one in the fresh self-review's
+    # authorizedEmptyLinks, and may not claim any that is not both actually
+    # empty and registry-authorized. Registry and declaration must agree
+    # exactly, in both directions.
+    self_review = None
+    if SELF_REVIEW_PATH.exists():
+        try:
+            self_review = json.loads(SELF_REVIEW_PATH.read_text())
+        except json.JSONDecodeError:
+            self_review = None
+
+    import validate_rashi_boundary_authorizations as vrba
+    authorized_vl, registry_errors = vrba.authorized_empty_vilna_lines(target)
+    declared_vl = {a.get("vilnaLine") for a in (self_review or {}).get("authorizedEmptyLinks", [])
+                   if isinstance(a, dict)}
+    empty_set = set(empty)
+    unauthorized = sorted(empty_set - authorized_vl)
+    undeclared = sorted(empty_set - declared_vl)
+    overclaimed = sorted(declared_vl - (empty_set & authorized_vl))
+    conditions["all-links-legal-and-empty-links-authorized"] = (
+        bool(entries) and not illegal and not registry_errors
+        and not unauthorized and not undeclared and not overclaimed
+    )
+    for e in registry_errors:
+        notes.append(f"boundary registry invalid: {e}")
+    if unauthorized:
+        notes.append(f"empty linkedGemaraLineIds with no boundary authorization: {unauthorized}")
+    if undeclared:
+        notes.append(f"authorized empty entries missing from self-review authorizedEmptyLinks: {undeclared}")
+    if overclaimed:
+        notes.append(f"self-review authorizedEmptyLinks claims not backed by an empty, registry-authorized entry: {overclaimed}")
+    if empty and not (unauthorized or undeclared or overclaimed or registry_errors):
+        notes.append(f"empty linkedGemaraLineIds authorized by the boundary registry and declared: {sorted(empty_set)}")
 
     # Post-edit drift: realignment/reconstruction must restore full
     # alignment (ALIGNED, tightened to zero missing anchors and all
@@ -1578,13 +1619,7 @@ def gather_review_conditions(m, spec, base):
     # classification itself and never accepts SHIFTED or
     # FABRICATION-SUSPECT.
     prof = ars.profile_daf(target, ars.load_allowlisted())
-    sr_for_drift = None
-    if SELF_REVIEW_PATH.exists():
-        try:
-            sr_for_drift = json.loads(SELF_REVIEW_PATH.read_text())
-        except json.JSONDecodeError:
-            sr_for_drift = None
-    ok, extra_key, note = drift_ok_for_type(m["type"], target, prof, sr_for_drift, entries)
+    ok, extra_key, note = drift_ok_for_type(m["type"], target, prof, self_review, entries)
     conditions["drift-profile-ALIGNED"] = ok
     if extra_key:
         conditions[extra_key] = ok
