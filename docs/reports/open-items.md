@@ -23,7 +23,7 @@ Classification key:
 
 ---
 
-## Current verified platform state (VERSION 15.338, `ef58878`)
+## Current verified platform state (VERSION 15.349, `main`)
 
 - Corpus: Yoma, 173 daf (2a-88a), 492 sugyot, 8,854 `rashiTranslations` and
   8,854 runtime `rashiLines`.
@@ -68,6 +68,9 @@ per-shard test-count arithmetic reproduced from first principles.
 |---|---|
 | Rashi translation-quality audit coverage | The corpus-wide translation-quality (not scaffold, not association) audit is not yet complete for every daf. A git-history-grounded coverage map exists in `docs/rashi-audit-backlog.md` but predates the 7a/9b repairs and the post-15.293 work. Reconstructing an exact per-daf audited/unaudited/uncertain list is the next actionable step. |
 
+| `argumentFlow.type` controlled vocabulary | **User-visible defect awaiting an operator decision.** `schema_map.js` declares the field required and canonical over 13 values; the corpus uses 106 more across 1,320 of 1,953 steps (417/492 sugyot, 163/173 daf). `app.jsx` does `STEP_META[s.type] \|\| STEP_META.question`, so all 1,320 render to learners as "Question" with the wrong Hebrew term and symbol. `ruling`, the most common type at 515 steps, is shown as a Question. Two mutually exclusive fixes, both editorial. See `docs/reports/sugya-schema-readiness.md`. |
+| Replication tooling parameterization | 7 shared tools at the repo root hardcode `modules/yoma`, chief among them `worker_pipeline.py`, whose `--module` flag is cosmetic because `YROOT` is pinned. Blocks any second tractate from using the worker pipeline. Not urgent while Yoma is the only module. See `docs/reports/replication-readiness.md`. |
+
 Nothing else is currently blocked on code.
 
 ---
@@ -76,8 +79,19 @@ Nothing else is currently blocked on code.
 
 | Item | Why paused | Unblocking condition |
 |---|---|---|
-| Nekudot / vowelization audit of `he:` fields | Task type `nekudot` is `paused: true` in `scripts/worker_task_types.json`; no validator exists, so there is no way to distinguish a real vowelization defect from a legitimate variant. `validate_rashi_yoma` checks alignment only, never nekudot. | A read-only audit tool with defined normalization rules and machine-readable output, then explicit operator authorization to unpause. No `rashiTranslations[*].he` edit is authorized until then. |
 | `argumentFlow.sourceRefs` normalization | **Unblocked as tooling, now blocked on content judgment.** The canonical schema, validator (`npm run validate:sourcerefs:yoma`), unit tests, and dry-run migration preview (`npm run preview:sourcerefs:yoma`) all exist as of VERSION 15.347. The migration is still not applied: of 550 defective refs across 102 daf, 412 are mechanically repairable with all losslessness invariants passing, but 138 need a human reading the step text against the Gemara, and the 331 sound string refs cannot be converted without inventing a `sourceType`. Full inventory and four-PR plan: `docs/reports/source-refs-normalization-plan.md`. | Operator authorization for the judgment PRs (plan PRs 1 and 2), which are `structural-repair` scope. Nothing renders `sourceRefs` today, so nothing is blocked on it. |
+
+---
+
+## OUT-OF-SCOPE (intentional, not paused, not backlog)
+
+These are settled decisions. They are not work waiting for a trigger, and no
+worker or agent should treat them as incomplete.
+
+| Item | Decision |
+|---|---|
+| Nekudot / vowelization of `he:` fields | **Intentionally out of project scope.** Not paused work, not a backlog item, and not a gap in the Yoma campaign. No nekudot audit, no nekudot validator design, and no unpausing of the `nekudot` task type is authorized. The type remains `paused: true` in `scripts/worker_task_types.json` as a guard, not as a queued item. `validate_rashi.py` checks Hebrew alignment only and that is the intended scope. No `rashiTranslations[*].he` edit is authorized on vowelization grounds. Reopening this requires an explicit operator decision that changes project scope. |
+| mysugya.com / Cloudways deployment | GitHub Pages is the authoritative beta deployment. The custom domain serving an older bundle is **not** stale deployment debt and is not to be repaired by this campaign. |
 
 ---
 
@@ -85,7 +99,7 @@ Nothing else is currently blocked on code.
 
 | Item | Detail |
 |---|---|
-| Additional tractates (all non-Yoma) | Product roadmap, **not** incomplete Yoma work. No module exists for any other tractate and none should be started without operator selection. Prerequisites are listed in `docs/new-tractate-onboarding.md`. |
+| Additional tractates (all non-Yoma) | Product roadmap, **not** incomplete Yoma work. No module exists for any other tractate and none should be started without operator selection. Prerequisites are listed in `docs/new-tractate-onboarding.md`; the definitive, evidence-backed checklist is `docs/reports/replication-readiness.md`. |
 
 ---
 
@@ -94,7 +108,6 @@ Nothing else is currently blocked on code.
 | Item | Observed state | Action owner |
 |---|---|---|
 | `main` branch protection | **None enforced.** See the explicit comparison table below. | **Operator/admin** |
-| mysugya.com / Cloudways | Observed serving an older bundle than GitHub Pages. **Intentionally out of scope**: GitHub Pages is the authoritative beta deployment. Not a blocker and not to be repaired by this campaign. | Operator, if and when the custom domain is promoted. |
 
 ---
 
