@@ -56,7 +56,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14a-l01",
+       "lineId": "yoma-014a-l01",
        "vilnaLine": 1,
        "note": "Rava's revised reading of kol hayom"
       }
@@ -71,7 +71,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14a-l01",
+       "lineId": "yoma-014a-l01",
        "vilnaLine": 1,
        "note": "Rav Adda's challenge"
       }
@@ -86,7 +86,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14a-l01",
+       "lineId": "yoma-014a-l01",
        "vilnaLine": 1,
        "note": "Resolution via contextual distinction"
       }
@@ -101,7 +101,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14a-l02",
+       "lineId": "yoma-014a-l10",
        "vilnaLine": 10,
        "note": "Distraction as independent disqualifier"
       }
@@ -238,7 +238,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14a-l03",
+       "lineId": "yoma-014a-l12",
        "vilnaLine": 12,
        "note": "The mishna's ruling"
       }
@@ -406,7 +406,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14a-l04",
+       "lineId": "yoma-014a-l17",
        "vilnaLine": 17,
        "note": "Mishna cannot be R. Akiva"
       }
@@ -421,7 +421,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14a-l05",
+       "lineId": "yoma-014a-l20",
        "vilnaLine": 20,
        "note": "R. Akiva's ruling stated"
       }
@@ -436,7 +436,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14a-l06",
+       "lineId": "yoma-014a-l24",
        "vilnaLine": 24,
        "note": "Chakhamim's interpretation"
       }
@@ -451,7 +451,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14a-l07",
+       "lineId": "yoma-014a-l28",
        "vilnaLine": 28,
        "note": "Baraita alignment with R. Akiva"
       }
@@ -466,31 +466,31 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14a-l08",
+       "lineId": "yoma-014a-l33",
        "vilnaLine": 33,
        "note": "Who impurifies whom"
       },
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14a-l09",
+       "lineId": "yoma-014a-l36",
        "vilnaLine": 36,
        "note": "Water on body vs. water in vessel"
       },
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14a-l10",
+       "lineId": "yoma-014a-l39",
        "vilnaLine": 39,
        "note": "Minimum quantity question"
       },
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14a-l11",
+       "lineId": "yoma-014a-l41",
        "vilnaLine": 41,
        "note": "Resolution of quantity question"
       },
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14a-l12",
+       "lineId": "yoma-014a-l47",
        "vilnaLine": 47,
        "note": "Further analysis"
       }

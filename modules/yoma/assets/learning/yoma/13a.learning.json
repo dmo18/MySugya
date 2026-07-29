@@ -56,7 +56,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13a-l01",
+       "lineId": "yoma-013a-l01",
        "vilnaLine": 1,
        "note": "Core ruling"
       }
@@ -71,7 +71,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13a-l02",
+       "lineId": "yoma-013a-l04",
        "vilnaLine": 4,
        "note": "Challenge to Rav's statement"
       }
@@ -86,7 +86,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13a-l02",
+       "lineId": "yoma-013a-l04",
        "vilnaLine": 4,
        "note": "Tzarah analogy and its rejection"
       }
@@ -232,7 +232,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13a-l03",
+       "lineId": "yoma-013a-l05",
        "vilnaLine": 5,
        "note": "R. Yehuda's position"
       }
@@ -247,7 +247,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13a-l04",
+       "lineId": "yoma-013a-l08",
        "vilnaLine": 8,
        "note": "Rabbanan's objection"
       }
@@ -262,7 +262,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13a-l05",
+       "lineId": "yoma-013a-l12",
        "vilnaLine": 12,
        "note": "Asymmetry resolved"
       }
@@ -434,7 +434,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13a-l06",
+       "lineId": "yoma-013a-l15",
        "vilnaLine": 15,
        "note": "First conditional formula"
       }
@@ -449,7 +449,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13a-l07",
+       "lineId": "yoma-013a-l20",
        "vilnaLine": 20,
        "note": "Second conditional formula"
       }
@@ -464,7 +464,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13a-l08",
+       "lineId": "yoma-013a-l23",
        "vilnaLine": 23,
        "note": "Third formula rejected: not keritut"
       }
@@ -479,19 +479,19 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13a-l09",
+       "lineId": "yoma-013a-l25",
        "vilnaLine": 25,
        "note": "Formulas 4-5"
       },
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13a-l10",
+       "lineId": "yoma-013a-l27",
        "vilnaLine": 27,
        "note": "Formulas 6-7"
       },
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13a-l12",
+       "lineId": "yoma-013a-l32",
        "vilnaLine": 32,
        "note": "Final attempts"
       }

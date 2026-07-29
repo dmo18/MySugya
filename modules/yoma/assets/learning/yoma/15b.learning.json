@@ -51,7 +51,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-15b-l01",
+       "lineId": "yoma-015b-l01",
        "vilnaLine": 1,
        "note": "Resolution of the tohoro question"
       }
@@ -177,7 +177,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-15b-l02",
+       "lineId": "yoma-015b-l02",
        "vilnaLine": 2,
        "note": "First question about corner order"
       }
@@ -192,7 +192,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-15b-l05",
+       "lineId": "yoma-015b-l05",
        "vilnaLine": 5,
        "note": "Resolution: tamid is inherently an olah"
       }
@@ -207,7 +207,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-15b-l05",
+       "lineId": "yoma-015b-l05",
        "vilnaLine": 5,
        "note": "Second question: northeast corner lacks yesod"
       }
@@ -222,7 +222,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-15b-l09",
+       "lineId": "yoma-015b-l09",
        "vilnaLine": 9,
        "note": "Resolution of the yesod problem"
       }
@@ -360,7 +360,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-15b-l14",
+       "lineId": "yoma-015b-l14",
        "vilnaLine": 14,
        "note": "Directional question about the verse equation"
       }
@@ -481,7 +481,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-15b-l19",
+       "lineId": "yoma-015b-l19",
        "vilnaLine": 19,
        "note": "Yoma's location for the Chamber"
       }
@@ -496,7 +496,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-15b-l26",
+       "lineId": "yoma-015b-l26",
        "vilnaLine": 26,
        "note": "Middot's contradictory placement"
       }
@@ -511,7 +511,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-15b-l30",
+       "lineId": "yoma-015b-l30",
        "vilnaLine": 30,
        "note": "Rav Huna's authorship claim sets up 16a"
       }

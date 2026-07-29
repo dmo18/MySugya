@@ -75,7 +75,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-18a-l01",
+       "lineId": "yoma-018a-l01",
        "vilnaLine": 1,
        "note": "Abaye's Rabbanan reading"
       }
@@ -90,7 +90,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-18a-l04",
+       "lineId": "yoma-018a-l04",
        "vilnaLine": 4,
        "note": "Rava's Rabbi reading"
       }
@@ -105,7 +105,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-18a-l07",
+       "lineId": "yoma-018a-l07",
        "vilnaLine": 7,
        "note": "Unresolved mishna contradiction"
       }
@@ -120,7 +120,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-18a-l09",
+       "lineId": "yoma-018a-l09",
        "vilnaLine": 9,
        "note": "Mishna: seven-day preparation begins"
       }
@@ -135,7 +135,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-18a-l10",
+       "lineId": "yoma-018a-l10",
        "vilnaLine": 10,
        "note": "Animal parade for KG recognition"
       }
@@ -150,7 +150,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-18a-l11",
+       "lineId": "yoma-018a-l11",
        "vilnaLine": 11,
        "note": "Why showing the goats is not problematic"
       }
@@ -300,7 +300,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-18a-l12",
+       "lineId": "yoma-018a-l12",
        "vilnaLine": 12,
        "note": "Daily service-reading preparation"
       }
@@ -315,7 +315,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-18a-l17",
+       "lineId": "yoma-018a-l17",
        "vilnaLine": 17,
        "note": "First vs Second Temple KG selection"
       }
@@ -330,7 +330,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-18a-l18",
+       "lineId": "yoma-018a-l18",
        "vilnaLine": 18,
        "note": "Maratha bat Baytus narrative"
       }
@@ -345,7 +345,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-18a-l21",
+       "lineId": "yoma-018a-l21",
        "vilnaLine": 21,
        "note": "Goats excluded from KG's parade"
       }
@@ -360,7 +360,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-18a-l23",
+       "lineId": "yoma-018a-l23",
        "vilnaLine": 23,
        "note": "Dietary restrictions to prevent emission"
       }
@@ -375,7 +375,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-18a-l25",
+       "lineId": "yoma-018a-l25",
        "vilnaLine": 25,
        "note": "Pre-Yom Kippur specific foods"
       }
@@ -390,7 +390,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-18a-l28",
+       "lineId": "yoma-018a-l28",
        "vilnaLine": 28,
        "note": "Mnemonic for emission-causing foods"
       }
@@ -534,7 +534,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-18a-l29",
+       "lineId": "yoma-018a-l29",
        "vilnaLine": 29,
        "note": "List of five emission-causing foods"
       }
@@ -549,7 +549,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-18a-l31",
+       "lineId": "yoma-018a-l31",
        "vilnaLine": 31,
        "note": "Arugula's dual properties"
       }
@@ -564,7 +564,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-18a-l35",
+       "lineId": "yoma-018a-l35",
        "vilnaLine": 35,
        "note": "Oness question for emission"
       }
@@ -579,7 +579,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-18a-l39",
+       "lineId": "yoma-018a-l39",
        "vilnaLine": 39,
        "note": "Resolution: emission-foods = not oness"
       }

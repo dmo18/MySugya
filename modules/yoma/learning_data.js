@@ -16326,7 +16326,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-007b-l09",
+                lineId: "yoma-007b-l08",
                 vilnaLine: 9,
                 note: "R. Shimon's deflection; hutrah vs. dchuya implication"
               }
@@ -16341,7 +16341,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-007b-l10",
+                lineId: "yoma-007b-l08",
                 vilnaLine: 10,
                 note: "Dchuya/hutrah positions inferred from the exchange"
               }
@@ -17000,7 +17000,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-008a-l09",
+                lineId: "yoma-008a-l08",
                 vilnaLine: 9,
                 note: "'ראוי למצח' principle derived"
               }
@@ -17030,7 +17030,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-008a-l12",
+                lineId: "yoma-008a-l11",
                 vilnaLine: 12,
                 note: "R. Yehuda's 'mitzcho/mitzcho' doubling derivation"
               }
@@ -17244,7 +17244,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-008a-l25",
+                lineId: "yoma-008a-l23",
                 vilnaLine: 25,
                 note: "Second hypothesis: tevila bizmana mitzva"
               }
@@ -17259,7 +17259,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-008a-l29",
+                lineId: "yoma-008a-l28",
                 vilnaLine: 29,
                 note: "Second hypothesis rejected by cross-tractate source"
               }
@@ -17274,7 +17274,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-008a-l34",
+                lineId: "yoma-008a-l32",
                 vilnaLine: 34,
                 note: "Correct resolution: equating hazaah to tevila"
               }
@@ -17996,7 +17996,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-008b-l05",
+                lineId: "yoma-008b-l04",
                 vilnaLine: 5,
                 note: "R. Yosei's challenge about day 4"
               }
@@ -19250,7 +19250,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-009a-l03",
+                lineId: "yoma-009a-l02",
                 vilnaLine: 3,
                 note: "Burden of proof for maaser rishon and ani"
               }
@@ -20023,7 +20023,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-009b-l03",
+                lineId: "yoma-009b-l02",
                 vilnaLine: 3,
                 note: "Bizayon kodashim scene detailed"
               }
@@ -27020,7 +27020,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-12b-l01",
+                lineId: "yoma-012b-l01",
                 vilnaLine: 1,
                 note: "Service initiates the replacement KG"
               }
@@ -27166,7 +27166,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-12b-l02",
+                lineId: "yoma-012b-l04",
                 vilnaLine: 4,
                 note: "Opening the belt dispute"
               }
@@ -27181,7 +27181,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-12b-l03",
+                lineId: "yoma-012b-l06",
                 vilnaLine: 6,
                 note: "Rav Dimi's tradition"
               }
@@ -27196,7 +27196,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-12b-l08",
+                lineId: "yoma-012b-l22",
                 vilnaLine: 22,
                 note: "Ravin clarifies positions"
               }
@@ -27211,7 +27211,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-12b-l09",
+                lineId: "yoma-012b-l26",
                 vilnaLine: 26,
                 note: "Baraita support for Rabbi"
               }
@@ -27355,7 +27355,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-12b-l11",
+                lineId: "yoma-012b-l31",
                 vilnaLine: 31,
                 note: "Core dispute"
               }
@@ -27370,7 +27370,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-12b-l14",
+                lineId: "yoma-012b-l41",
                 vilnaLine: 41,
                 note: "Historical case"
               }
@@ -27385,7 +27385,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-12b-l15",
+                lineId: "yoma-012b-l42",
                 vilnaLine: 42,
                 note: "Emergency exception"
               }
@@ -28436,7 +28436,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-13a-l01",
+                lineId: "yoma-013a-l01",
                 vilnaLine: 1,
                 note: "Core ruling"
               }
@@ -28451,7 +28451,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-13a-l02",
+                lineId: "yoma-013a-l04",
                 vilnaLine: 4,
                 note: "Challenge to Rav's statement"
               }
@@ -28466,7 +28466,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-13a-l02",
+                lineId: "yoma-013a-l04",
                 vilnaLine: 4,
                 note: "Tzarah analogy and its rejection"
               }
@@ -28608,7 +28608,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-13a-l03",
+                lineId: "yoma-013a-l05",
                 vilnaLine: 5,
                 note: "R. Yehuda's position"
               }
@@ -28623,7 +28623,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-13a-l04",
+                lineId: "yoma-013a-l08",
                 vilnaLine: 8,
                 note: "Rabbanan's objection"
               }
@@ -28638,7 +28638,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-13a-l05",
+                lineId: "yoma-013a-l12",
                 vilnaLine: 12,
                 note: "Asymmetry resolved"
               }
@@ -28796,7 +28796,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-13a-l06",
+                lineId: "yoma-013a-l15",
                 vilnaLine: 15,
                 note: "First conditional formula"
               }
@@ -28811,7 +28811,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-13a-l07",
+                lineId: "yoma-013a-l20",
                 vilnaLine: 20,
                 note: "Second conditional formula"
               }
@@ -28826,7 +28826,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-13a-l08",
+                lineId: "yoma-013a-l23",
                 vilnaLine: 23,
                 note: "Third formula rejected: not keritut"
               }
@@ -28841,19 +28841,19 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-13a-l09",
+                lineId: "yoma-013a-l25",
                 vilnaLine: 25,
                 note: "Formulas 4-5"
               },
               {
                 sourceType: "gemara",
-                lineId: "yoma-13a-l10",
+                lineId: "yoma-013a-l27",
                 vilnaLine: 27,
                 note: "Formulas 6-7"
               },
               {
                 sourceType: "gemara",
-                lineId: "yoma-13a-l12",
+                lineId: "yoma-013a-l32",
                 vilnaLine: 32,
                 note: "Final attempts"
               }
@@ -29450,7 +29450,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-13b-l01",
+                lineId: "yoma-013b-l01",
                 vilnaLine: 1,
                 note: "The two-pronged solution"
               }
@@ -29465,7 +29465,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-13b-l02",
+                lineId: "yoma-013b-l05",
                 vilnaLine: 5,
                 note: "First yibum objection"
               }
@@ -29480,7 +29480,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-13b-l03",
+                lineId: "yoma-013b-l11",
                 vilnaLine: 11,
                 note: "Resolution via drasha"
               }
@@ -29621,7 +29621,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-13b-l04",
+                lineId: "yoma-013b-l20",
                 vilnaLine: 20,
                 note: "First yibum objection"
               }
@@ -29636,7 +29636,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-13b-l05",
+                lineId: "yoma-013b-l22",
                 vilnaLine: 22,
                 note: "Second yibum objection"
               }
@@ -29774,7 +29774,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-13b-l06",
+                lineId: "yoma-013b-l24",
                 vilnaLine: 24,
                 note: "Baraita ruling"
               }
@@ -29789,7 +29789,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-13b-l07",
+                lineId: "yoma-013b-l25",
                 vilnaLine: 25,
                 note: "R. Yehuda's addition"
               }
@@ -29804,7 +29804,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-13b-l08",
+                lineId: "yoma-013b-l28",
                 vilnaLine: 28,
                 note: "Rava's interpretation"
               }
@@ -29819,7 +29819,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-13b-l09",
+                lineId: "yoma-013b-l29",
                 vilnaLine: 29,
                 note: "Abaye's challenge"
               }
@@ -30391,7 +30391,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14a-l01",
+                lineId: "yoma-014a-l01",
                 vilnaLine: 1,
                 note: "Rava's revised reading of kol hayom"
               }
@@ -30406,7 +30406,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14a-l01",
+                lineId: "yoma-014a-l01",
                 vilnaLine: 1,
                 note: "Rav Adda's challenge"
               }
@@ -30421,7 +30421,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14a-l01",
+                lineId: "yoma-014a-l01",
                 vilnaLine: 1,
                 note: "Resolution via contextual distinction"
               }
@@ -30436,7 +30436,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14a-l02",
+                lineId: "yoma-014a-l10",
                 vilnaLine: 10,
                 note: "Distraction as independent disqualifier"
               }
@@ -30573,7 +30573,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14a-l03",
+                lineId: "yoma-014a-l12",
                 vilnaLine: 12,
                 note: "The mishna's ruling"
               }
@@ -30725,7 +30725,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14a-l04",
+                lineId: "yoma-014a-l17",
                 vilnaLine: 17,
                 note: "Mishna cannot be R. Akiva"
               }
@@ -30740,7 +30740,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14a-l05",
+                lineId: "yoma-014a-l20",
                 vilnaLine: 20,
                 note: "R. Akiva's ruling stated"
               }
@@ -30755,7 +30755,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14a-l06",
+                lineId: "yoma-014a-l24",
                 vilnaLine: 24,
                 note: "Chakhamim's interpretation"
               }
@@ -30770,7 +30770,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14a-l07",
+                lineId: "yoma-014a-l28",
                 vilnaLine: 28,
                 note: "Baraita alignment with R. Akiva"
               }
@@ -30785,31 +30785,31 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14a-l08",
+                lineId: "yoma-014a-l33",
                 vilnaLine: 33,
                 note: "Who impurifies whom"
               },
               {
                 sourceType: "gemara",
-                lineId: "yoma-14a-l09",
+                lineId: "yoma-014a-l36",
                 vilnaLine: 36,
                 note: "Water on body vs. water in vessel"
               },
               {
                 sourceType: "gemara",
-                lineId: "yoma-14a-l10",
+                lineId: "yoma-014a-l39",
                 vilnaLine: 39,
                 note: "Minimum quantity question"
               },
               {
                 sourceType: "gemara",
-                lineId: "yoma-14a-l11",
+                lineId: "yoma-014a-l41",
                 vilnaLine: 41,
                 note: "Resolution of quantity question"
               },
               {
                 sourceType: "gemara",
-                lineId: "yoma-14a-l12",
+                lineId: "yoma-014a-l47",
                 vilnaLine: 47,
                 note: "Further analysis"
               }
@@ -31808,7 +31808,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14b-l01",
+                lineId: "yoma-014b-l01",
                 vilnaLine: 1,
                 note: "Abaye's scheduling solution"
               }
@@ -31940,7 +31940,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14b-l02",
+                lineId: "yoma-014b-l03",
                 vilnaLine: 3,
                 note: "The Tamid-Yoma contradiction"
               }
@@ -31955,7 +31955,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14b-l03",
+                lineId: "yoma-014b-l07",
                 vilnaLine: 7,
                 note: "Rav Huna's attribution"
               }
@@ -31970,7 +31970,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14b-l04",
+                lineId: "yoma-014b-l11",
                 vilnaLine: 11,
                 note: "Refutation via Tosefta"
               }
@@ -31985,7 +31985,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14b-l05",
+                lineId: "yoma-014b-l14",
                 vilnaLine: 14,
                 note: "Rabbi Yochanan's attribution"
               }
@@ -32135,7 +32135,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14b-l06",
+                lineId: "yoma-014b-l16",
                 vilnaLine: 16,
                 note: "Internal Yoma contradiction"
               }
@@ -32150,7 +32150,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14b-l07",
+                lineId: "yoma-014b-l20",
                 vilnaLine: 20,
                 note: "Two-session resolution"
               }
@@ -32165,19 +32165,19 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-14b-l08",
+                lineId: "yoma-014b-l22",
                 vilnaLine: 22,
                 note: "The core dispute"
               },
               {
                 sourceType: "gemara",
-                lineId: "yoma-14b-l09",
+                lineId: "yoma-014b-l28",
                 vilnaLine: 28,
                 note: "Scriptural derivations"
               },
               {
                 sourceType: "gemara",
-                lineId: "yoma-14b-l10",
+                lineId: "yoma-014b-l31",
                 vilnaLine: 31,
                 note: "Analysis of derivations"
               }
@@ -33194,7 +33194,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l01",
+                lineId: "yoma-015a-l01",
                 vilnaLine: 1,
                 note: "Rabbanan's afternoon analogy"
               }
@@ -33209,7 +33209,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l01",
+                lineId: "yoma-015a-l01",
                 vilnaLine: 1,
                 note: "Internal challenge to the analogy"
               }
@@ -33224,7 +33224,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l06",
+                lineId: "yoma-015a-l06",
                 vilnaLine: 6,
                 note: "Resolution: 'at the time of' reading"
               }
@@ -33239,7 +33239,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l12",
+                lineId: "yoma-015a-l12",
                 vilnaLine: 12,
                 note: "Abba Shaul's restriction"
               }
@@ -33381,7 +33381,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l13",
+                lineId: "yoma-015a-l13",
                 vilnaLine: 13,
                 note: "Rav Pappa's resolution"
               }
@@ -33396,7 +33396,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l16",
+                lineId: "yoma-015a-l16",
                 vilnaLine: 16,
                 note: "Challenge to Rav Pappa"
               }
@@ -33411,7 +33411,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l21",
+                lineId: "yoma-015a-l21",
                 vilnaLine: 21,
                 note: "Abaye's methodological objection"
               }
@@ -33426,7 +33426,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l25",
+                lineId: "yoma-015a-l25",
                 vilnaLine: 25,
                 note: "Abaye's recontextualization"
               }
@@ -33592,7 +33592,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l27",
+                lineId: "yoma-015a-l27",
                 vilnaLine: 27,
                 note: "R. Shimon's dual-sacrifice ruling"
               }
@@ -33607,7 +33607,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l33",
+                lineId: "yoma-015a-l33",
                 vilnaLine: 33,
                 note: "First proposal and refutation"
               }
@@ -33622,7 +33622,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l36",
+                lineId: "yoma-015a-l36",
                 vilnaLine: 36,
                 note: "Second proposal refuted"
               }
@@ -33637,7 +33637,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l39",
+                lineId: "yoma-015a-l39",
                 vilnaLine: 39,
                 note: "Third proposal and refutation"
               }
@@ -33652,7 +33652,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l41",
+                lineId: "yoma-015a-l41",
                 vilnaLine: 41,
                 note: "Fourth proposal refuted"
               }
@@ -33667,7 +33667,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15a-l47",
+                lineId: "yoma-015a-l47",
                 vilnaLine: 47,
                 note: "Unresolved conclusion"
               }
@@ -34783,7 +34783,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15b-l01",
+                lineId: "yoma-015b-l01",
                 vilnaLine: 1,
                 note: "Resolution of the tohoro question"
               }
@@ -34898,7 +34898,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15b-l02",
+                lineId: "yoma-015b-l02",
                 vilnaLine: 2,
                 note: "First question about corner order"
               }
@@ -34913,7 +34913,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15b-l05",
+                lineId: "yoma-015b-l05",
                 vilnaLine: 5,
                 note: "Resolution: tamid is inherently an olah"
               }
@@ -34928,7 +34928,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15b-l05",
+                lineId: "yoma-015b-l05",
                 vilnaLine: 5,
                 note: "Second question: northeast corner lacks yesod"
               }
@@ -34943,7 +34943,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15b-l09",
+                lineId: "yoma-015b-l09",
                 vilnaLine: 9,
                 note: "Resolution of the yesod problem"
               }
@@ -35074,7 +35074,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15b-l14",
+                lineId: "yoma-015b-l14",
                 vilnaLine: 14,
                 note: "Directional question about the verse equation"
               }
@@ -35190,7 +35190,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15b-l19",
+                lineId: "yoma-015b-l19",
                 vilnaLine: 19,
                 note: "Yoma's location for the Chamber"
               }
@@ -35205,7 +35205,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15b-l26",
+                lineId: "yoma-015b-l26",
                 vilnaLine: 26,
                 note: "Middot's contradictory placement"
               }
@@ -35220,7 +35220,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-15b-l30",
+                lineId: "yoma-015b-l30",
                 vilnaLine: 30,
                 note: "Rav Huna's authorship claim sets up 16a"
               }
@@ -36302,7 +36302,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-16a-l01",
+                lineId: "yoma-016a-l01",
                 vilnaLine: 1,
                 note: "Rav Huna's authorship claim"
               }
@@ -36317,7 +36317,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-16a-l06",
+                lineId: "yoma-016a-l06",
                 vilnaLine: 6,
                 note: "R. Eliezer ben Yaakov's admission of forgetting"
               }
@@ -36332,7 +36332,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-16a-l16",
+                lineId: "yoma-016a-l16",
                 vilnaLine: 16,
                 note: "Resolution: two views, different authorities"
               }
@@ -36460,7 +36460,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-16a-l20",
+                lineId: "yoma-016a-l20",
                 vilnaLine: 20,
                 note: "Height measurement proof"
               }
@@ -36475,7 +36475,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-16a-l23",
+                lineId: "yoma-016a-l23",
                 vilnaLine: 23,
                 note: "Women's Courtyard gallery details"
               }
@@ -36490,7 +36490,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-16a-l26",
+                lineId: "yoma-016a-l26",
                 vilnaLine: 26,
                 note: "Entrance height from verse"
               }
@@ -36505,7 +36505,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-16a-l29",
+                lineId: "yoma-016a-l29",
                 vilnaLine: 29,
                 note: "Golden vine details"
               }
@@ -36520,7 +36520,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-16a-l30",
+                lineId: "yoma-016a-l30",
                 vilnaLine: 30,
                 note: "Golden vine donation logistics"
               }
@@ -36535,7 +36535,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-16a-l32",
+                lineId: "yoma-016a-l32",
                 vilnaLine: 32,
                 note: "Golden vine weight anecdote"
               }
@@ -36550,7 +36550,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-16a-l35",
+                lineId: "yoma-016a-l35",
                 vilnaLine: 35,
                 note: "Eastern wall height derivation"
               }
@@ -37566,7 +37566,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-16b-l01",
+                lineId: "yoma-016b-l01",
                 vilnaLine: 1,
                 note: "R. Yehuda's centered-altar position"
               }
@@ -37581,7 +37581,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-16b-l03",
+                lineId: "yoma-016b-l03",
                 vilnaLine: 3,
                 note: "Measurement refutation"
               }
@@ -37596,7 +37596,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-16b-l12",
+                lineId: "yoma-016b-l12",
                 vilnaLine: 12,
                 note: "Detailed cubit breakdown"
               }
@@ -37611,7 +37611,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-16b-l18",
+                lineId: "yoma-016b-l18",
                 vilnaLine: 18,
                 note: "Conclusion: Middot = R. EbY, not R. Yehuda"
               }
@@ -37626,7 +37626,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-16b-l21",
+                lineId: "yoma-016b-l21",
                 vilnaLine: 21,
                 note: "R. EbY's offset placement confirmed"
               }
@@ -38651,7 +38651,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-17a-l01",
+                lineId: "yoma-017a-l01",
                 vilnaLine: 1,
                 note: "Final verdict on Middot authorship"
               }
@@ -38666,7 +38666,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-17a-l02",
+                lineId: "yoma-017a-l02",
                 vilnaLine: 2,
                 note: "Rav Adda's west-wall alternative"
               }
@@ -38681,7 +38681,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-17a-l05",
+                lineId: "yoma-017a-l05",
                 vilnaLine: 5,
                 note: "Comparative evaluation"
               }
@@ -38696,7 +38696,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-17a-l07",
+                lineId: "yoma-017a-l07",
                 vilnaLine: 7,
                 note: "Transition to Shewbread topic"
               }
@@ -38711,7 +38711,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-17a-l09",
+                lineId: "yoma-017a-l09",
                 vilnaLine: 9,
                 note: "KG's Shewbread portion debate"
               }
@@ -39489,7 +39489,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-17b-l01",
+                lineId: "yoma-017b-l01",
                 vilnaLine: 1,
                 note: "Final verdict on chamber location"
               }
@@ -39504,7 +39504,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-17b-l06",
+                lineId: "yoma-017b-l06",
                 vilnaLine: 6,
                 note: "Objection from the rightward-turn rule"
               }
@@ -39519,7 +39519,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-17b-l06",
+                lineId: "yoma-017b-l06",
                 vilnaLine: 6,
                 note: "Limitation of the rightward-turn rule to service context"
               }
@@ -39637,7 +39637,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-17b-l09",
+                lineId: "yoma-017b-l09",
                 vilnaLine: 9,
                 note: "KG's first-portion right from mishna"
               }
@@ -39652,7 +39652,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-17b-l12",
+                lineId: "yoma-017b-l12",
                 vilnaLine: 12,
                 note: "4-or-5 Shewbread count"
               }
@@ -39667,7 +39667,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-17b-l17",
+                lineId: "yoma-017b-l17",
                 vilnaLine: 17,
                 note: "Dispute about KG's exact portion"
               }
@@ -39682,7 +39682,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-17b-l23",
+                lineId: "yoma-017b-l23",
                 vilnaLine: 23,
                 note: "Shavuot loaves in distribution"
               }
@@ -39697,7 +39697,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-17b-l25",
+                lineId: "yoma-017b-l25",
                 vilnaLine: 25,
                 note: "Abaye's mixed-mishna resolution"
               }
@@ -40311,7 +40311,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18a-l01",
+                lineId: "yoma-018a-l01",
                 vilnaLine: 1,
                 note: "Abaye's Rabbanan reading"
               }
@@ -40326,7 +40326,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18a-l04",
+                lineId: "yoma-018a-l04",
                 vilnaLine: 4,
                 note: "Rava's Rabbi reading"
               }
@@ -40341,7 +40341,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18a-l07",
+                lineId: "yoma-018a-l07",
                 vilnaLine: 7,
                 note: "Unresolved mishna contradiction"
               }
@@ -40356,7 +40356,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18a-l09",
+                lineId: "yoma-018a-l09",
                 vilnaLine: 9,
                 note: "Mishna: seven-day preparation begins"
               }
@@ -40371,7 +40371,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18a-l10",
+                lineId: "yoma-018a-l10",
                 vilnaLine: 10,
                 note: "Animal parade for KG recognition"
               }
@@ -40386,7 +40386,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18a-l11",
+                lineId: "yoma-018a-l11",
                 vilnaLine: 11,
                 note: "Why showing the goats is not problematic"
               }
@@ -40517,7 +40517,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18a-l12",
+                lineId: "yoma-018a-l12",
                 vilnaLine: 12,
                 note: "Daily service-reading preparation"
               }
@@ -40532,7 +40532,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18a-l17",
+                lineId: "yoma-018a-l17",
                 vilnaLine: 17,
                 note: "First vs Second Temple KG selection"
               }
@@ -40547,7 +40547,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18a-l18",
+                lineId: "yoma-018a-l18",
                 vilnaLine: 18,
                 note: "Maratha bat Baytus narrative"
               }
@@ -40562,7 +40562,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18a-l21",
+                lineId: "yoma-018a-l21",
                 vilnaLine: 21,
                 note: "Goats excluded from KG's parade"
               }
@@ -40577,7 +40577,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18a-l23",
+                lineId: "yoma-018a-l23",
                 vilnaLine: 23,
                 note: "Dietary restrictions to prevent emission"
               }
@@ -40592,7 +40592,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18a-l25",
+                lineId: "yoma-018a-l25",
                 vilnaLine: 25,
                 note: "Pre-Yom Kippur specific foods"
               }
@@ -40607,7 +40607,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18a-l28",
+                lineId: "yoma-018a-l28",
                 vilnaLine: 28,
                 note: "Mnemonic for emission-causing foods"
               }
@@ -40733,7 +40733,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18a-l29",
+                lineId: "yoma-018a-l29",
                 vilnaLine: 29,
                 note: "List of five emission-causing foods"
               }
@@ -40748,7 +40748,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18a-l31",
+                lineId: "yoma-018a-l31",
                 vilnaLine: 31,
                 note: "Arugula's dual properties"
               }
@@ -40763,7 +40763,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18a-l35",
+                lineId: "yoma-018a-l35",
                 vilnaLine: 35,
                 note: "Oness question for emission"
               }
@@ -40778,7 +40778,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18a-l39",
+                lineId: "yoma-018a-l39",
                 vilnaLine: 39,
                 note: "Resolution: emission-foods = not oness"
               }
@@ -41765,7 +41765,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18b-l01",
+                lineId: "yoma-018b-l01",
                 vilnaLine: 1,
                 note: "Fifth food and arugula digression"
               }
@@ -41780,7 +41780,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18b-l07",
+                lineId: "yoma-018b-l07",
                 vilnaLine: 7,
                 note: "Report of traveling-marriage practice"
               }
@@ -41795,7 +41795,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18b-l11",
+                lineId: "yoma-018b-l11",
                 vilnaLine: 11,
                 note: "Legal justification for the practice"
               }
@@ -41810,7 +41810,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18b-l17",
+                lineId: "yoma-018b-l17",
                 vilnaLine: 17,
                 note: "Concern about children's identifiability"
               }
@@ -41825,7 +41825,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18b-l20",
+                lineId: "yoma-018b-l20",
                 vilnaLine: 20,
                 note: "Required wait before the woman can remarry"
               }
@@ -41946,7 +41946,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18b-l23",
+                lineId: "yoma-018b-l23",
                 vilnaLine: 23,
                 note: "Handoff to Beit Avtinas and oath"
               }
@@ -41961,7 +41961,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-18b-l28",
+                lineId: "yoma-018b-l28",
                 vilnaLine: 28,
                 note: "All-night vigil methods"
               }
@@ -42598,7 +42598,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19a-l01",
+                lineId: "yoma-019a-l01",
                 vilnaLine: 1,
                 note: "Six chambers of the Azara"
               }
@@ -42613,7 +42613,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19a-l05",
+                lineId: "yoma-019a-l05",
                 vilnaLine: 5,
                 note: "Seven gates of the Azara"
               }
@@ -42628,7 +42628,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19a-l11",
+                lineId: "yoma-019a-l11",
                 vilnaLine: 11,
                 note: "Water Gate location and function"
               }
@@ -42643,7 +42643,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19a-l15",
+                lineId: "yoma-019a-l15",
                 vilnaLine: 15,
                 note: "Ten immersions on Yom Kippur"
               }
@@ -42658,7 +42658,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19a-l19",
+                lineId: "yoma-019a-l19",
                 vilnaLine: 19,
                 note: "First immersion not counted"
               }
@@ -42673,7 +42673,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19a-l23",
+                lineId: "yoma-019a-l23",
                 vilnaLine: 23,
                 note: "South placement of Parhedrin from immersion proximity"
               }
@@ -42688,7 +42688,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19a-l25",
+                lineId: "yoma-019a-l25",
                 vilnaLine: 25,
                 note: "KG's daily seven-day routine"
               }
@@ -42818,7 +42818,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19a-l28",
+                lineId: "yoma-019a-l28",
                 vilnaLine: 28,
                 note: "North-south debate opening"
               }
@@ -42833,7 +42833,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19a-l30",
+                lineId: "yoma-019a-l30",
                 vilnaLine: 30,
                 note: "Efficient south-placement routine"
               }
@@ -42848,7 +42848,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19a-l32",
+                lineId: "yoma-019a-l32",
                 vilnaLine: 32,
                 note: "Inefficient north-placement route"
               }
@@ -42984,7 +42984,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19a-l38",
+                lineId: "yoma-019a-l38",
                 vilnaLine: 38,
                 note: "Agency question introduced"
               }
@@ -43952,7 +43952,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19b-l01",
+                lineId: "yoma-019b-l01",
                 vilnaLine: 1,
                 note: "Resolution of the agency question from 19a"
               }
@@ -43967,7 +43967,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19b-l04",
+                lineId: "yoma-019b-l04",
                 vilnaLine: 4,
                 note: "KG's tears: suspicion"
               }
@@ -43982,7 +43982,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19b-l07",
+                lineId: "yoma-019b-l07",
                 vilnaLine: 7,
                 note: "Elders' tears: pain of suspicion"
               }
@@ -43997,7 +43997,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19b-l09",
+                lineId: "yoma-019b-l09",
                 vilnaLine: 9,
                 note: "Sadducee incense practice and reason for oath"
               }
@@ -44012,7 +44012,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19b-l16",
+                lineId: "yoma-019b-l16",
                 vilnaLine: 16,
                 note: "Sadducee KG struck dead narrative"
               }
@@ -44143,7 +44143,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19b-l22",
+                lineId: "yoma-019b-l22",
                 vilnaLine: 22,
                 note: "Rav's hand signal during Shema"
               }
@@ -44158,7 +44158,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19b-l26",
+                lineId: "yoma-019b-l26",
                 vilnaLine: 26,
                 note: "First paragraph: must be audible"
               }
@@ -44173,7 +44173,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19b-l33",
+                lineId: "yoma-019b-l33",
                 vilnaLine: 33,
                 note: "Second paragraph rules"
               }
@@ -44188,7 +44188,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19b-l34",
+                lineId: "yoma-019b-l34",
                 vilnaLine: 34,
                 note: "Gestures not considered interruptions"
               }
@@ -44203,7 +44203,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19b-l36",
+                lineId: "yoma-019b-l36",
                 vilnaLine: 36,
                 note: "Interruptions between paragraphs"
               }
@@ -44327,7 +44327,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19b-l40",
+                lineId: "yoma-019b-l40",
                 vilnaLine: 40,
                 note: "Identification of the tzarda finger-snap"
               }
@@ -44342,7 +44342,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19b-l42",
+                lineId: "yoma-019b-l42",
                 vilnaLine: 42,
                 note: "Entertainment methods during the vigil"
               }
@@ -44357,7 +44357,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19b-l44",
+                lineId: "yoma-019b-l44",
                 vilnaLine: 44,
                 note: "Walking on cold floor to stay awake"
               }
@@ -44372,7 +44372,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19b-l45",
+                lineId: "yoma-019b-l45",
                 vilnaLine: 45,
                 note: "Psalm 127 sung to KG"
               }
@@ -44387,7 +44387,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19b-l47",
+                lineId: "yoma-019b-l47",
                 vilnaLine: 47,
                 note: "Explanation of 'sinning' during the vigil"
               }
@@ -44402,7 +44402,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-19b-l49",
+                lineId: "yoma-019b-l49",
                 vilnaLine: 49,
                 note: "Dawn announcement and tamid slaughter"
               }
@@ -112337,7 +112337,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-049a-l02",
+                lineId: "yoma-049a-l01",
                 vilnaLine: 2
               }
             ]
@@ -112447,7 +112447,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-049a-l05",
+                lineId: "yoma-049a-l03",
                 vilnaLine: 5
               }
             ]
@@ -112582,7 +112582,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-049a-l06",
+                lineId: "yoma-049a-l03",
                 vilnaLine: 6
               }
             ]
@@ -112596,7 +112596,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-049a-l07",
+                lineId: "yoma-049a-l03",
                 vilnaLine: 7
               }
             ]
@@ -112624,7 +112624,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-049a-l09",
+                lineId: "yoma-049a-l08",
                 vilnaLine: 9
               }
             ]
@@ -113657,7 +113657,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-049b-l02",
+                lineId: "yoma-049b-l01",
                 vilnaLine: 2
               }
             ]
@@ -113767,7 +113767,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-049b-l03",
+                lineId: "yoma-049b-l01",
                 vilnaLine: 3
               }
             ]
@@ -113781,7 +113781,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-049b-l04",
+                lineId: "yoma-049b-l01",
                 vilnaLine: 4
               }
             ]
@@ -113795,7 +113795,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-049b-l05",
+                lineId: "yoma-049b-l01",
                 vilnaLine: 5
               }
             ]
@@ -114333,7 +114333,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-050a-l05",
+                lineId: "yoma-050a-l02",
                 vilnaLine: 5
               }
             ]
@@ -114361,7 +114361,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-050a-l07",
+                lineId: "yoma-050a-l06",
                 vilnaLine: 7
               }
             ]
@@ -114487,7 +114487,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-050a-l12",
+                lineId: "yoma-050a-l11",
                 vilnaLine: 12
               }
             ]
@@ -114501,7 +114501,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-050a-l13",
+                lineId: "yoma-050a-l11",
                 vilnaLine: 13
               }
             ]
@@ -115602,7 +115602,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-050b-l02",
+                lineId: "yoma-050b-l01",
                 vilnaLine: 2
               }
             ]
@@ -115759,7 +115759,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-050b-l05",
+                lineId: "yoma-050b-l04",
                 vilnaLine: 5
               }
             ]
@@ -115773,7 +115773,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-050b-l06",
+                lineId: "yoma-050b-l04",
                 vilnaLine: 6
               }
             ]
@@ -116853,7 +116853,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-051a-l02",
+                lineId: "yoma-051a-l01",
                 vilnaLine: 2
               }
             ]
@@ -116971,7 +116971,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-051a-l05",
+                lineId: "yoma-051a-l04",
                 vilnaLine: 5
               }
             ]
@@ -116985,7 +116985,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-051a-l06",
+                lineId: "yoma-051a-l04",
                 vilnaLine: 6
               }
             ]
@@ -116999,7 +116999,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-051a-l07",
+                lineId: "yoma-051a-l04",
                 vilnaLine: 7
               }
             ]
@@ -117592,7 +117592,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-051b-l05",
+                lineId: "yoma-051b-l02",
                 vilnaLine: 5
               }
             ]
@@ -117707,7 +117707,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-051b-l07",
+                lineId: "yoma-051b-l06",
                 vilnaLine: 7
               }
             ]
@@ -117735,7 +117735,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-051b-l09",
+                lineId: "yoma-051b-l08",
                 vilnaLine: 9
               }
             ]
@@ -118732,7 +118732,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-052a-l03",
+                lineId: "yoma-052a-l02",
                 vilnaLine: 3
               }
             ]
@@ -118832,7 +118832,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-052a-l08",
+                lineId: "yoma-052a-l05",
                 vilnaLine: 8
               }
             ]
@@ -118846,7 +118846,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-052a-l09",
+                lineId: "yoma-052a-l05",
                 vilnaLine: 9
               }
             ]
@@ -119615,7 +119615,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-052b-l08",
+                lineId: "yoma-052b-l05",
                 vilnaLine: 8
               }
             ]
@@ -119629,7 +119629,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-052b-l09",
+                lineId: "yoma-052b-l05",
                 vilnaLine: 9
               }
             ]
@@ -119732,7 +119732,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-052b-l12",
+                lineId: "yoma-052b-l11",
                 vilnaLine: 12
               }
             ]
@@ -119746,7 +119746,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-052b-l13",
+                lineId: "yoma-052b-l11",
                 vilnaLine: 13
               }
             ]
@@ -119846,7 +119846,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-052b-l17",
+                lineId: "yoma-052b-l14",
                 vilnaLine: 17
               }
             ]
@@ -119860,7 +119860,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-052b-l18",
+                lineId: "yoma-052b-l14",
                 vilnaLine: 18
               }
             ]
@@ -121120,7 +121120,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-053a-l09",
+                lineId: "yoma-053a-l08",
                 vilnaLine: 9
               }
             ]
@@ -121134,7 +121134,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-053a-l10",
+                lineId: "yoma-053a-l08",
                 vilnaLine: 10
               }
             ]
@@ -121148,7 +121148,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-053a-l11",
+                lineId: "yoma-053a-l08",
                 vilnaLine: 11
               }
             ]
@@ -121253,7 +121253,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-053a-l17",
+                lineId: "yoma-053a-l15",
                 vilnaLine: 17
               }
             ]
@@ -121267,7 +121267,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-053a-l18",
+                lineId: "yoma-053a-l15",
                 vilnaLine: 18
               }
             ]
@@ -121374,7 +121374,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-053a-l21",
+                lineId: "yoma-053a-l20",
                 vilnaLine: 21
               }
             ]
@@ -121402,7 +121402,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-053a-l23",
+                lineId: "yoma-053a-l22",
                 vilnaLine: 23
               }
             ]
@@ -122486,7 +122486,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-053b-l03",
+                lineId: "yoma-053b-l02",
                 vilnaLine: 3
               }
             ]
@@ -122500,7 +122500,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-053b-l04",
+                lineId: "yoma-053b-l02",
                 vilnaLine: 4
               }
             ]
@@ -122604,7 +122604,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-053b-l06",
+                lineId: "yoma-053b-l02",
                 vilnaLine: 6
               }
             ]
@@ -122618,7 +122618,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-053b-l07",
+                lineId: "yoma-053b-l02",
                 vilnaLine: 7
               }
             ]
@@ -122714,7 +122714,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-053b-l09",
+                lineId: "yoma-053b-l08",
                 vilnaLine: 9
               }
             ]
@@ -122830,7 +122830,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-053b-l10",
+                lineId: "yoma-053b-l08",
                 vilnaLine: 10
               }
             ]
@@ -122844,7 +122844,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-053b-l11",
+                lineId: "yoma-053b-l08",
                 vilnaLine: 11
               }
             ]
@@ -123712,7 +123712,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-054a-l02",
+                lineId: "yoma-054a-l01",
                 vilnaLine: 2
               }
             ]
@@ -123863,7 +123863,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-054a-l10",
+                lineId: "yoma-054a-l09",
                 vilnaLine: 10
               }
             ]
@@ -123877,7 +123877,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-054a-l11",
+                lineId: "yoma-054a-l09",
                 vilnaLine: 11
               }
             ]
@@ -123891,7 +123891,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-054a-l12",
+                lineId: "yoma-054a-l09",
                 vilnaLine: 12
               }
             ]
@@ -124982,7 +124982,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-054b-l02",
+                lineId: "yoma-054b-l01",
                 vilnaLine: 2
               }
             ]
@@ -124996,7 +124996,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-054b-l03",
+                lineId: "yoma-054b-l01",
                 vilnaLine: 3
               }
             ]
@@ -125010,7 +125010,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-054b-l04",
+                lineId: "yoma-054b-l01",
                 vilnaLine: 4
               }
             ]
@@ -151852,7 +151852,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-067a-l02",
+                lineId: "yoma-067a-l05",
                 vilnaLine: 5
               }
             ]
@@ -151866,7 +151866,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-067a-l03",
+                lineId: "yoma-067a-l12",
                 vilnaLine: 12
               }
             ]
@@ -151880,7 +151880,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-067a-l04",
+                lineId: "yoma-067a-l16",
                 vilnaLine: 16
               }
             ]
@@ -151908,7 +151908,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-067a-l06",
+                lineId: "yoma-067a-l21",
                 vilnaLine: 21
               }
             ]
@@ -152020,7 +152020,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-067a-l07",
+                lineId: "yoma-067a-l24",
                 vilnaLine: 24
               }
             ]
@@ -152034,7 +152034,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-067a-l08",
+                lineId: "yoma-067a-l27",
                 vilnaLine: 27
               }
             ]
@@ -152048,7 +152048,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-067a-l09",
+                lineId: "yoma-067a-l29",
                 vilnaLine: 29
               }
             ]
@@ -152062,7 +152062,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-067a-l10",
+                lineId: "yoma-067a-l35",
                 vilnaLine: 35
               }
             ]
@@ -152167,7 +152167,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-067a-l11",
+                lineId: "yoma-067a-l40",
                 vilnaLine: 40
               }
             ]
@@ -153254,7 +153254,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-067b-l03",
+                lineId: "yoma-067b-l05",
                 vilnaLine: 5
               }
             ]
@@ -153268,7 +153268,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-067b-l04",
+                lineId: "yoma-067b-l08",
                 vilnaLine: 8
               }
             ]
@@ -153394,7 +153394,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-067b-l06",
+                lineId: "yoma-067b-l12",
                 vilnaLine: 12
               }
             ]
@@ -153408,7 +153408,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-067b-l07",
+                lineId: "yoma-067b-l16",
                 vilnaLine: 16
               }
             ]
@@ -153436,7 +153436,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-067b-l09",
+                lineId: "yoma-067b-l20",
                 vilnaLine: 20
               }
             ]
@@ -153556,7 +153556,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-067b-l11",
+                lineId: "yoma-067b-l28",
                 vilnaLine: 28
               }
             ]
@@ -153679,7 +153679,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-067b-l13",
+                lineId: "yoma-067b-l35",
                 vilnaLine: 35
               }
             ]
@@ -153693,7 +153693,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-067b-l14",
+                lineId: "yoma-067b-l37",
                 vilnaLine: 37
               }
             ]
@@ -153707,7 +153707,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-067b-l15",
+                lineId: "yoma-067b-l41",
                 vilnaLine: 41
               }
             ]
@@ -154821,7 +154821,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-068a-l02",
+                lineId: "yoma-068a-l03",
                 vilnaLine: 3
               }
             ]
@@ -154955,7 +154955,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-068a-l04",
+                lineId: "yoma-068a-l10",
                 vilnaLine: 10
               }
             ]
@@ -154969,7 +154969,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-068a-l05",
+                lineId: "yoma-068a-l12",
                 vilnaLine: 12
               }
             ]
@@ -154983,7 +154983,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-068a-l06",
+                lineId: "yoma-068a-l16",
                 vilnaLine: 16
               }
             ]
@@ -155011,7 +155011,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-068a-l08",
+                lineId: "yoma-068a-l23",
                 vilnaLine: 23
               }
             ]
@@ -155025,7 +155025,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-068a-l09",
+                lineId: "yoma-068a-l25",
                 vilnaLine: 25
               }
             ]
@@ -156064,7 +156064,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-068b-l03",
+                lineId: "yoma-068b-l06",
                 vilnaLine: 6
               }
             ]
@@ -156078,7 +156078,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-068b-l04",
+                lineId: "yoma-068b-l07",
                 vilnaLine: 7
               }
             ]
@@ -156092,7 +156092,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-068b-l05",
+                lineId: "yoma-068b-l10",
                 vilnaLine: 10
               }
             ]
@@ -156259,7 +156259,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-068b-l08",
+                lineId: "yoma-068b-l15",
                 vilnaLine: 15
               }
             ]
@@ -156273,7 +156273,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-068b-l09",
+                lineId: "yoma-068b-l18",
                 vilnaLine: 18
               }
             ]
@@ -156301,7 +156301,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-068b-l11",
+                lineId: "yoma-068b-l23",
                 vilnaLine: 23
               }
             ]
@@ -156315,7 +156315,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-068b-l12",
+                lineId: "yoma-068b-l24",
                 vilnaLine: 24
               }
             ]
@@ -156329,7 +156329,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-068b-l13",
+                lineId: "yoma-068b-l25",
                 vilnaLine: 25
               }
             ]
@@ -156343,7 +156343,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-068b-l14",
+                lineId: "yoma-068b-l29",
                 vilnaLine: 29
               }
             ]
@@ -156371,7 +156371,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-068b-l16",
+                lineId: "yoma-068b-l35",
                 vilnaLine: 35
               }
             ]
@@ -156385,7 +156385,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-068b-l17",
+                lineId: "yoma-068b-l36",
                 vilnaLine: 36
               }
             ]
@@ -156413,7 +156413,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-068b-l19",
+                lineId: "yoma-068b-l39",
                 vilnaLine: 39
               }
             ]
@@ -156427,7 +156427,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-068b-l20",
+                lineId: "yoma-068b-l42",
                 vilnaLine: 42
               }
             ]
@@ -157437,7 +157437,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069a-l03",
+                lineId: "yoma-069a-l07",
                 vilnaLine: 7
               }
             ]
@@ -157451,7 +157451,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069a-l04",
+                lineId: "yoma-069a-l11",
                 vilnaLine: 11
               }
             ]
@@ -157465,7 +157465,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069a-l05",
+                lineId: "yoma-069a-l15",
                 vilnaLine: 15
               }
             ]
@@ -157479,7 +157479,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069a-l06",
+                lineId: "yoma-069a-l19",
                 vilnaLine: 19
               }
             ]
@@ -157507,7 +157507,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069a-l08",
+                lineId: "yoma-069a-l25",
                 vilnaLine: 25
               }
             ]
@@ -157626,7 +157626,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069a-l09",
+                lineId: "yoma-069a-l27",
                 vilnaLine: 27
               }
             ]
@@ -157640,7 +157640,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069a-l10",
+                lineId: "yoma-069a-l28",
                 vilnaLine: 28
               }
             ]
@@ -157668,7 +157668,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069a-l12",
+                lineId: "yoma-069a-l35",
                 vilnaLine: 35
               }
             ]
@@ -157682,7 +157682,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069a-l13",
+                lineId: "yoma-069a-l38",
                 vilnaLine: 38
               }
             ]
@@ -157696,7 +157696,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069a-l14",
+                lineId: "yoma-069a-l41",
                 vilnaLine: 41
               }
             ]
@@ -157897,7 +157897,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069a-l16",
+                lineId: "yoma-069a-l44",
                 vilnaLine: 44
               }
             ]
@@ -158519,7 +158519,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069b-l02",
+                lineId: "yoma-069b-l04",
                 vilnaLine: 4
               }
             ]
@@ -158533,7 +158533,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069b-l03",
+                lineId: "yoma-069b-l08",
                 vilnaLine: 8
               }
             ]
@@ -158561,7 +158561,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069b-l05",
+                lineId: "yoma-069b-l14",
                 vilnaLine: 14
               }
             ]
@@ -158575,7 +158575,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069b-l06",
+                lineId: "yoma-069b-l16",
                 vilnaLine: 16
               }
             ]
@@ -158589,7 +158589,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069b-l07",
+                lineId: "yoma-069b-l19",
                 vilnaLine: 19
               }
             ]
@@ -158617,7 +158617,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069b-l09",
+                lineId: "yoma-069b-l21",
                 vilnaLine: 21
               }
             ]
@@ -158631,7 +158631,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069b-l10",
+                lineId: "yoma-069b-l24",
                 vilnaLine: 24
               }
             ]
@@ -158645,7 +158645,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069b-l11",
+                lineId: "yoma-069b-l28",
                 vilnaLine: 28
               }
             ]
@@ -158673,7 +158673,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069b-l13",
+                lineId: "yoma-069b-l33",
                 vilnaLine: 33
               }
             ]
@@ -158701,7 +158701,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069b-l15",
+                lineId: "yoma-069b-l39",
                 vilnaLine: 39
               }
             ]
@@ -158834,7 +158834,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069b-l17",
+                lineId: "yoma-069b-l43",
                 vilnaLine: 43
               }
             ]
@@ -158848,7 +158848,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-069b-l18",
+                lineId: "yoma-069b-l44",
                 vilnaLine: 44
               }
             ]
@@ -160080,7 +160080,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-070a-l04",
+                lineId: "yoma-070a-l07",
                 vilnaLine: 7
               }
             ]
@@ -160094,7 +160094,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-070a-l05",
+                lineId: "yoma-070a-l10",
                 vilnaLine: 10
               }
             ]
@@ -160108,7 +160108,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-070a-l06",
+                lineId: "yoma-070a-l15",
                 vilnaLine: 15
               }
             ]
@@ -160226,7 +160226,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-070a-l08",
+                lineId: "yoma-070a-l22",
                 vilnaLine: 22
               }
             ]
@@ -160330,7 +160330,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-070a-l09",
+                lineId: "yoma-070a-l24",
                 vilnaLine: 24
               }
             ]
@@ -160479,7 +160479,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-070a-l11",
+                lineId: "yoma-070a-l27",
                 vilnaLine: 27
               }
             ]
@@ -160493,7 +160493,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-070a-l12",
+                lineId: "yoma-070a-l28",
                 vilnaLine: 28
               }
             ]
@@ -160507,7 +160507,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-070a-l13",
+                lineId: "yoma-070a-l31",
                 vilnaLine: 31
               }
             ]
@@ -160521,7 +160521,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-070a-l14",
+                lineId: "yoma-070a-l32",
                 vilnaLine: 32
               }
             ]
@@ -160563,7 +160563,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-070a-l17",
+                lineId: "yoma-070a-l37",
                 vilnaLine: 37
               }
             ]
@@ -160577,7 +160577,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-070a-l18",
+                lineId: "yoma-070a-l39",
                 vilnaLine: 39
               }
             ]
@@ -160619,7 +160619,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-070a-l21",
+                lineId: "yoma-070a-l43",
                 vilnaLine: 43
               }
             ]
@@ -160647,7 +160647,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-070a-l23",
+                lineId: "yoma-070a-l46",
                 vilnaLine: 46
               }
             ]
@@ -161566,7 +161566,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-070b-l02",
+                lineId: "yoma-070b-l04",
                 vilnaLine: 4
               }
             ]
@@ -161580,7 +161580,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-070b-l03",
+                lineId: "yoma-070b-l07",
                 vilnaLine: 7
               }
             ]
@@ -161715,7 +161715,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-070b-l05",
+                lineId: "yoma-070b-l12",
                 vilnaLine: 12
               }
             ]
@@ -161729,7 +161729,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-070b-l06",
+                lineId: "yoma-070b-l16",
                 vilnaLine: 16
               }
             ]
@@ -161757,7 +161757,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-070b-l08",
+                lineId: "yoma-070b-l22",
                 vilnaLine: 22
               }
             ]
@@ -161785,7 +161785,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-070b-l10",
+                lineId: "yoma-070b-l29",
                 vilnaLine: 29
               }
             ]
@@ -161799,7 +161799,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-070b-l11",
+                lineId: "yoma-070b-l30",
                 vilnaLine: 30
               }
             ]
@@ -162769,7 +162769,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-071a-l03",
+                lineId: "yoma-071a-l04",
                 vilnaLine: 4
               }
             ]
@@ -162797,7 +162797,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-071a-l05",
+                lineId: "yoma-071a-l07",
                 vilnaLine: 7
               }
             ]
@@ -162839,7 +162839,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-071a-l08",
+                lineId: "yoma-071a-l15",
                 vilnaLine: 15
               }
             ]
@@ -162895,7 +162895,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-071a-l12",
+                lineId: "yoma-071a-l21",
                 vilnaLine: 21
               }
             ]
@@ -163027,7 +163027,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-071a-l14",
+                lineId: "yoma-071a-l24",
                 vilnaLine: 24
               }
             ]
@@ -163055,7 +163055,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-071a-l16",
+                lineId: "yoma-071a-l27",
                 vilnaLine: 27
               }
             ]
@@ -163069,7 +163069,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-071a-l17",
+                lineId: "yoma-071a-l28",
                 vilnaLine: 28
               }
             ]
@@ -163083,7 +163083,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-071a-l18",
+                lineId: "yoma-071a-l30",
                 vilnaLine: 30
               }
             ]
@@ -164120,7 +164120,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-071b-l03",
+                lineId: "yoma-071b-l06",
                 vilnaLine: 6
               }
             ]
@@ -164253,7 +164253,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-071b-l04",
+                lineId: "yoma-071b-l11",
                 vilnaLine: 11
               }
             ]
@@ -164267,7 +164267,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-071b-l05",
+                lineId: "yoma-071b-l16",
                 vilnaLine: 16
               }
             ]
@@ -164295,7 +164295,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-071b-l07",
+                lineId: "yoma-071b-l26",
                 vilnaLine: 26
               }
             ]
@@ -164309,7 +164309,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-071b-l08",
+                lineId: "yoma-071b-l31",
                 vilnaLine: 31
               }
             ]
@@ -164323,7 +164323,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-071b-l09",
+                lineId: "yoma-071b-l33",
                 vilnaLine: 33
               }
             ]
@@ -164337,7 +164337,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-071b-l10",
+                lineId: "yoma-071b-l41",
                 vilnaLine: 41
               }
             ]
@@ -164365,7 +164365,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-071b-l12",
+                lineId: "yoma-071b-l51",
                 vilnaLine: 51
               }
             ]
@@ -164407,7 +164407,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-071b-l15",
+                lineId: "yoma-071b-l56",
                 vilnaLine: 56
               }
             ]
@@ -165431,7 +165431,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-072a-l03",
+                lineId: "yoma-072a-l05",
                 vilnaLine: 5
               }
             ]
@@ -165445,7 +165445,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-072a-l04",
+                lineId: "yoma-072a-l07",
                 vilnaLine: 7
               }
             ]
@@ -165473,7 +165473,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-072a-l06",
+                lineId: "yoma-072a-l14",
                 vilnaLine: 14
               }
             ]
@@ -165601,7 +165601,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-072a-l09",
+                lineId: "yoma-072a-l24",
                 vilnaLine: 24
               }
             ]
@@ -165615,7 +165615,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-072a-l10",
+                lineId: "yoma-072a-l27",
                 vilnaLine: 27
               }
             ]
@@ -165629,7 +165629,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-072a-l11",
+                lineId: "yoma-072a-l29",
                 vilnaLine: 29
               }
             ]
@@ -165643,7 +165643,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-072a-l12",
+                lineId: "yoma-072a-l32",
                 vilnaLine: 32
               }
             ]
@@ -165729,7 +165729,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-072a-l13",
+                lineId: "yoma-072a-l35",
                 vilnaLine: 35
               }
             ]
@@ -166319,7 +166319,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-072b-l03",
+                lineId: "yoma-072b-l06",
                 vilnaLine: 6
               }
             ]
@@ -166413,7 +166413,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-072b-l04",
+                lineId: "yoma-072b-l11",
                 vilnaLine: 11
               }
             ]
@@ -166441,7 +166441,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-072b-l07",
+                lineId: "yoma-072b-l21",
                 vilnaLine: 21
               }
             ]
@@ -166568,7 +166568,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-072b-l08",
+                lineId: "yoma-072b-l23",
                 vilnaLine: 23
               }
             ]
@@ -166582,7 +166582,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-072b-l09",
+                lineId: "yoma-072b-l26",
                 vilnaLine: 26
               }
             ]
@@ -166596,7 +166596,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-072b-l10",
+                lineId: "yoma-072b-l28",
                 vilnaLine: 28
               }
             ]
@@ -166624,7 +166624,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-072b-l12",
+                lineId: "yoma-072b-l34",
                 vilnaLine: 34
               }
             ]
@@ -166638,7 +166638,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-072b-l13",
+                lineId: "yoma-072b-l36",
                 vilnaLine: 36
               }
             ]
@@ -166666,7 +166666,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-072b-l15",
+                lineId: "yoma-072b-l41",
                 vilnaLine: 41
               }
             ]
@@ -166694,7 +166694,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-072b-l17",
+                lineId: "yoma-072b-l45",
                 vilnaLine: 45
               }
             ]
@@ -166722,7 +166722,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-072b-l20",
+                lineId: "yoma-072b-l47",
                 vilnaLine: 47
               }
             ]
@@ -168398,7 +168398,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-073a-l02",
+                lineId: "yoma-073a-l04",
                 vilnaLine: 4
               }
             ]
@@ -168412,7 +168412,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-073a-l03",
+                lineId: "yoma-073a-l06",
                 vilnaLine: 6
               }
             ]
@@ -168440,7 +168440,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-073a-l05",
+                lineId: "yoma-073a-l11",
                 vilnaLine: 11
               }
             ]
@@ -168468,7 +168468,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-073a-l07",
+                lineId: "yoma-073a-l16",
                 vilnaLine: 16
               }
             ]
@@ -168496,7 +168496,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-073a-l09",
+                lineId: "yoma-073a-l21",
                 vilnaLine: 21
               }
             ]
@@ -168510,7 +168510,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-073a-l10",
+                lineId: "yoma-073a-l22",
                 vilnaLine: 22
               }
             ]
@@ -168552,7 +168552,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-073a-l14",
+                lineId: "yoma-073a-l29",
                 vilnaLine: 29
               }
             ]
@@ -168566,7 +168566,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-073a-l15",
+                lineId: "yoma-073a-l31",
                 vilnaLine: 31
               }
             ]
@@ -168676,7 +168676,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-073a-l17",
+                lineId: "yoma-073a-l33",
                 vilnaLine: 33
               }
             ]
@@ -168704,7 +168704,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-073a-l19",
+                lineId: "yoma-073a-l37",
                 vilnaLine: 37
               }
             ]
@@ -169783,7 +169783,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-073b-l02",
+                lineId: "yoma-073b-l04",
                 vilnaLine: 4
               }
             ]
@@ -169797,7 +169797,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-073b-l03",
+                lineId: "yoma-073b-l07",
                 vilnaLine: 7
               }
             ]
@@ -169867,7 +169867,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-073b-l09",
+                lineId: "yoma-073b-l16",
                 vilnaLine: 16
               }
             ]
@@ -170096,7 +170096,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-073b-l15",
+                lineId: "yoma-073b-l28",
                 vilnaLine: 28
               }
             ]
@@ -170124,7 +170124,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-073b-l17",
+                lineId: "yoma-073b-l31",
                 vilnaLine: 31
               }
             ]
@@ -170138,7 +170138,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-073b-l19",
+                lineId: "yoma-073b-l37",
                 vilnaLine: 37
               }
             ]
@@ -171112,7 +171112,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-074a-l03",
+                lineId: "yoma-074a-l06",
                 vilnaLine: 6
               }
             ]
@@ -171126,7 +171126,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-074a-l04",
+                lineId: "yoma-074a-l10",
                 vilnaLine: 10
               }
             ]
@@ -171308,7 +171308,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-074a-l07",
+                lineId: "yoma-074a-l22",
                 vilnaLine: 22
               }
             ]
@@ -171322,7 +171322,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-074a-l08",
+                lineId: "yoma-074a-l27",
                 vilnaLine: 27
               }
             ]
@@ -171336,7 +171336,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-074a-l09",
+                lineId: "yoma-074a-l31",
                 vilnaLine: 31
               }
             ]
@@ -172346,7 +172346,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-074b-l02",
+                lineId: "yoma-074b-l05",
                 vilnaLine: 5
               }
             ]
@@ -172360,7 +172360,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-074b-l03",
+                lineId: "yoma-074b-l09",
                 vilnaLine: 9
               }
             ]
@@ -172374,7 +172374,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-074b-l04",
+                lineId: "yoma-074b-l14",
                 vilnaLine: 14
               }
             ]
@@ -172402,7 +172402,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-074b-l06",
+                lineId: "yoma-074b-l21",
                 vilnaLine: 21
               }
             ]
@@ -172416,7 +172416,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-074b-l07",
+                lineId: "yoma-074b-l23",
                 vilnaLine: 23
               }
             ]
@@ -172430,7 +172430,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-074b-l08",
+                lineId: "yoma-074b-l25",
                 vilnaLine: 25
               }
             ]
@@ -172458,7 +172458,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-074b-l10",
+                lineId: "yoma-074b-l34",
                 vilnaLine: 34
               }
             ]
@@ -172472,7 +172472,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-074b-l11",
+                lineId: "yoma-074b-l36",
                 vilnaLine: 36
               }
             ]
@@ -172486,7 +172486,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-074b-l12",
+                lineId: "yoma-074b-l37",
                 vilnaLine: 37
               }
             ]
@@ -172500,7 +172500,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-074b-l13",
+                lineId: "yoma-074b-l38",
                 vilnaLine: 38
               }
             ]
@@ -172604,7 +172604,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-074b-l15",
+                lineId: "yoma-074b-l43",
                 vilnaLine: 43
               }
             ]
@@ -172695,7 +172695,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-074b-l16",
+                lineId: "yoma-074b-l47",
                 vilnaLine: 47
               }
             ]
@@ -173494,7 +173494,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075a-l02",
+                lineId: "yoma-075a-l03",
                 vilnaLine: 3
               }
             ]
@@ -173629,7 +173629,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075a-l04",
+                lineId: "yoma-075a-l09",
                 vilnaLine: 9
               }
             ]
@@ -173657,7 +173657,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075a-l06",
+                lineId: "yoma-075a-l17",
                 vilnaLine: 17
               }
             ]
@@ -173671,7 +173671,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075a-l07",
+                lineId: "yoma-075a-l19",
                 vilnaLine: 19
               }
             ]
@@ -173685,7 +173685,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075a-l08",
+                lineId: "yoma-075a-l22",
                 vilnaLine: 22
               }
             ]
@@ -173713,7 +173713,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075a-l10",
+                lineId: "yoma-075a-l25",
                 vilnaLine: 25
               }
             ]
@@ -173727,7 +173727,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075a-l11",
+                lineId: "yoma-075a-l27",
                 vilnaLine: 27
               }
             ]
@@ -173741,7 +173741,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075a-l12",
+                lineId: "yoma-075a-l28",
                 vilnaLine: 28
               }
             ]
@@ -173755,7 +173755,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075a-l13",
+                lineId: "yoma-075a-l29",
                 vilnaLine: 29
               }
             ]
@@ -173783,7 +173783,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075a-l15",
+                lineId: "yoma-075a-l33",
                 vilnaLine: 33
               }
             ]
@@ -173876,7 +173876,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075a-l16",
+                lineId: "yoma-075a-l35",
                 vilnaLine: 35
               }
             ]
@@ -173904,7 +173904,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075a-l18",
+                lineId: "yoma-075a-l38",
                 vilnaLine: 38
               }
             ]
@@ -174010,7 +174010,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075a-l20",
+                lineId: "yoma-075a-l42",
                 vilnaLine: 42
               }
             ]
@@ -174024,7 +174024,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075a-l21",
+                lineId: "yoma-075a-l44",
                 vilnaLine: 44
               }
             ]
@@ -174871,7 +174871,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075b-l02",
+                lineId: "yoma-075b-l08",
                 vilnaLine: 8
               }
             ]
@@ -174885,7 +174885,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075b-l03",
+                lineId: "yoma-075b-l11",
                 vilnaLine: 11
               }
             ]
@@ -174899,7 +174899,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075b-l04",
+                lineId: "yoma-075b-l17",
                 vilnaLine: 17
               }
             ]
@@ -174913,7 +174913,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075b-l05",
+                lineId: "yoma-075b-l19",
                 vilnaLine: 19
               }
             ]
@@ -174927,7 +174927,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075b-l06",
+                lineId: "yoma-075b-l20",
                 vilnaLine: 20
               }
             ]
@@ -174941,7 +174941,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075b-l07",
+                lineId: "yoma-075b-l21",
                 vilnaLine: 21
               }
             ]
@@ -175065,7 +175065,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075b-l09",
+                lineId: "yoma-075b-l26",
                 vilnaLine: 26
               }
             ]
@@ -175079,7 +175079,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075b-l10",
+                lineId: "yoma-075b-l27",
                 vilnaLine: 27
               }
             ]
@@ -175107,7 +175107,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075b-l12",
+                lineId: "yoma-075b-l31",
                 vilnaLine: 31
               }
             ]
@@ -175121,7 +175121,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075b-l13",
+                lineId: "yoma-075b-l32",
                 vilnaLine: 32
               }
             ]
@@ -175135,7 +175135,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075b-l14",
+                lineId: "yoma-075b-l34",
                 vilnaLine: 34
               }
             ]
@@ -175149,7 +175149,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075b-l15",
+                lineId: "yoma-075b-l36",
                 vilnaLine: 36
               }
             ]
@@ -175163,7 +175163,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-075b-l16",
+                lineId: "yoma-075b-l37",
                 vilnaLine: 37
               }
             ]
@@ -175966,7 +175966,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-076a-l02",
+                lineId: "yoma-076a-l05",
                 vilnaLine: 5
               }
             ]
@@ -175980,7 +175980,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-076a-l03",
+                lineId: "yoma-076a-l12",
                 vilnaLine: 12
               }
             ]
@@ -175994,7 +175994,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-076a-l04",
+                lineId: "yoma-076a-l16",
                 vilnaLine: 16
               }
             ]
@@ -176109,7 +176109,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-076a-l06",
+                lineId: "yoma-076a-l24",
                 vilnaLine: 24
               }
             ]
@@ -176123,7 +176123,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-076a-l07",
+                lineId: "yoma-076a-l31",
                 vilnaLine: 31
               }
             ]
@@ -176137,7 +176137,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-076a-l08",
+                lineId: "yoma-076a-l36",
                 vilnaLine: 36
               }
             ]
@@ -176151,7 +176151,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-076a-l09",
+                lineId: "yoma-076a-l37",
                 vilnaLine: 37
               }
             ]
@@ -176165,7 +176165,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-076a-l10",
+                lineId: "yoma-076a-l40",
                 vilnaLine: 40
               }
             ]
@@ -176277,7 +176277,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-076a-l13",
+                lineId: "yoma-076a-l45",
                 vilnaLine: 45
               }
             ]
@@ -176291,7 +176291,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-076a-l14",
+                lineId: "yoma-076a-l46",
                 vilnaLine: 46
               }
             ]
@@ -176305,7 +176305,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-076a-l15",
+                lineId: "yoma-076a-l47",
                 vilnaLine: 47
               }
             ]
@@ -177130,7 +177130,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-076b-l03",
+                lineId: "yoma-076b-l02",
                 vilnaLine: 2
               }
             ]
@@ -177144,7 +177144,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-076b-l04",
+                lineId: "yoma-076b-l06",
                 vilnaLine: 6
               }
             ]
@@ -177158,7 +177158,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-076b-l05",
+                lineId: "yoma-076b-l07",
                 vilnaLine: 7
               }
             ]
@@ -177286,7 +177286,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-076b-l08",
+                lineId: "yoma-076b-l17",
                 vilnaLine: 17
               }
             ]
@@ -177300,7 +177300,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-076b-l09",
+                lineId: "yoma-076b-l22",
                 vilnaLine: 22
               }
             ]
@@ -177328,7 +177328,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-076b-l11",
+                lineId: "yoma-076b-l31",
                 vilnaLine: 31
               }
             ]
@@ -177342,7 +177342,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-076b-l12",
+                lineId: "yoma-076b-l36",
                 vilnaLine: 36
               }
             ]

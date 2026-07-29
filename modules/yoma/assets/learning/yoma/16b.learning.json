@@ -71,7 +71,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-16b-l01",
+       "lineId": "yoma-016b-l01",
        "vilnaLine": 1,
        "note": "R. Yehuda's centered-altar position"
       }
@@ -86,7 +86,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-16b-l03",
+       "lineId": "yoma-016b-l03",
        "vilnaLine": 3,
        "note": "Measurement refutation"
       }
@@ -101,7 +101,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-16b-l12",
+       "lineId": "yoma-016b-l12",
        "vilnaLine": 12,
        "note": "Detailed cubit breakdown"
       }
@@ -116,7 +116,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-16b-l18",
+       "lineId": "yoma-016b-l18",
        "vilnaLine": 18,
        "note": "Conclusion: Middot = R. EbY, not R. Yehuda"
       }
@@ -131,7 +131,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-16b-l21",
+       "lineId": "yoma-016b-l21",
        "vilnaLine": 21,
        "note": "R. EbY's offset placement confirmed"
       }

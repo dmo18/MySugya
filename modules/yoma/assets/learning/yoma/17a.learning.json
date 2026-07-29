@@ -71,7 +71,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-17a-l01",
+       "lineId": "yoma-017a-l01",
        "vilnaLine": 1,
        "note": "Final verdict on Middot authorship"
       }
@@ -86,7 +86,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-17a-l02",
+       "lineId": "yoma-017a-l02",
        "vilnaLine": 2,
        "note": "Rav Adda's west-wall alternative"
       }
@@ -101,7 +101,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-17a-l05",
+       "lineId": "yoma-017a-l05",
        "vilnaLine": 5,
        "note": "Comparative evaluation"
       }
@@ -116,7 +116,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-17a-l07",
+       "lineId": "yoma-017a-l07",
        "vilnaLine": 7,
        "note": "Transition to Shewbread topic"
       }
@@ -131,7 +131,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-17a-l09",
+       "lineId": "yoma-017a-l09",
        "vilnaLine": 9,
        "note": "KG's Shewbread portion debate"
       }

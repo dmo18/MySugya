@@ -56,7 +56,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-17b-l01",
+       "lineId": "yoma-017b-l01",
        "vilnaLine": 1,
        "note": "Final verdict on chamber location"
       }
@@ -71,7 +71,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-17b-l06",
+       "lineId": "yoma-017b-l06",
        "vilnaLine": 6,
        "note": "Objection from the rightward-turn rule"
       }
@@ -86,7 +86,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-17b-l06",
+       "lineId": "yoma-017b-l06",
        "vilnaLine": 6,
        "note": "Limitation of the rightward-turn rule to service context"
       }
@@ -213,7 +213,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-17b-l09",
+       "lineId": "yoma-017b-l09",
        "vilnaLine": 9,
        "note": "KG's first-portion right from mishna"
       }
@@ -228,7 +228,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-17b-l12",
+       "lineId": "yoma-017b-l12",
        "vilnaLine": 12,
        "note": "4-or-5 Shewbread count"
       }
@@ -243,7 +243,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-17b-l17",
+       "lineId": "yoma-017b-l17",
        "vilnaLine": 17,
        "note": "Dispute about KG's exact portion"
       }
@@ -258,7 +258,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-17b-l23",
+       "lineId": "yoma-017b-l23",
        "vilnaLine": 23,
        "note": "Shavuot loaves in distribution"
       }
@@ -273,7 +273,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-17b-l25",
+       "lineId": "yoma-017b-l25",
        "vilnaLine": 25,
        "note": "Abaye's mixed-mishna resolution"
       }
