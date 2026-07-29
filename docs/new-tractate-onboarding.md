@@ -6,6 +6,15 @@ every checklist item is done. The build pipeline itself (source store,
 daftexts, Vilna breaks, enrichment) is documented in
 docs/tractate-build-process.md; this checklist covers the SAFETY layer.
 
+**Prerequisite this checklist assumes but does not yet guarantee**: items 3
+and 5 below assume the shared worker/validator tooling actually generalizes
+per module. As measured in `docs/reports/replication-readiness.md`, it does
+not yet - 7 shared tools at the repo root hardcode `modules/yoma`, and
+`worker_pipeline.py`'s `--module` flag is currently cosmetic. That
+parameterization work is Phase 3 of `docs/platform-closure-plan.md` and must
+be complete, proven against the synthetic fixture module described there,
+before this checklist can be followed as written for a real tractate.
+
 ## 1. Data source inventory
 
 - [ ] Sefaria refs and talmud.dev cache fetched for every daf

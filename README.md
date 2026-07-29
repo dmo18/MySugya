@@ -318,6 +318,7 @@ selection and no rollback path.
 
 ## Documentation
 
+- **docs/platform-closure-plan.md** - **The plan for finishing the platform**: production publishing and repository protection, the argumentFlow/sourceRefs schema contracts, tractate-agnostic replication, and final closure
 - **docs/reports/legacy-renderer-retirement-policy.md** - Closed: the record of how the legacy Rashi renderer was retired
 - **docs/reports/next-tractate-roadmap.md** - Prerequisites for the next tractate (roadmap, not outstanding work)
 - **docs/reports/open-items.md** - **Current status**: one classified inventory of everything open, paused, deferred, historical, or operator-owned. Start here.

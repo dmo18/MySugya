@@ -10,6 +10,12 @@ Where a longer document disagrees with this one, this one is current and the
 other is a historical record; superseded sections in those documents are
 labelled in place.
 
+The ordered plan that closes the remaining platform work (production
+publishing and repository protection, the argumentFlow/sourceRefs schema
+contracts, tractate-agnostic replication, and final closure) is
+`docs/platform-closure-plan.md`. This document remains the classified
+day-to-day inventory; that one is the phased execution plan.
+
 Classification key:
 
 | Class | Meaning |
