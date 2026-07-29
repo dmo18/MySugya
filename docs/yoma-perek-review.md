@@ -1,5 +1,10 @@
 # Yoma Perek-Level Contextual Review
 
+> Historical perek-by-perek review record. For current repository status see
+> `docs/reports/open-items.md`. Sections superseded by later work are
+> labelled in place; the non-canonical `takeaway.type` findings in
+> particular are fully resolved (0 remain).
+
 Conducted after full schema backfill (492/492 sugyot, GitHub main at commit
 5ce0a3d, VERSION 14.58). Analysis date: 2026-07-01.
 
@@ -20,7 +25,7 @@ needed to confirm or reject each finding before it was recorded here.
 - 492 sugyot across 8 peraqim reviewed.
 - No duplicate display titles found.
 - No missing required fields found.
-- 57 sugyot carry non-canonical `takeaway.type` values (Perek 1-3, early
+- (Resolved in Phase 4; 0 remain as of VERSION 15.338.) 57 sugyot carry non-canonical `takeaway.type` values (Perek 1-3, early
   backfill batches). The app does not render this field; deferred to a
   schema normalization pass.
 - 1 low-risk, unambiguous wording fix applied (21b/yoma-021b-s03).
@@ -157,10 +162,14 @@ stabbing narrative (22a s02) is well-scaffolded on its own.
 **DEFERRED - 22a/yoma-022a-s01 (forward reference in ahaMoment):**
 The ahaMoment references the stabbing incident (s02) before the learner has
 reached it. Same daf, functions as narrative setup rather than a genuine
-error. Low severity; no change made.
+error. Low severity; no change made. **Current classification: accepted as
+written, not an open defect** (see `docs/reports/open-items.md`). It is a
+deliberate narrative-setup choice on the same daf, not an accuracy problem,
+and no content edit is authorized on the strength of it.
 
 **SCHEMA TYPE - 2 sugyot (27b s02, 28a s01, `halachic_distinction`):**
-Deferred to normalization pass.
+Deferred to normalization pass. **RESOLVED** in Phase 4 (VERSION 14.62);
+both now carry canonical `legal_principle`.
 
 ### Observations
 
@@ -489,6 +498,18 @@ resolved 2026-07-01 via external Mishnah/Gemara source review; see the
 ---
 
 ## Schema normalization: non-canonical takeaway.type values
+
+> **SUPERSEDED - RESOLVED.** This section records the state at the time of
+> the perek review. The normalization was carried out in Phase 4 of
+> `docs/yoma-completion-report.md` (VERSION 14.62, commit `db12ab6`): all
+> 57 values were mapped to the canonical set and **0 non-canonical
+> `takeaway.type` values remain in the corpus** as of VERSION 15.338.
+> Verified by scanning every `*.learning.json`: the only values present are
+> `legal_principle`, `conceptual`, `derivation_principle`,
+> `logical_principle`, and `open_question`, all canonical per
+> `shared/schema_map.js`. The mapping table below is kept as the historical
+> record of how it was done. See `docs/reports/open-items.md` for current
+> status.
 
 57 sugyot (Perek 1-3, early backfill batches) carry non-canonical
 `takeaway.type` values. The app does not render this field. Canonical

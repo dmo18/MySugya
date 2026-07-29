@@ -1,5 +1,15 @@
 # Rashi look-alike audit: 61a, 67b, 68a, 68b, 70a, 71b
 
+> **SUPERSEDED - ALL REMEDIATION COMPLETE.** This report's task assignments
+> ("61a lines 1-45 need full reconstruction", "Haiku MUST NOT run
+> rashi-repair on 67b/68a/68b/70a/71b", and the realignment
+> recommendations) were all acted on and are finished. As of VERSION
+> 15.338, every one of 61a, 67b, 68a, 68b, 70a, and 71b classifies
+> **ALIGNED** with `lineLevelSafe=true` and no recommended task type. The
+> analysis below is preserved as the historical record of how those defects
+> were detected and characterized; do not read its instructions as current
+> work. See `docs/reports/open-items.md` for current status.
+
 Read-only forensic audit (audit-only manifest, Fable, VERSION 15.84 on
 main). Triggered by the ESCALATED finding of PR #73: 61a vilnaLines
 1-45 carry specific-looking English that is unrelated to the raw

@@ -56,14 +56,18 @@ MySugya/
     pre-commit                  Version sync plus smoke tests
   tests/
     smoke/render_check.py               Production build smoke test
+    unit/rashi-association.test.mjs     Rashi grouping + renderer selection unit tests
+    unit/rashi-browser-shards.test.mjs  Shard slicing/merging/artifact validation unit tests
     browser/yoma-smoke.spec.js          Playwright Yoma browser smoke test
     browser/runtime-guards.spec.js      Playwright runtime guard smoke test
+    browser/rashi-association.spec.js   Playwright linked-association rendering spec
   docs/
+    reports/open-items.md       CURRENT STATUS: classified open/paused/deferred inventory
     vilna-breaks.md             Vilna edition reference
     tractate-build-process.md   Generalized, reusable build/review/audit procedure for any masechta
     yoma-completion-report.md   Concrete record of the Yoma build and review, phase by phase
     yoma-perek-review.md        Perek-by-perek semantic review findings for Yoma
-    rashi-audit-backlog.md      Live tracking for the Rashi content-quality audit (in progress) and nekudot/vowelization audit (not started)
+    rashi-audit-backlog.md      Live tracking for the Rashi content-quality audit and the paused nekudot audit
   modules/
     yoma/                       Frozen Yoma module, see modules/yoma/MODULE.md
 ```
@@ -159,10 +163,13 @@ This builds `dist/`, serves it locally, checks the production bundle, verifies t
 npm run test:browser
 ```
 
-Two Playwright specs run:
+Three Playwright specs run:
 
 - `tests/browser/yoma-smoke.spec.js` - Yoma 2a rendering, Rashi display, previous navigation, mobile overflow, dark mode.
 - `tests/browser/runtime-guards.spec.js` - Landing page featured preview load, unknown module fallback to landing, invalid daf fallback to first daf, clipboard rejection caught without crash.
+- `tests/browser/rashi-association.spec.js` - Rashi linked-association rendering (the production default since VERSION 15.338): per-daf, every declared `linkedGemaraLineIds` association renders under exactly its declared targets with exact Hebrew/English text, multi-link comments appear under every target, authorized boundary entries render nowhere, and renderer selection resolves correctly for no parameter, `?rashiAssoc=linked`, `?rashiAssoc=legacy`, and unknown values. Scope defaults to daf 2a; the sharded workflow runs it across all 173 daf.
+
+Node unit tests run by `npm test` (not Playwright): `tests/unit/rashi-association.test.mjs` and `tests/unit/rashi-browser-shards.test.mjs`.
 
 ### Yoma validation gates
 
@@ -268,6 +275,39 @@ read fresh from the URL on every call and never persisted to any storage:
 The legacy `vilnaLine`-coincidence renderer has **not** been deleted. It
 remains fully intact in `app.jsx` as the rollback path behind
 `?rashiAssoc=legacy`. Do not remove it without an explicit decision.
+
+### Cutover evidence (VERSION 15.338, commit `ef58878`)
+
+Recorded durably so it never has to be re-derived: cutover PR #331, browser
+shard workflow run `30403330781`, combined artifact `rashi-browser-shard-result`
+id `8705825544`, **8 shards, 173/173 daf, 8,854 Rashi entries, 215 passed, 0
+failed**, readiness gate 8/8 at the exact merge commit. The pre-cutover
+authorization run was `30399334278` / artifact `8704117259` at `d1e4715`
+(173/173 daf, 8,854 entries, 183 passed, 0 failed).
+
+### Standing facts that are NOT open work
+
+- **The 20 boundary entries (4b L61; 61a L46-64) are authorized and
+  intentionally unrendered.** Recorded in
+  `modules/yoma/scripts/allowlists/rashi_boundary_authorizations.json`,
+  validated at ratchet 20/20. Each explains a comment whose Gemara content is
+  truncated at the daf's final line and completes on the next daf, where
+  cross-daf linking is prohibited. Not a defect, not a backlog item; do not
+  "fix" them.
+- **The 14 semantic findings are advisory and do not authorize content
+  edits.** Zero daf are SHIFTED or FABRICATION-SUSPECT and zero carry a
+  recommended task type. The findings are reported in full on every gate run
+  and never suppressed. They become actionable only if a fresh audit promotes
+  one to an actionable classification.
+- **Daf 24b is a benign Unicode-normalization finding, not a content
+  defect.** A direct comparison against the live Sefaria API found only a
+  combining-mark ordering difference; consonantal and vocalization content is
+  identical. Do not edit 24b source text on the strength of it.
+- **GitHub Pages (https://dmo18.github.io/MySugya/) is the authoritative beta
+  deployment.** mysugya.com/Cloudways is intentionally out of scope and its
+  staleness is never a blocker.
+
+Current classified status for everything else: `docs/reports/open-items.md`.
 
 `npm run audit:rashi-renderer-readiness:yoma` reports mechanically-checked
 readiness across 8 conditions (ratchets, referential integrity, the
