@@ -61,7 +61,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13b-l01",
+       "lineId": "yoma-013b-l01",
        "vilnaLine": 1,
        "note": "The two-pronged solution"
       }
@@ -76,7 +76,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13b-l02",
+       "lineId": "yoma-013b-l05",
        "vilnaLine": 5,
        "note": "First yibum objection"
       }
@@ -91,7 +91,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13b-l03",
+       "lineId": "yoma-013b-l11",
        "vilnaLine": 11,
        "note": "Resolution via drasha"
       }
@@ -234,7 +234,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13b-l04",
+       "lineId": "yoma-013b-l20",
        "vilnaLine": 20,
        "note": "First yibum objection"
       }
@@ -249,7 +249,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13b-l05",
+       "lineId": "yoma-013b-l22",
        "vilnaLine": 22,
        "note": "Second yibum objection"
       }
@@ -393,7 +393,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13b-l06",
+       "lineId": "yoma-013b-l24",
        "vilnaLine": 24,
        "note": "Baraita ruling"
       }
@@ -408,7 +408,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13b-l07",
+       "lineId": "yoma-013b-l25",
        "vilnaLine": 25,
        "note": "R. Yehuda's addition"
       }
@@ -423,7 +423,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13b-l08",
+       "lineId": "yoma-013b-l28",
        "vilnaLine": 28,
        "note": "Rava's interpretation"
       }
@@ -438,7 +438,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-13b-l09",
+       "lineId": "yoma-013b-l29",
        "vilnaLine": 29,
        "note": "Abaye's challenge"
       }

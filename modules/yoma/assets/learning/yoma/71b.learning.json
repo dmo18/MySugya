@@ -161,7 +161,7 @@
           "sourceRefs": [
             {
               "sourceType": "gemara",
-              "lineId": "yoma-071b-l03",
+              "lineId": "yoma-071b-l06",
               "vilnaLine": 6
             }
           ]
@@ -317,7 +317,7 @@
           "sourceRefs": [
             {
               "sourceType": "gemara",
-              "lineId": "yoma-071b-l04",
+              "lineId": "yoma-071b-l11",
               "vilnaLine": 11
             }
           ]
@@ -331,7 +331,7 @@
           "sourceRefs": [
             {
               "sourceType": "gemara",
-              "lineId": "yoma-071b-l05",
+              "lineId": "yoma-071b-l16",
               "vilnaLine": 16
             }
           ]
@@ -359,7 +359,7 @@
           "sourceRefs": [
             {
               "sourceType": "gemara",
-              "lineId": "yoma-071b-l07",
+              "lineId": "yoma-071b-l26",
               "vilnaLine": 26
             }
           ]
@@ -373,7 +373,7 @@
           "sourceRefs": [
             {
               "sourceType": "gemara",
-              "lineId": "yoma-071b-l08",
+              "lineId": "yoma-071b-l31",
               "vilnaLine": 31
             }
           ]
@@ -387,7 +387,7 @@
           "sourceRefs": [
             {
               "sourceType": "gemara",
-              "lineId": "yoma-071b-l09",
+              "lineId": "yoma-071b-l33",
               "vilnaLine": 33
             }
           ]
@@ -401,7 +401,7 @@
           "sourceRefs": [
             {
               "sourceType": "gemara",
-              "lineId": "yoma-071b-l10",
+              "lineId": "yoma-071b-l41",
               "vilnaLine": 41
             }
           ]
@@ -429,7 +429,7 @@
           "sourceRefs": [
             {
               "sourceType": "gemara",
-              "lineId": "yoma-071b-l12",
+              "lineId": "yoma-071b-l51",
               "vilnaLine": 51
             }
           ]
@@ -471,7 +471,7 @@
           "sourceRefs": [
             {
               "sourceType": "gemara",
-              "lineId": "yoma-071b-l15",
+              "lineId": "yoma-071b-l56",
               "vilnaLine": 56
             }
           ]

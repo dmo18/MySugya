@@ -84,7 +84,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-067a-l02",
+       "lineId": "yoma-067a-l05",
        "vilnaLine": 5
       }
      ]
@@ -98,7 +98,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-067a-l03",
+       "lineId": "yoma-067a-l12",
        "vilnaLine": 12
       }
      ]
@@ -112,7 +112,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-067a-l04",
+       "lineId": "yoma-067a-l16",
        "vilnaLine": 16
       }
      ]
@@ -140,7 +140,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-067a-l06",
+       "lineId": "yoma-067a-l21",
        "vilnaLine": 21
       }
      ]
@@ -259,7 +259,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-067a-l07",
+       "lineId": "yoma-067a-l24",
        "vilnaLine": 24
       }
      ]
@@ -273,7 +273,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-067a-l08",
+       "lineId": "yoma-067a-l27",
        "vilnaLine": 27
       }
      ]
@@ -287,7 +287,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-067a-l09",
+       "lineId": "yoma-067a-l29",
        "vilnaLine": 29
       }
      ]
@@ -301,7 +301,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-067a-l10",
+       "lineId": "yoma-067a-l35",
        "vilnaLine": 35
       }
      ]
@@ -409,7 +409,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-067a-l11",
+       "lineId": "yoma-067a-l40",
        "vilnaLine": 40
       }
      ]

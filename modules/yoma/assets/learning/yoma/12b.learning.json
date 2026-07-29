@@ -51,7 +51,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-12b-l01",
+       "lineId": "yoma-012b-l01",
        "vilnaLine": 1,
        "note": "Service initiates the replacement KG"
       }
@@ -213,7 +213,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-12b-l02",
+       "lineId": "yoma-012b-l04",
        "vilnaLine": 4,
        "note": "Opening the belt dispute"
       }
@@ -228,7 +228,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-12b-l03",
+       "lineId": "yoma-012b-l06",
        "vilnaLine": 6,
        "note": "Rav Dimi's tradition"
       }
@@ -243,7 +243,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-12b-l08",
+       "lineId": "yoma-012b-l22",
        "vilnaLine": 22,
        "note": "Ravin clarifies positions"
       }
@@ -258,7 +258,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-12b-l09",
+       "lineId": "yoma-012b-l26",
        "vilnaLine": 26,
        "note": "Baraita support for Rabbi"
       }
@@ -410,7 +410,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-12b-l11",
+       "lineId": "yoma-012b-l31",
        "vilnaLine": 31,
        "note": "Core dispute"
       }
@@ -425,7 +425,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-12b-l14",
+       "lineId": "yoma-012b-l41",
        "vilnaLine": 41,
        "note": "Historical case"
       }
@@ -440,7 +440,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-12b-l15",
+       "lineId": "yoma-012b-l42",
        "vilnaLine": 42,
        "note": "Emergency exception"
       }

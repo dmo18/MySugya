@@ -51,7 +51,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14b-l01",
+       "lineId": "yoma-014b-l01",
        "vilnaLine": 1,
        "note": "Abaye's scheduling solution"
       }
@@ -189,7 +189,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14b-l02",
+       "lineId": "yoma-014b-l03",
        "vilnaLine": 3,
        "note": "The Tamid-Yoma contradiction"
       }
@@ -204,7 +204,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14b-l03",
+       "lineId": "yoma-014b-l07",
        "vilnaLine": 7,
        "note": "Rav Huna's attribution"
       }
@@ -219,7 +219,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14b-l04",
+       "lineId": "yoma-014b-l11",
        "vilnaLine": 11,
        "note": "Refutation via Tosefta"
       }
@@ -234,7 +234,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14b-l05",
+       "lineId": "yoma-014b-l14",
        "vilnaLine": 14,
        "note": "Rabbi Yochanan's attribution"
       }
@@ -392,7 +392,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14b-l06",
+       "lineId": "yoma-014b-l16",
        "vilnaLine": 16,
        "note": "Internal Yoma contradiction"
       }
@@ -407,7 +407,7 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14b-l07",
+       "lineId": "yoma-014b-l20",
        "vilnaLine": 20,
        "note": "Two-session resolution"
       }
@@ -422,19 +422,19 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14b-l08",
+       "lineId": "yoma-014b-l22",
        "vilnaLine": 22,
        "note": "The core dispute"
       },
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14b-l09",
+       "lineId": "yoma-014b-l28",
        "vilnaLine": 28,
        "note": "Scriptural derivations"
       },
       {
        "sourceType": "gemara",
-       "lineId": "yoma-14b-l10",
+       "lineId": "yoma-014b-l31",
        "vilnaLine": 31,
        "note": "Analysis of derivations"
       }

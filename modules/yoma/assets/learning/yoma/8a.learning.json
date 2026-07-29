@@ -140,7 +140,7 @@
           "sourceRefs": [
             {
               "sourceType": "gemara",
-              "lineId": "yoma-008a-l09",
+              "lineId": "yoma-008a-l08",
               "vilnaLine": 9,
               "note": "'ראוי למצח' principle derived"
             }
@@ -170,7 +170,7 @@
           "sourceRefs": [
             {
               "sourceType": "gemara",
-              "lineId": "yoma-008a-l12",
+              "lineId": "yoma-008a-l11",
               "vilnaLine": 12,
               "note": "R. Yehuda's 'mitzcho/mitzcho' doubling derivation"
             }
@@ -404,7 +404,7 @@
           "sourceRefs": [
             {
               "sourceType": "gemara",
-              "lineId": "yoma-008a-l25",
+              "lineId": "yoma-008a-l23",
               "vilnaLine": 25,
               "note": "Second hypothesis: tevila bizmana mitzva"
             }
@@ -419,7 +419,7 @@
           "sourceRefs": [
             {
               "sourceType": "gemara",
-              "lineId": "yoma-008a-l29",
+              "lineId": "yoma-008a-l28",
               "vilnaLine": 29,
               "note": "Second hypothesis rejected by cross-tractate source"
             }
@@ -434,7 +434,7 @@
           "sourceRefs": [
             {
               "sourceType": "gemara",
-              "lineId": "yoma-008a-l34",
+              "lineId": "yoma-008a-l32",
               "vilnaLine": 34,
               "note": "Correct resolution: equating hazaah to tevila"
             }
