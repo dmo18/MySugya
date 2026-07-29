@@ -60,19 +60,38 @@ Most common offenders: `ruling` (515), `elaboration` (212), `analysis` (47),
 
 ### This is a user-visible defect, not latent debt
 
-Unlike `sourceRefs`, this field is rendered. Two consumers in `app.jsx`:
+Unlike `sourceRefs`, this field is rendered. Two different consumers in
+`app.jsx`, and they behaved differently, so they are worth separating:
 
-- `ArgumentFlowPanel` (line ~506) prints `{step.type}` **verbatim** as the step
-  tag, so learners see raw tokens including the literal `stub`.
-- The flow diagram and the landing-page peek both do
-  `STEP_META[s.type] || STEP_META.question`. `STEP_META` has entries for exactly
-  the same 13 canonical values, so **every one of the 1,320 non-canonical steps
-  renders with the Hebrew term שְׁאֵלָה, the symbol `?`, and the English label
-  "Question"** regardless of what it actually is.
+- `ArgumentFlowPanel` (the sugya view, line ~506) prints `{step.type}`
+  **verbatim**. Correct-but-unpolished, never wrong: learners see the real
+  token, including the literal `stub`. `styles.css` defines only 7
+  `arg-step--*` classes, so most types get no type-specific styling.
+- The landing-page flow demo, hero tag and peek fell back to the `question`
+  entry when a type was unrecognised, so an unclassified step was shown with
+  the Hebrew term for question, the symbol `?`, and the English label
+  "Question" regardless of what it actually was.
 
-The most common step type in the corpus, `ruling` (515 steps), is currently
-shown to learners as a Question. `styles.css` also defines only 7 of the 13
-`arg-step--*` classes, so most types get no type-specific styling either.
+**Scope of the wrong labelling, stated precisely.** The corpus figure (1,320
+steps across 417 sugyot) is the size of the *data* problem. The on-screen
+exposure is different and smaller: `deriveFeatured` picks a daf of the day, so
+the landing page rotates through all 173 daf, one per day. Measured across that
+rotation:
+
+| surface | days showing a wrong label |
+|---|---|
+| flow demo (first 6 steps of the featured flow sugya) | **148 / 173** |
+| hero tag (first step of the featured hero sugya) | **110 / 173** |
+| sugya view (`ArgumentFlowPanel`) | 0, renders the raw type |
+
+An earlier draft of this report said all 1,320 steps rendered as "Question".
+That conflated corpus scope with screen scope and implied the sugya view
+mislabelled too, which it never did. The table above is the accurate statement.
+
+**Fixed at VERSION 15.350** by `stepMetaFor`, which shows an unrecognised type's
+own name rather than another type's identity, and leaves Hebrew empty rather
+than inventing it. That removes the wrong information. It does not resolve the
+vocabulary question below, which stays open.
 
 ### Why this is not fixed here
 
