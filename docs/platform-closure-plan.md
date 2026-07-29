@@ -144,6 +144,58 @@ Any application code change. Any Cloudways or mysugya.com change - GitHub
 Pages is the authoritative beta deployment; mysugya.com is not deployment
 debt (`docs/reports/open-items.md`, OUT-OF-SCOPE section).
 
+### Attempt record (VERSION 15.355, commit `0bbb86a`)
+
+Phase 1 execution was attempted and is **blocked**, not completed. Evidence:
+
+- `GET /repos/dmo18/MySugya/pages` (read Pages build/source config): the
+  environment's outbound proxy returns `403 Access to this GitHub API path
+  is not permitted through this proxy`. This is an environment policy block,
+  independent of any GitHub token permission.
+- `PUT /repos/dmo18/MySugya/pages` (change Pages source to GitHub Actions):
+  same proxy block, same message.
+- `GET /repos/dmo18/MySugya/branches/main/protection` (read classic branch
+  protection): `403 Resource not accessible by integration` - the GitHub
+  App token this session runs under has no repository-administration scope.
+- `GET /repos/dmo18/MySugya/rulesets` (read repository rulesets): succeeds,
+  returns `[]` - zero rulesets currently configured. This is the one setting
+  this session could confirm directly.
+- `POST /repos/dmo18/MySugya/rulesets` (create a ruleset): the same proxy
+  blocks writes explicitly: `403 Write access to this GitHub API path is
+  not permitted through this proxy`.
+- No `mcp__github__*` tool exposes Pages configuration, branch protection,
+  or rulesets at all (confirmed by exhaustive `ToolSearch` against this
+  session's GitHub MCP tool catalog).
+- Behavioral confirmation that the Pages source is still "Deploy from a
+  branch": the built-in `pages build and deployment` run still fires on
+  every push to `main`, including the commit that merged this plan
+  (`0bbb86a`) - that workflow name is generated automatically by GitHub only
+  when Pages is configured to build from a branch, and does not run at all
+  under GitHub Actions-sourced Pages.
+
+**Consequence**: neither the Pages source setting nor `main` branch
+protection can be changed from this session under any currently available
+tool or credential. This is the stop condition this plan's Phase 1 section
+already names ("GitHub authentication does not permit changing Pages or
+protection settings").
+
+**For the repository owner**, the exact settings to change:
+
+- Pages: **Settings > Pages > Build and deployment > Source > GitHub
+  Actions**. This alone stops the built-in branch publisher from competing
+  with `deploy-pages.yml`.
+- Branch protection: **Settings > Rules > Rulesets** (a new branch ruleset
+  targeting `main`) or **Settings > Branches > Branch protection rules**
+  (a classic rule on `main`). Required: PR required to merge, required
+  status check `build`, strict/up-to-date required, force pushes blocked,
+  branch deletion blocked, bypass restricted to the smallest practical
+  administrator-only set.
+
+Phase 1 status: **blocked on operator action**, not complete. Re-verification
+per this plan's evidence requirements (5+ samples over 10+ minutes for the
+public check; API read-back for the settings) must still happen after the
+operator applies these settings, before Phase 1 is marked complete.
+
 ---
 
 ## Phase 2: Semantic schema contract
