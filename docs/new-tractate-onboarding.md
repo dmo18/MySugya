@@ -30,6 +30,16 @@ before this checklist can be followed as written for a real tractate.
 - [ ] classify every new path (immutable / manifest-editable / judgment-required /
       flag-only / generated-only / deprecated) and assign an owning task
       type; `npm run worker:schema-matrix` must pass
+- [ ] argumentFlow: author `type` values freely (the specific discourse
+      move); any value not already in shared/argument_step_taxonomy.json's
+      typeToCategory needs one registry entry (definition, inclusion/
+      exclusion criteria, real evidence-based category, Hebrew only if
+      genuinely established) before validate_argument_taxonomy.py passes.
+      See docs/reports/argumentflow-category-decision.md.
+- [ ] sourceRefs: author the canonical object form from the start
+      ({ sourceType, lineId, vilnaLine, note? }), never the legacy string
+      form, which exists only as Yoma's historical accommodation. See
+      docs/reports/sourcerefs-contract-decision.md.
 
 ## 3. Validator adaptation
 

@@ -1,17 +1,37 @@
 #!/usr/bin/env python3
 """
-validate_source_refs.py - referential-integrity gate for argumentFlow
-sourceRefs.
+validate_source_refs.py - referential-integrity and contract gate for
+argumentFlow sourceRefs.
 
-An argumentFlow step may carry sourceRefs[] anchoring that step to specific
-source lines. Two shapes exist in the corpus today:
+CANONICAL CONTRACT (docs/reports/sourcerefs-contract-decision.md has the
+full decision record and evidence)
 
-  string form  "Yoma.<daf>.<segment>"  - a Sefaria segment reference
-  object form  {sourceType, lineId, vilnaLine, note?}
+sourceRefs is a discriminated union of exactly two legal shapes:
 
-The canonical form is the object form. See
-docs/reports/source-refs-normalization-plan.md for the full schema, the
-current defect inventory, and why normalization is not yet applied.
+  object form  {sourceType, lineId, vilnaLine, note?} - the canonical form.
+               lineId is exact segment identity; vilnaLine is Vilna
+               location metadata. They are DIFFERENT coordinate systems and
+               are never compared as if interchangeable: lineId names the
+               containing segment, vilnaLine is validated by interval
+               CONTAINMENT within that segment, never by numeric equality.
+               sourceType must be one of LEGAL_SOURCE_TYPES ("gemara",
+               "mishnah", "unknown"). "unknown" is the contract's explicit
+               representation for "exact segment identity is certain but
+               source kind cannot be established from repo evidence" - it
+               exists so a future repair never has to guess a sourceType to
+               satisfy a required field, not because any ref currently uses
+               it.
+  string form  "Yoma.<daf>.<segment>" - a legacy Sefaria segment reference,
+               legal only when it resolves to exactly one local line on the
+               same daf via that line's sefariaRef. Preserved deliberately:
+               converting it to object form would require inventing
+               sourceType, which the contract forbids, so this shape stays
+               legal rather than being forced into a uniform representation
+               it cannot honestly support.
+
+No other shape is legal. See docs/reports/source-refs-normalization-plan.md
+for the full defect inventory and the four-PR migration plan for the
+defects this validator finds.
 
 WHAT THIS CHECKS
 
@@ -22,8 +42,9 @@ when:
 
   string form  the ref resolves to exactly one line id on its own daf via
                that line's sefariaRef
-  object form  lineId exists on the ref's daf, AND vilnaLine falls inside
-               that line id's Vilna interval
+  object form  lineId exists on the ref's daf, vilnaLine falls inside that
+               line id's Vilna interval (containment, never equality), and
+               sourceType is one of LEGAL_SOURCE_TYPES
 
 Line ids are derived here with the same rule build_learning_data.py uses
 (zero-padded daf, zero-padded Vilna line, letter suffix when one Vilna line
@@ -54,6 +75,10 @@ LEARN_DIR = ROOT / "assets" / "learning" / "yoma"
 STRING_REF_RE = re.compile(r"^Yoma\.(\d+[ab])\.(\d+)$")
 DAF_RE = re.compile(r"^(\d+)([ab])$")
 VILNA_CEILING = 10 ** 6
+
+# The contract's controlled sourceType vocabulary. "unknown" is legal but
+# not currently used by any ref in the corpus - see the module docstring.
+LEGAL_SOURCE_TYPES = {"gemara", "mishnah", "unknown"}
 
 
 def daf_pad(daf):
@@ -202,7 +227,11 @@ def classify_daf(daf, sugyot):
                 if vilna is None:
                     add("OBJECT_NO_VILNALINE", sugya, step, ref)
                 elif anchor["start"] <= vilna < anchor["end"]:
-                    add("OK", sugya, step, ref)
+                    if ref.get("sourceType") not in LEGAL_SOURCE_TYPES:
+                        add("OBJECT_SOURCETYPE_INVALID", sugya, step, ref,
+                            legalValues=sorted(LEGAL_SOURCE_TYPES))
+                    else:
+                        add("OK", sugya, step, ref)
                 else:
                     add("OBJECT_COORDINATE_CONFLICT", sugya, step, ref,
                         lineIdInterval=[anchor["start"], anchor["end"]],
@@ -220,6 +249,7 @@ DEFECT_CLASSES = [
     "OBJECT_DANGLING_NO_VILNA", "OBJECT_DANGLING_REPAIRABLE",
     "OBJECT_DANGLING_AMBIGUOUS", "OBJECT_DANGLING_NO_ANCHOR",
     "OBJECT_NO_VILNALINE", "OBJECT_COORDINATE_CONFLICT",
+    "OBJECT_SOURCETYPE_INVALID",
 ]
 
 # Defects a migration can settle mechanically from repo data alone.

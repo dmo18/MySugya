@@ -1,0 +1,30 @@
+{
+  "shapeCounts": {
+    "object": 1650,
+    "string": 331
+  },
+  "objectKeySets": {
+    "lineId + note + sourceType + vilnaLine": 421,
+    "lineId + sourceType + vilnaLine": 1229
+  },
+  "sourceTypeValues": {
+    "gemara": 1647,
+    "mishnah": 3
+  },
+  "missingSourceTypeOnObjectRefs": 0,
+  "stepsWithNullOrEmptySourceRefs": 0,
+  "totalStringRefs": 331,
+  "totalObjectRefs": 1650,
+  "totalRefs": 1981,
+  "classification": {
+    "OK": 1100,
+    "OBJECT_DANGLING_AMBIGUOUS": 50,
+    "OBJECT_DANGLING_REPAIRABLE": 412,
+    "STRING_RESOLVABLE": 331,
+    "OBJECT_COORDINATE_CONFLICT": 88
+  },
+  "soundTotal": 1431,
+  "defectiveTotal": 550,
+  "mechanicallyRepairable": 412,
+  "judgmentRequired": 138
+}

@@ -74,7 +74,6 @@ per-shard test-count arithmetic reproduced from first principles.
 |---|---|
 | Rashi translation-quality audit coverage | The corpus-wide translation-quality (not scaffold, not association) audit is not yet complete for every daf. A git-history-grounded coverage map exists in `docs/rashi-audit-backlog.md` but predates the 7a/9b repairs and the post-15.293 work. Reconstructing an exact per-daf audited/unaudited/uncertain list is the next actionable step. |
 
-| `argumentFlow.type` controlled vocabulary | **Mislabelling fixed at 15.350; the vocabulary decision is still open.** `schema_map.js` declares the field required and canonical over 13 values; the corpus uses 106 more across 1,320 of 1,953 steps (417/492 sugyot, 163/173 daf). The renderer no longer mislabels them: `stepMetaFor` shows an unrecognised type's own name instead of falling back to the `question` entry, and leaves Hebrew empty rather than inventing it. What remains is editorial and mutually exclusive: widen `controlledValues.argumentStepType` (each new `STEP_META` row needs a Hebrew term and symbol, which cannot be invented) or re-type the 1,320 steps down to 13 (lossy, `structural-repair` scope). A new tractate must not inherit this drift. See `docs/reports/sugya-schema-readiness.md`. |
 | Replication tooling parameterization | 7 shared tools at the repo root hardcode `modules/yoma`, chief among them `worker_pipeline.py`, whose `--module` flag is cosmetic because `YROOT` is pinned. Blocks any second tractate from using the worker pipeline. Not urgent while Yoma is the only module. See `docs/reports/replication-readiness.md`. |
 
 Nothing else is currently blocked on code.
@@ -85,7 +84,7 @@ Nothing else is currently blocked on code.
 
 | Item | Why paused | Unblocking condition |
 |---|---|---|
-| `argumentFlow.sourceRefs` normalization | **Unblocked as tooling, now blocked on content judgment.** The canonical schema, validator (`npm run validate:sourcerefs:yoma`), unit tests, and dry-run migration preview (`npm run preview:sourcerefs:yoma`) all exist as of VERSION 15.347. The migration is still not applied: of 550 defective refs across 102 daf, 412 are mechanically repairable with all losslessness invariants passing, but 138 need a human reading the step text against the Gemara, and the 331 sound string refs cannot be converted without inventing a `sourceType`. Full inventory and four-PR plan: `docs/reports/source-refs-normalization-plan.md`. | Operator authorization for the judgment PRs (plan PRs 1 and 2), which are `structural-repair` scope. Nothing renders `sourceRefs` today, so nothing is blocked on it. |
+| `argumentFlow.sourceRefs` normalization | **Contract formalized at VERSION 15.358 (Phase 2B of `docs/platform-closure-plan.md`); migration authorized and in progress.** The canonical discriminated-union contract (object form with a controlled sourceType vocabulary including an explicit `unknown` state, or the legacy string form) is now documented and enforced by `validate_source_refs.py`'s `OBJECT_SOURCETYPE_INVALID` check. See `docs/reports/sourcerefs-contract-decision.md`. Of 550 defective refs across 102 daf, 412 are mechanically repairable and 138 need a human reading the step text against the Gemara; the 331 sound string refs stay in string form since converting them would require inventing `sourceType`. The operator's Phase 2 instructions authorize proceeding through the mechanical and judgment-required repair PRs directly. | Sequential structural-repair PRs (mechanical, then judgment-required), tracked in `docs/reports/source-refs-normalization-plan.md`. |
 
 ---
 
@@ -125,6 +124,7 @@ COMPLETED below.
 
 | Item | Evidence |
 |---|---|
+| `argumentFlow.type` category coverage | **Resolved at VERSION 15.358** (Phase 2A of `docs/platform-closure-plan.md`). `category` is derived from `shared/argument_step_taxonomy.json`, a versioned registry mapping all 119 observed `type` values (13 original + 106 more, evidence-reviewed) to 21 discourse-function categories - never stored per step, so zero content files were touched. `validate_argument_taxonomy.py` proves 100% coverage, zero malformed values, and app.jsx/registry byte-parity. The renderer shows every step's own type name; category only supplies Hebrew/symbol where genuinely established (`ruling`->פְּסָק, `dispute`->מַחֲלוֹקֶת, `narrative`->אַגָּדָה, plus the 13 original terms). See `docs/reports/argumentflow-category-decision.md`. |
 | Scaffold-fabrication remediation campaign | 0 debt entries across 0 daf; `audit_rashi_scaffold.py` clean; content allowlist empty. |
 | `linkedGemaraLineIds` association layer | 0 broken, 0 cross-daf across 10,047 associations. |
 | Linked-renderer cutover | VERSION 15.338 at `ef58878`; see the evidence table above. |

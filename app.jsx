@@ -1478,43 +1478,181 @@ function CountUpStat({ value, label, suffix }) {
 }
 
 // ----- argument step metadata: maps schema step types to symbol + Hebrew ----
-const STEP_META = {
-  case:              { he: "מַעֲשֶׂה",  sym: "▦", en: "Case" },
-  question:          { he: "שְׁאֵלָה",  sym: "?", en: "Question" },
-  proposal:          { he: "הַצָּעָה",  sym: "✎", en: "Proposal" },
-  challenge:         { he: "קֻשְׁיָא",  sym: "↯", en: "Challenge" },
-  objection:         { he: "קֻשְׁיָא",  sym: "↯", en: "Objection" },
-  counter_objection: { he: "פִּרְכָא",  sym: "⇄", en: "Counter" },
-  proof:             { he: "רְאָיָה",   sym: "§", en: "Proof" },
-  answer:            { he: "תֵּירוּץ",  sym: "✓", en: "Answer" },
-  distinction:       { he: "חִילּוּק",  sym: "⌥", en: "Distinction" },
-  qualification:     { he: "סְיָג",     sym: "≈", en: "Qualification" },
-  rejection:         { he: "דְּחִיָּה", sym: "✗", en: "Rejection" },
-  resolution:        { he: "מַסְקָנָא", sym: "✓", en: "Resolution" },
-  takeaway:          { he: "כְּלָל",    sym: "★", en: "Takeaway" },
+// BEGIN GENERATED ARGUMENT TAXONOMY (source: shared/argument_step_taxonomy.json;
+// regenerate with: python3 scripts/generate_argument_taxonomy.py)
+// Do NOT hand-edit between these markers - see the source JSON.
+const ARGUMENT_CATEGORIES = {
+  case: { he: "מַעֲשֶׂה", sym: "▦", en: "Case" },
+  description: { he: null, sym: "○", en: "Description" },
+  narrative: { he: "אַגָּדָה", sym: "❧", en: "Narrative" },
+  dispute: { he: "מַחֲלוֹקֶת", sym: "⇌", en: "Dispute" },
+  position: { he: "הַצָּעָה", sym: "✎", en: "Position" },
+  inquiry: { he: "שְׁאֵלָה", sym: "?", en: "Inquiry" },
+  support: { he: "רְאָיָה", sym: "§", en: "Support" },
+  reasoning: { he: null, sym: "○", en: "Reasoning" },
+  elaboration: { he: null, sym: "○", en: "Elaboration" },
+  challenge: { he: "קֻשְׁיָא", sym: "↯", en: "Challenge" },
+  objection: { he: "קֻשְׁיָא", sym: "↯", en: "Objection" },
+  counter_objection: { he: "פִּרְכָא", sym: "⇄", en: "Counter" },
+  distinction: { he: "חִילּוּק", sym: "⌥", en: "Distinction" },
+  qualification: { he: "סְיָג", sym: "≈", en: "Qualification" },
+  rejection: { he: "דְחִיָּה", sym: "✗", en: "Rejection" },
+  resolution: { he: "מַסְקָנָא", sym: "✓", en: "Resolution" },
+  takeaway: { he: "כְּלָל", sym: "★", en: "Takeaway" },
+  ruling: { he: "פְּסָק", sym: "⚖", en: "Ruling" },
+  procedure: { he: null, sym: "○", en: "Procedure" },
+  meta: { he: null, sym: "○", en: "Meta" },
+  answer: { he: "תֵּירוּץ", sym: "✓", en: "Answer" },
 };
+const ARGUMENT_TYPE_TO_CATEGORY = {
+  action: "procedure",
+  addition: "qualification",
+  additional: "reasoning",
+  agency: "procedure",
+  aggadah: "narrative",
+  alternative: "position",
+  analogy: "reasoning",
+  analysis: "reasoning",
+  answer: "answer",
+  application: "reasoning",
+  argument: "reasoning",
+  assertion: "ruling",
+  attempt: "position",
+  carriers: "procedure",
+  case: "case",
+  cases: "case",
+  challenge: "challenge",
+  citation: "support",
+  claim: "position",
+  clarification: "reasoning",
+  closing: "resolution",
+  comparison: "reasoning",
+  completion: "procedure",
+  complication: "inquiry",
+  concept: "takeaway",
+  concern: "inquiry",
+  conclusion: "resolution",
+  confession: "procedure",
+  content: "description",
+  context: "description",
+  continuation: "procedure",
+  contradiction: "inquiry",
+  contrast: "distinction",
+  counter: "objection",
+  counter_objection: "counter_objection",
+  counterpoint: "counter_objection",
+  crux: "distinction",
+  deduction: "resolution",
+  derivation: "support",
+  description: "description",
+  detail: "description",
+  digression: "meta",
+  discussion: "reasoning",
+  dispatch: "procedure",
+  dispute: "dispute",
+  dissent: "objection",
+  distinction: "distinction",
+  effect: "procedure",
+  elaboration: "elaboration",
+  evaluation: "reasoning",
+  example: "reasoning",
+  explanation: "reasoning",
+  exposition: "narrative",
+  "follow-up": "inquiry",
+  hypothesis: "position",
+  identification: "position",
+  implication: "reasoning",
+  incident: "narrative",
+  inference: "reasoning",
+  institution: "procedure",
+  interpretation: "reasoning",
+  introduction: "case",
+  justification: "reasoning",
+  list: "ruling",
+  measurement: "description",
+  mention: "description",
+  mishna: "case",
+  mnemonic: "takeaway",
+  narrative: "narrative",
+  "new case": "case",
+  new_topic: "case",
+  note: "narrative",
+  nuance: "distinction",
+  objection: "objection",
+  opinion: "position",
+  order: "procedure",
+  parallel: "reasoning",
+  penalty: "ruling",
+  position: "position",
+  premise: "support",
+  principle: "takeaway",
+  problem: "inquiry",
+  proof: "support",
+  proposal: "position",
+  qualification: "qualification",
+  question: "inquiry",
+  quotation: "narrative",
+  rationale: "reasoning",
+  reaction: "procedure",
+  reason: "reasoning",
+  reasoning: "reasoning",
+  refutation: "counter_objection",
+  rejection: "rejection",
+  relay: "procedure",
+  report: "description",
+  resolution: "resolution",
+  response: "narrative",
+  resumption: "procedure",
+  ruling: "ruling",
+  scope: "qualification",
+  sequence: "procedure",
+  significance: "takeaway",
+  solution: "resolution",
+  statement: "description",
+  structure: "procedure",
+  stub: "inquiry",
+  summary: "meta",
+  support: "support",
+  symmetry: "reasoning",
+  takeaway: "takeaway",
+  teaching: "takeaway",
+  technique: "procedure",
+  theology: "narrative",
+  total: "procedure",
+  tradition: "support",
+  transfer: "procedure",
+  transition: "meta",
+  unresolved: "resolution",
+  verdict: "resolution",
+};
+// END GENERATED ARGUMENT TAXONOMY
 
 // Display metadata for one argument step.
 //
-// STEP_META covers the 13 values in controlledValues.argumentStepType, but the
-// corpus carries 106 more (ruling, elaboration, derivation, narrative, ...),
-// which is a known open item - see docs/reports/sugya-schema-readiness.md.
-// This used to fall back to the question entry, which told the learner
-// something false: `ruling`, the single most common type in the corpus, was
-// labelled "Question" with the Hebrew for question and a question-mark symbol.
+// Category is looked up through ARGUMENT_TYPE_TO_CATEGORY (generated from
+// shared/argument_step_taxonomy.json), which maps every type value observed
+// in the corpus to one of a small set of categories - see
+// docs/reports/argumentflow-category-decision.md for why category is
+// derived from a registry rather than stored on each step, and for the
+// discourse-function evidence behind every mapping.
 //
-// An unrecognised type now shows its own name instead. Hebrew is left empty
-// rather than invented, and callers omit the Hebrew element when it is, so an
-// unclassified step reads as itself rather than as the wrong thing.
+// The displayed `en` label is always the step's OWN type name, humanized -
+// never the category's name. Category only supplies sym/he, so many
+// differently-named steps can share one visual treatment while each still
+// reads as itself. This used to fall back to the question entry for any
+// unrecognised type, which told the learner something false: `ruling`, the
+// single most common type in the corpus, was labelled "Question" with the
+// Hebrew for question and a question-mark symbol. A type absent from the
+// registry entirely (not yet seen in any corpus, e.g. a future tractate's
+// new vocabulary) falls back the same safe way: its own name, no invented
+// Hebrew, a neutral symbol.
 function stepMetaFor(type) {
-  const known = STEP_META[type];
-  if (known) return known;
   const label = String(type || "").replace(/[_-]+/g, " ").trim();
-  return {
-    he: "",
-    sym: "○",
-    en: label ? label.charAt(0).toUpperCase() + label.slice(1) : "Step",
-  };
+  const en = label ? label.charAt(0).toUpperCase() + label.slice(1) : "Step";
+  const category = ARGUMENT_TYPE_TO_CATEGORY[type];
+  const meta = category && ARGUMENT_CATEGORIES[category];
+  if (meta) return { he: meta.he || "", sym: meta.sym, en };
+  return { he: "", sym: "○", en };
 }
 const FLOW_FALLBACK = [
   { type: "question",   label: "A question is raised" },

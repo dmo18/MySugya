@@ -1,12 +1,12 @@
 {
   "name": "mysugya",
   "private": true,
-  "version": "15.357",
+  "version": "15.358",
   "description": "My Sugya - universal Talmud study companion",
   "scripts": {
     "build": "node scripts/build.mjs",
     "check:deploy-html": "node scripts/check-deploy-html.mjs",
-    "test": "python3 modules/yoma/scripts/test_js_parser.py && npm run test:drift:yoma && npm run test:packet:yoma && npm run test:scaffold:yoma && npm run test:rashi-docs:yoma && npm run test:policy && npm run test:rashi-association-audit:yoma && npm run test:rashi:boundary:yoma && npm run test:sourcerefs:yoma && python3 tests/smoke/render_check.py && node tests/unit/rashi-association.test.mjs && node tests/unit/rashi-browser-shards.test.mjs",
+    "test": "python3 modules/yoma/scripts/test_js_parser.py && npm run test:drift:yoma && npm run test:packet:yoma && npm run test:scaffold:yoma && npm run test:rashi-docs:yoma && npm run test:policy && npm run test:rashi-association-audit:yoma && npm run test:rashi:boundary:yoma && npm run test:sourcerefs:yoma && npm run test:argument-taxonomy:yoma && python3 tests/smoke/render_check.py && node tests/unit/rashi-association.test.mjs && node tests/unit/rashi-browser-shards.test.mjs",
     "test:yoma-parser": "python3 modules/yoma/scripts/test_js_parser.py",
     "test:drift:yoma": "cd modules/yoma && python3 scripts/test_drift_profile.py",
     "test:packet:yoma": "cd modules/yoma && python3 scripts/test_rashi_packet.py",
@@ -49,7 +49,7 @@
     "worker:queue": "python3 scripts/worker_pipeline.py queue",
     "worker:capability-scan": "python3 scripts/worker_pipeline.py capability-scan",
     "worker:schema-matrix": "python3 scripts/worker_pipeline.py schema-matrix",
-    "validate:offline:yoma": "npm run check:generated:yoma && npm run validate:schema:yoma && npm run validate:daftext:yoma && npm run validate:rashi:yoma && npm run validate:rashi:content:yoma && npm run audit:rashi:scaffold:yoma && npm run validate:rashi:links:yoma && npm run validate:rashi:boundary:yoma && npm run validate:rashi:dupes:yoma && npm run validate:literal:yoma && npm run audit:order:yoma && npm run check:rashi-docs:yoma",
+    "validate:offline:yoma": "npm run check:generated:yoma && npm run validate:schema:yoma && npm run validate:daftext:yoma && npm run validate:rashi:yoma && npm run validate:rashi:content:yoma && npm run audit:rashi:scaffold:yoma && npm run validate:rashi:links:yoma && npm run validate:rashi:boundary:yoma && npm run validate:rashi:dupes:yoma && npm run validate:literal:yoma && npm run audit:order:yoma && npm run check:rashi-docs:yoma && npm run validate:argument-taxonomy:yoma",
     "validate:schema:yoma": "cd modules/yoma && python3 scripts/validate_schema_completeness.py",
     "fetch:literal:yoma": "cd modules/yoma && python3 scripts/fetch_literal_en.py --all --skip-existing",
     "build:literal:yoma": "cd modules/yoma && python3 scripts/build_literal_layer.py --apply",
@@ -67,7 +67,11 @@
     "test:sourcerefs:yoma": "cd modules/yoma && python3 scripts/test_validate_source_refs.py",
     "audit:schema:semantics:yoma": "cd modules/yoma && python3 scripts/audit_schema_semantics.py",
     "report:schema:semantics:yoma": "cd modules/yoma && python3 scripts/audit_schema_semantics.py --report",
-    "audit:replication": "python3 scripts/audit_replication_readiness.py"
+    "audit:replication": "python3 scripts/audit_replication_readiness.py",
+    "validate:argument-taxonomy:yoma": "cd modules/yoma && python3 scripts/validate_argument_taxonomy.py",
+    "test:argument-taxonomy:yoma": "cd modules/yoma && python3 scripts/test_validate_argument_taxonomy.py",
+    "generate:argument-taxonomy": "python3 scripts/generate_argument_taxonomy.py",
+    "generate:phase2-inventory:yoma": "cd modules/yoma && python3 scripts/generate_phase2_inventory.py"
   },
   "dependencies": {
     "react": "18.3.1",

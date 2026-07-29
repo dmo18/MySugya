@@ -1,0 +1,3078 @@
+{
+  "sugyotTotal": 492,
+  "argumentFlowStepsTotal": 1953,
+  "distinctTypeValues": 119,
+  "malformedTypeCount": 0,
+  "malformed": [],
+  "nonStringTypeCount": 0,
+  "nonStringType": [],
+  "emptyTypeCount": 0,
+  "emptyType": [],
+  "typeFrequency": {
+    "ruling": 515,
+    "elaboration": 212,
+    "question": 151,
+    "resolution": 116,
+    "proof": 102,
+    "case": 70,
+    "objection": 66,
+    "analysis": 47,
+    "narrative": 45,
+    "dispute": 44,
+    "claim": 31,
+    "challenge": 30,
+    "conclusion": 29,
+    "principle": 29,
+    "derivation": 29,
+    "distinction": 28,
+    "answer": 27,
+    "reason": 24,
+    "premise": 22,
+    "rejection": 22,
+    "explanation": 21,
+    "application": 19,
+    "detail": 17,
+    "proposal": 13,
+    "position": 13,
+    "description": 12,
+    "implication": 10,
+    "statement": 9,
+    "citation": 9,
+    "assertion": 6,
+    "teaching": 6,
+    "significance": 6,
+    "solution": 5,
+    "contradiction": 5,
+    "completion": 5,
+    "theology": 5,
+    "aggadah": 5,
+    "opinion": 4,
+    "support": 4,
+    "counter": 4,
+    "complication": 4,
+    "attempt": 4,
+    "identification": 4,
+    "contrast": 4,
+    "digression": 4,
+    "qualification": 4,
+    "action": 4,
+    "tradition": 3,
+    "transition": 3,
+    "reasoning": 3,
+    "order": 3,
+    "nuance": 3,
+    "context": 3,
+    "content": 3,
+    "continuation": 3,
+    "parallel": 2,
+    "addition": 2,
+    "interpretation": 2,
+    "refutation": 2,
+    "verdict": 2,
+    "list": 2,
+    "argument": 2,
+    "analogy": 2,
+    "inference": 2,
+    "technique": 2,
+    "problem": 2,
+    "total": 2,
+    "summary": 2,
+    "institution": 2,
+    "reaction": 2,
+    "takeaway": 2,
+    "counter_objection": 2,
+    "comparison": 2,
+    "hypothesis": 2,
+    "clarification": 2,
+    "dissent": 1,
+    "mishna": 1,
+    "deduction": 1,
+    "alternative": 1,
+    "evaluation": 1,
+    "unresolved": 1,
+    "new_topic": 1,
+    "mnemonic": 1,
+    "report": 1,
+    "justification": 1,
+    "concern": 1,
+    "rationale": 1,
+    "quotation": 1,
+    "counterpoint": 1,
+    "additional": 1,
+    "measurement": 1,
+    "note": 1,
+    "concept": 1,
+    "introduction": 1,
+    "example": 1,
+    "new case": 1,
+    "crux": 1,
+    "effect": 1,
+    "dispatch": 1,
+    "relay": 1,
+    "sequence": 1,
+    "stub": 1,
+    "symmetry": 1,
+    "carriers": 1,
+    "cases": 1,
+    "scope": 1,
+    "penalty": 1,
+    "resumption": 1,
+    "confession": 1,
+    "transfer": 1,
+    "agency": 1,
+    "structure": 1,
+    "discussion": 1,
+    "follow-up": 1,
+    "mention": 1,
+    "response": 1,
+    "exposition": 1,
+    "incident": 1,
+    "closing": 1
+  },
+  "typeDafSpread": {
+    "proof": [
+      "10a",
+      "12a",
+      "12b",
+      "14a",
+      "16a",
+      "20a",
+      "20b",
+      "21a",
+      "21b",
+      "23a",
+      "23b",
+      "24a",
+      "25a",
+      "25b",
+      "26a",
+      "26b",
+      "27a",
+      "28b",
+      "29a",
+      "29b",
+      "2a",
+      "32a",
+      "32b",
+      "33a",
+      "34a",
+      "35b",
+      "36b",
+      "37a",
+      "37b",
+      "38b",
+      "3b",
+      "46b",
+      "4a",
+      "4b",
+      "5a",
+      "5b",
+      "6a",
+      "6b",
+      "79b",
+      "7a",
+      "81a",
+      "81b",
+      "82a",
+      "83a",
+      "83b",
+      "84a",
+      "84b",
+      "85a",
+      "85b",
+      "86a",
+      "86b",
+      "9b"
+    ],
+    "statement": [
+      "10a",
+      "56a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "conclusion": [
+      "10a",
+      "12a",
+      "15a",
+      "16a",
+      "16b",
+      "19a",
+      "21b",
+      "22b",
+      "23a",
+      "23b",
+      "24a",
+      "24b",
+      "66b",
+      "7b",
+      "81a",
+      "81b",
+      "82a",
+      "83a",
+      "83b",
+      "84a"
+    ],
+    "dissent": [
+      "10a"
+    ],
+    "opinion": [
+      "10a",
+      "12a"
+    ],
+    "question": [
+      "10b",
+      "11a",
+      "11b",
+      "12a",
+      "12b",
+      "13a",
+      "14a",
+      "15b",
+      "18a",
+      "19a",
+      "20b",
+      "21b",
+      "22a",
+      "22b",
+      "23b",
+      "24b",
+      "25a",
+      "25b",
+      "26a",
+      "27a",
+      "27b",
+      "28b",
+      "29b",
+      "2a",
+      "30a",
+      "30b",
+      "31a",
+      "32a",
+      "32b",
+      "33a",
+      "34a",
+      "34b",
+      "35a",
+      "35b",
+      "36a",
+      "36b",
+      "37a",
+      "38b",
+      "39b",
+      "3b",
+      "40b",
+      "41a",
+      "43b",
+      "44a",
+      "46a",
+      "47a",
+      "47b",
+      "48a",
+      "48b",
+      "49a",
+      "49b",
+      "4a",
+      "4b",
+      "50a",
+      "50b",
+      "51a",
+      "52a",
+      "55a",
+      "57a",
+      "58a",
+      "5b",
+      "61a",
+      "62a",
+      "63a",
+      "64a",
+      "66b",
+      "67a",
+      "67b",
+      "69a",
+      "6a",
+      "6b",
+      "73a",
+      "73b",
+      "77b",
+      "78a",
+      "78b",
+      "79a",
+      "7a",
+      "81a",
+      "82b",
+      "83a",
+      "84a",
+      "85a",
+      "86a",
+      "86b",
+      "87a",
+      "87b",
+      "8a",
+      "8b",
+      "9b"
+    ],
+    "resolution": [
+      "10b",
+      "11a",
+      "11b",
+      "13b",
+      "14a",
+      "14b",
+      "15a",
+      "15b",
+      "16a",
+      "17b",
+      "18a",
+      "19b",
+      "20b",
+      "21b",
+      "25a",
+      "25b",
+      "26a",
+      "26b",
+      "27b",
+      "28a",
+      "28b",
+      "29a",
+      "29b",
+      "2a",
+      "30b",
+      "31b",
+      "32b",
+      "33b",
+      "34a",
+      "34b",
+      "35a",
+      "35b",
+      "36a",
+      "36b",
+      "3a",
+      "3b",
+      "40a",
+      "40b",
+      "45a",
+      "45b",
+      "47b",
+      "48a",
+      "49a",
+      "4a",
+      "4b",
+      "50a",
+      "51a",
+      "51b",
+      "53a",
+      "55a",
+      "5b",
+      "62a",
+      "6a",
+      "6b",
+      "72a",
+      "72b",
+      "73b",
+      "77a",
+      "78b",
+      "79b",
+      "7b",
+      "80a",
+      "80b",
+      "81a",
+      "83b",
+      "85a",
+      "85b",
+      "86a",
+      "86b",
+      "87a",
+      "87b",
+      "88a",
+      "8a",
+      "8b",
+      "9b"
+    ],
+    "proposal": [
+      "10b",
+      "2a",
+      "2b",
+      "3a",
+      "3b"
+    ],
+    "assertion": [
+      "11a",
+      "11b"
+    ],
+    "support": [
+      "11a",
+      "11b",
+      "63a"
+    ],
+    "counter": [
+      "11a",
+      "13a",
+      "42b",
+      "48b"
+    ],
+    "complication": [
+      "11a",
+      "11b"
+    ],
+    "dispute": [
+      "11b",
+      "12a",
+      "12b",
+      "14b",
+      "17b",
+      "20b",
+      "21b",
+      "24a",
+      "24b",
+      "42a",
+      "42b",
+      "43b",
+      "44a",
+      "45a",
+      "45b",
+      "56b",
+      "58b",
+      "60a",
+      "61a",
+      "62a",
+      "67b",
+      "68a",
+      "68b",
+      "70a",
+      "71a",
+      "73b",
+      "74b",
+      "75a",
+      "78b",
+      "79b",
+      "7b",
+      "83b",
+      "8a",
+      "9b"
+    ],
+    "parallel": [
+      "11b",
+      "55b"
+    ],
+    "elaboration": [
+      "12a",
+      "16a",
+      "16b",
+      "17b",
+      "18a",
+      "19b",
+      "21a",
+      "21b",
+      "22a",
+      "22b",
+      "23a",
+      "23b",
+      "24a",
+      "24b",
+      "35a",
+      "35b",
+      "36a",
+      "36b",
+      "37a",
+      "37b",
+      "38a",
+      "38b",
+      "39a",
+      "39b",
+      "40a",
+      "40b",
+      "41a",
+      "41b",
+      "53a",
+      "53b",
+      "54b",
+      "77a",
+      "77b",
+      "78a",
+      "78b",
+      "79b",
+      "80a",
+      "81a",
+      "81b",
+      "82a",
+      "82b",
+      "83a",
+      "83b",
+      "84a",
+      "84b"
+    ],
+    "case": [
+      "12a",
+      "12b",
+      "2a",
+      "30a",
+      "3a",
+      "3b",
+      "43b",
+      "45a",
+      "47a",
+      "4b",
+      "5a",
+      "62b",
+      "6b",
+      "77b",
+      "78a",
+      "81a",
+      "81b",
+      "82a",
+      "83a",
+      "84b",
+      "85a",
+      "85b",
+      "86a",
+      "86b",
+      "87a",
+      "87b",
+      "88a"
+    ],
+    "answer": [
+      "12b",
+      "13a",
+      "14a",
+      "2a",
+      "3b",
+      "43b",
+      "4a",
+      "4b",
+      "55a",
+      "57a",
+      "5b",
+      "64a",
+      "66b",
+      "6a",
+      "6b",
+      "85a",
+      "8a",
+      "8b"
+    ],
+    "tradition": [
+      "12b",
+      "55a"
+    ],
+    "ruling": [
+      "12b",
+      "13a",
+      "13b",
+      "17b",
+      "18a",
+      "18b",
+      "19b",
+      "20a",
+      "21a",
+      "21b",
+      "22a",
+      "22b",
+      "23a",
+      "23b",
+      "24a",
+      "24b",
+      "25a",
+      "25b",
+      "26a",
+      "26b",
+      "27a",
+      "27b",
+      "28a",
+      "28b",
+      "29a",
+      "29b",
+      "30a",
+      "31a",
+      "31b",
+      "32b",
+      "33a",
+      "33b",
+      "34a",
+      "34b",
+      "35a",
+      "35b",
+      "36a",
+      "36b",
+      "37a",
+      "37b",
+      "38a",
+      "38b",
+      "39a",
+      "39b",
+      "40a",
+      "40b",
+      "41a",
+      "41b",
+      "42a",
+      "42b",
+      "43a",
+      "43b",
+      "44a",
+      "44b",
+      "45a",
+      "45b",
+      "46a",
+      "46b",
+      "47a",
+      "47b",
+      "48a",
+      "48b",
+      "49a",
+      "49b",
+      "50b",
+      "51a",
+      "51b",
+      "52a",
+      "52b",
+      "53a",
+      "53b",
+      "54b",
+      "55a",
+      "56b",
+      "57a",
+      "57b",
+      "58a",
+      "59a",
+      "59b",
+      "60a",
+      "60b",
+      "61a",
+      "61b",
+      "62a",
+      "62b",
+      "63a",
+      "64a",
+      "64b",
+      "66a",
+      "66b",
+      "67a",
+      "67b",
+      "68a",
+      "68b",
+      "69a",
+      "69b",
+      "70a",
+      "70b",
+      "71a",
+      "71b",
+      "72a",
+      "72b",
+      "73a",
+      "73b",
+      "74a",
+      "74b",
+      "75a",
+      "75b",
+      "76a",
+      "76b",
+      "77b",
+      "78a",
+      "78b",
+      "80a",
+      "80b",
+      "81a",
+      "81b",
+      "82a",
+      "83a",
+      "83b",
+      "84a",
+      "84b"
+    ],
+    "position": [
+      "13a",
+      "14a",
+      "50a",
+      "53a",
+      "54a",
+      "61a",
+      "83b"
+    ],
+    "objection": [
+      "13a",
+      "13b",
+      "14a",
+      "15a",
+      "17b",
+      "20a",
+      "20b",
+      "25a",
+      "25b",
+      "26a",
+      "26b",
+      "27a",
+      "27b",
+      "28a",
+      "28b",
+      "29a",
+      "29b",
+      "30b",
+      "31b",
+      "32a",
+      "32b",
+      "33a",
+      "33b",
+      "34b",
+      "49a",
+      "4a",
+      "50a",
+      "53a",
+      "5b",
+      "6a",
+      "72a",
+      "73a",
+      "73b",
+      "74b",
+      "76a",
+      "77a",
+      "77b",
+      "78b",
+      "79a",
+      "79b",
+      "80a",
+      "80b"
+    ],
+    "attempt": [
+      "13a"
+    ],
+    "solution": [
+      "13b",
+      "55b",
+      "57a",
+      "57b"
+    ],
+    "addition": [
+      "13b",
+      "52a"
+    ],
+    "interpretation": [
+      "13b",
+      "54a"
+    ],
+    "challenge": [
+      "13b",
+      "2a",
+      "2b",
+      "3a",
+      "3b",
+      "4a",
+      "4b",
+      "53a",
+      "5a",
+      "65b",
+      "6a",
+      "7b",
+      "85b",
+      "87b",
+      "88a",
+      "8b"
+    ],
+    "mishna": [
+      "14a"
+    ],
+    "deduction": [
+      "14a"
+    ],
+    "analysis": [
+      "14a",
+      "22b",
+      "23a",
+      "47b",
+      "48a",
+      "60a",
+      "62a",
+      "63a",
+      "64a",
+      "7b",
+      "81a",
+      "81b",
+      "83a",
+      "83b",
+      "85a",
+      "85b",
+      "86a",
+      "86b",
+      "87a",
+      "87b",
+      "88a",
+      "8a",
+      "9a"
+    ],
+    "contradiction": [
+      "14b",
+      "15b",
+      "72a",
+      "72b"
+    ],
+    "identification": [
+      "14b",
+      "19b",
+      "4b"
+    ],
+    "refutation": [
+      "14b",
+      "16b"
+    ],
+    "claim": [
+      "15a",
+      "17a",
+      "18a",
+      "20a",
+      "25a",
+      "25b",
+      "26a",
+      "26b",
+      "28b",
+      "29a",
+      "30a",
+      "30b",
+      "31b",
+      "32a",
+      "32b",
+      "34a",
+      "34b",
+      "77b"
+    ],
+    "premise": [
+      "15a",
+      "15b",
+      "16b",
+      "20a",
+      "25a",
+      "25b",
+      "26a",
+      "26b",
+      "27b",
+      "28a",
+      "28b",
+      "31a",
+      "31b",
+      "32a",
+      "33a",
+      "33b",
+      "34b",
+      "65a"
+    ],
+    "detail": [
+      "16a",
+      "16b",
+      "18a",
+      "19a",
+      "57b",
+      "58a",
+      "59a",
+      "60a",
+      "60b",
+      "61b",
+      "82a"
+    ],
+    "verdict": [
+      "17a",
+      "17b"
+    ],
+    "alternative": [
+      "17a"
+    ],
+    "evaluation": [
+      "17a"
+    ],
+    "transition": [
+      "17a",
+      "8b",
+      "9b"
+    ],
+    "unresolved": [
+      "18a"
+    ],
+    "new_topic": [
+      "18a"
+    ],
+    "narrative": [
+      "18a",
+      "19b",
+      "20b",
+      "22a",
+      "22b",
+      "23a",
+      "42a",
+      "43a",
+      "43b",
+      "44a",
+      "45b",
+      "47a",
+      "69b",
+      "70a",
+      "71a",
+      "71b",
+      "73a",
+      "75b",
+      "77a",
+      "77b",
+      "78a",
+      "82b",
+      "83b",
+      "84b"
+    ],
+    "mnemonic": [
+      "18a"
+    ],
+    "list": [
+      "18a",
+      "18b"
+    ],
+    "report": [
+      "18b"
+    ],
+    "justification": [
+      "18b"
+    ],
+    "concern": [
+      "18b"
+    ],
+    "description": [
+      "19a",
+      "19b",
+      "52b",
+      "53b",
+      "59a",
+      "84a"
+    ],
+    "reasoning": [
+      "19a",
+      "44b"
+    ],
+    "argument": [
+      "19a"
+    ],
+    "explanation": [
+      "19b",
+      "20b",
+      "21a",
+      "47a",
+      "49b",
+      "51a",
+      "51b",
+      "52b",
+      "53a",
+      "54b",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "rationale": [
+      "19b"
+    ],
+    "quotation": [
+      "19b"
+    ],
+    "application": [
+      "20b",
+      "2a",
+      "49b",
+      "51a",
+      "53b",
+      "56b",
+      "60a",
+      "61b",
+      "63a",
+      "64b",
+      "65a",
+      "65b",
+      "77b",
+      "78a",
+      "78b",
+      "7b",
+      "80b",
+      "8a"
+    ],
+    "contrast": [
+      "20b",
+      "22b",
+      "60b",
+      "9b"
+    ],
+    "counterpoint": [
+      "21b"
+    ],
+    "digression": [
+      "22a",
+      "66a",
+      "66b",
+      "67a"
+    ],
+    "principle": [
+      "22b",
+      "24a",
+      "49b",
+      "50b",
+      "51a",
+      "51b",
+      "52a",
+      "53a",
+      "53b",
+      "55a",
+      "57a",
+      "57b",
+      "61a",
+      "61b",
+      "62b",
+      "63a",
+      "63b",
+      "64a",
+      "64b",
+      "65a",
+      "77b",
+      "79b",
+      "80a",
+      "80b"
+    ],
+    "distinction": [
+      "23a",
+      "3b",
+      "4b",
+      "5a",
+      "5b",
+      "65a",
+      "65b",
+      "6a",
+      "6b",
+      "77b",
+      "78a",
+      "78b",
+      "79a",
+      "80a",
+      "80b",
+      "81a",
+      "81b",
+      "83a",
+      "83b",
+      "84b"
+    ],
+    "additional": [
+      "23b"
+    ],
+    "analogy": [
+      "26a",
+      "50b"
+    ],
+    "rejection": [
+      "2a",
+      "2b",
+      "3a",
+      "6a",
+      "7a",
+      "7b",
+      "8a"
+    ],
+    "qualification": [
+      "3a",
+      "4a",
+      "6b"
+    ],
+    "citation": [
+      "42a",
+      "42b",
+      "43a",
+      "44a",
+      "46a",
+      "47a",
+      "48a",
+      "53a",
+      "83a"
+    ],
+    "derivation": [
+      "42b",
+      "43a",
+      "43b",
+      "44a",
+      "44b",
+      "45a",
+      "45b",
+      "47a",
+      "4b",
+      "53b",
+      "55a",
+      "58a",
+      "62b",
+      "63a",
+      "63b",
+      "77a",
+      "77b",
+      "80a",
+      "81a",
+      "81b",
+      "82a"
+    ],
+    "implication": [
+      "49a",
+      "50a",
+      "50b",
+      "52b",
+      "53b",
+      "54a",
+      "62b",
+      "65b"
+    ],
+    "inference": [
+      "4b",
+      "7b"
+    ],
+    "teaching": [
+      "52b",
+      "53b",
+      "54a",
+      "54b",
+      "55a",
+      "65a"
+    ],
+    "measurement": [
+      "53b"
+    ],
+    "note": [
+      "54a"
+    ],
+    "concept": [
+      "54b"
+    ],
+    "technique": [
+      "55a",
+      "56b"
+    ],
+    "action": [
+      "55a",
+      "58b",
+      "66a"
+    ],
+    "problem": [
+      "55b",
+      "57b"
+    ],
+    "order": [
+      "55b",
+      "56b",
+      "59a"
+    ],
+    "introduction": [
+      "56b"
+    ],
+    "example": [
+      "56b"
+    ],
+    "total": [
+      "56b",
+      "58a"
+    ],
+    "nuance": [
+      "57a",
+      "9a",
+      "9b"
+    ],
+    "new case": [
+      "57b"
+    ],
+    "completion": [
+      "57b",
+      "58a",
+      "61a",
+      "61b"
+    ],
+    "summary": [
+      "58a",
+      "59a"
+    ],
+    "crux": [
+      "58b"
+    ],
+    "context": [
+      "58b",
+      "59a",
+      "64b"
+    ],
+    "content": [
+      "58b",
+      "59a"
+    ],
+    "effect": [
+      "58b"
+    ],
+    "dispatch": [
+      "58b"
+    ],
+    "institution": [
+      "58b",
+      "61a"
+    ],
+    "relay": [
+      "58b"
+    ],
+    "sequence": [
+      "59a"
+    ],
+    "reaction": [
+      "59a",
+      "60b"
+    ],
+    "significance": [
+      "59a",
+      "59b",
+      "60a",
+      "61b",
+      "66b"
+    ],
+    "reason": [
+      "59a",
+      "60a",
+      "61a",
+      "65a",
+      "66a",
+      "66b",
+      "67a",
+      "67b",
+      "69b",
+      "70a",
+      "84a",
+      "84b"
+    ],
+    "stub": [
+      "5a"
+    ],
+    "continuation": [
+      "60b",
+      "61a",
+      "66b"
+    ],
+    "symmetry": [
+      "61a"
+    ],
+    "carriers": [
+      "61b"
+    ],
+    "cases": [
+      "62b"
+    ],
+    "theology": [
+      "63a",
+      "63b",
+      "64b",
+      "65a",
+      "65b"
+    ],
+    "scope": [
+      "63b"
+    ],
+    "penalty": [
+      "63b"
+    ],
+    "resumption": [
+      "66a"
+    ],
+    "confession": [
+      "66a"
+    ],
+    "transfer": [
+      "66a"
+    ],
+    "agency": [
+      "66a"
+    ],
+    "structure": [
+      "66a"
+    ],
+    "discussion": [
+      "66b"
+    ],
+    "follow-up": [
+      "66b"
+    ],
+    "mention": [
+      "66b"
+    ],
+    "takeaway": [
+      "6a",
+      "7a"
+    ],
+    "counter_objection": [
+      "6a",
+      "6b"
+    ],
+    "response": [
+      "72a"
+    ],
+    "aggadah": [
+      "72a",
+      "72b",
+      "75a"
+    ],
+    "comparison": [
+      "81a",
+      "85a"
+    ],
+    "hypothesis": [
+      "8a"
+    ],
+    "exposition": [
+      "9a"
+    ],
+    "incident": [
+      "9b"
+    ],
+    "clarification": [
+      "9b"
+    ],
+    "closing": [
+      "9b"
+    ]
+  },
+  "typeExamples": {
+    "proof": [
+      {
+        "daf": "10a",
+        "sugyaId": "yoma-010a-s01",
+        "stepId": "step-01",
+        "label": "Completing the Genesis 9:27 argument"
+      },
+      {
+        "daf": "10a",
+        "sugyaId": "yoma-010a-s02",
+        "stepId": "step-01",
+        "label": "Three proofs: Persia defeats Rome"
+      },
+      {
+        "daf": "12a",
+        "sugyaId": "yoma-012a-s01",
+        "stepId": "step-02",
+        "label": "Baraita: Temple structures mapped to tribal portions"
+      }
+    ],
+    "statement": [
+      {
+        "daf": "10a",
+        "sugyaId": "yoma-010a-s01",
+        "stepId": "step-02",
+        "label": "Nation identifications from baraita"
+      },
+      {
+        "daf": "10a",
+        "sugyaId": "yoma-010a-s02",
+        "stepId": "step-03",
+        "label": "Nine months calculation"
+      },
+      {
+        "daf": "10a",
+        "sugyaId": "yoma-010a-s03",
+        "stepId": "step-01",
+        "label": "Parhedrin chamber has a mezuza; other Temple chambers do not"
+      }
+    ],
+    "conclusion": [
+      {
+        "daf": "10a",
+        "sugyaId": "yoma-010a-s01",
+        "stepId": "step-03",
+        "label": "Persia is from Japheth"
+      },
+      {
+        "daf": "12a",
+        "sugyaId": "yoma-012a-s01",
+        "stepId": "step-04",
+        "label": "Implications for city synagogue tzaraat"
+      },
+      {
+        "daf": "15a",
+        "sugyaId": "yoma-15a-s03",
+        "stepId": "step-06",
+        "label": "The question stands: no viable configuration exists"
+      }
+    ],
+    "dissent": [
+      {
+        "daf": "10a",
+        "sugyaId": "yoma-010a-s02",
+        "stepId": "step-02",
+        "label": "Rav dissents: Persia falls to Rome"
+      }
+    ],
+    "opinion": [
+      {
+        "daf": "10a",
+        "sugyaId": "yoma-010a-s03",
+        "stepId": "step-02",
+        "label": "R. Yehuda: it qualifies as a residence"
+      },
+      {
+        "daf": "10a",
+        "sugyaId": "yoma-010a-s03",
+        "stepId": "step-03",
+        "label": "Sages: special decree for public perception"
+      },
+      {
+        "daf": "12a",
+        "sugyaId": "yoma-012a-s02",
+        "stepId": "step-03",
+        "label": "Rav Adda: belt alone suffices"
+      }
+    ],
+    "question": [
+      {
+        "daf": "10b",
+        "sugyaId": "yoma-010b-s01",
+        "stepId": "step-01",
+        "label": "Apparent contradiction in R. Yehuda's positions"
+      },
+      {
+        "daf": "10b",
+        "sugyaId": "yoma-010b-s02",
+        "stepId": "step-01",
+        "label": "Which tanna holds this baraita?"
+      },
+      {
+        "daf": "11a",
+        "sugyaId": "yoma-011a-s01",
+        "stepId": "step-01",
+        "label": "Who authored the Temple-gates baraita?"
+      }
+    ],
+    "resolution": [
+      {
+        "daf": "10b",
+        "sugyaId": "yoma-010b-s01",
+        "stepId": "step-02",
+        "label": "Sukka: permanent structure determines mezuza"
+      },
+      {
+        "daf": "10b",
+        "sugyaId": "yoma-010b-s01",
+        "stepId": "step-03",
+        "label": "Parhedrin: coerced residence does not create mezuza obligation"
+      },
+      {
+        "daf": "11a",
+        "sugyaId": "yoma-011a-s01",
+        "stepId": "step-02",
+        "label": "Even R. Yehuda - gate and chamber are one decree"
+      }
+    ],
+    "proposal": [
+      {
+        "daf": "10b",
+        "sugyaId": "yoma-010b-s02",
+        "stepId": "step-02",
+        "label": "Could be R. Yehuda - gates and chambers as one decree"
+      },
+      {
+        "daf": "2a",
+        "sugyaId": "yoma-002a-s01",
+        "stepId": "step-02",
+        "label": "Rabbi Yehuda extends the logic"
+      },
+      {
+        "daf": "2a",
+        "sugyaId": "yoma-002a-s05",
+        "stepId": "step-02",
+        "label": "Rabbi Yohanan: specific named place"
+      }
+    ],
+    "assertion": [
+      {
+        "daf": "11a",
+        "sugyaId": "yoma-011a-s02",
+        "stepId": "step-01",
+        "label": "City gates require a mezuza"
+      },
+      {
+        "daf": "11a",
+        "sugyaId": "yoma-011a-s03",
+        "stepId": "step-01",
+        "label": "Rav Kahana: hay and cattle - no mezuza; wood and wine - mezuza"
+      },
+      {
+        "daf": "11b",
+        "sugyaId": "yoma-011b-s01",
+        "stepId": "step-01",
+        "label": "Exemption 1: not-dwelling structures"
+      }
+    ],
+    "support": [
+      {
+        "daf": "11a",
+        "sugyaId": "yoma-011a-s02",
+        "stepId": "step-04",
+        "label": "Samuel's precedent: avoided checking when danger was predictable"
+      },
+      {
+        "daf": "11a",
+        "sugyaId": "yoma-011a-s03",
+        "stepId": "step-05",
+        "label": "Baraita 1: supports obligation in wine storehouses"
+      },
+      {
+        "daf": "11b",
+        "sugyaId": "yoma-011b-s03",
+        "stepId": "step-04",
+        "label": "Universal reward verse includes all who observe the mitzva"
+      }
+    ],
+    "counter": [
+      {
+        "daf": "11a",
+        "sugyaId": "yoma-011a-s03",
+        "stepId": "step-02",
+        "label": "Rav Yehuda: wood - no mezuza; wine - mezuza"
+      },
+      {
+        "daf": "13a",
+        "sugyaId": "yoma-13a-s02",
+        "stepId": "step-03",
+        "label": "But if we fear impurity, why not fear death?"
+      },
+      {
+        "daf": "42b",
+        "sugyaId": "yoma-042b-s01",
+        "stepId": "yoma-042b-l06",
+        "label": "Counter: Objection: a baraita implies non-priest slaughter might"
+      }
+    ],
+    "complication": [
+      {
+        "daf": "11a",
+        "sugyaId": "yoma-011a-s03",
+        "stepId": "step-03",
+        "label": "Second Rav Yehuda ruling contradicts the first"
+      },
+      {
+        "daf": "11a",
+        "sugyaId": "yoma-011a-s03",
+        "stepId": "step-06",
+        "label": "Baraita 2 seems to contradict Baraita 1"
+      },
+      {
+        "daf": "11b",
+        "sugyaId": "yoma-011b-s03",
+        "stepId": "step-05",
+        "label": "But a second baraita seems to exclude synagogues from tzaraat"
+      }
+    ],
+    "dispute": [
+      {
+        "daf": "11b",
+        "sugyaId": "yoma-011b-s02",
+        "stepId": "step-03",
+        "label": "R. Meir vs. Rabbis: chokkein lehashlem"
+      },
+      {
+        "daf": "12a",
+        "sugyaId": "yoma-012a-s01",
+        "stepId": "step-01",
+        "label": "Was Jerusalem divided among the tribes?"
+      },
+      {
+        "daf": "12b",
+        "sugyaId": "yoma-12b-s03",
+        "stepId": "step-01",
+        "label": "Two KGs simultaneously - what is the replacement's status?"
+      }
+    ],
+    "parallel": [
+      {
+        "daf": "11b",
+        "sugyaId": "yoma-011b-s03",
+        "stepId": "step-02",
+        "label": "Parallel baraita: same three categories susceptible to tzaraat"
+      },
+      {
+        "daf": "55b",
+        "sugyaId": "yoma-055b-s01",
+        "stepId": "yoma-055b-l09",
+        "label": "Parallel: Passover registration parallel: systematic sequentia..."
+      }
+    ],
+    "elaboration": [
+      {
+        "daf": "12a",
+        "sugyaId": "yoma-012a-s01",
+        "stepId": "step-03",
+        "label": "Why each tribe received its portion"
+      },
+      {
+        "daf": "16a",
+        "sugyaId": "yoma-16a-s02",
+        "stepId": "step-05",
+        "label": "Donations to the golden vine"
+      },
+      {
+        "daf": "16a",
+        "sugyaId": "yoma-16a-s02",
+        "stepId": "step-06",
+        "label": "The enormous weight of the golden vine"
+      }
+    ],
+    "case": [
+      {
+        "daf": "12a",
+        "sugyaId": "yoma-012a-s02",
+        "stepId": "step-01",
+        "label": "Cohen Gadol disqualified before tamid - replacement performs in eight garments"
+      },
+      {
+        "daf": "12b",
+        "sugyaId": "yoma-12b-s03",
+        "stepId": "step-02",
+        "label": "Yosef ben Elem of Tzippori - the real-world illustration"
+      },
+      {
+        "daf": "2a",
+        "sugyaId": "yoma-002a-s01",
+        "stepId": "step-01",
+        "label": "Opening rule"
+      }
+    ],
+    "answer": [
+      {
+        "daf": "12b",
+        "sugyaId": "yoma-12b-s01",
+        "stepId": "step-01",
+        "label": "Avodato m'chanakhto - service is the initiation"
+      },
+      {
+        "daf": "13a",
+        "sugyaId": "yoma-13a-s01",
+        "stepId": "step-03",
+        "label": "Lest you think: tzarah - permanent rivalry"
+      },
+      {
+        "daf": "14a",
+        "sugyaId": "yoma-14a-s01",
+        "stepId": "step-03",
+        "label": "Context distinguishes: YK fast vs. regular eating"
+      }
+    ],
+    "tradition": [
+      {
+        "daf": "12b",
+        "sugyaId": "yoma-12b-s02",
+        "stepId": "step-02",
+        "label": "Rav Dimi: two sages dispute, identities unclear"
+      },
+      {
+        "daf": "12b",
+        "sugyaId": "yoma-12b-s02",
+        "stepId": "step-03",
+        "label": "Ravin: Rabbi says kilayim, Rabbi Elazar says linen"
+      },
+      {
+        "daf": "55a",
+        "sugyaId": "yoma-055a-s02",
+        "stepId": "yoma-055a-l19",
+        "label": "Tradition: The HP counts: One; one and one;"
+      }
+    ],
+    "ruling": [
+      {
+        "daf": "12b",
+        "sugyaId": "yoma-12b-s03",
+        "stepId": "step-03",
+        "label": "Yosef ben Elem: serves in an emergency but otherwise excluded"
+      },
+      {
+        "daf": "13a",
+        "sugyaId": "yoma-13a-s01",
+        "stepId": "step-01",
+        "label": "Halacha: R. Yosei"
+      },
+      {
+        "daf": "13b",
+        "sugyaId": "yoma-13b-s03",
+        "stepId": "step-01",
+        "label": "Baraita: onen KG serves but does not eat"
+      }
+    ],
+    "position": [
+      {
+        "daf": "13a",
+        "sugyaId": "yoma-13a-s02",
+        "stepId": "step-01",
+        "label": "R. Yehuda: prepare a backup wife too"
+      },
+      {
+        "daf": "14a",
+        "sugyaId": "yoma-14a-s03",
+        "stepId": "step-02",
+        "label": "R. Akiva's paradox stated"
+      },
+      {
+        "daf": "14a",
+        "sugyaId": "yoma-14a-s03",
+        "stepId": "step-03",
+        "label": "Chakhamim: 'al ha-tamei' is a drasha, not a ruling"
+      }
+    ],
+    "objection": [
+      {
+        "daf": "13a",
+        "sugyaId": "yoma-13a-s02",
+        "stepId": "step-02",
+        "label": "Rabbanan: death is not like impurity"
+      },
+      {
+        "daf": "13b",
+        "sugyaId": "yoma-13b-s01",
+        "stepId": "step-02",
+        "label": "Yibum objection 1: two yevamot from one man"
+      },
+      {
+        "daf": "13b",
+        "sugyaId": "yoma-13b-s02",
+        "stepId": "step-01",
+        "label": "Objection: two yevamot from one man cannot both do yibum"
+      }
+    ],
+    "attempt": [
+      {
+        "daf": "13a",
+        "sugyaId": "yoma-13a-s03",
+        "stepId": "step-01",
+        "label": "Formula 1: 'on condition you die on Yom Kippur'"
+      },
+      {
+        "daf": "13a",
+        "sugyaId": "yoma-13a-s03",
+        "stepId": "step-02",
+        "label": "Formula 2: 'on condition you don't die'"
+      },
+      {
+        "daf": "13a",
+        "sugyaId": "yoma-13a-s03",
+        "stepId": "step-03",
+        "label": "Formula 3: 'from now, if you die'"
+      }
+    ],
+    "solution": [
+      {
+        "daf": "13b",
+        "sugyaId": "yoma-13b-s01",
+        "stepId": "step-01",
+        "label": "Two-pronged conditional divorce: mutually exclusive conditions"
+      },
+      {
+        "daf": "55b",
+        "sugyaId": "yoma-055b-s01",
+        "stepId": "yoma-055b-l05",
+        "label": "Solution: He never holds both bowls simultaneously -"
+      },
+      {
+        "daf": "57a",
+        "sugyaId": "yoma-057a-s01",
+        "stepId": "yoma-057a-l05",
+        "label": "Solution: The verse 'as you shall do to"
+      }
+    ],
+    "addition": [
+      {
+        "daf": "13b",
+        "sugyaId": "yoma-13b-s03",
+        "stepId": "step-02",
+        "label": "R. Yehuda: 'the whole day'"
+      },
+      {
+        "daf": "52a",
+        "sugyaId": "yoma-052a-s01",
+        "stepId": "yoma-052a-l03",
+        "label": "Addition: In the Second Temple: two curtains one"
+      }
+    ],
+    "interpretation": [
+      {
+        "daf": "13b",
+        "sugyaId": "yoma-13b-s03",
+        "stepId": "step-03",
+        "label": "Rava: 'kol hayom' means a mitzva to bring him from home"
+      },
+      {
+        "daf": "54a",
+        "sugyaId": "yoma-054a-s01",
+        "stepId": "yoma-054a-l01",
+        "label": "Interpretation: 'All her splendor has gone' - the"
+      }
+    ],
+    "challenge": [
+      {
+        "daf": "13b",
+        "sugyaId": "yoma-13b-s03",
+        "stepId": "step-04",
+        "label": "Abaye: contradiction - 'the Rabbanan say don't go out, R. Yehuda says come in?'"
+      },
+      {
+        "daf": "2a",
+        "sugyaId": "yoma-002a-s06",
+        "stepId": "step-03",
+        "label": "Why can't the whole verse apply to Yom Kippur?"
+      },
+      {
+        "daf": "2b",
+        "sugyaId": "yoma-002b-s02",
+        "stepId": "step-01",
+        "label": "Yishmael school's precedent"
+      }
+    ],
+    "mishna": [
+      {
+        "daf": "14a",
+        "sugyaId": "yoma-14a-s02",
+        "stepId": "step-01",
+        "label": "Mishna: KG's seven-day sequestration and daily service"
+      }
+    ],
+    "deduction": [
+      {
+        "daf": "14a",
+        "sugyaId": "yoma-14a-s03",
+        "stepId": "step-01",
+        "label": "Mishna authorship: cannot be R. Akiva"
+      }
+    ],
+    "analysis": [
+      {
+        "daf": "14a",
+        "sugyaId": "yoma-14a-s03",
+        "stepId": "step-05",
+        "label": "Who impurifies whom: man on animal or animal on man?"
+      },
+      {
+        "daf": "22b",
+        "sugyaId": "yoma-022b-s04",
+        "stepId": "yoma-022b-l42",
+        "label": "Why Saul's sin of Nov was so severe"
+      },
+      {
+        "daf": "23a",
+        "sugyaId": "yoma-023a-s03",
+        "stepId": "yoma-023a-l45",
+        "label": "What the father's statement taught the crowd"
+      }
+    ],
+    "contradiction": [
+      {
+        "daf": "14b",
+        "sugyaId": "yoma-14b-s02",
+        "stepId": "step-01",
+        "label": "Contradiction: Tamid says incense first; Yoma says lamps first"
+      },
+      {
+        "daf": "14b",
+        "sugyaId": "yoma-14b-s03",
+        "stepId": "step-01",
+        "label": "Internal Yoma contradiction: five lamps vs. two lamps before incense"
+      },
+      {
+        "daf": "15b",
+        "sugyaId": "yoma-15b-s04",
+        "stepId": "step-02",
+        "label": "Middot places it in a different corner"
+      }
+    ],
+    "identification": [
+      {
+        "daf": "14b",
+        "sugyaId": "yoma-14b-s02",
+        "stepId": "step-02",
+        "label": "Rav Huna: Tamid was authored by R. Shimon ish HaMitzpah"
+      },
+      {
+        "daf": "14b",
+        "sugyaId": "yoma-14b-s02",
+        "stepId": "step-04",
+        "label": "Rabbi Yochanan: R. Shimon authored Yoma, not Tamid"
+      },
+      {
+        "daf": "19b",
+        "sugyaId": "yoma-19b-s03",
+        "stepId": "step-01",
+        "label": "'Tzarda' = index finger snap"
+      }
+    ],
+    "refutation": [
+      {
+        "daf": "14b",
+        "sugyaId": "yoma-14b-s02",
+        "stepId": "step-03",
+        "label": "But Tosefta shows R. Shimon disagrees with Tamid's order"
+      },
+      {
+        "daf": "16b",
+        "sugyaId": "yoma-16b-s01",
+        "stepId": "step-02",
+        "label": "Measurements prove altar is mostly to the south"
+      }
+    ],
+    "claim": [
+      {
+        "daf": "15a",
+        "sugyaId": "yoma-15a-s01",
+        "stepId": "step-01",
+        "label": "Rabbanan: afternoon analogy proves ketoret first"
+      },
+      {
+        "daf": "15a",
+        "sugyaId": "yoma-15a-s02",
+        "stepId": "step-01",
+        "label": "Rav Pappa: different chapters, different Tannaim"
+      },
+      {
+        "daf": "15a",
+        "sugyaId": "yoma-15a-s02",
+        "stepId": "step-03",
+        "label": "Abaye: a mishna cannot mix tannaitic positions"
+      }
+    ],
+    "premise": [
+      {
+        "daf": "15a",
+        "sugyaId": "yoma-15a-s03",
+        "stepId": "step-01",
+        "label": "R. Shimon's ruling: tamid is both olah and chatat"
+      },
+      {
+        "daf": "15b",
+        "sugyaId": "yoma-15b-s04",
+        "stepId": "step-01",
+        "label": "Tamid/Yoma: Chamber of Lambs in one location"
+      },
+      {
+        "daf": "16b",
+        "sugyaId": "yoma-16b-s01",
+        "stepId": "step-01",
+        "label": "R. Yehuda: altar centered in the courtyard"
+      }
+    ],
+    "detail": [
+      {
+        "daf": "16a",
+        "sugyaId": "yoma-16a-s02",
+        "stepId": "step-02",
+        "label": "Gallery construction details in the Women's Courtyard"
+      },
+      {
+        "daf": "16a",
+        "sugyaId": "yoma-16a-s02",
+        "stepId": "step-03",
+        "label": "The Sanctuary entrance height and its proof-verse"
+      },
+      {
+        "daf": "16a",
+        "sugyaId": "yoma-16a-s02",
+        "stepId": "step-04",
+        "label": "The Temple's golden vine and its dimensions"
+      }
+    ],
+    "verdict": [
+      {
+        "daf": "17a",
+        "sugyaId": "yoma-17a-s01",
+        "stepId": "step-01",
+        "label": "Verdict: Middot = R. EbY, Chamber at SW corner"
+      },
+      {
+        "daf": "17b",
+        "sugyaId": "yoma-17b-s01",
+        "stepId": "step-01",
+        "label": "SW corner confirmed for Chamber of the Lambs"
+      }
+    ],
+    "alternative": [
+      {
+        "daf": "17a",
+        "sugyaId": "yoma-17a-s01",
+        "stepId": "step-02",
+        "label": "Rav Adda: Chamber was on the middle of the west wall"
+      }
+    ],
+    "evaluation": [
+      {
+        "daf": "17a",
+        "sugyaId": "yoma-17a-s01",
+        "stepId": "step-03",
+        "label": "Evaluating the two resolutions"
+      }
+    ],
+    "transition": [
+      {
+        "daf": "17a",
+        "sugyaId": "yoma-17a-s01",
+        "stepId": "step-04",
+        "label": "New topic: High Priest's first share and Shewbread"
+      },
+      {
+        "daf": "8b",
+        "sugyaId": "yoma-008b-s03",
+        "stepId": "step-03",
+        "label": "Maaser sheni: explanation deferred to 9a"
+      },
+      {
+        "daf": "9b",
+        "sugyaId": "yoma-009b-s06",
+        "stepId": "step-03",
+        "label": "Return to the Jordan scene: who was actually there?"
+      }
+    ],
+    "unresolved": [
+      {
+        "daf": "18a",
+        "sugyaId": "yoma-18a-s01",
+        "stepId": "step-03",
+        "label": "Remaining contradiction left open"
+      }
+    ],
+    "new_topic": [
+      {
+        "daf": "18a",
+        "sugyaId": "yoma-18a-s01",
+        "stepId": "step-04",
+        "label": "New mishna: elders hand KG to priestly elders"
+      }
+    ],
+    "narrative": [
+      {
+        "daf": "18a",
+        "sugyaId": "yoma-18a-s02",
+        "stepId": "step-03",
+        "label": "Maratha bat Baytus: bribery for KG appointment"
+      },
+      {
+        "daf": "19b",
+        "sugyaId": "yoma-19b-s01",
+        "stepId": "step-05",
+        "label": "The Sadducee KG who followed his practice and died"
+      },
+      {
+        "daf": "20b",
+        "sugyaId": "yoma-020b-s02",
+        "stepId": "yoma-020b-l13",
+        "label": "Rav serves as Sheila's disseminator"
+      }
+    ],
+    "mnemonic": [
+      {
+        "daf": "18a",
+        "sugyaId": "yoma-18a-s02",
+        "stepId": "step-07",
+        "label": "Mnemonic: Av'i and Avav'i - emission-causing foods"
+      }
+    ],
+    "list": [
+      {
+        "daf": "18a",
+        "sugyaId": "yoma-18a-s03",
+        "stepId": "step-01",
+        "label": "Five foods causing seminal emission"
+      },
+      {
+        "daf": "18b",
+        "sugyaId": "yoma-18b-s01",
+        "stepId": "step-01",
+        "label": "Five emission-causing foods completed"
+      }
+    ],
+    "report": [
+      {
+        "daf": "18b",
+        "sugyaId": "yoma-18b-s01",
+        "stepId": "step-02",
+        "label": "Rav and Rav Nachman announce for daily wives"
+      }
+    ],
+    "justification": [
+      {
+        "daf": "18b",
+        "sugyaId": "yoma-18b-s01",
+        "stepId": "step-03",
+        "label": "Why this is permitted: open announcement + proper kiddushin"
+      }
+    ],
+    "concern": [
+      {
+        "daf": "18b",
+        "sugyaId": "yoma-18b-s01",
+        "stepId": "step-04",
+        "label": "What about children from such unions?"
+      }
+    ],
+    "description": [
+      {
+        "daf": "19a",
+        "sugyaId": "yoma-19a-s01",
+        "stepId": "step-01",
+        "label": "Six Azara chambers: three north, three south"
+      },
+      {
+        "daf": "19a",
+        "sugyaId": "yoma-19a-s01",
+        "stepId": "step-02",
+        "label": "Seven gates of the Azara"
+      },
+      {
+        "daf": "19b",
+        "sugyaId": "yoma-19b-s02",
+        "stepId": "step-01",
+        "label": "Rav gives a hand signal during Shema"
+      }
+    ],
+    "reasoning": [
+      {
+        "daf": "19a",
+        "sugyaId": "yoma-19a-s01",
+        "stepId": "step-07",
+        "label": "The KG's daily routine during the seven days"
+      },
+      {
+        "daf": "44b",
+        "sugyaId": "yoma-044b-s04",
+        "stepId": "yoma-044b-l25",
+        "label": "Reasoning: High Priest carries alone on Yom Kippur"
+      },
+      {
+        "daf": "44b",
+        "sugyaId": "yoma-044b-s04",
+        "stepId": "yoma-044b-l28",
+        "label": "Reasoning: Kodesh Kodashim is smaller - 3 kavim"
+      }
+    ],
+    "argument": [
+      {
+        "daf": "19a",
+        "sugyaId": "yoma-19a-s02",
+        "stepId": "step-02",
+        "label": "If south: efficient morning routine"
+      },
+      {
+        "daf": "19a",
+        "sugyaId": "yoma-19a-s02",
+        "stepId": "step-03",
+        "label": "If north: roundabout routine"
+      }
+    ],
+    "explanation": [
+      {
+        "daf": "19b",
+        "sugyaId": "yoma-19b-s01",
+        "stepId": "step-02",
+        "label": "Why the KG wept"
+      },
+      {
+        "daf": "19b",
+        "sugyaId": "yoma-19b-s01",
+        "stepId": "step-03",
+        "label": "Why the elders wept"
+      },
+      {
+        "daf": "20b",
+        "sugyaId": "yoma-020b-s03",
+        "stepId": "yoma-020b-l40",
+        "label": "R. Levi: the sun's roar masks daytime sound"
+      }
+    ],
+    "rationale": [
+      {
+        "daf": "19b",
+        "sugyaId": "yoma-19b-s01",
+        "stepId": "step-04",
+        "label": "Why the oath was necessary: the Sadducee incense practice"
+      }
+    ],
+    "quotation": [
+      {
+        "daf": "19b",
+        "sugyaId": "yoma-19b-s03",
+        "stepId": "step-04",
+        "label": "Psalm sung to the KG: 'If God does not build the house...'"
+      }
+    ],
+    "application": [
+      {
+        "daf": "20b",
+        "sugyaId": "yoma-020b-s01",
+        "stepId": "yoma-020b-l05",
+        "label": "Three timing rules explained by practical need"
+      },
+      {
+        "daf": "2a",
+        "sugyaId": "yoma-002a-s03",
+        "stepId": "step-03",
+        "label": "Secondary safeguard: impurity-proof vessels"
+      },
+      {
+        "daf": "49b",
+        "sugyaId": "yoma-049b-s02",
+        "stepId": "yoma-049b-l05",
+        "label": "Application: Similarly: the replacement HP cannot simply 'join'"
+      }
+    ],
+    "contrast": [
+      {
+        "daf": "20b",
+        "sugyaId": "yoma-020b-s03",
+        "stepId": "yoma-020b-l33",
+        "label": "Temple sounds reached Jericho - 10 parasangs"
+      },
+      {
+        "daf": "22b",
+        "sugyaId": "yoma-022b-s03",
+        "stepId": "yoma-022b-l31",
+        "label": "Saul's repentance vs. David's repentance"
+      },
+      {
+        "daf": "60b",
+        "sugyaId": "yoma-060b-s01",
+        "stepId": "yoma-060b-l14",
+        "label": "Contrast: Outside the Temple, only 'Adonai' (the substitute"
+      }
+    ],
+    "counterpoint": [
+      {
+        "daf": "21b",
+        "sugyaId": "yoma-021b-s02",
+        "stepId": "yoma-021b-l19",
+        "label": "Alternative: the miracle was partial"
+      }
+    ],
+    "digression": [
+      {
+        "daf": "22a",
+        "sugyaId": "yoma-022a-s01",
+        "stepId": "yoma-022a-l12",
+        "label": "Biblical digression: Saul and the count"
+      },
+      {
+        "daf": "66a",
+        "sugyaId": "yoma-066a-s01",
+        "stepId": "yoma-066a-l01",
+        "label": "Digression: Leap year contract rules: extension benefits the"
+      },
+      {
+        "daf": "66b",
+        "sugyaId": "yoma-066b-s01",
+        "stepId": "yoma-066b-l05",
+        "label": "Digression: The word 'mu'ad' (appointed) connects to related"
+      }
+    ],
+    "principle": [
+      {
+        "daf": "22b",
+        "sugyaId": "yoma-022b-s03",
+        "stepId": "yoma-022b-l36",
+        "label": "A Torah scholar must avenge like a snake"
+      },
+      {
+        "daf": "24a",
+        "sugyaId": "yoma-024a-s03",
+        "stepId": "yoma-024a-l25",
+        "label": "The governing principle: avodah vs. logistical support"
+      },
+      {
+        "daf": "49b",
+        "sugyaId": "yoma-049b-s02",
+        "stepId": "yoma-049b-l04",
+        "label": "Principle: 'According to the sheep' means while alive"
+      }
+    ],
+    "distinction": [
+      {
+        "daf": "23a",
+        "sugyaId": "yoma-023a-s01",
+        "stepId": "yoma-023a-l07",
+        "label": "Personal honor vs. Torah honor"
+      },
+      {
+        "daf": "3b",
+        "sugyaId": "yoma-003b-s01",
+        "stepId": "step-04",
+        "label": "The specific passages prove their own point"
+      },
+      {
+        "daf": "4b",
+        "sugyaId": "yoma-004b-s04",
+        "stepId": "step-03",
+        "label": "R. Chanina's narrower rule: only requirements shared with ongoing service"
+      }
+    ],
+    "additional": [
+      {
+        "daf": "23b",
+        "sugyaId": "yoma-023b-s01",
+        "stepId": "yoma-023b-l10",
+        "label": "Additional reason: Temple sanctity incompatible"
+      }
+    ],
+    "analogy": [
+      {
+        "daf": "26a",
+        "sugyaId": "yoma-026a-s02",
+        "stepId": "yoma-026a-l11",
+        "label": "Rava: Torah scholar analogy"
+      },
+      {
+        "daf": "50b",
+        "sugyaId": "yoma-050b-s02",
+        "stepId": "yoma-050b-l06",
+        "label": "Analogy: Like firstborn/tithe: automatic sanctity still requi..."
+      }
+    ],
+    "rejection": [
+      {
+        "daf": "2a",
+        "sugyaId": "yoma-002a-s01",
+        "stepId": "step-03",
+        "label": "Infinite regress"
+      },
+      {
+        "daf": "2b",
+        "sugyaId": "yoma-002b-s01",
+        "stepId": "step-02",
+        "label": "Before vs. after"
+      },
+      {
+        "daf": "2b",
+        "sugyaId": "yoma-002b-s01",
+        "stepId": "step-04",
+        "label": "Different verb forms"
+      }
+    ],
+    "qualification": [
+      {
+        "daf": "3a",
+        "sugyaId": "yoma-003a-s01",
+        "stepId": "step-02",
+        "label": "But for tashlumin"
+      },
+      {
+        "daf": "3a",
+        "sugyaId": "yoma-003a-s03",
+        "stepId": "step-03",
+        "label": "Works for the view 'kach lecha' = personal"
+      },
+      {
+        "daf": "4a",
+        "sugyaId": "yoma-004a-s01",
+        "stepId": "step-01",
+        "label": "Sequestering reason: niddah concern"
+      }
+    ],
+    "citation": [
+      {
+        "daf": "42a",
+        "sugyaId": "yoma-042a-s01",
+        "stepId": "yoma-042a-l01",
+        "label": "Citation: Weight of crimson thread: 10 zuz for"
+      },
+      {
+        "daf": "42b",
+        "sugyaId": "yoma-042b-s01",
+        "stepId": "yoma-042b-l01",
+        "label": "Citation: 'L'mishmerit l'mei nidda' - the verse excludes"
+      },
+      {
+        "daf": "43a",
+        "sugyaId": "yoma-043a-s01",
+        "stepId": "yoma-043a-l01",
+        "label": "Citation: A donkey was taken along with the"
+      }
+    ],
+    "derivation": [
+      {
+        "daf": "42b",
+        "sugyaId": "yoma-042b-s01",
+        "stepId": "yoma-042b-l08",
+        "label": "Derivation: From where do we include all parah"
+      },
+      {
+        "daf": "43a",
+        "sugyaId": "yoma-043a-s01",
+        "stepId": "yoma-043a-l04",
+        "label": "Derivation: Verse-by-verse exposition of Numbers 19 - each"
+      },
+      {
+        "daf": "43b",
+        "sugyaId": "yoma-043b-s01",
+        "stepId": "yoma-043b-l03",
+        "label": "Derivation: 'The pure one shall sprinkle' - 'pure'"
+      }
+    ],
+    "implication": [
+      {
+        "daf": "49a",
+        "sugyaId": "yoma-049a-s03",
+        "stepId": "yoma-049a-l08",
+        "label": "Implication: Incense scooped before the bull's slaughter is"
+      },
+      {
+        "daf": "50a",
+        "sugyaId": "yoma-050a-s03",
+        "stepId": "yoma-050a-l13",
+        "label": "Implication: Communal: overrides Shabbat/tumah, cannot become pig..."
+      },
+      {
+        "daf": "50b",
+        "sugyaId": "yoma-050b-s01",
+        "stepId": "yoma-050b-l02",
+        "label": "Implication: Communal status: the bull cannot become pigul;"
+      }
+    ],
+    "inference": [
+      {
+        "daf": "4b",
+        "sugyaId": "yoma-004b-s04",
+        "stepId": "step-01",
+        "label": "Both R. Yochanan and R. Chanina agree inauguration requirements invalidate"
+      },
+      {
+        "daf": "7b",
+        "sugyaId": "yoma-007b-s01",
+        "stepId": "step-05",
+        "label": "R. Shimon = dchuya; R. Yehuda = hutrah"
+      }
+    ],
+    "teaching": [
+      {
+        "daf": "52b",
+        "sugyaId": "yoma-052b-s01",
+        "stepId": "yoma-052b-l01",
+        "label": "Teaching: Four words in the Torah have uncertain"
+      },
+      {
+        "daf": "53b",
+        "sugyaId": "yoma-053b-s03",
+        "stepId": "yoma-053b-l06",
+        "label": "Teaching: The even ha-shetiya (foundation stone) in the"
+      },
+      {
+        "daf": "54a",
+        "sugyaId": "yoma-054a-s01",
+        "stepId": "yoma-054a-l02",
+        "label": "Teaching: The world's extremities all meet in Jerusalem"
+      }
+    ],
+    "measurement": [
+      {
+        "daf": "53b",
+        "sugyaId": "yoma-053b-s04",
+        "stepId": "yoma-053b-l09",
+        "label": "Measurement: The even ha-shetiya protruded three finger-breadths ..."
+      }
+    ],
+    "note": [
+      {
+        "daf": "54a",
+        "sugyaId": "yoma-054a-s02",
+        "stepId": "yoma-054a-l11",
+        "label": "Note: Josiah hid the Ark (as noted on"
+      }
+    ],
+    "concept": [
+      {
+        "daf": "54b",
+        "sugyaId": "yoma-054b-s03",
+        "stepId": "yoma-054b-l07",
+        "label": "Concept: The concept of livaya (clinging companion) describes"
+      }
+    ],
+    "technique": [
+      {
+        "daf": "55a",
+        "sugyaId": "yoma-055a-s01",
+        "stepId": "yoma-055a-l04",
+        "label": "Technique: Upward sprinkle: tilt back of hand down."
+      },
+      {
+        "daf": "56b",
+        "sugyaId": "yoma-056b-s02",
+        "stepId": "yoma-056b-l26",
+        "label": "Technique: Same technique as the inner service: upward"
+      }
+    ],
+    "action": [
+      {
+        "daf": "55a",
+        "sugyaId": "yoma-055a-s04",
+        "stepId": "yoma-055a-l45a",
+        "label": "Action: HP exits, places bull's bowl on the"
+      },
+      {
+        "daf": "55a",
+        "sugyaId": "yoma-055a-s04",
+        "stepId": "yoma-055a-l45b",
+        "label": "Action: Takes goat's blood, re-enters Holy of Holies,"
+      },
+      {
+        "daf": "58b",
+        "sugyaId": "yoma-058b-s02",
+        "stepId": "yoma-058b-l15",
+        "label": "Action: HP places both hands on the scapegoat"
+      }
+    ],
+    "problem": [
+      {
+        "daf": "55b",
+        "sugyaId": "yoma-055b-s01",
+        "stepId": "yoma-055b-l01",
+        "label": "Problem: With two blood bowls in the Heichal,"
+      },
+      {
+        "daf": "57b",
+        "sugyaId": "yoma-057b-s01",
+        "stepId": "yoma-057b-l01",
+        "label": "Problem: HP cannot distinguish the bull's bowl from"
+      }
+    ],
+    "order": [
+      {
+        "daf": "55b",
+        "sugyaId": "yoma-055b-s01",
+        "stepId": "yoma-055b-l17",
+        "label": "Order: The service order: bull inside, goat inside,"
+      },
+      {
+        "daf": "56b",
+        "sugyaId": "yoma-056b-s03",
+        "stepId": "yoma-056b-l34",
+        "label": "Order: Bull parochet service before goat parochet service"
+      },
+      {
+        "daf": "59a",
+        "sugyaId": "yoma-059a-s01",
+        "stepId": "yoma-059a-l01",
+        "label": "Order: The blood services are completed before the"
+      }
+    ],
+    "introduction": [
+      {
+        "daf": "56b",
+        "sugyaId": "yoma-056b-s01",
+        "stepId": "yoma-056b-l01",
+        "label": "Introduction: Exploration of breira - retroactive clarification of"
+      }
+    ],
+    "example": [
+      {
+        "daf": "56b",
+        "sugyaId": "yoma-056b-s01",
+        "stepId": "yoma-056b-l02",
+        "label": "Example: Eruv parallel: can conditional eruvin be prepared"
+      }
+    ],
+    "total": [
+      {
+        "daf": "56b",
+        "sugyaId": "yoma-056b-s03",
+        "stepId": "yoma-056b-l31",
+        "label": "Total: Total: sixteen sprinkles on the parochet (8"
+      },
+      {
+        "daf": "58a",
+        "sugyaId": "yoma-058a-s03",
+        "stepId": "yoma-058a-l28",
+        "label": "Total: Total blood sprinkle acts on Yom Kippur"
+      }
+    ],
+    "nuance": [
+      {
+        "daf": "57a",
+        "sugyaId": "yoma-057a-s01",
+        "stepId": "yoma-057a-l08",
+        "label": "Nuance: The inner bull-goat analogy may not be"
+      },
+      {
+        "daf": "9a",
+        "sugyaId": "yoma-009a-s03",
+        "stepId": "step-02",
+        "label": "Rehabilitation: Eli's sons did not literally commit adultery"
+      },
+      {
+        "daf": "9b",
+        "sugyaId": "yoma-009b-s04",
+        "stepId": "step-01",
+        "label": "First Temple's sinat chinam limited to the nesi'im"
+      }
+    ],
+    "new case": [
+      {
+        "daf": "57b",
+        "sugyaId": "yoma-057b-s01",
+        "stepId": "yoma-057b-l06",
+        "label": "New case: Some blood from two bowls spills into"
+      }
+    ],
+    "completion": [
+      {
+        "daf": "57b",
+        "sugyaId": "yoma-057b-s02",
+        "stepId": "yoma-057b-l30",
+        "label": "Completion: This concludes the four-zone blood circuit: Holy"
+      },
+      {
+        "daf": "58a",
+        "sugyaId": "yoma-058a-s02",
+        "stepId": "yoma-058a-l18",
+        "label": "Completion: He pours the remaining blood at the"
+      },
+      {
+        "daf": "58a",
+        "sugyaId": "yoma-058a-s03",
+        "stepId": "yoma-058a-l29",
+        "label": "Completion: All four zones purified; the blood service"
+      }
+    ],
+    "summary": [
+      {
+        "daf": "58a",
+        "sugyaId": "yoma-058a-s03",
+        "stepId": "yoma-058a-l24",
+        "label": "Summary: Complete accounting: inside 8+8, parochet 8+8, golden"
+      },
+      {
+        "daf": "59a",
+        "sugyaId": "yoma-059a-s08",
+        "stepId": "yoma-059a-l51",
+        "label": "Summary: Summary of all Yom Kippur services performed"
+      }
+    ],
+    "crux": [
+      {
+        "daf": "58b",
+        "sugyaId": "yoma-058b-s01",
+        "stepId": "yoma-058b-l09",
+        "label": "Crux: The practical difference: blood from the parochet"
+      }
+    ],
+    "context": [
+      {
+        "daf": "58b",
+        "sugyaId": "yoma-058b-s01",
+        "stepId": "yoma-058b-l14",
+        "label": "Context: This blood pouring is the final act"
+      },
+      {
+        "daf": "59a",
+        "sugyaId": "yoma-059a-s02",
+        "stepId": "yoma-059a-l18",
+        "label": "Context: The eight blessings cover the major categories"
+      },
+      {
+        "daf": "64b",
+        "sugyaId": "yoma-064b-s01",
+        "stepId": "yoma-064b-l16",
+        "label": "Context: The quality standard reflects Israel's relationship ..."
+      }
+    ],
+    "content": [
+      {
+        "daf": "58b",
+        "sugyaId": "yoma-058b-s02",
+        "stepId": "yoma-058b-l19",
+        "label": "Content: Confession text: 'Your people Israel have sinned,"
+      },
+      {
+        "daf": "59a",
+        "sugyaId": "yoma-059a-s03",
+        "stepId": "yoma-059a-l22",
+        "label": "Content: The eight blessings cover: Torah, Avodah, Hoda'ah,"
+      },
+      {
+        "daf": "59a",
+        "sugyaId": "yoma-059a-s06",
+        "stepId": "yoma-059a-l41",
+        "label": "Content: The HP's prayer includes: good year, rain"
+      }
+    ],
+    "effect": [
+      {
+        "daf": "58b",
+        "sugyaId": "yoma-058b-s02",
+        "stepId": "yoma-058b-l22",
+        "label": "Effect: Sins are transferred to the goat through"
+      }
+    ],
+    "dispatch": [
+      {
+        "daf": "58b",
+        "sugyaId": "yoma-058b-s02",
+        "stepId": "yoma-058b-l27",
+        "label": "Dispatch: A designated person leads the scapegoat to"
+      }
+    ],
+    "institution": [
+      {
+        "daf": "58b",
+        "sugyaId": "yoma-058b-s03",
+        "stepId": "yoma-058b-l29",
+        "label": "Institution: Ten relay stations established along the Azazel"
+      },
+      {
+        "daf": "61a",
+        "sugyaId": "yoma-061a-s03",
+        "stepId": "yoma-061a-l07",
+        "label": "Institution: A Mishneh (deputy HP) is prepared throughout"
+      }
+    ],
+    "relay": [
+      {
+        "daf": "58b",
+        "sugyaId": "yoma-058b-s03",
+        "stepId": "yoma-058b-l32",
+        "label": "Relay: News of the goat's arrival at the"
+      }
+    ],
+    "sequence": [
+      {
+        "daf": "59a",
+        "sugyaId": "yoma-059a-s01",
+        "stepId": "yoma-059a-l04",
+        "label": "Sequence: Fixed order: blood services, then scapegoat, then"
+      }
+    ],
+    "reaction": [
+      {
+        "daf": "59a",
+        "sugyaId": "yoma-059a-s02",
+        "stepId": "yoma-059a-l15",
+        "label": "Reaction: The community prostrates at each explicit mention"
+      },
+      {
+        "daf": "60b",
+        "sugyaId": "yoma-060b-s01",
+        "stepId": "yoma-060b-l06",
+        "label": "Reaction: The congregation prostrates fully at each mention"
+      }
+    ],
+    "significance": [
+      {
+        "daf": "59a",
+        "sugyaId": "yoma-059a-s03",
+        "stepId": "yoma-059a-l27",
+        "label": "Significance: Together the eight blessings constitute a complete"
+      },
+      {
+        "daf": "59a",
+        "sugyaId": "yoma-059a-s07",
+        "stepId": "yoma-059a-l48",
+        "label": "Significance: The emergence alive from the Holy of"
+      },
+      {
+        "daf": "59b",
+        "sugyaId": "yoma-059b-s01",
+        "stepId": "yoma-059b-l08",
+        "label": "Significance: The burning concludes the formal Yom Kippur"
+      }
+    ],
+    "reason": [
+      {
+        "daf": "59a",
+        "sugyaId": "yoma-059a-s05",
+        "stepId": "yoma-059a-l39",
+        "label": "Reason: He keeps it short so the people"
+      },
+      {
+        "daf": "60a",
+        "sugyaId": "yoma-060a-s01",
+        "stepId": "yoma-060a-l03",
+        "label": "Reason: Every change between white and golden garments"
+      },
+      {
+        "daf": "61a",
+        "sugyaId": "yoma-061a-s03",
+        "stepId": "yoma-061a-l10",
+        "label": "Reason: In case the primary HP becomes impure"
+      }
+    ],
+    "stub": [
+      {
+        "daf": "5a",
+        "sugyaId": "yoma-005a-s02",
+        "stepId": "step-06",
+        "label": "Open question: milta"
+      }
+    ],
+    "continuation": [
+      {
+        "daf": "60b",
+        "sugyaId": "yoma-060b-s02",
+        "stepId": "yoma-060b-l24",
+        "label": "Continuation: He exits, changes to gold, and completes"
+      },
+      {
+        "daf": "61a",
+        "sugyaId": "yoma-061a-s04",
+        "stepId": "yoma-061a-l36",
+        "label": "Continuation: He offers the additional Musaf offerings for"
+      },
+      {
+        "daf": "66b",
+        "sugyaId": "yoma-066b-s02",
+        "stepId": "yoma-066b-l29",
+        "label": "Continuation: The dialogue continues, each exchange adding a"
+      }
+    ],
+    "symmetry": [
+      {
+        "daf": "61a",
+        "sugyaId": "yoma-061a-s04",
+        "stepId": "yoma-061a-l45a",
+        "label": "Symmetry: The closing ram offerings mirror the opening"
+      }
+    ],
+    "carriers": [
+      {
+        "daf": "61b",
+        "sugyaId": "yoma-061b-s01",
+        "stepId": "yoma-061b-l07",
+        "label": "Carriers: Those who carry the animals to be"
+      }
+    ],
+    "cases": [
+      {
+        "daf": "62b",
+        "sugyaId": "yoma-062b-s01",
+        "stepId": "yoma-062b-l31",
+        "label": "Cases: Working through all the stages where failure"
+      }
+    ],
+    "theology": [
+      {
+        "daf": "63a",
+        "sugyaId": "yoma-063a-s03",
+        "stepId": "yoma-063a-l35",
+        "label": "Theology: The Temple's sacred geography reflects the designed"
+      },
+      {
+        "daf": "63b",
+        "sugyaId": "yoma-063b-s01",
+        "stepId": "yoma-063b-l24",
+        "label": "Theology: The prohibition enforces the Temple's exclusive role"
+      },
+      {
+        "daf": "64b",
+        "sugyaId": "yoma-064b-s01",
+        "stepId": "yoma-064b-l09",
+        "label": "Theology: Hidur mitzvah: beautifying the commandment with the"
+      }
+    ],
+    "scope": [
+      {
+        "daf": "63b",
+        "sugyaId": "yoma-063b-s01",
+        "stepId": "yoma-063b-l01",
+        "label": "Scope: The prohibition applies to animals intended as"
+      }
+    ],
+    "penalty": [
+      {
+        "daf": "63b",
+        "sugyaId": "yoma-063b-s01",
+        "stepId": "yoma-063b-l16",
+        "label": "Penalty: The penalty for outside slaughter is kareth"
+      }
+    ],
+    "resumption": [
+      {
+        "daf": "66a",
+        "sugyaId": "yoma-066a-s01",
+        "stepId": "yoma-066a-l06",
+        "label": "Resumption: The HP comes over to the Azazel"
+      }
+    ],
+    "confession": [
+      {
+        "daf": "66a",
+        "sugyaId": "yoma-066a-s01",
+        "stepId": "yoma-066a-l13",
+        "label": "Confession: He recites the third comprehensive confession transf..."
+      }
+    ],
+    "transfer": [
+      {
+        "daf": "66a",
+        "sugyaId": "yoma-066a-s01",
+        "stepId": "yoma-066a-l17",
+        "label": "Transfer: The combination of verbal confession and physical"
+      }
+    ],
+    "agency": [
+      {
+        "daf": "66a",
+        "sugyaId": "yoma-066a-s02",
+        "stepId": "yoma-066a-l40",
+        "label": "Agency: The guide acts as the HP's agent"
+      }
+    ],
+    "structure": [
+      {
+        "daf": "66a",
+        "sugyaId": "yoma-066a-s02",
+        "stepId": "yoma-066a-l46",
+        "label": "Structure: Two-part service: HP's confession + guide's dispatch"
+      }
+    ],
+    "discussion": [
+      {
+        "daf": "66b",
+        "sugyaId": "yoma-066b-s01",
+        "stepId": "yoma-066b-l08",
+        "label": "Discussion: Various uses of 'appointed' in halachic contexts."
+      }
+    ],
+    "follow-up": [
+      {
+        "daf": "66b",
+        "sugyaId": "yoma-066b-s02",
+        "stepId": "yoma-066b-l20",
+        "label": "Follow-up: Students ask a further clarifying question."
+      }
+    ],
+    "mention": [
+      {
+        "daf": "66b",
+        "sugyaId": "yoma-066b-s04",
+        "stepId": "yoma-066b-l45",
+        "label": "Mention: Hakhel: the king reads Torah to all"
+      }
+    ],
+    "takeaway": [
+      {
+        "daf": "6a",
+        "sugyaId": "yoma-006a-s03",
+        "stepId": "step-03",
+        "label": "R. Zeira: learn from it - bo'el niddah immerses by day"
+      },
+      {
+        "daf": "7a",
+        "sugyaId": "yoma-007a-s01",
+        "stepId": "step-10",
+        "label": "Conclusion: tzitz atones only for tumah (continues on 7b)"
+      }
+    ],
+    "counter_objection": [
+      {
+        "daf": "6a",
+        "sugyaId": "yoma-006a-s03",
+        "stepId": "step-05",
+        "label": "Rav Shimi: alternatively, separate him slightly before sunset eight days early"
+      },
+      {
+        "daf": "6b",
+        "sugyaId": "yoma-006b-s01",
+        "stepId": "step-06",
+        "label": "Ravina: even if dchuya, rarity explains the omission"
+      }
+    ],
+    "response": [
+      {
+        "daf": "72a",
+        "sugyaId": "yoma-072a-s01",
+        "stepId": "yoma-072a-l03",
+        "label": "Body from body"
+      }
+    ],
+    "aggadah": [
+      {
+        "daf": "72a",
+        "sugyaId": "yoma-072a-s02",
+        "stepId": "yoma-072a-l12",
+        "label": "Standing acacia = Torah scholars"
+      },
+      {
+        "daf": "72a",
+        "sugyaId": "yoma-072a-s03",
+        "stepId": "yoma-072a-l13",
+        "label": "Service garments cause endurance"
+      },
+      {
+        "daf": "72b",
+        "sugyaId": "yoma-072b-s03",
+        "stepId": "yoma-072b-l11",
+        "label": "Torah beloved at every boundary"
+      }
+    ],
+    "comparison": [
+      {
+        "daf": "81a",
+        "sugyaId": "yoma-081a-s04",
+        "stepId": "step-01",
+        "label": "Verse pairs affliction and labor"
+      },
+      {
+        "daf": "85a",
+        "sugyaId": "yoma-085a-s05",
+        "stepId": "step-03",
+        "label": "Does the nose/heart dispute track the fetus-formation dispute?"
+      }
+    ],
+    "hypothesis": [
+      {
+        "daf": "8a",
+        "sugyaId": "yoma-008a-s02",
+        "stepId": "step-02",
+        "label": "First hypothesis: dispute maps onto dchuya vs. hutrah"
+      },
+      {
+        "daf": "8a",
+        "sugyaId": "yoma-008a-s02",
+        "stepId": "step-04",
+        "label": "Second hypothesis: dispute is about tevila bizmana mitzva"
+      }
+    ],
+    "exposition": [
+      {
+        "daf": "9a",
+        "sugyaId": "yoma-009a-s02",
+        "stepId": "step-01",
+        "label": "Proverbs verse mapped onto Temple history"
+      }
+    ],
+    "incident": [
+      {
+        "daf": "9b",
+        "sugyaId": "yoma-009b-s05",
+        "stepId": "step-01",
+        "label": "Reish Lakish in the Jordan denounces Babylonian Jewry"
+      }
+    ],
+    "clarification": [
+      {
+        "daf": "9b",
+        "sugyaId": "yoma-009b-s05",
+        "stepId": "step-02",
+        "label": "Why silver vs. cedar? Wall vs. door explained"
+      },
+      {
+        "daf": "9b",
+        "sugyaId": "yoma-009b-s06",
+        "stepId": "step-01",
+        "label": "Ulla: sasmagor is the rot that devours cedar from within"
+      }
+    ],
+    "closing": [
+      {
+        "daf": "9b",
+        "sugyaId": "yoma-009b-s06",
+        "stepId": "step-05",
+        "label": "Closing: R. Yochanan confirms the rebuke was appropriate"
+      }
+    ]
+  },
+  "canonicalStepTypes": [
+    "answer",
+    "case",
+    "challenge",
+    "counter_objection",
+    "distinction",
+    "objection",
+    "proof",
+    "proposal",
+    "qualification",
+    "question",
+    "rejection",
+    "resolution",
+    "takeaway"
+  ],
+  "stepsInCanonical13": 633,
+  "stepsOutsideCanonical13": 1320,
+  "distinctValuesOutsideCanonical13": 106
+}
