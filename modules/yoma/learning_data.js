@@ -107171,7 +107171,7 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 1,
         he: "טומאה דתחילתו. מה תחילתו",
-        en: "Rashi: 'impurity, in its beginning stage' - the Gemara asks what this beginning stage refers to.",
+        en: "'Impurity, whose beginning' - what is its beginning that is",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -107185,7 +107185,7 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 2,
         he: "בר מדחי טומאה הוא אם אין כהן",
-        en: "Rashi: it means that the beginning stage overrides impurity, specifically if there is no pure priest available.",
+        en: "capable of overriding impurity? When there is no priest",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -107199,7 +107199,7 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 3,
         he: "טהור לזרוק דמו: שבת דתחילתו.",
-        en: "Rashi: to sprinkle the offering's blood. 'Regarding Shabbat, its beginning' introduces the parallel case.",
+        en: "who is pure to sprinkle its blood. 'Shabbat, whose beginning' -",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -107213,7 +107213,7 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 4,
         he: "דתמיד דערב שבת לאו בר מידחא",
-        en: "Rashi: this means the daily-offering of the eve of Shabbat cannot itself override Shabbat.",
+        en: "for the daily offering of Shabbat eve is not capable of overriding",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -107227,7 +107227,7 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 5,
         he: "שבת שהרי בין הערבים נשחט ודם",
-        en: "Rashi: since it is slaughtered in the afternoon, before Shabbat has begun.",
+        en: "Shabbat, since it is slaughtered in the afternoon and the blood",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -107241,11 +107241,12 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 6,
         he: "נפסל בשקיעת החמה: דחויה היא",
-        en: "Rashi: and its blood becomes invalid at sunset, so there is no occasion for it to override Shabbat at that stage.",
+        en: "becomes disqualified at sunset. 'It is set aside'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
+          "yoma-046b-l01",
           "yoma-046b-l06"
         ]
       },
@@ -107255,7 +107256,7 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 7,
         he: "בציבור. בקושי הותרה וכל כמה",
-        en: "Rashi: 'it is overridden in the community' means it was permitted only with difficulty, not as a full license.",
+        en: "'for the community' - it was permitted only with difficulty, and as much",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
@@ -107269,12 +107270,13 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 8,
         he: "דאפשר מהדרינן אטהורין: המכבה",
-        en: "Rashi: and as much as possible, we seek out pure priests rather than proceeding in a state of impurity.",
+        en: "as is possible we go back after pure ones. 'One who extinguishes'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046b-l06"
+          "yoma-046b-l06",
+          "yoma-046b-l08"
         ]
       },
       {
@@ -107283,12 +107285,12 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 9,
         he: "אש מחתה ומנורה. לאחר שחתה",
-        en: "Rashi: 'one who extinguishes the fire of the fire-pan or the lampstand' - the Mishna's new case is introduced.",
+        en: "'the fire of a fire-pan or of a lampstand' - after he has raked",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046b-l06"
+          "yoma-046b-l08"
         ]
       },
       {
@@ -107297,12 +107299,12 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 10,
         he: "גחלים למחתה או למנורה כיבן:",
-        en: "Rashi: this means after he has already scooped coals into the fire-pan or for the lampstand, and then extinguishes them.",
+        en: "coals into the fire-pan or for the lampstand, and extinguished them.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046b-l10"
+          "yoma-046b-l08"
         ]
       },
       {
@@ -107311,12 +107313,13 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 11,
         he: "חייב. משום לא תכבה: אינתיק",
-        en: "Rashi: 'is liable' - on account of the Torah prohibition 'you shall not extinguish' the altar fire.",
+        en: "'Liable' - because of 'it shall not be extinguished'. 'It was detached'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046b-l10"
+          "yoma-046b-l08",
+          "yoma-046b-l16"
         ]
       },
       {
@@ -107325,12 +107328,12 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 12,
         he: "למצותה. לשום למחתה ותו",
-        en: "Rashi: 'once it has been designated for its mitzvah' means placed specifically into the fire-pan for its intended use.",
+        en: "'for its mitzvah' - to place it into the fire-pan, and thereafter",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046b-l10"
+          "yoma-046b-l16"
         ]
       },
       {
@@ -107339,12 +107342,12 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 13,
         he: "לא קרינן ביה אש המזבח:",
-        en: "Rashi: before that designation, it is not yet called 'the fire of the altar,' so extinguishing it then carries no liability.",
+        en: "we no longer call it 'the fire of the altar'.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046b-l10"
+          "yoma-046b-l16"
         ]
       },
       {
@@ -107353,12 +107356,12 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 14,
         he: "דכבייה בראשו של מזבח. לאחר",
-        en: "Rashi: 'that he extinguished it at the top of the altar' refers to fire already removed from its original arrangement.",
+        en: "'That he extinguished it on top of the altar' - after",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046b-l10"
+          "yoma-046b-l17b"
         ]
       },
       {
@@ -107367,12 +107370,12 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 15,
         he: "שניתקה ממערכתה:",
-        en: "Rashi: and placed there for its designated purpose, making its extinguishing liable under the prohibition.",
+        en: "it had been detached from its arrangement.",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046b-l10"
+          "yoma-046b-l17b"
         ]
       },
       {
@@ -107381,12 +107384,12 @@ const DAF_CONTENT = {
         daf: "46b",
         vilnaLine: 16,
         he: "הדרן עלך טרף בקלפי",
-        en: "Rashi: 'we will return to you, he tossed the lots into the container' - the closing formula marking the end of this chapter and the transition to the next.",
+        en: "'We shall return to you, He tossed the lots into the receptacle.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
         linkedGemaraLineIds: [
-          "yoma-046b-l16"
+          "yoma-046b-l23"
         ]
       }
     ],
