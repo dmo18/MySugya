@@ -9,7 +9,7 @@ const PLATFORM_VERSION = typeof __MYSUGYA_PLATFORM_VERSION__ !== "undefined"
   ? __MYSUGYA_PLATFORM_VERSION__
   : (typeof DATA_VERSION !== "undefined" ? DATA_VERSION : "");
 
-// groupRashiByLinkedId, rashiRendererFromUrl: shared/rashi_association.js
+// groupRashiByLinkedId: shared/rashi_association.js
 // (loaded before this script; see index.html and scripts/build-entry.jsx)
 
 // ----- localStorage helpers -----------------------------------------------
@@ -655,7 +655,7 @@ function LearningPanel({ learning, display }) {
 // =============================================================================
 // SUGYA
 // =============================================================================
-function Sugya({ sugya, idx, total, tweaks, rashiMap, linkedRashiMap, rashiRenderer }) {
+function Sugya({ sugya, idx, total, tweaks, linkedRashiMap }) {
   const [nusachOpen, setNusachOpen] = useState(false);
   const [learnOpen, setLearnOpen]   = useState(false);
   const [storiesOpen, setStoriesOpen] = useState(false);
@@ -704,24 +704,14 @@ function Sugya({ sugya, idx, total, tweaks, rashiMap, linkedRashiMap, rashiRende
 
         <div className="lines">
           {sugya.lines.filter(Boolean).map((line, i) => {
-            // Legacy path: vilnaLine-based coincidence. Retained intact as
-            // the rollback path behind ?rashiAssoc=legacy; not deleted.
-            const legacyRashi = line.vilna_line != null ? rashiMap?.get(line.vilna_line) : null;
-            const hasLegacyRashi = !!legacyRashi;
-
-            // Linked path: linkedGemaraLineIds-based association. This is the
-            // production default as of the VERSION 15.338 cutover. It is
+            // linkedGemaraLineIds is the only association mechanism. It is
             // authoritative: no vilnaLine fallback, a multi-linked comment
             // renders beneath every target it declares, several comments may
             // render beneath one target, and an authorized empty-link
             // boundary entry declares no target so it renders nowhere.
             const linkedRashiEntries = line.id ? linkedRashiMap?.get(line.id) : null;
-            const hasLinkedRashi = (linkedRashiEntries?.length ?? 0) > 0;
-
-            // rashiRenderer is "linked" unless ?rashiAssoc=legacy was passed.
-            const useLinked = rashiRenderer === "linked";
-            const hasRashi = useLinked ? hasLinkedRashi : hasLegacyRashi;
-            const toggleKey = useLinked ? line.id : line.vilna_line;
+            const hasRashi = (linkedRashiEntries?.length ?? 0) > 0;
+            const toggleKey = line.id;
 
             return (
               <div key={i}>
@@ -735,7 +725,7 @@ function Sugya({ sugya, idx, total, tweaks, rashiMap, linkedRashiMap, rashiRende
                   onRashiToggle={() => setActiveRashiLine(activeRashiLine === toggleKey ? null : toggleKey)}
                   rashiActive={activeRashiLine === toggleKey}
                 />
-                {useLinked && linkedRashiEntries && activeRashiLine === line.id && (
+                {linkedRashiEntries && activeRashiLine === line.id && (
                   <div className="rashi-inline">
                     {linkedRashiEntries.map((r, ri) => (
                       <div key={ri}
@@ -753,16 +743,6 @@ function Sugya({ sugya, idx, total, tweaks, rashiMap, linkedRashiMap, rashiRende
                         )}
                       </div>
                     ))}
-                  </div>
-                )}
-                {!useLinked && legacyRashi && activeRashiLine === line.vilna_line && (
-                  <div className="rashi-inline">
-                    <p className="rashi-inline-he" lang="he" dir="rtl">{tweaks.nekudot ? legacyRashi.he : stripNekudot(legacyRashi.he)}</p>
-                    {legacyRashi.en && tweaks.showEnglish && (
-                      <p className="rashi-inline-en">
-                        <span dangerouslySetInnerHTML={{__html: enHtml(legacyRashi.en)}}/>
-                      </p>
-                    )}
                   </div>
                 )}
               </div>
@@ -1292,30 +1272,16 @@ function App() {
 
   const onSelect = (id) => { setCurrentDaf(normalizeDaf(id)); window.scrollTo({top: 0, behavior: "auto"}); };
 
-  const rashiMap = useMemo(() => {
-    const map = new Map();
-    content?.rashiLines?.forEach(r => {
-      if (r.vilnaLine != null) {
-        map.set(r.vilnaLine, r);
-      }
-    });
-    return map;
-  }, [content?.rashiLines]);
-
   const linkedRashiMap = useMemo(() => {
     return groupRashiByLinkedId(content?.rashiLines);
   }, [content?.rashiLines]);
 
-  const rashiRenderer = useMemo(() => {
-    return rashiRendererFromUrl();
-  }, []);
-
   const renderedSugyot = useMemo(() => {
     if (!content?.sugyot) return null;
     return content.sugyot.map((s, i) => (
-      <Sugya key={s.id} sugya={s} idx={i} total={content.sugyot.length} tweaks={tweaks} rashiMap={rashiMap} linkedRashiMap={linkedRashiMap} rashiRenderer={rashiRenderer}/>
+      <Sugya key={s.id} sugya={s} idx={i} total={content.sugyot.length} tweaks={tweaks} linkedRashiMap={linkedRashiMap}/>
     ));
-  }, [content?.sugyot, rashiMap, linkedRashiMap, rashiRenderer, tweaks]);
+  }, [content?.sugyot, linkedRashiMap, tweaks]);
 
   return (
     <div className="app">

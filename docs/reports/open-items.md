@@ -30,11 +30,11 @@ Classification key:
 - Associations: 10,047 declared `linkedGemaraLineIds` (7,648 single-link,
   1,186 multi-link, 279 Mishnah, 447 suffixed-id, 0 sparse, 20 boundary),
   **0 broken, 0 cross-daf**.
-- Renderer: **linked is the production default** since the VERSION 15.338
-  cutover. `?rashiAssoc=legacy` is a temporary rollback override onto the
-  preserved legacy renderer; `?rashiAssoc=linked` is still accepted; unknown
-  values resolve to linked. Selection is read fresh from the URL and never
-  persisted.
+- Renderer: **linked is the only renderer.** It became the production
+  default at VERSION 15.338 and the legacy renderer plus the `?rashiAssoc`
+  selector were removed at VERSION 15.346. A leftover `?rashiAssoc` value of
+  any kind, including the retired `legacy`, is ignored and renders linked.
+  Nothing about renderer choice is persisted.
 - Renderer readiness: **8/8**.
 - Deployment: **GitHub Pages (https://dmo18.github.io/MySugya/) is the
   authoritative beta deployment**, serving VERSION 15.338.
@@ -86,7 +86,6 @@ Nothing else is currently blocked on code.
 | Item | Detail |
 |---|---|
 | Additional tractates (all non-Yoma) | Product roadmap, **not** incomplete Yoma work. No module exists for any other tractate and none should be started without operator selection. Prerequisites are listed in `docs/new-tractate-onboarding.md`. |
-| Legacy renderer retirement | The legacy vilnaLine renderer is retained deliberately as the rollback path. Retirement is a future decision with its own policy and explicit operator approval. |
 
 ---
 
@@ -110,6 +109,7 @@ Nothing else is currently blocked on code.
 | Worker queue `.worker-queue.json` (rashi-reconstruction 79b-88a) | **All 18 targets have merged reconstruction commits on `main`.** See the note below on why the derived status reads "none". |
 | 61a, 67b, 68a, 68b, 70a, 71b | All six daf named in `docs/reports/rashi-lookalike-shift-audit.md` as needing reconstruction/realignment were repaired and now classify **ALIGNED** with `lineLevelSafe=true` and no recommended task type. That report's remediation instructions are historical. |
 | `docs-tooling` scope gap for `modules/yoma/MODULE.md` | **Resolved at VERSION 15.340** (PR #333): the single documentation path was added to `allowedFiles`, with regression tests pinning that every corpus path stays refused. |
+| Legacy renderer retirement | **Done at VERSION 15.346** by explicit operator decision. The legacy vilnaLine branch, the `?rashiAssoc` selector, and the legacy map/state were removed; `linkedGemaraLineIds` is the only association mechanism. A leftover `?rashiAssoc` value of any kind is ignored and renders linked. See `docs/reports/legacy-renderer-retirement-policy.md` (now closed). |
 | 7a, 9b corrections | 7a realignment (53 entries, PR #326); 9b full reconstruction (41 entries, PR #327). |
 
 ### Worker queue: completed, with an explained derived status
@@ -204,12 +204,11 @@ settings.
 
 ## Legacy renderer retirement
 
-**Retained. Not scheduled for deletion.** Policy:
-`docs/reports/legacy-renderer-retirement-policy.md`, which defines the
-90-day observation period, the seven evidence requirements, the rollback
-conditions and procedure, and the explicit operator approval required before
-any deletion. No worker or agent may remove the legacy path, its selector
-arm, or its tests.
+**Completed at VERSION 15.346** by explicit operator decision. The legacy
+renderer, its selector, and its rollback path no longer exist;
+`linkedGemaraLineIds` is the only association mechanism.
+`docs/reports/legacy-renderer-retirement-policy.md` is retained as the
+closed historical record.
 
 ## Next tractate
 

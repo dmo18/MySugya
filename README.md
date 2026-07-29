@@ -169,7 +169,7 @@ Three Playwright specs run against built `dist/`:
 
 - `tests/browser/yoma-smoke.spec.js` - Yoma 2a rendering, Rashi, navigation, mobile overflow, dark mode.
 - `tests/browser/runtime-guards.spec.js` - Landing page featured preview load, unknown module fallback, invalid daf fallback, clipboard rejection handled silently.
-- `tests/browser/rashi-association.spec.js` - Rashi linked-association rendering (the production default): every declared `linkedGemaraLineIds` association renders under exactly its declared targets with exact text, authorized boundary entries render nowhere, and renderer selection resolves correctly for no parameter, `?rashiAssoc=linked`, `?rashiAssoc=legacy`, and unknown values.
+- `tests/browser/rashi-association.spec.js` - Rashi linked-association rendering (the only renderer): every declared `linkedGemaraLineIds` association renders under exactly its declared targets with exact text, multi-link comments appear under every target, authorized boundary entries render nowhere, and a leftover `?rashiAssoc` value of any kind (including the retired `legacy`) is ignored and still renders linked.
 
 Node unit tests (run by `npm test`, not Playwright): `tests/unit/rashi-association.test.mjs` (grouping plus renderer selection) and `tests/unit/rashi-browser-shards.test.mjs` (shard slicing, merging, artifact validation).
 
@@ -307,18 +307,18 @@ confirm the live bundle matches the merged `VERSION`:
 curl -s "https://dmo18.github.io/MySugya/?cb=$(date +%s)" | grep -o 'app-[0-9.]*\.js'
 ```
 
-### Roll Back the Rashi Renderer
+### Rashi Rendering
 
-Linked rendering is the production default. To view the preserved legacy
-vilnaLine renderer without any deployment change, append `?rashiAssoc=legacy`
-to any daf URL. The legacy renderer is retained deliberately and is not
-scheduled for deletion.
+Rashi comments are attached to Gemara/Mishnah lines solely through
+`linkedGemaraLineIds`. The legacy vilnaLine-coincidence renderer and the
+`?rashiAssoc` selector were removed at VERSION 15.346; there is no renderer
+selection and no rollback path.
 
 ---
 
 ## Documentation
 
-- **docs/reports/legacy-renderer-retirement-policy.md** - Why the legacy Rashi renderer is retained and what would be required to retire it
+- **docs/reports/legacy-renderer-retirement-policy.md** - Closed: the record of how the legacy Rashi renderer was retired
 - **docs/reports/next-tractate-roadmap.md** - Prerequisites for the next tractate (roadmap, not outstanding work)
 - **docs/reports/open-items.md** - **Current status**: one classified inventory of everything open, paused, deferred, historical, or operator-owned. Start here.
 - **CLAUDE.md** - Complete maintainer guide, universal rules, module system

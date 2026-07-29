@@ -167,7 +167,7 @@ Three Playwright specs run:
 
 - `tests/browser/yoma-smoke.spec.js` - Yoma 2a rendering, Rashi display, previous navigation, mobile overflow, dark mode.
 - `tests/browser/runtime-guards.spec.js` - Landing page featured preview load, unknown module fallback to landing, invalid daf fallback to first daf, clipboard rejection caught without crash.
-- `tests/browser/rashi-association.spec.js` - Rashi linked-association rendering (the production default since VERSION 15.338): per-daf, every declared `linkedGemaraLineIds` association renders under exactly its declared targets with exact Hebrew/English text, multi-link comments appear under every target, authorized boundary entries render nowhere, and renderer selection resolves correctly for no parameter, `?rashiAssoc=linked`, `?rashiAssoc=legacy`, and unknown values. Scope defaults to daf 2a; the sharded workflow runs it across all 173 daf.
+- `tests/browser/rashi-association.spec.js` - Rashi linked-association rendering (the only renderer): every declared `linkedGemaraLineIds` association renders under exactly its declared targets with exact text, multi-link comments appear under every target, authorized boundary entries render nowhere, and a leftover `?rashiAssoc` value of any kind (including the retired `legacy`) is ignored and still renders linked. Scope defaults to daf 2a; the sharded workflow runs it across all 173 daf.
 
 Node unit tests run by `npm test` (not Playwright): `tests/unit/rashi-association.test.mjs` and `tests/unit/rashi-browser-shards.test.mjs`.
 
@@ -252,29 +252,21 @@ Use `--skip-existing` to resume a partial run.
 
 ---
 
-## Rashi linked-renderer readiness
+## Rashi linked renderer
 
 The `linkedGemaraLineIds` field on every `rashiLines`/`rashiTranslations`
-entry declares which Gemara/Mishnah line(s) a Rashi comment belongs to.
-**As of the VERSION 15.338 cutover, the linked renderer is the production
-default**: an ordinary URL with no query parameter renders Rashi from
-`linkedGemaraLineIds`, which is authoritative (no `vilnaLine` fallback, a
-multi-linked comment renders beneath every target it declares, and an
-authorized empty-link boundary entry renders nowhere).
+entry declares which Gemara/Mishnah line(s) a Rashi comment belongs to. It
+is the **only** association mechanism and is authoritative: no `vilnaLine`
+fallback, a multi-linked comment renders beneath every target it declares,
+several comments may render beneath one target, and an authorized
+empty-link boundary entry renders nowhere.
 
-Renderer selection (`rashiRendererFromUrl` in `shared/rashi_association.js`),
-read fresh from the URL on every call and never persisted to any storage:
-
-| URL | Renderer |
-|---|---|
-| no `rashiAssoc` parameter | linked (production default) |
-| `?rashiAssoc=linked` | linked (still accepted, no longer required) |
-| `?rashiAssoc=legacy` | legacy (temporary rollback override) |
-| unknown or malformed value | linked |
-
-The legacy `vilnaLine`-coincidence renderer has **not** been deleted. It
-remains fully intact in `app.jsx` as the rollback path behind
-`?rashiAssoc=legacy`. Do not remove it without an explicit decision.
+**There is no renderer selection and no rollback path.** The legacy
+`vilnaLine`-coincidence renderer and the `?rashiAssoc` query parameter were
+removed at VERSION 15.346. A leftover `?rashiAssoc` value of any kind,
+including the retired `legacy`, is simply ignored and still renders from
+`linkedGemaraLineIds`. Nothing about renderer choice is persisted to any
+storage.
 
 ### Cutover evidence (VERSION 15.338, commit `ef58878`)
 
