@@ -1,7 +1,25 @@
 # Legacy Rashi renderer: retirement policy
 
-Status: **the legacy renderer is retained. It is not scheduled for deletion,
-and nothing in this policy authorizes deleting it.**
+Status: **CLOSED - the legacy renderer was removed at VERSION 15.346 by
+explicit operator decision.**
+
+> This document is now a historical record of the policy that governed the
+> legacy renderer while it existed, plus the record of its retirement. The
+> observation period and evidence requirements below were the standing
+> policy; the operator elected to retire the renderer directly rather than
+> run that clock, which is theirs to decide. Nothing below is current
+> guidance.
+>
+> What was removed: the legacy `vilnaLine`-coincidence branch in `app.jsx`,
+> the `rashiRendererFromUrl` selector and the whole `?rashiAssoc` parameter
+> in `shared/rashi_association.js`, the legacy `vilnaLine` map and renderer
+> state, and the selector's unit tests. `linkedGemaraLineIds` is now the
+> only association mechanism.
+>
+> What replaced the rollback tests: `tests/browser/rashi-association.spec.js`
+> now proves that a leftover `?rashiAssoc` value of any kind, including the
+> retired `legacy`, is ignored and still renders linked, so old bookmarks
+> keep working rather than erroring.
 
 Since the VERSION 15.338 cutover (`ef58878`), the linked
 `linkedGemaraLineIds` renderer is the production default. The legacy
