@@ -1,5 +1,8 @@
 # Yoma Completion Report
 
+> Historical phase record. Current repository-wide status:
+> `docs/reports/open-items.md`.
+
 Factual record of the Yoma schema-completeness and content-quality work
 completed between VERSION 14.43 and VERSION 14.66. This is the concrete
 worked example behind `docs/tractate-build-process.md` - read that
@@ -235,10 +238,10 @@ revisited (9b/yoma-009b-s03 was never actually broken; see Phase 3).
   **nekudot/vowelization correctness audit of the `he:` fields remains
   separate and has not started** - it is a distinct pass from the
   association/readiness work above and is explicitly out of scope for it.
-- `modules/yoma/MODULE.md` still states "FROZEN at v10.75" and "Do not
-  modify any learning content" - both are now stale relative to the
-  actual corpus state (VERSION 14.66, substantial approved content work
-  completed since). This report does not update `MODULE.md`; that is a
-  separate, explicit follow-up decision for a maintainer, since the
-  freeze declaration and its version number are a deliberate project
-  statement, not incidental metadata.
+- (Resolved, no longer outstanding.) This report previously warned that
+  `modules/yoma/MODULE.md` still declared "FROZEN at v10.75" and "Do not
+  modify any learning content". That warning is obsolete: `MODULE.md` was
+  rewritten and now reads "Frozen Scope, Actively Maintained Content",
+  correctly distinguishing the frozen 173-daf/492-sugya scope from the
+  content within it, which is actively corrected through the worker
+  pipeline. No follow-up is required.

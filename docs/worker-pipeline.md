@@ -1,5 +1,7 @@
 # MySugya worker pipeline: bounded task automation
 
+> Current repository-wide status: `docs/reports/open-items.md`.
+
 Project-wide generalization of the guarded Rashi workflow (see
 docs/rashi-workflow.md, which remains authoritative for Rashi
 specifics). One registry, one driver, six commands. Added at VERSION

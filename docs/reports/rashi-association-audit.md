@@ -1,5 +1,7 @@
 # Rashi linkedGemaraLineIds renderer and audit
 
+> Current repository-wide status: `docs/reports/open-items.md`.
+
 ## Production cutover (VERSION 15.338)
 
 The linked renderer is now the **production default**. Renderer selection

@@ -85,14 +85,19 @@ MySugya/
       scripts/                  Build and validation tools
   tests/
     smoke/render_check.py               Production build smoke test
+    unit/rashi-association.test.mjs     Rashi grouping + renderer selection unit tests
+    unit/rashi-browser-shards.test.mjs  Shard slicing/merging/artifact validation unit tests
     browser/yoma-smoke.spec.js          Playwright Yoma browser smoke test
     browser/runtime-guards.spec.js      Playwright runtime guard smoke test
+    browser/rashi-association.spec.js   Playwright linked-association rendering spec
   githooks/
     pre-commit                  Version sync plus smoke tests
   shared/
     schema_map.js               Data schema contract
   docs/
+    reports/open-items.md       CURRENT STATUS: classified open/paused/deferred inventory
     vilna-breaks.md             Vilna edition reference
+    (plus build-process, worker-pipeline, audit, and report documents)
 ```
 
 ---
@@ -160,10 +165,13 @@ This builds `dist/`, serves it locally, verifies the production bundle, checks t
 npm run test:browser
 ```
 
-Two Playwright specs run against built `dist/`:
+Three Playwright specs run against built `dist/`:
 
 - `tests/browser/yoma-smoke.spec.js` - Yoma 2a rendering, Rashi, navigation, mobile overflow, dark mode.
 - `tests/browser/runtime-guards.spec.js` - Landing page featured preview load, unknown module fallback, invalid daf fallback, clipboard rejection handled silently.
+- `tests/browser/rashi-association.spec.js` - Rashi linked-association rendering (the production default): every declared `linkedGemaraLineIds` association renders under exactly its declared targets with exact text, authorized boundary entries render nowhere, and renderer selection resolves correctly for no parameter, `?rashiAssoc=linked`, `?rashiAssoc=legacy`, and unknown values.
+
+Node unit tests (run by `npm test`, not Playwright): `tests/unit/rashi-association.test.mjs` (grouping plus renderer selection) and `tests/unit/rashi-browser-shards.test.mjs` (shard slicing, merging, artifact validation).
 
 ### Deploy HTML Check
 
@@ -207,7 +215,13 @@ The first six gates check the Gemara source text layer (he/en/Vilna alignment). 
 
 The live site must serve generated `dist/`, not the source repository root. The root `index.html` is kept as a development shell and intentionally references Babel and React development scripts. `npm run build` rewrites the production HTML in `dist/index.html` to use the bundled app asset.
 
-### GitHub Pages
+### GitHub Pages is the authoritative deployment
+
+**https://dmo18.github.io/MySugya/ is the authoritative beta deployment.**
+mysugya.com and its Cloudways/custom-domain configuration are intentionally
+out of scope: mysugya.com may lag the current `VERSION`, and that staleness is
+not a release blocker and is not repaired by repository work. Verify releases
+against GitHub Pages only.
 
 This repository includes a GitHub Actions workflow at `.github/workflows/deploy-pages.yml` that runs on pull requests, pushes to `main`, and manual dispatch. The workflow:
 
@@ -269,17 +283,42 @@ Push to `main`. GitHub Actions will build, test, verify deploy HTML, and deploy 
 
 ### Check Current Status
 
+Start with `docs/reports/open-items.md`, the single classified inventory of
+everything open, paused, deferred, or operator-owned. Then, for live numbers:
+
 ```bash
-cat VERSION
-grep DATA_VERSION modules/yoma/learning_data.js
-npm test
-npm run test:browser
+cat VERSION                                    # canonical platform version
+grep DATA_VERSION modules/yoma/learning_data.js # data-layer version (independent)
+npm test                                       # unit + smoke suite
+npm run test:browser                           # three Playwright specs
+npm run validate:offline:yoma                  # all offline Yoma gates
+npm run audit:rashi-association:yoma -- --exhaustive-corpus  # 0 broken / 0 cross-daf
+npm run audit:rashi:semantic:yoma              # advisory semantic report
+npm run validate:rashi:boundary:yoma           # boundary authorization registry
+npm run audit:rashi-renderer-readiness:yoma    # 8-condition renderer readiness gate
 ```
+
+### Verify a Deployment
+
+GitHub Pages is the authoritative beta deployment. After a merge to `main`,
+confirm the live bundle matches the merged `VERSION`:
+
+```bash
+curl -s "https://dmo18.github.io/MySugya/?cb=$(date +%s)" | grep -o 'app-[0-9.]*\.js'
+```
+
+### Roll Back the Rashi Renderer
+
+Linked rendering is the production default. To view the preserved legacy
+vilnaLine renderer without any deployment change, append `?rashiAssoc=legacy`
+to any daf URL. The legacy renderer is retained deliberately and is not
+scheduled for deletion.
 
 ---
 
 ## Documentation
 
+- **docs/reports/open-items.md** - **Current status**: one classified inventory of everything open, paused, deferred, historical, or operator-owned. Start here.
 - **CLAUDE.md** - Complete maintainer guide, universal rules, module system
 - **SOURCES.md** - Source attribution and technology stack
 - **docs/vilna-breaks.md** - Vilna edition line reference

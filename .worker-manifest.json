@@ -1,52 +1,46 @@
 {
- "type": "rashi-reconstruction",
+ "type": "docs-tooling",
  "module": "yoma",
- "targets": [
-  "9b"
- ],
+ "targets": [],
  "model": "sonnet",
  "paused": false,
  "lifecycle": "pr",
  "mechanicalTier": false,
  "independentReviewRequired": false,
- "reviewPolicy": "conditional",
+ "reviewPolicy": "none",
  "escalationModel": "sonnet",
  "authorizations": [],
- "maxBatch": 1,
+ "maxBatch": null,
  "allowedFiles": [
-  "modules/yoma/assets/learning/yoma/<daf>.learning.json",
-  "modules/yoma/learning_data.js",
-  "modules/yoma/coverage.json",
-  "VERSION",
-  "package.json",
-  "package-lock.json",
-  "docs/rashi-audit-backlog.md",
-  "modules/yoma/scripts/allowlists/*",
-  "modules/yoma/scripts/baselines/*",
-  ".worker-manifest.json",
-  ".worker-self-review.json",
-  ".worker-queue.json"
- ],
- "allowedJsonPaths": [
-  "rashiTranslations[*].en",
-  "rashiTranslations[*].linkedGemaraLineIds"
- ],
- "forbiddenFiles": [
-  ".github/workflows/*",
+  "docs/*",
   "scripts/*",
   "modules/yoma/scripts/*.py",
-  "githooks/*"
+  "modules/yoma/scripts/allowlists/*",
+  ".github/workflows/*",
+  "githooks/*",
+  "package.json",
+  "package-lock.json",
+  "VERSION",
+  "README.md",
+  "CLAUDE.md",
+  "SOURCES.md",
+  "tests/*",
+  ".worker-manifest.json",
+  ".worker-queue.json"
  ],
- "allowlistPolicy": "remove-only",
- "structurePolicy": "forbidden",
+ "allowedJsonPaths": [],
+ "forbiddenFiles": [
+  "modules/yoma/assets/learning/*",
+  "modules/yoma/assets/talmuddev/*",
+  "modules/yoma/assets/daftexts/*",
+  "modules/yoma/source_store.js"
+ ],
+ "allowlistPolicy": "restructure-with-env",
+ "structurePolicy": "not-applicable",
  "requiredValidators": [
-  "validate:offline:yoma",
-  "check:rashi-pr-scope:yoma"
+  "validate:offline:yoma"
  ],
- "generationCommands": [
-  "cd modules/yoma && python3 scripts/build_learning_data.py",
-  "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
- ],
+ "generationCommands": [],
  "buildTestCommands": [
   "npm run build",
   "npm run check:deploy-html",
@@ -54,22 +48,8 @@
   "npm run test:browser"
  ],
  "escalationTriggers": [
-  "uncertain Hebrew meaning or placement",
-  "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
-  "any gate failure not fixable by correcting your own content",
-  "required packet id missing, or packet segment text truncated or incomplete",
-  "structure or count mismatch not already baselined (count mismatches have no drain path of any kind and always block)",
-  "repetitionDrain snapshot does not match the target's live repetition-baseline state, or the drift profile no longer recommends reconstruction (repetition-drain is only valid when reconstruction is already the drift-approved remedy)",
-  "allowlist growth would be needed",
-  "validator or workflow modification would be needed",
-  "semantic uncertainty remains after rereading the raw Hebrew and full segment text",
-  "post-edit drift profile not ALIGNED",
-  "a semantic audit shift candidate remains on the target daf",
-  "a link that cannot be justified from local segment text",
-  "the fresh post-edit self-review finds a blocker",
-  "CI or full verification fails after one bounded correction attempt",
-  "fields outside the manifest would be needed",
-  "more than one daf would change in the same content PR"
+  "any existing gate would be weakened",
+  "workflow permission changes would be needed"
  ],
  "allowlistDrain": null,
  "scaffoldDebt": null,

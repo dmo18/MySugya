@@ -1,0 +1,186 @@
+# Open items and current status
+
+One concise, classified inventory of everything the repository still tracks as
+open, paused, deferred, historical, completed, or unknown. Produced by a
+read-only repository-wide sweep at **VERSION 15.338, commit `ef58878`**.
+
+This is the single current source of truth for "what is still outstanding".
+Where a longer document disagrees with this one, this one is current and the
+other is a historical record; superseded sections in those documents are
+labelled in place.
+
+Classification key:
+
+| Class | Meaning |
+|---|---|
+| **OPEN-ACTIONABLE** | Real work, authorized, can start now |
+| **PAUSED** | Blocked pending authorization or missing tooling |
+| **DEFERRED-ROADMAP** | Intentional future scope, not a defect |
+| **HISTORICAL** | Superseded record, preserved deliberately |
+| **COMPLETED** | Done and verified |
+| **UNKNOWN-OPERATOR** | Needs an operator/admin decision or action |
+
+---
+
+## Current verified platform state (VERSION 15.338, `ef58878`)
+
+- Corpus: Yoma, 173 daf (2a-88a), 492 sugyot, 8,854 `rashiTranslations` and
+  8,854 runtime `rashiLines`.
+- Associations: 10,047 declared `linkedGemaraLineIds` (7,648 single-link,
+  1,186 multi-link, 279 Mishnah, 447 suffixed-id, 0 sparse, 20 boundary),
+  **0 broken, 0 cross-daf**.
+- Renderer: **linked is the production default** since the VERSION 15.338
+  cutover. `?rashiAssoc=legacy` is a temporary rollback override onto the
+  preserved legacy renderer; `?rashiAssoc=linked` is still accepted; unknown
+  values resolve to linked. Selection is read fresh from the URL and never
+  persisted.
+- Renderer readiness: **8/8**.
+- Deployment: **GitHub Pages (https://dmo18.github.io/MySugya/) is the
+  authoritative beta deployment**, serving VERSION 15.338.
+
+### Cutover evidence (recorded here as the durable record)
+
+| Item | Value |
+|---|---|
+| Cutover VERSION | 15.338 |
+| Merge commit | `ef58878fd5c8ad4593909786edf02ac984bc365c` |
+| Cutover PR | #331 |
+| Browser shard workflow run | `30403330781` |
+| Combined artifact | `rashi-browser-shard-result`, id `8705825544` |
+| Shards | 8 |
+| Daf coverage | 173/173, zero missing, zero duplicate |
+| Rashi entries | 8,854 |
+| Tests | **215 passed, 0 failed** |
+| Readiness gate | 8/8 READY at the exact merge commit |
+
+The pre-cutover 8/8 authorization run was workflow `30399334278` / artifact id
+`8704117259` at commit `d1e4715` (173/173 daf, 8,854 entries, 183 passed, 0
+failed). Both artifacts were verified independently: zip digest, exact commit
+SHA, `ci=true`, per-shard union equal to the authoritative daf list, and
+per-shard test-count arithmetic reproduced from first principles.
+
+---
+
+## OPEN-ACTIONABLE
+
+| Item | Detail |
+|---|---|
+| `docs-tooling` cannot edit `modules/yoma/MODULE.md` | The `docs-tooling` task type's `allowedFiles` in `scripts/worker_task_types.json` covers `docs/*`, `README.md`, `CLAUDE.md`, `SOURCES.md`, `tests/*`, `scripts/*`, and `modules/yoma/scripts/*`, but **not** `modules/yoma/MODULE.md`, which is pure module documentation. The scope gate correctly rejected a documentation-only edit to it during the VERSION 15.339 pass; the edit was reverted rather than the gate weakened. Consequence: MODULE.md cannot currently be kept in sync by a docs PR. Fixing this is a small, separate tooling change (extend `allowedFiles` to that one documentation path), never a gate bypass. |
+| Rashi translation-quality audit coverage | The corpus-wide translation-quality (not scaffold, not association) audit is not yet complete for every daf. A git-history-grounded coverage map exists in `docs/rashi-audit-backlog.md` but predates the 7a/9b repairs and the post-15.293 work. Reconstructing an exact per-daf audited/unaudited/uncertain list is the next actionable step. |
+
+Nothing else is currently blocked on code.
+
+---
+
+## PAUSED
+
+| Item | Why paused | Unblocking condition |
+|---|---|---|
+| Nekudot / vowelization audit of `he:` fields | Task type `nekudot` is `paused: true` in `scripts/worker_task_types.json`; no validator exists, so there is no way to distinguish a real vowelization defect from a legitimate variant. `validate_rashi_yoma` checks alignment only, never nekudot. | A read-only audit tool with defined normalization rules and machine-readable output, then explicit operator authorization to unpause. No `rashiTranslations[*].he` edit is authorized until then. |
+| `argumentFlow.sourceRefs` normalization | Schema drift recorded in `docs/reports/schema-pipeline-coverage.md`: entries exist in both string and object shape. No canonical schema, validator, or lossless migration proof exists yet. | A canonical schema, a validator, and a dry-run migration preview proven lossless; only then, structural-repair authorization. |
+
+---
+
+## DEFERRED-ROADMAP
+
+| Item | Detail |
+|---|---|
+| Additional tractates (all non-Yoma) | Product roadmap, **not** incomplete Yoma work. No module exists for any other tractate and none should be started without operator selection. Prerequisites are listed in `docs/new-tractate-onboarding.md`. |
+| Legacy renderer retirement | The legacy vilnaLine renderer is retained deliberately as the rollback path. Retirement is a future decision with its own policy and explicit operator approval. |
+
+---
+
+## UNKNOWN-OPERATOR
+
+| Item | Observed state | Action owner |
+|---|---|---|
+| `main` branch protection | Read via the public GitHub API at VERSION 15.338: `protected: false`, protection `enabled: false`, required status checks enforcement `off`, and **zero rulesets**. None of the repository's own recommendations (PR required, `build` required, branch up to date, force pushes blocked, deletion restricted, bypass restricted) are currently enforced. | **Operator/admin.** This is a repository-settings action, not a code defect, and was not changed by this campaign. An unauthenticated read cannot see org-level overrides, so an admin should confirm from repository settings. |
+| mysugya.com / Cloudways | Observed serving an older bundle than GitHub Pages. **Intentionally out of scope**: GitHub Pages is the authoritative beta deployment. Not a blocker and not to be repaired by this campaign. | Operator, if and when the custom domain is promoted. |
+
+---
+
+## COMPLETED
+
+| Item | Evidence |
+|---|---|
+| Scaffold-fabrication remediation campaign | 0 debt entries across 0 daf; `audit_rashi_scaffold.py` clean; content allowlist empty. |
+| `linkedGemaraLineIds` association layer | 0 broken, 0 cross-daf across 10,047 associations. |
+| Linked-renderer cutover | VERSION 15.338 at `ef58878`; see the evidence table above. |
+| `takeaway.type` normalization | **0 non-canonical values remain.** All corpus values are within the canonical set (`logical_principle`, `derivation_principle`, `legal_principle`, `conceptual`, `open_question`). The "57 sugyot carry non-canonical values" statement in `docs/yoma-perek-review.md` describes the pre-Phase-4 state and is superseded. |
+| Worker queue `.worker-queue.json` (rashi-reconstruction 79b-88a) | **All 18 targets have merged reconstruction commits on `main`.** See the note below on why the derived status reads "none". |
+| 61a, 67b, 68a, 68b, 70a, 71b | All six daf named in `docs/reports/rashi-lookalike-shift-audit.md` as needing reconstruction/realignment were repaired and now classify **ALIGNED** with `lineLevelSafe=true` and no recommended task type. That report's remediation instructions are historical. |
+| 7a, 9b corrections | 7a realignment (53 entries, PR #326); 9b full reconstruction (41 entries, PR #327). |
+
+### Worker queue: completed, with an explained derived status
+
+`npm run worker:queue` currently prints `done (derived from merged PRs): none |
+remaining: [79b ... 88a]`. **This is a derivation artifact, not an
+inconsistency, and no content work should be restarted because of it.**
+
+`derive_queue_progress` intentionally derives progress from a single piece of
+durable evidence: the `.worker-manifest.json` currently at `origin/main`. It
+marks targets done only when that manifest's type, module, and single target
+all match the queue. The manifest at `origin/main` now targets `9b`
+(rashi-reconstruction from PR #327), which is outside this queue's target
+list, so the derivation correctly declines to advance anything and reports
+`none`.
+
+Independent verification shows every one of the 18 targets (79b, 80a, 80b,
+81a, 81b, 82a, 82b, 83a, 83b, 84a, 84b, 85a, 85b, 86a, 86b, 87a, 87b, 88a) has
+a merged reconstruction commit on `main`. The campaign is **complete**.
+
+The queue definition remains tracked and unmodified on purpose: it is an
+immutable record of what that campaign committed to. `--advance` is retired by
+design, progress is never written back, and rewriting or deleting the
+definition would destroy the audit trail without changing any derived result.
+The correct reading is: *this queue describes a finished campaign; its
+derivation window has moved past it.*
+
+---
+
+## HISTORICAL (preserved, superseded sections labelled in place)
+
+| Document | Status |
+|---|---|
+| `docs/reports/rashi-lookalike-shift-audit.md` | Historical. Its "needs reconstruction" / "MUST NOT run rashi-repair" instructions for 61a and 67b-71b were acted on and are complete. |
+| `docs/yoma-perek-review.md` | Historical perek-by-perek review. Its non-canonical `takeaway.type` counts are superseded (now 0). |
+| `docs/yoma-completion-report.md` | Historical phase record (VERSION 14.43-14.66). |
+| `docs/reports/rashi-association-audit.md` | Carries a current section at the top plus the historical VERSION 15.157 introduction record. |
+| `docs/reports/yoma-rashi-scaffold-audit.md` | Historical description of the scaffold gate and ratchet; debt is now zero. |
+| `docs/worker-pipeline.md` readiness matrix | Historical VERSION 15.80 snapshot, labelled as such. |
+
+---
+
+## Standing constraints (not open items, but binding)
+
+- **The 20 boundary entries (4b L61; 61a L46-64) are authorized and
+  intentionally unrendered.** They are recorded in
+  `modules/yoma/scripts/allowlists/rashi_boundary_authorizations.json` and
+  validated by `validate_rashi_boundary_authorizations.py` (ratchet 20/20, 0
+  stale, 0 duplicate, 0 unauthorized). Each is a comment whose Gemara content
+  is truncated at the daf's final line and completes on the next daf, where
+  cross-daf linking is prohibited. They are **not** a defect and **not** a
+  backlog item.
+- **The 14 semantic findings are advisory and do not authorize content
+  edits.** All 173 daf classify with zero SHIFTED, zero
+  FABRICATION-SUSPECT, and zero recommended task types. The 14 remaining
+  findings sit on otherwise ALIGNED (or INSUFFICIENT-ANCHORS) daf and are
+  reported in full by the readiness gate every run, never suppressed. They
+  become actionable only if a fresh audit promotes one.
+- **Daf 24b is a benign Unicode-normalization finding, not a content
+  defect.** A direct comparison against the live Sefaria API found only a
+  combining-mark ordering difference (dagesh/tsere sequence) between the
+  local talmud.dev-derived text and Sefaria's; the consonantal and
+  vocalization content is identical. No source-text change is warranted, and
+  24b source text must not be edited on the strength of this finding.
+- **GitHub Pages is the authoritative beta deployment.** mysugya.com and
+  Cloudways/custom-domain configuration are out of scope.
+
+---
+
+## Cross-references
+
+Current-status documents that point here: `README.md`, `CLAUDE.md`,
+`modules/yoma/MODULE.md`, `docs/rashi-audit-backlog.md`,
+`docs/reports/rashi-association-audit.md`, `docs/yoma-completion-report.md`,
+`docs/yoma-perek-review.md`, `docs/worker-pipeline.md`.
