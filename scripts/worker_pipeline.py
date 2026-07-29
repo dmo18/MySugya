@@ -2085,9 +2085,13 @@ def cmd_docs(opts):
     for path in sorted(inv):
         M.append(f"| `{path}` | {inv[path]} |")
     M.append("")
-    M.append("Known drift: argumentFlow sourceRefs entries are plain strings on some")
-    M.append("daf and objects on others; normalization is deferred to a future")
-    M.append("structural-repair pass (documented in docs/rashi-audit-backlog.md).")
+    M.append("Known drift: argumentFlow sourceRefs carry 550 referential defects")
+    M.append("across 102 daf (412 mechanically repairable, 138 needing content")
+    M.append("judgment), plus 331 sound refs still in the older string form.")
+    M.append("Nothing renders them today, so this is latent data debt. The full")
+    M.append("inventory, canonical schema and four-PR migration plan are in")
+    M.append("docs/reports/source-refs-normalization-plan.md; check current state")
+    M.append("with `npm run validate:sourcerefs:yoma`.")
     (REPO / "docs" / "reports" / "schema-coverage-matrix.md").write_text("\n".join(M) + "\n")
     print("wrote docs/reports/task-type-reference.md and docs/reports/schema-coverage-matrix.md")
 

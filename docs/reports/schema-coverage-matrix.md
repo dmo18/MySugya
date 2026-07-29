@@ -95,6 +95,10 @@ judgment that pattern gates cannot verify. Sonnet executes every tier.
 | `sugyot[*].visualizableElements[*]` | judgment-required |
 | `summary` | judgment-required |
 
-Known drift: argumentFlow sourceRefs entries are plain strings on some
-daf and objects on others; normalization is deferred to a future
-structural-repair pass (documented in docs/rashi-audit-backlog.md).
+Known drift: argumentFlow sourceRefs carry 550 referential defects
+across 102 daf (412 mechanically repairable, 138 needing content
+judgment), plus 331 sound refs still in the older string form.
+Nothing renders them today, so this is latent data debt. The full
+inventory, canonical schema and four-PR migration plan are in
+docs/reports/source-refs-normalization-plan.md; check current state
+with `npm run validate:sourcerefs:yoma`.
