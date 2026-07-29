@@ -53,6 +53,36 @@ def load_corpus():
     return corpus
 
 
+def load_registry_entries(path=None):
+    """The registry's entries[] list, read from disk. Single reader so no
+    consumer invents its own parse of the file."""
+    p = Path(path) if path else REGISTRY
+    if not p.exists():
+        return []
+    return json.loads(p.read_text(encoding="utf-8")).get("entries", [])
+
+
+def authorized_empty_vilna_lines(daf, entries=None, corpus=None):
+    """THE shared answer to "which empty-linked entries on this daf are
+    authorized?", for any consumer that needs it (currently the worker
+    conditional-review gate in scripts/worker_pipeline.py).
+
+    Returns (authorized_vilna_lines:set, errors:list). The set is non-empty
+    only when the WHOLE registry validates: this delegates to validate()
+    above rather than reimplementing any part of it, so a stale, duplicate,
+    nonexistent-entry, now-nonempty, or over-ratchet authorization anywhere
+    in the registry makes this return an empty set plus that validator's own
+    errors. There is deliberately no partial-credit path and no second
+    interpretation of the registry to drift from the canonical one.
+    """
+    entries = load_registry_entries() if entries is None else entries
+    corpus = load_corpus() if corpus is None else corpus
+    errors = validate(entries, corpus)
+    if errors:
+        return set(), errors
+    return {e["vilnaLine"] for e in entries if e.get("daf") == daf}, []
+
+
 def validate(entries, corpus, max_authorized_entries=MAX_AUTHORIZED_ENTRIES):
     """Pure validation: entries is the registry's entries[] list, corpus is
     a dict (daf, vilnaLine) -> {"linkedGemaraLineIds": [...], "en": "..."}
