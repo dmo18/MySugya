@@ -108,6 +108,7 @@ worker or agent should treat them as incomplete.
 | Item | Observed state | Action owner |
 |---|---|---|
 | `main` branch protection | **None enforced.** See the explicit comparison table below. | **Operator/admin** |
+| GitHub Pages is serving the repository root, not `dist/` | **Production is serving the development shell.** Verified at VERSION 15.352 (`b86d7ef`): the live `index.html` at `https://dmo18.github.io/MySugya/` is byte-identical to the repository root `index.html` (1,116 bytes), which loads Babel standalone, the React *development* UMD builds, and raw `.jsx` sources from unpkg. `https://dmo18.github.io/MySugya/assets/app-15.352.js` returns **404**. Two publishers write to the `github-pages` environment on every push: our `.github/workflows/deploy-pages.yml` (which uploads `dist/`, and whose build and deploy jobs both report success) and GitHub's built-in `dynamic/pages/pages-build-deployment` branch build (which publishes the repository root). Two deployments land per commit about a minute apart, and the branch build wins, so which bundle is live depends on ordering. This directly violates the CLAUDE.md rule that production must serve generated `dist/` and never the repository root. **Fix is a repository setting**: set Pages source to "GitHub Actions" so the branch build stops publishing. Not changed here, because repository-admin settings are operator-owned. | **Operator/admin** |
 
 ---
 
