@@ -16,6 +16,7 @@
   "scripts/*",
   "modules/yoma/scripts/*.py",
   "modules/yoma/scripts/allowlists/*",
+  "modules/yoma/MODULE.md",
   ".github/workflows/*",
   "githooks/*",
   "package.json",

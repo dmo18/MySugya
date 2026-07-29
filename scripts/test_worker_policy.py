@@ -77,6 +77,32 @@ def test_registry():
               wp.review_policy_of(types[t]) == "independent")
 
 
+def test_docs_tooling_scope_boundaries():
+    """docs-tooling may edit documentation (including the module-level
+    MODULE.md, allowed from VERSION 15.340 to close a real maintainability
+    gap), but must never reach module CONTENT or generated data.
+
+    Uses the real production predicate wp.file_allowed, whose enforcement is
+    allowlist-style: anything not explicitly allowed is a violation. This
+    pins the boundary so a future allowedFiles edit cannot quietly widen the
+    type into the corpus."""
+    print("docs-tooling scope boundaries:")
+    spec = wp.load_registry()["docs-tooling"]
+
+    for path in ("README.md", "CLAUDE.md", "SOURCES.md",
+                 "docs/reports/open-items.md", "modules/yoma/MODULE.md",
+                 "modules/yoma/scripts/validate_rashi_links.py",
+                 "tests/unit/rashi-association.test.mjs"):
+        check(f"docs-tooling allows {path}", wp.file_allowed(path, spec, []))
+
+    for path in ("modules/yoma/assets/learning/yoma/2a.learning.json",
+                 "modules/yoma/assets/talmuddev/2a.json",
+                 "modules/yoma/assets/daftexts/2a.txt",
+                 "modules/yoma/source_store.js",
+                 "modules/yoma/learning_data.js"):
+        check(f"docs-tooling still refuses {path}", not wp.file_allowed(path, spec, []))
+
+
 def test_pure_policy():
     print("pure auto-merge policy:")
     all_true = {k: True for k in wp.REVIEW_CONDITIONS}
@@ -1285,6 +1311,7 @@ def main():
     test_repetition_drain()
     test_structural_deferral_in_scope_validator()
     test_no_direct_main_push_anywhere()
+    test_docs_tooling_scope_boundaries()
     if FAILURES:
         print(f"\nFAILED: {len(FAILURES)} check(s): {FAILURES}")
         sys.exit(1)
