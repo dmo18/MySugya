@@ -405,13 +405,7 @@
           "label": "Ruling: HP prostrated eight times",
           "speaker": "Mishnah",
           "text": "The HP prostrated himself eight times - once for each of the eight blessings he recited after the Torah reading.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-070a-l07",
-              "vilnaLine": 16
-            }
-          ]
+          "sourceRefs": []
         },
         {
           "id": "yoma-070a-l08",
@@ -540,13 +534,7 @@
           "label": "Ruling: Mishnah Ch. 8 begins - five afflictions of Yom Kippur",
           "speaker": "Mishnah",
           "text": "Mishnah Chapter 8: seven lambs of the mussaf - one is performed with the morning tamid (first vestment change), and others at the fifth immersion with the afternoon tamid.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-070a-l10",
-              "vilnaLine": 26
-            }
-          ]
+          "sourceRefs": []
         }
       ],
       "topicTags": [
@@ -756,13 +744,7 @@
           "label": "Reason R. Akiva: might tire the HP if all mussaf first",
           "speaker": "Rabbi Akiva",
           "text": "If all mussaf offerings precede the day's service, the HP might become too tired to perform the essential atonement service - which is the priority.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-070a-l15",
-              "vilnaLine": 34
-            }
-          ]
+          "sourceRefs": []
         },
         {
           "id": "yoma-070a-l16",
@@ -770,13 +752,7 @@
           "label": "Concern: Might neglect the rest of the mussaf after day's service",
           "speaker": "Gemara",
           "text": "If only one mussaf is done first, he might neglect the remaining mussafin after the day's service. The Gemara responds: he is energetic for the day's service and will follow through.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-070a-l16",
-              "vilnaLine": 36
-            }
-          ]
+          "sourceRefs": []
         },
         {
           "id": "yoma-070a-l17",
@@ -812,13 +788,7 @@
           "label": "Ruling: The ram mentioned in Torat Kohanim is distinct from Numbers",
           "speaker": "Gemara",
           "text": "The ram mentioned in Torat Kohanim (Lev. 16) is separate from the ram in Numbers - both are required.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-070a-l19",
-              "vilnaLine": 41
-            }
-          ]
+          "sourceRefs": []
         },
         {
           "id": "yoma-070a-l20",
@@ -826,13 +796,7 @@
           "label": "Ruling: Two rams are each required individually",
           "speaker": "Gemara",
           "text": "Both rams are required: one as a freewill offering to be accepted willingly, one as an obligatory offering to fulfill the requirement properly.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-070a-l20",
-              "vilnaLine": 41
-            }
-          ]
+          "sourceRefs": []
         },
         {
           "id": "yoma-070a-l21",

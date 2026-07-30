@@ -42,13 +42,7 @@
           "text": "Which Yom Kippur services are me'akev (essential) and which are required but not invalidating?",
           "id": "yoma-061a-l01",
           "label": "Question: Which Yom Kippur services are me'akev (essential)",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-061a-l01",
-              "vilnaLine": 1
-            }
-          ]
+          "sourceRefs": []
         }
       ],
       "topicTags": [
@@ -159,13 +153,7 @@
           "text": "Impurity does not retroactively void completed Temple service (bedi'avad).",
           "id": "yoma-061a-l01c",
           "label": "Principle: Impurity does not retroactively void completed Temple",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-061a-l01c",
-              "vilnaLine": 2
-            }
-          ]
+          "sourceRefs": []
         }
       ],
       "topicTags": [
@@ -534,13 +522,7 @@
           "text": "The closing ram offerings mirror the opening bull-and-goat structure.",
           "id": "yoma-061a-l45a",
           "label": "Symmetry: The closing ram offerings mirror the opening",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-061a-l45a",
-              "vilnaLine": 4
-            }
-          ]
+          "sourceRefs": []
         }
       ],
       "topicTags": [
