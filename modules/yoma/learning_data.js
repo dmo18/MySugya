@@ -158861,9 +158861,11 @@ const DAF_CONTENT = {
             text: "After the readings, the HP recited eight blessings: on Torah, service, thanksgiving, forgiveness, Temple, priests, Israel, and Jerusalem.",
             sourceRefs: [
               {
-                sourceType: "gemara",
-                lineId: "yoma-069b-l19",
-                vilnaLine: 45
+                refType: "crossDaf",
+                targetDaf: "70a",
+                targetLineId: "yoma-070a-l16",
+                targetVilnaLine: 16,
+                sourceType: "gemara"
               }
             ]
           },
@@ -158889,9 +158891,11 @@ const DAF_CONTENT = {
             text: "An additional prayer for general needs: supplication and petition before God for His people Israel who need salvation.",
             sourceRefs: [
               {
-                sourceType: "gemara",
-                lineId: "yoma-069b-l21",
-                vilnaLine: 48
+                refType: "crossDaf",
+                targetDaf: "70a",
+                targetLineId: "yoma-070a-l22",
+                targetVilnaLine: 22,
+                sourceType: "gemara"
               }
             ]
           }
