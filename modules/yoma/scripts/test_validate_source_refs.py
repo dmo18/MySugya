@@ -271,6 +271,11 @@ p, b, st = pre.plan_for_daf("10a", [sugya("s1", "10a", split, [[oref("yoma-010a-
 check("ambiguous split ref is blocked with its candidates",
       not p and len(b) == 1 and len(b[0]["candidates"]) == 2, str(b))
 
+p, b, st = pre.plan_for_daf(
+    "10a", [sugya("s1", "10a", base, [[cref("11a", "yoma-011a-l05", 5)]])])
+check("crossDaf ref is neither proposed nor blocked by the mechanical preview",
+      not p and not b and st["crossdaf_not_previewed"] == 1, str(dict(st)))
+
 p, b, st = pre.plan_for_daf("10a", [sugya("s1", "10a", base, [[oref("yoma-010a-l01", 9)]])])
 check("coordinate conflict is blocked, not silently resolved",
       not p and len(b) == 1 and "disagree" in b[0]["reason"], str(b))

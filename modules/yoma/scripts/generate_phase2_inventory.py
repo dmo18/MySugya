@@ -133,7 +133,7 @@ def sourcerefs_inventory():
         "totalObjectRefs": obj_count,
         "totalRefs": str_count + obj_count,
         "classification": dict(counts),
-        "soundTotal": counts["OK"] + counts["STRING_RESOLVABLE"],
+        "soundTotal": counts["OK"] + counts["STRING_RESOLVABLE"] + counts["OK_CROSSDAF"],
         "defectiveTotal": sum(counts[c] for c in vsr.DEFECT_CLASSES),
         "mechanicallyRepairable": counts["OBJECT_DANGLING_REPAIRABLE"],
         "judgmentRequired": counts["OBJECT_DANGLING_AMBIGUOUS"] + counts["OBJECT_COORDINATE_CONFLICT"],

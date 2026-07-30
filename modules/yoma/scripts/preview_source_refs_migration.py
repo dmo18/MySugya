@@ -90,6 +90,18 @@ def plan_for_daf(daf, sugyot):
                                     "before": repr(ref)})
                     continue
 
+                if ref.get("refType") == vsr.CROSSDAF_REF_TYPE:
+                    # Cross-daf refs are a separate, already-validated shape
+                    # (validate_source_refs.py's own OK_CROSSDAF/CROSSDAF_*
+                    # classes are the authority on whether one is sound). This
+                    # mechanical preview only proposes/blocks same-daf
+                    # geometry decisions, so a crossDaf ref is neither a
+                    # proposal nor a block here - counting it as "already
+                    # canonical" would be misleading (it isn't the same-daf
+                    # canonical form), so it gets its own stat instead.
+                    stats["crossdaf_not_previewed"] += 1
+                    continue
+
                 line_id, vilna = ref.get("lineId"), ref.get("vilnaLine")
                 anchor = by_id.get(line_id)
                 if anchor is not None:
