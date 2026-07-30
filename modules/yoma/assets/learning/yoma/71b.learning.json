@@ -412,13 +412,7 @@
           "label": "Ruling: Linen splits into multiple filaments when beaten",
           "speaker": "Gemara",
           "text": "When linen is beaten, each fiber splits into multiple filaments - this multiplying quality is part of what makes linen thread suitable for the six-ply requirement.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-071b-l11",
-              "vilnaLine": 46
-            }
-          ]
+          "sourceRefs": []
         },
         {
           "id": "yoma-071b-l12",

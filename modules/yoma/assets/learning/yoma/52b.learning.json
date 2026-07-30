@@ -72,13 +72,7 @@
      "text": "Four words in the Torah have uncertain meanings: Se'et, Meshukkadim, Mahar, Arur.",
      "id": "yoma-052b-l01",
      "label": "Teaching: Four words in the Torah have uncertain",
-     "sourceRefs": [
-      {
-       "sourceType": "gemara",
-       "lineId": "yoma-052b-l01",
-       "vilnaLine": 1
-      }
-     ]
+     "sourceRefs": []
     },
     {
      "type": "explanation",
@@ -86,13 +80,7 @@
      "text": "Each word appears in a context that affects halachic ruling; the uncertainty is preserved by tradition.",
      "id": "yoma-052b-l02",
      "label": "Explanation: Each word appears in a context that",
-     "sourceRefs": [
-      {
-       "sourceType": "gemara",
-       "lineId": "yoma-052b-l02",
-       "vilnaLine": 2
-      }
-     ]
+     "sourceRefs": []
     }
    ],
    "topicTags": [

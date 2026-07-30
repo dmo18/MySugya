@@ -111798,13 +111798,7 @@ const DAF_CONTENT = {
             text: "What is the law when the High Priest scooped with intent to consume the incense at an improper time?",
             id: "yoma-048b-l01",
             label: "Question: What is the law when the High",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-048b-l01",
-                vilnaLine: 1
-              }
-            ]
+            sourceRefs: []
           },
           {
             type: "ruling",
@@ -119491,13 +119485,7 @@ const DAF_CONTENT = {
             text: "Four words in the Torah have uncertain meanings: Se'et, Meshukkadim, Mahar, Arur.",
             id: "yoma-052b-l01",
             label: "Teaching: Four words in the Torah have uncertain",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-052b-l01",
-                vilnaLine: 1
-              }
-            ]
+            sourceRefs: []
           },
           {
             type: "explanation",
@@ -119505,13 +119493,7 @@ const DAF_CONTENT = {
             text: "Each word appears in a context that affects halachic ruling; the uncertainty is preserved by tradition.",
             id: "yoma-052b-l02",
             label: "Explanation: Each word appears in a context that",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-052b-l02",
-                vilnaLine: 2
-              }
-            ]
+            sourceRefs: []
           }
         ],
         concepts: {
@@ -125745,13 +125727,7 @@ const DAF_CONTENT = {
             text: "Analogy is insufficient to impose kareth penalties - Scripture must be explicit.",
             id: "yoma-055a-l41a",
             label: "Principle: Analogy is insufficient to impose kareth penalties",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-055a-l41a",
-                vilnaLine: 2
-              }
-            ]
+            sourceRefs: []
           },
           {
             type: "resolution",
@@ -138049,13 +138025,7 @@ const DAF_CONTENT = {
             text: "Which Yom Kippur services are me'akev (essential) and which are required but not invalidating?",
             id: "yoma-061a-l01",
             label: "Question: Which Yom Kippur services are me'akev (essential)",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-061a-l01",
-                vilnaLine: 1
-              }
-            ]
+            sourceRefs: []
           }
         ],
         concepts: {
@@ -138165,13 +138135,7 @@ const DAF_CONTENT = {
             text: "Impurity does not retroactively void completed Temple service (bedi'avad).",
             id: "yoma-061a-l01c",
             label: "Principle: Impurity does not retroactively void completed Temple",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-061a-l01c",
-                vilnaLine: 2
-              }
-            ]
+            sourceRefs: []
           }
         ],
         concepts: {
@@ -138510,13 +138474,7 @@ const DAF_CONTENT = {
             text: "The closing ram offerings mirror the opening bull-and-goat structure.",
             id: "yoma-061a-l45a",
             label: "Symmetry: The closing ram offerings mirror the opening",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-061a-l45a",
-                vilnaLine: 4
-              }
-            ]
+            sourceRefs: []
           }
         ],
         concepts: {
@@ -152178,13 +152136,7 @@ const DAF_CONTENT = {
             label: "Ruling: Service valid even after nightfall",
             speaker: "Gemara",
             text: "The Azazel service is valid even if performed after nightfall - not subject to the daytime requirement of standard Temple services.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-067a-l12",
-                vilnaLine: 43
-              }
-            ]
+            sourceRefs: []
           }
         ],
         concepts: {
@@ -153539,13 +153491,7 @@ const DAF_CONTENT = {
             label: "Dispute: Goat fell backward vs face-first",
             speaker: "Tanna Kamma vs Ben Azzai",
             text: "Tanna Kamma: the goat went backward (al achorav). Ben Azzai: it went face-first (al panav).",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-067b-l10",
-                vilnaLine: 26
-              }
-            ]
+            sourceRefs: []
           },
           {
             id: "yoma-067b-l11",
@@ -157490,13 +157436,7 @@ const DAF_CONTENT = {
             label: "Ruling: Sitting before HP permitted for specific officeholders",
             speaker: "Gemara",
             text: "The synagogue head and the deputy HP may sit in the HP's presence - to show him there is authority below him. This does not diminish his honor.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-069a-l07",
-                vilnaLine: 22
-              }
-            ]
+            sourceRefs: []
           },
           {
             id: "yoma-069a-l08",
@@ -157651,13 +157591,7 @@ const DAF_CONTENT = {
             label: "Ruling: No me'ilah - vestments given for use",
             speaker: "Gemara",
             text: "No me'ilah - the vestments were given for the HP's use in his official functions. The Torah reading is an official function; wearing them is their intended purpose.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-069a-l11",
-                vilnaLine: 32
-              }
-            ]
+            sourceRefs: []
           },
           {
             id: "yoma-069a-l12",
@@ -158684,13 +158618,7 @@ const DAF_CONTENT = {
             label: "Ruling: Eimurim burned after third immersion with rams",
             speaker: "Gemara",
             text: "The eimurim (sacrificial parts) of the sin offering are burned at the third immersion together with the HP's ram and the people's ram.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-069b-l14",
-                vilnaLine: 35
-              }
-            ]
+            sourceRefs: []
           },
           {
             id: "yoma-069b-l15",
@@ -158712,13 +158640,7 @@ const DAF_CONTENT = {
             label: "Ruling: 'The dispatcher' refers to an earlier action despite later textual position",
             speaker: "Gemara",
             text: "The verse about 'the one who dispatches the goat' is positioned after the eimurim text but refers to an earlier act - like a speaker who interrupts and then resumes the original topic.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-069b-l16",
-                vilnaLine: 42
-              }
-            ]
+            sourceRefs: []
           }
         ],
         concepts: {
@@ -158875,13 +158797,7 @@ const DAF_CONTENT = {
             label: "Ruling: The blessings recited in their standard formulation",
             speaker: "Gemara",
             text: "The blessings were recited as they appear in the Amidah - 'may You be pleased with Your people Israel' etc.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-069b-l20",
-                vilnaLine: 47
-              }
-            ]
+            sourceRefs: []
           },
           {
             id: "yoma-069b-l21",
@@ -160213,13 +160129,7 @@ const DAF_CONTENT = {
             label: "Ruling: HP prostrated eight times",
             speaker: "Mishnah",
             text: "The HP prostrated himself eight times - once for each of the eight blessings he recited after the Torah reading.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-070a-l07",
-                vilnaLine: 16
-              }
-            ]
+            sourceRefs: []
           },
           {
             id: "yoma-070a-l08",
@@ -160345,13 +160255,7 @@ const DAF_CONTENT = {
             label: "Ruling: Mishnah Ch. 8 begins - five afflictions of Yom Kippur",
             speaker: "Mishnah",
             text: "Mishnah Chapter 8: seven lambs of the mussaf - one is performed with the morning tamid (first vestment change), and others at the fifth immersion with the afternoon tamid.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-070a-l10",
-                vilnaLine: 26
-              }
-            ]
+            sourceRefs: []
           }
         ],
         concepts: {
@@ -160536,13 +160440,7 @@ const DAF_CONTENT = {
             label: "Reason R. Akiva: might tire the HP if all mussaf first",
             speaker: "Rabbi Akiva",
             text: "If all mussaf offerings precede the day's service, the HP might become too tired to perform the essential atonement service - which is the priority.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-070a-l15",
-                vilnaLine: 34
-              }
-            ]
+            sourceRefs: []
           },
           {
             id: "yoma-070a-l16",
@@ -160550,13 +160448,7 @@ const DAF_CONTENT = {
             label: "Concern: Might neglect the rest of the mussaf after day's service",
             speaker: "Gemara",
             text: "If only one mussaf is done first, he might neglect the remaining mussafin after the day's service. The Gemara responds: he is energetic for the day's service and will follow through.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-070a-l16",
-                vilnaLine: 36
-              }
-            ]
+            sourceRefs: []
           },
           {
             id: "yoma-070a-l17",
@@ -160592,13 +160484,7 @@ const DAF_CONTENT = {
             label: "Ruling: The ram mentioned in Torat Kohanim is distinct from Numbers",
             speaker: "Gemara",
             text: "The ram mentioned in Torat Kohanim (Lev. 16) is separate from the ram in Numbers - both are required.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-070a-l19",
-                vilnaLine: 41
-              }
-            ]
+            sourceRefs: []
           },
           {
             id: "yoma-070a-l20",
@@ -160606,13 +160492,7 @@ const DAF_CONTENT = {
             label: "Ruling: Two rams are each required individually",
             speaker: "Gemara",
             text: "Both rams are required: one as a freewill offering to be accepted willingly, one as an obligatory offering to fulfill the requirement properly.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-070a-l20",
-                vilnaLine: 41
-              }
-            ]
+            sourceRefs: []
           },
           {
             id: "yoma-070a-l21",
@@ -161744,13 +161624,7 @@ const DAF_CONTENT = {
             label: "Ruling: First immersion sanctification at the kiyor",
             speaker: "Gemara",
             text: "The first immersion sequence: the HP immersed, dried off, dressed in white linen, then sanctified hands and feet at the kiyor before beginning the morning tamid and day's service.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-070b-l07",
-                vilnaLine: 19
-              }
-            ]
+            sourceRefs: []
           },
           {
             id: "yoma-070b-l08",
@@ -161772,13 +161646,7 @@ const DAF_CONTENT = {
             label: "Ruling: Golden vestments for outer service",
             speaker: "Gemara",
             text: "The HP wore golden vestments for the outer (non-Holy of Holies) services - for the morning and afternoon tamid, mussafin, and other external services.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-070b-l09",
-                vilnaLine: 24
-              }
-            ]
+            sourceRefs: []
           },
           {
             id: "yoma-070b-l10",
@@ -162826,13 +162694,7 @@ const DAF_CONTENT = {
             label: "Ruling: Burning of bull and goat in white vestments confirmed",
             speaker: "Gemara",
             text: "The HP does not see the burning of the bull and goat - implying the burning occurs while he still wears white vestments, before his third immersion.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-071a-l07",
-                vilnaLine: 13
-              }
-            ]
+            sourceRefs: []
           },
           {
             id: "yoma-071a-l08",
@@ -162882,13 +162744,7 @@ const DAF_CONTENT = {
             label: "Counter-argument: 'The burner' refers to current act",
             speaker: "Gemara (counter)",
             text: "Counter-argument: 'the burner' refers to the current time - the command for burning the fats is written after the eimurim, so 'the burner' is about burning that happens now.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-071a-l11",
-                vilnaLine: 20
-              }
-            ]
+            sourceRefs: []
           },
           {
             id: "yoma-071a-l12",
@@ -163042,13 +162898,7 @@ const DAF_CONTENT = {
             label: "Narrative: Shemaiah and Avtalyon came to bid farewell",
             speaker: "Gemara",
             text: "Shemaiah and Avtalyon came to take leave of the HP after Yom Kippur. The crowd followed them - showing the people's love for these scholars.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-071a-l15",
-                vilnaLine: 25
-              }
-            ]
+            sourceRefs: []
           },
           {
             id: "yoma-071a-l16",
@@ -163098,13 +162948,7 @@ const DAF_CONTENT = {
             label: "Narrative: The HP had shamed them - a Torah-forbidden act",
             speaker: "Gemara",
             text: "The HP committed ona'at devarim (verbal oppression) against Shemaiah and Avtalyon by mentioning their pagan ancestry - a Torah prohibition (Lev. 25).",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-071a-l19",
-                vilnaLine: 33
-              }
-            ]
+            sourceRefs: []
           }
         ],
         concepts: {
@@ -164352,13 +164196,7 @@ const DAF_CONTENT = {
             label: "Ruling: Linen splits into multiple filaments when beaten",
             speaker: "Gemara",
             text: "When linen is beaten, each fiber splits into multiple filaments - this multiplying quality is part of what makes linen thread suitable for the six-ply requirement.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-071b-l11",
-                vilnaLine: 46
-              }
-            ]
+            sourceRefs: []
           },
           {
             id: "yoma-071b-l12",
@@ -166653,13 +166491,7 @@ const DAF_CONTENT = {
             label: "Torah must be free",
             speaker: "Rabbi Yehoshua ben Levi",
             text: "Given through fire, water, wilderness - all are free",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-072b-l14",
-                vilnaLine: 37
-              }
-            ]
+            sourceRefs: []
           },
           {
             id: "yoma-072b-l15",
@@ -173770,13 +173602,7 @@ const DAF_CONTENT = {
             label: "Manna revealed what would be eaten tomorrow",
             speaker: "Rabbi Yosei",
             text: "The manna tasted like tomorrow's food - a daily prophecy",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-075a-l14",
-                vilnaLine: 30
-              }
-            ]
+            sourceRefs: []
           },
           {
             id: "yoma-075a-l15",

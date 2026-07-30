@@ -390,13 +390,7 @@
           "label": "Dispute: Goat fell backward vs face-first",
           "speaker": "Tanna Kamma vs Ben Azzai",
           "text": "Tanna Kamma: the goat went backward (al achorav). Ben Azzai: it went face-first (al panav).",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-067b-l10",
-              "vilnaLine": 26
-            }
-          ]
+          "sourceRefs": []
         },
         {
           "id": "yoma-067b-l11",
