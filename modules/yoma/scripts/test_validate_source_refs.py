@@ -156,6 +156,100 @@ check("ref that is neither string nor object", c["REF_NOT_STRING_OR_OBJECT"] == 
 c, _ = classes([sugya("s1", "10a", base, [[]])])
 check("empty sourceRefs contributes nothing", sum(c.values()) == 0, str(dict(c)))
 
+# ---------------------------------------------------------------- crossDaf refs
+print("\ncrossDaf object refs")
+
+
+def cref(target_daf, target_line_id, target_vilna=None, **kw):
+    ref = {"refType": "crossDaf", "targetDaf": target_daf, "targetLineId": target_line_id}
+    if target_vilna is not None:
+        ref["targetVilnaLine"] = target_vilna
+    ref.update(kw)
+    return ref
+
+
+def classes_multi(sugyot_by_daf, classify_daf_key):
+    """sugyot_by_daf: {daf: [sugya, ...]}. Builds a global anchor table
+    across all supplied daf, then classifies classify_daf_key's own daf
+    against it - the shape a real cross-daf validation run needs."""
+    global_anchors = {
+        d: vsr.build_anchor_table(vsr.derive_line_ids(s))
+        for d, s in sugyot_by_daf.items()
+    }
+    return vsr.classify_daf(classify_daf_key, sugyot_by_daf[classify_daf_key], global_anchors)
+
+
+adjacent_target = {"11a": [sugya("t1", "11a", [(1, "Yoma.11a.1"), (5, "Yoma.11a.2")], [])]}
+far_target = {"50b": [sugya("t1", "50b", [(1, "Yoma.50b.1"), (5, "Yoma.50b.2")], [])]}
+
+c, _ = classes_multi(
+    {**adjacent_target,
+     "10a": [sugya("s1", "10a", base, [[cref("11a", "yoma-011a-l05", 5)]])]},
+    "10a")
+check("valid adjacent-daf reference resolves as sound crossDaf",
+      c["OK_CROSSDAF"] == 1, str(dict(c)))
+
+c, _ = classes_multi(
+    {**far_target,
+     "10a": [sugya("s1", "10a", base, [[cref("50b", "yoma-050b-l05", 5)]])]},
+    "10a")
+check("valid non-adjacent cross-daf reference is equally sound",
+      c["OK_CROSSDAF"] == 1, str(dict(c)))
+
+c, _ = classes_multi(
+    {**adjacent_target,
+     "10a": [sugya("s1", "10a", base, [[cref("11a", "yoma-011a-l99")]])]},
+    "10a")
+check("missing target line id is CROSSDAF_TARGET_NOT_FOUND",
+      c["CROSSDAF_TARGET_NOT_FOUND"] == 1, str(dict(c)))
+
+c, _ = classes_multi(
+    {**adjacent_target,
+     "10a": [sugya("s1", "10a", base, [[cref("12b", "yoma-011a-l05", 5)]])]},
+    "10a")
+check("targetDaf disagreeing with the target id's own embedded daf is a mismatch",
+      c["CROSSDAF_TARGET_DAF_MISMATCH"] == 1, str(dict(c)))
+
+c, _ = classes_multi(
+    {"10a": [sugya("s1", "10a", base, [[cref("10a", "yoma-010a-l04", 4)]])]},
+    "10a")
+check("a same-daf target mislabeled crossDaf is caught, not silently accepted",
+      c["CROSSDAF_SAME_DAF_MISLABELED"] == 1, str(dict(c)))
+
+c, f = classes_multi(
+    {**adjacent_target,
+     "10a": [sugya("s1", "10a", base, [[cref("11a", "yoma-011a-l01", 10)]])]},
+    "10a")
+check("targetVilnaLine outside the target line id's real interval is a mismatch",
+      c["CROSSDAF_VILNA_MISMATCH"] == 1 and f[0]["targetVilnaLineResolvesTo"] == ["yoma-011a-l05"],
+      str(dict(c)))
+
+c, _ = classes_multi(
+    {**adjacent_target,
+     "10a": [sugya("s1", "10a", base, [[cref("11a", "yoma-011a-l05", 5, sourceType="talmud")]])]},
+    "10a")
+check("an unsupported sourceType on a crossDaf ref is rejected, same rule as same-daf",
+      c["OBJECT_SOURCETYPE_INVALID"] == 1, str(dict(c)))
+
+c, _ = classes_multi(
+    {**adjacent_target,
+     "10a": [sugya("s1", "10a", base, [[cref("11a", "yoma-011a-l05", 5)]])]},
+    "10a")
+check("a crossDaf ref may omit sourceType entirely, unlike same-daf refs",
+      c["OK_CROSSDAF"] == 1, str(dict(c)))
+
+c, _ = classes([sugya("s1", "10a", base,
+                      [[{"refType": "sameDaf", "lineId": "yoma-010a-l04", "vilnaLine": 4}]])])
+check("an unrecognised refType value is a distinct defect, not silently same-daf",
+      c["OBJECT_REFTYPE_INVALID"] == 1, str(dict(c)))
+
+c, _ = classes_multi(
+    {**adjacent_target,
+     "10a": [sugya("s1", "10a", base, [[{"refType": "crossDaf", "targetDaf": "11a"}]])]},
+    "10a")
+check("a crossDaf ref missing targetLineId is malformed",
+      c["CROSSDAF_MALFORMED"] == 1, str(dict(c)))
+
 # ---------------------------------------------------------------- preview
 print("\nmigration preview")
 
@@ -213,7 +307,7 @@ total = sum(counts.values())
 check("every daf is classified", len(paths) == 173, str(len(paths)))
 check("no ref escapes classification",
       total == counts["OK"] + sum(counts[c] for c in vsr.DEFECT_CLASSES) +
-      counts["STRING_RESOLVABLE"], str(dict(counts)))
+      counts["STRING_RESOLVABLE"] + counts["OK_CROSSDAF"], str(dict(counts)))
 check("no unresolvable or malformed string refs remain",
       counts["STRING_MALFORMED"] == 0 and counts["STRING_UNRESOLVABLE"] == 0 and
       counts["STRING_AMBIGUOUS"] == 0 and counts["STRING_CROSS_DAF"] == 0,

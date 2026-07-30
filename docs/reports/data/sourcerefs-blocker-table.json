@@ -2,8 +2,8 @@
   "total": 33,
   "byClass": {
     "TIED_CANDIDATES": 2,
-    "ABSENT_OR_UNANCHORED": 27,
-    "QUALIFIED_CROSS_DAF": 4
+    "ABSENT_OR_UNANCHORED": 29,
+    "QUALIFIED_CROSS_DAF": 2
   },
   "cases": [
     {
@@ -743,11 +743,11 @@
       ],
       "priorReviewIdx": 46,
       "priorReviewReason": "Step: 'Shemaiah and Avtalyon came to take leave of the HP.' Found the true narrative text on a DIFFERENT daf: yoma-071b-l06 ('Eventually, Shemaya and Avtalyon came to take leave of the High Priest before returning to their homes...'). No 71a segment supports this; cross-daf, out of scope.",
-      "classification": "QUALIFIED_CROSS_DAF",
+      "classification": "ABSENT_OR_UNANCHORED",
       "confidence": "high",
-      "evidence": "yoma-071b-l06 reads (in full): 'Eventually, Shemaya and Avtalyon came to take leave of the High Priest before returning to their homes...' - an exact, unique match to this step's narrative. No segment on 71a states this; the narrative's actual home is 71b.",
-      "proposedAction": "Design and apply a qualified cross-daf reference to yoma-071b-l06 (Step 3/Step 4 of this campaign). Note this target is shared with the next case (yoma-071a-l19), since one Gemara line covers both narrative beats.",
-      "residualUncertainty": "None material for identifying the target daf/line. The shared-target-across-two-steps pattern should be validated as legal under the cross-daf schema design in Step 3 (two local steps citing the same remote segment is not itself a defect - same-daf refs already do this routinely)."
+      "evidence": "CORRECTED during Step 3's required re-proof pass (this classification was originally QUALIFIED_CROSS_DAF in the Step 2 PR; re-reading the full sugya before designing the cross-daf schema found this to be a duplicated step, one of the specific things Step 3 requires ruling out before accepting a cross-daf case). yoma-071b-l06 does contain matching text, but that line is already the correct, complete, properly-anchored target of sugya yoma-071b-s02's own step yoma-071b-l03 ('The HP's remark about their pagan ancestry violated the prohibition of ona'at devarim'), and yoma-071b-s02's first step (yoma-071b-l02, anchored to yoma-071b-l02) already covers this step's specific detail ('the people followed them - recognizing their greater scholarship'). Sugya yoma-071b-s02's own display states outright: 'The people followed Shemaiah and Avtalyon (not the HP) as they left the Temple... The incident concludes with a teaching about ona'at devarim' - i.e. 71b-s02 is a self-sufficient, correctly-anchored, complete telling of this exact narrative. This 71a step is a duplicate retelling of the same beat, not a local step whose only true source lives on another daf.",
+      "proposedAction": "Remove the sourceRefs field from this step rather than add a cross-daf pointer to content that already has a complete, correctly-anchored home elsewhere. Separately and out of scope for this PR: flag that yoma-071a-s02 (steps l15, l19) duplicates yoma-071b-s02 (steps l02, l03) as a possible future step-deduplication item - not a sourceRefs coordinate defect, and not resolved here.",
+      "residualUncertainty": "Whether the duplication is intentional (a second, abbreviated telling for a different rhetorical purpose within 71a's own banquet narrative) or an authoring artifact is not determinable from repository data alone."
     },
     {
       "daf": "71a",
@@ -768,11 +768,11 @@
       ],
       "priorReviewIdx": 47,
       "priorReviewReason": "Step: 'HP committed ona'at devarim by mentioning their pagan ancestry.' Confirmed via yoma-071b-l06's full text ('he angrily said to them: Let the descendants of the gentile nations come in peace... Shemaya and Avtalyon descended from converts, he scornfully drew attention to that fact') that this whole narrative sugya's true home is daf 71b, not 71a. Cross-daf, out of scope.",
-      "classification": "QUALIFIED_CROSS_DAF",
+      "classification": "ABSENT_OR_UNANCHORED",
       "confidence": "high",
-      "evidence": "yoma-071b-l06's continuation states the HP's scornful remark about Shemaya and Avtalyon's convert ancestry ('Let the descendants of the gentile nations come in peace... who does not perform the acts of Aaron') - an exact match to this step's ona'at devarim claim. Same target line as the previous case.",
-      "proposedAction": "Design and apply a qualified cross-daf reference to yoma-071b-l06, same target as yoma-071a-l15.",
-      "residualUncertainty": "None material."
+      "evidence": "CORRECTED during Step 3's required re-proof pass, same finding as the previous case (yoma-071a-l15). yoma-071b-l06 is already the correct, complete target of sugya yoma-071b-s02's own step yoma-071b-l03, which states this exact ona'at devarim characterization. This 71a step duplicates that already-anchored step rather than being the genuine home of an otherwise-uncited fact.",
+      "proposedAction": "Remove the sourceRefs field from this step. Same out-of-scope duplication flag as yoma-071a-l15.",
+      "residualUncertainty": "Same as yoma-071a-l15."
     },
     {
       "daf": "71b",
