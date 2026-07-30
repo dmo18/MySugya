@@ -1,19 +1,37 @@
 # argumentFlow sourceRefs: canonical schema, defect inventory, migration plan
 
-**Status update (VERSION 15.360, Phase 2 Step 4 of
-`docs/platform-closure-plan.md`): PR 3 (the 412 mechanical repairs) is
-APPLIED.** `apply_sourcerefs_mechanical_repair.py` rewrote exactly one field
-(`lineId`) on exactly 412 refs across 52 daf, proven byte-for-byte surgical
-(412 insertions/412 deletions, every changed line a `"lineId"` line,
-confirmed by `git diff`) and proven lossless before writing via the existing
-preview tool's `losslessness_report()`. Post-write, the corpus classifier
-confirms `OBJECT_DANGLING_REPAIRABLE` reached exactly 0 with every other
-class's count unchanged. **138 judgment-required refs remain** (88
-`OBJECT_COORDINATE_CONFLICT` + 50 `OBJECT_DANGLING_AMBIGUOUS`) - PRs 1 and 2
-below, still not applied. The original analysis below (written before PR 3
-applied) is preserved as the historical record of the defect inventory and
-is still accurate for the remaining 138; only the "not applied" framing for
-the mechanical subset is superseded.
+**Status update (VERSION 15.363, Phase 2 Step 4 of
+`docs/platform-closure-plan.md`): the judgment-required pass (PRs 1 and 2
+below) is APPLIED, partially.** Every one of the 138 judgment-required refs
+(88 `OBJECT_COORDINATE_CONFLICT` + 50 `OBJECT_DANGLING_AMBIGUOUS`) was
+reviewed individually by reading the argumentFlow step's `label`/`text`
+against the actual Gemara content on its daf - a full-daf search, not just
+the narrow Vilna-interval candidate list the original plan below assumed
+would be the only evidence available. The two classes turned out not to need
+separate PRs: the same read-the-step-against-the-daf method resolves both, so
+they were reviewed and shipped together rather than as PR 1 (conflicts) then
+PR 2 (ambiguities). Every resolution, and the specific evidence for it, is
+recorded in `docs/reports/source-refs-semantic-review.json`; the tool that
+applies it is `modules/yoma/scripts/apply_sourcerefs_semantic_repair.py`.
+
+**Result: 105 of 138 resolved (102 reassigned to a different, better-supported
+segment; 3 needed only a stale `vilnaLine` correction on an already-correct
+`lineId`). 33 remain UNRESOLVED**, each with its own documented blocker - not
+a shortfall against the plan below so much as the plan's own anticipated
+possible outcome turning out to be real: some refs' claimed content is not
+present anywhere on the daf the sugya is declared on (a small number of cases
+found the true content lives on an *adjacent* daf instead - e.g. a sugya
+declared on 71a whose narrative content is actually on 71b - which the
+per-daf `lineId` contract cannot reference), and a few are genuine ties
+between two equally-supported candidates. None was forced. Full per-case
+detail, including the exact evidence for every UNRESOLVED case, is in
+`docs/reports/source-refs-semantic-review.json`.
+
+The original analysis below (written before PR 3 applied, and before the
+judgment pass ran) is preserved as the historical record of the defect
+inventory and the reasoning that shaped the review method; only the "not
+applied" / "50-88 split into two PRs" framing is superseded by what actually
+ran.
 
 **Original status: ANALYSIS COMPLETE, MIGRATION NOT APPLIED.**
 
@@ -139,6 +157,21 @@ resolvable-in-principle coordinate problem.
 **1,843 sound, 138 defective, across 73 daf.** Only judgment-required
 refs remain (PRs 1 and 2).
 
+## Final inventory (after the semantic-repair pass)
+
+| class | count | sound? |
+|---|---|---|
+| `OK` | 1,617 | yes |
+| `STRING_RESOLVABLE` | 331 | yes |
+| `OBJECT_DANGLING_REPAIRABLE` | 0 | mechanically resolved (PR 3) |
+| `OBJECT_COORDINATE_CONFLICT` | 24 | no, exact-blocker documented |
+| `OBJECT_DANGLING_AMBIGUOUS` | 9 | no, exact-blocker documented |
+
+**1,948 sound, 33 defective, across 46 daf.** Every one of the 33 has a
+recorded reason in `docs/reports/source-refs-semantic-review.json` that a
+safe repair was not possible - not a gap in the review, a documented stop.
+`npm run validate:sourcerefs:yoma` reproduces these exact counts.
+
 ### `OBJECT_DANGLING_REPAIRABLE` (412 refs, 52 daf) - mechanical
 
 `lineId` names no line on the daf, but `vilnaLine` falls inside exactly one
@@ -217,17 +250,27 @@ the application is not.
 
 Four PRs, in order. Each is independently revertible and leaves gates green.
 
-**PR 1 - resolve the 88 coordinate conflicts** (`structural-repair`, 24 daf).
-Judgment work. For each ref, read the step `text`/`note` against the Gemara at
-both candidate lines and record which coordinate is authoritative. Expect the
-`vilnaLine` to win on the 49a-54b and 67a-76b runs, but confirm per ref rather
-than applying the pattern. The 2 suffix-ordinal refs on 55a/61a/62b/63a need the
-sub-line identified directly. Deliverable: every conflicting ref either
-corrected or documented as genuinely undecidable.
-
-**PR 2 - resolve the 50 split-line ambiguities** (`structural-repair`, 43 daf).
-Judgment work, smaller but denser: pick the correct sub-line for each, including
-the six-way `52b` case. Deliverable: zero `OBJECT_DANGLING_AMBIGUOUS`.
+**PR 1 - resolve the 88 coordinate conflicts** and **PR 2 - resolve the 50
+split-line ambiguities**: **APPLIED, combined, partially resolved.** Both
+classes were reviewed in a single pass (`sourcerefs-semantic-tool` #355,
+`sourcerefs-semantic-content` #356) instead of two separate PRs, since the
+same method - read the step against the actual daf text, full-daf search, not
+just the candidate list - resolves both classes and splitting them would have
+meant duplicating the same per-case forensic work across two PRs. A key
+discovery during the review (first found on 12a and 53a) is that the
+`vilnaLine` "probably authoritative" heuristic this plan originally proposed
+is not reliable by itself: for every `OBJECT_COORDINATE_CONFLICT` case, the
+stored `lineId` turned out to be an exact copy of the step's own `id` string
+(a naming coincidence, not evidence), so the real anchor sometimes agreed with
+`vilnaLine`'s containing segment and sometimes did not - each case needed its
+own textual confirmation. 105 of 138 resolved (102 reassigned, 3 needed only a
+`vilnaLine` correction); 33 documented as genuinely undecidable from the
+available text (see `docs/reports/source-refs-semantic-review.json` for exact
+per-case evidence). Deliverable achieved: every conflicting/ambiguous ref
+either corrected with recorded evidence, or left with its exact blocker
+documented - not the "zero remaining" this plan originally targeted, because
+that target assumed every case would be resolvable, which turned out not to
+be true.
 
 **PR 3 - apply the 412 mechanical repairs** (`structural-repair`, 52 daf).
 **APPLIED.** Generated from `preview_source_refs_migration.py`, applied by
@@ -259,9 +302,8 @@ delete this backlog section.
 
 | PR | refs | daf | files touched |
 |---|---|---|---|
-| 1 | 88 | 24 | 24 `*.learning.json` |
-| 2 | 50 | 43 | 43 `*.learning.json` |
-| 3 | 412 | 52 | 52 `*.learning.json` |
+| 1+2 (combined, applied) | 105 of 138 | 39 | 39 `*.learning.json`, `learning_data.js`, `coverage.json` |
+| 3 (applied) | 412 | 52 | 52 `*.learning.json` |
 | 4 | 331 | 30 | 30 `*.learning.json`, `package.json`, this file |
 
 Daf overlap across PRs is real (102 distinct daf carry defects), so PRs must
@@ -281,12 +323,14 @@ tutoring, citation or deep-link feature built on the current data would silently
 anchor 28% of steps to a nonexistent or contradictory line. Building that
 feature before this migration is the actual hazard.
 
-**Migration risk is concentrated in PRs 1 and 2**, which are judgment calls on
-138 refs. A wrong call there is invisible to every gate: the ref would be
-referentially sound and semantically wrong. That argues for small batches,
-per-ref evidence in the PR body, and no bulk pattern application. PR 3 is
-low-risk (mechanically derived, invariant-checked). PR 4 is a decision, not a
-change.
+**Migration risk was concentrated in PRs 1 and 2**, which were judgment calls
+on 138 refs. A wrong call there is invisible to every gate: the ref would be
+referentially sound and semantically wrong. That is why every one of the 105
+applied resolutions carries its specific textual evidence in
+`docs/reports/source-refs-semantic-review.json` (not a bulk pattern
+application), and why the 33 unresolved cases were left alone rather than
+forced. PR 3 was low-risk (mechanically derived, invariant-checked). PR 4 is
+a decision, not a change.
 
 **Regenerating `learning_data.js`** is required after each content PR;
 `check_generated_freshness.py` already gates this.

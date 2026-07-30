@@ -234,16 +234,23 @@ until corrected.
 
 ## Phase 2: Semantic schema contract
 
-**Status: contracts defined and implemented; sourceRefs data migration
-outstanding.** argumentFlow (2A) is fully complete - see
-`docs/reports/argumentflow-category-decision.md` - because the chosen
-design (category derived from a registry, never stored per step) meant
-100% category coverage was reached the moment the registry was written,
-with zero content edits. sourceRefs (2B) has its canonical contract defined
-and validated (`docs/reports/sourcerefs-contract-decision.md`), but the 550
-defective refs it validates against are not yet repaired; that repair work
-is still Step 4 of this phase, tracked in
-`docs/reports/source-refs-normalization-plan.md`'s four-PR plan.
+**Status: contracts defined and implemented; sourceRefs (2B) BLOCKED on 33
+residual refs and one open operator decision.** argumentFlow (2A) is fully
+complete - see `docs/reports/argumentflow-category-decision.md` - because
+the chosen design (category derived from a registry, never stored per
+step) meant 100% category coverage was reached the moment the registry was
+written, with zero content edits. sourceRefs (2B) has its canonical
+contract defined and validated
+(`docs/reports/sourcerefs-contract-decision.md`); of the original 550
+defective refs, 412 mechanical repairs and 105 judgment-required repairs
+are now applied (517 of 550, 94%), leaving **33 refs genuinely unresolved**
+with individually documented blocking evidence (no repair was forced) and
+**331 sound string refs** whose conversion to canonical object form remains
+an open operator decision (PR 4). Neither residue is hidden: both are
+itemized in `docs/reports/source-refs-normalization-plan.md` and
+`docs/reports/source-refs-semantic-review.json`. Phase 2 cannot be
+declared COMPLETE while either is outstanding; see "Phase 2 completion
+criterion" below.
 
 ### A. argumentFlow vocabulary
 
@@ -285,12 +292,22 @@ distinction an enrichment author drew (`ruling`, `derivation`, `dispute`,
 
 ### B. sourceRefs
 
-**Problem.** Recapped from the completed analysis
+**Problem (as originally analyzed).** Recapped from the completed analysis
 (`docs/reports/source-refs-normalization-plan.md`): 1,431 of 1,981 refs are
 sound, 550 are defective across 102 daf, split into mechanically repairable
 (412) and judgment-required (138) tiers, plus 331 sound string refs that
 cannot be losslessly converted to the canonical object form without
 inventing a `sourceType`.
+
+**Current state.** 412 mechanical repairs applied
+(`apply_sourcerefs_mechanical_repair.py`), then all 138 judgment-required
+refs individually reviewed against the actual Gemara text on their daf
+(`apply_sourcerefs_semantic_repair.py`, evidence in
+`docs/reports/source-refs-semantic-review.json`): 105 resolved, 33 remain
+with documented per-case blockers (content absent from the declared daf,
+content living on a different daf than declared, or a genuine tie between
+candidates). The 331 string refs are untouched, per the requirement below
+that a conversion not shown lossless must not be applied.
 
 **Requirements, unchanged from the existing plan and restated here as the
 Phase 2B contract:**
@@ -323,6 +340,22 @@ All 492 sugyot are structurally and semantically valid under both stable,
 documented contracts (the two-level `argumentFlow` schema and the
 canonical-form `sourceRefs` schema), with an offline validator for each
 wired into `validate:offline:yoma`.
+
+**Status against this criterion: NOT MET. Phase 2 is BLOCKED, not
+complete.** argumentFlow (2A) meets it in full. sourceRefs (2B) does not:
+`validate_source_refs.py` reports 33 defective refs (24
+`OBJECT_COORDINATE_CONFLICT` + 9 `OBJECT_DANGLING_AMBIGUOUS`, see
+`docs/reports/source-refs-semantic-review.json` for the exact case and
+blocker) and 331 `STRING_RESOLVABLE` refs in the legacy string form (a
+sound but non-canonical shape pending the operator's PR 4 decision on
+whether converting them is worth inventing 331 `sourceType` assignments by
+hand). Neither is hidden by an allowlist or a weakened gate;
+`validate:sourcerefs:strict:yoma` (not wired into `validate:offline:yoma`
+by design, see `docs/reports/source-refs-normalization-plan.md`) would
+fail on both today, exactly as it should. Closing Phase 2 requires an
+operator decision on the 33 residual refs (accept as permanent documented
+residue, or authorize cross-daf content moves for the handful whose true
+content lives on an adjacent daf) and on the PR 4 string-ref question.
 
 ### Dependencies
 
@@ -473,6 +506,7 @@ Requires Phases 1, 2, and 3 all complete. Cannot start early.
 | Branch protection / rulesets on `main` | Operator (via this session, with API access) |
 | `type` -> `category` vocabulary mapping decisions (Phase 2A) that are genuinely ambiguous | Operator |
 | Whether to convert the 331 sound sourceRefs strings at all (Phase 2B) | Operator |
+| Disposition of the 33 residual unresolved sourceRefs (accept as permanent documented residue, or authorize cross-daf content moves for the handful whose true content lives on an adjacent daf) (Phase 2B) | Operator |
 | Selecting and starting an actual second tractate | Operator, and only after Phase 3 closes |
 | Cloudways / mysugya.com configuration | Operator, out of scope for this entire plan |
 | Executing the mechanical majority of Phases 1-4 | This session, autonomously, per the constraints below |
