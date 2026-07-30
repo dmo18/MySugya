@@ -5,9 +5,12 @@
   ],
   "sourceRefsConsumers": [
     "modules/yoma/learning_data.js",
+    "modules/yoma/scripts/apply_sourcerefs_crossdaf_migration.py",
     "modules/yoma/scripts/apply_sourcerefs_mechanical_repair.py",
     "modules/yoma/scripts/apply_sourcerefs_semantic_repair.py",
     "modules/yoma/scripts/generate_phase2_inventory.py",
+    "modules/yoma/scripts/generate_sourcerefs_blocker_dossier.py",
+    "modules/yoma/scripts/generate_sourcerefs_blocker_table.py",
     "modules/yoma/scripts/preview_source_refs_migration.py",
     "modules/yoma/scripts/test_validate_source_refs.py",
     "modules/yoma/scripts/validate_source_refs.py",

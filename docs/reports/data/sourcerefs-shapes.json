@@ -5,7 +5,8 @@
   },
   "objectKeySets": {
     "lineId + note + sourceType + vilnaLine": 421,
-    "lineId + sourceType + vilnaLine": 1229
+    "lineId + sourceType + vilnaLine": 1227,
+    "refType + sourceType + targetDaf + targetLineId + targetVilnaLine": 2
   },
   "sourceTypeValues": {
     "gemara": 1647,
@@ -20,10 +21,11 @@
     "OK": 1617,
     "STRING_RESOLVABLE": 331,
     "OBJECT_DANGLING_AMBIGUOUS": 9,
-    "OBJECT_COORDINATE_CONFLICT": 24
+    "OBJECT_COORDINATE_CONFLICT": 22,
+    "OK_CROSSDAF": 2
   },
-  "soundTotal": 1948,
-  "defectiveTotal": 33,
+  "soundTotal": 1950,
+  "defectiveTotal": 31,
   "mechanicallyRepairable": 0,
-  "judgmentRequired": 33
+  "judgmentRequired": 31
 }

@@ -187,6 +187,38 @@ unfiltered list produced 46 instead of the true 16. `validate_source_refs.py`
 now filters to `DEFECT_CLASSES` before computing the affected-daf set, so
 the CLI's own output and this document agree.
 
+## Current state (after the 33-case classification and cross-daf migration)
+
+The 33 residual refs above are now individually classified in
+`docs/reports/sourcerefs-blocker-classifications.json` (2
+`QUALIFIED_CROSS_DAF`, 29 `ABSENT_OR_UNANCHORED`, 2 `TIED_CANDIDATES`; see
+`docs/reports/sourcerefs-blocker-table.md` for the full evidence per case
+and `docs/reports/sourcerefs-crossdaf-schema-decision.md` for the new
+cross-daf shape). The 2 `QUALIFIED_CROSS_DAF` cases
+(`yoma-069b-l19` -> `yoma-070a-l16`, `yoma-069b-l21` -> `yoma-070a-l22`)
+are now **applied**: migrated to the cross-daf object shape by
+`apply_sourcerefs_crossdaf_migration.py`, touching only
+`modules/yoma/assets/learning/yoma/69b.learning.json` (2 refs) plus the
+regenerated `learning_data.js`. `docs/reports/source-refs-semantic-review.json`
+and this document's tables above are left as the static historical record
+of the earlier semantic-repair pass and are not rewritten; the corpus's
+live classification is always `npm run validate:sourcerefs:yoma`'s own
+output, currently:
+
+| class | count | sound? |
+|---|---|---|
+| `OK` | 1,617 | yes |
+| `STRING_RESOLVABLE` | 331 | yes |
+| `OK_CROSSDAF` | 2 | yes (new, this pass) |
+| `OBJECT_COORDINATE_CONFLICT` | 22 | no, 22 of the 24 original cases remain (2 migrated) |
+| `OBJECT_DANGLING_AMBIGUOUS` | 9 | no, exact-blocker documented |
+
+**1,950 sound, 31 defective** (was 1,948/33). The remaining 31 defects are
+the 29 `ABSENT_OR_UNANCHORED` and 2 `TIED_CANDIDATES` cases from the
+blocker table; each is scheduled for its own bounded resolution in a
+later PR (removal for `ABSENT_OR_UNANCHORED`, left documented and blocked
+for `TIED_CANDIDATES`).
+
 ### `OBJECT_DANGLING_REPAIRABLE` (412 refs, 52 daf) - mechanical
 
 `lineId` names no line on the daf, but `vilnaLine` falls inside exactly one
