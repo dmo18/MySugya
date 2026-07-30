@@ -187,37 +187,51 @@ unfiltered list produced 46 instead of the true 16. `validate_source_refs.py`
 now filters to `DEFECT_CLASSES` before computing the affected-daf set, so
 the CLI's own output and this document agree.
 
-## Current state (after the 33-case classification and cross-daf migration)
+## Current state (terminal state for this campaign)
 
 The 33 residual refs above are now individually classified in
 `docs/reports/sourcerefs-blocker-classifications.json` (2
 `QUALIFIED_CROSS_DAF`, 29 `ABSENT_OR_UNANCHORED`, 2 `TIED_CANDIDATES`; see
 `docs/reports/sourcerefs-blocker-table.md` for the full evidence per case
 and `docs/reports/sourcerefs-crossdaf-schema-decision.md` for the new
-cross-daf shape). The 2 `QUALIFIED_CROSS_DAF` cases
-(`yoma-069b-l19` -> `yoma-070a-l16`, `yoma-069b-l21` -> `yoma-070a-l22`)
-are now **applied**: migrated to the cross-daf object shape by
-`apply_sourcerefs_crossdaf_migration.py`, touching only
-`modules/yoma/assets/learning/yoma/69b.learning.json` (2 refs) plus the
-regenerated `learning_data.js`. `docs/reports/source-refs-semantic-review.json`
-and this document's tables above are left as the static historical record
-of the earlier semantic-repair pass and are not rewritten; the corpus's
-live classification is always `npm run validate:sourcerefs:yoma`'s own
-output, currently:
+cross-daf shape). All resolvable cases are now **applied**:
+
+- The 2 `QUALIFIED_CROSS_DAF` cases (`yoma-069b-l19` -> `yoma-070a-l16`,
+  `yoma-069b-l21` -> `yoma-070a-l22`) are migrated to the cross-daf object
+  shape by `apply_sourcerefs_crossdaf_migration.py`, touching
+  `modules/yoma/assets/learning/yoma/69b.learning.json` (2 refs).
+- The 29 `ABSENT_OR_UNANCHORED` cases have their sourceRefs removed
+  (`sourceRefs: []`, matching the corpus's own convention for other
+  optional array fields left inapplicable) by
+  `apply_sourcerefs_absent_removal.py`, across
+  `modules/yoma/assets/learning/yoma/{48b,52b,55a,61a,67a,67b,69a,69b,70a,70b,71a,71b,72b,75a}.learning.json`
+  (29 refs).
+- The 2 `TIED_CANDIDATES` cases (`yoma-044b-l01`, `yoma-063a-l03a`) are
+  **left blocked, deliberately, permanently**: each is a genuine tie
+  between two equally-supported candidates (or, for 44b, a compound step
+  whose two clauses split across two segments) with no textual basis to
+  prefer one. No tie was forced; both remain documented as unresolved in
+  `docs/reports/sourcerefs-blocker-classifications.json`.
+
+`docs/reports/source-refs-semantic-review.json` and this document's
+tables above are left as the static historical record of the earlier
+semantic-repair pass and are not rewritten; the corpus's live
+classification is always `npm run validate:sourcerefs:yoma`'s own output,
+currently:
 
 | class | count | sound? |
 |---|---|---|
 | `OK` | 1,617 | yes |
 | `STRING_RESOLVABLE` | 331 | yes |
-| `OK_CROSSDAF` | 2 | yes (new, this pass) |
-| `OBJECT_COORDINATE_CONFLICT` | 22 | no, 22 of the 24 original cases remain (2 migrated) |
-| `OBJECT_DANGLING_AMBIGUOUS` | 9 | no, exact-blocker documented |
+| `OK_CROSSDAF` | 2 | yes |
+| `OBJECT_COORDINATE_CONFLICT` | 1 | no, `yoma-063a-l03a` - tied, documented |
+| `OBJECT_DANGLING_AMBIGUOUS` | 1 | no, `yoma-044b-l01` - tied, documented |
 
-**1,950 sound, 31 defective** (was 1,948/33). The remaining 31 defects are
-the 29 `ABSENT_OR_UNANCHORED` and 2 `TIED_CANDIDATES` cases from the
-blocker table; each is scheduled for its own bounded resolution in a
-later PR (removal for `ABSENT_OR_UNANCHORED`, left documented and blocked
-for `TIED_CANDIDATES`).
+**1,950 sound, 2 defective, out of 1,952 total refs** (29 fewer than the
+1,981 before this pass, since the 29 removed refs are simply absent now,
+not reclassified into a different sound class). Both remaining defects
+are the 2 `TIED_CANDIDATES` cases; no further mechanical or textual-
+evidence repair is available from repository data alone for either.
 
 ### `OBJECT_DANGLING_REPAIRABLE` (412 refs, 52 daf) - mechanical
 

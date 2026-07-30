@@ -1,31 +1,31 @@
 {
   "shapeCounts": {
-    "object": 1650,
+    "object": 1621,
     "string": 331
   },
   "objectKeySets": {
     "lineId + note + sourceType + vilnaLine": 421,
-    "lineId + sourceType + vilnaLine": 1227,
+    "lineId + sourceType + vilnaLine": 1198,
     "refType + sourceType + targetDaf + targetLineId + targetVilnaLine": 2
   },
   "sourceTypeValues": {
-    "gemara": 1647,
+    "gemara": 1618,
     "mishnah": 3
   },
   "missingSourceTypeOnObjectRefs": 0,
-  "stepsWithNullOrEmptySourceRefs": 0,
+  "stepsWithNullOrEmptySourceRefs": 29,
   "totalStringRefs": 331,
-  "totalObjectRefs": 1650,
-  "totalRefs": 1981,
+  "totalObjectRefs": 1621,
+  "totalRefs": 1952,
   "classification": {
     "OK": 1617,
     "STRING_RESOLVABLE": 331,
-    "OBJECT_DANGLING_AMBIGUOUS": 9,
-    "OBJECT_COORDINATE_CONFLICT": 22,
+    "OBJECT_DANGLING_AMBIGUOUS": 1,
+    "OBJECT_COORDINATE_CONFLICT": 1,
     "OK_CROSSDAF": 2
   },
   "soundTotal": 1950,
-  "defectiveTotal": 31,
+  "defectiveTotal": 2,
   "mechanicallyRepairable": 0,
-  "judgmentRequired": 31
+  "judgmentRequired": 2
 }
