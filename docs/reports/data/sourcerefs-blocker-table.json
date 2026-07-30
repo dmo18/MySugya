@@ -1,0 +1,853 @@
+{
+  "total": 33,
+  "byClass": {
+    "TIED_CANDIDATES": 2,
+    "ABSENT_OR_UNANCHORED": 27,
+    "QUALIFIED_CROSS_DAF": 4
+  },
+  "cases": [
+    {
+      "daf": "44b",
+      "sugyaId": "yoma-044b-s01",
+      "stepId": "yoma-044b-l01",
+      "stepIndex": 0,
+      "stepType": "ruling",
+      "stepLabel": "Ruling: The 'no man' restriction is only during",
+      "stepText": "The 'no man' restriction is only during incense burning; blood sprinkling has a lesser exclusion.",
+      "defectClass": "OBJECT_DANGLING_AMBIGUOUS",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-044b-l01",
+        "vilnaLine": 1
+      },
+      "candidateIds": [
+        "yoma-044b-l01a",
+        "yoma-044b-l01b"
+      ],
+      "priorReviewIdx": 96,
+      "priorReviewReason": "Step has two clauses ('no man restriction only during incense' + 'blood sprinkling has lesser exclusion'). l01a (a sentence fragment ending '...except during the burning of the incense') supports clause 1; l01b (about differential sanctification-removal standards) is a plausible but distinct match for clause 2. Neither single segment clearly and completely represents the whole step; genuinely split across both candidates.",
+      "classification": "TIED_CANDIDATES",
+      "confidence": "medium",
+      "evidence": "This step states two clauses ('no man' restricted to incense-burning; blood-sprinkling has a lesser exclusion). yoma-044b-l01a ('except during the burning of the incense') is a precise match for clause 1 alone. yoma-044b-l01b (about differential sanctification-removal standards between the Sanctuary's own sanctification and the blood presentation) is a plausible but distinct match for clause 2 alone. Neither segment states both clauses, and the step's own compound wording does not indicate which single segment it is meant to anchor to.",
+      "proposedAction": "Leave blocked as a tie between two partially-supporting segments; report to a reviewer whether the step should be split into two steps (one per clause, each anchored to its own segment) rather than repaired to a single ref - that would be a step-authoring change, not a sourceRefs coordinate repair, and is out of scope for this campaign.",
+      "residualUncertainty": "Whether this is truly a tie or actually a compound-step-needs-splitting problem is itself unresolved; flagged for a future decision rather than guessed at here."
+    },
+    {
+      "daf": "48b",
+      "sugyaId": "yoma-048b-s02",
+      "stepId": "yoma-048b-l01",
+      "stepIndex": 0,
+      "stepType": "question",
+      "stepLabel": "Question: What is the law when the High",
+      "stepText": "What is the law when the High Priest scooped with intent to consume the incense at an improper time?",
+      "defectClass": "OBJECT_DANGLING_AMBIGUOUS",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-048b-l01",
+        "vilnaLine": 1
+      },
+      "candidateIds": [
+        "yoma-048b-l01a",
+        "yoma-048b-l01b"
+      ],
+      "priorReviewIdx": 98,
+      "priorReviewReason": "Step: 'HP scooped with intent to consume the incense at an improper time.' Read l01a's FULL text - it is entirely about the raking-of-coals question (sugya s01's topic, already assigned there), not about scooping-with-consumption-intent at all. l01b is about carrying blood in the left hand, also unrelated. Neither candidate supports this step; the question appears to have no textual anchor among the available same-vilna segments.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "This sugya's own display.hint field describes exactly this step's topic verbatim ('The Sages raised a dilemma before Rav Sheshet: what if the High Priest scooped the handfuls of incense while thinking about consuming it at an improper time?'), confirming the step's text is not misplaced or invented. But the sugya's actually-attached Gemara lines (l01b, l05, l07) are entirely about a different, unrelated halakhic question (carrying the blood/coal-pan in the left hand). This is a sugya-level display/lines mismatch: the editorial display/learning content describes one topic while the attached source lines carry a different one.",
+      "proposedAction": "Remove the sourceRefs field from this step. Separately and out of scope for this PR: flag yoma-048b-s02's display/lines mismatch as a new backlog item (its lineRange may need to point at different source lines entirely, likely on 48a where the pigul-incense sugya begins) - not a sourceRefs coordinate defect, and not resolved here.",
+      "residualUncertainty": "The true Gemara lines for this sugya's declared topic may exist on 48a (immediately preceding); confirming and re-scoping that is a content-authoring task outside this campaign's remit."
+    },
+    {
+      "daf": "52b",
+      "sugyaId": "yoma-052b-s01",
+      "stepId": "yoma-052b-l01",
+      "stepIndex": 0,
+      "stepType": "teaching",
+      "stepLabel": "Teaching: Four words in the Torah have uncertain",
+      "stepText": "Four words in the Torah have uncertain meanings: Se'et, Meshukkadim, Mahar, Arur.",
+      "defectClass": "OBJECT_DANGLING_AMBIGUOUS",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-052b-l01",
+        "vilnaLine": 1
+      },
+      "candidateIds": [
+        "yoma-052b-l01a",
+        "yoma-052b-l01b",
+        "yoma-052b-l01c",
+        "yoma-052b-l01d",
+        "yoma-052b-l01e",
+        "yoma-052b-l01f"
+      ],
+      "priorReviewIdx": 99,
+      "priorReviewReason": "Step lists all four uncertain words collectively (Se'et, Meshukkadim, Mahar, Arur) as a summary introduction. Each candidate (l01a-d) covers only ONE word individually; none represents the collective four-word claim, and picking one arbitrarily would misrepresent the step as being about only that word. No single segment is uniquely supported.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "This step is a collective introductory statement naming all four uncertain-meaning words (Se'et, Meshukkadim, Mahar, Arur) together. Each of the six same-vilna candidates (l01a-f) covers exactly one word (or, for l01f, an unrelated objection) individually; none represents the four-word collective claim, and choosing one would misrepresent the step as being about only that word.",
+      "proposedAction": "Treat as a legitimately unanchored synthesis/introduction step: remove the sourceRefs field rather than force it onto one of the six single-word segments.",
+      "residualUncertainty": "None material; this is a category case for 'introductory/summary step spanning multiple segments,' which the canonical contract should recognize as a class where sourceRefs is optional (Step 3/5 documentation)."
+    },
+    {
+      "daf": "52b",
+      "sugyaId": "yoma-052b-s01",
+      "stepId": "yoma-052b-l02",
+      "stepIndex": 1,
+      "stepType": "explanation",
+      "stepLabel": "Explanation: Each word appears in a context that",
+      "stepText": "Each word appears in a context that affects halachic ruling; the uncertainty is preserved by tradition.",
+      "defectClass": "OBJECT_DANGLING_AMBIGUOUS",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-052b-l02",
+        "vilnaLine": 2
+      },
+      "candidateIds": [
+        "yoma-052b-l01a",
+        "yoma-052b-l01b",
+        "yoma-052b-l01c",
+        "yoma-052b-l01d",
+        "yoma-052b-l01e",
+        "yoma-052b-l01f"
+      ],
+      "priorReviewIdx": 100,
+      "priorReviewReason": "Step is a general summary statement ('each word appears in a context that affects halachic ruling; uncertainty preserved by tradition') describing the pattern across all four words, not anchored to any single one of the per-word candidate segments (l01a-f).",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "This step is a general pattern-summary describing all four words collectively ('each word appears in a context that affects halachic ruling; the uncertainty is preserved by tradition'), not anchored to any one of the six per-word candidate segments (l01a-f).",
+      "proposedAction": "Remove the sourceRefs field from this step; same synthesis-step category as the previous case.",
+      "residualUncertainty": "None material."
+    },
+    {
+      "daf": "55a",
+      "sugyaId": "yoma-055a-s03",
+      "stepId": "yoma-055a-l41a",
+      "stepIndex": 1,
+      "stepType": "principle",
+      "stepLabel": "Principle: Analogy is insufficient to impose kareth penalties",
+      "stepText": "Analogy is insufficient to impose kareth penalties - Scripture must be explicit.",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-055a-l41a",
+        "vilnaLine": 2
+      },
+      "candidateIds": [
+        "yoma-055a-l01"
+      ],
+      "priorReviewIdx": 0,
+      "priorReviewReason": "Step paraphrases a 'kareth/analogy insufficient' principle. Current lineId (l41a, real content: reconciling local sprinkling-count customs) is a clear topical mismatch. vilna-resolved segment (l01, sprinkling technique) is also a mismatch. Whole-daf top candidates (l04, l12, l09) discuss verse-derivation generally but none state the kareth/analogy principle; sibling steps (l37, l43) are themselves topically inconsistent with their own claimed content, undermining any positional inference. No segment clearly supported.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "Full-daf search (prior pass) plus a tractate-wide keyword search this pass turned up no segment on 55a, or elsewhere in the tractate, stating a kareth/analogy-insufficiency principle in these terms. The current lineId (l41a) and the vilna-resolved candidate (l01) are both confirmed topical mismatches (reconciling local sprinkling-count customs; sprinkling technique, respectively). Sibling steps in the same sugya (l37, l43) are themselves flagged as topically inconsistent, so positional inference from neighbors is not reliable evidence here.",
+      "proposedAction": "Remove the sourceRefs field from this step (leave sourceRefs absent/optional) rather than retain a false coordinate. sourceRefs is status: optional in the schema and nothing in app.jsx reads it, so removal is a safe, truthful representation of 'no anchor found', not a rendering regression.",
+      "residualUncertainty": "The step's content (kareth/analogy principle) may be a legitimate Talmudic point paraphrased from a passage not included in this corpus's William Davidson excerpt, or may be an editorial synthesis without a single-line anchor. Cannot be resolved further from repository data alone."
+    },
+    {
+      "daf": "61a",
+      "sugyaId": "yoma-061a-s01",
+      "stepId": "yoma-061a-l01",
+      "stepIndex": 0,
+      "stepType": "question",
+      "stepLabel": "Question: Which Yom Kippur services are me'akev (essential)",
+      "stepText": "Which Yom Kippur services are me'akev (essential) and which are required but not invalidating?",
+      "defectClass": "OBJECT_DANGLING_AMBIGUOUS",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-061a-l01",
+        "vilnaLine": 1
+      },
+      "candidateIds": [
+        "yoma-061a-l01a",
+        "yoma-061a-l01b"
+      ],
+      "priorReviewIdx": 104,
+      "priorReviewReason": "Step is the sugya's general framing question ('which YK services are me'akev and which are required but not invalidating'). Both candidates (l01a, l01b) are already deep into specific case analysis (incense-scooping detail; goat-before-bull sequencing), not the general framing question itself. No segment states this general question directly.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "This step is the sugya's own general framing question ('which Yom Kippur services are me'akev and which are required but not invalidating'). Both same-vilna candidates (l01a: incense-scooping detail; l01b: goat-before-bull sequencing) are already deep into specific case analysis, not the general framing question itself.",
+      "proposedAction": "Remove the sourceRefs field from this step; treat as a legitimately unanchored framing/introduction step.",
+      "residualUncertainty": "None material."
+    },
+    {
+      "daf": "61a",
+      "sugyaId": "yoma-061a-s02",
+      "stepId": "yoma-061a-l01c",
+      "stepIndex": 1,
+      "stepType": "principle",
+      "stepLabel": "Principle: Impurity does not retroactively void completed Temple",
+      "stepText": "Impurity does not retroactively void completed Temple service (bedi'avad).",
+      "defectClass": "OBJECT_DANGLING_AMBIGUOUS",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-061a-l01c",
+        "vilnaLine": 2
+      },
+      "candidateIds": [
+        "yoma-061a-l01a",
+        "yoma-061a-l01b"
+      ],
+      "priorReviewIdx": 105,
+      "priorReviewReason": "Step: 'impurity does not retroactively void completed Temple service.' Both candidates (l01a: incense-scooping detail; l01b: goat-before-bull sequencing) are specific procedural points, not the general impurity/retroactivity principle. Whole-daf top candidates (l10, l13) discuss atonement scope for Israelites/Levites, a different topic. No segment states this principle directly.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "Both same-vilna candidates (l01a, l01b) are specific procedural points (incense-scooping; goat-before-bull sequencing), not the general impurity/retroactivity principle this step states. Whole-daf top candidates (l10, l13) discuss atonement scope for Israelites/Levites, a different topic.",
+      "proposedAction": "Remove the sourceRefs field from this step.",
+      "residualUncertainty": "None material."
+    },
+    {
+      "daf": "61a",
+      "sugyaId": "yoma-061a-s04",
+      "stepId": "yoma-061a-l45a",
+      "stepIndex": 3,
+      "stepType": "symmetry",
+      "stepLabel": "Symmetry: The closing ram offerings mirror the opening",
+      "stepText": "The closing ram offerings mirror the opening bull-and-goat structure.",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-061a-l45a",
+        "vilnaLine": 4
+      },
+      "candidateIds": [
+        "yoma-061a-l01a",
+        "yoma-061a-l01b"
+      ],
+      "priorReviewIdx": 3,
+      "priorReviewReason": "Step is 'Symmetry: closing ram offerings mirror opening bull-and-goat structure.' Current lineId, vilna-resolved candidates (l01a/l01b, genuinely ambiguous pair), and whole-daf top (l34, about sin-offering renewal rule) are all topical mismatches - the real content in this vicinity (l43-l45b) concerns the leper-purification analogy, not ram-offering symmetry. No segment clearly supported.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "Current lineId, the vilna-resolved candidate pair (l01a/l01b), and the whole-daf top keyword candidate (l34) are all confirmed topical mismatches. The real content in the immediate vicinity (l43-l45b) concerns the leper-purification analogy, not a ram-offering symmetry claim. No segment anywhere on 61a states this symmetry point.",
+      "proposedAction": "Remove the sourceRefs field from this step.",
+      "residualUncertainty": "Same category as the 55a case: possibly an editorial synthesis point without a single citable Gemara line."
+    },
+    {
+      "daf": "63a",
+      "sugyaId": "yoma-063a-s01",
+      "stepId": "yoma-063a-l03a",
+      "stepIndex": 1,
+      "stepType": "support",
+      "stepLabel": "Support: Rabbi Yochanan's tradition supports this ruling.",
+      "stepText": "Rabbi Yochanan's tradition supports this ruling.",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-063a-l03a",
+        "vilnaLine": 2
+      },
+      "candidateIds": [
+        "yoma-063a-l01"
+      ],
+      "priorReviewIdx": 5,
+      "priorReviewReason": "Step: 'Support: Rabbi Yochanan's tradition supports this ruling.' Two equally-plausible candidates found via whole-daf search (l10 and l17), both literally 'Rabbi Yirmeya said Rabbi Yochanan said' transmission chains (two versions of the same tradition, tied score). No textual basis to prefer one over the other.",
+      "classification": "TIED_CANDIDATES",
+      "confidence": "high",
+      "evidence": "Full-daf search finds two segments (yoma-063a-l10 and yoma-063a-l17) that are both literal 'Rabbi Yirmeya said Rabbi Yochanan said' transmission-chain statements, i.e. both equally state 'Rabbi Yochanan's tradition supports this ruling.' Nothing in the surrounding argumentFlow, the two candidates' own text, or their position distinguishes which transmission the step means.",
+      "proposedAction": "Leave blocked. Do not pick one of the two tied candidates by proximity or order; report both to a domain reviewer with Talmudic training who can judge from the fuller halakhic context which transmission this step's author intended, or accept the tie as permanent documented residue.",
+      "residualUncertainty": "A genuine tie between yoma-063a-l10 and yoma-063a-l17. No repository evidence breaks the tie."
+    },
+    {
+      "daf": "67a",
+      "sugyaId": "yoma-067a-s03",
+      "stepId": "yoma-067a-l12",
+      "stepIndex": 1,
+      "stepType": "ruling",
+      "stepLabel": "Ruling: Service valid even after nightfall",
+      "stepText": "The Azazel service is valid even if performed after nightfall - not subject to the daytime requirement of standard Temple services.",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-067a-l12",
+        "vilnaLine": 43
+      },
+      "candidateIds": [
+        "yoma-067a-l43"
+      ],
+      "priorReviewIdx": 7,
+      "priorReviewReason": "Step: 'Azazel service valid even after nightfall.' Current lineId, vilna-resolved (l43), and whole-daf top candidates are all about the goat's-torn-limbs permitted/prohibited-for-benefit dispute, not nightfall. Sibling step (l40 real content) is also about that dispute, not nightfall - the nightfall topic does not appear to be textually anchored anywhere on this daf's line table.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "A tractate-wide search (this pass) for 'nightfall' returns zero hits anywhere in learning_data.js. Current, vilna-resolved, and whole-daf top candidates are all part of the goat's-torn-limbs permitted/prohibited-for-benefit dispute, a different topic from a nightfall-validity ruling.",
+      "proposedAction": "Remove the sourceRefs field from this step.",
+      "residualUncertainty": "The 'valid even after nightfall' point may reflect a real halakhic detail not present in the William Davidson translation excerpted into this corpus."
+    },
+    {
+      "daf": "67b",
+      "sugyaId": "yoma-067b-s03",
+      "stepId": "yoma-067b-l10",
+      "stepIndex": 0,
+      "stepType": "dispute",
+      "stepLabel": "Dispute: Goat fell backward vs face-first",
+      "stepText": "Tanna Kamma: the goat went backward (al achorav). Ben Azzai: it went face-first (al panav).",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-067b-l10",
+        "vilnaLine": 26
+      },
+      "candidateIds": [
+        "yoma-067b-l26"
+      ],
+      "priorReviewIdx": 10,
+      "priorReviewReason": "Step describes a Tanna Kamma vs Ben Azzai dispute (goat fell backward vs face-first). Searched full daf text (he and en) for 'Ben Azzai'/backward/face-first/headlong/roll - no match found anywhere on 67b. This dispute (a known Tosefta Yoma passage) does not appear to be textually anchored in this daf's Gemara line table at all.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "The sugya's own display/quizSeeds/finalRuling fields (yoma-067b-s03) do describe this Tanna Kamma vs. Ben Azzai backward/face-first dispute as the sugya's real topic, so the step is not misplaced or mis-scoped. But no Gemara line anywhere on 67b states it, and a tractate-wide search for 'Ben Azzai' finds only one other occurrence, an unrelated tradition about the tamid-limb carrying order (an early-tractate sugya on the second daily lottery), not this goat-direction dispute.",
+      "proposedAction": "Remove the sourceRefs field from this step.",
+      "residualUncertainty": "This is a documented tannaitic dispute (per the sugya's own finalRuling), but its specific text does not appear to survive in the WD excerpt this corpus draws from. Confirming that would require checking a source outside this repository."
+    },
+    {
+      "daf": "69a",
+      "sugyaId": "yoma-069a-s01",
+      "stepId": "yoma-069a-l07",
+      "stepIndex": 6,
+      "stepType": "ruling",
+      "stepLabel": "Ruling: Sitting before HP permitted for specific officeholders",
+      "stepText": "The synagogue head and the deputy HP may sit in the HP's presence - to show him there is authority below him. This does not diminish his honor.",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-069a-l07",
+        "vilnaLine": 22
+      },
+      "candidateIds": [
+        "yoma-069a-l22"
+      ],
+      "priorReviewIdx": 21,
+      "priorReviewReason": "Step: 'sitting before HP permitted for specific officeholders.' Found the true content match on a DIFFERENT daf: yoma-069b-l01 ('Sitting in the Temple courtyard is permitted only for kings of the House of David... How could the HP have been sitting?'). No same-daf (69a) segment supports this content, and the per-daf lineId contract does not support cross-daf references (validator's by_id/containing() is scoped per-file). Flagging as a cross-daf content-placement issue rather than forcing an invalid reference.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "medium",
+      "evidence": "The prior review proposed yoma-069b-l01 as the target, but that line's actual text ('Sitting in the Temple courtyard is permitted only for kings of the House of David... How, then, could the High Priest have been sitting? ... in the women's courtyard') resolves a different question (why the HP himself was seated) than this step's specific claim (that the synagogue head and deputy HP specifically may sit in the HP's presence, to show him there is authority below him). The two points are in the same thematic neighborhood but are not the same claim, and re-reading 069b-l01's full text this pass does not confirm a verbatim or paraphrase match precise enough to call this an established cross-daf citation.",
+      "proposedAction": "Remove the sourceRefs field from this step rather than assert an inexact cross-daf citation.",
+      "residualUncertainty": "A more specific segment about the synagogue-head/segan sitting hierarchy may exist elsewhere in the tractate (e.g. an earlier daf discussing the Torah-scroll handoff chain) that a deeper targeted search could locate; not found within this pass's search terms."
+    },
+    {
+      "daf": "69a",
+      "sugyaId": "yoma-069a-s02",
+      "stepId": "yoma-069a-l11",
+      "stepIndex": 2,
+      "stepType": "ruling",
+      "stepLabel": "Ruling: No me'ilah - vestments given for use",
+      "stepText": "No me'ilah - the vestments were given for the HP's use in his official functions. The Torah reading is an official function; wearing them is their intended purpose.",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-069a-l11",
+        "vilnaLine": 32
+      },
+      "candidateIds": [
+        "yoma-069a-l32"
+      ],
+      "priorReviewIdx": 22,
+      "priorReviewReason": "Step: 'No me'ilah - vestments given for use.' Current/vilna-resolved/whole-daf candidates are all part of the Shimon HaTzaddik/Alexander narrative digression. Closest candidate (l41) resolves a narrower point (time-of-need exception for wearing vestments outside Temple) not the general 'given for use' principle. Sibling refs in this sugya (l13->l38, l14->l41) also show content mismatches, suggesting broader anchor drift in this sugya beyond this task's scope.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "Current, vilna-resolved, and whole-daf candidates are all part of the Shimon HaTzaddik/Alexander narrative digression on this daf, unrelated to a me'ilah ruling. The closest topical candidate found in the prior pass (l41) resolves a narrower point (a time-of-need exception for wearing vestments outside the Temple), not the general 'vestments given for use, no me'ilah' principle this step states. Sibling refs in this same sugya show similar drift, indicating this sugya's sourceRefs anchoring has broader problems than this one step.",
+      "proposedAction": "Remove the sourceRefs field from this step.",
+      "residualUncertainty": "This sugya (yoma-069a-s02) may need a dedicated re-anchoring pass beyond this one step; flagged here, not undertaken, since it is broader than a single-ref repair."
+    },
+    {
+      "daf": "69b",
+      "sugyaId": "yoma-069b-s02",
+      "stepId": "yoma-069b-l14",
+      "stepIndex": 12,
+      "stepType": "ruling",
+      "stepLabel": "Ruling: Eimurim burned after third immersion with rams",
+      "stepText": "The eimurim (sacrificial parts) of the sin offering are burned at the third immersion together with the HP's ram and the people's ram.",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-069b-l14",
+        "vilnaLine": 35
+      },
+      "candidateIds": [
+        "yoma-069b-l35"
+      ],
+      "priorReviewIdx": 27,
+      "priorReviewReason": "Step: 'eimurim burned after third immersion with rams.' Searched full daf text for 'immersion'/'ram'/'eimurim' - no match found anywhere on 69b. Current, vilna-resolved, and whole-daf top candidates are all part of the unrelated Jeremiah/Daniel/Great-Assembly narrative.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "A tractate-wide search for 'eimurim' finds no Gemara line stating this step's specific claim (eimurim burned at the third immersion together with both rams) as citable text; the phrase appears only in a different sugya's own editorial 'coreMove' synthesis prose (yoma-070a-s06, describing the R. Akiva staggered-sequence passage in general terms), not as a quotable source line. Current, vilna-resolved, and whole-daf candidates on 69b are all part of the unrelated Jeremiah/Daniel/Great-Assembly narrative - this step does not topically belong to its own declared sugya (069b-s02) at all, the same root-cause pattern found in the 48b-s02 and 66b-s03 cases below.",
+      "proposedAction": "Remove the sourceRefs field from this step.",
+      "residualUncertainty": "This step (and its neighbors l16/l19/l20/l21, cases below) sits inside a sugya whose attached Gemara lines are an unrelated aggadic narrative. That is a sugya-scoping question (which lines belong to which sugya), not a sourceRefs coordinate question, and is out of scope for this campaign; flagged as a separate finding, not repaired here."
+    },
+    {
+      "daf": "69b",
+      "sugyaId": "yoma-069b-s02",
+      "stepId": "yoma-069b-l16",
+      "stepIndex": 14,
+      "stepType": "ruling",
+      "stepLabel": "Ruling: 'The dispatcher' refers to an earlier action despite later textual position",
+      "stepText": "The verse about 'the one who dispatches the goat' is positioned after the eimurim text but refers to an earlier act - like a speaker who interrupts and then resumes the original topic.",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-069b-l16",
+        "vilnaLine": 42
+      },
+      "candidateIds": [
+        "yoma-069b-l42"
+      ],
+      "priorReviewIdx": 28,
+      "priorReviewReason": "Step: hermeneutic point about 'the dispatcher' verse appearing later but referring to an earlier action. Searched full daf text for 'dispatch'/'interrupt'/'resume' - no match found on 69b. Current, vilna-resolved, and whole-daf top candidates are all part of the unrelated Jeremiah/Daniel legitimacy discussion.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "Same sugya-scoping mismatch as the l14 case immediately above. A tractate-wide search for the hermeneutic terms this step uses ('dispatch'/'interrupt'/'resume') finds no matching Gemara line. Current, vilna-resolved, and whole-daf candidates are all part of the unrelated Jeremiah/Daniel legitimacy discussion.",
+      "proposedAction": "Remove the sourceRefs field from this step.",
+      "residualUncertainty": "Same sugya-scoping flag as yoma-069b-l14."
+    },
+    {
+      "daf": "69b",
+      "sugyaId": "yoma-069b-s03",
+      "stepId": "yoma-069b-l19",
+      "stepIndex": 2,
+      "stepType": "ruling",
+      "stepLabel": "Ruling: Eight blessings recited after readings",
+      "stepText": "After the readings, the HP recited eight blessings: on Torah, service, thanksgiving, forgiveness, Temple, priests, Israel, and Jerusalem.",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-069b-l19",
+        "vilnaLine": 45
+      },
+      "candidateIds": [
+        "yoma-069b-l45"
+      ],
+      "priorReviewIdx": 29,
+      "priorReviewReason": "Step: 'eight blessings recited after readings.' The true 'eight blessings' passage is textually located on a DIFFERENT daf (yoma-070a-l16: 'mishna: HP recites eight blessings after reading...'). No 69b segment states this; current/vilna-resolved/whole-daf candidates are all part of the unrelated Torah-skipping-rule discussion. Cross-daf, out of scope.",
+      "classification": "QUALIFIED_CROSS_DAF",
+      "confidence": "high",
+      "evidence": "yoma-070a-l16 (vilna 16) reads: 'And the High Priest recites eight blessings after the reading. The Sages taught in a baraita that these are the eight blessings: [Torah, service (avodah), thanksgiving (hoda'ah), forgiveness (mechilat he'avon), the Temple separately, the priests separately, Israel separately, and the remaining prayer]' - an exact, unique, itemized match to this step's list of eight blessing categories. No line on 69b states this; the 69b sugya's attached lines are the unrelated Jeremiah/Daniel narrative (see l14/l16 above). The target is a genuinely different daf's own correctly-scoped sugya (yoma-070a-s04, 'eight blessings'), not a duplicate or misplaced step.",
+      "proposedAction": "Design and apply a qualified cross-daf reference to yoma-070a-l16 (Step 3/Step 4 of this campaign); do not repair to a same-daf coordinate, since none exists, and do not move the step or the source content between daf.",
+      "residualUncertainty": "The step's own gloss names the eighth blessing 'Jerusalem'; the source line's eighth category is 'the remaining prayer' (she'ar tefilah), which yoma-070a-l22 (the next case) then quotes in full as a Jerusalem-restoration themed petition. The eight-category count and order match exactly; only the enrichment's own paraphrase of category 8 differs slightly from the line's literal wording. Not a blocker to the match; noted for completeness."
+    },
+    {
+      "daf": "69b",
+      "sugyaId": "yoma-069b-s03",
+      "stepId": "yoma-069b-l20",
+      "stepIndex": 3,
+      "stepType": "ruling",
+      "stepLabel": "Ruling: The blessings recited in their standard formulation",
+      "stepText": "The blessings were recited as they appear in the Amidah - 'may You be pleased with Your people Israel' etc.",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-069b-l20",
+        "vilnaLine": 47
+      },
+      "candidateIds": [
+        "yoma-069b-l47"
+      ],
+      "priorReviewIdx": 30,
+      "priorReviewReason": "Step: 'blessings recited in standard Amidah formulation.' No 69b segment states this. Current/vilna-resolved/whole-daf candidates are all part of the unrelated Torah-skipping-rule discussion; the actual blessing-text content is on 70a.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "yoma-070a-s04 (the correctly-scoped 'eight blessings' sugya) has only two lines in its lineRange, yoma-070a-l16 (the itemized list, already the exact match for the previous case) and yoma-070a-l22 (the 'remaining prayer' text, already the exact match for the next case). Neither states this step's specific claim ('recited as they appear in the Amidah'/'standard formulation') as distinct citable text; no third segment exists between them.",
+      "proposedAction": "Remove the sourceRefs field from this step.",
+      "residualUncertainty": "May be an editorial elaboration on l16/l22 rather than an independently anchorable claim; both of those lines are already used as the exact targets for the two neighboring, more precisely-worded steps."
+    },
+    {
+      "daf": "69b",
+      "sugyaId": "yoma-069b-s03",
+      "stepId": "yoma-069b-l21",
+      "stepIndex": 4,
+      "stepType": "ruling",
+      "stepLabel": "Ruling: 'Prayer for the rest' - for Israel's general needs",
+      "stepText": "An additional prayer for general needs: supplication and petition before God for His people Israel who need salvation.",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-069b-l21",
+        "vilnaLine": 48
+      },
+      "candidateIds": [
+        "yoma-069b-l48"
+      ],
+      "priorReviewIdx": 31,
+      "priorReviewReason": "Step: 'prayer for the rest - Israel's general needs.' Found the exact matching text on a DIFFERENT daf: yoma-070a-l22 ('Song, supplication, petition before You for Your people Israel, who need to be saved'). No 69b segment supports it; cross-daf, out of scope for a same-daf lineId repair.",
+      "classification": "QUALIFIED_CROSS_DAF",
+      "confidence": "high",
+      "evidence": "yoma-070a-l22 (vilna 22) reads: 'the rest of the prayer [is] \"a song, a supplication, a petition before You for Your people Israel who need to be saved\"' - an exact match to this step's text ('An additional prayer for general needs: supplication and petition before God for His people Israel who need salvation'). No line on 69b states this; same sugya-scoping mismatch as the neighboring 69b cases.",
+      "proposedAction": "Design and apply a qualified cross-daf reference to yoma-070a-l22 (Step 3/Step 4 of this campaign).",
+      "residualUncertainty": "None material; this is one of the cleanest matches in the 33-case set."
+    },
+    {
+      "daf": "70a",
+      "sugyaId": "yoma-070a-s04",
+      "stepId": "yoma-070a-l07",
+      "stepIndex": 0,
+      "stepType": "ruling",
+      "stepLabel": "Ruling: HP prostrated eight times",
+      "stepText": "The HP prostrated himself eight times - once for each of the eight blessings he recited after the Torah reading.",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-070a-l07",
+        "vilnaLine": 16
+      },
+      "candidateIds": [
+        "yoma-070a-l16"
+      ],
+      "priorReviewIdx": 32,
+      "priorReviewReason": "Step: 'HP prostrated eight times, once per blessing.' Searched full daf text for 'prostrat'/'bow'/'kneel'/'fell on'/'face'/'knee' - no match anywhere on 70a. Current, vilna-resolved, and whole-daf top candidates are all about the eight-blessings list or unrelated Torah-scroll-flaw discussion, not the prostration detail.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "A tractate-wide search for 'prostrat'/'bow'/'kneel'/'fell on'/'knee' finds only an unrelated hit (the Sukkot pilgrimage-crowd miracle, a different topic). Current, vilna-resolved, and whole-daf top candidates on 70a are all about the eight-blessings list or an unrelated Torah-scroll-flaw discussion, not a prostration detail.",
+      "proposedAction": "Remove the sourceRefs field from this step.",
+      "residualUncertainty": "None beyond the general possibility of a WD-excerpt gap."
+    },
+    {
+      "daf": "70a",
+      "sugyaId": "yoma-070a-s05",
+      "stepId": "yoma-070a-l10",
+      "stepIndex": 1,
+      "stepType": "ruling",
+      "stepLabel": "Ruling: Mishnah Ch. 8 begins - five afflictions of Yom Kippur",
+      "stepText": "Mishnah Chapter 8: seven lambs of the mussaf - one is performed with the morning tamid (first vestment change), and others at the fifth immersion with the afternoon tamid.",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-070a-l10",
+        "vilnaLine": 26
+      },
+      "candidateIds": [
+        "yoma-070a-l26"
+      ],
+      "priorReviewIdx": 33,
+      "priorReviewReason": "Step declares 'Mishnah Ch. 8 begins - five afflictions of Yom Kippur.' Searched full daf for 'afflict' - no match. Mishnah 8 (five afflictions) is a later passage in the tractate (~73b+), not on 70a. This sugya's declared placement appears to be mis-scoped to the wrong daf; no same-daf repair is possible.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "This step declares 'Mishnah Chapter 8 begins - five afflictions of Yom Kippur.' A tractate-wide search for 'five afflictions' finds the real Mishnah 8 text attached instead to a DIFFERENT sugya, yoma-066b-s03 (declared daf 66b) - but that sugya's own attached Gemara lines (l41, l44) are themselves an unrelated topic (the Alexandrian/Babylonian goat-ramp story), not the five-afflictions Mishnah text either. This is a genuine sugya-level display/lines mismatch discovered during this pass (the 'five afflictions' display/learning content is attached to the wrong lines on 66b-s03, and separately, this step declares the same topic on 70a where it also does not belong). Fixing either requires moving content between daf/sugyot, which is out of scope for a sourceRefs-only pass.",
+      "proposedAction": "Remove the sourceRefs field from this step. Separately and out of scope for this PR: flag yoma-066b-s03's display/lines mismatch as a new backlog item for a future content-scoping audit (not a sourceRefs defect; not resolved here).",
+      "residualUncertainty": "Whether the corpus has a correctly-scoped sugya for the real Mishnah 8 text anywhere is unknown without a dedicated corpus-wide sugya/lines audit, which is beyond this campaign's scope."
+    },
+    {
+      "daf": "70a",
+      "sugyaId": "yoma-070a-s06",
+      "stepId": "yoma-070a-l15",
+      "stepIndex": 4,
+      "stepType": "reason",
+      "stepLabel": "Reason R. Akiva: might tire the HP if all mussaf first",
+      "stepText": "If all mussaf offerings precede the day's service, the HP might become too tired to perform the essential atonement service - which is the priority.",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-070a-l15",
+        "vilnaLine": 34
+      },
+      "candidateIds": [
+        "yoma-070a-l34"
+      ],
+      "priorReviewIdx": 34,
+      "priorReviewReason": "Step: 'R. Akiva's reason - might tire the HP if all mussaf performed first.' Searched full daf for 'tire'/'exhaust'/'weary'/'weak' - no match. This daf's real content (through l46) only clarifies WHAT was sacrificed when (textual ambiguity in the mishna), never states WHY (the tiring-HP rationale). No segment supports this step.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "A tractate-wide search for 'tire'/'exhaust'/'weary'/'weak' finds only a self-referential hit inside this step's own text. This daf's visible Gemara content (through l46) clarifies WHAT was sacrificed when (resolving a textual ambiguity in the mishna), but never states WHY (the tiring-the-HP rationale) as citable text; that reasoning appears only in the sugya's own editorial 'coreMove' synthesis prose, not a source line.",
+      "proposedAction": "Remove the sourceRefs field from this step.",
+      "residualUncertainty": "The reasoning may be a legitimate scholarly inference the enrichment drew from the sugya as a whole rather than a single quotable line; if so, it is a synthesis step for which no single-segment anchor should be forced."
+    },
+    {
+      "daf": "70a",
+      "sugyaId": "yoma-070a-s06",
+      "stepId": "yoma-070a-l16",
+      "stepIndex": 5,
+      "stepType": "reason",
+      "stepLabel": "Concern: Might neglect the rest of the mussaf after day's service",
+      "stepText": "If only one mussaf is done first, he might neglect the remaining mussafin after the day's service. The Gemara responds: he is energetic for the day's service and will follow through.",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-070a-l16",
+        "vilnaLine": 36
+      },
+      "candidateIds": [
+        "yoma-070a-l36"
+      ],
+      "priorReviewIdx": 35,
+      "priorReviewReason": "Step: 'concern HP might neglect remaining mussafin; Gemara responds he is energetic.' Searched full daf for 'neglect'/'energetic' - no match. Same as case 34: this daf's visible content never reaches this reasoning; no segment supports it.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "Same passage as the previous case (R. Akiva's staggered mussaf sequence). A tractate-wide search for 'neglect'/'energetic' finds no matching Gemara line; the reasoning again appears only in editorial synthesis prose (coreMove), not as citable source text.",
+      "proposedAction": "Remove the sourceRefs field from this step.",
+      "residualUncertainty": "Same as the previous case."
+    },
+    {
+      "daf": "70a",
+      "sugyaId": "yoma-070a-s06",
+      "stepId": "yoma-070a-l19",
+      "stepIndex": 8,
+      "stepType": "ruling",
+      "stepLabel": "Ruling: The ram mentioned in Torat Kohanim is distinct from Numbers",
+      "stepText": "The ram mentioned in Torat Kohanim (Lev. 16) is separate from the ram in Numbers - both are required.",
+      "defectClass": "OBJECT_DANGLING_AMBIGUOUS",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-070a-l19",
+        "vilnaLine": 41
+      },
+      "candidateIds": [
+        "yoma-070a-l41a",
+        "yoma-070a-l41b"
+      ],
+      "priorReviewIdx": 106,
+      "priorReviewReason": "Step: 'ram in Torat Kohanim distinct from Numbers, both required.' Candidates l41a (about the BULL, not ram) and l41b (about sin-offering portions, not ram) both address different unresolved dilemmas raised at this point in the sugya, neither the ram-distinctness question.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "Both same-vilna candidates (l41a: the bull-offering dilemma; l41b: sin-offering-portions dilemma) address different unresolved questions raised at this point in the sugya; neither is about the ram-in-Torat-Kohanim-vs-Numbers distinctness question this step states.",
+      "proposedAction": "Remove the sourceRefs field from this step.",
+      "residualUncertainty": "None material."
+    },
+    {
+      "daf": "70a",
+      "sugyaId": "yoma-070a-s06",
+      "stepId": "yoma-070a-l20",
+      "stepIndex": 9,
+      "stepType": "ruling",
+      "stepLabel": "Ruling: Two rams are each required individually",
+      "stepText": "Both rams are required: one as a freewill offering to be accepted willingly, one as an obligatory offering to fulfill the requirement properly.",
+      "defectClass": "OBJECT_DANGLING_AMBIGUOUS",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-070a-l20",
+        "vilnaLine": 41
+      },
+      "candidateIds": [
+        "yoma-070a-l41a",
+        "yoma-070a-l41b"
+      ],
+      "priorReviewIdx": 107,
+      "priorReviewReason": "Step: 'two rams required - one freewill, one obligatory.' Same candidates as case 106 (l41a/l41b), neither addresses the freewill-vs-obligatory ram distinction.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "Same candidate pair as the previous case (l41a/l41b); neither addresses this step's freewill-vs-obligatory ram distinction.",
+      "proposedAction": "Remove the sourceRefs field from this step.",
+      "residualUncertainty": "None material."
+    },
+    {
+      "daf": "70b",
+      "sugyaId": "yoma-070b-s02",
+      "stepId": "yoma-070b-l07",
+      "stepIndex": 2,
+      "stepType": "ruling",
+      "stepLabel": "Ruling: First immersion sanctification at the kiyor",
+      "stepText": "The first immersion sequence: the HP immersed, dried off, dressed in white linen, then sanctified hands and feet at the kiyor before beginning the morning tamid and day's service.",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-070b-l07",
+        "vilnaLine": 19
+      },
+      "candidateIds": [
+        "yoma-070b-l19"
+      ],
+      "priorReviewIdx": 38,
+      "priorReviewReason": "Step: 'first immersion sanctification at the kiyor.' Current/vilna-resolved/sibling candidates in this cluster (l09,l12,l16,l19) are all actually about the R. Yehuda/R. Elazar lamb-sacrifice-timing dispute, not the kiyor. The real kiyor-sanctification content on this daf (l32) is already the best match for a different case (40); no distinct segment specifically supports 'first immersion' as such.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "Current, vilna-resolved, and sibling candidates in this cluster (l09, l12, l16, l19) are all part of the Rabbi Yehuda/Rabbi Elazar lamb-sacrifice-timing dispute, not the kiyor-sanctification detail this step states. The real kiyor-sanctification content on this daf (l32) is already the exact target for a different, already-resolved case in the earlier semantic-repair pass; using it again here would be a weaker duplicate use, not a distinctive match for this step.",
+      "proposedAction": "Remove the sourceRefs field from this step.",
+      "residualUncertainty": "None material."
+    },
+    {
+      "daf": "70b",
+      "sugyaId": "yoma-070b-s02",
+      "stepId": "yoma-070b-l09",
+      "stepIndex": 4,
+      "stepType": "ruling",
+      "stepLabel": "Ruling: Golden vestments for outer service",
+      "stepText": "The HP wore golden vestments for the outer (non-Holy of Holies) services - for the morning and afternoon tamid, mussafin, and other external services.",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-070b-l09",
+        "vilnaLine": 24
+      },
+      "candidateIds": [
+        "yoma-070b-l24"
+      ],
+      "priorReviewIdx": 39,
+      "priorReviewReason": "Step: 'Golden vestments for outer service.' Searched full daf for 'golden garments'/'white garments' allocation statement - no segment specifically states this general summary point. Current and vilna-resolved candidates are both about the ram-count dispute, unrelated.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "A tractate-wide search for 'golden garments'/'white garments' allocation phrasing near this daf finds no segment stating this step's general summary point. Current and vilna-resolved candidates are both about the ram-count dispute, an unrelated topic.",
+      "proposedAction": "Remove the sourceRefs field from this step.",
+      "residualUncertainty": "None material."
+    },
+    {
+      "daf": "71a",
+      "sugyaId": "yoma-071a-s01",
+      "stepId": "yoma-071a-l07",
+      "stepIndex": 6,
+      "stepType": "ruling",
+      "stepLabel": "Ruling: Burning of bull and goat in white vestments confirmed",
+      "stepText": "The HP does not see the burning of the bull and goat - implying the burning occurs while he still wears white vestments, before his third immersion.",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-071a-l07",
+        "vilnaLine": 13
+      },
+      "candidateIds": [
+        "yoma-071a-l13"
+      ],
+      "priorReviewIdx": 43,
+      "priorReviewReason": "Step: 'burning of bull and goat in white vestments confirmed.' No segment states this specific conclusion in these terms. The strongest candidate (l20b) is a better, more specific match for a different step (case 45's parallel dispatcher/burner resolution) and assigning it here too would be a weaker duplicate use not distinctively supporting this step's content.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "No segment states this specific conclusion (burning occurs while the HP still wears white vestments, before his third immersion) in these terms. The strongest candidate found in the prior pass (l20b) is already the more specific, better-supported target for a different, already-resolved step in the earlier semantic-repair pass; reusing it here would be a weaker duplicate use.",
+      "proposedAction": "Remove the sourceRefs field from this step.",
+      "residualUncertainty": "None material."
+    },
+    {
+      "daf": "71a",
+      "sugyaId": "yoma-071a-s01",
+      "stepId": "yoma-071a-l11",
+      "stepIndex": 10,
+      "stepType": "dispute",
+      "stepLabel": "Counter-argument: 'The burner' refers to current act",
+      "stepText": "Counter-argument: 'the burner' refers to the current time - the command for burning the fats is written after the eimurim, so 'the burner' is about burning that happens now.",
+      "defectClass": "OBJECT_DANGLING_AMBIGUOUS",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-071a-l11",
+        "vilnaLine": 20
+      },
+      "candidateIds": [
+        "yoma-071a-l20a",
+        "yoma-071a-l20b"
+      ],
+      "priorReviewIdx": 109,
+      "priorReviewReason": "Step: counter-argument that 'the burner' refers to the current time (not a flashback). Neither candidate states this: l20a is a methodological objection about rearranging verses vs. the mishna; l20b argues the OPPOSITE view (burner IS a flashback). No segment supports this specific counter-argument.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "Neither same-vilna candidate states this step's specific counter-argument: l20a is a methodological objection about rearranging verses vs. the mishna; l20b argues the opposite substantive position (that 'the burner' IS a flashback reference), not this step's claim that it refers to the current time.",
+      "proposedAction": "Remove the sourceRefs field from this step.",
+      "residualUncertainty": "None material."
+    },
+    {
+      "daf": "71a",
+      "sugyaId": "yoma-071a-s02",
+      "stepId": "yoma-071a-l15",
+      "stepIndex": 1,
+      "stepType": "narrative",
+      "stepLabel": "Narrative: Shemaiah and Avtalyon came to bid farewell",
+      "stepText": "Shemaiah and Avtalyon came to take leave of the HP after Yom Kippur. The crowd followed them - showing the people's love for these scholars.",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-071a-l15",
+        "vilnaLine": 25
+      },
+      "candidateIds": [
+        "yoma-071a-l25"
+      ],
+      "priorReviewIdx": 46,
+      "priorReviewReason": "Step: 'Shemaiah and Avtalyon came to take leave of the HP.' Found the true narrative text on a DIFFERENT daf: yoma-071b-l06 ('Eventually, Shemaya and Avtalyon came to take leave of the High Priest before returning to their homes...'). No 71a segment supports this; cross-daf, out of scope.",
+      "classification": "QUALIFIED_CROSS_DAF",
+      "confidence": "high",
+      "evidence": "yoma-071b-l06 reads (in full): 'Eventually, Shemaya and Avtalyon came to take leave of the High Priest before returning to their homes...' - an exact, unique match to this step's narrative. No segment on 71a states this; the narrative's actual home is 71b.",
+      "proposedAction": "Design and apply a qualified cross-daf reference to yoma-071b-l06 (Step 3/Step 4 of this campaign). Note this target is shared with the next case (yoma-071a-l19), since one Gemara line covers both narrative beats.",
+      "residualUncertainty": "None material for identifying the target daf/line. The shared-target-across-two-steps pattern should be validated as legal under the cross-daf schema design in Step 3 (two local steps citing the same remote segment is not itself a defect - same-daf refs already do this routinely)."
+    },
+    {
+      "daf": "71a",
+      "sugyaId": "yoma-071a-s02",
+      "stepId": "yoma-071a-l19",
+      "stepIndex": 5,
+      "stepType": "narrative",
+      "stepLabel": "Narrative: The HP had shamed them - a Torah-forbidden act",
+      "stepText": "The HP committed ona'at devarim (verbal oppression) against Shemaiah and Avtalyon by mentioning their pagan ancestry - a Torah prohibition (Lev. 25).",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-071a-l19",
+        "vilnaLine": 33
+      },
+      "candidateIds": [
+        "yoma-071a-l33"
+      ],
+      "priorReviewIdx": 47,
+      "priorReviewReason": "Step: 'HP committed ona'at devarim by mentioning their pagan ancestry.' Confirmed via yoma-071b-l06's full text ('he angrily said to them: Let the descendants of the gentile nations come in peace... Shemaya and Avtalyon descended from converts, he scornfully drew attention to that fact') that this whole narrative sugya's true home is daf 71b, not 71a. Cross-daf, out of scope.",
+      "classification": "QUALIFIED_CROSS_DAF",
+      "confidence": "high",
+      "evidence": "yoma-071b-l06's continuation states the HP's scornful remark about Shemaya and Avtalyon's convert ancestry ('Let the descendants of the gentile nations come in peace... who does not perform the acts of Aaron') - an exact match to this step's ona'at devarim claim. Same target line as the previous case.",
+      "proposedAction": "Design and apply a qualified cross-daf reference to yoma-071b-l06, same target as yoma-071a-l15.",
+      "residualUncertainty": "None material."
+    },
+    {
+      "daf": "71b",
+      "sugyaId": "yoma-071b-s03",
+      "stepId": "yoma-071b-l11",
+      "stepIndex": 7,
+      "stepType": "ruling",
+      "stepLabel": "Ruling: Linen splits into multiple filaments when beaten",
+      "stepText": "When linen is beaten, each fiber splits into multiple filaments - this multiplying quality is part of what makes linen thread suitable for the six-ply requirement.",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-071b-l11",
+        "vilnaLine": 46
+      },
+      "candidateIds": [
+        "yoma-071b-l46"
+      ],
+      "priorReviewIdx": 49,
+      "priorReviewReason": "Step: 'linen splits into multiple filaments when beaten.' Searched full daf for 'beaten'/'filament'/'split'/'stalk' - closest hit (l26, 'sprouts from the ground stalk by stalk') is about linen's botanical source, not the beaten-splits-into-filaments detail. Current, vilna-resolved, and sibling candidates in this cluster are all about pomegranate/strand-count derivations.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "A tractate-wide search for 'beaten' finds only an unrelated hit (the incense ingredient description, 'sweet incense beaten small', Leviticus 16:12) - a homonymic false lead, not about linen. The closest same-daf candidate found in the prior pass (l26, 'sprouts from the ground stalk by stalk') is about linen's botanical source, not the beaten-into-multiple-filaments manufacturing detail this step states.",
+      "proposedAction": "Remove the sourceRefs field from this step.",
+      "residualUncertainty": "None material."
+    },
+    {
+      "daf": "72b",
+      "sugyaId": "yoma-072b-s03",
+      "stepId": "yoma-072b-l14",
+      "stepIndex": 6,
+      "stepType": "ruling",
+      "stepLabel": "Torah must be free",
+      "stepText": "Given through fire, water, wilderness - all are free",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-072b-l14",
+        "vilnaLine": 37
+      },
+      "candidateIds": [
+        "yoma-072b-l37"
+      ],
+      "priorReviewIdx": 55,
+      "priorReviewReason": "Step: 'Torah given through fire, water, wilderness - all free.' Searched full daf for 'wilderness'+'fire' and 'free'+'fire' combinations - no match. Current and vilna-resolved candidates (l37, about Torah as a potion of life/death) are a different aggadic point.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "A tractate-wide search for 'in the wilderness' combined with a free/ownerless-Torah theme finds only an unrelated hit (a smoke-raiser spice-inclusion requirement extending from the wilderness Tabernacle to Shiloh and the Temple, a different sugya entirely). Current and vilna-resolved candidates (l37, about Torah as a potion of life or death) are a different aggadic point from this step's fire/water/wilderness-freedom claim.",
+      "proposedAction": "Remove the sourceRefs field from this step.",
+      "residualUncertainty": "None material."
+    },
+    {
+      "daf": "75a",
+      "sugyaId": "yoma-075a-s03",
+      "stepId": "yoma-075a-l14",
+      "stepIndex": 11,
+      "stepType": "ruling",
+      "stepLabel": "Manna revealed what would be eaten tomorrow",
+      "stepText": "The manna tasted like tomorrow's food - a daily prophecy",
+      "defectClass": "OBJECT_COORDINATE_CONFLICT",
+      "flaggedRef": {
+        "sourceType": "gemara",
+        "lineId": "yoma-075a-l14",
+        "vilnaLine": 30
+      },
+      "candidateIds": [
+        "yoma-075a-l30"
+      ],
+      "priorReviewIdx": 76,
+      "priorReviewReason": "Step: 'manna tasted like tomorrow's food - a daily prophecy.' Vilna-resolved candidate (l30) and whole-daf top matches are all about a DIFFERENT point (manna's overnight LOCATION revealing legal truth in disputes, matching sibling step l15's already-claimed topic), not about manna's taste predicting tomorrow's food. No segment found stating the taste-based prophecy point.",
+      "classification": "ABSENT_OR_UNANCHORED",
+      "confidence": "high",
+      "evidence": "The vilna-resolved candidate (l30) and whole-daf top matches are all about a different point in the manna passage (its overnight LOCATION revealing legal truth in disputes, already the claimed topic of a sibling step, l15), not manna's taste predicting tomorrow's food.",
+      "proposedAction": "Remove the sourceRefs field from this step.",
+      "residualUncertainty": "None material."
+    }
+  ]
+}
