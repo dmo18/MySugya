@@ -5,6 +5,17 @@ document** - the mechanical and judgment-required repairs this contract
 enables are separate, later PRs (Phase 2, Steps 4). This is Phase 2B of
 `docs/platform-closure-plan.md`.
 
+**Update: a third shape was added later in the same campaign.** The union
+below was the original decision (same-daf object vs. legacy string). A
+narrower, individually-proven third shape - a cross-daf object, for the
+specific case where a step's true source lives on a different daf than
+its own - was added afterward; see
+`docs/reports/sourcerefs-crossdaf-schema-decision.md` for its full
+rationale, schema, and the two confirmed cases it applies to. The
+reasoning below (why string form is not inferior, why sourceType cannot
+be synthesized) is unaffected and still governs the same-daf/string
+choice; it does not need to be reread through the cross-daf lens.
+
 ## The decision: a discriminated union of exactly two legal shapes
 
 ```
