@@ -29,9 +29,25 @@ sourceRefs is a discriminated union of exactly two legal shapes:
                legal rather than being forced into a uniform representation
                it cannot honestly support.
 
+A third, narrower shape is legal for the specific, individually-proven
+cases documented in docs/reports/sourcerefs-crossdaf-schema-decision.md:
+
+  cross-daf object  {refType: "crossDaf", targetDaf, targetLineId,
+                     targetVilnaLine?, sourceType?, note?} - an explicit,
+               separately-discriminated object form for a step that
+               genuinely cites a segment living on a DIFFERENT daf than
+               its own. Never reuses the same-daf object's bare `lineId`/
+               `vilnaLine` keys, so a cross-daf ref can never be mistaken
+               for (or silently degrade into) a same-daf one. `sourceType`
+               is optional here, unlike the same-daf form, because a
+               cross-daf case may have proven exact segment identity
+               without independently proving source kind.
+
 No other shape is legal. See docs/reports/source-refs-normalization-plan.md
 for the full defect inventory and the four-PR migration plan for the
-defects this validator finds.
+defects this validator finds, and docs/reports/sourcerefs-crossdaf-schema-decision.md
+for why the cross-daf shape looks the way it does and is not simply
+"same-daf plus a daf field."
 
 WHAT THIS CHECKS
 
@@ -74,11 +90,19 @@ LEARN_DIR = ROOT / "assets" / "learning" / "yoma"
 
 STRING_REF_RE = re.compile(r"^Yoma\.(\d+[ab])\.(\d+)$")
 DAF_RE = re.compile(r"^(\d+)([ab])$")
+LINE_ID_DAF_RE = re.compile(r"^yoma-(\d{3})([ab])-l")
 VILNA_CEILING = 10 ** 6
 
 # The contract's controlled sourceType vocabulary. "unknown" is legal but
 # not currently used by any ref in the corpus - see the module docstring.
 LEGAL_SOURCE_TYPES = {"gemara", "mishnah", "unknown"}
+
+# The cross-daf object shape's discriminator value. Any object carrying
+# this exact refType is validated as a cross-daf ref (see
+# docs/reports/sourcerefs-crossdaf-schema-decision.md); any other refType
+# value is a distinct defect (OBJECT_REFTYPE_INVALID), not silently
+# treated as a same-daf ref.
+CROSSDAF_REF_TYPE = "crossDaf"
 
 
 def daf_pad(daf):
@@ -125,6 +149,29 @@ def derive_line_ids(sugyot):
     return out
 
 
+def line_id_daf(line_id):
+    """Extract the daf a line id's own embedded token names, e.g.
+    'yoma-070a-l16' -> '70a'. Returns None if the id doesn't match the
+    minted-id pattern at all."""
+    m = LINE_ID_DAF_RE.match(line_id or "")
+    if not m:
+        return None
+    return f"{int(m.group(1))}{m.group(2)}"
+
+
+def build_global_anchors(paths):
+    """Anchor table per daf, keyed by daf, for cross-daf target
+    resolution. Distinct from classify_daf's own per-daf anchors: a
+    cross-daf ref's target may live on a daf other than the one being
+    classified, so validating it requires every daf's anchor table, not
+    just the current one."""
+    global_anchors = {}
+    for path in paths:
+        daf, sugyot = load_daf(path)
+        global_anchors[daf] = build_anchor_table(derive_line_ids(sugyot))
+    return global_anchors
+
+
 def build_anchor_table(lines):
     """Attach each line id's half-open Vilna interval [start, end).
 
@@ -152,8 +199,16 @@ def load_daf(path):
     return daf, sugyot
 
 
-def classify_daf(daf, sugyot):
+def classify_daf(daf, sugyot, global_anchors=None):
     """Classify every sourceRefs element on one daf.
+
+    global_anchors is {daf: anchor_table} for every daf in the corpus,
+    from build_global_anchors(); a crossDaf ref's target may live on a
+    daf other than the one being classified, so validating it needs every
+    daf's anchors, not just this one. Defaults to a single-daf table
+    (this daf only) when not supplied, which is enough for tests that
+    exercise one daf in isolation and correctly reports any crossDaf ref
+    in that data as unresolvable, since no other daf's data was supplied.
 
     Returns (counts:Counter, findings:list). Each finding is a dict with a
     'class' key; see CLASSES below for the vocabulary.
@@ -165,15 +220,27 @@ def classify_daf(daf, sugyot):
         if a["sefariaRef"]:
             by_sefaria[a["sefariaRef"]].append(a)
 
+    if global_anchors is None:
+        global_anchors = {daf: anchors}
+    global_by_id = {}
+    global_daf_of_id = {}
+    for d, tbl in global_anchors.items():
+        for a in tbl:
+            global_by_id[a["id"]] = a
+            global_daf_of_id[a["id"]] = d
+
     def containing(vl):
         return [a for a in anchors if a["start"] <= vl < a["end"]]
+
+    def containing_on(tbl, vl):
+        return [a for a in tbl if a["start"] <= vl < a["end"]]
 
     counts = Counter()
     findings = []
 
     def add(cls, sugya, step, ref, **extra):
         counts[cls] += 1
-        if cls != "OK":
+        if cls not in ("OK", "OK_CROSSDAF"):
             findings.append({
                 "class": cls, "daf": daf, "sugyaId": sugya.get("id"),
                 "stepId": step.get("id"), "ref": ref, **extra,
@@ -203,6 +270,56 @@ def classify_daf(daf, sugyot):
 
                 if not isinstance(ref, dict):
                     add("REF_NOT_STRING_OR_OBJECT", sugya, step, repr(ref))
+                    continue
+
+                if "refType" in ref:
+                    if ref.get("refType") != CROSSDAF_REF_TYPE:
+                        add("OBJECT_REFTYPE_INVALID", sugya, step, ref,
+                            legalValues=[CROSSDAF_REF_TYPE])
+                        continue
+
+                    target_daf = ref.get("targetDaf")
+                    target_id = ref.get("targetLineId")
+                    if not target_daf or not target_id:
+                        add("CROSSDAF_MALFORMED", sugya, step, ref)
+                        continue
+                    if target_daf == daf:
+                        add("CROSSDAF_SAME_DAF_MISLABELED", sugya, step, ref)
+                        continue
+
+                    embedded_daf = line_id_daf(target_id)
+                    if embedded_daf is not None and embedded_daf != target_daf:
+                        add("CROSSDAF_TARGET_DAF_MISMATCH", sugya, step, ref,
+                            targetLineIdEmbeddedDaf=embedded_daf)
+                        continue
+
+                    target_anchor = global_by_id.get(target_id)
+                    if target_anchor is None:
+                        add("CROSSDAF_TARGET_NOT_FOUND", sugya, step, ref)
+                        continue
+                    actual_target_daf = global_daf_of_id[target_id]
+                    if actual_target_daf != target_daf:
+                        add("CROSSDAF_TARGET_DAF_MISMATCH", sugya, step, ref,
+                            targetLineIdActualDaf=actual_target_daf)
+                        continue
+
+                    target_vilna = ref.get("targetVilnaLine")
+                    if target_vilna is not None:
+                        target_tbl = global_anchors.get(target_daf, [])
+                        if not (target_anchor["start"] <= target_vilna < target_anchor["end"]):
+                            add("CROSSDAF_VILNA_MISMATCH", sugya, step, ref,
+                                targetLineIdInterval=[target_anchor["start"], target_anchor["end"]],
+                                targetVilnaLineResolvesTo=[
+                                    c["id"] for c in containing_on(target_tbl, target_vilna)])
+                            continue
+
+                    source_type = ref.get("sourceType")
+                    if source_type is not None and source_type not in LEGAL_SOURCE_TYPES:
+                        add("OBJECT_SOURCETYPE_INVALID", sugya, step, ref,
+                            legalValues=sorted(LEGAL_SOURCE_TYPES))
+                        continue
+
+                    add("OK_CROSSDAF", sugya, step, ref)
                     continue
 
                 line_id = ref.get("lineId")
@@ -240,16 +357,19 @@ def classify_daf(daf, sugyot):
     return counts, findings
 
 
-# Defect classes that must be empty for --strict to pass. OK and
-# STRING_RESOLVABLE are sound; STRING_RESOLVABLE is still listed as a
-# migration candidate rather than a defect.
+# Defect classes that must be empty for --strict to pass. OK,
+# STRING_RESOLVABLE and OK_CROSSDAF are sound; STRING_RESOLVABLE is still
+# listed as a migration candidate rather than a defect.
 DEFECT_CLASSES = [
     "STRING_MALFORMED", "STRING_CROSS_DAF", "STRING_AMBIGUOUS",
     "STRING_UNRESOLVABLE", "REF_NOT_STRING_OR_OBJECT",
     "OBJECT_DANGLING_NO_VILNA", "OBJECT_DANGLING_REPAIRABLE",
     "OBJECT_DANGLING_AMBIGUOUS", "OBJECT_DANGLING_NO_ANCHOR",
     "OBJECT_NO_VILNALINE", "OBJECT_COORDINATE_CONFLICT",
-    "OBJECT_SOURCETYPE_INVALID",
+    "OBJECT_SOURCETYPE_INVALID", "OBJECT_REFTYPE_INVALID",
+    "CROSSDAF_MALFORMED", "CROSSDAF_SAME_DAF_MISLABELED",
+    "CROSSDAF_TARGET_NOT_FOUND", "CROSSDAF_TARGET_DAF_MISMATCH",
+    "CROSSDAF_VILNA_MISMATCH",
 ]
 
 # Defects a migration can settle mechanically from repo data alone.
@@ -261,11 +381,12 @@ JUDGMENT_CLASSES = ["OBJECT_DANGLING_AMBIGUOUS", "OBJECT_COORDINATE_CONFLICT"]
 
 
 def run(paths):
+    global_anchors = build_global_anchors(paths)
     counts = Counter()
     findings = []
     for path in paths:
         daf, sugyot = load_daf(path)
-        c, f = classify_daf(daf, sugyot)
+        c, f = classify_daf(daf, sugyot, global_anchors)
         counts.update(c)
         findings.extend(f)
     return counts, findings
@@ -334,9 +455,10 @@ def main():
         print(f"sourceRefs referential integrity - {len(paths)} file(s), {total} refs\n")
         print(f"  line-id derivation: {'OK' if derivation_ok else 'FAILED'} - {derivation_msg}\n")
         for cls, n in sorted(counts.items(), key=lambda kv: (-kv[1], kv[0])):
-            mark = "     " if cls in ("OK", "STRING_RESOLVABLE") else "  X  "
+            mark = "     " if cls in ("OK", "STRING_RESOLVABLE", "OK_CROSSDAF") else "  X  "
             print(f"{mark}{cls}: {n}")
-        print(f"\n  sound                     : {counts['OK'] + counts['STRING_RESOLVABLE']}")
+        sound = counts['OK'] + counts['STRING_RESOLVABLE'] + counts['OK_CROSSDAF']
+        print(f"\n  sound                     : {sound}")
         print(f"  defects                   : {defects}")
         print(f"    mechanically repairable : {mechanical}")
         print(f"    needs human judgment    : {judgment}")
