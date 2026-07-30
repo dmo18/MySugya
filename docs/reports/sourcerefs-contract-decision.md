@@ -123,6 +123,49 @@ form remains legal only as this tractate's historical accommodation; there
 is no reason for a new tractate to introduce new string-form refs, and the
 onboarding checklist does not invite it to.
 
+## The 331 string refs: conversion decided, not required
+
+This question was tracked as an open operator decision (PR 4 in
+`docs/reports/source-refs-normalization-plan.md`). It is now closed:
+**the 331 sound string refs are not converted, and no future migration may
+convert them by guessing metadata.**
+
+- String form is not a legacy shape awaiting cleanup toward object form. It
+  is a first-class, permanent member of the canonical union, correct
+  whenever exact segment identity is known but no additional field
+  (`sourceType`, `note`) is independently evidenced.
+- Object form is not inherently better than string form. It is correct only
+  when every field it carries is independently supported; a structured
+  shape holding a guessed `sourceType` is worse data than a string holding
+  none, not better data in a nicer shape.
+- Validators accept both forms today (`STRING_RESOLVABLE` and `OK` are both
+  sound classes in `validate_source_refs.py`) and must continue to; renderer
+  and generated-data consumers must keep handling both forms deterministically.
+- No future PR may convert a string ref to object form by inferring
+  `sourceType` from the target line's `kind`, from numeric coincidence, or
+  from any other correlation. The only legitimate path from string to object
+  form is discovering independent, documented evidence for every object
+  field the conversion would add - at which point it is not a uniformity
+  migration, it is a normal repair to a specific ref.
+
+## `mishnah` vs `mishna`: not the same field, no unification
+
+Also raised as part of PR 4. Investigated corpus-wide; the two spellings
+belong to three distinct, independently-canonical vocabularies, not one
+inconsistent field:
+
+| field | spelling | occurrences | scope |
+|---|---|---|---|
+| `sourceRefs[].sourceType` (`LEGAL_SOURCE_TYPES`) | `mishnah` | 3 | this contract |
+| source line `kind` (`controlledValues.lineKind`, `shared/schema_map.js`) | `mishna` | thousands, every daf | frozen Yoma corpus |
+| `argumentFlow[].type` (free text, outside the canonical step-type vocabulary) | `mishna` | 1 (14a, `yoma-14a-s02`/`step-01`) | Phase 2A argumentFlow-vocabulary backlog |
+
+None of the three is a misspelling of another; each is its own field's sole
+value and already internally consistent. Unifying any pair would mean
+renaming a field that is not broken - for `kind`, it would mean editing
+frozen Yoma corpus data for zero functional gain. No normalization is
+warranted, and none is performed here.
+
 ## Stop conditions that did not trigger
 
 No `sourceType` was invented (the check that would catch this,

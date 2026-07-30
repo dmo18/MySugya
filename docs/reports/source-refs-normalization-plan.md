@@ -167,10 +167,25 @@ refs remain (PRs 1 and 2).
 | `OBJECT_COORDINATE_CONFLICT` | 24 | no, exact-blocker documented |
 | `OBJECT_DANGLING_AMBIGUOUS` | 9 | no, exact-blocker documented |
 
-**1,948 sound, 33 defective, across 46 daf.** Every one of the 33 has a
-recorded reason in `docs/reports/source-refs-semantic-review.json` that a
-safe repair was not possible - not a gap in the review, a documented stop.
-`npm run validate:sourcerefs:yoma` reproduces these exact counts.
+**1,948 sound, 33 defective, across 16 daf, 23 sugyot, 33 argumentFlow
+steps.** Every one of the 33 has a recorded reason in
+`docs/reports/source-refs-semantic-review.json` that a safe repair was not
+possible - not a gap in the review, a documented stop.
+`npm run validate:sourcerefs:yoma` reproduces the 1,948/33 split; the daf,
+sugya and step counts are computed from the same run's finding list, filtered
+to the genuine `DEFECT_CLASSES` (`OBJECT_COORDINATE_CONFLICT` +
+`OBJECT_DANGLING_AMBIGUOUS`), never the raw finding list.
+
+**Correction (this pass):** an earlier version of this line read "across 46
+daf." That number was a reporting bug, not a different true count: the CLI's
+"daf carrying defects" line was computed over the full `findings` list
+returned by `validate_source_refs.py`'s `run()`, which includes every
+non-`OK` classification - including the 331 sound `STRING_RESOLVABLE` refs,
+which are not defects. Those 331 sound-but-non-canonical refs are spread
+across far more daf than the 33 genuine defects, so counting daf over the
+unfiltered list produced 46 instead of the true 16. `validate_source_refs.py`
+now filters to `DEFECT_CLASSES` before computing the affected-daf set, so
+the CLI's own output and this document agree.
 
 ### `OBJECT_DANGLING_REPAIRABLE` (412 refs, 52 daf) - mechanical
 
@@ -286,17 +301,60 @@ rationale was about interpretive convenience, not a correctness dependency.
 Deliverable: zero `OBJECT_DANGLING_REPAIRABLE` - confirmed by the post-write
 corpus classification.
 
-**PR 4 - decide the string refs and close the gate** (`structural-repair` +
-`docs-tooling`, 30 daf). Two decisions, both operator-level:
+**PR 4 - decide the string refs.** **DECIDED, both sub-decisions, this pass.
+No data changed; no daf touched.** The two questions this section
+originally posed:
 
-1. Whether the 331 string refs are converted to object form at all. They are
-   referentially sound today; the only gain is uniformity, and the cost is
-   assigning 331 `sourceType` values by hand. Leaving them as a documented
-   accepted second form is a legitimate outcome.
-2. Whether `mishnah` and `mishna` are unified, and in which direction.
+1. **Whether the 331 string refs are converted to object form at all.**
+   **Decided: no conversion, not a deferred task.** They are referentially
+   sound today; converting them would require assigning 331 `sourceType`
+   values with no independent evidence for any of them, which is exactly
+   the kind of invented metadata the contract forbids. String form is not a
+   legacy shape awaiting cleanup - it is the correct, first-class
+   representation for "exact segment identity known, no further metadata
+   independently supported," alongside object form for "every additional
+   field independently evidenced." Both are canonical; neither is superior
+   to the other. See `docs/reports/sourcerefs-contract-decision.md` for the
+   full decision record. No future migration may enrich these strings by
+   guessing `sourceType` from the target line's `kind` or any other
+   correlation; the contract document already shows why that guess is wrong
+   15 times over (Mishnah-kind lines deliberately typed `gemara`).
+2. **Whether `mishnah` and `mishna` are unified, and in which direction.**
+   **Decided: no unification; the two spellings are not the same field.**
+   Investigation found three distinct, independent uses, each already
+   internally consistent:
+   - `sourceType` on object `sourceRefs` (`LEGAL_SOURCE_TYPES`): spelled
+     `"mishnah"`, 3 live occurrences. Established by
+     `docs/reports/sourcerefs-contract-decision.md`.
+   - `kind` on source lines (`controlledValues.lineKind` in
+     `shared/schema_map.js`): spelled `"mishna"`, thousands of occurrences
+     across every `*.learning.json` file and the generated
+     `learning_data.js`/`source_store.js`. This is frozen Yoma corpus data;
+     renaming it is out of scope without explicit approval and would gain
+     nothing, since the field is already 100% internally consistent.
+   - `argumentFlow[].type` (free-text, outside the canonical step-type
+     vocabulary): one step (14a, `yoma-14a-s02`/`step-01`) carries
+     `type: "mishna"`, picked up by the `ARGUMENT_TYPE_TO_CATEGORY` fallback
+     table in `app.jsx` (`mishna: "case"`). This is part of the pre-existing
+     "106 non-canonical `type` values" backlog tracked under Phase 2A/the
+     argumentFlow vocabulary work, unrelated to `sourceRefs` or `kind`; it is
+     not touched by this decision.
 
-Then wire `validate:sourcerefs:strict:yoma` into `validate:offline:yoma` and
-delete this backlog section.
+   These are three separate controlled vocabularies that happen to differ
+   in spelling by field, not one inconsistent spelling in need of
+   normalization. None meets the bar for a safe rename (demonstrably
+   synonymous within one field, no external contract depends on the old
+   spelling, mechanically lossless, tested for zero regression) because
+   each is already its own field's sole, self-consistent canonical value.
+   No normalization tooling is warranted.
+
+Both decisions close this backlog item. `validate:sourcerefs:strict:yoma`
+remains unwired from `validate:offline:yoma` until the 33 residual defects
+(Phase 2B, Steps 2-4 of the current campaign) are resolved or the corpus is
+otherwise fully reconciled - wiring it now would fail CI on those 33 for
+reasons unrelated to this decision. This backlog section is retained as the
+historical record of the four-PR plan rather than deleted, since PRs 1-3 are
+already-merged history this document still describes.
 
 ### Affected files
 
@@ -304,7 +362,7 @@ delete this backlog section.
 |---|---|---|---|
 | 1+2 (combined, applied) | 105 of 138 | 39 | 39 `*.learning.json`, `learning_data.js`, `coverage.json` |
 | 3 (applied) | 412 | 52 | 52 `*.learning.json` |
-| 4 | 331 | 30 | 30 `*.learning.json`, `package.json`, this file |
+| 4 (decided, no data change) | 0 of 331 | 0 | docs only: this file, `sourcerefs-contract-decision.md`, `open-items.md`, `platform-closure-plan.md` |
 
 Daf overlap across PRs is real (102 distinct daf carry defects), so PRs must
 merge sequentially, with `learning_data.js` regenerated once per PR.

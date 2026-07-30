@@ -340,7 +340,14 @@ def main():
         print(f"  defects                   : {defects}")
         print(f"    mechanically repairable : {mechanical}")
         print(f"    needs human judgment    : {judgment}")
-        affected = sorted({f["daf"] for f in findings})
+        # findings includes every non-OK class, and STRING_RESOLVABLE is sound
+        # (a legal, resolvable legacy form), not a defect - only count daf that
+        # carry a genuine DEFECT_CLASSES finding, matching the "defects" count
+        # printed above. Conflating the two previously reported the daf count
+        # for "any non-OK finding" (46, dominated by the 331 sound string
+        # refs) under a line labeled "defects" (33 refs, 16 daf).
+        defect_findings = [f for f in findings if f["class"] in DEFECT_CLASSES]
+        affected = sorted({f["daf"] for f in defect_findings})
         print(f"  daf carrying defects      : {len(affected)}")
         if args.cls and findings:
             print(f"\n  findings for {args.cls}:")
