@@ -82,7 +82,12 @@
      "sourceRefs": [
       {
        "sourceType": "gemara",
-       "lineId": "yoma-044b-l01",
+       "lineId": "yoma-044b-l01a",
+       "vilnaLine": 1
+      },
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-044b-l01b",
        "vilnaLine": 1
       }
      ]
