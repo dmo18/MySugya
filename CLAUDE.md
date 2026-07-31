@@ -47,29 +47,39 @@ MySugya/
   .github/workflows/
     deploy-pages.yml            Build, verify, test, and deploy dist to Pages
   scripts/
-    build.mjs                   Production esbuild pipeline
+    build.mjs                   Production esbuild pipeline (--module/--out/--search-root aware)
     build-entry.jsx             Build entry ordering
     check-deploy-html.mjs       Dist HTML safety check
     sync_version.py             Version sync from VERSION
+    module_resolver.py          Canonical module descriptor resolver (Python)
+    worker_pipeline.py          Bounded worker task pipeline (manifest/preflight/verify/etc.)
+    test_fixture_onboarding.py  Phase 3 Step 6 end-to-end fixture onboarding proof
+    fixture_onboarding_browser_check.mjs  Headless-browser half of the fixture onboarding proof
     build/react-shim.js         React injection for esbuild
   shared/
     schema_map.js               Canonical schema contract
+    module_resolver.js          Canonical module descriptor resolver (JS)
   githooks/
     pre-commit                  Version sync plus smoke tests
   tests/
     smoke/render_check.py               Production build smoke test
     unit/rashi-association.test.mjs     Rashi grouping + renderer selection unit tests
     unit/rashi-browser-shards.test.mjs  Shard slicing/merging/artifact validation unit tests
+    unit/module-resolver.test.mjs       Module resolver contract unit tests (JS)
     browser/yoma-smoke.spec.js          Playwright Yoma browser smoke test
     browser/runtime-guards.spec.js      Playwright runtime guard smoke test
-    browser/rashi-association.spec.js   Playwright linked-association rendering spec
+    browser/rashi-association.spec.js   Playwright linked-association rendering spec, module-aware
+    fixtures/modules/demotractate/      Phase 3 synthetic replication-proof fixture module (never real content)
   docs/
     reports/open-items.md       CURRENT STATUS: classified open/paused/deferred inventory
+    reports/phase3-inventory.md CURRENT STATUS: Phase 3 replication-readiness blocker inventory and acceptance matrix
+    reports/module-descriptor-contract.md  module.json schema and resolver contract
     vilna-breaks.md             Vilna edition reference
     tractate-build-process.md   Generalized, reusable build/review/audit procedure for any masechta
     yoma-completion-report.md   Concrete record of the Yoma build and review, phase by phase
     yoma-perek-review.md        Perek-by-perek semantic review findings for Yoma
     rashi-audit-backlog.md      Live tracking for the Rashi content-quality audit and the paused nekudot audit
+    new-tractate-onboarding.md  Safety-layer checklist for onboarding a real second tractate (blocked on Phase 3 closing)
   modules/
     yoma/                       Frozen Yoma module, see modules/yoma/MODULE.md
 ```

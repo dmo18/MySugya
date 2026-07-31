@@ -5,19 +5,24 @@ document.** `docs/platform-closure-plan.md` defines
 `docs/reports/platform-readiness.md` as Phase 4's terminal evidence
 document, and Phase 4 explicitly "requires Phases 1, 2, and 3 all
 complete" and "cannot start early." At the time this file was created,
-Phase 1 and Phase 2 are complete but **Phase 3 has not started** (by
-explicit governing instruction: this campaign was scoped to Phase 2
-only, and Phase 3 must not be started as part of it). This document
-therefore records the evidence for Phase 2's completion only, using the
-filename Phase 4 will later reuse and expand. When Phase 3 and Phase 4
-actually run, this file is expected to be superseded with the full
-four-phase terminal record; until then, treat every claim below as
-scoped strictly to Phase 2, not the whole platform.
+Phase 1 and Phase 2 were complete and **Phase 3 had not started** (by
+explicit governing instruction: that campaign was scoped to Phase 2
+only). This document therefore records the evidence for Phase 2's
+completion only, using the filename Phase 4 will later reuse and
+expand.
+
+**Update, Phase 3 Step 8 (VERSION 15.388): Phase 3 has since started and
+is in progress, currently BLOCKED with 6 of 38 acceptance-matrix rows
+still open** - full evidence in `docs/reports/phase3-inventory.md`.
+Phase 4 has still not started. This file's Phase 2 content below is
+unchanged and remains scoped strictly to Phase 2; it is superseded
+(not rewritten in place) once Phase 3 and Phase 4 both actually close.
 
 ## What this document is not
 
 - It is not a claim that Phase 3 (tractate-agnostic replication) is
-  complete. Phase 3 has not started.
+  complete. Phase 3 is in progress and currently BLOCKED - see the
+  update note above and `docs/reports/phase3-inventory.md`.
 - It is not a claim that Phase 4 (final repository closure) has run.
   Phase 4 has not started and cannot start until Phase 3 finishes.
 - It does not restate Phase 1 (production publishing and repository
@@ -103,12 +108,18 @@ recorded in the closure PR that introduces this file; see
   (`3c81ce1`, workflow run `30598090265`, conclusion `success`).
 - 0 open PRs, 0 open issues at the time of this snapshot.
 
-## Phase 3 and Phase 4: explicitly not started
+## Phase 3 and Phase 4: not started as of this Phase 2 snapshot
 
 No `modules/<masechta>/` other than `modules/yoma/` exists. No
-replication-tooling parameterization work (`docs/reports/replication-readiness.md`)
-has been performed as part of this campaign. Phase 4's dependency
-("Requires Phases 1, 2, and 3 all complete. Cannot start early.") is not
-met, and no work in this campaign attempted to meet it. This file will
-need a Phase 3 and Phase 4 pass before it can honestly claim to be the
-terminal closure document `docs/platform-closure-plan.md` describes.
+replication-tooling parameterization work
+(`docs/reports/replication-readiness.md`) had been performed as part of
+the Phase 2 campaign this file records. Phase 4's dependency ("Requires
+Phases 1, 2, and 3 all complete. Cannot start early.") was not met, and
+no work in that campaign attempted to meet it.
+
+**Since superseded**: Phase 3 is now in progress (see the update note at
+the top of this file and `docs/reports/phase3-inventory.md` for current,
+live status - currently BLOCKED, 32/38 acceptance rows pass). This file
+still needs a full Phase 3-and-Phase-4 pass before it can honestly claim
+to be the terminal closure document `docs/platform-closure-plan.md`
+describes; that has not happened yet.

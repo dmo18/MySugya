@@ -6,14 +6,23 @@ every checklist item is done. The build pipeline itself (source store,
 daftexts, Vilna breaks, enrichment) is documented in
 docs/tractate-build-process.md; this checklist covers the SAFETY layer.
 
-**Prerequisite this checklist assumes but does not yet guarantee**: items 3
-and 5 below assume the shared worker/validator tooling actually generalizes
-per module. As measured in `docs/reports/replication-readiness.md`, it does
-not yet - 7 shared tools at the repo root hardcode `modules/yoma`, and
-`worker_pipeline.py`'s `--module` flag is currently cosmetic. That
-parameterization work is Phase 3 of `docs/platform-closure-plan.md` and must
-be complete, proven against the synthetic fixture module described there,
-before this checklist can be followed as written for a real tractate.
+**Prerequisite this checklist assumes but does not yet fully guarantee**:
+items 3 and 5 below assume the shared worker/validator tooling actually
+generalizes per module. Phase 3 of `docs/platform-closure-plan.md` (see
+`docs/reports/phase3-inventory.md` for the live, evidence-backed status)
+has resolved all 9 originally-identified shared-tool blockers -
+`worker_pipeline.py`, the worker task-type registry, and all 5 Rashi
+renderer/shard tools are now genuinely module-aware, not cosmetic - and
+proven a synthetic fixture module resolves, builds, and renders
+correctly through that generic tooling in complete isolation from Yoma.
+Phase 3 is not yet fully closed: 6 acceptance-matrix items remain open
+(fixture scaffold-from-empty proof, generic fixture validation, fixture
+documentation generation, worker-scope proof against the literal fixture
+module, CI wiring for the onboarding proof, and literal-translation
+capability-driven behavior). This checklist must not be followed for a
+real tractate until Phase 3 closes completely - check
+`docs/reports/phase3-inventory.md`'s acceptance matrix for current
+status before starting.
 
 ## 1. Data source inventory
 

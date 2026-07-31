@@ -440,6 +440,47 @@ None on Phase 1 or Phase 3. Can run independently or in parallel.
 
 ## Phase 3: Tractate-agnostic replication
 
+### Status (as of Step 8 reconciliation, VERSION 15.388)
+
+**BLOCKED, not complete.** Full detail, evidence, and per-row disposition
+in `docs/reports/phase3-inventory.md`; summary here:
+
+- All 9 originally-identified pipeline blockers (Step 1's inventory) are
+  resolved: `worker_pipeline.py`, `scripts/worker_task_types.json`, and
+  all 5 Rashi renderer/shard tools are module-aware via
+  `scripts/module_resolver.py`/`shared/module_resolver.js`; the one
+  remaining item (`generate_argument_taxonomy.py`) turned out to be a
+  false positive on re-reading, not a real blocker.
+- A canonical module descriptor + resolver contract exists
+  (`docs/reports/module-descriptor-contract.md`), never falls back to
+  Yoma on an unknown/malformed module, and is capability-driven for
+  Rashi/literal-translation and source-acquisition strategy.
+- `scripts/build.mjs` is module-aware (`--module`, `--out`,
+  `--search-root`), with a publishable-flag safety guard, and GitHub
+  Pages selects Yoma explicitly by code (`deploy-pages.yml`).
+- A synthetic fixture module exists at
+  `tests/fixtures/modules/demotractate/` (3 daf, 4 sugyot, all required
+  argumentFlow/sourceRefs variety, `status: "synthetic"`,
+  `publishable: false`), lives outside `modules/` so production
+  discovery never finds it, and is proven end-to-end - via the real
+  generic tooling, never a fixture-only pipeline - to resolve, build in
+  isolation, and render correctly in a real browser
+  (`npm run test:fixture-onboarding`).
+- Yoma's non-regression is proven with full tree-digest rigor (every
+  generator re-run and diffed byte-for-byte against committed output,
+  not just an empty `git diff`); every corpus count re-verified.
+
+**6 of 38 acceptance-matrix rows remain open**, none requiring Yoma
+content changes, a real second tractate, or Phase 4 work: fixture
+scaffold-from-empty proof, fixture validation via a generic validator,
+fixture documentation generation, fixture worker-scope proof against
+the literal fixture module (currently proven only via a synthetic
+in-memory stand-in), a dedicated CI workflow for the onboarding proof,
+and literal-translation capability-driven behavior (not yet actionable -
+no generic tool touches literal content). Exact text and required
+follow-up for each is in `docs/reports/phase3-inventory.md`'s Step 8
+section.
+
 ### Problem
 
 `docs/reports/replication-readiness.md` measured this precisely: the app and
@@ -477,24 +518,41 @@ cosmetic - `YROOT` is pinned regardless of the flag's value.
 
 ### Required proof: a synthetic fixture module
 
-Not a real second tractate. A tiny fixture (e.g. `fixturemasechet`, 1-2
-synthetic daf) that proves, end to end:
+Not a real second tractate. A tiny fixture (built as `demotractate` at
+`tests/fixtures/modules/demotractate/`, 3 synthetic daf) that proves, end
+to end. Status per item as of Step 8 (full evidence in
+`docs/reports/phase3-inventory.md`'s acceptance matrix):
 
-- Onboarding from an empty module directory.
-- Manifest creation targets the fixture, never Yoma.
+- Onboarding from an empty module directory. **Open** (row 23) - the
+  existing fixture's resolve/build/render path is proven; a from-nothing
+  scaffold reproduction is not yet.
+- Manifest creation targets the fixture, never Yoma. **Done** (row 7) -
+  `worker_pipeline.py manifest --module demotractate` proven live.
 - No fixture operation reads or writes any Yoma file (assert this directly,
-  not just observationally).
+  not just observationally). **Done** (row 31) - full tree-digest proof,
+  not just an empty git diff.
 - Source ingestion works against the fixture's own (synthetic or
-  test-fixture) data.
-- Generated data stays isolated under the fixture's own paths.
-- Schema validation runs and passes against the fixture.
+  test-fixture) data. **Done** (row 24).
+- Generated data stays isolated under the fixture's own paths. **Done**
+  (row 25, row 27).
+- Schema validation runs and passes against the fixture. **Open** (row
+  26) - no generic, module-selectable validator has been run against it
+  yet.
 - Worker scope checks (`allowedFiles` resolution) work for the fixture's
-  module id.
-- Build succeeds with the fixture module present.
-- Browser tests pass against the fixture.
+  module id. **Partial** (row 30) - the mechanism is proven with a
+  synthetic in-memory fixture, not yet re-exercised against the literal
+  committed `demotractate` module by name.
+- Build succeeds with the fixture module present. **Done** (row 27) -
+  `build.mjs --module demotractate --search-root ... --out ...`.
+- Browser tests pass against the fixture. **Done** (row 28) - via a
+  dedicated proof script (`fixture_onboarding_browser_check.mjs`), not
+  the formal `tests/browser/*.spec.js` suite.
 - Documentation generation succeeds and describes the fixture correctly.
+  **Open** (row 29) - no fixture-specific docs-generation script exists.
 - The entire process is executable from documented commands, with no manual
   repo-internal knowledge required beyond what the commands themselves say.
+  **Done** for the parts proven above - `npm run test:fixture-onboarding`
+  runs the full resolver + build + render proof from one command.
 
 ### Explicitly out of scope
 
