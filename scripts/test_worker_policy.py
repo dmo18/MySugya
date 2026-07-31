@@ -26,6 +26,7 @@ Layers:
 Run: python3 scripts/test_worker_policy.py   (cwd repo root)
 Exit 0 on success, 1 on failure.
 """
+import os
 import re
 import json
 import subprocess
@@ -36,6 +37,16 @@ from pathlib import Path
 REPO = Path(__file__).parent.parent
 sys.path.insert(0, str(Path(__file__).parent))
 import worker_pipeline as wp
+
+# This whole file's fixtures are Yoma paths (32 of them; see the "second
+# module id" section below for the parallel non-Yoma coverage added in
+# Phase 3 Step 3A). Functions like gather_review_conditions and
+# capability_report_for read wp.ACTIVE_MODULE rather than re-resolving a
+# module themselves, since production always reaches them through
+# load_manifest()'s or an explicit set_active_module() call first; a
+# direct unit-test call needs the same setup. Resolving Yoma once here
+# matches that production path for every direct call below.
+wp.set_active_module(wp.resolve_active_module("yoma"))
 
 FAILURES = []
 CONDITIONAL_TYPES = ("rashi-realignment", "rashi-reconstruction")
@@ -93,14 +104,14 @@ def test_docs_tooling_scope_boundaries():
                  "docs/reports/open-items.md", "modules/yoma/MODULE.md",
                  "modules/yoma/scripts/validate_rashi_links.py",
                  "tests/unit/rashi-association.test.mjs"):
-        check(f"docs-tooling allows {path}", wp.file_allowed(path, spec, []))
+        check(f"docs-tooling allows {path}", wp.file_allowed(path, spec, [], "yoma"))
 
     for path in ("modules/yoma/assets/learning/yoma/2a.learning.json",
                  "modules/yoma/assets/talmuddev/2a.json",
                  "modules/yoma/assets/daftexts/2a.txt",
                  "modules/yoma/source_store.js",
                  "modules/yoma/learning_data.js"):
-        check(f"docs-tooling still refuses {path}", not wp.file_allowed(path, spec, []))
+        check(f"docs-tooling still refuses {path}", not wp.file_allowed(path, spec, [], "yoma"))
 
 
 
@@ -1380,6 +1391,117 @@ def test_lifecycle_consistency():
             probe.write_text(original)
 
 
+def _write_synthetic_module(root, key, extra=None):
+    """Write a minimal valid synthetic module.json under root/key, matching
+    the shape scripts/test_module_resolver.py's VALID_FIXTURE uses. Returns
+    the descriptor dict written."""
+    d = {
+        "key": key,
+        "displayNameEn": "Fixture " + key,
+        "displayNameHe": None,
+        "sefariaTractate": None,
+        "status": "synthetic",
+        "publishable": False,
+        "seder": None,
+        "dafRange": {"first": "2a", "last": "2a"},
+        "totalDaf": 1,
+        "paths": {
+            "root": f"modules/{key}",
+            "scriptsRoot": f"modules/{key}/scripts",
+            "sourceAssetsRoot": f"modules/{key}/assets",
+            "generatedAssetsRoot": f"modules/{key}/assets",
+            "sourceStore": f"modules/{key}/source_store.js",
+            "learningDataDir": f"modules/{key}/assets/learning/{key}",
+            "learningDataFile": f"modules/{key}/learning_data.js",
+            "coverageFile": f"modules/{key}/coverage.json",
+            "chapterMetadataLocation": None,
+        },
+        "schemaMapRef": "shared/schema_map.js",
+        "capabilities": {
+            "rashi": {"enabled": False},
+            "literalTranslation": {"enabled": False},
+        },
+        "browserTest": {"defaultTargetDaf": "2a"},
+        "docsOutput": {},
+        "buildRuntime": {"dataScript": f"modules/{key}/learning_data.js"},
+    }
+    if extra:
+        d.update(extra)
+    mdir = Path(root) / key
+    mdir.mkdir(parents=True, exist_ok=True)
+    (mdir / "module.json").write_text(json.dumps(d), encoding="utf-8")
+    return d
+
+
+def test_module_awareness():
+    """Phase 3 Step 3A: worker_pipeline.py must actually use a requested
+    module, not silently resolve Yoma regardless of what was asked for.
+    Uses a synthetic, temp-directory fixture module (never the real
+    modules/ tree, never a real second tractate) via
+    MYSUGYA_MODULE_SEARCH_ROOT - the same override mechanism
+    module_resolver.resolve_module's own search_root parameter provides,
+    threaded through worker_pipeline.resolve_active_module for exactly
+    this purpose."""
+    print("module awareness (Phase 3 Step 3A):")
+
+    r = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
+                        "--type", "docs-tooling", "--module", "does-not-exist-anywhere"],
+                       capture_output=True, text=True, cwd=REPO)
+    check("unknown module fails the manifest command (nonzero exit)",
+          r.returncode != 0, f"exit={r.returncode}")
+    check("unknown module error names the failure, not a silent Yoma manifest",
+          "cannot resolve module" in (r.stdout + r.stderr) and
+          '"module": "does-not-exist-anywhere"' not in r.stdout)
+
+    with tempfile.TemporaryDirectory() as td:
+        _write_synthetic_module(td, "fixturemasechet")
+        env = dict(os.environ, MYSUGYA_MODULE_SEARCH_ROOT=td)
+
+        r = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
+                            "--type", "docs-tooling", "--module", "fixturemasechet"],
+                           capture_output=True, text=True, cwd=REPO, env=env)
+        check("a real synthetic module resolves cleanly via the search-root override",
+              r.returncode == 0, r.stderr[-500:])
+        if r.returncode == 0:
+            fm = json.loads(r.stdout)
+            check("the generated manifest carries the requested module, not yoma",
+                  fm.get("module") == "fixturemasechet")
+
+        r2 = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
+                            "--type", "docs-tooling", "--module", "yoma"],
+                           capture_output=True, text=True, cwd=REPO, env=env)
+        check("the override REPLACES the search root rather than adding to it: "
+              "yoma is not resolvable while the override points only at the "
+              "temp fixture root, proving no hidden fallback to the real "
+              "modules/ tree exists once an explicit override is in effect",
+              r2.returncode != 0, f"exit={r2.returncode}")
+
+    r3 = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
+                        "--type", "docs-tooling", "--module", "yoma"],
+                       capture_output=True, text=True, cwd=REPO)
+    check("with the override unset (normal invocation), yoma resolves exactly "
+          "as before this whole test ran", r3.returncode == 0, r3.stderr[-500:])
+
+    # structural-repair's allowedFiles are <module>-templated content paths
+    # (unlike docs-tooling's modules/*/module.json, which is a deliberate
+    # any-module wildcard for pipeline-config PRs, not a <module> template) -
+    # the right type to prove <module> substitution actually discriminates.
+    spec = wp.load_registry()["structural-repair"]
+    check("file_allowed for a Yoma learning_data.js against the fixture's own "
+          "module is refused (mismatched module+path is rejected)",
+          not wp.file_allowed("modules/yoma/learning_data.js", spec, [], "fixturemasechet"))
+    check("file_allowed for a fixture learning_data.js against yoma's own "
+          "module is refused (rejected in the other direction too)",
+          not wp.file_allowed("modules/fixturemasechet/learning_data.js", spec, [], "yoma"))
+    check("file_allowed for a Yoma learning_data.js against yoma's own module "
+          "still works (sanity - <module> templating did not break the real case)",
+          wp.file_allowed("modules/yoma/learning_data.js", spec, [], "yoma"))
+    check("file_allowed for a fixture learning_data.js against the fixture's "
+          "own module resolves correctly (a fixture-targeted manifest can "
+          "write its own fixture paths)",
+          wp.file_allowed("modules/fixturemasechet/learning_data.js", spec, [], "fixturemasechet"))
+
+
 def main():
     test_registry()
     test_sonnet_only_policy()
@@ -1399,6 +1521,7 @@ def main():
     test_no_direct_main_push_anywhere()
     test_docs_tooling_scope_boundaries()
     test_boundary_authorized_empty_links()
+    test_module_awareness()
     if FAILURES:
         print(f"\nFAILED: {len(FAILURES)} check(s): {FAILURES}")
         sys.exit(1)
