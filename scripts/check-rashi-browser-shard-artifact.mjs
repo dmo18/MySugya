@@ -30,9 +30,11 @@ import { spawnSync } from 'node:child_process';
 import { existsSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createRequire } from 'node:module';
 
 const __dirname = resolve(fileURLToPath(import.meta.url), '..');
 const ROOT = resolve(__dirname, '..');
+const require = createRequire(import.meta.url);
 
 export const DEFAULT_ARTIFACT_PATH = resolve(ROOT, 'modules/yoma/scripts/allowlists/rashi_browser_shard_result.json');
 
@@ -80,7 +82,24 @@ export function validateArtifact(artifact, fullDafList, currentCommitSha) {
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
-  const path = process.argv[2] ?? process.env.RASHI_BROWSER_SHARD_RESULT_PATH ?? DEFAULT_ARTIFACT_PATH;
+  const moduleArg = process.argv.indexOf('--module');
+  const moduleKey = moduleArg !== -1 ? process.argv[moduleArg + 1] : 'yoma';
+  const { resolveRashiModule } = require('../shared/module_resolver.js');
+  let descriptor;
+  try {
+    descriptor = resolveRashiModule(moduleKey, ROOT);
+  } catch (e) {
+    console.error(`FAILED: ${e.code}: ${e.message}`);
+    process.exit(1);
+  }
+
+  const positional = process.argv.slice(2).filter((a, i, arr) =>
+    a !== '--module' && arr[i - 1] !== '--module');
+  const path = positional[0]
+    ?? process.env.RASHI_BROWSER_SHARD_RESULT_PATH
+    ?? (moduleKey === 'yoma'
+      ? DEFAULT_ARTIFACT_PATH
+      : resolve(ROOT, descriptor.paths.scriptsRoot, 'allowlists', 'rashi_browser_shard_result.json'));
 
   let artifact = null;
   if (existsSync(path)) {
@@ -92,7 +111,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     }
   }
 
-  const auditScript = resolve(ROOT, 'modules/yoma/scripts/audit_rashi_association.py');
+  const auditScript = resolve(ROOT, descriptor.paths.scriptsRoot, 'audit_rashi_association.py');
   const listResult = spawnSync('python3', [auditScript, '--list-daf'], { cwd: ROOT, encoding: 'utf8' });
   if (listResult.status !== 0) {
     console.error('FAILED: could not determine the authoritative daf list:', listResult.stderr);

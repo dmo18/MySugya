@@ -29,12 +29,14 @@ import { mkdtempSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createRequire } from 'node:module';
 
 const __dirname = resolve(fileURLToPath(import.meta.url), '..');
 const ROOT = resolve(__dirname, '..');
+const require = createRequire(import.meta.url);
 
 function parseArgs(argv) {
-  const opts = { mode: 'target', target: '2a', from: null, to: null };
+  const opts = { mode: 'target', target: '2a', from: null, to: null, module: 'yoma' };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--target' && argv[i + 1]) {
       opts.mode = 'target';
@@ -47,6 +49,8 @@ function parseArgs(argv) {
       opts.mode = 'corpus';
     } else if (argv[i] === '--exhaustive-corpus') {
       opts.mode = 'exhaustive-corpus';
+    } else if (argv[i] === '--module' && argv[i + 1]) {
+      opts.module = argv[++i];
     }
   }
   return opts;
@@ -62,7 +66,15 @@ function auditArgsFor(opts) {
 }
 
 const opts = parseArgs(process.argv.slice(2));
-const auditScript = resolve(ROOT, 'modules/yoma/scripts/audit_rashi_association.py');
+const { resolveRashiModule } = require('../shared/module_resolver.js');
+let descriptor;
+try {
+  descriptor = resolveRashiModule(opts.module, ROOT);
+} catch (e) {
+  console.error(`[rashi-association] FAILED: ${e.code}: ${e.message}`);
+  process.exit(1);
+}
+const auditScript = resolve(ROOT, descriptor.paths.scriptsRoot, 'audit_rashi_association.py');
 
 console.log(`[rashi-association] mode=${opts.mode} scope=${JSON.stringify(opts)}`);
 console.log('[rashi-association] running data auditor...');
@@ -112,6 +124,11 @@ const planPath = join(scratchDir, 'plan.json');
 writeFileSync(planPath, JSON.stringify(plan), 'utf8');
 console.log(`[rashi-association] plan written to ${planPath} (${plan.daf_list.length} daf, ${plan.findings.length} entries)`);
 
+// The browser spec itself (tests/browser/rashi-association.spec.js) and its
+// YOMA_ASSOC_PLAN_PATH env var are not module-parameterized here - that is
+// Phase 3 Step 4's job ("browser testing is module-aware"). This script's
+// own module resolution (above) is real for any module with Rashi enabled;
+// only the final browser-assertion stage stays Yoma-specific for now.
 console.log('[rashi-association] running browser spec...');
 const playwrightResult = spawnSync(
   'npx',

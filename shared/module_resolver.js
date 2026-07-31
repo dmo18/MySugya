@@ -244,8 +244,30 @@
       .sort();
   }
 
+  /**
+   * resolveRashiModule(key, repoRoot, searchRoot?) -> descriptor
+   *
+   * resolveModule() plus one extra check: the resolved module must have
+   * capabilities.rashi.enabled === true. Used by the Rashi renderer-
+   * readiness / browser-shard tools (Phase 3 Step 3D), which are
+   * meaningless for a module with no Rashi layer - failing clearly here
+   * ("this module has no Rashi layer") is capability-driven behavior,
+   * distinct from a resolver error: the module resolves fine, it simply
+   * does not have the feature this tool requires.
+   */
+  function resolveRashiModule(key, repoRoot, searchRoot) {
+    var d = resolveModule(key, repoRoot, searchRoot);
+    if (!d.capabilities.rashi.enabled) {
+      throw ModuleResolutionError("CAPABILITY_DISABLED",
+        "module " + JSON.stringify(key) + " has capabilities.rashi.enabled=false " +
+        "- this module has no Rashi layer, so this tool has nothing to check");
+    }
+    return d;
+  }
+
   return {
     resolveModule: resolveModule,
+    resolveRashiModule: resolveRashiModule,
     listModules: listModules,
     validateDescriptor: validateDescriptor,
     ModuleResolutionError: ModuleResolutionError,

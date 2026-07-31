@@ -26,9 +26,11 @@ import { spawnSync } from 'node:child_process';
 import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createRequire } from 'node:module';
 
 const __dirname = resolve(fileURLToPath(import.meta.url), '..');
 const ROOT = resolve(__dirname, '..');
+const require = createRequire(import.meta.url);
 
 /** Pure merge: shards is an array of {shardIndex, shardCount, dafCovered,
  * entries, passed, failed}; fullDafList is the authoritative ordered daf
@@ -83,7 +85,7 @@ export function mergeShards(shards, fullDafList) {
 }
 
 function parseArgs(argv) {
-  const opts = { files: [], out: null, ci: false, commitSha: null, runId: null, runUrl: null };
+  const opts = { files: [], out: null, ci: false, commitSha: null, runId: null, runUrl: null, module: 'yoma' };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--out') opts.out = argv[++i];
@@ -91,10 +93,11 @@ function parseArgs(argv) {
     else if (a === '--commit-sha') opts.commitSha = argv[++i];
     else if (a === '--run-id') opts.runId = argv[++i];
     else if (a === '--run-url') opts.runUrl = argv[++i];
+    else if (a === '--module') opts.module = argv[++i];
     else opts.files.push(a);
   }
   if (!opts.out || opts.files.length === 0) {
-    console.error('Usage: combine-rashi-browser-shards.mjs <shard files...> --out FILE [--ci --commit-sha SHA --run-id ID --run-url URL]');
+    console.error('Usage: combine-rashi-browser-shards.mjs <shard files...> --out FILE [--module ID] [--ci --commit-sha SHA --run-id ID --run-url URL]');
     process.exit(2);
   }
   return opts;
@@ -104,7 +107,16 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const opts = parseArgs(process.argv.slice(2));
   const shards = opts.files.map(f => JSON.parse(readFileSync(f, 'utf8')));
 
-  const auditScript = resolve(ROOT, 'modules/yoma/scripts/audit_rashi_association.py');
+  const { resolveRashiModule } = require('../shared/module_resolver.js');
+  let descriptor;
+  try {
+    descriptor = resolveRashiModule(opts.module, ROOT);
+  } catch (e) {
+    console.error(`[combine-shards] FAILED: ${e.code}: ${e.message}`);
+    process.exit(1);
+  }
+
+  const auditScript = resolve(ROOT, descriptor.paths.scriptsRoot, 'audit_rashi_association.py');
   const listResult = spawnSync('python3', [auditScript, '--list-daf'], { cwd: ROOT, encoding: 'utf8' });
   if (listResult.status !== 0) {
     console.error('[combine-shards] failed to list authoritative daf order:', listResult.stderr);

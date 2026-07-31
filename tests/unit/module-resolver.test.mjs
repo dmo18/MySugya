@@ -16,7 +16,7 @@ import os from "node:os";
 import { fileURLToPath } from "node:url";
 
 const require = createRequire(import.meta.url);
-const { resolveModule, listModules, ModuleResolutionError } =
+const { resolveModule, resolveRashiModule, listModules, ModuleResolutionError } =
   require("../../shared/module_resolver.js");
 
 const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
@@ -290,5 +290,29 @@ describe("resolveModule: no implicit Yoma fallback", () => {
   it("requesting 'yoma' against a root with no yoma descriptor fails cleanly", () => {
     const root = mkTempRoot();
     assertThrowsCode(() => resolveModule("yoma", REPO_ROOT, root), "UNKNOWN_MODULE");
+  });
+});
+
+describe("resolveRashiModule: capability-driven Rashi behavior (Phase 3 Step 3D)", () => {
+  it("resolves normally for the real Yoma module (capabilities.rashi.enabled=true)", () => {
+    const d = resolveRashiModule("yoma", REPO_ROOT);
+    assert.equal(d.key, "yoma");
+    assert.equal(d.capabilities.rashi.enabled, true);
+  });
+
+  it("fails with CAPABILITY_DISABLED for a module with Rashi disabled, not a crash "
+    + "or a silent empty pass", () => {
+    const root = mkTempRoot();
+    const bad = fixtureFor("norashimod");
+    // fixtureFor's base already has rashi disabled; this is explicit for clarity.
+    bad.capabilities.rashi = { enabled: false };
+    writeDescriptor(root, "norashimod", bad);
+    assertThrowsCode(() => resolveRashiModule("norashimod", REPO_ROOT, root), "CAPABILITY_DISABLED");
+  });
+
+  it("still fails with UNKNOWN_MODULE for an unknown module, not CAPABILITY_DISABLED "
+    + "(the module doesn't resolve at all, so there is no capability to check)", () => {
+    const root = mkTempRoot();
+    assertThrowsCode(() => resolveRashiModule("doesnotexist", REPO_ROOT, root), "UNKNOWN_MODULE");
   });
 });
