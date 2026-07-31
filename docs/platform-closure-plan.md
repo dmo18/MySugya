@@ -234,27 +234,43 @@ until corrected.
 
 ## Phase 2: Semantic schema contract
 
-**Status: contracts defined and implemented; sourceRefs (2B) BLOCKED on 33
-residual refs.** argumentFlow (2A) is fully complete - see
+**Status: contracts defined and implemented; sourceRefs (2B) BLOCKED on 2
+residual refs (down from 33).** argumentFlow (2A) is fully complete - see
 `docs/reports/argumentflow-category-decision.md` - because the chosen
 design (category derived from a registry, never stored per step) meant
 100% category coverage was reached the moment the registry was written,
 with zero content edits. sourceRefs (2B) has its canonical contract defined
 and validated (`docs/reports/sourcerefs-contract-decision.md`); of the
 original 550 defective refs, 412 mechanical repairs and 105
-judgment-required repairs are now applied (517 of 550, 94%), leaving **33
-refs genuinely unresolved, across 16 daf, 23 sugyot, 33 argumentFlow
-steps** with individually documented blocking evidence (no repair was
-forced). Neither the 33 residual refs nor the fact of their being
-unresolved is hidden: both are itemized in
-`docs/reports/source-refs-normalization-plan.md` and
-`docs/reports/source-refs-semantic-review.json`. The **331 sound string
-refs are a closed, not an open, question**: they are not converted to
-object form, permanently, because string form is a first-class canonical
-shape and conversion would require inventing `sourceType`
-(`docs/reports/sourcerefs-contract-decision.md`). Phase 2 cannot be
-declared COMPLETE while the 33 residual refs are outstanding; see "Phase 2
-completion criterion" below.
+judgment-required repairs were applied first (517 of 550), leaving 33
+refs that a subsequent campaign classified individually
+(`docs/reports/sourcerefs-blocker-classifications.json`) into five
+blocker classes and resolved all but two: 2 `QUALIFIED_CROSS_DAF` refs
+migrated to an explicit cross-daf shape
+(`docs/reports/sourcerefs-crossdaf-schema-decision.md`,
+`apply_sourcerefs_crossdaf_migration.py`), 29 `ABSENT_OR_UNANCHORED` refs
+removed rather than left as false coordinates
+(`apply_sourcerefs_absent_removal.py`). **2 `TIED_CANDIDATES` refs remain:
+`yoma-044b-l01` (a compound step whose two clauses split across two
+same-vilna segments, neither uniquely supporting the whole step) and
+`yoma-063a-l03a` (two segments, `yoma-063a-l10` and `yoma-063a-l17`, both
+literal "Rabbi Yirmeya said Rabbi Yochanan said" transmission-chain
+statements, equally supporting the step's text with no textual basis to
+prefer one).** Both are genuinely undecidable from repository evidence
+alone (full argumentFlow context and full source text were read for
+both; see `docs/reports/sourcerefs-blocker-table.md`); resolving either
+would require either a domain expert with broader Talmudic-literature
+access than this repository holds, or a deliberate authorial decision to
+split/rewrite the affected argumentFlow step, neither of which is
+repository evidence. No tie was forced, and neither residue is hidden:
+both are itemized in `docs/reports/sourcerefs-blocker-classifications.json`
+and `docs/reports/source-refs-normalization-plan.md`. The **331 sound
+string refs are a closed, not an open, question**: they are not converted
+to object form, permanently, because string form is a first-class
+canonical shape and conversion would require inventing `sourceType`
+(`docs/reports/sourcerefs-contract-decision.md`). **Phase 2 remains
+BLOCKED, not COMPLETE, on these 2 refs; see "Phase 2 completion
+criterion" below.**
 
 ### A. argumentFlow vocabulary
 
@@ -347,28 +363,46 @@ Phase 2B contract:**
 All 492 sugyot are structurally and semantically valid under both stable,
 documented contracts (the two-level `argumentFlow` schema and the
 canonical-form `sourceRefs` schema), with an offline validator for each
-wired into `validate:offline:yoma`.
+wired into `validate:offline:yoma`. Per this campaign's own governing
+directive, Phase 2 may be marked COMPLETE only when every ref and every
+intentionally-unanchored step is valid under the documented contract with
+zero exceptions; if any tied or absent-content case remains without
+adequate evidence to resolve it, Phase 2 is marked **BLOCKED**, not
+complete, and the residue is reported exactly - it is never characterized
+as "accepted" as a substitute for resolving it, however small.
 
-**Status against this criterion: NOT MET. Phase 2 is BLOCKED, not
-complete.** argumentFlow (2A) meets it in full. sourceRefs (2B) does not:
-`validate_source_refs.py` reports 33 defective refs (24
-`OBJECT_COORDINATE_CONFLICT` + 9 `OBJECT_DANGLING_AMBIGUOUS`, across 16
-daf, 23 sugyot, 33 argumentFlow steps; see
-`docs/reports/source-refs-semantic-review.json` for the exact case and
-blocker) and 331 `STRING_RESOLVABLE` refs in the legacy string form. The
-331 string refs are **not** part of what blocks Phase 2 completion: their
-disposition is decided (permanently string form, not converted;
-`docs/reports/sourcerefs-contract-decision.md`), so they are sound and
-closed, not a pending question. `validate:sourcerefs:strict:yoma` (not
-wired into `validate:offline:yoma` by design, see
+**Status against this criterion: NOT MET. Phase 2 remains BLOCKED, not
+complete - down from 33 residual refs to 2.** argumentFlow (2A) meets it
+in full. sourceRefs (2B) does not: `validate_source_refs.py` reports 2
+defective refs (1 `OBJECT_COORDINATE_CONFLICT` + 1
+`OBJECT_DANGLING_AMBIGUOUS`, across 2 daf, 2 sugyot, 2 argumentFlow steps
+- `yoma-044b-l01` and `yoma-063a-l03a`; see
+`docs/reports/sourcerefs-blocker-classifications.json` and
+`docs/reports/sourcerefs-blocker-table.md` for the exact case, full
+evidence, and why each is a genuine tie) and 331 `STRING_RESOLVABLE` refs
+in the legacy string form. The 331 string refs are **not** part of what
+blocks Phase 2 completion: their disposition is decided (permanently
+string form, not converted; `docs/reports/sourcerefs-contract-decision.md`),
+so they are sound and closed, not a pending question. Of the original 33
+residual refs, 31 are now resolved: 2 `QUALIFIED_CROSS_DAF` migrated to
+the cross-daf shape, 29 `ABSENT_OR_UNANCHORED` removed rather than left as
+false coordinates. `validate:sourcerefs:strict:yoma` (not wired into
+`validate:offline:yoma` by design, see
 `docs/reports/source-refs-normalization-plan.md`) would still fail today
-because of the 33 defects, not the 331 strings. Neither is hidden by an
-allowlist or a weakened gate. Closing Phase 2 requires resolving the 33
-residual refs case-by-case: a proven qualified cross-daf reference, a
-proven local repair, a documented removal where a step is legitimately
-unanchored, or - only where genuinely undecidable from repository evidence
-- accepting a tie or absence as permanent documented residue. See the
-current campaign's Steps 2-4 for the classification and repair process.
+because of these 2 defects, not the 331 strings. Neither is hidden by an
+allowlist or a weakened gate.
+
+**What would close Phase 2:** an exact, unique textual basis to prefer one
+candidate over the other for each of the 2 remaining `TIED_CANDIDATES`
+refs - for `yoma-063a-l03a`, evidence distinguishing which of
+`yoma-063a-l10` or `yoma-063a-l17` (both "Rabbi Yirmeya said Rabbi
+Yochanan said" transmission statements) the step actually means; for
+`yoma-044b-l01`, either a textual basis to anchor the whole compound step
+to one of its two candidate segments, or an authorial decision to split
+the step into two, each anchored to its own segment (a step-authoring
+change, out of scope for a sourceRefs-only pass). Neither exists in
+repository data today. This is not called accepted residue; it is
+reported as the exact remaining blocker.
 
 ### Dependencies
 
@@ -519,7 +553,7 @@ Requires Phases 1, 2, and 3 all complete. Cannot start early.
 | Branch protection / rulesets on `main` | Operator (via this session, with API access) |
 | `type` -> `category` vocabulary mapping decisions (Phase 2A) that are genuinely ambiguous | Operator |
 | Whether to convert the 331 sound sourceRefs strings at all (Phase 2B) | **Decided: no.** See `docs/reports/sourcerefs-contract-decision.md`. |
-| Disposition of the 33 residual unresolved sourceRefs (Phase 2B) | Operator - in progress; see the current campaign's per-case classification (QUALIFIED_CROSS_DAF / ABSENT_OR_UNANCHORED / TIED_CANDIDATES / REPAIRABLE_LOCAL / METADATA_ONLY) and bounded repair PRs |
+| Disposition of the 33 residual unresolved sourceRefs (Phase 2B) | 31 of 33 resolved (2 `QUALIFIED_CROSS_DAF` migrated, 29 `ABSENT_OR_UNANCHORED` removed). **2 `TIED_CANDIDATES` remain genuinely undecidable from repository evidence** (`yoma-044b-l01`, `yoma-063a-l03a`); Phase 2 stays BLOCKED on these 2, not accepted as closed residue - see "Phase 2 completion criterion" above for the exact evidence gap. |
 | Selecting and starting an actual second tractate | Operator, and only after Phase 3 closes |
 | Cloudways / mysugya.com configuration | Operator, out of scope for this entire plan |
 | Executing the mechanical majority of Phases 1-4 | This session, autonomously, per the constraints below |
