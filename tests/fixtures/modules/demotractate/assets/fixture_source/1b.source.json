@@ -1,0 +1,19 @@
+{
+  "daf": "1b",
+  "lines": [
+    {
+      "id": "demo-001b-l01",
+      "kind": "gemara",
+      "vilna_line": 1,
+      "he": "[FIXTURE-HE-PLACEHOLDER] Synthetic source line 1 for daf 1b.",
+      "en": "[FIXTURE-EN-PLACEHOLDER] The Board resolves: a prototype intended for eventual sale still requires certification, even before that sale occurs."
+    },
+    {
+      "id": "demo-001b-l02",
+      "kind": "gemara",
+      "vilna_line": 2,
+      "he": "[FIXTURE-HE-PLACEHOLDER] Synthetic source line 2 for daf 1b.",
+      "en": "[FIXTURE-EN-PLACEHOLDER] Takeaway: the certification duty attaches at the point of intended sale, not the point of actual sale - the same principle the opening ruling on 1a established for ordinary widgets."
+    }
+  ]
+}

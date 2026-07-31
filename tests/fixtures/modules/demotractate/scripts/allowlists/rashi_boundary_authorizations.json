@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "description": "Synthetic fixture module (Phase 3 Step 5) - boundary-authorization registry, always empty since the fixture's two rashiTranslations entries both carry non-empty linkedGemaraLineIds.",
+  "entries": []
+}

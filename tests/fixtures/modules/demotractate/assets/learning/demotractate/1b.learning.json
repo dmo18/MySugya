@@ -1,0 +1,72 @@
+{
+  "daf": "1b",
+  "canonicalRef": null,
+  "summary": "[FIXTURE] Synthetic daf 1b of the demo tractate: the Board resolves the prototype question from 1a and states the durable takeaway, tying it back to the opening ruling.",
+  "review": { "status": "verified" },
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "demo-001b-s01",
+      "lineRange": { "startVilnaLine": 1, "endVilnaLine": 2 },
+      "lines": [
+        { "vilnaLine": 1, "sefariaRef": null },
+        { "vilnaLine": 2, "sefariaRef": null }
+      ],
+      "display": {
+        "title": "[FIXTURE] Resolution and takeaway",
+        "oneLine": "[FIXTURE] A sale-bound prototype still requires certification; the duty attaches at intended sale.",
+        "shortSummary": "[FIXTURE] The Board resolves that certification duty attaches at the point of intended sale, not actual sale, closing the loop back to the daf 1a opening ruling.",
+        "whats": "[FIXTURE] Synthetic explanatory text for the fixture's sugya on daf 1b.",
+        "hint": "[FIXTURE] When exactly does the certification duty attach?"
+      },
+      "learning": {
+        "learnerQuestion": "[FIXTURE] Is the certification duty tied to actual sale or intended sale?",
+        "coreTension": "[FIXTURE] A literal reading of 'before sale' could delay the duty until a sale is actually imminent.",
+        "coreMove": "[FIXTURE] The Board locates the duty at the earlier point: intended sale.",
+        "resolution": "[FIXTURE] The certification duty attaches once sale is intended, not once sale is imminent or complete.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "[FIXTURE] A duty framed around an eventual event attaches at the point of intent toward that event, not the event itself."
+        },
+        "ahaMoment": "[FIXTURE] 'Before sale' was never about timing relative to a transaction - it was about timing relative to intent.",
+        "learningBlocker": "[FIXTURE] Assuming 'before sale' means immediately preceding a completed transaction.",
+        "memoryAnchor": "[FIXTURE] Intend to sell it? Certify it now, not at the register."
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "resolution",
+          "label": "[FIXTURE] The duty attaches at intended sale",
+          "speaker": "Board",
+          "text": "[FIXTURE] A prototype intended for eventual sale still requires certification, even before that sale occurs.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "demo-001b-l01", "vilnaLine": 1 }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "takeaway",
+          "label": "[FIXTURE] Durable principle, tied back to daf 1a",
+          "speaker": "Board",
+          "text": "[FIXTURE] The certification duty attaches at the point of intended sale - the same principle the opening ruling on 1a established for ordinary widgets. A qualified cross-daf reference back to the 1a opening rule.",
+          "sourceRefs": [
+            {
+              "refType": "crossDaf",
+              "targetDaf": "1a",
+              "targetLineId": "demo-001a-l01",
+              "targetVilnaLine": 1,
+              "sourceType": "mishnah",
+              "note": "Ties the daf 1b takeaway back to the daf 1a opening ruling"
+            }
+          ]
+        }
+      ],
+      "relatedSugyot": ["demo-001a-s01", "demo-001a-s02"],
+      "topicTags": ["fixture-demo", "widget-certification", "prototype-exemption"],
+      "difficulty": "intro",
+      "review": { "learning": "ai_generated", "argumentFlow": "ai_generated", "sourceRefs": "ai_generated" }
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": []
+}

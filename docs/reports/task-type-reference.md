@@ -60,7 +60,7 @@ Docs, scripts, CI, hooks, and pipeline changes. No module data. Sonnet only for 
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: n/a
-- allowed files: docs/*, scripts/*, shared/*, modules/*/module.json, modules/<module>/scripts/*.py, modules/<module>/scripts/allowlists/*, modules/<module>/MODULE.md, .github/workflows/*, githooks/*, package.json, package-lock.json, VERSION, README.md, CLAUDE.md, SOURCES.md, tests/*, .worker-manifest.json, .worker-queue.json
+- allowed files: docs/*, scripts/*, shared/*, modules/*/module.json, modules/<module>/scripts/*.py, modules/<module>/scripts/allowlists/*, modules/<module>/MODULE.md, .github/workflows/*, githooks/*, package.json, package-lock.json, VERSION, README.md, CLAUDE.md, SOURCES.md, tests/*, .gitignore, .worker-manifest.json, .worker-queue.json
 - allowlist policy: restructure-with-env; structure policy: not-applicable
 - required validators: validate:offline:yoma
 - stop conditions:

@@ -1,0 +1,40 @@
+{
+  "daf": "1a",
+  "lines": [
+    {
+      "id": "demo-001a-l01",
+      "kind": "mishna",
+      "vilna_line": 1,
+      "he": "[FIXTURE-HE-PLACEHOLDER] Synthetic source line 1 for daf 1a. Not real Hebrew/Aramaic content - this field would normally hold verbatim source text.",
+      "en": "[FIXTURE-EN-PLACEHOLDER] RULING: Every widget requires certification before sale. Synthetic content for the Phase 3 tractate-agnostic fixture."
+    },
+    {
+      "id": "demo-001a-l02",
+      "kind": "gemara",
+      "vilna_line": 2,
+      "he": "[FIXTURE-HE-PLACEHOLDER] Synthetic source line 2 for daf 1a.",
+      "en": "[FIXTURE-EN-PLACEHOLDER] Bureaucrat Bet asks: does the certification duty apply to a prototype never intended for sale?"
+    },
+    {
+      "id": "demo-001a-l03",
+      "kind": "gemara",
+      "vilna_line": 3,
+      "he": "[FIXTURE-HE-PLACEHOLDER] Synthetic source line 3 for daf 1a.",
+      "en": "[FIXTURE-EN-PLACEHOLDER] Committee Gimel cites two supporting memos: the Prototype Exemption Memo and the General Certification Order."
+    },
+    {
+      "id": "demo-001a-l04",
+      "kind": "gemara",
+      "vilna_line": 4,
+      "he": "[FIXTURE-HE-PLACEHOLDER] Synthetic source line 4 for daf 1a.",
+      "en": "[FIXTURE-EN-PLACEHOLDER] The Board distinguishes a prototype held for internal testing from a prototype held pending an eventual sale decision."
+    },
+    {
+      "id": "demo-001a-l05",
+      "kind": "gemara",
+      "vilna_line": 5,
+      "he": "[FIXTURE-HE-PLACEHOLDER] Synthetic source line 5 for daf 1a.",
+      "en": "[FIXTURE-EN-PLACEHOLDER] The Board rejects the Prototype Exemption Memo for any prototype later routed to sale."
+    }
+  ]
+}

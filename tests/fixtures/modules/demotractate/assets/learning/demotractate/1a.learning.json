@@ -1,0 +1,161 @@
+{
+  "daf": "1a",
+  "canonicalRef": null,
+  "summary": "[FIXTURE] Synthetic daf 1a of the demo tractate: the fictional Widget Certification Board rules that every widget requires certification before sale, then debates whether an unsold prototype is exempt.",
+  "review": { "status": "verified" },
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "demo-001a-s01",
+      "lineRange": { "startVilnaLine": 1, "endVilnaLine": 3 },
+      "lines": [
+        { "vilnaLine": 1, "sefariaRef": null },
+        { "vilnaLine": 2, "sefariaRef": null },
+        { "vilnaLine": 3, "sefariaRef": null }
+      ],
+      "display": {
+        "title": "[FIXTURE] Opening ruling and the prototype question",
+        "oneLine": "[FIXTURE] Every widget needs certification before sale; Bureaucrat Bet asks about unsold prototypes.",
+        "shortSummary": "[FIXTURE] The Board's opening ruling requires certification before sale. Bureaucrat Bet raises the prototype question, and Committee Gimel brings two supporting memos.",
+        "whats": "[FIXTURE] Synthetic explanatory text for the fixture's first sugya, standing in for the kind of editorial analysis a real sugya would carry.",
+        "hint": "[FIXTURE] What distinguishes a prototype from an ordinary widget?"
+      },
+      "learning": {
+        "learnerQuestion": "[FIXTURE] Does an unsold prototype need certification?",
+        "coreTension": "[FIXTURE] The certification rule is framed around sale, but a prototype may never be sold.",
+        "coreMove": "[FIXTURE] Committee Gimel supplies two memos anticipating exactly this question.",
+        "resolution": "",
+        "takeaway": {
+          "type": "logical_principle",
+          "text": "[FIXTURE] A rule framed around one triggering event needs an explicit answer for cases where that event may never occur."
+        },
+        "ahaMoment": "[FIXTURE] The rule's own drafters already anticipated the prototype gap.",
+        "learningBlocker": "[FIXTURE] Assuming 'before sale' rules only ever apply to items that are eventually sold.",
+        "memoryAnchor": "[FIXTURE] Prototype now, sale maybe - certify anyway if intent is there."
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "case",
+          "label": "[FIXTURE] Opening rule",
+          "speaker": "Board",
+          "text": "[FIXTURE] Every widget requires certification before sale.",
+          "sourceRefs": [
+            { "sourceType": "mishnah", "lineId": "demo-001a-l01", "vilnaLine": 1 }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "question",
+          "label": "[FIXTURE] The prototype question",
+          "speaker": "Bureaucrat Bet",
+          "text": "[FIXTURE] Does the certification duty apply to a prototype never intended for sale? This step intentionally omits sourceRefs - a purely rhetorical question with no single-line anchor, legal per the optional sourceRefs field."
+        },
+        {
+          "id": "step-03",
+          "type": "proof",
+          "label": "[FIXTURE] Two supporting memos",
+          "speaker": "Committee Gimel",
+          "text": "[FIXTURE] Two memos are cited in support: the Prototype Exemption Memo and the General Certification Order - a genuine multi-ref step citing two distinct lines.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "demo-001a-l02", "vilnaLine": 2, "note": "Prototype Exemption Memo" },
+            { "sourceType": "gemara", "lineId": "demo-001a-l03", "vilnaLine": 3, "note": "General Certification Order" }
+          ]
+        }
+      ],
+      "misconceptions": [
+        {
+          "misconception": "[FIXTURE] A prototype is automatically exempt from certification.",
+          "correction": "[FIXTURE] Exemption depends on whether the prototype is ever routed toward sale, resolved on daf 1b.",
+          "correctedByStepId": "step-03"
+        }
+      ],
+      "topicTags": ["fixture-demo", "widget-certification", "prototype-exemption"],
+      "visualizableElements": [
+        { "item": "[FIXTURE] The Widget Certification Board in session", "role": "anchor", "priority": 1 }
+      ],
+      "quizSeeds": [
+        {
+          "question": "[FIXTURE] What must happen before a widget is sold?",
+          "answer": "[FIXTURE] It must be certified by the Board.",
+          "sourceRefs": [
+            { "sourceType": "mishnah", "lineId": "demo-001a-l01", "vilnaLine": 1 }
+          ]
+        }
+      ],
+      "difficulty": "intro",
+      "review": { "learning": "ai_generated", "argumentFlow": "ai_generated", "sourceRefs": "ai_generated" }
+    },
+    {
+      "sugyaNumber": 2,
+      "id": "demo-001a-s02",
+      "lineRange": { "startVilnaLine": 4, "endVilnaLine": 5 },
+      "lines": [
+        { "vilnaLine": 4, "sefariaRef": null },
+        { "vilnaLine": 5, "sefariaRef": null }
+      ],
+      "display": {
+        "title": "[FIXTURE] Distinguishing internal-test from sale-bound prototypes",
+        "oneLine": "[FIXTURE] The Board distinguishes prototypes by their eventual destination.",
+        "shortSummary": "[FIXTURE] The Board draws a distinction between a prototype held purely for internal testing and one held pending a possible sale, then rejects the exemption for the latter.",
+        "whats": "[FIXTURE] Synthetic explanatory text for the fixture's second sugya on daf 1a.",
+        "hint": "[FIXTURE] Does intent at the time of manufacture matter, or only eventual outcome?"
+      },
+      "learning": {
+        "learnerQuestion": "[FIXTURE] Which prototypes actually qualify for the exemption?",
+        "coreTension": "[FIXTURE] Not every prototype is alike - some are purely internal, others are sale candidates.",
+        "coreMove": "[FIXTURE] The Board draws a bright-line distinction based on eventual routing, not manufacturing intent.",
+        "resolution": "[FIXTURE] Only a prototype that never leaves internal testing is exempt.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "[FIXTURE] An exemption keyed to intent must be narrowed to the cases where that intent is actually realized."
+        },
+        "ahaMoment": "[FIXTURE] The exemption was never about the word 'prototype' - it was about whether the item ever reaches a customer.",
+        "learningBlocker": "[FIXTURE] Treating 'prototype' as a fixed status rather than a routing that can change.",
+        "memoryAnchor": "[FIXTURE] Internal-only prototype: exempt. Sale-bound prototype: certify."
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "distinction",
+          "label": "[FIXTURE] Internal-test vs sale-bound",
+          "speaker": "Board",
+          "text": "[FIXTURE] A prototype held for internal testing is distinguished from one held pending a sale decision.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "demo-001a-l04", "vilnaLine": 4 }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "rejection",
+          "label": "[FIXTURE] Exemption rejected for sale-bound prototypes",
+          "speaker": "Board",
+          "text": "[FIXTURE] The Prototype Exemption Memo is rejected for any prototype later routed to sale.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "demo-001a-l05", "vilnaLine": 5 }
+          ]
+        }
+      ],
+      "topicTags": ["fixture-demo", "widget-certification", "prototype-exemption"],
+      "difficulty": "intro",
+      "review": { "learning": "ai_generated", "argumentFlow": "ai_generated", "sourceRefs": "ai_generated" }
+    }
+  ],
+  "glossary": [
+    { "he": "[FIXTURE-HE]", "translit": "widget", "en": "[FIXTURE] a generic certifiable item invented for this fixture" }
+  ],
+  "rashiTranslations": [
+    {
+      "vilnaLine": 1,
+      "he": "[FIXTURE-RASHI-HE-PLACEHOLDER] Synthetic Rashi-layer commentary on daf 1a line 1.",
+      "en": "[FIXTURE-RASHI-EN-PLACEHOLDER] Explains that 'every widget' includes items not yet manufactured, i.e. covers future production too.",
+      "linkedGemaraLineIds": ["demo-001a-l01"]
+    },
+    {
+      "vilnaLine": 3,
+      "he": "[FIXTURE-RASHI-HE-PLACEHOLDER] Synthetic Rashi-layer commentary on daf 1a line 3.",
+      "en": "[FIXTURE-RASHI-EN-PLACEHOLDER] Clarifies that the General Certification Order predates the Prototype Exemption Memo by charter number, establishing its precedence.",
+      "linkedGemaraLineIds": ["demo-001a-l03"]
+    }
+  ]
+}

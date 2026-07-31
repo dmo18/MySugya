@@ -1,0 +1,19 @@
+{
+  "daf": "2a",
+  "lines": [
+    {
+      "id": "demo-002a-l01",
+      "kind": "mishna",
+      "vilna_line": 1,
+      "he": "[FIXTURE-HE-PLACEHOLDER] Synthetic source line 1 for daf 2a.",
+      "en": "[FIXTURE-EN-PLACEHOLDER] RULING: A certified widget found defective after sale must be recalled within thirty days of discovery."
+    },
+    {
+      "id": "demo-002a-l02",
+      "kind": "gemara",
+      "vilna_line": 2,
+      "he": "[FIXTURE-HE-PLACEHOLDER] Synthetic source line 2 for daf 2a.",
+      "en": "[FIXTURE-EN-PLACEHOLDER] The Board answers: the thirty-day clock starts on discovery by the Board, not on the defect's original occurrence."
+    }
+  ]
+}

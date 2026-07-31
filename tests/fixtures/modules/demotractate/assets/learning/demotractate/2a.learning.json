@@ -1,0 +1,64 @@
+{
+  "daf": "2a",
+  "canonicalRef": null,
+  "summary": "[FIXTURE] Synthetic daf 2a of the demo tractate: a second, independent scenario about recalling a defective certified widget, exercising a fresh case/answer pair.",
+  "review": { "status": "verified" },
+  "sugyot": [
+    {
+      "sugyaNumber": 1,
+      "id": "demo-002a-s01",
+      "lineRange": { "startVilnaLine": 1, "endVilnaLine": 2 },
+      "lines": [
+        { "vilnaLine": 1, "sefariaRef": null },
+        { "vilnaLine": 2, "sefariaRef": null }
+      ],
+      "display": {
+        "title": "[FIXTURE] Recall window for defective widgets",
+        "oneLine": "[FIXTURE] A defective certified widget must be recalled within thirty days of discovery.",
+        "shortSummary": "[FIXTURE] The Board rules that a certified widget found defective must be recalled within thirty days, and clarifies that the clock starts on discovery, not on the defect's original occurrence.",
+        "whats": "[FIXTURE] Synthetic explanatory text for the fixture's independent second-scenario sugya on daf 2a.",
+        "hint": "[FIXTURE] Does the thirty-day clock start when the defect occurs or when it is discovered?"
+      },
+      "learning": {
+        "learnerQuestion": "[FIXTURE] When does the thirty-day recall clock start?",
+        "coreTension": "[FIXTURE] A defect may exist long before anyone notices it - starting the clock at occurrence could make timely recall impossible.",
+        "coreMove": "[FIXTURE] The Board anchors the clock to discovery, a knowable and provable event, rather than occurrence.",
+        "resolution": "[FIXTURE] The thirty-day clock starts on the Board's discovery of the defect.",
+        "takeaway": {
+          "type": "legal_principle",
+          "text": "[FIXTURE] A compliance clock tied to a hidden event should instead be anchored to the first knowable, provable event."
+        },
+        "ahaMoment": "[FIXTURE] Anchoring the clock to discovery rather than occurrence is what makes the thirty-day rule actually enforceable.",
+        "learningBlocker": "[FIXTURE] Assuming every deadline runs from when the underlying problem first arose.",
+        "memoryAnchor": "[FIXTURE] Thirty days from when you find it, not from when it started."
+      },
+      "argumentFlow": [
+        {
+          "id": "step-01",
+          "type": "case",
+          "label": "[FIXTURE] Recall rule",
+          "speaker": "Board",
+          "text": "[FIXTURE] A certified widget found defective after sale must be recalled within thirty days of discovery.",
+          "sourceRefs": [
+            { "sourceType": "mishnah", "lineId": "demo-002a-l01", "vilnaLine": 1 }
+          ]
+        },
+        {
+          "id": "step-02",
+          "type": "answer",
+          "label": "[FIXTURE] Clock starts on discovery",
+          "speaker": "Board",
+          "text": "[FIXTURE] The thirty-day clock starts on discovery by the Board, not on the defect's original occurrence.",
+          "sourceRefs": [
+            { "sourceType": "gemara", "lineId": "demo-002a-l02", "vilnaLine": 2 }
+          ]
+        }
+      ],
+      "topicTags": ["fixture-demo", "widget-certification", "recall-procedure"],
+      "difficulty": "intro",
+      "review": { "learning": "ai_generated", "argumentFlow": "ai_generated", "sourceRefs": "ai_generated" }
+    }
+  ],
+  "glossary": [],
+  "rashiTranslations": []
+}
