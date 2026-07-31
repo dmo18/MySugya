@@ -156,6 +156,24 @@ check("ref that is neither string nor object", c["REF_NOT_STRING_OR_OBJECT"] == 
 c, _ = classes([sugya("s1", "10a", base, [[]])])
 check("empty sourceRefs contributes nothing", sum(c.values()) == 0, str(dict(c)))
 
+# ---------------------------------------------------------------- multi-ref steps
+print("\nmulti-ref steps")
+
+# A compound step whose text states two distinct clauses may carry two
+# ordered sourceRefs, one per clause, rather than being forced onto a
+# single segment or split into two steps - the exact shape used to repair
+# yoma-044b-l01 (see docs/reports/sourcerefs-final-two-resolution.md).
+# split's two sub-lines share vilna line 1, mirroring yoma-044b-l01a/l01b.
+c, f = classes([sugya("s1", "10a", split,
+                      [[oref("yoma-010a-l01a", 1), oref("yoma-010a-l01b", 1)]])])
+check("a compound step's two ordered refs both resolve, same daf, no defect",
+      c["OK"] == 2 and not f, str(dict(c)))
+
+c, f = classes([sugya("s1", "10a", base,
+                      [[oref("yoma-010a-l04", 4), oref("yoma-010a-l09", 9)]])])
+check("two refs to different, non-split segments on one step also both resolve",
+      c["OK"] == 2 and not f, str(dict(c)))
+
 # ---------------------------------------------------------------- crossDaf refs
 print("\ncrossDaf object refs")
 
