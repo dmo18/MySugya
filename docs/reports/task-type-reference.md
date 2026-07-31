@@ -43,7 +43,7 @@ Copy edits to sugya display fields only (whats, hint, title, oneLine, shortSumma
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: yes
 - max batch: 2
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/yoma-perek-review.md, .worker-manifest.json
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/<module>-perek-review.md, .worker-manifest.json
 - mutable JSON paths: sugyot[*].display.whats, sugyot[*].display.hint, sugyot[*].display.title, sugyot[*].display.oneLine, sugyot[*].display.shortSummary
 - allowlist policy: forbidden; structure policy: requires-authorization
 - required validators: validate:offline:yoma
@@ -60,7 +60,7 @@ Docs, scripts, CI, hooks, and pipeline changes. No module data. Sonnet only for 
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: n/a
-- allowed files: docs/*, scripts/*, shared/*, modules/*/module.json, modules/yoma/scripts/*.py, modules/yoma/scripts/allowlists/*, modules/yoma/MODULE.md, .github/workflows/*, githooks/*, package.json, package-lock.json, VERSION, README.md, CLAUDE.md, SOURCES.md, tests/*, .worker-manifest.json, .worker-queue.json
+- allowed files: docs/*, scripts/*, shared/*, modules/*/module.json, modules/<module>/scripts/*.py, modules/<module>/scripts/allowlists/*, modules/<module>/MODULE.md, .github/workflows/*, githooks/*, package.json, package-lock.json, VERSION, README.md, CLAUDE.md, SOURCES.md, tests/*, .worker-manifest.json, .worker-queue.json
 - allowlist policy: restructure-with-env; structure policy: not-applicable
 - required validators: validate:offline:yoma
 - stop conditions:
@@ -76,7 +76,7 @@ Edits to sugya display/learning enrichment fields (argumentFlow, quizSeeds, misc
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/yoma-perek-review.md, .worker-manifest.json
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/<module>-perek-review.md, .worker-manifest.json
 - mutable JSON paths: sugyot[*].display.whats, sugyot[*].display.hint, sugyot[*].display.title, sugyot[*].learning.ahaMoment, sugyot[*].learning.memoryAnchor, sugyot[*].learning.learnerQuestion, sugyot[*].learning.coreTension, sugyot[*].learning.coreMove, sugyot[*].learning.learningBlocker, sugyot[*].learning.takeaway.text
 - with --authorize authorizeGlossary: glossary[*], sugyot[*].glossary[*]
 - with --authorize authorizeQuizSeeds: sugyot[*].quizSeeds[*]
@@ -97,7 +97,7 @@ Regenerate learning_data.js/coverage.json from unchanged sources (e.g. after a g
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: yes
 - max batch: n/a
-- allowed files: modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, .worker-manifest.json
+- allowed files: modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, .worker-manifest.json
 - allowlist policy: forbidden; structure policy: forbidden
 - required validators: validate:offline:yoma
 - stop conditions:
@@ -112,7 +112,7 @@ Glossary entry text edits (he/translit/en) at daf or sugya level. Entry add/remo
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/yoma-perek-review.md, .worker-manifest.json
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/<module>-perek-review.md, .worker-manifest.json
 - mutable JSON paths: glossary[*].he, glossary[*].translit, glossary[*].en, sugyot[*].glossary[*].he, sugyot[*].glossary[*].translit, sugyot[*].glossary[*].en, sugyot[*].concepts[*].term, sugyot[*].concepts[*].he, sugyot[*].concepts[*].translit, sugyot[*].concepts[*].def
 - allowlist policy: forbidden; structure policy: requires-authorization
 - required validators: validate:offline:yoma
@@ -128,7 +128,7 @@ Edits to learning narrative fields (ahaMoment, memoryAnchor, learnerQuestion, co
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/yoma-perek-review.md, .worker-manifest.json
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/<module>-perek-review.md, .worker-manifest.json
 - mutable JSON paths: sugyot[*].learning.ahaMoment, sugyot[*].learning.coreMove, sugyot[*].learning.coreTension, sugyot[*].learning.learnerQuestion, sugyot[*].learning.learningBlocker, sugyot[*].learning.memoryAnchor, sugyot[*].learning.reasoningPattern.category, sugyot[*].learning.reasoningPattern.id, sugyot[*].learning.reasoningPattern.notes, sugyot[*].learning.resolution, sugyot[*].learning.takeaway.text
 - with --authorize authorizeAlternateAngles: sugyot[*].alternateAngles
 - with --authorize authorizeTakeawayType: sugyot[*].learning.takeaway.type
@@ -146,7 +146,7 @@ en_lit literal-translation fetch/injection work (assets/literal_en + regeneratio
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: yes
 - max batch: 1
-- allowed files: modules/yoma/assets/literal_en/*, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, .worker-manifest.json
+- allowed files: modules/<module>/assets/literal_en/*, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, .worker-manifest.json
 - mutable JSON paths: <literal_en per-daf JSON>
 - allowlist policy: forbidden; structure policy: forbidden
 - required validators: validate:literal:yoma, validate:offline:yoma
@@ -163,7 +163,7 @@ Review-status stamp updates (top-level review block and sugyot[*].review) after 
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/yoma-perek-review.md, .worker-manifest.json
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/<module>-perek-review.md, .worker-manifest.json
 - mutable JSON paths: review, review.argumentFlow, review.concepts, review.content, review.learning, review.sourceRefs, review.status, review.version, sugyot[*].review, sugyot[*].review.argumentFlow, sugyot[*].review.concepts, sugyot[*].review.content, sugyot[*].review.learning, sugyot[*].review.sourceRefs
 - allowlist policy: forbidden; structure policy: requires-authorization
 - required validators: validate:offline:yoma
@@ -194,7 +194,7 @@ Replace a documented filler/placeholder block (e.g. 77a-88a) with genuine helper
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: yes
 - max batch: 2
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/<module>/scripts/allowlists/*, modules/<module>/scripts/baselines/*, .worker-manifest.json
 - mutable JSON paths: rashiTranslations[*].en, rashiTranslations[*].linkedGemaraLineIds
 - allowlist policy: remove-only; structure policy: forbidden
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
@@ -212,7 +212,7 @@ quizSeeds and misconceptions text edits. Must test real distinctions per CLAUDE.
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/yoma-perek-review.md, .worker-manifest.json
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/<module>-perek-review.md, .worker-manifest.json
 - mutable JSON paths: sugyot[*].quizSeeds[*].question, sugyot[*].quizSeeds[*].answer, sugyot[*].quizSeeds[*].type, sugyot[*].misconceptions[*].misconception, sugyot[*].misconceptions[*].correction, sugyot[*].misconceptions[*].correctedByStepId
 - allowlist policy: forbidden; structure policy: requires-authorization
 - required validators: validate:offline:yoma
@@ -228,7 +228,7 @@ Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 6
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/<module>/scripts/allowlists/*, modules/<module>/scripts/baselines/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
 - mutable JSON paths: rashiTranslations[*].en, rashiTranslations[*].linkedGemaraLineIds
 - allowlist policy: remove-only; structure policy: forbidden
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
@@ -259,7 +259,7 @@ Full line-by-line Rashi helper reconstruction for a daf with no unresolved conte
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/<module>/scripts/allowlists/*, modules/<module>/scripts/baselines/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
 - mutable JSON paths: rashiTranslations[*].en, rashiTranslations[*].linkedGemaraLineIds
 - allowlist policy: remove-only; structure policy: forbidden
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
@@ -290,7 +290,7 @@ Repair documented Rashi helper defects (stubs, filler, placeholder lines) on daf
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: yes
 - max batch: 1
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/<module>/scripts/allowlists/*, modules/<module>/scripts/baselines/*, .worker-manifest.json
 - mutable JSON paths: rashiTranslations[*].en, rashiTranslations[*].linkedGemaraLineIds
 - allowlist policy: remove-only; structure policy: forbidden
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
@@ -312,7 +312,7 @@ Structural repair of a daf's rashiTranslations layer: baselined entry-count mism
 - mechanical tier: no
 - max batch: 1
 - REQUIRED authorization: allowStructure (operator-issued; preflight fails without it)
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/yoma/scripts/allowlists/*, modules/yoma/scripts/baselines/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, modules/<module>/scripts/allowlists/*, modules/<module>/scripts/baselines/*, .worker-manifest.json, .worker-self-review.json, .worker-queue.json
 - mutable JSON paths: rashiTranslations
 - allowlist policy: remove-only; structure policy: explicit-allowStructure-required
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
@@ -341,7 +341,7 @@ Structural repairs: argumentFlow steps/ids/labels/sourceRefs, lineRange, lines, 
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/yoma-perek-review.md, .worker-manifest.json
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/<module>-perek-review.md, .worker-manifest.json
 - mutable JSON paths: sugyot[*].argumentFlow[*], sugyot[*].lineRange, sugyot[*].lines[*], sugyot[*].sefariaRefs[*], sugyot[*].conceptRefs[*], sugyot[*].id, sugyot[*].sugyaNumber, sugyot[*].sourceLinks, sugyot[*].relatedSugyot[*], sugyot[*].requiresUnderstanding[*], sugyot[*].topicTags[*], sugyot[*].visualizableElements[*], sugyot[*].difficulty, sugyot[*].finalRuling, sugyot[*].quizSeeds[*].sourceRefs[*], canonicalRef
 - allowlist policy: forbidden; structure policy: requires-authorization
 - required validators: validate:offline:yoma
@@ -358,7 +358,7 @@ Top-level daf summary copy edits.
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
-- allowed files: modules/yoma/assets/learning/yoma/<daf>.learning.json, modules/yoma/learning_data.js, modules/yoma/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/yoma-perek-review.md, .worker-manifest.json
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/<module>-perek-review.md, .worker-manifest.json
 - mutable JSON paths: summary
 - allowlist policy: forbidden; structure policy: requires-authorization
 - required validators: validate:offline:yoma

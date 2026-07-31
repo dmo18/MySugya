@@ -37,9 +37,78 @@ from pathlib import Path
 
 REPO = Path(__file__).parent.parent
 REGISTRY = Path(__file__).parent / "worker_task_types.json"
-YSCRIPTS = REPO / "modules" / "yoma" / "scripts"
-YROOT = REPO / "modules" / "yoma"
 MANIFEST_DEFAULT = REPO / ".worker-manifest.json"
+
+sys.path.insert(0, str(Path(__file__).parent))
+import module_resolver  # noqa: E402
+
+# YROOT/YSCRIPTS/ACTIVE_MODULE/SCAFFOLD_BASELINE/REPETITION_BASELINE are
+# rebound per invocation by set_active_module(), called once the requested
+# module's key is known (from --module for `manifest`/`queue create`, or
+# from the manifest's own "module" field for every command that reads an
+# existing manifest - see load_manifest()). The Yoma values below are only
+# a belt-and-suspenders default for the (never-exercised in normal
+# operation) case where something reads these before set_active_module
+# runs; every real command path calls it explicitly first, and an unknown
+# or malformed module raises before any of these are touched - it is never
+# silently substituted with Yoma.
+YROOT = REPO / "modules" / "yoma"
+YSCRIPTS = YROOT / "scripts"
+SCAFFOLD_BASELINE = YSCRIPTS / "baselines" / "rashi_scaffold_debt.json"
+REPETITION_BASELINE = YSCRIPTS / "allowlists" / "rashi_repetition_baseline.json"
+ACTIVE_MODULE = None
+
+
+MODULE_SEARCH_ROOT_ENV = "MYSUGYA_MODULE_SEARCH_ROOT"
+
+
+def resolve_active_module(key):
+    """Resolve and validate `key`'s module descriptor, or exit clearly.
+    The single point every command uses to turn a requested module id
+    into real paths - never falls back to another module on failure.
+
+    Reads MYSUGYA_MODULE_SEARCH_ROOT to override the search root, exactly
+    like module_resolver.resolve_module's own search_root parameter -
+    unset in every normal invocation (interactive, npm script, CI), so
+    production command paths always resolve against modules/ only. This
+    exists for test/fixture callers (this file's own test suite, and the
+    Phase 3 Step 5/6 empty-module onboarding end-to-end test) that need
+    worker_pipeline.py itself - not just module_resolver directly - to
+    resolve a synthetic descriptor outside modules/ without ever making
+    that possible through an implicit default or a production code path."""
+    search_root = os.environ.get(MODULE_SEARCH_ROOT_ENV)
+    try:
+        return module_resolver.resolve_module(key, search_root=search_root)
+    except module_resolver.ModuleResolutionError as e:
+        sys.exit(f"ERROR: cannot resolve module {key!r}: {e}")
+
+
+def set_active_module(descriptor):
+    """Rebind the module-scoped globals to the given resolved descriptor.
+    Must be called before any code path touches YROOT/YSCRIPTS/
+    ACTIVE_MODULE/SCAFFOLD_BASELINE/REPETITION_BASELINE for this
+    invocation."""
+    global YROOT, YSCRIPTS, ACTIVE_MODULE, SCAFFOLD_BASELINE, REPETITION_BASELINE
+    ACTIVE_MODULE = descriptor
+    YROOT = REPO / descriptor["paths"]["root"]
+    YSCRIPTS = REPO / descriptor["paths"]["scriptsRoot"]
+    SCAFFOLD_BASELINE = YSCRIPTS / "baselines" / "rashi_scaffold_debt.json"
+    REPETITION_BASELINE = YSCRIPTS / "allowlists" / "rashi_repetition_baseline.json"
+
+
+def all_content_prefixes():
+    """Union of every registered module's asset-content prefixes, used
+    only by cmd_ci_check (which runs before any single module is known -
+    it is deciding whether ANY module's content changed at all). Not the
+    same question as "does this changed file belong to the active
+    module"; see json_scope_check and cmd_scope for that, which use the
+    single resolved ACTIVE_MODULE instead."""
+    prefixes = set()
+    for key in module_resolver.list_modules():
+        d = module_resolver.resolve_module(key)
+        prefixes.add(d["paths"]["sourceAssetsRoot"] + "/")
+        prefixes.add(d["paths"]["generatedAssetsRoot"] + "/")
+    return tuple(sorted(prefixes))
 
 RASHI_TYPES = {"rashi-repair", "rashi-reconstruction", "rashi-realignment",
                "placeholder-backfill", "rashi-structural-repair"}
@@ -74,8 +143,9 @@ DRIFT_OVERRIDE_ENV = "WORKER_DRIFT_OVERRIDE"
 # passes must leave the tracked tree byte-identical and never bump VERSION,
 # commit, or open a PR. Enforced by cmd_verify (see verify_read_only).
 LIFECYCLES = ("pr", "read-only")
-CONTENT_PREFIXES = ("modules/yoma/assets/learning/", "modules/yoma/assets/literal_en/",
-                    "modules/yoma/assets/talmuddev/", "modules/yoma/assets/daftexts/")
+# Formerly a Yoma-only constant; cmd_ci_check now calls
+# all_content_prefixes() instead, which unions every registered module's
+# asset prefixes - it runs before any single module is known.
 
 
 def sh(args, cwd=REPO, env=None):
@@ -114,12 +184,18 @@ def load_manifest(path):
     types = load_registry()
     if m.get("type") not in types:
         sys.exit(f"ERROR: manifest type {m.get('type')!r} not in registry")
+    # Single choke point: every command that reads an existing manifest
+    # (preflight/packet/prompt/scope/verify/review/report, and ci-check
+    # when a manifest is present) goes through load_manifest() as its
+    # first step, so resolving the manifest's own module here covers all
+    # of them without a separate call at each site. An unknown or
+    # malformed module.module value fails here, clearly, before any
+    # YROOT/YSCRIPTS-derived path is touched.
+    set_active_module(resolve_active_module(m["module"]))
     return m, types[m["type"]]
 
 
 ALLOWLIST_DRAIN_TYPES = ("rashi-reconstruction", "rashi-realignment")
-SCAFFOLD_BASELINE = YSCRIPTS / "baselines" / "rashi_scaffold_debt.json"
-REPETITION_BASELINE = YSCRIPTS / "allowlists" / "rashi_repetition_baseline.json"
 
 
 def content_allowlist_entries(daf=None):
@@ -410,11 +486,18 @@ def expand_range(spec):
     return out
 
 
-def file_allowed(path, spec, targets):
+def file_allowed(path, spec, targets, module):
     """A changed file is in scope only if it matches the allowed set.
     The forbiddenFiles list is documentation for prompts; enforcement is
-    allowlist-style (anything not explicitly allowed is a violation)."""
+    allowlist-style (anything not explicitly allowed is a violation).
+
+    Each allowedFiles pattern may carry a <module> placeholder (templated
+    the same way <daf> already is): substituted with the manifest's own
+    module before matching, so a fixture-targeted manifest's allowedFiles
+    resolve to fixture paths only, and a Yoma-targeted manifest's resolve
+    to Yoma paths only - never the other way around, and never both."""
     for pat in spec.get("allowedFiles", []):
+        pat = pat.replace("<module>", module)
         if "<daf>" in pat:
             if any(fnmatch.fnmatch(path, pat.replace("<daf>", d)) for d in targets):
                 return True
@@ -468,7 +551,8 @@ def json_scope_check(mb, changed, m, spec, errors):
     targets = set(m.get("targets", []))
 
     for p in changed:
-        if not (p.startswith("modules/yoma/assets/learning/") and p.endswith(".learning.json")):
+        if not (p.startswith(ACTIVE_MODULE["paths"]["learningDataDir"] + "/")
+                and p.endswith(".learning.json")):
             continue
         daf = p.split("/")[-1].replace(".learning.json", "")
         if daf not in targets:
@@ -518,6 +602,10 @@ def cmd_manifest(opts):
     if opts.type not in types:
         sys.exit(f"ERROR: unknown task type {opts.type!r}. Known: {', '.join(sorted(types))}")
     spec = types[opts.type]
+    # Resolve and validate the requested module before generating anything.
+    # An unknown/malformed module fails clearly here; the manifest is
+    # never written with a module value that couldn't actually resolve.
+    set_active_module(resolve_active_module(opts.module))
     targets = expand_range(opts.range) if opts.range else []
     if spec["requiresTarget"] and not targets:
         sys.exit(f"ERROR: task type {opts.type!r} requires --range")
@@ -701,7 +789,7 @@ def cmd_packet(opts):
         return
     if spec.get("jsonScope") and m["targets"]:
         for daf in m["targets"]:
-            lj = json.loads((YROOT / "assets" / "learning" / "yoma" / f"{daf}.learning.json").read_text())
+            lj = json.loads((REPO / ACTIVE_MODULE["paths"]["learningDataDir"] / f"{daf}.learning.json").read_text())
             print(f"# Gemara-learning packet: {daf}")
             print(f"sugyot: {len(lj['sugyot'])}")
             for s in lj["sugyot"]:
@@ -908,7 +996,7 @@ def cmd_scope(opts):
     errors = []
 
     for p in changed:
-        if not file_allowed(p, spec, m["targets"]):
+        if not file_allowed(p, spec, m["targets"], m["module"]):
             errors.append(f"{p}: outside the {m['type']} allowed file set")
     if not spec["allowedFiles"] and changed:
         errors.append(f"task type {m['type']} permits no file changes; {len(changed)} file(s) changed")
@@ -934,22 +1022,27 @@ def cmd_scope(opts):
         # field rules do not apply to these diffs).
         allowlist_ratchet_inline(mb, m["allowlistPolicy"], errors)
         json_scope_check(mb, changed, m, spec, errors)
+        paths = ACTIVE_MODULE["paths"]
         if m["type"] == "generated-refresh":
-            src_changed = [p for p in changed if p.startswith("modules/yoma/assets/")]
+            src_changed = [p for p in changed if p.startswith(paths["sourceAssetsRoot"] + "/")]
             if src_changed:
                 errors.append(f"generated-refresh PR changed source files: {src_changed} "
                               f"(generated outputs only)")
         if m["type"] == "literal-layer":
-            gen_only = [p for p in changed if p in ("modules/yoma/learning_data.js", "modules/yoma/coverage.json")]
-            src = [p for p in changed if p.startswith("modules/yoma/assets/literal_en/")]
+            lit = ACTIVE_MODULE["capabilities"]["literalTranslation"]
+            gen_only = [p for p in changed
+                        if p in (paths["learningDataFile"], paths["coverageFile"])]
+            lit_dir = lit.get("assetsDir") if lit["enabled"] else None
+            src = [p for p in changed if lit_dir and p.startswith(lit_dir + "/")]
             if gen_only and not src:
                 errors.append("literal-layer PR changed generated output without any "
-                              "assets/literal_en source change (use generated-refresh instead)")
+                              "literal-translation source change (use generated-refresh instead)")
 
     # Manifest lifecycle: every changed learning JSON must be a manifest target
     if m["type"] not in ("docs-tooling",):
+        learning_dir = ACTIVE_MODULE["paths"]["learningDataDir"]
         for p in changed:
-            if p.startswith("modules/yoma/assets/learning/") and p.endswith(".learning.json"):
+            if p.startswith(learning_dir + "/") and p.endswith(".learning.json"):
                 daf = p.split("/")[-1].replace(".learning.json", "")
                 if daf not in m.get("targets", []):
                     errors.append(f"{p}: changed but daf {daf!r} is not in manifest targets "
@@ -1017,6 +1110,12 @@ def cmd_verify(opts):
         if m["type"] in ("rashi-realignment", "rashi-reconstruction", STRUCTURAL_TYPE):
             results.append(("drift-profile", not bad and bool(profs)))
     else:
+        # Intentionally still Yoma-hardcoded: scripts/worker_task_types.json's
+        # requiredValidators (and the npm scripts they name) are validator/
+        # generator-layer parameterization, deferred to Phase 3 Step 3C per
+        # docs/reports/phase3-inventory.md - a validate:offline:<module>
+        # script does not exist for any non-Yoma module yet, so genericizing
+        # this call today would silently fail rather than validate anything.
         r = sh(["npm", "run", "validate:offline:yoma"])
         results.append(("offline-gates", r.returncode == 0))
         if r.returncode != 0:
@@ -1048,15 +1147,17 @@ def cmd_verify(opts):
     mb = sh(["git", "merge-base", resolve_base(opts.base), "HEAD"]).stdout.strip()
     changed = sh(["git", "diff", "--name-only", mb]).stdout.split() if mb else []
     dash_bad = []
+    source_assets = ACTIVE_MODULE["paths"]["sourceAssetsRoot"]
+    talmuddev_prefix = source_assets + "/talmuddev/"
     if mb:
         for p in changed:
             fp = REPO / p
             if fp.suffix in (".py", ".md", ".json", ".yml", ".js", ".jsx") and fp.exists():
-                if p.startswith("modules/yoma/assets/talmuddev/") or p == "modules/yoma/learning_data.js":
+                if p.startswith(talmuddev_prefix) or p == ACTIVE_MODULE["paths"]["learningDataFile"]:
                     continue
                 txt = fp.read_text(errors="ignore")
                 if "\u2014" in txt or "\u2013" in txt:
-                    if not p.startswith("modules/yoma/assets/"):
+                    if not p.startswith(source_assets + "/"):
                         dash_bad.append(p)
     results.append(("no-dashes", not dash_bad))
     for p in dash_bad:
@@ -1145,8 +1246,9 @@ def cmd_verify(opts):
         for line in cov.stdout.splitlines():
             if line.startswith(("Coverage:", "Has en_lit:", "Non-empty:")):
                 print(f"  {line.strip()}")
-        impacted = [p for p in changed if p.startswith("modules/yoma/assets/literal_en/")]
-        print(f"  literal_en files impacted: {len(impacted)}")
+        lit_dir = ACTIVE_MODULE["capabilities"]["literalTranslation"].get("assetsDir")
+        impacted = [p for p in changed if lit_dir and p.startswith(lit_dir + "/")]
+        print(f"  literal-translation files impacted: {len(impacted)}")
 
     print("\n============ worker:verify summary ============")
     fail = False
@@ -1428,7 +1530,7 @@ def gather_review_conditions(m, spec, base):
     if m["type"] == STRUCTURAL_TYPE:
         tpath = YROOT / "assets" / "talmuddev" / f"{target}.json"
         raw_n = len([l for l in json.loads(tpath.read_text()).get("rashi", []) if l and l.strip()])
-        lp = YROOT / "assets" / "learning" / "yoma" / f"{target}.learning.json"
+        lp = REPO / ACTIVE_MODULE["paths"]["learningDataDir"] / f"{target}.learning.json"
         ent = json.loads(lp.read_text()).get("rashiTranslations", []) if lp.exists() else []
         seq_ok = [e.get("vilnaLine") for e in ent] == list(range(1, raw_n + 1))
         conditions["entry-count-and-order-match-raw"] = len(ent) == raw_n and seq_ok
@@ -1442,9 +1544,10 @@ def gather_review_conditions(m, spec, base):
         return conditions, notes
     changed = [l for l in sh(["git", "diff", "--name-only", mb]).stdout.splitlines() if l.strip()]
 
+    learning_dir = ACTIVE_MODULE["paths"]["learningDataDir"]
     learn_changed = [p for p in changed
-                     if p.startswith("modules/yoma/assets/learning/") and p.endswith(".learning.json")]
-    expected = f"modules/yoma/assets/learning/yoma/{target}.learning.json"
+                     if p.startswith(learning_dir + "/") and p.endswith(".learning.json")]
+    expected = f"{learning_dir}/{target}.learning.json"
     conditions["exactly-one-authorized-daf-changed"] = learn_changed == [expected]
     if learn_changed != [expected]:
         notes.append(f"learning JSONs changed: {learn_changed or 'none'} (expected exactly [{expected}])")
@@ -1557,7 +1660,7 @@ def gather_review_conditions(m, spec, base):
     import make_rashi_work_packet as mrwp
     import audit_rashi_semantic as ars
     table = {s["id"] for s in mrwp.local_segments_for(target)}
-    lpath = YROOT / "assets" / "learning" / "yoma" / f"{target}.learning.json"
+    lpath = REPO / ACTIVE_MODULE["paths"]["learningDataDir"] / f"{target}.learning.json"
     entries = json.loads(lpath.read_text()).get("rashiTranslations", []) if lpath.exists() else []
     used = {i for e in entries for i in e.get("linkedGemaraLineIds", [])}
     empty = [e["vilnaLine"] for e in entries if not e.get("linkedGemaraLineIds")]
@@ -1780,6 +1883,7 @@ def cmd_queue(opts):
         types = load_registry()
         if opts.type not in types:
             sys.exit(f"ERROR: unknown task type {opts.type!r}")
+        set_active_module(resolve_active_module(opts.module))
         targets = [t.strip() for t in opts.targets.split(",") if t.strip()]
         for t in targets:
             if not (YROOT / "assets" / "talmuddev" / f"{t}.json").exists():
@@ -1795,6 +1899,7 @@ def cmd_queue(opts):
     if not qpath.exists():
         sys.exit(f"ERROR: no queue at {qpath}; create one with --type/--targets")
     q = json.loads(qpath.read_text())
+    set_active_module(resolve_active_module(q["module"]))
     done, remaining = derive_queue_progress(q, merged_manifest_evidence(opts.evidence))
     print(f"queue: type {q['type']}, module {q['module']}, policy {q['policy']}")
     print(f"done (derived from merged PRs): {done or 'none'} | remaining: {remaining or 'none'}")
@@ -1836,7 +1941,7 @@ def capability_report_for(daf):
     import audit_rashi_semantic as ars
 
     tpath = YROOT / "assets" / "talmuddev" / f"{daf}.json"
-    lpath = YROOT / "assets" / "learning" / "yoma" / f"{daf}.learning.json"
+    lpath = REPO / ACTIVE_MODULE["paths"]["learningDataDir"] / f"{daf}.learning.json"
     entry = {"daf": daf, "supported": False, "issues": []}
     if not tpath.exists():
         entry["issues"].append("no talmuddev source")
@@ -1923,11 +2028,16 @@ def cmd_capability_scan(opts):
     tooling gap mid-queue."""
     if opts.targets:
         targets = [t.strip() for t in opts.targets.split(",") if t.strip()]
+        set_active_module(resolve_active_module(opts.module))
     else:
         qpath = Path(opts.file) if opts.file else QUEUE_PATH
         if not qpath.exists():
             sys.exit(f"ERROR: no --targets given and no queue at {qpath}")
-        targets = json.loads(qpath.read_text())["targets"]
+        q = json.loads(qpath.read_text())
+        targets = q["targets"]
+        # The queue file's own module, not --module, when reading from a
+        # queue - consistent with cmd_queue's own read path.
+        set_active_module(resolve_active_module(q["module"]))
 
     report = [capability_report_for(d) for d in targets]
     unsupported = [r for r in report if not r["supported"]]
@@ -2139,7 +2249,7 @@ def cmd_ci_check(opts):
         print(f"WARNING: cannot resolve merge-base of {base!r}; skipping ci-check.")
         return
     changed = [l for l in sh(["git", "diff", "--name-only", mb]).stdout.splitlines() if l.strip()]
-    content_changed = [p for p in changed if p.startswith(CONTENT_PREFIXES)]
+    content_changed = [p for p in changed if p.startswith(all_content_prefixes())]
     workflow_changed = [p for p in changed if p.startswith(".github/workflows/")]
     # The manifest counts as part of the PR if it exists and is new or
     # different relative to the base (a stale leftover identical to the base
@@ -2236,6 +2346,11 @@ def main():
     p = sub.add_parser("capability-scan")
     p.add_argument("--targets", default=None,
                    help="comma-separated daf list; defaults to the tracked queue's targets")
+    p.add_argument("--module", default="yoma",
+                   help="module to scan; only used with --targets (reading from a queue file "
+                        "uses that queue's own declared module instead). Explicit documented "
+                        "default of 'yoma' for backwards compatibility with existing campaign "
+                        "instructions that invoke this without --module.")
     p.add_argument("--file", default=None, help="queue file path (default .worker-queue.json)")
     p.add_argument("--json", action="store_true")
 

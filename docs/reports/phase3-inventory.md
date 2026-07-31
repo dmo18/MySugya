@@ -51,6 +51,19 @@ scope), so Phase 3 cannot be complete without addressing it.
 | 8 | `scripts/generate_argument_taxonomy.py` | yes | no (writes shared `app.jsx`) | no module parameter exists at all |
 | 9 | `scripts/worker_task_types.json` (registry, 116 refs) | yes | n/a (config data) | the registry itself has no module concept; every type's declared paths are Yoma paths regardless of the requesting manifest's module |
 
+**Resolution status (updated as each step merges, not just at Step 8):**
+blockers 1 and 9 are **resolved as of Step 3A** - `worker_pipeline.py` now
+derives `YROOT`/`YSCRIPTS`/`ACTIVE_MODULE` from a resolved module
+descriptor rather than hardcoding them, and `scripts/worker_task_types.json`'s
+`allowedFiles` are `<module>`-templated and substituted the same way
+`<daf>` already is. Blocker 2 (`test_worker_policy.py`) keeps its 32
+Yoma-path assertions as Yoma regression tests, unchanged, plus new
+parallel module-awareness coverage (`test_module_awareness`). Blockers
+3-8 (the Rashi renderer/shard tooling and `generate_argument_taxonomy.py`)
+remain open, targeted at Step 3D per the PR sequence below. The original
+evidence rows above are left exactly as captured at Step 1 - this is the
+historical record of what Step 1 found, not a live status field.
+
 Already generic, confirmed by the fixture-check portion of the existing
 audit tool plus direct inspection - **no change required**:
 `scripts/build.mjs`, `app.jsx`, `manifest.js`, `playwright.config.js`,
@@ -132,12 +145,12 @@ attempted; this PR is read-only and changes none of these to a pass.
 |---|---|---|
 | 1 | canonical module descriptor exists | **pass** - Step 2: `docs/reports/module-descriptor-contract.md`, `modules/yoma/module.json` (Yoma's real descriptor) |
 | 2 | canonical module resolver exists | **pass** - Step 2: `scripts/module_resolver.py` and `shared/module_resolver.js`, both reject unknown/malformed/traversal/inconsistent input and never fall back to Yoma; `scripts/test_module_resolver.py` (24 checks) and `tests/unit/module-resolver.test.mjs` (18 checks) all pass |
-| 3 | generic commands use explicit module selection | - |
-| 4 | unknown module fails | - (currently silently accepted, blocker 1/9) |
-| 5 | malformed module fails | - |
-| 6 | no generic requested-module path silently falls back to Yoma | - (currently does, blockers 1/9) |
-| 7 | worker manifests are module-aware | - |
-| 8 | worker scope checks are module-aware | - |
+| 3 | generic commands use explicit module selection | **partial pass** - Step 3A: every `worker_pipeline.py` subcommand now resolves its module explicitly (via `--module` for `manifest`/`queue create`/`capability-scan`, or via the manifest's own `module` field for every command that reads one). Steps 3B-4 still owe this for source acquisition, validators, build, browser tests, and docs generation. |
+| 4 | unknown module fails | **pass, for worker_pipeline.py** - Step 3A closes blocker 1's "silently accepted" defect: `manifest --module bogus-module` now exits nonzero with `cannot resolve module 'bogus-module': UNKNOWN_MODULE: ...` before writing anything, live-verified. Other blockers (3-8) still pending Step 3D. |
+| 5 | malformed module fails | **pass, for worker_pipeline.py** - same resolver-backed rejection path as row 4. |
+| 6 | no generic requested-module path silently falls back to Yoma | **pass, for worker_pipeline.py** - Step 3A: `YROOT`/`YSCRIPTS`/`ACTIVE_MODULE` are now derived from the resolved module (`set_active_module`), not hardcoded; an unresolvable module raises before any of them are touched. Proven by a test requesting `yoma` against a search-root override that does not contain it, which fails rather than falling back (`scripts/test_worker_policy.py`'s `test_module_awareness`). |
+| 7 | worker manifests are module-aware | **pass** - Step 3A: `cmd_manifest` resolves and validates the requested module before writing; the manifest's `allowedFiles` (from `scripts/worker_task_types.json`, now `<module>`-templated, blocker 9) resolve against the manifest's own declared module, never a hardcoded one. |
+| 8 | worker scope checks are module-aware | **pass** - Step 3A: `file_allowed()` substitutes `<module>` from the manifest before matching, exactly like the existing `<daf>` mechanism; a fixture-targeted manifest cannot resolve or write Yoma paths and vice versa, proven by `test_module_awareness`'s mismatched-module-and-path checks. |
 | 9 | source acquisition is module-aware | - |
 | 10 | daf and chapter metadata are module-aware | - |
 | 11 | segmentation is module-aware | - |
