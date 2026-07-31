@@ -888,7 +888,7 @@ attempted; this PR is read-only and changes none of these to a pass.
 | 14 | argumentFlow validation is module-aware | **pass, no code change required** - Step 3C found `validate_argument_taxonomy.py`'s R1-R5/R7 structural checks already module-agnostic (operate on the registry-vs-corpus relationship, not on any hardcoded module identity); R6 transitively depends on blocker 8 (`generate_argument_taxonomy.py`), left for Step 3D as already planned |
 | 15 | general schema validation is module-aware | **pass, no code change required** - Step 3C found `validate_schema_completeness.py` already correctly capability-agnostic: it checks only the always-required `display`/`learning` fields and never touches `rashiTranslations`/`en_lit` at all (those are `validate_rashi.py`/`validate_literal.py`'s job, Step 3D's scope); `shared/schema_map.js` already declares `rashiLines: {required: false}`, confirming the shared schema itself was already designed for an optional Rashi layer |
 | 16 | Rashi behavior is capability-driven | **pass** - Step 3D: `resolveRashiModule()` (`shared/module_resolver.js`) rejects a Rashi-disabled module with a distinct `CAPABILITY_DISABLED` error, adopted by all 5 Rashi renderer/shard tools; proven against a synthetic Rashi-disabled module and via 3 new tests |
-| 17 | literal behavior is capability-driven | - (not addressed; the question does not yet arise - see Step 3D design note) |
+| 17 | literal behavior is capability-driven | **pass** - Step 9A: `scripts/validate_module_schema.mjs` proves both the enabled path (Yoma, 2262 real `en_lit` fields) and the disabled path (`demotractate`, correctly zero) generically, plus a negative-path proof that a module whose capability declaration disagrees with its actual content is rejected in both directions. See the Step 9A design note. |
 | 18 | build is module-aware | **pass** - Step 4A: `scripts/build.mjs` accepts explicit `--module <key>` (resolved via `shared/module_resolver.js`, unknown key fails before any write) and `--out <path>` for an isolated output directory; a `publishable:false` module is refused from the default `dist/` in both the explicit-module and unqualified-build paths. Default zero-argument output proven byte-identical before/after and against explicit `--module yoma`. Full fixture proof (row 27) still pending Step 5/6. |
 | 19 | browser testing is module-aware | **pass** - Step 4B: `tests/browser/rashi-association.spec.js` resolves its target module (and audit-script path, and default target daf) from `MYSUGYA_TEST_MODULE` via `resolveRashiModule()`; `run-rashi-association.mjs`/`rashi-browser-shard-runner.mjs` (Step 3D's two deferred items) now pass their own `--module` choice through to the spec. Unknown/Rashi-disabled module fails before any navigation. `yoma-smoke.spec.js`'s repeated literal deduplicated into one `MODULE_KEY` constant (its assertions stay Yoma-content-specific by design, not a generic hook); `runtime-guards.spec.js` left untouched (its Yoma/unknown-module cases are deliberate, per Step 1's BENIGN classification). |
 | 20 | docs generation is module-aware | **pass, no code change required** - Step 4B: `cmd_docs` generates only cross-tractate registry/schema documentation (no module-selection concept exists in its inputs); `generate_rashi_docs.py` is correctly PER_MODULE-tier clone-cost, not a blocker. See design note. |
@@ -897,7 +897,7 @@ attempted; this PR is read-only and changes none of these to a pass.
 | 23 | fixture can be scaffolded from empty state | - (still open: Step 6 proved the *existing* fixture resolves/builds/renders correctly, not that a documented from-nothing scaffold process reproduces it) |
 | 24 | fixture can ingest synthetic local source | **pass, updated at Step 8** - matching row 9/12's reasoning: the criterion requires correct PER_MODULE-scoped ingestion given the required `sourceAcquisition` descriptor field, not a generic/shared ingestion command (none is expected for Yoma either). The fixture's own generator reads `assets/fixture_source/` (the `local-fixture` strategy's committed, never-fetched input) exactly as Yoma's own per-module scripts read their sources - the same model, correctly followed. |
 | 25 | fixture can generate all required artifacts | **pass** - Step 5: `scripts/build_learning_data.py` produces `source_store.js`, `learning_data.js`, `coverage.json`; output verified via `require()` (3 daf, 4 sugyot, 8 argumentFlow types, all 4 sourceRefs shapes present), and via real browser rendering in Step 6. |
-| 26 | fixture validates | - (still open: no generic, module-selectable validator has been run against it) |
+| 26 | fixture validates | **pass** - Step 9A: `node scripts/validate_module_schema.mjs --module demotractate --search-root tests/fixtures/modules` passes cleanly (schema-complete, capability declarations match content). See the Step 9A design note. |
 | 27 | fixture builds | **pass** - Step 6: `node scripts/build.mjs --module demotractate --search-root tests/fixtures/modules --out <dir>` builds the fixture in complete isolation; output verified to contain only the fixture's own module directory. |
 | 28 | fixture passes browser tests | **pass, via a dedicated proof script, not the formal `tests/browser/*.spec.js` suite** - Step 6: `scripts/fixture_onboarding_browser_check.mjs` launches a real headless Chromium against the isolated build and asserts correct DOM rendering (2 sugyot, 5 lines, placeholder marker present, zero page errors) for `?module=demotractate&daf=1a`. |
 | 29 | fixture documentation generates | - (still open: no fixture-specific docs-generation script exists, matching Yoma's PER_MODULE-tier `generate_rashi_docs.py`) |
@@ -995,3 +995,80 @@ and must not start until Phase 3 closes.
 No real second tractate was started or selected as part of this Step 1
 work. No Yoma content, Rashi association, or argumentFlow/sourceRefs
 contract was touched. Phase 4 was not started.
+
+## Step 9A design note: generic capability-aware validator (rows 17, 26)
+
+A six-row closure campaign, launched after Step 8's honest BLOCKED
+report, to close the remaining acceptance-matrix rows through direct
+machine evidence. This is the first of its PRs.
+
+**New tool**: `scripts/validate_module_schema.mjs`, a generic
+(`--module`/`--search-root`) validator - unlike
+`modules/yoma/scripts/validate_schema_completeness.py` (PER_MODULE tier,
+reads the pre-generation `*.learning.json` enrichment files), this reads
+the GENERATED `learning_data.js` - the artifact that actually ships and
+renders - for any resolvable module. It checks two things:
+
+1. **Schema completeness**: every sugya carries `display.title` and the
+   required `learning.*` fields, mirroring
+   `validate_schema_completeness.py`'s required-field list exactly.
+2. **Capability-vs-content consistency**: `capabilities.rashi.enabled`
+   and `capabilities.literalTranslation.enabled` must agree with what is
+   actually present in the corpus (`rashiLines`, `line.en_lit`) - a
+   disabled capability must carry zero of that content; an enabled one
+   must carry at least some. This is what makes literal-translation
+   behavior capability-driven (row 17), expressed as a content-vs-
+   declaration consistency check (a validator checks data) rather than a
+   resolution-time error (`resolveRashiModule()`'s job, which gates a
+   tool call, not data).
+
+**Loading `learning_data.js` generically**: it is a plain JS script
+(`const X = {...};`), not JSON, and Yoma's own emitter
+(`build_learning_data.py`'s `emit_line()`) uses unquoted-key object
+literals - genuine JS syntax, not JSON-compatible. Rather than writing a
+bespoke object-literal parser (the Yoma-specific `_js_parser.py` already
+in this repo is explicitly scoped to Yoma's exact emitted format and
+does not attempt to parse arbitrary JavaScript, so reusing it would
+reintroduce a hidden Yoma coupling into supposedly generic tooling -
+exactly what this campaign has been eliminating), the validator appends
+an explicit `module.exports` line to a scratch copy of the file and lets
+Node's own parser handle it. Works identically whether or not the
+original file already has its own export guard.
+
+**Proof, both directions of every capability**:
+
+```
+$ node scripts/validate_module_schema.mjs --module yoma
+Daf: 173  Sugyot: 492  ArgumentFlow steps: 1953
+capabilities.rashi.enabled=true rashiLines=8854
+capabilities.literalTranslation.enabled=true en_lit fields=2262
+OK: schema complete and capability declarations match corpus content.
+
+$ node scripts/validate_module_schema.mjs --module demotractate --search-root tests/fixtures/modules
+Daf: 3  Sugyot: 4  ArgumentFlow steps: 9
+capabilities.rashi.enabled=true rashiLines=2
+capabilities.literalTranslation.enabled=false en_lit fields=0
+OK: schema complete and capability declarations match corpus content.
+```
+
+Yoma proves the literal-**enabled** path (2262 real `en_lit` fields);
+demotractate proves the literal-**disabled** path (correctly zero) -
+both capability states proven generically, in one tool, against real
+committed data. Closes row 17 in full, not just "the question does not
+yet arise."
+
+**Negative-path proof** (throwaway synthetic descriptors, constructed
+only in `/tmp`, never committed, matching the established pattern from
+Steps 3B/4A): a module declaring `literalTranslation.enabled: true` with
+zero `en_lit` content is rejected (`capabilities.literalTranslation.enabled=true
+but zero en_lit fields were found`); a module declaring
+`rashi.enabled: false` with `rashiLines` present is rejected the other
+direction. Unknown module (`--module bogus`) fails `UNKNOWN_MODULE`
+before touching any file, same as every other resolver-backed tool in
+this campaign.
+
+**Yoma proof**: `git diff --stat origin/main -- modules/yoma/` is empty;
+the validator only reads `modules/yoma/learning_data.js`, never writes
+anything.
+
+
