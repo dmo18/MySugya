@@ -901,7 +901,7 @@ attempted; this PR is read-only and changes none of these to a pass.
 | 27 | fixture builds | **pass** - Step 6: `node scripts/build.mjs --module demotractate --search-root tests/fixtures/modules --out <dir>` builds the fixture in complete isolation; output verified to contain only the fixture's own module directory. |
 | 28 | fixture passes browser tests | **pass, via a dedicated proof script, not the formal `tests/browser/*.spec.js` suite** - Step 6: `scripts/fixture_onboarding_browser_check.mjs` launches a real headless Chromium against the isolated build and asserts correct DOM rendering (2 sugyot, 5 lines, placeholder marker present, zero page errors) for `?module=demotractate&daf=1a`. |
 | 29 | fixture documentation generates | - (still open: no fixture-specific docs-generation script exists, matching Yoma's PER_MODULE-tier `generate_rashi_docs.py`) |
-| 30 | fixture worker scope passes | **partial pass** - the underlying mechanism (`file_allowed()`'s `<module>` templating correctly rejects a mismatched module+path in both directions) was proven in Step 3A's `test_worker_policy.py` tests using a synthetic in-memory fixture; not yet re-exercised literally against the committed `demotractate` module by name. |
+| 30 | fixture worker scope passes | **pass** - Step 9B: `test_module_awareness_against_committed_fixture()` in `test_worker_policy.py` re-exercises the identical `<module>`-templating mechanism literally against the real, committed `tests/fixtures/modules/demotractate` fixture by name via real `worker_pipeline.py manifest` subprocesses with `MYSUGYA_MODULE_SEARCH_ROOT=tests/fixtures/modules`; `file_allowed()` permits demotractate-scoped paths against `module="demotractate"` and rejects them against `module="yoma"` (and vice versa), closing the gap Step 8 recorded. |
 | 31 | fixture operations do not read or write Yoma content | **pass** - Step 6: `scripts/test_fixture_onboarding.py` hashes `modules/yoma`'s entire tree (every file path + content) before and after resolver resolution, `worker_pipeline.py` manifest generation, and the isolated build+render - identical every time, proven, not just grep-inferred. |
 | 32 | Yoma operations do not depend on fixture content | **already true** (Yoma predates the fixture; no code path references it) |
 | 33 | Yoma content and counts remain unchanged | **pass** - Step 7: full tree-digest proof (not just `git diff --stat`) confirms every Yoma generator's output is byte-identical to the committed files; every corpus count re-verified against the original governing directive's figures. See the Step 7 design note. |
@@ -1070,5 +1070,63 @@ this campaign.
 **Yoma proof**: `git diff --stat origin/main -- modules/yoma/` is empty;
 the validator only reads `modules/yoma/learning_data.js`, never writes
 anything.
+
+## Step 9B design note: worker scope proven against the committed fixture (row 30)
+
+Second PR of the six-row closure campaign. Step 3A's
+`test_module_awareness()` already proved `file_allowed()`'s `<module>`
+templating is correct, but only against a synthetic, temp-directory-only
+fixture built by `_write_synthetic_module()` and named e.g.
+`fixturemasechet` - never re-exercised literally against the real,
+committed `tests/fixtures/modules/demotractate` fixture by name. Step 8
+recorded this gap explicitly.
+
+**Change**: `scripts/test_worker_policy.py` gains a new function,
+`test_module_awareness_against_committed_fixture()`, called from `main()`
+immediately after `test_module_awareness()`. It runs real
+`worker_pipeline.py manifest` subprocesses with
+`MYSUGYA_MODULE_SEARCH_ROOT=tests/fixtures/modules` and proves, against
+the actual committed fixture:
+
+1. `--module demotractate` resolves cleanly through the override and the
+   generated manifest carries `"module": "demotractate"`.
+2. With the same override set, `--module yoma` fails - the override
+   *replaces* the search root, it does not add to it, so the real
+   `modules/` tree is unreachable while it is in effect.
+3. With the override unset, `--module yoma` resolves exactly as before.
+4. `file_allowed()` (using the same `structural-repair` spec the
+   synthetic-fixture test already uses) rejects a Yoma path against
+   `module="demotractate"`, rejects a demotractate path against
+   `module="yoma"`, accepts a demotractate path against its own module,
+   and still accepts a Yoma path against its own module (sanity, proving
+   this test does not disturb the pre-existing real-corpus case).
+
+**Proof**:
+
+```
+$ python3 scripts/test_worker_policy.py
+...
+module awareness against the committed fixture (Phase 3 six-row closure, row 30):
+  ok  the real committed demotractate fixture resolves cleanly via the search-root override
+  ok  the generated manifest carries demotractate, not yoma
+  ok  with the override pointed at tests/fixtures/modules, yoma is not resolvable (the override replaces, not adds - the real modules/ tree is unreachable while it is set)
+  ok  with the override unset, yoma resolves exactly as before
+  ok  file_allowed for a Yoma learning_data.js against demotractate is refused (mismatched module+path is rejected, real fixture)
+  ok  file_allowed for a demotractate learning_data.js against yoma is refused (rejected in the other direction too, real fixture)
+  ok  file_allowed for a demotractate learning_data.js against demotractate's own module resolves correctly (a fixture-targeted manifest can write its own real, committed fixture paths)
+  ok  file_allowed for a Yoma learning_data.js against yoma's own module still works (sanity, unaffected by this test)
+
+OK: all worker policy tests passed.
+```
+
+This is what "worker scope is proven against the committed demotractate
+fixture" (row 30) means concretely: the same `<module>`-templating
+mechanism Step 3A proved in the abstract is now proven, by name, against
+the exact fixture module this campaign built and committed - not a
+synthetic stand-in.
+
+**Yoma proof**: `git diff --stat origin/main -- modules/yoma/` is empty;
+the new test only reads the fixture tree and runs `worker_pipeline.py`
+subprocesses, never writes anywhere.
 
 
