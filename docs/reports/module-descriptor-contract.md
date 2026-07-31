@@ -62,7 +62,12 @@ below.
   "schemaMapRef": "shared/schema_map.js",
   "capabilities": {
     "rashi": { "enabled": true, "allowlistsRoot": "modules/yoma/scripts/allowlists" },
-    "literalTranslation": { "enabled": true, "assetsDir": "modules/yoma/assets/literal_en" }
+    "literalTranslation": { "enabled": true, "assetsDir": "modules/yoma/assets/literal_en" },
+    "sourceAcquisition": {
+      "strategy": "remote-fetch",
+      "sourceSystem": "talmud.dev (Vilna layout) + Sefaria API (he/en text)",
+      "fetchScript": "modules/yoma/scripts/fetch_talmuddev.py"
+    }
   },
   "browserTest": { "defaultTargetDaf": "2a" },
   "docsOutput": { "auditBacklogDoc": "docs/rashi-audit-backlog.md" },
@@ -95,6 +100,7 @@ below.
 | `schemaMapRef` | yes | Path to the shared enrichment schema this module's learning JSON conforms to. Every module today points at the same `shared/schema_map.js`; the field exists so a future module-specific schema extension has somewhere to be declared without a resolver change. |
 | `capabilities.rashi.enabled` | yes | Boolean. When `true`, `capabilities.rashi.allowlistsRoot` is required (`FEATURE_INCONSISTENCY` if missing). When `false`, the field must be absent or `null` - a disabled feature declaring configuration for itself is also `FEATURE_INCONSISTENCY`, since it signals confusion about which is authoritative. |
 | `capabilities.literalTranslation.enabled` | yes | Same enabled/config-required-together rule, with `assetsDir`. |
+| `capabilities.sourceAcquisition.strategy` | yes | `"remote-fetch"` or `"local-fixture"`. Unlike `rashi`/`literalTranslation`, there is no legal disabled state - every module has SOME way it got its source data, so a missing `sourceAcquisition` block is `MISSING_FIELD`, not treated as "off." `"remote-fetch"` (Yoma's strategy - live talmud.dev/Sefaria calls, run interactively/offline by an operator, never by CI) requires `sourceSystem` and `fetchScript`, and forbids `fixtureInputDir`. `"local-fixture"` (synthetic modules only) requires `fixtureInputDir` (a directory of tiny committed synthetic source files, never fetched over the network) and forbids `sourceSystem`/`fetchScript` - a synthetic module must not claim a live source system it does not have. Added in Phase 3 Step 3B; see that step's design note in `docs/reports/phase3-inventory.md` for why this is the one genuinely missing piece from Step 2's original schema. |
 | `browserTest.defaultTargetDaf` | no | Default daf/page the module's browser smoke test targets. |
 | `docsOutput.auditBacklogDoc` | no | Where this module's generated audit backlog doc lives. |
 | `buildRuntime.dataScript` | yes | The path `app.jsx`/`build.mjs` load at runtime - must equal `paths.learningDataFile` (checked; disagreement is `FEATURE_INCONSISTENCY`, since these naming the same file twice with different values is exactly the kind of drift a single source of truth is supposed to prevent). |

@@ -1420,6 +1420,10 @@ def _write_synthetic_module(root, key, extra=None):
         "capabilities": {
             "rashi": {"enabled": False},
             "literalTranslation": {"enabled": False},
+            "sourceAcquisition": {
+                "strategy": "local-fixture",
+                "fixtureInputDir": f"modules/{key}/assets/fixture_source",
+            },
         },
         "browserTest": {"defaultTargetDaf": "2a"},
         "docsOutput": {},
