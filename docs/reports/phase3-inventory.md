@@ -58,11 +58,20 @@ descriptor rather than hardcoding them, and `scripts/worker_task_types.json`'s
 `allowedFiles` are `<module>`-templated and substituted the same way
 `<daf>` already is. Blocker 2 (`test_worker_policy.py`) keeps its 32
 Yoma-path assertions as Yoma regression tests, unchanged, plus new
-parallel module-awareness coverage (`test_module_awareness`). Blockers
-3-8 (the Rashi renderer/shard tooling and `generate_argument_taxonomy.py`)
-remain open, targeted at Step 3D per the PR sequence below. The original
-evidence rows above are left exactly as captured at Step 1 - this is the
-historical record of what Step 1 found, not a live status field.
+parallel module-awareness coverage (`test_module_awareness`). **Blockers
+3-7 are resolved as of Step 3D** - all five Rashi renderer/shard tools
+now accept an explicit `--module` flag and resolve via the new
+`resolveRashiModule()` helper, which also makes Rashi behavior
+capability-driven (row 16). **Blocker 8 is closed as of Step 3D by
+correction, not by a code change**: re-reading `generate_argument_taxonomy.py`
+in full found its one `yoma` mention is a doc comment asserting the
+script does NOT touch module content - the original Step 1
+characterization was a false positive from the audit tool's naive
+string-matching, not a real defect; see the Step 3D design note for
+the full correction. All 9 originally-identified blockers are now
+resolved. The original evidence rows above are left exactly as
+captured at Step 1 - this is the historical record of what Step 1
+found, not a live status field.
 
 Already generic, confirmed by the fixture-check portion of the existing
 audit tool plus direct inspection - **no change required**:
@@ -269,6 +278,95 @@ PER_MODULE pattern Step 1 already measured. This PR's contribution is
 the documented finding itself, closing acceptance-matrix rows 13-15
 with evidence rather than leaving them unverified.
 
+## Step 3D: Rashi renderer/shard tools, generate_argument_taxonomy.py, capability-driven behavior
+
+Closes blockers 3-8 (`scripts/audit-rashi-renderer-readiness.mjs`,
+`scripts/check-rashi-browser-shard-artifact.mjs`,
+`scripts/run-rashi-association.mjs`,
+`scripts/combine-rashi-browser-shards.mjs`,
+`scripts/rashi-browser-shard-runner.mjs`,
+`scripts/generate_argument_taxonomy.py`) and acceptance-matrix row 16.
+
+**Correction to blocker 8's original characterization.** Step 1's
+inventory said `generate_argument_taxonomy.py` "reads
+`modules/yoma/learning_data.js` to enumerate every observed
+argumentFlow.type value." Re-reading the file in full for this step
+shows that is wrong: its only `yoma` mention is inside a doc comment
+stating the OPPOSITE - that the script does **not** touch any module's
+learning JSON - and the script's actual logic reads only
+`shared/argument_step_taxonomy.json` (already a cross-tractate shared
+registry by design; its own docstring says "a new tractate just adds
+entries here") and writes only `app.jsx`. This is a false positive from
+Step 1's audit tool, whose PIN_RE/ID_RE regex matches any literal
+occurrence of `modules/yoma` or `"yoma"` regardless of whether the
+surrounding sentence asserts or denies a dependency. **No code change
+was needed or made to this file.** The corrected finding: 8 real
+blockers from Step 1, not 9 as originally counted (blocker 9,
+`scripts/worker_task_types.json`, is unaffected by this correction and
+remains real, resolved in Step 3A).
+
+**Blockers 3-7** (`audit-rashi-renderer-readiness.mjs`,
+`check-rashi-browser-shard-artifact.mjs`, `run-rashi-association.mjs`,
+`combine-rashi-browser-shards.mjs`, `rashi-browser-shard-runner.mjs`)
+share one pattern: each resolves `modules/yoma/scripts/
+audit_rashi_association.py` or a Yoma-hardcoded allowlist path via a
+literal string, with no module parameter. All five now accept an
+explicit `--module` flag (default `"yoma"`, an explicit documented
+default matching the exception already established for `worker_pipeline.py`'s
+CLI, since every existing npm script and CI workflow call site invokes
+these with no flag and must keep working unchanged) and resolve via a
+new `resolveRashiModule(key, repoRoot, searchRoot?)` helper added to
+`shared/module_resolver.js`: `resolveModule()` plus one added check
+that `capabilities.rashi.enabled` is `true`, throwing a distinct
+`CAPABILITY_DISABLED` error otherwise - **this is what makes "Rashi
+behavior is capability-driven" (row 16) concrete**: a module with
+Rashi disabled gets a clear, explicit rejection naming the reason,
+never a crash on a missing allowlist file and never a silently-empty
+false pass.
+
+`check-rashi-browser-shard-artifact.mjs`'s exported `DEFAULT_ARTIFACT_PATH`
+constant (imported by nothing outside this file, confirmed by search)
+is left untouched as the explicit Yoma-only default; a non-default
+module resolves its own artifact path through the descriptor instead.
+
+**Scope boundary, deliberately not crossed here**: `run-rashi-association.mjs`
+and `rashi-browser-shard-runner.mjs` both launch
+`tests/browser/rashi-association.spec.js` via the `YOMA_ASSOC_PLAN_PATH`
+env var. That launch step is left exactly as-is - making the browser
+spec itself module-aware is Phase 3 Step 4's job ("browser testing is
+module-aware"), not this one's. Both files now clearly comment this
+boundary at the exact line it applies.
+
+**Yoma proof**: `audit-rashi-renderer-readiness.mjs`'s full output
+(8 checks against the live 173-daf corpus) is byte-identical before and
+after this change (`diff` of the two runs' captured output: no
+difference), for both the implicit default and an explicit `--module yoma`.
+`combine-rashi-browser-shards.mjs` and `check-rashi-browser-shard-artifact.mjs`
+were exercised directly with synthetic shard files and produce
+identical results with and without the change. Every one of the five
+tools rejects an unknown module (`UNKNOWN_MODULE`) before touching any
+file, and a synthetic Rashi-disabled module resolves the descriptor
+successfully but is rejected with `CAPABILITY_DISABLED` specifically
+(not conflated with an unknown-module error) - both proven directly
+against `resolveRashiModule` and via each CLI tool's own `--module`
+handling. 3 new tests added to `tests/unit/module-resolver.test.mjs`
+(27 total, up from 24).
+
+**Row 17 (literal behavior is capability-driven): not addressed by
+this step, and the question does not yet arise.** None of the 6
+blockers here touch literal-translation tooling at all - confirmed by
+reading all six for `literal_en`/literal references (zero hits).
+Yoma's own `build_literal_layer.py`/`validate_literal.py` were never
+flagged as blockers in Step 1 in the first place: they already live
+under `modules/yoma/scripts/` (PER_MODULE tier) using cwd-relative
+paths, with no shared root-level tool depending on them the way the
+five Rashi `.mjs` tools depended on `audit_rashi_association.py`. There
+is currently no generic call site that could invoke literal validation
+against the wrong module, so there is nothing yet to capability-gate;
+this becomes a real question only once Step 4 wires a generic,
+module-selectable validator/build path. Left open, not claimed
+resolved.
+
 ## Phase 3 acceptance matrix
 
 Tracked here and re-verified at Step 8 closure. `-` means not yet
@@ -291,8 +389,8 @@ attempted; this PR is read-only and changes none of these to a pass.
 | 13 | sourceRefs validation is module-aware | **pass, no code change required** - Step 3C found `validate_source_refs.py`'s coordinate-containment/classification core (`build_anchor_table`, `classify_daf`) already structurally module-agnostic; its two Yoma-specific regexes are correctly scoped, not gaps (see design note below) |
 | 14 | argumentFlow validation is module-aware | **pass, no code change required** - Step 3C found `validate_argument_taxonomy.py`'s R1-R5/R7 structural checks already module-agnostic (operate on the registry-vs-corpus relationship, not on any hardcoded module identity); R6 transitively depends on blocker 8 (`generate_argument_taxonomy.py`), left for Step 3D as already planned |
 | 15 | general schema validation is module-aware | **pass, no code change required** - Step 3C found `validate_schema_completeness.py` already correctly capability-agnostic: it checks only the always-required `display`/`learning` fields and never touches `rashiTranslations`/`en_lit` at all (those are `validate_rashi.py`/`validate_literal.py`'s job, Step 3D's scope); `shared/schema_map.js` already declares `rashiLines: {required: false}`, confirming the shared schema itself was already designed for an optional Rashi layer |
-| 16 | Rashi behavior is capability-driven | - |
-| 17 | literal behavior is capability-driven | - |
+| 16 | Rashi behavior is capability-driven | **pass** - Step 3D: `resolveRashiModule()` (`shared/module_resolver.js`) rejects a Rashi-disabled module with a distinct `CAPABILITY_DISABLED` error, adopted by all 5 Rashi renderer/shard tools; proven against a synthetic Rashi-disabled module and via 3 new tests |
+| 17 | literal behavior is capability-driven | - (not addressed; the question does not yet arise - see Step 3D design note) |
 | 18 | build is module-aware | - |
 | 19 | browser testing is module-aware | - |
 | 20 | docs generation is module-aware | - |

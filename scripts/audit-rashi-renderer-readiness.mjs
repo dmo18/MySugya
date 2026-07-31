@@ -46,10 +46,23 @@ import { spawnSync } from 'node:child_process';
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createRequire } from 'node:module';
 
 const __dirname = resolve(fileURLToPath(import.meta.url), '..');
 const ROOT = resolve(__dirname, '..');
-const YOMA = resolve(ROOT, 'modules/yoma');
+const require = createRequire(import.meta.url);
+const { resolveRashiModule } = require('../shared/module_resolver.js');
+
+const moduleArg = process.argv.indexOf('--module');
+const moduleKey = moduleArg !== -1 ? process.argv[moduleArg + 1] : 'yoma';
+let descriptor;
+try {
+  descriptor = resolveRashiModule(moduleKey, ROOT);
+} catch (e) {
+  console.error(`FAILED: ${e.code}: ${e.message}`);
+  process.exit(1);
+}
+const YOMA = resolve(ROOT, descriptor.paths.root);
 
 function readJson(path) {
   return JSON.parse(readFileSync(path, 'utf8'));
@@ -189,7 +202,7 @@ check('exhaustive browser corpus association run (sharded workflow artifact)', (
   // actual workflow run), or reporting any failure. This script never
   // hardcodes a pass and never accepts a manually stated result in place of
   // that artifact.
-  const r = run('node', ['scripts/check-rashi-browser-shard-artifact.mjs'], ROOT);
+  const r = run('node', ['scripts/check-rashi-browser-shard-artifact.mjs', '--module', moduleKey], ROOT);
   return {
     pass: r.code === 0,
     detail: r.code === 0 ? r.stdout.trim() : (r.stdout + r.stderr).trim().split('\n').slice(-8).join(' | '),

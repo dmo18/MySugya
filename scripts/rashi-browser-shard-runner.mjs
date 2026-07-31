@@ -29,16 +29,19 @@ import { mkdtempSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createRequire } from 'node:module';
 
 const __dirname = resolve(fileURLToPath(import.meta.url), '..');
 const ROOT = resolve(__dirname, '..');
+const require = createRequire(import.meta.url);
 
 function parseArgs(argv) {
-  const opts = { shardIndex: null, shardCount: null, out: null };
+  const opts = { shardIndex: null, shardCount: null, out: null, module: 'yoma' };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--shard-index') opts.shardIndex = Number(argv[++i]);
     else if (argv[i] === '--shard-count') opts.shardCount = Number(argv[++i]);
     else if (argv[i] === '--out') opts.out = argv[++i];
+    else if (argv[i] === '--module') opts.module = argv[++i];
   }
   if (opts.shardIndex === null || opts.shardCount === null || !opts.out) {
     console.error('Usage: rashi-browser-shard-runner.mjs --shard-index N --shard-count M --out FILE');
@@ -66,7 +69,15 @@ export function shardSlice(dafList, shardIndex, shardCount) {
 
 if (import.meta.url === `file://${process.argv[1]}`) {
   const opts = parseArgs(process.argv.slice(2));
-  const auditScript = resolve(ROOT, 'modules/yoma/scripts/audit_rashi_association.py');
+  const { resolveRashiModule } = require('../shared/module_resolver.js');
+  let descriptor;
+  try {
+    descriptor = resolveRashiModule(opts.module, ROOT);
+  } catch (e) {
+    console.error(`[shard-runner] FAILED: ${e.code}: ${e.message}`);
+    process.exit(1);
+  }
+  const auditScript = resolve(ROOT, descriptor.paths.scriptsRoot, 'audit_rashi_association.py');
 
   const listResult = spawnSync('python3', [auditScript, '--list-daf'], { cwd: ROOT, encoding: 'utf8' });
   if (listResult.status !== 0) {
@@ -104,6 +115,10 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   writeFileSync(planPath, JSON.stringify(plan), 'utf8');
   console.log(`[shard-runner] plan written (${plan.daf_list.length} daf, ${plan.findings.length} entries); running browser spec...`);
 
+  // The browser spec itself and YOMA_ASSOC_PLAN_PATH are not module-
+  // parameterized here - Phase 3 Step 4's job, same deferral as
+  // run-rashi-association.mjs. This script's own module resolution
+  // (above) is real for any Rashi-enabled module.
   const playwrightResult = spawnSync(
     'npx',
     ['playwright', 'test', 'tests/browser/rashi-association.spec.js', '--reporter=json'],
