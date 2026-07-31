@@ -60,7 +60,7 @@ Docs, scripts, CI, hooks, and pipeline changes. No module data. Sonnet only for 
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: n/a
-- allowed files: docs/*, scripts/*, modules/yoma/scripts/*.py, modules/yoma/scripts/allowlists/*, modules/yoma/MODULE.md, .github/workflows/*, githooks/*, package.json, package-lock.json, VERSION, README.md, CLAUDE.md, SOURCES.md, tests/*, .worker-manifest.json, .worker-queue.json
+- allowed files: docs/*, scripts/*, shared/*, modules/*/module.json, modules/yoma/scripts/*.py, modules/yoma/scripts/allowlists/*, modules/yoma/MODULE.md, .github/workflows/*, githooks/*, package.json, package-lock.json, VERSION, README.md, CLAUDE.md, SOURCES.md, tests/*, .worker-manifest.json, .worker-queue.json
 - allowlist policy: restructure-with-env; structure policy: not-applicable
 - required validators: validate:offline:yoma
 - stop conditions:
