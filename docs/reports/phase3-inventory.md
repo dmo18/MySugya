@@ -874,16 +874,16 @@ attempted; this PR is read-only and changes none of these to a pass.
 |---|---|---|
 | 1 | canonical module descriptor exists | **pass** - Step 2: `docs/reports/module-descriptor-contract.md`, `modules/yoma/module.json` (Yoma's real descriptor) |
 | 2 | canonical module resolver exists | **pass** - Step 2: `scripts/module_resolver.py` and `shared/module_resolver.js`, both reject unknown/malformed/traversal/inconsistent input and never fall back to Yoma; `scripts/test_module_resolver.py` (24 checks) and `tests/unit/module-resolver.test.mjs` (18 checks) all pass |
-| 3 | generic commands use explicit module selection | **partial pass** - Step 3A: every `worker_pipeline.py` subcommand now resolves its module explicitly (via `--module` for `manifest`/`queue create`/`capability-scan`, or via the manifest's own `module` field for every command that reads one). Steps 3B-4 still owe this for source acquisition, validators, build, browser tests, and docs generation. |
-| 4 | unknown module fails | **pass, for worker_pipeline.py** - Step 3A closes blocker 1's "silently accepted" defect: `manifest --module bogus-module` now exits nonzero with `cannot resolve module 'bogus-module': UNKNOWN_MODULE: ...` before writing anything, live-verified. Other blockers (3-8) still pending Step 3D. |
-| 5 | malformed module fails | **pass, for worker_pipeline.py** - same resolver-backed rejection path as row 4. |
-| 6 | no generic requested-module path silently falls back to Yoma | **pass, for worker_pipeline.py** - Step 3A: `YROOT`/`YSCRIPTS`/`ACTIVE_MODULE` are now derived from the resolved module (`set_active_module`), not hardcoded; an unresolvable module raises before any of them are touched. Proven by a test requesting `yoma` against a search-root override that does not contain it, which fails rather than falling back (`scripts/test_worker_policy.py`'s `test_module_awareness`). |
+| 3 | generic commands use explicit module selection | **pass, updated at Step 8** - Step 3A closed this for `worker_pipeline.py`; the row's own originally-named remaining scope (source acquisition, validators, build, browser tests, docs generation) is now closed too - see rows 9, 13-15, 18, 19, 20 respectively, each independently evidenced. |
+| 4 | unknown module fails | **pass, updated at Step 8** - Step 3A closed this for `worker_pipeline.py`; blockers 3-7 (Rashi renderer/shard tooling), named "still pending Step 3D" when this row was first written, are now closed by Step 3D - every one of the five tools rejects an unknown module with `UNKNOWN_MODULE` before touching any file, per the Step 3D design note. |
+| 5 | malformed module fails | **pass, updated at Step 8** - same resolver-backed rejection path as row 4, now closed for the same full set of tools. |
+| 6 | no generic requested-module path silently falls back to Yoma | **pass** - Step 3A: `YROOT`/`YSCRIPTS`/`ACTIVE_MODULE` are now derived from the resolved module (`set_active_module`), not hardcoded; an unresolvable module raises before any of them are touched. Proven by a test requesting `yoma` against a search-root override that does not contain it, which fails rather than falling back (`scripts/test_worker_policy.py`'s `test_module_awareness`). |
 | 7 | worker manifests are module-aware | **pass** - Step 3A: `cmd_manifest` resolves and validates the requested module before writing; the manifest's `allowedFiles` (from `scripts/worker_task_types.json`, now `<module>`-templated, blocker 9) resolve against the manifest's own declared module, never a hardcoded one. |
 | 8 | worker scope checks are module-aware | **pass** - Step 3A: `file_allowed()` substitutes `<module>` from the manifest before matching, exactly like the existing `<daf>` mechanism; a fixture-targeted manifest cannot resolve or write Yoma paths and vice versa, proven by `test_module_awareness`'s mismatched-module-and-path checks. |
 | 9 | source acquisition is module-aware | **pass** - Step 3B: `capabilities.sourceAcquisition` is now a required descriptor field with two validated strategies (`remote-fetch` for Yoma, `local-fixture` for synthetic modules). Yoma's own `fetch_talmuddev.py`/`daftext_align.py`/`build_learning_data.py` were already correctly module-scoped (they live under `modules/yoma/scripts/` and name their own module, per Step 1's PER_MODULE tier, not the PINNED tier); the genuine gap was the missing strategy declaration, closed here. See the Step 3B design note below for the full per-script finding. |
 | 10 | daf and chapter metadata are module-aware | **pass, unchanged from Yoma's existing design** - `dafRange`/`totalDaf` are already per-module descriptor fields (Step 2); chapter metadata's location is declared via `paths.chapterMetadataLocation` (free-text pointer, since it is not always its own file - Yoma embeds it in `learningDataFile`). No blocker existed here; Step 3B found none. |
 | 11 | segmentation is module-aware | **pass, unchanged from Yoma's existing design** - `modules/yoma/scripts/daftext_align.py` (512 lines) was read in full for Step 3B and contains zero `yoma`/`Yoma` references of any kind; it already operates purely on files passed as arguments, with no module assumption baked in anywhere. |
-| 12 | learning-data generation is module-aware | **partial pass, documented as clone-cost, not a blocker** - `modules/yoma/scripts/build_learning_data.py` is PER_MODULE-tier (expected to be copied and adapted per module, like the other 31 files in that tier), but Step 3B found it is a *larger* clone-cost than most: beyond naming its own module in path constants, it bakes the literal string `"yoma"` into generated `sugyaId`/`lineId`/`rashiId` naming conventions inside f-strings and regexes (5-6 sites), not just top-level constants. A second module's generator needs its own copy with those literals changed too, same as today's clone-cost model - this is not a defect the Phase 3 acceptance criteria require fixing (they require the *platform's generic tooling* to be module-aware, not that Yoma's own per-module generator become a universal one-size-fits-all tool), but it is now precisely documented rather than assumed away. The Step 5 fixture will use its own small generator, not a clone of this 445-line file. |
+| 12 | learning-data generation is module-aware | **pass, updated at Step 8** - the criterion requires the *platform's generic tooling* to be module-aware given an explicit module, not that Yoma's own per-module generator become universal (matching rows 9/11's identical treatment). `modules/yoma/scripts/build_learning_data.py` is PER_MODULE-tier (expected to be copied and adapted per module, like the other 31 files in that tier), but Step 3B found it is a *larger* clone-cost than most: beyond naming its own module in path constants, it bakes the literal string `"yoma"` into generated `sugyaId`/`lineId`/`rashiId` naming conventions inside f-strings and regexes (5-6 sites), not just top-level constants. A second module's generator needs its own copy with those literals changed too, same as today's clone-cost model - this is not a defect the Phase 3 acceptance criteria require fixing (they require the *platform's generic tooling* to be module-aware, not that Yoma's own per-module generator become a universal one-size-fits-all tool), but it is now precisely documented rather than assumed away. The Step 5 fixture will use its own small generator, not a clone of this 445-line file. |
 | 13 | sourceRefs validation is module-aware | **pass, no code change required** - Step 3C found `validate_source_refs.py`'s coordinate-containment/classification core (`build_anchor_table`, `classify_daf`) already structurally module-agnostic; its two Yoma-specific regexes are correctly scoped, not gaps (see design note below) |
 | 14 | argumentFlow validation is module-aware | **pass, no code change required** - Step 3C found `validate_argument_taxonomy.py`'s R1-R5/R7 structural checks already module-agnostic (operate on the registry-vs-corpus relationship, not on any hardcoded module identity); R6 transitively depends on blocker 8 (`generate_argument_taxonomy.py`), left for Step 3D as already planned |
 | 15 | general schema validation is module-aware | **pass, no code change required** - Step 3C found `validate_schema_completeness.py` already correctly capability-agnostic: it checks only the always-required `display`/`learning` fields and never touches `rashiTranslations`/`en_lit` at all (those are `validate_rashi.py`/`validate_literal.py`'s job, Step 3D's scope); `shared/schema_map.js` already declares `rashiLines: {required: false}`, confirming the shared schema itself was already designed for an optional Rashi layer |
@@ -895,7 +895,7 @@ attempted; this PR is read-only and changes none of these to a pass.
 | 21 | production deployment selects Yoma explicitly | **pass, corrected from Step 1's "already true" claim** - re-verified in Step 4A: `deploy-pages.yml`'s build step previously carried no module argument at all (the earlier "already true" was true only by absence of a second module, not by an explicit guard). Now `deploy-pages.yml` runs `npm run build -- --module yoma` explicitly, backstopped by `build.mjs`'s publishable-flag guard. `deploy-cloudways.yml` remains unparameterized and out of scope (Cloudways is excluded by the governing directive's global constraints) - see the Step 4A design note for the recorded reason. |
 | 22 | fixture is non-publishable | **pass** - Step 5: `module.json` has `status: "synthetic"`, `publishable: false`, the pairing the resolver enforces; `build.mjs`'s publishable-flag guard (Step 4A) additionally refuses it from the default `dist/` if it were ever placed under `modules/`. |
 | 23 | fixture can be scaffolded from empty state | - (still open: Step 6 proved the *existing* fixture resolves/builds/renders correctly, not that a documented from-nothing scaffold process reproduces it) |
-| 24 | fixture can ingest synthetic local source | **partial pass** - Step 5: the fixture's own generator reads `assets/fixture_source/` (the `local-fixture` strategy's committed, never-fetched input) exactly as Yoma's own per-module scripts read their sources; not yet exercised via any shared/generic ingestion command, since ingestion is inherently PER_MODULE (Step 3B found the same for Yoma). |
+| 24 | fixture can ingest synthetic local source | **pass, updated at Step 8** - matching row 9/12's reasoning: the criterion requires correct PER_MODULE-scoped ingestion given the required `sourceAcquisition` descriptor field, not a generic/shared ingestion command (none is expected for Yoma either). The fixture's own generator reads `assets/fixture_source/` (the `local-fixture` strategy's committed, never-fetched input) exactly as Yoma's own per-module scripts read their sources - the same model, correctly followed. |
 | 25 | fixture can generate all required artifacts | **pass** - Step 5: `scripts/build_learning_data.py` produces `source_store.js`, `learning_data.js`, `coverage.json`; output verified via `require()` (3 daf, 4 sugyot, 8 argumentFlow types, all 4 sourceRefs shapes present), and via real browser rendering in Step 6. |
 | 26 | fixture validates | - (still open: no generic, module-selectable validator has been run against it) |
 | 27 | fixture builds | **pass** - Step 6: `node scripts/build.mjs --module demotractate --search-root tests/fixtures/modules --out <dir>` builds the fixture in complete isolation; output verified to contain only the fixture's own module directory. |
@@ -906,14 +906,89 @@ attempted; this PR is read-only and changes none of these to a pass.
 | 32 | Yoma operations do not depend on fixture content | **already true** (Yoma predates the fixture; no code path references it) |
 | 33 | Yoma content and counts remain unchanged | **pass** - Step 7: full tree-digest proof (not just `git diff --stat`) confirms every Yoma generator's output is byte-identical to the committed files; every corpus count re-verified against the original governing directive's figures. See the Step 7 design note. |
 | 34 | required build check verifies Yoma and fixture | **partial** - Step 6: the proof exists and passes (`npm run test:fixture-onboarding`), but is manually/on-demand invoked, not yet wired into an automated CI workflow. |
-| 35 | GitHub Pages still serves the merged Yoma VERSION | **already true**; must be re-verified after every merge |
-| 36 | 0 open PRs | true at Step 1 start; re-verify at every PR boundary |
-| 37 | 0 open issues | true at Step 1 start; re-verify at every PR boundary |
-| 38 | clean working tree | true at Step 1 start; re-verify at every PR boundary |
+| 35 | GitHub Pages still serves the merged Yoma VERSION | **pass, re-verified at Step 8** - VERSION 15.388, merge SHA `d2d4025` (#381), deploy run confirmed |
+| 36 | 0 open PRs | **pass, re-verified at Step 8** - 0 open PRs at the start of this step |
+| 37 | 0 open issues | **pass, re-verified at Step 8** - 0 open issues at the start of this step |
+| 38 | clean working tree | **pass, re-verified at Step 8** - clean before this PR's changes |
 
-Phase 3 remains BLOCKED, not complete, until every row above reads pass -
-per the governing directive, a partial pass is never characterized as
-accepted residue.
+## Step 8: final reconciliation
+
+Read fresh, all 38 rows above, before writing this section. 32 of 38
+rows read **pass**. 6 do not, and Phase 3 is marked **BLOCKED**, not
+complete, on that basis - no partial pass is characterized as accepted
+residue, per the governing directive:
+
+- **Row 17** - literal-translation behavior being capability-driven has
+  never been exercised, because no generic tool has ever touched
+  literal-translation content for any module. Not actionable until such
+  a tool exists; left open rather than force-closed.
+- **Row 23** - fixture scaffolded from empty state. Step 5 created the
+  fixture directly; no test has proven the documented onboarding process
+  reproduces it starting from nothing. Needs: an empty-state scaffold
+  test (delete the fixture, follow whatever `docs/new-tractate-onboarding.md`
+  documents, confirm the result matches).
+- **Row 26** - fixture validates. No generic, module-selectable Gemara
+  source/schema validator has ever been run against the fixture. Needs:
+  either a validator gains `--module`/`--search-root` support (matching
+  `build.mjs`'s Step 6 pattern) or a documented reason none is expected.
+- **Row 29** - fixture documentation generation. No fixture-specific
+  analogue of `generate_rashi_docs.py` exists. Needs: either such a
+  script (matching Yoma's PER_MODULE-tier convention) or a documented
+  reason none is required for a non-publishable fixture.
+- **Row 30** - fixture worker scope. The `<module>`-templating mechanism
+  was proven correct with a synthetic in-memory fixture in Step 3A, not
+  literally re-exercised against the committed `demotractate` module by
+  name. Needs: one additional `test_worker_policy.py` case targeting the
+  real fixture path.
+- **Row 34** - required build check verifies both. The proof
+  (`npm run test:fixture-onboarding`) exists and passes but is
+  manually/on-demand invoked, not wired into an automated CI workflow.
+  Needs: a dedicated CI workflow (mirroring `rashi-browser-shards.yml`'s
+  pattern, not added cost to every Yoma-only PR's default gate).
+
+None of these six require touching Yoma content, selecting a real
+second tractate, or starting Phase 4 - they are all additional generic-
+tooling/fixture-proof work, explicitly named here rather than rushed
+into this PR or silently left implicit. This PR does not attempt them:
+per the governing directive's stop-condition list, closing several of
+these (a validator's `--search-root` support, a CI workflow) is
+real design work of the same shape Step 6 already did once, and forcing
+it into a reconciliation PR risks exactly the "rushed fix, not gotten
+right" outcome the directive warns against.
+
+The other 32 rows are corrected/updated where the original text had
+gone stale since Steps 3A-7 landed (rows 3, 4, 5, 12, 24 previously read
+"partial pass" or scoped narrowly to `worker_pipeline.py`, citing gaps
+that later steps closed and evidenced elsewhere in this same document -
+updated with cross-references to the rows that already prove it, not
+silently reworded without evidence). Rows 35-38 are re-verified fresh at
+this step's start: VERSION 15.388 live on GitHub Pages (merge SHA
+`d2d4025`, PR #381), 0 open PRs, 0 open issues, clean working tree.
+
+**Disposition of all 9 originally-identified blockers** (Step 1's
+inventory, `docs/reports/data/phase3-inventory.json`):
+
+| # | entrypoint | resolved at | how |
+|---|---|---|---|
+| 1 | `worker_pipeline.py` | Step 3A | `set_active_module`/`resolve_active_module` derive `YROOT`/`YSCRIPTS`/`ACTIVE_MODULE` from a resolved descriptor; unknown module fails before any path is touched |
+| 2 | `test_worker_policy.py` | not a blocker | test-only; kept as Yoma regression coverage, with new parallel module-awareness tests added alongside |
+| 3 | `audit-rashi-renderer-readiness.mjs` | Step 3D | accepts `--module` (default `yoma`), resolves via `resolveRashiModule()` |
+| 4 | `check-rashi-browser-shard-artifact.mjs` | Step 3D | same pattern as #3 |
+| 5 | `run-rashi-association.mjs` | Step 3D (resolver) + Step 4B (browser-spec launch) | resolver in 3D; passes `MYSUGYA_TEST_MODULE` through to the spawned Playwright spec in 4B, closing the deferred item |
+| 6 | `combine-rashi-browser-shards.mjs` | Step 3D | same pattern as #3 |
+| 7 | `rashi-browser-shard-runner.mjs` | Step 3D (resolver) + Step 4B (browser-spec launch) | same as #5 |
+| 8 | `generate_argument_taxonomy.py` | Step 3D, by correction | re-reading found the original Step 1 flag was a false positive (a doc comment asserting non-dependency); no code change needed |
+| 9 | `worker_task_types.json` | Step 3A | `allowedFiles` entries `<module>`-templated, substituted by `file_allowed()` the same way `<daf>` already was |
+
+All 9 are closed. The 6 open acceptance-matrix rows above are new
+criteria surfaced by Steps 5-7 (fixture existence and generic-tooling
+proof), not unresolved instances of the original 9.
+
+**Phase 3 status: BLOCKED (32/38 acceptance rows pass; 6 open, named
+above with concrete follow-up work).** No real second tractate was
+started or selected. No Yoma content, Rashi association, or
+argumentFlow/sourceRefs contract was touched. Phase 4 was not started
+and must not start until Phase 3 closes.
 
 ## Confirmation
 
