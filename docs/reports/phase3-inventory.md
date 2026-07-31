@@ -900,7 +900,7 @@ attempted; this PR is read-only and changes none of these to a pass.
 | 26 | fixture validates | **pass** - Step 9A: `node scripts/validate_module_schema.mjs --module demotractate --search-root tests/fixtures/modules` passes cleanly (schema-complete, capability declarations match content). See the Step 9A design note. |
 | 27 | fixture builds | **pass** - Step 6: `node scripts/build.mjs --module demotractate --search-root tests/fixtures/modules --out <dir>` builds the fixture in complete isolation; output verified to contain only the fixture's own module directory. |
 | 28 | fixture passes browser tests | **pass, via a dedicated proof script, not the formal `tests/browser/*.spec.js` suite** - Step 6: `scripts/fixture_onboarding_browser_check.mjs` launches a real headless Chromium against the isolated build and asserts correct DOM rendering (2 sugyot, 5 lines, placeholder marker present, zero page errors) for `?module=demotractate&daf=1a`. |
-| 29 | fixture documentation generates | - (still open: no fixture-specific docs-generation script exists, matching Yoma's PER_MODULE-tier `generate_rashi_docs.py`) |
+| 29 | fixture documentation generates | **pass** - Step 9C: `scripts/generate_module_docs.py`, a new generic (`--module`/`--search-root`/`--check`) doc generator, produces and freshness-checks `docs/module-status-demotractate.md` from the descriptor + coverage.json + real corpus counts; proven generic against real Yoma content too via a scratch-only dry run that never writes into the repo. See the Step 9C design note. |
 | 30 | fixture worker scope passes | **pass** - Step 9B: `test_module_awareness_against_committed_fixture()` in `test_worker_policy.py` re-exercises the identical `<module>`-templating mechanism literally against the real, committed `tests/fixtures/modules/demotractate` fixture by name via real `worker_pipeline.py manifest` subprocesses with `MYSUGYA_MODULE_SEARCH_ROOT=tests/fixtures/modules`; `file_allowed()` permits demotractate-scoped paths against `module="demotractate"` and rejects them against `module="yoma"` (and vice versa), closing the gap Step 8 recorded. |
 | 31 | fixture operations do not read or write Yoma content | **pass** - Step 6: `scripts/test_fixture_onboarding.py` hashes `modules/yoma`'s entire tree (every file path + content) before and after resolver resolution, `worker_pipeline.py` manifest generation, and the isolated build+render - identical every time, proven, not just grep-inferred. |
 | 32 | Yoma operations do not depend on fixture content | **already true** (Yoma predates the fixture; no code path references it) |
@@ -1128,5 +1128,71 @@ synthetic stand-in.
 **Yoma proof**: `git diff --stat origin/main -- modules/yoma/` is empty;
 the new test only reads the fixture tree and runs `worker_pipeline.py`
 subprocesses, never writes anywhere.
+
+## Step 9C design note: generic fixture documentation generation (row 29)
+
+Third PR of the six-row closure campaign. Row 29 was open because no
+fixture-specific docs-generation script existed, matching Yoma's
+PER_MODULE-tier `generate_rashi_docs.py`.
+
+**New tool**: `scripts/generate_module_docs.py`, a generic
+(`--module`/`--search-root`/`--check`/`--out`) status-doc generator -
+unlike `generate_rashi_docs.py` (PER_MODULE tier: reads Yoma's own
+scaffold-debt baseline and curated task-type map to maintain a large
+historical narrative document), this derives a small, fully
+deterministic status doc for any resolvable module purely from:
+
+1. the resolved module descriptor (identity, `dafRange`, `totalDaf`,
+   capabilities, `sourceAcquisition` strategy),
+2. `coverage.json` (the file `module.json`'s `paths.coverageFile` points
+   at),
+3. the real corpus counts in `learning_data.js` - read by shelling out to
+   `scripts/validate_module_schema.mjs` and parsing its printed counts,
+   rather than writing a second bespoke JS-object-literal parser (the
+   same anti-pattern Step 9A already avoided once; reusing the one
+   generic reader that already exists is the correct move a second time,
+   not a coincidence).
+
+**No volatile field**: deliberately excludes commit hash, timestamp, and
+even the live `VERSION` stamp - unlike `generate_rashi_docs.py`'s
+summary block, which does carry `VERSION` (and is wired into
+`validate:offline:yoma`, so this PR's own VERSION bump from 15.390 to
+15.391 required regenerating it, confirmed live by the CI failure this
+PR's first push hit and fixed). `VERSION` bumps on nearly every PR in
+this campaign; a module whose own content has not changed should not go
+stale just because an unrelated PR bumped the platform version. The
+output is therefore byte-reproducible from committed inputs alone, and
+`--check` is a plain string comparison - no semantic field-by-field
+diffing needed, unlike `generate_rashi_docs.py`'s `check_freshness()`.
+
+**Proof, generated and committed for the fixture**:
+
+```
+$ python3 scripts/generate_module_docs.py --module demotractate --search-root tests/fixtures/modules
+wrote docs/module-status-demotractate.md (3 daf, 4 sugyot, 9 argumentFlow steps)
+
+$ python3 scripts/generate_module_docs.py --module demotractate --search-root tests/fixtures/modules --check
+OK: docs/module-status-demotractate.md is fresh.
+```
+
+**Proof of genericity against real Yoma content, scratch-only, never
+written into the repo**:
+
+```
+$ python3 scripts/generate_module_docs.py --module yoma --out /tmp/.../module-status-yoma.md
+wrote /tmp/.../module-status-yoma.md (173 daf, 492 sugyot, 1953 argumentFlow steps)
+```
+
+The scratch output correctly reports Yoma's real counts (173 daf, 492
+sugyot, 1953 argumentFlow steps, `rashi enabled=true rashiLines=8854`,
+`literalTranslation enabled=true en_lit fields=2262`) and the same tool
+also correctly reports the fixture's own numbers with the opposite
+literal-translation capability state (`enabled=false`, 0 `en_lit`
+fields) - the same enabled/disabled proof pattern Step 9A established,
+now extended to a second, independent generic tool.
+
+**Yoma proof**: `git diff --stat origin/main -- modules/yoma/` is empty;
+the `--out` dry run wrote only to a scratch path outside the repo, never
+to `docs/` or `modules/yoma/`.
 
 
