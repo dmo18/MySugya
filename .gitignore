@@ -7,3 +7,10 @@ __pycache__/
 
 dist/
 assets/
+
+# Phase 3 Step 5 fixture: the root-level assets/ rule above also matches
+# any assets/ directory by name at any depth; explicitly re-include the
+# synthetic fixture's committed assets (see
+# tests/fixtures/modules/demotractate/MODULE.md).
+!/tests/fixtures/modules/demotractate/assets/
+!/tests/fixtures/modules/demotractate/assets/**

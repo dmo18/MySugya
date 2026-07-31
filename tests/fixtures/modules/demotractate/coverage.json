@@ -1,0 +1,13 @@
+{
+ "tractate": "Demo Tractate (Synthetic Fixture)",
+ "version": "1.0",
+ "dafCompleted": 3,
+ "dafTotal": 3,
+ "sugyaCount": 4,
+ "rashiLineCount": 2,
+ "enrichedDaf": [
+  "1a",
+  "1b",
+  "2a"
+ ]
+}

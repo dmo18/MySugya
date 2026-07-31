@@ -1,0 +1,33 @@
+{
+  "key": "demotractate",
+  "displayNameEn": "Demo Tractate (Synthetic Fixture - Not Real Content)",
+  "displayNameHe": "דֻּגְמָה",
+  "status": "synthetic",
+  "publishable": false,
+  "seder": "Fixture",
+  "dafRange": { "first": "1a", "last": "2a" },
+  "totalDaf": 3,
+  "paths": {
+    "root": "modules/demotractate",
+    "scriptsRoot": "modules/demotractate/scripts",
+    "sourceAssetsRoot": "modules/demotractate/assets",
+    "generatedAssetsRoot": "modules/demotractate/assets",
+    "sourceStore": "modules/demotractate/source_store.js",
+    "learningDataDir": "modules/demotractate/assets/learning/demotractate",
+    "learningDataFile": "modules/demotractate/learning_data.js",
+    "coverageFile": "modules/demotractate/coverage.json",
+    "chapterMetadataLocation": "embedded in learningDataFile (PERAKIM constant)"
+  },
+  "schemaMapRef": "shared/schema_map.js",
+  "capabilities": {
+    "rashi": { "enabled": true, "allowlistsRoot": "modules/demotractate/scripts/allowlists" },
+    "literalTranslation": { "enabled": false },
+    "sourceAcquisition": {
+      "strategy": "local-fixture",
+      "fixtureInputDir": "modules/demotractate/assets/fixture_source"
+    }
+  },
+  "browserTest": { "defaultTargetDaf": "1a" },
+  "docsOutput": { "auditBacklogDoc": "docs/rashi-audit-backlog-demotractate.md" },
+  "buildRuntime": { "dataScript": "modules/demotractate/learning_data.js" }
+}
