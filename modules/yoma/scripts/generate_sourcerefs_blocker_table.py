@@ -71,7 +71,7 @@ def main():
     merged = []
     for e in dossier:
         c = by_key[(e["sugyaId"], e["stepId"])]
-        merged.append({
+        case = {
             "daf": e["daf"],
             "sugyaId": e["sugyaId"],
             "stepId": e["stepId"],
@@ -89,9 +89,15 @@ def main():
             "evidence": c["evidence"],
             "proposedAction": c["proposedAction"],
             "residualUncertainty": c["residualUncertainty"],
-        })
+        }
+        if "resolution" in c:
+            case["resolvedAt"] = c["resolvedAt"]
+            case["resolution"] = c["resolution"]
+            case["resolutionEvidence"] = c["resolutionEvidence"]
+        merged.append(case)
 
     counts = Counter(m["classification"] for m in merged)
+    resolved = [m for m in merged if "resolution" in m]
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     (DATA_DIR / "sourcerefs-blocker-table.json").write_text(
@@ -113,20 +119,28 @@ def main():
                 "REPAIRABLE_LOCAL", "METADATA_ONLY"):
         lines.append(f"- `{cls}`: {counts.get(cls, 0)}")
     lines.append("")
-    lines.append("| daf | sugya | step | defect class | classification | proposed action |")
-    lines.append("|---|---|---|---|---|---|")
+    if resolved:
+        lines.append(f"**{len(resolved)} of {len(merged)} cases are now resolved** "
+                      "(sourceRefs corrected in the live corpus; this table's evidence "
+                      "rows are the historical record of the original classification, "
+                      "kept in place, not deleted). See each case's Resolution note below.")
+        lines.append("")
+    lines.append("| daf | sugya | step | defect class | classification | status | proposed action |")
+    lines.append("|---|---|---|---|---|---|---|")
     for m in merged:
         action = m["proposedAction"].split(".")[0] + "."
+        status = f"RESOLVED ({m['resolvedAt']})" if "resolution" in m else "unresolved"
         lines.append(
             f"| {m['daf']} | {m['sugyaId']} | {m['stepId']} | {m['defectClass']} | "
-            f"**{m['classification']}** | {action} |"
+            f"**{m['classification']}** | {status} | {action} |"
         )
     lines.append("")
     lines.append("## Full evidence per case")
     lines.append("")
     for m in merged:
+        status = f"RESOLVED, {m['resolvedAt']}" if "resolution" in m else "unresolved"
         lines.append(f"### {m['daf']} / {m['sugyaId']} / {m['stepId']} "
-                      f"({m['classification']})")
+                      f"({m['classification']}, {status})")
         lines.append("")
         lines.append(f"- **Step type/label**: {m['stepType']} - {m['stepLabel']}")
         lines.append(f"- **Step text**: {m['stepText']}")
@@ -136,6 +150,9 @@ def main():
         lines.append(f"- **Evidence**: {m['evidence']}")
         lines.append(f"- **Proposed action**: {m['proposedAction']}")
         lines.append(f"- **Residual uncertainty**: {m['residualUncertainty']}")
+        if "resolution" in m:
+            lines.append(f"- **Resolution ({m['resolution']}, {m['resolvedAt']})**: "
+                          f"{m['resolutionEvidence']}")
         lines.append("")
 
     (REPO / "docs" / "reports" / "sourcerefs-blocker-table.md").write_text(

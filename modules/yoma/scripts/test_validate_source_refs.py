@@ -356,6 +356,44 @@ check("corpus proposal set is lossless",
       all(ok for _, ok, _ in pre.losslessness_report(props)),
       str([(c, n) for c, ok, n in pre.losslessness_report(props) if not ok]))
 
+# ------------------------------------------------- final two sourceRefs
+print("\nfinal two sourceRefs blockers (44b, 63a) resolved in the live corpus")
+
+check("corpus has zero sourceRefs defects of any class",
+      sum(counts[c] for c in vsr.DEFECT_CLASSES) == 0, str(dict(counts)))
+check("corpus totals exactly 1953 refs (1620 OK + 331 string + 2 crossDaf)",
+      counts["OK"] == 1620 and counts["STRING_RESOLVABLE"] == 331 and
+      counts["OK_CROSSDAF"] == 2 and total == 1953, str(dict(counts)))
+
+daf_44b, sugyot_44b = vsr.load_daf(vsr.LEARN_DIR / "44b.learning.json")
+step_44b = next(
+    step for sugya in sugyot_44b if sugya["id"] == "yoma-044b-s01"
+    for step in sugya["argumentFlow"] if step["id"] == "yoma-044b-l01")
+check("44b compound step carries its two ordered refs, in authored order",
+      step_44b["sourceRefs"] == [
+          {"sourceType": "gemara", "lineId": "yoma-044b-l01a", "vilnaLine": 1},
+          {"sourceType": "gemara", "lineId": "yoma-044b-l01b", "vilnaLine": 1},
+      ], str(step_44b["sourceRefs"]))
+_, findings_44b = vsr.classify_daf(daf_44b, sugyot_44b)
+check("both 44b refs resolve on the same daf with no defect finding",
+      not [f for f in findings_44b if f["stepId"] == "yoma-044b-l01"],
+      str(findings_44b))
+
+daf_63a, sugyot_63a = vsr.load_daf(vsr.LEARN_DIR / "63a.learning.json")
+step_63a = next(
+    step for sugya in sugyot_63a if sugya["id"] == "yoma-063a-s01"
+    for step in sugya["argumentFlow"] if step["id"] == "yoma-063a-l03a")
+check("63a step's ref now targets the Rav Dimi transmission (yoma-063a-l10), "
+      "matching the step's own speaker field",
+      step_63a.get("speaker") == "Rav Dimi from Eretz Yisrael" and
+      step_63a["sourceRefs"] == [
+          {"sourceType": "gemara", "lineId": "yoma-063a-l10", "vilnaLine": 10},
+      ], str((step_63a.get("speaker"), step_63a["sourceRefs"])))
+_, findings_63a = vsr.classify_daf(daf_63a, sugyot_63a)
+check("the 63a ref resolves on the same daf with no defect finding",
+      not [f for f in findings_63a if f["stepId"] == "yoma-063a-l03a"],
+      str(findings_63a))
+
 print()
 if FAILURES:
     print(f"FAILED: {len(FAILURES)} check(s): {', '.join(FAILURES)}")

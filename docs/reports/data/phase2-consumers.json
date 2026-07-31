@@ -7,6 +7,7 @@
     "modules/yoma/learning_data.js",
     "modules/yoma/scripts/apply_sourcerefs_absent_removal.py",
     "modules/yoma/scripts/apply_sourcerefs_crossdaf_migration.py",
+    "modules/yoma/scripts/apply_sourcerefs_final_two.py",
     "modules/yoma/scripts/apply_sourcerefs_mechanical_repair.py",
     "modules/yoma/scripts/apply_sourcerefs_semantic_repair.py",
     "modules/yoma/scripts/generate_phase2_inventory.py",
