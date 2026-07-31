@@ -68,6 +68,20 @@ jobs:
       - name: Run browser smoke test
         run: npm run test:browser
 
+      - name: Run fixture onboarding proof
+        # Phase 3 row 34: the fixture-onboarding proof (Step 6) was
+        # previously only run manually/on-demand. Wiring it into the
+        # required build check means the platform's module-agnostic
+        # resolver/build/render chain is actually enforced on every PR,
+        # not just proven once and left to bit-rot.
+        run: npm run test:fixture-onboarding
+
+      - name: Run module scaffold proof
+        # Phase 3 row 23: proves a module can be produced from an empty
+        # directory and pass through the same generic chain, not just
+        # that the already-committed fixture resolves correctly.
+        run: npm run test:module-scaffold
+
       - name: Configure Pages
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: actions/configure-pages@v5
