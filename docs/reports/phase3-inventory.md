@@ -894,7 +894,7 @@ attempted; this PR is read-only and changes none of these to a pass.
 | 20 | docs generation is module-aware | **pass, no code change required** - Step 4B: `cmd_docs` generates only cross-tractate registry/schema documentation (no module-selection concept exists in its inputs); `generate_rashi_docs.py` is correctly PER_MODULE-tier clone-cost, not a blocker. See design note. |
 | 21 | production deployment selects Yoma explicitly | **pass, corrected from Step 1's "already true" claim** - re-verified in Step 4A: `deploy-pages.yml`'s build step previously carried no module argument at all (the earlier "already true" was true only by absence of a second module, not by an explicit guard). Now `deploy-pages.yml` runs `npm run build -- --module yoma` explicitly, backstopped by `build.mjs`'s publishable-flag guard. `deploy-cloudways.yml` remains unparameterized and out of scope (Cloudways is excluded by the governing directive's global constraints) - see the Step 4A design note for the recorded reason. |
 | 22 | fixture is non-publishable | **pass** - Step 5: `module.json` has `status: "synthetic"`, `publishable: false`, the pairing the resolver enforces; `build.mjs`'s publishable-flag guard (Step 4A) additionally refuses it from the default `dist/` if it were ever placed under `modules/`. |
-| 23 | fixture can be scaffolded from empty state | - (still open: Step 6 proved the *existing* fixture resolves/builds/renders correctly, not that a documented from-nothing scaffold process reproduces it) |
+| 23 | fixture can be scaffolded from empty state | **pass** - Step 9D: `scripts/scaffold_module.py` creates a minimal valid module skeleton (module.json + learning_data.js + coverage.json) from an empty directory given only `--key`/`--search-root`/capability flags; `scripts/test_module_scaffold.py` proves the from-nothing output resolves via `module_resolver`, passes `validate_module_schema.mjs`, builds in isolation via `build.mjs --search-root`, and renders in a real headless browser, for both a capabilities-disabled and a capabilities-enabled scaffold. See the Step 9D design note. |
 | 24 | fixture can ingest synthetic local source | **pass, updated at Step 8** - matching row 9/12's reasoning: the criterion requires correct PER_MODULE-scoped ingestion given the required `sourceAcquisition` descriptor field, not a generic/shared ingestion command (none is expected for Yoma either). The fixture's own generator reads `assets/fixture_source/` (the `local-fixture` strategy's committed, never-fetched input) exactly as Yoma's own per-module scripts read their sources - the same model, correctly followed. |
 | 25 | fixture can generate all required artifacts | **pass** - Step 5: `scripts/build_learning_data.py` produces `source_store.js`, `learning_data.js`, `coverage.json`; output verified via `require()` (3 daf, 4 sugyot, 8 argumentFlow types, all 4 sourceRefs shapes present), and via real browser rendering in Step 6. |
 | 26 | fixture validates | **pass** - Step 9A: `node scripts/validate_module_schema.mjs --module demotractate --search-root tests/fixtures/modules` passes cleanly (schema-complete, capability declarations match content). See the Step 9A design note. |
@@ -1194,5 +1194,78 @@ now extended to a second, independent generic tool.
 **Yoma proof**: `git diff --stat origin/main -- modules/yoma/` is empty;
 the `--out` dry run wrote only to a scratch path outside the repo, never
 to `docs/` or `modules/yoma/`.
+
+## Step 9D design note: scaffold a module from empty state (row 23)
+
+Fourth PR of the six-row closure campaign. Step 6 proved the *existing,
+committed* `demotractate` fixture resolves/builds/renders correctly
+through the generic tooling chain; it never proved that fixture's shape
+is reproducible from nothing by a documented, generic process. Row 23
+was open for exactly that gap.
+
+**New tool**: `scripts/scaffold_module.py`, a generic
+(`--key`/`--search-root`/`--daf`/`--rashi`/`--literal`) scaffolder that
+writes a minimal valid module skeleton - `module.json`,
+`learning_data.js` (one daf, one sugya, one line, schema-complete per
+`shared/schema_map.js`'s required fields), and `coverage.json` - into an
+empty directory. It always forces `status: "synthetic"`,
+`publishable: false`, and `capabilities.sourceAcquisition.strategy:
+"local-fixture"`: this tool can only ever produce a throwaway/fixture
+module, never a production one, so accidental misuse cannot create a
+shadow-production descriptor. It refuses to write into (or containing)
+the real `modules/` tree, and refuses to overwrite an existing
+directory. Immediately after writing, it resolves its own output through
+the real `module_resolver.resolve_module()` before declaring success - a
+scaffold that does not pass its own resolver is not a valid scaffold.
+
+**Proof tool**: `scripts/test_module_scaffold.py` (`npm run
+test:module-scaffold`, same on-demand tier as `test:fixture-onboarding`
+- not wired into `npm test`), which drives the full chain against a
+fresh empty temp directory for two independent scaffolds:
+
+1. `scafmin` - both capabilities disabled.
+2. `scafcap` - both capabilities enabled (rashi + literalTranslation).
+
+For each: `scaffold_module.py` writes the skeleton; the module is
+confirmed unresolvable with no override and resolves cleanly with one
+(same no-implicit-fallback pattern as every other module-aware tool in
+this campaign); `validate_module_schema.mjs` passes it; `build.mjs
+--module <key> --search-root <dir> --out <dir>` builds it in complete
+isolation; `fixture_onboarding_browser_check.mjs` (Step 6's existing,
+unmodified generic browser-check tool - reused, not cloned) launches a
+real headless Chromium against the isolated build and confirms correct
+DOM rendering with zero page errors.
+
+**Proof**:
+
+```
+$ npm run test:module-scaffold
+--- Step 1: scaffold with both capabilities disabled ---
+scaffolded .../scafmin (key=scafmin, daf=1a, rashi=disabled, literal=disabled) - resolves cleanly via module_resolver
+OK: scafmin unresolvable by default, resolves cleanly via override
+OK: schema complete and capability declarations match corpus content.
+OK: module=scafmin daf=1a rendered 1 sugyot, 1 lines, marker present, zero page errors
+OK: scafmin (rashi=disabled, literal=disabled) scaffolded from nothing, resolved, validated, built in isolation, and rendered in a real browser
+
+--- Step 2: scaffold with rashi + literal enabled ---
+scaffolded .../scafcap (key=scafcap, daf=1a, rashi=enabled, literal=enabled) - resolves cleanly via module_resolver
+OK: scafcap unresolvable by default, resolves cleanly via override
+OK: schema complete and capability declarations match corpus content.
+OK: module=scafcap daf=1a rendered 1 sugyot, 1 lines, marker present, zero page errors
+OK: scafcap (rashi=enabled, literal=enabled) scaffolded from nothing, resolved, validated, built in isolation, and rendered in a real browser
+
+OK: modules/yoma tree byte-identical before and after
+OK: Phase 3 row 23 scaffold-from-empty-state proof passed end to end.
+```
+
+Two independent throwaway modules, both capability states, all produced
+from an empty directory and proven through the same real generic tooling
+chain the committed `demotractate` fixture uses - neither is ever
+persisted outside its temp directory.
+
+**Yoma proof**: the proof script hashes `modules/yoma`'s entire tree
+(every file path + content) before scaffolding either module and after
+both complete; identical every time. `git diff --stat origin/main --
+modules/yoma/` is also empty for this PR's own changes.
 
 
