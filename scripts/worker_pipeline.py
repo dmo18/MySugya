@@ -83,6 +83,30 @@ def resolve_active_module(key):
         sys.exit(f"ERROR: cannot resolve module {key!r}: {e}")
 
 
+def _physical_root(descriptor):
+    """The module's real directory on disk. Honors MYSUGYA_MODULE_SEARCH_ROOT
+    the same way resolve_active_module does - descriptor["paths"]["root"]
+    is always the logical "modules/<key>" string (Step 2's validator
+    requires it unconditionally, even for a fixture physically living
+    elsewhere), so it is never safe to assume REPO / paths["root"] is the
+    real location. When no override is set this returns exactly
+    REPO / "modules" / key, byte-identical to the pre-Step-6 behavior."""
+    search_root = os.environ.get(MODULE_SEARCH_ROOT_ENV)
+    if search_root:
+        return Path(search_root) / descriptor["key"]
+    return REPO / "modules" / descriptor["key"]
+
+
+def _physical_path(descriptor, field):
+    """Resolve descriptor["paths"][field] (a logical, repo-relative
+    "modules/<key>/..." value) to its real physical location."""
+    logical_root = descriptor["paths"]["root"]
+    logical_value = descriptor["paths"][field]
+    suffix = logical_value[len(logical_root):].lstrip("/")
+    root = _physical_root(descriptor)
+    return root / suffix if suffix else root
+
+
 def set_active_module(descriptor):
     """Rebind the module-scoped globals to the given resolved descriptor.
     Must be called before any code path touches YROOT/YSCRIPTS/
@@ -90,8 +114,8 @@ def set_active_module(descriptor):
     invocation."""
     global YROOT, YSCRIPTS, ACTIVE_MODULE, SCAFFOLD_BASELINE, REPETITION_BASELINE
     ACTIVE_MODULE = descriptor
-    YROOT = REPO / descriptor["paths"]["root"]
-    YSCRIPTS = REPO / descriptor["paths"]["scriptsRoot"]
+    YROOT = _physical_path(descriptor, "root")
+    YSCRIPTS = _physical_path(descriptor, "scriptsRoot")
     SCAFFOLD_BASELINE = YSCRIPTS / "baselines" / "rashi_scaffold_debt.json"
     REPETITION_BASELINE = YSCRIPTS / "allowlists" / "rashi_repetition_baseline.json"
 

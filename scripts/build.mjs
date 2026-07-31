@@ -9,25 +9,39 @@ const { listModules, resolveModule } = require('../shared/module_resolver.js');
 
 // --module <key>: build only modules/<key> instead of the whole modules/
 // tree. --out <path>: write output to an isolated directory instead of the
-// default production dist/. A module whose module.json declares
+// default production dist/. --search-root <path> (or the
+// MYSUGYA_MODULE_SEARCH_ROOT env var, same convention worker_pipeline.py
+// established in Phase 3 Step 3A): resolve --module's descriptor from a
+// directory other than modules/ - the only way to build a module (e.g.
+// the Phase 3 Step 5 fixture) that intentionally lives outside modules/
+// so the modules/*/module.json glob never discovers it. Only legal
+// together with --module; there is no "search every module under an
+// alternate root" mode. A module whose module.json declares
 // publishable:false may never build into the default dist/ path (see the
 // publishable-flag guard below) - this is the defense-in-depth backstop
 // that keeps a non-publishable (e.g. synthetic fixture) module from ever
 // landing where GitHub Pages deploys from, in addition to the fixture's
 // own planned location outside modules/ entirely.
 function parseArgs(argv) {
-  const args = { module: null, out: null };
+  const args = { module: null, out: null, searchRoot: null };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === '--module') args.module = argv[++i];
     else if (arg.startsWith('--module=')) args.module = arg.slice('--module='.length);
     else if (arg === '--out') args.out = argv[++i];
     else if (arg.startsWith('--out=')) args.out = arg.slice('--out='.length);
+    else if (arg === '--search-root') args.searchRoot = argv[++i];
+    else if (arg.startsWith('--search-root=')) args.searchRoot = arg.slice('--search-root='.length);
   }
   return args;
 }
 
 const cli = parseArgs(process.argv.slice(2));
+const searchRootRaw = cli.searchRoot ?? process.env.MYSUGYA_MODULE_SEARCH_ROOT ?? null;
+if (searchRootRaw && !cli.module) {
+  throw new Error('build.mjs: --search-root is only legal together with --module - there is no "search every module under an alternate root" mode.');
+}
+const searchRootAbs = searchRootRaw ? resolve(process.cwd(), searchRootRaw) : null;
 const defaultDist = join(root, 'dist');
 const dist = cli.out ? resolve(process.cwd(), cli.out) : defaultDist;
 const isDefaultDist = resolve(dist) === resolve(defaultDist);
@@ -56,8 +70,14 @@ function validateManifestDataScripts(source) {
 validateManifestDataScripts(await readFile(join(root, 'manifest.js'), 'utf8'));
 
 let selectedModule = null;
+let selectedModulePhysicalDir = null;
+let selectedDescriptor = null;
 if (cli.module) {
-  const descriptor = resolveModule(cli.module, root);
+  const descriptor = resolveModule(cli.module, root, searchRootAbs ?? undefined);
+  selectedDescriptor = descriptor;
+  selectedModulePhysicalDir = searchRootAbs
+    ? join(searchRootAbs, cli.module)
+    : join(root, 'modules', cli.module);
   if (descriptor.publishable === false && isDefaultDist) {
     throw new Error(
       `build.mjs: module ${JSON.stringify(cli.module)} has publishable=false in its module.json ` +
@@ -122,14 +142,41 @@ await build({
   define: { '__MYSUGYA_PLATFORM_VERSION__': JSON.stringify(version) },
 });
 
-for (const file of ['styles.css', 'favicon.svg', 'manifest.js', 'daf.html']) {
+for (const file of ['styles.css', 'favicon.svg', 'daf.html']) {
   await cp(join(root, file), join(dist, file));
+}
+if (searchRootAbs) {
+  // An isolated build of a module resolved outside modules/ (the Step 5/6
+  // fixture) can never appear in the real, committed manifest.js - that
+  // file is never touched. Without SOME manifest entry naming it, the
+  // app shell's `?module=` lookup (app.jsx's MYSUGYA_MANIFEST.find) would
+  // fall through to the landing page, making an isolated fixture build
+  // unrenderable and therefore untestable. Synthesize a manifest.js
+  // containing only this one module's entry, from fields already present
+  // on its own resolved (and independently validated) descriptor - not
+  // hand-maintained, not written to the real manifest.js, and never
+  // reachable unless --search-root is explicitly passed.
+  const learningDataText = await readFile(join(selectedModulePhysicalDir, 'learning_data.js'), 'utf8');
+  const dataVersionMatch = learningDataText.match(/const DATA_VERSION = "([^"]+)"/);
+  const isolatedManifest = `const MYSUGYA_MANIFEST = ${JSON.stringify([{
+    id: selectedDescriptor.key,
+    title: selectedDescriptor.displayNameEn,
+    title_he: selectedDescriptor.displayNameHe ?? '',
+    seder: selectedDescriptor.seder ?? '',
+    dafRange: selectedDescriptor.dafRange,
+    totalDaf: selectedDescriptor.totalDaf,
+    dataScript: `modules/${selectedDescriptor.key}/learning_data.js`,
+    dataVersion: dataVersionMatch ? dataVersionMatch[1] : '1.0',
+  }], null, 2)};\n`;
+  await writeFile(join(dist, 'manifest.js'), isolatedManifest);
+} else {
+  await cp(join(root, 'manifest.js'), join(dist, 'manifest.js'));
 }
 await mkdir(join(dist, 'shared'), { recursive: true });
 await cp(join(root, 'shared/rashi_association.js'), join(dist, 'shared/rashi_association.js'));
 if (selectedModule) {
   await cp(
-    join(root, 'modules', selectedModule),
+    selectedModulePhysicalDir,
     join(dist, 'modules', selectedModule),
     { recursive: true }
   );

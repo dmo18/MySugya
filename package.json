@@ -1,7 +1,7 @@
 {
   "name": "mysugya",
   "private": true,
-  "version": "15.386",
+  "version": "15.387",
   "description": "My Sugya - universal Talmud study companion",
   "scripts": {
     "build": "node scripts/build.mjs",
@@ -69,6 +69,7 @@
     "audit:schema:semantics:yoma": "cd modules/yoma && python3 scripts/audit_schema_semantics.py",
     "report:schema:semantics:yoma": "cd modules/yoma && python3 scripts/audit_schema_semantics.py --report",
     "audit:replication": "python3 scripts/audit_replication_readiness.py",
+    "test:fixture-onboarding": "python3 scripts/test_fixture_onboarding.py",
     "validate:argument-taxonomy:yoma": "cd modules/yoma && python3 scripts/validate_argument_taxonomy.py",
     "test:argument-taxonomy:yoma": "cd modules/yoma && python3 scripts/test_validate_argument_taxonomy.py",
     "generate:argument-taxonomy": "python3 scripts/generate_argument_taxonomy.py",

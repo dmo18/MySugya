@@ -651,6 +651,92 @@ exactly as it was for everything else.
 (unqualified) `npm run build` produces `dist/modules/` containing only
 `yoma` - the fixture is invisible to the build exactly as designed.
 
+## Step 6: onboarding proven end-to-end via the generic tooling
+
+Closes the logical-vs-physical path gap Step 5 surfaced and deliberately
+did not fix, then proves the fixture works through the real, generic
+tooling - never a fixture-only parallel pipeline.
+
+**The consumer fix** (not a resolver change - `scripts/module_resolver.py`
+and `shared/module_resolver.js` already accepted `search_root`/`searchRoot`
+since Step 2): `worker_pipeline.py`'s `set_active_module()` previously
+computed `YROOT = REPO / descriptor["paths"]["root"]` directly, which is
+only correct when `search_root` is unset (Yoma's case, where
+`paths.root` and the real `modules/` location happen to agree). Two new
+helpers, `_physical_root()` and `_physical_path()`, derive the real
+directory from `MYSUGYA_MODULE_SEARCH_ROOT` (the same env var
+`resolve_active_module` already reads) when set, falling back to
+`REPO / "modules" / key` - byte-identical to the old behavior - when not.
+Proven identical for Yoma directly (`YROOT`/`YSCRIPTS` compared before
+and after the change) and correct for the fixture (`YROOT` resolves to
+the real `tests/fixtures/modules/demotractate`, confirmed to exist).
+
+`scripts/build.mjs` gained a matching `--search-root <path>` flag (or
+the same `MYSUGYA_MODULE_SEARCH_ROOT` env var, for consistency), legal
+only together with `--module` - there is deliberately no "scan every
+module under an alternate root" mode. The module-copy step now copies
+from the real physical directory (`search_root/<key>` when an override
+is given, `modules/<key>` otherwise) instead of always assuming
+`modules/<key>`.
+
+**A second gap this step found while proving the browser path**: even
+with the path fix, an isolated fixture build's `?module=demotractate`
+navigation would still fail - `app.jsx`'s module lookup
+(`MYSUGYA_MANIFEST.find(m => m.id === moduleId)`) only ever consults the
+real, committed `manifest.js`, which the fixture is never wired into (a
+hard global constraint). `build.mjs` now synthesizes a one-entry
+`manifest.js` for an isolated (`--search-root`-driven) build, built
+entirely from the already-validated descriptor's own fields plus the
+generated `learning_data.js`'s `DATA_VERSION` - never hand-maintained,
+never written to the real `manifest.js`, and only ever produced when
+`--search-root` is explicitly passed. Confirmed the real `manifest.js`
+is untouched (`git diff --stat origin/main -- manifest.js` empty) and a
+default/qualified `--module yoma` build with no `--search-root` still
+copies the real `manifest.js` verbatim, unchanged.
+
+**End-to-end proof, committed and repeatable**:
+`scripts/test_fixture_onboarding.py` (invoked via
+`npm run test:fixture-onboarding`, not part of `npm test` or
+`npm run test:browser` - reserved for a dedicated proof run, the same
+pattern already established for the Rashi `--exhaustive-corpus` mode,
+so default CI cost for this Yoma-only production repo is unaffected)
+proves, in one script:
+
+1. Both resolvers refuse the fixture with no override and resolve it
+   cleanly with an explicit override (`list_modules()`/`listModules()`
+   return only `["yoma"]` by default in both).
+2. `python3 scripts/worker_pipeline.py manifest --module demotractate`
+   with `MYSUGYA_MODULE_SEARCH_ROOT` set resolves the fixture correctly
+   via a real command (not just a unit test).
+3. `node scripts/build.mjs --module demotractate --search-root
+   tests/fixtures/modules --out <temp dir>` builds the fixture in total
+   isolation; the output contains only the fixture's own module
+   directory (asserted: no `modules/yoma` anywhere in it).
+4. A **real headless Chromium** (`scripts/fixture_onboarding_browser_check.mjs`)
+   loads the isolated build's `?module=demotractate&daf=1a` and asserts
+   2 `.sugya` elements, 5 `.line` elements, the `FIXTURE` placeholder
+   marker present in the rendered page text, and zero page/console
+   errors - proving actual DOM rendering, not just that files exist.
+5. `modules/yoma`'s full tree digest (every file's path and content
+   hashed together) is identical before and after every one of the
+   above steps, and the real `manifest.js` is byte-identical throughout.
+
+Run directly: `npm run test:fixture-onboarding` - passes cleanly.
+
+**What remains open, honestly**: this proof is manually/on-demand
+invoked, not yet wired into an automated CI workflow. Row 34 below is
+marked partial, not pass, for exactly that reason - adding a dedicated
+CI workflow (mirroring `rashi-browser-shards.yml`'s pattern rather than
+adding cost to every Yoma-only PR's default gate) is real additional
+work not yet done, recorded here rather than silently claimed.
+
+**Yoma proof**: full validation chain re-run after this step
+(`validate:offline:yoma`, `npm test` 27/27, `npm run test:browser` 16
+passed/1 skipped, `npm run build`, `npm run check:deploy-html`,
+`python3 scripts/test_worker_policy.py` all passing including its
+existing module-awareness tests) all pass unchanged. `git diff --stat
+origin/main -- modules/yoma/` is empty.
+
 ## Phase 3 acceptance matrix
 
 Tracked here and re-verified at Step 8 closure. `-` means not yet
@@ -680,18 +766,18 @@ attempted; this PR is read-only and changes none of these to a pass.
 | 20 | docs generation is module-aware | **pass, no code change required** - Step 4B: `cmd_docs` generates only cross-tractate registry/schema documentation (no module-selection concept exists in its inputs); `generate_rashi_docs.py` is correctly PER_MODULE-tier clone-cost, not a blocker. See design note. |
 | 21 | production deployment selects Yoma explicitly | **pass, corrected from Step 1's "already true" claim** - re-verified in Step 4A: `deploy-pages.yml`'s build step previously carried no module argument at all (the earlier "already true" was true only by absence of a second module, not by an explicit guard). Now `deploy-pages.yml` runs `npm run build -- --module yoma` explicitly, backstopped by `build.mjs`'s publishable-flag guard. `deploy-cloudways.yml` remains unparameterized and out of scope (Cloudways is excluded by the governing directive's global constraints) - see the Step 4A design note for the recorded reason. |
 | 22 | fixture is non-publishable | **pass** - Step 5: `module.json` has `status: "synthetic"`, `publishable: false`, the pairing the resolver enforces; `build.mjs`'s publishable-flag guard (Step 4A) additionally refuses it from the default `dist/` if it were ever placed under `modules/`. |
-| 23 | fixture can be scaffolded from empty state | - (Step 5 created it directly; proving the documented process reproduces it from nothing is Step 6's job) |
+| 23 | fixture can be scaffolded from empty state | - (still open: Step 6 proved the *existing* fixture resolves/builds/renders correctly, not that a documented from-nothing scaffold process reproduces it) |
 | 24 | fixture can ingest synthetic local source | **partial pass** - Step 5: the fixture's own generator reads `assets/fixture_source/` (the `local-fixture` strategy's committed, never-fetched input) exactly as Yoma's own per-module scripts read their sources; not yet exercised via any shared/generic ingestion command, since ingestion is inherently PER_MODULE (Step 3B found the same for Yoma). |
-| 25 | fixture can generate all required artifacts | **pass** - Step 5: `scripts/build_learning_data.py` produces `source_store.js`, `learning_data.js`, `coverage.json`; output verified via `require()` (3 daf, 4 sugyot, 8 argumentFlow types, all 4 sourceRefs shapes present). |
-| 26 | fixture validates | - (no generic, module-selectable validator exists yet to run against it - Step 6) |
-| 27 | fixture builds | - (`build.mjs` has no `search_root` override yet, so it cannot find a descriptor outside `modules/` - the logical-vs-physical path gap below blocks this; Step 6) |
-| 28 | fixture passes browser tests | - (Step 6) |
-| 29 | fixture documentation generates | - (Step 6) |
-| 30 | fixture worker scope passes | - (Step 6) |
-| 31 | fixture operations do not read or write Yoma content | **partial pass** - Step 5: confirmed for the fixture's own generator (zero functional references to `modules/yoma` anywhere in `build_learning_data.py`, grep-verified); full path-access-traced proof across every generic tool is Step 6/7's job. |
+| 25 | fixture can generate all required artifacts | **pass** - Step 5: `scripts/build_learning_data.py` produces `source_store.js`, `learning_data.js`, `coverage.json`; output verified via `require()` (3 daf, 4 sugyot, 8 argumentFlow types, all 4 sourceRefs shapes present), and via real browser rendering in Step 6. |
+| 26 | fixture validates | - (still open: no generic, module-selectable validator has been run against it) |
+| 27 | fixture builds | **pass** - Step 6: `node scripts/build.mjs --module demotractate --search-root tests/fixtures/modules --out <dir>` builds the fixture in complete isolation; output verified to contain only the fixture's own module directory. |
+| 28 | fixture passes browser tests | **pass, via a dedicated proof script, not the formal `tests/browser/*.spec.js` suite** - Step 6: `scripts/fixture_onboarding_browser_check.mjs` launches a real headless Chromium against the isolated build and asserts correct DOM rendering (2 sugyot, 5 lines, placeholder marker present, zero page errors) for `?module=demotractate&daf=1a`. |
+| 29 | fixture documentation generates | - (still open: no fixture-specific docs-generation script exists, matching Yoma's PER_MODULE-tier `generate_rashi_docs.py`) |
+| 30 | fixture worker scope passes | **partial pass** - the underlying mechanism (`file_allowed()`'s `<module>` templating correctly rejects a mismatched module+path in both directions) was proven in Step 3A's `test_worker_policy.py` tests using a synthetic in-memory fixture; not yet re-exercised literally against the committed `demotractate` module by name. |
+| 31 | fixture operations do not read or write Yoma content | **pass** - Step 6: `scripts/test_fixture_onboarding.py` hashes `modules/yoma`'s entire tree (every file path + content) before and after resolver resolution, `worker_pipeline.py` manifest generation, and the isolated build+render - identical every time, proven, not just grep-inferred. |
 | 32 | Yoma operations do not depend on fixture content | **already true** (Yoma predates the fixture; no code path references it) |
 | 33 | Yoma content and counts remain unchanged | **already true today**; must be re-proven after every subsequent PR |
-| 34 | required build check verifies Yoma and fixture | - |
+| 34 | required build check verifies Yoma and fixture | **partial** - Step 6: the proof exists and passes (`npm run test:fixture-onboarding`), but is manually/on-demand invoked, not yet wired into an automated CI workflow. |
 | 35 | GitHub Pages still serves the merged Yoma VERSION | **already true**; must be re-verified after every merge |
 | 36 | 0 open PRs | true at Step 1 start; re-verify at every PR boundary |
 | 37 | 0 open issues | true at Step 1 start; re-verify at every PR boundary |
