@@ -1,0 +1,30 @@
+{
+  "key": "yoma",
+  "displayNameEn": "Yoma",
+  "displayNameHe": "יוֹמאָ",
+  "sefariaTractate": "Yoma",
+  "status": "production",
+  "publishable": true,
+  "seder": "Moed",
+  "dafRange": { "first": "2a", "last": "88a" },
+  "totalDaf": 173,
+  "paths": {
+    "root": "modules/yoma",
+    "scriptsRoot": "modules/yoma/scripts",
+    "sourceAssetsRoot": "modules/yoma/assets",
+    "generatedAssetsRoot": "modules/yoma/assets",
+    "sourceStore": "modules/yoma/source_store.js",
+    "learningDataDir": "modules/yoma/assets/learning/yoma",
+    "learningDataFile": "modules/yoma/learning_data.js",
+    "coverageFile": "modules/yoma/coverage.json",
+    "chapterMetadataLocation": "embedded in learningDataFile (PERAKIM constant)"
+  },
+  "schemaMapRef": "shared/schema_map.js",
+  "capabilities": {
+    "rashi": { "enabled": true, "allowlistsRoot": "modules/yoma/scripts/allowlists" },
+    "literalTranslation": { "enabled": true, "assetsDir": "modules/yoma/assets/literal_en" }
+  },
+  "browserTest": { "defaultTargetDaf": "2a" },
+  "docsOutput": { "auditBacklogDoc": "docs/rashi-audit-backlog.md" },
+  "buildRuntime": { "dataScript": "modules/yoma/learning_data.js" }
+}

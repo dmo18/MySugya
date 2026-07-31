@@ -130,8 +130,8 @@ attempted; this PR is read-only and changes none of these to a pass.
 
 | # | criterion | status |
 |---|---|---|
-| 1 | canonical module descriptor exists | - |
-| 2 | canonical module resolver exists | - |
+| 1 | canonical module descriptor exists | **pass** - Step 2: `docs/reports/module-descriptor-contract.md`, `modules/yoma/module.json` (Yoma's real descriptor) |
+| 2 | canonical module resolver exists | **pass** - Step 2: `scripts/module_resolver.py` and `shared/module_resolver.js`, both reject unknown/malformed/traversal/inconsistent input and never fall back to Yoma; `scripts/test_module_resolver.py` (24 checks) and `tests/unit/module-resolver.test.mjs` (18 checks) all pass |
 | 3 | generic commands use explicit module selection | - |
 | 4 | unknown module fails | - (currently silently accepted, blocker 1/9) |
 | 5 | malformed module fails | - |
