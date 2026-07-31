@@ -197,6 +197,78 @@ cost precisely characterized rather than assumed (`build_learning_data.py`).
 No generic-tooling code required a change beyond the descriptor schema
 and its two resolvers.
 
+## Step 3C design note: semantic/schema validators
+
+Read in full: `modules/yoma/scripts/validate_schema_completeness.py`
+(183 lines), `validate_source_refs.py` (491 lines),
+`validate_argument_taxonomy.py` (156 lines), `validate_daftext.py`
+(135 lines). Unlike Step 3B, **zero generic-tooling code changes were
+required** - every genuine gap these four scripts touch was either
+already correctly designed for module-agnosticism, or is Yoma content
+policy that must not be universalized (per this campaign's explicit
+constraint not to convert the 331 canonical string sourceRefs or change
+the completed argumentFlow/sourceRefs contracts), or was already
+scoped to Step 3D.
+
+**`validate_daftext.py`**: zero `yoma`/`Yoma` references of any kind -
+already fully module-agnostic, same finding as `daftext_align.py` in
+Step 3B.
+
+**`validate_schema_completeness.py`**: standard `ROOT`/`LEARN_DIR`
+clone-cost constants (PER_MODULE tier, same as every other script in
+this tier). Its actual checks are already correctly capability-agnostic
+by construction: it validates only the fields `shared/schema_map.js`
+marks `required: true` (`display.title`, `learning.*`) and never reads
+`rashiTranslations` or `en_lit` at all - those are
+`validate_rashi.py`/`validate_literal.py`'s job, Step 3D's scope, not
+this one's. `shared/schema_map.js` already declares
+`rashiLines: {required: false}` - the shared schema itself was already
+designed for a module with no Rashi layer; this script simply never
+diverged from that.
+
+**`validate_argument_taxonomy.py`**: standard clone-cost constants.
+Its R1, R2, R3, R4, R5, R7 checks (registry integrity, no duplicate
+mappings, category coverage, no malformed type, no invented Hebrew, no
+silent Question fallback) operate purely on the relationship between
+the shared `shared/argument_step_taxonomy.json` registry and the
+corpus - genuinely module-agnostic structural logic, unrelated to any
+hardcoded module identity. R6 (renderer/registry parity) delegates to
+`generate_argument_taxonomy.py --check`, which is blocker 8 from Step 1
+(hardcodes `modules/yoma/learning_data.js`) - already scoped to Step 3D,
+not duplicated here.
+
+**`validate_source_refs.py`**: standard clone-cost constants, plus two
+Yoma-specific regexes that are correctly scoped, not gaps:
+- `STRING_REF_RE` matches Yoma's specific legacy string format
+  (`"Yoma.<daf>.<segment>"`). This is deliberately Yoma-only:
+  `docs/new-tractate-onboarding.md` already directs a new module to
+  author `sourceRefs` in canonical object form from the start, "never
+  the legacy string form, which exists only as Yoma's historical
+  accommodation." A new module will never have string-form refs, so
+  this regex correctly never needs to apply to one - it is not a
+  parameterization gap, it is retired-by-design for anyone but Yoma.
+- `LINE_ID_DAF_RE` and `derive_line_ids()`'s id-minting convention
+  (`f"yoma-{pad}-l{vl:02d}"`) mirror `build_learning_data.py`'s own
+  id convention exactly (the function's own docstring says so: "Mirrors
+  build_learning_data.py's daf_pad"). This is the identical clone-cost
+  already documented for `build_learning_data.py` in Step 3B, not a
+  new, separate defect - a second module's `validate_source_refs.py`
+  clone needs its own id-convention regex the same way its
+  `build_learning_data.py` clone needs its own id-minting f-strings.
+
+The coordinate-containment structural core (`build_anchor_table`,
+`classify_daf`) is genuinely module-agnostic already: it operates on
+Vilna-line intervals and segment ids as abstract coordinates, with no
+Yoma-specific logic beyond the id-shape regexes above.
+
+**Net effect of Step 3C**: no generic-tooling defect found. All four
+scripts were already correctly split between shared structural logic
+(already module-agnostic) and Yoma-specific content/id conventions
+that are appropriately per-module clone-cost, matching the same
+PER_MODULE pattern Step 1 already measured. This PR's contribution is
+the documented finding itself, closing acceptance-matrix rows 13-15
+with evidence rather than leaving them unverified.
+
 ## Phase 3 acceptance matrix
 
 Tracked here and re-verified at Step 8 closure. `-` means not yet
@@ -216,9 +288,9 @@ attempted; this PR is read-only and changes none of these to a pass.
 | 10 | daf and chapter metadata are module-aware | **pass, unchanged from Yoma's existing design** - `dafRange`/`totalDaf` are already per-module descriptor fields (Step 2); chapter metadata's location is declared via `paths.chapterMetadataLocation` (free-text pointer, since it is not always its own file - Yoma embeds it in `learningDataFile`). No blocker existed here; Step 3B found none. |
 | 11 | segmentation is module-aware | **pass, unchanged from Yoma's existing design** - `modules/yoma/scripts/daftext_align.py` (512 lines) was read in full for Step 3B and contains zero `yoma`/`Yoma` references of any kind; it already operates purely on files passed as arguments, with no module assumption baked in anywhere. |
 | 12 | learning-data generation is module-aware | **partial pass, documented as clone-cost, not a blocker** - `modules/yoma/scripts/build_learning_data.py` is PER_MODULE-tier (expected to be copied and adapted per module, like the other 31 files in that tier), but Step 3B found it is a *larger* clone-cost than most: beyond naming its own module in path constants, it bakes the literal string `"yoma"` into generated `sugyaId`/`lineId`/`rashiId` naming conventions inside f-strings and regexes (5-6 sites), not just top-level constants. A second module's generator needs its own copy with those literals changed too, same as today's clone-cost model - this is not a defect the Phase 3 acceptance criteria require fixing (they require the *platform's generic tooling* to be module-aware, not that Yoma's own per-module generator become a universal one-size-fits-all tool), but it is now precisely documented rather than assumed away. The Step 5 fixture will use its own small generator, not a clone of this 445-line file. |
-| 13 | sourceRefs validation is module-aware | - |
-| 14 | argumentFlow validation is module-aware | - |
-| 15 | general schema validation is module-aware | - |
+| 13 | sourceRefs validation is module-aware | **pass, no code change required** - Step 3C found `validate_source_refs.py`'s coordinate-containment/classification core (`build_anchor_table`, `classify_daf`) already structurally module-agnostic; its two Yoma-specific regexes are correctly scoped, not gaps (see design note below) |
+| 14 | argumentFlow validation is module-aware | **pass, no code change required** - Step 3C found `validate_argument_taxonomy.py`'s R1-R5/R7 structural checks already module-agnostic (operate on the registry-vs-corpus relationship, not on any hardcoded module identity); R6 transitively depends on blocker 8 (`generate_argument_taxonomy.py`), left for Step 3D as already planned |
+| 15 | general schema validation is module-aware | **pass, no code change required** - Step 3C found `validate_schema_completeness.py` already correctly capability-agnostic: it checks only the always-required `display`/`learning` fields and never touches `rashiTranslations`/`en_lit` at all (those are `validate_rashi.py`/`validate_literal.py`'s job, Step 3D's scope); `shared/schema_map.js` already declares `rashiLines: {required: false}`, confirming the shared schema itself was already designed for an optional Rashi layer |
 | 16 | Rashi behavior is capability-driven | - |
 | 17 | literal behavior is capability-driven | - |
 | 18 | build is module-aware | - |
