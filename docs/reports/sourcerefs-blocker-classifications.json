@@ -9,7 +9,10 @@
     "confidence": "medium",
     "evidence": "This step states two clauses ('no man' restricted to incense-burning; blood-sprinkling has a lesser exclusion). yoma-044b-l01a ('except during the burning of the incense') is a precise match for clause 1 alone. yoma-044b-l01b (about differential sanctification-removal standards between the Sanctuary's own sanctification and the blood presentation) is a plausible but distinct match for clause 2 alone. Neither segment states both clauses, and the step's own compound wording does not indicate which single segment it is meant to anchor to.",
     "proposedAction": "Leave blocked as a tie between two partially-supporting segments; report to a reviewer whether the step should be split into two steps (one per clause, each anchored to its own segment) rather than repaired to a single ref - that would be a step-authoring change, not a sourceRefs coordinate repair, and is out of scope for this campaign.",
-    "residualUncertainty": "Whether this is truly a tie or actually a compound-step-needs-splitting problem is itself unresolved; flagged for a future decision rather than guessed at here."
+    "residualUncertainty": "Whether this is truly a tie or actually a compound-step-needs-splitting problem is itself unresolved; flagged for a future decision rather than guessed at here.",
+    "resolvedAt": "VERSION 15.376, PR #369",
+    "resolution": "MULTI_REF_REPAIR",
+    "resolutionEvidence": "A final re-adjudication confirmed multiple sourceRefs on one argumentFlow step is an already-legal, already-used corpus shape (21 existing steps carried 2+ refs before this repair) with no renderer or navigation dependency (app.jsx never reads sourceRefs) and no validator cardinality limit. Each of the step's two clauses maps 1:1 onto one of the two real same-Vilna-line segments, so the tie was resolved as a two-ref repair rather than a step split: sourceRefs is now [{lineId: yoma-044b-l01a, vilnaLine: 1}, {lineId: yoma-044b-l01b, vilnaLine: 1}]. Full evidence in PR #369 commit message; tool in PR #368 (apply_sourcerefs_final_two.py)."
   },
   {
     "priorReviewIdx": 98,
@@ -105,7 +108,10 @@
     "confidence": "high",
     "evidence": "Full-daf search finds two segments (yoma-063a-l10 and yoma-063a-l17) that are both literal 'Rabbi Yirmeya said Rabbi Yochanan said' transmission-chain statements, i.e. both equally state 'Rabbi Yochanan's tradition supports this ruling.' Nothing in the surrounding argumentFlow, the two candidates' own text, or their position distinguishes which transmission the step means.",
     "proposedAction": "Leave blocked. Do not pick one of the two tied candidates by proximity or order; report both to a domain reviewer with Talmudic training who can judge from the fuller halakhic context which transmission this step's author intended, or accept the tie as permanent documented residue.",
-    "residualUncertainty": "A genuine tie between yoma-063a-l10 and yoma-063a-l17. No repository evidence breaks the tie."
+    "residualUncertainty": "A genuine tie between yoma-063a-l10 and yoma-063a-l17. No repository evidence breaks the tie.",
+    "resolvedAt": "VERSION 15.376, PR #369",
+    "resolution": "SPEAKER_FIELD_DISAMBIGUATION",
+    "resolutionEvidence": "A final re-adjudication used the step's own speaker field (\"Rav Dimi from Eretz Yisrael\"), not previously cross-referenced against candidate text by the prior five-way classification. It is a verbatim match to yoma-063a-l10's own transmission formula (\"When Rav Dimi came from Eretz Yisrael...\"), and l10's conclusion (exempt) matches and genuinely supports the ruling the step cites, matching the step's own type (support). yoma-063a-l17 is introduced by a different transmitter (Ravin) and concludes the opposite (liable), so it would contradict rather than support. Two independent discriminators (transmitter identity, direction of support) converge on l10 and rule out l17. sourceRefs is now [{lineId: yoma-063a-l10, vilnaLine: 10}]. Full evidence in PR #369 commit message; tool in PR #368 (apply_sourcerefs_final_two.py)."
   },
   {
     "priorReviewIdx": 7,

@@ -1,8 +1,9 @@
 # sourceRefs canonical contract: decision record
 
-**Status: contract defined and validated. No data migration in this
-document** - the mechanical and judgment-required repairs this contract
-enables are separate, later PRs (Phase 2, Steps 4). This is Phase 2B of
+**Status: contract defined and validated; Phase 2B is now COMPLETE** (see
+the closing update below). No data migration is recorded in this
+document itself - the mechanical and judgment-required repairs this
+contract enables were applied in separate, later PRs. This is Phase 2B of
 `docs/platform-closure-plan.md`.
 
 **Update: a third shape was added later in the same campaign.** The union
@@ -15,6 +16,22 @@ rationale, schema, and the two confirmed cases it applies to. The
 reasoning below (why string form is not inferior, why sourceType cannot
 be synthesized) is unaffected and still governs the same-daf/string
 choice; it does not need to be reread through the cross-daf lens.
+
+**Closing update, VERSION 15.376 (PR #369): Phase 2B is complete.** The
+last 2 of the original 33 residual refs - `yoma-044b-l01` and
+`yoma-063a-l03a`, both classified `TIED_CANDIDATES` in
+`docs/reports/sourcerefs-blocker-classifications.json` - were resolved in
+a final, tightly scoped re-adjudication using repository evidence the
+prior five-way classification pass had not fully exploited (the
+already-legal multi-ref step shape for `yoma-044b-l01`; the step's own
+`speaker` field for `yoma-063a-l03a`). `validate_source_refs.py --strict`
+now reports **0 defects** across all 1,953 refs. No shape defined in this
+document changed to make that happen: both repairs use the existing
+same-daf object shape, reuse `sourceType: "gemara"` without inventing it,
+and the 331 sound string refs are untouched. See
+`docs/platform-closure-plan.md`'s Phase 2 section for the full resolution
+record and `docs/reports/sourcerefs-blocker-classifications.json` for the
+per-case evidence.
 
 ## The decision: a discriminated union of exactly two legal shapes
 
