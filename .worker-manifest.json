@@ -1,7 +1,10 @@
 {
- "type": "docs-tooling",
+ "type": "structural-repair",
  "module": "yoma",
- "targets": [],
+ "targets": [
+  "44b", "63a"
+ ],
+ "maxBatchNote": "2 targets exceed the type's default maxBatch of 1. Hand-extended after generating the single-daf scaffold above, matching the precedent in PR #365 (14-daf ABSENT_OR_UNANCHORED batch): these are the last two sourceRefs blockers of the Phase 2B campaign, both individually re-adjudicated with full evidence in this PR's commit message and description, not two independent judgment calls made here - the judgment work is already done and recorded.",
  "model": "sonnet",
  "paused": false,
  "lifecycle": "pr",
@@ -9,39 +12,55 @@
  "independentReviewRequired": false,
  "reviewPolicy": "none",
  "escalationModel": "sonnet",
- "authorizations": [],
- "maxBatch": null,
+ "authorizations": [
+  "allowStructure"
+ ],
+ "maxBatch": 1,
  "allowedFiles": [
-  "docs/*",
-  "scripts/*",
-  "modules/yoma/scripts/*.py",
-  "modules/yoma/scripts/allowlists/*",
-  "modules/yoma/MODULE.md",
-  ".github/workflows/*",
-  "githooks/*",
+  "modules/yoma/assets/learning/yoma/<daf>.learning.json",
+  "modules/yoma/learning_data.js",
+  "modules/yoma/coverage.json",
+  "VERSION",
   "package.json",
   "package-lock.json",
-  "VERSION",
-  "README.md",
-  "CLAUDE.md",
-  "SOURCES.md",
-  "tests/*",
-  ".worker-manifest.json",
-  ".worker-queue.json"
+  "docs/rashi-audit-backlog.md",
+  "docs/yoma-perek-review.md",
+  ".worker-manifest.json"
  ],
- "allowedJsonPaths": [],
+ "allowedJsonPaths": [
+  "sugyot[*].argumentFlow[*]",
+  "sugyot[*].lineRange",
+  "sugyot[*].lines[*]",
+  "sugyot[*].sefariaRefs[*]",
+  "sugyot[*].conceptRefs[*]",
+  "sugyot[*].id",
+  "sugyot[*].sugyaNumber",
+  "sugyot[*].sourceLinks",
+  "sugyot[*].relatedSugyot[*]",
+  "sugyot[*].requiresUnderstanding[*]",
+  "sugyot[*].topicTags[*]",
+  "sugyot[*].visualizableElements[*]",
+  "sugyot[*].difficulty",
+  "sugyot[*].finalRuling",
+  "sugyot[*].quizSeeds[*].sourceRefs[*]",
+  "canonicalRef"
+ ],
  "forbiddenFiles": [
-  "modules/yoma/assets/learning/*",
-  "modules/yoma/assets/talmuddev/*",
-  "modules/yoma/assets/daftexts/*",
-  "modules/yoma/source_store.js"
+  ".github/workflows/*",
+  "scripts/*",
+  "modules/yoma/scripts/*.py",
+  "githooks/*",
+  "modules/yoma/scripts/allowlists/*"
  ],
- "allowlistPolicy": "restructure-with-env",
- "structurePolicy": "not-applicable",
+ "allowlistPolicy": "forbidden",
+ "structurePolicy": "requires-authorization",
  "requiredValidators": [
   "validate:offline:yoma"
  ],
- "generationCommands": [],
+ "generationCommands": [
+  "cd modules/yoma && python3 scripts/build_learning_data.py",
+  "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+ ],
  "buildTestCommands": [
   "npm run build",
   "npm run check:deploy-html",
@@ -49,8 +68,8 @@
   "npm run test:browser"
  ],
  "escalationTriggers": [
-  "any existing gate would be weakened",
-  "workflow permission changes would be needed"
+  "any ambiguity about the correct structure (verify against source_store and talmuddev first)",
+  "any change outside the mutable path set would be needed"
  ],
  "allowlistDrain": null,
  "scaffoldDebt": null,

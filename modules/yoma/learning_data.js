@@ -102897,7 +102897,12 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-044b-l01",
+                lineId: "yoma-044b-l01a",
+                vilnaLine: 1
+              },
+              {
+                sourceType: "gemara",
+                lineId: "yoma-044b-l01b",
                 vilnaLine: 1
               }
             ]
@@ -143062,8 +143067,8 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-063a-l03a",
-                vilnaLine: 2
+                lineId: "yoma-063a-l10",
+                vilnaLine: 10
               }
             ]
           },
