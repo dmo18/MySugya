@@ -115,10 +115,10 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   writeFileSync(planPath, JSON.stringify(plan), 'utf8');
   console.log(`[shard-runner] plan written (${plan.daf_list.length} daf, ${plan.findings.length} entries); running browser spec...`);
 
-  // The browser spec itself and YOMA_ASSOC_PLAN_PATH are not module-
-  // parameterized here - Phase 3 Step 4's job, same deferral as
-  // run-rashi-association.mjs. This script's own module resolution
-  // (above) is real for any Rashi-enabled module.
+  // The browser spec resolves its own module via MYSUGYA_TEST_MODULE
+  // (Phase 3 Step 4B) - passing this shard's --module choice through
+  // means the shard's plan, audit script, and browser assertion all
+  // agree on the same module, same as run-rashi-association.mjs.
   const playwrightResult = spawnSync(
     'npx',
     ['playwright', 'test', 'tests/browser/rashi-association.spec.js', '--reporter=json'],
@@ -126,7 +126,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       cwd: ROOT,
       encoding: 'utf8',
       maxBuffer: 64 * 1024 * 1024,
-      env: { ...process.env, YOMA_ASSOC_PLAN_PATH: planPath },
+      env: { ...process.env, YOMA_ASSOC_PLAN_PATH: planPath, MYSUGYA_TEST_MODULE: opts.module },
     }
   );
 

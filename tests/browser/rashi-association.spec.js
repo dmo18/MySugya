@@ -14,16 +14,27 @@ import { resolve } from 'node:path';
  * ignored and still renders from linkedGemaraLineIds.
  *
  * The plan this spec asserts against always comes from
- * modules/yoma/scripts/audit_rashi_association.py --json - never hardcoded
- * expected Hebrew/English text or target ids. Two ways to supply it:
+ * <module's scriptsRoot>/audit_rashi_association.py --json - never
+ * hardcoded expected Hebrew/English text or target ids. Two ways to
+ * supply it:
  *
  *   - Plain `npx playwright test` / `npm run test:browser` / `npm test`:
  *     no env var set, so this file runs the auditor itself in --target mode
- *     (YOMA_ASSOC_TARGET_DAF, default "2a") - single daf, fast, so content
- *     PRs get real coverage with zero setup.
+ *     (YOMA_ASSOC_TARGET_DAF, default from the resolved module's
+ *     browserTest.defaultTargetDaf) - single daf, fast, so content PRs get
+ *     real coverage with zero setup.
  *   - `npm run test:rashi-association:yoma` (range/corpus/exhaustive-corpus):
  *     scripts/run-rashi-association.mjs pre-runs the auditor and passes the
  *     plan via YOMA_ASSOC_PLAN_PATH; this file just reads that file.
+ *
+ * Module selection (Phase 3 Step 4B): MYSUGYA_TEST_MODULE (default "yoma")
+ * picks which module's audit script and daf query-string parameter this
+ * spec targets, resolved via resolveRashiModule so an unknown or
+ * Rashi-disabled module fails clearly before any navigation happens.
+ * scripts/run-rashi-association.mjs and scripts/rashi-browser-shard-runner.mjs
+ * both set this env var to their own --module choice, so the exhaustive/
+ * sharded workflows are already end-to-end module-aware, not just this
+ * file's plain-invocation default.
  *
  * Exhaustive-corpus scope is intentionally never wired into plain
  * `test:browser` (thousands of navigations); it stays reserved for a
@@ -40,13 +51,26 @@ function collectPageErrors(page) {
 }
 
 // playwright.config.js's testDir/webServer run with cwd at the repo root.
-const AUDIT_SCRIPT = resolve(process.cwd(), 'modules/yoma/scripts/audit_rashi_association.py');
+// Playwright transpiles this ESM-authored spec to CommonJS before running
+// it, so a plain require() (not import.meta-based createRequire, which
+// breaks under that transform) is what actually works here.
+const REPO_ROOT = process.cwd();
+const { resolveRashiModule } = require(resolve(REPO_ROOT, 'shared/module_resolver.js'));
+
+const MODULE_KEY = process.env.MYSUGYA_TEST_MODULE || 'yoma';
+let MODULE_DESCRIPTOR;
+try {
+  MODULE_DESCRIPTOR = resolveRashiModule(MODULE_KEY, REPO_ROOT);
+} catch (e) {
+  throw new Error(`rashi-association.spec.js: cannot resolve MYSUGYA_TEST_MODULE=${JSON.stringify(MODULE_KEY)}: ${e.code}: ${e.message}`);
+}
+const AUDIT_SCRIPT = resolve(REPO_ROOT, MODULE_DESCRIPTOR.paths.scriptsRoot, 'audit_rashi_association.py');
 
 function loadPlan() {
   if (process.env.YOMA_ASSOC_PLAN_PATH) {
     return JSON.parse(readFileSync(process.env.YOMA_ASSOC_PLAN_PATH, 'utf8'));
   }
-  const targetDaf = process.env.YOMA_ASSOC_TARGET_DAF || '2a';
+  const targetDaf = process.env.YOMA_ASSOC_TARGET_DAF || MODULE_DESCRIPTOR.browserTest.defaultTargetDaf;
   try {
     const stdout = execFileSync(
       'python3',
@@ -81,7 +105,7 @@ for (const daf of plan.daf_list) {
       // asserts the real rendering path across the whole corpus
       // (single-link, multi-link, many-to-one, Mishnah, and suffixed-id
       // cases alike).
-      await page.goto(`/index.html?module=yoma&daf=${daf}`);
+      await page.goto(`/index.html?module=${MODULE_KEY}&daf=${daf}`);
 
       // Rendering must come from the code, never from stored state.
       await expect(page).not.toHaveURL(/rashiAssoc/);
@@ -161,7 +185,7 @@ for (const daf of plan.daf_list) {
 
       // Default (linked) mode, no parameter - authorized boundary entries
       // must render nowhere, including beneath unrelated lines.
-      await page.goto(`/index.html?module=yoma&daf=${daf}`);
+      await page.goto(`/index.html?module=${MODULE_KEY}&daf=${daf}`);
       const boundaryIds = new Set(dafFindings.map(f => f.rashi_id));
 
       const badgeLineIds = await page.locator('.line[data-has-rashi="1"]').evaluateAll(
@@ -206,7 +230,7 @@ test.describe('Rashi renderer has no selector', () => {
   ]) {
     test(`${label} renders via linkedGemaraLineIds`, async ({ page }) => {
       const pageErrors = collectPageErrors(page);
-      const line = await openFirstRashi(page, `/index.html?module=yoma&daf=${daf}${qs}`);
+      const line = await openFirstRashi(page, `/index.html?module=${MODULE_KEY}&daf=${daf}${qs}`);
       const lineId = await line.getAttribute('data-gemara-line-id');
       await expect(
         page.locator(`.line[data-gemara-line-id="${lineId}"] + .rashi-inline [data-rashi-id]`).first()
@@ -220,7 +244,7 @@ test.describe('Rashi renderer has no selector', () => {
   }
 
   test('nothing is persisted for renderer selection', async ({ page }) => {
-    await openFirstRashi(page, `/index.html?module=yoma&daf=${daf}&rashiAssoc=legacy`);
+    await openFirstRashi(page, `/index.html?module=${MODULE_KEY}&daf=${daf}&rashiAssoc=legacy`);
     const stored = await page.evaluate(() => JSON.stringify({
       local: Object.fromEntries(Object.entries(localStorage)),
       session: Object.fromEntries(Object.entries(sessionStorage)),
