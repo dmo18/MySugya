@@ -52,7 +52,12 @@ jobs:
           python3 scripts/worker_pipeline.py ci-check --base origin/${{ github.base_ref }}
 
       - name: Build production site
-        run: npm run build
+        # Explicit module selection (Phase 3 Step 4A): GitHub Pages must
+        # deploy Yoma and nothing else, even after a second module exists
+        # under modules/. This is a code-level guard, not "true by absence
+        # of alternatives" - build.mjs also refuses to build any
+        # non-publishable module into dist/ at all (see scripts/build.mjs).
+        run: npm run build -- --module yoma
 
       - name: Verify deployable HTML
         run: npm run check:deploy-html

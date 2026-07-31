@@ -125,10 +125,27 @@ just at the end).
    plus `generate_argument_taxonomy.py` (blocker 8), all migrated onto the
    resolver, plus explicit capability-driven enable/disable behavior for
    Rashi and literal-translation features.
-7. **Step 4** - build/runtime module selection, browser-test
-   parameterization, documentation-generation parameterization, and the
-   CI/deployment PR (required build check verifies both Yoma and the
-   fixture; GitHub Pages continues to select Yoma explicitly).
+7. **Step 4, split into 4A and 4B.** The governing directive authorized
+   splitting a step "when architecture makes a split technically unsafe [or
+   too large for one bounded, reviewable PR], recorded with a reason."
+   Reason recorded here: `build.mjs`'s publishable-flag safety guard and
+   `deploy-pages.yml`'s explicit module selection are both small,
+   independently reviewable, fully provable today with no dependency on
+   the not-yet-existing fixture; browser-test and docs-generation
+   parameterization touch more files, carry the explicit dependency Step
+   3D deferred (the `YOMA_ASSOC_PLAN_PATH` browser-spec-launch boundary in
+   `run-rashi-association.mjs`/`rashi-browser-shard-runner.mjs`), and
+   benefit from separate review. Splitting keeps each PR bounded per the
+   governing execution model rather than combining unrelated risk classes.
+   - **Step 4A** - build module selection (`--module`, `--out` flags on
+     `scripts/build.mjs`), a publishable-flag safety guard so a
+     non-publishable module can never land in the default production
+     `dist/`, and CI/deployment verification (`deploy-pages.yml` now
+     selects Yoma explicitly by code, not by absence of alternatives).
+   - **Step 4B** - browser-test module-aware pattern, the two Step-3D-deferred
+     browser-spec-launch items, and documentation-generation
+     module-awareness (`generate_rashi_docs.py`, `worker_pipeline.py`'s
+     `cmd_docs`).
 8. **Step 5+6** - the synthetic fixture module itself
    (`tests/fixtures/modules/<fixture-key>`) plus the empty-module
    onboarding end-to-end test with Yoma-isolation proof (tree-digest
@@ -367,6 +384,86 @@ this becomes a real question only once Step 4 wires a generic,
 module-selectable validator/build path. Left open, not claimed
 resolved.
 
+## Step 4A design note: build module selection + deploy verification
+
+**`scripts/build.mjs`** gained two CLI flags and one safety guard, all
+additive - the zero-argument invocation every existing npm script and
+workflow uses is unchanged:
+
+- `--module <key>`: build only `modules/<key>` into `dist/modules/<key>`
+  instead of copying the entire `modules/` tree. Resolves the key through
+  `shared/module_resolver.js`'s `resolveModule()` (the same resolver used
+  everywhere else since Step 2); an unknown key fails before any file is
+  touched.
+- `--out <path>`: write output to an isolated directory instead of the
+  default `dist/`. Guarded against resolving to the repository root
+  (`--out .` from repo root is rejected explicitly, not just left to `rm
+  -rf` to fail loudly).
+- **Publishable-flag guard**: a module whose `module.json` declares
+  `"publishable": false` can never build into the default `dist/` path,
+  whether selected explicitly (`--module <non-publishable-key>`) or
+  swept in implicitly by an unqualified build that happens to find a
+  non-publishable module under `modules/`. Either case requires an
+  explicit `--out` to a non-default path. This is the defense-in-depth
+  backstop the governing directive asked for: even though the Step 5/6
+  fixture is planned to live outside `modules/` entirely (so the glob
+  that finds `module.json` files would never see it), this guard means
+  the build itself would also refuse a non-publishable module if one
+  were ever placed under `modules/` by mistake.
+
+**Verified** (fixture does not exist yet, so proven against the real
+Yoma module plus a throwaway synthetic non-publishable descriptor,
+never committed, deleted immediately after each check):
+
+- Default zero-argument build output is byte-identical before and after
+  this change (`diff -rq` of two `dist/` builds, clean).
+- `--module yoma` (no `--out`) produces `dist/` output byte-identical to
+  the default unqualified build (`diff -rq`, clean) - confirms explicit
+  selection changes nothing about what ships.
+- `--module bogus` fails with `UNKNOWN_MODULE` before writing anything.
+- `--out .` (repo root) is rejected with an explicit error before the
+  destructive `rm(dist, {recursive:true})` step runs.
+- A temporary `modules/testnonpub/module.json` with `publishable: false`
+  (constructed only in a scratch directory, copied into `modules/` only
+  for the duration of this check, never committed - confirmed via `git
+  status` before and after) is refused by both the unqualified build and
+  `--module testnonpub` when targeting the default `dist/`, and succeeds
+  only with an explicit `--out` elsewhere. `git status --short modules/`
+  is empty after cleanup.
+
+**`.github/workflows/deploy-pages.yml`**: the build step now runs `npm
+run build -- --module yoma` instead of bare `npm run build`. This
+directly closes the gap Step 1's acceptance matrix under-claimed:
+previously "GitHub Pages deploys Yoma explicitly" was true only because
+no other module existed under `modules/` (an absence, not a guard); now
+it is true because the workflow names Yoma by explicit argument, and
+`build.mjs`'s publishable-flag guard would additionally refuse a
+non-publishable module even if the `--module yoma` argument were ever
+changed or removed by a future edit.
+
+**Deliberately not touched, with reason recorded**: `.github/workflows/
+deploy-cloudways.yml` still runs bare `npm run build` (unparameterized).
+This is an intentional scope boundary, not an oversight: the governing
+directive's global constraints explicitly forbid touching
+Cloudways/mysugya.com, and this workflow pushes built output to a
+`cloudways` branch that a separate live deployment consumes. Today this
+is harmless (Yoma is still the only module, so the unparameterized build
+produces the same output either way), but it means Cloudways deployment
+selection is currently true by absence-of-alternatives, the same
+unproven state `deploy-pages.yml` was in before this PR. Recorded here
+as an open item rather than silently left unmentioned; not a Phase 3
+acceptance blocker since Phase 3's acceptance criteria are scoped to the
+GitHub Pages deployment path (`docs/platform-closure-plan.md`'s Phase 3
+objective and the CI/deployment acceptance rows below reference the
+"required build check" and "GitHub Pages," not Cloudways).
+
+**What remains unproven until Step 5/6**: the fixture-specific path
+(`--module <fixture-key> --out <isolated-path>` actually producing a
+working, browser-testable isolated build of the real fixture, not a
+throwaway synthetic descriptor) can only be proven once the fixture
+exists. Row 27 ("fixture builds") stays `-` until then; this PR only
+proves the generic mechanism is ready to accept it.
+
 ## Phase 3 acceptance matrix
 
 Tracked here and re-verified at Step 8 closure. `-` means not yet
@@ -391,10 +488,10 @@ attempted; this PR is read-only and changes none of these to a pass.
 | 15 | general schema validation is module-aware | **pass, no code change required** - Step 3C found `validate_schema_completeness.py` already correctly capability-agnostic: it checks only the always-required `display`/`learning` fields and never touches `rashiTranslations`/`en_lit` at all (those are `validate_rashi.py`/`validate_literal.py`'s job, Step 3D's scope); `shared/schema_map.js` already declares `rashiLines: {required: false}`, confirming the shared schema itself was already designed for an optional Rashi layer |
 | 16 | Rashi behavior is capability-driven | **pass** - Step 3D: `resolveRashiModule()` (`shared/module_resolver.js`) rejects a Rashi-disabled module with a distinct `CAPABILITY_DISABLED` error, adopted by all 5 Rashi renderer/shard tools; proven against a synthetic Rashi-disabled module and via 3 new tests |
 | 17 | literal behavior is capability-driven | - (not addressed; the question does not yet arise - see Step 3D design note) |
-| 18 | build is module-aware | - |
+| 18 | build is module-aware | **pass** - Step 4A: `scripts/build.mjs` accepts explicit `--module <key>` (resolved via `shared/module_resolver.js`, unknown key fails before any write) and `--out <path>` for an isolated output directory; a `publishable:false` module is refused from the default `dist/` in both the explicit-module and unqualified-build paths. Default zero-argument output proven byte-identical before/after and against explicit `--module yoma`. Full fixture proof (row 27) still pending Step 5/6. |
 | 19 | browser testing is module-aware | - |
 | 20 | docs generation is module-aware | - |
-| 21 | production deployment selects Yoma explicitly | **already true** (`deploy-pages.yml` builds the repo as-is; `manifest.js`'s first entry is Yoma; no module ambiguity exists in the single-module deploy today) |
+| 21 | production deployment selects Yoma explicitly | **pass, corrected from Step 1's "already true" claim** - re-verified in Step 4A: `deploy-pages.yml`'s build step previously carried no module argument at all (the earlier "already true" was true only by absence of a second module, not by an explicit guard). Now `deploy-pages.yml` runs `npm run build -- --module yoma` explicitly, backstopped by `build.mjs`'s publishable-flag guard. `deploy-cloudways.yml` remains unparameterized and out of scope (Cloudways is excluded by the governing directive's global constraints) - see the Step 4A design note for the recorded reason. |
 | 22 | fixture is non-publishable | - (fixture does not exist yet) |
 | 23 | fixture can be scaffolded from empty state | - |
 | 24 | fixture can ingest synthetic local source | - |
