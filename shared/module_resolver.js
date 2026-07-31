@@ -71,6 +71,38 @@
     }
   }
 
+  var SOURCE_ACQUISITION_STRATEGIES = ["remote-fetch", "local-fixture"];
+
+  function validateSourceAcquisition(caps) {
+    // Unlike rashi/literalTranslation, every module has SOME
+    // source-acquisition strategy - there is no legal "disabled" state,
+    // so this is not modeled as an enabled/disabled capability.
+    var sa = caps.sourceAcquisition;
+    requireCond(typeof sa === "object" && sa !== null, "MISSING_FIELD",
+      "capabilities.sourceAcquisition");
+    var strategy = sa.strategy;
+    requireCond(SOURCE_ACQUISITION_STRATEGIES.indexOf(strategy) !== -1,
+      "MALFORMED_DESCRIPTOR",
+      "capabilities.sourceAcquisition.strategy must be one of " +
+      SOURCE_ACQUISITION_STRATEGIES.join(", ") + ", got " + strategy);
+    if (strategy === "remote-fetch") {
+      requireCond(!!sa.sourceSystem && !!sa.fetchScript, "MISSING_FIELD",
+        "capabilities.sourceAcquisition.sourceSystem and .fetchScript " +
+        "(required when strategy is remote-fetch)");
+      requireCond(!sa.fixtureInputDir, "FEATURE_INCONSISTENCY",
+        "capabilities.sourceAcquisition.fixtureInputDir is set but " +
+        "strategy is remote-fetch, not local-fixture");
+    } else {
+      requireCond(!!sa.fixtureInputDir, "MISSING_FIELD",
+        "capabilities.sourceAcquisition.fixtureInputDir " +
+        "(required when strategy is local-fixture)");
+      requireCond(!(sa.sourceSystem || sa.fetchScript), "FEATURE_INCONSISTENCY",
+        "capabilities.sourceAcquisition.sourceSystem/.fetchScript are set " +
+        "but strategy is local-fixture, not remote-fetch - a synthetic " +
+        "module must not claim a live source system");
+    }
+  }
+
   function validateDescriptor(data, key) {
     requireCond(typeof data === "object" && data !== null && !Array.isArray(data),
       "MALFORMED_DESCRIPTOR", "descriptor root must be a JSON object");
@@ -133,6 +165,7 @@
       "capabilities must be an object");
     validateCapability(caps, "rashi", ["allowlistsRoot"]);
     validateCapability(caps, "literalTranslation", ["assetsDir"]);
+    validateSourceAcquisition(caps);
 
     var br = data.buildRuntime;
     requireCond(typeof br === "object" && br !== null && !!br.dataScript,

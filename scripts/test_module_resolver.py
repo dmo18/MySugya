@@ -52,6 +52,10 @@ VALID_FIXTURE = {
     "capabilities": {
         "rashi": {"enabled": False},
         "literalTranslation": {"enabled": False},
+        "sourceAcquisition": {
+            "strategy": "local-fixture",
+            "fixtureInputDir": "modules/fixturemasechet/assets/fixture_source",
+        },
     },
     "browserTest": {"defaultTargetDaf": "2a"},
     "docsOutput": {},
@@ -63,6 +67,32 @@ def write_descriptor(root, key, data):
     d = root / key
     d.mkdir(parents=True, exist_ok=True)
     (d / "module.json").write_text(json.dumps(data), encoding="utf-8")
+
+
+def fixture_for(key):
+    """A structurally valid descriptor for a fresh key, with every path
+    field (not just paths.root) correctly rewritten - unlike a bare
+    copy.deepcopy(VALID_FIXTURE) with only key/paths.root changed, which
+    leaves scriptsRoot/sourceAssetsRoot/etc. pointed at the ORIGINAL
+    fixturemasechet paths and trips the unrelated "not under the module's
+    own root" check before ever reaching whatever this test actually
+    means to exercise. Callers mutate the specific field(s) under test
+    on the returned dict."""
+    old_root = VALID_FIXTURE["paths"]["root"]
+    new_root = f"modules/{key}"
+    d = copy.deepcopy(VALID_FIXTURE)
+    d["key"] = key
+
+    def rewrite(p):
+        return new_root + p[len(old_root):] if p.startswith(old_root) else p
+
+    d["paths"] = {k: (rewrite(v) if isinstance(v, str) else v)
+                   for k, v in d["paths"].items()}
+    d["buildRuntime"]["dataScript"] = rewrite(d["buildRuntime"]["dataScript"])
+    sa = d["capabilities"].get("sourceAcquisition")
+    if sa and sa.get("fixtureInputDir"):
+        sa["fixtureInputDir"] = rewrite(sa["fixtureInputDir"])
+    return d
 
 
 def expect_error(code, fn):
@@ -163,9 +193,7 @@ def main():
 
         print("\nfeature inconsistency")
         incon_root = root / "incon_root"
-        bad2 = copy.deepcopy(VALID_FIXTURE)
-        bad2["key"] = "inconmod"
-        bad2["paths"]["root"] = "modules/inconmod"
+        bad2 = fixture_for("inconmod")
         bad2["capabilities"]["rashi"] = {"enabled": True}  # missing allowlistsRoot
         write_descriptor(incon_root, "inconmod", bad2)
         ok, code = expect_error(
@@ -175,9 +203,7 @@ def main():
               ok, code)
 
         disabled_with_config_root = root / "disabled_config_root"
-        bad3 = copy.deepcopy(VALID_FIXTURE)
-        bad3["key"] = "disabledmod"
-        bad3["paths"]["root"] = "modules/disabledmod"
+        bad3 = fixture_for("disabledmod")
         bad3["capabilities"]["rashi"] = {"enabled": False, "allowlistsRoot": "modules/disabledmod/x"}
         write_descriptor(disabled_with_config_root, "disabledmod", bad3)
         ok, code = expect_error(
@@ -187,9 +213,7 @@ def main():
               ok, code)
 
         publishable_synthetic_root = root / "pub_synth_root"
-        bad4 = copy.deepcopy(VALID_FIXTURE)
-        bad4["key"] = "pubsynthmod"
-        bad4["paths"]["root"] = "modules/pubsynthmod"
+        bad4 = fixture_for("pubsynthmod")
         bad4["publishable"] = True  # synthetic + publishable
         write_descriptor(publishable_synthetic_root, "pubsynthmod", bad4)
         ok, code = expect_error(
@@ -199,9 +223,7 @@ def main():
               ok, code)
 
         drift_root = root / "drift_root"
-        bad5 = copy.deepcopy(VALID_FIXTURE)
-        bad5["key"] = "driftmod"
-        bad5["paths"]["root"] = "modules/driftmod"
+        bad5 = fixture_for("driftmod")
         bad5["buildRuntime"]["dataScript"] = "modules/driftmod/OTHER_FILE.js"
         write_descriptor(drift_root, "driftmod", bad5)
         ok, code = expect_error(
@@ -211,16 +233,79 @@ def main():
               "is FEATURE_INCONSISTENCY", ok, code)
 
         root_mismatch_root = root / "root_mismatch_root"
-        bad6 = copy.deepcopy(VALID_FIXTURE)
-        bad6["key"] = "rootmismatchmod"
-        # paths.root deliberately left as the fixture's original value,
-        # disagreeing with the directory key
+        bad6 = fixture_for("rootmismatchmod")
+        bad6["paths"]["root"] = "modules/somethingelse"  # disagrees with the directory key
         write_descriptor(root_mismatch_root, "rootmismatchmod", bad6)
         ok, code = expect_error(
             "MALFORMED_DESCRIPTOR",
             lambda: mr.resolve_module("rootmismatchmod", search_root=root_mismatch_root))
         check("paths.root disagreeing with the module's own directory key "
               "is MALFORMED_DESCRIPTOR", ok, code)
+
+        print("\nsource acquisition strategy (Phase 3 Step 3B)")
+        no_sa_root = root / "no_sa_root"
+        bad7 = fixture_for("nosamod")
+        del bad7["capabilities"]["sourceAcquisition"]
+        write_descriptor(no_sa_root, "nosamod", bad7)
+        ok, code = expect_error(
+            "MISSING_FIELD", lambda: mr.resolve_module("nosamod", search_root=no_sa_root))
+        check("missing capabilities.sourceAcquisition entirely is MISSING_FIELD "
+              "(unlike rashi/literalTranslation, there is no legal disabled state)",
+              ok, code)
+
+        bad_strategy_root = root / "bad_strategy_root"
+        bad8 = fixture_for("badstratmod")
+        bad8["capabilities"]["sourceAcquisition"] = {"strategy": "telepathy"}
+        write_descriptor(bad_strategy_root, "badstratmod", bad8)
+        ok, code = expect_error(
+            "MALFORMED_DESCRIPTOR",
+            lambda: mr.resolve_module("badstratmod", search_root=bad_strategy_root))
+        check("an unrecognised strategy value is MALFORMED_DESCRIPTOR", ok, code)
+
+        remote_missing_root = root / "remote_missing_root"
+        bad9 = fixture_for("remotemissingmod")
+        bad9["capabilities"]["sourceAcquisition"] = {"strategy": "remote-fetch"}
+        write_descriptor(remote_missing_root, "remotemissingmod", bad9)
+        ok, code = expect_error(
+            "MISSING_FIELD",
+            lambda: mr.resolve_module("remotemissingmod", search_root=remote_missing_root))
+        check("remote-fetch without sourceSystem/fetchScript is MISSING_FIELD", ok, code)
+
+        local_missing_root = root / "local_missing_root"
+        bad10 = fixture_for("localmissingmod")
+        bad10["capabilities"]["sourceAcquisition"] = {"strategy": "local-fixture"}
+        write_descriptor(local_missing_root, "localmissingmod", bad10)
+        ok, code = expect_error(
+            "MISSING_FIELD",
+            lambda: mr.resolve_module("localmissingmod", search_root=local_missing_root))
+        check("local-fixture without fixtureInputDir is MISSING_FIELD", ok, code)
+
+        remote_with_fixture_root = root / "remote_with_fixture_root"
+        bad11 = fixture_for("remotewithfixturemod")
+        bad11["capabilities"]["sourceAcquisition"] = {
+            "strategy": "remote-fetch", "sourceSystem": "x", "fetchScript": "y",
+            "fixtureInputDir": "modules/remotewithfixturemod/assets/fixture_source",
+        }
+        write_descriptor(remote_with_fixture_root, "remotewithfixturemod", bad11)
+        ok, code = expect_error(
+            "FEATURE_INCONSISTENCY",
+            lambda: mr.resolve_module("remotewithfixturemod", search_root=remote_with_fixture_root))
+        check("remote-fetch declaring fixtureInputDir anyway is FEATURE_INCONSISTENCY",
+              ok, code)
+
+        local_with_remote_root = root / "local_with_remote_root"
+        bad12 = fixture_for("localwithremotemod")
+        bad12["capabilities"]["sourceAcquisition"] = {
+            "strategy": "local-fixture",
+            "fixtureInputDir": "modules/localwithremotemod/assets/fixture_source",
+            "sourceSystem": "should not be here",
+        }
+        write_descriptor(local_with_remote_root, "localwithremotemod", bad12)
+        ok, code = expect_error(
+            "FEATURE_INCONSISTENCY",
+            lambda: mr.resolve_module("localwithremotemod", search_root=local_with_remote_root))
+        check("local-fixture declaring sourceSystem anyway is FEATURE_INCONSISTENCY "
+              "(a synthetic module must not claim a live source system)", ok, code)
 
     print("\nno implicit Yoma fallback")
     with tempfile.TemporaryDirectory() as td2:

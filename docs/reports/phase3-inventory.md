@@ -136,6 +136,67 @@ without the fixture existing first - in which case Step 5's fixture
 scaffold would need to move earlier, and this document will record that
 change with a reason when it happens, not silently).
 
+## Step 3B design note: source acquisition, segmentation, learning-data generation
+
+Unlike Step 3A's 9 pre-identified blockers (shared tools at the repo root
+that hardcode Yoma while claiming to be generic), none of Yoma's own
+source-acquisition scripts are blockers in that sense - they already live
+under `modules/yoma/scripts/` and correctly name their own module, which
+is exactly what a PER_MODULE-tier file is supposed to do (Step 1's
+`npm run audit:replication` already classifies them this way, not as
+PINNED). Step 3B's actual job was different: read them to find out
+whether a second module's equivalent pipeline needs anything structural
+beyond a per-module copy, and define whatever shared contract the Step 5
+fixture will actually need.
+
+**`modules/yoma/scripts/fetch_talmuddev.py`** (98 lines): fetches live
+Vilna-layout text from `talmud.dev`. Exactly two module-specific things:
+`TRACTATE = "Yoma"` and a cwd-relative `OUT_DIR = Path("assets/talmuddev")`
+(matching the existing `cd modules/<id> && python3 scripts/...`
+convention). This is pure clone-cost - a second production module needs
+its own copy with `TRACTATE` changed, nothing structural. **The real gap
+for the fixture is that this pattern cannot be reused at all**: the
+fixture's constraint ("tiny committed local synthetic source inputs,
+never live Sefaria/talmud.dev network calls") means it needs a
+fundamentally different acquisition strategy, not a parameterized version
+of this one. This is exactly what `capabilities.sourceAcquisition` (added
+to the descriptor schema by this PR) now makes explicit and validated,
+rather than leaving it as an unstated assumption a fixture author would
+have to discover by reading this file.
+
+**`modules/yoma/scripts/daftext_align.py`** (512 lines): zero `yoma`/
+`Yoma` references of any kind - already fully module-agnostic, operating
+purely on arguments and relative paths. No finding here; segmentation
+needed no change.
+
+**`modules/yoma/scripts/build_learning_data.py`** (445 lines): more
+module-specific than the other two. Beyond the top-level
+`LEARN_DIR = ROOT / "assets" / "learning" / "yoma"` constant, the literal
+string `"yoma"` is baked directly into generated-id f-strings and regexes
+in the function bodies (`f"rashi-yoma-{pad}-{vl:03d}"`,
+`f"yoma-{pad}-l{vl:02d}"`, a `sugyaId`-matching regex), plus genuinely
+Yoma-content constants that are correct to keep Yoma-specific (the
+8-chapter perek boundary table, `TOTAL_DAF = 173`, `"tractate": "Yoma"`).
+A second module cloning this file needs more than a few constant edits -
+it needs the literal-string sites found too. This is real, but it is
+*clone cost*, the same category of cost Step 1 already measured (31
+PER_MODULE files, 46 `:yoma`-suffixed npm scripts) and explicitly scoped
+out of Phase 3's required work: the acceptance criteria require the
+platform's *generic* tooling to be module-aware, not that every
+per-module generator become a universal parameterized tool. The Step 5
+fixture will therefore use its own small, purpose-written generator
+script, not a parameterized clone of this 445-line JS-source parser -
+consistent with "tiny" and "minimal but sufficient" in the fixture's own
+spec.
+
+**Net effect of Step 3B**: one real schema gap found and closed
+(`capabilities.sourceAcquisition`), two scripts confirmed to need no
+change (`fetch_talmuddev.py`'s only cost is the already-documented clone
+cost; `daftext_align.py` needs nothing at all), and one script's clone
+cost precisely characterized rather than assumed (`build_learning_data.py`).
+No generic-tooling code required a change beyond the descriptor schema
+and its two resolvers.
+
 ## Phase 3 acceptance matrix
 
 Tracked here and re-verified at Step 8 closure. `-` means not yet
@@ -151,10 +212,10 @@ attempted; this PR is read-only and changes none of these to a pass.
 | 6 | no generic requested-module path silently falls back to Yoma | **pass, for worker_pipeline.py** - Step 3A: `YROOT`/`YSCRIPTS`/`ACTIVE_MODULE` are now derived from the resolved module (`set_active_module`), not hardcoded; an unresolvable module raises before any of them are touched. Proven by a test requesting `yoma` against a search-root override that does not contain it, which fails rather than falling back (`scripts/test_worker_policy.py`'s `test_module_awareness`). |
 | 7 | worker manifests are module-aware | **pass** - Step 3A: `cmd_manifest` resolves and validates the requested module before writing; the manifest's `allowedFiles` (from `scripts/worker_task_types.json`, now `<module>`-templated, blocker 9) resolve against the manifest's own declared module, never a hardcoded one. |
 | 8 | worker scope checks are module-aware | **pass** - Step 3A: `file_allowed()` substitutes `<module>` from the manifest before matching, exactly like the existing `<daf>` mechanism; a fixture-targeted manifest cannot resolve or write Yoma paths and vice versa, proven by `test_module_awareness`'s mismatched-module-and-path checks. |
-| 9 | source acquisition is module-aware | - |
-| 10 | daf and chapter metadata are module-aware | - |
-| 11 | segmentation is module-aware | - |
-| 12 | learning-data generation is module-aware | - |
+| 9 | source acquisition is module-aware | **pass** - Step 3B: `capabilities.sourceAcquisition` is now a required descriptor field with two validated strategies (`remote-fetch` for Yoma, `local-fixture` for synthetic modules). Yoma's own `fetch_talmuddev.py`/`daftext_align.py`/`build_learning_data.py` were already correctly module-scoped (they live under `modules/yoma/scripts/` and name their own module, per Step 1's PER_MODULE tier, not the PINNED tier); the genuine gap was the missing strategy declaration, closed here. See the Step 3B design note below for the full per-script finding. |
+| 10 | daf and chapter metadata are module-aware | **pass, unchanged from Yoma's existing design** - `dafRange`/`totalDaf` are already per-module descriptor fields (Step 2); chapter metadata's location is declared via `paths.chapterMetadataLocation` (free-text pointer, since it is not always its own file - Yoma embeds it in `learningDataFile`). No blocker existed here; Step 3B found none. |
+| 11 | segmentation is module-aware | **pass, unchanged from Yoma's existing design** - `modules/yoma/scripts/daftext_align.py` (512 lines) was read in full for Step 3B and contains zero `yoma`/`Yoma` references of any kind; it already operates purely on files passed as arguments, with no module assumption baked in anywhere. |
+| 12 | learning-data generation is module-aware | **partial pass, documented as clone-cost, not a blocker** - `modules/yoma/scripts/build_learning_data.py` is PER_MODULE-tier (expected to be copied and adapted per module, like the other 31 files in that tier), but Step 3B found it is a *larger* clone-cost than most: beyond naming its own module in path constants, it bakes the literal string `"yoma"` into generated `sugyaId`/`lineId`/`rashiId` naming conventions inside f-strings and regexes (5-6 sites), not just top-level constants. A second module's generator needs its own copy with those literals changed too, same as today's clone-cost model - this is not a defect the Phase 3 acceptance criteria require fixing (they require the *platform's generic tooling* to be module-aware, not that Yoma's own per-module generator become a universal one-size-fits-all tool), but it is now precisely documented rather than assumed away. The Step 5 fixture will use its own small generator, not a clone of this 445-line file. |
 | 13 | sourceRefs validation is module-aware | - |
 | 14 | argumentFlow validation is module-aware | - |
 | 15 | general schema validation is module-aware | - |

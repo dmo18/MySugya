@@ -22,7 +22,12 @@
   "schemaMapRef": "shared/schema_map.js",
   "capabilities": {
     "rashi": { "enabled": true, "allowlistsRoot": "modules/yoma/scripts/allowlists" },
-    "literalTranslation": { "enabled": true, "assetsDir": "modules/yoma/assets/literal_en" }
+    "literalTranslation": { "enabled": true, "assetsDir": "modules/yoma/assets/literal_en" },
+    "sourceAcquisition": {
+      "strategy": "remote-fetch",
+      "sourceSystem": "talmud.dev (Vilna layout) + Sefaria API (he/en text)",
+      "fetchScript": "modules/yoma/scripts/fetch_talmuddev.py"
+    }
   },
   "browserTest": { "defaultTargetDaf": "2a" },
   "docsOutput": { "auditBacklogDoc": "docs/rashi-audit-backlog.md" },

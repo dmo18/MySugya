@@ -118,6 +118,45 @@ def _validate_capability(caps, name, required_config_fields):
                   "anyway - a disabled feature must not carry its own config")
 
 
+SOURCE_ACQUISITION_STRATEGIES = ("remote-fetch", "local-fixture")
+
+
+def _validate_source_acquisition(caps):
+    """Unlike rashi/literalTranslation, every module has SOME source-
+    acquisition strategy - there is no legal "disabled" state, so this is
+    not modeled as an enabled/disabled capability. 'remote-fetch' (Yoma's
+    strategy: live talmud.dev/Sefaria calls, run interactively/offline by
+    an operator, never by CI) requires sourceSystem and fetchScript.
+    'local-fixture' (synthetic modules only, e.g. the Phase 3 fixture)
+    requires fixtureInputDir and forbids any network access - enforced
+    here only as a schema requirement; the actual no-network guarantee is
+    a property of what script the module points fixtureInputDir/fetchScript
+    at, which this resolver cannot verify by reading JSON."""
+    sa = caps.get("sourceAcquisition")
+    _require(isinstance(sa, dict), "MISSING_FIELD", "capabilities.sourceAcquisition")
+    strategy = sa.get("strategy")
+    _require(strategy in SOURCE_ACQUISITION_STRATEGIES, "MALFORMED_DESCRIPTOR",
+              f"capabilities.sourceAcquisition.strategy must be one of "
+              f"{SOURCE_ACQUISITION_STRATEGIES}, got {strategy!r}")
+    if strategy == "remote-fetch":
+        _require(sa.get("sourceSystem") and sa.get("fetchScript"),
+                  "MISSING_FIELD",
+                  "capabilities.sourceAcquisition.sourceSystem and .fetchScript "
+                  "(required when strategy is remote-fetch)")
+        _require(not sa.get("fixtureInputDir"), "FEATURE_INCONSISTENCY",
+                  "capabilities.sourceAcquisition.fixtureInputDir is set but "
+                  "strategy is remote-fetch, not local-fixture")
+    else:  # local-fixture
+        _require(sa.get("fixtureInputDir"), "MISSING_FIELD",
+                  "capabilities.sourceAcquisition.fixtureInputDir "
+                  "(required when strategy is local-fixture)")
+        _require(not (sa.get("sourceSystem") or sa.get("fetchScript")),
+                  "FEATURE_INCONSISTENCY",
+                  "capabilities.sourceAcquisition.sourceSystem/.fetchScript are "
+                  "set but strategy is local-fixture, not remote-fetch - a "
+                  "synthetic module must not claim a live source system")
+
+
 def validate_descriptor(data, key):
     """Validate a parsed descriptor dict for the given expected key.
 
@@ -183,6 +222,7 @@ def validate_descriptor(data, key):
               "capabilities must be an object")
     _validate_capability(caps, "rashi", ("allowlistsRoot",))
     _validate_capability(caps, "literalTranslation", ("assetsDir",))
+    _validate_source_acquisition(caps)
 
     br = data["buildRuntime"]
     _require(isinstance(br, dict) and br.get("dataScript"),
