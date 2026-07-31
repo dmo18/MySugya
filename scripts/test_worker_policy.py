@@ -1506,6 +1506,59 @@ def test_module_awareness():
           wp.file_allowed("modules/fixturemasechet/learning_data.js", spec, [], "fixturemasechet"))
 
 
+def test_module_awareness_against_committed_fixture():
+    """Phase 3 six-row closure, row 30: test_module_awareness() above proves
+    the <module>-templating mechanism is correct using a synthetic,
+    temp-directory-only fixture (never committed). This test proves the
+    identical mechanism against the REAL, committed fixture module -
+    tests/fixtures/modules/demotractate - by literal name, closing the gap
+    Step 8 recorded: 'not yet re-exercised literally against the committed
+    demotractate module by name.'"""
+    print("module awareness against the committed fixture (Phase 3 six-row closure, row 30):")
+
+    fixture_search_root = str(REPO / "tests" / "fixtures" / "modules")
+    env = dict(os.environ, MYSUGYA_MODULE_SEARCH_ROOT=fixture_search_root)
+
+    r = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
+                        "--type", "docs-tooling", "--module", "demotractate"],
+                       capture_output=True, text=True, cwd=REPO, env=env)
+    check("the real committed demotractate fixture resolves cleanly via the "
+          "search-root override", r.returncode == 0, r.stderr[-500:])
+    if r.returncode == 0:
+        fm = json.loads(r.stdout)
+        check("the generated manifest carries demotractate, not yoma",
+              fm.get("module") == "demotractate")
+
+    r2 = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
+                        "--type", "docs-tooling", "--module", "yoma"],
+                       capture_output=True, text=True, cwd=REPO, env=env)
+    check("with the override pointed at tests/fixtures/modules, yoma is not "
+          "resolvable (the override replaces, not adds - the real modules/ "
+          "tree is unreachable while it is set)",
+          r2.returncode != 0, f"exit={r2.returncode}")
+
+    r3 = subprocess.run([sys.executable, "scripts/worker_pipeline.py", "manifest",
+                        "--type", "docs-tooling", "--module", "yoma"],
+                       capture_output=True, text=True, cwd=REPO)
+    check("with the override unset, yoma resolves exactly as before",
+          r3.returncode == 0, r3.stderr[-500:])
+
+    spec = wp.load_registry()["structural-repair"]
+    check("file_allowed for a Yoma learning_data.js against demotractate is "
+          "refused (mismatched module+path is rejected, real fixture)",
+          not wp.file_allowed("modules/yoma/learning_data.js", spec, [], "demotractate"))
+    check("file_allowed for a demotractate learning_data.js against yoma is "
+          "refused (rejected in the other direction too, real fixture)",
+          not wp.file_allowed("modules/demotractate/learning_data.js", spec, [], "yoma"))
+    check("file_allowed for a demotractate learning_data.js against "
+          "demotractate's own module resolves correctly (a fixture-targeted "
+          "manifest can write its own real, committed fixture paths)",
+          wp.file_allowed("modules/demotractate/learning_data.js", spec, [], "demotractate"))
+    check("file_allowed for a Yoma learning_data.js against yoma's own "
+          "module still works (sanity, unaffected by this test)",
+          wp.file_allowed("modules/yoma/learning_data.js", spec, [], "yoma"))
+
+
 def main():
     test_registry()
     test_sonnet_only_policy()
@@ -1526,6 +1579,7 @@ def main():
     test_docs_tooling_scope_boundaries()
     test_boundary_authorized_empty_links()
     test_module_awareness()
+    test_module_awareness_against_committed_fixture()
     if FAILURES:
         print(f"\nFAILED: {len(FAILURES)} check(s): {FAILURES}")
         sys.exit(1)
