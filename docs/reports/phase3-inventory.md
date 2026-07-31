@@ -464,6 +464,97 @@ throwaway synthetic descriptor) can only be proven once the fixture
 exists. Row 27 ("fixture builds") stays `-` until then; this PR only
 proves the generic mechanism is ready to accept it.
 
+## Step 4B design note: browser-test module awareness + docs generation
+
+**`tests/browser/rashi-association.spec.js`** now resolves its target
+module from `MYSUGYA_TEST_MODULE` (default `"yoma"`, matching the
+established CLI-default-exception pattern) via `resolveRashiModule()`,
+the same resolver every other Rashi tool uses since Step 3D. Two
+previously-hardcoded things now come from the resolved descriptor
+instead of a literal `"yoma"`:
+
+- The audit script path (`AUDIT_SCRIPT`) is now
+  `<scriptsRoot>/audit_rashi_association.py`, not a literal
+  `modules/yoma/scripts/...` string.
+- The default target daf (`YOMA_ASSOC_TARGET_DAF`'s fallback) now reads
+  `descriptor.browserTest.defaultTargetDaf` - the first real consumer of
+  that descriptor field, which existed since Step 2 but nothing read it
+  until now (confirmed by a repo-wide search before this change).
+- Every `page.goto()` call's `?module=` query parameter now uses the
+  resolved `MODULE_KEY` instead of a hardcoded `yoma` literal.
+
+An unresolvable or Rashi-disabled `MYSUGYA_TEST_MODULE` throws before any
+navigation happens (proven directly: `MYSUGYA_TEST_MODULE=bogus npx
+playwright test tests/browser/rashi-association.spec.js` fails with
+`UNKNOWN_MODULE` and zero tests run).
+
+This closes the two items Step 3D explicitly deferred:
+`scripts/run-rashi-association.mjs` and
+`scripts/rashi-browser-shard-runner.mjs` already resolved their own
+`--module` since Step 3D, but the browser spec they launch via
+`YOMA_ASSOC_PLAN_PATH` ignored that choice entirely. Both scripts now
+also pass `MYSUGYA_TEST_MODULE: opts.module` into the spawned Playwright
+process, so the plan, the audit script, and the browser assertion all
+agree on the same module end to end - proven by running
+`npm run test:rashi-association:yoma -- --target 2a` (still passes, 6/6)
+and by the direct unknown-module rejection above.
+
+A Playwright-specific implementation note, recorded because it cost real
+debugging time: the initial implementation used `createRequire(import.meta.url)`
+to load `shared/module_resolver.js` (the pattern every `.mjs` tool in
+`scripts/` uses). That throws `Cannot use 'import.meta' outside a module`
+under Playwright's spec-loading transform, which compiles this
+ESM-authored `.spec.js` file to CommonJS before running it. A plain,
+untransformed `require(...)` call works instead, since the transformed
+module has a real CommonJS `require` in scope. `.mjs` tools run directly
+via `node` are unaffected and keep using `createRequire`.
+
+**`tests/browser/yoma-smoke.spec.js`**: the four `DAF_*` constants'
+repeated `module=yoma` literal is now built from one `MODULE_KEY`
+constant. This spec's assertions (exact sugya counts, exact titles) stay
+genuinely Yoma-content-specific by design - `MODULE_KEY` is a
+single-source-of-truth cleanup, not an env-var hook, since the
+assertions themselves would not hold for another module's content. This
+matches the governing directive's "parameterize the constant, don't
+duplicate specs" instruction precisely.
+
+**`tests/browser/runtime-guards.spec.js`**: left untouched, deliberately.
+Its `module=yoma` occurrences test real Yoma-specific behavior (daf
+2a's structure; invalid-daf-parameter fallback against the real Yoma
+`DAF_INDEX`) and its unknown-module test already uses a literal
+`nonexistent` on purpose - genericizing this file would not prove
+anything additional and was correctly out of scope per Step 1's BENIGN
+classification.
+
+**Docs generation module-awareness (row 20)**: `scripts/worker_pipeline.py`'s
+`cmd_docs` was read in full. It takes no `--module` argument and has none
+of the blocker pattern found elsewhere: it generates
+`docs/reports/task-type-reference.md` from `scripts/worker_task_types.json`
+(the worker registry, already cross-tractate by design since Step 3A) and
+`docs/reports/schema-coverage-matrix.md` from
+`scripts/worker_schema_scope.json` (schema *field* paths like `daf`,
+`review.argumentFlow` - generic field names, not `modules/yoma/...`
+paths). Its one hardcoded Yoma reference is static prose (the "Known
+drift" paragraph documenting the real, current sourceRefs migration debt
+count) - accurate reporting of actual repository state for a report
+about the repository, not an architectural assumption that would
+misbehave for a second module. **Pass, no code change required** - there
+is no module-selection concept here to get wrong.
+
+`modules/yoma/scripts/generate_rashi_docs.py` was also re-read in full.
+It is correctly PER_MODULE-tier per Step 1's classification: it lives
+under `modules/yoma/scripts/`, hardcodes paths under its own module
+(`assets/learning/yoma`, `docs/rashi-audit-backlog.md` - matching Yoma's
+own `module.json`'s `docsOutput.auditBacklogDoc` field), and was never
+flagged as a blocker. A second module needs its own copy of this script,
+same clone-cost model as `build_learning_data.py` - not a defect the
+Phase 3 acceptance criteria require fixing.
+
+**Yoma proof**: `npm run test:browser` (16 passed, 1 pre-existing skip,
+same counts as before this PR), `npm test` (27/27), and
+`npm run check:rashi-docs:yoma` all pass unchanged. `git diff --stat
+origin/main -- modules/yoma/` is empty.
+
 ## Phase 3 acceptance matrix
 
 Tracked here and re-verified at Step 8 closure. `-` means not yet
@@ -489,8 +580,8 @@ attempted; this PR is read-only and changes none of these to a pass.
 | 16 | Rashi behavior is capability-driven | **pass** - Step 3D: `resolveRashiModule()` (`shared/module_resolver.js`) rejects a Rashi-disabled module with a distinct `CAPABILITY_DISABLED` error, adopted by all 5 Rashi renderer/shard tools; proven against a synthetic Rashi-disabled module and via 3 new tests |
 | 17 | literal behavior is capability-driven | - (not addressed; the question does not yet arise - see Step 3D design note) |
 | 18 | build is module-aware | **pass** - Step 4A: `scripts/build.mjs` accepts explicit `--module <key>` (resolved via `shared/module_resolver.js`, unknown key fails before any write) and `--out <path>` for an isolated output directory; a `publishable:false` module is refused from the default `dist/` in both the explicit-module and unqualified-build paths. Default zero-argument output proven byte-identical before/after and against explicit `--module yoma`. Full fixture proof (row 27) still pending Step 5/6. |
-| 19 | browser testing is module-aware | - |
-| 20 | docs generation is module-aware | - |
+| 19 | browser testing is module-aware | **pass** - Step 4B: `tests/browser/rashi-association.spec.js` resolves its target module (and audit-script path, and default target daf) from `MYSUGYA_TEST_MODULE` via `resolveRashiModule()`; `run-rashi-association.mjs`/`rashi-browser-shard-runner.mjs` (Step 3D's two deferred items) now pass their own `--module` choice through to the spec. Unknown/Rashi-disabled module fails before any navigation. `yoma-smoke.spec.js`'s repeated literal deduplicated into one `MODULE_KEY` constant (its assertions stay Yoma-content-specific by design, not a generic hook); `runtime-guards.spec.js` left untouched (its Yoma/unknown-module cases are deliberate, per Step 1's BENIGN classification). |
+| 20 | docs generation is module-aware | **pass, no code change required** - Step 4B: `cmd_docs` generates only cross-tractate registry/schema documentation (no module-selection concept exists in its inputs); `generate_rashi_docs.py` is correctly PER_MODULE-tier clone-cost, not a blocker. See design note. |
 | 21 | production deployment selects Yoma explicitly | **pass, corrected from Step 1's "already true" claim** - re-verified in Step 4A: `deploy-pages.yml`'s build step previously carried no module argument at all (the earlier "already true" was true only by absence of a second module, not by an explicit guard). Now `deploy-pages.yml` runs `npm run build -- --module yoma` explicitly, backstopped by `build.mjs`'s publishable-flag guard. `deploy-cloudways.yml` remains unparameterized and out of scope (Cloudways is excluded by the governing directive's global constraints) - see the Step 4A design note for the recorded reason. |
 | 22 | fixture is non-publishable | - (fixture does not exist yet) |
 | 23 | fixture can be scaffolded from empty state | - |

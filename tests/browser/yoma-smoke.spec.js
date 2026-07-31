@@ -1,9 +1,16 @@
 import { test, expect } from '@playwright/test';
 
-const DAF_2A = '/index.html?module=yoma&daf=2a';
-const DAF_19B = '/index.html?module=yoma&daf=19b';
-const DAF_23A = '/index.html?module=yoma&daf=23a';
-const DAF_87B = '/index.html?module=yoma&daf=87b';
+// This spec's assertions (exact sugya counts, exact titles, exact daf
+// structure) are Yoma content-specific by design, not a generic module
+// smoke test - MODULE_KEY exists as a single source of truth for the
+// query-string parameter so it is not repeated as a literal four times,
+// not as a hook for running this file against another module (see the
+// Phase 3 Step 4B design note in docs/reports/phase3-inventory.md).
+const MODULE_KEY = 'yoma';
+const DAF_2A = `/index.html?module=${MODULE_KEY}&daf=2a`;
+const DAF_19B = `/index.html?module=${MODULE_KEY}&daf=19b`;
+const DAF_23A = `/index.html?module=${MODULE_KEY}&daf=23a`;
+const DAF_87B = `/index.html?module=${MODULE_KEY}&daf=87b`;
 
 function collectPageErrors(page) {
   const errors = [];

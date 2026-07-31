@@ -124,11 +124,11 @@ const planPath = join(scratchDir, 'plan.json');
 writeFileSync(planPath, JSON.stringify(plan), 'utf8');
 console.log(`[rashi-association] plan written to ${planPath} (${plan.daf_list.length} daf, ${plan.findings.length} entries)`);
 
-// The browser spec itself (tests/browser/rashi-association.spec.js) and its
-// YOMA_ASSOC_PLAN_PATH env var are not module-parameterized here - that is
-// Phase 3 Step 4's job ("browser testing is module-aware"). This script's
-// own module resolution (above) is real for any module with Rashi enabled;
-// only the final browser-assertion stage stays Yoma-specific for now.
+// The browser spec (tests/browser/rashi-association.spec.js) reads
+// MYSUGYA_TEST_MODULE to resolve its own module descriptor (Phase 3 Step
+// 4B); passing this script's own --module choice through closes the loop
+// this file's module resolution (above) opened - the plan, the audit
+// script, and the browser assertion now all agree on the same module.
 console.log('[rashi-association] running browser spec...');
 const playwrightResult = spawnSync(
   'npx',
@@ -136,7 +136,7 @@ const playwrightResult = spawnSync(
   {
     cwd: ROOT,
     stdio: 'inherit',
-    env: { ...process.env, YOMA_ASSOC_PLAN_PATH: planPath },
+    env: { ...process.env, YOMA_ASSOC_PLAN_PATH: planPath, MYSUGYA_TEST_MODULE: opts.module },
   }
 );
 
