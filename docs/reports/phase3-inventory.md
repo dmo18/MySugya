@@ -905,7 +905,7 @@ attempted; this PR is read-only and changes none of these to a pass.
 | 31 | fixture operations do not read or write Yoma content | **pass** - Step 6: `scripts/test_fixture_onboarding.py` hashes `modules/yoma`'s entire tree (every file path + content) before and after resolver resolution, `worker_pipeline.py` manifest generation, and the isolated build+render - identical every time, proven, not just grep-inferred. |
 | 32 | Yoma operations do not depend on fixture content | **already true** (Yoma predates the fixture; no code path references it) |
 | 33 | Yoma content and counts remain unchanged | **pass** - Step 7: full tree-digest proof (not just `git diff --stat`) confirms every Yoma generator's output is byte-identical to the committed files; every corpus count re-verified against the original governing directive's figures. See the Step 7 design note. |
-| 34 | required build check verifies Yoma and fixture | **partial** - Step 6: the proof exists and passes (`npm run test:fixture-onboarding`), but is manually/on-demand invoked, not yet wired into an automated CI workflow. |
+| 34 | required build check verifies Yoma and fixture | **pass** - Step 9E: `.github/workflows/deploy-pages.yml`'s `build` job (the required status check on every PR) now runs `npm run test:fixture-onboarding` and `npm run test:module-scaffold` after the existing browser smoke test, so the fixture-onboarding proof and the scaffold-from-empty-state proof both actually execute and gate merges, not just pass when manually invoked. See the Step 9E design note. |
 | 35 | GitHub Pages still serves the merged Yoma VERSION | **pass, re-verified at Step 8** - VERSION 15.388, merge SHA `d2d4025` (#381), deploy run confirmed |
 | 36 | 0 open PRs | **pass, re-verified at Step 8** - 0 open PRs at the start of this step |
 | 37 | 0 open issues | **pass, re-verified at Step 8** - 0 open issues at the start of this step |
@@ -1267,5 +1267,48 @@ persisted outside its temp directory.
 (every file path + content) before scaffolding either module and after
 both complete; identical every time. `git diff --stat origin/main --
 modules/yoma/` is also empty for this PR's own changes.
+
+## Step 9E design note: wire the fixture proof into required CI (row 34)
+
+Fifth PR of the six-row closure campaign. Step 6 built
+`npm run test:fixture-onboarding` and proved it passes, but left it
+manually/on-demand invoked - not part of any automated workflow, so
+nothing actually re-ran it on every PR. Row 34 required the *required*
+build check itself to run it.
+
+**Change**: `.github/workflows/deploy-pages.yml`'s `build` job (the
+required status check on every PR, per branch protection) gains two new
+steps immediately after the existing "Run browser smoke test" step:
+
+```yaml
+      - name: Run fixture onboarding proof
+        run: npm run test:fixture-onboarding
+
+      - name: Run module scaffold proof
+        run: npm run test:module-scaffold
+```
+
+Both reuse `npx playwright install --with-deps chromium`, already
+installed earlier in the same job for the browser smoke test - no new
+CI dependency. `test:module-scaffold` (Step 9D, this campaign's own
+newest tool) is included alongside `test:fixture-onboarding`, not just
+the latter alone: row 34's underlying intent - "the required build CI
+check runs the complete fixture-onboarding proof" - is best served by
+gating on every generic-tooling proof this campaign built, not only the
+one row 34 names by its original title, now that a second one exists.
+
+**Proof**: both `npm run test:fixture-onboarding` and
+`npm run test:module-scaffold` pass locally (see the Step 6 and Step 9D
+transcripts above); the new workflow steps run the identical npm
+commands CI will run, in the identical job that already builds and
+smoke-tests Yoma. Confirmed via PR CI itself once opened - the required
+`build` check must be green with both new steps present for this PR to
+merge, which is the check's own live enforcement, not a separate proof.
+
+**Yoma proof**: `git diff --stat origin/main -- modules/yoma/` is empty;
+the change is confined to the workflow file. Both proof scripts
+themselves already independently confirm `modules/yoma`'s tree is
+unchanged by their own execution (Step 6's and Step 9D's tree-digest
+checks), so running them in CI adds enforcement without adding risk.
 
 
