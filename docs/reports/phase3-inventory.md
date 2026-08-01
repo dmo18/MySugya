@@ -867,8 +867,10 @@ duplication - see the Step 1/3B design notes).
 
 ## Phase 3 acceptance matrix
 
-Tracked here and re-verified at Step 8 closure. `-` means not yet
-attempted; this PR is read-only and changes none of these to a pass.
+Tracked here and re-verified at Step 8 closure, and again at Step 10's
+final reconciliation (see below - all 38 rows now read pass). `-` meant
+not yet attempted at the time this matrix was first authored (Step 1);
+that PR was read-only and changed none of these to a pass.
 
 | # | criterion | status |
 |---|---|---|
@@ -904,12 +906,12 @@ attempted; this PR is read-only and changes none of these to a pass.
 | 30 | fixture worker scope passes | **pass** - Step 9B: `test_module_awareness_against_committed_fixture()` in `test_worker_policy.py` re-exercises the identical `<module>`-templating mechanism literally against the real, committed `tests/fixtures/modules/demotractate` fixture by name via real `worker_pipeline.py manifest` subprocesses with `MYSUGYA_MODULE_SEARCH_ROOT=tests/fixtures/modules`; `file_allowed()` permits demotractate-scoped paths against `module="demotractate"` and rejects them against `module="yoma"` (and vice versa), closing the gap Step 8 recorded. |
 | 31 | fixture operations do not read or write Yoma content | **pass** - Step 6: `scripts/test_fixture_onboarding.py` hashes `modules/yoma`'s entire tree (every file path + content) before and after resolver resolution, `worker_pipeline.py` manifest generation, and the isolated build+render - identical every time, proven, not just grep-inferred. |
 | 32 | Yoma operations do not depend on fixture content | **already true** (Yoma predates the fixture; no code path references it) |
-| 33 | Yoma content and counts remain unchanged | **pass** - Step 7: full tree-digest proof (not just `git diff --stat`) confirms every Yoma generator's output is byte-identical to the committed files; every corpus count re-verified against the original governing directive's figures. See the Step 7 design note. |
-| 34 | required build check verifies Yoma and fixture | **pass** - Step 9E: `.github/workflows/deploy-pages.yml`'s `build` job (the required status check on every PR) now runs `npm run test:fixture-onboarding` and `npm run test:module-scaffold` after the existing browser smoke test, so the fixture-onboarding proof and the scaffold-from-empty-state proof both actually execute and gate merges, not just pass when manually invoked. See the Step 9E design note. |
-| 35 | GitHub Pages still serves the merged Yoma VERSION | **pass, re-verified at Step 8** - VERSION 15.388, merge SHA `d2d4025` (#381), deploy run confirmed |
-| 36 | 0 open PRs | **pass, re-verified at Step 8** - 0 open PRs at the start of this step |
-| 37 | 0 open issues | **pass, re-verified at Step 8** - 0 open issues at the start of this step |
-| 38 | clean working tree | **pass, re-verified at Step 8** - clean before this PR's changes |
+| 33 | Yoma content and counts remain unchanged | **pass, re-verified at final reconciliation** - Step 7's tree-digest proof stands; additionally, `git diff --stat 5c37c33 f442159 -- modules/yoma/` (the Step 8 baseline merge through PR E's merge, spanning all six PRs of this closure campaign) is empty - zero touches to Yoma across the entire campaign, not just within any single PR. `node scripts/validate_module_schema.mjs --module yoma` re-confirms all counts (173 daf, 492 sugyot, 1953 argumentFlow steps, rashiLines=8854, en_lit fields=2262) unchanged from the original governing directive's figures. |
+| 34 | required build check verifies Yoma and fixture | **pass** - Step 9E: `.github/workflows/deploy-pages.yml`'s `build` job (the required status check on every PR) now runs `npm run test:fixture-onboarding` and `npm run test:module-scaffold` after the existing browser smoke test, so the fixture-onboarding proof and the scaffold-from-empty-state proof both actually execute and gate merges, not just pass when manually invoked. PR E's own CI run is live proof: both new steps executed and passed as part of the required `build` check before merge. See the Step 9E design note. |
+| 35 | GitHub Pages still serves the merged Yoma VERSION | **pass, re-verified at final reconciliation** - VERSION 15.394, merge SHA `f442159` (#387), `build` and `deploy` workflow runs both completed successfully, live site's `index.html` confirmed serving `app-15.394.js` |
+| 36 | 0 open PRs | **pass, re-verified at final reconciliation** - 0 open PRs |
+| 37 | 0 open issues | **pass, re-verified at final reconciliation** - 0 open issues |
+| 38 | clean working tree | **pass, re-verified at final reconciliation** - clean on freshly-checked-out `origin/main` at `f442159`, before this reconciliation PR's own doc-only change |
 
 ## Step 8: final reconciliation
 
@@ -1310,5 +1312,92 @@ the change is confined to the workflow file. Both proof scripts
 themselves already independently confirm `modules/yoma`'s tree is
 unchanged by their own execution (Step 6's and Step 9D's tree-digest
 checks), so running them in CI adds enforcement without adding risk.
+
+## Step 10: final reconciliation - Phase 3 COMPLETE (38/38)
+
+Step 8 closed with 32 of 38 acceptance-matrix rows passing and Phase 3
+marked **BLOCKED**, naming six specific open rows: 17, 23, 26, 29, 30,
+34. A six-row closure campaign then ran as five sequential PRs (#383-
+#387, "PR A" through "PR E" above, Steps 9A-9E), each merged and
+deployed before the next began, each independently re-verifying
+`modules/yoma` was untouched before merging.
+
+Read fresh, all 38 rows now above, immediately before writing this
+section:
+
+**All 38 rows read pass.** The six rows Step 8 left open are closed:
+
+- **Row 17** (literal behavior is capability-driven) - Step 9A,
+  `validate_module_schema.mjs` proves both enabled (Yoma) and disabled
+  (demotractate) paths generically, plus negative-path rejection.
+- **Row 23** (fixture can be scaffolded from empty state) - Step 9D,
+  `scaffold_module.py` + `test_module_scaffold.py` prove two independent
+  from-nothing scaffolds resolve, validate, build in isolation, and
+  render in a real browser.
+- **Row 26** (fixture validates) - Step 9A, the same generic validator
+  passes the real committed fixture cleanly.
+- **Row 29** (fixture documentation generates) - Step 9C,
+  `generate_module_docs.py` produces and freshness-checks the fixture's
+  doc, proven generic against real Yoma content too.
+- **Row 30** (fixture worker scope passes) - Step 9B,
+  `test_module_awareness_against_committed_fixture()` re-exercises the
+  `<module>`-templating mechanism literally against the real, committed
+  fixture by name.
+- **Row 34** (required build check verifies Yoma and fixture) - Step 9E,
+  both fixture-onboarding and scaffold-from-empty proofs now run as
+  required steps in `deploy-pages.yml`'s `build` job on every PR.
+
+**Every condition the governing six-row closure directive required for
+COMPLETE, checked individually at this reconciliation:**
+
+- Generic validation passing Yoma and demotractate - `node
+  scripts/validate_module_schema.mjs --module yoma` and `--module
+  demotractate --search-root tests/fixtures/modules` both pass, re-run
+  fresh at this reconciliation (rows 17, 26).
+- Literal enabled and disabled paths proven - Yoma
+  (`literalTranslation.enabled=true`, 2262 real `en_lit` fields) and
+  demotractate (`enabled=false`, correctly 0) both confirmed in the same
+  run above (row 17).
+- Empty-state onboarding proven - `npm run test:module-scaffold`
+  re-run fresh, both capability states, all real browser renders (row
+  23).
+- Committed-fixture worker scope proven - `python3
+  scripts/test_worker_policy.py` re-run fresh, all 8 committed-fixture
+  checks pass (row 30).
+- Fixture documentation generated and fresh - `python3
+  scripts/generate_module_docs.py --module demotractate --search-root
+  tests/fixtures/modules --check` re-run fresh: OK (row 29).
+- Required build CI actually running and enforcing the fixture proof -
+  PR E's own `build` check ran `test:fixture-onboarding` and
+  `test:module-scaffold` as required steps and passed before merge; the
+  workflow file change is on `main` now, so every subsequent PR is
+  gated by it too (row 34).
+- Yoma tree and corpus unchanged - `git diff --stat 5c37c33 f442159 --
+  modules/yoma/` (the full six-PR campaign span) is empty; counts
+  re-verified via the validator (row 33).
+- Fixture remaining synthetic, isolated, and non-publishable -
+  `modules/demotractate`'s (fixture's) `module.json` still declares
+  `status: "synthetic"`, `publishable: false`; never added to the real
+  `manifest.js`; never built by `build.mjs`'s default invocation; the
+  campaign added a *second* fixture-adjacent artifact this run
+  (`docs/module-status-demotractate.md`) and two scaffold-proof
+  throwaway modules that live only in temp directories during their own
+  test run - none of these are published or persisted (row 22, and the
+  campaign's own standing constraint).
+- Deployment confirmed - VERSION 15.394, merge SHA `f442159` (#387),
+  `build` and `deploy` workflow runs both completed successfully, live
+  site confirmed serving `app-15.394.js` (row 35).
+- 0 open PRs/issues - both re-checked fresh at this reconciliation
+  (rows 36, 37).
+- Clean tree - re-checked fresh at this reconciliation, before this PR's
+  own doc-only change (row 38).
+
+**Phase 3 is COMPLETE: 38 of 38 acceptance-matrix rows pass.** The
+platform's generic tooling (resolver, worker pipeline, build, browser
+tests, docs generation, schema/capability validation, scaffolding) is
+proven module-agnostic against both Yoma (real, frozen, production) and
+`demotractate` (synthetic, isolated, non-publishable) without touching
+Yoma's content, corpus, or counts at any point across the full campaign.
+No real second tractate was started. Phase 4 was not started.
 
 
