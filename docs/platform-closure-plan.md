@@ -440,10 +440,20 @@ None on Phase 1 or Phase 3. Can run independently or in parallel.
 
 ## Phase 3: Tractate-agnostic replication
 
-### Status (as of Step 8 reconciliation, VERSION 15.388)
+### Status: COMPLETE (VERSION 15.395, commit `1de8576`)
 
-**BLOCKED, not complete.** Full detail, evidence, and per-row disposition
-in `docs/reports/phase3-inventory.md`; summary here:
+**All 38 acceptance-matrix rows pass.** Full detail, evidence, and
+per-row disposition in `docs/reports/phase3-inventory.md`. Step 8
+(VERSION 15.388) closed with 32 of 38 rows passing and Phase 3 marked
+BLOCKED; a six-row closure campaign then ran as five sequential PRs
+(#383-#387, merged and deployed one at a time) closing rows 17
+(literal-translation behavior capability-driven), 23 (fixture scaffolded
+from empty state), 26 (fixture validates via a generic validator), 29
+(fixture documentation generates), 30 (fixture worker scope against the
+literal committed fixture), and 34 (required build check runs both the
+fixture-onboarding and scaffold-from-empty proofs). A sixth PR (#388)
+re-verified all 38 rows fresh and confirmed Yoma's tree byte-unchanged
+across the entire six-PR campaign span. Summary of what was resolved:
 
 - All 9 originally-identified pipeline blockers (Step 1's inventory) are
   resolved: `worker_pipeline.py`, `scripts/worker_task_types.json`, and
@@ -470,24 +480,29 @@ in `docs/reports/phase3-inventory.md`; summary here:
   generator re-run and diffed byte-for-byte against committed output,
   not just an empty `git diff`); every corpus count re-verified.
 
-**6 of 38 acceptance-matrix rows remain open**, none requiring Yoma
-content changes, a real second tractate, or Phase 4 work: fixture
-scaffold-from-empty proof, fixture validation via a generic validator,
-fixture documentation generation, fixture worker-scope proof against
-the literal fixture module (currently proven only via a synthetic
-in-memory stand-in), a dedicated CI workflow for the onboarding proof,
-and literal-translation capability-driven behavior (not yet actionable -
-no generic tool touches literal content). Exact text and required
-follow-up for each is in `docs/reports/phase3-inventory.md`'s Step 8
-section.
+**All 6 rows Step 8 left open are now closed**, each with a generic
+tool, none requiring Yoma content changes or a real second tractate:
+row 17 and row 26 by `scripts/validate_module_schema.mjs` (a generic
+capability-aware schema validator); row 30 by re-exercising the
+`<module>`-templating mechanism literally against the committed
+`demotractate` fixture; row 29 by `scripts/generate_module_docs.py` (a
+generic status-doc generator); row 23 by `scripts/scaffold_module.py` +
+`scripts/test_module_scaffold.py` (a from-nothing scaffold, proven
+end-to-end for both capability states); row 34 by wiring both the
+fixture-onboarding and scaffold-from-empty proofs into
+`deploy-pages.yml`'s required `build` check. Full transcript for each in
+`docs/reports/phase3-inventory.md`'s Step 9A-9E design notes and Step 10
+final reconciliation.
 
-### Problem
+### Problem (as originally analyzed, now resolved)
 
-`docs/reports/replication-readiness.md` measured this precisely: the app and
-build layers are already module-generic (8/8 fixture checks pass, no change
-needed), but 7 shared tools at the repo root hardcode `modules/yoma`, chief
-among them `worker_pipeline.py`, whose `--module` flag is currently
-cosmetic - `YROOT` is pinned regardless of the flag's value.
+`docs/reports/replication-readiness.md` measured this precisely at the
+time: the app and build layers were already module-generic (8/8 fixture
+checks pass, no change needed), but 7 shared tools at the repo root
+hardcoded `modules/yoma`, chief among them `worker_pipeline.py`, whose
+`--module` flag was cosmetic - `YROOT` pinned regardless of the flag's
+value. All 7 are now parameterized (Phase 3 Steps 3A-3D); see
+`docs/reports/phase3-inventory.md` for current, resolved status.
 
 ### Goals
 
@@ -520,12 +535,14 @@ cosmetic - `YROOT` is pinned regardless of the flag's value.
 
 Not a real second tractate. A tiny fixture (built as `demotractate` at
 `tests/fixtures/modules/demotractate/`, 3 synthetic daf) that proves, end
-to end. Status per item as of Step 8 (full evidence in
-`docs/reports/phase3-inventory.md`'s acceptance matrix):
+to end. All items below are now **Done**; full evidence in
+`docs/reports/phase3-inventory.md`'s acceptance matrix:
 
-- Onboarding from an empty module directory. **Open** (row 23) - the
-  existing fixture's resolve/build/render path is proven; a from-nothing
-  scaffold reproduction is not yet.
+- Onboarding from an empty module directory. **Done** (row 23) -
+  `scripts/scaffold_module.py` + `scripts/test_module_scaffold.py` prove
+  a from-nothing scaffold resolves, validates, builds in isolation, and
+  renders in a real browser, for both a capabilities-disabled and a
+  capabilities-enabled scaffold.
 - Manifest creation targets the fixture, never Yoma. **Done** (row 7) -
   `worker_pipeline.py manifest --module demotractate` proven live.
 - No fixture operation reads or writes any Yoma file (assert this directly,
@@ -535,24 +552,26 @@ to end. Status per item as of Step 8 (full evidence in
   test-fixture) data. **Done** (row 24).
 - Generated data stays isolated under the fixture's own paths. **Done**
   (row 25, row 27).
-- Schema validation runs and passes against the fixture. **Open** (row
-  26) - no generic, module-selectable validator has been run against it
-  yet.
+- Schema validation runs and passes against the fixture. **Done** (row
+  26) - `node scripts/validate_module_schema.mjs --module demotractate
+  --search-root tests/fixtures/modules` passes cleanly.
 - Worker scope checks (`allowedFiles` resolution) work for the fixture's
-  module id. **Partial** (row 30) - the mechanism is proven with a
-  synthetic in-memory fixture, not yet re-exercised against the literal
-  committed `demotractate` module by name.
+  module id. **Done** (row 30) - the `<module>`-templating mechanism is
+  now re-exercised literally against the real, committed `demotractate`
+  module by name, not just a synthetic in-memory stand-in.
 - Build succeeds with the fixture module present. **Done** (row 27) -
   `build.mjs --module demotractate --search-root ... --out ...`.
 - Browser tests pass against the fixture. **Done** (row 28) - via a
   dedicated proof script (`fixture_onboarding_browser_check.mjs`), not
   the formal `tests/browser/*.spec.js` suite.
 - Documentation generation succeeds and describes the fixture correctly.
-  **Open** (row 29) - no fixture-specific docs-generation script exists.
+  **Done** (row 29) - `scripts/generate_module_docs.py` produces and
+  freshness-checks `docs/module-status-demotractate.md`.
 - The entire process is executable from documented commands, with no manual
   repo-internal knowledge required beyond what the commands themselves say.
-  **Done** for the parts proven above - `npm run test:fixture-onboarding`
-  runs the full resolver + build + render proof from one command.
+  **Done** - `npm run test:fixture-onboarding` and `npm run
+  test:module-scaffold` run the full resolver + build + render proof
+  from one command each, and both are now required CI steps (row 34).
 
 ### Explicitly out of scope
 
@@ -576,6 +595,14 @@ None on Phase 1 or Phase 2. Can run independently or in parallel with either.
 ---
 
 ## Phase 4: Final repository closure
+
+### Status: IN PROGRESS (started VERSION 15.395, all of Phases 1-3 complete)
+
+Phase 4 began once Phase 3 closed at 38/38. Its own inventory and
+evidence live in `docs/reports/phase4-inventory.md`; its terminal record
+is `docs/reports/platform-readiness.md`. See those documents for current
+status - this section describes the required work and completion
+definition only, unchanged from when it was first written.
 
 ### Required work
 
