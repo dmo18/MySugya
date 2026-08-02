@@ -1,0 +1,201 @@
+{
+  "generatedAt": "VERSION 15.395, commit 1de8576 (Phase 3 complete, Phase 4 start)",
+  "methodology": {
+    "docsRead": [
+      "README.md", "CLAUDE.md", "docs/platform-closure-plan.md",
+      "docs/reports/platform-readiness.md", "docs/reports/open-items.md",
+      "docs/new-tractate-onboarding.md", "docs/tractate-build-process.md",
+      "docs/yoma-completion-report.md", "docs/reports/phase3-inventory.md",
+      "docs/reports/replication-readiness.md",
+      "docs/reports/module-descriptor-contract.md", "modules/yoma/MODULE.md",
+      "docs/reports/next-tractate-roadmap.md",
+      "docs/reports/rashi-association-audit.md",
+      "docs/reports/sugya-schema-readiness.md",
+      "docs/reports/source-refs-normalization-plan.md",
+      "docs/rashi-audit-backlog.md", "docs/worker-pipeline-sop.md",
+      "docs/worker-pipeline.md", "docs/reports/task-type-reference.md"
+    ],
+    "grepSweep": {
+      "termsSearched": [
+        "TODO", "FIXME", "XXX", "HACK", "TEMP", "temporary", "provisional",
+        "legacy", "fallback", "rollback", "paused", "deferred", "blocked",
+        "blocker", "unresolved", "unknown", "stale", "pending",
+        "in progress", "not started", "later", "future work", "follow-up",
+        "operator decision", "operator-owned", "manual step", "partial",
+        "skipped", "deprecated", "workaround", "allowlist", "baseline",
+        "exception", "scaffold debt", "migration debt", "compatibility",
+        "hardcoded", "Yoma-only", "one real module", "second tractate"
+      ],
+      "scope": "all git-tracked files, excluding dist/ and node_modules/ (877 tracked files)",
+      "note": "learning_data.js, source_store.js, and modules/yoma/assets/**/*.json content matches were excluded from manual-debt classification per class I (GENERATED_OR_VENDOR) - they are verbatim Sefaria/talmud.dev source or Rashi helper translations containing incidental English words like 'temporary'/'provisional' as part of the Talmudic content itself, not repository status markers.",
+      "codeDebtMarkersFound": "0 real TODO/FIXME/XXX/HACK markers in tracked source. The only 2 hits were: this Phase 4 instruction text quoted verbatim inside docs/platform-closure-plan.md, and modules/yoma/scripts/audit_schema_semantics.py's own regex that DETECTS such markers in enrichment content (a validator, not debt itself)."
+    },
+    "settingsReverified": {
+      "ruleset": "GET /repos/dmo18/MySugya/rulesets/19991220 - direct API read-back succeeded this session (proxy did not block this endpoint), byte-identical to the Phase 1 completion record: refs/heads/main, enforcement active, PR required, 0 mandatory reviews, merge/squash/rebase allowed, required_status_checks context exactly 'build', strict_required_status_checks_policy true, deletion + non_fast_forward rules present, current_user_can_bypass 'never'.",
+      "pagesConfigEndpoint": "GET /repos/dmo18/MySugya/pages still returns 403 'Access to this GitHub API path is not permitted through this proxy' - unchanged environment-policy block, re-confirmed fresh, not a new drift.",
+      "deploymentsCheck": "GET /repos/dmo18/MySugya/deployments?environment=github-pages shows exactly one deployment per main-branch merge SHA across the last 5 merges (1de8576, f442159, 075e4fd, d50c180, b74f9dd), sequential, no competing/interleaved deployment - behaviorally confirms no dual-publisher race."
+    },
+    "branchesChecked": "64 non-main branches listed via list_branches, all named after already-merged, already-squashed campaign PRs (per-daf rashi-reconstruction branches, sourcerefs-phase2-step* branches, etc.). Classified as stale merged-PR head branches: harmless, not a Phase 4 completion blocker (Phase 4 criteria require 0 open PRs/issues and a clean tree, not 0 stale branches). Not deleted, per the explicit instruction not to delete branches merely because they exist."
+  },
+  "findings": [
+    {
+      "id": "F1",
+      "file": "docs/platform-closure-plan.md",
+      "location": "Phase 3 section header and status line",
+      "matchedTerm": "BLOCKED, not complete",
+      "classification": "COMPLETED_STALE_TEXT",
+      "context": "Phase 3 status frozen at Step 8 (VERSION 15.388, 32/38 rows). Phase 3 is now complete at 38/38 as of PR F (VERSION 15.395, commit 1de8576).",
+      "requiredAction": "Update Phase 3 section to COMPLETE, cite the six-row closure campaign (#383-#388) and final SHA.",
+      "blocksPhase4": true
+    },
+    {
+      "id": "F2",
+      "file": "docs/reports/platform-readiness.md",
+      "location": "whole document",
+      "matchedTerm": "Phase 2 snapshot, not the Phase 4 terminal closure document",
+      "classification": "ACTIVE_BLOCKER",
+      "context": "Self-describes as an interim Phase 2 snapshot with a stale Phase 3 BLOCKED update note. Phase 4 completion criterion #11 explicitly requires this file to become the terminal record.",
+      "requiredAction": "Full rewrite as the terminal platform-readiness document (Phase 4 Step 7).",
+      "blocksPhase4": true
+    },
+    {
+      "id": "F3",
+      "file": "docs/reports/open-items.md",
+      "location": "OPEN-ACTIONABLE table, fixture row",
+      "matchedTerm": "Resolved: ... Remaining, per docs/reports/phase3-inventory.md's Step 8 section (6 of 38 acceptance rows)",
+      "classification": "COMPLETED_STALE_TEXT",
+      "context": "Lists all 6 Phase 3 rows Step 8 left open; all 6 are now closed (PRs #383-#388).",
+      "requiredAction": "Move to COMPLETED with the six-row closure campaign evidence.",
+      "blocksPhase4": true
+    },
+    {
+      "id": "F4",
+      "file": "docs/new-tractate-onboarding.md",
+      "location": "prerequisite note, top of file",
+      "matchedTerm": "This checklist must not be followed for a real tractate until Phase 3 closes completely",
+      "classification": "COMPLETED_STALE_TEXT",
+      "context": "Gates the checklist on Phase 3 closing and lists the 6 now-resolved rows as still open.",
+      "requiredAction": "Update: Phase 3 is closed; checklist may now be followed once an operator selects a tractate (still gated on operator selection, per standing constraints).",
+      "blocksPhase4": true
+    },
+    {
+      "id": "F5",
+      "file": "CLAUDE.md",
+      "location": "line 82, repository structure table",
+      "matchedTerm": "blocked on Phase 3 closing",
+      "classification": "COMPLETED_STALE_TEXT",
+      "context": "One-line annotation next to new-tractate-onboarding.md in the structure table.",
+      "requiredAction": "Remove the stale parenthetical.",
+      "blocksPhase4": false
+    },
+    {
+      "id": "F6",
+      "file": "docs/reports/replication-readiness.md",
+      "location": "whole document, verdict line",
+      "matchedTerm": "the tooling layer is not: 7 shared tools at the repo root hardcode modules/yoma and must be parameterized first",
+      "classification": "VALID_HISTORICAL_RECORD (needs a superseded-status banner)",
+      "context": "Presents the pre-Phase-3 blocker state as current. All 7 tools were parameterized in Phase 3 Steps 3A-3D.",
+      "requiredAction": "Add a status banner at the top pointing to docs/reports/phase3-inventory.md as current evidence; keep the checklist content (clone-cost reference remains accurate).",
+      "blocksPhase4": false
+    },
+    {
+      "id": "F7",
+      "file": "docs/reports/rashi-association-audit.md",
+      "location": "production cutover table, top of file",
+      "matchedTerm": "?rashiAssoc=legacy | legacy (temporary rollback override) ... has NOT been deleted; it remains intact in app.jsx",
+      "classification": "COMPLETED_STALE_TEXT",
+      "context": "Describes the legacy renderer as still present via ?rashiAssoc=legacy. It was removed at VERSION 15.346 (docs/reports/legacy-renderer-retirement-policy.md), a later version than this table's own VERSION 15.338 cutover record.",
+      "requiredAction": "Correct the table to reflect the final state: linked is the only renderer, any ?rashiAssoc value including legacy is ignored.",
+      "blocksPhase4": false
+    },
+    {
+      "id": "F8",
+      "file": "docs/reports/sugya-schema-readiness.md",
+      "location": "opening line",
+      "matchedTerm": "Semantic readiness: blocked by one systemic defect affecting 417 sugyot",
+      "classification": "VALID_HISTORICAL_RECORD (needs a resolved-status banner)",
+      "context": "Phase 2A's category-registry design (shared/argument_step_taxonomy.json) resolved the argumentFlow.type vocabulary question in full; 100% coverage confirmed by validate_argument_taxonomy.py.",
+      "requiredAction": "Add a resolved-status banner pointing to docs/platform-closure-plan.md's Phase 2A section and docs/reports/argumentflow-category-decision.md.",
+      "blocksPhase4": false
+    },
+    {
+      "id": "F9",
+      "file": "docs/reports/source-refs-normalization-plan.md",
+      "location": "status update banner, top of file",
+      "matchedTerm": "33 remain UNRESOLVED",
+      "classification": "VALID_HISTORICAL_RECORD (its own prior status update is itself now superseded)",
+      "context": "This banner (VERSION 15.363) predates the final two-case resolution (VERSION 15.376-15.377, PRs #368-#369). All 33 are now resolved per docs/platform-closure-plan.md's Phase 2 completion criterion.",
+      "requiredAction": "Add a further status update noting all 33 are resolved, pointing to the Phase 2 completion record.",
+      "blocksPhase4": false
+    },
+    {
+      "id": "F10",
+      "file": "docs/tractate-build-process.md",
+      "location": "Section 1, ingestion order",
+      "matchedTerm": "(absence) module.json / module_resolver / scaffold_module.py",
+      "classification": "COMPLETED_STALE_TEXT (documentation gap)",
+      "context": "The 8-step ingestion order never mentions creating modules/<id>/module.json or scripts/scaffold_module.py, the actual mechanism Phase 3 built for module resolution, generic validation, worker-pipeline awareness, and CI enforcement.",
+      "requiredAction": "Add the module descriptor step, pointing to docs/reports/module-descriptor-contract.md and scripts/scaffold_module.py.",
+      "blocksPhase4": true
+    },
+    {
+      "id": "F11",
+      "file": "docs/new-tractate-onboarding.md, docs/reports/next-tractate-roadmap.md",
+      "location": "prerequisite checklists",
+      "matchedTerm": "(absence) module.json / scaffold_module.py",
+      "classification": "COMPLETED_STALE_TEXT (documentation gap)",
+      "context": "Same gap as F10 in the two checklist documents that will actually be followed when a real tractate starts.",
+      "requiredAction": "Add a brief module-descriptor/scaffold mention to both.",
+      "blocksPhase4": true
+    },
+    {
+      "id": "F12",
+      "file": "docs/reports/next-tractate-roadmap.md",
+      "location": "line 69, renderer expectations section",
+      "matchedTerm": "the legacy vilnaLine-coincidence path, which exists only as Yoma's rollback",
+      "classification": "COMPLETED_STALE_TEXT (minor tense error)",
+      "context": "Present tense 'exists' is incorrect; the legacy renderer was deleted at VERSION 15.346, not merely deprioritized.",
+      "requiredAction": "Correct to past tense / 'no longer exists'.",
+      "blocksPhase4": false
+    }
+  ],
+  "explicitlyNotABlocker": [
+    {
+      "item": "Rashi content-quality (translation accuracy) audit",
+      "location": "docs/reports/open-items.md OPEN-ACTIONABLE, docs/rashi-audit-backlog.md Scope note",
+      "classification": "OPEN-ACTIONABLE (genuine, ongoing, correctly classified already)",
+      "reason": "Real, distinct, explicitly-in-progress content-quality work, separate from and predating the Phase 3/4 platform-closure campaign. Phase 4's completion criteria require Rashi STRUCTURAL/renderer gates (corpus validation, association, boundary registry, readiness 8/8), never translation-quality audit completion. Touching it would risk 'reopening Rashi semantic repair', explicitly prohibited by this campaign's constraints. Not resolved, not touched, and not classified as a Phase 4 blocker."
+    },
+    {
+      "item": "Nekudot/vowelization audit",
+      "location": "docs/rashi-audit-backlog.md Scope note, scripts/worker_task_types.json paused:true",
+      "classification": "OUT_OF_SCOPE",
+      "reason": "Explicitly out of project scope per CLAUDE.md, platform-closure-plan.md, and open-items.md. Not touched."
+    },
+    {
+      "item": "331 canonical string sourceRefs",
+      "location": "docs/reports/sourcerefs-contract-decision.md",
+      "classification": "OUT_OF_SCOPE (permanent decision, not a gap)",
+      "reason": "Permanently retained in string form by design; converting would require inventing sourceType. Not touched."
+    },
+    {
+      "item": "Cloudways / mysugya.com",
+      "location": "README.md, platform-closure-plan.md",
+      "classification": "OUT_OF_SCOPE",
+      "reason": "GitHub Pages is the sole authoritative beta deployment throughout. Not touched."
+    },
+    {
+      "item": "64 stale merged-PR head branches",
+      "location": "repository branch list",
+      "classification": "HISTORICAL (git ref residue, not text debt)",
+      "reason": "All correspond to already-merged, already-squashed PRs. Not a Phase 4 completion criterion (0 open PRs/issues and clean tree are the criteria, not 0 stale branches). Not deleted."
+    }
+  ],
+  "counts": {
+    "totalFindingsRequiringDocFix": 12,
+    "blockingPhase4": 6,
+    "nonBlockingPolish": 6,
+    "activeCodeDebtMarkers": 0,
+    "explicitlyNotBlockers": 5
+  }
+}

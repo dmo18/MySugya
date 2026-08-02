@@ -2,22 +2,37 @@
 
 > Current repository-wide status: `docs/reports/open-items.md`.
 
-## Production cutover (VERSION 15.338)
+## Legacy renderer removed (VERSION 15.346) - update to the cutover record below
 
-The linked renderer is now the **production default**. Renderer selection
-lives in `rashiRendererFromUrl` (`shared/rashi_association.js`), is read
-fresh from the URL on every call, and is never persisted to localStorage or
+**The production-cutover table immediately below (VERSION 15.338) is
+superseded by a later change.** At VERSION 15.346 the legacy
+vilnaLine-coincidence renderer and the `?rashiAssoc` selector were
+removed entirely (`docs/reports/legacy-renderer-retirement-policy.md`):
+`linkedGemaraLineIds` is now the **only** association mechanism, with no
+rollback path. A `?rashiAssoc` value of any kind, including the retired
+`legacy`, is ignored and renders linked. The table below describes the
+intermediate VERSION 15.338 state (linked as default, legacy still
+reachable as a rollback) - accurate history, not current behavior. See
+`README.md`, `modules/yoma/MODULE.md`, and
+`docs/reports/open-items.md` for the current, correct statement.
+
+## Production cutover (VERSION 15.338, historical - see update above)
+
+The linked renderer became the **production default**. Renderer selection
+lived in `rashiRendererFromUrl` (`shared/rashi_association.js`), read
+fresh from the URL on every call, never persisted to localStorage or
 any other storage:
 
-| URL | Renderer |
+| URL | Renderer (as of VERSION 15.338, since superseded) |
 |---|---|
 | no `rashiAssoc` parameter | linked (production default) |
 | `?rashiAssoc=linked` | linked (still accepted, no longer required) |
-| `?rashiAssoc=legacy` | legacy (temporary rollback override) |
+| `?rashiAssoc=legacy` | legacy (temporary rollback override, since removed) |
 | unknown or malformed value | linked |
 
-The legacy vilnaLine-coincidence renderer has **not** been deleted; it
-remains intact in `app.jsx` behind `?rashiAssoc=legacy`. In linked mode
+At the time, the legacy vilnaLine-coincidence renderer had **not** been
+deleted; it remained intact in `app.jsx` behind `?rashiAssoc=legacy`
+until its removal at VERSION 15.346. In linked mode
 `linkedGemaraLineIds` is authoritative: no vilnaLine fallback, multi-linked
 comments render beneath every declared target, several comments may render
 beneath one target, Mishnah and suffixed ids stay exact, and the 20

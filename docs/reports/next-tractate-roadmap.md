@@ -31,7 +31,14 @@ detailed procedure; this is the gate list.
 An operator names the tractate and confirms scope (full tractate or a bounded
 daf range) and the intended enrichment depth. Nothing below starts first.
 
-### 2. Source acquisition
+### 2. Module descriptor and source acquisition
+- `modules/<id>/module.json` created per
+  `docs/reports/module-descriptor-contract.md`'s schema (or scaffolded
+  first with `python3 scripts/scaffold_module.py --key <id> --search-root
+  <path>`), so the module resolves via `scripts/module_resolver.py`/
+  `shared/module_resolver.js` and every generic tool that depends on
+  it (`worker_pipeline.py`, `validate_module_schema.mjs`, `build.mjs
+  --module`).
 - Sefaria `he:`/`en:` fetched verbatim into `modules/<id>/source_store.js`;
   these fields are immutable once fetched.
 - talmud.dev Vilna-line cache fetched into `modules/<id>/assets/talmuddev/`.
@@ -64,10 +71,11 @@ daf range) and the intended enrichment depth. Nothing below starts first.
   the shard count suits the new tractate's size.
 
 ### 6. Renderer expectations
-The linked `linkedGemaraLineIds` renderer is the production default. A new
-tractate is expected to populate `linkedGemaraLineIds` from the start; it
-should not rely on the legacy vilnaLine-coincidence path, which exists only
-as Yoma's rollback and is not a supported authoring model. See
+The linked `linkedGemaraLineIds` renderer is the only renderer - there is
+no rollback path. A new tractate is expected to populate
+`linkedGemaraLineIds` from the start; the legacy vilnaLine-coincidence
+renderer no longer exists (removed at VERSION 15.346) and is not a
+supported authoring model. See
 `docs/reports/legacy-renderer-retirement-policy.md`.
 
 ## Explicitly out of scope for the current campaign

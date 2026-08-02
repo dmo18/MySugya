@@ -45,30 +45,44 @@ modules/<masechta>/
 
 Ingestion order for a new masechta:
 
-1. **Source store.** Fetch each daf from the Sefaria API. Copy `he:`/`en:`
+1. **Module descriptor.** Create `modules/<masechta>/module.json` per
+   `docs/reports/module-descriptor-contract.md`'s schema (or scaffold a
+   throwaway one first with `python3 scripts/scaffold_module.py --key
+   <id> --search-root <path>` to see the shape). This is what makes the
+   module discoverable by `scripts/module_resolver.py`/
+   `shared/module_resolver.js`, and therefore by `worker_pipeline.py`,
+   `scripts/validate_module_schema.mjs`, and `scripts/build.mjs`'s
+   `--module` flag - all of which are module-agnostic given a valid
+   descriptor (Phase 3, `docs/reports/phase3-inventory.md`).
+2. **Source store.** Fetch each daf from the Sefaria API. Copy `he:`/`en:`
    verbatim into `modules/<masechta>/source_store.js`. Never alter these
    fields once fetched; they are the ground truth against which
    `validate_sefaria.py` checks.
-2. **talmud.dev cache.** Run `fetch_talmuddev.py` to pull the Vilna-line
+3. **talmud.dev cache.** Run `fetch_talmuddev.py` to pull the Vilna-line
    reference cache used for daftext generation and order auditing.
-3. **Daftexts.** Generate `assets/daftexts/<daf>.txt` from the talmud.dev
+4. **Daftexts.** Generate `assets/daftexts/<daf>.txt` from the talmud.dev
    cache. These are compressed, line-numbered Hebrew text with `וכו'`
    (etc.) elisions in some places, matching the printed Vilna page - not a
    full transcript. Treat truncations as real; do not assume more content
    is available locally than the file contains.
-4. **Vilna line breaks.** Run `daftext_align.py` to embed line-break
+5. **Vilna line breaks.** Run `daftext_align.py` to embed line-break
    markers matching the physical Vilna edition.
-5. **Enrichment JSON.** Create one `<daf>.learning.json` per daf under
+6. **Enrichment JSON.** Create one `<daf>.learning.json` per daf under
    `assets/learning/<masechta>/`. This is the only layer intended for
    ongoing human/AI authoring. See Sections 4-8 for how to populate it to
    completion.
-6. **Build.** Run `python3 scripts/build_learning_data.py` from
+7. **Build.** Run `python3 scripts/build_learning_data.py` from
    `modules/<masechta>/` to generate `learning_data.js`.
-7. **Manifest.** Add an entry to root `manifest.js` with the correct
+8. **Manifest.** Add an entry to root `manifest.js` with the correct
    `dataScript` path (`modules/<id>/learning_data.js`, lowercase
    alphanumeric id only - both the build script and the app's runtime
-   guard enforce this pattern and reject anything else).
-8. Run every validation gate in Section 10, then the standard test suite.
+   guard enforce this pattern and reject anything else). This is a
+   separate, narrower, browser-runtime contract from `module.json` in
+   step 1 - see `docs/reports/module-descriptor-contract.md` for why the
+   two are not merged.
+9. Run `node scripts/validate_module_schema.mjs --module <id>` (generic
+   capability-aware schema/content validator) and every validation gate
+   in Section 10, then the standard test suite.
 
 ---
 

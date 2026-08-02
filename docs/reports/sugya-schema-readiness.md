@@ -1,6 +1,18 @@
 # Sugya schema readiness: 492 sugyot
 
-**Field coverage: 492/492 complete. Semantic readiness: blocked by one
+**Status update: the C6/C7 vocabulary blocker described below is
+RESOLVED (Phase 2A of `docs/platform-closure-plan.md`, VERSION 15.358).**
+The two-level `category`/`type` design was adopted: `category` is
+derived from the versioned registry `shared/argument_step_taxonomy.json`
+(never stored per step), reaching 100% coverage of all 119 observed
+`type` values without editing any content file. `validate_argument_taxonomy.py`
+proves 100% coverage, 0 malformed values. See
+`docs/reports/argumentflow-category-decision.md` for the design record.
+The analysis below (field coverage, the defect's original scope, the
+options considered) remains accurate history of how that decision was
+reached.
+
+**Original status (historical): field coverage: 492/492 complete. Semantic readiness: blocked by one
 systemic defect affecting 417 sugyot.**
 
 `validate_schema_completeness.py` answers "is the field present and

@@ -79,7 +79,7 @@ MySugya/
     yoma-completion-report.md   Concrete record of the Yoma build and review, phase by phase
     yoma-perek-review.md        Perek-by-perek semantic review findings for Yoma
     rashi-audit-backlog.md      Live tracking for the Rashi content-quality audit and the paused nekudot audit
-    new-tractate-onboarding.md  Safety-layer checklist for onboarding a real second tractate (blocked on Phase 3 closing)
+    new-tractate-onboarding.md  Safety-layer checklist for onboarding a real second tractate
   modules/
     yoma/                       Frozen Yoma module, see modules/yoma/MODULE.md
 ```

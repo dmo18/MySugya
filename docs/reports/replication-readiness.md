@@ -1,6 +1,19 @@
 # Replication readiness: onboarding a second tractate
 
-**Verdict: the app and build layers are ready and need no change. The tooling
+**Status: historical evidence base for Phase 3 (superseded by
+`docs/reports/phase3-inventory.md`).** This document captured the
+pre-Phase-3 state: the verdict and the 7-tool blocker list below were
+true when written, but Phase 3 (`docs/platform-closure-plan.md`) has
+since resolved all 7 - `worker_pipeline.py`, the worker task-type
+registry, and all 5 Rashi renderer/shard tools are genuinely module-aware
+today, proven end-to-end against a real fixture module. For current
+status, see `docs/reports/phase3-inventory.md`'s 38-row acceptance
+matrix (all rows pass as of VERSION 15.395). The "clone cost" section
+below (25 per-module files, npm script duplication) remains an accurate
+description of what standing up a new module still costs - that part is
+not superseded.
+
+**Original verdict (historical): the app and build layers are ready and need no change. The tooling
 layer is not: 7 shared tools at the repo root hardcode `modules/yoma` and must
 be parameterized first.**
 

@@ -6,23 +6,36 @@ every checklist item is done. The build pipeline itself (source store,
 daftexts, Vilna breaks, enrichment) is documented in
 docs/tractate-build-process.md; this checklist covers the SAFETY layer.
 
-**Prerequisite this checklist assumes but does not yet fully guarantee**:
-items 3 and 5 below assume the shared worker/validator tooling actually
-generalizes per module. Phase 3 of `docs/platform-closure-plan.md` (see
-`docs/reports/phase3-inventory.md` for the live, evidence-backed status)
-has resolved all 9 originally-identified shared-tool blockers -
-`worker_pipeline.py`, the worker task-type registry, and all 5 Rashi
-renderer/shard tools are now genuinely module-aware, not cosmetic - and
-proven a synthetic fixture module resolves, builds, and renders
-correctly through that generic tooling in complete isolation from Yoma.
-Phase 3 is not yet fully closed: 6 acceptance-matrix items remain open
-(fixture scaffold-from-empty proof, generic fixture validation, fixture
-documentation generation, worker-scope proof against the literal fixture
-module, CI wiring for the onboarding proof, and literal-translation
-capability-driven behavior). This checklist must not be followed for a
-real tractate until Phase 3 closes completely - check
-`docs/reports/phase3-inventory.md`'s acceptance matrix for current
-status before starting.
+**Prerequisite this checklist relies on**: items 3 and 5 below assume the
+shared worker/validator tooling actually generalizes per module. Phase 3
+of `docs/platform-closure-plan.md` (see `docs/reports/phase3-inventory.md`
+for the full, evidence-backed status) is **complete: all 38
+acceptance-matrix rows pass** as of VERSION 15.395. `worker_pipeline.py`,
+the worker task-type registry, all 5 Rashi renderer/shard tools, the
+generic capability-aware validator, the generic docs generator, and the
+generic scaffold-from-empty tool are all genuinely module-aware, not
+cosmetic, and a synthetic fixture module is proven to resolve, validate,
+build, and render correctly through that generic tooling in complete
+isolation from Yoma - both as an existing committed fixture and scaffolded
+from nothing. This checklist may now be followed once step 0 below (module
+descriptor creation) and the standing operator-selection requirement are
+met - it is no longer gated on any remaining Phase 3 work.
+
+## 0. Module descriptor and generic tooling (new, Phase 3)
+
+- [ ] create `modules/<id>/module.json` per
+      `docs/reports/module-descriptor-contract.md`'s schema, or scaffold a
+      throwaway one with `python3 scripts/scaffold_module.py --key <id>
+      --search-root <path>` to see the shape before hand-authoring the real
+      one under `modules/<id>/`
+- [ ] confirm it resolves cleanly: `python3 scripts/module_resolver.py <id>`
+      (Python) and the equivalent JS resolver
+- [ ] confirm it passes generic schema/capability validation once content
+      exists: `node scripts/validate_module_schema.mjs --module <id>`
+- [ ] add the corresponding `modules/<id>/learning_data.js` entry to root
+      `manifest.js` (a separate, narrower, browser-runtime contract - see
+      `docs/reports/module-descriptor-contract.md` for why the two are not
+      merged)
 
 ## 1. Data source inventory
 

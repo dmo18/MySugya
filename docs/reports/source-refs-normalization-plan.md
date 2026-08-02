@@ -1,5 +1,20 @@
 # argumentFlow sourceRefs: canonical schema, defect inventory, migration plan
 
+**Final status (VERSION 15.376-15.377, PRs #368-#369): all 33 refs this
+document once called UNRESOLVED are now resolved.** The 15.363 update
+below correctly reported 33 remaining after the judgment-required pass;
+a subsequent, tightly-scoped classification pass
+(`docs/reports/sourcerefs-blocker-classifications.json`) resolved 31 of
+those 33 (2 `QUALIFIED_CROSS_DAF` migrated to an explicit cross-daf
+shape, 29 `ABSENT_OR_UNANCHORED` removed rather than left as false
+coordinates), and a final re-adjudication pass resolved the last 2
+`TIED_CANDIDATES` (`yoma-044b-l01`, `yoma-063a-l03a`) using evidence the
+prior classification had not fully exploited. `validate_source_refs.py
+--strict` now reports **0 defects** across all 1,953 refs. See
+`docs/platform-closure-plan.md`'s Phase 2 completion criterion section
+for the full resolution record. The 15.363 update and original analysis
+below remain accurate history of how that final state was reached.
+
 **Status update (VERSION 15.363, Phase 2 Step 4 of
 `docs/platform-closure-plan.md`): the judgment-required pass (PRs 1 and 2
 below) is APPLIED, partially.** Every one of the 138 judgment-required refs
