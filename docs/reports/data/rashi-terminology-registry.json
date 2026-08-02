@@ -1,0 +1,80 @@
+{
+  "_purpose": "Advisory terminology reference for the Yoma Rashi translation-quality campaign (Step 3). Built from a frequency analysis of the live, unedited Rashi en field across all 8,854 entries: for each Hebrew term, how often the entry's English actually contains the term's most common rendering. This is evidence about what the corpus already does, not a style rule imposed on it.",
+  "_usage": "near_invariant terms are safe to flag (advisory only, never a hard failure) when a low-risk entry containing the Hebrew term does not contain any acceptable rendering, since deviation there is very likely a translation gap rather than legitimate variation. contextual and do_not_enforce terms must never be flagged by an automated check; the range of renderings already present is correct scholarly variation, not drift.",
+  "_generatedAt": "VERSION 15.399, corpus frequency scan of modules/yoma/learning_data.js Rashi en fields",
+  "_method": "total = entries whose en field or the linked Hebrew context contains the Hebrew term; matchesExpected = of those, how many entries' en field contains at least one of acceptableRenderings. stabilityPct = matchesExpected / total.",
+  "tiers": {
+    "near_invariant": {
+      "description": "Stability >= 90%. The corpus already renders these terms almost uniformly. An automated advisory check may flag an entry that contains the Hebrew term but none of the acceptable rendering strings, as a possible omission or drift worth a human look. Never auto-correct; never fail a build on this.",
+      "terms": [
+        {
+          "hebrew": "בית המקדש",
+          "canonicalRendering": "Temple",
+          "acceptableVariants": ["Temple", "the Temple", "House of the Temple", "Sanctuary"],
+          "totalMatches": 8,
+          "matchesExpected": 8,
+          "stabilityPct": 100
+        },
+        {
+          "hebrew": "יום הכפורים",
+          "canonicalRendering": "Yom Kippur",
+          "acceptableVariants": ["Yom Kippur", "the Day of Atonement"],
+          "totalMatches": 74,
+          "matchesExpected": 74,
+          "stabilityPct": 100
+        },
+        {
+          "hebrew": "מזבח",
+          "canonicalRendering": "altar",
+          "acceptableVariants": ["altar", "the altar"],
+          "totalMatches": 262,
+          "matchesExpected": 248,
+          "stabilityPct": 95
+        },
+        {
+          "hebrew": "טומאה",
+          "canonicalRendering": "impurity",
+          "acceptableVariants": ["impurity", "impure", "ritually impure"],
+          "totalMatches": 55,
+          "matchesExpected": 51,
+          "stabilityPct": 93
+        },
+        {
+          "hebrew": "גמרא",
+          "canonicalRendering": "Gemara",
+          "acceptableVariants": ["Gemara", "the Gemara"],
+          "totalMatches": 42,
+          "matchesExpected": 39,
+          "stabilityPct": 93
+        }
+      ]
+    },
+    "contextual": {
+      "description": "Stability roughly 50-90%. A dominant rendering exists, but a substantial minority of entries correctly use a different English word, a pronoun, or a paraphrase because the surrounding sentence already supplies the referent. Document the dominant rendering as guidance for new translation work only. Do not build an automated check against this tier: the variation is legitimate, not drift.",
+      "terms": [
+        {"hebrew": "קרבן", "dominantRendering": "offering", "totalMatches": 70, "matchesExpected": 61, "stabilityPct": 87},
+        {"hebrew": "חכמים", "dominantRendering": "Sages", "totalMatches": 24, "matchesExpected": 20, "stabilityPct": 83},
+        {"hebrew": "ברייתא", "dominantRendering": "baraita", "totalMatches": 17, "matchesExpected": 13, "stabilityPct": 76},
+        {"hebrew": "אמה", "dominantRendering": "cubit", "totalMatches": 65, "matchesExpected": 48, "stabilityPct": 74},
+        {"hebrew": "תנא", "dominantRendering": "tanna", "totalMatches": 88, "matchesExpected": 61, "stabilityPct": 69},
+        {"hebrew": "חטאת", "dominantRendering": "sin-offering", "totalMatches": 162, "matchesExpected": 111, "stabilityPct": 68},
+        {"hebrew": "טהרה", "dominantRendering": "purity", "totalMatches": 11, "matchesExpected": 7, "stabilityPct": 64},
+        {"hebrew": "משנה", "dominantRendering": "Mishnah", "totalMatches": 38, "matchesExpected": 21, "stabilityPct": 55},
+        {"hebrew": "עולה", "dominantRendering": "burnt-offering", "totalMatches": 103, "matchesExpected": 55, "stabilityPct": 53}
+      ]
+    },
+    "do_not_enforce": {
+      "description": "Stability below 50% or a documented reason variation is the correct behavior. Any automated check that flagged these would generate mostly false positives against correct translations, not real defects. Listed here specifically so nobody re-derives a canonical mapping for these terms later and builds a check against it.",
+      "terms": [
+        {
+          "hebrew": "כהן גדול",
+          "commonRenderings": ["Kohen Gadol", "the High Priest", "the Kohen Gadol", "he/him (pronoun, referent already established)"],
+          "totalMatches": 60,
+          "matchesExpected": 8,
+          "stabilityPct": 13,
+          "reason": "Most entries correctly refer to the Kohen Gadol by pronoun or by 'the High Priest' once the referent is established earlier in the same entry or the surrounding sugya. Forcing 'Kohen Gadol' onto every occurrence would produce stilted, repetitive English that the source Hebrew does not require either (Rashi itself often just says a pronoun)."
+        }
+      ]
+    }
+  }
+}
