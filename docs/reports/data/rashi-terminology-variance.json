@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "watchlist": {
+  "כהן גדול": {
+   "expectedLabel": "Kohen Gadol",
+   "totalEntriesContainingTerm": 60,
+   "renderingCounts": {
+    "kohen gadol": 8
+   },
+   "noneOfExpectedRenderings": 52
+  },
+  "בית המקדש": {
+   "expectedLabel": "Temple",
+   "totalEntriesContainingTerm": 8,
+   "renderingCounts": {
+    "temple": 8
+   },
+   "noneOfExpectedRenderings": 0
+  },
+  "קרבן": {
+   "expectedLabel": "offering/sacrifice",
+   "totalEntriesContainingTerm": 70,
+   "renderingCounts": {
+    "offering": 61,
+    "sacrifice": 4
+   },
+   "noneOfExpectedRenderings": 5
+  },
+  "טומאה": {
+   "expectedLabel": "impurity",
+   "totalEntriesContainingTerm": 55,
+   "renderingCounts": {
+    "impurity": 51
+   },
+   "noneOfExpectedRenderings": 4
+  },
+  "טהרה": {
+   "expectedLabel": "purity",
+   "totalEntriesContainingTerm": 11,
+   "renderingCounts": {
+    "purity": 7
+   },
+   "noneOfExpectedRenderings": 4
+  },
+  "עבודה": {
+   "expectedLabel": "service/rite",
+   "totalEntriesContainingTerm": 122,
+   "renderingCounts": {
+    "service": 118
+   },
+   "noneOfExpectedRenderings": 4
+  }
+ }
+}
