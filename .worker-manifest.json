@@ -28,6 +28,7 @@
   "CLAUDE.md",
   "SOURCES.md",
   "tests/*",
+  ".gitignore",
   ".worker-manifest.json",
   ".worker-queue.json"
  ],
