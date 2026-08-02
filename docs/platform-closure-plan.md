@@ -596,13 +596,16 @@ None on Phase 1 or Phase 2. Can run independently or in parallel with either.
 
 ## Phase 4: Final repository closure
 
-### Status: IN PROGRESS (started VERSION 15.395, all of Phases 1-3 complete)
+### Status: COMPLETE (VERSION 15.397)
 
-Phase 4 began once Phase 3 closed at 38/38. Its own inventory and
+Phase 4 began once Phase 3 closed at 38/38 (VERSION 15.395) and closed
+with the terminal platform-readiness certification. Its inventory and
 evidence live in `docs/reports/phase4-inventory.md`; its terminal record
-is `docs/reports/platform-readiness.md`. See those documents for current
-status - this section describes the required work and completion
-definition only, unchanged from when it was first written.
+is `docs/reports/platform-readiness.md` - the authoritative current
+status. **PLATFORM READY**: all Phase 1-4 completion criteria met, no
+active blockers, no unexplained operator actions. This section describes
+the required work and completion definition only, unchanged from when it
+was first written.
 
 ### Required work
 
