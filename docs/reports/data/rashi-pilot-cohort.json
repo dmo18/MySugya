@@ -1,0 +1,4996 @@
+{
+ "schemaVersion": 1,
+ "generatedFrom": "Step 1 inventory + Step 2 risk report + Step 3 terminology registry, live learning_data.js",
+ "selectionMethod": "deterministic greedy quota fill, see modules/yoma/scripts/select_rashi_pilot_cohort.py module docstring",
+ "requirementMinimums": {
+  "historical_reconstruction_or_realignment": 20,
+  "high_risk": 70,
+  "medium_risk": 50,
+  "zero_risk": 40,
+  "beginning_of_yoma": 8,
+  "middle_of_yoma": 8,
+  "end_of_yoma": 8,
+  "short_gloss": 8,
+  "long_explanation": 8,
+  "sacrificial_terminology": 10,
+  "priesthood_or_temple_terminology": 10,
+  "purity_terminology": 8,
+  "narrative_or_contextual_explanation": 10,
+  "multiple_linked_gemara_lines": 10,
+  "terminology_variance_signal": 8,
+  "no_automatic_warning": 8
+ },
+ "requirementLabels": {
+  "historical_reconstruction_or_realignment": "from a historically reconstructed or realigned daf (Step 1 provenance)",
+  "high_risk": "riskScore >= 9 (Step 2 high-risk tier)",
+  "medium_risk": "2 <= riskScore <= 8 (Step 2 medium-risk tier)",
+  "zero_risk": "riskScore == 0 (Step 2 lowest-risk tier)",
+  "beginning_of_yoma": "daf in the first third of Yoma's daf order",
+  "middle_of_yoma": "daf in the middle third of Yoma's daf order",
+  "end_of_yoma": "daf in the final third of Yoma's daf order",
+  "short_gloss": "English translation is a short gloss (<=6 words)",
+  "long_explanation": "English translation is a long explanation (>=30 words)",
+  "sacrificial_terminology": "Hebrew contains sacrificial-offering vocabulary",
+  "priesthood_or_temple_terminology": "Hebrew contains priesthood or Temple vocabulary",
+  "purity_terminology": "Hebrew contains purity/impurity vocabulary",
+  "narrative_or_contextual_explanation": "long English with an explicit logical connector (narrative/contextual gloss, not a bare lemma quote)",
+  "multiple_linked_gemara_lines": "linkedGemaraLineIds has more than one entry",
+  "terminology_variance_signal": "Hebrew contains a Step 3 registry term but English does not contain any of that term's acceptable renderings",
+  "no_automatic_warning": "riskScore == 0 and riskSignals is empty (no detector fired at all)"
+ },
+ "totalEntries": 200,
+ "totalDaf": 110,
+ "totalPerakim": 7,
+ "dafCovered": [
+  "2a",
+  "2b",
+  "3a",
+  "3b",
+  "4a",
+  "4b",
+  "5a",
+  "5b",
+  "6a",
+  "6b",
+  "7a",
+  "7b",
+  "8a",
+  "8b",
+  "9a",
+  "9b",
+  "10a",
+  "10b",
+  "11a",
+  "11b",
+  "12a",
+  "12b",
+  "13a",
+  "13b",
+  "14a",
+  "14b",
+  "15a",
+  "15b",
+  "16a",
+  "16b",
+  "17a",
+  "17b",
+  "18a",
+  "18b",
+  "19a",
+  "19b",
+  "20a",
+  "20b",
+  "21a",
+  "21b",
+  "22a",
+  "22b",
+  "23a",
+  "23b",
+  "24a",
+  "24b",
+  "25a",
+  "25b",
+  "26a",
+  "26b",
+  "27a",
+  "27b",
+  "28a",
+  "28b",
+  "29a",
+  "29b",
+  "30a",
+  "30b",
+  "31a",
+  "31b",
+  "32a",
+  "32b",
+  "33a",
+  "33b",
+  "34a",
+  "34b",
+  "35a",
+  "35b",
+  "36a",
+  "36b",
+  "37a",
+  "37b",
+  "38a",
+  "38b",
+  "39a",
+  "39b",
+  "40a",
+  "40b",
+  "41a",
+  "41b",
+  "53a",
+  "53b",
+  "54b",
+  "55a",
+  "55b",
+  "56b",
+  "57a",
+  "57b",
+  "58a",
+  "58b",
+  "59a",
+  "59b",
+  "60a",
+  "60b",
+  "61b",
+  "62a",
+  "62b",
+  "63a",
+  "63b",
+  "64a",
+  "64b",
+  "65a",
+  "65b",
+  "66a",
+  "66b",
+  "67a",
+  "69a",
+  "69b",
+  "70b",
+  "71a"
+ ],
+ "perakimCovered": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "stratumCounts": {
+  "historical_reconstruction_or_realignment": 20,
+  "high_risk": 70,
+  "medium_risk": 50,
+  "zero_risk": 40,
+  "beginning_of_yoma": 100,
+  "middle_of_yoma": 24,
+  "end_of_yoma": 36,
+  "short_gloss": 8,
+  "long_explanation": 9,
+  "sacrificial_terminology": 13,
+  "priesthood_or_temple_terminology": 17,
+  "purity_terminology": 11,
+  "narrative_or_contextual_explanation": 17,
+  "multiple_linked_gemara_lines": 16,
+  "terminology_variance_signal": 8,
+  "no_automatic_warning": 43
+ },
+ "entries": [
+  {
+   "id": "rashi-yoma-002a-001",
+   "daf": "2a",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "שבעת ימים קודם יוה\"כ מפרישין כ\"ג. שכל עבודת יוה\"כ",
+   "en": "\"Seven days before Yom Kippur they separate the Kohen Gadol\" - because the entire Yom Kippur service",
+   "linkedGemaraLineIds": [
+    "yoma-002a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "narrow-fix-only",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "priesthood_or_temple_terminology",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; Hebrew contains priesthood or Temple vocabulary; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-002a-011",
+   "daf": "2a",
+   "perek": 1,
+   "vilnaLine": 11,
+   "he": "דחיישת למיתה: אין לדבר סוף.",
+   "en": "\"There is no end to the matter\" - the Rabbis object: if we worry about death, the backup wife might also die, and so on without end.",
+   "linkedGemaraLineIds": [
+    "yoma-002a-l04"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "OVEREXPLAINED",
+     "weight": 4,
+     "reason": "English is 4.89x the Hebrew's character length (possible invention or merged content)"
+    }
+   ],
+   "priorReviewDepth": "narrow-fix-only",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-002b-001",
+   "daf": "2b",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "ואימא צוואה דקרבנות. להצריך כל כהן העובד במקדש פרישה",
+   "en": "And say the command is that of the offerings - to require every priest who serves in the Temple to separate",
+   "linkedGemaraLineIds": [
+    "yoma-002b-l04"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "sacrificial_terminology",
+    "priesthood_or_temple_terminology",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; Hebrew contains sacrificial-offering vocabulary; Hebrew contains priesthood or Temple vocabulary; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-002b-007",
+   "daf": "2b",
+   "perek": 1,
+   "vilnaLine": 7,
+   "he": "כדאמרינן לקמן (דף כב.): הכי",
+   "en": "as we say further on (22a)? This is",
+   "linkedGemaraLineIds": [
+    "yoma-002b-l12"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'is'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-002b-008",
+   "daf": "2b",
+   "perek": 1,
+   "vilnaLine": 8,
+   "he": "גרסינן אמרי אלמה לא ניבעי",
+   "en": "the reading: 'they say: why not",
+   "linkedGemaraLineIds": [
+    "yoma-002b-l12"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "short_gloss",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "English translation is a short gloss (<=6 words); riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-003a-001",
+   "daf": "3a",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "לענין פז\"ר קש\"ב. פייס לעצמו שאין פייס בפרי החג אצל",
+   "en": "Regarding 'PZR KSHB' - its own lottery means there is no lottery for the festival bulls of Sukkot among",
+   "linkedGemaraLineIds": [
+    "yoma-003a-l01a"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-003a-019",
+   "daf": "3a",
+   "perek": 1,
+   "vilnaLine": 19,
+   "he": "ויברכו את המלך (מ\"א ח) : תשלומין",
+   "en": "and they blessed the king' (I Kings 8). It is the make-up day of",
+   "linkedGemaraLineIds": [
+    "yoma-003a-l01a",
+    "yoma-003a-l01b"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'of'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma",
+    "multiple_linked_gemara_lines"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order; linkedGemaraLineIds has more than one entry"
+  },
+  {
+   "id": "rashi-yoma-003b-001",
+   "daf": "3b",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "ועשה לך. כמו עשה לך שתי חצוצרות כסף: כביכול. אני שמעתי",
+   "en": "'And make for yourself' - like 'make yourself two silver trumpets' [Numbers 10:2], the same personal phrasing. 'As it were' (kivyachol) - I have heard [an explanation]:",
+   "linkedGemaraLineIds": [
+    "yoma-003b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-003b-007",
+   "daf": "3b",
+   "perek": 1,
+   "vilnaLine": 7,
+   "he": "עד כאן לא פליגי. תירוצא הוא:",
+   "en": "'Until here they do not disagree' - this phrase [introduces] the resolution [of the dispute], not a continuation of the debate.",
+   "linkedGemaraLineIds": [
+    "yoma-003b-l12"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "OVEREXPLAINED",
+     "weight": 4,
+     "reason": "English is 4.54x the Hebrew's character length (possible invention or merged content)"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-003b-018",
+   "daf": "3b",
+   "perek": 1,
+   "vilnaLine": 18,
+   "he": "הכפורים שהיא עבודה ראשונה",
+   "en": "which is the first service",
+   "linkedGemaraLineIds": [
+    "yoma-003b-l30"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "short_gloss",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "English translation is a short gloss (<=6 words); riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-004a-001",
+   "daf": "4a",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "לטומאת ביתו. שמא אם יזקק לאשתו ותראה דם בשעת ביאה ונמצא",
+   "en": "'About the impurity of his house' - lest, if he unites with his wife, she sees blood during intercourse and it turns out",
+   "linkedGemaraLineIds": [
+    "yoma-004a-l01a"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "purity_terminology",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; Hebrew contains purity/impurity vocabulary; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-004a-025",
+   "daf": "4a",
+   "perek": 1,
+   "vilnaLine": 25,
+   "he": "לאפוקי צדוקים. שהיו משנין עבודת",
+   "en": "'To exclude the Sadducees' - who used to alter the service of",
+   "linkedGemaraLineIds": [
+    "yoma-004a-l15"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'of'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-004b-001",
+   "daf": "4b",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "ויכסהו הענן להר. ולא למשה שהרי כל אותן ששת ימים עלה וירד",
+   "en": "'And the cloud covered it' - the mountain, and not Moses, for during all those six days he went up and came down",
+   "linkedGemaraLineIds": [
+    "yoma-004b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "checked-no-fix-needed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-004b-009",
+   "daf": "4b",
+   "perek": 1,
+   "vilnaLine": 9,
+   "he": "הנכנסין למחנה שכינה פרישה שלא",
+   "en": "who enter the camp of the Divine Presence require separation, for",
+   "linkedGemaraLineIds": [
+    "yoma-004b-l01"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'for'"
+    }
+   ],
+   "priorReviewDepth": "checked-no-fix-needed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-004b-030",
+   "daf": "4b",
+   "perek": 1,
+   "vilnaLine": 30,
+   "he": "מ' יום: ר' יוסי הגלילי סבר לה",
+   "en": "forty days. 'Rabbi Yosei HaGelili holds'",
+   "linkedGemaraLineIds": [
+    "yoma-004b-l10",
+    "yoma-004b-l16"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "checked-no-fix-needed",
+   "selectionStratum": [
+    "short_gloss",
+    "multiple_linked_gemara_lines",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "English translation is a short gloss (<=6 words); linkedGemaraLineIds has more than one entry; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-005a-001",
+   "daf": "5a",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "דבר שאין מעכב בהן לדורות. לקמיה מפרש לה: שירי מצוה. כלומר",
+   "en": "'Something that does not invalidate for future generations' - the Gemara explains this below. 'A residual mitzvah' -",
+   "linkedGemaraLineIds": [
+    "yoma-005a-l01",
+    "yoma-005a-l07"
+   ],
+   "riskScore": 8,
+   "riskSignals": [
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 5a classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "historical_reconstruction_or_realignment",
+    "medium_risk",
+    "beginning_of_yoma",
+    "multiple_linked_gemara_lines"
+   ],
+   "selectionRationale": "from a historically reconstructed or realigned daf (Step 1 provenance); 2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order; linkedGemaraLineIds has more than one entry"
+  },
+  {
+   "id": "rashi-yoma-005a-007",
+   "daf": "5a",
+   "perek": 1,
+   "vilnaLine": 7,
+   "he": "בראשון יעבוד זה השני שמע מינה",
+   "en": "with the first [High Priest], this second one serves. From this we learn that",
+   "linkedGemaraLineIds": [
+    "yoma-005a-l22"
+   ],
+   "riskScore": 12,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'that'"
+    },
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 5a classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "high_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-005a-008",
+   "daf": "5a",
+   "perek": 1,
+   "vilnaLine": 8,
+   "he": "פרישה לא מעכבא (בה) עבודה:",
+   "en": "separation does not invalidate the service.",
+   "linkedGemaraLineIds": [
+    "yoma-005a-l22"
+   ],
+   "riskScore": 8,
+   "riskSignals": [
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 5a classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "short_gloss"
+   ],
+   "selectionRationale": "English translation is a short gloss (<=6 words)"
+  },
+  {
+   "id": "rashi-yoma-005a-012",
+   "daf": "5a",
+   "perek": 1,
+   "vilnaLine": 12,
+   "he": "עבודה וריבוי לשון מרבה מרובה",
+   "en": "service; 'increase' means multiplication - he multiplies his",
+   "linkedGemaraLineIds": [
+    "yoma-005a-l23"
+   ],
+   "riskScore": 12,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'his'"
+    },
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 5a classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "high_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-005a-031",
+   "daf": "5a",
+   "perek": 1,
+   "vilnaLine": 31,
+   "he": "ילבשם הכהן תחתיו מבניו העומד",
+   "en": "shall the priest who succeeds him from among his sons wear them, who",
+   "linkedGemaraLineIds": [
+    "yoma-005a-l30"
+   ],
+   "riskScore": 12,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'who'"
+    },
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 5a classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "high_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-005b-001",
+   "daf": "5b",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "מילתא דכתיבא בהאי ענינא. בפרשת צוואה דמלואים שנאמר בואתה",
+   "en": "'A matter written in this context' - in the passage commanding the inauguration, as it says 'and you,",
+   "linkedGemaraLineIds": [
+    "yoma-005b-l01"
+   ],
+   "riskScore": 8,
+   "riskSignals": [
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 5b classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "historical_reconstruction_or_realignment",
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "from a historically reconstructed or realigned daf (Step 1 provenance); 2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-005b-007",
+   "daf": "5b",
+   "perek": 1,
+   "vilnaLine": 7,
+   "he": "אל חשן המשפט את האורים ואת",
+   "en": "into the breastplate of judgment the Urim and the",
+   "linkedGemaraLineIds": [
+    "yoma-005b-l01"
+   ],
+   "riskScore": 12,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'the'"
+    },
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 5b classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "high_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-005b-008",
+   "daf": "5b",
+   "perek": 1,
+   "vilnaLine": 8,
+   "he": "התומים אין זו מפרשת המלואים אלא",
+   "en": "Tumim' - that is not from the inauguration passage but",
+   "linkedGemaraLineIds": [
+    "yoma-005b-l01"
+   ],
+   "riskScore": 12,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'but'"
+    },
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 5b classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "high_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-005b-014",
+   "daf": "5b",
+   "perek": 1,
+   "vilnaLine": 14,
+   "he": "ואכל אהרן ובניו את בשר האיל ואת",
+   "en": "'and Aaron and his sons shall eat the meat of the ram and",
+   "linkedGemaraLineIds": [
+    "yoma-005b-l02"
+   ],
+   "riskScore": 12,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'and'"
+    },
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 5b classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "high_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-006a-001",
+   "daf": "6a",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "אמר לך ההוא אבנטו של כהן גדול לא זהו אבנטו וכו'. כלומר",
+   "en": "'He said to you: that one - the High Priest's belt - is not his belt' etc. Meaning:",
+   "linkedGemaraLineIds": [
+    "yoma-006a-l01"
+   ],
+   "riskScore": 8,
+   "riskSignals": [
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 6a classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "historical_reconstruction_or_realignment",
+    "medium_risk",
+    "beginning_of_yoma",
+    "terminology_variance_signal"
+   ],
+   "selectionRationale": "from a historically reconstructed or realigned daf (Step 1 provenance); 2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order; Hebrew contains a Step 3 registry term but English does not contain any of that term's acceptable renderings"
+  },
+  {
+   "id": "rashi-yoma-006a-004",
+   "daf": "6a",
+   "perek": 1,
+   "vilnaLine": 4,
+   "he": "(שמות לט) ואת האבנט שש משזר תכלת וארגמן למדנו שהוא של",
+   "en": "(Exodus 39:29): 'and the belt of fine twisted linen and blue and purple' - we learn it is",
+   "linkedGemaraLineIds": [
+    "yoma-006a-l01"
+   ],
+   "riskScore": 12,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'is'"
+    },
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 6a classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "high_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-006a-008",
+   "daf": "6a",
+   "perek": 1,
+   "vilnaLine": 8,
+   "he": "גדול לא זהו אבנטו של כהן הדיוט",
+   "en": "is not the ordinary priest's belt,",
+   "linkedGemaraLineIds": [
+    "yoma-006a-l01"
+   ],
+   "riskScore": 8,
+   "riskSignals": [
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 6a classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "short_gloss"
+   ],
+   "selectionRationale": "English translation is a short gloss (<=6 words)"
+  },
+  {
+   "id": "rashi-yoma-006a-011",
+   "daf": "6a",
+   "perek": 1,
+   "vilnaLine": 11,
+   "he": "ובבת אחת מי משכחת לה. שיהא",
+   "en": "'And can it be found done at once' - that",
+   "linkedGemaraLineIds": [
+    "yoma-006a-l06"
+   ],
+   "riskScore": 12,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'that'"
+    },
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 6a classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "high_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-006b-001",
+   "daf": "6b",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "שמטמא משכב ומושב. אפילו עשר מצעות זו על גב זו וטמא מת",
+   "en": "'That he renders a bed or seat impure' - even ten mattresses piled one atop another; whereas a tamei met",
+   "linkedGemaraLineIds": [
+    "yoma-006b-l01b"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 6b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "historical_reconstruction_or_realignment",
+    "high_risk",
+    "beginning_of_yoma",
+    "purity_terminology"
+   ],
+   "selectionRationale": "from a historically reconstructed or realigned daf (Step 1 provenance); riskScore >= 9 (Step 2 high-risk tier); daf in the first third of Yoma's daf order; Hebrew contains purity/impurity vocabulary"
+  },
+  {
+   "id": "rashi-yoma-006b-002",
+   "daf": "6b",
+   "perek": 1,
+   "vilnaLine": 2,
+   "he": "אינו מטמא אלא מגעו: לטמא אוכלין ומשקין. ולא לטמא אדם וכלים",
+   "en": "does not render them impure except through his own direct contact. 'To render food and drink impure' - but not to render a person or vessels impure,",
+   "linkedGemaraLineIds": [
+    "yoma-006b-l01b"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 6b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "beginning_of_yoma",
+    "purity_terminology"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the first third of Yoma's daf order; Hebrew contains purity/impurity vocabulary"
+  },
+  {
+   "id": "rashi-yoma-006b-023",
+   "daf": "6b",
+   "perek": 1,
+   "vilnaLine": 23,
+   "he": "על פי שהקרבן ציבור דוחה אותה",
+   "en": "though the communal offering overrides it,",
+   "linkedGemaraLineIds": [
+    "yoma-006b-l11"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 6b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "short_gloss"
+   ],
+   "selectionRationale": "English translation is a short gloss (<=6 words)"
+  },
+  {
+   "id": "rashi-yoma-007a-001",
+   "daf": "7a",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "כל טומאת מת בצבור שרייה רחמנא. דכתיב [במדבר ט] איש כי יהיה",
+   "en": "'All corpse impurity in a community the Merciful One permitted' - as it is written (Numbers 9), 'any man who shall be'",
+   "linkedGemaraLineIds": [
+    "yoma-007a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "checked-no-fix-needed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "purity_terminology",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; Hebrew contains purity/impurity vocabulary; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-007a-002",
+   "daf": "7a",
+   "perek": 1,
+   "vilnaLine": 2,
+   "he": "טמא לנפש יעשה פסח שני איש נדחה לפסח שני ואין צבור נדחין אבל",
+   "en": "'impure from a corpse shall perform the second Pesach': an individual is deferred to the second Pesach, but a community is not deferred. But",
+   "linkedGemaraLineIds": [
+    "yoma-007a-l01"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'But'"
+    }
+   ],
+   "priorReviewDepth": "checked-no-fix-needed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma",
+    "purity_terminology"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order; Hebrew contains purity/impurity vocabulary"
+  },
+  {
+   "id": "rashi-yoma-007b-001",
+   "daf": "7b",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "הא אינו נושא וכו'. הא לשון מעתה הוא מעתה אי אתה מוצא שיהא",
+   "en": "'It bears only...' etc. - the word 'ha' [here] means 'from now'; from now on you will not find that it bears",
+   "linkedGemaraLineIds": [
+    "yoma-007b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-007b-008",
+   "daf": "7b",
+   "perek": 1,
+   "vilnaLine": 8,
+   "he": "יוה\"כ. אינו על מצחו בשעת עבודת",
+   "en": "'On Yom Kippur' - it is not on his forehead during the service of",
+   "linkedGemaraLineIds": [
+    "yoma-007b-l04"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'of'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-008a-001",
+   "daf": "8a",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "אחד זה ואחד זה. דיוה\"כ ופרה: שלישי ושביעי. לפרישתו: כהן",
+   "en": "'One and the other alike' - of Yom Kippur and of the para. 'Third and seventh' - of his separation. 'The priest",
+   "linkedGemaraLineIds": [
+    "yoma-008a-l14"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-008a-003",
+   "daf": "8a",
+   "perek": 1,
+   "vilnaLine": 3,
+   "he": "בציבור. ובעינן טהרה מעלייתא והזאה בזמנה וכל יומא איכא",
+   "en": "for the community' - and proper purity is required, and sprinkling at its time; and every day there is",
+   "linkedGemaraLineIds": [
+    "yoma-008a-l21"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'is'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma",
+    "purity_terminology"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order; Hebrew contains purity/impurity vocabulary"
+  },
+  {
+   "id": "rashi-yoma-008b-001",
+   "daf": "8b",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "שזה פרישתו לקדושה. ליכנס למחנה שכינה ולא יהא לבו זחה עליו",
+   "en": "'That this one's separation is for holiness' - to enter the camp of the Divine Presence, and so that his heart not grow haughty upon him,",
+   "linkedGemaraLineIds": [
+    "yoma-008b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "checked-no-fix-needed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-008b-006",
+   "daf": "8b",
+   "perek": 1,
+   "vilnaLine": 6,
+   "he": "נמי האי. שזה מזין עליו כל שבעה",
+   "en": "'this' - that upon this one they sprinkle all seven,",
+   "linkedGemaraLineIds": [
+    "yoma-008b-l01"
+   ],
+   "riskScore": 2,
+   "riskSignals": [
+    {
+     "tag": "WRONG_REFERENT",
+     "weight": 2,
+     "reason": "pronoun-heavy (4/9 words) with no obvious local referent check performed - human review needed"
+    }
+   ],
+   "priorReviewDepth": "checked-no-fix-needed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-009a-001",
+   "daf": "9a",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "לפי ששלח. יוחנן כהן גדול שגזר על הדמאי בסוטה בפרק עגלה ערופה",
+   "en": "'Because he sent' - Yochanan the High Priest, who decreed concerning demai; in Sotah, in the chapter Egla Arufa",
+   "linkedGemaraLineIds": [
+    "yoma-009a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "terminology_variance_signal",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; Hebrew contains a Step 3 registry term but English does not contain any of that term's acceptable renderings; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-009a-018",
+   "daf": "9a",
+   "perek": 1,
+   "vilnaLine": 18,
+   "he": "ששהו",
+   "en": "That they delayed",
+   "linkedGemaraLineIds": [
+    "yoma-009a-l22"
+   ],
+   "riskScore": 3,
+   "riskSignals": [
+    {
+     "tag": "FRAGMENT",
+     "weight": 3,
+     "reason": "very short (3 word(s)) with no closing punctuation"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma",
+    "short_gloss"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order; English translation is a short gloss (<=6 words)"
+  },
+  {
+   "id": "rashi-yoma-009b-001",
+   "daf": "9b",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "span class=\"five\">ששהו את קיניהן. שהיו מביאות במלאות ימי לידתן ליטהר לאכול בקדשים והם היו בעלי גיאות והיו מתרשלין בהקרבתן והנשים",
+   "en": "'That they delayed their bird-offerings' - for the women would bring them at the completion of their days of childbirth, to be purified so as to eat consecrated food, and they were arrogant men and were lax in offering them, and the women",
+   "linkedGemaraLineIds": [
+    "yoma-009b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "checked-no-fix-needed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "long_explanation",
+    "purity_terminology",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; English translation is a long explanation (>=30 words); Hebrew contains purity/impurity vocabulary; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-009b-025",
+   "daf": "9b",
+   "perek": 1,
+   "vilnaLine": 25,
+   "he": "מתוכו ומקצתו קיים כך קצת חזון",
+   "en": "from within, and part of it remains; so too part of the vision of",
+   "linkedGemaraLineIds": [
+    "yoma-009b-l40"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'of'"
+    }
+   ],
+   "priorReviewDepth": "checked-no-fix-needed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-010a-001",
+   "daf": "10a",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "אעפ\"י שיפת אלהים ליפת. שזכו פרסיים לבנות בית שני אין",
+   "en": "'Even though God will enlarge Yefet' - for although the Persians merited to build the Second Temple, the",
+   "linkedGemaraLineIds": [
+    "yoma-010a-l01"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'the'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-010a-002",
+   "daf": "10a",
+   "perek": 1,
+   "vilnaLine": 2,
+   "he": "שכינה שורה אלא במקדש ראשון שבנה שלמה שבא מזרעו של שם:",
+   "en": "Divine Presence rests only in the First Temple, which Shlomo, who came from the seed of Shem, built.",
+   "linkedGemaraLineIds": [
+    "yoma-010a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "priesthood_or_temple_terminology",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; Hebrew contains priesthood or Temple vocabulary; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-010b-001",
+   "daf": "10b",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "אלא אמר אביי. בשבעת ימים של",
+   "en": "'Rather, Abaye said' - during the seven days of",
+   "linkedGemaraLineIds": [
+    "yoma-010b-l02"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'of'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-010b-002",
+   "daf": "10b",
+   "perek": 1,
+   "vilnaLine": 2,
+   "he": "פרישה לא פליג ר' יהודה דודאי",
+   "en": "separation, Rabbi Yehuda does not disagree, for it is certainly",
+   "linkedGemaraLineIds": [
+    "yoma-010b-l02"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-011a-001",
+   "daf": "11a",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "כל השערים. שערי מזרח עזרה: אחד שערי מדינות. יש מדינה",
+   "en": "'All the gates' - the eastern gates of the Temple courtyard. New comment: 'the gates of provinces alike' - there is a province",
+   "linkedGemaraLineIds": [
+    "yoma-011a-l01",
+    "yoma-011a-l06"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "multiple_linked_gemara_lines",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; linkedGemaraLineIds has more than one entry; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-011a-002",
+   "daf": "11a",
+   "perek": 1,
+   "vilnaLine": 2,
+   "he": "מוקפת הרים ויערים בכמה פרסאות ואין יוצאין ממנה אלא דרך",
+   "en": "surrounded by mountains and forests for several parasangs, which one can leave only by way of",
+   "linkedGemaraLineIds": [
+    "yoma-011a-l06"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'of'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-011b-001",
+   "daf": "11b",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "בית שער. בית קטן שעושין לפני שער החצר והכל עושין אותו",
+   "en": "'Beit sha'ar' - a small house that they make before the gate of the courtyard, and everyone makes it",
+   "linkedGemaraLineIds": [
+    "yoma-011b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-011b-015",
+   "daf": "11b",
+   "perek": 1,
+   "vilnaLine": 15,
+   "he": "קודם שיגביה גבהה ג': ולאו כלום",
+   "en": "before its height rose three. New comment: 'and it is",
+   "linkedGemaraLineIds": [
+    "yoma-011b-l15"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'is'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-012a-001",
+   "daf": "12a",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "דכרכים. שהוא מקום שווקים ומתקבצים שם ממקומות הרבה והיא",
+   "en": "'Of cities' - for it is a place of markets, and people gather there from many places, and it",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l01a"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-012a-012",
+   "daf": "12a",
+   "perek": 1,
+   "vilnaLine": 12,
+   "he": "הר הבית והלשכות והעזרות. צד",
+   "en": "'The Temple Mount, the chambers, and the courtyards' - the",
+   "linkedGemaraLineIds": [
+    "yoma-012a-l10"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'the'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-012b-001",
+   "daf": "12b",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "עבודתו מחנכתו. עבודת יוה\"כ עצמה שאינה כשירה אלא בכהן",
+   "en": "'His service inducts him' - the Yom Kippur service itself, which is valid only through a",
+   "linkedGemaraLineIds": [
+    "yoma-012b-l01"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'a'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-012b-002",
+   "daf": "12b",
+   "perek": 1,
+   "vilnaLine": 2,
+   "he": "גדול וזה עובדה מחנכתו לכהונה גדולה: משיחתן מקדשתן. כדכתיב",
+   "en": "High Priest, and his performing it inducts him into the High Priesthood. New comment: 'their anointing consecrated them' - as it is written",
+   "linkedGemaraLineIds": [
+    "yoma-012b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "priesthood_or_temple_terminology",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; Hebrew contains priesthood or Temple vocabulary; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-013a-001",
+   "daf": "13a",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "כיון דאמרי אי איכא למיחש חיישינן נמי למיתה דתרתי נימרו נמי",
+   "en": "Since it says: if there is reason to be concerned, we are concerned even about the death of two - let them also say",
+   "linkedGemaraLineIds": [
+    "yoma-013a-l08",
+    "yoma-013a-l12"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "narrative_or_contextual_explanation",
+    "multiple_linked_gemara_lines",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; long English with an explicit logical connector (narrative/contextual gloss, not a bare lemma quote); linkedGemaraLineIds has more than one entry; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-013a-005",
+   "daf": "13a",
+   "perek": 1,
+   "vilnaLine": 5,
+   "he": "מתה בו ביום נמצא גט למפרע ואין",
+   "en": "she dies on that day, the get is found to be valid retroactively, and there is",
+   "linkedGemaraLineIds": [
+    "yoma-013a-l20"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'is'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-013b-001",
+   "daf": "13b",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "אם מתה חבירתה. קיימא הך דאין גיטה גט: שלא תכנסי כו'.",
+   "en": "'If her counterpart dies' - this one remains, since her get is not a get. New comment: 'on condition you do not enter [the synagogue], etc.' -",
+   "linkedGemaraLineIds": [
+    "yoma-013b-l01",
+    "yoma-013b-l05"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "narrative_or_contextual_explanation",
+    "multiple_linked_gemara_lines",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; long English with an explicit logical connector (narrative/contextual gloss, not a bare lemma quote); linkedGemaraLineIds has more than one entry; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-013b-005",
+   "daf": "13b",
+   "perek": 1,
+   "vilnaLine": 5,
+   "he": "דהא בית כתיב ואת אמרת לעיל כל",
+   "en": "since 'house' is written, and yet you said above that",
+   "linkedGemaraLineIds": [
+    "yoma-013b-l22"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'that'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-014a-001",
+   "daf": "14a",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "לומר שאינו עובד כל היום. עד הלילה אבל בלילה אם בא להקטיר",
+   "en": "'To say that he does not serve the whole day' - until night; but at night, if he comes to burn",
+   "linkedGemaraLineIds": [
+    "yoma-014a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-014a-021",
+   "daf": "14a",
+   "perek": 1,
+   "vilnaLine": 21,
+   "he": "בהיכל פרס בשחרית ופרס בין",
+   "en": "in the Sanctuary, half in the morning and half in the",
+   "linkedGemaraLineIds": [
+    "yoma-014a-l12"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'the'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma",
+    "priesthood_or_temple_terminology"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order; Hebrew contains priesthood or Temple vocabulary"
+  },
+  {
+   "id": "rashi-yoma-014b-001",
+   "daf": "14b",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "שיטביל ראשי גבעולין ויזה. כלומר כדי שיטבילם בהן טבילה שיהא",
+   "en": "'That he may dip the tops of the stalks and sprinkle' - meaning: so that he dips them in a dipping that will be",
+   "linkedGemaraLineIds": [
+    "yoma-014b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-014b-003",
+   "daf": "14b",
+   "perek": 1,
+   "vilnaLine": 3,
+   "he": "סדורות זו אחר זו כסדר עבודתו מי שזכה לפייס בדישון מזבח",
+   "en": "arranged one after another in the order of his service: the one who merited the lottery for the removal of ashes from the",
+   "linkedGemaraLineIds": [
+    "yoma-014b-l03"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'the'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma",
+    "sacrificial_terminology",
+    "priesthood_or_temple_terminology",
+    "terminology_variance_signal"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order; Hebrew contains sacrificial-offering vocabulary; Hebrew contains priesthood or Temple vocabulary; Hebrew contains a Step 3 registry term but English does not contain any of that term's acceptable renderings"
+  },
+  {
+   "id": "rashi-yoma-015a-001",
+   "daf": "15a",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "מערב עד בקר. בנרות כתיב יערוך אותו אהרן ובניו מערב עד",
+   "en": "'From evening until morning' - regarding the lamps it is written, 'Aaron and his sons shall set it in order from evening until",
+   "linkedGemaraLineIds": [
+    "yoma-015a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-015a-003",
+   "daf": "15a",
+   "perek": 1,
+   "vilnaLine": 3,
+   "he": "חכמים חצי לוג לכל נר ונר ויש בו כדי להדליק כל הלילה של תקופת",
+   "en": "half a log for each lamp, enough to keep it burning the whole night of the season of",
+   "linkedGemaraLineIds": [
+    "yoma-015a-l06"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'of'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma",
+    "terminology_variance_signal"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order; Hebrew contains a Step 3 registry term but English does not contain any of that term's acceptable renderings"
+  },
+  {
+   "id": "rashi-yoma-015b-001",
+   "daf": "15b",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "אגופיה דמזבח. על גגו ומאי לשון טהרו על שם שמטהר ומפנה",
+   "en": "'Against its own body of the altar' - on its roof; and what is the meaning of the term 'tohoro' (its purity)? Because it purifies and clears away",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "sacrificial_terminology",
+    "priesthood_or_temple_terminology",
+    "purity_terminology",
+    "narrative_or_contextual_explanation",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; Hebrew contains sacrificial-offering vocabulary; Hebrew contains priesthood or Temple vocabulary; Hebrew contains purity/impurity vocabulary; long English with an explicit logical connector (narrative/contextual gloss, not a bare lemma quote); riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-015b-010",
+   "daf": "15b",
+   "perek": 1,
+   "vilnaLine": 10,
+   "he": "היה מהלך על פני כל הצפון ועל",
+   "en": "ran along the whole north, and",
+   "linkedGemaraLineIds": [
+    "yoma-015b-l05"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'and'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma",
+    "short_gloss"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order; English translation is a short gloss (<=6 words)"
+  },
+  {
+   "id": "rashi-yoma-016a-001",
+   "daf": "16a",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "ששיקצום מלכי עובדי כוכבים. שהקטירו עליה לעבודת כוכבים",
+   "en": "'Which had been profaned by the kings of the idolatrous nations' - since they had burned incense on it for idol worship",
+   "linkedGemaraLineIds": [
+    "yoma-016a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "narrative_or_contextual_explanation",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; long English with an explicit logical connector (narrative/contextual gloss, not a bare lemma quote); riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-016a-007",
+   "daf": "16a",
+   "perek": 1,
+   "vilnaLine": 7,
+   "he": "דכתיב (במדבר ו) ונתן על האש אשר",
+   "en": "as it is written (Numbers 6): 'and he shall put it on the fire that is",
+   "linkedGemaraLineIds": [
+    "yoma-016a-l06"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'is'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-016b-001",
+   "daf": "16b",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "עשר אמות כנגד פתחו של היכל. י' אמצעית של רחבו: אחת עשרה",
+   "en": "'Ten cubits opposite the entrance of the Sanctuary' - ten being the middle portion of its width. 'Eleven",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "priesthood_or_temple_terminology",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; Hebrew contains priesthood or Temple vocabulary; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-016b-003",
+   "daf": "16b",
+   "perek": 1,
+   "vilnaLine": 3,
+   "he": "שהרי חלל ההיכל כ' אמה רחב וכנגד ו' של עובי כותל צפונית של",
+   "en": "since the Sanctuary's open space is twenty cubits wide, and corresponding to the six cubits of the thickness of the north wall of the",
+   "linkedGemaraLineIds": [
+    "yoma-016b-l01"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'the'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma",
+    "priesthood_or_temple_terminology",
+    "narrative_or_contextual_explanation"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order; Hebrew contains priesthood or Temple vocabulary; long English with an explicit logical connector (narrative/contextual gloss, not a bare lemma quote)"
+  },
+  {
+   "id": "rashi-yoma-017a-001",
+   "daf": "17a",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "אלא לאו שמע מינה ראב\"י היא. ואיכסי ליה במעלה יתירה ולא",
+   "en": "'Rather, must you not conclude from this that it is Rabbi Eliezer ben Yaakov's view' - and it was obscured to him by the extra step, and not",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "narrative_or_contextual_explanation",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; long English with an explicit logical connector (narrative/contextual gloss, not a bare lemma quote); riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-017a-011",
+   "daf": "17a",
+   "perek": 1,
+   "vilnaLine": 11,
+   "he": "אמצע עזרה והמותר כולו למקום",
+   "en": "the middle of the Courtyard, and the entire remainder goes to the place of",
+   "linkedGemaraLineIds": [
+    "yoma-017a-l01"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'of'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-017b-001",
+   "daf": "17b",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "אי אמרת בשלמא. תנא דתמיד גופיה דתני לשכת הטלאים",
+   "en": "'If you say, granted' - the tanna of Tamid himself, who taught 'the chamber of the lambs",
+   "linkedGemaraLineIds": [
+    "yoma-017b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-017b-002",
+   "daf": "17b",
+   "perek": 1,
+   "vilnaLine": 2,
+   "he": "בצפונית מערבית מודי הוא דלצד מערבית דרומית הואי טפי אלא",
+   "en": "is in the northwest,' agrees that it was more toward the southwest, but",
+   "linkedGemaraLineIds": [
+    "yoma-017b-l01"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'but'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-018a-001",
+   "daf": "18a",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "ומאי ארבע או חמש. מתי ארבע ומתי חמש: לרבנן. דפליגי עליה דר' יהודה בפרק החליל (סוכה דף נו.) ואמרי משמר היוצא נוטל שש",
+   "en": "'And what is four or five' - when four and when five. 'According to the Rabbis' - who dispute Rabbi Yehuda in the chapter HeChalil (Sukkah 56a) and say the outgoing watch takes six",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "long_explanation",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; English translation is a long explanation (>=30 words); riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-018a-003",
+   "daf": "18a",
+   "perek": 1,
+   "vilnaLine": 3,
+   "he": "עשר בעי מיפלג ומחצה שלם אינו נוטל בציר חדא מפלגא חמש שקיל: לר' יהודה דאמר נכנס נוטל שתים. בלא מחלוקת בשכר שהוא",
+   "en": "he must divide; and since he cannot take a whole half, he takes one less than half - five. 'According to Rabbi Yehuda, who says the incoming watch takes two' - without dispute, as payment for the fact that he is",
+   "linkedGemaraLineIds": [
+    "yoma-018a-l01",
+    "yoma-018a-l04"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'is'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma",
+    "long_explanation",
+    "narrative_or_contextual_explanation",
+    "multiple_linked_gemara_lines"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order; English translation is a long explanation (>=30 words); long English with an explicit logical connector (narrative/contextual gloss, not a bare lemma quote); linkedGemaraLineIds has more than one entry"
+  },
+  {
+   "id": "rashi-yoma-018b-001",
+   "daf": "18b",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "השחלין. קרש\"ין: חלגלוגות. פולפו\"ר: הגרגיר. ארוג\"א: מצרנאה.",
+   "en": "'The cress' - karshin. 'Purslane' - polpor. 'The arugula' - aruga. 'Matzranaha' -",
+   "linkedGemaraLineIds": [
+    "yoma-018b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-018b-009",
+   "daf": "18b",
+   "perek": 1,
+   "vilnaLine": 9,
+   "he": "במדינה זו עם בת שיוליד במדינה",
+   "en": "in this province, with a daughter he would father in",
+   "linkedGemaraLineIds": [
+    "yoma-018b-l11"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'in'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-019a-001",
+   "daf": "19a",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "גמ' תנא ללמדו חפינה. מוליכין אותו לבית אבטינס ששם הקטרת",
+   "en": "Gemara: 'It was taught: to teach him the scooping' - they take him to the house of Avtinas, where the incense",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "terminology_variance_signal",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; Hebrew contains a Step 3 registry term but English does not contain any of that term's acceptable renderings; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-019a-004",
+   "daf": "19a",
+   "perek": 1,
+   "vilnaLine": 4,
+   "he": "אבנים מעלות מגלגלות וסובבות במקיף עמוד כמין עץ גלגל של",
+   "en": "of stones, steps that wind and circle around a central post, like the wooden wheel of",
+   "linkedGemaraLineIds": [
+    "yoma-019a-l05"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'of'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-019b-001",
+   "daf": "19b",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "הכי קאמרי ליה. האי דקאמרי ליה אתה שלוחנו לאו בעבודה קאמרי",
+   "en": "'This is what they say to him' - this that they say to him, 'you are our agent,' is not said regarding the service",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-019b-003",
+   "daf": "19b",
+   "perek": 1,
+   "vilnaLine": 3,
+   "he": "באת להערים בקבלת השבועה אנו משביעין אותך לפי דעתינו ודעת",
+   "en": "you should come to deceive in accepting the oath, we administer it to you according to our understanding and the understanding of",
+   "linkedGemaraLineIds": [
+    "yoma-019b-l01"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'of'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-020a-001",
+   "daf": "20a",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "לפתח חטאת רובץ. יצה\"ר מחטיאו בעל כרחו: מתני' תורמין",
+   "en": "'Sin crouches at the door' - the evil inclination makes him sin against his will. Mishna: 'They remove",
+   "linkedGemaraLineIds": [
+    "yoma-020a-l01",
+    "yoma-020a-l07"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "sacrificial_terminology",
+    "multiple_linked_gemara_lines",
+    "terminology_variance_signal",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; Hebrew contains sacrificial-offering vocabulary; linkedGemaraLineIds has more than one entry; Hebrew contains a Step 3 registry term but English does not contain any of that term's acceptable renderings; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-020a-007",
+   "daf": "20a",
+   "perek": 1,
+   "vilnaLine": 7,
+   "he": "לו. סמוך לקריאת הגבר לפני קריאתו או",
+   "en": "to it' - close to the rooster's crowing, either before its crowing or",
+   "linkedGemaraLineIds": [
+    "yoma-020a-l07"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'or'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-020b-001",
+   "daf": "20b",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "ואי דאורייתא הוא היכי מקדמינן. גרסינן ולא גרסינן היכי מאחרינן",
+   "en": "'And if it is Biblical, how do we advance it' - we read it this way, and we do not read 'how do we delay it,'",
+   "linkedGemaraLineIds": [
+    "yoma-020b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-020b-023",
+   "daf": "20b",
+   "perek": 1,
+   "vilnaLine": 23,
+   "he": "מוטל צריך להשכים יותר: דנפישי",
+   "en": "that it falls, he must rise earlier. 'Since'",
+   "linkedGemaraLineIds": [
+    "yoma-020b-l05"
+   ],
+   "riskScore": 2,
+   "riskSignals": [
+    {
+     "tag": "WRONG_REFERENT",
+     "weight": 2,
+     "reason": "pronoun-heavy (3/8 words) with no obvious local referent check performed - human review needed"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-021a-001",
+   "daf": "21a",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "וי\"א אף רידייא. מלאך הממונה על השקות הארץ ממטר השמים",
+   "en": "And some say: also Ridya - an angel appointed over watering the earth, from the rain of the heavens",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-021a-010",
+   "daf": "21a",
+   "perek": 1,
+   "vilnaLine": 10,
+   "he": "עצמו: בתרנגול בינוני. שאינו ממהר",
+   "en": "himself. With an average rooster - one whose crowing is",
+   "linkedGemaraLineIds": [
+    "yoma-021a-l03"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'is'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-021b-001",
+   "daf": "21b",
+   "perek": 1,
+   "vilnaLine": 1,
+   "he": "עשוי לנחת. שאינו מיטלטל וכלי עץ לענין טומאה הוקש לשק שנאמר (ויקרא יא) מכל כלי עץ או בגד או עור או שק וגו' מה שק",
+   "en": "Made to be set down - for it does not move about; and a wooden vessel, regarding impurity, is analogized to a sack, as it is said (Leviticus 11), 'from any wooden vessel, or garment, or hide, or sack,' etc. - just as a sack",
+   "linkedGemaraLineIds": [
+    "yoma-021b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "long_explanation",
+    "purity_terminology",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; English translation is a long explanation (>=30 words); Hebrew contains purity/impurity vocabulary; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-021b-025",
+   "daf": "21b",
+   "perek": 1,
+   "vilnaLine": 25,
+   "he": "ממונות (דף לח:) גבי כיתות של",
+   "en": "Monetary Cases' (38b), regarding the companies of",
+   "linkedGemaraLineIds": [
+    "yoma-021b-l27"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'of'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-022a-001",
+   "daf": "22a",
+   "perek": 2,
+   "vilnaLine": 1,
+   "he": "בראשונה כל מי שרוצה לתרום. כל כהן שהיה מאותו בית",
+   "en": "Originally, whoever wished to remove the ashes - any priest who was of that priestly division",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-022a-025",
+   "daf": "22a",
+   "perek": 2,
+   "vilnaLine": 25,
+   "he": "הזוכה וכן לכל הפייסות: אחת או",
+   "en": "is the winner, and so for every lottery. One or",
+   "linkedGemaraLineIds": [
+    "yoma-022a-l01",
+    "yoma-022a-l05"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'or'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma",
+    "multiple_linked_gemara_lines"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order; linkedGemaraLineIds has more than one entry"
+  },
+  {
+   "id": "rashi-yoma-022b-001",
+   "daf": "22b",
+   "perek": 2,
+   "vilnaLine": 1,
+   "he": "או דילמא. לסמיכת רצפת תחתונה דמזבח נקיט להו לבד מיסוד",
+   "en": "Or perhaps - he reckons them by the adjoining lower floor of the altar, apart from the base",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "sacrificial_terminology",
+    "priesthood_or_temple_terminology",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; Hebrew contains sacrificial-offering vocabulary; Hebrew contains priesthood or Temple vocabulary; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-022b-004",
+   "daf": "22b",
+   "perek": 2,
+   "vilnaLine": 4,
+   "he": "ומנו החרסים: ויפקדם בטלאים. צום לקחת כל אחד טלה מצאן",
+   "en": "and they counted the shards. And he numbered them with lambs - he commanded each one to take a lamb from the flock of",
+   "linkedGemaraLineIds": [
+    "yoma-022b-l02",
+    "yoma-022b-l07"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'of'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma",
+    "multiple_linked_gemara_lines"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order; linkedGemaraLineIds has more than one entry"
+  },
+  {
+   "id": "rashi-yoma-023a-001",
+   "daf": "23a",
+   "perek": 2,
+   "vilnaLine": 1,
+   "he": "שאינו נוקם. נקמתו: ונוטר. איבה כנחש בלבו: איני כמותך שלא",
+   "en": "That he does not take revenge - his own revenge. And bears a grudge - hatred like a snake in his heart. I am not like you, who did not",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-023a-005",
+   "daf": "23a",
+   "perek": 2,
+   "vilnaLine": 5,
+   "he": "אצבעותיו וכשמוציא אחת יוצאה",
+   "en": "his fingers, and when he puts out one, its fellow",
+   "linkedGemaraLineIds": [
+    "yoma-023a-l19"
+   ],
+   "riskScore": 2,
+   "riskSignals": [
+    {
+     "tag": "WRONG_REFERENT",
+     "weight": 2,
+     "reason": "pronoun-heavy (4/10 words) with no obvious local referent check performed - human review needed"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-023b-001",
+   "daf": "23b",
+   "perek": 2,
+   "vilnaLine": 1,
+   "he": "אינה מביאה עגלה ערופה. דכתיב (דברים כא) כי ימצא חלל באדמה",
+   "en": "It does not bring the eglah arufah - as it is written (Deuteronomy 21), 'if a slain body is found on the ground'",
+   "linkedGemaraLineIds": [
+    "yoma-023b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "zero_risk",
+    "beginning_of_yoma",
+    "no_automatic_warning"
+   ],
+   "selectionRationale": "riskScore == 0 (Step 2 lowest-risk tier); daf in the first third of Yoma's daf order; riskScore == 0 and riskSignals is empty (no detector fired at all)"
+  },
+  {
+   "id": "rashi-yoma-023b-037",
+   "daf": "23b",
+   "perek": 2,
+   "vilnaLine": 37,
+   "he": "בבישול קדירה אף כאן לענין הוצאת",
+   "en": "in cooking the pot, so too here regarding the removal of",
+   "linkedGemaraLineIds": [
+    "yoma-023b-l21"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'of'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-024a-001",
+   "daf": "24a",
+   "perek": 2,
+   "vilnaLine": 1,
+   "he": "לרבות שחקים. שכשירין לכל עבודה ובלבד שלא יהו מקורעין והכי",
+   "en": "To include worn garments - that they are valid for any service, provided they are not torn, and this is",
+   "linkedGemaraLineIds": [
+    "yoma-024a-l01a"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'is'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-024b-001",
+   "daf": "24b",
+   "perek": 2,
+   "vilnaLine": 1,
+   "he": "ולמבית לפרוכת. אפסיק בין כללא לפרטא מבית לפרוכת הוא",
+   "en": "And within the curtain - it interrupts between the generalization and the specification: 'within the curtain' is",
+   "linkedGemaraLineIds": [
+    "yoma-024b-l01"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'is'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-025a-001",
+   "daf": "25a",
+   "perek": 2,
+   "vilnaLine": 1,
+   "he": "שלא זכו לפייס. היו מפשיטין בגדי קדש שהפסיקו בהן: דאי סלקא",
+   "en": "Regarding those who did not win the lottery - they would strip off the sacred garments in which they had held the lottery. For if you",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-025a-003",
+   "daf": "25a",
+   "perek": 2,
+   "vilnaLine": 3,
+   "he": "לא היו מניחין עליהן אלא מכנסי חול אלמא מלבישין אותן בגדי",
+   "en": "they would leave upon them only ordinary breeches - so evidently they would dress them in",
+   "linkedGemaraLineIds": [
+    "yoma-025a-l03"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'in'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-025b-001",
+   "daf": "25b",
+   "perek": 2,
+   "vilnaLine": 1,
+   "he": "לא היה פייס למחתה. כשהיו מפיסין לקטורת כדתנן מתניתין חדשים",
+   "en": "There was no lottery for the fire-pan - for when they cast the lottery for the incense, as we learned in a new mishnah,",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-025b-007",
+   "daf": "25b",
+   "perek": 2,
+   "vilnaLine": 7,
+   "he": "וקאמר ר' יהודה לא היו מפיסין מי",
+   "en": "And Rabbi Yehuda says: they would not cast the lottery for who",
+   "linkedGemaraLineIds": [
+    "yoma-025b-l01"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'who'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-026a-001",
+   "daf": "26a",
+   "perek": 2,
+   "vilnaLine": 1,
+   "he": "למאי אתא. הא אף הם בכלל הנתחים דבשלמא הראש דרשינן ליה",
+   "en": "For what purpose does it come - for these too are included among the pieces; now granted, the head, we derive it",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-026a-004",
+   "daf": "26a",
+   "perek": 2,
+   "vilnaLine": 4,
+   "he": "שכבר הותז בשחיטה ולא היה בשעת הפשט ת\"ל את הראש אלא",
+   "en": "which had already been severed at the slaughtering and was not there at the time of flaying? The verse teaches 'the head.' But",
+   "linkedGemaraLineIds": [
+    "yoma-026a-l01"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'But'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-026b-001",
+   "daf": "26b",
+   "perek": 2,
+   "vilnaLine": 1,
+   "he": "דלא כר\"א בן יעקב ודלא כרבי יהודה. דחשיב פייס למחתה דלא",
+   "en": "That follows neither Rabbi Eliezer ben Yaakov nor Rabbi Yehuda - since it counts a lottery for the fire-pan, which does not",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-026b-011",
+   "daf": "26b",
+   "perek": 2,
+   "vilnaLine": 11,
+   "he": "שני גזירי עצים להוסיף על עצי",
+   "en": "two logs of wood to add to the wood of",
+   "linkedGemaraLineIds": [
+    "yoma-026b-l05"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'of'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-027a-001",
+   "daf": "27a",
+   "perek": 2,
+   "vilnaLine": 1,
+   "he": "גמ' האי מבעיא ליה לגופיה. דניבעי כהן מיעוטא מנא לן להפשט",
+   "en": "Gemara: this verse would seem redundant, teaching only what is obvious - for we need to know from where we derive the priest-exclusion for flaying",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-027a-025",
+   "daf": "27a",
+   "perek": 2,
+   "vilnaLine": 25,
+   "he": "הכהנים. הרי למדנו מקבלה א] שאין",
+   "en": "the priests shall arrange' - behold, we have learned from the receiving that",
+   "linkedGemaraLineIds": [
+    "yoma-027a-l14"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'that'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "medium_risk",
+    "beginning_of_yoma",
+    "priesthood_or_temple_terminology"
+   ],
+   "selectionRationale": "2 <= riskScore <= 8 (Step 2 medium-risk tier); daf in the first third of Yoma's daf order; Hebrew contains priesthood or Temple vocabulary"
+  },
+  {
+   "id": "rashi-yoma-027b-001",
+   "daf": "27b",
+   "perek": 2,
+   "vilnaLine": 1,
+   "he": "הוי אומר זה טלה. תמיד של שחר הזקיקך הכתוב בו למערכת עצים",
+   "en": "You must say: this is the lamb - the daily morning-offering: the verse obligated you regarding it to a fresh arrangement of wood",
+   "linkedGemaraLineIds": [
+    "yoma-027b-l01a"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-028a-001",
+   "daf": "28a",
+   "perek": 2,
+   "vilnaLine": 1,
+   "he": "והרי איברים ופדרים. לא גרסינן לכוליה הך גירסא דאיברים",
+   "en": "But what of the limbs and fats - we do not read this entire version about the limbs",
+   "linkedGemaraLineIds": [
+    "yoma-028a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-028b-001",
+   "daf": "28b",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "גמ' עלה ברקאי. האיר יותר מברק: לשכור פועלים. האי יצאו",
+   "en": "Gemara: 'it has risen, barkai' - it shone more brightly than a mere flash. To hire workers - this 'they went out",
+   "linkedGemaraLineIds": [
+    "yoma-028b-l01",
+    "yoma-028b-l07"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-029a-001",
+   "daf": "29a",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "הרהורי עבירה. תאות נשים קשים להכחיש את בשרו יותר מגופו",
+   "en": "Thoughts of transgression - the desire for women is harder on a person's flesh, wasting it more, than",
+   "linkedGemaraLineIds": [
+    "yoma-029a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-029b-001",
+   "daf": "29b",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "הוא תני לה. להא מתניתין והוא אמר לה האי תירוצא מדעתו: כלי",
+   "en": "He taught it - this mishnah, and he stated this resolution on his own reasoning. Service vessels",
+   "linkedGemaraLineIds": [
+    "yoma-029b-l01"
+   ],
+   "riskScore": 2,
+   "riskSignals": [
+    {
+     "tag": "WRONG_REFERENT",
+     "weight": 2,
+     "reason": "pronoun-heavy (6/16 words) with no obvious local referent check performed - human review needed"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-030a-001",
+   "daf": "30a",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "מצוה לשפשף בידו. ניצוצות של מי רגלים הניתזין על רגליו שלא יצא",
+   "en": "It is a mitzva to rub away with one's hand - the droplets of urine that splash onto his feet, so that he not go out",
+   "linkedGemaraLineIds": [
+    "yoma-030a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-030b-001",
+   "daf": "30b",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "באחולי עבודה. אם לא טבל שחרית ועבד: לבן זומא. דאמר",
+   "en": "Regarding the profanation of the service - if he did not immerse in the morning and served anyway. According to Ben Zoma - who says",
+   "linkedGemaraLineIds": [
+    "yoma-030b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-031a-001",
+   "daf": "31a",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "חוצץ או אינו חוצץ. לר' יהודה דאמר מפני סרך טבילה בעלמא היא",
+   "en": "Does it interpose, or does it not interpose - according to Rabbi Yehuda, who says it is merely a formality of immersion,",
+   "linkedGemaraLineIds": [
+    "yoma-031a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-031b-001",
+   "daf": "31b",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "והאיכא אמה. עובי תקרה על חלל השער: ואמה מעזיבה. של טיט",
+   "en": "But is there not a cubit - the thickness of the ceiling over the gate's own cavity. And a cubit of plaster - of",
+   "linkedGemaraLineIds": [
+    "yoma-031b-l01"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'of'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-032a-001",
+   "daf": "32a",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "עשרה קידושין. לחמש טבילות: תשעה הוו. דחסרא ליה טבילה",
+   "en": "Ten sanctifications - for five immersions. There would be nine - since he lacks",
+   "linkedGemaraLineIds": [
+    "yoma-032a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-032b-001",
+   "daf": "32b",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "כפרתן מרובה. שמשמש בהן כל ימות השנה אבל עבודת פנים דיום",
+   "en": "Their atonement is great - since he serves in them all the days of the year, but the inner service of",
+   "linkedGemaraLineIds": [
+    "yoma-032b-l01"
+   ],
+   "riskScore": 4,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'of'"
+    }
+   ],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-033a-001",
+   "daf": "33a",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "לכך שנינו כו'. ממשנה יתירא חדא בחולין וחדא בקדשים מדקאמר",
+   "en": "Therefore we learned, etc. - from a superfluous mishnah, one for non-sacred slaughter and one for sacred offerings, since",
+   "linkedGemaraLineIds": [
+    "yoma-033a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-033b-001",
+   "daf": "33b",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "וכי עייל להיכל במזבח פגע ברישא. קודם שיגיע למנורה שהמזבח",
+   "en": "But since he enters the Sanctuary, he encounters the altar first - before he reaches the candelabrum, since the altar",
+   "linkedGemaraLineIds": [
+    "yoma-033b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-034a-001",
+   "daf": "34a",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "ת\"ל וערך עליה העולה וגו'. העולה משמע תהא ראשונה דאי",
+   "en": "The verse teaches, 'and he shall arrange upon it the burnt-offering,' etc. - the word 'burnt-offering' implies it must be first, for if",
+   "linkedGemaraLineIds": [
+    "yoma-034a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-034b-001",
+   "daf": "34b",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "רבי אומר של ערבית משל שחרית. דלכבש האחד אדשחרית קאי",
+   "en": "Rabbi says the evening quantity is derived from the morning - since 'the one lamb' refers to the morning one,",
+   "linkedGemaraLineIds": [
+    "yoma-034b-l01a"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-035a-001",
+   "daf": "35a",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "גמ' פרווה אמגושא. מכשף אחד",
+   "en": "Gemara: Parva - a sorcerer",
+   "linkedGemaraLineIds": [
+    "yoma-035a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-035b-001",
+   "daf": "35b",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "מיתיבי גרסינן ברישא והדר גרסינן תני רב שמואל: מיתיבי ולבשו בגדים אחרים. ולא גרסינן וקרבו אל אשר לעם דההוא קרא לא",
+   "en": "We read 'they raised an objection' first and then read 'Rav Shmuel taught' - the objection quotes 'and they shall wear other garments.' And we do not read 'and they shall approach the people,' since that verse is not",
+   "linkedGemaraLineIds": [
+    "yoma-035b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-036a-001",
+   "daf": "36a",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "מאן שמעת ליה דאמר בין אולם ולמזבח. קרוי צפון לשחיטת קדשי",
+   "en": "Who do you hear hold that between the vestibule and the altar - is called north for the slaughter of the most",
+   "linkedGemaraLineIds": [
+    "yoma-036a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-036b-001",
+   "daf": "36b",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "בלאו דנבילה קא מיפלגי. דכתיב עשה אחריו לגר אשר בשעריך",
+   "en": "They disagree about the prohibition of carrion - since it is written, a positive commandment follows it, 'to the convert who is within your gates",
+   "linkedGemaraLineIds": [
+    "yoma-036b-l01a"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-037a-001",
+   "daf": "37a",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "ומנין שבאנא. יהא וידוי זה: נאמר כפרה בחורב. במעשה עגל",
+   "en": "And from where do we derive that it includes 'please' - that this is the confession. Atonement is stated at Horeb - in the incident of the calf",
+   "linkedGemaraLineIds": [
+    "yoma-037a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-037b-001",
+   "daf": "37b",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "בידות סכינין. שאי אפשר לעשות סכינין עצמן של זהב: כני כלים.",
+   "en": "Regarding the handles - since it is impossible to make the knives themselves of gold. Sockets of vessels -",
+   "linkedGemaraLineIds": [
+    "yoma-037b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-038a-001",
+   "daf": "38a",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "בסירוגין. אם לא שכב אחריו ראשי תיבות עד סוף המקרא ואת כי שטית",
+   "en": "In intervals - if he did not lie [with her], following it are the acrostic letters through the end of the verse, 'and if you have gone astray'",
+   "linkedGemaraLineIds": [
+    "yoma-038a-l01a"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-038b-001",
+   "daf": "38b",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "ומשלך יתנו לך. כלומר לא משלהם הוא מתנה אלא מזונות קצובים",
+   "en": "And from your own they shall give you - meaning, it is not a gift from them, but rather fixed sustenance",
+   "linkedGemaraLineIds": [
+    "yoma-038b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-039a-001",
+   "daf": "39a",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "בא. הלוקח למדוד נפט מפני שריחו רע אומר לו המוכר מדוד לעצמך: מטמטמת. אוטמת וסותמת מכל חכמה: ונטמתם. חסר א':",
+   "en": "Comes - the one who comes to buy naphtha to measure, since its smell is bad, the seller tells him: measure it yourself. Dulls - it seals and blocks off all wisdom. And you shall become dulled - the word is spelled without an aleph.",
+   "linkedGemaraLineIds": [
+    "yoma-039a-l01",
+    "yoma-039a-l03"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-039b-001",
+   "daf": "39b",
+   "perek": 3,
+   "vilnaLine": 1,
+   "he": "חמצן. גזלן: אשרו חמוץ. החזיקו הנגזל: ולא חומץ. לא שייך הכא",
+   "en": "Chometzan - a robber. Give strength to the wronged one - strengthen the one who was robbed. And not the wrongdoer - this is not relevant here;",
+   "linkedGemaraLineIds": [
+    "yoma-039b-l01a",
+    "yoma-039b-l01b"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-040a-001",
+   "daf": "40a",
+   "perek": 4,
+   "vilnaLine": 1,
+   "he": "אלא להך לישנא דאמרת. אליבא דרבי יהודה פליגי ואמר רבי ינאי",
+   "en": "Rather, according to that version you stated - they disagree in accordance with Rabbi Yehuda, and Rabbi Yannai said",
+   "linkedGemaraLineIds": [
+    "yoma-040a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-040b-001",
+   "daf": "40b",
+   "perek": 4,
+   "vilnaLine": 1,
+   "he": "יעמד חי. על כרחך ללמדנו שאם מת אתה צריך להביא אחר דאי לא",
+   "en": "He shall stand alive - this necessarily teaches us that if it dies you must bring another, for if not,",
+   "linkedGemaraLineIds": [
+    "yoma-040b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-041a-001",
+   "daf": "41a",
+   "perek": 4,
+   "vilnaLine": 1,
+   "he": "סתם סיפרא. תורת כהנים רבי יהודה היא הכי קאמר בסנהדרין",
+   "en": "An unattributed Sifra - it is Torat Kohanim, following Rabbi Yehuda; so it says in Sanhedrin",
+   "linkedGemaraLineIds": [
+    "yoma-041a-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-041b-001",
+   "daf": "41b",
+   "perek": 4,
+   "vilnaLine": 1,
+   "he": "מאי איכא למימר. והא הכא לאו בשעת לקיחה ולאו שעת עשייה",
+   "en": "What is there to say? But here, it is neither at the time of taking nor the time of performing it",
+   "linkedGemaraLineIds": [
+    "yoma-041b-l01"
+   ],
+   "riskScore": 0,
+   "riskSignals": [],
+   "priorReviewDepth": "content-reviewed",
+   "selectionStratum": [
+    "top_up_to_minimum_total"
+   ],
+   "selectionRationale": "top_up_to_minimum_total"
+  },
+  {
+   "id": "rashi-yoma-053a-001",
+   "daf": "53a",
+   "perek": 5,
+   "vilnaLine": 1,
+   "he": "שלא תתחיל מפניך. לצבור ולילך הלאה: שמא תכוה. שהקטורת",
+   "en": "'Not to begin from the near side' - meaning he piles the coals and moves progressively further away. 'Lest he be burned' - for the incense",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l01a"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 53a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "historical_reconstruction_or_realignment",
+    "high_risk",
+    "middle_of_yoma"
+   ],
+   "selectionRationale": "from a historically reconstructed or realigned daf (Step 1 provenance); riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-053a-002",
+   "daf": "53a",
+   "perek": 5,
+   "vilnaLine": 2,
+   "he": "שצברת לצדך בוערת תמיד וזרועך המתפשט והולך להלן נכוה בתימור",
+   "en": "he has already piled beside him keeps burning continually, and as his arm reaches out further it would be burned by the smoke",
+   "linkedGemaraLineIds": [
+    "yoma-053a-l01a"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 53a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "middle_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-053b-001",
+   "daf": "53b",
+   "perek": 5,
+   "vilnaLine": 1,
+   "he": "אמרו ליה לרב יוסף. שהוא היה מאור עינים ואינו מכיר בדבר:",
+   "en": "'They said to Rav Yosef' - for he was blind and could not perceive",
+   "linkedGemaraLineIds": [
+    "yoma-053b-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 53b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "historical_reconstruction_or_realignment",
+    "high_risk",
+    "middle_of_yoma"
+   ],
+   "selectionRationale": "from a historically reconstructed or realigned daf (Step 1 provenance); riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-053b-002",
+   "daf": "53b",
+   "perek": 5,
+   "vilnaLine": 2,
+   "he": "תרום רישיך. תהיה ראש ישיבת הכרך: התם מיבעי ליה למיקם.",
+   "en": "this on his own. 'May your head be raised' - may you become head of the great yeshiva. 'There he must pause' -",
+   "linkedGemaraLineIds": [
+    "yoma-053b-l01",
+    "yoma-053b-l02"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 53b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "middle_of_yoma",
+    "multiple_linked_gemara_lines"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order; linkedGemaraLineIds has more than one entry"
+  },
+  {
+   "id": "rashi-yoma-054b-001",
+   "daf": "54b",
+   "perek": 5,
+   "vilnaLine": 1,
+   "he": "כאיש המעורה בלוייה שלו. הנדבק וחבוק באשתו בין זרועותיו:",
+   "en": "'Like a man clinging to his companion' - one who clings and embraces his wife between his arms.",
+   "linkedGemaraLineIds": [
+    "yoma-054b-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 54b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "historical_reconstruction_or_realignment",
+    "high_risk",
+    "middle_of_yoma"
+   ],
+   "selectionRationale": "from a historically reconstructed or realigned daf (Step 1 provenance); riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-054b-002",
+   "daf": "54b",
+   "perek": 5,
+   "vilnaLine": 2,
+   "he": "הוציאום לשוק. קיפלום מן הכותל: מציון נברא. ציון נבראת תחילה",
+   "en": "'They took them out to the market' - they peeled them off the wall. 'It was created from Zion' -",
+   "linkedGemaraLineIds": [
+    "yoma-054b-l01",
+    "yoma-054b-l07"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 54b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "middle_of_yoma",
+    "multiple_linked_gemara_lines"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order; linkedGemaraLineIds has more than one entry"
+  },
+  {
+   "id": "rashi-yoma-055a-001",
+   "daf": "55a",
+   "perek": 5,
+   "vilnaLine": 1,
+   "he": "כמנגדנא. כמכה ברצועה שמתחיל מן הכתפים ומכה והולך למטה:",
+   "en": "'Like this, facing me' - like striking with a strap, starting from the shoulders and striking downward.",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 55a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "historical_reconstruction_or_realignment",
+    "high_risk",
+    "middle_of_yoma"
+   ],
+   "selectionRationale": "from a historically reconstructed or realigned daf (Step 1 provenance); riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-055a-002",
+   "daf": "55a",
+   "perek": 5,
+   "vilnaLine": 2,
+   "he": "אינו מזה על הכפורת. על גגה אלא כנגד עוביה ולא היו דמים",
+   "en": "'He does not sprinkle on the kapporet' - on its top surface, but rather toward its thickness, and the blood did not",
+   "linkedGemaraLineIds": [
+    "yoma-055a-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 55a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "middle_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-055b-001",
+   "daf": "55b",
+   "perek": 5,
+   "vilnaLine": 1,
+   "he": "לית ליה כתיבה. אין סומכין על כך דזמנין דלאו אדעתיה לעיוני",
+   "en": "'He does not hold that writing labels is a solution' - we do not rely on that, since sometimes he is not paying attention to examine",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 55b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "historical_reconstruction_or_realignment",
+    "high_risk",
+    "middle_of_yoma",
+    "narrative_or_contextual_explanation"
+   ],
+   "selectionRationale": "from a historically reconstructed or realigned daf (Step 1 provenance); riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order; long English with an explicit logical connector (narrative/contextual gloss, not a bare lemma quote)"
+  },
+  {
+   "id": "rashi-yoma-055b-002",
+   "daf": "55b",
+   "perek": 5,
+   "vilnaLine": 2,
+   "he": "בכתבא: משום דמחלפי. אי עביד תרי מניח מזרק השעיר על זה",
+   "en": "the writing. 'Because they get switched' - if he made two stands, he would set the goat's basin on one and",
+   "linkedGemaraLineIds": [
+    "yoma-055b-l01"
+   ],
+   "riskScore": 13,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'and'"
+    },
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 55b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "middle_of_yoma",
+    "narrative_or_contextual_explanation"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order; long English with an explicit logical connector (narrative/contextual gloss, not a bare lemma quote)"
+  },
+  {
+   "id": "rashi-yoma-056b-001",
+   "daf": "56b",
+   "perek": 5,
+   "vilnaLine": 1,
+   "he": "לכשיבקע. נחוש לו כלומר לא חיישינן לשמא יבקע דאפשר דמסר",
+   "en": "'When it bursts' - we take precaution for it, meaning we are not concerned that it might burst, since it is possible",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l02"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 56b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "historical_reconstruction_or_realignment",
+    "high_risk",
+    "middle_of_yoma",
+    "narrative_or_contextual_explanation"
+   ],
+   "selectionRationale": "from a historically reconstructed or realigned daf (Step 1 provenance); riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order; long English with an explicit logical connector (narrative/contextual gloss, not a bare lemma quote)"
+  },
+  {
+   "id": "rashi-yoma-056b-002",
+   "daf": "56b",
+   "perek": 5,
+   "vilnaLine": 2,
+   "he": "ליה לשומר: אין אדם מתנה על שני דברים. להניח שני עירובין אחד",
+   "en": "to hand it over to a guardian. 'A person may not make a condition regarding two things' - meaning he may not set out two eruvin, one",
+   "linkedGemaraLineIds": [
+    "yoma-056b-l02",
+    "yoma-056b-l05"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 56b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "middle_of_yoma",
+    "multiple_linked_gemara_lines"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order; linkedGemaraLineIds has more than one entry"
+  },
+  {
+   "id": "rashi-yoma-057a-001",
+   "daf": "57a",
+   "perek": 5,
+   "vilnaLine": 1,
+   "he": "השתא ברי. ודאי טמאים אתון ואין שכינה ביניכם שורה בטומאה:",
+   "en": "'Now, indeed' - you are certainly impure, and the Divine Presence does not dwell among you in impurity.",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 57a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "historical_reconstruction_or_realignment",
+    "high_risk",
+    "middle_of_yoma",
+    "purity_terminology"
+   ],
+   "selectionRationale": "from a historically reconstructed or realigned daf (Step 1 provenance); riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order; Hebrew contains purity/impurity vocabulary"
+  },
+  {
+   "id": "rashi-yoma-057a-002",
+   "daf": "57a",
+   "perek": 5,
+   "vilnaLine": 2,
+   "he": "וכי דבר הלמד בהיקש. כגון פר שלמד במתנות פנים אחת למעלה",
+   "en": "'And can a matter learned by analogy in turn teach by analogy?' - for example, the bull, which learned its inner one-above sprinkling",
+   "linkedGemaraLineIds": [
+    "yoma-057a-l04"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 57a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "middle_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-057b-001",
+   "daf": "57b",
+   "perek": 5,
+   "vilnaLine": 1,
+   "he": "כוסות בכוסות. שאינו מכיר איזה כוס של פר ואיזה כוס של שעיר:",
+   "en": "'Cups mixed with cups' - meaning he cannot tell which cup held the bull's blood and which held the goat's.",
+   "linkedGemaraLineIds": [
+    "yoma-057b-l03"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 57b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "historical_reconstruction_or_realignment",
+    "high_risk",
+    "middle_of_yoma"
+   ],
+   "selectionRationale": "from a historically reconstructed or realigned daf (Step 1 provenance); riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-057b-002",
+   "daf": "57b",
+   "perek": 5,
+   "vilnaLine": 2,
+   "he": "נותן וחוזר ונותן וחוזר ונותן. בכל עבודה ועבודה נותן אחת למעלה",
+   "en": "'He gives, and goes back and gives, and goes back and gives' - for each service he gives one above",
+   "linkedGemaraLineIds": [
+    "yoma-057b-l03"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 57b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "middle_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-058a-001",
+   "daf": "58a",
+   "perek": 6,
+   "vilnaLine": 1,
+   "he": "וקבל בו את הדם. כל קבלות של כל ימות השנה קמבעיא ליה:",
+   "en": "'And he shall receive the blood in it' - he questions all the receiving-vessels used throughout the year.",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l10"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 58a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "historical_reconstruction_or_realignment",
+    "high_risk",
+    "middle_of_yoma"
+   ],
+   "selectionRationale": "from a historically reconstructed or realigned daf (Step 1 provenance); riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-058a-002",
+   "daf": "58a",
+   "perek": 6,
+   "vilnaLine": 2,
+   "he": "מין במינו. מזרק במזרק: חוצץ. ונמצא שאין קבלה זו בכהן שהרי",
+   "en": "'Same kind with same kind' - one basin inside another basin. 'Does it interpose?' - meaning this receiving would not count as done by the priest himself, since he",
+   "linkedGemaraLineIds": [
+    "yoma-058a-l10"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 58a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "middle_of_yoma",
+    "narrative_or_contextual_explanation"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order; long English with an explicit logical connector (narrative/contextual gloss, not a bare lemma quote)"
+  },
+  {
+   "id": "rashi-yoma-058b-001",
+   "daf": "58b",
+   "perek": 6,
+   "vilnaLine": 1,
+   "he": "מתני' זה מזבח הזהב. דאילו מזבח החיצון לאו לפני ה' הוא: התחיל מחטא ויורד. משום דסבירא ליה להאי תנא הקפה ברגל כדאמר",
+   "en": "'The Mishnah: this is the golden altar' - for the outer altar is not 'before the Lord.' 'He began purging and descending' - because this Tanna holds that the circuit is made on foot, as stated",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 58b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "historical_reconstruction_or_realignment",
+    "high_risk",
+    "middle_of_yoma",
+    "long_explanation",
+    "sacrificial_terminology",
+    "priesthood_or_temple_terminology",
+    "narrative_or_contextual_explanation"
+   ],
+   "selectionRationale": "from a historically reconstructed or realigned daf (Step 1 provenance); riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order; English translation is a long explanation (>=30 words); Hebrew contains sacrificial-offering vocabulary; Hebrew contains priesthood or Temple vocabulary; long English with an explicit logical connector (narrative/contextual gloss, not a bare lemma quote)"
+  },
+  {
+   "id": "rashi-yoma-058b-002",
+   "daf": "58b",
+   "perek": 6,
+   "vilnaLine": 2,
+   "he": "בגמרא וכל מתנה ומתנה היתה בקרן שלפניו וסמוך לו וצריך ליתן מלמעלה למטה כי היכי דלא נתווסי מאניה שהמזבח גבוה אמתים ואי אפשר",
+   "en": "in the Gemara, and each sprinkling was on the corner nearest and adjacent to him, and he had to give it from above downward, so that his garments would not become stained, since the altar is two cubits high and it is impossible",
+   "linkedGemaraLineIds": [
+    "yoma-058b-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 58b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "middle_of_yoma",
+    "long_explanation",
+    "sacrificial_terminology",
+    "priesthood_or_temple_terminology",
+    "narrative_or_contextual_explanation"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order; English translation is a long explanation (>=30 words); Hebrew contains sacrificial-offering vocabulary; Hebrew contains priesthood or Temple vocabulary; long English with an explicit logical connector (narrative/contextual gloss, not a bare lemma quote)"
+  },
+  {
+   "id": "rashi-yoma-059a-001",
+   "daf": "59a",
+   "perek": 6,
+   "vilnaLine": 1,
+   "he": "ואי בעית אימא אי סבירא לן. דהקפה במזבח הפנימי ברגל היא",
+   "en": "'And if you wish to say: if we hold' - that the circuit at the inner altar is on foot, just like",
+   "linkedGemaraLineIds": [
+    "yoma-059a-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 59a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "historical_reconstruction_or_realignment",
+    "high_risk",
+    "middle_of_yoma",
+    "sacrificial_terminology",
+    "priesthood_or_temple_terminology"
+   ],
+   "selectionRationale": "from a historically reconstructed or realigned daf (Step 1 provenance); riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order; Hebrew contains sacrificial-offering vocabulary; Hebrew contains priesthood or Temple vocabulary"
+  },
+  {
+   "id": "rashi-yoma-059a-002",
+   "daf": "59a",
+   "perek": 6,
+   "vilnaLine": 2,
+   "he": "כהקפה דחיצון דכולי עלמא ילפינן פנים מחוץ לענין ימין אלא",
+   "en": "the circuit at the outer altar, since all agree we derive the inner from the outer regarding the rightward direction; rather,",
+   "linkedGemaraLineIds": [
+    "yoma-059a-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 59a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "middle_of_yoma",
+    "narrative_or_contextual_explanation"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order; long English with an explicit logical connector (narrative/contextual gloss, not a bare lemma quote)"
+  },
+  {
+   "id": "rashi-yoma-059b-001",
+   "daf": "59b",
+   "perek": 6,
+   "vilnaLine": 1,
+   "he": "אלא מדרבנן. מאן דאמר מועלין",
+   "en": "'But only by rabbinic law' - the one who says one may be liable for misuse of sacred property means only by rabbinic law, to pay",
+   "linkedGemaraLineIds": [
+    "yoma-059b-l01"
+   ],
+   "riskScore": 13,
+   "riskSignals": [
+    {
+     "tag": "OVEREXPLAINED",
+     "weight": 4,
+     "reason": "English is 4.74x the Hebrew's character length (possible invention or merged content)"
+    },
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 59b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "historical_reconstruction_or_realignment",
+    "high_risk",
+    "middle_of_yoma"
+   ],
+   "selectionRationale": "from a historically reconstructed or realigned daf (Step 1 provenance); riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-059b-002",
+   "daf": "59b",
+   "perek": 6,
+   "vilnaLine": 2,
+   "he": "מדרבנן קאמר לשלם קרן אבל",
+   "en": "the principal, but not to add the additional fifth",
+   "linkedGemaraLineIds": [
+    "yoma-059b-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 59b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "middle_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the middle third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-060a-001",
+   "daf": "60a",
+   "perek": 6,
+   "vilnaLine": 1,
+   "he": "ובגדי כהונה. ארבעה בגדי לבן דכ\"ג ביום הכפורים דכתיב בהו",
+   "en": "'And the garments of the priesthood' - the four white linen garments of the High Priest on Yom Kippur, about which it is written",
+   "linkedGemaraLineIds": [
+    "yoma-060a-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 60a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "historical_reconstruction_or_realignment",
+    "high_risk",
+    "end_of_yoma",
+    "priesthood_or_temple_terminology"
+   ],
+   "selectionRationale": "from a historically reconstructed or realigned daf (Step 1 provenance); riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order; Hebrew contains priesthood or Temple vocabulary"
+  },
+  {
+   "id": "rashi-yoma-060a-002",
+   "daf": "60a",
+   "perek": 6,
+   "vilnaLine": 2,
+   "he": "והניחם שם (ויקרא טז) : ראוין הן לכהן הדיוט. וקיימא לן בגדי",
+   "en": "'and he shall leave them there' (Leviticus 16). 'They are fit for a common priest' - and we hold that the priestly garments",
+   "linkedGemaraLineIds": [
+    "yoma-060a-l01",
+    "yoma-060a-l04"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 60a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma",
+    "multiple_linked_gemara_lines"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order; linkedGemaraLineIds has more than one entry"
+  },
+  {
+   "id": "rashi-yoma-060b-001",
+   "daf": "60b",
+   "perek": 6,
+   "vilnaLine": 1,
+   "he": "רבי יהודה סבר. אמקום שכפרתו אחת בשנה כתיבא חוקה אבל",
+   "en": "'Rabbi Yehuda holds' - that the indispensable decree is written specifically regarding a place whose atonement occurs only once a year, but",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l01"
+   ],
+   "riskScore": 13,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'but'"
+    },
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 60b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "historical_reconstruction_or_realignment",
+    "high_risk",
+    "end_of_yoma"
+   ],
+   "selectionRationale": "from a historically reconstructed or realigned daf (Step 1 provenance); riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-060b-002",
+   "daf": "60b",
+   "perek": 6,
+   "vilnaLine": 2,
+   "he": "אהיכל ואעזרות אפי' דברים הנעשים בבגדי לבן שאין כפרתן בכהן",
+   "en": "regarding the Sanctuary and the courtyards, even acts performed in white garments whose atonement by the",
+   "linkedGemaraLineIds": [
+    "yoma-060b-l01"
+   ],
+   "riskScore": 13,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'the'"
+    },
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 60b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma",
+    "priesthood_or_temple_terminology"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order; Hebrew contains priesthood or Temple vocabulary"
+  },
+  {
+   "id": "rashi-yoma-061b-001",
+   "daf": "61b",
+   "perek": 6,
+   "vilnaLine": 1,
+   "he": "אשם מצורע ששחטו שלא לשמו. כגון לשם עולה או לשם שלמים",
+   "en": "'A metzora's guilt-offering that he slaughtered not for its own sake' - for instance, for the sake of a burnt-offering or a peace-offering,",
+   "linkedGemaraLineIds": [
+    "yoma-061b-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 61b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "historical_reconstruction_or_realignment",
+    "high_risk",
+    "end_of_yoma",
+    "sacrificial_terminology"
+   ],
+   "selectionRationale": "from a historically reconstructed or realigned daf (Step 1 provenance); riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order; Hebrew contains sacrificial-offering vocabulary"
+  },
+  {
+   "id": "rashi-yoma-061b-002",
+   "daf": "61b",
+   "perek": 6,
+   "vilnaLine": 2,
+   "he": "ואמר מר (זבחים דף ב.) כל הזבחים שנשחטו שלא לשמן כשרין אלא",
+   "en": "and the master said (Zevachim 2a) that all offerings slaughtered not for their own sake are valid, except",
+   "linkedGemaraLineIds": [
+    "yoma-061b-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 61b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma",
+    "sacrificial_terminology"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order; Hebrew contains sacrificial-offering vocabulary"
+  },
+  {
+   "id": "rashi-yoma-062a-001",
+   "daf": "62a",
+   "perek": 6,
+   "vilnaLine": 1,
+   "he": "וכי עדרו שורף. רבא קא מהדר ליה לרב נחמן ולטעמיך וכי עדרו",
+   "en": "'But does he burn his whole flock' - Rava is answering Rav Nachman: and by your reasoning, does he",
+   "linkedGemaraLineIds": [
+    "yoma-062a-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 62a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "historical_reconstruction_or_realignment",
+    "high_risk",
+    "end_of_yoma"
+   ],
+   "selectionRationale": "from a historically reconstructed or realigned daf (Step 1 provenance); riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-062a-002",
+   "daf": "62a",
+   "perek": 6,
+   "vilnaLine": 2,
+   "he": "הזקיקו הכתוב לשרוף ותנן וכולן נשרפין אבית הדשן: הכא כתיב",
+   "en": "burn his whole flock? Yet we learned that all of them are burned at the place of the ashes. 'Here it is written'",
+   "linkedGemaraLineIds": [
+    "yoma-062a-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 62a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-062b-001",
+   "daf": "62b",
+   "perek": 6,
+   "vilnaLine": 1,
+   "he": "גמ' עיכובא מנלן. אי משום דכתיבא חוקה הא בין לרבי יהודה",
+   "en": "'Gemara: from where do we derive that it is indispensable' - if you might say because the indispensable decree is written regarding it, but according to both Rabbi Yehuda",
+   "linkedGemaraLineIds": [
+    "yoma-062b-l05"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 62b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma",
+    "narrative_or_contextual_explanation"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order; long English with an explicit logical connector (narrative/contextual gloss, not a bare lemma quote)"
+  },
+  {
+   "id": "rashi-yoma-062b-002",
+   "daf": "62b",
+   "perek": 6,
+   "vilnaLine": 2,
+   "he": "בין לר' נחמיה לא כתיבה חוקה אלא על דברים שהן מן העבודה",
+   "en": "and Rabbi Nechemya, the decree is written only regarding acts that are part of the service itself,",
+   "linkedGemaraLineIds": [
+    "yoma-062b-l05"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 62b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-063a-001",
+   "daf": "63a",
+   "perek": 6,
+   "vilnaLine": 1,
+   "he": "ומי אית ליה לרב חסדא הואיל. לחייב על קרבן שאינו ראוי לשם",
+   "en": "'But does Rav Chisda really accept the \"hoil\" principle' - to make one liable for an offering that is not fit for the purpose",
+   "linkedGemaraLineIds": [
+    "yoma-063a-l03a"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 63a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-063a-002",
+   "daf": "63a",
+   "perek": 6,
+   "vilnaLine": 2,
+   "he": "מה שהופרש בפנים ושחטו בחוץ דנימא חייב משום הואיל וראוי",
+   "en": "for which it was designated inside, and he slaughtered it outside, that we should say he is liable because it is fit",
+   "linkedGemaraLineIds": [
+    "yoma-063a-l03a"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 63a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma",
+    "narrative_or_contextual_explanation"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order; long English with an explicit logical connector (narrative/contextual gloss, not a bare lemma quote)"
+  },
+  {
+   "id": "rashi-yoma-063b-003",
+   "daf": "63b",
+   "perek": 6,
+   "vilnaLine": 3,
+   "he": "הוא חייב ואינו חייב על החולין אי קרבן שומע אני וכו' כלומר או",
+   "en": "is one liable, but not for a non-sacred animal. 'If [I understand] \"offering\" to mean,' etc. - meaning, or",
+   "linkedGemaraLineIds": [
+    "yoma-063b-l01"
+   ],
+   "riskScore": 12,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'or'"
+    },
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 63b classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-063b-004",
+   "daf": "63b",
+   "perek": 6,
+   "vilnaLine": 4,
+   "he": "אינו אומר קרבן להוציא את החולין בפנים אלא להביא קדשי בדק",
+   "en": "does the word 'offering' come only to exclude non-sacred animals slaughtered inside, but rather to include consecrated property of the",
+   "linkedGemaraLineIds": [
+    "yoma-063b-l01"
+   ],
+   "riskScore": 12,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'the'"
+    },
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 63b classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-064a-001",
+   "daf": "64a",
+   "perek": 6,
+   "vilnaLine": 1,
+   "he": "רבא אמר. מחוסר זמן דאיצטריך קרא לשעיר המשתלח כגון שהיה",
+   "en": "'Rava said' - the verse teaching the exclusion of one lacking its time was necessary for the goat sent away, in a case such as this:",
+   "linkedGemaraLineIds": [
+    "yoma-064a-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 64a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-064a-002",
+   "daf": "64a",
+   "perek": 6,
+   "vilnaLine": 2,
+   "he": "לו למי שמוכרן לציבור חולה בתוך ביתו שמותר לחלל עליו יום",
+   "en": "one of those who sells animals to the public had a sick person in his household, for whom it is permitted to desecrate Yom",
+   "linkedGemaraLineIds": [
+    "yoma-064a-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 64a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-064b-001",
+   "daf": "64b",
+   "perek": 6,
+   "vilnaLine": 1,
+   "he": "יתקיים תחתיו. אינו נותן תמורה אלא לזה שמת אבל לחי אינו",
+   "en": "'It shall stand in its place' - he designates a substitute only for the one that died, but for the surviving one",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l01b"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 64b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-064b-002",
+   "daf": "64b",
+   "perek": 6,
+   "vilnaLine": 2,
+   "he": "נותן תמורה להפסל הוא ולבא זה תחתיו: כדקאי קאי. בקדושתיה",
+   "en": "he does not designate a substitute to disqualify it and have this new one take its place. 'As it stands, so it stands' - meaning it remains in its own sanctity,",
+   "linkedGemaraLineIds": [
+    "yoma-064b-l01b"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 64b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma",
+    "long_explanation"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order; English translation is a long explanation (>=30 words)"
+  },
+  {
+   "id": "rashi-yoma-065a-001",
+   "daf": "65a",
+   "perek": 6,
+   "vilnaLine": 1,
+   "he": "אלא לרב. דאמר בשני שבזוג שני קתני מתני' דירעה ובראשון שנדחה",
+   "en": "'But according to Rav' - who says that the Mishnah teaches 'it shall graze' regarding the second of the second pair, and atonement is achieved through the first,",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l02"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 65a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-065a-002",
+   "daf": "65a",
+   "perek": 6,
+   "vilnaLine": 2,
+   "he": "יתכפר אמאי הא דיחיד תמות לא מיבעי לרבנן דלא מתה דהא",
+   "en": "the rejected one - why? If this were like an individual's counterpart dying, this is not even a question for the Rabbis, who hold it does not die, since",
+   "linkedGemaraLineIds": [
+    "yoma-065a-l02"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 65a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma",
+    "narrative_or_contextual_explanation"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order; long English with an explicit logical connector (narrative/contextual gloss, not a bare lemma quote)"
+  },
+  {
+   "id": "rashi-yoma-065b-001",
+   "daf": "65b",
+   "perek": 6,
+   "vilnaLine": 1,
+   "he": "קרבנות צבור. הבאין מתרומת הלשכה קאמרת: שאני קרבנות",
+   "en": "'Communal offerings' - you speak of those that come from the terumah of the treasury chamber. 'Communal offerings are different' -",
+   "linkedGemaraLineIds": [
+    "yoma-065b-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 65b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma",
+    "sacrificial_terminology"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order; Hebrew contains sacrificial-offering vocabulary"
+  },
+  {
+   "id": "rashi-yoma-065b-002",
+   "daf": "65b",
+   "perek": 6,
+   "vilnaLine": 2,
+   "he": "צבור. מראש חדש ניסן ואילך אין באין מן הישנה: כדרבי טבי.",
+   "en": "from the New Moon of Nisan onward, they do not come from the old funds. 'In accordance with Rabbi Tavi' -",
+   "linkedGemaraLineIds": [
+    "yoma-065b-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 65b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-066a-001",
+   "daf": "66a",
+   "perek": 6,
+   "vilnaLine": 1,
+   "he": "ואם נתעברה נתעברה למוכר. ולא תחלט עד שיגיע באותו יום",
+   "en": "'And if it was intercalated, it was intercalated for the seller' - meaning the house is not finalized in the buyer's possession until that same day",
+   "linkedGemaraLineIds": [
+    "yoma-066a-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 66a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-066a-002",
+   "daf": "66a",
+   "perek": 6,
+   "vilnaLine": 2,
+   "he": "באותו חדש שמכרה לו ולרבי משכחת לה כגון שהקדישו ביום שמיני",
+   "en": "of that same month arrives in which he sold it to him; and according to Rabbi, you can find this applying, for instance, where he consecrated the animal on the eighth day",
+   "linkedGemaraLineIds": [
+    "yoma-066a-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 66a classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma",
+    "long_explanation"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order; English translation is a long explanation (>=30 words)"
+  },
+  {
+   "id": "rashi-yoma-066b-001",
+   "daf": "66b",
+   "perek": 6,
+   "vilnaLine": 1,
+   "he": "גמ'  שיהא מזומן. מוכן לכך מאתמול: עתי אפילו בשבת. עתי",
+   "en": "'Gemara: that it be ready' - prepared for this from the day before. '\"Ready\" even on Shabbat' -",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 66b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-066b-002",
+   "daf": "66b",
+   "perek": 6,
+   "vilnaLine": 2,
+   "he": "בעתו ובמועדו ישתלח ולא יעבור ואפי' בשבת ובטומאה ולקמן",
+   "en": "'ready' teaches that in its proper time it shall be sent away without delay, even on Shabbat and in a state of impurity; and the Gemara",
+   "linkedGemaraLineIds": [
+    "yoma-066b-l01"
+   ],
+   "riskScore": 9,
+   "riskSignals": [
+    {
+     "tag": "INVENTED_TEXT",
+     "weight": 9,
+     "reason": "daf 66b classified 'needs reconstruction' by the VERSION 15.293 Wave 1 audit (en text confirmed generic filler or fabricated, unrelated to its own Hebrew line)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-reconstruction",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma",
+    "purity_terminology"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order; Hebrew contains purity/impurity vocabulary"
+  },
+  {
+   "id": "rashi-yoma-067a-007",
+   "daf": "67a",
+   "perek": 6,
+   "vilnaLine": 7,
+   "he": "מאחד מהן שיש בו ב' מילין היינו",
+   "en": "for one of them, which has two mil in it; this is",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ],
+   "riskScore": 12,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'is'"
+    },
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 67a classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-067a-012",
+   "daf": "67a",
+   "perek": 6,
+   "vilnaLine": 12,
+   "he": "והחשבון הזה אינו שוה לחשבון שיסד",
+   "en": "'And this calculation does not match the calculation that",
+   "linkedGemaraLineIds": [
+    "yoma-067a-l01"
+   ],
+   "riskScore": 12,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'that'"
+    },
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 67a classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-069a-005",
+   "daf": "69a",
+   "perek": 7,
+   "vilnaLine": 5,
+   "he": "הניחא. האי דלא חייש לכלאים למאן",
+   "en": "'This works well' - the reason he is not concerned about shatnez is according to the one who",
+   "linkedGemaraLineIds": [
+    "yoma-069a-l11"
+   ],
+   "riskScore": 12,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'who'"
+    },
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 69a classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-069a-006",
+   "daf": "69a",
+   "perek": 7,
+   "vilnaLine": 6,
+   "he": "דאמר אבנטו של כהן גדול ביום",
+   "en": "says that the High Priest's belt on the day of",
+   "linkedGemaraLineIds": [
+    "yoma-069a-l11"
+   ],
+   "riskScore": 12,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'of'"
+    },
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 69a classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma",
+    "terminology_variance_signal"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order; Hebrew contains a Step 3 registry term but English does not contain any of that term's acceptable renderings"
+  },
+  {
+   "id": "rashi-yoma-069b-004",
+   "daf": "69b",
+   "perek": 7,
+   "vilnaLine": 4,
+   "he": "כל חוץ לעזרה קרי גבולין: בייא בייא. לשון זעקה וקובלנא: האי דאחרביה לבית המקדש. מבקשין רחמים שימסר בידם יצר הרע של",
+   "en": "- everything outside the Azarah is called 'the border towns.' 'Woe, woe' - an expression of outcry and complaint. 'This one who destroyed the Temple' - they requested mercy that the evil inclination be delivered into their hands, the inclination for",
+   "linkedGemaraLineIds": [
+    "yoma-069b-l12",
+    "yoma-069b-l16"
+   ],
+   "riskScore": 12,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'for'"
+    },
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 69b classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma",
+    "long_explanation",
+    "priesthood_or_temple_terminology",
+    "multiple_linked_gemara_lines"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order; English translation is a long explanation (>=30 words); Hebrew contains priesthood or Temple vocabulary; linkedGemaraLineIds has more than one entry"
+  },
+  {
+   "id": "rashi-yoma-069b-008",
+   "daf": "69b",
+   "perek": 7,
+   "vilnaLine": 8,
+   "he": "עמכם: אמר להו נביא. זכריה בן",
+   "en": "with you. 'The prophet told them' - Zechariah son of",
+   "linkedGemaraLineIds": [
+    "yoma-069b-l20",
+    "yoma-069b-l21"
+   ],
+   "riskScore": 12,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'of'"
+    },
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 69b classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma",
+    "multiple_linked_gemara_lines"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order; linkedGemaraLineIds has more than one entry"
+  },
+  {
+   "id": "rashi-yoma-070b-001",
+   "daf": "70b",
+   "perek": 7,
+   "vilnaLine": 1,
+   "he": "ואחר כך אילו ואיל העם ואח\"כ אימורי חטאת. כל אלו בטבילה",
+   "en": "'And then his ram and the people's ram, and then the sin-offering's sacrificial parts' - all these are done at the",
+   "linkedGemaraLineIds": [
+    "yoma-070b-l01"
+   ],
+   "riskScore": 12,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'the'"
+    },
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 70b classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma",
+    "sacrificial_terminology"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order; Hebrew contains sacrificial-offering vocabulary"
+  },
+  {
+   "id": "rashi-yoma-070b-007",
+   "daf": "70b",
+   "perek": 7,
+   "vilnaLine": 7,
+   "he": "חטאת בתר עבודת היום והדר הוצאת",
+   "en": "sacrificial parts come after the day's service, and then the removal of",
+   "linkedGemaraLineIds": [
+    "yoma-070b-l04"
+   ],
+   "riskScore": 12,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'of'"
+    },
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 70b classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma",
+    "sacrificial_terminology",
+    "terminology_variance_signal"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order; Hebrew contains sacrificial-offering vocabulary; Hebrew contains a Step 3 registry term but English does not contain any of that term's acceptable renderings"
+  },
+  {
+   "id": "rashi-yoma-071a-011",
+   "daf": "71a",
+   "perek": 7,
+   "vilnaLine": 11,
+   "he": "ראשונה האמורה בפרשה הילכך על",
+   "en": "first mentioned in the passage; therefore, of",
+   "linkedGemaraLineIds": [
+    "yoma-071a-l07"
+   ],
+   "riskScore": 12,
+   "riskSignals": [
+    {
+     "tag": "TRUNCATED",
+     "weight": 4,
+     "reason": "ends abruptly with no closing punctuation, on the function word 'of'"
+    },
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 71a classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order"
+  },
+  {
+   "id": "rashi-yoma-071a-014",
+   "daf": "71a",
+   "perek": 7,
+   "vilnaLine": 14,
+   "he": "אשר לבש כבר. אלמא זו היא פשיטה",
+   "en": "'That he already wore' - this shows that this is the removal",
+   "linkedGemaraLineIds": [
+    "yoma-071a-l09"
+   ],
+   "riskScore": 10,
+   "riskSignals": [
+    {
+     "tag": "WRONG_REFERENT",
+     "weight": 2,
+     "reason": "pronoun-heavy (4/11 words) with no obvious local referent check performed - human review needed"
+    },
+    {
+     "tag": "CONTEXT_MISMATCH",
+     "weight": 8,
+     "reason": "daf 71a classified 'needs realignment' by the VERSION 15.293 Wave 1 audit (en systematically translates an adjacent line's Hebrew instead of its own)"
+    }
+   ],
+   "priorReviewDepth": "known-needs-realignment",
+   "selectionStratum": [
+    "high_risk",
+    "end_of_yoma"
+   ],
+   "selectionRationale": "riskScore >= 9 (Step 2 high-risk tier); daf in the final third of Yoma's daf order"
+  }
+ ]
+}
