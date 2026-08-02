@@ -1,7 +1,7 @@
 {
   "name": "mysugya",
   "private": true,
-  "version": "15.397",
+  "version": "15.398",
   "description": "My Sugya - universal Talmud study companion",
   "scripts": {
     "build": "node scripts/build.mjs",
@@ -62,6 +62,8 @@
     "check:rashi-docs:yoma": "cd modules/yoma && python3 scripts/generate_rashi_docs.py --check",
     "generate:rashi-docs:yoma": "cd modules/yoma && python3 scripts/generate_rashi_docs.py",
     "test:rashi-docs:yoma": "cd modules/yoma && python3 scripts/test_generate_rashi_docs.py",
+    "generate:rashi-translation-inventory:yoma": "cd modules/yoma && python3 scripts/generate_rashi_translation_inventory.py",
+    "check:rashi-translation-inventory:yoma": "cd modules/yoma && python3 scripts/generate_rashi_translation_inventory.py --check",
     "validate:sourcerefs:yoma": "cd modules/yoma && python3 scripts/validate_source_refs.py",
     "validate:sourcerefs:strict:yoma": "cd modules/yoma && python3 scripts/validate_source_refs.py --strict",
     "preview:sourcerefs:yoma": "cd modules/yoma && python3 scripts/preview_source_refs_migration.py",
