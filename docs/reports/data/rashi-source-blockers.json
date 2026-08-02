@@ -1,0 +1,44 @@
+{
+ "schemaVersion": 1,
+ "purpose": "Evidence record for Hebrew-source data defects found during the Rashi translation-quality campaign that are out of the campaign's own scope (Hebrew is immutable baseline) and require a separate, dedicated source-repair pass. This file records evidence only - it never proposes or contains a corrected Hebrew value beyond citing the same upstream source the corpus already relies on for verbatim text, and it makes no repair itself.",
+ "blockers": [
+  {
+   "entryId": "rashi-yoma-009b-001",
+   "daf": "9b",
+   "vilnaLine": 1,
+   "campaignDisposition": "BLOCKED",
+   "planningStatus": "SOURCE_REPAIR_REQUIRED",
+   "foundInStep": 4,
+   "foundInBatch": 1,
+   "exactCorruptedStoredValue": "span class=\"five\">ששהו את קיניהן. שהיו מביאות במלאות ימי לידתן ליטהר לאכול בקדשים והם היו בעלי גיאות והיו מתרשלין בהקרבתן והנשים",
+   "exactArtifact": "The literal text 'span class=\"five\">' is prefixed directly onto the real Hebrew, with no Hebrew, whitespace, or other separator before it. It is missing only its opening '<' character; the rest of the tag ('span class=\"five\">') is intact and otherwise well-formed.",
+   "sourceFile": "modules/yoma/assets/talmuddev/9b.json",
+   "sourceFieldPath": "rashi[0] (the first entry of the 'rashi' array, corresponding to vilnaLine 1)",
+   "generationPath": [
+    "scripts/fetch_talmuddev.py fetches https://www.talmud.dev/api/daf/Yoma/9b, reads the JSON response's rashi.hebrew field (a single string with \\r\\n-delimited print lines)",
+    "split_lines() splits on \\r\\n, then applies strip_html() (re.sub(r'<[^>]+>', '', s)) to each line and strips whitespace",
+    "strip_html()'s regex requires a literal '<' to match anything; a tag missing its opening '<' cannot match and passes through unchanged as literal text",
+    "the resulting 41-line list is written verbatim to modules/yoma/assets/talmuddev/9b.json's 'rashi' array - this file is the corpus's authoritative, frozen Hebrew source cache, never hand-edited",
+    "modules/yoma/scripts/build_learning_data.py's load_rashi_lines() reads modules/yoma/assets/talmuddev/<daf>.json's 'rashi' array directly as the 'he' field for every Rashi entry on that daf - byte-for-byte, no re-parsing, no further transformation",
+    "python3 scripts/build_learning_data.py writes this value into modules/yoma/learning_data.js as rashi-yoma-009b-001's he field, which is what the app renders and what this campaign's inventory/packet tooling reads"
+   ],
+   "upstreamVsIngestionDetermination": "CONFIRMED UPSTREAM, not an ingestion-script bug. A fresh, read-only fetch of the live talmud.dev API (https://www.talmud.dev/api/daf/Yoma/9b, performed during Step 5 evidence-gathering, no file written) shows the identical defect present in talmud.dev's own current data: the very first \\r\\n-delimited line of the rashi.hebrew field is 'span class=\"five\">ששהו את קיניהן. </span>שהיו מביאות...' - missing the same opening '<' in the exact same place. Every OTHER <span class=\"...\"> tag in the same API response for the same daf (e.g. the very next line: '<span class=\"five\">מהשתרע. </span>...') is well-formed and was correctly stripped by the ingestion script, confirming strip_html() works correctly in general and this is not a systemic ingestion defect - it is a single missing character in talmud.dev's own upstream markup, specific to this one line.",
+   "authoritativeUpstreamEvidenceForIntendedHebrew": "The same live talmud.dev fetch that confirms the corruption also supplies the correction target: talmud.dev's own raw line reads 'span class=\"five\">ששהו את קיניהן. </span>שהיו מביאות...' - i.e. exactly the corrupted stored value plus a correctly-formed closing '</span>' tag (which strip_html() DID successfully remove during ingestion, since it has both '<' and '>'). Stripping the leading artifact the same way strip_html() strips every other tag in this file yields: 'ששהו את קיניהן. שהיו מביאות במלאות ימי לידתן ליטהר לאכול בקדשים והם היו בעלי גיאות והיו מתרשלין בהקרבתן והנשים' - not an invented correction, but the direct, mechanical application of the ingestion script's own already-proven rule (used successfully on the other 40 lines in this same file) to the one line where a missing upstream '<' defeated it.",
+   "minimumSafeCorrection": "In modules/yoma/assets/talmuddev/9b.json, replace rashi[0]'s value by removing the literal leading substring 'span class=\"five\">' (19 characters), leaving 'ששהו את קיניהן. שהיו מביאות במלאות ימי לידתן ליטהר לאכול בקדשים והם היו בעלי גיאות והיו מתרשלין בהקרבתן והנשים'. No other character changes. This is the smallest possible correction and matches exactly what the existing, unmodified ingestion pipeline would have produced had talmud.dev's upstream data included the missing '<'.",
+   "affectedGeneratedFiles": [
+    "modules/yoma/learning_data.js (rashi-yoma-009b-001's he field - regenerate via python3 scripts/build_learning_data.py)",
+    "docs/reports/data/rashi-translation-quality-inventory.json (this entry's he field, regenerate via python3 modules/yoma/scripts/generate_rashi_translation_inventory.py once learning_data.js is fresh)"
+   ],
+   "requiredValidation": [
+    "npm run validate:offline:yoma (in particular validate_rashi.py's he/talmud.dev order-and-count check, and check_generated_freshness.py)",
+    "npm run check:rashi-translation-inventory:yoma",
+    "python3 modules/yoma/scripts/audit_rashi_association.py --exhaustive-corpus (confirm 8,854 entries, 0 broken, 0 cross-daf unaffected)",
+    "python3 modules/yoma/scripts/validate_rashi_boundary_authorizations.py (confirm 20/20 unaffected)",
+    "npm test, npm run test:browser, npm run build, npm run check:deploy-html",
+    "a fresh corpus-wide scan (as done in Step 4 batch 1) confirming no other 'span class' or raw '<'/'>' artifact exists, to prove this was the only instance and the fix did not introduce a new one"
+   ],
+   "whyRepairMustBeASeparatePR": "This fix touches modules/yoma/assets/talmuddev/9b.json, a raw Hebrew-source cache file that is immutable baseline for the entire translation-quality campaign (CLAUDE.md: 'Yoma corpus is frozen. Do not modify any files under modules/yoma/ without explicit approval'; the campaign's own governing directive lists Hebrew text as immutable and 'Gemara or Mishnah content would need changing' as an explicit stop condition). No task type used by this campaign (docs-tooling, rashi-translation-review) authorizes touching assets/talmuddev/*. It is also a categorically different kind of change - a source-data correction, not an English-translation edit - and the campaign's own standing rule is never to mix content categories in one PR. It requires its own explicit authorization and its own narrowly-scoped PR, following whatever review process governs Hebrew-source corrections generally (outside this campaign's task-type registry).",
+   "futureBatchContainingThisEntry": "None of the 41 Step 6 batches contain this entry, because its Step 4 reviewStatus is already REVIEWED (disposition BLOCKED), and Step 6 batches are built exclusively from the 8,654 UNREVIEWED entries - reassigning any REVIEWED (pilot) entry into a batch is a validator-enforced invariant violation. Recommendation for after the source-repair PR lands: reset this one entry's reviewStatus from REVIEWED back to UNREVIEWED in the inventory (a narrow, explicitly-documented, single-entry exception - its prior BLOCKED disposition was a structural stop on the Hebrew, never a real semantic verdict on the English translation), and fold it into a small dedicated single-entry follow-up review (or the next convenient batch covering daf 9-10, if one is still open) rather than treating BLOCKED as a permanent final state. This exact recommendation, not an automatic reassignment, is what this record establishes - no reviewStatus change happens in Step 5."
+  }
+ ]
+}
