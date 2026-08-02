@@ -128644,7 +128644,7 @@
    "daf": "56b",
    "vilnaLine": 1,
    "he": "לכשיבקע. נחוש לו כלומר לא חיישינן לשמא יבקע דאפשר דמסר",
-   "en": "'When it bursts' - we take precaution for it, meaning we are not concerned that it might burst, since it is possible",
+   "en": "'When it bursts' - are we concerned about it? Meaning, we are not concerned that it might burst, since it is possible",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -128660,10 +128660,12 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
-   "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "SUBSTANTIVE_REPAIR",
+   "defectTags": [
+    "WRONG_LOGIC"
+   ],
+   "reviewerEvidence": "HE 'לכשיבקע. נחוש לו כלומר לא חיישינן לשמא יבקע' - old EN renders 'נחוש לו' as an assertion ('we take precaution for it') immediately followed by its own explanation flatly contradicting it ('meaning we are not concerned that it might burst'). 'נחוש לו' here functions as the Gemara's rhetorical question form ('should we be concerned about it?'), answered by the following clause - not a standalone assertion. Confirmed by the full sentence spanning into the next entry (rashi-yoma-056b-002, unchanged): '...since it is possible to hand it over to a guardian,' which only makes sense as the reason we are NOT concerned, consistent with a question-then-answer reading, not a bare assertion of concern.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -128689,10 +128691,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, and now reads coherently as the completion of the corrected 056b-001.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -129795,10 +129797,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly (impurity/Divine-Presence passage).",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -129823,10 +129825,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly (hekesh/analogy meta-principle).",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -131421,10 +131423,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly (bull/goat blood-cup mix-up).",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -131449,10 +131451,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, faithful continuation.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -133121,10 +133123,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly ('קמבעיא ליה' correctly rendered as an open question, distinct from the 'מבעיא ליה לגופיה' idiom found in batch 3).",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -133149,10 +133151,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, faithful continuation.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -134378,10 +134380,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, long multi-clause Mishnah/Gemara gloss correctly preserved.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -134406,10 +134408,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, long complex sentence faithfully rendered.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -136146,10 +136148,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, faithful continuation.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -136174,10 +136176,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, faithful continuation.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -138092,7 +138094,7 @@
    "daf": "59b",
    "vilnaLine": 1,
    "he": "אלא מדרבנן. מאן דאמר מועלין",
-   "en": "'But only by rabbinic law' - the one who says one may be liable for misuse of sacred property means only by rabbinic law, to pay",
+   "en": "'But only by rabbinic law' - the one who says one may be liable for misuse of sacred property",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -138113,10 +138115,13 @@
     }
    ],
    "riskScore": 13,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
-   "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "SUBSTANTIVE_REPAIR",
+   "defectTags": [
+    "SHIFTED",
+    "OVEREXPLAINED"
+   ],
+   "reviewerEvidence": "This entry's own HE ('אלא מדרבנן. מאן דאמר מועלין') ends mid-clause with no predicate for 'the one who says one is liable for misuse.' Old EN supplies a full predicate ('means only by rabbinic law, to pay') that duplicates this entry's own opening ('only by rabbinic law') and additionally imports 'to pay', which belongs to the next entry's own Hebrew ('לשלם' in rashi-yoma-059b-002, also in this cohort). Fixed to end where this entry's own Hebrew ends.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -138125,7 +138130,7 @@
    "daf": "59b",
    "vilnaLine": 2,
    "he": "מדרבנן קאמר לשלם קרן אבל",
-   "en": "the principal, but not to add the additional fifth",
+   "en": "says it is only rabbinic, to pay the principal, but not to add the additional fifth",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -138141,10 +138146,12 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
-   "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "MINOR_EDIT",
+   "defectTags": [
+    "OMITTED_TEXT"
+   ],
+   "reviewerEvidence": "This entry's own HE begins 'מדרבנן קאמר' ('he states/it is said [that it is] only rabbinic') - the predicate that rashi-yoma-059b-001's dangling clause needs - but old EN skips straight to 'the principal', omitting 'קאמר' (states) entirely; that content had been front-loaded into the previous entry instead. Restored here since 059b-001 no longer needs it.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -138517,10 +138524,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly (four white linen garments).",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -138546,10 +138553,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly including the Leviticus 16 citation.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -139988,10 +139995,10 @@
     }
    ],
    "riskScore": 13,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly (Rabbi Yehuda's indispensable-decree view).",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -140021,10 +140028,10 @@
     }
    ],
    "riskScore": 13,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, faithful continuation.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -142645,10 +142652,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly (metzora guilt-offering not-for-its-own-sake case).",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -142673,10 +142680,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly including the Zevachim 2a citation.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -144557,10 +144564,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly (Rava/Rav Nachman exchange).",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -144585,10 +144592,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, faithful continuation.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -145814,10 +145821,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly (indispensability derivation).",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -145842,10 +145849,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, faithful continuation.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -147694,10 +147701,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, transliterated 'hoil' principle term used consistently.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -147722,10 +147729,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, faithful continuation.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -149446,10 +149453,10 @@
     }
    ],
    "riskScore": 12,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly despite the CONTEXT_MISMATCH signal; another false positive for the daf-level 'needs realignment' flag on this specific entry.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -149479,10 +149486,10 @@
     }
    ],
    "riskScore": 12,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, correctly resolving the אינו...אלא exclusive construction; another false positive for the daf-level flag.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -150997,10 +151004,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly (mechusar-zman exclusion for the scapegoat).",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -151025,10 +151032,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, faithful continuation.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -152087,10 +152094,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly (substitute-animal designation rule).",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -152115,10 +152122,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, faithful continuation.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -153326,7 +153333,7 @@
    "daf": "65a",
    "vilnaLine": 1,
    "he": "אלא לרב. דאמר בשני שבזוג שני קתני מתני' דירעה ובראשון שנדחה",
-   "en": "'But according to Rav' - who says that the Mishnah teaches 'it shall graze' regarding the second of the second pair, and atonement is achieved through the first,",
+   "en": "'But according to Rav' - who says that the Mishnah teaches 'it shall graze' regarding the second of the second pair, and the first that was rejected",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -153342,10 +153349,12 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
-   "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "SUBSTANTIVE_REPAIR",
+   "defectTags": [
+    "SHIFTED"
+   ],
+   "reviewerEvidence": "This entry's own HE ends 'ובראשון שנדחה' ('and the first that was rejected/deferred') - a noun phrase, not a resolved clause. Old EN adds 'and atonement is achieved through the first', anticipating the next entry's own word 'יתכפר' (atonement) - see rashi-yoma-065a-002.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -153354,7 +153363,7 @@
    "daf": "65a",
    "vilnaLine": 2,
    "he": "יתכפר אמאי הא דיחיד תמות לא מיבעי לרבנן דלא מתה דהא",
-   "en": "the rejected one - why? If this were like an individual's counterpart dying, this is not even a question for the Rabbis, who hold it does not die, since",
+   "en": "'It is atoned' - why? If this were like an individual's counterpart dying, this is not even a question for the Rabbis, who hold it does not die, since",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -153370,10 +153379,13 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
-   "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "SUBSTANTIVE_REPAIR",
+   "defectTags": [
+    "WRONG_MEANING",
+    "SHIFTED"
+   ],
+   "reviewerEvidence": "This entry's own HE begins 'יתכפר אמאי' ('is atonement achieved? why?') - unambiguously about atonement (root כפר), not about anything being rejected. Old EN opens 'the rejected one - why?', substituting in the word that belongs to the PRECEDING entry's own Hebrew ('שנדחה', rejected - see rashi-yoma-065a-001) instead of translating this entry's own 'יתכפר'. This is a moderately complex halakhic passage (the scapegoat-pair substitution rules); the fix stays close to the literal Hebrew rather than resolving the deeper legal argument, to avoid overreach.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -155424,10 +155436,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly (terumat halishka communal-offering source).",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -155452,10 +155464,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "This entry's HE opens with 'צבור' (communal), which the preceding entry's own translation (rashi-yoma-065b-001, unchanged: '\"Communal offerings are different\"') already fully and correctly incorporated as the natural completion of its own quoted phrase. Unlike the other cross-entry cases in this campaign, nothing is lost or falsified here - the word is quoted once, at its sensible place, and this entry correctly moves on to its own remaining content. Not a defect.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -156535,10 +156547,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly (intercalation/house-sale timing).",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -156563,10 +156575,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, faithful continuation.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -158083,10 +158095,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly (scapegoat readiness requirement).",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -158111,10 +158123,10 @@
     }
    ],
    "riskScore": 9,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, faithful continuation.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -160159,10 +160171,10 @@
     }
    ],
    "riskScore": 12,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, transliterated 'mil' distance unit used correctly.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -160304,10 +160316,10 @@
     }
    ],
    "riskScore": 12,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, faithful continuation.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -166305,10 +166317,10 @@
     }
    ],
    "riskScore": 12,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly ('shatnez' correctly used for כלאים per established terminology).",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -166338,10 +166350,10 @@
     }
    ],
    "riskScore": 12,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, faithful continuation.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -167033,10 +167045,10 @@
     }
    ],
    "riskScore": 12,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, multi-clause entry including the Aramaic lament 'בייא בייא' with its gloss faithfully preserved.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -167153,10 +167165,10 @@
     }
    ],
    "riskScore": 12,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly (Zechariah citation).",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -169927,10 +169939,10 @@
     }
    ],
    "riskScore": 12,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly (Yom Kippur offering-order sequence).",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -170101,10 +170113,10 @@
     }
    ],
    "riskScore": 12,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, faithful continuation.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -171652,10 +171664,10 @@
     }
    ],
    "riskScore": 12,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly, faithful continuation.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
@@ -171741,10 +171753,10 @@
     }
    ],
    "riskScore": 10,
-   "reviewStatus": "UNREVIEWED",
-   "primaryDisposition": null,
+   "reviewStatus": "REVIEWED",
+   "primaryDisposition": "VERIFIED",
    "defectTags": [],
-   "reviewerEvidence": null,
+   "reviewerEvidence": "HE matches EN exactly including the Leviticus 16:23 verse citation.",
    "repairPR": null,
    "finalVerificationSHA": null
   },
