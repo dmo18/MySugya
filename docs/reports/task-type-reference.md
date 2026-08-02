@@ -332,6 +332,26 @@ Structural repair of a daf's rashiTranslations layer: baselined entry-count mism
   - CI or full verification fails after one bounded correction attempt
   - fields outside the manifest would be needed
 
+## rashi-translation-review
+
+Rashi translation-quality campaign (Step 4+): apply English-only repairs to Rashi entries that received real Hebrew-to-Gemara-context semantic review against the campaign's frozen pilot cohort, and record that review's disposition/evidence in the campaign inventory. Distinct from rashi-repair (which repairs documented stub/filler defects via pattern matching, mechanicalTier true): this type's changes come from genuine semantic judgment, never automated pattern detection, and its scope additionally covers the campaign's own inventory and batch-report audit trail so a single PR can carry both a translation fix and the record of why it was made, per the campaign's PR structure.
+
+- model: sonnet
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: no
+- max batch: 1
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/reports/data/rashi-translation-quality-inventory.json, docs/reports/rashi-pilot-*.md, .worker-manifest.json
+- mutable JSON paths: rashiTranslations[*].en
+- allowlist policy: not-applicable; structure policy: forbidden
+- required validators: validate:offline:yoma, check:rashi-pr-scope:yoma
+- stop conditions:
+  - Hebrew source appears defective
+  - an entry boundary or linkedGemaraLineIds association appears wrong
+  - the correct translation cannot be resolved responsibly (record BLOCKED instead of guessing)
+  - a proposed change fails its own second semantic pass
+  - any gate failure not fixable by correcting the entry's own English
+
 ## structural-repair
 
 Structural repairs: argumentFlow steps/ids/labels/sourceRefs, lineRange, lines, sefariaRefs, conceptRefs, ids, sugya add/remove. Always requires --authorize allowStructure; Sonnet only.
