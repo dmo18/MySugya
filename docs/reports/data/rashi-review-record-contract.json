@@ -1,0 +1,115 @@
+{
+ "schemaVersion": 1,
+ "purpose": "Defines the shape of one Step 6 review record: one entry's semantic review within one batch review PR. This is the contract enforced by modules/yoma/scripts/validate_rashi_review_records.py. It is a description document (like rashi-terminology-registry.json), not executable JSON Schema - the validator implements every rule listed here directly, and generated docs/reports/task-type-reference.md-style tooling references this file, not a JSON Schema library.",
+ "recordShape": {
+  "batchId": {
+   "type": "string",
+   "required": true,
+   "rule": "must be a batchId present in docs/reports/data/rashi-full-corpus-review-batches.json"
+  },
+  "entryId": {
+   "type": "string",
+   "required": true,
+   "rule": "must exist in docs/reports/data/rashi-translation-quality-inventory.json, and must be listed in batchId's own entryIds array in the batch plan - a record for an entry outside its declared batch is rejected"
+  },
+  "daf": {
+   "type": "string",
+   "required": true,
+   "rule": "must equal the entry's own daf in the live inventory (cross-check, not a free-text field)"
+  },
+  "hebrew": {
+   "type": "string",
+   "required": true,
+   "immutable": true,
+   "rule": "must equal the entry's current he field in the live inventory byte-for-byte - this field exists for reviewer display only and can never differ from the corpus; any difference is rejected as an attempted immutable-field change"
+  },
+  "originalEnglish": {
+   "type": "string",
+   "required": true,
+   "immutable": true,
+   "rule": "must equal the entry's en field as it stood in the inventory at the start of this batch (before any Step 6 edit) - never edited by the reviewer"
+  },
+  "proposedEnglish": {
+   "type": "string | null",
+   "required": false,
+   "rule": "required (non-null) when finalDisposition is MINOR_EDIT, SUBSTANTIVE_REPAIR, RETRANSLATE, or DUPLICATION_OR_CONTAMINATION; must be null when finalDisposition is VERIFIED or BLOCKED; when present, must differ from originalEnglish (a 'change' that reproduces the original text is not a change)"
+  },
+  "firstPassDisposition": {
+   "type": "enum",
+   "required": true,
+   "values": ["VERIFIED", "MINOR_EDIT", "SUBSTANTIVE_REPAIR", "RETRANSLATE", "DUPLICATION_OR_CONTAMINATION", "BLOCKED"],
+   "rule": "the reviewer's initial judgment, recorded before any second pass or blind QA"
+  },
+  "defectTags": {
+   "type": "array<enum>",
+   "required": true,
+   "rule": "must be [] when firstPassDisposition is VERIFIED; every element must be from the campaign's fixed vocabulary: WRONG_MEANING, OMITTED_TEXT, INVENTED_TEXT, WRONG_REFERENT, WRONG_LOGIC, WRONG_TECHNICAL_TERM, HEBREW_LEFT_UNTRANSLATED, ARAMAIC_LEFT_UNTRANSLATED, GRAMMAR, FRAGMENT, OVERLITERAL, OVEREXPLAINED, DUPLICATED, SHIFTED, TRUNCATED, CONTEXT_MISMATCH, TERMINOLOGY_DRIFT, PUNCTUATION, STYLE_ONLY, NEEDS_EXPERT_REVIEW - no new tag may be invented"
+  },
+  "firstPassEvidence": {
+   "type": "string | null",
+   "required": false,
+   "rule": "required (non-empty) whenever firstPassDisposition is not VERIFIED; must cite specific Hebrew wording or context, not a generic statement"
+  },
+  "secondPass": {
+   "type": "object",
+   "required": true,
+   "shape": {
+    "required": {"type": "boolean", "rule": "true iff firstPassDisposition is MINOR_EDIT, SUBSTANTIVE_REPAIR, RETRANSLATE, DUPLICATION_OR_CONTAMINATION, or BLOCKED"},
+    "status": {"type": "enum | null", "values": ["CONFIRMED", "MODIFIED", "REJECTED", "REMAINED_BLOCKED", null], "rule": "null only when required is false; otherwise must be set"},
+    "evidence": {"type": "string | null", "rule": "required (non-empty) whenever status is not null"},
+    "finalEnglish": {"type": "string | null", "rule": "the second pass's own independently re-derived English when status is CONFIRMED or MODIFIED; must be present whenever the record's finalDisposition implies a change"}
+   }
+  },
+  "blindQA": {
+   "type": "object",
+   "required": true,
+   "shape": {
+    "selected": {"type": "boolean", "rule": "true iff this record was chosen for the batch's blind-QA sample (only possible when firstPassDisposition is VERIFIED)"},
+    "result": {"type": "enum | null", "values": ["CONFIRMED_VERIFIED", "ESCALATED", null], "rule": "null unless selected is true"},
+    "evidence": {"type": "string | null", "rule": "required (non-empty) whenever result is not null"}
+   }
+  },
+  "finalDisposition": {
+   "type": "enum",
+   "required": true,
+   "values": ["VERIFIED", "MINOR_EDIT", "SUBSTANTIVE_REPAIR", "RETRANSLATE", "DUPLICATION_OR_CONTAMINATION", "BLOCKED"],
+   "rule": "the disposition actually applied to the inventory; for a changed or BLOCKED firstPassDisposition this must match secondPass.status's outcome (CONFIRMED/MODIFIED keep the same disposition family, REJECTED reverts finalDisposition to VERIFIED with an explanatory secondPass.evidence, REMAINED_BLOCKED keeps BLOCKED); for a blind-QA-selected VERIFIED entry with result ESCALATED, finalDisposition must differ from VERIFIED and the record must carry a populated secondPass block even though firstPassDisposition was VERIFIED"
+  },
+  "structuralStop": {
+   "type": "string | null",
+   "required": false,
+   "rule": "required (non-empty, specific evidence gap - not a generic 'unclear') whenever finalDisposition is BLOCKED; must be null otherwise"
+  },
+  "repairPR": {
+   "type": "integer | null",
+   "required": false,
+   "rule": "null until the batch PR number is known; then set to that PR's number for every changed or BLOCKED record in the batch"
+  },
+  "finalVerificationSHA": {
+   "type": "string | null",
+   "required": false,
+   "rule": "null until the batch PR's final pre-merge validated commit SHA is known; then set for every changed or BLOCKED record in the batch"
+  }
+ },
+ "batchReportTotals": {
+  "purpose": "Every batch report must include a totals block that is independently checked against the actual record contents by the validator (validate_rashi_review_records.py --report <path>), not merely asserted in prose.",
+  "requiredFields": [
+   "batchId", "reviewedCount", "dispositionCounts", "changedCount",
+   "secondPassCounts", "blindQASampleSize", "blindQAEscalationCount"
+  ]
+ },
+ "rejectionRules": {
+  "purpose": "Exact conditions modules/yoma/scripts/validate_rashi_review_records.py must reject, per the Step 5 governing directive.",
+  "rules": [
+   "unknown entry: entryId not present in the live translation-quality inventory",
+   "outside batch: entryId not listed in batchId's own entryIds in the batch plan",
+   "missing disposition: firstPassDisposition or finalDisposition absent or not one of the six fixed values",
+   "changed English without second-pass confirmation: proposedEnglish (or secondPass.finalEnglish) differs from originalEnglish but secondPass.status is not CONFIRMED or MODIFIED",
+   "BLOCKED without a specific evidence gap: finalDisposition is BLOCKED but structuralStop is null, empty, or a generic placeholder",
+   "immutable-field change: hebrew or originalEnglish in the record differs from the live inventory/corpus value for that entryId",
+   "edit outside the selected batch: any entryId appearing in a record but not present in the exact batch named by batchId",
+   "unsupported final status: finalDisposition outside the six fixed values, or defectTags containing a value outside the fixed vocabulary",
+   "totals mismatch: a batch report's asserted totals do not match a fresh count of the records themselves"
+  ]
+ }
+}

@@ -1,8 +1,21 @@
 # Yoma Rashi translation-quality campaign: Step 1 state reconstruction
 
-**Status: campaign in progress, Step 1 of 10 (read-only state
-reconstruction).** This is a Yoma content-quality campaign, not a phase
-of `docs/platform-closure-plan.md`. It does not reopen platform
+**Campaign status (updated at Step 5): Steps 1-5 of 10 complete. Step 6
+(full-corpus batch review) has not started.** This document is the
+original Step 1 read-only state-reconstruction report and its findings
+below are unchanged since Step 1 - see the other campaign documents for
+what happened next: `docs/reports/rashi-translation-risk-audit.md` (Step
+2, risk-triage tooling), `docs/reports/rashi-translation-style-guide.md`
+(Step 3, style guide and terminology registry),
+`docs/reports/rashi-pilot-step4-final-report.md` (Step 4, 200-entry pilot
+review and the HYBRID REVIEW methodology recommendation),
+`docs/reports/rashi-full-corpus-review-strategy.md` (Step 5, the
+formalized, tooled, executable full-corpus batching strategy Step 6 will
+execute - **the current, approved plan for how the remaining 8,654
+entries will be reviewed**).
+
+This is a Yoma content-quality campaign, not a phase of
+`docs/platform-closure-plan.md`. It does not reopen platform
 architecture, does not touch Gemara/Mishnah source text, Rashi entry
 ids, daf assignment, `linkedGemaraLineIds`, sourceRefs, argumentFlow,
 the renderer, or any module/worker/deployment contract. Full
@@ -203,5 +216,7 @@ Step 6.
 
 ## Next steps
 
-Step 2 (risk-triage audit tooling, its own PR, no translation edits) is
-next.
+*(as of Step 1)* Step 2 (risk-triage audit tooling, its own PR, no
+translation edits) is next. *(current, Step 5)* Steps 2-5 are complete;
+Step 6 (full-corpus batch review, per
+`docs/reports/rashi-full-corpus-review-strategy.md`) is next.
