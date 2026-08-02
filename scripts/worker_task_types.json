@@ -1,6 +1,61 @@
 {
  "_comment": "Registry of bounded worker task types for the MySugya worker pipeline (scripts/worker_pipeline.py). Each type declares its scope contract; manifests are generated from these definitions and enforced by the scope validator and CI. Sonnet is the only execution and escalation model: every type carries model 'sonnet' and escalationModel 'sonnet'. Capability tiers are expressed by mechanicalTier (contract is fully pattern-checkable) and independentReviewRequired (a second, independent Sonnet review must approve the PR before merge), never by model name. lifecycle declares how a pass ends: 'pr' types produce a tracked change and therefore take a VERSION bump plus one PR; 'read-only' types must leave the tracked tree byte-identical and never bump VERSION or open a PR. Editing this file is a pipeline change: Sonnet only, docs-tooling PR.",
  "taskTypes": {
+  "rashi-translation-review": {
+   "description": "Rashi translation-quality campaign (Step 4+): apply English-only repairs to Rashi entries that received real Hebrew-to-Gemara-context semantic review against the campaign's frozen pilot cohort, and record that review's disposition/evidence in the campaign inventory. Distinct from rashi-repair (which repairs documented stub/filler defects via pattern matching, mechanicalTier true): this type's changes come from genuine semantic judgment, never automated pattern detection, and its scope additionally covers the campaign's own inventory and batch-report audit trail so a single PR can carry both a translation fix and the record of why it was made, per the campaign's PR structure.",
+   "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "pr",
+   "requiresTarget": true,
+   "paused": false,
+   "allowedFiles": [
+    "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+    "modules/<module>/learning_data.js",
+    "modules/<module>/coverage.json",
+    "VERSION",
+    "package.json",
+    "package-lock.json",
+    "docs/rashi-audit-backlog.md",
+    "docs/reports/data/rashi-translation-quality-inventory.json",
+    "docs/reports/rashi-pilot-*.md",
+    ".worker-manifest.json"
+   ],
+   "allowedJsonPaths": [
+    "rashiTranslations[*].en"
+   ],
+   "forbiddenFiles": [
+    ".github/workflows/*",
+    "scripts/*",
+    "modules/yoma/scripts/*.py",
+    "githooks/*"
+   ],
+   "allowlistPolicy": "not-applicable",
+   "structurePolicy": "forbidden",
+   "mechanicalTier": false,
+   "requiredValidators": [
+    "validate:offline:yoma",
+    "check:rashi-pr-scope:yoma"
+   ],
+   "generationCommands": [
+    "cd modules/yoma && python3 scripts/build_learning_data.py",
+    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+   ],
+   "buildTestCommands": [
+    "npm run build",
+    "npm run check:deploy-html",
+    "npm test",
+    "npm run test:browser"
+   ],
+   "escalationTriggers": [
+    "Hebrew source appears defective",
+    "an entry boundary or linkedGemaraLineIds association appears wrong",
+    "the correct translation cannot be resolved responsibly (record BLOCKED instead of guessing)",
+    "a proposed change fails its own second semantic pass",
+    "any gate failure not fixable by correcting the entry's own English"
+   ],
+   "independentReviewRequired": false,
+   "driftBlocked": false
+  },
   "rashi-repair": {
    "description": "Repair documented Rashi helper defects (stubs, filler, placeholder lines) on daf with existing allowlist/baseline hits.",
    "model": "sonnet",

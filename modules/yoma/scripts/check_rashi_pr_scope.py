@@ -8,9 +8,12 @@ enforces the bounded-content-PR contract:
 
   1. File set: a content PR may only change learning JSONs, the generated
      learning_data.js and coverage.json, VERSION, package.json,
-     package-lock.json, docs/rashi-audit-backlog.md, and files under
-     modules/yoma/scripts/allowlists/. It may never touch
-     .github/workflows/.
+     package-lock.json, docs/rashi-audit-backlog.md, files under
+     modules/yoma/scripts/allowlists/, the Rashi translation-quality
+     campaign's inventory (docs/reports/data/rashi-translation-quality-
+     inventory.json) and its batch/reconciliation reports
+     (docs/reports/rashi-pilot-*.md - the audit trail for the campaign's
+     own content changes). It may never touch .github/workflows/.
   2. Within each changed learning JSON, only rashiTranslations[*].en and
      rashiTranslations[*].linkedGemaraLineIds may differ from base. The
      entry count, vilnaLine sequence, every other rashiTranslations key,
@@ -47,9 +50,21 @@ LITERAL_PREFIX = "modules/yoma/assets/literal_en/"
 GENERATED = {"modules/yoma/learning_data.js", "modules/yoma/coverage.json"}
 ALLOWLIST_PREFIX = "modules/yoma/scripts/allowlists/"
 SCAFFOLD_BASELINE_FILE = "modules/yoma/scripts/baselines/rashi_scaffold_debt.json"
+# The Rashi translation-quality campaign's per-entry review provenance
+# (docs/reports/data/rashi-translation-quality-inventory.json) and its
+# batch/reconciliation reports (docs/reports/rashi-pilot-*.md) are the audit
+# trail for exactly the content changes this gate polices - the same reason
+# docs/rashi-audit-backlog.md is already always-allowed below. Letting a
+# content PR carry them alongside its learning JSON changes is required by
+# the campaign's own PR structure (each batch PR must update both the
+# translation and its inventory/evidence together); it does not relax any
+# rule this gate enforces on the learning JSON itself.
+RASHI_CAMPAIGN_DOC_PREFIX = "docs/reports/rashi-pilot-"
+RASHI_CAMPAIGN_INVENTORY = "docs/reports/data/rashi-translation-quality-inventory.json"
 ALWAYS_ALLOWED = {"VERSION", "package.json", "package-lock.json",
                   "docs/rashi-audit-backlog.md", ".worker-manifest.json",
-                  ".worker-self-review.json", ".worker-queue.json"}
+                  ".worker-self-review.json", ".worker-queue.json",
+                  RASHI_CAMPAIGN_INVENTORY}
 FORBIDDEN_PREFIXES = (".github/workflows/",)
 
 MUTABLE_KEYS = {"en", "linkedGemaraLineIds"}
@@ -191,6 +206,7 @@ def main():
             or p.startswith(ALLOWLIST_PREFIX)
             or p == SCAFFOLD_BASELINE_FILE
             or p in ALWAYS_ALLOWED
+            or p.startswith(RASHI_CAMPAIGN_DOC_PREFIX)
         )
         if not allowed and not any(p.startswith(fp) for fp in FORBIDDEN_PREFIXES):
             errors.append(f"file-set: {p} is outside the allowed content-PR file set")
