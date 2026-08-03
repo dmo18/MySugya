@@ -36,8 +36,8 @@ inventory review-metadata.
 
 | Child | Daf | Entries | Changed | PR | Merge SHA | Status |
 |---|---|---|---|---|---|---|
-| 1 | 85b | 58 | 17 | (this PR) | (pending) | applying |
-| 2 | 86a | 68 | 30 | (pending) | (pending) | not started |
+| 1 | 85b | 58 | 17 | #407 | `ad5a66939cd78a649679601049fab9838969be99` | merged |
+| 2 | 86a | 68 | 30 | (this PR) | (pending) | applying |
 | 3 | 86b | 57 | 27 | (pending) | (pending) | not started |
 | 4 | 87a | 70 | 35 | (pending) | (pending) | not started |
 
@@ -171,11 +171,20 @@ entry/association/boundary-registry counts, full validation suite,
 exhaustive browser-shard result) are recorded once after child 4 (87a)
 merges, since only that state is the true post-batch snapshot.
 
-### Child 1 (85b) - 17 changed, 58 reviewed
+### Child 1 (85b) - 17 changed, 58 reviewed (merged as #407)
 
 - Rashi entry count: 8,854 (unchanged) - Associations: 10,061 declared, 0
   broken, 0 cross-daf (unchanged) - Boundary registry: 20/20 (unchanged)
 - Hebrew text: byte-unchanged across all 58 entries on this daf
+- `npm run validate:offline:yoma`, `npm test`, `npm run test:browser`,
+  `npm run build`, `npm run check:deploy-html`, `python3
+  scripts/worker_pipeline.py verify --full`: all green
+
+### Child 2 (86a) - 30 changed, 68 reviewed
+
+- Rashi entry count: 8,854 (unchanged) - Associations: 10,061 declared, 0
+  broken, 0 cross-daf (unchanged) - Boundary registry: 20/20 (unchanged)
+- Hebrew text: byte-unchanged across all 68 entries on this daf
 - `npm run validate:offline:yoma`, `npm test`, `npm run test:browser`,
   `npm run build`, `npm run check:deploy-html`, `python3
   scripts/worker_pipeline.py verify --full`: all green
