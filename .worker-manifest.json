@@ -13,12 +13,10 @@
  "paused": false,
  "lifecycle": "pr",
  "mechanicalTier": false,
- "independentReviewRequired": true,
- "reviewPolicy": "independent",
+ "independentReviewRequired": false,
+ "reviewPolicy": "none",
  "escalationModel": "sonnet",
- "authorizations": [
-  "sourceRepairEvidence"
- ],
+ "authorizations": [],
  "maxBatch": null,
  "allowedFiles": [
   "modules/<module>/assets/learning/<module>/<daf>.learning.json",
