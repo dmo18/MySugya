@@ -2,7 +2,7 @@
  "type": "rashi-translation-review",
  "module": "yoma",
  "targets": [
-  "11b"
+  "12a"
  ],
  "model": "sonnet",
  "paused": false,
