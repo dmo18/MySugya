@@ -140,6 +140,21 @@ only. This is not touched, edited, or worked around; it is recorded
 BLOCKED with the finding above as its evidence and reported for a separate
 Hebrew-source repair pass.
 
+**Resolution addendum (Step 6 PR A, added after this report was originally
+written - the finding above is preserved unchanged as the historical
+record of what batch 1 actually found):** the Hebrew source was corrected
+under a new, narrowly-scoped `rashi-source-repair` task type (the leaked
+`span class="five">` artifact removed from its canonical source,
+`modules/yoma/assets/talmuddev/9b.json`), confirmed against a fresh
+`talmud.dev` re-fetch and an independent second authoritative source
+(Sefaria's Vilna edition). A fresh entry-level semantic review then found
+the existing English fully faithful to the corrected Hebrew - **VERIFIED,
+no translation change**, independently second-passed. This entry was never
+reset to UNREVIEWED and never entered any of the 41 Step 6 batches; it was
+resolved directly in the source-repair PR. Full evidence:
+`docs/reports/data/rashi-source-blockers.json` and
+`docs/reports/rashi-source-repair-009b-report.md`.
+
 ## Detector precision (this batch, n=50)
 
 | Risk signal | Flagged | Real defect found | Verified anyway | Precision |

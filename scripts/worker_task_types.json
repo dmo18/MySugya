@@ -56,6 +56,74 @@
    "independentReviewRequired": false,
    "driftBlocked": false
   },
+  "rashi-source-repair": {
+   "description": "One-time, narrowly-scoped correction of a proven Hebrew-source data defect in a Rashi raw-source cache file (modules/<module>/assets/talmuddev/<daf>.json) - the only task type authorized to touch that file. Every other rashi-* type operates exclusively on the enrichment layer (rashiTranslations[*].en/linkedGemaraLineIds) and explicitly forbids assets/talmuddev/*; this type exists because the campaign's own Step 5 evidence record concluded no existing type safely covers a genuine Hebrew-source defect, and 'stop and report instead of bypassing worker scope' is the default when that happens. Valid ONLY for an isolated, single-entry corruption independently confirmed against upstream/authoritative evidence (never a bulk edit, never a guess at intended Hebrew, never a fix to the ingestion script itself unless the defect is proven systemic - which takes a different, still-undefined type). Requires the sourceRepairEvidence authorization, which stands for a companion evidence report (old value, corrected value, exact removed artifact, upstream/independent corroboration, proof no other entry changed) committed in the same PR. Narrowly permits touching scripts/worker_task_types.json itself for this type's own bootstrap introduction only (every other type's registry changes remain a separate docs-tooling PR per this file's own top-level convention) - after this introducing PR merges, no later rashi-source-repair PR should need to touch the registry again.",
+   "model": "sonnet",
+   "escalationModel": "sonnet",
+   "lifecycle": "pr",
+   "requiresTarget": true,
+   "paused": false,
+   "allowedFiles": [
+    "modules/<module>/assets/talmuddev/<daf>.json",
+    "modules/<module>/learning_data.js",
+    "modules/<module>/coverage.json",
+    "VERSION",
+    "package.json",
+    "package-lock.json",
+    "docs/rashi-audit-backlog.md",
+    "docs/reports/data/rashi-translation-quality-inventory.json",
+    "docs/reports/data/rashi-source-blockers.json",
+    "docs/reports/rashi-pilot-*.md",
+    "docs/reports/rashi-source-repair-*.md",
+    "docs/reports/rashi-full-corpus-review-strategy.md",
+    "scripts/worker_task_types.json",
+    "modules/<module>/scripts/test_generate_rashi_batch_progress.py",
+    ".worker-manifest.json"
+   ],
+   "allowedJsonPaths": [
+    "rashi[*]"
+   ],
+   "forbiddenFiles": [
+    ".github/workflows/*",
+    "modules/yoma/assets/learning/*",
+    "modules/yoma/assets/daftexts/*",
+    "modules/yoma/source_store.js",
+    "modules/yoma/scripts/*.py",
+    "githooks/*"
+   ],
+   "allowlistPolicy": "not-applicable",
+   "structurePolicy": "not-applicable",
+   "mechanicalTier": false,
+   "requiredAuthorizations": [
+    "sourceRepairEvidence"
+   ],
+   "optionalAuthorizations": [
+    "sourceRepairEvidence"
+   ],
+   "requiredValidators": [
+    "validate:offline:yoma",
+    "check:rashi-translation-inventory:yoma"
+   ],
+   "generationCommands": [
+    "cd modules/yoma && python3 scripts/build_learning_data.py",
+    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+   ],
+   "buildTestCommands": [
+    "npm run build",
+    "npm run check:deploy-html",
+    "npm test",
+    "npm run test:browser"
+   ],
+   "escalationTriggers": [
+    "the corruption cannot be traced to a single upstream or ingestion cause",
+    "a second entry needs the same class of fix (systemic, not isolated - a different, still-undefined type would be needed)",
+    "upstream and independent sources disagree with each other",
+    "any change beyond the one proven corrupted entry would be needed",
+    "the ingestion script itself would need to change"
+   ],
+   "independentReviewRequired": true,
+   "driftBlocked": false
+  },
   "rashi-repair": {
    "description": "Repair documented Rashi helper defects (stubs, filler, placeholder lines) on daf with existing allowlist/baseline hits.",
    "model": "sonnet",
