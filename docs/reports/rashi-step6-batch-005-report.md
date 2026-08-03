@@ -44,8 +44,8 @@ inventory review-metadata.
 | 1 | 11b | 37 | 12 | #418 | `54bb078f78b0b3e83cb9d7e7b2ee8c4720ec5634` | merged |
 | 2 | 12a | 64 | 19 | #419 | `c4d8bf7a0c207e2cecdce18b6f531dea3622373a` | merged |
 | 3 | 12b | 60 | 18 | #420 | `87eda6c9a85ea8de6dcbae0cd690514a31fa33aa` | merged |
-| 4 | 13a | 27 | 8 | (pending) | (pending) | applying |
-| 5 | 13b | 26 | 4 | (pending) | (pending) | not started |
+| 4 | 13a | 27 | 8 | #421 | `4c0c346de2c8e9adb23ff261c6d9151bc9e9c036` | merged |
+| 5 | 13b | 26 | 4 | (pending) | (pending) | applying |
 | 6 | 14a | 56 | 17 | (pending) | (pending) | not started |
 
 This table is updated in place as each child PR merges. Batch 005 is not
@@ -201,7 +201,7 @@ true post-batch snapshot.
   `npm run build`, `npm run check:deploy-html`, `python3
   scripts/worker_pipeline.py verify --full`: all green
 
-### Child 4 (13a) - 8 changed, 27 reviewed
+### Child 4 (13a) - 8 changed, 27 reviewed (merged as #421)
 
 - Rashi entry count: 8,854 (unchanged) - Associations: 10,061 declared, 0
   broken, 0 cross-daf (unchanged) - Boundary registry: 20/20 (unchanged)
@@ -210,12 +210,22 @@ true post-batch snapshot.
   `npm run build`, `npm run check:deploy-html`, `python3
   scripts/worker_pipeline.py verify --full`: all green
 
+### Child 5 (13b) - 4 changed, 26 reviewed
+
+- Rashi entry count: 8,854 (unchanged) - Associations: 10,061 declared, 0
+  broken, 0 cross-daf (unchanged) - Boundary registry: 20/20 (unchanged)
+- Hebrew text: byte-unchanged across all 26 entries on this daf
+- `npm run validate:offline:yoma`, `npm test`, `npm run test:browser`,
+  `npm run build`, `npm run check:deploy-html`, `python3
+  scripts/worker_pipeline.py verify --full`: all green
+
 ## Status
 
 **Batch 005: IN PROGRESS.** Child 1/6 (11b) merged as #418. Child 2/6
 (12a) merged as #419. Child 3/6 (12b) merged as #420. Child 4/6 (13a)
-applying. Final disposition totals for the full batch (both VERIFIED and
-MINOR_EDIT breakdowns) are fixed above and will not change as children
-merge; only per-child application status changes. This section and the
-child-PR table above are updated as each child PR merges; batch 005 is
-COMPLETE only when all six rows in the child-PR table show a merge SHA.
+merged as #421. Child 5/6 (13b) applying. Final disposition totals for
+the full batch (both VERIFIED and MINOR_EDIT breakdowns) are fixed above
+and will not change as children merge; only per-child application status
+changes. This section and the child-PR table above are updated as each
+child PR merges; batch 005 is COMPLETE only when all six rows in the
+child-PR table show a merge SHA.
