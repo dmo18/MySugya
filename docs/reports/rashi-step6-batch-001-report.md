@@ -200,7 +200,12 @@ received once before, in Step 4 PR B0. 6 new regression tests added
   stale, 0 duplicate, 0 unauthorized (unchanged)
 - **Hebrew text**: byte-unchanged across all 274 entries in this batch,
   confirmed via direct inspection of every changed learning JSON's diff
-  (only `en` fields ever appear)
+  (only `en` fields ever appear). Campaign-wide to date (PR A's source
+  repair plus this batch): one authorized Hebrew source repair
+  (`rashi-yoma-009b-001`, PR A); no unexpected Hebrew changes anywhere
+  else. This is the accurate campaign statement - not "zero Hebrew
+  changed across both PRs," which would misstate PR A's own intentional,
+  evidence-backed correction as if it never happened.
 - **`npm run validate:offline:yoma`**, **`npm test`**, **`npm run
   test:browser`**, **`npm run build`**, **`npm run check:deploy-html`**,
   **`python3 scripts/worker_pipeline.py verify --full`**: all green
