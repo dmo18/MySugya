@@ -44,8 +44,8 @@ check("5. dispositionCounts sums to reviewedCount",
       sum(report["dispositionCounts"].values()) == report["reviewedCount"])
 check("6. no batch is currently stale (fresh plan, no partial batches yet)",
       report["staleBatchWarnings"] == [])
-check("7. source-repair blocker rashi-yoma-009b-001 is listed",
-      "rashi-yoma-009b-001" in report["sourceRepairBlockers"])
+check("7. rashi-yoma-009b-001 is no longer a source-repair blocker (resolved in Step 6 PR A)",
+      "rashi-yoma-009b-001" not in report["sourceRepairBlockers"] and report["sourceRepairBlockers"] == [])
 check("8. text-mode output runs without error",
       subprocess.run([sys.executable, str(SCRIPTS / "generate_rashi_batch_progress.py")],
                       cwd=str(ROOT), capture_output=True, text=True).returncode == 0)

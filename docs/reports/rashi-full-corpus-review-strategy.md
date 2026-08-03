@@ -298,6 +298,19 @@ Full evidence record: `docs/reports/data/rashi-source-blockers.json`.
   reset this one entry to UNREVIEWED and fold it into a small follow-up
   review once the separate source-repair PR lands.
 
+**Resolution addendum (Step 6 PR A, added after this document was
+originally written - the findings above describe Step 5's state
+accurately and are preserved unchanged):** a new `rashi-source-repair`
+task type was created (no existing type authorized touching
+`assets/talmuddev/*`), and the Hebrew was corrected at its canonical
+source under it, reconfirmed against a fresh `talmud.dev` re-fetch and an
+independent second source (Sefaria). A fresh semantic review then found
+the existing English fully faithful - VERIFIED, no change, independently
+second-passed. The entry was resolved directly rather than reset to
+UNREVIEWED; it remains outside all 41 Step 6 batches. Full evidence:
+`docs/reports/data/rashi-source-blockers.json`,
+`docs/reports/rashi-source-repair-009b-report.md`.
+
 ## Recommended Step 6 PR sequence
 
 Derived from the committed batch plan and systemic-candidate file,

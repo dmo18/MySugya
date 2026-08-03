@@ -21038,7 +21038,7 @@ const DAF_CONTENT = {
         sourceType: "rashi",
         daf: "9b",
         vilnaLine: 1,
-        he: "span class=\"five\">ששהו את קיניהן. שהיו מביאות במלאות ימי לידתן ליטהר לאכול בקדשים והם היו בעלי גיאות והיו מתרשלין בהקרבתן והנשים",
+        he: "ששהו את קיניהן. שהיו מביאות במלאות ימי לידתן ליטהר לאכול בקדשים והם היו בעלי גיאות והיו מתרשלין בהקרבתן והנשים",
         en: "'That they delayed their bird-offerings' - for the women would bring them at the completion of their days of childbirth, to be purified so as to eat consecrated food, and they were arrogant men and were lax in offering them, and the women",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
