@@ -619,7 +619,7 @@
   {
    "vilnaLine": 1,
    "he": "חוץ מלא תשא. קא סלקא דעתך משום דכתיב לא ינקה: וכל דדמי",
-   "en": "New comment: 'except for taking God's name in vain' - one might think, since it is written 'He will not clear the guilty,' and anything",
+   "en": "'except for taking God's name in vain' - one might think, since it is written 'He will not clear the guilty,' and anything",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -630,7 +630,7 @@
   {
    "vilnaLine": 2,
    "he": "ליה. לא תעשה גמור: לפי שנאמר בחורב תשובה ונקה. לאחר",
-   "en": "similar to it, a complete prohibition is also excluded. New comment: 'since it is said at Chorev, repentance, and He shall clear' - this was said afterward,",
+   "en": "similar to it, a complete prohibition is also excluded. 'since it is said at Chorev, repentance, and He shall clear' - this was said afterward,",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -642,7 +642,7 @@
   {
    "vilnaLine": 3,
    "he": "מעשה העגל כשעלה משה להתפלל עליהן ולקמן מפרש לה: יכול",
-   "en": "after the incident of the Golden Calf, when Moshe went up to pray for them; this is explained further below. New comment: 'one might think'",
+   "en": "after the incident of the Golden Calf, when Moshe went up to pray for them; this is explained further below. 'one might think'",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -653,7 +653,7 @@
   {
    "vilnaLine": 4,
    "he": "אף לא תשא. ינקה בתשובה: אי אפשר לומר נקה שכבר נאמר",
-   "en": "even taking God's name in vain He will clear through repentance. New comment: 'it is impossible to say clear, since it already says'",
+   "en": "even taking God's name in vain He will clear through repentance. 'it is impossible to say clear, since it already says'",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -676,7 +676,7 @@
   {
    "vilnaLine": 6,
    "he": "הדדי: חלוקי כפרה. שחלוקין",
-   "en": "each other. New comment: 'the divisions of atonement' - that are divided",
+   "en": "each other. 'the divisions of atonement' - that are divided",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -688,7 +688,7 @@
   {
    "vilnaLine": 7,
    "he": "בכפרתן זה כך וזה כך: אמר לו.",
-   "en": "in their atonement, this one thus and that one thus. New comment: 'he said to him' -",
+   "en": "in their atonement, this one thus and that one thus. 'he said to him' -",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -732,7 +732,7 @@
   {
    "vilnaLine": 11,
    "he": "לכולן: שובו בנים. ומיד ארפא",
-   "en": "for all of them. New comment: 'return, children' - and immediately 'I will heal'",
+   "en": "for all of them. 'return, children' - and immediately 'I will heal'",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -755,7 +755,7 @@
   {
    "vilnaLine": 13,
    "he": "לבדה: כי ביום הזה יכפר. למדת",
-   "en": "alone. New comment: 'for on this day it shall atone' - you learn",
+   "en": "alone. 'for on this day it shall atone' - you learn",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -766,7 +766,7 @@
   {
    "vilnaLine": 14,
    "he": "שיש עבירה שצריכה יוה\"כ: ופקדתי",
-   "en": "that there is a transgression that requires Yom Kippur. New comment: 'and I will visit'",
+   "en": "that there is a transgression that requires Yom Kippur. 'and I will visit'",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -799,7 +799,7 @@
   {
    "vilnaLine": 17,
    "he": "והחמור לחמורה: חילול השם. חוטא",
-   "en": "and the severe to the severe. New comment: 'desecration of the Name' - one who sins",
+   "en": "and the severe to the severe. 'desecration of the Name' - one who sins",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -811,7 +811,7 @@
   {
    "vilnaLine": 18,
    "he": "ומחטיא אחרים: באזני ה' צבאות.",
-   "en": "and causes others to sin. New comment: 'in my ears, the Lord of Hosts' -",
+   "en": "and causes others to sin. 'in my ears, the Lord of Hosts' -",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -855,7 +855,7 @@
   {
    "vilnaLine": 22,
    "he": "ולא יהיבנא דמי לאלתר. וכשאני",
-   "en": "New comment: 'and I do not pay immediately' - and when I",
+   "en": "'and I do not pay immediately' - and when I",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -888,7 +888,7 @@
   {
    "vilnaLine": 25,
    "he": "באתרא דלא תבעי. שאין דרך",
-   "en": "New comment: 'in a place where they do not demand payment' - since it is not the practice of",
+   "en": "'in a place where they do not demand payment' - since it is not the practice of",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -921,7 +921,7 @@
   {
    "vilnaLine": 28,
    "he": "ומתא מחסיא. מקומו של רבינא:",
-   "en": "New comment: 'and Mata Mechasya' - the place of Ravina.",
+   "en": "'and Mata Mechasya' - the place of Ravina.",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -932,7 +932,7 @@
   {
    "vilnaLine": 29,
    "he": "יהיב זוזא להאי וזוזא להאי. שמא לא",
-   "en": "New comment: 'he gave a coin to this one and a coin to that one' - lest",
+   "en": "'he gave a coin to this one and a coin to that one' - lest",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -954,7 +954,7 @@
   {
    "vilnaLine": 31,
    "he": "השם: ועביד חושבנא. וחוזרין",
-   "en": "the Name. New comment: 'and made an accounting' - and they go back",
+   "en": "the Name. 'and made an accounting' - and they go back",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -965,7 +965,7 @@
   {
    "vilnaLine": 32,
    "he": "ונותנין לו בשר כנגד מה שנטלו: כגון",
-   "en": "and give him meat corresponding to what they took. New comment: 'such as'",
+   "en": "and give him meat corresponding to what they took. 'such as'",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -999,7 +999,7 @@
   {
    "vilnaLine": 35,
    "he": "להבטל מתלמוד תורה: מחמת",
-   "en": "to be idle from Torah study. New comment: 'on account of'",
+   "en": "to be idle from Torah study. 'on account of'",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1021,7 +1021,7 @@
   {
    "vilnaLine": 37,
    "he": "שרא ליה מריה. ימחול יוצרו על",
-   "en": "New comment: 'may his Master forgive him' - may his Maker forgive him for",
+   "en": "'may his Master forgive him' - may his Maker forgive him for",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1033,7 +1033,7 @@
   {
    "vilnaLine": 38,
    "he": "מעשיו: מתאהב על ידך. לחבירך:",
-   "en": "his deeds. New comment: 'is made beloved through you' - to your fellow.",
+   "en": "his deeds. 'is made beloved through you' - to your fellow.",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1044,7 +1044,7 @@
   {
    "vilnaLine": 39,
    "he": "קורא. מקרא: ושונה. משנה:",
-   "en": "New comment: 'reads' - Scripture. New comment: 'and repeats' - Mishnah.",
+   "en": "'reads' - Scripture. 'and repeats' - Mishnah.",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1055,7 +1055,7 @@
   {
    "vilnaLine": 40,
    "he": "ומשמש תלמידי חכמים. ללמוד (תורה)",
-   "en": "New comment: 'and serves Torah scholars' - to learn Torah,",
+   "en": "'and serves Torah scholars' - to learn Torah,",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1077,7 +1077,7 @@
   {
    "vilnaLine": 42,
    "he": "ומהיכן למדו: באמור להם עם ה'",
-   "en": "and from where they are derived. New comment: 'when it is said of them, the people of the Lord'",
+   "en": "and from where they are derived. 'when it is said of them, the people of the Lord'",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1188,7 +1188,7 @@
   {
    "vilnaLine": 52,
    "he": "דמעיקרא שובבים אתם. כשתעשו",
-   "en": "New comment: 'originally you are wayward' - when you do",
+   "en": "'originally you are wayward' - when you do",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1221,7 +1221,7 @@
   {
    "vilnaLine": 55,
    "he": "ושובבות: וכתיב ארפא. משמע",
-   "en": "and waywardness. New comment: 'and it is written, I will heal' - this implies",
+   "en": "and waywardness. 'and it is written, I will heal' - this implies",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1243,7 +1243,7 @@
   {
    "vilnaLine": 57,
    "he": "שמקצת שמו עליו: כאן מאהבה.",
-   "en": "some trace of it remaining upon him. New comment: 'here, from love' -",
+   "en": "some trace of it remaining upon him. 'here, from love' -",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1266,7 +1266,7 @@
   {
    "vilnaLine": 59,
    "he": "כתיב שובו בנים. אלמא בעלי",
-   "en": "New comment: 'it is written, return, children' - this shows that",
+   "en": "'it is written, return, children' - this shows that",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1277,7 +1277,7 @@
   {
    "vilnaLine": 60,
    "he": "תשובה קרויין בנים: וכתיב כי אנכי",
-   "en": "those who repent are called children. New comment: 'and it is written, for I'",
+   "en": "those who repent are called children. 'and it is written, for I'",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1299,7 +1299,7 @@
   {
    "vilnaLine": 62,
    "he": "כאן מאהבה ומיראה. קרויין בנים:",
-   "en": "New comment: 'here, from love and from fear' - they are called children.",
+   "en": "'here, from love and from fear' - they are called children.",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1310,7 +1310,7 @@
   {
    "vilnaLine": 63,
    "he": "כאן על ידי יסורין. שלא שבו עד",
-   "en": "New comment: 'here, through suffering' - who did not return until",
+   "en": "'here, through suffering' - who did not return until",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
