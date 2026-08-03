@@ -23,8 +23,8 @@ with `python3 scripts/generate_rashi_docs.py` and the freshness gate
 from the baseline.
 
 <!-- rashi-status-summary:begin (regenerate with `python3 scripts/generate_rashi_docs.py`; do not hand-edit) -->
-- Current VERSION: 15.425
-- Generated from commit: 5e988c2 (the commit this doc was generated from, necessarily pre-merge for the PR that carries this change; it will differ from live main's HEAD immediately after that PR merges by design, since a PR's own merge commit does not exist yet at generation time. Not a staleness signal; see the freshness gate for what actually indicates staleness.)
+- Current VERSION: 15.426
+- Generated from commit: 54bb078 (the commit this doc was generated from, necessarily pre-merge for the PR that carries this change; it will differ from live main's HEAD immediately after that PR merges by design, since a PR's own merge commit does not exist yet at generation time. Not a staleness signal; see the freshness gate for what actually indicates staleness.)
 - Total scaffold-debt entries (all rules, current inventory): 0
 - Unique affected daf: 0
 - Tracked daf in status table: 93 (93 resolved, 0 open)
@@ -64,99 +64,99 @@ Context on the two rule families tracked in the table:
 <!-- scaffold-status-table:begin (regenerate with `python3 scripts/generate_rashi_docs.py`; do not hand-edit rows) -->
 | daf | contaminated | total | severity | task recommendation | status | last verified |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2b | 0 | 29 | 0% | rashi-repair (after fresh semantic verification) | resolved | 5e988c2 |
-| 3a | 0 | 38 | 0% | rashi-repair (after fresh semantic verification) | resolved | 5e988c2 |
-| 3b | 0 | 49 | 0% | rashi-reconstruction | resolved | 5e988c2 |
-| 4a | 0 | 56 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 7b | 0 | 18 | 0% | rashi-repair (after fresh semantic verification) | resolved | 5e988c2 |
-| 10a | 0 | 35 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 10b | 0 | 21 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 11a | 0 | 43 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 11b | 0 | 39 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 12a | 0 | 66 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 12b | 0 | 62 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 13a | 0 | 29 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 13b | 0 | 28 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 14a | 0 | 58 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 14b | 0 | 59 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 15a | 0 | 66 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 15b | 0 | 66 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 16a | 0 | 61 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 16b | 0 | 62 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 17a | 0 | 45 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 17b | 0 | 33 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 18a | 0 | 58 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 18b | 0 | 34 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 19a | 0 | 58 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 19b | 0 | 68 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 20a | 0 | 41 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 20b | 0 | 62 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 21a | 0 | 62 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 21b | 0 | 46 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 22a | 0 | 65 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 22b | 0 | 35 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 23a | 0 | 45 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 23b | 0 | 65 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 24a | 0 | 47 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 24b | 0 | 65 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 25a | 0 | 61 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 25b | 0 | 62 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 26a | 0 | 42 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 26b | 0 | 61 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 27a | 0 | 53 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 27b | 0 | 44 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 28a | 0 | 45 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 28b | 0 | 79 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 29a | 0 | 56 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 29b | 0 | 54 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 30a | 0 | 54 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 30b | 0 | 51 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 31a | 0 | 37 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 31b | 0 | 63 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 32a | 0 | 62 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 32b | 0 | 55 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 33a | 0 | 64 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 33b | 0 | 60 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 34a | 0 | 46 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 34b | 0 | 40 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 35a | 0 | 14 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 35b | 0 | 58 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 36a | 0 | 54 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 36b | 0 | 62 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 37a | 0 | 71 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 37b | 0 | 25 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 38a | 0 | 37 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 38b | 0 | 49 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 39a | 0 | 59 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 39b | 0 | 65 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 40a | 0 | 65 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 40b | 0 | 43 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 41b | 0 | 74 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 42a | 0 | 52 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 42b | 0 | 60 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 43a | 0 | 65 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 43b | 0 | 59 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 44a | 0 | 60 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 44b | 0 | 60 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 45a | 0 | 44 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 45b | 0 | 29 | 0% | rashi-repair (after fresh semantic verification) | resolved | 5e988c2 |
-| 46a | 0 | 32 | 0% | rashi-repair (after fresh semantic verification) | resolved | 5e988c2 |
-| 47a | 0 | 64 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 47b | 0 | 65 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 48a | 0 | 42 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 48b | 0 | 26 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 49a | 0 | 64 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 49b | 0 | 21 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 72a | 0 | 31 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 72b | 0 | 100 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 73a | 0 | 65 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 73b | 0 | 58 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 74a | 0 | 55 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 74b | 0 | 42 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 75a | 0 | 49 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 75b | 0 | 46 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 76a | 0 | 47 | 0% | none (repaired and verified) | resolved | 5e988c2 |
-| 76b | 0 | 44 | 0% | none (repaired and verified) | resolved | 5e988c2 |
+| 2b | 0 | 29 | 0% | rashi-repair (after fresh semantic verification) | resolved | 54bb078 |
+| 3a | 0 | 38 | 0% | rashi-repair (after fresh semantic verification) | resolved | 54bb078 |
+| 3b | 0 | 49 | 0% | rashi-reconstruction | resolved | 54bb078 |
+| 4a | 0 | 56 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 7b | 0 | 18 | 0% | rashi-repair (after fresh semantic verification) | resolved | 54bb078 |
+| 10a | 0 | 35 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 10b | 0 | 21 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 11a | 0 | 43 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 11b | 0 | 39 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 12a | 0 | 66 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 12b | 0 | 62 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 13a | 0 | 29 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 13b | 0 | 28 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 14a | 0 | 58 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 14b | 0 | 59 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 15a | 0 | 66 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 15b | 0 | 66 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 16a | 0 | 61 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 16b | 0 | 62 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 17a | 0 | 45 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 17b | 0 | 33 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 18a | 0 | 58 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 18b | 0 | 34 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 19a | 0 | 58 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 19b | 0 | 68 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 20a | 0 | 41 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 20b | 0 | 62 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 21a | 0 | 62 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 21b | 0 | 46 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 22a | 0 | 65 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 22b | 0 | 35 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 23a | 0 | 45 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 23b | 0 | 65 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 24a | 0 | 47 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 24b | 0 | 65 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 25a | 0 | 61 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 25b | 0 | 62 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 26a | 0 | 42 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 26b | 0 | 61 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 27a | 0 | 53 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 27b | 0 | 44 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 28a | 0 | 45 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 28b | 0 | 79 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 29a | 0 | 56 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 29b | 0 | 54 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 30a | 0 | 54 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 30b | 0 | 51 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 31a | 0 | 37 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 31b | 0 | 63 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 32a | 0 | 62 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 32b | 0 | 55 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 33a | 0 | 64 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 33b | 0 | 60 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 34a | 0 | 46 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 34b | 0 | 40 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 35a | 0 | 14 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 35b | 0 | 58 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 36a | 0 | 54 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 36b | 0 | 62 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 37a | 0 | 71 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 37b | 0 | 25 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 38a | 0 | 37 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 38b | 0 | 49 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 39a | 0 | 59 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 39b | 0 | 65 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 40a | 0 | 65 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 40b | 0 | 43 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 41b | 0 | 74 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 42a | 0 | 52 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 42b | 0 | 60 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 43a | 0 | 65 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 43b | 0 | 59 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 44a | 0 | 60 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 44b | 0 | 60 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 45a | 0 | 44 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 45b | 0 | 29 | 0% | rashi-repair (after fresh semantic verification) | resolved | 54bb078 |
+| 46a | 0 | 32 | 0% | rashi-repair (after fresh semantic verification) | resolved | 54bb078 |
+| 47a | 0 | 64 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 47b | 0 | 65 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 48a | 0 | 42 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 48b | 0 | 26 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 49a | 0 | 64 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 49b | 0 | 21 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 72a | 0 | 31 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 72b | 0 | 100 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 73a | 0 | 65 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 73b | 0 | 58 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 74a | 0 | 55 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 74b | 0 | 42 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 75a | 0 | 49 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 75b | 0 | 46 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 76a | 0 | 47 | 0% | none (repaired and verified) | resolved | 54bb078 |
+| 76b | 0 | 44 | 0% | none (repaired and verified) | resolved | 54bb078 |
 <!-- scaffold-status-table:end -->
 
 The remediation campaign runs one daf per PR (order and per-batch bounds in
