@@ -45,8 +45,8 @@ inventory review-metadata.
 | 2 | 12a | 64 | 19 | #419 | `c4d8bf7a0c207e2cecdce18b6f531dea3622373a` | merged |
 | 3 | 12b | 60 | 18 | #420 | `87eda6c9a85ea8de6dcbae0cd690514a31fa33aa` | merged |
 | 4 | 13a | 27 | 8 | #421 | `4c0c346de2c8e9adb23ff261c6d9151bc9e9c036` | merged |
-| 5 | 13b | 26 | 4 | (pending) | (pending) | applying |
-| 6 | 14a | 56 | 17 | (pending) | (pending) | not started |
+| 5 | 13b | 26 | 4 | #422 | `548ff34c16b2d11e789aa7abb3171bb0420723c0` | merged |
+| 6 | 14a | 56 | 17 | (this PR) | (pending) | applying |
 
 This table is updated in place as each child PR merges. Batch 005 is not
 COMPLETE until all six rows show a merge SHA.
@@ -210,7 +210,7 @@ true post-batch snapshot.
   `npm run build`, `npm run check:deploy-html`, `python3
   scripts/worker_pipeline.py verify --full`: all green
 
-### Child 5 (13b) - 4 changed, 26 reviewed
+### Child 5 (13b) - 4 changed, 26 reviewed (merged as #422)
 
 - Rashi entry count: 8,854 (unchanged) - Associations: 10,061 declared, 0
   broken, 0 cross-daf (unchanged) - Boundary registry: 20/20 (unchanged)
@@ -219,13 +219,29 @@ true post-batch snapshot.
   `npm run build`, `npm run check:deploy-html`, `python3
   scripts/worker_pipeline.py verify --full`: all green
 
+### Child 6 (14a) - 17 changed, 56 reviewed - final child, batch complete
+
+- Rashi entry count: 8,854 (unchanged) - Associations: 10,061 declared, 0
+  broken, 0 cross-daf (unchanged) - Boundary registry: 20/20 (unchanged)
+- Hebrew text: byte-unchanged across all 56 entries on this daf
+- `npm run validate:offline:yoma`, `npm test`, `npm run test:browser`,
+  `npm run build`, `npm run check:deploy-html`, `python3
+  scripts/worker_pipeline.py verify --full`: all green
+- `python3 scripts/worker_pipeline.py verify --full` and
+  `generate_rashi_batch_progress.py` confirm `step6-batch-005` as
+  `complete` (not partial, not in `declaredInProgressBatches`) once this
+  child merges.
+
 ## Status
 
-**Batch 005: IN PROGRESS.** Child 1/6 (11b) merged as #418. Child 2/6
-(12a) merged as #419. Child 3/6 (12b) merged as #420. Child 4/6 (13a)
-merged as #421. Child 5/6 (13b) applying. Final disposition totals for
-the full batch (both VERIFIED and MINOR_EDIT breakdowns) are fixed above
-and will not change as children merge; only per-child application status
-changes. This section and the child-PR table above are updated as each
-child PR merges; batch 005 is COMPLETE only when all six rows in the
-child-PR table show a merge SHA.
+**Batch 005: COMPLETE.** All 270 entries reviewed with an assigned final
+disposition across all six child PRs (#418 11b, #419 12a, #420 12b, #421
+13a, #422 13b, this PR 14a); 0 entries left in an ambiguous state; 0
+BLOCKED. Final disposition totals: 192 VERIFIED, 78 MINOR_EDIT, 0
+SUBSTANTIVE_REPAIR, 0 RETRANSLATE, 0 DUPLICATION_OR_CONTAMINATION, 0
+BLOCKED. Changed-translation count: 78 (all `INVENTED_TEXT`, the "New
+comment:" scaffold family and its "New comment on the mishna:" wording
+variant). Second pass: 78/78 CONFIRMED. Blind QA: 28/28
+CONFIRMED_VERIFIED, 0 escalations. Both authorized systemic-candidate
+families resolved (scaffold: 78 CONFIRMED_DEFECT, applied; anticipation:
+6 FALSE_POSITIVE, unchanged).
