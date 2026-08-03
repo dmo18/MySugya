@@ -243,3 +243,25 @@ scaffold family and its documented wording variant, plus 1 isolated
 CONFIRMED. Blind QA: 26/26 CONFIRMED_VERIFIED, 0 escalations. Both
 authorized systemic-candidate families resolved (scaffold: 107
 CONFIRMED_DEFECT, applied; anticipation: 5 FALSE_POSITIVE, unchanged).
+
+## Post-merge correction (found during step6-batch-005 review)
+
+While reviewing step6-batch-005, a corpus-wide check of the Hebrew
+abbreviation `גמ'` (Gemara) revealed that it is consistently and
+correctly rendered elsewhere in this corpus as the standalone marker
+`"Gemara:"` (e.g. `67a` L39, `68b` L33, `70a` L30, `71b` L14, `73b` L43,
+`82a` L14, `85b` L45) - a real, meaningful structural cue, not fabricated
+text. This batch's fix for the `"New comment on the Gemara:"` variant at
+`rashi-yoma-083a-051` incorrectly stripped the entire label, including the
+genuine `"Gemara:"` marker, instead of removing only the fabricated
+`"New comment on the"` portion. Corrected in a narrow, single-entry
+follow-up PR (English restored to `"...he holds it is a complete cure.
+Gemara: 'Abaye said..."`; no Hebrew change; `docs/reports/data/
+rashi-step6-batch-039-review-records.json` and the translation-quality
+inventory updated to match). Noted here for the permanent record, and the
+same corrected rule (`"New comment on the Gemara:"` -> `"Gemara:"`,
+`"New comment on the Mishnah:"` / `"New comment on the mishna:"` ->
+`"Mishnah:"`) is applied prospectively in `step6-batch-005` and will be
+applied in any future batch touching the other already-identified
+variant locations (`14a` L14 - in `step6-batch-005` itself, `51b` L5,
+`81a` L18/L22, `82a` L54/L55).

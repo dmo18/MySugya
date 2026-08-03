@@ -192441,7 +192441,7 @@ const DAF_CONTENT = {
         daf: "83a",
         vilnaLine: 51,
         he: "חרש מתיר. קסבר רפואה גמורה היא: גמ' אמר אביי ובטעמא. משיודע להבחין בין טעם תבשיל יפה לטעם תבשיל רע: מאכילין",
-        en: "Charash permits it' - he holds it is a complete cure. 'Abaye said: and with taste' - from when he can distinguish between the taste of a good dish and the taste of a bad dish. 'we feed",
+        en: "Charash permits it' - he holds it is a complete cure. Gemara: 'Abaye said: and with taste' - from when he can distinguish between the taste of a good dish and the taste of a bad dish. 'we feed",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",

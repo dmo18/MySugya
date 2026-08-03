@@ -1327,7 +1327,7 @@
       "daf": "83a",
       "hebrew": "חרש מתיר. קסבר רפואה גמורה היא: גמ' אמר אביי ובטעמא. משיודע להבחין בין טעם תבשיל יפה לטעם תבשיל רע: מאכילין",
       "originalEnglish": "Charash permits it' - he holds it is a complete cure. New comment on the Gemara: 'Abaye said: and with taste' - from when he can distinguish between the taste of a good dish and the taste of a bad dish. New comment: 'we feed",
-      "proposedEnglish": "Charash permits it' - he holds it is a complete cure. 'Abaye said: and with taste' - from when he can distinguish between the taste of a good dish and the taste of a bad dish. 'we feed",
+      "proposedEnglish": "Charash permits it' - he holds it is a complete cure. Gemara: 'Abaye said: and with taste' - from when he can distinguish between the taste of a good dish and the taste of a bad dish. 'we feed",
       "firstPassDisposition": "MINOR_EDIT",
       "defectTags": [
         "INVENTED_TEXT"
@@ -1336,8 +1336,8 @@
       "secondPass": {
         "required": true,
         "status": "CONFIRMED",
-        "evidence": "Independently re-derived from the raw Hebrew a second time: confirmed the label has no Hebrew basis and the proposed text is a faithful, meaning-preserving rendering once removed; reads as coherent flowing prose per the established quote-dash convention.",
-        "finalEnglish": "Charash permits it' - he holds it is a complete cure. 'Abaye said: and with taste' - from when he can distinguish between the taste of a good dish and the taste of a bad dish. 'we feed"
+        "evidence": "Independently re-derived from the raw Hebrew a second time: confirmed the label has no Hebrew basis and the proposed text is a faithful, meaning-preserving rendering once removed; reads as coherent flowing prose per the established quote-dash convention. CORRECTED post-merge (found during step6-batch-005 review, see docs/reports/rashi-step6-batch-039-report.md correction note): the original fix incorrectly stripped the genuine 'Gemara:' structural marker (corresponding to the real Hebrew \"גמ'\" abbreviation) along with the fabricated 'New comment on the' label. A corpus-wide check confirms \"גמ'\" is consistently rendered as 'Gemara:' elsewhere in this corpus. Restored.",
+        "finalEnglish": "Charash permits it' - he holds it is a complete cure. Gemara: 'Abaye said: and with taste' - from when he can distinguish between the taste of a good dish and the taste of a bad dish. 'we feed"
       },
       "blindQA": {
         "selected": false,
