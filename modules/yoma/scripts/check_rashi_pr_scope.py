@@ -61,10 +61,22 @@ SCAFFOLD_BASELINE_FILE = "modules/yoma/scripts/baselines/rashi_scaffold_debt.jso
 # rule this gate enforces on the learning JSON itself.
 RASHI_CAMPAIGN_DOC_PREFIX = "docs/reports/rashi-pilot-"
 RASHI_CAMPAIGN_INVENTORY = "docs/reports/data/rashi-translation-quality-inventory.json"
+# Step 6 (full-corpus batch review, docs/reports/rashi-full-corpus-review-strategy.md)
+# extends the same audit-trail rationale as RASHI_CAMPAIGN_DOC_PREFIX/RASHI_CAMPAIGN_INVENTORY
+# above: a batch PR carries its content edit alongside the batch's own review-record file,
+# its narrative report, and (when this PR is also the one introducing them) the tooling that
+# validates that record file and the registry entry defining this task type's own scope.
+RASHI_STEP6_REPORT_PREFIX = "docs/reports/rashi-step6-batch-"
+RASHI_STEP6_RECORDS_PREFIX = "docs/reports/data/rashi-step6-batch-"
+RASHI_STEP6_STRATEGY_DOC = "docs/reports/rashi-full-corpus-review-strategy.md"
 ALWAYS_ALLOWED = {"VERSION", "package.json", "package-lock.json",
                   "docs/rashi-audit-backlog.md", ".worker-manifest.json",
                   ".worker-self-review.json", ".worker-queue.json",
-                  RASHI_CAMPAIGN_INVENTORY}
+                  RASHI_CAMPAIGN_INVENTORY, RASHI_STEP6_STRATEGY_DOC,
+                  "scripts/worker_task_types.json",
+                  "modules/yoma/scripts/check_rashi_pr_scope.py",
+                  "modules/yoma/scripts/validate_rashi_review_records.py",
+                  "modules/yoma/scripts/test_validate_rashi_review_records.py"}
 FORBIDDEN_PREFIXES = (".github/workflows/",)
 
 MUTABLE_KEYS = {"en", "linkedGemaraLineIds"}
@@ -207,6 +219,8 @@ def main():
             or p == SCAFFOLD_BASELINE_FILE
             or p in ALWAYS_ALLOWED
             or p.startswith(RASHI_CAMPAIGN_DOC_PREFIX)
+            or p.startswith(RASHI_STEP6_REPORT_PREFIX)
+            or p.startswith(RASHI_STEP6_RECORDS_PREFIX)
         )
         if not allowed and not any(p.startswith(fp) for fp in FORBIDDEN_PREFIXES):
             errors.append(f"file-set: {p} is outside the allowed content-PR file set")

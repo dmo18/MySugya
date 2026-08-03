@@ -313,6 +313,14 @@ UNREVIEWED; it remains outside all 41 Step 6 batches. Full evidence:
 
 ## Recommended Step 6 PR sequence
 
+**Progress addendum:** `step6-batch-001` is COMPLETE (274/274 entries
+reviewed, 259 VERIFIED, 15 changed, 0 BLOCKED). Full report:
+`docs/reports/rashi-step6-batch-001-report.md`. This batch was executed
+out of its "remaining contiguous corpus order" (priority group D)
+position, as the required prerequisite/first batch of the initial Step 6
+kickoff; the priority ordering below remains the recommendation for all
+subsequent batches.
+
 Derived from the committed batch plan and systemic-candidate file,
 prioritized per the governing directive's exact order: (1) the proven
 Hebrew-source blocker repair, (2) batches carrying the highest density of
