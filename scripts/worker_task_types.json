@@ -81,8 +81,7 @@
     ".worker-manifest.json"
    ],
    "allowedJsonPaths": [
-    "rashi[*]",
-    "rashiTranslations[*].en"
+    "rashi[*]"
    ],
    "forbiddenFiles": [
     ".github/workflows/*",
