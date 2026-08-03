@@ -25,7 +25,7 @@ INVENTORY_PATH = DATA_DIR / "rashi-translation-quality-inventory.json"
 BATCHES_PATH = DATA_DIR / "rashi-full-corpus-review-batches.json"
 
 sys.path.insert(0, str(SCRIPTS))
-from validate_rashi_review_records import validate_records  # noqa: E402
+from validate_rashi_review_records import validate_records, git_show_inventory  # noqa: E402
 
 FAILED = []
 
@@ -219,6 +219,104 @@ r["defectTags"] = ["PUNCTUATION"]
 d = doc_for([r], disposition_counts={"VERIFIED": 1})
 errs = validate_records(d)
 check("16. a VERIFIED record with non-empty defectTags is rejected", bool(errs), errs)
+
+
+def rejected_second_pass_record(eid=entry_id):
+    """A first pass found a defect, but an independent second pass rejected the
+    finding and reverted the entry to VERIFIED - the exact scenario Step 6
+    batch 001 hit for rashi-yoma-002a-054, where the validator's original
+    proposedEnglish nullness check (keyed off firstPassDisposition) directly
+    contradicted the contract's own stated rule (keyed off finalDisposition)."""
+    e = inv_by_id[eid]
+    return {
+        "batchId": batch_id, "entryId": eid, "daf": e["daf"],
+        "hebrew": e["he"], "originalEnglish": e["en"], "proposedEnglish": None,
+        "firstPassDisposition": "SUBSTANTIVE_REPAIR", "defectTags": [],
+        "firstPassEvidence": "first-pass evidence for a proposal later rejected",
+        "secondPass": {"required": True, "status": "REJECTED",
+                       "evidence": "independently re-derived; first pass's proposal does not hold",
+                       "finalEnglish": None},
+        "blindQA": {"selected": False, "result": None, "evidence": None},
+        "finalDisposition": "VERIFIED", "structuralStop": None, "repairPR": None, "finalVerificationSHA": None,
+    }
+
+
+# 17. positive control: a REJECTED second pass reverting a changed firstPassDisposition
+# to a VERIFIED finalDisposition, with proposedEnglish correctly null, passes cleanly.
+d = doc_for([rejected_second_pass_record()], disposition_counts={"VERIFIED": 1})
+errs = validate_records(d)
+check("17. a REJECTED-second-pass record (finalDisposition VERIFIED, proposedEnglish null) passes",
+      errs == [], errs)
+
+# 18. the null-on-VERIFIED rule still catches a real violation: a REJECTED second pass
+# that leaves a stale non-null proposedEnglish behind is rejected (keyed by finalDisposition).
+r = rejected_second_pass_record()
+r["proposedEnglish"] = r["originalEnglish"] + " (stale proposal left behind)"
+d = doc_for([r], disposition_counts={"VERIFIED": 1})
+errs = validate_records(d)
+check("18. a REJECTED-second-pass record with a stale non-null proposedEnglish is rejected",
+      bool(errors_mentioning(errs, "proposedEnglish set but finalDisposition is VERIFIED")), errs)
+
+# 19. the "missing proposedEnglish" requirement still applies for a changed firstPassDisposition
+# whose second pass is NOT REJECTED (i.e. the REJECTED exception isn't overly broad).
+r = changed_record()
+r["proposedEnglish"] = None
+d = doc_for([r], disposition_counts={"MINOR_EDIT": 1}, changed=1)
+errs = validate_records(d)
+check("19. missing proposedEnglish is still rejected when secondPass.status is CONFIRMED, not REJECTED",
+      bool(errors_mentioning(errs, "missing proposedEnglish")), errs)
+
+# 20. git_show_inventory smoke test: reads a real ref, returns the expected shape.
+base_inv = git_show_inventory("HEAD")
+check("20. git_show_inventory('HEAD') returns a parsed inventory with the expected shape",
+      isinstance(base_inv.get("entries"), list) and len(base_inv["entries"]) > 0
+      and all(k in base_inv["entries"][0] for k in ("id", "he", "en")))
+
+# 21. --base changes which state hebrew/originalEnglish are checked against: a record whose
+# originalEnglish matches a BASE-ref snapshot (not the live corpus, which has since "moved on"
+# to a new en, simulating a batch PR that bundles its own content edit) passes with base_ref set,
+# and is correctly rejected as stale when compared against the live corpus with base_ref unset -
+# this is the exact scenario Step 6 batch 001 hit for real.
+import validate_rashi_review_records as vrr  # noqa: E402
+real_git_show_inventory = vrr.git_show_inventory
+
+synthetic_pre_batch_inv = {
+    "entries": [dict(e) for e in inv["entries"]],
+}
+for e in synthetic_pre_batch_inv["entries"]:
+    if e["id"] == entry_id:
+        e["en"] = "a pre-batch English value the live corpus no longer has"
+
+vrr.git_show_inventory = lambda base_ref: synthetic_pre_batch_inv
+try:
+    r = verified_record()
+    r["originalEnglish"] = "a pre-batch English value the live corpus no longer has"
+    d = doc_for([r], disposition_counts={"VERIFIED": 1})
+    errs_with_base = validate_records(d, base_ref="fake-base-ref")
+    errs_without_base = validate_records(d, base_ref=None)
+finally:
+    vrr.git_show_inventory = real_git_show_inventory
+
+check("21a. originalEnglish matching the BASE-ref snapshot (not live) passes when --base is given",
+      errs_with_base == [], errs_with_base)
+check("21b. the same record is correctly rejected as stale when compared against live with no --base",
+      bool(errors_mentioning(errs_without_base, "immutable-field change: originalEnglish")), errs_without_base)
+
+# 22. positive control: a REMAINED_BLOCKED second pass (a confirmed finding whose fix is blocked
+# by something outside the entry's own English, e.g. an allowlist ratchet gate) also requires
+# proposedEnglish to be null, matching the same finalDisposition-BLOCKED rule REJECTED uses -
+# the exact scenario Step 6 batch 001 hit for rashi-yoma-004b-061.
+r = changed_record()
+r["proposedEnglish"] = None
+r["finalDisposition"] = "BLOCKED"
+r["structuralStop"] = "confirmed defect, but applying the fix is blocked by an unrelated allowlist ratchet gate"
+r["secondPass"] = {"required": True, "status": "REMAINED_BLOCKED",
+                   "evidence": "independently re-derived; same defect and fix confirmed, application blocked",
+                   "finalEnglish": None}
+d = doc_for([r], disposition_counts={"BLOCKED": 1})
+errs = validate_records(d)
+check("22. a REMAINED_BLOCKED record (finalDisposition BLOCKED, proposedEnglish null) passes",
+      errs == [], errs)
 
 if FAILED:
     print(f"\n{len(FAILED)} check(s) failed: {FAILED}")

@@ -21,11 +21,32 @@ it only proves a set of already-written records is internally consistent,
 consistent with the live corpus/inventory, and consistent with its own
 declared batch.
 
+A real batch PR bundles the content edit (the changed entries' `en` in
+`assets/learning/<module>/<daf>.learning.json` and the regenerated
+`learning_data.js`/inventory) together with this review-record file, per
+the campaign's established one-PR-per-batch convention. By the time this
+validator runs in that PR's own CI, the live inventory already reflects
+the NEW English for every changed entry - so `hebrew`/`originalEnglish`
+immutability cannot be checked against the live working tree the way
+`entryId`/`daf` structural checks can. Matching the exact pattern every
+other campaign validator already uses (`check_rashi_pr_scope.py`'s
+`git_show(base_rev, path)`), `--base` compares those two fields against
+the inventory as it stood at the base ref instead - the only comparison
+that can actually distinguish "this batch legitimately changed this
+field" from "this field was corrupted." Omitting `--base` falls back to
+the live working-tree file (useful for a quick sanity check before any
+content edit has been applied, e.g. validating a still-UNREVIEWED
+skeleton record set), but a batch PR whose content edit has already
+landed should always pass `--base`.
+
 Usage:
   python3 scripts/validate_rashi_review_records.py <records-file.json>
+  python3 scripts/validate_rashi_review_records.py <records-file.json> --base origin/main
 """
 import argparse
 import json
+import os
+import subprocess
 import sys
 from pathlib import Path
 
@@ -35,6 +56,7 @@ REPO_ROOT = ROOT.parent.parent
 DATA_DIR = REPO_ROOT / "docs" / "reports" / "data"
 INVENTORY_PATH = DATA_DIR / "rashi-translation-quality-inventory.json"
 BATCHES_PATH = DATA_DIR / "rashi-full-corpus-review-batches.json"
+INVENTORY_REL = "docs/reports/data/rashi-translation-quality-inventory.json"
 
 DISPOSITIONS = {"VERIFIED", "MINOR_EDIT", "SUBSTANTIVE_REPAIR", "RETRANSLATE",
                 "DUPLICATION_OR_CONTAMINATION", "BLOCKED"}
@@ -53,7 +75,15 @@ def fail(errors, idx, entry_id, msg):
     errors.append(f"record[{idx}] ({entry_id}): {msg}")
 
 
-def validate_records(doc):
+def git_show_inventory(base_ref):
+    r = subprocess.run(["git", "show", f"{base_ref}:{INVENTORY_REL}"],
+                        capture_output=True, text=True, cwd=REPO_ROOT)
+    if r.returncode != 0:
+        sys.exit(f"ERROR: cannot read {INVENTORY_REL!r} at {base_ref!r}: {r.stderr.strip()}")
+    return json.loads(r.stdout)
+
+
+def validate_records(doc, base_ref=None):
     errors = []
     batch_id = doc.get("batchId")
     records = doc.get("records", [])
@@ -69,6 +99,17 @@ def validate_records(doc):
     inv = json.loads(INVENTORY_PATH.read_text())
     inv_by_id = {e["id"]: e for e in inv["entries"]}
 
+    # hebrew/originalEnglish immutability is checked against the base ref when
+    # given (the pre-batch state), since a batch PR's own live working tree
+    # already carries the content edit this same file documents - see the
+    # module docstring for why comparing against the live file would be
+    # meaningless in that case.
+    if base_ref:
+        base_inv = git_show_inventory(base_ref)
+        immutable_by_id = {e["id"]: e for e in base_inv["entries"]}
+    else:
+        immutable_by_id = inv_by_id
+
     seen_ids = set()
     for idx, r in enumerate(records):
         entry_id = r.get("entryId")
@@ -83,20 +124,15 @@ def validate_records(doc):
         if entry_id not in batch_entry_ids:
             fail(errors, idx, entry_id, f"outside batch: not listed in {batch_id}'s own entryIds")
         live = inv_by_id[entry_id]
+        immutable = immutable_by_id.get(entry_id, live)
 
         if r.get("daf") != live["daf"]:
             fail(errors, idx, entry_id, f"daf mismatch: record says {r.get('daf')!r}, live inventory says {live['daf']!r}")
 
-        if r.get("hebrew") != live["he"]:
-            fail(errors, idx, entry_id, "immutable-field change: hebrew differs from the live corpus value")
+        if r.get("hebrew") != immutable["he"]:
+            fail(errors, idx, entry_id, "immutable-field change: hebrew differs from the corpus value")
 
-        # originalEnglish is checked against the live 'en' only when the
-        # entry has not yet been changed by an earlier record in this same
-        # file (a batch may legitimately touch the same entry's recorded
-        # 'before' value once); since UNREVIEWED entries' inventory 'en'
-        # is still their pre-batch value at validation time, this is a
-        # direct comparison.
-        if r.get("originalEnglish") != live["en"]:
+        if r.get("originalEnglish") != immutable["en"]:
             fail(errors, idx, entry_id, "immutable-field change: originalEnglish differs from the live pre-batch corpus value")
 
         first_disp = r.get("firstPassDisposition")
@@ -114,14 +150,6 @@ def validate_records(doc):
         if first_disp and first_disp != "VERIFIED" and not evidence:
             fail(errors, idx, entry_id, "missing firstPassEvidence for a non-VERIFIED firstPassDisposition")
 
-        proposed = r.get("proposedEnglish")
-        if first_disp in CHANGED_DISPOSITIONS and not proposed:
-            fail(errors, idx, entry_id, f"missing proposedEnglish for firstPassDisposition {first_disp}")
-        if first_disp in ("VERIFIED", "BLOCKED") and proposed is not None:
-            fail(errors, idx, entry_id, f"proposedEnglish set but firstPassDisposition is {first_disp} (must be null)")
-        if proposed is not None and proposed == r.get("originalEnglish"):
-            fail(errors, idx, entry_id, "proposedEnglish is identical to originalEnglish (not a real change)")
-
         second = r.get("secondPass", {})
         needs_second = first_disp in CHANGED_DISPOSITIONS or first_disp == "BLOCKED"
         sp_status = second.get("status")
@@ -136,6 +164,24 @@ def validate_records(doc):
         final_disp = r.get("finalDisposition")
         if final_disp not in DISPOSITIONS:
             fail(errors, idx, entry_id, f"missing/unsupported finalDisposition: {final_disp!r}")
+            final_disp = None
+
+        # proposedEnglish nullness is governed entirely by finalDisposition (the contract's own
+        # rule: "must be null when finalDisposition is VERIFIED or BLOCKED"), not by
+        # firstPassDisposition. A second pass can legitimately move a changed firstPassDisposition
+        # to a VERIFIED or BLOCKED finalDisposition two different ways - REJECTED (the proposal
+        # didn't hold, entry reverts to VERIFIED) or REMAINED_BLOCKED (the finding stands but
+        # applying it is blocked by something outside the entry's own English, e.g. a corpus-wide
+        # gate the finding's task type cannot itself authorize) - and in either case a live
+        # proposedEnglish would misrepresent the record as an unresolved, still-pending change.
+        # Both checks key off final_disp for exactly this reason, not off first_disp.
+        proposed = r.get("proposedEnglish")
+        if final_disp in CHANGED_DISPOSITIONS and not proposed:
+            fail(errors, idx, entry_id, f"missing proposedEnglish for finalDisposition {final_disp}")
+        if final_disp in ("VERIFIED", "BLOCKED") and proposed is not None:
+            fail(errors, idx, entry_id, f"proposedEnglish set but finalDisposition is {final_disp} (must be null)")
+        if proposed is not None and proposed == r.get("originalEnglish"):
+            fail(errors, idx, entry_id, "proposedEnglish is identical to originalEnglish (not a real change)")
 
         final_english = second.get("finalEnglish") or proposed
         changed_from_original = final_english is not None and final_english != r.get("originalEnglish")
@@ -184,10 +230,18 @@ def validate_records(doc):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("records_file")
+    ap.add_argument("--base", default=None,
+                     help="base ref for hebrew/originalEnglish immutability (e.g. origin/main); "
+                          "omit to compare against the live working tree instead")
     opts = ap.parse_args()
 
+    base = opts.base
+    if base is None:
+        env_base = os.environ.get("GITHUB_BASE_REF", "").strip()
+        base = f"origin/{env_base}" if env_base else None
+
     doc = json.loads(Path(opts.records_file).read_text())
-    errors = validate_records(doc)
+    errors = validate_records(doc, base_ref=base)
     if errors:
         print(f"Review-record validation FAILED ({len(errors)} violation(s)):\n")
         for e in errors:

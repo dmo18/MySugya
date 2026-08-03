@@ -17,7 +17,14 @@
     "package-lock.json",
     "docs/rashi-audit-backlog.md",
     "docs/reports/data/rashi-translation-quality-inventory.json",
+    "docs/reports/data/rashi-step6-batch-*-review-records.json",
     "docs/reports/rashi-pilot-*.md",
+    "docs/reports/rashi-step6-batch-*-report.md",
+    "docs/reports/rashi-full-corpus-review-strategy.md",
+    "modules/<module>/scripts/validate_rashi_review_records.py",
+    "modules/<module>/scripts/test_validate_rashi_review_records.py",
+    "modules/<module>/scripts/check_rashi_pr_scope.py",
+    "scripts/worker_task_types.json",
     ".worker-manifest.json"
    ],
    "allowedJsonPaths": [
