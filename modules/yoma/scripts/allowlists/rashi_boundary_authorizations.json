@@ -8,7 +8,7 @@
    "reason": "Single-word stub comment (\"Davar\") whose own text explicitly marks it as a continuation (\"stub continuation, continues on 5a\"). The comment it begins is completed on daf 5a, not on 4b.",
    "evidenceClassification": "daf-boundary-truncation",
    "boundaryRule": "Cross-daf linkedGemaraLineIds are prohibited (see modules/yoma/scripts/validate_rashi_links.py). A Rashi comment whose underlying Gemara content is truncated at the daf's own final line and completes on the next daf has no valid same-daf target line, and must remain unlinked rather than be attached to the nearest same-daf line or to a nonexistent cross-daf id.",
-   "enFingerprint": "8dc9908e03e83ba1"
+   "enFingerprint": "046142bf3866aedc"
   },
   {
    "daf": "61a",
