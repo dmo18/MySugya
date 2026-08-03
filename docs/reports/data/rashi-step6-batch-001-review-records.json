@@ -7136,7 +7136,7 @@
    "daf": "4b",
    "hebrew": "דבר",
    "originalEnglish": "R61: 'Davar' - a word (stub continuation, continues on 5a).",
-   "proposedEnglish": null,
+   "proposedEnglish": "'Something' - the daf ends mid-word here; Rashi's comment continues on 5a, where the lemma is completed as 'Something that does not invalidate for future generations.'",
    "firstPassDisposition": "SUBSTANTIVE_REPAIR",
    "defectTags": [
     "INVENTED_TEXT",
@@ -7145,17 +7145,17 @@
    "firstPassEvidence": "Hebrew is the single word 'דבר' - a dibbur hamatchil stub whose comment is cut off by the daf boundary and resumes on 5a. Two defects: (1) the English opens with 'R61:' - a stray artifact (an entry-number leaking into the visible text) that corresponds to nothing in the Hebrew and matches no established corpus convention for page-boundary stubs (checked: no other entry in modules/yoma/learning_data.js uses an 'R<number>:' prefix; the corpus's actual convention is exemplified at rashi-yoma-005a-040, 'The matter - the daf ends mid-word here; Rashi's comment continues on 5b...'). (2) 'a word' is the wrong sense of 'דבר' here: the immediate 5a continuation (rashi-yoma-005a-001) confirms the lemma is 'דבר שאין מעכב בהן לדורות' ('a matter/detail that does not invalidate for future generations'), directly picking up Gemara l41's 'דבר המעכב לדורות' ('a matter that invalidates for [all] generations') - i.e. 'דבר' means 'a matter/legal detail,' not 'a word.' Verified against the actual 5a text in learning_data.js. Proposed fix (not applied, see structuralStop): \"'Davar' - a matter; the comment is truncated here at the end of the daf, and continues on 5a, where the lemma is completed as 'a matter that does not invalidate for future generations.'\"",
    "secondPass": {
     "required": true,
-    "status": "REMAINED_BLOCKED",
-    "evidence": "Independently re-derived a second time; same defect confirmed and same fix proposed, but application remains blocked by the allowlist ratchet gate, not by any remaining semantic uncertainty.",
-    "finalEnglish": null
+    "status": "CONFIRMED",
+    "evidence": "Resolution PR (following the boundary-fingerprint ratchet fix): performed a fresh, independent second semantic pass from scratch, not a copy-forward of the batch's original finding. Re-read modules/yoma/assets/talmuddev/4b.json's raw rashi[60] ('דבר', confirmed a complete standalone word, not a mid-word fragment) and 5a.json's raw rashi[0] ('דבר שאין מעכב בהן לדורות. לקמיה מפרש לה...', confirming the continuation) and 5a's Gemara lines 1-8 (Rav Yosef's semikha analysis, 'דבר שאין מעכב לדורות' at line 3, matching Vayikra's shirei mitzvah category). The original defect (INVENTED_TEXT 'R61:' artifact; WRONG_MEANING 'a word' for 'דבר') is reconfirmed. The wording is refined from the batch's original proposal for two reasons found on this fresh pass: (1) it now follows the corpus's own established page-boundary stub template verbatim, exemplified at the already-VERIFIED rashi-yoma-005a-040 ('<gloss>' - the daf ends mid-word here; Rashi's comment continues on <daf>, where <continuation>.), rather than a one-off phrasing; (2) 'Something' replaces 'a matter' so this stub is internally consistent with the already-VERIFIED rashi-yoma-005a-001, which is the literal completion of this same dibbur hamatchil and already renders 'דבר שאין מעכב בהן לדורות' as 'Something that does not invalidate for future generations' - two different English glosses for one continuous lemma would itself be a new inconsistency defect. 'דבר' is not a tracked term in docs/reports/data/rashi-terminology-registry.json, so no registry override applies. CONFIRMED.",
+    "finalEnglish": "'Something' - the daf ends mid-word here; Rashi's comment continues on 5a, where the lemma is completed as 'Something that does not invalidate for future generations.'"
    },
    "blindQA": {
     "selected": false,
     "result": null,
     "evidence": null
    },
-   "finalDisposition": "BLOCKED",
-   "structuralStop": "Confirmed translation defect (INVENTED_TEXT, WRONG_MEANING - see firstPassEvidence/proposedEnglish), but this is a boundary (empty linkedGemaraLineIds) entry whose authorization record in modules/yoma/scripts/allowlists/rashi_boundary_authorizations.json carries an enFingerprint keyed to its exact current English text. Applying the fix would change that fingerprint, which the allowlist ratchet (check_rashi_pr_scope.py, enforced in CI via 'npm run check:rashi-pr-scope:yoma') treats as an unauthorized new entry rather than a legitimate re-fingerprint of an existing one; no task type available to this batch review can authorize that registry change. Deferred to a dedicated follow-up PR (RASHI_ALLOWLIST_RESTRUCTURE=1 authorization, or a fix to the ratchet's added-vs-modified detection logic).",
+   "finalDisposition": "SUBSTANTIVE_REPAIR",
+   "structuralStop": null,
    "repairPR": null,
    "finalVerificationSHA": null
   }
@@ -7166,14 +7166,14 @@
   "dispositionCounts": {
    "VERIFIED": 259,
    "MINOR_EDIT": 8,
-   "SUBSTANTIVE_REPAIR": 6,
-   "BLOCKED": 1
+   "SUBSTANTIVE_REPAIR": 7,
+   "BLOCKED": 0
   },
-  "changedCount": 14,
+  "changedCount": 15,
   "secondPassCounts": {
-   "CONFIRMED": 14,
+   "CONFIRMED": 15,
    "REJECTED": 1,
-   "REMAINED_BLOCKED": 1
+   "REMAINED_BLOCKED": 0
   },
   "blindQASampleSize": 26,
   "blindQAEscalationCount": 0

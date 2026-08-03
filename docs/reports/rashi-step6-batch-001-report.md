@@ -19,7 +19,7 @@ origin/main`).
 - **Entries**: 274
 - **Risk-tier counts** (Step 2 automated triage, advisory only): high 0, medium 20, zero-risk 254
 - **Historical-provenance counts** (Step 1): `narrow-fix-only` 54, `content-reviewed` 162, `checked-no-fix-needed` 58
-- **Estimated changed count** (Step 5 projection): 30.1 - actual: 14 applied, 1 confirmed-but-deferred (see below)
+- **Estimated changed count** (Step 5 projection): 30.1 - actual: 15 applied (14 at this batch's own merge, 1 resolved by the follow-up PRs described in the Resolution addendum below)
 
 Selected via the committed batch plan
 (`docs/reports/data/rashi-full-corpus-review-batches.json`), re-generated
@@ -68,22 +68,28 @@ proceeded to merge as-is.
 
 ## Aggregate results (274 entries)
 
+Current, post-resolution disposition totals (see the Resolution addendum
+under "The one confirmed-but-deferred finding" below - `rashi-yoma-004b-061`
+moved from BLOCKED to SUBSTANTIVE_REPAIR; every other figure is exactly as
+this batch merged):
+
 | Disposition | Count | Rate |
 |---|---|---|
 | VERIFIED | 259 | 94.5% |
 | MINOR_EDIT | 8 | 2.9% |
-| SUBSTANTIVE_REPAIR | 6 | 2.2% |
+| SUBSTANTIVE_REPAIR | 7 | 2.6% |
 | RETRANSLATE | 0 | 0.0% |
 | DUPLICATION_OR_CONTAMINATION | 0 | 0.0% |
-| BLOCKED | 1 | 0.4% |
+| BLOCKED | 0 | 0.0% |
 | **Total** | **274** | **100%** |
 
-**Changed-translation count: 14** (English actually applied to the
-corpus). Second-pass results: 14/14 CONFIRMED, 1 REJECTED (reverted to
-VERIFIED, no change), 1 REMAINED_BLOCKED (confirmed defect and ready fix,
-application deferred - see below).
+**Changed-translation count: 15** (English actually applied to the
+corpus; 14 at this batch's own merge, 1 more once the follow-up PRs
+resolved the boundary-fingerprint gate blocker). Second-pass results:
+15/15 CONFIRMED, 1 REJECTED (reverted to VERIFIED, no change), 0 remain
+BLOCKED.
 
-Defect-tag totals across all 15 findings (14 applied + 1 deferred):
+Defect-tag totals across all 15 findings (all now applied):
 SHIFTED (6), DUPLICATED (3), INVENTED_TEXT (3), WRONG_MEANING (3),
 OMITTED_TEXT (1), WRONG_LOGIC (1), WRONG_REFERENT (1),
 WRONG_TECHNICAL_TERM (1). No entry received a tag outside the campaign's
@@ -171,6 +177,49 @@ finding, proposed fix, and this exact blocker are recorded in
 inventory's `reviewerEvidence` for this entry, so the fix is ready to
 apply the moment the registry-update path is authorized.
 
+### Resolution addendum
+
+This blocker history above is preserved exactly as it occurred and is not
+rewritten: the entry was first found and confirmed defective during this
+batch, and its fix was genuinely blocked by the allowlist ratchet's
+identity-blind diff, not by any remaining semantic uncertainty. It has
+since been resolved by two follow-up PRs, both scoped narrowly outside
+this batch:
+
+1. A tooling PR added `modules/yoma/scripts/boundary_fingerprint_ratchet.py`,
+   an identity-aware ratchet (keyed by the registry's own existing
+   `daf`+`vilnaLine` identity) that lets a boundary authorization's
+   `enFingerprint` be refreshed - and only that field - when ten
+   conditions all hold, independently recomputing both fingerprints from
+   the actual corpus text rather than trusting the registry file, the
+   manifest, or the review record. It also added the narrowly-scoped
+   `rashi-boundary-translation-repair` task type, which authorizes exactly
+   one boundary-authorized entry's English plus that one fingerprint
+   refresh, nothing else.
+2. This repair PR used that new task type to apply the fix. A fresh,
+   independent second semantic pass (re-reading the raw Hebrew stub and
+   its 5a continuation from scratch, not copying the batch's original
+   finding forward) reconfirmed the defect and refined the wording from
+   the batch's original `'Davar' - a matter; ...` proposal to
+   `'Something' - the daf ends mid-word here; Rashi's comment continues on
+   5a, where the lemma is completed as 'Something that does not
+   invalidate for future generations.'` - matching the corpus's
+   established page-boundary stub template (`rashi-yoma-005a-040`) and
+   staying internally consistent with the entry this stub is truncated
+   from, `rashi-yoma-005a-001`, which already renders the same completed
+   lemma as "Something that does not invalidate for future generations."
+   The second pass returned **CONFIRMED**; only this entry's English and
+   its own authorization's `enFingerprint` changed - no other registry
+   record, no Hebrew, and no other Rashi entry changed.
+
+**Updated final disposition: SUBSTANTIVE_REPAIR** (defect tags
+`INVENTED_TEXT`, `WRONG_MEANING` unchanged - they document what was
+found, not an open question). Batch 001 now has zero unresolved
+blockers. The review record, the translation-quality inventory, and the
+aggregate table and status below are updated accordingly; the reviewed
+(474) and UNREVIEWED (8,380) full-corpus totals are unaffected - only
+this one entry's disposition changed.
+
 ## Tooling fix discovered during this batch
 
 Validating this batch's own review-record file against
@@ -215,9 +264,14 @@ received once before, in Step 4 PR B0. 6 new regression tests added
 
 ## Status
 
-**Batch 001: COMPLETE.** All 274 entries reviewed with an assigned final
-disposition; 0 entries left in an ambiguous state; 1 BLOCKED
-(`rashi-yoma-004b-061`, a tooling-gate deferral with a ready fix, not an
-open semantic question - see above). Next batch per the strategy
-document's recommended order: `step6-batch-040` (perek 8, 85b-87a,
-highest systemic-candidate density).
+**Batch 001: COMPLETE, zero unresolved blockers.** All 274 entries
+reviewed with an assigned final disposition; 0 entries left in an
+ambiguous state. `rashi-yoma-004b-061` was temporarily BLOCKED by the
+allowlist ratchet's identity-blind diff (a tooling-gate stop, never an
+open semantic question - see the Resolution addendum above) and has
+since been resolved by two narrowly-scoped follow-up PRs; it is now
+SUBSTANTIVE_REPAIR. Full-corpus progress is unchanged by this resolution:
+474 of 8,854 entries reviewed, 8,380 remain UNREVIEWED. Step 6 status:
+**IN PROGRESS**; `step6-batch-040` has not been started. Next batch per
+the strategy document's recommended order: `step6-batch-040` (perek 8,
+85b-87a, highest systemic-candidate density).

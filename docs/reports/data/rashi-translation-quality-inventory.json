@@ -8259,7 +8259,7 @@
    "daf": "4b",
    "vilnaLine": 61,
    "he": "דבר",
-   "en": "R61: 'Davar' - a word (stub continuation, continues on 5a).",
+   "en": "'Something' - the daf ends mid-word here; Rashi's comment continues on 5a, where the lemma is completed as 'Something that does not invalidate for future generations.'",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -8274,12 +8274,12 @@
    ],
    "riskScore": 4,
    "reviewStatus": "REVIEWED",
-   "primaryDisposition": "BLOCKED",
+   "primaryDisposition": "SUBSTANTIVE_REPAIR",
    "defectTags": [
     "INVENTED_TEXT",
     "WRONG_MEANING"
    ],
-   "reviewerEvidence": "Confirmed defect (INVENTED_TEXT, WRONG_MEANING): the leading \"R61:\" is a stray processing artifact with no Hebrew basis anywhere in the corpus, and \"a word\" mistranslates the truncated Hebrew \"דבר\" (which continues on 5a as \"דבר שאין מעכב בהן לדורות\", confirming the intended sense is \"a matter\", not \"a word\"). Independently re-derived a second time (elevated scrutiny): CONFIRMED, same conclusion, proposed English: 'Davar' - a matter; the comment is truncated here at the end of the daf, and continues on 5a, where the lemma is completed as 'a matter that does not invalidate for future generations.' STRUCTURALLY BLOCKED FROM APPLICATION THIS BATCH (not a semantic-uncertainty block): rashi-yoma-004b-061 is a boundary (empty linkedGemaraLineIds) entry, and its authorization record in modules/yoma/scripts/allowlists/rashi_boundary_authorizations.json carries an enFingerprint keyed to its exact English text; applying this fix would change that fingerprint, which the allowlist ratchet (check_rashi_pr_scope.py, enforced in CI) treats as an unauthorized new entry rather than a legitimate re-fingerprint of an existing one, and no task type available to this batch review can authorize that registry change without a separately-scoped process. The finding and proposed fix are recorded here for a dedicated follow-up (either a docs-tooling PR that both updates the registry and applies this fix under RASHI_ALLOWLIST_RESTRUCTURE=1, or a fix to the ratchet's own added-vs-modified detection logic). English is unchanged in this batch pending that follow-up.",
+   "reviewerEvidence": "Confirmed defect (INVENTED_TEXT, WRONG_MEANING): the leading \"R61:\" is a stray processing artifact with no Hebrew basis anywhere in the corpus, and \"a word\" mistranslates the truncated Hebrew \"דבר\" (which continues on 5a as \"דבר שאין מעכב בהן לדורות\", confirming the intended sense is \"a matter/thing\", not \"a word\"). First found and confirmed in Step 6 batch 001, where application was STRUCTURALLY BLOCKED (not a semantic-uncertainty block): this is a boundary (empty linkedGemaraLineIds) entry whose authorization record in modules/yoma/scripts/allowlists/rashi_boundary_authorizations.json carries an enFingerprint keyed to its exact English text, and the allowlist ratchet's identity-blind set diff treated any refresh of that fingerprint as an unauthorized new registry entry. Resolved via a dedicated two-PR follow-up: an identity-aware fingerprint-refresh ratchet plus the rashi-boundary-translation-repair task type (tooling PR), then this repair (rashi-boundary-translation-repair PR). A fresh, independent second semantic pass for this resolution re-verified the defect from the raw Hebrew (modules/yoma/assets/talmuddev/4b.json rashi[60]/5a.json rashi[0]) and refined the wording from the batch's original 'a matter' proposal to 'Something', matching the corpus's established page-boundary stub template (already-VERIFIED rashi-yoma-005a-040) and staying internally consistent with the already-VERIFIED rashi-yoma-005a-001, which completes this same dibbur hamatchil as 'Something that does not invalidate for future generations.' CONFIRMED and applied.",
    "repairPR": null,
    "finalVerificationSHA": null
   },

@@ -1,7 +1,9 @@
 {
- "type": "docs-tooling",
+ "type": "rashi-boundary-translation-repair",
  "module": "yoma",
- "targets": [],
+ "targets": [
+  "4b"
+ ],
  "model": "sonnet",
  "paused": false,
  "lifecycle": "pr",
@@ -10,41 +12,41 @@
  "reviewPolicy": "none",
  "escalationModel": "sonnet",
  "authorizations": [],
- "maxBatch": null,
+ "maxBatch": 1,
  "allowedFiles": [
-  "docs/*",
-  "scripts/*",
-  "shared/*",
-  "modules/*/module.json",
-  "modules/<module>/scripts/*.py",
-  "modules/<module>/scripts/allowlists/*",
-  "modules/<module>/MODULE.md",
-  ".github/workflows/*",
-  "githooks/*",
+  "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+  "modules/<module>/learning_data.js",
+  "modules/<module>/coverage.json",
+  "modules/<module>/scripts/allowlists/rashi_boundary_authorizations.json",
+  "VERSION",
   "package.json",
   "package-lock.json",
-  "VERSION",
-  "README.md",
-  "CLAUDE.md",
-  "SOURCES.md",
-  "tests/*",
-  ".gitignore",
-  ".worker-manifest.json",
-  ".worker-queue.json"
+  "docs/rashi-audit-backlog.md",
+  "docs/reports/data/rashi-translation-quality-inventory.json",
+  "docs/reports/data/rashi-step6-batch-*-review-records.json",
+  "docs/reports/rashi-step6-batch-*-report.md",
+  ".worker-manifest.json"
  ],
- "allowedJsonPaths": [],
+ "allowedJsonPaths": [
+  "rashiTranslations[*].en"
+ ],
  "forbiddenFiles": [
-  "modules/yoma/assets/learning/*",
-  "modules/yoma/assets/talmuddev/*",
-  "modules/yoma/assets/daftexts/*",
-  "modules/yoma/source_store.js"
+  ".github/workflows/*",
+  "scripts/*",
+  "modules/yoma/scripts/*.py",
+  "githooks/*"
  ],
- "allowlistPolicy": "restructure-with-env",
- "structurePolicy": "not-applicable",
+ "allowlistPolicy": "boundary-fingerprint-refresh",
+ "structurePolicy": "forbidden",
  "requiredValidators": [
-  "validate:offline:yoma"
+  "validate:offline:yoma",
+  "check:rashi-pr-scope:yoma",
+  "validate:rashi:boundary:yoma"
  ],
- "generationCommands": [],
+ "generationCommands": [
+  "cd modules/yoma && python3 scripts/build_learning_data.py",
+  "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+ ],
  "buildTestCommands": [
   "npm run build",
   "npm run check:deploy-html",
@@ -52,10 +54,21 @@
   "npm run test:browser"
  ],
  "escalationTriggers": [
-  "any existing gate would be weakened",
-  "workflow permission changes would be needed"
+  "the second independent semantic pass does not return CONFIRMED",
+  "any registry field other than enFingerprint would need to change",
+  "a second Rashi entry anywhere in the corpus would need to change",
+  "Hebrew source appears defective",
+  "any gate failure not fixable by correcting the one authorized entry's own English"
  ],
  "allowlistDrain": null,
  "scaffoldDebt": null,
- "repetitionDrain": null
+ "repetitionDrain": null,
+ "entryId": "rashi-yoma-004b-061",
+ "registryIdentity": {
+  "daf": "4b",
+  "vilnaLine": 61
+ },
+ "baseEnFingerprint": "8dc9908e03e83ba1",
+ "expectedNewEnFingerprint": "046142bf3866aedc",
+ "reviewRecordPath": "docs/reports/data/rashi-step6-batch-001-review-records.json"
 }

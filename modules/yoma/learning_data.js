@@ -9845,7 +9845,7 @@ const DAF_CONTENT = {
         daf: "4b",
         vilnaLine: 61,
         he: "דבר",
-        en: "R61: 'Davar' - a word (stub continuation, continues on 5a).",
+        en: "'Something' - the daf ends mid-word here; Rashi's comment continues on 5a, where the lemma is completed as 'Something that does not invalidate for future generations.'",
         enSource: "ai_helper_translation",
         source: "talmud.dev",
         confidence: "helper",
