@@ -37,8 +37,8 @@ inventory review-metadata.
 | Child | Daf | Entries | Changed | PR | Merge SHA | Status |
 |---|---|---|---|---|---|---|
 | 1 | 85b | 58 | 17 | #407 | `ad5a66939cd78a649679601049fab9838969be99` | merged |
-| 2 | 86a | 68 | 30 | (this PR) | (pending) | applying |
-| 3 | 86b | 57 | 27 | (pending) | (pending) | not started |
+| 2 | 86a | 68 | 30 | #408 | `dd031b4d98b5454ddddd702fe5e0e28424ff3595` | merged |
+| 3 | 86b | 57 | 27 | (this PR) | (pending) | applying |
 | 4 | 87a | 70 | 35 | (pending) | (pending) | not started |
 
 This table is updated in place as each child PR merges. Batch 040 is not
@@ -180,7 +180,7 @@ merges, since only that state is the true post-batch snapshot.
   `npm run build`, `npm run check:deploy-html`, `python3
   scripts/worker_pipeline.py verify --full`: all green
 
-### Child 2 (86a) - 30 changed, 68 reviewed
+### Child 2 (86a) - 30 changed, 68 reviewed (merged as #408)
 
 - Rashi entry count: 8,854 (unchanged) - Associations: 10,061 declared, 0
   broken, 0 cross-daf (unchanged) - Boundary registry: 20/20 (unchanged)
@@ -189,9 +189,18 @@ merges, since only that state is the true post-batch snapshot.
   `npm run build`, `npm run check:deploy-html`, `python3
   scripts/worker_pipeline.py verify --full`: all green
 
+### Child 3 (86b) - 27 changed, 57 reviewed
+
+- Rashi entry count: 8,854 (unchanged) - Associations: 10,061 declared, 0
+  broken, 0 cross-daf (unchanged) - Boundary registry: 20/20 (unchanged)
+- Hebrew text: byte-unchanged across all 57 entries on this daf
+- `npm run validate:offline:yoma`, `npm test`, `npm run test:browser`,
+  `npm run build`, `npm run check:deploy-html`, `python3
+  scripts/worker_pipeline.py verify --full`: all green
+
 ## Status
 
-**Batch 040: IN PROGRESS.** Child 1/4 (85b) applying now. Full-corpus
+**Batch 040: IN PROGRESS.** Child 3/4 (86b) applying now. Full-corpus
 progress after child 1: see batch progress tool
 (`generate_rashi_batch_progress.py`), which correctly reports this batch
 as partial (58/253) until all four children merge. Reviewed/UNREVIEWED
