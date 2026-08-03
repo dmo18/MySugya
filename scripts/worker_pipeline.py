@@ -28,6 +28,8 @@ so nothing is duplicated or weakened. Offline except local git.
 """
 import argparse
 import fnmatch
+import hashlib
+import importlib.util
 import json
 import os
 import re
@@ -137,6 +139,7 @@ def all_content_prefixes():
 RASHI_TYPES = {"rashi-repair", "rashi-reconstruction", "rashi-realignment",
                "placeholder-backfill", "rashi-structural-repair"}
 STRUCTURAL_TYPE = "rashi-structural-repair"
+REPAIR_TASK_TYPE = "rashi-boundary-translation-repair"
 # Task types eligible for the source-relative citation-evidence policy (see
 # drift_ok_for_type below). Deliberately excludes rashi-structural-repair,
 # which already has its own, broader, unconditional line-level-safe allowance.
@@ -603,15 +606,70 @@ def json_scope_check(mb, changed, m, spec, errors):
                 errors.append(f"{p}: {ptr} changed (outside the {m['type']} mutable path set)")
 
 
+_BOUNDARY_RATCHET_CACHE = {}
+
+
+def _load_boundary_ratchet():
+    """Dynamically load modules/<module>/scripts/boundary_fingerprint_ratchet.py
+    for the currently active module. Not a static top-of-file import: YSCRIPTS
+    is rebound per invocation by set_active_module(), so the file to load is
+    only known once a module is active. None if the active module has no such
+    file (only Yoma does today)."""
+    path = YSCRIPTS / "boundary_fingerprint_ratchet.py"
+    if not path.exists():
+        return None
+    key = str(path)
+    if key not in _BOUNDARY_RATCHET_CACHE:
+        # The module's own internal `from validate_rashi_review_records import
+        # ...` needs YSCRIPTS on sys.path to resolve, exactly as it does when
+        # check_rashi_pr_scope.py imports it as a same-directory sibling.
+        if str(YSCRIPTS) not in sys.path:
+            sys.path.insert(0, str(YSCRIPTS))
+        spec = importlib.util.spec_from_file_location(
+            f"boundary_fingerprint_ratchet_{ACTIVE_MODULE['key']}", path)
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        _BOUNDARY_RATCHET_CACHE[key] = mod
+    return _BOUNDARY_RATCHET_CACHE[key]
+
+
+def _check_boundary_registry_ratchet(rel, old_entries, new_entries, mb, errors, policy):
+    bfr = _load_boundary_ratchet()
+    old_by_id, new_by_id, added, _removed, rehashed = bfr.diff_registry_entries(old_entries, new_entries)
+    for daf, vl in added:
+        errors.append(f"{rel}: entries entry ADDED (policy {policy}): {daf} L{vl}")
+    if len(rehashed) > 1:
+        errors.append(f"{rel}: {len(rehashed)} registry entries rehashed in one PR "
+                       f"(only one fingerprint refresh is permitted per PR): {rehashed}")
+        return
+    if not rehashed:
+        return
+    identity = rehashed[0]
+    learn_dir_rel = ACTIVE_MODULE["paths"]["learningDataDir"]
+    ok, reason = bfr.authorize_rehash(
+        REPO, mb, learn_dir_rel, identity, old_by_id[identity], new_by_id[identity],
+        MANIFEST_DEFAULT, expected_module=ACTIVE_MODULE["key"],
+    )
+    print(f"NOTE: {reason}")
+    if not ok:
+        errors.append(f"{rel}: {reason}")
+
+
 def allowlist_ratchet_inline(mb, policy, errors):
-    """Remove-only allowlist enforcement for non-Rashi task types."""
+    """Remove-only allowlist enforcement for non-Rashi task types. The
+    boundary-authorizations registry gets one narrow exception: see
+    _check_boundary_registry_ratchet / boundary_fingerprint_ratchet.py."""
     if policy == "restructure-with-env" and os.environ.get("RASHI_ALLOWLIST_RESTRUCTURE") == "1":
         return
+    bfr = _load_boundary_ratchet()
     for p in sorted((YSCRIPTS / "allowlists").glob("*.json")):
         rel = p.relative_to(REPO).as_posix()
         r = sh(["git", "show", f"{mb}:{rel}"])
         old = json.loads(r.stdout) if r.returncode == 0 else {}
         new = json.loads(p.read_text())
+        if bfr is not None and p.name == bfr.BOUNDARY_FILENAME:
+            _check_boundary_registry_ratchet(rel, old.get("entries", []), new.get("entries", []), mb, errors, policy)
+            continue
         for section in ("entries", "count_mismatches"):
             oe = {json.dumps(e, sort_keys=True) for e in old.get(section, [])}
             ne = {json.dumps(e, sort_keys=True) for e in new.get(section, [])}
@@ -674,6 +732,50 @@ def cmd_manifest(opts):
         rsnap = repetition_baseline_entries(targets[0])
         if rsnap:
             repetition_drain = {"snapshot": rsnap}
+
+    # rashi-boundary-translation-repair's extra manifest fields are all
+    # derived here from the current registry/review-record state, then
+    # independently RECOMPUTED and cross-checked by
+    # boundary_fingerprint_ratchet.authorize_rehash at scope-check time -
+    # the manifest's declared values are a self-check, never the ground
+    # truth the gate trusts. See docs/reports/rashi-boundary-fingerprint-
+    # ratchet.md for the full contract.
+    boundary_repair_fields = {}
+    if opts.type == REPAIR_TASK_TYPE:
+        if len(targets) != 1:
+            sys.exit(f"ERROR: {REPAIR_TASK_TYPE!r} requires --range with exactly one daf")
+        if opts.vilna_line is None:
+            sys.exit(f"ERROR: {REPAIR_TASK_TYPE!r} requires --vilna-line")
+        if not opts.entry_id:
+            sys.exit(f"ERROR: {REPAIR_TASK_TYPE!r} requires --entry-id")
+        if not opts.review_record:
+            sys.exit(f"ERROR: {REPAIR_TASK_TYPE!r} requires --review-record")
+        daf = targets[0]
+        registry_path = YSCRIPTS / "allowlists" / "rashi_boundary_authorizations.json"
+        registry = json.loads(registry_path.read_text())
+        reg_entry = next((e for e in registry.get("entries", [])
+                           if e.get("daf") == daf and e.get("vilnaLine") == opts.vilna_line), None)
+        if reg_entry is None:
+            sys.exit(f"ERROR: no existing boundary authorization for {daf} L{opts.vilna_line}")
+        review_record_path = Path(opts.review_record)
+        review_doc = json.loads(review_record_path.read_text())
+        record = next((r for r in review_doc.get("records", []) if r.get("entryId") == opts.entry_id), None)
+        if record is None:
+            sys.exit(f"ERROR: no record for entryId {opts.entry_id!r} in {opts.review_record!r}")
+        final_en = (record.get("secondPass") or {}).get("finalEnglish") or record.get("proposedEnglish")
+        if not final_en:
+            sys.exit(f"ERROR: review record for {opts.entry_id!r} has no finalEnglish/proposedEnglish yet")
+        review_record_rel = review_record_path.as_posix()
+        if review_record_path.is_absolute():
+            review_record_rel = review_record_path.resolve().relative_to(REPO.resolve()).as_posix()
+        boundary_repair_fields = {
+            "entryId": opts.entry_id,
+            "registryIdentity": {"daf": daf, "vilnaLine": opts.vilna_line},
+            "baseEnFingerprint": reg_entry["enFingerprint"],
+            "expectedNewEnFingerprint": hashlib.sha256(final_en.encode("utf-8")).hexdigest()[:16],
+            "reviewRecordPath": review_record_rel,
+        }
+
     manifest = {
         "type": opts.type,
         "module": opts.module,
@@ -700,6 +802,7 @@ def cmd_manifest(opts):
         "scaffoldDebt": scaffold_debt,
         "repetitionDrain": repetition_drain,
     }
+    manifest.update(boundary_repair_fields)
     out = json.dumps(manifest, indent=1)
     if opts.out:
         Path(opts.out).write_text(out + "\n")
@@ -2332,6 +2435,16 @@ def main():
                         "target only); the snapshot is repair debt to eliminate, not an "
                         "exemption, and worker:verify fails if any snapshotted entry is not "
                         "cleanly removed as validator-confirmed stale")
+    p.add_argument("--vilna-line", type=int, default=None,
+                   help=f"required for --type {REPAIR_TASK_TYPE}: the boundary-authorized "
+                        f"entry's vilnaLine, together with --range's single daf forming its "
+                        f"registryIdentity")
+    p.add_argument("--entry-id", default=None,
+                   help=f"required for --type {REPAIR_TASK_TYPE}: the entryId this repair "
+                        f"authorizes (must match a record in --review-record)")
+    p.add_argument("--review-record", default=None,
+                   help=f"required for --type {REPAIR_TASK_TYPE}: path to the Step 6 batch "
+                        f"review-record JSON documenting a CONFIRMED second pass for --entry-id")
 
     for name in ("preflight", "packet", "prompt"):
         p = sub.add_parser(name)

@@ -45,6 +45,9 @@ import subprocess
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import boundary_fingerprint_ratchet  # noqa: E402
+
 LEARN_PREFIX = "modules/yoma/assets/learning/yoma/"
 LITERAL_PREFIX = "modules/yoma/assets/literal_en/"
 GENERATED = {"modules/yoma/learning_data.js", "modules/yoma/coverage.json"}
@@ -111,10 +114,42 @@ def structural_deferral(wm_data, types, fresh):
     return set()
 
 
+def check_boundary_registry_ratchet(path, old_entries, new_entries, base_rev, errors):
+    """Identity-aware ratchet for the boundary-authorizations registry only
+    (see boundary_fingerprint_ratchet.py). Entries may be removed freely
+    (unchanged, existing behavior); at most one entry may be rehashed
+    (its enFingerprint refreshed) per PR, and only when
+    boundary_fingerprint_ratchet.authorize_rehash approves it; entries may
+    never be added."""
+    old_by_id, new_by_id, added, _removed, rehashed = \
+        boundary_fingerprint_ratchet.diff_registry_entries(old_entries, new_entries)
+    for daf, vl in added:
+        errors.append(f"{path}: entries entry ADDED (ratchet is remove-only; "
+                       f"requires RASHI_ALLOWLIST_RESTRUCTURE=1): {daf} L{vl}")
+    if len(rehashed) > 1:
+        errors.append(f"{path}: {len(rehashed)} registry entries rehashed in one PR "
+                       f"(only one fingerprint refresh is permitted per PR): {rehashed}")
+        return
+    if not rehashed:
+        return
+    identity = rehashed[0]
+    top = run(["git", "rev-parse", "--show-toplevel"]).stdout.strip()
+    ok, reason = boundary_fingerprint_ratchet.authorize_rehash(
+        Path(top), base_rev, LEARN_PREFIX.rstrip("/"), identity,
+        old_by_id[identity], new_by_id[identity],
+        Path(".worker-manifest.json"), expected_module="yoma",
+    )
+    print(f"NOTE: {reason}")
+    if not ok:
+        errors.append(f"{path}: {reason}")
+
+
 def check_allowlist_ratchet(allowlist_changed, base_rev, errors):
     """Allowlist files may only shrink. Additions or new files require the
     explicit RASHI_ALLOWLIST_RESTRUCTURE=1 authorization (tooling PRs that
-    document a new baseline; see docs/rashi-workflow.md)."""
+    document a new baseline; see docs/rashi-workflow.md). The boundary-
+    authorizations registry gets one narrow exception to the remove-only
+    rule: see check_boundary_registry_ratchet."""
     if os.environ.get("RASHI_ALLOWLIST_RESTRUCTURE") == "1":
         if allowlist_changed:
             print("NOTE: RASHI_ALLOWLIST_RESTRUCTURE=1 set; allowlist growth "
@@ -127,6 +162,9 @@ def check_allowlist_ratchet(allowlist_changed, base_rev, errors):
             continue
         old = json.loads(base_text)
         new = json.loads(Path(p).read_text())
+        if Path(p).name == boundary_fingerprint_ratchet.BOUNDARY_FILENAME:
+            check_boundary_registry_ratchet(p, old.get("entries", []), new.get("entries", []), base_rev, errors)
+            continue
         for section in ("entries", "count_mismatches"):
             old_e = {json.dumps(e, sort_keys=True) for e in old.get(section, [])}
             new_e = {json.dumps(e, sort_keys=True) for e in new.get(section, [])}
