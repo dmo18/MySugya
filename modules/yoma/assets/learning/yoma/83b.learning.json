@@ -698,7 +698,7 @@
   {
    "vilnaLine": 1,
    "he": "אפשר בחולין פשיטא. דמתקנינן ליה: לא צריכא בשבת. שאפי'",
-   "en": "'Possible with chullin, obviously' - that we fix it. New comment: 'it is not necessary except regarding Shabbat' - for even",
+   "en": "'Possible with chullin, obviously' - that we fix it. 'it is not necessary except regarding Shabbat' - for even",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -720,7 +720,7 @@
   {
    "vilnaLine": 3,
    "he": "בעציץ שאינו נקוב. דטבל שלו מדרבנן ושבות דהפרשת מעשרות",
-   "en": "New comment: 'in an unperforated pot' - since its tevel status is rabbinic, and the rest-violation of separating tithes",
+   "en": "'in an unperforated pot' - since its tevel status is rabbinic, and the rest-violation of separating tithes",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -753,7 +753,7 @@
   {
    "vilnaLine": 6,
    "he": "כי האי גוונא: לימא תנאי היא. הך",
-   "en": "in a similar case. New comment: 'let us say this is a dispute among Tannaim' - this",
+   "en": "in a similar case. 'let us say this is a dispute among Tannaim' - this",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -798,7 +798,7 @@
   {
    "vilnaLine": 10,
    "he": "שאינו נקוב דרבנן: קורין לו רופא.",
-   "en": "which is only rabbinic. New comment: 'they call a doctor for him' -",
+   "en": "which is only rabbinic. 'they call a doctor for him' -",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -809,7 +809,7 @@
   {
    "vilnaLine": 11,
    "he": "בשבת: וקורעין לו תרנגולת. לתת",
-   "en": "on Shabbat. New comment: 'and they tear open a chicken for him' - to place it",
+   "en": "on Shabbat. 'and they tear open a chicken for him' - to place it",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -820,7 +820,7 @@
   {
    "vilnaLine": 12,
    "he": "על המכה שזו היא רפואתו: וגוזזין",
-   "en": "on the wound, since this is his remedy. New comment: 'and they cut",
+   "en": "on the wound, since this is his remedy. 'and they cut",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -842,7 +842,7 @@
   {
    "vilnaLine": 14,
    "he": "כרישין. כרתי: לימא. הא דרבה",
-   "en": "'Leeks' - karti. New comment: 'let us say' - this teaching of Rabba",
+   "en": "'Leeks' - karti. 'let us say' - this teaching of Rabba",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -964,7 +964,7 @@
   {
    "vilnaLine": 25,
    "he": "כתיב: הכי גר' מאי אין ראיה לדבר",
-   "en": "New comment: 'this is the correct reading: what is meant by there is no proof for the matter'",
+   "en": "'this is the correct reading: what is meant by there is no proof for the matter'",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -975,7 +975,7 @@
   {
    "vilnaLine": 26,
    "he": "דהתם לאו בולמוס אחזיה: מגרר",
-   "en": "since there, it was not bulmos that seized him. New comment: 'it draws",
+   "en": "since there, it was not bulmos that seized him. 'it draws",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -998,7 +998,7 @@
   {
    "vilnaLine": 28,
    "he": "רעבון: ויאכל. לחם והדר ויתנו לו",
-   "en": "hunger. New comment: 'and he ate' - bread, and then 'and they gave him",
+   "en": "hunger. 'and he ate' - bread, and then 'and they gave him",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1009,7 +1009,7 @@
   {
    "vilnaLine": 29,
    "he": "פלח דבילה: אליה. בשר שמן מאד: למזרחה של תאנה. שהשמש",
-   "en": "a piece of pressed figs.' New comment: 'fat tail' - very fatty meat. New comment: 'to the east of the fig tree' - since the sun",
+   "en": "a piece of pressed figs.' 'fat tail' - very fatty meat. 'to the east of the fig tree' - since the sun",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1021,7 +1021,7 @@
   {
    "vilnaLine": 30,
    "he": "מכה שם מן הבקר עד חצות היום והשמש ממתק את הפרי: וממגד.",
-   "en": "strikes there from morning until midday, and the sun sweetens the fruit. New comment: 'and the choice yield' -",
+   "en": "strikes there from morning until midday, and the sun sweetens the fruit. 'and the choice yield' -",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1032,7 +1032,7 @@
   {
    "vilnaLine": 31,
    "he": "לשון מעדנים: קפחיה. כפאו ונטל ככרו הימנו: אהדרוהו בלגי",
-   "en": "a term of delicacies. New comment: 'he grabbed him' - he overpowered him and took his loaf from him. New comment: 'they surrounded him with jugs",
+   "en": "a term of delicacies. 'he grabbed him' - he overpowered him and took his loaf from him. 'they surrounded him with jugs",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1055,7 +1055,7 @@
   {
    "vilnaLine": 33,
    "he": "של תבשילין: דייק בשמא. בשמו של",
-   "en": "of cooked dishes. New comment: 'he scrutinized the name' - the name of",
+   "en": "of cooked dishes. 'he scrutinized the name' - the name of",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1089,7 +1089,7 @@
   {
    "vilnaLine": 36,
    "he": "היה והפקידו אצלו כיסם: דבי",
-   "en": "and they deposited their purse with him. New comment: 'of",
+   "en": "and they deposited their purse with him. 'of",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1100,7 +1100,7 @@
   {
    "vilnaLine": 37,
    "he": "שמשי. של ערבי שבתות: לית בהו",
-   "en": "twilight' - of Shabbat eves. New comment: 'have no",
+   "en": "twilight' - of Shabbat eves. 'have no",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1133,7 +1133,7 @@
   {
    "vilnaLine": 40,
    "he": "שלא ילך ויטלנו: חזו טלפחי אשפמיה.",
-   "en": "so that he would not go and take it. New comment: 'they saw lentils on his mustache' -",
+   "en": "so that he would not go and take it. 'they saw lentils on his mustache' -",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1145,7 +1145,7 @@
   {
    "vilnaLine": 41,
    "he": "ראו עדשים על שפמו: יהבו סימנא",
-   "en": "they saw lentils on his mustache. New comment: 'they gave a sign",
+   "en": "they saw lentils on his mustache. 'they gave a sign",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1178,7 +1178,7 @@
   {
    "vilnaLine": 44,
    "he": "עדשים: מים ראשונים האכילו בשר",
-   "en": "lentils. New comment: 'the first waters caused pork to be eaten' -",
+   "en": "lentils. 'the first waters caused pork to be eaten' -",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1245,7 +1245,7 @@
   {
    "vilnaLine": 50,
    "he": "בשר חזיר: מים אחרונים הרגו את",
-   "en": "pork. New comment: 'the last waters killed",
+   "en": "pork. 'the last waters killed",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1289,7 +1289,7 @@
   {
    "vilnaLine": 54,
    "he": "היו עדשים נראין: ואזניו סרוחות.",
-   "en": "the lentils would not have been visible. New comment: 'and its ears droop' -",
+   "en": "the lentils would not have been visible. 'and its ears droop' -",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1301,7 +1301,7 @@
   {
    "vilnaLine": 55,
    "he": "גדולות וכפולות למטן: משחקות",
-   "en": "large and folded downward. New comment: 'they play",
+   "en": "large and folded downward. 'they play",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
