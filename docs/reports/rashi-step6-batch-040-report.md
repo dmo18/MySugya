@@ -38,8 +38,8 @@ inventory review-metadata.
 |---|---|---|---|---|---|---|
 | 1 | 85b | 58 | 17 | #407 | `ad5a66939cd78a649679601049fab9838969be99` | merged |
 | 2 | 86a | 68 | 30 | #408 | `dd031b4d98b5454ddddd702fe5e0e28424ff3595` | merged |
-| 3 | 86b | 57 | 27 | (this PR) | (pending) | applying |
-| 4 | 87a | 70 | 35 | (pending) | (pending) | not started |
+| 3 | 86b | 57 | 27 | #409 | `c5ac98e4c753c9fe97b6d1ae1a4dc5e8de9c32e2` | merged |
+| 4 | 87a | 70 | 35 | (this PR) | (pending) | applying |
 
 This table is updated in place as each child PR merges. Batch 040 is not
 COMPLETE until all four rows show a merge SHA.
@@ -189,7 +189,7 @@ merges, since only that state is the true post-batch snapshot.
   `npm run build`, `npm run check:deploy-html`, `python3
   scripts/worker_pipeline.py verify --full`: all green
 
-### Child 3 (86b) - 27 changed, 57 reviewed
+### Child 3 (86b) - 27 changed, 57 reviewed (merged as #409)
 
 - Rashi entry count: 8,854 (unchanged) - Associations: 10,061 declared, 0
   broken, 0 cross-daf (unchanged) - Boundary registry: 20/20 (unchanged)
@@ -198,11 +198,35 @@ merges, since only that state is the true post-batch snapshot.
   `npm run build`, `npm run check:deploy-html`, `python3
   scripts/worker_pipeline.py verify --full`: all green
 
+### Child 4 (87a) - 35 changed, 70 reviewed - final child, batch complete
+
+- Rashi entry count: 8,854 (unchanged) - Associations: 10,061 declared, 0
+  broken, 0 cross-daf (unchanged) - Boundary registry: 20/20 (unchanged)
+- Hebrew text: byte-unchanged across all 70 entries on this daf
+- `npm run validate:offline:yoma`, `npm test`, `npm run test:browser`,
+  `npm run build`, `npm run check:deploy-html`, `python3
+  scripts/worker_pipeline.py verify --full`: all green
+- `python3 modules/yoma/scripts/generate_rashi_batch_progress.py` now
+  reports `step6-batch-040` as `complete` (not partial, not in
+  `declaredInProgressBatches`): 727 of 8,854 entries reviewed
+  full-corpus (474 pre-batch + 253 this batch), 8,127 remain UNREVIEWED,
+  2 of 41 Step 6 batches complete
+- A fresh exhaustive Rashi browser-shard workflow was dispatched against
+  this final merge commit (highest systemic-candidate-density batch);
+  result and renderer-readiness outcome recorded in the campaign's final
+  report for this batch.
+
 ## Status
 
-**Batch 040: IN PROGRESS.** Child 3/4 (86b) applying now. Full-corpus
-progress after child 1: see batch progress tool
-(`generate_rashi_batch_progress.py`), which correctly reports this batch
-as partial (58/253) until all four children merge. Reviewed/UNREVIEWED
-full-corpus totals are updated per child PR below as each merges. Do not
-begin `step6-batch-` (any later batch) until this batch shows COMPLETE.
+**Batch 040: COMPLETE.** All 253 entries reviewed with an assigned final
+disposition across all four child PRs (#407 85b, #408 86a, #409 86b,
+this PR 87a); 0 entries left in an ambiguous state; 0 BLOCKED. Final
+disposition totals: 144 VERIFIED, 109 MINOR_EDIT, 0 SUBSTANTIVE_REPAIR,
+0 RETRANSLATE, 0 DUPLICATION_OR_CONTAMINATION, 0 BLOCKED. Changed-
+translation count: 109 (all `INVENTED_TEXT`, the "New comment:" scaffold
+family). Second pass: 109/109 CONFIRMED. Blind QA: 16/16
+CONFIRMED_VERIFIED, 0 escalations. Both authorized systemic-candidate
+families resolved (scaffold: 109 CONFIRMED_DEFECT, applied; anticipation:
+4 FALSE_POSITIVE, unchanged). Full-corpus progress: 727 of 8,854 entries
+reviewed, 8,127 remain UNREVIEWED. Step 6 status: **IN PROGRESS**;
+`step6-batch-041` (or any other later batch) has **not** been started.
