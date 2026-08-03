@@ -41,8 +41,8 @@ inventory review-metadata.
 
 | Child | Daf | Entries | Changed | PR | Merge SHA | Status |
 |---|---|---|---|---|---|---|
-| 1 | 80a | 65 | 14 | (pending) | (pending) | applying |
-| 2 | 80b | 56 | 12 | (pending) | (pending) | not started |
+| 1 | 80a | 65 | 14 | #424 | `e9aad62e06392b927eb6a9794bab577dc7bc0597` | merged |
+| 2 | 80b | 56 | 12 | (pending) | (pending) | applying |
 | 3 | 81a | 45 | 18 | (pending) | (pending) | not started |
 | 4 | 81b | 40 | 13 | (pending) | (pending) | not started |
 | 5 | 82a | 61 | 17 | (pending) | (pending) | not started |
@@ -158,11 +158,30 @@ entry/association/boundary-registry counts, full validation suite) are
 recorded once after child 6 (82b) merges, since only that state is the
 true post-batch snapshot.
 
+### Child 1 (80a) - 14 changed, 65 reviewed (merged as #424)
+
+- Rashi entry count: 8,854 (unchanged) - Associations: 10,061 declared, 0
+  broken, 0 cross-daf (unchanged) - Boundary registry: 20/20 (unchanged)
+- Hebrew text: byte-unchanged across all 65 entries on this daf
+- `npm run validate:offline:yoma`, `npm test`, `npm run test:browser`,
+  `npm run build`, `npm run check:deploy-html`, `python3
+  scripts/worker_pipeline.py verify --full`: all green
+
+### Child 2 (80b) - 12 changed, 56 reviewed
+
+- Rashi entry count: 8,854 (unchanged) - Associations: 10,061 declared, 0
+  broken, 0 cross-daf (unchanged) - Boundary registry: 20/20 (unchanged)
+- Hebrew text: byte-unchanged across all 56 entries on this daf
+- `npm run validate:offline:yoma`, `npm test`, `npm run test:browser`,
+  `npm run build`, `npm run check:deploy-html`, `python3
+  scripts/worker_pipeline.py verify --full`: all green
+
 ## Status
 
-**Batch 038: IN PROGRESS.** Child 1/6 (80a) applying. Final disposition
-totals for the full batch (both VERIFIED and MINOR_EDIT breakdowns) are
-fixed above and will not change as children merge; only per-child
-application status changes. This section and the child-PR table above are
-updated as each child PR merges; batch 038 is COMPLETE only when all six
-rows in the child-PR table show a merge SHA.
+**Batch 038: IN PROGRESS.** Child 1/6 (80a) merged as #424. Child 2/6
+(80b) applying. Final disposition totals for the full batch (both
+VERIFIED and MINOR_EDIT breakdowns) are fixed above and will not change as
+children merge; only per-child application status changes. This section
+and the child-PR table above are updated as each child PR merges; batch
+038 is COMPLETE only when all six rows in the child-PR table show a
+merge SHA.
