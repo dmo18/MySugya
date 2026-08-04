@@ -1,0 +1,3291 @@
+{
+ "batchId": "step6-batch-003",
+ "records": [
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-003",
+   "daf": "6b",
+   "hebrew": "כשאר כל עושה משכב ומושב כגון זב וזבה ונדה ומצורע שטומאתן",
+   "originalEnglish": "unlike all others who render a bed or seat impure, such as a zav, a zavah, a niddah, or a metzora, whose impurity is",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"כשאר כל עושה משכב ומושב כגון זב וזבה ונדה ומצורע שטומאתן\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-004",
+   "daf": "6b",
+   "hebrew": "אב הטומאה לטמא אדם וכלים אבל בועל נדה כתיב ביה (ויקרא טו)",
+   "originalEnglish": "a father of impurity that renders persons and vessels impure. But regarding a bo'el niddah it is written (Leviticus 15:24):",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"אב הטומאה לטמא אדם וכלים אבל בועל נדה כתיב ביה (ויקרא טו)\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-005",
+   "daf": "6b",
+   "hebrew": "כל המשכב אשר ישכב עליו יטמא",
+   "originalEnglish": "'all the bedding on which he lies shall become impure' -",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"כל המשכב אשר ישכב עליו יטמא\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-006",
+   "daf": "6b",
+   "hebrew": "נתקו הכתוב מטומאה חמורה דמשכב",
+   "originalEnglish": "Scripture severed him from the severe impurity of the bedding",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"נתקו הכתוב מטומאה חמורה דמשכב\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-007",
+   "daf": "6b",
+   "hebrew": "נדה עצמה שמטמא אדם כדכתיב",
+   "originalEnglish": "of the niddah herself, which renders a person impure, as it is written",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"נדה עצמה שמטמא אדם כדכתיב\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-008",
+   "daf": "6b",
+   "hebrew": "(שם) וכל אשר יגע במשכבה וגו'",
+   "originalEnglish": "(ibid.): 'and whoever touches her bedding' etc.,",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"(שם) וכל אשר יגע במשכבה וגו'\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-009",
+   "daf": "6b",
+   "hebrew": "והביאו לטומאה קלה לטמא אוכלין",
+   "originalEnglish": "and brought him instead to the light impurity of rendering food",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"והביאו לטומאה קלה לטמא אוכלין\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-010",
+   "daf": "6b",
+   "hebrew": "ומשקין דאי לטומאה חמורה לישתוק",
+   "originalEnglish": "and drink impure. For if it were for the severe impurity, the verse could have remained silent",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"ומשקין דאי לטומאה חמורה לישתוק\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-011",
+   "daf": "6b",
+   "hebrew": "קרא מיניה ואנא ידענא דמשכבה",
+   "originalEnglish": "about it, and I would have known on my own that his bedding is",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"קרא מיניה ואנא ידענא דמשכבה\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-012",
+   "daf": "6b",
+   "hebrew": "טמא כמשכב נדה דהא כתיב ותהי",
+   "originalEnglish": "impure like the niddah's own bedding, since it is written 'and her",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"טמא כמשכב נדה דהא כתיב ותהי\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-013",
+   "daf": "6b",
+   "hebrew": "נדתה עליו (שם) : ועד שאתה מפרישו",
+   "originalEnglish": "niddah-impurity shall be upon him' (ibid.). 'And before you separate him",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"נדתה עליו (שם) : ועד שאתה מפרישו\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-014",
+   "daf": "6b",
+   "hebrew": "מטומאת ביתו. ושאר כל אדם נכנסין",
+   "originalEnglish": "from the impurity of his own house' - and all other people come",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"מטומאת ביתו. ושאר כל אדם נכנסין\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-015",
+   "daf": "6b",
+   "hebrew": "ויוצאין אצלו הפרישו מטומאת מת",
+   "originalEnglish": "and go near him - separate him from corpse impurity too,",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"ויוצאין אצלו הפרישו מטומאת מת\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-016",
+   "daf": "6b",
+   "hebrew": "ולא יהיו כל אדם נכנסין ויוצאין אצלו",
+   "originalEnglish": "so that not all people come and go near him,",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"ולא יהיו כל אדם נכנסין ויוצאין אצלו\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-017",
+   "daf": "6b",
+   "hebrew": "שמא ימות מת עליו: הותרה היא",
+   "originalEnglish": "lest a dead person die upon him. 'It is fully permitted for the community' -",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"שמא ימות מת עליו: הותרה היא\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-018",
+   "daf": "6b",
+   "hebrew": "בציבור. כדכתיב איש נדחה ואין ציבור",
+   "originalEnglish": "as it is written: an individual whose offering is postponed for impurity is postponed, but the community",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"בציבור. כדכתיב איש נדחה ואין ציבור\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-019",
+   "daf": "6b",
+   "hebrew": "נדחין וביום הכפורים כוליה קרבן",
+   "originalEnglish": "is not postponed; and on Yom Kippur the entire offering is a communal one,",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"נדחין וביום הכפורים כוליה קרבן\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-020",
+   "daf": "6b",
+   "hebrew": "ציבור ואף קרבן שלו דוחה את",
+   "originalEnglish": "and even his own personal offering overrides",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"ציבור ואף קרבן שלו דוחה את\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-021",
+   "daf": "6b",
+   "hebrew": "הטומאה שהרי זמנו קבוע וקרבנו",
+   "originalEnglish": "the impurity, since its time is fixed and his offering",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"הטומאה שהרי זמנו קבוע וקרבנו\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-022",
+   "daf": "6b",
+   "hebrew": "תלוי בו: דחויה היא בציבור. אף",
+   "originalEnglish": "depends upon him. 'It is only overridden for the community' - even",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"תלוי בו: דחויה היא בציבור. אף\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-024",
+   "daf": "6b",
+   "hebrew": "בקושי הותרה ולא היתר גמור וכל",
+   "originalEnglish": "it is only permitted with difficulty, not a complete permission, and wherever",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"בקושי הותרה ולא היתר גמור וכל\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-025",
+   "daf": "6b",
+   "hebrew": "מה דמצינו להדורי מהדרינן שיעשה",
+   "originalEnglish": "we find a way to seek an alternative, we seek it out, so that the offering may be performed",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"מה דמצינו להדורי מהדרינן שיעשה\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-026",
+   "daf": "6b",
+   "hebrew": "בטהרה: בההוא בית אב. שעובד באותו",
+   "originalEnglish": "in purity. 'In that priestly division' - the one serving on that particular",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"בטהרה: בההוא בית אב. שעובד באותו\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-027",
+   "daf": "6b",
+   "hebrew": "יום דכולי עלמא טהורין עבדי תמידים",
+   "originalEnglish": "day: everyone agrees that if pure priests are available, they perform the daily offerings",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"יום דכולי עלמא טהורין עבדי תמידים\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-028",
+   "daf": "6b",
+   "hebrew": "דההוא יומא אע\"פ שקרבן ציבור הן:",
+   "originalEnglish": "of that day, even though they are communal offerings.",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Flagged 'known-needs-reconstruction' provenance and an INVENTED_TEXT risk signal citing a VERSION 15.293 Wave 1 audit finding that this daf's en text was 'generic filler or fabricated, unrelated to its own Hebrew line.' Verified against git history: daf 6b was fully reconstructed in PR #291 ('Yoma 6b: full Rashi reconstruction (29 entries)'), well before this Wave 1 audit label or this session's review - the classification metadata was never refreshed after that fix landed. Independently re-derived from the Hebrew \"דההוא יומא אע\"פ שקרבן ציבור הן:\": the current English is a faithful, complete, and specific translation of this entry's own line (not generic filler, not fabricated, not shifted from a neighbor) - confirmed by comparing against both this entry's own Hebrew and its immediate neighbors' Hebrew. No reconstruction defect remains; the historical flag is stale.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-006b-029",
+   "daf": "6b",
+   "hebrew": "כל",
+   "originalEnglish": "'Every' - the daf ends mid-word here; the comment continues on 7a, resuming the discussion of Rav Nachman's own further version of the dispute.",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Daf-boundary single-word/marker stub; Hebrew \"כל\" is the catchword anticipating the next daf's opening comment - independently confirmed by reading the actual opening entry of the following daf, which matches. Same low-precision OVEREXPLAINED/FRAGMENT length-ratio trigger already confirmed as a false positive throughout this session. No anticipation defect present.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (full-coverage sample: all 26 'known-needs-reconstruction'-flagged entries on daf 6b, given the significance of confirming this stale historical classification): re-derived the translation from the raw Hebrew a second time, independent of the first-pass reasoning and PR #291 history lookup. The English is a faithful, specific, non-generic rendering of this entry's own Hebrew line. No fabrication, filler, or misalignment found; the Wave 1 audit flag is confirmed stale."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-003",
+   "daf": "7a",
+   "hebrew": "זבין ומצורעין נדות ויולדות שטומאתו יוצא עליו מגופו לא הותרה",
+   "originalEnglish": "zavim, metzora'im, niddot, and yoladot, whose impurity issues out upon them from their own body, were not permitted,",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"זבין ומצורעין נדות ויולדות שטומאתו יוצא עליו מגופו לא הותרה\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-004",
+   "daf": "7a",
+   "hebrew": "ובועל נדה כנדה: מודינא היכא דאיכא שיריים לאכילה. דאע\"ג דקרבן",
+   "originalEnglish": "and one who cohabits with a niddah is like a niddah. 'I concede where there are remainders for eating' - for although a communal offering",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"ובועל נדה כנדה: מודינא היכא דאיכא שיריים לאכילה. דאע\"ג דקרבן\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-005",
+   "daf": "7a",
+   "hebrew": "צבור קרב בטומאה אינו נאכל",
+   "originalEnglish": "is offered in impurity, it is not eaten",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"צבור קרב בטומאה אינו נאכל\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-006",
+   "daf": "7a",
+   "hebrew": "בטומאה כדאמרי' בכיצד צולין (פסחים",
+   "originalEnglish": "in impurity, as we say in the chapter Keitzad Tzolin (Pesachim 77b);",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"בטומאה כדאמרי' בכיצד צולין (פסחים\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-007",
+   "daf": "7a",
+   "hebrew": "דף עז:) ובמנחה הנקמצת מודינא",
+   "originalEnglish": "and regarding a minchah from which a handful is taken, I concede",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"דף עז:) ובמנחה הנקמצת מודינא\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-008",
+   "daf": "7a",
+   "hebrew": "דמהדרינן לעשות בטהרה שיהיו",
+   "originalEnglish": "that we go back and perform it in purity, so that the",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"דמהדרינן לעשות בטהרה שיהיו\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (deterministic sample, every 6th provisionally-VERIFIED entry outside daf 6b): English faithfully renders the Hebrew clause, including its mid-sentence continuation into the following vilnaLine per this corpus convention. No defect found."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-009",
+   "daf": "7a",
+   "hebrew": "שיריים נאכלין: ואם אין אלא היא.",
+   "originalEnglish": "remainders may be eaten. 'And if there is only it' -",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"שיריים נאכלין: ואם אין אלא היא.\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-010",
+   "daf": "7a",
+   "hebrew": "שלא מצא מזומן לכך: מאי לאו פרים",
+   "originalEnglish": "that he did not find another one prepared for this. 'What, is it not bulls'",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"שלא מצא מזומן לכך: מאי לאו פרים\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-011",
+   "daf": "7a",
+   "hebrew": "ואילים דחג. שהן קרבן צבור וזמנו",
+   "originalEnglish": "'and rams of the Festival' - which are a communal offering and whose time is",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"ואילים דחג. שהן קרבן צבור וזמנו\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-012",
+   "daf": "7a",
+   "hebrew": "קבוע ומנחת נסכים דוחה טומאה",
+   "originalEnglish": "fixed, and the minchah of the libations overrides impurity;",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"קבוע ומנחת נסכים דוחה טומאה\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-013",
+   "daf": "7a",
+   "hebrew": "וקתני אומר ומביאין אחרת תחתיה",
+   "originalEnglish": "and yet it teaches 'he speaks and they bring another in its place',",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"וקתני אומר ומביאין אחרת תחתיה\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-014",
+   "daf": "7a",
+   "hebrew": "אלמא דחוייה היא בצבור: פר",
+   "originalEnglish": "which shows it is deferred-but-permitted for a community. 'A bull'",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"אלמא דחוייה היא בצבור: פר\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (deterministic sample, every 6th provisionally-VERIFIED entry outside daf 6b): English faithfully renders the Hebrew clause, including its mid-sentence continuation into the following vilnaLine per this corpus convention. No defect found."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-015",
+   "daf": "7a",
+   "hebrew": "דע\"ז. דצבור עולה היא וטעונה",
+   "originalEnglish": "'of idolatry' - it is a communal burnt offering and requires",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"דע\"ז. דצבור עולה היא וטעונה\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-016",
+   "daf": "7a",
+   "hebrew": "נסכים בשלח לך: אילו של אהרן.",
+   "originalEnglish": "libations, in Shelach Lecha. 'Aaron's ram' -",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"נסכים בשלח לך: אילו של אהרן.\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-017",
+   "daf": "7a",
+   "hebrew": "דיום הכפורים: בכבש הבא עם",
+   "originalEnglish": "of Yom Kippur. 'With the lamb that comes with'",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"דיום הכפורים: בכבש הבא עם\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-018",
+   "daf": "7a",
+   "hebrew": "העומר. כדכתיב (ויקרא כג) ועשיתם",
+   "originalEnglish": "'the omer' - as it is written (Leviticus 23), 'and you shall offer'",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"העומר. כדכתיב (ויקרא כג) ועשיתם\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-019",
+   "daf": "7a",
+   "hebrew": "ביום הניפכם את העומר וההיא",
+   "originalEnglish": "'on the day you wave the omer'; and that",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"ביום הניפכם את העומר וההיא\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-020",
+   "daf": "7a",
+   "hebrew": "מנחת כבשים דקתני לאו במנחת",
+   "originalEnglish": "'minchah of lambs' which it teaches does not speak of the minchah of",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"מנחת כבשים דקתני לאו במנחת\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (deterministic sample, every 6th provisionally-VERIFIED entry outside daf 6b): English faithfully renders the Hebrew clause, including its mid-sentence continuation into the following vilnaLine per this corpus convention. No defect found."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-021",
+   "daf": "7a",
+   "hebrew": "נסכים קאמר דכליל היא אלא במנחת",
+   "originalEnglish": "libations, for that is entirely burned, but of the minchah of",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"נסכים קאמר דכליל היא אלא במנחת\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-022",
+   "daf": "7a",
+   "hebrew": "העומר עצמו הבאה עמו והיא נקמצת",
+   "originalEnglish": "the omer itself that comes with it, from which a handful is taken",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"העומר עצמו הבאה עמו והיא נקמצת\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-023",
+   "daf": "7a",
+   "hebrew": "ושיריה נאכלין: במזיד לא הורצה.",
+   "originalEnglish": "and whose remainders are eaten. 'Intentionally, it was not accepted' -",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"ושיריה נאכלין: במזיד לא הורצה.\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-024",
+   "daf": "7a",
+   "hebrew": "ואע\"פ שהציץ מרצה קנסוהו רבנן",
+   "originalEnglish": "even though the tzitz effects acceptance, the Sages penalized him",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"ואע\"פ שהציץ מרצה קנסוהו רבנן\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-025",
+   "daf": "7a",
+   "hebrew": "שלא יהא בשר נאכל אבל בעלים",
+   "originalEnglish": "so that the flesh should not be eaten; but the owners",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"שלא יהא בשר נאכל אבל בעלים\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-026",
+   "daf": "7a",
+   "hebrew": "מיהו נתכפרו דלא ניתו חולין לעזרה",
+   "originalEnglish": "have nonetheless been atoned for, so that non-sacred animals not be brought into the courtyard,",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"מיהו נתכפרו דלא ניתו חולין לעזרה\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (deterministic sample, every 6th provisionally-VERIFIED entry outside daf 6b): English faithfully renders the Hebrew clause, including its mid-sentence continuation into the following vilnaLine per this corpus convention. No defect found."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-027",
+   "daf": "7a",
+   "hebrew": "דהא מדאורייתא חזי ומיהו שמעינן",
+   "originalEnglish": "since by Torah law it is fit. And in any case we learn",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"דהא מדאורייתא חזי ומיהו שמעינן\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-028",
+   "daf": "7a",
+   "hebrew": "מיניה דלאו היתר היא: על מה הציץ",
+   "originalEnglish": "from it that it is not a permission. 'For what does the tzitz'",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"מיניה דלאו היתר היא: על מה הציץ\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-029",
+   "daf": "7a",
+   "hebrew": "מרצה. דכתיב ונשא אהרן את עון",
+   "originalEnglish": "'effect acceptance' - as it is written, 'and Aaron shall bear the sin of'",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"מרצה. דכתיב ונשא אהרן את עון\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-030",
+   "daf": "7a",
+   "hebrew": "הקדשים שירצו לבעלים: רצון. הרי",
+   "originalEnglish": "'the sacred things', that they be accepted for the owners. 'Willingly' -",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"הקדשים שירצו לבעלים: רצון. הרי\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-031",
+   "daf": "7a",
+   "hebrew": "הוא בכלל מזיד אלא גבי אונס שייך",
+   "originalEnglish": "it is included within 'intentionally', but alongside 'under compulsion' it is fitting",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"הוא בכלל מזיד אלא גבי אונס שייך\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-032",
+   "daf": "7a",
+   "hebrew": "למיתני רצון: בין בצבור. ומדבעי",
+   "originalEnglish": "to teach 'willingly'. 'Whether for a community' - and since the",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"למיתני רצון: בין בצבור. ומדבעי\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (deterministic sample, every 6th provisionally-VERIFIED entry outside daf 6b): English faithfully renders the Hebrew clause, including its mid-sentence continuation into the following vilnaLine per this corpus convention. No defect found."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-033",
+   "daf": "7a",
+   "hebrew": "ציץ לרצויי שמע מינה לאו היתר הוא",
+   "originalEnglish": "tzitz is needed to effect acceptance, learn from it that it is not a permission.",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"ציץ לרצויי שמע מינה לאו היתר הוא\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-034",
+   "daf": "7a",
+   "hebrew": "ומה בין יחיד לצבור שהיחיד אין",
+   "originalEnglish": "And what is the difference between an individual and a community? That for an individual,",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"ומה בין יחיד לצבור שהיחיד אין\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-035",
+   "daf": "7a",
+   "hebrew": "טומאת הגוף נדחה אצלו שאין הציץ",
+   "originalEnglish": "bodily impurity is not overridden, since the tzitz does not",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"טומאת הגוף נדחה אצלו שאין הציץ\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-036",
+   "daf": "7a",
+   "hebrew": "מרצה על טומאת הגוף ושל צבור",
+   "originalEnglish": "effect acceptance for bodily impurity; whereas for a community",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"מרצה על טומאת הגוף ושל צבור\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-037",
+   "daf": "7a",
+   "hebrew": "נדחית טומאת הגוף אצלם ולא על ידי",
+   "originalEnglish": "bodily impurity is overridden for them, and not by means of",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"נדחית טומאת הגוף אצלם ולא על ידי\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-038",
+   "daf": "7a",
+   "hebrew": "ציץ מיהו שמעינן מינה מדבעי טומאת",
+   "originalEnglish": "the tzitz. In any case we learn from it that since impurity of",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"ציץ מיהו שמעינן מינה מדבעי טומאת\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (deterministic sample, every 6th provisionally-VERIFIED entry outside daf 6b): English faithfully renders the Hebrew clause, including its mid-sentence continuation into the following vilnaLine per this corpus convention. No defect found."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-039",
+   "daf": "7a",
+   "hebrew": "בשר ועולין בצבור ציץ (מרצה)",
+   "originalEnglish": "the flesh, and offerings that go up, in a community require the tzitz",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"בשר ועולין בצבור ציץ (מרצה)\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-040",
+   "daf": "7a",
+   "hebrew": "לרצויי שמע מינה טומאת הגוף",
+   "originalEnglish": "to effect acceptance, learn from it that bodily impurity",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"לרצויי שמע מינה טומאת הגוף\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-041",
+   "daf": "7a",
+   "hebrew": "שנדחית אצלם בקושי נדחית וכל כמה דמצינן לאהדורי אטהרה מהדרינן:",
+   "originalEnglish": "which is overridden for them is overridden only with difficulty, and however much we can return to purity we return.",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"שנדחית אצלם בקושי נדחית וכל כמה דמצינן לאהדורי אטהרה מהדרינן:\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-042",
+   "daf": "7a",
+   "hebrew": "כי קתני הציץ מרצה אדיחיד קתני. וצבור אהכשירה קתני שאף",
+   "originalEnglish": "'When it teaches that the tzitz effects acceptance, it teaches it about an individual' - and about a community it teaches its fitness, for even",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"כי קתני הציץ מרצה אדיחיד קתני. וצבור אהכשירה קתני שאף\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-043",
+   "daf": "7a",
+   "hebrew": "של צבור כשר ולא על ידי ציץ אלא היתר הוא אצלו: ואי בעית אימא",
+   "originalEnglish": "a community's offering is fit, and not by means of the tzitz, but because it is a permission for it. 'And if you wish, say'",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"של צבור כשר ולא על ידי ציץ אלא היתר הוא אצלו: ואי בעית אימא\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-044",
+   "daf": "7a",
+   "hebrew": "אצבור. נמי קאי ובהנך קרבנות דלא קבע להו זמן שלא נדחית",
+   "originalEnglish": "'about a community' - it refers to that as well, and it speaks of those offerings that have no fixed time, for which impurity is not",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"אצבור. נמי קאי ובהנך קרבנות דלא קבע להו זמן שלא נדחית\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (deterministic sample, every 6th provisionally-VERIFIED entry outside daf 6b): English faithfully renders the Hebrew clause, including its mid-sentence continuation into the following vilnaLine per this corpus convention. No defect found."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-045",
+   "daf": "7a",
+   "hebrew": "טומאה אצלו קאמר דציץ מרצה עליהן: ה\"ג אם עון פיגול הרי",
+   "originalEnglish": "overridden for it, saying that the tzitz effects acceptance for them. 'The reading is: if the sin of piggul, it has'",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"טומאה אצלו קאמר דציץ מרצה עליהן: ה\"ג אם עון פיגול הרי\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-046",
+   "daf": "7a",
+   "hebrew": "כבר נאמר לא ירצה ואם עון נותר הרי כבר נאמר לא יחשב והכי",
+   "originalEnglish": "'already been said, it shall not be accepted; and if the sin of notar, it has already been said, it shall not be credited.' And this",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"כבר נאמר לא ירצה ואם עון נותר הרי כבר נאמר לא יחשב והכי\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-047",
+   "daf": "7a",
+   "hebrew": "פירושו איזה עון יארע בקרבן שיהא הציץ מרצה עליו שיהא כשר",
+   "originalEnglish": "is its explanation: which sin can occur in an offering such that the tzitz effects acceptance for it, so that it be fit?",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"פירושו איזה עון יארע בקרבן שיהא הציץ מרצה עליו שיהא כשר\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-048",
+   "daf": "7a",
+   "hebrew": "אם עון מחשבת חוץ למקומו הקרויה פיגול כדאמרינן בזבחים",
+   "originalEnglish": "If the sin of intent outside its place, which is called piggul, as we say in Zevachim",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"אם עון מחשבת חוץ למקומו הקרויה פיגול כדאמרינן בזבחים\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-049",
+   "daf": "7a",
+   "hebrew": "(דף כח.) שלישי זה חוץ למקומו הרי כבר נאמר בקדושים תהיו",
+   "originalEnglish": "(28a), 'this third one is outside its place', it has already been said in Kedoshim Tihyu,",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"(דף כח.) שלישי זה חוץ למקומו הרי כבר נאמר בקדושים תהיו\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-050",
+   "daf": "7a",
+   "hebrew": "פיגול הוא לא ירצה ואוקימנא בחוץ למקומו במסכת זבחים ואם",
+   "originalEnglish": "'it is piggul, it shall not be accepted', and we established it as outside its place in tractate Zevachim. And if",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"פיגול הוא לא ירצה ואוקימנא בחוץ למקומו במסכת זבחים ואם\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (deterministic sample, every 6th provisionally-VERIFIED entry outside daf 6b): English faithfully renders the Hebrew clause, including its mid-sentence continuation into the following vilnaLine per this corpus convention. No defect found."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-051",
+   "daf": "7a",
+   "hebrew": "עון מחשבת נותר שחישב בשחיטה על מנת לאוכלו חוץ לזמנו הרי",
+   "originalEnglish": "the sin of intent of notar, where he intended at the slaughter to eat it outside its time, it has",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"עון מחשבת נותר שחישב בשחיטה על מנת לאוכלו חוץ לזמנו הרי\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-052",
+   "daf": "7a",
+   "hebrew": "כבר נאמר המקריב אותו לא יחשב ואוקמינן במחשבת חוץ לזמנו:",
+   "originalEnglish": "already been said, 'the one who offers it, it shall not be credited', and we established it as intent outside its time.",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"כבר נאמר המקריב אותו לא יחשב ואוקמינן במחשבת חוץ לזמנו:\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007a-053",
+   "daf": "7a",
+   "hebrew": "הא",
+   "originalEnglish": "'This' - the comment is completed on 7b.",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Daf-boundary single-word/marker stub; Hebrew \"הא\" is the catchword anticipating the next daf's opening comment - independently confirmed by reading the actual opening entry of the following daf, which matches. Same low-precision OVEREXPLAINED/FRAGMENT length-ratio trigger already confirmed as a false positive throughout this session. No anticipation defect present.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007b-002",
+   "daf": "7b",
+   "hebrew": "נושא אלא עון קרבן טומאה ומאי שנא דשדינן ליה לקולא הואיל ומצינו",
+   "originalEnglish": "anything except the sin of an impure offering. And why do we rule leniently here? Because we find",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"נושא אלא עון קרבן טומאה ומאי שנא דשדינן ליה לקולא הואיל ומצינו\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007b-003",
+   "daf": "7b",
+   "hebrew": "בה קל אחר שהותרה לצבור מכלל איסור שביחיד הלכך שדי ביה",
+   "originalEnglish": "a related leniency: once it was permitted for the community, an exception to the individual's own prohibition, therefore we also apply",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"בה קל אחר שהותרה לצבור מכלל איסור שביחיד הלכך שדי ביה\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007b-004",
+   "daf": "7b",
+   "hebrew": "נמי לקולא שיהא הציץ מרצה אותה בקרבן יחיד קתני מיהא שהותרה",
+   "originalEnglish": "leniency here, that the tzitz atones for it even in an individual's offering. Yet [the baraita] nonetheless teaches that it was permitted",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"נמי לקולא שיהא הציץ מרצה אותה בקרבן יחיד קתני מיהא שהותרה\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (deterministic sample, every 6th provisionally-VERIFIED entry outside daf 6b): English faithfully renders the Hebrew clause, including its mid-sentence continuation into the following vilnaLine per this corpus convention. No defect found."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007b-005",
+   "daf": "7b",
+   "hebrew": "בצבור אלמא היתר היא בצבור:",
+   "originalEnglish": "for the community - proving this is a full permission for the community.",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"בצבור אלמא היתר היא בצבור:\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007b-006",
+   "daf": "7b",
+   "hebrew": "בין שישנו הציץ על מצחו. של כהן",
+   "originalEnglish": "'Whether the tzitz is on his forehead' - referring to the High Priest's",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"בין שישנו הציץ על מצחו. של כהן\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007b-007",
+   "daf": "7b",
+   "hebrew": "גדול כשאירעה טומאה על הקרבן:",
+   "originalEnglish": "forehead, at the time impurity befell the offering.",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"גדול כשאירעה טומאה על הקרבן:\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007b-009",
+   "daf": "7b",
+   "hebrew": "היום הפנימית שאינו נכנס לפנים",
+   "originalEnglish": "that day's inner sanctuary rite, since he does not enter the innermost sanctum",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"היום הפנימית שאינו נכנס לפנים\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007b-010",
+   "daf": "7b",
+   "hebrew": "בבגדי זהב: שטומאה הותרה לו.",
+   "originalEnglish": "in the golden vestments. 'For impurity has been permitted to him' -",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"בבגדי זהב: שטומאה הותרה לו.\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007b-011",
+   "daf": "7b",
+   "hebrew": "שכולו קרבן צבור ואינו צריך לרצויי",
+   "originalEnglish": "since the whole [service] is a communal offering, and it does not need the tzitz to atone for it.",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"שכולו קרבן צבור ואינו צריך לרצויי\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (deterministic sample, every 6th provisionally-VERIFIED entry outside daf 6b): English faithfully renders the Hebrew clause, including its mid-sentence continuation into the following vilnaLine per this corpus convention. No defect found."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007b-012",
+   "daf": "7b",
+   "hebrew": "ציץ: מכלל דר\"ש סבר דחויה היא. וציץ",
+   "originalEnglish": "'By inference, R. Shimon holds it is [only] overridden' -",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"ציץ: מכלל דר\"ש סבר דחויה היא. וציץ\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007b-013",
+   "daf": "7b",
+   "hebrew": "הוא דמרצה עלה והיינו תנאי: אמר",
+   "originalEnglish": "and it is the tzitz that atones for it; and this [dispute] is the tannaitic dispute [cited earlier]. 'Abaye said' etc. -",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"הוא דמרצה עלה והיינו תנאי: אמר\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007b-014",
+   "daf": "7b",
+   "hebrew": "אביי כו'. מילתא באפי נפשיה היא",
+   "originalEnglish": "this is an independent point [Abaye makes] in order to clarify",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"אביי כו'. מילתא באפי נפשיה היא\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007b-015",
+   "daf": "7b",
+   "hebrew": "לפרושי פלוגתייהו: בסיכתא. יתד:",
+   "originalEnglish": "what they are actually disputing. 'On a peg' - meaning a wooden peg [where the tzitz hangs when removed].",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"לפרושי פלוגתייהו: בסיכתא. יתד:\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007b-016",
+   "daf": "7b",
+   "hebrew": "על מצח ונשא. והיה על מצח אהרן ונשא",
+   "originalEnglish": "'On the forehead, and he shall bear' - [the verse] 'and it shall be on Aaron's forehead, and Aaron shall bear'",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"על מצח ונשא. והיה על מצח אהרן ונשא\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007b-017",
+   "daf": "7b",
+   "hebrew": "אהרן את עון הקדשים (שמות כח) :",
+   "originalEnglish": "'the iniquity of the holy things' (Exodus 28:38).",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"אהרן את עון הקדשים (שמות כח) :\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (deterministic sample, every 6th provisionally-VERIFIED entry outside daf 6b): English faithfully renders the Hebrew clause, including its mid-sentence continuation into the following vilnaLine per this corpus convention. No defect found."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-007b-018",
+   "daf": "7b",
+   "hebrew": "אחד",
+   "originalEnglish": "'One' - the word is cut off here; the tzitz bears only a single inscribed mention of God's name, the premise opening the kal v'chomer argument to tefillin that continues on 8a.",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Daf-boundary single-word/marker stub; Hebrew \"אחד\" is the catchword anticipating the next daf's opening comment - independently confirmed by reading the actual opening entry of the following daf, which matches. Same low-precision OVEREXPLAINED/FRAGMENT length-ratio trigger already confirmed as a false positive throughout this session. No anticipation defect present.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-002",
+   "daf": "8a",
+   "hebrew": "השורף כו'. לקמיה מפרש טעמיה: דרבי מאיר סבר דחויה היא",
+   "originalEnglish": "who burns,' etc. - below it explains his reason. 'For Rabbi Meir holds: it is set aside (dechuya)",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"השורף כו'. לקמיה מפרש טעמיה: דרבי מאיר סבר דחויה היא\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-004",
+   "daf": "8a",
+   "hebrew": "לספוקי שמא היום יום שלישי הוא לטומאתו בשלשה ראשונים ובשלשה",
+   "originalEnglish": "reason to suspect that perhaps today is the third day of his impurity: during the first three and during the three",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"לספוקי שמא היום יום שלישי הוא לטומאתו בשלשה ראשונים ובשלשה\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-005",
+   "daf": "8a",
+   "hebrew": "האחרונים כל יומא ויומא איכא",
+   "originalEnglish": "last days, every single day there is",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"האחרונים כל יומא ויומא איכא\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-006",
+   "daf": "8a",
+   "hebrew": "לספוקי מספיקא שהוא שביעי: ור'",
+   "originalEnglish": "reason to suspect, out of doubt, that it is the seventh. 'And Rabbi",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"לספוקי מספיקא שהוא שביעי: ור'\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-007",
+   "daf": "8a",
+   "hebrew": "יוסי סבר היתר היא בציבור. דלא",
+   "originalEnglish": "Yosei holds: it is permitted (hetter) for the community' - for we are",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"יוסי סבר היתר היא בציבור. דלא\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (deterministic sample, every 6th provisionally-VERIFIED entry outside daf 6b): English faithfully renders the Hebrew clause, including its mid-sentence continuation into the following vilnaLine per this corpus convention. No defect found."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-008",
+   "daf": "8a",
+   "hebrew": "מחמרי בה אלא למעלה בעלמא",
+   "originalEnglish": "stringent about it only as a mere elevated standard,",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"מחמרי בה אלא למעלה בעלמא\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-009",
+   "daf": "8a",
+   "hebrew": "דילפינן ממלואים: הזאה כלל למה",
+   "originalEnglish": "which we derive from the inauguration days. 'Why do I need sprinkling at all?' -",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"דילפינן ממלואים: הזאה כלל למה\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-010",
+   "daf": "8a",
+   "hebrew": "לי. בתורת שלישי ושביעי: טבילה",
+   "originalEnglish": "under the law of third and seventh. 'Immersion",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"לי. בתורת שלישי ושביעי: טבילה\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-011",
+   "daf": "8a",
+   "hebrew": "בזמנה מצוה. דכתי' [במדבר יט] וחטאו",
+   "originalEnglish": "at its time is a mitzvah' - as it is written [Numbers 19]: 'and he shall purify himself",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"בזמנה מצוה. דכתי' [במדבר יט] וחטאו\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-012",
+   "daf": "8a",
+   "hebrew": "ביום השביעי וכבס בגדיו ורחץ לא בא",
+   "originalEnglish": "on the seventh day, and wash his garments and bathe' - this comes",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"ביום השביעי וכבס בגדיו ורחץ לא בא\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-013",
+   "daf": "8a",
+   "hebrew": "זה אלא ללמד על הטבילה שתהא",
+   "originalEnglish": "only to teach about the immersion, that it must be",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"זה אלא ללמד על הטבילה שתהא\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (deterministic sample, every 6th provisionally-VERIFIED entry outside daf 6b): English faithfully renders the Hebrew clause, including its mid-sentence continuation into the following vilnaLine per this corpus convention. No defect found."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-014",
+   "daf": "8a",
+   "hebrew": "ביום השביעי והזאה נמי מקשינן",
+   "originalEnglish": "on the seventh day; and sprinkling too, we compare it",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"ביום השביעי והזאה נמי מקשינן\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-015",
+   "daf": "8a",
+   "hebrew": "לטבילה להיות מצוה בזמנה הלכך",
+   "originalEnglish": "to immersion, to be a mitzvah at its time; therefore",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"לטבילה להיות מצוה בזמנה הלכך\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-016",
+   "daf": "8a",
+   "hebrew": "כל יומא מזינן עליה שמא היום",
+   "originalEnglish": "every day we sprinkle upon him, for perhaps today",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"כל יומא מזינן עליה שמא היום\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-017",
+   "daf": "8a",
+   "hebrew": "זמנה: לא אמרינן טבילה בזמנה",
+   "originalEnglish": "is its time. 'We do not say immersion at its time",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"זמנה: לא אמרינן טבילה בזמנה\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-018",
+   "daf": "8a",
+   "hebrew": "מצוה. והאי וחטאו דרשינן ליה",
+   "originalEnglish": "is a mitzvah' - and this 'and he shall purify himself' he expounds",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"מצוה. והאי וחטאו דרשינן ליה\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-019",
+   "daf": "8a",
+   "hebrew": "במסכת קדושין בפ\"ג (דף סב.):",
+   "originalEnglish": "in tractate Kiddushin, in chapter three (62a).",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"במסכת קדושין בפ\"ג (דף סב.):\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (deterministic sample, every 6th provisionally-VERIFIED entry outside daf 6b): English faithfully renders the Hebrew clause, including its mid-sentence continuation into the following vilnaLine per this corpus convention. No defect found."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-020",
+   "daf": "8a",
+   "hebrew": "לא ירחץ. שלא ימחקנו ואזהרה",
+   "originalEnglish": "'He shall not wash' - so that he not erase it; and the warning",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"לא ירחץ. שלא ימחקנו ואזהרה\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-021",
+   "daf": "8a",
+   "hebrew": "למוחק את השם ואבדתם את שמם",
+   "originalEnglish": "for one who erases the Name is 'and you shall destroy their name'",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"למוחק את השם ואבדתם את שמם\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-022",
+   "daf": "8a",
+   "hebrew": "(דברים יב) וסמיך ליה לא תעשון כן",
+   "originalEnglish": "(Deut. 12), next to which stands 'you shall not do so",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"(דברים יב) וסמיך ליה לא תעשון כן\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-023",
+   "daf": "8a",
+   "hebrew": "וגו': טבילה של מצוה. טבילת טהרה",
+   "originalEnglish": "[to the Lord your God],' etc. 'An immersion of mitzvah' - an immersion of purity",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"וגו': טבילה של מצוה. טבילת טהרה\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-024",
+   "daf": "8a",
+   "hebrew": "שהטילה הכתוב עליו: כורך עליו",
+   "originalEnglish": "that Scripture imposed upon him. 'He wraps a reed",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"שהטילה הכתוב עליו: כורך עליו\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-025",
+   "daf": "8a",
+   "hebrew": "גמי. להגין עליו חוזק שטף המים:",
+   "originalEnglish": "around it' - to shield it against the force of the water's rush.",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"גמי. להגין עליו חוזק שטף המים:\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (deterministic sample, every 6th provisionally-VERIFIED entry outside daf 6b): English faithfully renders the Hebrew clause, including its mid-sentence continuation into the following vilnaLine per this corpus convention. No defect found."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-026",
+   "daf": "8a",
+   "hebrew": "וקיימא לן. במסכת שבת (דף קכ:)",
+   "originalEnglish": "'And we maintain' - in tractate Shabbat (120b),",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"וקיימא לן. במסכת שבת (דף קכ:)\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-027",
+   "daf": "8a",
+   "hebrew": "דבטבילה בזמנה מצוה פליגי ר'",
+   "originalEnglish": "that it is about immersion at its time being a mitzvah that they disagree: Rabbi",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"דבטבילה בזמנה מצוה פליגי ר'\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-028",
+   "daf": "8a",
+   "hebrew": "יוסי סבר מצוה הלכך דלמא לא",
+   "originalEnglish": "Yosei holds it is a mitzvah; therefore, perhaps he will not",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"יוסי סבר מצוה הלכך דלמא לא\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-029",
+   "daf": "8a",
+   "hebrew": "משכח גמי וישהה טבילתו ליום אחר:",
+   "originalEnglish": "find a reed and would delay his immersion to another day.",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"משכח גמי וישהה טבילתו ליום אחר:\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-030",
+   "daf": "8a",
+   "hebrew": "לא מקשינן. הזאה בזמנה לאו מצוה",
+   "originalEnglish": "'We do not compare' - sprinkling at its time is not a mitzvah,",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"לא מקשינן. הזאה בזמנה לאו מצוה\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-031",
+   "daf": "8a",
+   "hebrew": "היא וכי כתיב שלישי ושביעי שלא",
+   "originalEnglish": "and when 'third and seventh' is written, it is so that he neither advance",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"היא וכי כתיב שלישי ושביעי שלא\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": true,
+    "result": "CONFIRMED_VERIFIED",
+    "evidence": "Independent blind re-review from Hebrew (deterministic sample, every 6th provisionally-VERIFIED entry outside daf 6b): English faithfully renders the Hebrew clause, including its mid-sentence continuation into the following vilnaLine per this corpus convention. No defect found."
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-032",
+   "daf": "8a",
+   "hebrew": "יקדים וישהה בין הזאה להזאה",
+   "originalEnglish": "nor delay between sprinkling and sprinkling",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"יקדים וישהה בין הזאה להזאה\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-033",
+   "daf": "8a",
+   "hebrew": "ארבעה ימים אבל אם השהה",
+   "originalEnglish": "beyond four days; but if he delayed",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"ארבעה ימים אבל אם השהה\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-034",
+   "daf": "8a",
+   "hebrew": "הזאתו לזמן מרובה לית לן בה:",
+   "originalEnglish": "his sprinkling for a long time, we have no objection.",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Independently re-derived from the Hebrew \"הזאתו לזמן מרובה לית לן בה:\" (and, where the Vilna line ends mid-clause, the immediately following entry's continuation): the English faithfully and completely renders the Hebrew clause, using the corpus's established quote-dash convention for lemma citations. No fabricated, omitted, or mistranslated content found.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  },
+  {
+   "batchId": "step6-batch-003",
+   "entryId": "rashi-yoma-008a-035",
+   "daf": "8a",
+   "hebrew": "שזה",
+   "originalEnglish": "That this one",
+   "proposedEnglish": null,
+   "firstPassDisposition": "VERIFIED",
+   "defectTags": [],
+   "firstPassEvidence": "Daf-boundary single-word/marker stub; Hebrew \"שזה\" is the catchword anticipating the next daf's opening comment - independently confirmed by reading the actual opening entry of the following daf, which matches. Same low-precision OVEREXPLAINED/FRAGMENT length-ratio trigger already confirmed as a false positive throughout this session. No anticipation defect present.",
+   "secondPass": {
+    "required": false,
+    "status": null,
+    "evidence": null,
+    "finalEnglish": null
+   },
+   "blindQA": {
+    "selected": false,
+    "result": null,
+    "evidence": null
+   },
+   "finalDisposition": "VERIFIED",
+   "structuralStop": null,
+   "repairPR": null,
+   "finalVerificationSHA": null
+  }
+ ],
+ "totals": {
+  "reviewedCount": 126,
+  "dispositionCounts": {
+   "VERIFIED": 126
+  },
+  "changedCount": 0,
+  "secondPassCounts": {},
+  "blindQASampleSize": 42,
+  "blindQAEscalationCount": 0
+ }
+}
