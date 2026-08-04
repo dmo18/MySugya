@@ -45,8 +45,8 @@ inventory review-metadata.
 | 2 | 77b | 59 | 14 | #431 | `2de645f2c066fae6ef9877271c68b58a9424694f` | merged |
 | 3 | 78a | 52 | 18 | #432 | `b309aa22e426f0ffc60db044fe2500fdca22ce1b` | merged |
 | 4 | 78b | 45 | 16 | #433 | `9a7f3501122324f93fe717b491e509f6ea597fbc` | merged |
-| 5 | 79a | 16 | 2 | (pending) | (pending) | applying |
-| 6 | 79b | 35 | 3 | (pending) | (pending) | pending |
+| 5 | 79a | 16 | 2 | #434 | `7f8afb1b93ac82871d5e9789ea50e04b4990130a` | merged |
+| 6 | 79b | 35 | 3 | (this PR) | (pending) | applying |
 
 This table is updated in place as each child PR merges. Batch 037 is not
 COMPLETE until all six rows show a merge SHA.
@@ -209,7 +209,7 @@ true post-batch snapshot.
   `npm run build`, `npm run check:deploy-html`, `python3
   scripts/worker_pipeline.py verify --full`: all green
 
-### Child 5 (79a) - 2 changed, 16 reviewed (applying)
+### Child 5 (79a) - 2 changed, 16 reviewed (merged as #434)
 
 - Rashi entry count: 8,854 (unchanged) - Associations: 10,061 declared, 0
   broken, 0 cross-daf (unchanged) - Boundary registry: 20/20 (unchanged)
@@ -218,15 +218,29 @@ true post-batch snapshot.
   `npm run build`, `npm run check:deploy-html`, `python3
   scripts/worker_pipeline.py verify --full`: all green
 
+### Child 6 (79b) - 3 changed, 35 reviewed - final child, batch complete
+
+- Rashi entry count: 8,854 (unchanged) - Associations: 10,061 declared, 0
+  broken, 0 cross-daf (unchanged) - Boundary registry: 20/20 (unchanged)
+- Hebrew text: byte-unchanged across all 35 entries on this daf
+- `npm run validate:offline:yoma`, `npm test`, `npm run test:browser`,
+  `npm run build`, `npm run check:deploy-html`, `python3
+  scripts/worker_pipeline.py verify --full`: all green
+- `python3 scripts/worker_pipeline.py verify --full` and
+  `generate_rashi_batch_progress.py` confirm `step6-batch-037` as
+  `complete` (not partial, not in `declaredInProgressBatches`) once this
+  child merges.
+
 ## Status
 
-**Batch 037: IN PROGRESS.** All 250 entries reviewed with an assigned
-final disposition (this parent review pass is complete); child PRs are
-being applied and merged sequentially to bring the English text in line
-with the confirmed dispositions. Final review-pass disposition totals:
-181 VERIFIED, 69 MINOR_EDIT, 0 SUBSTANTIVE_REPAIR, 0 RETRANSLATE, 0
-DUPLICATION_OR_CONTAMINATION, 0 BLOCKED. Changed-translation count: 69
-(all `INVENTED_TEXT`). Second pass: 69/69 CONFIRMED. Blind QA: 27/27
-CONFIRMED_VERIFIED, 0 escalations. Both authorized systemic-candidate
-families resolved (scaffold: 69 CONFIRMED_DEFECT, applying; anticipation:
-5 FALSE_POSITIVE, unchanged).
+**Batch 037: COMPLETE.** All 250 entries reviewed with an assigned final
+disposition across all six child PRs (#430 77a, #431 77b, #432 78a, #433
+78b, #434 79a, this PR 79b); 0 entries left in an ambiguous state; 0
+BLOCKED. Final disposition totals: 181 VERIFIED, 69 MINOR_EDIT, 0
+SUBSTANTIVE_REPAIR, 0 RETRANSLATE, 0 DUPLICATION_OR_CONTAMINATION, 0
+BLOCKED. Changed-translation count: 69 (all `INVENTED_TEXT`: 67 from the
+base "New comment:" scaffold family, one co-occurring "Continuing:"
+synonym instance, and two "Textual note:" synonym instances). Second
+pass: 69/69 CONFIRMED. Blind QA: 27/27 CONFIRMED_VERIFIED, 0 escalations.
+Both authorized systemic-candidate families resolved (scaffold: 69
+CONFIRMED_DEFECT, applied; anticipation: 5 FALSE_POSITIVE, unchanged).
