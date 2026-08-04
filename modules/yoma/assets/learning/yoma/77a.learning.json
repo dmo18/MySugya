@@ -526,7 +526,7 @@
   {
    "vilnaLine": 1,
    "he": "לבוש הבדים. הוא גבריאל בספר דניאל: [פולסא דנורא. מקלות",
-   "en": "'clothed in linen' - this is Gabriel, in the book of Daniel. New comment: 'fiery lashes' - rods",
+   "en": "'clothed in linen' - this is Gabriel, in the book of Daniel. 'fiery lashes' - rods",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -538,7 +538,7 @@
   {
    "vilnaLine": 2,
    "he": "של אור: אי לא עבדת. כלל: לא עבדת. והיינו מצדיקים אותך",
-   "en": "of fire. New comment: 'if you did not do it' - entirely. Continuing: 'you did not do it' - and this is us justifying you",
+   "en": "of fire. 'if you did not do it' - entirely. 'you did not do it' - and this is us justifying you",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -571,7 +571,7 @@
   {
    "vilnaLine": 5,
    "he": "אל הכרוב לתתם לך: בחריקיה.",
-   "en": "to the cherub to give them to you. New comment: 'becherikeih' -",
+   "en": "to the cherub to give them to you. 'becherikeih' -",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -583,7 +583,7 @@
   {
    "vilnaLine": 6,
    "he": "במקומו: עומד לנגדי. גבריאל אמר",
-   "en": "'in his place.' New comment: 'standing against me' - Gabriel said",
+   "en": "'in his place.' 'standing against me' - Gabriel said",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -594,7 +594,7 @@
   {
    "vilnaLine": 7,
    "he": "כן לדניאל: ופרוותא דמשמהיג. נמל",
-   "en": "this to Daniel. New comment: 'and the harbor of Mashhig' - a harbor",
+   "en": "this to Daniel. 'and the harbor of Mashhig' - a harbor",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -605,7 +605,7 @@
   {
    "vilnaLine": 8,
    "he": "שקורין פורט: דמשמהיג. דבר מלכות",
-   "en": "called 'port.' New comment: 'demashhig' - a matter of kingship",
+   "en": "called 'port.' 'demashhig' - a matter of kingship",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -627,7 +627,7 @@
   {
    "vilnaLine": 10,
    "he": "מרגליות כדאמרינן בר\"ה : אכרגא.",
-   "en": "pearls, as we say in Tractate Rosh Hashanah. New comment: 'akharga' -",
+   "en": "pearls, as we say in Tractate Rosh Hashanah. 'akharga' -",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -639,7 +639,7 @@
   {
    "vilnaLine": 11,
    "he": "כסף גולגלתא: שוא לכם וכו'.",
-   "en": "head-tax silver. New comment: 'in vain for you, etc.' -",
+   "en": "head-tax silver. 'in vain for you, etc.' -",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -727,7 +727,7 @@
   {
    "vilnaLine": 19,
    "he": "למי שנדד שינה בשבילו: באתי",
-   "en": "regarding one who forwent sleep for His sake. New comment: 'I came",
+   "en": "regarding one who forwent sleep for His sake. 'I came",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -739,7 +739,7 @@
   {
    "vilnaLine": 20,
    "he": "בדבריך. על שדברתי בך: אשכחיה",
-   "en": "because of your words' - because I spoke in your favor. New comment: 'he found'",
+   "en": "because of your words' - because I spoke in your favor. 'he found'",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -751,7 +751,7 @@
   {
    "vilnaLine": 21,
    "he": "לדוביאל דהוה נקט איגרתא: ואני",
-   "en": "Duvi'el, who was holding the letter. New comment: 'and I'",
+   "en": "Duvi'el, who was holding the letter. 'and I'",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -795,7 +795,7 @@
   {
    "vilnaLine": 25,
    "he": "במקומי: עוי עוי. צעק וצוח גבריאל",
-   "en": "in my place.' New comment: 'oy oy' - Gabriel cried and screamed",
+   "en": "in my place.' 'oy oy' - Gabriel cried and screamed",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -839,7 +839,7 @@
   {
    "vilnaLine": 29,
    "he": "מפני אבשלום: וכי התענית בכל",
-   "en": "from Avshalom. New comment: 'and that you were afflicted in all'",
+   "en": "from Avshalom. 'and that you were afflicted in all'",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -883,7 +883,7 @@
   {
    "vilnaLine": 33,
    "he": "ועיף וצמא במדבר: מים קרים",
-   "en": "and weary and thirsty in the wilderness.' New comment: 'cold water",
+   "en": "and weary and thirsty in the wilderness.' 'cold water",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -928,7 +928,7 @@
   {
    "vilnaLine": 37,
    "he": "אבי: מרטקא. שוט הסוס: ויעש כן.",
-   "en": "'my father.' New comment: 'martka' - a horse-whip. New comment: 'and he did so' -",
+   "en": "'my father.' 'martka' - a horse-whip. 'and he did so' -",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -973,7 +973,7 @@
   {
    "vilnaLine": 41,
    "he": "נמי דמנעילת הסנדל הוא: שלא יבוא",
-   "en": "that his too was merely the absence of wearing a sandal. New comment: 'so that your foot should not come'",
+   "en": "that his too was merely the absence of wearing a sandal. 'so that your foot should not come'",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
