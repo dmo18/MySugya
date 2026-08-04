@@ -49,7 +49,21 @@ with tempfile.TemporaryDirectory() as tmp:
     scaffold = doc["families"]["new_comment_scaffold"]["candidates"]
     anticipation = doc["families"]["cross_entry_word_anticipation"]["candidates"]
 
-    check("3. scaffold candidates non-empty (known corpus condition)", len(scaffold) > 0, len(scaffold))
+    # The Step 6 review campaign is actively draining the "New comment:"
+    # scaffold family from the unreviewed corpus batch by batch, so a
+    # hardcoded non-empty expectation goes stale (and eventually false) as
+    # batches complete. Cross-check the generator's count against an
+    # independent, obviously-correct count instead of assuming a fixed
+    # corpus condition: this still catches a genuinely broken generator
+    # (wrong count) while remaining correct once the family is fully
+    # drained to 0.
+    expected_scaffold_count = sum(
+        1 for e in inv["entries"]
+        if e["reviewStatus"] == "UNREVIEWED" and "New comment:" in e["en"]
+    )
+    check("3. scaffold candidate count matches an independent corpus count",
+          len(scaffold) == expected_scaffold_count,
+          f"generator={len(scaffold)} independent={expected_scaffold_count}")
     check("4. every scaffold candidate's English actually contains the marker",
           all("New comment:" in c["en"] for c in scaffold))
     check("5. no scaffold candidate is a pilot (REVIEWED) entry",
