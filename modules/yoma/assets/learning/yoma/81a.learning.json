@@ -765,7 +765,7 @@
   {
    "vilnaLine": 2,
    "he": "שזפין. פרונ\"ש בלע\"ז שבלע בלא כסיסה: ראשון משלם קרן וחומש.",
-   "en": "'Unripe dates' - 'prunes' in the vernacular, that he swallowed without chewing. New comment: 'the first pays principal and fifth' -",
+   "en": "'Unripe dates' - 'prunes' in the vernacular, that he swallowed without chewing. 'the first pays principal and fifth' -",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -776,7 +776,7 @@
   {
    "vilnaLine": 3,
    "he": "שאף היא דרך אכילתן: ושני משלם דמי עצים לראשון. שהרי קנאן",
-   "en": "since that is also their normal manner of eating. New comment: 'and the second pays the value of wood to the first' - since he acquired them",
+   "en": "since that is also their normal manner of eating. 'and the second pays the value of wood to the first' - since he acquired them",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -820,7 +820,7 @@
   {
    "vilnaLine": 7,
    "he": "אלא רבי יהושע היא: שטומאתן",
-   "en": "but rather it is Rabbi Yehoshua's view. New comment: 'that their impurity",
+   "en": "but rather it is Rabbi Yehoshua's view. 'that their impurity",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -875,7 +875,7 @@
   {
    "vilnaLine": 12,
    "he": "אחד: טומאתו ולא שיעורו. כגון",
-   "en": "measure. New comment: 'its impurity but not its measure' - for example",
+   "en": "measure. 'its impurity but not its measure' - for example",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -909,7 +909,7 @@
   {
    "vilnaLine": 15,
    "he": "בכזית וזה בכעדשה: שיעורו ולא",
-   "en": "an olive's-bulk and that one is a lentil's-bulk. New comment: 'its measure but not",
+   "en": "an olive's-bulk and that one is a lentil's-bulk. 'its measure but not",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -942,7 +942,7 @@
   {
    "vilnaLine": 18,
    "he": "ערב: מתני' אינו חייב אלא",
-   "en": "until evening. New comment on the Mishnah: 'he is liable only",
+   "en": "until evening. Mishnah: 'he is liable only",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -965,7 +965,7 @@
   {
    "vilnaLine": 20,
    "he": "ושתיה מחד קרא נפקי: אכל",
-   "en": "and drinking derive from one verse. New comment: 'one who ate",
+   "en": "and drinking derive from one verse. 'one who ate",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -987,7 +987,7 @@
   {
    "vilnaLine": 22,
    "he": "דמתרי קראי נפקי: גמ' אכילה",
-   "en": "since they derive from two verses. New comment on the Gemara: 'eating",
+   "en": "since they derive from two verses. Gemara: 'eating",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1010,7 +1010,7 @@
   {
    "vilnaLine": 24,
    "he": "עליו אלא ביישוב הדעת: השמר",
-   "en": "for it except with a settled mind. New comment: 'take heed",
+   "en": "for it except with a settled mind. 'take heed",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1033,7 +1033,7 @@
   {
    "vilnaLine": 26,
    "he": "לא תעונה: א\"כ נפישי להו לאוי.",
-   "en": "a state of not being afflicted. New comment: 'if so, there would be too many prohibitions.'",
+   "en": "a state of not being afflicted. 'if so, there would be too many prohibitions.'",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1066,7 +1066,7 @@
   {
    "vilnaLine": 29,
    "he": "להרבות בו לאוין: השמר דלאו.",
-   "en": "to multiply prohibitions with it. New comment: 'take heed' used for a prohibition -",
+   "en": "to multiply prohibitions with it. 'take heed' used for a prohibition -",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1089,7 +1089,7 @@
   {
    "vilnaLine": 31,
    "he": "שלא יקוץ בהרתו: השמר דעשה.",
-   "en": "that he should not cut off his leprous mark. New comment: 'take heed' used for a positive commandment -",
+   "en": "that he should not cut off his leprous mark. 'take heed' used for a positive commandment -",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1100,7 +1100,7 @@
   {
    "vilnaLine": 32,
    "he": "השמר שתתענה: ותנא מייתי.",
-   "en": "'take heed that you shall be afflicted.' New comment: 'and the Tanna brings' -",
+   "en": "'take heed that you shall be afflicted.' 'and the Tanna brings' -",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1112,7 +1112,7 @@
   {
    "vilnaLine": 33,
    "he": "אזהרה בעינוי מהכא: על תוספת",
-   "en": "the warning regarding affliction, from here. New comment: 'regarding additional",
+   "en": "the warning regarding affliction, from here. 'regarding additional",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1146,7 +1146,7 @@
   {
    "vilnaLine": 36,
    "he": "יום: יהא מוזהר. בלאו: מה לעינוי",
-   "en": "day. New comment: 'he shall be warned' - with a prohibition. New comment: 'what of affliction",
+   "en": "day. 'he shall be warned' - with a prohibition. 'what of affliction",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1191,7 +1191,7 @@
   {
    "vilnaLine": 40,
    "he": "גבוה: חמשה קראי כתיבי במלאכה.",
-   "en": "the Most High. New comment: 'five verses are written regarding labor.'",
+   "en": "the Most High. 'five verses are written regarding labor.'",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1225,7 +1225,7 @@
   {
    "vilnaLine": 43,
    "he": "וחד לעונש דליליא. דאם אינו ענין",
-   "en": "New comment: 'and one for the nighttime punishment' - for if it is not needed",
+   "en": "'and one for the nighttime punishment' - for if it is not needed",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
@@ -1236,7 +1236,7 @@
   {
    "vilnaLine": 44,
    "he": "לאזהרה תנהו לענין עונש: ונאמר להלן",
-   "en": "for the warning, apply it to the matter of punishment. New comment: 'and it is stated further on",
+   "en": "for the warning, apply it to the matter of punishment. 'and it is stated further on",
    "enSource": "ai_helper_translation",
    "source": "talmud.dev",
    "confidence": "helper",
