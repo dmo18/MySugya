@@ -2,11 +2,11 @@
  "type": "rashi-translation-review",
  "module": "yoma",
  "targets": [
-  "28b",
-  "29a",
-  "29b",
-  "30a",
-  "30b"
+  "31a",
+  "31b",
+  "32a",
+  "32b",
+  "33a"
  ],
  "model": "sonnet",
  "paused": false,
