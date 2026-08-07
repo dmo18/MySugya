@@ -69,7 +69,21 @@ with tempfile.TemporaryDirectory() as tmp:
     check("5. no scaffold candidate is a pilot (REVIEWED) entry",
           not any(c["entryId"] in reviewed_ids for c in scaffold))
 
-    check("6. anticipation candidates non-empty", len(anticipation) > 0, len(anticipation))
+    # Same rationale as check 3 above: the cross_entry_word_anticipation
+    # family is scanned only across UNREVIEWED entries, so a hardcoded
+    # non-empty expectation goes stale (and eventually false) once the
+    # Step 6 review campaign reaches 0 UNREVIEWED entries. Cross-check
+    # against an independent count instead of assuming a fixed corpus
+    # condition, mirroring generate_rashi_systemic_candidates.py's own
+    # find_anticipation_candidates() criteria (UNREVIEWED + OVEREXPLAINED
+    # risk signal).
+    expected_anticipation_count = sum(
+        1 for e in inv["entries"]
+        if e["reviewStatus"] == "UNREVIEWED" and any(s["tag"] == "OVEREXPLAINED" for s in e["riskSignals"])
+    )
+    check("6. anticipation candidate count matches an independent corpus count",
+          len(anticipation) == expected_anticipation_count,
+          f"generator={len(anticipation)} independent={expected_anticipation_count}")
     check("7. every anticipation candidate is OVEREXPLAINED-flagged in the live inventory",
           all(any(s["tag"] == "OVEREXPLAINED" for s in inv_by_id[c["entryId"]]["riskSignals"]) for c in anticipation))
     check("8. no anticipation candidate is a pilot (REVIEWED) entry",
