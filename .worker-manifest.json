@@ -1,7 +1,14 @@
 {
- "type": "docs-tooling",
+ "type": "rashi-translation-review",
  "module": "yoma",
- "targets": [],
+ "targets": [
+  "74a",
+  "74b",
+  "75a",
+  "75b",
+  "76a",
+  "76b"
+ ],
  "model": "sonnet",
  "paused": false,
  "lifecycle": "pr",
@@ -12,39 +19,43 @@
  "authorizations": [],
  "maxBatch": null,
  "allowedFiles": [
-  "docs/*",
-  "scripts/*",
-  "shared/*",
-  "modules/*/module.json",
-  "modules/<module>/scripts/*.py",
-  "modules/<module>/scripts/allowlists/*",
-  "modules/<module>/MODULE.md",
-  ".github/workflows/*",
-  "githooks/*",
+  "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+  "modules/<module>/learning_data.js",
+  "modules/<module>/coverage.json",
+  "VERSION",
   "package.json",
   "package-lock.json",
-  "VERSION",
-  "README.md",
-  "CLAUDE.md",
-  "SOURCES.md",
-  "tests/*",
-  ".gitignore",
-  ".worker-manifest.json",
-  ".worker-queue.json"
+  "docs/rashi-audit-backlog.md",
+  "docs/reports/data/rashi-translation-quality-inventory.json",
+  "docs/reports/data/rashi-step6-batch-*-review-records.json",
+  "docs/reports/rashi-pilot-*.md",
+  "docs/reports/rashi-step6-batch-*-report.md",
+  "docs/reports/rashi-full-corpus-review-strategy.md",
+  "modules/<module>/scripts/validate_rashi_review_records.py",
+  "modules/<module>/scripts/test_validate_rashi_review_records.py",
+  "modules/<module>/scripts/check_rashi_pr_scope.py",
+  "scripts/worker_task_types.json",
+  ".worker-manifest.json"
  ],
- "allowedJsonPaths": [],
+ "allowedJsonPaths": [
+  "rashiTranslations[*].en"
+ ],
  "forbiddenFiles": [
-  "modules/yoma/assets/learning/*",
-  "modules/yoma/assets/talmuddev/*",
-  "modules/yoma/assets/daftexts/*",
-  "modules/yoma/source_store.js"
+  ".github/workflows/*",
+  "scripts/*",
+  "modules/yoma/scripts/*.py",
+  "githooks/*"
  ],
- "allowlistPolicy": "restructure-with-env",
- "structurePolicy": "not-applicable",
+ "allowlistPolicy": "not-applicable",
+ "structurePolicy": "forbidden",
  "requiredValidators": [
-  "validate:offline:yoma"
+  "validate:offline:yoma",
+  "check:rashi-pr-scope:yoma"
  ],
- "generationCommands": [],
+ "generationCommands": [
+  "cd modules/yoma && python3 scripts/build_learning_data.py",
+  "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+ ],
  "buildTestCommands": [
   "npm run build",
   "npm run check:deploy-html",
@@ -52,8 +63,11 @@
   "npm run test:browser"
  ],
  "escalationTriggers": [
-  "any existing gate would be weakened",
-  "workflow permission changes would be needed"
+  "Hebrew source appears defective",
+  "an entry boundary or linkedGemaraLineIds association appears wrong",
+  "the correct translation cannot be resolved responsibly (record BLOCKED instead of guessing)",
+  "a proposed change fails its own second semantic pass",
+  "any gate failure not fixable by correcting the entry's own English"
  ],
  "allowlistDrain": null,
  "scaffoldDebt": null,
