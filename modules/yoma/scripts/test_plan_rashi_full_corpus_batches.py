@@ -100,55 +100,69 @@ with tempfile.TemporaryDirectory() as tmp:
             ok = r.returncode != 0 and expect_substr in r.stdout
             check(name, ok, r.stdout[-800:])
 
-        # Duplicate-assignment detection is per-entry-id across the whole
-        # plan regardless of batch boundaries (see validator's `seen` dict),
-        # so self-duplicating within batch 0 exercises the same check and
-        # stays correct whether 1 or many batches remain as the campaign's
-        # remaining corpus shrinks toward completion.
-        corrupt_and_check(
-            "13. validator rejects duplicate assignment",
-            lambda d: d["batches"][0]["entryIds"].append(d["batches"][0]["entryIds"][0]),
-            "duplicate assignment",
-        )
-        corrupt_and_check(
-            "14. validator rejects a pilot (REVIEWED) entry injected into a batch",
-            lambda d: d["batches"][0]["entryIds"].append(next(iter(reviewed_ids))),
-            "pilot-entry reassignment",
-        )
-        corrupt_and_check(
-            "15. validator rejects a missing entry (coverage gap)",
-            lambda d: d["batches"][0]["entryIds"].pop(),
-            "missing from every batch",
-        )
-        corrupt_and_check(
-            "16. validator rejects a non-contiguous daf list",
-            lambda d: d["batches"][0].__setitem__("daf", [d["batches"][0]["daf"][0], d["batches"][-1]["daf"][0]]),
-            "not contiguous",
-        )
-        # A perek-crossing batch can only be constructed by borrowing a daf
-        # from a batch in a different perek. As the campaign's remaining
-        # corpus shrinks toward completion, the fresh plan can end up with
-        # only one batch / one perek, in which case this corruption is
-        # unconstructible from real data; skip rather than fail in that case.
-        other_perek_daf = [b["daf"][0] for b in batches if b["perek"] != batches[0]["perek"]][:1]
-        if other_perek_daf:
-            corrupt_and_check(
-                "17. validator rejects a perek-crossing batch",
-                lambda d: d["batches"][0].__setitem__("daf", d["batches"][0]["daf"] + other_perek_daf),
-                "spans multiple perakim",
-            )
+        # Checks 13-19 all inject a corruption by mutating an existing batch
+        # (batches[0], sometimes alongside batches[-1] or another perek's
+        # batch). Once the Step 6 review campaign finishes, the freshly
+        # generated plan has 0 remaining batches, so none of these
+        # corruptions can be constructed from real data; skip the whole
+        # block rather than fail in that case. The final-completion state
+        # (0 batches) is itself covered by check 3's exact-coverage
+        # assertion (both sides equal the empty set) and check 12's
+        # validator-accepts-a-fresh-plan check above.
+        if not batches:
+            for n in (13, 14, 15, 16, 17, 18, 19):
+                check(f"{n}. corruption-injection check (skipped: 0 batches remain, corpus fully reviewed)", True)
         else:
-            check("17. validator rejects a perek-crossing batch (skipped: only one perek remains in the plan)", True)
-        corrupt_and_check(
-            "18. validator rejects an over-hard-cap entryCount",
-            lambda d: d["batches"][0].__setitem__("entryCount", 999),
-            "exceeds hard max",
-        )
-        corrupt_and_check(
-            "19. validator rejects a stale plan (tampered without regenerating)",
-            lambda d: d["batches"][0].__setitem__("estimatedChangedCount", 999999),
-            "STALE PLAN",
-        )
+            # Duplicate-assignment detection is per-entry-id across the whole
+            # plan regardless of batch boundaries (see validator's `seen`
+            # dict), so self-duplicating within batch 0 exercises the same
+            # check and stays correct whether 1 or many batches remain as
+            # the campaign's remaining corpus shrinks toward completion.
+            corrupt_and_check(
+                "13. validator rejects duplicate assignment",
+                lambda d: d["batches"][0]["entryIds"].append(d["batches"][0]["entryIds"][0]),
+                "duplicate assignment",
+            )
+            corrupt_and_check(
+                "14. validator rejects a pilot (REVIEWED) entry injected into a batch",
+                lambda d: d["batches"][0]["entryIds"].append(next(iter(reviewed_ids))),
+                "pilot-entry reassignment",
+            )
+            corrupt_and_check(
+                "15. validator rejects a missing entry (coverage gap)",
+                lambda d: d["batches"][0]["entryIds"].pop(),
+                "missing from every batch",
+            )
+            corrupt_and_check(
+                "16. validator rejects a non-contiguous daf list",
+                lambda d: d["batches"][0].__setitem__("daf", [d["batches"][0]["daf"][0], d["batches"][-1]["daf"][0]]),
+                "not contiguous",
+            )
+            # A perek-crossing batch can only be constructed by borrowing a
+            # daf from a batch in a different perek. As the campaign's
+            # remaining corpus shrinks toward completion, the fresh plan can
+            # end up with only one batch / one perek, in which case this
+            # corruption is unconstructible from real data; skip rather than
+            # fail in that case.
+            other_perek_daf = [b["daf"][0] for b in batches if b["perek"] != batches[0]["perek"]][:1]
+            if other_perek_daf:
+                corrupt_and_check(
+                    "17. validator rejects a perek-crossing batch",
+                    lambda d: d["batches"][0].__setitem__("daf", d["batches"][0]["daf"] + other_perek_daf),
+                    "spans multiple perakim",
+                )
+            else:
+                check("17. validator rejects a perek-crossing batch (skipped: only one perek remains in the plan)", True)
+            corrupt_and_check(
+                "18. validator rejects an over-hard-cap entryCount",
+                lambda d: d["batches"][0].__setitem__("entryCount", 999),
+                "exceeds hard max",
+            )
+            corrupt_and_check(
+                "19. validator rejects a stale plan (tampered without regenerating)",
+                lambda d: d["batches"][0].__setitem__("estimatedChangedCount", 999999),
+                "STALE PLAN",
+            )
     finally:
         if backup is not None:
             canonical.write_bytes(backup)
