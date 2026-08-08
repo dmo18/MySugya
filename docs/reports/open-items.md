@@ -72,11 +72,8 @@ per-shard test-count arithmetic reproduced from first principles.
 
 ## OPEN-ACTIONABLE
 
-| Item | Detail |
-|---|---|
-| Rashi translation-quality audit coverage | The corpus-wide translation-quality (not scaffold, not association) audit is not yet complete for every daf. A git-history-grounded coverage map exists in `docs/rashi-audit-backlog.md` but predates the 7a/9b repairs and the post-15.293 work. Reconstructing an exact per-daf audited/unaudited/uncertain list is the next actionable step. **Scope note: this is real, ongoing Yoma content-quality work, distinct from and predating the Phase 3/4 platform-closure campaign. It is not a Phase 4 completion criterion** (Phase 4 requires Rashi structural/renderer gates - corpus validation, association, boundary registry, readiness 8/8 - never translation-quality audit completion) and is not touched by that campaign, to avoid reopening Rashi semantic repair. |
-
-Nothing else is currently blocked on code.
+Nothing is currently blocked on code. The Rashi translation-quality audit
+coverage item formerly listed here is resolved; see COMPLETED below.
 
 ---
 
@@ -140,6 +137,7 @@ COMPLETED below.
 | Legacy renderer retirement | **Done at VERSION 15.346** by explicit operator decision. The legacy vilnaLine branch, the `?rashiAssoc` selector, and the legacy map/state were removed; `linkedGemaraLineIds` is the only association mechanism. A leftover `?rashiAssoc` value of any kind is ignored and renders linked. See `docs/reports/legacy-renderer-retirement-policy.md` (now closed). |
 | 7a, 9b corrections | 7a realignment (53 entries, PR #326); 9b full reconstruction (41 entries, PR #327). |
 | `main` branch protection | **Resolved at VERSION 15.357** (Phase 1 of `docs/platform-closure-plan.md`, operator-configured). Confirmed by direct API read-back of repository ruleset `19991220`: applies to `refs/heads/main`, enforcement active, PR required, 0 mandatory approving reviews (none added beyond what the owner configured), squash/merge/rebase all still allowed, required status check exactly `build`, strict/up-to-date enforcement true, force pushes and branch deletion both blocked, `current_user_can_bypass: "never"` with no bypass actors listed. Full table in the plan document's Phase 1 completion record. |
+| Rashi translation-quality audit coverage (Step 6 full-corpus review) | **Resolved at VERSION 15.481.** The 8,854-entry corpus-wide translation-quality audit (distinct from scaffold remediation and from association/renderer readiness) is complete: 41 batch-review PRs plus the Step 4 pilot (200 entries) and the `rashi-yoma-009b-001` source-repair follow-up (1 entry) bring every entry to `reviewStatus: REVIEWED`, 0 `UNREVIEWED` remaining. Final disposition breakdown: 8,222 VERIFIED, 614 MINOR_EDIT, 16 SUBSTANTIVE_REPAIR, 2 RETRANSLATE, 0 DUPLICATION_OR_CONTAMINATION, 0 BLOCKED. Every batch's blind QA found 0 escalations. Full terminal record: `docs/reports/rashi-step6-full-corpus-completion-report.md`. This was real, ongoing Yoma content-quality work, distinct from and independent of the Phase 3/4 platform-closure campaign (never a Phase 4 completion criterion). |
 | GitHub Pages dual-publisher race | **Resolved at VERSION 15.357** (Phase 1 of `docs/platform-closure-plan.md`, operator-configured). The Pages configuration endpoint itself remains unreadable from any session (environment proxy blocks `/repos/.../pages` unconditionally), so this is confirmed behaviorally and via live checks rather than by reading the setting's value directly: five cache-busted public checks spaced across a 9-minute window all served the identical `assets/app-15.356.js` at HTTP 200 with zero development-loader tokens, and the merge of the Phase 1 evidence PR (a real push to `main`) produced no competing `pages build and deployment` run against the merge commit. See the plan document's Phase 1 completion record for the full evidence chain, including the prior directly-observed defect this resolves (VERSION 15.352-15.353, both outcomes of the race caught live). |
 
 ### Worker queue: completed, with an explained derived status

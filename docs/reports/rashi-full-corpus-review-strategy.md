@@ -437,7 +437,19 @@ known as each batch is actually reviewed.
 **Step 5: COMPLETE.** Strategy formalized, tooling built and tested,
 batches generated and validated against the live corpus, systemic
 candidates generated, source-blocker evidence recorded, Step 6 PR
-sequence proposed. **No Rashi translation was edited. No Hebrew was
-edited.** Step 4's results are unchanged. **Step 6 has not started** - no
-full-corpus batch review has begun; this document only defines the
-methodology and tooling Step 6 will execute.
+sequence proposed.
+
+**Step 6: COMPLETE at VERSION 15.481.** All 41 batches in the table
+above landed as independent PRs, in the order shown, each with a full
+independent first-pass read, a full second pass on every changed or
+BLOCKED entry, batch-scoped blind QA (0 escalations in any of the 41
+batches), and a green worker-pipeline verify before merge. Combined with
+the Step 4 pilot (200 entries) and the separate `rashi-yoma-009b-001`
+source-repair follow-up (1 entry, resolved BLOCKED to VERIFIED), the
+entire 8,854-entry corpus now carries `reviewStatus: REVIEWED` with 0
+`UNREVIEWED` remaining. Full terminal reconciliation, aggregate
+disposition counts, and closing regression evidence:
+`docs/reports/rashi-step6-full-corpus-completion-report.md`. **No
+Hebrew was edited by this campaign** (the sole exception, the pre-Step-5
+`rashi-yoma-009b-001` source repair, is documented separately in the
+"Resolution addendum" above and was its own narrowly-scoped task type).
