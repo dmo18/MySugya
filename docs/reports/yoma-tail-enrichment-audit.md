@@ -101,7 +101,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (14): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.hint`, `display.title`, `display.whats`, `finalRuling`, `learning.coreMove`, `learning.coreTension`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Source is the Ezekiel 8-9 aggada (image of jealousy, Michael pleading, Gabriel and the coals, Dubiel and the Persian angel). display/learning describe 'bathing prohibition derived from verse; Ezekiel's anointing vision' - a topic absent from these 8 lines. argumentFlow is correct ('Ezekiel's vision of sun-worshippers', 'Michael pleads, Gabriel is sent to scatter the coals').
 - Second pass (AGREE): Re-read yoma-077a-l01..l43 from Sefaria English: the lines are Ezekiel 8:3-9:11 exposition, Michael's plea, Gabriel and the cooled embers, Dubiel and the Persian angel's letter. No verse-derivation of bathing occurs anywhere in the eight lines.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `hint-form`, `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-077a-s03 (77a) - WRONG_TOPIC
 
@@ -110,7 +113,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (12): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.hint`, `display.title`, `display.whats`, `finalRuling`, `learning.coreMove`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`
 - First pass: Source derives that going barefoot is affliction (Isaiah 20:2, Jeremiah 2:25). display/learning describe pleasure vs therapeutic anointing and Na'aman - the topic of a different sugya. argumentFlow correct ('Deriving the shoe affliction from Jeremiah').
 - Second pass (AGREE): Independently recovered: the three lines derive going barefoot as affliction from Isaiah 20:2 and Jeremiah 2:25. Na'aman and therapeutic anointing do not appear.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `hint-form`, `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-077a-s04 (77a) - WRONG_TOPIC
 
@@ -119,7 +125,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (12): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.hint`, `display.title`, `display.whats`, `finalRuling`, `learning.coreMove`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`
 - First pass: Source derives that withholding conjugal relations is affliction. display/learning describe the sandal prohibition (the preceding sugya's subject). argumentFlow correct ('Deriving that withholding marital relations is affliction').
 - Second pass (AGREE): Independently recovered: the single line asks whence refraining from conjugal relations is called affliction. The sandal prohibition is the preceding sugya's subject, not this one's.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `hint-form`, `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-077b-s02 (77b) - WRONG_TOPIC
 
@@ -128,7 +137,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (13): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.hint`, `display.title`, `display.whats`, `finalRuling`, `learning.coreMove`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Source is partial bathing/oiling, Rabban Shimon ben Gamliel on rinsing one hand, Shammai the Elder. display/learning describe marital relations as the fifth affliction. argumentFlow correct.
 - Second pass (AGREE): Independently recovered: the lines forbid partial bathing/oiling, record Rabban Shimon ben Gamliel on rinsing one hand, and Shammai the Elder's stringency. Marital relations are not discussed.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `hint-form`, `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-078a-s03 (78a) - WRONG_TOPIC
 
@@ -137,7 +149,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (13): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.hint`, `display.title`, `display.whats`, `finalRuling`, `learning.coreMove`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Source is sitting on damp clay and cooling methods (Rabba's baby, Rava's silver cup, the pre-soaked cloth). display/learning describe a sick person wearing shoes. argumentFlow correct.
 - Second pass (AGREE): Independently recovered: prohibition on sitting on damp clay, Rabba cooling with a baby, Rava with a silver cup, and the pre-soaked wrung-out cloth. No sick person and no shoes appear.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `hint-form`, `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-078b-s03 (78b) - WRONG_TOPIC
 
@@ -146,7 +161,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (12): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.hint`, `display.title`, `display.whats`, `finalRuling`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Source: Rabbi Eliezer permits the king and bride to WASH THEIR FACES; a new mother may wear shoes; scorpion danger. display says the king wears shoes for honour. argumentFlow correct ('Who permits the king and bride to wash their faces?').
 - Second pass (AGREE): Independently recovered: Rabbi Eliezer permits the king and the bride to WASH THEIR FACES; separately a new mother may wear shoes, and shoes are permitted where scorpions threaten. The king is never said to wear shoes.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `hint-form`, `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-080a-s01 (80a) - WRONG_RULING, CROSS_FIELD_CONTRADICTION
 
@@ -155,7 +173,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (11): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.title`, `display.whats`, `finalRuling`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Source: 'All the measures in the Torah connected to eating are the volume of an OLIVE-bulk, except...'. display asserts all Torah eating measures are EGG-bulk - the opposite. argumentFlow states it correctly ('All eating measures are an olive-bulk, with exceptions'), so display contradicts argumentFlow within the same sugya.
 - Second pass (AGREE): Independently recovered from the first line verbatim: 'All the measures in the Torah connected to eating are the volume of an olive-bulk, except...'. The universal measure is the olive-bulk; egg-bulk is the exception for impure food.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-080a-s02 (80a) - WRONG_TOPIC, INVENTED_CLAIM
 
@@ -164,7 +185,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (11): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.title`, `display.whats`, `finalRuling`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Source derives the EGG-BULK measure for IMPURE FOOD (Rabbi Abbahu, 'of all food which may be eaten'). display claims the YK eating measure is derived by gezerah shavah from matzah - no such derivation appears in these lines. argumentFlow correct.
 - Second pass (AGREE): Independently recovered: Rabbi Abbahu derives the EGG-BULK measure for IMPURE FOOD from 'of all food which may be eaten'. There is no matzah gezerah shavah and no YK measure derivation in these lines.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-080b-s01 (80b) - WRONG_SPEAKER, WRONG_TOPIC
 
@@ -173,7 +197,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (11): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.title`, `display.whats`, `finalRuling`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Source is Rabbi Zeira's three objections and Rava's objection about the liquid measure (incl. Og of Bashan). display describes Rav and Shmuel measuring each other's cheeks - neither name occurs in the sugya. argumentFlow correct.
 - Second pass (AGREE): Independently recovered: the objections are Rabbi Zeira's (three of them) and Rava's, concerning whether the liquid measure is relative to body size, including the Og of Bashan case. Neither Rav nor Shmuel appears.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-080b-s03 (80b) - WRONG_RULING, CROSS_FIELD_CONTRADICTION
 
@@ -182,7 +209,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (11): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.title`, `display.whats`, `finalRuling`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Reish Lakish rules that one who eats in an excessive manner (achila gassa) on Yom Kippur is EXEMPT. display asserts overeating 'creates liability even without swallowing'. argumentFlow states the exemption correctly.
 - Second pass (AGREE): Independently recovered: Reish Lakish rules one who eats in an excessive manner (achila gassa) on Yom Kippur is EXEMPT, and the same for a non-priest eating teruma gassa. The source states exemption, not liability.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-082a-s02 (82a) - WRONG_TOPIC
 
@@ -191,7 +221,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (11): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.title`, `display.whats`, `finalRuling`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Source continues the mishna on TRAINING children to fast (Rabbi Yochanan, Rabba bar Shmuel's baraita, training vs completing). display describes saving a child's life overriding YK. argumentFlow correct.
 - Second pass (AGREE): Independently recovered: the lines continue the mishna on training children, Rabbi Yochanan on completing the fast, Rabba bar Shmuel's baraita, and whether training equals completing. No danger-to-life case appears.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-082a-s04 (82a) - WRONG_TOPIC
 
@@ -200,7 +233,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (11): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.title`, `display.whats`, `finalRuling`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Source is martyrdom (yehareg ve'al ya'avor) for forbidden relations and murder. display frames it as pikuach nefesh overriding YK - the opposite direction of the halakha. argumentFlow correct ('Source for martyrdom over relations and murder').
 - Second pass (AGREE): Independently recovered: the lines concern surrendering one's life rather than committing forbidden relations or murder, and how the murder case teaches in both directions. This is martyrdom law, the converse of pikuach nefesh overriding.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-082b-s01 (82b) - WRONG_TOPIC, INVENTED_CLAIM, TRUNCATED, TEMPLATE_CONTAMINATION, CROSS_FIELD_CONTRADICTION
 
@@ -209,7 +245,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (18): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.hint`, `display.title`, `display.whats`, `finalRuling`, `learning.ahaMoment`, `learning.coreMove`, `learning.coreTension`, `learning.learnerQuestion`, `learning.learningBlocker`, `learning.memoryAnchor`, `learning.takeaway`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Source (yoma-082b-l01) is the sevara that one must accept death rather than commit murder: 'who says your blood is redder than his?' (the mari duray case before Rava). Every display and learning field instead describes whether Yom Kippur is violated to save a murderer's life - a question absent from the source. display.hint is additionally cut with a literal ellipsis ('...is ex...') and finalRuling is a 150-char truncated copy of that hint ('The tension betwee'). argumentFlow step-01 and the quiz material render the real sugya correctly.
 - Second pass (AGREE): Independently recovered from yoma-082b-l01 verbatim: 'And with regard to the murderer himself, from where do we derive...that he should be killed rather than transgress' - the mari duray case before Rava and 'what makes you think your blood is redder?'. The sugya never asks whether YK is violated for a murderer.
-- Recommended later task type: display-only-edit, gemara-learning, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `hint-form`, `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-082b-s02 (82b) - WRONG_SPEAKER, OMITTED_SOURCE_MATERIAL, TRUNCATED
 
@@ -218,7 +257,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (13): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.hint`, `display.title`, `display.whats`, `finalRuling`, `learning.coreMove`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: The sugya has two stories: Rabbi Yehuda HaNasi (the whisper worked) and Rabbi Chanina (the whisper did NOT work; he read the verse about the baby). 'R. Yannai' occurs nowhere in the Hebrew or English of either line. All display/learning fields attribute the whisper to R. Yannai and omit the Rabbi Chanina story entirely, losing the contrast that is the point of the pair. argumentFlow names Rabbi Yehuda HaNasi correctly.
 - Second pass (AGREE): Independently recovered: yoma-082b-l06 names Rabbi Yehuda HaNasi (whisper succeeded) and yoma-082b-l09 names Rabbi Chanina (whisper failed; he read the verse about the baby). A string search for 'Yannai' and 'ינאי' across both lines returns nothing.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `hint-form`, `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-083b-s03 (83b) - WRONG_TOPIC, INVENTED_CLAIM
 
@@ -227,7 +269,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (11): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.title`, `display.whats`, `finalRuling`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Source is the Rabbi Meir / Rabbi Yehuda / Rabbi Yosei innkeeper narrative (reading the host's name, the dream, the withheld purse, recovering it via wine). display describes them treating a STUDENT WITH BULMOS - no student and no bulmos episode occurs in these lines. argumentFlow correct.
 - Second pass (AGREE): Independently recovered: Rabbi Meir, Rabbi Yehuda and Rabbi Yosei lodge with an innkeeper; Rabbi Meir reads the host's name, a dream discloses the purse, the host denies the deposit, and wine loosens his tongue. No student and no bulmos episode occurs.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-084a-s03 (84a) - INVENTED_CLAIM, WRONG_TOPIC
 
@@ -236,7 +281,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (11): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.title`, `display.whats`, `finalRuling`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Source discusses TZEFIDNA (a gum/tooth disease from hot bread) and yerakon remedies. display names the illness 'Tzefardea' and glosses it as a 'snake-related illness'; tzefardea means frog and the disease in the sugya is tzefidna. argumentFlow uses 'tzefidna' correctly.
 - Second pass (AGREE): Independently recovered: the disease under discussion is tzefidna, said to come from eating over-hot wheat bread, with yerakon remedies alongside. 'Tzefardea' (frog) does not occur, and nothing connects the illness to snakes.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-084b-s01 (84b) - INVENTED_CLAIM, WRONG_TOPIC
 
@@ -245,7 +293,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (11): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.title`, `display.whats`, `finalRuling`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Propagates the 'Tzefardea' misnaming from 084a-s03 and attributes the proof to a 'Rabba bar Shela incident'; the source cites Rabba bar Shmuel's baraita and Rav Ashi on the mishna's wording.
 - Second pass (AGREE): Independently recovered: the proof is Rabba bar Shmuel's baraita listing Rabbi Matya's three cases plus Rav Ashi's reading of the mishna's wording. No 'Rabba bar Shela' appears, and the disease name is tzefidna.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-086b-s02 (86b) - WRONG_TOPIC
 
@@ -254,7 +305,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (11): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.title`, `display.whats`, `finalRuling`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Source: Rabbi Yitzchak in the name of Rabba bar Mari contrasting God with a human who has been wronged - God is appeased by words alone; Rabbi Meir on one penitent saving the world. display describes 'cancel your evil decree before the New Year', which is not in these lines. argumentFlow correct.
 - Second pass (AGREE): Independently recovered: Rabbi Yitzchak in the name of Rabba bar Mari contrasts God with a wronged human - God is appeased by words alone - and Rabbi Meir adds that one penitent can bring forgiveness to the world. No New Year decree-cancelling appears.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-086b-s03 (86b) - WRONG_TOPIC
 
@@ -263,7 +317,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (11): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.title`, `display.whats`, `finalRuling`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Source asks what demonstrates COMPLETE REPENTANCE and whether to publicise a sin (Rav Yehuda citing Rav). display describes chilul Hashem for Torah scholars - the subject of 086a-s03. argumentFlow correct.
 - Second pass (AGREE): Independently recovered: the lines ask what demonstrates complete repentance and cite Rav Yehuda in the name of Rav on when a sin should be publicised. Chilul Hashem for scholars is 086a-s03's subject.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-086b-s05 (86b) - WRONG_TOPIC
 
@@ -272,7 +329,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (11): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.title`, `display.whats`, `finalRuling`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Source is the Tosefta on NOT re-confessing sins already confessed, Rabbi Eliezer ben Yaakov, detailing the sin, and the Moses/David parable. display describes 'transgressions against teachers and communal chilul Hashem'. argumentFlow correct.
 - Second pass (AGREE): Independently recovered: the Tosefta forbids re-confessing an already-confessed sin, Rabbi Eliezer ben Yaakov dissents, and the Moses/David parable follows. Transgressions against teachers do not appear.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-087a-s01 (87a) - WRONG_TOPIC
 
@@ -281,7 +341,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (11): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.title`, `display.whats`, `finalRuling`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Source is Rava's self-admonition before sitting in judgement ('of his own will he goes to die'). display frames it as a halakhic distinction between willing and forced death. argumentFlow correct ('Rava's words before judging').
 - Second pass (AGREE): Independently recovered: the single line is Rava's self-admonition before judging - 'of his own will he goes to die' - about the peril of judicial honour, not a halakhic willing/forced death distinction.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-087a-s02 (87a) - WRONG_TOPIC
 
@@ -290,7 +353,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (11): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.title`, `display.whats`, `finalRuling`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Source expounds 'It is not good to respect the person of the wicked' and the merit/liability the righteous and wicked bring on others. display describes YK not atoning without appeasing the wronged party - the subject of 087a-s05. argumentFlow correct.
 - Second pass (AGREE): Independently recovered: the lines expound 'It is not good to respect the person of the wicked' and the merit or liability the righteous and wicked accrue for others. Appeasing a wronged person is 087a-s05's subject.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-087b-s01 (87b) - WRONG_SPEAKER
 
@@ -299,7 +365,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (11): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.title`, `display.whats`, `finalRuling`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: The slighted party in the source is RABBI CHANINA (Rav restarted the portion when Rabbi Chiyya entered; Rabbi Chanina saw the dream and withheld forgiveness). display casts the story as Rav appeasing R. Chiyya and R. Chiyya refusing. argumentFlow names Rabbi Chanina correctly.
 - Second pass (AGREE): Independently recovered: Rav restarted the portion when Rabbi Chiyya entered, which slighted RABBI CHANINA; Rabbi Chanina saw the dream and withheld forgiveness so Rav would leave to teach. Rabbi Chiyya is not the party refusing appeasement.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ### yoma-087b-s03 (87b) - WRONG_TOPIC, INVENTED_CLAIM
 
@@ -308,7 +377,10 @@ Every record below carries a completed second pass with a record-specific source
 - Affected fields (11): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.title`, `display.whats`, `finalRuling`, `learning.learnerQuestion`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Source is the NE'ILA sugya (priestly blessing three/four times a year, whether ne'ila is a full Amida, Ulla bar Rav before Rava, ne'ila exempting ma'ariv). display describes 'Closing of Tractate Yoma: Hadran formula; Tu BeAv' - neither the Hadran nor Tu BeAv appears in these lines. argumentFlow correct.
 - Second pass (AGREE): Independently recovered: the lines are the ne'ila sugya - the priestly blessing's frequency, whether ne'ila is a full Amida or a confession, Ulla bar Rav leading before Rava, and ne'ila exempting ma'ariv. Neither the Hadran formula nor Tu BeAv occurs.
-- Recommended later task type: display-only-edit, learning-copy-edit, summary-edit, TASK_TYPE_DECISION_REQUIRED - gap paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `finalRuling`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
+- Unowned paths: `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`
+- Prerequisite contract decisions: `finalRuling-semantics`, `requiresUnderstanding-semantics`
+- Atomic task decision required: yes - Affected paths span several registered owners AND include paths with no registered owner.
 
 ## Minor semantic edits
 
@@ -329,17 +401,48 @@ Every record below carries a completed second pass with a record-specific source
 - **9 records** have a `display.hint` ending in a literal ellipsis.
 - Where the underlying `display.hint` is itself semantically wrong (for example `yoma-082b-s01`, `yoma-087b-s02`, `yoma-088a-s01`), restoring the full hint text would propagate the error. **Automatic restoration by extending the hint is explicitly not recommended.**
 
-## Task-type mapping
+## Task ownership
 
-| Recommended type | Records |
+**Correction.** An earlier revision of this report asserted that finalRuling, requiresUnderstanding, topicTags, visualizableElements, difficulty and alternateAngles had no registered owner. That was wrong: it was derived from task-type descriptions and allowedFiles rather than from jsonScope. Read directly from scripts/worker_task_types.json, structural-repair holds mutable ownership of sugyot[*].finalRuling, sugyot[*].requiresUnderstanding[*], sugyot[*].topicTags[*], sugyot[*].visualizableElements[*], sugyot[*].difficulty and sugyot[*].conceptRefs[*] under allowStructure, and learning-copy-edit holds sugyot[*].alternateAngles under authorizeAlternateAngles. The only genuinely unowned paths in this audit are the object-form concepts members.
+
+Ownership below is resolved directly from `jsonScope` in `scripts/worker_task_types.json` and is re-proved on every `--check` run.
+
+### Registered task owners (records touched)
+
+| Task type | Records |
 |---|---|
-| TASK_TYPE_DECISION_REQUIRED | 82 |
+| structural-repair | 82 |
 | display-only-edit | 33 |
+| gemara-learning | 33 |
 | summary-edit | 33 |
 | learning-copy-edit | 25 |
-| gemara-learning | 1 |
 
-`TASK_TYPE_DECISION_REQUIRED` is used for **82** records because no registered task type owns `concepts`, `topicTags`, `visualizableElements`, `finalRuling`, `requiresUnderstanding`, `difficulty` or `alternateAngles`. `structural-repair` covers `conceptRefs` but not `concepts`. No new type is invented in this audit PR.
+Counts are per record, not per path: a record is counted once for each task type owning at least one of its affected fields, so the column sums exceed the record total.
+
+### Required authorizations
+
+| Authorization | Records |
+|---|---|
+| allowStructure | 82 |
+
+### Decision counts
+
+- Records with prerequisite contract decisions: **82**
+- Records with genuinely unowned paths: **33**
+- Records requiring an atomic task decision: **33**
+- Records whose affected-field list expanded in this pass: **82**
+
+### Genuinely unowned paths
+
+| Path | Records |
+|---|---|
+| `sugyot[*].concepts.halachic[*]` | 33 |
+| `sugyot[*].concepts.narrative[*]` | 33 |
+| `sugyot[*].concepts.theological[*]` | 33 |
+
+These are the object-form `concepts` members. `glossary-edit` owns the list-form `sugyot[*].concepts[*].term/he/translit/def`, which does not cover the `{halachic, narrative, theological}` shape carried by 389 of the 492 Yoma sugyot. No other registry entry matches them.
+
+**byRegisteredTaskOwner counts records, not paths: a record is counted once per task type that owns at least one of its affected fields, so the column sums exceed the record count. TASK_TYPE_DECISION_REQUIRED is now a derived marker set only where a record has genuinely unowned paths or cannot be repaired atomically under one task type. It is no longer set merely because a field needs a semantic contract decision, which is why the previous count of 82 is not reproduced.**
 
 ## False positives withdrawn
 
