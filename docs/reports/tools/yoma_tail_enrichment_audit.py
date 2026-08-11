@@ -68,7 +68,12 @@ def load_registry():
 
 
 def normalize_path(field):
-    """Map an affectedFields entry onto a registry-style JSON path."""
+    """Map an affectedFields entry onto a registry-style JSON path.
+
+    Leaf paths are preserved: visualizableElements[*].name stays a leaf so that
+    ownership of it must be proved by descent from visualizableElements[*],
+    rather than by collapsing the leaf onto its parent.
+    """
     f = field
     if f in ("<daf>.summary", "summary"):
         return "summary"
@@ -79,29 +84,35 @@ def normalize_path(field):
                  "misconceptions", "quizSeeds", "relatedSugyot", "conceptRefs"):
         if f == bare:
             f = bare + "[*]"
-    if f.startswith("visualizableElements[*]."):
-        f = "visualizableElements[*]"
-    if f.startswith("argumentFlow"):
-        f = "argumentFlow[*]"
     return "sugyot[*]." + f
 
 
 def path_matches(owner_path, target):
-    """True when the registry path and the target refer to the same data."""
+    """Directional: an owner owns itself and its descendants, never its parent.
+
+    visualizableElements[*] owns visualizableElements[*].name.
+    learning.takeaway.text does NOT own learning.takeaway.
+    concepts[*].term does NOT own concepts[*].
+    """
     if owner_path == target:
         return True
-    for a, b in ((owner_path, target), (target, owner_path)):
-        if b.startswith(a + ".") or b.startswith(a + "["):
-            return True
-        if a.endswith("[*]"):
-            stem = a[:-3]
-            if b.startswith(stem) and (b == stem or b[len(stem):].startswith((".", "[*]"))):
+    if target.startswith(owner_path + ".") or target.startswith(owner_path + "["):
+        return True
+    if owner_path.endswith("[*]"):
+        stem = owner_path[:-3]
+        if target.startswith(stem):
+            rest = target[len(stem):]
+            if rest.startswith("[*].") or rest.startswith("[*]["):
                 return True
     return False
 
 
 def owners_for(target, reg):
-    """Return [(taskType, 'mutable'|'flagMutable', authorization|None)]."""
+    """Return [(taskType, 'mutable'|'flagMutable', authorization|None)].
+
+    The authorization is always taken from the registry's own flagMutable key,
+    never from anything the audit record claims.
+    """
     out = []
     for name, d in reg.items():
         if d.get("paused"):
@@ -122,6 +133,14 @@ def owners_for(target, reg):
     return out
 
 
+def owns_path(reg, task_type, target):
+    """Does this one task type own this one path? Returns (kind, auth) or None."""
+    for name, kind, auth in owners_for(target, reg):
+        if name == task_type:
+            return (kind, auth)
+    return None
+
+
 def single_type_covers(reg, targets):
     for name, d in reg.items():
         if d.get("paused"):
@@ -135,11 +154,47 @@ def single_type_covers(reg, targets):
     return None
 
 
+def self_test(reg, problems):
+    """Deterministic negative controls for the ownership resolver."""
+    def owners(p):
+        return owners_for(p, reg)
+
+    cases = []
+    # takeaway.text is mutable under learning-copy-edit, needing no authorization
+    got = owns_path(reg, "learning-copy-edit", "sugyot[*].learning.takeaway.text")
+    cases.append(("takeaway.text is mutable without authorizeTakeawayType",
+                  got is not None and got[0] == "mutable" and got[1] is None))
+    # takeaway.type is only reachable via the authorizeTakeawayType flag
+    got = owns_path(reg, "learning-copy-edit", "sugyot[*].learning.takeaway.type")
+    cases.append(("takeaway.type is flagMutable, not mutable",
+                  got is not None and got[0] == "flagMutable"))
+    cases.append(("takeaway.type authorization is authorizeTakeawayType",
+                  got is not None and got[1] == "authorizeTakeawayType"))
+    # the parent container is not owned by its text child
+    cases.append(("learning.takeaway is not owned via its text child",
+                  not any(k == "mutable" for _n, k, _a in owners("sugyot[*].learning.takeaway"))))
+    # descent still works
+    cases.append(("visualizableElements[*] owns visualizableElements[*].name",
+                  owns_path(reg, "structural-repair", "sugyot[*].visualizableElements[*].name") is not None))
+    # a child never owns its parent
+    cases.append(("concepts[*].term does not own concepts[*]",
+                  not path_matches("sugyot[*].concepts[*].term", "sugyot[*].concepts[*]")))
+    cases.append(("alternateAngles authorization is authorizeAlternateAngles",
+                  (owns_path(reg, "learning-copy-edit", "sugyot[*].alternateAngles") or (None, None))[1]
+                  == "authorizeAlternateAngles"))
+    # a task type credited with a path it does not own must be detectable
+    cases.append(("glossary-edit does not own finalRuling",
+                  owns_path(reg, "glossary-edit", "sugyot[*].finalRuling") is None))
+    for label, ok in cases:
+        print("  %-62s %s" % (label, "ok" if ok else "FAIL"))
+        if not ok:
+            problems.append("ownership self-test failed: " + label)
+
+
 def check_ownership(recs, reg, problems):
-    """Prove every affected path is either owned by a recorded task type or
-    explicitly listed in unownedPaths."""
+    """Prove every affected path is owned by a recorded task type or is listed
+    in unownedPaths, and prove every recorded ownedPaths entry individually."""
     for r in recs:
-        rec_owners = {o["taskType"] for o in r.get("registeredTaskOwners", [])}
         declared_unowned = set(r.get("unownedPaths", []))
         derived_owners = set()
         for f in r["affectedFields"]:
@@ -154,38 +209,62 @@ def check_ownership(recs, reg, problems):
                 problems.append("%s: path %r is declared unowned but %s owns it"
                                 % (r["sugyaId"], f, sorted(n for n, _k, _a in os_)))
             derived_owners |= {n for n, _k, _a in os_}
-        # every recorded owner must actually follow from the affected fields
+
+        rec_owners = {o["taskType"] for o in r.get("registeredTaskOwners", [])}
         for name in rec_owners - derived_owners:
             problems.append("%s: registeredTaskOwners lists %r which owns none of its affectedFields"
                             % (r["sugyaId"], name))
         for name in derived_owners - rec_owners:
             problems.append("%s: %r owns an affected path but is missing from registeredTaskOwners"
                             % (r["sugyaId"], name))
-        # required optional authorizations must be recorded
+
         for o in r.get("registeredTaskOwners", []):
-            d = reg.get(o["taskType"], {})
-            need = set()
-            if o.get("coverage") == "flagMutable" and o.get("requiredAuthorizations"):
-                need |= set(o["requiredAuthorizations"])
-            if d.get("structurePolicy") == "requires-authorization" and o["taskType"] == "structural-repair":
-                need.add("allowStructure")
-            missing = need - set(o.get("requiredAuthorizations") or [])
-            if missing:
+            tt = o["taskType"]
+            needed_auth = set()
+            kinds = set()
+            # every individual ownedPaths entry must be owned by THIS task type
+            for f in o.get("ownedPaths") or []:
+                if f not in r["affectedFields"]:
+                    problems.append("%s: %s ownedPaths lists %r which is not an affected field"
+                                    % (r["sugyaId"], tt, f))
+                    continue
+                res = owns_path(reg, tt, normalize_path(f))
+                if res is None:
+                    problems.append("%s: %s is credited with %r but does not own it"
+                                    % (r["sugyaId"], tt, f))
+                    continue
+                kind, auth = res
+                kinds.add(kind)
+                if kind == "flagMutable" and auth:
+                    needed_auth.add(auth)
+            # structural work requires its structure flag
+            d = reg.get(tt, {})
+            if tt == "structural-repair" and d.get("structurePolicy") == "requires-authorization":
+                needed_auth.add("structureFlag:" + ((d.get("jsonScope") or {}).get("structureFlag") or "allowStructure"))
+            declared = set(o.get("requiredAuthorizations") or [])
+            expected = {a.split("structureFlag:")[-1] for a in needed_auth}
+            if expected - declared:
                 problems.append("%s: %s omits required authorization %s"
-                                % (r["sugyaId"], o["taskType"], sorted(missing)))
-            for a in o.get("requiredAuthorizations") or []:
+                                % (r["sugyaId"], tt, sorted(expected - declared)))
+            for a in declared - expected:
+                problems.append("%s: %s declares authorization %r that no owned path requires"
+                                % (r["sugyaId"], tt, a))
+            for a in declared:
                 if a not in (d.get("optionalAuthorizations") or []) + (d.get("requiredAuthorizations") or []):
-                    problems.append("%s: %s records authorization %r that the registry does not define"
-                                    % (r["sugyaId"], o["taskType"], a))
-        # atomicity must follow from ownership
+                    problems.append("%s: %s records authorization %r the registry does not define"
+                                    % (r["sugyaId"], tt, a))
+            # coverage must reflect the strongest requirement among owned paths
+            if o.get("coverage") == "mutable" and kinds == {"flagMutable"}:
+                problems.append("%s: %s coverage 'mutable' but every owned path is flagMutable"
+                                % (r["sugyaId"], tt))
+
         owned_targets = [normalize_path(f) for f in r["affectedFields"] if f not in declared_unowned]
         covering = single_type_covers(reg, owned_targets) if owned_targets else None
         expected_atomic = bool(declared_unowned) or (bool(r["affectedFields"]) and covering is None)
         if bool(r.get("atomicRepairDecisionRequired")) != expected_atomic:
             problems.append("%s: atomicRepairDecisionRequired=%s but ownership implies %s"
                             % (r["sugyaId"], r.get("atomicRepairDecisionRequired"), expected_atomic))
-        marker = r.get("derivedSummaryMarker")
-        if marker == "TASK_TYPE_DECISION_REQUIRED" and not expected_atomic:
+        if r.get("derivedSummaryMarker") == "TASK_TYPE_DECISION_REQUIRED" and not expected_atomic:
             problems.append("%s: TASK_TYPE_DECISION_REQUIRED set without an unowned path or atomicity gap"
                             % r["sugyaId"])
 
@@ -350,7 +429,10 @@ def main():
     if drift:
         problems.append("mechanicalFlags drift on %d record(s): %s" % (len(drift), drift[:5]))
 
-    # real path ownership, authorizations and atomicity
+    # resolver negative controls, then real path ownership
+    print("\n== ownership resolver self-test ==")
+    self_test(reg, problems)
+    print()
     check_ownership(recs, reg, problems)
     print("  registered task owners: %s" % dict(owner_ct))
     print("  unowned paths: %s" % sorted(unowned_inv))

@@ -242,7 +242,7 @@ Every record below carries a completed second pass with a record-specific source
 
 - Overall: **SUBSTANTIVE_REPAIR_NEEDED** (semantic SUBSTANTIVE_REPAIR_NEEDED / mechanical MINOR_EDIT_NEEDED)
 - Source lines: `yoma-082b-l01`
-- Affected fields (18): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.hint`, `display.title`, `display.whats`, `finalRuling`, `learning.ahaMoment`, `learning.coreMove`, `learning.coreTension`, `learning.learnerQuestion`, `learning.learningBlocker`, `learning.memoryAnchor`, `learning.takeaway`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
+- Affected fields (18): `<daf>.summary`, `concepts.halachic[]`, `concepts.narrative[]`, `concepts.theological[]`, `display.hint`, `display.title`, `display.whats`, `finalRuling`, `learning.ahaMoment`, `learning.coreMove`, `learning.coreTension`, `learning.learnerQuestion`, `learning.learningBlocker`, `learning.memoryAnchor`, `learning.takeaway.text`, `requiresUnderstanding`, `topicTags`, `visualizableElements[].name`
 - First pass: Source (yoma-082b-l01) is the sevara that one must accept death rather than commit murder: 'who says your blood is redder than his?' (the mari duray case before Rava). Every display and learning field instead describes whether Yom Kippur is violated to save a murderer's life - a question absent from the source. display.hint is additionally cut with a literal ellipsis ('...is ex...') and finalRuling is a 150-char truncated copy of that hint ('The tension betwee'). argumentFlow step-01 and the quiz material render the real sugya correctly.
 - Second pass (AGREE): Independently recovered from yoma-082b-l01 verbatim: 'And with regard to the murderer himself, from where do we derive...that he should be killed rather than transgress' - the mari duray case before Rava and 'what makes you think your blood is redder?'. The sugya never asks whether YK is violated for a murderer.
 - Registered owners: display-only-edit, gemara-learning, learning-copy-edit, structural-repair (allowStructure), summary-edit
@@ -431,6 +431,10 @@ Counts are per record, not per path: a record is counted once for each task type
 - Records with genuinely unowned paths: **33**
 - Records requiring an atomic task decision: **33**
 - Records whose affected-field list expanded in this pass: **82**
+
+### Leaf-path recording rule
+
+Affected fields are recorded at the leaf the registry actually owns. A parent container path is never recorded when only one leaf is defective, because a child owner does not confer ownership of its parent: sugyot[*].learning.takeaway.text does not make learning-copy-edit an owner of sugyot[*].learning.takeaway. The checker's path matching is directional and enforces this.
 
 ### Genuinely unowned paths
 

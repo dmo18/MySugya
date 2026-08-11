@@ -3976,7 +3976,7 @@
     "learning.learnerQuestion",
     "learning.learningBlocker",
     "learning.memoryAnchor",
-    "learning.takeaway",
+    "learning.takeaway.text",
     "requiresUnderstanding",
     "topicTags",
     "visualizableElements[].name"
@@ -4023,7 +4023,7 @@
       "learning.learnerQuestion",
       "learning.learningBlocker",
       "learning.memoryAnchor",
-      "learning.takeaway"
+      "learning.takeaway.text"
      ]
     },
     {
@@ -4037,7 +4037,7 @@
       "learning.learnerQuestion",
       "learning.learningBlocker",
       "learning.memoryAnchor",
-      "learning.takeaway"
+      "learning.takeaway.text"
      ]
     },
     {
@@ -4086,7 +4086,8 @@
    ],
    "atomicRepairDecisionRequired": true,
    "atomicRepairReason": "Affected paths span several registered owners AND include paths with no registered owner.",
-   "derivedSummaryMarker": "TASK_TYPE_DECISION_REQUIRED"
+   "derivedSummaryMarker": "TASK_TYPE_DECISION_REQUIRED",
+   "leafPathNote": "learning.takeaway was recorded as a parent container. Only the text leaf is defective: learning.takeaway.type is 'legal_principle', which is correct for the real sugya (one must accept death rather than commit murder is a legal principle), while learning.takeaway.text carries the fabricated pikuach-nefesh framing. The affected path is therefore sugyot[*].learning.takeaway.text, owned as mutable by learning-copy-edit and gemara-learning; authorizeTakeawayType is NOT required because learning.takeaway.type is not being changed."
   },
   {
    "daf": "82b",
@@ -10913,5 +10914,6 @@
   "sourceTrackingFields": "In every defective record examined, argumentFlow, misconceptions and quizSeeds track the declared source correctly. The contaminated set is display.*, learning.*, concepts, topicTags, visualizableElements, requiresUnderstanding, finalRuling and the parent daf summary."
  },
  "externalScopeConclusion": "No evidence was found that this specific pre-squash generation-signature defect family extends outside 77a-88a. The controls do not establish complete semantic cleanliness for the remainder of Yoma; they were sized to test one defect family, not to audit the corpus.",
- "registryOwnershipCorrection": "An earlier revision of this report asserted that finalRuling, requiresUnderstanding, topicTags, visualizableElements, difficulty and alternateAngles had no registered owner. That was wrong: it was derived from task-type descriptions and allowedFiles rather than from jsonScope. Read directly from scripts/worker_task_types.json, structural-repair holds mutable ownership of sugyot[*].finalRuling, sugyot[*].requiresUnderstanding[*], sugyot[*].topicTags[*], sugyot[*].visualizableElements[*], sugyot[*].difficulty and sugyot[*].conceptRefs[*] under allowStructure, and learning-copy-edit holds sugyot[*].alternateAngles under authorizeAlternateAngles. The only genuinely unowned paths in this audit are the object-form concepts members."
+ "registryOwnershipCorrection": "An earlier revision of this report asserted that finalRuling, requiresUnderstanding, topicTags, visualizableElements, difficulty and alternateAngles had no registered owner. That was wrong: it was derived from task-type descriptions and allowedFiles rather than from jsonScope. Read directly from scripts/worker_task_types.json, structural-repair holds mutable ownership of sugyot[*].finalRuling, sugyot[*].requiresUnderstanding[*], sugyot[*].topicTags[*], sugyot[*].visualizableElements[*], sugyot[*].difficulty and sugyot[*].conceptRefs[*] under allowStructure, and learning-copy-edit holds sugyot[*].alternateAngles under authorizeAlternateAngles. The only genuinely unowned paths in this audit are the object-form concepts members.",
+ "leafPathOwnershipCorrection": "Affected fields are recorded at the leaf the registry actually owns. A parent container path is never recorded when only one leaf is defective, because a child owner does not confer ownership of its parent: sugyot[*].learning.takeaway.text does not make learning-copy-edit an owner of sugyot[*].learning.takeaway. The checker's path matching is directional and enforces this."
 }
