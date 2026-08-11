@@ -1,59 +1,40 @@
 {
- "type": "docs-tooling",
+ "type": "audit-only",
  "module": "yoma",
  "targets": [],
  "model": "sonnet",
  "paused": false,
  "lifecycle": "pr",
- "mechanicalTier": false,
+ "mechanicalTier": true,
  "independentReviewRequired": false,
  "reviewPolicy": "none",
  "escalationModel": "sonnet",
  "authorizations": [],
  "maxBatch": null,
  "allowedFiles": [
-  "docs/*",
-  "scripts/*",
-  "shared/*",
-  "modules/*/module.json",
-  "modules/<module>/scripts/*.py",
-  "modules/<module>/scripts/allowlists/*",
-  "modules/<module>/MODULE.md",
-  ".github/workflows/*",
-  "githooks/*",
-  "package.json",
-  "package-lock.json",
-  "VERSION",
-  "README.md",
-  "CLAUDE.md",
-  "SOURCES.md",
-  "tests/*",
-  ".gitignore",
+  "docs/reports/*",
+  "docs/rashi-audit-backlog.md",
   ".worker-manifest.json",
-  ".worker-queue.json"
+  "VERSION",
+  "package.json",
+  "package-lock.json"
  ],
  "allowedJsonPaths": [],
  "forbiddenFiles": [
-  "modules/yoma/assets/learning/*",
-  "modules/yoma/assets/talmuddev/*",
-  "modules/yoma/assets/daftexts/*",
-  "modules/yoma/source_store.js"
+  "modules/*",
+  "scripts/*",
+  ".github/workflows/*",
+  "githooks/*"
  ],
- "allowlistPolicy": "restructure-with-env",
- "structurePolicy": "not-applicable",
+ "allowlistPolicy": "forbidden",
+ "structurePolicy": "forbidden",
  "requiredValidators": [
   "validate:offline:yoma"
  ],
  "generationCommands": [],
- "buildTestCommands": [
-  "npm run build",
-  "npm run check:deploy-html",
-  "npm test",
-  "npm run test:browser"
- ],
+ "buildTestCommands": [],
  "escalationTriggers": [
-  "any existing gate would be weakened",
-  "workflow permission changes would be needed"
+  "any finding that suggests content on main is wrong (report it; do not fix it)"
  ],
  "allowlistDrain": null,
  "scaffoldDebt": null,
