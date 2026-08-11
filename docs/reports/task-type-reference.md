@@ -27,8 +27,7 @@ Repair source-proven semantic defects recorded in the merged Yoma tail-enrichmen
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
-- REQUIRED authorization: auditRecordIds (operator-issued; preflight fails without it)
-- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/<module>-perek-review.md, .worker-manifest.json
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/<module>-perek-review.md, docs/reports/data/yoma-tail-enrichment-repair-progress.json, .worker-manifest.json
 - mutable JSON paths: summary, sugyot[*].display.title, sugyot[*].display.whats, sugyot[*].display.hint, sugyot[*].display.oneLine, sugyot[*].display.shortSummary, sugyot[*].learning.learnerQuestion, sugyot[*].learning.coreTension, sugyot[*].learning.coreMove, sugyot[*].learning.resolution, sugyot[*].learning.ahaMoment, sugyot[*].learning.learningBlocker, sugyot[*].learning.memoryAnchor, sugyot[*].learning.takeaway.text, sugyot[*].finalRuling, sugyot[*].prerequisiteKnowledge[*], sugyot[*].requiresUnderstanding[*], sugyot[*].topicTags[*], sugyot[*].visualizableElements[*], sugyot[*].difficulty
 - with --authorize authorizeAlternateAngles: sugyot[*].alternateAngles
 - with --authorize authorizeTakeawayType: sugyot[*].learning.takeaway.type
@@ -188,7 +187,7 @@ Delete the removed sugyot[*].concepts field and nothing else. Mechanical, delete
 - escalation model: sonnet
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: yes
-- max batch: 0
+- max batch: None
 - REQUIRED authorization: allowDeleteRemovedField (operator-issued; preflight fails without it)
 - allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/<module>-perek-review.md, .worker-manifest.json
 - mutable JSON paths: 

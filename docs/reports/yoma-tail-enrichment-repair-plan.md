@@ -34,7 +34,32 @@ The 29 records whose `finalRuling` exactly copies `display.hint` carry `STRUCTUR
 8. parent daf summaries after all sugyot on each daf are settled
 9. finalRuling-only mechanical repairs after each underlying hint is confirmed
 
-Steps 1 is tooling and migration work and does not appear as queue rows. Steps 2 onward map to `queuePosition` in the queue file.
+Step 1 is tooling and migration work and does not appear as queue rows. Steps 2 onward map to `queuePosition` in the queue file.
+
+### Step 8 (parent summaries) enforcement status
+
+This plan previously stated that "parent daf summaries [are repaired] after
+all sugyot on each daf are settled" without saying what enforces that. As of
+this revision it is **partially enforced mechanically, not fully**:
+
+- `normalize_audit_pointer` (`scripts/worker_pipeline.py`) correctly maps a
+  `/summary` pointer onto the literal `<daf>.summary` affectedFields
+  template, and `json_scope_check` requires that string to appear in the
+  affectedFields of at least one manifest-named audit record for that same
+  daf before a `/summary` edit is authorized at all. This much IS
+  mechanically enforced today.
+- What is **NOT** mechanically enforced: that every OTHER sugya-level record
+  on that same daf has already reached a "settled" progress status
+  (`FIXED_PENDING_REVIEW` or later) before the `/summary` edit lands. A
+  manifest naming only the `<daf>.summary`-bearing record, with the rest of
+  that daf's records still `NOT_STARTED`, currently passes scope and
+  prerequisite checks. Enforcing the full "settled" precondition would
+  require a same-daf progress-status cross-check inside
+  `audit_repair_prerequisite_errors` or `json_scope_check`; that has not been
+  built. Until it is, Step 8's daf-level sequencing is a WORKFLOW convention
+  for whoever assembles each repair PR, not a gate the tooling itself
+  enforces. This paragraph is the accurate statement of that gap; do not read
+  the numbered list above as claiming otherwise.
 
 ## Prerequisites before any semantic repair
 
@@ -42,6 +67,45 @@ Steps 1 is tooling and migration work and does not appear as queue rows. Steps 2
 2. **`enrichment-schema-migration`** - `requiresUnderstanding` prose to `prerequisiteKnowledge` (404 sugyot), `visualizableElements` shape normalization (432 sugyot missing `item`), `difficulty` `introductory` to `intro` (112 sugyot).
 
 Both are mechanical. Until they land, no sugya can pass `--targets` target-clean, because every sugya still carries the removed `concepts` field. That ordering is enforced by the gate rather than by convention.
+
+**This is now enforced by a SEPARATE, dedicated gate, not only by
+target-clean.** `audit_repair_prerequisite_errors` (`scripts/worker_pipeline.py`)
+blocks `audited-sugya-enrichment-repair` manifest generation AND preflight,
+independent of semantic target-clean, until (a) `legacy_concepts_present` is
+exactly zero across the WHOLE corpus, and (b) every named record's own
+`migrationPrerequisites` (declared per-sugya in
+`docs/reports/data/yoma-tail-enrichment-repair-queue.json`, e.g.
+`requiresUnderstanding-prose-to-prerequisiteKnowledge`,
+`visualizableElements-shape-normalization`, `difficulty-introductory-to-intro`)
+are clean for that exact sugya. Unrelated ordinary debt elsewhere in the
+corpus never blocks an otherwise-satisfied check.
+
+## Progress lifecycle (one-PR repair)
+
+`docs/reports/data/yoma-tail-enrichment-repair-progress.json` tracks each
+queued record through `NOT_STARTED -> IN_PROGRESS -> FIXED_PENDING_REVIEW ->
+APPROVED_PENDING_MERGE -> COMPLETE` (plus `BLOCKED`, requiring a
+`blockerReason`, resolving back to `IN_PROGRESS`). This supports a single
+content-repair PR end to end:
+
+1. the repair PR's own commits walk NOT_STARTED through APPROVED_PENDING_MERGE
+   (each transition on its own commit; legality is checked across the FULL
+   commit history from merge-base to head, not just the two endpoints, so an
+   intermediate walk is never rejected as a false "skip");
+2. `APPROVED_PENDING_MERGE` requires a non-empty `reviewer` and
+   `independentReviewResult` -- the explicit pre-merge "approved" checkpoint
+   from an independent reviewer;
+3. after squash-merge, the effective `COMPLETE` state is DERIVED
+   (`derive_effective_status`) from the squash commit being an ancestor of
+   main and touching a `*.learning.json` file, plus the already-approved
+   progress state -- no second, progress-only PR is required just to
+   hand-edit the file to `COMPLETE`.
+
+Progress-record changes in any one PR are scoped to exactly that PR's
+manifest `auditRecordIds`; every other record must stay byte-identical, and
+no record may carry a field outside the schema (`status`, `prNumber`,
+`repairCommit`, `mergedCommit`, `version`, `reviewer`,
+`independentReviewResult`, `blockerReason`).
 
 ## First four repairs
 
