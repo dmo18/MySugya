@@ -366,6 +366,94 @@ r3 = subprocess.run([sys.executable, "scripts/validate_enrichment_contracts.py",
 check("11c. the real CLI rejects an unknown --rules value",
       r3.returncode != 0 and "unknown rule id" in (r3.stdout + r3.stderr), (r3.stdout + r3.stderr)[-400:])
 
+# ---- 12. finalRuling terminal-punctuation matching (exact contract) --------
+ACCEPTED_ENDINGS = [
+    "The halakha follows Rabbi Yehuda.",
+    "Is the measure really a large date?",
+    "The Gemara rejects this!",
+    'The ruling states, "it is permitted."',
+    "The Sages held it is permitted.'",
+    "See the parallel discussion (Yoma 4a.)",
+    "See the parallel ruling [ibid.]",
+    'The Gemara asks, "why?"',
+    'The Gemara answers, "no!"',
+]
+for text in ACCEPTED_ENDINGS:
+    got = rules(content(sugya("yoma-002a-s01", finalRuling=text)))
+    check("12a. accepted finalRuling ending %r" % text[-6:],
+          "finalRuling_unterminated" not in got, sorted(got))
+
+REJECTED_ENDINGS = [
+    "The halakha follows Rabbi Yehuda:",
+    "The halakha follows Rabbi Yehuda;",
+    'The ruling states "it is permitted"',
+    "The Sages held it is permitted'",
+    "See the parallel discussion (Yoma 4a)",
+    "See the parallel ruling [ibid]",
+    'A bare closer after a comma, "it is permitted,"',
+    'A bare closer after a word: "quoted"',
+]
+for text in REJECTED_ENDINGS:
+    got = rules(content(sugya("yoma-002a-s01", finalRuling=text)))
+    check("12b. rejected finalRuling ending %r" % text[-6:],
+          "finalRuling_unterminated" in got, sorted(got))
+
+# ---- 13. ARRAY-OCCURRENCE IDENTITY is stable across index shifts (req 7) ---
+# Two invalid topic tags; remove the first so the second shifts from index 1
+# to index 0. The ratchet must PASS (the surviving occurrence's identity
+# does not depend on its array position).
+two_bad = content(sugya("yoma-002a-s01", topicTags=["Bad One", "Bad Two"]))
+two_bad_v, _, two_bad_occ = V.collect_violations(two_bad)
+two_bad_baseline = make_baseline(two_bad_v, two_bad_occ)
+
+shifted_one = content(sugya("yoma-002a-s01", topicTags=["Bad Two"]))
+shifted_v, _, shifted_occ = V.collect_violations(shifted_one)
+p_shift, imp_shift = V.compare_to_baseline(shifted_v, shifted_occ, two_bad_baseline, [])
+check("13a. removing one invalid topic tag lets the survivor's index shift "
+      "and still PASSES (stable identity)", p_shift == [], p_shift)
+check("13a2. the index shift is reported as an improvement (2 -> 1)",
+      any("topicTags_invalid_slug" in m and "2 -> 1" in m for m in imp_shift), imp_shift)
+
+# Same scenario for visualizableElements_bare_value (a different array rule).
+two_bad_ve2 = content(sugya("yoma-002a-s01", visualizableElements=["bare one", "bare two"]))
+tv2_v, _, tv2_occ = V.collect_violations(two_bad_ve2)
+tv2_baseline = make_baseline(tv2_v, tv2_occ)
+shifted_ve2 = content(sugya("yoma-002a-s01", visualizableElements=["bare two"]))
+sv2_v, _, sv2_occ = V.collect_violations(shifted_ve2)
+p_ve_shift, imp_ve_shift = V.compare_to_baseline(sv2_v, sv2_occ, tv2_baseline, [])
+check("13b. removing one invalid visualizableElement lets the survivor's "
+      "index shift and still PASSES (stable identity)", p_ve_shift == [], p_ve_shift)
+
+# After the shift, replacing the surviving value with a genuinely DIFFERENT
+# invalid value (still at index 0) must FAIL against the original two-item
+# baseline: it is not covered by the baseline's fingerprint multiset.
+replaced_after_shift = content(sugya("yoma-002a-s01", topicTags=["A Totally New Bad Tag"]))
+rep2_v, _, rep2_occ = V.collect_violations(replaced_after_shift)
+p_replaced, _ = V.compare_to_baseline(rep2_v, rep2_occ, two_bad_baseline, [])
+check("13c. replacing the surviving value with a different invalid value fails",
+      any("same-sugya worsening" in p for p in p_replaced), p_replaced)
+
+# Adding an IDENTICAL extra invalid value (duplicate, same fingerprint once
+# index is stripped) must still FAIL via multiset/Counter semantics, not be
+# masked by set semantics.
+one_bad_tag2 = content(sugya("yoma-002a-s01", topicTags=["Same Bad Tag"]))
+ob2_v, _, ob2_occ = V.collect_violations(one_bad_tag2)
+ob2_baseline = make_baseline(ob2_v, ob2_occ)
+duplicated = content(sugya("yoma-002a-s01", topicTags=["Same Bad Tag", "Same Bad Tag"]))
+dup_v, _, dup_occ = V.collect_violations(duplicated)
+p_dup, _ = V.compare_to_baseline(dup_v, dup_occ, ob2_baseline, [])
+check("13d. adding an identical extra invalid value fails (multiset growth, "
+      "not masked by shared fingerprint)", any("count rose" in p for p in p_dup), p_dup)
+
+# strip_array_index sanity: array index removed, non-array path untouched.
+check("13e. strip_array_index removes numeric array indices",
+      V.strip_array_index("topicTags[3]") == "topicTags[]")
+check("13f. strip_array_index leaves a non-array path untouched",
+      V.strip_array_index("finalRuling") == "finalRuling")
+check("13g. fingerprint_occurrence is index-independent for otherwise identical occurrences",
+      V.fingerprint_occurrence("topicTags_invalid_slug", "yoma-002a-s01", "topicTags[0]", "Bad Tag")
+      == V.fingerprint_occurrence("topicTags_invalid_slug", "yoma-002a-s01", "topicTags[7]", "Bad Tag"))
+
 if FAILED:
     print("\n%d check(s) failed: %s" % (len(FAILED), FAILED))
     sys.exit(1)

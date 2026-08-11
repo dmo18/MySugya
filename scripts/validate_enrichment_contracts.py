@@ -39,16 +39,24 @@ way a deleted/renamed rule would. Baselines are per-module
 (scripts/baselines/<module>_enrichment_contract_debt.json); a module may
 never reuse another module's baseline.
 
-Debt is tracked at OCCURRENCE granularity (rule, sugyaId, field path, array
-index, content fingerprint), not just per-sugya-id, so:
+Debt is tracked at OCCURRENCE granularity (rule, sugyaId, index-stripped
+field path, content fingerprint), not just per-sugya-id, and NOT keyed by
+array index -- array index is retained on each occurrence purely as
+diagnostic/report metadata, never as identity, so:
 
   * a NEW violating sugya id is always a failure, even if totals fall;
   * within an ALREADY-dirty sugya, an additional occurrence of the same rule
-    is always a failure (occurrence count rose);
+    is always a failure (occurrence count rose), using MULTISET (Counter)
+    semantics so an identical invalid value repeated an extra time is
+    detected even though it shares a fingerprint with its sibling;
   * within an already-dirty sugya, swapping one invalid value for a
     DIFFERENT invalid value at the same or a new location is always a
-    failure (its fingerprint is not in the baseline's fingerprint set for
-    that rule+sugya), even when the occurrence count does not rise;
+    failure (its fingerprint is not covered by the baseline's fingerprint
+    multiset for that rule+sugya), even when the occurrence count does not
+    rise;
+  * removing one invalid array member while another unchanged invalid
+    member shifts down an index is a PASS -- identity survives the shift
+    because array index is excluded from the fingerprint;
   * removing one of several violations in a dirty sugya is a pass and
     prints the exact decrease.
 
@@ -83,7 +91,7 @@ SCHEMA_VERSION = 2
 DIFFICULTY = ("intro", "intermediate", "advanced")
 SLUG = re.compile(r"[a-z0-9]+(-[a-z0-9]+)*")
 SUGYA_ID = re.compile(r"^[a-z0-9]+-\d+[ab]-s\d+$")
-SENTENCE_END = re.compile(r"[.!?:;”\"')\]]$")
+SENTENCE_END = re.compile(r"[.!?][\"'”\)\]]?$")
 CANONICAL_VE_KEYS = {"item", "type", "label", "role", "priority"}
 LEGACY_VE_KEYS = {"name", "description", "desc"}
 
@@ -173,14 +181,32 @@ def baseline_path(module):
     return BASELINE_DIR / ("%s_enrichment_contract_debt.json" % module)
 
 
-def fingerprint_occurrence(rule, sid, path, index, value):
-    """A stable content fingerprint for one occurrence. Any change in the
-    offending value (even keeping the same rule/sugya/path/index) produces a
-    different fingerprint, which is exactly what lets the ratchet reject an
-    invalid value silently swapped for a different invalid value."""
+ARRAY_INDEX = re.compile(r"\[\d+\]")
+
+
+def strip_array_index(path):
+    """The logical field path with any array index removed (e.g.
+    "topicTags[3]" -> "topicTags[]"). This is the STABLE identity path used
+    for occurrence fingerprinting -- array index is diagnostic metadata only,
+    never part of an occurrence's identity, so that removing one invalid
+    array member and letting a later invalid member shift down one index
+    does not change that surviving member's identity."""
+    return ARRAY_INDEX.sub("[]", path)
+
+
+def fingerprint_occurrence(rule, sid, path, value):
+    """A stable content fingerprint for one occurrence, keyed by
+    (rule, sugyaId, index-stripped path, value) -- NOT by array index. Any
+    change in the offending value (even keeping the same rule/sugya/path)
+    produces a different fingerprint, which is exactly what lets the ratchet
+    reject an invalid value silently swapped for a different invalid value.
+    Because array index is excluded, an unchanged invalid array member keeps
+    its identity even when an earlier sibling is removed and every later
+    index shifts down by one -- index is retained elsewhere purely as
+    diagnostic/report metadata, never as identity."""
     if not isinstance(value, (str, int, float, bool, type(None))):
         value = repr(value)
-    payload = json.dumps({"rule": rule, "sugyaId": sid, "path": path, "index": index,
+    payload = json.dumps({"rule": rule, "sugyaId": sid, "path": strip_array_index(path),
                           "value": value}, ensure_ascii=False, sort_keys=True, default=str)
     return hashlib.sha256(payload.encode("utf-8")).hexdigest()[:16]
 
@@ -206,7 +232,10 @@ def collect_violations(daf_content):
         v[rule].add(sid)
         occ[rule].append({
             "sugyaId": sid, "path": path, "index": index,
-            "fingerprint": fingerprint_occurrence(rule, sid, path, index, value),
+            # index is diagnostic metadata only (kept for --report output);
+            # it is deliberately excluded from the identity fingerprint so
+            # array-index shifts never change an occurrence's identity.
+            "fingerprint": fingerprint_occurrence(rule, sid, path, value),
         })
         if len(detail[rule]) < 5:
             detail[rule].append("%s %s: %s" % (sid, path, note))
@@ -459,12 +488,23 @@ def compare_to_baseline(violations, occurrences, base, targets, rules_filter=Non
                 continue
             if not b and not c:
                 continue
-            b_fps = {o["fingerprint"] for o in b}
-            c_fps = {o["fingerprint"] for o in c}
+            # Multiset (Counter) semantics, not set semantics: two distinct
+            # occurrences of an IDENTICAL invalid value share one fingerprint
+            # (index is excluded from identity, see fingerprint_occurrence),
+            # so duplicate-growth must be caught by multiplicity, not mere
+            # set membership.
+            b_counter = collections.Counter(o["fingerprint"] for o in b)
+            c_counter = collections.Counter(o["fingerprint"] for o in c)
             if len(c) > len(b):
                 problems.append("count rose for %s %s: baseline %d -> now %d"
                                 % (rule, sid, len(b), len(c)))
-            elif not c_fps <= b_fps:
+            elif c_counter - b_counter:
+                # Counter subtraction keeps only fingerprints whose current
+                # multiplicity exceeds the baseline's -- a non-empty result
+                # means some current occurrence (by value, not by array
+                # position) is not covered by the baseline's multiset for
+                # this rule+sugya, whether it is a brand-new value or an
+                # identical value repeated more times than the baseline had.
                 problems.append("same-sugya worsening for %s %s: an invalid value changed into a "
                                 "different invalid value not present in the baseline (occurrence "
                                 "count %d -> %d)" % (rule, sid, len(b), len(c)))
