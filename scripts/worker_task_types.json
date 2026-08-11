@@ -1449,7 +1449,8 @@
         "allowDeleteRemovedField"
       ],
       "optionalAuthorizations": [
-        "allowStructure"
+        "allowStructure",
+        "allowCorpusWideMechanicalMigration"
       ],
       "structurePolicy": "delete-only",
       "fieldEnforcement": "strict-json-diff",
@@ -1469,7 +1470,8 @@
       ],
       "independentReviewRequired": false,
       "sourcesMustBeUnchanged": true,
-      "maxBatch": 0,
+      "maxBatch": null,
+      "maxBatchPolicy": "null is an explicit, tested corpus-wide policy (see worker_pipeline.py cmd_manifest's corpus_wide_purge path): only reachable with no --range, which pins targets to the EXACT descriptor-derived full daf set and additionally requires --authorize allowCorpusWideMechanicalMigration. An explicit --range is always a bounded, intentional per-daf/partial run and is never treated as corpus-wide.",
       "escalationTriggers": [
         "deleted-field count differs from the preflight inventory",
         "any path other than sugyot[*].concepts changes",
@@ -1578,6 +1580,7 @@
         "package-lock.json",
         "docs/rashi-audit-backlog.md",
         "docs/<module>-perek-review.md",
+        "docs/reports/data/yoma-tail-enrichment-repair-progress.json",
         ".worker-manifest.json"
       ],
       "forbiddenFiles": [
@@ -1658,9 +1661,7 @@
         "linkedGemaraLineIds (any)",
         "*.he (any)"
       ],
-      "requiredAuthorizations": [
-        "auditRecordIds"
-      ],
+      "requiredAuthorizations": [],
       "optionalAuthorizations": [
         "authorizeTakeawayType",
         "authorizeAlternateAngles",

@@ -3,7 +3,7 @@
  "generatedFrom": "docs/reports/data/yoma-tail-enrichment-audit.json",
  "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
  "auditArtifactCommit": "63c673f1e1cb9cd67903823800d477294182e7fd",
- "note": "Derived queue. The merged audit is historical evidence and is never rewritten; progress is tracked here. finalRuling exact-hint-copies are no longer contract-ambiguous: the finalRuling contract decision supersedes that STRUCTURAL_OR_SCHEMA_DECISION and makes them repairable defects.",
+ "note": "Derived queue. The merged audit is historical evidence and is never rewritten; this queue's records, order and NOT_STARTED status placeholder are themselves IMMUTABLE (re-derived only from the frozen audit). Real repair progress lives separately in docs/reports/data/yoma-tail-enrichment-repair-progress.json. finalRuling exact-hint-copies are no longer contract-ambiguous: the finalRuling contract decision supersedes that STRUCTURAL_OR_SCHEMA_DECISION and makes them repairable defects.",
  "orderingPolicy": [
   "1. prerequisite contract/tooling and migrations (not queue rows)",
   "2. yoma-082b-s01",

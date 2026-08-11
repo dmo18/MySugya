@@ -1,5 +1,5 @@
 {
-  "_comment": "Machine-readable inventory of every schema-controlled path in Yoma learning JSON, with edit classification. Consumed by worker_pipeline.py schema-matrix, which cross-checks it against the task-type registry's jsonScope contracts and fails on unclassified or unreachable paths. Classifications: immutable (no task may edit), manifest-editable (editable under a mechanical-tier manifest task, whose contract is fully pattern-checkable), judgment-required (editable only via a task type whose correctness needs semantic or structural judgment that pattern gates cannot verify), flag-only (editable only with an explicit manifest authorization flag), generated-only (written by generators, never hand-edited), deprecated (do not use; migrate on touch). Classifications describe capability tiers, never models: Sonnet executes every tier.",
+  "_comment": "Machine-readable inventory of every schema-controlled path in Yoma learning JSON, with edit classification. Consumed by worker_pipeline.py schema-matrix, which cross-checks it against the task-type registry's jsonScope contracts and fails on unclassified or unreachable paths. Classifications: immutable (no task may edit), manifest-editable (editable under a mechanical-tier manifest task, whose contract is fully pattern-checkable), judgment-required (editable only via a task type whose correctness needs semantic or structural judgment that pattern gates cannot verify), flag-only (editable only with an explicit manifest authorization flag), generated-only (written by generators, never hand-edited), deprecated (do not use; migrate on touch), delete-only (may only be deleted in full via a jsonScope.deleteOnly authorization; never created, never edited in place, never replaced with null/an empty container). Classifications describe capability tiers, never models: Sonnet executes every tier.",
   "paths": {
     "canonicalRef": "judgment-required",
     "daf": "immutable",
@@ -36,6 +36,7 @@
     "sugyot[*].conceptRefs[*].id": "judgment-required",
     "sugyot[*].conceptRefs[*].label": "judgment-required",
     "sugyot[*].conceptRefs[*].scope": "judgment-required",
+    "sugyot[*].concepts": "delete-only",
     "sugyot[*].concepts[*].def": "judgment-required",
     "sugyot[*].concepts[*].definition": "deprecated",
     "sugyot[*].concepts[*].he": "judgment-required",

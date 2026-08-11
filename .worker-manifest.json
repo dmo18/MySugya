@@ -57,5 +57,7 @@
  ],
  "allowlistDrain": null,
  "scaffoldDebt": null,
- "repetitionDrain": null
+ "repetitionDrain": null,
+ "auditRecordIds": [],
+ "migrationKinds": []
 }

@@ -54,6 +54,7 @@
     "worker:schema-matrix": "python3 scripts/worker_pipeline.py schema-matrix",
     "validate:offline:yoma": "npm run check:generated:yoma && npm run validate:schema:yoma && npm run validate:daftext:yoma && npm run validate:rashi:yoma && npm run validate:rashi:content:yoma && npm run audit:rashi:scaffold:yoma && npm run validate:rashi:links:yoma && npm run validate:rashi:boundary:yoma && npm run validate:rashi:dupes:yoma && npm run validate:literal:yoma && npm run audit:order:yoma && npm run check:rashi-docs:yoma && npm run validate:argument-taxonomy:yoma && npm run validate:enrichment-contracts:yoma",
     "validate:schema:yoma": "cd modules/yoma && python3 scripts/validate_schema_completeness.py",
+    "build:yoma": "cd modules/yoma && python3 scripts/build_learning_data.py",
     "fetch:literal:yoma": "cd modules/yoma && python3 scripts/fetch_literal_en.py --all --skip-existing",
     "build:literal:yoma": "cd modules/yoma && python3 scripts/build_literal_layer.py --apply",
     "validate:literal:yoma": "cd modules/yoma && python3 scripts/validate_literal.py",

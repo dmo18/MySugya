@@ -274,7 +274,16 @@ def build_daf_entry(daf):
             "learning": e["learning"],
             "lines": SENTINEL,
             "argumentFlow": e["argumentFlow"],
-            "concepts": e["concepts"],
+        }
+        # concepts is a removed legacy field (see docs/reports/
+        # yoma-enrichment-contract-decision.md): a source sugya that has
+        # been through the legacy-concepts-purge mechanically DELETES the
+        # key entirely, so the generated output must omit it too, not
+        # carry it forward as concepts: null. Preserved exactly (including
+        # its current value) for every sugya that still has it.
+        if "concepts" in e:
+            sug["concepts"] = e["concepts"]
+        sug.update({
             "conceptRefs": e["conceptRefs"],
             "requiresUnderstanding": e["requiresUnderstanding"],
             "misconceptions": e["misconceptions"],
@@ -286,7 +295,7 @@ def build_daf_entry(daf):
             "alternateAngles": e["alternateAngles"],
             "topicTags": e.get("topicTags", []),
             "review": e["review"],
-        }
+        })
         body = js(sug, indent=3)
         body = body.replace(f'lines: "{SENTINEL}"', "lines: " + lines_block)
         sugyot_js.append(body)

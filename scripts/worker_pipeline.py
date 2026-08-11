@@ -158,6 +158,230 @@ ZERO_ANCHOR_ATTESTATION_KEYS = (
 )
 
 
+# ---------------- audited-sugya-enrichment-repair support ----------------
+# The merged tail-enrichment audit, its derived repair queue, and the
+# repair-progress tracking file are Yoma-specific artifacts today (like the
+# Rashi tooling above); this section is deliberately hardcoded to their
+# paths rather than generalized per-module, matching the existing pattern
+# in this file (see all_content_prefixes/RASHI_TYPES comments).
+AUDIT_RECORD_TASK_TYPE = "audited-sugya-enrichment-repair"
+AUDIT_PATH = REPO / "docs" / "reports" / "data" / "yoma-tail-enrichment-audit.json"
+REPAIR_QUEUE_PATH = REPO / "docs" / "reports" / "data" / "yoma-tail-enrichment-repair-queue.json"
+REPAIR_PROGRESS_PATH = REPO / "docs" / "reports" / "data" / "yoma-tail-enrichment-repair-progress.json"
+
+
+def _load_json_or(path, default):
+    if not path.exists():
+        return default
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def load_audit_records():
+    data = _load_json_or(AUDIT_PATH, None)
+    return {r["sugyaId"]: r for r in data["records"]} if data else {}
+
+
+def load_queue_records():
+    data = _load_json_or(REPAIR_QUEUE_PATH, None)
+    return {r["sugyaId"]: r for r in data["records"]} if data else {}
+
+
+def load_repair_progress():
+    return _load_json_or(REPAIR_PROGRESS_PATH, {"progress": {}}).get("progress", {})
+
+
+def validate_audit_record_ids(ids, targets):
+    """Validate --audit-record-id values for audited-sugya-enrichment-repair.
+    auditRecordIds is real manifest data naming which audit findings this
+    PR repairs -- never a boolean authorization flag. Every id must: exist
+    in the merged audit, belong to a manifest target daf, be present in the
+    derived repair queue, not already be COMPLETE in the progress file, and
+    carry an actual repair disposition (not VERIFIED). Returns (ok, errors)."""
+    errors = []
+    if not ids:
+        return False, ["audited-sugya-enrichment-repair requires at least one --audit-record-id"]
+    audit = load_audit_records()
+    queue = load_queue_records()
+    progress = load_repair_progress()
+    for aid in ids:
+        rec = audit.get(aid)
+        if rec is None:
+            errors.append(f"{aid}: not found in the merged audit "
+                          f"({AUDIT_PATH.relative_to(REPO)})")
+            continue
+        if targets and rec["daf"] not in targets:
+            errors.append(f"{aid}: belongs to daf {rec['daf']!r}, not manifest targets {targets}")
+        if aid not in queue:
+            errors.append(f"{aid}: not present in the repair queue "
+                          f"({REPAIR_QUEUE_PATH.relative_to(REPO)})")
+        if progress.get(aid, {}).get("status") == "COMPLETE":
+            errors.append(f"{aid}: already marked COMPLETE in the repair-progress file; "
+                          f"cannot be repaired again")
+        if rec.get("overallDisposition") == "VERIFIED":
+            errors.append(f"{aid}: overallDisposition is VERIFIED (no repair disposition; "
+                          f"nothing to repair)")
+    return (not errors), errors
+
+
+def normalize_audit_pointer(ptr, daf):
+    """Map a changed JSON pointer (as produced by json_leaf_diff against a
+    daf's learning.json, e.g. '/sugyot/3/display/hint') onto the
+    affectedFields vocabulary used by the frozen merged audit (e.g.
+    'display.hint'). This IS the documented field-path normalization:
+
+      1. A bare top-level '/summary' pointer maps to '<daf>.summary'.
+      2. A leading '/sugyot/<n>/' prefix is stripped -- audit records are
+         already scoped to one sugya by sugyaId.
+      3. A numeric path segment is dropped; if it is not the LAST segment
+         (a container of objects, e.g. visualizableElements[i].item), the
+         preceding field gets an '[]' suffix; if it IS the last segment (a
+         scalar array, e.g. topicTags[i]), no suffix is added, matching how
+         the audit records bare 'topicTags' / 'requiresUnderstanding'.
+      4. visualizableElements[*].{item,label,type,role,priority} all
+         normalize onto 'visualizableElements[].name': the audit predates
+         the item/name canonical-key migration and recorded the legacy key.
+      5. Remaining segments are dot-joined.
+    """
+    if ptr == "/summary":
+        return "%s.summary" % daf
+    p = ptr
+    if p.startswith("/sugyot/"):
+        parts = p.split("/", 3)
+        p = "/" + parts[3] if len(parts) > 3 else ""
+    segs = [s for s in p.split("/") if s != ""]
+    out = []
+    for i, seg in enumerate(segs):
+        if seg.isdigit():
+            if out and i != len(segs) - 1:
+                out[-1] = out[-1] + "[]"
+            continue
+        out.append(seg)
+    normalized = ".".join(out)
+    if normalized == "visualizableElements[]" or normalized.startswith("visualizableElements[]."):
+        return "visualizableElements[].name"
+    return normalized
+
+
+# Maps an audit record's affectedFields vocabulary onto the enrichment-
+# contract rule ids that mechanically cover that field, for audited-sugya-
+# enrichment-repair's rule-scoped target-clean check. Fields with no
+# mechanical rule (display.title, display.whats, learning.*, <daf>.summary,
+# concepts.*) simply contribute no rules -- they are semantic-only or (for
+# concepts) owned by a different task type entirely.
+FIELD_TO_RULES = {
+    "display.hint": ["hint_not_string", "hint_trailing_ellipsis", "hint_not_a_question"],
+    "finalRuling": ["finalRuling_not_string", "finalRuling_trailing_ellipsis",
+                    "finalRuling_unterminated", "finalRuling_equals_hint",
+                    "finalRuling_prefix_of_hint"],
+    "requiresUnderstanding": ["requiresUnderstanding_not_list", "requiresUnderstanding_prose",
+                              "requiresUnderstanding_unresolved_id",
+                              "requiresUnderstanding_self_reference"],
+    "topicTags": ["topicTags_not_list", "topicTags_invalid_slug", "topicTags_duplicate"],
+    "visualizableElements[].name": [
+        "visualizableElements_not_list", "visualizableElements_bare_value",
+        "visualizableElements_missing_item", "visualizableElements_legacy_key",
+        "visualizableElements_unknown_key", "visualizableElements_field_not_string",
+        "visualizableElements_priority_not_numeric",
+    ],
+}
+
+
+def audit_affected_fields(ids):
+    audit = load_audit_records()
+    fields = set()
+    for aid in ids:
+        rec = audit.get(aid)
+        if rec:
+            fields.update(rec.get("affectedFields", []))
+    return fields
+
+
+# ---------------- enrichment-schema-migration support ----------------
+# migrationKinds is real, repeatable manifest data (never a boolean
+# authorization) naming which deterministic migration(s) a PR performs.
+# Each kind owns an explicit, disjoint subset of enrichment-schema-
+# migration's full jsonScope.mutable path set; a manifest may only touch
+# the paths its declared kinds own.
+MIGRATION_KINDS = ("requires-understanding", "visualizable-elements", "difficulty")
+MIGRATION_KIND_PATHS = {
+    "requires-understanding": ["sugyot[*].requiresUnderstanding[*]",
+                               "sugyot[*].prerequisiteKnowledge[*]"],
+    "visualizable-elements": ["sugyot[*].visualizableElements[*]"],
+    "difficulty": ["sugyot[*].difficulty"],
+}
+# The enrichment-contract rule ids each migration kind is responsible for
+# clearing (see cmd_verify's task-specific rule-scoped target-clean call).
+MIGRATION_KIND_RULES = {
+    "requires-understanding": [
+        "requiresUnderstanding_not_list", "requiresUnderstanding_prose",
+        "requiresUnderstanding_unresolved_id", "requiresUnderstanding_self_reference",
+        "prerequisiteKnowledge_not_list", "prerequisiteKnowledge_blank",
+        "prerequisiteKnowledge_contains_sugya_id", "prerequisiteKnowledge_duplicate",
+    ],
+    "visualizable-elements": [
+        "visualizableElements_not_list", "visualizableElements_bare_value",
+        "visualizableElements_missing_item", "visualizableElements_legacy_key",
+        "visualizableElements_unknown_key", "visualizableElements_field_not_string",
+        "visualizableElements_priority_not_numeric",
+    ],
+    "difficulty": ["difficulty_invalid_enum"],
+}
+
+
+def migration_kind_paths(kinds):
+    paths = []
+    for k in kinds:
+        paths += MIGRATION_KIND_PATHS.get(k, [])
+    return paths
+
+
+def migration_kind_rules(kinds):
+    rules = []
+    for k in kinds:
+        rules += MIGRATION_KIND_RULES.get(k, [])
+    return rules
+
+
+def _sugya_ids_for_daf_targets(daf_targets):
+    ids = []
+    for daf in daf_targets:
+        fp = REPO / ACTIVE_MODULE["paths"]["learningDataDir"] / f"{daf}.learning.json"
+        if fp.exists():
+            ids += [s["id"] for s in json.loads(fp.read_text()).get("sugyot", [])]
+    return ids
+
+
+def task_specific_rule_scoped_targets(m):
+    """(rule_ids, target_sugya_ids) for cmd_verify's task-specific
+    rule-scoped target-clean check (via validate_enrichment_contracts.py
+    --rules/--targets). Returns (None, None) when this task type has no
+    such scoped check -- the corpus-wide ratchet still always runs
+    separately (validate:offline:yoma), regardless.
+
+      legacy-concepts-purge: only legacy_concepts_present, across every
+        sugya on the manifest's target daf -- never blocked by unrelated
+        hint/topicTag/etc debt on those same sugyot.
+      enrichment-schema-migration: only the rules owned by the manifest's
+        declared migrationKinds, across every sugya on the target daf.
+      audited-sugya-enrichment-repair: only the rules mechanically covering
+        the named audit records' affectedFields, and ONLY those exact
+        sugya ids (auditRecordIds) -- unrelated legacy debt on other
+        sugyot sharing the same daf is deliberately out of scope.
+    """
+    t = m["type"]
+    if t == "legacy-concepts-purge":
+        return ["legacy_concepts_present"], _sugya_ids_for_daf_targets(m.get("targets", []))
+    if t == "enrichment-schema-migration":
+        rules = migration_kind_rules(m.get("migrationKinds", []))
+        return (rules or None), _sugya_ids_for_daf_targets(m.get("targets", []))
+    if t == AUDIT_RECORD_TASK_TYPE:
+        ids = m.get("auditRecordIds", [])
+        fields = audit_affected_fields(ids)
+        rules = sorted({r for f in fields for r in FIELD_TO_RULES.get(f, [])})
+        return (rules or None), ids
+    return None, None
+
+
 def structure_authorized(m, spec):
     """True only for a structural-repair manifest carrying the explicit
     allowStructure authorization. No other task type can ever pass the
@@ -182,6 +406,23 @@ def sh(args, cwd=REPO, env=None):
 
 def load_registry():
     return json.loads(REGISTRY.read_text())["taskTypes"]
+
+
+def legal_authorizations(spec):
+    """The full set of authorization flags a manifest may legally carry for
+    this task type: every requiredAuthorizations entry, every
+    optionalAuthorizations entry, every jsonScope.flagMutable key, and the
+    declared jsonScope.structureFlag. A required authorization that is not
+    also a legal --authorize value would be impossible to ever supply, so
+    this single function is the source of truth for both --authorize
+    validation (cmd_manifest) and the required-authorization check
+    (cmd_preflight) -- they can never drift apart."""
+    legal = set(spec.get("requiredAuthorizations", [])) | set(spec.get("optionalAuthorizations", []))
+    scope = spec.get("jsonScope") or {}
+    legal |= set(scope.get("flagMutable", {}).keys())
+    if scope.get("structureFlag"):
+        legal.add(scope["structureFlag"])
+    return legal
 
 
 def review_policy_of(spec):
@@ -493,6 +734,22 @@ def allowlist_drain_status(m, old_entries, new_entries, stale_pairs):
     return ok, msgs
 
 
+def _daf_sort_key(d):
+    mm = re.match(r"(\d+)([ab])", d)
+    return (int(mm.group(1)), mm.group(2))
+
+
+def all_daf_ids():
+    """The EXACT full daf set for the currently active module, derived from
+    its talmuddev source directory -- the descriptor's ground truth for
+    which daf exist. Never hardcoded, never guessed, always module-scoped
+    (YROOT is rebound per invocation by set_active_module). Used both by
+    expand_range's open-ended ranges and by the corpus-wide
+    legacy-concepts-purge manifest's target derivation."""
+    td = YROOT / "assets" / "talmuddev"
+    return sorted((p.name.replace(".json", "") for p in td.glob("*.json")), key=_daf_sort_key)
+
+
 def expand_range(spec):
     if not spec:
         return []
@@ -501,13 +758,9 @@ def expand_range(spec):
         sys.exit(f"ERROR: malformed range {spec!r}")
     if not m.group(2):
         return [m.group(1)]
-    def key(d):
-        mm = re.match(r"(\d+)([ab])", d)
-        return (int(mm.group(1)), mm.group(2))
-    td = YROOT / "assets" / "talmuddev"
-    all_daf = sorted((p.name.replace(".json", "") for p in td.glob("*.json")), key=key)
-    lo, hi = key(m.group(1)), key(m.group(2))
-    out = [d for d in all_daf if lo <= key(d) <= hi]
+    all_daf = all_daf_ids()
+    lo, hi = _daf_sort_key(m.group(1)), _daf_sort_key(m.group(2))
+    out = [d for d in all_daf if lo <= _daf_sort_key(d) <= hi]
     if not out:
         sys.exit(f"ERROR: range {spec!r} matches no daf")
     return out
@@ -534,19 +787,28 @@ def file_allowed(path, spec, targets, module):
     return False
 
 
-def pattern_to_regex(pat):
+def pattern_to_regex(pat, allow_children=True):
     """'sugyot[*].learning.takeaway.text' -> compiled regex matching the
-    JSON pointer '/sugyot/<n>/learning/takeaway/text' and anything below it."""
+    JSON pointer '/sugyot/<n>/learning/takeaway/text'. With allow_children
+    (the default, used for mutable/flagMutable patterns) it also matches
+    anything below that pointer. With allow_children=False (used for
+    deleteOnly patterns) it matches the exact pointer only -- a deleteOnly
+    authorization never extends to a child of the deleted path, since the
+    only legal operation on it is whole-key removal."""
     body = "/".join(seg.replace("[*]", "/\\d+") for seg in pat.split("."))
-    return re.compile("^/" + body + "(/.*)?$")
+    suffix = "(/.*)?" if allow_children else ""
+    return re.compile("^/" + body + suffix + "$")
 
 
 def json_leaf_diff(old, new, ptr, leaves, structure):
-    """Collect changed-leaf JSON pointers and array structure changes."""
+    """Collect changed-leaf JSON pointers (with change kind: added/removed/
+    changed) and array structure changes."""
     if isinstance(old, dict) and isinstance(new, dict):
         for k in sorted(set(old) | set(new)):
-            if k not in old or k not in new:
-                leaves.append(f"{ptr}/{k}")
+            if k not in new:
+                leaves.append({"ptr": f"{ptr}/{k}", "kind": "removed"})
+            elif k not in old:
+                leaves.append({"ptr": f"{ptr}/{k}", "kind": "added"})
             else:
                 json_leaf_diff(old[k], new[k], f"{ptr}/{k}", leaves, structure)
     elif isinstance(old, list) and isinstance(new, list):
@@ -557,7 +819,7 @@ def json_leaf_diff(old, new, ptr, leaves, structure):
             json_leaf_diff(a, b, f"{ptr}/{i}", leaves, structure)
     else:
         if old != new:
-            leaves.append(ptr)
+            leaves.append({"ptr": ptr, "kind": "changed"})
 
 
 def json_scope_check(mb, changed, m, spec, errors):
@@ -570,12 +832,33 @@ def json_scope_check(mb, changed, m, spec, errors):
     if not scope:
         return
     flags = set(m.get("authorizations", []))
-    allowed_rx = [pattern_to_regex(p) for p in scope.get("mutable", [])]
+    mutable_patterns = scope.get("mutable", [])
+    if m["type"] == "enrichment-schema-migration":
+        # migrationKinds narrows the generic jsonScope.mutable set (which
+        # names every path the task type could EVER touch) down to only the
+        # paths this specific manifest's declared kinds own. A manifest
+        # with migrationKinds=["difficulty"] may not touch
+        # visualizableElements, even though the registry's jsonScope says
+        # the task TYPE can.
+        mutable_patterns = migration_kind_paths(m.get("migrationKinds", []))
+    allowed_rx = [pattern_to_regex(p) for p in mutable_patterns]
     for flag, pats in scope.get("flagMutable", {}).items():
         if flag in flags:
             allowed_rx += [pattern_to_regex(p) for p in pats]
+    # deleteOnly patterns are matched EXACTLY (allow_children=False): the
+    # only legal operation is deleting the whole key, never touching a
+    # child, so a deleteOnly path is deliberately never treated as a prefix
+    # the way mutable/flagMutable paths are.
+    delete_only_rx = [pattern_to_regex(p, allow_children=False) for p in scope.get("deleteOnly", [])]
     structure_ok = scope.get("structureFlag") and scope["structureFlag"] in flags
     targets = set(m.get("targets", []))
+    # audited-sugya-enrichment-repair: every changed path must ALSO map
+    # (after normalize_audit_pointer) onto an affectedFields entry of one of
+    # the manifest's named audit records -- unrelated legacy debt outside
+    # those records can never be touched by "just happening" to be inside
+    # the task type's generic jsonScope.
+    audit_fields = (audit_affected_fields(m.get("auditRecordIds", []))
+                    if m["type"] == AUDIT_RECORD_TASK_TYPE else None)
 
     for p in changed:
         if not (p.startswith(ACTIVE_MODULE["paths"]["learningDataDir"] + "/")
@@ -601,9 +884,127 @@ def json_scope_check(mb, changed, m, spec, errors):
                 continue
             if not structure_ok:
                 errors.append(f"{p}: {s} (requires --authorize {scope.get('structureFlag', 'allowStructure')})")
-        for ptr in leaves:
+        for leaf in leaves:
+            ptr, kind = leaf["ptr"], leaf["kind"]
+            if any(rx.match(ptr) for rx in delete_only_rx):
+                if kind == "removed":
+                    continue  # exactly the authorized deletion: key existed, now gone
+                if kind == "added":
+                    errors.append(f"{p}: {ptr} added (this path is deleteOnly; it may never "
+                                  f"be created)")
+                else:
+                    errors.append(f"{p}: {ptr} changed instead of deleted (this path is "
+                                  f"deleteOnly; it may only be removed entirely, never "
+                                  f"replaced with null/an empty container/any other value, "
+                                  f"and its children may never be edited)")
+                continue
             if not any(rx.match(ptr) for rx in allowed_rx):
                 errors.append(f"{p}: {ptr} changed (outside the {m['type']} mutable path set)")
+                continue
+            if audit_fields is not None:
+                normalized = normalize_audit_pointer(ptr, daf)
+                if normalized not in audit_fields:
+                    errors.append(f"{p}: {ptr} (normalized {normalized!r}) is not an "
+                                  f"affectedFields entry of any named audit record "
+                                  f"{sorted(m.get('auditRecordIds', []))}")
+
+
+def is_source_protected_pointer(ptr):
+    """True for a JSON pointer inside a source-of-truth or Rashi/
+    argumentFlow/sourceRefs field, used by sourcesMustBeUnchanged
+    enforcement (verify_sources_unchanged). Deliberately INDEPENDENT of any
+    task type's jsonScope contract: this is a second, defense-in-depth
+    proof, not a re-derivation of the same allowlist logic."""
+    segs = [s for s in ptr.split("/") if s and not s.isdigit()]
+    joined = "/" + "/".join(segs)
+    return (joined.startswith("/rashiTranslations")
+            or joined.startswith("/sugyot/lines")
+            or joined.startswith("/sugyot/argumentFlow")
+            or "/sourceRefs" in joined)
+
+
+def verify_sources_unchanged(spec, changed, mb):
+    """Independent, defense-in-depth proof that a sourcesMustBeUnchanged
+    task type touched no source-of-truth file (source_store, talmuddev,
+    daftexts) and no Rashi/argumentFlow/sourceRefs/Gemara-source-line field
+    inside any changed learning JSON, regardless of whether jsonScope's
+    mutable-path allowlist would separately have caught it. Returns
+    (ok, messages). A no-op (True, []) when the task type does not declare
+    sourcesMustBeUnchanged."""
+    if not spec.get("sourcesMustBeUnchanged"):
+        return True, []
+    problems = []
+    paths = ACTIVE_MODULE["paths"]
+    protected_file_prefixes = (paths["sourceAssetsRoot"] + "/talmuddev/",
+                               paths["sourceAssetsRoot"] + "/daftexts/")
+    source_store = paths.get("sourceStore")
+    for p in changed:
+        if p.startswith(protected_file_prefixes):
+            problems.append(f"{p}: source asset changed")
+        elif source_store and p == source_store:
+            problems.append(f"{p}: source_store file changed")
+
+    learning_dir = paths["learningDataDir"]
+    for p in changed:
+        if not (p.startswith(learning_dir + "/") and p.endswith(".learning.json")):
+            continue
+        r = sh(["git", "show", f"{mb}:{p}"])
+        if r.returncode != 0:
+            continue  # new/missing-at-base file: file-level scope already flags this
+        old, new = json.loads(r.stdout), json.loads((REPO / p).read_text())
+        leaves, structure = [], []
+        json_leaf_diff(old, new, "", leaves, structure)
+        for leaf in leaves:
+            if is_source_protected_pointer(leaf["ptr"]):
+                problems.append(f"{p}: {leaf['ptr']} changed (source/Rashi/argumentFlow/"
+                                f"sourceRefs fields may never change)")
+        for s in structure:
+            ptr = s.split(" array length")[0]
+            if is_source_protected_pointer(ptr):
+                problems.append(f"{p}: {s} (structural change to a protected source field)")
+    return (not problems), problems
+
+
+def verify_concepts_purge(m, mb, learning_dir):
+    """legacy-concepts-purge-specific post-edit proof: the number of sugyot
+    that carried a `concepts` key at the manifest's base commit must equal
+    the number of deletions in this PR's diff, exactly; zero `concepts`
+    keys may remain across the manifest's targets. This is independent,
+    exact-count defense-in-depth on top of json_scope_check's deleteOnly
+    enforcement (which already proves no OTHER field changed). Returns
+    (ok, messages)."""
+    if m["type"] != "legacy-concepts-purge":
+        return True, []
+    problems, msgs = [], []
+    before_count = deleted_count = remaining_count = 0
+    for daf in m["targets"]:
+        rel = f"{learning_dir}/{daf}.learning.json"
+        r = sh(["git", "show", f"{mb}:{rel}"])
+        if r.returncode != 0:
+            continue
+        old = json.loads(r.stdout)
+        new_path = REPO / rel
+        if not new_path.exists():
+            problems.append(f"{rel}: missing after purge")
+            continue
+        new = json.loads(new_path.read_text())
+        old_sugyot = {s["id"]: s for s in old.get("sugyot", [])}
+        new_sugyot = {s["id"]: s for s in new.get("sugyot", [])}
+        for sid, old_s in old_sugyot.items():
+            had = "concepts" in old_s
+            before_count += 1 if had else 0
+            still_has = "concepts" in new_sugyot.get(sid, {})
+            if had and not still_has:
+                deleted_count += 1
+            if still_has:
+                remaining_count += 1
+                problems.append(f"{rel}: {sid} still carries a concepts key")
+    msgs.append(f"concepts before: {before_count}, deleted: {deleted_count}, "
+               f"remaining: {remaining_count}")
+    if before_count != deleted_count:
+        problems.append(f"deleted count {deleted_count} does not exactly match the base-commit "
+                        f"concepts inventory {before_count} across manifest targets")
+    return (not problems), (msgs + problems)
 
 
 _BOUNDARY_RATCHET_CACHE = {}
@@ -691,14 +1092,38 @@ def cmd_manifest(opts):
     targets = expand_range(opts.range) if opts.range else []
     if spec["requiresTarget"] and not targets:
         sys.exit(f"ERROR: task type {opts.type!r} requires --range")
+
+    # The corpus-wide legacy-concepts-purge: no --range means "every daf",
+    # but that is never an implicit/empty-target mode. targets are set to
+    # the EXACT descriptor-derived full daf set for the active module (see
+    # all_daf_ids), so the manifest always carries an explicit, inspectable
+    # target list -- never an empty list standing in for "unbounded". A
+    # partial run is always an intentional, explicit --range instead.
+    corpus_wide_purge = opts.type == "legacy-concepts-purge" and not opts.range
+    if corpus_wide_purge:
+        targets = all_daf_ids()
+
     auths = opts.authorize or []
-    legal = set(spec.get("optionalAuthorizations", []))
+    legal = legal_authorizations(spec)
     for a in auths:
         if a not in legal:
             sys.exit(f"ERROR: authorization {a!r} is not defined for type {opts.type!r} "
                      f"(legal: {sorted(legal) or 'none'})")
+    if corpus_wide_purge and "allowCorpusWideMechanicalMigration" not in auths:
+        sys.exit("ERROR: a corpus-wide legacy-concepts-purge (no --range) additionally "
+                 "requires --authorize allowCorpusWideMechanicalMigration, naming the full "
+                 f"{len(targets)}-daf descriptor-derived target set explicitly; pass --range "
+                 "for an intentional partial/per-daf purge instead")
+
     max_batch = spec.get("maxBatch")
-    if max_batch and len(targets) > max_batch:
+    # maxBatch is None ONLY for task types that substitute their own
+    # explicit, independently-verified corpus-wide policy (today: only
+    # legacy-concepts-purge's corpus_wide_purge path, gated above by
+    # allowCorpusWideMechanicalMigration and pinned to the exact
+    # descriptor-derived daf set) -- never a silent "0 means unlimited"
+    # truthiness accident. Every other max_batch value, including 0, is
+    # enforced as a real numeric cap.
+    if max_batch is not None and len(targets) > max_batch:
         sys.exit(f"ERROR: {len(targets)} targets exceed maxBatch {max_batch} for {opts.type!r}; "
                  f"split the range into smaller PRs")
     allowlist_drain = None
@@ -776,6 +1201,38 @@ def cmd_manifest(opts):
             "reviewRecordPath": review_record_rel,
         }
 
+    # auditRecordIds is real manifest data, never an authorization flag: it
+    # names the specific audit findings this PR repairs, validated against
+    # the merged audit, the derived repair queue, the manifest targets and
+    # the progress file (see validate_audit_record_ids).
+    audit_record_ids = []
+    if opts.type == AUDIT_RECORD_TASK_TYPE:
+        audit_record_ids = list(opts.audit_record_id or [])
+        ok, errs = validate_audit_record_ids(audit_record_ids, targets)
+        if not ok:
+            sys.exit("ERROR: invalid --audit-record-id value(s):\n  " + "\n  ".join(errs))
+    elif opts.audit_record_id:
+        sys.exit(f"ERROR: --audit-record-id is only valid for {AUDIT_RECORD_TASK_TYPE!r}, "
+                 f"not {opts.type!r}")
+
+    # migrationKinds is likewise real manifest data, never a boolean
+    # authorization: it names which deterministic migration(s) this PR
+    # performs, and restricts the scope engine to only the paths those
+    # kinds own (see MIGRATION_KIND_PATHS / json_scope_check).
+    migration_kinds = []
+    if opts.type == "enrichment-schema-migration":
+        migration_kinds = list(opts.migration_kind or [])
+        if not migration_kinds:
+            sys.exit("ERROR: enrichment-schema-migration requires at least one --migration-kind "
+                     f"(legal: {sorted(MIGRATION_KINDS)})")
+        unknown = [k for k in migration_kinds if k not in MIGRATION_KINDS]
+        if unknown:
+            sys.exit(f"ERROR: unknown --migration-kind value(s) {unknown}; "
+                     f"legal: {sorted(MIGRATION_KINDS)}")
+    elif opts.migration_kind:
+        sys.exit("ERROR: --migration-kind is only valid for 'enrichment-schema-migration', "
+                 f"not {opts.type!r}")
+
     manifest = {
         "type": opts.type,
         "module": opts.module,
@@ -801,6 +1258,8 @@ def cmd_manifest(opts):
         "allowlistDrain": allowlist_drain,
         "scaffoldDebt": scaffold_debt,
         "repetitionDrain": repetition_drain,
+        "auditRecordIds": audit_record_ids,
+        "migrationKinds": migration_kinds,
     }
     manifest.update(boundary_repair_fields)
     out = json.dumps(manifest, indent=1)
@@ -822,6 +1281,25 @@ def cmd_preflight(opts):
         if req not in m.get("authorizations", []):
             errors.append(f"task type {m['type']!r} requires the explicit --authorize {req} "
                           f"authorization on the manifest (operator-issued only)")
+
+    if m["type"] == AUDIT_RECORD_TASK_TYPE:
+        ok, audit_errs = validate_audit_record_ids(m.get("auditRecordIds", []), m.get("targets", []))
+        if not ok:
+            errors.extend("auditRecordIds: %s" % e for e in audit_errs)
+    if m["type"] == "enrichment-schema-migration" and not m.get("migrationKinds"):
+        errors.append("enrichment-schema-migration manifest carries no migrationKinds; "
+                      "regenerate with at least one --migration-kind")
+    if m["type"] == "legacy-concepts-purge":
+        learning_dir = ACTIVE_MODULE["paths"]["learningDataDir"]
+        cnt = 0
+        for daf in m["targets"]:
+            fp = REPO / learning_dir / f"{daf}.learning.json"
+            if fp.exists():
+                doc = json.loads(fp.read_text())
+                cnt += sum(1 for s in doc.get("sugyot", []) if "concepts" in s)
+        print(f"preflight concepts inventory: {cnt} sugya(s) across {len(m['targets'])} target "
+              f"daf currently carry a concepts key; worker:verify requires exactly this many "
+              f"deletions, zero remaining, and no other field changed")
 
     dirty = sh(["git", "status", "--porcelain"]).stdout.strip()
     branch = sh(["git", "rev-parse", "--abbrev-ref", "HEAD"]).stdout.strip()
@@ -1141,7 +1619,7 @@ def cmd_scope(opts):
         if r.returncode != 0:
             errors.append("check_rashi_pr_scope failed:\n" + r.stdout[-1200:])
         max_batch = m.get("maxBatch")
-        if max_batch and len(m.get("targets", [])) > max_batch:
+        if max_batch is not None and len(m.get("targets", [])) > max_batch:
             errors.append(f"manifest targets {len(m['targets'])} exceed maxBatch {max_batch} "
                           f"for {m['type']} (split into smaller PRs)")
     else:
@@ -1289,6 +1767,61 @@ def cmd_verify(opts):
     results.append(("no-dashes", not dash_bad))
     for p in dash_bad:
         print(f"  dash found in {p}")
+
+    if spec.get("sourcesMustBeUnchanged"):
+        src_ok, src_msgs = verify_sources_unchanged(spec, changed, mb)
+        results.append(("sources-unchanged", src_ok))
+        if src_msgs:
+            print("\nsourcesMustBeUnchanged enforcement:")
+            for msg in src_msgs:
+                print(f"  {'PASS' if src_ok else 'FAIL'}  {msg}")
+        if src_ok:
+            print("sourcesMustBeUnchanged: OK, no source/Rashi/argumentFlow/sourceRefs field "
+                  "or source asset changed.")
+
+    if m["type"] == "legacy-concepts-purge" and mb:
+        cp_ok, cp_msgs = verify_concepts_purge(m, mb, ACTIVE_MODULE["paths"]["learningDataDir"])
+        results.append(("concepts-purge-exact-deletion", cp_ok))
+        print("\nlegacy-concepts-purge deletion accounting:")
+        for msg in cp_msgs:
+            print(f"  {'PASS' if cp_ok else ('FAIL' if 'concepts key' in msg or 'does not exactly' in msg else 'NOTE')}  {msg}")
+
+    # Task-specific rule-scoped target-clean: legacy-concepts-purge,
+    # enrichment-schema-migration and audited-sugya-enrichment-repair each
+    # get a NARROW enrichment-contract check covering only their own
+    # rules/targets, so unrelated legacy debt never blocks an otherwise
+    # valid scoped change. The corpus-wide ratchet (every rule, whole
+    # corpus) already ran above via validate:offline:yoma and stays the
+    # final word on new debt anywhere.
+    scoped_rules, scoped_targets = task_specific_rule_scoped_targets(m)
+    if scoped_rules and scoped_targets:
+        rc = sh([sys.executable, "scripts/validate_enrichment_contracts.py",
+                "--module", m["module"], "--rules", *scoped_rules, "--targets", *scoped_targets])
+        results.append(("task-scoped-enrichment-clean", rc.returncode == 0))
+        print(f"\ntask-specific rule-scoped target-clean ({', '.join(scoped_rules)}):")
+        print(rc.stdout[-1800:])
+        if rc.returncode != 0:
+            print(rc.stderr[-600:])
+
+    if m["type"] == AUDIT_RECORD_TASK_TYPE and mb:
+        rc = sh([sys.executable, "scripts/generate_enrichment_repair_queue.py",
+                "--check", "--base", mb])
+        results.append(("repair-queue-progress-check", rc.returncode == 0))
+        print("\nrepair-queue/progress-file check:")
+        print(rc.stdout[-1500:])
+        if rc.returncode != 0:
+            print(rc.stderr[-600:])
+        # A semantic repair PR must advance the progress record for every
+        # audit record it names -- NOT_STARTED surviving the PR means the
+        # queue was never actually updated to reflect the work done.
+        progress = load_repair_progress()
+        stale = [aid for aid in m.get("auditRecordIds", [])
+                if progress.get(aid, {}).get("status", "NOT_STARTED") == "NOT_STARTED"]
+        results.append(("progress-record-updated", not stale))
+        if stale:
+            print(f"\nFAIL progress-record-updated: {stale} still NOT_STARTED; a semantic "
+                 f"repair PR must update its corresponding progress record(s) in "
+                 f"{REPAIR_PROGRESS_PATH.relative_to(REPO)}")
 
     # Per-daf allowlist completion summary (placeholder/rashi repair tasks)
     if m["targets"] and mb:
@@ -2207,7 +2740,7 @@ def cmd_schema_matrix(opts):
     inv = json.loads(SCHEMA_SCOPE.read_text())["paths"]
     types = load_registry()
     legal_class = {"immutable", "manifest-editable", "judgment-required", "flag-only",
-                   "generated-only", "deprecated"}
+                   "generated-only", "deprecated", "delete-only"}
     RASHI_MUTABLE = {"rashiTranslations[*].en", "rashiTranslations[*].linkedGemaraLineIds[*]"}
     errors = []
     matrix = {}
@@ -2216,7 +2749,7 @@ def cmd_schema_matrix(opts):
         if cls not in legal_class:
             errors.append(f"{path}: unknown classification {cls!r}")
             continue
-        owners, flag_owners = [], []
+        owners, flag_owners, delete_owners = [], [], []
         if path in RASHI_MUTABLE:
             owners += ["rashi-repair", "rashi-reconstruction", "rashi-realignment", "placeholder-backfill"]
         ptr = "/" + "/".join(seg.replace("[*]", "/0") for seg in path.split("."))
@@ -2229,13 +2762,22 @@ def cmd_schema_matrix(opts):
             for flag, pats in scope.get("flagMutable", {}).items():
                 if any(pattern_to_regex(p).match(ptr) for p in pats):
                     flag_owners.append(f"{tname}({flag})")
+            if any(pattern_to_regex(p, allow_children=False).match(ptr)
+                   for p in scope.get("deleteOnly", [])):
+                delete_owners.append(tname)
         matrix[path] = {"class": cls, "taskTypes": sorted(set(owners)),
-                        "flagTaskTypes": sorted(set(flag_owners))}
+                        "flagTaskTypes": sorted(set(flag_owners)),
+                        "deleteTaskTypes": sorted(set(delete_owners))}
 
         if cls in ("manifest-editable", "judgment-required") and not owners:
             errors.append(f"{path}: classified {cls} but NO task type can edit it")
         if cls == "flag-only" and not flag_owners:
             errors.append(f"{path}: classified flag-only but no flagMutable pattern reaches it")
+        if cls == "delete-only" and not delete_owners:
+            errors.append(f"{path}: classified delete-only but no deleteOnly pattern reaches it")
+        if cls == "delete-only" and owners:
+            errors.append(f"{path}: classified delete-only but also reachable as plain-mutable "
+                          f"by {owners} (a delete-only path may never be editable in place)")
         if cls in ("immutable", "generated-only", "deprecated") and owners:
             errors.append(f"{path}: classified {cls} but reachable by {owners}")
         if cls == "manifest-editable":
@@ -2445,6 +2987,16 @@ def main():
     p.add_argument("--review-record", default=None,
                    help=f"required for --type {REPAIR_TASK_TYPE}: path to the Step 6 batch "
                         f"review-record JSON documenting a CONFIRMED second pass for --entry-id")
+    p.add_argument("--audit-record-id", action="append", default=None,
+                   help=f"required for --type {AUDIT_RECORD_TASK_TYPE}, repeatable: a "
+                        f"sugyaId from the merged tail-enrichment audit this PR repairs. "
+                        f"Real manifest data (stored as auditRecordIds), never an "
+                        f"authorization flag.")
+    p.add_argument("--migration-kind", action="append", default=None,
+                   help="required for --type enrichment-schema-migration, repeatable: "
+                        "one of requires-understanding, visualizable-elements, difficulty. "
+                        "Real manifest data (stored as migrationKinds), never an "
+                        "authorization flag.")
 
     for name in ("preflight", "packet", "prompt"):
         p = sub.add_parser(name)
