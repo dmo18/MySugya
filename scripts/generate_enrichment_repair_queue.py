@@ -48,16 +48,37 @@ MIGRATION_FIELDS = {"requiresUnderstanding": "requiresUnderstanding-prose-to-pre
 # intentional, reviewed part of the repair lifecycle; anything not listed
 # (including any transition out of COMPLETE, or skipping backward to an
 # earlier stage) is rejected as invalid/backward.
-STATUSES = ("NOT_STARTED", "IN_PROGRESS", "FIXED_PENDING_REVIEW", "COMPLETE", "BLOCKED")
+#
+# APPROVED_PENDING_MERGE is the explicit pre-merge "approved" checkpoint: an
+# independent reviewer has signed off on FIXED_PENDING_REVIEW work, but the
+# PR has not yet been squash-merged to main. This is what makes the one-PR
+# lifecycle executable end to end: a single content-repair PR walks
+# NOT_STARTED -> IN_PROGRESS -> FIXED_PENDING_REVIEW -> APPROVED_PENDING_MERGE
+# entirely on its own branch (each transition committed and checked in
+# sequence, see check_progress_history), and COMPLETE is then DERIVED after
+# the squash merge (see derive_effective_status) rather than requiring a
+# second, progress-only PR to hand-edit the file one more time. A record may
+# still additionally be advanced to COMPLETE by a direct edit (e.g. by
+# tooling that runs the derivation and persists its result); both paths are
+# legal, but neither is required to reach effective completion.
+STATUSES = ("NOT_STARTED", "IN_PROGRESS", "FIXED_PENDING_REVIEW", "APPROVED_PENDING_MERGE",
+           "COMPLETE", "BLOCKED")
 ALLOWED_TRANSITIONS = {
     "NOT_STARTED": {"IN_PROGRESS", "BLOCKED"},
     "IN_PROGRESS": {"FIXED_PENDING_REVIEW", "BLOCKED"},
-    "FIXED_PENDING_REVIEW": {"COMPLETE", "IN_PROGRESS", "BLOCKED"},
+    "FIXED_PENDING_REVIEW": {"APPROVED_PENDING_MERGE", "IN_PROGRESS", "BLOCKED"},
+    "APPROVED_PENDING_MERGE": {"COMPLETE", "IN_PROGRESS", "BLOCKED"},
     "BLOCKED": {"IN_PROGRESS"},
     "COMPLETE": set(),
 }
 for _s in STATUSES:
     ALLOWED_TRANSITIONS.setdefault(_s, set()).add(_s)  # a no-op is always legal
+
+# Statuses that certify an independent reviewer actually looked at the work;
+# both require a non-empty reviewer and independentReviewResult on the
+# record. FIXED_PENDING_REVIEW is deliberately excluded: it means review is
+# PENDING, not that it happened.
+REVIEW_BEARING_STATUSES = ("APPROVED_PENDING_MERGE", "COMPLETE")
 
 PROGRESS_RECORD_FIELDS = ("status", "prNumber", "repairCommit", "mergedCommit", "version",
                           "reviewer", "independentReviewResult", "blockerReason")
@@ -225,6 +246,125 @@ def check_progress_transitions(before, after, queue_ids):
     return problems
 
 
+def check_progress_field_requirements(after):
+    """Per-record field requirements on the CURRENT (after) progress
+    payload, independent of transition legality:
+
+      - BLOCKED requires a non-empty blockerReason;
+      - a review-bearing status (APPROVED_PENDING_MERGE, COMPLETE) requires
+        a non-empty reviewer AND a non-empty independentReviewResult;
+      - no progress record may carry a field outside PROGRESS_RECORD_FIELDS
+        (an unknown field is exactly the kind of quiet metadata drift a
+        record-scoped diff could otherwise smuggle through).
+
+    Returns a list of problem strings (empty = compliant)."""
+    problems = []
+    allowed_keys = set(PROGRESS_RECORD_FIELDS)
+    for sid, rec in after.items():
+        extra = sorted(set(rec.keys()) - allowed_keys)
+        if extra:
+            problems.append("%s: progress record has unknown field(s) %s (legal fields: %s)"
+                            % (sid, extra, sorted(allowed_keys)))
+        status = rec.get("status")
+        if status == "BLOCKED" and not str(rec.get("blockerReason") or "").strip():
+            problems.append("%s: BLOCKED requires a non-empty blockerReason" % sid)
+        if status in REVIEW_BEARING_STATUSES:
+            if not str(rec.get("reviewer") or "").strip():
+                problems.append("%s: %s requires a non-empty reviewer" % (sid, status))
+            if not str(rec.get("independentReviewResult") or "").strip():
+                problems.append("%s: %s requires a non-empty independentReviewResult"
+                                % (sid, status))
+    return problems
+
+
+def check_progress_scope(before, after, allowed_ids):
+    """RECORD-SPECIFIC progress scope: only sugyaIds in `allowed_ids` (a
+    manifest's auditRecordIds) may have their progress record change at
+    all between `before` and `after` -- every other record must be BYTE-
+    IDENTICAL (dict equality, so this also catches an unnamed record
+    quietly picking up an unknown field or a metadata value belonging to a
+    different record). Returns a list of problem strings; allowed_ids=None
+    disables the check entirely (used by the standalone --check path with
+    no manifest in scope, e.g. after `generate_enrichment_repair_queue.py`
+    itself regenerates the skeleton)."""
+    if allowed_ids is None:
+        return []
+    problems = []
+    allowed = set(allowed_ids)
+    before_p = (before or {}).get("progress", {})
+    after_p = (after or {}).get("progress", {})
+    for sid in sorted(set(before_p) | set(after_p)):
+        if before_p.get(sid) == after_p.get(sid):
+            continue
+        if sid not in allowed:
+            problems.append("%s: progress record changed but is not in manifest.auditRecordIds "
+                            "%s (progress edits are scoped to named records only; an unrelated "
+                            "record may not be advanced, blocked, or have its metadata touched "
+                            "in the same PR)" % (sid, sorted(allowed)))
+    return problems
+
+
+def check_progress_history(base_ref, head_ref, queue_ids, allowed_ids=None):
+    """Validate every progress-file transition ACROSS THE FULL COMMIT
+    HISTORY from base_ref to head_ref (git log --reverse base..head over
+    the progress file), not merely the two endpoints. This is what makes
+    NOT_STARTED -> IN_PROGRESS -> FIXED_PENDING_REVIEW -> ... legal within
+    one PR: each individual commit-to-commit step is checked, so a branch
+    that walked cleanly through every intermediate status is never
+    rejected just because its two endpoints look like a "skip" when
+    compared directly. Returns a list of problem strings, each prefixed
+    with the offending commit for traceability."""
+    r = subprocess.run(["git", "log", "--reverse", "--format=%H",
+                        "%s..%s" % (base_ref, head_ref), "--", str(PROGRESS.relative_to(ROOT))],
+                       cwd=str(ROOT), capture_output=True, text=True)
+    commits = [c for c in r.stdout.splitlines() if c.strip()]
+    problems = []
+    prev = _git_show(str(PROGRESS.relative_to(ROOT)), base_ref)
+    for c in commits:
+        cur = _git_show(str(PROGRESS.relative_to(ROOT)), c)
+        step_problems = check_progress_transitions(prev, cur, queue_ids)
+        step_problems += check_progress_scope(prev, cur, allowed_ids)
+        problems += ["(commit %s) %s" % (c[:10], p) for p in step_problems]
+        prev = cur
+    return problems
+
+
+def derive_effective_status(sid, record, squash_commit=None, head_ref="HEAD"):
+    """The effective, DERIVED status for a progress record, used for
+    reporting/dashboards -- never for mutating the stored file. A record
+    stored as APPROVED_PENDING_MERGE is treated as effectively COMPLETE
+    once a squash_commit is supplied and BOTH:
+
+      - that commit is an ancestor of head_ref (the approved repair PR
+        actually merged); and
+      - that commit's own diff touched at least one *.learning.json file
+        (real content landed, not an empty/administrative commit).
+
+    This is what removes the need for a second, progress-only PR just to
+    flip the file to COMPLETE after merge: completion is read off real,
+    durable git history (main's own commit graph) plus the manifest's
+    final auditRecordIds and the already-approved progress state, rather
+    than requiring one more direct edit. Returns (effective_status,
+    evidence-dict); never mutates `record`."""
+    stored = record.get("status")
+    if stored != "APPROVED_PENDING_MERGE" or not squash_commit:
+        return stored, {"derived": False, "reason": "not APPROVED_PENDING_MERGE or no squash "
+                        "commit supplied"}
+    anc = subprocess.run(["git", "merge-base", "--is-ancestor", squash_commit, head_ref],
+                         cwd=str(ROOT), capture_output=True, text=True)
+    is_ancestor = anc.returncode == 0
+    show = subprocess.run(["git", "show", "--name-only", "--format=", squash_commit],
+                          cwd=str(ROOT), capture_output=True, text=True)
+    touched = [l for l in show.stdout.splitlines() if l.strip()]
+    touched_learning = any(t.endswith(".learning.json") for t in touched)
+    evidence = {"derived": False, "squashCommit": squash_commit, "isAncestorOfHead": is_ancestor,
+               "touchedLearningJson": touched_learning, "touchedFiles": touched}
+    if is_ancestor and touched_learning:
+        evidence["derived"] = True
+        return "COMPLETE", evidence
+    return stored, evidence
+
+
 def _git_show(rel_path, ref="HEAD"):
     r = subprocess.run(["git", "show", "%s:%s" % (ref, rel_path)], cwd=str(ROOT),
                        capture_output=True, text=True)
@@ -242,6 +382,13 @@ def main():
     ap.add_argument("--base", default="HEAD",
                     help="git ref to diff the progress file's status transitions against "
                          "(default HEAD; a worker PR's verify step compares against its base)")
+    ap.add_argument("--allowed-ids", nargs="*", default=None,
+                    help="restrict progress-record changes to exactly these sugyaIds (a "
+                         "manifest's auditRecordIds); any other record's progress changing at "
+                         "all is a failure. Omit to skip this scope check (e.g. when running "
+                         "standalone with no manifest in scope).")
+    ap.add_argument("--head", default="HEAD",
+                    help="git ref for the head of the commit-history walk (default HEAD)")
     args = ap.parse_args()
     q = build()
     audit = json.loads(AUDIT.read_text(encoding="utf-8"))
@@ -292,7 +439,24 @@ def main():
                 if f not in rec:
                     prog_problems.append("%s: progress record missing field %r" % (sid, f))
         before = _git_show(str(PROGRESS.relative_to(ROOT)), args.base)
-        prog_problems += check_progress_transitions(before, current, ids)
+        # The FULL commit-history walk is the transition-legality check
+        # (required design per the one-PR repair lifecycle: a branch that
+        # legally walked NOT_STARTED -> IN_PROGRESS -> FIXED_PENDING_REVIEW
+        # -> ... across several commits must never be rejected just because
+        # comparing only the two endpoints looks like a skip). It already
+        # subsumes a plain endpoint-to-endpoint comparison: when the base
+        # and head commits are adjacent (or identical), the walk reduces to
+        # exactly that single step. A bare check_progress_transitions(before,
+        # current, ids) call is deliberately NOT also run here -- doing so
+        # would reintroduce the two-endpoint false-skip failure this design
+        # exists to remove.
+        prog_problems += check_progress_history(args.base, args.head, ids, args.allowed_ids)
+        # Endpoint-only checks that do not need history: field requirements
+        # (BLOCKED/review-bearing statuses, unknown fields) on the CURRENT
+        # state, and record-specific scope (only named ids may differ from
+        # base at all).
+        prog_problems += check_progress_field_requirements(current.get("progress", {}))
+        prog_problems += check_progress_scope(before, current, args.allowed_ids)
         # Preserve valid progress: every id the PREVIOUS committed file
         # tracked with a real (non-NOT_STARTED) status must still be
         # present, at that status or a legally-advanced one -- regeneration

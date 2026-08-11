@@ -43,6 +43,7 @@ MANIFEST_DEFAULT = REPO / ".worker-manifest.json"
 
 sys.path.insert(0, str(Path(__file__).parent))
 import module_resolver  # noqa: E402
+import validate_enrichment_contracts as enrichment_contracts  # noqa: E402
 
 # YROOT/YSCRIPTS/ACTIVE_MODULE/SCAFFOLD_BASELINE/REPETITION_BASELINE are
 # rebound per invocation by set_active_module(), called once the requested
@@ -200,6 +201,10 @@ def validate_audit_record_ids(ids, targets):
     errors = []
     if not ids:
         return False, ["audited-sugya-enrichment-repair requires at least one --audit-record-id"]
+    dup = sorted({x for x in ids if ids.count(x) > 1})
+    if dup:
+        errors.append(f"duplicate auditRecordIds in manifest: {dup} (each named audit record "
+                      f"may appear at most once)")
     audit = load_audit_records()
     queue = load_queue_records()
     progress = load_repair_progress()
@@ -243,7 +248,12 @@ def normalize_audit_pointer(ptr, daf):
       5. Remaining segments are dot-joined.
     """
     if ptr == "/summary":
-        return "%s.summary" % daf
+        # The frozen audit vocabulary uses the LITERAL template string
+        # "<daf>.summary" in every record's affectedFields (see the audit
+        # JSON itself) -- it is not per-daf-substituted. Returning the
+        # literal template, not "%s.summary" % daf, is what lets this
+        # normalized value actually be found in affectedFields.
+        return "<daf>.summary"
     p = ptr
     if p.startswith("/sugyot/"):
         parts = p.split("/", 3)
@@ -333,6 +343,73 @@ def migration_kind_paths(kinds):
     for k in kinds:
         paths += MIGRATION_KIND_PATHS.get(k, [])
     return paths
+
+
+# Maps a repair-queue record's migrationPrerequisites vocabulary (see
+# generate_enrichment_repair_queue.py's MIGRATION_FIELDS) onto the
+# enrichment-contract rule ids that must be clean, PER SUGYA, before that
+# record's audited repair may proceed. Deliberately the SAME rule lists as
+# MIGRATION_KIND_RULES (one migration, one set of rules, one vocabulary),
+# just keyed by the queue's own prerequisite names instead of --migration-
+# kind values, since the two vocabularies differ.
+QUEUE_MIGRATION_PREREQ_RULES = {
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge":
+        MIGRATION_KIND_RULES["requires-understanding"],
+    "visualizableElements-shape-normalization": MIGRATION_KIND_RULES["visualizable-elements"],
+    "difficulty-introductory-to-intro": MIGRATION_KIND_RULES["difficulty"],
+}
+
+
+def audit_repair_prerequisite_errors(audit_record_ids):
+    """A SEPARATE prerequisite gate for audited-sugya-enrichment-repair,
+    independent of semantic-field validation (task_specific_rule_scoped_
+    targets' rule-scoped target-clean, which asks "is the repaired content
+    itself correct?"). This gate instead asks "have the mechanical
+    migrations this repair depends on already landed?" Before an
+    audited-sugya-enrichment-repair manifest or preflight may succeed:
+
+      - the corpus-wide legacy-concepts purge must be complete
+        (legacy_concepts_present must be exactly zero across the WHOLE
+        corpus, not merely baselined-and-ratcheted);
+      - every named queue record's migrationPrerequisites (requires-
+        understanding / visualizable-elements / difficulty, whichever the
+        queue declares for THAT sugya) must already be clean for that
+        exact sugya id.
+
+    Unrelated ordinary debt elsewhere in the corpus, or on an unnamed
+    sugya, or a migration prerequisite the queue does NOT declare for this
+    record, must never block an otherwise-valid repair -- this function
+    only checks exactly what the queue declares as a prerequisite for the
+    named records, plus the one corpus-wide purge precondition. Returns a
+    list of error strings (empty = prerequisites satisfied)."""
+    if not audit_record_ids:
+        return []
+    data_path = REPO / ACTIVE_MODULE["paths"]["learningDataFile"]
+    daf_content = enrichment_contracts.load_daf_content(data_path)
+    violations, _detail, _occ = enrichment_contracts.collect_violations(daf_content)
+
+    errors = []
+    legacy_debt = violations.get("legacy_concepts_present", [])
+    if legacy_debt:
+        errors.append(f"corpus-wide legacy concepts purge is not complete: "
+                      f"{len(legacy_debt)} sugya(s) still carry a concepts key "
+                      f"(legacy_concepts_present must be exactly zero globally before any "
+                      f"audited-sugya-enrichment-repair manifest/preflight may succeed)")
+
+    queue = load_queue_records()
+    for aid in audit_record_ids:
+        rec = queue.get(aid)
+        if not rec:
+            continue  # validate_audit_record_ids already reports this separately
+        for prereq in rec.get("migrationPrerequisites", []):
+            rules = QUEUE_MIGRATION_PREREQ_RULES.get(prereq, [])
+            dirty_rules = sorted(r for r in rules if aid in violations.get(r, []))
+            if dirty_rules:
+                errors.append(f"{aid}: migration prerequisite {prereq!r} is not yet satisfied "
+                              f"for this sugya (still flagged by rule(s) {dirty_rules}); the "
+                              f"required migration must land before this record's audited "
+                              f"repair may proceed")
+    return errors
 
 
 def migration_kind_rules(kinds):
@@ -852,13 +929,28 @@ def json_scope_check(mb, changed, m, spec, errors):
     delete_only_rx = [pattern_to_regex(p, allow_children=False) for p in scope.get("deleteOnly", [])]
     structure_ok = scope.get("structureFlag") and scope["structureFlag"] in flags
     targets = set(m.get("targets", []))
-    # audited-sugya-enrichment-repair: every changed path must ALSO map
-    # (after normalize_audit_pointer) onto an affectedFields entry of one of
-    # the manifest's named audit records -- unrelated legacy debt outside
-    # those records can never be touched by "just happening" to be inside
-    # the task type's generic jsonScope.
-    audit_fields = (audit_affected_fields(m.get("auditRecordIds", []))
-                    if m["type"] == AUDIT_RECORD_TASK_TYPE else None)
+    # audited-sugya-enrichment-repair: every changed '/sugyot/<n>/...'
+    # pointer must resolve to the EXACT SAME sugya id at that array index in
+    # both base and proposed JSON, that exact sugya id must be named in
+    # manifest.auditRecordIds, and the normalized field path must appear in
+    # THAT record's own affectedFields -- never merely "some named record's
+    # affectedFields contains this field" (a per-sugya union would let one
+    # named record authorize a field on an unnamed sugya, or on a different
+    # named record, purely because they happen to share a field name). A
+    # daf-scoped pointer with no sugya index (only '/summary' today) is
+    # authorized when ANY named record for that same daf lists the
+    # normalized field.
+    is_audit_repair = m["type"] == AUDIT_RECORD_TASK_TYPE
+    audit_by_id = load_audit_records() if is_audit_repair else {}
+    named_ids = list(m.get("auditRecordIds", [])) if is_audit_repair else []
+    named_id_set = set(named_ids)
+    daf_scoped_fields = {}
+    if is_audit_repair:
+        for aid in named_ids:
+            rec = audit_by_id.get(aid)
+            if rec:
+                daf_scoped_fields.setdefault(rec["daf"], set()).update(
+                    f for f in rec.get("affectedFields", []) if f == "<daf>.summary")
 
     for p in changed:
         if not (p.startswith(ACTIVE_MODULE["paths"]["learningDataDir"] + "/")
@@ -901,12 +993,68 @@ def json_scope_check(mb, changed, m, spec, errors):
             if not any(rx.match(ptr) for rx in allowed_rx):
                 errors.append(f"{p}: {ptr} changed (outside the {m['type']} mutable path set)")
                 continue
-            if audit_fields is not None:
-                normalized = normalize_audit_pointer(ptr, daf)
-                if normalized not in audit_fields:
-                    errors.append(f"{p}: {ptr} (normalized {normalized!r}) is not an "
-                                  f"affectedFields entry of any named audit record "
-                                  f"{sorted(m.get('auditRecordIds', []))}")
+            if is_audit_repair:
+                sidx = sugya_index_from_ptr(ptr)
+                if sidx is not None:
+                    old_sid = sugya_id_at_index(old, sidx)
+                    new_sid = sugya_id_at_index(new, sidx)
+                    if old_sid != new_sid:
+                        errors.append(f"{p}: {ptr}: sugya id at index {sidx} changed "
+                                      f"({old_sid!r} -> {new_sid!r}); editing enrichment must "
+                                      f"never change a sugya id")
+                        continue
+                    sid = new_sid
+                    if sid is None:
+                        errors.append(f"{p}: {ptr}: sugya index {sidx} does not resolve to a "
+                                      f"sugya id in either base or proposed JSON")
+                        continue
+                    if sid not in named_id_set:
+                        errors.append(f"{p}: {ptr}: touches sugya {sid!r}, which is not named "
+                                      f"in manifest.auditRecordIds {sorted(named_id_set)} "
+                                      f"(another named record on the same daf may never "
+                                      f"authorize a change on an unnamed sugya)")
+                        continue
+                    rec = audit_by_id.get(sid)
+                    if rec is None:
+                        errors.append(f"{p}: {ptr}: sugya {sid!r} is named in "
+                                      f"auditRecordIds but has no audit record")
+                        continue
+                    normalized = normalize_audit_pointer(ptr, daf)
+                    if normalized not in rec.get("affectedFields", []):
+                        errors.append(f"{p}: {ptr} (normalized {normalized!r}) is not an "
+                                      f"affectedFields entry of the exact named audit record "
+                                      f"for {sid!r} (it may not be authorized merely because a "
+                                      f"DIFFERENT named record lists it)")
+                else:
+                    normalized = normalize_audit_pointer(ptr, daf)
+                    if normalized not in daf_scoped_fields.get(daf, set()):
+                        errors.append(f"{p}: {ptr} (normalized {normalized!r}) is not an "
+                                      f"affectedFields entry of any named audit record for "
+                                      f"daf {daf!r}")
+
+
+def sugya_index_from_ptr(ptr):
+    """The integer array index for a '/sugyot/<n>/...' JSON pointer, or
+    None when ptr is not scoped to exactly one sugya (e.g. the top-level
+    '/summary' pointer, which is daf-scoped, not sugya-scoped)."""
+    if not ptr.startswith("/sugyot/"):
+        return None
+    parts = ptr.split("/")
+    if len(parts) < 3 or not parts[2].isdigit():
+        return None
+    return int(parts[2])
+
+
+def sugya_id_at_index(doc, index):
+    """The sugyaId at the given array index of doc['sugyot'], or None if
+    the index is out of range or the document carries no such array. Used
+    to prove a changed '/sugyot/<n>/...' pointer's sugya identity did not
+    shift between base and proposed JSON before any field on it can be
+    authorized."""
+    sugyot = doc.get("sugyot") or []
+    if 0 <= index < len(sugyot):
+        return sugyot[index].get("id")
+    return None
 
 
 def is_source_protected_pointer(ptr):
@@ -1211,6 +1359,14 @@ def cmd_manifest(opts):
         ok, errs = validate_audit_record_ids(audit_record_ids, targets)
         if not ok:
             sys.exit("ERROR: invalid --audit-record-id value(s):\n  " + "\n  ".join(errs))
+        # Separate migration-prerequisite gate (requirement: the corpus-wide
+        # concepts purge and any per-sugya migration prerequisite the queue
+        # declares must already be clean before this manifest may even be
+        # generated, independent of semantic-field validation).
+        prereq_errs = audit_repair_prerequisite_errors(audit_record_ids)
+        if prereq_errs:
+            sys.exit("ERROR: audited-sugya-enrichment-repair prerequisite(s) not satisfied:\n  "
+                     + "\n  ".join(prereq_errs))
     elif opts.audit_record_id:
         sys.exit(f"ERROR: --audit-record-id is only valid for {AUDIT_RECORD_TASK_TYPE!r}, "
                  f"not {opts.type!r}")
@@ -1286,6 +1442,10 @@ def cmd_preflight(opts):
         ok, audit_errs = validate_audit_record_ids(m.get("auditRecordIds", []), m.get("targets", []))
         if not ok:
             errors.extend("auditRecordIds: %s" % e for e in audit_errs)
+        # Separate migration-prerequisite gate, independent of semantic-field
+        # validation: the corpus-wide concepts purge and any per-sugya
+        # migration prerequisite the queue declares must already be clean.
+        errors.extend(audit_repair_prerequisite_errors(m.get("auditRecordIds", [])))
     if m["type"] == "enrichment-schema-migration" and not m.get("migrationKinds"):
         errors.append("enrichment-schema-migration manifest carries no migrationKinds; "
                       "regenerate with at least one --migration-kind")
@@ -1804,8 +1964,16 @@ def cmd_verify(opts):
             print(rc.stderr[-600:])
 
     if m["type"] == AUDIT_RECORD_TASK_TYPE and mb:
+        # --allowed-ids restricts progress-record changes to exactly this
+        # manifest's named auditRecordIds (requirement: progress scope is
+        # record-specific, not "any record may advance as long as the
+        # transition is legal"). --base mb plus the default --head HEAD
+        # makes the check walk the FULL commit history of this branch, not
+        # just compare the two endpoints, so a legal NOT_STARTED ->
+        # IN_PROGRESS -> FIXED_PENDING_REVIEW walk across several commits on
+        # this branch is never rejected as a false "skip".
         rc = sh([sys.executable, "scripts/generate_enrichment_repair_queue.py",
-                "--check", "--base", mb])
+                "--check", "--base", mb, "--allowed-ids", *m.get("auditRecordIds", [])])
         results.append(("repair-queue-progress-check", rc.returncode == 0))
         print("\nrepair-queue/progress-file check:")
         print(rc.stdout[-1500:])

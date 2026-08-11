@@ -119,6 +119,66 @@ def rebuild_yoma():
               cwd=FIXTURE / "modules/yoma")
 
 
+def reset_to_prereqs_satisfied(sids):
+    """Like reset_to_base(), but starting from ONE extra commit on top of
+    BASE_SHA that purges `concepts` corpus-wide and fixes the migration-
+    prerequisite defects (requiresUnderstanding prose, visualizableElements
+    legacy 'name' key / bare values, difficulty 'introductory') for exactly
+    the named sugya ids -- mirroring a real repo where the mechanical
+    migration PRs already merged before any audited-sugya-enrichment-repair
+    PR opens, so that PR's own diff never has to touch migration fields.
+    Returns the new base commit's sha; callers pass THIS (not BASE_SHA) to
+    any subsequent wp('scope'/'verify', '--base', ...) call in the same
+    test group, since requirement 5's separate migration-prerequisite gate
+    (scripts/worker_pipeline.py's audit_repair_prerequisite_errors) now
+    genuinely blocks manifest generation for these task types otherwise."""
+    reset_to_base()
+    all_daf = json.loads(wp("manifest", "--type", "legacy-concepts-purge", "--module", "yoma",
+                            "--authorize", "allowDeleteRemovedField",
+                            "--authorize", "allowCorpusWideMechanicalMigration").stdout)["targets"]
+    sid_set = set(sids)
+    for daf in all_daf:
+        doc = load_learning(daf)
+        changed = False
+        for s in doc.get("sugyot", []):
+            if "concepts" in s:
+                del s["concepts"]
+                changed = True
+            if s.get("id") in sid_set:
+                if isinstance(s.get("requiresUnderstanding"), list) and s["requiresUnderstanding"]:
+                    s["requiresUnderstanding"] = []
+                    changed = True
+                ve = s.get("visualizableElements")
+                if isinstance(ve, list) and ve:
+                    new_ve = []
+                    for el in ve:
+                        if isinstance(el, str):
+                            new_ve.append({"item": el})
+                        elif isinstance(el, dict):
+                            el = dict(el)
+                            if "name" in el and not el.get("item"):
+                                el["item"] = el.pop("name")
+                            else:
+                                el.pop("name", None)
+                            for k in list(el.keys()):
+                                if k not in ("item", "type", "label", "role", "priority"):
+                                    el.pop(k, None)
+                            new_ve.append(el)
+                        else:
+                            new_ve.append(el)
+                    s["visualizableElements"] = new_ve
+                    changed = True
+                if s.get("difficulty") == "introductory":
+                    s["difficulty"] = "intro"
+                    changed = True
+        if changed:
+            save_learning(daf, doc)
+    rebuild_yoma()
+    commit("prerequisites landed for %s: corpus-wide concepts purge + per-record migrations"
+          % sorted(sid_set))
+    return git("rev-parse", "HEAD", cwd=FIXTURE).stdout.strip()
+
+
 print("building disposable fixture repository (one-time tar+git-init copy)...")
 FIXTURE, BASE_SHA = make_fixture_repo()
 print("fixture: %s @ %s" % (FIXTURE, BASE_SHA[:12]))
@@ -267,11 +327,18 @@ try:
     # 11-13. audited-sugya-enrichment-repair: auditRecordIds is real,
     #        validated manifest data.
     # =========================================================================
-    reset_to_base()
     queue = json.loads((FIXTURE / "docs/reports/data/yoma-tail-enrichment-repair-queue.json")
                        .read_text())
     real_id = queue["records"][0]["sugyaId"]
     real_daf = queue["records"][0]["daf"]
+    # Prerequisites (corpus-wide concepts purge + this record's own
+    # migration prerequisites) are established as ONE base commit here, so
+    # this section's own diffs never have to touch migration fields --
+    # requirement 5's separate prerequisite gate would otherwise legitimately
+    # block every manifest generation below (this section tests SCOPE/field
+    # behavior, not the prerequisite gate itself; that gate has its own
+    # dedicated tests in 13a-13d against a genuinely unsatisfied fixture).
+    PREREQ_BASE_11 = reset_to_prereqs_satisfied([real_id])
 
     r = wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
           "--range", real_daf, "--audit-record-id", "yoma-999a-s99")
@@ -306,12 +373,108 @@ try:
         save_learning(real_daf, doc)
         rebuild_yoma()
         commit("repair: touch a path NOT in this record's affectedFields")
-        r = wp("scope", "--manifest", ".worker-manifest.json", "--base", BASE_SHA)
+        r = wp("scope", "--manifest", ".worker-manifest.json", "--base", PREREQ_BASE_11)
         check("13. a changed path absent from affectedFields FAILS scope",
               r.returncode != 0 and "affectedFields" in out(r), out(r))
     else:
         check("13. a changed path absent from affectedFields FAILS scope", True,
               "(skipped: difficulty happens to already be an affected field for this record)")
+
+    # =========================================================================
+    # 13a-13d. MIGRATION PREREQUISITES are enforced SEPARATELY from semantic
+    #          target-clean, before a manifest/preflight may even succeed.
+    #          Exercised through both the real CLI (manifest generation) and
+    #          a direct call to the production function preflight itself
+    #          uses (audit_repair_prerequisite_errors), so both entry points
+    #          are proven, not just the one that happens to write a file.
+    # =========================================================================
+    prereq_id = queue["records"][0]["sugyaId"]
+    prereq_rec = queue["records"][0]
+    prereq_daf = queue["records"][0]["daf"]
+    check("(setup) the first queue record carries migration prerequisites",
+          bool(prereq_rec.get("migrationPrerequisites")), prereq_rec)
+
+    # ---- 13a. FAILS before the corpus-wide concepts purge (real CLI) ------
+    reset_to_base()
+    r = wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+          "--range", prereq_daf, "--audit-record-id", prereq_id)
+    check("13a. an audit repair manifest FAILS before the corpus-wide concepts purge",
+          r.returncode != 0 and "legacy concepts purge is not complete" in out(r), out(r))
+
+    import importlib as _importlib
+    sys.path.insert(0, str(FIXTURE / "scripts"))
+    if "worker_pipeline" in sys.modules:
+        del sys.modules["worker_pipeline"]
+    os.chdir(FIXTURE)
+    wpm2 = _importlib.import_module("worker_pipeline")
+    wpm2.REPO = FIXTURE
+    wpm2.set_active_module(wpm2.resolve_active_module("yoma"))
+    pre_purge_errs = wpm2.audit_repair_prerequisite_errors([prereq_id])
+    check("13a2. the production preflight function ALSO fails before the purge "
+         "(direct call, same function preflight/manifest both use)",
+          any("legacy concepts purge is not complete" in e for e in pre_purge_errs),
+          pre_purge_errs)
+    os.chdir(str(ROOT))
+
+    # ---- 13b. still FAILS after the purge, while the target's declared
+    #           migration prerequisite remains unmet for that sugya --------
+    reset_to_base()
+    all_daf_p = json.loads(wp("manifest", "--type", "legacy-concepts-purge", "--module", "yoma",
+                              "--authorize", "allowDeleteRemovedField",
+                              "--authorize", "allowCorpusWideMechanicalMigration").stdout)["targets"]
+    for daf in all_daf_p:
+        doc = load_learning(daf)
+        for s in doc.get("sugyot", []):
+            s.pop("concepts", None)
+        save_learning(daf, doc)
+    rebuild_yoma()
+    commit("purge concepts corpus-wide, migration prerequisites still unmet")
+    r = wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+          "--range", prereq_daf, "--audit-record-id", prereq_id)
+    check("13b. still FAILS after the purge while the declared migration prerequisite "
+         "remains unmet for this sugya",
+          r.returncode != 0 and "migration prerequisite" in out(r)
+          and "is not yet satisfied" in out(r) and prereq_id in out(r), out(r))
+
+    os.chdir(FIXTURE)
+    if "worker_pipeline" in sys.modules:
+        del sys.modules["worker_pipeline"]
+    wpm3 = _importlib.import_module("worker_pipeline")
+    wpm3.REPO = FIXTURE
+    wpm3.set_active_module(wpm3.resolve_active_module("yoma"))
+    post_purge_errs = wpm3.audit_repair_prerequisite_errors([prereq_id])
+    check("13b2. the production preflight function ALSO fails once the purge landed but "
+         "this sugya's own migration prerequisite remains unmet",
+          not any("legacy concepts purge" in e for e in post_purge_errs)
+          and any("migration prerequisite" in e and "is not yet satisfied" in e
+                  for e in post_purge_errs), post_purge_errs)
+    os.chdir(str(ROOT))
+
+    # ---- 13c. succeeds once the corpus-wide purge AND this sugya's
+    #           declared migration prerequisites are both satisfied --------
+    doc = load_learning(prereq_daf)
+    sug = next(s for s in doc["sugyot"] if s["id"] == prereq_id)
+    sug["requiresUnderstanding"] = []  # clears requiresUnderstanding_prose for this sugya
+    if isinstance(sug.get("visualizableElements"), list):
+        for el in sug["visualizableElements"]:
+            if isinstance(el, dict) and "name" in el:
+                el["item"] = el.pop("name")
+    save_learning(prereq_daf, doc)
+    rebuild_yoma()
+    commit("fix this sugya's declared migration prerequisites")
+    r = wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+          "--range", prereq_daf, "--audit-record-id", prereq_id, "--out", ".worker-manifest.json")
+    check("13c. manifest generation SUCCEEDS once the global purge is complete AND this "
+         "sugya's own migration prerequisites are satisfied", r.returncode == 0, out(r))
+    r2 = wp("preflight", "--manifest", ".worker-manifest.json", "--dry-run")
+    check("13c2. preflight ALSO succeeds under the same conditions", r2.returncode == 0, out(r2))
+
+    # ---- 13d. unrelated ordinary debt elsewhere in the corpus never blocks
+    #           an otherwise-satisfied prerequisite check (this ran against
+    #           the FULL corpus, which still carries plenty of undressed
+    #           semantic debt on every other sugya) ------------------------
+    check("13d. an otherwise-satisfied prerequisite check is not blocked by unrelated "
+         "ordinary debt elsewhere in the corpus", r.returncode == 0 and r2.returncode == 0)
 
     # =========================================================================
     # 14. queue progress durability: advance survives regeneration; invalid
@@ -351,6 +514,176 @@ try:
             "--base", BASE_SHA], cwd=FIXTURE)
     check("unknown progress sugyaId FAILS --check",
           r.returncode != 0 and "unknown sugyaId" in out(r), out(r))
+
+    # =========================================================================
+    # 28-30. PROGRESS SCOPE IS RECORD-SPECIFIC: only manifest.auditRecordIds
+    #        may have progress changes; an unrelated record advancing in the
+    #        same PR fails; BLOCKED/review-bearing field requirements.
+    # =========================================================================
+    other_id = next(r["sugyaId"] for r in queue["records"] if r["sugyaId"] != real_id)
+
+    # ---- 28. an unrelated record advanced in the same PR FAILS -----------
+    reset_to_base()
+    prog = json.loads(prog_path.read_text())
+    prog["progress"][other_id]["status"] = "IN_PROGRESS"
+    prog_path.write_text(json.dumps(prog, ensure_ascii=False, indent=1) + "\n")
+    commit("advance an UNRELATED (not-named) record to IN_PROGRESS")
+    r = run([sys.executable, "scripts/generate_enrichment_repair_queue.py", "--check",
+            "--base", BASE_SHA, "--allowed-ids", real_id], cwd=FIXTURE)
+    check("28. advancing a record NOT in --allowed-ids FAILS --check",
+          r.returncode != 0 and "not in manifest.auditRecordIds" in out(r)
+          and other_id in out(r), out(r))
+
+    # ---- 28b. the SAME advance, with the correct allowed id named, passes
+    reset_to_base()
+    prog = json.loads(prog_path.read_text())
+    prog["progress"][real_id]["status"] = "IN_PROGRESS"
+    prog_path.write_text(json.dumps(prog, ensure_ascii=False, indent=1) + "\n")
+    commit("advance the NAMED record to IN_PROGRESS")
+    r = run([sys.executable, "scripts/generate_enrichment_repair_queue.py", "--check",
+            "--base", BASE_SHA, "--allowed-ids", real_id], cwd=FIXTURE)
+    check("28b. advancing the record actually named in --allowed-ids passes --check",
+          r.returncode == 0, out(r))
+
+    # ---- 29. BLOCKED requires a non-empty blockerReason -------------------
+    reset_to_base()
+    prog = json.loads(prog_path.read_text())
+    prog["progress"][real_id]["status"] = "BLOCKED"  # no blockerReason set
+    prog_path.write_text(json.dumps(prog, ensure_ascii=False, indent=1) + "\n")
+    commit("BLOCKED with no blockerReason")
+    r = run([sys.executable, "scripts/generate_enrichment_repair_queue.py", "--check",
+            "--base", BASE_SHA], cwd=FIXTURE)
+    check("29. BLOCKED with no blockerReason FAILS --check",
+          r.returncode != 0 and "requires a non-empty blockerReason" in out(r), out(r))
+
+    reset_to_base()
+    prog = json.loads(prog_path.read_text())
+    prog["progress"][real_id]["status"] = "BLOCKED"
+    prog["progress"][real_id]["blockerReason"] = "Waiting on a source-text clarification."
+    prog_path.write_text(json.dumps(prog, ensure_ascii=False, indent=1) + "\n")
+    commit("BLOCKED with a real blockerReason")
+    r = run([sys.executable, "scripts/generate_enrichment_repair_queue.py", "--check",
+            "--base", BASE_SHA], cwd=FIXTURE)
+    check("29b. BLOCKED with a non-empty blockerReason passes --check",
+          r.returncode == 0, out(r))
+
+    # ---- 30. a review-bearing status (APPROVED_PENDING_MERGE) requires
+    #          reviewer AND independentReviewResult -------------------------
+    reset_to_base()
+    prog = json.loads(prog_path.read_text())
+    prog["progress"][real_id]["status"] = "IN_PROGRESS"
+    prog_path.write_text(json.dumps(prog, ensure_ascii=False, indent=1) + "\n")
+    commit("step 1: IN_PROGRESS")
+    prog["progress"][real_id]["status"] = "FIXED_PENDING_REVIEW"
+    prog_path.write_text(json.dumps(prog, ensure_ascii=False, indent=1) + "\n")
+    commit("step 2: FIXED_PENDING_REVIEW")
+    prog["progress"][real_id]["status"] = "APPROVED_PENDING_MERGE"  # no reviewer/result set
+    prog_path.write_text(json.dumps(prog, ensure_ascii=False, indent=1) + "\n")
+    commit("step 3: APPROVED_PENDING_MERGE with no reviewer/independentReviewResult")
+    r = run([sys.executable, "scripts/generate_enrichment_repair_queue.py", "--check",
+            "--base", BASE_SHA], cwd=FIXTURE)
+    check("30. APPROVED_PENDING_MERGE with no reviewer/independentReviewResult FAILS --check",
+          r.returncode != 0 and "requires a non-empty reviewer" in out(r)
+          and "requires a non-empty independentReviewResult" in out(r), out(r))
+
+    prog["progress"][real_id]["reviewer"] = "second-reviewer"
+    prog["progress"][real_id]["independentReviewResult"] = "APPROVED"
+    prog_path.write_text(json.dumps(prog, ensure_ascii=False, indent=1) + "\n")
+    commit("step 3b: APPROVED_PENDING_MERGE with reviewer and independentReviewResult set")
+    r = run([sys.executable, "scripts/generate_enrichment_repair_queue.py", "--check",
+            "--base", BASE_SHA], cwd=FIXTURE)
+    check("30b. APPROVED_PENDING_MERGE with reviewer and independentReviewResult set "
+         "passes --check", r.returncode == 0, out(r))
+
+    # ---- 30c. an unknown progress field is rejected ------------------------
+    reset_to_base()
+    prog = json.loads(prog_path.read_text())
+    prog["progress"][real_id]["totallyUnknownField"] = "smuggled metadata"
+    prog_path.write_text(json.dumps(prog, ensure_ascii=False, indent=1) + "\n")
+    commit("add an unknown progress field")
+    r = run([sys.executable, "scripts/generate_enrichment_repair_queue.py", "--check",
+            "--base", BASE_SHA], cwd=FIXTURE)
+    check("30c. an unknown progress field FAILS --check",
+          r.returncode != 0 and "unknown field" in out(r), out(r))
+
+    # =========================================================================
+    # 31. THE ONE-PR REPAIR LIFECYCLE IS EXECUTABLE: a single branch walks
+    #     NOT_STARTED -> IN_PROGRESS -> FIXED_PENDING_REVIEW ->
+    #     APPROVED_PENDING_MERGE across several commits (never violating the
+    #     endpoint-looks-like-a-skip trap), and post-merge COMPLETE is
+    #     DERIVED from squash-merge evidence -- no second repair PR, no
+    #     progress-only PR.
+    # =========================================================================
+    reset_to_base()
+    # commit 1: the actual content repair, landing the real edit this record
+    # authorizes, plus advancing progress to IN_PROGRESS.
+    doc = load_learning(real_daf)
+    sug = next(s for s in doc["sugyot"] if s["id"] == real_id)
+    if "finalRuling" in audit_rec["affectedFields"]:
+        sug["finalRuling"] = "The repaired finalRuling, landed in the one content-repair PR."
+    elif "display.hint" in audit_rec["affectedFields"]:
+        sug["display"]["hint"] = "The repaired display.hint, landed in the one content-repair PR?"
+    save_learning(real_daf, doc)
+    rebuild_yoma()
+    prog = json.loads(prog_path.read_text())
+    prog["progress"][real_id]["status"] = "IN_PROGRESS"
+    prog_path.write_text(json.dumps(prog, ensure_ascii=False, indent=1) + "\n")
+    commit("one-PR lifecycle: content repair + IN_PROGRESS")
+    # commit 2: FIXED_PENDING_REVIEW.
+    prog["progress"][real_id]["status"] = "FIXED_PENDING_REVIEW"
+    prog_path.write_text(json.dumps(prog, ensure_ascii=False, indent=1) + "\n")
+    commit("one-PR lifecycle: FIXED_PENDING_REVIEW")
+    # commit 3: independent approval.
+    prog["progress"][real_id]["status"] = "APPROVED_PENDING_MERGE"
+    prog["progress"][real_id]["reviewer"] = "independent-reviewer"
+    prog["progress"][real_id]["independentReviewResult"] = "APPROVED"
+    prog_path.write_text(json.dumps(prog, ensure_ascii=False, indent=1) + "\n")
+    commit("one-PR lifecycle: independent approval (APPROVED_PENDING_MERGE)")
+
+    r = run([sys.executable, "scripts/generate_enrichment_repair_queue.py", "--check",
+            "--base", BASE_SHA, "--allowed-ids", real_id], cwd=FIXTURE)
+    check("31a. the full NOT_STARTED -> IN_PROGRESS -> FIXED_PENDING_REVIEW -> "
+         "APPROVED_PENDING_MERGE walk across 3 commits passes --check (the two-endpoint "
+         "comparison alone would look like an illegal skip)",
+          r.returncode == 0, out(r))
+
+    # squash-merge simulation: the whole 3-commit branch lands as ONE commit
+    # on a fresh branch cut from BASE_SHA, exactly like a real GitHub squash
+    # merge to main.
+    git("checkout", "-q", "-b", "main-sim", BASE_SHA, cwd=FIXTURE)
+    sq = git("merge", "--squash", "work", cwd=FIXTURE)
+    check("(setup) squash-merge simulation applies cleanly", sq.returncode == 0, out(sq))
+    commit("squash-merge: one-PR repair for %s" % real_id)
+    squash_sha = git("rev-parse", "HEAD", cwd=FIXTURE).stdout.strip()
+
+    import importlib
+    sys.path.insert(0, str(FIXTURE / "scripts"))
+    if "generate_enrichment_repair_queue" in sys.modules:
+        del sys.modules["generate_enrichment_repair_queue"]
+    os.chdir(FIXTURE)
+    geq = importlib.import_module("generate_enrichment_repair_queue")
+    stored_record = json.loads(prog_path.read_text())["progress"][real_id]
+    check("(setup) the stored record is APPROVED_PENDING_MERGE, never hand-edited to COMPLETE",
+          stored_record["status"] == "APPROVED_PENDING_MERGE", stored_record)
+    effective, evidence = geq.derive_effective_status(real_id, stored_record,
+                                                       squash_commit=squash_sha,
+                                                       head_ref=squash_sha)
+    check("31b. effective status is DERIVED as COMPLETE from squash-merge evidence "
+         "(ancestor of head + touched a *.learning.json), with NO second edit to the "
+         "progress file itself", effective == "COMPLETE" and evidence.get("derived") is True,
+          (effective, evidence))
+    check("31c. the derivation never mutated the stored record (still APPROVED_PENDING_MERGE "
+         "on disk; completion is a read, not a write)",
+          json.loads(prog_path.read_text())["progress"][real_id]["status"]
+          == "APPROVED_PENDING_MERGE")
+
+    # Without squash-merge evidence (no commit supplied), the stored status
+    # is returned unchanged -- derivation never happens speculatively.
+    effective_none, evidence_none = geq.derive_effective_status(real_id, stored_record)
+    check("31d. with no squash commit supplied, the effective status is just the stored one "
+         "(no speculative derivation)",
+          effective_none == "APPROVED_PENDING_MERGE" and evidence_none.get("derived") is False)
+    os.chdir(str(ROOT))
 
     # =========================================================================
     # 15-18. baseline ratchet reaching zero / rule deletion / same-sugya
@@ -473,6 +806,150 @@ try:
     src_ok, src_msgs = wpm.verify_sources_unchanged(spec, changed, BASE_SHA)
     check("19b. verify_sources_unchanged independently catches the argumentFlow edit",
           not src_ok and any("argumentFlow" in msg for msg in src_msgs), src_msgs)
+    os.chdir(str(ROOT))
+
+    # =========================================================================
+    # 20-24. RECORD-SPECIFIC AUDIT SCOPE: a named audit record binds to the
+    #        exact sugya id at its exact array index, never to "any sugya
+    #        that happens to share a field name with a named record".
+    # =========================================================================
+
+    # ---- 20. a named 82b record cannot authorize a change on the OTHER
+    #          82b sugya (there are two named audit records on 82b, both
+    #          affecting finalRuling; naming only s01 must never authorize
+    #          a finalRuling edit on s02). --------------------------------
+    PREREQ_BASE_20 = reset_to_prereqs_satisfied(["yoma-082b-s01", "yoma-082b-s02"])
+    wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+      "--range", "82b", "--audit-record-id", "yoma-082b-s01", "--out", ".worker-manifest.json")
+    doc = load_learning("82b")
+    ids_82b = [s["id"] for s in doc["sugyot"]]
+    check("(setup) 82b carries both yoma-082b-s01 and yoma-082b-s02",
+          "yoma-082b-s01" in ids_82b and "yoma-082b-s02" in ids_82b, ids_82b)
+    sug_s02 = next(s for s in doc["sugyot"] if s["id"] == "yoma-082b-s02")
+    sug_s02["finalRuling"] = "A finalRuling edit smuggled in under the s01 audit record."
+    save_learning("82b", doc)
+    rebuild_yoma()
+    commit("attempt: edit s02.finalRuling while only s01 is named")
+    r = wp("scope", "--manifest", ".worker-manifest.json", "--base", PREREQ_BASE_20)
+    check("20. a named 82b record (s01) cannot authorize a finalRuling edit on the "
+         "OTHER (unnamed) 82b sugya (s02)",
+          r.returncode != 0 and "yoma-082b-s02" in out(r)
+          and "not named in manifest.auditRecordIds" in out(r), out(r))
+
+    # ---- 21. same-daf, same-field edit on an UNNAMED record fails (a
+    #          restatement of 20 at a different field, direct wording match
+    #          with the requirement). ------------------------------------
+    check("21. same-daf same-field edit on an unnamed record fails "
+         "(identical scenario to 20)", r.returncode != 0, out(r))
+
+    # ---- 22. two named records retain SEPARATE affected-field scopes:
+    #          naming BOTH s01 and s02 must not union their affectedFields --
+    #          learning.ahaMoment is affected for s01 but NOT for s02, so
+    #          editing it on s02 must still fail even though s02 is named. --
+    PREREQ_BASE_22 = reset_to_prereqs_satisfied(["yoma-082b-s01", "yoma-082b-s02"])
+    audit_doc2 = json.loads((FIXTURE / "docs/reports/data/yoma-tail-enrichment-audit.json").read_text())
+    aud_s01 = next(r for r in audit_doc2["records"] if r["sugyaId"] == "yoma-082b-s01")
+    aud_s02 = next(r for r in audit_doc2["records"] if r["sugyaId"] == "yoma-082b-s02")
+    check("(setup) learning.ahaMoment affects s01 but not s02",
+          "learning.ahaMoment" in aud_s01["affectedFields"]
+          and "learning.ahaMoment" not in aud_s02["affectedFields"],
+          (aud_s01["affectedFields"], aud_s02["affectedFields"]))
+    wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+      "--range", "82b", "--audit-record-id", "yoma-082b-s01",
+      "--audit-record-id", "yoma-082b-s02", "--out", ".worker-manifest.json")
+    doc = load_learning("82b")
+    sug_s02b = next(s for s in doc["sugyot"] if s["id"] == "yoma-082b-s02")
+    sug_s02b.setdefault("learning", {})["ahaMoment"] = "Borrowed from s01's affectedFields scope."
+    save_learning("82b", doc)
+    rebuild_yoma()
+    commit("attempt: edit s02.learning.ahaMoment while both s01 and s02 are named")
+    r = wp("scope", "--manifest", ".worker-manifest.json", "--base", PREREQ_BASE_22)
+    check("22. naming two records does NOT union their affectedFields: s01's "
+         "learning.ahaMoment scope cannot authorize the same field on s02",
+          r.returncode != 0 and "yoma-082b-s02" in out(r)
+          and "exact named audit record" in out(r), out(r))
+
+    # ---- 22b. the SAME field, edited on the record that actually owns it,
+    #           still passes (proves 22 is a real scope failure, not a
+    #           blanket rejection of every learning.* edit). ---------------
+    PREREQ_BASE_22B = reset_to_prereqs_satisfied(["yoma-082b-s01", "yoma-082b-s02"])
+    wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+      "--range", "82b", "--audit-record-id", "yoma-082b-s01",
+      "--audit-record-id", "yoma-082b-s02", "--out", ".worker-manifest.json")
+    doc = load_learning("82b")
+    sug_s01b = next(s for s in doc["sugyot"] if s["id"] == "yoma-082b-s01")
+    sug_s01b.setdefault("learning", {})["ahaMoment"] = "Correctly scoped to the record that owns it."
+    save_learning("82b", doc)
+    rebuild_yoma()
+    commit("edit s01.learning.ahaMoment (the record that actually owns it)")
+    r = wp("scope", "--manifest", ".worker-manifest.json", "--base", PREREQ_BASE_22B)
+    check("22b. editing learning.ahaMoment on the RECORD that owns it passes scope",
+          r.returncode == 0, out(r))
+
+    # ---- 23. changing a sugya's ID while editing enrichment fails --------
+    PREREQ_BASE_23 = reset_to_prereqs_satisfied(["yoma-082b-s01"])
+    wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+      "--range", "82b", "--audit-record-id", "yoma-082b-s01", "--out", ".worker-manifest.json")
+    doc = load_learning("82b")
+    sug_id_change = next(s for s in doc["sugyot"] if s["id"] == "yoma-082b-s01")
+    sug_id_change["id"] = "yoma-082b-s01-renamed"
+    sug_id_change["finalRuling"] = "Renamed the sugya id while also editing finalRuling."
+    save_learning("82b", doc)
+    commit("attempt: change sugya id at index 0 while editing enrichment")
+    r = wp("scope", "--manifest", ".worker-manifest.json", "--base", PREREQ_BASE_23)
+    check("23. changing a sugya id while editing enrichment FAILS scope",
+          r.returncode != 0 and "sugya id at index" in out(r) and "changed" in out(r), out(r))
+
+    # ---- 24. a duplicate auditRecordId fails manifest generation ---------
+    reset_to_base()
+    r = wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+          "--range", "82b", "--audit-record-id", "yoma-082b-s01",
+          "--audit-record-id", "yoma-082b-s01")
+    check("24. a duplicate auditRecordId FAILS manifest generation",
+          r.returncode != 0 and "duplicate auditRecordIds" in out(r), out(r))
+
+    # =========================================================================
+    # 25-27. <daf>.summary NORMALIZATION: the literal template string, not a
+    #        per-daf-substituted value, and daf-scoped (not sugya-indexed)
+    #        authorization.
+    # =========================================================================
+    sys.path.insert(0, str(FIXTURE / "scripts"))
+    if "worker_pipeline" in sys.modules:
+        del sys.modules["worker_pipeline"]
+    os.chdir(FIXTURE)
+    wpm2 = importlib.import_module("worker_pipeline")
+    check("25. normalize_audit_pointer('/summary', daf) returns the LITERAL "
+         "template '<daf>.summary', not a per-daf-substituted value",
+          wpm2.normalize_audit_pointer("/summary", "82b") == "<daf>.summary"
+          and wpm2.normalize_audit_pointer("/summary", "77a") == "<daf>.summary")
+    os.chdir(str(ROOT))
+
+    # ---- 26. a summary change passes when the named audit record lists
+    #          '<daf>.summary' (yoma-077a-s01 does). ------------------------
+    PREREQ_BASE_26 = reset_to_prereqs_satisfied(["yoma-077a-s01"])
+    wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+      "--range", "77a", "--audit-record-id", "yoma-077a-s01", "--out", ".worker-manifest.json")
+    doc = load_learning("77a")
+    doc["summary"] = "A rewritten daf summary authorized by yoma-077a-s01's <daf>.summary scope."
+    save_learning("77a", doc)
+    commit("edit summary, authorized by a named record that lists <daf>.summary")
+    r = wp("scope", "--manifest", ".worker-manifest.json", "--base", PREREQ_BASE_26)
+    check("26. a summary change PASSES when the named record lists <daf>.summary",
+          r.returncode == 0, out(r))
+
+    # ---- 27. a summary change fails when NO named record lists it
+    #          (yoma-077a-s02 does not carry '<daf>.summary'). --------------
+    PREREQ_BASE_27 = reset_to_prereqs_satisfied(["yoma-077a-s02"])
+    wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+      "--range", "77a", "--audit-record-id", "yoma-077a-s02", "--out", ".worker-manifest.json")
+    doc = load_learning("77a")
+    doc["summary"] = "An unauthorized daf summary edit."
+    save_learning("77a", doc)
+    commit("edit summary while the only named record does not list <daf>.summary")
+    r = wp("scope", "--manifest", ".worker-manifest.json", "--base", PREREQ_BASE_27)
+    check("27. a summary change FAILS when no named record lists <daf>.summary",
+          r.returncode != 0 and "<daf>.summary" in out(r), out(r))
+
     os.chdir(str(ROOT))
 
 finally:
