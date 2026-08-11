@@ -1,1402 +1,1699 @@
 {
- "_comment": "Registry of bounded worker task types for the MySugya worker pipeline (scripts/worker_pipeline.py). Each type declares its scope contract; manifests are generated from these definitions and enforced by the scope validator and CI. Sonnet is the only execution and escalation model: every type carries model 'sonnet' and escalationModel 'sonnet'. Capability tiers are expressed by mechanicalTier (contract is fully pattern-checkable) and independentReviewRequired (a second, independent Sonnet review must approve the PR before merge), never by model name. lifecycle declares how a pass ends: 'pr' types produce a tracked change and therefore take a VERSION bump plus one PR; 'read-only' types must leave the tracked tree byte-identical and never bump VERSION or open a PR. Editing this file is a pipeline change: Sonnet only, docs-tooling PR.",
- "taskTypes": {
-  "rashi-translation-review": {
-   "description": "Rashi translation-quality campaign (Step 4+): apply English-only repairs to Rashi entries that received real Hebrew-to-Gemara-context semantic review against the campaign's frozen pilot cohort, and record that review's disposition/evidence in the campaign inventory. Distinct from rashi-repair (which repairs documented stub/filler defects via pattern matching, mechanicalTier true): this type's changes come from genuine semantic judgment, never automated pattern detection, and its scope additionally covers the campaign's own inventory and batch-report audit trail so a single PR can carry both a translation fix and the record of why it was made, per the campaign's PR structure.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": true,
-   "paused": false,
-   "allowedFiles": [
-    "modules/<module>/assets/learning/<module>/<daf>.learning.json",
-    "modules/<module>/learning_data.js",
-    "modules/<module>/coverage.json",
-    "VERSION",
-    "package.json",
-    "package-lock.json",
-    "docs/rashi-audit-backlog.md",
-    "docs/reports/data/rashi-translation-quality-inventory.json",
-    "docs/reports/data/rashi-step6-batch-*-review-records.json",
-    "docs/reports/rashi-pilot-*.md",
-    "docs/reports/rashi-step6-batch-*-report.md",
-    "docs/reports/rashi-full-corpus-review-strategy.md",
-    "modules/<module>/scripts/validate_rashi_review_records.py",
-    "modules/<module>/scripts/test_validate_rashi_review_records.py",
-    "modules/<module>/scripts/check_rashi_pr_scope.py",
-    "scripts/worker_task_types.json",
-    ".worker-manifest.json"
-   ],
-   "allowedJsonPaths": [
-    "rashiTranslations[*].en"
-   ],
-   "forbiddenFiles": [
-    ".github/workflows/*",
-    "scripts/*",
-    "modules/yoma/scripts/*.py",
-    "githooks/*"
-   ],
-   "allowlistPolicy": "not-applicable",
-   "structurePolicy": "forbidden",
-   "mechanicalTier": false,
-   "requiredValidators": [
-    "validate:offline:yoma",
-    "check:rashi-pr-scope:yoma"
-   ],
-   "generationCommands": [
-    "cd modules/yoma && python3 scripts/build_learning_data.py",
-    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
-   ],
-   "buildTestCommands": [
-    "npm run build",
-    "npm run check:deploy-html",
-    "npm test",
-    "npm run test:browser"
-   ],
-   "escalationTriggers": [
-    "Hebrew source appears defective",
-    "an entry boundary or linkedGemaraLineIds association appears wrong",
-    "the correct translation cannot be resolved responsibly (record BLOCKED instead of guessing)",
-    "a proposed change fails its own second semantic pass",
-    "any gate failure not fixable by correcting the entry's own English"
-   ],
-   "independentReviewRequired": false,
-   "driftBlocked": false
-  },
-  "rashi-source-repair": {
-   "description": "One-time, narrowly-scoped correction of a proven Hebrew-source data defect in a Rashi raw-source cache file (modules/<module>/assets/talmuddev/<daf>.json) - the only task type authorized to touch that file. Every other rashi-* type operates exclusively on the enrichment layer (rashiTranslations[*].en/linkedGemaraLineIds) and explicitly forbids assets/talmuddev/*; this type exists because the campaign's own Step 5 evidence record concluded no existing type safely covers a genuine Hebrew-source defect, and 'stop and report instead of bypassing worker scope' is the default when that happens. Valid ONLY for an isolated, single-entry corruption independently confirmed against upstream/authoritative evidence (never a bulk edit, never a guess at intended Hebrew, never a fix to the ingestion script itself unless the defect is proven systemic - which takes a different, still-undefined type). Requires the sourceRepairEvidence authorization, which stands for a companion evidence report (old value, corrected value, exact removed artifact, upstream/independent corroboration, proof no other entry changed) committed in the same PR. Narrowly permits touching scripts/worker_task_types.json itself for this type's own bootstrap introduction only (every other type's registry changes remain a separate docs-tooling PR per this file's own top-level convention) - after this introducing PR merges, no later rashi-source-repair PR should need to touch the registry again.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": true,
-   "paused": false,
-   "allowedFiles": [
-    "modules/<module>/assets/talmuddev/<daf>.json",
-    "modules/<module>/learning_data.js",
-    "modules/<module>/coverage.json",
-    "VERSION",
-    "package.json",
-    "package-lock.json",
-    "docs/rashi-audit-backlog.md",
-    "docs/reports/data/rashi-translation-quality-inventory.json",
-    "docs/reports/data/rashi-source-blockers.json",
-    "docs/reports/rashi-pilot-*.md",
-    "docs/reports/rashi-source-repair-*.md",
-    "docs/reports/rashi-full-corpus-review-strategy.md",
-    "scripts/worker_task_types.json",
-    "modules/<module>/scripts/test_generate_rashi_batch_progress.py",
-    ".worker-manifest.json"
-   ],
-   "allowedJsonPaths": [
-    "rashi[*]"
-   ],
-   "forbiddenFiles": [
-    ".github/workflows/*",
-    "modules/yoma/assets/learning/*",
-    "modules/yoma/assets/daftexts/*",
-    "modules/yoma/source_store.js",
-    "modules/yoma/scripts/*.py",
-    "githooks/*"
-   ],
-   "allowlistPolicy": "not-applicable",
-   "structurePolicy": "not-applicable",
-   "mechanicalTier": false,
-   "requiredAuthorizations": [
-    "sourceRepairEvidence"
-   ],
-   "optionalAuthorizations": [
-    "sourceRepairEvidence"
-   ],
-   "requiredValidators": [
-    "validate:offline:yoma",
-    "check:rashi-translation-inventory:yoma"
-   ],
-   "generationCommands": [
-    "cd modules/yoma && python3 scripts/build_learning_data.py",
-    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
-   ],
-   "buildTestCommands": [
-    "npm run build",
-    "npm run check:deploy-html",
-    "npm test",
-    "npm run test:browser"
-   ],
-   "escalationTriggers": [
-    "the corruption cannot be traced to a single upstream or ingestion cause",
-    "a second entry needs the same class of fix (systemic, not isolated - a different, still-undefined type would be needed)",
-    "upstream and independent sources disagree with each other",
-    "any change beyond the one proven corrupted entry would be needed",
-    "the ingestion script itself would need to change"
-   ],
-   "independentReviewRequired": true,
-   "driftBlocked": false
-  },
-  "rashi-boundary-translation-repair": {
-   "description": "Extremely narrow follow-up to rashi-translation-review: repair the English of exactly ONE existing boundary-authorized Rashi entry (a rashiTranslations entry with empty linkedGemaraLineIds whose translation defect was already confirmed by a Step 6 batch review but whose application was blocked by the boundary-authorization allowlist ratchet, since fixing it requires refreshing that one authorization's derived enFingerprint - the ratchet's plain set diff cannot otherwise tell a legitimate identity-preserving fingerprint refresh from an unauthorized new entry). This type exists solely so modules/<module>/scripts/boundary_fingerprint_ratchet.py's identity-aware fingerprint-refresh exception can apply. It authorizes exactly: one Rashi entry's English, that entry's own boundary-authorization record's enFingerprint (independently recomputed by the gate from the actual corpus text at both revisions, never trusted from the manifest, the registry file's head-revision content, or the review record), the deterministic generated outputs, that entry's own review record, the batch's resolution addendum, and translation-inventory/batch-progress synchronization. It does NOT authorize: Hebrew changes; entry-id, daf, or Vilna-line changes; linkedGemaraLineIds changes; new boundary authorizations; deletion of unrelated authorizations; rationale or evidence-field changes; a second Rashi entry anywhere in the corpus; Gemara or Mishnah changes; argumentFlow; sourceRefs; literal translations; renderer changes; arbitrary documentation; or workflow changes. Requires the manifest to declare entryId, registryIdentity ({daf, vilnaLine} - the registry's own existing identity, since it has no explicit id field), baseEnFingerprint, expectedNewEnFingerprint (derived from the proposed English), and reviewRecordPath (pointing at the review record whose secondPass.status is CONFIRMED for that exact entryId) - all cross-checked against independently recomputed values by the gate, so the manifest can declare but never override what the gate actually verifies.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": true,
-   "paused": false,
-   "maxBatch": 1,
-   "allowedFiles": [
-    "modules/<module>/assets/learning/<module>/<daf>.learning.json",
-    "modules/<module>/learning_data.js",
-    "modules/<module>/coverage.json",
-    "modules/<module>/scripts/allowlists/rashi_boundary_authorizations.json",
-    "VERSION",
-    "package.json",
-    "package-lock.json",
-    "docs/rashi-audit-backlog.md",
-    "docs/reports/data/rashi-translation-quality-inventory.json",
-    "docs/reports/data/rashi-step6-batch-*-review-records.json",
-    "docs/reports/rashi-step6-batch-*-report.md",
-    ".worker-manifest.json"
-   ],
-   "allowedJsonPaths": [
-    "rashiTranslations[*].en"
-   ],
-   "forbiddenFiles": [
-    ".github/workflows/*",
-    "scripts/*",
-    "modules/yoma/scripts/*.py",
-    "githooks/*"
-   ],
-   "allowlistPolicy": "boundary-fingerprint-refresh",
-   "structurePolicy": "forbidden",
-   "mechanicalTier": false,
-   "requiredAuthorizations": [],
-   "optionalAuthorizations": [],
-   "requiredValidators": [
-    "validate:offline:yoma",
-    "check:rashi-pr-scope:yoma",
-    "validate:rashi:boundary:yoma"
-   ],
-   "generationCommands": [
-    "cd modules/yoma && python3 scripts/build_learning_data.py",
-    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
-   ],
-   "buildTestCommands": [
-    "npm run build",
-    "npm run check:deploy-html",
-    "npm test",
-    "npm run test:browser"
-   ],
-   "escalationTriggers": [
-    "the second independent semantic pass does not return CONFIRMED",
-    "any registry field other than enFingerprint would need to change",
-    "a second Rashi entry anywhere in the corpus would need to change",
-    "Hebrew source appears defective",
-    "any gate failure not fixable by correcting the one authorized entry's own English"
-   ],
-   "independentReviewRequired": false,
-   "driftBlocked": false
-  },
-  "rashi-repair": {
-   "description": "Repair documented Rashi helper defects (stubs, filler, placeholder lines) on daf with existing allowlist/baseline hits.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": true,
-   "paused": false,
-   "allowedFiles": [
-    "modules/<module>/assets/learning/<module>/<daf>.learning.json",
-    "modules/<module>/learning_data.js",
-    "modules/<module>/coverage.json",
-    "VERSION",
-    "package.json",
-    "package-lock.json",
-    "docs/rashi-audit-backlog.md",
-    "modules/<module>/scripts/allowlists/*",
-    "modules/<module>/scripts/baselines/*",
-    ".worker-manifest.json"
-   ],
-   "allowedJsonPaths": [
-    "rashiTranslations[*].en",
-    "rashiTranslations[*].linkedGemaraLineIds"
-   ],
-   "forbiddenFiles": [
-    ".github/workflows/*",
-    "scripts/*",
-    "modules/yoma/scripts/*.py",
-    "githooks/*"
-   ],
-   "allowlistPolicy": "remove-only",
-   "structurePolicy": "forbidden",
-   "mechanicalTier": true,
-   "rashiPreflightTask": "repair",
-   "requiredValidators": [
-    "validate:offline:yoma",
-    "check:rashi-pr-scope:yoma"
-   ],
-   "generationCommands": [
-    "cd modules/yoma && python3 scripts/build_learning_data.py",
-    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
-   ],
-   "buildTestCommands": [
-    "npm run build",
-    "npm run check:deploy-html",
-    "npm test",
-    "npm run test:browser"
-   ],
-   "escalationTriggers": [
-    "uncertain Hebrew meaning or placement",
-    "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
-    "target daf classified SHIFTED or FABRICATION-SUSPECT by the drift profile (preflight blocks this; never work around it)",
-    "count mismatch not already baselined",
-    "new semantic audit shift candidate beyond offset +-1",
-    "any gate failure not fixable by correcting your own content"
-   ],
-   "independentReviewRequired": false,
-   "driftBlocked": true,
-   "optionalAuthorizations": [
-    "authorizeDriftOverride"
-   ]
-  },
-  "rashi-reconstruction": {
-   "description": "Full line-by-line Rashi helper reconstruction for a daf with no unresolved content-allowlist hits, unless a matching allowlistDrain snapshot authorizes proceeding on pre-existing target-scoped debt. Pre-existing repetition-baseline debt for the target daf is similarly auto-snapshotted (repetitionDrain) and may be drained by the reconstruction itself when the daf's drift profile already recommends reconstruction; count mismatches have no such path and always block.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": true,
-   "paused": false,
-   "allowedFiles": [
-    "modules/<module>/assets/learning/<module>/<daf>.learning.json",
-    "modules/<module>/learning_data.js",
-    "modules/<module>/coverage.json",
-    "VERSION",
-    "package.json",
-    "package-lock.json",
-    "docs/rashi-audit-backlog.md",
-    "modules/<module>/scripts/allowlists/*",
-    "modules/<module>/scripts/baselines/*",
-    ".worker-manifest.json",
-    ".worker-self-review.json",
-    ".worker-queue.json"
-   ],
-   "allowedJsonPaths": [
-    "rashiTranslations[*].en",
-    "rashiTranslations[*].linkedGemaraLineIds"
-   ],
-   "forbiddenFiles": [
-    ".github/workflows/*",
-    "scripts/*",
-    "modules/yoma/scripts/*.py",
-    "githooks/*"
-   ],
-   "allowlistPolicy": "remove-only",
-   "structurePolicy": "forbidden",
-   "mechanicalTier": false,
-   "rashiPreflightTask": "reconstruct",
-   "requiredValidators": [
-    "validate:offline:yoma",
-    "check:rashi-pr-scope:yoma"
-   ],
-   "generationCommands": [
-    "cd modules/yoma && python3 scripts/build_learning_data.py",
-    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
-   ],
-   "buildTestCommands": [
-    "npm run build",
-    "npm run check:deploy-html",
-    "npm test",
-    "npm run test:browser"
-   ],
-   "escalationTriggers": [
-    "uncertain Hebrew meaning or placement",
-    "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
-    "any gate failure not fixable by correcting your own content",
-    "required packet id missing, or packet segment text truncated or incomplete",
-    "structure or count mismatch not already baselined (count mismatches have no drain path of any kind and always block)",
-    "repetitionDrain snapshot does not match the target's live repetition-baseline state, or the drift profile no longer recommends reconstruction (repetition-drain is only valid when reconstruction is already the drift-approved remedy)",
-    "allowlist growth would be needed",
-    "validator or workflow modification would be needed",
-    "semantic uncertainty remains after rereading the raw Hebrew and full segment text",
-    "post-edit drift profile not ALIGNED",
-    "a semantic audit shift candidate remains on the target daf",
-    "a link that cannot be justified from local segment text",
-    "the fresh post-edit self-review finds a blocker",
-    "CI or full verification fails after one bounded correction attempt",
-    "fields outside the manifest would be needed",
-    "more than one daf would change in the same content PR"
-   ],
-   "reviewPolicy": "conditional",
-   "maxBatch": 1
-  },
-  "rashi-realignment": {
-   "description": "Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 68a, 68b, 70a, 71b, 41a): redistribute the existing genuine translations onto their correct vilna lines and translate only the genuinely uncovered remainder. Never a stub repair. Sonnet worker under a generated manifest.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": true,
-   "paused": false,
-   "allowedFiles": [
-    "modules/<module>/assets/learning/<module>/<daf>.learning.json",
-    "modules/<module>/learning_data.js",
-    "modules/<module>/coverage.json",
-    "VERSION",
-    "package.json",
-    "package-lock.json",
-    "docs/rashi-audit-backlog.md",
-    "modules/<module>/scripts/allowlists/*",
-    "modules/<module>/scripts/baselines/*",
-    ".worker-manifest.json",
-    ".worker-self-review.json",
-    ".worker-queue.json"
-   ],
-   "allowedJsonPaths": [
-    "rashiTranslations[*].en",
-    "rashiTranslations[*].linkedGemaraLineIds"
-   ],
-   "forbiddenFiles": [
-    ".github/workflows/*",
-    "scripts/*",
-    "modules/yoma/scripts/*.py",
-    "githooks/*"
-   ],
-   "allowlistPolicy": "remove-only",
-   "structurePolicy": "forbidden",
-   "mechanicalTier": false,
-   "rashiPreflightTask": "shifted-block",
-   "requiredValidators": [
-    "validate:offline:yoma",
-    "check:rashi-pr-scope:yoma"
-   ],
-   "generationCommands": [
-    "cd modules/yoma && python3 scripts/build_learning_data.py",
-    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
-   ],
-   "buildTestCommands": [
-    "npm run build",
-    "npm run check:deploy-html",
-    "npm test",
-    "npm run test:browser"
-   ],
-   "escalationTriggers": [
-    "uncertain Hebrew meaning or placement",
-    "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
-    "any gate failure not fixable by correcting your own content",
-    "required packet id missing, or packet segment text truncated or incomplete",
-    "structure or count mismatch not already baselined (count mismatches have no drain path of any kind and always block)",
-    "repetitionDrain snapshot does not match the target's live repetition-baseline state, or the drift profile no longer recommends reconstruction (repetition-drain is only valid when reconstruction is already the drift-approved remedy)",
-    "allowlist growth would be needed",
-    "validator or workflow modification would be needed",
-    "semantic uncertainty remains after rereading the raw Hebrew and full segment text",
-    "post-edit drift profile not ALIGNED",
-    "a semantic audit shift candidate remains on the target daf",
-    "a link that cannot be justified from local segment text",
-    "the fresh post-edit self-review finds a blocker",
-    "CI or full verification fails after one bounded correction attempt",
-    "fields outside the manifest would be needed",
-    "more than one daf would change in the same content PR"
-   ],
-   "maxBatch": 1,
-   "reviewPolicy": "conditional"
-  },
-  "placeholder-backfill": {
-   "description": "Replace a documented filler/placeholder block (e.g. 77a-88a) with genuine helpers. Same contract as rashi-repair; targets must have documented allowlist hits.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": true,
-   "paused": false,
-   "allowedFiles": [
-    "modules/<module>/assets/learning/<module>/<daf>.learning.json",
-    "modules/<module>/learning_data.js",
-    "modules/<module>/coverage.json",
-    "VERSION",
-    "package.json",
-    "package-lock.json",
-    "docs/rashi-audit-backlog.md",
-    "modules/<module>/scripts/allowlists/*",
-    "modules/<module>/scripts/baselines/*",
-    ".worker-manifest.json"
-   ],
-   "allowedJsonPaths": [
-    "rashiTranslations[*].en",
-    "rashiTranslations[*].linkedGemaraLineIds"
-   ],
-   "forbiddenFiles": [
-    ".github/workflows/*",
-    "scripts/*",
-    "modules/yoma/scripts/*.py",
-    "githooks/*"
-   ],
-   "allowlistPolicy": "remove-only",
-   "structurePolicy": "forbidden",
-   "mechanicalTier": true,
-   "rashiPreflightTask": "repair",
-   "requiredValidators": [
-    "validate:offline:yoma",
-    "check:rashi-pr-scope:yoma"
-   ],
-   "generationCommands": [
-    "cd modules/yoma && python3 scripts/build_learning_data.py",
-    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
-   ],
-   "buildTestCommands": [
-    "npm run build",
-    "npm run check:deploy-html",
-    "npm test",
-    "npm run test:browser"
-   ],
-   "escalationTriggers": [
-    "uncertain Hebrew meaning or placement",
-    "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
-    "any gate failure not fixable by correcting your own content"
-   ],
-   "maxBatch": 2,
-   "allowlistMustShrinkOrExplain": true,
-   "independentReviewRequired": true,
-   "driftBlocked": true,
-   "optionalAuthorizations": [
-    "authorizeDriftOverride"
-   ]
-  },
-  "gemara-learning": {
-   "description": "Edits to sugya display/learning enrichment fields (argumentFlow, quizSeeds, misconceptions, takeaway). Semantic content work: Sonnet, with an independent Sonnet review before merge.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": true,
-   "paused": false,
-   "allowedFiles": [
-    "modules/<module>/assets/learning/<module>/<daf>.learning.json",
-    "modules/<module>/learning_data.js",
-    "modules/<module>/coverage.json",
-    "VERSION",
-    "package.json",
-    "package-lock.json",
-    "docs/rashi-audit-backlog.md",
-    "docs/<module>-perek-review.md",
-    ".worker-manifest.json"
-   ],
-   "allowedJsonPaths": [
-    "sugyot[*].display.whats",
-    "sugyot[*].display.hint",
-    "sugyot[*].display.title",
-    "sugyot[*].learning.ahaMoment",
-    "sugyot[*].learning.memoryAnchor",
-    "sugyot[*].learning.learnerQuestion",
-    "sugyot[*].learning.coreTension",
-    "sugyot[*].learning.coreMove",
-    "sugyot[*].learning.takeaway.text",
-    "sugyot[*].learning.learningBlocker"
-   ],
-   "forbiddenFiles": [
-    ".github/workflows/*",
-    "scripts/*",
-    "modules/yoma/scripts/*.py",
-    "githooks/*",
-    "modules/yoma/scripts/allowlists/*"
-   ],
-   "forbiddenJsonPaths": [
-    "rashiTranslations (any)",
-    "*.he (any)",
-    "sugyot[*].id",
-    "sugyot[*].lineRange",
-    "sugyot[*].argumentFlow",
-    "sugyot[*].learning.takeaway.type",
-    "glossary (unless authorizeGlossary)",
-    "quizSeeds (unless authorizeQuizSeeds)"
-   ],
-   "allowlistPolicy": "forbidden",
-   "structurePolicy": "requires-authorization",
-   "mechanicalTier": false,
-   "requiredValidators": [
-    "validate:offline:yoma"
-   ],
-   "generationCommands": [
-    "cd modules/yoma && python3 scripts/build_learning_data.py",
-    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
-   ],
-   "buildTestCommands": [
-    "npm run build",
-    "npm run check:deploy-html",
-    "npm test",
-    "npm run test:browser"
-   ],
-   "escalationTriggers": [
-    "any change to source he/en fields would be needed",
-    "sugya boundary or id changes would be needed",
-    "schema fields not in shared/schema_map.js would be needed"
-   ],
-   "optionalAuthorizations": [
-    "authorizeGlossary",
-    "authorizeQuizSeeds",
-    "authorizeTakeawayType",
-    "allowStructure"
-   ],
-   "fieldEnforcement": "strict-json-diff",
-   "independentReviewRequired": true,
-   "jsonScope": {
-    "mutable": [
-     "sugyot[*].display.whats",
-     "sugyot[*].display.hint",
-     "sugyot[*].display.title",
-     "sugyot[*].learning.ahaMoment",
-     "sugyot[*].learning.memoryAnchor",
-     "sugyot[*].learning.learnerQuestion",
-     "sugyot[*].learning.coreTension",
-     "sugyot[*].learning.coreMove",
-     "sugyot[*].learning.learningBlocker",
-     "sugyot[*].learning.takeaway.text"
-    ],
-    "flagMutable": {
-     "authorizeGlossary": [
-      "glossary[*]",
-      "sugyot[*].glossary[*]"
-     ],
-     "authorizeQuizSeeds": [
-      "sugyot[*].quizSeeds[*]"
-     ],
-     "authorizeTakeawayType": [
-      "sugyot[*].learning.takeaway.type"
-     ]
+  "_comment": "Registry of bounded worker task types for the MySugya worker pipeline (scripts/worker_pipeline.py). Each type declares its scope contract; manifests are generated from these definitions and enforced by the scope validator and CI. Sonnet is the only execution and escalation model: every type carries model 'sonnet' and escalationModel 'sonnet'. Capability tiers are expressed by mechanicalTier (contract is fully pattern-checkable) and independentReviewRequired (a second, independent Sonnet review must approve the PR before merge), never by model name. lifecycle declares how a pass ends: 'pr' types produce a tracked change and therefore take a VERSION bump plus one PR; 'read-only' types must leave the tracked tree byte-identical and never bump VERSION or open a PR. Editing this file is a pipeline change: Sonnet only, docs-tooling PR.",
+  "taskTypes": {
+    "rashi-translation-review": {
+      "description": "Rashi translation-quality campaign (Step 4+): apply English-only repairs to Rashi entries that received real Hebrew-to-Gemara-context semantic review against the campaign's frozen pilot cohort, and record that review's disposition/evidence in the campaign inventory. Distinct from rashi-repair (which repairs documented stub/filler defects via pattern matching, mechanicalTier true): this type's changes come from genuine semantic judgment, never automated pattern detection, and its scope additionally covers the campaign's own inventory and batch-report audit trail so a single PR can carry both a translation fix and the record of why it was made, per the campaign's PR structure.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": true,
+      "paused": false,
+      "allowedFiles": [
+        "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        "docs/rashi-audit-backlog.md",
+        "docs/reports/data/rashi-translation-quality-inventory.json",
+        "docs/reports/data/rashi-step6-batch-*-review-records.json",
+        "docs/reports/rashi-pilot-*.md",
+        "docs/reports/rashi-step6-batch-*-report.md",
+        "docs/reports/rashi-full-corpus-review-strategy.md",
+        "modules/<module>/scripts/validate_rashi_review_records.py",
+        "modules/<module>/scripts/test_validate_rashi_review_records.py",
+        "modules/<module>/scripts/check_rashi_pr_scope.py",
+        "scripts/worker_task_types.json",
+        ".worker-manifest.json"
+      ],
+      "allowedJsonPaths": [
+        "rashiTranslations[*].en"
+      ],
+      "forbiddenFiles": [
+        ".github/workflows/*",
+        "scripts/*",
+        "modules/yoma/scripts/*.py",
+        "githooks/*"
+      ],
+      "allowlistPolicy": "not-applicable",
+      "structurePolicy": "forbidden",
+      "mechanicalTier": false,
+      "requiredValidators": [
+        "validate:offline:yoma",
+        "check:rashi-pr-scope:yoma"
+      ],
+      "generationCommands": [
+        "cd modules/yoma && python3 scripts/build_learning_data.py",
+        "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm run check:deploy-html",
+        "npm test",
+        "npm run test:browser"
+      ],
+      "escalationTriggers": [
+        "Hebrew source appears defective",
+        "an entry boundary or linkedGemaraLineIds association appears wrong",
+        "the correct translation cannot be resolved responsibly (record BLOCKED instead of guessing)",
+        "a proposed change fails its own second semantic pass",
+        "any gate failure not fixable by correcting the entry's own English"
+      ],
+      "independentReviewRequired": false,
+      "driftBlocked": false
     },
-    "structureFlag": "allowStructure"
-   }
-  },
-  "literal-layer": {
-   "description": "en_lit literal-translation fetch/injection work (assets/literal_en + regeneration). Mechanical once fetch output is verified.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": true,
-   "paused": false,
-   "allowedFiles": [
-    "modules/<module>/assets/literal_en/*",
-    "modules/<module>/learning_data.js",
-    "modules/<module>/coverage.json",
-    "VERSION",
-    "package.json",
-    "package-lock.json",
-    ".worker-manifest.json"
-   ],
-   "allowedJsonPaths": [
-    "<literal_en per-daf JSON>"
-   ],
-   "forbiddenFiles": [
-    ".github/workflows/*",
-    "scripts/*",
-    "modules/yoma/scripts/*.py",
-    "githooks/*",
-    "modules/yoma/assets/learning/*",
-    "modules/yoma/scripts/allowlists/*"
-   ],
-   "allowlistPolicy": "forbidden",
-   "structurePolicy": "forbidden",
-   "mechanicalTier": true,
-   "requiredValidators": [
-    "validate:literal:yoma",
-    "validate:offline:yoma"
-   ],
-   "generationCommands": [
-    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
-   ],
-   "buildTestCommands": [
-    "npm run build",
-    "npm test"
-   ],
-   "escalationTriggers": [
-    "Sefaria fetch returns unexpected structure",
-    "coverage would drop below the 95% gate"
-   ],
-   "coverageDeltaReport": true
-  },
-  "nekudot": {
-   "description": "Nekudot/vowelization correctness work on Rashi he fields. PAUSED: not yet authorized; requires its own validator design first. Sonnet only when unpaused.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": true,
-   "paused": true,
-   "allowedFiles": [],
-   "allowedJsonPaths": [],
-   "forbiddenFiles": [
-    "*"
-   ],
-   "allowlistPolicy": "forbidden",
-   "structurePolicy": "forbidden",
-   "mechanicalTier": false,
-   "requiredValidators": [
-    "validate:offline:yoma"
-   ],
-   "generationCommands": [],
-   "buildTestCommands": [],
-   "escalationTriggers": [
-    "task type is paused; any nekudot work requires explicit unpausing and new tooling"
-   ]
-  },
-  "docs-tooling": {
-   "description": "Docs, scripts, CI, hooks, and pipeline changes. No module data. Sonnet only for validator/pipeline logic.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": false,
-   "paused": false,
-   "allowedFiles": [
-    "docs/*",
-    "scripts/*",
-    "shared/*",
-    "modules/*/module.json",
-    "modules/<module>/scripts/*.py",
-    "modules/<module>/scripts/allowlists/*",
-    "modules/<module>/MODULE.md",
-    ".github/workflows/*",
-    "githooks/*",
-    "package.json",
-    "package-lock.json",
-    "VERSION",
-    "README.md",
-    "CLAUDE.md",
-    "SOURCES.md",
-    "tests/*",
-    ".gitignore",
-    ".worker-manifest.json",
-    ".worker-queue.json"
-   ],
-   "allowedJsonPaths": [],
-   "forbiddenFiles": [
-    "modules/yoma/assets/learning/*",
-    "modules/yoma/assets/talmuddev/*",
-    "modules/yoma/assets/daftexts/*",
-    "modules/yoma/source_store.js"
-   ],
-   "allowlistPolicy": "restructure-with-env",
-   "structurePolicy": "not-applicable",
-   "mechanicalTier": false,
-   "requiredValidators": [
-    "validate:offline:yoma"
-   ],
-   "generationCommands": [],
-   "buildTestCommands": [
-    "npm run build",
-    "npm run check:deploy-html",
-    "npm test",
-    "npm run test:browser"
-   ],
-   "escalationTriggers": [
-    "any existing gate would be weakened",
-    "workflow permission changes would be needed"
-   ]
-  },
-  "generated-refresh": {
-   "description": "Regenerate learning_data.js/coverage.json from unchanged sources (e.g. after a generator fix merged separately). No source edits.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": false,
-   "paused": false,
-   "allowedFiles": [
-    "modules/<module>/learning_data.js",
-    "modules/<module>/coverage.json",
-    "VERSION",
-    "package.json",
-    "package-lock.json",
-    ".worker-manifest.json"
-   ],
-   "allowedJsonPaths": [],
-   "forbiddenFiles": [
-    "modules/yoma/assets/*",
-    "scripts/*",
-    "modules/yoma/scripts/*",
-    ".github/workflows/*",
-    "githooks/*",
-    "docs/*"
-   ],
-   "allowlistPolicy": "forbidden",
-   "structurePolicy": "forbidden",
-   "mechanicalTier": true,
-   "requiredValidators": [
-    "validate:offline:yoma"
-   ],
-   "generationCommands": [
-    "cd modules/yoma && python3 scripts/build_learning_data.py",
-    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
-   ],
-   "buildTestCommands": [
-    "npm run build",
-    "npm test"
-   ],
-   "escalationTriggers": [
-    "regeneration output differs in unexpected sections"
-   ],
-   "sourcesMustBeUnchanged": true
-  },
-  "deployment-verify": {
-   "description": "Verify main deploy workflows and live site after a merge. Read-only: no file changes permitted at all.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "read-only",
-   "requiresTarget": false,
-   "paused": false,
-   "allowedFiles": [],
-   "allowedJsonPaths": [],
-   "forbiddenFiles": [
-    "*"
-   ],
-   "allowlistPolicy": "forbidden",
-   "structurePolicy": "forbidden",
-   "mechanicalTier": true,
-   "requiredValidators": [],
-   "generationCommands": [],
-   "buildTestCommands": [],
-   "escalationTriggers": [
-    "a deploy workflow concludes failure",
-    "live VERSION does not match main after the pages-lag window"
-   ]
-  },
-  "audit-only": {
-   "description": "Read-only audits: corpus scans, semantic audit reports, validator dry runs, backlog reconciliation. May write ONLY report artifacts under docs/reports/ and process notes in docs/rashi-audit-backlog.md. No content, no generated data. Carries its own VERSION bump for the report artifact it writes.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": false,
-   "paused": false,
-   "allowedFiles": [
-    "docs/reports/*",
-    "docs/rashi-audit-backlog.md",
-    ".worker-manifest.json",
-    "VERSION",
-    "package.json",
-    "package-lock.json"
-   ],
-   "allowedJsonPaths": [],
-   "forbiddenFiles": [
-    "modules/*",
-    "scripts/*",
-    ".github/workflows/*",
-    "githooks/*"
-   ],
-   "allowlistPolicy": "forbidden",
-   "structurePolicy": "forbidden",
-   "mechanicalTier": true,
-   "independentReviewRequired": false,
-   "requiredValidators": [
-    "validate:offline:yoma"
-   ],
-   "generationCommands": [],
-   "buildTestCommands": [],
-   "escalationTriggers": [
-    "any finding that suggests content on main is wrong (report it; do not fix it)"
-   ]
-  },
-  "display-only-edit": {
-   "description": "Copy edits to sugya display fields only (whats, hint, title, oneLine, shortSummary). The mechanical-tier entry point for enrichment copy work.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": true,
-   "paused": false,
-   "allowedFiles": [
-    "modules/<module>/assets/learning/<module>/<daf>.learning.json",
-    "modules/<module>/learning_data.js",
-    "modules/<module>/coverage.json",
-    "VERSION",
-    "package.json",
-    "package-lock.json",
-    "docs/rashi-audit-backlog.md",
-    "docs/<module>-perek-review.md",
-    ".worker-manifest.json"
-   ],
-   "forbiddenFiles": [
-    ".github/workflows/*",
-    "scripts/*",
-    "modules/yoma/scripts/*.py",
-    "githooks/*",
-    "modules/yoma/scripts/allowlists/*"
-   ],
-   "allowedJsonPaths": [
-    "sugyot[*].display.whats",
-    "sugyot[*].display.hint",
-    "sugyot[*].display.title",
-    "sugyot[*].display.oneLine",
-    "sugyot[*].display.shortSummary"
-   ],
-   "allowlistPolicy": "forbidden",
-   "structurePolicy": "requires-authorization",
-   "mechanicalTier": true,
-   "independentReviewRequired": true,
-   "maxBatch": 2,
-   "optionalAuthorizations": [
-    "allowStructure"
-   ],
-   "jsonScope": {
-    "mutable": [
-     "sugyot[*].display.whats",
-     "sugyot[*].display.hint",
-     "sugyot[*].display.title",
-     "sugyot[*].display.oneLine",
-     "sugyot[*].display.shortSummary"
-    ],
-    "flagMutable": {},
-    "structureFlag": "allowStructure"
-   },
-   "requiredValidators": [
-    "validate:offline:yoma"
-   ],
-   "generationCommands": [
-    "cd modules/yoma && python3 scripts/build_learning_data.py",
-    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
-   ],
-   "buildTestCommands": [
-    "npm run build",
-    "npm run check:deploy-html",
-    "npm test",
-    "npm run test:browser"
-   ],
-   "escalationTriggers": [
-    "uncertainty about what the sugya actually says (do not re-derive content)",
-    "any change outside the mutable path set would be needed"
-   ]
-  },
-  "learning-copy-edit": {
-   "description": "Edits to learning narrative fields (ahaMoment, memoryAnchor, learnerQuestion, coreTension, coreMove, learningBlocker, resolution, takeaway.text). Subject to CLAUDE.md enrichment quality standards: Sonnet only.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": true,
-   "paused": false,
-   "allowedFiles": [
-    "modules/<module>/assets/learning/<module>/<daf>.learning.json",
-    "modules/<module>/learning_data.js",
-    "modules/<module>/coverage.json",
-    "VERSION",
-    "package.json",
-    "package-lock.json",
-    "docs/rashi-audit-backlog.md",
-    "docs/<module>-perek-review.md",
-    ".worker-manifest.json"
-   ],
-   "forbiddenFiles": [
-    ".github/workflows/*",
-    "scripts/*",
-    "modules/yoma/scripts/*.py",
-    "githooks/*",
-    "modules/yoma/scripts/allowlists/*"
-   ],
-   "allowedJsonPaths": [
-    "sugyot[*].learning.ahaMoment",
-    "sugyot[*].learning.coreMove",
-    "sugyot[*].learning.coreTension",
-    "sugyot[*].learning.learnerQuestion",
-    "sugyot[*].learning.learningBlocker",
-    "sugyot[*].learning.memoryAnchor",
-    "sugyot[*].learning.reasoningPattern.category",
-    "sugyot[*].learning.reasoningPattern.id",
-    "sugyot[*].learning.reasoningPattern.notes",
-    "sugyot[*].learning.resolution",
-    "sugyot[*].learning.takeaway.text"
-   ],
-   "allowlistPolicy": "forbidden",
-   "structurePolicy": "requires-authorization",
-   "mechanicalTier": false,
-   "independentReviewRequired": false,
-   "maxBatch": 1,
-   "optionalAuthorizations": [
-    "allowStructure",
-    "authorizeAlternateAngles",
-    "authorizeTakeawayType"
-   ],
-   "jsonScope": {
-    "mutable": [
-     "sugyot[*].learning.ahaMoment",
-     "sugyot[*].learning.coreMove",
-     "sugyot[*].learning.coreTension",
-     "sugyot[*].learning.learnerQuestion",
-     "sugyot[*].learning.learningBlocker",
-     "sugyot[*].learning.memoryAnchor",
-     "sugyot[*].learning.reasoningPattern.category",
-     "sugyot[*].learning.reasoningPattern.id",
-     "sugyot[*].learning.reasoningPattern.notes",
-     "sugyot[*].learning.resolution",
-     "sugyot[*].learning.takeaway.text"
-    ],
-    "flagMutable": {
-     "authorizeTakeawayType": [
-      "sugyot[*].learning.takeaway.type"
-     ],
-     "authorizeAlternateAngles": [
-      "sugyot[*].alternateAngles"
-     ]
+    "rashi-source-repair": {
+      "description": "One-time, narrowly-scoped correction of a proven Hebrew-source data defect in a Rashi raw-source cache file (modules/<module>/assets/talmuddev/<daf>.json) - the only task type authorized to touch that file. Every other rashi-* type operates exclusively on the enrichment layer (rashiTranslations[*].en/linkedGemaraLineIds) and explicitly forbids assets/talmuddev/*; this type exists because the campaign's own Step 5 evidence record concluded no existing type safely covers a genuine Hebrew-source defect, and 'stop and report instead of bypassing worker scope' is the default when that happens. Valid ONLY for an isolated, single-entry corruption independently confirmed against upstream/authoritative evidence (never a bulk edit, never a guess at intended Hebrew, never a fix to the ingestion script itself unless the defect is proven systemic - which takes a different, still-undefined type). Requires the sourceRepairEvidence authorization, which stands for a companion evidence report (old value, corrected value, exact removed artifact, upstream/independent corroboration, proof no other entry changed) committed in the same PR. Narrowly permits touching scripts/worker_task_types.json itself for this type's own bootstrap introduction only (every other type's registry changes remain a separate docs-tooling PR per this file's own top-level convention) - after this introducing PR merges, no later rashi-source-repair PR should need to touch the registry again.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": true,
+      "paused": false,
+      "allowedFiles": [
+        "modules/<module>/assets/talmuddev/<daf>.json",
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        "docs/rashi-audit-backlog.md",
+        "docs/reports/data/rashi-translation-quality-inventory.json",
+        "docs/reports/data/rashi-source-blockers.json",
+        "docs/reports/rashi-pilot-*.md",
+        "docs/reports/rashi-source-repair-*.md",
+        "docs/reports/rashi-full-corpus-review-strategy.md",
+        "scripts/worker_task_types.json",
+        "modules/<module>/scripts/test_generate_rashi_batch_progress.py",
+        ".worker-manifest.json"
+      ],
+      "allowedJsonPaths": [
+        "rashi[*]"
+      ],
+      "forbiddenFiles": [
+        ".github/workflows/*",
+        "modules/yoma/assets/learning/*",
+        "modules/yoma/assets/daftexts/*",
+        "modules/yoma/source_store.js",
+        "modules/yoma/scripts/*.py",
+        "githooks/*"
+      ],
+      "allowlistPolicy": "not-applicable",
+      "structurePolicy": "not-applicable",
+      "mechanicalTier": false,
+      "requiredAuthorizations": [
+        "sourceRepairEvidence"
+      ],
+      "optionalAuthorizations": [
+        "sourceRepairEvidence"
+      ],
+      "requiredValidators": [
+        "validate:offline:yoma",
+        "check:rashi-translation-inventory:yoma"
+      ],
+      "generationCommands": [
+        "cd modules/yoma && python3 scripts/build_learning_data.py",
+        "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm run check:deploy-html",
+        "npm test",
+        "npm run test:browser"
+      ],
+      "escalationTriggers": [
+        "the corruption cannot be traced to a single upstream or ingestion cause",
+        "a second entry needs the same class of fix (systemic, not isolated - a different, still-undefined type would be needed)",
+        "upstream and independent sources disagree with each other",
+        "any change beyond the one proven corrupted entry would be needed",
+        "the ingestion script itself would need to change"
+      ],
+      "independentReviewRequired": true,
+      "driftBlocked": false
     },
-    "structureFlag": "allowStructure"
-   },
-   "requiredValidators": [
-    "validate:offline:yoma"
-   ],
-   "generationCommands": [
-    "cd modules/yoma && python3 scripts/build_learning_data.py",
-    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
-   ],
-   "buildTestCommands": [
-    "npm run build",
-    "npm run check:deploy-html",
-    "npm test",
-    "npm run test:browser"
-   ],
-   "escalationTriggers": [
-    "any change outside the mutable path set would be needed"
-   ]
-  },
-  "glossary-edit": {
-   "description": "Glossary entry text edits (he/translit/en) at daf or sugya level. Entry add/remove is structure.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": true,
-   "paused": false,
-   "allowedFiles": [
-    "modules/<module>/assets/learning/<module>/<daf>.learning.json",
-    "modules/<module>/learning_data.js",
-    "modules/<module>/coverage.json",
-    "VERSION",
-    "package.json",
-    "package-lock.json",
-    "docs/rashi-audit-backlog.md",
-    "docs/<module>-perek-review.md",
-    ".worker-manifest.json"
-   ],
-   "forbiddenFiles": [
-    ".github/workflows/*",
-    "scripts/*",
-    "modules/yoma/scripts/*.py",
-    "githooks/*",
-    "modules/yoma/scripts/allowlists/*"
-   ],
-   "allowedJsonPaths": [
-    "glossary[*].he",
-    "glossary[*].translit",
-    "glossary[*].en",
-    "sugyot[*].glossary[*].he",
-    "sugyot[*].glossary[*].translit",
-    "sugyot[*].glossary[*].en",
-    "sugyot[*].concepts[*].term",
-    "sugyot[*].concepts[*].he",
-    "sugyot[*].concepts[*].translit",
-    "sugyot[*].concepts[*].def"
-   ],
-   "allowlistPolicy": "forbidden",
-   "structurePolicy": "requires-authorization",
-   "mechanicalTier": false,
-   "independentReviewRequired": false,
-   "maxBatch": 1,
-   "optionalAuthorizations": [
-    "allowStructure"
-   ],
-   "jsonScope": {
-    "mutable": [
-     "glossary[*].he",
-     "glossary[*].translit",
-     "glossary[*].en",
-     "sugyot[*].glossary[*].he",
-     "sugyot[*].glossary[*].translit",
-     "sugyot[*].glossary[*].en",
-     "sugyot[*].concepts[*].term",
-     "sugyot[*].concepts[*].he",
-     "sugyot[*].concepts[*].translit",
-     "sugyot[*].concepts[*].def"
-    ],
-    "flagMutable": {},
-    "structureFlag": "allowStructure"
-   },
-   "requiredValidators": [
-    "validate:offline:yoma"
-   ],
-   "generationCommands": [
-    "cd modules/yoma && python3 scripts/build_learning_data.py",
-    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
-   ],
-   "buildTestCommands": [
-    "npm run build",
-    "npm run check:deploy-html",
-    "npm test",
-    "npm run test:browser"
-   ],
-   "escalationTriggers": [
-    "any change outside the mutable path set would be needed"
-   ]
-  },
-  "quiz-edit": {
-   "description": "quizSeeds and misconceptions text edits. Must test real distinctions per CLAUDE.md; Sonnet only.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": true,
-   "paused": false,
-   "allowedFiles": [
-    "modules/<module>/assets/learning/<module>/<daf>.learning.json",
-    "modules/<module>/learning_data.js",
-    "modules/<module>/coverage.json",
-    "VERSION",
-    "package.json",
-    "package-lock.json",
-    "docs/rashi-audit-backlog.md",
-    "docs/<module>-perek-review.md",
-    ".worker-manifest.json"
-   ],
-   "forbiddenFiles": [
-    ".github/workflows/*",
-    "scripts/*",
-    "modules/yoma/scripts/*.py",
-    "githooks/*",
-    "modules/yoma/scripts/allowlists/*"
-   ],
-   "allowedJsonPaths": [
-    "sugyot[*].quizSeeds[*].question",
-    "sugyot[*].quizSeeds[*].answer",
-    "sugyot[*].quizSeeds[*].type",
-    "sugyot[*].misconceptions[*].misconception",
-    "sugyot[*].misconceptions[*].correction",
-    "sugyot[*].misconceptions[*].correctedByStepId"
-   ],
-   "allowlistPolicy": "forbidden",
-   "structurePolicy": "requires-authorization",
-   "mechanicalTier": false,
-   "independentReviewRequired": false,
-   "maxBatch": 1,
-   "optionalAuthorizations": [
-    "allowStructure"
-   ],
-   "jsonScope": {
-    "mutable": [
-     "sugyot[*].quizSeeds[*].question",
-     "sugyot[*].quizSeeds[*].answer",
-     "sugyot[*].quizSeeds[*].type",
-     "sugyot[*].misconceptions[*].misconception",
-     "sugyot[*].misconceptions[*].correction",
-     "sugyot[*].misconceptions[*].correctedByStepId"
-    ],
-    "flagMutable": {},
-    "structureFlag": "allowStructure"
-   },
-   "requiredValidators": [
-    "validate:offline:yoma"
-   ],
-   "generationCommands": [
-    "cd modules/yoma && python3 scripts/build_learning_data.py",
-    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
-   ],
-   "buildTestCommands": [
-    "npm run build",
-    "npm run check:deploy-html",
-    "npm test",
-    "npm run test:browser"
-   ],
-   "escalationTriggers": [
-    "any change outside the mutable path set would be needed"
-   ]
-  },
-  "summary-edit": {
-   "description": "Top-level daf summary copy edits.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": true,
-   "paused": false,
-   "allowedFiles": [
-    "modules/<module>/assets/learning/<module>/<daf>.learning.json",
-    "modules/<module>/learning_data.js",
-    "modules/<module>/coverage.json",
-    "VERSION",
-    "package.json",
-    "package-lock.json",
-    "docs/rashi-audit-backlog.md",
-    "docs/<module>-perek-review.md",
-    ".worker-manifest.json"
-   ],
-   "forbiddenFiles": [
-    ".github/workflows/*",
-    "scripts/*",
-    "modules/yoma/scripts/*.py",
-    "githooks/*",
-    "modules/yoma/scripts/allowlists/*"
-   ],
-   "allowedJsonPaths": [
-    "summary"
-   ],
-   "allowlistPolicy": "forbidden",
-   "structurePolicy": "requires-authorization",
-   "mechanicalTier": false,
-   "independentReviewRequired": false,
-   "maxBatch": 1,
-   "optionalAuthorizations": [
-    "allowStructure"
-   ],
-   "jsonScope": {
-    "mutable": [
-     "summary"
-    ],
-    "flagMutable": {},
-    "structureFlag": "allowStructure"
-   },
-   "requiredValidators": [
-    "validate:offline:yoma"
-   ],
-   "generationCommands": [
-    "cd modules/yoma && python3 scripts/build_learning_data.py",
-    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
-   ],
-   "buildTestCommands": [
-    "npm run build",
-    "npm run check:deploy-html",
-    "npm test",
-    "npm run test:browser"
-   ],
-   "escalationTriggers": [
-    "any change outside the mutable path set would be needed"
-   ]
-  },
-  "structural-repair": {
-   "description": "Structural repairs: argumentFlow steps/ids/labels/sourceRefs, lineRange, lines, sefariaRefs, conceptRefs, ids, sugya add/remove. Always requires --authorize allowStructure; Sonnet only.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": true,
-   "paused": false,
-   "allowedFiles": [
-    "modules/<module>/assets/learning/<module>/<daf>.learning.json",
-    "modules/<module>/learning_data.js",
-    "modules/<module>/coverage.json",
-    "VERSION",
-    "package.json",
-    "package-lock.json",
-    "docs/rashi-audit-backlog.md",
-    "docs/<module>-perek-review.md",
-    ".worker-manifest.json"
-   ],
-   "forbiddenFiles": [
-    ".github/workflows/*",
-    "scripts/*",
-    "modules/yoma/scripts/*.py",
-    "githooks/*",
-    "modules/yoma/scripts/allowlists/*"
-   ],
-   "allowedJsonPaths": [
-    "sugyot[*].argumentFlow[*]",
-    "sugyot[*].lineRange",
-    "sugyot[*].lines[*]",
-    "sugyot[*].sefariaRefs[*]",
-    "sugyot[*].conceptRefs[*]",
-    "sugyot[*].id",
-    "sugyot[*].sugyaNumber",
-    "sugyot[*].sourceLinks",
-    "sugyot[*].relatedSugyot[*]",
-    "sugyot[*].requiresUnderstanding[*]",
-    "sugyot[*].topicTags[*]",
-    "sugyot[*].visualizableElements[*]",
-    "sugyot[*].difficulty",
-    "sugyot[*].finalRuling",
-    "sugyot[*].quizSeeds[*].sourceRefs[*]",
-    "canonicalRef"
-   ],
-   "allowlistPolicy": "forbidden",
-   "structurePolicy": "requires-authorization",
-   "mechanicalTier": false,
-   "independentReviewRequired": false,
-   "maxBatch": 1,
-   "optionalAuthorizations": [
-    "allowStructure"
-   ],
-   "jsonScope": {
-    "mutable": [
-     "sugyot[*].argumentFlow[*]",
-     "sugyot[*].lineRange",
-     "sugyot[*].lines[*]",
-     "sugyot[*].sefariaRefs[*]",
-     "sugyot[*].conceptRefs[*]",
-     "sugyot[*].id",
-     "sugyot[*].sugyaNumber",
-     "sugyot[*].sourceLinks",
-     "sugyot[*].relatedSugyot[*]",
-     "sugyot[*].requiresUnderstanding[*]",
-     "sugyot[*].topicTags[*]",
-     "sugyot[*].visualizableElements[*]",
-     "sugyot[*].difficulty",
-     "sugyot[*].finalRuling",
-     "sugyot[*].quizSeeds[*].sourceRefs[*]",
-     "canonicalRef"
-    ],
-    "flagMutable": {},
-    "structureFlag": "allowStructure"
-   },
-   "requiredValidators": [
-    "validate:offline:yoma"
-   ],
-   "generationCommands": [
-    "cd modules/yoma && python3 scripts/build_learning_data.py",
-    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
-   ],
-   "buildTestCommands": [
-    "npm run build",
-    "npm run check:deploy-html",
-    "npm test",
-    "npm run test:browser"
-   ],
-   "escalationTriggers": [
-    "any ambiguity about the correct structure (verify against source_store and talmuddev first)",
-    "any change outside the mutable path set would be needed"
-   ]
-  },
-  "metadata-review-status": {
-   "description": "Review-status stamp updates (top-level review block and sugyot[*].review) after an audited pass.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": true,
-   "paused": false,
-   "allowedFiles": [
-    "modules/<module>/assets/learning/<module>/<daf>.learning.json",
-    "modules/<module>/learning_data.js",
-    "modules/<module>/coverage.json",
-    "VERSION",
-    "package.json",
-    "package-lock.json",
-    "docs/rashi-audit-backlog.md",
-    "docs/<module>-perek-review.md",
-    ".worker-manifest.json"
-   ],
-   "forbiddenFiles": [
-    ".github/workflows/*",
-    "scripts/*",
-    "modules/yoma/scripts/*.py",
-    "githooks/*",
-    "modules/yoma/scripts/allowlists/*"
-   ],
-   "allowedJsonPaths": [
-    "review",
-    "review.argumentFlow",
-    "review.concepts",
-    "review.content",
-    "review.learning",
-    "review.sourceRefs",
-    "review.status",
-    "review.version",
-    "sugyot[*].review",
-    "sugyot[*].review.argumentFlow",
-    "sugyot[*].review.concepts",
-    "sugyot[*].review.content",
-    "sugyot[*].review.learning",
-    "sugyot[*].review.sourceRefs"
-   ],
-   "allowlistPolicy": "forbidden",
-   "structurePolicy": "requires-authorization",
-   "mechanicalTier": false,
-   "independentReviewRequired": false,
-   "maxBatch": 1,
-   "optionalAuthorizations": [
-    "allowStructure"
-   ],
-   "jsonScope": {
-    "mutable": [
-     "review",
-     "review.argumentFlow",
-     "review.concepts",
-     "review.content",
-     "review.learning",
-     "review.sourceRefs",
-     "review.status",
-     "review.version",
-     "sugyot[*].review",
-     "sugyot[*].review.argumentFlow",
-     "sugyot[*].review.concepts",
-     "sugyot[*].review.content",
-     "sugyot[*].review.learning",
-     "sugyot[*].review.sourceRefs"
-    ],
-    "flagMutable": {},
-    "structureFlag": "allowStructure"
-   },
-   "requiredValidators": [
-    "validate:offline:yoma"
-   ],
-   "generationCommands": [
-    "cd modules/yoma && python3 scripts/build_learning_data.py",
-    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
-   ],
-   "buildTestCommands": [
-    "npm run build",
-    "npm run check:deploy-html",
-    "npm test",
-    "npm run test:browser"
-   ],
-   "escalationTriggers": [
-    "any change outside the mutable path set would be needed"
-   ]
-  },
-  "rashi-structural-repair": {
-   "description": "Structural repair of a daf's rashiTranslations layer: baselined entry-count mismatches, phantom entries with no raw-line anchor, or missing entries (documented backlog: 8a, 9a). Restores exact 1:1 correspondence with the authoritative talmuddev raw lines: after the pass, entry count and vilnaLine sequence must match the source exactly, every helper must render its own raw line, and every link must be semantic. The ONLY task type permitted to change rashiTranslations structure, and only with the explicit allowStructure authorization on the manifest. Sonnet only, and only on a manifest carrying allowStructure; no ordinary manifest can ever authorize structural or count changes.",
-   "model": "sonnet",
-   "escalationModel": "sonnet",
-   "lifecycle": "pr",
-   "requiresTarget": true,
-   "paused": false,
-   "reviewPolicy": "conditional",
-   "optionalAuthorizations": [
-    "allowStructure"
-   ],
-   "requiredAuthorizations": [
-    "allowStructure"
-   ],
-   "allowedFiles": [
-    "modules/<module>/assets/learning/<module>/<daf>.learning.json",
-    "modules/<module>/learning_data.js",
-    "modules/<module>/coverage.json",
-    "VERSION",
-    "package.json",
-    "package-lock.json",
-    "docs/rashi-audit-backlog.md",
-    "modules/<module>/scripts/allowlists/*",
-    "modules/<module>/scripts/baselines/*",
-    ".worker-manifest.json",
-    ".worker-self-review.json",
-    ".worker-queue.json"
-   ],
-   "allowedJsonPaths": [
-    "rashiTranslations"
-   ],
-   "forbiddenFiles": [
-    ".github/workflows/*",
-    "scripts/*",
-    "modules/yoma/scripts/*.py",
-    "githooks/*"
-   ],
-   "allowlistPolicy": "remove-only",
-   "structurePolicy": "explicit-allowStructure-required",
-   "mechanicalTier": false,
-   "rashiPreflightTask": "repair",
-   "requiredValidators": [
-    "validate:offline:yoma",
-    "check:rashi-pr-scope:yoma"
-   ],
-   "generationCommands": [
-    "cd modules/yoma && python3 scripts/build_learning_data.py",
-    "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
-   ],
-   "buildTestCommands": [
-    "npm run build",
-    "npm run check:deploy-html",
-    "npm test",
-    "npm run test:browser"
-   ],
-   "escalationTriggers": [
-    "authoritative line ownership is ambiguous across a daf boundary",
-    "source files disagree materially",
-    "uncertain Hebrew meaning or placement",
-    "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
-    "required packet id missing, or packet segment text truncated or incomplete",
-    "the repair would require changing more than one daf in the same PR",
-    "allowlist growth would be needed",
-    "validator or workflow modification would be needed",
-    "semantic uncertainty remains after rereading the raw Hebrew and full segment text",
-    "post-edit drift profile not line-level-safe (ALIGNED or INSUFFICIENT-ANCHORS)",
-    "a semantic audit shift candidate remains on the target daf",
-    "the fresh post-edit self-review finds a blocker",
-    "CI or full verification fails after one bounded correction attempt",
-    "fields outside the manifest would be needed"
-   ],
-   "maxBatch": 1
+    "rashi-boundary-translation-repair": {
+      "description": "Extremely narrow follow-up to rashi-translation-review: repair the English of exactly ONE existing boundary-authorized Rashi entry (a rashiTranslations entry with empty linkedGemaraLineIds whose translation defect was already confirmed by a Step 6 batch review but whose application was blocked by the boundary-authorization allowlist ratchet, since fixing it requires refreshing that one authorization's derived enFingerprint - the ratchet's plain set diff cannot otherwise tell a legitimate identity-preserving fingerprint refresh from an unauthorized new entry). This type exists solely so modules/<module>/scripts/boundary_fingerprint_ratchet.py's identity-aware fingerprint-refresh exception can apply. It authorizes exactly: one Rashi entry's English, that entry's own boundary-authorization record's enFingerprint (independently recomputed by the gate from the actual corpus text at both revisions, never trusted from the manifest, the registry file's head-revision content, or the review record), the deterministic generated outputs, that entry's own review record, the batch's resolution addendum, and translation-inventory/batch-progress synchronization. It does NOT authorize: Hebrew changes; entry-id, daf, or Vilna-line changes; linkedGemaraLineIds changes; new boundary authorizations; deletion of unrelated authorizations; rationale or evidence-field changes; a second Rashi entry anywhere in the corpus; Gemara or Mishnah changes; argumentFlow; sourceRefs; literal translations; renderer changes; arbitrary documentation; or workflow changes. Requires the manifest to declare entryId, registryIdentity ({daf, vilnaLine} - the registry's own existing identity, since it has no explicit id field), baseEnFingerprint, expectedNewEnFingerprint (derived from the proposed English), and reviewRecordPath (pointing at the review record whose secondPass.status is CONFIRMED for that exact entryId) - all cross-checked against independently recomputed values by the gate, so the manifest can declare but never override what the gate actually verifies.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": true,
+      "paused": false,
+      "maxBatch": 1,
+      "allowedFiles": [
+        "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "modules/<module>/scripts/allowlists/rashi_boundary_authorizations.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        "docs/rashi-audit-backlog.md",
+        "docs/reports/data/rashi-translation-quality-inventory.json",
+        "docs/reports/data/rashi-step6-batch-*-review-records.json",
+        "docs/reports/rashi-step6-batch-*-report.md",
+        ".worker-manifest.json"
+      ],
+      "allowedJsonPaths": [
+        "rashiTranslations[*].en"
+      ],
+      "forbiddenFiles": [
+        ".github/workflows/*",
+        "scripts/*",
+        "modules/yoma/scripts/*.py",
+        "githooks/*"
+      ],
+      "allowlistPolicy": "boundary-fingerprint-refresh",
+      "structurePolicy": "forbidden",
+      "mechanicalTier": false,
+      "requiredAuthorizations": [],
+      "optionalAuthorizations": [],
+      "requiredValidators": [
+        "validate:offline:yoma",
+        "check:rashi-pr-scope:yoma",
+        "validate:rashi:boundary:yoma"
+      ],
+      "generationCommands": [
+        "cd modules/yoma && python3 scripts/build_learning_data.py",
+        "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm run check:deploy-html",
+        "npm test",
+        "npm run test:browser"
+      ],
+      "escalationTriggers": [
+        "the second independent semantic pass does not return CONFIRMED",
+        "any registry field other than enFingerprint would need to change",
+        "a second Rashi entry anywhere in the corpus would need to change",
+        "Hebrew source appears defective",
+        "any gate failure not fixable by correcting the one authorized entry's own English"
+      ],
+      "independentReviewRequired": false,
+      "driftBlocked": false
+    },
+    "rashi-repair": {
+      "description": "Repair documented Rashi helper defects (stubs, filler, placeholder lines) on daf with existing allowlist/baseline hits.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": true,
+      "paused": false,
+      "allowedFiles": [
+        "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        "docs/rashi-audit-backlog.md",
+        "modules/<module>/scripts/allowlists/*",
+        "modules/<module>/scripts/baselines/*",
+        ".worker-manifest.json"
+      ],
+      "allowedJsonPaths": [
+        "rashiTranslations[*].en",
+        "rashiTranslations[*].linkedGemaraLineIds"
+      ],
+      "forbiddenFiles": [
+        ".github/workflows/*",
+        "scripts/*",
+        "modules/yoma/scripts/*.py",
+        "githooks/*"
+      ],
+      "allowlistPolicy": "remove-only",
+      "structurePolicy": "forbidden",
+      "mechanicalTier": true,
+      "rashiPreflightTask": "repair",
+      "requiredValidators": [
+        "validate:offline:yoma",
+        "check:rashi-pr-scope:yoma"
+      ],
+      "generationCommands": [
+        "cd modules/yoma && python3 scripts/build_learning_data.py",
+        "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm run check:deploy-html",
+        "npm test",
+        "npm run test:browser"
+      ],
+      "escalationTriggers": [
+        "uncertain Hebrew meaning or placement",
+        "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
+        "target daf classified SHIFTED or FABRICATION-SUSPECT by the drift profile (preflight blocks this; never work around it)",
+        "count mismatch not already baselined",
+        "new semantic audit shift candidate beyond offset +-1",
+        "any gate failure not fixable by correcting your own content"
+      ],
+      "independentReviewRequired": false,
+      "driftBlocked": true,
+      "optionalAuthorizations": [
+        "authorizeDriftOverride"
+      ]
+    },
+    "rashi-reconstruction": {
+      "description": "Full line-by-line Rashi helper reconstruction for a daf with no unresolved content-allowlist hits, unless a matching allowlistDrain snapshot authorizes proceeding on pre-existing target-scoped debt. Pre-existing repetition-baseline debt for the target daf is similarly auto-snapshotted (repetitionDrain) and may be drained by the reconstruction itself when the daf's drift profile already recommends reconstruction; count mismatches have no such path and always block.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": true,
+      "paused": false,
+      "allowedFiles": [
+        "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        "docs/rashi-audit-backlog.md",
+        "modules/<module>/scripts/allowlists/*",
+        "modules/<module>/scripts/baselines/*",
+        ".worker-manifest.json",
+        ".worker-self-review.json",
+        ".worker-queue.json"
+      ],
+      "allowedJsonPaths": [
+        "rashiTranslations[*].en",
+        "rashiTranslations[*].linkedGemaraLineIds"
+      ],
+      "forbiddenFiles": [
+        ".github/workflows/*",
+        "scripts/*",
+        "modules/yoma/scripts/*.py",
+        "githooks/*"
+      ],
+      "allowlistPolicy": "remove-only",
+      "structurePolicy": "forbidden",
+      "mechanicalTier": false,
+      "rashiPreflightTask": "reconstruct",
+      "requiredValidators": [
+        "validate:offline:yoma",
+        "check:rashi-pr-scope:yoma"
+      ],
+      "generationCommands": [
+        "cd modules/yoma && python3 scripts/build_learning_data.py",
+        "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm run check:deploy-html",
+        "npm test",
+        "npm run test:browser"
+      ],
+      "escalationTriggers": [
+        "uncertain Hebrew meaning or placement",
+        "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
+        "any gate failure not fixable by correcting your own content",
+        "required packet id missing, or packet segment text truncated or incomplete",
+        "structure or count mismatch not already baselined (count mismatches have no drain path of any kind and always block)",
+        "repetitionDrain snapshot does not match the target's live repetition-baseline state, or the drift profile no longer recommends reconstruction (repetition-drain is only valid when reconstruction is already the drift-approved remedy)",
+        "allowlist growth would be needed",
+        "validator or workflow modification would be needed",
+        "semantic uncertainty remains after rereading the raw Hebrew and full segment text",
+        "post-edit drift profile not ALIGNED",
+        "a semantic audit shift candidate remains on the target daf",
+        "a link that cannot be justified from local segment text",
+        "the fresh post-edit self-review finds a blocker",
+        "CI or full verification fails after one bounded correction attempt",
+        "fields outside the manifest would be needed",
+        "more than one daf would change in the same content PR"
+      ],
+      "reviewPolicy": "conditional",
+      "maxBatch": 1
+    },
+    "rashi-realignment": {
+      "description": "Full-daf realignment for shifted-compressed Rashi helper daf (documented: 67b, 68a, 68b, 70a, 71b, 41a): redistribute the existing genuine translations onto their correct vilna lines and translate only the genuinely uncovered remainder. Never a stub repair. Sonnet worker under a generated manifest.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": true,
+      "paused": false,
+      "allowedFiles": [
+        "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        "docs/rashi-audit-backlog.md",
+        "modules/<module>/scripts/allowlists/*",
+        "modules/<module>/scripts/baselines/*",
+        ".worker-manifest.json",
+        ".worker-self-review.json",
+        ".worker-queue.json"
+      ],
+      "allowedJsonPaths": [
+        "rashiTranslations[*].en",
+        "rashiTranslations[*].linkedGemaraLineIds"
+      ],
+      "forbiddenFiles": [
+        ".github/workflows/*",
+        "scripts/*",
+        "modules/yoma/scripts/*.py",
+        "githooks/*"
+      ],
+      "allowlistPolicy": "remove-only",
+      "structurePolicy": "forbidden",
+      "mechanicalTier": false,
+      "rashiPreflightTask": "shifted-block",
+      "requiredValidators": [
+        "validate:offline:yoma",
+        "check:rashi-pr-scope:yoma"
+      ],
+      "generationCommands": [
+        "cd modules/yoma && python3 scripts/build_learning_data.py",
+        "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm run check:deploy-html",
+        "npm test",
+        "npm run test:browser"
+      ],
+      "escalationTriggers": [
+        "uncertain Hebrew meaning or placement",
+        "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
+        "any gate failure not fixable by correcting your own content",
+        "required packet id missing, or packet segment text truncated or incomplete",
+        "structure or count mismatch not already baselined (count mismatches have no drain path of any kind and always block)",
+        "repetitionDrain snapshot does not match the target's live repetition-baseline state, or the drift profile no longer recommends reconstruction (repetition-drain is only valid when reconstruction is already the drift-approved remedy)",
+        "allowlist growth would be needed",
+        "validator or workflow modification would be needed",
+        "semantic uncertainty remains after rereading the raw Hebrew and full segment text",
+        "post-edit drift profile not ALIGNED",
+        "a semantic audit shift candidate remains on the target daf",
+        "a link that cannot be justified from local segment text",
+        "the fresh post-edit self-review finds a blocker",
+        "CI or full verification fails after one bounded correction attempt",
+        "fields outside the manifest would be needed",
+        "more than one daf would change in the same content PR"
+      ],
+      "maxBatch": 1,
+      "reviewPolicy": "conditional"
+    },
+    "placeholder-backfill": {
+      "description": "Replace a documented filler/placeholder block (e.g. 77a-88a) with genuine helpers. Same contract as rashi-repair; targets must have documented allowlist hits.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": true,
+      "paused": false,
+      "allowedFiles": [
+        "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        "docs/rashi-audit-backlog.md",
+        "modules/<module>/scripts/allowlists/*",
+        "modules/<module>/scripts/baselines/*",
+        ".worker-manifest.json"
+      ],
+      "allowedJsonPaths": [
+        "rashiTranslations[*].en",
+        "rashiTranslations[*].linkedGemaraLineIds"
+      ],
+      "forbiddenFiles": [
+        ".github/workflows/*",
+        "scripts/*",
+        "modules/yoma/scripts/*.py",
+        "githooks/*"
+      ],
+      "allowlistPolicy": "remove-only",
+      "structurePolicy": "forbidden",
+      "mechanicalTier": true,
+      "rashiPreflightTask": "repair",
+      "requiredValidators": [
+        "validate:offline:yoma",
+        "check:rashi-pr-scope:yoma"
+      ],
+      "generationCommands": [
+        "cd modules/yoma && python3 scripts/build_learning_data.py",
+        "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm run check:deploy-html",
+        "npm test",
+        "npm run test:browser"
+      ],
+      "escalationTriggers": [
+        "uncertain Hebrew meaning or placement",
+        "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
+        "any gate failure not fixable by correcting your own content"
+      ],
+      "maxBatch": 2,
+      "allowlistMustShrinkOrExplain": true,
+      "independentReviewRequired": true,
+      "driftBlocked": true,
+      "optionalAuthorizations": [
+        "authorizeDriftOverride"
+      ]
+    },
+    "gemara-learning": {
+      "description": "Edits to sugya display/learning enrichment fields (argumentFlow, quizSeeds, misconceptions, takeaway). Semantic content work: Sonnet, with an independent Sonnet review before merge.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": true,
+      "paused": false,
+      "allowedFiles": [
+        "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        "docs/rashi-audit-backlog.md",
+        "docs/<module>-perek-review.md",
+        ".worker-manifest.json"
+      ],
+      "allowedJsonPaths": [
+        "sugyot[*].display.whats",
+        "sugyot[*].display.hint",
+        "sugyot[*].display.title",
+        "sugyot[*].learning.ahaMoment",
+        "sugyot[*].learning.memoryAnchor",
+        "sugyot[*].learning.learnerQuestion",
+        "sugyot[*].learning.coreTension",
+        "sugyot[*].learning.coreMove",
+        "sugyot[*].learning.takeaway.text",
+        "sugyot[*].learning.learningBlocker"
+      ],
+      "forbiddenFiles": [
+        ".github/workflows/*",
+        "scripts/*",
+        "modules/yoma/scripts/*.py",
+        "githooks/*",
+        "modules/yoma/scripts/allowlists/*"
+      ],
+      "forbiddenJsonPaths": [
+        "rashiTranslations (any)",
+        "*.he (any)",
+        "sugyot[*].id",
+        "sugyot[*].lineRange",
+        "sugyot[*].argumentFlow",
+        "sugyot[*].learning.takeaway.type",
+        "glossary (unless authorizeGlossary)",
+        "quizSeeds (unless authorizeQuizSeeds)"
+      ],
+      "allowlistPolicy": "forbidden",
+      "structurePolicy": "requires-authorization",
+      "mechanicalTier": false,
+      "requiredValidators": [
+        "validate:offline:yoma"
+      ],
+      "generationCommands": [
+        "cd modules/yoma && python3 scripts/build_learning_data.py",
+        "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm run check:deploy-html",
+        "npm test",
+        "npm run test:browser"
+      ],
+      "escalationTriggers": [
+        "any change to source he/en fields would be needed",
+        "sugya boundary or id changes would be needed",
+        "schema fields not in shared/schema_map.js would be needed"
+      ],
+      "optionalAuthorizations": [
+        "authorizeGlossary",
+        "authorizeQuizSeeds",
+        "authorizeTakeawayType",
+        "allowStructure"
+      ],
+      "fieldEnforcement": "strict-json-diff",
+      "independentReviewRequired": true,
+      "jsonScope": {
+        "mutable": [
+          "sugyot[*].display.whats",
+          "sugyot[*].display.hint",
+          "sugyot[*].display.title",
+          "sugyot[*].learning.ahaMoment",
+          "sugyot[*].learning.memoryAnchor",
+          "sugyot[*].learning.learnerQuestion",
+          "sugyot[*].learning.coreTension",
+          "sugyot[*].learning.coreMove",
+          "sugyot[*].learning.learningBlocker",
+          "sugyot[*].learning.takeaway.text"
+        ],
+        "flagMutable": {
+          "authorizeGlossary": [
+            "glossary[*]",
+            "sugyot[*].glossary[*]"
+          ],
+          "authorizeQuizSeeds": [
+            "sugyot[*].quizSeeds[*]"
+          ],
+          "authorizeTakeawayType": [
+            "sugyot[*].learning.takeaway.type"
+          ]
+        },
+        "structureFlag": "allowStructure"
+      }
+    },
+    "literal-layer": {
+      "description": "en_lit literal-translation fetch/injection work (assets/literal_en + regeneration). Mechanical once fetch output is verified.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": true,
+      "paused": false,
+      "allowedFiles": [
+        "modules/<module>/assets/literal_en/*",
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        ".worker-manifest.json"
+      ],
+      "allowedJsonPaths": [
+        "<literal_en per-daf JSON>"
+      ],
+      "forbiddenFiles": [
+        ".github/workflows/*",
+        "scripts/*",
+        "modules/yoma/scripts/*.py",
+        "githooks/*",
+        "modules/yoma/assets/learning/*",
+        "modules/yoma/scripts/allowlists/*"
+      ],
+      "allowlistPolicy": "forbidden",
+      "structurePolicy": "forbidden",
+      "mechanicalTier": true,
+      "requiredValidators": [
+        "validate:literal:yoma",
+        "validate:offline:yoma"
+      ],
+      "generationCommands": [
+        "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm test"
+      ],
+      "escalationTriggers": [
+        "Sefaria fetch returns unexpected structure",
+        "coverage would drop below the 95% gate"
+      ],
+      "coverageDeltaReport": true
+    },
+    "nekudot": {
+      "description": "Nekudot/vowelization correctness work on Rashi he fields. PAUSED: not yet authorized; requires its own validator design first. Sonnet only when unpaused.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": true,
+      "paused": true,
+      "allowedFiles": [],
+      "allowedJsonPaths": [],
+      "forbiddenFiles": [
+        "*"
+      ],
+      "allowlistPolicy": "forbidden",
+      "structurePolicy": "forbidden",
+      "mechanicalTier": false,
+      "requiredValidators": [
+        "validate:offline:yoma"
+      ],
+      "generationCommands": [],
+      "buildTestCommands": [],
+      "escalationTriggers": [
+        "task type is paused; any nekudot work requires explicit unpausing and new tooling"
+      ]
+    },
+    "docs-tooling": {
+      "description": "Docs, scripts, CI, hooks, and pipeline changes. No module data. Sonnet only for validator/pipeline logic.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": false,
+      "paused": false,
+      "allowedFiles": [
+        "docs/*",
+        "scripts/*",
+        "shared/*",
+        "modules/*/module.json",
+        "modules/<module>/scripts/*.py",
+        "modules/<module>/scripts/allowlists/*",
+        "modules/<module>/MODULE.md",
+        ".github/workflows/*",
+        "githooks/*",
+        "package.json",
+        "package-lock.json",
+        "VERSION",
+        "README.md",
+        "CLAUDE.md",
+        "SOURCES.md",
+        "tests/*",
+        ".gitignore",
+        ".worker-manifest.json",
+        ".worker-queue.json"
+      ],
+      "allowedJsonPaths": [],
+      "forbiddenFiles": [
+        "modules/yoma/assets/learning/*",
+        "modules/yoma/assets/talmuddev/*",
+        "modules/yoma/assets/daftexts/*",
+        "modules/yoma/source_store.js"
+      ],
+      "allowlistPolicy": "restructure-with-env",
+      "structurePolicy": "not-applicable",
+      "mechanicalTier": false,
+      "requiredValidators": [
+        "validate:offline:yoma"
+      ],
+      "generationCommands": [],
+      "buildTestCommands": [
+        "npm run build",
+        "npm run check:deploy-html",
+        "npm test",
+        "npm run test:browser"
+      ],
+      "escalationTriggers": [
+        "any existing gate would be weakened",
+        "workflow permission changes would be needed"
+      ]
+    },
+    "generated-refresh": {
+      "description": "Regenerate learning_data.js/coverage.json from unchanged sources (e.g. after a generator fix merged separately). No source edits.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": false,
+      "paused": false,
+      "allowedFiles": [
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        ".worker-manifest.json"
+      ],
+      "allowedJsonPaths": [],
+      "forbiddenFiles": [
+        "modules/yoma/assets/*",
+        "scripts/*",
+        "modules/yoma/scripts/*",
+        ".github/workflows/*",
+        "githooks/*",
+        "docs/*"
+      ],
+      "allowlistPolicy": "forbidden",
+      "structurePolicy": "forbidden",
+      "mechanicalTier": true,
+      "requiredValidators": [
+        "validate:offline:yoma"
+      ],
+      "generationCommands": [
+        "cd modules/yoma && python3 scripts/build_learning_data.py",
+        "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm test"
+      ],
+      "escalationTriggers": [
+        "regeneration output differs in unexpected sections"
+      ],
+      "sourcesMustBeUnchanged": true
+    },
+    "deployment-verify": {
+      "description": "Verify main deploy workflows and live site after a merge. Read-only: no file changes permitted at all.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "read-only",
+      "requiresTarget": false,
+      "paused": false,
+      "allowedFiles": [],
+      "allowedJsonPaths": [],
+      "forbiddenFiles": [
+        "*"
+      ],
+      "allowlistPolicy": "forbidden",
+      "structurePolicy": "forbidden",
+      "mechanicalTier": true,
+      "requiredValidators": [],
+      "generationCommands": [],
+      "buildTestCommands": [],
+      "escalationTriggers": [
+        "a deploy workflow concludes failure",
+        "live VERSION does not match main after the pages-lag window"
+      ]
+    },
+    "audit-only": {
+      "description": "Read-only audits: corpus scans, semantic audit reports, validator dry runs, backlog reconciliation. May write ONLY report artifacts under docs/reports/ and process notes in docs/rashi-audit-backlog.md. No content, no generated data. Carries its own VERSION bump for the report artifact it writes.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": false,
+      "paused": false,
+      "allowedFiles": [
+        "docs/reports/*",
+        "docs/rashi-audit-backlog.md",
+        ".worker-manifest.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json"
+      ],
+      "allowedJsonPaths": [],
+      "forbiddenFiles": [
+        "modules/*",
+        "scripts/*",
+        ".github/workflows/*",
+        "githooks/*"
+      ],
+      "allowlistPolicy": "forbidden",
+      "structurePolicy": "forbidden",
+      "mechanicalTier": true,
+      "independentReviewRequired": false,
+      "requiredValidators": [
+        "validate:offline:yoma"
+      ],
+      "generationCommands": [],
+      "buildTestCommands": [],
+      "escalationTriggers": [
+        "any finding that suggests content on main is wrong (report it; do not fix it)"
+      ]
+    },
+    "display-only-edit": {
+      "description": "Copy edits to sugya display fields only (whats, hint, title, oneLine, shortSummary). The mechanical-tier entry point for enrichment copy work.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": true,
+      "paused": false,
+      "allowedFiles": [
+        "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        "docs/rashi-audit-backlog.md",
+        "docs/<module>-perek-review.md",
+        ".worker-manifest.json"
+      ],
+      "forbiddenFiles": [
+        ".github/workflows/*",
+        "scripts/*",
+        "modules/yoma/scripts/*.py",
+        "githooks/*",
+        "modules/yoma/scripts/allowlists/*"
+      ],
+      "allowedJsonPaths": [
+        "sugyot[*].display.whats",
+        "sugyot[*].display.hint",
+        "sugyot[*].display.title",
+        "sugyot[*].display.oneLine",
+        "sugyot[*].display.shortSummary"
+      ],
+      "allowlistPolicy": "forbidden",
+      "structurePolicy": "requires-authorization",
+      "mechanicalTier": true,
+      "independentReviewRequired": true,
+      "maxBatch": 2,
+      "optionalAuthorizations": [
+        "allowStructure"
+      ],
+      "jsonScope": {
+        "mutable": [
+          "sugyot[*].display.whats",
+          "sugyot[*].display.hint",
+          "sugyot[*].display.title",
+          "sugyot[*].display.oneLine",
+          "sugyot[*].display.shortSummary"
+        ],
+        "flagMutable": {},
+        "structureFlag": "allowStructure"
+      },
+      "requiredValidators": [
+        "validate:offline:yoma"
+      ],
+      "generationCommands": [
+        "cd modules/yoma && python3 scripts/build_learning_data.py",
+        "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm run check:deploy-html",
+        "npm test",
+        "npm run test:browser"
+      ],
+      "escalationTriggers": [
+        "uncertainty about what the sugya actually says (do not re-derive content)",
+        "any change outside the mutable path set would be needed"
+      ]
+    },
+    "learning-copy-edit": {
+      "description": "Edits to learning narrative fields (ahaMoment, memoryAnchor, learnerQuestion, coreTension, coreMove, learningBlocker, resolution, takeaway.text). Subject to CLAUDE.md enrichment quality standards: Sonnet only.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": true,
+      "paused": false,
+      "allowedFiles": [
+        "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        "docs/rashi-audit-backlog.md",
+        "docs/<module>-perek-review.md",
+        ".worker-manifest.json"
+      ],
+      "forbiddenFiles": [
+        ".github/workflows/*",
+        "scripts/*",
+        "modules/yoma/scripts/*.py",
+        "githooks/*",
+        "modules/yoma/scripts/allowlists/*"
+      ],
+      "allowedJsonPaths": [
+        "sugyot[*].learning.ahaMoment",
+        "sugyot[*].learning.coreMove",
+        "sugyot[*].learning.coreTension",
+        "sugyot[*].learning.learnerQuestion",
+        "sugyot[*].learning.learningBlocker",
+        "sugyot[*].learning.memoryAnchor",
+        "sugyot[*].learning.reasoningPattern.category",
+        "sugyot[*].learning.reasoningPattern.id",
+        "sugyot[*].learning.reasoningPattern.notes",
+        "sugyot[*].learning.resolution",
+        "sugyot[*].learning.takeaway.text"
+      ],
+      "allowlistPolicy": "forbidden",
+      "structurePolicy": "requires-authorization",
+      "mechanicalTier": false,
+      "independentReviewRequired": false,
+      "maxBatch": 1,
+      "optionalAuthorizations": [
+        "allowStructure",
+        "authorizeAlternateAngles",
+        "authorizeTakeawayType"
+      ],
+      "jsonScope": {
+        "mutable": [
+          "sugyot[*].learning.ahaMoment",
+          "sugyot[*].learning.coreMove",
+          "sugyot[*].learning.coreTension",
+          "sugyot[*].learning.learnerQuestion",
+          "sugyot[*].learning.learningBlocker",
+          "sugyot[*].learning.memoryAnchor",
+          "sugyot[*].learning.reasoningPattern.category",
+          "sugyot[*].learning.reasoningPattern.id",
+          "sugyot[*].learning.reasoningPattern.notes",
+          "sugyot[*].learning.resolution",
+          "sugyot[*].learning.takeaway.text"
+        ],
+        "flagMutable": {
+          "authorizeTakeawayType": [
+            "sugyot[*].learning.takeaway.type"
+          ],
+          "authorizeAlternateAngles": [
+            "sugyot[*].alternateAngles"
+          ]
+        },
+        "structureFlag": "allowStructure"
+      },
+      "requiredValidators": [
+        "validate:offline:yoma"
+      ],
+      "generationCommands": [
+        "cd modules/yoma && python3 scripts/build_learning_data.py",
+        "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm run check:deploy-html",
+        "npm test",
+        "npm run test:browser"
+      ],
+      "escalationTriggers": [
+        "any change outside the mutable path set would be needed"
+      ]
+    },
+    "glossary-edit": {
+      "description": "Glossary entry text edits (he/translit/en) at daf or sugya level. Entry add/remove is structure.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": true,
+      "paused": false,
+      "allowedFiles": [
+        "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        "docs/rashi-audit-backlog.md",
+        "docs/<module>-perek-review.md",
+        ".worker-manifest.json"
+      ],
+      "forbiddenFiles": [
+        ".github/workflows/*",
+        "scripts/*",
+        "modules/yoma/scripts/*.py",
+        "githooks/*",
+        "modules/yoma/scripts/allowlists/*"
+      ],
+      "allowedJsonPaths": [
+        "glossary[*].he",
+        "glossary[*].translit",
+        "glossary[*].en",
+        "sugyot[*].glossary[*].he",
+        "sugyot[*].glossary[*].translit",
+        "sugyot[*].glossary[*].en",
+        "sugyot[*].concepts[*].term",
+        "sugyot[*].concepts[*].he",
+        "sugyot[*].concepts[*].translit",
+        "sugyot[*].concepts[*].def"
+      ],
+      "allowlistPolicy": "forbidden",
+      "structurePolicy": "requires-authorization",
+      "mechanicalTier": false,
+      "independentReviewRequired": false,
+      "maxBatch": 1,
+      "optionalAuthorizations": [
+        "allowStructure"
+      ],
+      "jsonScope": {
+        "mutable": [
+          "glossary[*].he",
+          "glossary[*].translit",
+          "glossary[*].en",
+          "sugyot[*].glossary[*].he",
+          "sugyot[*].glossary[*].translit",
+          "sugyot[*].glossary[*].en",
+          "sugyot[*].concepts[*].term",
+          "sugyot[*].concepts[*].he",
+          "sugyot[*].concepts[*].translit",
+          "sugyot[*].concepts[*].def"
+        ],
+        "flagMutable": {},
+        "structureFlag": "allowStructure"
+      },
+      "requiredValidators": [
+        "validate:offline:yoma"
+      ],
+      "generationCommands": [
+        "cd modules/yoma && python3 scripts/build_learning_data.py",
+        "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm run check:deploy-html",
+        "npm test",
+        "npm run test:browser"
+      ],
+      "escalationTriggers": [
+        "any change outside the mutable path set would be needed"
+      ]
+    },
+    "quiz-edit": {
+      "description": "quizSeeds and misconceptions text edits. Must test real distinctions per CLAUDE.md; Sonnet only.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": true,
+      "paused": false,
+      "allowedFiles": [
+        "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        "docs/rashi-audit-backlog.md",
+        "docs/<module>-perek-review.md",
+        ".worker-manifest.json"
+      ],
+      "forbiddenFiles": [
+        ".github/workflows/*",
+        "scripts/*",
+        "modules/yoma/scripts/*.py",
+        "githooks/*",
+        "modules/yoma/scripts/allowlists/*"
+      ],
+      "allowedJsonPaths": [
+        "sugyot[*].quizSeeds[*].question",
+        "sugyot[*].quizSeeds[*].answer",
+        "sugyot[*].quizSeeds[*].type",
+        "sugyot[*].misconceptions[*].misconception",
+        "sugyot[*].misconceptions[*].correction",
+        "sugyot[*].misconceptions[*].correctedByStepId"
+      ],
+      "allowlistPolicy": "forbidden",
+      "structurePolicy": "requires-authorization",
+      "mechanicalTier": false,
+      "independentReviewRequired": false,
+      "maxBatch": 1,
+      "optionalAuthorizations": [
+        "allowStructure"
+      ],
+      "jsonScope": {
+        "mutable": [
+          "sugyot[*].quizSeeds[*].question",
+          "sugyot[*].quizSeeds[*].answer",
+          "sugyot[*].quizSeeds[*].type",
+          "sugyot[*].misconceptions[*].misconception",
+          "sugyot[*].misconceptions[*].correction",
+          "sugyot[*].misconceptions[*].correctedByStepId"
+        ],
+        "flagMutable": {},
+        "structureFlag": "allowStructure"
+      },
+      "requiredValidators": [
+        "validate:offline:yoma"
+      ],
+      "generationCommands": [
+        "cd modules/yoma && python3 scripts/build_learning_data.py",
+        "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm run check:deploy-html",
+        "npm test",
+        "npm run test:browser"
+      ],
+      "escalationTriggers": [
+        "any change outside the mutable path set would be needed"
+      ]
+    },
+    "summary-edit": {
+      "description": "Top-level daf summary copy edits.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": true,
+      "paused": false,
+      "allowedFiles": [
+        "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        "docs/rashi-audit-backlog.md",
+        "docs/<module>-perek-review.md",
+        ".worker-manifest.json"
+      ],
+      "forbiddenFiles": [
+        ".github/workflows/*",
+        "scripts/*",
+        "modules/yoma/scripts/*.py",
+        "githooks/*",
+        "modules/yoma/scripts/allowlists/*"
+      ],
+      "allowedJsonPaths": [
+        "summary"
+      ],
+      "allowlistPolicy": "forbidden",
+      "structurePolicy": "requires-authorization",
+      "mechanicalTier": false,
+      "independentReviewRequired": false,
+      "maxBatch": 1,
+      "optionalAuthorizations": [
+        "allowStructure"
+      ],
+      "jsonScope": {
+        "mutable": [
+          "summary"
+        ],
+        "flagMutable": {},
+        "structureFlag": "allowStructure"
+      },
+      "requiredValidators": [
+        "validate:offline:yoma"
+      ],
+      "generationCommands": [
+        "cd modules/yoma && python3 scripts/build_learning_data.py",
+        "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm run check:deploy-html",
+        "npm test",
+        "npm run test:browser"
+      ],
+      "escalationTriggers": [
+        "any change outside the mutable path set would be needed"
+      ]
+    },
+    "structural-repair": {
+      "description": "Structural repairs: argumentFlow steps/ids/labels/sourceRefs, lineRange, lines, sefariaRefs, conceptRefs, ids, sugya add/remove. Always requires --authorize allowStructure; Sonnet only.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": true,
+      "paused": false,
+      "allowedFiles": [
+        "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        "docs/rashi-audit-backlog.md",
+        "docs/<module>-perek-review.md",
+        ".worker-manifest.json"
+      ],
+      "forbiddenFiles": [
+        ".github/workflows/*",
+        "scripts/*",
+        "modules/yoma/scripts/*.py",
+        "githooks/*",
+        "modules/yoma/scripts/allowlists/*"
+      ],
+      "allowedJsonPaths": [
+        "sugyot[*].argumentFlow[*]",
+        "sugyot[*].lineRange",
+        "sugyot[*].lines[*]",
+        "sugyot[*].sefariaRefs[*]",
+        "sugyot[*].conceptRefs[*]",
+        "sugyot[*].id",
+        "sugyot[*].sugyaNumber",
+        "sugyot[*].sourceLinks",
+        "sugyot[*].relatedSugyot[*]",
+        "sugyot[*].requiresUnderstanding[*]",
+        "sugyot[*].topicTags[*]",
+        "sugyot[*].visualizableElements[*]",
+        "sugyot[*].difficulty",
+        "sugyot[*].finalRuling",
+        "sugyot[*].quizSeeds[*].sourceRefs[*]",
+        "canonicalRef"
+      ],
+      "allowlistPolicy": "forbidden",
+      "structurePolicy": "requires-authorization",
+      "mechanicalTier": false,
+      "independentReviewRequired": false,
+      "maxBatch": 1,
+      "optionalAuthorizations": [
+        "allowStructure"
+      ],
+      "jsonScope": {
+        "mutable": [
+          "sugyot[*].argumentFlow[*]",
+          "sugyot[*].lineRange",
+          "sugyot[*].lines[*]",
+          "sugyot[*].sefariaRefs[*]",
+          "sugyot[*].conceptRefs[*]",
+          "sugyot[*].id",
+          "sugyot[*].sugyaNumber",
+          "sugyot[*].sourceLinks",
+          "sugyot[*].relatedSugyot[*]",
+          "sugyot[*].requiresUnderstanding[*]",
+          "sugyot[*].topicTags[*]",
+          "sugyot[*].visualizableElements[*]",
+          "sugyot[*].difficulty",
+          "sugyot[*].finalRuling",
+          "sugyot[*].quizSeeds[*].sourceRefs[*]",
+          "canonicalRef"
+        ],
+        "flagMutable": {},
+        "structureFlag": "allowStructure"
+      },
+      "requiredValidators": [
+        "validate:offline:yoma"
+      ],
+      "generationCommands": [
+        "cd modules/yoma && python3 scripts/build_learning_data.py",
+        "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm run check:deploy-html",
+        "npm test",
+        "npm run test:browser"
+      ],
+      "escalationTriggers": [
+        "any ambiguity about the correct structure (verify against source_store and talmuddev first)",
+        "any change outside the mutable path set would be needed"
+      ]
+    },
+    "metadata-review-status": {
+      "description": "Review-status stamp updates (top-level review block and sugyot[*].review) after an audited pass.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": true,
+      "paused": false,
+      "allowedFiles": [
+        "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        "docs/rashi-audit-backlog.md",
+        "docs/<module>-perek-review.md",
+        ".worker-manifest.json"
+      ],
+      "forbiddenFiles": [
+        ".github/workflows/*",
+        "scripts/*",
+        "modules/yoma/scripts/*.py",
+        "githooks/*",
+        "modules/yoma/scripts/allowlists/*"
+      ],
+      "allowedJsonPaths": [
+        "review",
+        "review.argumentFlow",
+        "review.concepts",
+        "review.content",
+        "review.learning",
+        "review.sourceRefs",
+        "review.status",
+        "review.version",
+        "sugyot[*].review",
+        "sugyot[*].review.argumentFlow",
+        "sugyot[*].review.concepts",
+        "sugyot[*].review.content",
+        "sugyot[*].review.learning",
+        "sugyot[*].review.sourceRefs"
+      ],
+      "allowlistPolicy": "forbidden",
+      "structurePolicy": "requires-authorization",
+      "mechanicalTier": false,
+      "independentReviewRequired": false,
+      "maxBatch": 1,
+      "optionalAuthorizations": [
+        "allowStructure"
+      ],
+      "jsonScope": {
+        "mutable": [
+          "review",
+          "review.argumentFlow",
+          "review.concepts",
+          "review.content",
+          "review.learning",
+          "review.sourceRefs",
+          "review.status",
+          "review.version",
+          "sugyot[*].review",
+          "sugyot[*].review.argumentFlow",
+          "sugyot[*].review.concepts",
+          "sugyot[*].review.content",
+          "sugyot[*].review.learning",
+          "sugyot[*].review.sourceRefs"
+        ],
+        "flagMutable": {},
+        "structureFlag": "allowStructure"
+      },
+      "requiredValidators": [
+        "validate:offline:yoma"
+      ],
+      "generationCommands": [
+        "cd modules/yoma && python3 scripts/build_learning_data.py",
+        "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm run check:deploy-html",
+        "npm test",
+        "npm run test:browser"
+      ],
+      "escalationTriggers": [
+        "any change outside the mutable path set would be needed"
+      ]
+    },
+    "rashi-structural-repair": {
+      "description": "Structural repair of a daf's rashiTranslations layer: baselined entry-count mismatches, phantom entries with no raw-line anchor, or missing entries (documented backlog: 8a, 9a). Restores exact 1:1 correspondence with the authoritative talmuddev raw lines: after the pass, entry count and vilnaLine sequence must match the source exactly, every helper must render its own raw line, and every link must be semantic. The ONLY task type permitted to change rashiTranslations structure, and only with the explicit allowStructure authorization on the manifest. Sonnet only, and only on a manifest carrying allowStructure; no ordinary manifest can ever authorize structural or count changes.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": true,
+      "paused": false,
+      "reviewPolicy": "conditional",
+      "optionalAuthorizations": [
+        "allowStructure"
+      ],
+      "requiredAuthorizations": [
+        "allowStructure"
+      ],
+      "allowedFiles": [
+        "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        "docs/rashi-audit-backlog.md",
+        "modules/<module>/scripts/allowlists/*",
+        "modules/<module>/scripts/baselines/*",
+        ".worker-manifest.json",
+        ".worker-self-review.json",
+        ".worker-queue.json"
+      ],
+      "allowedJsonPaths": [
+        "rashiTranslations"
+      ],
+      "forbiddenFiles": [
+        ".github/workflows/*",
+        "scripts/*",
+        "modules/yoma/scripts/*.py",
+        "githooks/*"
+      ],
+      "allowlistPolicy": "remove-only",
+      "structurePolicy": "explicit-allowStructure-required",
+      "mechanicalTier": false,
+      "rashiPreflightTask": "repair",
+      "requiredValidators": [
+        "validate:offline:yoma",
+        "check:rashi-pr-scope:yoma"
+      ],
+      "generationCommands": [
+        "cd modules/yoma && python3 scripts/build_learning_data.py",
+        "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm run check:deploy-html",
+        "npm test",
+        "npm run test:browser"
+      ],
+      "escalationTriggers": [
+        "authoritative line ownership is ambiguous across a daf boundary",
+        "source files disagree materially",
+        "uncertain Hebrew meaning or placement",
+        "a Rashi comment whose correct target segment cannot be identified from the packet's segment text (never guess, never link positionally)",
+        "required packet id missing, or packet segment text truncated or incomplete",
+        "the repair would require changing more than one daf in the same PR",
+        "allowlist growth would be needed",
+        "validator or workflow modification would be needed",
+        "semantic uncertainty remains after rereading the raw Hebrew and full segment text",
+        "post-edit drift profile not line-level-safe (ALIGNED or INSUFFICIENT-ANCHORS)",
+        "a semantic audit shift candidate remains on the target daf",
+        "the fresh post-edit self-review finds a blocker",
+        "CI or full verification fails after one bounded correction attempt",
+        "fields outside the manifest would be needed"
+      ],
+      "maxBatch": 1
+    },
+    "legacy-concepts-purge": {
+      "description": "Delete the removed sugyot[*].concepts field and nothing else. Mechanical, delete-only: no text is edited and no other path may change. Authorized by a deterministic preflight inventory whose deleted-field count must match exactly.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": false,
+      "paused": false,
+      "mechanicalTier": true,
+      "allowedFiles": [
+        "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        "docs/rashi-audit-backlog.md",
+        "docs/<module>-perek-review.md",
+        ".worker-manifest.json"
+      ],
+      "forbiddenFiles": [
+        "modules/<module>/assets/talmuddev/*",
+        "modules/<module>/assets/daftexts/*",
+        "modules/<module>/source_store.js"
+      ],
+      "allowedJsonPaths": [
+        "sugyot[*].concepts"
+      ],
+      "jsonScope": {
+        "mutable": [],
+        "deleteOnly": [
+          "sugyot[*].concepts"
+        ],
+        "flagMutable": {},
+        "structureFlag": "allowStructure"
+      },
+      "forbiddenJsonPaths": [
+        "sugyot[*].display (any)",
+        "sugyot[*].learning (any)",
+        "sugyot[*].argumentFlow (any)",
+        "sugyot[*].lines (any)",
+        "sugyot[*].id",
+        "sugyot[*].lineRange",
+        "sugyot[*].conceptRefs (any)",
+        "rashiTranslations (any)",
+        "*.he (any)",
+        "*.en (any)"
+      ],
+      "requiredAuthorizations": [
+        "allowDeleteRemovedField"
+      ],
+      "optionalAuthorizations": [
+        "allowStructure"
+      ],
+      "structurePolicy": "delete-only",
+      "fieldEnforcement": "strict-json-diff",
+      "allowlistPolicy": "must-not-grow",
+      "requiredValidators": [
+        "validate:offline:yoma",
+        "validate:enrichment-contracts:yoma"
+      ],
+      "generationCommands": [
+        "npm run build:yoma"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm run check:deploy-html",
+        "npm test",
+        "npm run test:browser"
+      ],
+      "independentReviewRequired": false,
+      "sourcesMustBeUnchanged": true,
+      "maxBatch": 0,
+      "escalationTriggers": [
+        "deleted-field count differs from the preflight inventory",
+        "any path other than sugyot[*].concepts changes",
+        "a consumer of concepts is discovered"
+      ]
+    },
+    "enrichment-schema-migration": {
+      "description": "Deterministic enrichment contract migrations with no semantic rewriting: requiresUnderstanding prose to prerequisiteKnowledge (genuine ids stay), visualizableElements key/shape normalization preserving wording, and difficulty introductory to intro. Any other transformation must be added here and covered by tests before use.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": true,
+      "paused": false,
+      "mechanicalTier": true,
+      "allowedFiles": [
+        "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        "docs/rashi-audit-backlog.md",
+        "docs/<module>-perek-review.md",
+        ".worker-manifest.json"
+      ],
+      "forbiddenFiles": [
+        "modules/<module>/assets/talmuddev/*",
+        "modules/<module>/assets/daftexts/*",
+        "modules/<module>/source_store.js"
+      ],
+      "allowedJsonPaths": [
+        "sugyot[*].requiresUnderstanding[*]",
+        "sugyot[*].prerequisiteKnowledge[*]",
+        "sugyot[*].visualizableElements[*]",
+        "sugyot[*].difficulty"
+      ],
+      "jsonScope": {
+        "mutable": [
+          "sugyot[*].requiresUnderstanding[*]",
+          "sugyot[*].prerequisiteKnowledge[*]",
+          "sugyot[*].visualizableElements[*]",
+          "sugyot[*].difficulty"
+        ],
+        "flagMutable": {},
+        "structureFlag": "allowStructure"
+      },
+      "forbiddenJsonPaths": [
+        "sugyot[*].display (any)",
+        "sugyot[*].learning (any)",
+        "sugyot[*].finalRuling",
+        "sugyot[*].argumentFlow (any)",
+        "sugyot[*].lines (any)",
+        "sugyot[*].topicTags (any)",
+        "sugyot[*].misconceptions (any)",
+        "sugyot[*].quizSeeds (any)",
+        "rashiTranslations (any)",
+        "*.he (any)"
+      ],
+      "requiredAuthorizations": [
+        "authorizeMigration"
+      ],
+      "optionalAuthorizations": [
+        "allowStructure",
+        "allowCorpusWideMechanicalMigration"
+      ],
+      "structurePolicy": "requires-authorization",
+      "fieldEnforcement": "strict-json-diff",
+      "allowlistPolicy": "must-not-grow",
+      "requiredValidators": [
+        "validate:offline:yoma",
+        "validate:enrichment-contracts:yoma"
+      ],
+      "generationCommands": [
+        "npm run build:yoma"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm run check:deploy-html",
+        "npm test",
+        "npm run test:browser"
+      ],
+      "independentReviewRequired": false,
+      "sourcesMustBeUnchanged": true,
+      "maxBatch": 1,
+      "escalationTriggers": [
+        "target enrichment-contract debt does not strictly decrease",
+        "a value would be invented rather than moved or normalized",
+        "before/after transformation report is incomplete",
+        "a transformation not listed in the manifest is required"
+      ]
+    },
+    "audited-sugya-enrichment-repair": {
+      "description": "Repair source-proven semantic defects recorded in the merged Yoma tail-enrichment audit. Semantic work, one daf per PR, independent review before merge. The manifest must name the audit record ids being repaired and every changed path must appear in those records' affectedFields.",
+      "model": "sonnet",
+      "escalationModel": "sonnet",
+      "lifecycle": "pr",
+      "requiresTarget": true,
+      "paused": false,
+      "mechanicalTier": false,
+      "allowedFiles": [
+        "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+        "modules/<module>/learning_data.js",
+        "modules/<module>/coverage.json",
+        "VERSION",
+        "package.json",
+        "package-lock.json",
+        "docs/rashi-audit-backlog.md",
+        "docs/<module>-perek-review.md",
+        ".worker-manifest.json"
+      ],
+      "forbiddenFiles": [
+        "modules/<module>/assets/talmuddev/*",
+        "modules/<module>/assets/daftexts/*",
+        "modules/<module>/source_store.js"
+      ],
+      "allowedJsonPaths": [
+        "summary",
+        "sugyot[*].display.title",
+        "sugyot[*].display.whats",
+        "sugyot[*].display.hint",
+        "sugyot[*].display.oneLine",
+        "sugyot[*].display.shortSummary",
+        "sugyot[*].learning.learnerQuestion",
+        "sugyot[*].learning.coreTension",
+        "sugyot[*].learning.coreMove",
+        "sugyot[*].learning.resolution",
+        "sugyot[*].learning.ahaMoment",
+        "sugyot[*].learning.learningBlocker",
+        "sugyot[*].learning.memoryAnchor",
+        "sugyot[*].learning.takeaway.text",
+        "sugyot[*].finalRuling",
+        "sugyot[*].prerequisiteKnowledge[*]",
+        "sugyot[*].requiresUnderstanding[*]",
+        "sugyot[*].topicTags[*]",
+        "sugyot[*].visualizableElements[*]",
+        "sugyot[*].difficulty"
+      ],
+      "jsonScope": {
+        "mutable": [
+          "summary",
+          "sugyot[*].display.title",
+          "sugyot[*].display.whats",
+          "sugyot[*].display.hint",
+          "sugyot[*].display.oneLine",
+          "sugyot[*].display.shortSummary",
+          "sugyot[*].learning.learnerQuestion",
+          "sugyot[*].learning.coreTension",
+          "sugyot[*].learning.coreMove",
+          "sugyot[*].learning.resolution",
+          "sugyot[*].learning.ahaMoment",
+          "sugyot[*].learning.learningBlocker",
+          "sugyot[*].learning.memoryAnchor",
+          "sugyot[*].learning.takeaway.text",
+          "sugyot[*].finalRuling",
+          "sugyot[*].prerequisiteKnowledge[*]",
+          "sugyot[*].requiresUnderstanding[*]",
+          "sugyot[*].topicTags[*]",
+          "sugyot[*].visualizableElements[*]",
+          "sugyot[*].difficulty"
+        ],
+        "flagMutable": {
+          "authorizeTakeawayType": [
+            "sugyot[*].learning.takeaway.type"
+          ],
+          "authorizeAlternateAngles": [
+            "sugyot[*].alternateAngles"
+          ]
+        },
+        "structureFlag": "allowStructure"
+      },
+      "forbiddenJsonPaths": [
+        "sugyot[*].lines[*].he",
+        "sugyot[*].lines[*].en",
+        "sugyot[*].lines[*].en_lit",
+        "sugyot[*].lines[*].id",
+        "sugyot[*].lineRange",
+        "sugyot[*].id",
+        "sugyot[*].sugyaNumber",
+        "sugyot[*].argumentFlow (any)",
+        "sugyot[*].argumentFlow[*].sourceRefs (any)",
+        "sugyot[*].misconceptions (any)",
+        "sugyot[*].quizSeeds (any)",
+        "sugyot[*].concepts (any)",
+        "rashiTranslations (any)",
+        "rashiLines (any)",
+        "linkedGemaraLineIds (any)",
+        "*.he (any)"
+      ],
+      "requiredAuthorizations": [
+        "auditRecordIds"
+      ],
+      "optionalAuthorizations": [
+        "authorizeTakeawayType",
+        "authorizeAlternateAngles",
+        "allowStructure"
+      ],
+      "structurePolicy": "requires-authorization",
+      "fieldEnforcement": "strict-json-diff",
+      "allowlistPolicy": "must-not-grow",
+      "requiredValidators": [
+        "validate:offline:yoma",
+        "validate:enrichment-contracts:yoma"
+      ],
+      "generationCommands": [
+        "npm run build:yoma"
+      ],
+      "buildTestCommands": [
+        "npm run build",
+        "npm run check:deploy-html",
+        "npm test",
+        "npm run test:browser"
+      ],
+      "independentReviewRequired": true,
+      "reviewPolicy": "independent",
+      "sourcesMustBeUnchanged": true,
+      "maxBatch": 1,
+      "escalationTriggers": [
+        "a changed path is absent from the audit records' affectedFields",
+        "the source does not support the proposed replacement",
+        "a repair would require editing argumentFlow, quizSeeds or misconceptions",
+        "the removed concepts field would be repaired or recreated",
+        "target does not become enrichment-contract clean"
+      ],
+      "reviewNote": "Fresh independent semantic review against the declared source range before merge; the reviewer must not reuse the first-pass reasoning."
+    }
   }
- }
 }

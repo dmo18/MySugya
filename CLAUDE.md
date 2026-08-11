@@ -325,6 +325,40 @@ CI artifact). It never hardcodes a pass. Current status and full detail:
 
 ---
 
+## Enrichment field contracts (authoring rules)
+
+Finalized in `docs/reports/yoma-enrichment-contract-decision.md`; enforced by
+`scripts/validate_enrichment_contracts.py` (`npm run validate:enrichment-contracts:yoma`).
+
+- `display.hint` is a **question**, not a descriptive paragraph. Complete,
+  normally ending in a question mark, never an ellipsis or a cut word.
+- `finalRuling` is the halachic bottom line and is **independent of
+  `display.hint`**. Never copy or truncate the hint into it. Leave it empty
+  when the sugya is aggadic, narrative, purely analytical, or unresolved.
+- `requiresUnderstanding` holds **sugya ids only**, all of which must resolve.
+  Prose prerequisites belong in the new `prerequisiteKnowledge: string[]`.
+  Never invent an id from prose.
+- `topicTags` are **lowercase hyphen-separated ASCII slugs**, not display
+  labels. No duplicates within a sugya.
+- `visualizableElements` use `{ item, type?, label?, role?, priority? }`.
+  `item` is required. Never fabricate `role` or `priority`.
+- `concepts` is a **removed** field scheduled for corpus-wide deletion. Do not
+  repair it, do not populate it, and do not define a new contract for it.
+  `conceptRefs` is a different reserved field.
+
+The gate is baseline-and-ratchet: known legacy debt is frozen in
+`scripts/baselines/enrichment_contract_debt.json`. New debt is always a
+failure, counts may only fall, and a repair must leave its target clean
+(`--targets <sugyaId>`). Never delete or weaken a rule to make it pass, and
+never rewrite the baseline outside a reviewed docs-tooling change.
+
+Enrichment repair work is queued in
+`docs/reports/data/yoma-tail-enrichment-repair-queue.json`. The merged audit
+in `docs/reports/yoma-tail-enrichment-audit.md` is historical evidence and is
+never rewritten; progress is tracked in the queue.
+
+---
+
 ## Do not do these things
 
 - Do not modify any file under `modules/yoma/` without explicit approval.
@@ -333,6 +367,8 @@ CI artifact). It never hardcodes a pass. Current status and full detail:
 - Do not bypass the pre-commit hook with `--no-verify`.
 - Do not add Tosafot or expand scope beyond current enrichment.
 - Do not add schema fields casually; update `shared/schema_map.js`.
+- Do not repair, populate, or re-contract the removed `concepts` field; it is scheduled for deletion.
+- Do not weaken or delete an enrichment-contract rule, or rewrite its baseline, to make a gate pass.
 - Do not move module files without updating `manifest.js` and `scripts/sync_version.py`.
 - Do not deploy the repository root as production; deploy `dist/`.
 

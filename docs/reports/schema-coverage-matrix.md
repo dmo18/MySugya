@@ -79,6 +79,7 @@ judgment that pattern gates cannot verify. Sonnet executes every tier.
 | `sugyot[*].misconceptions[*].correctedByStepId` | judgment-required |
 | `sugyot[*].misconceptions[*].correction` | judgment-required |
 | `sugyot[*].misconceptions[*].misconception` | judgment-required |
+| `sugyot[*].prerequisiteKnowledge[*]` | judgment-required |
 | `sugyot[*].quizSeeds[*].answer` | judgment-required |
 | `sugyot[*].quizSeeds[*].question` | judgment-required |
 | `sugyot[*].quizSeeds[*].sourceRefs[*].lineId` | judgment-required |

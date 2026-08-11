@@ -18,6 +18,29 @@ Read-only audits: corpus scans, semantic audit reports, validator dry runs, back
 - stop conditions:
   - any finding that suggests content on main is wrong (report it; do not fix it)
 
+## audited-sugya-enrichment-repair
+
+Repair source-proven semantic defects recorded in the merged Yoma tail-enrichment audit. Semantic work, one daf per PR, independent review before merge. The manifest must name the audit record ids being repaired and every changed path must appear in those records' affectedFields.
+
+- model: sonnet; independent Sonnet review required before merge
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: no
+- max batch: 1
+- REQUIRED authorization: auditRecordIds (operator-issued; preflight fails without it)
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/<module>-perek-review.md, .worker-manifest.json
+- mutable JSON paths: summary, sugyot[*].display.title, sugyot[*].display.whats, sugyot[*].display.hint, sugyot[*].display.oneLine, sugyot[*].display.shortSummary, sugyot[*].learning.learnerQuestion, sugyot[*].learning.coreTension, sugyot[*].learning.coreMove, sugyot[*].learning.resolution, sugyot[*].learning.ahaMoment, sugyot[*].learning.learningBlocker, sugyot[*].learning.memoryAnchor, sugyot[*].learning.takeaway.text, sugyot[*].finalRuling, sugyot[*].prerequisiteKnowledge[*], sugyot[*].requiresUnderstanding[*], sugyot[*].topicTags[*], sugyot[*].visualizableElements[*], sugyot[*].difficulty
+- with --authorize authorizeAlternateAngles: sugyot[*].alternateAngles
+- with --authorize authorizeTakeawayType: sugyot[*].learning.takeaway.type
+- allowlist policy: must-not-grow; structure policy: requires-authorization
+- required validators: validate:offline:yoma, validate:enrichment-contracts:yoma
+- stop conditions:
+  - a changed path is absent from the audit records' affectedFields
+  - the source does not support the proposed replacement
+  - a repair would require editing argumentFlow, quizSeeds or misconceptions
+  - the removed concepts field would be repaired or recreated
+  - target does not become enrichment-contract clean
+
 ## deployment-verify
 
 Verify main deploy workflows and live site after a merge. Read-only: no file changes permitted at all.
@@ -66,6 +89,26 @@ Docs, scripts, CI, hooks, and pipeline changes. No module data. Sonnet only for 
 - stop conditions:
   - any existing gate would be weakened
   - workflow permission changes would be needed
+
+## enrichment-schema-migration
+
+Deterministic enrichment contract migrations with no semantic rewriting: requiresUnderstanding prose to prerequisiteKnowledge (genuine ids stay), visualizableElements key/shape normalization preserving wording, and difficulty introductory to intro. Any other transformation must be added here and covered by tests before use.
+
+- model: sonnet
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: yes
+- max batch: 1
+- REQUIRED authorization: authorizeMigration (operator-issued; preflight fails without it)
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/<module>-perek-review.md, .worker-manifest.json
+- mutable JSON paths: sugyot[*].requiresUnderstanding[*], sugyot[*].prerequisiteKnowledge[*], sugyot[*].visualizableElements[*], sugyot[*].difficulty
+- allowlist policy: must-not-grow; structure policy: requires-authorization
+- required validators: validate:offline:yoma, validate:enrichment-contracts:yoma
+- stop conditions:
+  - target enrichment-contract debt does not strictly decrease
+  - a value would be invented rather than moved or normalized
+  - before/after transformation report is incomplete
+  - a transformation not listed in the manifest is required
 
 ## gemara-learning
 
@@ -136,6 +179,25 @@ Edits to learning narrative fields (ahaMoment, memoryAnchor, learnerQuestion, co
 - required validators: validate:offline:yoma
 - stop conditions:
   - any change outside the mutable path set would be needed
+
+## legacy-concepts-purge
+
+Delete the removed sugyot[*].concepts field and nothing else. Mechanical, delete-only: no text is edited and no other path may change. Authorized by a deterministic preflight inventory whose deleted-field count must match exactly.
+
+- model: sonnet
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: yes
+- max batch: 0
+- REQUIRED authorization: allowDeleteRemovedField (operator-issued; preflight fails without it)
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/<module>-perek-review.md, .worker-manifest.json
+- mutable JSON paths: 
+- allowlist policy: must-not-grow; structure policy: delete-only
+- required validators: validate:offline:yoma, validate:enrichment-contracts:yoma
+- stop conditions:
+  - deleted-field count differs from the preflight inventory
+  - any path other than sugyot[*].concepts changes
+  - a consumer of concepts is discovered
 
 ## literal-layer
 
@@ -218,6 +280,26 @@ quizSeeds and misconceptions text edits. Must test real distinctions per CLAUDE.
 - required validators: validate:offline:yoma
 - stop conditions:
   - any change outside the mutable path set would be needed
+
+## rashi-boundary-translation-repair
+
+Extremely narrow follow-up to rashi-translation-review: repair the English of exactly ONE existing boundary-authorized Rashi entry (a rashiTranslations entry with empty linkedGemaraLineIds whose translation defect was already confirmed by a Step 6 batch review but whose application was blocked by the boundary-authorization allowlist ratchet, since fixing it requires refreshing that one authorization's derived enFingerprint - the ratchet's plain set diff cannot otherwise tell a legitimate identity-preserving fingerprint refresh from an unauthorized new entry). This type exists solely so modules/<module>/scripts/boundary_fingerprint_ratchet.py's identity-aware fingerprint-refresh exception can apply. It authorizes exactly: one Rashi entry's English, that entry's own boundary-authorization record's enFingerprint (independently recomputed by the gate from the actual corpus text at both revisions, never trusted from the manifest, the registry file's head-revision content, or the review record), the deterministic generated outputs, that entry's own review record, the batch's resolution addendum, and translation-inventory/batch-progress synchronization. It does NOT authorize: Hebrew changes; entry-id, daf, or Vilna-line changes; linkedGemaraLineIds changes; new boundary authorizations; deletion of unrelated authorizations; rationale or evidence-field changes; a second Rashi entry anywhere in the corpus; Gemara or Mishnah changes; argumentFlow; sourceRefs; literal translations; renderer changes; arbitrary documentation; or workflow changes. Requires the manifest to declare entryId, registryIdentity ({daf, vilnaLine} - the registry's own existing identity, since it has no explicit id field), baseEnFingerprint, expectedNewEnFingerprint (derived from the proposed English), and reviewRecordPath (pointing at the review record whose secondPass.status is CONFIRMED for that exact entryId) - all cross-checked against independently recomputed values by the gate, so the manifest can declare but never override what the gate actually verifies.
+
+- model: sonnet
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: no
+- max batch: 1
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, modules/<module>/scripts/allowlists/rashi_boundary_authorizations.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/reports/data/rashi-translation-quality-inventory.json, docs/reports/data/rashi-step6-batch-*-review-records.json, docs/reports/rashi-step6-batch-*-report.md, .worker-manifest.json
+- mutable JSON paths: rashiTranslations[*].en
+- allowlist policy: boundary-fingerprint-refresh; structure policy: forbidden
+- required validators: validate:offline:yoma, check:rashi-pr-scope:yoma, validate:rashi:boundary:yoma
+- stop conditions:
+  - the second independent semantic pass does not return CONFIRMED
+  - any registry field other than enFingerprint would need to change
+  - a second Rashi entry anywhere in the corpus would need to change
+  - Hebrew source appears defective
+  - any gate failure not fixable by correcting the one authorized entry's own English
 
 ## rashi-realignment
 
@@ -302,6 +384,27 @@ Repair documented Rashi helper defects (stubs, filler, placeholder lines) on daf
   - new semantic audit shift candidate beyond offset +-1
   - any gate failure not fixable by correcting your own content
 
+## rashi-source-repair
+
+One-time, narrowly-scoped correction of a proven Hebrew-source data defect in a Rashi raw-source cache file (modules/<module>/assets/talmuddev/<daf>.json) - the only task type authorized to touch that file. Every other rashi-* type operates exclusively on the enrichment layer (rashiTranslations[*].en/linkedGemaraLineIds) and explicitly forbids assets/talmuddev/*; this type exists because the campaign's own Step 5 evidence record concluded no existing type safely covers a genuine Hebrew-source defect, and 'stop and report instead of bypassing worker scope' is the default when that happens. Valid ONLY for an isolated, single-entry corruption independently confirmed against upstream/authoritative evidence (never a bulk edit, never a guess at intended Hebrew, never a fix to the ingestion script itself unless the defect is proven systemic - which takes a different, still-undefined type). Requires the sourceRepairEvidence authorization, which stands for a companion evidence report (old value, corrected value, exact removed artifact, upstream/independent corroboration, proof no other entry changed) committed in the same PR. Narrowly permits touching scripts/worker_task_types.json itself for this type's own bootstrap introduction only (every other type's registry changes remain a separate docs-tooling PR per this file's own top-level convention) - after this introducing PR merges, no later rashi-source-repair PR should need to touch the registry again.
+
+- model: sonnet; independent Sonnet review required before merge
+- escalation model: sonnet
+- lifecycle: pr  (one VERSION patch bump, one PR)
+- mechanical tier: no
+- max batch: 1
+- REQUIRED authorization: sourceRepairEvidence (operator-issued; preflight fails without it)
+- allowed files: modules/<module>/assets/talmuddev/<daf>.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/reports/data/rashi-translation-quality-inventory.json, docs/reports/data/rashi-source-blockers.json, docs/reports/rashi-pilot-*.md, docs/reports/rashi-source-repair-*.md, docs/reports/rashi-full-corpus-review-strategy.md, scripts/worker_task_types.json, modules/<module>/scripts/test_generate_rashi_batch_progress.py, .worker-manifest.json
+- mutable JSON paths: rashi[*]
+- allowlist policy: not-applicable; structure policy: not-applicable
+- required validators: validate:offline:yoma, check:rashi-translation-inventory:yoma
+- stop conditions:
+  - the corruption cannot be traced to a single upstream or ingestion cause
+  - a second entry needs the same class of fix (systemic, not isolated - a different, still-undefined type would be needed)
+  - upstream and independent sources disagree with each other
+  - any change beyond the one proven corrupted entry would be needed
+  - the ingestion script itself would need to change
+
 ## rashi-structural-repair
 
 Structural repair of a daf's rashiTranslations layer: baselined entry-count mismatches, phantom entries with no raw-line anchor, or missing entries (documented backlog: 8a, 9a). Restores exact 1:1 correspondence with the authoritative talmuddev raw lines: after the pass, entry count and vilnaLine sequence must match the source exactly, every helper must render its own raw line, and every link must be semantic. The ONLY task type permitted to change rashiTranslations structure, and only with the explicit allowStructure authorization on the manifest. Sonnet only, and only on a manifest carrying allowStructure; no ordinary manifest can ever authorize structural or count changes.
@@ -341,7 +444,7 @@ Rashi translation-quality campaign (Step 4+): apply English-only repairs to Rash
 - lifecycle: pr  (one VERSION patch bump, one PR)
 - mechanical tier: no
 - max batch: 1
-- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/reports/data/rashi-translation-quality-inventory.json, docs/reports/rashi-pilot-*.md, .worker-manifest.json
+- allowed files: modules/<module>/assets/learning/<module>/<daf>.learning.json, modules/<module>/learning_data.js, modules/<module>/coverage.json, VERSION, package.json, package-lock.json, docs/rashi-audit-backlog.md, docs/reports/data/rashi-translation-quality-inventory.json, docs/reports/data/rashi-step6-batch-*-review-records.json, docs/reports/rashi-pilot-*.md, docs/reports/rashi-step6-batch-*-report.md, docs/reports/rashi-full-corpus-review-strategy.md, modules/<module>/scripts/validate_rashi_review_records.py, modules/<module>/scripts/test_validate_rashi_review_records.py, modules/<module>/scripts/check_rashi_pr_scope.py, scripts/worker_task_types.json, .worker-manifest.json
 - mutable JSON paths: rashiTranslations[*].en
 - allowlist policy: not-applicable; structure policy: forbidden
 - required validators: validate:offline:yoma, check:rashi-pr-scope:yoma

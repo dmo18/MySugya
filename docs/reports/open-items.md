@@ -72,7 +72,14 @@ per-shard test-count arithmetic reproduced from first principles.
 
 ## OPEN-ACTIONABLE
 
-Nothing is currently blocked on code. The Rashi translation-quality audit
+| Item | Detail |
+|---|---|
+| Yoma tail-enrichment semantic repair campaign | **82 queued records** from the merged tail-enrichment audit (PR #476): 24 SUBSTANTIVE_REPAIR_NEEDED, 9 MINOR_EDIT_NEEDED, and 53 carrying a mechanical `finalRuling` defect. Contracts are finalized in `docs/reports/yoma-enrichment-contract-decision.md`; the actionable state lives in `docs/reports/data/yoma-tail-enrichment-repair-queue.json` and `docs/reports/yoma-tail-enrichment-repair-plan.md`. Owner: `audited-sugya-enrichment-repair`, one daf per PR, independent review required. **Blocked on the two migrations below**, because no sugya can pass target-clean while the removed `concepts` field is still present. Starts at `yoma-082b-s01`. |
+| Enrichment contract migrations | Mechanical, owner `enrichment-schema-migration`: `requiresUnderstanding` prose to the new `prerequisiteKnowledge` (404 sugyot, exact wording preserved, 43 genuine ids stay), `visualizableElements` shape normalization to `{item, type?, label?, role?, priority?}` (432 sugyot missing `item`), and `difficulty` `introductory` to `intro` (112 sugyot). **DATA_SCHEMA_VERSION must be bumped in the first migration PR that writes `prerequisiteKnowledge` into `learning_data.js`.** `topicTags` slug migration (428 sugyot) is deliberately deferred pending a curated pass because normalization can collide. |
+| Legacy `concepts` purge | `sugyot[*].concepts` is a `removed` field still populated on **all 492 sugyot** and read by no consumer. Disposition is corpus-wide mechanical **deletion**, not repair, owner `legacy-concepts-purge`. Must prove only that path is deleted and that the deleted count matches a deterministic preflight inventory. |
+| Rashi placement closure | Separate future campaign, not part of the enrichment work. The independent audit left 4 confirmed placement defects (`rashi-yoma-070b-003`, `-050a-052`, `-050a-053`, `rashi-yoma-086b-056`) plus a bounded 73-entry no-boundary multi-link set to adjudicate. Requires its own contract decision on whether a secondary cross-referenced line may receive a link. **No Rashi work is authorized under the enrichment task types.** |
+
+Nothing else is currently blocked on code. The Rashi translation-quality audit
 coverage item formerly listed here is resolved; see COMPLETED below.
 
 ---
