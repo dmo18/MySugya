@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "check:deploy-html": "node scripts/check-deploy-html.mjs",
-    "test": "python3 modules/yoma/scripts/test_js_parser.py && npm run test:drift:yoma && npm run test:packet:yoma && npm run test:scaffold:yoma && npm run test:rashi-docs:yoma && npm run test:policy && npm run test:enrichment-contracts && npm run check:repair-queue:yoma && npm run test:module-resolver && npm run test:rashi-association-audit:yoma && npm run test:rashi:boundary:yoma && npm run test:rashi:boundary-fingerprint-ratchet:yoma && npm run test:rashi-pr-scope:yoma && npm run test:sourcerefs:yoma && npm run test:argument-taxonomy:yoma && npm run test:rashi-pilot-cohort:yoma && npm run test:rashi-pilot-packets:yoma && npm run test:rashi-full-corpus-batches:yoma && npm run test:rashi-review-records:yoma && npm run test:rashi-systemic-candidates:yoma && npm run test:rashi-batch-progress:yoma && npm run test:rashi-review-packets:yoma && python3 tests/smoke/render_check.py && node tests/unit/rashi-association.test.mjs && node tests/unit/rashi-browser-shards.test.mjs && node tests/unit/module-resolver.test.mjs",
+    "test": "python3 modules/yoma/scripts/test_js_parser.py && npm run test:drift:yoma && npm run test:packet:yoma && npm run test:scaffold:yoma && npm run test:rashi-docs:yoma && npm run test:policy && npm run test:enrichment-contracts && npm run test:yoma-tail-enrichment-audit-compat && npm run check:repair-queue:yoma && npm run test:module-resolver && npm run test:rashi-association-audit:yoma && npm run test:rashi:boundary:yoma && npm run test:rashi:boundary-fingerprint-ratchet:yoma && npm run test:rashi-pr-scope:yoma && npm run test:sourcerefs:yoma && npm run test:argument-taxonomy:yoma && npm run test:rashi-pilot-cohort:yoma && npm run test:rashi-pilot-packets:yoma && npm run test:rashi-full-corpus-batches:yoma && npm run test:rashi-review-records:yoma && npm run test:rashi-systemic-candidates:yoma && npm run test:rashi-batch-progress:yoma && npm run test:rashi-review-packets:yoma && npm run test:worker-pipeline-integration && python3 tests/smoke/render_check.py && node tests/unit/rashi-association.test.mjs && node tests/unit/rashi-browser-shards.test.mjs && node tests/unit/module-resolver.test.mjs",
     "test:yoma-parser": "python3 modules/yoma/scripts/test_js_parser.py",
     "test:drift:yoma": "cd modules/yoma && python3 scripts/test_drift_profile.py",
     "test:packet:yoma": "cd modules/yoma && python3 scripts/test_rashi_packet.py",
@@ -103,7 +103,9 @@
     "validate:enrichment-contracts:yoma": "python3 scripts/validate_enrichment_contracts.py --module yoma",
     "test:enrichment-contracts": "python3 scripts/test_enrichment_contracts.py",
     "generate:repair-queue:yoma": "python3 scripts/generate_enrichment_repair_queue.py",
-    "check:repair-queue:yoma": "python3 scripts/generate_enrichment_repair_queue.py --check"
+    "check:repair-queue:yoma": "python3 scripts/generate_enrichment_repair_queue.py --check",
+    "test:worker-pipeline-integration": "python3 scripts/test_worker_pipeline_integration.py",
+    "test:yoma-tail-enrichment-audit-compat": "python3 scripts/test_yoma_tail_enrichment_audit_compat.py"
   },
   "dependencies": {
     "react": "18.3.1",
