@@ -24,7 +24,7 @@ enforced by `scripts/validate_enrichment_contracts.py`. Counts are violating
 | topicTags_invalid_slug | 428 |
 | requiresUnderstanding_prose | 404 |
 | visualizableElements_legacy_key | 400 |
-| hint_not_a_question | 382 |
+| hint_not_a_question | 373 |
 | difficulty_invalid_enum | 112 |
 | finalRuling_prefix_of_hint | 53 |
 | finalRuling_unterminated | 53 |
@@ -51,8 +51,11 @@ exactly the defect the audit traced to a single pre-squash generation, the
 question form is the pre-77a convention across the rest of the corpus, and
 `app.jsx` presents `hint` as a prompt to hold while reading.
 
-**Evidence:** the audit's provenance section; 382 sugyot currently violate
-the question rule, concentrated in the audited tail.
+**Evidence:** the audit's provenance section. 373 sugyot are recorded under
+`hint_not_a_question`. An additional 9 trailing-ellipsis hints are recorded
+separately under `hint_trailing_ellipsis`, so 382 sugyot fail the overall
+final-question-form requirement represented by those two mutually exclusive
+validator categories, concentrated in the audited tail.
 
 ## 2. finalRuling
 
