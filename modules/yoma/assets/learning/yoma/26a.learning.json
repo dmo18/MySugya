@@ -375,15 +375,6 @@
     "Temple procedure",
     "transitional passage"
    ],
-   "concepts": {
-    "halachic": [
-     "lottery assignment continuity"
-    ],
-    "theological": [],
-    "narrative": [
-     "Talmudic transitional passage"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "second lottery",
@@ -525,21 +516,6 @@
     "Torah scholar prosperity",
     "Temple service reward"
    ],
-   "concepts": {
-    "halachic": [
-     "ketoret first-timer rule",
-     "lottery eligibility restriction"
-    ],
-    "theological": [
-     "proximity to God brings blessing",
-     "ketoret as closest divine approach",
-     "Torah learning and material reward"
-    ],
-    "narrative": [
-     "Abaye's explanation of ketoret wealth",
-     "Rava's Torah scholar analogy"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "third lottery",
@@ -696,18 +672,6 @@
     "musaf",
     "priest assignment"
    ],
-   "concepts": {
-    "halachic": [
-     "afternoon tamid lottery rule",
-     "Shabbat exception",
-     "musaf affecting service assignments"
-    ],
-    "theological": [],
-    "narrative": [
-     "Rav Shmuel bar Rav Yitzchak's reconciliation",
-     "baraita contradiction resolution"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "tamid service",
@@ -850,18 +814,6 @@
     "Rava",
     "lottery count"
    ],
-   "concepts": {
-    "halachic": [
-     "carrying vs burning limbs as one or two tasks",
-     "fourth lottery eligibility",
-     "five-lottery opinion"
-    ],
-    "theological": [],
-    "narrative": [
-     "Rava's explanation of R. Eliezer ben Yaakov",
-     "tanna who counted five lotteries"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "tamid limb service",

@@ -183,16 +183,6 @@
     "confession",
     "verbal precision"
    ],
-   "concepts": {
-    "halachic": [
-     "viduy precision",
-     "kinnim edge cases"
-    ],
-    "theological": [
-     "the word 'confessed' vs 'said'"
-    ],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "kinnim",
@@ -516,20 +506,6 @@
     "scarlet thread",
     "Tsuk"
    ],
-   "concepts": {
-    "halachic": [
-     "ish iti eligibility",
-     "impurity from goat",
-     "Tsuk location",
-     "10 booths"
-    ],
-    "theological": [
-     "Azazel goat's journey"
-    ],
-    "narrative": [
-     "organized national support for the goat's journey"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "ish iti (Azazel goat handler)",

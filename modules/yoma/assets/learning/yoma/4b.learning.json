@@ -113,35 +113,6 @@
      ]
     }
    ],
-   "concepts": {
-    "people": [
-     "person.rabbi_akiva",
-     "person.rabbi_natan",
-     "person.rabbi_matya_ben_charash",
-     "person.rav_adda_bar_mattana",
-     "person.rav",
-     "person.moses"
-    ],
-    "places": [
-     "place.mount_sinai"
-    ],
-    "objects": [
-     "object.anan_cloud"
-    ],
-    "halacha": [
-     "concept.preparation_for_divine_encounter"
-    ],
-    "reasoning": [
-     "concept.multi_layer_reading",
-     "concept.complementary_views"
-    ],
-    "keyTerms": [
-     "malakhei_hasharet",
-     "vayikhasehu_haanan",
-     "gilu_biread",
-     "yirah_verimcha"
-    ]
-   },
    "conceptRefs": [
     {
      "id": "person.rabbi_natan",
@@ -359,32 +330,6 @@
      ]
     }
    ],
-   "concepts": {
-    "people": [
-     "person.rabbi_yosi_hagalili",
-     "person.rabbi_akiva",
-     "person.rabbi_elazar_ben_azariah",
-     "person.moses"
-    ],
-    "places": [
-     "place.mount_sinai"
-    ],
-    "objects": [
-     "object.luchot"
-    ],
-    "halacha": [],
-    "reasoning": [
-     "concept.calendar_arithmetic",
-     "concept.external_date_constraint",
-     "concept.tannaitic_dispute_resolution"
-    ],
-    "keyTerms": [
-     "shivah_besivan",
-     "shishah_besivan",
-     "yod_zayin_betammuz",
-     "arbaim_yom"
-    ]
-   },
    "conceptRefs": [
     {
      "id": "person.rabbi_yosi_hagalili",
@@ -606,35 +551,6 @@
      ]
     }
    ],
-   "concepts": {
-    "people": [
-     "person.rabbi_elazar",
-     "person.rabbi_yishmael",
-     "person.moses"
-    ],
-    "places": [
-     "place.ohel_moed",
-     "place.mount_sinai",
-     "place.yam_suf"
-    ],
-    "objects": [],
-    "halacha": [
-     "concept.derekh_eretz",
-     "concept.confidentiality_lemor"
-    ],
-    "reasoning": [
-     "concept.gezerah_shavah",
-     "concept.distinction_call_vs_speech",
-     "concept.midrashic_reading"
-    ],
-    "keyTerms": [
-     "kria",
-     "dibbur",
-     "lemor",
-     "betoch",
-     "derekh_eretz"
-    ]
-   },
    "conceptRefs": [
     {
      "id": "concept.derekh_eretz",
@@ -828,30 +744,6 @@
      ]
     }
    ],
-   "concepts": {
-    "people": [
-     "person.rabbi_yochanan",
-     "person.rabbi_chanina",
-     "person.reish_lakish"
-    ],
-    "places": [],
-    "objects": [],
-    "halacha": [
-     "concept.ikkuv_milvuim",
-     "concept.inauguration_requirements"
-    ],
-    "reasoning": [
-     "concept.silence_as_concession",
-     "concept.inference_from_non_refutation",
-     "concept.strict_vs_limited_scope"
-    ],
-    "keyTerms": [
-     "meakkev",
-     "kol_hakatuv_bahen",
-     "avodah_tamid",
-     "milvuim"
-    ]
-   },
    "conceptRefs": [
     {
      "id": "person.rabbi_yochanan",

@@ -91,15 +91,6 @@
     "Arur",
     "biblical interpretation"
    ],
-   "concepts": {
-    "halachic": [
-     "uncertain word meanings preserved in tradition"
-    ],
-    "theological": [
-     "Torah text requires ongoing interpretation"
-    ],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "tzara'at laws",
@@ -217,13 +208,6 @@
     "Temple architecture",
     "outer parochet"
    ],
-   "concepts": {
-    "halachic": [
-     "curtain hookings on south side"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Temple architecture",
@@ -344,17 +328,6 @@
     "Second Temple",
     "Ark of the Covenant"
    ],
-   "concepts": {
-    "halachic": [
-     "HP sprinkles on even ha-shetiya in absence of Ark"
-    ],
-    "theological": [
-     "Ark's preservation and future restoration"
-    ],
-    "narrative": [
-     "Josiah's protection of the Ark"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Second Temple period",
@@ -461,16 +434,6 @@
     "protective smoke",
     "kapporet"
    ],
-   "concepts": {
-    "halachic": [
-     "incense precedes blood sprinkling inside Holy of Holies",
-     "incense smoke protects HP"
-    ],
-    "theological": [
-     "divine cloud of incense"
-    ],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "incense service",

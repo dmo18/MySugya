@@ -75,14 +75,6 @@
     "confession formula",
     "biblical derivation"
    ],
-   "concepts": {
-    "halachic": [
-     "viduy formula derivation",
-     "gezerah shavah"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "gezerah shavah",
@@ -170,17 +162,6 @@
     "Shem HaMeforash",
     "prostration"
    ],
-   "concepts": {
-    "halachic": [
-     "congregation's response to Divine Name",
-     "prostration in Temple"
-    ],
-    "theological": [
-     "Shem HaMeforash",
-     "acknowledgment of God's sovereignty"
-    ],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Baruch Shem",
@@ -341,18 +322,6 @@
     "two goats",
     "Azazel"
    ],
-   "concepts": {
-    "halachic": [
-     "lot drawing procedure",
-     "designation of two goats",
-     "role of Deputy"
-    ],
-    "theological": [
-     "Divine selection via lot",
-     "Azazel"
-    ],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Yom Kippur two-goat ritual",
@@ -476,15 +445,6 @@
     "lot ceremony",
     "Deputy KG"
    ],
-   "concepts": {
-    "halachic": [
-     "positional honor",
-     "Deputy role",
-     "bet av"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Temple hierarchy",
@@ -608,16 +568,6 @@
     "lot ceremony",
     "Temple utensils"
    ],
-   "concepts": {
-    "halachic": [
-     "lot box material",
-     "Temple improvements"
-    ],
-    "theological": [],
-    "narrative": [
-     "Ben Katin's laver improvements"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [],
    "misconceptions": [
@@ -738,15 +688,6 @@
     "historical narrative",
     "Temple benefactors"
    ],
-   "concepts": {
-    "halachic": [],
-    "theological": [],
-    "narrative": [
-     "Ben Katin's laver",
-     "Queen Helene's gifts",
-     "Nicanor's doors"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [],
    "misconceptions": [

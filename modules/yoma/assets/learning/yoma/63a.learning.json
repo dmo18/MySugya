@@ -124,20 +124,6 @@
     "invalid service",
     "sacred geography"
    ],
-   "concepts": {
-    "halachic": [
-     "location of slaughtering",
-     "prohibition on slaughtering outside",
-     "service validity"
-    ],
-    "theological": [
-     "sacred geography: each zone has its required service"
-    ],
-    "narrative": [
-     "Temple law",
-     "location in Temple service"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Knowing the prohibition against slaughtering sacrifices outside the Temple",
@@ -329,20 +315,6 @@
     "biblical derivation",
     "two-sided requirement"
    ],
-   "concepts": {
-    "halachic": [
-     "prohibition on outside slaughter",
-     "positive command to bring to Temple",
-     "dual aspect of location requirement"
-    ],
-    "theological": [
-     "the Temple's exclusive domain enforced from two directions"
-    ],
-    "narrative": [
-     "Temple service law",
-     "location obligations"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Knowing the basic prohibition against slaughtering sacrifices outside the Temple",
@@ -452,19 +424,6 @@
     "Temple architecture",
     "atonement structure"
    ],
-   "concepts": {
-    "halachic": [
-     "location as intrinsic to service",
-     "Temple sacred geography"
-    ],
-    "theological": [
-     "the Temple's zones as a theology of holiness gradations"
-    ],
-    "narrative": [
-     "Temple theology",
-     "sacred geography"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Understanding the different zones of the Temple and their respective services",

@@ -122,16 +122,6 @@
     "Rabbanan",
     "analogy"
    ],
-   "concepts": [
-    {
-     "term": "ketoret",
-     "def": "Incense burned on the golden altar in the Sanctuary. The dispute here is whether it precedes or follows the lamp-tending in the morning service."
-    },
-    {
-     "term": "hatavat ha-nerot",
-     "def": "Tending (cleaning and refilling) the seven-branched menorah. One of the first morning Temple services, whose sequencing relative to incense is disputed."
-    }
-   ],
    "conceptRefs": [
     "Yoma.15a.1",
     "Yoma.15a.2",
@@ -325,16 +315,6 @@
     "service order",
     "stam mishna",
     "contradiction resolution"
-   ],
-   "concepts": [
-    {
-     "term": "stam mishna",
-     "def": "An anonymous, unattributed mishna - assumed to represent the majority/accepted view. Identifying the anonymous author helps clarify disputed points."
-    },
-    {
-     "term": "risha/seifa",
-     "def": "The beginning and end of a mishna. When Rav Pappa or Abaye say 'risha... Rabbanan, seifa... Abba Shaul' they are attributing different sections of the same mishna to different authorities."
-    }
    ],
    "conceptRefs": [
     "Yoma.15a.4",
@@ -586,20 +566,6 @@
     "R. Shimon ish HaMitzpah",
     "matanot",
     "altar corners"
-   ],
-   "concepts": [
-    {
-     "term": "matanot dam",
-     "def": "Blood applications to the altar or its horns. Olah requires two applications at opposite corners; chatat requires four horn applications. R. Shimon requires both for the tamid."
-    },
-    {
-     "term": "lo matzinu",
-     "def": "'We have not found' - the principle that halacha does not recognize a configuration that has no established precedent. Used here to reject any blood that would atone and re-atone."
-    },
-    {
-     "term": "tamid",
-     "def": "The daily communal burnt offering brought twice daily. R. Shimon ish HaMitzpah derives from Scripture that it requires both olah and chatat-style blood rites."
-    }
    ],
    "conceptRefs": [
     "Yoma.15a.8",

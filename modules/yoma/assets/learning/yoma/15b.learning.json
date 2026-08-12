@@ -65,12 +65,6 @@
     "Rabba bar Sheila",
     "inner altar"
    ],
-   "concepts": [
-    {
-     "term": "tohoro shel mizbeach",
-     "def": "The 'purity' or top surface of the altar - the exposed upper face onto which the seven sprinklings of the inner service are directed."
-    }
-   ],
    "conceptRefs": [
     "Yoma.15b.1"
    ],
@@ -238,12 +232,6 @@
     "blood service",
     "northeast corner"
    ],
-   "concepts": [
-    {
-     "term": "yesod",
-     "def": "The altar's foundation base - a protruding ledge below the main altar surface. Olah blood must be applied where there is a yesod below the application point. The northeast corner lacks this ledge."
-    }
-   ],
    "conceptRefs": [
     "Yoma.15b.2",
     "Yoma.15b.3",
@@ -373,12 +361,6 @@
     "chatat",
     "verse reading",
     "R. Shimon ish HaMitzpah"
-   ],
-   "concepts": [
-    {
-     "term": "shnei katuv ha-ba k'echad",
-     "def": "When a verse seems to contain two directives simultaneously. Here: chatat rules and olah identity in the same phrase. The interpretation depends on which element governs the other."
-    }
    ],
    "conceptRefs": [
     "Yoma.15b.5"
@@ -525,12 +507,6 @@
     "Temple layout",
     "contradiction",
     "tractate authorship"
-   ],
-   "concepts": [
-    {
-     "term": "Lishkat HaTelayim",
-     "def": "Chamber of the Lambs - the room in the Beit HaMoked complex where the daily tamid lambs were kept, inspected, and prepared. Its exact location is disputed between Yoma and Middot."
-    }
    ],
    "conceptRefs": [
     "Yoma.15b.6",

@@ -166,12 +166,6 @@
     "Yom Kippur service",
     "animal recognition"
    ],
-   "concepts": [
-    {
-     "term": "shiva yamim",
-     "def": "Seven days - the period of KG preparation before Yom Kippur (from 3 Tishrei to 9 Tishrei). During these days the KG is isolated, trained, and kept in a state of ritual preparedness."
-    }
-   ],
    "conceptRefs": [
     "Yoma.18a.4",
     "Yoma.18a.5"
@@ -406,16 +400,6 @@
     "seminal emission",
     "Yom Kippur disqualification"
    ],
-   "concepts": [
-    {
-     "term": "tum'at keri",
-     "def": "Ritual impurity from seminal emission. A kohen with this impurity must immerse and wait until evening before performing Temple service. If it happens to the KG during the Yom Kippur preparation period, it creates a crisis."
-    },
-    {
-     "term": "Yehoshua ben Gamla",
-     "def": "A Second Temple KG whose appointment Maratha bat Baytus purchased from the king Agrippa. Despite the improper appointment, he is remembered for establishing Torah schools in every city and town of Israel."
-    }
-   ],
    "conceptRefs": [
     "Yoma.18a.9",
     "Yoma.18a.10"
@@ -593,16 +577,6 @@
     "KG restrictions",
     "Second Temple period",
     "priestly purity"
-   ],
-   "concepts": [
-    {
-     "term": "oness",
-     "def": "An unavoidable or involuntary act. In the context of ritual impurity: if emission was beyond the kohen's control, it may be treated differently than a voluntary or foreseeable emission."
-    },
-    {
-     "term": "gargir",
-     "def": "Arugula - one of the five foods listed as causing seminal emission. Also said to have eye-brightening properties."
-    }
    ],
    "conceptRefs": [
     "Yoma.18a.14",

@@ -79,13 +79,6 @@
     "vestibule",
     "High Priest"
    ],
-   "concepts": {
-    "halachic": [
-     "spoon used for incense transfer"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "incense service laws",
@@ -218,14 +211,6 @@
     "most difficult service",
     "dexterity"
    ],
-   "concepts": {
-    "halachic": [
-     "kometz mechanics",
-     "spoon grip method"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "incense service laws",
@@ -333,14 +318,6 @@
     "left hand",
     "Holy of Holies"
    ],
-   "concepts": {
-    "halachic": [
-     "coal pan in right hand",
-     "incense ladle in left hand"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Yom Kippur avodah sequence",
@@ -490,18 +467,6 @@
     "modesty",
     "Yom Kippur replacement"
    ],
-   "concepts": {
-    "halachic": [
-     "High Priest replacement when impure on Yom Kippur"
-    ],
-    "theological": [
-     "modesty as spiritual merit"
-    ],
-    "narrative": [
-     "Kimhit's seven sons",
-     "Gentile spittle impurity on Yom Kippur"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "High Priest replacement laws",
@@ -629,14 +594,6 @@
     "meal-offering",
     "incense"
    ],
-   "concepts": {
-    "halachic": [
-     "exact kometz measure required",
-     "not full fist not fingertips"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "kometz laws in meal-offerings",
@@ -723,13 +680,6 @@
     "human hand measure",
     "Temple service"
    ],
-   "concepts": {
-    "halachic": [
-     "hand as the measure for kometz"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "kometz laws",

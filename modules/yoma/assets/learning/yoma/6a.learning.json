@@ -117,22 +117,6 @@
      ]
     }
    ],
-   "concepts": [
-    {
-     "id": "kilaim-begadim",
-     "he": "כִּלְאַיִם בְּבִגְדֵי כְּהוּנָה",
-     "translit": "Kilaim be-vigdei kehuna",
-     "en": "Mixed-weave garments (wool and linen together, normally forbidden) worn by the priesthood. The Torah explicitly makes the High Priest's belt kilaim (Exodus 39:29). The ordinary priest's belt material is disputed.",
-     "sugyaRole": "The disputed question is whether the ordinary priest's belt is also kilaim (like the High Priest's) or plain linen. This determines which verse teaches what."
-    },
-    {
-     "id": "bvat-achat",
-     "he": "בְּבַת אַחַת",
-     "translit": "Be-vat achat",
-     "en": "Simultaneously / all at once. Used in the belt dispute to describe whether Moses girded Aaron and sons in a single continuous act. The Gemara clarifies this means one uninterrupted operation - sequential but without breaking off to do anything else in between.",
-     "sugyaRole": "The practical objection ('can you gird five people simultaneously?') is dissolved by clarifying that 'bvat achat' means uninterrupted sequence, not literal simultaneity."
-    }
-   ],
    "conceptRefs": [
     "kilaim-begadim",
     "bvat-achat"
@@ -308,22 +292,6 @@
        "note": "Corrected phrasing of R. Yehuda ben Beteira's concern"
       }
      ]
-    }
-   ],
-   "concepts": [
-    {
-     "id": "safek-niddah",
-     "he": "סָפֵק נִדָּה",
-     "translit": "Safek niddah",
-     "en": "Uncertain niddah status. Arises when blood is found after relations and it is unclear whether the woman had the status of niddah during the relations. The legal consequence depends on when the blood is discovered - immediately (all agree on retroactive impurity) or much later (R. Akiva vs. Rabbis disagree).",
-     "sugyaRole": "The trigger for the Kohen Gadol's separation from his wife. If post-coital blood creates a seven-day impurity period, Yom Kippur service may be impossible. Prevention is preferable to cure."
-    },
-    {
-     "id": "mafrish-bayit",
-     "he": "פֵּרַשׁ מִבֵּיתוֹ",
-     "translit": "Parash mi-beito",
-     "en": "Separated from his home. The Kohen Gadol's separation from his wife, as distinct from his transfer to the Parhedrin chamber. These are two separate requirements with two separate justifications.",
-     "sugyaRole": "This sugya addresses the second separation - from home (wife) - after the first (to Parhedrin) was already explained by reference to inauguration/Sinai precedent."
     }
    ],
    "conceptRefs": [
@@ -619,29 +587,6 @@
        "note": "Open question carrying into 6b"
       }
      ]
-    }
-   ],
-   "concepts": [
-    {
-     "id": "boel-niddah-tevila",
-     "he": "בּוֹעֵל נִדָּה טְבִילָתוֹ בַּיּוֹם",
-     "translit": "Bo'el niddah teviltao ba-yom",
-     "en": "A man who had relations with a niddah immerses on his seventh day (daytime), unlike the niddah who immerses at night. R. Zeira establishes this from the Yom Kippur scheduling impossibility.",
-     "sugyaRole": "The core legal ruling of this sugya, proven by the impossibility argument and challenged (unsuccessfully) by two baraitot."
-    },
-    {
-     "id": "chad-achar-vs-achar-achar",
-     "he": "חַד אַחַר / אַחַר אַחַר",
-     "translit": "Chad achar / achar achar",
-     "en": "Rav Chisda's distinction: 'chad achar' = blood found immediately after relations (within the time to get up and wash); 'achar achar' = blood found much later. Rabbis agree with R. Akiva on retroactive impurity for chad achar; they dispute him only for achar achar.",
-     "sugyaRole": "Rav Chisda uses this distinction to show the mishna's safek niddah concern applies even to the Rabbinic position - not just R. Akiva's stricter view."
-    },
-    {
-     "id": "heerev-hashemesh",
-     "he": "הֶעֱרֵב הַשֶּׁמֶשׁ",
-     "translit": "He'erev hashemesh",
-     "en": "Waiting for sunset after immersion. A tvul yom (one who immersed that day) is impure until sunset. This creates the scheduling bind: if bo'el niddah immersed on Yom Kippur night (the seventh day by night), he would need the following sunset to become fully pure - which is Yom Kippur itself.",
-     "sugyaRole": "The critical element in R. Zeira's impossibility proof: even after immersion, the man must wait for sunset. If immersion is on Yom Kippur night, sunset comes too late to permit service."
     }
    ],
    "conceptRefs": [

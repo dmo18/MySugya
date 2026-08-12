@@ -56,18 +56,6 @@
     "halachic distinction",
     "death"
    ],
-   "concepts": {
-    "halachic": [
-     "willing vs. coerced",
-     "halachic distinction"
-    ],
-    "theological": [
-     "Willingness matters halachically: the law distinguishes between those who act vo"
-    ],
-    "narrative": [
-     "Going willingly to die vs. against will: a halachic distinct"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of willing vs. coerced context",
@@ -234,18 +222,6 @@
     "interpersonal sin",
     "direct apology"
    ],
-   "concepts": {
-    "halachic": [
-     "appeasement",
-     "YK atonement"
-    ],
-    "theological": [
-     "YK cannot atone what you have not repaired with the person you harmed: God will "
-    ],
-    "narrative": [
-     "YK does not atone without appeasement of the one wronged; ne"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of appeasement context",
@@ -354,18 +330,6 @@
     "sins against people",
     "YK scope"
    ],
-   "concepts": {
-    "halachic": [
-     "sins against God",
-     "sins against people"
-    ],
-    "theological": [
-     "The distinction between God-directed and person-directed sins is structural: YK "
-    ],
-    "narrative": [
-     "Yom Kippur atones for sins against God; does NOT atone for s"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of sins against God context",
@@ -474,18 +438,6 @@
     "Godward relational sin",
     "YK atonement"
    ],
-   "concepts": {
-    "halachic": [
-     "communal sin",
-     "Godward relational sin"
-    ],
-    "theological": [
-     "Communal Godward sins: some social sins are primarily about the community's rela"
-    ],
-    "narrative": [
-     "YK atones for communal sins between people toward God"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of communal sin context",
@@ -690,18 +642,6 @@
     "appeasement",
     "interpersonal forgiveness"
    ],
-   "concepts": {
-    "halachic": [
-     "verbal harm",
-     "insult"
-    ],
-    "theological": [
-     "Words harm too: verbal injury requires the same appeasement process as physical "
-    ],
-    "narrative": [
-     "One who angers a friend - even verbally - must appease them "
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of verbal harm context",

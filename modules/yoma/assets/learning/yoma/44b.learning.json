@@ -127,17 +127,6 @@
     "between the curtains",
     "graduated holiness"
    ],
-   "concepts": {
-    "halachic": [
-     "exclusion during incense burning",
-     "exclusion during blood sprinkling",
-     "bein haparakhot (between curtains) zone"
-    ],
-    "theological": [
-     "graduated Temple holiness"
-    ],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Yom Kippur avodah sequence",
@@ -229,15 +218,6 @@
     "silver pan",
     "Temple utensils"
    ],
-   "concepts": {
-    "halachic": [
-     "silver pan for daily incense"
-    ],
-    "theological": [
-     "material hierarchy in Temple service"
-    ],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Temple vessel materials",
@@ -325,15 +305,6 @@
     "gold",
     "Holy of Holies materials"
    ],
-   "concepts": {
-    "halachic": [
-     "gold pan for Yom Kippur incense"
-    ],
-    "theological": [
-     "material harmony with sacred space"
-    ],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Holy of Holies architecture",
@@ -463,14 +434,6 @@
     "Yom Kippur vs daily",
     "Temple logistics"
    ],
-   "concepts": {
-    "halachic": [
-     "3 kavim Yom Kippur coals",
-     "4 kavim daily coals"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Temple logistics",
@@ -576,15 +539,6 @@
     "daily vs Yom Kippur",
     "Temple utensil design"
    ],
-   "concepts": {
-    "halachic": [
-     "firepan weight specifications"
-    ],
-    "theological": [],
-    "narrative": [
-     "utensil design reflects personnel requirements"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Temple utensil materials",
@@ -671,16 +625,6 @@
     "zahav tov",
     "Temple materials"
    ],
-   "concepts": {
-    "halachic": [
-     "gold varieties for Temple use"
-    ],
-    "theological": [],
-    "narrative": [
-     "Sheba gold has distinctive greenish tint",
-     "Rav Chisda's ethnographic detail"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Temple material knowledge",

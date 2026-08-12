@@ -189,29 +189,6 @@
      ]
     }
    ],
-   "concepts": [
-    {
-     "id": "gezerah-shavah",
-     "he": "גְּזֵרָה שָׁוָה",
-     "translit": "Gezerah shavah",
-     "en": "A verbal analogy: when the same word or phrase appears in two different contexts, halakhic rules from one may be applied to the other. One of the thirteen hermeneutical rules of R. Yishmael.",
-     "sugyaRole": "Rav Nachman bar Yitzchak uses the repeated word 'petach' to link the Exodus command and the Leviticus implementation, bridging both portions under a single invalidation standard."
-    },
-    {
-     "id": "shirei-mitzva",
-     "he": "שִׁיְרֵי מִצְוָה",
-     "translit": "Shirei mitzva",
-     "en": "A residual or secondary component of a mitzva: real and obligatory, but not an invalidation condition if omitted. Established in 5a for semikha and tenufah.",
-     "sugyaRole": "Background concept: the Leviticus requirement bridges must determine which items are full invalidation conditions (like kachah mandates) versus secondary components."
-    },
-    {
-     "id": "miqra-parasha",
-     "he": "מִקְרָא פָּרָשָׁה",
-     "translit": "Mikra parasha",
-     "en": "The oral reading of the Torah portion to the assembly. R. Yochanan (via R. Shimon ben Yochai) holds that even this oral recitation was an indispensable inauguration requirement.",
-     "sugyaRole": "R. Yochanan's addition shows that the inauguration requirements extend beyond physical acts to include communicative acts - reading aloud to the people was legally constitutive."
-    }
-   ],
    "conceptRefs": [
     "gezerah-shavah",
     "shirei-mitzva",
@@ -399,22 +376,6 @@
        "note": "Abaye's clarification narrowing the dispute to the belt"
       }
      ]
-    }
-   ],
-   "concepts": [
-    {
-     "id": "tsivui-asiyah",
-     "he": "צִוּוּי וַעֲשִׂיָּה",
-     "translit": "Tsivui va-asiyah",
-     "en": "Command portion and implementation portion. A recurring Yoma pattern: compare what God commanded with what Moses actually did. When they differ, a dispute arises about which version controls.",
-     "sugyaRole": "The belt dispute is entirely a tsivui-vs-asiyah conflict: the command says belt together, the implementation shows sequential."
-    },
-    {
-     "id": "avnet",
-     "he": "אַבְנֵט",
-     "translit": "Avnet",
-     "en": "The priestly belt or sash. The single garment about which the entire dressing-order dispute turns - all other garments are undisputed.",
-     "sugyaRole": "Abaye's key contribution is identifying the belt as the only genuinely disputed garment, eliminating all false scope."
     }
    ],
    "conceptRefs": [

@@ -153,18 +153,6 @@
     "YK override",
     "scriptural derivation"
    ],
-   "concepts": {
-    "halachic": [
-     "live by them",
-     "Lev 18:5"
-    ],
-    "theological": [
-     "'Live by them, not die by them': the Torah's commandments are instruments of lif"
-    ],
-    "narrative": [
-     "'Live by them' (Lev 18:5): not die by them; derivation for s"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of live by them context",
@@ -318,18 +306,6 @@
     "death",
     "Mishna"
    ],
-   "concepts": {
-    "halachic": [
-     "four atonement mechanisms",
-     "sin-offering"
-    ],
-    "theological": [
-     "Four mechanisms, not one: atonement is not a single formula but a graduated syst"
-    ],
-    "narrative": [
-     "Mishna: four atonement mechanisms; sin-offering, repentance,"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of four atonement mechanisms context",
@@ -443,18 +419,6 @@
     "repentance",
     "severe sins"
    ],
-   "concepts": {
-    "halachic": [
-     "death and YK",
-     "atonement"
-    ],
-    "theological": [
-     "Death + YK + repentance: the most serious sins require the most comprehensive co"
-    ],
-    "narrative": [
-     "Death and Yom Kippur together atone for repented sins"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of death and YK context",
@@ -564,18 +528,6 @@
     "atonement",
     "minor sins"
    ],
-   "concepts": {
-    "halachic": [
-     "teshuva",
-     "repentance"
-    ],
-    "theological": [
-     "Teshuva alone for light sins: the lightest transgressions need only a sincere tu"
-    ],
-    "narrative": [
-     "Repentance itself atones for some categories of sin"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of teshuva context",

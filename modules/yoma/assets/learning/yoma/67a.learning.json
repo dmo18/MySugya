@@ -152,21 +152,6 @@
     "shabbat-boundary",
     "yom-kippur-service"
    ],
-   "concepts": {
-    "halachic": [
-     "Shabbat boundary (techum Shabbat)",
-     "eruv for extended travel",
-     "affliction permits"
-    ],
-    "theological": [
-     "communal escort as honor and support",
-     "Azazel service as communal atonement"
-    ],
-    "narrative": [
-     "ten sukkot along desert route",
-     "crowds lining the way to the cliff"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Shabbat boundary laws",
@@ -313,20 +298,6 @@
     "atonement-sign",
     "yom-kippur-service"
    ],
-   "concepts": {
-    "halachic": [
-     "method of killing the Azazel goat",
-     "crimson thread as atonement indicator"
-    ],
-    "theological": [
-     "Isaiah 1:18 - sins like crimson turning white as snow",
-     "Divine acceptance of communal atonement"
-    ],
-    "narrative": [
-     "the goat pushed backward off the cliff",
-     "thread between the horns as the last act"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Azazel cliff location",
@@ -429,18 +400,6 @@
     "yom-kippur-service",
     "daytime-requirement"
    ],
-   "concepts": {
-    "halachic": [
-     "daytime requirement for Temple service",
-     "Azazel exception to nighttime prohibition"
-    ],
-    "theological": [
-     "Azazel service as expulsion rather than sacrifice"
-    ],
-    "narrative": [
-     "journey to distant cliff potentially extending past dark"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "general rule that Temple services are invalid at night",

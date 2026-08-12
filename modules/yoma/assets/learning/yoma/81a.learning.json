@@ -76,18 +76,6 @@
     "eating liability",
     "swallowing"
    ],
-   "concepts": {
-    "halachic": [
-     "chewing",
-     "teruma"
-    ],
-    "theological": [
-     "Chewing teruma barley: even inadvertent consumption has legal status, but swallo"
-    ],
-    "narrative": [
-     "Chewing unground barley of teruma without swallowing: does i"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of chewing context",
@@ -234,18 +222,6 @@
     "measures",
     "YK liability"
    ],
-   "concepts": {
-    "halachic": [
-     "food and drink",
-     "combination"
-    ],
-    "theological": [
-     "Food and drink are legally separate categories - they measure different kinds of"
-    ],
-    "narrative": [
-     "Food and drink do not combine toward the eating or drinking "
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of food and drink context",
@@ -392,18 +368,6 @@
     "atonement",
     "Mishna"
    ],
-   "concepts": {
-    "halachic": [
-     "eating and drinking",
-     "unawareness"
-    ],
-    "theological": [
-     "One atonement for both eating and drinking in one lapse of awareness: the Torah "
-    ],
-    "narrative": [
-     "Mishna: if one ate and drank in one period of unawareness, o"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of eating and drinking context",
@@ -702,18 +666,6 @@
     "liability",
     "comparison"
    ],
-   "concepts": {
-    "halachic": [
-     "labor prohibition",
-     "YK and Shabbat"
-    ],
-    "theological": [
-     "YK labor prohibition resembles Shabbat but has its own character - both are call"
-    ],
-    "narrative": [
-     "YK and Shabbat: how the labor prohibition on YK compares to "
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of labor prohibition context",

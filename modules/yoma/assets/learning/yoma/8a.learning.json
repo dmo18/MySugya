@@ -186,18 +186,6 @@
         "R. Shimon",
         "rauy-l'mitzcho"
       ],
-      "concepts": [
-        {
-          "term": "Rauy l'mitzcho",
-          "he": "רָאוּי לְמִצְחוֹ",
-          "definition": "Fit for the forehead - the principle that for the tzitz to atone, it must be in a state fit to be worn on the forehead (i.e., not broken). Derived from 'v'nasa' in the tzitz verse."
-        },
-        {
-          "term": "Kal v'chomer",
-          "he": "קַל וָחוֹמֶר",
-          "definition": "A fortiori inference: if the lighter case (tzitz, one divine name) carries a rule (mindfulness), the heavier case (tefillin, many names) certainly does."
-        }
-      ],
       "conceptRefs": [
         "tzitz",
         "rauy-l'mitzcho",
@@ -465,23 +453,6 @@
         "R. Meir",
         "R. Yosei",
         "R. Chanina Segan"
-      ],
-      "concepts": [
-        {
-          "term": "Hazaah",
-          "he": "הַזָּאָה",
-          "definition": "Ritual sprinkling of purification water mixed with para aduma (Red Heifer) ash, performed on day 3 and day 7 after corpse impurity. The question here is whether additional sprinklings are required."
-        },
-        {
-          "term": "Tevila bizmana mitzva",
-          "he": "טְבִילָה בִּזְמַנָּהּ מִצְוָה",
-          "definition": "The principle that immersion performed at its halakhically designated time (the seventh day of purification) is itself a mitzva, not merely a prerequisite. Both R. Meir and R. Yosei accept this."
-        },
-        {
-          "term": "Para aduma",
-          "he": "פָּרָה אֲדֻמָּה",
-          "definition": "The Red Heifer, whose ash mixed with water was used to purify those who had contracted corpse impurity. The priest who burned the heifer also required a special separation and purification."
-        }
       ],
       "conceptRefs": [
         "hazaah",

@@ -99,18 +99,6 @@
     "kohen gadol",
     "bigdei kehuna"
    ],
-   "concepts": {
-    "halachic": [
-     "priestly garment requirements",
-     "worn garments for ash removal",
-     "same type different quality"
-    ],
-    "theological": [
-     "priestly dignity maintained even in mundane service",
-     "proportionality in sacred dress"
-    ],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "yoma-023b-s02"
@@ -213,18 +201,6 @@
     "ash quantity",
     "Temple vessels"
    ],
-   "concepts": {
-    "halachic": [
-     "machta shel zahav",
-     "ash removal quantity",
-     "from top of heap"
-    ],
-    "theological": [
-     "dignity through sacred vessels",
-     "gold for ash as theological statement"
-    ],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "yoma-023b-s02"
@@ -377,19 +353,6 @@
     "R. Elazar",
     "priestly requirements"
    ],
-   "concepts": {
-    "halachic": [
-     "which tasks require priests",
-     "slaughter by non-priest valid",
-     "avodah vs. logistical support",
-     "eligibility for Temple tasks"
-    ],
-    "theological": [
-     "priestly role in Temple",
-     "distinction between sacred act and support task"
-    ],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [],
    "misconceptions": [

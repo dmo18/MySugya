@@ -488,30 +488,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "person.kohen_gadol",
-            "person.rabbi_yehuda"
-          ],
-          places: [
-            "place.lishkat_parhedrin"
-          ],
-          objects: [],
-          halacha: [
-            "concept.pesul_kehuna",
-            "concept.beit_as_wife"
-          ],
-          reasoning: [
-            "concept.infinite_regress",
-            "concept.ein_la_davar_sof"
-          ],
-          keyTerms: [
-            "Parhedrin",
-            "pesul",
-            "beit - his house as wife",
-            "ein la'davar sof"
-          ]
-        },
         conceptRefs: [
           {
             id: "person.kohen_gadol",
@@ -686,33 +662,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "person.kohen_gadol"
-          ],
-          places: [
-            "place.lishkat_beit_ha_even",
-            "place.temple_mount_northeast"
-          ],
-          objects: [
-            "object.kelei_avanim",
-            "object.kelei_adama",
-            "object.kelei_glalim"
-          ],
-          halacha: [
-            "concept.parah_adumah",
-            "concept.tumat_kelim"
-          ],
-          reasoning: [
-            "concept.parallel_derivation"
-          ],
-          keyTerms: [
-            "Lishkat Beit HaEven",
-            "kelei glalim - dung vessels",
-            "kelei avanim - stone vessels",
-            "kelei adama - earth vessels"
-          ]
-        },
         conceptRefs: [
           {
             id: "concept.parah_adumah",
@@ -879,32 +828,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "group.sadducees",
-            "group.pharisees"
-          ],
-          places: [],
-          objects: [
-            "object.kelei_avanim",
-            "object.kelei_adama"
-          ],
-          halacha: [
-            "concept.tvul_yom",
-            "concept.haarev_shemesh",
-            "concept.parah_adumah"
-          ],
-          reasoning: [
-            "concept.public_demonstration",
-            "concept.secondary_safeguard"
-          ],
-          keyTerms: [
-            "tvul yom",
-            "haarev shemesh",
-            "Sadducees (Tziddukim)",
-            "zilzul - contempt"
-          ]
-        },
         conceptRefs: [
           {
             id: "concept.tvul_yom",
@@ -1076,29 +999,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [],
-          places: [
-            "place.temple_mount_northeast",
-            "place.ohel_moed"
-          ],
-          objects: [],
-          halacha: [
-            "concept.chatat",
-            "concept.parah_adumah",
-            "concept.tzafon_requirement"
-          ],
-          reasoning: [
-            "concept.heikher",
-            "concept.spatial_encoding"
-          ],
-          keyTerms: [
-            "chatat - sin-offering",
-            "tzafon - north",
-            "el nokach pnei Ohel Moed - before the Tent of Meeting entrance",
-            "heikher - distinctive indicator"
-          ]
-        },
         conceptRefs: [
           {
             id: "concept.chatat",
@@ -1266,27 +1166,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "person.rabbi_yochanan",
-            "person.reish_lakish",
-            "person.rabba_bar_bar_chana"
-          ],
-          places: [
-            "place.temple_mount",
-            "place.bira"
-          ],
-          objects: [],
-          halacha: [],
-          reasoning: [
-            "concept.lexical_analysis"
-          ],
-          keyTerms: [
-            "bira - palace/citadel",
-            "Temple Mount (Har HaBayit)",
-            "I Chronicles 29:19"
-          ]
-        },
         conceptRefs: [
           {
             id: "person.rabbi_yochanan",
@@ -1474,33 +1353,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "person.rabbi_yochanan",
-            "person.rav_minyomi_bar_chilkiya"
-          ],
-          places: [],
-          objects: [],
-          halacha: [
-            "concept.miluyim",
-            "concept.gezerah_shavah",
-            "concept.parah_adumah"
-          ],
-          reasoning: [
-            "concept.gezerah_shavah",
-            "concept.elimination",
-            "concept.textual_split"
-          ],
-          keyTerms: [
-            "gezerah shavah",
-            "tzivah - He commanded",
-            "milu'im - inauguration",
-            "la'asot - to do",
-            "lechaper - to atone",
-            "Lev 8:34",
-            "Num 19:2"
-          ]
-        },
         conceptRefs: [
           {
             id: "concept.gezerah_shavah",
@@ -2541,26 +2393,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [],
-          places: [],
-          objects: [],
-          halacha: [
-            "concept.gezera_shavah",
-            "concept.yom_kippur_service",
-            "concept.parah_adumah"
-          ],
-          reasoning: [
-            "concept.before_vs_after",
-            "concept.functional_equivalence",
-            "concept.identical_form_requirement"
-          ],
-          keyTerms: [
-            "gezera_shavah",
-            "tzivah",
-            "lifnei_asiyah"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [
@@ -2699,26 +2531,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "group.tana_debei_yishmael"
-          ],
-          places: [],
-          objects: [],
-          halacha: [
-            "concept.gezera_shavah"
-          ],
-          reasoning: [
-            "concept.hierarchy_of_analogy",
-            "concept.identical_form_priority",
-            "concept.fallback_rule"
-          ],
-          keyTerms: [
-            "gezera_shavah",
-            "tana_debei_yishmael",
-            "priority_of_identical_forms"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-002b-s01"
@@ -2922,31 +2734,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [],
-          places: [],
-          objects: [
-            "object.tamid_sacrifice",
-            "object.korban_chagigah"
-          ],
-          halacha: [
-            "concept.le_chaper",
-            "concept.korban_atonement",
-            "concept.regel_festival",
-            "concept.beit_av"
-          ],
-          reasoning: [
-            "concept.fixed_time_criterion",
-            "concept.annual_frequency_criterion",
-            "concept.progressive_exclusion"
-          ],
-          keyTerms: [
-            "le_chaper",
-            "davar_kavua_lo_zman",
-            "paam_achat_bashanah",
-            "beit_av"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-002b-s01"
@@ -3087,27 +2874,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [],
-          places: [],
-          objects: [],
-          halacha: [
-            "concept.regel_festival",
-            "concept.passover",
-            "concept.sukkot",
-            "concept.seven_day_festival"
-          ],
-          reasoning: [
-            "concept.structural_matching",
-            "concept.seven_for_one",
-            "concept.service_duration_criterion"
-          ],
-          keyTerms: [
-            "prisha_shivah_le_yom_echad",
-            "regel",
-            "structural_analogy"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-002b-s03"
@@ -3291,30 +3057,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "person.rav_mesharshiyya",
-            "person.rav_ashi"
-          ],
-          places: [],
-          objects: [],
-          halacha: [
-            "concept.shemini_atzeret",
-            "concept.sukkot",
-            "concept.kal_va_chomer"
-          ],
-          reasoning: [
-            "concept.verse_blocks_kal_va_chomer",
-            "concept.kedusha_preceding",
-            "concept.corollary_cannot_exceed_primary"
-          ],
-          keyTerms: [
-            "shemini_atzeret",
-            "kal_va_chomer",
-            "kedusha_lefanav",
-            "ha_zeh_katuv"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-002b-s04"
@@ -3900,31 +3642,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [],
-          places: [],
-          objects: [
-            "object.korban_mussaf_shemini_atzeret"
-          ],
-          halacha: [
-            "concept.shemini_atzeret",
-            "concept.sukkot",
-            "concept.tashlumin",
-            "concept.shehecheyanu"
-          ],
-          reasoning: [
-            "concept.partial_independence",
-            "concept.domain_specific_independence",
-            "concept.mnemonic_enumeration"
-          ],
-          keyTerms: [
-            "paze_r_kashe_v",
-            "shemini_atzeret",
-            "tashlumin",
-            "shehecheyanu",
-            "korban_mussaf"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [
@@ -4096,35 +3813,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "person.rabbi_abba",
-            "person.rabbi_eliezer_bar_rabbi_shimon"
-          ],
-          places: [],
-          objects: [
-            "object.korban_mussaf",
-            "object.par_va_ayil"
-          ],
-          halacha: [
-            "concept.shavuot",
-            "concept.chovat_hayom",
-            "concept.korban_mussaf",
-            "concept.offering_profile"
-          ],
-          reasoning: [
-            "concept.functional_matching",
-            "concept.quantity_vs_function",
-            "concept.structural_analogy"
-          ],
-          keyTerms: [
-            "shavuot",
-            "chovat_hayom",
-            "mussaf",
-            "par_va_ayil",
-            "rabbi_eliezer_bar_rabbi_shimon"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-003a-s01"
@@ -4295,33 +3983,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "person.rabbi_abbahu"
-          ],
-          places: [],
-          objects: [
-            "object.par_shelo",
-            "object.ayil_shelo"
-          ],
-          halacha: [
-            "concept.rosh_hashana",
-            "concept.personal_property_offering",
-            "concept.communal_offering",
-            "concept.kach_lecha"
-          ],
-          reasoning: [
-            "concept.property_source_criterion",
-            "concept.textual_phrase_analysis"
-          ],
-          keyTerms: [
-            "rosh_hashana",
-            "kach_lecha",
-            "mishe_lecha",
-            "tzibur",
-            "par_shelo"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-003a-s02"
@@ -5065,34 +4726,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "person.rabbi_yoshiya",
-            "person.rabbi_yonatan",
-            "person.abba_chanan",
-            "person.rabbi_elazar"
-          ],
-          places: [],
-          objects: [
-            "object.aron_habrit"
-          ],
-          halacha: [
-            "concept.kach_lecha",
-            "concept.mishe_lecha",
-            "concept.communal_vs_personal_offering"
-          ],
-          reasoning: [
-            "concept.internal_textual_proof",
-            "concept.contextual_reading",
-            "concept.explicit_contrast"
-          ],
-          keyTerms: [
-            "kach_lecha",
-            "aseh_lecha",
-            "kiveychol",
-            "bishe_lecha"
-          ]
-        },
         conceptRefs: [
           {
             id: "person.rabbi_yoshiya",
@@ -5289,35 +4922,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "person.rav_ashi",
-            "person.ravina"
-          ],
-          places: [
-            "place.holy_of_holies"
-          ],
-          objects: [
-            "object.par_chatat",
-            "object.ayil_olah"
-          ],
-          halacha: [
-            "concept.offering_profile",
-            "concept.kohen_gadol_service",
-            "concept.inaugural_service"
-          ],
-          reasoning: [
-            "concept.converging_arguments",
-            "concept.structural_exclusion",
-            "concept.functional_restriction"
-          ],
-          keyTerms: [
-            "par_chatat",
-            "ayil_olah",
-            "avodah_beko_gadol",
-            "techila_bamakom"
-          ]
-        },
         conceptRefs: [
           {
             id: "person.rav_ashi",
@@ -5521,32 +5125,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "person.rabbi_yochanan",
-            "person.rabbi_yehoshua_ben_levi",
-            "person.rav_dimi",
-            "person.rav_avin"
-          ],
-          places: [],
-          objects: [],
-          halacha: [
-            "concept.maaleh_bealma",
-            "concept.seven_day_separation",
-            "concept.parah_adumah"
-          ],
-          reasoning: [
-            "concept.transmission_chain",
-            "concept.rabbinic_vs_torah",
-            "concept.attribution_in_name_of"
-          ],
-          keyTerms: [
-            "maaleh_bealma",
-            "tanya_kevoteih",
-            "ba_mitana",
-            "rabbi_yishmael"
-          ]
-        },
         conceptRefs: [
           {
             id: "person.rabbi_yochanan",
@@ -5760,33 +5338,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "person.reish_lakish",
-            "person.rabbi_yochanan",
-            "person.rabbi_yehuda_ben_beteira"
-          ],
-          places: [
-            "place.mount_sinai"
-          ],
-          objects: [],
-          halacha: [
-            "concept.seven_day_separation",
-            "concept.sinai_paradigm",
-            "concept.indispensability"
-          ],
-          reasoning: [
-            "concept.derivation_overspecification",
-            "concept.lexical_precision",
-            "concept.general_principle_derivation"
-          ],
-          keyTerms: [
-            "matkin",
-            "mafrishin",
-            "machaneh_shechina",
-            "prisha_shisha"
-          ]
-        },
         conceptRefs: [
           {
             id: "person.reish_lakish",
@@ -6733,37 +6284,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "person.rabbi_yochanan",
-            "person.reish_lakish",
-            "person.rabbi_chiyya"
-          ],
-          places: [
-            "place.mount_sinai",
-            "place.mishkan"
-          ],
-          objects: [
-            "object.mei_chatat",
-            "object.dam_milluim"
-          ],
-          halacha: [
-            "concept.maaleh_bealma",
-            "concept.niknas_mayim_tachat_dam",
-            "concept.hazaah"
-          ],
-          reasoning: [
-            "concept.medium_substitution",
-            "concept.symmetrical_challenge",
-            "concept.resource_based_resolution"
-          ],
-          keyTerms: [
-            "hazaah",
-            "maaleh_bealma",
-            "niknas_mayim_tachat_dam",
-            "dam_milluim"
-          ]
-        },
         conceptRefs: [
           {
             id: "person.rabbi_yochanan",
@@ -7061,42 +6581,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "person.rabbi_yochanan",
-            "person.reish_lakish",
-            "person.moses",
-            "person.aaron",
-            "person.rabbi_yosi_hagalili",
-            "person.rabbi_akiva"
-          ],
-          places: [
-            "place.lishkat_parhedrin",
-            "place.holy_of_holies",
-            "place.mount_sinai"
-          ],
-          objects: [
-            "object.bezot_feminine",
-            "object.anan_cloud"
-          ],
-          halacha: [
-            "concept.two_scholars_train_kg",
-            "concept.sadducees_excluded",
-            "concept.l_dorot_for_all_generations"
-          ],
-          reasoning: [
-            "concept.grammatical_surplus",
-            "concept.closing_loophole_second_verse",
-            "concept.parallel_institutional_roles"
-          ],
-          keyTerms: [
-            "bezot",
-            "ladorot",
-            "tzedukim",
-            "machaneh_shechina",
-            "shiva_yamim"
-          ]
-        },
         conceptRefs: [
           {
             id: "person.rabbi_yochanan",
@@ -8152,35 +7636,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "person.rabbi_akiva",
-            "person.rabbi_natan",
-            "person.rabbi_matya_ben_charash",
-            "person.rav_adda_bar_mattana",
-            "person.rav",
-            "person.moses"
-          ],
-          places: [
-            "place.mount_sinai"
-          ],
-          objects: [
-            "object.anan_cloud"
-          ],
-          halacha: [
-            "concept.preparation_for_divine_encounter"
-          ],
-          reasoning: [
-            "concept.multi_layer_reading",
-            "concept.complementary_views"
-          ],
-          keyTerms: [
-            "malakhei_hasharet",
-            "vayikhasehu_haanan",
-            "gilu_biread",
-            "yirah_verimcha"
-          ]
-        },
         conceptRefs: [
           {
             id: "person.rabbi_natan",
@@ -8397,32 +7852,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "person.rabbi_yosi_hagalili",
-            "person.rabbi_akiva",
-            "person.rabbi_elazar_ben_azariah",
-            "person.moses"
-          ],
-          places: [
-            "place.mount_sinai"
-          ],
-          objects: [
-            "object.luchot"
-          ],
-          halacha: [],
-          reasoning: [
-            "concept.calendar_arithmetic",
-            "concept.external_date_constraint",
-            "concept.tannaitic_dispute_resolution"
-          ],
-          keyTerms: [
-            "shivah_besivan",
-            "shishah_besivan",
-            "yod_zayin_betammuz",
-            "arbaim_yom"
-          ]
-        },
         conceptRefs: [
           {
             id: "person.rabbi_yosi_hagalili",
@@ -8644,35 +8073,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "person.rabbi_elazar",
-            "person.rabbi_yishmael",
-            "person.moses"
-          ],
-          places: [
-            "place.ohel_moed",
-            "place.mount_sinai",
-            "place.yam_suf"
-          ],
-          objects: [],
-          halacha: [
-            "concept.derekh_eretz",
-            "concept.confidentiality_lemor"
-          ],
-          reasoning: [
-            "concept.gezerah_shavah",
-            "concept.distinction_call_vs_speech",
-            "concept.midrashic_reading"
-          ],
-          keyTerms: [
-            "kria",
-            "dibbur",
-            "lemor",
-            "betoch",
-            "derekh_eretz"
-          ]
-        },
         conceptRefs: [
           {
             id: "concept.derekh_eretz",
@@ -8866,30 +8266,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "person.rabbi_yochanan",
-            "person.rabbi_chanina",
-            "person.reish_lakish"
-          ],
-          places: [],
-          objects: [],
-          halacha: [
-            "concept.ikkuv_milvuim",
-            "concept.inauguration_requirements"
-          ],
-          reasoning: [
-            "concept.silence_as_concession",
-            "concept.inference_from_non_refutation",
-            "concept.strict_vs_limited_scope"
-          ],
-          keyTerms: [
-            "meakkev",
-            "kol_hakatuv_bahen",
-            "avodah_tamid",
-            "milvuim"
-          ]
-        },
         conceptRefs: [
           {
             id: "person.rabbi_yochanan",
@@ -10016,40 +9392,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "person.rav_yosef",
-            "person.rav_nachman_bar_yitzchak",
-            "person.rav_pappa",
-            "person.rabbi_yochanan",
-            "person.rabbi_chanina"
-          ],
-          places: [],
-          objects: [
-            "object.korban_olah",
-            "object.korban_chatat"
-          ],
-          halacha: [
-            "concept.semikha",
-            "concept.tenufah",
-            "concept.prisha",
-            "concept.shirei_mitzva",
-            "concept.inauguration_vs_ongoing"
-          ],
-          reasoning: [
-            "concept.matkin_vs_mafrishin",
-            "concept.shirei_mitzva_category",
-            "concept.derivation_by_atonement_verse"
-          ],
-          keyTerms: [
-            "semikha",
-            "tenufah",
-            "prisha",
-            "shirei_mitzva",
-            "matkin",
-            "mafrishin"
-          ]
-        },
         conceptRefs: [
           {
             id: "concept.shirei_mitzva",
@@ -10303,38 +9645,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          people: [
-            "person.ravina",
-            "person.rabbi_yitzchak_bar_bisna",
-            "person.rabbi_yochanan",
-            "person.rabbi_chanina"
-          ],
-          places: [],
-          objects: [
-            "object.bigdei_kehuna",
-            "object.shemen_hamishcha"
-          ],
-          halacha: [
-            "concept.rivui_begadim",
-            "concept.meshicha_shiva",
-            "concept.kachah_invalidation",
-            "concept.any_combination_valid",
-            "concept.anointment_seven_days"
-          ],
-          reasoning: [
-            "concept.scope_of_kachah",
-            "concept.juxtaposition_derivation",
-            "concept.open_stub"
-          ],
-          keyTerms: [
-            "rivui_begadim",
-            "meshicha_shiva",
-            "kachah",
-            "michal_mikol_makom",
-            "apher_itmake"
-          ]
-        },
         conceptRefs: [
           {
             id: "person.ravina",
@@ -11215,29 +10525,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            id: "gezerah-shavah",
-            he: "גְּזֵרָה שָׁוָה",
-            translit: "Gezerah shavah",
-            en: "A verbal analogy: when the same word or phrase appears in two different contexts, halakhic rules from one may be applied to the other. One of the thirteen hermeneutical rules of R. Yishmael.",
-            sugyaRole: "Rav Nachman bar Yitzchak uses the repeated word 'petach' to link the Exodus command and the Leviticus implementation, bridging both portions under a single invalidation standard."
-          },
-          {
-            id: "shirei-mitzva",
-            he: "שִׁיְרֵי מִצְוָה",
-            translit: "Shirei mitzva",
-            en: "A residual or secondary component of a mitzva: real and obligatory, but not an invalidation condition if omitted. Established in 5a for semikha and tenufah.",
-            sugyaRole: "Background concept: the Leviticus requirement bridges must determine which items are full invalidation conditions (like kachah mandates) versus secondary components."
-          },
-          {
-            id: "miqra-parasha",
-            he: "מִקְרָא פָּרָשָׁה",
-            translit: "Mikra parasha",
-            en: "The oral reading of the Torah portion to the assembly. R. Yochanan (via R. Shimon ben Yochai) holds that even this oral recitation was an indispensable inauguration requirement.",
-            sugyaRole: "R. Yochanan's addition shows that the inauguration requirements extend beyond physical acts to include communicative acts - reading aloud to the people was legally constitutive."
-          }
-        ],
         conceptRefs: [
           "gezerah-shavah",
           "shirei-mitzva",
@@ -11426,22 +10713,6 @@ const DAF_CONTENT = {
                 note: "Abaye's clarification narrowing the dispute to the belt"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            id: "tsivui-asiyah",
-            he: "צִוּוּי וַעֲשִׂיָּה",
-            translit: "Tsivui va-asiyah",
-            en: "Command portion and implementation portion. A recurring Yoma pattern: compare what God commanded with what Moses actually did. When they differ, a dispute arises about which version controls.",
-            sugyaRole: "The belt dispute is entirely a tsivui-vs-asiyah conflict: the command says belt together, the implementation shows sequential."
-          },
-          {
-            id: "avnet",
-            he: "אַבְנֵט",
-            translit: "Avnet",
-            en: "The priestly belt or sash. The single garment about which the entire dressing-order dispute turns - all other garments are undisputed.",
-            sugyaRole: "Abaye's key contribution is identifying the belt as the only genuinely disputed garment, eliminating all false scope."
           }
         ],
         conceptRefs: [
@@ -12625,22 +11896,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            id: "kilaim-begadim",
-            he: "כִּלְאַיִם בְּבִגְדֵי כְּהוּנָה",
-            translit: "Kilaim be-vigdei kehuna",
-            en: "Mixed-weave garments (wool and linen together, normally forbidden) worn by the priesthood. The Torah explicitly makes the High Priest's belt kilaim (Exodus 39:29). The ordinary priest's belt material is disputed.",
-            sugyaRole: "The disputed question is whether the ordinary priest's belt is also kilaim (like the High Priest's) or plain linen. This determines which verse teaches what."
-          },
-          {
-            id: "bvat-achat",
-            he: "בְּבַת אַחַת",
-            translit: "Be-vat achat",
-            en: "Simultaneously / all at once. Used in the belt dispute to describe whether Moses girded Aaron and sons in a single continuous act. The Gemara clarifies this means one uninterrupted operation - sequential but without breaking off to do anything else in between.",
-            sugyaRole: "The practical objection ('can you gird five people simultaneously?') is dissolved by clarifying that 'bvat achat' means uninterrupted sequence, not literal simultaneity."
-          }
-        ],
         conceptRefs: [
           "kilaim-begadim",
           "bvat-achat"
@@ -12817,22 +12072,6 @@ const DAF_CONTENT = {
                 note: "Corrected phrasing of R. Yehuda ben Beteira's concern"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            id: "safek-niddah",
-            he: "סָפֵק נִדָּה",
-            translit: "Safek niddah",
-            en: "Uncertain niddah status. Arises when blood is found after relations and it is unclear whether the woman had the status of niddah during the relations. The legal consequence depends on when the blood is discovered - immediately (all agree on retroactive impurity) or much later (R. Akiva vs. Rabbis disagree).",
-            sugyaRole: "The trigger for the Kohen Gadol's separation from his wife. If post-coital blood creates a seven-day impurity period, Yom Kippur service may be impossible. Prevention is preferable to cure."
-          },
-          {
-            id: "mafrish-bayit",
-            he: "פֵּרַשׁ מִבֵּיתוֹ",
-            translit: "Parash mi-beito",
-            en: "Separated from his home. The Kohen Gadol's separation from his wife, as distinct from his transfer to the Parhedrin chamber. These are two separate requirements with two separate justifications.",
-            sugyaRole: "This sugya addresses the second separation - from home (wife) - after the first (to Parhedrin) was already explained by reference to inauguration/Sinai precedent."
           }
         ],
         conceptRefs: [
@@ -13122,29 +12361,6 @@ const DAF_CONTENT = {
                 note: "Open question carrying into 6b"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            id: "boel-niddah-tevila",
-            he: "בּוֹעֵל נִדָּה טְבִילָתוֹ בַּיּוֹם",
-            translit: "Bo'el niddah teviltao ba-yom",
-            en: "A man who had relations with a niddah immerses on his seventh day (daytime), unlike the niddah who immerses at night. R. Zeira establishes this from the Yom Kippur scheduling impossibility.",
-            sugyaRole: "The core legal ruling of this sugya, proven by the impossibility argument and challenged (unsuccessfully) by two baraitot."
-          },
-          {
-            id: "chad-achar-vs-achar-achar",
-            he: "חַד אַחַר / אַחַר אַחַר",
-            translit: "Chad achar / achar achar",
-            en: "Rav Chisda's distinction: 'chad achar' = blood found immediately after relations (within the time to get up and wash); 'achar achar' = blood found much later. Rabbis agree with R. Akiva on retroactive impurity for chad achar; they dispute him only for achar achar.",
-            sugyaRole: "Rav Chisda uses this distinction to show the mishna's safek niddah concern applies even to the Rabbinic position - not just R. Akiva's stricter view."
-          },
-          {
-            id: "heerev-hashemesh",
-            he: "הֶעֱרֵב הַשֶּׁמֶשׁ",
-            translit: "He'erev hashemesh",
-            en: "Waiting for sunset after immersion. A tvul yom (one who immersed that day) is impure until sunset. This creates the scheduling bind: if bo'el niddah immersed on Yom Kippur night (the seventh day by night), he would need the following sunset to become fully pure - which is Yom Kippur itself.",
-            sugyaRole: "The critical element in R. Zeira's impossibility proof: even after immersion, the man must wait for sunset. If immersion is on Yom Kippur night, sunset comes too late to permit service."
           }
         ],
         conceptRefs: [
@@ -14317,29 +13533,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            id: "teyvuta",
-            he: "תְּיוּבְתָּא",
-            translit: "Teyvuta",
-            en: "A conclusive refutation - a proof that definitively overturns a position rather than merely creating a difficulty. When the Gemara says 'teyvuta,' the position is considered defeated.",
-            sugyaRole: "R. Chiyya's baraita is declared a teyvuta because it directly and explicitly enumerates bo'el niddah as a daytime immerser, leaving no room for reinterpretation."
-          },
-          {
-            id: "mishkav-umoshav",
-            he: "מִשְׁכָּב וּמוֹשָׁב",
-            translit: "Mishkav u-moshav",
-            en: "Impurity transmitted to a bed or chair even without direct contact. A person carrying mishkav/moshav impurity makes any surface they lie or sit on a rishon le-tumah (first-degree impurity), capable of rendering food and liquids impure. Bo'el niddah has this; tamei meit does not.",
-            sugyaRole: "The one respect in which bo'el niddah is more stringent than tamei meit - answering the question why bo'el niddah needs its own category even when its immersion timing matches tamei meit."
-          },
-          {
-            id: "hutrah-dchuya",
-            he: "הוּתְּרָה / דְּחוּיָה",
-            translit: "Hutrah / Dchuya",
-            en: "Fully permitted vs. merely overridden. Hutrah: a Torah prohibition is suspended for public service - no need to minimize or seek alternatives. Dchuya: the prohibition remains but is pushed aside by necessity - must still minimize by seeking purity where possible.",
-            sugyaRole: "The central legal question of 6b-7a: which describes tumas meit in the context of tzibbur service? The practical stakes are major: whether pure priests must be sought when possible."
-          }
-        ],
         conceptRefs: [
           "teyvuta",
           "mishkav-umoshav",
@@ -14549,22 +13742,6 @@ const DAF_CONTENT = {
                 note: "Second version of the dispute (ikka de-amrei)"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            id: "beit-av",
-            he: "בֵּית אָב",
-            translit: "Beit av",
-            en: "The smallest priestly division, a subdivision of the weekly mishmar (watch). On any given day of the week, a specific beit av was assigned Temple service. The hutrah/dchuya dispute turns on what happens when the beit av on duty is entirely impure.",
-            sugyaRole: "The disputed question is whether to summon a different beit av's priests when the duty beit av is impure. Rav Nachman: no. Rav Sheshet: yes."
-          },
-          {
-            id: "hutrah-dchuya-practical",
-            he: "הֶיתֵּר / דְּחִיָּה",
-            translit: "Heiter / Dechiyah",
-            en: "The practical programs generated by hutrah vs. dchuya. Hutrah: the prohibition does not exist here, so no minimization is required. Dchuya: the prohibition still exists and is overridden - so wherever possible, you must minimize by seeking the permitted alternative.",
-            sugyaRole: "The key to reading the dispute: hutrah means no cross-beit-av search; dchuya means you must conduct that search."
           }
         ],
         conceptRefs: [
@@ -15306,36 +14483,6 @@ const DAF_CONTENT = {
                 note: "The tzitz atones for tumah - inference continues on 7b"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            id: "par-helem-davar",
-            he: "פַּר הֶעְלֵם דָּבָר",
-            translit: "Par he'elem davar",
-            en: "The bull brought when the entire community has sinned through idolatry based on an erroneous ruling from the Sanhedrin. A communal offering but with no fixed time for its sacrifice - it is brought only when the specific sin occurs.",
-            sugyaRole: "Rav Nachman's first identification in the disaggregation of 'bulls' - since it has no fixed time, dchuya (not hutrah) applies to it, so the baraita's ruling is consistent with his hutrah position for fixed-time communal offerings."
-          },
-          {
-            id: "tzitz",
-            he: "צִיץ",
-            translit: "Tzitz",
-            en: "The golden frontplate worn by the Kohen Gadol on his forehead. It atones for and effects acceptance of offerings that became impure. The Gemara is establishing exactly which types of impurity-related invalidations the tzitz can remedy.",
-            sugyaRole: "The tzitz baraita is Rav Sheshet's fourth proof for dchuya - the tzitz is listed as needed for communal impurity, which would be unnecessary if communal impurity were hutrah."
-          },
-          {
-            id: "piggul-notar",
-            he: "פִּגּוּל / נוֹתָר",
-            translit: "Piggul / Notar",
-            en: "Piggul: an offering invalidated by the intention to eat or sacrifice it outside the permitted time and place - Torah declares it 'will not be accepted.' Notar: meat left after the permitted eating time - Torah declares it 'will not be credited.' Neither can be remedied by the tzitz because the Torah has already disqualified them.",
-            sugyaRole: "By eliminating piggul and notar, the Gemara concludes that the tzitz atones only for tumah. This elimination will drive the argument for hutrah in the next daf."
-          },
-          {
-            id: "hevei-pikeach-ushtok",
-            he: "הֱוֵי פִּקֵּחַ וּשְׁתוֹק",
-            translit: "Hevei pikeach ushток",
-            en: "Be shrewd and keep silent. A pragmatic instruction to proceed with the impure offering without disclosing its impurity when there is no replacement available. The instruction exists precisely because disclosure would require a replacement - suggesting dchuya is in force.",
-            sugyaRole: "Appears in both the omer and the bulls/rams/sheep baraitot. Rav Sheshet reads the very existence of this instruction as proving dchuya: you seek a replacement because the prohibition is still operative."
           }
         ],
         conceptRefs: [
@@ -16348,13 +15495,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "Tzitz",
-            he: "צִיץ",
-            definition: "The golden frontplate worn on the High Priest's forehead inscribed 'Kodesh l'Hashem'; it effects atonement for certain ritual violations including tumah."
-          }
-        ],
         conceptRefs: [
           "tzitz",
           "dchuya-vs-hutrah",
@@ -16512,18 +15652,6 @@ const DAF_CONTENT = {
                 note: "Kal v'chomer from tzitz to tefillin"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "Tamid liratzon",
-            he: "תָּמִיד לְרָצוֹן",
-            definition: "R. Shimon's reading of the tzitz verse: the tzitz perpetually effects acceptance, even when not physically on the forehead."
-          },
-          {
-            term: "Kal v'chomer",
-            he: "קַל וָחוֹמֶר",
-            definition: "A fortiori inference: if the lighter case (tzitz, one divine name) carries a rule, the heavier case (tefillin, many divine names) certainly does."
           }
         ],
         conceptRefs: [
@@ -17037,18 +16165,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "Rauy l'mitzcho",
-            he: "רָאוּי לְמִצְחוֹ",
-            definition: "Fit for the forehead - the principle that for the tzitz to atone, it must be in a state fit to be worn on the forehead (i.e., not broken). Derived from 'v'nasa' in the tzitz verse."
-          },
-          {
-            term: "Kal v'chomer",
-            he: "קַל וָחוֹמֶר",
-            definition: "A fortiori inference: if the lighter case (tzitz, one divine name) carries a rule (mindfulness), the heavier case (tefillin, many names) certainly does."
-          }
-        ],
         conceptRefs: [
           "tzitz",
           "rauy-l'mitzcho",
@@ -17294,23 +16410,6 @@ const DAF_CONTENT = {
                 note: "R. Chanina Segan's position explained"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "Hazaah",
-            he: "הַזָּאָה",
-            definition: "Ritual sprinkling of purification water mixed with para aduma (Red Heifer) ash, performed on day 3 and day 7 after corpse impurity. The question here is whether additional sprinklings are required."
-          },
-          {
-            term: "Tevila bizmana mitzva",
-            he: "טְבִילָה בִּזְמַנָּהּ מִצְוָה",
-            definition: "The principle that immersion performed at its halakhically designated time (the seventh day of purification) is itself a mitzva, not merely a prerequisite. Both R. Meir and R. Yosei accept this."
-          },
-          {
-            term: "Para aduma",
-            he: "פָּרָה אֲדֻמָּה",
-            definition: "The Red Heifer, whose ash mixed with water was used to purify those who had contracted corpse impurity. The priest who burned the heifer also required a special separation and purification."
           }
         ],
         conceptRefs: [
@@ -18033,18 +17132,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "Shvut",
-            he: "שְׁבוּת",
-            definition: "A Rabbinic prohibition on Shabbat - an action not biblically forbidden on Shabbat but forbidden by Rabbinic decree. Hazaah (sprinkling) is a shvut and does not override Shabbat."
-          },
-          {
-            term: "Biddayn talya milta",
-            he: "בְּדִידַן תָּלְיָא מִילְּתָא",
-            definition: "The matter depends on us - when we control the timing of a process, we can schedule it optimally. Contrasted with calendar-fixed dates that depend on external factors."
-          }
-        ],
         conceptRefs: [
           "shvut",
           "scheduling-control",
@@ -18192,23 +17279,6 @@ const DAF_CONTENT = {
                 note: "Historical explanation of name change"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "Parhedrin",
-            he: "פַּרְהֶדְרִין",
-            definition: "Persian governors who served one-year rotating terms. The term was applied to Second Temple High Priests who were politically appointed and replaced annually, mocking the degradation of the office."
-          },
-          {
-            term: "Lishkat Balvati",
-            he: "לִשְׁכַּת בַּלְווָטִי",
-            definition: "Chamber of Nobles (from Latin 'bouleutai', senators/nobles). The original name of the chamber housing the High Priest, from the era of Shimon HaTzaddik when the High Priesthood was held with dignity."
-          },
-          {
-            term: "Dema'i",
-            he: "דְּמַאי",
-            definition: "Produce of doubtful tithe status - purchased from an am ha'aretz who may or may not have separated tithes. Rabbinic stringencies applied to dema'i differ from those for definite tevel (untithed produce)."
           }
         ],
         conceptRefs: [
@@ -18372,13 +17442,6 @@ const DAF_CONTENT = {
                 note: "Maaser sheni explanation deferred to 9a"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "Hamotzi m'chaveiro alav hara'ayah",
-            he: "הַמּוֹצִיא מֵחֲבֵרוֹ עָלָיו הָרְאָיָה",
-            definition: "The one who seeks to extract from another bears the burden of proof. Applied here: Levi or poor person claiming maaser from the baker must prove the baker did not already separate it."
           }
         ],
         conceptRefs: [
@@ -19272,18 +18335,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "Dema'i",
-            he: "דְּמַאי",
-            definition: "Produce from an am ha'aretz with uncertain tithe status. The Rabbis required partial separation (trumat maaser, challah) but assumed trumah gedolah had already been taken and were lenient on some other tithes."
-          },
-          {
-            term: "Hamotzi m'chaveiro alav hara'ayah",
-            he: "הַמּוֹצִיא מֵחֲבֵרוֹ עָלָיו הָרְאָיָה",
-            definition: "The one who seeks to extract from another bears the burden of proof. Applied here: the Levi or poor man claiming maaser must prove the baker did not already separate it."
-          }
-        ],
         conceptRefs: [
           "dema'i",
           "burden-of-proof",
@@ -19426,18 +18477,6 @@ const DAF_CONTENT = {
                 note: "Arithmetic of Second Temple High Priest tenures"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "Bizayon kodashim",
-            he: "בִּזָּיוֹן קֳדָשִׁים",
-            definition: "Degradation of sacred offerings - a sin attributed to Eli's sons who would take raw meat before the fat was burned, mishandling the korbanot."
-          },
-          {
-            term: "Giluy arayot",
-            he: "גִּלּוּי עֲרָיוֹת",
-            definition: "Forbidden sexual relations - one of the three cardinal sins. Attributed to Eli's sons (in the surface reading); rehabilitated by R. Shmuel bar Nachmani as meaning the delay of women's bird-offerings."
           }
         ],
         conceptRefs: [
@@ -19594,13 +18633,6 @@ const DAF_CONTENT = {
                 note: "Rehabilitation of Eli's sons from literal adultery charge"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "Kanim",
-            he: "קִינִּים",
-            definition: "Bird-offerings (pairs of doves or pigeons) brought by women after childbirth or bodily flux. Eli's sons delayed processing them, keeping women impure and separated from their husbands."
           }
         ],
         conceptRefs: [
@@ -20030,13 +19062,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "Kanim",
-            he: "קִינִּים",
-            definition: "Bird-offerings (pairs of doves or pigeons) brought by women after childbirth, bodily flux, or other situations requiring purification. Delay in processing them prevented women from achieving purity."
-          }
-        ],
         conceptRefs: [
           "bizayon-kodashim",
           "kanim",
@@ -20229,23 +19254,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "Sinat chinam",
-            he: "שִׂנְאַת חִנָּם",
-            definition: "Baseless hatred - hatred without legitimate cause. The Talmud identifies this as the reason for the destruction of the Second Temple and the cause of the longer exile."
-          },
-          {
-            term: "Yehareg v'al ya'avor",
-            he: "יֵהָרֵג וְאַל יַעֲבֹר",
-            definition: "One should be killed rather than transgress - the three cardinal sins (avodah zarah, giluy arayot, shefichut damim) are in this category: a Jew must die rather than violate them."
-          },
-          {
-            term: "Ahavat chinam",
-            he: "אַהֲבַת חִנָּם",
-            definition: "Baseless love - the corrective to sinat chinam, often mentioned as the key to the redemption. Not explicitly in this passage but implied as the repair."
-          }
-        ],
         conceptRefs: [
           "sinat-chinam",
           "Temple-destruction",
@@ -20401,13 +19409,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "Sinat chinam",
-            he: "שִׂנְאַת חִנָּם",
-            definition: "Baseless hatred - hatred without cause. The Talmud identifies it as the cause of the Second Temple's destruction and the reason the exile has no revealed end."
-          }
-        ],
         conceptRefs: [
           "sinat-chinam",
           "Temple-destruction",
@@ -20550,13 +19551,6 @@ const DAF_CONTENT = {
                 note: "Dispute about relative greatness of former vs. latter generations"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "Nesi'im",
-            he: "נְשִׂיאִים",
-            definition: "Princes or leaders of Israel. In this context: the First Temple leaders who harbored sinat chinam among themselves while the people could still be rebuked."
           }
         ],
         conceptRefs: [
@@ -20715,13 +19709,6 @@ const DAF_CONTENT = {
                 note: "Question about whether Reish Lakish would speak with Rabba bar bar Chana"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "Sasmagor",
-            he: "סַסְמָגוֹר",
-            definition: "A wood-boring rot or insect that destroys cedar from within. Used metaphorically for the partial Shechina presence in the Second Temple due to incomplete aliyah."
           }
         ],
         conceptRefs: [
@@ -20923,18 +19910,6 @@ const DAF_CONTENT = {
                 note: "R. Yochanan confirms the Reish Lakish rebuke"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "Bat kol",
-            he: "בַּת קוֹל",
-            definition: "Heavenly voice - the form of divine communication that replaced direct prophecy after the last prophets (Haggai, Zechariah, Malachi). Lower in authority than prophecy but still used in halachic and narrative contexts."
-          },
-          {
-            term: "Ruach HaKodesh",
-            he: "רוּחַ הַקֹּדֶשׁ",
-            definition: "The Holy Spirit or prophetic spirit - the direct channel of divine inspiration available to prophets. It ceased from Israel when the last prophets (Haggai, Zechariah, Malachi) died."
           }
         ],
         conceptRefs: [
@@ -21736,18 +20711,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            he: "יֶפֶת",
-            translit: "Yefet",
-            definition: "Japheth, son of Noah; his descendants include Persia (Tiras) and Greece (Yavan) according to the Gemara's identification."
-          },
-          {
-            he: "אֻמּוֹת הָעוֹלָם",
-            translit: "Umot HaOlam",
-            definition: "The nations of the world; in Rabbinic literature, non-Jewish nations are often discussed in terms of their biblical genealogy and prophetic destiny."
-          }
-        ],
         conceptRefs: [],
         requiresUnderstanding: [
           "Genesis 9-10 and the Table of Nations",
@@ -21900,18 +20863,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            he: "אֱדוֹם",
-            translit: "Edom",
-            definition: "Esau's kingdom; in Rabbinic literature, the code name for Rome. The identification shapes how prophecies about Esau are read as applying to Roman civilization."
-          },
-          {
-            he: "גָּלוּת",
-            translit: "Galut",
-            definition: "Exile; the condition of Israel under foreign domination. The Rome-Persia debate is ultimately about which galut comes last before redemption."
-          }
-        ],
         conceptRefs: [],
         requiresUnderstanding: [
           "The Rabbinic identification of Rome with Edom/Esau",
@@ -22061,23 +21012,6 @@ const DAF_CONTENT = {
                 note: "The imprisonment concern"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            he: "לִשְׁכַּת פַּרְהֶדְרִין",
-            translit: "Lishkat Parhedrin",
-            definition: "The chamber in the Temple where the High Priest resided for seven days before Yom Kippur, to ensure purity and preparation."
-          },
-          {
-            he: "מְזוּזָה",
-            translit: "Mezuza",
-            definition: "The parchment scroll containing Shema passages affixed to doorposts of Jewish homes; obligatory for a 'dwelling' that meets halakhic criteria."
-          },
-          {
-            he: "דִּירַת כֶּבֶד",
-            translit: "Dirat Kavod",
-            definition: "Dignified or honorable residence; a halakhic concept relevant to determining whether a space triggers mezuza and other dwelling-related obligations."
           }
         ],
         conceptRefs: [],
@@ -22767,18 +21701,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            he: "דִּירַת קֶבַע",
-            translit: "Dirat Keva",
-            definition: "Permanent-style dwelling; the threshold R. Yehuda requires for sukka, which also triggers mezuza obligation."
-          },
-          {
-            he: "דִּירַת אֲנוּסִים",
-            translit: "Dirat Anusim",
-            definition: "Coerced residence; a dwelling occupied under compulsion. According to R. Yehuda, this does not create a mezuza obligation because it lacks the voluntary character of true 'dwelling.'"
-          }
-        ],
         conceptRefs: [],
         requiresUnderstanding: [
           "R. Yehuda's sukka requirement for permanent structure",
@@ -22891,18 +21813,6 @@ const DAF_CONTENT = {
                 note: "Single-decree resolution"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            he: "תַּנָּא",
-            translit: "Tanna",
-            definition: "A Mishnaic-era Sage whose opinions are recorded in the Mishnah and Baraitot; identifying which tanna holds an anonymous position is a standard Talmudic exercise."
-          },
-          {
-            he: "בַּרַיְיתָא",
-            translit: "Baraita",
-            definition: "A teaching from the Tannaitic era not included in the Mishnah; often cited in the Gemara to support or challenge arguments."
           }
         ],
         conceptRefs: [],
@@ -23351,18 +22261,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            he: "גְּזֵירָה לִגְזֵירָה",
-            translit: "Gezeira ligzeira",
-            definition: "A decree to protect a decree - ordinarily prohibited in rabbinic legislation, since stacking decrees leads to unintended expansion of obligations."
-          },
-          {
-            he: "שַׁעַר נִיקָנוֹר",
-            translit: "Sha'ar Nikanor",
-            definition: "The Nicanor Gate - the eastern gate of the Temple courtyard, named after Nikanor of Alexandria who donated its copper doors. The only Temple gate with a mezuza, because caretakers resided in its chambers."
-          }
-        ],
         conceptRefs: [],
         requiresUnderstanding: [
           "The prohibition on gezeira ligzeira (stacking rabbinic decrees)",
@@ -23512,18 +22410,6 @@ const DAF_CONTENT = {
                 note: "Samuel's precedent for avoiding predictable danger"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            he: "שְׁלוּחֵי מִצְוָה אֵינָן נִזּוֹקִין",
-            translit: "Shluchei mitzva einan nizzokin",
-            definition: "Agents performing a mitzva are not harmed - a general principle of divine protection for those fulfilling commandments, which applies only to unpredictable supernatural danger, not to fixed human-imposed consequences."
-          },
-          {
-            he: "אָבוּלֵי",
-            translit: "Abulei",
-            definition: "City gates (from Greek 'abile') - the large gates of a walled city that require a mezuza when people reside within the walls."
           }
         ],
         conceptRefs: [],
@@ -23720,18 +22606,6 @@ const DAF_CONTENT = {
                 note: "Second baraita - conflict that will be resolved on 11b"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            he: "נָשִׁים נְעוֹתוֹת בָּהֶן",
-            translit: "Nashim ne'otot bahen",
-            definition: "Women frequent them - the criterion used to determine whether a storehouse has residential/domestic character. The same phrase is interpreted differently by Rav Kahana (women draw wine = domestic) and Rav Yehuda (women bring wine commercially = not domestic)."
-          },
-          {
-            he: "בֵּית הָאוֹצָר",
-            translit: "Beit ha'otsar",
-            definition: "Storehouse - one of the non-obvious structures whose mezuza status depends on whether its use has domestic character (people regularly access it for household needs) rather than purely commercial or animal-serving purposes."
           }
         ],
         conceptRefs: [],
@@ -24512,18 +23386,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            he: "דִּירַת כָּבוֹד",
-            translit: "Dirat kavod",
-            definition: "A dwelling of honor - one of the positive conditions for mezuza obligation. Structures used for undignified purposes (bathrooms, tanneries) fail this test and are exempt even if people are regularly present."
-          },
-          {
-            he: "בֵּית שַׁעַר",
-            translit: "Beit sha'ar",
-            definition: "Gatehouse - a small structure at the entrance to a courtyard. Exempt from mezuza because it is a passageway, not a dwelling, even though people regularly pass through it."
-          }
-        ],
         conceptRefs: [],
         requiresUnderstanding: [
           "The three conditions for mezuza obligation: dwelling, honor, mundane residential",
@@ -24655,18 +23517,6 @@ const DAF_CONTENT = {
                 note: "The chokkein lehashlem dispute - R. Meir's distinctive principle"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            he: "חוֹקְקִין לְהַשְׁלִים",
-            translit: "Chokkein lehashlem",
-            definition: "Theoretical completion - R. Meir's principle that if a space could be carved or enlarged to meet a minimum measurement, treat it as if it already meets that measurement. The Rabbis reject this principle."
-          },
-          {
-            he: "שַׁעַר הַמָּדִי",
-            translit: "Sha'ar haMadi",
-            definition: "The Median gate - a domed arch style of entry (common in Media/Persia) that has no proper doorposts. Its mezuza status is disputed because it lacks the rectangular frame that normally holds a mezuza."
           }
         ],
         conceptRefs: [],
@@ -24838,18 +23688,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            he: "נֶגַע בָּתִּים",
-            translit: "Nega batim",
-            definition: "House-plague (tzaraat of a building) - the divine affliction described in Leviticus 14 that can appear on the walls of a house, obligating an inspection and potentially demolition. Subject to a personal-ownership requirement similar to mezuza."
-          },
-          {
-            he: "בֵּית הַכְּנֶסֶת",
-            translit: "Beit hakenesset",
-            definition: "Synagogue - a communal house of prayer. Subject to mezuza and tzaraat when a caretaker's personal residence is attached to it, giving the structure a 'personal owner' in the halakhic sense."
-          }
-        ],
         conceptRefs: [],
         requiresUnderstanding: [
           "The basic laws of tzaraat (house-plague) from Leviticus 14",
@@ -25002,18 +23840,6 @@ const DAF_CONTENT = {
                 note: "Third resolution: caretaker distinction - the most precise answer"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            he: "חַזָּן",
-            translit: "Chazzan",
-            definition: "Synagogue caretaker/sexton - in Talmudic usage, the person who maintained the synagogue and often lived on the premises. His residence transforms the synagogue's legal character for both mezuza and tzaraat purposes."
-          },
-          {
-            he: "בֵּית עוֹלָם",
-            translit: "Beit olam",
-            definition: "Eternal house - one of the euphemisms the Gemara uses for structures that are not personal residences but are designated for long-term communal use. Relevant to the question of whether such structures can be 'his house' for tzaraat."
           }
         ],
         conceptRefs: [],
@@ -25787,18 +24613,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            he: "לִשְׁכַּת הַגָּזִית",
-            translit: "Lishkat HaGazit",
-            definition: "The Chamber of Hewn Stone; the seat of the Sanhedrin in the Temple complex, located in Judah's tribal portion according to the baraita."
-          },
-          {
-            he: "חֵלֶק שֶׁל בִּנְיָמִין",
-            translit: "Chelek shel Binyamin",
-            definition: "Benjamin's tribal portion in Jerusalem; according to R. Yehuda's view of the division, the Altar, Heikhal, and Holy of Holies stood in Benjamin's portion."
-          }
-        ],
         conceptRefs: [],
         requiresUnderstanding: [
           "The tribal allocation of Eretz Yisrael",
@@ -25949,23 +24763,6 @@ const DAF_CONTENT = {
                 note: "Abaye's counter-proposal"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            he: "אַבְנֵט",
-            translit: "Avnet",
-            definition: "The priestly belt; worn by both regular kohanim and the Cohen Gadol (with different materials). Rav Adda proposes this single garment can invest a kohen with Cohen Gadol status in an emergency."
-          },
-          {
-            he: "צִינּוֹרָא",
-            translit: "Tzinnora",
-            definition: "A fork-like ritual instrument; Abaye holds this must be part of the emergency investiture along with the full set of eight High Priestly garments."
-          },
-          {
-            he: "שְׁמוֹנָה בְּגָדִים",
-            translit: "Shmonah Begadim",
-            definition: "The eight garments of the High Priest; the full set that the Cohen Gadol wears during the regular Temple service, as distinct from the four white garments of Yom Kippur."
           }
         ],
         conceptRefs: [],
@@ -27027,16 +25824,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "avodato m'chanakhto",
-            def: "Service itself inaugurates - performing a priestly function is the rite of initiation, no separate ceremony needed."
-          },
-          {
-            term: "mishchatam m'kadshatan",
-            def: "Their anointing consecrates them - the first-generation method of consecrating Temple vessels via oil."
-          }
-        ],
         conceptRefs: [
           "Yoma.12b.1"
         ],
@@ -27218,20 +26005,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "kilayim",
-            def: "A forbidden mixture - specifically wool and linen woven together (sha'atnez). Permitted only for Temple priestly garments."
-          },
-          {
-            term: "buz",
-            def: "Fine linen; the material of the KG's four Yom Kippur garments and (per Rabbi Elazar b'Rabbi Shimon) the common priest's belt."
-          },
-          {
-            term: "avnet",
-            def: "The priestly belt; its material differs between KG and common priest, and between Yom Kippur and the rest of the year - the focus of this dispute."
-          }
-        ],
         conceptRefs: [
           "Yoma.12b.2",
           "Yoma.12b.8"
@@ -27390,16 +26163,6 @@ const DAF_CONTENT = {
                 note: "Emergency exception"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "kvodin shel kehuna gedola",
-            def: "The obligations of the KG - cannot marry a widow, cannot become impure for relatives, must serve on Yom Kippur. R. Meir says the replacement retains these even when the original recovers."
-          },
-          {
-            term: "ein moridim m'gedula",
-            def: "We do not demote someone from a higher sacred office - once appointed KG, you cannot step down to common priesthood, creating the suspended status in R. Yosei's ruling."
           }
         ],
         conceptRefs: [
@@ -28473,16 +27236,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "tzarah",
-            def: "Literally 'rival' or 'trouble' - a co-wife in a polygamous household. Used here as an analogy for the replacement KG's relationship to the original, which Rav rejects."
-          },
-          {
-            term: "avodato kesheira",
-            def: "His service is valid - even if the suspended replacement served in violation of the ruling, the Temple service itself is not retroactively invalidated."
-          }
-        ],
         conceptRefs: [
           "Yoma.13a.1",
           "Yoma.13a.2"
@@ -28643,16 +27396,6 @@ const DAF_CONTENT = {
                 note: "Asymmetry resolved"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "zariz hu",
-            def: "He is diligent - the KG's vigilance about ritual purity makes impurity a preventable risk, justifying the preparation of a backup priest. Death, by contrast, cannot be prevented by diligence."
-          },
-          {
-            term: "bayto",
-            def: "His house - the Torah's requirement (Leviticus 16) that the KG have a 'house' (i.e., a wife) on Yom Kippur. This is the basis for R. Yehuda's backup wife concern."
           }
         ],
         conceptRefs: [
@@ -28858,20 +27601,6 @@ const DAF_CONTENT = {
                 note: "Final attempts"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "get al tenai",
-            def: "A conditional bill of divorce - the divorce takes effect only if a specified condition is met or not met. The complex Talmudic rules about retroactivity and timing are at stake here."
-          },
-          {
-            term: "keritut",
-            def: "Severance - the Torah requires a get to be a complete severing of the marital bond. Any divorce formula that leaves the wife continuously 'tied' to the husband through a condition fails this requirement."
-          },
-          {
-            term: "bayto",
-            def: "His house - in the context of the KG's Yom Kippur service, requires having exactly one wife. Having no wife or two wives at the moment of service violates this requirement."
           }
         ],
         conceptRefs: [
@@ -29487,16 +28216,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "yibum",
-            def: "Levirate marriage - when a man dies childless, his widow must either marry his brother (yibum) or be released (chalitza). The formula here raises complications for this law."
-          },
-          {
-            term: "tenai kaful",
-            def: "Double condition - a divorce condition stated both positively and negatively. The two-wife solution uses complementary conditions rather than a single doubled condition."
-          }
-        ],
         conceptRefs: [
           "Yoma.13b.1",
           "Yoma.13b.2"
@@ -29641,16 +28360,6 @@ const DAF_CONTENT = {
                 note: "Second yibum objection"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "arusah",
-            def: "A betrothed woman who has not yet entered her husband's home (kiddushin without nisuin). Her status regarding yibum is the subject of this brief discussion."
-          },
-          {
-            term: "bayto",
-            def: "His house - used in both the KG's YK requirement (Leviticus 16) and the yibum obligation (Deuteronomy 25). The word's scope differs in each context."
           }
         ],
         conceptRefs: [
@@ -29824,16 +28533,6 @@ const DAF_CONTENT = {
                 note: "Abaye's challenge"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "onen",
-            def: "A person in acute mourning - from the time a close relative dies until burial. Forbidden to eat sacred food, but all other prohibitions are rabbinic. For the KG, the Yom Kippur service obligation overrides the acute mourning state."
-          },
-          {
-            term: "kol hayom",
-            def: "The whole day - R. Yehuda's addition to the baraita, interpreted by Rava as a mitzva to keep the onen KG actively engaged in Temple service throughout Yom Kippur."
           }
         ],
         conceptRefs: [
@@ -30443,16 +29142,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "gezeira shema yokhal",
-            def: "A rabbinic decree lest he eat - the preventive measure that keeps the onen KG from serving on regular days, applied because of the realistic risk of accidentally eating kodshim when everyone else is eating."
-          },
-          {
-            term: "itroda",
-            def: "Distraction, mental preoccupation - even without full onen status, extreme emotional distraction can disqualify the KG from Yom Kippur service because it affects his concentration and fitness."
-          }
-        ],
         conceptRefs: [
           "Yoma.14a.1",
           "Yoma.14a.2"
@@ -30578,16 +29267,6 @@ const DAF_CONTENT = {
                 note: "The mishna's ruling"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "shivat yamim",
-            def: "Seven days - the pre-Yom Kippur sequestration period, during which the KG is isolated in the Parhedrin chamber to ensure he arrives at Yom Kippur in a state of purity."
-          },
-          {
-            term: "meitev et ha-nerot",
-            def: "Cleaning the menorah lamps (removing old wicks and ash); one of the daily Temple services the KG performs during his seven-day preparation."
           }
         ],
         conceptRefs: [
@@ -30814,20 +29493,6 @@ const DAF_CONTENT = {
                 note: "Further analysis"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "mei para",
-            def: "Purification water - the water mixed with red heifer ashes used to purify those who became impure through contact with a corpse. It both purifies (the impure) and impurifies (the pure handlers)."
-          },
-          {
-            term: "chok",
-            def: "A divine decree without apparent logical explanation. Para aduma is the paradigmatic chok: its opposite effects (purifying/impurifying) transcend ordinary cause-and-effect."
-          },
-          {
-            term: "al ha-tamei yitaher",
-            def: "'On the impure, it purifies' - the verse from Numbers 19 about purification water. R. Akiva derives from the extra 'al' that it also impurifies the pure; the Sages interpret it as a scope limitation."
           }
         ],
         conceptRefs: [
@@ -31815,16 +30480,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "lefanya",
-            def: "Toward the evening - the time when the purification water is sprinkled on the KG during his seven-day sequestration, after all daily service is complete."
-          },
-          {
-            term: "ha'arev shemesh",
-            def: "Sunset/nightfall - the final step of purification after immersion from most forms of impurity. The KG immerses after the evening sprinkling and is fully purified at nightfall."
-          }
-        ],
         conceptRefs: [
           "Yoma.14b.1"
         ],
@@ -31990,16 +30645,6 @@ const DAF_CONTENT = {
                 note: "Rabbi Yochanan's attribution"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "stam mishnah",
-            def: "Anonymous mishna - a ruling without a named author, assumed to reflect the majority/accepted view. Identifying the author helps clarify whose position it follows when disputes arise."
-          },
-          {
-            term: "R. Shimon ish HaMitzpah",
-            def: "A Tanna who is cited in the Tosefta discussing Temple service order. Rabbi Yochanan attributes authorship of tractate Yoma to him."
           }
         ],
         conceptRefs: [
@@ -32182,16 +30827,6 @@ const DAF_CONTENT = {
                 note: "Analysis of derivations"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "hatavat ha-nerot",
-            def: "Cleaning/tending the menorah lamps - removing used wicks and ash, preparing for re-lighting. Split into two sessions in the daily Temple service: five lamps first, two remaining later."
-          },
-          {
-            term: "ketoret",
-            def: "Incense offering burned on the golden altar in the Temple twice daily (morning and afternoon). Its placement relative to lamp-cleaning is the dispute between Abba Shaul and the Rabbanan."
           }
         ],
         conceptRefs: [
@@ -33246,16 +31881,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "ketoret",
-            def: "Incense burned on the golden altar in the Sanctuary. The dispute here is whether it precedes or follows the lamp-tending in the morning service."
-          },
-          {
-            term: "hatavat ha-nerot",
-            def: "Tending (cleaning and refilling) the seven-branched menorah. One of the first morning Temple services, whose sequencing relative to incense is disputed."
-          }
-        ],
         conceptRefs: [
           "Yoma.15a.1",
           "Yoma.15a.2",
@@ -33431,16 +32056,6 @@ const DAF_CONTENT = {
                 note: "Abaye's recontextualization"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "stam mishna",
-            def: "An anonymous, unattributed mishna - assumed to represent the majority/accepted view. Identifying the anonymous author helps clarify disputed points."
-          },
-          {
-            term: "risha/seifa",
-            def: "The beginning and end of a mishna. When Rav Pappa or Abaye say 'risha... Rabbanan, seifa... Abba Shaul' they are attributing different sections of the same mishna to different authorities."
           }
         ],
         conceptRefs: [
@@ -33672,20 +32287,6 @@ const DAF_CONTENT = {
                 note: "Unresolved conclusion"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "matanot dam",
-            def: "Blood applications to the altar or its horns. Olah requires two applications at opposite corners; chatat requires four horn applications. R. Shimon requires both for the tamid."
-          },
-          {
-            term: "lo matzinu",
-            def: "'We have not found' - the principle that halacha does not recognize a configuration that has no established precedent. Used here to reject any blood that would atone and re-atone."
-          },
-          {
-            term: "tamid",
-            def: "The daily communal burnt offering brought twice daily. R. Shimon ish HaMitzpah derives from Scripture that it requires both olah and chatat-style blood rites."
           }
         ],
         conceptRefs: [
@@ -34790,12 +33391,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "tohoro shel mizbeach",
-            def: "The 'purity' or top surface of the altar - the exposed upper face onto which the seven sprinklings of the inner service are directed."
-          }
-        ],
         conceptRefs: [
           "Yoma.15b.1"
         ],
@@ -34950,12 +33545,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "yesod",
-            def: "The altar's foundation base - a protruding ledge below the main altar surface. Olah blood must be applied where there is a yesod below the application point. The northeast corner lacks this ledge."
-          }
-        ],
         conceptRefs: [
           "Yoma.15b.2",
           "Yoma.15b.3",
@@ -35079,12 +33668,6 @@ const DAF_CONTENT = {
                 note: "Directional question about the verse equation"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "shnei katuv ha-ba k'echad",
-            def: "When a verse seems to contain two directives simultaneously. Here: chatat rules and olah identity in the same phrase. The interpretation depends on which element governs the other."
           }
         ],
         conceptRefs: [
@@ -35225,12 +33808,6 @@ const DAF_CONTENT = {
                 note: "Rav Huna's authorship claim sets up 16a"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "Lishkat HaTelayim",
-            def: "Chamber of the Lambs - the room in the Beit HaMoked complex where the daily tamid lambs were kept, inspected, and prepared. Its exact location is disputed between Yoma and Middot."
           }
         ],
         conceptRefs: [
@@ -36339,12 +34916,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "R. Eliezer ben Yaakov",
-            def: "A Tanna known for his Temple descriptions. The saying 'R. Eliezer ben Yaakov's mishna is small but clean' (Kab ve-naki) reflects the reliability of his teachings. Rav Huna attributes Tractate Middot to him."
-          }
-        ],
         conceptRefs: [
           "Yoma.16a.1",
           "Yoma.16a.2"
@@ -36555,16 +35126,6 @@ const DAF_CONTENT = {
                 note: "Eastern wall height derivation"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "gafna shel zahav",
-            def: "Golden vine - a large decorative golden vine that hung over the entrance to the Heikhal. Worshippers donated gold grape clusters, leaves, and berries to adorn it."
-          },
-          {
-            term: "Ezrat Nashim",
-            def: "Women's Courtyard - the outer courtyard of the Temple that women could enter. Galleries (izteba'ot) were later added around its perimeter to separate men and women during the Sukkot water-drawing celebrations."
           }
         ],
         conceptRefs: [
@@ -37631,16 +36192,6 @@ const DAF_CONTENT = {
                 note: "R. EbY's offset placement confirmed"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "Azara",
-            def: "The main Temple courtyard (Israelites' courtyard) measuring 187 cubits north-south and 135 cubits east-west. The altar, Heikhal, and Ulam all stand within it."
-          },
-          {
-            term: "kevesh",
-            def: "The ramp leading up to the altar from the south. It measured 16 cubits long and 16 cubits wide (some say 30 long). No steps were allowed; the ramp ensured dignified ascent."
           }
         ],
         conceptRefs: [
@@ -38718,16 +37269,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "lechem ha-panim",
-            def: "Shewbread - twelve loaves arranged in two stacks on the golden table in the Sanctuary, replaced every Shabbat. On replacement, the old loaves are distributed between the incoming and outgoing priestly shifts."
-          },
-          {
-            term: "mishmar",
-            def: "Priestly watch-shift - the 24 families of kohanim each served a week in the Temple on rotation. On Shabbat the outgoing mishmar and incoming mishmar would each receive six Shewbread loaves."
-          }
-        ],
         conceptRefs: [
           "Yoma.17a.1",
           "Yoma.17a.3"
@@ -39526,12 +38067,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "kol piyot",
-            def: "'All turns' - the rule that during Temple service all priestly turns are to the right (clockwise). This applies to movement during rituals, not to abstract descriptions of Temple layout."
-          }
-        ],
         conceptRefs: [
           "Yoma.17b.1",
           "Yoma.17b.2"
@@ -39702,12 +38237,6 @@ const DAF_CONTENT = {
                 note: "Abaye's mixed-mishna resolution"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "chalot",
-            def: "The two leavened loaves brought as a communal offering on Shavuot (Leviticus 23:17). They were divided between the kohanim. When Shavuot fell near a Shabbat, they affected the Shewbread distribution count."
           }
         ],
         conceptRefs: [
@@ -40393,12 +38922,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "shiva yamim",
-            def: "Seven days - the period of KG preparation before Yom Kippur (from 3 Tishrei to 9 Tishrei). During these days the KG is isolated, trained, and kept in a state of ritual preparedness."
-          }
-        ],
         conceptRefs: [
           "Yoma.18a.4",
           "Yoma.18a.5"
@@ -40614,16 +39137,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "tum'at keri",
-            def: "Ritual impurity from seminal emission. A kohen with this impurity must immerse and wait until evening before performing Temple service. If it happens to the KG during the Yom Kippur preparation period, it creates a crisis."
-          },
-          {
-            term: "Yehoshua ben Gamla",
-            def: "A Second Temple KG whose appointment Maratha bat Baytus purchased from the king Agrippa. Despite the improper appointment, he is remembered for establishing Torah schools in every city and town of Israel."
-          }
-        ],
         conceptRefs: [
           "Yoma.18a.9",
           "Yoma.18a.10"
@@ -40783,16 +39296,6 @@ const DAF_CONTENT = {
                 note: "Resolution: emission-foods = not oness"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "oness",
-            def: "An unavoidable or involuntary act. In the context of ritual impurity: if emission was beyond the kohen's control, it may be treated differently than a voluntary or foreseeable emission."
-          },
-          {
-            term: "gargir",
-            def: "Arugula - one of the five foods listed as causing seminal emission. Also said to have eye-brightening properties."
           }
         ],
         conceptRefs: [
@@ -41832,16 +40335,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "kiddushin",
-            def: "Formal betrothal/marriage. Even a temporary marriage (for a day) requires proper kiddushin to be halakhically valid. Without it, the relationship would be forbidden."
-          },
-          {
-            term: "shiva nekiyim",
-            def: "Seven clean days - a woman who saw blood (even from desire) must count seven clean days before she can be with another man. This applies after the temporary marriage ends."
-          }
-        ],
         conceptRefs: [
           "Yoma.18b.1",
           "Yoma.18b.3"
@@ -41966,12 +40459,6 @@ const DAF_CONTENT = {
                 note: "All-night vigil methods"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "Beit Avtinas",
-            def: "The hereditary priestly family responsible for preparing the ketoret (incense) formula. Their chamber in the Temple was where the KG was kept on the eve of Yom Kippur."
           }
         ],
         conceptRefs: [
@@ -42695,16 +41182,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "Lishkat Parhedrin",
-            def: "The Chamber of Parhedrin - the KG's personal chamber during his seven-day separation before Yom Kippur. He slept there and prepared. The name 'parhedrin' may relate to the word for 'chambers' or 'governors.'"
-          },
-          {
-            term: "Lishkat Parvah",
-            def: "The Parvah Chamber - a chamber on the south side of the Azara with a sanctified immersion pool on its roof. The KG immerses in this pool for his five sanctified immersions on Yom Kippur."
-          }
-        ],
         conceptRefs: [
           "Yoma.19a.1",
           "Yoma.19a.4",
@@ -42885,12 +41362,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "beit ha-tevilah",
-            def: "Immersion chamber - the ritual bath used by the KG for his ten Yom Kippur immersions. Five immersions were done in the sanctified pool atop the Parvah chamber; the rest in a regular mikveh near the Water Gate."
-          }
-        ],
         conceptRefs: [
           "Yoma.19a.8",
           "Yoma.19a.10"
@@ -42989,12 +41460,6 @@ const DAF_CONTENT = {
                 note: "Agency question introduced"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "shlichut",
-            def: "Agency law - the principle that an agent acts on behalf of the principal. 'An agent is like the principal himself.' The question is whether the kohen-offerer relationship is principal-agent (Israel's agent) or messenger-sender (God's agent)."
           }
         ],
         conceptRefs: [
@@ -44019,16 +42484,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: [
-          {
-            term: "Tzedokim (Sadducees)",
-            def: "A Second Temple sect that rejected the oral Torah and interpreted Scripture literally. On the incense service: they read 'and he shall put the incense on the fire before God' as requiring the incense to be lit before entering the Holy of Holies."
-          },
-          {
-            term: "Perushim (Pharisees)",
-            def: "The rabbinic tradition that held the oral Torah as authoritative. The Pharisaic ruling: the incense is placed on the fire inside the Holy of Holies, after the KG has already entered. This is the normative halacha."
-          }
-        ],
         conceptRefs: [
           "Yoma.19b.1",
           "Yoma.19b.4",
@@ -44208,16 +42663,6 @@ const DAF_CONTENT = {
                 note: "Interruptions between paragraphs"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "bam",
-            def: "'In them' - from 've-dibartem bam' (Deuteronomy 6:7). The Talmud reads 'bam' as 'with them [in your mouth],' requiring Shema to be recited audibly enough to hear oneself."
-          },
-          {
-            term: "kavanah",
-            def: "Intention/concentration. Required during the first paragraph of Shema (at minimum the first verse 'Shema Yisrael')."
           }
         ],
         conceptRefs: [
@@ -44407,16 +42852,6 @@ const DAF_CONTENT = {
                 note: "Dawn announcement and tamid slaughter"
               }
             ]
-          }
-        ],
-        concepts: [
-          {
-            term: "tzarda",
-            def: "The finger-snap technique: pressing the index finger hard against the thumb base and releasing sharply, creating a loud snap. Used by young priests to startle the KG awake if he dozed."
-          },
-          {
-            term: "kidda",
-            def: "A prostration technique: the person presses their big toes to the ground and bows forward until their face nearly touches the floor, then rises. Said to be a uniquely difficult bow that the Beit Gamliels could perform."
           }
         ],
         conceptRefs: [
@@ -45539,20 +43974,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "me'ila",
-            "kedusha of Yom Kippur"
-          ],
-          theological: [
-            "Satan's role as prosecutor",
-            "gematria as legal proof",
-            "Yom Kippur's unique protective power"
-          ],
-          narrative: [
-            "Elijah teaches Rav Yehuda about Nehardea"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-002a-s01"
@@ -45647,18 +44068,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "terumat hadeshen timing",
-            "Temple daily service order",
-            "kiddush hayom"
-          ],
-          theological: [
-            "hierarchy of sacred time",
-            "Festival pilgrims filling the Temple"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [
@@ -45777,19 +44186,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "me'ila (misuse of consecrated property)",
-            "midnight as halachic boundary",
-            "biblically derived Temple schedules"
-          ],
-          theological: [
-            "resolving biblical contradictions by dividing time"
-          ],
-          narrative: [
-            "Rav Kahana raises an unresolved objection"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-020a-s02"
@@ -46528,18 +44924,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "biblical timing flexibility",
-            "practical needs in Temple law",
-            "limbs and ashes at midnight"
-          ],
-          theological: [
-            "biblical redundancy teaches flexibility",
-            "rabbinic derivation of practical timing"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-020a-s03"
@@ -46670,17 +45054,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Temple service announcement",
-            "dawn signal",
-            "lexical analysis of mishna"
-          ],
-          theological: [],
-          narrative: [
-            "Rav-Sheila dispute; Rav's pride and deference; elevation in holiness principle"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-020a-s02"
@@ -46813,20 +45186,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "kohen gadol immersion before dawn",
-            "Temple service sounds"
-          ],
-          theological: [
-            "talmudic cosmology",
-            "sun's movement and noise",
-            "Rome as spiritual counterweight"
-          ],
-          narrative: [
-            "King Agrippa's gifts to Gevini; the rabbi's reluctance to allow them"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-020b-s02"
@@ -47859,17 +46218,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "angel of rain mediating cosmic waters",
-            "Talmudic cosmology",
-            "angelic roles in natural phenomena"
-          ],
-          narrative: [
-            "the name Ridya as linguistic curiosity"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-020b-s02"
@@ -48036,20 +46384,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "perpetual altar fire",
-            "prostration on Yom Kippur"
-          ],
-          theological: [
-            "divine presence in the Temple",
-            "miracles as ongoing features",
-            "sacred space expansion"
-          ],
-          narrative: [
-            "the packed courtyard as evidence of miraculous space"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [
@@ -49078,18 +47412,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "vessel impurity from floor contact",
-            "holy of holies spatial miracles"
-          ],
-          theological: [
-            "divine presence in the Temples",
-            "what was lost when the First Temple was destroyed",
-            "Second Temple as diminished"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-021a-s02"
@@ -49247,18 +47569,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "altar smoke direction as sign",
-            "Second Temple validity"
-          ],
-          theological: [
-            "divine acceptance of offerings",
-            "diminished status of Second Temple",
-            "smoke as theophanic sign"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-021a-s02",
@@ -49416,19 +47726,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "ma'aracha gedola",
-            "ma'aracha ketana for incense",
-            "commandment to kindle fire",
-            "divine fire descent"
-          ],
-          theological: [
-            "human and divine collaboration in worship",
-            "fire as sacred element"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [
@@ -50326,23 +48623,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "terumat hadeshen competition",
-            "count-off procedure",
-            "lottery as replacement"
-          ],
-          theological: [
-            "punishment proportional to sin",
-            "repentance and royal continuity",
-            "Saul vs. David: the fairness question"
-          ],
-          narrative: [
-            "Saul and Amalek",
-            "David and Bathsheba",
-            "Samuel's rebuke"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-020a-s02"
@@ -50470,21 +48750,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "knife impurity from corpse contact",
-            "lottery system origins",
-            "reform of Temple procedures"
-          ],
-          theological: [
-            "Temple violence as institutional failure",
-            "halachic commitment as both strength and limitation"
-          ],
-          narrative: [
-            "the stabbing on the ramp",
-            "the father's halakhic reflex"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-022a-s01"
@@ -51542,14 +49807,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "altar ramp dimensions",
-            "Temple architecture"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-022a-s01"
@@ -51692,19 +49949,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "lottery procedure",
-            "four daily lotteries",
-            "incense first-timer rule",
-            "Chamber of Hewn Stone"
-          ],
-          theological: [
-            "equal distribution of Temple privileges",
-            "incense as blessing-bearer"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-022a-s02"
@@ -51902,20 +50146,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "repentance",
-            "public sin vs. private sin"
-          ],
-          theological: [
-            "genuine vs. performative repentance",
-            "public accountability for leaders",
-            "divine forgiveness"
-          ],
-          narrative: [
-            "Saul's humility at selection; his failure at Amalek; David's genuine repentance"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-022a-s01"
@@ -52063,21 +50293,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "indirect causation of harm",
-            "moral responsibility for outcomes"
-          ],
-          theological: [
-            "taking moral responsibility",
-            "parental love vs. leadership duty"
-          ],
-          narrative: [
-            "Nov massacre",
-            "Absalom's revolt",
-            "David's parental anguish"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-022b-s03"
@@ -52750,19 +50965,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "forgoing honor (mechila)",
-            "Torah scholar's honor"
-          ],
-          theological: [
-            "divine vengeance as principle",
-            "institutional vs. personal honor"
-          ],
-          narrative: [
-            "God's vengeance for Israel's honor despite forgiving Israel's sins"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-022b-s03"
@@ -52914,18 +51116,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "lottery mechanics",
-            "anti-cheating in Temple service",
-            "census prohibition workaround"
-          ],
-          theological: [
-            "fairness in divine service assignment",
-            "randomness as divine selection"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-022a-s02"
@@ -53082,19 +51272,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "knife impurity from corpse",
-            "Temple service assignment when priest is injured"
-          ],
-          theological: [
-            "halachic categories as primary frame",
-            "violence and holiness incompatible"
-          ],
-          narrative: [
-            "the stabbing on the ramp and the father's strange announcement"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-022a-s01",
@@ -53881,18 +52058,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "egla arufa exemption",
-            "Jerusalem's special legal status",
-            "city ownership for halacha"
-          ],
-          theological: [
-            "Jerusalem as city of God - not a tribal city",
-            "divine presence and legal categories"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [
@@ -54118,20 +52283,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "worn garments for ash removal",
-            "fistful minimum",
-            "left hand validity",
-            "ash placement rules",
-            "three types of ash with different destinations"
-          ],
-          theological: [
-            "proportionality in service dress",
-            "every Temple act is a complete mitzvah"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-020a-s02"
@@ -55227,18 +53378,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "priestly garment requirements",
-            "worn garments for ash removal",
-            "same type different quality"
-          ],
-          theological: [
-            "priestly dignity maintained even in mundane service",
-            "proportionality in sacred dress"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-023b-s02"
@@ -55334,18 +53473,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "machta shel zahav",
-            "ash removal quantity",
-            "from top of heap"
-          ],
-          theological: [
-            "dignity through sacred vessels",
-            "gold for ash as theological statement"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-023b-s02"
@@ -55481,19 +53608,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "which tasks require priests",
-            "slaughter by non-priest valid",
-            "avodah vs. logistical support",
-            "eligibility for Temple tasks"
-          ],
-          theological: [
-            "priestly role in Temple",
-            "distinction between sacred act and support task"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [
@@ -56429,21 +54543,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "lifnim min haparochet (within the veil)",
-            "mum (physical blemish) disqualification",
-            "heichal service vs. inner sanctuary",
-            "KG exclusivity on Yom Kippur"
-          ],
-          theological: [
-            "the veil as theological boundary",
-            "physical perfection as requirement for inner sanctity"
-          ],
-          narrative: [
-            "four KG entries on Yom Kippur as background"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-024a-s03"
@@ -56592,18 +54691,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "thirteen positions in second lottery",
-            "tamid service order",
-            "multiple priests for single offering"
-          ],
-          theological: [
-            "collective priestly participation in daily service",
-            "daily tamid as national act"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yoma-022b-s02"
@@ -57715,20 +55802,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "bigdei kehuna during lottery",
-            "mitznefet vs non-sacred mitre",
-            "sacred/non-sacred boundary"
-          ],
-          theological: [
-            "precise Temple geography as halachic evidence"
-          ],
-          narrative: [
-            "Abaye's geometric deduction",
-            "Rav Sheshet vs Rav Nachman"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "daily lottery system",
@@ -57865,20 +55938,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "thirteen lottery tasks",
-            "tamid limb order",
-            "blood sprinkling assignment"
-          ],
-          theological: [
-            "precise choreography of divine service"
-          ],
-          narrative: [
-            "Ben Azzai's alternate tradition",
-            "dispute between tannaim on service sequence"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "tamid (daily offering)",
@@ -58918,19 +56977,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "combined vs separate lottery tasks",
-            "ktores (incense) always to a new priest",
-            "coal-pan and incense as inseparable unit"
-          ],
-          theological: [
-            "precision in Temple service assignment"
-          ],
-          narrative: [
-            "R. Yehuda vs alternative reading of same baraita"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "second lottery",
@@ -59071,19 +57117,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "blood collection continuity",
-            "zorek = mekabel",
-            "service invalidation risk"
-          ],
-          theological: [
-            "integrity of the blood service from collection to altar"
-          ],
-          narrative: [
-            "multiple tannaitic proofs converging on same ruling"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "tamid blood service",
@@ -59234,20 +57267,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "limb-carrying sequence",
-            "head goes first (rosh principle)",
-            "right side precedence"
-          ],
-          theological: [
-            "'every good piece' - honoring the divine service with the best first"
-          ],
-          narrative: [
-            "Rava's reconciliation of tannaitic dispute",
-            "Ben Azzai's transmission from R. Yehoshua"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "tamid service",
@@ -60256,15 +58275,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "lottery assignment continuity"
-          ],
-          theological: [],
-          narrative: [
-            "Talmudic transitional passage"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "second lottery",
@@ -60395,21 +58405,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "ketoret first-timer rule",
-            "lottery eligibility restriction"
-          ],
-          theological: [
-            "proximity to God brings blessing",
-            "ketoret as closest divine approach",
-            "Torah learning and material reward"
-          ],
-          narrative: [
-            "Abaye's explanation of ketoret wealth",
-            "Rava's Torah scholar analogy"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "third lottery",
@@ -60558,18 +58553,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "afternoon tamid lottery rule",
-            "Shabbat exception",
-            "musaf affecting service assignments"
-          ],
-          theological: [],
-          narrative: [
-            "Rav Shmuel bar Rav Yitzchak's reconciliation",
-            "baraita contradiction resolution"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "tamid service",
@@ -60706,18 +58689,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "carrying vs burning limbs as one or two tasks",
-            "fourth lottery eligibility",
-            "five-lottery opinion"
-          ],
-          theological: [],
-          narrative: [
-            "Rava's explanation of R. Eliezer ben Yaakov",
-            "tanna who counted five lotteries"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "tamid limb service",
@@ -61442,13 +59413,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "lottery conclusion"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "lottery system"
@@ -61623,22 +59587,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "nine morning priests",
-            "eleven afternoon priests",
-            "wine vs water libations",
-            "afternoon tamid derivation"
-          ],
-          theological: [
-            "doubled biblical language as legal derivation",
-            "precision of Temple service numbers"
-          ],
-          narrative: [
-            "R. Abba's festival-libation teaching",
-            "reconciliation of R. Chiyya's thirteen with R. Eliezer ben Yaakov"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "tamid service",
@@ -61776,17 +59724,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "communal ram = 11 priests",
-            "flaying equality for all offerings",
-            "individual vs communal offering rules"
-          ],
-          theological: [],
-          narrative: [
-            "Hizkiya's biblical derivation"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "communal offerings",
@@ -62896,21 +60833,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "non-priest validity for slaughter",
-            "blood-collection as cutoff for priestly requirement",
-            "wood and limb arrangement = priests only",
-            "flaying and cutting = non-priests valid"
-          ],
-          theological: [
-            "blood as sacred threshold in Temple service"
-          ],
-          narrative: [
-            "systematic derivation from multiple verses",
-            "Rav Hamnuna's difficulty"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kohen (priest) status",
@@ -63797,13 +61719,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [],
-          narrative: [
-            "transitional passage"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "previous discussion about non-priest services"
@@ -63956,21 +61871,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "death penalty for non-priest Temple service",
-            "valid but punishable - apparent contradiction",
-            "complete service (avodah temimah)",
-            "wood arrangement priestly status"
-          ],
-          theological: [
-            "Temple service as exclusively priestly domain"
-          ],
-          narrative: [
-            "R. Zeira's systematic challenges",
-            "multiple rounds of revision to R. Yochanan's ruling"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "non-priest Temple service rules",
@@ -64787,21 +62687,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "two-log placement as complete service",
-            "Yom Kippur dawn timing",
-            "five immersions of High Priest"
-          ],
-          theological: [
-            "Yom Kippur avodah beginning",
-            "dawn as threshold for divine service"
-          ],
-          narrative: [
-            "Rava's clarification of R. Yochanan",
-            "transition to Yom Kippur narrative"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "complete service (avodah temimah)",
@@ -65579,16 +63464,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "dawn formula for Temple service",
-            "timing of tamid offering"
-          ],
-          theological: [],
-          narrative: [
-            "baraita dispute about exact Temple formula"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "tamid morning timing",
@@ -65741,22 +63616,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "mincha time from wall-darkening",
-            "pre-Sinai Patriarchal practice as halachic source",
-            "eruv tavshilin observance"
-          ],
-          theological: [
-            "Abraham's voluntary Torah observance",
-            "pre-Sinai Torah knowledge",
-            "Genesis 26:5 as proof-text"
-          ],
-          narrative: [
-            "Egypt's Torah academy",
-            "Rav Yosef vs Rava on Patriarchal derivations"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "mincha time",
@@ -65883,17 +63742,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "dawn announcement formula",
-            "timing of tamid"
-          ],
-          theological: [],
-          narrative: [
-            "Matya ben Shmuel's role",
-            "question of position for dawn announcement"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "dawn (shachar)",
@@ -66012,18 +63860,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "premature tamid slaughter",
-            "dawn verification requirement",
-            "cloudy day halachic status"
-          ],
-          theological: [],
-          narrative: [
-            "historical confusion incident",
-            "institution of dawn-check protocol"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "tamid timing requirement",
@@ -67329,20 +65165,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "sinful thought vs sinful act",
-            "Esther as dawn-star before redemption",
-            "Purim as last universal miracle",
-            "Hanukkah as local miracle"
-          ],
-          narrative: [
-            "three aggadic maxims",
-            "R. Abbahu's Psalm 22 interpretation",
-            "Purim vs Hanukkah as 'last' miracle"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Purim story (Esther)",
@@ -67469,18 +65291,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "tamid slaughter must be after dawn",
-            "pre-dawn slaughter = invalid",
-            "daytime requirement for Temple service"
-          ],
-          theological: [],
-          narrative: [
-            "confusion incident ruling",
-            "clarification that incident was not Yom Kippur"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "tamid offering",
@@ -68461,22 +66271,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "nighttime kometz status",
-            "offering-not-yet-ready cannot be disqualified",
-            "replacing a nighttime handful",
-            "priest bathroom protocol"
-          ],
-          theological: [
-            "Temple purity standards"
-          ],
-          narrative: [
-            "father of R. Avin's question",
-            "R. Zeira's baraita objection",
-            "Rava's balanced resolution"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kometz (handful) service",
@@ -69402,21 +67196,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "hygiene as mitzva in Temple context",
-            "excrement location distinction for prayer",
-            "hand-washing visibility norm"
-          ],
-          theological: [
-            "dignity in divine service",
-            "physical purity as spiritual preparation"
-          ],
-          narrative: [
-            "Rav Pappa's hygiene case",
-            "Rav Chisda's public-washing rule"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Temple purity standards",
@@ -69544,21 +67323,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "immersion before Temple service",
-            "biblical vs rabbinic immersion obligation",
-            "tevila l'zecher (reminder immersion)"
-          ],
-          theological: [
-            "intentionality in Temple service",
-            "purity as mental-spiritual state, not just physical"
-          ],
-          narrative: [
-            "Ben Zoma's biblical derivation",
-            "R. Yehuda's rabbinic alternative"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "tevila (immersion)",
@@ -70539,23 +68303,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "service validity when immersion skipped",
-            "positive mitzva violation",
-            "leper's prior-evening immersion",
-            "double immersion question"
-          ],
-          theological: [
-            "Temple service integrity",
-            "levels of obligation (biblical vs rabbinic)"
-          ],
-          narrative: [
-            "series of baraita contradictions and resolutions",
-            "Ravina's elegant solution",
-            "Abaye's edge case question"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "pre-service immersion",
@@ -71446,18 +69193,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "chatzitza in Temple immersion",
-            "partial body entry",
-            "biblical vs rabbinic immersion strictness"
-          ],
-          theological: [],
-          narrative: [
-            "Abaye's framing of dilemmas",
-            "unresolved Talmudic questions (teiku)"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "chatzitza (interposition)",
@@ -71561,21 +69296,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "five immersions of High Priest",
-            "ten sanctifications",
-            "garment change sequence",
-            "immersion chamber location"
-          ],
-          theological: [
-            "Yom Kippur service purity",
-            "sacred privacy screen"
-          ],
-          narrative: [
-            "architectural explanation of immersion chamber height"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kiddush yadayim veraglayim (sanctification of hands and feet)",
@@ -72229,13 +69949,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "immersion chamber height"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "immersion chamber location",
@@ -72318,16 +70031,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "privacy during immersion",
-            "linen screen requirement"
-          ],
-          theological: [
-            "dignity in sacred service"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "High Priest's immersion on Yom Kippur"
@@ -72477,24 +70180,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Yom Kippur garment sequence",
-            "five garment changes",
-            "immersion between garment types",
-            "R. Meir vs Rabbis on sequence",
-            "golden garments for standard service",
-            "white garments for inner service"
-          ],
-          theological: [
-            "gold garments = royal service; white garments = intimate divine encounter",
-            "Yom Kippur as unique moment of divine closeness"
-          ],
-          narrative: [
-            "Rav Pappa's reconciliation of apparent contradiction",
-            "debate about how to count R. Meir's five immersions"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "High Priest's Yom Kippur service",
@@ -73517,14 +71202,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "two sanctifications per immersion",
-            "garment-change sequence"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "five immersions",
@@ -73704,20 +71381,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "five immersions derivation",
-            "ten sanctifications derivation",
-            "kal vachomer from Sanhedrin",
-            "verse-based vs tradition-based derivation"
-          ],
-          theological: [
-            "biblical grounding for Yom Kippur ritual"
-          ],
-          narrative: [
-            "multiple sages offering independent derivations for same rule"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "five immersions",
@@ -74804,21 +72467,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "kal vachomer from white to golden garments",
-            "first vs second sanctification debate",
-            "chiddush in halachic derivation"
-          ],
-          theological: [
-            "white garments' special atonement quality"
-          ],
-          narrative: [
-            "multiple competing derivations",
-            "Rav Hisda's chiddush characterization",
-            "Rav Acha's resolution"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "golden vs white garments",
@@ -74945,19 +72593,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "rov simanim in shechita",
-            "High Priest's personal tamid slaughter",
-            "standard shechita rules on Yom Kippur"
-          ],
-          theological: [
-            "High Priest personally performing the service"
-          ],
-          narrative: [
-            "R. Yochanan and Reish Lakish converging on same ruling"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "shechita (ritual slaughter)",
@@ -75853,14 +73488,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "bird shechita - one organ",
-            "beast shechita - two organs"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "shechita",
@@ -76055,24 +73682,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "morning service sequence",
-            "wood arrangement order",
-            "5+2 lamp cleaning split",
-            "ketoret before limbs",
-            "inner altar ash timing",
-            "R. Yirmeya on category of wood"
-          ],
-          theological: [
-            "Temple morning service as divine liturgy",
-            "each service step has biblical anchor"
-          ],
-          narrative: [
-            "Abaye's comprehensive sequence",
-            "R. Yirmeya's 'category of wood' principle"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "tamid service",
@@ -77130,20 +74739,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "ein ma'avirin al hamitzvot",
-            "Temple service order",
-            "encountering mitzva = obligation"
-          ],
-          theological: [
-            "immediate response to divine encounter",
-            "mitzva as moment not to be delayed"
-          ],
-          narrative: [
-            "Rava's derivation of a universal principle from Temple geography"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Sanctuary (Heichal) layout",
@@ -77334,24 +74929,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "five lamps before blood",
-            "blood before two lamps",
-            "incense before limbs",
-            "limbs before meal-offering",
-            "meal before wine libation"
-          ],
-          theological: [
-            "service sequence as liturgical logic",
-            "each service creating context for the next"
-          ],
-          narrative: [
-            "Rav Pappa's challenge",
-            "Reish Lakish vs R. Yochanan explanations",
-            "Ravina's textual question"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Abaye's morning service sequence from 33a",
@@ -78393,21 +75970,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "meal-offering before griddle-cake",
-            "griddle-cake before libation",
-            "libation before musaf",
-            "frankincense vessels ordering"
-          ],
-          theological: [
-            "High Priest's personal daily offering in the service sequence"
-          ],
-          narrative: [
-            "Abaye's complete morning sequence",
-            "frankincense vessels dispute"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "minchat chavittin (griddle-cake)",
@@ -78559,19 +76121,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "afternoon incense between limbs and libation",
-            "morning vs afternoon incense position",
-            "quarter-hin libation for tamid"
-          ],
-          theological: [
-            "morning and afternoon services as parallel but distinct divine encounters"
-          ],
-          narrative: [
-            "comparison of morning and afternoon service orders"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "afternoon tamid",
@@ -79377,19 +76926,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "afternoon offering derived from morning verse",
-            "'the one' as special unique offering",
-            "morning-afternoon service relationship"
-          ],
-          theological: [
-            "precision of Torah language - single word carries legal weight"
-          ],
-          narrative: [
-            "R. Yehuda HaNasi vs Rabbis on 'ha-echad'"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "afternoon tamid",
@@ -79506,21 +77042,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "accommodations for elderly High Priest",
-            "davar she-eino mitkaven (unintentional act)",
-            "R. Yehuda's framework for unintentional acts"
-          ],
-          theological: [
-            "human dignity in divine service",
-            "balance of strictness and practicality"
-          ],
-          narrative: [
-            "Abaye's analysis of intentional vs unintentional",
-            "rabbinic permission for practical accommodation"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Yom Kippur immersion requirements",
@@ -79636,21 +77157,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "second immersion location",
-            "white garment quality requirements",
-            "Egyptian vs Indian linen"
-          ],
-          theological: [
-            "excellence and dignity in Yom Kippur service",
-            "finest materials for divine service"
-          ],
-          narrative: [
-            "garment cost specification",
-            "geographic sourcing of Temple materials"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Hall of Parva",
@@ -80354,15 +77860,6 @@ const DAF_CONTENT = {
             text: "Parva was a Persian magician who tunneled beneath to watch the KG; the chamber is named for him."
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "sacred space named after impurity"
-          ],
-          narrative: [
-            "Parva the sorcerer"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [
@@ -80458,14 +77955,6 @@ const DAF_CONTENT = {
             text: "To prevent confusion: his Yom Kippur garments are also linen - same material, no mistake."
           }
         ],
-        concepts: {
-          halachic: [
-            "privacy screen requirement",
-            "linen specification"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "KG Yom Kippur garment sequence"
@@ -80566,14 +78055,6 @@ const DAF_CONTENT = {
             text: "If an individual donates, the KG uses the public set to avoid making the public feel inadequate."
           }
         ],
-        concepts: {
-          halachic: [
-            "garment funding rules",
-            "private vs public donation"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "KG Yom Kippur garment sequence",
@@ -80934,15 +78415,6 @@ const DAF_CONTENT = {
             text: "Each Yom Kippur garment change requires immersion and sanctification."
           }
         ],
-        concepts: {
-          halachic: [
-            "garment sanctification",
-            "immersion requirement",
-            "biblical derivation"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "KG garment sequence",
@@ -81141,19 +78613,6 @@ const DAF_CONTENT = {
             text: "Joseph's reward in Egypt mirrored his trial."
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "divine judgment",
-            "personal responsibility",
-            "evil inclination"
-          ],
-          narrative: [
-            "Hillel in snowstorm",
-            "Elazar ben Charsum",
-            "Joseph and Potiphar's wife"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [
@@ -81259,14 +78718,6 @@ const DAF_CONTENT = {
             text: "The bull's head faces south, face toward west; KG stands east facing west with both hands on the bull."
           }
         ],
-        concepts: {
-          halachic: [
-            "bull position for confession",
-            "KG's stance for semicha"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "semicha (laying on of hands)",
@@ -82246,14 +79697,6 @@ const DAF_CONTENT = {
             text: "The Mishna follows R. Yehuda; the bull stands between vestibule and altar."
           }
         ],
-        concepts: {
-          halachic: [
-            "bull location for confession",
-            "blood sprinkling location"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Temple spatial layout",
@@ -82388,14 +79831,6 @@ const DAF_CONTENT = {
             text: "This positioning allows the KG to lean forward on the bull while facing the Heichal."
           }
         ],
-        concepts: {
-          halachic: [
-            "bull positioning",
-            "KG stance for semicha"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "semicha (hand-pressing)",
@@ -83305,14 +80740,6 @@ const DAF_CONTENT = {
             text: "The dispute is confirmed as concerning nevelah in the sacred space."
           }
         ],
-        concepts: {
-          halachic: [
-            "nevelah in Temple precincts",
-            "bull location"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "nevelah prohibition",
@@ -83463,18 +80890,6 @@ const DAF_CONTENT = {
             text: "The explicit Name (Shem HaMeforash) was spoken; the congregation prostrated in response."
           }
         ],
-        concepts: {
-          halachic: [
-            "viduy formula",
-            "triple sin categories",
-            "use of Shem HaMeforash"
-          ],
-          theological: [
-            "confession theology",
-            "Shem HaMeforash"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "chatati aviti pashati (sin categories)",
@@ -83609,17 +81024,6 @@ const DAF_CONTENT = {
             text: "Both dimensions - sacrificial and verbal - are required for full Yom Kippur atonement."
           }
         ],
-        concepts: {
-          halachic: [
-            "kaparat devarim",
-            "verbal atonement requirement"
-          ],
-          theological: [
-            "atonement mechanism",
-            "role of confession"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Yom Kippur atonement",
@@ -84621,14 +82025,6 @@ const DAF_CONTENT = {
             text: "Gezerah shavah: 'kappara' appears in both Lev. 16 (Yom Kippur) and Num. 14 (Moses's prayer which uses 'anna'); thus 'anna' is required in the viduy."
           }
         ],
-        concepts: {
-          halachic: [
-            "viduy formula derivation",
-            "gezerah shavah"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "gezerah shavah",
@@ -84715,17 +82111,6 @@ const DAF_CONTENT = {
             text: "When the KG speaks the Shem HaMeforash, the congregation responds with Baruch Shem and falls prostrate."
           }
         ],
-        concepts: {
-          halachic: [
-            "congregation's response to Divine Name",
-            "prostration in Temple"
-          ],
-          theological: [
-            "Shem HaMeforash",
-            "acknowledgment of God's sovereignty"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Baruch Shem",
@@ -84876,18 +82261,6 @@ const DAF_CONTENT = {
             text: "Whatever hand drew the 'for God' lot - that goat was designated for God."
           }
         ],
-        concepts: {
-          halachic: [
-            "lot drawing procedure",
-            "designation of two goats",
-            "role of Deputy"
-          ],
-          theological: [
-            "Divine selection via lot",
-            "Azazel"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Yom Kippur two-goat ritual",
@@ -85007,15 +82380,6 @@ const DAF_CONTENT = {
             text: "Right side = more honorable; the dispute is about relative precedence."
           }
         ],
-        concepts: {
-          halachic: [
-            "positional honor",
-            "Deputy role",
-            "bet av"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Temple hierarchy",
@@ -85134,16 +82498,6 @@ const DAF_CONTENT = {
             text: "Ben Katin made 12 spigots for the laver and other Temple improvements."
           }
         ],
-        concepts: {
-          halachic: [
-            "lot box material",
-            "Temple improvements"
-          ],
-          theological: [],
-          narrative: [
-            "Ben Katin's laver improvements"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [
@@ -85259,15 +82613,6 @@ const DAF_CONTENT = {
             text: "All their gifts were preserved and honored as Temple improvements."
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [],
-          narrative: [
-            "Ben Katin's laver",
-            "Queen Helene's gifts",
-            "Nicanor's doors"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [
@@ -86374,14 +83719,6 @@ const DAF_CONTENT = {
             text: "Abaye: Ben Katin made the winding mechanism from knife handles (bid'ot sakinin)."
           }
         ],
-        concepts: {
-          halachic: [
-            "laver water validity",
-            "bid'ot sakinin"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "laver (kiyor)",
@@ -86484,16 +83821,6 @@ const DAF_CONTENT = {
             text: "Nicanor went to Alexandria for copper doors; storm at sea forced him to throw one door overboard; the other door miraculously surfaced at Akko."
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "miraculous arrival of Nicanor's gate"
-          ],
-          narrative: [
-            "Queen Helene's menorah",
-            "Nicanor's sea miracle"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [
@@ -86609,16 +83936,6 @@ const DAF_CONTENT = {
             text: "A get written in alternating script is valid, based on the Helene tablet precedent."
           }
         ],
-        concepts: {
-          halachic: [
-            "get written in seirugim",
-            "writing requirement"
-          ],
-          theological: [],
-          narrative: [
-            "Queen Helene's tablet"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "get (bill of divorce)",
@@ -87071,14 +84388,6 @@ const DAF_CONTENT = {
             text: "B'seirugim means in alternating pattern; a get in this style is valid."
           }
         ],
-        concepts: {
-          halachic: [
-            "get in seirugim",
-            "valid script styles"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "get validity requirements"
@@ -87195,17 +84504,6 @@ const DAF_CONTENT = {
             text: "All other Temple gates were overlaid with gold; Nicanor's copper doors were kept as-is because a miracle had occurred."
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "divine reward for devotion",
-            "miracle of Temple service"
-          ],
-          narrative: [
-            "Nicanor's sea miracle",
-            "copper doors shining like gold"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [
@@ -87353,18 +84651,6 @@ const DAF_CONTENT = {
             text: "The Sages could not find others to do these tasks and had to bring these families back."
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "withholding temple knowledge is shameful"
-          ],
-          narrative: [
-            "Beth Garmu",
-            "Beth Avtinas",
-            "Hugras ben Levi",
-            "Ben Kamtsar"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "lechem hapanim (showbread)"
@@ -87546,19 +84832,6 @@ const DAF_CONTENT = {
             text: "Despite the principled argument, withholding Temple knowledge is still considered shameful."
           }
         ],
-        concepts: {
-          halachic: [
-            "incense formula secrecy",
-            "maaleh ashan herb"
-          ],
-          theological: [
-            "knowledge sharing in Temple service"
-          ],
-          narrative: [
-            "Beth Avtinas in Alexandria",
-            "maaleh ashan discovery"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "ketoret (incense) formula"
@@ -88192,14 +85465,6 @@ const DAF_CONTENT = {
             text: "'And from yours they give you' - God provides; no person truly owns what belongs to Temple service."
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "divine provision for Temple service",
-            "human ownership of Temple knowledge"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [
@@ -88298,15 +85563,6 @@ const DAF_CONTENT = {
             text: "He refused to teach it; his descendants also kept it secret; the technique was lost."
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "sharing sacred knowledge"
-          ],
-          narrative: [
-            "Hugras's vocal technique"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Levitical music"
@@ -88472,14 +85728,6 @@ const DAF_CONTENT = {
             text: "Both interpretations teach: Temple service creates a permanent legacy, for good or shame."
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "memory of the righteous and wicked",
-            "legacy of Temple service"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [
@@ -88660,14 +85908,6 @@ const DAF_CONTENT = {
             text: "The Temple families chapter concludes: Beth Garmu, Avtinas, Hugras, Ben Kamtsar are for shame; others for praise."
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "divine reward and punishment",
-            "legacy of good and bad deeds"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [
@@ -89667,17 +86907,6 @@ const DAF_CONTENT = {
             text: "These signs signaled the coming destruction; Shimon HaTzaddik's era was the last golden age."
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "divine acceptance of service",
-            "Temple miracles"
-          ],
-          narrative: [
-            "Shimon HaTzaddik's 40-year service",
-            "four miraculous signs"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Yom Kippur lot",
@@ -89796,17 +87025,6 @@ const DAF_CONTENT = {
             text: "Rabban Yochanan ben Zakkai rebuked the Temple gates: 'Heichal, Heichal, why do you alarm yourself?' - foretelling destruction."
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "Temple destruction foretold",
-            "divine withdrawal"
-          ],
-          narrative: [
-            "40-year decline signs",
-            "Rabban Yochanan ben Zakkai's rebuke"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "western lamp",
@@ -90759,14 +87977,6 @@ const DAF_CONTENT = {
             text: "The era became sour: the miraculous signs ceased, the service lost its divine quality."
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "divine withdrawal",
-            "era of decline"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [
@@ -90946,19 +88156,6 @@ const DAF_CONTENT = {
             text: "The crimson thread's turning white was the sign of atonement being accepted."
           }
         ],
-        concepts: {
-          halachic: [
-            "crimson thread timing",
-            "Azazel goat signs"
-          ],
-          theological: [
-            "signs of atonement",
-            "divine acceptance"
-          ],
-          narrative: [
-            "Shimon HaTzaddik's death foretold"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "lashon shel zehorit (crimson thread)",
@@ -91094,16 +88291,6 @@ const DAF_CONTENT = {
             text: "The lot placement on the goat's head designated it; the KG said 'a sin-offering for God' over it."
           }
         ],
-        concepts: {
-          halachic: [
-            "lot placement on goat's head",
-            "verbal designation"
-          ],
-          theological: [
-            "right vs left lot as divine oracle"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kappara (atonement)",
@@ -91287,17 +88474,6 @@ const DAF_CONTENT = {
             text: "The thread turning white was the public confirmation of atonement's acceptance."
           }
         ],
-        concepts: {
-          halachic: [
-            "lot drawing procedure",
-            "right vs left validity",
-            "lot transfer"
-          ],
-          theological: [
-            "right-hand lot as omen"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Yom Kippur lot (goral)",
@@ -92536,20 +89712,6 @@ const DAF_CONTENT = {
             text: "Both hands valid; right preferred as omen; verbal designation required; crimson thread half on goat, half on cliff."
           }
         ],
-        concepts: {
-          halachic: [
-            "right vs left lot validity",
-            "verbal designation requirement",
-            "crimson thread placement"
-          ],
-          theological: [
-            "omen vs requirement",
-            "atonement confirmation"
-          ],
-          narrative: [
-            "signal fires vs messengers"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Yom Kippur lot",
@@ -93746,17 +90908,6 @@ const DAF_CONTENT = {
             text: "The goats are designated specifically; if mixed up or one dies, replacements are needed based on timing."
           }
         ],
-        concepts: {
-          halachic: [
-            "live goat's required presence",
-            "replacement goat scenarios",
-            "mixed-up goat scenarios"
-          ],
-          theological: [
-            "third confession covering all Israel"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Azazel goat",
@@ -94464,14 +91615,6 @@ const DAF_CONTENT = {
             text: "The anonymous Sifra is R. Yehuda; the goat-to-Azazel rulings follow this attribution."
           }
         ],
-        concepts: {
-          halachic: [
-            "Sifra attribution",
-            "anonymous rulings"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Sifra (Torat Kohanim)",
@@ -94766,15 +91909,6 @@ const DAF_CONTENT = {
             text: "Rav Chisda's position: designation is by slaughter order; prior explicit naming is also accepted."
           }
         ],
-        concepts: {
-          halachic: [
-            "kinnim designation",
-            "slaughter order",
-            "prior designation"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kinnim (bird-pair offerings)",
@@ -95778,16 +92912,6 @@ const DAF_CONTENT = {
             text: "Transition: return to the Yom Kippur service."
           }
         ],
-        concepts: {
-          halachic: [
-            "viduy precision",
-            "kinnim edge cases"
-          ],
-          theological: [
-            "the word 'confessed' vs 'said'"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kinnim",
@@ -96082,20 +93206,6 @@ const DAF_CONTENT = {
             text: "Summary: goat sent with thread; 10 booths; Tsuk 12 mil from Jerusalem; ish iti becomes impure."
           }
         ],
-        concepts: {
-          halachic: [
-            "ish iti eligibility",
-            "impurity from goat",
-            "Tsuk location",
-            "10 booths"
-          ],
-          theological: [
-            "Azazel goat's journey"
-          ],
-          narrative: [
-            "organized national support for the goat's journey"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "ish iti (Azazel goat handler)",
@@ -97396,20 +94506,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "parah adumah slaughter",
-            "ish iti impurity",
-            "crimson thread weight"
-          ],
-          theological: [
-            "atonement signs"
-          ],
-          narrative: [
-            "people of Jericho customs",
-            "R. Yochanan contradicts his teacher"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "red heifer laws (parah adumah)",
@@ -98389,17 +95485,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "parah adumah personnel",
-            "ish iti impurity and immersion",
-            "Tur Shimon exclusion"
-          ],
-          theological: [
-            "geographic sanctity affects ritual validity"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "red heifer laws",
@@ -99491,21 +96576,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Tsuk distance 12 mil",
-            "pushing goat backward",
-            "crimson thread halving"
-          ],
-          theological: [
-            "Is. 1:18 fulfilled physically",
-            "atonement signs vs atonement itself"
-          ],
-          narrative: [
-            "non-Jew at Tsuk waves cloth",
-            "Shimon HaTzaddik's thread always turned white"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Numbers 19 parah adumah passage",
@@ -100627,16 +97697,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "tevul yom validity for parah sprinkling",
-            "implied verse conditions"
-          ],
-          theological: [],
-          narrative: [
-            "R. Yochanan and Reish Lakish found no consistent pattern"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "tevul yom laws",
@@ -100807,20 +97867,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "bull blood stirring",
-            "incense placement inside vs outside",
-            "golden firepan on Yom Kippur"
-          ],
-          theological: [
-            "solitude in Holy of Holies",
-            "incense cloud covering the ark"
-          ],
-          narrative: [
-            "Sadducee vs Pharisee dispute about incense timing"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Yom Kippur avodah sequence",
@@ -101891,21 +98937,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "incense placement inside Kodesh Kodashim",
-            "cloud coverage requirement",
-            "exclusion zone during burning"
-          ],
-          theological: [
-            "incense atones for lashon hara",
-            "mediation before divine presence"
-          ],
-          narrative: [
-            "High Priest's brief prayer at exit",
-            "Sadducee vs Pharisee incense dispute"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Yom Kippur incense service",
@@ -102936,17 +99967,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "exclusion during incense burning",
-            "exclusion during blood sprinkling",
-            "bein haparakhot (between curtains) zone"
-          ],
-          theological: [
-            "graduated Temple holiness"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Yom Kippur avodah sequence",
@@ -103038,15 +100058,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "silver pan for daily incense"
-          ],
-          theological: [
-            "material hierarchy in Temple service"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Temple vessel materials",
@@ -103133,15 +100144,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "gold pan for Yom Kippur incense"
-          ],
-          theological: [
-            "material harmony with sacred space"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Holy of Holies architecture",
@@ -103263,14 +100265,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "3 kavim Yom Kippur coals",
-            "4 kavim daily coals"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Temple logistics",
@@ -103374,15 +100368,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "firepan weight specifications"
-          ],
-          theological: [],
-          narrative: [
-            "utensil design reflects personnel requirements"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Temple utensil materials",
@@ -103467,16 +100452,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "gold varieties for Temple use"
-          ],
-          theological: [],
-          narrative: [
-            "Sheba gold has distinctive greenish tint",
-            "Rav Chisda's ethnographic detail"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Temple material knowledge",
@@ -104457,15 +101432,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "gold quality for Temple vessels"
-          ],
-          theological: [],
-          narrative: [
-            "five gold types taxonomy"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Temple vessel materials",
@@ -104552,13 +101518,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "incense quantity daily vs Yom Kippur"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "incense service laws",
@@ -104644,13 +101603,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "ramp path for High Priest on Yom Kippur"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "altar ramp geometry",
@@ -104736,13 +101688,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "four wood arrangements on altar"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "altar fire laws",
@@ -104827,13 +101772,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "golden pitcher for Yom Kippur sanctification"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "hand-foot sanctification laws",
@@ -105013,14 +101951,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "four vs five wood arrangements",
-            "Yom Kippur coal source"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "altar fire laws",
@@ -105851,14 +102781,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "fire prohibition lo tichbeh",
-            "four vs five arrangements resolved"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "altar fire laws",
@@ -106471,14 +103393,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "wood from sides of altar invalid",
-            "communal offerings override Shabbat and tumah"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "altar fire arrangements",
@@ -107121,14 +104035,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "hutrah vs dechuyah for communal tumah",
-            "altar fire prohibition on Shabbat"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "ritual impurity and Temple service",
@@ -107483,13 +104389,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "spoon used for incense transfer"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "incense service laws",
@@ -107615,14 +104514,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "kometz mechanics",
-            "spoon grip method"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "incense service laws",
@@ -107727,14 +104618,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "coal pan in right hand",
-            "incense ladle in left hand"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Yom Kippur avodah sequence",
@@ -107875,18 +104758,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "High Priest replacement when impure on Yom Kippur"
-          ],
-          theological: [
-            "modesty as spiritual merit"
-          ],
-          narrative: [
-            "Kimhit's seven sons",
-            "Gentile spittle impurity on Yom Kippur"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "High Priest replacement laws",
@@ -108005,14 +104876,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "exact kometz measure required",
-            "not full fist not fingertips"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kometz laws in meal-offerings",
@@ -108099,13 +104962,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "hand as the measure for kometz"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kometz laws",
@@ -109125,13 +105981,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "kometz from pan meal-offering"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kometz laws",
@@ -109262,13 +106111,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "kometz validity if between fingers"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kometz laws",
@@ -109394,13 +106236,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "kometz validity when shape altered"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kometz precision laws",
@@ -109487,13 +106322,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "kometz timing - must be by day"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Yom Kippur service timing laws",
@@ -110537,13 +107365,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "kometz validity when stuck to pan or garment"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kometz laws",
@@ -110631,13 +107452,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "rabbinic vs biblical kometz requirements"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kometz laws",
@@ -110776,13 +107590,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "floor contact invalidation - applies to blood not to kometz"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kometz laws",
@@ -110870,13 +107677,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "kometz from excess pile"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kometz laws"
@@ -110997,15 +107797,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "wrong intent invalidates kometz"
-          ],
-          theological: [
-            "intent in Temple service"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kavvanah in Temple service",
@@ -111711,13 +108502,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "pigul thoughts during preparatory raking act"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "pigul laws",
@@ -111834,14 +108618,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "pigul laws for incense offerings",
-            "does incense have pigul?"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "pigul laws",
@@ -112356,15 +109132,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "non-priest blood-carrying disqualified"
-          ],
-          theological: [],
-          narrative: [
-            "Rav Sheshet reversal"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "blood service laws",
@@ -112452,13 +109219,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "kabbalah as independent service act question"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kometz laws",
@@ -112629,16 +109389,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "replacement HP needs new bull (R. Chanina)",
-            "incense before slaughter is void"
-          ],
-          theological: [],
-          narrative: [
-            "R. Chanina teaching"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "HP Yom Kippur service",
@@ -113662,14 +110412,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "incense placed by bare hands not vessel",
-            "most difficult Temple act"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kometz laws",
@@ -113800,14 +110542,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "withdrawal before slaughter permitted",
-            "slaughtered animal cannot be registered on"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Passover offering laws",
@@ -114228,13 +110962,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "removing linen garments is a required service act"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "HP vestments",
@@ -114366,14 +111093,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "slaughter blood category dispute (Abaye/Rava)",
-            "blood identity after slaughter"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "blood offering laws",
@@ -114506,14 +111225,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "HP bull communal (Abaye) vs personal (Rava)",
-            "communal offerings override Shabbat/tumah"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "communal sin-offering laws",
@@ -115607,14 +112318,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "HP bull is communal (R. Meir)",
-            "communal offerings not subject to pigul"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "communal sin-offering laws",
@@ -115778,14 +112481,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Yom Kippur service exclusively designated",
-            "HP cannot fulfill personal vows through it"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "designated service laws",
@@ -116872,14 +113567,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "automatic sanctity requires explicit designation",
-            "designated service exclusivity is independent"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "firstborn laws",
@@ -117004,14 +113691,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "blood stirred to prevent congealing",
-            "HP personally receives and carries blood"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Holy of Holies laws",
@@ -117498,14 +114177,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "'which is for himself' establishes exclusive designation",
-            "Yom Kippur service cannot discharge personal obligations"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "designated service laws",
@@ -117611,14 +114282,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "walking right side shows kavod",
-            "HP walks south side toward Holy of Holies"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Temple directional protocols",
@@ -117740,14 +114403,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "one upward seven downward sprinkling sequence",
-            "counting formula prevents error and restart"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "blood sprinkling laws",
@@ -118737,14 +115392,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "direct entry more respectful",
-            "two curtains in Second Temple"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Holy of Holies access",
@@ -118851,15 +115498,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "facing kapporet directly is required kavod"
-          ],
-          theological: [
-            "divine presence and approach direction"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Temple service kavod",
@@ -119501,15 +116139,6 @@ const DAF_CONTENT = {
             sourceRefs: []
           }
         ],
-        concepts: {
-          halachic: [
-            "uncertain word meanings preserved in tradition"
-          ],
-          theological: [
-            "Torah text requires ongoing interpretation"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "tzara'at laws",
@@ -119622,13 +116251,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "curtain hookings on south side"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Temple architecture",
@@ -119739,17 +116361,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "HP sprinkles on even ha-shetiya in absence of Ark"
-          ],
-          theological: [
-            "Ark's preservation and future restoration"
-          ],
-          narrative: [
-            "Josiah's protection of the Ark"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Second Temple period",
@@ -119853,16 +116464,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "incense precedes blood sprinkling inside Holy of Holies",
-            "incense smoke protects HP"
-          ],
-          theological: [
-            "divine cloud of incense"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "incense service",
@@ -120857,13 +117458,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "side approach to coal pan required"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Temple service orientation",
@@ -120996,16 +117590,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "incense piled inside Holy of Holies (Sages)",
-            "Sadducee position rejected"
-          ],
-          theological: [
-            "meaning of 'before God' in incense service"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Sadducee-Pharisee disputes",
@@ -121141,16 +117725,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "'before God' means inside Holy of Holies",
-            "incense piling location confirmed"
-          ],
-          theological: [
-            "presence of God and ritual timing"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Temple service hermeneutics",
@@ -121260,15 +117834,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "backward exit from Holy of Holies required"
-          ],
-          theological: [
-            "deference to divine presence"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kavod principles",
@@ -121395,16 +117960,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "exit prayer must be brief",
-            "HP prays for community not self"
-          ],
-          theological: [
-            "HP as communal representative even in prayer"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "HP communal role",
@@ -122360,16 +118915,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "walking backward when leaving a Torah scholar"
-          ],
-          theological: [],
-          narrative: [
-            "Rav Yosef",
-            "Rava application"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kavod for Torah scholars",
@@ -122493,16 +119038,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "exit prayer must be brief",
-            "communal representatives keep prayers short"
-          ],
-          theological: [],
-          narrative: [
-            "Sharon Valley prayer"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "prayer laws",
@@ -122611,16 +119146,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "HP sprinkles on even ha-shetiya in absence of Ark"
-          ],
-          theological: [
-            "world created from even ha-shetiya",
-            "Temple as world's center"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Temple cosmology",
@@ -122707,14 +119232,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "coal pan placed on even ha-shetiya",
-            "three finger-breadth elevation"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Temple measurements",
@@ -122851,14 +119368,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "outer sprinkling: one up seven down before parochet",
-            "bull blood before goat blood"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Yom Kippur service order",
@@ -123719,16 +120228,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "cheruvim facing as symbol of divine-Israel relationship",
-            "world's center is Jerusalem"
-          ],
-          narrative: [
-            "destruction and exposed intimacy"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "cheruvim on kapporet",
@@ -123884,18 +120383,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "HP sprinkles toward even ha-shetiya regardless of Ark's location"
-          ],
-          theological: [
-            "Ark's future restoration",
-            "divine presence without Ark"
-          ],
-          narrative: [
-            "multiple traditions preserved"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Second Temple history",
@@ -124868,15 +121355,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "world created from Zion",
-            "Temple as creation's anchor",
-            "even ha-shetiya as foundation"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Temple cosmology",
@@ -125003,16 +121481,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "goat blood sprinkled inside Holy of Holies",
-            "goat blood atones for all Israel"
-          ],
-          theological: [
-            "communal atonement culmination"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Yom Kippur blood protocol",
@@ -125100,15 +121568,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "blood services form unified atonement system"
-          ],
-          theological: [
-            "atonement as paired wholeness"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Yom Kippur atonement",
@@ -125447,20 +121906,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "kapporet sprinkling technique",
-            "hand tilt for up vs. down"
-          ],
-          theological: [
-            "precision approaching the most sacred object",
-            "body as instrument of atonement"
-          ],
-          narrative: [
-            "Yom Kippur atonement",
-            "Temple service precision"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Understanding the kapporet's placement inside the Holy of Holies",
@@ -125613,20 +122058,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "sprinkling count formula",
-            "self-monitoring in Temple service"
-          ],
-          theological: [
-            "ritual as structured memory",
-            "error correction built into liturgical form"
-          ],
-          narrative: [
-            "mnemonic counting",
-            "Temple service precision"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Understanding why the upward sprinkle is counted separately from the seven below",
@@ -125749,19 +122180,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "limits of analogy in halachic derivation",
-            "kareth requires explicit verse"
-          ],
-          theological: [
-            "divine law's precision in matters of spiritual life and death"
-          ],
-          narrative: [
-            "hermeneutics",
-            "scriptural redundancy as purposeful"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Understanding what kareth means",
@@ -125868,20 +122286,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "goat's blood inner service",
-            "two-entry structure of Holy of Holies service"
-          ],
-          theological: [
-            "separate representation for priests and nation",
-            "two-phase inner atonement"
-          ],
-          narrative: [
-            "Yom Kippur service sequence",
-            "Holy of Holies entries"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the bull's blood atones for priests while goat's blood atones for Israel",
@@ -126927,21 +123331,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "blood bowl management",
-            "stand system",
-            "sequential bowl handling"
-          ],
-          theological: [
-            "physical order as spiritual safeguard",
-            "sequential discipline in sacred service"
-          ],
-          narrative: [
-            "ritual error prevention",
-            "Temple logistics"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the two blood services inside are sequential (bull before goat)",
@@ -127808,20 +124197,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "end of inner blood service",
-            "HP's exit from the most sacred space"
-          ],
-          theological: [
-            "emergence from the sacred center",
-            "the HP as bearer of completed inner atonement"
-          ],
-          narrative: [
-            "Yom Kippur service sequence",
-            "transition between service phases"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the HP entered for bull blood and re-entered for goat blood",
@@ -128077,21 +124452,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "breira in biblical law",
-            "certainty requirement",
-            "Yom Kippur service precision"
-          ],
-          theological: [
-            "certainty as prerequisite for atonement",
-            "consciousness in sacred service"
-          ],
-          narrative: [
-            "talmudic principle",
-            "halachic epistemology"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Understanding what breira means in halachic reasoning",
@@ -128198,18 +124558,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "parochet service",
-            "purification of the Heichal boundary"
-          ],
-          theological: [
-            "concentric purification outward from the Holy of Holies"
-          ],
-          narrative: [
-            "Yom Kippur service zones"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the parochet separates the Holy of Holies from the Heichal",
@@ -128332,20 +124680,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "complete parochet service",
-            "dual blood coverage",
-            "service order"
-          ],
-          theological: [
-            "the curtain as a zone requiring full dual-blood purification"
-          ],
-          narrative: [
-            "Yom Kippur service",
-            "mirroring inner and outer zones"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the bull service must precede the goat service in all phases",
@@ -129067,20 +125401,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "hermeneutic principle: no chain analogy",
-            "golden altar service requires direct verse"
-          ],
-          theological: [
-            "limits of analogical reasoning",
-            "scriptural directness in matters of highest sanctity"
-          ],
-          narrative: [
-            "talmudic hermeneutics",
-            "Zevachim principle"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Understanding the principle that hekkesh cannot teach hekkesh",
@@ -129236,22 +125556,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "golden altar service",
-            "individual blood corners",
-            "combined blood top",
-            "blood mixing timing"
-          ],
-          theological: [
-            "convergence of atonement streams",
-            "bull and goat united at the golden altar"
-          ],
-          narrative: [
-            "sequence of inner altar service",
-            "sacred synthesis"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the golden altar is the incense altar inside the Heichal",
@@ -130246,21 +126550,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "blood bowl confusion solution",
-            "mixed blood procedure",
-            "atonement under uncertainty"
-          ],
-          theological: [
-            "resilience of Yom Kippur service",
-            "procedure as substitute for certainty"
-          ],
-          narrative: [
-            "halachic problem-solving",
-            "ritual contingency"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing bull blood must precede goat blood in all phases",
@@ -130387,20 +126676,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "pouring remainder at altar base",
-            "concluding the blood circuit"
-          ],
-          theological: [
-            "the Temple as complete system of purification",
-            "blood completing its sacred journey"
-          ],
-          narrative: [
-            "Yom Kippur conclusion",
-            "outer altar"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing there are four zones and the outer altar is the last",
@@ -131369,20 +127644,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "fixed sequence: parochet then mix then golden altar",
-            "timing of blood mixing"
-          ],
-          theological: [
-            "divine ordering of purification stages",
-            "the precise moment of synthesis"
-          ],
-          narrative: [
-            "Yom Kippur service order",
-            "scriptural derivation"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing both the parochet and golden altar receive sprinkles",
@@ -131511,21 +127772,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "outer altar service",
-            "completing the blood circuit",
-            "western base pouring"
-          ],
-          theological: [
-            "full traversal of Temple sacred space",
-            "blood purifying from innermost to outermost"
-          ],
-          narrative: [
-            "Yom Kippur blood service conclusion",
-            "outer court"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the outer altar is in the azarah (courtyard), not inside the Heichal",
@@ -131653,21 +127899,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "comprehensive blood service",
-            "systematic four-zone purification",
-            "total sprinkle accounting"
-          ],
-          theological: [
-            "atonement as total coverage of sacred space",
-            "systematic thoroughness"
-          ],
-          narrative: [
-            "Yom Kippur totality",
-            "arithmetic of atonement"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing all four zones and their respective formulas",
@@ -132449,21 +128680,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "blood pouring at altar base",
-            "dispute over inner vs. outer base",
-            "tannaitic dispute"
-          ],
-          theological: [
-            "spatial theology: does blood belong to its service zone?",
-            "the blood's concluding journey"
-          ],
-          narrative: [
-            "tannaitic dispute",
-            "blood disposal"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing there are two altars each with a base",
@@ -132610,21 +128826,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "third of three confessions",
-            "scapegoat dispatch",
-            "sin transfer through ritual"
-          ],
-          theological: [
-            "physical ritual as spiritual reality",
-            "symbolic displacement of sin"
-          ],
-          narrative: [
-            "Yom Kippur theology",
-            "atonement mechanism"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing this is the third confession (first two were for HP's household and the priesthood)",
@@ -132736,21 +128937,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "ten relay stations",
-            "news relay to HP",
-            "scapegoat arrival confirmation"
-          ],
-          theological: [
-            "the synchronized Yom Kippur: inner service and outer journey",
-            "community holding vigil"
-          ],
-          narrative: [
-            "Yom Kippur logistics",
-            "communal participation in atonement"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the HP reads the Torah later in the day's sequence",
@@ -133744,19 +129930,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "fixed sequence of Yom Kippur services",
-            "scapegoat after blood services"
-          ],
-          theological: [
-            "invisible atonement (blood inside) precedes visible atonement (scapegoat)"
-          ],
-          narrative: [
-            "Yom Kippur day structure",
-            "inner and outer atonement sequence"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the blood services are all performed before the scapegoat",
@@ -133896,20 +130069,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "HP Torah reading",
-            "eight blessings after reading",
-            "community prostration"
-          ],
-          theological: [
-            "public covenant renewal through Torah reading on the day of atonement"
-          ],
-          narrative: [
-            "Yom Kippur communal service",
-            "Torah reading ritual"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the HP reads Leviticus from a scroll and Numbers by memory",
@@ -134020,19 +130179,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "content of eight blessings",
-            "Yom Kippur communal prayer"
-          ],
-          theological: [
-            "the blessings as theology: what Israel is and what it prays for"
-          ],
-          narrative: [
-            "Yom Kippur liturgy",
-            "covenant renewal"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the standard blessing categories",
@@ -134141,19 +130287,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "specific Torah portions on Yom Kippur",
-            "recitation vs. reading from scroll"
-          ],
-          theological: [
-            "consideration for the congregation in ritual design"
-          ],
-          narrative: [
-            "Yom Kippur Torah reading",
-            "respect for assembly"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the three Yom Kippur Torah portions",
@@ -134260,21 +130393,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "brevity of the HP's prayer",
-            "pastoral consideration",
-            "anxiety of the congregation"
-          ],
-          theological: [
-            "leadership responsibility: even prayer must consider the people",
-            "sacred haste as pastoral care"
-          ],
-          narrative: [
-            "Yom Kippur service",
-            "HP's relationship with the nation"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the people are outside waiting and watching",
@@ -134363,20 +130481,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "specific content of HP's prayer",
-            "petitions for Israel's welfare"
-          ],
-          theological: [
-            "the HP as national intercessor",
-            "prayer as national mandate"
-          ],
-          narrative: [
-            "Yom Kippur prayer",
-            "national petition"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the prayer is brief but comprehensive",
@@ -134506,20 +130610,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "post-Yom Kippur feast",
-            "celebrating safe emergence"
-          ],
-          theological: [
-            "approaching the divine as a dangerous encounter",
-            "survival as cause for gratitude"
-          ],
-          narrative: [
-            "Yom Kippur aftermath",
-            "personal celebration"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing that entering the Holy of Holies was genuinely dangerous",
@@ -134609,19 +130699,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Yom Kippur service summary",
-            "white and golden garment services"
-          ],
-          theological: [
-            "garments as markers of inner vs. outer sacred engagement"
-          ],
-          narrative: [
-            "Yom Kippur service structure",
-            "garment symbolism"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing which services require white vs. gold garments",
@@ -135750,21 +131827,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "burning Yom Kippur offerings",
-            "ritual impurity from carrying",
-            "outside Jerusalem burning"
-          ],
-          theological: [
-            "the journey of the holiest animals to the most impure location",
-            "completion of the atonement cycle"
-          ],
-          narrative: [
-            "Yom Kippur conclusion",
-            "ritual impurity from sacred contact"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the Yom Kippur bull and goat are unique in being burned outside Jerusalem",
@@ -136131,21 +132193,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "immersion at each garment change",
-            "ten-fold purification",
-            "highest purity standard"
-          ],
-          theological: [
-            "the body as sacred instrument requiring constant maintenance",
-            "purity as prerequisite for transition"
-          ],
-          narrative: [
-            "Yom Kippur ritual structure",
-            "HP's purification"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing there are multiple garment changes throughout the day",
@@ -136286,20 +132333,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "type of water for HP's immersion",
-            "kiyor vs. regular mikveh"
-          ],
-          theological: [
-            "Temple-specific vs. general purity",
-            "what makes the HP's immersion special"
-          ],
-          narrative: [
-            "halachic dispute",
-            "purity sources"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing what the kiyor is (the laver in the Temple court)",
@@ -137192,21 +133225,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "pronouncing the Divine Name in the Temple",
-            "full prostration of the congregation",
-            "eight blessings"
-          ],
-          theological: [
-            "the congregation's direct encounter with the divine through the Name",
-            "private inner service made communal"
-          ],
-          narrative: [
-            "Yom Kippur communal prayer",
-            "Divine Name in Temple"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing that the Shem haMeforash is not pronounced outside the Temple",
@@ -137318,20 +133336,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "closing Yom Kippur services",
-            "final Holy of Holies entry",
-            "HP's personal offerings"
-          ],
-          theological: [
-            "the day concluding with a humble task after the greatest atonement work"
-          ],
-          narrative: [
-            "Yom Kippur service conclusion",
-            "closing sequence"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the fire pan was left inside from the incense service",
@@ -138033,19 +134037,6 @@ const DAF_CONTENT = {
             sourceRefs: []
           }
         ],
-        concepts: {
-          halachic: [
-            "essential vs. required services",
-            "which services void if missing"
-          ],
-          theological: [
-            "the load-bearing structure of Yom Kippur atonement"
-          ],
-          narrative: [
-            "halachic categories",
-            "Temple service essentials"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Understanding the concept of me'akev in Temple service",
@@ -138143,19 +134134,6 @@ const DAF_CONTENT = {
             sourceRefs: []
           }
         ],
-        concepts: {
-          halachic: [
-            "service validity despite HP's impurity",
-            "separation of service validity from personal obligation"
-          ],
-          theological: [
-            "communal atonement protected from individual priestly failure"
-          ],
-          narrative: [
-            "halachic principle",
-            "impurity in Temple service"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the principle that impurity does not retroactively void Temple service",
@@ -138325,20 +134303,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "deputy HP preparation",
-            "Mishneh's scope of substitution",
-            "backup for HP"
-          ],
-          theological: [
-            "the balance between irreplaceability and continuity of the day's service"
-          ],
-          narrative: [
-            "Yom Kippur contingency",
-            "human fragility in divine service"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the HP was separated from his household for seven days to prepare",
@@ -138482,21 +134446,6 @@ const DAF_CONTENT = {
             sourceRefs: []
           }
         ],
-        concepts: {
-          halachic: [
-            "closing Yom Kippur animal offerings",
-            "Musaf offerings",
-            "completion of the day"
-          ],
-          theological: [
-            "symmetry of opening and closing offerings",
-            "personal and communal representation throughout"
-          ],
-          narrative: [
-            "Yom Kippur conclusion",
-            "closing sacrifices"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the HP has personal and communal offerings both at the start and end of Yom Kippur",
@@ -139514,20 +135463,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "general rule: inner blood = outside burning",
-            "beit ha-deshen location"
-          ],
-          theological: [
-            "sacred geography: inside and outside as paired opposites",
-            "the offering bridging the most and least sacred spaces"
-          ],
-          narrative: [
-            "Temple law principle",
-            "sin-offering disposal"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the beit ha-deshen is outside Jerusalem",
@@ -139633,20 +135568,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "burning Yom Kippur offerings outside Jerusalem",
-            "completing the atonement circuit"
-          ],
-          theological: [
-            "the offering as bridge between innermost and outermost",
-            "complete atonement requires both directions"
-          ],
-          narrative: [
-            "Yom Kippur theology",
-            "atonement completion"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the blood went to the Holy of Holies (innermost) and the body goes outside the city (outermost)",
@@ -139752,21 +135673,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "carriers' purification",
-            "Yom Kippur framed by immersion",
-            "concluding impurity"
-          ],
-          theological: [
-            "the day framed by immersion: beginning and end both involve water",
-            "purity as the frame of Yom Kippur"
-          ],
-          narrative: [
-            "Yom Kippur conclusion",
-            "ritual framing"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing that tum'ah (impurity from carrying burnt offerings) ends at nightfall after immersion",
@@ -140812,19 +136718,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "which goats must be burned",
-            "designation vs. performance of service"
-          ],
-          theological: [
-            "what triggers a Temple obligation: designation or performance"
-          ],
-          narrative: [
-            "Yom Kippur goat laws",
-            "replacement scenarios"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the slaughtered goat (for God) must be burned outside Jerusalem",
@@ -140996,19 +136889,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "amora dispute on replacement burning obligation",
-            "paired goat interdependence"
-          ],
-          theological: [
-            "the complexity of paired obligations and replacement scenarios"
-          ],
-          narrative: [
-            "amora dispute",
-            "Yom Kippur contingency law"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the two goats are a matched pair",
@@ -141844,20 +137724,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "matched goat requirement",
-            "point of no return for each goat",
-            "replacement at different stages"
-          ],
-          theological: [
-            "the paired service as a legal unity with individual points of completion"
-          ],
-          narrative: [
-            "Yom Kippur goat law",
-            "replacement rules"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the lottery designates which goat plays which role",
@@ -142000,19 +137866,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "binding nature of the lottery",
-            "violation of lottery designation"
-          ],
-          theological: [
-            "the lottery as divine assignment - binding on the HP himself"
-          ],
-          narrative: [
-            "Yom Kippur service integrity",
-            "lottery's legal force"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the lottery designates which goat is for God and which for Azazel",
@@ -143101,20 +138954,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "location of slaughtering",
-            "prohibition on slaughtering outside",
-            "service validity"
-          ],
-          theological: [
-            "sacred geography: each zone has its required service"
-          ],
-          narrative: [
-            "Temple law",
-            "location in Temple service"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the prohibition against slaughtering sacrifices outside the Temple",
@@ -143286,20 +139125,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "prohibition on outside slaughter",
-            "positive command to bring to Temple",
-            "dual aspect of location requirement"
-          ],
-          theological: [
-            "the Temple's exclusive domain enforced from two directions"
-          ],
-          narrative: [
-            "Temple service law",
-            "location obligations"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the basic prohibition against slaughtering sacrifices outside the Temple",
@@ -143406,19 +139231,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "location as intrinsic to service",
-            "Temple sacred geography"
-          ],
-          theological: [
-            "the Temple's zones as a theology of holiness gradations"
-          ],
-          narrative: [
-            "Temple theology",
-            "sacred geography"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Understanding the different zones of the Temple and their respective services",
@@ -144447,21 +140259,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "scope of outside slaughter prohibition",
-            "intent distinguishes food from sacrifice",
-            "kareth penalty"
-          ],
-          theological: [
-            "the Temple as the exclusive intermediary for sacrificial worship",
-            "bypassing the intermediary is a theological error"
-          ],
-          narrative: [
-            "Temple theology",
-            "prohibition on outside slaughter"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Understanding the kareth penalty and when it applies",
@@ -145373,19 +141170,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "exclusive designation for Azazel",
-            "exclusion from sacrificial category"
-          ],
-          theological: [
-            "the power of designation to both include and exclude"
-          ],
-          narrative: [
-            "Temple law",
-            "sacrifice categorization"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing what would make an animal eligible for altar service",
@@ -145569,20 +141353,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "replacement after lottery goat death",
-            "survivor's status",
-            "new lottery"
-          ],
-          theological: [
-            "the service's resilience: built-in contingency for individual failures"
-          ],
-          narrative: [
-            "Yom Kippur contingency law",
-            "paired goat replacement"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the lottery designates the goats",
@@ -146295,19 +142065,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "quality requirement for replacement goats",
-            "hidur mitzvah in Temple service"
-          ],
-          theological: [
-            "offering the best as an expression of the relationship with God"
-          ],
-          narrative: [
-            "Temple service standards",
-            "quality in replacement scenarios"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the matching requirement applies to the original pair",
@@ -147073,19 +142830,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "replacement and reappearance of original sin-offering",
-            "consecrated animal with no role"
-          ],
-          theological: [
-            "the fate of sacred objects that have lost their purpose"
-          ],
-          narrative: [
-            "Temple law",
-            "replacement rules"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing what a sin-offering's 'purpose' is",
@@ -147251,20 +142995,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "lottery as essential designating act",
-            "communal sin-offering replacement rules"
-          ],
-          theological: [
-            "the lottery as divine determination rather than random chance",
-            "human mechanism revealing divine will"
-          ],
-          narrative: [
-            "Yom Kippur theology",
-            "lottery's function"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the lottery is performed for the Yom Kippur goats",
@@ -148478,21 +144208,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "communal vs. individual offering replacement",
-            "half-shekel funding",
-            "HP as communal agent"
-          ],
-          theological: [
-            "the community's atonement is not dependent on any one animal's fate",
-            "HP as agent of a community that always has resources"
-          ],
-          narrative: [
-            "Temple law",
-            "communal vs. individual offerings"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the Yom Kippur goats are communal offerings funded by the half-shekel",
@@ -149224,21 +144939,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "third confession over the scapegoat",
-            "hand-laying ritual",
-            "sin transfer"
-          ],
-          theological: [
-            "the HP's hands as bridge between sacred and profane",
-            "symbolic transfer of sin"
-          ],
-          narrative: [
-            "Yom Kippur service",
-            "scapegoat ritual"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the third confession covers all of Israel (the first two were for HP's household and the priesthood)",
@@ -149385,21 +145085,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "guide as HP's agent",
-            "HP's return to Temple duties",
-            "two-part scapegoat service"
-          ],
-          theological: [
-            "divided labor in sacred service",
-            "agency completing what the principal began"
-          ],
-          narrative: [
-            "Yom Kippur service structure",
-            "scapegoat dispatch"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the HP has more services to perform after the scapegoat",
@@ -150320,19 +146005,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "advance designation of Azazel guide",
-            "preparation for all service roles"
-          ],
-          theological: [
-            "preparation as prerequisite for sacred service at every level"
-          ],
-          narrative: [
-            "Yom Kippur preparation",
-            "service roles"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing the HP is prepared for seven days",
@@ -150507,20 +146179,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "dialogic halachic transmission",
-            "teacher-student questions and answers"
-          ],
-          theological: [
-            "the value of the question in Torah learning",
-            "dialogue as the method of Torah transmission"
-          ],
-          narrative: [
-            "Talmudic pedagogy",
-            "Torah transmission"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Understanding the dialogic nature of Talmudic discussion",
@@ -150626,19 +146284,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "five prohibited activities on Yom Kippur",
-            "body's participation in repentance"
-          ],
-          theological: [
-            "the body and soul as partners in Yom Kippur observance"
-          ],
-          narrative: [
-            "Yom Kippur observance",
-            "bodily affliction"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing what the five afflictions are",
@@ -150727,20 +146372,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Hakhel commandment",
-            "parallel to Yom Kippur reading",
-            "covenantal Torah reading"
-          ],
-          theological: [
-            "two rhythms of covenant renewal: annual and septennial"
-          ],
-          narrative: [
-            "Yom Kippur and Hakhel",
-            "public Torah reading"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Knowing what Hakhel is and when it occurs",
@@ -151877,21 +147508,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Shabbat boundary (techum Shabbat)",
-            "eruv for extended travel",
-            "affliction permits"
-          ],
-          theological: [
-            "communal escort as honor and support",
-            "Azazel service as communal atonement"
-          ],
-          narrative: [
-            "ten sukkot along desert route",
-            "crowds lining the way to the cliff"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Shabbat boundary laws",
@@ -152031,20 +147647,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "method of killing the Azazel goat",
-            "crimson thread as atonement indicator"
-          ],
-          theological: [
-            "Isaiah 1:18 - sins like crimson turning white as snow",
-            "Divine acceptance of communal atonement"
-          ],
-          narrative: [
-            "the goat pushed backward off the cliff",
-            "thread between the horns as the last act"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Azazel cliff location",
@@ -152144,18 +147746,6 @@ const DAF_CONTENT = {
             sourceRefs: []
           }
         ],
-        concepts: {
-          halachic: [
-            "daytime requirement for Temple service",
-            "Azazel exception to nighttime prohibition"
-          ],
-          theological: [
-            "Azazel service as expulsion rather than sacrifice"
-          ],
-          narrative: [
-            "journey to distant cliff potentially extending past dark"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "general rule that Temple services are invalid at night",
@@ -153245,21 +148835,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "chok vs mishpat distinction",
-            "Azazel as Divine decree"
-          ],
-          theological: [
-            "fallen angels Uzza and Azza'el",
-            "atonement for cosmic sin",
-            "the Satan's inability to argue against a chok"
-          ],
-          narrative: [
-            "etymology of Azazel from az and el",
-            "gezirah as the cut cliff"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "fallen angels narrative (Gen. 6)",
@@ -153399,18 +148974,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "gezerah shavah from midbar repetition",
-            "requirements for valid Azazel location"
-          ],
-          theological: [
-            "wilderness as symbol of abandonment and expulsion"
-          ],
-          narrative: [
-            "three wilderness verses in Leviticus 16"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "basic midrashic derivation techniques",
@@ -153527,18 +149090,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "shelicha as the operative act in Azazel",
-            "tannaitic dispute on the method"
-          ],
-          theological: [
-            "the goat's death as expulsion ritual"
-          ],
-          narrative: [
-            "the final push at the Azazel cliff"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Azazel service basics",
@@ -153678,19 +149229,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "tum'ah of handlers of burned bull/goat",
-            "eimurim removal and timing",
-            "braided pole carrying method"
-          ],
-          theological: [
-            "purification through fire outside the camp"
-          ],
-          narrative: [
-            "HP tearing open the bull and goat after Azazel service"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Yom Kippur service order",
@@ -154792,19 +150330,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "gezerah shavah from parah adumah",
-            "burning outside three camps",
-            "carcasses taken out whole"
-          ],
-          theological: [
-            "purity and impurity rituals linked across the Torah"
-          ],
-          narrative: [
-            "derivation connecting Yom Kippur to parah adumah burning"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "parah adumah basics",
@@ -154996,19 +150521,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "tum'ah onset for burning handlers",
-            "gezerah shavah linking parah adumah to Yom Kippur",
-            "one camp vs three camps for tum'ah"
-          ],
-          theological: [
-            "ritual purity and its relationship to sacred service"
-          ],
-          narrative: [
-            "tannaitic dispute about when impurity begins"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "three-camp structure",
@@ -156063,18 +151575,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "burning site requirements: north, sloped, with altar ash",
-            "tum'ah onset: ash vs charred"
-          ],
-          theological: [
-            "north as the direction of sin-offering work"
-          ],
-          narrative: [
-            "the ash-pit north of Jerusalem as designated burning site"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "beit ha-deshen location",
@@ -156384,23 +151884,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "HP's Torah reading indispensable",
-            "relay signal system for Azazel confirmation",
-            "eight blessings of Yom Kippur reading",
-            "vestment use between services"
-          ],
-          theological: [
-            "Torah reading as central to Yom Kippur atonement",
-            "relay signals as ancient communication"
-          ],
-          narrative: [
-            "signal wavers from Jerusalem to cliff",
-            "synagogue adjacent to Temple",
-            "chazan to deputy to HP chain"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Yom Kippur service order",
@@ -157458,20 +152941,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "sleep requires new immersion before service",
-            "me'ilah does not apply to vestment use",
-            "shatnez in priestly garments discussion",
-            "sitting before the HP permitted for specific officials"
-          ],
-          theological: [
-            "priestly vestments as instruments of service, not hoarded sacred objects"
-          ],
-          narrative: [
-            "the night before Yom Kippur - HP kept awake"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "me'ilah laws",
@@ -157641,19 +153110,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "me'ilah analysis of vestment use",
-            "personal vs sacred garments for reading",
-            "rolling the Torah after reading"
-          ],
-          theological: [
-            "vestments as tools of service, not hoarded kedushah"
-          ],
-          narrative: [
-            "HP holding rolled Torah to his chest after reading"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "me'ilah laws (Lev. 5)",
@@ -157742,18 +153198,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "formal handoff protocol for Torah scroll",
-            "roles of chazan, rosh ha-knesset, segan"
-          ],
-          theological: [
-            "maximizing honor through formal delegation chains"
-          ],
-          narrative: [
-            "the moment the HP receives the Torah scroll to read to the congregation"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "structure of Temple-era synagogue",
@@ -157842,17 +153286,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "bimah requirement for HP's reading"
-          ],
-          theological: [
-            "HP as national teacher on Yom Kippur"
-          ],
-          narrative: [
-            "HP visible to all assembled on the bimah"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "bimah as teaching platform",
@@ -158321,19 +153754,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "prohibition of sitting in the Azarah",
-            "exception for Davidic kings"
-          ],
-          theological: [
-            "standing as the posture of service",
-            "the king's unique status before God"
-          ],
-          narrative: [
-            "David sitting before God after Nathan's prophecy"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Azarah geography",
@@ -158648,22 +154068,6 @@ const DAF_CONTENT = {
             sourceRefs: []
           }
         ],
-        concepts: {
-          halachic: [
-            "skipping in Torah reading - same topic vs different topic",
-            "service sequence from scripture order",
-            "eimurim timing"
-          ],
-          theological: [
-            "divine attributes - great, mighty, awesome",
-            "prophetic omission of praise",
-            "capturing the yetzer hara"
-          ],
-          narrative: [
-            "Anshei Knesset HaGedolah restoring prayer",
-            "imprisonment of idolatry inclination"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "yetzer hara concept",
@@ -158821,19 +154225,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "by-heart Torah reading on Yom Kippur",
-            "eight blessings of HP's Yom Kippur reading",
-            "protecting Torah scroll honor"
-          ],
-          theological: [
-            "Torah scroll's sanctity and public perception"
-          ],
-          narrative: [
-            "HP declaring 'more is written here' after reading by heart"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Torah reading laws",
@@ -159791,17 +155182,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "prohibition of backward scrolling in Torah reading"
-          ],
-          theological: [
-            "honor of congregation in public Torah reading"
-          ],
-          narrative: [
-            "HP's Torah reading sequence"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Torah reading laws",
@@ -159889,17 +155269,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "declaration after by-heart reading to protect scroll honor"
-          ],
-          theological: [
-            "physical intimacy with Torah as public gesture"
-          ],
-          narrative: [
-            "HP holding the Torah to his chest before the nation"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "by-heart Torah reading context",
@@ -160039,19 +155408,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "eight blessings for by-heart reading",
-            "displaying Torah scrolls to congregation"
-          ],
-          theological: [
-            "hidur mitzvah - beautifying commandments",
-            "'This is my God and I will glorify Him'"
-          ],
-          narrative: [
-            "beautiful Torah scrolls brought to Temple for Yom Kippur"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "hidur mitzvah principle",
@@ -160151,19 +155507,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "eight prostrations of the HP",
-            "prohibition of passing over commandments"
-          ],
-          theological: [
-            "prostration as expression of total submission",
-            "the HP as model of humility"
-          ],
-          narrative: [
-            "HP prostrating eight times before assembled nation"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "hishtachavayah (prostration) in halacha",
@@ -160263,18 +155606,6 @@ const DAF_CONTENT = {
             sourceRefs: []
           }
         ],
-        concepts: {
-          halachic: [
-            "mussaf timing - with morning tamid",
-            "service sequence for Yom Kippur mussaf"
-          ],
-          theological: [
-            "spiritual power of witnessing the Temple service"
-          ],
-          narrative: [
-            "eyewitness description of HP's reading ceremony"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "mussaf offerings",
@@ -160542,19 +155873,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "mussaf timing dispute - R. Eliezer vs R. Akiva",
-            "Torat Kohanim sequence vs Numbers sequence",
-            "HP's physical strength as halachic consideration"
-          ],
-          theological: [
-            "prioritizing the essential atonement service over secondary offerings"
-          ],
-          narrative: [
-            "the HP's full day of service - five immersions, multiple offerings"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "five immersions and ten sanctifications of HP",
@@ -161489,20 +156807,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "five immersions and ten sanctifications of HP",
-            "service sequence from Lev. and Num.",
-            "external goat's atonement scope"
-          ],
-          theological: [
-            "vestment changes as spiritual transitions",
-            "Torat Kohanim priority over Numbers"
-          ],
-          narrative: [
-            "the HP's full day of service structured around immersions"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "HP's five immersions",
@@ -161682,19 +156986,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "kiyor sanctification on Yom Kippur",
-            "five vestment changes and sequence",
-            "golden stool for HP at kiyor"
-          ],
-          theological: [
-            "alternation between white (inner) and gold (outer) as spiritual rhythm"
-          ],
-          narrative: [
-            "the HP's physical day - five immersions, ten sanctifications, multiple changes"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kiyor function in Temple service",
@@ -161785,18 +157076,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "kiyor as vessel for ten sanctifications",
-            "hands and feet sanctification requirements"
-          ],
-          theological: [
-            "sanctification as spiritual preparation for service"
-          ],
-          narrative: [
-            "the HP returning to the kiyor ten times throughout the day"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "kiyor function",
@@ -162780,19 +158059,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Torah's non-chronological sequence of tum'ah laws",
-            "burning in white vestments confirmed",
-            "dispatcher and burner as textual flashbacks"
-          ],
-          theological: [
-            "Torah as non-chronological text when conveying certain categories of law"
-          ],
-          narrative: [
-            "Talmudic debate resolved by Rava through textual analysis"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "HP's vestment sequence",
@@ -162956,20 +158222,6 @@ const DAF_CONTENT = {
             sourceRefs: []
           }
         ],
-        concepts: {
-          halachic: [
-            "verbal oppression (ona'at devarim) prohibition",
-            "prohibition of reminding converts of their past"
-          ],
-          theological: [
-            "Aaron's discipleship defined by deeds not lineage",
-            "love of peace as the defining characteristic"
-          ],
-          narrative: [
-            "HP's insult and Shemaiah/Avtalyon's response",
-            "post-Yom Kippur celebration feast"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Shemaiah and Avtalyon as leaders of the Sanhedrin",
@@ -163866,16 +159118,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "Torah scholars as trees revived by water",
-            "intrinsic vitality of those who learn"
-          ],
-          narrative: [
-            "Job 14:9 applied to Torah scholars"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Job 14:9 context"
@@ -163979,18 +159221,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "ona'at devarim - verbal oppression",
-            "prohibition of reminding converts of their origins"
-          ],
-          theological: [
-            "genuine authority earned through deeds vs institutional position"
-          ],
-          narrative: [
-            "crowd following scholars rather than the HP"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "ona'at devarim laws",
@@ -164260,20 +159490,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "ordinary priest's four vestments vs HP's eight",
-            "six-ply thread requirement derived from 'shesh'",
-            "belt has four types x six = twenty-four strands",
-            "uncircumcised priest's service invalid"
-          ],
-          theological: [
-            "physical precision of vestments as constitutive of their sanctity"
-          ],
-          narrative: [
-            "Mishnaic chapter on vestments and thread counts"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "priestly vestments overview",
@@ -165340,16 +160556,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "thread counts derived by gezerah shavah",
-            "gold integrated into colored strands"
-          ],
-          theological: [
-            "verbal analogy technique applied to practical textile law"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -165496,14 +160702,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "tearing priestly garments violates a Torah prohibition",
-            "detaching breastplate from ephod forbidden"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -165582,15 +160780,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Torah scholars who internalize learning endure like standing wood"
-          ],
-          theological: [
-            "scriptural wordplay connecting Mishkan materials to Torah scholars"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -166172,16 +161361,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "priestly vestments have atoning power",
-            "vestments made by loom, not needle"
-          ],
-          theological: [
-            "vestments as protection for Israel"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -166294,18 +161473,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "three Temple crowns: priesthood, Torah, kingship",
-            "crown of Torah available to all",
-            "Torah scholar must be same inside and outside"
-          ],
-          theological: [
-            "anyone can earn the crown of Torah through effort",
-            "learning must be internalized"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -166569,18 +161736,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "three Temple crowns: priesthood, Torah, kingship",
-            "crown of Torah available to all",
-            "Torah scholar must be same inside and outside"
-          ],
-          theological: [
-            "anyone can earn the crown of Torah through effort",
-            "learning must be internalized"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -166663,14 +161818,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Urim VeTummim requires HP in active service",
-            "loom weaving vs needle embroidery - pattern visibility differs"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -168413,15 +163560,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "anointed-for-war priest wears neither four nor eight vestments"
-          ],
-          theological: [
-            "intermediate priestly categories in Temple law"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -168551,13 +163689,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Urim VeTummim consultation: asker faces HP, question at intermediate voice level, one question at a time"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -169728,15 +164859,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Urim VeTummim is infallible - unlike prophecy, its answers cannot be revoked"
-          ],
-          theological: [
-            "divine guidance through the breastplate surpasses prophetic word in reliability"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -169819,16 +164941,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Urim: letters protrude (Rabbi Yochanan) or join (Reish Lakish)",
-            "all 22 Hebrew letters represented through tribal + Patriarchal names"
-          ],
-          theological: [
-            "divine assistance required to read the Urim's message"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -169985,14 +165097,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Urim VeTummim reserved for kings and national decisions",
-            "Yom Kippur has five (or six) forbidden activities"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -170973,14 +166077,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Rabbi Akiva: oaths can restrict amounts Torah permits",
-            "gamblers unfit as witnesses for oaths"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -171062,14 +166158,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "chatzi shi'ur: Torah (Rabbi Yochanan) vs rabbinic (Reish Lakish)",
-            "mishna's 'forbidden' adds information beyond 'karet'"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -171183,14 +166271,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "chatzi shi'ur: Torah (Rabbi Yochanan) vs rabbinic (Reish Lakish)",
-            "mishna's 'forbidden' adds information beyond 'karet'"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -172073,14 +167153,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Yom Kippur affliction means food-denial, not temperature exposure",
-            "koy is its own species"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -172347,14 +167419,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Yom Kippur affliction means food-denial, not temperature exposure",
-            "koy is its own species"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -172451,17 +167515,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "eyes needed for satisfaction - blind people eat without being satisfied"
-          ],
-          theological: [
-            "manna as spiritual food teaching about the relationship of eyes and satiation"
-          ],
-          narrative: [
-            "Rabbi Ami/Rabbi Asi dispute on the wine verse's meaning"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -172542,17 +167595,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "eyes needed for satisfaction - blind people eat without being satisfied"
-          ],
-          theological: [
-            "manna as spiritual food teaching about the relationship of eyes and satiation"
-          ],
-          narrative: [
-            "Rabbi Ami/Rabbi Asi dispute on the wine verse's meaning"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -173256,13 +168298,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "habitual drunkenness destroys moral vision"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -173341,13 +168376,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "two valid responses to emotional burden"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -173624,13 +168652,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "manna whitened Israel's sins; 'fish' complaint coded forbidden relations"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -173745,13 +168766,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "manna revealed prophetic taste and legal truth by its falling location"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -173865,13 +168879,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "manna tasted like nursing: intimate, personalized divine nourishment"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -174796,13 +169803,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "legitimate requests for food receive proper provision; illegitimate ones receive provision with consequences"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -175018,14 +170018,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "perfect manna created fear about reproduction",
-            "manna was absorbed by all 248 limbs without waste"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -175835,13 +170827,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "daily manna creates daily dependence on God, generating daily gratitude and prayer"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -176006,13 +170991,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [],
-          theological: [
-            "manna as a miracle surpassing the Flood - provision in an hour vs destruction in forty days"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -176146,14 +171124,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "five YK afflictions correspond to five inuy verses",
-            "drinking subsumed under eating as a category"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -177027,14 +171997,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "YK drinking prohibition applies to all beverages via gezerah shavah from nazir",
-            "tirosh = same substance as wine, different name reflects merit/demerit"
-          ],
-          theological: [],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -177183,15 +172145,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "bathing and anointing are Yom Kippur prohibitions derived from Daniel's self-affliction and mourner laws"
-          ],
-          theological: [
-            "Daniel's voluntary affliction became a halakhic model for Yom Kippur prohibitions"
-          ],
-          narrative: []
-        },
         conceptRefs: [],
         requiresUnderstanding: [],
         misconceptions: [],
@@ -177971,18 +172924,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "bathing prohibition",
-            "YK afflictions"
-          ],
-          theological: [
-            "The bathing prohibition is derived from the same scriptural tradition as the YK "
-          ],
-          narrative: [
-            "Bathing prohibition derived from verse; Ezekiel's anointing "
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of bathing prohibition context",
@@ -178088,18 +173029,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "inui",
-            "affliction"
-          ],
-          theological: [
-            "Refraining from bathing is inui precisely because bathing is a pleasure; removin"
-          ],
-          narrative: [
-            "Whether refraining from bathing constitutes inui (affliction"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of inui context",
@@ -178222,18 +173151,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "anointing prohibition",
-            "Na'aman"
-          ],
-          theological: [
-            "Na'aman anointed for health, not pleasure - the distinction matters: only pleasu"
-          ],
-          narrative: [
-            "Prohibition on anointing; Na'aman's anointing; pleasure vs. "
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of anointing prohibition context",
@@ -178321,18 +173238,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "sandals",
-            "YK prohibition"
-          ],
-          theological: [
-            "Even sandal leather signals status and comfort - removing it strips the wearer o"
-          ],
-          narrative: [
-            "Sandals: prohibition on wearing sandals on Yom Kippur"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of sandals context",
@@ -179072,18 +173977,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "affliction",
-            "YK fast"
-          ],
-          theological: [
-            "The same word (vayah'anu) used by Jacob about Laban's oppression is the source f"
-          ],
-          narrative: [
-            "Verse about afflicting daughters in Laban's house relates to"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of affliction context",
@@ -179207,18 +174100,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "marital relations",
-            "YK prohibition"
-          ],
-          theological: [
-            "Marital relations as an affliction? Their prohibition expresses that YK is a day"
-          ],
-          narrative: [
-            "Prohibition on marital relations on Yom Kippur"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of marital relations context",
@@ -179425,18 +174306,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "greeting",
-            "YK conduct"
-          ],
-          theological: [
-            "Even walking to honor one's father or teacher must be weighed on YK - the day's "
-          ],
-          narrative: [
-            "Greeting others on Yom Kippur; walking to visit father or te"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of greeting context",
@@ -179563,18 +174432,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Temple river",
-            "Ezekiel"
-          ],
-          theological: [
-            "Ezekiel's future river - flowing from the Temple - will be so powerful it sweete"
-          ],
-          narrative: [
-            "Future river flowing from the Temple in the End of Days (Eze"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of Temple river context",
@@ -180531,18 +175388,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Temple river",
-            "Ezekiel"
-          ],
-          theological: [
-            "The Temple river aggadah is placed here because this sugya discusses water and c"
-          ],
-          narrative: [
-            "Temple river bubbles up from beneath the threshold and becom"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of Temple river context",
@@ -180678,18 +175523,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "crossing water",
-            "bathing prohibition"
-          ],
-          theological: [
-            "Intent matters for bathing: crossing water to get somewhere is different from im"
-          ],
-          narrative: [
-            "Crossing water on Yom Kippur: does it constitute prohibited "
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of crossing water context",
@@ -180829,18 +175662,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "sick person",
-            "shoes"
-          ],
-          theological: [
-            "Illness creates its own category on YK - even the shoe prohibition, which is abo"
-          ],
-          narrative: [
-            "Sick person wearing shoes on YK; wooden shoes; danger except"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of sick person context",
@@ -180963,18 +175784,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "rain water",
-            "river crossing"
-          ],
-          theological: [
-            "Rain water vs. river: the Gemara is precise about what type of water contact tri"
-          ],
-          narrative: [
-            "Rain water, river crossing, measuring bathing by amount"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of rain water context",
@@ -181062,18 +175871,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "teiku",
-            "unresolved"
-          ],
-          theological: [
-            "Some questions the Talmud leaves open - the unresolved teiku preserves intellect"
-          ],
-          narrative: [
-            "Unresolved question about water crossing and the shoe prohib"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of teiku context",
@@ -181959,18 +176756,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "cork sandal",
-            "shoe prohibition"
-          ],
-          theological: [
-            "The shoe prohibition targets protection and comfort - a cork sandal's minimal pr"
-          ],
-          narrative: [
-            "Cork shoe on Yom Kippur: is it a real shoe? Permitted or for"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of cork sandal context",
@@ -182093,18 +176878,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "children",
-            "YK exceptions"
-          ],
-          theological: [
-            "Children's exemption from YK afflictions is not just leniency - it reflects that"
-          ],
-          narrative: [
-            "Young children permitted to wear shoes on Yom Kippur"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of children context",
@@ -182243,18 +177016,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "king",
-            "royal dignity"
-          ],
-          theological: [
-            "Royal dignity is itself a religious value - even on YK, a king's honor has its o"
-          ],
-          narrative: [
-            "A king wears shoes even on Yom Kippur for honor; dispute abo"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of king context",
@@ -182344,18 +177105,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "date-bulk",
-            "eating measure"
-          ],
-          theological: [
-            "The measure of liability (shiur) on YK is a date-bulk, not an egg-bulk - Yom Kip"
-          ],
-          narrative: [
-            "Eating a date-bulk on YK is prohibited; one who eats this am"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of date-bulk context",
@@ -183122,18 +177871,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "date-bulk",
-            "kotevet hagasah"
-          ],
-          theological: [
-            "Including the date pit in the measure is not arbitrary - it reflects the actual "
-          ],
-          narrative: [
-            "The 'large date-bulk' measure: what it includes and how the "
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of date-bulk context",
@@ -183630,18 +178367,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "egg-bulk",
-            "beitza"
-          ],
-          theological: [
-            "The egg-bulk is a practical measure from daily life - the Rabbis anchored abstra"
-          ],
-          narrative: [
-            "Egg-bulk measure for YK; how eating measures were determined"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of egg-bulk context",
@@ -184253,18 +178978,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "egg-bulk",
-            "eating measures"
-          ],
-          theological: [
-            "YK is unique even in its measures: the date-bulk is larger than other Torah eati"
-          ],
-          narrative: [
-            "All Torah eating measures are egg-bulk; the date-bulk is uni"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of egg-bulk context",
@@ -184506,18 +179219,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "gezerah shavah",
-            "YK eating measure"
-          ],
-          theological: [
-            "Gezerah shavah: when the same word appears in two places in the Torah, the law c"
-          ],
-          narrative: [
-            "Where is the YK eating measure derived? Gezerah shavah from "
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of gezerah shavah context",
@@ -184661,18 +179362,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "drinking measure",
-            "cheekful"
-          ],
-          theological: [
-            "The cheekful is a subjective measure - it varies by person - which is unusual in"
-          ],
-          narrative: [
-            "Drinking measure on YK: a cheekful (male'o lugmav); how it i"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of drinking measure context",
@@ -185796,18 +180485,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "cheekful",
-            "Rav and Shmuel"
-          ],
-          theological: [
-            "Rav and Shmuel personally measured each other's cheeks - the law required an emp"
-          ],
-          narrative: [
-            "Cheekful debate between Rav and Shmuel; method of measuring"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of cheekful context",
@@ -185900,18 +180577,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "food combination",
-            "eating measure"
-          ],
-          theological: [
-            "Combination of foods: YK's eating prohibition is about the act of eating, not sp"
-          ],
-          narrative: [
-            "All foods combine toward the eating measure on YK"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of food combination context",
@@ -186012,18 +180677,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Reish Lakish",
-            "chewing"
-          ],
-          theological: [
-            "Chewing without swallowing: intent to eat and the physical act of filling the mo"
-          ],
-          narrative: [
-            "Reish Lakish: overeating on YK creates liability even withou"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of Reish Lakish context",
@@ -186929,18 +181582,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "chewing",
-            "teruma"
-          ],
-          theological: [
-            "Chewing teruma barley: even inadvertent consumption has legal status, but swallo"
-          ],
-          narrative: [
-            "Chewing unground barley of teruma without swallowing: does i"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of chewing context",
@@ -187080,18 +181721,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "food and drink",
-            "combination"
-          ],
-          theological: [
-            "Food and drink are legally separate categories - they measure different kinds of"
-          ],
-          narrative: [
-            "Food and drink do not combine toward the eating or drinking "
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of food and drink context",
@@ -187231,18 +181860,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "eating and drinking",
-            "unawareness"
-          ],
-          theological: [
-            "One atonement for both eating and drinking in one lapse of awareness: the Torah "
-          ],
-          narrative: [
-            "Mishna: if one ate and drank in one period of unawareness, o"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of eating and drinking context",
@@ -187518,18 +182135,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "labor prohibition",
-            "YK and Shabbat"
-          ],
-          theological: [
-            "YK labor prohibition resembles Shabbat but has its own character - both are call"
-          ],
-          narrative: [
-            "YK and Shabbat: how the labor prohibition on YK compares to "
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of labor prohibition context",
@@ -188321,18 +182926,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Shabbat Shabbaton",
-            "YK work prohibition"
-          ],
-          theological: [
-            "YK is 'Shabbat Shabbaton': the emphatic doubling makes YK even more solemn than "
-          ],
-          narrative: [
-            "Yom Kippur itself is called 'Shabbat' by the Torah; implicat"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of Shabbat Shabbaton context",
@@ -188522,18 +183115,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "food fitness",
-            "eating measure"
-          ],
-          theological: [
-            "Unfit food doesn't count: the eating prohibition is about eating as a pleasure -"
-          ],
-          narrative: [
-            "Food not fit for human consumption does not count toward the"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of food fitness context",
@@ -189237,18 +183818,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "children",
-            "YK fast"
-          ],
-          theological: [
-            "Gradual training: the year before majority, children begin partial fasts - the l"
-          ],
-          narrative: [
-            "Mishna: children are not afflicted on YK but trained gradual"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of children context",
@@ -189388,18 +183957,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "children",
-            "pikuach nefesh"
-          ],
-          theological: [
-            "A child in danger: even though children are not obligated to fast, we already kn"
-          ],
-          narrative: [
-            "Children in danger of death: we violate YK to save them"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of children context",
@@ -189539,18 +184096,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "pregnant woman",
-            "smelling food"
-          ],
-          theological: [
-            "Pregnant woman smells food: the body's signal is taken seriously by the Torah - "
-          ],
-          narrative: [
-            "Mishna: pregnant woman smells food - feed her until she reco"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of pregnant woman context",
@@ -189656,18 +184201,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "pikuach nefesh",
-            "YK override"
-          ],
-          theological: [
-            "Pikuach nefesh overrides YK: the Torah's highest value is life itself, not ritua"
-          ],
-          narrative: [
-            "Pikuach nefesh (saving life) overrides all of Yom Kippur"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of pikuach nefesh context",
@@ -190630,18 +185163,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "murderer",
-            "pikuach nefesh"
-          ],
-          theological: [
-            "Even a murderer's life is a life - YK is violated to save anyone, because human "
-          ],
-          narrative: [
-            "A murderer's own life: do we violate YK to save him?"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of murderer context",
@@ -190747,18 +185268,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "pregnant woman",
-            "craving"
-          ],
-          theological: [
-            "R. Yannai whispered to the pregnant woman: sometimes the craving is psychologica"
-          ],
-          narrative: [
-            "Story of a pregnant woman's craving; R. Yannai whispers to h"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of pregnant woman context",
@@ -191070,18 +185579,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "evil inclination",
-            "R. Yochanan"
-          ],
-          theological: [
-            "Evil inclination from the womb: the Torah acknowledges that the struggle with si"
-          ],
-          narrative: [
-            "'The wicked estranged from the womb': R. Yochanan on innate "
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of evil inclination context",
@@ -191187,18 +185684,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "ill person",
-            "YK"
-          ],
-          theological: [
-            "Expert judgment for the ill on YK: we trust medicine. The physician's assessment"
-          ],
-          narrative: [
-            "An ill person fed on YK by expert judgment"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of ill person context",
@@ -191389,18 +185874,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "ill person",
-            "patient request"
-          ],
-          theological: [
-            "Patient's own request vs. expert opinion: the more lenient standard wins. If eit"
-          ],
-          narrative: [
-            "If an ill person needs to eat: feed on expert opinion or on "
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of ill person context",
@@ -191540,18 +186013,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "bulmos",
-            "hunger frenzy"
-          ],
-          theological: [
-            "Bulmos and non-kosher food: the hierarchy of prohibitions is clear - life comes "
-          ],
-          narrative: [
-            "Mishna: one seized with hungry frenzy (bulmos) - feed even n"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of bulmos context",
@@ -191675,18 +186136,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "bulmos",
-            "treatment"
-          ],
-          theological: [
-            "What to give someone with bulmos: the fastest, most effective remedy wins, even "
-          ],
-          narrative: [
-            "The Sages' ruling about bulmos: what to feed and why non-kos"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of bulmos context",
@@ -192627,18 +187076,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "bulmos",
-            "Rabba"
-          ],
-          theological: [
-            "Rabba's qualification: even in an emergency, if you can solve it without violati"
-          ],
-          narrative: [
-            "Rabba: if possible, satisfy bulmos with non-forbidden food f"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of bulmos context",
@@ -192863,18 +187300,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "bulmos",
-            "two sages"
-          ],
-          theological: [
-            "The two sages' dispute reflects a deeper question: is the goal to minimize halac"
-          ],
-          narrative: [
-            "Two sages' approaches to treating bulmos; the principle behi"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of bulmos context",
@@ -193048,18 +187473,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "bulmos",
-            "student"
-          ],
-          theological: [
-            "The real-life incident with the student brought the abstract dispute to life: wh"
-          ],
-          narrative: [
-            "R. Meir and R. Yehuda's incident with a student who had bulm"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of bulmos context",
@@ -193166,18 +187579,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "mad dog",
-            "rabies"
-          ],
-          theological: [
-            "Mad dog bite: some dangers are so extreme and immediate that YK is violated with"
-          ],
-          narrative: [
-            "Mad dog bite on Yom Kippur: danger overrides YK"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of mad dog context",
@@ -194119,18 +188520,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "mad dog",
-            "rabies"
-          ],
-          theological: [
-            "The signs of a mad dog are listed as specific observable symptoms - the Talmud t"
-          ],
-          narrative: [
-            "Killing a mad dog; signs of madness (symptoms that define a "
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of mad dog context",
@@ -194253,18 +188642,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "R. Matya ben Harash",
-            "throat pain"
-          ],
-          theological: [
-            "Throat pain overrides YK because the throat is adjacent to vital organs - proxim"
-          ],
-          narrative: [
-            "R. Matya ben Harash: throat pain on YK permits taking medici"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of R. Matya ben Harash context",
@@ -194421,18 +188798,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "tzefardea",
-            "snake illness"
-          ],
-          theological: [
-            "Tzefardea: named after the Hebrew word for frog, possibly related to a venomous "
-          ],
-          narrative: [
-            "Tzefardea (snake-related illness): what it is, its symptoms,"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of tzefardea context",
@@ -195326,18 +189691,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "tzefardea",
-            "proof"
-          ],
-          theological: [
-            "Proof from a death: sometimes halachic status is confirmed by the worst outcome."
-          ],
-          narrative: [
-            "Proof that tzefardea is dangerous (the Rabba bar Shela incid"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of tzefardea context",
@@ -195478,18 +189831,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "throat medicine",
-            "YK"
-          ],
-          theological: [
-            "Medicine in the mouth but not swallowed: halachic categories are precise. The pr"
-          ],
-          narrative: [
-            "Throat pain: medicine placed inside the mouth, not swallowed"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of throat medicine context",
@@ -195646,18 +189987,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Tosefta",
-            "pikuach nefesh"
-          ],
-          theological: [
-            "Pikuach nefesh as positive commandment: the Tosefta frames saving life not just "
-          ],
-          narrative: [
-            "Tosefta: engaging in life-preserving activities on Yom Kippu"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of Tosefta context",
@@ -195814,18 +190143,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Shmuel",
-            "Rav Yehuda"
-          ],
-          theological: [
-            "Shmuel's chain of rulings: the tradition of transmitting life-danger rulings car"
-          ],
-          narrative: [
-            "Rav Yosef citing Rav Yehuda citing Shmuel: rulings on YK dan"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of Shmuel context",
@@ -196833,18 +191150,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Shmuel",
-            "majority"
-          ],
-          theological: [
-            "Majority determines: we go by statistical likelihood when we cannot know for cer"
-          ],
-          narrative: [
-            "Shmuel's ruling: found a child - majority determines whether"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of Shmuel context",
@@ -196969,18 +191274,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "majority gentile",
-            "doubt"
-          ],
-          theological: [
-            "Majority gentile: even when odds are against it being a Jew, if there is any rea"
-          ],
-          narrative: [
-            "Majority of inhabitants gentile: do we save a person whose i"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of majority gentile context",
@@ -197087,18 +191380,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "rubble",
-            "rocks collapse"
-          ],
-          theological: [
-            "Rubble on YK: the practical emergency is described in steps - you remove, you ch"
-          ],
-          narrative: [
-            "Rocks collapse on a person on Yom Kippur - remove rocks to s"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of rubble context",
@@ -197189,18 +191470,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "alive",
-            "dead"
-          ],
-          theological: [
-            "Found alive, keep going; found dead, stop: the override of YK is calibrated to i"
-          ],
-          narrative: [
-            "If found alive, continue removing rocks; if dead, stop"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of alive context",
@@ -197331,18 +191600,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "dead body",
-            "YK override"
-          ],
-          theological: [
-            "Stop when dead: the dead have their own honor rights, but those do not override "
-          ],
-          narrative: [
-            "If found dead, leave them and do not continue violating YK"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of dead body context",
@@ -197469,18 +191726,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "R. Yishmael",
-            "R. Akiva"
-          ],
-          theological: [
-            "Three derivations: when multiple Sages offer different sources for the same prin"
-          ],
-          narrative: [
-            "R. Yishmael, R. Akiva, R. Elazar ben Azaryah: scriptural bas"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of R. Yishmael context",
@@ -198519,18 +192764,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "live by them",
-            "Lev 18:5"
-          ],
-          theological: [
-            "'Live by them, not die by them': the Torah's commandments are instruments of lif"
-          ],
-          narrative: [
-            "'Live by them' (Lev 18:5): not die by them; derivation for s"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of live by them context",
@@ -198676,18 +192909,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "four atonement mechanisms",
-            "sin-offering"
-          ],
-          theological: [
-            "Four mechanisms, not one: atonement is not a single formula but a graduated syst"
-          ],
-          narrative: [
-            "Mishna: four atonement mechanisms; sin-offering, repentance,"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of four atonement mechanisms context",
@@ -198800,18 +193021,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "death and YK",
-            "atonement"
-          ],
-          theological: [
-            "Death + YK + repentance: the most serious sins require the most comprehensive co"
-          ],
-          narrative: [
-            "Death and Yom Kippur together atone for repented sins"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of death and YK context",
@@ -198918,18 +193127,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "teshuva",
-            "repentance"
-          ],
-          theological: [
-            "Teshuva alone for light sins: the lightest transgressions need only a sincere tu"
-          ],
-          narrative: [
-            "Repentance itself atones for some categories of sin"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of teshuva context",
@@ -199900,18 +194097,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "chilul Hashem",
-            "atonement"
-          ],
-          theological: [
-            "Chilul Hashem resists all four mechanisms alone: it is a relational sin against "
-          ],
-          narrative: [
-            "Desecrating God's name: not atoned by any mechanism alone"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of chilul Hashem context",
@@ -200052,18 +194237,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "God's name in vain",
-            "desecration"
-          ],
-          theological: [
-            "The definition of chilul Hashem shifts by person: what is neutral for an ordinar"
-          ],
-          narrative: [
-            "What is 'bearing God's name in vain'? Clarification of the c"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of God's name in vain context",
@@ -200220,18 +194393,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Torah scholar",
-            "chilul Hashem"
-          ],
-          theological: [
-            "Scholar's standard: a Torah scholar buying meat without immediately paying, or w"
-          ],
-          narrative: [
-            "What circumstances cause a Torah scholar to desecrate God's "
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of Torah scholar context",
@@ -200331,18 +194492,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "R. Hama bar Hanina",
-            "teshuva rabbah"
-          ],
-          theological: [
-            "Teshuva that reaches the Throne: even the most severe sins are reachable by suff"
-          ],
-          narrative: [
-            "R. Hama bar Hanina: great repentance (teshuva rabbah) reache"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of R. Hama bar Hanina context",
@@ -201456,18 +195605,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "R. Yochanan",
-            "teshuva"
-          ],
-          theological: [
-            "Teshuva overrides divine decree: repentance is not just a legal mechanism but a "
-          ],
-          narrative: [
-            "R. Yochanan: teshuva is so great it overrides a divine decre"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of R. Yochanan context",
@@ -201591,18 +195728,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "R. Yitzchak",
-            "Rosh Hashana"
-          ],
-          theological: [
-            "Cancel your evil decree proactively: the Rosh Hashana period is the moment when "
-          ],
-          narrative: [
-            "R. Yitzchak: cancel your evil decree before the New Year"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of R. Yitzchak context",
@@ -201709,18 +195834,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "scholar",
-            "chilul Hashem"
-          ],
-          theological: [
-            "Scholar's chilul Hashem: behavior that appears questionable from the outside can"
-          ],
-          narrative: [
-            "What circumstances constitute chilul Hashem for a Torah scho"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of scholar context",
@@ -201827,18 +195940,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "baalei teshuva",
-            "R. Yosei bar Yehuda"
-          ],
-          theological: [
-            "Baalei teshuva above the perfectly righteous: the one who has returned from sin "
-          ],
-          narrative: [
-            "R. Yosei bar Yehuda: baalei teshuva and their elevated stand"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of baalei teshuva context",
@@ -202047,18 +196148,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Tosefta",
-            "teachers"
-          ],
-          theological: [
-            "Transgressing against teachers: some communal and relational sins have their own"
-          ],
-          narrative: [
-            "Tosefta on transgressing against teachers and communal trans"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of Tosefta context",
@@ -202972,18 +197061,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "willing vs. coerced",
-            "halachic distinction"
-          ],
-          theological: [
-            "Willingness matters halachically: the law distinguishes between those who act vo"
-          ],
-          narrative: [
-            "Going willingly to die vs. against will: a halachic distinct"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of willing vs. coerced context",
@@ -203140,18 +197217,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "appeasement",
-            "YK atonement"
-          ],
-          theological: [
-            "YK cannot atone what you have not repaired with the person you harmed: God will "
-          ],
-          narrative: [
-            "YK does not atone without appeasement of the one wronged; ne"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of appeasement context",
@@ -203258,18 +197323,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "sins against God",
-            "sins against people"
-          ],
-          theological: [
-            "The distinction between God-directed and person-directed sins is structural: YK "
-          ],
-          narrative: [
-            "Yom Kippur atones for sins against God; does NOT atone for s"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of sins against God context",
@@ -203375,18 +197428,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "communal sin",
-            "Godward relational sin"
-          ],
-          theological: [
-            "Communal Godward sins: some social sins are primarily about the community's rela"
-          ],
-          narrative: [
-            "YK atones for communal sins between people toward God"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of communal sin context",
@@ -203577,18 +197618,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "verbal harm",
-            "insult"
-          ],
-          theological: [
-            "Words harm too: verbal injury requires the same appeasement process as physical "
-          ],
-          narrative: [
-            "One who angers a friend - even verbally - must appease them "
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of verbal harm context",
@@ -204719,18 +198748,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Rav",
-            "R. Hiyya"
-          ],
-          theological: [
-            "R. Hiyya refusing appeasement: the obligation to ask is on the wrongdoer; the ob"
-          ],
-          narrative: [
-            "Rav went to appease R. Hiyya; R. Hiyya refused; the appeasem"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of Rav context",
@@ -204872,18 +198889,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "vidui",
-            "confession"
-          ],
-          theological: [
-            "Vidui at Minha: confession is prioritized before YK begins, while the person is "
-          ],
-          narrative: [
-            "Main mitzva of vidui (confession) is on Yom Kippur; also rec"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of vidui context",
@@ -205076,18 +199081,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Hadran",
-            "Tu BeAv"
-          ],
-          theological: [
-            "YK as a day of joy: the tractate ends with YK called one of the most joyful days"
-          ],
-          narrative: [
-            "Closing of tractate Yoma: Hadran formula; reference to Tu Be"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of Hadran context",
@@ -206131,18 +200124,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "Havdalah",
-            "YK"
-          ],
-          theological: [
-            "Havdalah placement: the end of YK mirrors its opening - the transition out of ho"
-          ],
-          narrative: [
-            "Havdalah after Yom Kippur: recited in the Havdil blessing of"
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of Havdalah context",
@@ -206271,18 +200252,6 @@ const DAF_CONTENT = {
             ]
           }
         ],
-        concepts: {
-          halachic: [
-            "keri",
-            "seminal emission"
-          ],
-          theological: [
-            "Keri and immersion on YK: the requirement to immerse was eventually abolished fo"
-          ],
-          narrative: [
-            "Seminal emission (keri) on Yom Kippur: whether immersion is "
-          ]
-        },
         conceptRefs: [],
         requiresUnderstanding: [
           "Background knowledge of keri context",

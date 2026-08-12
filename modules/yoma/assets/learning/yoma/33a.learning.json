@@ -533,14 +533,6 @@
     "bird vs beast",
     "tamid slaughter"
    ],
-   "concepts": {
-    "halachic": [
-     "bird shechita - one organ",
-     "beast shechita - two organs"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "shechita",
@@ -760,24 +752,6 @@
     "R. Yirmeya",
     "biblical derivation"
    ],
-   "concepts": {
-    "halachic": [
-     "morning service sequence",
-     "wood arrangement order",
-     "5+2 lamp cleaning split",
-     "ketoret before limbs",
-     "inner altar ash timing",
-     "R. Yirmeya on category of wood"
-    ],
-    "theological": [
-     "Temple morning service as divine liturgy",
-     "each service step has biblical anchor"
-    ],
-    "narrative": [
-     "Abaye's comprehensive sequence",
-     "R. Yirmeya's 'category of wood' principle"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "tamid service",

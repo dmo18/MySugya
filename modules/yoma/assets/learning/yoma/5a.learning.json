@@ -160,40 +160,6 @@
      ]
     }
    ],
-   "concepts": {
-    "people": [
-     "person.rav_yosef",
-     "person.rav_nachman_bar_yitzchak",
-     "person.rav_pappa",
-     "person.rabbi_yochanan",
-     "person.rabbi_chanina"
-    ],
-    "places": [],
-    "objects": [
-     "object.korban_olah",
-     "object.korban_chatat"
-    ],
-    "halacha": [
-     "concept.semikha",
-     "concept.tenufah",
-     "concept.prisha",
-     "concept.shirei_mitzva",
-     "concept.inauguration_vs_ongoing"
-    ],
-    "reasoning": [
-     "concept.matkin_vs_mafrishin",
-     "concept.shirei_mitzva_category",
-     "concept.derivation_by_atonement_verse"
-    ],
-    "keyTerms": [
-     "semikha",
-     "tenufah",
-     "prisha",
-     "shirei_mitzva",
-     "matkin",
-     "mafrishin"
-    ]
-   },
    "conceptRefs": [
     {
      "id": "concept.shirei_mitzva",
@@ -450,38 +416,6 @@
      ]
     }
    ],
-   "concepts": {
-    "people": [
-     "person.ravina",
-     "person.rabbi_yitzchak_bar_bisna",
-     "person.rabbi_yochanan",
-     "person.rabbi_chanina"
-    ],
-    "places": [],
-    "objects": [
-     "object.bigdei_kehuna",
-     "object.shemen_hamishcha"
-    ],
-    "halacha": [
-     "concept.rivui_begadim",
-     "concept.meshicha_shiva",
-     "concept.kachah_invalidation",
-     "concept.any_combination_valid",
-     "concept.anointment_seven_days"
-    ],
-    "reasoning": [
-     "concept.scope_of_kachah",
-     "concept.juxtaposition_derivation",
-     "concept.open_stub"
-    ],
-    "keyTerms": [
-     "rivui_begadim",
-     "meshicha_shiva",
-     "kachah",
-     "michal_mikol_makom",
-     "apher_itmake"
-    ]
-   },
    "conceptRefs": [
     {
      "id": "person.ravina",

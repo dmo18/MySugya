@@ -147,16 +147,6 @@
     "kiddushin",
     "traveling rabbis"
    ],
-   "concepts": [
-    {
-     "term": "kiddushin",
-     "def": "Formal betrothal/marriage. Even a temporary marriage (for a day) requires proper kiddushin to be halakhically valid. Without it, the relationship would be forbidden."
-    },
-    {
-     "term": "shiva nekiyim",
-     "def": "Seven clean days - a woman who saw blood (even from desire) must count seven clean days before she can be with another man. This applies after the temporary marriage ends."
-    }
-   ],
    "conceptRefs": [
     "Yoma.18b.1",
     "Yoma.18b.3"
@@ -296,12 +286,6 @@
     "sleep prevention",
     "oath",
     "young priests"
-   ],
-   "concepts": [
-    {
-     "term": "Beit Avtinas",
-     "def": "The hereditary priestly family responsible for preparing the ketoret (incense) formula. Their chamber in the Temple was where the KG was kept on the eve of Yom Kippur."
-    }
    ],
    "conceptRefs": [
     "Yoma.18b.6",

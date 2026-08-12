@@ -163,18 +163,6 @@
     "Judah",
     "Temple geography"
    ],
-   "concepts": [
-    {
-     "he": "לִשְׁכַּת הַגָּזִית",
-     "translit": "Lishkat HaGazit",
-     "definition": "The Chamber of Hewn Stone; the seat of the Sanhedrin in the Temple complex, located in Judah's tribal portion according to the baraita."
-    },
-    {
-     "he": "חֵלֶק שֶׁל בִּנְיָמִין",
-     "translit": "Chelek shel Binyamin",
-     "definition": "Benjamin's tribal portion in Jerusalem; according to R. Yehuda's view of the division, the Altar, Heikhal, and Holy of Holies stood in Benjamin's portion."
-    }
-   ],
    "conceptRefs": [],
    "requiresUnderstanding": [
     "The tribal allocation of Eretz Yisrael",
@@ -336,23 +324,6 @@
     "eight garments",
     "tzinnora",
     "emergency"
-   ],
-   "concepts": [
-    {
-     "he": "אַבְנֵט",
-     "translit": "Avnet",
-     "definition": "The priestly belt; worn by both regular kohanim and the Cohen Gadol (with different materials). Rav Adda proposes this single garment can invest a kohen with Cohen Gadol status in an emergency."
-    },
-    {
-     "he": "צִינּוֹרָא",
-     "translit": "Tzinnora",
-     "definition": "A fork-like ritual instrument; Abaye holds this must be part of the emergency investiture along with the full set of eight High Priestly garments."
-    },
-    {
-     "he": "שְׁמוֹנָה בְּגָדִים",
-     "translit": "Shmonah Begadim",
-     "definition": "The eight garments of the High Priest; the full set that the Cohen Gadol wears during the regular Temple service, as distinct from the four white garments of Yom Kippur."
-    }
    ],
    "conceptRefs": [],
    "requiresUnderstanding": [

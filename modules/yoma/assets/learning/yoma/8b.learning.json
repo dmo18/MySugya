@@ -141,18 +141,6 @@
     "rava",
     "separation"
    ],
-   "concepts": [
-    {
-     "term": "Shvut",
-     "he": "שְׁבוּת",
-     "definition": "A Rabbinic prohibition on Shabbat - an action not biblically forbidden on Shabbat but forbidden by Rabbinic decree. Hazaah (sprinkling) is a shvut and does not override Shabbat."
-    },
-    {
-     "term": "Biddayn talya milta",
-     "he": "בְּדִידַן תָּלְיָא מִילְּתָא",
-     "definition": "The matter depends on us - when we control the timing of a process, we can schedule it optimally. Contrasted with calendar-fixed dates that depend on external factors."
-    }
-   ],
    "conceptRefs": [
     "shvut",
     "scheduling-control",
@@ -303,23 +291,6 @@
     "bakers",
     "tithes",
     "R. Yehuda"
-   ],
-   "concepts": [
-    {
-     "term": "Parhedrin",
-     "he": "פַּרְהֶדְרִין",
-     "definition": "Persian governors who served one-year rotating terms. The term was applied to Second Temple High Priests who were politically appointed and replaced annually, mocking the degradation of the office."
-    },
-    {
-     "term": "Lishkat Balvati",
-     "he": "לִשְׁכַּת בַּלְווָטִי",
-     "definition": "Chamber of Nobles (from Latin 'bouleutai', senators/nobles). The original name of the chamber housing the High Priest, from the era of Shimon HaTzaddik when the High Priesthood was held with dignity."
-    },
-    {
-     "term": "Dema'i",
-     "he": "דְּמַאי",
-     "definition": "Produce of doubtful tithe status - purchased from an am ha'aretz who may or may not have separated tithes. Rabbinic stringencies applied to dema'i differ from those for definite tevel (untithed produce)."
-    }
    ],
    "conceptRefs": [
     "Second-Temple-history",
@@ -486,13 +457,6 @@
     "maaser-sheni",
     "burden-of-proof",
     "tevel"
-   ],
-   "concepts": [
-    {
-     "term": "Hamotzi m'chaveiro alav hara'ayah",
-     "he": "הַמּוֹצִיא מֵחֲבֵרוֹ עָלָיו הָרְאָיָה",
-     "definition": "The one who seeks to extract from another bears the burden of proof. Applied here: Levi or poor person claiming maaser from the baker must prove the baker did not already separate it."
-    }
    ],
    "conceptRefs": [
     "dema'i",

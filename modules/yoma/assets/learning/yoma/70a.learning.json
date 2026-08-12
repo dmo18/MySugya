@@ -56,17 +56,6 @@
         "scroll-handling",
         "honor-of-congregation"
       ],
-      "concepts": {
-        "halachic": [
-          "prohibition of backward scrolling in Torah reading"
-        ],
-        "theological": [
-          "honor of congregation in public Torah reading"
-        ],
-        "narrative": [
-          "HP's Torah reading sequence"
-        ]
-      },
       "conceptRefs": [],
       "requiresUnderstanding": [
         "Torah reading laws",
@@ -156,17 +145,6 @@
         "HP-declaration",
         "yom-kippur-ceremony"
       ],
-      "concepts": {
-        "halachic": [
-          "declaration after by-heart reading to protect scroll honor"
-        ],
-        "theological": [
-          "physical intimacy with Torah as public gesture"
-        ],
-        "narrative": [
-          "HP holding the Torah to his chest before the nation"
-        ]
-      },
       "conceptRefs": [],
       "requiresUnderstanding": [
         "by-heart Torah reading context",
@@ -313,19 +291,6 @@
         "torah-scrolls",
         "yom-kippur-ceremony"
       ],
-      "concepts": {
-        "halachic": [
-          "eight blessings for by-heart reading",
-          "displaying Torah scrolls to congregation"
-        ],
-        "theological": [
-          "hidur mitzvah - beautifying commandments",
-          "'This is my God and I will glorify Him'"
-        ],
-        "narrative": [
-          "beautiful Torah scrolls brought to Temple for Yom Kippur"
-        ]
-      },
       "conceptRefs": [],
       "requiresUnderstanding": [
         "hidur mitzvah principle",
@@ -428,19 +393,6 @@
         "yom-kippur-ceremony",
         "commandment-not-pass-over"
       ],
-      "concepts": {
-        "halachic": [
-          "eight prostrations of the HP",
-          "prohibition of passing over commandments"
-        ],
-        "theological": [
-          "prostration as expression of total submission",
-          "the HP as model of humility"
-        ],
-        "narrative": [
-          "HP prostrating eight times before assembled nation"
-        ]
-      },
       "conceptRefs": [],
       "requiresUnderstanding": [
         "hishtachavayah (prostration) in halacha",
@@ -542,18 +494,6 @@
         "mussaf-offerings",
         "service-sequence"
       ],
-      "concepts": {
-        "halachic": [
-          "mussaf timing - with morning tamid",
-          "service sequence for Yom Kippur mussaf"
-        ],
-        "theological": [
-          "spiritual power of witnessing the Temple service"
-        ],
-        "narrative": [
-          "eyewitness description of HP's reading ceremony"
-        ]
-      },
       "conceptRefs": [],
       "requiresUnderstanding": [
         "mussaf offerings",
@@ -847,19 +787,6 @@
         "rabbi-eliezer-rabbi-akiva",
         "five-immersions"
       ],
-      "concepts": {
-        "halachic": [
-          "mussaf timing dispute - R. Eliezer vs R. Akiva",
-          "Torat Kohanim sequence vs Numbers sequence",
-          "HP's physical strength as halachic consideration"
-        ],
-        "theological": [
-          "prioritizing the essential atonement service over secondary offerings"
-        ],
-        "narrative": [
-          "the HP's full day of service - five immersions, multiple offerings"
-        ]
-      },
       "conceptRefs": [],
       "requiresUnderstanding": [
         "five immersions and ten sanctifications of HP",

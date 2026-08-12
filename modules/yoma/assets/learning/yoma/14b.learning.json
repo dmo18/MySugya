@@ -65,16 +65,6 @@
     "scheduling",
     "R. Akiva"
    ],
-   "concepts": [
-    {
-     "term": "lefanya",
-     "def": "Toward the evening - the time when the purification water is sprinkled on the KG during his seven-day sequestration, after all daily service is complete."
-    },
-    {
-     "term": "ha'arev shemesh",
-     "def": "Sunset/nightfall - the final step of purification after immersion from most forms of impurity. The KG immerses after the evening sprinkling and is fully purified at nightfall."
-    }
-   ],
    "conceptRefs": [
     "Yoma.14b.1"
    ],
@@ -248,16 +238,6 @@
     "tractate attribution",
     "R. Shimon ish HaMitzpah",
     "service order"
-   ],
-   "concepts": [
-    {
-     "term": "stam mishnah",
-     "def": "Anonymous mishna - a ruling without a named author, assumed to reflect the majority/accepted view. Identifying the author helps clarify whose position it follows when disputes arise."
-    },
-    {
-     "term": "R. Shimon ish HaMitzpah",
-     "def": "A Tanna who is cited in the Tosefta discussing Temple service order. Rabbi Yochanan attributes authorship of tractate Yoma to him."
-    }
    ],
    "conceptRefs": [
     "Yoma.14b.2",
@@ -448,16 +428,6 @@
     "Abba Shaul",
     "drasha",
     "Temple service"
-   ],
-   "concepts": [
-    {
-     "term": "hatavat ha-nerot",
-     "def": "Cleaning/tending the menorah lamps - removing used wicks and ash, preparing for re-lighting. Split into two sessions in the daily Temple service: five lamps first, two remaining later."
-    },
-    {
-     "term": "ketoret",
-     "def": "Incense offering burned on the golden altar in the Temple twice daily (morning and afternoon). Its placement relative to lamp-cleaning is the dispute between Abba Shaul and the Rabbanan."
-    }
    ],
    "conceptRefs": [
     "Yoma.14b.6",

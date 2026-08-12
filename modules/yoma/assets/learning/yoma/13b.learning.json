@@ -105,16 +105,6 @@
     "kehuna gedola",
     "mutually exclusive conditions"
    ],
-   "concepts": [
-    {
-     "term": "yibum",
-     "def": "Levirate marriage - when a man dies childless, his widow must either marry his brother (yibum) or be released (chalitza). The formula here raises complications for this law."
-    },
-    {
-     "term": "tenai kaful",
-     "def": "Double condition - a divorce condition stated both positively and negatively. The two-wife solution uses complementary conditions rather than a single doubled condition."
-    }
-   ],
    "conceptRefs": [
     "Yoma.13b.1",
     "Yoma.13b.2"
@@ -262,16 +252,6 @@
     "bayto",
     "levirate marriage",
     "drasha"
-   ],
-   "concepts": [
-    {
-     "term": "arusah",
-     "def": "A betrothed woman who has not yet entered her husband's home (kiddushin without nisuin). Her status regarding yibum is the subject of this brief discussion."
-    },
-    {
-     "term": "bayto",
-     "def": "His house - used in both the KG's YK requirement (Leviticus 16) and the yibum obligation (Deuteronomy 25). The word's scope differs in each context."
-    }
    ],
    "conceptRefs": [
     "Yoma.13b.4",
@@ -451,16 +431,6 @@
     "Yom Kippur",
     "avodah",
     "mourning"
-   ],
-   "concepts": [
-    {
-     "term": "onen",
-     "def": "A person in acute mourning - from the time a close relative dies until burial. Forbidden to eat sacred food, but all other prohibitions are rabbinic. For the KG, the Yom Kippur service obligation overrides the acute mourning state."
-    },
-    {
-     "term": "kol hayom",
-     "def": "The whole day - R. Yehuda's addition to the baraita, interpreted by Rava as a mitzva to keep the onen KG actively engaged in Temple service throughout Yom Kippur."
-    }
    ],
    "conceptRefs": [
     "Yoma.13b.6",

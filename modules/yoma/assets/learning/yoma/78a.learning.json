@@ -76,18 +76,6 @@
     "future Temple",
     "aggadah"
    ],
-   "concepts": {
-    "halachic": [
-     "Temple river",
-     "Ezekiel"
-    ],
-    "theological": [
-     "The Temple river aggadah is placed here because this sugya discusses water and c"
-    ],
-    "narrative": [
-     "Temple river bubbles up from beneath the threshold and becom"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of Temple river context",
@@ -230,18 +218,6 @@
     "YK",
     "intent"
    ],
-   "concepts": {
-    "halachic": [
-     "crossing water",
-     "bathing prohibition"
-    ],
-    "theological": [
-     "Intent matters for bathing: crossing water to get somewhere is different from im"
-    ],
-    "narrative": [
-     "Crossing water on Yom Kippur: does it constitute prohibited "
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of crossing water context",
@@ -388,18 +364,6 @@
     "wooden sandals",
     "YK exceptions"
    ],
-   "concepts": {
-    "halachic": [
-     "sick person",
-     "shoes"
-    ],
-    "theological": [
-     "Illness creates its own category on YK - even the shoe prohibition, which is abo"
-    ],
-    "narrative": [
-     "Sick person wearing shoes on YK; wooden shoes; danger except"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of sick person context",
@@ -526,18 +490,6 @@
     "river crossing",
     "bathing measure"
    ],
-   "concepts": {
-    "halachic": [
-     "rain water",
-     "river crossing"
-    ],
-    "theological": [
-     "Rain water vs. river: the Gemara is precise about what type of water contact tri"
-    ],
-    "narrative": [
-     "Rain water, river crossing, measuring bathing by amount"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of rain water context",
@@ -626,18 +578,6 @@
     "unresolved",
     "bathing prohibition"
    ],
-   "concepts": {
-    "halachic": [
-     "teiku",
-     "unresolved"
-    ],
-    "theological": [
-     "Some questions the Talmud leaves open - the unresolved teiku preserves intellect"
-    ],
-    "narrative": [
-     "Unresolved question about water crossing and the shoe prohib"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of teiku context",

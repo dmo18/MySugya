@@ -187,16 +187,6 @@
     "KG routine",
     "Water Gate"
    ],
-   "concepts": [
-    {
-     "term": "Lishkat Parhedrin",
-     "def": "The Chamber of Parhedrin - the KG's personal chamber during his seven-day separation before Yom Kippur. He slept there and prepared. The name 'parhedrin' may relate to the word for 'chambers' or 'governors.'"
-    },
-    {
-     "term": "Lishkat Parvah",
-     "def": "The Parvah Chamber - a chamber on the south side of the Azara with a sanctified immersion pool on its roof. The KG immerses in this pool for his five sanctified immersions on Yom Kippur."
-    }
-   ],
    "conceptRefs": [
     "Yoma.19a.1",
     "Yoma.19a.4",
@@ -396,12 +386,6 @@
     "humility",
     "Azara layout"
    ],
-   "concepts": [
-    {
-     "term": "beit ha-tevilah",
-     "def": "Immersion chamber - the ritual bath used by the KG for his ten Yom Kippur immersions. Five immersions were done in the sanctified pool atop the Parvah chamber; the rest in a regular mikveh near the Water Gate."
-    }
-   ],
    "conceptRefs": [
     "Yoma.19a.8",
     "Yoma.19a.10"
@@ -502,12 +486,6 @@
     "sacrifice",
     "shlichei shamayim",
     "shlichei Yisrael"
-   ],
-   "concepts": [
-    {
-     "term": "shlichut",
-     "def": "Agency law - the principle that an agent acts on behalf of the principal. 'An agent is like the principal himself.' The question is whether the kohen-offerer relationship is principal-agent (Israel's agent) or messenger-sender (God's agent)."
-    }
    ],
    "conceptRefs": [
     "Yoma.19a.13"

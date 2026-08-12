@@ -55,14 +55,6 @@
     "Temple dimensions",
     "R. Yosi b. R. Yehuda"
    ],
-   "concepts": {
-    "halachic": [
-     "altar ramp dimensions",
-     "Temple architecture"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "yoma-022a-s01"
@@ -225,19 +217,6 @@
     "morning service",
     "incense blessing"
    ],
-   "concepts": {
-    "halachic": [
-     "lottery procedure",
-     "four daily lotteries",
-     "incense first-timer rule",
-     "Chamber of Hewn Stone"
-    ],
-    "theological": [
-     "equal distribution of Temple privileges",
-     "incense as blessing-bearer"
-    ],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "yoma-022a-s02"
@@ -465,20 +444,6 @@
     "avenge",
     "humility"
    ],
-   "concepts": {
-    "halachic": [
-     "repentance",
-     "public sin vs. private sin"
-    ],
-    "theological": [
-     "genuine vs. performative repentance",
-     "public accountability for leaders",
-     "divine forgiveness"
-    ],
-    "narrative": [
-     "Saul's humility at selection; his failure at Amalek; David's genuine repentance"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "yoma-022a-s01"
@@ -639,21 +604,6 @@
     "kings",
     "sin and repentance"
    ],
-   "concepts": {
-    "halachic": [
-     "indirect causation of harm",
-     "moral responsibility for outcomes"
-    ],
-    "theological": [
-     "taking moral responsibility",
-     "parental love vs. leadership duty"
-    ],
-    "narrative": [
-     "Nov massacre",
-     "Absalom's revolt",
-     "David's parental anguish"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "yoma-022b-s03"
