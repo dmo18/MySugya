@@ -1963,6 +1963,30 @@ def cmd_verify(opts):
         if rc.returncode != 0:
             print(rc.stderr[-600:])
 
+    # Merge-base monotonic ratchet: applies to EVERY task type whose PR
+    # changes the active module's learning data, not gated on task type at
+    # all (unlike task-scoped-enrichment-clean above, which only runs for
+    # the three enrichment-authoring task types and only checks the rules
+    # those task types own). This answers a different question: "did this
+    # PR regress any enrichment rule anywhere compared with current main?"
+    # It closes the gap the frozen historical baseline cannot close on its
+    # own -- the frozen baseline never stops a later PR from silently
+    # reintroducing a violation a previous PR already fixed on main, because
+    # that exact value is still inside the frozen envelope. Both checks are
+    # required; neither replaces the other.
+    learning_dir = ACTIVE_MODULE["paths"]["learningDataDir"]
+    learning_file = ACTIVE_MODULE["paths"]["learningDataFile"]
+    learning_data_changed = bool(mb) and any(
+        p == learning_file or p.startswith(learning_dir + "/") for p in changed)
+    if learning_data_changed:
+        rc = sh([sys.executable, "scripts/validate_enrichment_contracts.py",
+                "--module", m["module"], "--compare-ref", mb])
+        results.append(("enrichment-regression-vs-merge-base", rc.returncode == 0))
+        print(f"\nenrichment-regression-vs-merge-base (compare-ref {mb[:12]}):")
+        print(rc.stdout[-2500:])
+        if rc.returncode != 0:
+            print(rc.stderr[-800:])
+
     if m["type"] == AUDIT_RECORD_TASK_TYPE and mb:
         # --allowed-ids restricts progress-record changes to exactly this
         # manifest's named auditRecordIds (requirement: progress scope is
@@ -3123,6 +3147,27 @@ def cmd_ci_check(opts):
     cmd_schema_matrix(matrix_ns)
     scope_ns = argparse.Namespace(manifest=str(MANIFEST_DEFAULT), base=opts.base)
     cmd_scope(scope_ns)
+
+    # Merge-base monotonic ratchet, enforced in CI for every PR that changes
+    # the active module's learning data, independent of task type. This is
+    # the enforcement point the GitHub Actions workflow actually calls
+    # (`worker_pipeline.py ci-check --base origin/<base-ref>`); see
+    # cmd_verify's identically-named local gate for the worker-facing half
+    # of the same check. Neither replaces the frozen-baseline comparison
+    # that validate_enrichment_contracts.py always runs; this is additive.
+    learning_dir = ACTIVE_MODULE["paths"]["learningDataDir"]
+    learning_file = ACTIVE_MODULE["paths"]["learningDataFile"]
+    learning_data_changed = any(
+        p == learning_file or p.startswith(learning_dir + "/") for p in changed)
+    if learning_data_changed:
+        rc = sh([sys.executable, "scripts/validate_enrichment_contracts.py",
+                "--module", m["module"], "--compare-ref", mb])
+        print(f"\nenrichment-regression-vs-merge-base (compare-ref {mb[:12]}):")
+        print(rc.stdout[-2500:])
+        if rc.returncode != 0:
+            print(rc.stderr[-800:])
+            sys.exit(1)
+
     print(f"OK: PR carries a valid {m['type']} manifest and passes its scope contract.")
 
 

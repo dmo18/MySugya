@@ -481,6 +481,174 @@ check("13g. fingerprint_occurrence is index-independent for otherwise identical 
       V.fingerprint_occurrence("topicTags_invalid_slug", "yoma-002a-s01", "topicTags[0]", "Bad Tag")
       == V.fingerprint_occurrence("topicTags_invalid_slug", "yoma-002a-s01", "topicTags[7]", "Bad Tag"))
 
+# ---- 14. MERGE-BASE MONOTONIC RATCHET: compare_to_merge_base direct tests --
+# These exercise the SECOND, independent comparison (current corpus vs. the
+# module's data at an arbitrary git ref) directly against the real function,
+# using synthetic occurrences from collect_violations -- no git needed here;
+# the git-backed CLI plumbing is exercised separately in section 15 and the
+# full disposable-fixture proof lives in test_worker_pipeline_integration.py.
+
+# 14a. reference clean, current dirty -> FAIL
+ref_clean_14a = content(sugya("yoma-002a-s01", topicTags=["good-tag"]))
+_, _, ref_clean_14a_occ = V.collect_violations(ref_clean_14a)
+cur_dirty_14a = content(sugya("yoma-002a-s01", topicTags=["Bad Tag"]))
+_, _, cur_dirty_14a_occ = V.collect_violations(cur_dirty_14a)
+p14a = V.compare_to_merge_base(cur_dirty_14a_occ, ref_clean_14a_occ)
+check("14a. reference clean, current dirty FAILS", any("NEW regression" in p for p in p14a), p14a)
+
+# 14b. reference has 1 occurrence, current has 2 -> FAIL
+ref_one_14b = content(sugya("yoma-002a-s01", topicTags=["Bad Tag"]))
+_, _, ref_one_14b_occ = V.collect_violations(ref_one_14b)
+cur_two_14b = content(sugya("yoma-002a-s01", topicTags=["Bad Tag", "Also Bad"]))
+_, _, cur_two_14b_occ = V.collect_violations(cur_two_14b)
+p14b = V.compare_to_merge_base(cur_two_14b_occ, ref_one_14b_occ)
+check("14b. reference 1 occurrence, current 2 FAILS", any("count rose" in p for p in p14b), p14b)
+
+# 14c. reference invalid value A, current invalid value B (different fingerprint) -> FAIL
+ref_a_14c = content(sugya("yoma-002a-s01", topicTags=["Bad Tag"]))
+_, _, ref_a_14c_occ = V.collect_violations(ref_a_14c)
+cur_b_14c = content(sugya("yoma-002a-s01", topicTags=["Different Bad"]))
+_, _, cur_b_14c_occ = V.collect_violations(cur_b_14c)
+p14c = V.compare_to_merge_base(cur_b_14c_occ, ref_a_14c_occ)
+check("14c. reference invalid A, current invalid B (different fingerprint) FAILS",
+      any("same-sugya regression" in p for p in p14c), p14c)
+
+# 14d. reference invalid A, current same A -> PASS
+p14d = V.compare_to_merge_base(ref_a_14c_occ, ref_a_14c_occ)
+check("14d. reference invalid A, current same A PASSES", p14d == [], p14d)
+
+# 14e. reference invalid A, current clean -> PASS
+cur_clean_14e = content(sugya("yoma-002a-s01", topicTags=["good-tag"]))
+_, _, cur_clean_14e_occ = V.collect_violations(cur_clean_14e)
+p14e = V.compare_to_merge_base(cur_clean_14e_occ, ref_a_14c_occ)
+check("14e. reference invalid A, current clean PASSES", p14e == [], p14e)
+
+# 14f. reference has 2 IDENTICAL violations, current has 1 surviving identical -> PASS
+ref_two_ident_14f = content(sugya("yoma-002a-s01", topicTags=["Bad Tag", "Bad Tag"]))
+_, _, ref_two_ident_14f_occ = V.collect_violations(ref_two_ident_14f)
+cur_one_ident_14f = content(sugya("yoma-002a-s01", topicTags=["Bad Tag"]))
+_, _, cur_one_ident_14f_occ = V.collect_violations(cur_one_ident_14f)
+p14f = V.compare_to_merge_base(cur_one_ident_14f_occ, ref_two_ident_14f_occ)
+check("14f. reference has 2 identical violations, current has 1 surviving identical PASSES",
+      p14f == [], p14f)
+
+# 14g. reference has 2, current has 1 DIFFERENT invalid value -> FAIL
+cur_one_diff_14g = content(sugya("yoma-002a-s01", topicTags=["A Totally Different Bad Tag"]))
+_, _, cur_one_diff_14g_occ = V.collect_violations(cur_one_diff_14g)
+p14g = V.compare_to_merge_base(cur_one_diff_14g_occ, ref_two_ident_14f_occ)
+check("14g. reference has 2, current has 1 different invalid value FAILS",
+      any("same-sugya regression" in p for p in p14g), p14g)
+
+# 14h. reference has zero legacy concepts, current reintroduces the old
+# frozen-baseline concepts value -> FAIL. This is the exact shape of the
+# critical regression the merge-base ratchet exists to catch (see section G
+# below for the full baseline-gap demonstration).
+ref_no_concepts_14h = content(sugya("yoma-002a-s01"))
+_, _, ref_no_concepts_14h_occ = V.collect_violations(ref_no_concepts_14h)
+cur_concepts_14h = content(sugya("yoma-002a-s01", concepts={"halachic": ["Original legacy value"]}))
+_, _, cur_concepts_14h_occ = V.collect_violations(cur_concepts_14h)
+p14h = V.compare_to_merge_base(cur_concepts_14h_occ, ref_no_concepts_14h_occ)
+check("14h. reference has zero legacy concepts, current reintroduces the old value FAILS",
+      any("legacy_concepts_present" in p and "NEW regression" in p for p in p14h), p14h)
+
+# ---- G. CONCEPTS ZERO-TO-REINTRODUCTION: the exact gap the ratchet closes --
+concepts_val = {"halachic": ["Original legacy concept text, verbatim"]}
+base_a = content(sugya("yoma-002a-s01", concepts=concepts_val))
+base_a_v, _, base_a_occ = V.collect_violations(base_a)
+
+cleaned = content(sugya("yoma-002a-s01"))  # concepts key fully removed
+_, _, cleaned_occ = V.collect_violations(cleaned)
+
+problems_g1 = V.compare_to_merge_base(cleaned_occ, base_a_occ)
+check("G1. removing every concepts key passes --compare-ref BaseA", problems_g1 == [], problems_g1)
+
+# Treat `cleaned` as Base B and reintroduce the EXACT original concepts
+# object on the same sugya.
+reintroduced = content(sugya("yoma-002a-s01", concepts=concepts_val))
+reintro_v, _, reintro_occ = V.collect_violations(reintroduced)
+
+# The frozen baseline built from Base A would, BY ITSELF, still accept the
+# reintroduced occurrence -- this is the exact gap the merge-base ratchet
+# closes: a value inside the frozen envelope compares clean against it
+# regardless of what happened on main (a clean, then a regression) in
+# between.
+frozen_from_a = make_baseline(base_a_v, base_a_occ)
+frozen_problems, _ = V.compare_to_baseline(reintro_v, reintro_occ, frozen_from_a, [])
+check("G2. the frozen baseline ALONE still accepts the reintroduced value (the gap)",
+      frozen_problems == [], frozen_problems)
+
+# The merge-base ratchet against Base B (the cleaned commit) must FAIL.
+problems_g3 = V.compare_to_merge_base(reintro_occ, cleaned_occ)
+check("G3. --compare-ref Base B rejects the reintroduced concepts value",
+      any("legacy_concepts_present" in p for p in problems_g3), problems_g3)
+
+for bad_val, label in [(None, "null"), ({}, "empty dict"), ([], "empty list")]:
+    bad_content = content(sugya("yoma-002a-s01", concepts=bad_val))
+    _, _, bad_occ = V.collect_violations(bad_content)
+    problems_bad = V.compare_to_merge_base(bad_occ, cleaned_occ)
+    check("G4. concepts=%s after a clean base FAILS" % label,
+          any("legacy_concepts_present" in p for p in problems_bad), problems_bad)
+
+absent_v, _, absent_occ = V.collect_violations(cleaned)
+problems_absent = V.compare_to_merge_base(absent_occ, cleaned_occ)
+check("G5. full key absence remains clean vs a clean base", problems_absent == [], problems_absent)
+
+# ---- H. PARTIAL-IMPROVEMENT / DUPLICATE-MULTIPLICITY -----------------------
+ref_two_h = content(sugya("yoma-002a-s01", topicTags=["Bad Tag", "Bad Tag"]))
+_, _, ref_two_h_occ = V.collect_violations(ref_two_h)
+cur_one_h = content(sugya("yoma-002a-s01", topicTags=["Bad Tag"]))
+_, _, cur_one_h_occ = V.collect_violations(cur_one_h)
+
+problems_h1 = V.compare_to_merge_base(cur_one_h_occ, ref_two_h_occ)
+check("H1. partial improvement recognized: reference 2 identical -> current 1 PASSES",
+      problems_h1 == [], problems_h1)
+
+# A later commit restores the second identical occurrence. Once the
+# 1-occurrence state is itself the new reference (the "improvement" that
+# merged to main), restoring the duplicate is a regression back to the
+# higher multiplicity.
+problems_h2 = V.compare_to_merge_base(ref_two_h_occ, cur_one_h_occ)
+check("H2. restoring the second identical occurrence after 1-occurrence became "
+      "the reference FAILS", any("count rose" in p for p in problems_h2), problems_h2)
+
+ref_a_h = content(sugya("yoma-002a-s01", topicTags=["Bad Tag"]))
+_, _, ref_a_h_occ = V.collect_violations(ref_a_h)
+cur_b_h = content(sugya("yoma-002a-s01", topicTags=["Different Bad"]))
+_, _, cur_b_h_occ = V.collect_violations(cur_b_h)
+problems_h3 = V.compare_to_merge_base(cur_b_h_occ, ref_a_h_occ)
+check("H3. reference invalid A, current invalid B (different fingerprint) FAILS",
+      any("same-sugya regression" in p for p in problems_h3), problems_h3)
+
+ref_clean_h = content(sugya("yoma-002a-s01"))
+_, _, ref_clean_h_occ = V.collect_violations(ref_clean_h)
+cur_new_h = content(sugya("yoma-002a-s01", difficulty="introductory"))
+_, _, cur_new_h_occ = V.collect_violations(cur_new_h)
+problems_h4 = V.compare_to_merge_base(cur_new_h_occ, ref_clean_h_occ)
+check("H4. a clean reference gaining a brand-new violation FAILS",
+      any("NEW regression" in p for p in problems_h4), problems_h4)
+
+# ---- 15. --compare-ref CLI: real git-backed merge-base ratchet -------------
+# Uses real git refs in THIS repo (never a hand-maintained snapshot). HEAD
+# vs HEAD has zero drift, so this only proves the plumbing (resolve module ->
+# git show -> load_daf_content -> collect_violations -> compare), not a
+# regression scenario -- the full disposable-fixture regression proof lives
+# in test_worker_pipeline_integration.py per the task's own instruction.
+r4 = subprocess.run([sys.executable, "scripts/validate_enrichment_contracts.py", "--module", "yoma",
+                     "--compare-ref", "HEAD"],
+                    cwd=str(ROOT), capture_output=True, text=True)
+check("15a. --compare-ref HEAD (no drift) passes and prints both labeled sections",
+      r4.returncode == 0
+      and "FROZEN BASELINE CHECK" in r4.stdout
+      and "MERGE-BASE MONOTONIC RATCHET" in r4.stdout,
+      (r4.stdout + r4.stderr)[-800:])
+
+r5 = subprocess.run([sys.executable, "scripts/validate_enrichment_contracts.py", "--module", "yoma",
+                     "--compare-ref", "not-a-real-ref-zzz"],
+                    cwd=str(ROOT), capture_output=True, text=True)
+check("15b. an unresolvable --compare-ref fails closed (nonzero exit, clear error)",
+      r5.returncode != 0 and "could not be resolved" in (r5.stdout + r5.stderr),
+      (r5.stdout + r5.stderr)[-500:])
+
 if FAILED:
     print("\n%d check(s) failed: %s" % (len(FAILED), FAILED))
     sys.exit(1)

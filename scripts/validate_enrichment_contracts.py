@@ -72,6 +72,35 @@ Usage (repo root):
   python3 scripts/validate_enrichment_contracts.py --module yoma --rules legacy_concepts_present --targets yoma-082b-s01
   python3 scripts/validate_enrichment_contracts.py --module yoma --report
   python3 scripts/validate_enrichment_contracts.py --module yoma --update-baseline
+  python3 scripts/validate_enrichment_contracts.py --module yoma --compare-ref origin/main
+
+TWO INDEPENDENT COMPARISONS, BOTH REQUIRED
+
+This gate runs two separate ratchets, layered, not either/or:
+
+  1. FROZEN BASELINE CHECK (compare_to_baseline, always runs) -- current
+     corpus vs. the frozen historical baseline
+     (scripts/baselines/<module>_enrichment_contract_debt.json). This
+     enumerates the ORIGINAL legacy debt from when the campaign started and
+     is never rewritten by ordinary repairs. It answers "is the corpus still
+     inside the envelope of debt the campaign started with?" It does NOT,
+     by itself, stop a later PR from reintroducing a violation that a prior
+     PR already fixed on main: a value that was always within the frozen
+     envelope compares clean against the frozen baseline no matter what
+     happened on main in between.
+
+  2. MERGE-BASE MONOTONIC RATCHET (compare_to_merge_base, only when
+     --compare-ref is supplied) -- current corpus vs. the SAME module's
+     generated data at an arbitrary git ref, read with `git show
+     <ref>:<learningDataFile>` (real git data, never a hand-maintained
+     snapshot). This is what closes the gap above: it compares this PR
+     against its own actual merge-base (current main before the PR's
+     changes), so a previously-merged improvement can never be silently
+     regressed by a later, unrelated PR, even though the regressed value
+     would still fall inside the frozen historical envelope.
+
+A PR passes only when BOTH checks pass. See compare_to_merge_base for the
+exact subset/multiset contract.
 """
 import argparse
 import collections
@@ -520,6 +549,103 @@ def compare_to_baseline(violations, occurrences, base, targets, rules_filter=Non
     return problems, improved
 
 
+def compare_to_merge_base(occurrences, ref_occurrences):
+    """Merge-base monotonic ratchet. Returns a list of problem strings
+    (empty when the ratchet holds).
+
+    For every registered rule and every sugya, CURRENT invalid occurrences
+    must be a multiset SUBSET of the occurrences present at --compare-ref
+    (this PR's actual git merge-base, i.e. current main before this PR's
+    changes). This is a SEPARATE comparison from compare_to_baseline
+    (against the frozen historical baseline) and is layered on top of it,
+    not a replacement -- see the module docstring.
+
+    Why this is needed: the frozen baseline enumerates the ORIGINAL legacy
+    debt and is intentionally never rewritten, so a value that has always
+    been within that frozen envelope compares clean against it no matter
+    what happened on main in between -- including a later, unrelated PR
+    putting an already-fixed invalid value right back. Comparing against the
+    actual merge-base instead of the frozen baseline is what catches that:
+    if a rule+sugya was clean (or had fewer/different violations) at the
+    merge-base, it must still be at least that clean now.
+
+    Uses the SAME occurrence identity as compare_to_baseline -- (rule,
+    sugyaId, index-stripped path, value fingerprint) via
+    fingerprint_occurrence/strip_array_index, reused unchanged -- and the
+    same Counter/multiset semantics, so duplicate multiplicity matters:
+    two identical invalid occurrences at the merge-base cover one identical
+    surviving occurrence now, but not two occurrences after one was
+    supposedly repaired and then reintroduced.
+    """
+    problems = []
+    for rule in sorted(RULES):
+        cur_by_sugya = collections.defaultdict(list)
+        for o in occurrences.get(rule, []):
+            cur_by_sugya[o["sugyaId"]].append(o)
+        ref_by_sugya = collections.defaultdict(list)
+        for o in ref_occurrences.get(rule, []):
+            ref_by_sugya[o["sugyaId"]].append(o)
+
+        for sid in sorted(set(cur_by_sugya) | set(ref_by_sugya)):
+            c, r = cur_by_sugya.get(sid, []), ref_by_sugya.get(sid, [])
+            if not c:
+                continue  # current is clean for this rule+sugya: never a regression
+            c_counter = collections.Counter(o["fingerprint"] for o in c)
+            r_counter = collections.Counter(o["fingerprint"] for o in r)
+            excess = c_counter - r_counter
+            if not excess:
+                continue  # every current occurrence (by value AND multiplicity) already
+                          # existed at the merge-base; not a regression
+            if not r:
+                problems.append(
+                    "NEW regression for %s %s: merge-base reference had 0 occurrence(s), "
+                    "current has %d (this rule/sugya was clean at the PR's merge-base and "
+                    "is not clean now)" % (rule, sid, len(c)))
+                continue
+            if len(c) > len(r):
+                problems.append(
+                    "count rose for %s %s: merge-base reference had %d occurrence(s), now %d"
+                    % (rule, sid, len(r), len(c)))
+                continue
+            deficit = r_counter - c_counter
+            problems.append(
+                "same-sugya regression for %s %s: merge-base reference fingerprint(s) %s are "
+                "no longer present, but current carries fingerprint(s) %s that were not present "
+                "at the merge-base (occurrence count merge-base %d -> current %d; an invalid "
+                "value already fixed on main may have been reintroduced, or swapped for a "
+                "different invalid value)"
+                % (rule, sid, sorted(deficit), sorted(excess), len(r), len(c)))
+    return problems
+
+
+def load_ref_occurrences(module, compare_ref):
+    """Load (violations, occurrences) for the given module's generated data
+    AT compare_ref, using real git data (`git show <ref>:<path>`), never a
+    hand-maintained snapshot. Fails closed: any resolution or parse failure
+    exits nonzero with a clear error rather than silently skipping the
+    merge-base ratchet."""
+    learning_data_path = resolve_module(module)
+    rel = learning_data_path.relative_to(ROOT).as_posix()
+    r = subprocess.run(["git", "show", "%s:%s" % (compare_ref, rel)],
+                       cwd=ROOT, capture_output=True, text=True)
+    if r.returncode != 0:
+        sys.exit("ERROR: --compare-ref %r could not be resolved for %s (git show failed): %s"
+                 % (compare_ref, rel, (r.stderr or "").strip()[-500:]))
+    fd, tmp_path = tempfile.mkstemp(suffix=".cjs")
+    try:
+        os.write(fd, r.stdout.encode("utf-8"))
+        os.close(fd)
+        try:
+            ref_data = load_daf_content(tmp_path)
+        except SystemExit as ex:
+            sys.exit("ERROR: --compare-ref %r module data for %s could not be parsed: %s"
+                     % (compare_ref, rel, ex))
+    finally:
+        os.unlink(tmp_path)
+    ref_violations, _ref_detail, ref_occurrences = collect_violations(ref_data)
+    return ref_violations, ref_occurrences
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--module", default="yoma")
@@ -531,6 +657,13 @@ def main():
     ap.add_argument("--report", action="store_true", help="print the full inventory")
     ap.add_argument("--update-baseline", action="store_true",
                     help="rewrite the committed baseline (docs-tooling change)")
+    ap.add_argument("--compare-ref", default=None,
+                    help="also run the merge-base monotonic ratchet: compare current "
+                         "occurrences against the same module's generated data at this git "
+                         "ref (e.g. this PR's actual merge-base SHA), using real `git show` "
+                         "data. Layered ON TOP OF the frozen baseline check, never a "
+                         "replacement for it. Fails closed if the ref or its module data "
+                         "cannot be resolved/parsed.")
     args = ap.parse_args()
 
     if args.rules:
@@ -559,6 +692,7 @@ def main():
         return
 
     bpath = baseline_path(args.module)
+    print("\nFROZEN BASELINE CHECK")
     if not bpath.exists():
         sys.exit("ERROR: missing baseline %s for module %r; run --update-baseline in a "
                  "reviewed docs-tooling change" % (bpath.relative_to(ROOT), args.module))
@@ -566,7 +700,7 @@ def main():
 
     integrity_problems = verify_baseline_integrity(base, args.module)
     if integrity_problems:
-        print("\nBASELINE INTEGRITY CHECK FAILED (baseline is not trusted):")
+        print("BASELINE INTEGRITY CHECK FAILED (baseline is not trusted):")
         for p in integrity_problems:
             print("  FAIL %s" % p)
         sys.exit("enrichment contract gate FAILED: baseline integrity check failed")
@@ -574,20 +708,43 @@ def main():
     problems, improved = compare_to_baseline(violations, occurrences, base, args.targets, args.rules)
 
     if improved:
-        print("\nratchet improvements:")
+        print("ratchet improvements:")
         for line in improved:
             print("  %s" % line)
     if args.targets:
         scope_note = (" (rules: %s)" % ", ".join(args.rules)) if args.rules else ""
-        print("\ntarget-clean checked for: %s%s" % (", ".join(args.targets), scope_note))
+        print("target-clean checked for: %s%s" % (", ".join(args.targets), scope_note))
 
-    print()
     if problems:
         for p in problems:
             print("  FAIL %s" % p)
-        raise SystemExit("enrichment contract gate FAILED (%d problem(s))" % len(problems))
-    print("OK: no new enrichment-contract debt; baseline holds%s."
-          % (" and %d rule(s)/sugya(s) improved" % len(improved) if improved else ""))
+        print("FROZEN BASELINE CHECK FAILED (%d problem(s))" % len(problems))
+    else:
+        print("OK: no new enrichment-contract debt; baseline holds%s."
+              % (" and %d rule(s)/sugya(s) improved" % len(improved) if improved else ""))
+
+    mb_problems = []
+    if args.compare_ref:
+        print("\nMERGE-BASE MONOTONIC RATCHET")
+        print("comparing against %r via `git show %s:%s`"
+              % (args.compare_ref, args.compare_ref,
+                 resolve_module(args.module).relative_to(ROOT).as_posix()))
+        _ref_violations, ref_occurrences = load_ref_occurrences(args.module, args.compare_ref)
+        mb_problems = compare_to_merge_base(occurrences, ref_occurrences)
+        if mb_problems:
+            for p in mb_problems:
+                print("  FAIL %s" % p)
+            print("MERGE-BASE MONOTONIC RATCHET FAILED (%d problem(s))" % len(mb_problems))
+        else:
+            print("OK: no rule/sugya regressed relative to the merge-base.")
+
+    print()
+    if problems or mb_problems:
+        raise SystemExit(
+            "enrichment contract gate FAILED (%d frozen-baseline problem(s), %d "
+            "merge-base-ratchet problem(s))" % (len(problems), len(mb_problems)))
+    print("OK: enrichment contract gate passed%s."
+          % (" (frozen baseline + merge-base ratchet)" if args.compare_ref else " (frozen baseline)"))
 
 
 if __name__ == "__main__":

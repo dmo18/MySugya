@@ -208,18 +208,45 @@ must not survive migration.
 ## Validators
 
 `scripts/validate_enrichment_contracts.py` (generic, `--module`) enforces all
-of the above as a **baseline-and-ratchet** gate: current debt is enumerated,
-counted and fingerprinted in the module-specific baseline
-`scripts/baselines/<module>_enrichment_contract_debt.json` (for Yoma, exactly
-`scripts/baselines/yoma_enrichment_contract_debt.json`; a module may never
-reuse another module's baseline file, and `verify_baseline_integrity` rejects
-a baseline whose stored `module` field disagrees with `--module`); a new
-violating sugya id fails even if totals drop; a rising count fails; a falling
-count passes and prints the delta; `--targets` (optionally scoped further with
-`--rules`) enforces target-clean so a repair PR proves it left every field it
-touched compliant. Deleting or weakening a rule is itself a failure, and
-rewriting the baseline requires `--update-baseline` in a reviewed docs-tooling
-change.
+of the above through TWO INDEPENDENT, layered comparisons, both required:
+
+1. **Frozen historical baseline** (`compare_to_baseline`, always runs):
+   current debt is enumerated, counted and fingerprinted against the
+   module-specific baseline `scripts/baselines/<module>_enrichment_contract_debt.json`
+   (for Yoma, exactly `scripts/baselines/yoma_enrichment_contract_debt.json`;
+   a module may never reuse another module's baseline file, and
+   `verify_baseline_integrity` rejects a baseline whose stored `module` field
+   disagrees with `--module`); a new violating sugya id fails even if totals
+   drop; a rising count fails; a falling count passes and prints the delta;
+   `--targets` (optionally scoped further with `--rules`) enforces
+   target-clean so a repair PR proves it left every field it touched
+   compliant. Deleting or weakening a rule is itself a failure, and
+   rewriting the baseline requires `--update-baseline` in a reviewed
+   docs-tooling change. This baseline enumerates the ORIGINAL legacy debt
+   from when the campaign started and is intentionally never rewritten by an
+   ordinary repair, so it bounds the corpus to that original envelope
+   **within one PR's own before/after comparison** -- it does not, by
+   itself, stop a *later, separate* PR from reintroducing a violation an
+   *earlier* PR already fixed on main, because a value that was always
+   inside the frozen envelope compares clean against it regardless of what
+   happened on main in between.
+
+2. **Merge-base monotonic ratchet** (`compare_to_merge_base`, runs when
+   `--compare-ref <git-ref>` is supplied): current occurrences are compared
+   against the SAME module's generated data at that ref (read with real
+   `git show <ref>:<learningDataFile>`, never a hand-maintained snapshot),
+   requiring current occurrences to be a multiset subset of the reference's,
+   rule by rule and sugya by sugya. Supplying the PR's actual git
+   merge-base (current main before the PR's changes) is what closes the gap
+   layer 1 leaves open: a previously-merged improvement can never be
+   silently regressed by a later, unrelated PR. `scripts/worker_pipeline.py`
+   invokes this automatically (`enrichment-regression-vs-merge-base` in
+   `worker:verify` and in `ci-check`) whenever a PR changes the active
+   module's learning data, independent of task type.
+
+A PR passes only when both layers pass. Neither replaces the other: layer 1
+is the never-rewritten historical envelope; layer 2 is the always-current
+comparison against main.
 
 **Registered rules.** `RULES` in `scripts/validate_enrichment_contracts.py`
 registers **28 rule ids**, every one of them present in `collect_violations`'s
@@ -271,12 +298,20 @@ corrupted, wrong-schema-version, or cross-module baseline before trusting it
 for comparison.
 
 **Global ratchet plus task-specific rule-scoped target-clean.** The
-corpus-wide comparison above (every rule, every sugya) is the unconditional
-final word on new debt anywhere; layered on top, `--rules`/`--targets`
-narrows target-clean to exactly the rules and sugya ids a given worker task
-actually owns (`task_specific_rule_scoped_targets` in
-`scripts/worker_pipeline.py`), so unrelated legacy debt on the same or a
-different sugya never blocks an otherwise-valid, narrowly-scoped repair.
+corpus-wide frozen-baseline comparison above (every rule, every sugya) is
+the unconditional final word on new debt anywhere within a single PR;
+layered on top, `--rules`/`--targets` narrows target-clean to exactly the
+rules and sugya ids a given worker task actually owns
+(`task_specific_rule_scoped_targets` in `scripts/worker_pipeline.py`), so
+unrelated legacy debt on the same or a different sugya never blocks an
+otherwise-valid, narrowly-scoped repair. This target-clean check answers
+"did this task clean the rules it owns?" -- a SEPARATE question from the
+merge-base monotonic ratchet (`enrichment-regression-vs-merge-base`, also
+wired into the same `worker:verify` run), which answers "did this PR
+regress any enrichment rule anywhere compared with current main?" and
+applies to every task type that changes learning data, not only the three
+enrichment-authoring task types. Both run; neither substitutes for the
+other.
 
 **Progress lifecycle.** `docs/reports/data/yoma-tail-enrichment-repair-progress.json`
 tracks `audited-sugya-enrichment-repair` progress per sugyaId through
