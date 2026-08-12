@@ -148,16 +148,6 @@
     "elders' tears",
     "divine punishment"
    ],
-   "concepts": [
-    {
-     "term": "Tzedokim (Sadducees)",
-     "def": "A Second Temple sect that rejected the oral Torah and interpreted Scripture literally. On the incense service: they read 'and he shall put the incense on the fire before God' as requiring the incense to be lit before entering the Holy of Holies."
-    },
-    {
-     "term": "Perushim (Pharisees)",
-     "def": "The rabbinic tradition that held the oral Torah as authoritative. The Pharisaic ruling: the incense is placed on the fire inside the Holy of Holies, after the KG has already entered. This is the normative halacha."
-    }
-   ],
    "conceptRefs": [
     "Yoma.19b.1",
     "Yoma.19b.4",
@@ -357,16 +347,6 @@
     "second paragraph",
     "bam",
     "interruption rules"
-   ],
-   "concepts": [
-    {
-     "term": "bam",
-     "def": "'In them' - from 've-dibartem bam' (Deuteronomy 6:7). The Talmud reads 'bam' as 'with them [in your mouth],' requiring Shema to be recited audibly enough to hear oneself."
-    },
-    {
-     "term": "kavanah",
-     "def": "Intention/concentration. Required during the first paragraph of Shema (at minimum the first verse 'Shema Yisrael')."
-    }
    ],
    "conceptRefs": [
     "Yoma.19b.7",
@@ -579,16 +559,6 @@
     "tamid",
     "dawn announcement",
     "KG all-night preparation"
-   ],
-   "concepts": [
-    {
-     "term": "tzarda",
-     "def": "The finger-snap technique: pressing the index finger hard against the thumb base and releasing sharply, creating a loud snap. Used by young priests to startle the KG awake if he dozed."
-    },
-    {
-     "term": "kidda",
-     "def": "A prostration technique: the person presses their big toes to the ground and bows forward until their face nearly touches the floor, then rises. Said to be a uniquely difficult bow that the Beit Gamliels could perform."
-    }
    ],
    "conceptRefs": [
     "Yoma.19b.11",

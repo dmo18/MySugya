@@ -95,13 +95,6 @@
     "Temple-sin",
     "priests"
    ],
-   "concepts": [
-    {
-     "term": "Kanim",
-     "he": "קִינִּים",
-     "definition": "Bird-offerings (pairs of doves or pigeons) brought by women after childbirth, bodily flux, or other situations requiring purification. Delay in processing them prevented women from achieving purity."
-    }
-   ],
    "conceptRefs": [
     "bizayon-kodashim",
     "kanim",
@@ -304,23 +297,6 @@
     "First-Temple",
     "Second-Temple"
    ],
-   "concepts": [
-    {
-     "term": "Sinat chinam",
-     "he": "שִׂנְאַת חִנָּם",
-     "definition": "Baseless hatred - hatred without legitimate cause. The Talmud identifies this as the reason for the destruction of the Second Temple and the cause of the longer exile."
-    },
-    {
-     "term": "Yehareg v'al ya'avor",
-     "he": "יֵהָרֵג וְאַל יַעֲבֹר",
-     "definition": "One should be killed rather than transgress - the three cardinal sins (avodah zarah, giluy arayot, shefichut damim) are in this category: a Jew must die rather than violate them."
-    },
-    {
-     "term": "Ahavat chinam",
-     "he": "אַהֲבַת חִנָּם",
-     "definition": "Baseless love - the corrective to sinat chinam, often mentioned as the key to the redemption. Not explicitly in this passage but implied as the repair."
-    }
-   ],
    "conceptRefs": [
     "sinat-chinam",
     "Temple-destruction",
@@ -476,13 +452,6 @@
     "hidden-sin",
     "prophecy"
    ],
-   "concepts": [
-    {
-     "term": "Sinat chinam",
-     "he": "שִׂנְאַת חִנָּם",
-     "definition": "Baseless hatred - hatred without cause. The Talmud identifies it as the cause of the Second Temple's destruction and the reason the exile has no revealed end."
-    }
-   ],
    "conceptRefs": [
     "sinat-chinam",
     "Temple-destruction",
@@ -629,13 +598,6 @@
     "R. Yochanan",
     "Reish-Lakish",
     "generational-merit"
-   ],
-   "concepts": [
-    {
-     "term": "Nesi'im",
-     "he": "נְשִׂיאִים",
-     "definition": "Princes or leaders of Israel. In this context: the First Temple leaders who harbored sinat chinam among themselves while the people could still be rebuked."
-    }
    ],
    "conceptRefs": [
     "sinat-chinam",
@@ -799,13 +761,6 @@
     "cedar",
     "silver",
     "Shechina"
-   ],
-   "concepts": [
-    {
-     "term": "Sasmagor",
-     "he": "סַסְמָגוֹר",
-     "definition": "A wood-boring rot or insect that destroys cedar from within. Used metaphorically for the partial Shechina presence in the Second Temple due to incomplete aliyah."
-    }
    ],
    "conceptRefs": [
     "aliyah",
@@ -1015,18 +970,6 @@
     "Ezra",
     "Shechina",
     "cedar"
-   ],
-   "concepts": [
-    {
-     "term": "Bat kol",
-     "he": "בַּת קוֹל",
-     "definition": "Heavenly voice - the form of divine communication that replaced direct prophecy after the last prophets (Haggai, Zechariah, Malachi). Lower in authority than prophecy but still used in halachic and narrative contexts."
-    },
-    {
-     "term": "Ruach HaKodesh",
-     "he": "רוּחַ הַקֹּדֶשׁ",
-     "definition": "The Holy Spirit or prophetic spirit - the direct channel of divine inspiration available to prophets. It ceased from Israel when the last prophets (Haggai, Zechariah, Malachi) died."
-    }
    ],
    "conceptRefs": [
     "bat-kol",

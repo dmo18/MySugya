@@ -145,13 +145,6 @@
     "YK-kohein-gadol",
     "tannaitic-dispute"
    ],
-   "concepts": [
-    {
-     "term": "Tzitz",
-     "he": "צִיץ",
-     "definition": "The golden frontplate worn on the High Priest's forehead inscribed 'Kodesh l'Hashem'; it effects atonement for certain ritual violations including tumah."
-    }
-   ],
    "conceptRefs": [
     "tzitz",
     "dchuya-vs-hutrah",
@@ -316,18 +309,6 @@
     "tefillin",
     "kal-v'chomer",
     "dispute-localization"
-   ],
-   "concepts": [
-    {
-     "term": "Tamid liratzon",
-     "he": "תָּמִיד לְרָצוֹן",
-     "definition": "R. Shimon's reading of the tzitz verse: the tzitz perpetually effects acceptance, even when not physically on the forehead."
-    },
-    {
-     "term": "Kal v'chomer",
-     "he": "קַל וָחוֹמֶר",
-     "definition": "A fortiori inference: if the lighter case (tzitz, one divine name) carries a rule, the heavier case (tefillin, many divine names) certainly does."
-    }
    ],
    "conceptRefs": [
     "tzitz",

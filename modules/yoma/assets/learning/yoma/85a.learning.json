@@ -58,18 +58,6 @@
     "YK",
     "rubble"
    ],
-   "concepts": {
-    "halachic": [
-     "Shmuel",
-     "majority"
-    ],
-    "theological": [
-     "Majority determines: we go by statistical likelihood when we cannot know for cer"
-    ],
-    "narrative": [
-     "Shmuel's ruling: found a child - majority determines whether"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of Shmuel context",
@@ -198,18 +186,6 @@
     "YK override",
     "probability"
    ],
-   "concepts": {
-    "halachic": [
-     "majority gentile",
-     "doubt"
-    ],
-    "theological": [
-     "Majority gentile: even when odds are against it being a Jew, if there is any rea"
-    ],
-    "narrative": [
-     "Majority of inhabitants gentile: do we save a person whose i"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of majority gentile context",
@@ -320,18 +296,6 @@
     "saving life",
     "violation"
    ],
-   "concepts": {
-    "halachic": [
-     "rubble",
-     "rocks collapse"
-    ],
-    "theological": [
-     "Rubble on YK: the practical emergency is described in steps - you remove, you ch"
-    ],
-    "narrative": [
-     "Rocks collapse on a person on Yom Kippur - remove rocks to s"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of rubble context",
@@ -423,18 +387,6 @@
     "stop",
     "YK override"
    ],
-   "concepts": {
-    "halachic": [
-     "alive",
-     "dead"
-    ],
-    "theological": [
-     "Found alive, keep going; found dead, stop: the override of YK is calibrated to i"
-    ],
-    "narrative": [
-     "If found alive, continue removing rocks; if dead, stop"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of alive context",
@@ -572,18 +524,6 @@
     "YK override",
     "pikuach nefesh limit"
    ],
-   "concepts": {
-    "halachic": [
-     "dead body",
-     "YK override"
-    ],
-    "theological": [
-     "Stop when dead: the dead have their own honor rights, but those do not override "
-    ],
-    "narrative": [
-     "If found dead, leave them and do not continue violating YK"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of dead body context",
@@ -717,18 +657,6 @@
     "scriptural derivation",
     "saving life"
    ],
-   "concepts": {
-    "halachic": [
-     "R. Yishmael",
-     "R. Akiva"
-    ],
-    "theological": [
-     "Three derivations: when multiple Sages offer different sources for the same prin"
-    ],
-    "narrative": [
-     "R. Yishmael, R. Akiva, R. Elazar ben Azaryah: scriptural bas"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of R. Yishmael context",

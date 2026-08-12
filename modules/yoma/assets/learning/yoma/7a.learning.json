@@ -239,36 +239,6 @@
      ]
     }
    ],
-   "concepts": [
-    {
-     "id": "par-helem-davar",
-     "he": "פַּר הֶעְלֵם דָּבָר",
-     "translit": "Par he'elem davar",
-     "en": "The bull brought when the entire community has sinned through idolatry based on an erroneous ruling from the Sanhedrin. A communal offering but with no fixed time for its sacrifice - it is brought only when the specific sin occurs.",
-     "sugyaRole": "Rav Nachman's first identification in the disaggregation of 'bulls' - since it has no fixed time, dchuya (not hutrah) applies to it, so the baraita's ruling is consistent with his hutrah position for fixed-time communal offerings."
-    },
-    {
-     "id": "tzitz",
-     "he": "צִיץ",
-     "translit": "Tzitz",
-     "en": "The golden frontplate worn by the Kohen Gadol on his forehead. It atones for and effects acceptance of offerings that became impure. The Gemara is establishing exactly which types of impurity-related invalidations the tzitz can remedy.",
-     "sugyaRole": "The tzitz baraita is Rav Sheshet's fourth proof for dchuya - the tzitz is listed as needed for communal impurity, which would be unnecessary if communal impurity were hutrah."
-    },
-    {
-     "id": "piggul-notar",
-     "he": "פִּגּוּל / נוֹתָר",
-     "translit": "Piggul / Notar",
-     "en": "Piggul: an offering invalidated by the intention to eat or sacrifice it outside the permitted time and place - Torah declares it 'will not be accepted.' Notar: meat left after the permitted eating time - Torah declares it 'will not be credited.' Neither can be remedied by the tzitz because the Torah has already disqualified them.",
-     "sugyaRole": "By eliminating piggul and notar, the Gemara concludes that the tzitz atones only for tumah. This elimination will drive the argument for hutrah in the next daf."
-    },
-    {
-     "id": "hevei-pikeach-ushtok",
-     "he": "הֱוֵי פִּקֵּחַ וּשְׁתוֹק",
-     "translit": "Hevei pikeach ushток",
-     "en": "Be shrewd and keep silent. A pragmatic instruction to proceed with the impure offering without disclosing its impurity when there is no replacement available. The instruction exists precisely because disclosure would require a replacement - suggesting dchuya is in force.",
-     "sugyaRole": "Appears in both the omer and the bulls/rams/sheep baraitot. Rav Sheshet reads the very existence of this instruction as proving dchuya: you seek a replacement because the prohibition is still operative."
-    }
-   ],
    "conceptRefs": [
     "par-helem-davar",
     "tzitz",

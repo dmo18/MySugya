@@ -523,13 +523,6 @@
     "Temple architecture",
     "height"
    ],
-   "concepts": {
-    "halachic": [
-     "immersion chamber height"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "immersion chamber location",
@@ -613,16 +606,6 @@
     "immersion",
     "dignity"
    ],
-   "concepts": {
-    "halachic": [
-     "privacy during immersion",
-     "linen screen requirement"
-    ],
-    "theological": [
-     "dignity in sacred service"
-    ],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "High Priest's immersion on Yom Kippur"
@@ -790,24 +773,6 @@
     "five immersions",
     "High Priest"
    ],
-   "concepts": {
-    "halachic": [
-     "Yom Kippur garment sequence",
-     "five garment changes",
-     "immersion between garment types",
-     "R. Meir vs Rabbis on sequence",
-     "golden garments for standard service",
-     "white garments for inner service"
-    ],
-    "theological": [
-     "gold garments = royal service; white garments = intimate divine encounter",
-     "Yom Kippur as unique moment of divine closeness"
-    ],
-    "narrative": [
-     "Rav Pappa's reconciliation of apparent contradiction",
-     "debate about how to count R. Meir's five immersions"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "High Priest's Yom Kippur service",

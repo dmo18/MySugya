@@ -126,18 +126,6 @@
     "eschatology",
     "Genesis 10"
    ],
-   "concepts": [
-    {
-     "he": "יֶפֶת",
-     "translit": "Yefet",
-     "definition": "Japheth, son of Noah; his descendants include Persia (Tiras) and Greece (Yavan) according to the Gemara's identification."
-    },
-    {
-     "he": "אֻמּוֹת הָעוֹלָם",
-     "translit": "Umot HaOlam",
-     "definition": "The nations of the world; in Rabbinic literature, non-Jewish nations are often discussed in terms of their biblical genealogy and prophetic destiny."
-    }
-   ],
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Genesis 9-10 and the Table of Nations",
@@ -301,18 +289,6 @@
     "mashiach",
     "synagogues"
    ],
-   "concepts": [
-    {
-     "he": "אֱדוֹם",
-     "translit": "Edom",
-     "definition": "Esau's kingdom; in Rabbinic literature, the code name for Rome. The identification shapes how prophecies about Esau are read as applying to Roman civilization."
-    },
-    {
-     "he": "גָּלוּת",
-     "translit": "Galut",
-     "definition": "Exile; the condition of Israel under foreign domination. The Rome-Persia debate is ultimately about which galut comes last before redemption."
-    }
-   ],
    "conceptRefs": [],
    "requiresUnderstanding": [
     "The Rabbinic identification of Rome with Edom/Esau",
@@ -473,23 +449,6 @@
     "Parhedrin chamber",
     "High Priest",
     "rabbinic decree"
-   ],
-   "concepts": [
-    {
-     "he": "לִשְׁכַּת פַּרְהֶדְרִין",
-     "translit": "Lishkat Parhedrin",
-     "definition": "The chamber in the Temple where the High Priest resided for seven days before Yom Kippur, to ensure purity and preparation."
-    },
-    {
-     "he": "מְזוּזָה",
-     "translit": "Mezuza",
-     "definition": "The parchment scroll containing Shema passages affixed to doorposts of Jewish homes; obligatory for a 'dwelling' that meets halakhic criteria."
-    },
-    {
-     "he": "דִּירַת כֶּבֶד",
-     "translit": "Dirat Kavod",
-     "definition": "Dignified or honorable residence; a halakhic concept relevant to determining whether a space triggers mezuza and other dwelling-related obligations."
-    }
    ],
    "conceptRefs": [],
    "requiresUnderstanding": [

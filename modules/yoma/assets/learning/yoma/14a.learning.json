@@ -115,16 +115,6 @@
     "context-sensitivity",
     "Yom Kippur"
    ],
-   "concepts": [
-    {
-     "term": "gezeira shema yokhal",
-     "def": "A rabbinic decree lest he eat - the preventive measure that keeps the onen KG from serving on regular days, applied because of the realistic risk of accidentally eating kodshim when everyone else is eating."
-    },
-    {
-     "term": "itroda",
-     "def": "Distraction, mental preoccupation - even without full onen status, extreme emotional distraction can disqualify the KG from Yom Kippur service because it affects his concentration and fitness."
-    }
-   ],
    "conceptRefs": [
     "Yoma.14a.1",
     "Yoma.14a.2"
@@ -251,16 +241,6 @@
     "sequestration",
     "avodah",
     "mishna authorship"
-   ],
-   "concepts": [
-    {
-     "term": "shivat yamim",
-     "def": "Seven days - the pre-Yom Kippur sequestration period, during which the KG is isolated in the Parhedrin chamber to ensure he arrives at Yom Kippur in a state of purity."
-    },
-    {
-     "term": "meitev et ha-nerot",
-     "def": "Cleaning the menorah lamps (removing old wicks and ash); one of the daily Temple services the KG performs during his seven-day preparation."
-    }
    ],
    "conceptRefs": [
     "Yoma.14a.3"
@@ -504,20 +484,6 @@
     "paradox",
     "chok",
     "mishna authorship"
-   ],
-   "concepts": [
-    {
-     "term": "mei para",
-     "def": "Purification water - the water mixed with red heifer ashes used to purify those who became impure through contact with a corpse. It both purifies (the impure) and impurifies (the pure handlers)."
-    },
-    {
-     "term": "chok",
-     "def": "A divine decree without apparent logical explanation. Para aduma is the paradigmatic chok: its opposite effects (purifying/impurifying) transcend ordinary cause-and-effect."
-    },
-    {
-     "term": "al ha-tamei yitaher",
-     "def": "'On the impure, it purifies' - the verse from Numbers 19 about purification water. R. Akiva derives from the extra 'al' that it also impurifies the pure; the Sages interpret it as a scope limitation."
-    }
    ],
    "conceptRefs": [
     "Yoma.14a.4",

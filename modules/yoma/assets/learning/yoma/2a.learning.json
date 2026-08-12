@@ -98,30 +98,6 @@
           ]
         }
       ],
-      "concepts": {
-        "people": [
-          "person.kohen_gadol",
-          "person.rabbi_yehuda"
-        ],
-        "places": [
-          "place.lishkat_parhedrin"
-        ],
-        "objects": [],
-        "halacha": [
-          "concept.pesul_kehuna",
-          "concept.beit_as_wife"
-        ],
-        "reasoning": [
-          "concept.infinite_regress",
-          "concept.ein_la_davar_sof"
-        ],
-        "keyTerms": [
-          "Parhedrin",
-          "pesul",
-          "beit - his house as wife",
-          "ein la'davar sof"
-        ]
-      },
       "conceptRefs": [
         {
           "id": "person.kohen_gadol",
@@ -293,33 +269,6 @@
           ]
         }
       ],
-      "concepts": {
-        "people": [
-          "person.kohen_gadol"
-        ],
-        "places": [
-          "place.lishkat_beit_ha_even",
-          "place.temple_mount_northeast"
-        ],
-        "objects": [
-          "object.kelei_avanim",
-          "object.kelei_adama",
-          "object.kelei_glalim"
-        ],
-        "halacha": [
-          "concept.parah_adumah",
-          "concept.tumat_kelim"
-        ],
-        "reasoning": [
-          "concept.parallel_derivation"
-        ],
-        "keyTerms": [
-          "Lishkat Beit HaEven",
-          "kelei glalim - dung vessels",
-          "kelei avanim - stone vessels",
-          "kelei adama - earth vessels"
-        ]
-      },
       "conceptRefs": [
         {
           "id": "concept.parah_adumah",
@@ -484,32 +433,6 @@
           ]
         }
       ],
-      "concepts": {
-        "people": [
-          "group.sadducees",
-          "group.pharisees"
-        ],
-        "places": [],
-        "objects": [
-          "object.kelei_avanim",
-          "object.kelei_adama"
-        ],
-        "halacha": [
-          "concept.tvul_yom",
-          "concept.haarev_shemesh",
-          "concept.parah_adumah"
-        ],
-        "reasoning": [
-          "concept.public_demonstration",
-          "concept.secondary_safeguard"
-        ],
-        "keyTerms": [
-          "tvul yom",
-          "haarev shemesh",
-          "Sadducees (Tziddukim)",
-          "zilzul - contempt"
-        ]
-      },
       "conceptRefs": [
         {
           "id": "concept.tvul_yom",
@@ -678,29 +601,6 @@
           ]
         }
       ],
-      "concepts": {
-        "people": [],
-        "places": [
-          "place.temple_mount_northeast",
-          "place.ohel_moed"
-        ],
-        "objects": [],
-        "halacha": [
-          "concept.chatat",
-          "concept.parah_adumah",
-          "concept.tzafon_requirement"
-        ],
-        "reasoning": [
-          "concept.heikher",
-          "concept.spatial_encoding"
-        ],
-        "keyTerms": [
-          "chatat - sin-offering",
-          "tzafon - north",
-          "el nokach pnei Ohel Moed - before the Tent of Meeting entrance",
-          "heikher - distinctive indicator"
-        ]
-      },
       "conceptRefs": [
         {
           "id": "concept.chatat",
@@ -865,27 +765,6 @@
           ]
         }
       ],
-      "concepts": {
-        "people": [
-          "person.rabbi_yochanan",
-          "person.reish_lakish",
-          "person.rabba_bar_bar_chana"
-        ],
-        "places": [
-          "place.temple_mount",
-          "place.bira"
-        ],
-        "objects": [],
-        "halacha": [],
-        "reasoning": [
-          "concept.lexical_analysis"
-        ],
-        "keyTerms": [
-          "bira - palace/citadel",
-          "Temple Mount (Har HaBayit)",
-          "I Chronicles 29:19"
-        ]
-      },
       "conceptRefs": [
         {
           "id": "person.rabbi_yochanan",
@@ -1073,33 +952,6 @@
           ]
         }
       ],
-      "concepts": {
-        "people": [
-          "person.rabbi_yochanan",
-          "person.rav_minyomi_bar_chilkiya"
-        ],
-        "places": [],
-        "objects": [],
-        "halacha": [
-          "concept.miluyim",
-          "concept.gezerah_shavah",
-          "concept.parah_adumah"
-        ],
-        "reasoning": [
-          "concept.gezerah_shavah",
-          "concept.elimination",
-          "concept.textual_split"
-        ],
-        "keyTerms": [
-          "gezerah shavah",
-          "tzivah - He commanded",
-          "milu'im - inauguration",
-          "la'asot - to do",
-          "lechaper - to atone",
-          "Lev 8:34",
-          "Num 19:2"
-        ]
-      },
       "conceptRefs": [
         {
           "id": "concept.gezerah_shavah",

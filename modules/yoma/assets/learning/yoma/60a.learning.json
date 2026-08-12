@@ -135,21 +135,6 @@
     "mikveh",
     "HP purity"
    ],
-   "concepts": {
-    "halachic": [
-     "immersion at each garment change",
-     "ten-fold purification",
-     "highest purity standard"
-    ],
-    "theological": [
-     "the body as sacred instrument requiring constant maintenance",
-     "purity as prerequisite for transition"
-    ],
-    "narrative": [
-     "Yom Kippur ritual structure",
-     "HP's purification"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Knowing there are multiple garment changes throughout the day",
@@ -298,20 +283,6 @@
     "dispute",
     "immersion validity"
    ],
-   "concepts": {
-    "halachic": [
-     "type of water for HP's immersion",
-     "kiyor vs. regular mikveh"
-    ],
-    "theological": [
-     "Temple-specific vs. general purity",
-     "what makes the HP's immersion special"
-    ],
-    "narrative": [
-     "halachic dispute",
-     "purity sources"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Knowing what the kiyor is (the laver in the Temple court)",

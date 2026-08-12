@@ -75,14 +75,6 @@
     "Temple history",
     "aggadah"
    ],
-   "concepts": {
-    "halachic": [],
-    "theological": [
-     "divine withdrawal",
-     "era of decline"
-    ],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [],
    "misconceptions": [
@@ -276,19 +268,6 @@
     "crimson thread",
     "Yom Kippur"
    ],
-   "concepts": {
-    "halachic": [
-     "crimson thread timing",
-     "Azazel goat signs"
-    ],
-    "theological": [
-     "signs of atonement",
-     "divine acceptance"
-    ],
-    "narrative": [
-     "Shimon HaTzaddik's death foretold"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "lashon shel zehorit (crimson thread)",
@@ -431,16 +410,6 @@
     "two goats",
     "omens"
    ],
-   "concepts": {
-    "halachic": [
-     "lot placement on goat's head",
-     "verbal designation"
-    ],
-    "theological": [
-     "right vs left lot as divine oracle"
-    ],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "kappara (atonement)",
@@ -636,17 +605,6 @@
     "lot ceremony",
     "lot validity"
    ],
-   "concepts": {
-    "halachic": [
-     "lot drawing procedure",
-     "right vs left validity",
-     "lot transfer"
-    ],
-    "theological": [
-     "right-hand lot as omen"
-    ],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Yom Kippur lot (goral)",

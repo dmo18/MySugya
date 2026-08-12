@@ -57,14 +57,6 @@
     "Temple improvements",
     "laver"
    ],
-   "concepts": {
-    "halachic": [
-     "laver water validity",
-     "bid'ot sakinin"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "laver (kiyor)",
@@ -170,16 +162,6 @@
     "historical narrative",
     "miracles"
    ],
-   "concepts": {
-    "halachic": [],
-    "theological": [
-     "miraculous arrival of Nicanor's gate"
-    ],
-    "narrative": [
-     "Queen Helene's menorah",
-     "Nicanor's sea miracle"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [],
    "misconceptions": [
@@ -300,16 +282,6 @@
     "writing styles",
     "historical precedent"
    ],
-   "concepts": {
-    "halachic": [
-     "get written in seirugim",
-     "writing requirement"
-    ],
-    "theological": [],
-    "narrative": [
-     "Queen Helene's tablet"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "get (bill of divorce)",

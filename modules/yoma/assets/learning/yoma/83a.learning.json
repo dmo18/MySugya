@@ -57,18 +57,6 @@
     "yetzer hara",
     "womb"
    ],
-   "concepts": {
-    "halachic": [
-     "evil inclination",
-     "R. Yochanan"
-    ],
-    "theological": [
-     "Evil inclination from the womb: the Torah acknowledges that the struggle with si"
-    ],
-    "narrative": [
-     "'The wicked estranged from the womb': R. Yochanan on innate "
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of evil inclination context",
@@ -177,18 +165,6 @@
     "expert judgment",
     "physician"
    ],
-   "concepts": {
-    "halachic": [
-     "ill person",
-     "YK"
-    ],
-    "theological": [
-     "Expert judgment for the ill on YK: we trust medicine. The physician's assessment"
-    ],
-    "narrative": [
-     "An ill person fed on YK by expert judgment"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of ill person context",
@@ -392,18 +368,6 @@
     "expert opinion",
     "YK feeding"
    ],
-   "concepts": {
-    "halachic": [
-     "ill person",
-     "patient request"
-    ],
-    "theological": [
-     "Patient's own request vs. expert opinion: the more lenient standard wins. If eit"
-    ],
-    "narrative": [
-     "If an ill person needs to eat: feed on expert opinion or on "
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of ill person context",
@@ -551,18 +515,6 @@
     "YK override",
     "Mishna"
    ],
-   "concepts": {
-    "halachic": [
-     "bulmos",
-     "hunger frenzy"
-    ],
-    "theological": [
-     "Bulmos and non-kosher food: the hierarchy of prohibitions is clear - life comes "
-    ],
-    "narrative": [
-     "Mishna: one seized with hungry frenzy (bulmos) - feed even n"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of bulmos context",
@@ -690,18 +642,6 @@
     "non-kosher",
     "pikuach nefesh"
    ],
-   "concepts": {
-    "halachic": [
-     "bulmos",
-     "treatment"
-    ],
-    "theological": [
-     "What to give someone with bulmos: the fastest, most effective remedy wins, even "
-    ],
-    "narrative": [
-     "The Sages' ruling about bulmos: what to feed and why non-kos"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of bulmos context",

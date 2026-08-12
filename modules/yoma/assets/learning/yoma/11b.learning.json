@@ -109,18 +109,6 @@
     "kavod",
     "R. Yehuda refutation"
    ],
-   "concepts": [
-    {
-     "he": "דִּירַת כָּבוֹד",
-     "translit": "Dirat kavod",
-     "definition": "A dwelling of honor - one of the positive conditions for mezuza obligation. Structures used for undignified purposes (bathrooms, tanneries) fail this test and are exempt even if people are regularly present."
-    },
-    {
-     "he": "בֵּית שַׁעַר",
-     "translit": "Beit sha'ar",
-     "definition": "Gatehouse - a small structure at the entrance to a courtyard. Exempt from mezuza because it is a passageway, not a dwelling, even though people regularly pass through it."
-    }
-   ],
    "conceptRefs": [],
    "requiresUnderstanding": [
     "The three conditions for mezuza obligation: dwelling, honor, mundane residential",
@@ -257,18 +245,6 @@
     "Median gate",
     "chokkein lehashlem",
     "R. Meir"
-   ],
-   "concepts": [
-    {
-     "he": "חוֹקְקִין לְהַשְׁלִים",
-     "translit": "Chokkein lehashlem",
-     "definition": "Theoretical completion - R. Meir's principle that if a space could be carved or enlarged to meet a minimum measurement, treat it as if it already meets that measurement. The Rabbis reject this principle."
-    },
-    {
-     "he": "שַׁעַר הַמָּדִי",
-     "translit": "Sha'ar haMadi",
-     "definition": "The Median gate - a domed arch style of entry (common in Media/Persia) that has no proper doorposts. Its mezuza status is disputed because it lacks the rectangular frame that normally holds a mezuza."
-    }
    ],
    "conceptRefs": [],
    "requiresUnderstanding": [
@@ -445,18 +421,6 @@
     "woman's house",
     "partners' house"
    ],
-   "concepts": [
-    {
-     "he": "נֶגַע בָּתִּים",
-     "translit": "Nega batim",
-     "definition": "House-plague (tzaraat of a building) - the divine affliction described in Leviticus 14 that can appear on the walls of a house, obligating an inspection and potentially demolition. Subject to a personal-ownership requirement similar to mezuza."
-    },
-    {
-     "he": "בֵּית הַכְּנֶסֶת",
-     "translit": "Beit hakenesset",
-     "definition": "Synagogue - a communal house of prayer. Subject to mezuza and tzaraat when a caretaker's personal residence is attached to it, giving the structure a 'personal owner' in the halakhic sense."
-    }
-   ],
    "conceptRefs": [],
    "requiresUnderstanding": [
     "The basic laws of tzaraat (house-plague) from Leviticus 14",
@@ -618,18 +582,6 @@
     "contradiction resolution",
     "caretaker",
     "R. Meir"
-   ],
-   "concepts": [
-    {
-     "he": "חַזָּן",
-     "translit": "Chazzan",
-     "definition": "Synagogue caretaker/sexton - in Talmudic usage, the person who maintained the synagogue and often lived on the premises. His residence transforms the synagogue's legal character for both mezuza and tzaraat purposes."
-    },
-    {
-     "he": "בֵּית עוֹלָם",
-     "translit": "Beit olam",
-     "definition": "Eternal house - one of the euphemisms the Gemara uses for structures that are not personal residences but are designated for long-term communal use. Relevant to the question of whether such structures can be 'his house' for tzaraat."
-    }
    ],
    "conceptRefs": [],
    "requiresUnderstanding": [

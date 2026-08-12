@@ -77,15 +77,6 @@
     "paz gold",
     "Temple vessels"
    ],
-   "concepts": {
-    "halachic": [
-     "gold quality for Temple vessels"
-    ],
-    "theological": [],
-    "narrative": [
-     "five gold types taxonomy"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Temple vessel materials",
@@ -174,13 +165,6 @@
     "daily service",
     "Yom Kippur contrast"
    ],
-   "concepts": {
-    "halachic": [
-     "incense quantity daily vs Yom Kippur"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "incense service laws",
@@ -267,13 +251,6 @@
     "High Priest",
     "ordinary priests"
    ],
-   "concepts": {
-    "halachic": [
-     "ramp path for High Priest on Yom Kippur"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "altar ramp geometry",
@@ -359,13 +336,6 @@
     "altar",
     "daily service"
    ],
-   "concepts": {
-    "halachic": [
-     "four wood arrangements on altar"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "altar fire laws",
@@ -452,13 +422,6 @@
     "laver",
     "Yom Kippur"
    ],
-   "concepts": {
-    "halachic": [
-     "golden pitcher for Yom Kippur sanctification"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "hand-foot sanctification laws",
@@ -656,14 +619,6 @@
     "R. Yehuda",
     "Yom Kippur coals"
    ],
-   "concepts": {
-    "halachic": [
-     "four vs five wood arrangements",
-     "Yom Kippur coal source"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "altar fire laws",

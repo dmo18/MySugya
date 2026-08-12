@@ -78,13 +78,6 @@
     "garment",
     "dilemma"
    ],
-   "concepts": {
-    "halachic": [
-     "kometz validity when stuck to pan or garment"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "kometz laws",
@@ -173,13 +166,6 @@
     "biblical requirements",
     "stringency"
    ],
-   "concepts": {
-    "halachic": [
-     "rabbinic vs biblical kometz requirements"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "kometz laws",
@@ -326,13 +312,6 @@
     "Zevahim",
     "categories"
    ],
-   "concepts": {
-    "halachic": [
-     "floor contact invalidation - applies to blood not to kometz"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "kometz laws",
@@ -420,13 +399,6 @@
     "pile",
     "dilemma"
    ],
-   "concepts": {
-    "halachic": [
-     "kometz from excess pile"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "kometz laws"
@@ -553,15 +525,6 @@
     "invalidating thoughts",
     "Temple service"
    ],
-   "concepts": {
-    "halachic": [
-     "wrong intent invalidates kometz"
-    ],
-    "theological": [
-     "intent in Temple service"
-    ],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "kavvanah in Temple service",

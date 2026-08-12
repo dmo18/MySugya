@@ -101,12 +101,6 @@
     "Temple layout",
     "Tractate Middot"
    ],
-   "concepts": [
-    {
-     "term": "kol piyot",
-     "def": "'All turns' - the rule that during Temple service all priestly turns are to the right (clockwise). This applies to movement during rituals, not to abstract descriptions of Temple layout."
-    }
-   ],
    "conceptRefs": [
     "Yoma.17b.1",
     "Yoma.17b.2"
@@ -288,12 +282,6 @@
     "Abaye",
     "priestly distribution",
     "Shavuot loaves"
-   ],
-   "concepts": [
-    {
-     "term": "chalot",
-     "def": "The two leavened loaves brought as a communal offering on Shavuot (Leviticus 23:17). They were divided between the kohanim. When Shavuot fell near a Shabbat, they affected the Shewbread distribution count."
-    }
    ],
    "conceptRefs": [
     "Yoma.17b.3",

@@ -129,14 +129,6 @@
     "KG bull confession",
     "tannaic dispute"
    ],
-   "concepts": {
-    "halachic": [
-     "bull location for confession",
-     "blood sprinkling location"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Temple spatial layout",
@@ -278,14 +270,6 @@
     "KG bull confession",
     "Temple positioning"
    ],
-   "concepts": {
-    "halachic": [
-     "bull positioning",
-     "KG stance for semicha"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "semicha (hand-pressing)",

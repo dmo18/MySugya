@@ -147,37 +147,6 @@
      ]
     }
    ],
-   "concepts": {
-    "people": [
-     "person.rabbi_yochanan",
-     "person.reish_lakish",
-     "person.rabbi_chiyya"
-    ],
-    "places": [
-     "place.mount_sinai",
-     "place.mishkan"
-    ],
-    "objects": [
-     "object.mei_chatat",
-     "object.dam_milluim"
-    ],
-    "halacha": [
-     "concept.maaleh_bealma",
-     "concept.niknas_mayim_tachat_dam",
-     "concept.hazaah"
-    ],
-    "reasoning": [
-     "concept.medium_substitution",
-     "concept.symmetrical_challenge",
-     "concept.resource_based_resolution"
-    ],
-    "keyTerms": [
-     "hazaah",
-     "maaleh_bealma",
-     "niknas_mayim_tachat_dam",
-     "dam_milluim"
-    ]
-   },
    "conceptRefs": [
     {
      "id": "person.rabbi_yochanan",
@@ -480,42 +449,6 @@
      ]
     }
    ],
-   "concepts": {
-    "people": [
-     "person.rabbi_yochanan",
-     "person.reish_lakish",
-     "person.moses",
-     "person.aaron",
-     "person.rabbi_yosi_hagalili",
-     "person.rabbi_akiva"
-    ],
-    "places": [
-     "place.lishkat_parhedrin",
-     "place.holy_of_holies",
-     "place.mount_sinai"
-    ],
-    "objects": [
-     "object.bezot_feminine",
-     "object.anan_cloud"
-    ],
-    "halacha": [
-     "concept.two_scholars_train_kg",
-     "concept.sadducees_excluded",
-     "concept.l_dorot_for_all_generations"
-    ],
-    "reasoning": [
-     "concept.grammatical_surplus",
-     "concept.closing_loophole_second_verse",
-     "concept.parallel_institutional_roles"
-    ],
-    "keyTerms": [
-     "bezot",
-     "ladorot",
-     "tzedukim",
-     "machaneh_shechina",
-     "shiva_yamim"
-    ]
-   },
    "conceptRefs": [
     {
      "id": "person.rabbi_yochanan",

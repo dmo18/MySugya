@@ -64,16 +64,6 @@
     "avodah",
     "analogy"
    ],
-   "concepts": [
-    {
-     "term": "avodato m'chanakhto",
-     "def": "Service itself inaugurates - performing a priestly function is the rite of initiation, no separate ceremony needed."
-    },
-    {
-     "term": "mishchatam m'kadshatan",
-     "def": "Their anointing consecrates them - the first-generation method of consecrating Temple vessels via oil."
-    }
-   ],
    "conceptRefs": [
     "Yoma.12b.1"
    ],
@@ -272,20 +262,6 @@
     "dispute",
     "tradition"
    ],
-   "concepts": [
-    {
-     "term": "kilayim",
-     "def": "A forbidden mixture - specifically wool and linen woven together (sha'atnez). Permitted only for Temple priestly garments."
-    },
-    {
-     "term": "buz",
-     "def": "Fine linen; the material of the KG's four Yom Kippur garments and (per Rabbi Elazar b'Rabbi Shimon) the common priest's belt."
-    },
-    {
-     "term": "avnet",
-     "def": "The priestly belt; its material differs between KG and common priest, and between Yom Kippur and the rest of the year - the focus of this dispute."
-    }
-   ],
    "conceptRefs": [
     "Yoma.12b.2",
     "Yoma.12b.8"
@@ -453,16 +429,6 @@
     "appointment",
     "status",
     "tragedy"
-   ],
-   "concepts": [
-    {
-     "term": "kvodin shel kehuna gedola",
-     "def": "The obligations of the KG - cannot marry a widow, cannot become impure for relatives, must serve on Yom Kippur. R. Meir says the replacement retains these even when the original recovers."
-    },
-    {
-     "term": "ein moridim m'gedula",
-     "def": "We do not demote someone from a higher sacred office - once appointed KG, you cannot step down to common priesthood, creating the suspended status in R. Yosei's ruling."
-    }
    ],
    "conceptRefs": [
     "Yoma.12b.11",

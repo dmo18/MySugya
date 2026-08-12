@@ -115,18 +115,6 @@
         "parhedrin",
         "maaser-sheni"
       ],
-      "concepts": [
-        {
-          "term": "Dema'i",
-          "he": "דְּמַאי",
-          "definition": "Produce from an am ha'aretz with uncertain tithe status. The Rabbis required partial separation (trumat maaser, challah) but assumed trumah gedolah had already been taken and were lenient on some other tithes."
-        },
-        {
-          "term": "Hamotzi m'chaveiro alav hara'ayah",
-          "he": "הַמּוֹצִיא מֵחֲבֵרוֹ עָלָיו הָרְאָיָה",
-          "definition": "The one who seeks to extract from another bears the burden of proof. Applied here: the Levi or poor man claiming maaser must prove the baker did not already separate it."
-        }
-      ],
       "conceptRefs": [
         "dema'i",
         "burden-of-proof",
@@ -274,18 +262,6 @@
         "bizayon-kodashim",
         "Eli",
         "aggadah"
-      ],
-      "concepts": [
-        {
-          "term": "Bizayon kodashim",
-          "he": "בִּזָּיוֹן קֳדָשִׁים",
-          "definition": "Degradation of sacred offerings - a sin attributed to Eli's sons who would take raw meat before the fat was burned, mishandling the korbanot."
-        },
-        {
-          "term": "Giluy arayot",
-          "he": "גִּלּוּי עֲרָיוֹת",
-          "definition": "Forbidden sexual relations - one of the three cardinal sins. Attributed to Eli's sons (in the surface reading); rehabilitated by R. Shmuel bar Nachmani as meaning the delay of women's bird-offerings."
-        }
       ],
       "conceptRefs": [
         "Temple-destruction",
@@ -443,13 +419,6 @@
         "bizayon-kodashim",
         "Temple-destruction",
         "rehabilitation"
-      ],
-      "concepts": [
-        {
-          "term": "Kanim",
-          "he": "קִינִּים",
-          "definition": "Bird-offerings (pairs of doves or pigeons) brought by women after childbirth or bodily flux. Eli's sons delayed processing them, keeping women impure and separated from their husbands."
-        }
       ],
       "conceptRefs": [
         "Shiloh-destruction",

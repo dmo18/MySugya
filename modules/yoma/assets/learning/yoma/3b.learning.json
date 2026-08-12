@@ -121,34 +121,6 @@
      ]
     }
    ],
-   "concepts": {
-    "people": [
-     "person.rabbi_yoshiya",
-     "person.rabbi_yonatan",
-     "person.abba_chanan",
-     "person.rabbi_elazar"
-    ],
-    "places": [],
-    "objects": [
-     "object.aron_habrit"
-    ],
-    "halacha": [
-     "concept.kach_lecha",
-     "concept.mishe_lecha",
-     "concept.communal_vs_personal_offering"
-    ],
-    "reasoning": [
-     "concept.internal_textual_proof",
-     "concept.contextual_reading",
-     "concept.explicit_contrast"
-    ],
-    "keyTerms": [
-     "kach_lecha",
-     "aseh_lecha",
-     "kiveychol",
-     "bishe_lecha"
-    ]
-   },
    "conceptRefs": [
     {
      "id": "person.rabbi_yoshiya",
@@ -345,35 +317,6 @@
      ]
     }
    ],
-   "concepts": {
-    "people": [
-     "person.rav_ashi",
-     "person.ravina"
-    ],
-    "places": [
-     "place.holy_of_holies"
-    ],
-    "objects": [
-     "object.par_chatat",
-     "object.ayil_olah"
-    ],
-    "halacha": [
-     "concept.offering_profile",
-     "concept.kohen_gadol_service",
-     "concept.inaugural_service"
-    ],
-    "reasoning": [
-     "concept.converging_arguments",
-     "concept.structural_exclusion",
-     "concept.functional_restriction"
-    ],
-    "keyTerms": [
-     "par_chatat",
-     "ayil_olah",
-     "avodah_beko_gadol",
-     "techila_bamakom"
-    ]
-   },
    "conceptRefs": [
     {
      "id": "person.rav_ashi",
@@ -576,32 +519,6 @@
      ]
     }
    ],
-   "concepts": {
-    "people": [
-     "person.rabbi_yochanan",
-     "person.rabbi_yehoshua_ben_levi",
-     "person.rav_dimi",
-     "person.rav_avin"
-    ],
-    "places": [],
-    "objects": [],
-    "halacha": [
-     "concept.maaleh_bealma",
-     "concept.seven_day_separation",
-     "concept.parah_adumah"
-    ],
-    "reasoning": [
-     "concept.transmission_chain",
-     "concept.rabbinic_vs_torah",
-     "concept.attribution_in_name_of"
-    ],
-    "keyTerms": [
-     "maaleh_bealma",
-     "tanya_kevoteih",
-     "ba_mitana",
-     "rabbi_yishmael"
-    ]
-   },
    "conceptRefs": [
     {
      "id": "person.rabbi_yochanan",
@@ -816,33 +733,6 @@
      ]
     }
    ],
-   "concepts": {
-    "people": [
-     "person.reish_lakish",
-     "person.rabbi_yochanan",
-     "person.rabbi_yehuda_ben_beteira"
-    ],
-    "places": [
-     "place.mount_sinai"
-    ],
-    "objects": [],
-    "halacha": [
-     "concept.seven_day_separation",
-     "concept.sinai_paradigm",
-     "concept.indispensability"
-    ],
-    "reasoning": [
-     "concept.derivation_overspecification",
-     "concept.lexical_precision",
-     "concept.general_principle_derivation"
-    ],
-    "keyTerms": [
-     "matkin",
-     "mafrishin",
-     "machaneh_shechina",
-     "prisha_shisha"
-    ]
-   },
    "conceptRefs": [
     {
      "id": "person.reish_lakish",

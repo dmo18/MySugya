@@ -99,16 +99,6 @@
     "tzarah",
     "halacha"
    ],
-   "concepts": [
-    {
-     "term": "tzarah",
-     "def": "Literally 'rival' or 'trouble' - a co-wife in a polygamous household. Used here as an analogy for the replacement KG's relationship to the original, which Rav rejects."
-    },
-    {
-     "term": "avodato kesheira",
-     "def": "His service is valid - even if the suspended replacement served in violation of the ruling, the Temple service itself is not retroactively invalidated."
-    }
-   ],
    "conceptRefs": [
     "Yoma.13a.1",
     "Yoma.13a.2"
@@ -275,16 +265,6 @@
     "backup preparation",
     "wife",
     "preventability"
-   ],
-   "concepts": [
-    {
-     "term": "zariz hu",
-     "def": "He is diligent - the KG's vigilance about ritual purity makes impurity a preventable risk, justifying the preparation of a backup priest. Death, by contrast, cannot be prevented by diligence."
-    },
-    {
-     "term": "bayto",
-     "def": "His house - the Torah's requirement (Leviticus 16) that the KG have a 'house' (i.e., a wife) on Yom Kippur. This is the basis for R. Yehuda's backup wife concern."
-    }
    ],
    "conceptRefs": [
     "Yoma.13a.3",
@@ -504,20 +484,6 @@
     "kehuna gedola",
     "wife",
     "keritut"
-   ],
-   "concepts": [
-    {
-     "term": "get al tenai",
-     "def": "A conditional bill of divorce - the divorce takes effect only if a specified condition is met or not met. The complex Talmudic rules about retroactivity and timing are at stake here."
-    },
-    {
-     "term": "keritut",
-     "def": "Severance - the Torah requires a get to be a complete severing of the marital bond. Any divorce formula that leaves the wife continuously 'tied' to the husband through a condition fails this requirement."
-    },
-    {
-     "term": "bayto",
-     "def": "His house - in the context of the KG's Yom Kippur service, requires having exactly one wife. Having no wife or two wives at the moment of service violates this requirement."
-    }
    ],
    "conceptRefs": [
     "Yoma.13a.6",

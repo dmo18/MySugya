@@ -90,18 +90,6 @@
     "Nicanor Gate",
     "R. Yehuda"
    ],
-   "concepts": [
-    {
-     "he": "גְּזֵירָה לִגְזֵירָה",
-     "translit": "Gezeira ligzeira",
-     "definition": "A decree to protect a decree - ordinarily prohibited in rabbinic legislation, since stacking decrees leads to unintended expansion of obligations."
-    },
-    {
-     "he": "שַׁעַר נִיקָנוֹר",
-     "translit": "Sha'ar Nikanor",
-     "definition": "The Nicanor Gate - the eastern gate of the Temple courtyard, named after Nikanor of Alexandria who donated its copper doors. The only Temple gate with a mezuza, because caretakers resided in its chambers."
-    }
-   ],
    "conceptRefs": [],
    "requiresUnderstanding": [
     "The prohibition on gezeira ligzeira (stacking rabbinic decrees)",
@@ -256,18 +244,6 @@
     "Machoza",
     "shluchei mitzva",
     "danger"
-   ],
-   "concepts": [
-    {
-     "he": "שְׁלוּחֵי מִצְוָה אֵינָן נִזּוֹקִין",
-     "translit": "Shluchei mitzva einan nizzokin",
-     "definition": "Agents performing a mitzva are not harmed - a general principle of divine protection for those fulfilling commandments, which applies only to unpredictable supernatural danger, not to fixed human-imposed consequences."
-    },
-    {
-     "he": "אָבוּלֵי",
-     "translit": "Abulei",
-     "definition": "City gates (from Greek 'abile') - the large gates of a walled city that require a mezuza when people reside within the walls."
-    }
    ],
    "conceptRefs": [],
    "requiresUnderstanding": [
@@ -475,18 +451,6 @@
     "Rav Kahana",
     "Rav Yehuda",
     "domestic use"
-   ],
-   "concepts": [
-    {
-     "he": "נָשִׁים נְעוֹתוֹת בָּהֶן",
-     "translit": "Nashim ne'otot bahen",
-     "definition": "Women frequent them - the criterion used to determine whether a storehouse has residential/domestic character. The same phrase is interpreted differently by Rav Kahana (women draw wine = domestic) and Rav Yehuda (women bring wine commercially = not domestic)."
-    },
-    {
-     "he": "בֵּית הָאוֹצָר",
-     "translit": "Beit ha'otsar",
-     "definition": "Storehouse - one of the non-obvious structures whose mezuza status depends on whether its use has domestic character (people regularly access it for household needs) rather than purely commercial or animal-serving purposes."
-    }
    ],
    "conceptRefs": [],
    "requiresUnderstanding": [

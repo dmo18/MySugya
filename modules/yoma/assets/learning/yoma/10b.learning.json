@@ -133,18 +133,6 @@
     "dirat anusim",
     "contradiction resolution"
    ],
-   "concepts": [
-    {
-     "he": "דִּירַת קֶבַע",
-     "translit": "Dirat Keva",
-     "definition": "Permanent-style dwelling; the threshold R. Yehuda requires for sukka, which also triggers mezuza obligation."
-    },
-    {
-     "he": "דִּירַת אֲנוּסִים",
-     "translit": "Dirat Anusim",
-     "definition": "Coerced residence; a dwelling occupied under compulsion. According to R. Yehuda, this does not create a mezuza obligation because it lacks the voluntary character of true 'dwelling.'"
-    }
-   ],
    "conceptRefs": [],
    "requiresUnderstanding": [
     "R. Yehuda's sukka requirement for permanent structure",
@@ -263,18 +251,6 @@
     "Temple gates",
     "tanna attribution",
     "baraita"
-   ],
-   "concepts": [
-    {
-     "he": "תַּנָּא",
-     "translit": "Tanna",
-     "definition": "A Mishnaic-era Sage whose opinions are recorded in the Mishnah and Baraitot; identifying which tanna holds an anonymous position is a standard Talmudic exercise."
-    },
-    {
-     "he": "בַּרַיְיתָא",
-     "translit": "Baraita",
-     "definition": "A teaching from the Tannaitic era not included in the Mishnah; often cited in the Gemara to support or challenge arguments."
-    }
    ],
    "conceptRefs": [],
    "requiresUnderstanding": [

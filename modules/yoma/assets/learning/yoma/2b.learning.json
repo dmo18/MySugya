@@ -110,26 +110,6 @@
      ]
     }
    ],
-   "concepts": {
-    "people": [],
-    "places": [],
-    "objects": [],
-    "halacha": [
-     "concept.gezera_shavah",
-     "concept.yom_kippur_service",
-     "concept.parah_adumah"
-    ],
-    "reasoning": [
-     "concept.before_vs_after",
-     "concept.functional_equivalence",
-     "concept.identical_form_requirement"
-    ],
-    "keyTerms": [
-     "gezera_shavah",
-     "tzivah",
-     "lifnei_asiyah"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [],
    "misconceptions": [
@@ -266,26 +246,6 @@
      ]
     }
    ],
-   "concepts": {
-    "people": [
-     "group.tana_debei_yishmael"
-    ],
-    "places": [],
-    "objects": [],
-    "halacha": [
-     "concept.gezera_shavah"
-    ],
-    "reasoning": [
-     "concept.hierarchy_of_analogy",
-     "concept.identical_form_priority",
-     "concept.fallback_rule"
-    ],
-    "keyTerms": [
-     "gezera_shavah",
-     "tana_debei_yishmael",
-     "priority_of_identical_forms"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "yoma-002b-s01"
@@ -488,31 +448,6 @@
      ]
     }
    ],
-   "concepts": {
-    "people": [],
-    "places": [],
-    "objects": [
-     "object.tamid_sacrifice",
-     "object.korban_chagigah"
-    ],
-    "halacha": [
-     "concept.le_chaper",
-     "concept.korban_atonement",
-     "concept.regel_festival",
-     "concept.beit_av"
-    ],
-    "reasoning": [
-     "concept.fixed_time_criterion",
-     "concept.annual_frequency_criterion",
-     "concept.progressive_exclusion"
-    ],
-    "keyTerms": [
-     "le_chaper",
-     "davar_kavua_lo_zman",
-     "paam_achat_bashanah",
-     "beit_av"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "yoma-002b-s01"
@@ -651,27 +586,6 @@
      ]
     }
    ],
-   "concepts": {
-    "people": [],
-    "places": [],
-    "objects": [],
-    "halacha": [
-     "concept.regel_festival",
-     "concept.passover",
-     "concept.sukkot",
-     "concept.seven_day_festival"
-    ],
-    "reasoning": [
-     "concept.structural_matching",
-     "concept.seven_for_one",
-     "concept.service_duration_criterion"
-    ],
-    "keyTerms": [
-     "prisha_shivah_le_yom_echad",
-     "regel",
-     "structural_analogy"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "yoma-002b-s03"
@@ -854,30 +768,6 @@
      ]
     }
    ],
-   "concepts": {
-    "people": [
-     "person.rav_mesharshiyya",
-     "person.rav_ashi"
-    ],
-    "places": [],
-    "objects": [],
-    "halacha": [
-     "concept.shemini_atzeret",
-     "concept.sukkot",
-     "concept.kal_va_chomer"
-    ],
-    "reasoning": [
-     "concept.verse_blocks_kal_va_chomer",
-     "concept.kedusha_preceding",
-     "concept.corollary_cannot_exceed_primary"
-    ],
-    "keyTerms": [
-     "shemini_atzeret",
-     "kal_va_chomer",
-     "kedusha_lefanav",
-     "ha_zeh_katuv"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "yoma-002b-s04"

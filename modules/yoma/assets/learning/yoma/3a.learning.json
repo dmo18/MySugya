@@ -80,31 +80,6 @@
      ]
     }
    ],
-   "concepts": {
-    "people": [],
-    "places": [],
-    "objects": [
-     "object.korban_mussaf_shemini_atzeret"
-    ],
-    "halacha": [
-     "concept.shemini_atzeret",
-     "concept.sukkot",
-     "concept.tashlumin",
-     "concept.shehecheyanu"
-    ],
-    "reasoning": [
-     "concept.partial_independence",
-     "concept.domain_specific_independence",
-     "concept.mnemonic_enumeration"
-    ],
-    "keyTerms": [
-     "paze_r_kashe_v",
-     "shemini_atzeret",
-     "tashlumin",
-     "shehecheyanu",
-     "korban_mussaf"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [],
    "misconceptions": [
@@ -275,35 +250,6 @@
      ]
     }
    ],
-   "concepts": {
-    "people": [
-     "person.rabbi_abba",
-     "person.rabbi_eliezer_bar_rabbi_shimon"
-    ],
-    "places": [],
-    "objects": [
-     "object.korban_mussaf",
-     "object.par_va_ayil"
-    ],
-    "halacha": [
-     "concept.shavuot",
-     "concept.chovat_hayom",
-     "concept.korban_mussaf",
-     "concept.offering_profile"
-    ],
-    "reasoning": [
-     "concept.functional_matching",
-     "concept.quantity_vs_function",
-     "concept.structural_analogy"
-    ],
-    "keyTerms": [
-     "shavuot",
-     "chovat_hayom",
-     "mussaf",
-     "par_va_ayil",
-     "rabbi_eliezer_bar_rabbi_shimon"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "yoma-003a-s01"
@@ -472,33 +418,6 @@
      ]
     }
    ],
-   "concepts": {
-    "people": [
-     "person.rabbi_abbahu"
-    ],
-    "places": [],
-    "objects": [
-     "object.par_shelo",
-     "object.ayil_shelo"
-    ],
-    "halacha": [
-     "concept.rosh_hashana",
-     "concept.personal_property_offering",
-     "concept.communal_offering",
-     "concept.kach_lecha"
-    ],
-    "reasoning": [
-     "concept.property_source_criterion",
-     "concept.textual_phrase_analysis"
-    ],
-    "keyTerms": [
-     "rosh_hashana",
-     "kach_lecha",
-     "mishe_lecha",
-     "tzibur",
-     "par_shelo"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "yoma-003a-s02"

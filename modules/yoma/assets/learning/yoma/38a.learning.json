@@ -56,14 +56,6 @@
     "gittin",
     "writing halakha"
    ],
-   "concepts": {
-    "halachic": [
-     "get in seirugim",
-     "valid script styles"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "get validity requirements"
@@ -186,17 +178,6 @@
     "miracles",
     "historical narrative"
    ],
-   "concepts": {
-    "halachic": [],
-    "theological": [
-     "divine reward for devotion",
-     "miracle of Temple service"
-    ],
-    "narrative": [
-     "Nicanor's sea miracle",
-     "copper doors shining like gold"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [],
    "misconceptions": [
@@ -353,18 +334,6 @@
     "lechem hapanim",
     "temple knowledge"
    ],
-   "concepts": {
-    "halachic": [],
-    "theological": [
-     "withholding temple knowledge is shameful"
-    ],
-    "narrative": [
-     "Beth Garmu",
-     "Beth Avtinas",
-     "Hugras ben Levi",
-     "Ben Kamtsar"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "lechem hapanim (showbread)"
@@ -559,19 +528,6 @@
     "incense formula",
     "maaleh ashan"
    ],
-   "concepts": {
-    "halachic": [
-     "incense formula secrecy",
-     "maaleh ashan herb"
-    ],
-    "theological": [
-     "knowledge sharing in Temple service"
-    ],
-    "narrative": [
-     "Beth Avtinas in Alexandria",
-     "maaleh ashan discovery"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "ketoret (incense) formula"

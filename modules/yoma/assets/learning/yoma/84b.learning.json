@@ -77,18 +77,6 @@
     "death",
     "danger"
    ],
-   "concepts": {
-    "halachic": [
-     "tzefardea",
-     "proof"
-    ],
-    "theological": [
-     "Proof from a death: sometimes halachic status is confirmed by the worst outcome."
-    ],
-    "narrative": [
-     "Proof that tzefardea is dangerous (the Rabba bar Shela incid"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of tzefardea context",
@@ -235,18 +223,6 @@
     "not eating",
     "placement distinction"
    ],
-   "concepts": {
-    "halachic": [
-     "throat medicine",
-     "YK"
-    ],
-    "theological": [
-     "Medicine in the mouth but not swallowed: halachic categories are precise. The pr"
-    ],
-    "narrative": [
-     "Throat pain: medicine placed inside the mouth, not swallowed"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of throat medicine context",
@@ -412,18 +388,6 @@
     "YK override",
     "life-preservation mitzva"
    ],
-   "concepts": {
-    "halachic": [
-     "Tosefta",
-     "pikuach nefesh"
-    ],
-    "theological": [
-     "Pikuach nefesh as positive commandment: the Tosefta frames saving life not just "
-    ],
-    "narrative": [
-     "Tosefta: engaging in life-preserving activities on Yom Kippu"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of Tosefta context",
@@ -590,18 +554,6 @@
     "YK rulings",
     "danger"
    ],
-   "concepts": {
-    "halachic": [
-     "Shmuel",
-     "Rav Yehuda"
-    ],
-    "theological": [
-     "Shmuel's chain of rulings: the tradition of transmitting life-danger rulings car"
-    ],
-    "narrative": [
-     "Rav Yosef citing Rav Yehuda citing Shmuel: rulings on YK dan"
-    ]
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Background knowledge of Shmuel context",

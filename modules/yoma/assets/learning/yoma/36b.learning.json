@@ -111,14 +111,6 @@
     "nevelah",
     "tannaic dispute"
    ],
-   "concepts": {
-    "halachic": [
-     "nevelah in Temple precincts",
-     "bull location"
-    ],
-    "theological": [],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "nevelah prohibition",
@@ -278,18 +270,6 @@
     "confession formula",
     "Shem HaMeforash"
    ],
-   "concepts": {
-    "halachic": [
-     "viduy formula",
-     "triple sin categories",
-     "use of Shem HaMeforash"
-    ],
-    "theological": [
-     "confession theology",
-     "Shem HaMeforash"
-    ],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "chatati aviti pashati (sin categories)",
@@ -431,17 +411,6 @@
     "confession",
     "atonement theology"
    ],
-   "concepts": {
-    "halachic": [
-     "kaparat devarim",
-     "verbal atonement requirement"
-    ],
-    "theological": [
-     "atonement mechanism",
-     "role of confession"
-    ],
-    "narrative": []
-   },
    "conceptRefs": [],
    "requiresUnderstanding": [
     "Yom Kippur atonement",
