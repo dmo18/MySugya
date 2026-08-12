@@ -1,0 +1,2869 @@
+{
+ "schemaVersion": 1,
+ "generatedFrom": "docs/reports/data/yoma-tail-enrichment-audit.json",
+ "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+ "auditArtifactCommit": "63c673f1e1cb9cd67903823800d477294182e7fd",
+ "note": "Derived queue. The merged audit is historical evidence and is never rewritten; this queue's records, order and NOT_STARTED status placeholder are themselves IMMUTABLE (re-derived only from the frozen audit). Real repair progress lives separately in docs/reports/data/yoma-tail-enrichment-repair-progress.json. finalRuling exact-hint-copies are no longer contract-ambiguous: the finalRuling contract decision supersedes that STRUCTURAL_OR_SCHEMA_DECISION and makes them repairable defects.",
+ "orderingPolicy": [
+  "1. prerequisite contract/tooling and migrations (not queue rows)",
+  "2. yoma-082b-s01",
+  "3. yoma-087b-s03",
+  "4. yoma-080a-s01",
+  "5. yoma-080b-s03",
+  "6. remaining substantive records in daf order",
+  "7. minor semantic records",
+  "8. parent daf summaries after all sugyot on each daf are settled",
+  "9. finalRuling-only mechanical repairs after each underlying hint is confirmed"
+ ],
+ "totals": {
+  "queued": 82,
+  "bySemanticDisposition": {
+   "SUBSTANTIVE_REPAIR_NEEDED": 24,
+   "MINOR_EDIT_NEEDED": 9,
+   "VERIFIED": 49
+  },
+  "byMechanicalDisposition": {
+   "MINOR_EDIT_NEEDED": 53,
+   "STRUCTURAL_OR_SCHEMA_DECISION": 29
+  },
+  "withRemovedConceptsScheduledForPurge": 33,
+  "withMigrationPrerequisites": 33
+ },
+ "records": [
+  {
+   "daf": "82b",
+   "sugyaId": "yoma-082b-s01",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.hint",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.ahaMoment",
+    "learning.coreMove",
+    "learning.coreTension",
+    "learning.learnerQuestion",
+    "learning.learningBlocker",
+    "learning.memoryAnchor",
+    "learning.takeaway.text",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "hint-form",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source (yoma-082b-l01) is the sevara that one must accept death rather than commit murder: 'who says your blood is redder than his?' (the mari duray case before Rava). Every displa...",
+   "queuePosition": 1
+  },
+  {
+   "daf": "87b",
+   "sugyaId": "yoma-087b-s03",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source is the NE'ILA sugya (priestly blessing three/four times a year, whether ne'ila is a full Amida, Ulla bar Rav before Rava, ne'ila exempting ma'ariv). display describes 'Closi...",
+   "queuePosition": 2
+  },
+  {
+   "daf": "80a",
+   "sugyaId": "yoma-080a-s01",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source: 'All the measures in the Torah connected to eating are the volume of an OLIVE-bulk, except...'. display asserts all Torah eating measures are EGG-bulk - the opposite. argum...",
+   "queuePosition": 3
+  },
+  {
+   "daf": "80b",
+   "sugyaId": "yoma-080b-s03",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Reish Lakish rules that one who eats in an excessive manner (achila gassa) on Yom Kippur is EXEMPT. display asserts overeating 'creates liability even without swallowing'. argument...",
+   "queuePosition": 4
+  },
+  {
+   "daf": "77a",
+   "sugyaId": "yoma-077a-s01",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.hint",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.coreMove",
+    "learning.coreTension",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "hint-form",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source is the Ezekiel 8-9 aggada (image of jealousy, Michael pleading, Gabriel and the coals, Dubiel and the Persian angel). display/learning describe 'bathing prohibition derived...",
+   "queuePosition": 5
+  },
+  {
+   "daf": "77a",
+   "sugyaId": "yoma-077a-s03",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.hint",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.coreMove",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "hint-form",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source derives that going barefoot is affliction (Isaiah 20:2, Jeremiah 2:25). display/learning describe pleasure vs therapeutic anointing and Na'aman - the topic of a different su...",
+   "queuePosition": 6
+  },
+  {
+   "daf": "77a",
+   "sugyaId": "yoma-077a-s04",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.hint",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.coreMove",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "hint-form",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source derives that withholding conjugal relations is affliction. display/learning describe the sandal prohibition (the preceding sugya's subject). argumentFlow correct ('Deriving...",
+   "queuePosition": 7
+  },
+  {
+   "daf": "77b",
+   "sugyaId": "yoma-077b-s02",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.hint",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.coreMove",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "hint-form",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source is partial bathing/oiling, Rabban Shimon ben Gamliel on rinsing one hand, Shammai the Elder. display/learning describe marital relations as the fifth affliction. argumentFlo...",
+   "queuePosition": 8
+  },
+  {
+   "daf": "78a",
+   "sugyaId": "yoma-078a-s03",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.hint",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.coreMove",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "hint-form",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source is sitting on damp clay and cooling methods (Rabba's baby, Rava's silver cup, the pre-soaked cloth). display/learning describe a sick person wearing shoes. argumentFlow corr...",
+   "queuePosition": 9
+  },
+  {
+   "daf": "78b",
+   "sugyaId": "yoma-078b-s03",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.hint",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "hint-form",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source: Rabbi Eliezer permits the king and bride to WASH THEIR FACES; a new mother may wear shoes; scorpion danger. display says the king wears shoes for honour. argumentFlow corre...",
+   "queuePosition": 10
+  },
+  {
+   "daf": "80a",
+   "sugyaId": "yoma-080a-s02",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source derives the EGG-BULK measure for IMPURE FOOD (Rabbi Abbahu, 'of all food which may be eaten'). display claims the YK eating measure is derived by gezerah shavah from matzah...",
+   "queuePosition": 11
+  },
+  {
+   "daf": "80b",
+   "sugyaId": "yoma-080b-s01",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source is Rabbi Zeira's three objections and Rava's objection about the liquid measure (incl. Og of Bashan). display describes Rav and Shmuel measuring each other's cheeks - neithe...",
+   "queuePosition": 12
+  },
+  {
+   "daf": "82a",
+   "sugyaId": "yoma-082a-s02",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source continues the mishna on TRAINING children to fast (Rabbi Yochanan, Rabba bar Shmuel's baraita, training vs completing). display describes saving a child's life overriding YK...",
+   "queuePosition": 13
+  },
+  {
+   "daf": "82a",
+   "sugyaId": "yoma-082a-s04",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source is martyrdom (yehareg ve'al ya'avor) for forbidden relations and murder. display frames it as pikuach nefesh overriding YK - the opposite direction of the halakha. argumentF...",
+   "queuePosition": 14
+  },
+  {
+   "daf": "82b",
+   "sugyaId": "yoma-082b-s02",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.hint",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.coreMove",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "hint-form",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "The sugya has two stories: Rabbi Yehuda HaNasi (the whisper worked) and Rabbi Chanina (the whisper did NOT work; he read the verse about the baby). 'R. Yannai' occurs nowhere in th...",
+   "queuePosition": 15
+  },
+  {
+   "daf": "83b",
+   "sugyaId": "yoma-083b-s03",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source is the Rabbi Meir / Rabbi Yehuda / Rabbi Yosei innkeeper narrative (reading the host's name, the dream, the withheld purse, recovering it via wine). display describes them t...",
+   "queuePosition": 16
+  },
+  {
+   "daf": "84a",
+   "sugyaId": "yoma-084a-s03",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source discusses TZEFIDNA (a gum/tooth disease from hot bread) and yerakon remedies. display names the illness 'Tzefardea' and glosses it as a 'snake-related illness'; tzefardea me...",
+   "queuePosition": 17
+  },
+  {
+   "daf": "84b",
+   "sugyaId": "yoma-084b-s01",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Propagates the 'Tzefardea' misnaming from 084a-s03 and attributes the proof to a 'Rabba bar Shela incident'; the source cites Rabba bar Shmuel's baraita and Rav Ashi on the mishna'...",
+   "queuePosition": 18
+  },
+  {
+   "daf": "86b",
+   "sugyaId": "yoma-086b-s02",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source: Rabbi Yitzchak in the name of Rabba bar Mari contrasting God with a human who has been wronged - God is appeased by words alone; Rabbi Meir on one penitent saving the world...",
+   "queuePosition": 19
+  },
+  {
+   "daf": "86b",
+   "sugyaId": "yoma-086b-s03",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source asks what demonstrates COMPLETE REPENTANCE and whether to publicise a sin (Rav Yehuda citing Rav). display describes chilul Hashem for Torah scholars - the subject of 086a-s...",
+   "queuePosition": 20
+  },
+  {
+   "daf": "86b",
+   "sugyaId": "yoma-086b-s05",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source is the Tosefta on NOT re-confessing sins already confessed, Rabbi Eliezer ben Yaakov, detailing the sin, and the Moses/David parable. display describes 'transgressions again...",
+   "queuePosition": 21
+  },
+  {
+   "daf": "87a",
+   "sugyaId": "yoma-087a-s01",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source is Rava's self-admonition before sitting in judgement ('of his own will he goes to die'). display frames it as a halakhic distinction between willing and forced death. argum...",
+   "queuePosition": 22
+  },
+  {
+   "daf": "87a",
+   "sugyaId": "yoma-087a-s02",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source expounds 'It is not good to respect the person of the wicked' and the merit/liability the righteous and wicked bring on others. display describes YK not atoning without appe...",
+   "queuePosition": 23
+  },
+  {
+   "daf": "87b",
+   "sugyaId": "yoma-087b-s01",
+   "semanticDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "SUBSTANTIVE_REPAIR_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "The slighted party in the source is RABBI CHANINA (Rav restarted the portion when Rabbi Chiyya entered; Rabbi Chanina saw the dream and withheld forgiveness). display casts the sto...",
+   "queuePosition": 24
+  },
+  {
+   "daf": "77b",
+   "sugyaId": "yoma-077b-s01",
+   "semanticDisposition": "MINOR_EDIT_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.hint",
+    "display.whats",
+    "finalRuling",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "hint-form",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "whats/hint claim the verse yields the fast obligation; the source (Laban, 'if you afflict my daughters', Rav Pappa/Shechem) concerns conjugal deprivation. learning.coreMove states...",
+   "queuePosition": 25
+  },
+  {
+   "daf": "77b",
+   "sugyaId": "yoma-077b-s03",
+   "semanticDisposition": "MINOR_EDIT_NEEDED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.hint",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "learning.learnerQuestion",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "hint-form",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Sugya is about crossing water to greet a father/teacher and Rava/Rav Yosef permitting crossings; display reduces it to 'greeting and visiting', omitting the water-crossing halakha...",
+   "queuePosition": 26
+  },
+  {
+   "daf": "78a",
+   "sugyaId": "yoma-078a-s02",
+   "semanticDisposition": "MINOR_EDIT_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.hint",
+    "display.whats",
+    "finalRuling",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "hint-form",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source is shoes/sandals while crossing water and the Rafram/Ravina exchange; display frames it purely as whether crossing constitutes prohibited bathing.",
+   "queuePosition": 27
+  },
+  {
+   "daf": "84b",
+   "sugyaId": "yoma-084b-s03",
+   "semanticDisposition": "MINOR_EDIT_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source is a baraita ('The Sages taught') about saving life on SHABBAT; display labels it a Tosefta about Yom Kippur.",
+   "queuePosition": 28
+  },
+  {
+   "daf": "86a",
+   "sugyaId": "yoma-086a-s02",
+   "semanticDisposition": "MINOR_EDIT_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Sugya's substance is Rabbi Matya ben Charash's question to Rabbi Elazar ben Azarya about the categories/paths of atonement; display reduces it to defining 'bearing God's name in va...",
+   "queuePosition": 29
+  },
+  {
+   "daf": "87a",
+   "sugyaId": "yoma-087a-s03",
+   "semanticDisposition": "MINOR_EDIT_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source treats 'I will sin and repent' (doubled) and 'I will sin and YK will atone'; display generalises to the scope of YK's atonement power.",
+   "queuePosition": 30
+  },
+  {
+   "daf": "87a",
+   "sugyaId": "yoma-087a-s04",
+   "semanticDisposition": "MINOR_EDIT_NEEDED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Display posits 'communal sins with a Godward dimension'; the source is the mishna's God/person division and Rav Yosef bar Chavu's rereading of the verse's second clause.",
+   "queuePosition": 31
+  },
+  {
+   "daf": "87b",
+   "sugyaId": "yoma-087b-s02",
+   "semanticDisposition": "MINOR_EDIT_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.hint",
+    "display.title",
+    "display.whats",
+    "finalRuling",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "hint-form",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source: the main mitzva of confession is on Yom Kippur EVE at nightfall, with the Sages adding an earlier confession before eating. display asserts vidui is 'primary at Minha, opti...",
+   "queuePosition": 32
+  },
+  {
+   "daf": "88a",
+   "sugyaId": "yoma-088a-s01",
+   "semanticDisposition": "MINOR_EDIT_NEEDED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "<daf>.summary",
+    "display.hint",
+    "display.whats",
+    "finalRuling",
+    "requiresUnderstanding",
+    "topicTags",
+    "visualizableElements[].name"
+   ],
+   "removedConceptsFieldScheduledForPurge": true,
+   "removedConceptsPaths": [
+    "concepts.halachic[]",
+    "concepts.narrative[]",
+    "concepts.theological[]"
+   ],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "hint-form",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    },
+    {
+     "decision": "requiresUnderstanding-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [
+    "requiresUnderstanding-prose-to-prerequisiteKnowledge",
+    "visualizableElements-shape-normalization"
+   ],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Source combines havdala placement with the immersion rules for a ba'al keri and the Rabbi Yosei contradiction; display covers only havdala. hint ends in a literal ellipsis; finalRu...",
+   "queuePosition": 33
+  },
+  {
+   "daf": "77a",
+   "sugyaId": "yoma-077a-s02",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 34
+  },
+  {
+   "daf": "77b",
+   "sugyaId": "yoma-077b-s04",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 35
+  },
+  {
+   "daf": "78a",
+   "sugyaId": "yoma-078a-s01",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 36
+  },
+  {
+   "daf": "78a",
+   "sugyaId": "yoma-078a-s04",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 37
+  },
+  {
+   "daf": "78a",
+   "sugyaId": "yoma-078a-s05",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 38
+  },
+  {
+   "daf": "78b",
+   "sugyaId": "yoma-078b-s01",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 39
+  },
+  {
+   "daf": "78b",
+   "sugyaId": "yoma-078b-s02",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 40
+  },
+  {
+   "daf": "78b",
+   "sugyaId": "yoma-078b-s04",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 41
+  },
+  {
+   "daf": "79a",
+   "sugyaId": "yoma-079a-s01",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 42
+  },
+  {
+   "daf": "79b",
+   "sugyaId": "yoma-079b-s01",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 43
+  },
+  {
+   "daf": "80a",
+   "sugyaId": "yoma-080a-s03",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 44
+  },
+  {
+   "daf": "80b",
+   "sugyaId": "yoma-080b-s02",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 45
+  },
+  {
+   "daf": "81a",
+   "sugyaId": "yoma-081a-s01",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 46
+  },
+  {
+   "daf": "81a",
+   "sugyaId": "yoma-081a-s02",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 47
+  },
+  {
+   "daf": "81a",
+   "sugyaId": "yoma-081a-s03",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 48
+  },
+  {
+   "daf": "81a",
+   "sugyaId": "yoma-081a-s04",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 49
+  },
+  {
+   "daf": "81b",
+   "sugyaId": "yoma-081b-s01",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 50
+  },
+  {
+   "daf": "81b",
+   "sugyaId": "yoma-081b-s02",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 51
+  },
+  {
+   "daf": "82a",
+   "sugyaId": "yoma-082a-s01",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 52
+  },
+  {
+   "daf": "82a",
+   "sugyaId": "yoma-082a-s03",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 53
+  },
+  {
+   "daf": "83a",
+   "sugyaId": "yoma-083a-s01",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 54
+  },
+  {
+   "daf": "83a",
+   "sugyaId": "yoma-083a-s02",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 55
+  },
+  {
+   "daf": "83a",
+   "sugyaId": "yoma-083a-s03",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 56
+  },
+  {
+   "daf": "83a",
+   "sugyaId": "yoma-083a-s04",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 57
+  },
+  {
+   "daf": "83a",
+   "sugyaId": "yoma-083a-s05",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 58
+  },
+  {
+   "daf": "83b",
+   "sugyaId": "yoma-083b-s01",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 59
+  },
+  {
+   "daf": "83b",
+   "sugyaId": "yoma-083b-s02",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "Re-adjudicated from the prior pass's 'topic drift' label and WITHDRAWN. The declared line range genuinely spans both the ben Teima / first tanna dispute on tevel vs teruma severity...",
+   "queuePosition": 60
+  },
+  {
+   "daf": "83b",
+   "sugyaId": "yoma-083b-s04",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 61
+  },
+  {
+   "daf": "84a",
+   "sugyaId": "yoma-084a-s01",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 62
+  },
+  {
+   "daf": "84a",
+   "sugyaId": "yoma-084a-s02",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 63
+  },
+  {
+   "daf": "84b",
+   "sugyaId": "yoma-084b-s02",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 64
+  },
+  {
+   "daf": "84b",
+   "sugyaId": "yoma-084b-s04",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 65
+  },
+  {
+   "daf": "85a",
+   "sugyaId": "yoma-085a-s01",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 66
+  },
+  {
+   "daf": "85a",
+   "sugyaId": "yoma-085a-s02",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 67
+  },
+  {
+   "daf": "85a",
+   "sugyaId": "yoma-085a-s03",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 68
+  },
+  {
+   "daf": "85a",
+   "sugyaId": "yoma-085a-s04",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 69
+  },
+  {
+   "daf": "85a",
+   "sugyaId": "yoma-085a-s05",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 70
+  },
+  {
+   "daf": "85a",
+   "sugyaId": "yoma-085a-s06",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 71
+  },
+  {
+   "daf": "85b",
+   "sugyaId": "yoma-085b-s01",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 72
+  },
+  {
+   "daf": "85b",
+   "sugyaId": "yoma-085b-s02",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 73
+  },
+  {
+   "daf": "85b",
+   "sugyaId": "yoma-085b-s03",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 74
+  },
+  {
+   "daf": "85b",
+   "sugyaId": "yoma-085b-s04",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "currentOverallDisposition": "STRUCTURAL_OR_SCHEMA_DECISION",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 75
+  },
+  {
+   "daf": "86a",
+   "sugyaId": "yoma-086a-s01",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 76
+  },
+  {
+   "daf": "86a",
+   "sugyaId": "yoma-086a-s03",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 77
+  },
+  {
+   "daf": "86a",
+   "sugyaId": "yoma-086a-s04",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 78
+  },
+  {
+   "daf": "86b",
+   "sugyaId": "yoma-086b-s01",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 79
+  },
+  {
+   "daf": "86b",
+   "sugyaId": "yoma-086b-s04",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 80
+  },
+  {
+   "daf": "87a",
+   "sugyaId": "yoma-087a-s05",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 81
+  },
+  {
+   "daf": "88a",
+   "sugyaId": "yoma-088a-s02",
+   "semanticDisposition": "VERIFIED",
+   "mechanicalDisposition": "MINOR_EDIT_NEEDED",
+   "currentOverallDisposition": "MINOR_EDIT_NEEDED",
+   "affectedActiveFields": [
+    "finalRuling"
+   ],
+   "removedConceptsFieldScheduledForPurge": false,
+   "removedConceptsPaths": [],
+   "prerequisiteContractDecisionsResolved": [
+    {
+     "decision": "finalRuling-semantics",
+     "status": "RESOLVED",
+     "resolvedBy": "docs/reports/yoma-enrichment-contract-decision.md"
+    }
+   ],
+   "migrationPrerequisites": [],
+   "requiredRepairTaskType": "audited-sugya-enrichment-repair",
+   "independentReviewRequired": true,
+   "status": "NOT_STARTED",
+   "auditSourceSha": "3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5",
+   "auditEvidenceSummary": "display/learning topic matches the declared source lines; argumentFlow consistent.",
+   "queuePosition": 82
+  }
+ ]
+}

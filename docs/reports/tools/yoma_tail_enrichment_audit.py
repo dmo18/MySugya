@@ -191,6 +191,15 @@ def self_test(reg, problems):
             problems.append("ownership self-test failed: " + label)
 
 
+# Task types that existed when the merged audit resolved its registeredTaskOwners
+# (PR #476, audited SHA 3aa90cd). Ownership completeness is checked only against
+# these; see check_ownership for why later registry growth is not a failure.
+AUDIT_ERA_TASK_TYPES = frozenset({
+    "summary-edit", "display-only-edit", "learning-copy-edit", "gemara-learning",
+    "quiz-edit", "glossary-edit", "structural-repair", "metadata-review-status",
+})
+
+
 def check_ownership(recs, reg, problems):
     """Prove every affected path is owned by a recorded task type or is listed
     in unownedPaths, and prove every recorded ownedPaths entry individually."""
@@ -214,7 +223,15 @@ def check_ownership(recs, reg, problems):
         for name in rec_owners - derived_owners:
             problems.append("%s: registeredTaskOwners lists %r which owns none of its affectedFields"
                             % (r["sugyaId"], name))
-        for name in derived_owners - rec_owners:
+        # Completeness is evaluated only against the task types the audit was
+        # resolved against. The registry legitimately grows afterwards - the
+        # enrichment contract decision added legacy-concepts-purge,
+        # enrichment-schema-migration and audited-sugya-enrichment-repair,
+        # which own audited paths - and later growth must not retroactively
+        # invalidate a merged historical record. Soundness is still enforced
+        # above and below: a recorded owner that does not own its paths, or a
+        # path claimed unowned that is in fact owned, remains a failure.
+        for name in (derived_owners & AUDIT_ERA_TASK_TYPES) - rec_owners:
             problems.append("%s: %r owns an affected path but is missing from registeredTaskOwners"
                             % (r["sugyaId"], name))
 

@@ -1,0 +1,827 @@
+{
+ "schemaVersion": 1,
+ "generatedFrom": "docs/reports/data/yoma-tail-enrichment-repair-queue.json",
+ "note": "Mutable repair-progress tracking, keyed by sugyaId. This file, NOT the queue file, is where a semantic repair PR records its own advancing status. Status transitions are validated against ALLOWED_TRANSITIONS in this script; COMPLETE is terminal.",
+ "progress": {
+  "yoma-082b-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-087b-s03": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-080a-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-080b-s03": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-077a-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-077a-s03": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-077a-s04": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-077b-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-078a-s03": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-078b-s03": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-080a-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-080b-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-082a-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-082a-s04": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-082b-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-083b-s03": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-084a-s03": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-084b-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-086b-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-086b-s03": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-086b-s05": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-087a-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-087a-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-087b-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-077b-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-077b-s03": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-078a-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-084b-s03": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-086a-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-087a-s03": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-087a-s04": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-087b-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-088a-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-077a-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-077b-s04": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-078a-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-078a-s04": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-078a-s05": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-078b-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-078b-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-078b-s04": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-079a-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-079b-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-080a-s03": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-080b-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-081a-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-081a-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-081a-s03": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-081a-s04": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-081b-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-081b-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-082a-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-082a-s03": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-083a-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-083a-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-083a-s03": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-083a-s04": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-083a-s05": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-083b-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-083b-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-083b-s04": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-084a-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-084a-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-084b-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-084b-s04": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-085a-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-085a-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-085a-s03": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-085a-s04": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-085a-s05": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-085a-s06": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-085b-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-085b-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-085b-s03": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-085b-s04": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-086a-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-086a-s03": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-086a-s04": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-086b-s01": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-086b-s04": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-087a-s05": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  },
+  "yoma-088a-s02": {
+   "status": "NOT_STARTED",
+   "prNumber": null,
+   "repairCommit": null,
+   "mergedCommit": null,
+   "version": null,
+   "reviewer": null,
+   "independentReviewResult": null,
+   "blockerReason": null
+  }
+ }
+}

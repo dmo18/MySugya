@@ -1,42 +1,63 @@
 {
- "type": "audit-only",
+ "type": "docs-tooling",
  "module": "yoma",
  "targets": [],
  "model": "sonnet",
  "paused": false,
  "lifecycle": "pr",
- "mechanicalTier": true,
+ "mechanicalTier": false,
  "independentReviewRequired": false,
  "reviewPolicy": "none",
  "escalationModel": "sonnet",
  "authorizations": [],
  "maxBatch": null,
  "allowedFiles": [
-  "docs/reports/*",
-  "docs/rashi-audit-backlog.md",
-  ".worker-manifest.json",
-  "VERSION",
+  "docs/*",
+  "scripts/*",
+  "shared/*",
+  "modules/*/module.json",
+  "modules/<module>/scripts/*.py",
+  "modules/<module>/scripts/allowlists/*",
+  "modules/<module>/MODULE.md",
+  ".github/workflows/*",
+  "githooks/*",
   "package.json",
-  "package-lock.json"
+  "package-lock.json",
+  "VERSION",
+  "README.md",
+  "CLAUDE.md",
+  "SOURCES.md",
+  "tests/*",
+  ".gitignore",
+  ".worker-manifest.json",
+  ".worker-queue.json"
  ],
  "allowedJsonPaths": [],
  "forbiddenFiles": [
-  "modules/*",
-  "scripts/*",
-  ".github/workflows/*",
-  "githooks/*"
+  "modules/yoma/assets/learning/*",
+  "modules/yoma/assets/talmuddev/*",
+  "modules/yoma/assets/daftexts/*",
+  "modules/yoma/source_store.js"
  ],
- "allowlistPolicy": "forbidden",
- "structurePolicy": "forbidden",
+ "allowlistPolicy": "restructure-with-env",
+ "structurePolicy": "not-applicable",
  "requiredValidators": [
   "validate:offline:yoma"
  ],
  "generationCommands": [],
- "buildTestCommands": [],
+ "buildTestCommands": [
+  "npm run build",
+  "npm run check:deploy-html",
+  "npm test",
+  "npm run test:browser"
+ ],
  "escalationTriggers": [
-  "any finding that suggests content on main is wrong (report it; do not fix it)"
+  "any existing gate would be weakened",
+  "workflow permission changes would be needed"
  ],
  "allowlistDrain": null,
  "scaffoldDebt": null,
- "repetitionDrain": null
+ "repetitionDrain": null,
+ "auditRecordIds": [],
+ "migrationKinds": []
 }

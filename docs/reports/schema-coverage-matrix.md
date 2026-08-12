@@ -44,6 +44,7 @@ judgment that pattern gates cannot verify. Sonnet executes every tier.
 | `sugyot[*].conceptRefs[*].id` | judgment-required |
 | `sugyot[*].conceptRefs[*].label` | judgment-required |
 | `sugyot[*].conceptRefs[*].scope` | judgment-required |
+| `sugyot[*].concepts` | delete-only |
 | `sugyot[*].concepts[*].def` | judgment-required |
 | `sugyot[*].concepts[*].definition` | deprecated |
 | `sugyot[*].concepts[*].he` | judgment-required |
@@ -79,6 +80,7 @@ judgment that pattern gates cannot verify. Sonnet executes every tier.
 | `sugyot[*].misconceptions[*].correctedByStepId` | judgment-required |
 | `sugyot[*].misconceptions[*].correction` | judgment-required |
 | `sugyot[*].misconceptions[*].misconception` | judgment-required |
+| `sugyot[*].prerequisiteKnowledge[*]` | judgment-required |
 | `sugyot[*].quizSeeds[*].answer` | judgment-required |
 | `sugyot[*].quizSeeds[*].question` | judgment-required |
 | `sugyot[*].quizSeeds[*].sourceRefs[*].lineId` | judgment-required |
