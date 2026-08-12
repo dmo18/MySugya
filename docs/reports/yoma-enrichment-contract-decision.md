@@ -289,8 +289,19 @@ a false "skip." Progress-record changes are scoped to exactly the
 manifest's own `auditRecordIds` (`check_progress_scope`); every other record
 must stay byte-identical, and no record may carry an unknown field. Post-merge
 completion is DERIVED (`derive_effective_status`) from squash-merge evidence
--- the squash commit must be an ancestor of head and must itself touch a
-`*.learning.json` file -- rather than requiring a second, progress-only PR
+bound to the exact audit record, not merely from any ancestor commit that
+happens to touch some `*.learning.json` file. All of the following must
+hold: the stored status is `APPROVED_PENDING_MERGE` with a non-empty
+`reviewer` and `independentReviewResult`; the squash commit is an ancestor
+of head; the squash commit's own `.worker-manifest.json` (read from that
+commit's tree, never the working tree) has `type ==
+"audited-sugya-enrichment-repair"`; the sugyaId is named in that manifest's
+`auditRecordIds`; the manifest's single target daf matches that sugyaId's
+own daf in the repair queue; and the squash commit's diff actually touches
+that exact daf's `*.learning.json`. A correctly-manifested repair for a
+different sugya, or a same-daf manifest naming a different sugya, or a
+correct manifest whose commit never touches the target file, all fail to
+derive `COMPLETE`. This removes the need for a second, progress-only PR
 just to flip the stored status to `COMPLETE`. See
 `docs/reports/yoma-tail-enrichment-repair-plan.md` for the full design.
 

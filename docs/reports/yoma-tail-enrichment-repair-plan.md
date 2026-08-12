@@ -96,9 +96,15 @@ content-repair PR end to end:
    `independentReviewResult` -- the explicit pre-merge "approved" checkpoint
    from an independent reviewer;
 3. after squash-merge, the effective `COMPLETE` state is DERIVED
-   (`derive_effective_status`) from the squash commit being an ancestor of
-   main and touching a `*.learning.json` file, plus the already-approved
-   progress state -- no second, progress-only PR is required just to
+   (`derive_effective_status`) from evidence bound to the exact audit
+   record: the squash commit must be an ancestor of main, its own
+   `.worker-manifest.json` (read from that commit, never the working tree)
+   must be type `audited-sugya-enrichment-repair` naming this sugyaId in
+   `auditRecordIds`, that manifest's target daf must match this sugyaId's
+   own daf in the repair queue, and the commit's diff must actually touch
+   that exact daf's `*.learning.json` -- plus the already-approved progress
+   state. A correctly-manifested repair for a different sugya or daf never
+   derives `COMPLETE` here. No second, progress-only PR is required just to
    hand-edit the file to `COMPLETE`.
 
 Progress-record changes in any one PR are scoped to exactly that PR's

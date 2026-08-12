@@ -28,6 +28,17 @@ import subprocess
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
+
+# worker_pipeline.py is a sibling module in this same scripts/ directory and
+# never imports this file (it only shells out to it via subprocess, see its
+# own generate-repair-queue invocation), so importing it here for
+# AUDIT_RECORD_TASK_TYPE carries no circular-import risk. The explicit
+# sys.path insert mirrors worker_pipeline.py's own defensive pattern for
+# callers that import this module without having already put scripts/ on
+# the path themselves.
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import worker_pipeline  # noqa: E402
+
 AUDIT = ROOT / "docs/reports/data/yoma-tail-enrichment-audit.json"
 QUEUE = ROOT / "docs/reports/data/yoma-tail-enrichment-repair-queue.json"
 PROGRESS = ROOT / "docs/reports/data/yoma-tail-enrichment-repair-progress.json"
@@ -329,40 +340,141 @@ def check_progress_history(base_ref, head_ref, queue_ids, allowed_ids=None):
     return problems
 
 
+def _daf_for_sid(sid):
+    """sid's own daf, looked up from the repair queue's own records (the
+    queue is the durable source of truth for which daf a sugyaId belongs
+    to). Returns None if the queue is unreadable or sid names no record --
+    callers treat that as "cannot confirm", never as a silent match."""
+    try:
+        q = json.loads(QUEUE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+    for rec in q.get("records", []):
+        if rec.get("sugyaId") == sid:
+            return rec.get("daf")
+    return None
+
+
+def _yoma_learning_dir():
+    """The Yoma module's learningDataDir, read directly from module.json --
+    this queue (and this whole file) is Yoma-specific, see AUDIT/QUEUE
+    above, so there is no active-module resolution to thread through here."""
+    desc = ROOT / "modules/yoma/module.json"
+    d = json.loads(desc.read_text(encoding="utf-8"))
+    return d["paths"]["learningDataDir"]
+
+
 def derive_effective_status(sid, record, squash_commit=None, head_ref="HEAD"):
     """The effective, DERIVED status for a progress record, used for
     reporting/dashboards -- never for mutating the stored file. A record
     stored as APPROVED_PENDING_MERGE is treated as effectively COMPLETE
-    once a squash_commit is supplied and BOTH:
+    only once a squash_commit is supplied and ALL of the following durable,
+    sid-SPECIFIC evidence holds (checked in this order, first failure
+    wins -- evidence["reason"] always names it):
 
-      - that commit is an ancestor of head_ref (the approved repair PR
-        actually merged); and
-      - that commit's own diff touched at least one *.learning.json file
-        (real content landed, not an empty/administrative commit).
+      1. the stored status is genuinely APPROVED_PENDING_MERGE;
+      2. the record itself already carries a non-empty reviewer and a
+         non-empty independentReviewResult (the same bar
+         check_progress_field_requirements enforces for any review-bearing
+         status -- no controlled vocabulary, just non-empty strings);
+      3. squash_commit is an ancestor of head_ref (the approved repair PR
+         actually merged);
+      4. squash_commit has a parseable .worker-manifest.json at repo root
+         (read via the tree at that commit, not merely its own diff);
+      5. that manifest's "type" is exactly
+         worker_pipeline.AUDIT_RECORD_TASK_TYPE
+         ("audited-sugya-enrichment-repair" -- the only task type this
+         derivation ever honors);
+      6. sid is named in that manifest's "auditRecordIds" (not merely "a"
+         audit repair landed somewhere -- THIS sugya's repair);
+      7. the manifest's single target daf (manifest["targets"][0], this
+         task type always targets exactly one daf) equals sid's own daf,
+         read from the repair queue;
+      8. the exact target learning file for that daf --
+         "{learningDataDir}/{daf}.learning.json" -- is among the files
+         squash_commit's own diff touched (real content for THIS daf
+         landed in THIS commit, not merely referenced by a correct-looking
+         manifest).
 
     This is what removes the need for a second, progress-only PR just to
     flip the file to COMPLETE after merge: completion is read off real,
-    durable git history (main's own commit graph) plus the manifest's
-    final auditRecordIds and the already-approved progress state, rather
-    than requiring one more direct edit. Returns (effective_status,
-    evidence-dict); never mutates `record`."""
+    durable git history (main's own commit graph) plus a manifest that
+    durably and specifically names this sugya's own repair, never off any
+    ancestor commit that merely happens to touch some *.learning.json file
+    for an unrelated reason. Returns (effective_status, evidence-dict);
+    never mutates `record`."""
     stored = record.get("status")
-    if stored != "APPROVED_PENDING_MERGE" or not squash_commit:
-        return stored, {"derived": False, "reason": "not APPROVED_PENDING_MERGE or no squash "
-                        "commit supplied"}
+    evidence = {"derived": False, "squashCommit": squash_commit}
+    if stored != "APPROVED_PENDING_MERGE":
+        evidence["reason"] = "stored status is not APPROVED_PENDING_MERGE"
+        return stored, evidence
+    if not squash_commit:
+        evidence["reason"] = "no squash commit supplied"
+        return stored, evidence
+
+    reviewer = str(record.get("reviewer") or "").strip()
+    review_result = str(record.get("independentReviewResult") or "").strip()
+    evidence["hasReviewer"] = bool(reviewer)
+    evidence["hasIndependentReviewResult"] = bool(review_result)
+    if not reviewer or not review_result:
+        evidence["reason"] = ("record is missing a non-empty reviewer and/or "
+                              "independentReviewResult")
+        return stored, evidence
+
     anc = subprocess.run(["git", "merge-base", "--is-ancestor", squash_commit, head_ref],
                          cwd=str(ROOT), capture_output=True, text=True)
     is_ancestor = anc.returncode == 0
+    evidence["isAncestorOfHead"] = is_ancestor
+    if not is_ancestor:
+        evidence["reason"] = "squash commit is not an ancestor of head_ref"
+        return stored, evidence
+
     show = subprocess.run(["git", "show", "--name-only", "--format=", squash_commit],
                           cwd=str(ROOT), capture_output=True, text=True)
     touched = [l for l in show.stdout.splitlines() if l.strip()]
-    touched_learning = any(t.endswith(".learning.json") for t in touched)
-    evidence = {"derived": False, "squashCommit": squash_commit, "isAncestorOfHead": is_ancestor,
-               "touchedLearningJson": touched_learning, "touchedFiles": touched}
-    if is_ancestor and touched_learning:
-        evidence["derived"] = True
-        return "COMPLETE", evidence
-    return stored, evidence
+    evidence["touchedFiles"] = touched
+
+    manifest = _git_show(".worker-manifest.json", squash_commit)
+    evidence["hasManifestAtSquashCommit"] = manifest is not None
+    if manifest is None:
+        evidence["reason"] = "no parseable .worker-manifest.json at the squash commit"
+        return stored, evidence
+
+    manifest_type = manifest.get("type")
+    evidence["manifestType"] = manifest_type
+    if manifest_type != worker_pipeline.AUDIT_RECORD_TASK_TYPE:
+        evidence["reason"] = ("manifest type %r is not %r"
+                              % (manifest_type, worker_pipeline.AUDIT_RECORD_TASK_TYPE))
+        return stored, evidence
+
+    audit_record_ids = manifest.get("auditRecordIds") or []
+    sid_in_ids = sid in audit_record_ids
+    evidence["sidInManifestAuditRecordIds"] = sid_in_ids
+    if not sid_in_ids:
+        evidence["reason"] = ("sid is not named in the manifest's auditRecordIds %s"
+                              % sorted(audit_record_ids))
+        return stored, evidence
+
+    targets = manifest.get("targets") or []
+    manifest_target_daf = targets[0] if len(targets) == 1 else None
+    evidence["manifestTargetDaf"] = manifest_target_daf
+    sid_daf = _daf_for_sid(sid)
+    evidence["sidDaf"] = sid_daf
+    if not sid_daf or manifest_target_daf != sid_daf:
+        evidence["reason"] = ("manifest target daf %r does not match sid's own daf %r"
+                              % (manifest_target_daf, sid_daf))
+        return stored, evidence
+
+    target_learning_path = "%s/%s.learning.json" % (_yoma_learning_dir(), sid_daf)
+    file_touched = target_learning_path in touched
+    evidence["targetLearningFileTouched"] = file_touched
+    evidence["targetLearningPath"] = target_learning_path
+    if not file_touched:
+        evidence["reason"] = "squash commit's diff did not touch %r" % target_learning_path
+        return stored, evidence
+
+    evidence["derived"] = True
+    return "COMPLETE", evidence
 
 
 def _git_show(rel_path, ref="HEAD"):

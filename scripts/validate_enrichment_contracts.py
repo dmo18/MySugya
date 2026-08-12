@@ -273,9 +273,9 @@ def collect_violations(daf_content):
                 if fr_s == hint_s:
                     flag("finalRuling_equals_hint", sid, "finalRuling", None, fr_s,
                          "exact copy of display.hint")
-                elif hint_s.startswith(fr_s) and len(fr_s) >= 30:
+                elif hint_s.startswith(fr_s):
                     flag("finalRuling_prefix_of_hint", sid, "finalRuling", None, fr_s,
-                         "truncated prefix of display.hint (%d chars)" % len(fr_s))
+                         "prefix of display.hint (%d chars)" % len(fr_s))
 
         # ---- requiresUnderstanding / prerequisiteKnowledge ----------------
         ru = s.get("requiresUnderstanding")

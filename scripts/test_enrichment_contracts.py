@@ -84,7 +84,10 @@ cases = [
                                  "finalRuling": "Why is the measure a large date?"}),
     ("finalRuling_prefix_of_hint",
      {"display": {"hint": "The Gemara asks whether refraining from bathing counts as affliction here?"},
-      "finalRuling": "The Gemara asks whether refraining from bathing counts"}),
+      "finalRuling": "The Gemara asks whether refraining from bathing counts"}),  # long prefix (54 chars), regression
+    ("finalRuling_prefix_of_hint",
+     {"display": {"hint": "Yes. Does the earlier ruling extend to this new case as well?"},
+      "finalRuling": "Yes."}),  # short prefix (4 chars), well under the old 30-char threshold
     ("finalRuling_unterminated",
      {"finalRuling": "The halakha follows Rabbi Yehuda and the measure is set at a large date"}),
     ("finalRuling_unterminated", {"finalRuling": "Short but no period"}),  # no length threshold
@@ -121,6 +124,30 @@ cases = [
 for rule, over in cases:
     got = rules(content(sugya("yoma-002a-s01", **over)))
     check("2.%s fires (%r)" % (rule, over), rule in got, "got %s" % sorted(got))
+
+# ---- 2a. exact-equal finalRuling triggers equals_hint, not prefix_of_hint ---
+equal_got = rules(content(sugya(
+    "yoma-002a-s01",
+    display={"hint": "Why is the measure a large date?"},
+    finalRuling="Why is the measure a large date?")))
+check("2a. equal finalRuling/hint triggers finalRuling_equals_hint",
+      "finalRuling_equals_hint" in equal_got, sorted(equal_got))
+check("2a2. equal finalRuling/hint does NOT also trigger finalRuling_prefix_of_hint",
+      "finalRuling_prefix_of_hint" not in equal_got, sorted(equal_got))
+
+# ---- 2b. a short, independent finalRuling that is not a prefix of hint ------
+# passes cleanly (neither equals_hint nor prefix_of_hint), as long as it is
+# separately well-formed (terminal punctuation, no ellipsis).
+independent_got = rules(content(sugya(
+    "yoma-002a-s01",
+    display={"hint": "Why does the mishna say this?"},
+    finalRuling="No relation applies here.")))
+check("2b. independent short finalRuling triggers neither equals_hint nor prefix_of_hint",
+      "finalRuling_equals_hint" not in independent_got
+      and "finalRuling_prefix_of_hint" not in independent_got,
+      sorted(independent_got))
+check("2b2. independent short finalRuling passes cleanly overall",
+      independent_got == set(), sorted(independent_got))
 
 # ---- 3. requiresUnderstanding accepts a genuine resolving id ----------------
 two = content(sugya("yoma-002a-s01", requiresUnderstanding=["yoma-002a-s02"]),

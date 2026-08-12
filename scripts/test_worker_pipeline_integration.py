@@ -614,9 +614,17 @@ try:
     #     DERIVED from squash-merge evidence -- no second repair PR, no
     #     progress-only PR.
     # =========================================================================
-    reset_to_base()
-    # commit 1: the actual content repair, landing the real edit this record
-    # authorizes, plus advancing progress to IN_PROGRESS.
+    PREREQ_BASE_31 = reset_to_prereqs_satisfied([real_id])
+    # commit 1: the manifest that durably names this record's repair, plus
+    # the actual content repair (the real edit this record authorizes),
+    # plus advancing progress to IN_PROGRESS. The manifest is generated
+    # through the real CLI (wp), exactly as a genuine repair PR would, and
+    # lands inside the squashed commit below -- derive_effective_status now
+    # requires it to bind COMPLETE to this specific record.
+    r = wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+          "--range", real_daf, "--audit-record-id", real_id, "--out", ".worker-manifest.json")
+    check("(setup) manifest for the one-PR lifecycle squash test generates successfully",
+          r.returncode == 0, out(r))
     doc = load_learning(real_daf)
     sug = next(s for s in doc["sugyot"] if s["id"] == real_id)
     if "finalRuling" in audit_rec["affectedFields"]:
@@ -628,7 +636,7 @@ try:
     prog = json.loads(prog_path.read_text())
     prog["progress"][real_id]["status"] = "IN_PROGRESS"
     prog_path.write_text(json.dumps(prog, ensure_ascii=False, indent=1) + "\n")
-    commit("one-PR lifecycle: content repair + IN_PROGRESS")
+    commit("one-PR lifecycle: manifest + content repair + IN_PROGRESS")
     # commit 2: FIXED_PENDING_REVIEW.
     prog["progress"][real_id]["status"] = "FIXED_PENDING_REVIEW"
     prog_path.write_text(json.dumps(prog, ensure_ascii=False, indent=1) + "\n")
@@ -641,16 +649,19 @@ try:
     commit("one-PR lifecycle: independent approval (APPROVED_PENDING_MERGE)")
 
     r = run([sys.executable, "scripts/generate_enrichment_repair_queue.py", "--check",
-            "--base", BASE_SHA, "--allowed-ids", real_id], cwd=FIXTURE)
+            "--base", PREREQ_BASE_31, "--allowed-ids", real_id], cwd=FIXTURE)
     check("31a. the full NOT_STARTED -> IN_PROGRESS -> FIXED_PENDING_REVIEW -> "
          "APPROVED_PENDING_MERGE walk across 3 commits passes --check (the two-endpoint "
          "comparison alone would look like an illegal skip)",
           r.returncode == 0, out(r))
 
-    # squash-merge simulation: the whole 3-commit branch lands as ONE commit
-    # on a fresh branch cut from BASE_SHA, exactly like a real GitHub squash
-    # merge to main.
-    git("checkout", "-q", "-b", "main-sim", BASE_SHA, cwd=FIXTURE)
+    # squash-merge simulation: the whole 3-commit branch lands as ONE commit,
+    # exactly like a real GitHub squash merge to main. Cut from
+    # PREREQ_BASE_31 (not the original BASE_SHA) so the simulated squash
+    # commit's own diff is exactly THIS repair PR's content -- mirroring a
+    # real repo where the corpus-wide migration prerequisites already
+    # merged in an earlier, separate PR before this repair PR ever opened.
+    git("checkout", "-q", "-B", "main-sim", PREREQ_BASE_31, cwd=FIXTURE)
     sq = git("merge", "--squash", "work", cwd=FIXTURE)
     check("(setup) squash-merge simulation applies cleanly", sq.returncode == 0, out(sq))
     commit("squash-merge: one-PR repair for %s" % real_id)
@@ -668,9 +679,11 @@ try:
     effective, evidence = geq.derive_effective_status(real_id, stored_record,
                                                        squash_commit=squash_sha,
                                                        head_ref=squash_sha)
-    check("31b. effective status is DERIVED as COMPLETE from squash-merge evidence "
-         "(ancestor of head + touched a *.learning.json), with NO second edit to the "
-         "progress file itself", effective == "COMPLETE" and evidence.get("derived") is True,
+    check("31b. effective status is DERIVED as COMPLETE from squash-merge evidence -- "
+         "ancestor of head, a matching .worker-manifest.json naming real_id in "
+         "auditRecordIds for its own target daf, and that daf's *.learning.json actually "
+         "touched -- with NO second edit to the progress file itself",
+          effective == "COMPLETE" and evidence.get("derived") is True,
           (effective, evidence))
     check("31c. the derivation never mutated the stored record (still APPROVED_PENDING_MERGE "
          "on disk; completion is a read, not a write)",
@@ -683,6 +696,150 @@ try:
     check("31d. with no squash commit supplied, the effective status is just the stored one "
          "(no speculative derivation)",
           effective_none == "APPROVED_PENDING_MERGE" and evidence_none.get("derived") is False)
+
+    # =========================================================================
+    # 31e-31g. derive_effective_status BINDS COMPLETE TO THE SPECIFIC RECORD --
+    #          an ancestor commit that merely touches SOME *.learning.json
+    #          file, for any reason, is never enough on its own. Each
+    #          scenario below reuses `stored_record` (APPROVED_PENDING_MERGE,
+    #          with a reviewer and independentReviewResult already set) so
+    #          only the squash commit's own evidence varies between cases.
+    # =========================================================================
+
+    # ---- 31e. an UNRELATED squash commit -- a genuine, correctly-manifested
+    #           repair for a DIFFERENT sugya on a DIFFERENT daf -- must NOT
+    #           derive COMPLETE for real_id.
+    diff_daf_rec = next(rr for rr in queue["records"] if rr["daf"] != real_daf)
+    diff_daf_id, diff_daf_daf = diff_daf_rec["sugyaId"], diff_daf_rec["daf"]
+    diff_daf_audit = next(a for a in audit_doc["records"] if a["sugyaId"] == diff_daf_id)
+
+    os.chdir(str(ROOT))
+    base_31e = reset_to_prereqs_satisfied([diff_daf_id])
+    r = wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+          "--range", diff_daf_daf, "--audit-record-id", diff_daf_id,
+          "--out", ".worker-manifest.json")
+    check("(setup) manifest for the UNRELATED sugya's own repair generates successfully",
+          r.returncode == 0, out(r))
+    doc = load_learning(diff_daf_daf)
+    sug_diff = next(s for s in doc["sugyot"] if s["id"] == diff_daf_id)
+    if "finalRuling" in diff_daf_audit["affectedFields"]:
+        sug_diff["finalRuling"] = "An unrelated repair, for a completely different sugya."
+    elif "display.hint" in diff_daf_audit["affectedFields"]:
+        sug_diff["display"]["hint"] = "An unrelated repair, for a completely different sugya?"
+    save_learning(diff_daf_daf, doc)
+    rebuild_yoma()
+    commit("an entirely unrelated repair, for a different sugya on a different daf")
+    git("checkout", "-q", "-B", "main-sim", base_31e, cwd=FIXTURE)
+    sq = git("merge", "--squash", "work", cwd=FIXTURE)
+    check("(setup) unrelated-repair squash-merge simulation applies cleanly",
+          sq.returncode == 0, out(sq))
+    commit("squash-merge: unrelated repair for %s" % diff_daf_id)
+    unrelated_squash_sha = git("rev-parse", "HEAD", cwd=FIXTURE).stdout.strip()
+
+    os.chdir(FIXTURE)
+    if "generate_enrichment_repair_queue" in sys.modules:
+        del sys.modules["generate_enrichment_repair_queue"]
+    geq = importlib.import_module("generate_enrichment_repair_queue")
+    eff_unrelated, ev_unrelated = geq.derive_effective_status(
+        real_id, stored_record, squash_commit=unrelated_squash_sha, head_ref=unrelated_squash_sha)
+    check("31e. an unrelated squash commit -- a genuine, correctly-manifested repair for a "
+         "DIFFERENT sugya on a DIFFERENT daf -- does NOT derive COMPLETE for real_id",
+          eff_unrelated != "COMPLETE" and ev_unrelated.get("derived") is False
+          and ev_unrelated.get("sidInManifestAuditRecordIds") is False,
+          (eff_unrelated, ev_unrelated))
+
+    # ---- 31f. a squash commit whose manifest correctly targets real_id's
+    #           OWN daf, and whose diff DOES touch that daf's learning.json,
+    #           but whose auditRecordIds names a DIFFERENT sugya sharing
+    #           that same daf -- isolates the auditRecordIds check from the
+    #           touched-file check (the file check alone would pass here).
+    same_daf_rec = next((rr for rr in queue["records"]
+                        if rr["daf"] == real_daf and rr["sugyaId"] != real_id), None)
+    check("(setup) a second queue record shares real_id's own daf (needed to isolate the "
+         "auditRecordIds check from the touched-file check)", same_daf_rec is not None, real_daf)
+    if same_daf_rec is not None:
+        other_same_daf_id = same_daf_rec["sugyaId"]
+        other_same_daf_audit = next(a for a in audit_doc["records"]
+                                    if a["sugyaId"] == other_same_daf_id)
+
+        os.chdir(str(ROOT))
+        base_31f = reset_to_prereqs_satisfied([other_same_daf_id])
+        r = wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+              "--range", real_daf, "--audit-record-id", other_same_daf_id,
+              "--out", ".worker-manifest.json")
+        check("(setup) manifest for the OTHER same-daf sugya's repair generates successfully",
+              r.returncode == 0, out(r))
+        doc = load_learning(real_daf)
+        sug_other = next(s for s in doc["sugyot"] if s["id"] == other_same_daf_id)
+        if "finalRuling" in other_same_daf_audit["affectedFields"]:
+            sug_other["finalRuling"] = "A real repair, but for the OTHER sugya on this daf."
+        elif "display.hint" in other_same_daf_audit["affectedFields"]:
+            sug_other["display"]["hint"] = "A real repair, but for the OTHER sugya on this daf?"
+        save_learning(real_daf, doc)
+        rebuild_yoma()
+        commit("a real repair for the OTHER sugya sharing real_id's own daf")
+        git("checkout", "-q", "-B", "main-sim", base_31f, cwd=FIXTURE)
+        sq = git("merge", "--squash", "work", cwd=FIXTURE)
+        check("(setup) same-daf-other-sugya squash-merge simulation applies cleanly",
+              sq.returncode == 0, out(sq))
+        commit("squash-merge: repair for %s (not real_id)" % other_same_daf_id)
+        same_daf_squash_sha = git("rev-parse", "HEAD", cwd=FIXTURE).stdout.strip()
+
+        os.chdir(FIXTURE)
+        if "generate_enrichment_repair_queue" in sys.modules:
+            del sys.modules["generate_enrichment_repair_queue"]
+        geq = importlib.import_module("generate_enrichment_repair_queue")
+        eff_wrong_sid, ev_wrong_sid = geq.derive_effective_status(
+            real_id, stored_record, squash_commit=same_daf_squash_sha,
+            head_ref=same_daf_squash_sha)
+        real_daf_learning_path = "modules/yoma/assets/learning/yoma/%s.learning.json" % real_daf
+        check("31f. a squash commit whose manifest does not name real_id in auditRecordIds "
+             "does NOT derive COMPLETE, even though it DID touch real_id's own daf's "
+             "learning.json (the manifest instead names a different sugya on that same daf) -- "
+             "the derivation fails at the auditRecordIds check, before it ever reaches the "
+             "separate touched-file check, so the file's actually-touched status is confirmed "
+             "directly off the raw touchedFiles evidence instead of the (never-computed) "
+             "targetLearningFileTouched key",
+              eff_wrong_sid != "COMPLETE" and ev_wrong_sid.get("derived") is False
+              and ev_wrong_sid.get("sidInManifestAuditRecordIds") is False
+              and real_daf_learning_path in ev_wrong_sid.get("touchedFiles", []),
+              (eff_wrong_sid, ev_wrong_sid))
+
+    # ---- 31g. a squash commit with the CORRECT manifest for real_id (right
+    #           type, right sid in auditRecordIds, right target daf) but
+    #           whose diff never actually touches that daf's learning.json
+    #           (only an unrelated file changed) does NOT derive COMPLETE.
+    os.chdir(str(ROOT))
+    base_31g = reset_to_prereqs_satisfied([real_id])
+    r = wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+          "--range", real_daf, "--audit-record-id", real_id, "--out", ".worker-manifest.json")
+    check("(setup) manifest for the correct-manifest-wrong-file test generates successfully",
+          r.returncode == 0, out(r))
+    scratch = FIXTURE / "docs/reports/data/_test_unrelated_touch.txt"
+    scratch.write_text("unrelated change; never touches the target daf's learning.json\n")
+    commit("correct manifest, but the diff never touches the target daf's learning.json")
+    git("checkout", "-q", "-B", "main-sim", base_31g, cwd=FIXTURE)
+    sq = git("merge", "--squash", "work", cwd=FIXTURE)
+    check("(setup) correct-manifest-wrong-file squash-merge simulation applies cleanly",
+          sq.returncode == 0, out(sq))
+    commit("squash-merge: correct manifest, wrong (missing) file touch")
+    wrong_file_squash_sha = git("rev-parse", "HEAD", cwd=FIXTURE).stdout.strip()
+
+    os.chdir(FIXTURE)
+    if "generate_enrichment_repair_queue" in sys.modules:
+        del sys.modules["generate_enrichment_repair_queue"]
+    geq = importlib.import_module("generate_enrichment_repair_queue")
+    eff_wrong_file, ev_wrong_file = geq.derive_effective_status(
+        real_id, stored_record, squash_commit=wrong_file_squash_sha,
+        head_ref=wrong_file_squash_sha)
+    check("31g. a squash commit with the CORRECT manifest (right type, right sid, right "
+         "target daf) but whose diff never actually touches that daf's learning.json does "
+         "NOT derive COMPLETE",
+          eff_wrong_file != "COMPLETE" and ev_wrong_file.get("derived") is False
+          and ev_wrong_file.get("sidInManifestAuditRecordIds") is True
+          and ev_wrong_file.get("targetLearningFileTouched") is False,
+          (eff_wrong_file, ev_wrong_file))
+
     os.chdir(str(ROOT))
 
     # =========================================================================
