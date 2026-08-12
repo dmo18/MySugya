@@ -53,6 +53,37 @@ def out(r):
     return (r.stdout or "") + (r.stderr or "")
 
 
+def seed_synthetic_legacy_concepts(dest):
+    """Stamp a deterministic synthetic `concepts` key onto every sugya in the
+    fixture's OWN copy of the Yoma learning JSON, regardless of whether the
+    ambient real corpus this fixture was tar-copied from still carries the
+    legacy `concepts` field. The legacy-concepts-purge integration tests need
+    a fixture baseline that reliably has this removed field present so they
+    can exercise real deletion, null-instead-of-delete, content-edit, and
+    sibling-edit scenarios deterministically -- never by depending on the
+    real repository's own migration state, which changes exactly once this
+    purge itself lands. The synthetic value's shape does not matter (the
+    contract flags KEY PRESENCE, not content), so an empty dict is enough.
+    Regenerates the fixture's own learning_data.js/coverage.json afterward so
+    the fixture's generated-freshness gate stays internally consistent."""
+    learn_dir = dest / "modules/yoma/assets/learning/yoma"
+    for fp in sorted(learn_dir.glob("*.learning.json")):
+        doc = json.loads(fp.read_text(encoding="utf-8"))
+        changed = False
+        for s in doc.get("sugyot", []):
+            if "concepts" not in s:
+                s["concepts"] = {}
+                changed = True
+        if changed:
+            fp.write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    r1 = subprocess.run([sys.executable, "scripts/build_learning_data.py"],
+                        cwd=str(dest / "modules/yoma"), capture_output=True, text=True)
+    assert r1.returncode == 0, r1.stdout + r1.stderr
+    r2 = subprocess.run([sys.executable, "scripts/build_literal_layer.py", "--apply"],
+                        cwd=str(dest / "modules/yoma"), capture_output=True, text=True)
+    assert r2.returncode == 0, r2.stdout + r2.stderr
+
+
 def make_fixture_repo():
     tmp = pathlib.Path(tempfile.mkdtemp(prefix="mysugya-worker-fixture-"))
     dest = tmp / "repo"
@@ -68,6 +99,7 @@ def make_fixture_repo():
     # fixture's own initial commit below (git add -A -f), then keep getting
     # swept into every later `commit()` in these tests as a phantom scope
     # violation. Excluded above at the tar step; nothing else to do here.
+    seed_synthetic_legacy_concepts(dest)
     # The fixture excludes node_modules (heavy, irrelevant to worker_pipeline
     # itself) so the REAL pre-commit hook (which runs npm build/test) cannot
     # run here; replace it with a no-op inside the fixture only, so `git
