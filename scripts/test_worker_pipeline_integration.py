@@ -58,9 +58,16 @@ def make_fixture_repo():
     dest = tmp / "repo"
     dest.mkdir()
     r = subprocess.run(
-        "tar --exclude=.git --exclude=node_modules --exclude=dist -cf - . | tar -xf - -C %s" % dest,
+        "tar --exclude=.git --exclude=node_modules --exclude=dist --exclude=__pycache__ "
+        "-cf - . | tar -xf - -C %s" % dest,
         shell=True, cwd=str(ROOT), capture_output=True, text=True)
     assert r.returncode == 0, r.stderr
+    # __pycache__ is gitignored, so it is never a REAL tracked file, but a
+    # stray one left in the developer's own working tree (from running any
+    # scripts/*.py directly) would otherwise get force-added into the
+    # fixture's own initial commit below (git add -A -f), then keep getting
+    # swept into every later `commit()` in these tests as a phantom scope
+    # violation. Excluded above at the tar step; nothing else to do here.
     # The fixture excludes node_modules (heavy, irrelevant to worker_pipeline
     # itself) so the REAL pre-commit hook (which runs npm build/test) cannot
     # run here; replace it with a no-op inside the fixture only, so `git
@@ -1106,6 +1113,129 @@ try:
     r = wp("scope", "--manifest", ".worker-manifest.json", "--base", PREREQ_BASE_27)
     check("27. a summary change FAILS when no named record lists <daf>.summary",
           r.returncode != 0 and "<daf>.summary" in out(r), out(r))
+
+    os.chdir(str(ROOT))
+
+    # =========================================================================
+    # 28-31. THE CRITICAL MERGE-BASE-RATCHET REGRESSION TEST. This is the test
+    # that justifies the whole enrichment-regression-vs-merge-base gate: a
+    # genuine, already-merged improvement to a REAL baselined-invalid value
+    # must never be silently regressed by a later, unrelated PR -- even
+    # though the frozen historical baseline ALONE would still accept the
+    # regression, because that baseline enumerates ORIGINAL legacy debt and
+    # is never rewritten by ordinary repairs, so a value inside its envelope
+    # compares clean forever no matter what happened on main in between.
+    #
+    # Step 1: pick a sugya whose display.hint is CURRENTLY invalid in the
+    #         REAL frozen baseline (scripts/baselines/yoma_enrichment_
+    #         contract_debt.json) -- not an invented synthetic value, a value
+    #         the frozen baseline already carries, confirmed by fingerprint.
+    # Step 2: commit a legitimate improvement turning it into a
+    #         contract-valid question. This is the simulated new main /
+    #         merge-base (BASE_A_SHA).
+    # Step 3: from BASE_A_SHA, a later PR-like commit (a display-only-edit
+    #         manifest) changes the hint back to the EXACT ORIGINAL invalid
+    #         value.
+    # Step 4: prove all four sub-proofs from the task spec.
+    # =========================================================================
+    reset_to_base()
+    sys.path.insert(0, str(ROOT / "scripts"))
+    if "validate_enrichment_contracts" in sys.modules:
+        del sys.modules["validate_enrichment_contracts"]
+    import validate_enrichment_contracts as VEC
+
+    daf_28, sid_28 = "7b", "yoma-007b-s01"
+    doc28 = load_learning(daf_28)
+    sug28 = next(s for s in doc28["sugyot"] if s["id"] == sid_28)
+    ORIGINAL_INVALID_HINT = sug28["display"]["hint"]
+    fp28 = VEC.fingerprint_occurrence("hint_not_a_question", sid_28, "display.hint",
+                                      ORIGINAL_INVALID_HINT)
+    real_baseline = json.loads(
+        (ROOT / "scripts/baselines/yoma_enrichment_contract_debt.json").read_text())
+    real_fps_28 = {o["fingerprint"] for o in real_baseline["occurrences"].get("hint_not_a_question", [])
+                  if o["sugyaId"] == sid_28}
+    check("28. picked a REAL baselined-invalid value: its fingerprint matches the "
+         "frozen baseline's own occurrence for this sugya (not an invented value)",
+          fp28 in real_fps_28, (fp28, sorted(real_fps_28)))
+
+    # ---- 29. Base A: a legitimate improvement PR merges, turning the
+    #          invalid hint into a contract-valid question. Simulated new
+    #          main / merge-base. -------------------------------------------
+    IMPROVED_HINT = ("Why does R. Yehuda's proof from the YK kohein gadol backfire "
+                     "on R. Shimon's view?")
+    sug28["display"]["hint"] = IMPROVED_HINT
+    save_learning(daf_28, doc28)
+    rebuild_yoma()
+    commit("29. simulated improvement: fix yoma-007b-s01 display.hint (fixture only)")
+    BASE_A_SHA = git("rev-parse", "HEAD", cwd=FIXTURE).stdout.strip()
+
+    r29 = run([sys.executable, "scripts/validate_enrichment_contracts.py", "--module", "yoma"],
+             cwd=FIXTURE)
+    check("29. the improvement itself is contract-clean (frozen baseline holds)",
+          r29.returncode == 0, out(r29))
+
+    # ---- 30. Later PR: from Base A, revert the hint back to the EXACT
+    #          original invalid value -- a display-only-edit manifest is the
+    #          realistic vehicle for this kind of change. --------------------
+    git("checkout", "-q", "-b", "later-pr-28", BASE_A_SHA, cwd=FIXTURE)
+    wp("manifest", "--type", "display-only-edit", "--module", "yoma", "--range", daf_28,
+      "--out", ".worker-manifest.json")
+    doc30 = load_learning(daf_28)
+    sug30 = next(s for s in doc30["sugyot"] if s["id"] == sid_28)
+    sug30["display"]["hint"] = ORIGINAL_INVALID_HINT
+    save_learning(daf_28, doc30)
+    rebuild_yoma()
+    commit("30. simulated regression: reintroduce the exact original invalid "
+          "hint (fixture only)")
+
+    # ---- 30a. Sub-proof 1: ordinary frozen-baseline comparison ALONE (no
+    #           --compare-ref) ACCEPTS the restored old value -- demonstrates
+    #           the gap being fixed actually existed. ------------------------
+    r30a = run([sys.executable, "scripts/validate_enrichment_contracts.py", "--module", "yoma"],
+              cwd=FIXTURE)
+    check("30a. frozen-baseline-only comparison ALONE ACCEPTS the reintroduced "
+         "old value (the gap this PR closes)",
+          r30a.returncode == 0, out(r30a))
+
+    # ---- 30b. Sub-proof 2: the new --compare-ref <merge-base> comparison
+    #           REJECTS it. ---------------------------------------------------
+    r30b = run([sys.executable, "scripts/validate_enrichment_contracts.py", "--module", "yoma",
+               "--compare-ref", BASE_A_SHA], cwd=FIXTURE)
+    check("30b. --compare-ref <merge-base> REJECTS the reintroduced old value",
+          r30b.returncode != 0 and "hint_not_a_question" in out(r30b) and sid_28 in out(r30b)
+          and "MERGE-BASE MONOTONIC RATCHET" in out(r30b), out(r30b))
+
+    # ---- 30c. Sub-proof 3: `worker_pipeline.py verify` (with the new gate
+    #           wired in) REJECTS it. -----------------------------------------
+    r30c = wp("verify", "--manifest", ".worker-manifest.json", "--base", BASE_A_SHA)
+    check("30c. worker_pipeline.py verify REJECTS the reintroduced old value "
+         "(enrichment-regression-vs-merge-base gate fires)",
+          r30c.returncode != 0 and "enrichment-regression-vs-merge-base" in out(r30c)
+          and "FAIL  enrichment-regression-vs-merge-base" in out(r30c), out(r30c))
+
+    # ---- 30d. Sub-proof 4: `worker_pipeline.py ci-check` REJECTS it. --------
+    r30d = wp("ci-check", "--base", BASE_A_SHA)
+    check("30d. worker_pipeline.py ci-check REJECTS the reintroduced old value "
+         "(enrichment-regression-vs-merge-base enforced in CI)",
+          r30d.returncode != 0 and "enrichment-regression-vs-merge-base" in out(r30d), out(r30d))
+
+    # ---- 31. Sanity: the SAME manifest/base, but with the hint left at the
+    #          improved value (no regression), passes verify cleanly -- proves
+    #          30c/30d fail for the right reason (the reintroduced value),
+    #          not for some unrelated fixture artifact. ----------------------
+    git("checkout", "-q", "-b", "later-pr-clean-31", BASE_A_SHA, cwd=FIXTURE)
+    wp("manifest", "--type", "display-only-edit", "--module", "yoma", "--range", daf_28,
+      "--out", ".worker-manifest.json")
+    doc31 = load_learning(daf_28)
+    sug31 = next(s for s in doc31["sugyot"] if s["id"] == sid_28)
+    sug31["display"]["title"] = sug31["display"]["title"] + " (unrelated copy touch-up)"
+    save_learning(daf_28, doc31)
+    rebuild_yoma()
+    commit("31. unrelated display-only-edit that does not touch the fixed hint")
+    r31 = run([sys.executable, "scripts/validate_enrichment_contracts.py", "--module", "yoma",
+              "--compare-ref", BASE_A_SHA], cwd=FIXTURE)
+    check("31. --compare-ref PASSES for an unrelated change that leaves the fix intact",
+          r31.returncode == 0, out(r31))
 
     os.chdir(str(ROOT))
 

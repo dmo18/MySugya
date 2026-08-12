@@ -7,7 +7,13 @@ The merged audit (`docs/reports/yoma-tail-enrichment-audit.md`) is historical ev
 - Audit source SHA: `3aa90cde8c50f8489e2e7ca6f4bbe7ffe034f9d5`
 - Queued records: **82** (every audit record whose overall disposition is not VERIFIED, exactly once)
 - Contract authority: `docs/reports/yoma-enrichment-contract-decision.md`
-- Gate: `scripts/validate_enrichment_contracts.py` (baseline-and-ratchet, `--targets` for target-clean)
+- Gate: `scripts/validate_enrichment_contracts.py`, TWO layered comparisons run
+  together: (1) the frozen historical baseline (`--targets` for target-clean),
+  which never shrinks on its own and only bounds debt to the campaign's
+  original envelope; (2) the merge-base monotonic ratchet (`--compare-ref
+  <merge-base>`), which compares this PR against current main and is what
+  actually stops a later PR from reintroducing a violation an earlier PR
+  already fixed. See "Two-layer enrichment-contract gate" below.
 
 ## Queue totals
 
@@ -60,6 +66,30 @@ this revision it is **partially enforced mechanically, not fully**:
   for whoever assembles each repair PR, not a gate the tooling itself
   enforces. This paragraph is the accurate statement of that gap; do not read
   the numbered list above as claiming otherwise.
+
+## Two-layer enrichment-contract gate
+
+The frozen historical baseline (`scripts/baselines/yoma_enrichment_contract_debt.json`)
+enumerates the ORIGINAL legacy debt from when this campaign started and is
+never rewritten by an ordinary repair PR; it answers "is the corpus still
+inside the envelope of debt the campaign started with?" It does NOT, by
+itself, make repaired counts stay repaired across separate merged PRs: a
+value that has always been within that frozen envelope compares clean
+against it forever, so a later, unrelated PR can silently put an
+already-fixed invalid value right back and the frozen-baseline comparison
+alone would accept it.
+
+The merge-base monotonic ratchet (`compare_to_merge_base`, invoked via
+`--compare-ref <this PR's actual git merge-base>`) closes that gap: it reads
+the SAME module's generated data at the merge-base with real `git show`
+data (never a hand-maintained snapshot) and requires current occurrences to
+be a multiset subset of the merge-base's occurrences, rule by rule, sugya by
+sugya. A previously-merged improvement can therefore never be silently
+regressed by a later PR, even though the regressed value would still fall
+inside the frozen envelope. Both checks run and both must pass; neither
+replaces the other. `scripts/worker_pipeline.py`'s `verify` and `ci-check`
+subcommands run the merge-base ratchet automatically whenever a PR changes
+the active module's learning data, independent of task type.
 
 ## Prerequisites before any semantic repair
 

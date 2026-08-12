@@ -572,6 +572,29 @@ queue derivation mechanics, and the no-direct-push guarantees.
   Override is operator-only: manifest authorizeDriftOverride
   plus WORKER_DRIFT_OVERRIDE=1. Tests: npm run test:drift:yoma (in npm
   test).
+- Enrichment-contract gate (`scripts/validate_enrichment_contracts.py`) is
+  TWO layered comparisons, both required: (1) the frozen historical
+  baseline (`scripts/baselines/<module>_enrichment_contract_debt.json`),
+  which enumerates the campaign's ORIGINAL legacy debt and is never
+  rewritten by an ordinary repair -- it bounds a single PR's before/after
+  comparison to that original envelope, but does NOT by itself stop a
+  later, separate PR from reintroducing a violation an earlier PR already
+  fixed on main, since a value inside the frozen envelope compares clean
+  against it forever; (2) the merge-base monotonic ratchet
+  (`--compare-ref <git-ref>`, comparing against the SAME module's
+  generated data at that ref via real `git show`, never a hand-maintained
+  snapshot), which closes that gap by requiring current occurrences to be
+  a multiset subset of the occurrences at the PR's actual merge-base.
+  `worker:verify` and `ci-check` both run the merge-base ratchet
+  automatically (`enrichment-regression-vs-merge-base`) whenever a PR
+  changes the active module's learning data, for every task type, not only
+  the three enrichment-authoring task types. The existing
+  `task-scoped-enrichment-clean` check (rule/target-scoped, task-type
+  specific) is unchanged and answers a different question ("did this task
+  clean the rules it owns?"); both checks run and neither substitutes for
+  the other. Full design: `docs/reports/yoma-enrichment-contract-decision.md`.
+  Tests: `scripts/test_enrichment_contracts.py`,
+  `scripts/test_worker_pipeline_integration.py`.
 - Known deferred content debt lives in docs/rashi-audit-backlog.md:
   61a lines 1-45 fabricated (rashi-reconstruction);
   67b/68a/68b/70a/71b shifted-compressed (rashi-realignment;
