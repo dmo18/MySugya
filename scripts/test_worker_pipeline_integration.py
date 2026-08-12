@@ -65,7 +65,17 @@ def seed_synthetic_legacy_concepts(dest):
     purge itself lands. The synthetic value's shape does not matter (the
     contract flags KEY PRESENCE, not content), so an empty dict is enough.
     Regenerates the fixture's own learning_data.js/coverage.json afterward so
-    the fixture's generated-freshness gate stays internally consistent."""
+    the fixture's generated-freshness gate stays internally consistent.
+
+    The seeded value's CONTENT fingerprint differs from whatever the real,
+    tar-copied frozen baseline recorded for the ORIGINAL concepts content
+    (which no longer exists once the real corpus has actually been purged),
+    so the fixture's own baseline is regenerated fresh (--update-baseline)
+    against this now-seeded corpus too. Every OTHER rule's debt (hint,
+    finalRuling, etc.) is untouched by seeding, so this reproduces identical
+    entries for those rules while making legacy_concepts_present internally
+    consistent with the fixture's own deterministic seeded state -- never
+    with the real repository's historical baseline content."""
     learn_dir = dest / "modules/yoma/assets/learning/yoma"
     for fp in sorted(learn_dir.glob("*.learning.json")):
         doc = json.loads(fp.read_text(encoding="utf-8"))
@@ -82,6 +92,10 @@ def seed_synthetic_legacy_concepts(dest):
     r2 = subprocess.run([sys.executable, "scripts/build_literal_layer.py", "--apply"],
                         cwd=str(dest / "modules/yoma"), capture_output=True, text=True)
     assert r2.returncode == 0, r2.stdout + r2.stderr
+    r3 = subprocess.run([sys.executable, "scripts/validate_enrichment_contracts.py",
+                        "--module", "yoma", "--update-baseline"],
+                        cwd=str(dest), capture_output=True, text=True)
+    assert r3.returncode == 0, r3.stdout + r3.stderr
 
 
 def make_fixture_repo():
