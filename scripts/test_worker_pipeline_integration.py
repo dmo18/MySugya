@@ -479,6 +479,22 @@ try:
         doc = load_learning(daf)
         for s in doc.get("sugyot", []):
             s.pop("concepts", None)
+            # Force prereq_id's own migration fields back to a deterministic
+            # PRE-migration shape, regardless of whether the real repository
+            # this fixture was tar-copied from has already landed an
+            # enrichment-schema-migration for this exact sugya (as happens
+            # for whatever sugya sits at repair-queue position 0 once its
+            # own migration PR merges). 13b/13b2 need a genuinely unsatisfied
+            # migration prerequisite here to exercise the real gate; relying
+            # on the ambient corpus state would make this test fail the
+            # moment that real migration lands, exactly the scenario the
+            # concepts-purge tests already learned to guard against via
+            # seed_synthetic_legacy_concepts above.
+            if s.get("id") == prereq_id:
+                s["requiresUnderstanding"] = ["Synthetic pre-migration prerequisite prose."]
+                s.pop("prerequisiteKnowledge", None)
+                s["visualizableElements"] = [
+                    {"type": "action", "name": "Synthetic pre-migration element"}]
         save_learning(daf, doc)
     rebuild_yoma()
     commit("purge concepts corpus-wide, migration prerequisites still unmet")
