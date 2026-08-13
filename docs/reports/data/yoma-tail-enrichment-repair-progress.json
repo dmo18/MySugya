@@ -4,13 +4,13 @@
  "note": "Mutable repair-progress tracking, keyed by sugyaId. This file, NOT the queue file, is where a semantic repair PR records its own advancing status. Status transitions are validated against ALLOWED_TRANSITIONS in this script; COMPLETE is terminal.",
  "progress": {
   "yoma-082b-s01": {
-   "status": "FIXED_PENDING_REVIEW",
+   "status": "APPROVED_PENDING_MERGE",
    "prNumber": null,
-   "repairCommit": null,
+   "repairCommit": "3f126c7319ecb82306366b4b4e166d68a162afd5",
    "mergedCommit": null,
    "version": "15.492",
-   "reviewer": null,
-   "independentReviewResult": null,
+   "reviewer": "independent-general-purpose-agent",
+   "independentReviewResult": "APPROVED: verified against argumentFlow (locked source evidence) and the audit record's affectedFields that (a) no Yom Kippur murderer-rescue claim remains in display/learning/finalRuling/topicTags/visualizableElements, (b) finalRuling is an independent halachic statement distinct from display.hint, (c) display.hint is a complete question with no ellipsis pointing to Rava's blood-value reasoning, (d) topicTags are clean source-supported slugs, (e) argumentFlow/quizSeeds/misconceptions/source/Rashi/linkedGemaraLineIds/yoma-082b-s02 are byte-identical to before, (f) the daf-level summary is untouched (deferred). Noted one non-blocking follow-up: prerequisiteKnowledge still carries pre-repair boilerplate prose, out of this PR's authorized scope.",
    "blockerReason": null
   },
   "yoma-087b-s03": {
