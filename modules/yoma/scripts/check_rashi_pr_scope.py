@@ -72,10 +72,20 @@ RASHI_CAMPAIGN_INVENTORY = "docs/reports/data/rashi-translation-quality-inventor
 RASHI_STEP6_REPORT_PREFIX = "docs/reports/rashi-step6-batch-"
 RASHI_STEP6_RECORDS_PREFIX = "docs/reports/data/rashi-step6-batch-"
 RASHI_STEP6_STRATEGY_DOC = "docs/reports/rashi-full-corpus-review-strategy.md"
+# The audited-sugya-enrichment-repair lifecycle records its own advancing
+# status (NOT_STARTED -> IN_PROGRESS -> FIXED_PENDING_REVIEW -> ...) in this
+# file as part of the SAME content-repair PR that edits the learning JSON --
+# see generate_enrichment_repair_queue.py and worker_pipeline.py's
+# REPAIR_PROGRESS_PATH. It is infrastructure bookkeeping, not enrichment
+# content, so it belongs alongside the other always-allowed worker-pipeline
+# files (.worker-manifest.json etc.) rather than being rejected as an
+# unexpected file in the content PR's diff.
+REPAIR_PROGRESS_PATH = "docs/reports/data/yoma-tail-enrichment-repair-progress.json"
 ALWAYS_ALLOWED = {"VERSION", "package.json", "package-lock.json",
                   "docs/rashi-audit-backlog.md", ".worker-manifest.json",
                   ".worker-self-review.json", ".worker-queue.json",
                   RASHI_CAMPAIGN_INVENTORY, RASHI_STEP6_STRATEGY_DOC,
+                  REPAIR_PROGRESS_PATH,
                   "scripts/worker_task_types.json",
                   "modules/yoma/scripts/check_rashi_pr_scope.py",
                   "modules/yoma/scripts/validate_rashi_review_records.py",
