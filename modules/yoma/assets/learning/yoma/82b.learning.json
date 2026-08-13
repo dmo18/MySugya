@@ -1,6 +1,6 @@
 {
  "canonicalRef": "Yoma 82b",
- "summary": "Tractate Yoma daf 82b covers: A murderer's own life: do we violate YK to save him?; Story of a pregnant woman's craving; R. Yannai whispers to her.",
+ "summary": "Tractate Yoma daf 82b covers: Rava's reasoning that one must accept death rather than murder another, since no one's blood is redder than another's; and two contrasting cases of a pregnant woman craving food on Yom Kippur, where Rabbi Yehuda HaNasi's reminder settles the craving but Rabbi Chanina's does not.",
  "sugyot": [
   {
    "sugyaNumber": 1,
@@ -114,16 +114,16 @@
     "Yoma.82b.3"
    ],
    "display": {
-    "whats": "Story of a pregnant woman's craving; R. Yannai whispers to her",
-    "hint": "A story: a pregnant woman craved food on Yom Kippur. R. Yannai whispered something in her ear and she was satisfied without eating. The Gemara derives a lesson about the power of suggestion and the re...",
-    "title": "R. Yannai's Whisper to the Pregnant Woman"
+    "whats": "Two pregnant women crave food on Yom Kippur: why does a reminder settle one and not the other?",
+    "hint": "Two pregnant women craving food on Yom Kippur are each reminded that it is Yom Kippur - why does Rabbi Yehuda HaNasi's reminder settle the first woman's craving, while Rabbi Chanina's reminder, in a parallel case, does not settle the second woman's craving?",
+    "title": "When a Whispered Reminder Works and When It Doesn't"
    },
    "learning": {
     "ahaMoment": "R. Yannai's story is about the relationship between halakhic defaults and creative sage intervention: the rule stands ready; a sage may try wisdom before invoking it.",
     "memoryAnchor": "R. Yannai whispered, the craving resolved - but the rule to feed was always there as the backup.",
-    "learnerQuestion": "What did R. Yannai whisper to the pregnant woman craving food on Yom Kippur, and why did it work?",
+    "learnerQuestion": "Why does Rabbi Yehuda HaNasi's reminder to a craving pregnant woman succeed while Rabbi Chanina's reminder, in a similar case, fails?",
     "coreTension": "Between the halakhic rule (feed a pregnant woman who craves food) and a seemingly miraculous alternative where the craving is resolved without feeding.",
-    "coreMove": "R. Yannai's whisper resolved the craving without breaking the fast. The story raises the question of whether this was miraculous (divine assistance) or psychological (reassurance resolved psychosomatic hunger). Either way, it illustrates that the halakhic default (feed her) was available; R. Yannai tried another path first.",
+    "coreMove": "Rabbi Yehuda HaNasi's reminder that it is Yom Kippur settles the first woman's craving, so feeding her is never triggered. In a parallel case, the same kind of reminder given by Rabbi Chanina fails to settle the second woman's craving. The contrast between the two outcomes shows that a reminder is tried first, but the halakha permitting her to eat remains available whenever the reminder does not work.",
     "takeaway": {
      "type": "conceptual",
      "text": "The story of R. Yannai's whisper illustrates that halakhic defaults (feed the craving woman) represent the baseline, but sages might try other interventions first when available; the halakha remains the safety net when the alternative fails."
@@ -161,11 +161,11 @@
     }
    ],
    "topicTags": [
-    "pregnant woman",
+    "pregnant-woman",
     "craving",
-    "R. Yannai",
-    "suggestion",
-    "YK"
+    "yom-kippur",
+    "rabbi-yehuda-hanasi",
+    "rabbi-chanina"
    ],
    "conceptRefs": [],
    "requiresUnderstanding": [],
@@ -178,7 +178,7 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "item": "Story of a pregnant woman's craving; R. Yannai whi",
+     "item": "Two pregnant women's cravings on Yom Kippur: Rabbi Yehuda HaNasi's reminder succeeds, Rabbi Chanina's does not",
      "type": "action"
     }
    ],
@@ -192,7 +192,7 @@
      "answer": "In Rabbi Yehuda HaNasi's case the whisper settled the woman and the child became righteous; in Rabbi Chanina's case the whisper failed, foreshadowing a different character in the child."
     }
    ],
-   "finalRuling": "A story: a pregnant woman craved food on Yom Kippur. R. Yannai whispered something in her ear and she was satisfied without eating. The Gemara derives",
+   "finalRuling": "A pregnant woman whose craving for food on Yom Kippur is not settled by a reminder that it is a fast day must be given food, since the reminder is only a first attempt and the underlying halakha remains in force when it fails.",
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
