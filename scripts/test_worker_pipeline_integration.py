@@ -640,6 +640,14 @@ try:
     #          reviewer AND independentReviewResult -------------------------
     reset_to_base()
     prog = json.loads(prog_path.read_text())
+    # Force real_id's reviewer/independentReviewResult back to unset,
+    # regardless of whatever the ambient real corpus this fixture was
+    # tar-copied from currently carries for this record (it may already be a
+    # genuinely-reviewed APPROVED_PENDING_MERGE/COMPLETE record once a real
+    # repair for it has landed) -- this test constructs its own deterministic
+    # "review fields never set" scenario rather than depending on real state.
+    prog["progress"][real_id]["reviewer"] = None
+    prog["progress"][real_id]["independentReviewResult"] = None
     prog["progress"][real_id]["status"] = "IN_PROGRESS"
     prog_path.write_text(json.dumps(prog, ensure_ascii=False, indent=1) + "\n")
     commit("step 1: IN_PROGRESS")
