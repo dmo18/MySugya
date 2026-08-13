@@ -314,7 +314,16 @@ def audit_affected_fields(ids):
 # the paths its declared kinds own.
 MIGRATION_KINDS = ("requires-understanding", "visualizable-elements", "difficulty")
 MIGRATION_KIND_PATHS = {
+    # prerequisiteKnowledge is included BOTH bare (matches the whole-array
+    # JSON pointer, e.g. when the array is created from scratch on a sugya
+    # that never had one -- its first use, since the field previously did
+    # not exist on any sugya) and with a trailing [*] (matches individual
+    # element pointers). pattern_to_regex's allow_children=True already lets
+    # the bare form match children too, but requiresUnderstanding[*]/
+    # visualizableElements[*] never need the bare form since those arrays
+    # always pre-exist and only their elements or length change.
     "requires-understanding": ["sugyot[*].requiresUnderstanding[*]",
+                               "sugyot[*].prerequisiteKnowledge",
                                "sugyot[*].prerequisiteKnowledge[*]"],
     "visualizable-elements": ["sugyot[*].visualizableElements[*]"],
     "difficulty": ["sugyot[*].difficulty"],
