@@ -198751,7 +198751,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of Rav context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -198765,8 +198766,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "Rav went to appease R. Hiyya; R. Hiyya refused; th"
+            item: "Rav went to appease R. Hiyya; R. Hiyya refused; th",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -198892,7 +198893,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of vidui context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -198906,8 +198908,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "Main mitzva of vidui (confession) is on Yom Kippur"
+            item: "Main mitzva of vidui (confession) is on Yom Kippur",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -199084,7 +199086,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of Hadran context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -199098,8 +199101,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "Closing of tractate Yoma: Hadran formula; referenc"
+            item: "Closing of tractate Yoma: Hadran formula; referenc",
+            type: "action"
           }
         ],
         quizSeeds: [
