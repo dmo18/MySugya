@@ -144,13 +144,13 @@
    "blockerReason": null
   },
   "yoma-082b-s02": {
-   "status": "FIXED_PENDING_REVIEW",
+   "status": "APPROVED_PENDING_MERGE",
    "prNumber": null,
-   "repairCommit": null,
+   "repairCommit": "eac7cde",
    "mergedCommit": null,
    "version": "15.493",
-   "reviewer": null,
-   "independentReviewResult": null,
+   "reviewer": "independent-general-purpose-agent",
+   "independentReviewResult": "APPROVED: verified against argumentFlow (locked source evidence) and the audit record's affectedFields that (a) Rabbi Yehuda HaNasi correctly replaces R. Yannai in every touched field, (b) the Rabbi Chanina contrast is present in display.hint and learning fields, (c) no source content was invented beyond the pre-existing inherited coreMove gloss (not newly introduced, not audit-flagged), (d) finalRuling is independent and complete, (e) display.hint is a complete question with no ellipsis, (f) topicTags are clean slugs, (g) argumentFlow/quizSeeds/misconceptions/yoma-082b-s01/source/Rashi/linkedGemaraLineIds are byte-identical to before, and the repaired 82b daf-level summary accurately covers both real sugyot with no R. Yannai or murderer-pikuach-nefesh framing. Noted (non-blocking, expected, out of scope): learning.ahaMoment/memoryAnchor/coreTension/learningBlocker/takeaway.text still reference R. Yannai, since the audit's affectedFields does not authorize touching them for this record.",
    "blockerReason": null
   },
   "yoma-083b-s03": {
