@@ -6,7 +6,7 @@
   "yoma-082b-s01": {
    "status": "APPROVED_PENDING_MERGE",
    "prNumber": null,
-   "repairCommit": "3f126c7319ecb82306366b4b4e166d68a162afd5",
+   "repairCommit": "b380bf7",
    "mergedCommit": null,
    "version": "15.492",
    "reviewer": "independent-general-purpose-agent",
