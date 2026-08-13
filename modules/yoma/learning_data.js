@@ -185126,21 +185126,21 @@ const DAF_CONTENT = {
           endVilnaLine: 1
         },
         display: {
-          whats: "A murderer's own life: do we violate YK to save him?",
-          hint: "The Gemara asks whether we violate Yom Kippur to save the life of a murderer - the one who took life, do we take risks to save his? The tension between the victim's blood and the murderer's life is ex...",
-          title: "Does Pikuach Nefesh Apply to a Murderer?"
+          whats: "Must a person accept death rather than murder another to save himself?",
+          hint: "If a ruler orders you to kill an innocent person or be killed yourself, why does Rava say you must accept death rather than commit the murder - what makes you so sure your own blood is redder than his?",
+          title: "Is My Blood Redder Than His?"
         },
         learning: {
-          ahaMoment: "The murderer question is a philosophical limit-test: does the 'Torah was given to live by' apply to all lives equally, or only to those who have not forfeited legal life-protection?",
-          memoryAnchor: "Murderer's life on YK: the question itself is the teaching - pikuach nefesh meets judicial forfeiture.",
-          learnerQuestion: "Do we violate Yom Kippur to save the life of someone who has committed murder?",
-          coreTension: "Between the universal application of pikuach nefesh (all lives override YK) and the intuition that a murderer's life might be treated differently by the same law that would have obligated execution.",
-          coreMove: "The Gemara raises but does not definitively resolve the question: does someone who forfeited their life-protection by committing murder still benefit from pikuach nefesh? The question forces a distinction between the life-value principle and the judicial forfeiture of life.",
+          ahaMoment: "The law is derived by pure reason, not a verse: since no one can prove his own blood is worth more than another's, self-preservation never justifies murder.",
+          memoryAnchor: "Who says your blood is redder? Die rather than murder.",
+          learnerQuestion: "If someone will kill me unless I kill an innocent person first, why can't I save myself?",
+          coreTension: "Between the instinct to preserve one's own life at any cost and the impossibility of proving that one person's life outweighs another's.",
+          coreMove: "Rava answers the man's dilemma with a rhetorical question - who says your blood is redder than his? - showing there is no basis to value one's own life above another's, so murder to save oneself is forbidden even on pain of death.",
           takeaway: {
             type: "legal_principle",
-            text: "The question of whether pikuach nefesh applies to a murderer reveals a distinction between intrinsic life-value (which pikuach nefesh protects) and judicial life-status (which murder can forfeit); the tension between these two frameworks is unresolved."
+            text: "Murder may never be committed to save one's own life, since there is no way to establish that one's own blood is worth more than the victim's."
           },
-          learningBlocker: "Students may assume pikuach nefesh is simply universal and be surprised by the question; the Gemara is probing the philosophical foundations of the principle."
+          learningBlocker: "Students may assume self-preservation justifies nearly anything; the sevara shows it cannot justify taking an innocent life, since no objective standard makes one life worth more than another."
         },
         lines: [
           { id: "yoma-082b-l01", kind: "gemara", he: "וְרוֹצֵחַ גּוּפֵיהּ מְנָא לַן? סְבָרָא הִיא: דְּהָהוּא\nדַּאֲתָא לְקַמֵּיהּ (דְּרָבָא), אֲמַר לֵיהּ, אֲמַר לִי\nמָרֵי דּוּרַאי: קִטְלֵיהּ לִפְלָנְיָא, וְאִי לָא — קָטֵילְנָא לָךְ.\nאֲמַר לֵיהּ: נִקְטְלָךְ וְלָא תִּקְטוֹל. מַאי חָזֵית דִּדְמָא דִּידָךְ\nסוּמָּק טְפֵי? דִּילְמָא דְּמָא דְּהָהוּא גַּבְרָא סוּמָּק טְפֵי!",
@@ -185178,7 +185178,7 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            item: "A murderer's own life: do we violate YK to save hi",
+            item: "Man ordered to kill or be killed: Rava rules on whose blood is redder",
             type: "action"
           }
         ],
@@ -185192,14 +185192,14 @@ const DAF_CONTENT = {
             answer: "Not from a verse but from pure reason: there is no way to value one life above another, so a person may not take an innocent life even to save his own."
           }
         ],
-        finalRuling: "The Gemara asks whether we violate Yom Kippur to save the life of a murderer - the one who took life, do we take risks to save his? The tension betwee",
+        finalRuling: "One must accept death rather than murder another person, since there is no basis for preferring one's own life over the life of the intended victim.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "murderer",
-          "pikuach nefesh",
-          "YK",
-          "moral complexity"
+          "murder",
+          "self-preservation",
+          "yehareg-veal-yaavor",
+          "sevara"
         ],
         review: "draft"
       },

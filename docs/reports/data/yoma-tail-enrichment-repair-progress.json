@@ -4,11 +4,11 @@
  "note": "Mutable repair-progress tracking, keyed by sugyaId. This file, NOT the queue file, is where a semantic repair PR records its own advancing status. Status transitions are validated against ALLOWED_TRANSITIONS in this script; COMPLETE is terminal.",
  "progress": {
   "yoma-082b-s01": {
-   "status": "IN_PROGRESS",
+   "status": "FIXED_PENDING_REVIEW",
    "prNumber": null,
    "repairCommit": null,
    "mergedCommit": null,
-   "version": null,
+   "version": "15.492",
    "reviewer": null,
    "independentReviewResult": null,
    "blockerReason": null
