@@ -12,7 +12,8 @@
  "reviewPolicy": "none",
  "escalationModel": "sonnet",
  "authorizations": [
-  "authorizeMigration"
+  "authorizeMigration",
+  "allowStructure"
  ],
  "maxBatch": 1,
  "allowedFiles": [
@@ -28,6 +29,7 @@
  ],
  "allowedJsonPaths": [
   "sugyot[*].requiresUnderstanding[*]",
+  "sugyot[*].prerequisiteKnowledge",
   "sugyot[*].prerequisiteKnowledge[*]",
   "sugyot[*].visualizableElements[*]",
   "sugyot[*].difficulty"
