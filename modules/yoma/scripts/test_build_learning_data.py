@@ -105,6 +105,15 @@ def test_schema_version_preserve_and_override():
     dest = make_temp_copy()
     script = dest / "scripts" / "build_learning_data.py"
 
+    # Read whatever DATA_SCHEMA_VERSION the corpus this copy was made from
+    # currently carries, rather than assuming a hardcoded "1.0" -- that
+    # literal drifts forward the moment a real --schema-version bump lands
+    # (e.g. an enrichment-schema-migration PR), so this test must track the
+    # CURRENT committed value, not a frozen one.
+    existing_out = (dest / "learning_data.js").read_text()
+    existing_schema_version = re.search(r'const DATA_SCHEMA_VERSION\s*=\s*"([^"]+)"',
+                                        existing_out).group(1)
+
     r = subprocess.run([sys.executable, str(script)], cwd=str(dest),
                        capture_output=True, text=True)
     check("(setup) default regeneration on the disposable copy succeeds",
@@ -112,10 +121,12 @@ def test_schema_version_preserve_and_override():
     default_out = (dest / "learning_data.js").read_text()
     m_top = re.search(r'const DATA_SCHEMA_VERSION\s*=\s*"([^"]+)"', default_out)
     m_meta = re.search(r'schemaVersion:\s*"([^"]+)"', default_out)
-    check("running normally preserves DATA_SCHEMA_VERSION as the existing 1.0",
-          bool(m_top) and m_top.group(1) == "1.0", m_top)
-    check("running normally preserves TRACTATE_META.schemaVersion as the existing 1.0",
-          bool(m_meta) and m_meta.group(1) == "1.0", m_meta)
+    check("running normally preserves DATA_SCHEMA_VERSION as the existing %s"
+         % existing_schema_version,
+          bool(m_top) and m_top.group(1) == existing_schema_version, m_top)
+    check("running normally preserves TRACTATE_META.schemaVersion as the existing %s"
+         % existing_schema_version,
+          bool(m_meta) and m_meta.group(1) == existing_schema_version, m_meta)
 
     r2 = subprocess.run([sys.executable, str(script), "--schema-version", "1.1-test"],
                         cwd=str(dest), capture_output=True, text=True)
@@ -133,7 +144,7 @@ def test_schema_version_preserve_and_override():
                                             override_out.splitlines(), lineterm=""))
     unrelated = [l for l in diff_lines if l.startswith(("+", "-"))
                  and not l.startswith(("+++", "---"))
-                 and "1.0" not in l and "1.1-test" not in l]
+                 and existing_schema_version not in l and "1.1-test" not in l]
     check("only the schema-version lines differ between the default and override runs",
           not unrelated, unrelated[:10])
 
