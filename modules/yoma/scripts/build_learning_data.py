@@ -286,6 +286,15 @@ def build_daf_entry(daf):
         sug.update({
             "conceptRefs": e["conceptRefs"],
             "requiresUnderstanding": e["requiresUnderstanding"],
+        })
+        # prerequisiteKnowledge is the new optional canonical field for prose
+        # prerequisites (see docs/reports/yoma-enrichment-contract-decision.md).
+        # Lossless optional passthrough: emitted unchanged when the enrichment
+        # JSON carries it (including an explicit empty list), never fabricated
+        # when absent.
+        if "prerequisiteKnowledge" in e:
+            sug["prerequisiteKnowledge"] = e["prerequisiteKnowledge"]
+        sug.update({
             "misconceptions": e["misconceptions"],
             "relatedSugyot": e["relatedSugyot"],
             "visualizableElements": e["visualizableElements"],
@@ -332,6 +341,9 @@ def slice_between(text, start_token, end_token):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--version", help="set DATA_VERSION (else preserve current)")
+    ap.add_argument("--schema-version",
+                    help="set DATA_SCHEMA_VERSION / TRACTATE_META.schemaVersion "
+                         "(else preserve current)")
     args = ap.parse_args()
 
     src = SOURCE_JS.read_text()
@@ -344,6 +356,21 @@ def main():
     if not version:
         m = re.search(r'const DATA_VERSION\s*=\s*"([^"]+)"', src)
         version = m.group(1) if m else "0.0"
+
+    # schema_version: explicit arg, else keep existing learning_data.js value,
+    # else source_store.js -- identical resolution shape to DATA_VERSION above,
+    # so a normal run on an already-generated corpus always preserves the
+    # current schema version rather than silently reinventing it. This single
+    # value drives both DATA_SCHEMA_VERSION and TRACTATE_META.schemaVersion,
+    # which are always kept mirrored (see shared/schema_map.js: "schemaVersion
+    # ... Mirror of DATA_SCHEMA_VERSION").
+    schema_version = args.schema_version
+    if not schema_version and OUT_JS.exists():
+        m = re.search(r'const DATA_SCHEMA_VERSION\s*=\s*"([^"]+)"', OUT_JS.read_text())
+        if m: schema_version = m.group(1)
+    if not schema_version:
+        m = re.search(r'const DATA_SCHEMA_VERSION\s*=\s*"([^"]+)"', src)
+        schema_version = m.group(1) if m else "1.0"
 
     # header: PERAKIM + DAF_INDEX carried over verbatim
     perek_index_block = slice_between(src, "const PERAKIM = [", "];")
@@ -374,7 +401,7 @@ def main():
         "title": "Yoma",
         "title_he": "יוֹמָא",
         "seder": "Moed",
-        "schemaVersion": "1.0",
+        "schemaVersion": schema_version,
         "sourceEdition": "Vilna / Sefaria / talmud.dev",
         "dafRange": {"first": "2a", "last": "88a"},
         "totalDaf": 173,
@@ -394,7 +421,7 @@ def main():
     # platform VERSION in repo root unless policy changes; it is not synced
     # by scripts/sync_version.py and has no required relationship to it.
     out.append(f'const DATA_VERSION = "{version}";        // module data-layer version, independent from platform VERSION')
-    out.append('const DATA_SCHEMA_VERSION = "1.0";   // sugya/line object shape version')
+    out.append(f'const DATA_SCHEMA_VERSION = "{schema_version}";   // sugya/line object shape version')
     out.append('const LEARNING_DATA_VERSION = DATA_VERSION;')
     out.append("const TRACTATE_META = " + js(meta, indent=0) + ";")
     out.append("TRACTATE_META.dataVersion = DATA_VERSION;  // always mirrors DATA_VERSION - never a stale literal")
