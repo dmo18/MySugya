@@ -58,10 +58,7 @@
     "moral complexity"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of murderer context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "One may kill another to save his own life since his own life takes priority.",
@@ -71,8 +68,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "A murderer's own life: do we violate YK to save hi"
+     "item": "A murderer's own life: do we violate YK to save hi",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -89,7 +86,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of murderer context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -167,10 +168,7 @@
     "YK"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of pregnant woman context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "A craving pregnant woman is immediately fed forbidden food on Yom Kippur.",
@@ -180,8 +178,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "Story of a pregnant woman's craving; R. Yannai whi"
+     "item": "Story of a pregnant woman's craving; R. Yannai whi",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -198,7 +196,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of pregnant woman context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   }
  ],
  "glossary": [],

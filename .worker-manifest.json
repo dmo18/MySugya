@@ -1,50 +1,53 @@
 {
- "type": "docs-tooling",
+ "type": "enrichment-schema-migration",
  "module": "yoma",
- "targets": [],
+ "targets": [
+  "82b"
+ ],
  "model": "sonnet",
  "paused": false,
  "lifecycle": "pr",
- "mechanicalTier": false,
+ "mechanicalTier": true,
  "independentReviewRequired": false,
  "reviewPolicy": "none",
  "escalationModel": "sonnet",
- "authorizations": [],
- "maxBatch": null,
+ "authorizations": [
+  "authorizeMigration",
+  "allowStructure"
+ ],
+ "maxBatch": 1,
  "allowedFiles": [
-  "docs/*",
-  "scripts/*",
-  "shared/*",
-  "modules/*/module.json",
-  "modules/<module>/scripts/*.py",
-  "modules/<module>/scripts/allowlists/*",
-  "modules/<module>/MODULE.md",
-  ".github/workflows/*",
-  "githooks/*",
+  "modules/<module>/assets/learning/<module>/<daf>.learning.json",
+  "modules/<module>/learning_data.js",
+  "modules/<module>/coverage.json",
+  "VERSION",
   "package.json",
   "package-lock.json",
-  "VERSION",
-  "README.md",
-  "CLAUDE.md",
-  "SOURCES.md",
-  "tests/*",
-  ".gitignore",
-  ".worker-manifest.json",
-  ".worker-queue.json"
+  "docs/rashi-audit-backlog.md",
+  "docs/<module>-perek-review.md",
+  ".worker-manifest.json"
  ],
- "allowedJsonPaths": [],
+ "allowedJsonPaths": [
+  "sugyot[*].requiresUnderstanding[*]",
+  "sugyot[*].prerequisiteKnowledge",
+  "sugyot[*].prerequisiteKnowledge[*]",
+  "sugyot[*].visualizableElements[*]",
+  "sugyot[*].difficulty"
+ ],
  "forbiddenFiles": [
-  "modules/yoma/assets/learning/*",
-  "modules/yoma/assets/talmuddev/*",
-  "modules/yoma/assets/daftexts/*",
-  "modules/yoma/source_store.js"
+  "modules/<module>/assets/talmuddev/*",
+  "modules/<module>/assets/daftexts/*",
+  "modules/<module>/source_store.js"
  ],
- "allowlistPolicy": "restructure-with-env",
- "structurePolicy": "not-applicable",
+ "allowlistPolicy": "must-not-grow",
+ "structurePolicy": "requires-authorization",
  "requiredValidators": [
-  "validate:offline:yoma"
+  "validate:offline:yoma",
+  "validate:enrichment-contracts:yoma"
  ],
- "generationCommands": [],
+ "generationCommands": [
+  "npm run build:yoma"
+ ],
  "buildTestCommands": [
   "npm run build",
   "npm run check:deploy-html",
@@ -52,12 +55,17 @@
   "npm run test:browser"
  ],
  "escalationTriggers": [
-  "any existing gate would be weakened",
-  "workflow permission changes would be needed"
+  "target enrichment-contract debt does not strictly decrease",
+  "a value would be invented rather than moved or normalized",
+  "before/after transformation report is incomplete",
+  "a transformation not listed in the manifest is required"
  ],
  "allowlistDrain": null,
  "scaffoldDebt": null,
  "repetitionDrain": null,
  "auditRecordIds": [],
- "migrationKinds": []
+ "migrationKinds": [
+  "requires-understanding",
+  "visualizable-elements"
+ ]
 }

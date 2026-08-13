@@ -6,15 +6,15 @@
    Learning layer:    assets/learning/yoma/<daf>.learning.json
    ============================================ */
 // Tractate Yoma: 8 chapters (scope: 2a-88a). Perek boundaries: 1(2a-21b), 2(22a-28a), 3(28b-39b), 4(39b-47b), 5(47b-57b), 6(57b-68b), 7(68b-73b), 8(73b-88a)
-const DATA_VERSION = "14.32";        // module data-layer version, independent from platform VERSION
-const DATA_SCHEMA_VERSION = "1.0";   // sugya/line object shape version
+const DATA_VERSION = "14.33";        // module data-layer version, independent from platform VERSION
+const DATA_SCHEMA_VERSION = "1.1";   // sugya/line object shape version
 const LEARNING_DATA_VERSION = DATA_VERSION;
 const TRACTATE_META = {
   id: "yoma",
   title: "Yoma",
   title_he: "יוֹמָא",
   seder: "Moed",
-  schemaVersion: "1.0",
+  schemaVersion: "1.1",
   sourceEdition: "Vilna / Sefaria / talmud.dev",
   dafRange: {
     first: "2a",
@@ -185164,7 +185164,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of murderer context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -185177,8 +185178,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "A murderer's own life: do we violate YK to save hi"
+            item: "A murderer's own life: do we violate YK to save hi",
+            type: "action"
           }
         ],
         quizSeeds: [
@@ -185269,7 +185270,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of pregnant woman context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -185282,8 +185284,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            type: "action",
-            name: "Story of a pregnant woman's craving; R. Yannai whi"
+            item: "Story of a pregnant woman's craving; R. Yannai whi",
+            type: "action"
           }
         ],
         quizSeeds: [
