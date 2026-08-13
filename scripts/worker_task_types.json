@@ -1504,6 +1504,7 @@
       ],
       "allowedJsonPaths": [
         "sugyot[*].requiresUnderstanding[*]",
+        "sugyot[*].prerequisiteKnowledge",
         "sugyot[*].prerequisiteKnowledge[*]",
         "sugyot[*].visualizableElements[*]",
         "sugyot[*].difficulty"
@@ -1511,6 +1512,7 @@
       "jsonScope": {
         "mutable": [
           "sugyot[*].requiresUnderstanding[*]",
+          "sugyot[*].prerequisiteKnowledge",
           "sugyot[*].prerequisiteKnowledge[*]",
           "sugyot[*].visualizableElements[*]",
           "sugyot[*].difficulty"
