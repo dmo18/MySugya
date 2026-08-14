@@ -97,10 +97,7 @@
     "three attempts"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of Rav context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Rabbi Chanina simply held a grudge and violated the duty to forgive.",
@@ -111,8 +108,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "Rav went to appease R. Hiyya; R. Hiyya refused; th"
+     "item": "Rav went to appease R. Hiyya; R. Hiyya refused; th",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -129,7 +126,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of Rav context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -245,10 +246,7 @@
     "timing"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of vidui context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "One only confesses once on Yom Kippur, at the start of the fast.",
@@ -259,8 +257,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "Main mitzva of vidui (confession) is on Yom Kippur"
+     "item": "Main mitzva of vidui (confession) is on Yom Kippur",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -277,7 +275,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of vidui context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -450,10 +452,7 @@
     "tractate end"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of Hadran context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Ne'ila is essentially just the closing confession of Yom Kippur.",
@@ -464,8 +463,8 @@
    "relatedSugyot": [],
    "visualizableElements": [
     {
-     "type": "action",
-     "name": "Closing of tractate Yoma: Hadran formula; referenc"
+     "item": "Closing of tractate Yoma: Hadran formula; referenc",
+     "type": "action"
     }
    ],
    "quizSeeds": [
@@ -482,7 +481,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of Hadran context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   }
  ],
  "glossary": [],
