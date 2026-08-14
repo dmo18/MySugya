@@ -198946,21 +198946,21 @@ const DAF_CONTENT = {
           endVilnaLine: 54
         },
         display: {
-          whats: "Closing of tractate Yoma: Hadran formula; reference to Tu BeAv and Yom Kippur as the best days",
-          hint: "The tractate closes with the Hadran formula (a declaration of return to the tractate) and with the famous statement that the most joyful days for Israel are Tu BeAv and Yom Kippur.",
-          title: "Closing of Tractate Yoma: Hadran and Tu BeAv"
+          whats: "Ne'ila: is it a full added Amida or only a confession, and can it exempt the evening prayer?",
+          hint: "The Mishnah lists ne'ila among the times the priests bless four times a day - why do Rav and Shmuel disagree about whether ne'ila is a full Amida or only a confession, how is that dispute resolved, and why does the Gemara then question whether reciting ne'ila can exempt a person from the evening prayer?",
+          title: "Is Ne'ila a Full Prayer or Just a Confession?"
         },
         learning: {
-          ahaMoment: "The tractate ends pointing toward joy. Atonement is not the destination - it is the passage. After YK comes Tu BeAv: after the seriousness of repair comes the celebration of renewed connection.",
-          memoryAnchor: "Yoma ends with Hadran and Tu BeAv: from atonement's gravity to celebration's joy - repair leads to renewal.",
-          learnerQuestion: "What is the significance of the Hadran formula and the reference to Tu BeAv at the close of Tractate Yoma?",
-          coreTension: "Between the heavy topic of Yom Kippur (atonement, death, sin) and the closing reference to Tu BeAv, a day of celebration and matchmaking.",
-          coreMove: "The tractate closes with the Hadran (a declaration of return - 'we will return to you'), expressing that the learner and the tractate maintain a mutual relationship across time. The reference to Tu BeAv marks the transition from the gravity of YK to the joy of reconnection - from atonement's completion to life's renewal.",
+          ahaMoment: "Ne'ila turns out to be a full seven-blessing Amida, not a mere closing confession; the real dispute was always about whether confession must be appended to it, not whether the prayer itself is complete.",
+          memoryAnchor: "Ne'ila: full Amida, not just confession - Shmuel's view is refuted; whether it exempts ma'ariv stays contested.",
+          learnerQuestion: "Is ne'ila only a closing confession, or a complete prayer in its own right - and does reciting it exempt you from praying ma'ariv that evening?",
+          coreTension: "Between treating ne'ila as a minor add-on confession and recognizing it as a full seven-blessing Amida whose relationship to the evening prayer is itself disputed.",
+          coreMove: "The Gemara reframes the Rav-Shmuel dispute: since a baraita shows ne'ila has its own seven blessings, everyone agrees it is a complete Amida - Shmuel's 'confession only' position is refuted, and the real tannaitic dispute is merely whether concluding with confession is required. Rav then extends this by saying ne'ila's recitation near nightfall can exempt one from ma'ariv, but the Gemara and a baraita challenge whether that exemption actually holds, leaving the ma'ariv question open into 88a.",
           takeaway: {
             type: "conceptual",
-            text: "The closing of Tractate Yoma with the Hadran and a reference to joy (Tu BeAv) expresses the rabbinic view that atonement leads to renewal, not just to relief; the tractate that dwelt on sin and death ends by pointing toward life and celebration."
+            text: "Ne'ila is conclusively established as a full Amida rather than a bare confession; whether reciting it can exempt a worshipper from a separate evening prayer remains a live, contested question that the Gemara does not fully resolve here."
           },
-          learningBlocker: "Students may see the Hadran as a formality; the content of the Hadran (mutual fidelity between learner and text) and its placement here carry theological meaning about the nature of Torah study."
+          learningBlocker: "Students may assume the dispute is really about whether ne'ila fully replaces ma'ariv; in fact ne'ila's status as a complete Amida is settled, while its ability to exempt ma'ariv is the part still under debate."
         },
         lines: [
           { id: "yoma-087b-l41", kind: "gemara", he: "תְּנַן הָתָם: בִּשְׁלֹשָׁה\nפְּרָקִים בַּשָּׁנָה כֹּהֲנִים נוֹשְׂאִין אֶת כַּפֵּיהֶן אַרְבָּעָה\nפְּעָמִים בַּיּוֹם: בְּשַׁחֲרִית, בְּמוּסָף, בְּמִנְחָה, וּבִנְעִילַת\nשְׁעָרִים. וְאֵלּוּ הֵן שְׁלֹשָׁה פְּרָקִים: בְּתַעֲנִיּוֹת,\nוּבְמַעֲמָדוֹת, וּבְיוֹם הַכִּפּוּרִים.",
