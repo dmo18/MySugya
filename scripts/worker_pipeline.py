@@ -272,6 +272,38 @@ def normalize_audit_pointer(ptr, daf):
     return normalized
 
 
+# Migrated-schema successor-field aliases for the enrichment-schema-migration
+# field rename (requiresUnderstanding prose -> prerequisiteKnowledge; see
+# docs/reports/yoma-enrichment-contract-decision.md). The merged audit
+# predates that migration, so it records prose-prerequisite defects under the
+# OLD field name only. This alias means EXACTLY: a named audit record that
+# already owns the PREDECESSOR field name in its own affectedFields may also
+# authorize the migrated SUCCESSOR field on that same exact sugya. It never
+# authorizes the successor field for a record that never owned the
+# predecessor, never for a sibling sugya (the lookup in json_scope_check
+# always uses the one named record's own affectedFields, never a union),
+# never for a different task type (json_scope_check only reaches this code
+# path inside its is_audit_repair branch), and it does not change what the
+# predecessor field itself means: requiresUnderstanding is still sugya-id-
+# resolving only, and prerequisiteKnowledge is still optional prose.
+AUDIT_FIELD_SUCCESSOR_ALIASES = {
+    "prerequisiteKnowledge": "requiresUnderstanding",
+}
+
+
+def audit_field_authorized(normalized, affected_fields):
+    """True if `normalized` is directly listed in `affected_fields`, or is
+    the migrated successor of a field that IS listed there (see
+    AUDIT_FIELD_SUCCESSOR_ALIASES). Callers must always pass the exact named
+    audit record's OWN affectedFields here -- never a union across multiple
+    named records -- so the alias never authorizes anything beyond what that
+    one record legitimately owns."""
+    if normalized in affected_fields:
+        return True
+    predecessor = AUDIT_FIELD_SUCCESSOR_ALIASES.get(normalized)
+    return predecessor is not None and predecessor in affected_fields
+
+
 # Maps an audit record's affectedFields vocabulary onto the enrichment-
 # contract rule ids that mechanically cover that field, for audited-sugya-
 # enrichment-repair's rule-scoped target-clean check. Fields with no
@@ -286,6 +318,12 @@ FIELD_TO_RULES = {
     "requiresUnderstanding": ["requiresUnderstanding_not_list", "requiresUnderstanding_prose",
                               "requiresUnderstanding_unresolved_id",
                               "requiresUnderstanding_self_reference"],
+    # Only ever added to a record's effective rule set via
+    # AUDIT_FIELD_SUCCESSOR_ALIASES (i.e. when that same record already owns
+    # requiresUnderstanding) -- see task_specific_rule_scoped_targets.
+    "prerequisiteKnowledge": ["prerequisiteKnowledge_not_list", "prerequisiteKnowledge_blank",
+                              "prerequisiteKnowledge_contains_sugya_id",
+                              "prerequisiteKnowledge_duplicate"],
     "topicTags": ["topicTags_not_list", "topicTags_invalid_slug", "topicTags_duplicate"],
     "visualizableElements[].name": [
         "visualizableElements_not_list", "visualizableElements_bare_value",
@@ -463,7 +501,16 @@ def task_specific_rule_scoped_targets(m):
     if t == AUDIT_RECORD_TASK_TYPE:
         ids = m.get("auditRecordIds", [])
         fields = audit_affected_fields(ids)
-        rules = sorted({r for f in fields for r in FIELD_TO_RULES.get(f, [])})
+        # Successor fields ride along whenever their predecessor is present,
+        # so a repair authorized to touch prerequisiteKnowledge via the
+        # successor-field alias also gets that field's own rules included in
+        # this record's rule-scoped target-clean check (additive only; never
+        # removes a rule the record would otherwise owe).
+        expanded_fields = set(fields)
+        for successor, predecessor in AUDIT_FIELD_SUCCESSOR_ALIASES.items():
+            if predecessor in fields:
+                expanded_fields.add(successor)
+        rules = sorted({r for f in expanded_fields for r in FIELD_TO_RULES.get(f, [])})
         return (rules or None), ids
     return None, None
 
@@ -1029,11 +1076,14 @@ def json_scope_check(mb, changed, m, spec, errors):
                                       f"auditRecordIds but has no audit record")
                         continue
                     normalized = normalize_audit_pointer(ptr, daf)
-                    if normalized not in rec.get("affectedFields", []):
+                    if not audit_field_authorized(normalized, rec.get("affectedFields", [])):
                         errors.append(f"{p}: {ptr} (normalized {normalized!r}) is not an "
                                       f"affectedFields entry of the exact named audit record "
                                       f"for {sid!r} (it may not be authorized merely because a "
-                                      f"DIFFERENT named record lists it)")
+                                      f"DIFFERENT named record lists it, and the "
+                                      f"prerequisiteKnowledge successor-field alias only applies "
+                                      f"when this SAME record's affectedFields already contains "
+                                      f"'requiresUnderstanding')")
                 else:
                     normalized = normalize_audit_pointer(ptr, daf)
                     if normalized not in daf_scoped_fields.get(daf, set()):

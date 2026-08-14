@@ -232,6 +232,29 @@ def reset_to_prereqs_satisfied(sids):
     return git("rev-parse", "HEAD", cwd=FIXTURE).stdout.strip()
 
 
+def stamp_alias_test_fixture(daf, sid_texts):
+    """Seed a deterministic, LENGTH-STABLE requiresUnderstanding (a single
+    real resolving id) and prerequisiteKnowledge (a single placeholder
+    string) on each named sugya, as a dedicated setup commit, and return the
+    new base sha. Keeping both arrays at a fixed length of 1 means the later
+    test edit (replacing that one entry's text) is a same-length content
+    change -- routed through json_scope_check's per-leaf affectedFields path
+    -- rather than an array-length change, which instead requires the
+    separate, unrelated allowStructure authorization. This isolates the
+    prerequisiteKnowledge successor-field alias tests from that orthogonal
+    mechanism. sid_texts: {sugyaId: placeholder_pk_text}."""
+    doc = load_learning(daf)
+    for s in doc.get("sugyot", []):
+        if s["id"] in sid_texts:
+            s["requiresUnderstanding"] = ["yoma-002a-s01"]
+            s["prerequisiteKnowledge"] = [sid_texts[s["id"]]]
+    save_learning(daf, doc)
+    rebuild_yoma()
+    commit("setup: seed length-stable requiresUnderstanding/prerequisiteKnowledge for %s"
+          % sorted(sid_texts))
+    return git("rev-parse", "HEAD", cwd=FIXTURE).stdout.strip()
+
+
 print("building disposable fixture repository (one-time tar+git-init copy)...")
 FIXTURE, BASE_SHA = make_fixture_repo()
 print("fixture: %s @ %s" % (FIXTURE, BASE_SHA[:12]))
@@ -1306,6 +1329,283 @@ try:
               "--compare-ref", BASE_A_SHA], cwd=FIXTURE)
     check("31. --compare-ref PASSES for an unrelated change that leaves the fix intact",
           r31.returncode == 0, out(r31))
+
+    os.chdir(str(ROOT))
+
+    # =========================================================================
+    # 32a-32h. prerequisiteKnowledge SUCCESSOR-FIELD ALIAS: a named audit
+    #          record that already owns 'requiresUnderstanding' in its own
+    #          affectedFields may also authorize prerequisiteKnowledge on
+    #          that SAME sugya (the schema migration moved prose prerequisite
+    #          content from the old field to the new one after this audit was
+    #          written). The alias must never extend beyond that one record,
+    #          that one sugya, that one daf, or into a non-audited task type.
+    # =========================================================================
+    audit_doc32 = json.loads((FIXTURE / "docs/reports/data/yoma-tail-enrichment-audit.json")
+                             .read_text())
+    aud_77a_s01 = next(r for r in audit_doc32["records"] if r["sugyaId"] == "yoma-077a-s01")
+    aud_77a_s02 = next(r for r in audit_doc32["records"] if r["sugyaId"] == "yoma-077a-s02")
+    check("(setup) yoma-077a-s01 owns requiresUnderstanding in the merged audit; "
+         "yoma-077a-s02 does not",
+          "requiresUnderstanding" in aud_77a_s01["affectedFields"]
+          and "requiresUnderstanding" not in aud_77a_s02["affectedFields"],
+          (aud_77a_s01["affectedFields"], aud_77a_s02["affectedFields"]))
+
+    # ---- 32a. the record that owns requiresUnderstanding CAN repair its
+    #           migrated prerequisiteKnowledge. -----------------------------
+    reset_to_prereqs_satisfied(["yoma-077a-s01", "yoma-077a-s02"])
+    PK_BASE_32A = stamp_alias_test_fixture("77a", {
+        "yoma-077a-s01": "Stale placeholder prerequisite prose (pre-repair).",
+        "yoma-077a-s02": "Stale placeholder prerequisite prose (pre-repair).",
+    })
+    wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+      "--range", "77a", "--audit-record-id", "yoma-077a-s01", "--out", ".worker-manifest.json")
+    doc = load_learning("77a")
+    sug_s01 = next(s for s in doc["sugyot"] if s["id"] == "yoma-077a-s01")
+    sug_s01["prerequisiteKnowledge"] = ["Concise, source-supported repaired prerequisite."]
+    save_learning("77a", doc)
+    rebuild_yoma()
+    commit("repair: yoma-077a-s01 prerequisiteKnowledge via the successor-field alias")
+    r = wp("scope", "--manifest", ".worker-manifest.json", "--base", PK_BASE_32A)
+    check("32a. a record that owns requiresUnderstanding in its OWN affectedFields CAN "
+         "repair its migrated prerequisiteKnowledge (successor-field alias)",
+          r.returncode == 0, out(r))
+
+    # ---- 32b. a record WITHOUT requiresUnderstanding ownership CANNOT edit
+    #           prerequisiteKnowledge. -------------------------------------
+    reset_to_prereqs_satisfied(["yoma-077a-s01", "yoma-077a-s02"])
+    PK_BASE_32B = stamp_alias_test_fixture("77a", {
+        "yoma-077a-s01": "Stale placeholder prerequisite prose (pre-repair).",
+        "yoma-077a-s02": "Stale placeholder prerequisite prose (pre-repair).",
+    })
+    wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+      "--range", "77a", "--audit-record-id", "yoma-077a-s02", "--out", ".worker-manifest.json")
+    doc = load_learning("77a")
+    sug_s02 = next(s for s in doc["sugyot"] if s["id"] == "yoma-077a-s02")
+    sug_s02["prerequisiteKnowledge"] = ["Attempted edit with no historical ownership."]
+    save_learning("77a", doc)
+    rebuild_yoma()
+    commit("attempt: yoma-077a-s02 prerequisiteKnowledge with no requiresUnderstanding "
+          "ownership")
+    r = wp("scope", "--manifest", ".worker-manifest.json", "--base", PK_BASE_32B)
+    check("32b. a record WITHOUT requiresUnderstanding ownership in its OWN affectedFields "
+         "CANNOT edit prerequisiteKnowledge",
+          r.returncode != 0 and "prerequisiteKnowledge" in out(r)
+          and "requiresUnderstanding" in out(r), out(r))
+
+    # ---- 32c. one record cannot use the alias to edit ANOTHER sugya's
+    #           prerequisiteKnowledge (naming only s01 must not authorize a
+    #           prerequisiteKnowledge edit on s02, even though s02 also has
+    #           a stamped array of the same shape). -------------------------
+    reset_to_prereqs_satisfied(["yoma-077a-s01", "yoma-077a-s02"])
+    PK_BASE_32C = stamp_alias_test_fixture("77a", {
+        "yoma-077a-s01": "Stale placeholder prerequisite prose (pre-repair).",
+        "yoma-077a-s02": "Stale placeholder prerequisite prose (pre-repair).",
+    })
+    wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+      "--range", "77a", "--audit-record-id", "yoma-077a-s01", "--out", ".worker-manifest.json")
+    doc = load_learning("77a")
+    sug_s02c = next(s for s in doc["sugyot"] if s["id"] == "yoma-077a-s02")
+    sug_s02c["prerequisiteKnowledge"] = ["Smuggled in under s01's alias scope."]
+    save_learning("77a", doc)
+    rebuild_yoma()
+    commit("attempt: edit s02.prerequisiteKnowledge while only s01 (a DIFFERENT sugya, also "
+          "alias-eligible) is named")
+    r = wp("scope", "--manifest", ".worker-manifest.json", "--base", PK_BASE_32C)
+    check("32c. one record's successor-field alias cannot authorize a prerequisiteKnowledge "
+         "edit on ANOTHER sugya",
+          r.returncode != 0 and "yoma-077a-s02" in out(r)
+          and "not named in manifest.auditRecordIds" in out(r), out(r))
+
+    # ---- 32d. one daf cannot use the alias to edit another daf (pre-
+    #           existing daf-target enforcement, confirmed still intact
+    #           alongside the new alias). ------------------------------------
+    PREREQ_BASE_32D = reset_to_prereqs_satisfied(["yoma-077a-s01"])
+    wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+      "--range", "77a", "--audit-record-id", "yoma-077a-s01", "--out", ".worker-manifest.json")
+    doc82 = load_learning("82b")
+    sug82 = next(s for s in doc82["sugyot"] if s["id"] == "yoma-082b-s01")
+    sug82.setdefault("prerequisiteKnowledge", [])
+    sug82["prerequisiteKnowledge"] = ["Attempted cross-daf edit via 77a's manifest."]
+    save_learning("82b", doc82)
+    rebuild_yoma()
+    commit("attempt: edit 82b prerequisiteKnowledge while manifest targets only 77a")
+    r = wp("scope", "--manifest", ".worker-manifest.json", "--base", PREREQ_BASE_32D)
+    check("32d. one daf cannot use the alias to edit prerequisiteKnowledge on ANOTHER daf",
+          r.returncode != 0 and "is not in the manifest targets" in out(r), out(r))
+
+    # ---- 32e. non-audited task types gain no new scope: prerequisiteKnowledge
+    #           is not in display-only-edit's mutable path set at all, so the
+    #           alias (which only applies inside json_scope_check's
+    #           is_audit_repair branch) never even gets reached. -------------
+    reset_to_base()
+    wp("manifest", "--type", "display-only-edit", "--module", "yoma", "--range", "77a",
+      "--out", ".worker-manifest.json")
+    doc = load_learning("77a")
+    sug_e = next(s for s in doc["sugyot"] if s["id"] == "yoma-077a-s01")
+    sug_e["prerequisiteKnowledge"] = ["Attempted edit under an unrelated task type."]
+    save_learning("77a", doc)
+    rebuild_yoma()
+    commit("attempt: edit prerequisiteKnowledge under display-only-edit")
+    r = wp("scope", "--manifest", ".worker-manifest.json", "--base", BASE_SHA)
+    check("32e. a non-audited task type (display-only-edit) gains NO new "
+         "prerequisiteKnowledge scope from the alias",
+          r.returncode != 0 and "outside the display-only-edit mutable path set" in out(r),
+          out(r))
+
+    # ---- 32f. the alias is ONE-WAY and does not disturb ordinary
+    #           requiresUnderstanding matching: direct membership still
+    #           authorizes requiresUnderstanding, and prerequisiteKnowledge
+    #           ownership never back-authorizes requiresUnderstanding. -------
+    os.chdir(FIXTURE)
+    if "worker_pipeline" in sys.modules:
+        del sys.modules["worker_pipeline"]
+    wpm4 = importlib.import_module("worker_pipeline")
+    check("32f. ordinary requiresUnderstanding direct-membership authorization is unchanged, "
+         "and the alias does not run in reverse (prerequisiteKnowledge ownership does not "
+         "authorize requiresUnderstanding)",
+          wpm4.audit_field_authorized("requiresUnderstanding", ["requiresUnderstanding"]) is True
+          and wpm4.audit_field_authorized("requiresUnderstanding", ["prerequisiteKnowledge"])
+          is False
+          and wpm4.audit_field_authorized("requiresUnderstanding", []) is False)
+
+    # ---- 32g. the alias is a single named pair; it does not spill onto
+    #           unrelated sibling paths. --------------------------------------
+    check("32g. audit_field_authorized does not extend the alias to unrelated fields",
+          wpm4.audit_field_authorized("prerequisiteKnowledge", ["requiresUnderstanding"]) is True
+          and wpm4.audit_field_authorized("topicTags", ["requiresUnderstanding"]) is False
+          and wpm4.audit_field_authorized("finalRuling", ["requiresUnderstanding"]) is False
+          and wpm4.audit_field_authorized("prerequisiteKnowledge", ["topicTags"]) is False
+          and wpm4.audit_field_authorized("prerequisiteKnowledge", []) is False)
+    os.chdir(str(ROOT))
+
+    # ---- 32h. worker:verify and worker:ci-check enforce the SAME semantics
+    #           as worker:scope (all three reach json_scope_check via
+    #           cmd_scope) -- reusing 32b's unauthorized edit. --------------
+    reset_to_prereqs_satisfied(["yoma-077a-s01", "yoma-077a-s02"])
+    PK_BASE_32H = stamp_alias_test_fixture("77a", {
+        "yoma-077a-s01": "Stale placeholder prerequisite prose (pre-repair).",
+        "yoma-077a-s02": "Stale placeholder prerequisite prose (pre-repair).",
+    })
+    wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+      "--range", "77a", "--audit-record-id", "yoma-077a-s02", "--out", ".worker-manifest.json")
+    doc = load_learning("77a")
+    sug_h = next(s for s in doc["sugyot"] if s["id"] == "yoma-077a-s02")
+    sug_h["prerequisiteKnowledge"] = ["Attempted edit with no historical ownership, via verify."]
+    save_learning("77a", doc)
+    rebuild_yoma()
+    commit("attempt: same unauthorized prerequisiteKnowledge edit, checked via verify/ci-check")
+    r_scope = wp("scope", "--manifest", ".worker-manifest.json", "--base", PK_BASE_32H)
+    r_verify = wp("verify", "--manifest", ".worker-manifest.json", "--base", PK_BASE_32H)
+    r_ci = wp("ci-check", "--base", PK_BASE_32H)
+    check("32h. worker:scope, worker:verify and worker:ci-check all reject the SAME "
+         "unauthorized prerequisiteKnowledge edit (all three reach the same underlying gate)",
+          r_scope.returncode != 0 and r_verify.returncode != 0 and r_ci.returncode != 0,
+          (out(r_scope), out(r_verify), out(r_ci)))
+
+    # =========================================================================
+    # 33a-33f. A NARROW FOLLOW-UP REPAIR ON AN ALREADY-EFFECTIVELY-COMPLETE
+    #          RECORD is legal TODAY, with no redesign: the stored progress
+    #          status for a merged record stays APPROVED_PENDING_MERGE
+    #          (COMPLETE is derived, never hand-written -- see 31b/31c), so
+    #          validate_audit_record_ids' "already COMPLETE" guard never
+    #          fires for it, and APPROVED_PENDING_MERGE -> IN_PROGRESS ->
+    #          FIXED_PENDING_REVIEW -> APPROVED_PENDING_MERGE is itself a
+    #          legal transition sequence. A follow-up PR may therefore
+    #          re-name the SAME auditRecordId, make a further in-scope edit,
+    #          and walk the lifecycle again, while the ORIGINAL squash commit
+    #          (real merge evidence, immutable in git history) remains
+    #          independently sufficient for COMPLETE.
+    # =========================================================================
+    git("checkout", "-q", "-B", "follow-up-33", squash_sha, cwd=FIXTURE)
+    r = wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+          "--range", real_daf, "--audit-record-id", real_id, "--out", ".worker-manifest.json")
+    check("33a. a follow-up manifest naming the SAME already-effectively-COMPLETE record is "
+         "NOT blocked (stored status is APPROVED_PENDING_MERGE, never hand-written to "
+         "COMPLETE, so the 'already COMPLETE' guard does not fire)",
+          r.returncode == 0, out(r))
+
+    doc33 = load_learning(real_daf)
+    sug33 = next(s for s in doc33["sugyot"] if s["id"] == real_id)
+    # Prefer a scalar field (never a length-changing list edit, which would
+    # need the separate, unrelated allowStructure authorization this test
+    # does not request) so the follow-up's own diff is a clean, same-shape
+    # content change squarely inside this record's affectedFields.
+    if "finalRuling" in audit_rec["affectedFields"]:
+        sug33["finalRuling"] = "A narrow follow-up correction to the already-merged finalRuling."
+    elif "display.hint" in audit_rec["affectedFields"]:
+        sug33["display"]["hint"] = "A narrow follow-up correction to the already-merged hint?"
+    else:
+        sug33["display"]["whats"] = sug33["display"].get("whats", "") + " (follow-up touch-up.)"
+    save_learning(real_daf, doc33)
+    rebuild_yoma()
+    prog33 = json.loads(prog_path.read_text())
+    prog33["progress"][real_id]["status"] = "IN_PROGRESS"
+    prog_path.write_text(json.dumps(prog33, ensure_ascii=False, indent=1) + "\n")
+    commit("follow-up: narrow in-scope edit + IN_PROGRESS")
+    r = wp("scope", "--manifest", ".worker-manifest.json", "--base", squash_sha)
+    check("33b. the follow-up's narrow edit stays inside the SAME record's own "
+         "affectedFields and passes scope",
+          r.returncode == 0, out(r))
+
+    prog33["progress"][real_id]["status"] = "FIXED_PENDING_REVIEW"
+    prog_path.write_text(json.dumps(prog33, ensure_ascii=False, indent=1) + "\n")
+    commit("follow-up: FIXED_PENDING_REVIEW")
+    prog33["progress"][real_id]["status"] = "APPROVED_PENDING_MERGE"
+    prog33["progress"][real_id]["reviewer"] = "follow-up-independent-reviewer"
+    prog33["progress"][real_id]["independentReviewResult"] = "APPROVED (follow-up)"
+    prog_path.write_text(json.dumps(prog33, ensure_ascii=False, indent=1) + "\n")
+    commit("follow-up: independent approval (APPROVED_PENDING_MERGE again)")
+
+    r = run([sys.executable, "scripts/generate_enrichment_repair_queue.py", "--check",
+            "--base", squash_sha, "--allowed-ids", real_id], cwd=FIXTURE)
+    check("33c. APPROVED_PENDING_MERGE -> IN_PROGRESS -> FIXED_PENDING_REVIEW -> "
+         "APPROVED_PENDING_MERGE (a SECOND walk, on an already-merged record) is a legal "
+         "transition sequence -- progress never needed to move backward from a literal "
+         "COMPLETE, because it was never written there in the first place",
+          r.returncode == 0, out(r))
+
+    git("checkout", "-q", "-B", "main-sim-2", squash_sha, cwd=FIXTURE)
+    sq2 = git("merge", "--squash", "follow-up-33", cwd=FIXTURE)
+    check("(setup) follow-up squash-merge simulation applies cleanly", sq2.returncode == 0,
+          out(sq2))
+    commit("squash-merge: follow-up repair for %s" % real_id)
+    followup_squash_sha = git("rev-parse", "HEAD", cwd=FIXTURE).stdout.strip()
+
+    stored_after_followup = json.loads(prog_path.read_text())["progress"][real_id]
+    effective_orig, evidence_orig = geq.derive_effective_status(
+        real_id, stored_after_followup, squash_commit=squash_sha,
+        head_ref=followup_squash_sha)
+    check("33d. the ORIGINAL squash commit remains independently sufficient evidence for "
+         "COMPLETE even after a legal follow-up repair landed on top of it -- original "
+         "merge evidence is never falsified or replaced",
+          effective_orig == "COMPLETE" and evidence_orig.get("derived") is True,
+          (effective_orig, evidence_orig))
+
+    effective_new, evidence_new = geq.derive_effective_status(
+        real_id, stored_after_followup, squash_commit=followup_squash_sha,
+        head_ref=followup_squash_sha)
+    check("33e. the FOLLOW-UP squash commit is ALSO independently sufficient evidence for "
+         "COMPLETE (either commit alone derives it; the follow-up does not need to replace "
+         "the original to be valid)",
+          effective_new == "COMPLETE" and evidence_new.get("derived") is True,
+          (effective_new, evidence_new))
+
+    # ---- 33f. by contrast, once a record's STORED status is ever hand-
+    #           written to the literal terminal COMPLETE, a further manifest
+    #           naming it IS blocked -- progress may never be edited further
+    #           once it is genuinely, literally terminal. --------------------
+    git("checkout", "-q", "-B", "hand-complete-33f", followup_squash_sha, cwd=FIXTURE)
+    prog33f = json.loads(prog_path.read_text())
+    prog33f["progress"][real_id]["status"] = "COMPLETE"
+    prog_path.write_text(json.dumps(prog33f, ensure_ascii=False, indent=1) + "\n")
+    commit("hand-write real_id's stored status to the literal terminal COMPLETE")
+    r = wp("manifest", "--type", "audited-sugya-enrichment-repair", "--module", "yoma",
+          "--range", real_daf, "--audit-record-id", real_id)
+    check("33f. a further manifest naming a record whose STORED status is the literal "
+         "terminal COMPLETE is blocked (progress never legally moves backward out of a "
+         "genuine terminal COMPLETE)",
+          r.returncode != 0 and "already marked COMPLETE" in out(r), out(r))
 
     os.chdir(str(ROOT))
 

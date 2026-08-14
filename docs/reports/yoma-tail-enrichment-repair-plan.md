@@ -182,9 +182,156 @@ no record may carry a field outside the schema (`status`, `prNumber`,
 
 ## Required task types
 
-- `audited-sugya-enrichment-repair` for every queue row: semantic, max one daf per PR, independent review required, manifest must name the audit record ids, and every changed path must appear in those records' `affectedFields`.
+- `audited-sugya-enrichment-repair` for every queue row: semantic, max one daf per PR, independent review required, manifest must name the audit record ids, and every changed path must appear in those records' `affectedFields` (or its migrated successor field -- see "prerequisiteKnowledge successor-field scope" below).
 - `legacy-concepts-purge` and `enrichment-schema-migration` for the prerequisites above.
 
-## Status
+## prerequisiteKnowledge successor-field scope
 
-Every record is `NOT_STARTED`. No repair has begun.
+The merged audit predates the `requiresUnderstanding` prose -> `prerequisiteKnowledge`
+schema migration, so any audit record whose semantic defect included prose
+prerequisite material names it under the OLD field, `requiresUnderstanding`,
+in `affectedFields`. Once that migration has landed for a sugya, the actual
+prose lives in `prerequisiteKnowledge` instead, and without a successor-field
+rule the audited-repair scope gate could never authorize touching it -- the
+record's own `affectedFields` literally does not contain the string
+`"prerequisiteKnowledge"`.
+
+`scripts/worker_pipeline.py` closes this narrowly: `AUDIT_FIELD_SUCCESSOR_ALIASES`
+maps `prerequisiteKnowledge` -> `requiresUnderstanding`, and
+`audit_field_authorized(normalized, affected_fields)` treats a field as
+authorized when it is either directly listed in `affected_fields`, or is the
+successor of a field that IS listed there. `json_scope_check` calls this
+helper (in place of a bare membership test) only inside its
+`audited-sugya-enrichment-repair` branch, and always with the exact named
+record's own `affectedFields` -- never a union across multiple named
+records. Consequences, all mechanically enforced (see
+`scripts/test_worker_pipeline_integration.py` checks 32a-32h):
+
+- a record that owns `requiresUnderstanding` may repair its migrated
+  `prerequisiteKnowledge` on that same sugya;
+- a record that never owned `requiresUnderstanding` may not touch
+  `prerequisiteKnowledge` at all;
+- naming one record never authorizes a `prerequisiteKnowledge` edit on a
+  sibling sugya or a different daf (the pre-existing per-sugya, per-daf
+  scope checks are unchanged and still fire first);
+- no other task type gains any new scope (the alias only ever applies
+  inside the audit-repair branch of `json_scope_check`);
+- `requiresUnderstanding` itself is completely unaffected: it still means
+  resolving sugya ids only, and the alias never runs in reverse;
+- `prerequisiteKnowledge`'s own contract (optional, source-supported prose)
+  is unchanged;
+- `task_specific_rule_scoped_targets` extends the same record's rule-scoped
+  target-clean check to cover `prerequisiteKnowledge`'s own contract rules
+  whenever the alias applies, so a repair that uses it is still held to a
+  real target-clean bar, not merely "authorized to touch the path";
+- `worker:scope`, `worker:verify` and `worker:ci-check` all enforce this
+  identically, since all three route through `cmd_scope` -> `json_scope_check`.
+
+Separately: a narrow follow-up repair on an ALREADY-effectively-COMPLETE
+record (e.g. cleaning up a stale `prerequisiteKnowledge` left out of scope
+by the record's first repair PR) needs no new mechanism. A merged record's
+STORED progress status stays `APPROVED_PENDING_MERGE` forever -- `COMPLETE`
+is derived from squash-merge evidence (see "Progress lifecycle" above), never
+hand-written -- so `validate_audit_record_ids`'s "already COMPLETE" guard
+never fires for it, and `APPROVED_PENDING_MERGE -> IN_PROGRESS ->
+FIXED_PENDING_REVIEW -> APPROVED_PENDING_MERGE` is itself a legal transition
+sequence under `ALLOWED_TRANSITIONS`. A follow-up PR may therefore re-name
+the same `auditRecordId`, make a further in-scope edit (still bound by that
+exact record's own `affectedFields`/successor fields, still one daf, still
+independent review), and walk the lifecycle again -- while the ORIGINAL
+squash commit remains an untouched, independently sufficient piece of git
+history, so the original completion evidence is never falsified or
+replaced. Confirmed by `scripts/test_worker_pipeline_integration.py` checks
+33a-33f, including the contrasting case: a record whose stored status is
+ever hand-written to the literal terminal `COMPLETE` correctly blocks any
+further manifest naming it.
+
+## Campaign completion protocol
+
+This section documents the algorithm a fresh agent (no conversation memory)
+uses to resume and finish this campaign from the repository alone.
+
+**Sources of truth, and what each one is:**
+
+- `docs/reports/data/yoma-tail-enrichment-repair-queue.json` -- the
+  IMMUTABLE work definition: which 82 sugyot need a repair, in what
+  `queuePosition` order, with what `affectedFields`/migration prerequisites.
+  Never hand-edited; only re-derived from the frozen audit.
+- `docs/reports/data/yoma-tail-enrichment-repair-progress.json` -- the
+  MUTABLE lifecycle state, keyed by sugyaId, one record per queue row. Each
+  repair PR's own commits walk its own named record(s) through
+  `NOT_STARTED -> IN_PROGRESS -> FIXED_PENDING_REVIEW -> APPROVED_PENDING_MERGE`.
+- The repo itself, at `origin/main`, is the campaign checkpoint. There is no
+  other durable state anywhere else.
+
+**How to compute what is actually done (never trust the stored `status`
+string alone):** a record's REAL completion is whether some commit reachable
+from `origin/main` carries a `.worker-manifest.json` of type
+`audited-sugya-enrichment-repair` naming that exact sugyaId in
+`auditRecordIds`, targeting that sugyaId's own daf, whose diff actually
+touches that daf's `*.learning.json` -- see `derive_effective_status` in
+`scripts/generate_enrichment_repair_queue.py` for the exact, already-tested
+evidence chain. The stored `status` field only ever reaches
+`APPROVED_PENDING_MERGE` through the normal one-PR lifecycle; it is
+deliberately never hand-written to `COMPLETE` on an ordinary merge (that
+would require a pointless second, progress-only PR). So: a record showing
+`APPROVED_PENDING_MERGE` in the progress file is not necessarily still
+outstanding -- check whether its `repairCommit` (or any later commit
+naming it) is now an ancestor of `origin/main` before assuming more work is
+needed on it.
+
+**Resume algorithm, every time:**
+
+1. Fetch/checkout fresh `origin/main`. Confirm no unexpected divergence from
+   what the last known-good state was; reconcile before continuing if so.
+2. Confirm zero conflicting open PRs.
+3. Re-read the queue and progress files fresh from this checkout.
+4. For every queue record, compute effective status per the derivation
+   above (not the raw stored string).
+5. Walk the queue's own `orderingPolicy` / `queuePosition` order, skipping
+   anything effectively complete, and select the next eligible record(s) for
+   the current campaign phase (see the phase list this plan's execution
+   order already describes).
+6. Do the work for that daf (migration if first visit, at most one
+   `gemara-learning` PR for source-contradictory content outside audit
+   ownership, then one `audited-sugya-enrichment-repair` PR naming every
+   eligible same-daf record for the current phase).
+7. Independent review, merge on green CI, confirm deploy, then go back to
+   step 1.
+
+Never skip step 1 between records -- the queue/progress files and
+`origin/main` are the only state a fresh agent needs, and re-deriving
+effective status from a stale local checkout is exactly the kind of drift
+this protocol exists to prevent.
+
+## Status snapshot
+
+This section is a point-in-time snapshot for historical orientation, not a
+maintained live status list (see "Campaign completion protocol" above for
+why: a fresh agent must always recompute effective status from `origin/main`
+rather than trust prose here). Snapshot as of the tooling PR that added this
+section:
+
+**Repaired (effectively COMPLETE, stored `APPROVED_PENDING_MERGE`, merge
+evidence present):**
+
+- `yoma-082b-s01`
+- `yoma-082b-s02`
+- `yoma-087b-s03`
+
+**Known residual follow-ups, discovered from live data, not yet closed:**
+
+1. `yoma-082b-s01` `prerequisiteKnowledge` still carries stale pre-repair
+   Yom-Kippur-oriented boilerplate.
+2. `yoma-082b-s02` still contains inherited R. Yannai / wrong-speaker
+   learning prose in fields not authorized by its historical audit record
+   (a `gemara-learning` PR, not the audited-repair mechanism, is the
+   correct tool for those fields).
+3. `yoma-087b-s03` `prerequisiteKnowledge` still contains stale
+   Hadran-context prose.
+4. The 87b parent summary remains deliberately deferred until `yoma-087b-s01`
+   and `yoma-087b-s02` are repaired.
+5. `yoma-080a-s01` and `yoma-080b-s03` are the next two original priority
+   repairs (positions 3 and 4) and remain unrepaired as of this snapshot.
+
+**Everything else in the queue:** `NOT_STARTED`, in `queuePosition` order.
