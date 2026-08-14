@@ -199101,7 +199101,7 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            item: "Closing of tractate Yoma: Hadran formula; referenc",
+            item: "Ne'ila: the full-Amida-vs-confession dispute, and whether it exempts the evening prayer",
             type: "action"
           }
         ],
@@ -199115,15 +199115,14 @@ const DAF_CONTENT = {
             answer: "His statement that ne'ila exempts ma'ariv is made according to the opinion that the evening prayer is mandatory. Even on that view, reciting ne'ila as darkness falls fulfills the evening obligation."
           }
         ],
-        finalRuling: "The tractate closes with the Hadran formula (a declaration of return to the tractate) and with the famous statement that the most joyful days for Isra",
+        finalRuling: "Ne'ila is a full seven-blessing Amida, not merely a confession, since all tannaim agree it is a complete prayer; whether reciting it can also discharge the obligation to pray the evening service remains a disputed, unresolved question.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "Hadran",
-          "Tu BeAv",
-          "YK joy",
-          "closing formula",
-          "tractate end"
+          "neila",
+          "amida",
+          "vidui",
+          "maariv"
         ],
         review: "draft"
       }
