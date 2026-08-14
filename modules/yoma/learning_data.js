@@ -185220,14 +185220,14 @@ const DAF_CONTENT = {
           title: "When a Whispered Reminder Works and When It Doesn't"
         },
         learning: {
-          ahaMoment: "R. Yannai's story is about the relationship between halakhic defaults and creative sage intervention: the rule stands ready; a sage may try wisdom before invoking it.",
-          memoryAnchor: "R. Yannai whispered, the craving resolved - but the rule to feed was always there as the backup.",
+          ahaMoment: "The contrast between Rabbi Yehuda HaNasi's successful reminder and Rabbi Chanina's failed one shows that a sage may try a gentler intervention first, but the underlying halakhic obligation to feed her remains available the moment that intervention fails.",
+          memoryAnchor: "Rabbi Yehuda HaNasi's whisper worked; Rabbi Chanina's whisper didn't - the rule to feed her was always the safety net.",
           learnerQuestion: "Why does Rabbi Yehuda HaNasi's reminder to a craving pregnant woman succeed while Rabbi Chanina's reminder, in a similar case, fails?",
           coreTension: "Between the halakhic rule (feed a pregnant woman who craves food) and a seemingly miraculous alternative where the craving is resolved without feeding.",
           coreMove: "Rabbi Yehuda HaNasi's reminder that it is Yom Kippur settles the first woman's craving, so feeding her is never triggered. In a parallel case, the same kind of reminder given by Rabbi Chanina fails to settle the second woman's craving. The contrast between the two outcomes shows that a reminder is tried first, but the halakha permitting her to eat remains available whenever the reminder does not work.",
           takeaway: {
             type: "conceptual",
-            text: "The story of R. Yannai's whisper illustrates that halakhic defaults (feed the craving woman) represent the baseline, but sages might try other interventions first when available; the halakha remains the safety net when the alternative fails."
+            text: "The contrast between Rabbi Yehuda HaNasi's whisper, which worked, and Rabbi Chanina's whispered reminder, which did not, shows that halakhic defaults like feeding a craving woman represent the baseline: a sage might try another intervention first when available, but the halakha remains the safety net when that alternative fails."
           },
           learningBlocker: "Students may focus on what was whispered; the legal point is that the halakhic option was always available and the story does not displace it."
         },
