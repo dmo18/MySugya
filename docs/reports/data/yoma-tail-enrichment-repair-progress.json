@@ -14,7 +14,7 @@
    "blockerReason": null
   },
   "yoma-087b-s03": {
-   "status": "IN_PROGRESS",
+   "status": "FIXED_PENDING_REVIEW",
    "prNumber": null,
    "repairCommit": "428e1d3",
    "mergedCommit": null,
