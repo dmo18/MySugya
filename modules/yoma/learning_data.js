@@ -178924,14 +178924,14 @@ const DAF_CONTENT = {
           endVilnaLine: 5
         },
         display: {
-          whats: "All Torah eating measures are egg-bulk; the date-bulk is unique to Yom Kippur",
+          whats: "All Torah eating measures are olive-bulk, except impurity and Yom Kippur; Yom Kippur's exception is the date-bulk",
           hint: "A baraita teaches that every Torah eating measure defaults to an olive-bulk - so why do the impurity and Yom Kippur cases both depart from that default, and what does each verse's changed wording teach?",
-          title: "Egg-Bulk as the Universal Eating Measure"
+          title: "Olive-Bulk: the Torah's Default Eating Measure"
         },
         learning: {
           ahaMoment: "The olive-bulk isn't one measure among several - it is the Torah's default for every eating prohibition. Impurity and Yom Kippur are the two exceptions, each triggered by its own verse departing from the ordinary eating language.",
           memoryAnchor: "Olive-bulk is the default; Yom Kippur's date-bulk is the exception the verse's changed wording creates.",
-          learnerQuestion: "Why does the Talmud say that all Torah eating measures equal an egg-bulk?",
+          learnerQuestion: "Why does a baraita say that every Torah eating measure is an olive-bulk except for impurity and Yom Kippur, and why is the Yom Kippur measure specifically a large date?",
           coreTension: "Between the Torah's single default measure (olive-bulk) for all eating prohibitions and two verses (impurity, Yom Kippur) whose altered wording signals a departure from that default.",
           coreMove: "A baraita teaches that every Torah eating measure is an olive-bulk, except where the verse changes its wording; the Yom Kippur verse's unusual language ('shall not be afflicted' rather than 'shall eat') is exactly this kind of departure, so its measure becomes a large date. The Gemara then explains why both the impurity case and the Yom Kippur case are needed together: the impurity case alone might be dismissed as ordinary stylistic variation, while the Yom Kippur case establishes that deviant wording generally signals a changed measure.",
           takeaway: {
@@ -178980,10 +178980,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of egg-bulk context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "Learners assume every Torah eating-prohibition is measured by an olive-bulk without exception.",
@@ -178994,7 +178991,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "All Torah eating measures are egg-bulk; the date-b"
+            item: "Olive-bulk as the Torah's default eating measure, with impurity and Yom Kippur as verse-triggered exceptions"
           }
         ],
         quizSeeds: [
@@ -179007,14 +179004,14 @@ const DAF_CONTENT = {
             answer: "From the impurity verse alone, one might dismiss the unusual wording as mere stylistic variation. The Yom Kippur case establishes the general rule that whenever a verse deviates from standard language, it implies a corresponding change in the halacha."
           }
         ],
-        finalRuling: "The Gemara establishes that all Torah-specified eating measures are the size of an egg-bulk, making the date-bulk for Yom Kippur a unique, larger stan",
+        finalRuling: "The default Torah measure for eating prohibitions is an olive-bulk; the Yom Kippur measure is a large date because the verse's wording departs from the ordinary eating language, signaling the Sages to set a different standard.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "egg-bulk",
-          "eating measures",
-          "Torah measures",
-          "date-bulk"
+          "olive-bulk",
+          "eating-measures",
+          "date-bulk",
+          "torah-measures"
         ],
         review: "draft"
       },
