@@ -176657,7 +176657,7 @@ const DAF_CONTENT = {
   "78b": {
     canonicalRef: "Yoma 78b",
     daf: "78b",
-    summary: "Tractate Yoma daf 78b covers: Cork shoe on Yom Kippur: is it a real shoe? Permitted or forbidden?; Young children permitted to wear shoes on Yom Kippur; A king wears shoes even on Yom Kippur for honor; dispute about kings; Eating a date-bulk on YK is prohibited; one who eats this amount is liable.",
+    summary: "Tractate Yoma daf 78b covers: Cork shoe on Yom Kippur: is it a real shoe? Permitted or forbidden?; Young children permitted to wear shoes on Yom Kippur; A king and bride may wash their faces on Yom Kippur, and a new mother may wear shoes for warmth or scorpion danger; Eating a date-bulk on YK is prohibited; one who eats this amount is liable.",
     sugyot: [
       {
         id: "yoma-078b-s01",
@@ -176933,14 +176933,14 @@ const DAF_CONTENT = {
           endVilnaLine: 44
         },
         display: {
-          whats: "A king wears shoes even on Yom Kippur for honor; dispute about kings",
+          whats: "A king and bride may wash their faces on Yom Kippur; a new mother may wear shoes for warmth or scorpion danger",
           hint: "Why does Rabbi Eliezer permit a king and a bride to wash their faces on Yom Kippur, and why may a new mother or someone fearing scorpions wear shoes?",
-          title: "The King's Shoes on Yom Kippur"
+          title: "Washing Faces and Wearing Shoes on Yom Kippur"
         },
         learning: {
           ahaMoment: "The Mishnah's exceptions split into two different grounds, not one: the king and bride may wash their faces because dignity is at stake (a king's beauty before his people, a bride's appeal to her new husband), while a new mother and one facing a scorpion may wear shoes because their safety is at stake (cold, danger). Dignity and danger are separate exceptions to two different afflictions, not variations on the same principle.",
           memoryAnchor: "Face-washing: king (beauty) and bride (appeal), by dignity. Shoes: new mother (cold) and scorpion-fearer (danger), by safety.",
-          learnerQuestion: "Can a king wear shoes on Yom Kippur because of royal dignity?",
+          learnerQuestion: "Can a king and a bride wash their faces on Yom Kippur, and can a new mother wear shoes?",
           coreTension: "Between the Sages' view that the face-washing and shoe-wearing afflictions apply uniformly to everyone, and Rabbi Eliezer's view (via Rabbi Chananya ben Teradyon) that dignity and danger each justify a distinct, narrow exception.",
           coreMove: "The Gemara identifies two separate grounds for exception, one per affliction: for face-washing, dignity - a king must look regal ('your eyes shall see the king in his beauty') and a bride must not appear repulsive to her new husband, a status Rav limits to her first thirty days; for shoe-wearing, danger - a new mother may fall ill from the cold, and Shmuel extends the same logic to anyone who fears a scorpion while barefoot.",
           takeaway: {
@@ -177023,10 +177023,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of king context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "Learners assume the bare-feet and face-washing afflictions admit no exceptions.",
@@ -177037,7 +177034,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "A king wears shoes even on Yom Kippur for honor; d"
+            item: "A king and bride wash their faces (dignity); a new mother and one fearing scorpions wear shoes (danger)"
           }
         ],
         quizSeeds: [
@@ -177050,15 +177047,16 @@ const DAF_CONTENT = {
             answer: "That one need not endanger himself to observe the affliction. A new mother is weak and could fall ill from the cold, and a barefoot person facing scorpions is at risk, so in both cases health and safety override the prohibition on wearing shoes."
           }
         ],
-        finalRuling: "A king is permitted to wear shoes even on Yom Kippur because of the dignity of royalty; the Gemara debates whether this applies to all kings or only s",
+        finalRuling: "The halacha follows Rabbi Eliezer, as taught by Rabbi Chananya ben Teradyon: a king and a bride may wash their faces on Yom Kippur, and a new mother may wear shoes because of the cold. Shmuel further permits shoes for anyone who fears a scorpion while barefoot.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
+          "face-washing",
           "king",
-          "royal dignity",
-          "YK",
-          "shoes",
-          "honor"
+          "bride",
+          "new-mother",
+          "shoe-prohibition",
+          "scorpion-danger"
         ],
         review: "draft"
       },
