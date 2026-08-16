@@ -1,6 +1,6 @@
 {
  "canonicalRef": "Yoma 78a",
- "summary": "Tractate Yoma daf 78a covers: Temple river bubbles up from beneath the threshold and becomes mighty; Crossing water on Yom Kippur: does it constitute prohibited bathing?; Sick person wearing shoes on YK; wooden shoes; danger exceptions; Rain water, river crossing, measuring bathing by amount; Unresolved question about water crossing and the shoe prohibition.",
+ "summary": "Tractate Yoma daf 78a covers: Temple river bubbles up from beneath the threshold and becomes mighty; Crossing water on Yom Kippur: does it constitute prohibited bathing?; Cooling without bathing: damp clay, fruit, cups, and a pre-soaked cloth; Rain water, river crossing, measuring bathing by amount; Unresolved question about water crossing and the shoe prohibition.",
  "sugyot": [
   {
    "sugyaNumber": 1,
@@ -286,14 +286,14 @@
     "Yoma.78a.10"
    ],
    "display": {
-    "whats": "Sick person wearing shoes on YK; wooden shoes; danger exceptions",
+    "whats": "Sitting on damp clay forbidden; cooling with fruit permitted; cooling vessels (Rabba's baby, Rava's silver cup) debated by fullness and material; Rabbi Yehoshua ben Levi's pre-soaked, wrung-out cloth; a dispute over which practice fit which fast",
     "hint": "What methods of cooling off on Yom Kippur avoid the bathing prohibition, and why does the Gemara dispute whether an empty cup may be used?",
-    "title": "Sick Person's Shoes on Yom Kippur"
+    "title": "Cooling Without Bathing: Clay, Cups, and Cloths"
    },
    "learning": {
     "ahaMoment": "The disputes turn on whether a method risks actual water contact with the body - which is itself the bathing prohibition - not on whether it merely feels cool: a full or leaky (ceramic) vessel spills or seeps water onto the skin and is forbidden as bathing, while fruit or a cold baby cool the body without any water touching it at all, and a cloth is governed by a separate concern (wringing) rather than by water contact.",
     "memoryAnchor": "Damp clay: forbidden. Fruit: permitted. Cup: debated (empty silver - maybe; ceramic - never). Pre-wrung cloth: permitted, but only if wrung out before the fast.",
-    "learnerQuestion": "Can a sick person wear shoes on Yom Kippur despite the prohibition?",
+    "learnerQuestion": "What methods of cooling off on Yom Kippur avoid the bathing prohibition, and why does the Gemara dispute whether an empty cup may be used?",
     "coreTension": "Between wanting relief from heat on Yom Kippur and the narrower, harder-to-pin-down concerns (spilling, wringing) that actually drive each ruling, rather than a single blanket rule against coolness.",
     "coreMove": "The Gemara works through a series of cooling methods and isolates what actually makes each one permitted or forbidden: damp clay is forbidden because contact itself dampens the body; fruit is permitted because it isn't water; a vessel's permissibility turns on whether it might spill (full vs. empty, silver vs. ceramic); and a cloth is permitted only if it was soaked and wrung out before the fast, since wringing itself is a separate Yom Kippur prohibition.",
     "takeaway": {
@@ -361,10 +361,11 @@
     }
    ],
    "topicTags": [
-    "sick person",
-    "shoes",
-    "wooden sandals",
-    "YK exceptions"
+    "damp-clay",
+    "cooling-methods",
+    "silver-cup-dispute",
+    "wrung-out-cloth",
+    "yom-kippur-afflictions"
    ],
    "conceptRefs": [],
    "requiresUnderstanding": [],
@@ -378,7 +379,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "item": "Sick person wearing shoes on YK; wooden shoes; dan"
+     "item": "Cooling methods on Yom Kippur: damp clay forbidden, fruit permitted, cup disputed by fullness/material, and a pre-soaked wrung-out cloth"
     }
    ],
    "quizSeeds": [
@@ -391,15 +392,12 @@
      "answer": "On Yom Kippur the cloth had to be soaked and wrung out before the fast, because wringing is forbidden on Yom Kippur just as on Shabbat. The Ninth of Av, being only rabbinic, allowed greater leniency with the cloth, which is why the two practices were not interchangeable."
     }
    ],
-   "finalRuling": "A sick person may wear shoes on Yom Kippur for health reasons; the Gemara discusses wooden sandals and their status under the prohibition.",
+   "finalRuling": "Sitting on clay wet enough to dampen what touches it is forbidden on Yom Kippur; cooling with fruit is permitted, as is wiping with a cloth soaked and wrung out before the fast begins, since wringing itself is forbidden on Yom Kippur as on Shabbat. Cooling with a vessel is disputed: an empty cup is permitted according to Rav Pappa but forbidden according to Rav Ashi (who worries it may slip and spill), while a ceramic vessel is forbidden either way because water seeps through it.",
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
    "review": "draft",
-   "prerequisiteKnowledge": [
-    "Background knowledge of sick person context",
-    "Understanding of Yom Kippur halachic framework"
-   ]
+   "prerequisiteKnowledge": []
   },
   {
    "sugyaNumber": 4,
