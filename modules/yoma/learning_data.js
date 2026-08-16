@@ -175389,7 +175389,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of Temple river context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -175403,7 +175404,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Temple river bubbles up from beneath the threshold"
+            item: "Temple river bubbles up from beneath the threshold"
           }
         ],
         quizSeeds: [
@@ -175524,7 +175525,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of crossing water context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -175538,7 +175540,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Crossing water on Yom Kippur: does it constitute p"
+            item: "Crossing water on Yom Kippur: does it constitute p"
           }
         ],
         quizSeeds: [
@@ -175663,7 +175665,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of sick person context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -175677,7 +175680,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Sick person wearing shoes on YK; wooden shoes; dan"
+            item: "Sick person wearing shoes on YK; wooden shoes; dan"
           }
         ],
         quizSeeds: [
@@ -175785,7 +175788,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of rain water context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -175799,7 +175803,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Rain water, river crossing, measuring bathing by a"
+            item: "Rain water, river crossing, measuring bathing by a"
           }
         ],
         quizSeeds: [
@@ -175872,7 +175876,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of teiku context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -175886,7 +175891,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Unresolved question about water crossing and the s"
+            item: "Unresolved question about water crossing and the s"
           }
         ],
         quizSeeds: [
