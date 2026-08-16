@@ -97,10 +97,7 @@
     "scriptural derivation"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of affliction context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners may conclude from the Shechem verse that the Torah views marital relations as inherently an affliction.",
@@ -111,7 +108,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Verse about afflicting daughters in Laban's house "
+     "item": "Verse about afflicting daughters in Laban's house "
     }
    ],
    "quizSeeds": [
@@ -128,7 +125,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of affliction context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -223,10 +224,7 @@
     "five afflictions"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of marital relations context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners assume any contact with water on Yom Kippur is forbidden.",
@@ -237,7 +235,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Prohibition on marital relations on Yom Kippur"
+     "item": "Prohibition on marital relations on Yom Kippur"
     }
    ],
    "quizSeeds": [
@@ -254,7 +252,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of marital relations context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -445,10 +447,7 @@
     "honor of teachers"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of greeting context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners read these crossing-permissions as casual leniencies that effectively cancel the Yom Kippur bathing prohibition.",
@@ -459,7 +458,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Greeting others on Yom Kippur; walking to visit fa"
+     "item": "Greeting others on Yom Kippur; walking to visit fa"
     }
    ],
    "quizSeeds": [
@@ -480,7 +479,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of greeting context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -576,10 +579,7 @@
     "miraculous river"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of Temple river context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners treat the description of the future river as a stray bit of imagery detached from the legal discussion.",
@@ -590,7 +590,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Future river flowing from the Temple in the End of"
+     "item": "Future river flowing from the Temple in the End of"
     }
    ],
    "quizSeeds": [
@@ -607,7 +607,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of Temple river context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   }
  ],
  "glossary": [],

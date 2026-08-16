@@ -173976,7 +173976,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of affliction context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -173990,7 +173991,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Verse about afflicting daughters in Laban's house "
+            item: "Verse about afflicting daughters in Laban's house "
           }
         ],
         quizSeeds: [
@@ -174099,7 +174100,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of marital relations context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -174113,7 +174115,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Prohibition on marital relations on Yom Kippur"
+            item: "Prohibition on marital relations on Yom Kippur"
           }
         ],
         quizSeeds: [
@@ -174305,7 +174307,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of greeting context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -174319,7 +174322,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Greeting others on Yom Kippur; walking to visit fa"
+            item: "Greeting others on Yom Kippur; walking to visit fa"
           }
         ],
         quizSeeds: [
@@ -174431,7 +174434,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of Temple river context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -174445,7 +174449,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Future river flowing from the Temple in the End of"
+            item: "Future river flowing from the Temple in the End of"
           }
         ],
         quizSeeds: [
