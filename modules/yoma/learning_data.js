@@ -172925,7 +172925,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of bathing prohibition context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -172939,7 +172940,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Bathing prohibition derived from verse; Ezekiel's "
+            item: "Bathing prohibition derived from verse; Ezekiel's "
           }
         ],
         quizSeeds: [
@@ -173030,7 +173031,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of inui context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -173044,7 +173046,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Whether refraining from bathing constitutes inui ("
+            item: "Whether refraining from bathing constitutes inui ("
           }
         ],
         quizSeeds: [
@@ -173152,7 +173154,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of anointing prohibition context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -173166,7 +173169,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Prohibition on anointing; Na'aman's anointing; ple"
+            item: "Prohibition on anointing; Na'aman's anointing; ple"
           }
         ],
         quizSeeds: [
@@ -173239,7 +173242,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of sandals context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -173253,7 +173257,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Sandals: prohibition on wearing sandals on Yom Kip"
+            item: "Sandals: prohibition on wearing sandals on Yom Kip"
           }
         ],
         quizSeeds: [
