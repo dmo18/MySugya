@@ -175581,14 +175581,14 @@ const DAF_CONTENT = {
           title: "Sick Person's Shoes on Yom Kippur"
         },
         learning: {
-          ahaMoment: "The disputes trace a single line: none of these cooling methods are forbidden because they resemble bathing in sensation, but because of two narrower risks - spilling water on the body (a full or slippery vessel) or performing the separately forbidden act of wringing.",
+          ahaMoment: "The disputes turn on whether a method risks actual water contact with the body - which is itself the bathing prohibition - not on whether it merely feels cool: a full or leaky (ceramic) vessel spills or seeps water onto the skin and is forbidden as bathing, while fruit or a cold baby cool the body without any water touching it at all, and a cloth is governed by a separate concern (wringing) rather than by water contact.",
           memoryAnchor: "Damp clay: forbidden. Fruit: permitted. Cup: debated (empty silver - maybe; ceramic - never). Pre-wrung cloth: permitted, but only if wrung out before the fast.",
           learnerQuestion: "Can a sick person wear shoes on Yom Kippur despite the prohibition?",
           coreTension: "Between wanting relief from heat on Yom Kippur and the narrower, harder-to-pin-down concerns (spilling, wringing) that actually drive each ruling, rather than a single blanket rule against coolness.",
           coreMove: "The Gemara works through a series of cooling methods and isolates what actually makes each one permitted or forbidden: damp clay is forbidden because contact itself dampens the body; fruit is permitted because it isn't water; a vessel's permissibility turns on whether it might spill (full vs. empty, silver vs. ceramic); and a cloth is permitted only if it was soaked and wrung out before the fast, since wringing itself is a separate Yom Kippur prohibition.",
           takeaway: {
             type: "legal_principle",
-            text: "Cooling off on Yom Kippur is not banned as such; specific methods are forbidden or permitted based on narrower concerns - whether water might spill onto the body (vessels) or whether the method requires the separately forbidden act of wringing (cloths) - not because coolness itself resembles bathing."
+            text: "Cooling off on Yom Kippur is not banned as such; specific methods are forbidden only when they risk actual water contact with the body - which is itself the bathing prohibition, as with a full or ceramic vessel - while methods with no water contact (fruit, a cold body) are permitted, and a cloth's permissibility turns on a separate concern: whether it was wrung out before the fast, since wringing itself is forbidden on Yom Kippur."
           },
           learningBlocker: "Students may look for one uniform rule about coolness on Yom Kippur; the Gemara instead evaluates each method by a different underlying risk - spilling for vessels, wringing for cloths - so superficially similar acts can land on opposite sides."
         },
