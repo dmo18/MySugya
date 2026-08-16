@@ -175577,20 +175577,20 @@ const DAF_CONTENT = {
         },
         display: {
           whats: "Sick person wearing shoes on YK; wooden shoes; danger exceptions",
-          hint: "A sick person may wear shoes on Yom Kippur for health reasons; the Gemara discusses wooden sandals and their status under the prohibition.",
+          hint: "What methods of cooling off on Yom Kippur avoid the bathing prohibition, and why does the Gemara dispute whether an empty cup may be used?",
           title: "Sick Person's Shoes on Yom Kippur"
         },
         learning: {
-          ahaMoment: "The YK afflictions presuppose a healthy body capable of bearing them; the sick are already in their own form of deprivation and are not required to compound it.",
-          memoryAnchor: "Sick person wears shoes on YK: affliction laws apply to the healthy, not to those already suffering.",
+          ahaMoment: "The disputes turn on whether a method risks actual water contact with the body - which is itself the bathing prohibition - not on whether it merely feels cool: a full or leaky (ceramic) vessel spills or seeps water onto the skin and is forbidden as bathing, while fruit or a cold baby cool the body without any water touching it at all, and a cloth is governed by a separate concern (wringing) rather than by water contact.",
+          memoryAnchor: "Damp clay: forbidden. Fruit: permitted. Cup: debated (empty silver - maybe; ceramic - never). Pre-wrung cloth: permitted, but only if wrung out before the fast.",
           learnerQuestion: "Can a sick person wear shoes on Yom Kippur despite the prohibition?",
-          coreTension: "Between the universal prohibition on wearing shoes (one of the five afflictions) and the need to protect a sick person's health and safety.",
-          coreMove: "The Gemara permits a sick person to wear shoes because the affliction obligations are calibrated to a healthy person capable of bearing them; health risk overrides the prohibition. Wooden sandals may raise additional questions about what qualifies as 'shoes.'",
+          coreTension: "Between wanting relief from heat on Yom Kippur and the narrower, harder-to-pin-down concerns (spilling, wringing) that actually drive each ruling, rather than a single blanket rule against coolness.",
+          coreMove: "The Gemara works through a series of cooling methods and isolates what actually makes each one permitted or forbidden: damp clay is forbidden because contact itself dampens the body; fruit is permitted because it isn't water; a vessel's permissibility turns on whether it might spill (full vs. empty, silver vs. ceramic); and a cloth is permitted only if it was soaked and wrung out before the fast, since wringing itself is a separate Yom Kippur prohibition.",
           takeaway: {
             type: "legal_principle",
-            text: "Health considerations can override YK affliction obligations; the afflictions are designed to humble the healthy person before God, not to endanger the sick."
+            text: "Cooling off on Yom Kippur is not banned as such; specific methods are forbidden only when they risk actual water contact with the body - which is itself the bathing prohibition, as with a full or ceramic vessel - while methods with no water contact (fruit, a cold body) are permitted, and a cloth's permissibility turns on a separate concern: whether it was wrung out before the fast, since wringing itself is forbidden on Yom Kippur."
           },
-          learningBlocker: "Students may assume the shoe prohibition is absolute; recognizing that it is calibrated to the capable body resolves the apparent rigidity."
+          learningBlocker: "Students may look for one uniform rule about coolness on Yom Kippur; the Gemara instead evaluates each method by a different underlying risk - spilling for vessels, wringing for cloths - so superficially similar acts can land on opposite sides."
         },
         lines: [
           { id: "yoma-078a-l19", kind: "gemara", he: "תָּנֵי יְהוּדָה בַּר גְּרוֹגְרוֹת:\nאָסוּר לֵישֵׁב עַל גַּבֵּי טִינָא בְּיוֹם הַכִּפּוּרִים. אָמַר רַבִּי יְהוֹשֻׁעַ בֶּן לֵוִי: וּבְטִינָא\nמְטַפַּחַת. אָמַר אַבָּיֵי: וּבְטוֹפֵחַ עַל מְנָת לְהַטְפִּיחַ. אָמַר רַב יְהוּדָה: מוּתָּר\nלְהִצְטַנֵּן בְּפֵירוֹת. רַב יְהוּדָה מִצְטַנֵּן בְּקָרָא.",
