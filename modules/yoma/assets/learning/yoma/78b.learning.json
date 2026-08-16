@@ -115,10 +115,7 @@
     "material definition"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of cork sandal context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners conclude from the cork and reed sandals that the Yom Kippur prohibition bans only leather shoes.",
@@ -129,7 +126,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Cork shoe on Yom Kippur: is it a real shoe? Permit"
+     "item": "Cork shoe on Yom Kippur: is it a real shoe? Permit"
     }
    ],
    "quizSeeds": [
@@ -146,7 +143,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of cork sandal context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -241,10 +242,7 @@
     "shoe prohibition"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of children context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners think children are simply exempt from all Yom Kippur restrictions.",
@@ -255,7 +253,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Young children permitted to wear shoes on Yom Kipp"
+     "item": "Young children permitted to wear shoes on Yom Kipp"
     }
    ],
    "quizSeeds": [
@@ -272,7 +270,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of children context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -388,10 +390,7 @@
     "honor"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of king context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners assume the bare-feet and face-washing afflictions admit no exceptions.",
@@ -402,7 +401,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "A king wears shoes even on Yom Kippur for honor; d"
+     "item": "A king wears shoes even on Yom Kippur for honor; d"
     }
    ],
    "quizSeeds": [
@@ -419,7 +418,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of king context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -477,10 +480,7 @@
     "kotevet"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of date-bulk context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners assume 'the volume of a large date' is a self-evident measure needing no analysis.",
@@ -491,7 +491,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Eating a date-bulk on YK is prohibited; one who ea"
+     "item": "Eating a date-bulk on YK is prohibited; one who ea"
     }
    ],
    "quizSeeds": [
@@ -504,7 +504,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of date-bulk context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   }
  ],
  "glossary": [],

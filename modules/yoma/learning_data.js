@@ -176760,7 +176760,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of cork sandal context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -176774,7 +176775,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Cork shoe on Yom Kippur: is it a real shoe? Permit"
+            item: "Cork shoe on Yom Kippur: is it a real shoe? Permit"
           }
         ],
         quizSeeds: [
@@ -176882,7 +176883,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of children context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -176896,7 +176898,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Young children permitted to wear shoes on Yom Kipp"
+            item: "Young children permitted to wear shoes on Yom Kipp"
           }
         ],
         quizSeeds: [
@@ -177020,7 +177022,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of king context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -177034,7 +177037,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "A king wears shoes even on Yom Kippur for honor; d"
+            item: "A king wears shoes even on Yom Kippur for honor; d"
           }
         ],
         quizSeeds: [
@@ -177109,7 +177112,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of date-bulk context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -177123,7 +177127,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Eating a date-bulk on YK is prohibited; one who ea"
+            item: "Eating a date-bulk on YK is prohibited; one who ea"
           }
         ],
         quizSeeds: [
