@@ -176934,20 +176934,20 @@ const DAF_CONTENT = {
         },
         display: {
           whats: "A king wears shoes even on Yom Kippur for honor; dispute about kings",
-          hint: "A king is permitted to wear shoes even on Yom Kippur because of the dignity of royalty; the Gemara debates whether this applies to all kings or only some.",
+          hint: "Why does Rabbi Eliezer permit a king and a bride to wash their faces on Yom Kippur, and why may a new mother or someone fearing scorpions wear shoes?",
           title: "The King's Shoes on Yom Kippur"
         },
         learning: {
-          ahaMoment: "The shoe prohibition is not only self-directed: if it were purely personal self-humbling, the king's public dignity would be irrelevant. The dispute itself reveals that public appearance is part of what YK regulates.",
-          memoryAnchor: "King's shoes on YK: does royal dignity compete with public humility before God? The dispute is preserved.",
+          ahaMoment: "The Mishnah's exceptions split into two different grounds, not one: the king and bride may wash their faces because dignity is at stake (a king's beauty before his people, a bride's appeal to her new husband), while a new mother and one facing a scorpion may wear shoes because their safety is at stake (cold, danger). Dignity and danger are separate exceptions to two different afflictions, not variations on the same principle.",
+          memoryAnchor: "Face-washing: king (beauty) and bride (appeal), by dignity. Shoes: new mother (cold) and scorpion-fearer (danger), by safety.",
           learnerQuestion: "Can a king wear shoes on Yom Kippur because of royal dignity?",
-          coreTension: "Between the universal application of the shoe prohibition (everyone goes barefoot on YK) and the special legal status of a king whose public dignity is a matter of law.",
-          coreMove: "The Gemara debates whether kavod hamelech (royal dignity) overrides personal affliction obligations. The dispute reveals whether the shoe prohibition is purely a personal act of self-humbling or also carries a public dimension of appearing before God in humility.",
+          coreTension: "Between the Sages' view that the face-washing and shoe-wearing afflictions apply uniformly to everyone, and Rabbi Eliezer's view (via Rabbi Chananya ben Teradyon) that dignity and danger each justify a distinct, narrow exception.",
+          coreMove: "The Gemara identifies two separate grounds for exception, one per affliction: for face-washing, dignity - a king must look regal ('your eyes shall see the king in his beauty') and a bride must not appear repulsive to her new husband, a status Rav limits to her first thirty days; for shoe-wearing, danger - a new mother may fall ill from the cold, and Shmuel extends the same logic to anyone who fears a scorpion while barefoot.",
           takeaway: {
             type: "legal_principle",
-            text: "The question of whether royal dignity overrides the YK shoe prohibition turns on whether the prohibition is purely self-directed or also a public statement; if it has a public dimension, the king's public dignity is a genuine competing principle."
+            text: "The face-washing exception (king, bride) rests on dignity, and the shoe-wearing exception (new mother, scorpion-fearer) rests on danger to safety; the two afflictions in this passage are relaxed for different reasons, not the same one."
           },
-          learningBlocker: "Students may assume religious prohibitions always override dignity considerations; the Gemara treats kavod hamelech as a genuine competing principle that requires resolution."
+          learningBlocker: "Students may assume the king's exception is about wearing shoes, since royal dignity sounds like it should override the more visible shoe prohibition; the source text is instead about washing the face, a separate affliction from the shoe prohibition that a new mother and a scorpion-fearer are exempted from for an unrelated reason (danger, not dignity)."
         },
         lines: [
           { id: "yoma-078b-l37", kind: "gemara", he: "הַמֶּלֶךְ וְהַכַּלָּה יִרְחֲצוּ\nאֶת פְּנֵיהֶם. מַתְנִיתִין מַנִּי? רַבִּי חֲנַנְיָא בֶּן תְּרַדְיוֹן הִיא, דְּתַנְיָא: הַמֶּלֶךְ וְהַכִּלָּה\nלֹא יִרְחֲצוּ אֶת פְּנֵיהֶם. רַבִּי חֲנַנְיָא בֶּן תְּרַדְיוֹן אוֹמֵר מִשּׁוּם רַבִּי אֱלִיעֶזֶר: הַמֶּלֶךְ\nוְהַכַּלָּה יִרְחֲצוּ אֶת פְּנֵיהֶם. הַחַיָּה לֹא תִּנְעוֹל אֶת הַסַּנְדָּל. רַבִּי חֲנַנְיָא בֶּן תְּרַדְיוֹן\nאוֹמֵר מִשּׁוּם רַבִּי אֱלִיעֶזֶר: הַחַיָּה תִּנְעוֹל אֶת הַסַּנְדָּל.",
