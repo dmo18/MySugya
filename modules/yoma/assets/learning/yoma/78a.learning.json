@@ -77,10 +77,7 @@
     "aggadah"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of Temple river context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners take Rav Yosef's neck-deep image as the operative law for mikveh dimensions.",
@@ -91,7 +88,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Temple river bubbles up from beneath the threshold"
+     "item": "Temple river bubbles up from beneath the threshold"
     }
    ],
    "quizSeeds": [
@@ -104,7 +101,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of Temple river context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -219,10 +220,7 @@
     "intent"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of crossing water context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners assume the water-crossing rules are the same on Yom Kippur and Shabbat.",
@@ -233,7 +231,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Crossing water on Yom Kippur: does it constitute p"
+     "item": "Crossing water on Yom Kippur: does it constitute p"
     }
    ],
    "quizSeeds": [
@@ -250,7 +248,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of crossing water context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -365,10 +367,7 @@
     "YK exceptions"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of sick person context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners think any cooling or wiping with moisture is simply bathing and therefore banned on Yom Kippur.",
@@ -379,7 +378,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Sick person wearing shoes on YK; wooden shoes; dan"
+     "item": "Sick person wearing shoes on YK; wooden shoes; dan"
     }
    ],
    "quizSeeds": [
@@ -396,7 +395,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of sick person context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -491,10 +494,7 @@
     "bathing measure"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of rain water context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners read the firstborn-permission passage as plainly about whether scholars must defer to the Nasi.",
@@ -505,7 +505,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Rain water, river crossing, measuring bathing by a"
+     "item": "Rain water, river crossing, measuring bathing by a"
     }
    ],
    "quizSeeds": [
@@ -522,7 +522,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of rain water context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 5,
@@ -579,10 +583,7 @@
     "bathing prohibition"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of teiku context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners assume only conventional leather footwear is at issue in the shoe prohibition.",
@@ -593,7 +594,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Unresolved question about water crossing and the s"
+     "item": "Unresolved question about water crossing and the s"
     }
    ],
    "quizSeeds": [
@@ -606,7 +607,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of teiku context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   }
  ],
  "glossary": [],
