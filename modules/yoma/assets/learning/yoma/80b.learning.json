@@ -172,10 +172,7 @@
     "YK"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of cheekful context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners expect the eating and drinking measures to follow the same logic, both fixed or both relative.",
@@ -186,7 +183,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Cheekful debate between Rav and Shmuel; method of "
+     "item": "Cheekful debate between Rav and Shmuel; method of "
     }
    ],
    "quizSeeds": [
@@ -207,7 +204,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of cheekful context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -264,10 +265,7 @@
     "YK liability"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of food combination context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners assume liquid condiments like brine are drinks and so cannot count toward the food-eating measure.",
@@ -278,7 +276,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "All foods combine toward the eating measure on YK"
+     "item": "All foods combine toward the eating measure on YK"
     }
    ],
    "quizSeeds": [
@@ -291,7 +289,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of food combination context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -368,10 +370,7 @@
     "YK liability"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of Reish Lakish context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners assume any eating on Yom Kippur, however done, incurs the full penalty.",
@@ -382,7 +381,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Reish Lakish: overeating on YK creates liability e"
+     "item": "Reish Lakish: overeating on YK creates liability e"
     }
    ],
    "quizSeeds": [
@@ -399,7 +398,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of Reish Lakish context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   }
  ],
  "glossary": [],

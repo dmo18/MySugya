@@ -180486,7 +180486,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of cheekful context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -180500,7 +180501,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Cheekful debate between Rav and Shmuel; method of "
+            item: "Cheekful debate between Rav and Shmuel; method of "
           }
         ],
         quizSeeds: [
@@ -180578,7 +180579,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of food combination context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -180592,7 +180594,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "All foods combine toward the eating measure on YK"
+            item: "All foods combine toward the eating measure on YK"
           }
         ],
         quizSeeds: [
@@ -180678,7 +180680,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of Reish Lakish context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -180692,7 +180695,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Reish Lakish: overeating on YK creates liability e"
+            item: "Reish Lakish: overeating on YK creates liability e"
           }
         ],
         quizSeeds: [
