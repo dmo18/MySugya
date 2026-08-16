@@ -172839,20 +172839,20 @@ const DAF_CONTENT = {
         },
         display: {
           whats: "Bathing prohibition derived from verse; Ezekiel's anointing vision; what counts as bathing",
-          hint: "The Gemara derives the bathing prohibition on Yom Kippur from a verse, and connects it to Ezekiel's vision where anointing with oil is forbidden. The discussion explores what actions qualify as bathin...",
+          hint: "What does the Gemara's telling of Ezekiel's vision, Gabriel's coals, and the angel of Persia teach about judgment and restraint?",
           title: "Bathing Prohibition: Verse and Ezekiel"
         },
         learning: {
-          ahaMoment: "Narrative proof works in the Talmud: Ezekiel's mourning behavior reveals what counts as human comfort, and the prohibition follows from that revelation.",
-          memoryAnchor: "Ezekiel mourns by not bathing - that abstention classifies bathing as a genuine comfort, making its absence an affliction.",
+          ahaMoment: "The aggada is not a digression: it pairs mercy with justice - the coals cooling en route show God tempering deserved punishment, and Gabriel's own punishment for reporting the destruction in full shows that even a faithful agent of judgment must not broadcast an outcome, only hint at it.",
+          memoryAnchor: "The coals cooled in transit - punishment tempered even when deserved; Gabriel was struck for saying too much, not for doing too little.",
           learnerQuestion: "How does the Gemara prove that bathing is prohibited on Yom Kippur?",
-          coreTension: "Between finding a direct explicit source for the bathing prohibition and drawing on narrative texts that show bathing as normal human practice.",
-          coreMove: "The Gemara uses both a direct verse and the Ezekiel narrative: Ezekiel's mourning included abstaining from anointing/bathing, showing these as normal human comforts. Abstaining from them therefore qualifies as inui.",
+          coreTension: "Between the severity of the decreed punishment and its restraint in practice: the same passage that condemns the sinners tempers their punishment through the cooling coals, rewards the merit of Torah scholars' wives and Daniel, and yet punishes Gabriel himself for reporting the destruction too fully.",
+          coreMove: "The aggada draws two lessons from the vision: the coals cooling as they passed from the cherub to Gabriel shows that God tempers punishment even when it is deserved, and Gabriel's own punishment for delivering a full report of the destruction shows that an agent of judgment should only hint at an outcome, never announce it in detail.",
           takeaway: {
             type: "derivation_principle",
-            text: "A prohibition can be established both from a direct verse and from narrative proof: when scripture describes someone abstaining from an activity as an act of mourning, that shows the activity is a genuine comfort whose absence counts as deprivation."
+            text: "A single vision text can carry two independent lessons at once: the coals cooling en route show that punishment can be tempered even when fully deserved, and Gabriel's own punishment for delivering a full report of the destruction establishes that an agent of judgment should only hint at an outcome, never announce it in detail."
           },
-          learningBlocker: "Students may not see why a narrative (Ezekiel's mourning story) carries halakhic weight alongside a direct verse."
+          learningBlocker: "Students may treat the angelic narrative as pure aggada with no argumentative payoff, missing that it makes concrete claims about restraint in judgment and the ethics of delivering a report."
         },
         lines: [
           { id: "yoma-077a-l01", kind: "gemara", he: "שָׁם מוֹשַׁב סֵמֶל הַקִּנְאָה הַמַּקְנֶה״, ״וַיָּבֵא אוֹתִי\nאֶל חֲצַר בֵּית ה׳ הַפְּנִימִית וְהִנֵּה פֶתַח הֵיכַל ה׳\nבֵּין הָאוּלָם וּבֵין הַמִּזְבֵּחַ כְּעֶשְׂרִים וַחֲמִשָּׁה אִישׁ\nאֲחוֹרֵיהֶם אֶל הֵיכַל ה׳ וּפְנֵיהֶם קֵדְמָה וְהֵמָּה\nמִשְׁתַּחֲוִים קֵדְמָה לַשָּׁמֶשׁ״. מִמַּשְׁמַע שֶׁנֶּאֱמַר\n״וּפְנֵיהֶם קֵדְמָה״, אֵינִי יוֹדֵעַ שֶׁאֲחוֹרֵיהֶם אֶל\nהֵיכַל ה׳? אֶלָּא, מָה תַּלְמוּד לוֹמַר ״אֲחוֹרֵיהֶם אֶל הֵיכַל\nה׳ — מְלַמֵּד שֶׁהָיוּ פּוֹרְעִין עַצְמָן וְהָיוּ מַתְרִיזִין\nכְּלַפֵּי מַטָּה.",
@@ -173083,20 +173083,20 @@ const DAF_CONTENT = {
         },
         display: {
           whats: "Prohibition on anointing; Na'aman's anointing; pleasure vs. necessity",
-          hint: "The prohibition on anointing applies to pleasure anointing; the story of Na'aman illustrates the distinction between permitted and prohibited anointing.",
+          hint: "Why do David's barefoot ascent of the Mount of Olives and Isaiah's barefoot walk both fail to prove that going without shoes is a Yom Kippur affliction, and which verse finally succeeds?",
           title: "Pleasure Anointing vs. Therapeutic Anointing"
         },
         learning: {
-          ahaMoment: "Na'aman's medicinal anointing is the proof-case: anointing can be treatment, not pleasure, and the prohibition does not reach treatment.",
-          memoryAnchor: "Na'aman's cure reveals the line: anointing for need is not the prohibited anointing for pleasure.",
+          ahaMoment: "The Gemara insists on a verse where 'barefoot' cannot be softened into anything but literal bare feet; David's and Isaiah's verses both admit non-literal readings, so only Jeremiah's explicit warning against letting the foot 'come to be barefoot' survives as the source.",
+          memoryAnchor: "David: maybe just no horse. Isaiah: maybe just patched shoes. Jeremiah: literally 'withhold your foot from being barefoot' - that one sticks.",
           learnerQuestion: "Does the Yom Kippur prohibition on anointing apply to all anointing or only anointing for pleasure?",
-          coreTension: "Between a blanket reading of the prohibition (no anointing at all on YK) and the need to permit anointing for medical or therapeutic purposes.",
-          coreMove: "The Na'aman narrative provides the key distinction: his treatment for tzara'at involved anointing as medical therapy, not pleasure. This proves the prohibition targets comfort-seeking anointing, not therapeutic anointing.",
+          coreTension: "Between the availability of vivid narrative descriptions of people going barefoot and the need for a verse where 'barefoot' cannot be softened into a non-literal reading.",
+          coreMove: "The Gemara tests two candidate verses and rejects both because 'barefoot' can be read non-literally there (a king stripped of his horse and whip, or patched shoes read like 'naked' meaning ragged clothing); only Jeremiah's verse, where bare feet are explicitly cast as a hardship to be withheld from, survives as the source.",
           takeaway: {
             type: "legal_principle",
-            text: "The YK prohibition on anointing applies only to pleasure anointing; therapeutic or medical anointing is permitted because the prohibition targets enjoyment, not the physical act of applying oil."
+            text: "Going barefoot (without shoes) is a Yom Kippur affliction, derived not from narrative descriptions of barefoot walking (which can always be read non-literally) but from Jeremiah's explicit warning to withhold the foot from becoming barefoot, which casts bare feet unambiguously as a hardship to avoid."
           },
-          learningBlocker: "Students may assume the prohibition is categorical and applies to all anointing without exception."
+          learningBlocker: "Students may assume the first vivid image of someone walking barefoot settles the derivation; the Gemara instead requires a verse immune to a non-literal reading of 'barefoot.'"
         },
         lines: [
           { id: "yoma-077a-l53", kind: "gemara", he: "וּנְעִילַת הַסַּנְדָּל מְנָא לַן? דִּכְתִיב: ״וְדָוִד\nעוֹלֶה בְמַעֲלֵה הַזֵּיתִים עוֹלֶה וּבוֹכֶה וְרֹאשׁ לוֹ חָפוּי (וְהוֹלֵךְ) יָחֵף״, יָחֵף מִמַּאי\n— לָאו מִנְּעִילַת הַסַּנְדָּל? וְדִילְמָא מִסּוּסְיָא וּמַרְטְקָא.",
@@ -173205,20 +173205,20 @@ const DAF_CONTENT = {
         },
         display: {
           whats: "Sandals: prohibition on wearing sandals on Yom Kippur",
-          hint: "The Mishna rules that wearing sandals is prohibited on Yom Kippur; this is one of the five afflictions.",
+          hint: "From which verse does the Gemara derive that withholding conjugal relations counts as a Yom Kippur affliction?",
           title: "Sandals and the Five Afflictions"
         },
         learning: {
-          ahaMoment: "The YK afflictions strip away layers of self-sufficiency: sandals are a dignity marker, and their removal is an act of humility, not just physical hardship.",
-          memoryAnchor: "Barefoot on YK: stripped of dignity, not just comfort - that is the point.",
+          ahaMoment: "The Gemara does not treat withholding conjugal relations as an obviously implied affliction; it anchors the derivation in Laban's own words to Jacob, where 'if you shall afflict my daughters' names withholding marital relations as the very act of 'affliction.'",
+          memoryAnchor: "Laban to Jacob: 'if you shall afflict my daughters' - that's the source for withheld conjugal relations as a Yom Kippur affliction.",
           learnerQuestion: "Why is wearing sandals prohibited on Yom Kippur?",
-          coreTension: "Between sandals as practical clothing (not obviously a luxury) and their inclusion among the five YK afflictions as a form of self-deprivation.",
-          coreMove: "The Mishna includes sandals because wearing them is a marker of human dignity and social status; going barefoot is a form of self-humbling before God. The prohibition strips away a symbol of self-sufficiency, not just a comfort.",
+          coreTension: "Between treating marital withholding as an obviously implied affliction and the Gemara's insistence on anchoring it in a specific verse, here supplied by Laban's own choice of words.",
+          coreMove: "The Gemara grounds the marital-relations affliction in Laban's own words to Jacob, reading 'if you shall afflict my daughters' as a warning against withholding conjugal relations from Leah and Rachel.",
           takeaway: {
             type: "conceptual",
-            text: "Yom Kippur afflictions target not only bodily pleasure but also markers of social dignity; going barefoot removes a status symbol, creating a condition of public humility before God."
+            text: "Refraining from conjugal relations is a Yom Kippur affliction, derived from Laban's charge to Jacob that taking other wives would 'afflict' Leah and Rachel by withholding relations from them - the same verse-anchored method the Gemara applies to every one of the five afflictions."
           },
-          learningBlocker: "Students may see sandals as merely practical and miss the dignity dimension that makes their removal a genuine affliction."
+          learningBlocker: "Students may assume marital withholding is self-evidently an affliction and miss that the Gemara still requires - and finds - a specific verse naming it as such."
         },
         lines: [
           { id: "yoma-077a-l61", kind: "gemara", he: "תַּשְׁמִישׁ\nהַמִּטָּה דְּאִיקְּרִי עִנּוּי מְנָא לַן? דִּכְתִיב: ״אִם תְּעַנֶּה אֶת בְּנוֹתַי וְאִם תִּקַּח נָשִׁים״.",
