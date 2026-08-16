@@ -180626,20 +180626,20 @@ const DAF_CONTENT = {
         },
         display: {
           whats: "Reish Lakish: overeating on YK creates liability even without swallowing",
-          hint: "Reish Lakish rules that chewing food on YK without swallowing still creates liability if the mouth is filled to the cheekful measure.",
+          hint: "Reish Lakish rules that forcing food down to the point of self-harm on Yom Kippur - eating to excess past satiety - does NOT create liability, since the Torah's language of 'affliction' addresses only normal, beneficial eating; why does the same exemption logic apply to a non-priest who overeats teruma?",
           title: "Chewing Without Swallowing: Reish Lakish on Overfilling"
         },
         learning: {
-          ahaMoment: "Reish Lakish's ruling reveals the logic of the cheekful: it is a sensation measure, and the sensation of full mouth exists even before swallowing.",
-          memoryAnchor: "Reish Lakish: fill the cheek and liability attaches, even without swallowing - sensation is the trigger.",
+          ahaMoment: "Reish Lakish's ruling reveals what the affliction-prohibition actually targets: normal, beneficial eating. Forcing food down past satiety harms rather than benefits the eater, so it falls outside the verse's scope entirely and creates no liability.",
+          memoryAnchor: "Reish Lakish: eating to excess, past satiety, is EXEMPT - self-harm isn't the 'eating' the verse prohibits.",
           learnerQuestion: "Does chewing food on Yom Kippur without swallowing create liability?",
-          coreTension: "Between the standard definition of 'eating' (which requires swallowing) and Reish Lakish's ruling that filling the mouth to the cheekful creates liability even without swallowing.",
-          coreMove: "Reish Lakish rules that for YK's drinking measure (cheekful), filling the mouth to capacity itself constitutes the act, even without swallowing, because the cheekful is defined by the sensory experience of fullness in the mouth - and that experience has occurred.",
+          coreTension: "Between assuming any act of eating on Yom Kippur incurs liability and Reish Lakish's ruling that eating to the point of self-harm falls outside the prohibition entirely.",
+          coreMove: "Reish Lakish rules that one who eats to excess on Yom Kippur - forcing food down past satiety - is exempt, because the verse speaks of a soul 'afflicted,' and one who harms rather than benefits himself by such eating is excluded from that language. Rabbi Yirmeya, in Reish Lakish's name, extends the same logic to teruma: a non-priest who overeats teruma to excess pays the principal but not the added fifth, since 'if a man eat' addresses normal eating, not self-harm - though he still repays the principal because the priest suffered a real loss.",
           takeaway: {
             type: "legal_principle",
-            text: "The cheekful measure for YK drinking can be met by filling the mouth to capacity even without swallowing, because the measure is defined by the sensory experience of oral fullness, not by ingestion."
+            text: "Eating to excess on Yom Kippur - forcing food down past the point of satiety - is exempt from liability, because the prohibition's 'affliction' language addresses only normal, beneficial eating, not self-harm; the same exemption logic reduces, but does not eliminate, liability for a non-priest who overeats teruma."
           },
-          learningBlocker: "Students may assume that eating/drinking requires ingestion in all halakhic contexts; Reish Lakish's ruling shows that the oral-sensation-based cheekful measure operates differently."
+          learningBlocker: "Students may assume any eating on Yom Kippur triggers full liability regardless of manner; Reish Lakish's ruling shows that eating to the point of self-harm falls outside the prohibition's scope entirely, exempting rather than aggravating liability."
         },
         lines: [
           { id: "yoma-080b-l32", kind: "gemara", he: "אָמַר רֵישׁ לָקִישׁ: הָאוֹכֵל אֲכִילָה גַּסָּה בְּיוֹם הַכִּפּוּרִים\n— פָּטוּר. מַאי טַעְמָא? ״אֲשֶׁר לֹא תְעוּנֶּה״ כְּתִיב, פְּרָט לְמַזִּיק.",
