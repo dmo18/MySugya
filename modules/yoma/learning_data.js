@@ -179033,20 +179033,20 @@ const DAF_CONTENT = {
         },
         display: {
           whats: "Where is the YK eating measure derived? Gezerah shavah from matzah",
-          hint: "The Gemara derives the YK eating measure through a gezerah shavah (analogical derivation) linking the word 'eating' in the YK verse to the eating prohibition for matzah.",
+          hint: "How does the Gemara derive that the impurity of foods is measured by an egg's bulk, why must someone who unwittingly ate forbidden fat record the exact amount, and why does the Gemara conclude that these measures are a received tradition from Sinai rather than a later enactment?",
           title: "Deriving the YK Eating Measure by Gezerah Shavah"
         },
         learning: {
-          ahaMoment: "The gezerah shavah is a precision tool: it imports not just the category but the exact quantity, giving the Gemara access to measurements the Torah did not state explicitly.",
-          memoryAnchor: "Gezerah shavah on 'eating' imports the egg-bulk quantity into YK from its paired verse.",
+          ahaMoment: "The egg-bulk measure for a food's impurity is not the general Torah default (olive-bulk) but a targeted correction the Sages drew from a doubled biblical phrase; and once such measures are grounded in oral Sinaitic tradition rather than freely deducible from the verse, an individual's own exact record of what he ate becomes indispensable insurance against a later court revising the threshold in either direction.",
+          memoryAnchor: "Egg-bulk for food-impurity: derived from the doubled root 'food which may be eaten, food that comes from food,' pinned down by what the throat holds at once. Measures like this trace to Sinai, later forgotten and restored, not invented - so a forgotten fat-amount matters.",
           learnerQuestion: "How does the Gemara derive the specific eating measure for Yom Kippur liability?",
-          coreTension: "Between the need for an explicit source for each specific halakhic measure and the use of a gezerah shavah to import the measure from another context.",
-          coreMove: "The Gemara links the word 'eating' in the YK verse to 'eating' in another context via gezerah shavah, importing the egg-bulk measure from the second context into YK law. The analogy does the work that explicit derivation cannot do alone.",
+          coreTension: "Between wanting a single verse to settle an exact quantity and the Gemara's repeated need to narrow an open-ended derivation (kid vs. egg, giant egg vs. tiny egg) until only the throat's real capacity decides it.",
+          coreMove: "The Gemara works through candidate readings of the doubled phrase 'food which may be eaten, food that comes from food' until only a chicken's egg survives as the measure for a food's impurity, then generalizes: since such measures are themselves an ancient Sinaitic tradition (later forgotten and restored by the prophets, not newly legislated), a person who unwittingly ate forbidden fat should record the exact amount, since a future court could still revise the operative threshold.",
           takeaway: {
             type: "derivation_principle",
-            text: "A gezerah shavah can import a specific quantity (not just a legal category) from one context to another; when the same word appears in two legal contexts, the measure established in one transfers to the other."
+            text: "Precise Torah measures like the egg-bulk for food-impurity are not simply read off a verse; they are narrowed through argument and ultimately traced to a Sinaitic tradition that can be forgotten and later restored, which is exactly why one who ate a borderline amount of something forbidden should record it precisely."
           },
-          learningBlocker: "Students may wonder why the Torah didn't specify the measure directly; the gezerah shavah mechanism is what enables the Gemara to fill textual gaps systematically."
+          learningBlocker: "Students may assume the Gemara's back-and-forth over a kid, a ben pekua, and various eggs is just verse-parsing that ends in a clean textual proof; in fact the textual derivation runs out (a tiny bird's egg cannot be excluded from the verse alone), and the Gemara falls back on Rabbi Abbahu's independent physical criterion - what the throat holds at once - to actually settle the measure."
         },
         lines: [
           { id: "yoma-080a-l07", kind: "gemara", he: "טוּמְאַת אוֹכָלִין כְּבֵיצָה מְנָלַן?\nאָמַר רַבִּי אֲבָהוּ אָמַר רַבִּי אֶלְעָזָר: דְּאָמַר קְרָא: ״מִכׇּל\nהָאוֹכֶל אֲשֶׁר יֵאָכֵל״, אוֹכֶל הַבָּא מֵחֲמַת אוֹכֶל,\nוְאֵיזֶה — זֶה בֵּיצַת תַּרְנְגוֹלֶת. וְאֵימָא גְּדִי! מְחוּסָּר\nשְׁחִיטָה. וְאֵימָא בֶּן פְּקוּעָה! טָעוּן קְרִיעָה.",
