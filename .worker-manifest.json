@@ -1,68 +1,52 @@
 {
- "type": "audited-sugya-enrichment-repair",
+ "type": "docs-tooling",
  "module": "yoma",
  "targets": [
-  "80b"
+  "77a"
  ],
  "model": "sonnet",
  "paused": false,
  "lifecycle": "pr",
  "mechanicalTier": false,
- "independentReviewRequired": true,
- "reviewPolicy": "independent",
+ "independentReviewRequired": false,
+ "reviewPolicy": "none",
  "escalationModel": "sonnet",
- "authorizations": [
-  "allowStructure"
- ],
- "maxBatch": 1,
+ "authorizations": [],
+ "maxBatch": null,
  "allowedFiles": [
-  "modules/<module>/assets/learning/<module>/<daf>.learning.json",
-  "modules/<module>/learning_data.js",
-  "modules/<module>/coverage.json",
-  "VERSION",
+  "docs/*",
+  "scripts/*",
+  "shared/*",
+  "modules/*/module.json",
+  "modules/<module>/scripts/*.py",
+  "modules/<module>/scripts/allowlists/*",
+  "modules/<module>/MODULE.md",
+  ".github/workflows/*",
+  "githooks/*",
   "package.json",
   "package-lock.json",
-  "docs/rashi-audit-backlog.md",
-  "docs/<module>-perek-review.md",
-  "docs/reports/data/yoma-tail-enrichment-repair-progress.json",
-  ".worker-manifest.json"
+  "VERSION",
+  "README.md",
+  "CLAUDE.md",
+  "SOURCES.md",
+  "tests/*",
+  ".gitignore",
+  ".worker-manifest.json",
+  ".worker-queue.json"
  ],
- "allowedJsonPaths": [
-  "summary",
-  "sugyot[*].display.title",
-  "sugyot[*].display.whats",
-  "sugyot[*].display.hint",
-  "sugyot[*].display.oneLine",
-  "sugyot[*].display.shortSummary",
-  "sugyot[*].learning.learnerQuestion",
-  "sugyot[*].learning.coreTension",
-  "sugyot[*].learning.coreMove",
-  "sugyot[*].learning.resolution",
-  "sugyot[*].learning.ahaMoment",
-  "sugyot[*].learning.learningBlocker",
-  "sugyot[*].learning.memoryAnchor",
-  "sugyot[*].learning.takeaway.text",
-  "sugyot[*].finalRuling",
-  "sugyot[*].prerequisiteKnowledge[*]",
-  "sugyot[*].requiresUnderstanding[*]",
-  "sugyot[*].topicTags[*]",
-  "sugyot[*].visualizableElements[*]",
-  "sugyot[*].difficulty"
- ],
+ "allowedJsonPaths": [],
  "forbiddenFiles": [
-  "modules/<module>/assets/talmuddev/*",
-  "modules/<module>/assets/daftexts/*",
-  "modules/<module>/source_store.js"
+  "modules/yoma/assets/learning/*",
+  "modules/yoma/assets/talmuddev/*",
+  "modules/yoma/assets/daftexts/*",
+  "modules/yoma/source_store.js"
  ],
- "allowlistPolicy": "must-not-grow",
- "structurePolicy": "requires-authorization",
+ "allowlistPolicy": "restructure-with-env",
+ "structurePolicy": "not-applicable",
  "requiredValidators": [
-  "validate:offline:yoma",
-  "validate:enrichment-contracts:yoma"
+  "validate:offline:yoma"
  ],
- "generationCommands": [
-  "npm run build:yoma"
- ],
+ "generationCommands": [],
  "buildTestCommands": [
   "npm run build",
   "npm run check:deploy-html",
@@ -70,17 +54,12 @@
   "npm run test:browser"
  ],
  "escalationTriggers": [
-  "a changed path is absent from the audit records' affectedFields",
-  "the source does not support the proposed replacement",
-  "a repair would require editing argumentFlow, quizSeeds or misconceptions",
-  "the removed concepts field would be repaired or recreated",
-  "target does not become enrichment-contract clean"
+  "any existing gate would be weakened",
+  "workflow permission changes would be needed"
  ],
  "allowlistDrain": null,
  "scaffoldDebt": null,
  "repetitionDrain": null,
- "auditRecordIds": [
-  "yoma-080b-s03"
- ],
+ "auditRecordIds": [],
  "migrationKinds": []
 }

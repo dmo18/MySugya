@@ -1437,8 +1437,18 @@ try:
     # ---- 32e. non-audited task types gain no new scope: prerequisiteKnowledge
     #           is not in display-only-edit's mutable path set at all, so the
     #           alias (which only applies inside json_scope_check's
-    #           is_audit_repair branch) never even gets reached. -------------
-    reset_to_base()
+    #           is_audit_repair branch) never even gets reached. Uses
+    #           stamp_alias_test_fixture (as 32a-32d do) rather than the
+    #           ambient real-repo prerequisiteKnowledge array length for 77a-
+    #           s01, so this stays a same-length content edit -- routed
+    #           through the mutable-path check this test targets -- and never
+    #           an array-length change (which the separate, unrelated
+    #           allowStructure gate would intercept first once the real repo's
+    #           own migration of 77a lands and changes that array's length).
+    #           -------------------------------------------------------------
+    BASE_32E = stamp_alias_test_fixture("77a", {
+        "yoma-077a-s01": "Stale placeholder prerequisite prose (pre-repair).",
+    })
     wp("manifest", "--type", "display-only-edit", "--module", "yoma", "--range", "77a",
       "--out", ".worker-manifest.json")
     doc = load_learning("77a")
@@ -1447,7 +1457,7 @@ try:
     save_learning("77a", doc)
     rebuild_yoma()
     commit("attempt: edit prerequisiteKnowledge under display-only-edit")
-    r = wp("scope", "--manifest", ".worker-manifest.json", "--base", BASE_SHA)
+    r = wp("scope", "--manifest", ".worker-manifest.json", "--base", BASE_32E)
     check("32e. a non-audited task type (display-only-edit) gains NO new "
          "prerequisiteKnowledge scope from the alias",
           r.returncode != 0 and "outside the display-only-edit mutable path set" in out(r),
