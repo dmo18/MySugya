@@ -178979,7 +178979,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of egg-bulk context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -178993,7 +178994,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "All Torah eating measures are egg-bulk; the date-b"
+            item: "All Torah eating measures are egg-bulk; the date-b"
           }
         ],
         quizSeeds: [
@@ -179220,7 +179221,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of gezerah shavah context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -179234,7 +179236,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Where is the YK eating measure derived? Gezerah sh"
+            item: "Where is the YK eating measure derived? Gezerah sh"
           }
         ],
         quizSeeds: [
@@ -179363,7 +179365,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of drinking measure context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -179377,7 +179380,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Drinking measure on YK: a cheekful (male'o lugmav)"
+            item: "Drinking measure on YK: a cheekful (male'o lugmav)"
           }
         ],
         quizSeeds: [
