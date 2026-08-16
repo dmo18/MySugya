@@ -12,7 +12,8 @@
  "reviewPolicy": "none",
  "escalationModel": "sonnet",
  "authorizations": [
-  "authorizeMigration"
+  "authorizeMigration",
+  "allowStructure"
  ],
  "maxBatch": 1,
  "allowedFiles": [
