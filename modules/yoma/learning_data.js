@@ -173890,7 +173890,7 @@ const DAF_CONTENT = {
   "77b": {
     canonicalRef: "Yoma 77b",
     daf: "77b",
-    summary: "Tractate Yoma daf 77b covers: Verse about afflicting daughters in Laban's house relates to fasting obligation; Prohibition on marital relations on Yom Kippur; Greeting others on Yom Kippur; walking to visit father or teacher; Future river flowing from the Temple in the End of Days (Ezekiel 47).",
+    summary: "Tractate Yoma daf 77b covers: Verse about afflicting daughters in Laban's house relates to fasting obligation; Partial bathing/oiling forbidden except for necessity, rinsing one hand to feed a child, and Shammai the Elder's stringency overruled; Greeting others on Yom Kippur; walking to visit father or teacher; Future river flowing from the Temple in the End of Days (Ezekiel 47).",
     sugyot: [
       {
         id: "yoma-077b-s01",
@@ -174028,14 +174028,14 @@ const DAF_CONTENT = {
           endVilnaLine: 14
         },
         display: {
-          whats: "Prohibition on marital relations on Yom Kippur",
+          whats: "Partial bathing/oiling forbidden like the whole body, except for necessity; rinsing one hand to feed a child; Shammai the Elder's stringency overruled by the Sages",
           hint: "When may partial bathing or oiling be done on Yom Kippur despite the general prohibition, and why did the Sages overrule Shammai's own stringency about washing one hand?",
-          title: "Marital Relations: The Fifth Affliction"
+          title: "Partial Bathing, Rinsing, and Shammai's Stringency"
         },
         learning: {
           ahaMoment: "The controlling line is not body-coverage but purpose: washing part of the body for pleasure is still forbidden, but the identical act done for a genuine need - relieving illness, cleaning filth, feeding a child - falls outside the prohibition entirely.",
           memoryAnchor: "Partial washing for pleasure: forbidden. Partial washing for need (filth, illness, feeding a child): permitted. Purpose, not extent, decides.",
-          learnerQuestion: "How is abstaining from marital relations categorized as an affliction on Yom Kippur?",
+          learnerQuestion: "Why is partial bathing or oiling still forbidden on Yom Kippur, and what exception lets a woman rinse one hand to feed her child?",
           coreTension: "Between a literal 'even part of the body' reading of the bathing/oiling prohibition and the recognized exceptions for dirt, illness, and feeding a child, where the act's purpose is need rather than enjoyment.",
           coreMove: "The Gemara extends the whole-body bathing/oiling prohibition to partial acts as well, then carves out exceptions wherever the purpose is relief or necessity rather than pleasure: washing off filth, oiling for a medical condition, or a mother rinsing one hand to feed her child. Shammai the Elder's refusal to wash even that one hand, which left his children unfed, shows the Sages weighing a child's wellbeing above personal stringency.",
           takeaway: {
@@ -174101,10 +174101,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of marital relations context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "Learners assume any contact with water on Yom Kippur is forbidden.",
@@ -174115,7 +174112,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "Prohibition on marital relations on Yom Kippur"
+            item: "Partial bathing/oiling forbidden except for necessity; rinsing one hand to feed a child; Shammai's stringency overruled by the Sages"
           }
         ],
         quizSeeds: [
@@ -174128,13 +174125,14 @@ const DAF_CONTENT = {
             answer: "Shammai avoided washing even one hand and so would not feed his children, leaving them hungry. The Sages, weighing the children's wellbeing, required him to use and wash both hands, treating the children's needs as overriding his personal stringency."
           }
         ],
-        finalRuling: "Marital relations are prohibited on Yom Kippur; this is the fifth of the five afflictions. The Gemara explores the prohibition's scope.",
+        finalRuling: "Partial bathing or oiling is forbidden on Yom Kippur just as full bathing/oiling is, except when done for necessity rather than pleasure (washing off dirt, or applying oil for a medical need); a woman may rinse one hand to feed her child without violating the prohibition. Shammai the Elder, who refused to wash even one hand and so left his children unfed, was overruled by the Sages, who required him to wash both hands rather than leave the children hungry.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "marital relations",
-          "YK prohibition",
-          "five afflictions"
+          "partial-bathing",
+          "necessity-exception",
+          "shammai-the-elder",
+          "yom-kippur-afflictions"
         ],
         review: "draft"
       },
