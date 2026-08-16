@@ -121,10 +121,7 @@
     "Ezekiel"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of bathing prohibition context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners assume the angelic narrative is a digression with no halachic bearing, just aggada about Ezekiel's vision.",
@@ -135,7 +132,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Bathing prohibition derived from verse; Ezekiel's "
+     "item": "Bathing prohibition derived from verse; Ezekiel's "
     }
    ],
    "quizSeeds": [
@@ -152,7 +149,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of bathing prohibition context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -229,10 +230,7 @@
     "YK"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of inui context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners think the Gemara is debating whether bathing is pleasurable, treating the question as common sense.",
@@ -243,7 +241,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Whether refraining from bathing constitutes inui ("
+     "item": "Whether refraining from bathing constitutes inui ("
     }
    ],
    "quizSeeds": [
@@ -260,7 +258,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of inui context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -355,10 +357,7 @@
     "pleasure vs necessity"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of anointing prohibition context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners expect the first verse showing someone barefoot to settle that going shoeless is an affliction.",
@@ -369,7 +368,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Prohibition on anointing; Na'aman's anointing; ple"
+     "item": "Prohibition on anointing; Na'aman's anointing; ple"
     }
    ],
    "quizSeeds": [
@@ -386,7 +385,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of anointing prohibition context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -443,10 +446,7 @@
     "afflictions"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of sandals context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Learners may think the Yom Kippur afflictions are an open list and that marital abstention is simply one obvious example.",
@@ -457,7 +457,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Sandals: prohibition on wearing sandals on Yom Kip"
+     "item": "Sandals: prohibition on wearing sandals on Yom Kip"
     }
    ],
    "quizSeeds": [
@@ -470,7 +470,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of sandals context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   }
  ],
  "glossary": [],
