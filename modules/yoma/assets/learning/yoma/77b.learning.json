@@ -159,20 +159,20 @@
    ],
    "display": {
     "whats": "Prohibition on marital relations on Yom Kippur",
-    "hint": "Marital relations are prohibited on Yom Kippur; this is the fifth of the five afflictions. The Gemara explores the prohibition's scope.",
+    "hint": "When may partial bathing or oiling be done on Yom Kippur despite the general prohibition, and why did the Sages overrule Shammai's own stringency about washing one hand?",
     "title": "Marital Relations: The Fifth Affliction"
    },
    "learning": {
-    "ahaMoment": "YK is not anti-mitzvah; it is anti-pleasure. The prohibition isolates the bodily enjoyment from the act and targets that alone.",
-    "memoryAnchor": "Fifth affliction = marital abstinence: YK prohibits the pleasure, not the mitzvah.",
+    "ahaMoment": "The controlling line is not body-coverage but purpose: washing part of the body for pleasure is still forbidden, but the identical act done for a genuine need - relieving illness, cleaning filth, feeding a child - falls outside the prohibition entirely.",
+    "memoryAnchor": "Partial washing for pleasure: forbidden. Partial washing for need (filth, illness, feeding a child): permitted. Purpose, not extent, decides.",
     "learnerQuestion": "How is abstaining from marital relations categorized as an affliction on Yom Kippur?",
-    "coreTension": "Between marital relations as a positive mitzvah (onah) and their prohibition on YK as a form of self-affliction.",
-    "coreMove": "The Gemara separates the mitzvah dimension (conjugal obligation) from the pleasure dimension (bodily enjoyment). YK's prohibition targets the physical enjoyment component, not the mitzvah. This is why the same activity that is obligatory in one context is prohibited in another.",
+    "coreTension": "Between a literal 'even part of the body' reading of the bathing/oiling prohibition and the recognized exceptions for dirt, illness, and feeding a child, where the act's purpose is need rather than enjoyment.",
+    "coreMove": "The Gemara extends the whole-body bathing/oiling prohibition to partial acts as well, then carves out exceptions wherever the purpose is relief or necessity rather than pleasure: washing off filth, oiling for a medical condition, or a mother rinsing one hand to feed her child. Shammai the Elder's refusal to wash even that one hand, which left his children unfed, shows the Sages weighing a child's wellbeing above personal stringency.",
     "takeaway": {
      "type": "legal_principle",
-     "text": "The YK affliction framework targets the pleasure dimension of normal human activities even when those activities are otherwise positive obligations; the prohibition isolates enjoyment from obligation."
+     "text": "The Yom Kippur bathing/oiling prohibition extends to partial acts, not just full ones, but exempts anything done for genuine necessity rather than pleasure - illness, dirt, or a mother rinsing one hand to feed her child - and even a stringency like Shammai's must yield when it would leave children unfed."
     },
-    "learningBlocker": "Students may struggle with prohibiting a mitzvah; the Gemara's distinction between the physical pleasure and the religious obligation is essential to resolve the apparent paradox."
+    "learningBlocker": "Students may assume the prohibition scales strictly with how much of the body is touched; the Gemara instead scales it with purpose, so identical partial contact with water can be either forbidden (pleasure) or permitted (necessity)."
    },
    "argumentFlow": [
     {
