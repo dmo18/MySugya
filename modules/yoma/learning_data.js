@@ -180625,14 +180625,14 @@ const DAF_CONTENT = {
           endVilnaLine: 34
         },
         display: {
-          whats: "Reish Lakish: overeating on YK creates liability even without swallowing",
+          whats: "Reish Lakish: eating to excess on YK, past satiety, is exempt from liability; the same logic applies to overeating teruma",
           hint: "Reish Lakish rules that forcing food down to the point of self-harm on Yom Kippur - eating to excess past satiety - does NOT create liability, since the Torah's language of 'affliction' addresses only normal, beneficial eating; why does the same exemption logic apply to a non-priest who overeats teruma?",
-          title: "Chewing Without Swallowing: Reish Lakish on Overfilling"
+          title: "Reish Lakish: Excessive Eating on Yom Kippur Is Exempt"
         },
         learning: {
           ahaMoment: "Reish Lakish's ruling reveals what the affliction-prohibition actually targets: normal, beneficial eating. Forcing food down past satiety harms rather than benefits the eater, so it falls outside the verse's scope entirely and creates no liability.",
           memoryAnchor: "Reish Lakish: eating to excess, past satiety, is EXEMPT - self-harm isn't the 'eating' the verse prohibits.",
-          learnerQuestion: "Does chewing food on Yom Kippur without swallowing create liability?",
+          learnerQuestion: "Why is one who eats to excess on Yom Kippur - forcing food down past satiety - exempt from liability, and why does the same reasoning apply to a non-priest who overeats teruma?",
           coreTension: "Between assuming any act of eating on Yom Kippur incurs liability and Reish Lakish's ruling that eating to the point of self-harm falls outside the prohibition entirely.",
           coreMove: "Reish Lakish rules that one who eats to excess on Yom Kippur - forcing food down past satiety - is exempt, because the verse speaks of a soul 'afflicted,' and one who harms rather than benefits himself by such eating is excluded from that language. Rabbi Yirmeya, in Reish Lakish's name, extends the same logic to teruma: a non-priest who overeats teruma to excess pays the principal but not the added fifth, since 'if a man eat' addresses normal eating, not self-harm - though he still repays the principal because the priest suffered a real loss.",
           takeaway: {
@@ -180681,10 +180681,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of Reish Lakish context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "Learners assume any eating on Yom Kippur, however done, incurs the full penalty.",
@@ -180695,7 +180692,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "Reish Lakish: overeating on YK creates liability e"
+            item: "Reish Lakish's exemption for excessive eating on Yom Kippur, extended to overeating teruma"
           }
         ],
         quizSeeds: [
@@ -180708,14 +180705,14 @@ const DAF_CONTENT = {
             answer: "Such a person pays the principal but not the added fifth. The verse 'if a man eat' refers to normal eating and excludes one who harms himself by overeating, so the penalty fifth does not apply, though he still repays the principal because the priest suffered a real loss."
           }
         ],
-        finalRuling: "Reish Lakish rules that chewing food on YK without swallowing still creates liability if the mouth is filled to the cheekful measure.",
+        finalRuling: "One who eats to excess on Yom Kippur, forcing food down past the point of satiety, is exempt from liability, since the prohibition's 'affliction' language addresses only normal, beneficial eating; the same reasoning exempts the added-fifth penalty, though not the principal, for a non-priest who overeats teruma.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "Reish Lakish",
-          "chewing",
-          "swallowing",
-          "YK liability"
+          "reish-lakish",
+          "excessive-eating",
+          "exemption",
+          "teruma"
         ],
         review: "draft"
       }
