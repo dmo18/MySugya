@@ -23,8 +23,8 @@ with `python3 scripts/generate_rashi_docs.py` and the freshness gate
 from the baseline.
 
 <!-- rashi-status-summary:begin (regenerate with `python3 scripts/generate_rashi_docs.py`; do not hand-edit) -->
-- Current VERSION: 15.502
-- Generated from commit: f8a97e0 (the commit this doc was generated from, necessarily pre-merge for the PR that carries this change; it will differ from live main's HEAD immediately after that PR merges by design, since a PR's own merge commit does not exist yet at generation time. Not a staleness signal; see the freshness gate for what actually indicates staleness.)
+- Current VERSION: 15.503
+- Generated from commit: 01e6160 (the commit this doc was generated from, necessarily pre-merge for the PR that carries this change; it will differ from live main's HEAD immediately after that PR merges by design, since a PR's own merge commit does not exist yet at generation time. Not a staleness signal; see the freshness gate for what actually indicates staleness.)
 - Total scaffold-debt entries (all rules, current inventory): 0
 - Unique affected daf: 0
 - Tracked daf in status table: 93 (93 resolved, 0 open)
@@ -64,99 +64,99 @@ Context on the two rule families tracked in the table:
 <!-- scaffold-status-table:begin (regenerate with `python3 scripts/generate_rashi_docs.py`; do not hand-edit rows) -->
 | daf | contaminated | total | severity | task recommendation | status | last verified |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2b | 0 | 29 | 0% | rashi-repair (after fresh semantic verification) | resolved | f8a97e0 |
-| 3a | 0 | 38 | 0% | rashi-repair (after fresh semantic verification) | resolved | f8a97e0 |
-| 3b | 0 | 49 | 0% | rashi-reconstruction | resolved | f8a97e0 |
-| 4a | 0 | 56 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 7b | 0 | 18 | 0% | rashi-repair (after fresh semantic verification) | resolved | f8a97e0 |
-| 10a | 0 | 35 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 10b | 0 | 21 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 11a | 0 | 43 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 11b | 0 | 39 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 12a | 0 | 66 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 12b | 0 | 62 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 13a | 0 | 29 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 13b | 0 | 28 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 14a | 0 | 58 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 14b | 0 | 59 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 15a | 0 | 66 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 15b | 0 | 66 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 16a | 0 | 61 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 16b | 0 | 62 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 17a | 0 | 45 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 17b | 0 | 33 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 18a | 0 | 58 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 18b | 0 | 34 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 19a | 0 | 58 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 19b | 0 | 68 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 20a | 0 | 41 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 20b | 0 | 62 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 21a | 0 | 62 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 21b | 0 | 46 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 22a | 0 | 65 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 22b | 0 | 35 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 23a | 0 | 45 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 23b | 0 | 65 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 24a | 0 | 47 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 24b | 0 | 65 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 25a | 0 | 61 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 25b | 0 | 62 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 26a | 0 | 42 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 26b | 0 | 61 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 27a | 0 | 53 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 27b | 0 | 44 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 28a | 0 | 45 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 28b | 0 | 79 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 29a | 0 | 56 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 29b | 0 | 54 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 30a | 0 | 54 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 30b | 0 | 51 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 31a | 0 | 37 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 31b | 0 | 63 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 32a | 0 | 62 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 32b | 0 | 55 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 33a | 0 | 64 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 33b | 0 | 60 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 34a | 0 | 46 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 34b | 0 | 40 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 35a | 0 | 14 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 35b | 0 | 58 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 36a | 0 | 54 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 36b | 0 | 62 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 37a | 0 | 71 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 37b | 0 | 25 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 38a | 0 | 37 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 38b | 0 | 49 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 39a | 0 | 59 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 39b | 0 | 65 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 40a | 0 | 65 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 40b | 0 | 43 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 41b | 0 | 74 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 42a | 0 | 52 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 42b | 0 | 60 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 43a | 0 | 65 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 43b | 0 | 59 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 44a | 0 | 60 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 44b | 0 | 60 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 45a | 0 | 44 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 45b | 0 | 29 | 0% | rashi-repair (after fresh semantic verification) | resolved | f8a97e0 |
-| 46a | 0 | 32 | 0% | rashi-repair (after fresh semantic verification) | resolved | f8a97e0 |
-| 47a | 0 | 64 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 47b | 0 | 65 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 48a | 0 | 42 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 48b | 0 | 26 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 49a | 0 | 64 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 49b | 0 | 21 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 72a | 0 | 31 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 72b | 0 | 100 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 73a | 0 | 65 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 73b | 0 | 58 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 74a | 0 | 55 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 74b | 0 | 42 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 75a | 0 | 49 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 75b | 0 | 46 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 76a | 0 | 47 | 0% | none (repaired and verified) | resolved | f8a97e0 |
-| 76b | 0 | 44 | 0% | none (repaired and verified) | resolved | f8a97e0 |
+| 2b | 0 | 29 | 0% | rashi-repair (after fresh semantic verification) | resolved | 01e6160 |
+| 3a | 0 | 38 | 0% | rashi-repair (after fresh semantic verification) | resolved | 01e6160 |
+| 3b | 0 | 49 | 0% | rashi-reconstruction | resolved | 01e6160 |
+| 4a | 0 | 56 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 7b | 0 | 18 | 0% | rashi-repair (after fresh semantic verification) | resolved | 01e6160 |
+| 10a | 0 | 35 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 10b | 0 | 21 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 11a | 0 | 43 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 11b | 0 | 39 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 12a | 0 | 66 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 12b | 0 | 62 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 13a | 0 | 29 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 13b | 0 | 28 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 14a | 0 | 58 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 14b | 0 | 59 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 15a | 0 | 66 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 15b | 0 | 66 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 16a | 0 | 61 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 16b | 0 | 62 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 17a | 0 | 45 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 17b | 0 | 33 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 18a | 0 | 58 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 18b | 0 | 34 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 19a | 0 | 58 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 19b | 0 | 68 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 20a | 0 | 41 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 20b | 0 | 62 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 21a | 0 | 62 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 21b | 0 | 46 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 22a | 0 | 65 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 22b | 0 | 35 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 23a | 0 | 45 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 23b | 0 | 65 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 24a | 0 | 47 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 24b | 0 | 65 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 25a | 0 | 61 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 25b | 0 | 62 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 26a | 0 | 42 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 26b | 0 | 61 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 27a | 0 | 53 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 27b | 0 | 44 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 28a | 0 | 45 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 28b | 0 | 79 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 29a | 0 | 56 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 29b | 0 | 54 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 30a | 0 | 54 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 30b | 0 | 51 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 31a | 0 | 37 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 31b | 0 | 63 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 32a | 0 | 62 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 32b | 0 | 55 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 33a | 0 | 64 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 33b | 0 | 60 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 34a | 0 | 46 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 34b | 0 | 40 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 35a | 0 | 14 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 35b | 0 | 58 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 36a | 0 | 54 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 36b | 0 | 62 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 37a | 0 | 71 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 37b | 0 | 25 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 38a | 0 | 37 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 38b | 0 | 49 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 39a | 0 | 59 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 39b | 0 | 65 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 40a | 0 | 65 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 40b | 0 | 43 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 41b | 0 | 74 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 42a | 0 | 52 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 42b | 0 | 60 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 43a | 0 | 65 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 43b | 0 | 59 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 44a | 0 | 60 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 44b | 0 | 60 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 45a | 0 | 44 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 45b | 0 | 29 | 0% | rashi-repair (after fresh semantic verification) | resolved | 01e6160 |
+| 46a | 0 | 32 | 0% | rashi-repair (after fresh semantic verification) | resolved | 01e6160 |
+| 47a | 0 | 64 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 47b | 0 | 65 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 48a | 0 | 42 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 48b | 0 | 26 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 49a | 0 | 64 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 49b | 0 | 21 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 72a | 0 | 31 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 72b | 0 | 100 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 73a | 0 | 65 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 73b | 0 | 58 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 74a | 0 | 55 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 74b | 0 | 42 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 75a | 0 | 49 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 75b | 0 | 46 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 76a | 0 | 47 | 0% | none (repaired and verified) | resolved | 01e6160 |
+| 76b | 0 | 44 | 0% | none (repaired and verified) | resolved | 01e6160 |
 <!-- scaffold-status-table:end -->
 
 The remediation campaign runs one daf per PR (order and per-batch bounds in
