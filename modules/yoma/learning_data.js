@@ -173164,7 +173164,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "The Gemara rejects David's and Isaiah's barefoot verses before deriving the shoe affliction from Jeremiah"
+            item: "Prohibition on anointing; Na'aman's anointing; ple"
           }
         ],
         quizSeeds: [
@@ -173250,7 +173250,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "Deriving that withholding conjugal relations is a Yom Kippur affliction from Laban's words to Jacob"
+            item: "Sandals: prohibition on wearing sandals on Yom Kip"
           }
         ],
         quizSeeds: [
