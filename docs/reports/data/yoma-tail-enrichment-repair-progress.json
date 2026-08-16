@@ -74,7 +74,7 @@
    "blockerReason": null
   },
   "yoma-077b-s02": {
-   "status": "IN_PROGRESS",
+   "status": "FIXED_PENDING_REVIEW",
    "prNumber": null,
    "repairCommit": null,
    "mergedCommit": null,
