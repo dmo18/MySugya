@@ -178925,20 +178925,20 @@ const DAF_CONTENT = {
         },
         display: {
           whats: "All Torah eating measures are egg-bulk; the date-bulk is unique to Yom Kippur",
-          hint: "The Gemara establishes that all Torah-specified eating measures are the size of an egg-bulk, making the date-bulk for Yom Kippur a unique, larger standard.",
+          hint: "A baraita teaches that every Torah eating measure defaults to an olive-bulk - so why do the impurity and Yom Kippur cases both depart from that default, and what does each verse's changed wording teach?",
           title: "Egg-Bulk as the Universal Eating Measure"
         },
         learning: {
-          ahaMoment: "The egg-bulk is not just one measure among many - it is the anchor of the entire eating-measure system, with everything else derived from or compared against it.",
-          memoryAnchor: "All Torah eating measures = egg-bulk baseline: the whole system anchors here.",
+          ahaMoment: "The olive-bulk isn't one measure among several - it is the Torah's default for every eating prohibition. Impurity and Yom Kippur are the two exceptions, each triggered by its own verse departing from the ordinary eating language.",
+          memoryAnchor: "Olive-bulk is the default; Yom Kippur's date-bulk is the exception the verse's changed wording creates.",
           learnerQuestion: "Why does the Talmud say that all Torah eating measures equal an egg-bulk?",
-          coreTension: "Between the seemingly different measures used in various contexts (olive-bulk, date-bulk, egg-bulk) and the claim that they all reduce to a single standard.",
-          coreMove: "The Gemara establishes that the egg-bulk is the underlying standard from which all Torah eating measures derive; the date-bulk for YK is itself derived from this baseline, making the egg-bulk the foundation of the whole system of eating measures.",
+          coreTension: "Between the Torah's single default measure (olive-bulk) for all eating prohibitions and two verses (impurity, Yom Kippur) whose altered wording signals a departure from that default.",
+          coreMove: "A baraita teaches that every Torah eating measure is an olive-bulk, except where the verse changes its wording; the Yom Kippur verse's unusual language ('shall not be afflicted' rather than 'shall eat') is exactly this kind of departure, so its measure becomes a large date. The Gemara then explains why both the impurity case and the Yom Kippur case are needed together: the impurity case alone might be dismissed as ordinary stylistic variation, while the Yom Kippur case establishes that deviant wording generally signals a changed measure.",
           takeaway: {
             type: "derivation_principle",
-            text: "All Torah eating measures are calibrated against the egg-bulk as their foundational standard; apparent differences in measure across contexts resolve to variations on this single baseline."
+            text: "The olive-bulk is the Torah's default measure for eating prohibitions; only where a verse's wording departs from the ordinary eating language - as with impurity and Yom Kippur - do the Sages read that departure as signaling a different measure, which for Yom Kippur is the large date."
           },
-          learningBlocker: "Students may see the different measures as unconnected; recognizing the egg-bulk as the shared foundation unifies them into a coherent system."
+          learningBlocker: "Students may assume Yom Kippur's date-bulk measure is an unconnected special case; in fact it departs from the same olive-bulk default every other eating prohibition uses, triggered by the verse's own unusual wording."
         },
         lines: [
           { id: "yoma-080a-l01", kind: "gemara", he: "כׇּל הַשִּׁיעוּרִין כּוּלָּן בִּכְזַיִת, חוּץ מִטּוּמְאַת\nאוֹכָלִין, שֶׁשִּׁינָּה הַכָּתוּב בְּמַשְׁמָעָן, וְשִׁינּוּ\nחֲכָמִים בְּשִׁיעוּרָן. וּרְאָיָה לַדָּבָר — יוֹם הַכִּפּוּרִים. מַאי\nשִׁינָּה הַכָּתוּב בְּמַשְׁמָעוֹ — מִ״לֹּא תְעוּנֶּה״, וּמַאי\nשִׁינּוּ חֲכָמִים בְּשִׁיעוּרֵיהּ — כְּכוֹתֶבֶת.",

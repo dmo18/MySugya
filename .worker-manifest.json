@@ -1,5 +1,5 @@
 {
- "type": "enrichment-schema-migration",
+ "type": "gemara-learning",
  "module": "yoma",
  "targets": [
   "80a"
@@ -7,15 +7,12 @@
  "model": "sonnet",
  "paused": false,
  "lifecycle": "pr",
- "mechanicalTier": true,
- "independentReviewRequired": false,
- "reviewPolicy": "none",
+ "mechanicalTier": false,
+ "independentReviewRequired": true,
+ "reviewPolicy": "independent",
  "escalationModel": "sonnet",
- "authorizations": [
-  "authorizeMigration",
-  "allowStructure"
- ],
- "maxBatch": 1,
+ "authorizations": [],
+ "maxBatch": null,
  "allowedFiles": [
   "modules/<module>/assets/learning/<module>/<daf>.learning.json",
   "modules/<module>/learning_data.js",
@@ -28,25 +25,32 @@
   ".worker-manifest.json"
  ],
  "allowedJsonPaths": [
-  "sugyot[*].requiresUnderstanding[*]",
-  "sugyot[*].prerequisiteKnowledge",
-  "sugyot[*].prerequisiteKnowledge[*]",
-  "sugyot[*].visualizableElements[*]",
-  "sugyot[*].difficulty"
+  "sugyot[*].display.whats",
+  "sugyot[*].display.hint",
+  "sugyot[*].display.title",
+  "sugyot[*].learning.ahaMoment",
+  "sugyot[*].learning.memoryAnchor",
+  "sugyot[*].learning.learnerQuestion",
+  "sugyot[*].learning.coreTension",
+  "sugyot[*].learning.coreMove",
+  "sugyot[*].learning.takeaway.text",
+  "sugyot[*].learning.learningBlocker"
  ],
  "forbiddenFiles": [
-  "modules/<module>/assets/talmuddev/*",
-  "modules/<module>/assets/daftexts/*",
-  "modules/<module>/source_store.js"
+  ".github/workflows/*",
+  "scripts/*",
+  "modules/yoma/scripts/*.py",
+  "githooks/*",
+  "modules/yoma/scripts/allowlists/*"
  ],
- "allowlistPolicy": "must-not-grow",
+ "allowlistPolicy": "forbidden",
  "structurePolicy": "requires-authorization",
  "requiredValidators": [
-  "validate:offline:yoma",
-  "validate:enrichment-contracts:yoma"
+  "validate:offline:yoma"
  ],
  "generationCommands": [
-  "npm run build:yoma"
+  "cd modules/yoma && python3 scripts/build_learning_data.py",
+  "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
  ],
  "buildTestCommands": [
   "npm run build",
@@ -55,17 +59,13 @@
   "npm run test:browser"
  ],
  "escalationTriggers": [
-  "target enrichment-contract debt does not strictly decrease",
-  "a value would be invented rather than moved or normalized",
-  "before/after transformation report is incomplete",
-  "a transformation not listed in the manifest is required"
+  "any change to source he/en fields would be needed",
+  "sugya boundary or id changes would be needed",
+  "schema fields not in shared/schema_map.js would be needed"
  ],
  "allowlistDrain": null,
  "scaffoldDebt": null,
  "repetitionDrain": null,
  "auditRecordIds": [],
- "migrationKinds": [
-  "requires-understanding",
-  "visualizable-elements"
- ]
+ "migrationKinds": []
 }
