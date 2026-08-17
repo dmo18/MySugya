@@ -187353,20 +187353,20 @@ const DAF_CONTENT = {
         },
         display: {
           whats: "R. Meir and R. Yehuda's incident with a student who had bulmos",
-          hint: "A student of R. Meir and R. Yehuda fell into a bulmos state; the two teachers disagreed about the immediate treatment, and the incident revealed their different approaches.",
+          hint: "Why does Rabbi Meir treat an innkeeper's ominous name as grounds for caution but not a verdict of certain wickedness, and how does the story of the purses, the dream, and the wine trick play out?",
           title: "R. Meir and R. Yehuda Treat Their Student's Bulmos"
         },
         learning: {
-          ahaMoment: "The story is the dispute made flesh: seeing what each sage actually did in the moment is more illuminating than the theoretical debate alone.",
-          memoryAnchor: "R. Meir and R. Yehuda, both treating the same student their own way: the dispute lives in the emergency room.",
+          ahaMoment: "Rabbi Meir's practice of reading names is deliberately calibrated: a name licenses suspicion and precaution (guarding one's purse, staying alert), but never substitutes for direct proof of wrongdoing; his colleagues, who ignored the warning, pay the real cost of that gap between caution and certainty.",
+          memoryAnchor: "Kidor the innkeeper: a name warns, it doesn't convict. Rabbi Meir guards his purse and gets it back; his colleagues don't and lose theirs, until wine and a mustache-clue recover it - at the price of the innkeeper's wife's life.",
           learnerQuestion: "What does the story of R. Meir and R. Yehuda treating a student with bulmos teach about emergency halakhic decision-making?",
-          coreTension: "Between the theoretical dispute (which food first) and the practical moment when a teacher must act immediately for a student in crisis.",
-          coreMove: "The story shows R. Meir and R. Yehuda each acting according to their respective positions when the emergency arose. The student was saved, and both approaches worked. The narrative confirms that both positions are viable and that a sage must act according to their understanding in the emergency moment.",
+          coreTension: "Between treating a suspicious name as decisive proof of wickedness and treating it as mere grounds for caution, when ignoring the caution turns out to cost the other rabbis dearly.",
+          coreMove: "Rabbi Meir reads danger in the innkeeper Kidor's name and quietly protects his own purse, while his more skeptical colleagues, who dismiss both the name-omen and a warning dream, lose theirs; when the innkeeper denies the theft, Rabbi Meir insists a name only ever justified suspicion, not a verdict, so he owed no explicit warning. The purses are recovered only through a further ruse (wine loosens the innkeeper's tongue, a physical tell signals his wife to return the money), and the innkeeper's murder of his wife once the trick unravels, together with a parallel baraita about laxity in ritual hand-washing leading to disaster, both press the same point: small signs of danger, ignored, escalate. Rabbi Yehuda and Rabbi Yosei subsequently adopt the same name-reading caution.",
           takeaway: {
             type: "conceptual",
-            text: "When a theoretical dispute meets a practical emergency, each sage acts according to their own position, and the narrative confirms the validity of each approach by recording that the student was saved; the story is the lived text of the theoretical dispute."
+            text: "A suspicious name, like the innkeeper Kidor's, licenses caution and self-protection, never a declared verdict of wickedness; the story's real cost falls on those who dismissed both the name and the warning dream, and its violent ending, echoed by a parallel baraita about ritual laxity, shows how small warning signs, ignored, can escalate into disaster."
           },
-          learningBlocker: "Students may want to know which sage was 'right'; the story deliberately avoids declaring a winner, leaving both positions operative."
+          learningBlocker: "Students may read Rabbi Meir's name-derivation as a claim that names determine character; the text is explicit that a name only justifies suspicion and self-protective caution, never a verdict, which is exactly the distinction his colleagues' loss and the innkeeper's later violence dramatize."
         },
         lines: [
           { id: "yoma-083b-l29", kind: "gemara", he: "וְתוּ: רַבִּי מֵאִיר וְרַבִּי יְהוּדָה וְרַבִּי\nיוֹסֵי הֲווֹ קָא אָזְלִי בְּאוֹרְחָא, רַבִּי מֵאִיר הֲוָה דָּיֵיק בִּשְׁמָא, רַבִּי יְהוּדָה וְרַבִּי יוֹסֵי לָא הֲווֹ דָּיְיקִי בִּשְׁמָא. כִּי מְטוֹ לְהָהוּא\nדּוּכְתָּא, בְּעוֹ אוּשְׁפִּיזָא. יְהַבוּ לְהוּ. אֲמַרוּ לֵיהּ: מָה שְׁמָךְ? אֲמַר לְהוּ: ״כִּידוֹר״. אֲמַר: שְׁמַע מִינַּהּ אָדָם רָשָׁע הוּא, שֶׁנֶּאֱמַר: ״כִּי דוֹר\nתַּהְפּוּכוֹת הֵמָּה״. רַבִּי יְהוּדָה וְרַבִּי יוֹסֵי אַשְׁלִימוּ לֵיהּ כִּיסַיְיהוּ. רַבִּי מֵאִיר לָא אַשְׁלֵים לֵיהּ כִּיסֵיהּ, אֲזַל אוֹתְבֵיהּ בֵּי קִיבְרֵיהּ\nדַּאֲבוּהּ.",
