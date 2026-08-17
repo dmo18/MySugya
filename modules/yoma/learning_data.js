@@ -188699,20 +188699,20 @@ const DAF_CONTENT = {
         },
         display: {
           whats: "Tzefardea (snake-related illness): what it is, its symptoms, its danger",
-          hint: "The Gemara discusses 'tzefardea,' a serious illness apparently related to snake or frog venom, describing its symptoms and confirming that it is life-threatening.",
+          hint: "Why does Rabbi Yochanan treat tzefidna (a gum ailment from eating hot bread) as an emergency that overrides Shabbat, and whose halachic authority did he rely on?",
           title: "Tzefardea: A Dangerous Illness"
         },
         learning: {
-          ahaMoment: "The Gemara is doing something remarkable: it is doing medical evaluation as halakhic practice. Knowing the disease's lethality is itself required halakhic knowledge.",
-          memoryAnchor: "Tzefardea: classified dangerous because medical evidence says so. Pikuach nefesh is evidence-based.",
+          ahaMoment: "Tzefidna looks like a purely local, minor problem, but the Gemara insists on tracing where it actually leads: because it spreads from the mouth to the intestines, treating it is a real case of pikuach nefesh, not a lenient stretch of Shabbat law.",
+          memoryAnchor: "Tzefidna: starts in the gums (hot bread and oily fish), spreads to the intestines, genuinely dangerous. Rabbi Yochanan's mouth-medicine treatment on Shabbat rests not on a lone minority view but on Sages who agreed with Rabbi Matya specifically on this point.",
           learnerQuestion: "What is tzefardea and why does the Gemara treat it as a dangerous condition that overrides Yom Kippur?",
-          coreTension: "Between ordinary illness (which does not automatically override YK) and the specific condition called tzefardea, which the Gemara classifies as immediately dangerous.",
-          coreMove: "The Gemara describes tzefardea (apparently a condition related to snake or frog venom, or a specific pharyngeal infection) and its symptoms. It classifies it as life-threatening based on medical evidence from authorities who recognized it as rapidly fatal without treatment.",
+          coreTension: "Between a symptom that looks confined to the mouth and the actual medical trajectory of the disease, which determines whether treating it on Shabbat is a genuine life-saving act or an unwarranted leniency.",
+          coreMove: "Rav Nachman bar Yitzchak explains that tzefidna, though it presents in the gums, descends into the intestines and becomes life-threatening, justifying Rabbi Yochanan's Shabbat treatment. Rav Chiyya bar Abba then presses whether Rabbi Yochanan was relying on Rabbi Matya ben Charash's minority leniency, and Rabbi Yochanan clarifies that the Sages actually agreed with Rabbi Matya specifically about mouth medicine, so it isn't a minority position here. A supporting baraita listing Rabbi Matya's other remedies (donkey meat for yerakon, a dog's liver lobe for a dog bite, mouth medicine) is then narrowed: the Rabbis' rejection of 'these' as ineffective is shown to exclude a different remedy, bloodletting for serunkhi, which everyone agrees works.",
           takeaway: {
             type: "legal_principle",
-            text: "The classification of an illness as YK-overriding follows empirical medical evidence; the Gemara's tzefardea ruling shows that halakhic application of pikuach nefesh is evidence-based, tracking actual medical danger rather than relying on intuition."
+            text: "Whether a Shabbat leniency is a genuine minority view or actually agreed-upon halacha can turn on a single narrow point (here, mouth medicine specifically), and a disease's halachic urgency is measured by where it actually leads (the intestines), not by where its symptoms first appear (the gums)."
           },
-          learningBlocker: "Students may not know what tzefardea is; the key point is that halakhic emergency classification requires knowing the medical facts, not just applying a general rule."
+          learningBlocker: "Students may assume 'tzefidna' is simply a serious illness needing no further explanation, or conflate it with the similar-sounding 'tzefardea'; the sugya's own concern is narrower and more precise: tracking a gum ailment's progression to the intestines, and pinning down exactly which of Rabbi Matya's rulings the Sages actually endorsed."
         },
         lines: [
           { id: "yoma-084a-l27", kind: "gemara", he: "מִמַּאי הֲוָה? מֵחַמִּימֵי חַמִּימֵי דְּחִיטֵּי, וּמִשִּׁיּוּרֵי כָּסָא\nדְהַרְסָנָא. וּמַאי סִימָנֵיהּ — כַּד רָמֵי מִידֵּי בְּכַכֵּיהּ וְאָתֵא דְּמָא מִבֵּי דָרֵי. רַבִּי יוֹחָנָן כִּי חָשׁ\nבְּצַפְדִּינָא, עֲבַד הָכִי בְּשַׁבְּתָא וְאִיתַּסִּי. וְרַבִּי יוֹחָנָן הֵיכִי עָבֵיד הָכִי? אֲמַר רַב נַחְמָן בַּר\nיִצְחָק: שָׁאנֵי צַפְדִּינָא הוֹאִיל וּמַתְחִיל בַּפֶּה, וְגוֹמֵר בִּבְנֵי מֵעַיִים.",
