@@ -178,20 +178,20 @@
    ],
    "display": {
     "whats": "R. Yitzchak: cancel your evil decree before the New Year",
-    "hint": "R. Yitzchak advises: cancel your evil decree (through teshuva and good deeds) before the New Year arrives - the window of judgment can be addressed proactively.",
+    "hint": "How does Rabbi Yitzchak show that God's standard for accepting repentance is more lenient than a human being's, and what does Rabbi Meir say happens when just one person truly repents?",
     "title": "Cancel Your Evil Decree Before the New Year"
    },
    "learning": {
-    "ahaMoment": "The window before the New Year is itself a window of opportunity. R. Yitzchak is teaching that proactive repentance - before the decree is issued - is the most powerful form.",
-    "memoryAnchor": "Cancel your decree before the New Year: proactive teshuva before Rosh Hashanah is more powerful than reactive teshuva after.",
+    "ahaMoment": "Divine forgiveness isn't merely generous, it operates on an entirely different standard than human forgiveness: a person may withhold forgiveness even after being appeased, but God is appeased by words alone and even credits the act as a sacrifice.",
+    "memoryAnchor": "Rabbi Yitzchak: a human, once wronged, may stay unappeased even after words and gifts; God is appeased by words alone, and Scripture counts them as though bulls were offered.",
     "learnerQuestion": "What does R. Yitzchak mean by advising people to 'cancel their evil decree' before the New Year?",
-    "coreTension": "Between the idea that the High Holy Day period (Rosh Hashanah through YK) is the time for repentance and R. Yitzchak's urgency about acting before the New Year arrives.",
-    "coreMove": "R. Yitzchak teaches that the window before Rosh Hashanah is also a time to repent and cancel a decree of punishment. Waiting for the formal season may be too late to undo what is being decided; proactive repentance before the decree is issued is more effective than reactive repentance after.",
+    "coreTension": "Between how a human being who has been wronged typically responds to an apology, which may or may not restore the relationship, and how God responds to sincere repentance for a private sin.",
+    "coreMove": "Rabbi Yitzchak, citing Rabba bar Mari, builds an escalating contrast: a human may remain unappeased even after being offered much more than words; God, by contrast, is appeased by words alone for a sin committed in private, treats the return as a favor done to Him, and Scripture credits it as though the penitent had offered sacrifices. Rabbi Meir then extends the stakes further: because of one individual's repentance, the whole world is forgiven.",
     "takeaway": {
      "type": "conceptual",
-     "text": "R. Yitzchak's advice frames repentance as proactive rather than reactive: cancel your decree by repenting before Rosh Hashanah, not just during the ten days of repentance after."
+     "text": "Sincere repentance functions on a scale beyond ordinary human relationships: God accepts mere words as full atonement, and the merit of a single person's repentance is described as reaching the entire world."
     },
-    "learningBlocker": "Students may think repentance is primarily a response to the High Holy Day season; R. Yitzchak reframes it as something that should anticipate the season."
+    "learningBlocker": "Students may assume repentance before God works the same way as making amends with a person, requiring proportional restitution; Rabbi Yitzchak's contrast shows God's standard is categorically more forgiving, accepting words alone even for what a human would need far more to forgive."
    },
    "argumentFlow": [
     {
@@ -302,20 +302,20 @@
    ],
    "display": {
     "whats": "What circumstances constitute chilul Hashem for a Torah scholar?",
-    "hint": "The Gemara specifies what actions constitute chilul Hashem for a Torah scholar: behaviors that appear improper even when technically permitted.",
+    "hint": "What test does Rav Yehuda propose to prove that a person's repentance is genuine, and how does he resolve the apparent contradiction between hiding a sin and confessing it openly?",
     "title": "Chilul Hashem for Scholars: Specific Cases"
    },
    "learning": {
-    "ahaMoment": "The examples are a mirror: every scholar must ask not just 'is this permitted?' but 'what does this say to an observer about what Torah produces?' That second question is the chilul Hashem lens.",
-    "memoryAnchor": "Scholar's chilul Hashem examples: buying on credit, haughty walk - each teaches the pattern: how does this look to an observer?",
+    "ahaMoment": "Repentance isn't proven by regret or resolution alone, it is proven only when the identical opportunity to sin recurs and is refused; until that moment recurs, the repentance remains untested.",
+    "memoryAnchor": "Rav Yehuda's test: same woman, same time, same place, and this time he resists. That is what proves teshuva is complete.",
     "learnerQuestion": "What specific behaviors constitute chilul Hashem for a Torah scholar?",
-    "coreTension": "Between the general principle (behavior that creates bad impressions is chilul Hashem for scholars) and the need for concrete examples that practitioners can identify and avoid.",
-    "coreMove": "The Gemara gives concrete examples: buying meat on credit (appearing to defer payment dishonestly), walking with a haughty gait, handling money carelessly in public. Each example shows how a scholar's visible behavior creates impressions about what Torah-educated people are like.",
+    "coreTension": "Between two verses that seem to contradict: 'fortunate is he whose sin is hidden' favors concealment, while 'he who conceals his transgressions shall not prosper' favors disclosure.",
+    "coreMove": "Rav Yehuda first defines proof of complete repentance as resisting the exact same temptation under the exact same conditions that led to the original sin. He then resolves the apparent contradiction about publicizing sin: a sin that is already publicly known should have its repentance publicized too, while a private sin should stay private; Rav Nachman adds that sins against another person should be made public so the community can press the offender's victim to forgive, while sins against God alone need not be publicized.",
     "takeaway": {
      "type": "legal_principle",
-     "text": "The Gemara's specific examples of scholarly chilul Hashem show that the test is always: 'does this behavior create a negative impression of Torah and God in the observer?' The examples teach the pattern, not an exhaustive list."
+     "text": "Whether a confessed sin should be publicized depends on whether the sin itself was already public and on whom it wronged, not on a single blanket rule."
     },
-    "learningBlocker": "Students may memorize the examples without internalizing the pattern; the examples are illustrations of a principle, not a closed checklist."
+    "learningBlocker": "Students may see 'fortunate is he whose sin is hidden' and 'he who conceals shall not prosper' as flatly contradictory; Rav Yehuda's resolution shows both verses apply, each to a different case, already-public sins versus private ones."
    },
    "argumentFlow": [
     {
@@ -552,20 +552,20 @@
    ],
    "display": {
     "whats": "Tosefta on transgressing against teachers and communal transgressions",
-    "hint": "The Tosefta discusses the severity of transgressing against one's teacher and communal forms of chilul Hashem.",
+    "hint": "Why does the baraita say a forgiven sin should not be confessed again the next Yom Kippur unless it was repeated, and how do Moses and David model two different approaches to disclosing one's own wrongdoing?",
     "title": "Tosefta: Transgressions Against Teachers and Communal Chilul Hashem"
    },
    "learning": {
-    "ahaMoment": "The who matters in repair, not just the what. Harming a teacher is harming an institution; harming the community's standing is harming a collective. The repair must match the level of the harm.",
-    "memoryAnchor": "Tosefta: teacher-transgression and communal chilul Hashem both require repair at their own scale - individual apology is insufficient.",
+    "ahaMoment": "Confession has its own internal logic distinct from the sin itself: whether to repeat a confession, whether to name the sin, and whether to conceal or disclose it all depend on factors like recurrence and audience, not on the severity of the sin alone.",
+    "memoryAnchor": "Baraita: don't re-confess a forgiven sin unless repeated; Rabbi Yehuda ben Bava says detail it, like Moses; Rabbi Akiva says don't, like David; the two women's parable explains why Moses chose disclosure.",
     "learnerQuestion": "What does the Tosefta teach about transgressions against teachers and communal forms of chilul Hashem?",
-    "coreTension": "Between sins between individuals (which can be addressed through direct appeasement) and transgressions against authority figures (teachers) or the community, which may require different repair.",
-    "coreMove": "The Tosefta teaches that transgressions against a teacher carry the heightened weight of damaging a relationship that represents Torah itself, and that communal chilul Hashem - disrespecting the community's moral standing - requires communal repair, not just personal atonement.",
+    "coreTension": "Between Moses, who asked that his sin be recorded explicitly, and David, who asked that his be concealed, both drawing on real values, transparency versus a preference for hidden sin.",
+    "coreMove": "The baraita first rules that a sin already forgiven need not be re-confessed unless repeated. It then debates whether confession must specify the sin, contrasting Moses, who named his, with the general preference for concealment. The parable of the two flogged women resolves the contrast: the one convicted of a lesser-looking offense asks for publicity so onlookers don't assume the worse, and Moses similarly wanted his actual, lesser sin publicized so people would not suspect him of the community's graver sins, the golden calf or the spies.",
     "takeaway": {
      "type": "legal_principle",
-     "text": "Transgressions against teachers and communal forms of chilul Hashem require repair at the level at which the damage occurred; damaging a teacher-Torah relationship or a community's moral standing cannot be repaired solely through individual confession."
+     "text": "Disclosure of a sin is not a fixed rule but a case-by-case judgment: publicizing it can protect a person's reputation from worse suspicion, just as concealing it can spare an already-forgiven sin from redundant confession."
     },
-    "learningBlocker": "Students may treat all interpersonal sins as equivalent; the Tosefta highlights that the role of the person harmed (teacher, community) shapes the repair process."
+    "learningBlocker": "Students may assume 'fortunate is he whose sin is hidden' is a universal instruction to conceal all wrongdoing; the Moses/David contrast and the parable of the two women show that public disclosure can itself be the more protective, praiseworthy choice in the right circumstance."
    },
    "argumentFlow": [
     {
