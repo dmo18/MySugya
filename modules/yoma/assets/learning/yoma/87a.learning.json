@@ -20,20 +20,20 @@
    ],
    "display": {
     "whats": "Going willingly to die vs. against will: a halachic distinction",
-    "hint": "The Gemara discusses whether a person who goes willingly to death is treated differently halachically than one forced against their will.",
+    "hint": "What does Rava say about his own mortality before sitting in judgment, and what lesson does he draw when a crowd follows him in honor?",
     "title": "Willing vs. Forced Death: A Halakhic Distinction"
    },
    "learning": {
-    "ahaMoment": "How you face death is a halakhic fact, not just a personal one. The willingness to accept it changes what it means and what it accomplishes.",
-    "memoryAnchor": "Willing death vs. forced: inner disposition at the moment of death shapes its halakhic significance.",
+    "ahaMoment": "Rava treats the anxiety of judging as itself protective: naming the risk of ruling wrongly keeps him humble, and when honor follows him instead, he reaches for the same kind of caution.",
+    "memoryAnchor": "Rava before judging: 'of his own will he goes to die... if only his entrance were like his exit.' Seeing a crowd follow him in honor: 'though his excellency mounts to the heavens, he shall perish forever like his dung' (Job 20:6-7).",
     "learnerQuestion": "Does it matter halakhically whether a person goes to their death willingly or is forced against their will?",
-    "coreTension": "Between treating death as a purely physical event (no choice affects its legal status) and the halakhic recognition that the manner of death can change its atonement significance.",
-    "coreMove": "The Gemara raises the distinction: one who goes willingly to death may be treated differently than one forced against their will in terms of what that death accomplishes. The willing acceptance of death may carry additional spiritual and legal significance.",
+    "coreTension": "Between the fear appropriate to sitting in judgment, where an erring judge is answerable to Heaven, and the danger of the honor a judge or teacher receives, which can lead just as easily to downfall.",
+    "coreMove": "Rava recites a self-admonition before judging, framing the act as a kind of death he risks for the sake of ruling correctly, hoping to leave the court no worse than he entered it. When a crowd instead follows him in honor, he applies a different verse warning that unchecked honor leads to ruin, and Rav Zutra, carried on shoulders while teaching, recites a matching verse about the impermanence of power to guard against the same danger.",
     "takeaway": {
      "type": "legal_principle",
-     "text": "Willingness in accepting death can affect its halakhic and spiritual significance; the Gemara's distinction between willing and forced death reflects that the inner disposition of the person shapes what that death accomplishes."
+     "text": "A judge or teacher must guard against two opposite dangers, the anxiety of getting a ruling wrong and the arrogance public honor can produce, and each danger calls for its own verse of self-caution."
     },
-    "learningBlocker": "Students may treat death as physically identical regardless of how it was approached; the distinction requires attending to the moral and spiritual dimension of how one meets death."
+    "learningBlocker": "Students may read Rava's 'of his own will he goes to die' as literal danger to his life; it is a rhetorical self-admonition about the gravity of judging, paired with a separate caution about honor, not a statement about physical risk."
    },
    "argumentFlow": [
     {
@@ -130,20 +130,20 @@
    ],
    "display": {
     "whats": "YK does not atone without appeasement of the one wronged; need to ask forgiveness directly",
-    "hint": "The verse 'it is not good to respect the person of the wicked' is applied: YK does not atone for interpersonal sins unless the wrongdoer has gone directly to the person wronged and appeased them.",
+    "hint": "Why does the Gemara treat being honored in this world as bad news for a wicked person like Ahab, and being punished here as good news for a righteous person like Moses?",
     "title": "YK Does Not Atone Without Appeasing the Wronged Person"
    },
    "learning": {
-    "ahaMoment": "God cannot forgive what is owed to someone else. The other person's hurt belongs to them, not to God, and only they can release it. YK is not a universal delete button.",
-    "memoryAnchor": "YK atones between person and God; for person-to-person sins, you must appease the one you wronged first.",
+    "ahaMoment": "Reward and punishment aren't simply about fairness in this life, they function as an accounting mechanism: this-worldly consequences settle a person's account early, for better or worse, changing what remains for the World to Come.",
+    "memoryAnchor": "Ahab honored here lost his World to Come; Moses punished here kept his. Aaron's sons kept the priesthood on his merit; Canaan's children stayed slaves for his guilt.",
     "learnerQuestion": "Why does Yom Kippur not atone for interpersonal sins unless the wronged person is directly appeased?",
-    "coreTension": "Between YK as a universal atonement day and the limitation that it cannot repair damage done to another person without that person's involvement.",
-    "coreMove": "The Gemara establishes: YK's atonement reaches the vertical dimension (between person and God) but not the horizontal (between persons) unless the wronged party is directly appeased. God cannot forgive what belongs to another person. The other person's forgiveness is a prerequisite that no ritual can bypass.",
+    "coreTension": "Between the instinct that being honored is good and being punished is bad, and the Gemara's reversal: for the wicked, this-worldly honor comes at the cost of the World to Come, while for the righteous, this-worldly punishment protects it.",
+    "coreMove": "Expounding 'it is not good to favor the wicked,' the Gemara reads the verse as saying it is bad for the wicked to be honored unpunished here, illustrated by Ahab, whose humbling deferred but did not cancel his punishment, and good for the righteous to be punished here, illustrated by Moses, whose barring from the land settled his account early. It then extends the principle across generations, the righteous earning merit for their descendants (Aaron's sons spared through his merit) and the wicked condemning theirs (Canaan's children left as slaves), and finally to communal leaders: one who brings merit to the public is protected from sin so as not to be punished while his students are rewarded, and the reverse for one who leads the public astray.",
     "takeaway": {
      "type": "legal_principle",
-     "text": "Yom Kippur's atonement power is limited to the vertical dimension (person-God); for interpersonal sins, the wronged person's direct forgiveness is a prerequisite that YK alone cannot replace."
+     "text": "This-worldly reward and punishment function as a kind of accounting that can protect or endanger a person's ultimate portion, and this same logic of earned protection or earned liability extends across generations and to those who influence the public."
     },
-    "learningBlocker": "Students may assume YK atones for everything; the Gemara creates a fundamental distinction between vertical and horizontal repair."
+    "learningBlocker": "Students may assume being honored is simply good and being punished is simply bad; the Gemara shows both can carry the opposite ultimate significance depending on whether the person is righteous or wicked."
    },
    "argumentFlow": [
     {
@@ -282,20 +282,20 @@
    ],
    "display": {
     "whats": "Yom Kippur atones for sins against God; does NOT atone for sins against another person",
-    "hint": "Yom Kippur's atonement covers sins between a person and God directly; but sins between one person and another require direct appeasement before YK can atone.",
+    "hint": "Why does the Mishnah state 'I will sin and repent' twice, and how does the Gemara reconcile its ruling that reliance on Yom Kippur cancels atonement with Rabbi's own view that Yom Kippur atones even without repentance?",
     "title": "YK Atones for God-Directed Sins Only"
    },
    "learning": {
-    "ahaMoment": "The person-God vs. person-person distinction is not a technicality - it reflects a deep claim about moral ownership. Interpersonal wrongs are owed to the person who suffered them.",
-    "memoryAnchor": "YK's direct scope: person-to-God only. Person-to-person requires human appeasement first.",
+    "ahaMoment": "Planning to exploit forgiveness is what disqualifies it, not the sin itself: the same repentance or the same Yom Kippur that would otherwise atone loses its power specifically when it is being used in advance as a license.",
+    "memoryAnchor": "Rav Huna in Rav's name: repeating a sin makes it feel 'as if permitted.' Even Rabbi, who holds YK atones without repentance, agrees that counting on YK in advance cancels its atonement.",
     "learnerQuestion": "What is the scope of Yom Kippur's direct atonement power?",
-    "coreTension": "Between the perception of YK as a day of total atonement for all sins and the halakhic precision that its direct power is limited to sins in the person-God relationship.",
-    "coreMove": "The Gemara makes the fundamental division explicit: Yom Kippur directly atones for sins between a person and God. Sins between a person and another person are outside YK's direct scope - YK can seal the atonement for interpersonal sins only after the wronged party has been appeased.",
+    "coreTension": "Between the Mishnah's ruling that presuming on future repentance or Yom Kippur forfeits atonement, and Rabbi's own more lenient position elsewhere that Yom Kippur atones even without repentance at all.",
+    "coreMove": "The Gemara first explains the doubled phrase 'I will sin and repent': it is repeated because repeating a sin itself changes its character, making it feel permitted, which is why deliberate repetition specifically closes off repentance. It then reconciles the Mishnah's ruling that relying on Yom Kippur to atone leaves a person unatoned with Rabbi's own broader position: even Rabbi agrees that when a sin is committed precisely because the person is counting on Yom Kippur in advance, that specific reliance forfeits the atonement Yom Kippur would otherwise provide.",
     "takeaway": {
      "type": "legal_principle",
-     "text": "YK directly atones only for sins between person and God; interpersonal sins require direct appeasement of the wronged party before YK can complete the atonement process."
+     "text": "Atonement, whether through repentance or Yom Kippur, is forfeited specifically when it is planned on in advance as a license to sin, even under views that would otherwise grant it very broadly."
     },
-    "learningBlocker": "Students may not see why YK cannot simply atone for interpersonal sins; the Gemara's distinction tracks who owns the wrong - God cannot release what belongs to the injured person."
+    "learningBlocker": "Students may think the Mishnah simply contradicts Rabbi's lenient view that Yom Kippur atones without repentance; the Gemara shows both can be true because the disqualifying factor is the advance reliance on atonement, not repentance's absence."
    },
    "argumentFlow": [
     {
@@ -391,20 +391,20 @@
    ],
    "display": {
     "whats": "YK atones for communal sins between people toward God",
-    "hint": "Certain communal or relational sins that have a Godward dimension can be atoned by YK without individual appeasement.",
+    "hint": "How does Rabbi Abbahu answer Rav Yosef bar Chavu's challenge that a verse about prayer contradicts the rule that sins against a person are not atoned without appeasing that person?",
     "title": "Communal Sins With a Godward Dimension"
    },
    "learning": {
-    "ahaMoment": "The exception reveals the principle: 'whose sin is it?' determines what form of repair can address it. If it is primarily God's domain, YK can reach it directly.",
-    "memoryAnchor": "Communal sin with Godward dimension: YK atones directly when the primary harm is toward God, not toward the specific person.",
+    "ahaMoment": "The same Hebrew root can mean 'judge' in one half of a verse and 'forgive through prayer' in the other, and choosing between those meanings is what lets Rabbi Abbahu preserve both the Mishnah's rule and the verse's authority.",
+    "memoryAnchor": "Rav Yosef bar Chavu: doesn't 'ufilelo' mean prayer secures forgiveness even for sins against a person? Rabbi Abbahu's first answer: it means a judge. His second answer, after being pressed: it does mean forgiveness, but only once the victim has been appeased.",
     "learnerQuestion": "Are there interpersonal or communal sins that Yom Kippur can atone for without requiring direct human appeasement?",
-    "coreTension": "Between the rule (interpersonal sins require direct appeasement) and cases where the sin's primary dimension is Godward even though it involves another person.",
-    "coreMove": "The Gemara identifies cases where sins that involve others have their primary dimension toward God rather than toward the other person. In these cases, YK's direct atonement reaches them without requiring individual appeasement of the other party.",
+    "coreTension": "Between the Mishnah's rule that a sin against a person cannot be atoned without appeasing that person, and a verse that appears to say prayer alone secures forgiveness even for such a sin.",
+    "coreMove": "Rav Yosef bar Chavu challenges Rabbi Abbahu with a verse using the root p-l-l for sins against a person, read as 'prayer wins him forgiveness.' Rabbi Abbahu's first answer reads the same root as 'judge,' meaning the verse simply requires a court to adjudicate the claim. Rav Yosef presses further, since that reading would make the verse's second clause, about a sin against God, mean no one can ever judge such a sin, which is absurd. Rabbi Abbahu therefore rereads the whole verse: for a sin against a person, the root does mean forgiveness, but only once the victim has been appeased; for a sin against God, the same root in the second clause means specifically repentance and good deeds, not prayer.",
     "takeaway": {
      "type": "legal_principle",
-     "text": "Communal or relational sins whose primary harm is to the Godward dimension (rather than to the specific person's interests) can be atoned by YK without requiring individual appeasement; the classification depends on who primarily 'owns' the wrong."
+     "text": "A single verse can carry two different meanings for its two clauses, and Rabbi Abbahu uses that distinction to preserve both the verse and the rule that sins against a person require appeasing the victim before any prayer or ritual can complete their atonement."
     },
-    "learningBlocker": "Students may apply the interpersonal rule uniformly; the Gemara's exception requires determining the primary direction of the harm (Godward vs. humanward)."
+    "learningBlocker": "Students may take the verse at face value as proving prayer alone forgives interpersonal sins; the Gemara's resolution shows the verse's two halves use the same root for different meanings, so it does not override the appeasement requirement."
    },
    "argumentFlow": [
     {
