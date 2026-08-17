@@ -187077,7 +187077,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of bulmos context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -187091,7 +187092,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Rabba: if possible, satisfy bulmos with non-forbid"
+            item: "Rabba: if possible, satisfy bulmos with non-forbid"
           }
         ],
         quizSeeds: [
@@ -187301,7 +187302,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of bulmos context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -187315,7 +187317,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Two sages' approaches to treating bulmos; the prin"
+            item: "Two sages' approaches to treating bulmos; the prin"
           }
         ],
         quizSeeds: [
@@ -187474,7 +187476,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of bulmos context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -187488,7 +187491,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "R. Meir and R. Yehuda's incident with a student wh"
+            item: "R. Meir and R. Yehuda's incident with a student wh"
           }
         ],
         quizSeeds: [
@@ -187580,7 +187583,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of mad dog context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -187594,7 +187598,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Mad dog bite on Yom Kippur: danger overrides YK"
+            item: "Mad dog bite on Yom Kippur: danger overrides YK"
           }
         ],
         quizSeeds: [
