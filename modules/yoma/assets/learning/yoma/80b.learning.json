@@ -49,14 +49,14 @@
     "Yoma.80b.7"
    ],
    "display": {
-    "whats": "Cheekful debate between Rav and Shmuel; method of measuring",
+    "whats": "Why the YK eating measure is fixed but the drinking measure is relative; why a rabbinic impurity measure can't challenge it",
     "hint": "Why is the Yom Kippur eating measure fixed at a large date for everyone while the drinking measure varies by each person's own cheekful, and why doesn't the larger eating or impurity measure require more than the standard half-loaf eating time?",
-    "title": "Rav and Shmuel Measure Each Other's Cheeks"
+    "title": "Why the Eating Measure Is Fixed and the Drinking Measure Is Relative"
    },
    "learning": {
     "ahaMoment": "The Gemara treats 'the tradition fixes it' as a genuine answer, not a dodge: eating and drinking use different logics (a fixed amount that settles any mind, versus a relative amount that settles one's OWN mind) by design, and the seemingly lenient Torah measure survives challenge only because the larger rabbinic impurity measure it's compared to belongs to a different, less strict tier of law.",
     "memoryAnchor": "Eating (date): fixed for everyone, tradition-set. Drinking (cheekful): relative to each person, since only your own mouthful settles your own mind. Impurity's two-egg-bulk measure is rabbinic, so it can't undercut the Torah-level YK comparison.",
-    "learnerQuestion": "How did Rav and Shmuel determine the size of the cheekful measure in practice?",
+    "learnerQuestion": "Why is the Yom Kippur eating measure a fixed large date for everyone, while the drinking measure varies by each person's own cheekful, and why can't the larger rabbinic impurity measure challenge the Yom Kippur standard?",
     "coreTension": "Between wanting a single consistent logic for every eating and drinking measure on Yom Kippur and the Gemara's repeated insistence that each measure follows its own tradition-fixed rule, even when a neighboring measure looks larger, richer, or more lenient in the same timeframe.",
     "coreMove": "Rabbi Zeira presses three times on why the eating measure is fixed (unlike the relative drinking measure) even across differences in person, richness, or intent, and Abaye answers each time that the tradition simply fixes the date as what settles a mind, whatever the underlying variation. Rava then presses that the larger date and impurity measures should not fit the same eating-time window as the ordinary olive-bulk, and the Gemara answers first that mind-settling is what defines the timeframe, then that the still-larger impurity measure is only rabbinic and so cannot be used to challenge the Torah-level Yom Kippur standard.",
     "takeaway": {
@@ -166,10 +166,10 @@
     }
    ],
    "topicTags": [
-    "cheekful",
-    "Rav and Shmuel",
-    "drinking measure",
-    "YK"
+    "fixed-measure",
+    "relative-measure",
+    "torah-vs-rabbinic",
+    "yom-kippur-eating"
    ],
    "conceptRefs": [],
    "requiresUnderstanding": [],
@@ -183,7 +183,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "item": "Cheekful debate between Rav and Shmuel; method of "
+     "item": "Fixed date for eating vs relative cheekful for drinking; a rabbinic impurity measure can't challenge the Torah-level Yom Kippur standard"
     }
    ],
    "quizSeeds": [
@@ -200,15 +200,12 @@
      "answer": "He argues that impurity of the body from eating impure food is only rabbinic, so the Sages were lenient with its measure. Therefore it cannot be compared to the Torah-level Yom Kippur measure, and the verse he had cited for bodily impurity serves only as a support."
     }
    ],
-   "finalRuling": "Rav and Shmuel debate the cheekful measure: how to determine its size, and the story of how they determined each other's measure.",
+   "finalRuling": "The Yom Kippur eating measure is a fixed large date for everyone because tradition sets it as the amount that settles the mind, while the drinking measure is relative to each person's own cheekful because only one's own mouthful settles one's own mind; the larger rabbinic impurity measure cannot challenge this Torah-level standard because bodily impurity from eating is only rabbinic law.",
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
    "review": "draft",
-   "prerequisiteKnowledge": [
-    "Background knowledge of cheekful context",
-    "Understanding of Yom Kippur halachic framework"
-   ]
+   "prerequisiteKnowledge": []
   },
   {
    "sugyaNumber": 2,

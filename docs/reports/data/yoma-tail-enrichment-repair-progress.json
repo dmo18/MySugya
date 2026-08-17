@@ -114,7 +114,7 @@
    "blockerReason": null
   },
   "yoma-080b-s01": {
-   "status": "IN_PROGRESS",
+   "status": "FIXED_PENDING_REVIEW",
    "prNumber": null,
    "repairCommit": null,
    "mergedCommit": null,
