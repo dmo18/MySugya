@@ -395,14 +395,14 @@
     "Yoma.83b.17"
    ],
    "display": {
-    "whats": "R. Meir and R. Yehuda's incident with a student who had bulmos",
+    "whats": "Rabbi Meir infers wickedness from the innkeeper Kidor's name and guards his purse while his colleagues lose theirs",
     "hint": "Why does Rabbi Meir treat an innkeeper's ominous name as grounds for caution but not a verdict of certain wickedness, and how does the story of the purses, the dream, and the wine trick play out?",
-    "title": "R. Meir and R. Yehuda Treat Their Student's Bulmos"
+    "title": "Rabbi Meir Reads the Innkeeper Kidor's Name"
    },
    "learning": {
     "ahaMoment": "Rabbi Meir's practice of reading names is deliberately calibrated: a name licenses suspicion and precaution (guarding one's purse, staying alert), but never substitutes for direct proof of wrongdoing; his colleagues, who ignored the warning, pay the real cost of that gap between caution and certainty.",
     "memoryAnchor": "Kidor the innkeeper: a name warns, it doesn't convict. Rabbi Meir guards his purse and gets it back; his colleagues don't and lose theirs, until wine and a mustache-clue recover it - at the price of the innkeeper's wife's life.",
-    "learnerQuestion": "What does the story of R. Meir and R. Yehuda treating a student with bulmos teach about emergency halakhic decision-making?",
+    "learnerQuestion": "What does Rabbi Meir's practice of reading the innkeeper Kidor's name teach about the line between caution and a verdict of wickedness?",
     "coreTension": "Between treating a suspicious name as decisive proof of wickedness and treating it as mere grounds for caution, when ignoring the caution turns out to cost the other rabbis dearly.",
     "coreMove": "Rabbi Meir reads danger in the innkeeper Kidor's name and quietly protects his own purse, while his more skeptical colleagues, who dismiss both the name-omen and a warning dream, lose theirs; when the innkeeper denies the theft, Rabbi Meir insists a name only ever justified suspicion, not a verdict, so he owed no explicit warning. The purses are recovered only through a further ruse (wine loosens the innkeeper's tongue, a physical tell signals his wife to return the money), and the innkeeper's murder of his wife once the trick unravels, together with a parallel baraita about laxity in ritual hand-washing leading to disaster, both press the same point: small signs of danger, ignored, escalate. Rabbi Yehuda and Rabbi Yosei subsequently adopt the same name-reading caution.",
     "takeaway": {
@@ -498,11 +498,11 @@
     }
    ],
    "topicTags": [
-    "bulmos",
-    "student",
-    "R. Meir",
-    "R. Yehuda",
-    "practical incident"
+    "name-reading",
+    "innkeeper-kidor",
+    "caution-vs-verdict",
+    "warning-dream",
+    "wine-trick"
    ],
    "conceptRefs": [],
    "requiresUnderstanding": [],
@@ -516,7 +516,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "item": "R. Meir and R. Yehuda's incident with a student wh"
+     "item": "Rabbi Meir reading the innkeeper Kidor's name as a warning sign"
     }
    ],
    "quizSeeds": [
@@ -529,14 +529,14 @@
      "answer": "Both show how a person's laxity leads to disaster: skipping the pre-meal washing led to being fed pork, and laxity in the after-meal washing led to a killing, paralleling the innkeeper's murder of his wife."
     }
    ],
-   "finalRuling": "A student of R. Meir and R. Yehuda fell into a bulmos state; the two teachers disagreed about the immediate treatment, and the incident revealed their",
+   "finalRuling": "",
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
    "review": "draft",
    "prerequisiteKnowledge": [
-    "Background knowledge of bulmos context",
-    "Understanding of Yom Kippur halachic framework"
+    "Rabbi Meir's practice of deriving a person's character from their name",
+    "The custom of entrusting valuables to a fellow traveler before Shabbat"
    ]
   },
   {
