@@ -183820,7 +183820,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of children context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -183834,7 +183835,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Mishna: children are not afflicted on YK but train"
+            item: "Mishna: children are not afflicted on YK but train"
           }
         ],
         quizSeeds: [
@@ -183959,7 +183960,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of children context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -183973,7 +183975,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Children in danger of death: we violate YK to save"
+            item: "Children in danger of death: we violate YK to save"
           }
         ],
         quizSeeds: [
@@ -184098,7 +184100,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of pregnant woman context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -184112,7 +184115,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Mishna: pregnant woman smells food - feed her unti"
+            item: "Mishna: pregnant woman smells food - feed her unti"
           }
         ],
         quizSeeds: [
@@ -184203,7 +184206,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of pikuach nefesh context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -184217,7 +184221,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Pikuach nefesh (saving life) overrides all of Yom "
+            item: "Pikuach nefesh (saving life) overrides all of Yom "
           }
         ],
         quizSeeds: [

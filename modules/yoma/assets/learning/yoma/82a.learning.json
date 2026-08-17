@@ -96,10 +96,7 @@
     "bar mitzvah"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of children context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Children must fast on Yom Kippur once they are old enough to understand.",
@@ -110,7 +107,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Mishna: children are not afflicted on YK but train"
+     "item": "Mishna: children are not afflicted on YK but train"
     }
    ],
    "quizSeeds": [
@@ -127,7 +124,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of children context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -242,10 +243,7 @@
     "danger"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of children context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "'Training' a child for the fast always means a partial, several-hour fast.",
@@ -256,7 +254,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Children in danger of death: we violate YK to save"
+     "item": "Children in danger of death: we violate YK to save"
     }
    ],
    "quizSeeds": [
@@ -273,7 +271,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of children context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -388,10 +390,7 @@
     "feeding the ill"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of pregnant woman context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Saving a life overrides every prohibition in the Torah without exception.",
@@ -402,7 +401,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Mishna: pregnant woman smells food - feed her unti"
+     "item": "Mishna: pregnant woman smells food - feed her unti"
     }
    ],
    "quizSeeds": [
@@ -419,7 +418,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of pregnant woman context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -495,10 +498,7 @@
     "saving life"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of pikuach nefesh context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The verse comparing rape to murder is only there to teach the law of the betrothed woman.",
@@ -509,7 +509,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Pikuach nefesh (saving life) overrides all of Yom "
+     "item": "Pikuach nefesh (saving life) overrides all of Yom "
     }
    ],
    "quizSeeds": [
@@ -526,7 +526,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of pikuach nefesh context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   }
  ],
  "glossary": [],

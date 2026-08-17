@@ -2,7 +2,7 @@
  "type": "enrichment-schema-migration",
  "module": "yoma",
  "targets": [
-  "83b"
+  "82a"
  ],
  "model": "sonnet",
  "paused": false,
