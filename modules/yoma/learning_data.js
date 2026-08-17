@@ -180350,20 +180350,20 @@ const DAF_CONTENT = {
         },
         display: {
           whats: "Cheekful debate between Rav and Shmuel; method of measuring",
-          hint: "Rav and Shmuel debate the cheekful measure: how to determine its size, and the story of how they determined each other's measure.",
+          hint: "Why is the Yom Kippur eating measure fixed at a large date for everyone while the drinking measure varies by each person's own cheekful, and why doesn't the larger eating or impurity measure require more than the standard half-loaf eating time?",
           title: "Rav and Shmuel Measure Each Other's Cheeks"
         },
         learning: {
-          ahaMoment: "The story is a lesson in legal epistemology: a principle is not complete until you can answer 'how do you actually measure it?' - Rav and Shmuel provide the method.",
-          memoryAnchor: "Rav and Shmuel measure each other's cheeks: abstract measure meets practical verification.",
+          ahaMoment: "The Gemara treats 'the tradition fixes it' as a genuine answer, not a dodge: eating and drinking use different logics (a fixed amount that settles any mind, versus a relative amount that settles one's OWN mind) by design, and the seemingly lenient Torah measure survives challenge only because the larger rabbinic impurity measure it's compared to belongs to a different, less strict tier of law.",
+          memoryAnchor: "Eating (date): fixed for everyone, tradition-set. Drinking (cheekful): relative to each person, since only your own mouthful settles your own mind. Impurity's two-egg-bulk measure is rabbinic, so it can't undercut the Torah-level YK comparison.",
           learnerQuestion: "How did Rav and Shmuel determine the size of the cheekful measure in practice?",
-          coreTension: "Between the abstract principle (the cheekful is the measure) and the practical challenge of establishing a usable standard when the measure varies by individual.",
-          coreMove: "The story of Rav and Shmuel measuring each other's cheeks is the Gemara's illustration that the measure, though body-relative, requires practical calibration. Even an abstract measure must eventually be anchored to a physical act of verification.",
+          coreTension: "Between wanting a single consistent logic for every eating and drinking measure on Yom Kippur and the Gemara's repeated insistence that each measure follows its own tradition-fixed rule, even when a neighboring measure looks larger, richer, or more lenient in the same timeframe.",
+          coreMove: "Rabbi Zeira presses three times on why the eating measure is fixed (unlike the relative drinking measure) even across differences in person, richness, or intent, and Abaye answers each time that the tradition simply fixes the date as what settles a mind, whatever the underlying variation. Rava then presses that the larger date and impurity measures should not fit the same eating-time window as the ordinary olive-bulk, and the Gemara answers first that mind-settling is what defines the timeframe, then that the still-larger impurity measure is only rabbinic and so cannot be used to challenge the Torah-level Yom Kippur standard.",
           takeaway: {
             type: "legal_principle",
-            text: "Even a body-relative halakhic measure must be grounded in a practical method of determination; Rav and Shmuel's mutual calibration shows how abstract principles become actionable standards."
+            text: "Each of these measures - the fixed date for eating, the relative cheekful for drinking, and the even larger rabbinic measure for impurity - follows its own tradition-fixed logic; a measure being larger, more lenient, or differently scaled than a neighboring one is not itself an inconsistency, especially once a Torah-level measure is distinguished from a rabbinic one."
           },
-          learningBlocker: "Students may find the story humorous and miss its legal point: the cheekful needs a method, not just a definition."
+          learningBlocker: "Students may expect one uniform principle to govern every YK and impurity measure and treat each of Rabbi Zeira's and Rava's challenges as exposing a real contradiction; the Gemara's actual method is to hold that each measure is independently tradition-fixed, and that Torah-level and rabbinic-level measures are not comparable at all."
         },
         lines: [
           { id: "yoma-080b-l01", kind: "gemara", he: "כִּי אִתְּשִׁיל, בְּעוֹג מֶלֶךְ הַבָּשָׁן אִתְּשִׁיל, דְּהָווּ\nלְהוּ בֵּית שַׁמַּאי לְחוּמְרָא.",
