@@ -180335,7 +180335,7 @@ const DAF_CONTENT = {
   "80b": {
     canonicalRef: "Yoma 80b",
     daf: "80b",
-    summary: "Tractate Yoma daf 80b covers: Cheekful debate between Rav and Shmuel; method of measuring; All foods combine toward the eating measure on YK; Reish Lakish: overeating on YK creates liability even without swallowing.",
+    summary: "Tractate Yoma daf 80b covers: The eating measure (a date) is fixed for everyone while the drinking measure (a cheekful) is relative to each person, and the larger impurity measure is only rabbinic; All foods combine toward the eating measure on YK; Eating to excess past satiety is exempt from liability; the same reasoning applies to overeating teruma.",
     sugyot: [
       {
         id: "yoma-080b-s01",
@@ -180349,14 +180349,14 @@ const DAF_CONTENT = {
           endVilnaLine: 23
         },
         display: {
-          whats: "Cheekful debate between Rav and Shmuel; method of measuring",
+          whats: "The eating measure (a date) is fixed for everyone while the drinking measure (a cheekful) is relative to each person; the larger impurity measure is only rabbinic",
           hint: "Why is the Yom Kippur eating measure fixed at a large date for everyone while the drinking measure varies by each person's own cheekful, and why doesn't the larger eating or impurity measure require more than the standard half-loaf eating time?",
-          title: "Rav and Shmuel Measure Each Other's Cheeks"
+          title: "The Fixed Date and the Relative Cheekful"
         },
         learning: {
           ahaMoment: "The Gemara treats 'the tradition fixes it' as a genuine answer, not a dodge: eating and drinking use different logics (a fixed amount that settles any mind, versus a relative amount that settles one's OWN mind) by design, and the seemingly lenient Torah measure survives challenge only because the larger rabbinic impurity measure it's compared to belongs to a different, less strict tier of law.",
           memoryAnchor: "Eating (date): fixed for everyone, tradition-set. Drinking (cheekful): relative to each person, since only your own mouthful settles your own mind. Impurity's two-egg-bulk measure is rabbinic, so it can't undercut the Torah-level YK comparison.",
-          learnerQuestion: "How did Rav and Shmuel determine the size of the cheekful measure in practice?",
+          learnerQuestion: "Why is the Yom Kippur eating measure the same for everyone while the drinking measure differs by person, and does the larger impurity measure undermine that logic?",
           coreTension: "Between wanting a single consistent logic for every eating and drinking measure on Yom Kippur and the Gemara's repeated insistence that each measure follows its own tradition-fixed rule, even when a neighboring measure looks larger, richer, or more lenient in the same timeframe.",
           coreMove: "Rabbi Zeira presses three times on why the eating measure is fixed (unlike the relative drinking measure) even across differences in person, richness, or intent, and Abaye answers each time that the tradition simply fixes the date as what settles a mind, whatever the underlying variation. Rava then presses that the larger date and impurity measures should not fit the same eating-time window as the ordinary olive-bulk, and the Gemara answers first that mind-settling is what defines the timeframe, then that the still-larger impurity measure is only rabbinic and so cannot be used to challenge the Torah-level Yom Kippur standard.",
           takeaway: {
@@ -180490,10 +180490,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of cheekful context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "Learners expect the eating and drinking measures to follow the same logic, both fixed or both relative.",
@@ -180504,7 +180501,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "Cheekful debate between Rav and Shmuel; method of "
+            item: "Fixed date (eating) vs. relative cheekful (drinking); Og of Bashan's mouthful; impurity measure is only rabbinic"
           }
         ],
         quizSeeds: [
@@ -180521,14 +180518,15 @@ const DAF_CONTENT = {
             answer: "He argues that impurity of the body from eating impure food is only rabbinic, so the Sages were lenient with its measure. Therefore it cannot be compared to the Torah-level Yom Kippur measure, and the verse he had cited for bodily impurity serves only as a support."
           }
         ],
-        finalRuling: "Rav and Shmuel debate the cheekful measure: how to determine its size, and the story of how they determined each other's measure.",
+        finalRuling: "The Yom Kippur eating measure (a large date) is fixed for everyone regardless of body size or food richness, while the drinking measure (a cheekful) is relative to each person's own mouth; both are anchored to the standard eating-time span because that is what defines when a measure settles the mind, and the larger two-egg-bulk impurity measure does not undercut this comparison because impurity from eating is only rabbinic in origin.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
           "cheekful",
-          "Rav and Shmuel",
-          "drinking measure",
-          "YK"
+          "eating-measure",
+          "drinking-measure",
+          "og-of-bashan",
+          "rabbinic-vs-torah"
         ],
         review: "draft"
       },
