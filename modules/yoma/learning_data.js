@@ -183871,14 +183871,14 @@ const DAF_CONTENT = {
           endVilnaLine: 22
         },
         display: {
-          whats: "Children in danger of death: we violate YK to save them",
+          whats: "Testing the Mishnah's 'one year or two years' against three views on training children to fast",
           hint: "The Mishnah says a feeble child trains one year and a healthy child two years before maturity - how does this fit Rav Huna and Rav Nachman's view that this is completing the rabbinic fast, how does Rabbi Yochanan (who denies any such obligation) read the same words, and what settles whether 'training' means delaying a meal or completing the whole fast?",
-          title: "Saving a Child's Life Overrides Yom Kippur"
+          title: "Testing 'One Year or Two Years' Across Three Views on Training"
         },
         learning: {
           ahaMoment: "'Training' is not one practice but two: for a young child it means pushing back mealtime by an hour, for an older child nearing maturity it means completing the entire fast - the same word covers both, and untangling them is what saves Rav Huna and Rav Nachman's reading from Rabba bar Shmuel's baraita.",
           memoryAnchor: "One year (feeble) or two years (healthy) before maturity: for Rav Huna/Rav Nachman this is rabbinic completion of the fast; for Rabbi Yochanan (no completion obligation) it marks how much earlier training itself begins. Training splits in two: delay a young child's meal, or have an older child finish the whole fast.",
-          learnerQuestion: "Does saving a child's life override the Yom Kippur prohibitions?",
+          learnerQuestion: "How does the Mishnah's 'one year or two years before maturity' fit three different views on training children to fast, and what are the two senses of 'training' itself?",
           coreTension: "Between a single Mishnaic phrase ('one year or two years') and three different accounts of what it obligates, complicated further by two different things 'training' itself could mean.",
           coreMove: "The Gemara tests 'one year or two years' against three views: for Rav Huna and Rav Nachman, who hold a child fully completes the fast one (feeble) or two (healthy) years before maturity by rabbinic law, the phrase fits directly. For Rabbi Yochanan, who denies any such completion obligation, the same phrase instead marks how much earlier training begins for a feeble versus a healthy child. A baraita from Rabba bar Shmuel then threatens Rav Huna and Rav Nachman's reading by using 'training' language for what looks like the same one/two-year distinction; they resolve it by distinguishing two senses of training - delaying a young child's mealtime by an hour, versus having an older child actually complete the fast.",
           takeaway: {
@@ -183961,10 +183961,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of children context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "'Training' a child for the fast always means a partial, several-hour fast.",
@@ -183975,7 +183972,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "Children in danger of death: we violate YK to save"
+            item: "Rav Huna/Rav Nachman: completing the fast; Rabbi Yochanan: earlier training start; two senses of training reconciled"
           }
         ],
         quizSeeds: [
@@ -183988,14 +183985,14 @@ const DAF_CONTENT = {
             answer: "There are two distinct forms of training: delaying a young child's mealtime by an hour, and accustoming an older child to complete the entire fast."
           }
         ],
-        finalRuling: "If a child's life is at risk on Yom Kippur, the day's prohibitions are violated to save the child - saving life overrides the fast.",
+        finalRuling: "The Mishnah's 'one year or two years before maturity' is reconciled across three views: for Rav Huna and Rav Nachman it marks the rabbinic obligation to complete the fast, for Rabbi Yochanan it marks how much earlier training begins; and 'training' itself denotes two distinct practices - delaying a young child's mealtime, and having an older child complete the fast.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "children",
-          "pikuach nefesh",
-          "YK",
-          "danger"
+          "training-children",
+          "fast-completion",
+          "mishnah-interpretation",
+          "rabbinic-obligation"
         ],
         review: "draft"
       },
@@ -184151,14 +184148,14 @@ const DAF_CONTENT = {
           endVilnaLine: 35
         },
         display: {
-          whats: "Pikuach nefesh (saving life) overrides all of Yom Kippur",
+          whats: "Deriving that one must die rather than commit murder or forbidden relations, from Deuteronomy 22:26",
           hint: "Where does the Torah teach that one must give his life rather than commit murder or forbidden relations, and how does the verse comparing rape to murder teach a lesson in both directions - permitting a pursuer to be killed to save a victim, and requiring a would-be murderer to die rather than kill?",
-          title: "Pikuach Nefesh Overrides Yom Kippur"
+          title: "Deriving Martyrdom for Murder and Forbidden Relations from Deuteronomy 22:26"
         },
         learning: {
           ahaMoment: "The verse ostensibly explains rape by comparing it to murder, but the real novelty runs the other way: it uses the settled case (a victim may be saved by killing her attacker) to establish an unstated one (a person must let himself be killed rather than commit murder).",
           memoryAnchor: "Deuteronomy 22:26 compares rape to murder: 'as when a man rises against his fellow and slays him.' Direction one: a betrothed woman may be saved by killing her attacker. Direction two, the real teaching: one must submit to death rather than commit murder - and the same for forbidden relations.",
-          learnerQuestion: "What is the legal basis for pikuach nefesh overriding the Yom Kippur prohibitions?",
+          learnerQuestion: "Where does Rabbi Yehuda HaNasi derive that one must die rather than commit murder or forbidden relations, and how does the same verse permit killing a pursuer to save a victim?",
           coreTension: "Between reading the verse as merely explaining the law of the betrothed woman by analogy to murder, and recognizing that its real, unstated purpose is to derive a law about murder itself from that comparison.",
           coreMove: "Rabbi Yehuda HaNasi derives from Deuteronomy 22:26 - which likens the rape of a betrothed woman to murder - that one must give his life rather than commit murder or forbidden relations. The verse appears to explain the betrothed woman's case using the already-known law of murder (a victim may be saved by killing the attacker), but the Gemara reads the comparison as running in the other, more novel direction as well: just as one may kill a pursuer to save the woman, so one may kill a pursuer to save a murder victim; and just as forbidden relations require submitting to death rather than transgressing, so does murder.",
           takeaway: {
@@ -184207,10 +184204,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of pikuach nefesh context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "The verse comparing rape to murder is only there to teach the law of the betrothed woman.",
@@ -184221,7 +184215,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "Pikuach nefesh (saving life) overrides all of Yom "
+            item: "Deuteronomy 22:26 (rape compared to murder): a pursuer may be killed to save either victim; one must die rather than commit murder or forbidden relations"
           }
         ],
         quizSeeds: [
@@ -184234,13 +184228,14 @@ const DAF_CONTENT = {
             answer: "The verse equating rape with murder establishes that murder, like the gravest prohibitions, is one a person must die rather than commit."
           }
         ],
-        finalRuling: "The principle of pikuach nefesh (saving human life) overrides Yom Kippur's prohibitions - we violate the day to preserve life.",
+        finalRuling: "One must submit to death rather than commit murder or forbidden relations, derived by Rabbi Yehuda HaNasi from Deuteronomy 22:26's comparison of rape to murder; the same comparison also permits killing a pursuer to save either victim.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "pikuach nefesh",
-          "YK override",
-          "saving life"
+          "martyrdom",
+          "murder",
+          "forbidden-relations",
+          "pursuer-law"
         ],
         review: "draft"
       }
