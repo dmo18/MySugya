@@ -96,10 +96,7 @@
     "killing on YK"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of mad dog context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The remedies for a mad dog bite reflect ordinary medical treatment.",
@@ -110,7 +107,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Killing a mad dog; signs of madness (symptoms that"
+     "item": "Killing a mad dog; signs of madness (symptoms that"
     }
    ],
    "quizSeeds": [
@@ -127,7 +124,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of mad dog context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -223,10 +224,7 @@
     "pikuach nefesh"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of R. Matya ben Harash context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Rabbi Yochanan broke his oath to the healer by publicizing the remedy.",
@@ -237,7 +235,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "R. Matya ben Harash: throat pain on YK permits tak"
+     "item": "R. Matya ben Harash: throat pain on YK permits tak"
     }
    ],
    "quizSeeds": [
@@ -254,7 +252,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of R. Matya ben Harash context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -388,10 +390,7 @@
     "YK override"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of tzefardea context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Tzefidna is a minor gum problem, so Rabbi Yochanan relied on a lone lenient opinion.",
@@ -402,7 +401,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Tzefardea (snake-related illness): what it is, its"
+     "item": "Tzefardea (snake-related illness): what it is, its"
     }
    ],
    "quizSeeds": [
@@ -419,7 +418,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of tzefardea context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   }
  ],
  "glossary": [],
