@@ -78,8 +78,7 @@
  "scaffoldDebt": null,
  "repetitionDrain": null,
  "auditRecordIds": [
-  "yoma-086b-s01",
-  "yoma-086b-s04"
+  "yoma-086b-s02"
  ],
  "migrationKinds": []
 }

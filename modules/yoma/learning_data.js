@@ -195506,7 +195506,7 @@ const DAF_CONTENT = {
   "86b": {
     canonicalRef: "Yoma 86b",
     daf: "86b",
-    summary: "Tractate Yoma daf 86b covers: R. Yochanan: teshuva is so great it overrides a divine decree; R. Yitzchak: cancel your evil decree before the New Year; What circumstances constitute chilul Hashem for a Torah scholar?; R. Yosei bar Yehuda: baalei teshuva and their elevated standing; Tosefta on transgressing against teachers and communal transgressions.",
+    summary: "Tractate Yoma daf 86b covers: Rabbi Yochanan teaches that repentance overrides even an explicit Torah prohibition; Rabbi Yitzchak contrasts God's readiness to forgive with a human being's reluctance, and Rabbi Meir teaches that one person's repentance can bring merit to the entire world; Rav Yehuda's test for complete repentance and his ruling on publicizing a sin; Rabbi Yosei bar Yehuda on being forgiven three times but not a fourth; a baraita on confession rules, the debate over detailing a sin, and the contrast between Moses and David on disclosing versus concealing wrongdoing.",
     sugyot: [
       {
         id: "yoma-086b-s01",
