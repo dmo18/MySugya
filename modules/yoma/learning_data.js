@@ -189696,7 +189696,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of tzefardea context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -189710,7 +189711,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Proof that tzefardea is dangerous (the Rabba bar S"
+            item: "Proof that tzefardea is dangerous (the Rabba bar S"
           }
         ],
         quizSeeds: [
@@ -189836,7 +189837,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of throat medicine context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -189850,7 +189852,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Throat pain: medicine placed inside the mouth, not"
+            item: "Throat pain: medicine placed inside the mouth, not"
           }
         ],
         quizSeeds: [
@@ -189992,7 +189994,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of Tosefta context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -190006,7 +190009,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Tosefta: engaging in life-preserving activities on"
+            item: "Tosefta: engaging in life-preserving activities on"
           }
         ],
         quizSeeds: [
@@ -190148,7 +190151,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of Shmuel context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -190162,7 +190166,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Rav Yosef citing Rav Yehuda citing Shmuel: rulings"
+            item: "Rav Yosef citing Rav Yehuda citing Shmuel: rulings"
           }
         ],
         quizSeeds: [
