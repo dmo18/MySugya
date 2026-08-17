@@ -197012,7 +197012,7 @@ const DAF_CONTENT = {
   "87a": {
     canonicalRef: "Yoma 87a",
     daf: "87a",
-    summary: "Tractate Yoma daf 87a covers: Going willingly to die vs. against will: a halachic distinction; YK does not atone without appeasement of the one wronged; need to ask forgiveness directly; Yom Kippur atones for sins against God; does NOT atone for sins against another person; YK atones for communal sins between people toward God; One who angers a friend - even verbally - must appease them directly.",
+    summary: "Tractate Yoma daf 87a covers: Rava's self-caution before sitting in judgment, and his and Rav Zutra's warnings against the danger of public honor; this-worldly honor for the wicked and this-worldly punishment for the righteous, and how merit and guilt extend to descendants and to communal leaders; the Mishnah's doubled 'I will sin and repent' phrase, and why relying on Yom Kippur in advance forfeits its atonement even according to Rabbi's lenient view; Rav Yosef bar Chavu's challenge that a verse implies prayer alone forgives a sin against a person, and Rabbi Abbahu's two-stage resolution; one who angers a friend, even verbally, must appease them directly.",
     sugyot: [
       {
         id: "yoma-087a-s01",
