@@ -198679,9 +198679,9 @@ const DAF_CONTENT = {
           endVilnaLine: 10
         },
         display: {
-          whats: "Rav went to appease R. Hiyya; R. Hiyya refused; the appeasement story",
+          whats: "Rav offended Rabbi Chanina bar Chama by not restarting his reading, and Chanina refused thirteen years of appeasement because his dream showed Rav destined to lead a yeshiva elsewhere",
           hint: "Whom did Rav actually offend by not restarting his Torah reading, and why did that person refuse to forgive him despite thirteen years of repeated attempts?",
-          title: "Rav Seeks Appeasement from R. Hiyya"
+          title: "Rabbi Chanina's Hidden Reason for Refusing Forgiveness"
         },
         learning: {
           ahaMoment: "A refusal to forgive can itself be an act of care in disguise: Rabbi Chanina withholds forgiveness not from spite but because he has seen that letting Rav stay would cost Rav, and eventually the Jewish community in Babylonia, the leadership Rav is destined for.",
@@ -198752,10 +198752,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of Rav context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "Rabbi Chanina simply held a grudge and violated the duty to forgive.",
@@ -198766,8 +198763,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            item: "Rav went to appease R. Hiyya; R. Hiyya refused; th",
-            type: "action"
+            type: "action",
+            item: "Rabbi Chanina's dream-based reason for refusing Rav's thirteen years of appeasement attempts"
           }
         ],
         quizSeeds: [
@@ -198780,15 +198777,15 @@ const DAF_CONTENT = {
             answer: "He had dreamt Rav would head a yeshiva, and knowing two reigns cannot overlap, he withheld forgiveness so Rav would go to Babylonia and lead a yeshiva there - fulfilling the dream without Rabbi Chanina losing his own position."
           }
         ],
-        finalRuling: "The Gemara tells the story of Rav going to R. Hiyya (his uncle) to seek appeasement after having offended him. R. Hiyya repeatedly refused to be appea",
+        finalRuling: "Rabbi Chanina deliberately withheld forgiveness from Rav for thirteen years, not from simple stubbornness but because his dream revealed Rav was destined to head a yeshiva, and since two leaders cannot hold the same position, he wanted Rav to leave for Babylonia and fulfill that role there.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "Rav",
-          "R. Hiyya",
+          "rabbi-chanina",
+          "rav",
           "appeasement",
-          "forgiveness",
-          "three attempts"
+          "dream",
+          "two-leaders"
         ],
         review: "draft"
       },
@@ -198804,9 +198801,9 @@ const DAF_CONTENT = {
           endVilnaLine: 35
         },
         display: {
-          whats: "Main mitzva of vidui (confession) is on Yom Kippur; also recited at Minha in case something happens",
+          whats: "The core mitzva of Yom Kippur confession is at nightfall, with the Sages adding further confessions before and after the pre-fast meal and at every prayer of the day",
           hint: "When is the core mitzva of Yom Kippur confession performed, and why do the Sages add still more occasions for confessing throughout the day?",
-          title: "Vidui: Primary at Minha, Optional Earlier"
+          title: "Layered Confession Through the Day of Yom Kippur"
         },
         learning: {
           ahaMoment: "One confession isn't insurance enough: the Sages layer confession at multiple points, before the last meal, after it, and at every prayer of the day, precisely because so many things could still go wrong between one confession and Yom Kippur's actual close.",
@@ -198894,10 +198891,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of vidui context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "One only confesses once on Yom Kippur, at the start of the fast.",
@@ -198908,8 +198902,8 @@ const DAF_CONTENT = {
         relatedSugyot: [],
         visualizableElements: [
           {
-            item: "Main mitzva of vidui (confession) is on Yom Kippur",
-            type: "action"
+            type: "action",
+            item: "The layered confession schedule: nightfall, before and after the pre-fast meal, and at every prayer of the day"
           }
         ],
         quizSeeds: [
@@ -198922,15 +198916,15 @@ const DAF_CONTENT = {
             answer: "The phrase 'but we have sinned' (aval anachnu chatanu). The various longer texts are needed only if one did not say it; that phrase alone suffices, which is why Shmuel would stand when the leader reached it."
           }
         ],
-        finalRuling: "The primary performance of vidui (verbal confession) on Yom Kippur is at the Minha prayer. If a person recited vidui at Minha but dies before YK, they",
+        finalRuling: "The essential obligation to confess on Yom Kippur is fulfilled at nightfall as the day begins; the Sages layer additional confessions before the final pre-fast meal, after it, and at each subsequent prayer through ne'ila, so that no single moment is relied upon exclusively.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
           "vidui",
-          "confession",
-          "YK mitzva",
-          "Minha",
-          "timing"
+          "nightfall",
+          "pre-fast-meal",
+          "layered-confession",
+          "yom-kippur"
         ],
         review: "draft"
       },
