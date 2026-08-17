@@ -124,23 +124,23 @@
    "blockerReason": null
   },
   "yoma-082a-s02": {
-   "status": "FIXED_PENDING_REVIEW",
-   "prNumber": null,
-   "repairCommit": null,
-   "mergedCommit": null,
-   "version": null,
-   "reviewer": null,
-   "independentReviewResult": null,
+   "status": "APPROVED_PENDING_MERGE",
+   "prNumber": 527,
+   "repairCommit": "3aa3a66",
+   "mergedCommit": "8412088",
+   "version": "15.526",
+   "reviewer": "independent-general-purpose-agent",
+   "independentReviewResult": "APPROVED: PR #527 correctly fixes the remaining audit-flagged fields for yoma-082a-s02 and yoma-082a-s04. Scope: diff touches exactly the allowed files (82a.learning.json, learning_data.js mirror, VERSION, package.json/package-lock.json, generated docs/rashi-audit-backlog.md, repair-progress.json, .worker-manifest.json). Per-sugya field diffs are exactly display.title, display.whats, finalRuling, learning.learnerQuestion, topicTags, visualizableElements[].item, prerequisiteKnowledge - nothing else. display.hint and all other learning.* fields byte-identical to main (fixed by prior gemara-learning PR #526). argumentFlow, quizSeeds, misconceptions, source he/en, and Rashi fields untouched. Sibling sugyot yoma-082a-s01/s03 byte-identical to main; 82a daf summary unchanged (correctly deferred, s01/s03 still NOT_STARTED). Repair queue confirms requiresUnderstanding is listed in affectedActiveFields, authorizing the prerequisiteKnowledge successor-field clear to []. Content verified against s02's own untouched argumentFlow: new title/whats/finalRuling/learnerQuestion/topicTags/visualizableElements correctly describe testing the Mishnah's 'one year or two years' against Rav Huna/Rav Nachman (fast-completion), Rabbi Yochanan (earlier training start), and the two-senses-of-training resolution; old 'saving a child's life' language fully gone. finalRuling is a complete, independent sentence, not a copy/prefix of display.hint. topicTags are valid lowercase-hyphen slugs, no duplicates. No em/en dashes introduced. Local worker_pipeline.py verify --fast run from a fresh worktree of the PR branch: all 9 gates PASS.",
    "blockerReason": null
   },
   "yoma-082a-s04": {
-   "status": "FIXED_PENDING_REVIEW",
-   "prNumber": null,
-   "repairCommit": null,
-   "mergedCommit": null,
-   "version": null,
-   "reviewer": null,
-   "independentReviewResult": null,
+   "status": "APPROVED_PENDING_MERGE",
+   "prNumber": 527,
+   "repairCommit": "3aa3a66",
+   "mergedCommit": "8412088",
+   "version": "15.526",
+   "reviewer": "independent-general-purpose-agent",
+   "independentReviewResult": "APPROVED: PR #527 correctly fixes the remaining audit-flagged fields for yoma-082a-s02 and yoma-082a-s04. Scope: diff touches exactly the allowed files (82a.learning.json, learning_data.js mirror, VERSION, package.json/package-lock.json, generated docs/rashi-audit-backlog.md, repair-progress.json, .worker-manifest.json). Per-sugya field diffs are exactly display.title, display.whats, finalRuling, learning.learnerQuestion, topicTags, visualizableElements[].item, prerequisiteKnowledge - nothing else. display.hint and all other learning.* fields byte-identical to main (fixed by prior gemara-learning PR #526). argumentFlow, quizSeeds, misconceptions, source he/en, and Rashi fields untouched. Sibling sugyot yoma-082a-s01/s03 byte-identical to main; 82a daf summary unchanged (correctly deferred, s01/s03 still NOT_STARTED). Repair queue confirms requiresUnderstanding is listed in affectedActiveFields, authorizing the prerequisiteKnowledge successor-field clear to []. Content verified against s04's own untouched argumentFlow: new title/whats/finalRuling/learnerQuestion/topicTags/visualizableElements correctly describe Rabbi Yehuda HaNasi's derivation from Deuteronomy 22:26 that one must die rather than murder or engage in forbidden relations, with the pursuer-rescue teaching noted; old generic 'pikuach nefesh overrides YK' language fully gone. finalRuling is a complete, independent sentence, not a copy/prefix of display.hint. topicTags are valid lowercase-hyphen slugs, no duplicates. No em/en dashes introduced. Local worker_pipeline.py verify --fast run from a fresh worktree of the PR branch: all 9 gates PASS.",
    "blockerReason": null
   },
   "yoma-082b-s02": {
