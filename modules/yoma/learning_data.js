@@ -197064,7 +197064,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of willing vs. coerced context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -197079,7 +197080,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Going willingly to die vs. against will: a halachi"
+            item: "Going willingly to die vs. against will: a halachi"
           }
         ],
         quizSeeds: [
@@ -197220,7 +197221,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of appeasement context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -197235,7 +197237,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "YK does not atone without appeasement of the one w"
+            item: "YK does not atone without appeasement of the one w"
           }
         ],
         quizSeeds: [
@@ -197326,7 +197328,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of sins against God context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -197341,7 +197344,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Yom Kippur atones for sins against God; does NOT a"
+            item: "Yom Kippur atones for sins against God; does NOT a"
           }
         ],
         quizSeeds: [
@@ -197431,7 +197434,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of communal sin context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -197446,7 +197450,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "YK atones for communal sins between people toward "
+            item: "YK atones for communal sins between people toward "
           }
         ],
         quizSeeds: [
@@ -197621,7 +197625,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of verbal harm context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -197636,7 +197641,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "One who angers a friend - even verbally - must app"
+            item: "One who angers a friend - even verbally - must app"
           }
         ],
         quizSeeds: [

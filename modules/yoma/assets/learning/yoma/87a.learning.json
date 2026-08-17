@@ -57,10 +57,7 @@
     "death"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of willing vs. coerced context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Sages embraced the public honor that came with their authority.",
@@ -72,7 +69,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Going willingly to die vs. against will: a halachi"
+     "item": "Going willingly to die vs. against will: a halachi"
     }
    ],
    "quizSeeds": [
@@ -89,7 +86,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of willing vs. coerced context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -223,10 +224,7 @@
     "direct apology"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of appeasement context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Worldly honor and ease for the wicked signal God's favor.",
@@ -238,7 +236,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "YK does not atone without appeasement of the one w"
+     "item": "YK does not atone without appeasement of the one w"
     }
    ],
    "quizSeeds": [
@@ -255,7 +253,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of appeasement context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -331,10 +333,7 @@
     "YK scope"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of sins against God context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Since Rabbi holds Yom Kippur atones even without repentance, it must atone even for one who sins counting on it.",
@@ -346,7 +345,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Yom Kippur atones for sins against God; does NOT a"
+     "item": "Yom Kippur atones for sins against God; does NOT a"
     }
    ],
    "quizSeeds": [
@@ -363,7 +362,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of sins against God context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -439,10 +442,7 @@
     "YK atonement"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of communal sin context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Prayer to God alone can secure forgiveness for hurting another person.",
@@ -454,7 +454,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "YK atones for communal sins between people toward "
+     "item": "YK atones for communal sins between people toward "
     }
    ],
    "quizSeeds": [
@@ -471,7 +471,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of communal sin context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 5,
@@ -643,10 +647,7 @@
     "interpersonal forgiveness"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of verbal harm context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "It is the offender's job alone to seek reconciliation; the wronged party just waits.",
@@ -658,7 +659,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "One who angers a friend - even verbally - must app"
+     "item": "One who angers a friend - even verbally - must app"
     }
    ],
    "quizSeeds": [
@@ -679,7 +680,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of verbal harm context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   }
  ],
  "glossary": [],
