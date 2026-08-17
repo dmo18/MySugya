@@ -11,7 +11,9 @@
  "independentReviewRequired": true,
  "reviewPolicy": "independent",
  "escalationModel": "sonnet",
- "authorizations": [],
+ "authorizations": [
+  "allowStructure"
+ ],
  "maxBatch": 1,
  "allowedFiles": [
   "modules/<module>/assets/learning/<module>/<daf>.learning.json",
