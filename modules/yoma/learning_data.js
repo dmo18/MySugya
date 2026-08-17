@@ -195661,9 +195661,9 @@ const DAF_CONTENT = {
           endVilnaLine: 26
         },
         display: {
-          whats: "R. Yitzchak: cancel your evil decree before the New Year",
+          whats: "Rabbi Yitzchak, in the name of Rabba bar Mari, contrasts God's readiness to forgive with a human being's reluctance, and Rabbi Meir teaches that one person's repentance can bring merit to the entire world",
           hint: "How does Rabbi Yitzchak show that God's standard for accepting repentance is more lenient than a human being's, and what does Rabbi Meir say happens when just one person truly repents?",
-          title: "Cancel Your Evil Decree Before the New Year"
+          title: "God's Forgiveness Exceeds Human Forgiveness"
         },
         learning: {
           ahaMoment: "Divine forgiveness isn't merely generous, it operates on an entirely different standard than human forgiveness: a person may withhold forgiveness even after being appeased, but God is appeased by words alone and even credits the act as a sacrifice.",
@@ -195734,10 +195734,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of R. Yitzchak context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "Appeasing God for a private sin requires the same effort as appeasing an offended person.",
@@ -195749,7 +195746,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "R. Yitzchak: cancel your evil decree before the Ne"
+            item: "Rabbi Yitzchak's contrast between human and divine forgiveness, and Rabbi Meir's one-penitent teaching"
           }
         ],
         quizSeeds: [
@@ -195762,14 +195759,15 @@ const DAF_CONTENT = {
             answer: "That the entire world can be forgiven because of one individual who repents. The verse says 'from him,' not 'from them,' teaching that one person's repentance brings healing to all."
           }
         ],
-        finalRuling: "R. Yitzchak advises: cancel your evil decree (through teshuva and good deeds) before the New Year arrives - the window of judgment can be addressed pr",
+        finalRuling: "For a private sin against God, mere words of repentance suffice as full atonement, more readily than a human being would forgive an offense even after receiving much more than words; and the merit of a single individual's genuine repentance is described as bringing forgiveness to the whole world.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "R. Yitzchak",
-          "Rosh Hashana",
-          "decree",
-          "teshuva timing"
+          "divine-forgiveness",
+          "rabbi-yitzchak",
+          "rabbi-meir",
+          "teshuva",
+          "one-penitent"
         ],
         review: "draft"
       },
@@ -195785,9 +195783,9 @@ const DAF_CONTENT = {
           endVilnaLine: 29
         },
         display: {
-          whats: "What circumstances constitute chilul Hashem for a Torah scholar?",
+          whats: "Rav Yehuda defines complete repentance as resisting the identical temptation a second time, and rules on when a sin should be publicized versus kept private",
           hint: "What test does Rav Yehuda propose to prove that a person's repentance is genuine, and how does he resolve the apparent contradiction between hiding a sin and confessing it openly?",
-          title: "Chilul Hashem for Scholars: Specific Cases"
+          title: "The Proof of Complete Repentance"
         },
         learning: {
           ahaMoment: "Repentance isn't proven by regret or resolution alone, it is proven only when the identical opportunity to sin recurs and is refused; until that moment recurs, the repentance remains untested.",
@@ -195841,10 +195839,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of scholar context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "All sins should be confessed publicly, or all kept private.",
@@ -195856,7 +195851,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "What circumstances constitute chilul Hashem for a "
+            item: "Rav Yehuda's test for complete repentance and his ruling on publicizing a sin"
           }
         ],
         quizSeeds: [
@@ -195869,14 +195864,15 @@ const DAF_CONTENT = {
             answer: "A sin already public, or one committed against another person, should have its repentance publicized (so people can urge the victim to forgive). A private sin against God should not be publicized, per 'fortunate is he whose sin is hidden.'"
           }
         ],
-        finalRuling: "The Gemara specifies what actions constitute chilul Hashem for a Torah scholar: behaviors that appear improper even when technically permitted.",
+        finalRuling: "A person's repentance is proven complete only when the same temptation, under the same conditions as the original sin, recurs and is resisted; and whether a confessed sin should be publicized depends on whether it was already publicly known and on whom it wronged, not on a single blanket rule.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "scholar",
-          "chilul Hashem",
-          "appearance",
-          "behavior"
+          "proof-of-repentance",
+          "rav-yehuda",
+          "publicizing-sin",
+          "confession",
+          "teshuva"
         ],
         review: "draft"
       },
@@ -195999,9 +195995,9 @@ const DAF_CONTENT = {
           endVilnaLine: 53
         },
         display: {
-          whats: "Tosefta on transgressing against teachers and communal transgressions",
+          whats: "A baraita on not re-confessing already-forgiven sins, the debate over whether to specify the sin in confession, and the contrasting examples of Moses and David on disclosing versus concealing wrongdoing",
           hint: "Why does the baraita say a forgiven sin should not be confessed again the next Yom Kippur unless it was repeated, and how do Moses and David model two different approaches to disclosing one's own wrongdoing?",
-          title: "Tosefta: Transgressions Against Teachers and Communal Chilul Hashem"
+          title: "Rules of Confession: Re-Confessing, Detailing Sin, and Moses vs. David"
         },
         learning: {
           ahaMoment: "Confession has its own internal logic distinct from the sin itself: whether to repeat a confession, whether to name the sin, and whether to conceal or disclose it all depend on factors like recurrence and audience, not on the severity of the sin alone.",
@@ -196157,10 +196153,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of Tosefta context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "Re-confessing a past sin is always wrong, 'like a dog returning to its vomit.'",
@@ -196172,7 +196165,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "Tosefta on transgressing against teachers and comm"
+            item: "Baraita on confession rules, the detail-the-sin debate, and the Moses/David contrast"
           }
         ],
         quizSeeds: [
@@ -196189,14 +196182,15 @@ const DAF_CONTENT = {
             answer: "Because of the chilul Hashem they cause: if people mistake a secretly wicked person for righteous and imitate him, they are led astray. Exposing him prevents that desecration of God's name."
           }
         ],
-        finalRuling: "The Tosefta discusses the severity of transgressing against one's teacher and communal forms of chilul Hashem.",
+        finalRuling: "A sin already forgiven need not be confessed again unless repeated; whether to name a sin in confession is disputed, but the parable of the two flogged women shows that publicizing one's own lesser wrongdoing can protect against being suspected of worse, which is why Moses, unlike David, asked that his sin be recorded explicitly.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "Tosefta",
-          "teachers",
-          "communal sin",
-          "chilul Hashem"
+          "confession",
+          "re-confession",
+          "moses-and-david",
+          "detailing-sin",
+          "chilul-hashem"
         ],
         review: "draft"
       }
