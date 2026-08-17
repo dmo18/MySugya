@@ -178915,7 +178915,7 @@ const DAF_CONTENT = {
   "80a": {
     canonicalRef: "Yoma 80a",
     daf: "80a",
-    summary: "Tractate Yoma daf 80a covers: All Torah eating measures are egg-bulk; the date-bulk is unique to Yom Kippur; Where is the YK eating measure derived? Gezerah shavah from matzah; Drinking measure on YK: a cheekful (male'o lugmav); how it is derived.",
+    summary: "Tractate Yoma daf 80a covers: All Torah eating measures are olive-bulk, except impurity and Yom Kippur; Yom Kippur's exception is the date-bulk; The egg-bulk measure for food impurity is derived by throat capacity; a forbidden-fat amount should be recorded against a future court revising the measure, since such measures are a Sinaitic tradition; Drinking measure on YK: a cheekful (male'o lugmav); how it is derived.",
     sugyot: [
       {
         id: "yoma-080a-s01",
@@ -179032,14 +179032,14 @@ const DAF_CONTENT = {
           endVilnaLine: 31
         },
         display: {
-          whats: "Where is the YK eating measure derived? Gezerah shavah from matzah",
+          whats: "Egg-bulk derived for food impurity by throat capacity; forbidden fat amounts recorded; measures as Sinaitic tradition",
           hint: "How does the Gemara derive that the impurity of foods is measured by an egg's bulk, why must someone who unwittingly ate forbidden fat record the exact amount, and why does the Gemara conclude that these measures are a received tradition from Sinai rather than a later enactment?",
-          title: "Deriving the YK Eating Measure by Gezerah Shavah"
+          title: "The Egg-Bulk Measure for Food Impurity"
         },
         learning: {
           ahaMoment: "The egg-bulk measure for a food's impurity is not the general Torah default (olive-bulk) but a targeted correction the Sages drew from a doubled biblical phrase; and once such measures are grounded in oral Sinaitic tradition rather than freely deducible from the verse, an individual's own exact record of what he ate becomes indispensable insurance against a future court raising the liability threshold.",
           memoryAnchor: "Egg-bulk for food-impurity: derived from the doubled root 'food which may be eaten, food that comes from food,' pinned down by what the throat holds at once. Measures like this trace to Sinai, later forgotten and restored, not invented - so a forgotten fat-amount matters.",
-          learnerQuestion: "How does the Gemara derive the specific eating measure for Yom Kippur liability?",
+          learnerQuestion: "How does the Gemara arrive at the egg-bulk measure for food impurity, and why should someone record exactly how much forbidden fat he ate?",
           coreTension: "Between wanting a single verse to settle an exact quantity and the Gemara's repeated need to narrow an open-ended derivation (kid vs. egg, giant egg vs. tiny egg) until only the throat's real capacity decides it.",
           coreMove: "The Gemara works through candidate readings of the doubled phrase 'food which may be eaten, food that comes from food' until only a chicken's egg survives as the measure for a food's impurity, then generalizes: since such measures are themselves an ancient Sinaitic tradition (later forgotten and restored by the prophets, not newly legislated), a person who unwittingly ate forbidden fat should record the exact amount, since a future court could still revise the operative threshold.",
           takeaway: {
@@ -179224,10 +179224,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of gezerah shavah context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "Learners think 'measures and punishments are from Sinai' means the punishments themselves were orally transmitted.",
@@ -179238,7 +179235,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "Where is the YK eating measure derived? Gezerah sh"
+            item: "Egg-bulk derived for food impurity by throat capacity; forbidden-fat amount recorded against a future court raising the measure"
           }
         ],
         quizSeeds: [
@@ -179255,14 +179252,15 @@ const DAF_CONTENT = {
             answer: "Because a prophet may introduce nothing new, the measures must have originated at Sinai. Over time they were forgotten, and the court of Jabez and the prophets reestablished them, so Jabez restored rather than invented the measures."
           }
         ],
-        finalRuling: "The Gemara derives the YK eating measure through a gezerah shavah (analogical derivation) linking the word 'eating' in the YK verse to the eating proh",
+        finalRuling: "The accepted egg-bulk measure for the impurity of foods follows Rabbi Abbahu's criterion: the amount the throat holds at once. Practically, one who unwittingly ate forbidden fat should record the exact amount eaten, since a future court could raise the liability threshold; the halachic measures themselves are treated as an ancient Sinaitic tradition, later forgotten and restored rather than newly enacted.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "gezerah shavah",
-          "YK eating measure",
-          "matzah",
-          "scriptural derivation"
+          "egg-bulk",
+          "food-impurity",
+          "measures",
+          "sinai-tradition",
+          "forbidden-fat"
         ],
         review: "draft"
       },
