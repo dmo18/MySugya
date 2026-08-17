@@ -163,20 +163,20 @@
    ],
    "display": {
     "whats": "Children in danger of death: we violate YK to save them",
-    "hint": "If a child's life is at risk on Yom Kippur, the day's prohibitions are violated to save the child - saving life overrides the fast.",
+    "hint": "The Mishnah says a feeble child trains one year and a healthy child two years before maturity - how does this fit Rav Huna and Rav Nachman's view that this is completing the rabbinic fast, how does Rabbi Yochanan (who denies any such obligation) read the same words, and what settles whether 'training' means delaying a meal or completing the whole fast?",
     "title": "Saving a Child's Life Overrides Yom Kippur"
    },
    "learning": {
-    "ahaMoment": "Developmental exemptions and life-value are separate questions: exempting children from obligations says nothing about how much their lives matter.",
-    "memoryAnchor": "A child's life overrides YK just like an adult's: exemption from fasting never means lesser life-value.",
+    "ahaMoment": "'Training' is not one practice but two: for a young child it means pushing back mealtime by an hour, for an older child nearing maturity it means completing the entire fast - the same word covers both, and untangling them is what saves Rav Huna and Rav Nachman's reading from Rabba bar Shmuel's baraita.",
+    "memoryAnchor": "One year (feeble) or two years (healthy) before maturity: for Rav Huna/Rav Nachman this is rabbinic completion of the fast; for Rabbi Yochanan (no completion obligation) it marks how much earlier training itself begins. Training splits in two: delay a young child's meal, or have an older child finish the whole fast.",
     "learnerQuestion": "Does saving a child's life override the Yom Kippur prohibitions?",
-    "coreTension": "Between the exemption of minors from YK obligations (making it seem like their life should be treated differently) and the universal principle of pikuach nefesh.",
-    "coreMove": "The Gemara rules that saving a child's life fully overrides YK's prohibitions, just as for an adult. The minor's exemption from fasting is a developmental accommodation, not a lesser status: their life is equally precious and pikuach nefesh applies without distinction.",
+    "coreTension": "Between a single Mishnaic phrase ('one year or two years') and three different accounts of what it obligates, complicated further by two different things 'training' itself could mean.",
+    "coreMove": "The Gemara tests 'one year or two years' against three views: for Rav Huna and Rav Nachman, who hold a child fully completes the fast one (feeble) or two (healthy) years before maturity by rabbinic law, the phrase fits directly. For Rabbi Yochanan, who denies any such completion obligation, the same phrase instead marks how much earlier training begins for a feeble versus a healthy child. A baraita from Rabba bar Shmuel then threatens Rav Huna and Rav Nachman's reading by using 'training' language for what looks like the same one/two-year distinction; they resolve it by distinguishing two senses of training - delaying a young child's mealtime by an hour, versus having an older child actually complete the fast.",
     "takeaway": {
      "type": "legal_principle",
-     "text": "Pikuach nefesh (saving life) applies equally to minors and adults on Yom Kippur; a child's developmental exemption from fasting obligations does not diminish the value of their life for purposes of overriding the day's prohibitions."
+     "text": "The word 'training' covers two distinct practices - delaying a young child's meal versus having an older child complete the whole fast - and keeping them apart is what lets the Mishnah's 'one year or two years' support three different halachic readings without contradiction."
     },
-    "learningBlocker": "Students may confuse the minor's exemption from fasting with a lesser legal status; the Gemara explicitly treats their life as equally protected by pikuach nefesh."
+    "learningBlocker": "Students may assume 'training a child to fast' is a single, uniform practice; the sugya turns on there being two genuinely different things called 'training' at different ages, which is exactly what lets Rav Huna and Rav Nachman answer Rabba bar Shmuel's baraita without abandoning their view."
    },
    "argumentFlow": [
     {
@@ -447,20 +447,20 @@
    ],
    "display": {
     "whats": "Pikuach nefesh (saving life) overrides all of Yom Kippur",
-    "hint": "The principle of pikuach nefesh (saving human life) overrides Yom Kippur's prohibitions - we violate the day to preserve life.",
+    "hint": "Where does the Torah teach that one must give his life rather than commit murder or forbidden relations, and how does the verse comparing rape to murder teach a lesson in both directions - permitting a pursuer to be killed to save a victim, and requiring a would-be murderer to die rather than kill?",
     "title": "Pikuach Nefesh Overrides Yom Kippur"
    },
    "learning": {
-    "ahaMoment": "'The Torah was given to live by' - pikuach nefesh is not an exception to Torah but its clearest expression. Life-preservation is what the Torah is for.",
-    "memoryAnchor": "Pikuach nefesh: 'live by them' - preserving life fulfills Torah, it does not violate it.",
+    "ahaMoment": "The verse ostensibly explains rape by comparing it to murder, but the real novelty runs the other way: it uses the settled case (a victim may be saved by killing her attacker) to establish an unstated one (a person must let himself be killed rather than commit murder).",
+    "memoryAnchor": "Deuteronomy 22:26 compares rape to murder: 'as when a man rises against his fellow and slays him.' Direction one: a betrothed woman may be saved by killing her attacker. Direction two, the real teaching: one must submit to death rather than commit murder - and the same for forbidden relations.",
     "learnerQuestion": "What is the legal basis for pikuach nefesh overriding the Yom Kippur prohibitions?",
-    "coreTension": "Between the severity of YK (it carries karet for intentional violation) and the sweeping rule that life-saving overrides it.",
-    "coreMove": "The Gemara establishes the principle: the Torah was given to live by, not to die by. Every prohibition exists within a framework that values life. When life is threatened, the Torah itself authorizes - and even requires - its own override. Pikuach nefesh is not an exception to Torah but an expression of it.",
+    "coreTension": "Between reading the verse as merely explaining the law of the betrothed woman by analogy to murder, and recognizing that its real, unstated purpose is to derive a law about murder itself from that comparison.",
+    "coreMove": "Rabbi Yehuda HaNasi derives from Deuteronomy 22:26 - which likens the rape of a betrothed woman to murder - that one must give his life rather than commit murder or forbidden relations. The verse appears to explain the betrothed woman's case using the already-known law of murder (a victim may be saved by killing the attacker), but the Gemara reads the comparison as running in the other, more novel direction as well: just as one may kill a pursuer to save the woman, so one may kill a pursuer to save a murder victim; and just as forbidden relations require submitting to death rather than transgressing, so does murder.",
     "takeaway": {
      "type": "legal_principle",
-     "text": "Pikuach nefesh overrides YK prohibitions because the Torah was given for life; violating a prohibition to preserve life fulfills the Torah's purpose rather than transgressing it."
+     "text": "A single verse comparing rape to murder yields laws in both directions: a pursuer may be killed to save either victim, and one must submit to death rather than commit either murder or forbidden relations - the murder half is the verse's real novelty, not merely borrowed for context."
     },
-    "learningBlocker": "Students may feel that overriding YK is a reluctant concession; the Gemara reframes it as an affirmative expression of Torah values."
+    "learningBlocker": "Students may read the verse as simply illustrating the betrothed woman's case with a familiar murder analogy; the sugya's point is that the comparison teaches something new about murder itself (die rather than kill), not just about rape."
    },
    "argumentFlow": [
     {
