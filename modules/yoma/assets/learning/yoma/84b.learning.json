@@ -78,10 +78,7 @@
     "danger"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of tzefardea context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The Rabbis reject all three of Rabbi Matya ben Charash's rulings.",
@@ -92,7 +89,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Proof that tzefardea is dangerous (the Rabba bar S"
+     "item": "Proof that tzefardea is dangerous (the Rabba bar S"
     }
    ],
    "quizSeeds": [
@@ -109,7 +106,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of tzefardea context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -224,10 +225,7 @@
     "placement distinction"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of throat medicine context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "One should delay treatment to avoid desecrating two Shabbatot.",
@@ -238,7 +236,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Throat pain: medicine placed inside the mouth, not"
+     "item": "Throat pain: medicine placed inside the mouth, not"
     }
    ],
    "quizSeeds": [
@@ -255,7 +253,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of throat medicine context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -389,10 +391,7 @@
     "life-preservation mitzva"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of Tosefta context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "One must consult a court before desecrating Shabbat to save a life.",
@@ -403,7 +402,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Tosefta: engaging in life-preserving activities on"
+     "item": "Tosefta: engaging in life-preserving activities on"
     }
    ],
    "quizSeeds": [
@@ -420,7 +419,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of Tosefta context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -555,10 +558,7 @@
     "danger"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of Shmuel context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Since most of a mixed group is gentile, one need not desecrate Shabbat to dig out a buried individual.",
@@ -569,7 +569,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Rav Yosef citing Rav Yehuda citing Shmuel: rulings"
+     "item": "Rav Yosef citing Rav Yehuda citing Shmuel: rulings"
     }
    ],
    "quizSeeds": [
@@ -586,7 +586,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of Shmuel context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   }
  ],
  "glossary": [],
