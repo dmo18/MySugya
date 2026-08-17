@@ -11,9 +11,7 @@
  "independentReviewRequired": true,
  "reviewPolicy": "independent",
  "escalationModel": "sonnet",
- "authorizations": [
-  "allowStructure"
- ],
+ "authorizations": [],
  "maxBatch": 1,
  "allowedFiles": [
   "modules/<module>/assets/learning/<module>/<daf>.learning.json",
@@ -80,8 +78,7 @@
  "scaffoldDebt": null,
  "repetitionDrain": null,
  "auditRecordIds": [
-  "yoma-087b-s01",
-  "yoma-087b-s02"
+  "yoma-087b-s03"
  ],
  "migrationKinds": []
 }
