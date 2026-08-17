@@ -198680,20 +198680,20 @@ const DAF_CONTENT = {
         },
         display: {
           whats: "Rav went to appease R. Hiyya; R. Hiyya refused; the appeasement story",
-          hint: "The Gemara tells the story of Rav going to R. Hiyya (his uncle) to seek appeasement after having offended him. R. Hiyya repeatedly refused to be appeased, and Rav ultimately left. The story illustrate...",
+          hint: "Whom did Rav actually offend by not restarting his Torah reading, and why did that person refuse to forgive him despite thirteen years of repeated attempts?",
           title: "Rav Seeks Appeasement from R. Hiyya"
         },
         learning: {
-          ahaMoment: "Real repair requires both parties: Rav's persistence shows that appeasement is not a speech act - it is a relational process that only completes when the other person accepts.",
-          memoryAnchor: "Rav went to R. Hiyya again and again: persistence is part of the appeasement obligation, not just one attempt.",
+          ahaMoment: "A refusal to forgive can itself be an act of care in disguise: Rabbi Chanina withholds forgiveness not from spite but because he has seen that letting Rav stay would cost Rav, and eventually the Jewish community in Babylonia, the leadership Rav is destined for.",
+          memoryAnchor: "Rav restarted his reading for Rabbi Chiyya, Bar Kappara, and Rabbi Shimon son of Rabbi, but not for Rabbi Chanina bar Chama, who arrived last. Chanina, offended, refused Rav's appeasement for thirteen years, because his dream showed Rav destined to lead, and two heads cannot share one place.",
           learnerQuestion: "What does the story of Rav seeking appeasement from his uncle R. Hiyya teach about the practice of interpersonal repair?",
-          coreTension: "Between the principle (you must appease the person you wronged) and the reality of what happens when the wronged person refuses or is unavailable to accept the apology.",
-          coreMove: "The story records that Rav went to R. Hiyya multiple times to seek appeasement. R. Hiyya's initial refusal raises the question: does one failed attempt satisfy the obligation? The Gemara's account of multiple attempts illustrates that genuine appeasement requires persistence, not just a single formulaic approach.",
+          coreTension: "Between the halachic rules that cap appeasement at three requests and hold that forgoing one's honor earns forgiveness of all one's own sins, and the fact that Rabbi Chanina, an exceptionally pious sage, neither limited Rav's attempts nor accepted his apology.",
+          coreMove: "The Gemara first raises two objections: how could Rav exceed the three-attempt limit, and how could the pious Rabbi Chanina refuse an apology when forgiving is itself rewarded? It resolves both by revealing Rabbi Chanina's hidden reasoning: he had dreamed that Rav was destined to become a head of a yeshiva, and since two leaders cannot hold the same position at once, he deliberately withheld forgiveness so that Rav would leave for Babylonia and found a yeshiva there, fulfilling the dream without displacing Chanina.",
           takeaway: {
             type: "conceptual",
-            text: "The story of Rav and R. Hiyya illustrates that the appeasement obligation requires genuine effort and persistence; a single refused attempt does not complete the obligation, and the wronged person's acceptance - not just the sinner's approach - is part of the process."
+            text: "An apparent violation of halachic norms, such as refusing an apology or exceeding the standard limit on seeking forgiveness, can conceal a deeper, more considered motive that the Gemara insists on uncovering rather than leaving unexplained."
           },
-          learningBlocker: "Students may assume one sincere apology completes the obligation; the story shows that the wronged person's reception is also part of the halakhic account."
+          learningBlocker: "Students may assume Rabbi Chanina is Rabbi Chiyya, since Chiyya appears earlier in the story as one of the scholars for whom Rav restarted; Chiyya is not the offended party. They may also miss that Chanina's refusal is deliberate and purposeful, not simple stubbornness."
         },
         lines: [
           { id: "yoma-087b-l01", kind: "gemara", he: "אֲתָא רַבִּי חִיָּיא — הֲדַר לְרֵישָׁא. עֲיַיל בַּר קַפָּרָא\n— הֲדַר לְרֵישָׁא. אֲתָא רַבִּי שִׁמְעוֹן בְּרַבִּי — הֲדַר לְרֵישָׁא.\nאֲתָא רַבִּי חֲנִינָא (בַּר) חָמָא, אָמַר: כּוּלֵּי הַאי\nנֶהְדַּר וְנֵיזִיל? לָא הֲדַר. אִיקְּפִיד רַבִּי חֲנִינָא, אֲזַל רַב\nלְגַבֵּיהּ תְּלֵיסַר מַעֲלֵי יוֹמֵי דְּכִפּוּרֵי וְלָא אִיפַּיַּיס.",
@@ -198805,20 +198805,20 @@ const DAF_CONTENT = {
         },
         display: {
           whats: "Main mitzva of vidui (confession) is on Yom Kippur; also recited at Minha in case something happens",
-          hint: "The primary performance of vidui (verbal confession) on Yom Kippur is at the Minha prayer. If a person recited vidui at Minha but dies before YK, they have fulfilled the mitzva. Vidui is also recited ...",
+          hint: "When is the core mitzva of Yom Kippur confession performed, and why do the Sages add still more occasions for confessing throughout the day?",
           title: "Vidui: Primary at Minha, Optional Earlier"
         },
         learning: {
-          ahaMoment: "The Minha timing is practical wisdom: if something goes wrong at the pre-fast meal, the confession was already made. The timing protects the person against the risk of dying un-confessed.",
-          memoryAnchor: "Vidui primary at Minha on Erev YK: timed before the meal to ensure confession is completed even if something goes wrong.",
+          ahaMoment: "One confession isn't insurance enough: the Sages layer confession at multiple points, before the last meal, after it, and at every prayer of the day, precisely because so many things could still go wrong between one confession and Yom Kippur's actual close.",
+          memoryAnchor: "Core vidui: nightfall, as Yom Kippur begins. Sages add: before the pre-fast meal, lest the meal confuse the mind, again after it, and again at every prayer, evening through ne'ila.",
           learnerQuestion: "When is the primary time for the vidui (confession) on Yom Kippur, and is it permitted to confess earlier?",
-          coreTension: "Between the primary time for vidui (Minha, the afternoon prayer of Erev YK) and the permissibility of confessing earlier in the day, during other prayers or at other times.",
-          coreMove: "The Gemara establishes that the primary mitzvah of vidui on YK is fulfilled at Minha (so that if something happens at the meal before YK the confession has been made), but earlier confession is also valid and the Gemara records that it was recited at multiple prayer times.",
+          coreTension: "Between the single, formally required moment of confession, nightfall as Yom Kippur begins, and the Sages' insistence on adding confession at several other points before and during the day.",
+          coreMove: "The baraita establishes the core mitzva of confession at nightfall, when Yom Kippur begins. The Sages then add a confession before the final pre-fast meal, out of concern that eating and drinking might impair the person's mind afterward, and a further confession after that meal in case something went wrong during it. Confession then recurs at every subsequent prayer of the day, evening, morning, musaf, mincha, and ne'ila, each building on the last.",
           takeaway: {
             type: "legal_principle",
-            text: "The primary time for YK vidui is Minha on Erev YK, timed to precede the final meal so that confession has been made even if something goes wrong at the meal; earlier recitation is also valid and practiced."
+            text: "The core requirement to confess on Yom Kippur is met at nightfall, but the Sages layer additional confessions around it, before and after the final pre-fast meal and at every prayer of the day, treating one confession as a floor rather than a ceiling."
           },
-          learningBlocker: "Students may assume all confessions are equivalent regardless of timing; the Gemara's attention to the Minha timing reveals a specific concern about ensuring the confession is made before the meal."
+          learningBlocker: "Students may assume Minha is somehow the primary or required time for vidui; the Gemara's actual primary time is nightfall as Yom Kippur begins, and Minha is only one of several recurring confession points during the day."
         },
         lines: [
           { id: "yoma-087b-l15", kind: "gemara", he: "תָּנוּ רַבָּנַן: מִצְוַת וִידּוּי עֶרֶב יוֹם הַכִּפּוּרִים עִם חֲשֵׁכָה. אֲבָל\nאָמְרוּ חֲכָמִים: יִתְוַדֶּה קוֹדֶם שֶׁיֹּאכַל וְיִשְׁתֶּה,\nשֶׁמָּא תִּטָּרֵף דַּעְתּוֹ בִּסְעוּדָה. וְאַף עַל פִּי שֶׁהִתְוַדָּה\nקוֹדֶם שֶׁאָכַל וְשָׁתָה — מִתְוַדֶּה לְאַחַר שֶׁיֹּאכַל\nוְיִשְׁתֶּה, שֶׁמָּא אֵירַע דְּבַר קַלְקָלָה בַּסְּעוּדָה.\nוְאַף עַל פִּי שֶׁהִתְוַדָּה עַרְבִית — יִתְוַדֶּה שַׁחֲרִית.\nשַׁחֲרִית — יִתְוַדֶּה בְּמוּסָף, בְּמוּסָף — יִתְוַדֶּה בְּמִנְחָה,\nבְּמִנְחָה — יִתְוַדֶּה בִּנְעִילָה.",
