@@ -77,10 +77,7 @@
     "permitted food first"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of bulmos context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "On Shabbat one simply feeds the ill person untithed produce since tithing is forbidden.",
@@ -91,7 +88,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Rabba: if possible, satisfy bulmos with non-forbid"
+     "item": "Rabba: if possible, satisfy bulmos with non-forbid"
     }
    ],
    "quizSeeds": [
@@ -108,7 +105,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of bulmos context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -318,10 +319,7 @@
     "treatment priority"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of bulmos context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Honey is fed to a bulmos sufferer first because it immediately restores sight.",
@@ -332,7 +330,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Two sages' approaches to treating bulmos; the prin"
+     "item": "Two sages' approaches to treating bulmos; the prin"
     }
    ],
    "quizSeeds": [
@@ -349,7 +347,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of bulmos context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -503,10 +505,7 @@
     "practical incident"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of bulmos context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Rabbi Meir taught that a person's name conclusively reveals his character.",
@@ -517,7 +516,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "R. Meir and R. Yehuda's incident with a student wh"
+     "item": "R. Meir and R. Yehuda's incident with a student wh"
     }
    ],
    "quizSeeds": [
@@ -534,7 +533,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of bulmos context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -611,10 +614,7 @@
     "YK override"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of mad dog context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "The five signs are mere folklore with no halachic consequence.",
@@ -625,7 +625,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Mad dog bite on Yom Kippur: danger overrides YK"
+     "item": "Mad dog bite on Yom Kippur: danger overrides YK"
     }
    ],
    "quizSeeds": [
@@ -642,7 +642,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of mad dog context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   }
  ],
  "glossary": [],
