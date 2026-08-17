@@ -197026,9 +197026,9 @@ const DAF_CONTENT = {
           endVilnaLine: 1
         },
         display: {
-          whats: "Going willingly to die vs. against will: a halachic distinction",
+          whats: "Rava's self-caution before sitting in judgment, and his and Rav Zutra's warnings against the danger of public honor",
           hint: "What does Rava say about his own mortality before sitting in judgment, and what lesson does he draw when a crowd follows him in honor?",
-          title: "Willing vs. Forced Death: A Halakhic Distinction"
+          title: "Rava's Self-Admonition Before Judging"
         },
         learning: {
           ahaMoment: "Rava treats the anxiety of judging as itself protective: naming the risk of ruling wrongly keeps him humble, and when honor follows him instead, he reaches for the same kind of caution.",
@@ -197065,10 +197065,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of willing vs. coerced context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "The Sages embraced the public honor that came with their authority.",
@@ -197080,7 +197077,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "Going willingly to die vs. against will: a halachi"
+            item: "Rava's self-admonition before judging and his warning against the danger of honor"
           }
         ],
         quizSeeds: [
@@ -197093,13 +197090,15 @@ const DAF_CONTENT = {
             answer: "That judging is grave and perilous: a judge who errs is liable to Heaven, earns no pay, and neglects his household. They approached the role with humility and fear rather than a sense of honor."
           }
         ],
-        finalRuling: "The Gemara discusses whether a person who goes willingly to death is treated differently halachically than one forced against their will.",
+        finalRuling: "Before judging, Rava reminds himself of the gravity and personal risk of the task; when honored by a crowd instead, he and Rav Zutra each apply a verse cautioning that unchecked honor, like power, does not last and can lead to downfall.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "willing vs. coerced",
-          "halachic distinction",
-          "death"
+          "rava",
+          "danger-of-honor",
+          "judging",
+          "self-admonition",
+          "rav-zutra"
         ],
         review: "draft"
       },
@@ -197115,9 +197114,9 @@ const DAF_CONTENT = {
           endVilnaLine: 26
         },
         display: {
-          whats: "YK does not atone without appeasement of the one wronged; need to ask forgiveness directly",
+          whats: "This-worldly honor for the wicked and this-worldly punishment for the righteous, and how merit and guilt extend to descendants and to communal leaders",
           hint: "Why does the Gemara treat being honored in this world as bad news for a wicked person like Ahab, and being punished here as good news for a righteous person like Moses?",
-          title: "YK Does Not Atone Without Appeasing the Wronged Person"
+          title: "Honor and Punishment in This World"
         },
         learning: {
           ahaMoment: "Reward and punishment aren't simply about fairness in this life, they function as an accounting mechanism: this-worldly consequences settle a person's account early, for better or worse, changing what remains for the World to Come.",
@@ -197222,10 +197221,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of appeasement context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "Worldly honor and ease for the wicked signal God's favor.",
@@ -197237,7 +197233,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "YK does not atone without appeasement of the one w"
+            item: "The this-worldly honor/punishment reversal for the wicked and righteous, extended to descendants and communal leaders"
           }
         ],
         quizSeeds: [
@@ -197250,14 +197246,15 @@ const DAF_CONTENT = {
             answer: "One who brings the public merit is protected from sin, so he won't be in Gehenna while his students are in Eden. One who causes the public to sin is barely allowed to repent, so he won't be in Eden while his students are in Gehenna."
           }
         ],
-        finalRuling: "The verse 'it is not good to respect the person of the wicked' is applied: YK does not atone for interpersonal sins unless the wrongdoer has gone dire",
+        finalRuling: "This-worldly honor is bad for the wicked, since it forfeits their World to Come, while this-worldly punishment is good for the righteous, since it preserves theirs; this same principle of earned protection or earned liability extends to a person's descendants and to those who influence the public for merit or for sin.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "appeasement",
-          "YK atonement",
-          "interpersonal sin",
-          "direct apology"
+          "ahab",
+          "moses",
+          "merit-and-descendants",
+          "communal-leaders",
+          "this-worldly-punishment"
         ],
         review: "draft"
       },
@@ -197273,9 +197270,9 @@ const DAF_CONTENT = {
           endVilnaLine: 33
         },
         display: {
-          whats: "Yom Kippur atones for sins against God; does NOT atone for sins against another person",
+          whats: "The Mishnah's doubled 'I will sin and repent' phrase, and why relying on Yom Kippur in advance forfeits its atonement even according to Rabbi's lenient view",
           hint: "Why does the Mishnah state 'I will sin and repent' twice, and how does the Gemara reconcile its ruling that reliance on Yom Kippur cancels atonement with Rabbi's own view that Yom Kippur atones even without repentance?",
-          title: "YK Atones for God-Directed Sins Only"
+          title: "Exploiting Repentance or Yom Kippur Forfeits Atonement"
         },
         learning: {
           ahaMoment: "Planning to exploit forgiveness is what disqualifies it, not the sin itself: the same repentance or the same Yom Kippur that would otherwise atone loses its power specifically when it is being used in advance as a license.",
@@ -197329,10 +197326,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of sins against God context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "Since Rabbi holds Yom Kippur atones even without repentance, it must atone even for one who sins counting on it.",
@@ -197344,7 +197338,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "Yom Kippur atones for sins against God; does NOT a"
+            item: "The Mishnah's doubled sin-and-repent phrase and the advance-reliance exception to atonement"
           }
         ],
         quizSeeds: [
@@ -197357,13 +197351,15 @@ const DAF_CONTENT = {
             answer: "Yes. Even Rabbi concedes that when someone sins specifically in reliance on Yom Kippur, the atonement is forfeited. Treating atonement as a license to sin cancels it."
           }
         ],
-        finalRuling: "Yom Kippur's atonement covers sins between a person and God directly; but sins between one person and another require direct appeasement before YK can",
+        finalRuling: "Repentance and Yom Kippur's atonement are both forfeited specifically when a person plans in advance to rely on them as a license to sin; even Rabbi, who otherwise holds Yom Kippur atones without repentance, agrees that this advance reliance cancels the atonement.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "sins against God",
-          "sins against people",
-          "YK scope"
+          "repeated-sin",
+          "reliance-on-atonement",
+          "rabbi-lenient-view",
+          "mishnah",
+          "yom-kippur-atonement"
         ],
         review: "draft"
       },
@@ -197379,9 +197375,9 @@ const DAF_CONTENT = {
           endVilnaLine: 37
         },
         display: {
-          whats: "YK atones for communal sins between people toward God",
+          whats: "Rav Yosef bar Chavu's challenge that a verse implies prayer alone forgives a sin against a person, and Rabbi Abbahu's two-stage resolution",
           hint: "How does Rabbi Abbahu answer Rav Yosef bar Chavu's challenge that a verse about prayer contradicts the rule that sins against a person are not atoned without appeasing that person?",
-          title: "Communal Sins With a Godward Dimension"
+          title: "Prayer and Appeasement for a Sin Against a Person"
         },
         learning: {
           ahaMoment: "The same Hebrew root can mean 'judge' in one half of a verse and 'forgive through prayer' in the other, and choosing between those meanings is what lets Rabbi Abbahu preserve both the Mishnah's rule and the verse's authority.",
@@ -197435,10 +197431,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of communal sin context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "Prayer to God alone can secure forgiveness for hurting another person.",
@@ -197450,7 +197443,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "YK atones for communal sins between people toward "
+            item: "Rav Yosef bar Chavu's challenge and Rabbi Abbahu's two-stage rereading of the verse's two clauses"
           }
         ],
         quizSeeds: [
@@ -197463,13 +197456,15 @@ const DAF_CONTENT = {
             answer: "For a sin against another person, one must appease the victim, after which God forgives. For a sin against God, repentance and good deeds suffice. In this reading the root pll means forgiveness."
           }
         ],
-        finalRuling: "Certain communal or relational sins that have a Godward dimension can be atoned by YK without individual appeasement.",
+        finalRuling: "A sin against a person is not forgiven through prayer alone; Rabbi Abbahu reads the verse's clause about a sin against a person as requiring the victim's appeasement, while its second clause, about a sin against God, refers to repentance and good deeds rather than prayer.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "communal sin",
-          "Godward relational sin",
-          "YK atonement"
+          "rav-yosef-bar-chavu",
+          "rabbi-abbahu",
+          "appeasement",
+          "prayer",
+          "verse-interpretation"
         ],
         review: "draft"
       },
