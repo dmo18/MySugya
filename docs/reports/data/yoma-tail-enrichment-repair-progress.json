@@ -804,13 +804,13 @@
    "blockerReason": null
   },
   "yoma-087a-s05": {
-   "status": "FIXED_PENDING_REVIEW",
-   "prNumber": null,
+   "status": "APPROVED_PENDING_MERGE",
+   "prNumber": 546,
    "repairCommit": "4489149",
    "mergedCommit": null,
    "version": "15.545",
-   "reviewer": null,
-   "independentReviewResult": null,
+   "reviewer": "independent-general-purpose-agent",
+   "independentReviewResult": "APPROVED: reviewed PR #546 against origin/main via a full JSON field-by-field comparison of 87a.learning.json and learning_data.js. The new finalRuling ('One who has caused verbal hurt must appease the offended party directly, using up to three attempts each made before three witnesses; after three attempts the offended party is expected to relent, and if the wronged party has died first, the offender brings ten people to the grave and confesses there instead.') is complete, properly terminated, and neither equal to nor a prefix of display.hint, replacing the prior truncated fragment. Cross-checked against modules/yoma/assets/daftexts/87a.txt lines 38-51 and the sugya's own argumentFlow (step-01 Rabbi Yitzchak's verbal-slight rule, step-02 Rav Chisda's three-rows-of-three procedure, step-03 Rabbi Yosei bar Chanina's three-attempt cap with grave-visit fallback): the ruling accurately synthesizes these without fabrication. Confirmed finalRuling is the only field that changed on yoma-087a-s05 (all of display.*, learning.*, argumentFlow, topicTags, visualizableElements, requiresUnderstanding, prerequisiteKnowledge, quizSeeds, misconceptions byte-identical to main); the daf-level summary and sibling sugyot s01-s04 are byte-identical to main (deliberately deferred, per the PR description, since summary is only authorized via s01-s04's own affectedFields which already merged in PR #545 without touching it). .worker-manifest.json confirms type audited-sugya-enrichment-repair, targets [\"87a\"], auditRecordIds [\"yoma-087a-s05\"]. No em/en dashes introduced. Progress-file walk (NOT_STARTED -> IN_PROGRESS -> FIXED_PENDING_REVIEW) verified across the PR's commits, touching only this record.",
    "blockerReason": null
   },
   "yoma-088a-s02": {
