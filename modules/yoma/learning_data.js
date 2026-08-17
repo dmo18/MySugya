@@ -188698,14 +188698,14 @@ const DAF_CONTENT = {
           endVilnaLine: 39
         },
         display: {
-          whats: "Tzefardea (snake-related illness): what it is, its symptoms, its danger",
+          whats: "Tzefidna, a gum ailment that spreads to the intestines, justifies treatment on Shabbat",
           hint: "Why does Rabbi Yochanan treat tzefidna (a gum ailment from eating hot bread) as an emergency that overrides Shabbat, and whose halachic authority did he rely on?",
-          title: "Tzefardea: A Dangerous Illness"
+          title: "Tzefidna: A Gum Ailment That Overrides Shabbat"
         },
         learning: {
           ahaMoment: "Tzefidna looks like a purely local, minor problem, but the Gemara insists on tracing where it actually leads: because it spreads from the mouth to the intestines, treating it is a real case of pikuach nefesh, not a lenient stretch of Shabbat law.",
           memoryAnchor: "Tzefidna: starts in the gums (hot bread and oily fish), spreads to the intestines, genuinely dangerous. Rabbi Yochanan's mouth-medicine treatment on Shabbat rests not on a lone minority view but on Sages who agreed with Rabbi Matya specifically on this point.",
-          learnerQuestion: "What is tzefardea and why does the Gemara treat it as a dangerous condition that overrides Yom Kippur?",
+          learnerQuestion: "Why is treating tzefidna on Shabbat not merely a lenient minority position, and what makes the illness life-threatening?",
           coreTension: "Between a symptom that looks confined to the mouth and the actual medical trajectory of the disease, which determines whether treating it on Shabbat is a genuine life-saving act or an unwarranted leniency.",
           coreMove: "Rav Nachman bar Yitzchak explains that tzefidna, though it presents in the gums, descends into the intestines and becomes life-threatening, justifying Rabbi Yochanan's Shabbat treatment. Rav Chiyya bar Abba then presses whether Rabbi Yochanan was relying on Rabbi Matya ben Charash's minority leniency, and Rabbi Yochanan clarifies that the Sages actually agreed with Rabbi Matya specifically about mouth medicine, so it isn't a minority position here. A supporting baraita listing Rabbi Matya's other remedies (donkey meat for yerakon, a dog's liver lobe for a dog bite, mouth medicine) is then narrowed: the Rabbis' rejection of 'these' as ineffective is shown to exclude a different remedy, bloodletting for serunkhi, which everyone agrees works.",
           takeaway: {
@@ -188805,10 +188805,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of tzefardea context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "Tzefidna is a minor gum problem, so Rabbi Yochanan relied on a lone lenient opinion.",
@@ -188819,7 +188816,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "Tzefardea (snake-related illness): what it is, its"
+            item: "Tzefidna spreads from the gums to the intestines, becoming life-threatening and justifying Shabbat treatment"
           }
         ],
         quizSeeds: [
@@ -188832,14 +188829,15 @@ const DAF_CONTENT = {
             answer: "It excludes a remedy the Rabbis accept - bloodletting for serunkhi on Shabbat - distinguishing it from the remedies they consider ineffective."
           }
         ],
-        finalRuling: "The Gemara discusses 'tzefardea,' a serious illness apparently related to snake or frog venom, describing its symptoms and confirming that it is life-",
+        finalRuling: "Tzefidna is treated on Shabbat because, though it begins in the mouth, it descends to the intestines and becomes genuinely life-threatening; this ruling reflects the Sages' agreement with Rabbi Matya ben Charash specifically on mouth medicine, not merely his individual minority view.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "tzefardea",
-          "snake illness",
-          "danger",
-          "YK override"
+          "tzefidna",
+          "shabbat-override",
+          "rabbi-matya",
+          "pikuach-nefesh",
+          "mouth-medicine"
         ],
         review: "draft"
       }
