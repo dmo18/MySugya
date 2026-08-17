@@ -1,5 +1,5 @@
 {
- "type": "gemara-learning",
+ "type": "audited-sugya-enrichment-repair",
  "module": "yoma",
  "targets": [
   "86b"
@@ -11,8 +11,10 @@
  "independentReviewRequired": true,
  "reviewPolicy": "independent",
  "escalationModel": "sonnet",
- "authorizations": [],
- "maxBatch": null,
+ "authorizations": [
+  "allowStructure"
+ ],
+ "maxBatch": 1,
  "allowedFiles": [
   "modules/<module>/assets/learning/<module>/<daf>.learning.json",
   "modules/<module>/learning_data.js",
@@ -22,35 +24,44 @@
   "package-lock.json",
   "docs/rashi-audit-backlog.md",
   "docs/<module>-perek-review.md",
+  "docs/reports/data/yoma-tail-enrichment-repair-progress.json",
   ".worker-manifest.json"
  ],
  "allowedJsonPaths": [
+  "summary",
+  "sugyot[*].display.title",
   "sugyot[*].display.whats",
   "sugyot[*].display.hint",
-  "sugyot[*].display.title",
-  "sugyot[*].learning.ahaMoment",
-  "sugyot[*].learning.memoryAnchor",
+  "sugyot[*].display.oneLine",
+  "sugyot[*].display.shortSummary",
   "sugyot[*].learning.learnerQuestion",
   "sugyot[*].learning.coreTension",
   "sugyot[*].learning.coreMove",
+  "sugyot[*].learning.resolution",
+  "sugyot[*].learning.ahaMoment",
+  "sugyot[*].learning.learningBlocker",
+  "sugyot[*].learning.memoryAnchor",
   "sugyot[*].learning.takeaway.text",
-  "sugyot[*].learning.learningBlocker"
+  "sugyot[*].finalRuling",
+  "sugyot[*].prerequisiteKnowledge[*]",
+  "sugyot[*].requiresUnderstanding[*]",
+  "sugyot[*].topicTags[*]",
+  "sugyot[*].visualizableElements[*]",
+  "sugyot[*].difficulty"
  ],
  "forbiddenFiles": [
-  ".github/workflows/*",
-  "scripts/*",
-  "modules/yoma/scripts/*.py",
-  "githooks/*",
-  "modules/yoma/scripts/allowlists/*"
+  "modules/<module>/assets/talmuddev/*",
+  "modules/<module>/assets/daftexts/*",
+  "modules/<module>/source_store.js"
  ],
- "allowlistPolicy": "forbidden",
+ "allowlistPolicy": "must-not-grow",
  "structurePolicy": "requires-authorization",
  "requiredValidators": [
-  "validate:offline:yoma"
+  "validate:offline:yoma",
+  "validate:enrichment-contracts:yoma"
  ],
  "generationCommands": [
-  "cd modules/yoma && python3 scripts/build_learning_data.py",
-  "cd modules/yoma && python3 scripts/build_literal_layer.py --apply"
+  "npm run build:yoma"
  ],
  "buildTestCommands": [
   "npm run build",
@@ -59,13 +70,19 @@
   "npm run test:browser"
  ],
  "escalationTriggers": [
-  "any change to source he/en fields would be needed",
-  "sugya boundary or id changes would be needed",
-  "schema fields not in shared/schema_map.js would be needed"
+  "a changed path is absent from the audit records' affectedFields",
+  "the source does not support the proposed replacement",
+  "a repair would require editing argumentFlow, quizSeeds or misconceptions",
+  "the removed concepts field would be repaired or recreated",
+  "target does not become enrichment-contract clean"
  ],
  "allowlistDrain": null,
  "scaffoldDebt": null,
  "repetitionDrain": null,
- "auditRecordIds": [],
+ "auditRecordIds": [
+  "yoma-086b-s02",
+  "yoma-086b-s03",
+  "yoma-086b-s05"
+ ],
  "migrationKinds": []
 }
