@@ -195609,7 +195609,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of R. Yochanan context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -195624,7 +195625,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "R. Yochanan: teshuva is so great it overrides a di"
+            item: "R. Yochanan: teshuva is so great it overrides a di"
           }
         ],
         quizSeeds: [
@@ -195732,7 +195733,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of R. Yitzchak context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -195747,7 +195749,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "R. Yitzchak: cancel your evil decree before the Ne"
+            item: "R. Yitzchak: cancel your evil decree before the Ne"
           }
         ],
         quizSeeds: [
@@ -195838,7 +195840,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of scholar context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -195853,7 +195856,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "What circumstances constitute chilul Hashem for a "
+            item: "What circumstances constitute chilul Hashem for a "
           }
         ],
         quizSeeds: [
@@ -195944,7 +195947,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of baalei teshuva context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -195959,7 +195963,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "R. Yosei bar Yehuda: baalei teshuva and their elev"
+            item: "R. Yosei bar Yehuda: baalei teshuva and their elev"
           }
         ],
         quizSeeds: [
@@ -196152,7 +196156,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of Tosefta context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -196167,7 +196172,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Tosefta on transgressing against teachers and comm"
+            item: "Tosefta on transgressing against teachers and comm"
           }
         ],
         quizSeeds: [
