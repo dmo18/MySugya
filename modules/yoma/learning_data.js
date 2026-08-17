@@ -197653,7 +197653,7 @@ const DAF_CONTENT = {
             answer: "That the wronged party - here Rav - took the initiative to seek reconciliation even when it was the offender's duty. It also shows the grave danger of refusing to be appeased: the butcher's contemptuous refusal preceded his sudden death."
           }
         ],
-        finalRuling: "Even verbal harm to another person requires direct appeasement - if someone was insulted or hurt by words alone, the speaker must go and ask forgivene",
+        finalRuling: "One who has caused verbal hurt must appease the offended party directly, using up to three attempts each made before three witnesses; after three attempts the offended party is expected to relent, and if the wronged party has died first, the offender brings ten people to the grave and confesses there instead.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
