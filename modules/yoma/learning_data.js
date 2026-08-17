@@ -188524,7 +188524,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of mad dog context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -188538,7 +188539,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Killing a mad dog; signs of madness (symptoms that"
+            item: "Killing a mad dog; signs of madness (symptoms that"
           }
         ],
         quizSeeds: [
@@ -188646,7 +188647,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of R. Matya ben Harash context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -188660,7 +188662,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "R. Matya ben Harash: throat pain on YK permits tak"
+            item: "R. Matya ben Harash: throat pain on YK permits tak"
           }
         ],
         quizSeeds: [
@@ -188802,7 +188804,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of tzefardea context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -188816,7 +188819,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Tzefardea (snake-related illness): what it is, its"
+            item: "Tzefardea (snake-related illness): what it is, its"
           }
         ],
         quizSeeds: [
