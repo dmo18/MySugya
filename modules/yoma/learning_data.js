@@ -189642,20 +189642,20 @@ const DAF_CONTENT = {
         },
         display: {
           whats: "Proof that tzefardea is dangerous (the Rabba bar Shela incident)",
-          hint: "A story about Rabba bar Shela confirms that tzefardea is a genuinely dangerous illness. A person died from it, establishing that the illness qualifies for YK override.",
+          hint: "How does Rav Ashi prove from the Mishnah's own wording, rather than from the baraita, that the Rabbis do not dispute the mouth-medicine ruling?",
           title: "Proof That Tzefardea Is Dangerous"
         },
         learning: {
-          ahaMoment: "The Gemara's evidential standard is serious: you cannot invoke pikuach nefesh on an assertion of danger - you need proof, and here a death provides it.",
-          memoryAnchor: "Rabba bar Shela incident: someone died from tzefardea. Death is the proof that grounds the legal override.",
+          ahaMoment: "What a text does NOT say can be as legally significant as what it does say: the Mishnah's silence on any rabbinic objection to the mouth-medicine ruling is itself proof of rabbinic agreement.",
+          memoryAnchor: "Rav Ashi: the Mishnah states Rabbi Matya's mouth-medicine ruling alone, with no attached rabbinic objection, proving the Rabbis concede it.",
           learnerQuestion: "What evidence does the Gemara cite to establish that tzefardea is a genuinely life-threatening condition?",
-          coreTension: "Between the general assertion that tzefardea is dangerous and the need to establish this with actual evidence that can be cited as legal precedent.",
-          coreMove: "Rabba bar Shela's story provides the empirical proof: someone died from tzefardea, establishing that the condition is genuinely lethal. The Gemara uses this real-world case to ground the legal ruling in evidence rather than theoretical assertion.",
+          coreTension: "Between the baraita's version, where the Rabbis limit their agreement to 'this case and no other,' and the Mishnah's version, which records Rabbi Matya's mouth-medicine ruling with no rabbinic dispute attached at all.",
+          coreMove: "Rav Ashi points to the Mishnah's structure: had the Rabbis disputed the mouth-medicine ruling, the Mishnah would have combined it with the case they do dispute and recorded a single joint objection. Because the Mishnah instead presents the mouth-medicine ruling on its own, without any objection, its silence proves the Rabbis concede the point.",
           takeaway: {
             type: "legal_principle",
-            text: "Halakhic classification of a condition as life-threatening requires evidentiary grounding; the Gemara cites a real case (Rabba bar Shela incident) to establish tzefardea's lethality as a matter of record rather than assertion."
+            text: "A Mishnah's editorial structure, such as which rulings it groups together with a stated dispute and which it leaves standing alone, can itself function as halakhic evidence of rabbinic agreement or disagreement."
           },
-          learningBlocker: "Students may not see why the Gemara needs to prove tzefardea is dangerous rather than just asserting it; the standard of evidence for overriding YK prohibitions requires actual proof."
+          learningBlocker: "Students may assume that if the Rabbis are recorded disputing one of Rabbi Matya's rulings, they dispute all of them; Rav Ashi's proof from the Mishnah's structure shows the dispute is limited, and the mouth-medicine ruling specifically is conceded."
         },
         lines: [
           { id: "yoma-084b-l01", kind: "gemara", he: "תָּא שְׁמַע, דְּתָנֵי רַבָּה בַּר שְׁמוּאֵל: עוּבָּרָה\nשֶׁהֵרִיחָה — מַאֲכִילִין אוֹתָהּ עַד שֶׁתָּשׁוּב נַפְשָׁהּ,\nוּמִי שֶׁנְּשָׁכוֹ כֶּלֶב שׁוֹטֶה — מַאֲכִילִין אוֹתוֹ מֵחֲצַר\nכָּבֵד שֶׁלּוֹ, וְהַחוֹשֵׁשׁ בְּפִיו — מְטִילִין לוֹ סַם\nבְּשַׁבָּת, דִּבְרֵי רַבִּי אֶלְעָזָר בְּרַבִּי יוֹסֵי, שֶׁאָמַר מִשּׁוּם\nרַבִּי מַתְיָא בֶּן חָרָשׁ. וַחֲכָמִים אוֹמְרִים: בָּזוֹ וְלֹא\nבְּאַחֶרֶת. ״בְּזוֹ״ אַהֵיָיא? אִילֵּימָא אַעוּבָּרָה, פְּשִׁיטָא!\nעוּבָּרָה מִי אִיכָּא לְמַאן דְּאָמַר דְּלָא? אֶלָּא\nלָאו — אַסַּם. שְׁמַע מִינַּהּ.",
@@ -189889,20 +189889,20 @@ const DAF_CONTENT = {
         },
         display: {
           whats: "Tosefta: engaging in life-preserving activities on Yom Kippur",
-          hint: "The Tosefta lists specific life-preserving activities that may be performed on Yom Kippur, establishing the principle that preservation of life is a positive commandment.",
+          hint: "Why does the baraita list five separate rescue scenarios (sea, pit, locked door, spreading fire) instead of stating one general rule that saving a life overrides Shabbat?",
           title: "Tosefta on Life-Preserving Activities on Yom Kippur"
         },
         learning: {
-          ahaMoment: "The Tosefta's specificity is a gift to the practitioner under pressure: when someone is dying, you should not be deliberating from first principles. The list is prepared knowledge for the prepared practitioner.",
-          memoryAnchor: "Tosefta's list: specific cases given in advance so the practitioner in crisis can act with confidence, not deliberation.",
+          ahaMoment: "A single sweeping principle isn't enough for crisis action: the baraita multiplies concrete cases because each one teaches a distinct halachic point a general rule alone would leave ambiguous.",
+          memoryAnchor: "Five rescue cases, sea, pit, locked door, fire, and fire spreading to a neighboring courtyard, each adding one specific point the others don't cover.",
           learnerQuestion: "What does the Tosefta teach about performing life-preserving activities on Yom Kippur?",
-          coreTension: "Between the sweeping rule (pikuach nefesh overrides YK) and the need to specify which activities count as life-preserving in the Tosefta's more detailed framework.",
-          coreMove: "The Tosefta provides a list of specific life-preserving activities that may be performed on YK, grounding the general principle in concrete cases. This specificity helps practitioners know in advance what is permitted, rather than requiring case-by-case deliberation in the moment of crisis.",
+          coreTension: "Between the baraita's opening principle, that saving a life on Shabbat needs no court permission, and the apparent redundancy of listing five separate rescue scenarios if they all illustrate the same rule.",
+          coreMove: "The baraita justifies each case as necessary: the sea case teaches urgency, since the child would be swept away; the pit case teaches no permission is needed even without further ongoing danger; the locked-door case teaches one acts rather than merely calms the child; and the fire case extends the rule to protecting even an adjacent courtyard not yet burning.",
           takeaway: {
             type: "legal_principle",
-            text: "The Tosefta's specific list of permitted life-preserving activities on YK serves a pedagogical function: by specifying cases in advance, it enables practitioners to act confidently without dangerous deliberation in a crisis."
+            text: "Halakhic cases that appear to teach the same principle can each carry an irreplaceable legal detail; a baraita's insistence on multiple examples is itself evidence that no single one covers the full rule."
           },
-          learningBlocker: "Students may see the Tosefta's list as redundant given the general principle; the list's purpose is enabling crisis-time confidence, not expanding the principle."
+          learningBlocker: "Students may see the sea, pit, door, and fire cases as redundant illustrations of one obvious principle; the baraita's own explanation shows each is halachically necessary because none of the others would establish its specific point alone."
         },
         lines: [
           { id: "yoma-084b-l24", kind: "gemara", he: "תָּנוּ רַבָּנַן: מְפַקְּחִין פִּקּוּחַ\nנֶפֶשׁ בְּשַׁבָּת, וְהַזָּרִיז הֲרֵי זֶה מְשׁוּבָּח, וְאֵין צָרִיךְ לִיטּוֹל רְשׁוּת מִבֵּית דִּין. הָא כֵּיצַד? רָאָה\nתִּינוֹק שֶׁנָּפַל לַיָּם — פּוֹרֵשׂ מְצוּדָה וּמַעֲלֵהוּ, וְהַזָּרִיז הֲרֵי זֶה מְשׁוּבָּח, וְאֵין צָרִיךְ לִיטּוֹל\nרְשׁוּת מִבֵּית דִּין. וְאַף עַל גַּב דְּקָא צָיֵיד כְּווֹרֵי. רָאָה תִּינוֹק שֶׁנָּפַל לְבוֹר — עוֹקֵר חוּלְיָא\nוּמַעֲלֵהוּ, וְהַזָּרִיז הֲרֵי זֶה מְשׁוּבָּח, וְאֵין צָרִיךְ לִיטּוֹל רְשׁוּת מִבֵּית דִּין. אַף עַל גַּב דִּמְתַקֵּן\nדַּרְגָּא.",
