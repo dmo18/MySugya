@@ -115,10 +115,7 @@
     "repentance power"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of R. Yochanan context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Repentance always converts a person's sins into merits.",
@@ -130,7 +127,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "R. Yochanan: teshuva is so great it overrides a di"
+     "item": "R. Yochanan: teshuva is so great it overrides a di"
     }
    ],
    "quizSeeds": [
@@ -147,7 +144,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of R. Yochanan context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -243,10 +244,7 @@
     "teshuva timing"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of R. Yitzchak context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Appeasing God for a private sin requires the same effort as appeasing an offended person.",
@@ -258,7 +256,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "R. Yitzchak: cancel your evil decree before the Ne"
+     "item": "R. Yitzchak: cancel your evil decree before the Ne"
     }
    ],
    "quizSeeds": [
@@ -275,7 +273,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of R. Yitzchak context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 3,
@@ -352,10 +354,7 @@
     "behavior"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of scholar context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "All sins should be confessed publicly, or all kept private.",
@@ -367,7 +366,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "What circumstances constitute chilul Hashem for a "
+     "item": "What circumstances constitute chilul Hashem for a "
     }
    ],
    "quizSeeds": [
@@ -384,7 +383,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of scholar context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 4,
@@ -461,10 +464,7 @@
     "elevation"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of baalei teshuva context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "God's threefold patience applies only to the nation as a whole.",
@@ -476,7 +476,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "R. Yosei bar Yehuda: baalei teshuva and their elev"
+     "item": "R. Yosei bar Yehuda: baalei teshuva and their elev"
     }
    ],
    "quizSeeds": [
@@ -493,7 +493,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of baalei teshuva context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 5,
@@ -684,10 +688,7 @@
     "chilul Hashem"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of Tosefta context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Re-confessing a past sin is always wrong, 'like a dog returning to its vomit.'",
@@ -699,7 +700,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Tosefta on transgressing against teachers and comm"
+     "item": "Tosefta on transgressing against teachers and comm"
     }
    ],
    "quizSeeds": [
@@ -720,7 +721,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of Tosefta context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   }
  ],
  "glossary": [],
