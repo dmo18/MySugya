@@ -189627,7 +189627,7 @@ const DAF_CONTENT = {
   "84b": {
     canonicalRef: "Yoma 84b",
     daf: "84b",
-    summary: "Tractate Yoma daf 84b covers: Proof that tzefardea is dangerous (the Rabba bar Shela incident); Throat pain: medicine placed inside the mouth, not swallowed - not eating; Tosefta: engaging in life-preserving activities on Yom Kippur; Rav Yosef citing Rav Yehuda citing Shmuel: rulings on YK danger situations.",
+    summary: "Tractate Yoma daf 84b covers: Rav Ashi's proof from the Mishnah's precise wording that the Rabbis concede Rabbi Matya ben Charash's ruling permitting medicine in the mouth on Shabbat; Throat pain: medicine placed inside the mouth, not swallowed - not eating; A baraita establishing that one may save a life on Shabbat without seeking court permission, illustrated through five rescue cases; Rav Yosef citing Rav Yehuda citing Shmuel: rulings on YK danger situations.",
     sugyot: [
       {
         id: "yoma-084b-s01",
@@ -189641,9 +189641,9 @@ const DAF_CONTENT = {
           endVilnaLine: 9
         },
         display: {
-          whats: "Proof that tzefardea is dangerous (the Rabba bar Shela incident)",
+          whats: "Rav Ashi proves from the Mishnah's precise wording that the Rabbis concede Rabbi Matya ben Charash's ruling permitting medicine in the mouth on Shabbat",
           hint: "How does Rav Ashi prove from the Mishnah's own wording, rather than from the baraita, that the Rabbis do not dispute the mouth-medicine ruling?",
-          title: "Proof That Tzefardea Is Dangerous"
+          title: "Rav Ashi's Proof: The Rabbis Concede on Mouth Medicine"
         },
         learning: {
           ahaMoment: "What a text does NOT say can be as legally significant as what it does say: the Mishnah's silence on any rabbinic objection to the mouth-medicine ruling is itself proof of rabbinic agreement.",
@@ -189697,10 +189697,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of tzefardea context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "The Rabbis reject all three of Rabbi Matya ben Charash's rulings.",
@@ -189711,7 +189708,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "Proof that tzefardea is dangerous (the Rabba bar S"
+            item: "Rav Ashi's proof from the Mishnah's wording that the Rabbis concede the mouth-medicine ruling"
           }
         ],
         quizSeeds: [
@@ -189724,15 +189721,15 @@ const DAF_CONTENT = {
             answer: "They restrict their concession to the mouth-medicine ruling, agreeing that medicine may be placed in the mouth on Shabbat while rejecting the dog-liver remedy as ineffective."
           }
         ],
-        finalRuling: "A story about Rabba bar Shela confirms that tzefardea is a genuinely dangerous illness. A person died from it, establishing that the illness qualifies",
+        finalRuling: "The Rabbis agree that one suffering mouth pain may have medicine placed in the mouth on Shabbat; their dispute in the baraita's phrase 'in this case and no other' does not extend to this ruling, since the Mishnah's own silence on any objection to it proves the Rabbis concede the point.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "tzefardea",
-          "proof",
-          "Rabba bar Shela",
-          "death",
-          "danger"
+          "mouth-medicine",
+          "rabbi-matya",
+          "rav-ashi-proof",
+          "shabbat-override",
+          "mishnah-structure"
         ],
         review: "draft"
       },
@@ -189888,9 +189885,9 @@ const DAF_CONTENT = {
           endVilnaLine: 34
         },
         display: {
-          whats: "Tosefta: engaging in life-preserving activities on Yom Kippur",
+          whats: "A baraita establishing that one may save a life on Shabbat without seeking court permission, illustrated through five rescue cases (sea, pit, locked door, fire)",
           hint: "Why does the baraita list five separate rescue scenarios (sea, pit, locked door, spreading fire) instead of stating one general rule that saving a life overrides Shabbat?",
-          title: "Tosefta on Life-Preserving Activities on Yom Kippur"
+          title: "Baraita: Saving a Life on Shabbat Needs No Permission"
         },
         learning: {
           ahaMoment: "A single sweeping principle isn't enough for crisis action: the baraita multiplies concrete cases because each one teaches a distinct halachic point a general rule alone would leave ambiguous.",
@@ -189995,10 +189992,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of Tosefta context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "One must consult a court before desecrating Shabbat to save a life.",
@@ -190009,7 +190003,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "Tosefta: engaging in life-preserving activities on"
+            item: "Baraita: five rescue cases proving one may save a life on Shabbat without seeking court permission"
           }
         ],
         quizSeeds: [
@@ -190022,14 +190016,15 @@ const DAF_CONTENT = {
             answer: "That one may act on Shabbat even when the fire is only spreading toward an adjacent courtyard, to prevent it from reaching that courtyard as well."
           }
         ],
-        finalRuling: "The Tosefta lists specific life-preserving activities that may be performed on Yom Kippur, establishing the principle that preservation of life is a p",
+        finalRuling: "One who acts to save a life on Shabbat needs no court's permission and should act immediately on his own initiative; this applies whether the danger is drowning, a pit, a locked door, or a spreading fire, even when the rescue also serves an incidental non-lifesaving purpose such as catching fish or protecting an adjacent courtyard.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "Tosefta",
-          "pikuach nefesh",
-          "YK override",
-          "life-preservation mitzva"
+          "pikuach-nefesh",
+          "shabbat-rescue",
+          "baraita",
+          "no-permission-needed",
+          "fire-case"
         ],
         review: "draft"
       },

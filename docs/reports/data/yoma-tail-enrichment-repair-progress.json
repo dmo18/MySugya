@@ -174,13 +174,13 @@
    "blockerReason": null
   },
   "yoma-084b-s01": {
-   "status": "NOT_STARTED",
-   "prNumber": null,
-   "repairCommit": null,
+   "status": "APPROVED_PENDING_MERGE",
+   "prNumber": 537,
+   "repairCommit": "86f57b6",
    "mergedCommit": null,
-   "version": null,
-   "reviewer": null,
-   "independentReviewResult": null,
+   "version": "15.536",
+   "reviewer": "independent-general-purpose-agent",
+   "independentReviewResult": "APPROVED: reviewed PR #537 against origin/main by diffing 84b.learning.json, .worker-manifest.json, the progress file, VERSION, and learning_data.js, and by reading modules/yoma/assets/daftexts/84b.txt lines 1-9 in the PR worktree. Confirmed lines 1-9 (culminating in the Rav Ashi proof) support the new display.title/whats, finalRuling, topicTags (mouth-medicine, rabbi-matya, rav-ashi-proof, shabbat-override, mishnah-structure), and visualizableElements[0].item, with zero residual tzefardea/Rabba-bar-Shela wording. finalRuling is a complete sentence ending in a period, distinct from and not a prefix of display.hint. topicTags are lowercase-hyphen-ASCII slugs with no duplicates. prerequisiteKnowledge correctly cleared to [] (verified legitimate against the sugya's self-contained argumentFlow). display.hint and all learning.* fields (already fixed by PR #536) are byte-identical to main, as are argumentFlow, quizSeeds, misconceptions, and requiresUnderstanding; sibling sugyot s02/s04 are completely untouched. The daf summary's s01 segment matches the corrected whats; s02/s04 segments unchanged. .worker-manifest.json shows type audited-sugya-enrichment-repair, targets [\"84b\"], auditRecordIds containing yoma-084b-s01 and yoma-084b-s03. No em/en dashes introduced. Progress-file walk (NOT_STARTED -> IN_PROGRESS -> FIXED_PENDING_REVIEW) verified via git log across the PR's commits, touching only the two target records.",
    "blockerReason": null
   },
   "yoma-086b-s02": {
@@ -274,13 +274,13 @@
    "blockerReason": null
   },
   "yoma-084b-s03": {
-   "status": "NOT_STARTED",
-   "prNumber": null,
-   "repairCommit": null,
+   "status": "APPROVED_PENDING_MERGE",
+   "prNumber": 537,
+   "repairCommit": "86f57b6",
    "mergedCommit": null,
-   "version": null,
-   "reviewer": null,
-   "independentReviewResult": null,
+   "version": "15.536",
+   "reviewer": "independent-general-purpose-agent",
+   "independentReviewResult": "APPROVED: reviewed PR #537 against origin/main by diffing 84b.learning.json, .worker-manifest.json, the progress file, VERSION, and learning_data.js, and by reading modules/yoma/assets/daftexts/84b.txt lines 24-34 in the PR worktree. Confirmed the baraita (ת\"ר) establishing life-saving on Shabbat without court permission via five rescue cases (sea, pit, locked door, fire, adjacent-courtyard fire) supports the new display.title/whats, finalRuling, topicTags (pikuach-nefesh, shabbat-rescue, baraita, no-permission-needed, fire-case), and visualizableElements[0].item, with no leftover Tosefta/Yom-Kippur mislabeling. finalRuling is a complete sentence, distinct from and not a prefix of display.hint. topicTags are lowercase-hyphen-ASCII slugs with no duplicates. prerequisiteKnowledge correctly cleared to [] (verified legitimate against the sugya's self-contained argumentFlow). display.hint and all learning.* fields (already fixed by PR #536) are byte-identical to main, as are argumentFlow, quizSeeds, misconceptions, and requiresUnderstanding; sibling sugyot s02/s04 are completely untouched. The daf summary's s03 segment matches the corrected whats; s02/s04 segments unchanged. .worker-manifest.json shows type audited-sugya-enrichment-repair, targets [\"84b\"], auditRecordIds containing yoma-084b-s01 and yoma-084b-s03. No em/en dashes introduced. Progress-file walk (NOT_STARTED -> IN_PROGRESS -> FIXED_PENDING_REVIEW) verified via git log across the PR's commits, touching only the two target records.",
    "blockerReason": null
   },
   "yoma-086a-s02": {
