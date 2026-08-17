@@ -195638,7 +195638,7 @@ const DAF_CONTENT = {
             answer: "The bar on a remarried divorcee returning to her first husband (Deuteronomy 24:4). Yet Jeremiah 3:1 invites Israel, the metaphorical wayward wife, back to God, showing repentance overrides the analogous prohibition."
           }
         ],
-        finalRuling: "R. Yochanan declares that teshuva is so powerful it can override even a divine decree of punishment - repentance changes the outcome of divine judgmen",
+        finalRuling: "Rabbi Yochanan teaches that repentance is so powerful it overrides even an explicit Torah prohibition, the law barring a divorced and remarried woman from returning to her first husband, since God nonetheless invites Israel, likened to that woman, to return to Him.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -195972,7 +195972,7 @@ const DAF_CONTENT = {
             answer: "To extend the three-chances principle from a community to an individual. Without it, one might think only a community gets three forgivenesses; Job's 'with a man' shows the same applies to an individual."
           }
         ],
-        finalRuling: "R. Yosei bar Yehuda teaches that baalei teshuva (penitents) have an especially elevated standing - in some ways they stand higher than the completely ",
+        finalRuling: "Rabbi Yosei bar Yehuda teaches that a person who repeats the same sin is forgiven the first, second, and third time, but not the fourth, and the Gemara extends this pattern of limited forgiveness to an individual, not only to the community.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
