@@ -173057,7 +173057,7 @@ const DAF_CONTENT = {
             answer: "The preposition 'on' rather than 'in' is decisive. Water drunk would enter the soul; water 'on' the soul is applied externally, which is bathing, so the verse ties weariness to the lack of washing rather than thirst."
           }
         ],
-        finalRuling: "The Gemara asks whether refraining from bathing constitutes inui (self-affliction) as required by the Torah.",
+        finalRuling: "Withholding bathing does constitute inui (affliction): the attempted proof from David's men being 'weary' fails, since that could instead mean the lack of shoes, but Rav Yitzchak's proof from 'cold water on a weary soul' succeeds, since the verse describes water placed on the body rather than drunk, establishing that abstaining from bathing is the affliction the Torah requires on Yom Kippur.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
