@@ -180597,7 +180597,7 @@ const DAF_CONTENT = {
             answer: "Although one might think brine is a beverage that does not combine with food, the Gemara teaches that anything which prepares food for eating is itself considered food. Since the brine readies the vegetable for eating, it joins it toward the large-date measure."
           }
         ],
-        finalRuling: "All foods combine toward the eating measure on YK - you cannot eat small amounts of multiple foods and avoid liability.",
+        finalRuling: "The mishna's combining rule extends beyond distinct foods to food preparations: Rav Pappa rules that raw meat and the salt eaten with it combine toward the date-bulk measure, even though salt alone is not eating, because people eat them together. Reish Lakish extends this further with brine poured on a vegetable, teaching the governing principle that anything which enables food to be eaten is itself deemed food rather than a separate beverage, so it too joins the combination.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
