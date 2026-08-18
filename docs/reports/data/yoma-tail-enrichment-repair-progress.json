@@ -444,11 +444,11 @@
    "blockerReason": null
   },
   "yoma-080b-s02": {
-   "status": "IN_PROGRESS",
+   "status": "FIXED_PENDING_REVIEW",
    "prNumber": null,
-   "repairCommit": null,
+   "repairCommit": "b09386d",
    "mergedCommit": null,
-   "version": null,
+   "version": "15.569",
    "reviewer": null,
    "independentReviewResult": null,
    "blockerReason": null
