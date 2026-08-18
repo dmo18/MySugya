@@ -173904,8 +173904,8 @@ const DAF_CONTENT = {
           endVilnaLine: 6
         },
         display: {
-          whats: "Verse about afflicting daughters in Laban's house relates to fasting obligation",
-          hint: "The Gemara derives the fast obligation from the verse about Jacob telling Laban 'if you afflict my daughters' - the same word for affliction applies to the YK fast.",
+          whats: "The Gemara reads Laban's two clauses to Jacob as two distinct afflictions, establishing that withholding marital relations, not rival wives, is the affliction meant for Yom Kippur",
+          hint: "How does the Gemara prove from Laban's two separate clauses to Jacob that 'afflict' specifically means withholding marital relations, and how does it answer Rav Pappa's challenge that relations themselves are called affliction?",
           title: "Laban's Affliction and YK Inui"
         },
         learning: {
@@ -173977,10 +173977,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of affliction context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "Learners may conclude from the Shechem verse that the Torah views marital relations as inherently an affliction.",
@@ -173991,7 +173988,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "Verse about afflicting daughters in Laban's house "
+            item: "Laban's two clauses read as two distinct afflictions, proving conjugal deprivation is the affliction meant for Yom Kippur"
           }
         ],
         quizSeeds: [
@@ -174004,15 +174001,15 @@ const DAF_CONTENT = {
             answer: "Abaye distinguishes the cases: Shechem 'afflicted' her through unnatural relations, which is inherently painful. Ordinary marital relations are a pleasure, so withholding them is the affliction relevant to Yom Kippur."
           }
         ],
-        finalRuling: "The Gemara derives the fast obligation from the verse about Jacob telling Laban 'if you afflict my daughters' - the same word for affliction applies t",
+        finalRuling: "Withholding marital relations, not the taking of rival wives, is the affliction the Torah means when it commands Yom Kippur, derived from Laban's warning to Jacob; Rav Pappa's challenge from Shechem, where relations themselves are called affliction, is answered by treating Shechem's case as a distinct instance of forced, unnatural relations.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
+          "conjugal-deprivation",
+          "laban",
+          "rav-pappa",
           "affliction",
-          "YK fast",
-          "Laban",
-          "Jacob",
-          "scriptural derivation"
+          "shechem"
         ],
         review: "draft"
       },
@@ -174148,14 +174145,14 @@ const DAF_CONTENT = {
           endVilnaLine: 35
         },
         display: {
-          whats: "Greeting others on Yom Kippur; walking to visit father or teacher",
-          hint: "People greet one another on Yom Kippur; the Gemara discusses whether walking to visit one's father or teacher is appropriate on the day.",
-          title: "Greeting and Visiting on Yom Kippur"
+          whats: "A graduated set of exceptions to the Yom Kippur bathing prohibition permits crossing water up to the neck to greet a father or teacher, guard fruit, or attend a lecture, with procedural and safety limits",
+          hint: "What purposes permit crossing water up to the neck on Yom Kippur despite the bathing prohibition, and what procedural and safety limits does the Gemara attach to that permission?",
+          title: "Crossing Water for a Mitzva or Protective Purpose"
         },
         learning: {
           ahaMoment: "This isn't a general etiquette ruling, it's a specific exception carved into the bathing prohibition: entering water up to the neck is permitted only when the purpose is a mitzva or protective duty, not personal pleasure or convenience.",
           memoryAnchor: "Cross a river to your neck for a mitzva, greeting a father, teacher, guarding fruit, or reaching a lecture, but only without lifting your hem, and never above the waist in flowing water.",
-          learnerQuestion: "Is it appropriate to visit or greet others on Yom Kippur?",
+          learnerQuestion: "What purposes permit a person to cross water on Yom Kippur despite the bathing prohibition, and how deep is too dangerous to cross?",
           coreTension: "Between the Yom Kippur bathing prohibition, which would seem to forbid entering water at all, and the mitzva or protective purposes, visiting a parent or teacher, guarding fruit, attending a lecture, that require crossing a river to be fulfilled.",
           coreMove: "The Gemara builds a graduated set of permissions: a baraita allows crossing water up to the neck to greet a father, teacher, or greater scholar, since the purpose is a mitzva rather than pleasure; Rava and a supporting baraita extend this to guarding fruit, and Rav Yosef extends it further to attending, and returning from, a Yom Kippur lecture, reasoning that barring the return trip would discourage attendance. A further rule restricts how one may cross, without lifting the cloak's hem, since raising it to stay dry would count as forbidden carrying. Rav Yosef then raises a safety limit from Ezekiel's graduated river depths, that water above the waist is too dangerous to cross, and Abaye narrows this to fast-flowing water specifically, since still water may be crossed even deeper.",
           takeaway: {
@@ -174306,10 +174303,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of greeting context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "Learners read these crossing-permissions as casual leniencies that effectively cancel the Yom Kippur bathing prohibition.",
@@ -174320,7 +174314,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "Greeting others on Yom Kippur; walking to visit fa"
+            item: "The graduated water-crossing exceptions to the Yom Kippur bathing prohibition, with their procedural and safety limits"
           }
         ],
         quizSeeds: [
@@ -174337,14 +174331,15 @@ const DAF_CONTENT = {
             answer: "He restricts the danger to fast-flowing rivers, where deep water can sweep a person away. Still water may be crossed even above the waist, so the verse does not set a universal depth limit."
           }
         ],
-        finalRuling: "People greet one another on Yom Kippur; the Gemara discusses whether walking to visit one's father or teacher is appropriate on the day.",
+        finalRuling: "One may cross water up to the neck on Yom Kippur for a mitzva or protective purpose, such as greeting a father or teacher, guarding fruit, or attending a lecture, provided the cloak's hem is not lifted; water above the waist may not be crossed when it is fast-flowing, though still water may be crossed even deeper.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "greeting",
-          "YK conduct",
-          "honor of parents",
-          "honor of teachers"
+          "water-crossing",
+          "bathing-prohibition",
+          "mitzva-exception",
+          "river-depth",
+          "yom-kippur"
         ],
         review: "draft"
       },
