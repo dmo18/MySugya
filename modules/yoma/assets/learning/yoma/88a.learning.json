@@ -211,10 +211,7 @@
     "post-YK"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of Havdalah context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "Whether to immerse on Yom Kippur is just about being clean for prayer.",
@@ -226,7 +223,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Havdalah after Yom Kippur: recited in the Havdil b"
+     "item": "Havdalah after Yom Kippur: recited in the Havdil b"
     }
    ],
    "quizSeeds": [
@@ -247,7 +244,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of Havdalah context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   },
   {
    "sugyaNumber": 2,
@@ -344,10 +345,7 @@
     "mikveh"
    ],
    "conceptRefs": [],
-   "requiresUnderstanding": [
-    "Background knowledge of keri context",
-    "Understanding of Yom Kippur halachic framework"
-   ],
+   "requiresUnderstanding": [],
    "misconceptions": [
     {
      "misconception": "A seminal emission on Yom Kippur is purely a bad omen of a rejected fast.",
@@ -359,7 +357,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "name": "Seminal emission (keri) on Yom Kippur: whether imm"
+     "item": "Seminal emission (keri) on Yom Kippur: whether imm"
     }
    ],
    "quizSeeds": [
@@ -376,7 +374,11 @@
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
-   "review": "draft"
+   "review": "draft",
+   "prerequisiteKnowledge": [
+    "Background knowledge of keri context",
+    "Understanding of Yom Kippur halachic framework"
+   ]
   }
  ],
  "glossary": [],

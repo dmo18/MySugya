@@ -200116,7 +200116,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of Havdalah context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -200131,7 +200132,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Havdalah after Yom Kippur: recited in the Havdil b"
+            item: "Havdalah after Yom Kippur: recited in the Havdil b"
           }
         ],
         quizSeeds: [
@@ -200244,7 +200245,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of keri context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -200259,7 +200261,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Seminal emission (keri) on Yom Kippur: whether imm"
+            item: "Seminal emission (keri) on Yom Kippur: whether imm"
           }
         ],
         quizSeeds: [
