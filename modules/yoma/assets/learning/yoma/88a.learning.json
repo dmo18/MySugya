@@ -1,6 +1,6 @@
 {
  "canonicalRef": "Yoma 88a",
- "summary": "Tractate Yoma daf 88a covers: Havdalah after Yom Kippur: recited in the Havdil blessing of Ma'ariv; dispute about location; Seminal emission (keri) on Yom Kippur: whether immersion is required.",
+ "summary": "Tractate Yoma daf 88a covers: A ba'al keri's immersion timing tied to whether ne'ila is a day or night prayer, and the resolution of Rabbi Yosei's apparently contradictory rulings; Seminal emission (keri) on Yom Kippur: whether immersion is required.",
  "sugyot": [
   {
    "sugyaNumber": 1,
@@ -59,8 +59,8 @@
     "Yoma.88a.9"
    ],
    "display": {
-    "whats": "Havdalah after Yom Kippur: recited in the Havdil blessing of Ma'ariv; dispute about location",
-    "hint": "The Gemara discusses where Havdalah (the separation prayer marking the end of YK) is recited: in the Havdil blessing within the Amida of Ma'ariv, or separately. Various opinions are cited.",
+    "whats": "The Gemara opens with why havdala in the Havdil blessing requires the full evening Amida after Yom Kippur, then turns to when a ba'al keri (who had a seminal emission) may immerse, and resolves an apparent contradiction in Rabbi Yosei's rulings on the timing.",
+    "hint": "Why does a ba'al keri's permitted timing for immersion after Yom Kippur depend on whether ne'ila is a day or a night prayer, and how does the Gemara resolve Rabbi Yosei's apparently contradictory rulings on this?",
     "title": "Havdalah After Yom Kippur"
    },
    "learning": {
@@ -204,11 +204,11 @@
     }
    ],
    "topicTags": [
-    "Havdalah",
-    "YK",
-    "Ma'ariv",
-    "Havdil blessing",
-    "post-YK"
+    "baal-keri",
+    "immersion-timing",
+    "neila",
+    "rabbi-yosei",
+    "havdalah"
    ],
    "conceptRefs": [],
    "requiresUnderstanding": [],
@@ -223,7 +223,7 @@
    "visualizableElements": [
     {
      "type": "action",
-     "item": "Havdalah after Yom Kippur: recited in the Havdil b"
+     "item": "The ba'al keri's immersion timing tied to ne'ila, and the resolution of Rabbi Yosei's apparent contradiction"
     }
    ],
    "quizSeeds": [
@@ -240,15 +240,12 @@
      "answer": "Because they hold that immersion at its proper time is itself a mitzva, independent of needing to pray. So when the proper time falls on Yom Kippur, the person immerses regardless of whether an immediate prayer requires it."
     }
    ],
-   "finalRuling": "The Gemara discusses where Havdalah (the separation prayer marking the end of YK) is recited: in the Havdil blessing within the Amida of Ma'ariv, or s",
+   "finalRuling": "A ba'al keri who has a seminal emission before mincha on Yom Kippur may immerse anytime until mincha in order to pray it; if it happens after mincha, he waits until nightfall to immerse, since ne'ila is a night prayer that exempts ma'ariv. Rabbi Yosei's two apparently contradictory statements are reconciled: he permits immersion only when ne'ila has not yet been prayed, and forbids it once it has. The Rabbis hold that immersion at its proper time is itself a mitzva even without a prayer to enable it, so it is permitted on Yom Kippur regardless; the reed baraita's 'Rabbi Yosei,' who disagrees, is reattributed to Rabbi Yosei bar Yehuda, who held that a single immersion whenever one is surely pure suffices.",
    "difficulty": "intermediate",
    "alternateAngles": [],
    "glossary": [],
    "review": "draft",
-   "prerequisiteKnowledge": [
-    "Background knowledge of Havdalah context",
-    "Understanding of Yom Kippur halachic framework"
-   ]
+   "prerequisiteKnowledge": []
   },
   {
    "sugyaNumber": 2,
