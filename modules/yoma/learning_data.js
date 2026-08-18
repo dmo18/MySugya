@@ -179386,7 +179386,7 @@ const DAF_CONTENT = {
             answer: "By the case of a paltry cheekful, slightly less than a full cheek. Beit Hillel holds one liable only for a full cheekful, while Rabbi Eliezer holds one liable even for the lesser, paltry mouthful."
           }
         ],
-        finalRuling: "The drinking measure for YK liability is a cheekful (male'o lugmav), not a standard liquid measure. The Gemara derives and explains this unusual measu",
+        finalRuling: "The mishna's cheekful liability measure is not a literal mouthful but an appearance-based amount: enough liquid that, pushed to one side, makes that cheek look full. Within this appearance-based reading, Beit Hillel requires a full cheek's-worth appearance, while Rabbi Eliezer's stricter view is already satisfied by a slightly lesser 'paltry' cheekful. Rav Hoshaya's objection, that this reading turns Beit Shammai's quarter-log into the stricter measure, is not resolved within this passage and is answered only on the next page.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
