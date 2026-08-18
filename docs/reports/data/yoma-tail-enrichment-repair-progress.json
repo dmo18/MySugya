@@ -436,7 +436,7 @@
   "yoma-080a-s03": {
    "status": "FIXED_PENDING_REVIEW",
    "prNumber": null,
-   "repairCommit": "PENDING",
+   "repairCommit": "5de94ca",
    "mergedCommit": null,
    "version": "15.567",
    "reviewer": null,
