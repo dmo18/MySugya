@@ -175315,7 +175315,7 @@ const DAF_CONTENT = {
   "78a": {
     canonicalRef: "Yoma 78a",
     daf: "78a",
-    summary: "Tractate Yoma daf 78a covers: Temple river bubbles up from beneath the threshold and becomes mighty; Crossing water on Yom Kippur: does it constitute prohibited bathing?; Cooling without bathing: damp clay, fruit, cups, and a pre-soaked cloth; Rain water, river crossing, measuring bathing by amount; Unresolved question about water crossing and the shoe prohibition.",
+    summary: "Tractate Yoma daf 78a covers: Temple river bubbles up from beneath the threshold and becomes mighty; Rav Ashi's ruling against crossing water in loose sandals on Shabbat and Ravina's self-application of it; Cooling without bathing: damp clay, fruit, cups, and a pre-soaked cloth; An Elder's authority to rule on a firstborn animal's blemish without the Nasi's permission, and Rabbi Abba's correction of the account; Unresolved question (teiku) about wearing cork sandals on Yom Kippur.",
     sugyot: [
       {
         id: "yoma-078a-s01",
