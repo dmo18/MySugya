@@ -1,17 +1,20 @@
 {
- "type": "audited-sugya-enrichment-repair",
+ "type": "enrichment-schema-migration",
  "module": "yoma",
  "targets": [
-  "77a"
+  "86a"
  ],
  "model": "sonnet",
  "paused": false,
  "lifecycle": "pr",
- "mechanicalTier": false,
- "independentReviewRequired": true,
- "reviewPolicy": "independent",
+ "mechanicalTier": true,
+ "independentReviewRequired": false,
+ "reviewPolicy": "none",
  "escalationModel": "sonnet",
- "authorizations": [],
+ "authorizations": [
+  "authorizeMigration",
+  "allowStructure"
+ ],
  "maxBatch": 1,
  "allowedFiles": [
   "modules/<module>/assets/learning/<module>/<daf>.learning.json",
@@ -22,28 +25,12 @@
   "package-lock.json",
   "docs/rashi-audit-backlog.md",
   "docs/<module>-perek-review.md",
-  "docs/reports/data/yoma-tail-enrichment-repair-progress.json",
   ".worker-manifest.json"
  ],
  "allowedJsonPaths": [
-  "summary",
-  "sugyot[*].display.title",
-  "sugyot[*].display.whats",
-  "sugyot[*].display.hint",
-  "sugyot[*].display.oneLine",
-  "sugyot[*].display.shortSummary",
-  "sugyot[*].learning.learnerQuestion",
-  "sugyot[*].learning.coreTension",
-  "sugyot[*].learning.coreMove",
-  "sugyot[*].learning.resolution",
-  "sugyot[*].learning.ahaMoment",
-  "sugyot[*].learning.learningBlocker",
-  "sugyot[*].learning.memoryAnchor",
-  "sugyot[*].learning.takeaway.text",
-  "sugyot[*].finalRuling",
-  "sugyot[*].prerequisiteKnowledge[*]",
   "sugyot[*].requiresUnderstanding[*]",
-  "sugyot[*].topicTags[*]",
+  "sugyot[*].prerequisiteKnowledge",
+  "sugyot[*].prerequisiteKnowledge[*]",
   "sugyot[*].visualizableElements[*]",
   "sugyot[*].difficulty"
  ],
@@ -68,17 +55,17 @@
   "npm run test:browser"
  ],
  "escalationTriggers": [
-  "a changed path is absent from the audit records' affectedFields",
-  "the source does not support the proposed replacement",
-  "a repair would require editing argumentFlow, quizSeeds or misconceptions",
-  "the removed concepts field would be repaired or recreated",
-  "target does not become enrichment-contract clean"
+  "target enrichment-contract debt does not strictly decrease",
+  "a value would be invented rather than moved or normalized",
+  "before/after transformation report is incomplete",
+  "a transformation not listed in the manifest is required"
  ],
  "allowlistDrain": null,
  "scaffoldDebt": null,
  "repetitionDrain": null,
- "auditRecordIds": [
-  "yoma-077a-s02"
- ],
- "migrationKinds": []
+ "auditRecordIds": [],
+ "migrationKinds": [
+  "requires-understanding",
+  "visualizable-elements"
+ ]
 }
