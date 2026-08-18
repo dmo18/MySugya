@@ -175408,7 +175408,7 @@ const DAF_CONTENT = {
             answer: "Because the halachic requirement is volume, not depth. A ritual bath is valid as long as it can cover an entire adult body at once; how deep one can sit in it is not the criterion."
           }
         ],
-        finalRuling: "The aggadic description of the future Temple river: it begins as a trickle from beneath the Temple threshold and grows into a mighty river that cannot",
+        finalRuling: "The future Temple spring strengthens into a river deep enough for zavim, zavot, menstruating women, and women after childbirth to immerse in for purification; the Gemara rejects Rav Yosef's inference that the water must reach the neck, ruling that any mikveh covering the entire body is valid regardless of depth.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -175807,7 +175807,7 @@ const DAF_CONTENT = {
             answer: "He says it was not a request for permission at all but a halachic question. As a priest, suspected of blemishing firstborns after the Temple's destruction, Rabbi Yosei asked whether such priests are believed, resolved by the ruling that one suspect about himself is still believed about others."
           }
         ],
-        finalRuling: "Crossing rain puddles or rivers on YK raises questions about the bathing prohibition; the measurement of 'bathing' is discussed.",
+        finalRuling: "An Elder who sits in the yeshiva need not seek the Nasi's permission to rule that a firstborn animal's blemish permits it for consumption, since that requirement exists only to honor the Nasi's house; Rabbi Abba corrects an account cited to the contrary, clarifying that Rabbi Yosei ben Zimra's actual question was whether a priest is believed about his own firstborn's blemish, resolved according to Rabban Shimon ben Gamliel that one is believed about another's animal but not his own.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -175891,7 +175891,7 @@ const DAF_CONTENT = {
             answer: "Whether a cork sandal is legally a 'shoe' for the affliction of not wearing shoes. If it counts as a shoe it is forbidden; if it is too unlike a real shoe to provide that comfort, it may be permitted. The Gemara leaves this to resolve on the next page."
           }
         ],
-        finalRuling: "An unresolved question (teiku) about water crossing on YK and its relationship to the shoe and bathing prohibitions.",
+        finalRuling: "The law regarding cork sandals on Yom Kippur, whether they count as a shoe for purposes of the prohibition against wearing shoes, is left unresolved as a teiku.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
