@@ -176781,7 +176781,7 @@ const DAF_CONTENT = {
             answer: "All agree the prosthesis counts as a shoe. The dispute is only whether to decree against wearing it on Shabbat lest it slip off and one carry it four cubits in public; Rabbi Yosei makes the decree, Rabbi Meir does not."
           }
         ],
-        finalRuling: "The Gemara asks whether a cork sandal counts as a 'shoe' for the YK prohibition. Since cork provides only minimal protection, the question is whether ",
+        finalRuling: "Cork and reed sandals, and similar non-leather footwear, are permitted on Yom Kippur, as demonstrated by the practice of Rabbi Yehoshua ben Levi and other Sages; a wooden prosthetic leg is universally agreed to count as a shoe, and the Shabbat-only dispute about wearing it concerns solely a separate decree against it slipping off and being carried, unrelated to the Yom Kippur comfort question.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -176904,7 +176904,7 @@ const DAF_CONTENT = {
             answer: "It reinterprets the rule: the Sages decreed only against acts not needed for a child's growth, while permitting those that are. Footwear and care that support the child's development are allowed, so the onlooker concern does not bar what the child genuinely needs."
           }
         ],
-        finalRuling: "Young children are permitted to wear shoes on Yom Kippur since the affliction obligations do not apply to them.",
+        finalRuling: "Young children are permitted to wear shoes on Yom Kippur because, unlike bathing or oil, shoes could not be assumed to have been put on the day before, since a child would not sleep in shoes overnight; more broadly, the Sages decreed only against acts not needed for a child's growth, while permitting those that are, such as warm water, oil, and other enjoyable activities.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -177127,7 +177127,7 @@ const DAF_CONTENT = {
             answer: "The mishna sets liability at the volume of a large date. Rav Pappa opens the question of how exactly to measure it, for instance whether the date is counted with or without its pit, which the Gemara pursues on the next page."
           }
         ],
-        finalRuling: "The Mishna establishes that eating a date-bulk (kotevet) on Yom Kippur is the minimum measure that creates liability; eating less than this does not i",
+        finalRuling: "The Mishna fixes the minimum measure of eating that creates liability on Yom Kippur at the volume of a large date; Rav Pappa raises a question about this measure that the Gemara addresses in full on the following daf.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
