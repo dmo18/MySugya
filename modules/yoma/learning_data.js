@@ -194094,7 +194094,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of chilul Hashem context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -194109,7 +194110,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "Desecrating God's name: not atoned by any mechanis"
+            item: "Desecrating God's name: not atoned by any mechanis"
           }
         ],
         quizSeeds: [
@@ -194234,7 +194235,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of God's name in vain context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -194249,7 +194251,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "What is 'bearing God's name in vain'? Clarificatio"
+            item: "What is 'bearing God's name in vain'? Clarificatio"
           }
         ],
         quizSeeds: [
@@ -194390,7 +194392,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of Torah scholar context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -194405,7 +194408,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "What circumstances cause a Torah scholar to desecr"
+            item: "What circumstances cause a Torah scholar to desecr"
           }
         ],
         quizSeeds: [
@@ -194489,7 +194492,8 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "Background knowledge of R. Hama bar Hanina context",
           "Understanding of Yom Kippur halachic framework"
         ],
@@ -194504,7 +194508,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            name: "R. Hama bar Hanina: great repentance (teshuva rabb"
+            item: "R. Hama bar Hanina: great repentance (teshuva rabb"
           }
         ],
         quizSeeds: [
