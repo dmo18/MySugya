@@ -344,11 +344,11 @@
    "blockerReason": null
   },
   "yoma-077b-s04": {
-   "status": "IN_PROGRESS",
+   "status": "FIXED_PENDING_REVIEW",
    "prNumber": null,
-   "repairCommit": null,
+   "repairCommit": "185fa58",
    "mergedCommit": null,
-   "version": null,
+   "version": "15.552",
    "reviewer": null,
    "independentReviewResult": null,
    "blockerReason": null
