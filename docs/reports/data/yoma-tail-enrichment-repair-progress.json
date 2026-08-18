@@ -384,33 +384,33 @@
    "blockerReason": null
   },
   "yoma-078b-s01": {
-   "status": "FIXED_PENDING_REVIEW",
-   "prNumber": null,
+   "status": "APPROVED_PENDING_MERGE",
+   "prNumber": 565,
    "repairCommit": "e305751",
    "mergedCommit": null,
    "version": "15.564",
-   "reviewer": null,
-   "independentReviewResult": null,
+   "reviewer": "independent-general-purpose-agent",
+   "independentReviewResult": "Independently reviewed PR #565 (branch worker/yoma-078b-s01-s02-s04-repair) against the yoma-tail-enrichment-repair-queue.json authorization for yoma-078b-s01, yoma-078b-s02, yoma-078b-s04. Confirmed via full PR diff and full post-PR 78b.learning.json that the only semantic change in each of the three sugyot is the finalRuling field, byte-identical elsewhere; confirmed yoma-078b-s03 and the daf-level summary (owned by s03) are completely untouched. Confirmed the repair-queue records for s01/s02/s04 authorize exactly affectedActiveFields: [finalRuling], matching the PR's claimed scope. Confirmed the pre-repair defect pattern on main: s02's old finalRuling was a verbatim duplicate of display.hint, and s01/s04's old finalRuling were truncated mid-sentence/mid-word fragments of display.hint. Confirmed each new finalRuling is distinct from and not a prefix of display.hint, is a complete sentence properly terminated, and contains no em/en dash. Cross-checked each new finalRuling's substantive claims against daftexts/78b.txt and each sugya's own untouched argumentFlow: s01 (lines 1-20) accurately reflects R. Yehoshua ben Levi's cork-sandal precedent and Rava's resolution that the wooden prosthesis is universally a shoe with the Shabbat dispute concerning only the slip/carry decree; s02 (lines 24-31) accurately reflects Shmuel's sleeping-in-shoes teaching and the 'not needed for growth' decree scope; s04 (line 45) accurately reflects the Mishna's date-bulk measure and Rav Pappa's opening question continued on the next daf. No fabricated claims found. Confirmed .worker-manifest.json carries type audited-sugya-enrichment-repair, targets [78b], auditRecordIds exactly [yoma-078b-s01, yoma-078b-s02, yoma-078b-s04]. Confirmed the progress-file diff touches only these three records with a legal NOT_STARTED to FIXED_PENDING_REVIEW transition, version 15.564 matching the VERSION bump, and repairCommit e305751 verified to be the true short SHA of the actual repair commit. All other file changes are mechanical regen artifacts. Verdict: APPROVED.",
    "blockerReason": null
   },
   "yoma-078b-s02": {
-   "status": "FIXED_PENDING_REVIEW",
-   "prNumber": null,
+   "status": "APPROVED_PENDING_MERGE",
+   "prNumber": 565,
    "repairCommit": "e305751",
    "mergedCommit": null,
    "version": "15.564",
-   "reviewer": null,
-   "independentReviewResult": null,
+   "reviewer": "independent-general-purpose-agent",
+   "independentReviewResult": "Independently reviewed PR #565 (branch worker/yoma-078b-s01-s02-s04-repair) against the yoma-tail-enrichment-repair-queue.json authorization for yoma-078b-s01, yoma-078b-s02, yoma-078b-s04. Confirmed via full PR diff and full post-PR 78b.learning.json that the only semantic change in each of the three sugyot is the finalRuling field, byte-identical elsewhere; confirmed yoma-078b-s03 and the daf-level summary (owned by s03) are completely untouched. Confirmed the repair-queue records for s01/s02/s04 authorize exactly affectedActiveFields: [finalRuling], matching the PR's claimed scope. Confirmed the pre-repair defect pattern on main: s02's old finalRuling was a verbatim duplicate of display.hint, and s01/s04's old finalRuling were truncated mid-sentence/mid-word fragments of display.hint. Confirmed each new finalRuling is distinct from and not a prefix of display.hint, is a complete sentence properly terminated, and contains no em/en dash. Cross-checked each new finalRuling's substantive claims against daftexts/78b.txt and each sugya's own untouched argumentFlow: s01 (lines 1-20) accurately reflects R. Yehoshua ben Levi's cork-sandal precedent and Rava's resolution that the wooden prosthesis is universally a shoe with the Shabbat dispute concerning only the slip/carry decree; s02 (lines 24-31) accurately reflects Shmuel's sleeping-in-shoes teaching and the 'not needed for growth' decree scope; s04 (line 45) accurately reflects the Mishna's date-bulk measure and Rav Pappa's opening question continued on the next daf. No fabricated claims found. Confirmed .worker-manifest.json carries type audited-sugya-enrichment-repair, targets [78b], auditRecordIds exactly [yoma-078b-s01, yoma-078b-s02, yoma-078b-s04]. Confirmed the progress-file diff touches only these three records with a legal NOT_STARTED to FIXED_PENDING_REVIEW transition, version 15.564 matching the VERSION bump, and repairCommit e305751 verified to be the true short SHA of the actual repair commit. All other file changes are mechanical regen artifacts. Verdict: APPROVED.",
    "blockerReason": null
   },
   "yoma-078b-s04": {
-   "status": "FIXED_PENDING_REVIEW",
-   "prNumber": null,
+   "status": "APPROVED_PENDING_MERGE",
+   "prNumber": 565,
    "repairCommit": "e305751",
    "mergedCommit": null,
    "version": "15.564",
-   "reviewer": null,
-   "independentReviewResult": null,
+   "reviewer": "independent-general-purpose-agent",
+   "independentReviewResult": "Independently reviewed PR #565 (branch worker/yoma-078b-s01-s02-s04-repair) against the yoma-tail-enrichment-repair-queue.json authorization for yoma-078b-s01, yoma-078b-s02, yoma-078b-s04. Confirmed via full PR diff and full post-PR 78b.learning.json that the only semantic change in each of the three sugyot is the finalRuling field, byte-identical elsewhere; confirmed yoma-078b-s03 and the daf-level summary (owned by s03) are completely untouched. Confirmed the repair-queue records for s01/s02/s04 authorize exactly affectedActiveFields: [finalRuling], matching the PR's claimed scope. Confirmed the pre-repair defect pattern on main: s02's old finalRuling was a verbatim duplicate of display.hint, and s01/s04's old finalRuling were truncated mid-sentence/mid-word fragments of display.hint. Confirmed each new finalRuling is distinct from and not a prefix of display.hint, is a complete sentence properly terminated, and contains no em/en dash. Cross-checked each new finalRuling's substantive claims against daftexts/78b.txt and each sugya's own untouched argumentFlow: s01 (lines 1-20) accurately reflects R. Yehoshua ben Levi's cork-sandal precedent and Rava's resolution that the wooden prosthesis is universally a shoe with the Shabbat dispute concerning only the slip/carry decree; s02 (lines 24-31) accurately reflects Shmuel's sleeping-in-shoes teaching and the 'not needed for growth' decree scope; s04 (line 45) accurately reflects the Mishna's date-bulk measure and Rav Pappa's opening question continued on the next daf. No fabricated claims found. Confirmed .worker-manifest.json carries type audited-sugya-enrichment-repair, targets [78b], auditRecordIds exactly [yoma-078b-s01, yoma-078b-s02, yoma-078b-s04]. Confirmed the progress-file diff touches only these three records with a legal NOT_STARTED to FIXED_PENDING_REVIEW transition, version 15.564 matching the VERSION bump, and repairCommit e305751 verified to be the true short SHA of the actual repair commit. All other file changes are mechanical regen artifacts. Verdict: APPROVED.",
    "blockerReason": null
   },
   "yoma-079a-s01": {
