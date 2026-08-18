@@ -264,11 +264,11 @@
    "blockerReason": null
   },
   "yoma-078a-s02": {
-   "status": "IN_PROGRESS",
+   "status": "FIXED_PENDING_REVIEW",
    "prNumber": null,
-   "repairCommit": null,
+   "repairCommit": "15dc844",
    "mergedCommit": null,
-   "version": null,
+   "version": "15.555",
    "reviewer": null,
    "independentReviewResult": null,
    "blockerReason": null
