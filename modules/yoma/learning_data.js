@@ -174153,16 +174153,16 @@ const DAF_CONTENT = {
           title: "Greeting and Visiting on Yom Kippur"
         },
         learning: {
-          ahaMoment: "YK does not dissolve relationships - human obligations of honor persist even through the day's severity because they are duties, not pleasures.",
-          memoryAnchor: "Visit your father on YK: duty is not a pleasure, so the affliction prohibition does not reach it.",
+          ahaMoment: "This isn't a general etiquette ruling, it's a specific exception carved into the bathing prohibition: entering water up to the neck is permitted only when the purpose is a mitzva or protective duty, not personal pleasure or convenience.",
+          memoryAnchor: "Cross a river to your neck for a mitzva, greeting a father, teacher, guarding fruit, or reaching a lecture, but only without lifting your hem, and never above the waist in flowing water.",
           learnerQuestion: "Is it appropriate to visit or greet others on Yom Kippur?",
-          coreTension: "Between the solemnity of YK (suggesting silence and isolation) and the social obligations of honoring parents and teachers.",
-          coreMove: "The Gemara permits greeting and visiting as expressions of honor and relationship; they do not violate the spirit of YK because they are obligations of respect, not pleasures. The afflictions target pleasure-seeking, not the fulfillment of relational duties.",
+          coreTension: "Between the Yom Kippur bathing prohibition, which would seem to forbid entering water at all, and the mitzva or protective purposes, visiting a parent or teacher, guarding fruit, attending a lecture, that require crossing a river to be fulfilled.",
+          coreMove: "The Gemara builds a graduated set of permissions: a baraita allows crossing water up to the neck to greet a father, teacher, or greater scholar, since the purpose is a mitzva rather than pleasure; Rava and a supporting baraita extend this to guarding fruit, and Rav Yosef extends it further to attending, and returning from, a Yom Kippur lecture, reasoning that barring the return trip would discourage attendance. A further rule restricts how one may cross, without lifting the cloak's hem, since raising it to stay dry would count as forbidden carrying. Rav Yosef then raises a safety limit from Ezekiel's graduated river depths, that water above the waist is too dangerous to cross, and Abaye narrows this to fast-flowing water specifically, since still water may be crossed even deeper.",
           takeaway: {
             type: "legal_principle",
-            text: "Social obligations of honor (visiting parents, greeting teachers) are not suspended by YK because they are relational duties, not pleasures; the five afflictions target only pleasure-seeking activities."
+            text: "A prohibition built around personal pleasure, like Yom Kippur's bathing restriction, can carve out real exceptions for mitzva or protective purposes, but those exceptions still carry their own safety and procedural limits, such as depth and how the crossing is physically done."
           },
-          learningBlocker: "Students may assume YK requires complete social withdrawal; the Gemara permits what is an expression of obligation rather than enjoyment."
+          learningBlocker: "Students may read this sugya as a general statement that visiting or greeting is permitted on Yom Kippur; the actual halakha is narrower and more technical, an exception to the bathing prohibition specifically for crossing water, with its own depth and procedural conditions."
         },
         lines: [
           { id: "yoma-077b-l16", kind: "gemara", he: "תָּנוּ רַבָּנַן: הַהוֹלֵךְ לְהַקְבִּיל פְּנֵי אָבִיו אוֹ\nפְּנֵי רַבּוֹ, אוֹ פְּנֵי מִי שֶׁגָּדוֹל מִמֶּנּוּ — עוֹבֵר עַד צַוָּארוֹ בְּמַיִם וְאֵינוֹ חוֹשֵׁשׁ.",
