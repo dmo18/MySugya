@@ -175436,16 +175436,16 @@ const DAF_CONTENT = {
           title: "River Crossing on Yom Kippur"
         },
         learning: {
-          ahaMoment: "Purpose and intention define the act: crossing a river is travel, not bathing - the same water contact can be prohibited or permitted depending on why you are in the water.",
-          memoryAnchor: "Cross to get there, not to bathe: intent determines whether water contact is prohibited.",
+          ahaMoment: "A rule can be lived out in a small, human moment: Ravina's foot pain and his careful adherence to a sandal-crossing stringency, even when it meant missing a lecture and needing to explain himself, shows halachic caution as lived practice, not abstract theory.",
+          memoryAnchor: "Shoes tied tight may cross water safely; loose sandals risk slipping off and being carried, so Rav Ashi rules: no sandals in water, ab initio. Ravina's own absence from Rafram's lecture traces back to this very rule.",
           learnerQuestion: "If you must cross a river on Yom Kippur, does wading through it violate the bathing prohibition?",
-          coreTension: "Between the bathing prohibition (which covers contact with water) and the practical necessity of crossing a body of water for legitimate purposes.",
-          coreMove: "The Gemara distinguishes purposeful bathing (prohibited) from incidental wetting while crossing for a legitimate reason (not prohibited). The prohibition targets the pleasure-act of bathing, not every form of water contact.",
+          coreTension: "Between the concern that a sandal might slip off in the water, requiring one to carry it and violate Shabbat, and the practical need to cross water to reach a lecture, a teacher, or another destination.",
+          coreMove: "The Gemara distinguishes tightly-tied shoes, which are unlikely to slip off in water, from loosely-fitting sandals, which pose a real risk of coming off and being carried. Though Ravina himself was once seen crossing in sandals, Rav Ashi rules that one should not cross water in sandals as a matter of first practice. The story of Ravina's absence from Rafram's lecture then illustrates the rule in action: his foot pain made regular shoes painful, and rather than cross the water to reach the lecture in exposed sandals, he stayed home, invoking Rav Ashi's own ruling as his justification.",
           takeaway: {
             type: "legal_principle",
-            text: "The YK bathing prohibition targets the act of bathing as pleasure-seeking; incidental water contact incurred while doing something else for a legitimate purpose does not violate it."
+            text: "A halachic caution against a low-probability risk, a sandal slipping off in water, shapes real decisions even at personal cost, such as missing a teacher's lecture, showing how legal stringency and lived practice reinforce each other."
           },
-          learningBlocker: "Students may think any contact with water on YK violates the prohibition; the distinction is between purposeful bathing and incidental wetting."
+          learningBlocker: "Students may assume this passage is about the Yom Kippur bathing prohibition, since it appears surrounded by Yom Kippur material; it is actually a Shabbat carrying concern, a sandal slipping off and being carried, illustrated by a real incident involving Ravina."
         },
         lines: [
           { id: "yoma-078a-l09", kind: "gemara", he: "(תִּינַח יוֹם הַכִּפּוּרִים דְּלֵיכָּא\nמִנְעָל,) שַׁבָּת דְּאִיכָּא מִנְעָל, מַאי? אֲמַר נְחֶמְיָה\nחַתְנֵיהּ דְּבֵי נְשִׂיאָה: אֲנָא חֲזֵיתֵיהּ לְרַבִּי אַמֵּי וְרַבִּי אַסִּי דִּמְטוֹ עוּרְקוּמָא דְמַיָּא,\nוְעַבְרוּהּ דֶּרֶךְ מַלְבּוּשׁ.",
