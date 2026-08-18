@@ -193991,7 +193991,7 @@ const DAF_CONTENT = {
   "86a": {
     canonicalRef: "Yoma 86a",
     daf: "86a",
-    summary: "Tractate Yoma daf 86a covers: Desecrating God's name: not atoned by any mechanism alone; What is 'bearing God's name in vain'? Clarification of the category; What circumstances cause a Torah scholar to desecrate God's name?; R. Hama bar Hanina: great repentance (teshuva rabbah) reaches the Divine Throne.",
+    summary: "Tractate Yoma daf 86a covers: Desecrating God's name: not atoned by any mechanism alone; Rabbi Matya ben Charash's question about the categories of atonement, and the fourth, hardest case of chilul Hashem; What circumstances cause a Torah scholar to desecrate God's name?; R. Hama bar Hanina: great repentance (teshuva rabbah) reaches the Divine Throne.",
     sugyot: [
       {
         id: "yoma-086a-s01",
@@ -194146,9 +194146,9 @@ const DAF_CONTENT = {
           endVilnaLine: 28
         },
         display: {
-          whats: "What is 'bearing God's name in vain'? Clarification of the category",
+          whats: "Rabbi Matya ben Charash asks Rabbi Elazar ben Azarya about the categories of atonement Rabbi Yishmael taught, and the Gemara details three ordinary categories plus the fourth, hardest case: one who desecrates God's name.",
           hint: "The Gemara clarifies what it means to 'bear God's name in vain': actions that cause others to view God's name with disrespect or to associate the Torah with dishonor.",
-          title: "What Constitutes Bearing God's Name in Vain"
+          title: "Four Categories of Atonement, and the Gravest Case"
         },
         learning: {
           ahaMoment: "The criterion is not the act but its social effect: does this behavior make people think less of God? If yes, it is chilul Hashem regardless of whether God was explicitly mentioned.",
@@ -194236,10 +194236,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of God's name in vain context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "Rabbi Yishmael taught four separate paths of atonement that work independently of repentance.",
@@ -194251,7 +194248,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "What is 'bearing God's name in vain'? Clarificatio"
+            item: "The four categories of atonement, culminating in chilul Hashem requiring death to complete atonement"
           }
         ],
         quizSeeds: [
@@ -194264,13 +194261,15 @@ const DAF_CONTENT = {
             answer: "It is the hardest case: repentance, Yom Kippur, and suffering together only suspend the punishment, and only death finally cleanses it, from 'this iniquity shall not be atoned for until you die' (Isaiah 22:14)."
           }
         ],
-        finalRuling: "The Gemara clarifies what it means to 'bear God's name in vain': actions that cause others to view God's name with disrespect or to associate the Tora",
+        finalRuling: "There are three categories of atonement, each requiring repentance: violating a positive mitzva is forgiven at once upon repentance; violating a prohibition has repentance suspend the sin while Yom Kippur completes atonement; and violating a sin punishable by karet or court-imposed death has repentance and Yom Kippur suspend the sin while subsequent suffering completes atonement. But for one who desecrates God's name (chilul Hashem), none of these three mechanisms, alone or together, can complete atonement; repentance, Yom Kippur, and suffering all suspend the sin together, and only death completes the atonement, per Isaiah 22:14.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "God's name in vain",
-          "desecration",
-          "definition"
+          "atonement",
+          "chilul-hashem",
+          "teshuva",
+          "yom-kippur",
+          "rabbi-matya-ben-charash"
         ],
         review: "draft"
       },
