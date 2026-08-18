@@ -175431,8 +175431,8 @@ const DAF_CONTENT = {
           endVilnaLine: 17
         },
         display: {
-          whats: "Crossing water on Yom Kippur: does it constitute prohibited bathing?",
-          hint: "The Gemara asks whether crossing a river or stream on Yom Kippur constitutes the prohibited bathing. The answer depends on intent and manner of crossing.",
+          whats: "Whether one may cross water while wearing shoes or sandals on Shabbat, given the risk that a loose sandal might slip off and be carried, illustrated by Ravina's own caution",
+          hint: "Why does Rav Ashi rule that one should not cross water in sandals on Shabbat, even though tightly-tied shoes are permitted, and how did Ravina apply this ruling to himself?",
           title: "River Crossing on Yom Kippur"
         },
         learning: {
@@ -175521,10 +175521,7 @@ const DAF_CONTENT = {
         ],
         conceptRefs: [],
         requiresUnderstanding: [],
-        prerequisiteKnowledge: [
-          "Background knowledge of crossing water context",
-          "Understanding of Yom Kippur halachic framework"
-        ],
+        prerequisiteKnowledge: [],
         misconceptions: [
           {
             misconception: "Learners assume the water-crossing rules are the same on Yom Kippur and Shabbat.",
@@ -175535,7 +175532,7 @@ const DAF_CONTENT = {
         visualizableElements: [
           {
             type: "action",
-            item: "Crossing water on Yom Kippur: does it constitute p"
+            item: "Rav Ashi's ruling against crossing water in sandals on Shabbat, and Ravina's own application of it"
           }
         ],
         quizSeeds: [
@@ -175548,14 +175545,15 @@ const DAF_CONTENT = {
             answer: "Ravina's foot pain ruled out closed shoes, sandals would have failed crossing a pool because of Rav Ashi's ban on crossing water in sandals, so he had no permissible footwear for the trip. His absence was a halachic constraint, not a slight to the Exilarch."
           }
         ],
-        finalRuling: "The Gemara asks whether crossing a river or stream on Yom Kippur constitutes the prohibited bathing. The answer depends on intent and manner of crossi",
+        finalRuling: "One may cross water wearing tightly-tied shoes on Shabbat, since they are unlikely to slip off, but Rav Ashi rules that one should not cross water in loose-fitting sandals as a matter of first practice, since a sandal might come off and be carried; Ravina applied this ruling to himself, missing a lecture rather than cross a pool in exposed sandals.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
-          "crossing water",
-          "bathing prohibition",
-          "YK",
-          "intent"
+          "shabbat-carrying",
+          "sandals",
+          "water-crossing",
+          "rav-ashi",
+          "ravina"
         ],
         review: "draft"
       },
