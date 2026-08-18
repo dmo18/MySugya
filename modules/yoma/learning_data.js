@@ -178393,7 +178393,7 @@ const DAF_CONTENT = {
             answer: "Rabbi Yehuda holds an egg-bulk is the measure of satisfying eating. Since a large date only 'settles the mind' rather than fully satisfies, it must be less than an egg; were it larger it would already satisfy and remove the affliction outright."
           }
         ],
-        finalRuling: "The Gemara discusses the egg-bulk (beitza) measure used in many halachic contexts, and how it relates to the YK eating measure. The discussion covers ",
+        finalRuling: "The large date-bulk measure for Yom Kippur eating liability is ultimately smaller than an egg-bulk. Though a date's large pit can make a single large date exceed the combined volume of two pitless dates, the firmest proof comes from the zimmun dispute: the egg-bulk represents the threshold of full satisfaction, while eating a large date only settles the mind without fully satisfying; since it does not reach that threshold, the large date-bulk must be smaller than an egg-bulk.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
