@@ -614,23 +614,23 @@
    "blockerReason": null
   },
   "yoma-084a-s01": {
-   "status": "FIXED_PENDING_REVIEW",
-   "prNumber": null,
+   "status": "APPROVED_PENDING_MERGE",
+   "prNumber": 575,
    "repairCommit": "493a7a2",
    "mergedCommit": null,
    "version": "15.575",
-   "reviewer": null,
-   "independentReviewResult": null,
+   "reviewer": "independent-general-purpose-agent",
+   "independentReviewResult": "APPROVED (PR #575). Independently reviewed the full diff 233f3c10..822b5b1, not a description of it, with heightened skepticism after PR #574's review caught a real fabrication. Scope isolation: exactly 8 files changed, matching the allowed set (.worker-manifest.json, VERSION, docs/rashi-audit-backlog.md, this progress file, modules/yoma/assets/learning/yoma/84a.learning.json, modules/yoma/learning_data.js, package-lock.json, package.json); playwright.config.js has zero diff. Within 84a.learning.json/learning_data.js only the finalRuling line on each of the two named sugyot changed; yoma-084a-s03 is byte-identical (absent from the diff). .worker-manifest.json declares type audited-sugya-enrichment-repair, targets [84a], auditRecordIds exactly [yoma-084a-s01, yoma-084a-s02]. Cross-checked each new finalRuling against daftexts/83b.txt-84a.txt and each sugya's own untouched argumentFlow, with specific attention to attribution risk: s01's claim that the kill-from-a-distance practice follows SHMUEL's view specifically (not Rav's) is directly confirmed by daftexts 83b line 42 (Shmuel = evil-spirit view) and 83b line 43/84a line 1 ('the difference between them concerns killing it - with a thrown object; a baraita was taught in accordance with Shmuel'); the rubbed-vs-bitten distinction and both remedies (strip-and-run vs. Abaye's spell-and-burial ritual) are accurate and not conflated or reversed. s02's 'to the God of Israel' oath-reading and the told-the-healer-at-the-outset detail are directly confirmed by daftexts lines 21-22, and independently corroborated by the sugya's own untouched argumentFlow step-03 and quizSeeds answer, which state the same two-part resolution. No fabrication found in either. Contract compliance verified for both: non-empty, not equal to or a prefix of display.hint, proper terminal punctuation, no ellipsis, no em/en dashes. Progress-file diff touches only the two yoma-084a-s0N records, walking NOT_STARTED -> IN_PROGRESS -> FIXED_PENDING_REVIEW legally, repairCommit 493a7a2 and version 15.575 set correctly on both, every other record byte-identical. docs/rashi-audit-backlog.md diff is the standard mechanical VERSION/hash regen only. Verdict: APPROVED.",
    "blockerReason": null
   },
   "yoma-084a-s02": {
-   "status": "FIXED_PENDING_REVIEW",
-   "prNumber": null,
+   "status": "APPROVED_PENDING_MERGE",
+   "prNumber": 575,
    "repairCommit": "493a7a2",
    "mergedCommit": null,
    "version": "15.575",
-   "reviewer": null,
-   "independentReviewResult": null,
+   "reviewer": "independent-general-purpose-agent",
+   "independentReviewResult": "APPROVED (PR #575). Independently reviewed the full diff 233f3c10..822b5b1, not a description of it, with heightened skepticism after PR #574's review caught a real fabrication. Scope isolation: exactly 8 files changed, matching the allowed set (.worker-manifest.json, VERSION, docs/rashi-audit-backlog.md, this progress file, modules/yoma/assets/learning/yoma/84a.learning.json, modules/yoma/learning_data.js, package-lock.json, package.json); playwright.config.js has zero diff. Within 84a.learning.json/learning_data.js only the finalRuling line on each of the two named sugyot changed; yoma-084a-s03 is byte-identical (absent from the diff). .worker-manifest.json declares type audited-sugya-enrichment-repair, targets [84a], auditRecordIds exactly [yoma-084a-s01, yoma-084a-s02]. Cross-checked each new finalRuling against daftexts/83b.txt-84a.txt and each sugya's own untouched argumentFlow, with specific attention to attribution risk: s01's claim that the kill-from-a-distance practice follows SHMUEL's view specifically (not Rav's) is directly confirmed by daftexts 83b line 42 (Shmuel = evil-spirit view) and 83b line 43/84a line 1 ('the difference between them concerns killing it - with a thrown object; a baraita was taught in accordance with Shmuel'); the rubbed-vs-bitten distinction and both remedies (strip-and-run vs. Abaye's spell-and-burial ritual) are accurate and not conflated or reversed. s02's 'to the God of Israel' oath-reading and the told-the-healer-at-the-outset detail are directly confirmed by daftexts lines 21-22, and independently corroborated by the sugya's own untouched argumentFlow step-03 and quizSeeds answer, which state the same two-part resolution. No fabrication found in either. Contract compliance verified for both: non-empty, not equal to or a prefix of display.hint, proper terminal punctuation, no ellipsis, no em/en dashes. Progress-file diff touches only the two yoma-084a-s0N records, walking NOT_STARTED -> IN_PROGRESS -> FIXED_PENDING_REVIEW legally, repairCommit 493a7a2 and version 15.575 set correctly on both, every other record byte-identical. docs/rashi-audit-backlog.md diff is the standard mechanical VERSION/hash regen only. Verdict: APPROVED.",
    "blockerReason": null
   },
   "yoma-084b-s02": {
