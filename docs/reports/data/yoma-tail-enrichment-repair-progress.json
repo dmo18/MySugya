@@ -584,7 +584,7 @@
    "blockerReason": null
   },
   "yoma-083b-s01": {
-   "status": "NOT_STARTED",
+   "status": "IN_PROGRESS",
    "prNumber": null,
    "repairCommit": null,
    "mergedCommit": null,
@@ -594,7 +594,7 @@
    "blockerReason": null
   },
   "yoma-083b-s02": {
-   "status": "NOT_STARTED",
+   "status": "IN_PROGRESS",
    "prNumber": null,
    "repairCommit": null,
    "mergedCommit": null,
@@ -604,7 +604,7 @@
    "blockerReason": null
   },
   "yoma-083b-s04": {
-   "status": "NOT_STARTED",
+   "status": "IN_PROGRESS",
    "prNumber": null,
    "repairCommit": null,
    "mergedCommit": null,
