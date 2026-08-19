@@ -634,23 +634,23 @@
    "blockerReason": null
   },
   "yoma-084b-s02": {
-   "status": "FIXED_PENDING_REVIEW",
-   "prNumber": null,
+   "status": "APPROVED_PENDING_MERGE",
+   "prNumber": 576,
    "repairCommit": "4ae95c6",
    "mergedCommit": null,
    "version": "15.576",
-   "reviewer": null,
-   "independentReviewResult": null,
+   "reviewer": "independent-general-purpose-agent",
+   "independentReviewResult": "APPROVED (PR #576). Independently reviewed the full diff a334caf..de078b6, not a description of it, with heightened skepticism after PR #574's review caught a real fabrication. Scope isolation: exactly 8 files changed, matching the allowed set (.worker-manifest.json, VERSION, docs/rashi-audit-backlog.md, this progress file, modules/yoma/assets/learning/yoma/84b.learning.json, modules/yoma/learning_data.js, package-lock.json, package.json); playwright.config.js has zero diff. Within 84b.learning.json/learning_data.js only the finalRuling line on each of the two named sugyot changed; yoma-084b-s01 and yoma-084b-s03 (already repaired via PR #537) are byte-identical. .worker-manifest.json declares type audited-sugya-enrichment-repair, targets [84b], auditRecordIds exactly [yoma-084b-s02, yoma-084b-s04]. Cross-checked each new finalRuling against daftexts/84b.txt and each sugya's own untouched argumentFlow, additionally verifying against that sugya's own Rashi translations for s04: s02 (lines 14-24) accurately represents the future-Shabbat framing, the eight-day treatment case, and the who-decides restriction to the foremost Jewish scholars, none conflated; s04 (lines 35-46) accurately represents the gentile-majority-group courtyard case, clearing debris regardless of the 'whatever separates comes from the majority' principle, the Rabbi Yochanan whole-group-vs-partial reconciliation (matching Rashi lines 59-60 verbatim), and the found-child sustenance-vs-lineage distinction, with no inversion or conflation of the gentile/Jewish majority direction. No fabricated claims found. Contract compliance verified for both: non-empty, not equal to or a prefix of display.hint, proper terminal punctuation, no ellipsis, no em/en dashes; also confirmed via validate_enrichment_contracts.py --targets for both sugyot: target-clean, no new debt. Progress-file diff touches only the two yoma-084b-s0N records, walking NOT_STARTED -> IN_PROGRESS -> FIXED_PENDING_REVIEW legally, repairCommit 4ae95c6 and version 15.576 set correctly on both, every other record including s01/s03 byte-identical. docs/rashi-audit-backlog.md diff is the standard mechanical VERSION/hash regen only. Verdict: APPROVED.",
    "blockerReason": null
   },
   "yoma-084b-s04": {
-   "status": "FIXED_PENDING_REVIEW",
-   "prNumber": null,
+   "status": "APPROVED_PENDING_MERGE",
+   "prNumber": 576,
    "repairCommit": "4ae95c6",
    "mergedCommit": null,
    "version": "15.576",
-   "reviewer": null,
-   "independentReviewResult": null,
+   "reviewer": "independent-general-purpose-agent",
+   "independentReviewResult": "APPROVED (PR #576). Independently reviewed the full diff a334caf..de078b6, not a description of it, with heightened skepticism after PR #574's review caught a real fabrication. Scope isolation: exactly 8 files changed, matching the allowed set (.worker-manifest.json, VERSION, docs/rashi-audit-backlog.md, this progress file, modules/yoma/assets/learning/yoma/84b.learning.json, modules/yoma/learning_data.js, package-lock.json, package.json); playwright.config.js has zero diff. Within 84b.learning.json/learning_data.js only the finalRuling line on each of the two named sugyot changed; yoma-084b-s01 and yoma-084b-s03 (already repaired via PR #537) are byte-identical. .worker-manifest.json declares type audited-sugya-enrichment-repair, targets [84b], auditRecordIds exactly [yoma-084b-s02, yoma-084b-s04]. Cross-checked each new finalRuling against daftexts/84b.txt and each sugya's own untouched argumentFlow, additionally verifying against that sugya's own Rashi translations for s04: s02 (lines 14-24) accurately represents the future-Shabbat framing, the eight-day treatment case, and the who-decides restriction to the foremost Jewish scholars, none conflated; s04 (lines 35-46) accurately represents the gentile-majority-group courtyard case, clearing debris regardless of the 'whatever separates comes from the majority' principle, the Rabbi Yochanan whole-group-vs-partial reconciliation (matching Rashi lines 59-60 verbatim), and the found-child sustenance-vs-lineage distinction, with no inversion or conflation of the gentile/Jewish majority direction. No fabricated claims found. Contract compliance verified for both: non-empty, not equal to or a prefix of display.hint, proper terminal punctuation, no ellipsis, no em/en dashes; also confirmed via validate_enrichment_contracts.py --targets for both sugyot: target-clean, no new debt. Progress-file diff touches only the two yoma-084b-s0N records, walking NOT_STARTED -> IN_PROGRESS -> FIXED_PENDING_REVIEW legally, repairCommit 4ae95c6 and version 15.576 set correctly on both, every other record including s01/s03 byte-identical. docs/rashi-audit-backlog.md diff is the standard mechanical VERSION/hash regen only. Verdict: APPROVED.",
    "blockerReason": null
   },
   "yoma-085a-s01": {
