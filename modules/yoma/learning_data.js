@@ -183841,7 +183841,7 @@ const DAF_CONTENT = {
             answer: "Rav Huna and Rav Nachman hold there is a rabbinic obligation to complete the fast a year or two before maturity; Rabbi Yochanan holds there is no such rabbinic completion obligation before maturity."
           }
         ],
-        finalRuling: "The Mishna rules that minor children are not required to fast on Yom Kippur, but in the year before they reach majority, they are trained to fast for ",
+        finalRuling: "Minor children are not required to fast on Yom Kippur but are trained beforehand for increasing portions of the day, and Rav Chisda resolves the apparent contradiction between training a year before maturity and training two years before by explaining they describe different children: a feeble child trains for one year, a healthy child for two.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -184118,7 +184118,7 @@ const DAF_CONTENT = {
             answer: "Idolatry, forbidden sexual relations, and bloodshed; idolatry is anchored in 'with all your soul' from Deuteronomy 6:5, requiring one to give his life rather than worship idols."
           }
         ],
-        finalRuling: "The Mishna addresses a pregnant woman who smells food on Yom Kippur and becomes unwell: she is fed until she recovers, even though it is Yom Kippur.",
+        finalRuling: "A pregnant woman's craving is fed by degrees, up to the forbidden food itself if lesser measures do not settle her, since danger to life overrides every prohibition except idolatry, forbidden relations, and bloodshed; Rabbi Eliezer derives the idolatry exception from Deuteronomy's doubled 'with all your soul' and 'with all your might,' which together require forfeiting life rather than serve idols whether one values his body or his property more.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
