@@ -304,13 +304,25 @@ Never skip step 1 between records -- the queue/progress files and
 effective status from a stale local checkout is exactly the kind of drift
 this protocol exists to prevent.
 
-## Status snapshot
+## Status: COMPLETE
 
-This section is a point-in-time snapshot for historical orientation, not a
+All 82 queued records are effectively COMPLETE, independently verified by a
+closeout audit run fresh from `origin/main` following this plan's own
+"Campaign completion protocol" (real git/manifest evidence via
+`derive_effective_status`, not stored-status prose). Full detail, evidence,
+and the resolution of every item in the historical snapshot below (all were
+closed by later merged PRs) is recorded in
+`docs/reports/yoma-tail-enrichment-repair-closeout.md`. That report is the
+current source of truth for campaign status; this section is retained only
+as the historical snapshot that preceded closeout.
+
+## Status snapshot (historical, superseded by the Status section above)
+
+This section was a point-in-time snapshot for historical orientation, not a
 maintained live status list (see "Campaign completion protocol" above for
 why: a fresh agent must always recompute effective status from `origin/main`
 rather than trust prose here). Snapshot as of the tooling PR that added this
-section:
+section, before closeout:
 
 **Repaired (effectively COMPLETE, stored `APPROVED_PENDING_MERGE`, merge
 evidence present):**
@@ -319,7 +331,8 @@ evidence present):**
 - `yoma-082b-s02`
 - `yoma-087b-s03`
 
-**Known residual follow-ups, discovered from live data, not yet closed:**
+**Known residual follow-ups, discovered from live data, not yet closed (at
+that time):**
 
 1. `yoma-082b-s01` `prerequisiteKnowledge` still carries stale pre-repair
    Yom-Kippur-oriented boilerplate.
@@ -334,4 +347,5 @@ evidence present):**
 5. `yoma-080a-s01` and `yoma-080b-s03` are the next two original priority
    repairs (positions 3 and 4) and remain unrepaired as of this snapshot.
 
-**Everything else in the queue:** `NOT_STARTED`, in `queuePosition` order.
+All five items above were subsequently closed by later merged PRs; see the
+closeout report for independent confirmation.
