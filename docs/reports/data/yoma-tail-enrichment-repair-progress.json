@@ -494,21 +494,21 @@
    "blockerReason": null
   },
   "yoma-081b-s01": {
-   "status": "IN_PROGRESS",
+   "status": "FIXED_PENDING_REVIEW",
    "prNumber": null,
-   "repairCommit": null,
+   "repairCommit": "4e4d748",
    "mergedCommit": null,
-   "version": null,
+   "version": "15.571",
    "reviewer": null,
    "independentReviewResult": null,
    "blockerReason": null
   },
   "yoma-081b-s02": {
-   "status": "IN_PROGRESS",
+   "status": "FIXED_PENDING_REVIEW",
    "prNumber": null,
-   "repairCommit": null,
+   "repairCommit": "4e4d748",
    "mergedCommit": null,
-   "version": null,
+   "version": "15.571",
    "reviewer": null,
    "independentReviewResult": null,
    "blockerReason": null
