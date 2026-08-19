@@ -534,7 +534,7 @@
    "blockerReason": null
   },
   "yoma-083a-s01": {
-   "status": "NOT_STARTED",
+   "status": "IN_PROGRESS",
    "prNumber": null,
    "repairCommit": null,
    "mergedCommit": null,
@@ -544,7 +544,7 @@
    "blockerReason": null
   },
   "yoma-083a-s02": {
-   "status": "NOT_STARTED",
+   "status": "IN_PROGRESS",
    "prNumber": null,
    "repairCommit": null,
    "mergedCommit": null,
@@ -554,7 +554,7 @@
    "blockerReason": null
   },
   "yoma-083a-s03": {
-   "status": "NOT_STARTED",
+   "status": "IN_PROGRESS",
    "prNumber": null,
    "repairCommit": null,
    "mergedCommit": null,
@@ -564,7 +564,7 @@
    "blockerReason": null
   },
   "yoma-083a-s04": {
-   "status": "NOT_STARTED",
+   "status": "IN_PROGRESS",
    "prNumber": null,
    "repairCommit": null,
    "mergedCommit": null,
@@ -574,7 +574,7 @@
    "blockerReason": null
   },
   "yoma-083a-s05": {
-   "status": "NOT_STARTED",
+   "status": "IN_PROGRESS",
    "prNumber": null,
    "repairCommit": null,
    "mergedCommit": null,
