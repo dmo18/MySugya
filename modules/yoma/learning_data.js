@@ -191175,7 +191175,7 @@ const DAF_CONTENT = {
             answer: "The mistaken reading was that Shmuel applied 'follow the majority' even to life-saving, which would bar clearing debris in a gentile-majority town. The correction: Shmuel spoke only about the child's legal status, not about saving a life."
           }
         ],
-        finalRuling: "Shmuel rules: if a child is found in a pile of rubble on YK, whether we violate YK to save them depends on the majority composition of the local popul",
+        finalRuling: "Shmuel's ruling about the found child concerns only his status, such as lineage, where following the local majority is a leniency; for saving a life, majority does not control, so one clears the debris regardless of whether the local population is majority gentile or Jewish.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -191299,7 +191299,7 @@ const DAF_CONTENT = {
             answer: "A Jew pays only half-damages for a tam ox, while a gentile pays in full. As a presumed Jew he pays half, and he can tell the victim: bring proof I am a gentile if you want the rest. The burden of proof shifts to the victim."
           }
         ],
-        finalRuling: "If the majority of the local population is gentile, the Gemara debates whether we still assume the buried person might be Jewish and violate YK.",
+        finalRuling: "A foundling in a gentile-majority town is treated as a gentile for practical purposes, so one need not shield him from every prohibition and may even feed him non-kosher food; in a half-gentile-half-Jewish town he is treated as a Jew specifically where that benefits him as a defendant, such as when his innocuous ox gores a Jew's ox and he pays only half damages, placing the burden on the claimant to prove he is not Jewish for the other half.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -191405,7 +191405,7 @@ const DAF_CONTENT = {
             answer: "It escalates from the obviously permitted (doubt about his presence) to the genuinely novel (doubt about his Jewish status), showing that even compounded uncertainty does not stop us from saving a possible life."
           }
         ],
-        finalRuling: "A pile of rocks collapses on someone on Yom Kippur: we remove the rocks to save the person, violating YK prohibitions as necessary.",
+        finalRuling: "The Mishnah's three stacked doubts, presence, life, and identity, escalate from the obvious to the surprising: the real teaching is that one clears the debris even when it is uncertain whether the buried person is a gentile at all, not merely when his presence or survival is in doubt.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -191495,7 +191495,7 @@ const DAF_CONTENT = {
             answer: "Chayei sha'ah is fleeting life, where the person will certainly die soon. The sugya establishes that saving even such fleeting life overrides Shabbat."
           }
         ],
-        finalRuling: "If we find the person alive while removing rocks, we continue until they are completely freed; if we find them dead at any point, we stop removing roc",
+        finalRuling: "The Mishnah's ruling to keep clearing once the victim is found alive teaches more than the obvious: one continues even when it is clear the victim will only live a short while longer, since even a brief remnant of life is life worth saving.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -191629,7 +191629,7 @@ const DAF_CONTENT = {
             answer: "When uncovering the body from the feet upward. Then checking to the heart is not enough - one must reach the nose. But uncovering from the head down, once you check the nose and find no breath, you may stop."
           }
         ],
-        finalRuling: "Once a person is found dead, we do not continue the YK violation for the sake of a corpse - the override is for saving life, not for honoring the dead",
+        finalRuling: "The ruling to stop once the victim is found dead is needed against Rabbi Yehuda ben Lakish's view that one may save a corpse from fire on Shabbat; even he limits that to fire, where a person's agitation over his burning dead might lead him to extinguish the flames, a concern absent in a stable collapse. Life is checked for up to the nose, or some say the heart, and finding the upper bodies dead in a multi-person collapse does not permit assuming the lower ones are dead too; Rav Pappa adds that the nose-versus-heart difference matters only when digging from the feet upward, since digging from the head down, reaching the nose without breath already ends the search.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -191751,7 +191751,7 @@ const DAF_CONTENT = {
             answer: "A murderer-priest is removed even from the altar for execution, but only before he begins the service. 'From on top of My altar' - once mid-service - he is not interrupted to be executed; that interruption is reserved, as the next sugya shows, for saving a life."
           }
         ],
-        finalRuling: "Three Tannaim offer different scriptural sources for the principle that saving life overrides Yom Kippur - each derivation illuminates a different fac",
+        finalRuling: "Rabbi Yishmael derives that saving a life overrides Shabbat by a kal vachomer from the housebreaker: since a homeowner may kill a nighttime intruder on mere uncertainty whether he came to steal or to kill, though bloodshed defiles the land, all the more so life-saving overrides Shabbat. Rabbi Akiva derives it from the verse that a murderer-priest is taken even from the altar to be executed, but not taken down from the altar once he has begun the service, establishing that only killing, not interrupting the Temple service, is what 'taken from the altar' authorizes.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
