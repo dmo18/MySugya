@@ -614,7 +614,7 @@
    "blockerReason": null
   },
   "yoma-084a-s01": {
-   "status": "NOT_STARTED",
+   "status": "IN_PROGRESS",
    "prNumber": null,
    "repairCommit": null,
    "mergedCommit": null,
@@ -624,7 +624,7 @@
    "blockerReason": null
   },
   "yoma-084a-s02": {
-   "status": "NOT_STARTED",
+   "status": "IN_PROGRESS",
    "prNumber": null,
    "repairCommit": null,
    "mergedCommit": null,

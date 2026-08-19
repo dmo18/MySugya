@@ -188545,7 +188545,7 @@ const DAF_CONTENT = {
             answer: "One merely rubbed becomes dangerously ill and is treated by stripping and running, while one actually bitten will die and requires the elaborate remedy Abaye describes."
           }
         ],
-        finalRuling: "The Gemara discusses how to deal with a mad dog and what signs indicate rabies. The mad dog may be killed even on Shabbat if it poses immediate danger",
+        finalRuling: "The practical difference between Rav and Shmuel is that, following Shmuel's view that an evil spirit rests on the dog, one kills a mad dog only with a thrown object, avoiding direct contact, since one merely rubbed by it becomes dangerously ill (remedied by stripping off one's clothing and running) while one actually bitten will die, for which Abaye prescribes an elaborate spell-and-burial remedy.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -188668,7 +188668,7 @@ const DAF_CONTENT = {
             answer: "He swore only not to reveal it 'to the God of the Jews,' implying he could reveal it to the Jewish people, and he had warned the healer at the outset that the vow would not bind him."
           }
         ],
-        finalRuling: "R. Matya ben Harash rules that one suffering from throat pain on Yom Kippur may take medicine, as the throat is near vital organs and danger to life i",
+        finalRuling: "Rabbi Yochanan could publicize the cure despite swearing not to reveal it, because his oath was phrased as an oath 'to the God of Israel,' which he read as barring disclosure to God but not to the people of Israel, and because he had told the healer at the outset that his vow would not stop him from publicizing a remedy, so as to avoid desecrating God's name.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
