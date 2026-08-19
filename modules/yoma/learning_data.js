@@ -192793,7 +192793,7 @@ const DAF_CONTENT = {
             answer: "A person being robbed will not stand by while his money is taken, so the burglar anticipates resistance and is presumed ready to kill. The threat is therefore certain, not doubtful, so the case cannot prove that doubtful danger overrides Shabbat."
           }
         ],
-        finalRuling: "The verse 'you shall live by them' (Lev 18:5) is interpreted as 'live by the commandments, not die because of them' - the primary source for violating",
+        finalRuling: "The accepted ruling follows Shmuel's derivation from 'you shall live by them, and not die by them' (Leviticus 18:5): Shabbat and Yom Kippur are overridden even for doubtful danger to life, not only certain danger, since every other proof establishes only that certain danger overrides Shabbat.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -192938,7 +192938,7 @@ const DAF_CONTENT = {
             answer: "Yom Kippur does not atone for sins committed in reliance on it. Treating atonement as a license to sin forfeits that atonement."
           }
         ],
-        finalRuling: "The Mishna presents four atonement mechanisms: sin-offering, positive commandment transgression, Yom Kippur, and death combined with repentance. Each ",
+        finalRuling: "Sin-offerings and definite guilt-offerings atone outright; death and Yom Kippur atone together with repentance; repentance alone atones for lighter sins and suspends punishment for severe ones until Yom Kippur completes it. Yom Kippur fully atones for sins between a person and God, but for sins against another person it atones only after the offender appeases the victim.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -193046,7 +193046,7 @@ const DAF_CONTENT = {
             answer: "The Mishnah can be read as: repentance still needs Yom Kippur to complete atonement, while Yom Kippur does not need repentance. So it does not have to contradict Rabbi."
           }
         ],
-        finalRuling: "Death combined with YK atones for the most severe sins when accompanied by repentance; the two together accomplish what neither could alone.",
+        finalRuling: "Death and Yom Kippur atone together with repentance, and this does not contradict Rabbi's view that Yom Kippur atones for most sins even without repentance: repentance needs Yom Kippur to complete its atonement, but Yom Kippur's own atoning power does not depend on repentance.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -193152,7 +193152,7 @@ const DAF_CONTENT = {
             answer: "A prohibition the Torah pairs with a corrective positive act. Because it can be set right by performing that act, the court does not impose lashes, and it is treated with the leniency of a positive mitzva."
           }
         ],
-        finalRuling: "Repentance alone atones for the lightest categories of sin - the teshuva itself is sufficient without requiring further ritual.",
+        finalRuling: "Repentance fully atones for a positive commandment and for a negative commandment correctable by a positive act (a lav that is nitak la'aseh); it does not by itself atone for a plain, uncorrectable prohibition, which still requires Yom Kippur or death to complete the atonement.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
