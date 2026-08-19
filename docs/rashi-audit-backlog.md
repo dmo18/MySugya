@@ -23,8 +23,8 @@ with `python3 scripts/generate_rashi_docs.py` and the freshness gate
 from the baseline.
 
 <!-- rashi-status-summary:begin (regenerate with `python3 scripts/generate_rashi_docs.py`; do not hand-edit) -->
-- Current VERSION: 15.578
-- Generated from commit: 5bc5241 (the commit this doc was generated from, necessarily pre-merge for the PR that carries this change; it will differ from live main's HEAD immediately after that PR merges by design, since a PR's own merge commit does not exist yet at generation time. Not a staleness signal; see the freshness gate for what actually indicates staleness.)
+- Current VERSION: 15.579
+- Generated from commit: 0125023 (the commit this doc was generated from, necessarily pre-merge for the PR that carries this change; it will differ from live main's HEAD immediately after that PR merges by design, since a PR's own merge commit does not exist yet at generation time. Not a staleness signal; see the freshness gate for what actually indicates staleness.)
 - Total scaffold-debt entries (all rules, current inventory): 0
 - Unique affected daf: 0
 - Tracked daf in status table: 93 (93 resolved, 0 open)
@@ -64,99 +64,99 @@ Context on the two rule families tracked in the table:
 <!-- scaffold-status-table:begin (regenerate with `python3 scripts/generate_rashi_docs.py`; do not hand-edit rows) -->
 | daf | contaminated | total | severity | task recommendation | status | last verified |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2b | 0 | 29 | 0% | rashi-repair (after fresh semantic verification) | resolved | 5bc5241 |
-| 3a | 0 | 38 | 0% | rashi-repair (after fresh semantic verification) | resolved | 5bc5241 |
-| 3b | 0 | 49 | 0% | rashi-reconstruction | resolved | 5bc5241 |
-| 4a | 0 | 56 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 7b | 0 | 18 | 0% | rashi-repair (after fresh semantic verification) | resolved | 5bc5241 |
-| 10a | 0 | 35 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 10b | 0 | 21 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 11a | 0 | 43 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 11b | 0 | 39 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 12a | 0 | 66 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 12b | 0 | 62 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 13a | 0 | 29 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 13b | 0 | 28 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 14a | 0 | 58 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 14b | 0 | 59 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 15a | 0 | 66 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 15b | 0 | 66 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 16a | 0 | 61 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 16b | 0 | 62 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 17a | 0 | 45 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 17b | 0 | 33 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 18a | 0 | 58 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 18b | 0 | 34 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 19a | 0 | 58 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 19b | 0 | 68 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 20a | 0 | 41 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 20b | 0 | 62 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 21a | 0 | 62 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 21b | 0 | 46 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 22a | 0 | 65 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 22b | 0 | 35 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 23a | 0 | 45 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 23b | 0 | 65 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 24a | 0 | 47 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 24b | 0 | 65 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 25a | 0 | 61 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 25b | 0 | 62 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 26a | 0 | 42 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 26b | 0 | 61 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 27a | 0 | 53 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 27b | 0 | 44 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 28a | 0 | 45 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 28b | 0 | 79 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 29a | 0 | 56 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 29b | 0 | 54 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 30a | 0 | 54 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 30b | 0 | 51 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 31a | 0 | 37 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 31b | 0 | 63 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 32a | 0 | 62 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 32b | 0 | 55 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 33a | 0 | 64 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 33b | 0 | 60 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 34a | 0 | 46 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 34b | 0 | 40 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 35a | 0 | 14 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 35b | 0 | 58 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 36a | 0 | 54 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 36b | 0 | 62 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 37a | 0 | 71 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 37b | 0 | 25 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 38a | 0 | 37 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 38b | 0 | 49 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 39a | 0 | 59 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 39b | 0 | 65 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 40a | 0 | 65 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 40b | 0 | 43 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 41b | 0 | 74 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 42a | 0 | 52 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 42b | 0 | 60 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 43a | 0 | 65 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 43b | 0 | 59 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 44a | 0 | 60 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 44b | 0 | 60 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 45a | 0 | 44 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 45b | 0 | 29 | 0% | rashi-repair (after fresh semantic verification) | resolved | 5bc5241 |
-| 46a | 0 | 32 | 0% | rashi-repair (after fresh semantic verification) | resolved | 5bc5241 |
-| 47a | 0 | 64 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 47b | 0 | 65 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 48a | 0 | 42 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 48b | 0 | 26 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 49a | 0 | 64 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 49b | 0 | 21 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 72a | 0 | 31 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 72b | 0 | 100 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 73a | 0 | 65 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 73b | 0 | 58 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 74a | 0 | 55 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 74b | 0 | 42 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 75a | 0 | 49 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 75b | 0 | 46 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 76a | 0 | 47 | 0% | none (repaired and verified) | resolved | 5bc5241 |
-| 76b | 0 | 44 | 0% | none (repaired and verified) | resolved | 5bc5241 |
+| 2b | 0 | 29 | 0% | rashi-repair (after fresh semantic verification) | resolved | 0125023 |
+| 3a | 0 | 38 | 0% | rashi-repair (after fresh semantic verification) | resolved | 0125023 |
+| 3b | 0 | 49 | 0% | rashi-reconstruction | resolved | 0125023 |
+| 4a | 0 | 56 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 7b | 0 | 18 | 0% | rashi-repair (after fresh semantic verification) | resolved | 0125023 |
+| 10a | 0 | 35 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 10b | 0 | 21 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 11a | 0 | 43 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 11b | 0 | 39 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 12a | 0 | 66 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 12b | 0 | 62 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 13a | 0 | 29 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 13b | 0 | 28 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 14a | 0 | 58 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 14b | 0 | 59 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 15a | 0 | 66 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 15b | 0 | 66 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 16a | 0 | 61 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 16b | 0 | 62 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 17a | 0 | 45 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 17b | 0 | 33 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 18a | 0 | 58 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 18b | 0 | 34 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 19a | 0 | 58 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 19b | 0 | 68 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 20a | 0 | 41 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 20b | 0 | 62 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 21a | 0 | 62 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 21b | 0 | 46 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 22a | 0 | 65 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 22b | 0 | 35 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 23a | 0 | 45 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 23b | 0 | 65 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 24a | 0 | 47 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 24b | 0 | 65 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 25a | 0 | 61 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 25b | 0 | 62 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 26a | 0 | 42 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 26b | 0 | 61 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 27a | 0 | 53 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 27b | 0 | 44 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 28a | 0 | 45 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 28b | 0 | 79 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 29a | 0 | 56 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 29b | 0 | 54 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 30a | 0 | 54 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 30b | 0 | 51 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 31a | 0 | 37 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 31b | 0 | 63 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 32a | 0 | 62 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 32b | 0 | 55 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 33a | 0 | 64 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 33b | 0 | 60 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 34a | 0 | 46 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 34b | 0 | 40 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 35a | 0 | 14 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 35b | 0 | 58 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 36a | 0 | 54 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 36b | 0 | 62 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 37a | 0 | 71 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 37b | 0 | 25 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 38a | 0 | 37 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 38b | 0 | 49 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 39a | 0 | 59 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 39b | 0 | 65 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 40a | 0 | 65 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 40b | 0 | 43 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 41b | 0 | 74 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 42a | 0 | 52 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 42b | 0 | 60 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 43a | 0 | 65 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 43b | 0 | 59 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 44a | 0 | 60 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 44b | 0 | 60 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 45a | 0 | 44 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 45b | 0 | 29 | 0% | rashi-repair (after fresh semantic verification) | resolved | 0125023 |
+| 46a | 0 | 32 | 0% | rashi-repair (after fresh semantic verification) | resolved | 0125023 |
+| 47a | 0 | 64 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 47b | 0 | 65 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 48a | 0 | 42 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 48b | 0 | 26 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 49a | 0 | 64 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 49b | 0 | 21 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 72a | 0 | 31 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 72b | 0 | 100 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 73a | 0 | 65 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 73b | 0 | 58 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 74a | 0 | 55 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 74b | 0 | 42 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 75a | 0 | 49 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 75b | 0 | 46 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 76a | 0 | 47 | 0% | none (repaired and verified) | resolved | 0125023 |
+| 76b | 0 | 44 | 0% | none (repaired and verified) | resolved | 0125023 |
 <!-- scaffold-status-table:end -->
 
 The remediation campaign runs one daf per PR (order and per-batch bounds in
