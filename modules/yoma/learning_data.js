@@ -185599,7 +185599,7 @@ const DAF_CONTENT = {
             answer: "He hoarded fruit during famine years in order to drive up prices and profit at the expense of the poor."
           }
         ],
-        finalRuling: "R. Yochanan interprets 'the wicked estranged from the womb' as referring to the innate evil inclination present from birth.",
+        finalRuling: "",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -185704,7 +185704,7 @@ const DAF_CONTENT = {
             answer: "Because illness can cloud the patient's judgment with confusion, so he may fail to recognize his own need, and we err toward saving life."
           }
         ],
-        finalRuling: "An ill person on Yom Kippur may be fed based on expert (physician) judgment, even without the patient's request.",
+        finalRuling: "Rabbi Yannai qualifies the Mishnah's rule in two directions: when the patient says he needs to eat and the doctor disagrees, we feed him, since he alone feels the bitterness of his own soul, but when the doctor says he needs to eat and the patient disagrees, we follow the doctor, since illness has clouded the patient's own judgment.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -185894,7 +185894,7 @@ const DAF_CONTENT = {
             answer: "The patient is fed, because 'the heart knows the bitterness of its soul' - his own sense of danger overrides any number of experts who disagree."
           }
         ],
-        finalRuling: "The Gemara debates: if an ill person needs to eat on YK, do we rely on the physician's assessment or does the patient's own statement of need override",
+        finalRuling: "The sugya concludes that a patient who says he needs to eat is fed even against a hundred experts who disagree, since only he can gauge the bitterness of his own soul; the Mishnah's requirement of consulting experts applies only to the reverse case, where the patient himself denies needing food.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -186033,7 +186033,7 @@ const DAF_CONTENT = {
             answer: "When his vision returns he can again distinguish good food from bad, or per Abaye distinguish tastes even in the dark, whereas under bulmos he eats indiscriminately."
           }
         ],
-        finalRuling: "The Mishna: someone seized with an extreme hunger attack (bulmos) is fed even non-kosher food to save their life - in emergency, non-kosher overrides ",
+        finalRuling: "In every case of uncertain danger to life, the doubt is resolved leniently to save life: a bulmos sufferer is fed even non-kosher food until his sight returns, one with throat pain may receive medicine even on Shabbat, and a possible rockslide victim is dug out despite every uncertainty about his presence, survival, or identity, since uncertain danger to life overrides Shabbat and other prohibitions alike.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
@@ -186156,7 +186156,7 @@ const DAF_CONTENT = {
             answer: "Only where tithing is impossible; one holds untithed produce is worse since it is forbidden to all, the other holds teruma is worse since non-priests may never eat it."
           }
         ],
-        finalRuling: "The Sages explain why non-kosher is the first thing to give the person with bulmos: sometimes it is more readily available or quickly effective.",
+        finalRuling: "When a bulmos sufferer must be fed forbidden food, the least severe prohibition is given first: non-kosher meat is fed before untithed produce, since untithed produce carries death by Heaven while non-kosher meat carries only lashes, and if the produce can be tithed, even on Shabbat, all agree to tithe it rather than resort to any forbidden food; the tannaim dispute the ranking of untithed produce against teruma only when tithing is impossible.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
