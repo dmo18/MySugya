@@ -2,7 +2,7 @@
  "type": "audited-sugya-enrichment-repair",
  "module": "yoma",
  "targets": [
-  "81a"
+  "81b"
  ],
  "model": "sonnet",
  "paused": false,
@@ -78,10 +78,8 @@
  "scaffoldDebt": null,
  "repetitionDrain": null,
  "auditRecordIds": [
-  "yoma-081a-s01",
-  "yoma-081a-s02",
-  "yoma-081a-s03",
-  "yoma-081a-s04"
+  "yoma-081b-s01",
+  "yoma-081b-s02"
  ],
  "migrationKinds": []
 }
