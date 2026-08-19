@@ -514,23 +514,23 @@
    "blockerReason": null
   },
   "yoma-082a-s01": {
-   "status": "FIXED_PENDING_REVIEW",
-   "prNumber": null,
+   "status": "APPROVED_PENDING_MERGE",
+   "prNumber": 572,
    "repairCommit": "92b3db2",
    "mergedCommit": null,
    "version": "15.572",
-   "reviewer": null,
-   "independentReviewResult": null,
+   "reviewer": "independent-general-purpose-agent",
+   "independentReviewResult": "APPROVED (PR #572). Independently reviewed the full diff 3a4221e..8725203, not a description of it. Scope isolation: exactly 8 files changed, matching the allowed set (.worker-manifest.json, VERSION, docs/rashi-audit-backlog.md, this progress file, modules/yoma/assets/learning/yoma/82a.learning.json, modules/yoma/learning_data.js, package-lock.json, package.json); playwright.config.js has zero diff, confirming the documented local-only Playwright chromium-version workaround was reverted cleanly. Within 82a.learning.json/learning_data.js only the finalRuling line on each of the two named sugyot changed; yoma-082a-s02, yoma-082a-s04 (already repaired in PR #527), and the daf-level summary are byte-identical, confirmed by field-level JSON inspection, not just diff line count. .worker-manifest.json declares type audited-sugya-enrichment-repair, targets [82a], auditRecordIds exactly [yoma-082a-s01, yoma-082a-s03]. Cross-checked each new finalRuling against daftexts/82a.txt and each sugya's own untouched argumentFlow: s01 (lines 1-6) accurately reflects Rav Chisda's feeble-one-year/healthy-two-year resolution of the Mishna's training-age tension, correctly stopping before Rav Huna's age schedule which belongs to the already-merged yoma-082a-s02; s03 (lines 24-31) accurately reflects the graduated feeding of a craving pregnant woman up to the forbidden food itself under the idolatry/arayot/bloodshed exception, and Rabbi Eliezer's derivation of the idolatry exception from Deuteronomy 6:5's doubled soul/might. No fabricated claims found. Contract compliance verified for both: non-empty, not equal to or a prefix of display.hint, proper terminal punctuation, no ellipsis, no em/en dashes. Progress-file diff touches only the two yoma-082a-s0N records, walking NOT_STARTED -> IN_PROGRESS -> FIXED_PENDING_REVIEW legally, repairCommit 92b3db2 and version 15.572 set correctly on both, every other record including s02/s04 byte-identical. docs/rashi-audit-backlog.md diff is the standard mechanical VERSION/hash regen only. Verdict: APPROVED.",
    "blockerReason": null
   },
   "yoma-082a-s03": {
-   "status": "FIXED_PENDING_REVIEW",
-   "prNumber": null,
+   "status": "APPROVED_PENDING_MERGE",
+   "prNumber": 572,
    "repairCommit": "92b3db2",
    "mergedCommit": null,
    "version": "15.572",
-   "reviewer": null,
-   "independentReviewResult": null,
+   "reviewer": "independent-general-purpose-agent",
+   "independentReviewResult": "APPROVED (PR #572). Independently reviewed the full diff 3a4221e..8725203, not a description of it. Scope isolation: exactly 8 files changed, matching the allowed set (.worker-manifest.json, VERSION, docs/rashi-audit-backlog.md, this progress file, modules/yoma/assets/learning/yoma/82a.learning.json, modules/yoma/learning_data.js, package-lock.json, package.json); playwright.config.js has zero diff, confirming the documented local-only Playwright chromium-version workaround was reverted cleanly. Within 82a.learning.json/learning_data.js only the finalRuling line on each of the two named sugyot changed; yoma-082a-s02, yoma-082a-s04 (already repaired in PR #527), and the daf-level summary are byte-identical, confirmed by field-level JSON inspection, not just diff line count. .worker-manifest.json declares type audited-sugya-enrichment-repair, targets [82a], auditRecordIds exactly [yoma-082a-s01, yoma-082a-s03]. Cross-checked each new finalRuling against daftexts/82a.txt and each sugya's own untouched argumentFlow: s01 (lines 1-6) accurately reflects Rav Chisda's feeble-one-year/healthy-two-year resolution of the Mishna's training-age tension, correctly stopping before Rav Huna's age schedule which belongs to the already-merged yoma-082a-s02; s03 (lines 24-31) accurately reflects the graduated feeding of a craving pregnant woman up to the forbidden food itself under the idolatry/arayot/bloodshed exception, and Rabbi Eliezer's derivation of the idolatry exception from Deuteronomy 6:5's doubled soul/might. No fabricated claims found. Contract compliance verified for both: non-empty, not equal to or a prefix of display.hint, proper terminal punctuation, no ellipsis, no em/en dashes. Progress-file diff touches only the two yoma-082a-s0N records, walking NOT_STARTED -> IN_PROGRESS -> FIXED_PENDING_REVIEW legally, repairCommit 92b3db2 and version 15.572 set correctly on both, every other record including s02/s04 byte-identical. docs/rashi-audit-backlog.md diff is the standard mechanical VERSION/hash regen only. Verdict: APPROVED.",
    "blockerReason": null
   },
   "yoma-083a-s01": {
