@@ -81,6 +81,14 @@ RASHI_STEP6_STRATEGY_DOC = "docs/reports/rashi-full-corpus-review-strategy.md"
 # files (.worker-manifest.json etc.) rather than being rejected as an
 # unexpected file in the content PR's diff.
 REPAIR_PROGRESS_PATH = "docs/reports/data/yoma-tail-enrichment-repair-progress.json"
+# The semantic self-heal system (docs/semantic-self-heal.md) records its own
+# manifest and registry alongside a content edit in the SAME PR, exactly like
+# .worker-manifest.json above. It is infrastructure bookkeeping for a
+# different, newer authorization route (semantic_repair_scope_v2.py, which
+# runs in the same CI job and independently enforces rashiTranslations
+# byte-identity for semantic PRs), not enrichment content itself.
+SEMANTIC_MANIFEST_PATH = ".semantic-repair-manifest.json"
+SEMANTIC_CERT_REGISTRY = "docs/reports/data/yoma-semantic-certifications.json"
 ALWAYS_ALLOWED = {"VERSION", "package.json", "package-lock.json",
                   "docs/rashi-audit-backlog.md", ".worker-manifest.json",
                   ".worker-self-review.json", ".worker-queue.json",
@@ -89,7 +97,8 @@ ALWAYS_ALLOWED = {"VERSION", "package.json", "package-lock.json",
                   "scripts/worker_task_types.json",
                   "modules/yoma/scripts/check_rashi_pr_scope.py",
                   "modules/yoma/scripts/validate_rashi_review_records.py",
-                  "modules/yoma/scripts/test_validate_rashi_review_records.py"}
+                  "modules/yoma/scripts/test_validate_rashi_review_records.py",
+                  SEMANTIC_MANIFEST_PATH, SEMANTIC_CERT_REGISTRY}
 FORBIDDEN_PREFIXES = (".github/workflows/",)
 
 MUTABLE_KEYS = {"en", "linkedGemaraLineIds"}
@@ -314,10 +323,35 @@ def main():
     else:
         structure_daf = set()
 
+    # A fresh semantic-repair/certify manifest defers per-file FIELD rules for
+    # its one target daf to semantic_repair_scope_v2.py (which runs in the
+    # same CI job, must also pass, and independently requires
+    # rashiTranslations to stay byte-identical). This is the same hand-off
+    # pattern as the worker-manifest deferral above, keyed off the semantic
+    # system's own manifest instead. Without a fresh manifest naming this
+    # daf, full Rashi rules still apply.
+    semantic_deferred_daf = set()
+    sm = Path(SEMANTIC_MANIFEST_PATH)
+    if sm.exists():
+        base_sm = git_show(base_rev, SEMANTIC_MANIFEST_PATH)
+        sm_fresh = base_sm is None or base_sm != sm.read_text()
+        try:
+            sm_data = json.loads(sm.read_text())
+        except json.JSONDecodeError:
+            sm_data = {}
+        if (sm_fresh
+                and sm_data.get("module") == "yoma"
+                and sm_data.get("type") in {"semantic-daf-repair", "semantic-daf-certify"}
+                and isinstance(sm_data.get("daf"), str)):
+            semantic_deferred_daf = {sm_data["daf"]}
+            print(f"NOTE: fresh {sm_data['type']} manifest present; deferring field "
+                  f"rules for daf {sorted(semantic_deferred_daf)} to "
+                  f"semantic_repair_scope_v2.py (which must also pass).")
+
     # 2. Per-file structural diff
     for p in learn_changed:
         daf_name = p.split("/")[-1].replace(".learning.json", "")
-        if daf_name in deferred_daf:
+        if daf_name in deferred_daf or daf_name in semantic_deferred_daf:
             continue
         allow_structure_here = opts.allow_structure or daf_name in structure_daf
         base_text = git_show(base_rev, p)
