@@ -59,23 +59,32 @@ def base_review(review_id: str, ctx: str, verdict: str, source_fp: str, semantic
 
 def clean_audit(module, daf, doc, sugya, review_id="audit-C", ctx="agent-C", daf_end_state="COMPLETE") -> dict:
     """A mechanically-valid finalAudit: every SEMANTIC path is SUPPORTED with
-    real, in-range supporting lines; only STRUCTURAL paths use NONFACTUAL.
-    boundaryLeakageSweep is always populated (mandatory regardless of
-    dafEndState); entries carry a `note` when dafEndState is not COMPLETE
-    (the stricter open-ending evidentiary burden).
+    real, in-range supporting lines; STRUCTURAL paths use NONFACTUAL;
+    METADATA paths (argumentFlow step type, takeaway type, difficulty, etc.)
+    use REVIEWED with a justifying note. boundaryLeakageSweep is always
+    populated (mandatory regardless of dafEndState) and covers SEMANTIC and
+    METADATA paths alike; entries carry a `note` when dafEndState is not
+    COMPLETE (the stricter open-ending evidentiary burden).
     """
     source_fp, semantic_fp = fingerprints(module, daf, doc, sugya)
     raw_lines = json.loads((raw_dir(module) / f"{daf}.json").read_text(encoding="utf-8")).get("lines") or []
     lr = sugya["lineRange"]
 
     entries = []
-    semantic_paths = []
-    for path, cls in enumerate_semantic_paths(doc, sugya):
+    swept_paths = []
+    for path, cls in enumerate_semantic_paths(module, doc, sugya):
         if cls == "STRUCTURAL":
             entries.append({"path": path, "verdict": "NONFACTUAL", "boundarySafe": True, "crossReference": False})
             continue
-        semantic_paths.append(path)
-        if path == "dafSummary" or path.startswith("dafGlossary"):
+        if cls == "METADATA":
+            entries.append({
+                "path": path, "verdict": "REVIEWED", "boundarySafe": True, "crossReference": False,
+                "note": "test: classification independently re-derived from source and confirmed consistent",
+            })
+            swept_paths.append(path)
+            continue
+        swept_paths.append(path)
+        if path.startswith("dafLevel."):
             lines = [{"daf": daf, "startVilnaLine": 1, "endVilnaLine": len(raw_lines)}]
         else:
             lines = [{"daf": daf, "startVilnaLine": lr["startVilnaLine"], "endVilnaLine": lr["endVilnaLine"]}]
@@ -85,7 +94,7 @@ def clean_audit(module, daf, doc, sugya, review_id="audit-C", ctx="agent-C", daf
         })
 
     sweep = []
-    for p in semantic_paths:
+    for p in swept_paths:
         e = {"path": p, "importsNextDafConclusion": False}
         if daf_end_state != "COMPLETE":
             e["note"] = "test: reviewed and does not import the next daf's conclusion"
@@ -143,7 +152,7 @@ def test_2_unknown_new_semantic_field_automatically_inventoried():
     sugya2 = next(s for s in doc2["sugyot"] if s["id"] == SID)
     sugya2["totallyNewFieldNeverSeenByTheEnumerator"] = "a brand new authored claim about this sugya"
 
-    paths = dict(enumerate_semantic_paths(doc2, sugya2))
+    paths = dict(enumerate_semantic_paths(MODULE, doc2, sugya2))
     assert "totallyNewFieldNeverSeenByTheEnumerator" in paths
     assert paths["totallyNewFieldNeverSeenByTheEnumerator"] == "SEMANTIC"
 
@@ -171,7 +180,7 @@ def test_3_legacy_visualizable_description_key_inventoried():
     doc2 = copy.deepcopy(doc)
     sugya2 = next(s for s in doc2["sugyot"] if s["id"] == SID)
     sugya2.setdefault("visualizableElements", []).append({"description": "a legacy-shaped visualization description"})
-    paths = dict(enumerate_semantic_paths(doc2, sugya2))
+    paths = dict(enumerate_semantic_paths(MODULE, doc2, sugya2))
     matches = [p for p in paths if p.startswith("visualizableElements") and p.endswith(".description")]
     assert matches, sorted(paths)
     assert paths[matches[0]] == "SEMANTIC"
@@ -184,7 +193,7 @@ def test_4_quiz_distractors_inventoried():
     doc2 = copy.deepcopy(doc)
     sugya2 = next(s for s in doc2["sugyot"] if s["id"] == SID)
     sugya2.setdefault("quizSeeds", []).append({"question": "q", "answer": "a", "distractors": ["wrong1", "wrong2"]})
-    paths = dict(enumerate_semantic_paths(doc2, sugya2))
+    paths = dict(enumerate_semantic_paths(MODULE, doc2, sugya2))
     matches = [p for p in paths if "distractors" in p]
     assert matches, sorted(paths)
     assert all(paths[p] == "SEMANTIC" for p in matches)
@@ -199,12 +208,12 @@ def test_5_daf_glossary_missing_from_inventory_fails():
     sugya2 = next(s for s in doc2["sugyot"] if s["id"] == SID)
 
     audit = clean_audit(MODULE, daf, doc2, sugya2)
-    audit["fieldInventory"] = [e for e in audit["fieldInventory"] if not e["path"].startswith("dafGlossary")]
-    audit["boundaryLeakageSweep"] = [e for e in audit["boundaryLeakageSweep"] if not e["path"].startswith("dafGlossary")]
+    audit["fieldInventory"] = [e for e in audit["fieldInventory"] if not e["path"].startswith("dafLevel.glossary")]
+    audit["boundaryLeakageSweep"] = [e for e in audit["boundaryLeakageSweep"] if not e["path"].startswith("dafLevel.glossary")]
     rec = build_certified(MODULE, daf, doc2, sugya2, audit)
     state, problems = certificate_status(MODULE, daf, doc2, sugya2, rec)
     assert state != "CERTIFIED"
-    assert any("dafGlossary" in p for p in problems), problems
+    assert any("dafLevel.glossary" in p for p in problems), problems
 
 
 def test_6_glossary_edit_after_certification_makes_certificate_stale():
@@ -249,7 +258,7 @@ def test_8_legitimate_crossreference_validated_against_real_target():
     doc2 = copy.deepcopy(doc)
     sugya2 = next(s for s in doc2["sugyot"] if s["id"] == SID)
     sugya2["relatedSugyot"] = [{"id": "yoma-002a-s01", "reason": "parallel discussion elsewhere in the tractate"}]
-    paths = dict(enumerate_semantic_paths(doc2, sugya2))
+    paths = dict(enumerate_semantic_paths(MODULE, doc2, sugya2))
     reason_path = next(p for p in paths if p.startswith("relatedSugyot") and p.endswith(".reason"))
     assert paths[reason_path] == "SEMANTIC"
 
@@ -373,8 +382,8 @@ def test_15_semantic_edit_after_final_audit_makes_certificate_stale():
 
 def test_16_source_support_outside_authorized_range_fails():
     """Source-support lines outside the authorized daf/sugya range fail,
-    even when boundarySafe is falsely declared true. dafSummary/dafGlossary
-    are exempt from per-sugya containment (a shared page claim may cite any
+    even when boundarySafe is falsely declared true. dafLevel.* paths are
+    exempt from per-sugya containment (a shared page claim may cite any
     line on the current daf), so this targets an ordinary sugya-scoped
     SEMANTIC field instead."""
     daf, doc, sugya = load_target()
@@ -382,7 +391,7 @@ def test_16_source_support_outside_authorized_range_fails():
     lr = sugya["lineRange"]
     target_index = next(
         i for i, e in enumerate(audit["fieldInventory"])
-        if e["verdict"] == "SUPPORTED" and not e["path"].startswith(("dafSummary", "dafGlossary"))
+        if e["verdict"] == "SUPPORTED" and not e["path"].startswith("dafLevel.")
     )
     target_path = audit["fieldInventory"][target_index]["path"]
     out_of_range_entry = {
@@ -581,6 +590,137 @@ def test_20_glossary_repair_scope_requires_full_daf_target():
         assert r2.returncode == 0, (r2.stdout, r2.stderr)
     finally:
         shutil.rmtree(dest.parent, ignore_errors=True)
+
+
+def test_21_requires_understanding_legacy_prose_is_semantic():
+    """Round-3 item 1: requiresUnderstanding scalar values are STRUCTURAL
+    only when they actually resolve to a real sugya id. Legacy prose --
+    the real shape currently in Yoma 7a's requiresUnderstanding, e.g. "The
+    hutrah/dchuya framework from 6b" -- is SEMANTIC and must be source-
+    supported, never NONFACTUAL, regardless of its container key."""
+    daf, doc, sugya = load_target()
+    doc2 = copy.deepcopy(doc)
+    sugya2 = next(s for s in doc2["sugyot"] if s["id"] == SID)
+    sugya2["requiresUnderstanding"] = [
+        "The hutrah/dchuya framework from 6b",
+        "What makes an offering 'communal' and what makes it 'fixed time'",
+    ]
+    paths = dict(enumerate_semantic_paths(MODULE, doc2, sugya2))
+    ru_paths = [p for p in paths if p.startswith("requiresUnderstanding[")]
+    assert ru_paths, sorted(paths)
+    assert all(paths[p] == "SEMANTIC" for p in ru_paths), paths
+
+    # The old escape (NONFACTUAL under cover of the container key) still fails.
+    audit = clean_audit(MODULE, daf, doc2, sugya2)
+    idx = next(i for i, e in enumerate(audit["fieldInventory"]) if e["path"] == ru_paths[0])
+    audit["fieldInventory"][idx] = {"path": ru_paths[0], "verdict": "NONFACTUAL", "boundarySafe": True, "crossReference": False}
+    rec = build_certified(MODULE, daf, doc2, sugya2, audit)
+    state, problems = certificate_status(MODULE, daf, doc2, sugya2, rec)
+    assert state != "CERTIFIED"
+    assert any("NONFACTUAL is not a legal verdict" in p for p in problems), problems
+
+
+def test_22_requires_understanding_valid_sugya_id_is_structural():
+    """Round-3 item 1: a requiresUnderstanding value that actually resolves
+    to a real sugya id in the live corpus is legitimately STRUCTURAL."""
+    daf, doc, sugya = load_target()
+    doc2 = copy.deepcopy(doc)
+    sugya2 = next(s for s in doc2["sugyot"] if s["id"] == SID)
+    real_other_id = "yoma-002a-s01"
+    sugya2["requiresUnderstanding"] = [real_other_id]
+    paths = dict(enumerate_semantic_paths(MODULE, doc2, sugya2))
+    ru_path = next(p for p in paths if p.startswith("requiresUnderstanding["))
+    assert paths[ru_path] == "STRUCTURAL", paths
+
+    audit = clean_audit(MODULE, daf, doc2, sugya2)
+    rec = build_certified(MODULE, daf, doc2, sugya2, audit)
+    state, problems = certificate_status(MODULE, daf, doc2, sugya2, rec)
+    assert state == "CERTIFIED", problems
+
+
+def test_23_unknown_field_named_type_does_not_become_structural():
+    """Round-3 item 2: classification is PATH-based, not key-name-based, for
+    controlled metadata. A brand-new, unrelated field literally named "type"
+    that does not match any known METADATA path defaults to SEMANTIC -- it
+    never silently inherits STRUCTURAL from the generic key name."""
+    daf, doc, sugya = load_target()
+    doc2 = copy.deepcopy(doc)
+    sugya2 = next(s for s in doc2["sugyot"] if s["id"] == SID)
+    sugya2["totallyHypotheticalFutureField"] = {"type": "a made-up classification asserting something about this sugya"}
+    paths = dict(enumerate_semantic_paths(MODULE, doc2, sugya2))
+    type_path = "totallyHypotheticalFutureField.type"
+    assert type_path in paths
+    assert paths[type_path] == "SEMANTIC", paths
+
+
+def test_24_known_metadata_paths_require_explicit_verdict():
+    """Round-3 item 2: known METADATA paths (argumentFlow step type,
+    learning.takeaway.type, difficulty, etc.) must appear in the inventory
+    with an explicit verdict. NONFACTUAL is illegal for them (they are
+    meaningful editorial content, unlike a bare STRUCTURAL id/coordinate),
+    and REVIEWED requires a nonblank justifying note -- a bare boolean would
+    be exactly the kind of unfalsifiable claim schema 2.0 rejects."""
+    daf, doc, sugya = load_target()
+    paths = dict(enumerate_semantic_paths(MODULE, doc, sugya))
+    metadata_paths = [p for p, cls in paths.items() if cls == "METADATA"]
+    assert metadata_paths, "expected at least one METADATA path (e.g. argumentFlow[*].type/learning.takeaway.type)"
+
+    audit = clean_audit(MODULE, daf, doc, sugya)
+    idx = next(i for i, e in enumerate(audit["fieldInventory"]) if e["path"] == metadata_paths[0])
+    audit["fieldInventory"][idx] = {"path": metadata_paths[0], "verdict": "NONFACTUAL", "boundarySafe": True, "crossReference": False}
+    rec = build_certified(MODULE, daf, doc, sugya, audit)
+    state, problems = certificate_status(MODULE, daf, doc, sugya, rec)
+    assert state != "CERTIFIED"
+    assert any("not a legal verdict" in p for p in problems), problems
+
+    audit2 = clean_audit(MODULE, daf, doc, sugya)
+    idx2 = next(i for i, e in enumerate(audit2["fieldInventory"]) if e["path"] == metadata_paths[0])
+    audit2["fieldInventory"][idx2] = {"path": metadata_paths[0], "verdict": "REVIEWED", "boundarySafe": True, "crossReference": False}
+    rec2 = build_certified(MODULE, daf, doc, sugya, audit2)
+    state2, problems2 = certificate_status(MODULE, daf, doc, sugya, rec2)
+    assert state2 != "CERTIFIED"
+    assert any("REVIEWED entries require a nonblank note" in p for p in problems2), problems2
+
+
+def test_25_new_daf_level_field_automatically_fingerprinted_and_inventoried():
+    """Round-3 item 3: daf-level enumeration is exhaustive, not limited to
+    summary and glossary. A brand-new top-level daf field is automatically
+    part of both semanticFingerprint and the audited fieldInventory, and
+    editing it after certification makes the certificate stale."""
+    daf, doc, sugya = load_target()
+    doc2 = copy.deepcopy(doc)
+    doc2["totallyNewDafLevelField"] = "a brand new authored claim about the whole daf"
+    sugya2 = next(s for s in doc2["sugyot"] if s["id"] == SID)
+
+    paths = dict(enumerate_semantic_paths(MODULE, doc2, sugya2))
+    assert "dafLevel.totallyNewDafLevelField" in paths
+    assert paths["dafLevel.totallyNewDafLevelField"] == "SEMANTIC"
+
+    rec = build_certified(MODULE, daf, doc2, sugya2)
+    state, problems = certificate_status(MODULE, daf, doc2, sugya2, rec)
+    assert state == "CERTIFIED", problems
+
+    edited_doc = copy.deepcopy(doc2)
+    edited_doc["totallyNewDafLevelField"] = "an edit that was never certified"
+    edited_sugya = next(s for s in edited_doc["sugyot"] if s["id"] == SID)
+    state2, problems2 = certificate_status(MODULE, daf, edited_doc, edited_sugya, rec)
+    assert state2 != "CERTIFIED"
+    assert any("semanticFingerprint is stale" in p for p in problems2), problems2
+
+
+def test_26_duplicate_stale_sweep_category_fails():
+    """Round-3 item 4: each staleContentSweep category must appear exactly
+    once; a duplicate (even with conflicting found values) fails
+    certification rather than silently picking a winner."""
+    daf, doc, sugya = load_target()
+    audit = clean_audit(MODULE, daf, doc, sugya)
+    entries = [{"category": c, "found": False} for c in STALE_SWEEP_CATEGORIES]
+    entries.append({"category": STALE_SWEEP_CATEGORIES[0], "found": True})  # conflicting duplicate
+    audit["staleContentSweep"]["entries"] = entries
+    rec = build_certified(MODULE, daf, doc, sugya, audit)
+    state, problems = certificate_status(MODULE, daf, doc, sugya, rec)
+    assert state != "CERTIFIED"
+    assert any("duplicate category" in p for p in problems), problems
 
 
 def main() -> None:

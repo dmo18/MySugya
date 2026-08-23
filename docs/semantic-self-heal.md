@@ -58,12 +58,13 @@ produced strictly AFTER the first and second source-first passes (see the
 
 ### Machine-generated, exhaustive field inventory
 
-`scripts/semantic_certification.py`'s `enumerate_semantic_paths(daf_doc, sugya)`
+`scripts/semantic_certification.py`'s `enumerate_semantic_paths(module, daf_doc, sugya)`
 mechanically enumerates every semantically authored field/leaf actually
 present in the finished record. It does this by **recursing the entire
-semantic payload** (the shared daf summary, the shared daf glossary, and
-every authored sugya field) rather than naming fields by hand -- a new field,
-a legacy shape (e.g. a `visualizableElements` entry using a `description` key
+semantic payload** (`dafLevel` -- the daf summary, glossary, and any other
+daf-level field, all exhaustively, not just the two known today -- and every
+authored sugya field) rather than naming fields by hand -- a new field, a
+legacy shape (e.g. a `visualizableElements` entry using a `description` key
 instead of `item`, or a `quizSeeds` entry with `distractors`), or anything
 else added later is caught automatically, with no change to the enumerator
 required. This list is produced by code from the live payload, not written
@@ -71,60 +72,90 @@ by a reviewer -- the validator fails if any expected path is missing or if
 the audit contains duplicate/ambiguous entries for the same path.
 
 Every enumerated path carries a **machine-fixed classification** the
-reviewer does not control:
+reviewer does not control, and for the fields where the schema contract
+makes the VALUE the actual authority, classification is **value-aware, not
+merely key-name-aware** -- the code never assumes the live corpus already
+conforms to its ideal shape:
 
 - **SEMANTIC**: authored prose or a claim about the sugya/daf's content --
   summaries, display/learning fields, argumentFlow labels/text/speakers,
   quiz questions/answers/distractors, misconceptions, finalRuling,
   alternateAngles, glossary definitions, visualization descriptions,
-  relatedSugya reasons, and anything else not explicitly listed as
-  structural below. Must be `SUPPORTED`, `REPAIR_REQUIRED`, or `BLOCKED`.
-  **`NONFACTUAL` is not a legal verdict for a SEMANTIC path** -- this is the
-  fix for the escape hatch: a reviewer can no longer classify a summary,
-  quiz answer, or any other prose field as "not a factual claim" merely to
-  skip source-support validation.
-- **STRUCTURAL**: identifiers, coordinates, controlled enums, and slugs --
-  never authored prose. Fixed by key name in `STRUCTURAL_LEAF_KEYS` /
-  `STRUCTURAL_SCALAR_ARRAY_KEYS` (e.g. `id`, `sourceType`, `vilnaLine`,
-  `priority`, `type`, `difficulty`, `topicTags`, `conceptRefs`,
-  `requiresUnderstanding`). May legally be `NONFACTUAL`. This is a narrow,
-  fixed allowlist that can only ever shrink the audited SEMANTIC set, never
-  silently exempt something new -- a field not on the list defaults to the
-  stricter SEMANTIC bucket.
+  relatedSugya reasons, and anything else not explicitly classified
+  STRUCTURAL/METADATA below. Must be `SUPPORTED`, `REPAIR_REQUIRED`, or
+  `BLOCKED`. **`NONFACTUAL` and `REVIEWED` are both illegal for a SEMANTIC
+  path** -- a reviewer can no longer classify a summary, quiz answer, or any
+  other prose field as "not a factual claim" merely to skip source-support
+  validation.
+- **STRUCTURAL**: identifiers and coordinates -- never authored prose.
+  Fixed key names (`STRUCTURAL_LEAF_KEYS`: `id`, `sourceType`, `vilnaLine`,
+  `priority`, `image`, etc.) are safe globally because they are inherently
+  positional/generated, never free text, regardless of context. Two
+  container-key families are **value-checked, not merely key-checked**:
+  `requiresUnderstanding`/`relatedSugyot` scalar values are STRUCTURAL only
+  when they actually resolve to a real sugya id in the live corpus
+  (`_known_sugya_ids`) -- legacy prose left in `requiresUnderstanding` from
+  before the `prerequisiteKnowledge` split (a real, current example: Yoma
+  7a still holds full sentences like "The hutrah/dchuya framework from 6b")
+  is SEMANTIC, not STRUCTURAL, purely because of what the value actually
+  is. `topicTags`/`conceptRefs` scalar values are STRUCTURAL only when they
+  actually match the required lowercase-hyphenated slug shape; a legacy
+  value with spaces (present today, e.g. Yoma 42a's `topicTags`) is
+  SEMANTIC. May legally be `NONFACTUAL`.
+- **METADATA**: authored editorial/pedagogical classification that is
+  neither raw prose requiring line support nor a bare identifier --
+  `difficulty`, an `argumentFlow` step's `type` (discourse-move
+  classification), `learning.takeaway.type`, `learning.reasoningPattern.category`,
+  a `visualizableElements`/`quizSeeds` entry's `type`. Fixed by explicit PATH
+  (`METADATA_EXACT_PATHS`/`METADATA_PATH_PATTERNS`), deliberately **not** by
+  the bare key name `type`/`category`/`difficulty` -- a hypothetical future
+  field that happens to be named `type` but isn't one of these known paths
+  defaults to SEMANTIC, not METADATA. Must be `REVIEWED` (with a mandatory
+  nonblank `note` justifying consistency with the source -- a bare boolean
+  would be exactly the kind of unfalsifiable "everything checked" claim
+  schema 2.0 rejects), `SUPPORTED`, `REPAIR_REQUIRED`, or `BLOCKED`.
+  `NONFACTUAL` is illegal (a step's type classification IS meaningful
+  content, unlike a bare STRUCTURAL id), and METADATA paths still
+  participate in the boundary-leakage sweep below -- a step's type can
+  misrepresent a daf's resolution status just as easily as its prose can.
+  See `LEGAL_VERDICTS_BY_CLASS` for the full per-class verdict table.
 
-No "pedagogical prompt" exemption exists. `display.hint` and
-`learning.learnerQuestion` read like prompts/questions rather than
-assertions, but `shared/schema_map.js` is explicit that both must still be
-"independently supported by the declared source range" -- a fabricated or
-out-of-scope question is still a defect, so both are SEMANTIC like
-everything else.
+A path not matched by any classification rule above defaults to SEMANTIC,
+the strictest/fully-audited bucket -- classification can only ever narrow
+what is audited for fields it explicitly names, never silently exempt
+something new by key-name coincidence. No "pedagogical prompt" exemption
+exists for prose. `display.hint` and `learning.learnerQuestion` read like
+prompts/questions rather than assertions, but `shared/schema_map.js` is
+explicit that both must still be "independently supported by the declared
+source range" -- a fabricated or out-of-scope question is still a defect,
+so both are SEMANTIC like everything else.
 
 Each `fieldInventory` entry carries:
 
 - `path`: the enumerated field path
-- `verdict`: `SUPPORTED` / `REPAIR_REQUIRED` / `BLOCKED` / `NONFACTUAL` (NONFACTUAL only legal for STRUCTURAL paths)
+- `verdict`: `SUPPORTED` / `REPAIR_REQUIRED` / `BLOCKED` / `NONFACTUAL` (STRUCTURAL only) / `REVIEWED` (METADATA only)
 - `supportingLines`: for `SUPPORTED`, a nonempty list of `{daf, startVilnaLine, endVilnaLine}` the claim rests on
 - `boundarySafe`: true/false, mechanically re-derived and cross-checked -- a reviewer cannot declare it true while the supporting lines actually fall outside the authorized range
 - `crossReference`: true only when the field legitimately cites another daf/sugya rather than describing the current one
-- `note`: optional
+- `note`: required nonblank justification for `REVIEWED`; optional otherwise
 
 Supporting lines for an ordinary SEMANTIC sugya field must fall inside that
 sugya's own authorized `lineRange` on the current daf. The shared
-`dafSummary`/`dafGlossary` paths may cite any line on the current daf (a
-page-level claim is not scoped to one sugya's range). A claim may never use
-a *different* daf as source support unless `crossReference` is both set true
-AND legitimate for that path -- this is the mechanical form of "it is true
-on 8a does not justify stating it as established on 7b." `crossReference` is
-only permitted for a SEMANTIC path whose top-level key is in
-`CROSS_REFERENCE_ALLOWED_SEMANTIC_TOP_KEYS` (today: `relatedSugyot` only --
-local claims about the current sugya, e.g. display/learning/argumentFlow/
-quizSeeds/misconceptions/finalRuling/glossary, may never use it) or for any
-STRUCTURAL path (e.g. a `sourceRefs` `crossDaf` pointer, already validated
-independently by `validate_source_refs.py`). Even a legitimate
-cross-reference is checked against the live raw source of the *cited* daf --
-a target daf/range that does not actually exist still fails. Any
-`REPAIR_REQUIRED`/`BLOCKED` verdict in the inventory means the record is not
-ready to certify at all.
+`dafLevel.*` paths (summary, glossary, and any future daf-level field) may
+cite any line on the current daf (a page-level claim is not scoped to one
+sugya's range). A claim may never use a *different* daf as source support
+unless `crossReference` is both set true AND legitimate for that path --
+this is the mechanical form of "it is true on 8a does not justify stating it
+as established on 7b." `crossReference` is only permitted for a SEMANTIC
+path whose top-level key is in `CROSS_REFERENCE_ALLOWED_SEMANTIC_TOP_KEYS`
+(today: `relatedSugyot` only -- local claims about the current sugya, e.g.
+display/learning/argumentFlow/quizSeeds/misconceptions/finalRuling/glossary,
+may never use it) or for any STRUCTURAL path (e.g. a `sourceRefs`
+`crossDaf` pointer, already validated independently by
+`validate_source_refs.py`). Even a legitimate cross-reference is checked
+against the live raw source of the *cited* daf -- a target daf/range that
+does not actually exist still fails. Any `REPAIR_REQUIRED`/`BLOCKED` verdict
+in the inventory means the record is not ready to certify at all.
 
 ### Absolute physical daf-boundary contract
 
@@ -137,8 +168,10 @@ final line matching reality. `dafEndState` is one of `COMPLETE`,
 
 ### Unconditional boundary-leakage sweep
 
-`finalAudit.boundaryLeakageSweep` covers every SEMANTIC-class field path
-with an explicit `importsNextDafConclusion: true/false`. **This sweep is
+`finalAudit.boundaryLeakageSweep` covers every SEMANTIC- and METADATA-class
+field path with an explicit `importsNextDafConclusion: true/false` (an
+argumentFlow step's type classification can misrepresent a daf's resolution
+status just as easily as its prose can). **This sweep is
 required for every daf, regardless of the declared `dafEndState`** -- a
 mistaken (or dishonest) `COMPLETE` classification must never be able to skip
 the exact check meant to catch false closure and next-daf leakage;
@@ -160,8 +193,10 @@ conclusions left in secondary fields, false closure, next-daf content leaked
 backward, claims unsupported by the physical daf, and stale
 quiz/finalRuling/summary/learning/misconception/relatedSugya/visualizable
 prose, plus stale `sourceRefs` and out-of-range references. Every category
-must be present with an explicit `found: true/false`; any `found: true`
-blocks certification until repaired and re-audited.
+must be present **exactly once** with an explicit `found: true/false`; a
+duplicate category entry (even one where both copies happen to agree) fails
+outright rather than silently collapsing to whichever entry came last, and
+any `found: true` blocks certification until repaired and re-audited.
 
 ### Real review independence -- and its honest limit
 

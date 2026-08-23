@@ -228,14 +228,101 @@ fingerprint property.
   reasoning) is a process discipline this repository cannot cryptographically
   verify.
 - **Classification allowlist correctness.** `STRUCTURAL_LEAF_KEYS` /
-  `STRUCTURAL_SCALAR_ARRAY_KEYS` / `CROSS_REFERENCE_ALLOWED_SEMANTIC_TOP_KEYS`
-  are hand-authored (though narrow, and biased to default new fields into
-  the stricter SEMANTIC bucket rather than exempt them). A future field
-  whose key name collides with an existing structural key name (e.g. a new
-  object that happens to have its own meaningful `"type"` field) would be
-  under-audited until someone reviews the allowlist; the recursion itself
-  guarantees the *path* is never silently missing, only that its
-  classification could in principle need a second look.
+  `CROSS_REFERENCE_ALLOWED_SEMANTIC_TOP_KEYS` / `METADATA_EXACT_PATHS` /
+  `METADATA_PATH_PATTERNS` are hand-authored (though narrow, and biased to
+  default new fields into the stricter SEMANTIC bucket rather than exempt
+  them). Round 3 (below) closed the specific instance of this risk found by
+  independent review -- generic key names (`type`/`category`/`difficulty`)
+  no longer grant a blanket exemption, and reference-array fields
+  (`requiresUnderstanding`/`relatedSugyot`/`topicTags`/`conceptRefs`) are now
+  value-checked against the live corpus rather than trusted by container key
+  -- but the remaining fixed-key rules (`id`, `vilnaLine`, `sourceType`,
+  etc.) are still hand-authored. An adversarial scan of the entire live
+  corpus (7,492 STRUCTURAL-leaf occurrences across all 492 sugyot) found
+  zero instances of authored prose incorrectly classified STRUCTURAL as of
+  this commit; the recursion itself still guarantees the *path* is never
+  silently missing, only that classification could in principle need a
+  second look if the schema grows a new field colliding with one of these
+  fixed key names.
+
+## Round 3: value-aware classification and exhaustive daf-level enumeration
+
+A second independent review, this time reading the actual corpus rather
+than only the code, found that round 2's classification was still too
+coarse in three ways, plus a smaller gap in the stale-content sweep and a
+narrower one in the crossReference permission check found during the
+author's own follow-up adversarial pass.
+
+1. **STRUCTURAL classification by container key alone, ignoring the actual
+   value.** `requiresUnderstanding` and `relatedSugyot` were treated as
+   STRUCTURAL (sugya ids) for any scalar element, and `topicTags`/
+   `conceptRefs` as STRUCTURAL for any scalar element, purely because of
+   which key they sat under. The live corpus proves this wrong: Yoma 7a's
+   `requiresUnderstanding` holds full sentences ("The hutrah/dchuya
+   framework from 6b", "The tzitz's atonement function and its limits"),
+   and Yoma 42a's `topicTags` hold space-separated phrases ("parah adumah",
+   "crimson thread") that do not match the slug contract
+   `validate_enrichment_contracts.py` actually enforces. Fixed:
+   `requiresUnderstanding`/`relatedSugyot` scalar values are STRUCTURAL only
+   when they resolve to a real sugya id in the live corpus
+   (`_known_sugya_ids`, cached per process via `load_corpus`);
+   `topicTags`/`conceptRefs` scalar values are STRUCTURAL only when they
+   match the required lowercase-hyphenated slug shape. Anything else is
+   SEMANTIC and must be source-supported. Tests:
+   `test_21_requires_understanding_legacy_prose_is_semantic`,
+   `test_22_requires_understanding_valid_sugya_id_is_structural`.
+2. **Generic key-name exemption for `type`/`category`/`difficulty`.** These
+   were global `STRUCTURAL_LEAF_KEYS` entries, meaning any future field
+   anywhere in the schema literally named `type` would silently evade
+   SEMANTIC review. Fixed: removed from the global key-name list; a new
+   METADATA classification is now granted only by explicit PATH
+   (`METADATA_EXACT_PATHS = {"difficulty"}` and
+   `METADATA_PATH_PATTERNS` for `argumentFlow[*].type`,
+   `learning.takeaway.type`, `learning.reasoningPattern.category`,
+   `visualizableElements[*].type`, `quizSeeds[*].type`). METADATA paths
+   require a new `REVIEWED` verdict with a mandatory nonblank `note`
+   (`NONFACTUAL` remains illegal for them) and still participate in the
+   boundary-leakage sweep. A field merely named `type` that isn't one of
+   these known paths now defaults to SEMANTIC. Tests:
+   `test_23_unknown_field_named_type_does_not_become_structural`,
+   `test_24_known_metadata_paths_require_explicit_verdict`.
+3. **Daf-level enumeration was two hardcoded fields, not exhaustive.**
+   `semantic_payload` explicitly listed `dafSummary`/`dafGlossary`; a future
+   daf-level field would have been silently excluded from both the
+   fingerprint and the audit. Fixed: `semantic_payload` now includes every
+   daf-level key except a narrow exclusion list (`daf`, `canonicalRef`,
+   `sugyot`, `review`, `rashiLines`, `rashiTranslations`), recursed
+   generically under a `dafLevel.` path prefix exactly like the sugya
+   payload. Test:
+   `test_25_new_daf_level_field_automatically_fingerprinted_and_inventoried`.
+4. **Duplicate staleContentSweep categories silently collapsed.** The
+   validator built a `{category: entry}` dict from the submitted list,
+   so a duplicate category simply meant "last one wins" with no error.
+   Fixed: duplicate categories are now rejected outright, regardless of
+   whether the duplicate entries agree. Test:
+   `test_26_duplicate_stale_sweep_category_fails`.
+5. **(Found during the author's own adversarial follow-up, not in the
+   review request.)** A fabricated/unrecognized field path defaulted to
+   crossReference-permitted; supporting-line `daf` identifiers were not
+   validated against the `\d+[ab]` shape before being used to resolve a raw
+   source file path; the derived `image` filename field defaulted to
+   SEMANTIC instead of STRUCTURAL. All three fixed in the same commit as
+   round 2's other changes.
+
+**Adversarial verification before merge**: scanned the entire live Yoma
+corpus (492 sugyot) for every value classified STRUCTURAL under
+`STRUCTURAL_LEAF_KEYS`, checking shape (numeric coordinates, no embedded
+spaces/excessive length for identifiers, controlled-vocabulary membership
+for `sourceType`/`refType`). Result: 7,492 STRUCTURAL-leaf occurrences, zero
+genuine false positives (one flagged candidate, a 43-character
+`reasoningPattern.id` value, was confirmed to be a real taxonomy slug
+consistent with the other 61 distinct values in that field, not authored
+prose). Combined with the value-aware `requiresUnderstanding`/`topicTags`
+checks (which the same scan confirms already correctly demote the live
+non-conforming values on 7a and 42a to SEMANTIC), the answer to "can any
+actual authored content presently in Yoma be classified
+STRUCTURAL/NONFACTUAL solely because the code assumes the corpus already
+conforms to the ideal schema" is no, as of this commit.
 
 No Yoma 7a/7b content repair happens in this PR. That is the next phase,
 gated on this one merging.

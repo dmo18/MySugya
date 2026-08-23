@@ -70,6 +70,7 @@ for the honest limit of what this module can verify about that.
 """
 from __future__ import annotations
 
+import functools
 import hashlib
 import json
 import re
@@ -90,11 +91,12 @@ CERT_STATES = {
 SOURCE_KEYS = {"id", "sugyaNumber", "lineRange", "lines", "sefariaRefs", "canonicalRef", "daf"}
 NON_SEMANTIC_KEYS = SOURCE_KEYS | {"review"}
 
-# Legal verdicts for a single finalAudit.fieldInventory entry. SUPPORTED and
-# NONFACTUAL are the only verdicts that can appear in a certifiable audit; an
-# audit that honestly records REPAIR_REQUIRED or BLOCKED for any field proves
-# the record is not ready to certify (repair and re-audit instead).
-FIELD_VERDICTS = {"SUPPORTED", "REPAIR_REQUIRED", "BLOCKED", "NONFACTUAL"}
+# Legal verdicts for a single finalAudit.fieldInventory entry. An audit that
+# honestly records REPAIR_REQUIRED or BLOCKED for any field proves the
+# record is not ready to certify (repair and re-audit instead). Which of the
+# remaining verdicts (SUPPORTED / NONFACTUAL / REVIEWED) is legal for a given
+# entry depends on its path classification -- see LEGAL_VERDICTS_BY_CLASS.
+FIELD_VERDICTS = {"SUPPORTED", "REPAIR_REQUIRED", "BLOCKED", "NONFACTUAL", "REVIEWED"}
 
 # Recognized physical daf-ending classifications for finalAudit.dafBoundary.
 # boundaryLeakageSweep is mandatory regardless of which state is declared
@@ -113,22 +115,38 @@ DAF_END_STATES = {
 # Field-path classification for finalAudit.fieldInventory. This is a
 # machine-fixed classification, never a reviewer choice (see
 # enumerate_semantic_paths): a path's class is entirely determined by its
-# position in the schema, not by what a reviewer wants to claim about it.
+# position in the schema and, where the schema contract makes the field's
+# *value* the actual authority (see below), by that value -- never by
+# anything the reviewer supplies in the audit itself.
 #
-# STRUCTURAL: identifiers, coordinates, enums, and slugs -- never authored
-# prose making a claim about the sugya's content. May legally be NONFACTUAL.
+# - STRUCTURAL: identifiers, coordinates -- never authored prose, and
+#   verified structural by the schema's own contract, not merely assumed
+#   because the corpus is supposed to already conform to it. May legally be
+#   NONFACTUAL.
+# - SEMANTIC: authored prose/claims about what the source says. Must be
+#   SUPPORTED, REPAIR_REQUIRED, or BLOCKED -- NONFACTUAL and REVIEWED are
+#   both illegal for a SEMANTIC path.
+# - METADATA: authored editorial/pedagogical classification (an
+#   argumentFlow step's discourse-move type, a takeaway's kind, a
+#   reasoning-pattern category, an overall difficulty rating) that is
+#   neither raw prose requiring line support nor a bare identifier. Must be
+#   REVIEWED (with a mandatory justifying note), SUPPORTED, REPAIR_REQUIRED,
+#   or BLOCKED -- NONFACTUAL is illegal (it IS meaningful content, unlike a
+#   STRUCTURAL id/coordinate) and it still participates in the
+#   boundaryLeakageSweep (an argumentFlow step's "type" can misrepresent a
+#   daf's resolution status just as easily as its "text" can).
 #
-# SEMANTIC: everything else. Authored prose/claims about what the source
-# says. Must be SUPPORTED, REPAIR_REQUIRED, or BLOCKED -- NONFACTUAL is not a
-# legal verdict for a SEMANTIC path. This is deliberately exhaustive-by-
-# default: enumerate_semantic_paths recurses the ENTIRE semantic payload, and
-# only a leaf whose immediate key name appears in one of the sets below is
-# ever classified STRUCTURAL. A new field added anywhere in the schema is
-# SEMANTIC (the stricter, audited bucket) unless someone deliberately adds
-# its key here -- the classification can only ever narrow the audited set,
-# never silently exempt something new.
+# This is deliberately exhaustive-by-default: enumerate_semantic_paths
+# recurses the ENTIRE semantic payload (daf-level and sugya-level alike),
+# and a leaf is only ever classified STRUCTURAL or METADATA if it matches
+# one of the narrow, explicit rules below. A new field added anywhere in the
+# schema, including one that happens to share a key name with an existing
+# rule (e.g. a hypothetical future "type" field the rules below don't name),
+# defaults to SEMANTIC -- the strictest, fully-audited bucket. Classification
+# can only ever narrow the audited set for fields it explicitly names; it
+# never silently exempts something new by key-name coincidence.
 #
-# No "pedagogical prompt" exemption is defined. display.hint and
+# No "pedagogical prompt" exemption is defined for prose. display.hint and
 # learning.learnerQuestion look like prompts/questions rather than
 # assertions, but shared/schema_map.js is explicit that both must still be
 # "independently supported by the declared source range" -- a fabricated or
@@ -145,25 +163,65 @@ STRUCTURAL_LEAF_KEYS = {
     "endVilnaLine",        # structural line-number coordinate
     "targetVilnaLine",     # structural line-number coordinate
     "priority",            # numeric ranking, not prose
-    "type",                # controlled-vocabulary classification (argumentFlow step type / visualizableElements category)
-    "difficulty",          # controlled enum (intro/intermediate/advanced)
     "correctedByStepId",   # structural pointer
-    "category",            # controlled vocabulary (reasoningPattern.category)
     "image",               # derived .webp filename, not authored prose
 }
 
-# Arrays whose SCALAR elements are structural identifiers/slugs rather than
-# prose. A list under one of these keys containing bare strings is
-# STRUCTURAL per element; if an element is instead an object (a legacy
-# relatedSugyot {id, reason} shape, for example), the object is walked
-# normally and its own nested keys are classified on their own merits (so a
-# nested "reason"/"description" string still comes out SEMANTIC).
-STRUCTURAL_SCALAR_ARRAY_KEYS = {
-    "topicTags",             # normalized ASCII slugs, not display labels
-    "conceptRefs",           # ids into a shared cross-tractate concept store
-    "requiresUnderstanding", # sugya ids ONLY per schema contract, never prose
-    "relatedSugyot",         # plain-string legacy shape is ids; see above
+# Exact/pattern paths classified METADATA (see above). Deliberately PATH-
+# based, not key-name-based: "type"/"category"/"difficulty" are NOT globally
+# structural key names (a future unrelated field happening to be named
+# "type" defaults to SEMANTIC, the strict bucket, until someone reviews and
+# explicitly classifies it here or elsewhere).
+METADATA_EXACT_PATHS = {"difficulty"}
+METADATA_PATH_PATTERNS = (
+    re.compile(r"^argumentFlow\[[^\]]+\]\.type$"),
+    re.compile(r"^learning\.takeaway\.type$"),
+    re.compile(r"^learning\.reasoningPattern\.category$"),
+    re.compile(r"^visualizableElements\[\d+\]\.type$"),
+    re.compile(r"^quizSeeds\[\d+\]\.type$"),
+)
+
+# Legal verdicts per path classification. NONFACTUAL is legal ONLY for
+# STRUCTURAL; REVIEWED is legal ONLY for METADATA; SEMANTIC gets neither
+# shortcut. SUPPORTED/REPAIR_REQUIRED/BLOCKED remain legal everywhere (a
+# reviewer may always choose to support even a structural/metadata field
+# with real lines instead).
+LEGAL_VERDICTS_BY_CLASS = {
+    "SEMANTIC": {"SUPPORTED", "REPAIR_REQUIRED", "BLOCKED"},
+    "STRUCTURAL": {"SUPPORTED", "REPAIR_REQUIRED", "BLOCKED", "NONFACTUAL"},
+    "METADATA": {"SUPPORTED", "REPAIR_REQUIRED", "BLOCKED", "REVIEWED"},
 }
+
+# Keys whose SCALAR array elements are claimed to be sugya-id references.
+# STRUCTURAL only when the value actually resolves to a real sugya id in the
+# live corpus (see _known_sugya_ids) -- never merely because it sits under
+# one of these container keys. Legacy prose left over from before the
+# requiresUnderstanding/prerequisiteKnowledge split (a real, current example:
+# Yoma 7a's requiresUnderstanding still holds full sentences, not ids) must
+# not escape SEMANTIC review just because of its container.
+SUGYA_ID_REFERENCE_ARRAY_KEYS = {"requiresUnderstanding", "relatedSugyot"}
+
+# Keys whose SCALAR array elements are claimed to be normalized ASCII slugs.
+# STRUCTURAL only when the value actually matches the slug shape the schema
+# contract requires (validate_enrichment_contracts.py enforces the same
+# shape for topicTags) -- never merely because of the container key.
+SLUG_REFERENCE_ARRAY_KEYS = {"topicTags", "conceptRefs"}
+_SLUG_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
+
+
+def _looks_like_slug(value: Any) -> bool:
+    return isinstance(value, str) and bool(_SLUG_RE.fullmatch(value))
+
+
+@functools.lru_cache(maxsize=None)
+def _known_sugya_ids(module: str) -> frozenset:
+    """The full set of real sugya ids in the live corpus, cached per process
+    (the corpus does not change mid-run). Used only to test whether a
+    requiresUnderstanding/relatedSugyot scalar value actually resolves to a
+    real sugya -- the one mechanical way to tell a genuine id reference
+    apart from legacy prose sitting in the same field."""
+    return frozenset(load_corpus(module).keys())
+
 
 # Paths whose top-level key may legally set fieldInventory.crossReference on
 # a SEMANTIC-class SUPPORTED entry, i.e. cite a DIFFERENT daf as support. Any
@@ -289,17 +347,30 @@ def source_payload(module: str, daf: str, sugya: Dict[str, Any]) -> Dict[str, An
     }
 
 
+# Daf-level keys that are never authored semantic content: identity/
+# structural fields (daf, canonicalRef), the sugyot container (walked
+# separately, per sugya), review metadata, and the Rashi/source layers
+# (governed by their own dedicated system, never by semantic certification).
+# Every OTHER daf-level key is authored semantic content by default -- this
+# mirrors NON_SEMANTIC_KEYS's role for the sugya level: a narrow exclusion
+# list, not an inclusion allowlist, so a new daf-level field (anything other
+# than summary/glossary) is automatically part of the semantic fingerprint
+# and the audited inventory without code changes.
+DAF_LEVEL_NON_SEMANTIC_KEYS = {"daf", "canonicalRef", "sugyot", "review", "rashiLines", "rashiTranslations"}
+
+
 def semantic_payload(daf_doc: Dict[str, Any], sugya: Dict[str, Any]) -> Dict[str, Any]:
     authored = {k: v for k, v in sugya.items() if k not in NON_SEMANTIC_KEYS}
+    daf_level_authored = {k: v for k, v in daf_doc.items() if k not in DAF_LEVEL_NON_SEMANTIC_KEYS}
     return {
-        "dafSummary": daf_doc.get("summary", ""),
-        # Daf-level authored semantic content beyond the summary. Glossary
-        # definitions are authored prose about the daf's key terms; a stale
-        # glossary entry left behind by a one-daf semantic repair is a real
-        # defect (found during the campaign on 9a), not a theoretical gap.
-        # Any change here invalidates every sugya certificate on the daf,
-        # exactly like the daf summary.
-        "dafGlossary": daf_doc.get("glossary") or [],
+        # Daf-level authored semantic content: at minimum the summary and
+        # glossary, but exhaustively whatever else DAF_LEVEL_NON_SEMANTIC_KEYS
+        # does not exclude. A stale glossary entry left behind by a one-daf
+        # semantic repair is a real defect (found during the campaign on 9a),
+        # not a theoretical gap, and this is not limited to the two fields
+        # known today. Any change here invalidates every sugya certificate on
+        # the daf, exactly like the summary always did.
+        "dafLevel": daf_level_authored,
         "sugya": authored,
     }
 
@@ -332,9 +403,38 @@ def validate_review_block(block: Any, name: str) -> Iterable[str]:
         yield f"{name}.reviewerContextId must be a nonblank string naming a genuinely distinct reviewer/session/context"
 
 
-def _walk_semantic_value(value: Any, prefix: str, container_key: str, out: List[Tuple[str, str]]) -> None:
+def _classify_leaf(path: str, container_key: str) -> str:
+    """Classify a single leaf value at `path` (whose immediate dict key or
+    array container is `container_key`). Path-based rules (METADATA) are
+    checked first since they are more specific than the generic key-name
+    rule (STRUCTURAL_LEAF_KEYS); a path not matched by anything defaults to
+    SEMANTIC, the strict/audited bucket."""
+    if path in METADATA_EXACT_PATHS or any(p.match(path) for p in METADATA_PATH_PATTERNS):
+        return "METADATA"
+    if container_key in STRUCTURAL_LEAF_KEYS:
+        return "STRUCTURAL"
+    return "SEMANTIC"
+
+
+def _classify_scalar_array_element(container_key: str, value: Any, known_sugya_ids: frozenset) -> str:
+    """Classify a bare scalar list element. Never structural merely because
+    of its container key: a requiresUnderstanding/relatedSugyot value is
+    STRUCTURAL only if it actually resolves to a real sugya id in the live
+    corpus, and a topicTags/conceptRefs value only if it actually matches
+    the required slug shape. Anything else -- including legacy prose left
+    in requiresUnderstanding from before the prerequisiteKnowledge split --
+    defaults to SEMANTIC and must be reviewed and source-supported."""
+    if container_key in SUGYA_ID_REFERENCE_ARRAY_KEYS:
+        return "STRUCTURAL" if isinstance(value, str) and value in known_sugya_ids else "SEMANTIC"
+    if container_key in SLUG_REFERENCE_ARRAY_KEYS:
+        return "STRUCTURAL" if _looks_like_slug(value) else "SEMANTIC"
+    return "SEMANTIC"
+
+
+def _walk_semantic_value(value: Any, prefix: str, container_key: str, out: List[Tuple[str, str]], known_sugya_ids: frozenset) -> None:
     """Recursively enumerate leaf paths under `value`, classifying each as
-    SEMANTIC or STRUCTURAL. See STRUCTURAL_LEAF_KEYS/STRUCTURAL_SCALAR_ARRAY_KEYS.
+    SEMANTIC, STRUCTURAL, or METADATA. See the classification constants
+    above and _classify_leaf/_classify_scalar_array_element.
 
     `container_key` is the key of the dict/list `value` itself lives under
     (used only when `value` turns out to be a leaf or a list of scalars);
@@ -346,7 +446,7 @@ def _walk_semantic_value(value: Any, prefix: str, container_key: str, out: List[
         for k in sorted(value.keys()):
             v = value[k]
             child_prefix = f"{prefix}.{k}" if prefix else k
-            _walk_semantic_value(v, child_prefix, k, out)
+            _walk_semantic_value(v, child_prefix, k, out, known_sugya_ids)
         return
     if isinstance(value, list):
         for i, item in enumerate(value):
@@ -355,42 +455,40 @@ def _walk_semantic_value(value: Any, prefix: str, container_key: str, out: List[
                     key = item["id"]
                 else:
                     key = str(i)
-                _walk_semantic_value(item, f"{prefix}[{key}]", container_key, out)
+                _walk_semantic_value(item, f"{prefix}[{key}]", container_key, out, known_sugya_ids)
             else:
                 if item is None or item == "":
                     continue
-                cls = "STRUCTURAL" if container_key in STRUCTURAL_SCALAR_ARRAY_KEYS else "SEMANTIC"
+                cls = _classify_scalar_array_element(container_key, item, known_sugya_ids)
                 out.append((f"{prefix}[{i}]", cls))
         return
     if value is None or value == "":
         return
-    cls = "STRUCTURAL" if container_key in STRUCTURAL_LEAF_KEYS else "SEMANTIC"
-    out.append((prefix, cls))
+    out.append((prefix, _classify_leaf(prefix, container_key)))
 
 
-def enumerate_semantic_paths(daf_doc: Dict[str, Any], sugya: Dict[str, Any]) -> List[Tuple[str, str]]:
+def enumerate_semantic_paths(module: str, daf_doc: Dict[str, Any], sugya: Dict[str, Any]) -> List[Tuple[str, str]]:
     """Machine-enumerate every semantically authored field/leaf actually
     present in a finished daf/sugya record, for finalAudit.fieldInventory,
     each tagged (path, classification).
 
-    This recurses the ENTIRE semantic payload (semantic_payload's dafSummary,
-    dafGlossary, and every authored sugya field) rather than naming fields by
-    hand, so a new or legacy semantic field automatically appears in the
-    audit inventory without any change to this function. Only a fixed,
-    narrow allowlist of structural key names (STRUCTURAL_LEAF_KEYS /
-    STRUCTURAL_SCALAR_ARRAY_KEYS) is exempted from the audited SEMANTIC
-    bucket; everything else defaults into it. Only fields with real content
-    are included: an optional field left empty carries no claim and needs no
-    audit entry. Paths use stable ids (argumentFlow step ids, etc.) where
-    present and 0-based indices otherwise; array identity/order is already
-    part of the semantic fingerprint, so a reordering invalidates any prior
-    audit regardless of path naming.
+    This recurses the ENTIRE semantic payload (semantic_payload's dafLevel
+    -- summary, glossary, and any other daf-level field -- and every
+    authored sugya field) rather than naming fields by hand, so a new or
+    legacy semantic field automatically appears in the audit inventory
+    without any change to this function. Classification is narrow and, for
+    the fields where the schema contract makes the VALUE the actual
+    authority (requiresUnderstanding/relatedSugyot ids, topicTags/conceptRefs
+    slugs), value-aware: a field is never STRUCTURAL merely because the
+    corpus is assumed to already conform to its ideal shape. Only fields
+    with real content are included: an optional field left empty carries no
+    claim and needs no audit entry. Paths use stable ids (argumentFlow step
+    ids, etc.) where present and 0-based indices otherwise; array
+    identity/order is already part of the semantic fingerprint, so a
+    reordering invalidates any prior audit regardless of path naming.
     """
+    known_sugya_ids = _known_sugya_ids(module)
     out: List[Tuple[str, str]] = []
-    # Shared page-level claims: every sugya certificate on the daf includes
-    # the daf summary and glossary in its semantic fingerprint, so both must
-    # be audited by every sugya's finalAudit too.
-    out.append(("dafSummary", "SEMANTIC"))
     # Boundary/source-ownership fields: excluded from the semantic
     # fingerprint (they belong to sourceFingerprint) but explicitly required
     # in the final audit inventory so boundary correctness is never silently
@@ -399,10 +497,12 @@ def enumerate_semantic_paths(daf_doc: Dict[str, Any], sugya: Dict[str, Any]) -> 
     out.append(("lines", "STRUCTURAL"))
 
     payload = semantic_payload(daf_doc, sugya)
-    _walk_semantic_value(payload.get("dafGlossary") or [], "dafGlossary", "dafGlossary", out)
+    daf_level = payload.get("dafLevel") or {}
+    for k in sorted(daf_level.keys()):
+        _walk_semantic_value(daf_level[k], f"dafLevel.{k}", k, out, known_sugya_ids)
     authored = payload.get("sugya") or {}
     for k in sorted(authored.keys()):
-        _walk_semantic_value(authored[k], k, k, out)
+        _walk_semantic_value(authored[k], k, k, out, known_sugya_ids)
 
     return out
 
@@ -463,9 +563,13 @@ def validate_final_audit(
     if final_audit.get("auditedSemanticFingerprint") != current_semantic:
         problems.append("finalAudit.auditedSemanticFingerprint differs from the current candidate (stale final audit)")
 
-    expected = dict(enumerate_semantic_paths(daf_doc, sugya))
+    expected = dict(enumerate_semantic_paths(module, daf_doc, sugya))
     expected_paths = set(expected)
-    semantic_paths = {p for p, cls in expected.items() if cls == "SEMANTIC"}
+    # Fields whose meaning can misrepresent the daf's resolution status --
+    # SEMANTIC prose, but also METADATA classifications like an argumentFlow
+    # step's discourse-move type, which can just as easily assert a false
+    # closure as free prose can.
+    swept_paths = {p for p, cls in expected.items() if cls in ("SEMANTIC", "METADATA")}
     inventory = final_audit.get("fieldInventory")
     if not isinstance(inventory, list) or not inventory:
         problems.append("finalAudit.fieldInventory must be a nonempty array")
@@ -512,28 +616,51 @@ def validate_final_audit(
             problems.append(f"{path}: fieldInventory.crossReference must be true or false")
             cross_ref = False
 
+        # A reviewer never chooses which verdicts are legal for a path: that
+        # is entirely a function of the path's machine classification (see
+        # LEGAL_VERDICTS_BY_CLASS). NONFACTUAL is only legal for STRUCTURAL
+        # paths and REVIEWED only for METADATA ones -- summaries, display/
+        # learning prose, argumentFlow labels/text/speakers, quiz
+        # questions/answers, misconceptions, finalRuling, alternateAngles,
+        # glossary definitions, visualization descriptions, and relatedSugya
+        # reasons are all SEMANTIC and can never take either shortcut. An
+        # unrecognized path (not present in the machine-enumerated
+        # inventory) gets the strictest legal set, not a permissive default.
+        legal_for_class = LEGAL_VERDICTS_BY_CLASS.get(path_class, {"SUPPORTED", "REPAIR_REQUIRED", "BLOCKED"})
+        if verdict not in legal_for_class:
+            problems.append(
+                f"{path}: {verdict} is not a legal verdict for a {path_class or 'unrecognized'} path; "
+                f"must be one of {sorted(legal_for_class)}"
+            )
+            continue
+
         if verdict == "NONFACTUAL":
-            # A reviewer never chooses this classification: it is only legal
-            # for a machine-classified STRUCTURAL path (see
-            # STRUCTURAL_LEAF_KEYS/STRUCTURAL_SCALAR_ARRAY_KEYS). Summaries,
-            # display/learning prose, argumentFlow labels/text/speakers, quiz
-            # questions/answers, misconceptions, finalRuling, alternateAngles,
-            # glossary definitions, visualization descriptions, and
-            # relatedSugya reasons are all SEMANTIC and can never be
-            # NONFACTUAL, closing the escape hatch a reviewer previously had.
-            if path_class == "SEMANTIC":
-                problems.append(f"{path}: NONFACTUAL is not a legal verdict for a SEMANTIC (authored prose) path; must be SUPPORTED, REPAIR_REQUIRED, or BLOCKED")
-                continue
             if boundary_safe_declared is not True:
                 problems.append(f"{path}: NONFACTUAL entries must declare boundarySafe true (no factual claim to be unsafe)")
+            continue
+
+        if verdict == "REVIEWED":
+            # METADATA: an editorial/pedagogical classification (argumentFlow
+            # step type, takeaway kind, reasoning-pattern category, overall
+            # difficulty) rather than free prose or a bare identifier. No
+            # source-line pointer is required, but the reviewer must record
+            # an explicit justification that the classification is actually
+            # consistent with the source -- a bare boolean would be exactly
+            # the kind of unfalsifiable "everything checked" claim schema 2.0
+            # was built to reject.
+            note = entry.get("note")
+            if not isinstance(note, str) or not note.strip():
+                problems.append(f"{path}: REVIEWED entries require a nonblank note justifying consistency with the source")
+            if boundary_safe_declared is not True:
+                problems.append(f"{path}: REVIEWED entries must declare boundarySafe true (no source-line-range claim to be unsafe)")
             continue
 
         # SUPPORTED: a factual/interpretive claim. Its supporting lines must
         # be real and, unless explicitly and legitimately a cross-reference,
         # must fall inside this sugya's own authorized range (or anywhere on
-        # the current daf for the shared dafSummary/dafGlossary claims). This
-        # is the mechanical form of "a claim may not use the following daf as
-        # source support."
+        # the current daf for the shared daf-level claims under `dafLevel.`).
+        # This is the mechanical form of "a claim may not use the following
+        # daf as source support."
         # Permitted only for a path whose classification is actually known
         # (present in the machine-enumerated `expected` map): STRUCTURAL
         # paths always qualify, SEMANTIC paths only under the fixed
@@ -584,7 +711,7 @@ def validate_final_audit(
             if item_daf != daf:
                 computed_safe = False
                 continue
-            if path == "dafSummary" or path.startswith("dafGlossary"):
+            if path.startswith("dafLevel."):
                 if end > len(raw_lines_for(daf)):
                     computed_safe = False
                 continue
@@ -627,11 +754,12 @@ def validate_final_audit(
     # `COMPLETE` declaration must never be able to skip the exact sweep
     # designed to catch false closure/next-daf leakage; dafEndState is
     # additional evidence, not a gate on whether this check runs. Scoped to
-    # SEMANTIC-class paths only (a slug or line-number coordinate cannot
-    # "assert a resolved conclusion").
+    # SEMANTIC- and METADATA-class paths (a slug or line-number coordinate
+    # cannot "assert a resolved conclusion", but an argumentFlow step's type
+    # classification can).
     sweep = final_audit.get("boundaryLeakageSweep")
     if not isinstance(sweep, list) or not sweep:
-        problems.append("finalAudit.boundaryLeakageSweep must be a nonempty array covering every SEMANTIC-class field path, required for every daf regardless of dafEndState")
+        problems.append("finalAudit.boundaryLeakageSweep must be a nonempty array covering every SEMANTIC/METADATA-class field path, required for every daf regardless of dafEndState")
     else:
         sweep_paths: set[str] = set()
         strict = bool(end_state) and end_state != "COMPLETE"
@@ -651,23 +779,42 @@ def validate_final_audit(
                 note = entry.get("note")
                 if not isinstance(note, str) or not note.strip():
                     problems.append(f"boundaryLeakageSweep[{p!r}] requires a nonblank note justifying non-leakage on an open ({end_state}) daf")
-        missing_sweep = semantic_paths - sweep_paths
+        missing_sweep = swept_paths - sweep_paths
         if missing_sweep:
-            problems.append(f"boundaryLeakageSweep omits {len(missing_sweep)} SEMANTIC-class path(s): {sorted(missing_sweep)}")
+            problems.append(f"boundaryLeakageSweep omits {len(missing_sweep)} SEMANTIC/METADATA-class path(s): {sorted(missing_sweep)}")
 
-    # Post-repair stale-content sweep, required unconditionally.
+    # Post-repair stale-content sweep, required unconditionally. Each
+    # required category must appear EXACTLY once: a duplicate (even one
+    # where both copies happen to agree) is rejected outright rather than
+    # silently collapsed to "whichever entry came last", since silently
+    # picking a winner is exactly the kind of ambiguity that could let a
+    # dishonest found:true be shadowed by a later found:false for the same
+    # category.
     sweep2 = final_audit.get("staleContentSweep")
     if not isinstance(sweep2, dict) or not isinstance(sweep2.get("entries"), list):
         problems.append("finalAudit.staleContentSweep.entries must be an array")
     else:
-        by_cat: Dict[str, Any] = {}
+        cat_counts: Dict[str, int] = {}
+        first_entry_by_cat: Dict[str, Any] = {}
         for entry in sweep2["entries"]:
-            if isinstance(entry, dict) and isinstance(entry.get("category"), str):
-                by_cat[entry["category"]] = entry
-        missing_cats = set(STALE_SWEEP_CATEGORIES) - set(by_cat)
+            if not isinstance(entry, dict) or not isinstance(entry.get("category"), str):
+                problems.append("staleContentSweep entry must be an object with a string category")
+                continue
+            cat = entry["category"]
+            cat_counts[cat] = cat_counts.get(cat, 0) + 1
+            first_entry_by_cat.setdefault(cat, entry)
+        duplicate_cats = sorted(c for c, n in cat_counts.items() if n > 1)
+        if duplicate_cats:
+            problems.append(f"finalAudit.staleContentSweep has duplicate category entries (each required category must appear exactly once): {duplicate_cats}")
+        unknown_cats = sorted(set(cat_counts) - set(STALE_SWEEP_CATEGORIES))
+        if unknown_cats:
+            problems.append(f"finalAudit.staleContentSweep has unrecognized categories: {unknown_cats}")
+        missing_cats = set(STALE_SWEEP_CATEGORIES) - set(cat_counts)
         if missing_cats:
             problems.append(f"finalAudit.staleContentSweep missing categories: {sorted(missing_cats)}")
-        for cat, entry in by_cat.items():
+        for cat, entry in first_entry_by_cat.items():
+            if cat not in STALE_SWEEP_CATEGORIES:
+                continue
             found = entry.get("found")
             if not isinstance(found, bool):
                 problems.append(f"staleContentSweep[{cat}] missing boolean found")

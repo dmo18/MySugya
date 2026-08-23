@@ -34,11 +34,13 @@ def review(review_id: str, reviewer_context_id: str, verdict: str, source_fp: st
 def realistic_final_audit(module: str, daf: str, doc: dict, sugya: dict, review_id: str, auditor_context_id: str) -> dict:
     """A mechanically-valid finalAudit for plumbing tests. Every SEMANTIC-class
     path is SUPPORTED with real, in-range supporting lines (schema 2.0 no
-    longer permits NONFACTUAL for authored prose); only STRUCTURAL-class
-    paths (identifiers/coordinates/slugs) use NONFACTUAL. Content-QUALITY
-    tests (is the claim actually true) live in the semantic campaign itself,
-    not here -- this only proves the plumbing accepts a mechanically sound,
-    fully-covered, correctly-classified audit.
+    longer permits NONFACTUAL for authored prose); STRUCTURAL-class paths
+    (identifiers/coordinates/slugs/resolvable ids) use NONFACTUAL; METADATA-
+    class paths (argumentFlow step type, takeaway type, difficulty, etc.)
+    use REVIEWED with a justifying note. Content-QUALITY tests (is the claim
+    actually true) live in the semantic campaign itself, not here -- this
+    only proves the plumbing accepts a mechanically sound, fully-covered,
+    correctly-classified audit.
     """
     source_fp, semantic_fp = fingerprints(module, daf, doc, sugya)
     raw = json.loads((raw_dir(module) / f"{daf}.json").read_text(encoding="utf-8"))
@@ -46,11 +48,17 @@ def realistic_final_audit(module: str, daf: str, doc: dict, sugya: dict, review_
     lr = sugya["lineRange"]
 
     entries = []
-    for path, cls in enumerate_semantic_paths(doc, sugya):
+    for path, cls in enumerate_semantic_paths(module, doc, sugya):
         if cls == "STRUCTURAL":
             entries.append({"path": path, "verdict": "NONFACTUAL", "boundarySafe": True, "crossReference": False})
             continue
-        if path == "dafSummary" or path.startswith("dafGlossary"):
+        if cls == "METADATA":
+            entries.append({
+                "path": path, "verdict": "REVIEWED", "boundarySafe": True, "crossReference": False,
+                "note": "test: classification independently re-derived from source and confirmed consistent",
+            })
+            continue
+        if path.startswith("dafLevel."):
             lines = [{"daf": daf, "startVilnaLine": 1, "endVilnaLine": len(raw_lines)}]
         else:
             lines = [{"daf": daf, "startVilnaLine": lr["startVilnaLine"], "endVilnaLine": lr["endVilnaLine"]}]
@@ -72,7 +80,7 @@ def realistic_final_audit(module: str, daf: str, doc: dict, sugya: dict, review_
         "fieldInventory": entries,
         "boundaryLeakageSweep": [
             {"path": path, "importsNextDafConclusion": False}
-            for path, cls in enumerate_semantic_paths(doc, sugya) if cls == "SEMANTIC"
+            for path, cls in enumerate_semantic_paths(module, doc, sugya) if cls in ("SEMANTIC", "METADATA")
         ],
         "staleContentSweep": {
             "entries": [{"category": c, "found": False} for c in STALE_SWEEP_CATEGORIES]
