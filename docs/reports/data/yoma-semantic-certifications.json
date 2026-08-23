@@ -5029,56 +5029,25 @@
           "declaration": "Independently read and reconstructed lines 10-23. Found a genuine sourceRef/sequencing error for R. Yitzchak's contribution, and a genuine content-bleed defect pulling the 'revealed vs hidden sin' principle (which actually belongs to s05, lines 35-36) into this sugya's own fields prematurely. REPAIR_REQUIRED."
         }
       },
-      "repairRef": "988a7b147ae236b9ba309322394110efcf4de7c6",
+      "repairRef": "7bb3ee604db249893efe9a65baf02dc5e7392d75",
       "sourceFingerprint": "38b74c106e9d7068b493bb68616638fb302718996272ef5c6c1d5fe120f6fff5",
-      "semanticFingerprint": "587858f9dfcef99c74afc8b8d367bab80eb3700700ac5ade3080fcf25a60ac2a",
+      "semanticFingerprint": "8f74a481bc56fdd1862e48c416db1ba9b5fbeca8363a4832c626c7aad54c1c01",
       "secondPass": {
-        "reviewId": "sonnet5-9b-second-20260823b",
+        "reviewId": "sonnet5-9b-second-20260823c-refresh2",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "38b74c106e9d7068b493bb68616638fb302718996272ef5c6c1d5fe120f6fff5",
-        "reviewedSemanticFingerprint": "587858f9dfcef99c74afc8b8d367bab80eb3700700ac5ade3080fcf25a60ac2a",
+        "reviewedSemanticFingerprint": "8f74a481bc56fdd1862e48c416db1ba9b5fbeca8363a4832c626c7aad54c1c01",
         "evidence": {
-          "reviewId": "sonnet5-9b-second-20260823b",
+          "reviewId": "sonnet5-9b-second-20260823c-refresh2",
           "module": "yoma",
           "daf": "9b",
-          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines 1-50 fresh, without consulting first-pass reasoning. Confirmed the same six-part structure: (1) lines 1-9, completing 9a's cutoff with Eli's sons' bizayon kodashim (kanim genuinely appears at line 1); (2) lines 10-23, the First Temple's three cardinal sins each independently proven, with R. Yitzchak's daughters-of-Zion addition correctly positioned at the end of the base exposition (line 20), not before the verse; (3) lines 24-31, sinat chinam declared equal to the three sins, then the First Temple generation's retained trust in God per Micah 3:11-12; (4) lines 32-34, R. Eliezer's answer to the First-Temple-sinat-chinam challenge, scoped to the nesi'im; (5) lines 35-39, R. Yochanan/R. Elazar's revealed-sin-revealed-end principle and the R. Yochanan/Reish Lakish generational-merit dispute, cross-checked against the file's own Rashi commentary which independently confirms every element (the Jeremiah 70-years reference, the Temple-building witness language); (6) lines 40-50, the Reish Lakish/Rabbah bar bar Chana Jordan story, sasmagor/bat kol, the transmission challenge, Rav Papa's resolution (re-verified the corrected pairing - R. Elazar swimming with Rabbah bar bar Chana extending the hand - against Rashi's own gloss), and the genuinely cut-off final point about Ezra's generation, which Rashi's own comment confirms 'is completed on 10a.'",
-          "perSugya": [
-            {
-              "sugyaId": "yoma-009b-s01",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified against lines 1-9; accurate and unchanged in substance. Only enrichment-contract hygiene fields were edited (hint, requiresUnderstanding, topicTags, visualizableElements shape) - no semantic content changed."
-            },
-            {
-              "sugyaId": "yoma-009b-s02",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified the corrected argumentFlow ordering and sourceRefs against lines 10-23. R. Yitzchak's contribution is now correctly positioned after the base Isaiah exposition, sourced to line 20. The premature 'revealed vs hidden sin' framing has been fully removed from this sugya's own fields."
-            },
-            {
-              "sugyaId": "yoma-009b-s03",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified against lines 24-31. The fabricated 'hidden sin -> no revealed end' step-02 (misattributed to line 27) has been replaced with this sugya's own genuine content: the First Temple generation's retained trust in God (Micah 3:11) and the three decrees matched to three sins (Micah 3:12)."
-            },
-            {
-              "sugyaId": "yoma-009b-s04",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified against lines 32-34. The misplaced generational-merit-dispute content (which belongs to s05) has been removed; the sugya now correctly contains only R. Eliezer's answer and the nesi'im-scoping baraita."
-            },
-            {
-              "sugyaId": "yoma-009b-s05",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified the fully rewritten content against lines 35-39 and the file's own Rashi commentary, which confirms every element (revealed-sin-revealed-end with the Jeremiah reference, R. Yochanan's fingernails-preference, Reish Lakish's counter, the Temple-building proofs given by both R. Yochanan and R. Elazar). No trace of the misplaced Jordan-River content remains."
-            },
-            {
-              "sugyaId": "yoma-009b-s06",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified the fully rewritten content against lines 40-50 and the file's own Rashi commentary. The previously missing Jordan-River story is now present; the Rav Papa pairing error (swimmer/hand-extender) has been corrected to match Rashi's own gloss; the fabricated 'R. Yochanan confirms the rebuke' closing has been replaced with the genuine cut-off ending, which Rashi's own comment confirms continues on 10a."
-            }
-          ],
-          "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, with particular attention to the most severe originally-found defects: the one-topic-block content shift across s04-s05-s06, the reversed Rav Papa pairing, and the fabricated closing on s06. All six sugyot's content is confirmed accurate, correctly bounded, and fully grounded in the source text and the file's own Rashi commentary, with no remaining misattribution, content-bleed, or fabrication."
+          "note": "Fingerprint-refresh cycle: fixed 7 dangling sourceRefs.lineId values across s02/s03/s04/s05(x2)/s06(x2) that pointed to internal line-segment ids not present in this daf's lineMap (e.g. yoma-009b-l20 does not exist; the correct segment id for vilnaLine 20 is yoma-009b-l15). validate_source_refs.py flagged these as OBJECT_DANGLING_REPAIRABLE and named the correct replacement id for each; applied exactly those replacements. vilnaLine values (which were already correct) and all speaker/text/label content were untouched.",
+          "verdict": "CONFIRMED",
+          "declaration": "Re-verified after a lineId-only mechanical fix (no vilnaLine, speaker, text, or label content changed in any step). The semantic content of s02, s03, s04, s05, and s06 is unchanged from the already-CONFIRMED prior second pass. CONFIRMED for all affected sugyot."
         }
       },
-      "certifiedAtCommit": "988a7b147ae236b9ba309322394110efcf4de7c6"
+      "certifiedAtCommit": "7bb3ee604db249893efe9a65baf02dc5e7392d75"
     },
     "yoma-009b-s03": {
       "sugyaId": "yoma-009b-s03",
@@ -5109,27 +5078,25 @@
           "declaration": "Independently read and reconstructed lines 24-31. Found a severe misattribution: step-02 presents content from a different, later sugya (s05, lines 35-36) as if established here at line 27, while this sugya's own actual content at lines 27-31 (trust in God despite wickedness, Micah 3:11-12, three decrees for three sins) was omitted entirely. REPAIR_REQUIRED."
         }
       },
-      "repairRef": "a8fe86067d33970350b29083641e9d92fba41a79",
+      "repairRef": "7bb3ee604db249893efe9a65baf02dc5e7392d75",
       "sourceFingerprint": "2a8072b9377015ddc11328de6d969de6aed05a6bd99bf7e386273e572f3f474d",
-      "semanticFingerprint": "79c9cd59871fe584aabcc12e57f75dac9a6e9c8559fa8ffedbf776566fd825e7",
+      "semanticFingerprint": "15204da300fa27fda669906dd533b1a0335117a3cf8a41a68496a391beaa6ea9",
       "secondPass": {
-        "reviewId": "sonnet5-9b-second-20260823b-refresh",
+        "reviewId": "sonnet5-9b-second-20260823c-refresh2",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "2a8072b9377015ddc11328de6d969de6aed05a6bd99bf7e386273e572f3f474d",
-        "reviewedSemanticFingerprint": "79c9cd59871fe584aabcc12e57f75dac9a6e9c8559fa8ffedbf776566fd825e7",
+        "reviewedSemanticFingerprint": "15204da300fa27fda669906dd533b1a0335117a3cf8a41a68496a391beaa6ea9",
         "evidence": {
-          "reviewId": "sonnet5-9b-second-20260823b-refresh",
+          "reviewId": "sonnet5-9b-second-20260823c-refresh2",
           "module": "yoma",
           "daf": "9b",
-          "sugyaId": "yoma-009b-s03",
-          "note": "Fingerprint-refresh cycle: only the argumentFlow step-02 'type' field changed, from the unregistered value 'aside' to the already-registered value 'digression' (shared/argument_step_taxonomy.json), to satisfy validate_argument_taxonomy.py's 100%-coverage gate. No change to speaker, text, sourceRefs, or any other semantic content of the step.",
-          "independentSourceReconstruction": "Re-confirmed against authoritativeHebrewLines 24-31: step-02 accurately describes the Gemara's return to the First Temple generation's retained trust in God (Micah 3:11), which is a genuine digression from the immediately preceding sinat-chinam point back to the earlier First Temple material - 'digression' is an apt, accurate type label for this move, matching its content exactly as already CONFIRMED in the prior second pass.",
+          "note": "Fingerprint-refresh cycle: fixed 7 dangling sourceRefs.lineId values across s02/s03/s04/s05(x2)/s06(x2) that pointed to internal line-segment ids not present in this daf's lineMap (e.g. yoma-009b-l20 does not exist; the correct segment id for vilnaLine 20 is yoma-009b-l15). validate_source_refs.py flagged these as OBJECT_DANGLING_REPAIRABLE and named the correct replacement id for each; applied exactly those replacements. vilnaLine values (which were already correct) and all speaker/text/label content were untouched.",
           "verdict": "CONFIRMED",
-          "declaration": "Re-verified after a type-label-only fix (aside -> digression, both non-content taxonomy labels) required by the argument-taxonomy coverage gate. No semantic content changed; the sugya's content is unchanged from the already-CONFIRMED prior second pass. CONFIRMED."
+          "declaration": "Re-verified after a lineId-only mechanical fix (no vilnaLine, speaker, text, or label content changed in any step). The semantic content of s02, s03, s04, s05, and s06 is unchanged from the already-CONFIRMED prior second pass. CONFIRMED for all affected sugyot."
         }
       },
-      "certifiedAtCommit": "a8fe86067d33970350b29083641e9d92fba41a79"
+      "certifiedAtCommit": "7bb3ee604db249893efe9a65baf02dc5e7392d75"
     },
     "yoma-009b-s04": {
       "sugyaId": "yoma-009b-s04",
@@ -5161,56 +5128,25 @@
           "declaration": "Independently read and reconstructed lines 32-34. Found the same content-bleed pattern as s02/s03: the generational-merit dispute, which genuinely belongs to s05 (lines 36-38), was presented as already established within s04's own boundary. REPAIR_REQUIRED."
         }
       },
-      "repairRef": "988a7b147ae236b9ba309322394110efcf4de7c6",
+      "repairRef": "7bb3ee604db249893efe9a65baf02dc5e7392d75",
       "sourceFingerprint": "19866810ba8aaf27af03b94ed0cfa15c532fa57538519a92341da13f43c2c7a4",
-      "semanticFingerprint": "b70220ae4db9a862ff5d44451de3d875458f65721ca6a7c72c9dc2462077f25b",
+      "semanticFingerprint": "a8e340558baac73386bbe1fd4b6ebdb9ebcc789e343005fabfef28938548fa36",
       "secondPass": {
-        "reviewId": "sonnet5-9b-second-20260823b",
+        "reviewId": "sonnet5-9b-second-20260823c-refresh2",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "19866810ba8aaf27af03b94ed0cfa15c532fa57538519a92341da13f43c2c7a4",
-        "reviewedSemanticFingerprint": "b70220ae4db9a862ff5d44451de3d875458f65721ca6a7c72c9dc2462077f25b",
+        "reviewedSemanticFingerprint": "a8e340558baac73386bbe1fd4b6ebdb9ebcc789e343005fabfef28938548fa36",
         "evidence": {
-          "reviewId": "sonnet5-9b-second-20260823b",
+          "reviewId": "sonnet5-9b-second-20260823c-refresh2",
           "module": "yoma",
           "daf": "9b",
-          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines 1-50 fresh, without consulting first-pass reasoning. Confirmed the same six-part structure: (1) lines 1-9, completing 9a's cutoff with Eli's sons' bizayon kodashim (kanim genuinely appears at line 1); (2) lines 10-23, the First Temple's three cardinal sins each independently proven, with R. Yitzchak's daughters-of-Zion addition correctly positioned at the end of the base exposition (line 20), not before the verse; (3) lines 24-31, sinat chinam declared equal to the three sins, then the First Temple generation's retained trust in God per Micah 3:11-12; (4) lines 32-34, R. Eliezer's answer to the First-Temple-sinat-chinam challenge, scoped to the nesi'im; (5) lines 35-39, R. Yochanan/R. Elazar's revealed-sin-revealed-end principle and the R. Yochanan/Reish Lakish generational-merit dispute, cross-checked against the file's own Rashi commentary which independently confirms every element (the Jeremiah 70-years reference, the Temple-building witness language); (6) lines 40-50, the Reish Lakish/Rabbah bar bar Chana Jordan story, sasmagor/bat kol, the transmission challenge, Rav Papa's resolution (re-verified the corrected pairing - R. Elazar swimming with Rabbah bar bar Chana extending the hand - against Rashi's own gloss), and the genuinely cut-off final point about Ezra's generation, which Rashi's own comment confirms 'is completed on 10a.'",
-          "perSugya": [
-            {
-              "sugyaId": "yoma-009b-s01",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified against lines 1-9; accurate and unchanged in substance. Only enrichment-contract hygiene fields were edited (hint, requiresUnderstanding, topicTags, visualizableElements shape) - no semantic content changed."
-            },
-            {
-              "sugyaId": "yoma-009b-s02",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified the corrected argumentFlow ordering and sourceRefs against lines 10-23. R. Yitzchak's contribution is now correctly positioned after the base Isaiah exposition, sourced to line 20. The premature 'revealed vs hidden sin' framing has been fully removed from this sugya's own fields."
-            },
-            {
-              "sugyaId": "yoma-009b-s03",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified against lines 24-31. The fabricated 'hidden sin -> no revealed end' step-02 (misattributed to line 27) has been replaced with this sugya's own genuine content: the First Temple generation's retained trust in God (Micah 3:11) and the three decrees matched to three sins (Micah 3:12)."
-            },
-            {
-              "sugyaId": "yoma-009b-s04",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified against lines 32-34. The misplaced generational-merit-dispute content (which belongs to s05) has been removed; the sugya now correctly contains only R. Eliezer's answer and the nesi'im-scoping baraita."
-            },
-            {
-              "sugyaId": "yoma-009b-s05",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified the fully rewritten content against lines 35-39 and the file's own Rashi commentary, which confirms every element (revealed-sin-revealed-end with the Jeremiah reference, R. Yochanan's fingernails-preference, Reish Lakish's counter, the Temple-building proofs given by both R. Yochanan and R. Elazar). No trace of the misplaced Jordan-River content remains."
-            },
-            {
-              "sugyaId": "yoma-009b-s06",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified the fully rewritten content against lines 40-50 and the file's own Rashi commentary. The previously missing Jordan-River story is now present; the Rav Papa pairing error (swimmer/hand-extender) has been corrected to match Rashi's own gloss; the fabricated 'R. Yochanan confirms the rebuke' closing has been replaced with the genuine cut-off ending, which Rashi's own comment confirms continues on 10a."
-            }
-          ],
-          "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, with particular attention to the most severe originally-found defects: the one-topic-block content shift across s04-s05-s06, the reversed Rav Papa pairing, and the fabricated closing on s06. All six sugyot's content is confirmed accurate, correctly bounded, and fully grounded in the source text and the file's own Rashi commentary, with no remaining misattribution, content-bleed, or fabrication."
+          "note": "Fingerprint-refresh cycle: fixed 7 dangling sourceRefs.lineId values across s02/s03/s04/s05(x2)/s06(x2) that pointed to internal line-segment ids not present in this daf's lineMap (e.g. yoma-009b-l20 does not exist; the correct segment id for vilnaLine 20 is yoma-009b-l15). validate_source_refs.py flagged these as OBJECT_DANGLING_REPAIRABLE and named the correct replacement id for each; applied exactly those replacements. vilnaLine values (which were already correct) and all speaker/text/label content were untouched.",
+          "verdict": "CONFIRMED",
+          "declaration": "Re-verified after a lineId-only mechanical fix (no vilnaLine, speaker, text, or label content changed in any step). The semantic content of s02, s03, s04, s05, and s06 is unchanged from the already-CONFIRMED prior second pass. CONFIRMED for all affected sugyot."
         }
       },
-      "certifiedAtCommit": "988a7b147ae236b9ba309322394110efcf4de7c6"
+      "certifiedAtCommit": "7bb3ee604db249893efe9a65baf02dc5e7392d75"
     },
     "yoma-009b-s05": {
       "sugyaId": "yoma-009b-s05",
@@ -5239,56 +5175,25 @@
           "declaration": "Independently read and reconstructed lines 35-39, cross-validated against the file's own Rashi commentary which confirms every element of the corrected content. The entire prior enrichment for this sugya was misplaced content belonging to s06; none of s05's own true content was represented anywhere on the daf. REPAIR_REQUIRED - full rewrite."
         }
       },
-      "repairRef": "988a7b147ae236b9ba309322394110efcf4de7c6",
+      "repairRef": "7bb3ee604db249893efe9a65baf02dc5e7392d75",
       "sourceFingerprint": "f0b0c80952c9e3c5d64622c3b9138c1dee077511a88a15c8319d54c3f99ef57a",
-      "semanticFingerprint": "5790efa4d0a03b0ca61930deea30d1079c5a1b2c2ea521735f381506b80f2e67",
+      "semanticFingerprint": "2b1f92ca099f78be0721e68736e1837d96c3104e52e1895f5aa812eb32eb1bb7",
       "secondPass": {
-        "reviewId": "sonnet5-9b-second-20260823b",
+        "reviewId": "sonnet5-9b-second-20260823c-refresh2",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "f0b0c80952c9e3c5d64622c3b9138c1dee077511a88a15c8319d54c3f99ef57a",
-        "reviewedSemanticFingerprint": "5790efa4d0a03b0ca61930deea30d1079c5a1b2c2ea521735f381506b80f2e67",
+        "reviewedSemanticFingerprint": "2b1f92ca099f78be0721e68736e1837d96c3104e52e1895f5aa812eb32eb1bb7",
         "evidence": {
-          "reviewId": "sonnet5-9b-second-20260823b",
+          "reviewId": "sonnet5-9b-second-20260823c-refresh2",
           "module": "yoma",
           "daf": "9b",
-          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines 1-50 fresh, without consulting first-pass reasoning. Confirmed the same six-part structure: (1) lines 1-9, completing 9a's cutoff with Eli's sons' bizayon kodashim (kanim genuinely appears at line 1); (2) lines 10-23, the First Temple's three cardinal sins each independently proven, with R. Yitzchak's daughters-of-Zion addition correctly positioned at the end of the base exposition (line 20), not before the verse; (3) lines 24-31, sinat chinam declared equal to the three sins, then the First Temple generation's retained trust in God per Micah 3:11-12; (4) lines 32-34, R. Eliezer's answer to the First-Temple-sinat-chinam challenge, scoped to the nesi'im; (5) lines 35-39, R. Yochanan/R. Elazar's revealed-sin-revealed-end principle and the R. Yochanan/Reish Lakish generational-merit dispute, cross-checked against the file's own Rashi commentary which independently confirms every element (the Jeremiah 70-years reference, the Temple-building witness language); (6) lines 40-50, the Reish Lakish/Rabbah bar bar Chana Jordan story, sasmagor/bat kol, the transmission challenge, Rav Papa's resolution (re-verified the corrected pairing - R. Elazar swimming with Rabbah bar bar Chana extending the hand - against Rashi's own gloss), and the genuinely cut-off final point about Ezra's generation, which Rashi's own comment confirms 'is completed on 10a.'",
-          "perSugya": [
-            {
-              "sugyaId": "yoma-009b-s01",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified against lines 1-9; accurate and unchanged in substance. Only enrichment-contract hygiene fields were edited (hint, requiresUnderstanding, topicTags, visualizableElements shape) - no semantic content changed."
-            },
-            {
-              "sugyaId": "yoma-009b-s02",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified the corrected argumentFlow ordering and sourceRefs against lines 10-23. R. Yitzchak's contribution is now correctly positioned after the base Isaiah exposition, sourced to line 20. The premature 'revealed vs hidden sin' framing has been fully removed from this sugya's own fields."
-            },
-            {
-              "sugyaId": "yoma-009b-s03",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified against lines 24-31. The fabricated 'hidden sin -> no revealed end' step-02 (misattributed to line 27) has been replaced with this sugya's own genuine content: the First Temple generation's retained trust in God (Micah 3:11) and the three decrees matched to three sins (Micah 3:12)."
-            },
-            {
-              "sugyaId": "yoma-009b-s04",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified against lines 32-34. The misplaced generational-merit-dispute content (which belongs to s05) has been removed; the sugya now correctly contains only R. Eliezer's answer and the nesi'im-scoping baraita."
-            },
-            {
-              "sugyaId": "yoma-009b-s05",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified the fully rewritten content against lines 35-39 and the file's own Rashi commentary, which confirms every element (revealed-sin-revealed-end with the Jeremiah reference, R. Yochanan's fingernails-preference, Reish Lakish's counter, the Temple-building proofs given by both R. Yochanan and R. Elazar). No trace of the misplaced Jordan-River content remains."
-            },
-            {
-              "sugyaId": "yoma-009b-s06",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified the fully rewritten content against lines 40-50 and the file's own Rashi commentary. The previously missing Jordan-River story is now present; the Rav Papa pairing error (swimmer/hand-extender) has been corrected to match Rashi's own gloss; the fabricated 'R. Yochanan confirms the rebuke' closing has been replaced with the genuine cut-off ending, which Rashi's own comment confirms continues on 10a."
-            }
-          ],
-          "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, with particular attention to the most severe originally-found defects: the one-topic-block content shift across s04-s05-s06, the reversed Rav Papa pairing, and the fabricated closing on s06. All six sugyot's content is confirmed accurate, correctly bounded, and fully grounded in the source text and the file's own Rashi commentary, with no remaining misattribution, content-bleed, or fabrication."
+          "note": "Fingerprint-refresh cycle: fixed 7 dangling sourceRefs.lineId values across s02/s03/s04/s05(x2)/s06(x2) that pointed to internal line-segment ids not present in this daf's lineMap (e.g. yoma-009b-l20 does not exist; the correct segment id for vilnaLine 20 is yoma-009b-l15). validate_source_refs.py flagged these as OBJECT_DANGLING_REPAIRABLE and named the correct replacement id for each; applied exactly those replacements. vilnaLine values (which were already correct) and all speaker/text/label content were untouched.",
+          "verdict": "CONFIRMED",
+          "declaration": "Re-verified after a lineId-only mechanical fix (no vilnaLine, speaker, text, or label content changed in any step). The semantic content of s02, s03, s04, s05, and s06 is unchanged from the already-CONFIRMED prior second pass. CONFIRMED for all affected sugyot."
         }
       },
-      "certifiedAtCommit": "988a7b147ae236b9ba309322394110efcf4de7c6"
+      "certifiedAtCommit": "7bb3ee604db249893efe9a65baf02dc5e7392d75"
     },
     "yoma-009b-s06": {
       "sugyaId": "yoma-009b-s06",
@@ -5327,56 +5232,25 @@
           "declaration": "Independently read and reconstructed lines 40-50, cross-validated against the file's own detailed Rashi commentary on this passage. Found the missing Jordan-River story (misplaced into s05), a reversed attribution in Rav Papa's second pairing, and a fabricated closing statement replacing the genuine cut-off ending that even Rashi's own note confirms continues on 10a. REPAIR_REQUIRED - major rewrite."
         }
       },
-      "repairRef": "988a7b147ae236b9ba309322394110efcf4de7c6",
+      "repairRef": "7bb3ee604db249893efe9a65baf02dc5e7392d75",
       "sourceFingerprint": "fd1f9e4d5e03ccdb121fbd2db51d7d8d2f8eda9ec47d8b0a4547bbb4862a53fe",
-      "semanticFingerprint": "9dc51001784cbf65710c881e2033dcc2ae2d307dfab556f0d00cf28836728912",
+      "semanticFingerprint": "30b14caabbdead589993f93a337693e9f88681bed1066783cf935084e03948bc",
       "secondPass": {
-        "reviewId": "sonnet5-9b-second-20260823b",
+        "reviewId": "sonnet5-9b-second-20260823c-refresh2",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "fd1f9e4d5e03ccdb121fbd2db51d7d8d2f8eda9ec47d8b0a4547bbb4862a53fe",
-        "reviewedSemanticFingerprint": "9dc51001784cbf65710c881e2033dcc2ae2d307dfab556f0d00cf28836728912",
+        "reviewedSemanticFingerprint": "30b14caabbdead589993f93a337693e9f88681bed1066783cf935084e03948bc",
         "evidence": {
-          "reviewId": "sonnet5-9b-second-20260823b",
+          "reviewId": "sonnet5-9b-second-20260823c-refresh2",
           "module": "yoma",
           "daf": "9b",
-          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines 1-50 fresh, without consulting first-pass reasoning. Confirmed the same six-part structure: (1) lines 1-9, completing 9a's cutoff with Eli's sons' bizayon kodashim (kanim genuinely appears at line 1); (2) lines 10-23, the First Temple's three cardinal sins each independently proven, with R. Yitzchak's daughters-of-Zion addition correctly positioned at the end of the base exposition (line 20), not before the verse; (3) lines 24-31, sinat chinam declared equal to the three sins, then the First Temple generation's retained trust in God per Micah 3:11-12; (4) lines 32-34, R. Eliezer's answer to the First-Temple-sinat-chinam challenge, scoped to the nesi'im; (5) lines 35-39, R. Yochanan/R. Elazar's revealed-sin-revealed-end principle and the R. Yochanan/Reish Lakish generational-merit dispute, cross-checked against the file's own Rashi commentary which independently confirms every element (the Jeremiah 70-years reference, the Temple-building witness language); (6) lines 40-50, the Reish Lakish/Rabbah bar bar Chana Jordan story, sasmagor/bat kol, the transmission challenge, Rav Papa's resolution (re-verified the corrected pairing - R. Elazar swimming with Rabbah bar bar Chana extending the hand - against Rashi's own gloss), and the genuinely cut-off final point about Ezra's generation, which Rashi's own comment confirms 'is completed on 10a.'",
-          "perSugya": [
-            {
-              "sugyaId": "yoma-009b-s01",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified against lines 1-9; accurate and unchanged in substance. Only enrichment-contract hygiene fields were edited (hint, requiresUnderstanding, topicTags, visualizableElements shape) - no semantic content changed."
-            },
-            {
-              "sugyaId": "yoma-009b-s02",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified the corrected argumentFlow ordering and sourceRefs against lines 10-23. R. Yitzchak's contribution is now correctly positioned after the base Isaiah exposition, sourced to line 20. The premature 'revealed vs hidden sin' framing has been fully removed from this sugya's own fields."
-            },
-            {
-              "sugyaId": "yoma-009b-s03",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified against lines 24-31. The fabricated 'hidden sin -> no revealed end' step-02 (misattributed to line 27) has been replaced with this sugya's own genuine content: the First Temple generation's retained trust in God (Micah 3:11) and the three decrees matched to three sins (Micah 3:12)."
-            },
-            {
-              "sugyaId": "yoma-009b-s04",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified against lines 32-34. The misplaced generational-merit-dispute content (which belongs to s05) has been removed; the sugya now correctly contains only R. Eliezer's answer and the nesi'im-scoping baraita."
-            },
-            {
-              "sugyaId": "yoma-009b-s05",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified the fully rewritten content against lines 35-39 and the file's own Rashi commentary, which confirms every element (revealed-sin-revealed-end with the Jeremiah reference, R. Yochanan's fingernails-preference, Reish Lakish's counter, the Temple-building proofs given by both R. Yochanan and R. Elazar). No trace of the misplaced Jordan-River content remains."
-            },
-            {
-              "sugyaId": "yoma-009b-s06",
-              "verdict": "CONFIRMED",
-              "notes": "Independently re-verified the fully rewritten content against lines 40-50 and the file's own Rashi commentary. The previously missing Jordan-River story is now present; the Rav Papa pairing error (swimmer/hand-extender) has been corrected to match Rashi's own gloss; the fabricated 'R. Yochanan confirms the rebuke' closing has been replaced with the genuine cut-off ending, which Rashi's own comment confirms continues on 10a."
-            }
-          ],
-          "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, with particular attention to the most severe originally-found defects: the one-topic-block content shift across s04-s05-s06, the reversed Rav Papa pairing, and the fabricated closing on s06. All six sugyot's content is confirmed accurate, correctly bounded, and fully grounded in the source text and the file's own Rashi commentary, with no remaining misattribution, content-bleed, or fabrication."
+          "note": "Fingerprint-refresh cycle: fixed 7 dangling sourceRefs.lineId values across s02/s03/s04/s05(x2)/s06(x2) that pointed to internal line-segment ids not present in this daf's lineMap (e.g. yoma-009b-l20 does not exist; the correct segment id for vilnaLine 20 is yoma-009b-l15). validate_source_refs.py flagged these as OBJECT_DANGLING_REPAIRABLE and named the correct replacement id for each; applied exactly those replacements. vilnaLine values (which were already correct) and all speaker/text/label content were untouched.",
+          "verdict": "CONFIRMED",
+          "declaration": "Re-verified after a lineId-only mechanical fix (no vilnaLine, speaker, text, or label content changed in any step). The semantic content of s02, s03, s04, s05, and s06 is unchanged from the already-CONFIRMED prior second pass. CONFIRMED for all affected sugyot."
         }
       },
-      "certifiedAtCommit": "988a7b147ae236b9ba309322394110efcf4de7c6"
+      "certifiedAtCommit": "7bb3ee604db249893efe9a65baf02dc5e7392d75"
     }
   }
 }

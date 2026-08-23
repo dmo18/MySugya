@@ -19252,7 +19252,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-009b-l20",
+                lineId: "yoma-009b-l15",
                 vilnaLine: 20,
                 note: "R. Yitzchak's added detail, following the base Isaiah exposition"
               }
@@ -19409,7 +19409,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-009b-l30",
+                lineId: "yoma-009b-l27",
                 vilnaLine: 30,
                 note: "Three decrees matched to the First Temple generation's three sins, per Micah 3:12"
               }
@@ -19555,7 +19555,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-009b-l33",
+                lineId: "yoma-009b-l32",
                 vilnaLine: 33,
                 note: "R. Eliezer identifies First Temple sinat chinam as slander among sociable people"
               }
@@ -19739,7 +19739,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-009b-l37",
+                lineId: "yoma-009b-l36",
                 vilnaLine: 37,
                 note: "Reish Lakish argues for the later generations' greater merit"
               }
@@ -19754,7 +19754,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-009b-l38",
+                lineId: "yoma-009b-l36",
                 vilnaLine: 38,
                 note: "R. Yochanan's Temple-building rebuttal"
               }
@@ -19921,7 +19921,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-009b-l42",
+                lineId: "yoma-009b-l40",
                 vilnaLine: 42,
                 note: "Wall/door metaphor applied: silver vs. cedar"
               }
@@ -19981,7 +19981,7 @@ const DAF_CONTENT = {
             sourceRefs: [
               {
                 sourceType: "gemara",
-                lineId: "yoma-009b-l49",
+                lineId: "yoma-009b-l47",
                 vilnaLine: 49,
                 note: "Final point cut off mid-citation, continuing on 10a"
               }
