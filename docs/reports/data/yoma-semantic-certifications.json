@@ -4220,15 +4220,15 @@
           "declaration": "Every semantic field of every sugya on this daf was checked against the source. The s01 defect was caught by direct translation of the speaker-attribution particles ('amar lo R. Shimon' vs 'amar lo R. Yehuda') and independently confirmed via an internal self-contradiction already present in the enrichment (step-02 and step-03 attribute opposite positions to the same R. Yehuda in consecutive steps). The s02 defect was caught by comparing the enrichment's stated conclusion against the daf's actual line count and the packet's own relevantRashi note documenting the cutoff."
         }
       },
-      "repairRef": "56adc32ae2e9da415363844674d46a2c9b506f1c",
+      "repairRef": "b82e52fb405df85701be353399764764bd8a7904",
       "sourceFingerprint": "3aefc0650d1776c2164718154275ae55415374161d955e303dcff033afd71810",
-      "semanticFingerprint": "3ccfdb2031509deefb7fa46ed74e27e66de0bd88c90a2e93d4ff4bf336f24d1f",
+      "semanticFingerprint": "d82b2611c798915d098f66a679b19ee0527a4e9245e7ea2350a3ef7294bfa06c",
       "secondPass": {
-        "reviewId": "sonnet5-7b-second-20260823b",
+        "reviewId": "sonnet5-7b-second-20260823b-refresh",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "3aefc0650d1776c2164718154275ae55415374161d955e303dcff033afd71810",
-        "reviewedSemanticFingerprint": "3ccfdb2031509deefb7fa46ed74e27e66de0bd88c90a2e93d4ff4bf336f24d1f",
+        "reviewedSemanticFingerprint": "d82b2611c798915d098f66a679b19ee0527a4e9245e7ea2350a3ef7294bfa06c",
         "evidence": {
           "reviewId": "sonnet5-7b-second-20260823b",
           "module": "yoma",
@@ -4262,7 +4262,7 @@
           "declaration": "Independently re-read the full daf and re-derived the speaker-attribution particles from scratch, blind to first-pass reasoning, specifically re-parsing the Hebrew grammar of 'amar lo X' constructions to confirm subject/speaker identity. The repair is verified complete: no remaining instance of the R. Yehuda/R. Shimon swap found anywhere in s01, and s02's hedge fix is accurate. No new defect found."
         }
       },
-      "certifiedAtCommit": "56adc32ae2e9da415363844674d46a2c9b506f1c"
+      "certifiedAtCommit": "b82e52fb405df85701be353399764764bd8a7904"
     },
     "yoma-007b-s02": {
       "sugyaId": "yoma-007b-s02",
