@@ -53,11 +53,15 @@ jobs:
           git fetch --no-tags origin ${{ github.base_ref }}
           npm run check:rashi-pr-scope:yoma -- --base origin/${{ github.base_ref }}
 
-      - name: Worker manifest check
+      - name: Worker or holistic semantic scope check
         if: github.event_name == 'pull_request'
         run: |
           git fetch --no-tags origin ${{ github.base_ref }}
-          python3 scripts/worker_pipeline.py ci-check --base origin/${{ github.base_ref }}
+          if git diff --name-only origin/${{ github.base_ref }} HEAD | grep -qx '.semantic-repair-manifest.json'; then
+            python3 scripts/semantic_repair_scope.py --base origin/${{ github.base_ref }}
+          else
+            python3 scripts/worker_pipeline.py ci-check --base origin/${{ github.base_ref }}
+          fi
 
       - name: Semantic certification ratchet
         if: github.event_name == 'pull_request'
