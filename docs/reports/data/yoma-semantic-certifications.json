@@ -2192,6 +2192,438 @@
         }
       },
       "certifiedAtCommit": "f80b21dd4517770b80ad56ee79f1af7f207eca7d"
+    },
+    "yoma-003b-s01": {
+      "sugyaId": "yoma-003b-s01",
+      "daf": "3b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-3b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "9c87323dc7c64dd579187f1f6994d248a1e56aa51b8a1be0c68d5d7f81163a4c",
+        "reviewedSemanticFingerprint": "3ef64ef7796ec4e5f8da52b53d6fd8d4ae7fce751b4168d6f49d7df6d5feac2d",
+        "evidence": {
+          "reviewId": "sonnet5-3b-first-20260823a",
+          "module": "yoma",
+          "daf": "3b",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-54) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-15: Completes the kach-lecha/aseh-lecha dispute. R. Yoshiya: both phrases mean personal property; R. Yonatan: both mean communal, but God expresses a preference for Moses's personal contribution ('kevayachol, I want yours more than theirs'). Abba Chanan (in R. Elazar's name) resolves the Ark-verse contradiction (Deut 10:1 singular vs. Exod 25:10 plural) by context, not grammar: when Israel obeys, the work is credited to them. Lines 12-19: the Gemara sidesteps the whole general dispute for THIS case - within the same divine speech, the phrasing itself shifts from communal ('kechu se'ir izim') to personal ('kach lecha egel'), and the contrast itself (not the general rule) proves personal property at the inauguration.",
+              "Lines 20-27: The same proof applied to Yom Kippur: Leviticus 16 first commands taking two goats 'from the community' then says 'his bull' - the contrast proves personal property. Rav Ashi offers an independent structural exclusion: derive bull-chatat+ram-olah (YK) from bull-chatat+ram-olah (inauguration), excluding Rosh Hashana and Shavuot (both olot only).",
+              "Lines 28-34: Ravina offers two further independent exclusions: (v1) derive Kohen-Gadol-restricted service from Kohen-Gadol-restricted service; (v2, after disambiguating what 'techilah'/initial means) derive initial service in the sacred place from initial service in the sacred place - the eighth day of the inauguration (first service at the outer altar) and the first Yom Kippur (first entry into the Holy of Holies).",
+              "Lines 35-45 (through amar lei Reish Lakish): Rav Dimi reports R. Yochanan taught only one case (YK) from 'la'asot, lechaper'; R. Yehoshua ben Levi taught two (heifer + YK). Challenge: the mishna itself lists both heifer and YK sequestering - so how can R. Yochanan hold one case? Answer: heifer sequestering is a rabbinic maaleh (a compensating stringency for the Sages' tvul-yom leniency), not Torah-derived. Further challenge: a chain via R. Minyumi bar Chilkiya/R. Machseya bar Idi cites R. Yochanan HIMSELF teaching two cases (the exact quote already reviewed as part of yoma-002a-s06's own content). Resolution: that was R. Yochanan transmitting HIS TEACHER R. Yishmael's view, not his own; Ravin's report from Eretz Yisrael confirms R. Yochanan's personal position is one case.",
+              "Lines 45-53: Reish Lakish challenges R. Yochanan directly ('a\"l Reish Lakish leRabbi Yochanan: meheicha ka'ilfat lah? Mimeluim?'): if YK-sequestration derives from the inauguration, everything written there should be indispensable for YK's validity. In ONE CONTINUOUS SPEECH (no intervening 'amar lei' until line 50's 'ela mar meheicha yalif lah'), Reish Lakish then preempts and refutes two possible defenses: (a) 'and if you would say indeed so [everything IS indispensable]' - but the mishna itself says 'they DESIGNATE (matkin) another priest' for the backup, not 'they SEPARATE (mafrishin) him' - proving sequestering is not indispensable even for the backup case; (b) 'and if you would say matkin just means mafrishin' - then the mishna should have used the SAME word for both KG and backup, not two different words. This whole chain (lines 46-50, ending '...mafrishin') is Reish Lakish's own uninterrupted argument. Only then ('a\"l', line 50) does Rabbi Yochanan speak, turning the question back: 'Then where do YOU derive it from?' Reish Lakish answers: from Sinai - Exodus 24:16, the cloud covered Moses six days before God called him on the seventh, teaching that entering the Divine Presence requires six days' preparation. The daf closes on the obvious challenge: our mishna requires seven days, not six (resolved on 4a via R. Yehuda ben Beteira's niddah concern)."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "All four declared lineRanges correspond to genuine topic units, with the same systemic corpus-wide gap pattern already documented (s01's lineId extends through line 19 though declared endVilnaLine=12, matching content actually discussed within s01's own fields; s02's lineId extends through line 34; s03's through line 44). No boundary repair needed.",
+          "dafSummaryVerdict": "REPAIR_REQUIRED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-003b-s01",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "This sugya's own authored fields (kach-lecha/aseh-lecha dispute, Abba Chanan's Ark resolution, the internal-contrast proof) are accurate and match lines 1-19. The defect is entirely in the shared daf-level summary (bound into every sugya's semanticFingerprint), not in this sugya's own content."
+            },
+            {
+              "sugyaId": "yoma-003b-s02",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "This sugya's own authored fields (YK's explicit personal-property proof, Rav Ashi's offering-profile exclusion, Ravina's two versions) are accurate and match lines 20-34. Same shared-summary-only defect as s01."
+            },
+            {
+              "sugyaId": "yoma-003b-s03",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "This sugya's own authored fields (Rav Dimi's report, the maaleh resolution, the R. Yishmael attribution resolution) are accurate and match lines 35-44, and correctly cross-reference yoma-002a-s02/s06. Same shared-summary-only defect."
+            },
+            {
+              "sugyaId": "yoma-003b-s04",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "GENUINE DEFECT in this sugya's own authored content, not just the shared summary. Raw text lines 45-50 contain exactly one speaker-switch marker ('א\"ל', at line 50's 'ela mar meheicha yalif lah'). Everything from line 45's 'Reish Lakish said to Rabbi Yochanan' through the end of line 50's '...mafrishin' is Reish Lakish's single, uninterrupted speech - including the 'matkin vs. mafrishin' argument (lines 47-50). The current argumentFlow.step-02 misattributes this to speaker 'R. Yochanan' as if it were a separate rebuttal, contradicting the raw grammar (only one 'amar lei' appears in the whole passage, and it is at line 50, introducing R. Yochanan's actual only line: 'Rather, YOU, from where do you derive it?', correctly captured as step-03). The sugya's own display.oneLine ('R. Yochanan deflects with the matkin vs mafrishin argument') repeats the same error; display.whats, shortSummary, quizSeeds, and alternateAngles are all speaker-neutral or already correctly frame it as Reish Lakish's own reasoning, so this is an isolated but real misattribution in oneLine + argumentFlow.step-02 (speaker field + sourceRefs note), also reflected in the shared daf summary's 'R. Yochanan deflects' phrasing. Requires repair: reassign step-02's speaker to 'Reish Lakish', fix its sourceRefs note, and fix oneLine + the shared daf summary to remove the false 'R. Yochanan deflects' framing."
+            }
+          ],
+          "requiredCorrection": {
+            "field": "argumentFlow[1] (step-02) on yoma-003b-s04, plus display.oneLine on yoma-003b-s04, plus the shared daf-level summary",
+            "problem": "Misattributes the 'matkin vs. mafrishin' argument to Rabbi Yochanan as a distinct rebuttal, when the raw Aramaic (one 'amar lei' marker in the whole passage, at line 50) shows it is part of Reish Lakish's own continuous challenge (lines 45-50).",
+            "sourceLines": "yoma-003b-l45 through yoma-003b-l50 (vilna lines 45-50)",
+            "currentClaim": "step-02.speaker = 'R. Yochanan'; oneLine and summary read 'R. Yochanan deflects...'",
+            "sourceSupports": "The entire passage from 'Reish Lakish said to Rabbi Yochanan' (l45) through '...mafrishin' (l50) is one uninterrupted speech by Reish Lakish; the only 'amar lei' in the passage (l50) introduces Rabbi Yochanan's single actual line, already correctly captured as step-03.",
+            "requiredFix": "step-02.speaker -> 'Reish Lakish'; step-02.sourceRefs[0].note -> reflects continuation of Reish Lakish's own challenge, not a rebuttal; oneLine and the shared summary reworded to remove the false 'R. Yochanan deflects' attribution while keeping every other stated fact (which is accurate)."
+          },
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious. The genuine defect found (speaker misattribution) was cross-checked against the sugya's own other fields (whats, quizSeeds, alternateAngles), which already framed the argument correctly and thereby confirmed the internal inconsistency, and against the raw Aramaic grammar directly (counting 'amar lei' speaker-switch markers)."
+        }
+      },
+      "repairRef": "32c746aa32fe753bf282565821d63e0f6db63ffb",
+      "sourceFingerprint": "9c87323dc7c64dd579187f1f6994d248a1e56aa51b8a1be0c68d5d7f81163a4c",
+      "semanticFingerprint": "e4c956508e55d7ade6c55e8f8920ef67ce3a5495ee3c7fe28e4816cf5adc50ea",
+      "secondPass": {
+        "reviewId": "sonnet5-3b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "9c87323dc7c64dd579187f1f6994d248a1e56aa51b8a1be0c68d5d7f81163a4c",
+        "reviewedSemanticFingerprint": "e4c956508e55d7ade6c55e8f8920ef67ce3a5495ee3c7fe28e4816cf5adc50ea",
+        "evidence": {
+          "reviewId": "sonnet5-3b-second-20260823b",
+          "module": "yoma",
+          "daf": "3b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it, and the second-pass packet was pulled fresh against the already-repaired candidate). Confirmed the same four-part structure: kach-lecha/aseh-lecha dispute resolved by internal textual contrast (1-19); YK's explicit personal-property proof plus Rav Ashi's and Ravina's independent exclusions (20-34); Rav Dimi's report and the R. Yishmael-attribution resolution (35-44); Reish Lakish's inauguration-overspecification challenge (including the matkin/mafrishin argument) and his own Sinai derivation (45-54).",
+          "speakerMarkerRecount": {
+            "method": "Independently re-scanned raw talmuddev lines 44-53 for the Aramaic speaker-switch marker 'א\"ל' (amar lei), without reference to the first-pass count.",
+            "result": "Exactly two occurrences: line 45 ('א\"ל ריש לקיש לרבי יוחנן' - Reish Lakish said to Rabbi Yochanan, opening his challenge) and line 50 ('א\"ל אלא מר מהיכא יליף לה' - he [Rabbi Yochanan] said to him: rather, from where do YOU derive it). Everything between these two markers, including the matkin/mafrishin argument (lines 47-50), is Reish Lakish's single uninterrupted speech. This independently reconfirms the first-pass finding and the repair applied to argumentFlow step-02 on yoma-003b-s04."
+          },
+          "repairVerification": "Confirmed via the regenerated second-pass packet (pulled against the post-repair candidate) that yoma-003b-s04's argumentFlow now reads: step-01 Reish Lakish, step-02 Reish Lakish (corrected from R. Yochanan), step-03 R. Yochanan, step-04 Reish Lakish, step-05 Gemara. This matches the raw grammar exactly. The shared daf summary and s04's display.oneLine no longer assert the false 'R. Yochanan deflects' framing. No other field on this daf was altered by the repair (diff limited to the two prose sentences and the one speaker/note pair).",
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-003b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "This sugya's own content was never defective; the repaired shared summary is now accurate and its own fields match lines 1-19."
+            },
+            {
+              "sugyaId": "yoma-003b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "This sugya's own content was never defective; matches lines 20-34, repaired shared summary now accurate."
+            },
+            {
+              "sugyaId": "yoma-003b-s03",
+              "verdict": "CONFIRMED",
+              "notes": "This sugya's own content was never defective; matches lines 35-44, repaired shared summary now accurate."
+            },
+            {
+              "sugyaId": "yoma-003b-s04",
+              "verdict": "CONFIRMED",
+              "notes": "The genuine defect (speaker misattribution in argumentFlow step-02 and in display.oneLine) is now fixed and independently re-verified against the raw Aramaic speaker-switch markers. All other fields already matched the source and remain unchanged."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-derived the speaker attribution from the raw Aramaic markers from scratch (not by trusting the first-pass count), confirming both that the original defect was real and that the repair correctly fixes it without introducing any new error."
+        }
+      },
+      "certifiedAtCommit": "32c746aa32fe753bf282565821d63e0f6db63ffb"
+    },
+    "yoma-003b-s02": {
+      "sugyaId": "yoma-003b-s02",
+      "daf": "3b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-3b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "693ce42d7861fe49c81d446a6a70b0961e944e60c21e6d013622f7d3302c5ba4",
+        "reviewedSemanticFingerprint": "ddaa2e2c42184cbb9de6fb857d97944a6e26aa7e4999a76a4f8eb3d5fca389f1",
+        "evidence": {
+          "reviewId": "sonnet5-3b-first-20260823a",
+          "module": "yoma",
+          "daf": "3b",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-54) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-15: Completes the kach-lecha/aseh-lecha dispute. R. Yoshiya: both phrases mean personal property; R. Yonatan: both mean communal, but God expresses a preference for Moses's personal contribution ('kevayachol, I want yours more than theirs'). Abba Chanan (in R. Elazar's name) resolves the Ark-verse contradiction (Deut 10:1 singular vs. Exod 25:10 plural) by context, not grammar: when Israel obeys, the work is credited to them. Lines 12-19: the Gemara sidesteps the whole general dispute for THIS case - within the same divine speech, the phrasing itself shifts from communal ('kechu se'ir izim') to personal ('kach lecha egel'), and the contrast itself (not the general rule) proves personal property at the inauguration.",
+              "Lines 20-27: The same proof applied to Yom Kippur: Leviticus 16 first commands taking two goats 'from the community' then says 'his bull' - the contrast proves personal property. Rav Ashi offers an independent structural exclusion: derive bull-chatat+ram-olah (YK) from bull-chatat+ram-olah (inauguration), excluding Rosh Hashana and Shavuot (both olot only).",
+              "Lines 28-34: Ravina offers two further independent exclusions: (v1) derive Kohen-Gadol-restricted service from Kohen-Gadol-restricted service; (v2, after disambiguating what 'techilah'/initial means) derive initial service in the sacred place from initial service in the sacred place - the eighth day of the inauguration (first service at the outer altar) and the first Yom Kippur (first entry into the Holy of Holies).",
+              "Lines 35-45 (through amar lei Reish Lakish): Rav Dimi reports R. Yochanan taught only one case (YK) from 'la'asot, lechaper'; R. Yehoshua ben Levi taught two (heifer + YK). Challenge: the mishna itself lists both heifer and YK sequestering - so how can R. Yochanan hold one case? Answer: heifer sequestering is a rabbinic maaleh (a compensating stringency for the Sages' tvul-yom leniency), not Torah-derived. Further challenge: a chain via R. Minyumi bar Chilkiya/R. Machseya bar Idi cites R. Yochanan HIMSELF teaching two cases (the exact quote already reviewed as part of yoma-002a-s06's own content). Resolution: that was R. Yochanan transmitting HIS TEACHER R. Yishmael's view, not his own; Ravin's report from Eretz Yisrael confirms R. Yochanan's personal position is one case.",
+              "Lines 45-53: Reish Lakish challenges R. Yochanan directly ('a\"l Reish Lakish leRabbi Yochanan: meheicha ka'ilfat lah? Mimeluim?'): if YK-sequestration derives from the inauguration, everything written there should be indispensable for YK's validity. In ONE CONTINUOUS SPEECH (no intervening 'amar lei' until line 50's 'ela mar meheicha yalif lah'), Reish Lakish then preempts and refutes two possible defenses: (a) 'and if you would say indeed so [everything IS indispensable]' - but the mishna itself says 'they DESIGNATE (matkin) another priest' for the backup, not 'they SEPARATE (mafrishin) him' - proving sequestering is not indispensable even for the backup case; (b) 'and if you would say matkin just means mafrishin' - then the mishna should have used the SAME word for both KG and backup, not two different words. This whole chain (lines 46-50, ending '...mafrishin') is Reish Lakish's own uninterrupted argument. Only then ('a\"l', line 50) does Rabbi Yochanan speak, turning the question back: 'Then where do YOU derive it from?' Reish Lakish answers: from Sinai - Exodus 24:16, the cloud covered Moses six days before God called him on the seventh, teaching that entering the Divine Presence requires six days' preparation. The daf closes on the obvious challenge: our mishna requires seven days, not six (resolved on 4a via R. Yehuda ben Beteira's niddah concern)."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "All four declared lineRanges correspond to genuine topic units, with the same systemic corpus-wide gap pattern already documented (s01's lineId extends through line 19 though declared endVilnaLine=12, matching content actually discussed within s01's own fields; s02's lineId extends through line 34; s03's through line 44). No boundary repair needed.",
+          "dafSummaryVerdict": "REPAIR_REQUIRED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-003b-s01",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "This sugya's own authored fields (kach-lecha/aseh-lecha dispute, Abba Chanan's Ark resolution, the internal-contrast proof) are accurate and match lines 1-19. The defect is entirely in the shared daf-level summary (bound into every sugya's semanticFingerprint), not in this sugya's own content."
+            },
+            {
+              "sugyaId": "yoma-003b-s02",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "This sugya's own authored fields (YK's explicit personal-property proof, Rav Ashi's offering-profile exclusion, Ravina's two versions) are accurate and match lines 20-34. Same shared-summary-only defect as s01."
+            },
+            {
+              "sugyaId": "yoma-003b-s03",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "This sugya's own authored fields (Rav Dimi's report, the maaleh resolution, the R. Yishmael attribution resolution) are accurate and match lines 35-44, and correctly cross-reference yoma-002a-s02/s06. Same shared-summary-only defect."
+            },
+            {
+              "sugyaId": "yoma-003b-s04",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "GENUINE DEFECT in this sugya's own authored content, not just the shared summary. Raw text lines 45-50 contain exactly one speaker-switch marker ('א\"ל', at line 50's 'ela mar meheicha yalif lah'). Everything from line 45's 'Reish Lakish said to Rabbi Yochanan' through the end of line 50's '...mafrishin' is Reish Lakish's single, uninterrupted speech - including the 'matkin vs. mafrishin' argument (lines 47-50). The current argumentFlow.step-02 misattributes this to speaker 'R. Yochanan' as if it were a separate rebuttal, contradicting the raw grammar (only one 'amar lei' appears in the whole passage, and it is at line 50, introducing R. Yochanan's actual only line: 'Rather, YOU, from where do you derive it?', correctly captured as step-03). The sugya's own display.oneLine ('R. Yochanan deflects with the matkin vs mafrishin argument') repeats the same error; display.whats, shortSummary, quizSeeds, and alternateAngles are all speaker-neutral or already correctly frame it as Reish Lakish's own reasoning, so this is an isolated but real misattribution in oneLine + argumentFlow.step-02 (speaker field + sourceRefs note), also reflected in the shared daf summary's 'R. Yochanan deflects' phrasing. Requires repair: reassign step-02's speaker to 'Reish Lakish', fix its sourceRefs note, and fix oneLine + the shared daf summary to remove the false 'R. Yochanan deflects' framing."
+            }
+          ],
+          "requiredCorrection": {
+            "field": "argumentFlow[1] (step-02) on yoma-003b-s04, plus display.oneLine on yoma-003b-s04, plus the shared daf-level summary",
+            "problem": "Misattributes the 'matkin vs. mafrishin' argument to Rabbi Yochanan as a distinct rebuttal, when the raw Aramaic (one 'amar lei' marker in the whole passage, at line 50) shows it is part of Reish Lakish's own continuous challenge (lines 45-50).",
+            "sourceLines": "yoma-003b-l45 through yoma-003b-l50 (vilna lines 45-50)",
+            "currentClaim": "step-02.speaker = 'R. Yochanan'; oneLine and summary read 'R. Yochanan deflects...'",
+            "sourceSupports": "The entire passage from 'Reish Lakish said to Rabbi Yochanan' (l45) through '...mafrishin' (l50) is one uninterrupted speech by Reish Lakish; the only 'amar lei' in the passage (l50) introduces Rabbi Yochanan's single actual line, already correctly captured as step-03.",
+            "requiredFix": "step-02.speaker -> 'Reish Lakish'; step-02.sourceRefs[0].note -> reflects continuation of Reish Lakish's own challenge, not a rebuttal; oneLine and the shared summary reworded to remove the false 'R. Yochanan deflects' attribution while keeping every other stated fact (which is accurate)."
+          },
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious. The genuine defect found (speaker misattribution) was cross-checked against the sugya's own other fields (whats, quizSeeds, alternateAngles), which already framed the argument correctly and thereby confirmed the internal inconsistency, and against the raw Aramaic grammar directly (counting 'amar lei' speaker-switch markers)."
+        }
+      },
+      "repairRef": "32c746aa32fe753bf282565821d63e0f6db63ffb",
+      "sourceFingerprint": "693ce42d7861fe49c81d446a6a70b0961e944e60c21e6d013622f7d3302c5ba4",
+      "semanticFingerprint": "791d1b8bd6a5402ec81e71a4bdd5becdd225e28ae075c567b92a5bff32bc1a15",
+      "secondPass": {
+        "reviewId": "sonnet5-3b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "693ce42d7861fe49c81d446a6a70b0961e944e60c21e6d013622f7d3302c5ba4",
+        "reviewedSemanticFingerprint": "791d1b8bd6a5402ec81e71a4bdd5becdd225e28ae075c567b92a5bff32bc1a15",
+        "evidence": {
+          "reviewId": "sonnet5-3b-second-20260823b",
+          "module": "yoma",
+          "daf": "3b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it, and the second-pass packet was pulled fresh against the already-repaired candidate). Confirmed the same four-part structure: kach-lecha/aseh-lecha dispute resolved by internal textual contrast (1-19); YK's explicit personal-property proof plus Rav Ashi's and Ravina's independent exclusions (20-34); Rav Dimi's report and the R. Yishmael-attribution resolution (35-44); Reish Lakish's inauguration-overspecification challenge (including the matkin/mafrishin argument) and his own Sinai derivation (45-54).",
+          "speakerMarkerRecount": {
+            "method": "Independently re-scanned raw talmuddev lines 44-53 for the Aramaic speaker-switch marker 'א\"ל' (amar lei), without reference to the first-pass count.",
+            "result": "Exactly two occurrences: line 45 ('א\"ל ריש לקיש לרבי יוחנן' - Reish Lakish said to Rabbi Yochanan, opening his challenge) and line 50 ('א\"ל אלא מר מהיכא יליף לה' - he [Rabbi Yochanan] said to him: rather, from where do YOU derive it). Everything between these two markers, including the matkin/mafrishin argument (lines 47-50), is Reish Lakish's single uninterrupted speech. This independently reconfirms the first-pass finding and the repair applied to argumentFlow step-02 on yoma-003b-s04."
+          },
+          "repairVerification": "Confirmed via the regenerated second-pass packet (pulled against the post-repair candidate) that yoma-003b-s04's argumentFlow now reads: step-01 Reish Lakish, step-02 Reish Lakish (corrected from R. Yochanan), step-03 R. Yochanan, step-04 Reish Lakish, step-05 Gemara. This matches the raw grammar exactly. The shared daf summary and s04's display.oneLine no longer assert the false 'R. Yochanan deflects' framing. No other field on this daf was altered by the repair (diff limited to the two prose sentences and the one speaker/note pair).",
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-003b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "This sugya's own content was never defective; the repaired shared summary is now accurate and its own fields match lines 1-19."
+            },
+            {
+              "sugyaId": "yoma-003b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "This sugya's own content was never defective; matches lines 20-34, repaired shared summary now accurate."
+            },
+            {
+              "sugyaId": "yoma-003b-s03",
+              "verdict": "CONFIRMED",
+              "notes": "This sugya's own content was never defective; matches lines 35-44, repaired shared summary now accurate."
+            },
+            {
+              "sugyaId": "yoma-003b-s04",
+              "verdict": "CONFIRMED",
+              "notes": "The genuine defect (speaker misattribution in argumentFlow step-02 and in display.oneLine) is now fixed and independently re-verified against the raw Aramaic speaker-switch markers. All other fields already matched the source and remain unchanged."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-derived the speaker attribution from the raw Aramaic markers from scratch (not by trusting the first-pass count), confirming both that the original defect was real and that the repair correctly fixes it without introducing any new error."
+        }
+      },
+      "certifiedAtCommit": "32c746aa32fe753bf282565821d63e0f6db63ffb"
+    },
+    "yoma-003b-s03": {
+      "sugyaId": "yoma-003b-s03",
+      "daf": "3b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-3b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "b85de3c21d828f6fdf60397f7cc98180106a6b85e3c332283b6e3e8314e25528",
+        "reviewedSemanticFingerprint": "d1685a64d2f2489c6273db67cae1a69beb21422cfd7d87b53dc506fbc1db3c9c",
+        "evidence": {
+          "reviewId": "sonnet5-3b-first-20260823a",
+          "module": "yoma",
+          "daf": "3b",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-54) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-15: Completes the kach-lecha/aseh-lecha dispute. R. Yoshiya: both phrases mean personal property; R. Yonatan: both mean communal, but God expresses a preference for Moses's personal contribution ('kevayachol, I want yours more than theirs'). Abba Chanan (in R. Elazar's name) resolves the Ark-verse contradiction (Deut 10:1 singular vs. Exod 25:10 plural) by context, not grammar: when Israel obeys, the work is credited to them. Lines 12-19: the Gemara sidesteps the whole general dispute for THIS case - within the same divine speech, the phrasing itself shifts from communal ('kechu se'ir izim') to personal ('kach lecha egel'), and the contrast itself (not the general rule) proves personal property at the inauguration.",
+              "Lines 20-27: The same proof applied to Yom Kippur: Leviticus 16 first commands taking two goats 'from the community' then says 'his bull' - the contrast proves personal property. Rav Ashi offers an independent structural exclusion: derive bull-chatat+ram-olah (YK) from bull-chatat+ram-olah (inauguration), excluding Rosh Hashana and Shavuot (both olot only).",
+              "Lines 28-34: Ravina offers two further independent exclusions: (v1) derive Kohen-Gadol-restricted service from Kohen-Gadol-restricted service; (v2, after disambiguating what 'techilah'/initial means) derive initial service in the sacred place from initial service in the sacred place - the eighth day of the inauguration (first service at the outer altar) and the first Yom Kippur (first entry into the Holy of Holies).",
+              "Lines 35-45 (through amar lei Reish Lakish): Rav Dimi reports R. Yochanan taught only one case (YK) from 'la'asot, lechaper'; R. Yehoshua ben Levi taught two (heifer + YK). Challenge: the mishna itself lists both heifer and YK sequestering - so how can R. Yochanan hold one case? Answer: heifer sequestering is a rabbinic maaleh (a compensating stringency for the Sages' tvul-yom leniency), not Torah-derived. Further challenge: a chain via R. Minyumi bar Chilkiya/R. Machseya bar Idi cites R. Yochanan HIMSELF teaching two cases (the exact quote already reviewed as part of yoma-002a-s06's own content). Resolution: that was R. Yochanan transmitting HIS TEACHER R. Yishmael's view, not his own; Ravin's report from Eretz Yisrael confirms R. Yochanan's personal position is one case.",
+              "Lines 45-53: Reish Lakish challenges R. Yochanan directly ('a\"l Reish Lakish leRabbi Yochanan: meheicha ka'ilfat lah? Mimeluim?'): if YK-sequestration derives from the inauguration, everything written there should be indispensable for YK's validity. In ONE CONTINUOUS SPEECH (no intervening 'amar lei' until line 50's 'ela mar meheicha yalif lah'), Reish Lakish then preempts and refutes two possible defenses: (a) 'and if you would say indeed so [everything IS indispensable]' - but the mishna itself says 'they DESIGNATE (matkin) another priest' for the backup, not 'they SEPARATE (mafrishin) him' - proving sequestering is not indispensable even for the backup case; (b) 'and if you would say matkin just means mafrishin' - then the mishna should have used the SAME word for both KG and backup, not two different words. This whole chain (lines 46-50, ending '...mafrishin') is Reish Lakish's own uninterrupted argument. Only then ('a\"l', line 50) does Rabbi Yochanan speak, turning the question back: 'Then where do YOU derive it from?' Reish Lakish answers: from Sinai - Exodus 24:16, the cloud covered Moses six days before God called him on the seventh, teaching that entering the Divine Presence requires six days' preparation. The daf closes on the obvious challenge: our mishna requires seven days, not six (resolved on 4a via R. Yehuda ben Beteira's niddah concern)."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "All four declared lineRanges correspond to genuine topic units, with the same systemic corpus-wide gap pattern already documented (s01's lineId extends through line 19 though declared endVilnaLine=12, matching content actually discussed within s01's own fields; s02's lineId extends through line 34; s03's through line 44). No boundary repair needed.",
+          "dafSummaryVerdict": "REPAIR_REQUIRED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-003b-s01",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "This sugya's own authored fields (kach-lecha/aseh-lecha dispute, Abba Chanan's Ark resolution, the internal-contrast proof) are accurate and match lines 1-19. The defect is entirely in the shared daf-level summary (bound into every sugya's semanticFingerprint), not in this sugya's own content."
+            },
+            {
+              "sugyaId": "yoma-003b-s02",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "This sugya's own authored fields (YK's explicit personal-property proof, Rav Ashi's offering-profile exclusion, Ravina's two versions) are accurate and match lines 20-34. Same shared-summary-only defect as s01."
+            },
+            {
+              "sugyaId": "yoma-003b-s03",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "This sugya's own authored fields (Rav Dimi's report, the maaleh resolution, the R. Yishmael attribution resolution) are accurate and match lines 35-44, and correctly cross-reference yoma-002a-s02/s06. Same shared-summary-only defect."
+            },
+            {
+              "sugyaId": "yoma-003b-s04",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "GENUINE DEFECT in this sugya's own authored content, not just the shared summary. Raw text lines 45-50 contain exactly one speaker-switch marker ('א\"ל', at line 50's 'ela mar meheicha yalif lah'). Everything from line 45's 'Reish Lakish said to Rabbi Yochanan' through the end of line 50's '...mafrishin' is Reish Lakish's single, uninterrupted speech - including the 'matkin vs. mafrishin' argument (lines 47-50). The current argumentFlow.step-02 misattributes this to speaker 'R. Yochanan' as if it were a separate rebuttal, contradicting the raw grammar (only one 'amar lei' appears in the whole passage, and it is at line 50, introducing R. Yochanan's actual only line: 'Rather, YOU, from where do you derive it?', correctly captured as step-03). The sugya's own display.oneLine ('R. Yochanan deflects with the matkin vs mafrishin argument') repeats the same error; display.whats, shortSummary, quizSeeds, and alternateAngles are all speaker-neutral or already correctly frame it as Reish Lakish's own reasoning, so this is an isolated but real misattribution in oneLine + argumentFlow.step-02 (speaker field + sourceRefs note), also reflected in the shared daf summary's 'R. Yochanan deflects' phrasing. Requires repair: reassign step-02's speaker to 'Reish Lakish', fix its sourceRefs note, and fix oneLine + the shared daf summary to remove the false 'R. Yochanan deflects' framing."
+            }
+          ],
+          "requiredCorrection": {
+            "field": "argumentFlow[1] (step-02) on yoma-003b-s04, plus display.oneLine on yoma-003b-s04, plus the shared daf-level summary",
+            "problem": "Misattributes the 'matkin vs. mafrishin' argument to Rabbi Yochanan as a distinct rebuttal, when the raw Aramaic (one 'amar lei' marker in the whole passage, at line 50) shows it is part of Reish Lakish's own continuous challenge (lines 45-50).",
+            "sourceLines": "yoma-003b-l45 through yoma-003b-l50 (vilna lines 45-50)",
+            "currentClaim": "step-02.speaker = 'R. Yochanan'; oneLine and summary read 'R. Yochanan deflects...'",
+            "sourceSupports": "The entire passage from 'Reish Lakish said to Rabbi Yochanan' (l45) through '...mafrishin' (l50) is one uninterrupted speech by Reish Lakish; the only 'amar lei' in the passage (l50) introduces Rabbi Yochanan's single actual line, already correctly captured as step-03.",
+            "requiredFix": "step-02.speaker -> 'Reish Lakish'; step-02.sourceRefs[0].note -> reflects continuation of Reish Lakish's own challenge, not a rebuttal; oneLine and the shared summary reworded to remove the false 'R. Yochanan deflects' attribution while keeping every other stated fact (which is accurate)."
+          },
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious. The genuine defect found (speaker misattribution) was cross-checked against the sugya's own other fields (whats, quizSeeds, alternateAngles), which already framed the argument correctly and thereby confirmed the internal inconsistency, and against the raw Aramaic grammar directly (counting 'amar lei' speaker-switch markers)."
+        }
+      },
+      "repairRef": "32c746aa32fe753bf282565821d63e0f6db63ffb",
+      "sourceFingerprint": "b85de3c21d828f6fdf60397f7cc98180106a6b85e3c332283b6e3e8314e25528",
+      "semanticFingerprint": "328abacbd7b3a5ebfc9773165c8a080283e5c5588a87b4c174a7a5437717f8d3",
+      "secondPass": {
+        "reviewId": "sonnet5-3b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "b85de3c21d828f6fdf60397f7cc98180106a6b85e3c332283b6e3e8314e25528",
+        "reviewedSemanticFingerprint": "328abacbd7b3a5ebfc9773165c8a080283e5c5588a87b4c174a7a5437717f8d3",
+        "evidence": {
+          "reviewId": "sonnet5-3b-second-20260823b",
+          "module": "yoma",
+          "daf": "3b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it, and the second-pass packet was pulled fresh against the already-repaired candidate). Confirmed the same four-part structure: kach-lecha/aseh-lecha dispute resolved by internal textual contrast (1-19); YK's explicit personal-property proof plus Rav Ashi's and Ravina's independent exclusions (20-34); Rav Dimi's report and the R. Yishmael-attribution resolution (35-44); Reish Lakish's inauguration-overspecification challenge (including the matkin/mafrishin argument) and his own Sinai derivation (45-54).",
+          "speakerMarkerRecount": {
+            "method": "Independently re-scanned raw talmuddev lines 44-53 for the Aramaic speaker-switch marker 'א\"ל' (amar lei), without reference to the first-pass count.",
+            "result": "Exactly two occurrences: line 45 ('א\"ל ריש לקיש לרבי יוחנן' - Reish Lakish said to Rabbi Yochanan, opening his challenge) and line 50 ('א\"ל אלא מר מהיכא יליף לה' - he [Rabbi Yochanan] said to him: rather, from where do YOU derive it). Everything between these two markers, including the matkin/mafrishin argument (lines 47-50), is Reish Lakish's single uninterrupted speech. This independently reconfirms the first-pass finding and the repair applied to argumentFlow step-02 on yoma-003b-s04."
+          },
+          "repairVerification": "Confirmed via the regenerated second-pass packet (pulled against the post-repair candidate) that yoma-003b-s04's argumentFlow now reads: step-01 Reish Lakish, step-02 Reish Lakish (corrected from R. Yochanan), step-03 R. Yochanan, step-04 Reish Lakish, step-05 Gemara. This matches the raw grammar exactly. The shared daf summary and s04's display.oneLine no longer assert the false 'R. Yochanan deflects' framing. No other field on this daf was altered by the repair (diff limited to the two prose sentences and the one speaker/note pair).",
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-003b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "This sugya's own content was never defective; the repaired shared summary is now accurate and its own fields match lines 1-19."
+            },
+            {
+              "sugyaId": "yoma-003b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "This sugya's own content was never defective; matches lines 20-34, repaired shared summary now accurate."
+            },
+            {
+              "sugyaId": "yoma-003b-s03",
+              "verdict": "CONFIRMED",
+              "notes": "This sugya's own content was never defective; matches lines 35-44, repaired shared summary now accurate."
+            },
+            {
+              "sugyaId": "yoma-003b-s04",
+              "verdict": "CONFIRMED",
+              "notes": "The genuine defect (speaker misattribution in argumentFlow step-02 and in display.oneLine) is now fixed and independently re-verified against the raw Aramaic speaker-switch markers. All other fields already matched the source and remain unchanged."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-derived the speaker attribution from the raw Aramaic markers from scratch (not by trusting the first-pass count), confirming both that the original defect was real and that the repair correctly fixes it without introducing any new error."
+        }
+      },
+      "certifiedAtCommit": "32c746aa32fe753bf282565821d63e0f6db63ffb"
+    },
+    "yoma-003b-s04": {
+      "sugyaId": "yoma-003b-s04",
+      "daf": "3b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-3b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "63adaa8984911f927debc26ca4092b5517731b46bbe9201560c60efe39fe553f",
+        "reviewedSemanticFingerprint": "533e91520f5e6ff60ce5bcc3ec7479dab23ecd4a3f9b511f352fcfec218d1f61",
+        "evidence": {
+          "reviewId": "sonnet5-3b-first-20260823a",
+          "module": "yoma",
+          "daf": "3b",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-54) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-15: Completes the kach-lecha/aseh-lecha dispute. R. Yoshiya: both phrases mean personal property; R. Yonatan: both mean communal, but God expresses a preference for Moses's personal contribution ('kevayachol, I want yours more than theirs'). Abba Chanan (in R. Elazar's name) resolves the Ark-verse contradiction (Deut 10:1 singular vs. Exod 25:10 plural) by context, not grammar: when Israel obeys, the work is credited to them. Lines 12-19: the Gemara sidesteps the whole general dispute for THIS case - within the same divine speech, the phrasing itself shifts from communal ('kechu se'ir izim') to personal ('kach lecha egel'), and the contrast itself (not the general rule) proves personal property at the inauguration.",
+              "Lines 20-27: The same proof applied to Yom Kippur: Leviticus 16 first commands taking two goats 'from the community' then says 'his bull' - the contrast proves personal property. Rav Ashi offers an independent structural exclusion: derive bull-chatat+ram-olah (YK) from bull-chatat+ram-olah (inauguration), excluding Rosh Hashana and Shavuot (both olot only).",
+              "Lines 28-34: Ravina offers two further independent exclusions: (v1) derive Kohen-Gadol-restricted service from Kohen-Gadol-restricted service; (v2, after disambiguating what 'techilah'/initial means) derive initial service in the sacred place from initial service in the sacred place - the eighth day of the inauguration (first service at the outer altar) and the first Yom Kippur (first entry into the Holy of Holies).",
+              "Lines 35-45 (through amar lei Reish Lakish): Rav Dimi reports R. Yochanan taught only one case (YK) from 'la'asot, lechaper'; R. Yehoshua ben Levi taught two (heifer + YK). Challenge: the mishna itself lists both heifer and YK sequestering - so how can R. Yochanan hold one case? Answer: heifer sequestering is a rabbinic maaleh (a compensating stringency for the Sages' tvul-yom leniency), not Torah-derived. Further challenge: a chain via R. Minyumi bar Chilkiya/R. Machseya bar Idi cites R. Yochanan HIMSELF teaching two cases (the exact quote already reviewed as part of yoma-002a-s06's own content). Resolution: that was R. Yochanan transmitting HIS TEACHER R. Yishmael's view, not his own; Ravin's report from Eretz Yisrael confirms R. Yochanan's personal position is one case.",
+              "Lines 45-53: Reish Lakish challenges R. Yochanan directly ('a\"l Reish Lakish leRabbi Yochanan: meheicha ka'ilfat lah? Mimeluim?'): if YK-sequestration derives from the inauguration, everything written there should be indispensable for YK's validity. In ONE CONTINUOUS SPEECH (no intervening 'amar lei' until line 50's 'ela mar meheicha yalif lah'), Reish Lakish then preempts and refutes two possible defenses: (a) 'and if you would say indeed so [everything IS indispensable]' - but the mishna itself says 'they DESIGNATE (matkin) another priest' for the backup, not 'they SEPARATE (mafrishin) him' - proving sequestering is not indispensable even for the backup case; (b) 'and if you would say matkin just means mafrishin' - then the mishna should have used the SAME word for both KG and backup, not two different words. This whole chain (lines 46-50, ending '...mafrishin') is Reish Lakish's own uninterrupted argument. Only then ('a\"l', line 50) does Rabbi Yochanan speak, turning the question back: 'Then where do YOU derive it from?' Reish Lakish answers: from Sinai - Exodus 24:16, the cloud covered Moses six days before God called him on the seventh, teaching that entering the Divine Presence requires six days' preparation. The daf closes on the obvious challenge: our mishna requires seven days, not six (resolved on 4a via R. Yehuda ben Beteira's niddah concern)."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "All four declared lineRanges correspond to genuine topic units, with the same systemic corpus-wide gap pattern already documented (s01's lineId extends through line 19 though declared endVilnaLine=12, matching content actually discussed within s01's own fields; s02's lineId extends through line 34; s03's through line 44). No boundary repair needed.",
+          "dafSummaryVerdict": "REPAIR_REQUIRED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-003b-s01",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "This sugya's own authored fields (kach-lecha/aseh-lecha dispute, Abba Chanan's Ark resolution, the internal-contrast proof) are accurate and match lines 1-19. The defect is entirely in the shared daf-level summary (bound into every sugya's semanticFingerprint), not in this sugya's own content."
+            },
+            {
+              "sugyaId": "yoma-003b-s02",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "This sugya's own authored fields (YK's explicit personal-property proof, Rav Ashi's offering-profile exclusion, Ravina's two versions) are accurate and match lines 20-34. Same shared-summary-only defect as s01."
+            },
+            {
+              "sugyaId": "yoma-003b-s03",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "This sugya's own authored fields (Rav Dimi's report, the maaleh resolution, the R. Yishmael attribution resolution) are accurate and match lines 35-44, and correctly cross-reference yoma-002a-s02/s06. Same shared-summary-only defect."
+            },
+            {
+              "sugyaId": "yoma-003b-s04",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "GENUINE DEFECT in this sugya's own authored content, not just the shared summary. Raw text lines 45-50 contain exactly one speaker-switch marker ('א\"ל', at line 50's 'ela mar meheicha yalif lah'). Everything from line 45's 'Reish Lakish said to Rabbi Yochanan' through the end of line 50's '...mafrishin' is Reish Lakish's single, uninterrupted speech - including the 'matkin vs. mafrishin' argument (lines 47-50). The current argumentFlow.step-02 misattributes this to speaker 'R. Yochanan' as if it were a separate rebuttal, contradicting the raw grammar (only one 'amar lei' appears in the whole passage, and it is at line 50, introducing R. Yochanan's actual only line: 'Rather, YOU, from where do you derive it?', correctly captured as step-03). The sugya's own display.oneLine ('R. Yochanan deflects with the matkin vs mafrishin argument') repeats the same error; display.whats, shortSummary, quizSeeds, and alternateAngles are all speaker-neutral or already correctly frame it as Reish Lakish's own reasoning, so this is an isolated but real misattribution in oneLine + argumentFlow.step-02 (speaker field + sourceRefs note), also reflected in the shared daf summary's 'R. Yochanan deflects' phrasing. Requires repair: reassign step-02's speaker to 'Reish Lakish', fix its sourceRefs note, and fix oneLine + the shared daf summary to remove the false 'R. Yochanan deflects' framing."
+            }
+          ],
+          "requiredCorrection": {
+            "field": "argumentFlow[1] (step-02) on yoma-003b-s04, plus display.oneLine on yoma-003b-s04, plus the shared daf-level summary",
+            "problem": "Misattributes the 'matkin vs. mafrishin' argument to Rabbi Yochanan as a distinct rebuttal, when the raw Aramaic (one 'amar lei' marker in the whole passage, at line 50) shows it is part of Reish Lakish's own continuous challenge (lines 45-50).",
+            "sourceLines": "yoma-003b-l45 through yoma-003b-l50 (vilna lines 45-50)",
+            "currentClaim": "step-02.speaker = 'R. Yochanan'; oneLine and summary read 'R. Yochanan deflects...'",
+            "sourceSupports": "The entire passage from 'Reish Lakish said to Rabbi Yochanan' (l45) through '...mafrishin' (l50) is one uninterrupted speech by Reish Lakish; the only 'amar lei' in the passage (l50) introduces Rabbi Yochanan's single actual line, already correctly captured as step-03.",
+            "requiredFix": "step-02.speaker -> 'Reish Lakish'; step-02.sourceRefs[0].note -> reflects continuation of Reish Lakish's own challenge, not a rebuttal; oneLine and the shared summary reworded to remove the false 'R. Yochanan deflects' attribution while keeping every other stated fact (which is accurate)."
+          },
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious. The genuine defect found (speaker misattribution) was cross-checked against the sugya's own other fields (whats, quizSeeds, alternateAngles), which already framed the argument correctly and thereby confirmed the internal inconsistency, and against the raw Aramaic grammar directly (counting 'amar lei' speaker-switch markers)."
+        }
+      },
+      "repairRef": "32c746aa32fe753bf282565821d63e0f6db63ffb",
+      "sourceFingerprint": "63adaa8984911f927debc26ca4092b5517731b46bbe9201560c60efe39fe553f",
+      "semanticFingerprint": "fc07bf035588eab6009d065dc847180e2ad053337da4f8937b263840e6496f92",
+      "secondPass": {
+        "reviewId": "sonnet5-3b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "63adaa8984911f927debc26ca4092b5517731b46bbe9201560c60efe39fe553f",
+        "reviewedSemanticFingerprint": "fc07bf035588eab6009d065dc847180e2ad053337da4f8937b263840e6496f92",
+        "evidence": {
+          "reviewId": "sonnet5-3b-second-20260823b",
+          "module": "yoma",
+          "daf": "3b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it, and the second-pass packet was pulled fresh against the already-repaired candidate). Confirmed the same four-part structure: kach-lecha/aseh-lecha dispute resolved by internal textual contrast (1-19); YK's explicit personal-property proof plus Rav Ashi's and Ravina's independent exclusions (20-34); Rav Dimi's report and the R. Yishmael-attribution resolution (35-44); Reish Lakish's inauguration-overspecification challenge (including the matkin/mafrishin argument) and his own Sinai derivation (45-54).",
+          "speakerMarkerRecount": {
+            "method": "Independently re-scanned raw talmuddev lines 44-53 for the Aramaic speaker-switch marker 'א\"ל' (amar lei), without reference to the first-pass count.",
+            "result": "Exactly two occurrences: line 45 ('א\"ל ריש לקיש לרבי יוחנן' - Reish Lakish said to Rabbi Yochanan, opening his challenge) and line 50 ('א\"ל אלא מר מהיכא יליף לה' - he [Rabbi Yochanan] said to him: rather, from where do YOU derive it). Everything between these two markers, including the matkin/mafrishin argument (lines 47-50), is Reish Lakish's single uninterrupted speech. This independently reconfirms the first-pass finding and the repair applied to argumentFlow step-02 on yoma-003b-s04."
+          },
+          "repairVerification": "Confirmed via the regenerated second-pass packet (pulled against the post-repair candidate) that yoma-003b-s04's argumentFlow now reads: step-01 Reish Lakish, step-02 Reish Lakish (corrected from R. Yochanan), step-03 R. Yochanan, step-04 Reish Lakish, step-05 Gemara. This matches the raw grammar exactly. The shared daf summary and s04's display.oneLine no longer assert the false 'R. Yochanan deflects' framing. No other field on this daf was altered by the repair (diff limited to the two prose sentences and the one speaker/note pair).",
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-003b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "This sugya's own content was never defective; the repaired shared summary is now accurate and its own fields match lines 1-19."
+            },
+            {
+              "sugyaId": "yoma-003b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "This sugya's own content was never defective; matches lines 20-34, repaired shared summary now accurate."
+            },
+            {
+              "sugyaId": "yoma-003b-s03",
+              "verdict": "CONFIRMED",
+              "notes": "This sugya's own content was never defective; matches lines 35-44, repaired shared summary now accurate."
+            },
+            {
+              "sugyaId": "yoma-003b-s04",
+              "verdict": "CONFIRMED",
+              "notes": "The genuine defect (speaker misattribution in argumentFlow step-02 and in display.oneLine) is now fixed and independently re-verified against the raw Aramaic speaker-switch markers. All other fields already matched the source and remain unchanged."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-derived the speaker attribution from the raw Aramaic markers from scratch (not by trusting the first-pass count), confirming both that the original defect was real and that the repair correctly fixes it without introducing any new error."
+        }
+      },
+      "certifiedAtCommit": "32c746aa32fe753bf282565821d63e0f6db63ffb"
     }
   }
 }

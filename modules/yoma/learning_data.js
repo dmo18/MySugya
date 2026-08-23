@@ -4609,7 +4609,7 @@ const DAF_CONTENT = {
   "3b": {
     canonicalRef: "Yoma 3b",
     daf: "3b",
-    summary: "3b completes the 'kach lecha'/'aseh lecha' dispute over personal vs. communal property. R. Yoshiya holds both phrases mean personal property; R. Yonatan holds both are communal but God expresses a preference for Moses's personal contribution. Abba Chanan resolves the Ark contradiction not by grammar but by context - when Israel obeys God, the work is credited to them. The Gemara then shows that regardless of the general rule, the specific inauguration and YK passages contain explicit textual contrasts that prove personal property. Rav Ashi adds an independent exclusion: derive 'bull-chatat + ram-olah' from 'bull-chatat + ram-olah,' excluding RH and Shavuot where both offerings are olot. Ravina provides the most elegant solution: derive High Priest service from High Priest service. Rav Dimi reports that R. Yochanan derived only one case (YK) from the inauguration, while R. Yehoshua b. Levi derived two (heifer + YK). R. Yochanan treats heifer sequestering as purely rabbinic (a maaleh). Reish Lakish challenges the inauguration derivation - if YK is derived from inauguration, all inauguration details should be binding. R. Yochanan deflects: the mishna uses 'matkin' (designate) not 'mafrishin' (remove) for the backup priest, showing sequestering is not indispensable. Reish Lakish reveals his own source: Sinai - the six days Moses was covered by cloud. The page ends with the obvious challenge: our mishna requires seven days, not six.",
+    summary: "3b completes the 'kach lecha'/'aseh lecha' dispute over personal vs. communal property. R. Yoshiya holds both phrases mean personal property; R. Yonatan holds both are communal but God expresses a preference for Moses's personal contribution. Abba Chanan resolves the Ark contradiction not by grammar but by context - when Israel obeys God, the work is credited to them. The Gemara then shows that regardless of the general rule, the specific inauguration and YK passages contain explicit textual contrasts that prove personal property. Rav Ashi adds an independent exclusion: derive 'bull-chatat + ram-olah' from 'bull-chatat + ram-olah,' excluding RH and Shavuot where both offerings are olot. Ravina provides the most elegant solution: derive High Priest service from High Priest service. Rav Dimi reports that R. Yochanan derived only one case (YK) from the inauguration, while R. Yehoshua b. Levi derived two (heifer + YK). R. Yochanan treats heifer sequestering as purely rabbinic (a maaleh). Reish Lakish challenges the inauguration derivation - if YK is derived from inauguration, all inauguration details should be binding, yet the mishna uses 'matkin' (designate) not 'mafrishin' (remove) for the backup priest, showing sequestering is not indispensable. Reish Lakish reveals his own source: Sinai - the six days Moses was covered by cloud. The page ends with the obvious challenge: our mishna requires seven days, not six.",
     sugyot: [
       {
         id: "yoma-003b-s01",
@@ -5221,7 +5221,7 @@ const DAF_CONTENT = {
         },
         display: {
           title: "Reish Lakish challenges the inauguration derivation; proposes Sinai instead",
-          oneLine: "If YK derives from the inauguration, all inauguration details should invalidate YK if violated - but the mishna shows they don't. R. Yochanan deflects with the 'matkin' vs. 'mafrishin' argument. Reish Lakish proposes Sinai as his source: six days Moses was covered in cloud. The page ends with the challenge that our mishna says seven days, not six.",
+          oneLine: "If YK derives from the inauguration, all inauguration details should invalidate YK if violated - but Reish Lakish himself shows via the mishna's 'matkin' vs. 'mafrishin' word choice that they don't. He proposes Sinai as his own source instead: six days Moses was covered in cloud. The page ends with the challenge that our mishna says seven days, not six.",
           shortSummary: "Reish Lakish presses a formal challenge: deriving from the inauguration would require all inauguration details to be indispensable. The mishna itself refutes this - the backup priest is 'designated' (matkin), not 'separated' (mafrishin), showing sequestering is not indispensable. Reish Lakish then reveals his alternative: Sinai, where Moses was covered in cloud for six days before God called him on the seventh. This gives a general principle - anyone entering the Divine Presence requires six days of preparation. But our mishna requires seven - and the daf ends open.",
           whats: "Reish Lakish challenges R. Yochanan: if YK derives from the inauguration, then all the details written about the inauguration should invalidate the service if violated - including, perhaps, the backup priest needing to be separated too. But the mishna uses 'matkin' (designate, prepare) for the backup priest, not 'mafrishin' (separate). If sequestering were indispensable, the mishna would use 'mafrishin' for both the KG and the backup. The word difference proves sequestering is not invalidating. R. Yochanan turns the challenge back: so then where do YOU derive it from? Reish Lakish reveals his source: Moses at Sinai. The cloud covered Moses for six days before God called to him on the seventh - proving that anyone entering the Divine Presence needs six days of preparation. The challenge: our mishna says seven. Reish Lakish's answer (continuing on 4a): the mishna follows R. Yehuda b. Beteira, who requires seven out of concern for niddah impurity.",
           hint: "The 'matkin' vs. 'mafrishin' argument is a close reading of a single word. What makes this kind of argument reliable evidence in Talmudic reasoning?"
@@ -5281,14 +5281,14 @@ const DAF_CONTENT = {
             id: "step-02",
             type: "proof",
             label: "Matkin vs. mafrishin refutes overspecification",
-            speaker: "R. Yochanan",
+            speaker: "Reish Lakish",
             text: "The mishna uses 'matkin' (designate) for the backup priest, not 'mafrishin' (remove). If sequestering were indispensable, the mishna would require separation for the backup too - the word choice proves it is not.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-003b-l47",
                 vilnaLine: 47,
-                note: "R. Yochanan's rebuttal via matkin/mafrishin"
+                note: "Continuation of Reish Lakish's own challenge via matkin/mafrishin"
               }
             ]
           },
