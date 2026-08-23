@@ -6,8 +6,11 @@ It makes semantic review durable and self-invalidating:
 
 - sourceFingerprint binds a review to the exact Hebrew source range and source map
 - semanticFingerprint binds it to every learner-facing semantic field
+- each review pass records the exact source/semantic fingerprints it reviewed
 - CERTIFIED requires two source-first review passes with different review ids
-- any source or semantic edit makes the certificate STALE automatically
+- a first pass that found REPAIR_REQUIRED cannot certify until a real payload
+  change is proven and a repairRef is recorded
+- any later source or semantic edit makes the certificate STALE automatically
 - legacy review:"reviewed" metadata is never treated as certification
 
 The semantic reviewer, not this program, decides meaning. The program makes it
@@ -154,6 +157,10 @@ def validate_review_block(block: Any, name: str) -> Iterable[str]:
         yield f"{name}.sourceFirst must be true"
     if not isinstance(block.get("verdict"), str) or not block["verdict"].strip():
         yield f"{name}.verdict must be a nonblank string"
+    if not isinstance(block.get("reviewedSourceFingerprint"), str) or not block["reviewedSourceFingerprint"].strip():
+        yield f"{name}.reviewedSourceFingerprint must be a nonblank string"
+    if not isinstance(block.get("reviewedSemanticFingerprint"), str) or not block["reviewedSemanticFingerprint"].strip():
+        yield f"{name}.reviewedSemanticFingerprint must be a nonblank string"
 
 
 def certificate_status(
@@ -193,10 +200,38 @@ def certificate_status(
     second = record.get("secondPass")
     problems.extend(validate_review_block(first, "firstPass"))
     problems.extend(validate_review_block(second, "secondPass"))
-    if isinstance(first, dict) and first.get("verdict") not in {"VERIFIED", "REPAIR_REQUIRED"}:
-        problems.append("firstPass.verdict must be VERIFIED or REPAIR_REQUIRED")
-    if isinstance(second, dict) and second.get("verdict") != "CONFIRMED":
-        problems.append("secondPass.verdict must be CONFIRMED")
+
+    if isinstance(first, dict):
+        first_verdict = first.get("verdict")
+        if first_verdict not in {"VERIFIED", "REPAIR_REQUIRED"}:
+            problems.append("firstPass.verdict must be VERIFIED or REPAIR_REQUIRED")
+        first_source = first.get("reviewedSourceFingerprint")
+        first_semantic = first.get("reviewedSemanticFingerprint")
+        if first_verdict == "VERIFIED":
+            # A clean first pass and the confirming second pass must refer to the
+            # exact same candidate. Otherwise the first reviewer never reviewed
+            # what ultimately became certified.
+            if first_source != current_source:
+                problems.append("firstPass VERIFIED source fingerprint differs from certified candidate")
+            if first_semantic != current_semantic:
+                problems.append("firstPass VERIFIED semantic fingerprint differs from certified candidate")
+        elif first_verdict == "REPAIR_REQUIRED":
+            # A record that was known-bad cannot become certified merely by
+            # changing metadata. There must be a recorded repair and the
+            # candidate must actually differ from what the first reviewer saw.
+            if not isinstance(record.get("repairRef"), str) or not record["repairRef"].strip():
+                problems.append("firstPass REPAIR_REQUIRED requires nonblank repairRef before certification")
+            if first_source == current_source and first_semantic == current_semantic:
+                problems.append("firstPass REPAIR_REQUIRED but certified candidate has no source/semantic repair delta")
+
+    if isinstance(second, dict):
+        if second.get("verdict") != "CONFIRMED":
+            problems.append("secondPass.verdict must be CONFIRMED")
+        if second.get("reviewedSourceFingerprint") != current_source:
+            problems.append("secondPass source fingerprint differs from certified candidate")
+        if second.get("reviewedSemanticFingerprint") != current_semantic:
+            problems.append("secondPass semantic fingerprint differs from certified candidate")
+
     if isinstance(first, dict) and isinstance(second, dict):
         if first.get("reviewId") and first.get("reviewId") == second.get("reviewId"):
             problems.append("firstPass and secondPass must have different reviewId values")
@@ -231,11 +266,12 @@ def make_certified_record(
     first_pass: Dict[str, Any],
     second_pass: Dict[str, Any],
     certified_at_commit: str,
+    repair_ref: str | None = None,
 ) -> Dict[str, Any]:
     """Pure helper. It never invents review judgments, callers must supply
     the two already-completed review blocks."""
     source_fp, semantic_fp = fingerprints(module, daf, daf_doc, sugya)
-    return {
+    out = {
         "sugyaId": sugya["id"],
         "daf": daf,
         "state": "CERTIFIED",
@@ -245,3 +281,6 @@ def make_certified_record(
         "secondPass": second_pass,
         "certifiedAtCommit": certified_at_commit,
     }
+    if repair_ref is not None:
+        out["repairRef"] = repair_ref
+    return out
