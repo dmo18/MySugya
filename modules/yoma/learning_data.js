@@ -17063,7 +17063,7 @@ const DAF_CONTENT = {
           oneLine: "The baraita's distinction between the two priests is analyzed, R. Yosei b'R. Chanina objects that day 4 is impossible for any tumah-day, and Rava solves the problem by showing that the para priest's separation date is within our control - so we schedule it to avoid the impossible day.",
           shortSummary: "The baraita says the ONLY difference between the para priest and the YK kohein gadol is: the para priest's separation is for purity (other priests may not touch him); the YK kohein gadol's separation is for holiness (other priests may touch him). R. Yosei b'R. Chanina challenges: if the YK kohein gadol is sprinkled only on day 3 and day 7, why does the Mishnah say he is sprinkled for the whole 7 days? Day 4 cannot be day 3 or day 7 of any prior tumah - so sprinkling on day 4 is unnecessary. The Gemara counters: 'all 7 days' minus Shabbat (since hazaah is a shvut that does not override Shabbat). But day 4 still seems unnecessary. Rava's solution: the YK kohein gadol's separation is fixed by calendar - he must be separated on 3 Tishrei every year regardless. Sometimes his 4th day of separation falls on Shabbat - that day is skipped. But the para priest's separation date is chosen by us. We schedule the para priest's separation so that his 4th day (the impossible day) falls on Shabbat - and he also skips that day. Result: para priest is also sprinkled only on the relevant days (3, 5, 6, 7, etc.), never on day 4.",
           whats: "Rava's solution hinges on a crucial distinction: things that are in our control (biddayn talya milta) vs. things determined by external factors (calendar, calendar-fixed rituals). The para priest's separation is in our hands, so we plan it to be efficient. The YK kohein gadol's separation is calendar-fixed - we accept whatever happens.",
-          hint: "Why is day 4 of the YK kohein gadol's separation necessarily sprinkled even though it is not a possible day-3 or day-7? Because his separation starts on 3 Tishrei by necessity and sometimes his day 4 is not Shabbat. Rava shows we cannot avoid this for him, but we can avoid it for the para priest."
+          hint: "Why is day 4 of the YK kohein gadol's separation sometimes sprinkled even though it can never be a genuine day-3 or day-7 of a prior tumah - and why can the para priest avoid this entirely?"
         },
         learning: {
           learnerQuestion: "What makes Rava's solution work? Why can we schedule the para priest but not the YK kohein gadol?",
@@ -17118,6 +17118,21 @@ const DAF_CONTENT = {
           },
           {
             id: "step-02",
+            type: "clarification",
+            label: "Kman: this baraita matches R. Meir or R. Yosei, not R. Chanina Segan",
+            speaker: "Gemara",
+            text: "According to whom is this baraita - either R. Meir or R. Yosei. For if it were R. Chanina Segan HaKohanim's view, there would ALSO be another difference between the two priests (their differing sprinkling schedules), not only the touching-distinction just stated. Since the baraita states touching as the single difference, it cannot be his view.",
+            sourceRefs: [
+              {
+                sourceType: "gemara",
+                lineId: "yoma-008b-l01",
+                vilnaLine: 3,
+                note: "Kman question: identifies the baraita as R. Meir's or R. Yosei's view, excluding R. Chanina Segan HaKohanim"
+              }
+            ]
+          },
+          {
+            id: "step-03",
             type: "challenge",
             label: "R. Yosei b'R. Chanina: day 4 sprinkling is impossible for the YK kohein gadol",
             speaker: "R. Yosei b'R. Chanina",
@@ -17132,7 +17147,7 @@ const DAF_CONTENT = {
             ]
           },
           {
-            id: "step-03",
+            id: "step-04",
             type: "answer",
             label: "Hazaah is a shvut - it does not override Shabbat - so 'all 7' means 7 minus Shabbat",
             speaker: "Gemara",
@@ -17147,7 +17162,7 @@ const DAF_CONTENT = {
             ]
           },
           {
-            id: "step-04",
+            id: "step-05",
             type: "resolution",
             label: "Rava: YK kohein gadol and para priest differ in scheduling control",
             speaker: "Rava",
@@ -17169,7 +17184,9 @@ const DAF_CONTENT = {
           "kohein-gadol-separation"
         ],
         requiresUnderstanding: [
-          "Rava's calendar solution is best understood after reading 8a's hazaah dispute",
+          "yoma-008a-s02"
+        ],
+        prerequisiteKnowledge: [
           "What shvut means as a category of Rabbinic Shabbat prohibition"
         ],
         misconceptions: [
@@ -17192,14 +17209,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "7-day separation calendar for the para priest, begun on Wednesday so day 4 of separation falls on Shabbat: hazaah on days 1, 2, 3, 5, 6, 7, with day 4 (Shabbat) automatically skipped. Contrast with the YK kohein gadol, whose fixed 3 Tishrei start date cannot always be arranged this way.",
             type: "timeline",
-            label: "7-day separation calendar for para priest",
-            description: "7-day horizontal timeline showing days 1-7 of the para priest's separation when begun on Wednesday (day 4 of week). Day 4 of separation = Shabbat. Hazaah on days 1, 2, 3, 5, 6, 7. Day 4 (Shabbat) = no hazaah, skipped. Contrast with YK kohein gadol whose day 4 cannot always be arranged this way."
+            label: "7-day separation calendar for para priest"
           },
           {
+            item: "Calendar-fixed vs. scheduling-flexible: the YK kohein gadol's separation is fixed to 3 Tishrei (accept whatever day-of-week it is), while the para priest's start date is our choice, so we pick Wednesday to make day 4 fall on Shabbat.",
             type: "comparison",
-            label: "Calendar-fixed vs. scheduling-flexible",
-            description: "Two-column comparison: YK kohein gadol (separation fixed to 3 Tishrei, accept whatever day-of-week it is) vs. para priest (we choose the start day, so we pick Wednesday to make day 4 fall on Shabbat)."
+            label: "Calendar-fixed vs. scheduling-flexible"
           }
         ],
         quizSeeds: [
@@ -17249,15 +17266,15 @@ const DAF_CONTENT = {
         display: {
           title: "Lishkat Parhedrin: from nobles' chamber to rotating governors; bakers and tithes",
           oneLine: "The Mishnah's term 'Lishkat Parhedrin' is explained as a renamed version of 'Lishkat Balvati' (nobles' chamber), reflecting Second Temple corruption where the High Priesthood was sold and replaced annually; a tangential discussion about bakers' tithe obligations follows.",
-          shortSummary: "A baraita: R. Yehuda asks, was this really a 'Lishkat Parhedrin' (chamber of Persian governors)? It was actually 'Lishkat Balvati' (chamber of nobles/senators). The explanation: in the early Second Temple period, during the era of Shimon HaTzaddik, it was called Lishkat Balvati. Later, when the High Priesthood was sold for money and the High Priest was replaced every 12 months (like Persian parhedrin who rotate annually), the room was renamed to reflect this corruption. A completely separate Mishnah-referencing discussion follows: bakers (nachtomin) are exempt from separating maaser sheni on their dough. The Gemara explains why: they do not need to separate trumah gedolah (already done by the thresher), maaser rishon and maaser ani (burden of proof falls on the claimant), or maaser sheni (the Gemara proceeds to explain this in 9a).",
-          whats: "The Lishkat Parhedrin section is an aggadic/historical aside: the room's name encodes the tragedy of Second Temple corruption. The rotating-governors metaphor is biting - the High Priesthood became a political appointment with a one-year term. The bakers' discussion is a transition to 9a's Yochanan High Priest material.",
-          hint: "The room's name changed because the institution it housed changed. The name Parhedrin is not honorific - it is a damning comparison."
+          shortSummary: "A baraita: R. Yehuda asks, was this really a 'Lishkat Parhedrin' (chamber of Persian governors)? It was actually 'Lishkat Balvati' (chamber of nobles/senators). The explanation: in the early Second Temple period, during the era of Shimon HaTzaddik, it was called Lishkat Balvati. Later, when the High Priesthood was sold for money and the High Priest was replaced every 12 months (like Persian parhedrin who rotate annually), the room was renamed to reflect this corruption. The Gemara then turns to a separate topic: a baraita about bakers' tithe obligations on dema'i grain, taken up in the next sugya.",
+          whats: "The Lishkat Parhedrin section is an aggadic/historical aside: the room's name encodes the tragedy of Second Temple corruption. The rotating-governors metaphor is biting - the High Priesthood became a political appointment with a one-year term. The Gemara then shifts to an unrelated halachic topic (bakers' tithe obligations), taken up in the next sugya and continuing into 9a.",
+          hint: "Why did this chamber come to be called 'Lishkat Parhedrin' - was that name meant as an honor, or as a criticism?"
         },
         learning: {
           learnerQuestion: "Why is the room called Parhedrin? Is this supposed to be flattering to the High Priest?",
           coreTension: "The original name 'Balvati' implied noble, permanent occupants. 'Parhedrin' implies rotating annual appointments - like Persian bureaucrats who never stay long enough to build anything. The name change is not neutral: it is a running critique embedded in the Temple's architecture.",
           coreMove: "R. Yehuda's question ('was it really called Parhedrin?') invites the honest answer: no, it was called that by the people as dark humor/social commentary on the corrupt practice of selling and rotating the High Priesthood.",
-          resolution: "The practical halacha about bakers' tithes continues in 9a with Yochanan High Priest's decree on dema'i tithes.",
+          resolution: "The room's naming history is resolved: it was originally Lishkat Balvati, renamed Lishkat Parhedrin because of the corrupt sale and annual rotation of the High Priesthood. The Gemara then moves to a separate topic (bakers' tithes) in the next sugya.",
           takeaway: {
             type: "conceptual",
             text: "Temple institutions are not just halachic constructs - they encode historical memory. The name 'Parhedrin' preserved in the Mishnah is itself a form of mourning for what the High Priesthood became in the late Second Temple period."
@@ -17312,14 +17329,13 @@ const DAF_CONTENT = {
           }
         ],
         conceptRefs: [
-          "Second-Temple-history",
-          "High-Priest-corruption",
-          "parhedrin",
-          "dema'i",
-          "bakers"
+          "second-temple-history",
+          "high-priest-corruption",
+          "parhedrin"
         ],
-        requiresUnderstanding: [
-          "Basic Second Temple history: Shimon HaTzaddik as a defining era"
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
+          "Basic Second Temple history: Shimon HaTzaddik as a defining early era"
         ],
         misconceptions: [
           {
@@ -17341,14 +17357,14 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "Balvati vs. Parhedrin era: the Shimon HaTzaddik era (Lishkat Balvati, stable High Priesthood, long terms) contrasted with the later Second Temple era (Lishkat Parhedrin, annual replacements, purchased office). The same room, two histories.",
             type: "contrast",
-            label: "Balvati vs. Parhedrin era",
-            description: "Timeline showing Shimon HaTzaddik era (Lishkat Balvati, stable High Priesthood, long terms) contrasted with later Second Temple era (Lishkat Parhedrin, annual replacements, purchased office). The same room, two histories."
+            label: "Balvati vs. Parhedrin era"
           },
           {
+            item: "The High Priest as parhedar: a Persian governor rotating out after 12 months, used as an analogy for the Second Temple High Priests who were replaced annually. The comparison is critical, not honorific.",
             type: "person",
-            label: "High Priest as parhedar",
-            description: "Visual of a Persian governor rotating out after 12 months - used as an analogy for the Second Temple High Priests who were replaced annually. The comparison is critical, not honorific."
+            label: "High Priest as parhedar"
           }
         ],
         quizSeeds: [
@@ -17362,16 +17378,14 @@ const DAF_CONTENT = {
           }
         ],
         finalRuling: "",
-        difficulty: "introductory",
+        difficulty: "intro",
         alternateAngles: [],
         topicTags: [
-          "Lishkat-Parhedrin",
-          "Second-Temple",
-          "High-Priest",
+          "lishkat-parhedrin",
+          "second-temple",
+          "high-priest",
           "corruption",
-          "bakers",
-          "tithes",
-          "R. Yehuda"
+          "r-yehuda"
         ],
         review: {
           learning: "ai_generated",
@@ -17392,29 +17406,29 @@ const DAF_CONTENT = {
           endVilnaLine: 32
         },
         display: {
-          title: "Bakers and tithe obligations: a transitional passage leading into 9a",
-          oneLine: "The Gemara establishes why bakers are not required to separate maaser sheni from dema'i grain, setting up the full explanation on 9a via Yochanan High Priest's decree.",
-          shortSummary: "A Mishnah-citing discussion: bakers who are chaverim and buy grain from amei ha'aretz are not required to separate maaser sheni from dema'i. The Gemara walks through the tiers: trumah gedolah (Yochanan's investigation proved it was already separated), maaser rishon and maaser ani (burden of proof on the Levi/poor claimant - they must prove the baker did not separate), and maaser sheni (explanation given in 9a via Ulla's parhedrin-pressure account).",
-          whats: "This section bridges the Lishkat Parhedrin material with the 9a opening. It introduces the dema'i tithe framework as a practical halachic question about a specific profession: bakers who are themselves Torah-observant (chaverim) but must buy from amei ha'aretz.",
-          hint: "Why are bakers specifically singled out? Their commercial reality (continuous sales, government price pressure) makes it impossible to track tithe status of every batch. The Rabbis tailored the requirement to the profession."
+          title: "Bakers and dema'i tithes: the baraita's rule, and a justification cut short",
+          oneLine: "A baraita rules that bakers (chaverim who buy grain from amei ha'aretz) need only separate terumat maaser and challah from dema'i grain; the Gemara begins to justify the terumah gedolah part of this rule but the citation is cut off after one word, continuing on 9a.",
+          shortSummary: "A baraita states: the Sages did not obligate bakers to separate tithes from dema'i grain, except terumat maaser and challah. Per Rashi, these are bakers who are themselves chaverim (trustworthy, tithe-observant) but buy their grain from amei ha'aretz to sell in the market; because they sell continuously, at every hour, they were given leniency specifically regarding bringing or redeeming maaser sheni (the second tithe) in Jerusalem. The Gemara then begins to justify the rule tier by tier, starting with terumah gedolah: 'Granted, terumah gedolah [is not a concern here], as it was taught: because...' - but the citation is cut off after this single word, with Rashi noting that the explanation is completed on 9a.",
+          whats: "This section bridges the Lishkat Parhedrin material with 9a's opening. The baraita's rule, and Rashi's own explanation of who these bakers are and why they were given leniency on maaser sheni, are fully established within these lines. The Gemara's own tier-by-tier justification of the rule, however, has only just begun (with terumah gedolah) when the daf ends mid-citation.",
+          hint: "By the time 8b ends, has the Gemara actually finished explaining why bakers are exempt from these tithes - or has it only just started?"
         },
         learning: {
-          learnerQuestion: "Why does the Gemara go into bakers' tithe obligations right after the Lishkat Parhedrin discussion?",
-          coreTension: "The transition seems abrupt. But both passages involve 'parhedrin': the rotating High Priests (historical/aggadic) and the government officials (parhedrin) who pressured bakers economically (halachic). The word 'parhedrin' links them structurally.",
-          coreMove: "The burden-of-proof principle ('hamotzi m'chaveiro alav hara'ayah') is applied to each tier of tithes. For maaser rishon and maaser ani: the Levi/poor person must prove the grain was untithed; they cannot. Therefore no separation required from the baker.",
-          resolution: "Bakers separate only trumat maaser and challah. The full explanation for maaser sheni exemption (government pressure by parhedrin enforcers) comes in 9a via Ulla.",
+          learnerQuestion: "What does the baraita say bakers owe from dema'i grain, and how far does the Gemara get in explaining why by the end of 8b?",
+          coreTension: "The baraita states a conclusion (bakers owe only terumat maaser and challah from dema'i) without yet justifying it from the Gemara's own analysis. The Gemara sets out to justify the rule tier by tier - but the very first justification, for terumah gedolah, is cut off after a single word.",
+          coreMove: "The Gemara's method is to work through the exempted tithe tiers one at a time and justify each. Only the opening word of the terumah gedolah justification survives within this daf's boundary.",
+          resolution: "The baraita's rule stands as stated: bakers who are chaverim separate only terumat maaser and challah from dema'i grain. The Gemara's own justification for this rule, tier by tier starting with terumah gedolah, continues on 9a.",
           takeaway: {
             type: "legal_principle",
-            text: "Halachic obligations are calibrated to professional realities. Bakers sell continuously, cannot track each batch's tithe history, and face government economic pressure. The Rabbis recognized these structural constraints when ruling on their tithe obligations."
+            text: "A baraita's halachic conclusion can be recorded before its full justification is given; the Gemara sometimes builds a tier-by-tier proof that spans a daf boundary."
           },
           reasoningPattern: {
-            id: "burden-of-proof-in-monetary-law",
-            category: "analytical",
-            notes: "The 'hamotzi m'chaveiro' principle removes the obligation from the baker for two of the tithe tiers. This is a general monetary-law principle applied to a religious obligation context."
+            id: "cut-off-citation-continues-next-daf",
+            category: "structural",
+            notes: "A recurring feature at daf boundaries: a citation or explanation begins but is completed only on the next daf. Rashi's own note here ('the comment is completed on 9a') makes this explicit rather than leaving it to inference."
           },
-          ahaMoment: "The same word 'parhedrin' (government officials) appears here as the oppressors of bakers, while the Lishkat Parhedrin was named after rotating High Priests. The Talmud's word-play is intentional: both uses reflect institutional corruption and rotation.",
-          learningBlocker: "Students may think the baker's exemption means tithes were not required from dema'i at all. In fact, some tithes were required; the exemption is specific to maaser sheni (and explained by economic pressure in 9a).",
-          memoryAnchor: "Bakers exempt from dema'i tithes in layers: trumah gedolah (already separated - Yochanan found this), maaser rishon/ani (burden on claimant), maaser sheni (government pressure - see 9a). 'Hamotzi m'chaveiro' clears two tiers; Ulla's parhedrin clears the third."
+          ahaMoment: "Rashi's own commentary on this baraita already tells us why bakers get leniency on maaser sheni specifically - their continuous, hour-by-hour selling makes formal transport and redemption to Jerusalem impractical - even though the Gemara's own formal, tier-by-tier justification is still only beginning when the daf ends.",
+          learningBlocker: "Students may assume the Gemara's justification for the baraita's rule is complete within 8b. It is not: only the very start of the terumah gedolah justification appears here; the rest continues on 9a.",
+          memoryAnchor: "Baraita: bakers owe only terumat maaser + challah from dema'i. Rashi: they're chaverim who sell continuously, hence leniency on transporting/redeeming maaser sheni. Gemara's own tier-by-tier justification: barely begun ('granted terumah gedolah, because...' - cut off) at 8b's end."
         },
         lines: [
           { id: "yoma-008b-l29", kind: "gemara", he: "תְּנַן הָתָם: הַנַּחְתּוֹמִין — לֹא חִיְּיבוּ אוֹתָן\nחֲכָמִים לְהַפְרִישׁ אֶלָּא תְּרוּמַת מַעֲשֵׂר וְחַלָּה.",
@@ -17431,63 +17445,49 @@ const DAF_CONTENT = {
           {
             id: "step-01",
             type: "statement",
-            label: "Bakers exempt from most dema'i tithe obligations",
-            speaker: "Mishnah/Baraita",
-            text: "Bakers (nachtomin) who purchase grain from amei ha'aretz are not required to separate maaser sheni from dema'i. Only trumat maaser and challah are required from them. The Gemara explains each tithe tier.",
+            label: "Baraita: bakers exempt from dema'i tithes except terumat maaser and challah",
+            speaker: "Baraita",
+            text: "We learned elsewhere: the Sages did not obligate bakers to separate tithes from dema'i grain, except terumat maaser and challah.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-008b-l29",
                 vilnaLine: 29,
-                note: "Bakers' tithe obligations introduced"
+                note: "Baraita's blanket rule for bakers"
               }
             ]
           },
           {
             id: "step-02",
-            type: "explanation",
-            label: "Maaser rishon and maaser ani: burden of proof on the claimant",
+            type: "stub",
+            label: "Gemara begins to justify the rule tier by tier - cut off after terumah gedolah",
             speaker: "Gemara",
-            text: "For maaser rishon and maaser ani: once grain is separated from tevel status (even in doubt), the Levi or poor person cannot extract their portion without proving the baker did not already separate. 'The one who extracts from another bears the burden of proof' - the claimant must prove the baker owes them.",
-            sourceRefs: [
-              {
-                sourceType: "gemara",
-                lineId: "yoma-008b-l31",
-                vilnaLine: 31,
-                note: "Burden of proof applied to maaser rishon/ani"
-              }
-            ]
-          },
-          {
-            id: "step-03",
-            type: "transition",
-            label: "Maaser sheni: explanation deferred to 9a",
-            speaker: "Gemara",
-            text: "For maaser sheni: because Yochanan High Priest sent emissaries throughout Israel (the full explanation continues on 9a with Ulla's account of parhedrin economic pressure on bakers).",
+            text: "The Gemara begins working through the rule tier by tier: 'Granted, terumah gedolah [is not a concern here], as it was taught: because...' - the citation is cut off after this single word. The full justification, and the remaining tiers, continue on 9a.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-008b-l32",
                 vilnaLine: 32,
-                note: "Maaser sheni explanation deferred to 9a"
+                note: "Citation cut off mid-word; Rashi notes it is completed on 9a"
               }
             ]
           }
         ],
         conceptRefs: [
-          "dema'i",
-          "tevel",
-          "burden-of-proof",
-          "bakers"
+          "demai",
+          "bakers",
+          "maaser-sheni",
+          "chaverim"
         ],
-        requiresUnderstanding: [
+        requiresUnderstanding: [],
+        prerequisiteKnowledge: [
           "What dema'i is and why it requires partial tithing",
-          "The burden of proof principle in monetary law (hamotzi m'chaveiro)"
+          "What a chaver is in the context of tithe-trustworthiness"
         ],
         misconceptions: [
           {
-            misconception: "Bakers are completely exempt from all tithe obligations.",
-            correction: "Bakers are required to separate trumat maaser (1/100) and challah. The exemptions are specific: trumah gedolah (already separated by thresher), maaser rishon/ani (burden on claimant), and maaser sheni (government pressure - see 9a)."
+            misconception: "The Gemara fully explains, within 8b, why bakers are exempt from all these tithes.",
+            correction: "The baraita's rule is stated in full, but the Gemara's own justification only reaches the opening word of the terumah gedolah explanation before the daf cuts off; the justification continues on 9a."
           }
         ],
         relatedSugyot: [
@@ -17504,27 +17504,31 @@ const DAF_CONTENT = {
         ],
         visualizableElements: [
           {
+            item: "The baraita's rule (bakers separate only terumat maaser and challah from dema'i, with Rashi's gloss on why maaser sheni is waived for them) alongside the Gemara's own justification, which only reaches 'granted terumah gedolah, because...' before cutting off, continuing on 9a.",
             type: "sequence",
-            label: "Three-tier tithe exemption for bakers",
-            description: "Three-row breakdown: (1) trumah gedolah - already separated per Yochanan's investigation; (2) maaser rishon/ani - burden of proof on claimant; (3) maaser sheni - government pressure (explained on 9a). Shows how each tier is resolved differently."
+            label: "Baraita's rule and the Gemara's cut-off justification"
           }
         ],
         quizSeeds: [
           {
-            question: "Why do bakers not need to separate maaser rishon and maaser ani from dema'i grain?",
-            answer: "Because the burden of proof is on the claimant (the Levi or poor person). Once grain is separated from strict tevel status, the Levi or poor person must prove the baker did not already separate their portion. Without such proof, the baker owes nothing."
+            question: "According to the baraita, which two obligations MUST bakers still separate from dema'i grain?",
+            answer: "Terumat maaser and challah."
+          },
+          {
+            question: "Per Rashi, why were these bakers specifically given leniency regarding maaser sheni?",
+            answer: "Because they are chaverim who sell bread continuously, at every hour, making it impractical to formally transport or redeem the second tithe in Jerusalem for each batch."
           }
         ],
-        finalRuling: "Bakers who buy from amei ha'aretz: separate only trumat maaser and challah. No obligation for maaser sheni, maaser rishon, or maaser ani from dema'i grain.",
+        finalRuling: "The baraita's rule: bakers who are chaverim and buy grain from amei ha'aretz separate only terumat maaser and challah from dema'i grain; no other tithe-separation is required of them. The Gemara's own tier-by-tier justification for this rule begins with terumah gedolah on this daf but is completed on 9a.",
         difficulty: "intermediate",
         alternateAngles: [],
         topicTags: [
           "bakers",
-          "dema'i",
+          "demai",
           "tithes",
+          "terumah-gedolah",
           "maaser-sheni",
-          "burden-of-proof",
-          "tevel"
+          "chaverim"
         ],
         review: {
           learning: "ai_generated",

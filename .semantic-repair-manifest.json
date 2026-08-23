@@ -1,13 +1,14 @@
 {
   "schemaVersion": "1.0",
-  "type": "semantic-daf-certify",
+  "type": "semantic-daf-repair",
   "module": "yoma",
-  "daf": "8a",
+  "daf": "8b",
   "sugyaIds": [
-    "yoma-008a-s01",
-    "yoma-008a-s02"
+    "yoma-008b-s01",
+    "yoma-008b-s02",
+    "yoma-008b-s03"
   ],
-  "firstReviewId": "sonnet5-8a-first-20260823a",
+  "firstReviewId": "sonnet5-8b-second-20260823b",
   "policy": {
     "sourceFirst": true,
     "independentSecondPassRequired": true,
