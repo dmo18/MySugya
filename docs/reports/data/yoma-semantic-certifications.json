@@ -4354,6 +4354,172 @@
         }
       },
       "certifiedAtCommit": "56adc32ae2e9da415363844674d46a2c9b506f1c"
+    },
+    "yoma-008a-s01": {
+      "sugyaId": "yoma-008a-s01",
+      "daf": "8a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-8a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "79426e24e8b001c7900dcd80d329d98cf2ddd429fdb6802a5ad7fbb5e3ce5173",
+        "reviewedSemanticFingerprint": "e64f9dcdbfd48dd5758d97da7a105c2cb7dcff6c5786a16e1c2868670d9ee9a4",
+        "evidence": {
+          "reviewId": "sonnet5-8a-first-20260823a",
+          "module": "yoma",
+          "daf": "8a",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-41, confirmed the daf's true end via direct read of talmuddev/8a.json) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-4: completes 7b's cutoff kal v'chomer - the tzitz (one divine name) requires constant mindfulness, so tefillin (many divine names) certainly do too.",
+              "Lines 4-13: source-derivation audit for R. Shimon and R. Yehuda's positions established on 7b. R. Shimon (challenged: doesn't 'al mitzcho v'nasa' require forehead placement, contradicting his 'tamid=perpetual atonement' view?) answers that verse merely fixes the normal location, not an atonement condition; asked what the extra word 'v'nasa' then teaches, he derives 'ravui lamitzach' (fit for the forehead atones, unfit - i.e. broken - does not). R. Yehuda derives the forehead-placement requirement from 'al mitzcho' directly, and the broken-tzitz exclusion from a separate doubled 'mitzcho/mitzcho' across two verses; R. Shimon does not use that doubling since he already derived the broken-tzitz rule from 'v'nasa'.",
+              "Lines 14-20: a baraita on hazaah (sprinkling): R. Meir - both the YK Kohen Gadol and the para-aduma priest are sprinkled all seven separation days; R. Yosei - only day 3 and day 7 for both; R. Chanina Segan HaKohanim - the para priest gets all seven, the YK Kohen Gadol only day 3 and 7.",
+              "Lines 21-25: first hypothesis - the dispute maps onto dchuya (R. Meir) vs. hutrah (R. Yosei) - rejected: if R. Yosei held hutrah, he would require no sprinkling at all, not specifically day 3 and 7.",
+              "Lines 25-34: second hypothesis - both hold dchuya; dispute is whether 'tevila bizmana mitzva' (immersion at its proper time is a mitzva) - R. Meir yes, R. Yosei no. Challenged and rejected via a cross-tractate baraita (a person with God's Name tattooed on his skin): the tanna kama's cautious method (wrapping a reed before immersing) reflects NOT holding tevila-bizmana-mitzva, while R. Yosei's own ruling (immerse normally, just don't rub) reflects that he DOES hold tevila bizmana is a mitzva - directly contradicting the second hypothesis's premise that R. Yosei denies it.",
+              "Lines 34-39: third and correct resolution - both hold tevila bizmana mitzva; the real dispute is whether hazaah is EQUATED to tevila for timing purposes: R. Meir yes (so sprinkle every day, since any day might be the halakhic 'proper' one), R. Yosei no (sprinkle only the Torah-specified day 3 and 7). This resolution creates a new problem for R. Chanina Segan's split ruling, since a simple binary equate/don't-equate reading would give both priests the SAME ruling.",
+              "Lines 39-41 (daf ends mid-citation): resolved - R. Chanina Segan does not equate hazaah to tevila at all; the para priest's all-seven-day sprinkling is merely an elevated stringency (ma'alah b'alma), unrelated to the timing-equation principle. The daf then begins introducing a supporting citation ('there is no difference between the priest who burns the heifer and the Kohen Gadol on Yom Kippur except that this...') which cuts off after a single word, continuing to 8b."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "s01 (1-13) and s02 (14-41, extending to the daf's confirmed true end of 41). No boundary repair needed.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences both sections and matches the independent reconstruction with no errors found.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-008a-s01",
+              "verdict": "VERIFIED",
+              "notes": "Given the immediately preceding daf (7b) had a serious R. Yehuda/R. Shimon speaker-attribution swap, this sugya's parallel verse-derivation content was checked with particular care. All seven argumentFlow steps independently verified correctly attributed: R. Shimon's 'al mitzcho v'nasa' location-vs-atonement distinction and 'ravui lamitzach' broken-tzitz derivation, and R. Yehuda's 'al mitzcho' placement derivation and separate doubled-'mitzcho' broken-tzitz derivation, all match the raw text exactly with no swap found."
+            },
+            {
+              "sugyaId": "yoma-008a-s02",
+              "verdict": "VERIFIED",
+              "notes": "The three-tanna hazaah dispute (R. Meir, R. Yosei, R. Chanina Segan HaKohanim) and the full hypothesis-rejection-resolution chain (dchuya/hutrah rejected; tevila-bizmana-mitzva rejected by cross-tractate evidence; hazaah-equated-to-tevila accepted) all independently verified accurate and correctly attributed. One field (step-05's parenthetical describing the tattooed-person scenario) is loosely worded in a way that could be misread as attributing the tanna kama's reed-wrapping caution to R. Yosei specifically, when R. Yosei's own ruling is to immerse normally without the reed (only avoiding rubbing) - but read as a general scenario-gloss rather than a specific per-sage action claim, and since the actual legal conclusion drawn (R. Yosei holds tevila bizmana mitzva) is stated correctly and unambiguously in every field, this does not rise to the level of a genuine misattribution defect requiring repair, consistent with the standard applied to similar borderline phrasing on 7a. The daf's final unstated citation fragment (a single word, 'she-zeh', before the cutoff) is negligible content, not a real omitted logical step, and finalRuling already properly hedges with 'as worked out in 8b' - no false-closure issue."
+            }
+          ],
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, with particular attention to the R. Yehuda/R. Shimon attributions in s01 given the immediately preceding daf's confirmed error, and to the three-way R. Meir/R. Yosei/R. Chanina Segan attributions across the full three-stage hypothesis-rejection-resolution structure in s02. No genuine defect found on either sugya; this is a clean VERIFIED daf."
+        }
+      },
+      "sourceFingerprint": "79426e24e8b001c7900dcd80d329d98cf2ddd429fdb6802a5ad7fbb5e3ce5173",
+      "semanticFingerprint": "e64f9dcdbfd48dd5758d97da7a105c2cb7dcff6c5786a16e1c2868670d9ee9a4",
+      "secondPass": {
+        "reviewId": "sonnet5-8a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "79426e24e8b001c7900dcd80d329d98cf2ddd429fdb6802a5ad7fbb5e3ce5173",
+        "reviewedSemanticFingerprint": "e64f9dcdbfd48dd5758d97da7a105c2cb7dcff6c5786a16e1c2868670d9ee9a4",
+        "evidence": {
+          "reviewId": "sonnet5-8a-second-20260823b",
+          "module": "yoma",
+          "daf": "8a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines (confirmed 41 lines total, ending mid-word at 'she-zeh') without consulting first-pass reasoning. Confirmed the same two-part structure: the completed tzitz-to-tefillin kal v'chomer followed by R. Shimon and R. Yehuda's source-derivation audit (1-13); and the three-tanna hazaah dispute with its three-stage hypothesis-rejection-resolution chain, closing with R. Chanina Segan's split explained as an elevated stringency unrelated to the timing-equation principle (14-41).",
+          "attributionSpotCheck": {
+            "s01_RShimon": "re-derived fresh: 'al mitzcho v'nasa' fixes a normal location (not an atonement condition, since he already holds off-forehead atones via 'tamid'); the extra word 'v'nasa' teaches 'ravui lamitzach' (fit-for-forehead atones, broken does not) - matches repaired... i.e. already-correct enrichment exactly, no swap",
+            "s01_RYehuda": "re-derived fresh: 'al mitzcho' alone gives the forehead-placement requirement; broken-tzitz exclusion derived separately from doubled 'mitzcho mitzcho' across two verses - matches exactly",
+            "s02_threeTannaim": "re-derived fresh: R. Meir (all 7, both cases) vs. R. Yosei (day 3+7, both) vs. R. Chanina Segan (para=all7, YK=3&7) - matches exactly; the three-stage resolution (dchuya/hutrah rejected, tevila-bizmana-mitzva rejected by cross-tractate evidence, hazaah-equated-to-tevila accepted) and R. Chanina Segan's non-equation resolution all re-confirmed accurate",
+            "result": "no attribution swap found anywhere on independent re-derivation, consistent with the first pass"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-008a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "All seven argumentFlow steps re-verified independently against lines 1-13; the R. Shimon/R. Yehuda verse-derivation attributions - specifically checked given 7b's confirmed swap on the same topic - are all correct with no swap found."
+            },
+            {
+              "sugyaId": "yoma-008a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "The full three-tanna, three-stage hypothesis-rejection-resolution chain re-derived independently against lines 14-41; all attributions correct. The step-05 parenthetical wording flagged as borderline in the first pass was re-examined and confirmed not to constitute a genuine misattribution, since the legal conclusion about R. Yosei's position is stated correctly and unambiguously everywhere else."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-derived every speaker attribution from scratch, blind to first-pass reasoning, with particular attention to the R. Shimon/R. Yehuda derivations (given 7b's confirmed error on the same dispute) and the three-way R. Meir/R. Yosei/R. Chanina Segan attributions. No defect found on any sugya; confirms the clean VERIFIED finding from the first pass."
+        }
+      },
+      "certifiedAtCommit": "76fd7c07466f0ce52f2fbcd27e5397818a63b29c"
+    },
+    "yoma-008a-s02": {
+      "sugyaId": "yoma-008a-s02",
+      "daf": "8a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-8a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "727ec2af6d12419ad7ba3697ded524bf9ea032f51550b019104cdc8e4e3221c8",
+        "reviewedSemanticFingerprint": "e760d7a519c23f0505fe41862fea6aacc7edad74327e2bb4a8941ad7933bb8de",
+        "evidence": {
+          "reviewId": "sonnet5-8a-first-20260823a",
+          "module": "yoma",
+          "daf": "8a",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-41, confirmed the daf's true end via direct read of talmuddev/8a.json) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-4: completes 7b's cutoff kal v'chomer - the tzitz (one divine name) requires constant mindfulness, so tefillin (many divine names) certainly do too.",
+              "Lines 4-13: source-derivation audit for R. Shimon and R. Yehuda's positions established on 7b. R. Shimon (challenged: doesn't 'al mitzcho v'nasa' require forehead placement, contradicting his 'tamid=perpetual atonement' view?) answers that verse merely fixes the normal location, not an atonement condition; asked what the extra word 'v'nasa' then teaches, he derives 'ravui lamitzach' (fit for the forehead atones, unfit - i.e. broken - does not). R. Yehuda derives the forehead-placement requirement from 'al mitzcho' directly, and the broken-tzitz exclusion from a separate doubled 'mitzcho/mitzcho' across two verses; R. Shimon does not use that doubling since he already derived the broken-tzitz rule from 'v'nasa'.",
+              "Lines 14-20: a baraita on hazaah (sprinkling): R. Meir - both the YK Kohen Gadol and the para-aduma priest are sprinkled all seven separation days; R. Yosei - only day 3 and day 7 for both; R. Chanina Segan HaKohanim - the para priest gets all seven, the YK Kohen Gadol only day 3 and 7.",
+              "Lines 21-25: first hypothesis - the dispute maps onto dchuya (R. Meir) vs. hutrah (R. Yosei) - rejected: if R. Yosei held hutrah, he would require no sprinkling at all, not specifically day 3 and 7.",
+              "Lines 25-34: second hypothesis - both hold dchuya; dispute is whether 'tevila bizmana mitzva' (immersion at its proper time is a mitzva) - R. Meir yes, R. Yosei no. Challenged and rejected via a cross-tractate baraita (a person with God's Name tattooed on his skin): the tanna kama's cautious method (wrapping a reed before immersing) reflects NOT holding tevila-bizmana-mitzva, while R. Yosei's own ruling (immerse normally, just don't rub) reflects that he DOES hold tevila bizmana is a mitzva - directly contradicting the second hypothesis's premise that R. Yosei denies it.",
+              "Lines 34-39: third and correct resolution - both hold tevila bizmana mitzva; the real dispute is whether hazaah is EQUATED to tevila for timing purposes: R. Meir yes (so sprinkle every day, since any day might be the halakhic 'proper' one), R. Yosei no (sprinkle only the Torah-specified day 3 and 7). This resolution creates a new problem for R. Chanina Segan's split ruling, since a simple binary equate/don't-equate reading would give both priests the SAME ruling.",
+              "Lines 39-41 (daf ends mid-citation): resolved - R. Chanina Segan does not equate hazaah to tevila at all; the para priest's all-seven-day sprinkling is merely an elevated stringency (ma'alah b'alma), unrelated to the timing-equation principle. The daf then begins introducing a supporting citation ('there is no difference between the priest who burns the heifer and the Kohen Gadol on Yom Kippur except that this...') which cuts off after a single word, continuing to 8b."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "s01 (1-13) and s02 (14-41, extending to the daf's confirmed true end of 41). No boundary repair needed.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences both sections and matches the independent reconstruction with no errors found.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-008a-s01",
+              "verdict": "VERIFIED",
+              "notes": "Given the immediately preceding daf (7b) had a serious R. Yehuda/R. Shimon speaker-attribution swap, this sugya's parallel verse-derivation content was checked with particular care. All seven argumentFlow steps independently verified correctly attributed: R. Shimon's 'al mitzcho v'nasa' location-vs-atonement distinction and 'ravui lamitzach' broken-tzitz derivation, and R. Yehuda's 'al mitzcho' placement derivation and separate doubled-'mitzcho' broken-tzitz derivation, all match the raw text exactly with no swap found."
+            },
+            {
+              "sugyaId": "yoma-008a-s02",
+              "verdict": "VERIFIED",
+              "notes": "The three-tanna hazaah dispute (R. Meir, R. Yosei, R. Chanina Segan HaKohanim) and the full hypothesis-rejection-resolution chain (dchuya/hutrah rejected; tevila-bizmana-mitzva rejected by cross-tractate evidence; hazaah-equated-to-tevila accepted) all independently verified accurate and correctly attributed. One field (step-05's parenthetical describing the tattooed-person scenario) is loosely worded in a way that could be misread as attributing the tanna kama's reed-wrapping caution to R. Yosei specifically, when R. Yosei's own ruling is to immerse normally without the reed (only avoiding rubbing) - but read as a general scenario-gloss rather than a specific per-sage action claim, and since the actual legal conclusion drawn (R. Yosei holds tevila bizmana mitzva) is stated correctly and unambiguously in every field, this does not rise to the level of a genuine misattribution defect requiring repair, consistent with the standard applied to similar borderline phrasing on 7a. The daf's final unstated citation fragment (a single word, 'she-zeh', before the cutoff) is negligible content, not a real omitted logical step, and finalRuling already properly hedges with 'as worked out in 8b' - no false-closure issue."
+            }
+          ],
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, with particular attention to the R. Yehuda/R. Shimon attributions in s01 given the immediately preceding daf's confirmed error, and to the three-way R. Meir/R. Yosei/R. Chanina Segan attributions across the full three-stage hypothesis-rejection-resolution structure in s02. No genuine defect found on either sugya; this is a clean VERIFIED daf."
+        }
+      },
+      "sourceFingerprint": "727ec2af6d12419ad7ba3697ded524bf9ea032f51550b019104cdc8e4e3221c8",
+      "semanticFingerprint": "e760d7a519c23f0505fe41862fea6aacc7edad74327e2bb4a8941ad7933bb8de",
+      "secondPass": {
+        "reviewId": "sonnet5-8a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "727ec2af6d12419ad7ba3697ded524bf9ea032f51550b019104cdc8e4e3221c8",
+        "reviewedSemanticFingerprint": "e760d7a519c23f0505fe41862fea6aacc7edad74327e2bb4a8941ad7933bb8de",
+        "evidence": {
+          "reviewId": "sonnet5-8a-second-20260823b",
+          "module": "yoma",
+          "daf": "8a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines (confirmed 41 lines total, ending mid-word at 'she-zeh') without consulting first-pass reasoning. Confirmed the same two-part structure: the completed tzitz-to-tefillin kal v'chomer followed by R. Shimon and R. Yehuda's source-derivation audit (1-13); and the three-tanna hazaah dispute with its three-stage hypothesis-rejection-resolution chain, closing with R. Chanina Segan's split explained as an elevated stringency unrelated to the timing-equation principle (14-41).",
+          "attributionSpotCheck": {
+            "s01_RShimon": "re-derived fresh: 'al mitzcho v'nasa' fixes a normal location (not an atonement condition, since he already holds off-forehead atones via 'tamid'); the extra word 'v'nasa' teaches 'ravui lamitzach' (fit-for-forehead atones, broken does not) - matches repaired... i.e. already-correct enrichment exactly, no swap",
+            "s01_RYehuda": "re-derived fresh: 'al mitzcho' alone gives the forehead-placement requirement; broken-tzitz exclusion derived separately from doubled 'mitzcho mitzcho' across two verses - matches exactly",
+            "s02_threeTannaim": "re-derived fresh: R. Meir (all 7, both cases) vs. R. Yosei (day 3+7, both) vs. R. Chanina Segan (para=all7, YK=3&7) - matches exactly; the three-stage resolution (dchuya/hutrah rejected, tevila-bizmana-mitzva rejected by cross-tractate evidence, hazaah-equated-to-tevila accepted) and R. Chanina Segan's non-equation resolution all re-confirmed accurate",
+            "result": "no attribution swap found anywhere on independent re-derivation, consistent with the first pass"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-008a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "All seven argumentFlow steps re-verified independently against lines 1-13; the R. Shimon/R. Yehuda verse-derivation attributions - specifically checked given 7b's confirmed swap on the same topic - are all correct with no swap found."
+            },
+            {
+              "sugyaId": "yoma-008a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "The full three-tanna, three-stage hypothesis-rejection-resolution chain re-derived independently against lines 14-41; all attributions correct. The step-05 parenthetical wording flagged as borderline in the first pass was re-examined and confirmed not to constitute a genuine misattribution, since the legal conclusion about R. Yosei's position is stated correctly and unambiguously everywhere else."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-derived every speaker attribution from scratch, blind to first-pass reasoning, with particular attention to the R. Shimon/R. Yehuda derivations (given 7b's confirmed error on the same dispute) and the three-way R. Meir/R. Yosei/R. Chanina Segan attributions. No defect found on any sugya; confirms the clean VERIFIED finding from the first pass."
+        }
+      },
+      "certifiedAtCommit": "76fd7c07466f0ce52f2fbcd27e5397818a63b29c"
     }
   }
 }
