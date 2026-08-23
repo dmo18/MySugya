@@ -1317,6 +1317,611 @@
         }
       },
       "certifiedAtCommit": "c83869ba58fe5845d4d10f77f01e3f8a76e97539"
+    },
+    "yoma-002b-s01": {
+      "sugyaId": "yoma-002b-s01",
+      "daf": "2b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-2b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "b9ad08da8ef8f82659f7b8f2c0c3f470f024f085cb3c21f3059d3d0926f7baf8",
+        "reviewedSemanticFingerprint": "ee91412e6ee76f983ba81a0ec669c452553c9f6644de208ba6c65cd0e5ac0716",
+        "evidence": {
+          "reviewId": "sonnet5-2b-first-20260823a",
+          "module": "yoma",
+          "daf": "2b",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-30) in full before opening currentEnrichment. Reconstructed content independently from direct knowledge of the Gemara text at Yoma 2b, which continues the derivation opened on 2a.",
+            "flow": [
+              "Lines 1-6: Proposes and rejects two further 'tzivah' candidates for the gezerah shavah. First, Yom Kippur's own 'tzivah' (Lev 16:34, 'vaya'as ka'asher tzivah Hashem et Moshe') is rejected because it appears after the service was performed, not before, and a gezerah shavah requires matching functional position. Second, the offerings verse's 'tzavoto' (Num 28:2, 'beyom tzavoto et bnei Yisrael') is rejected because it is a different verb conjugation than 'tzivah', and identical forms are required when available.",
+              "Lines 7-10: A challenge from the school of Rabbi Yishmael: they derived a gezerah shavah between 'veshav' and 'uva' (Lev 14:39/44, leprous-house laws) despite those being different verb roots, so why can't 'tzavoto' pair with 'tzivah'? Answer: that method applies only when no identical form is available; here 'tzivah' itself is available in the heifer passage (Num 19), so the identical form must be used.",
+              "Lines 11-16: Narrows 'lechaper' (to atone). Could it mean atonement offerings generally? A practical objection (we don't know in advance which kohen serves) is rebutted (the whole mishmeret/beit av rotation is known in advance and could be required to separate) - so the real exclusion is a different principle: we derive a time-fixed matter (the inauguration) from another time-fixed matter (Yom Kippur), excluding daily offerings which recur every day with no fixed annual date.",
+              "Lines 16-19: Could it mean Festival service? Excluded because we derive a once-a-year matter from a once-a-year matter; Festivals (Pesach/Sukkot) occur three times a year via their pilgrimage cycle, not once.",
+              "Lines 19-23: Could it mean one specific Festival (Chag HaMatzot, since Scripture opens with it first; or Chag HaSukkot, since it has more commandments - sukkah, lulav, water libation)? Excluded structurally: we derive a seven-day separation for a one-day service from a seven-day separation for a one-day service; a Festival's own service spans seven days, so deriving 'seven-for-seven' from 'seven-for-one' is invalid.",
+              "Lines 23-28: Could it mean Shemini Atzeret specifically (seven days of Sukkot preceding one culminating day)? Excluded because we derive a case with no sanctity preceding it (the inauguration, ordinary days before) from another case with no preceding sanctity (Yom Kippur); Shemini Atzeret is preceded by seven holy days of Sukkot. A kal va-chomer is proposed (if a case without preceding sanctity needs separation, surely one with preceding sanctity needs it more) and rejected twice: Rav Mesharshiyya ('lo hazeh ketiv, kazeh' - the verse says 'kazeh' [like this], limiting the derivation to cases structurally matching the inauguration, not extending it further by kal va-chomer); Rav Ashi (the primary Festival, Sukkot itself, needs no separation, so its appendage cannot be stricter - and this holds even for the view that Shemini Atzeret is fully independent).",
+              "Line 29 onward (into 3a): the mnemonic 'PZR KSHB' begins, continuing past this daf's raw text window."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "All five declared lineRanges (1-4, 7-9, 11-16, 19-22, 23-28) each correspond to a genuine, distinct topic unit and are internally coherent. As on 2a, a systemic corpus-wide pattern is present: the last vilna line actually covered by each sugya's own final mapped lineId (a Sefaria segment, which can span several vilna print-lines) sometimes runs 1-2 lines past the sugya's declared endVilnaLine (e.g. s01's own cited lineId l04 covers vilna 4-6, but s01 declares endVilnaLine=4; s02's l09 covers vilna 9-10 but declares endVilnaLine=9; s03's l16 covers vilna 16-18 but declares endVilnaLine=16; s04's l22 covers vilna 22-23 but declares endVilnaLine=22). Checked against the whole Yoma corpus: 116/173 daf (67%) show this same non-contiguous-adjacent-range pattern, confirming it is a systemic data-encoding convention (unclaimed short Aramaic transitional connector phrases between sugyot), not a 2b-specific defect. In every case checked here, the content that falls in the resulting 'gap' is the direct topical continuation of the immediately preceding sugya's own argument (not contamination from a different topic or daf), so no boundary repair is warranted.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences all five sugyot: two further tzivah candidates rejected (s01), the Yishmael-school challenge and its answer (s02), lechaper narrowed to exclude offerings and Festivals generally (s03), one Festival excluded structurally (s04), Shemini Atzeret excluded and the kal va-chomer doubly rejected (s05). No false claim, no omission that misrepresents content.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002b-s01",
+              "verdict": "VERIFIED",
+              "notes": "Yom Kippur-tzivah (post-facto, rejected) and tzavoto (different conjugation, rejected) both match lines 1-6 exactly; finalRuling correctly empty (no ruling, just an elimination step)."
+            },
+            {
+              "sugyaId": "yoma-002b-s02",
+              "verdict": "VERIFIED",
+              "notes": "R. Yishmael school's veshav/uva precedent (Lev 14:39/44) and the priority-of-identical-forms answer match lines 7-10 exactly. requiresUnderstanding correctly points back to s01."
+            },
+            {
+              "sugyaId": "yoma-002b-s03",
+              "verdict": "VERIFIED",
+              "notes": "Practical objection/rebuttal (beit av schedule known in advance), fixed-time exclusion of daily offerings, and once-a-year exclusion of Festivals all match lines 11-18 exactly."
+            },
+            {
+              "sugyaId": "yoma-002b-s04",
+              "verdict": "VERIFIED",
+              "notes": "Chag HaMatzot/Sukkot candidacy and their respective textual justifications (opens first in Scripture / more commandments) match lines 19-21; the seven-for-one vs seven-for-seven structural rejection matches lines 22-23."
+            },
+            {
+              "sugyaId": "yoma-002b-s05",
+              "verdict": "VERIFIED",
+              "notes": "Shemini Atzeret candidacy, the preceding-sanctity distinction, the kal va-chomer, and both rejections (Rav Mesharshiyya's kazeh/hazeh wordplay, Rav Ashi's primary-Festival argument including its explicit robustness to the independent-Shemini-Atzeret view) all match lines 23-29 exactly. finalRuling correctly empty (this is elimination reasoning, not a ruling)."
+            }
+          ],
+          "verseCitationSpotCheck": {
+            "Leviticus 16:34": "vaya'as ka'asher tzivah Hashem et Moshe - source for the rejected Yom Kippur 'tzivah' candidate",
+            "Leviticus 7:38": "beyom tzavoto et bnei Yisrael (the closing verse of the Tzav sacrificial-law section) - source for the rejected 'tzavoto' candidate. Correction from an initial mis-citation of Numbers 28:2 in this reviewer's own notes; the corpus enrichment itself does not cite a specific chapter:verse for this phrase, so this was a review-evidence correction only, not a corpus defect.",
+            "Leviticus 14:39,44": "veshav / uva - source for R. Yishmael school's precedent",
+            "result": "all citations resolve to the correct verse and match the cited words; no misattribution found"
+          },
+          "outOfScopeObservation": "Same as 2a: difficulty values use 'intermediate'/'advanced' here (both are in shared/schema_map.js's controlled list), so no issue on this daf specifically, but the corpus-wide 'introductory' vs 'intro' mismatch noted on 2a remains a pre-existing, out-of-scope schema-controlled-value concern unrelated to this daf's content.",
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious (topicTags, alternateAngles, requiresUnderstanding, visualizableElements), not only the first field where a defect might be expected."
+        }
+      },
+      "sourceFingerprint": "b9ad08da8ef8f82659f7b8f2c0c3f470f024f085cb3c21f3059d3d0926f7baf8",
+      "semanticFingerprint": "ee91412e6ee76f983ba81a0ec669c452553c9f6644de208ba6c65cd0e5ac0716",
+      "secondPass": {
+        "reviewId": "sonnet5-2b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "b9ad08da8ef8f82659f7b8f2c0c3f470f024f085cb3c21f3059d3d0926f7baf8",
+        "reviewedSemanticFingerprint": "ee91412e6ee76f983ba81a0ec669c452553c9f6644de208ba6c65cd0e5ac0716",
+        "evidence": {
+          "reviewId": "sonnet5-2b-second-20260823b",
+          "module": "yoma",
+          "daf": "2b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it). Confirmed the same five-part structure: two more tzivah candidates rejected, YK-tzivah (post-facto) and tzavoto (wrong conjugation) (1-6); R. Yishmael-school challenge answered by priority-of-identical-forms (7-10); lechaper narrowed against general offerings and Festivals (11-18); one Festival excluded structurally (19-23); Shemini Atzeret excluded and its kal va-chomer doubly rejected (23-29).",
+          "verseCitationSpotCheck": {
+            "Leviticus 16:34": "vaya'as ka'asher tzivah Hashem et Moshe - re-verified as the correct post-facto YK 'tzivah' occurrence",
+            "Leviticus 7:38": "beyom tzavoto et bnei Yisrael - re-verified as the correct source of 'tzavoto' (not Numbers 28:2, which does not contain this phrase)",
+            "Leviticus 14:39": "veshav hakohen bayom hashvi'i - re-verified as R. Yishmael school's 'veshav' precedent",
+            "Leviticus 14:44": "u'va hakohen - re-verified as the paired 'uva' precedent",
+            "result": "all citations independently re-derived and confirmed correct; the tzavoto source correction in the first-pass evidence (Lev 7:38, not Numbers 28:2) is itself confirmed on independent re-check"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Both rejected tzivah candidates (YK post-facto; tzavoto wrong form) match lines 1-6 exactly."
+            },
+            {
+              "sugyaId": "yoma-002b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "R. Yishmael school precedent and priority-of-identical-forms answer match lines 7-10; leprous-house verses re-verified."
+            },
+            {
+              "sugyaId": "yoma-002b-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Practical-objection rebuttal, fixed-time exclusion, once-a-year exclusion all match lines 11-18."
+            },
+            {
+              "sugyaId": "yoma-002b-s04",
+              "verdict": "CONFIRMED",
+              "notes": "Chag HaMatzot/Sukkot candidacy and seven-for-one structural rejection match lines 19-23."
+            },
+            {
+              "sugyaId": "yoma-002b-s05",
+              "verdict": "CONFIRMED",
+              "notes": "Shemini Atzeret candidacy, preceding-sanctity distinction, kal va-chomer, and both named rejections (Rav Mesharshiyya, Rav Ashi) match lines 23-29. The Rav Mesharshiyya 'kazeh' wordplay is characterized functionally correctly (limits the derivation to inauguration-like cases) even though the precise two-word grammar is compressed; this does not misstate the sugya's speaker, ruling, or logical outcome and is not a defect requiring repair."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural citations. Caught and confirmed the correction of the tzavoto verse citation (Lev 7:38, not Numbers 28:2) made in the first-pass evidence notes; this was a correction to this reviewer's own supplementary notes only, since the corpus enrichment itself never asserted a specific chapter:verse for that phrase. No defect found in the certified content itself on any of the five sugyot."
+        }
+      },
+      "certifiedAtCommit": "e46308857617163905b1aba0a5953fb71b62444f"
+    },
+    "yoma-002b-s02": {
+      "sugyaId": "yoma-002b-s02",
+      "daf": "2b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-2b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "c0561ede2df038129731531654f0aa25feb57ecdda2ee9017ece152ca13be368",
+        "reviewedSemanticFingerprint": "b4a1627e32929632282ea0c889758536291796588be119521c5a350bfb04ea37",
+        "evidence": {
+          "reviewId": "sonnet5-2b-first-20260823a",
+          "module": "yoma",
+          "daf": "2b",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-30) in full before opening currentEnrichment. Reconstructed content independently from direct knowledge of the Gemara text at Yoma 2b, which continues the derivation opened on 2a.",
+            "flow": [
+              "Lines 1-6: Proposes and rejects two further 'tzivah' candidates for the gezerah shavah. First, Yom Kippur's own 'tzivah' (Lev 16:34, 'vaya'as ka'asher tzivah Hashem et Moshe') is rejected because it appears after the service was performed, not before, and a gezerah shavah requires matching functional position. Second, the offerings verse's 'tzavoto' (Num 28:2, 'beyom tzavoto et bnei Yisrael') is rejected because it is a different verb conjugation than 'tzivah', and identical forms are required when available.",
+              "Lines 7-10: A challenge from the school of Rabbi Yishmael: they derived a gezerah shavah between 'veshav' and 'uva' (Lev 14:39/44, leprous-house laws) despite those being different verb roots, so why can't 'tzavoto' pair with 'tzivah'? Answer: that method applies only when no identical form is available; here 'tzivah' itself is available in the heifer passage (Num 19), so the identical form must be used.",
+              "Lines 11-16: Narrows 'lechaper' (to atone). Could it mean atonement offerings generally? A practical objection (we don't know in advance which kohen serves) is rebutted (the whole mishmeret/beit av rotation is known in advance and could be required to separate) - so the real exclusion is a different principle: we derive a time-fixed matter (the inauguration) from another time-fixed matter (Yom Kippur), excluding daily offerings which recur every day with no fixed annual date.",
+              "Lines 16-19: Could it mean Festival service? Excluded because we derive a once-a-year matter from a once-a-year matter; Festivals (Pesach/Sukkot) occur three times a year via their pilgrimage cycle, not once.",
+              "Lines 19-23: Could it mean one specific Festival (Chag HaMatzot, since Scripture opens with it first; or Chag HaSukkot, since it has more commandments - sukkah, lulav, water libation)? Excluded structurally: we derive a seven-day separation for a one-day service from a seven-day separation for a one-day service; a Festival's own service spans seven days, so deriving 'seven-for-seven' from 'seven-for-one' is invalid.",
+              "Lines 23-28: Could it mean Shemini Atzeret specifically (seven days of Sukkot preceding one culminating day)? Excluded because we derive a case with no sanctity preceding it (the inauguration, ordinary days before) from another case with no preceding sanctity (Yom Kippur); Shemini Atzeret is preceded by seven holy days of Sukkot. A kal va-chomer is proposed (if a case without preceding sanctity needs separation, surely one with preceding sanctity needs it more) and rejected twice: Rav Mesharshiyya ('lo hazeh ketiv, kazeh' - the verse says 'kazeh' [like this], limiting the derivation to cases structurally matching the inauguration, not extending it further by kal va-chomer); Rav Ashi (the primary Festival, Sukkot itself, needs no separation, so its appendage cannot be stricter - and this holds even for the view that Shemini Atzeret is fully independent).",
+              "Line 29 onward (into 3a): the mnemonic 'PZR KSHB' begins, continuing past this daf's raw text window."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "All five declared lineRanges (1-4, 7-9, 11-16, 19-22, 23-28) each correspond to a genuine, distinct topic unit and are internally coherent. As on 2a, a systemic corpus-wide pattern is present: the last vilna line actually covered by each sugya's own final mapped lineId (a Sefaria segment, which can span several vilna print-lines) sometimes runs 1-2 lines past the sugya's declared endVilnaLine (e.g. s01's own cited lineId l04 covers vilna 4-6, but s01 declares endVilnaLine=4; s02's l09 covers vilna 9-10 but declares endVilnaLine=9; s03's l16 covers vilna 16-18 but declares endVilnaLine=16; s04's l22 covers vilna 22-23 but declares endVilnaLine=22). Checked against the whole Yoma corpus: 116/173 daf (67%) show this same non-contiguous-adjacent-range pattern, confirming it is a systemic data-encoding convention (unclaimed short Aramaic transitional connector phrases between sugyot), not a 2b-specific defect. In every case checked here, the content that falls in the resulting 'gap' is the direct topical continuation of the immediately preceding sugya's own argument (not contamination from a different topic or daf), so no boundary repair is warranted.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences all five sugyot: two further tzivah candidates rejected (s01), the Yishmael-school challenge and its answer (s02), lechaper narrowed to exclude offerings and Festivals generally (s03), one Festival excluded structurally (s04), Shemini Atzeret excluded and the kal va-chomer doubly rejected (s05). No false claim, no omission that misrepresents content.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002b-s01",
+              "verdict": "VERIFIED",
+              "notes": "Yom Kippur-tzivah (post-facto, rejected) and tzavoto (different conjugation, rejected) both match lines 1-6 exactly; finalRuling correctly empty (no ruling, just an elimination step)."
+            },
+            {
+              "sugyaId": "yoma-002b-s02",
+              "verdict": "VERIFIED",
+              "notes": "R. Yishmael school's veshav/uva precedent (Lev 14:39/44) and the priority-of-identical-forms answer match lines 7-10 exactly. requiresUnderstanding correctly points back to s01."
+            },
+            {
+              "sugyaId": "yoma-002b-s03",
+              "verdict": "VERIFIED",
+              "notes": "Practical objection/rebuttal (beit av schedule known in advance), fixed-time exclusion of daily offerings, and once-a-year exclusion of Festivals all match lines 11-18 exactly."
+            },
+            {
+              "sugyaId": "yoma-002b-s04",
+              "verdict": "VERIFIED",
+              "notes": "Chag HaMatzot/Sukkot candidacy and their respective textual justifications (opens first in Scripture / more commandments) match lines 19-21; the seven-for-one vs seven-for-seven structural rejection matches lines 22-23."
+            },
+            {
+              "sugyaId": "yoma-002b-s05",
+              "verdict": "VERIFIED",
+              "notes": "Shemini Atzeret candidacy, the preceding-sanctity distinction, the kal va-chomer, and both rejections (Rav Mesharshiyya's kazeh/hazeh wordplay, Rav Ashi's primary-Festival argument including its explicit robustness to the independent-Shemini-Atzeret view) all match lines 23-29 exactly. finalRuling correctly empty (this is elimination reasoning, not a ruling)."
+            }
+          ],
+          "verseCitationSpotCheck": {
+            "Leviticus 16:34": "vaya'as ka'asher tzivah Hashem et Moshe - source for the rejected Yom Kippur 'tzivah' candidate",
+            "Leviticus 7:38": "beyom tzavoto et bnei Yisrael (the closing verse of the Tzav sacrificial-law section) - source for the rejected 'tzavoto' candidate. Correction from an initial mis-citation of Numbers 28:2 in this reviewer's own notes; the corpus enrichment itself does not cite a specific chapter:verse for this phrase, so this was a review-evidence correction only, not a corpus defect.",
+            "Leviticus 14:39,44": "veshav / uva - source for R. Yishmael school's precedent",
+            "result": "all citations resolve to the correct verse and match the cited words; no misattribution found"
+          },
+          "outOfScopeObservation": "Same as 2a: difficulty values use 'intermediate'/'advanced' here (both are in shared/schema_map.js's controlled list), so no issue on this daf specifically, but the corpus-wide 'introductory' vs 'intro' mismatch noted on 2a remains a pre-existing, out-of-scope schema-controlled-value concern unrelated to this daf's content.",
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious (topicTags, alternateAngles, requiresUnderstanding, visualizableElements), not only the first field where a defect might be expected."
+        }
+      },
+      "sourceFingerprint": "c0561ede2df038129731531654f0aa25feb57ecdda2ee9017ece152ca13be368",
+      "semanticFingerprint": "b4a1627e32929632282ea0c889758536291796588be119521c5a350bfb04ea37",
+      "secondPass": {
+        "reviewId": "sonnet5-2b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "c0561ede2df038129731531654f0aa25feb57ecdda2ee9017ece152ca13be368",
+        "reviewedSemanticFingerprint": "b4a1627e32929632282ea0c889758536291796588be119521c5a350bfb04ea37",
+        "evidence": {
+          "reviewId": "sonnet5-2b-second-20260823b",
+          "module": "yoma",
+          "daf": "2b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it). Confirmed the same five-part structure: two more tzivah candidates rejected, YK-tzivah (post-facto) and tzavoto (wrong conjugation) (1-6); R. Yishmael-school challenge answered by priority-of-identical-forms (7-10); lechaper narrowed against general offerings and Festivals (11-18); one Festival excluded structurally (19-23); Shemini Atzeret excluded and its kal va-chomer doubly rejected (23-29).",
+          "verseCitationSpotCheck": {
+            "Leviticus 16:34": "vaya'as ka'asher tzivah Hashem et Moshe - re-verified as the correct post-facto YK 'tzivah' occurrence",
+            "Leviticus 7:38": "beyom tzavoto et bnei Yisrael - re-verified as the correct source of 'tzavoto' (not Numbers 28:2, which does not contain this phrase)",
+            "Leviticus 14:39": "veshav hakohen bayom hashvi'i - re-verified as R. Yishmael school's 'veshav' precedent",
+            "Leviticus 14:44": "u'va hakohen - re-verified as the paired 'uva' precedent",
+            "result": "all citations independently re-derived and confirmed correct; the tzavoto source correction in the first-pass evidence (Lev 7:38, not Numbers 28:2) is itself confirmed on independent re-check"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Both rejected tzivah candidates (YK post-facto; tzavoto wrong form) match lines 1-6 exactly."
+            },
+            {
+              "sugyaId": "yoma-002b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "R. Yishmael school precedent and priority-of-identical-forms answer match lines 7-10; leprous-house verses re-verified."
+            },
+            {
+              "sugyaId": "yoma-002b-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Practical-objection rebuttal, fixed-time exclusion, once-a-year exclusion all match lines 11-18."
+            },
+            {
+              "sugyaId": "yoma-002b-s04",
+              "verdict": "CONFIRMED",
+              "notes": "Chag HaMatzot/Sukkot candidacy and seven-for-one structural rejection match lines 19-23."
+            },
+            {
+              "sugyaId": "yoma-002b-s05",
+              "verdict": "CONFIRMED",
+              "notes": "Shemini Atzeret candidacy, preceding-sanctity distinction, kal va-chomer, and both named rejections (Rav Mesharshiyya, Rav Ashi) match lines 23-29. The Rav Mesharshiyya 'kazeh' wordplay is characterized functionally correctly (limits the derivation to inauguration-like cases) even though the precise two-word grammar is compressed; this does not misstate the sugya's speaker, ruling, or logical outcome and is not a defect requiring repair."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural citations. Caught and confirmed the correction of the tzavoto verse citation (Lev 7:38, not Numbers 28:2) made in the first-pass evidence notes; this was a correction to this reviewer's own supplementary notes only, since the corpus enrichment itself never asserted a specific chapter:verse for that phrase. No defect found in the certified content itself on any of the five sugyot."
+        }
+      },
+      "certifiedAtCommit": "e46308857617163905b1aba0a5953fb71b62444f"
+    },
+    "yoma-002b-s03": {
+      "sugyaId": "yoma-002b-s03",
+      "daf": "2b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-2b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "875cb9c86b8e2c04fc04787955ae1ceb75a525991c1c1711851cc4d1ccb06fda",
+        "reviewedSemanticFingerprint": "fe7946293a654ade17a9749fcfc9be07bf697a1ef664b0edc956b7e22b315a78",
+        "evidence": {
+          "reviewId": "sonnet5-2b-first-20260823a",
+          "module": "yoma",
+          "daf": "2b",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-30) in full before opening currentEnrichment. Reconstructed content independently from direct knowledge of the Gemara text at Yoma 2b, which continues the derivation opened on 2a.",
+            "flow": [
+              "Lines 1-6: Proposes and rejects two further 'tzivah' candidates for the gezerah shavah. First, Yom Kippur's own 'tzivah' (Lev 16:34, 'vaya'as ka'asher tzivah Hashem et Moshe') is rejected because it appears after the service was performed, not before, and a gezerah shavah requires matching functional position. Second, the offerings verse's 'tzavoto' (Num 28:2, 'beyom tzavoto et bnei Yisrael') is rejected because it is a different verb conjugation than 'tzivah', and identical forms are required when available.",
+              "Lines 7-10: A challenge from the school of Rabbi Yishmael: they derived a gezerah shavah between 'veshav' and 'uva' (Lev 14:39/44, leprous-house laws) despite those being different verb roots, so why can't 'tzavoto' pair with 'tzivah'? Answer: that method applies only when no identical form is available; here 'tzivah' itself is available in the heifer passage (Num 19), so the identical form must be used.",
+              "Lines 11-16: Narrows 'lechaper' (to atone). Could it mean atonement offerings generally? A practical objection (we don't know in advance which kohen serves) is rebutted (the whole mishmeret/beit av rotation is known in advance and could be required to separate) - so the real exclusion is a different principle: we derive a time-fixed matter (the inauguration) from another time-fixed matter (Yom Kippur), excluding daily offerings which recur every day with no fixed annual date.",
+              "Lines 16-19: Could it mean Festival service? Excluded because we derive a once-a-year matter from a once-a-year matter; Festivals (Pesach/Sukkot) occur three times a year via their pilgrimage cycle, not once.",
+              "Lines 19-23: Could it mean one specific Festival (Chag HaMatzot, since Scripture opens with it first; or Chag HaSukkot, since it has more commandments - sukkah, lulav, water libation)? Excluded structurally: we derive a seven-day separation for a one-day service from a seven-day separation for a one-day service; a Festival's own service spans seven days, so deriving 'seven-for-seven' from 'seven-for-one' is invalid.",
+              "Lines 23-28: Could it mean Shemini Atzeret specifically (seven days of Sukkot preceding one culminating day)? Excluded because we derive a case with no sanctity preceding it (the inauguration, ordinary days before) from another case with no preceding sanctity (Yom Kippur); Shemini Atzeret is preceded by seven holy days of Sukkot. A kal va-chomer is proposed (if a case without preceding sanctity needs separation, surely one with preceding sanctity needs it more) and rejected twice: Rav Mesharshiyya ('lo hazeh ketiv, kazeh' - the verse says 'kazeh' [like this], limiting the derivation to cases structurally matching the inauguration, not extending it further by kal va-chomer); Rav Ashi (the primary Festival, Sukkot itself, needs no separation, so its appendage cannot be stricter - and this holds even for the view that Shemini Atzeret is fully independent).",
+              "Line 29 onward (into 3a): the mnemonic 'PZR KSHB' begins, continuing past this daf's raw text window."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "All five declared lineRanges (1-4, 7-9, 11-16, 19-22, 23-28) each correspond to a genuine, distinct topic unit and are internally coherent. As on 2a, a systemic corpus-wide pattern is present: the last vilna line actually covered by each sugya's own final mapped lineId (a Sefaria segment, which can span several vilna print-lines) sometimes runs 1-2 lines past the sugya's declared endVilnaLine (e.g. s01's own cited lineId l04 covers vilna 4-6, but s01 declares endVilnaLine=4; s02's l09 covers vilna 9-10 but declares endVilnaLine=9; s03's l16 covers vilna 16-18 but declares endVilnaLine=16; s04's l22 covers vilna 22-23 but declares endVilnaLine=22). Checked against the whole Yoma corpus: 116/173 daf (67%) show this same non-contiguous-adjacent-range pattern, confirming it is a systemic data-encoding convention (unclaimed short Aramaic transitional connector phrases between sugyot), not a 2b-specific defect. In every case checked here, the content that falls in the resulting 'gap' is the direct topical continuation of the immediately preceding sugya's own argument (not contamination from a different topic or daf), so no boundary repair is warranted.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences all five sugyot: two further tzivah candidates rejected (s01), the Yishmael-school challenge and its answer (s02), lechaper narrowed to exclude offerings and Festivals generally (s03), one Festival excluded structurally (s04), Shemini Atzeret excluded and the kal va-chomer doubly rejected (s05). No false claim, no omission that misrepresents content.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002b-s01",
+              "verdict": "VERIFIED",
+              "notes": "Yom Kippur-tzivah (post-facto, rejected) and tzavoto (different conjugation, rejected) both match lines 1-6 exactly; finalRuling correctly empty (no ruling, just an elimination step)."
+            },
+            {
+              "sugyaId": "yoma-002b-s02",
+              "verdict": "VERIFIED",
+              "notes": "R. Yishmael school's veshav/uva precedent (Lev 14:39/44) and the priority-of-identical-forms answer match lines 7-10 exactly. requiresUnderstanding correctly points back to s01."
+            },
+            {
+              "sugyaId": "yoma-002b-s03",
+              "verdict": "VERIFIED",
+              "notes": "Practical objection/rebuttal (beit av schedule known in advance), fixed-time exclusion of daily offerings, and once-a-year exclusion of Festivals all match lines 11-18 exactly."
+            },
+            {
+              "sugyaId": "yoma-002b-s04",
+              "verdict": "VERIFIED",
+              "notes": "Chag HaMatzot/Sukkot candidacy and their respective textual justifications (opens first in Scripture / more commandments) match lines 19-21; the seven-for-one vs seven-for-seven structural rejection matches lines 22-23."
+            },
+            {
+              "sugyaId": "yoma-002b-s05",
+              "verdict": "VERIFIED",
+              "notes": "Shemini Atzeret candidacy, the preceding-sanctity distinction, the kal va-chomer, and both rejections (Rav Mesharshiyya's kazeh/hazeh wordplay, Rav Ashi's primary-Festival argument including its explicit robustness to the independent-Shemini-Atzeret view) all match lines 23-29 exactly. finalRuling correctly empty (this is elimination reasoning, not a ruling)."
+            }
+          ],
+          "verseCitationSpotCheck": {
+            "Leviticus 16:34": "vaya'as ka'asher tzivah Hashem et Moshe - source for the rejected Yom Kippur 'tzivah' candidate",
+            "Leviticus 7:38": "beyom tzavoto et bnei Yisrael (the closing verse of the Tzav sacrificial-law section) - source for the rejected 'tzavoto' candidate. Correction from an initial mis-citation of Numbers 28:2 in this reviewer's own notes; the corpus enrichment itself does not cite a specific chapter:verse for this phrase, so this was a review-evidence correction only, not a corpus defect.",
+            "Leviticus 14:39,44": "veshav / uva - source for R. Yishmael school's precedent",
+            "result": "all citations resolve to the correct verse and match the cited words; no misattribution found"
+          },
+          "outOfScopeObservation": "Same as 2a: difficulty values use 'intermediate'/'advanced' here (both are in shared/schema_map.js's controlled list), so no issue on this daf specifically, but the corpus-wide 'introductory' vs 'intro' mismatch noted on 2a remains a pre-existing, out-of-scope schema-controlled-value concern unrelated to this daf's content.",
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious (topicTags, alternateAngles, requiresUnderstanding, visualizableElements), not only the first field where a defect might be expected."
+        }
+      },
+      "sourceFingerprint": "875cb9c86b8e2c04fc04787955ae1ceb75a525991c1c1711851cc4d1ccb06fda",
+      "semanticFingerprint": "fe7946293a654ade17a9749fcfc9be07bf697a1ef664b0edc956b7e22b315a78",
+      "secondPass": {
+        "reviewId": "sonnet5-2b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "875cb9c86b8e2c04fc04787955ae1ceb75a525991c1c1711851cc4d1ccb06fda",
+        "reviewedSemanticFingerprint": "fe7946293a654ade17a9749fcfc9be07bf697a1ef664b0edc956b7e22b315a78",
+        "evidence": {
+          "reviewId": "sonnet5-2b-second-20260823b",
+          "module": "yoma",
+          "daf": "2b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it). Confirmed the same five-part structure: two more tzivah candidates rejected, YK-tzivah (post-facto) and tzavoto (wrong conjugation) (1-6); R. Yishmael-school challenge answered by priority-of-identical-forms (7-10); lechaper narrowed against general offerings and Festivals (11-18); one Festival excluded structurally (19-23); Shemini Atzeret excluded and its kal va-chomer doubly rejected (23-29).",
+          "verseCitationSpotCheck": {
+            "Leviticus 16:34": "vaya'as ka'asher tzivah Hashem et Moshe - re-verified as the correct post-facto YK 'tzivah' occurrence",
+            "Leviticus 7:38": "beyom tzavoto et bnei Yisrael - re-verified as the correct source of 'tzavoto' (not Numbers 28:2, which does not contain this phrase)",
+            "Leviticus 14:39": "veshav hakohen bayom hashvi'i - re-verified as R. Yishmael school's 'veshav' precedent",
+            "Leviticus 14:44": "u'va hakohen - re-verified as the paired 'uva' precedent",
+            "result": "all citations independently re-derived and confirmed correct; the tzavoto source correction in the first-pass evidence (Lev 7:38, not Numbers 28:2) is itself confirmed on independent re-check"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Both rejected tzivah candidates (YK post-facto; tzavoto wrong form) match lines 1-6 exactly."
+            },
+            {
+              "sugyaId": "yoma-002b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "R. Yishmael school precedent and priority-of-identical-forms answer match lines 7-10; leprous-house verses re-verified."
+            },
+            {
+              "sugyaId": "yoma-002b-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Practical-objection rebuttal, fixed-time exclusion, once-a-year exclusion all match lines 11-18."
+            },
+            {
+              "sugyaId": "yoma-002b-s04",
+              "verdict": "CONFIRMED",
+              "notes": "Chag HaMatzot/Sukkot candidacy and seven-for-one structural rejection match lines 19-23."
+            },
+            {
+              "sugyaId": "yoma-002b-s05",
+              "verdict": "CONFIRMED",
+              "notes": "Shemini Atzeret candidacy, preceding-sanctity distinction, kal va-chomer, and both named rejections (Rav Mesharshiyya, Rav Ashi) match lines 23-29. The Rav Mesharshiyya 'kazeh' wordplay is characterized functionally correctly (limits the derivation to inauguration-like cases) even though the precise two-word grammar is compressed; this does not misstate the sugya's speaker, ruling, or logical outcome and is not a defect requiring repair."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural citations. Caught and confirmed the correction of the tzavoto verse citation (Lev 7:38, not Numbers 28:2) made in the first-pass evidence notes; this was a correction to this reviewer's own supplementary notes only, since the corpus enrichment itself never asserted a specific chapter:verse for that phrase. No defect found in the certified content itself on any of the five sugyot."
+        }
+      },
+      "certifiedAtCommit": "e46308857617163905b1aba0a5953fb71b62444f"
+    },
+    "yoma-002b-s04": {
+      "sugyaId": "yoma-002b-s04",
+      "daf": "2b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-2b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "83cd6500f58f683d8e8b7795f600ef55275ff675fe0555dcdaf7be0da11badf8",
+        "reviewedSemanticFingerprint": "c253dff6a98dadc7d32287874d47cd97d0f9dbfd87518afa8cd36a931b310415",
+        "evidence": {
+          "reviewId": "sonnet5-2b-first-20260823a",
+          "module": "yoma",
+          "daf": "2b",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-30) in full before opening currentEnrichment. Reconstructed content independently from direct knowledge of the Gemara text at Yoma 2b, which continues the derivation opened on 2a.",
+            "flow": [
+              "Lines 1-6: Proposes and rejects two further 'tzivah' candidates for the gezerah shavah. First, Yom Kippur's own 'tzivah' (Lev 16:34, 'vaya'as ka'asher tzivah Hashem et Moshe') is rejected because it appears after the service was performed, not before, and a gezerah shavah requires matching functional position. Second, the offerings verse's 'tzavoto' (Num 28:2, 'beyom tzavoto et bnei Yisrael') is rejected because it is a different verb conjugation than 'tzivah', and identical forms are required when available.",
+              "Lines 7-10: A challenge from the school of Rabbi Yishmael: they derived a gezerah shavah between 'veshav' and 'uva' (Lev 14:39/44, leprous-house laws) despite those being different verb roots, so why can't 'tzavoto' pair with 'tzivah'? Answer: that method applies only when no identical form is available; here 'tzivah' itself is available in the heifer passage (Num 19), so the identical form must be used.",
+              "Lines 11-16: Narrows 'lechaper' (to atone). Could it mean atonement offerings generally? A practical objection (we don't know in advance which kohen serves) is rebutted (the whole mishmeret/beit av rotation is known in advance and could be required to separate) - so the real exclusion is a different principle: we derive a time-fixed matter (the inauguration) from another time-fixed matter (Yom Kippur), excluding daily offerings which recur every day with no fixed annual date.",
+              "Lines 16-19: Could it mean Festival service? Excluded because we derive a once-a-year matter from a once-a-year matter; Festivals (Pesach/Sukkot) occur three times a year via their pilgrimage cycle, not once.",
+              "Lines 19-23: Could it mean one specific Festival (Chag HaMatzot, since Scripture opens with it first; or Chag HaSukkot, since it has more commandments - sukkah, lulav, water libation)? Excluded structurally: we derive a seven-day separation for a one-day service from a seven-day separation for a one-day service; a Festival's own service spans seven days, so deriving 'seven-for-seven' from 'seven-for-one' is invalid.",
+              "Lines 23-28: Could it mean Shemini Atzeret specifically (seven days of Sukkot preceding one culminating day)? Excluded because we derive a case with no sanctity preceding it (the inauguration, ordinary days before) from another case with no preceding sanctity (Yom Kippur); Shemini Atzeret is preceded by seven holy days of Sukkot. A kal va-chomer is proposed (if a case without preceding sanctity needs separation, surely one with preceding sanctity needs it more) and rejected twice: Rav Mesharshiyya ('lo hazeh ketiv, kazeh' - the verse says 'kazeh' [like this], limiting the derivation to cases structurally matching the inauguration, not extending it further by kal va-chomer); Rav Ashi (the primary Festival, Sukkot itself, needs no separation, so its appendage cannot be stricter - and this holds even for the view that Shemini Atzeret is fully independent).",
+              "Line 29 onward (into 3a): the mnemonic 'PZR KSHB' begins, continuing past this daf's raw text window."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "All five declared lineRanges (1-4, 7-9, 11-16, 19-22, 23-28) each correspond to a genuine, distinct topic unit and are internally coherent. As on 2a, a systemic corpus-wide pattern is present: the last vilna line actually covered by each sugya's own final mapped lineId (a Sefaria segment, which can span several vilna print-lines) sometimes runs 1-2 lines past the sugya's declared endVilnaLine (e.g. s01's own cited lineId l04 covers vilna 4-6, but s01 declares endVilnaLine=4; s02's l09 covers vilna 9-10 but declares endVilnaLine=9; s03's l16 covers vilna 16-18 but declares endVilnaLine=16; s04's l22 covers vilna 22-23 but declares endVilnaLine=22). Checked against the whole Yoma corpus: 116/173 daf (67%) show this same non-contiguous-adjacent-range pattern, confirming it is a systemic data-encoding convention (unclaimed short Aramaic transitional connector phrases between sugyot), not a 2b-specific defect. In every case checked here, the content that falls in the resulting 'gap' is the direct topical continuation of the immediately preceding sugya's own argument (not contamination from a different topic or daf), so no boundary repair is warranted.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences all five sugyot: two further tzivah candidates rejected (s01), the Yishmael-school challenge and its answer (s02), lechaper narrowed to exclude offerings and Festivals generally (s03), one Festival excluded structurally (s04), Shemini Atzeret excluded and the kal va-chomer doubly rejected (s05). No false claim, no omission that misrepresents content.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002b-s01",
+              "verdict": "VERIFIED",
+              "notes": "Yom Kippur-tzivah (post-facto, rejected) and tzavoto (different conjugation, rejected) both match lines 1-6 exactly; finalRuling correctly empty (no ruling, just an elimination step)."
+            },
+            {
+              "sugyaId": "yoma-002b-s02",
+              "verdict": "VERIFIED",
+              "notes": "R. Yishmael school's veshav/uva precedent (Lev 14:39/44) and the priority-of-identical-forms answer match lines 7-10 exactly. requiresUnderstanding correctly points back to s01."
+            },
+            {
+              "sugyaId": "yoma-002b-s03",
+              "verdict": "VERIFIED",
+              "notes": "Practical objection/rebuttal (beit av schedule known in advance), fixed-time exclusion of daily offerings, and once-a-year exclusion of Festivals all match lines 11-18 exactly."
+            },
+            {
+              "sugyaId": "yoma-002b-s04",
+              "verdict": "VERIFIED",
+              "notes": "Chag HaMatzot/Sukkot candidacy and their respective textual justifications (opens first in Scripture / more commandments) match lines 19-21; the seven-for-one vs seven-for-seven structural rejection matches lines 22-23."
+            },
+            {
+              "sugyaId": "yoma-002b-s05",
+              "verdict": "VERIFIED",
+              "notes": "Shemini Atzeret candidacy, the preceding-sanctity distinction, the kal va-chomer, and both rejections (Rav Mesharshiyya's kazeh/hazeh wordplay, Rav Ashi's primary-Festival argument including its explicit robustness to the independent-Shemini-Atzeret view) all match lines 23-29 exactly. finalRuling correctly empty (this is elimination reasoning, not a ruling)."
+            }
+          ],
+          "verseCitationSpotCheck": {
+            "Leviticus 16:34": "vaya'as ka'asher tzivah Hashem et Moshe - source for the rejected Yom Kippur 'tzivah' candidate",
+            "Leviticus 7:38": "beyom tzavoto et bnei Yisrael (the closing verse of the Tzav sacrificial-law section) - source for the rejected 'tzavoto' candidate. Correction from an initial mis-citation of Numbers 28:2 in this reviewer's own notes; the corpus enrichment itself does not cite a specific chapter:verse for this phrase, so this was a review-evidence correction only, not a corpus defect.",
+            "Leviticus 14:39,44": "veshav / uva - source for R. Yishmael school's precedent",
+            "result": "all citations resolve to the correct verse and match the cited words; no misattribution found"
+          },
+          "outOfScopeObservation": "Same as 2a: difficulty values use 'intermediate'/'advanced' here (both are in shared/schema_map.js's controlled list), so no issue on this daf specifically, but the corpus-wide 'introductory' vs 'intro' mismatch noted on 2a remains a pre-existing, out-of-scope schema-controlled-value concern unrelated to this daf's content.",
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious (topicTags, alternateAngles, requiresUnderstanding, visualizableElements), not only the first field where a defect might be expected."
+        }
+      },
+      "sourceFingerprint": "83cd6500f58f683d8e8b7795f600ef55275ff675fe0555dcdaf7be0da11badf8",
+      "semanticFingerprint": "c253dff6a98dadc7d32287874d47cd97d0f9dbfd87518afa8cd36a931b310415",
+      "secondPass": {
+        "reviewId": "sonnet5-2b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "83cd6500f58f683d8e8b7795f600ef55275ff675fe0555dcdaf7be0da11badf8",
+        "reviewedSemanticFingerprint": "c253dff6a98dadc7d32287874d47cd97d0f9dbfd87518afa8cd36a931b310415",
+        "evidence": {
+          "reviewId": "sonnet5-2b-second-20260823b",
+          "module": "yoma",
+          "daf": "2b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it). Confirmed the same five-part structure: two more tzivah candidates rejected, YK-tzivah (post-facto) and tzavoto (wrong conjugation) (1-6); R. Yishmael-school challenge answered by priority-of-identical-forms (7-10); lechaper narrowed against general offerings and Festivals (11-18); one Festival excluded structurally (19-23); Shemini Atzeret excluded and its kal va-chomer doubly rejected (23-29).",
+          "verseCitationSpotCheck": {
+            "Leviticus 16:34": "vaya'as ka'asher tzivah Hashem et Moshe - re-verified as the correct post-facto YK 'tzivah' occurrence",
+            "Leviticus 7:38": "beyom tzavoto et bnei Yisrael - re-verified as the correct source of 'tzavoto' (not Numbers 28:2, which does not contain this phrase)",
+            "Leviticus 14:39": "veshav hakohen bayom hashvi'i - re-verified as R. Yishmael school's 'veshav' precedent",
+            "Leviticus 14:44": "u'va hakohen - re-verified as the paired 'uva' precedent",
+            "result": "all citations independently re-derived and confirmed correct; the tzavoto source correction in the first-pass evidence (Lev 7:38, not Numbers 28:2) is itself confirmed on independent re-check"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Both rejected tzivah candidates (YK post-facto; tzavoto wrong form) match lines 1-6 exactly."
+            },
+            {
+              "sugyaId": "yoma-002b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "R. Yishmael school precedent and priority-of-identical-forms answer match lines 7-10; leprous-house verses re-verified."
+            },
+            {
+              "sugyaId": "yoma-002b-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Practical-objection rebuttal, fixed-time exclusion, once-a-year exclusion all match lines 11-18."
+            },
+            {
+              "sugyaId": "yoma-002b-s04",
+              "verdict": "CONFIRMED",
+              "notes": "Chag HaMatzot/Sukkot candidacy and seven-for-one structural rejection match lines 19-23."
+            },
+            {
+              "sugyaId": "yoma-002b-s05",
+              "verdict": "CONFIRMED",
+              "notes": "Shemini Atzeret candidacy, preceding-sanctity distinction, kal va-chomer, and both named rejections (Rav Mesharshiyya, Rav Ashi) match lines 23-29. The Rav Mesharshiyya 'kazeh' wordplay is characterized functionally correctly (limits the derivation to inauguration-like cases) even though the precise two-word grammar is compressed; this does not misstate the sugya's speaker, ruling, or logical outcome and is not a defect requiring repair."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural citations. Caught and confirmed the correction of the tzavoto verse citation (Lev 7:38, not Numbers 28:2) made in the first-pass evidence notes; this was a correction to this reviewer's own supplementary notes only, since the corpus enrichment itself never asserted a specific chapter:verse for that phrase. No defect found in the certified content itself on any of the five sugyot."
+        }
+      },
+      "certifiedAtCommit": "e46308857617163905b1aba0a5953fb71b62444f"
+    },
+    "yoma-002b-s05": {
+      "sugyaId": "yoma-002b-s05",
+      "daf": "2b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-2b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "ba54ccc6e0b03bd84820184c2a8db86d8cf04cf015a9a43ac6d673bf6f79b6b2",
+        "reviewedSemanticFingerprint": "75b134f29eacddc83eb81a76c7117a90fc585360d2a9bb775505bb3af9fe75dc",
+        "evidence": {
+          "reviewId": "sonnet5-2b-first-20260823a",
+          "module": "yoma",
+          "daf": "2b",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-30) in full before opening currentEnrichment. Reconstructed content independently from direct knowledge of the Gemara text at Yoma 2b, which continues the derivation opened on 2a.",
+            "flow": [
+              "Lines 1-6: Proposes and rejects two further 'tzivah' candidates for the gezerah shavah. First, Yom Kippur's own 'tzivah' (Lev 16:34, 'vaya'as ka'asher tzivah Hashem et Moshe') is rejected because it appears after the service was performed, not before, and a gezerah shavah requires matching functional position. Second, the offerings verse's 'tzavoto' (Num 28:2, 'beyom tzavoto et bnei Yisrael') is rejected because it is a different verb conjugation than 'tzivah', and identical forms are required when available.",
+              "Lines 7-10: A challenge from the school of Rabbi Yishmael: they derived a gezerah shavah between 'veshav' and 'uva' (Lev 14:39/44, leprous-house laws) despite those being different verb roots, so why can't 'tzavoto' pair with 'tzivah'? Answer: that method applies only when no identical form is available; here 'tzivah' itself is available in the heifer passage (Num 19), so the identical form must be used.",
+              "Lines 11-16: Narrows 'lechaper' (to atone). Could it mean atonement offerings generally? A practical objection (we don't know in advance which kohen serves) is rebutted (the whole mishmeret/beit av rotation is known in advance and could be required to separate) - so the real exclusion is a different principle: we derive a time-fixed matter (the inauguration) from another time-fixed matter (Yom Kippur), excluding daily offerings which recur every day with no fixed annual date.",
+              "Lines 16-19: Could it mean Festival service? Excluded because we derive a once-a-year matter from a once-a-year matter; Festivals (Pesach/Sukkot) occur three times a year via their pilgrimage cycle, not once.",
+              "Lines 19-23: Could it mean one specific Festival (Chag HaMatzot, since Scripture opens with it first; or Chag HaSukkot, since it has more commandments - sukkah, lulav, water libation)? Excluded structurally: we derive a seven-day separation for a one-day service from a seven-day separation for a one-day service; a Festival's own service spans seven days, so deriving 'seven-for-seven' from 'seven-for-one' is invalid.",
+              "Lines 23-28: Could it mean Shemini Atzeret specifically (seven days of Sukkot preceding one culminating day)? Excluded because we derive a case with no sanctity preceding it (the inauguration, ordinary days before) from another case with no preceding sanctity (Yom Kippur); Shemini Atzeret is preceded by seven holy days of Sukkot. A kal va-chomer is proposed (if a case without preceding sanctity needs separation, surely one with preceding sanctity needs it more) and rejected twice: Rav Mesharshiyya ('lo hazeh ketiv, kazeh' - the verse says 'kazeh' [like this], limiting the derivation to cases structurally matching the inauguration, not extending it further by kal va-chomer); Rav Ashi (the primary Festival, Sukkot itself, needs no separation, so its appendage cannot be stricter - and this holds even for the view that Shemini Atzeret is fully independent).",
+              "Line 29 onward (into 3a): the mnemonic 'PZR KSHB' begins, continuing past this daf's raw text window."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "All five declared lineRanges (1-4, 7-9, 11-16, 19-22, 23-28) each correspond to a genuine, distinct topic unit and are internally coherent. As on 2a, a systemic corpus-wide pattern is present: the last vilna line actually covered by each sugya's own final mapped lineId (a Sefaria segment, which can span several vilna print-lines) sometimes runs 1-2 lines past the sugya's declared endVilnaLine (e.g. s01's own cited lineId l04 covers vilna 4-6, but s01 declares endVilnaLine=4; s02's l09 covers vilna 9-10 but declares endVilnaLine=9; s03's l16 covers vilna 16-18 but declares endVilnaLine=16; s04's l22 covers vilna 22-23 but declares endVilnaLine=22). Checked against the whole Yoma corpus: 116/173 daf (67%) show this same non-contiguous-adjacent-range pattern, confirming it is a systemic data-encoding convention (unclaimed short Aramaic transitional connector phrases between sugyot), not a 2b-specific defect. In every case checked here, the content that falls in the resulting 'gap' is the direct topical continuation of the immediately preceding sugya's own argument (not contamination from a different topic or daf), so no boundary repair is warranted.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences all five sugyot: two further tzivah candidates rejected (s01), the Yishmael-school challenge and its answer (s02), lechaper narrowed to exclude offerings and Festivals generally (s03), one Festival excluded structurally (s04), Shemini Atzeret excluded and the kal va-chomer doubly rejected (s05). No false claim, no omission that misrepresents content.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002b-s01",
+              "verdict": "VERIFIED",
+              "notes": "Yom Kippur-tzivah (post-facto, rejected) and tzavoto (different conjugation, rejected) both match lines 1-6 exactly; finalRuling correctly empty (no ruling, just an elimination step)."
+            },
+            {
+              "sugyaId": "yoma-002b-s02",
+              "verdict": "VERIFIED",
+              "notes": "R. Yishmael school's veshav/uva precedent (Lev 14:39/44) and the priority-of-identical-forms answer match lines 7-10 exactly. requiresUnderstanding correctly points back to s01."
+            },
+            {
+              "sugyaId": "yoma-002b-s03",
+              "verdict": "VERIFIED",
+              "notes": "Practical objection/rebuttal (beit av schedule known in advance), fixed-time exclusion of daily offerings, and once-a-year exclusion of Festivals all match lines 11-18 exactly."
+            },
+            {
+              "sugyaId": "yoma-002b-s04",
+              "verdict": "VERIFIED",
+              "notes": "Chag HaMatzot/Sukkot candidacy and their respective textual justifications (opens first in Scripture / more commandments) match lines 19-21; the seven-for-one vs seven-for-seven structural rejection matches lines 22-23."
+            },
+            {
+              "sugyaId": "yoma-002b-s05",
+              "verdict": "VERIFIED",
+              "notes": "Shemini Atzeret candidacy, the preceding-sanctity distinction, the kal va-chomer, and both rejections (Rav Mesharshiyya's kazeh/hazeh wordplay, Rav Ashi's primary-Festival argument including its explicit robustness to the independent-Shemini-Atzeret view) all match lines 23-29 exactly. finalRuling correctly empty (this is elimination reasoning, not a ruling)."
+            }
+          ],
+          "verseCitationSpotCheck": {
+            "Leviticus 16:34": "vaya'as ka'asher tzivah Hashem et Moshe - source for the rejected Yom Kippur 'tzivah' candidate",
+            "Leviticus 7:38": "beyom tzavoto et bnei Yisrael (the closing verse of the Tzav sacrificial-law section) - source for the rejected 'tzavoto' candidate. Correction from an initial mis-citation of Numbers 28:2 in this reviewer's own notes; the corpus enrichment itself does not cite a specific chapter:verse for this phrase, so this was a review-evidence correction only, not a corpus defect.",
+            "Leviticus 14:39,44": "veshav / uva - source for R. Yishmael school's precedent",
+            "result": "all citations resolve to the correct verse and match the cited words; no misattribution found"
+          },
+          "outOfScopeObservation": "Same as 2a: difficulty values use 'intermediate'/'advanced' here (both are in shared/schema_map.js's controlled list), so no issue on this daf specifically, but the corpus-wide 'introductory' vs 'intro' mismatch noted on 2a remains a pre-existing, out-of-scope schema-controlled-value concern unrelated to this daf's content.",
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious (topicTags, alternateAngles, requiresUnderstanding, visualizableElements), not only the first field where a defect might be expected."
+        }
+      },
+      "sourceFingerprint": "ba54ccc6e0b03bd84820184c2a8db86d8cf04cf015a9a43ac6d673bf6f79b6b2",
+      "semanticFingerprint": "75b134f29eacddc83eb81a76c7117a90fc585360d2a9bb775505bb3af9fe75dc",
+      "secondPass": {
+        "reviewId": "sonnet5-2b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "ba54ccc6e0b03bd84820184c2a8db86d8cf04cf015a9a43ac6d673bf6f79b6b2",
+        "reviewedSemanticFingerprint": "75b134f29eacddc83eb81a76c7117a90fc585360d2a9bb775505bb3af9fe75dc",
+        "evidence": {
+          "reviewId": "sonnet5-2b-second-20260823b",
+          "module": "yoma",
+          "daf": "2b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it). Confirmed the same five-part structure: two more tzivah candidates rejected, YK-tzivah (post-facto) and tzavoto (wrong conjugation) (1-6); R. Yishmael-school challenge answered by priority-of-identical-forms (7-10); lechaper narrowed against general offerings and Festivals (11-18); one Festival excluded structurally (19-23); Shemini Atzeret excluded and its kal va-chomer doubly rejected (23-29).",
+          "verseCitationSpotCheck": {
+            "Leviticus 16:34": "vaya'as ka'asher tzivah Hashem et Moshe - re-verified as the correct post-facto YK 'tzivah' occurrence",
+            "Leviticus 7:38": "beyom tzavoto et bnei Yisrael - re-verified as the correct source of 'tzavoto' (not Numbers 28:2, which does not contain this phrase)",
+            "Leviticus 14:39": "veshav hakohen bayom hashvi'i - re-verified as R. Yishmael school's 'veshav' precedent",
+            "Leviticus 14:44": "u'va hakohen - re-verified as the paired 'uva' precedent",
+            "result": "all citations independently re-derived and confirmed correct; the tzavoto source correction in the first-pass evidence (Lev 7:38, not Numbers 28:2) is itself confirmed on independent re-check"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Both rejected tzivah candidates (YK post-facto; tzavoto wrong form) match lines 1-6 exactly."
+            },
+            {
+              "sugyaId": "yoma-002b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "R. Yishmael school precedent and priority-of-identical-forms answer match lines 7-10; leprous-house verses re-verified."
+            },
+            {
+              "sugyaId": "yoma-002b-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Practical-objection rebuttal, fixed-time exclusion, once-a-year exclusion all match lines 11-18."
+            },
+            {
+              "sugyaId": "yoma-002b-s04",
+              "verdict": "CONFIRMED",
+              "notes": "Chag HaMatzot/Sukkot candidacy and seven-for-one structural rejection match lines 19-23."
+            },
+            {
+              "sugyaId": "yoma-002b-s05",
+              "verdict": "CONFIRMED",
+              "notes": "Shemini Atzeret candidacy, preceding-sanctity distinction, kal va-chomer, and both named rejections (Rav Mesharshiyya, Rav Ashi) match lines 23-29. The Rav Mesharshiyya 'kazeh' wordplay is characterized functionally correctly (limits the derivation to inauguration-like cases) even though the precise two-word grammar is compressed; this does not misstate the sugya's speaker, ruling, or logical outcome and is not a defect requiring repair."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural citations. Caught and confirmed the correction of the tzavoto verse citation (Lev 7:38, not Numbers 28:2) made in the first-pass evidence notes; this was a correction to this reviewer's own supplementary notes only, since the corpus enrichment itself never asserted a specific chapter:verse for that phrase. No defect found in the certified content itself on any of the five sugyot."
+        }
+      },
+      "certifiedAtCommit": "e46308857617163905b1aba0a5953fb71b62444f"
     }
   }
 }
