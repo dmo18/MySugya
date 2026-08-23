@@ -129,10 +129,17 @@ def main() -> None:
     assert state == "STALE" and any("secondPass semantic fingerprint" in p for p in problems)
 
     # 11. Registry starts in bootstrap mode and never silently calls unlisted
-    # corpus records certified.
+    # corpus records certified. Checked over whichever sugyot are currently
+    # absent from the registry (not a fixed sid), since the campaign
+    # legitimately adds real CERTIFIED entries daf by daf and a hardcoded sid
+    # would eventually fail on correct progress rather than a regression.
     registry = load_registry(MODULE)
     assert registry.get("strictMode") is False
-    assert registry.get("records", {}).get(sid, {}).get("state") != "CERTIFIED"
+    for other_sid, (other_daf, other_doc, other_sugya) in corpus.items():
+        if other_sid in registry.get("records", {}):
+            continue
+        state, _ = certificate_status(MODULE, other_daf, other_doc, other_sugya, None)
+        assert state == "UNCERTIFIED"
 
     print("OK: semantic certification safety properties hold")
 
