@@ -9,5 +9,1314 @@
     "invalidation": "Any source, boundary, mapping, daf-summary, or semantic fingerprint change automatically makes the prior certificate STALE.",
     "bootstrapExit": "Set strictMode true only after validate_semantic_certification.py --strict passes across the full corpus."
   },
-  "records": {}
+  "records": {
+    "yoma-002a-s01": {
+      "sugyaId": "yoma-002a-s01",
+      "daf": "2a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-2a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "d9dc8a3a173b99ecd074a82675f3a0a25201105fea976fa5cb80fb309f3888d3",
+        "reviewedSemanticFingerprint": "a1ebfc848d5914af5a453d44f9bc0cd6f02a470849b6475044c115aa29adc98c",
+        "evidence": {
+          "reviewId": "sonnet5-2a-first-20260823a",
+          "module": "yoma",
+          "daf": "2a",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-39) in full before opening currentEnrichment. Reconstructed content independently from direct knowledge of the Mishnah/Gemara text at Yoma 2a.",
+            "flow": [
+              "Lines 1-7 (Mishnah): Seven days before Yom Kippur the Kohen Gadol is moved from his house to the Parhedrin chamber; a backup priest is prepared in case of disqualification (pesul). Rabbi Yehuda: a backup wife should also be prepared, since 'u'v'ad beito' (Lev 16:6) means 'his wife', and if she dies before Yom Kippur he cannot serve. The Sages reject this: 'if so, there is no end to the matter' (ein la'davar sof - infinite regress).",
+              "Lines 8-13 (Gemara opens): Cites the parallel mishna from Parah (tractate Parah 3:1): seven days before the burning of the red heifer (parah adumah), the priest who burns it is likewise separated from his house to the chamber facing the Bira, northeast, called the Stone House (Lishkat Beit HaEven), because all its rites used vessels of dung, stone, and earth.",
+              "Lines 14-19: Explains why non-susceptible vessels were required: since a tevul yom (one who immersed that day but before sunset) is valid to burn the parah - contra the Sadducees, who held it must follow sunset after immersion (meorav shemesh) - the Sages would deliberately render the officiating priest tamei and immerse him publicly, to refute the Sadducean position. To prevent that public demonstration from breeding laxity about the parah's purity requirements generally, they mandated vessels immune to tumah (dung/stone/earth).",
+              "Lines 20-23: Explains why the chamber was northeast specifically: the parah is classified a chatat (sin-offering; Numbers 19:9,17), and a chatat's slaughter is associated with the north side; Numbers 19:4 requires the sprinkling 'el nokhach penei ohel mo'ed' (toward the front of the Tent of Meeting), i.e. facing east. Northeast satisfies both, and the location itself became a heikher (distinguishing indicator).",
+              "Lines 24-26: A short lexical dispute on the word 'bira' from the Parah mishna. Rabbi Yohanan (via Rabbah bar bar Chana): a specific named place on the Temple Mount. Reish Lakish: the term denotes the entire Temple complex, proven from David's phrase in Chronicles ('the bira I have prepared', I Chronicles 29:19); the citation itself (shene'emar ha'bira asher hakhinoti) physically prints on line 27, immediately continuing Reish Lakish's own sentence begun on line 26.",
+              "Lines 27-39: The Gemara asks for the scriptural source of the seven-day separation rule itself. Answer: Leviticus 8:34 (from the milu'im/Tabernacle-inauguration narrative), 'ka'asher asah bayom hazeh tzivah Hashem la'asot lechaper': 'la'asot' (to do) is read as the parah's actions, 'lechaper' (to atone) as Yom Kippur. Neither phrase can cover the whole verse alone (a parah does not atone; and without the gezerah shavah 'la'asot' has no proven referent for Yom Kippur), so the verse must split. A gezerah shavah on the shared word 'tzivah' links Lev 8:34 to Numbers 19:2 (the parah statute), formally proving 'la'asot' refers to the heifer and importing the seven-day sequestration requirement to it. Text is cut off mid-phrase at line 39 ('ve'eima...'), continuing on 2b."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "All six declared lineRanges (1-7, 8-13, 14-19, 20-23, 24-26, 27-39) correspond to genuine topic units and match the natural Mishnah/Gemara paragraph breaks. One granularity note, not a defect: Reish Lakish's proof-text citation ('shene'emar ha'bira asher hakhinoti') is the printed continuation of his own statement (begun at line 26, s05) but physically falls on vilna line 27, which is s06's first line. This is an artifact of where the Vilna print happens to wrap the line, not semantic contamination - the fact asserted in s05 (Reish Lakish cites I Chronicles 29:19) is fully supported by the adjoining text and does not import content from a different topic or a different daf.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately covers the page's throughline (Mishnah rule -> parah parallel -> stone-vessel reason -> northeast reason -> bira dispute -> gezerah shavah source). It omits the R. Yehuda/backup-wife dispute (lines 4-7) but states nothing false; a daf summary is a throughline, not an exhaustive index, and every fact it does state is source-supported.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002a-s01",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.title",
+                "display.oneLine",
+                "display.shortSummary",
+                "display.whats",
+                "display.hint",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Mishnah content (backup priest; R. Yehuda's backup-wife proposal from Lev 16:6 'u'v'ad beito'; Sages' infinite-regress rejection) matches source exactly. finalRuling ('A backup priest is designated; a backup wife is not') is the correct practical halacha per the Sages' rejected view of R. Yehuda. No content imported from elsewhere."
+            },
+            {
+              "sugyaId": "yoma-002a-s02",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "topicTags"
+              ],
+              "notes": "Parah mishna citation, Stone House name and its dung/stone/earth-vessel rule are all within lines 8-13. finalRuling's northeast reference is drawn from line 10's own text ('la'lishka she'al p'nei ha'bira tzafona mizracha'), not borrowed from s04's later explanation - factually stated, not fabricated."
+            },
+            {
+              "sugyaId": "yoma-002a-s03",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Tevul-yom/Sadducee polemic matches lines 14-19 exactly: deliberate impurification-then-immersion as public refutation of the Sadducean 'meorav shemesh' position, then impervious vessels required so the demonstration doesn't breed purity laxity. No fabricated steps."
+            },
+            {
+              "sugyaId": "yoma-002a-s04",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Chatat-requires-north + Numbers 19:4 'el nokhach penei ohel mo'ed'-requires-east = northeast, functioning as heikher, matches lines 20-23 exactly."
+            },
+            {
+              "sugyaId": "yoma-002a-s05",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling (correctly empty - unresolved dispute)",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "R. Yohanan/Reish Lakish 'bira' dispute matches lines 24-26 (plus the line-27 continuation of Reish Lakish's own sentence, see boundaryNotes). finalRuling correctly left empty since the dispute is unresolved on this daf."
+            },
+            {
+              "sugyaId": "yoma-002a-s06",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Lev 8:34 split (la'asot/lechaper) and the tzivah/tzivah gezerah shavah to Numbers 19:2 matches lines 27-39 exactly, including the correct logical role of the gezerah shavah (proving 'la'asot' cannot mean Yom Kippur, forcing the split)."
+            }
+          ],
+          "outOfScopeObservation": "sugyot on this daf use difficulty:'introductory', which is not in shared/schema_map.js's controlledValues.difficulty list (['intro','intermediate','advanced']). This is pre-existing corpus-wide state (112 occurrences across the whole Yoma corpus, not specific to 2a) and is a schema-controlled-value/enrichment-contract concern, not a source-meaning defect; it is explicitly out of scope for semantic certification per CLAUDE.md's separation of the schema-completeness and semantic-certification layers. Not treated as a REPAIR_REQUIRED trigger here.",
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious (topicTags, alternateAngles, conceptRefs, prerequisiteKnowledge/requiresUnderstanding, visualizableElements), not only the first field where a defect might be expected."
+        }
+      },
+      "sourceFingerprint": "d9dc8a3a173b99ecd074a82675f3a0a25201105fea976fa5cb80fb309f3888d3",
+      "semanticFingerprint": "a1ebfc848d5914af5a453d44f9bc0cd6f02a470849b6475044c115aa29adc98c",
+      "secondPass": {
+        "reviewId": "sonnet5-2a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "d9dc8a3a173b99ecd074a82675f3a0a25201105fea976fa5cb80fb309f3888d3",
+        "reviewedSemanticFingerprint": "a1ebfc848d5914af5a453d44f9bc0cd6f02a470849b6475044c115aa29adc98c",
+        "evidence": {
+          "reviewId": "sonnet5-2a-second-20260823b",
+          "module": "yoma",
+          "daf": "2a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting any first-pass reasoning (independenceRule packet omits it). Confirmed the same six-part structure: Mishnah backup-priest/backup-wife dispute (1-7); parah-adumah parallel and Stone House name (8-13); tvul-yom/Sadducee vessel rationale (14-19); northeast=chatat+east derivation (20-23); bira lexical dispute (24-26); Leviticus 8:34 split + tzivah/tzivah gezerah shavah to Numbers 19:2 (27-39).",
+          "verseCitationSpotCheck": {
+            "Leviticus 16:6": "u'v'ad beito - matches raw line 6",
+            "Leviticus 8:34": "ka'asher asah bayom hazeh tzivah Hashem la'asot lechaper - matches raw lines 29-31",
+            "Numbers 19:2": "zot chukat ha'torah asher tzivah Hashem lemor - matches raw lines 36-37",
+            "Numbers 19:4": "el nokhach penei ohel mo'ed - matches raw line 22, supports the s04 east-facing claim",
+            "I Chronicles 29:19": "livnot ha'birah asher hachinoti - correct verse for Reish Lakish's proof cited in s05",
+            "result": "all four scriptural citations used across the daf's enrichment resolve to the correct verse and match the cited words in the raw Hebrew; no misattribution found"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Mishnah content, R. Yehuda dispute, and infinite-regress rejection fully match lines 1-7; finalRuling correct."
+            },
+            {
+              "sugyaId": "yoma-002a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Parah parallel and Stone House vessel rule match lines 8-13; northeast detail in finalRuling is drawn from s02's own line 10 text, not borrowed from s04."
+            },
+            {
+              "sugyaId": "yoma-002a-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Tevul-yom/Sadducee polemic and impervious-vessel rationale match lines 14-19 exactly."
+            },
+            {
+              "sugyaId": "yoma-002a-s04",
+              "verdict": "CONFIRMED",
+              "notes": "Chatat-north + Numbers 19:4-east = northeast/heikher matches lines 20-23; verse citation verified."
+            },
+            {
+              "sugyaId": "yoma-002a-s05",
+              "verdict": "CONFIRMED",
+              "notes": "R. Yohanan/Reish Lakish dispute matches lines 24-26; I Chronicles 29:19 citation verified correct; empty finalRuling appropriate for an unresolved dispute."
+            },
+            {
+              "sugyaId": "yoma-002a-s06",
+              "verdict": "CONFIRMED",
+              "notes": "Lev 8:34 split and tzivah/tzivah gezerah shavah to Numbers 19:2 matches lines 27-39 exactly; both verse numbers verified correct."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural verse citations (chapter:verse) as the highest-risk subtle-error surface. No defect found on any sugya; candidate content is unchanged from the corpus at review time."
+        }
+      },
+      "certifiedAtCommit": "c83869ba58fe5845d4d10f77f01e3f8a76e97539"
+    },
+    "yoma-002a-s02": {
+      "sugyaId": "yoma-002a-s02",
+      "daf": "2a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-2a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "6b23ff3acf6dc80b9677cfeeca407d2cb0811716e926cdc0803962289d9edf91",
+        "reviewedSemanticFingerprint": "aaf25ae6a7365ecd0097ad8378d5f03659a2ff00ef19f4a2cf26e2f7608ed0e4",
+        "evidence": {
+          "reviewId": "sonnet5-2a-first-20260823a",
+          "module": "yoma",
+          "daf": "2a",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-39) in full before opening currentEnrichment. Reconstructed content independently from direct knowledge of the Mishnah/Gemara text at Yoma 2a.",
+            "flow": [
+              "Lines 1-7 (Mishnah): Seven days before Yom Kippur the Kohen Gadol is moved from his house to the Parhedrin chamber; a backup priest is prepared in case of disqualification (pesul). Rabbi Yehuda: a backup wife should also be prepared, since 'u'v'ad beito' (Lev 16:6) means 'his wife', and if she dies before Yom Kippur he cannot serve. The Sages reject this: 'if so, there is no end to the matter' (ein la'davar sof - infinite regress).",
+              "Lines 8-13 (Gemara opens): Cites the parallel mishna from Parah (tractate Parah 3:1): seven days before the burning of the red heifer (parah adumah), the priest who burns it is likewise separated from his house to the chamber facing the Bira, northeast, called the Stone House (Lishkat Beit HaEven), because all its rites used vessels of dung, stone, and earth.",
+              "Lines 14-19: Explains why non-susceptible vessels were required: since a tevul yom (one who immersed that day but before sunset) is valid to burn the parah - contra the Sadducees, who held it must follow sunset after immersion (meorav shemesh) - the Sages would deliberately render the officiating priest tamei and immerse him publicly, to refute the Sadducean position. To prevent that public demonstration from breeding laxity about the parah's purity requirements generally, they mandated vessels immune to tumah (dung/stone/earth).",
+              "Lines 20-23: Explains why the chamber was northeast specifically: the parah is classified a chatat (sin-offering; Numbers 19:9,17), and a chatat's slaughter is associated with the north side; Numbers 19:4 requires the sprinkling 'el nokhach penei ohel mo'ed' (toward the front of the Tent of Meeting), i.e. facing east. Northeast satisfies both, and the location itself became a heikher (distinguishing indicator).",
+              "Lines 24-26: A short lexical dispute on the word 'bira' from the Parah mishna. Rabbi Yohanan (via Rabbah bar bar Chana): a specific named place on the Temple Mount. Reish Lakish: the term denotes the entire Temple complex, proven from David's phrase in Chronicles ('the bira I have prepared', I Chronicles 29:19); the citation itself (shene'emar ha'bira asher hakhinoti) physically prints on line 27, immediately continuing Reish Lakish's own sentence begun on line 26.",
+              "Lines 27-39: The Gemara asks for the scriptural source of the seven-day separation rule itself. Answer: Leviticus 8:34 (from the milu'im/Tabernacle-inauguration narrative), 'ka'asher asah bayom hazeh tzivah Hashem la'asot lechaper': 'la'asot' (to do) is read as the parah's actions, 'lechaper' (to atone) as Yom Kippur. Neither phrase can cover the whole verse alone (a parah does not atone; and without the gezerah shavah 'la'asot' has no proven referent for Yom Kippur), so the verse must split. A gezerah shavah on the shared word 'tzivah' links Lev 8:34 to Numbers 19:2 (the parah statute), formally proving 'la'asot' refers to the heifer and importing the seven-day sequestration requirement to it. Text is cut off mid-phrase at line 39 ('ve'eima...'), continuing on 2b."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "All six declared lineRanges (1-7, 8-13, 14-19, 20-23, 24-26, 27-39) correspond to genuine topic units and match the natural Mishnah/Gemara paragraph breaks. One granularity note, not a defect: Reish Lakish's proof-text citation ('shene'emar ha'bira asher hakhinoti') is the printed continuation of his own statement (begun at line 26, s05) but physically falls on vilna line 27, which is s06's first line. This is an artifact of where the Vilna print happens to wrap the line, not semantic contamination - the fact asserted in s05 (Reish Lakish cites I Chronicles 29:19) is fully supported by the adjoining text and does not import content from a different topic or a different daf.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately covers the page's throughline (Mishnah rule -> parah parallel -> stone-vessel reason -> northeast reason -> bira dispute -> gezerah shavah source). It omits the R. Yehuda/backup-wife dispute (lines 4-7) but states nothing false; a daf summary is a throughline, not an exhaustive index, and every fact it does state is source-supported.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002a-s01",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.title",
+                "display.oneLine",
+                "display.shortSummary",
+                "display.whats",
+                "display.hint",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Mishnah content (backup priest; R. Yehuda's backup-wife proposal from Lev 16:6 'u'v'ad beito'; Sages' infinite-regress rejection) matches source exactly. finalRuling ('A backup priest is designated; a backup wife is not') is the correct practical halacha per the Sages' rejected view of R. Yehuda. No content imported from elsewhere."
+            },
+            {
+              "sugyaId": "yoma-002a-s02",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "topicTags"
+              ],
+              "notes": "Parah mishna citation, Stone House name and its dung/stone/earth-vessel rule are all within lines 8-13. finalRuling's northeast reference is drawn from line 10's own text ('la'lishka she'al p'nei ha'bira tzafona mizracha'), not borrowed from s04's later explanation - factually stated, not fabricated."
+            },
+            {
+              "sugyaId": "yoma-002a-s03",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Tevul-yom/Sadducee polemic matches lines 14-19 exactly: deliberate impurification-then-immersion as public refutation of the Sadducean 'meorav shemesh' position, then impervious vessels required so the demonstration doesn't breed purity laxity. No fabricated steps."
+            },
+            {
+              "sugyaId": "yoma-002a-s04",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Chatat-requires-north + Numbers 19:4 'el nokhach penei ohel mo'ed'-requires-east = northeast, functioning as heikher, matches lines 20-23 exactly."
+            },
+            {
+              "sugyaId": "yoma-002a-s05",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling (correctly empty - unresolved dispute)",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "R. Yohanan/Reish Lakish 'bira' dispute matches lines 24-26 (plus the line-27 continuation of Reish Lakish's own sentence, see boundaryNotes). finalRuling correctly left empty since the dispute is unresolved on this daf."
+            },
+            {
+              "sugyaId": "yoma-002a-s06",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Lev 8:34 split (la'asot/lechaper) and the tzivah/tzivah gezerah shavah to Numbers 19:2 matches lines 27-39 exactly, including the correct logical role of the gezerah shavah (proving 'la'asot' cannot mean Yom Kippur, forcing the split)."
+            }
+          ],
+          "outOfScopeObservation": "sugyot on this daf use difficulty:'introductory', which is not in shared/schema_map.js's controlledValues.difficulty list (['intro','intermediate','advanced']). This is pre-existing corpus-wide state (112 occurrences across the whole Yoma corpus, not specific to 2a) and is a schema-controlled-value/enrichment-contract concern, not a source-meaning defect; it is explicitly out of scope for semantic certification per CLAUDE.md's separation of the schema-completeness and semantic-certification layers. Not treated as a REPAIR_REQUIRED trigger here.",
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious (topicTags, alternateAngles, conceptRefs, prerequisiteKnowledge/requiresUnderstanding, visualizableElements), not only the first field where a defect might be expected."
+        }
+      },
+      "sourceFingerprint": "6b23ff3acf6dc80b9677cfeeca407d2cb0811716e926cdc0803962289d9edf91",
+      "semanticFingerprint": "aaf25ae6a7365ecd0097ad8378d5f03659a2ff00ef19f4a2cf26e2f7608ed0e4",
+      "secondPass": {
+        "reviewId": "sonnet5-2a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "6b23ff3acf6dc80b9677cfeeca407d2cb0811716e926cdc0803962289d9edf91",
+        "reviewedSemanticFingerprint": "aaf25ae6a7365ecd0097ad8378d5f03659a2ff00ef19f4a2cf26e2f7608ed0e4",
+        "evidence": {
+          "reviewId": "sonnet5-2a-second-20260823b",
+          "module": "yoma",
+          "daf": "2a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting any first-pass reasoning (independenceRule packet omits it). Confirmed the same six-part structure: Mishnah backup-priest/backup-wife dispute (1-7); parah-adumah parallel and Stone House name (8-13); tvul-yom/Sadducee vessel rationale (14-19); northeast=chatat+east derivation (20-23); bira lexical dispute (24-26); Leviticus 8:34 split + tzivah/tzivah gezerah shavah to Numbers 19:2 (27-39).",
+          "verseCitationSpotCheck": {
+            "Leviticus 16:6": "u'v'ad beito - matches raw line 6",
+            "Leviticus 8:34": "ka'asher asah bayom hazeh tzivah Hashem la'asot lechaper - matches raw lines 29-31",
+            "Numbers 19:2": "zot chukat ha'torah asher tzivah Hashem lemor - matches raw lines 36-37",
+            "Numbers 19:4": "el nokhach penei ohel mo'ed - matches raw line 22, supports the s04 east-facing claim",
+            "I Chronicles 29:19": "livnot ha'birah asher hachinoti - correct verse for Reish Lakish's proof cited in s05",
+            "result": "all four scriptural citations used across the daf's enrichment resolve to the correct verse and match the cited words in the raw Hebrew; no misattribution found"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Mishnah content, R. Yehuda dispute, and infinite-regress rejection fully match lines 1-7; finalRuling correct."
+            },
+            {
+              "sugyaId": "yoma-002a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Parah parallel and Stone House vessel rule match lines 8-13; northeast detail in finalRuling is drawn from s02's own line 10 text, not borrowed from s04."
+            },
+            {
+              "sugyaId": "yoma-002a-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Tevul-yom/Sadducee polemic and impervious-vessel rationale match lines 14-19 exactly."
+            },
+            {
+              "sugyaId": "yoma-002a-s04",
+              "verdict": "CONFIRMED",
+              "notes": "Chatat-north + Numbers 19:4-east = northeast/heikher matches lines 20-23; verse citation verified."
+            },
+            {
+              "sugyaId": "yoma-002a-s05",
+              "verdict": "CONFIRMED",
+              "notes": "R. Yohanan/Reish Lakish dispute matches lines 24-26; I Chronicles 29:19 citation verified correct; empty finalRuling appropriate for an unresolved dispute."
+            },
+            {
+              "sugyaId": "yoma-002a-s06",
+              "verdict": "CONFIRMED",
+              "notes": "Lev 8:34 split and tzivah/tzivah gezerah shavah to Numbers 19:2 matches lines 27-39 exactly; both verse numbers verified correct."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural verse citations (chapter:verse) as the highest-risk subtle-error surface. No defect found on any sugya; candidate content is unchanged from the corpus at review time."
+        }
+      },
+      "certifiedAtCommit": "c83869ba58fe5845d4d10f77f01e3f8a76e97539"
+    },
+    "yoma-002a-s03": {
+      "sugyaId": "yoma-002a-s03",
+      "daf": "2a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-2a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "101749286d85ca1dee2bcbdcd2268606f410ff3270d6680d4552853e130c8f76",
+        "reviewedSemanticFingerprint": "43cdb3373d5c9748ef30ecae28f862fc7c6c0fd62d3f6185d312426e2228f881",
+        "evidence": {
+          "reviewId": "sonnet5-2a-first-20260823a",
+          "module": "yoma",
+          "daf": "2a",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-39) in full before opening currentEnrichment. Reconstructed content independently from direct knowledge of the Mishnah/Gemara text at Yoma 2a.",
+            "flow": [
+              "Lines 1-7 (Mishnah): Seven days before Yom Kippur the Kohen Gadol is moved from his house to the Parhedrin chamber; a backup priest is prepared in case of disqualification (pesul). Rabbi Yehuda: a backup wife should also be prepared, since 'u'v'ad beito' (Lev 16:6) means 'his wife', and if she dies before Yom Kippur he cannot serve. The Sages reject this: 'if so, there is no end to the matter' (ein la'davar sof - infinite regress).",
+              "Lines 8-13 (Gemara opens): Cites the parallel mishna from Parah (tractate Parah 3:1): seven days before the burning of the red heifer (parah adumah), the priest who burns it is likewise separated from his house to the chamber facing the Bira, northeast, called the Stone House (Lishkat Beit HaEven), because all its rites used vessels of dung, stone, and earth.",
+              "Lines 14-19: Explains why non-susceptible vessels were required: since a tevul yom (one who immersed that day but before sunset) is valid to burn the parah - contra the Sadducees, who held it must follow sunset after immersion (meorav shemesh) - the Sages would deliberately render the officiating priest tamei and immerse him publicly, to refute the Sadducean position. To prevent that public demonstration from breeding laxity about the parah's purity requirements generally, they mandated vessels immune to tumah (dung/stone/earth).",
+              "Lines 20-23: Explains why the chamber was northeast specifically: the parah is classified a chatat (sin-offering; Numbers 19:9,17), and a chatat's slaughter is associated with the north side; Numbers 19:4 requires the sprinkling 'el nokhach penei ohel mo'ed' (toward the front of the Tent of Meeting), i.e. facing east. Northeast satisfies both, and the location itself became a heikher (distinguishing indicator).",
+              "Lines 24-26: A short lexical dispute on the word 'bira' from the Parah mishna. Rabbi Yohanan (via Rabbah bar bar Chana): a specific named place on the Temple Mount. Reish Lakish: the term denotes the entire Temple complex, proven from David's phrase in Chronicles ('the bira I have prepared', I Chronicles 29:19); the citation itself (shene'emar ha'bira asher hakhinoti) physically prints on line 27, immediately continuing Reish Lakish's own sentence begun on line 26.",
+              "Lines 27-39: The Gemara asks for the scriptural source of the seven-day separation rule itself. Answer: Leviticus 8:34 (from the milu'im/Tabernacle-inauguration narrative), 'ka'asher asah bayom hazeh tzivah Hashem la'asot lechaper': 'la'asot' (to do) is read as the parah's actions, 'lechaper' (to atone) as Yom Kippur. Neither phrase can cover the whole verse alone (a parah does not atone; and without the gezerah shavah 'la'asot' has no proven referent for Yom Kippur), so the verse must split. A gezerah shavah on the shared word 'tzivah' links Lev 8:34 to Numbers 19:2 (the parah statute), formally proving 'la'asot' refers to the heifer and importing the seven-day sequestration requirement to it. Text is cut off mid-phrase at line 39 ('ve'eima...'), continuing on 2b."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "All six declared lineRanges (1-7, 8-13, 14-19, 20-23, 24-26, 27-39) correspond to genuine topic units and match the natural Mishnah/Gemara paragraph breaks. One granularity note, not a defect: Reish Lakish's proof-text citation ('shene'emar ha'bira asher hakhinoti') is the printed continuation of his own statement (begun at line 26, s05) but physically falls on vilna line 27, which is s06's first line. This is an artifact of where the Vilna print happens to wrap the line, not semantic contamination - the fact asserted in s05 (Reish Lakish cites I Chronicles 29:19) is fully supported by the adjoining text and does not import content from a different topic or a different daf.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately covers the page's throughline (Mishnah rule -> parah parallel -> stone-vessel reason -> northeast reason -> bira dispute -> gezerah shavah source). It omits the R. Yehuda/backup-wife dispute (lines 4-7) but states nothing false; a daf summary is a throughline, not an exhaustive index, and every fact it does state is source-supported.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002a-s01",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.title",
+                "display.oneLine",
+                "display.shortSummary",
+                "display.whats",
+                "display.hint",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Mishnah content (backup priest; R. Yehuda's backup-wife proposal from Lev 16:6 'u'v'ad beito'; Sages' infinite-regress rejection) matches source exactly. finalRuling ('A backup priest is designated; a backup wife is not') is the correct practical halacha per the Sages' rejected view of R. Yehuda. No content imported from elsewhere."
+            },
+            {
+              "sugyaId": "yoma-002a-s02",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "topicTags"
+              ],
+              "notes": "Parah mishna citation, Stone House name and its dung/stone/earth-vessel rule are all within lines 8-13. finalRuling's northeast reference is drawn from line 10's own text ('la'lishka she'al p'nei ha'bira tzafona mizracha'), not borrowed from s04's later explanation - factually stated, not fabricated."
+            },
+            {
+              "sugyaId": "yoma-002a-s03",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Tevul-yom/Sadducee polemic matches lines 14-19 exactly: deliberate impurification-then-immersion as public refutation of the Sadducean 'meorav shemesh' position, then impervious vessels required so the demonstration doesn't breed purity laxity. No fabricated steps."
+            },
+            {
+              "sugyaId": "yoma-002a-s04",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Chatat-requires-north + Numbers 19:4 'el nokhach penei ohel mo'ed'-requires-east = northeast, functioning as heikher, matches lines 20-23 exactly."
+            },
+            {
+              "sugyaId": "yoma-002a-s05",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling (correctly empty - unresolved dispute)",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "R. Yohanan/Reish Lakish 'bira' dispute matches lines 24-26 (plus the line-27 continuation of Reish Lakish's own sentence, see boundaryNotes). finalRuling correctly left empty since the dispute is unresolved on this daf."
+            },
+            {
+              "sugyaId": "yoma-002a-s06",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Lev 8:34 split (la'asot/lechaper) and the tzivah/tzivah gezerah shavah to Numbers 19:2 matches lines 27-39 exactly, including the correct logical role of the gezerah shavah (proving 'la'asot' cannot mean Yom Kippur, forcing the split)."
+            }
+          ],
+          "outOfScopeObservation": "sugyot on this daf use difficulty:'introductory', which is not in shared/schema_map.js's controlledValues.difficulty list (['intro','intermediate','advanced']). This is pre-existing corpus-wide state (112 occurrences across the whole Yoma corpus, not specific to 2a) and is a schema-controlled-value/enrichment-contract concern, not a source-meaning defect; it is explicitly out of scope for semantic certification per CLAUDE.md's separation of the schema-completeness and semantic-certification layers. Not treated as a REPAIR_REQUIRED trigger here.",
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious (topicTags, alternateAngles, conceptRefs, prerequisiteKnowledge/requiresUnderstanding, visualizableElements), not only the first field where a defect might be expected."
+        }
+      },
+      "sourceFingerprint": "101749286d85ca1dee2bcbdcd2268606f410ff3270d6680d4552853e130c8f76",
+      "semanticFingerprint": "43cdb3373d5c9748ef30ecae28f862fc7c6c0fd62d3f6185d312426e2228f881",
+      "secondPass": {
+        "reviewId": "sonnet5-2a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "101749286d85ca1dee2bcbdcd2268606f410ff3270d6680d4552853e130c8f76",
+        "reviewedSemanticFingerprint": "43cdb3373d5c9748ef30ecae28f862fc7c6c0fd62d3f6185d312426e2228f881",
+        "evidence": {
+          "reviewId": "sonnet5-2a-second-20260823b",
+          "module": "yoma",
+          "daf": "2a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting any first-pass reasoning (independenceRule packet omits it). Confirmed the same six-part structure: Mishnah backup-priest/backup-wife dispute (1-7); parah-adumah parallel and Stone House name (8-13); tvul-yom/Sadducee vessel rationale (14-19); northeast=chatat+east derivation (20-23); bira lexical dispute (24-26); Leviticus 8:34 split + tzivah/tzivah gezerah shavah to Numbers 19:2 (27-39).",
+          "verseCitationSpotCheck": {
+            "Leviticus 16:6": "u'v'ad beito - matches raw line 6",
+            "Leviticus 8:34": "ka'asher asah bayom hazeh tzivah Hashem la'asot lechaper - matches raw lines 29-31",
+            "Numbers 19:2": "zot chukat ha'torah asher tzivah Hashem lemor - matches raw lines 36-37",
+            "Numbers 19:4": "el nokhach penei ohel mo'ed - matches raw line 22, supports the s04 east-facing claim",
+            "I Chronicles 29:19": "livnot ha'birah asher hachinoti - correct verse for Reish Lakish's proof cited in s05",
+            "result": "all four scriptural citations used across the daf's enrichment resolve to the correct verse and match the cited words in the raw Hebrew; no misattribution found"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Mishnah content, R. Yehuda dispute, and infinite-regress rejection fully match lines 1-7; finalRuling correct."
+            },
+            {
+              "sugyaId": "yoma-002a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Parah parallel and Stone House vessel rule match lines 8-13; northeast detail in finalRuling is drawn from s02's own line 10 text, not borrowed from s04."
+            },
+            {
+              "sugyaId": "yoma-002a-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Tevul-yom/Sadducee polemic and impervious-vessel rationale match lines 14-19 exactly."
+            },
+            {
+              "sugyaId": "yoma-002a-s04",
+              "verdict": "CONFIRMED",
+              "notes": "Chatat-north + Numbers 19:4-east = northeast/heikher matches lines 20-23; verse citation verified."
+            },
+            {
+              "sugyaId": "yoma-002a-s05",
+              "verdict": "CONFIRMED",
+              "notes": "R. Yohanan/Reish Lakish dispute matches lines 24-26; I Chronicles 29:19 citation verified correct; empty finalRuling appropriate for an unresolved dispute."
+            },
+            {
+              "sugyaId": "yoma-002a-s06",
+              "verdict": "CONFIRMED",
+              "notes": "Lev 8:34 split and tzivah/tzivah gezerah shavah to Numbers 19:2 matches lines 27-39 exactly; both verse numbers verified correct."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural verse citations (chapter:verse) as the highest-risk subtle-error surface. No defect found on any sugya; candidate content is unchanged from the corpus at review time."
+        }
+      },
+      "certifiedAtCommit": "c83869ba58fe5845d4d10f77f01e3f8a76e97539"
+    },
+    "yoma-002a-s04": {
+      "sugyaId": "yoma-002a-s04",
+      "daf": "2a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-2a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "a21d4a58e9f1040edef60f8f92ba1dc786b1f8f88da4f305cc66daca2256c19a",
+        "reviewedSemanticFingerprint": "010a6918aaa1c0183dda354c8da80c66bafbf4fb9bb7932695a2db7debf1bf29",
+        "evidence": {
+          "reviewId": "sonnet5-2a-first-20260823a",
+          "module": "yoma",
+          "daf": "2a",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-39) in full before opening currentEnrichment. Reconstructed content independently from direct knowledge of the Mishnah/Gemara text at Yoma 2a.",
+            "flow": [
+              "Lines 1-7 (Mishnah): Seven days before Yom Kippur the Kohen Gadol is moved from his house to the Parhedrin chamber; a backup priest is prepared in case of disqualification (pesul). Rabbi Yehuda: a backup wife should also be prepared, since 'u'v'ad beito' (Lev 16:6) means 'his wife', and if she dies before Yom Kippur he cannot serve. The Sages reject this: 'if so, there is no end to the matter' (ein la'davar sof - infinite regress).",
+              "Lines 8-13 (Gemara opens): Cites the parallel mishna from Parah (tractate Parah 3:1): seven days before the burning of the red heifer (parah adumah), the priest who burns it is likewise separated from his house to the chamber facing the Bira, northeast, called the Stone House (Lishkat Beit HaEven), because all its rites used vessels of dung, stone, and earth.",
+              "Lines 14-19: Explains why non-susceptible vessels were required: since a tevul yom (one who immersed that day but before sunset) is valid to burn the parah - contra the Sadducees, who held it must follow sunset after immersion (meorav shemesh) - the Sages would deliberately render the officiating priest tamei and immerse him publicly, to refute the Sadducean position. To prevent that public demonstration from breeding laxity about the parah's purity requirements generally, they mandated vessels immune to tumah (dung/stone/earth).",
+              "Lines 20-23: Explains why the chamber was northeast specifically: the parah is classified a chatat (sin-offering; Numbers 19:9,17), and a chatat's slaughter is associated with the north side; Numbers 19:4 requires the sprinkling 'el nokhach penei ohel mo'ed' (toward the front of the Tent of Meeting), i.e. facing east. Northeast satisfies both, and the location itself became a heikher (distinguishing indicator).",
+              "Lines 24-26: A short lexical dispute on the word 'bira' from the Parah mishna. Rabbi Yohanan (via Rabbah bar bar Chana): a specific named place on the Temple Mount. Reish Lakish: the term denotes the entire Temple complex, proven from David's phrase in Chronicles ('the bira I have prepared', I Chronicles 29:19); the citation itself (shene'emar ha'bira asher hakhinoti) physically prints on line 27, immediately continuing Reish Lakish's own sentence begun on line 26.",
+              "Lines 27-39: The Gemara asks for the scriptural source of the seven-day separation rule itself. Answer: Leviticus 8:34 (from the milu'im/Tabernacle-inauguration narrative), 'ka'asher asah bayom hazeh tzivah Hashem la'asot lechaper': 'la'asot' (to do) is read as the parah's actions, 'lechaper' (to atone) as Yom Kippur. Neither phrase can cover the whole verse alone (a parah does not atone; and without the gezerah shavah 'la'asot' has no proven referent for Yom Kippur), so the verse must split. A gezerah shavah on the shared word 'tzivah' links Lev 8:34 to Numbers 19:2 (the parah statute), formally proving 'la'asot' refers to the heifer and importing the seven-day sequestration requirement to it. Text is cut off mid-phrase at line 39 ('ve'eima...'), continuing on 2b."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "All six declared lineRanges (1-7, 8-13, 14-19, 20-23, 24-26, 27-39) correspond to genuine topic units and match the natural Mishnah/Gemara paragraph breaks. One granularity note, not a defect: Reish Lakish's proof-text citation ('shene'emar ha'bira asher hakhinoti') is the printed continuation of his own statement (begun at line 26, s05) but physically falls on vilna line 27, which is s06's first line. This is an artifact of where the Vilna print happens to wrap the line, not semantic contamination - the fact asserted in s05 (Reish Lakish cites I Chronicles 29:19) is fully supported by the adjoining text and does not import content from a different topic or a different daf.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately covers the page's throughline (Mishnah rule -> parah parallel -> stone-vessel reason -> northeast reason -> bira dispute -> gezerah shavah source). It omits the R. Yehuda/backup-wife dispute (lines 4-7) but states nothing false; a daf summary is a throughline, not an exhaustive index, and every fact it does state is source-supported.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002a-s01",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.title",
+                "display.oneLine",
+                "display.shortSummary",
+                "display.whats",
+                "display.hint",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Mishnah content (backup priest; R. Yehuda's backup-wife proposal from Lev 16:6 'u'v'ad beito'; Sages' infinite-regress rejection) matches source exactly. finalRuling ('A backup priest is designated; a backup wife is not') is the correct practical halacha per the Sages' rejected view of R. Yehuda. No content imported from elsewhere."
+            },
+            {
+              "sugyaId": "yoma-002a-s02",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "topicTags"
+              ],
+              "notes": "Parah mishna citation, Stone House name and its dung/stone/earth-vessel rule are all within lines 8-13. finalRuling's northeast reference is drawn from line 10's own text ('la'lishka she'al p'nei ha'bira tzafona mizracha'), not borrowed from s04's later explanation - factually stated, not fabricated."
+            },
+            {
+              "sugyaId": "yoma-002a-s03",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Tevul-yom/Sadducee polemic matches lines 14-19 exactly: deliberate impurification-then-immersion as public refutation of the Sadducean 'meorav shemesh' position, then impervious vessels required so the demonstration doesn't breed purity laxity. No fabricated steps."
+            },
+            {
+              "sugyaId": "yoma-002a-s04",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Chatat-requires-north + Numbers 19:4 'el nokhach penei ohel mo'ed'-requires-east = northeast, functioning as heikher, matches lines 20-23 exactly."
+            },
+            {
+              "sugyaId": "yoma-002a-s05",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling (correctly empty - unresolved dispute)",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "R. Yohanan/Reish Lakish 'bira' dispute matches lines 24-26 (plus the line-27 continuation of Reish Lakish's own sentence, see boundaryNotes). finalRuling correctly left empty since the dispute is unresolved on this daf."
+            },
+            {
+              "sugyaId": "yoma-002a-s06",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Lev 8:34 split (la'asot/lechaper) and the tzivah/tzivah gezerah shavah to Numbers 19:2 matches lines 27-39 exactly, including the correct logical role of the gezerah shavah (proving 'la'asot' cannot mean Yom Kippur, forcing the split)."
+            }
+          ],
+          "outOfScopeObservation": "sugyot on this daf use difficulty:'introductory', which is not in shared/schema_map.js's controlledValues.difficulty list (['intro','intermediate','advanced']). This is pre-existing corpus-wide state (112 occurrences across the whole Yoma corpus, not specific to 2a) and is a schema-controlled-value/enrichment-contract concern, not a source-meaning defect; it is explicitly out of scope for semantic certification per CLAUDE.md's separation of the schema-completeness and semantic-certification layers. Not treated as a REPAIR_REQUIRED trigger here.",
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious (topicTags, alternateAngles, conceptRefs, prerequisiteKnowledge/requiresUnderstanding, visualizableElements), not only the first field where a defect might be expected."
+        }
+      },
+      "sourceFingerprint": "a21d4a58e9f1040edef60f8f92ba1dc786b1f8f88da4f305cc66daca2256c19a",
+      "semanticFingerprint": "010a6918aaa1c0183dda354c8da80c66bafbf4fb9bb7932695a2db7debf1bf29",
+      "secondPass": {
+        "reviewId": "sonnet5-2a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "a21d4a58e9f1040edef60f8f92ba1dc786b1f8f88da4f305cc66daca2256c19a",
+        "reviewedSemanticFingerprint": "010a6918aaa1c0183dda354c8da80c66bafbf4fb9bb7932695a2db7debf1bf29",
+        "evidence": {
+          "reviewId": "sonnet5-2a-second-20260823b",
+          "module": "yoma",
+          "daf": "2a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting any first-pass reasoning (independenceRule packet omits it). Confirmed the same six-part structure: Mishnah backup-priest/backup-wife dispute (1-7); parah-adumah parallel and Stone House name (8-13); tvul-yom/Sadducee vessel rationale (14-19); northeast=chatat+east derivation (20-23); bira lexical dispute (24-26); Leviticus 8:34 split + tzivah/tzivah gezerah shavah to Numbers 19:2 (27-39).",
+          "verseCitationSpotCheck": {
+            "Leviticus 16:6": "u'v'ad beito - matches raw line 6",
+            "Leviticus 8:34": "ka'asher asah bayom hazeh tzivah Hashem la'asot lechaper - matches raw lines 29-31",
+            "Numbers 19:2": "zot chukat ha'torah asher tzivah Hashem lemor - matches raw lines 36-37",
+            "Numbers 19:4": "el nokhach penei ohel mo'ed - matches raw line 22, supports the s04 east-facing claim",
+            "I Chronicles 29:19": "livnot ha'birah asher hachinoti - correct verse for Reish Lakish's proof cited in s05",
+            "result": "all four scriptural citations used across the daf's enrichment resolve to the correct verse and match the cited words in the raw Hebrew; no misattribution found"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Mishnah content, R. Yehuda dispute, and infinite-regress rejection fully match lines 1-7; finalRuling correct."
+            },
+            {
+              "sugyaId": "yoma-002a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Parah parallel and Stone House vessel rule match lines 8-13; northeast detail in finalRuling is drawn from s02's own line 10 text, not borrowed from s04."
+            },
+            {
+              "sugyaId": "yoma-002a-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Tevul-yom/Sadducee polemic and impervious-vessel rationale match lines 14-19 exactly."
+            },
+            {
+              "sugyaId": "yoma-002a-s04",
+              "verdict": "CONFIRMED",
+              "notes": "Chatat-north + Numbers 19:4-east = northeast/heikher matches lines 20-23; verse citation verified."
+            },
+            {
+              "sugyaId": "yoma-002a-s05",
+              "verdict": "CONFIRMED",
+              "notes": "R. Yohanan/Reish Lakish dispute matches lines 24-26; I Chronicles 29:19 citation verified correct; empty finalRuling appropriate for an unresolved dispute."
+            },
+            {
+              "sugyaId": "yoma-002a-s06",
+              "verdict": "CONFIRMED",
+              "notes": "Lev 8:34 split and tzivah/tzivah gezerah shavah to Numbers 19:2 matches lines 27-39 exactly; both verse numbers verified correct."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural verse citations (chapter:verse) as the highest-risk subtle-error surface. No defect found on any sugya; candidate content is unchanged from the corpus at review time."
+        }
+      },
+      "certifiedAtCommit": "c83869ba58fe5845d4d10f77f01e3f8a76e97539"
+    },
+    "yoma-002a-s05": {
+      "sugyaId": "yoma-002a-s05",
+      "daf": "2a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-2a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "81e3e2d1e18876cbff4b926df0effb0c0572875a2dcb92d79a3e244ba0637b3f",
+        "reviewedSemanticFingerprint": "6ca9728b30371dc4861503005c86f62485befd76496ff7ae0a37073b19be5b6c",
+        "evidence": {
+          "reviewId": "sonnet5-2a-first-20260823a",
+          "module": "yoma",
+          "daf": "2a",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-39) in full before opening currentEnrichment. Reconstructed content independently from direct knowledge of the Mishnah/Gemara text at Yoma 2a.",
+            "flow": [
+              "Lines 1-7 (Mishnah): Seven days before Yom Kippur the Kohen Gadol is moved from his house to the Parhedrin chamber; a backup priest is prepared in case of disqualification (pesul). Rabbi Yehuda: a backup wife should also be prepared, since 'u'v'ad beito' (Lev 16:6) means 'his wife', and if she dies before Yom Kippur he cannot serve. The Sages reject this: 'if so, there is no end to the matter' (ein la'davar sof - infinite regress).",
+              "Lines 8-13 (Gemara opens): Cites the parallel mishna from Parah (tractate Parah 3:1): seven days before the burning of the red heifer (parah adumah), the priest who burns it is likewise separated from his house to the chamber facing the Bira, northeast, called the Stone House (Lishkat Beit HaEven), because all its rites used vessels of dung, stone, and earth.",
+              "Lines 14-19: Explains why non-susceptible vessels were required: since a tevul yom (one who immersed that day but before sunset) is valid to burn the parah - contra the Sadducees, who held it must follow sunset after immersion (meorav shemesh) - the Sages would deliberately render the officiating priest tamei and immerse him publicly, to refute the Sadducean position. To prevent that public demonstration from breeding laxity about the parah's purity requirements generally, they mandated vessels immune to tumah (dung/stone/earth).",
+              "Lines 20-23: Explains why the chamber was northeast specifically: the parah is classified a chatat (sin-offering; Numbers 19:9,17), and a chatat's slaughter is associated with the north side; Numbers 19:4 requires the sprinkling 'el nokhach penei ohel mo'ed' (toward the front of the Tent of Meeting), i.e. facing east. Northeast satisfies both, and the location itself became a heikher (distinguishing indicator).",
+              "Lines 24-26: A short lexical dispute on the word 'bira' from the Parah mishna. Rabbi Yohanan (via Rabbah bar bar Chana): a specific named place on the Temple Mount. Reish Lakish: the term denotes the entire Temple complex, proven from David's phrase in Chronicles ('the bira I have prepared', I Chronicles 29:19); the citation itself (shene'emar ha'bira asher hakhinoti) physically prints on line 27, immediately continuing Reish Lakish's own sentence begun on line 26.",
+              "Lines 27-39: The Gemara asks for the scriptural source of the seven-day separation rule itself. Answer: Leviticus 8:34 (from the milu'im/Tabernacle-inauguration narrative), 'ka'asher asah bayom hazeh tzivah Hashem la'asot lechaper': 'la'asot' (to do) is read as the parah's actions, 'lechaper' (to atone) as Yom Kippur. Neither phrase can cover the whole verse alone (a parah does not atone; and without the gezerah shavah 'la'asot' has no proven referent for Yom Kippur), so the verse must split. A gezerah shavah on the shared word 'tzivah' links Lev 8:34 to Numbers 19:2 (the parah statute), formally proving 'la'asot' refers to the heifer and importing the seven-day sequestration requirement to it. Text is cut off mid-phrase at line 39 ('ve'eima...'), continuing on 2b."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "All six declared lineRanges (1-7, 8-13, 14-19, 20-23, 24-26, 27-39) correspond to genuine topic units and match the natural Mishnah/Gemara paragraph breaks. One granularity note, not a defect: Reish Lakish's proof-text citation ('shene'emar ha'bira asher hakhinoti') is the printed continuation of his own statement (begun at line 26, s05) but physically falls on vilna line 27, which is s06's first line. This is an artifact of where the Vilna print happens to wrap the line, not semantic contamination - the fact asserted in s05 (Reish Lakish cites I Chronicles 29:19) is fully supported by the adjoining text and does not import content from a different topic or a different daf.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately covers the page's throughline (Mishnah rule -> parah parallel -> stone-vessel reason -> northeast reason -> bira dispute -> gezerah shavah source). It omits the R. Yehuda/backup-wife dispute (lines 4-7) but states nothing false; a daf summary is a throughline, not an exhaustive index, and every fact it does state is source-supported.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002a-s01",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.title",
+                "display.oneLine",
+                "display.shortSummary",
+                "display.whats",
+                "display.hint",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Mishnah content (backup priest; R. Yehuda's backup-wife proposal from Lev 16:6 'u'v'ad beito'; Sages' infinite-regress rejection) matches source exactly. finalRuling ('A backup priest is designated; a backup wife is not') is the correct practical halacha per the Sages' rejected view of R. Yehuda. No content imported from elsewhere."
+            },
+            {
+              "sugyaId": "yoma-002a-s02",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "topicTags"
+              ],
+              "notes": "Parah mishna citation, Stone House name and its dung/stone/earth-vessel rule are all within lines 8-13. finalRuling's northeast reference is drawn from line 10's own text ('la'lishka she'al p'nei ha'bira tzafona mizracha'), not borrowed from s04's later explanation - factually stated, not fabricated."
+            },
+            {
+              "sugyaId": "yoma-002a-s03",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Tevul-yom/Sadducee polemic matches lines 14-19 exactly: deliberate impurification-then-immersion as public refutation of the Sadducean 'meorav shemesh' position, then impervious vessels required so the demonstration doesn't breed purity laxity. No fabricated steps."
+            },
+            {
+              "sugyaId": "yoma-002a-s04",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Chatat-requires-north + Numbers 19:4 'el nokhach penei ohel mo'ed'-requires-east = northeast, functioning as heikher, matches lines 20-23 exactly."
+            },
+            {
+              "sugyaId": "yoma-002a-s05",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling (correctly empty - unresolved dispute)",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "R. Yohanan/Reish Lakish 'bira' dispute matches lines 24-26 (plus the line-27 continuation of Reish Lakish's own sentence, see boundaryNotes). finalRuling correctly left empty since the dispute is unresolved on this daf."
+            },
+            {
+              "sugyaId": "yoma-002a-s06",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Lev 8:34 split (la'asot/lechaper) and the tzivah/tzivah gezerah shavah to Numbers 19:2 matches lines 27-39 exactly, including the correct logical role of the gezerah shavah (proving 'la'asot' cannot mean Yom Kippur, forcing the split)."
+            }
+          ],
+          "outOfScopeObservation": "sugyot on this daf use difficulty:'introductory', which is not in shared/schema_map.js's controlledValues.difficulty list (['intro','intermediate','advanced']). This is pre-existing corpus-wide state (112 occurrences across the whole Yoma corpus, not specific to 2a) and is a schema-controlled-value/enrichment-contract concern, not a source-meaning defect; it is explicitly out of scope for semantic certification per CLAUDE.md's separation of the schema-completeness and semantic-certification layers. Not treated as a REPAIR_REQUIRED trigger here.",
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious (topicTags, alternateAngles, conceptRefs, prerequisiteKnowledge/requiresUnderstanding, visualizableElements), not only the first field where a defect might be expected."
+        }
+      },
+      "sourceFingerprint": "81e3e2d1e18876cbff4b926df0effb0c0572875a2dcb92d79a3e244ba0637b3f",
+      "semanticFingerprint": "6ca9728b30371dc4861503005c86f62485befd76496ff7ae0a37073b19be5b6c",
+      "secondPass": {
+        "reviewId": "sonnet5-2a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "81e3e2d1e18876cbff4b926df0effb0c0572875a2dcb92d79a3e244ba0637b3f",
+        "reviewedSemanticFingerprint": "6ca9728b30371dc4861503005c86f62485befd76496ff7ae0a37073b19be5b6c",
+        "evidence": {
+          "reviewId": "sonnet5-2a-second-20260823b",
+          "module": "yoma",
+          "daf": "2a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting any first-pass reasoning (independenceRule packet omits it). Confirmed the same six-part structure: Mishnah backup-priest/backup-wife dispute (1-7); parah-adumah parallel and Stone House name (8-13); tvul-yom/Sadducee vessel rationale (14-19); northeast=chatat+east derivation (20-23); bira lexical dispute (24-26); Leviticus 8:34 split + tzivah/tzivah gezerah shavah to Numbers 19:2 (27-39).",
+          "verseCitationSpotCheck": {
+            "Leviticus 16:6": "u'v'ad beito - matches raw line 6",
+            "Leviticus 8:34": "ka'asher asah bayom hazeh tzivah Hashem la'asot lechaper - matches raw lines 29-31",
+            "Numbers 19:2": "zot chukat ha'torah asher tzivah Hashem lemor - matches raw lines 36-37",
+            "Numbers 19:4": "el nokhach penei ohel mo'ed - matches raw line 22, supports the s04 east-facing claim",
+            "I Chronicles 29:19": "livnot ha'birah asher hachinoti - correct verse for Reish Lakish's proof cited in s05",
+            "result": "all four scriptural citations used across the daf's enrichment resolve to the correct verse and match the cited words in the raw Hebrew; no misattribution found"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Mishnah content, R. Yehuda dispute, and infinite-regress rejection fully match lines 1-7; finalRuling correct."
+            },
+            {
+              "sugyaId": "yoma-002a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Parah parallel and Stone House vessel rule match lines 8-13; northeast detail in finalRuling is drawn from s02's own line 10 text, not borrowed from s04."
+            },
+            {
+              "sugyaId": "yoma-002a-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Tevul-yom/Sadducee polemic and impervious-vessel rationale match lines 14-19 exactly."
+            },
+            {
+              "sugyaId": "yoma-002a-s04",
+              "verdict": "CONFIRMED",
+              "notes": "Chatat-north + Numbers 19:4-east = northeast/heikher matches lines 20-23; verse citation verified."
+            },
+            {
+              "sugyaId": "yoma-002a-s05",
+              "verdict": "CONFIRMED",
+              "notes": "R. Yohanan/Reish Lakish dispute matches lines 24-26; I Chronicles 29:19 citation verified correct; empty finalRuling appropriate for an unresolved dispute."
+            },
+            {
+              "sugyaId": "yoma-002a-s06",
+              "verdict": "CONFIRMED",
+              "notes": "Lev 8:34 split and tzivah/tzivah gezerah shavah to Numbers 19:2 matches lines 27-39 exactly; both verse numbers verified correct."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural verse citations (chapter:verse) as the highest-risk subtle-error surface. No defect found on any sugya; candidate content is unchanged from the corpus at review time."
+        }
+      },
+      "certifiedAtCommit": "c83869ba58fe5845d4d10f77f01e3f8a76e97539"
+    },
+    "yoma-002a-s06": {
+      "sugyaId": "yoma-002a-s06",
+      "daf": "2a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-2a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "5f99e9554ddeb852fd689ecbf99f9617cd308cfb7be177416452f24673b85aeb",
+        "reviewedSemanticFingerprint": "90a679eeaecbf0b8bdd3c51a613e157cf1f8ed6667a6e0ac2685c2688cc92d6f",
+        "evidence": {
+          "reviewId": "sonnet5-2a-first-20260823a",
+          "module": "yoma",
+          "daf": "2a",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-39) in full before opening currentEnrichment. Reconstructed content independently from direct knowledge of the Mishnah/Gemara text at Yoma 2a.",
+            "flow": [
+              "Lines 1-7 (Mishnah): Seven days before Yom Kippur the Kohen Gadol is moved from his house to the Parhedrin chamber; a backup priest is prepared in case of disqualification (pesul). Rabbi Yehuda: a backup wife should also be prepared, since 'u'v'ad beito' (Lev 16:6) means 'his wife', and if she dies before Yom Kippur he cannot serve. The Sages reject this: 'if so, there is no end to the matter' (ein la'davar sof - infinite regress).",
+              "Lines 8-13 (Gemara opens): Cites the parallel mishna from Parah (tractate Parah 3:1): seven days before the burning of the red heifer (parah adumah), the priest who burns it is likewise separated from his house to the chamber facing the Bira, northeast, called the Stone House (Lishkat Beit HaEven), because all its rites used vessels of dung, stone, and earth.",
+              "Lines 14-19: Explains why non-susceptible vessels were required: since a tevul yom (one who immersed that day but before sunset) is valid to burn the parah - contra the Sadducees, who held it must follow sunset after immersion (meorav shemesh) - the Sages would deliberately render the officiating priest tamei and immerse him publicly, to refute the Sadducean position. To prevent that public demonstration from breeding laxity about the parah's purity requirements generally, they mandated vessels immune to tumah (dung/stone/earth).",
+              "Lines 20-23: Explains why the chamber was northeast specifically: the parah is classified a chatat (sin-offering; Numbers 19:9,17), and a chatat's slaughter is associated with the north side; Numbers 19:4 requires the sprinkling 'el nokhach penei ohel mo'ed' (toward the front of the Tent of Meeting), i.e. facing east. Northeast satisfies both, and the location itself became a heikher (distinguishing indicator).",
+              "Lines 24-26: A short lexical dispute on the word 'bira' from the Parah mishna. Rabbi Yohanan (via Rabbah bar bar Chana): a specific named place on the Temple Mount. Reish Lakish: the term denotes the entire Temple complex, proven from David's phrase in Chronicles ('the bira I have prepared', I Chronicles 29:19); the citation itself (shene'emar ha'bira asher hakhinoti) physically prints on line 27, immediately continuing Reish Lakish's own sentence begun on line 26.",
+              "Lines 27-39: The Gemara asks for the scriptural source of the seven-day separation rule itself. Answer: Leviticus 8:34 (from the milu'im/Tabernacle-inauguration narrative), 'ka'asher asah bayom hazeh tzivah Hashem la'asot lechaper': 'la'asot' (to do) is read as the parah's actions, 'lechaper' (to atone) as Yom Kippur. Neither phrase can cover the whole verse alone (a parah does not atone; and without the gezerah shavah 'la'asot' has no proven referent for Yom Kippur), so the verse must split. A gezerah shavah on the shared word 'tzivah' links Lev 8:34 to Numbers 19:2 (the parah statute), formally proving 'la'asot' refers to the heifer and importing the seven-day sequestration requirement to it. Text is cut off mid-phrase at line 39 ('ve'eima...'), continuing on 2b."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "All six declared lineRanges (1-7, 8-13, 14-19, 20-23, 24-26, 27-39) correspond to genuine topic units and match the natural Mishnah/Gemara paragraph breaks. One granularity note, not a defect: Reish Lakish's proof-text citation ('shene'emar ha'bira asher hakhinoti') is the printed continuation of his own statement (begun at line 26, s05) but physically falls on vilna line 27, which is s06's first line. This is an artifact of where the Vilna print happens to wrap the line, not semantic contamination - the fact asserted in s05 (Reish Lakish cites I Chronicles 29:19) is fully supported by the adjoining text and does not import content from a different topic or a different daf.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately covers the page's throughline (Mishnah rule -> parah parallel -> stone-vessel reason -> northeast reason -> bira dispute -> gezerah shavah source). It omits the R. Yehuda/backup-wife dispute (lines 4-7) but states nothing false; a daf summary is a throughline, not an exhaustive index, and every fact it does state is source-supported.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002a-s01",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.title",
+                "display.oneLine",
+                "display.shortSummary",
+                "display.whats",
+                "display.hint",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Mishnah content (backup priest; R. Yehuda's backup-wife proposal from Lev 16:6 'u'v'ad beito'; Sages' infinite-regress rejection) matches source exactly. finalRuling ('A backup priest is designated; a backup wife is not') is the correct practical halacha per the Sages' rejected view of R. Yehuda. No content imported from elsewhere."
+            },
+            {
+              "sugyaId": "yoma-002a-s02",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "topicTags"
+              ],
+              "notes": "Parah mishna citation, Stone House name and its dung/stone/earth-vessel rule are all within lines 8-13. finalRuling's northeast reference is drawn from line 10's own text ('la'lishka she'al p'nei ha'bira tzafona mizracha'), not borrowed from s04's later explanation - factually stated, not fabricated."
+            },
+            {
+              "sugyaId": "yoma-002a-s03",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Tevul-yom/Sadducee polemic matches lines 14-19 exactly: deliberate impurification-then-immersion as public refutation of the Sadducean 'meorav shemesh' position, then impervious vessels required so the demonstration doesn't breed purity laxity. No fabricated steps."
+            },
+            {
+              "sugyaId": "yoma-002a-s04",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Chatat-requires-north + Numbers 19:4 'el nokhach penei ohel mo'ed'-requires-east = northeast, functioning as heikher, matches lines 20-23 exactly."
+            },
+            {
+              "sugyaId": "yoma-002a-s05",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling (correctly empty - unresolved dispute)",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "R. Yohanan/Reish Lakish 'bira' dispute matches lines 24-26 (plus the line-27 continuation of Reish Lakish's own sentence, see boundaryNotes). finalRuling correctly left empty since the dispute is unresolved on this daf."
+            },
+            {
+              "sugyaId": "yoma-002a-s06",
+              "verdict": "VERIFIED",
+              "checkedFields": [
+                "display.*",
+                "learning.*",
+                "argumentFlow",
+                "conceptRefs",
+                "requiresUnderstanding",
+                "misconceptions",
+                "relatedSugyot",
+                "visualizableElements",
+                "quizSeeds",
+                "finalRuling",
+                "difficulty",
+                "alternateAngles",
+                "topicTags"
+              ],
+              "notes": "Lev 8:34 split (la'asot/lechaper) and the tzivah/tzivah gezerah shavah to Numbers 19:2 matches lines 27-39 exactly, including the correct logical role of the gezerah shavah (proving 'la'asot' cannot mean Yom Kippur, forcing the split)."
+            }
+          ],
+          "outOfScopeObservation": "sugyot on this daf use difficulty:'introductory', which is not in shared/schema_map.js's controlledValues.difficulty list (['intro','intermediate','advanced']). This is pre-existing corpus-wide state (112 occurrences across the whole Yoma corpus, not specific to 2a) and is a schema-controlled-value/enrichment-contract concern, not a source-meaning defect; it is explicitly out of scope for semantic certification per CLAUDE.md's separation of the schema-completeness and semantic-certification layers. Not treated as a REPAIR_REQUIRED trigger here.",
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious (topicTags, alternateAngles, conceptRefs, prerequisiteKnowledge/requiresUnderstanding, visualizableElements), not only the first field where a defect might be expected."
+        }
+      },
+      "sourceFingerprint": "5f99e9554ddeb852fd689ecbf99f9617cd308cfb7be177416452f24673b85aeb",
+      "semanticFingerprint": "90a679eeaecbf0b8bdd3c51a613e157cf1f8ed6667a6e0ac2685c2688cc92d6f",
+      "secondPass": {
+        "reviewId": "sonnet5-2a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "5f99e9554ddeb852fd689ecbf99f9617cd308cfb7be177416452f24673b85aeb",
+        "reviewedSemanticFingerprint": "90a679eeaecbf0b8bdd3c51a613e157cf1f8ed6667a6e0ac2685c2688cc92d6f",
+        "evidence": {
+          "reviewId": "sonnet5-2a-second-20260823b",
+          "module": "yoma",
+          "daf": "2a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting any first-pass reasoning (independenceRule packet omits it). Confirmed the same six-part structure: Mishnah backup-priest/backup-wife dispute (1-7); parah-adumah parallel and Stone House name (8-13); tvul-yom/Sadducee vessel rationale (14-19); northeast=chatat+east derivation (20-23); bira lexical dispute (24-26); Leviticus 8:34 split + tzivah/tzivah gezerah shavah to Numbers 19:2 (27-39).",
+          "verseCitationSpotCheck": {
+            "Leviticus 16:6": "u'v'ad beito - matches raw line 6",
+            "Leviticus 8:34": "ka'asher asah bayom hazeh tzivah Hashem la'asot lechaper - matches raw lines 29-31",
+            "Numbers 19:2": "zot chukat ha'torah asher tzivah Hashem lemor - matches raw lines 36-37",
+            "Numbers 19:4": "el nokhach penei ohel mo'ed - matches raw line 22, supports the s04 east-facing claim",
+            "I Chronicles 29:19": "livnot ha'birah asher hachinoti - correct verse for Reish Lakish's proof cited in s05",
+            "result": "all four scriptural citations used across the daf's enrichment resolve to the correct verse and match the cited words in the raw Hebrew; no misattribution found"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-002a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Mishnah content, R. Yehuda dispute, and infinite-regress rejection fully match lines 1-7; finalRuling correct."
+            },
+            {
+              "sugyaId": "yoma-002a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Parah parallel and Stone House vessel rule match lines 8-13; northeast detail in finalRuling is drawn from s02's own line 10 text, not borrowed from s04."
+            },
+            {
+              "sugyaId": "yoma-002a-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Tevul-yom/Sadducee polemic and impervious-vessel rationale match lines 14-19 exactly."
+            },
+            {
+              "sugyaId": "yoma-002a-s04",
+              "verdict": "CONFIRMED",
+              "notes": "Chatat-north + Numbers 19:4-east = northeast/heikher matches lines 20-23; verse citation verified."
+            },
+            {
+              "sugyaId": "yoma-002a-s05",
+              "verdict": "CONFIRMED",
+              "notes": "R. Yohanan/Reish Lakish dispute matches lines 24-26; I Chronicles 29:19 citation verified correct; empty finalRuling appropriate for an unresolved dispute."
+            },
+            {
+              "sugyaId": "yoma-002a-s06",
+              "verdict": "CONFIRMED",
+              "notes": "Lev 8:34 split and tzivah/tzivah gezerah shavah to Numbers 19:2 matches lines 27-39 exactly; both verse numbers verified correct."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural verse citations (chapter:verse) as the highest-risk subtle-error surface. No defect found on any sugya; candidate content is unchanged from the corpus at review time."
+        }
+      },
+      "certifiedAtCommit": "c83869ba58fe5845d4d10f77f01e3f8a76e97539"
+    }
+  }
 }

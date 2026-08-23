@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0",
+  "type": "semantic-daf-certify",
+  "module": "yoma",
+  "daf": "2a",
+  "sugyaIds": [
+    "yoma-002a-s01",
+    "yoma-002a-s02",
+    "yoma-002a-s03",
+    "yoma-002a-s04",
+    "yoma-002a-s05",
+    "yoma-002a-s06"
+  ],
+  "firstReviewId": "sonnet5-2a-first-20260823a",
+  "policy": {
+    "sourceFirst": true,
+    "independentSecondPassRequired": true,
+    "rawSourceImmutable": true,
+    "rashiTranslationsImmutable": true,
+    "certificationRegistryRequired": true
+  }
+}
