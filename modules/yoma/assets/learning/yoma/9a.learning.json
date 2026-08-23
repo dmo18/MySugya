@@ -1,626 +1,610 @@
 {
-  "daf": "9a",
-  "canonicalRef": "Yoma 9a",
-  "summary": "9a has two sections. First, the bakers' tithe discussion from 8b is concluded: Yochanan (Yohanan) High Priest sent emissaries throughout Israel and found that only trumah gedolah was being universally separated; maaser sheni was not - so he decreed the dema'i rules (everyone must separate but need not verify). The parhedrin officials who pressured bakers to sell cheaply are also named as the reason bakers did not need to separate dema'i. Second, the Gemara pivots to the contrast between the First and Second Temple periods: Rabba bar bar Chana in the name of R. Yochanan expounds that the First Temple stood 410 years with only 18 High Priests (average over 22 years each), while the Second Temple stood 420 years with over 300 High Priests (average under two years each). R. Yochanan ben Torta then explains why Shiloh was destroyed: giluy arayot (sexual immorality) and bizayon kodashim (degradation of sacred offerings) - with the nuance that Eli's sons were not literally guilty of adultery (a different sage says so) but delayed women's bird offerings, with scripture treating the delay as if they had.",
-  "review": {
+ "daf": "9a",
+ "canonicalRef": "Yoma 9a",
+ "summary": "9a has two sections. First, the bakers' tithe discussion from 8b is concluded: Yochanan (Yohanan) High Priest sent emissaries throughout Israel and found that only terumah gedolah was being universally separated (Rashi cross-references his dema'i decree to Sotah 48a). Maaser rishon and maaser ani are not required from bakers because the burden of proof is on the claimant. The general dema'i rule for maaser sheni is to separate it, bring it up, and eat it in Jerusalem, but Ulla explains that the Rabbis exempted bakers from even this, since the parhedrin officials already pressured them to sell cheaply every 12 months. Second, the Gemara pivots to the contrast between the First and Second Temple periods: Rabba bar bar Chana in the name of R. Yochanan expounds that the First Temple stood 410 years with only 18 High Priests, while the Second Temple stood 420 years with over 300 High Priests. R. Yochanan ben Torta then begins to explain why Shiloh was destroyed - giluy arayot (sexual immorality) and bizayon kodashim (degradation of sacred offerings) - and R. Shmuel bar Nachmani says anyone who claims Eli's sons literally sinned is mistaken, beginning 'because they delayed...' before the daf cuts off mid-word, continuing on 9b.",
+ "review": {
+  "learning": "ai_generated",
+  "concepts": "ai_generated",
+  "argumentFlow": "ai_generated",
+  "sourceRefs": "ai_generated"
+ },
+ "sugyot": [
+  {
+   "sugyaNumber": 1,
+   "id": "yoma-009a-s01",
+   "lineRange": {
+    "startVilnaLine": 1,
+    "endVilnaLine": 8
+   },
+   "lines": [
+    {
+     "vilnaLine": 1,
+     "sefariaRef": "Yoma.9a.1"
+    },
+    {
+     "vilnaLine": 2,
+     "sefariaRef": "Yoma.9a.2"
+    },
+    {
+     "vilnaLine": 5,
+     "sefariaRef": "Yoma.9a.3"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.9a.1",
+    "Yoma.9a.2",
+    "Yoma.9a.3"
+   ],
+   "display": {
+    "title": "Yochanan High Priest's dema'i decree; bakers and parhedrin pressure",
+    "oneLine": "Yochanan High Priest's survey found only terumah gedolah universally separated, explaining bakers' exemption from it; the general dema'i rule for maaser sheni is to separate, bring up, and eat it in Jerusalem, but Ulla explains the Rabbis exempted bakers from even this, given the economic pressure the parhedrin already placed on them.",
+    "shortSummary": "The baraita: Yochanan High Priest sent emissaries throughout the borders of Israel and saw that only terumah gedolah was being universally separated (explaining why bakers need not separate it themselves, per 8b's rule). Maaser rishon and maaser ani: the rule is that the one seeking to extract from another bears the burden of proof - so the Levi and the poor man would have to prove the grain was untithed. Maaser sheni: the general dema'i rule is to separate it, bring it up, and eat it in Jerusalem. Ulla then explains why bakers specifically were not burdened with this: the parhedrin (government enforcers) would beat them every 12 months and demand they sell at low prices, so the Rabbis did not add the maaser sheni requirement on top of that existing economic pressure. 'Parhedrin' here means government officials/enforcers.",
+    "whats": "This section completes 8b's cut-off baraita, explaining tier by tier why bakers need only separate terumat maaser and challah. Yochanan High Priest's survey (cross-referenced by Rashi to Sotah 48a, where his dema'i decree is discussed at length) explains the terumah gedolah tier; burden of proof explains maaser rishon and maaser ani; and Ulla's account of parhedrin economic pressure explains why bakers were exempted even from the general maaser sheni requirement that otherwise applies to dema'i.",
+    "hint": "The word 'parhedrin' appears in two different senses across 8b-9a: the Persian governors used earlier as a metaphor for corrupt High Priests, and here as government economic enforcers who pressured bakers - is that a coincidence, or the same underlying institution?"
+   },
+   "learning": {
+    "learnerQuestion": "Why were bakers specifically exempted from the general dema'i maaser sheni requirement?",
+    "coreTension": "The general dema'i rule requires separating maaser sheni, bringing it up, and eating it in Jerusalem. But bakers face a commercial reality: they sell continuously and are subject to government price controls enforced by officials (parhedrin) who show up every 12 months threatening them. Burdening them further with this requirement, on top of that pressure, would be economically impossible.",
+    "coreMove": "Ulla's explanation introduces a sociological factor into halachic reasoning: when government pressure makes a community economically precarious, the Rabbis considered that factor when exempting bakers from the general dema'i maaser sheni requirement. This is a deliberate welfare consideration embedded in the ruling, distinct from the burden-of-proof reasoning used for maaser rishon and maaser ani.",
+    "resolution": "Practical: bakers who buy grain from amei ha'aretz need to separate only trumat maaser (1/100) and challah. They are exempt from maaser rishon and maaser ani (burden of proof) and from the general dema'i maaser sheni requirement (Ulla's parhedrin-pressure leniency).",
+    "takeaway": {
+     "type": "legal_principle",
+     "text": "Halacha is not context-blind. When a community faces structural economic pressure that makes compliance impossible, the Rabbis can adjust obligations accordingly - not by waiving the Torah requirement but by adjusting the Rabbinic dema'i framework."
+    },
+    "reasoningPattern": {
+     "id": "welfare-consideration-in-halakha",
+     "category": "practical",
+     "notes": "Ulla's parhedrin explanation shows the Rabbis considering structural economic oppression as a factor in halachic ruling. This is distinct from the legal burden-of-proof analysis (the Levi/poor man must prove the grain was untithed)."
+    },
+    "ahaMoment": "Yochanan High Priest's survey is remarkable: instead of assuming compliance, he investigated and found that most of Israel was only doing the minimum - only terumah gedolah. Rashi cross-references this directly to his dema'i decree discussed in Sotah 48a. The dema'i system is his pragmatic response: require separation without requiring verification, thus making the system workable - and bakers receive an additional, targeted exemption on top of that general framework.",
+    "learningBlocker": "Students may think 'dema'i' simply means 'doubtful tevel.' More precisely: dema'i is the Rabbinic category of produce from an am ha'aretz where the large tithes (trumah gedolah, trumat maaser) are generally separated, but the full tithe regime (maaser sheni, maaser ani, etc.) may not have been. The required separations from dema'i are calibrated to this real-world compliance picture.",
+    "memoryAnchor": "Yochanan sent throughout Israel, found only terumah gedolah reliably separated. Maaser rishon/ani: burden of proof. Maaser sheni: the general rule is separate+bring up+eat in Jerusalem, but bakers are exempted from even this because parhedrin government enforcers beat them annually and forced low prices - piling more obligations on them would be impossible."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "explanation",
+     "label": "Yochanan High Priest's survey and the maaser sheni situation",
+     "speaker": "Baraita",
+     "text": "Because Yochanan sent emissaries throughout Israel and saw that only terumah gedolah was being separated. Maaser rishon and maaser ani: the one who extracts from another bears the burden of proof (so the Levi/poor must prove). Maaser sheni: the general dema'i rule is to separate it and ascend to Jerusalem to eat it.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-009a-l01",
+       "vilnaLine": 1,
+       "note": "Yochanan High Priest's decree explained"
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "explanation",
+     "label": "Why maaser rishon and ani need no verification: burden of proof",
+     "speaker": "Gemara",
+     "text": "Maaser rishon and maaser ani: from the moment the grain was separated (even if there is doubt whether tithes were taken), it is no longer tevel. The Levi or the poor claimant cannot extract from the baker without proving the grain was not tithed.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-009a-l02",
+       "vilnaLine": 3,
+       "note": "Burden of proof for maaser rishon and ani"
+      }
+     ]
+    },
+    {
+     "id": "step-03",
+     "type": "explanation",
+     "label": "Ulla: parhedrin officials beat bakers annually; therefore not burdened further",
+     "speaker": "Ulla",
+     "text": "The parhedrin (government officials) would beat the bakers every 12 months, demanding they sell bread cheaply. Because the government already oppressed them economically, the Rabbis did not add the general dema'i maaser sheni requirement (separate, bring up, and eat in Jerusalem) on top of that pressure - bakers were exempted from it entirely.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-009a-l05",
+       "vilnaLine": 5,
+       "note": "Ulla's sociological explanation for the baker leniency"
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "demai",
+    "tithes",
+    "yochanan-high-priest",
+    "bakers",
+    "parhedrin",
+    "maaser-sheni"
+   ],
+   "conceptRefs": [
+    "demai",
+    "burden-of-proof",
+    "yochanan-high-priest",
+    "tithes"
+   ],
+   "visualizableElements": [
+    {
+     "item": "Yochanan High Priest's survey process: (1) sends emissaries throughout Israel; (2) discovers only terumah gedolah is universally separated; (3) this explains the earlier-stated baraita rule that bakers need separate only terumat maaser and challah.",
+     "type": "sequence",
+     "label": "Yochanan High Priest's survey"
+    },
+    {
+     "item": "Government enforcers (parhedrin) pressuring bakers to sell cheaply every 12 months - the context Ulla cites for why the Rabbis exempted bakers from the general dema'i maaser sheni requirement.",
+     "type": "person",
+     "label": "Parhedrin officials and bakers"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What did Yochanan High Priest find when he sent emissaries throughout Israel regarding tithes?",
+     "answer": "Only trumah gedolah was being universally separated. Maaser rishon, maaser ani, and maaser sheni were not being properly separated by the general population."
+    },
+    {
+     "question": "Why were bakers not required to separate dema'i maaser sheni, according to Ulla?",
+     "answer": "Government officials (parhedrin) would beat the bakers annually and force them to sell at low prices. The Rabbis did not want to further burden an already economically oppressed group."
+    }
+   ],
+   "misconceptions": [
+    {
+     "misconception": "Bakers separate maaser sheni and bring it to Jerusalem like other dema'i buyers.",
+     "correction": "Bakers are exempt from the general dema'i maaser sheni requirement entirely, per Ulla's explanation: the parhedrin's economic pressure already burdened them, so the Rabbis did not add this requirement on top of it."
+    }
+   ],
+   "relatedSugyot": [
+    {
+     "daf": "8b",
+     "sugyaId": "yoma-008b-s02",
+     "reason": "The bakers and Lishkat Parhedrin discussion that this section concludes"
+    },
+    {
+     "daf": "9a",
+     "sugyaId": "yoma-009a-s02",
+     "reason": "Immediately following: First vs. Second Temple High Priest statistics and Temple destruction causes"
+    }
+   ],
+   "finalRuling": "Practical: bakers are required to separate only trumat maaser (1/100) and challah from their dough. They are exempt from maaser rishon and maaser ani (burden of proof) and from the general dema'i maaser sheni requirement (Ulla's parhedrin-pressure leniency).",
+   "requiresUnderstanding": [
+    "yoma-008b-s03"
+   ],
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "review": {
     "learning": "ai_generated",
     "concepts": "ai_generated",
     "argumentFlow": "ai_generated",
     "sourceRefs": "ai_generated"
+   },
+   "prerequisiteKnowledge": [
+    "What dema'i is and the Rabbinic tithe-separation framework"
+   ]
   },
-  "sugyot": [
+  {
+   "sugyaNumber": 2,
+   "id": "yoma-009a-s02",
+   "lineRange": {
+    "startVilnaLine": 8,
+    "endVilnaLine": 16
+   },
+   "lines": [
     {
-      "sugyaNumber": 1,
-      "id": "yoma-009a-s01",
-      "lineRange": {
-        "startVilnaLine": 1,
-        "endVilnaLine": 8
-      },
-      "lines": [
-        {
-          "vilnaLine": 1,
-          "sefariaRef": "Yoma.9a.1"
-        },
-        {
-          "vilnaLine": 2,
-          "sefariaRef": "Yoma.9a.2"
-        },
-        {
-          "vilnaLine": 5,
-          "sefariaRef": "Yoma.9a.3"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.9a.1",
-        "Yoma.9a.2",
-        "Yoma.9a.3"
-      ],
-      "display": {
-        "title": "Yochanan High Priest's dema'i decree; bakers and parhedrin pressure",
-        "oneLine": "Yochanan High Priest discovers that only trumah gedolah is universally separated; maaser sheni is neglected; his decree creates the dema'i system; the parhedrin officials pressured bakers to sell cheaply, explaining why bakers were excused from the full tithe burden.",
-        "shortSummary": "The baraita: Yochanan High Priest sent emissaries throughout the borders of Israel and saw that only trumah gedolah was being separated, but not maaser rishon, maaser ani, or maaser sheni (from 8b). Maaser rishon and maaser ani: the rule is that the one seeking to extract money from another bears the burden of proof - so the Levi and the poor man would have to prove the grain was untithed. Maaser sheni: they would separate it and take it up to Jerusalem and eat it there. As for why bakers are excused from maaser sheni: Ulla explains that the parhedrin (government enforcers) would beat the bakers every 12 months and demand they sell at low prices. Since the bakers were under such pressure, the Rabbis did not burden them further. 'Parhedrin' here means government officials/enforcers.",
-        "whats": "This section closes the bakers' legal discussion and introduces Yochanan High Priest as a reforming authority who enacted the dema'i system. The practical takeaway is that halachic leniency for bakers was partly a welfare consideration - they were under government economic pressure.",
-        "hint": "The same word 'parhedrin' appears here in two different senses: the Persian governors used earlier as a metaphor for corrupt High Priests, and here as government economic enforcers who pressured bakers. Both meanings are historically grounded."
-      },
-      "learning": {
-        "learnerQuestion": "Why were bakers specifically exempted from the dema'i maaser sheni requirement?",
-        "coreTension": "The Rabbis generally required everyone to separate maaser sheni from dema'i grain. But bakers face a commercial reality: they sell continuously and are subject to government price controls enforced by officials (parhedrin) who show up every 12 months threatening them. Burdening them further with tithe accounting would be economically impossible.",
-        "coreMove": "Ulla's explanation introduces a sociological factor into halachic reasoning: when government pressure makes a community economically precarious, the Rabbis considered that factor when legislating tithe obligations. This is not halachic flexibility but a deliberate welfare consideration embedded in the ruling.",
-        "resolution": "Practical: bakers who buy grain from amei ha'aretz need to separate only trumat maaser (1/100) and challah. They are not required to handle maaser sheni.",
-        "takeaway": {
-          "type": "legal_principle",
-          "text": "Halacha is not context-blind. When a community faces structural economic pressure that makes compliance impossible, the Rabbis can adjust obligations accordingly - not by waiving the Torah requirement but by adjusting the Rabbinic dema'i framework."
-        },
-        "reasoningPattern": {
-          "id": "welfare-consideration-in-halakha",
-          "category": "practical",
-          "notes": "Ulla's parhedrin explanation shows the Rabbis considering structural economic oppression as a factor in halachic ruling. This is distinct from the legal burden-of-proof analysis (the Levi/poor man must prove the grain was untithed)."
-        },
-        "ahaMoment": "Yochanan High Priest's survey is remarkable: instead of assuming compliance, he investigated and found that most of Israel was only doing the minimum - only trumah gedolah. The dema'i system is his pragmatic response: require separation without requiring verification, thus making the system workable.",
-        "learningBlocker": "Students may think 'dema'i' simply means 'doubtful tevel.' More precisely: dema'i is the Rabbinic category of produce from an am ha'aretz where the large tithes (trumah gedolah, trumat maaser) are generally separated, but the full tithe regime (maaser sheni, maaser ani, etc.) may not have been. The required separations from dema'i are calibrated to this real-world compliance picture.",
-        "memoryAnchor": "Yochanan sent throughout Israel, found only trumah gedolah separated, and decreed the dema'i rules. Bakers excused from dema'i maaser sheni because parhedrin government enforcers beat them annually and forced low prices - piling more obligations on them would be impossible."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "explanation",
-          "label": "Yochanan High Priest's survey and the maaser sheni situation",
-          "speaker": "Baraita",
-          "text": "Because Yochanan sent emissaries throughout Israel and saw that only trumah gedolah was being separated. Maaser rishon and maaser ani: the one who extracts from another bears the burden of proof (so the Levi/poor must prove). Maaser sheni: they would separate it and ascend to Jerusalem to eat it.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-009a-l01",
-              "vilnaLine": 1,
-              "note": "Yochanan High Priest's decree explained"
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "explanation",
-          "label": "Why maaser rishon and ani need no verification: burden of proof",
-          "speaker": "Gemara",
-          "text": "Maaser rishon and maaser ani: from the moment the grain was separated (even if there is doubt whether tithes were taken), it is no longer tevel. The Levi or the poor claimant cannot extract from the baker without proving the grain was not tithed.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-009a-l02",
-              "vilnaLine": 3,
-              "note": "Burden of proof for maaser rishon and ani"
-            }
-          ]
-        },
-        {
-          "id": "step-03",
-          "type": "explanation",
-          "label": "Ulla: parhedrin officials beat bakers annually; therefore not burdened further",
-          "speaker": "Ulla",
-          "text": "The parhedrin (government officials) would beat the bakers every 12 months, demanding they sell bread cheaply. Because the government already oppressed them economically, the Rabbis did not further burden them with the requirement to separate dema'i maaser sheni.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-009a-l05",
-              "vilnaLine": 5,
-              "note": "Ulla's sociological explanation for the baker leniency"
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "dema'i",
-        "tithes",
-        "Yochanan-High-Priest",
-        "bakers",
-        "parhedrin",
-        "maaser-sheni"
-      ],
-      "conceptRefs": [
-        "dema'i",
-        "burden-of-proof",
-        "Yochanan-High-Priest",
-        "tithes"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "label": "Yochanan High Priest's decree process",
-          "description": "Step-by-step: (1) Yochanan sends emissaries throughout Israel; (2) discovers only trumah gedolah is universally separated; (3) decrees dema'i: separate but do not investigate. Shows the pragmatic reform logic."
-        },
-        {
-          "type": "person",
-          "label": "Parhedrin officials and bakers",
-          "description": "Government enforcers pressuring bakers to sell cheaply every 12 months - visual for why the Rabbis were lenient with bakers' tithe obligations. The external pressure is part of the halachic context."
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What did Yochanan High Priest find when he sent emissaries throughout Israel regarding tithes?",
-          "answer": "Only trumah gedolah was being universally separated. Maaser rishon, maaser ani, and maaser sheni were not being properly separated by the general population."
-        },
-        {
-          "question": "Why were bakers not required to separate dema'i maaser sheni, according to Ulla?",
-          "answer": "Government officials (parhedrin) would beat the bakers annually and force them to sell at low prices. The Rabbis did not want to further burden an already economically oppressed group."
-        }
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The baker's exemption from dema'i maaser sheni is because bakers are trusted to have already separated it.",
-          "correction": "The exemption is a welfare consideration: bakers face government economic pressure and the Rabbis did not want to add further obligations on a struggling group."
-        }
-      ],
-      "relatedSugyot": [
-        {
-          "daf": "8b",
-          "sugyaId": "yoma-008b-s02",
-          "reason": "The bakers and Lishkat Parhedrin discussion that this section concludes"
-        },
-        {
-          "daf": "9a",
-          "sugyaId": "yoma-009a-s02",
-          "reason": "Immediately following: First vs. Second Temple High Priest statistics and Temple destruction causes"
-        }
-      ],
-      "finalRuling": "Practical: bakers are required to separate only trumat maaser (1/100) and challah from their dough. They are exempt from dema'i maaser sheni, maaser rishon, and maaser ani due to burden of proof and economic pressure considerations.",
-      "requiresUnderstanding": [
-        "What dema'i is and the Rabbinic tithe-separation framework",
-        "The bakers' discussion from 8b that this section concludes"
-      ],
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "review": {
-        "learning": "ai_generated",
-        "concepts": "ai_generated",
-        "argumentFlow": "ai_generated",
-        "sourceRefs": "ai_generated"
-      }
+     "vilnaLine": 8,
+     "sefariaRef": "Yoma.9a.4"
     },
     {
-      "sugyaNumber": 2,
-      "id": "yoma-009a-s02",
-      "lineRange": {
-        "startVilnaLine": 8,
-        "endVilnaLine": 16
-      },
-      "lines": [
-        {
-          "vilnaLine": 8,
-          "sefariaRef": "Yoma.9a.4"
-        },
-        {
-          "vilnaLine": 13,
-          "sefariaRef": "Yoma.9a.5"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.9a.4",
-        "Yoma.9a.5"
-      ],
-      "display": {
-        "title": "First vs. Second Temple: 18 High Priests vs. 300+; Shiloh destroyed for immorality and degradation",
-        "oneLine": "R. Yochanan expounds the irony that the righteous First Temple lasted 410 years with 18 stable High Priests while the religiously lax Second Temple lasted 420 years with 300+ High Priests; R. Yochanan ben Torta then explains why Shiloh fell - for the sins of Eli's sons, though a different sage clarifies they were not literally immoral but delayed women's bird offerings.",
-        "shortSummary": "Rabba bar bar Chana in R. Yochanan's name: Proverbs says 'the fear of God adds days; the years of the wicked will be shortened.' 'Fear of God adds days' = the First Temple, which stood 410 years and had only 18 High Priests (including long-serving Tzadikim). 'Years of wicked shortened' = the Second Temple, which stood 420 years with more than 300 High Priests - subtracting 40 years for Shimon HaTzaddik, 80 for Yochanan, 10 for Yishmael ben Favi (or 11 for R. Elazar ben Charsum), the remaining High Priests served less than one year each. R. Yochanan ben Torta: why was Shiloh destroyed? For two sins in it: giluy arayot (sexual immorality) and bizayon kodashim (desecration of sacred offerings). On giluy arayot: a different sage (R. Shmuel bar Nachmani in R. Yochanan's name) says Eli's sons did not literally commit adultery - those who say so are wrong. Rather, they delayed women's bird offerings, causing the women to be unable to return to their husbands and thus 'cohabitate' (in the words of the verse). Scripture treats the delay as equivalent to the sin itself.",
-        "whats": "This aggadic section uses historical statistics to make a theological point: the wickedness of an era does not determine how long it lasts. The Second Temple's High Priests were mostly corrupt and short-lived, yet the Temple itself outlasted the First Temple by 10 years. The destruction statistics invert the Proverbs verse - the fear of God is associated with quality (fewer, longer-serving priests) not quantity (more Temple years). The Shiloh section introduces a recurring Talmudic device: rehabilitating biblical figures from surface readings while acknowledging that some sin did occur.",
-        "hint": "The numbers are designed to shock: 300+ High Priests in 420 years. After accounting for the four long-serving ones, virtually everyone else served for less than one year. The Temple stood, but on a foundation of institutional corruption."
-      },
-      "learning": {
-        "learnerQuestion": "The Second Temple lasted 10 years longer than the First but had 300+ times more High Priests. What does the Talmud want us to take from this?",
-        "coreTension": "Longevity of the Temple and stability of its leadership are distinct. The Second Temple period outlasted the First in duration but was spiritually impoverished - as measured by how quickly High Priests turned over. The Proverbs verse is made to map onto Temple history in a counterintuitive way: the 'righteous' Temple (First) had long-serving priests; the 'wicked' one (Second) had short-serving rotating ones.",
-        "coreMove": "The calculation is precise and memorable: total Second Temple years (420), minus four exceptional High Priests' terms (40 + 80 + 10 + 11 = 141), leaves ~279 years for 300+ remaining High Priests, each serving less than a year. The arithmetic is the sermon.",
-        "resolution": "The Shiloh discussion closes with a rehabilitation: Eli's sons did not commit adultery. They committed a different sin (delaying offerings) that scripture treats with equivalent gravity. The severity of delaying korbanot for women is stated as equivalent to the most extreme sin, as a warning about neglecting Temple service.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Institutional longevity does not equal spiritual health. A corrupt institution can persist for centuries while a righteous one may be brief. The measure of a generation is not how long its institutions last but the quality of its leadership and service."
-        },
-        "reasoningPattern": {
-          "id": "statistical-aggadah",
-          "category": "aggadic",
-          "notes": "The Talmud uses historical statistics as a form of moral argument. The calculation of High Priest terms per year is not antiquarian interest - it is a vehicle for illustrating the spiritual bankruptcy of the Second Temple period's leadership."
-        },
-        "ahaMoment": "Eli's sons: R. Shmuel bar Nachmani's statement that 'anyone who says the sons of Eli sinned is wrong' is itself astonishing. The Talmud is rehabilitating people who were directly described as sinners in the Torah. The rehabilitation is not a whitewash - it identifies the actual sin (delaying offerings) which is still a serious sin, just not the one the surface reading suggests.",
-        "learningBlocker": "Students may wonder: if Eli's sons did not commit adultery, why does the verse say they 'lay with the women'? The Talmud reads that phrase as meaning the women could not go home (they were delayed at the Tabernacle waiting for their bird-offerings) and thus were kept from their husbands. Scripture 'blames' the delay as if it were the act itself.",
-        "memoryAnchor": "First Temple: 410 years, 18 High Priests (quality). Second Temple: 420 years, 300+ High Priests (quantity without quality). Shiloh: destroyed for immorality (not actually - it was the delay of offerings, which scripture treats as equivalent) and desecration of sacrifices."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "exposition",
-          "label": "Proverbs verse mapped onto Temple history",
-          "speaker": "Rabba bar bar Chana in R. Yochanan's name",
-          "text": "'Yirat Hashem tosif yamim' (fear of God adds days) = the First Temple, which stood 410 years with only 18 High Priests. 'Shnot resha'im tikatzornah' (years of the wicked will be shortened) = the Second Temple, which stood 420 years with over 300 High Priests.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-009a-l08",
-              "vilnaLine": 8,
-              "note": "Proverbs verse applied to Temple history"
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "analysis",
-          "label": "The math: subtracting the four stable High Priests",
-          "speaker": "Gemara",
-          "text": "Subtract: Shimon HaTzaddik (40 years), Yochanan (80 years), Yishmael ben Favi (10 years, or R. Elazar ben Charsum - 11 years). The remaining 300+ High Priests served the remaining years: less than one year each.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-009a-l13",
-              "vilnaLine": 13,
-              "note": "Arithmetic of Second Temple High Priest tenures"
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "First-Temple",
-        "Second-Temple",
-        "High-Priest",
-        "Shiloh",
-        "giluy-arayot",
-        "bizayon-kodashim",
-        "Eli",
-        "aggadah"
-      ],
-      "conceptRefs": [
-        "Temple-destruction",
-        "Shiloh",
-        "Eli-sons",
-        "bizayon-kodashim",
-        "giluy-arayot",
-        "High-Priest-history"
-      ],
-      "visualizableElements": [
-        {
-          "type": "comparison",
-          "label": "First vs. Second Temple High Priest statistics",
-          "description": "Two side-by-side bars: First Temple (410 years, 18 High Priests, ~23 years each) vs. Second Temple (420 years, 300+ High Priests, <1 year each after subtracting the four long-serving ones). The contrast visualizes institutional stability vs. corruption."
-        },
-        {
-          "type": "timeline",
-          "label": "Four exceptional Second Temple High Priests",
-          "description": "Timeline of Shimon HaTzaddik (40 years), Yochanan (80 years), Yishmael ben Favi (10 years), R. Elazar ben Charsum (11 years) - the four who account for 141 of the 420 years. Everything else = 300+ High Priests in ~279 years."
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "How does R. Yochanan apply the Proverbs verse 'yirat Hashem tosif yamim / shnot resha'im tikatzornah' to Temple history?",
-          "answer": "'Fear of God adds days' = First Temple (410 years, only 18 High Priests - quality/stability). 'Years of wicked shorten' = Second Temple (420 years, 300+ High Priests - rapid turnover despite longer duration)."
-        },
-        {
-          "question": "What is the actual sin of Eli's sons according to R. Shmuel bar Nachmani?",
-          "answer": "They delayed women's bird-offerings, causing the women to remain at the Tabernacle longer than necessary and be kept from their husbands. Scripture treats this delay as equivalent to adultery to emphasize the gravity of mishandling Temple service."
-        },
-        {
-          "question": "After subtracting the four long-serving Second Temple High Priests, what does the math show?",
-          "answer": "Four exceptional High Priests account for 141 years (40+80+10+11). The remaining 300+ High Priests served in the remaining ~279 years - less than one year each."
-        }
-      ],
-      "misconceptions": [
-        {
-          "misconception": "The Second Temple was holier than the First because it lasted longer.",
-          "correction": "Longevity does not indicate holiness. The Second Temple lasted longer but had far more corrupt leadership. The Talmud uses this contrast to illustrate that God's timing does not always track human merit in simple ways."
-        },
-        {
-          "misconception": "Eli's sons committed adultery with the women at the Tabernacle.",
-          "correction": "R. Shmuel bar Nachmani explicitly says this reading is wrong. Their sin was delaying the women's bird-offerings. Scripture's language ('lay with the women') is interpreted as referring to the women being forced to 'lay over' at the Tabernacle waiting for their offerings."
-        }
-      ],
-      "relatedSugyot": [
-        {
-          "daf": "9a",
-          "sugyaId": "yoma-009a-s03",
-          "reason": "9a continues with R. Yochanan ben Torta on Shiloh's destruction"
-        },
-        {
-          "daf": "8b",
-          "sugyaId": "yoma-008b-s02",
-          "reason": "The Lishkat Parhedrin section introduced Second Temple corruption; this section quantifies it"
-        }
-      ],
-      "finalRuling": null,
-      "requiresUnderstanding": [
-        "Basic Second Temple history: timeline and High Priest succession",
-        "The Proverbs verse about fear of God and years of the wicked"
-      ],
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "review": {
-        "learning": "ai_generated",
-        "concepts": "ai_generated",
-        "argumentFlow": "ai_generated",
-        "sourceRefs": "ai_generated"
-      }
-    },
-    {
-      "sugyaNumber": 3,
-      "id": "yoma-009a-s03",
-      "lineRange": {
-        "startVilnaLine": 17,
-        "endVilnaLine": 22
-      },
-      "lines": [
-        {
-          "vilnaLine": 17,
-          "sefariaRef": "Yoma.9a.6"
-        },
-        {
-          "vilnaLine": 22,
-          "sefariaRef": "Yoma.9a.7"
-        }
-      ],
-      "sefariaRefs": [
-        "Yoma.9a.6",
-        "Yoma.9a.7"
-      ],
-      "display": {
-        "title": "Shiloh destroyed for two sins; Eli's sons rehabilitated from adultery charge",
-        "oneLine": "R. Yochanan ben Torta explains why Shiloh fell - for giluy arayot and bizayon kodashim - but R. Shmuel bar Nachmani clarifies that Eli's sons did not literally commit adultery: they delayed women's bird-offerings, and scripture treats the delay as equivalent.",
-        "shortSummary": "R. Yochanan ben Torta: Shiloh was destroyed because of two sins practiced there - giluy arayot (sexual immorality) and bizayon kodashim (degradation of sacred offerings). On giluy arayot: R. Shmuel bar Nachmani in R. Yochanan's name says: anyone who says the sons of Eli sinned [in the sense of actual adultery] is simply wrong. The verse says they 'lay with the women who gathered at the entrance of the Tent of Meeting' - but in fact they delayed the processing of the women's bird-offerings (kanim). The women had to remain at the Tabernacle waiting, unable to return to their husbands. Scripture treats the delay as equivalent to the act of adultery, to underscore the severity of mishandling the Temple service.",
-        "whats": "This section closes the First Temple arc and pivots toward the 9b discussion of Temple destruction causes more broadly. The rehabilitation of Eli's sons is a key Talmudic device: holding biblical figures accountable for their actual sin (delay of offerings) rather than the worse sin the surface reading implies, while maintaining the moral gravity.",
-        "hint": "The rehabilitation is not an acquittal. Delaying a woman's purification offerings is itself a serious sin - scripture compares it to adultery to make the point. The Talmud is not exonerating Eli's sons; it is identifying the precise sin while refusing to impute something they did not actually do."
-      },
-      "learning": {
-        "learnerQuestion": "Why does scripture describe Eli's sons' behavior in terms of 'lying with women' if they only delayed their offerings?",
-        "coreTension": "The verse in Samuel seems to say something extreme. R. Shmuel bar Nachmani corrects the surface reading while still affirming that the sons did sin. The resolution: scripture attributes the downstream effect (women kept from husbands) to the priests as if they had committed the act, because their delay directly caused that harm.",
-        "coreMove": "This is the principle of 'scriptural attribution by effect': when someone's action causes another to be placed in a sin-adjacent situation (forced separation from spouse), scripture holds the original actor responsible as if they committed the act. This is a recurring Talmudic reading strategy.",
-        "resolution": "Eli's sons' actual sins: (1) delaying bird-offerings, causing women's extended stay (giluy arayot by attribution); (2) seizing raw meat before the fat was burned (bizayon kodashim). Both reflect priests treating Temple service as personal benefit.",
-        "takeaway": {
-          "type": "conceptual",
-          "text": "Scripture sometimes describes a sin in terms of its worst downstream effect rather than the literal act, in order to drive home the severity. The Talmud respects the surface reading enough to explain it without accepting it as literal."
-        },
-        "reasoningPattern": {
-          "id": "scriptural-attribution-by-effect",
-          "category": "aggadic",
-          "notes": "When someone causes another to be harmed or placed in a compromised situation, scripture may attribute the direct sin to the original actor. This is not just metaphor - it establishes halachic responsibility."
-        },
-        "ahaMoment": "'Anyone who says the sons of Eli sinned [in adultery] is wrong' - this is a bold Talmudic rehabilitation of a biblical figure directly described in harsh terms in Samuel. The rehabilitation holds them accountable for a serious sin while refusing to impute an extreme one they did not commit.",
-        "learningBlocker": "Students may think the Talmud is 'defending' Eli's sons. It is not - their sin (delaying offerings, keeping women from their husbands) is treated as equivalent to adultery in gravity. The rehabilitation is about precision, not exoneration.",
-        "memoryAnchor": "Shiloh destroyed for: delayed kanim (bird-offerings) that kept women from husbands - scripture calls it immorality. And seizure of raw meat before the fat burned - scripture calls it bizayon kodashim. Both: priests serving themselves instead of God."
-      },
-      "argumentFlow": [
-        {
-          "id": "step-01",
-          "type": "statement",
-          "label": "R. Yochanan ben Torta: Shiloh destroyed for giluy arayot and bizayon kodashim",
-          "speaker": "R. Yochanan ben Torta",
-          "text": "Why was Shiloh destroyed? For two things that were practiced there: giluy arayot (sexual immorality) and bizayon kodashim (desecration/degradation of sacred offerings).",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-009a-l17",
-              "vilnaLine": 17,
-              "note": "R. Yochanan ben Torta on Shiloh's destruction"
-            }
-          ]
-        },
-        {
-          "id": "step-02",
-          "type": "nuance",
-          "label": "Rehabilitation: Eli's sons did not literally commit adultery",
-          "speaker": "R. Shmuel bar Nachmani in R. Yochanan's name",
-          "text": "Anyone who says that the sons of Eli sinned [in the sense of adultery] is simply wrong. The verse says they 'lay with the women who gathered at the entrance of the Tent of Meeting' - but actually they delayed the women's bird-offerings (kanim), causing the women to remain there longer, unable to return to their husbands. Scripture treats the delay as if they had committed the act itself.",
-          "sourceRefs": [
-            {
-              "sourceType": "gemara",
-              "lineId": "yoma-009a-l22",
-              "vilnaLine": 22,
-              "note": "Rehabilitation of Eli's sons from literal adultery charge"
-            }
-          ]
-        }
-      ],
-      "topicTags": [
-        "Shiloh",
-        "Eli",
-        "bird-offerings",
-        "giluy-arayot",
-        "bizayon-kodashim",
-        "Temple-destruction",
-        "rehabilitation"
-      ],
-      "conceptRefs": [
-        "Shiloh-destruction",
-        "giluy-arayot-by-attribution",
-        "bizayon-kodashim",
-        "kanim"
-      ],
-      "visualizableElements": [
-        {
-          "type": "sequence",
-          "label": "Chain of harm from delayed bird-offerings",
-          "description": "Step-by-step: woman brings kanim -> Eli's sons delay processing -> woman cannot achieve purity -> woman cannot return to husband -> scripture attributes 'lying with her' to the priests. Visualizes why the attribution works."
-        }
-      ],
-      "quizSeeds": [
-        {
-          "question": "What were the two sins for which Shiloh was destroyed?",
-          "answer": "Giluy arayot (sexual immorality - attributed because Eli's sons delayed women's bird-offerings, keeping them from their husbands) and bizayon kodashim (degradation of sacred offerings - their servants seized raw meat before the fat was burned)."
-        },
-        {
-          "question": "What is R. Shmuel bar Nachmani's rehabilitation of Eli's sons?",
-          "answer": "They did not commit literal adultery. Their sin was delaying the processing of women's bird-offerings (kanim). This kept the women at the Tabernacle, unable to return to their husbands. Scripture holds the priests responsible as if they had committed the act, because they caused the women's separation from their husbands."
-        }
-      ],
-      "misconceptions": [
-        {
-          "misconception": "R. Shmuel bar Nachmani is saying Eli's sons were completely innocent.",
-          "correction": "He is saying they did not commit literal adultery. They did commit a serious sin (delaying offerings). Scripture treats the effect of their sin as equivalent to adultery to emphasize the gravity of mishandling Temple service."
-        }
-      ],
-      "relatedSugyot": [
-        {
-          "daf": "9b",
-          "sugyaId": "yoma-009b-s01",
-          "reason": "9b immediately continues with the details of bizayon kodashim and the broader Temple destruction theme"
-        },
-        {
-          "daf": "9a",
-          "sugyaId": "yoma-009a-s02",
-          "reason": "The First/Second Temple High Priest statistics that precede this Shiloh discussion"
-        }
-      ],
-      "finalRuling": null,
-      "requiresUnderstanding": [
-        "Who Eli's sons were and their role in the Tabernacle at Shiloh (I Samuel 2)",
-        "The principle of scriptural attribution by effect"
-      ],
-      "difficulty": "intermediate",
-      "alternateAngles": [],
-      "review": {
-        "learning": "ai_generated",
-        "concepts": "ai_generated",
-        "argumentFlow": "ai_generated",
-        "sourceRefs": "ai_generated"
-      }
+     "vilnaLine": 13,
+     "sefariaRef": "Yoma.9a.5"
     }
-  ],
-  "rashiTranslations": [
+   ],
+   "sefariaRefs": [
+    "Yoma.9a.4",
+    "Yoma.9a.5"
+   ],
+   "display": {
+    "title": "First vs. Second Temple: 18 High Priests vs. 300+",
+    "oneLine": "R. Yochanan expounds the irony that the righteous First Temple lasted 410 years with 18 stable High Priests, while the religiously lax Second Temple lasted 420 years with 300+ High Priests.",
+    "shortSummary": "Rabba bar bar Chana in R. Yochanan's name: Proverbs says 'the fear of God adds days; the years of the wicked will be shortened.' 'Fear of God adds days' = the First Temple, which stood 410 years and had only 18 High Priests. 'Years of wicked shortened' = the Second Temple, which stood 420 years with more than 300 High Priests - subtracting 40 years for Shimon HaTzaddik, 80 for Yochanan, 10 for Yishmael ben Favi (or 11 for R. Elazar ben Charsum), the remaining High Priests served less than one year each. The Gemara then turns to a separate topic: why Shiloh was destroyed, taken up in the next sugya.",
+    "whats": "This aggadic section uses historical statistics to make a theological point: the wickedness of an era does not determine how long it lasts. The Second Temple's High Priests were mostly corrupt and short-lived, yet the Temple itself outlasted the First Temple by 10 years. The destruction statistics invert the Proverbs verse - the fear of God is associated with quality (fewer, longer-serving priests) not quantity (more Temple years).",
+    "hint": "The Second Temple outlasted the First by 10 years despite having 300+ High Priests to the First's 18 - what does that contrast say about what actually makes an institution endure?"
+   },
+   "learning": {
+    "learnerQuestion": "The Second Temple lasted 10 years longer than the First but had 300+ times more High Priests. What does the Talmud want us to take from this?",
+    "coreTension": "Longevity of the Temple and stability of its leadership are distinct. The Second Temple period outlasted the First in duration but was spiritually impoverished - as measured by how quickly High Priests turned over. The Proverbs verse is made to map onto Temple history in a counterintuitive way: the 'righteous' Temple (First) had long-serving priests; the 'wicked' one (Second) had short-serving rotating ones.",
+    "coreMove": "The calculation is precise and memorable: total Second Temple years (420), minus four exceptional High Priests' terms (40 + 80 + 10 + 11 = 141), leaves ~279 years for 300+ remaining High Priests, each serving less than a year. The arithmetic is the sermon.",
+    "resolution": "The arithmetic makes its point: institutional longevity and leadership stability are distinct measures. The Gemara then moves to a separate topic (why Shiloh was destroyed) in the next sugya.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "Institutional longevity does not equal spiritual health. A corrupt institution can persist for centuries while a righteous one may be brief. The measure of a generation is not how long its institutions last but the quality of its leadership and service."
+    },
+    "reasoningPattern": {
+     "id": "statistical-aggadah",
+     "category": "aggadic",
+     "notes": "The Talmud uses historical statistics as a form of moral argument. The calculation of High Priest terms per year is not antiquarian interest - it is a vehicle for illustrating the spiritual bankruptcy of the Second Temple period's leadership."
+    },
+    "ahaMoment": "The numbers are designed to shock: 300+ High Priests in 420 years. After accounting for the four long-serving ones (141 years combined), the rest served less than a year each on average - the Temple stood, but on a foundation of institutional corruption.",
+    "learningBlocker": "Students may assume a longer-standing Temple reflects greater merit. The Gemara's point is the opposite: the Second Temple outlasted the First by 10 years despite (or because of) its corrupt, rapidly-rotating leadership.",
+    "memoryAnchor": "First Temple: 410 years, 18 High Priests (quality). Second Temple: 420 years, 300+ High Priests (quantity without quality) - subtract the four long-serving priests (141 years) and the rest served less than a year each."
+   },
+   "argumentFlow": [
     {
-      "vilnaLine": 1,
-      "en": "'Because he sent' - Yochanan the High Priest, who decreed concerning demai; in Sotah, in the chapter Egla Arufa",
-      "linkedGemaraLineIds": [
-        "yoma-009a-l01"
-      ]
+     "id": "step-01",
+     "type": "exposition",
+     "label": "Proverbs verse mapped onto Temple history",
+     "speaker": "Rabba bar bar Chana in R. Yochanan's name",
+     "text": "'Yirat Hashem tosif yamim' (fear of God adds days) = the First Temple, which stood 410 years with only 18 High Priests. 'Shnot resha'im tikatzornah' (years of the wicked will be shortened) = the Second Temple, which stood 420 years with over 300 High Priests.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-009a-l08",
+       "vilnaLine": 8,
+       "note": "Proverbs verse applied to Temple history"
+      }
+     ]
     },
     {
-      "vilnaLine": 2,
-      "en": "(48a). 'The one who takes from his fellow bears the burden of proof' - once he has separated it",
-      "linkedGemaraLineIds": [
-        "yoma-009a-l01",
-        "yoma-009a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 3,
-      "en": "and released it from tevel status, there is in it only a doubt of robbing the Levites and the poor; except",
-      "linkedGemaraLineIds": [
-        "yoma-009a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 4,
-      "en": "for the terumat maaser within the first tithe - that he must give to a priest, since there is a prohibition, and the sin",
-      "linkedGemaraLineIds": [
-        "yoma-009a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 5,
-      "en": "of death in eating it; but to the Levite and the poor man he may say: bring",
-      "linkedGemaraLineIds": [
-        "yoma-009a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 6,
-      "en": "proof that the am haaretz from whom I bought",
-      "linkedGemaraLineIds": [
-        "yoma-009a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 7,
-      "en": "did not tithe. 'Let them separate it and bring it up' - for it carries",
-      "linkedGemaraLineIds": [
-        "yoma-009a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 8,
-      "en": "the prohibition of 'you may not eat it within your gates';",
-      "linkedGemaraLineIds": [
-        "yoma-009a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 9,
-      "en": "let them separate it so as to fix its tevel, since they",
-      "linkedGemaraLineIds": [
-        "yoma-009a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 10,
-      "en": "lose nothing by it, for they themselves",
-      "linkedGemaraLineIds": [
-        "yoma-009a-l02"
-      ]
-    },
-    {
-      "vilnaLine": 11,
-      "en": "then eat it in Jerusalem. 'Beat",
-      "linkedGemaraLineIds": [
-        "yoma-009a-l02",
-        "yoma-009a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 12,
-      "en": "them' - the bakers, all twelve months;",
-      "linkedGemaraLineIds": [
-        "yoma-009a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 13,
-      "en": "from year to year the appointees are replaced,",
-      "linkedGemaraLineIds": [
-        "yoma-009a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 14,
-      "en": "and they bear down to find pretexts to collect money",
-      "linkedGemaraLineIds": [
-        "yoma-009a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 15,
-      "en": "when they are newly appointed. 'They did not burden them' -",
-      "linkedGemaraLineIds": [
-        "yoma-009a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 16,
-      "en": "and they relied on saying that most amei haaretz",
-      "linkedGemaraLineIds": [
-        "yoma-009a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 17,
-      "en": "do tithe. 'Pursei' - officers of the king.",
-      "linkedGemaraLineIds": [
-        "yoma-009a-l05"
-      ]
-    },
-    {
-      "vilnaLine": 18,
-      "en": "That they delayed",
-      "linkedGemaraLineIds": [
-        "yoma-009a-l22"
-      ]
+     "id": "step-02",
+     "type": "analysis",
+     "label": "The math: subtracting the four stable High Priests",
+     "speaker": "Gemara",
+     "text": "Subtract: Shimon HaTzaddik (40 years), Yochanan (80 years), Yishmael ben Favi (10 years, or R. Elazar ben Charsum - 11 years). The remaining 300+ High Priests served the remaining years: less than one year each.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-009a-l13",
+       "vilnaLine": 13,
+       "note": "Arithmetic of Second Temple High Priest tenures"
+      }
+     ]
     }
-  ],
-  "glossary": [
+   ],
+   "topicTags": [
+    "first-temple",
+    "second-temple",
+    "high-priest",
+    "aggadah"
+   ],
+   "conceptRefs": [
+    "temple-destruction",
+    "high-priest-history"
+   ],
+   "visualizableElements": [
     {
-      "he": "דְּמַאי",
-      "translit": "Dema'i",
-      "en": "Produce of doubtful tithe status - Yochanan High Priest decreed the dema'i rules after finding that most people only separated trumah gedolah reliably."
+     "item": "First vs. Second Temple High Priest statistics: First Temple (410 years, 18 High Priests, ~23 years each) vs. Second Temple (420 years, 300+ High Priests, under 1 year each after subtracting the four long-serving ones). The contrast visualizes institutional stability vs. corruption.",
+     "type": "comparison",
+     "label": "First vs. Second Temple High Priest statistics"
     },
     {
-      "he": "הַמּוֹצִיא מֵחֲבֵרוֹ עָלָיו הָרְאָיָה",
-      "translit": "Hamotzi m'chaveiro alav hara'ayah",
-      "en": "The one who seeks to extract from another bears the burden of proof. Applied here: the Levi or poor person claiming their tithe must prove the baker did not already separate it."
-    },
-    {
-      "he": "קִינִּים",
-      "translit": "Kanim",
-      "en": "Bird-offerings (pairs of doves or pigeons) brought by women after childbirth or bodily flux. Eli's sons delayed processing them, causing women to remain at the Tabernacle."
+     "item": "The four exceptional Second Temple High Priests - Shimon HaTzaddik (40 years), Yochanan (80 years), Yishmael ben Favi (10 years), R. Elazar ben Charsum (11 years) - account for 141 of the 420 years; everything else is 300+ High Priests in the remaining ~279 years.",
+     "type": "timeline",
+     "label": "Four exceptional Second Temple High Priests"
     }
-  ]
+   ],
+   "quizSeeds": [
+    {
+     "question": "How does R. Yochanan apply the Proverbs verse 'yirat Hashem tosif yamim / shnot resha'im tikatzornah' to Temple history?",
+     "answer": "'Fear of God adds days' = First Temple (410 years, only 18 High Priests - quality/stability). 'Years of wicked shorten' = Second Temple (420 years, 300+ High Priests - rapid turnover despite longer duration)."
+    },
+    {
+     "question": "After subtracting the four long-serving Second Temple High Priests, what does the math show?",
+     "answer": "Four exceptional High Priests account for 141 years (40+80+10+11). The remaining 300+ High Priests served in the remaining ~279 years - less than one year each."
+    }
+   ],
+   "misconceptions": [
+    {
+     "misconception": "The Second Temple was holier than the First because it lasted longer.",
+     "correction": "Longevity does not indicate holiness. The Second Temple lasted longer but had far more corrupt leadership. The Talmud uses this contrast to illustrate that God's timing does not always track human merit in simple ways."
+    }
+   ],
+   "relatedSugyot": [
+    {
+     "daf": "9a",
+     "sugyaId": "yoma-009a-s03",
+     "reason": "9a continues with R. Yochanan ben Torta on Shiloh's destruction"
+    },
+    {
+     "daf": "8b",
+     "sugyaId": "yoma-008b-s02",
+     "reason": "The Lishkat Parhedrin section introduced Second Temple corruption; this section quantifies it"
+    }
+   ],
+   "finalRuling": null,
+   "requiresUnderstanding": [],
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "review": {
+    "learning": "ai_generated",
+    "concepts": "ai_generated",
+    "argumentFlow": "ai_generated",
+    "sourceRefs": "ai_generated"
+   },
+   "prerequisiteKnowledge": [
+    "Basic Second Temple history: timeline and High Priest succession",
+    "The Proverbs verse about fear of God and years of the wicked"
+   ]
+  },
+  {
+   "sugyaNumber": 3,
+   "id": "yoma-009a-s03",
+   "lineRange": {
+    "startVilnaLine": 17,
+    "endVilnaLine": 22
+   },
+   "lines": [
+    {
+     "vilnaLine": 17,
+     "sefariaRef": "Yoma.9a.6"
+    },
+    {
+     "vilnaLine": 22,
+     "sefariaRef": "Yoma.9a.7"
+    }
+   ],
+   "sefariaRefs": [
+    "Yoma.9a.6",
+    "Yoma.9a.7"
+   ],
+   "display": {
+    "title": "Shiloh destroyed for two sins; Eli's sons rehabilitated - explanation cut short",
+    "oneLine": "R. Yochanan ben Torta explains why Shiloh fell - for giluy arayot and bizayon kodashim; R. Shmuel bar Nachmani then says whoever claims Eli's sons literally sinned is mistaken, but the daf cuts off after the word 'because they delayed' - the actual explanation continues on 9b.",
+    "shortSummary": "R. Yochanan ben Torta: Shiloh was destroyed because of two sins practiced there - giluy arayot (sexual immorality) and bizayon kodashim (degradation of sacred offerings). On giluy arayot, the Gemara cites the verse (1 Samuel 2:22) that Eli, now very old, heard of all his sons did and how they lay with the women who assembled at the entrance of the Tent of Meeting. R. Shmuel bar Nachmani in R. Yochanan's name then says: anyone who says the sons of Eli sinned [literally] is simply mistaken - rather, it was 'because they delayed...' - and the daf cuts off mid-sentence at that word. Rashi's own comment on this word is just 'that they delayed,' with no further elaboration; the explanation of what was delayed and why it is treated as equivalent to the verse's language continues on 9b.",
+    "whats": "This section opens the rehabilitation of Eli's sons from a literal adultery charge, but the daf ends before the rehabilitation is actually explained. Only R. Yochanan ben Torta's two-sins framework and the verse citation are fully established within 9a; the specific nature of the delay and how it relates to the verse's language is 9b's content.",
+    "hint": "By the time 9a ends, has the Gemara explained what Eli's sons actually delayed - or has it only said that they did?"
+   },
+   "learning": {
+    "learnerQuestion": "What does R. Shmuel bar Nachmani say about Eli's sons, and how far does the explanation get by the end of 9a?",
+    "coreTension": "The verse in Samuel seems to describe something extreme. R. Shmuel bar Nachmani flatly rejects a literal reading, promising an alternative explanation beginning with 'because they delayed' - but the daf ends before saying what was delayed or why that is treated as equivalent to the verse's language.",
+    "coreMove": "R. Yochanan ben Torta identifies two named categories of sin at Shiloh; the Gemara then works through the first (giluy arayot) by citing the verse and immediately qualifying it, but the qualification's own substance is cut off after its opening word.",
+    "resolution": "Not yet reached within 9a. R. Yochanan ben Torta's two-sins framework and the citation are established; the content of the delay and its connection to the verse's language continue on 9b.",
+    "takeaway": {
+     "type": "conceptual",
+     "text": "A rehabilitating qualification can be stated before its substance is given; the Gemara sometimes names its conclusion (Eli's sons did not literally sin) before explaining what actually happened."
+    },
+    "reasoningPattern": {
+     "id": "cut-off-citation-continues-next-daf",
+     "category": "structural",
+     "notes": "The same daf-boundary pattern seen elsewhere on this daf's neighbors: a citation or explanation begins but is completed only on the next daf. Rashi's own terse note here ('that they delayed,' with nothing further) confirms rather than resolves the cutoff."
+    },
+    "ahaMoment": "'Anyone who says the sons of Eli sinned is mistaken' is a bold rehabilitation of a biblical figure described in harsh terms in Samuel - stated before the Gemara has actually explained what they did instead.",
+    "learningBlocker": "Students may assume the rehabilitation is fully explained within 9a. It is not: only the claim itself and the word 'because they delayed' appear here; what was delayed and why scripture's language applies to it are explained on 9b.",
+    "memoryAnchor": "R. Yochanan ben Torta: Shiloh destroyed for giluy arayot and bizayon kodashim. R. Shmuel bar Nachmani: Eli's sons did not literally sin - 'because they delayed...' (cut off at 9a's end, explanation on 9b)."
+   },
+   "argumentFlow": [
+    {
+     "id": "step-01",
+     "type": "statement",
+     "label": "R. Yochanan ben Torta: Shiloh destroyed for giluy arayot and bizayon kodashim",
+     "speaker": "R. Yochanan ben Torta",
+     "text": "Why was Shiloh destroyed? For two things that were practiced there: giluy arayot (sexual immorality) and bizayon kodashim (desecration/degradation of sacred offerings).",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-009a-l17",
+       "vilnaLine": 17,
+       "note": "R. Yochanan ben Torta on Shiloh's destruction"
+      }
+     ]
+    },
+    {
+     "id": "step-02",
+     "type": "stub",
+     "label": "Verse cited, then R. Shmuel bar Nachmani's rehabilitation begins - cut off after 'because they delayed'",
+     "speaker": "Gemara / R. Shmuel bar Nachmani in R. Yochanan's name",
+     "text": "The Gemara cites the verse (1 Samuel 2:22): Eli, now very old, heard all that his sons did and how they lay with the women who assembled at the entrance of the Tent of Meeting. R. Shmuel bar Nachmani in R. Yochanan's name says: anyone who says the sons of Eli sinned is simply mistaken - rather, 'because they delayed...' - the citation is cut off after this word. Rashi's own comment here is just 'that they delayed,' with the actual explanation continuing on 9b.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-009a-l22",
+       "vilnaLine": 22,
+       "note": "Citation cut off mid-sentence; Rashi's comment gives no further elaboration"
+      }
+     ]
+    }
+   ],
+   "topicTags": [
+    "shiloh",
+    "eli",
+    "giluy-arayot",
+    "bizayon-kodashim",
+    "temple-destruction"
+   ],
+   "conceptRefs": [
+    "shiloh-destruction",
+    "eli-sons",
+    "bizayon-kodashim"
+   ],
+   "visualizableElements": [
+    {
+     "item": "R. Yochanan ben Torta's two named sins at Shiloh (giluy arayot, bizayon kodashim), the verse citation about Eli's sons, and R. Shmuel bar Nachmani's rehabilitating claim - which cuts off after 'because they delayed,' with the explanation continuing on 9b.",
+     "type": "sequence",
+     "label": "Shiloh's two sins and the cut-off rehabilitation"
+    }
+   ],
+   "quizSeeds": [
+    {
+     "question": "What were the two sins for which Shiloh was destroyed, according to R. Yochanan ben Torta?",
+     "answer": "Giluy arayot (sexual immorality) and bizayon kodashim (degradation of sacred offerings)."
+    },
+    {
+     "question": "By the end of 9a, has the Gemara explained what Eli's sons actually delayed?",
+     "answer": "No. R. Shmuel bar Nachmani says anyone who claims they literally sinned is mistaken, and begins 'because they delayed...' - but the daf cuts off at that word, and even Rashi's own comment there adds nothing further. The explanation continues on 9b."
+    }
+   ],
+   "misconceptions": [
+    {
+     "misconception": "9a fully explains R. Shmuel bar Nachmani's rehabilitation of Eli's sons.",
+     "correction": "9a only states the rehabilitating claim and its opening word ('because they delayed'); the daf cuts off before explaining what was delayed or how it relates to the verse's language. That explanation is 9b's content."
+    }
+   ],
+   "relatedSugyot": [
+    {
+     "daf": "9b",
+     "sugyaId": "yoma-009b-s01",
+     "reason": "9b immediately continues with the details of bizayon kodashim and the broader Temple destruction theme"
+    },
+    {
+     "daf": "9a",
+     "sugyaId": "yoma-009a-s02",
+     "reason": "The First/Second Temple High Priest statistics that precede this Shiloh discussion"
+    }
+   ],
+   "finalRuling": null,
+   "requiresUnderstanding": [],
+   "difficulty": "intermediate",
+   "alternateAngles": [],
+   "review": {
+    "learning": "ai_generated",
+    "concepts": "ai_generated",
+    "argumentFlow": "ai_generated",
+    "sourceRefs": "ai_generated"
+   },
+   "prerequisiteKnowledge": [
+    "Who Eli's sons were and their role at the Tabernacle in Shiloh (I Samuel 2)"
+   ]
+  }
+ ],
+ "rashiTranslations": [
+  {
+   "vilnaLine": 1,
+   "en": "'Because he sent' - Yochanan the High Priest, who decreed concerning demai; in Sotah, in the chapter Egla Arufa",
+   "linkedGemaraLineIds": [
+    "yoma-009a-l01"
+   ]
+  },
+  {
+   "vilnaLine": 2,
+   "en": "(48a). 'The one who takes from his fellow bears the burden of proof' - once he has separated it",
+   "linkedGemaraLineIds": [
+    "yoma-009a-l01",
+    "yoma-009a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 3,
+   "en": "and released it from tevel status, there is in it only a doubt of robbing the Levites and the poor; except",
+   "linkedGemaraLineIds": [
+    "yoma-009a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 4,
+   "en": "for the terumat maaser within the first tithe - that he must give to a priest, since there is a prohibition, and the sin",
+   "linkedGemaraLineIds": [
+    "yoma-009a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 5,
+   "en": "of death in eating it; but to the Levite and the poor man he may say: bring",
+   "linkedGemaraLineIds": [
+    "yoma-009a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 6,
+   "en": "proof that the am haaretz from whom I bought",
+   "linkedGemaraLineIds": [
+    "yoma-009a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 7,
+   "en": "did not tithe. 'Let them separate it and bring it up' - for it carries",
+   "linkedGemaraLineIds": [
+    "yoma-009a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 8,
+   "en": "the prohibition of 'you may not eat it within your gates';",
+   "linkedGemaraLineIds": [
+    "yoma-009a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 9,
+   "en": "let them separate it so as to fix its tevel, since they",
+   "linkedGemaraLineIds": [
+    "yoma-009a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 10,
+   "en": "lose nothing by it, for they themselves",
+   "linkedGemaraLineIds": [
+    "yoma-009a-l02"
+   ]
+  },
+  {
+   "vilnaLine": 11,
+   "en": "then eat it in Jerusalem. 'Beat",
+   "linkedGemaraLineIds": [
+    "yoma-009a-l02",
+    "yoma-009a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 12,
+   "en": "them' - the bakers, all twelve months;",
+   "linkedGemaraLineIds": [
+    "yoma-009a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 13,
+   "en": "from year to year the appointees are replaced,",
+   "linkedGemaraLineIds": [
+    "yoma-009a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 14,
+   "en": "and they bear down to find pretexts to collect money",
+   "linkedGemaraLineIds": [
+    "yoma-009a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 15,
+   "en": "when they are newly appointed. 'They did not burden them' -",
+   "linkedGemaraLineIds": [
+    "yoma-009a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 16,
+   "en": "and they relied on saying that most amei haaretz",
+   "linkedGemaraLineIds": [
+    "yoma-009a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 17,
+   "en": "do tithe. 'Pursei' - officers of the king.",
+   "linkedGemaraLineIds": [
+    "yoma-009a-l05"
+   ]
+  },
+  {
+   "vilnaLine": 18,
+   "en": "That they delayed",
+   "linkedGemaraLineIds": [
+    "yoma-009a-l22"
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "he": "דְּמַאי",
+   "translit": "Dema'i",
+   "en": "Produce of doubtful tithe status - Yochanan High Priest decreed the dema'i rules after finding that most people only separated trumah gedolah reliably."
+  },
+  {
+   "he": "הַמּוֹצִיא מֵחֲבֵרוֹ עָלָיו הָרְאָיָה",
+   "translit": "Hamotzi m'chaveiro alav hara'ayah",
+   "en": "The one who seeks to extract from another bears the burden of proof. Applied here: the Levi or poor person claiming their tithe must prove the baker did not already separate it."
+  },
+  {
+   "he": "קִינִּים",
+   "translit": "Kanim",
+   "en": "Bird-offerings (pairs of doves or pigeons) brought by women after childbirth or bodily flux. Eli's sons delayed processing them, causing women to remain at the Tabernacle."
+  }
+ ]
 }
