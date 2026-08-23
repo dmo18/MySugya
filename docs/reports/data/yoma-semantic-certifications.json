@@ -3462,11 +3462,11 @@
       "daf": "5b",
       "state": "CERTIFIED",
       "firstPass": {
-        "reviewId": "sonnet5-5b-first-20260823a",
+        "reviewId": "sonnet5-5b-first-20260823a-refresh",
         "sourceFirst": true,
         "verdict": "VERIFIED",
         "reviewedSourceFingerprint": "786a020f1eadf2979e5b0e4dfdaebe14623ae77de35c1080d96082a895854d93",
-        "reviewedSemanticFingerprint": "ae6319ea79a7ab3601674b317eb7fb1baeee28286bace9ce9119f15e6a05e610",
+        "reviewedSemanticFingerprint": "5025842f1b3c6f170f4112e422decbb7f461f7f2157db2fbc14b68a7aae77bbe",
         "evidence": {
           "reviewId": "sonnet5-5b-first-20260823a",
           "module": "yoma",
@@ -3510,7 +3510,7 @@
       "sourceFingerprint": "786a020f1eadf2979e5b0e4dfdaebe14623ae77de35c1080d96082a895854d93",
       "semanticFingerprint": "5025842f1b3c6f170f4112e422decbb7f461f7f2157db2fbc14b68a7aae77bbe",
       "secondPass": {
-        "reviewId": "sonnet5-5b-second-20260823b",
+        "reviewId": "sonnet5-5b-second-20260823b-refresh",
         "sourceFirst": true,
         "verdict": "CONFIRMED",
         "reviewedSourceFingerprint": "786a020f1eadf2979e5b0e4dfdaebe14623ae77de35c1080d96082a895854d93",
@@ -3550,7 +3550,7 @@
           "declaration": "Independently re-read the full daf and re-checked every scriptural citation, the sugya boundary against the daf's confirmed true line count, and the open-ended framing of the belt dispute, without consulting first-pass reasoning. No remaining or new defect found on any sugya."
         }
       },
-      "certifiedAtCommit": "6e7559fda83d3a0b262b5cef60d70f826f7de0d5"
+      "certifiedAtCommit": "e0c21fdf7cbf91897aff745c5e6fb615aa8c5bf1"
     },
     "yoma-005b-s02": {
       "sugyaId": "yoma-005b-s02",
