@@ -24,6 +24,11 @@ SUPPORT_FILES = {
     "VERSION",
     "package.json",
     "package-lock.json",
+    # Deterministic regeneration triggered by the VERSION bump above (via
+    # generate_rashi_docs.py) and required by check:rashi-docs:yoma's
+    # freshness gate in the same validate:offline:yoma chain this scope
+    # guard also runs in. Content is version/commit stamps only.
+    "docs/rashi-audit-backlog.md",
 }
 
 
