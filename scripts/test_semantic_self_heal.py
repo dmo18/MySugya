@@ -2,7 +2,7 @@
 """Smoke tests for semantic campaign packet/state tooling."""
 from __future__ import annotations
 
-from semantic_certification import corpus_status, load_corpus
+from semantic_certification import certificate_status, corpus_status, load_corpus
 from semantic_daf_packet import build_packet
 from semantic_self_heal import action_for, ordered_details
 
@@ -26,10 +26,24 @@ def main() -> None:
         "second-pass packet must not expose first-pass review evidence"
     )
 
-    counts, details = corpus_status("yoma")
+    counts, _details = corpus_status("yoma")
     assert sum(v for k, v in counts.items() if k != "ORPHANED_RECORD") == 492
-    assert counts.get("UNCERTIFIED") == 492, "bootstrap must grandfather zero sugyot"
-    assert details["yoma-042a-s01"]["state"] == "UNCERTIFIED"
+
+    # The live registry legitimately gains CERTIFIED records as the campaign
+    # progresses daf by daf, so asserting a fixed snapshot count (or that any
+    # one specific sugya is still UNCERTIFIED) here would fail on ordinary,
+    # correct progress rather than on an actual regression. The durable
+    # "bootstrap grandfathers nothing" property is instead checked directly
+    # against certificate_status with an explicit absent record (None) for
+    # every corpus sugya, independent of whatever the live registry currently
+    # contains.
+    for sid, (daf, doc, sugya) in corpus.items():
+        state, _problems = certificate_status("yoma", daf, doc, sugya, None)
+        assert state == "UNCERTIFIED", (
+            f"{sid}: a sugya with no certification record must default to "
+            f"UNCERTIFIED regardless of legacy review metadata, got {state}"
+        )
+
     assert action_for("UNCERTIFIED") == "AUDIT"
     assert action_for("REPAIR_REQUIRED") == "REPAIR"
     assert action_for("CERTIFIED") == "DONE"
