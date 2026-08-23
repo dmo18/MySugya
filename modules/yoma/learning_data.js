@@ -9589,7 +9589,7 @@ const DAF_CONTENT = {
             type: "proof",
             label: "Source for meshicha requiring seven days ab initio",
             speaker: "Gemara",
-            text: "From Exod. 28/29: 'The sacred garments of Aaron shall be for his sons to be anointed in them and consecrated in them.' Anointing is juxtaposed to garment-wearing. Just as garment-wearing must be done for seven days ab initio (from Exod. 29:30), so too anointing must be done for seven days ab initio.",
+            text: "From Exodus 29:29: 'The sacred garments of Aaron shall be for his sons to be anointed in them and consecrated in them.' Anointing is juxtaposed to garment-wearing. Just as garment-wearing must be done for seven days ab initio (from Exod. 29:30), so too anointing must be done for seven days ab initio.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -9604,7 +9604,7 @@ const DAF_CONTENT = {
             type: "proof",
             label: "R. Yitzchak bar Bisna: 'kachah' is R. Yochanan's source",
             speaker: "R. Yitzchak bar Bisna",
-            text: "The source for R. Yochanan's position: the word 'kachah' (thus/so) in 'do thus to Aaron and his sons' (Lev. 8:34). 'Kachah' means exact replication - every detail written in the inauguration passage must be observed exactly, and failure to do so invalidates.",
+            text: "The source for R. Yochanan's position: the word 'kachah' (thus/so) in 'do thus to Aaron and his sons' (Exodus 29:35). 'Kachah' means exact replication - every detail written in the inauguration passage must be observed exactly, and failure to do so invalidates.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -9688,7 +9688,7 @@ const DAF_CONTENT = {
             priority: 1
           },
           {
-            item: "Boundary diagram: 'kachah' arrow pointing only at requirements listed inside the inauguration passage (Lev. 8), while requirements from Exod. 28/29 sit outside with a question mark - the stub question made visual",
+            item: "Boundary diagram: 'kachah' arrow pointing only at requirements listed inside the inauguration passage (Exodus 29), while requirements from Exod. 28/29 sit outside with a question mark - the stub question made visual",
             role: "aha",
             priority: 2
           }
@@ -9707,7 +9707,7 @@ const DAF_CONTENT = {
           },
           {
             question: "What is R. Yitzchak bar Bisna's source for R. Yochanan's principle that all inauguration requirements are indispensable?",
-            answer: "The word 'kachah' (thus/so) in 'do thus to Aaron and his sons' (Lev. 8:34). 'Kachah' signals exact replication - every detail written in the inauguration passage must be performed exactly, and failure invalidates the service.",
+            answer: "The word 'kachah' (thus/so) in 'do thus to Aaron and his sons' (Exodus 29:35). 'Kachah' signals exact replication - every detail written in the inauguration passage must be performed exactly, and failure invalidates the service.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -9718,7 +9718,7 @@ const DAF_CONTENT = {
           },
           {
             question: "Why does the daf end with an open question?",
-            answer: "Because 'kachah' only covers requirements explicitly written in the inauguration passage in Lev. 8. Many inauguration requirements are written elsewhere - for example, the priestly garment details in Exod. 28. 'Kachah' alone cannot make those requirements invalidating conditions. The Gemara ends with a stub ('milta') noting this gap, which the discussion on the next page continues to address.",
+            answer: "Because 'kachah' only covers requirements explicitly written in the inauguration passage in Exodus 29. Many inauguration requirements are written elsewhere - for example, the priestly garment details in Exod. 28. 'Kachah' alone cannot make those requirements invalidating conditions. The Gemara ends with a stub ('milta') noting this gap, which the discussion on the next page continues to address.",
             sourceRefs: [
               {
                 sourceType: "gemara",
