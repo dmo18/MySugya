@@ -3456,6 +3456,197 @@
         }
       },
       "certifiedAtCommit": "28368d4a4e48ad72fad75805365988de2834624b"
+    },
+    "yoma-005b-s01": {
+      "sugyaId": "yoma-005b-s01",
+      "daf": "5b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-5b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "786a020f1eadf2979e5b0e4dfdaebe14623ae77de35c1080d96082a895854d93",
+        "reviewedSemanticFingerprint": "ae6319ea79a7ab3601674b317eb7fb1baeee28286bace9ce9119f15e6a05e610",
+        "evidence": {
+          "reviewId": "sonnet5-5b-first-20260823a",
+          "module": "yoma",
+          "daf": "5b",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-34, confirmed to be the daf's true full extent via direct read of modules/yoma/assets/talmuddev/5b.json) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-5: The stub question from 5a's end is restated. Three Amoraim bridge the Exodus-kachah gap to Leviticus inauguration requirements: Rav Nachman bar Yitzchak via gezerah shavah on the repeated word 'petach' (opening); Rav Mesharshiya from the inclusive phrase 'u-shmartem et mishmeret Hashem' (Lev. 8:35); Rav Ashi from 'ki chen tzuviti' (also in Lev. 8:35) as a blanket warrant.",
+              "Lines 5-9: A baraita distinguishes three near-identical phrases that recur across Lev. 8-10: 'ki chen tzuviti' (a separate occurrence, Lev. 10:12, re: the eighth-day meal-offering) teaches Aaron may eat the offering despite being an onen (acute mourner, Nadav and Avihu having just died); 'ka'asher tziviti' (Lev. 10:13) marks that Moses spoke this instruction at the moment of discovering the burned sin-offering goat; 'ka'asher tzivah Hashem' (Lev. 10:15) establishes Moses was relaying God's command, not his own ruling.",
+              "Lines 9-15: R. Yosei bar Chanina derives that trousers (not written in the implementation/dressing passage) are included via the inclusive prefix 've-zeh hadavar' (Exod. 29:1); the tenth-of-an-ephah is derived by gezerah shavah on the word 'zeh' from Lev. 6:13 ('zeh korban Aharon uvanav... asirit ha'eifah'). R. Yochanan, citing R. Shimon ben Yochai, derives that even reading the passage aloud was indispensable, from 'zeh hadavar' in the verse describing Moses addressing the congregation.",
+              "Lines 19-24: The redundant phrase 'how did he dress them, how did he dress them' is reframed: not historical curiosity (what happened, happened) nor a future-practice question (Moses will know when Aaron and sons return), but a textual harmonization problem. The sons of R. Chiya and R. Yochanan disagree whether Moses dressed Aaron first, then his sons, or all together. Abaye (starting mid-line-25) clarifies that for the tunic and mitre everyone agrees Aaron came first (both command and implementation texts list Aaron first); the dispute is only about the belt.",
+              "Lines 25-31: The actual proof-texts for each position, NOT currently captured with explicit sourceRefs in the enrichment: the 'Aaron then sons' position relies on the implementation verses (Lev. 8:7 'vayachgor oto ba'avnet' - he girded HIM, Aaron alone; then Lev. 8:13 'vayachgor otam avnet' - he girded THEM, the sons - i.e. sequential, matching sequential dressing). The 'together' position relies on the command verse (Exod. 29:9 'vechagarta otam' - you shall gird THEM - a single combined form for Aaron and sons together).",
+              "Lines 32-34 (daf ends mid-word): A challenge is raised specifically against the 'together' position: but doesn't the implementation ALSO say 'he girded him' (Aaron alone) and then separately 'he girded them' (sons) - the same sequential language used to support the OTHER position? The Gemara's answer ('amar' - '[X] said') is cut off; the daf ends here and the resolution continues on 6a."
+            ]
+          },
+          "boundaryVerdict": "REPAIR_REQUIRED",
+          "boundaryNotes": "GENUINE DEFECT: yoma-005b-s02's declared lineRange stops at endVilnaLine=24, but the daf's actual content for this same sugya (the belt-sequence dispute) continues through line 34, the true end of the daf (confirmed via direct read of talmuddev/5b.json, which has exactly 34 lines). Lines 25-34 contain Abaye's full statement (which itself begins mid-line-25, not at line 24), the explicit verse-proofs for both disputed positions, and a challenge against the 'together' position that is left unresolved when the daf cuts off mid-word ('amar'), continuing to 6a. This is not the corpus's ordinary short-transitional-phrase boundary gap (documented as benign in CLAUDE.md); it is a full additional argumentative unit - two verse citations plus an open challenge - entirely uncaptured by any sourceRef or argumentFlow step in the current enrichment, unlike the daf-ending stub handling already established on 4b (s04, extends to true end 47) and 5a (s02, extends to true end 40, with an explicit stub step). s01's own declared boundary (1-15) is fine as-is: its own content (R. Yochanan's mikra-parasha teaching) legitimately extends a few lines past 15 into the ordinary short-transitional-absorption pattern already seen elsewhere, and does not need a boundary change.",
+          "dafSummaryVerdict": "REPAIR_REQUIRED",
+          "dafSummaryNotes": "currentDafSummary also stops the narrative at 'Abaye narrows the dispute to the belt alone' without mentioning the actual verse-proofs or that the daf ends on an unresolved challenge to the 'together' position. Needs updating in the same repair since it currently presents the same false sense of closure.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-005b-s01",
+              "verdict": "VERIFIED",
+              "notes": "All eight argumentFlow steps correctly attributed and matched against lines 1-18: Rav Nachman bar Yitzchak (petach gezerah shavah), Rav Mesharshiya (Lev. 8:35, mishmeret), Rav Ashi (ki chen tzuviti), the baraita's three-phrase distinction, R. Yosei bar Chanina (trousers via 've-zeh hadavar'), the tenth-of-ephah gezerah shavah on 'zeh' correctly cited to Lev. 6:13, and R. Yochanan/R. Shimon ben Yochai's mikra-parasha derivation. All explicit scriptural citations (Lev. 8:35, Lev. 6:13) independently re-verified correct and matching the raw text. No defect found."
+            },
+            {
+              "sugyaId": "yoma-005b-s02",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "GENUINE DEFECT (boundary + content coverage, see boundaryNotes above). The existing four argumentFlow steps (question, dismissal, real-purpose, Abaye's distinction) are accurate as far as they go and require no correction to their own content, but the sugya as a whole is incomplete: it omits the explicit verse-proofs for each position (Exod. 29:9 vs. Lev. 8:7+8:13) and, more importantly, presents Abaye's clarification as if it resolves the dispute ('Abaye's contribution is eliminating all the false scope' - learning.resolution field) when the Gemara actually goes on to raise an unresolved challenge against the 'together' position that is left open when the daf cuts off mid-word, continuing to 6a. This is a false-closure defect of the same class as the 4b/5a daf-ending stubs, which were correctly flagged as open questions rather than false resolutions."
+            }
+          ],
+          "requiredCorrection": {
+            "field": "yoma-005b-s02: lineRange.endVilnaLine (19-24 -> 19-34), display.shortSummary, display.whats, learning.resolution, learning.takeaway, argumentFlow (add step-05 for the verse-proofs with explicit sourceRefs, add step-06 type 'stub' for the unresolved challenge); currentDafSummary (daf-level)",
+            "problem": "The sugya's declared boundary and its enrichment stop at Abaye's clarification (line 24/25), omitting the verse-proofs for each position and the unresolved challenge to the 'together' position that actually ends the daf (line 34, cutting off mid-word). This presents false closure where the Gemara leaves the matter open.",
+            "sourceLines": "yoma-005b-l24 through yoma-005b-l34 (specifically lines 28-31 for the verse-proofs, lines 32-34 for the unresolved challenge)",
+            "requiredFix": "Extend s02's lineRange to end at 34 (the daf's true end). Add explicit sourceRefs for Exodus 29:9, Leviticus 8:7, and Leviticus 8:13 to a new proof step. Add a stub step noting the unresolved challenge and that it continues on 6a. Revise shortSummary/whats/resolution/takeaway to reflect the open ending rather than treating Abaye's clarification as the sugya's final word. Update the shared daf summary to match."
+          },
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including a direct line-count verification of the raw talmuddev/5b.json file to confirm the daf's true extent (34 lines) against the declared lineRange boundaries. All scriptural citations in s01 (Lev. 8:35, Lev. 6:13) were independently verified. The s02 defect was caught by noticing the declared boundary (24) fell short of the daf's actual end (34) and that real argumentative content - not mere transitional phrasing - existed in the gap, then cross-checking against the precedent already established on 4b and 5a for how genuine daf-ending stubs should be captured."
+        }
+      },
+      "sourceFingerprint": "786a020f1eadf2979e5b0e4dfdaebe14623ae77de35c1080d96082a895854d93",
+      "semanticFingerprint": "5025842f1b3c6f170f4112e422decbb7f461f7f2157db2fbc14b68a7aae77bbe",
+      "secondPass": {
+        "reviewId": "sonnet5-5b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "786a020f1eadf2979e5b0e4dfdaebe14623ae77de35c1080d96082a895854d93",
+        "reviewedSemanticFingerprint": "5025842f1b3c6f170f4112e422decbb7f461f7f2157db2fbc14b68a7aae77bbe",
+        "evidence": {
+          "reviewId": "sonnet5-5b-second-20260823b",
+          "module": "yoma",
+          "daf": "5b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines (confirmed 34 lines total, ending mid-word at 'amar') without consulting first-pass reasoning. Confirmed the same two-part structure: three Amoraim bridging the Exodus-kachah gap to Leviticus (petach gezerah shavah, mishmeret, ki chen tzuviti), the baraita's three-phrase distinction, trousers/tenth-of-ephah/mikra-parasha derivations (1-18); and the 'how did he dress them' reframing, Abaye's tunic/mitre-vs-belt narrowing, the explicit verse-proofs for each belt position, and the unresolved challenge to the 'together' position that ends the daf (19-34).",
+          "boundarySpotCheck": {
+            "s02declaredRange": "19-34, re-verified as correct: the daf's true end is line 34 ('amar', cut off mid-word), and the repaired range now matches. The prior 19-24 range stopped short of real argumentative content (the verse-proofs and the open challenge), which is now captured.",
+            "sefariaSegmentCheck": "literal_en/5b.json confirms segment Yoma.5b.9 (anchored at vilnaLine 24) is the daf's final Sefaria segment and its en_lit text runs through the full unresolved challenge, ending mid-sentence exactly where the Hebrew cuts off - independently confirms no new lineMap anchor was needed, only the endVilnaLine extension.",
+            "result": "boundary repair verified correct and complete"
+          },
+          "verseCitationSpotCheck": {
+            "Leviticus 8:35": "u-shmartem et mishmeret Hashem...ki chen tzuviti - re-verified as containing BOTH phrases Rav Mesharshiya and Rav Ashi separately cite, confirming the s01 citation is correct",
+            "Leviticus 6:13": "zeh korban Aharon uvanav...asirit ha'eifah - re-verified as the correct source for the tenth-of-ephah gezerah shavah",
+            "Exodus 29:9": "vechagarta otam avnet Aharon uvanav - re-verified as the correct combined-form command verse supporting the 'together' position",
+            "Leviticus 8:7": "vayachgor oto ba'avnet - re-verified as the correct singular (Aaron alone) implementation verse",
+            "Leviticus 8:13": "vayachgor otam avnet - re-verified as the correct plural (sons) implementation verse",
+            "result": "all five citations independently re-verified correct and matching the raw text exactly"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-005b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "All eight argumentFlow steps and both scriptural citations (Lev. 8:35, Lev. 6:13) re-verified against lines 1-18 independently; matches source, no defect found."
+            },
+            {
+              "sugyaId": "yoma-005b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Repair verified: boundary now correctly extends to line 34 (the daf's true end), the new step-05 correctly cites Exod. 29:9/Lev. 8:7/Lev. 8:13 for the two positions' verse-proofs, and the new step-06 correctly captures the unresolved challenge against the 'together' position without falsely presenting it as settled. shortSummary/whats/resolution text no longer implies false closure. All independently re-checked against the raw source and found accurate."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every scriptural citation, the sugya boundary against the daf's confirmed true line count, and the open-ended framing of the belt dispute, without consulting first-pass reasoning. No remaining or new defect found on any sugya."
+        }
+      },
+      "certifiedAtCommit": "6e7559fda83d3a0b262b5cef60d70f826f7de0d5"
+    },
+    "yoma-005b-s02": {
+      "sugyaId": "yoma-005b-s02",
+      "daf": "5b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-5b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "4d3e7582953d1bea8ea204f182dc1c7809c876ca737dfd210e0f9713eb0e4436",
+        "reviewedSemanticFingerprint": "d8a0db234f5c43691d5382a2b5c3d6cb0541ca7eb1111119b4c816b9fa43daba",
+        "evidence": {
+          "reviewId": "sonnet5-5b-first-20260823a",
+          "module": "yoma",
+          "daf": "5b",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-34, confirmed to be the daf's true full extent via direct read of modules/yoma/assets/talmuddev/5b.json) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-5: The stub question from 5a's end is restated. Three Amoraim bridge the Exodus-kachah gap to Leviticus inauguration requirements: Rav Nachman bar Yitzchak via gezerah shavah on the repeated word 'petach' (opening); Rav Mesharshiya from the inclusive phrase 'u-shmartem et mishmeret Hashem' (Lev. 8:35); Rav Ashi from 'ki chen tzuviti' (also in Lev. 8:35) as a blanket warrant.",
+              "Lines 5-9: A baraita distinguishes three near-identical phrases that recur across Lev. 8-10: 'ki chen tzuviti' (a separate occurrence, Lev. 10:12, re: the eighth-day meal-offering) teaches Aaron may eat the offering despite being an onen (acute mourner, Nadav and Avihu having just died); 'ka'asher tziviti' (Lev. 10:13) marks that Moses spoke this instruction at the moment of discovering the burned sin-offering goat; 'ka'asher tzivah Hashem' (Lev. 10:15) establishes Moses was relaying God's command, not his own ruling.",
+              "Lines 9-15: R. Yosei bar Chanina derives that trousers (not written in the implementation/dressing passage) are included via the inclusive prefix 've-zeh hadavar' (Exod. 29:1); the tenth-of-an-ephah is derived by gezerah shavah on the word 'zeh' from Lev. 6:13 ('zeh korban Aharon uvanav... asirit ha'eifah'). R. Yochanan, citing R. Shimon ben Yochai, derives that even reading the passage aloud was indispensable, from 'zeh hadavar' in the verse describing Moses addressing the congregation.",
+              "Lines 19-24: The redundant phrase 'how did he dress them, how did he dress them' is reframed: not historical curiosity (what happened, happened) nor a future-practice question (Moses will know when Aaron and sons return), but a textual harmonization problem. The sons of R. Chiya and R. Yochanan disagree whether Moses dressed Aaron first, then his sons, or all together. Abaye (starting mid-line-25) clarifies that for the tunic and mitre everyone agrees Aaron came first (both command and implementation texts list Aaron first); the dispute is only about the belt.",
+              "Lines 25-31: The actual proof-texts for each position, NOT currently captured with explicit sourceRefs in the enrichment: the 'Aaron then sons' position relies on the implementation verses (Lev. 8:7 'vayachgor oto ba'avnet' - he girded HIM, Aaron alone; then Lev. 8:13 'vayachgor otam avnet' - he girded THEM, the sons - i.e. sequential, matching sequential dressing). The 'together' position relies on the command verse (Exod. 29:9 'vechagarta otam' - you shall gird THEM - a single combined form for Aaron and sons together).",
+              "Lines 32-34 (daf ends mid-word): A challenge is raised specifically against the 'together' position: but doesn't the implementation ALSO say 'he girded him' (Aaron alone) and then separately 'he girded them' (sons) - the same sequential language used to support the OTHER position? The Gemara's answer ('amar' - '[X] said') is cut off; the daf ends here and the resolution continues on 6a."
+            ]
+          },
+          "boundaryVerdict": "REPAIR_REQUIRED",
+          "boundaryNotes": "GENUINE DEFECT: yoma-005b-s02's declared lineRange stops at endVilnaLine=24, but the daf's actual content for this same sugya (the belt-sequence dispute) continues through line 34, the true end of the daf (confirmed via direct read of talmuddev/5b.json, which has exactly 34 lines). Lines 25-34 contain Abaye's full statement (which itself begins mid-line-25, not at line 24), the explicit verse-proofs for both disputed positions, and a challenge against the 'together' position that is left unresolved when the daf cuts off mid-word ('amar'), continuing to 6a. This is not the corpus's ordinary short-transitional-phrase boundary gap (documented as benign in CLAUDE.md); it is a full additional argumentative unit - two verse citations plus an open challenge - entirely uncaptured by any sourceRef or argumentFlow step in the current enrichment, unlike the daf-ending stub handling already established on 4b (s04, extends to true end 47) and 5a (s02, extends to true end 40, with an explicit stub step). s01's own declared boundary (1-15) is fine as-is: its own content (R. Yochanan's mikra-parasha teaching) legitimately extends a few lines past 15 into the ordinary short-transitional-absorption pattern already seen elsewhere, and does not need a boundary change.",
+          "dafSummaryVerdict": "REPAIR_REQUIRED",
+          "dafSummaryNotes": "currentDafSummary also stops the narrative at 'Abaye narrows the dispute to the belt alone' without mentioning the actual verse-proofs or that the daf ends on an unresolved challenge to the 'together' position. Needs updating in the same repair since it currently presents the same false sense of closure.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-005b-s01",
+              "verdict": "VERIFIED",
+              "notes": "All eight argumentFlow steps correctly attributed and matched against lines 1-18: Rav Nachman bar Yitzchak (petach gezerah shavah), Rav Mesharshiya (Lev. 8:35, mishmeret), Rav Ashi (ki chen tzuviti), the baraita's three-phrase distinction, R. Yosei bar Chanina (trousers via 've-zeh hadavar'), the tenth-of-ephah gezerah shavah on 'zeh' correctly cited to Lev. 6:13, and R. Yochanan/R. Shimon ben Yochai's mikra-parasha derivation. All explicit scriptural citations (Lev. 8:35, Lev. 6:13) independently re-verified correct and matching the raw text. No defect found."
+            },
+            {
+              "sugyaId": "yoma-005b-s02",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "GENUINE DEFECT (boundary + content coverage, see boundaryNotes above). The existing four argumentFlow steps (question, dismissal, real-purpose, Abaye's distinction) are accurate as far as they go and require no correction to their own content, but the sugya as a whole is incomplete: it omits the explicit verse-proofs for each position (Exod. 29:9 vs. Lev. 8:7+8:13) and, more importantly, presents Abaye's clarification as if it resolves the dispute ('Abaye's contribution is eliminating all the false scope' - learning.resolution field) when the Gemara actually goes on to raise an unresolved challenge against the 'together' position that is left open when the daf cuts off mid-word, continuing to 6a. This is a false-closure defect of the same class as the 4b/5a daf-ending stubs, which were correctly flagged as open questions rather than false resolutions."
+            }
+          ],
+          "requiredCorrection": {
+            "field": "yoma-005b-s02: lineRange.endVilnaLine (19-24 -> 19-34), display.shortSummary, display.whats, learning.resolution, learning.takeaway, argumentFlow (add step-05 for the verse-proofs with explicit sourceRefs, add step-06 type 'stub' for the unresolved challenge); currentDafSummary (daf-level)",
+            "problem": "The sugya's declared boundary and its enrichment stop at Abaye's clarification (line 24/25), omitting the verse-proofs for each position and the unresolved challenge to the 'together' position that actually ends the daf (line 34, cutting off mid-word). This presents false closure where the Gemara leaves the matter open.",
+            "sourceLines": "yoma-005b-l24 through yoma-005b-l34 (specifically lines 28-31 for the verse-proofs, lines 32-34 for the unresolved challenge)",
+            "requiredFix": "Extend s02's lineRange to end at 34 (the daf's true end). Add explicit sourceRefs for Exodus 29:9, Leviticus 8:7, and Leviticus 8:13 to a new proof step. Add a stub step noting the unresolved challenge and that it continues on 6a. Revise shortSummary/whats/resolution/takeaway to reflect the open ending rather than treating Abaye's clarification as the sugya's final word. Update the shared daf summary to match."
+          },
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including a direct line-count verification of the raw talmuddev/5b.json file to confirm the daf's true extent (34 lines) against the declared lineRange boundaries. All scriptural citations in s01 (Lev. 8:35, Lev. 6:13) were independently verified. The s02 defect was caught by noticing the declared boundary (24) fell short of the daf's actual end (34) and that real argumentative content - not mere transitional phrasing - existed in the gap, then cross-checking against the precedent already established on 4b and 5a for how genuine daf-ending stubs should be captured."
+        }
+      },
+      "repairRef": "6e7559fda83d3a0b262b5cef60d70f826f7de0d5",
+      "sourceFingerprint": "96a78d21127c070261e938f5d4e8ac75037218887035e660f0932e738dcbb9dd",
+      "semanticFingerprint": "d614dedc272ef24209eb9f16473b009c5665106f8b96dd534ca6b37af2dd5586",
+      "secondPass": {
+        "reviewId": "sonnet5-5b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "96a78d21127c070261e938f5d4e8ac75037218887035e660f0932e738dcbb9dd",
+        "reviewedSemanticFingerprint": "d614dedc272ef24209eb9f16473b009c5665106f8b96dd534ca6b37af2dd5586",
+        "evidence": {
+          "reviewId": "sonnet5-5b-second-20260823b",
+          "module": "yoma",
+          "daf": "5b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines (confirmed 34 lines total, ending mid-word at 'amar') without consulting first-pass reasoning. Confirmed the same two-part structure: three Amoraim bridging the Exodus-kachah gap to Leviticus (petach gezerah shavah, mishmeret, ki chen tzuviti), the baraita's three-phrase distinction, trousers/tenth-of-ephah/mikra-parasha derivations (1-18); and the 'how did he dress them' reframing, Abaye's tunic/mitre-vs-belt narrowing, the explicit verse-proofs for each belt position, and the unresolved challenge to the 'together' position that ends the daf (19-34).",
+          "boundarySpotCheck": {
+            "s02declaredRange": "19-34, re-verified as correct: the daf's true end is line 34 ('amar', cut off mid-word), and the repaired range now matches. The prior 19-24 range stopped short of real argumentative content (the verse-proofs and the open challenge), which is now captured.",
+            "sefariaSegmentCheck": "literal_en/5b.json confirms segment Yoma.5b.9 (anchored at vilnaLine 24) is the daf's final Sefaria segment and its en_lit text runs through the full unresolved challenge, ending mid-sentence exactly where the Hebrew cuts off - independently confirms no new lineMap anchor was needed, only the endVilnaLine extension.",
+            "result": "boundary repair verified correct and complete"
+          },
+          "verseCitationSpotCheck": {
+            "Leviticus 8:35": "u-shmartem et mishmeret Hashem...ki chen tzuviti - re-verified as containing BOTH phrases Rav Mesharshiya and Rav Ashi separately cite, confirming the s01 citation is correct",
+            "Leviticus 6:13": "zeh korban Aharon uvanav...asirit ha'eifah - re-verified as the correct source for the tenth-of-ephah gezerah shavah",
+            "Exodus 29:9": "vechagarta otam avnet Aharon uvanav - re-verified as the correct combined-form command verse supporting the 'together' position",
+            "Leviticus 8:7": "vayachgor oto ba'avnet - re-verified as the correct singular (Aaron alone) implementation verse",
+            "Leviticus 8:13": "vayachgor otam avnet - re-verified as the correct plural (sons) implementation verse",
+            "result": "all five citations independently re-verified correct and matching the raw text exactly"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-005b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "All eight argumentFlow steps and both scriptural citations (Lev. 8:35, Lev. 6:13) re-verified against lines 1-18 independently; matches source, no defect found."
+            },
+            {
+              "sugyaId": "yoma-005b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Repair verified: boundary now correctly extends to line 34 (the daf's true end), the new step-05 correctly cites Exod. 29:9/Lev. 8:7/Lev. 8:13 for the two positions' verse-proofs, and the new step-06 correctly captures the unresolved challenge against the 'together' position without falsely presenting it as settled. shortSummary/whats/resolution text no longer implies false closure. All independently re-checked against the raw source and found accurate."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every scriptural citation, the sugya boundary against the daf's confirmed true line count, and the open-ended framing of the belt dispute, without consulting first-pass reasoning. No remaining or new defect found on any sugya."
+        }
+      },
+      "certifiedAtCommit": "6e7559fda83d3a0b262b5cef60d70f826f7de0d5"
     }
   }
 }

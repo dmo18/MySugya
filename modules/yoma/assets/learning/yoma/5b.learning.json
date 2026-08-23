@@ -1,7 +1,7 @@
 {
  "daf": "5b",
  "canonicalRef": "Yoma 5b",
- "summary": "5b continues the inauguration analysis. The kachah principle covers only requirements written in the Exodus inauguration passage; three Amoraim supply bridges to Leviticus requirements: Rav Nachman bar Yitzchak via gezerah shavah on 'petach' (opening); Rav Mesharshiyya from 'keep the charge of God'; Rav Ashi from 'ki chen tzuviti.' A baraita then distinguishes three nearly identical phrases - 'ki chen tzuviti,' 'ka'asher tziviti,' 'ka'asher tzivah Hashem' - each teaching a different dimension of Moses's authority. R. Yosei bar Chanina derives that trousers and the tenth of an ephah are inauguration requirements despite not being written in the passage itself. R. Yochanan adds that even reading the Torah portion aloud was indispensable. The daf closes by reframing the question of how Moses dressed the priests: not historical curiosity but textual harmonization. Abaye narrows the dispute to the belt alone: tunic and mitre are universally Aaron-before-sons.",
+ "summary": "5b continues the inauguration analysis. The kachah principle covers only requirements written in the Exodus inauguration passage; three Amoraim supply bridges to Leviticus requirements: Rav Nachman bar Yitzchak via gezerah shavah on 'petach' (opening); Rav Mesharshiyya from 'keep the charge of God'; Rav Ashi from 'ki chen tzuviti.' A baraita then distinguishes three nearly identical phrases - 'ki chen tzuviti,' 'ka'asher tziviti,' 'ka'asher tzivah Hashem' - each teaching a different dimension of Moses's authority. R. Yosei bar Chanina derives that trousers and the tenth of an ephah are inauguration requirements despite not being written in the passage itself. R. Yochanan adds that even reading the Torah portion aloud was indispensable. The daf closes by reframing the question of how Moses dressed the priests: not historical curiosity but textual harmonization. Abaye narrows the dispute to the belt alone (tunic and mitre are universally Aaron-before-sons), and the Gemara cites explicit verse-proofs for each position - but then challenges the 'together' reading with the same sequential verses used to support 'Aaron first,' and the daf ends mid-word before the answer, continuing on 6a.",
  "review": {
   "learning": "ai_generated",
   "concepts": "ai_generated",
@@ -275,7 +275,7 @@
    "id": "yoma-005b-s02",
    "lineRange": {
     "startVilnaLine": 19,
-    "endVilnaLine": 24
+    "endVilnaLine": 34
    },
    "lines": [
     {
@@ -294,15 +294,15 @@
    "display": {
     "title": "How Moses dressed Aaron and his sons: resolving contradictory verses",
     "oneLine": "The question 'how did Moses dress them?' is not historical curiosity but textual harmonization; Abaye narrows the dispute to the belt alone, with tunic and mitre universally Aaron-before-sons.",
-    "shortSummary": "The Gemara raises the question of how Moses dressed Aaron and his sons. It first dismisses the question as irrelevant ('what was, was') and then rejects the future-resurrection angle ('Moses will figure it out when Aaron and sons return'). The real purpose is to resolve contradictory verses. The sons of R. Chiyya and R. Yochanan disagree: one says Aaron first then sons; one says Aaron and sons simultaneously. Abaye clarifies: for tunic and mitre everyone agrees Aaron came first (both the command and implementation put Aaron before his sons). The dispute is only about the belt: the command verse says 'gird them' (together), but the implementation verse says 'girded him' then 'girded them' (separately). These two readings of the belt-verses generate the entire dispute.",
-    "whats": "The question sounds historical but is really hermeneutical: how do we reconcile what the Torah says in the command portion with what it says in the implementation portion? The command (Exodus 29:9) says 'you shall gird them with belts' - Aaron and sons together. The implementation (Lev. 8:7,13) says 'he girded him with the belt' (Aaron) and then separately 'he girded them with belts' (sons). One position reads the command as controlling: belts were applied simultaneously. The other reads the implementation as controlling: Aaron first, then sons. Abaye resolves the scope: tunic and mitre are uncontested because both command and implementation text place Aaron before sons for those garments. Only the belt is genuinely ambiguous between 'together' and 'Aaron first.'",
+    "shortSummary": "The Gemara raises the question of how Moses dressed Aaron and his sons. It first dismisses the question as irrelevant ('what was, was') and then rejects the future-resurrection angle ('Moses will figure it out when Aaron and sons return'). The real purpose is to resolve contradictory verses. The sons of R. Chiyya and R. Yochanan disagree: one says Aaron first then sons; one says Aaron and sons simultaneously. Abaye clarifies: for tunic and mitre everyone agrees Aaron came first (both the command and implementation put Aaron before his sons); the dispute is only about the belt. The 'Aaron first' position cites the implementation verses (Lev. 8:7, 'he girded him' - Aaron alone; then 8:13, 'he girded them' - the sons, sequentially); the 'together' position cites the command verse (Exod. 29:9, 'you shall gird them' - a single combined form). The Gemara then challenges the 'together' position with the same sequential implementation verses used to support the other side, and the daf ends mid-word before the answer is given, continuing on 6a.",
+    "whats": "The question sounds historical but is really hermeneutical: how do we reconcile what the Torah says in the command portion with what it says in the implementation portion? The command (Exodus 29:9) says 'you shall gird them with belts' - Aaron and sons together. The implementation (Lev. 8:7, 8:13) says 'he girded him with the belt' (Aaron) and then separately 'he girded them with belts' (sons). One position reads the implementation as controlling: Aaron first, then sons, drawing directly on the sequential wording of Lev. 8:7 and 8:13. The other reads the command as controlling: belts were applied simultaneously, drawing on the combined 'gird them' of Exodus 29:9. Abaye resolves the scope first: tunic and mitre are uncontested because both command and implementation text place Aaron before sons for those garments; only the belt is genuinely ambiguous. The Gemara then raises a challenge specifically against the 'together' position: doesn't the implementation ALSO describe the belt-girding sequentially ('he girded him,' then 'he girded them') - the very same verses used to support the opposing position? The daf cuts off mid-word before answering; the resolution continues on 6a.",
     "hint": "Why does the Gemara first joke that the question is irrelevant before giving the real answer? What does this tell us about how the Gemara signals when a question is being asked for the wrong reason?"
    },
    "learning": {
     "learnerQuestion": "If Moses dressed them in a specific order over two thousand years ago, why does anyone care? Why isn't 'what was, was' the final answer?",
     "coreTension": "Two verses - one in the command portion, one in the implementation portion - describe the belt being applied in seemingly incompatible ways. Both are Torah. Both must be correct. Something has to explain the divergence.",
     "coreMove": "Shift the question from 'historical order' to 'verse-reconciliation': the dispute is about how to read two texts that appear to contradict each other. Abaye narrows the real dispute to the belt, the one garment where the texts genuinely diverge.",
-    "resolution": "For tunic and mitre: no dispute, both texts agree Aaron came first. For the belt: the command says 'together,' the implementation says sequentially. This generates the two-position dispute. Abaye's contribution is eliminating all the false scope.",
+    "resolution": "For tunic and mitre: no dispute, both texts agree Aaron came first. For the belt: the 'Aaron first' position rests on the sequential implementation verses (Lev. 8:7, 8:13); the 'together' position rests on the combined command verse (Exod. 29:9). Abaye's contribution is narrowing the real dispute to the belt alone - but the Gemara does not stop there: it presses the 'together' position with the same sequential implementation verses, and the daf ends before that challenge is answered. The resolution is left for 6a.",
     "takeaway": {
      "type": "logical_principle",
      "text": "When Amoraim dispute how an event happened in the Torah, they are usually not guessing about history - they are adjudicating between competing textual readings. Abaye's precision ('the dispute is only about the belt') is the key: it proves both parties are reading verses, not reconstructing events."
@@ -374,6 +374,36 @@
        "lineId": "yoma-005b-l24",
        "vilnaLine": 24,
        "note": "Abaye's clarification narrowing the dispute to the belt"
+      }
+     ]
+    },
+    {
+     "id": "step-05",
+     "type": "proof",
+     "label": "Verse-proofs for each position",
+     "speaker": "Gemara",
+     "text": "The 'Aaron first' position: it is written 'and he girded him with the belt' (Lev. 8:7, Aaron alone), and afterward 'and he girded them with a belt' (Lev. 8:13, the sons) - sequential wording supports sequential dressing. The 'together' position: it is written 'and you shall gird them' (Exod. 29:9) - a single combined form for Aaron and his sons together.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-005b-l24",
+       "vilnaLine": 28,
+       "note": "Explicit verse-proofs for both positions on the belt sequence"
+      }
+     ]
+    },
+    {
+     "id": "step-06",
+     "type": "stub",
+     "label": "Open challenge: does the implementation also undermine 'together'?",
+     "speaker": "Gemara",
+     "text": "A challenge is raised against the 'together' position: but doesn't the implementation ALSO say 'he girded him with the belt' and then separately 'he girded them with a belt' - the same sequential wording used to support the 'Aaron first' position? The daf ends mid-word here; the answer is not given until 6a.",
+     "sourceRefs": [
+      {
+       "sourceType": "gemara",
+       "lineId": "yoma-005b-l24",
+       "vilnaLine": 32,
+       "note": "Unresolved challenge to the 'together' position; daf cuts off, continues on 6a"
       }
      ]
     }

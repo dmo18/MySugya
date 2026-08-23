@@ -2,12 +2,12 @@
   "schemaVersion": "1.0",
   "type": "semantic-daf-repair",
   "module": "yoma",
-  "daf": "5a",
+  "daf": "5b",
   "sugyaIds": [
-    "yoma-005a-s01",
-    "yoma-005a-s02"
+    "yoma-005b-s01",
+    "yoma-005b-s02"
   ],
-  "firstReviewId": "sonnet5-5a-first-20260823a",
+  "firstReviewId": "sonnet5-5b-first-20260823a",
   "policy": {
     "sourceFirst": true,
     "independentSecondPassRequired": true,
