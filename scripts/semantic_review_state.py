@@ -23,7 +23,10 @@ Examples:
 
 A first-pass REPAIR_REQUIRED record cannot become CERTIFIED unless `repaired`
 has been recorded and the candidate actually differs from what the first reviewer
-saw. REJECTED returns the record to REPAIR_REQUIRED. BLOCKED stops the queue.
+saw. A second-pass REJECTED verdict becomes the new fingerprint-bound
+REPAIR_REQUIRED first pass, so the state machine immediately knows what candidate
+was rejected and can repair it without a dead-end transition. BLOCKED stops the
+queue.
 """
 from __future__ import annotations
 
@@ -39,8 +42,7 @@ from semantic_certification import cert_path, fingerprints, load_corpus, load_re
 def read_evidence(path: str | None) -> Any:
     if not path:
         return "No separate evidence file supplied."
-    p = Path(path)
-    return json.loads(p.read_text(encoding="utf-8"))
+    return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
 def resolve_ref(ref: str) -> str:
@@ -49,8 +51,7 @@ def resolve_ref(ref: str) -> str:
 
 
 def write_registry(module: str, registry: Dict[str, Any]) -> None:
-    path = cert_path(module)
-    path.write_text(json.dumps(registry, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    cert_path(module).write_text(json.dumps(registry, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
 def get_target(module: str, sid: str):
@@ -58,6 +59,17 @@ def get_target(module: str, sid: str):
     if sid not in corpus:
         raise SystemExit(f"unknown sugya id {sid!r}")
     return corpus[sid]
+
+
+def review_block(review_id: str, verdict: str, source_fp: str, semantic_fp: str, evidence: Any) -> Dict[str, Any]:
+    return {
+        "reviewId": review_id,
+        "sourceFirst": True,
+        "verdict": verdict,
+        "reviewedSourceFingerprint": source_fp,
+        "reviewedSemanticFingerprint": semantic_fp,
+        "evidence": evidence,
+    }
 
 
 def main() -> None:
@@ -93,6 +105,7 @@ def main() -> None:
     current = records.get(sid) or {"sugyaId": sid, "daf": daf}
 
     if args.cmd == "first":
+        block = review_block(args.review_id, args.verdict, source_fp, semantic_fp, read_evidence(args.evidence_file))
         current = {
             "sugyaId": sid,
             "daf": daf,
@@ -101,17 +114,8 @@ def main() -> None:
                 else "REPAIR_REQUIRED" if args.verdict == "REPAIR_REQUIRED"
                 else "REPAIRED_PENDING_REVIEW"
             ),
-            "firstPass": {
-                "reviewId": args.review_id,
-                "sourceFirst": True,
-                "verdict": args.verdict,
-                "reviewedSourceFingerprint": source_fp,
-                "reviewedSemanticFingerprint": semantic_fp,
-                "evidence": read_evidence(args.evidence_file),
-            },
+            "firstPass": block,
         }
-        # A clean first pass is not CERTIFIED. It still needs the independent
-        # second pass, hence REPAIRED_PENDING_REVIEW as the generic pending state.
         records[sid] = current
         write_registry(module, registry)
         print(f"Recorded first pass: {sid} -> {current['state']}")
@@ -121,9 +125,6 @@ def main() -> None:
         first_pass = current.get("firstPass")
         if not isinstance(first_pass, dict) or first_pass.get("verdict") != "REPAIR_REQUIRED":
             raise SystemExit("repaired transition requires an existing firstPass REPAIR_REQUIRED record")
-        # Record the repair action even before the independent review. The final
-        # certificate validator separately proves that the reviewed candidate
-        # actually differs from the first-pass known-bad candidate.
         current["state"] = "REPAIRED_PENDING_REVIEW"
         current["repairRef"] = resolve_ref(args.repair_ref)
         for k in ("sourceFingerprint", "semanticFingerprint", "secondPass", "certifiedAtCommit"):
@@ -138,29 +139,32 @@ def main() -> None:
         raise SystemExit("second transition requires an existing firstPass")
     if first_pass.get("reviewId") == args.review_id:
         raise SystemExit("independent second pass must use a different reviewId")
-
-    # Do not let a known-bad first pass skip the explicit repair transition.
     if first_pass.get("verdict") == "REPAIR_REQUIRED" and not current.get("repairRef"):
         raise SystemExit("REPAIR_REQUIRED first pass must record `repaired` before second review")
 
-    second_block = {
-        "reviewId": args.review_id,
-        "sourceFirst": True,
-        "verdict": args.verdict,
-        "reviewedSourceFingerprint": source_fp,
-        "reviewedSemanticFingerprint": semantic_fp,
-        "evidence": read_evidence(args.evidence_file),
-    }
+    evidence = read_evidence(args.evidence_file)
+    second_block = review_block(args.review_id, args.verdict, source_fp, semantic_fp, evidence)
 
     if args.verdict == "BLOCKED":
         current["state"] = "BLOCKED"
         current["secondPass"] = second_block
     elif args.verdict == "REJECTED":
-        current["state"] = "REPAIR_REQUIRED"
-        current["secondPass"] = second_block
-        current.pop("sourceFingerprint", None)
-        current.pop("semanticFingerprint", None)
-        current.pop("certifiedAtCommit", None)
+        # The independent reviewer has just performed a source-first review and
+        # found this exact candidate defective. Promote that finding into the
+        # next repair cycle's first pass rather than leaving an incompatible
+        # VERIFIED first pass behind.
+        current = {
+            "sugyaId": sid,
+            "daf": daf,
+            "state": "REPAIR_REQUIRED",
+            "firstPass": review_block(
+                args.review_id,
+                "REPAIR_REQUIRED",
+                source_fp,
+                semantic_fp,
+                {"origin": "independent-second-pass-rejection", "reviewEvidence": evidence},
+            ),
+        }
     else:
         current.update({
             "state": "CERTIFIED",
