@@ -1922,6 +1922,276 @@
         }
       },
       "certifiedAtCommit": "e46308857617163905b1aba0a5953fb71b62444f"
+    },
+    "yoma-003a-s01": {
+      "sugyaId": "yoma-003a-s01",
+      "daf": "3a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-3a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "1e109ed1cc3ae20e56310bc2375a99a540bea4a0c3b7fda15c3dde9e52b5bc81",
+        "reviewedSemanticFingerprint": "fc2372d035d3befb2fbacde87d750102cb0dee1151eaff28d9517ac0c7bc33b8",
+        "evidence": {
+          "reviewId": "sonnet5-3a-first-20260823a",
+          "module": "yoma",
+          "daf": "3a",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-20) in full before opening currentEnrichment.",
+            "flow": [
+              "Line 1: The PZR KSHB mnemonic (Payis/lottery, Zeman/shehecheyanu, Regel/festival-status, Korban/offering-count, Shira/song, Berakhah/prayer) - six respects in which Shemini Atzeret is independent of Sukkot. But for tashlumin (compensation offerings), it still counts as Sukkot's own last day, proven from the Sukkah mishna that a missed festival offering may be brought through the whole festival including its final day.",
+              "Lines 2-3: Continuation/proof-citation for the tashlumin point (the Sukkah mishna quoted in full).",
+              "Lines 4-15: Rabbi Abba excludes Shavuot (Atzeret) via offering profile: Yom Kippur and the inauguration both bring one bull and one ram; Shavuot brings two rams. Challenge: R. Eliezer b. R. Shimon holds Yom Kippur itself has two rams (one from Acharei Mot/Leviticus, one from Pinchas/Numbers) - so what distinguishes it from Shavuot? Resolution: even so, Yom Kippur's two rams serve different functions (one is chovat hayom/day-obligation, the other is mussaf), while Shavuot's two rams (per the Two Loaves verse) are both chovat hayom. The functional mismatch, not mere count, excludes Shavuot.",
+              "Lines 16-20: Rabbi Abbahu excludes Rosh Hashana (and re-excludes Shavuot on a second ground) via property source: Yom Kippur's and the inauguration's bull-and-ram both come from the Kohen Gadol's own property ('kach lecha' - take for yourself), while Rosh Hashana's and Shavuot's come from communal funds. This works for the view that 'kach lecha' means personal property; the daf closes mid-word ('ve'aseh...') raising the alternative view, continuing on 3b."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "Same systemic corpus-wide line-gap pattern already documented on 2a/2b (116/173 daf, 67% of corpus): s01's own lineId (Yoma.3a.2) legitimately extends through vilna line 3 though declared endVilnaLine=1; s02's last lineId (l13/Yoma.3a.5) legitimately extends through vilna line 15 though declared endVilnaLine=13. In both cases the 'gap' content is the direct, verified continuation of the immediately preceding sugya's own cited argument (the tashlumin mishna-proof for s01; the chovat-hayom/mussaf functional distinction for s02's own step-04), not contamination from a different topic. No boundary repair warranted.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences PZR KSHB + tashlumin (s01), Shavuot excluded by offering count and function (s02), Rosh Hashana excluded by property source with the daf closing on an open question (s03). No false claim.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-003a-s01",
+              "verdict": "VERIFIED",
+              "notes": "All six PZR KSHB categories correctly named and matched to the acronym letters; tashlumin exception and its Sukkah-mishna proof match line 1 (+2-3) exactly."
+            },
+            {
+              "sugyaId": "yoma-003a-s02",
+              "verdict": "VERIFIED",
+              "notes": "R. Abba's one-bull-one-ram exclusion of Shavuot's two rams, the R. Eliezer b. R. Shimon challenge (name verified against raw text: aleph-lamed-yud-ayin-zayin-resh = Eliezer, not Elazar), and the chovat-hayom/mussaf functional resolution all match lines 4-15 exactly."
+            },
+            {
+              "sugyaId": "yoma-003a-s03",
+              "verdict": "VERIFIED",
+              "notes": "R. Abbahu's personal-vs-communal-property exclusion of both Rosh Hashana and Shavuot (raw text names both: 'le'apukei Atzeret veRosh Hashanah'), and the open-ended daf closure ('kach lecha' dispute continuing to 3b), match lines 16-20 exactly. takeaway.type 'open_question' is correctly used and is in the controlled taxonomy."
+            }
+          ],
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious (topicTags, alternateAngles, requiresUnderstanding chains, visualizableElements)."
+        }
+      },
+      "sourceFingerprint": "1e109ed1cc3ae20e56310bc2375a99a540bea4a0c3b7fda15c3dde9e52b5bc81",
+      "semanticFingerprint": "fc2372d035d3befb2fbacde87d750102cb0dee1151eaff28d9517ac0c7bc33b8",
+      "secondPass": {
+        "reviewId": "sonnet5-3a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "1e109ed1cc3ae20e56310bc2375a99a540bea4a0c3b7fda15c3dde9e52b5bc81",
+        "reviewedSemanticFingerprint": "fc2372d035d3befb2fbacde87d750102cb0dee1151eaff28d9517ac0c7bc33b8",
+        "evidence": {
+          "reviewId": "sonnet5-3a-second-20260823b",
+          "module": "yoma",
+          "daf": "3a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it). Confirmed the same three-part structure: PZR KSHB mnemonic plus the tashlumin exception (1-3); R. Abba excludes Shavuot by offering count, with the R. Eliezer b. R. Shimon two-rams challenge resolved by function (chovat hayom vs. mussaf) (4-15); R. Abbahu excludes Rosh Hashana (and re-excludes Shavuot) by personal-vs-communal property, daf closing on an open question (16-20).",
+          "speakerAttributionSpotCheck": {
+            "Rabbi Abba (s02)": "raw text 'amar Rabbi Abba' (aleph-bet-aleph, no vav-heh suffix) - correctly distinguished from Rabbi Abbahu",
+            "Rabbi Abbahu (s03)": "raw text 'amar Rabbi Abahu' (aleph-bet-heh-vav) - correctly distinguished from Rabbi Abba; these are two different Amoraim and the enrichment does not conflate them",
+            "Rabbi / Rabbi Eliezer b. Rabbi Shimon (s02)": "raw text 'Rabbi omer... Rabbi Eliezer bar Rabbi Shimon omer' - both correctly named, and 'Eliezer' (not 'Elazar') verified against the raw spelling",
+            "result": "no speaker misattribution found"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-003a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "PZR KSHB mnemonic and tashlumin exception match line 1 (+2-3) exactly."
+            },
+            {
+              "sugyaId": "yoma-003a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Shavuot exclusion by offering count, the two-rams challenge and its functional resolution match lines 4-15 exactly; speaker names re-verified."
+            },
+            {
+              "sugyaId": "yoma-003a-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Rosh Hashana (and Shavuot) exclusion by personal-vs-communal property, and the open daf-closure, match lines 16-20 exactly."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to precise speaker attribution (Abba vs. Abbahu; Eliezer vs. Elazar) as the highest-risk subtle-error surface on this daf. No defect found on any sugya."
+        }
+      },
+      "certifiedAtCommit": "f80b21dd4517770b80ad56ee79f1af7f207eca7d"
+    },
+    "yoma-003a-s02": {
+      "sugyaId": "yoma-003a-s02",
+      "daf": "3a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-3a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "4fe5e79930bb721a5f56b535707f0f02d8490839b5e553ead531371de8bd8a8f",
+        "reviewedSemanticFingerprint": "5a9c1528182e8bcc888fc4abd3a8a8a52e7c4a9cb8be7555e8aedcb26d247d94",
+        "evidence": {
+          "reviewId": "sonnet5-3a-first-20260823a",
+          "module": "yoma",
+          "daf": "3a",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-20) in full before opening currentEnrichment.",
+            "flow": [
+              "Line 1: The PZR KSHB mnemonic (Payis/lottery, Zeman/shehecheyanu, Regel/festival-status, Korban/offering-count, Shira/song, Berakhah/prayer) - six respects in which Shemini Atzeret is independent of Sukkot. But for tashlumin (compensation offerings), it still counts as Sukkot's own last day, proven from the Sukkah mishna that a missed festival offering may be brought through the whole festival including its final day.",
+              "Lines 2-3: Continuation/proof-citation for the tashlumin point (the Sukkah mishna quoted in full).",
+              "Lines 4-15: Rabbi Abba excludes Shavuot (Atzeret) via offering profile: Yom Kippur and the inauguration both bring one bull and one ram; Shavuot brings two rams. Challenge: R. Eliezer b. R. Shimon holds Yom Kippur itself has two rams (one from Acharei Mot/Leviticus, one from Pinchas/Numbers) - so what distinguishes it from Shavuot? Resolution: even so, Yom Kippur's two rams serve different functions (one is chovat hayom/day-obligation, the other is mussaf), while Shavuot's two rams (per the Two Loaves verse) are both chovat hayom. The functional mismatch, not mere count, excludes Shavuot.",
+              "Lines 16-20: Rabbi Abbahu excludes Rosh Hashana (and re-excludes Shavuot on a second ground) via property source: Yom Kippur's and the inauguration's bull-and-ram both come from the Kohen Gadol's own property ('kach lecha' - take for yourself), while Rosh Hashana's and Shavuot's come from communal funds. This works for the view that 'kach lecha' means personal property; the daf closes mid-word ('ve'aseh...') raising the alternative view, continuing on 3b."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "Same systemic corpus-wide line-gap pattern already documented on 2a/2b (116/173 daf, 67% of corpus): s01's own lineId (Yoma.3a.2) legitimately extends through vilna line 3 though declared endVilnaLine=1; s02's last lineId (l13/Yoma.3a.5) legitimately extends through vilna line 15 though declared endVilnaLine=13. In both cases the 'gap' content is the direct, verified continuation of the immediately preceding sugya's own cited argument (the tashlumin mishna-proof for s01; the chovat-hayom/mussaf functional distinction for s02's own step-04), not contamination from a different topic. No boundary repair warranted.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences PZR KSHB + tashlumin (s01), Shavuot excluded by offering count and function (s02), Rosh Hashana excluded by property source with the daf closing on an open question (s03). No false claim.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-003a-s01",
+              "verdict": "VERIFIED",
+              "notes": "All six PZR KSHB categories correctly named and matched to the acronym letters; tashlumin exception and its Sukkah-mishna proof match line 1 (+2-3) exactly."
+            },
+            {
+              "sugyaId": "yoma-003a-s02",
+              "verdict": "VERIFIED",
+              "notes": "R. Abba's one-bull-one-ram exclusion of Shavuot's two rams, the R. Eliezer b. R. Shimon challenge (name verified against raw text: aleph-lamed-yud-ayin-zayin-resh = Eliezer, not Elazar), and the chovat-hayom/mussaf functional resolution all match lines 4-15 exactly."
+            },
+            {
+              "sugyaId": "yoma-003a-s03",
+              "verdict": "VERIFIED",
+              "notes": "R. Abbahu's personal-vs-communal-property exclusion of both Rosh Hashana and Shavuot (raw text names both: 'le'apukei Atzeret veRosh Hashanah'), and the open-ended daf closure ('kach lecha' dispute continuing to 3b), match lines 16-20 exactly. takeaway.type 'open_question' is correctly used and is in the controlled taxonomy."
+            }
+          ],
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious (topicTags, alternateAngles, requiresUnderstanding chains, visualizableElements)."
+        }
+      },
+      "sourceFingerprint": "4fe5e79930bb721a5f56b535707f0f02d8490839b5e553ead531371de8bd8a8f",
+      "semanticFingerprint": "5a9c1528182e8bcc888fc4abd3a8a8a52e7c4a9cb8be7555e8aedcb26d247d94",
+      "secondPass": {
+        "reviewId": "sonnet5-3a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "4fe5e79930bb721a5f56b535707f0f02d8490839b5e553ead531371de8bd8a8f",
+        "reviewedSemanticFingerprint": "5a9c1528182e8bcc888fc4abd3a8a8a52e7c4a9cb8be7555e8aedcb26d247d94",
+        "evidence": {
+          "reviewId": "sonnet5-3a-second-20260823b",
+          "module": "yoma",
+          "daf": "3a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it). Confirmed the same three-part structure: PZR KSHB mnemonic plus the tashlumin exception (1-3); R. Abba excludes Shavuot by offering count, with the R. Eliezer b. R. Shimon two-rams challenge resolved by function (chovat hayom vs. mussaf) (4-15); R. Abbahu excludes Rosh Hashana (and re-excludes Shavuot) by personal-vs-communal property, daf closing on an open question (16-20).",
+          "speakerAttributionSpotCheck": {
+            "Rabbi Abba (s02)": "raw text 'amar Rabbi Abba' (aleph-bet-aleph, no vav-heh suffix) - correctly distinguished from Rabbi Abbahu",
+            "Rabbi Abbahu (s03)": "raw text 'amar Rabbi Abahu' (aleph-bet-heh-vav) - correctly distinguished from Rabbi Abba; these are two different Amoraim and the enrichment does not conflate them",
+            "Rabbi / Rabbi Eliezer b. Rabbi Shimon (s02)": "raw text 'Rabbi omer... Rabbi Eliezer bar Rabbi Shimon omer' - both correctly named, and 'Eliezer' (not 'Elazar') verified against the raw spelling",
+            "result": "no speaker misattribution found"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-003a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "PZR KSHB mnemonic and tashlumin exception match line 1 (+2-3) exactly."
+            },
+            {
+              "sugyaId": "yoma-003a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Shavuot exclusion by offering count, the two-rams challenge and its functional resolution match lines 4-15 exactly; speaker names re-verified."
+            },
+            {
+              "sugyaId": "yoma-003a-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Rosh Hashana (and Shavuot) exclusion by personal-vs-communal property, and the open daf-closure, match lines 16-20 exactly."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to precise speaker attribution (Abba vs. Abbahu; Eliezer vs. Elazar) as the highest-risk subtle-error surface on this daf. No defect found on any sugya."
+        }
+      },
+      "certifiedAtCommit": "f80b21dd4517770b80ad56ee79f1af7f207eca7d"
+    },
+    "yoma-003a-s03": {
+      "sugyaId": "yoma-003a-s03",
+      "daf": "3a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-3a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "3eb93c353fbe28baffed381a6dab0c6ef3363bb2f8588fa298d8e88fb79af7bf",
+        "reviewedSemanticFingerprint": "d7c9b54cbcb4111907e17a21ac96cb4da848c8a3530da0f1c514e8747258745e",
+        "evidence": {
+          "reviewId": "sonnet5-3a-first-20260823a",
+          "module": "yoma",
+          "daf": "3a",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-20) in full before opening currentEnrichment.",
+            "flow": [
+              "Line 1: The PZR KSHB mnemonic (Payis/lottery, Zeman/shehecheyanu, Regel/festival-status, Korban/offering-count, Shira/song, Berakhah/prayer) - six respects in which Shemini Atzeret is independent of Sukkot. But for tashlumin (compensation offerings), it still counts as Sukkot's own last day, proven from the Sukkah mishna that a missed festival offering may be brought through the whole festival including its final day.",
+              "Lines 2-3: Continuation/proof-citation for the tashlumin point (the Sukkah mishna quoted in full).",
+              "Lines 4-15: Rabbi Abba excludes Shavuot (Atzeret) via offering profile: Yom Kippur and the inauguration both bring one bull and one ram; Shavuot brings two rams. Challenge: R. Eliezer b. R. Shimon holds Yom Kippur itself has two rams (one from Acharei Mot/Leviticus, one from Pinchas/Numbers) - so what distinguishes it from Shavuot? Resolution: even so, Yom Kippur's two rams serve different functions (one is chovat hayom/day-obligation, the other is mussaf), while Shavuot's two rams (per the Two Loaves verse) are both chovat hayom. The functional mismatch, not mere count, excludes Shavuot.",
+              "Lines 16-20: Rabbi Abbahu excludes Rosh Hashana (and re-excludes Shavuot on a second ground) via property source: Yom Kippur's and the inauguration's bull-and-ram both come from the Kohen Gadol's own property ('kach lecha' - take for yourself), while Rosh Hashana's and Shavuot's come from communal funds. This works for the view that 'kach lecha' means personal property; the daf closes mid-word ('ve'aseh...') raising the alternative view, continuing on 3b."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "Same systemic corpus-wide line-gap pattern already documented on 2a/2b (116/173 daf, 67% of corpus): s01's own lineId (Yoma.3a.2) legitimately extends through vilna line 3 though declared endVilnaLine=1; s02's last lineId (l13/Yoma.3a.5) legitimately extends through vilna line 15 though declared endVilnaLine=13. In both cases the 'gap' content is the direct, verified continuation of the immediately preceding sugya's own cited argument (the tashlumin mishna-proof for s01; the chovat-hayom/mussaf functional distinction for s02's own step-04), not contamination from a different topic. No boundary repair warranted.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences PZR KSHB + tashlumin (s01), Shavuot excluded by offering count and function (s02), Rosh Hashana excluded by property source with the daf closing on an open question (s03). No false claim.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-003a-s01",
+              "verdict": "VERIFIED",
+              "notes": "All six PZR KSHB categories correctly named and matched to the acronym letters; tashlumin exception and its Sukkah-mishna proof match line 1 (+2-3) exactly."
+            },
+            {
+              "sugyaId": "yoma-003a-s02",
+              "verdict": "VERIFIED",
+              "notes": "R. Abba's one-bull-one-ram exclusion of Shavuot's two rams, the R. Eliezer b. R. Shimon challenge (name verified against raw text: aleph-lamed-yud-ayin-zayin-resh = Eliezer, not Elazar), and the chovat-hayom/mussaf functional resolution all match lines 4-15 exactly."
+            },
+            {
+              "sugyaId": "yoma-003a-s03",
+              "verdict": "VERIFIED",
+              "notes": "R. Abbahu's personal-vs-communal-property exclusion of both Rosh Hashana and Shavuot (raw text names both: 'le'apukei Atzeret veRosh Hashanah'), and the open-ended daf closure ('kach lecha' dispute continuing to 3b), match lines 16-20 exactly. takeaway.type 'open_question' is correctly used and is in the controlled taxonomy."
+            }
+          ],
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including fields that did not look suspicious (topicTags, alternateAngles, requiresUnderstanding chains, visualizableElements)."
+        }
+      },
+      "sourceFingerprint": "3eb93c353fbe28baffed381a6dab0c6ef3363bb2f8588fa298d8e88fb79af7bf",
+      "semanticFingerprint": "d7c9b54cbcb4111907e17a21ac96cb4da848c8a3530da0f1c514e8747258745e",
+      "secondPass": {
+        "reviewId": "sonnet5-3a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "3eb93c353fbe28baffed381a6dab0c6ef3363bb2f8588fa298d8e88fb79af7bf",
+        "reviewedSemanticFingerprint": "d7c9b54cbcb4111907e17a21ac96cb4da848c8a3530da0f1c514e8747258745e",
+        "evidence": {
+          "reviewId": "sonnet5-3a-second-20260823b",
+          "module": "yoma",
+          "daf": "3a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it). Confirmed the same three-part structure: PZR KSHB mnemonic plus the tashlumin exception (1-3); R. Abba excludes Shavuot by offering count, with the R. Eliezer b. R. Shimon two-rams challenge resolved by function (chovat hayom vs. mussaf) (4-15); R. Abbahu excludes Rosh Hashana (and re-excludes Shavuot) by personal-vs-communal property, daf closing on an open question (16-20).",
+          "speakerAttributionSpotCheck": {
+            "Rabbi Abba (s02)": "raw text 'amar Rabbi Abba' (aleph-bet-aleph, no vav-heh suffix) - correctly distinguished from Rabbi Abbahu",
+            "Rabbi Abbahu (s03)": "raw text 'amar Rabbi Abahu' (aleph-bet-heh-vav) - correctly distinguished from Rabbi Abba; these are two different Amoraim and the enrichment does not conflate them",
+            "Rabbi / Rabbi Eliezer b. Rabbi Shimon (s02)": "raw text 'Rabbi omer... Rabbi Eliezer bar Rabbi Shimon omer' - both correctly named, and 'Eliezer' (not 'Elazar') verified against the raw spelling",
+            "result": "no speaker misattribution found"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-003a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "PZR KSHB mnemonic and tashlumin exception match line 1 (+2-3) exactly."
+            },
+            {
+              "sugyaId": "yoma-003a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Shavuot exclusion by offering count, the two-rams challenge and its functional resolution match lines 4-15 exactly; speaker names re-verified."
+            },
+            {
+              "sugyaId": "yoma-003a-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Rosh Hashana (and Shavuot) exclusion by personal-vs-communal property, and the open daf-closure, match lines 16-20 exactly."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to precise speaker attribution (Abba vs. Abbahu; Eliezer vs. Elazar) as the highest-risk subtle-error surface on this daf. No defect found on any sugya."
+        }
+      },
+      "certifiedAtCommit": "f80b21dd4517770b80ad56ee79f1af7f207eca7d"
     }
   }
 }
