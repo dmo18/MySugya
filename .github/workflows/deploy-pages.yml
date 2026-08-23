@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -39,17 +41,38 @@ jobs:
       - name: Yoma offline validation gates
         run: npm run validate:offline:yoma
 
+      - name: Semantic toolchain syntax check
+        run: python3 -m py_compile scripts/semantic_certification.py scripts/validate_semantic_certification.py scripts/semantic_self_heal.py scripts/semantic_daf_packet.py scripts/semantic_review_state.py scripts/semantic_repair_scope_v2.py scripts/make_semantic_repair_manifest.py scripts/test_semantic_certification.py scripts/test_semantic_self_heal.py
+
+      - name: Semantic certification safety tests
+        run: |
+          python3 scripts/test_semantic_certification.py
+          python3 scripts/test_semantic_self_heal.py
+
+      - name: Semantic certification status
+        run: python3 scripts/validate_semantic_certification.py --module yoma --report
+
       - name: Rashi PR scope check
         if: github.event_name == 'pull_request'
         run: |
           git fetch --no-tags origin ${{ github.base_ref }}
           npm run check:rashi-pr-scope:yoma -- --base origin/${{ github.base_ref }}
 
-      - name: Worker manifest check
+      - name: Worker or holistic semantic scope check
         if: github.event_name == 'pull_request'
         run: |
           git fetch --no-tags origin ${{ github.base_ref }}
-          python3 scripts/worker_pipeline.py ci-check --base origin/${{ github.base_ref }}
+          if git diff --name-only origin/${{ github.base_ref }} HEAD | grep -qx '.semantic-repair-manifest.json'; then
+            python3 scripts/semantic_repair_scope_v2.py --base origin/${{ github.base_ref }}
+          else
+            python3 scripts/worker_pipeline.py ci-check --base origin/${{ github.base_ref }}
+          fi
+
+      - name: Semantic certification ratchet
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch --no-tags origin ${{ github.base_ref }}
+          python3 scripts/validate_semantic_certification.py --module yoma --ratchet --base origin/${{ github.base_ref }}
 
       - name: Build production site
         # Explicit module selection (Phase 3 Step 4A): GitHub Pages must

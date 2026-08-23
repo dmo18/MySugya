@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0",
+  "module": "yoma",
+  "strictMode": false,
+  "policy": {
+    "uncertifiedDefault": "Any sugya absent from records is UNCERTIFIED, regardless of legacy review metadata or historical audit findings.",
+    "certification": "CERTIFIED requires fresh sourceFingerprint and semanticFingerprint plus two fingerprint-bound source-first reviews with different reviewId values.",
+    "repairProof": "A first pass that finds REPAIR_REQUIRED cannot certify until repairRef exists and the live candidate differs from the first-pass reviewed fingerprints.",
+    "invalidation": "Any source, boundary, mapping, daf-summary, or semantic fingerprint change automatically makes the prior certificate STALE.",
+    "bootstrapExit": "Set strictMode true only after validate_semantic_certification.py --strict passes across the full corpus."
+  },
+  "records": {}
+}
