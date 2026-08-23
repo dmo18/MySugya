@@ -1237,7 +1237,7 @@ try:
         del sys.modules["validate_enrichment_contracts"]
     import validate_enrichment_contracts as VEC
 
-    daf_28, sid_28 = "7b", "yoma-007b-s01"
+    daf_28, sid_28 = "19b", "yoma-19b-s03"
     doc28 = load_learning(daf_28)
     sug28 = next(s for s in doc28["sugyot"] if s["id"] == sid_28)
     ORIGINAL_INVALID_HINT = sug28["display"]["hint"]
@@ -1254,8 +1254,7 @@ try:
     # ---- 29. Base A: a legitimate improvement PR merges, turning the
     #          invalid hint into a contract-valid question. Simulated new
     #          main / merge-base. -------------------------------------------
-    IMPROVED_HINT = ("Why does R. Yehuda's proof from the YK kohein gadol backfire "
-                     "on R. Shimon's view?")
+    IMPROVED_HINT = "What question does this sugya's central dispute actually turn on?"
     sug28["display"]["hint"] = IMPROVED_HINT
     save_learning(daf_28, doc28)
     rebuild_yoma()
