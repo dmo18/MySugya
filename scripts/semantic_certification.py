@@ -10,6 +10,8 @@ It makes semantic review durable and self-invalidating:
 - CERTIFIED requires two source-first review passes with different review ids
 - a first pass that found REPAIR_REQUIRED cannot certify until a real payload
   change is proven and a repairRef is recorded
+- incomplete historical findings are INVALID until re-read through the current
+  fingerprint-bound review process
 - any later source or semantic edit makes the certificate STALE automatically
 - legacy review:"reviewed" metadata is never treated as certification
 
@@ -34,9 +36,6 @@ CERT_STATES = {
     "BLOCKED",
 }
 
-# Fields intentionally excluded from semanticFingerprint are provenance/source
-# coordinates, Rashi (separately governed by the Rashi review system), and
-# review/status metadata. Everything else authored on the sugya is semantic.
 SOURCE_KEYS = {"id", "sugyaNumber", "lineRange", "lines", "sefariaRefs", "canonicalRef", "daf"}
 NON_SEMANTIC_KEYS = SOURCE_KEYS | {"review"}
 
@@ -91,7 +90,6 @@ def load_registry(module: str) -> Dict[str, Any]:
 
 
 def load_corpus(module: str) -> Dict[str, Tuple[str, Dict[str, Any], Dict[str, Any]]]:
-    """Return sugyaId -> (daf, parent daf document, sugya object)."""
     out: Dict[str, Tuple[str, Dict[str, Any], Dict[str, Any]]] = {}
     for path in sorted(learning_dir(module).glob("*.learning.json"), key=lambda p: daf_sort_key(p.name.split(".")[0])):
         daf = path.name.replace(".learning.json", "")
@@ -134,13 +132,7 @@ def source_payload(module: str, daf: str, sugya: Dict[str, Any]) -> Dict[str, An
 
 def semantic_payload(daf_doc: Dict[str, Any], sugya: Dict[str, Any]) -> Dict[str, Any]:
     authored = {k: v for k, v in sugya.items() if k not in NON_SEMANTIC_KEYS}
-    # The daf summary is learner-facing semantic content shared by every
-    # sugya. Including it means an edit to that summary invalidates every
-    # certificate on the daf instead of leaving a stale page-level claim.
-    return {
-        "dafSummary": daf_doc.get("summary", ""),
-        "sugya": authored,
-    }
+    return {"dafSummary": daf_doc.get("summary", ""), "sugya": authored}
 
 
 def fingerprints(module: str, daf: str, daf_doc: Dict[str, Any], sugya: Dict[str, Any]) -> Tuple[str, str]:
@@ -163,41 +155,76 @@ def validate_review_block(block: Any, name: str) -> Iterable[str]:
         yield f"{name}.reviewedSemanticFingerprint must be a nonblank string"
 
 
-def certificate_status(
-    module: str,
-    daf: str,
-    daf_doc: Dict[str, Any],
-    sugya: Dict[str, Any],
-    record: Any,
-) -> Tuple[str, list[str]]:
-    """Return effective state plus problems. Effective state is computed,
-    never trusted from the stored label alone."""
+def certificate_status(module: str, daf: str, daf_doc: Dict[str, Any], sugya: Dict[str, Any], record: Any) -> Tuple[str, list[str]]:
     sid = sugya.get("id", "<no-id>")
     if record is None:
         return "UNCERTIFIED", ["no semantic certification record"]
     if not isinstance(record, dict):
         return "INVALID", ["record is not an object"]
+
     problems: list[str] = []
     state = record.get("state")
     if state not in CERT_STATES:
-        problems.append(f"illegal state {state!r}")
-        return "INVALID", problems
+        return "INVALID", [f"illegal state {state!r}"]
     if record.get("daf") != daf:
         problems.append(f"record daf {record.get('daf')!r} does not match corpus daf {daf!r}")
     if record.get("sugyaId", sid) != sid:
         problems.append(f"record sugyaId {record.get('sugyaId')!r} does not match {sid!r}")
 
-    if state != "CERTIFIED":
-        return state, problems
-
     current_source, current_semantic = fingerprints(module, daf, daf_doc, sugya)
+    first = record.get("firstPass")
+    second = record.get("secondPass")
+
+    # Non-certified states still need enough valid state to route the autonomous
+    # queue safely. Historical findings with no reviewed fingerprints are kept as
+    # evidence but become INVALID, which routes them back through a fresh AUDIT.
+    if state == "REPAIR_REQUIRED":
+        problems.extend(validate_review_block(first, "firstPass"))
+        if isinstance(first, dict) and first.get("verdict") != "REPAIR_REQUIRED":
+            problems.append("REPAIR_REQUIRED state requires firstPass.verdict REPAIR_REQUIRED")
+        if isinstance(first, dict):
+            if first.get("reviewedSourceFingerprint") != current_source:
+                problems.append("REPAIR_REQUIRED firstPass source fingerprint is stale")
+            if first.get("reviewedSemanticFingerprint") != current_semantic:
+                problems.append("REPAIR_REQUIRED firstPass semantic fingerprint is stale")
+        return ("REPAIR_REQUIRED" if not problems else "INVALID"), problems
+
+    if state == "REPAIRED_PENDING_REVIEW":
+        problems.extend(validate_review_block(first, "firstPass"))
+        if isinstance(first, dict) and first.get("verdict") not in {"VERIFIED", "REPAIR_REQUIRED"}:
+            problems.append("pending review requires firstPass verdict VERIFIED or REPAIR_REQUIRED")
+        if isinstance(first, dict) and first.get("verdict") == "VERIFIED":
+            if first.get("reviewedSourceFingerprint") != current_source:
+                problems.append("VERIFIED firstPass source fingerprint is stale before second pass")
+            if first.get("reviewedSemanticFingerprint") != current_semantic:
+                problems.append("VERIFIED firstPass semantic fingerprint is stale before second pass")
+        if isinstance(first, dict) and first.get("verdict") == "REPAIR_REQUIRED":
+            if not isinstance(record.get("repairRef"), str) or not record["repairRef"].strip():
+                problems.append("repaired pending review requires nonblank repairRef")
+            if first.get("reviewedSourceFingerprint") == current_source and first.get("reviewedSemanticFingerprint") == current_semantic:
+                problems.append("repaired pending review has no source/semantic delta from known-bad first pass")
+        return ("REPAIRED_PENDING_REVIEW" if not problems else "INVALID"), problems
+
+    if state == "BLOCKED":
+        # BLOCKED intentionally remains a hard stop. It may originate in either
+        # pass, but at least one fingerprint-bound review block must explain it.
+        blocks = []
+        if isinstance(first, dict):
+            blocks.append((first, "firstPass"))
+        if isinstance(second, dict):
+            blocks.append((second, "secondPass"))
+        if not blocks:
+            problems.append("BLOCKED state requires a review block")
+        for block, name in blocks:
+            problems.extend(validate_review_block(block, name))
+        return ("BLOCKED" if not problems else "INVALID"), problems
+
+    # CERTIFIED
     if record.get("sourceFingerprint") != current_source:
         problems.append("sourceFingerprint is stale")
     if record.get("semanticFingerprint") != current_semantic:
         problems.append("semanticFingerprint is stale")
 
-    first = record.get("firstPass")
-    second = record.get("secondPass")
     problems.extend(validate_review_block(first, "firstPass"))
     problems.extend(validate_review_block(second, "secondPass"))
 
@@ -208,17 +235,11 @@ def certificate_status(
         first_source = first.get("reviewedSourceFingerprint")
         first_semantic = first.get("reviewedSemanticFingerprint")
         if first_verdict == "VERIFIED":
-            # A clean first pass and the confirming second pass must refer to the
-            # exact same candidate. Otherwise the first reviewer never reviewed
-            # what ultimately became certified.
             if first_source != current_source:
                 problems.append("firstPass VERIFIED source fingerprint differs from certified candidate")
             if first_semantic != current_semantic:
                 problems.append("firstPass VERIFIED semantic fingerprint differs from certified candidate")
         elif first_verdict == "REPAIR_REQUIRED":
-            # A record that was known-bad cannot become certified merely by
-            # changing metadata. There must be a recorded repair and the
-            # candidate must actually differ from what the first reviewer saw.
             if not isinstance(record.get("repairRef"), str) or not record["repairRef"].strip():
                 problems.append("firstPass REPAIR_REQUIRED requires nonblank repairRef before certification")
             if first_source == current_source and first_semantic == current_semantic:
@@ -232,9 +253,8 @@ def certificate_status(
         if second.get("reviewedSemanticFingerprint") != current_semantic:
             problems.append("secondPass semantic fingerprint differs from certified candidate")
 
-    if isinstance(first, dict) and isinstance(second, dict):
-        if first.get("reviewId") and first.get("reviewId") == second.get("reviewId"):
-            problems.append("firstPass and secondPass must have different reviewId values")
+    if isinstance(first, dict) and isinstance(second, dict) and first.get("reviewId") and first.get("reviewId") == second.get("reviewId"):
+        problems.append("firstPass and secondPass must have different reviewId values")
     if not isinstance(record.get("certifiedAtCommit"), str) or not record["certifiedAtCommit"].strip():
         problems.append("certifiedAtCommit must be a nonblank commit sha/ref")
 
@@ -258,18 +278,7 @@ def corpus_status(module: str) -> Tuple[Dict[str, int], Dict[str, Dict[str, Any]
     return counts, details
 
 
-def make_certified_record(
-    module: str,
-    daf: str,
-    daf_doc: Dict[str, Any],
-    sugya: Dict[str, Any],
-    first_pass: Dict[str, Any],
-    second_pass: Dict[str, Any],
-    certified_at_commit: str,
-    repair_ref: str | None = None,
-) -> Dict[str, Any]:
-    """Pure helper. It never invents review judgments, callers must supply
-    the two already-completed review blocks."""
+def make_certified_record(module: str, daf: str, daf_doc: Dict[str, Any], sugya: Dict[str, Any], first_pass: Dict[str, Any], second_pass: Dict[str, Any], certified_at_commit: str, repair_ref: str | None = None) -> Dict[str, Any]:
     source_fp, semantic_fp = fingerprints(module, daf, daf_doc, sugya)
     out = {
         "sugyaId": sugya["id"],
