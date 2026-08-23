@@ -33,26 +33,40 @@ produced AFTER the first and second source-first passes, bound by hash to the
 exact final sourceFingerprint/semanticFingerprint being certified:
 
 - `fieldInventory`: one entry per machine-enumerated semantically authored
-  field/leaf actually present in the record (see enumerate_semantic_paths),
-  each carrying a verdict and, for factual claims, source-support lines that
-  must fall inside the sugya's own authorized range (or the current daf for
-  the shared daf summary) unless explicitly marked as a cross-reference.
+  field/leaf actually present in the record. enumerate_semantic_paths()
+  RECURSES the entire payload (daf summary, daf glossary, every authored
+  sugya field) rather than naming fields by hand, so a new or legacy field
+  is caught automatically. Each path is classified SEMANTIC (authored prose/
+  claims; must be SUPPORTED, REPAIR_REQUIRED, or BLOCKED -- NONFACTUAL is
+  illegal) or STRUCTURAL (identifiers/coordinates/enums/slugs; may be
+  NONFACTUAL) by a fixed, reviewer-independent allowlist
+  (STRUCTURAL_LEAF_KEYS/STRUCTURAL_SCALAR_ARRAY_KEYS); a SUPPORTED claim's
+  source-support lines must fall inside the sugya's own authorized range (or
+  the current daf for the shared daf summary/glossary) unless the path is
+  both SEMANTIC-cross-reference-eligible (CROSS_REFERENCE_ALLOWED_SEMANTIC_TOP_KEYS)
+  or STRUCTURAL, AND the cited daf/range actually exists.
 - `dafBoundary`: a mechanically-checked physical-boundary assessment
   (rawLineCount/finalRawLine verified against the live raw source, plus a
-  reviewer-declared dafEndState). An open dafEndState requires an explicit
-  per-field `openEndingFieldSweep` proving no field imports the next daf's
-  conclusion.
+  reviewer-declared dafEndState).
+- `boundaryLeakageSweep`: mandatory for EVERY daf regardless of dafEndState
+  -- a reviewer's own (possibly mistaken or dishonest) `COMPLETE`
+  classification never gates whether this runs. Covers every SEMANTIC path
+  with an explicit importsNextDafConclusion:true/false; an open dafEndState
+  additionally requires a nonblank justifying `note` per entry.
 - `staleContentSweep`: a fixed, mechanically-enumerated checklist of stale-
   content failure modes (see STALE_SWEEP_CATEGORIES), each with an explicit
   found:true/false attestation. Any found:true blocks certification.
 
 The final audit does not, by itself, prove Talmudic correctness -- a
-dishonest or careless reviewer can still declare false verdicts. It closes
-the specific gap that was demonstrated: an "everything was checked" free-text
+dishonest or careless reviewer can still declare false verdicts for a
+SUPPORTED claim, or falsely mark a sweep entry found:false. It closes the
+specific gaps that were demonstrated: an "everything was checked" free-text
 claim can no longer stand in for a mechanically-enumerated, fingerprint-bound,
-range-checked record. Genuine independent review (a real second reviewer
-context, not just a second reviewId string) remains mandatory; see
-`reviewerContextId`/`auditorContextId` below.
+range-checked record, and a reviewer can no longer choose NONFACTUAL for
+authored prose to dodge that check. Genuine independent review (a real
+second reviewer context, not just a second reviewId string) remains
+mandatory; see `reviewerContextId`/`auditorContextId` below -- and see there
+for the honest limit of what this module can verify about that.
 """
 from __future__ import annotations
 
@@ -83,7 +97,9 @@ NON_SEMANTIC_KEYS = SOURCE_KEYS | {"review"}
 FIELD_VERDICTS = {"SUPPORTED", "REPAIR_REQUIRED", "BLOCKED", "NONFACTUAL"}
 
 # Recognized physical daf-ending classifications for finalAudit.dafBoundary.
-# Anything other than COMPLETE requires an explicit openEndingFieldSweep.
+# boundaryLeakageSweep is mandatory regardless of which state is declared
+# here; anything other than COMPLETE additionally raises its evidentiary
+# burden (a required nonblank `note` per swept path).
 DAF_END_STATES = {
     "COMPLETE",
     "MID_WORD",
@@ -93,6 +109,70 @@ DAF_END_STATES = {
     "MID_ARGUMENT",
     "OTHER_OPEN_CONTINUATION",
 }
+
+# Field-path classification for finalAudit.fieldInventory. This is a
+# machine-fixed classification, never a reviewer choice (see
+# enumerate_semantic_paths): a path's class is entirely determined by its
+# position in the schema, not by what a reviewer wants to claim about it.
+#
+# STRUCTURAL: identifiers, coordinates, enums, and slugs -- never authored
+# prose making a claim about the sugya's content. May legally be NONFACTUAL.
+#
+# SEMANTIC: everything else. Authored prose/claims about what the source
+# says. Must be SUPPORTED, REPAIR_REQUIRED, or BLOCKED -- NONFACTUAL is not a
+# legal verdict for a SEMANTIC path. This is deliberately exhaustive-by-
+# default: enumerate_semantic_paths recurses the ENTIRE semantic payload, and
+# only a leaf whose immediate key name appears in one of the sets below is
+# ever classified STRUCTURAL. A new field added anywhere in the schema is
+# SEMANTIC (the stricter, audited bucket) unless someone deliberately adds
+# its key here -- the classification can only ever narrow the audited set,
+# never silently exempt something new.
+#
+# No "pedagogical prompt" exemption is defined. display.hint and
+# learning.learnerQuestion look like prompts/questions rather than
+# assertions, but shared/schema_map.js is explicit that both must still be
+# "independently supported by the declared source range" -- a fabricated or
+# out-of-scope question is still a defect. Every prose field is SEMANTIC.
+STRUCTURAL_LEAF_KEYS = {
+    "id",                 # stable identifiers (argumentFlow step id, etc.)
+    "sourceType",          # controlled vocabulary (gemara/mishnah/unknown)
+    "refType",             # controlled vocabulary (sourceRefs discriminator)
+    "lineId",              # structural line-id pointer
+    "targetLineId",        # structural cross-daf line-id pointer
+    "targetDaf",           # structural cross-daf daf pointer
+    "vilnaLine",           # structural line-number coordinate
+    "startVilnaLine",      # structural line-number coordinate
+    "endVilnaLine",        # structural line-number coordinate
+    "targetVilnaLine",     # structural line-number coordinate
+    "priority",            # numeric ranking, not prose
+    "type",                # controlled-vocabulary classification (argumentFlow step type / visualizableElements category)
+    "difficulty",          # controlled enum (intro/intermediate/advanced)
+    "correctedByStepId",   # structural pointer
+    "category",            # controlled vocabulary (reasoningPattern.category)
+    "image",               # derived .webp filename, not authored prose
+}
+
+# Arrays whose SCALAR elements are structural identifiers/slugs rather than
+# prose. A list under one of these keys containing bare strings is
+# STRUCTURAL per element; if an element is instead an object (a legacy
+# relatedSugyot {id, reason} shape, for example), the object is walked
+# normally and its own nested keys are classified on their own merits (so a
+# nested "reason"/"description" string still comes out SEMANTIC).
+STRUCTURAL_SCALAR_ARRAY_KEYS = {
+    "topicTags",             # normalized ASCII slugs, not display labels
+    "conceptRefs",           # ids into a shared cross-tractate concept store
+    "requiresUnderstanding", # sugya ids ONLY per schema contract, never prose
+    "relatedSugyot",         # plain-string legacy shape is ids; see above
+}
+
+# Paths whose top-level key may legally set fieldInventory.crossReference on
+# a SEMANTIC-class SUPPORTED entry, i.e. cite a DIFFERENT daf as support. Any
+# other SEMANTIC path describes what THIS sugya/daf says and must be
+# supported by lines on its own daf -- "it is true on 8a" never justifies
+# stating it as established on 7b. STRUCTURAL-class paths (e.g. a
+# sourceRefs crossDaf pointer, already individually validated by
+# validate_source_refs.py) are not restricted by this set at all.
+CROSS_REFERENCE_ALLOWED_SEMANTIC_TOP_KEYS = {"relatedSugyot"}
 
 # Fixed, mechanically-enumerated stale-content failure modes every finalAudit
 # must explicitly attest to (found: true/false) before a record can certify.
@@ -211,7 +291,17 @@ def source_payload(module: str, daf: str, sugya: Dict[str, Any]) -> Dict[str, An
 
 def semantic_payload(daf_doc: Dict[str, Any], sugya: Dict[str, Any]) -> Dict[str, Any]:
     authored = {k: v for k, v in sugya.items() if k not in NON_SEMANTIC_KEYS}
-    return {"dafSummary": daf_doc.get("summary", ""), "sugya": authored}
+    return {
+        "dafSummary": daf_doc.get("summary", ""),
+        # Daf-level authored semantic content beyond the summary. Glossary
+        # definitions are authored prose about the daf's key terms; a stale
+        # glossary entry left behind by a one-daf semantic repair is a real
+        # defect (found during the campaign on 9a), not a theoretical gap.
+        # Any change here invalidates every sugya certificate on the daf,
+        # exactly like the daf summary.
+        "dafGlossary": daf_doc.get("glossary") or [],
+        "sugya": authored,
+    }
 
 
 def fingerprints(module: str, daf: str, daf_doc: Dict[str, Any], sugya: Dict[str, Any]) -> Tuple[str, str]:
@@ -242,126 +332,85 @@ def validate_review_block(block: Any, name: str) -> Iterable[str]:
         yield f"{name}.reviewerContextId must be a nonblank string naming a genuinely distinct reviewer/session/context"
 
 
-def enumerate_semantic_paths(sugya: Dict[str, Any]) -> List[str]:
-    """Machine-enumerate every semantically authored field/leaf actually
-    present in a finished sugya record, for finalAudit.fieldInventory.
+def _walk_semantic_value(value: Any, prefix: str, container_key: str, out: List[Tuple[str, str]]) -> None:
+    """Recursively enumerate leaf paths under `value`, classifying each as
+    SEMANTIC or STRUCTURAL. See STRUCTURAL_LEAF_KEYS/STRUCTURAL_SCALAR_ARRAY_KEYS.
 
-    This is deliberately produced by code from the actual final payload, not
-    written by a reviewer, so "every field was checked" can be verified
-    rather than merely declared. Only fields with real content are included:
-    an optional field left empty carries no claim and needs no audit entry.
-    Paths use argumentFlow step ids (stable across edits) and 0-based indices
-    for other arrays (their own array identity is part of the semantic
-    fingerprint, so a reordering already invalidates any prior audit).
+    `container_key` is the key of the dict/list `value` itself lives under
+    (used only when `value` turns out to be a leaf or a list of scalars);
+    recursing into a dict always re-derives classification from ITS OWN keys,
+    so container_key passed into a dict call is inert -- nothing here lets a
+    field "inherit" a structural classification from an enclosing container.
     """
-    paths: List[str] = []
+    if isinstance(value, dict):
+        for k in sorted(value.keys()):
+            v = value[k]
+            child_prefix = f"{prefix}.{k}" if prefix else k
+            _walk_semantic_value(v, child_prefix, k, out)
+        return
+    if isinstance(value, list):
+        for i, item in enumerate(value):
+            if isinstance(item, (dict, list)):
+                if isinstance(item, dict) and isinstance(item.get("id"), str) and item.get("id"):
+                    key = item["id"]
+                else:
+                    key = str(i)
+                _walk_semantic_value(item, f"{prefix}[{key}]", container_key, out)
+            else:
+                if item is None or item == "":
+                    continue
+                cls = "STRUCTURAL" if container_key in STRUCTURAL_SCALAR_ARRAY_KEYS else "SEMANTIC"
+                out.append((f"{prefix}[{i}]", cls))
+        return
+    if value is None or value == "":
+        return
+    cls = "STRUCTURAL" if container_key in STRUCTURAL_LEAF_KEYS else "SEMANTIC"
+    out.append((prefix, cls))
 
-    def add(p: str) -> None:
-        paths.append(p)
 
-    # Shared page-level claim: every sugya certificate on the daf includes
-    # the daf summary in its semantic fingerprint, so it must be audited by
-    # every sugya's finalAudit too.
-    add("dafSummary")
+def enumerate_semantic_paths(daf_doc: Dict[str, Any], sugya: Dict[str, Any]) -> List[Tuple[str, str]]:
+    """Machine-enumerate every semantically authored field/leaf actually
+    present in a finished daf/sugya record, for finalAudit.fieldInventory,
+    each tagged (path, classification).
+
+    This recurses the ENTIRE semantic payload (semantic_payload's dafSummary,
+    dafGlossary, and every authored sugya field) rather than naming fields by
+    hand, so a new or legacy semantic field automatically appears in the
+    audit inventory without any change to this function. Only a fixed,
+    narrow allowlist of structural key names (STRUCTURAL_LEAF_KEYS /
+    STRUCTURAL_SCALAR_ARRAY_KEYS) is exempted from the audited SEMANTIC
+    bucket; everything else defaults into it. Only fields with real content
+    are included: an optional field left empty carries no claim and needs no
+    audit entry. Paths use stable ids (argumentFlow step ids, etc.) where
+    present and 0-based indices otherwise; array identity/order is already
+    part of the semantic fingerprint, so a reordering invalidates any prior
+    audit regardless of path naming.
+    """
+    out: List[Tuple[str, str]] = []
+    # Shared page-level claims: every sugya certificate on the daf includes
+    # the daf summary and glossary in its semantic fingerprint, so both must
+    # be audited by every sugya's finalAudit too.
+    out.append(("dafSummary", "SEMANTIC"))
     # Boundary/source-ownership fields: excluded from the semantic
     # fingerprint (they belong to sourceFingerprint) but explicitly required
     # in the final audit inventory so boundary correctness is never silently
     # assumed just because the fingerprint machinery didn't flag it.
-    add("lineRange")
-    add("lines")
+    out.append(("lineRange", "STRUCTURAL"))
+    out.append(("lines", "STRUCTURAL"))
 
-    display = sugya.get("display") or {}
-    if isinstance(display, dict):
-        for k in ("title", "oneLine", "shortSummary", "whats", "hint"):
-            if display.get(k):
-                add(f"display.{k}")
+    payload = semantic_payload(daf_doc, sugya)
+    _walk_semantic_value(payload.get("dafGlossary") or [], "dafGlossary", "dafGlossary", out)
+    authored = payload.get("sugya") or {}
+    for k in sorted(authored.keys()):
+        _walk_semantic_value(authored[k], k, k, out)
 
-    learning = sugya.get("learning") or {}
-    if isinstance(learning, dict):
-        for k in (
-            "learnerQuestion", "coreTension", "coreMove", "resolution",
-            "ahaMoment", "learningBlocker", "memoryAnchor",
-        ):
-            if learning.get(k):
-                add(f"learning.{k}")
-        takeaway = learning.get("takeaway")
-        if isinstance(takeaway, dict) and takeaway.get("text"):
-            add("learning.takeaway.text")
-        reasoning = learning.get("reasoningPattern")
-        if isinstance(reasoning, dict) and reasoning.get("notes"):
-            add("learning.reasoningPattern.notes")
-
-    for i, step in enumerate(sugya.get("argumentFlow") or []):
-        if not isinstance(step, dict):
-            continue
-        key = step.get("id") or str(i)
-        if step.get("label"):
-            add(f"argumentFlow[{key}].label")
-        if step.get("speaker"):
-            add(f"argumentFlow[{key}].speaker")
-        if step.get("text"):
-            add(f"argumentFlow[{key}].text")
-        if step.get("sourceRefs"):
-            add(f"argumentFlow[{key}].sourceRefs")
-
-    for i, q in enumerate(sugya.get("quizSeeds") or []):
-        if not isinstance(q, dict):
-            continue
-        if q.get("question"):
-            add(f"quizSeeds[{i}].question")
-        if q.get("answer"):
-            add(f"quizSeeds[{i}].answer")
-
-    for i, m in enumerate(sugya.get("misconceptions") or []):
-        if not isinstance(m, dict):
-            continue
-        if m.get("misconception"):
-            add(f"misconceptions[{i}].misconception")
-        if m.get("correction"):
-            add(f"misconceptions[{i}].correction")
-
-    if sugya.get("finalRuling"):
-        add("finalRuling")
-
-    for i, a in enumerate(sugya.get("alternateAngles") or []):
-        if isinstance(a, dict):
-            for k, v in sorted(a.items()):
-                if isinstance(v, str) and v:
-                    add(f"alternateAngles[{i}].{k}")
-        elif isinstance(a, str) and a:
-            add(f"alternateAngles[{i}]")
-
-    for i, p in enumerate(sugya.get("prerequisiteKnowledge") or []):
-        if p:
-            add(f"prerequisiteKnowledge[{i}]")
-
-    for i, r in enumerate(sugya.get("requiresUnderstanding") or []):
-        if r:
-            add(f"requiresUnderstanding[{i}]")
-
-    for i, r in enumerate(sugya.get("relatedSugyot") or []):
-        if r:
-            add(f"relatedSugyot[{i}]")
-
-    for i, v in enumerate(sugya.get("visualizableElements") or []):
-        if isinstance(v, dict):
-            if v.get("item"):
-                add(f"visualizableElements[{i}].item")
-            if v.get("label"):
-                add(f"visualizableElements[{i}].label")
-
-    if sugya.get("topicTags"):
-        add("topicTags")
-
-    if sugya.get("conceptRefs"):
-        add("conceptRefs")
-
-    return paths
+    return out
 
 
 def validate_final_audit(
     module: str,
     daf: str,
+    daf_doc: Dict[str, Any],
     sugya: Dict[str, Any],
     current_source: str,
     current_semantic: str,
@@ -373,10 +422,20 @@ def validate_final_audit(
 
     Returns a list of problems; empty means the final audit is acceptable.
     This never judges Talmudic correctness -- it enforces that the audit is
-    complete (every expected path present, no ambiguous duplicates),
-    fingerprint-fresh, boundary-checked against the live raw source, and
-    that every source-support claim actually falls inside its authorized
-    range unless explicitly marked a cross-reference.
+    complete (every expected path present, no ambiguous duplicates, correctly
+    classified), fingerprint-fresh, boundary-checked against the live raw
+    source, that every SEMANTIC claim actually falls inside its authorized
+    range unless explicitly and legitimately marked a cross-reference, and
+    that the boundary-leakage sweep ran unconditionally.
+
+    Independence limitation (see docs/semantic-self-heal.md): this function
+    can only check that reviewId/reviewerContextId/auditorContextId values
+    are mechanically DISTINCT from each other. It cannot cryptographically
+    verify that they correspond to genuinely separate execution contexts --
+    that provenance guarantee comes from how the values were produced (a
+    real separate subagent/session invocation), not from anything this
+    validator can inspect. Distinctness here is a necessary, not sufficient,
+    condition for real independence.
     """
     problems: list[str] = []
     if not isinstance(final_audit, dict):
@@ -384,19 +443,29 @@ def validate_final_audit(
 
     if not isinstance(final_audit.get("reviewId"), str) or not final_audit["reviewId"].strip():
         problems.append("finalAudit.reviewId must be a nonblank string")
+    else:
+        if isinstance(first, dict) and final_audit["reviewId"] == first.get("reviewId"):
+            problems.append("finalAudit.reviewId must differ from firstPass.reviewId")
+        if isinstance(second, dict) and final_audit["reviewId"] == second.get("reviewId"):
+            problems.append("finalAudit.reviewId must differ from secondPass.reviewId")
 
     auditor_context = final_audit.get("auditorContextId")
     if not isinstance(auditor_context, str) or not auditor_context.strip():
         problems.append("finalAudit.auditorContextId must be a nonblank string naming a genuinely distinct reviewer/session/context")
-    elif isinstance(first, dict) and auditor_context == first.get("reviewerContextId"):
-        problems.append("finalAudit.auditorContextId must differ from firstPass.reviewerContextId")
+    else:
+        if isinstance(first, dict) and auditor_context == first.get("reviewerContextId"):
+            problems.append("finalAudit.auditorContextId must differ from firstPass.reviewerContextId")
+        if isinstance(second, dict) and auditor_context == second.get("reviewerContextId"):
+            problems.append("finalAudit.auditorContextId must differ from secondPass.reviewerContextId")
 
     if final_audit.get("auditedSourceFingerprint") != current_source:
         problems.append("finalAudit.auditedSourceFingerprint differs from the current candidate (stale final audit)")
     if final_audit.get("auditedSemanticFingerprint") != current_semantic:
         problems.append("finalAudit.auditedSemanticFingerprint differs from the current candidate (stale final audit)")
 
-    expected_paths = set(enumerate_semantic_paths(sugya))
+    expected = dict(enumerate_semantic_paths(daf_doc, sugya))
+    expected_paths = set(expected)
+    semantic_paths = {p for p, cls in expected.items() if cls == "SEMANTIC"}
     inventory = final_audit.get("fieldInventory")
     if not isinstance(inventory, list) or not inventory:
         problems.append("finalAudit.fieldInventory must be a nonempty array")
@@ -405,6 +474,14 @@ def validate_final_audit(
     lr = sugya.get("lineRange") or {}
     lr_start = lr.get("startVilnaLine")
     lr_end = lr.get("endVilnaLine")
+    raw_line_cache: Dict[str, list[str]] = {}
+
+    def raw_lines_for(target_daf: str) -> list[str]:
+        if target_daf not in raw_line_cache:
+            p = raw_dir(module) / f"{target_daf}.json"
+            raw_line_cache[target_daf] = json.loads(p.read_text(encoding="utf-8")).get("lines") or [] if p.exists() else []
+        return raw_line_cache[target_daf]
+
     seen_paths: list[str] = []
     for entry in inventory:
         if not isinstance(entry, dict):
@@ -415,6 +492,8 @@ def validate_final_audit(
             problems.append("finalAudit.fieldInventory entry missing nonblank path")
             continue
         seen_paths.append(path)
+        path_class = expected.get(path)
+        path_top_key = re.split(r"[.\[]", path, maxsplit=1)[0]
 
         verdict = entry.get("verdict")
         if verdict not in FIELD_VERDICTS:
@@ -434,19 +513,50 @@ def validate_final_audit(
             cross_ref = False
 
         if verdict == "NONFACTUAL":
+            # A reviewer never chooses this classification: it is only legal
+            # for a machine-classified STRUCTURAL path (see
+            # STRUCTURAL_LEAF_KEYS/STRUCTURAL_SCALAR_ARRAY_KEYS). Summaries,
+            # display/learning prose, argumentFlow labels/text/speakers, quiz
+            # questions/answers, misconceptions, finalRuling, alternateAngles,
+            # glossary definitions, visualization descriptions, and
+            # relatedSugya reasons are all SEMANTIC and can never be
+            # NONFACTUAL, closing the escape hatch a reviewer previously had.
+            if path_class == "SEMANTIC":
+                problems.append(f"{path}: NONFACTUAL is not a legal verdict for a SEMANTIC (authored prose) path; must be SUPPORTED, REPAIR_REQUIRED, or BLOCKED")
+                continue
             if boundary_safe_declared is not True:
                 problems.append(f"{path}: NONFACTUAL entries must declare boundarySafe true (no factual claim to be unsafe)")
             continue
 
         # SUPPORTED: a factual/interpretive claim. Its supporting lines must
-        # be real and, unless explicitly a cross-reference, must fall inside
-        # this sugya's own authorized range (or anywhere on the current daf
-        # for the shared dafSummary claim). This is the mechanical form of
-        # "a claim may not use the following daf as source support."
+        # be real and, unless explicitly and legitimately a cross-reference,
+        # must fall inside this sugya's own authorized range (or anywhere on
+        # the current daf for the shared dafSummary/dafGlossary claims). This
+        # is the mechanical form of "a claim may not use the following daf as
+        # source support."
+        # Permitted only for a path whose classification is actually known
+        # (present in the machine-enumerated `expected` map): STRUCTURAL
+        # paths always qualify, SEMANTIC paths only under the fixed
+        # top-key allowlist. An unrecognized/fabricated path (not part of
+        # the enumerated inventory at all) is never granted crossReference
+        # eligibility by default -- it cannot substitute for a real expected
+        # path's completeness requirement either way, but this keeps the
+        # permission check itself from ever defaulting open.
+        cross_ref_permitted = (
+            path_class == "STRUCTURAL"
+            or (path_class == "SEMANTIC" and path_top_key in CROSS_REFERENCE_ALLOWED_SEMANTIC_TOP_KEYS)
+        )
+        if cross_ref and not cross_ref_permitted:
+            problems.append(
+                f"{path}: crossReference is not permitted for this field; local semantic claims about the "
+                f"current daf/sugya must be supported by lines on that same daf"
+            )
+
         lines = entry.get("supportingLines")
         if not isinstance(lines, list) or not lines:
             problems.append(f"{path}: SUPPORTED verdict requires a nonempty supportingLines array")
             continue
+        effective_cross_ref = cross_ref and cross_ref_permitted
         computed_safe = True
         for item in lines:
             if not isinstance(item, dict):
@@ -456,18 +566,27 @@ def validate_final_audit(
             start = item.get("startVilnaLine")
             end = item.get("endVilnaLine")
             if (
-                not isinstance(item_daf, str) or not item_daf.strip()
+                not isinstance(item_daf, str) or not re.fullmatch(r"\d+[ab]", item_daf)
                 or not isinstance(start, int) or not isinstance(end, int)
                 or start < 1 or end < start
             ):
                 computed_safe = False
                 continue
-            if cross_ref:
+            if effective_cross_ref:
+                # Even a legitimate cross-reference must point at a real daf
+                # and a real line range on it -- never trusted blindly. The
+                # daf shape is already constrained to \d+[ab] above, so this
+                # never resolves a path outside raw_dir(module).
+                target_lines = raw_lines_for(item_daf)
+                if not target_lines or end > len(target_lines):
+                    computed_safe = False
                 continue
             if item_daf != daf:
                 computed_safe = False
                 continue
-            if path == "dafSummary":
+            if path == "dafSummary" or path.startswith("dafGlossary"):
+                if end > len(raw_lines_for(daf)):
+                    computed_safe = False
                 continue
             if lr_start is None or lr_end is None or not (lr_start <= start and end <= lr_end):
                 computed_safe = False
@@ -477,7 +596,7 @@ def validate_final_audit(
                 f"verified source-support range check (expected {computed_safe})"
             )
         if not computed_safe:
-            problems.append(f"{path}: source-support line(s) fall outside the authorized daf/sugya range and are not marked crossReference")
+            problems.append(f"{path}: source-support line(s) fall outside the authorized daf/sugya range, point at a nonexistent daf/range, or are not legitimately marked crossReference")
 
     if len(seen_paths) != len(set(seen_paths)):
         problems.append("finalAudit.fieldInventory has duplicate/ambiguous path entries")
@@ -486,12 +605,9 @@ def validate_final_audit(
         problems.append(f"finalAudit.fieldInventory omits {len(missing)} expected path(s): {sorted(missing)}")
 
     # Physical daf-boundary contract.
-    raw_lines: list[str] = []
-    raw_path = raw_dir(module) / f"{daf}.json"
-    if raw_path.exists():
-        raw_lines = json.loads(raw_path.read_text(encoding="utf-8")).get("lines") or []
-    else:
-        problems.append(f"missing authoritative talmuddev source for {daf}: {raw_path}")
+    raw_lines = raw_lines_for(daf)
+    if not raw_lines:
+        problems.append(f"missing authoritative talmuddev source for {daf}: {raw_dir(module) / f'{daf}.json'}")
 
     db = final_audit.get("dafBoundary")
     end_state = None
@@ -506,27 +622,38 @@ def validate_final_audit(
         if end_state not in DAF_END_STATES:
             problems.append(f"finalAudit.dafBoundary.dafEndState is not a recognized value: {end_state!r}")
 
-    if end_state and end_state != "COMPLETE":
-        sweep = final_audit.get("openEndingFieldSweep")
-        if not isinstance(sweep, list) or not sweep:
-            problems.append(f"dafEndState {end_state} requires a nonempty openEndingFieldSweep covering every field path")
-        else:
-            sweep_paths: set[str] = set()
-            for entry in sweep:
-                if not isinstance(entry, dict):
-                    problems.append("openEndingFieldSweep entry must be an object")
-                    continue
-                p = entry.get("path")
-                if isinstance(p, str):
-                    sweep_paths.add(p)
-                imports_next = entry.get("importsNextDafConclusion")
-                if not isinstance(imports_next, bool):
-                    problems.append(f"openEndingFieldSweep[{p!r}] missing boolean importsNextDafConclusion")
-                elif imports_next is True:
-                    problems.append(f"openEndingFieldSweep flags {p!r} as importing the next daf's conclusion; repair before certifying")
-            missing_sweep = expected_paths - sweep_paths
-            if missing_sweep:
-                problems.append(f"openEndingFieldSweep omits {len(missing_sweep)} expected path(s): {sorted(missing_sweep)}")
+    # Boundary-leakage sweep: required for EVERY daf regardless of the
+    # reviewer's own dafEndState classification. A mistaken (or dishonest)
+    # `COMPLETE` declaration must never be able to skip the exact sweep
+    # designed to catch false closure/next-daf leakage; dafEndState is
+    # additional evidence, not a gate on whether this check runs. Scoped to
+    # SEMANTIC-class paths only (a slug or line-number coordinate cannot
+    # "assert a resolved conclusion").
+    sweep = final_audit.get("boundaryLeakageSweep")
+    if not isinstance(sweep, list) or not sweep:
+        problems.append("finalAudit.boundaryLeakageSweep must be a nonempty array covering every SEMANTIC-class field path, required for every daf regardless of dafEndState")
+    else:
+        sweep_paths: set[str] = set()
+        strict = bool(end_state) and end_state != "COMPLETE"
+        for entry in sweep:
+            if not isinstance(entry, dict):
+                problems.append("boundaryLeakageSweep entry must be an object")
+                continue
+            p = entry.get("path")
+            if isinstance(p, str):
+                sweep_paths.add(p)
+            imports_next = entry.get("importsNextDafConclusion")
+            if not isinstance(imports_next, bool):
+                problems.append(f"boundaryLeakageSweep[{p!r}] missing boolean importsNextDafConclusion")
+            elif imports_next is True:
+                problems.append(f"boundaryLeakageSweep flags {p!r} as importing the next daf's conclusion; repair before certifying")
+            if strict:
+                note = entry.get("note")
+                if not isinstance(note, str) or not note.strip():
+                    problems.append(f"boundaryLeakageSweep[{p!r}] requires a nonblank note justifying non-leakage on an open ({end_state}) daf")
+        missing_sweep = semantic_paths - sweep_paths
+        if missing_sweep:
+            problems.append(f"boundaryLeakageSweep omits {len(missing_sweep)} SEMANTIC-class path(s): {sorted(missing_sweep)}")
 
     # Post-repair stale-content sweep, required unconditionally.
     sweep2 = final_audit.get("staleContentSweep")
@@ -705,7 +832,7 @@ def certificate_status(module: str, daf: str, daf_doc: Dict[str, Any], sugya: Di
     if not isinstance(record.get("certifiedAtCommit"), str) or not record["certifiedAtCommit"].strip():
         problems.append("certifiedAtCommit must be a nonblank commit sha/ref")
 
-    problems.extend(validate_final_audit(module, daf, sugya, current_source, current_semantic, final_audit, first, second))
+    problems.extend(validate_final_audit(module, daf, daf_doc, sugya, current_source, current_semantic, final_audit, first, second))
 
     return ("CERTIFIED" if not problems else "STALE"), problems
 

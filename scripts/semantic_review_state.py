@@ -120,7 +120,7 @@ def main() -> None:
     final_audit_cmd.add_argument("--sugya", required=True)
     final_audit_cmd.add_argument("--review-id", required=True)
     final_audit_cmd.add_argument("--auditor-context-id", required=True, help="Genuinely distinct reviewer/session/context id, never fabricated")
-    final_audit_cmd.add_argument("--audit-file", required=True, help="JSON file with dafBoundary, fieldInventory, staleContentSweep, and optionally openEndingFieldSweep")
+    final_audit_cmd.add_argument("--audit-file", required=True, help="JSON file with dafBoundary, fieldInventory, boundaryLeakageSweep, staleContentSweep")
     final_audit_cmd.add_argument("--commit-ref", default="HEAD")
 
     args = ap.parse_args()
@@ -169,7 +169,7 @@ def main() -> None:
             )
         payload = read_evidence(args.audit_file)
         if not isinstance(payload, dict):
-            raise SystemExit("--audit-file must contain a JSON object with dafBoundary, fieldInventory, staleContentSweep")
+            raise SystemExit("--audit-file must contain a JSON object with dafBoundary, fieldInventory, boundaryLeakageSweep, staleContentSweep")
         final_audit = {
             "reviewId": args.review_id,
             "auditorContextId": args.auditor_context_id,
@@ -177,13 +177,14 @@ def main() -> None:
             "auditedSemanticFingerprint": semantic_fp,
             "dafBoundary": payload.get("dafBoundary"),
             "fieldInventory": payload.get("fieldInventory"),
+            # Required unconditionally, regardless of dafEndState: see
+            # validate_final_audit / docs/semantic-self-heal.md.
+            "boundaryLeakageSweep": payload.get("boundaryLeakageSweep"),
             "staleContentSweep": payload.get("staleContentSweep"),
         }
-        if payload.get("openEndingFieldSweep") is not None:
-            final_audit["openEndingFieldSweep"] = payload["openEndingFieldSweep"]
 
         problems = validate_final_audit(
-            module, daf, sugya, source_fp, semantic_fp, final_audit,
+            module, daf, doc, sugya, source_fp, semantic_fp, final_audit,
             current.get("firstPass"), current.get("secondPass"),
         )
         if problems:

@@ -31,15 +31,34 @@ def review(review_id: str, reviewer_context_id: str, verdict: str, source_fp: st
     }
 
 
-def trivial_final_audit(module: str, daf: str, doc: dict, sugya: dict, review_id: str, auditor_context_id: str) -> dict:
-    """A mechanically-valid finalAudit for plumbing tests: every field is
-    marked NONFACTUAL (legal, requires no source-support lines) so this
-    helper does not need to make real Talmudic judgments. Content-quality
-    tests live in the semantic campaign itself, not here.
+def realistic_final_audit(module: str, daf: str, doc: dict, sugya: dict, review_id: str, auditor_context_id: str) -> dict:
+    """A mechanically-valid finalAudit for plumbing tests. Every SEMANTIC-class
+    path is SUPPORTED with real, in-range supporting lines (schema 2.0 no
+    longer permits NONFACTUAL for authored prose); only STRUCTURAL-class
+    paths (identifiers/coordinates/slugs) use NONFACTUAL. Content-QUALITY
+    tests (is the claim actually true) live in the semantic campaign itself,
+    not here -- this only proves the plumbing accepts a mechanically sound,
+    fully-covered, correctly-classified audit.
     """
     source_fp, semantic_fp = fingerprints(module, daf, doc, sugya)
     raw = json.loads((raw_dir(module) / f"{daf}.json").read_text(encoding="utf-8"))
     raw_lines = raw.get("lines") or []
+    lr = sugya["lineRange"]
+
+    entries = []
+    for path, cls in enumerate_semantic_paths(doc, sugya):
+        if cls == "STRUCTURAL":
+            entries.append({"path": path, "verdict": "NONFACTUAL", "boundarySafe": True, "crossReference": False})
+            continue
+        if path == "dafSummary" or path.startswith("dafGlossary"):
+            lines = [{"daf": daf, "startVilnaLine": 1, "endVilnaLine": len(raw_lines)}]
+        else:
+            lines = [{"daf": daf, "startVilnaLine": lr["startVilnaLine"], "endVilnaLine": lr["endVilnaLine"]}]
+        entries.append({
+            "path": path, "verdict": "SUPPORTED", "boundarySafe": True,
+            "crossReference": False, "supportingLines": lines,
+        })
+
     return {
         "reviewId": review_id,
         "auditorContextId": auditor_context_id,
@@ -50,9 +69,10 @@ def trivial_final_audit(module: str, daf: str, doc: dict, sugya: dict, review_id
             "finalRawLine": raw_lines[-1] if raw_lines else "",
             "dafEndState": "COMPLETE",
         },
-        "fieldInventory": [
-            {"path": p, "verdict": "NONFACTUAL", "boundarySafe": True, "crossReference": False}
-            for p in enumerate_semantic_paths(sugya)
+        "fieldInventory": entries,
+        "boundaryLeakageSweep": [
+            {"path": path, "importsNextDafConclusion": False}
+            for path, cls in enumerate_semantic_paths(doc, sugya) if cls == "SEMANTIC"
         ],
         "staleContentSweep": {
             "entries": [{"category": c, "found": False} for c in STALE_SWEEP_CATEGORIES]
@@ -67,7 +87,7 @@ def main() -> None:
     sid = "yoma-042a-s01"
     daf, doc, sugya = corpus[sid]
     source_fp, semantic_fp = fingerprints(MODULE, daf, doc, sugya)
-    audit = trivial_final_audit(MODULE, daf, doc, sugya, "audit-C", "agent-C")
+    audit = realistic_final_audit(MODULE, daf, doc, sugya, "audit-C", "agent-C")
 
     # 1. Legacy review metadata is never certification.
     fake = copy.deepcopy(sugya)
@@ -110,6 +130,13 @@ def main() -> None:
     state, problems = certificate_status(MODULE, daf, doc, sugya, bad_audit_context)
     assert state == "STALE" and any("auditorContextId must differ" in p for p in problems)
 
+    # 3d. The final auditor context also cannot equal the second-pass
+    # reviewer context.
+    bad_audit_context2 = copy.deepcopy(rec)
+    bad_audit_context2["finalAudit"]["auditorContextId"] = bad_audit_context2["secondPass"]["reviewerContextId"]
+    state, problems = certificate_status(MODULE, daf, doc, sugya, bad_audit_context2)
+    assert state == "STALE" and any("auditorContextId must differ from secondPass" in p for p in problems)
+
     # 4. Semantic edit automatically invalidates the old certificate.
     changed_doc = copy.deepcopy(doc)
     changed_sugya = next(s for s in changed_doc["sugyot"] if s["id"] == sid)
@@ -123,6 +150,17 @@ def main() -> None:
     changed_summary["summary"] = changed_summary.get("summary", "") + " changed"
     changed_sugya2 = next(s for s in changed_summary["sugyot"] if s["id"] == sid)
     state, problems = certificate_status(MODULE, daf, changed_summary, changed_sugya2, rec)
+    assert state == "STALE" and "semanticFingerprint is stale" in problems
+
+    # 5b. Daf-level glossary is also part of the semantic fingerprint (item
+    # 3): a stale/changed glossary entry invalidates every sugya certificate
+    # on the daf, exactly like the summary.
+    changed_glossary = copy.deepcopy(doc)
+    changed_glossary["glossary"] = list(changed_glossary.get("glossary") or []) + [
+        {"he": "test", "translit": "test", "en": "a glossary definition that was never certified"}
+    ]
+    changed_sugya3 = next(s for s in changed_glossary["sugyot"] if s["id"] == sid)
+    state, problems = certificate_status(MODULE, daf, changed_glossary, changed_sugya3, rec)
     assert state == "STALE" and "semanticFingerprint is stale" in problems
 
     # 6. Source mapping/range is bound by the source fingerprint.
@@ -161,7 +199,7 @@ def main() -> None:
     repaired_sugya = next(s for s in repaired_doc["sugyot"] if s["id"] == sid)
     repaired_sugya.setdefault("display", {})["title"] = repaired_sugya.get("display", {}).get("title", "") + " repaired"
     repaired_source_fp, repaired_semantic_fp = fingerprints(MODULE, daf, repaired_doc, repaired_sugya)
-    repaired_audit = trivial_final_audit(MODULE, daf, repaired_doc, repaired_sugya, "audit-C2", "agent-C2")
+    repaired_audit = realistic_final_audit(MODULE, daf, repaired_doc, repaired_sugya, "audit-C2", "agent-C2")
     repaired_rec = make_certified_record(
         MODULE,
         daf,
