@@ -4520,6 +4520,206 @@
         }
       },
       "certifiedAtCommit": "76fd7c07466f0ce52f2fbcd27e5397818a63b29c"
+    },
+    "yoma-008b-s01": {
+      "sugyaId": "yoma-008b-s01",
+      "daf": "8b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-8b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "0d34fd9512cfdb9ba2f763309a27af29b8081ecea829cb6037525a0586333457",
+        "reviewedSemanticFingerprint": "90f941dc5a14327c11cb54e037ca741386aaa45ba2b6efc92ce982f4a3348c68",
+        "evidence": {
+          "reviewId": "sonnet5-8b-first-20260823a",
+          "module": "yoma",
+          "daf": "8b",
+          "sugyaId": "yoma-008b-s01",
+          "independentSourceReconstruction": "Read authoritativeHebrewLines 1-21 in full. Lines 1-2 complete 8a's cutoff citation ('this one's separation is for sanctity, his fellow priests touch him; that one's separation is for purity, his fellow priests do not touch him'). Lines 3-4 pose a 'kman' (according to whom) question: this baraita matches R. Meir's or R. Yosei's view, not R. Chanina Segan HaKohanim's, since his view holds an additional difference (the sprinkling-schedule split established on 8a) beyond the touching-distinction just stated. Lines 5-8 (R. Yosei b'R. Chanina's challenge): granted days 1,2,3 are sprinkled since each might be day-3 of a prior tumah, and days 5,6,7 since each might be day-7 - but day 4 fits neither doubt category, so why sprinkle on it? Lines 9-13 (Gemara, cross-checked against Rashi's own commentary on lines 14-21 of Rashi's numbering, linked to this passage): day 4 is in fact sometimes sprinkled per the blanket 'all seven' rule despite being logically unnecessary, EXCEPT that hazaah is a shvut and cannot override Shabbat, so 'all seven' effectively means 'seven minus any Shabbat that falls among them.' Lines 14-21 (Rava's resolution): the YK kohein gadol's separation start is fixed by the calendar (3 Tishrei), so his day 4 does not reliably land on Shabbat, and his 'unnecessary' day-4 sprinkling sometimes still happens; the para priest's separation start is our choice, so we deliberately begin it on a Wednesday so his day 4 always falls on Shabbat, limiting his interruption to exactly one day.",
+          "verdict": "REPAIR_REQUIRED",
+          "defectsFound": [
+            {
+              "field": "argumentFlow",
+              "description": "The argumentFlow entirely omits the 'kman' step (Gemara lines 3-4): the identification that the opening baraita matches R. Meir's or R. Yosei's view specifically, and explicitly excludes R. Chanina Segan HaKohanim's view (since his view would require an additional stated difference in sprinkling schedule). This is real, independent logical content present in the primary source and is a structural connector back to 8a's three-way dispute; its omission leaves a genuine gap in the argument trace, not a benign compression."
+            }
+          ],
+          "validatedAsCorrect": [
+            "The core Rava resolution (calendar-fixed vs. our-choice scheduling) is well-supported by Rashi's own commentary on lines 14-21 of Rashi's numbering, which explicitly explains that the kohein gadol's day-4 sprinkling can still occur in years his day 4 isn't Shabbat ('void for two days' language), while the para priest's Wednesday start limits his interruption to exactly one day ('For the matter depends on us - since its time is not fixed').",
+            "The R. Yosei b'R. Chanina challenge (why day 4 fits neither doubt category) is accurately captured, matching Rashi's own elaboration on lines 14-21 of Rashi's numbering.",
+            "The shvut/Shabbat-exclusion mechanism as the resolving move is correctly captured."
+          ],
+          "declaration": "Independently read and reconstructed lines 1-21 before opening current enrichment. Found the core Rava resolution well-grounded (cross-validated against Rashi's own commentary), but found a genuine omission: the 'kman' identification step (lines 3-4) matching the baraita to R. Meir/R. Yosei and excluding R. Chanina Segan is real source content missing from argumentFlow. REPAIR_REQUIRED."
+        }
+      },
+      "repairRef": "d2dd9887ebe0083fd496f55def9fc919d20abb93",
+      "sourceFingerprint": "0d34fd9512cfdb9ba2f763309a27af29b8081ecea829cb6037525a0586333457",
+      "semanticFingerprint": "c7ab95cbce202a17e0d0e7fb39bc1f3743d2a7662fbfd82fc3e8c503a8bfdc1d",
+      "secondPass": {
+        "reviewId": "sonnet5-8b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "0d34fd9512cfdb9ba2f763309a27af29b8081ecea829cb6037525a0586333457",
+        "reviewedSemanticFingerprint": "c7ab95cbce202a17e0d0e7fb39bc1f3743d2a7662fbfd82fc3e8c503a8bfdc1d",
+        "evidence": {
+          "reviewId": "sonnet5-8b-second-20260823b",
+          "module": "yoma",
+          "daf": "8b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines 1-32 fresh, without consulting first-pass reasoning. Confirmed the same three-part structure: (1) lines 1-21, completing 8a's citation, the 'kman' identification (R. Meir/R. Yosei, excluding R. Chanina Segan), R. Yosei b'R. Chanina's day-4 challenge, and Rava's calendar-vs-choice resolution (cross-checked against the file's own Rashi commentary on this passage, which independently confirms both the kohein gadol's day-4 sprinkling sometimes occurring and the para priest's Wednesday-start solution limiting his interruption to one day); (2) lines 21-28, the Lishkat Parhedrin naming history (Balvatei -> Parhedrin due to purchased/rotating priesthood, Shimon HaTzaddik era per Rashi's own gloss); (3) lines 29-32, the bakers' baraita and the Gemara's own tier-by-tier justification, cut off after the single word 'lefi' at the terumah gedolah stage, with Rashi's own note on this passage confirming the explanation is completed on 9a.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-008b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified all five argumentFlow steps against lines 1-21, including the newly added kman step (lines 3-4): the baraita's authorship is correctly narrowed to R. Meir or R. Yosei, excluding R. Chanina Segan HaKohanim, since his view would require an additional stated difference in sprinkling schedule. The Rava resolution remains well-grounded against the file's own Rashi commentary. No remaining defects found."
+            },
+            {
+              "sugyaId": "yoma-008b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified the Lishkat Parhedrin content against lines 21-28; accurate and unchanged in substance. Confirmed the shortSummary/whats/resolution no longer narrate s03's content in detail - they now correctly stay within this sugya's own declared line range with only a light forward pointer to the next sugya."
+            },
+            {
+              "sugyaId": "yoma-008b-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified against lines 29-32 and the file's own Rashi commentary (vilna lines 43-50). Confirmed the previously fabricated content (Yochanan's investigation for terumah gedolah, misattributed burden-of-proof reasoning for maaser rishon/ani, Ulla's parhedrin-pressure account for maaser sheni) has been fully removed. The repaired content accurately reflects only what the baraita states and what the Gemara's own text reaches before cutting off mid-word, grounded in Rashi's actual, available gloss on why bakers get leniency specifically regarding maaser sheni (continuous, hour-by-hour selling). No fabricated or misattributed content remains."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, specifically re-checking the kman identification in s01 and the tier-by-tier justification boundary in s03 (the daf's most severe originally-found defect). All three sugyot's repaired content is confirmed accurate and fully grounded in the source text and the file's own Rashi commentary, with no remaining fabrication, misattribution, or boundary-crossing content bleed."
+        }
+      },
+      "certifiedAtCommit": "d2dd9887ebe0083fd496f55def9fc919d20abb93"
+    },
+    "yoma-008b-s02": {
+      "sugyaId": "yoma-008b-s02",
+      "daf": "8b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-8b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "8dce82fb106d0a90578cb38505d2977ce65211f95746ffad6a597969bc4547ca",
+        "reviewedSemanticFingerprint": "bc9b8bc0e7610a92d8b39b4fac60b2570c3322b77cd78e0dd95794cbe3d73b6f",
+        "evidence": {
+          "reviewId": "sonnet5-8b-first-20260823a",
+          "module": "yoma",
+          "daf": "8b",
+          "sugyaId": "yoma-008b-s02",
+          "independentSourceReconstruction": "Read authoritativeHebrewLines 21-28: the Mishnah is cited ('...to the Chamber of Parhedrin, etc.'), then a baraita: R. Yehuda asks whether it was really called Lishkat Parhedrin, since it was actually Lishkat Balvatei; answer: originally called Lishkat Balvatei (Rashi glosses: during Shimon HaTzaddik's era), but since the priesthood was later bought with money and replaced every twelve months, like the Roman/Persian parhedrin who rotate on twelve-month terms, it was renamed Lishkat Parhedrin. This closes at line 28 ('therefore they called it the Chamber of Parhedrin'); line 29 opens an entirely new, unrelated topic (bakers' tithe obligations, explicit topic-shift marker 'tenan hatam' - 'we learned elsewhere').",
+          "verdict": "REPAIR_REQUIRED",
+          "defectsFound": [
+            {
+              "field": "display.shortSummary and learning.resolution",
+              "description": "shortSummary narrates the ENTIRE bakers/tithes discussion (belonging to sugya s03, lines 29-32) in specific detail - including a three-tier exemption breakdown (terumah gedolah/Yochanan, maaser rishon-ani/burden-of-proof, maaser sheni/Ulla) that is itself fabricated content not present in the source (see s03 finding). This is boundary-crossing content bleed: s02's own declared line range is 21-28 and its summary should not narrate s03's content in this much specific (and incorrect) detail. learning.resolution has the same bleed, framing the bakers material as resolved via 'Yochanan High Priest's decree' when that is not established within either s02 or s03's actual line ranges."
+            }
+          ],
+          "validatedAsCorrect": [
+            "R. Yehuda's question and the historical explanation (Balvatei -> Parhedrin due to purchased/rotating priesthood) are accurately captured and match the source.",
+            "The 'Shimon HaTzaddik' attribution is legitimately drawn from Rashi's own gloss on 'at first' (Rashi vilna line 29-30), not fabricated.",
+            "The boundary (21-28) is correct; line 29's explicit topic-shift marker confirms s03 begins a genuinely separate discussion."
+          ],
+          "declaration": "Independently read and reconstructed lines 21-28. The Lishkat Parhedrin content itself is accurate, but shortSummary/resolution improperly narrate s03's (fabricated) bakers content in detail, a boundary-crossing content-bleed defect. REPAIR_REQUIRED."
+        }
+      },
+      "repairRef": "d2dd9887ebe0083fd496f55def9fc919d20abb93",
+      "sourceFingerprint": "8dce82fb106d0a90578cb38505d2977ce65211f95746ffad6a597969bc4547ca",
+      "semanticFingerprint": "d4a63b18721406bda2c75fe479270d3644423d39c71c9c5f4a0b32cef0cd90e1",
+      "secondPass": {
+        "reviewId": "sonnet5-8b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "8dce82fb106d0a90578cb38505d2977ce65211f95746ffad6a597969bc4547ca",
+        "reviewedSemanticFingerprint": "d4a63b18721406bda2c75fe479270d3644423d39c71c9c5f4a0b32cef0cd90e1",
+        "evidence": {
+          "reviewId": "sonnet5-8b-second-20260823b",
+          "module": "yoma",
+          "daf": "8b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines 1-32 fresh, without consulting first-pass reasoning. Confirmed the same three-part structure: (1) lines 1-21, completing 8a's citation, the 'kman' identification (R. Meir/R. Yosei, excluding R. Chanina Segan), R. Yosei b'R. Chanina's day-4 challenge, and Rava's calendar-vs-choice resolution (cross-checked against the file's own Rashi commentary on this passage, which independently confirms both the kohein gadol's day-4 sprinkling sometimes occurring and the para priest's Wednesday-start solution limiting his interruption to one day); (2) lines 21-28, the Lishkat Parhedrin naming history (Balvatei -> Parhedrin due to purchased/rotating priesthood, Shimon HaTzaddik era per Rashi's own gloss); (3) lines 29-32, the bakers' baraita and the Gemara's own tier-by-tier justification, cut off after the single word 'lefi' at the terumah gedolah stage, with Rashi's own note on this passage confirming the explanation is completed on 9a.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-008b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified all five argumentFlow steps against lines 1-21, including the newly added kman step (lines 3-4): the baraita's authorship is correctly narrowed to R. Meir or R. Yosei, excluding R. Chanina Segan HaKohanim, since his view would require an additional stated difference in sprinkling schedule. The Rava resolution remains well-grounded against the file's own Rashi commentary. No remaining defects found."
+            },
+            {
+              "sugyaId": "yoma-008b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified the Lishkat Parhedrin content against lines 21-28; accurate and unchanged in substance. Confirmed the shortSummary/whats/resolution no longer narrate s03's content in detail - they now correctly stay within this sugya's own declared line range with only a light forward pointer to the next sugya."
+            },
+            {
+              "sugyaId": "yoma-008b-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified against lines 29-32 and the file's own Rashi commentary (vilna lines 43-50). Confirmed the previously fabricated content (Yochanan's investigation for terumah gedolah, misattributed burden-of-proof reasoning for maaser rishon/ani, Ulla's parhedrin-pressure account for maaser sheni) has been fully removed. The repaired content accurately reflects only what the baraita states and what the Gemara's own text reaches before cutting off mid-word, grounded in Rashi's actual, available gloss on why bakers get leniency specifically regarding maaser sheni (continuous, hour-by-hour selling). No fabricated or misattributed content remains."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, specifically re-checking the kman identification in s01 and the tier-by-tier justification boundary in s03 (the daf's most severe originally-found defect). All three sugyot's repaired content is confirmed accurate and fully grounded in the source text and the file's own Rashi commentary, with no remaining fabrication, misattribution, or boundary-crossing content bleed."
+        }
+      },
+      "certifiedAtCommit": "d2dd9887ebe0083fd496f55def9fc919d20abb93"
+    },
+    "yoma-008b-s03": {
+      "sugyaId": "yoma-008b-s03",
+      "daf": "8b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-8b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "0c02d5a43487d80b5ff3b2c13f1992da28af582c4cceffa89d3262b162267730",
+        "reviewedSemanticFingerprint": "0de856a98232e9174ef3ef302560a069eca8f6027703b6628e6ed02a0d9554b2",
+        "evidence": {
+          "reviewId": "sonnet5-8b-first-20260823a",
+          "module": "yoma",
+          "daf": "8b",
+          "sugyaId": "yoma-008b-s03",
+          "independentSourceReconstruction": "Read authoritativeHebrewLines 29-32 in full: 'We learned there: the Sages did not obligate bakers to separate [tithes from dema'i], except terumat maaser and challah. Granted, terumah gedolah [is not required], as it was taught: because...' - the citation is cut off mid-word after the single word 'lefi' (because/according to). Cross-checked against the Rashi commentary already present in the file (rashiTranslations vilna lines 43-50, linked to these same Gemara lines): Rashi's own gloss explains WHO these bakers are (buy grain from an am ha'aretz to sell bread in the market) and gives the actual reason bakers get leniency: they are chaverim (trustworthy) who sell continuously, at every hour, so they were not obligated to bring/redeem the second tithe (maaser sheni) in Jerusalem for each batch. Rashi's final comment on this passage (vilna line 50, linked to the cutoff word) states explicitly: 'Because - the comment is completed on 9a,' confirming that even Rashi treats the terumah gedolah justification as genuinely incomplete within 8b.",
+          "verdict": "REPAIR_REQUIRED",
+          "defectsFound": [
+            {
+              "field": "display.shortSummary, display.whats, learning.coreMove, learning.ahaMoment, argumentFlow step-02, argumentFlow step-03, quizSeeds, misconceptions, finalRuling",
+              "description": "The entire enrichment presents THREE tiers of tithe-exemption reasoning as already established within lines 29-32: (1) terumah gedolah exempted because of 'Yochanan's investigation' - not stated anywhere in these lines or in Rashi's commentary on them; the actual text only reaches the single word 'lefi' before cutting off, with Rashi's own note confirming the explanation is completed on 9a; (2) maaser rishon/maaser ani exempted via a 'burden of proof' (hamotzi m'chaveiro) principle, sourced (incorrectly) to vilnaLine 31 - but vilnaLine 31 is actually about terumah gedolah, not maaser rishon/ani, and this reasoning does not appear anywhere in the actual text or Rashi's commentary on these lines; (3) maaser sheni exempted via 'Yochanan High Priest' sending emissaries and 'Ulla's account of parhedrin economic pressure,' sourced to vilnaLine 32 - but vilnaLine 32 is only the single cutoff word 'lefi' continuing the terumah gedolah citation, not a maaser sheni discussion, and Ulla is never mentioned. This is a severe case of content imported from a later daf (9a) and presented as though already resolved on 8b - directly matching the campaign's core defect class ('content imported from another daf/range is wrong even if true elsewhere'). Rashi's ACTUAL, available commentary on this passage (vilna lines 43-49) gives a completely different, genuine reason for the baraita's rule (continuous-selling leniency specific to maaser sheni transport/redemption), which the enrichment never uses."
+            }
+          ],
+          "validatedAsCorrect": [
+            "The declared line range (29-32) is correct: line 29 is an explicit topic-shift marker ('tenan hatam') and line 32 is where the daf genuinely ends mid-word.",
+            "The baraita's own blanket rule (bakers separate only terumat maaser and challah from dema'i) is accurately stated in argumentFlow step-01."
+          ],
+          "declaration": "Independently read and reconstructed lines 29-32, then cross-checked the enrichment's claimed reasoning against both the raw Gemara text and the file's own already-present Rashi commentary. Found severe, multi-field fabrication: content belonging to 9a (Yochanan's investigation, burden-of-proof reasoning misattributed to the wrong line, Ulla's parhedrin account) is presented as already resolved within 8b, while the daf's own text and Rashi's own note both explicitly confirm the terumah gedolah explanation is cut off and continues on 9a. REPAIR_REQUIRED."
+        }
+      },
+      "repairRef": "d2dd9887ebe0083fd496f55def9fc919d20abb93",
+      "sourceFingerprint": "0c02d5a43487d80b5ff3b2c13f1992da28af582c4cceffa89d3262b162267730",
+      "semanticFingerprint": "959bcbf61092a455b11aa5d281b95b0f6ec91cfb6e44c587a9590d86fbc54a96",
+      "secondPass": {
+        "reviewId": "sonnet5-8b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "0c02d5a43487d80b5ff3b2c13f1992da28af582c4cceffa89d3262b162267730",
+        "reviewedSemanticFingerprint": "959bcbf61092a455b11aa5d281b95b0f6ec91cfb6e44c587a9590d86fbc54a96",
+        "evidence": {
+          "reviewId": "sonnet5-8b-second-20260823b",
+          "module": "yoma",
+          "daf": "8b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines 1-32 fresh, without consulting first-pass reasoning. Confirmed the same three-part structure: (1) lines 1-21, completing 8a's citation, the 'kman' identification (R. Meir/R. Yosei, excluding R. Chanina Segan), R. Yosei b'R. Chanina's day-4 challenge, and Rava's calendar-vs-choice resolution (cross-checked against the file's own Rashi commentary on this passage, which independently confirms both the kohein gadol's day-4 sprinkling sometimes occurring and the para priest's Wednesday-start solution limiting his interruption to one day); (2) lines 21-28, the Lishkat Parhedrin naming history (Balvatei -> Parhedrin due to purchased/rotating priesthood, Shimon HaTzaddik era per Rashi's own gloss); (3) lines 29-32, the bakers' baraita and the Gemara's own tier-by-tier justification, cut off after the single word 'lefi' at the terumah gedolah stage, with Rashi's own note on this passage confirming the explanation is completed on 9a.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-008b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified all five argumentFlow steps against lines 1-21, including the newly added kman step (lines 3-4): the baraita's authorship is correctly narrowed to R. Meir or R. Yosei, excluding R. Chanina Segan HaKohanim, since his view would require an additional stated difference in sprinkling schedule. The Rava resolution remains well-grounded against the file's own Rashi commentary. No remaining defects found."
+            },
+            {
+              "sugyaId": "yoma-008b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified the Lishkat Parhedrin content against lines 21-28; accurate and unchanged in substance. Confirmed the shortSummary/whats/resolution no longer narrate s03's content in detail - they now correctly stay within this sugya's own declared line range with only a light forward pointer to the next sugya."
+            },
+            {
+              "sugyaId": "yoma-008b-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified against lines 29-32 and the file's own Rashi commentary (vilna lines 43-50). Confirmed the previously fabricated content (Yochanan's investigation for terumah gedolah, misattributed burden-of-proof reasoning for maaser rishon/ani, Ulla's parhedrin-pressure account for maaser sheni) has been fully removed. The repaired content accurately reflects only what the baraita states and what the Gemara's own text reaches before cutting off mid-word, grounded in Rashi's actual, available gloss on why bakers get leniency specifically regarding maaser sheni (continuous, hour-by-hour selling). No fabricated or misattributed content remains."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, specifically re-checking the kman identification in s01 and the tier-by-tier justification boundary in s03 (the daf's most severe originally-found defect). All three sugyot's repaired content is confirmed accurate and fully grounded in the source text and the file's own Rashi commentary, with no remaining fabrication, misattribution, or boundary-crossing content bleed."
+        }
+      },
+      "certifiedAtCommit": "d2dd9887ebe0083fd496f55def9fc919d20abb93"
     }
   }
 }
