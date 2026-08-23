@@ -78,24 +78,39 @@ def base_sugya_map(module: str, ref: str) -> Dict[str, Tuple[str, Dict[str, Any]
     return out
 
 
-def base_source_payload(module: str, ref: str, daf: str, sugya: Dict[str, Any]) -> Dict[str, Any] | None:
-    raw = load_json_at(ref, f"modules/{module}/assets/talmuddev/{daf}.json")
-    if not isinstance(raw, dict):
-        return None
-    lines = raw.get("lines") or []
+def source_payload_or_invalid(module: str, daf: str, sugya: Dict[str, Any], lines: list) -> Dict[str, Any]:
+    """Build a comparable source payload even when lineRange is out of bounds.
+
+    A sugya can carry an out-of-bounds lineRange in the corpus (a real
+    boundary defect to be fixed through the semantic campaign, not silently
+    patched here). That must not be conflated with "no comparable payload":
+    the full raw daf is embedded so a genuine edit to the underlying source
+    text is still detected as a payload change, while two invalid ranges
+    that differ only in which sugya/daf they belong to, or that are byte
+    identical between base and head, still compare correctly as unchanged.
+    """
     lr = sugya.get("lineRange") or {}
     start, end = lr.get("startVilnaLine"), lr.get("endVilnaLine")
-    if not isinstance(start, int) or not isinstance(end, int) or start < 1 or end < start or end > len(lines):
-        return None
-    return {
+    payload = {
         "module": module,
         "daf": daf,
         "sugyaId": sugya.get("id"),
         "lineRange": lr,
         "lineMap": sugya.get("lines") or [],
         "sefariaRefs": sugya.get("sefariaRefs") or [],
-        "rawHebrew": lines[start - 1 : end],
     }
+    if isinstance(start, int) and isinstance(end, int) and 1 <= start <= end <= len(lines):
+        payload["rawHebrew"] = lines[start - 1 : end]
+    else:
+        payload["rawHebrew"] = {"invalidRange": True, "rawLineCount": len(lines), "rawLines": lines}
+    return payload
+
+
+def base_source_payload(module: str, ref: str, daf: str, sugya: Dict[str, Any]) -> Dict[str, Any] | None:
+    raw = load_json_at(ref, f"modules/{module}/assets/talmuddev/{daf}.json")
+    if not isinstance(raw, dict):
+        return None
+    return source_payload_or_invalid(module, daf, sugya, raw.get("lines") or [])
 
 
 def changed_semantic_sugyot(module: str, base: str) -> list[tuple[str, str]]:
@@ -111,21 +126,8 @@ def changed_semantic_sugyot(module: str, base: str) -> list[tuple[str, str]]:
             continue
         daf, doc, sugya = current[sid]
         old_daf, old_doc, old_sugya = old[sid]
-        current_source = {
-            "module": module,
-            "daf": daf,
-            "sugyaId": sid,
-            "lineRange": sugya.get("lineRange") or {},
-            "lineMap": sugya.get("lines") or [],
-            "sefariaRefs": sugya.get("sefariaRefs") or [],
-        }
         raw_now = json.loads((raw_dir(module) / f"{daf}.json").read_text(encoding="utf-8"))
-        lr = sugya.get("lineRange") or {}
-        s, e = lr.get("startVilnaLine"), lr.get("endVilnaLine")
-        if isinstance(s, int) and isinstance(e, int) and 1 <= s <= e <= len(raw_now.get("lines") or []):
-            current_source["rawHebrew"] = (raw_now.get("lines") or [])[s - 1 : e]
-        else:
-            current_source["rawHebrew"] = ["<INVALID-RANGE>"]
+        current_source = source_payload_or_invalid(module, daf, sugya, raw_now.get("lines") or [])
         old_source = base_source_payload(module, base, old_daf, old_sugya)
         if old_source is None or digest(current_source) != digest(old_source):
             changed.append((sid, "source payload changed"))
