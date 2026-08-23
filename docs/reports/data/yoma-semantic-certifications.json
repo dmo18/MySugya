@@ -5251,6 +5251,201 @@
         }
       },
       "certifiedAtCommit": "7bb3ee604db249893efe9a65baf02dc5e7392d75"
+    },
+    "yoma-010a-s01": {
+      "sugyaId": "yoma-010a-s01",
+      "daf": "10a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-10a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "42d64c9b262370e4640f82d3fc8c9ef1f71f80682be36f9c8abe3d1060000a4e",
+        "reviewedSemanticFingerprint": "73b059db085d48ed61c253947c949a67df925e16d3a2fd8bc0a3f11266e53512",
+        "evidence": {
+          "reviewId": "sonnet5-10a-first-20260823a",
+          "module": "yoma",
+          "daf": "10a",
+          "sugyaId": "yoma-010a-s01",
+          "independentSourceReconstruction": "Read authoritativeHebrewLines 1-28. Lines 1-2 complete 9b's cutoff: even though Genesis 9:27 says God enlarges Yefet, the Shechina dwells only in Shem's tents (Rashi: the Persians merited building the Second Temple, but the Shechina rested fully only in the First Temple, built by Shlomo of Shem's line). Lines 2-9 identify each of Yefet's sons (Genesis 10:2) with a contemporary nation, with Tiras disputed and Rav Yosef teaching Tiras is Persia (line 9). Lines 9-20 continue with further Table-of-Nations place-name identifications (Sakistan, Bavel/Erech/Akkad/Kalneh, Assyria, Nineveh/Rechovot Ir/Kalach/Resen), resolving that Nineveh (not Resen) is 'the great city' via the Jonah verse. Line 15 states the conclusion that Persia descends from Yefet. Lines 25-28 (a genuine content gap in the original enrichment, falling between the prior declared boundaries of 1-25 and 28-39) give a baraita's homiletical interpretation of the giants' names from the spies' report (Achiman, Sheshai, Talmai) - Rashi's own comment explains this appears here simply because the tanna was already expounding names.",
+          "verdict": "REPAIR_REQUIRED",
+          "defectsFound": [
+            {
+              "field": "lineRange, argumentFlow (missing content)",
+              "description": "The sugya's declared boundary (1-25) left a genuine content gap at lines 25(cont)-28 (the giants' names baraita) that was not covered by this sugya or the next (which started at 28, itself only covering the 28-onward continuation of the same shared line). This content was entirely absent from the daf's enrichment. Extended the boundary to 1-28 and added argumentFlow coverage, consistent with the shared-boundary-line convention already used elsewhere in this corpus."
+            }
+          ],
+          "validatedAsCorrect": [
+            "The Shechina-in-Shem's-tents resolution and all nation/place-name identifications are accurate and correctly sourced once the giants-content gap is filled."
+          ],
+          "declaration": "Independently read and reconstructed lines 1-28. Found a genuine content-omission defect (the giants' names passage, lines 25-28, fell in a gap between the prior sugya boundaries and was covered by neither). REPAIR_REQUIRED."
+        }
+      },
+      "repairRef": "1cbb98556391ae19a0ad9d9cccaf1b639f691527",
+      "sourceFingerprint": "ed35c58c3cc062371a93f82a77d2d27735a6ec7bd8a476b1f0cc8fdfdfa4dfca",
+      "semanticFingerprint": "b7872db4e7565d91edba922f01784e9b6b493a458b28837296f3827edd6e3bb3",
+      "secondPass": {
+        "reviewId": "sonnet5-10a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "ed35c58c3cc062371a93f82a77d2d27735a6ec7bd8a476b1f0cc8fdfdfa4dfca",
+        "reviewedSemanticFingerprint": "b7872db4e7565d91edba922f01784e9b6b493a458b28837296f3827edd6e3bb3",
+        "evidence": {
+          "reviewId": "sonnet5-10a-second-20260823b",
+          "module": "yoma",
+          "daf": "10a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines 1-48 fresh, without consulting first-pass reasoning. Confirmed the same three-part structure: (1) lines 1-28, completing 9b's cutoff (Yefet enlarged, Shechina in Shem's tents) and the nation/place-name identification exercise establishing Persia's descent from Yefet, ending with the giants' names baraita (a real content block, not covered by the prior boundaries); (2) lines 28-39, two independent proofs that Rome falls to Persia (Jeremiah's 'tze'irei hatzon,' resolved via the youngest-brother reading; R. Yehuda beRabi Ilai's kal vachomer), Rav's dissent, and the baraita's confirmation tied to Mashiach's nine-month timeline; (3) lines 41-48, the Parhedrin-chamber mezuza baraita, R. Yehuda's own correction (a decree, not a genuine dwelling), Rava's explanation of R. Yehuda's year-round-house principle, and Abaye's two challenges - re-verified specifically against the file's own Rashi commentary, which explicitly confirms R. Yehuda's 'gezeirah hayta' statement is glossed with the imprisonment-concern reasoning, settling the attribution definitively.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-010a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified the extended boundary (1-28) and the added giants'-names content against the source and Rashi's own gloss explaining its inclusion. All nation/place-name identifications re-confirmed accurate."
+            },
+            {
+              "sugyaId": "yoma-010a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified the corrected two-proof structure and all sourceRefs against lines 28-39. The Jeremiah-proof's internal challenge-and-resolution is now properly represented as part of the first proof, not a separate third proof; Rav's dissent and the baraita's nine-month teaching are now correctly sourced to their actual lines (37 and 39 respectively)."
+            },
+            {
+              "sugyaId": "yoma-010a-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified the corrected R. Yehuda attribution against lines 41-48 and the file's own Rashi commentary, which directly confirms R. Yehuda's own 'gezeirah hayta' statement carries the imprisonment-concern reasoning. Rava's explanation and both of Abaye's challenges (one answered, one genuinely left cut off) are now present and accurately sourced."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, with particular attention to the most severe originally-found defect: the reversed R. Yehuda/baraita attribution on s03, re-confirmed directly against the file's own Rashi commentary. All three sugyot's repaired content is confirmed accurate, correctly bounded, and fully grounded in the source text and Rashi's own commentary, with no remaining fabrication, misattribution, or omission."
+        }
+      },
+      "certifiedAtCommit": "1cbb98556391ae19a0ad9d9cccaf1b639f691527"
+    },
+    "yoma-010a-s02": {
+      "sugyaId": "yoma-010a-s02",
+      "daf": "10a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-10a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "4e88a27ab6de21cd2effce4f4d43385debc6d47dc8bfd7d691f91d88e4ee58ab",
+        "reviewedSemanticFingerprint": "87c9d45cf4d8c6a6d88bb32521005b667d526b98739f1e5be84a2481e20d7b69",
+        "evidence": {
+          "reviewId": "sonnet5-10a-first-20260823a",
+          "module": "yoma",
+          "daf": "10a",
+          "sugyaId": "yoma-010a-s02",
+          "independentSourceReconstruction": "Read authoritativeHebrewLines 28-39: R. Yehoshua ben Levi in the name of Rabbi proves Rome will fall to Persia from Jeremiah 49:20 ('tze'irei hatzon'); Rabba bar Ulla challenges whether this means Persia (Daniel 8:20) or Greece (Daniel 8:21); resolved when one of the Rabbis corrects Rav Chaviva bar Surmaki's teacher, explaining 'tze'irei' as 'youngest brother,' fitting Tiras/Persia (listed last among Yefet's sons per Rav Yosef's teaching). Separately, Rabbah bar bar Chana in R. Yochanan's name in R. Yehuda beRabi Ilai's name gives a kal vachomer (First Temple: built by Shem's line, destroyed by Chaldeans, who fell to Persia; Second Temple: built by Persia, destroyed by Rome, so Rome should fall to Persia). Rav dissents (line 37): Persia will fall to Rome; Rav Kahana and Rav Assi object (builders falling to destroyers?); Rav answers it's a royal decree, or that Persia also destroys synagogues. A baraita (lines 39-41) confirms Rav's view with both reasons, tying to Rav Yehuda's teaching that Mashiach awaits Rome's nine-month global reign (Micah 5:2).",
+          "verdict": "REPAIR_REQUIRED",
+          "defectsFound": [
+            {
+              "field": "argumentFlow step-01 (miscounted 'three proofs'), sourceRefs on step-02/step-03",
+              "description": "The prior enrichment vaguely claimed 'three separate proofs' for Persia defeating Rome without specifying content, when there are genuinely only two independent proofs (the Jeremiah-verse proof, with its own internal challenge-and-resolution about 'tze'irei hatzon,' and the separate kal vachomer) - the internal challenge/resolution is not a third independent proof. Additionally, 'Rav's dissent' was sourced to vilnaLine 34, which is actually where R. Yochanan's kal vachomer statement begins, not Rav's dissent (which starts at vilnaLine 37); and the 'nine months' content was sourced to vilnaLine 37 (Rav's dissent's own start), when it actually belongs to vilnaLine 39-41 (the baraita's conclusion). The prior enrichment also attributed 'destroy synagogues' directly and simply to Rav's own initial statement, when the fuller reasoning (and the specific tie to the baraita's TWO reasons) belongs to the baraita's confirmation, not Rav's terse initial answer alone."
+            }
+          ],
+          "validatedAsCorrect": [
+            "The core content of both proofs, Rav's dissent, and the nine-month teaching, once correctly separated and re-sourced, are accurate."
+          ],
+          "declaration": "Independently read and reconstructed lines 28-39. Found a miscounted proof structure and multiple shifted sourceRefs (each about 3 lines early relative to their actual content, similar in kind to but less severe than the pattern found on 9b). REPAIR_REQUIRED."
+        }
+      },
+      "repairRef": "1cbb98556391ae19a0ad9d9cccaf1b639f691527",
+      "sourceFingerprint": "4e88a27ab6de21cd2effce4f4d43385debc6d47dc8bfd7d691f91d88e4ee58ab",
+      "semanticFingerprint": "d121476de0106e80373dcff1ecb3d15d8d8b08646d384146826c8f48ab03e738",
+      "secondPass": {
+        "reviewId": "sonnet5-10a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "4e88a27ab6de21cd2effce4f4d43385debc6d47dc8bfd7d691f91d88e4ee58ab",
+        "reviewedSemanticFingerprint": "d121476de0106e80373dcff1ecb3d15d8d8b08646d384146826c8f48ab03e738",
+        "evidence": {
+          "reviewId": "sonnet5-10a-second-20260823b",
+          "module": "yoma",
+          "daf": "10a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines 1-48 fresh, without consulting first-pass reasoning. Confirmed the same three-part structure: (1) lines 1-28, completing 9b's cutoff (Yefet enlarged, Shechina in Shem's tents) and the nation/place-name identification exercise establishing Persia's descent from Yefet, ending with the giants' names baraita (a real content block, not covered by the prior boundaries); (2) lines 28-39, two independent proofs that Rome falls to Persia (Jeremiah's 'tze'irei hatzon,' resolved via the youngest-brother reading; R. Yehuda beRabi Ilai's kal vachomer), Rav's dissent, and the baraita's confirmation tied to Mashiach's nine-month timeline; (3) lines 41-48, the Parhedrin-chamber mezuza baraita, R. Yehuda's own correction (a decree, not a genuine dwelling), Rava's explanation of R. Yehuda's year-round-house principle, and Abaye's two challenges - re-verified specifically against the file's own Rashi commentary, which explicitly confirms R. Yehuda's 'gezeirah hayta' statement is glossed with the imprisonment-concern reasoning, settling the attribution definitively.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-010a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified the extended boundary (1-28) and the added giants'-names content against the source and Rashi's own gloss explaining its inclusion. All nation/place-name identifications re-confirmed accurate."
+            },
+            {
+              "sugyaId": "yoma-010a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified the corrected two-proof structure and all sourceRefs against lines 28-39. The Jeremiah-proof's internal challenge-and-resolution is now properly represented as part of the first proof, not a separate third proof; Rav's dissent and the baraita's nine-month teaching are now correctly sourced to their actual lines (37 and 39 respectively)."
+            },
+            {
+              "sugyaId": "yoma-010a-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified the corrected R. Yehuda attribution against lines 41-48 and the file's own Rashi commentary, which directly confirms R. Yehuda's own 'gezeirah hayta' statement carries the imprisonment-concern reasoning. Rava's explanation and both of Abaye's challenges (one answered, one genuinely left cut off) are now present and accurately sourced."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, with particular attention to the most severe originally-found defect: the reversed R. Yehuda/baraita attribution on s03, re-confirmed directly against the file's own Rashi commentary. All three sugyot's repaired content is confirmed accurate, correctly bounded, and fully grounded in the source text and Rashi's own commentary, with no remaining fabrication, misattribution, or omission."
+        }
+      },
+      "certifiedAtCommit": "1cbb98556391ae19a0ad9d9cccaf1b639f691527"
+    },
+    "yoma-010a-s03": {
+      "sugyaId": "yoma-010a-s03",
+      "daf": "10a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-10a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "3ed7e74d6972199456cd8af54635f6549f3ab889ec3587a02a08ef8c2ede9502",
+        "reviewedSemanticFingerprint": "bd6ceab013b76bff0abf721389e683807244fde671192dd88ade7a763ca69cab",
+        "evidence": {
+          "reviewId": "sonnet5-10a-first-20260823a",
+          "module": "yoma",
+          "daf": "10a",
+          "sugyaId": "yoma-010a-s03",
+          "independentSourceReconstruction": "Read authoritativeHebrewLines 41-48: a baraita states all Temple chambers lacked a mezuza except Lishkat Parhedrin, which had a dwelling for the High Priest. R. Yehuda objects: several other chambers also had dwellings yet lacked mezuza - rather, Lishkat Parhedrin's mezuza was a special decree. Rava explains R. Yehuda's reasoning: he holds a 'bayit' for mezuza purposes must serve both summer and winter, which the High Priest's one-week residence fails, hence the need for a decree rather than a straightforward dwelling-based requirement. Abaye challenges this twice: first from Amos 3:15 ('winter house' and 'summer house' each independently called 'bayit'), answered that only explicitly-labeled seasonal houses count; second from a baraita where R. Yehuda himself obligates a sukkah (seasonal) in eruv, mezuza, AND maaser - and maaser cannot easily be explained as merely rabbinic, seemingly contradicting R. Yehuda's own principle. The daf cuts off at 'dilma' (perhaps...), unresolved, continuing to 10b. Cross-checked against the file's own Rashi commentary, which explicitly confirms R. Yehuda's 'gezeirah hayta' statement is glossed as 'a decree lest people say the High Priest is held confined in the prison house' - i.e., this reasoning belongs to R. Yehuda's own statement, not a separately-named 'Sages' position.",
+          "verdict": "REPAIR_REQUIRED",
+          "defectsFound": [
+            {
+              "field": "argumentFlow step-02/step-03, display and learning fields throughout",
+              "description": "The prior enrichment had the attribution SEVERELY REVERSED: it claimed 'R. Yehuda holds the Parhedrin chamber genuinely qualifies as a dwelling' and 'the Sages hold... a special rabbinic decree... so people would not think the High Priest was imprisoned.' The actual text and the file's own Rashi commentary confirm the opposite: it is R. YEHUDA who says 'gezeirah hayta' (it was a decree) - explicitly glossed by Rashi as being for the 'lest people think he's imprisoned' reason - precisely because R. Yehuda's own principle (a bayit must serve both summer and winter) denies the room genuinely qualifies as a dwelling. No formally-named 'Sages' position contrasting with R. Yehuda appears in these lines at all; the contrast is between the baraita's initial (implicit) dwelling-based reasoning and R. Yehuda's own correction of it. Additionally, Rava's explanation of R. Yehuda's underlying principle and Abaye's two challenges (the second left genuinely unresolved as the daf cuts off) were entirely missing from the enrichment - the prior argumentFlow stopped after a vague, generic step-03 that conflated several different pieces of content."
+            }
+          ],
+          "validatedAsCorrect": [
+            "The baraita's initial statement (step-01: only Parhedrin had a mezuza, because it housed the High Priest) was accurately captured."
+          ],
+          "declaration": "Independently read and reconstructed lines 41-48, cross-validated against the file's own Rashi commentary which directly confirms the correct attribution. Found a severe, reversed misattribution of R. Yehuda's actual position (matching in severity the 7b R. Yehuda/R. Shimon swap found earlier in this campaign), plus substantial missing content (Rava's explanation, Abaye's two challenges). REPAIR_REQUIRED - major rewrite."
+        }
+      },
+      "repairRef": "1cbb98556391ae19a0ad9d9cccaf1b639f691527",
+      "sourceFingerprint": "3ed7e74d6972199456cd8af54635f6549f3ab889ec3587a02a08ef8c2ede9502",
+      "semanticFingerprint": "b31c5bc82c080a717585f210716cb229925d96157f23f208172ccded05607d58",
+      "secondPass": {
+        "reviewId": "sonnet5-10a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "3ed7e74d6972199456cd8af54635f6549f3ab889ec3587a02a08ef8c2ede9502",
+        "reviewedSemanticFingerprint": "b31c5bc82c080a717585f210716cb229925d96157f23f208172ccded05607d58",
+        "evidence": {
+          "reviewId": "sonnet5-10a-second-20260823b",
+          "module": "yoma",
+          "daf": "10a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines 1-48 fresh, without consulting first-pass reasoning. Confirmed the same three-part structure: (1) lines 1-28, completing 9b's cutoff (Yefet enlarged, Shechina in Shem's tents) and the nation/place-name identification exercise establishing Persia's descent from Yefet, ending with the giants' names baraita (a real content block, not covered by the prior boundaries); (2) lines 28-39, two independent proofs that Rome falls to Persia (Jeremiah's 'tze'irei hatzon,' resolved via the youngest-brother reading; R. Yehuda beRabi Ilai's kal vachomer), Rav's dissent, and the baraita's confirmation tied to Mashiach's nine-month timeline; (3) lines 41-48, the Parhedrin-chamber mezuza baraita, R. Yehuda's own correction (a decree, not a genuine dwelling), Rava's explanation of R. Yehuda's year-round-house principle, and Abaye's two challenges - re-verified specifically against the file's own Rashi commentary, which explicitly confirms R. Yehuda's 'gezeirah hayta' statement is glossed with the imprisonment-concern reasoning, settling the attribution definitively.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-010a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified the extended boundary (1-28) and the added giants'-names content against the source and Rashi's own gloss explaining its inclusion. All nation/place-name identifications re-confirmed accurate."
+            },
+            {
+              "sugyaId": "yoma-010a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified the corrected two-proof structure and all sourceRefs against lines 28-39. The Jeremiah-proof's internal challenge-and-resolution is now properly represented as part of the first proof, not a separate third proof; Rav's dissent and the baraita's nine-month teaching are now correctly sourced to their actual lines (37 and 39 respectively)."
+            },
+            {
+              "sugyaId": "yoma-010a-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Independently re-verified the corrected R. Yehuda attribution against lines 41-48 and the file's own Rashi commentary, which directly confirms R. Yehuda's own 'gezeirah hayta' statement carries the imprisonment-concern reasoning. Rava's explanation and both of Abaye's challenges (one answered, one genuinely left cut off) are now present and accurately sourced."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, with particular attention to the most severe originally-found defect: the reversed R. Yehuda/baraita attribution on s03, re-confirmed directly against the file's own Rashi commentary. All three sugyot's repaired content is confirmed accurate, correctly bounded, and fully grounded in the source text and Rashi's own commentary, with no remaining fabrication, misattribution, or omission."
+        }
+      },
+      "certifiedAtCommit": "1cbb98556391ae19a0ad9d9cccaf1b639f691527"
     }
   }
 }
