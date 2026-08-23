@@ -15399,7 +15399,7 @@ const DAF_CONTENT = {
   "7b": {
     canonicalRef: "Yoma 7b",
     daf: "7b",
-    summary: "7b resolves the tzitz debate that spanned 7a. First, the tannaitic dispute: R. Shimon holds the tzitz atones whether on the forehead or not; R. Yehuda holds it only atones when on the forehead. R. Yehuda challenges R. Shimon with the YK kohein gadol who serves without the tzitz on his forehead - but R. Shimon deflects: that case is hutrah l'tzibbur, the tzitz does not operate there. Inference: R. Shimon holds dchuya. Then Abaye localizes the dispute to the peg case. Finally, the word 'tamid' is analyzed and a kal v'chomer from tzitz to tefillin closes the page.",
+    summary: "7b resolves the tzitz debate that spanned 7a. First, the tannaitic dispute: R. Shimon holds the tzitz atones whether on the forehead or not; R. Yehuda holds it only atones when on the forehead. R. Shimon cites the YK kohein gadol, who serves without the tzitz on his forehead, as proof that off-forehead atonement is real - but R. Yehuda deflects: that case is hutrah l'tzibbur, the tzitz does not operate there. Inference: R. Shimon holds dchuya. Then Abaye localizes the dispute to the peg case. Finally, the word 'tamid' is analyzed and a kal v'chomer from tzitz to tefillin closes the page.",
     sugyot: [
       {
         id: "yoma-007b-s01",
@@ -15414,15 +15414,15 @@ const DAF_CONTENT = {
         },
         display: {
           title: "R. Shimon vs. R. Yehuda on tzitz off-forehead; YK proof backfires; dchuya inferred",
-          oneLine: "The tannaitic dispute: R. Shimon holds the tzitz atones whether on the forehead or not; R. Yehuda's proof from the YK kohein gadol backfires; inference establishes R. Shimon holds dchuya.",
-          shortSummary: "The page opens completing the 7a conclusion: the tzitz atones only for tumah that is hutrah l'tzibbur. A tannaitic baraita presents the dispute: R. Shimon holds the tzitz atones whether or not it is on the forehead; R. Yehuda holds it atones only when on the forehead. R. Yehuda then challenges R. Shimon: the YK kohein gadol serves during the inner Yom Kippur service without the tzitz on his forehead (since he wears white linen garments, not the golden ones that include the tzitz) - yet his service is valid. This should prove off-forehead atonement works. R. Shimon deflects: leave the YK case - there, tumah is hutrah l'tzibbur, so the tzitz does not need to operate at all. Implication: R. Shimon holds dchuya (the tzitz does atone for the community's tumah, which is why he says it works off-forehead); R. Yehuda holds hutrah (no tzitz needed, tumah fully permitted).",
-          whats: "R. Yehuda's proof is an own-goal: he says 'look, the YK kohein gadol doesn't wear the tzitz on his forehead and the service works' - intending to prove off-forehead atonement is real. But R. Shimon responds: that case doesn't involve the tzitz at all. The proof backfires because R. Yehuda chose a case where, on R. Shimon's view, the entire mechanism is inapplicable.",
-          hint: "R. Yehuda picked the wrong example. The YK case proves nothing about the tzitz's range because the tzitz isn't operative in that case at all - tumah is hutrah l'tzibbur."
+          oneLine: "The tannaitic dispute: R. Shimon holds the tzitz atones whether on the forehead or not; R. Shimon's own proof from the YK kohein gadol is deflected by R. Yehuda; inference establishes R. Shimon holds dchuya.",
+          shortSummary: "The page opens completing the 7a conclusion: the tzitz atones only for tumah that is hutrah l'tzibbur. A tannaitic baraita presents the dispute: R. Shimon holds the tzitz atones whether or not it is on the forehead; R. Yehuda holds it atones only when on the forehead. R. Shimon then cites support for his own view: the YK kohein gadol serves during the inner Yom Kippur service without the tzitz on his forehead (since he wears white linen garments, not the golden ones that include the tzitz) - yet his service is valid. This should prove off-forehead atonement works. R. Yehuda deflects: leave the YK case - there, tumah is hutrah l'tzibbur, so the tzitz does not need to operate at all. Implication: R. Shimon holds dchuya (the tzitz does atone for the community's tumah, which is why he says it works off-forehead); R. Yehuda holds hutrah (no tzitz needed, tumah fully permitted).",
+          whats: "R. Shimon's proof for his own position turns out not to persuade R. Yehuda: he says 'look, the YK kohein gadol doesn't wear the tzitz on his forehead and the service works' - citing this to prove off-forehead atonement is real. But R. Yehuda responds: that case doesn't involve the tzitz at all. The proof fails because R. Shimon chose a case where, on R. Yehuda's view, the entire mechanism is inapplicable.",
+          hint: "R. Shimon picked an example R. Yehuda can dismiss. The YK case proves nothing about the tzitz's range because the tzitz isn't operative in that case at all - tumah is hutrah l'tzibbur."
         },
         learning: {
-          learnerQuestion: "Why does R. Yehuda's proof from the YK kohein gadol backfire?",
-          coreTension: "R. Yehuda intends to show that off-forehead atonement is real (the YK kohein gadol's service is valid without the tzitz on his forehead). But R. Shimon says: in that case, tumah is hutrah - the tzitz plays no role whatsoever. So R. Yehuda's proof assumes the tzitz is operating in the YK case, but R. Shimon denies this assumption.",
-          coreMove: "Choosing a proof-case requires identifying a case where the mechanism you are proving IS operative. R. Yehuda chose a case where, in R. Shimon's view, the mechanism is entirely suspended. A proof can only work if both sides agree on the baseline.",
+          learnerQuestion: "Why does R. Shimon's proof from the YK kohein gadol fail to persuade R. Yehuda?",
+          coreTension: "R. Shimon intends to show that off-forehead atonement is real (the YK kohein gadol's service is valid without the tzitz on his forehead). But R. Yehuda says: in that case, tumah is hutrah - the tzitz plays no role whatsoever. So R. Shimon's proof assumes the tzitz is operating in the YK case, but R. Yehuda denies this assumption.",
+          coreMove: "Choosing a proof-case requires identifying a case where the mechanism you are proving IS operative. R. Shimon chose a case where, in R. Yehuda's view, the mechanism is entirely suspended. A proof can only work if both sides agree on the baseline.",
           resolution: "The argument establishes the positions: R. Shimon = dchuya (tzitz needed, works even off forehead); R. Yehuda = hutrah (tzitz not needed, must be on forehead when worn). Abaye will clarify this in the next sugya.",
           takeaway: {
             type: "logical_principle",
@@ -15431,11 +15431,11 @@ const DAF_CONTENT = {
           reasoningPattern: {
             id: "proof-by-wrong-example",
             category: "analytical",
-            notes: "R. Yehuda's YK example fails because R. Shimon denies it falls in the relevant category. The failure is instructive: it forces R. Shimon to articulate exactly why the YK case is different (hutrah l'tzibbur), which clarifies both positions."
+            notes: "R. Shimon's YK example fails to persuade because R. Yehuda denies it falls in the relevant category. The exchange is instructive: it forces R. Yehuda to articulate exactly why the YK case is different (hutrah l'tzibbur), which clarifies both positions and reveals by inference that R. Shimon himself must hold dchuya."
           },
-          ahaMoment: "The inference from R. Shimon's deflection is the key insight: because R. Shimon says 'the tzitz doesn't operate in YK because tumah is hutrah there,' we learn that in R. Shimon's view, there ARE cases where the tzitz DOES need to operate for the community's tumah. That means R. Shimon holds dchuya.",
-          learningBlocker: "Students may think R. Yehuda is supporting R. Shimon's position with this proof. He is not - he intends the YK case to prove that off-forehead atonement exists, which would support a strong form of R. Shimon's view. But R. Shimon can't use that example because he considers it irrelevant.",
-          memoryAnchor: "R. Yehuda: YK kohein gadol proves off-forehead atonement. R. Shimon: wrong category - YK is hutrah, tzitz not relevant. Inference: R. Shimon holds dchuya (tzitz does atone; therefore off-forehead matters), R. Yehuda holds hutrah (tzitz irrelevant; forehead only when worn)."
+          ahaMoment: "The inference from R. Yehuda's deflection is the key insight: because R. Yehuda says 'the tzitz doesn't operate in YK because tumah is hutrah there,' and R. Shimon had cited that very case as an ordinary illustration of his general rule, we learn that in R. Shimon's own view, there ARE cases where the tzitz DOES need to operate for the community's tumah. That means R. Shimon holds dchuya.",
+          learningBlocker: "Students may think R. Shimon's citation of the YK case is a routine, uncontested example. It is not - R. Yehuda specifically denies it belongs to the category R. Shimon needs it to illustrate, since he considers YK a completely different (hutrah) case where no tzitz atonement is needed at all.",
+          memoryAnchor: "R. Shimon: cites YK kohein gadol as proof off-forehead atonement is real. R. Yehuda: wrong category - YK is hutrah, tzitz not relevant there. Inference: R. Shimon holds dchuya (tzitz does atone; therefore off-forehead matters to him), R. Yehuda holds hutrah (tzitz irrelevant in YK; forehead only matters when the tzitz is actually worn)."
         },
         lines: [
           { id: "yoma-007b-l01", kind: "gemara", he: "הָא אֵינוֹ נוֹשֵׂא אֶלָּא עֲוֹן טוּמְאָה שֶׁהוּתְּרָה\nמִכְּלָלָהּ בְּצִיבּוּר. וְקַשְׁיָא לְרַב שֵׁשֶׁת! תַּנָּאֵי\nהִיא. דְּתַנְיָא: צִיץ, בֵּין שֶׁיֶּשְׁנוֹ עַל מִצְחוֹ בֵּין\nשֶׁאֵינוֹ עַל מִצְחוֹ — מְרַצֶּה, דִּבְרֵי רַבִּי שִׁמְעוֹן.",
@@ -15482,30 +15482,30 @@ const DAF_CONTENT = {
           {
             id: "step-03",
             type: "challenge",
-            label: "R. Yehuda to R. Shimon: YK kohein gadol proves off-forehead atonement",
-            speaker: "R. Yehuda (in baraita)",
+            label: "R. Shimon cites: YK kohein gadol proves off-forehead atonement",
+            speaker: "R. Shimon (in baraita)",
             text: "The YK kohein gadol serves during the inner service wearing only white linen - not the golden garments that include the tzitz. The tzitz is not on his forehead. Yet the service is valid. This proves atonement works even without the tzitz on the forehead.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-007b-l08",
                 vilnaLine: 8,
-                note: "R. Yehuda's proof from YK kohein gadol"
+                note: "R. Shimon's proof from YK kohein gadol"
               }
             ]
           },
           {
             id: "step-04",
             type: "rejection",
-            label: "R. Shimon: YK case is hutrah, tzitz does not operate there",
-            speaker: "R. Shimon (in baraita)",
+            label: "R. Yehuda: YK case is hutrah, tzitz does not operate there",
+            speaker: "R. Yehuda (in baraita)",
             text: "Leave the YK case - there, tumah is hutrah l'tzibbur (the prohibition is entirely suspended). The tzitz does not need to operate in that context. That case cannot prove anything about how the tzitz works when it does need to operate.",
             sourceRefs: [
               {
                 sourceType: "gemara",
                 lineId: "yoma-007b-l08",
                 vilnaLine: 9,
-                note: "R. Shimon's deflection; hutrah vs. dchuya implication"
+                note: "R. Yehuda's deflection; hutrah vs. dchuya implication"
               }
             ]
           },
@@ -15536,8 +15536,8 @@ const DAF_CONTENT = {
         ],
         misconceptions: [
           {
-            misconception: "R. Yehuda's proof from the YK kohein gadol supports R. Shimon's position.",
-            correction: "R. Yehuda intends it to prove off-forehead atonement is real (supporting a version of R. Shimon's view). But R. Shimon cannot use that example - he considers it a completely different category (hutrah, where no tzitz atonement is needed)."
+            misconception: "R. Shimon's proof from the YK kohein gadol supports R. Yehuda's position.",
+            correction: "R. Shimon intends it to prove off-forehead atonement is real (supporting his own view). But R. Yehuda rejects that example - he considers it a completely different category (hutrah, where no tzitz atonement is needed)."
           }
         ],
         relatedSugyot: [
@@ -15556,17 +15556,17 @@ const DAF_CONTENT = {
           {
             type: "person",
             label: "YK kohein gadol in white vs. gold vestments",
-            description: "The kohein gadol wearing full golden vestments (with tzitz on forehead, outer service) contrasted with white linen (inner YK service, no tzitz). The visual shows why R. Yehuda's proof fails: the gold vestments including the tzitz are not worn during the inner service."
+            description: "The kohein gadol wearing full golden vestments (with tzitz on forehead, outer service) contrasted with white linen (inner YK service, no tzitz). The visual shows why R. Shimon's proof fails to persuade R. Yehuda: the gold vestments including the tzitz are not worn during the inner service."
           }
         ],
         quizSeeds: [
           {
-            question: "Why does R. Yehuda's proof from the YK kohein gadol backfire on him?",
-            answer: "R. Yehuda points to the YK inner service as proof that atonement works without the tzitz on the forehead. But R. Shimon says: in that case, tumah is hutrah l'tzibbur - the tzitz does not operate at all. So the example proves nothing about cases where the tzitz does need to atone."
+            question: "Why does R. Shimon's proof from the YK kohein gadol fail to persuade R. Yehuda?",
+            answer: "R. Shimon points to the YK inner service as proof that atonement works without the tzitz on the forehead. But R. Yehuda says: in that case, tumah is hutrah l'tzibbur - the tzitz does not operate at all. So the example proves nothing about cases where the tzitz does need to atone."
           },
           {
             question: "What is the inference about R. Shimon's position on dchuya/hutrah from this exchange?",
-            answer: "Since R. Shimon says the YK case is different (hutrah - tzitz not needed), he implies there ARE cases where the community's tumah needs tzitz atonement. This means R. Shimon holds dchuya, not hutrah."
+            answer: "Since R. Yehuda says the YK case is different (hutrah - tzitz not needed), and R. Shimon had cited it as an ordinary example, this implies R. Shimon holds there ARE cases where the community's tumah needs tzitz atonement. This means R. Shimon holds dchuya, not hutrah."
           }
         ],
         finalRuling: "",
@@ -15673,7 +15673,7 @@ const DAF_CONTENT = {
             type: "application",
             label: "R. Yehuda's 'tamid' and the tefillin kal v'chomer",
             speaker: "Gemara",
-            text: "R. Yehuda reads 'tamid' as: do not divert your attention from the tzitz. Rabba bar Rav Huna: a person must check tefillin every moment. Kal v'chomer: if the tzitz - which has only one divine name - requires constant mindfulness, tefillin - which have many divine names - certainly require no less.",
+            text: "R. Yehuda reads 'tamid' as: do not divert your attention from the tzitz. Rabba bar Rav Huna: a person must check tefillin every moment - this sets up a kal v'chomer from the tzitz (which bears only one divine name) to tefillin (which bear many). The daf cuts off mid-word here before stating the kal v'chomer's conclusion; it continues on 8a.",
             sourceRefs: [
               {
                 sourceType: "gemara",
@@ -15729,7 +15729,7 @@ const DAF_CONTENT = {
             answer: "The tzitz has only one divine name but requires the kohein's constant mindfulness. Tefillin contain many divine names - they certainly require no less vigilance."
           }
         ],
-        finalRuling: "The halakha follows R. Yehuda: the tzitz must be on the kohein gadol's forehead to effect atonement. The kal v'chomer to tefillin is accepted as binding.",
+        finalRuling: "The halakha follows R. Yehuda: the tzitz must be on the kohein gadol's forehead to effect atonement. The kal v'chomer to tefillin, whose conclusion is completed on 8a, is accepted as binding.",
         difficulty: "advanced",
         alternateAngles: [],
         topicTags: [

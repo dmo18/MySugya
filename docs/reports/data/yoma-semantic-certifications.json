@@ -4172,6 +4172,188 @@
         }
       },
       "certifiedAtCommit": "8406b65b196a7cb05c91042aff192912e19f94f4"
+    },
+    "yoma-007b-s01": {
+      "sugyaId": "yoma-007b-s01",
+      "daf": "7b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-7b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "3aefc0650d1776c2164718154275ae55415374161d955e303dcff033afd71810",
+        "reviewedSemanticFingerprint": "a8bc42d8c180e16aa384c527d0b87d484e290748d29fb1507bc51bce3bb384e8",
+        "evidence": {
+          "reviewId": "sonnet5-7b-first-20260823a",
+          "module": "yoma",
+          "daf": "7b",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-18) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-2: completes 7a's cutoff - the tzitz bears only the sin of tumah, which was permitted (hutrah) for the community; this is a difficulty (kashya) for Rav Sheshet's dchuya position.",
+              "Lines 2-10: A tannaitic baraita is cited to resolve this as a matter of dispute (tannai hi). Rabbi SHIMON holds the tzitz atones whether on the forehead or not. Rabbi YEHUDA holds it only atones while still on the forehead. Rabbi SHIMON then says to Rabbi Yehuda: let the Yom Kippur Kohen Gadol prove it - he serves without the tzitz on his forehead (during the inner sanctum service in white linen) and yet atonement occurs. Rabbi YEHUDA responds: leave aside the Yom Kippur Kohen Gadol, for there tumah was fully permitted (hutrah) to him for the sake of the community [so no proof about the tzitz's normal function can be drawn from a case where it isn't even operating]. By inference: Rabbi SHIMON holds tumah is generally overridden (dchuya) for the community [since he did not treat Yom Kippur as an unremarkable case needing no tzitz-atonement, and his position rests on the tzitz having a real, general atoning function].",
+              "Lines 11-18: Abaye localizes the tannaitic dispute: when the tzitz is broken, all agree it does not atone; the actual dispute is only when it hangs on a peg (intact, off the forehead). R. Yehuda's position rests on 'al mitzcho v'nasa' (fitness for the forehead required); R. Shimon's on 'tamid l'ratzon lifnei Hashem' (perpetual atonement). The word 'tamid' is then analyzed: it cannot mean literally always-on-forehead (the Kohen must sleep and use the bathroom), so R. Shimon reads it as 'perpetually atones'; R. Yehuda reads it as a mindfulness requirement (do not divert attention from it). This grounds a kal v'chomer from Rabbah bar Rav Huna's teaching that one must check tefillin constantly: if the tzitz (one divine name) requires such mindfulness, tefillin (many divine names) surely do too - but the daf cuts off mid-word at 'echad' ('one'), before completing the kal v'chomer's conclusion, continuing to 8a (confirmed by the packet's own relevantRashi note for this line)."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "s01 (1-10) and s02 (11-18, extending to the daf's confirmed true end). No boundary repair needed.",
+          "dafSummaryVerdict": "REPAIR_REQUIRED",
+          "dafSummaryNotes": "GENUINE DEFECT: currentDafSummary states 'R. Yehuda challenges R. Shimon with the YK kohein gadol...but R. Shimon deflects: that case is hutrah l'tzibbur.' This is reversed. Per raw lines 6-9, Rabbi SHIMON raises the YK-Kohen-Gadol argument (in support of his own stated position that the tzitz atones regardless of forehead placement), and Rabbi YEHUDA deflects it with the hutrah-l'tzibbur point. The final 'R. Shimon holds dchuya' conclusion in the summary happens to be correctly labeled, but the narrative leading to it has the two Tannaim's roles swapped.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-007b-s01",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "GENUINE, EXTENSIVE DEFECT: nearly every prose field in this sugya (oneLine, shortSummary, whats, hint, learning.learnerQuestion, coreTension, coreMove, ahaMoment, learningBlocker, memoryAnchor, reasoningPattern.notes, misconceptions, quizSeeds, and argumentFlow steps 03-04) attributes the YK-Kohen-Gadol proof to R. Yehuda and the hutrah deflection to R. Shimon. The raw text (lines 6-9) shows the exact opposite: R. SHIMON raises the YK proof (in support of his own step-02-established position that off-forehead atonement is real), and R. YEHUDA deflects it. This is confirmable as a real error two independent ways: (1) direct translation of 'אמר לו ר\"ש...יוכיח' (R. Shimon said to him: [YK] would prove...) and 'אמר לו ר' יהודה הנח' (R. Yehuda said to him: leave aside...) unambiguously assigns speakers; (2) internal self-contradiction already present in the current enrichment - step-02 correctly establishes R. Yehuda's position as 'only on-forehead atones,' but step-03 then has R. Yehuda ARGUING FOR 'off-forehead atonement is real' via the YK proof, directly contradicting his own just-established position. A correctly-attributed R. Shimon (who DOES hold off-forehead atonement is real per step-02) makes the YK argument coherently in support of his own view. The terminal dchuya=R.Shimon/hutrah=R.Yehuda labels (in step-05, title, oneLine's closing clause, resolution field, memoryAnchor's closing clause) are already textually correct per raw line 10 ('מכלל דר\"ש סבר טומאה דחויה') and must be preserved unchanged - only the narrative of WHO makes the proof and WHO deflects it needs correcting throughout."
+            },
+            {
+              "sugyaId": "yoma-007b-s02",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "MINOR DEFECT: Abaye's localization (step-01) and the 'tamid' analysis (step-02) are both accurate and correctly attributed, matching lines 11-16 exactly - no repair needed there. However step-03 and finalRuling present the kal v'chomer from tzitz to tefillin ('tefillin...certainly require no less') as a completed conclusion, when the daf actually cuts off mid-word at 'echad' (one, referring to the tzitz's single divine name) before stating that conclusion - confirmed by the packet's own relevantRashi note for this line ('the word is cut off here...the premise opening the kal v'chomer argument to tefillin that continues on 8a'). This is the same class of unhedged false-closure issue already fixed on 5b, distinct from 7a's properly-hedged forward reference which was NOT flagged as a defect."
+            }
+          ],
+          "requiredCorrection": {
+            "field": "currentDafSummary; yoma-007b-s01: oneLine, shortSummary, whats, hint, all learning.* fields, memoryAnchor, reasoningPattern.notes, misconceptions, quizSeeds, argumentFlow step-03 and step-04 (speaker + text); yoma-007b-s02: argumentFlow step-03 (hedge as cut off) and finalRuling",
+            "problem": "s01: R. Yehuda and R. Shimon's roles are swapped throughout the YK-Kohen-Gadol proof/deflection exchange (who raises it vs. who deflects it), while the terminal dchuya/hutrah position labels are already correct and must not be touched. s02: the kal v'chomer to tefillin is presented as a completed conclusion when the daf cuts off mid-word before stating it.",
+            "sourceLines": "yoma-007b-l04 through yoma-007b-l08 (specifically vilna lines 6-9) for the s01 swap; yoma-007b-l18 (vilna line 18, cut off at 'echad') for s02's hedge",
+            "requiredFix": "Swap R. Yehuda <-> R. Shimon specifically in the context of raising vs. deflecting the YK-Kohen-Gadol proof, throughout every s01 field listed above, leaving the correct terminal dchuya=R.Shimon/hutrah=R.Yehuda labels untouched. Revise s02's step-03 and finalRuling to note the daf cuts off mid-word before the kal v'chomer's conclusion, continuing to 8a."
+          },
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source. The s01 defect was caught by direct translation of the speaker-attribution particles ('amar lo R. Shimon' vs 'amar lo R. Yehuda') and independently confirmed via an internal self-contradiction already present in the enrichment (step-02 and step-03 attribute opposite positions to the same R. Yehuda in consecutive steps). The s02 defect was caught by comparing the enrichment's stated conclusion against the daf's actual line count and the packet's own relevantRashi note documenting the cutoff."
+        }
+      },
+      "repairRef": "56adc32ae2e9da415363844674d46a2c9b506f1c",
+      "sourceFingerprint": "3aefc0650d1776c2164718154275ae55415374161d955e303dcff033afd71810",
+      "semanticFingerprint": "3ccfdb2031509deefb7fa46ed74e27e66de0bd88c90a2e93d4ff4bf336f24d1f",
+      "secondPass": {
+        "reviewId": "sonnet5-7b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "3aefc0650d1776c2164718154275ae55415374161d955e303dcff033afd71810",
+        "reviewedSemanticFingerprint": "3ccfdb2031509deefb7fa46ed74e27e66de0bd88c90a2e93d4ff4bf336f24d1f",
+        "evidence": {
+          "reviewId": "sonnet5-7b-second-20260823b",
+          "module": "yoma",
+          "daf": "7b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning. Re-parsed the speaker-attribution particles in lines 6-9 fresh: 'amar lo Rabbi Shimon: Kohen Gadol beYom HaKippurim yochiach...' places Rabbi Shimon as the subject/speaker of 'said to him' addressing R. Yehuda, raising the YK-Kohen-Gadol proof; 'amar lo Rabbi Yehuda: hanach lekohen gadol beYom HaKippurim shetumah hutrah lo betzibbur' places Rabbi Yehuda as the subject/speaker deflecting it. Confirmed identically to the first pass.",
+          "attributionSpotCheck": {
+            "line6-7": "amar lo R. Shimon...yochiach - R. Shimon is grammatically the subject (speaker), addressing R. Yehuda ('lo'), raising the YK proof",
+            "line8-9": "amar lo R. Yehuda...hanach - R. Yehuda is grammatically the subject (speaker), addressing R. Shimon ('lo'), deflecting with the hutrah point",
+            "line10": "michlal deR. Shimon savar tumah dechuyah - explicit inference statement naming R. Shimon as holding dchuya, independently re-verified",
+            "result": "all three attribution points re-derived identically to the first pass; the repair correctly reflects the source"
+          },
+          "repairVerification": {
+            "s01argumentFlow": "step-03 now speaker 'R. Shimon (in baraita)' raising the YK proof; step-04 now speaker 'R. Yehuda (in baraita)' deflecting it; step-05's terminal labels (R. Shimon=dchuya, R. Yehuda=hutrah) unchanged and confirmed correct",
+            "s01prose": "oneLine, shortSummary, whats, hint, all learning.* fields, memoryAnchor, misconceptions, quizSeeds, and the visualizableElements description all checked and confirmed consistently corrected - no remaining instance of the swap found",
+            "s02hedge": "step-03 and finalRuling now correctly note the kal v'chomer's conclusion completes on 8a rather than being stated as settled on 7b"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-007b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Repair verified complete and correct across every affected field. Independently re-derived the speaker attributions from the raw text and confirmed R. Shimon raises the YK proof, R. Yehuda deflects it, matching the repaired enrichment exactly."
+            },
+            {
+              "sugyaId": "yoma-007b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Abaye's localization and the 'tamid' analysis (unchanged, already accurate) re-verified against lines 11-16. The hedge fix for the kal v'chomer's cutoff is now honest and consistent with the packet's own relevantRashi note."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-derived the speaker-attribution particles from scratch, blind to first-pass reasoning, specifically re-parsing the Hebrew grammar of 'amar lo X' constructions to confirm subject/speaker identity. The repair is verified complete: no remaining instance of the R. Yehuda/R. Shimon swap found anywhere in s01, and s02's hedge fix is accurate. No new defect found."
+        }
+      },
+      "certifiedAtCommit": "56adc32ae2e9da415363844674d46a2c9b506f1c"
+    },
+    "yoma-007b-s02": {
+      "sugyaId": "yoma-007b-s02",
+      "daf": "7b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-7b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "22dcedbab50d1dca262fb5dc0140fc1e9e30c43b4bb0437d790d390c3b9083b2",
+        "reviewedSemanticFingerprint": "42899a6078aaaa63045d15b5728f346dde604f904ad4d016ad7a6dfe06fa8f24",
+        "evidence": {
+          "reviewId": "sonnet5-7b-first-20260823a",
+          "module": "yoma",
+          "daf": "7b",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-18) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-2: completes 7a's cutoff - the tzitz bears only the sin of tumah, which was permitted (hutrah) for the community; this is a difficulty (kashya) for Rav Sheshet's dchuya position.",
+              "Lines 2-10: A tannaitic baraita is cited to resolve this as a matter of dispute (tannai hi). Rabbi SHIMON holds the tzitz atones whether on the forehead or not. Rabbi YEHUDA holds it only atones while still on the forehead. Rabbi SHIMON then says to Rabbi Yehuda: let the Yom Kippur Kohen Gadol prove it - he serves without the tzitz on his forehead (during the inner sanctum service in white linen) and yet atonement occurs. Rabbi YEHUDA responds: leave aside the Yom Kippur Kohen Gadol, for there tumah was fully permitted (hutrah) to him for the sake of the community [so no proof about the tzitz's normal function can be drawn from a case where it isn't even operating]. By inference: Rabbi SHIMON holds tumah is generally overridden (dchuya) for the community [since he did not treat Yom Kippur as an unremarkable case needing no tzitz-atonement, and his position rests on the tzitz having a real, general atoning function].",
+              "Lines 11-18: Abaye localizes the tannaitic dispute: when the tzitz is broken, all agree it does not atone; the actual dispute is only when it hangs on a peg (intact, off the forehead). R. Yehuda's position rests on 'al mitzcho v'nasa' (fitness for the forehead required); R. Shimon's on 'tamid l'ratzon lifnei Hashem' (perpetual atonement). The word 'tamid' is then analyzed: it cannot mean literally always-on-forehead (the Kohen must sleep and use the bathroom), so R. Shimon reads it as 'perpetually atones'; R. Yehuda reads it as a mindfulness requirement (do not divert attention from it). This grounds a kal v'chomer from Rabbah bar Rav Huna's teaching that one must check tefillin constantly: if the tzitz (one divine name) requires such mindfulness, tefillin (many divine names) surely do too - but the daf cuts off mid-word at 'echad' ('one'), before completing the kal v'chomer's conclusion, continuing to 8a (confirmed by the packet's own relevantRashi note for this line)."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "s01 (1-10) and s02 (11-18, extending to the daf's confirmed true end). No boundary repair needed.",
+          "dafSummaryVerdict": "REPAIR_REQUIRED",
+          "dafSummaryNotes": "GENUINE DEFECT: currentDafSummary states 'R. Yehuda challenges R. Shimon with the YK kohein gadol...but R. Shimon deflects: that case is hutrah l'tzibbur.' This is reversed. Per raw lines 6-9, Rabbi SHIMON raises the YK-Kohen-Gadol argument (in support of his own stated position that the tzitz atones regardless of forehead placement), and Rabbi YEHUDA deflects it with the hutrah-l'tzibbur point. The final 'R. Shimon holds dchuya' conclusion in the summary happens to be correctly labeled, but the narrative leading to it has the two Tannaim's roles swapped.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-007b-s01",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "GENUINE, EXTENSIVE DEFECT: nearly every prose field in this sugya (oneLine, shortSummary, whats, hint, learning.learnerQuestion, coreTension, coreMove, ahaMoment, learningBlocker, memoryAnchor, reasoningPattern.notes, misconceptions, quizSeeds, and argumentFlow steps 03-04) attributes the YK-Kohen-Gadol proof to R. Yehuda and the hutrah deflection to R. Shimon. The raw text (lines 6-9) shows the exact opposite: R. SHIMON raises the YK proof (in support of his own step-02-established position that off-forehead atonement is real), and R. YEHUDA deflects it. This is confirmable as a real error two independent ways: (1) direct translation of 'אמר לו ר\"ש...יוכיח' (R. Shimon said to him: [YK] would prove...) and 'אמר לו ר' יהודה הנח' (R. Yehuda said to him: leave aside...) unambiguously assigns speakers; (2) internal self-contradiction already present in the current enrichment - step-02 correctly establishes R. Yehuda's position as 'only on-forehead atones,' but step-03 then has R. Yehuda ARGUING FOR 'off-forehead atonement is real' via the YK proof, directly contradicting his own just-established position. A correctly-attributed R. Shimon (who DOES hold off-forehead atonement is real per step-02) makes the YK argument coherently in support of his own view. The terminal dchuya=R.Shimon/hutrah=R.Yehuda labels (in step-05, title, oneLine's closing clause, resolution field, memoryAnchor's closing clause) are already textually correct per raw line 10 ('מכלל דר\"ש סבר טומאה דחויה') and must be preserved unchanged - only the narrative of WHO makes the proof and WHO deflects it needs correcting throughout."
+            },
+            {
+              "sugyaId": "yoma-007b-s02",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "MINOR DEFECT: Abaye's localization (step-01) and the 'tamid' analysis (step-02) are both accurate and correctly attributed, matching lines 11-16 exactly - no repair needed there. However step-03 and finalRuling present the kal v'chomer from tzitz to tefillin ('tefillin...certainly require no less') as a completed conclusion, when the daf actually cuts off mid-word at 'echad' (one, referring to the tzitz's single divine name) before stating that conclusion - confirmed by the packet's own relevantRashi note for this line ('the word is cut off here...the premise opening the kal v'chomer argument to tefillin that continues on 8a'). This is the same class of unhedged false-closure issue already fixed on 5b, distinct from 7a's properly-hedged forward reference which was NOT flagged as a defect."
+            }
+          ],
+          "requiredCorrection": {
+            "field": "currentDafSummary; yoma-007b-s01: oneLine, shortSummary, whats, hint, all learning.* fields, memoryAnchor, reasoningPattern.notes, misconceptions, quizSeeds, argumentFlow step-03 and step-04 (speaker + text); yoma-007b-s02: argumentFlow step-03 (hedge as cut off) and finalRuling",
+            "problem": "s01: R. Yehuda and R. Shimon's roles are swapped throughout the YK-Kohen-Gadol proof/deflection exchange (who raises it vs. who deflects it), while the terminal dchuya/hutrah position labels are already correct and must not be touched. s02: the kal v'chomer to tefillin is presented as a completed conclusion when the daf cuts off mid-word before stating it.",
+            "sourceLines": "yoma-007b-l04 through yoma-007b-l08 (specifically vilna lines 6-9) for the s01 swap; yoma-007b-l18 (vilna line 18, cut off at 'echad') for s02's hedge",
+            "requiredFix": "Swap R. Yehuda <-> R. Shimon specifically in the context of raising vs. deflecting the YK-Kohen-Gadol proof, throughout every s01 field listed above, leaving the correct terminal dchuya=R.Shimon/hutrah=R.Yehuda labels untouched. Revise s02's step-03 and finalRuling to note the daf cuts off mid-word before the kal v'chomer's conclusion, continuing to 8a."
+          },
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source. The s01 defect was caught by direct translation of the speaker-attribution particles ('amar lo R. Shimon' vs 'amar lo R. Yehuda') and independently confirmed via an internal self-contradiction already present in the enrichment (step-02 and step-03 attribute opposite positions to the same R. Yehuda in consecutive steps). The s02 defect was caught by comparing the enrichment's stated conclusion against the daf's actual line count and the packet's own relevantRashi note documenting the cutoff."
+        }
+      },
+      "repairRef": "56adc32ae2e9da415363844674d46a2c9b506f1c",
+      "sourceFingerprint": "22dcedbab50d1dca262fb5dc0140fc1e9e30c43b4bb0437d790d390c3b9083b2",
+      "semanticFingerprint": "bc29e832360cdf2c676e4aa618e171aba5cc102b546fafc0e87f31faacb5a396",
+      "secondPass": {
+        "reviewId": "sonnet5-7b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "22dcedbab50d1dca262fb5dc0140fc1e9e30c43b4bb0437d790d390c3b9083b2",
+        "reviewedSemanticFingerprint": "bc29e832360cdf2c676e4aa618e171aba5cc102b546fafc0e87f31faacb5a396",
+        "evidence": {
+          "reviewId": "sonnet5-7b-second-20260823b",
+          "module": "yoma",
+          "daf": "7b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning. Re-parsed the speaker-attribution particles in lines 6-9 fresh: 'amar lo Rabbi Shimon: Kohen Gadol beYom HaKippurim yochiach...' places Rabbi Shimon as the subject/speaker of 'said to him' addressing R. Yehuda, raising the YK-Kohen-Gadol proof; 'amar lo Rabbi Yehuda: hanach lekohen gadol beYom HaKippurim shetumah hutrah lo betzibbur' places Rabbi Yehuda as the subject/speaker deflecting it. Confirmed identically to the first pass.",
+          "attributionSpotCheck": {
+            "line6-7": "amar lo R. Shimon...yochiach - R. Shimon is grammatically the subject (speaker), addressing R. Yehuda ('lo'), raising the YK proof",
+            "line8-9": "amar lo R. Yehuda...hanach - R. Yehuda is grammatically the subject (speaker), addressing R. Shimon ('lo'), deflecting with the hutrah point",
+            "line10": "michlal deR. Shimon savar tumah dechuyah - explicit inference statement naming R. Shimon as holding dchuya, independently re-verified",
+            "result": "all three attribution points re-derived identically to the first pass; the repair correctly reflects the source"
+          },
+          "repairVerification": {
+            "s01argumentFlow": "step-03 now speaker 'R. Shimon (in baraita)' raising the YK proof; step-04 now speaker 'R. Yehuda (in baraita)' deflecting it; step-05's terminal labels (R. Shimon=dchuya, R. Yehuda=hutrah) unchanged and confirmed correct",
+            "s01prose": "oneLine, shortSummary, whats, hint, all learning.* fields, memoryAnchor, misconceptions, quizSeeds, and the visualizableElements description all checked and confirmed consistently corrected - no remaining instance of the swap found",
+            "s02hedge": "step-03 and finalRuling now correctly note the kal v'chomer's conclusion completes on 8a rather than being stated as settled on 7b"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-007b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Repair verified complete and correct across every affected field. Independently re-derived the speaker attributions from the raw text and confirmed R. Shimon raises the YK proof, R. Yehuda deflects it, matching the repaired enrichment exactly."
+            },
+            {
+              "sugyaId": "yoma-007b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Abaye's localization and the 'tamid' analysis (unchanged, already accurate) re-verified against lines 11-16. The hedge fix for the kal v'chomer's cutoff is now honest and consistent with the packet's own relevantRashi note."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-derived the speaker-attribution particles from scratch, blind to first-pass reasoning, specifically re-parsing the Hebrew grammar of 'amar lo X' constructions to confirm subject/speaker identity. The repair is verified complete: no remaining instance of the R. Yehuda/R. Shimon swap found anywhere in s01, and s02's hedge fix is accurate. No new defect found."
+        }
+      },
+      "certifiedAtCommit": "56adc32ae2e9da415363844674d46a2c9b506f1c"
     }
   }
 }
