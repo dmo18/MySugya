@@ -41,6 +41,9 @@ jobs:
       - name: Yoma offline validation gates
         run: npm run validate:offline:yoma
 
+      - name: Semantic toolchain syntax check
+        run: python3 -m py_compile scripts/semantic_certification.py scripts/validate_semantic_certification.py scripts/semantic_self_heal.py scripts/semantic_daf_packet.py scripts/semantic_review_state.py scripts/semantic_repair_scope_v2.py scripts/make_semantic_repair_manifest.py
+
       - name: Semantic certification safety tests
         run: python3 scripts/test_semantic_certification.py
 
