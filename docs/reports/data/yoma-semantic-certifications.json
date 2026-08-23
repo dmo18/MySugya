@@ -3255,6 +3255,207 @@
         }
       },
       "certifiedAtCommit": "e5fca3990c0bf1163e7a804100fd1e020a8dee77"
+    },
+    "yoma-005a-s01": {
+      "sugyaId": "yoma-005a-s01",
+      "daf": "5a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-5a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "c2d8adb3ff0997cb177db82b2c1865594bc1b613ae2277a586563d689b63a013",
+        "reviewedSemanticFingerprint": "010460eba6009fb94f255771616fa8fb5e09594d42629f05e4702b85c23f4e5e",
+        "evidence": {
+          "reviewId": "sonnet5-5a-first-20260823a",
+          "module": "yoma",
+          "daf": "5a",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-40) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-9: Rav Yosef names semikha (hand-laying) as a practical difference between R. Yochanan and R. Chanina, proven not to invalidate ongoing service via a baraita on Lev. 1:4 ('vesamach...venirtza') read against Lev. 17:11 (only blood atones) - semikha is a shirei mitzva.",
+              "Lines 10-18: Rav Nachman bar Yitzchak names tenufah (waving), with the identical baraita structure for its own verse.",
+              "Lines 18-23: Rav Pappa names prishat shivah (seven-day separation), proven via the mishna's word choice 'matkinin' (they designate) rather than 'mafrishin' (they separate) for the backup priest.",
+              "Line 23: Ravina opens the second sugya by naming two more differences: ribui shivah (seven days of increased/full garments) and meshichah shivah (seven days of anointing).",
+              "Lines 24-34: A baraita on Lev. 16:32 ('vechiper hakohen asher yimshach... ve'asher yemale et yado') teaches that any combination of seven-day garment-wearing and seven-day anointing suffices (not only both together, as the base case from Exod. 29:30 might have suggested). The Gemara then asks the source for meshichah shivah being required lechatchila (ab initio), given we already know ribui shivah is lechatchila from Exod. 29:30 itself.",
+              "Lines 35-37: Two answers are offered for meshichah shivah lechatchila: (1) 'im ba'it eima, from the fact a verse was needed to exclude/limit' (a terse first answer the current enrichment omits entirely), and (2) 'im ba'it eima, a hekesh (juxtaposition) from Exod. 29:29 (vivgdei hakodesh asher le'Aharon...) linking anointing to garment-wearing: just as garment-wearing is seven days, so is anointing.",
+              "Lines 38-40 (daf ends mid-word): R. Yitzchak bar Bisna gives the source for R. Yochanan's entire principle (that everything written in the inauguration invalidates): the word 'kachah' (thus) in Exodus 29:35 ('ve'asita le'Aharon ulevanav kachah'). The Gemara notes this works for anything ('tinach kol milta') written in the inauguration passage itself - and cuts off, continuing on 5b to ask about requirements written elsewhere."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "s01 (1-22) covers Rav Yosef/Rav Nachman bar Yitzchak/Rav Pappa's three items; s02 (23-40) covers Ravina's two more items plus the kachah source and stub. The split at line 23 lands exactly on Ravina's opening statement - clean topic boundary.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences both sugyot and does not repeat the citation error found in s02's own fields (it correctly references only 'the word kachah' without a wrong verse number attached), so no daf-summary-level repair is triggered.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-005a-s01",
+              "verdict": "VERIFIED",
+              "notes": "All six argumentFlow steps correctly attributed (Rav Yosef/semikha, baraita/Lev 1:4 vs Lev 17:11, Rav Nachman bar Yitzchak/tenufah, parallel baraita, Rav Pappa/prisha, matkin-vs-mafrishin proof). Both scriptural citations (Lev. 1:4, Lev. 17:11) independently verified correct and matching the raw text exactly."
+            },
+            {
+              "sugyaId": "yoma-005a-s02",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "GENUINE DEFECT: the 'kachah' verse ('do thus to Aaron and his sons') is cited as '(Lev. 8:34)' in argumentFlow step-04's text and in one quizSeed answer. This is factually wrong: the raw daf text (line 38, 'ועשית לאהרן ולבניו ככה') is Exodus 29:35 ('ve'asita le'Aharon ulevanav kachah'), not Leviticus 8:34. Leviticus 8:34 is a different verse entirely ('ka'asher asah bayom hazeh tzivah Hashem la'asot' - 'as he did this day, so has the LORD commanded to do'), already correctly cited for that distinct purpose in the 4a PR. The visualizableElements diagram also frames the kachah passage as being located 'inside... (Lev. 8)' with Exodus 28/29 material 'outside' - which is backwards, since the kachah word itself is in Exodus 29:35, not Leviticus 8. All three occurrences trace to the same underlying confusion and need correcting to Exodus 29:35. Additionally, argumentFlow step-03 cites the anointing/garment-wearing juxtaposition verse only as the vague 'Exod. 28/29' when the precise verse is Exodus 29:29 - a minor precision fix to make alongside the main repair since it is in the same sugya and the same citation cluster. The underlying substantive reasoning (kachah signals exact replication, limited to the inauguration passage itself) is otherwise sound and does not need to change - only the verse citation is wrong."
+            }
+          ],
+          "requiredCorrection": {
+            "field": "yoma-005a-s02: argumentFlow step-04 (label id may vary, text field), one quizSeeds answer, visualizableElements diagram item, and (precision) argumentFlow step-03 text",
+            "problem": "The 'kachah' verse is mislabeled '(Lev. 8:34)' in two places and implied to be 'inside Lev. 8' in a third; the correct citation is Exodus 29:35. A separate juxtaposition verse is cited only vaguely as 'Exod. 28/29' when the precise verse is Exodus 29:29.",
+            "sourceLines": "yoma-005a-l34 through yoma-005a-l40 (vilna lines 34-40 specifically for kachah; line 36 for the juxtaposition verse)",
+            "requiredFix": "Replace '(Lev. 8:34)' with '(Exodus 29:35)' in both occurrences; adjust the visualizableElements diagram's 'Lev. 8' reference to 'Exodus 29' for consistency; tighten 'Exod. 28/29' to 'Exodus 29:29' in the juxtaposition-verse citation."
+          },
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including every scriptural citation (Lev. 1:4, Lev. 17:11, Exod. 29:30, Lev. 16:32, Exod. 29:29, and the kachah verse) verified against the actual verse text, not accepted on the enrichment's own labeling. The kachah citation error was caught by recalling the verse's actual wording and location and cross-checking it against the raw daf text rather than trusting the pre-existing '(Lev. 8:34)' label."
+        }
+      },
+      "sourceFingerprint": "c2d8adb3ff0997cb177db82b2c1865594bc1b613ae2277a586563d689b63a013",
+      "semanticFingerprint": "010460eba6009fb94f255771616fa8fb5e09594d42629f05e4702b85c23f4e5e",
+      "secondPass": {
+        "reviewId": "sonnet5-5a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "c2d8adb3ff0997cb177db82b2c1865594bc1b613ae2277a586563d689b63a013",
+        "reviewedSemanticFingerprint": "010460eba6009fb94f255771616fa8fb5e09594d42629f05e4702b85c23f4e5e",
+        "evidence": {
+          "reviewId": "sonnet5-5a-second-20260823b",
+          "module": "yoma",
+          "daf": "5a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning. Confirmed the same two-part structure: Rav Yosef (semikha), Rav Nachman bar Yitzchak (tenufah), and Rav Pappa (prisha) each naming a practical difference between R. Yochanan and R. Chanina, each proven not to invalidate ongoing service via a baraita/mishna-language proof (1-22); Ravina adding ribui shivah and meshichah shivah, the Lev. 16:32 'any combination suffices' baraita, the juxtaposition proof for meshichah's seven-day requirement, R. Yitzchak bar Bisna's kachah derivation, and the stub question about extra-textual requirements (23-40).",
+          "verseCitationSpotCheck": {
+            "Leviticus 1:4": "vesamach yado al rosh ha'olah venirtza lo lechaper alav - re-verified as the correct source for the semikha shirei-mitzva derivation",
+            "Leviticus 17:11": "ki hadam hu banefesh yechaper - re-verified as the correct 'only blood atones' proof-text",
+            "Exodus 29:30": "shivat yamim yilbasham hakohen tachtav - re-verified as the correct source for garment-wearing's seven-day requirement",
+            "Leviticus 16:32": "vechiper hakohen asher yimshach oto va'asher yemale et yado - re-verified as the correct source for the any-combination-suffices ruling",
+            "Exodus 29:29": "uvigdei hakodesh asher le'Aharon yihyu levanav... lemoshcha bahem ulmale bam et yadam - re-verified as the correct juxtaposition verse (repaired citation, was previously vaguely 'Exod. 28/29')",
+            "Exodus 29:35": "ve'asita le'Aharon ulevanav kachah - re-verified as the correct source of the word 'kachah', matching raw daf line 38 exactly. This was the repaired citation (previously incorrectly labeled 'Lev. 8:34', a different verse entirely about 'ka'asher asah bayom hazeh')",
+            "result": "all six citations now resolve to the correct verse and match the cited words; the repair is confirmed accurate and complete across all five occurrences (argumentFlow step-03 and step-04 text, visualizableElements diagram item, and two quizSeed answers)"
+          },
+          "attributionSpotCheck": {
+            "Rav Yosef": "raw line 1 - semikha",
+            "Rav Nachman bar Yitzchak": "raw line 10 - tenufah",
+            "Rav Pappa": "raw line 19 - prisha",
+            "Ravina": "raw line 23 - ribui shivah and meshichah shivah",
+            "R. Yitzchak bar Bisna": "raw line 38 - kachah derivation",
+            "result": "all five sage attributions independently re-verified against the raw text and confirmed correct; no swaps found"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-005a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "All six argumentFlow steps and both scriptural citations (Lev. 1:4, Lev. 17:11) re-verified against lines 1-22; matches independently, no defect found."
+            },
+            {
+              "sugyaId": "yoma-005a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Repair verified: the kachah citation now correctly reads Exodus 29:35 in both the argumentFlow text and the quiz answer, the visualizableElements diagram's scope description now correctly reads Exodus 29, and the juxtaposition verse now precisely cites Exodus 29:29. All five repaired occurrences checked individually against the raw source and found accurate. No further defect found on independent re-read of the full sugya."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every scriptural citation and every sage attribution, with particular attention to verifying the repaired kachah citation against the raw daf text rather than trusting the corrected label at face value. No remaining or new defect found on any sugya."
+        }
+      },
+      "certifiedAtCommit": "28368d4a4e48ad72fad75805365988de2834624b"
+    },
+    "yoma-005a-s02": {
+      "sugyaId": "yoma-005a-s02",
+      "daf": "5a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-5a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "REPAIR_REQUIRED",
+        "reviewedSourceFingerprint": "923cfada46e98693d0e35d08c73fc0f2e2861e1665df84ab75145475c61f783f",
+        "reviewedSemanticFingerprint": "4e6b21dfd5715c1b9786abac590d1dfa39022e3cc792de8072e4e9d13050e005",
+        "evidence": {
+          "reviewId": "sonnet5-5a-first-20260823a",
+          "module": "yoma",
+          "daf": "5a",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-40) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-9: Rav Yosef names semikha (hand-laying) as a practical difference between R. Yochanan and R. Chanina, proven not to invalidate ongoing service via a baraita on Lev. 1:4 ('vesamach...venirtza') read against Lev. 17:11 (only blood atones) - semikha is a shirei mitzva.",
+              "Lines 10-18: Rav Nachman bar Yitzchak names tenufah (waving), with the identical baraita structure for its own verse.",
+              "Lines 18-23: Rav Pappa names prishat shivah (seven-day separation), proven via the mishna's word choice 'matkinin' (they designate) rather than 'mafrishin' (they separate) for the backup priest.",
+              "Line 23: Ravina opens the second sugya by naming two more differences: ribui shivah (seven days of increased/full garments) and meshichah shivah (seven days of anointing).",
+              "Lines 24-34: A baraita on Lev. 16:32 ('vechiper hakohen asher yimshach... ve'asher yemale et yado') teaches that any combination of seven-day garment-wearing and seven-day anointing suffices (not only both together, as the base case from Exod. 29:30 might have suggested). The Gemara then asks the source for meshichah shivah being required lechatchila (ab initio), given we already know ribui shivah is lechatchila from Exod. 29:30 itself.",
+              "Lines 35-37: Two answers are offered for meshichah shivah lechatchila: (1) 'im ba'it eima, from the fact a verse was needed to exclude/limit' (a terse first answer the current enrichment omits entirely), and (2) 'im ba'it eima, a hekesh (juxtaposition) from Exod. 29:29 (vivgdei hakodesh asher le'Aharon...) linking anointing to garment-wearing: just as garment-wearing is seven days, so is anointing.",
+              "Lines 38-40 (daf ends mid-word): R. Yitzchak bar Bisna gives the source for R. Yochanan's entire principle (that everything written in the inauguration invalidates): the word 'kachah' (thus) in Exodus 29:35 ('ve'asita le'Aharon ulevanav kachah'). The Gemara notes this works for anything ('tinach kol milta') written in the inauguration passage itself - and cuts off, continuing on 5b to ask about requirements written elsewhere."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "s01 (1-22) covers Rav Yosef/Rav Nachman bar Yitzchak/Rav Pappa's three items; s02 (23-40) covers Ravina's two more items plus the kachah source and stub. The split at line 23 lands exactly on Ravina's opening statement - clean topic boundary.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences both sugyot and does not repeat the citation error found in s02's own fields (it correctly references only 'the word kachah' without a wrong verse number attached), so no daf-summary-level repair is triggered.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-005a-s01",
+              "verdict": "VERIFIED",
+              "notes": "All six argumentFlow steps correctly attributed (Rav Yosef/semikha, baraita/Lev 1:4 vs Lev 17:11, Rav Nachman bar Yitzchak/tenufah, parallel baraita, Rav Pappa/prisha, matkin-vs-mafrishin proof). Both scriptural citations (Lev. 1:4, Lev. 17:11) independently verified correct and matching the raw text exactly."
+            },
+            {
+              "sugyaId": "yoma-005a-s02",
+              "verdict": "REPAIR_REQUIRED",
+              "notes": "GENUINE DEFECT: the 'kachah' verse ('do thus to Aaron and his sons') is cited as '(Lev. 8:34)' in argumentFlow step-04's text and in one quizSeed answer. This is factually wrong: the raw daf text (line 38, 'ועשית לאהרן ולבניו ככה') is Exodus 29:35 ('ve'asita le'Aharon ulevanav kachah'), not Leviticus 8:34. Leviticus 8:34 is a different verse entirely ('ka'asher asah bayom hazeh tzivah Hashem la'asot' - 'as he did this day, so has the LORD commanded to do'), already correctly cited for that distinct purpose in the 4a PR. The visualizableElements diagram also frames the kachah passage as being located 'inside... (Lev. 8)' with Exodus 28/29 material 'outside' - which is backwards, since the kachah word itself is in Exodus 29:35, not Leviticus 8. All three occurrences trace to the same underlying confusion and need correcting to Exodus 29:35. Additionally, argumentFlow step-03 cites the anointing/garment-wearing juxtaposition verse only as the vague 'Exod. 28/29' when the precise verse is Exodus 29:29 - a minor precision fix to make alongside the main repair since it is in the same sugya and the same citation cluster. The underlying substantive reasoning (kachah signals exact replication, limited to the inauguration passage itself) is otherwise sound and does not need to change - only the verse citation is wrong."
+            }
+          ],
+          "requiredCorrection": {
+            "field": "yoma-005a-s02: argumentFlow step-04 (label id may vary, text field), one quizSeeds answer, visualizableElements diagram item, and (precision) argumentFlow step-03 text",
+            "problem": "The 'kachah' verse is mislabeled '(Lev. 8:34)' in two places and implied to be 'inside Lev. 8' in a third; the correct citation is Exodus 29:35. A separate juxtaposition verse is cited only vaguely as 'Exod. 28/29' when the precise verse is Exodus 29:29.",
+            "sourceLines": "yoma-005a-l34 through yoma-005a-l40 (vilna lines 34-40 specifically for kachah; line 36 for the juxtaposition verse)",
+            "requiredFix": "Replace '(Lev. 8:34)' with '(Exodus 29:35)' in both occurrences; adjust the visualizableElements diagram's 'Lev. 8' reference to 'Exodus 29' for consistency; tighten 'Exod. 28/29' to 'Exodus 29:29' in the juxtaposition-verse citation."
+          },
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including every scriptural citation (Lev. 1:4, Lev. 17:11, Exod. 29:30, Lev. 16:32, Exod. 29:29, and the kachah verse) verified against the actual verse text, not accepted on the enrichment's own labeling. The kachah citation error was caught by recalling the verse's actual wording and location and cross-checking it against the raw daf text rather than trusting the pre-existing '(Lev. 8:34)' label."
+        }
+      },
+      "repairRef": "28368d4a4e48ad72fad75805365988de2834624b",
+      "sourceFingerprint": "923cfada46e98693d0e35d08c73fc0f2e2861e1665df84ab75145475c61f783f",
+      "semanticFingerprint": "74ad788f9a85a6e73c4d678ba560cde3d1676deed521157af7bd4334e4ad654c",
+      "secondPass": {
+        "reviewId": "sonnet5-5a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "923cfada46e98693d0e35d08c73fc0f2e2861e1665df84ab75145475c61f783f",
+        "reviewedSemanticFingerprint": "74ad788f9a85a6e73c4d678ba560cde3d1676deed521157af7bd4334e4ad654c",
+        "evidence": {
+          "reviewId": "sonnet5-5a-second-20260823b",
+          "module": "yoma",
+          "daf": "5a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning. Confirmed the same two-part structure: Rav Yosef (semikha), Rav Nachman bar Yitzchak (tenufah), and Rav Pappa (prisha) each naming a practical difference between R. Yochanan and R. Chanina, each proven not to invalidate ongoing service via a baraita/mishna-language proof (1-22); Ravina adding ribui shivah and meshichah shivah, the Lev. 16:32 'any combination suffices' baraita, the juxtaposition proof for meshichah's seven-day requirement, R. Yitzchak bar Bisna's kachah derivation, and the stub question about extra-textual requirements (23-40).",
+          "verseCitationSpotCheck": {
+            "Leviticus 1:4": "vesamach yado al rosh ha'olah venirtza lo lechaper alav - re-verified as the correct source for the semikha shirei-mitzva derivation",
+            "Leviticus 17:11": "ki hadam hu banefesh yechaper - re-verified as the correct 'only blood atones' proof-text",
+            "Exodus 29:30": "shivat yamim yilbasham hakohen tachtav - re-verified as the correct source for garment-wearing's seven-day requirement",
+            "Leviticus 16:32": "vechiper hakohen asher yimshach oto va'asher yemale et yado - re-verified as the correct source for the any-combination-suffices ruling",
+            "Exodus 29:29": "uvigdei hakodesh asher le'Aharon yihyu levanav... lemoshcha bahem ulmale bam et yadam - re-verified as the correct juxtaposition verse (repaired citation, was previously vaguely 'Exod. 28/29')",
+            "Exodus 29:35": "ve'asita le'Aharon ulevanav kachah - re-verified as the correct source of the word 'kachah', matching raw daf line 38 exactly. This was the repaired citation (previously incorrectly labeled 'Lev. 8:34', a different verse entirely about 'ka'asher asah bayom hazeh')",
+            "result": "all six citations now resolve to the correct verse and match the cited words; the repair is confirmed accurate and complete across all five occurrences (argumentFlow step-03 and step-04 text, visualizableElements diagram item, and two quizSeed answers)"
+          },
+          "attributionSpotCheck": {
+            "Rav Yosef": "raw line 1 - semikha",
+            "Rav Nachman bar Yitzchak": "raw line 10 - tenufah",
+            "Rav Pappa": "raw line 19 - prisha",
+            "Ravina": "raw line 23 - ribui shivah and meshichah shivah",
+            "R. Yitzchak bar Bisna": "raw line 38 - kachah derivation",
+            "result": "all five sage attributions independently re-verified against the raw text and confirmed correct; no swaps found"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-005a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "All six argumentFlow steps and both scriptural citations (Lev. 1:4, Lev. 17:11) re-verified against lines 1-22; matches independently, no defect found."
+            },
+            {
+              "sugyaId": "yoma-005a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Repair verified: the kachah citation now correctly reads Exodus 29:35 in both the argumentFlow text and the quiz answer, the visualizableElements diagram's scope description now correctly reads Exodus 29, and the juxtaposition verse now precisely cites Exodus 29:29. All five repaired occurrences checked individually against the raw source and found accurate. No further defect found on independent re-read of the full sugya."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every scriptural citation and every sage attribution, with particular attention to verifying the repaired kachah citation against the raw daf text rather than trusting the corrected label at face value. No remaining or new defect found on any sugya."
+        }
+      },
+      "certifiedAtCommit": "28368d4a4e48ad72fad75805365988de2834624b"
     }
   }
 }
