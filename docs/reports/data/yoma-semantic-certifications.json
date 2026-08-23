@@ -3647,6 +3647,294 @@
         }
       },
       "certifiedAtCommit": "6e7559fda83d3a0b262b5cef60d70f826f7de0d5"
+    },
+    "yoma-006a-s01": {
+      "sugyaId": "yoma-006a-s01",
+      "daf": "6a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-6a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "2fee0a1fe0441c9d2fc5f0e0d3ab83af5308f5568ebad80f9e5657577682ccd1",
+        "reviewedSemanticFingerprint": "4a14fa3528919833d82d6fc35bd50c0fb751901fb4848bd8c5598df372b4ff83",
+        "evidence": {
+          "reviewId": "sonnet5-6a-first-20260823a",
+          "module": "yoma",
+          "daf": "6a",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-35, confirmed the daf's true end via direct read of talmuddev/6a.json) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-8: The 5b belt-sequence challenge is resolved. The 'together' position explains the two implementation verses (Lev 8:7 'he girded him', 8:13 'he girded them') as teaching material difference (High Priest's belt is kilaim, wool-linen mix, from Exodus 39:29; ordinary priest's belt is plain linen), not sequence. The 'Aaron first' position explains the command's combined 've-chagarta otam' (Exod 29:9) as teaching material identity (both kilaim), leaving the two implementation verses to prove sequential dressing. The Gemara asks why two verses are needed if belts are identical, and whether five people can really be girded 'at once' - answered: 'bvat achat' means one continuous, uninterrupted operation (Moses dressed everyone except belts, then returned to gird Aaron then the sons), not literal simultaneity.",
+              "Lines 8-14: New mishna topic: why does the Kohen Gadol leave his home (his wife), not just enter the Parhedrin chamber? R. Yehuda ben Beteira's baraita, as initially cited, says the concern is that his wife might be found a safek niddah and then he comes to her. The Gemara objects: that implies knowing wickedness. The corrected reading: he comes to her innocently, and she is found a safek niddah afterward (blood discovered on the sheets, creating retroactive seven-day impurity uncertainty).",
+              "Lines 15-21: The Sages assume this safek niddah concern only follows R. Akiva (who holds a niddah retroactively impurifies her partner); the Rabbis, who reject this, would see no problem. Rav Chisda corrects: even the Rabbis agree when blood is found 'chad achar' (immediately, within the time to get up and wash); they only disagree with R. Akiva regarding 'achar achar' (a longer delay). R. Zeira then draws a general conclusion from this discussion: a bo'el niddah is not like a niddah and immerses by day, not at night.",
+              "Lines 21-26: R. Zeira's impossibility proof: if bo'el niddah had to immerse at night like a niddah, and his seventh day of separation fell on Yom Kippur eve, he would immerse Yom Kippur night - but he then needs sunset ('he'erev hashemesh') to complete purification, and that sunset is Yom Kippur itself, too late to serve. Therefore bo'el niddah must be able to immerse by day.",
+              "Lines 26-28: Rav Shimi from Neharde'a offers an alternative that doesn't require daytime immersion: separate the Kohen Gadol slightly before sunset eight days before Yom Kippur (rather than a full eight days), so the seventh day completes before Yom Kippur night even under a nighttime-immersion rule.",
+              "Lines 28-35 (daf ends mid-word): Two baraitot challenge R. Zeira's daytime-immersion ruling. Baraita 1: all who immerse do so by day, except niddah/yoledet who immerse at night - implying bo'el niddah (unlisted) immerses by day; deflected because the baraita's 'niddah' category includes anyone whose impurity derives from her, i.e., bo'el niddah too. Baraita 2: bo'el niddah is compared to tamei met (seven-day impurity) as ba'al keri is compared to one who touched a sheretz (one-day impurity) - does this teach daytime immersion? Deflected: the comparison is only about impurity duration, both of which are independently explicit in Torah verses; the Gemara asks what the comparison then teaches, cutting off mid-word ('ela'), continuing on 6b."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "s01 (1-6), s02 (8-13), s03 (15-35, extending to the daf's confirmed true end of 35). Minor single-line gaps at line 7 (transition between s01/s02) and line 14 (the corrected safek-niddah phrasing itself, whose substance is already captured in s02's own step-04 text) match the corpus's documented benign short-transitional-absorption pattern, not the more severe multi-line missing-content pattern found and repaired on 5b. No boundary repair needed.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences all three sugyot and matches the independent reconstruction with no errors found.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-006a-s01",
+              "verdict": "VERIFIED",
+              "notes": "Both belt-dispute positions correctly explained and correctly mapped to their sequence-position (together=material-different, Aaron-first=material-same); the Exodus 39:29 kilaim citation independently verified correct; the 'bvat achat = one uninterrupted operation' resolution matches Rashi's elaboration precisely."
+            },
+            {
+              "sugyaId": "yoma-006a-s02",
+              "verdict": "VERIFIED",
+              "notes": "Step-02's phrasing accurately represents the baraita's initial (soon-to-be-corrected) citation, which the Gemara's own objection (step-03) and correction (step-04) then properly address - a correct three-step dialectic structure matching the source, not an error."
+            },
+            {
+              "sugyaId": "yoma-006a-s03",
+              "verdict": "VERIFIED",
+              "notes": "Rav Chisda's chad-achar/achar-achar distinction, R. Zeira's impossibility proof, Rav Shimi's alternative, and both baraita-challenge/deflection pairs all independently verified accurate and correctly attributed. No citation errors found (no specific verse numbers are claimed in this sugya's fields where verification would be at risk)."
+            }
+          ],
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including the belt-dispute resolution's material/sequence coupling logic, the safek-niddah phrasing correction's dialectic structure, and the bo'el-niddah immersion-timing proof chain. The Exodus 39:29 kilaim citation was independently verified. No defect found on any sugya; this is a clean VERIFIED daf."
+        }
+      },
+      "sourceFingerprint": "2fee0a1fe0441c9d2fc5f0e0d3ab83af5308f5568ebad80f9e5657577682ccd1",
+      "semanticFingerprint": "4a14fa3528919833d82d6fc35bd50c0fb751901fb4848bd8c5598df372b4ff83",
+      "secondPass": {
+        "reviewId": "sonnet5-6a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "2fee0a1fe0441c9d2fc5f0e0d3ab83af5308f5568ebad80f9e5657577682ccd1",
+        "reviewedSemanticFingerprint": "4a14fa3528919833d82d6fc35bd50c0fb751901fb4848bd8c5598df372b4ff83",
+        "evidence": {
+          "reviewId": "sonnet5-6a-second-20260823b",
+          "module": "yoma",
+          "daf": "6a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines (confirmed 35 lines total, ending mid-word at 'ela') without consulting first-pass reasoning. Confirmed the same three-part structure: the belt-dispute resolution via material-vs-sequence coupling and the 'bvat achat = one continuous operation' clarification (1-8); the safek-niddah leave-his-home sub-question with its initial-phrasing/objection/correction dialectic (8-14); and Rav Chisda's chad-achar/achar-achar distinction, R. Zeira's Yom-Kippur impossibility proof for daytime bo'el-niddah immersion, Rav Shimi's alternative, and the two deflected baraitot ending in an open question continuing to 6b (15-35).",
+          "verseCitationSpotCheck": {
+            "Exodus 39:29": "ve'et ha'avnet shesh moshzar u'techelet ve'argaman... - re-verified as containing both linen (shesh) and wool dyes (techelet/argaman), confirming the kilaim (mixed-fabric) claim for the High Priest's belt",
+            "result": "the one explicit verse citation in this daf's enrichment resolves to the correct verse and matches the claimed content"
+          },
+          "logicSpotCheck": {
+            "materialSequenceCoupling": "re-verified independently: 'together' position reads the implementation verses (Lev 8:7/8:13) as teaching material difference, not sequence; 'Aaron-first' position reads the command verse (Exod 29:9) as teaching material identity, leaving the implementation verses free to teach sequence. Both readings are internally coherent and correctly mapped to their respective positions.",
+            "safekNiddahDialectic": "re-verified independently: step-02's phrasing ('found... and he approach her') matches the baraita's initial citation, which the Gemara's own objection (step-03, 'are we dealing with wicked people?') and correction (step-04, 'he comes innocently, she is found afterward') properly address - a correct state-object-resolve structure, not a residual error.",
+            "chadAcharAcharAchar": "re-verified independently against Rashi's fuller three-tier elaboration: the enrichment's two-way compression (immediate=agree, long-delay=disagree) correctly captures Rav Chisda's conclusion without inverting or fabricating any fact.",
+            "result": "all three higher-risk logical structures independently re-verified sound and accurate"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-006a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Belt-material/sequence coupling and the Exodus 39:29 kilaim citation re-verified independently against lines 1-8; matches source."
+            },
+            {
+              "sugyaId": "yoma-006a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Safek-niddah phrasing dialectic re-verified independently against lines 8-14; the three-step initial/objection/correction structure matches source and is not an error."
+            },
+            {
+              "sugyaId": "yoma-006a-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Chad-achar/achar-achar distinction, R. Zeira's impossibility proof, Rav Shimi's alternative, and both baraita deflections re-verified independently against lines 15-35; matches source, including the open ending continuing to 6b."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, blind to first-pass reasoning, with particular attention to the three highest-risk logical structures (material/sequence coupling, the safek-niddah correction dialectic, and the chad-achar/achar-achar distinction) and the one explicit scriptural citation. No defect found on any sugya; confirms the clean VERIFIED finding from the first pass."
+        }
+      },
+      "certifiedAtCommit": "4ec4bee912a18746a78b45cf091c3ce73598e3b2"
+    },
+    "yoma-006a-s02": {
+      "sugyaId": "yoma-006a-s02",
+      "daf": "6a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-6a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "69d6926d620b847f2f648959f87cf5c40917bae0e28deed20bd754eccf61ec07",
+        "reviewedSemanticFingerprint": "a54316550153fa515bef4f205a38af7d6cae560212dd2413be567ed414c61303",
+        "evidence": {
+          "reviewId": "sonnet5-6a-first-20260823a",
+          "module": "yoma",
+          "daf": "6a",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-35, confirmed the daf's true end via direct read of talmuddev/6a.json) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-8: The 5b belt-sequence challenge is resolved. The 'together' position explains the two implementation verses (Lev 8:7 'he girded him', 8:13 'he girded them') as teaching material difference (High Priest's belt is kilaim, wool-linen mix, from Exodus 39:29; ordinary priest's belt is plain linen), not sequence. The 'Aaron first' position explains the command's combined 've-chagarta otam' (Exod 29:9) as teaching material identity (both kilaim), leaving the two implementation verses to prove sequential dressing. The Gemara asks why two verses are needed if belts are identical, and whether five people can really be girded 'at once' - answered: 'bvat achat' means one continuous, uninterrupted operation (Moses dressed everyone except belts, then returned to gird Aaron then the sons), not literal simultaneity.",
+              "Lines 8-14: New mishna topic: why does the Kohen Gadol leave his home (his wife), not just enter the Parhedrin chamber? R. Yehuda ben Beteira's baraita, as initially cited, says the concern is that his wife might be found a safek niddah and then he comes to her. The Gemara objects: that implies knowing wickedness. The corrected reading: he comes to her innocently, and she is found a safek niddah afterward (blood discovered on the sheets, creating retroactive seven-day impurity uncertainty).",
+              "Lines 15-21: The Sages assume this safek niddah concern only follows R. Akiva (who holds a niddah retroactively impurifies her partner); the Rabbis, who reject this, would see no problem. Rav Chisda corrects: even the Rabbis agree when blood is found 'chad achar' (immediately, within the time to get up and wash); they only disagree with R. Akiva regarding 'achar achar' (a longer delay). R. Zeira then draws a general conclusion from this discussion: a bo'el niddah is not like a niddah and immerses by day, not at night.",
+              "Lines 21-26: R. Zeira's impossibility proof: if bo'el niddah had to immerse at night like a niddah, and his seventh day of separation fell on Yom Kippur eve, he would immerse Yom Kippur night - but he then needs sunset ('he'erev hashemesh') to complete purification, and that sunset is Yom Kippur itself, too late to serve. Therefore bo'el niddah must be able to immerse by day.",
+              "Lines 26-28: Rav Shimi from Neharde'a offers an alternative that doesn't require daytime immersion: separate the Kohen Gadol slightly before sunset eight days before Yom Kippur (rather than a full eight days), so the seventh day completes before Yom Kippur night even under a nighttime-immersion rule.",
+              "Lines 28-35 (daf ends mid-word): Two baraitot challenge R. Zeira's daytime-immersion ruling. Baraita 1: all who immerse do so by day, except niddah/yoledet who immerse at night - implying bo'el niddah (unlisted) immerses by day; deflected because the baraita's 'niddah' category includes anyone whose impurity derives from her, i.e., bo'el niddah too. Baraita 2: bo'el niddah is compared to tamei met (seven-day impurity) as ba'al keri is compared to one who touched a sheretz (one-day impurity) - does this teach daytime immersion? Deflected: the comparison is only about impurity duration, both of which are independently explicit in Torah verses; the Gemara asks what the comparison then teaches, cutting off mid-word ('ela'), continuing on 6b."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "s01 (1-6), s02 (8-13), s03 (15-35, extending to the daf's confirmed true end of 35). Minor single-line gaps at line 7 (transition between s01/s02) and line 14 (the corrected safek-niddah phrasing itself, whose substance is already captured in s02's own step-04 text) match the corpus's documented benign short-transitional-absorption pattern, not the more severe multi-line missing-content pattern found and repaired on 5b. No boundary repair needed.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences all three sugyot and matches the independent reconstruction with no errors found.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-006a-s01",
+              "verdict": "VERIFIED",
+              "notes": "Both belt-dispute positions correctly explained and correctly mapped to their sequence-position (together=material-different, Aaron-first=material-same); the Exodus 39:29 kilaim citation independently verified correct; the 'bvat achat = one uninterrupted operation' resolution matches Rashi's elaboration precisely."
+            },
+            {
+              "sugyaId": "yoma-006a-s02",
+              "verdict": "VERIFIED",
+              "notes": "Step-02's phrasing accurately represents the baraita's initial (soon-to-be-corrected) citation, which the Gemara's own objection (step-03) and correction (step-04) then properly address - a correct three-step dialectic structure matching the source, not an error."
+            },
+            {
+              "sugyaId": "yoma-006a-s03",
+              "verdict": "VERIFIED",
+              "notes": "Rav Chisda's chad-achar/achar-achar distinction, R. Zeira's impossibility proof, Rav Shimi's alternative, and both baraita-challenge/deflection pairs all independently verified accurate and correctly attributed. No citation errors found (no specific verse numbers are claimed in this sugya's fields where verification would be at risk)."
+            }
+          ],
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including the belt-dispute resolution's material/sequence coupling logic, the safek-niddah phrasing correction's dialectic structure, and the bo'el-niddah immersion-timing proof chain. The Exodus 39:29 kilaim citation was independently verified. No defect found on any sugya; this is a clean VERIFIED daf."
+        }
+      },
+      "sourceFingerprint": "69d6926d620b847f2f648959f87cf5c40917bae0e28deed20bd754eccf61ec07",
+      "semanticFingerprint": "a54316550153fa515bef4f205a38af7d6cae560212dd2413be567ed414c61303",
+      "secondPass": {
+        "reviewId": "sonnet5-6a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "69d6926d620b847f2f648959f87cf5c40917bae0e28deed20bd754eccf61ec07",
+        "reviewedSemanticFingerprint": "a54316550153fa515bef4f205a38af7d6cae560212dd2413be567ed414c61303",
+        "evidence": {
+          "reviewId": "sonnet5-6a-second-20260823b",
+          "module": "yoma",
+          "daf": "6a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines (confirmed 35 lines total, ending mid-word at 'ela') without consulting first-pass reasoning. Confirmed the same three-part structure: the belt-dispute resolution via material-vs-sequence coupling and the 'bvat achat = one continuous operation' clarification (1-8); the safek-niddah leave-his-home sub-question with its initial-phrasing/objection/correction dialectic (8-14); and Rav Chisda's chad-achar/achar-achar distinction, R. Zeira's Yom-Kippur impossibility proof for daytime bo'el-niddah immersion, Rav Shimi's alternative, and the two deflected baraitot ending in an open question continuing to 6b (15-35).",
+          "verseCitationSpotCheck": {
+            "Exodus 39:29": "ve'et ha'avnet shesh moshzar u'techelet ve'argaman... - re-verified as containing both linen (shesh) and wool dyes (techelet/argaman), confirming the kilaim (mixed-fabric) claim for the High Priest's belt",
+            "result": "the one explicit verse citation in this daf's enrichment resolves to the correct verse and matches the claimed content"
+          },
+          "logicSpotCheck": {
+            "materialSequenceCoupling": "re-verified independently: 'together' position reads the implementation verses (Lev 8:7/8:13) as teaching material difference, not sequence; 'Aaron-first' position reads the command verse (Exod 29:9) as teaching material identity, leaving the implementation verses free to teach sequence. Both readings are internally coherent and correctly mapped to their respective positions.",
+            "safekNiddahDialectic": "re-verified independently: step-02's phrasing ('found... and he approach her') matches the baraita's initial citation, which the Gemara's own objection (step-03, 'are we dealing with wicked people?') and correction (step-04, 'he comes innocently, she is found afterward') properly address - a correct state-object-resolve structure, not a residual error.",
+            "chadAcharAcharAchar": "re-verified independently against Rashi's fuller three-tier elaboration: the enrichment's two-way compression (immediate=agree, long-delay=disagree) correctly captures Rav Chisda's conclusion without inverting or fabricating any fact.",
+            "result": "all three higher-risk logical structures independently re-verified sound and accurate"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-006a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Belt-material/sequence coupling and the Exodus 39:29 kilaim citation re-verified independently against lines 1-8; matches source."
+            },
+            {
+              "sugyaId": "yoma-006a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Safek-niddah phrasing dialectic re-verified independently against lines 8-14; the three-step initial/objection/correction structure matches source and is not an error."
+            },
+            {
+              "sugyaId": "yoma-006a-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Chad-achar/achar-achar distinction, R. Zeira's impossibility proof, Rav Shimi's alternative, and both baraita deflections re-verified independently against lines 15-35; matches source, including the open ending continuing to 6b."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, blind to first-pass reasoning, with particular attention to the three highest-risk logical structures (material/sequence coupling, the safek-niddah correction dialectic, and the chad-achar/achar-achar distinction) and the one explicit scriptural citation. No defect found on any sugya; confirms the clean VERIFIED finding from the first pass."
+        }
+      },
+      "certifiedAtCommit": "4ec4bee912a18746a78b45cf091c3ce73598e3b2"
+    },
+    "yoma-006a-s03": {
+      "sugyaId": "yoma-006a-s03",
+      "daf": "6a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-6a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "5f0d054602d895f6d9aa64c3b1d90f91e37a7fbf85cf276045a5a07c13510ee3",
+        "reviewedSemanticFingerprint": "0b07621031e581792607496c28df80ef2d13f5d52dc383325ec41bfbb1a2e769",
+        "evidence": {
+          "reviewId": "sonnet5-6a-first-20260823a",
+          "module": "yoma",
+          "daf": "6a",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-35, confirmed the daf's true end via direct read of talmuddev/6a.json) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-8: The 5b belt-sequence challenge is resolved. The 'together' position explains the two implementation verses (Lev 8:7 'he girded him', 8:13 'he girded them') as teaching material difference (High Priest's belt is kilaim, wool-linen mix, from Exodus 39:29; ordinary priest's belt is plain linen), not sequence. The 'Aaron first' position explains the command's combined 've-chagarta otam' (Exod 29:9) as teaching material identity (both kilaim), leaving the two implementation verses to prove sequential dressing. The Gemara asks why two verses are needed if belts are identical, and whether five people can really be girded 'at once' - answered: 'bvat achat' means one continuous, uninterrupted operation (Moses dressed everyone except belts, then returned to gird Aaron then the sons), not literal simultaneity.",
+              "Lines 8-14: New mishna topic: why does the Kohen Gadol leave his home (his wife), not just enter the Parhedrin chamber? R. Yehuda ben Beteira's baraita, as initially cited, says the concern is that his wife might be found a safek niddah and then he comes to her. The Gemara objects: that implies knowing wickedness. The corrected reading: he comes to her innocently, and she is found a safek niddah afterward (blood discovered on the sheets, creating retroactive seven-day impurity uncertainty).",
+              "Lines 15-21: The Sages assume this safek niddah concern only follows R. Akiva (who holds a niddah retroactively impurifies her partner); the Rabbis, who reject this, would see no problem. Rav Chisda corrects: even the Rabbis agree when blood is found 'chad achar' (immediately, within the time to get up and wash); they only disagree with R. Akiva regarding 'achar achar' (a longer delay). R. Zeira then draws a general conclusion from this discussion: a bo'el niddah is not like a niddah and immerses by day, not at night.",
+              "Lines 21-26: R. Zeira's impossibility proof: if bo'el niddah had to immerse at night like a niddah, and his seventh day of separation fell on Yom Kippur eve, he would immerse Yom Kippur night - but he then needs sunset ('he'erev hashemesh') to complete purification, and that sunset is Yom Kippur itself, too late to serve. Therefore bo'el niddah must be able to immerse by day.",
+              "Lines 26-28: Rav Shimi from Neharde'a offers an alternative that doesn't require daytime immersion: separate the Kohen Gadol slightly before sunset eight days before Yom Kippur (rather than a full eight days), so the seventh day completes before Yom Kippur night even under a nighttime-immersion rule.",
+              "Lines 28-35 (daf ends mid-word): Two baraitot challenge R. Zeira's daytime-immersion ruling. Baraita 1: all who immerse do so by day, except niddah/yoledet who immerse at night - implying bo'el niddah (unlisted) immerses by day; deflected because the baraita's 'niddah' category includes anyone whose impurity derives from her, i.e., bo'el niddah too. Baraita 2: bo'el niddah is compared to tamei met (seven-day impurity) as ba'al keri is compared to one who touched a sheretz (one-day impurity) - does this teach daytime immersion? Deflected: the comparison is only about impurity duration, both of which are independently explicit in Torah verses; the Gemara asks what the comparison then teaches, cutting off mid-word ('ela'), continuing on 6b."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "s01 (1-6), s02 (8-13), s03 (15-35, extending to the daf's confirmed true end of 35). Minor single-line gaps at line 7 (transition between s01/s02) and line 14 (the corrected safek-niddah phrasing itself, whose substance is already captured in s02's own step-04 text) match the corpus's documented benign short-transitional-absorption pattern, not the more severe multi-line missing-content pattern found and repaired on 5b. No boundary repair needed.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences all three sugyot and matches the independent reconstruction with no errors found.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-006a-s01",
+              "verdict": "VERIFIED",
+              "notes": "Both belt-dispute positions correctly explained and correctly mapped to their sequence-position (together=material-different, Aaron-first=material-same); the Exodus 39:29 kilaim citation independently verified correct; the 'bvat achat = one uninterrupted operation' resolution matches Rashi's elaboration precisely."
+            },
+            {
+              "sugyaId": "yoma-006a-s02",
+              "verdict": "VERIFIED",
+              "notes": "Step-02's phrasing accurately represents the baraita's initial (soon-to-be-corrected) citation, which the Gemara's own objection (step-03) and correction (step-04) then properly address - a correct three-step dialectic structure matching the source, not an error."
+            },
+            {
+              "sugyaId": "yoma-006a-s03",
+              "verdict": "VERIFIED",
+              "notes": "Rav Chisda's chad-achar/achar-achar distinction, R. Zeira's impossibility proof, Rav Shimi's alternative, and both baraita-challenge/deflection pairs all independently verified accurate and correctly attributed. No citation errors found (no specific verse numbers are claimed in this sugya's fields where verification would be at risk)."
+            }
+          ],
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, including the belt-dispute resolution's material/sequence coupling logic, the safek-niddah phrasing correction's dialectic structure, and the bo'el-niddah immersion-timing proof chain. The Exodus 39:29 kilaim citation was independently verified. No defect found on any sugya; this is a clean VERIFIED daf."
+        }
+      },
+      "sourceFingerprint": "5f0d054602d895f6d9aa64c3b1d90f91e37a7fbf85cf276045a5a07c13510ee3",
+      "semanticFingerprint": "0b07621031e581792607496c28df80ef2d13f5d52dc383325ec41bfbb1a2e769",
+      "secondPass": {
+        "reviewId": "sonnet5-6a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "5f0d054602d895f6d9aa64c3b1d90f91e37a7fbf85cf276045a5a07c13510ee3",
+        "reviewedSemanticFingerprint": "0b07621031e581792607496c28df80ef2d13f5d52dc383325ec41bfbb1a2e769",
+        "evidence": {
+          "reviewId": "sonnet5-6a-second-20260823b",
+          "module": "yoma",
+          "daf": "6a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines (confirmed 35 lines total, ending mid-word at 'ela') without consulting first-pass reasoning. Confirmed the same three-part structure: the belt-dispute resolution via material-vs-sequence coupling and the 'bvat achat = one continuous operation' clarification (1-8); the safek-niddah leave-his-home sub-question with its initial-phrasing/objection/correction dialectic (8-14); and Rav Chisda's chad-achar/achar-achar distinction, R. Zeira's Yom-Kippur impossibility proof for daytime bo'el-niddah immersion, Rav Shimi's alternative, and the two deflected baraitot ending in an open question continuing to 6b (15-35).",
+          "verseCitationSpotCheck": {
+            "Exodus 39:29": "ve'et ha'avnet shesh moshzar u'techelet ve'argaman... - re-verified as containing both linen (shesh) and wool dyes (techelet/argaman), confirming the kilaim (mixed-fabric) claim for the High Priest's belt",
+            "result": "the one explicit verse citation in this daf's enrichment resolves to the correct verse and matches the claimed content"
+          },
+          "logicSpotCheck": {
+            "materialSequenceCoupling": "re-verified independently: 'together' position reads the implementation verses (Lev 8:7/8:13) as teaching material difference, not sequence; 'Aaron-first' position reads the command verse (Exod 29:9) as teaching material identity, leaving the implementation verses free to teach sequence. Both readings are internally coherent and correctly mapped to their respective positions.",
+            "safekNiddahDialectic": "re-verified independently: step-02's phrasing ('found... and he approach her') matches the baraita's initial citation, which the Gemara's own objection (step-03, 'are we dealing with wicked people?') and correction (step-04, 'he comes innocently, she is found afterward') properly address - a correct state-object-resolve structure, not a residual error.",
+            "chadAcharAcharAchar": "re-verified independently against Rashi's fuller three-tier elaboration: the enrichment's two-way compression (immediate=agree, long-delay=disagree) correctly captures Rav Chisda's conclusion without inverting or fabricating any fact.",
+            "result": "all three higher-risk logical structures independently re-verified sound and accurate"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-006a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "Belt-material/sequence coupling and the Exodus 39:29 kilaim citation re-verified independently against lines 1-8; matches source."
+            },
+            {
+              "sugyaId": "yoma-006a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Safek-niddah phrasing dialectic re-verified independently against lines 8-14; the three-step initial/objection/correction structure matches source and is not an error."
+            },
+            {
+              "sugyaId": "yoma-006a-s03",
+              "verdict": "CONFIRMED",
+              "notes": "Chad-achar/achar-achar distinction, R. Zeira's impossibility proof, Rav Shimi's alternative, and both baraita deflections re-verified independently against lines 15-35; matches source, including the open ending continuing to 6b."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, blind to first-pass reasoning, with particular attention to the three highest-risk logical structures (material/sequence coupling, the safek-niddah correction dialectic, and the chad-achar/achar-achar distinction) and the one explicit scriptural citation. No defect found on any sugya; confirms the clean VERIFIED finding from the first pass."
+        }
+      },
+      "certifiedAtCommit": "4ec4bee912a18746a78b45cf091c3ce73598e3b2"
     }
   }
 }
