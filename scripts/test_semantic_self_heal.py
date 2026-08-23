@@ -28,12 +28,9 @@ def main() -> None:
 
     counts, details = corpus_status("yoma")
     assert sum(v for k, v in counts.items() if k != "ORPHANED_RECORD") == 492
-
-    # Seeded repository-audit findings predate fingerprint-bound certification.
-    # They are preserved as evidence but must route back through a fresh AUDIT
-    # rather than authorizing repair from stale review metadata.
-    assert details["yoma-042a-s01"]["state"] == "INVALID"
-    assert action_for("INVALID") == "AUDIT"
+    assert counts.get("UNCERTIFIED") == 492, "bootstrap must grandfather zero sugyot"
+    assert details["yoma-042a-s01"]["state"] == "UNCERTIFIED"
+    assert action_for("UNCERTIFIED") == "AUDIT"
     assert action_for("REPAIR_REQUIRED") == "REPAIR"
     assert action_for("CERTIFIED") == "DONE"
 
