@@ -3935,6 +3935,166 @@
         }
       },
       "certifiedAtCommit": "4ec4bee912a18746a78b45cf091c3ce73598e3b2"
+    },
+    "yoma-006b-s01": {
+      "sugyaId": "yoma-006b-s01",
+      "daf": "6b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-6b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "663c5196b3061887b6e450c37d9f2bc70e76dc5097c5bdbb11ef29953481b445",
+        "reviewedSemanticFingerprint": "86dedd6e7832e13c113111418c000d3310ed670241b37834d0e194f89ca51084",
+        "evidence": {
+          "reviewId": "sonnet5-6b-first-20260823a",
+          "module": "yoma",
+          "daf": "6b",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-24, confirmed the daf's true end via direct read of talmuddev/6b.json) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-4: 6a's open question (what does baraita 2's tamei-met comparison teach, if not immersion timing) is answered: it teaches that bo'el niddah is actually MORE severe than tamei met in one respect - he transmits mishkav/moshav impurity (a mild impurity rendering food/drink impure), which tamei met does not.",
+              "Lines 4-7: R. Chiyya's baraita is cited as a decisive proof (teyuvta): zav, zava, metzora, metzora'at, bo'el niddah, and tamei met all immerse by day; niddah and yoledet immerse at night. Bo'el niddah is explicitly listed among the daytime immersers, conclusively settling 6a's R. Zeira/baraita dispute.",
+              "Lines 7-13: New question: if the Kohen Gadol is separated from his wife to prevent niddah impurity, why not also separate him from visitors who might die and convey corpse impurity? Rav Tachlifa (in Rava's name): the omission proves tumas met is fully permitted (hutrah) for communal service. Ravina's counter: even if only overridden (dchuya), corpse impurity from a visitor is rare while niddah impurity is a common, everyday risk - explaining the asymmetric legislation without conceding hutrah.",
+              "Lines 14-24 (daf ends mid-word): The hutrah/dchuya question becomes a formal, independently-stated amoraic dispute: Rav Nachman holds tumas met is hutrah for the community, Rav Sheshet holds it is dchuya. The Gemara clarifies scope: both agree that within a single beit av (priestly division), pure priests serve and impure ones do not; they disagree only about summoning pure priests from a different beit av when the whole division is impure - Rav Nachman (hutrah) says no need to fetch, Rav Sheshet (dchuya) says fetch them. A second version (ika de'amrei) escalates further: even within the SAME beit av where both pure and impure priests are present, Rav Nachman holds the impure ones may also serve, since tumas met is simply inapplicable to communal service. The daf cuts off mid-word ('dechol'), continuing on 7a."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "s01 (1-11) and s02 (14-24, extending to the daf's confirmed true end of 24). The single-line gap at lines 12-13 (the tail of Ravina's own statement, 'tumat meito lo shechicha tumat beito shechicha') is already captured in s01's own step-06 text, matching the corpus's documented benign short-transitional-absorption pattern. No boundary repair needed.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences both sugyot and matches the independent reconstruction with no errors found.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-006b-s01",
+              "verdict": "VERIFIED",
+              "notes": "6a's open question, R. Chiyya's baraita, the mishkav/moshav stringency, and Rav Tachlifa/Ravina's hutrah-vs-pragmatic-rarity exchange all independently verified accurate and correctly attributed against lines 1-13."
+            },
+            {
+              "sugyaId": "yoma-006b-s02",
+              "verdict": "VERIFIED",
+              "notes": "The Rav Nachman/Rav Sheshet hutrah-dchuya dispute (a high-risk area for attribution swaps given its symmetric structure, appearing twice with different scopes) was independently re-derived and cross-checked against the raw text line by line; both the standard version's scope-of-dispute clarification (same-beit-av consensus, cross-beit-av disagreement) and the escalated second version (Rav Nachman alone extending hutrah to within-beit-av serving) are correctly attributed with no swaps."
+            }
+          ],
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, with particular attention to the Rav Nachman/Rav Sheshet attributions across both versions of their dispute, since the symmetric hutrah/dchuya structure is a natural place for a misattribution to hide. No verse-number citations are made in this daf's enrichment (only conceptual descriptions), so no citation-accuracy risk applied. No defect found on any sugya; this is a clean VERIFIED daf."
+        }
+      },
+      "sourceFingerprint": "663c5196b3061887b6e450c37d9f2bc70e76dc5097c5bdbb11ef29953481b445",
+      "semanticFingerprint": "86dedd6e7832e13c113111418c000d3310ed670241b37834d0e194f89ca51084",
+      "secondPass": {
+        "reviewId": "sonnet5-6b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "663c5196b3061887b6e450c37d9f2bc70e76dc5097c5bdbb11ef29953481b445",
+        "reviewedSemanticFingerprint": "86dedd6e7832e13c113111418c000d3310ed670241b37834d0e194f89ca51084",
+        "evidence": {
+          "reviewId": "sonnet5-6b-second-20260823b",
+          "module": "yoma",
+          "daf": "6b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines (confirmed 24 lines total, ending mid-word at 'dechol') without consulting first-pass reasoning. Confirmed the same two-part structure: 6a's open question resolved via the mishkav/moshav stringency, R. Chiyya's decisive baraita, and the Rav Tachlifa/Ravina hutrah-vs-rarity exchange (1-13); and the formally-stated Rav Nachman/Rav Sheshet hutrah-dchuya dispute with its scope clarification and escalated second version (14-24).",
+          "attributionSpotCheck": {
+            "standardVersionLine14": "Rav Nachman = hutrah, Rav Sheshet = dchuya - re-verified against raw line 14",
+            "standardVersionLine20-22": "Rav Nachman = heter, lo mehadrinan (don't fetch); Rav Sheshet = dchuya, mehadrinan (do fetch) - re-verified against raw lines 20-22, correctly matching step-03/step-04",
+            "secondVersionLine22-23": "ika de'amrei: even within the same beit av with mixed pure/impure, Rav Nachman alone escalates to say impure priests may also serve - re-verified against raw lines 22-23, correctly matching step-05 with no swap to Rav Sheshet",
+            "result": "all attributions independently re-derived and found correct across both versions of the dispute"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-006b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "6a's resolution, R. Chiyya's baraita, the mishkav/moshav stringency, and the Rav Tachlifa/Ravina exchange re-verified independently against lines 1-13; matches source."
+            },
+            {
+              "sugyaId": "yoma-006b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Both versions of the Rav Nachman/Rav Sheshet dispute independently re-derived from the raw text without reference to prior notes; attributions confirmed correct in both the standard scope-clarified version and the escalated ika-de'amrei version."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, blind to first-pass reasoning, with specific fresh re-derivation of the Rav Nachman/Rav Sheshet attributions across both dispute versions - the highest-risk area on this daf given its symmetric structure. No defect found on any sugya; confirms the clean VERIFIED finding from the first pass."
+        }
+      },
+      "certifiedAtCommit": "26d03f9d823640af15bab0f1be89edd0b357e33c"
+    },
+    "yoma-006b-s02": {
+      "sugyaId": "yoma-006b-s02",
+      "daf": "6b",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-6b-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "a17ad93b19e637df9ed7bdb3b77a74e0c26f8e6d795e790895b5136142b73d6b",
+        "reviewedSemanticFingerprint": "e7f4ec04b39f9fbb54336f169f3d52d7251f5f9c28d720d9a7453e5afbb08f28",
+        "evidence": {
+          "reviewId": "sonnet5-6b-first-20260823a",
+          "module": "yoma",
+          "daf": "6b",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-24, confirmed the daf's true end via direct read of talmuddev/6b.json) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1-4: 6a's open question (what does baraita 2's tamei-met comparison teach, if not immersion timing) is answered: it teaches that bo'el niddah is actually MORE severe than tamei met in one respect - he transmits mishkav/moshav impurity (a mild impurity rendering food/drink impure), which tamei met does not.",
+              "Lines 4-7: R. Chiyya's baraita is cited as a decisive proof (teyuvta): zav, zava, metzora, metzora'at, bo'el niddah, and tamei met all immerse by day; niddah and yoledet immerse at night. Bo'el niddah is explicitly listed among the daytime immersers, conclusively settling 6a's R. Zeira/baraita dispute.",
+              "Lines 7-13: New question: if the Kohen Gadol is separated from his wife to prevent niddah impurity, why not also separate him from visitors who might die and convey corpse impurity? Rav Tachlifa (in Rava's name): the omission proves tumas met is fully permitted (hutrah) for communal service. Ravina's counter: even if only overridden (dchuya), corpse impurity from a visitor is rare while niddah impurity is a common, everyday risk - explaining the asymmetric legislation without conceding hutrah.",
+              "Lines 14-24 (daf ends mid-word): The hutrah/dchuya question becomes a formal, independently-stated amoraic dispute: Rav Nachman holds tumas met is hutrah for the community, Rav Sheshet holds it is dchuya. The Gemara clarifies scope: both agree that within a single beit av (priestly division), pure priests serve and impure ones do not; they disagree only about summoning pure priests from a different beit av when the whole division is impure - Rav Nachman (hutrah) says no need to fetch, Rav Sheshet (dchuya) says fetch them. A second version (ika de'amrei) escalates further: even within the SAME beit av where both pure and impure priests are present, Rav Nachman holds the impure ones may also serve, since tumas met is simply inapplicable to communal service. The daf cuts off mid-word ('dechol'), continuing on 7a."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "s01 (1-11) and s02 (14-24, extending to the daf's confirmed true end of 24). The single-line gap at lines 12-13 (the tail of Ravina's own statement, 'tumat meito lo shechicha tumat beito shechicha') is already captured in s01's own step-06 text, matching the corpus's documented benign short-transitional-absorption pattern. No boundary repair needed.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences both sugyot and matches the independent reconstruction with no errors found.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-006b-s01",
+              "verdict": "VERIFIED",
+              "notes": "6a's open question, R. Chiyya's baraita, the mishkav/moshav stringency, and Rav Tachlifa/Ravina's hutrah-vs-pragmatic-rarity exchange all independently verified accurate and correctly attributed against lines 1-13."
+            },
+            {
+              "sugyaId": "yoma-006b-s02",
+              "verdict": "VERIFIED",
+              "notes": "The Rav Nachman/Rav Sheshet hutrah-dchuya dispute (a high-risk area for attribution swaps given its symmetric structure, appearing twice with different scopes) was independently re-derived and cross-checked against the raw text line by line; both the standard version's scope-of-dispute clarification (same-beit-av consensus, cross-beit-av disagreement) and the escalated second version (Rav Nachman alone extending hutrah to within-beit-av serving) are correctly attributed with no swaps."
+            }
+          ],
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source, with particular attention to the Rav Nachman/Rav Sheshet attributions across both versions of their dispute, since the symmetric hutrah/dchuya structure is a natural place for a misattribution to hide. No verse-number citations are made in this daf's enrichment (only conceptual descriptions), so no citation-accuracy risk applied. No defect found on any sugya; this is a clean VERIFIED daf."
+        }
+      },
+      "sourceFingerprint": "a17ad93b19e637df9ed7bdb3b77a74e0c26f8e6d795e790895b5136142b73d6b",
+      "semanticFingerprint": "e7f4ec04b39f9fbb54336f169f3d52d7251f5f9c28d720d9a7453e5afbb08f28",
+      "secondPass": {
+        "reviewId": "sonnet5-6b-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "a17ad93b19e637df9ed7bdb3b77a74e0c26f8e6d795e790895b5136142b73d6b",
+        "reviewedSemanticFingerprint": "e7f4ec04b39f9fbb54336f169f3d52d7251f5f9c28d720d9a7453e5afbb08f28",
+        "evidence": {
+          "reviewId": "sonnet5-6b-second-20260823b",
+          "module": "yoma",
+          "daf": "6b",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines (confirmed 24 lines total, ending mid-word at 'dechol') without consulting first-pass reasoning. Confirmed the same two-part structure: 6a's open question resolved via the mishkav/moshav stringency, R. Chiyya's decisive baraita, and the Rav Tachlifa/Ravina hutrah-vs-rarity exchange (1-13); and the formally-stated Rav Nachman/Rav Sheshet hutrah-dchuya dispute with its scope clarification and escalated second version (14-24).",
+          "attributionSpotCheck": {
+            "standardVersionLine14": "Rav Nachman = hutrah, Rav Sheshet = dchuya - re-verified against raw line 14",
+            "standardVersionLine20-22": "Rav Nachman = heter, lo mehadrinan (don't fetch); Rav Sheshet = dchuya, mehadrinan (do fetch) - re-verified against raw lines 20-22, correctly matching step-03/step-04",
+            "secondVersionLine22-23": "ika de'amrei: even within the same beit av with mixed pure/impure, Rav Nachman alone escalates to say impure priests may also serve - re-verified against raw lines 22-23, correctly matching step-05 with no swap to Rav Sheshet",
+            "result": "all attributions independently re-derived and found correct across both versions of the dispute"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-006b-s01",
+              "verdict": "CONFIRMED",
+              "notes": "6a's resolution, R. Chiyya's baraita, the mishkav/moshav stringency, and the Rav Tachlifa/Ravina exchange re-verified independently against lines 1-13; matches source."
+            },
+            {
+              "sugyaId": "yoma-006b-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Both versions of the Rav Nachman/Rav Sheshet dispute independently re-derived from the raw text without reference to prior notes; attributions confirmed correct in both the standard scope-clarified version and the escalated ika-de'amrei version."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, blind to first-pass reasoning, with specific fresh re-derivation of the Rav Nachman/Rav Sheshet attributions across both dispute versions - the highest-risk area on this daf given its symmetric structure. No defect found on any sugya; confirms the clean VERIFIED finding from the first pass."
+        }
+      },
+      "certifiedAtCommit": "26d03f9d823640af15bab0f1be89edd0b357e33c"
     }
   }
 }
