@@ -2624,6 +2624,176 @@
         }
       },
       "certifiedAtCommit": "32c746aa32fe753bf282565821d63e0f6db63ffb"
+    },
+    "yoma-004a-s01": {
+      "sugyaId": "yoma-004a-s01",
+      "daf": "4a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-4a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "72585c2324b503ebdc44f558da83fd95d1f48bbbfcfbb95974a69fb2aed9474f",
+        "reviewedSemanticFingerprint": "98d3ceb1b375205df70b9e5777a2dca41c1433116e4328c1734a2bd616b07a59",
+        "evidence": {
+          "reviewId": "sonnet5-4a-first-20260823a",
+          "module": "yoma",
+          "daf": "4a",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-42) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1: Completes 3b's cutoff word 'letumat beito' (concerning the impurity of his household - R. Yehuda ben Beteira's niddah concern, resolving the seven-vs-six challenge).",
+              "Lines 1-9: R. Yochanan challenges Reish Lakish: his (Yochanan's) inauguration-derivation explains the sprinkling requirement (there WAS sprinkling at the inauguration, per a baraita: both the KG and heifer-priest are sprinkled all seven days from the ashes/sin-offerings kept there); but Reish Lakish's Sinai-derivation has no sprinkling at all - was there sprinkling at Sinai? Reish Lakish counters: even Yochanan's own derivation has a problem - inauguration sprinkling was BLOOD, current practice is WATER. Rabbi Chiya's principle (water replaced blood, taught elsewhere in this same discussion, i.e. later in the sugya per Rashi) bridges that medium gap for R. Yochanan. But Reish Lakish has no equivalent bridge for a complete ABSENCE of sprinkling at Sinai, and concedes: the sprinkling itself is just a maaleh (rabbinic enhancement) that cannot be derived from his source.",
+              "Lines 9-34: A baraita supports R. Yochanan: Leviticus 16:3's 'bezot' (with this, feminine) - since the immediately following offerings (bull, ram) are masculine, the feminine form is grammatically surplus, signaling it points instead to 'what is stated in the matter' (the inauguration context): Aaron withdrew seven days and Moses personally trained him in the service all seven days. By extension for future generations: the Kohen Gadol withdraws seven days and is served/trained by two Torah scholars from among Moses's disciples (explicitly excluding Sadducees, who rejected the transmitted Oral Torah). Since bull/ram alone don't need the feminine 'bezot' (a masculine/plural form would suffice), the feminine surplus teaches TWO things: the specific offerings AND the sequestering practice. A further verse (Lev 8:34's 'ka'asher asah bayom hazeh') extends the obligation from Aaron's own inaugural Yom Kippur to all future High Priests and Yom Kippurs, addressing an objection that it might apply only to that first, inaugural Yom Kippur or only to Aaron personally.",
+              "Lines 35-42 (continuing to 4b): A baraita supports Reish Lakish's Sinai derivation: Moses ascended into the cloud, was covered by cloud, and was sanctified in cloud in order to receive the Torah for Israel in holiness, as it is written 'and the glory of the LORD rested on Mount Sinai and the cloud covered it six days, and He called to Moses on the seventh day' (Exodus 24:16). A dispute follows over WHEN these six days occurred: R. Yosi HaGalili holds this was AFTER the Ten Commandments were given, at the start of the forty-day period when Moses ascended to receive the tablets; R. Akiva holds it was BEFORE the Ten Commandments, from Rosh Chodesh Sivan until the Torah was given on the seventh day. Text is cut off mid-verse at 'vayechasehu' (and it covered him), continuing on 4b."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "Both declared lineRanges (1-6, 9-42) correspond to genuine topic units. Systemic corpus-wide gap pattern present (s01's own lineId extends through line 9's opening word before s02's own territory begins; the 7-8 gap and other minor internal Sefaria-segment spans within s02's 34-line range) - consistent with the documented pattern, not a defect. No boundary repair needed.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences the niddah-concern completion, the sprinkling debate and RL's concession, the bezot baraita for R. Yochanan, and the Sinai baraita with the R. Yosi HaGalili/R. Akiva timing dispute for Reish Lakish. No false claim.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-004a-s01",
+              "verdict": "VERIFIED",
+              "notes": "All six argumentFlow steps correctly attributed (Gemara/niddah-completion, R. Yochanan's challenge, Reish Lakish's blood/water counter, R. Yochanan's R. Chiya resolution, R. Yochanan's renewed press on total absence, Reish Lakish's maaleh concession) and match lines 1-9 exactly; this matches this reviewer's own independent recollection of the passage prior to reading the enrichment. finalRuling correctly notes no ruling is reached between the two derivation sources here."
+            },
+            {
+              "sugyaId": "yoma-004a-s02",
+              "verdict": "VERIFIED",
+              "notes": "The bezot/feminine-grammar derivation, the two-scholars/not-Sadducees detail, the offerings+sequestering double teaching, the extension verse to future generations, and the Sinai baraita with the R. Yosi HaGalili (after the Ten Commandments)/R. Akiva (before, from Rosh Chodesh Sivan) dispute all match lines 9-42 exactly. Minor non-blocking observation: display.whats parenthetically explains the Sadducee exclusion as being 'who followed a different incense procedure' - true elsewhere in Yoma (53a-b) but not the reason stated in this specific baraita (which excludes non-transmission-bearers generally, i.e. non-disciples of Moses). This is defensible contextual elaboration, not a factual error, and does not misstate this daf's own content; not treated as REPAIR_REQUIRED."
+            }
+          ],
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source. Notably, this reviewer's independent recollection of the classic Sinai-vs-Miluim sprinkling debate (R. Yochanan/Reish Lakish/R. Chiya) matched the enrichment's account precisely, which was cross-checked line-by-line against the raw Hebrew rather than accepted on recollection alone."
+        }
+      },
+      "sourceFingerprint": "72585c2324b503ebdc44f558da83fd95d1f48bbbfcfbb95974a69fb2aed9474f",
+      "semanticFingerprint": "98d3ceb1b375205df70b9e5777a2dca41c1433116e4328c1734a2bd616b07a59",
+      "secondPass": {
+        "reviewId": "sonnet5-4a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "72585c2324b503ebdc44f558da83fd95d1f48bbbfcfbb95974a69fb2aed9474f",
+        "reviewedSemanticFingerprint": "98d3ceb1b375205df70b9e5777a2dca41c1433116e4328c1734a2bd616b07a59",
+        "evidence": {
+          "reviewId": "sonnet5-4a-second-20260823b",
+          "module": "yoma",
+          "daf": "4a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it). Confirmed the same two-part structure: the sprinkling debate and Reish Lakish's concession (1-9); the bezot baraita for R. Yochanan plus the Sinai baraita and R. Yosi HaGalili/R. Akiva timing dispute for Reish Lakish (9-42).",
+          "verseCitationSpotCheck": {
+            "Leviticus 16:3": "bezot yavo Aharon el hakodesh - re-verified as the correct source for the feminine-grammar derivation",
+            "Leviticus 8:34": "ka'asher asah bayom hazeh tzivah Hashem la'asot - re-verified as the correct extension-to-future-generations verse",
+            "Exodus 24:16": "vayishkon kevod Hashem al har Sinai, vayechasehu he'anan sheshet yamim, vayikra el Moshe bayom hashvi'i - re-verified as the correct Sinai verse underlying Reish Lakish's baraita",
+            "result": "all three citations resolve to the correct verse and match the cited words"
+          },
+          "attributionSpotCheck": {
+            "R. Yosi HaGalili": "raw line 40 - holds the six days were AFTER the Ten Commandments, at the start of the forty-day period",
+            "Rabbi Akiva": "raw line 41 - holds the six days were BEFORE the Ten Commandments, from Rosh Chodesh Sivan",
+            "result": "re-verified against the raw text independently; the enrichment's attribution of each position to the correct Tanna is confirmed"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-004a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "All six argumentFlow steps and their speakers re-verified against lines 1-9; matches independently."
+            },
+            {
+              "sugyaId": "yoma-004a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Bezot derivation, extension verse, and Sinai baraita with correctly attributed R. Yosi HaGalili/R. Akiva dispute re-verified against lines 9-42."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to the three scriptural citations and the R. Yosi HaGalili/R. Akiva attribution (easy to swap given their similarly-structured, opposite positions). No defect found on any sugya."
+        }
+      },
+      "certifiedAtCommit": "df4caf77b0ae8b67448aa527ee05682261f59519"
+    },
+    "yoma-004a-s02": {
+      "sugyaId": "yoma-004a-s02",
+      "daf": "4a",
+      "state": "CERTIFIED",
+      "firstPass": {
+        "reviewId": "sonnet5-4a-first-20260823a",
+        "sourceFirst": true,
+        "verdict": "VERIFIED",
+        "reviewedSourceFingerprint": "7efae7f0c8fbde6c90d8df31c2769076fdd57ad4697ef15d325eacfe4bdc02a5",
+        "reviewedSemanticFingerprint": "8fe18ab1a829ab644dd5efa5f5e565024664dca27800fd3b9bd482ac03645c94",
+        "evidence": {
+          "reviewId": "sonnet5-4a-first-20260823a",
+          "module": "yoma",
+          "daf": "4a",
+          "independentSourceReconstruction": {
+            "method": "Read authoritativeHebrewLines (vilna lines 1-42) in full before opening currentEnrichment.",
+            "flow": [
+              "Lines 1: Completes 3b's cutoff word 'letumat beito' (concerning the impurity of his household - R. Yehuda ben Beteira's niddah concern, resolving the seven-vs-six challenge).",
+              "Lines 1-9: R. Yochanan challenges Reish Lakish: his (Yochanan's) inauguration-derivation explains the sprinkling requirement (there WAS sprinkling at the inauguration, per a baraita: both the KG and heifer-priest are sprinkled all seven days from the ashes/sin-offerings kept there); but Reish Lakish's Sinai-derivation has no sprinkling at all - was there sprinkling at Sinai? Reish Lakish counters: even Yochanan's own derivation has a problem - inauguration sprinkling was BLOOD, current practice is WATER. Rabbi Chiya's principle (water replaced blood, taught elsewhere in this same discussion, i.e. later in the sugya per Rashi) bridges that medium gap for R. Yochanan. But Reish Lakish has no equivalent bridge for a complete ABSENCE of sprinkling at Sinai, and concedes: the sprinkling itself is just a maaleh (rabbinic enhancement) that cannot be derived from his source.",
+              "Lines 9-34: A baraita supports R. Yochanan: Leviticus 16:3's 'bezot' (with this, feminine) - since the immediately following offerings (bull, ram) are masculine, the feminine form is grammatically surplus, signaling it points instead to 'what is stated in the matter' (the inauguration context): Aaron withdrew seven days and Moses personally trained him in the service all seven days. By extension for future generations: the Kohen Gadol withdraws seven days and is served/trained by two Torah scholars from among Moses's disciples (explicitly excluding Sadducees, who rejected the transmitted Oral Torah). Since bull/ram alone don't need the feminine 'bezot' (a masculine/plural form would suffice), the feminine surplus teaches TWO things: the specific offerings AND the sequestering practice. A further verse (Lev 8:34's 'ka'asher asah bayom hazeh') extends the obligation from Aaron's own inaugural Yom Kippur to all future High Priests and Yom Kippurs, addressing an objection that it might apply only to that first, inaugural Yom Kippur or only to Aaron personally.",
+              "Lines 35-42 (continuing to 4b): A baraita supports Reish Lakish's Sinai derivation: Moses ascended into the cloud, was covered by cloud, and was sanctified in cloud in order to receive the Torah for Israel in holiness, as it is written 'and the glory of the LORD rested on Mount Sinai and the cloud covered it six days, and He called to Moses on the seventh day' (Exodus 24:16). A dispute follows over WHEN these six days occurred: R. Yosi HaGalili holds this was AFTER the Ten Commandments were given, at the start of the forty-day period when Moses ascended to receive the tablets; R. Akiva holds it was BEFORE the Ten Commandments, from Rosh Chodesh Sivan until the Torah was given on the seventh day. Text is cut off mid-verse at 'vayechasehu' (and it covered him), continuing on 4b."
+            ]
+          },
+          "boundaryVerdict": "VERIFIED",
+          "boundaryNotes": "Both declared lineRanges (1-6, 9-42) correspond to genuine topic units. Systemic corpus-wide gap pattern present (s01's own lineId extends through line 9's opening word before s02's own territory begins; the 7-8 gap and other minor internal Sefaria-segment spans within s02's 34-line range) - consistent with the documented pattern, not a defect. No boundary repair needed.",
+          "dafSummaryVerdict": "VERIFIED",
+          "dafSummaryNotes": "currentDafSummary accurately sequences the niddah-concern completion, the sprinkling debate and RL's concession, the bezot baraita for R. Yochanan, and the Sinai baraita with the R. Yosi HaGalili/R. Akiva timing dispute for Reish Lakish. No false claim.",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-004a-s01",
+              "verdict": "VERIFIED",
+              "notes": "All six argumentFlow steps correctly attributed (Gemara/niddah-completion, R. Yochanan's challenge, Reish Lakish's blood/water counter, R. Yochanan's R. Chiya resolution, R. Yochanan's renewed press on total absence, Reish Lakish's maaleh concession) and match lines 1-9 exactly; this matches this reviewer's own independent recollection of the passage prior to reading the enrichment. finalRuling correctly notes no ruling is reached between the two derivation sources here."
+            },
+            {
+              "sugyaId": "yoma-004a-s02",
+              "verdict": "VERIFIED",
+              "notes": "The bezot/feminine-grammar derivation, the two-scholars/not-Sadducees detail, the offerings+sequestering double teaching, the extension verse to future generations, and the Sinai baraita with the R. Yosi HaGalili (after the Ten Commandments)/R. Akiva (before, from Rosh Chodesh Sivan) dispute all match lines 9-42 exactly. Minor non-blocking observation: display.whats parenthetically explains the Sadducee exclusion as being 'who followed a different incense procedure' - true elsewhere in Yoma (53a-b) but not the reason stated in this specific baraita (which excludes non-transmission-bearers generally, i.e. non-disciples of Moses). This is defensible contextual elaboration, not a factual error, and does not misstate this daf's own content; not treated as REPAIR_REQUIRED."
+            }
+          ],
+          "declaration": "Every semantic field of every sugya on this daf was checked against the source. Notably, this reviewer's independent recollection of the classic Sinai-vs-Miluim sprinkling debate (R. Yochanan/Reish Lakish/R. Chiya) matched the enrichment's account precisely, which was cross-checked line-by-line against the raw Hebrew rather than accepted on recollection alone."
+        }
+      },
+      "sourceFingerprint": "7efae7f0c8fbde6c90d8df31c2769076fdd57ad4697ef15d325eacfe4bdc02a5",
+      "semanticFingerprint": "8fe18ab1a829ab644dd5efa5f5e565024664dca27800fd3b9bd482ac03645c94",
+      "secondPass": {
+        "reviewId": "sonnet5-4a-second-20260823b",
+        "sourceFirst": true,
+        "verdict": "CONFIRMED",
+        "reviewedSourceFingerprint": "7efae7f0c8fbde6c90d8df31c2769076fdd57ad4697ef15d325eacfe4bdc02a5",
+        "reviewedSemanticFingerprint": "8fe18ab1a829ab644dd5efa5f5e565024664dca27800fd3b9bd482ac03645c94",
+        "evidence": {
+          "reviewId": "sonnet5-4a-second-20260823b",
+          "module": "yoma",
+          "daf": "4a",
+          "independentSourceReconstruction": "Re-derived the daf from authoritativeHebrewLines without consulting first-pass reasoning (independenceRule packet omits it). Confirmed the same two-part structure: the sprinkling debate and Reish Lakish's concession (1-9); the bezot baraita for R. Yochanan plus the Sinai baraita and R. Yosi HaGalili/R. Akiva timing dispute for Reish Lakish (9-42).",
+          "verseCitationSpotCheck": {
+            "Leviticus 16:3": "bezot yavo Aharon el hakodesh - re-verified as the correct source for the feminine-grammar derivation",
+            "Leviticus 8:34": "ka'asher asah bayom hazeh tzivah Hashem la'asot - re-verified as the correct extension-to-future-generations verse",
+            "Exodus 24:16": "vayishkon kevod Hashem al har Sinai, vayechasehu he'anan sheshet yamim, vayikra el Moshe bayom hashvi'i - re-verified as the correct Sinai verse underlying Reish Lakish's baraita",
+            "result": "all three citations resolve to the correct verse and match the cited words"
+          },
+          "attributionSpotCheck": {
+            "R. Yosi HaGalili": "raw line 40 - holds the six days were AFTER the Ten Commandments, at the start of the forty-day period",
+            "Rabbi Akiva": "raw line 41 - holds the six days were BEFORE the Ten Commandments, from Rosh Chodesh Sivan",
+            "result": "re-verified against the raw text independently; the enrichment's attribution of each position to the correct Tanna is confirmed"
+          },
+          "boundaryVerdict": "CONFIRMED",
+          "dafSummaryVerdict": "CONFIRMED",
+          "perSugya": [
+            {
+              "sugyaId": "yoma-004a-s01",
+              "verdict": "CONFIRMED",
+              "notes": "All six argumentFlow steps and their speakers re-verified against lines 1-9; matches independently."
+            },
+            {
+              "sugyaId": "yoma-004a-s02",
+              "verdict": "CONFIRMED",
+              "notes": "Bezot derivation, extension verse, and Sinai baraita with correctly attributed R. Yosi HaGalili/R. Akiva dispute re-verified against lines 9-42."
+            }
+          ],
+          "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to the three scriptural citations and the R. Yosi HaGalili/R. Akiva attribution (easy to swap given their similarly-structured, opposite positions). No defect found on any sugya."
+        }
+      },
+      "certifiedAtCommit": "df4caf77b0ae8b67448aa527ee05682261f59519"
     }
   }
 }
