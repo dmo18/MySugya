@@ -59,5 +59,6 @@
  "scaffoldDebt": null,
  "repetitionDrain": null,
  "auditRecordIds": [],
- "migrationKinds": []
+ "migrationKinds": [],
+ "note": "Semantic certification schema 2.0 hardening: mandatory fingerprint-bound final whole-record audit, one-time v1.0->v2.0 registry migration, and CI wiring for the new regression tests."
 }

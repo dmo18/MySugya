@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": "2.0",
   "module": "yoma",
   "strictMode": false,
   "policy": {
@@ -13,7 +13,7 @@
     "yoma-002a-s01": {
       "sugyaId": "yoma-002a-s01",
       "daf": "2a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-2a-first-20260823a",
         "sourceFirst": true,
@@ -226,12 +226,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural verse citations (chapter:verse) as the highest-risk subtle-error surface. No defect found on any sugya; candidate content is unchanged from the corpus at review time."
         }
       },
-      "certifiedAtCommit": "c83869ba58fe5845d4d10f77f01e3f8a76e97539"
+      "certifiedAtCommit": "c83869ba58fe5845d4d10f77f01e3f8a76e97539",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-002a-s02": {
       "sugyaId": "yoma-002a-s02",
       "daf": "2a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-2a-first-20260823a",
         "sourceFirst": true,
@@ -444,12 +451,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural verse citations (chapter:verse) as the highest-risk subtle-error surface. No defect found on any sugya; candidate content is unchanged from the corpus at review time."
         }
       },
-      "certifiedAtCommit": "c83869ba58fe5845d4d10f77f01e3f8a76e97539"
+      "certifiedAtCommit": "c83869ba58fe5845d4d10f77f01e3f8a76e97539",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-002a-s03": {
       "sugyaId": "yoma-002a-s03",
       "daf": "2a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-2a-first-20260823a",
         "sourceFirst": true,
@@ -662,12 +676,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural verse citations (chapter:verse) as the highest-risk subtle-error surface. No defect found on any sugya; candidate content is unchanged from the corpus at review time."
         }
       },
-      "certifiedAtCommit": "c83869ba58fe5845d4d10f77f01e3f8a76e97539"
+      "certifiedAtCommit": "c83869ba58fe5845d4d10f77f01e3f8a76e97539",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-002a-s04": {
       "sugyaId": "yoma-002a-s04",
       "daf": "2a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-2a-first-20260823a",
         "sourceFirst": true,
@@ -880,12 +901,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural verse citations (chapter:verse) as the highest-risk subtle-error surface. No defect found on any sugya; candidate content is unchanged from the corpus at review time."
         }
       },
-      "certifiedAtCommit": "c83869ba58fe5845d4d10f77f01e3f8a76e97539"
+      "certifiedAtCommit": "c83869ba58fe5845d4d10f77f01e3f8a76e97539",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-002a-s05": {
       "sugyaId": "yoma-002a-s05",
       "daf": "2a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-2a-first-20260823a",
         "sourceFirst": true,
@@ -1098,12 +1126,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural verse citations (chapter:verse) as the highest-risk subtle-error surface. No defect found on any sugya; candidate content is unchanged from the corpus at review time."
         }
       },
-      "certifiedAtCommit": "c83869ba58fe5845d4d10f77f01e3f8a76e97539"
+      "certifiedAtCommit": "c83869ba58fe5845d4d10f77f01e3f8a76e97539",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-002a-s06": {
       "sugyaId": "yoma-002a-s06",
       "daf": "2a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-2a-first-20260823a",
         "sourceFirst": true,
@@ -1316,12 +1351,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural verse citations (chapter:verse) as the highest-risk subtle-error surface. No defect found on any sugya; candidate content is unchanged from the corpus at review time."
         }
       },
-      "certifiedAtCommit": "c83869ba58fe5845d4d10f77f01e3f8a76e97539"
+      "certifiedAtCommit": "c83869ba58fe5845d4d10f77f01e3f8a76e97539",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-002b-s01": {
       "sugyaId": "yoma-002b-s01",
       "daf": "2b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-2b-first-20260823a",
         "sourceFirst": true,
@@ -1437,12 +1479,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural citations. Caught and confirmed the correction of the tzavoto verse citation (Lev 7:38, not Numbers 28:2) made in the first-pass evidence notes; this was a correction to this reviewer's own supplementary notes only, since the corpus enrichment itself never asserted a specific chapter:verse for that phrase. No defect found in the certified content itself on any of the five sugyot."
         }
       },
-      "certifiedAtCommit": "e46308857617163905b1aba0a5953fb71b62444f"
+      "certifiedAtCommit": "e46308857617163905b1aba0a5953fb71b62444f",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-002b-s02": {
       "sugyaId": "yoma-002b-s02",
       "daf": "2b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-2b-first-20260823a",
         "sourceFirst": true,
@@ -1558,12 +1607,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural citations. Caught and confirmed the correction of the tzavoto verse citation (Lev 7:38, not Numbers 28:2) made in the first-pass evidence notes; this was a correction to this reviewer's own supplementary notes only, since the corpus enrichment itself never asserted a specific chapter:verse for that phrase. No defect found in the certified content itself on any of the five sugyot."
         }
       },
-      "certifiedAtCommit": "e46308857617163905b1aba0a5953fb71b62444f"
+      "certifiedAtCommit": "e46308857617163905b1aba0a5953fb71b62444f",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-002b-s03": {
       "sugyaId": "yoma-002b-s03",
       "daf": "2b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-2b-first-20260823a",
         "sourceFirst": true,
@@ -1679,12 +1735,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural citations. Caught and confirmed the correction of the tzavoto verse citation (Lev 7:38, not Numbers 28:2) made in the first-pass evidence notes; this was a correction to this reviewer's own supplementary notes only, since the corpus enrichment itself never asserted a specific chapter:verse for that phrase. No defect found in the certified content itself on any of the five sugyot."
         }
       },
-      "certifiedAtCommit": "e46308857617163905b1aba0a5953fb71b62444f"
+      "certifiedAtCommit": "e46308857617163905b1aba0a5953fb71b62444f",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-002b-s04": {
       "sugyaId": "yoma-002b-s04",
       "daf": "2b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-2b-first-20260823a",
         "sourceFirst": true,
@@ -1800,12 +1863,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural citations. Caught and confirmed the correction of the tzavoto verse citation (Lev 7:38, not Numbers 28:2) made in the first-pass evidence notes; this was a correction to this reviewer's own supplementary notes only, since the corpus enrichment itself never asserted a specific chapter:verse for that phrase. No defect found in the certified content itself on any of the five sugyot."
         }
       },
-      "certifiedAtCommit": "e46308857617163905b1aba0a5953fb71b62444f"
+      "certifiedAtCommit": "e46308857617163905b1aba0a5953fb71b62444f",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-002b-s05": {
       "sugyaId": "yoma-002b-s05",
       "daf": "2b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-2b-first-20260823a",
         "sourceFirst": true,
@@ -1921,12 +1991,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to exact scriptural citations. Caught and confirmed the correction of the tzavoto verse citation (Lev 7:38, not Numbers 28:2) made in the first-pass evidence notes; this was a correction to this reviewer's own supplementary notes only, since the corpus enrichment itself never asserted a specific chapter:verse for that phrase. No defect found in the certified content itself on any of the five sugyot."
         }
       },
-      "certifiedAtCommit": "e46308857617163905b1aba0a5953fb71b62444f"
+      "certifiedAtCommit": "e46308857617163905b1aba0a5953fb71b62444f",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-003a-s01": {
       "sugyaId": "yoma-003a-s01",
       "daf": "3a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-3a-first-20260823a",
         "sourceFirst": true,
@@ -2011,12 +2088,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to precise speaker attribution (Abba vs. Abbahu; Eliezer vs. Elazar) as the highest-risk subtle-error surface on this daf. No defect found on any sugya."
         }
       },
-      "certifiedAtCommit": "f80b21dd4517770b80ad56ee79f1af7f207eca7d"
+      "certifiedAtCommit": "f80b21dd4517770b80ad56ee79f1af7f207eca7d",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-003a-s02": {
       "sugyaId": "yoma-003a-s02",
       "daf": "3a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-3a-first-20260823a",
         "sourceFirst": true,
@@ -2101,12 +2185,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to precise speaker attribution (Abba vs. Abbahu; Eliezer vs. Elazar) as the highest-risk subtle-error surface on this daf. No defect found on any sugya."
         }
       },
-      "certifiedAtCommit": "f80b21dd4517770b80ad56ee79f1af7f207eca7d"
+      "certifiedAtCommit": "f80b21dd4517770b80ad56ee79f1af7f207eca7d",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-003a-s03": {
       "sugyaId": "yoma-003a-s03",
       "daf": "3a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-3a-first-20260823a",
         "sourceFirst": true,
@@ -2191,12 +2282,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to precise speaker attribution (Abba vs. Abbahu; Eliezer vs. Elazar) as the highest-risk subtle-error surface on this daf. No defect found on any sugya."
         }
       },
-      "certifiedAtCommit": "f80b21dd4517770b80ad56ee79f1af7f207eca7d"
+      "certifiedAtCommit": "f80b21dd4517770b80ad56ee79f1af7f207eca7d",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-003b-s01": {
       "sugyaId": "yoma-003b-s01",
       "daf": "3b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-3b-first-20260823a",
         "sourceFirst": true,
@@ -2299,12 +2397,19 @@
           "declaration": "Independently re-read the full daf and re-derived the speaker attribution from the raw Aramaic markers from scratch (not by trusting the first-pass count), confirming both that the original defect was real and that the repair correctly fixes it without introducing any new error."
         }
       },
-      "certifiedAtCommit": "32c746aa32fe753bf282565821d63e0f6db63ffb"
+      "certifiedAtCommit": "32c746aa32fe753bf282565821d63e0f6db63ffb",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-003b-s02": {
       "sugyaId": "yoma-003b-s02",
       "daf": "3b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-3b-first-20260823a",
         "sourceFirst": true,
@@ -2407,12 +2512,19 @@
           "declaration": "Independently re-read the full daf and re-derived the speaker attribution from the raw Aramaic markers from scratch (not by trusting the first-pass count), confirming both that the original defect was real and that the repair correctly fixes it without introducing any new error."
         }
       },
-      "certifiedAtCommit": "32c746aa32fe753bf282565821d63e0f6db63ffb"
+      "certifiedAtCommit": "32c746aa32fe753bf282565821d63e0f6db63ffb",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-003b-s03": {
       "sugyaId": "yoma-003b-s03",
       "daf": "3b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-3b-first-20260823a",
         "sourceFirst": true,
@@ -2515,12 +2627,19 @@
           "declaration": "Independently re-read the full daf and re-derived the speaker attribution from the raw Aramaic markers from scratch (not by trusting the first-pass count), confirming both that the original defect was real and that the repair correctly fixes it without introducing any new error."
         }
       },
-      "certifiedAtCommit": "32c746aa32fe753bf282565821d63e0f6db63ffb"
+      "certifiedAtCommit": "32c746aa32fe753bf282565821d63e0f6db63ffb",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-003b-s04": {
       "sugyaId": "yoma-003b-s04",
       "daf": "3b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-3b-first-20260823a",
         "sourceFirst": true,
@@ -2623,12 +2742,19 @@
           "declaration": "Independently re-read the full daf and re-derived the speaker attribution from the raw Aramaic markers from scratch (not by trusting the first-pass count), confirming both that the original defect was real and that the repair correctly fixes it without introducing any new error."
         }
       },
-      "certifiedAtCommit": "32c746aa32fe753bf282565821d63e0f6db63ffb"
+      "certifiedAtCommit": "32c746aa32fe753bf282565821d63e0f6db63ffb",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-004a-s01": {
       "sugyaId": "yoma-004a-s01",
       "daf": "4a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-4a-first-20260823a",
         "sourceFirst": true,
@@ -2708,12 +2834,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to the three scriptural citations and the R. Yosi HaGalili/R. Akiva attribution (easy to swap given their similarly-structured, opposite positions). No defect found on any sugya."
         }
       },
-      "certifiedAtCommit": "df4caf77b0ae8b67448aa527ee05682261f59519"
+      "certifiedAtCommit": "df4caf77b0ae8b67448aa527ee05682261f59519",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-004a-s02": {
       "sugyaId": "yoma-004a-s02",
       "daf": "4a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-4a-first-20260823a",
         "sourceFirst": true,
@@ -2793,12 +2926,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, with particular attention to the three scriptural citations and the R. Yosi HaGalili/R. Akiva attribution (easy to swap given their similarly-structured, opposite positions). No defect found on any sugya."
         }
       },
-      "certifiedAtCommit": "df4caf77b0ae8b67448aa527ee05682261f59519"
+      "certifiedAtCommit": "df4caf77b0ae8b67448aa527ee05682261f59519",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-004b-s01": {
       "sugyaId": "yoma-004b-s01",
       "daf": "4b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-4b-first-20260823a",
         "sourceFirst": true,
@@ -2908,12 +3048,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, blind to first-pass reasoning. Specifically re-verified the 'ben Azariah' repair against the raw source and against s03's parallel usage of the same name, re-computed the calendar arithmetic independently, and checked the s04 inference chain against the already-repaired 3b content for downstream consistency. No remaining or new defect found on any sugya."
         }
       },
-      "certifiedAtCommit": "e5fca3990c0bf1163e7a804100fd1e020a8dee77"
+      "certifiedAtCommit": "e5fca3990c0bf1163e7a804100fd1e020a8dee77",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-004b-s02": {
       "sugyaId": "yoma-004b-s02",
       "daf": "4b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-4b-first-20260823a",
         "sourceFirst": true,
@@ -3024,12 +3171,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, blind to first-pass reasoning. Specifically re-verified the 'ben Azariah' repair against the raw source and against s03's parallel usage of the same name, re-computed the calendar arithmetic independently, and checked the s04 inference chain against the already-repaired 3b content for downstream consistency. No remaining or new defect found on any sugya."
         }
       },
-      "certifiedAtCommit": "e5fca3990c0bf1163e7a804100fd1e020a8dee77"
+      "certifiedAtCommit": "e5fca3990c0bf1163e7a804100fd1e020a8dee77",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-004b-s03": {
       "sugyaId": "yoma-004b-s03",
       "daf": "4b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-4b-first-20260823a",
         "sourceFirst": true,
@@ -3139,12 +3293,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, blind to first-pass reasoning. Specifically re-verified the 'ben Azariah' repair against the raw source and against s03's parallel usage of the same name, re-computed the calendar arithmetic independently, and checked the s04 inference chain against the already-repaired 3b content for downstream consistency. No remaining or new defect found on any sugya."
         }
       },
-      "certifiedAtCommit": "e5fca3990c0bf1163e7a804100fd1e020a8dee77"
+      "certifiedAtCommit": "e5fca3990c0bf1163e7a804100fd1e020a8dee77",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-004b-s04": {
       "sugyaId": "yoma-004b-s04",
       "daf": "4b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-4b-first-20260823a",
         "sourceFirst": true,
@@ -3254,12 +3415,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, blind to first-pass reasoning. Specifically re-verified the 'ben Azariah' repair against the raw source and against s03's parallel usage of the same name, re-computed the calendar arithmetic independently, and checked the s04 inference chain against the already-repaired 3b content for downstream consistency. No remaining or new defect found on any sugya."
         }
       },
-      "certifiedAtCommit": "e5fca3990c0bf1163e7a804100fd1e020a8dee77"
+      "certifiedAtCommit": "e5fca3990c0bf1163e7a804100fd1e020a8dee77",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-005a-s01": {
       "sugyaId": "yoma-005a-s01",
       "daf": "5a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-5a-first-20260823a",
         "sourceFirst": true,
@@ -3354,12 +3522,19 @@
           "declaration": "Independently re-read the full daf and re-checked every scriptural citation and every sage attribution, with particular attention to verifying the repaired kachah citation against the raw daf text rather than trusting the corrected label at face value. No remaining or new defect found on any sugya."
         }
       },
-      "certifiedAtCommit": "28368d4a4e48ad72fad75805365988de2834624b"
+      "certifiedAtCommit": "28368d4a4e48ad72fad75805365988de2834624b",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-005a-s02": {
       "sugyaId": "yoma-005a-s02",
       "daf": "5a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-5a-first-20260823a",
         "sourceFirst": true,
@@ -3455,12 +3630,19 @@
           "declaration": "Independently re-read the full daf and re-checked every scriptural citation and every sage attribution, with particular attention to verifying the repaired kachah citation against the raw daf text rather than trusting the corrected label at face value. No remaining or new defect found on any sugya."
         }
       },
-      "certifiedAtCommit": "28368d4a4e48ad72fad75805365988de2834624b"
+      "certifiedAtCommit": "28368d4a4e48ad72fad75805365988de2834624b",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-005b-s01": {
       "sugyaId": "yoma-005b-s01",
       "daf": "5b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-5b-first-20260823a-refresh",
         "sourceFirst": true,
@@ -3550,12 +3732,19 @@
           "declaration": "Independently re-read the full daf and re-checked every scriptural citation, the sugya boundary against the daf's confirmed true line count, and the open-ended framing of the belt dispute, without consulting first-pass reasoning. No remaining or new defect found on any sugya."
         }
       },
-      "certifiedAtCommit": "e0c21fdf7cbf91897aff745c5e6fb615aa8c5bf1"
+      "certifiedAtCommit": "e0c21fdf7cbf91897aff745c5e6fb615aa8c5bf1",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-005b-s02": {
       "sugyaId": "yoma-005b-s02",
       "daf": "5b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-5b-first-20260823a",
         "sourceFirst": true,
@@ -3646,12 +3835,19 @@
           "declaration": "Independently re-read the full daf and re-checked every scriptural citation, the sugya boundary against the daf's confirmed true line count, and the open-ended framing of the belt dispute, without consulting first-pass reasoning. No remaining or new defect found on any sugya."
         }
       },
-      "certifiedAtCommit": "6e7559fda83d3a0b262b5cef60d70f826f7de0d5"
+      "certifiedAtCommit": "6e7559fda83d3a0b262b5cef60d70f826f7de0d5",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-006a-s01": {
       "sugyaId": "yoma-006a-s01",
       "daf": "6a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-6a-first-20260823a",
         "sourceFirst": true,
@@ -3742,12 +3938,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, blind to first-pass reasoning, with particular attention to the three highest-risk logical structures (material/sequence coupling, the safek-niddah correction dialectic, and the chad-achar/achar-achar distinction) and the one explicit scriptural citation. No defect found on any sugya; confirms the clean VERIFIED finding from the first pass."
         }
       },
-      "certifiedAtCommit": "4ec4bee912a18746a78b45cf091c3ce73598e3b2"
+      "certifiedAtCommit": "4ec4bee912a18746a78b45cf091c3ce73598e3b2",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-006a-s02": {
       "sugyaId": "yoma-006a-s02",
       "daf": "6a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-6a-first-20260823a",
         "sourceFirst": true,
@@ -3838,12 +4041,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, blind to first-pass reasoning, with particular attention to the three highest-risk logical structures (material/sequence coupling, the safek-niddah correction dialectic, and the chad-achar/achar-achar distinction) and the one explicit scriptural citation. No defect found on any sugya; confirms the clean VERIFIED finding from the first pass."
         }
       },
-      "certifiedAtCommit": "4ec4bee912a18746a78b45cf091c3ce73598e3b2"
+      "certifiedAtCommit": "4ec4bee912a18746a78b45cf091c3ce73598e3b2",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-006a-s03": {
       "sugyaId": "yoma-006a-s03",
       "daf": "6a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-6a-first-20260823a",
         "sourceFirst": true,
@@ -3934,12 +4144,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, blind to first-pass reasoning, with particular attention to the three highest-risk logical structures (material/sequence coupling, the safek-niddah correction dialectic, and the chad-achar/achar-achar distinction) and the one explicit scriptural citation. No defect found on any sugya; confirms the clean VERIFIED finding from the first pass."
         }
       },
-      "certifiedAtCommit": "4ec4bee912a18746a78b45cf091c3ce73598e3b2"
+      "certifiedAtCommit": "4ec4bee912a18746a78b45cf091c3ce73598e3b2",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-006b-s01": {
       "sugyaId": "yoma-006b-s01",
       "daf": "6b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-6b-first-20260823a",
         "sourceFirst": true,
@@ -4014,12 +4231,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, blind to first-pass reasoning, with specific fresh re-derivation of the Rav Nachman/Rav Sheshet attributions across both dispute versions - the highest-risk area on this daf given its symmetric structure. No defect found on any sugya; confirms the clean VERIFIED finding from the first pass."
         }
       },
-      "certifiedAtCommit": "26d03f9d823640af15bab0f1be89edd0b357e33c"
+      "certifiedAtCommit": "26d03f9d823640af15bab0f1be89edd0b357e33c",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-006b-s02": {
       "sugyaId": "yoma-006b-s02",
       "daf": "6b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-6b-first-20260823a",
         "sourceFirst": true,
@@ -4094,12 +4318,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field of every sugya, blind to first-pass reasoning, with specific fresh re-derivation of the Rav Nachman/Rav Sheshet attributions across both dispute versions - the highest-risk area on this daf given its symmetric structure. No defect found on any sugya; confirms the clean VERIFIED finding from the first pass."
         }
       },
-      "certifiedAtCommit": "26d03f9d823640af15bab0f1be89edd0b357e33c"
+      "certifiedAtCommit": "26d03f9d823640af15bab0f1be89edd0b357e33c",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-007a-s01": {
       "sugyaId": "yoma-007a-s01",
       "daf": "7a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-7a-first-20260823a",
         "sourceFirst": true,
@@ -4171,12 +4402,19 @@
           "declaration": "Independently re-read the full daf and re-checked every semantic field, blind to first-pass reasoning, with specific fresh re-derivation of the two borderline points (the three-way case reassignment and the tzitz-answer ordering). Both were re-confirmed accurate/non-defective on independent review. No defect found; confirms the clean VERIFIED finding from the first pass."
         }
       },
-      "certifiedAtCommit": "8406b65b196a7cb05c91042aff192912e19f94f4"
+      "certifiedAtCommit": "8406b65b196a7cb05c91042aff192912e19f94f4",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-007b-s01": {
       "sugyaId": "yoma-007b-s01",
       "daf": "7b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-7b-first-20260823a",
         "sourceFirst": true,
@@ -4262,12 +4500,19 @@
           "declaration": "Independently re-read the full daf and re-derived the speaker-attribution particles from scratch, blind to first-pass reasoning, specifically re-parsing the Hebrew grammar of 'amar lo X' constructions to confirm subject/speaker identity. The repair is verified complete: no remaining instance of the R. Yehuda/R. Shimon swap found anywhere in s01, and s02's hedge fix is accurate. No new defect found."
         }
       },
-      "certifiedAtCommit": "b82e52fb405df85701be353399764764bd8a7904"
+      "certifiedAtCommit": "b82e52fb405df85701be353399764764bd8a7904",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-007b-s02": {
       "sugyaId": "yoma-007b-s02",
       "daf": "7b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-7b-first-20260823a",
         "sourceFirst": true,
@@ -4353,12 +4598,19 @@
           "declaration": "Independently re-read the full daf and re-derived the speaker-attribution particles from scratch, blind to first-pass reasoning, specifically re-parsing the Hebrew grammar of 'amar lo X' constructions to confirm subject/speaker identity. The repair is verified complete: no remaining instance of the R. Yehuda/R. Shimon swap found anywhere in s01, and s02's hedge fix is accurate. No new defect found."
         }
       },
-      "certifiedAtCommit": "56adc32ae2e9da415363844674d46a2c9b506f1c"
+      "certifiedAtCommit": "56adc32ae2e9da415363844674d46a2c9b506f1c",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-008a-s01": {
       "sugyaId": "yoma-008a-s01",
       "daf": "8a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-8a-first-20260823a",
         "sourceFirst": true,
@@ -4436,12 +4688,19 @@
           "declaration": "Independently re-read the full daf and re-derived every speaker attribution from scratch, blind to first-pass reasoning, with particular attention to the R. Shimon/R. Yehuda derivations (given 7b's confirmed error on the same dispute) and the three-way R. Meir/R. Yosei/R. Chanina Segan attributions. No defect found on any sugya; confirms the clean VERIFIED finding from the first pass."
         }
       },
-      "certifiedAtCommit": "76fd7c07466f0ce52f2fbcd27e5397818a63b29c"
+      "certifiedAtCommit": "76fd7c07466f0ce52f2fbcd27e5397818a63b29c",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-008a-s02": {
       "sugyaId": "yoma-008a-s02",
       "daf": "8a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-8a-first-20260823a",
         "sourceFirst": true,
@@ -4519,12 +4778,19 @@
           "declaration": "Independently re-read the full daf and re-derived every speaker attribution from scratch, blind to first-pass reasoning, with particular attention to the R. Shimon/R. Yehuda derivations (given 7b's confirmed error on the same dispute) and the three-way R. Meir/R. Yosei/R. Chanina Segan attributions. No defect found on any sugya; confirms the clean VERIFIED finding from the first pass."
         }
       },
-      "certifiedAtCommit": "76fd7c07466f0ce52f2fbcd27e5397818a63b29c"
+      "certifiedAtCommit": "76fd7c07466f0ce52f2fbcd27e5397818a63b29c",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-008b-s01": {
       "sugyaId": "yoma-008b-s01",
       "daf": "8b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-8b-first-20260823a",
         "sourceFirst": true,
@@ -4586,12 +4852,19 @@
           "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, specifically re-checking the kman identification in s01 and the tier-by-tier justification boundary in s03 (the daf's most severe originally-found defect). All three sugyot's repaired content is confirmed accurate and fully grounded in the source text and the file's own Rashi commentary, with no remaining fabrication, misattribution, or boundary-crossing content bleed."
         }
       },
-      "certifiedAtCommit": "d2dd9887ebe0083fd496f55def9fc919d20abb93"
+      "certifiedAtCommit": "d2dd9887ebe0083fd496f55def9fc919d20abb93",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-008b-s02": {
       "sugyaId": "yoma-008b-s02",
       "daf": "8b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-8b-first-20260823a",
         "sourceFirst": true,
@@ -4653,12 +4926,19 @@
           "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, specifically re-checking the kman identification in s01 and the tier-by-tier justification boundary in s03 (the daf's most severe originally-found defect). All three sugyot's repaired content is confirmed accurate and fully grounded in the source text and the file's own Rashi commentary, with no remaining fabrication, misattribution, or boundary-crossing content bleed."
         }
       },
-      "certifiedAtCommit": "d2dd9887ebe0083fd496f55def9fc919d20abb93"
+      "certifiedAtCommit": "d2dd9887ebe0083fd496f55def9fc919d20abb93",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-008b-s03": {
       "sugyaId": "yoma-008b-s03",
       "daf": "8b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-8b-first-20260823a",
         "sourceFirst": true,
@@ -4719,12 +4999,19 @@
           "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, specifically re-checking the kman identification in s01 and the tier-by-tier justification boundary in s03 (the daf's most severe originally-found defect). All three sugyot's repaired content is confirmed accurate and fully grounded in the source text and the file's own Rashi commentary, with no remaining fabrication, misattribution, or boundary-crossing content bleed."
         }
       },
-      "certifiedAtCommit": "d2dd9887ebe0083fd496f55def9fc919d20abb93"
+      "certifiedAtCommit": "d2dd9887ebe0083fd496f55def9fc919d20abb93",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-009a-s01": {
       "sugyaId": "yoma-009a-s01",
       "daf": "9a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-9a-first-20260823a",
         "sourceFirst": true,
@@ -4786,12 +5073,19 @@
           "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, specifically re-checking the maaser sheni internal-consistency fix in s01 and the cut-off boundary in s03 (the daf's most severe originally-found defect). All three sugyot's repaired content is confirmed accurate and fully grounded in the source text and the file's own Rashi commentary, with no remaining fabrication, misattribution, self-contradiction, or boundary-crossing content bleed."
         }
       },
-      "certifiedAtCommit": "9f2d66cbd086c903016bf15bf6112fd358683b32"
+      "certifiedAtCommit": "9f2d66cbd086c903016bf15bf6112fd358683b32",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-009a-s02": {
       "sugyaId": "yoma-009a-s02",
       "daf": "9a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-9a-first-20260823a",
         "sourceFirst": true,
@@ -4851,12 +5145,19 @@
           "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, specifically re-checking the maaser sheni internal-consistency fix in s01 and the cut-off boundary in s03 (the daf's most severe originally-found defect). All three sugyot's repaired content is confirmed accurate and fully grounded in the source text and the file's own Rashi commentary, with no remaining fabrication, misattribution, self-contradiction, or boundary-crossing content bleed."
         }
       },
-      "certifiedAtCommit": "9f2d66cbd086c903016bf15bf6112fd358683b32"
+      "certifiedAtCommit": "9f2d66cbd086c903016bf15bf6112fd358683b32",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-009a-s03": {
       "sugyaId": "yoma-009a-s03",
       "daf": "9a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-9a-first-20260823a",
         "sourceFirst": true,
@@ -4918,12 +5219,19 @@
           "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, specifically re-checking the maaser sheni internal-consistency fix in s01 and the cut-off boundary in s03 (the daf's most severe originally-found defect). All three sugyot's repaired content is confirmed accurate and fully grounded in the source text and the file's own Rashi commentary, with no remaining fabrication, misattribution, self-contradiction, or boundary-crossing content bleed."
         }
       },
-      "certifiedAtCommit": "9f2d66cbd086c903016bf15bf6112fd358683b32"
+      "certifiedAtCommit": "9f2d66cbd086c903016bf15bf6112fd358683b32",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-009b-s01": {
       "sugyaId": "yoma-009b-s01",
       "daf": "9b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-9b-first-20260823a",
         "sourceFirst": true,
@@ -4993,12 +5301,19 @@
           "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, with particular attention to the most severe originally-found defects: the one-topic-block content shift across s04-s05-s06, the reversed Rav Papa pairing, and the fabricated closing on s06. All six sugyot's content is confirmed accurate, correctly bounded, and fully grounded in the source text and the file's own Rashi commentary, with no remaining misattribution, content-bleed, or fabrication."
         }
       },
-      "certifiedAtCommit": "988a7b147ae236b9ba309322394110efcf4de7c6"
+      "certifiedAtCommit": "988a7b147ae236b9ba309322394110efcf4de7c6",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-009b-s02": {
       "sugyaId": "yoma-009b-s02",
       "daf": "9b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-9b-first-20260823a",
         "sourceFirst": true,
@@ -5047,12 +5362,19 @@
           "declaration": "Re-verified after a lineId-only mechanical fix (no vilnaLine, speaker, text, or label content changed in any step). The semantic content of s02, s03, s04, s05, and s06 is unchanged from the already-CONFIRMED prior second pass. CONFIRMED for all affected sugyot."
         }
       },
-      "certifiedAtCommit": "7bb3ee604db249893efe9a65baf02dc5e7392d75"
+      "certifiedAtCommit": "7bb3ee604db249893efe9a65baf02dc5e7392d75",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-009b-s03": {
       "sugyaId": "yoma-009b-s03",
       "daf": "9b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-9b-first-20260823a",
         "sourceFirst": true,
@@ -5096,12 +5418,19 @@
           "declaration": "Re-verified after a lineId-only mechanical fix (no vilnaLine, speaker, text, or label content changed in any step). The semantic content of s02, s03, s04, s05, and s06 is unchanged from the already-CONFIRMED prior second pass. CONFIRMED for all affected sugyot."
         }
       },
-      "certifiedAtCommit": "7bb3ee604db249893efe9a65baf02dc5e7392d75"
+      "certifiedAtCommit": "7bb3ee604db249893efe9a65baf02dc5e7392d75",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-009b-s04": {
       "sugyaId": "yoma-009b-s04",
       "daf": "9b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-9b-first-20260823a",
         "sourceFirst": true,
@@ -5146,12 +5475,19 @@
           "declaration": "Re-verified after a lineId-only mechanical fix (no vilnaLine, speaker, text, or label content changed in any step). The semantic content of s02, s03, s04, s05, and s06 is unchanged from the already-CONFIRMED prior second pass. CONFIRMED for all affected sugyot."
         }
       },
-      "certifiedAtCommit": "7bb3ee604db249893efe9a65baf02dc5e7392d75"
+      "certifiedAtCommit": "7bb3ee604db249893efe9a65baf02dc5e7392d75",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-009b-s05": {
       "sugyaId": "yoma-009b-s05",
       "daf": "9b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-9b-first-20260823a",
         "sourceFirst": true,
@@ -5193,12 +5529,19 @@
           "declaration": "Re-verified after a lineId-only mechanical fix (no vilnaLine, speaker, text, or label content changed in any step). The semantic content of s02, s03, s04, s05, and s06 is unchanged from the already-CONFIRMED prior second pass. CONFIRMED for all affected sugyot."
         }
       },
-      "certifiedAtCommit": "7bb3ee604db249893efe9a65baf02dc5e7392d75"
+      "certifiedAtCommit": "7bb3ee604db249893efe9a65baf02dc5e7392d75",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-009b-s06": {
       "sugyaId": "yoma-009b-s06",
       "daf": "9b",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-9b-first-20260823a",
         "sourceFirst": true,
@@ -5250,12 +5593,19 @@
           "declaration": "Re-verified after a lineId-only mechanical fix (no vilnaLine, speaker, text, or label content changed in any step). The semantic content of s02, s03, s04, s05, and s06 is unchanged from the already-CONFIRMED prior second pass. CONFIRMED for all affected sugyot."
         }
       },
-      "certifiedAtCommit": "7bb3ee604db249893efe9a65baf02dc5e7392d75"
+      "certifiedAtCommit": "7bb3ee604db249893efe9a65baf02dc5e7392d75",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-010a-s01": {
       "sugyaId": "yoma-010a-s01",
       "daf": "10a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-10a-first-20260823a",
         "sourceFirst": true,
@@ -5315,12 +5665,19 @@
           "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, with particular attention to the most severe originally-found defect: the reversed R. Yehuda/baraita attribution on s03, re-confirmed directly against the file's own Rashi commentary. All three sugyot's repaired content is confirmed accurate, correctly bounded, and fully grounded in the source text and Rashi's own commentary, with no remaining fabrication, misattribution, or omission."
         }
       },
-      "certifiedAtCommit": "1cbb98556391ae19a0ad9d9cccaf1b639f691527"
+      "certifiedAtCommit": "1cbb98556391ae19a0ad9d9cccaf1b639f691527",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-010a-s02": {
       "sugyaId": "yoma-010a-s02",
       "daf": "10a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-10a-first-20260823a",
         "sourceFirst": true,
@@ -5380,12 +5737,19 @@
           "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, with particular attention to the most severe originally-found defect: the reversed R. Yehuda/baraita attribution on s03, re-confirmed directly against the file's own Rashi commentary. All three sugyot's repaired content is confirmed accurate, correctly bounded, and fully grounded in the source text and Rashi's own commentary, with no remaining fabrication, misattribution, or omission."
         }
       },
-      "certifiedAtCommit": "1cbb98556391ae19a0ad9d9cccaf1b639f691527"
+      "certifiedAtCommit": "1cbb98556391ae19a0ad9d9cccaf1b639f691527",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     },
     "yoma-010a-s03": {
       "sugyaId": "yoma-010a-s03",
       "daf": "10a",
-      "state": "CERTIFIED",
+      "state": "REVALIDATION_REQUIRED",
       "firstPass": {
         "reviewId": "sonnet5-10a-first-20260823a",
         "sourceFirst": true,
@@ -5445,7 +5809,14 @@
           "declaration": "Independently re-read the full daf and re-derived every field from scratch, blind to first-pass reasoning, with particular attention to the most severe originally-found defect: the reversed R. Yehuda/baraita attribution on s03, re-confirmed directly against the file's own Rashi commentary. All three sugyot's repaired content is confirmed accurate, correctly bounded, and fully grounded in the source text and Rashi's own commentary, with no remaining fabrication, misattribution, or omission."
         }
       },
-      "certifiedAtCommit": "1cbb98556391ae19a0ad9d9cccaf1b639f691527"
+      "certifiedAtCommit": "1cbb98556391ae19a0ad9d9cccaf1b639f691527",
+      "migration": {
+        "fromSchemaVersion": "1.0",
+        "toSchemaVersion": "2.0",
+        "migratedAtCommit": "6e37a672cf9b107b793aca7e10ce116d394317cc",
+        "migrationScript": "scripts/migrate_certification_schema_v2.py",
+        "reason": "Certified under schema 1.0, which required two source-first review passes plus a free-text 'every field was checked' declaration but no mechanically-enumerated, fingerprint-bound final whole-record audit. An independent audit demonstrated that gap concretely on Yoma 7a/7b. This record must receive a fresh schema-2.0 final audit and genuinely independent review before it may certify again; it does not read as CERTIFIED until then."
+      }
     }
   }
 }

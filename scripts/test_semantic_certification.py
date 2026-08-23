@@ -3,26 +3,60 @@
 from __future__ import annotations
 
 import copy
+import json
 
 from semantic_certification import (
+    STALE_SWEEP_CATEGORIES,
     certificate_status,
+    enumerate_semantic_paths,
     fingerprints,
     load_corpus,
     load_registry,
     make_certified_record,
+    raw_dir,
 )
 
 MODULE = "yoma"
 
 
-def review(review_id: str, verdict: str, source_fp: str, semantic_fp: str) -> dict:
+def review(review_id: str, reviewer_context_id: str, verdict: str, source_fp: str, semantic_fp: str) -> dict:
     return {
         "reviewId": review_id,
+        "reviewerContextId": reviewer_context_id,
         "sourceFirst": True,
         "verdict": verdict,
         "reviewedSourceFingerprint": source_fp,
         "reviewedSemanticFingerprint": semantic_fp,
         "evidence": "test evidence",
+    }
+
+
+def trivial_final_audit(module: str, daf: str, doc: dict, sugya: dict, review_id: str, auditor_context_id: str) -> dict:
+    """A mechanically-valid finalAudit for plumbing tests: every field is
+    marked NONFACTUAL (legal, requires no source-support lines) so this
+    helper does not need to make real Talmudic judgments. Content-quality
+    tests live in the semantic campaign itself, not here.
+    """
+    source_fp, semantic_fp = fingerprints(module, daf, doc, sugya)
+    raw = json.loads((raw_dir(module) / f"{daf}.json").read_text(encoding="utf-8"))
+    raw_lines = raw.get("lines") or []
+    return {
+        "reviewId": review_id,
+        "auditorContextId": auditor_context_id,
+        "auditedSourceFingerprint": source_fp,
+        "auditedSemanticFingerprint": semantic_fp,
+        "dafBoundary": {
+            "rawLineCount": len(raw_lines),
+            "finalRawLine": raw_lines[-1] if raw_lines else "",
+            "dafEndState": "COMPLETE",
+        },
+        "fieldInventory": [
+            {"path": p, "verdict": "NONFACTUAL", "boundarySafe": True, "crossReference": False}
+            for p in enumerate_semantic_paths(sugya)
+        ],
+        "staleContentSweep": {
+            "entries": [{"category": c, "found": False} for c in STALE_SWEEP_CATEGORIES]
+        },
     }
 
 
@@ -33,6 +67,7 @@ def main() -> None:
     sid = "yoma-042a-s01"
     daf, doc, sugya = corpus[sid]
     source_fp, semantic_fp = fingerprints(MODULE, daf, doc, sugya)
+    audit = trivial_final_audit(MODULE, daf, doc, sugya, "audit-C", "agent-C")
 
     # 1. Legacy review metadata is never certification.
     fake = copy.deepcopy(sugya)
@@ -40,15 +75,16 @@ def main() -> None:
     state, _ = certificate_status(MODULE, daf, doc, fake, None)
     assert state == "UNCERTIFIED"
 
-    # 2. A clean two-pass certificate is fresh only when both reviewers saw
+    # 2. A clean three-block certificate is fresh only when all three saw
     # exactly the candidate being certified.
     rec = make_certified_record(
         MODULE,
         daf,
         doc,
         sugya,
-        review("pass-A", "VERIFIED", source_fp, semantic_fp),
-        review("pass-B", "CONFIRMED", source_fp, semantic_fp),
+        review("pass-A", "agent-A", "VERIFIED", source_fp, semantic_fp),
+        review("pass-B", "agent-B", "CONFIRMED", source_fp, semantic_fp),
+        audit,
         "deadbeef",
     )
     state, problems = certificate_status(MODULE, daf, doc, sugya, rec)
@@ -59,6 +95,20 @@ def main() -> None:
     bad["secondPass"]["reviewId"] = bad["firstPass"]["reviewId"]
     state, problems = certificate_status(MODULE, daf, doc, sugya, bad)
     assert state == "STALE" and any("different reviewId" in p for p in problems)
+
+    # 3b. Same reviewer CONTEXT cannot certify both passes, even with
+    # different reviewId strings -- a different label inside the same
+    # reasoning context is not real independence.
+    bad_context = copy.deepcopy(rec)
+    bad_context["secondPass"]["reviewerContextId"] = bad_context["firstPass"]["reviewerContextId"]
+    state, problems = certificate_status(MODULE, daf, doc, sugya, bad_context)
+    assert state == "STALE" and any("reviewer contexts" in p for p in problems)
+
+    # 3c. The final auditor context cannot equal the first-pass reviewer context.
+    bad_audit_context = copy.deepcopy(rec)
+    bad_audit_context["finalAudit"]["auditorContextId"] = bad_audit_context["firstPass"]["reviewerContextId"]
+    state, problems = certificate_status(MODULE, daf, doc, sugya, bad_audit_context)
+    assert state == "STALE" and any("auditorContextId must differ" in p for p in problems)
 
     # 4. Semantic edit automatically invalidates the old certificate.
     changed_doc = copy.deepcopy(doc)
@@ -88,8 +138,9 @@ def main() -> None:
         daf,
         doc,
         sugya,
-        review("repair-finder", "REPAIR_REQUIRED", source_fp, semantic_fp),
-        review("repair-checker", "CONFIRMED", source_fp, semantic_fp),
+        review("repair-finder", "agent-A", "REPAIR_REQUIRED", source_fp, semantic_fp),
+        review("repair-checker", "agent-B", "CONFIRMED", source_fp, semantic_fp),
+        audit,
         "deadbeef",
     )
     state, problems = certificate_status(MODULE, daf, doc, sugya, known_bad)
@@ -104,18 +155,21 @@ def main() -> None:
     assert state == "STALE" and any("no source/semantic repair delta" in p for p in problems)
 
     # 9. A genuine repaired candidate can certify when the first pass is bound
-    # to the old candidate and the second pass is bound to the repaired candidate.
+    # to the old candidate and the second pass/final audit are bound to the
+    # repaired candidate.
     repaired_doc = copy.deepcopy(doc)
     repaired_sugya = next(s for s in repaired_doc["sugyot"] if s["id"] == sid)
     repaired_sugya.setdefault("display", {})["title"] = repaired_sugya.get("display", {}).get("title", "") + " repaired"
     repaired_source_fp, repaired_semantic_fp = fingerprints(MODULE, daf, repaired_doc, repaired_sugya)
+    repaired_audit = trivial_final_audit(MODULE, daf, repaired_doc, repaired_sugya, "audit-C2", "agent-C2")
     repaired_rec = make_certified_record(
         MODULE,
         daf,
         repaired_doc,
         repaired_sugya,
-        review("repair-finder", "REPAIR_REQUIRED", source_fp, semantic_fp),
-        review("repair-checker", "CONFIRMED", repaired_source_fp, repaired_semantic_fp),
+        review("repair-finder", "agent-A", "REPAIR_REQUIRED", source_fp, semantic_fp),
+        review("repair-checker", "agent-B", "CONFIRMED", repaired_source_fp, repaired_semantic_fp),
+        repaired_audit,
         "deadbeef",
         repair_ref="feedface",
     )
@@ -140,6 +194,15 @@ def main() -> None:
             continue
         state, _ = certificate_status(MODULE, other_daf, other_doc, other_sugya, None)
         assert state == "UNCERTIFIED"
+
+    # 12. A CERTIFIED record with no finalAudit at all (e.g. unmigrated
+    # schema-1.0 data, or hand-tampering) never silently reads as CERTIFIED
+    # under schema 2.0 -- it reads as REVALIDATION_REQUIRED specifically,
+    # distinct from an ordinary STALE content change.
+    no_audit = copy.deepcopy(rec)
+    del no_audit["finalAudit"]
+    state, problems = certificate_status(MODULE, daf, doc, sugya, no_audit)
+    assert state == "REVALIDATION_REQUIRED", (state, problems)
 
     print("OK: semantic certification safety properties hold")
 

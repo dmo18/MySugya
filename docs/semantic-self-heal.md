@@ -25,12 +25,133 @@ State is derived from live data, not trusted from a stored label.
 - `UNCERTIFIED`: no certification record exists. This is the default.
 - `REPAIR_REQUIRED`: a source-first first pass found one or more semantic defects.
 - `REPAIRED_PENDING_REVIEW`: the current content awaits an independent source-first second pass. This state is also used after a clean first pass because one reviewer alone cannot certify.
-- `CERTIFIED`: both source-first passes are present, have different review ids, the second pass says `CONFIRMED`, and both fingerprints match the live corpus.
-- `STALE`: a record says certified but the source or semantic payload changed.
+- `PENDING_FINAL_AUDIT`: both source-first passes are present, have different review ids and reviewer contexts, and the second pass says `CONFIRMED` against the exact current candidate. The candidate is now finalized but has not yet received the mandatory schema-2.0 final whole-record audit (see below). It is not certified.
+- `CERTIFIED`: both source-first passes, a passing final whole-record audit fingerprint-bound to the exact final candidate, and every fingerprint match the live corpus.
+- `STALE`: a record says certified but the source or semantic payload (or the final audit's own bound fingerprints) changed after certification.
+- `REVALIDATION_REQUIRED`: a record was certified under the retired schema 1.0, which lacked the mandatory final whole-record audit. It never reads as CERTIFIED regardless of fingerprint freshness. See "Schema 2.0" below.
 - `BLOCKED`: the source or correct interpretation cannot be resolved responsibly.
 - `INVALID`: malformed certification metadata.
 
 A record missing from the registry is never inferred clean from old review docs, commit messages, passing gates, neighboring fields, or historical frozen status.
+
+## Schema 2.0: mandatory final whole-record audit
+
+An independent audit demonstrated that schema 1.0's contract -- two source-first
+passes plus a free-text "every field was checked" declaration -- was
+insufficient. On Yoma 7a/7b, the raw daf ends mid-thought, but fields other
+than the one a repair touched (quiz, finalRuling, secondary prose) still
+asserted the conclusion the Gemara only reaches on the following daf. Schema
+1.0's registry certified both records anyway.
+
+Schema 2.0 requires every CERTIFIED record to carry a `finalAudit` block,
+produced strictly AFTER the first and second source-first passes (see the
+`PENDING_FINAL_AUDIT` state above), fingerprint-bound to the exact final
+`sourceFingerprint`/`semanticFingerprint` being certified. It has three parts:
+
+### Machine-generated field inventory
+
+`scripts/semantic_certification.py`'s `enumerate_semantic_paths(sugya)`
+mechanically enumerates every semantically authored field/leaf actually
+present in the finished record: the shared daf summary, `lineRange` and line
+ownership, every populated `display.*` and `learning.*` field, every
+`argumentFlow` step's label/speaker/text/sourceRefs, `quizSeeds`
+questions/answers, `misconceptions`, `finalRuling`, `alternateAngles`,
+`prerequisiteKnowledge`, `requiresUnderstanding`, `relatedSugyot`,
+`visualizableElements` prose, `topicTags`, and `conceptRefs` where present.
+This list is produced by code from the live payload, not written by a
+reviewer -- the validator fails if any expected path is missing or if the
+audit contains duplicate/ambiguous entries for the same path.
+
+Each `fieldInventory` entry carries:
+
+- `path`: the enumerated field path
+- `verdict`: `SUPPORTED` / `REPAIR_REQUIRED` / `BLOCKED` / `NONFACTUAL`
+- `supportingLines`: for `SUPPORTED`, a nonempty list of `{daf, startVilnaLine, endVilnaLine}` the claim rests on
+- `boundarySafe`: true/false, mechanically re-derived and cross-checked -- a reviewer cannot declare it true while the supporting lines actually fall outside the authorized range
+- `crossReference`: true only when the field is explicitly a pointer to another daf/sugya rather than a claim about the current one (e.g. "continues on 8a")
+- `note`: optional
+
+Supporting lines for an ordinary sugya field must fall inside that sugya's
+own authorized `lineRange` on the current daf. The shared `dafSummary` path
+may cite any line on the current daf (a page-level claim is not scoped to
+one sugya's range). A claim may never use a *different* daf as source
+support unless `crossReference` is explicitly true -- this is the mechanical
+form of "it is true on 8a does not justify stating it as established on
+7b." Any `REPAIR_REQUIRED`/`BLOCKED` verdict in the inventory means the
+record is not ready to certify at all.
+
+### Absolute physical daf-boundary contract
+
+`finalAudit.dafBoundary` records `rawLineCount` and `finalRawLine`, both
+mechanically checked against the live `talmuddev` raw source for that daf --
+a reviewer cannot merely assert a daf ends mid-thought without the exact
+final line matching reality. `dafEndState` is one of `COMPLETE`,
+`MID_WORD`, `MID_SENTENCE`, `MID_QUESTION`, `MID_PROOF`, `MID_ARGUMENT`,
+`OTHER_OPEN_CONTINUATION`.
+
+Whenever `dafEndState` is not `COMPLETE`, the audit must also include an
+`openEndingFieldSweep` covering every expected field path with an explicit
+`importsNextDafConclusion: true/false`. Any `true` blocks certification --
+the field must be repaired (made explicitly unresolved, or point forward
+without asserting the result) before a fresh audit can pass.
+
+### Mandatory post-repair stale-content sweep
+
+`finalAudit.staleContentSweep.entries` is a fixed, mechanically-enumerated
+checklist (`STALE_SWEEP_CATEGORIES` in `semantic_certification.py`) covering
+stale original errors, stale/contradictory speaker attribution, old
+conclusions left in secondary fields, false closure, next-daf content leaked
+backward, claims unsupported by the physical daf, and stale
+quiz/finalRuling/summary/learning/misconception/relatedSugya/visualizable
+prose, plus stale `sourceRefs` and out-of-range references. Every category
+must be present with an explicit `found: true/false`; any `found: true`
+blocks certification until repaired and re-audited.
+
+### Real review independence
+
+A different `reviewId` string inside the same reasoning context is not
+independence. Every review block (`firstPass`, `secondPass`) now requires a
+`reviewerContextId`, and `finalAudit` requires an `auditorContextId` -- each
+naming a genuinely distinct reviewer/session/context, never a fabricated
+string. The validator requires `firstPass.reviewerContextId` to differ from
+`secondPass.reviewerContextId`, and `finalAudit.auditorContextId` to differ
+from `firstPass.reviewerContextId`. In this environment, a genuinely fresh
+isolated context means a separate subagent invocation (e.g. via the Agent
+tool) that has not seen the first-pass reasoning -- not a second persona
+inside the same conversation. If a genuinely fresh, isolated review context
+is unavailable, do not record a pass; leave the record where it is and say
+so.
+
+### Recording a final audit
+
+```bash
+python3 scripts/semantic_review_state.py first --module yoma \
+  --sugya yoma-024a-s01 --review-id session-A --reviewer-context-id agent-A \
+  --verdict VERIFIED --evidence-file /tmp/024a-first.json
+python3 scripts/semantic_review_state.py second --module yoma \
+  --sugya yoma-024a-s01 --review-id session-B --reviewer-context-id agent-B \
+  --verdict CONFIRMED --evidence-file /tmp/024a-second.json
+python3 scripts/semantic_review_state.py final-audit --module yoma \
+  --sugya yoma-024a-s01 --review-id session-C --auditor-context-id agent-C \
+  --audit-file /tmp/024a-final-audit.json --commit-ref HEAD
+```
+
+The `--audit-file` JSON must contain `dafBoundary`, `fieldInventory`, and
+`staleContentSweep` (and `openEndingFieldSweep` when the daf ending is not
+`COMPLETE`). `final-audit` validates the payload with the same
+`validate_final_audit` function the CI ratchet uses, so a broken audit is
+rejected before it is ever written to the registry.
+
+### Migration: schema 1.0 is not grandfathered
+
+Every record certified under schema 1.0 (Yoma 2a-10a as of this hardening)
+was relabeled `REVALIDATION_REQUIRED` by the one-time
+`scripts/migrate_certification_schema_v2.py` migration. Historical
+`firstPass`/`secondPass` evidence and fingerprints are preserved for
+reference, but the record never reads as CERTIFIED again until it receives
+a real schema-2.0 final audit and genuinely independent review. See
+`docs/claude-semantic-campaign-runbook.md` for the retroactive revalidation
+sequence.
 
 ## The two fingerprints
 
@@ -88,7 +209,7 @@ python3 scripts/semantic_daf_packet.py --module yoma --daf 24a --second-pass
 
 The independent packet deliberately omits first-pass findings and reasoning. The second reviewer re-derives the page from the source and may return `CONFIRMED`, `REJECTED`, or `BLOCKED` for each candidate record.
 
-The first and second passes must carry different `reviewId` values. A worker cannot certify its own pass twice.
+The first and second passes must carry different `reviewId` values AND different `reviewerContextId` values -- a genuinely distinct reviewer/session/context, not just a different label. A worker cannot certify its own pass twice, and a different label inside the same reasoning context is not independence either.
 
 ## Live self-heal state
 
@@ -102,7 +223,7 @@ python3 scripts/semantic_self_heal.py --module yoma next
 python3 scripts/validate_semantic_certification.py --module yoma --report
 ```
 
-The first unfinished record receives one of `AUDIT`, `REPAIR`, `INDEPENDENT_REVIEW`, or `BLOCKED`. In execution, Claude groups the next records by daf and reviews that whole daf before certifying it.
+The first unfinished record receives one of `AUDIT`, `REPAIR`, `INDEPENDENT_REVIEW`, `FINAL_AUDIT`, or `BLOCKED`. In execution, Claude groups the next records by daf and reviews that whole daf before certifying it.
 
 A real ambiguity is a stop condition, not permission to guess.
 
@@ -113,12 +234,13 @@ The reviewer does not hand-edit fingerprint values. Use `semantic_review_state.p
 Examples:
 
 ```bash
-python3 scripts/semantic_review_state.py first --module yoma --sugya yoma-024a-s01 --review-id session-A --verdict REPAIR_REQUIRED --evidence-file /tmp/024a-first.json
+python3 scripts/semantic_review_state.py first --module yoma --sugya yoma-024a-s01 --review-id session-A --reviewer-context-id agent-A --verdict REPAIR_REQUIRED --evidence-file /tmp/024a-first.json
 python3 scripts/semantic_review_state.py repaired --module yoma --sugya yoma-024a-s01 --repair-ref HEAD
-python3 scripts/semantic_review_state.py second --module yoma --sugya yoma-024a-s01 --review-id session-B --verdict CONFIRMED --evidence-file /tmp/024a-second.json --commit-ref HEAD
+python3 scripts/semantic_review_state.py second --module yoma --sugya yoma-024a-s01 --review-id session-B --reviewer-context-id agent-B --verdict CONFIRMED --evidence-file /tmp/024a-second.json
+python3 scripts/semantic_review_state.py final-audit --module yoma --sugya yoma-024a-s01 --review-id session-C --auditor-context-id agent-C --audit-file /tmp/024a-final-audit.json --commit-ref HEAD
 ```
 
-A clean first pass still requires the independent second command before the record can become `CERTIFIED`.
+A clean first pass still requires the independent second pass, AND the mandatory final whole-record audit ("Schema 2.0" above), before the record can become `CERTIFIED`. A CONFIRMED second pass alone only reaches `PENDING_FINAL_AUDIT`.
 
 ## Holistic repair rule
 
