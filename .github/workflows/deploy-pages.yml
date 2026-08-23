@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -39,6 +41,12 @@ jobs:
       - name: Yoma offline validation gates
         run: npm run validate:offline:yoma
 
+      - name: Semantic certification safety tests
+        run: python3 scripts/test_semantic_certification.py
+
+      - name: Semantic certification status
+        run: python3 scripts/validate_semantic_certification.py --module yoma --report
+
       - name: Rashi PR scope check
         if: github.event_name == 'pull_request'
         run: |
@@ -50,6 +58,12 @@ jobs:
         run: |
           git fetch --no-tags origin ${{ github.base_ref }}
           python3 scripts/worker_pipeline.py ci-check --base origin/${{ github.base_ref }}
+
+      - name: Semantic certification ratchet
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch --no-tags origin ${{ github.base_ref }}
+          python3 scripts/validate_semantic_certification.py --module yoma --ratchet --base origin/${{ github.base_ref }}
 
       - name: Build production site
         # Explicit module selection (Phase 3 Step 4A): GitHub Pages must
