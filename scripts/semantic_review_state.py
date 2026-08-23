@@ -2,7 +2,8 @@
 """Safely update the semantic certification registry from completed reviews.
 
 This tool records decisions. It never makes them. Reviewers supply verdicts and
-evidence after reading a source-first packet.
+evidence after reading a source-first packet. Every review pass is bound to the
+exact source and semantic fingerprints visible to that reviewer.
 
 Examples:
 
@@ -20,16 +21,15 @@ Examples:
     --sugya yoma-024a-s01 --review-id session-B --verdict CONFIRMED \
     --evidence-file /tmp/024a-second.json --commit-ref HEAD
 
-The second command stamps the live source and semantic fingerprints only when
-review ids differ and the first pass exists. REJECTED returns the record to
-REPAIR_REQUIRED. BLOCKED stops the queue.
+A first-pass REPAIR_REQUIRED record cannot become CERTIFIED unless `repaired`
+has been recorded and the candidate actually differs from what the first reviewer
+saw. REJECTED returns the record to REPAIR_REQUIRED. BLOCKED stops the queue.
 """
 from __future__ import annotations
 
 import argparse
 import json
 import subprocess
-import sys
 from pathlib import Path
 from typing import Any, Dict
 
@@ -40,8 +40,7 @@ def read_evidence(path: str | None) -> Any:
     if not path:
         return "No separate evidence file supplied."
     p = Path(path)
-    data = json.loads(p.read_text(encoding="utf-8"))
-    return data
+    return json.loads(p.read_text(encoding="utf-8"))
 
 
 def resolve_ref(ref: str) -> str:
@@ -88,6 +87,7 @@ def main() -> None:
     args = ap.parse_args()
     module, sid = args.module, args.sugya
     daf, doc, sugya = get_target(module, sid)
+    source_fp, semantic_fp = fingerprints(module, daf, doc, sugya)
     registry = load_registry(module)
     records = registry.setdefault("records", {})
     current = records.get(sid) or {"sugyaId": sid, "daf": daf}
@@ -105,6 +105,8 @@ def main() -> None:
                 "reviewId": args.review_id,
                 "sourceFirst": True,
                 "verdict": args.verdict,
+                "reviewedSourceFingerprint": source_fp,
+                "reviewedSemanticFingerprint": semantic_fp,
                 "evidence": read_evidence(args.evidence_file),
             },
         }
@@ -119,9 +121,11 @@ def main() -> None:
         first_pass = current.get("firstPass")
         if not isinstance(first_pass, dict) or first_pass.get("verdict") != "REPAIR_REQUIRED":
             raise SystemExit("repaired transition requires an existing firstPass REPAIR_REQUIRED record")
+        # Record the repair action even before the independent review. The final
+        # certificate validator separately proves that the reviewed candidate
+        # actually differs from the first-pass known-bad candidate.
         current["state"] = "REPAIRED_PENDING_REVIEW"
         current["repairRef"] = resolve_ref(args.repair_ref)
-        # Never retain old cert hashes over repaired content.
         for k in ("sourceFingerprint", "semanticFingerprint", "secondPass", "certifiedAtCommit"):
             current.pop(k, None)
         records[sid] = current
@@ -135,10 +139,16 @@ def main() -> None:
     if first_pass.get("reviewId") == args.review_id:
         raise SystemExit("independent second pass must use a different reviewId")
 
+    # Do not let a known-bad first pass skip the explicit repair transition.
+    if first_pass.get("verdict") == "REPAIR_REQUIRED" and not current.get("repairRef"):
+        raise SystemExit("REPAIR_REQUIRED first pass must record `repaired` before second review")
+
     second_block = {
         "reviewId": args.review_id,
         "sourceFirst": True,
         "verdict": args.verdict,
+        "reviewedSourceFingerprint": source_fp,
+        "reviewedSemanticFingerprint": semantic_fp,
         "evidence": read_evidence(args.evidence_file),
     }
 
@@ -152,7 +162,6 @@ def main() -> None:
         current.pop("semanticFingerprint", None)
         current.pop("certifiedAtCommit", None)
     else:
-        source_fp, semantic_fp = fingerprints(module, daf, doc, sugya)
         current.update({
             "state": "CERTIFIED",
             "sourceFingerprint": source_fp,
